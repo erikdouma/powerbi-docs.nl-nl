@@ -1,4 +1,4 @@
-In deze les maken we een *inhoudspakket* met bestaande artefacten in Power BI en delen we dit vervolgens met collega's.
+In deze les maken we een *inhoudspakket* met bestaande artefacten in Power BI en delen we dit vervolgens met collega's. 
 
 In **Mijn werkruimte** hebben we een dashboard met daaronder het rapport en de gegevensset. We willen dit delen als een pakket met anderen in de organisatie, zodat het opnieuw kan worden gebruikt.
 
