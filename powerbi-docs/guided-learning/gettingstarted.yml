@@ -1,0 +1,52 @@
+documentType: Tutorial
+title: Aan de slag
+metadata:
+  title: Aan de slag | Microsoft BI
+  description: Meer informatie over Power BI, hoe de bouwstenen van Power BI samenwerken en hoe u ze kunt gebruiken om inzicht te krijgen in uw gegevens.
+  audience: Business User
+  level: Beginner
+  nextTutorialHref: gettingdata
+  nextTutorialTitle: Gegevens ophalen
+  displayType: one-column
+  author: davidiseminger
+  manager: kfile
+  ms.service: powerbi
+  ms.topic: get-started-article
+  ms.date: 10/27/2017
+  ms.author: davidi
+items:
+- durationInMinutes: 1
+  content: >
+    Meer informatie over Power BI, hoe de bouwstenen van Power BI samenwerken en hoe u ze kunt gebruiken om inzicht te krijgen in uw gegevens.
+  ms.openlocfilehash: 398c10dfbcd935276b98f3d50df172d6b0d2af48
+  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.translationtype: HT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 11/15/2017
+- title: Inleiding tot Power BI
+  durationInMinutes: 5
+  content: >
+    [!INCLUDE [](includes/0-0-what-is-power-bi.md)]
+- title: Power BI gebruiken
+  durationInMinutes: 4
+  content: >
+    > [!Video https://www.youtube.com/embed/1c01r_pAZdk?rel=0]
+
+
+    [!INCLUDE [](includes/0-1-intro-using-power-bi.md)]
+- title: De bouwstenen van Power BI
+  durationInMinutes: 6
+  content: >
+    [!INCLUDE [](includes/0-0b-building-blocks-power-bi.md)]
+- title: Een kort overzicht van de Power BI-service
+  durationInMinutes: 9
+  content: >
+    > [!Video https://www.youtube.com/embed/5srP3h3RJf8?rel=0]
+
+
+    [!INCLUDE [](includes/0-3-dashboards-cloud-services.md)]
+- title: Overzicht en volgend onderwerp
+  durationInMinutes: 5
+  content: >
+    [!INCLUDE [](includes/0-4-summary-of-intro-to-power-bi.md)]
+- content: "U hebt de sectie **Aan de slag** van de begeleide training voor Microsoft Power BI voltooid.\0"
