@@ -15,18 +15,17 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 61d74fb9c25abb0cbc5135795d5567016f88b0c0
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 1fc6e666753ae45931604a1113f340115ec18269
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Veelgestelde vragen over Power BI
 * Als u andere vragen hebt, kunt u deze stellen [in de Power BI-community](http://community.powerbi.com/).
 * Nog steeds geen antwoord? Ga naar de [ondersteuningspagina van Power BI](https://powerbi.microsoft.com/support/).
-* Of klik op het pictogram **Contact opnemen** ![](media/service-frequently-asked-questions/power-bi-contact-me-icon.png) in de rechterbenedenhoek van dit browservenster.
 
 ## <a name="what-is-microsoft-power-bi"></a>Wat is Microsoft Power BI?
 [Power BI](https://powerbi.microsoft.com/) is een business analytics-service in de cloud die iedereen de mogelijkheid biedt om gegevens sneller, efficiënter en met meer inzicht te visualiseren en analyseren. De service geeft gebruikers toegang tot een breed scala aan gegevens via eenvoudig te gebruiken dashboards, interactieve rapporten en interessante visualisaties die gegevens tot leven brengen.
@@ -156,5 +155,4 @@ Net als in veel andere services en software van Microsoft, biedt Power BI een ee
 ## <a name="next-steps"></a>Volgende stappen
 * Nog vragen? [Misschien dat de community van Power BI het antwoord weet](http://community.powerbi.com/).
 * Nog steeds geen antwoord? Ga naar de [ondersteuningspagina van Power BI](https://powerbi.microsoft.com/support/).
-* Of klik op het pictogram **Contact opnemen** ![](media/service-frequently-asked-questions/power-bi-contact-me-icon.png) in de rechterbenedenhoek van dit browservenster.
 
