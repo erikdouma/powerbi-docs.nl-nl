@@ -1,0 +1,16 @@
+- name: Aan de slag
+  href: 'gettingstarted.yml#step-0'
+- name: Gegevens ophalen
+  href: 'gettingdata.yml#step-0'
+- name: Modellen maken
+  href: 'modeling.yml#step-0'
+- name: Visualisaties
+  href: 'visualizations.yml#step-0'
+- name: Gegevens verkennen
+  href: 'exploringdata.yml#step-0'
+- name: Power BI en Excel
+  href: 'powerbiandexcel.yml#step-0'
+- name: Publiceren en delen
+  href: 'publishingandsharing.yml#step-0'
+- name: Inleiding tot DAX
+  href: 'introductiontodax.yml#step-0'
