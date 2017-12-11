@@ -1,3 +1,4 @@
+### YamlMime:YamlDocument
 documentType: Tutorial
 title: Visualisaties
 metadata:
@@ -12,17 +13,17 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 10/27/2017
+  ms.date: 12/05/2017
   ms.author: davidi
+  ms.openlocfilehash: 9104611f4ab91a2d212715820a0f5119f8f1503b
+  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+  ms.translationtype: HT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 12/06/2017
 items:
 - durationInMinutes: 1
   content: >
-    Met visualisaties komen uw gegevens tot leven en komt u tot inzichten die alleen aan het licht komen met pakkende visuele representaties. In deze sectie kunt u lezen hoe.
-  ms.openlocfilehash: e63bc13ecb7f9a0e296188c3a328e0cd19c83184
-  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
-  ms.translationtype: HT
-  ms.contentlocale: nl-NL
-  ms.lasthandoff: 11/15/2017
+    Met visualisaties komen uw gegevens tot leven en komt u tot inzichten die alleen aan het licht komen met pakkende visuele representaties. Deze sectie van de begeleide training voor **Power BI** laat zien hoe u hiermee aan de slag kunt.
 - title: Inleiding tot visuals in Power BI
   durationInMinutes: 2
   content: >
@@ -156,4 +157,4 @@ items:
 
 
     [!INCLUDE [](includes/3-11h-r-visual-integration.md)]
-- content: "U hebt de sectie **Visualisaties** van de begeleide training voor Microsoft Power BI voltooid.\0"
+- content: "Goed gedaan. U hebt de sectie **Visualisaties** van **Begeleide training** voltooid. U bent nu klaar voor de volgende zelfstudie: **Gegevens verkennen**.\0"

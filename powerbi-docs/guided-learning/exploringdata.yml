@@ -1,3 +1,4 @@
+### YamlMime:YamlDocument
 documentType: Tutorial
 title: Gegevens verkennen
 metadata:
@@ -12,17 +13,17 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 10/27/2017
+  ms.date: 12/05/2017
   ms.author: davidi
+  ms.openlocfilehash: 67e0b44ff76a8e32de0e6f460afe1fb45954dbb7
+  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+  ms.translationtype: HT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 12/06/2017
 items:
 - durationInMinutes: 1
   content: >
-    Meer informatie over het zoeken, verbinding maken met en het beheer en gebruik van gegevens in Power BI.
-  ms.openlocfilehash: 04fc3f0a47ab4194031b6e2bb65eacc0ac89d5f5
-  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
-  ms.translationtype: HT
-  ms.contentlocale: nl-NL
-  ms.lasthandoff: 11/15/2017
+    Welkom bij de zelfstudie **Gegevens verkennen**. Hier vindt u meer informatie over het zoeken, verbinding maken met en het beheer en gebruik van gegevens in Power BI.
 - title: Inleiding tot de Power BI-service
   durationInMinutes: 2
   content: >
@@ -93,4 +94,4 @@ items:
 
 
     [!INCLUDE [](includes/4-6-install-configure-personal-gateway.md)]
-- content: "U hebt de sectie **Gegevens verkennen** van de begeleide training voor Microsoft Power BI voltooid.\0"
+- content: "Deze sectie **Gegevens verkennen** van de begeleide training heeft u voorbereid te werken met allerlei verschillende gegevenstypen. In de volgende zelfstudie leert u hoe u een algemene gegevensbron, Excel, gebruikt.\0"

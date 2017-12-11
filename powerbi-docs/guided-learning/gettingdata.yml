@@ -1,3 +1,4 @@
+### YamlMime:YamlDocument
 documentType: Tutorial
 title: Gegevens ophalen
 metadata:
@@ -12,17 +13,17 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 10/27/2017
+  ms.date: 12/05/2017
   ms.author: davidi
+  ms.openlocfilehash: a490c763a04fb3558ebc6e973ff1ec00d18c876c
+  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+  ms.translationtype: HT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 12/06/2017
 items:
 - durationInMinutes: 1
   content: >
-    Verken en leer hoe u op verschillende manieren gegevens in Power BI kunt importeren en hiermee kunt werken.
-  ms.openlocfilehash: b994ce3414ac359333199c2174570ee314193341
-  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
-  ms.translationtype: HT
-  ms.contentlocale: nl-NL
-  ms.lasthandoff: 11/15/2017
+    Gegevens zijn de kern van Power BI. In deze sectie van de **begeleide training** krijgt u informatie over het ophalen van en werken met gegevens in Power BI.
 - title: Overzicht van Power BI Desktop
   durationInMinutes: 4
   content: >
@@ -65,4 +66,4 @@ items:
 
 
     [!INCLUDE [](includes/1-5-cleaning-irregular-data.md)]
-- content: "U hebt de sectie **Gegevens ophalen** van de begeleide training voor Microsoft Power BI voltooid.\0"
+- content: "Heel goed. U hebt de sectie **Gegevens ophalen** van de begeleide training voor Microsoft Power BI voltooid. U gaat nu leren **modellen maken**. Dit is namelijk het onderwerp van de volgende zelfstudie.\0"

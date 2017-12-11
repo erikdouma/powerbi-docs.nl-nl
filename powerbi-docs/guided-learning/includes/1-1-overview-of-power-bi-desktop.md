@@ -7,7 +7,7 @@ Zoals altijd in deze cursus volgt uw leertraject hetzelfde pad als de werkstroom
 ## <a name="an-overview-of-power-bi-desktop"></a>Een overzicht van Power BI Desktop
 Power BI Desktop is een hulpprogramma voor de verbinding met en het opschonen en visualiseren van uw gegevens. U kunt met Power BI Desktop verbinding met gegevens maken en de gegevens vervolgens op verschillende manieren modelleren en visualiseren. De meeste gebruikers die aan business intelligence-projecten werken, werken het merendeel van de tijd in Power BI Desktop.
 
-U kunt Power BI Desktop downloaden [van het web](http://go.microsoft.com/fwlink/?LinkID=521662) of via de Power BI-service. Selecteer in de rechterbovenhoek van Power BI de knop met de pijl-omlaag en selecteer vervolgens Power BI Desktop.
+U kunt Power BI Desktop downloaden [via internet](http://go.microsoft.com/fwlink/?LinkID=521662). U kunt **Power BI Desktop** ook installeren als een app vanuit de [ **Windows Store**](http://aka.ms/pbidesktopstore), of u kunt het downloaden via de Power BI-service. Als u **Power BI Desktop** wilt downloaden via de service, selecteert u de pijl omlaag in de rechterbovenhoek van Power BI en selecteert u vervolgens Power BI Desktop.
 
 ![](media/1-1-overview-of-power-bi-desktop/1-1_1.png)
 
