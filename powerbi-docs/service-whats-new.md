@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/01/2017
 ms.author: sirsu
-ms.openlocfilehash: 7f01ed805358b5b74a32ae26fb757f592c617088
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 4cf430880ade8bafb345fef3f5d7fec228cb6272
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Wat is er nieuw in de Power BI-service
 Raadpleeg deze pagina voor bekende problemen en onlangs uitgebrachte functies in de **Power BI-service**. Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -167,7 +167,7 @@ Zie [de Power BI-teamblog](https://powerbi.microsoft.com/blog/power-bi-service-m
 
 **28 april 2016**
 
-* [Snelle inzichten op dashboardtegels](service-insights.md#run-quick-insights-on-a-dashboard-tile): wanneer een tegel wordt weergeven in de focusmodus, klikt u op Inzichten krijgen om automatisch binnen enkele seconden te zoeken naar de tegel en naar de bijbehorende gegevens voor correlaties, uitschieters, trends, seizoensgebondenheid, wijzigingen in trends en belangrijke factoren.
+* [Snelle inzichten op dashboardtegels](service-insights.md): wanneer een tegel wordt weergeven in de focusmodus, klikt u op Inzichten krijgen om automatisch binnen enkele seconden te zoeken naar de tegel en naar de bijbehorende gegevens voor correlaties, uitschieters, trends, seizoensgebondenheid, wijzigingen in trends en belangrijke factoren.
 
 Zie [de Power BI-teamblog](https://powerbi.microsoft.com/blog/find-more-insights-in-your-dashboards-with-quick-insights/) voor meer informatie
 
