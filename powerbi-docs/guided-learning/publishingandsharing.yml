@@ -1,5 +1,4 @@
-### YamlMime:YamlDocument
-documentType: Tutorial
+### YamlMime:Tutorial
 title: Publiceren en delen
 metadata:
   title: Publiceren en delen | Microsoft Power BI
@@ -7,7 +6,7 @@ metadata:
   audience: Business User
   level: Beginner
   nextTutorialHref: introductiontodax
-  nextTutorialTitle: Inleiding tot DAX
+  nextTutorialTitle: Introduction to DAX
   displayType: one-column
   author: davidiseminger
   manager: kfile
@@ -15,15 +14,15 @@ metadata:
   ms.topic: get-started-article
   ms.date: 12/06/2017
   ms.author: davidi
-  ms.openlocfilehash: c7204f34360f22f75c43ed65271d1263071719b9
-  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+  ms.openlocfilehash: cc8560f56cba1f8bb0dc3d7faedf44433318288b
+  ms.sourcegitcommit: 1791b8f10332c680a1552d5361a6e01b75091385
   ms.translationtype: HT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 12/06/2017
+  ms.lasthandoff: 12/12/2017
 items:
 - durationInMinutes: 1
   content: >
-    Gegevens zijn het krachtigst wanneer ze worden gedeeld met anderen. Leer hoe u uw Power BI-gegevensinzichten kunt publiceren, exporteren, delen en distribueren.
+    Data is most powerful when shared with others - learn how to publish, export, share, and distribute your Power BI data insights.
 - title: Inleiding tot inhoudspakketten, beveiliging en groepen
   durationInMinutes: 2
   content: >
@@ -105,4 +104,4 @@ items:
   durationInMinutes: 4
   content: >
     [!INCLUDE [](includes/6-5-guided-learning-completion.md)]
-- content: "U hebt de sectie **Publiceren en delen** van de begeleide training voor Power BI voltooid. Als u een inleiding tot DAX wilt bekijken, de taal die wordt gebruikt voor het maken van Power BI-query's, kunt u de volgende zelfstudie volgen.\0"
+- content: "You've completed the **Publishing and sharing** section of Power BI Guided Learning. If you want an introduction to DAX, the language used to create Power BI queries, head to the next tutorial.\0"

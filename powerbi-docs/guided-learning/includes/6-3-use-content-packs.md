@@ -32,5 +32,5 @@ Maar we kunnen eventueel het dashboard, het rapport en zelfs de gegevensset wijz
 
 Inhoudspakketten zijn dus een eenvoudige manier om inhoud die door iemand anders in uw organisatie is gemaakt, opnieuw te gebruiken.
 
-De volgende les gaat over [Het maken van een inhoudspakket in Power BI](6-4-update-content-pack.md).
+Tot ziens in de volgende les!
 
