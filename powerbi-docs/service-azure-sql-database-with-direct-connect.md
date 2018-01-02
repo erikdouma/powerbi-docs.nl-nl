@@ -18,10 +18,10 @@ ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: asaxton
 ms.openlocfilehash: 83613f0ed915a03b65b90d4bf61e37568b922182
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.sourcegitcommit: c2deaff54434da67698a14cc00172a2119ed1a56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/09/2017
 ---
 # <a name="azure-sql-database-with-directquery"></a>Azure SQL Database met DirectQuery
 Ontdek hoe u rechtstreeks verbinding met Azure SQL Database maakt en rapporten kunt maken waarin dynamische gegevens worden gebruikt. U kunt uw gegevens in de bron in plaats van Power BI bewaren.
@@ -58,5 +58,5 @@ De volledige servernaam en databasenaam vindt u in Azure Portal.
 [DirectQuery in Power BI Desktop gebruiken](desktop-use-directquery.md)  
 [Aan de slag met Power BI](service-get-started.md)  
 [Gegevens ophalen voor Power BI](service-get-data.md)  
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/).
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 
