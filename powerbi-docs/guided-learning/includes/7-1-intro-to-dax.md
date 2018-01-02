@@ -5,7 +5,7 @@ Welkom bij de sectie **Begeleide training** van Power BI als introductie op **DA
 ## <a name="dax-and-this-guided-learning-video-series"></a>DAX en de videoserie 'Begeleide training'
 Het doel van deze sectie **Begeleide training** is om u de basisprincipes en grondbeginselen van DAX te leren, zodat u weet wat DAX is en hoe het werkt. Ook worden de handigste functies besproken door DAX-deskundige [ Alberto Ferrari](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit).
 
-![](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
+![Portret van Alberto Ferrari](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
 
 In de video's in deze sectie **Begeleide training** over **DAX** leert u alles over de basisprincipes van DAX op basis van de manier waarop DAX-formuletaal werkt. Dit is handig als u zelf nieuwe DAX-formules maakt, maar ook om te begrijpen hoe in Power BI DAX-formules worden gemaakt als u query's maakt in de **Query-Editor**.
 

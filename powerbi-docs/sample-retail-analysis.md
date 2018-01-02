@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 12/04/2017
 ms.author: mihart
-ms.openlocfilehash: cfd085913ea1ef2cf08942ca4570f98eba34a3d4
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 09e245e625c9e0859f93837e56b564218e327926
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Voorbeeld van een retailanalyse voor Power BI: rondleiding
 
 In dit voorbeelddashboard en het onderliggende rapport met bedrijfsgegevens worden de verkoopgegevens uit de detailhandel geanalyseerd van artikelen die in verschillende winkels en gebieden zijn verkocht. Met de metrische gegevens vergelijkt u de prestaties van dit jaar met die van vorig jaar voor de volgende gebieden: omzet, eenheden, brutomarge, afwijkingen en analyses van nieuwe winkels. Dit zijn echte gegevens die afkomstig zijn van obviEnce ([www.obvience.com)](http://www.obvience.com) die zijn geanonimiseerd.
 
-U kunt ook [alleen de gegevensset (Excel-werkmap)](http://go.microsoft.com/fwlink/?LinkId=529778) voor dit voorbeeld downloaden.
+[!Note] U kunt ook [alleen de gegevensset (Excel-werkmap)](http://go.microsoft.com/fwlink/?LinkId=529778) voor dit voorbeeld downloaden. De werkmap bevat Power View-werkbladen die u kunt bekijken en wijzigen.  Als u de onbewerkte gegevens wilt bekijken, selecteert u **Power Pivot > Beheren**. 
 
 ![](media/sample-retail-analysis/retail1.png)
 
@@ -142,5 +142,5 @@ We hopen dat deze rondleiding heeft laten zien hoe Power BI-dashboards, Q&A en r
 * [De Excel-werkmap voor dit Power BI-voorbeeld downloaden](http://go.microsoft.com/fwlink/?LinkId=529778)    
 * [Gegevens ophalen (voor Power BI)](service-get-data.md)    
 * [Power BI - basisconcepten](service-basic-concepts.md)    
-* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

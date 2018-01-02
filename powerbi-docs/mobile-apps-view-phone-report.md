@@ -1,0 +1,111 @@
+---
+title: Voor uw telefoon geoptimaliseerde Power BI-rapporten weergeven
+description: Lees over de interactie met rapportpagina's die zijn geoptimaliseerd voor weergave in de Power BI-apps voor uw telefoon.
+services: powerbi
+documentationcenter: 
+author: maggiesMSFT
+manager: kfile
+backup: 
+editor: 
+tags: 
+qualityfocus: no
+qualitydate: 
+ms.service: powerbi
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
+ms.date: 10/13/2017
+ms.author: maggies
+ms.openlocfilehash: 54a1b81cc4281db7a622668ba205c1c57d5e396d
+ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 11/13/2017
+---
+# <a name="view-power-bi-reports-optimized-for-your-phone"></a>Voor uw telefoon geoptimaliseerde Power BI-rapporten weergeven
+Wanneer u een Power BI-rapport in Power BI Desktop maakt, kunt u ook een versie van het [rapport maken die is geoptimaliseerd voor weergave in de Power BI-app op een telefoon](desktop-create-phone-report.md).
+
+Wanneer u een Power BI-rapport op een telefoon opent, detecteert Power BI vervolgens of het rapport is geoptimaliseerd voor telefoons. Vervolgens wordt het geoptimaliseerde rapport automatisch in staande weergave geopend.
+
+![Rapport in de staande modus](media/mobile-apps-view-phone-report/07-power-bi-phone-report-portrait.png)
+
+Als er geen voor de telefoon geoptimaliseerd rapport bestaat, wordt het rapport geopend in de niet-geoptimaliseerde liggende weergave. Een voor de telefoon geoptimaliseerd rapport wordt ook in de niet-geoptimaliseerde weergave met de indeling van het oorspronkelijke rapport weergegeven als u uw telefoon kantelt. Als slechts enkele pagina’s zijn geoptimaliseerd, ziet u een bericht in de portretweergave met de mededeling dat het rapport in de liggende modus beschikbaar is.
+
+![Niet-geoptimaliseerde rapportpagina](media/mobile-apps-view-phone-report/06-power-bi-phone-report-page-not-optimized.png)
+
+Alle andere functies van Power BI-rapporten werken nog steeds in voor de telefoon geoptimaliseerde rapporten. Meer informatie over wat u kunt doen in:
+
+* [Rapporten op iPhones](mobile-reports-in-the-mobile-apps.md). 
+* [Rapporten op Android-telefoons](mobile-reports-in-the-mobile-apps.md).
+
+## <a name="filter-the-report-page-on-an-iphone"></a>De rapportpagina filteren op een iPhone
+Als u een voor de telefoon geoptimaliseerd rapport hebt waarvoor filters zijn gedefinieerd, kunt u deze filters gebruiken wanneer u het rapport op een iPhone bekijkt. 
+
+1. Tik op het filterpictogram ![Filterpictogram op telefoon](media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) onder aan de pagina. 
+2. Gebruik basis- of geavanceerde filters om de resultaten waarin u geïnteresseerd bent te bekijken.
+   
+    ![Geavanceerde filter voor Power BI-rapporten op de telefoon](media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.gif)
+
+## <a name="cross-highlight-visuals"></a>Visuele elementen kruislings markeren
+Het kruislings markeren van visuele elementen in rapporten op de telefoon werkt hetzelfde als in de Power BI-service en in rapporten op telefoons in de liggende weergave. Wanneer u gegevens in een visueel element selecteert, worden gerelateerde gegevens in de andere visuele elementen op de pagina gemarkeerd.
+
+Meer informatie over [filteren en markeren in Power BI](power-bi-reports-filters-and-highlighting.md).
+
+## <a name="select-visuals"></a>Visuele elementen selecteren
+Wanneer u een visueel element selecteert in een rapport op de telefoon, wordt dit visuele element gemarkeerd en wordt erop gefocust. Canvasgebaren werken niet meer.
+
+Als het visuele element is geselecteerd, kunt u verschillende dingen doen, zoals schuiven binnen het visuele element. Om de selectie van een visueel element ongedaan te maken, tikt u op een willekeurige plek buiten het visuele element.
+
+## <a name="open-visuals-in-focus-mode"></a>Visuele elementen openen in de focusmodus
+Rapporten op de telefoon hebben een focusmodus, zodat u een grotere weergave van een enkel visueel element kunt bekijken en deze en het rapport kunt verkennen.
+
+* Tik in een rapport op de telefoon op het beletselteken (**...** ) in de rechterbovenhoek van een visueel element > **Uitvouwen voor focusmodus**.
+  
+    ![Uitvouwen voor focusmodus](media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
+
+Wat u doet in de focusmodus wordt doorgevoerd in het rapportcanvas en omgekeerd, voor een naadloze ervaring. Als u bijvoorbeeld een waarde in een visueel element markeert en vervolgens teruggaat naar het hele rapport, worden het rapport in zijn geheel gefilterd op de waarde die u in het visuele element hebt gemarkeerd.
+
+Sommige handelingen zijn alleen mogelijk in de focusmodus vanwege beperkingen door het scherm:
+
+* **Inzoomen** op de weergegeven gegevens in een visueel element. Lees hieronder meer over het [in- en uitzoomen](mobile-apps-view-phone-report.md#drill-down-in-a-visual) in een rapport op de telefoon.
+* De waarden in het visuele element **sorteren**.
+* **Herstellen**: hiermee wist u stappen die u hebt gemaakt op een visueel element en keert u terug naar de definitie die is ingesteld bij het maken van het rapport.
+  
+    Als u alle stappen op een visueel element ongedaan wilt maken, tikt u op het beletselteken (**...** ) > **Herstellen**.
+  
+    ![Herstellen](media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
+  
+    Herstellen is beschikbaar op het niveau van het rapport om alle stappen op alle visuele elementen ongedaan te maken, of op het niveau van het visuele element om alle stappen op het specifieke geselecteerde visuele element te wissen.   
+
+## <a name="drill-down-in-a-visual"></a>Inzoomen op een visueel element
+Als hiërarchieniveaus zijn gedefinieerd in een visueel element, u kunt inzoomen op de gedetailleerde informatie die wordt weergegeven in een visueel element. Vervolgens kunt u weer uitzoomen. U kunt [inzoomen op een visueel element toevoegen](power-bi-visualization-drill-down.md) in de Power BI-service of in Power BI Desktop. Inzoomen werkt alleen in voor de telefoon geoptimaliseerde Power BI-rapporten wanneer u ze op een telefoon bekijkt. 
+
+1. Tik in een rapport op de telefoon op het beletselteken (**...** ) in de rechterbovenhoek > **Uitvouwen voor focusmodus**.
+   
+    ![Uitvouwen voor focusmodus](media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
+   
+    In dit voorbeeld geven de balken de waarden voor de staten weer.
+2. Tik op het verkenpictogram ![Verkenpictogram](media/mobile-apps-view-phone-report/power-bi-phone-report-explore-icon.png) in de linkerbenedenhoek.
+   
+    ![Verkenmodus](media/mobile-apps-view-phone-report/power-bi-phone-report-explore-mode.png)
+3. Tik op **Volgende niveau weergeven** of **Uitbreiden naar het volgende niveau**.
+   
+    ![Uitbreiden naar het volgende niveau](media/mobile-apps-view-phone-report/power-bi-phone-report-expand-levels.png)
+   
+    Nu geven de balken de waarden voor steden weer.
+   
+    ![Uitgevouwen niveaus](media/mobile-apps-view-phone-report/power-bi-phone-report-expanded-levels.png)
+4. Als u op de pijl in de linkerbovenhoek tikt, gaat u terug naar het rapport op de telefoon en blijven de waarden naar het lagere niveau uitgevouwen.
+   
+    ![Nog steeds uitgevouwen naar het lagere niveau](media/mobile-apps-view-phone-report/power-bi-back-to-phone-report-expanded-levels.png)
+5. Om terug te gaan naar het oorspronkelijke niveau, tikt u weer op het beletselteken (**...** ) > **Herstellen**.
+   
+    ![Herstellen](media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
+
+## <a name="next-steps"></a>Volgende stappen
+* [Rapporten maken die zijn geoptimaliseerd voor de mobiele Power BI-apps](desktop-create-phone-report.md)
+* [Een telefoonweergave van een dashboard maken in Power BI](service-create-dashboard-mobile-phone-view.md)
+* [Responsieve visuele elementen maken die zijn geoptimaliseerd voor elke grootte](desktop-create-responsive-visuals.md)
+* Hebt u nog vragen? [Misschien dat de Power Bi-community het antwoord weet](http://community.powerbi.com/)
+

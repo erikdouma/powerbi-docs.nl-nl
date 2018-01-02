@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
+ms.date: 12/04/2017
 ms.author: asaxton
-ms.openlocfilehash: bec336dbc4b028f23acb9ba34f920a10b7869c23
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 03c19f34b9fab240a67cd8ed4d4b7ca3f66bb966
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Ondersteuningstijdlijn voor Power BI Report Server
 Er wordt een paar keer per jaar een nieuwe release van Power BI Report Server uitgebracht. Beveiligingsupdates en essentiële updates zijn beschikbaar totdat de volgende release (GA) algemeen beschikbaar wordt. Na de volgende release, blijft de vorige release beveiligingsupdates voor de rest van de levensduur van versie 12 ontvangen.
@@ -31,7 +31,7 @@ Dit ondersteuningsbeleid stelt ons in staat om snel innovaties aan klanten te le
 * Onderhoudsfase voor beveiligingsupdates en essentiële updates: wanneer u de meest recente huidige versie van Power BI Report Server uitvoert, ontvangt u zowel beveiligingsupdates als essentiële updates.
 * Onderhoudsfase voor beveiligingsupdates (alleen): nadat er een nieuwe versie is uitgebracht, worden de oudere versies voor de rest van de levenscyclus van twaalf (12) maanden alleen nog ondersteund met beveiligingsupdates (weergegeven in afbeelding 1).
 
-    ![Grafiek waarin het tijdsbestek voor de ondersteuning wordt geïllustreerd](media/support-timeline/reportserver-support-lifecycle.png)
+    ![Grafiek waarin het tijdsbestek voor de ondersteuning wordt geïllustreerd](media/support-timeline/report-server-support-timeline.png)
 
 ## <a name="version-history"></a>Versiegeschiedenis
 | **Versie** | **Beschikbaarheidsdatum** | **Einddatum voor de ondersteuning** |

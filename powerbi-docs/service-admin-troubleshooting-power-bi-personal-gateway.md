@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 7774153ff73fb67a434ac79016507a2e94cf40f1
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 6fbd9f56099e4053524a04680c0d4c0c366ce068
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Problemen met Power BI Gateway - Personal oplossen
 In dit artikel worden enkele veelvoorkomende problemen behandeld die kunnen optreden bij het gebruik van Power BI Gateway - Personal.
 
 > [!NOTE]
-> Als u te maken hebt met een probleem dat hieronder niet wordt vermeld, kunt u om hulp vragen op de [site van de community](http://community.powerbi.com/) of u kunt een [ondersteuningsticket](https://powerbi.microsoft.com/support/) aanmaken.
+> De huidige versie van de gateway voor persoonlijk gebruik is de **On-premises gegevensgateway (persoonlijk)**. Werk uw installatie bij om deze versie te gebruiken.
 > 
 > 
 
@@ -155,5 +155,5 @@ U kunt ook naar de **map Temp** (%temp%) gaan en bestanden zoeken die beginnen m
 [Power BI Gateway - Personal](personal-gateway.md)  
 [Problemen met tegelfouten oplossen](refresh-troubleshooting-tile-errors.md)  
 [Problemen met de on-premises gegevensgateway oplossen](service-gateway-onprem-tshoot.md)  
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/).
 

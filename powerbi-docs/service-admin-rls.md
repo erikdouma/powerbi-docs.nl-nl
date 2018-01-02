@@ -1,0 +1,104 @@
+---
+title: Beveiliging op rijniveau (RLS) met Power BI
+description: "Hoe u de beveiliging op rijniveau voor de geïmporteerde gegevenssets en DirectQuery configureert in de Power BI-service."
+services: powerbi
+documentationcenter: 
+author: guyinacube
+manager: kfile
+backup: 
+editor: 
+tags: 
+qualityfocus: no
+qualitydate: 
+ms.service: powerbi
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: na
+ms.workload: powerbi
+ms.date: 11/29/2017
+ms.author: asaxton
+ms.openlocfilehash: 338921df57b77b1e79f9b71e814203734ab5971c
+ms.sourcegitcommit: 7742f952c20695dfb475f74965c0065b02c01521
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 11/29/2017
+---
+# <a name="row-level-security-rls-with-power-bi"></a>Beveiliging op rijniveau (RLS) met Power BI
+<iframe width="560" height="315" src="https://www.youtube.com/embed/67fK0GoVQ80?showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+Beveiliging op rijniveau (RLS) kan in Power BI worden gebruikt om de toegang tot gegevens voor bepaalde gebruikers te beperken. Filters beperken gegevens op rijniveau. U kunt filters definiëren in rollen.
+
+U kunt RLS configureren voor gegevensmodellen met Power BI Desktop zijn geïmporteerd in Power BI. U kunt RLS ook configureren voor gegevenssets die gebruikmaken van DirectQuery, zoals SQL Server. Voorheen kon u RLS alleen implementeren binnen on-premises Analysis Services-modellen buiten Power BI. Voor Analysis Services-liveverbindingen configureert u beveiliging op rijniveau voor het on-premises model. De beveiligingsoptie wordt niet weergegeven voor gegevenssets met een liveverbinding.
+
+[!INCLUDE [include-short-name](./includes/rls-desktop-define-roles.md)]
+
+[!INCLUDE [include-short-name](./includes/rls-desktop-view-as-roles.md)]
+
+## <a name="manage-security-on-your-model"></a>De beveiliging voor uw model beheren
+Als u de beveiliging wilt beheren voor uw gegevensmodel, gaat u als volgt te werk:
+
+1. Selecteer het **weglatingsteken (...)**  voor een dataset.
+2. Selecteer **Beveiliging**.
+   
+   ![](media/service-admin-rls/rls-security.png)
+
+Zodoende opent u de RLS-pagina, waar u leden kunt toewijzen aan een rol die u hebt gemaakt in Power BI Desktop. De beveiliging is alleen zichtbaar en beschikbaar voor de eigenaren. Als de gegevensset zich in een groep bevindt, zien alleen beheerders van de groep de beveiligingsoptie. 
+
+U kunt alleen rollen maken of wijzigen in Power BI Desktop.
+
+## <a name="working-with-members"></a>Werken met leden
+### <a name="add-members"></a>Leden toevoegen
+U kunt een lid aan de rol toevoegen door het e-mailadres of de naam van de gebruiker, beveiligingsgroep of distributielijst op te geven die u wilt toevoegen. Dit lid moet zich binnen uw organisatie bevinden. U kunt geen groepen toevoegen die in Power BI zijn gemaakt.
+
+![](media/service-admin-rls/rls-add-member.png)
+
+Aan het getal tussen haakjes naast de rolnaam of naast Leden kunt u zien hoeveel leden deel uitmaken van de rol op.
+
+![](media/service-admin-rls/rls-member-count.png)
+
+### <a name="remove-members"></a>Leden verwijderen
+U kunt leden verwijderen door de X naast hun naam te selecteren. 
+
+![](media/service-admin-rls/rls-remove-member.png)
+
+## <a name="validating-the-role-within-the-power-bi-service"></a>De rol in de Power BI-service valideren
+U kunt controleren of de rol die u hebt gedefinieerd, correct werkt door de functie testen. 
+
+1. Selecteer het **weglatingsteken (...)** naast de rol.
+2. Selecteer **Gegevens testen als rol**.
+
+![](media/service-admin-rls/rls-test-role.png)
+
+Vervolgens ziet u de rapporten die beschikbaar zijn voor deze rol. Er worden geen dashboards gepresenteerd in deze weergave. In de bovenstaande blauwe balk ziet u wat wordt toegepast.
+
+![](media/service-admin-rls/rls-test-role2.png)
+
+U kunt andere rollen of een combinatie van rollen testen door te selecteren **Nu weergeven als**.
+
+![](media/service-admin-rls/rls-test-role3.png)
+
+U kunt ervoor kiezen om de gegevens weer te geven als een specifiek persoon, maar u kunt ook een combinatie van beschikbare rollen selecteren om te valideren of ze werken. 
+
+Als u de normale weergave wilt herstellen, selecteert u **Terug naar beveiliging op rijniveau**.
+
+[!INCLUDE [include-short-name](./includes/rls-usernames.md)]
+
+## <a name="using-rls-with-app-workspaces-in-power-bi"></a>RLS met app-werkruimten gebruiken in Power BI
+Als u een Power BI Desktop-rapport naar een app-werkruimte in de Power BI-service publiceert, worden de rollen toegepast op alleen-lezenleden. U moet aangeven dat leden de Power BI-inhoud alleen kunnen weergeven binnen de instellingen van de app-werkruimte.
+
+> [!WARNING]
+> Als u de app-werkruimte zodanig hebt geconfigureerd dat leden bewerkingsmachtigingen hebben, worden de RLS-rollen niet toegepast op deze leden. Gebruikers kunnen alle de gegevens bekijken.
+> 
+> 
+
+![](media/service-admin-rls/rls-group-settings.png)
+
+[!INCLUDE [include-short-name](./includes/rls-limitations.md)]
+
+[!INCLUDE [include-short-name](./includes/rls-faq.md)]
+
+## <a name="next-steps"></a>Volgende stappen
+[Beveiliging op rijniveau (RLS) met Power BI](desktop-rls.md)  
+
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+

@@ -380,6 +380,8 @@
           href: service-export-to-pbix.md
         - name: Een rapport filteren door queryreeksparameters in de URL te gebruiken
           href: service-url-filters.md
+        - name: Aanbevolen procedures voor het snel maken van betrouwbare rapporten in Power BI
+          href: power-bi-reports-performance.md
     - name: Visualisaties
       items:
         - name: Visualisaties in Power BI
@@ -746,6 +748,8 @@
       items:
         - name: Rapportweergave in Power BI Desktop
           href: desktop-report-view.md
+        - name: Q&A in Power BI Desktop
+          href: desktop-qna-in-reports.md
         - name: Het deelvenster Analyse in Power BI Desktop
           href: desktop-analytics-pane.md
         - name: Inzichten gebruiken in Power BI Desktop
