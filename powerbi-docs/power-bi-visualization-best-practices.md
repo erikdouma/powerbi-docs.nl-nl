@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/14/2017
+ms.date: 12/21/2017
 ms.author: mihart
-ms.openlocfilehash: e3c3f59bc5d27e19bbd6256b6692782fc115ff28
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 202f92b9c7089a4bd9bb5dd976051bba47da632e
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Aanbevolen procedures voor het ontwerpen van rapporten en visuele elementen
 <!-- Shared newnav Include -->
@@ -818,5 +818,5 @@ Het moment is nu aangebroken om zelf deze aanbevolen procedures toe te passen.  
 ### <a name="book-recommendations"></a>Aanbevolen boeken
 Er zijn tegenwoordig veel goede boeken beschikbaar waarmee medewerkers kennis kunnen opdoen over de verschillende methoden voor visueel ontwerpen. *Information Dashboard Design* van Stephen Few is een verplicht nummer. In twee andere boeken, *Show Me the Numbers* en *Now You See It* gaat hij uitgebreider op het onderwerp in. Few en anderen hebben zich laten inspireren door Edward R. Tufte. Zijn boek *The Visual Display of Quantitative Information* wordt beschouwd als een klassieker op dit gebied. Tufte heeft ook *Visual Explanations*, *Envisioning Information* en *Beautiful Evidence* geschreven. U kunt ook het nieuwe boek van Andy Kirk *Data Visualization: A Handbook for Data Driven Design* raadplegen. Andere auteurs die worden aanbevolen, zijn: Lachlan James, William McKnight, Boris Evelson (Forrester) en Darkhorse Analytics.
 
-Hebt u nog vragen? [Bezoek de Power BI-community](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/26/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: f61ca9c4808cbcf180b60113eeade235b8d28f6d
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 430ff5ad86636d96ca693ff7fc1ac1bb0d16b5cc
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="power-bi-notifications"></a>Power BI-meldingen
 Het meldingencentrum is een sequentiële feed met informatie over uw Power BI-ervaring. Open het meldingencentrum om berichten te bekijken over nieuwe dashboards die met u zijn gedeeld, wijzigingen in uw groepsruimte, informatie over Power BI-gebeurtenissen en -vergaderingen, waarschuwingen die u hebt ingesteld en meer. U kunt [meldingen instellen in de Power BI-service](service-set-data-alerts.md), maar ook in de mobiele Power BI-apps.
@@ -48,5 +48,5 @@ Kijk hoe Amanda meldingen bekijkt die ze heeft ontvangen, haar meldingen beheert
 * [Een Microsoft Flow maken die wordt geactiveerd door een Power BI-gegevensmelding](service-flow-integration.md)
 * [Gegevensmeldingen instellen in de iPhone-app (Power BI voor iOS)](mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Gegevensmeldingen instellen in de mobiele Power BI-app instellen voor Windows 10](mobile-set-data-alerts-in-the-mobile-apps.md)
-* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/).
+* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 
