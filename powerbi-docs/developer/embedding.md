@@ -15,24 +15,26 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
-ms.author: asaxton
-ms.openlocfilehash: 36eb4231b6b3d3278d571722bde731051ffdf05e
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.date: 11/30/17
+ms.author: mihart
+ms.openlocfilehash: 38860e6535f44e8831c62c045e7c5d0e130c35aa
+ms.sourcegitcommit: 910258a5ad8b6861e81ae02c57286db221c37375
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/02/2017
 ---
 # <a name="embedding-with-power-bi"></a>Insluiten met Power BI
-Power BI biedt API's voor het insluiten van uw dashboards en rapporten in toepassingen. De Power BI API's bieden een consistente set mogelijkheden en toegang tot de nieuwste functies van Power BI (zoals dashboards, gateways en app-werkruimten) voor het insluiten van uw inhoud.
+Power BI biedt API's voor het insluiten van uw dashboards en rapporten in toepassingen. De Power BI API's bieden een consistente set mogelijkheden en toegang tot de nieuwste functies van Power BI (zoals dashboards, gateways en app-werkruimten) voor het insluiten van inhoud.
 
 ## <a name="a-single-api"></a>Enkele API
-Er zijn twee hoofdscenario's voor het insluiten van Power BI-inhoud. Inhoud insluiten voor uw organisatie en voor uw klanten. U kunt beide scenario’s uitvoeren met de Power BI REST-API. Hiermee kunt u zowel voor uw organisatie als uw klanten dashboards en rapporten insluiten in uw aangepaste toepassing, met dezelfde API. U kunt profiteren van de JavaScript- en REST-API's voor uw behoeften bij het insluiten van inhoud.
+Er zijn twee hoofdscenario's voor het insluiten van Power BI-inhoud.  Insluiting voor gebruikers in uw organisatie (die licenties hebben voor Power BI) en insluiting voor uw gebruikers en klanten zonder dat deze Power BI-licenties nodig hebben. U kunt beide scenario’s uitvoeren met de Power BI REST-API. 
+
+Voor klanten en gebruikers zonder een Power Bi-licentie kunt u met dezelfde API dashboards en rapporten insluiten in uw aangepaste toepassing voor zowel uw organisatie als uw klanten. Uw klanten ziende gegevens die door de toepassing worden beheerd. Power BI-gebruikers in uw organisatie hebben aanvullende opties om *hun eigen gegevens* weer te geven, rechtstreeks in Power BI of in de context van de ingesloten toepassing. U kunt profiteren van de JavaScript- en REST-API's voor uw behoeften bij het insluiten van inhoud.
 
 Voor een voorbeeld van hoe het insluiten van inhoud werkt, raadpleegt u het [Insluitvoorbeeld voor JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/).
 
 ## <a name="embedding-for-your-organization"></a>Inhoud insluiten voor uw organisatie
-Met het insluiten van inhoud voor uw organisatie kunt u de Power BI-service uitbreiden. Hiervoor moet de eindgebruiker van uw toepassing zich aanmelden bij de Power BI-service wanneer u uw inhoud wilt weergeven. Als iemand zich in uw organisatie zich heeft aangemeld, heeft hij alleen toegang tot de dashboards en rapporten die met hem zijn gedeeld in de Power BI-service. 
+Met het insluiten van inhoud voor uw organisatie kunt u de Power BI-service uitbreiden. Hiervoor moeten gebruikers van uw toepassing zich aanmelden bij de Power BI-service wanneer deze hun inhoud willen weergeven. Als iemand zich in uw organisatie zich heeft aangemeld, heeft hij alleen toegang tot zijn hun eigen dashboards en rapporten of de dashboards en rapporten die met hem zijn gedeeld in de Power BI-service. 
 
 *Voorbeelden van het insluiten van inhoud voor uw organisatie zijn interne webtoepassingen, het webonderdeel voor SharePoint Online en Microsoft Teams-integratie.*
 
@@ -45,7 +47,7 @@ Zie de volgende scenario's voor informatie over het insluiten van inhoud voor uw
 Mogelijkheden voor selfservice, zoals bewerken, opslaan en meer, zijn beschikbaar via de [JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript) wanneer u inhoud insluit voor Power BI-gebruikers.
 
 ## <a name="embedding-for-your-customers"></a>Inhoud voor uw klanten insluiten
-Door inhoud voor uw klanten in te sluiten kunt u dashboards en rapporten insluiten voor gebruikers die geen account voor Power BI hebben. Uw klanten hebben geen voorkennis over Power BI nodig. Er is ten minste één Power BI Pro-account nodig. Het Power BI Pro-account fungeert als hoofdaccount voor uw toepassing. U kunt dit account zien als een proxyaccount. Met de Power BI Pro-account kunt u ook insluittokens genereren die toegang bieden tot dashboards en rapporten in de Power BI-service. 
+Door inhoud voor uw klanten in te sluiten kunt u dashboards en rapporten insluiten voor gebruikers die geen account voor Power BI hebben. Uw klanten hebben geen voorkennis over Power BI nodig. Er is ten minste een Power BI Pro-account nodig voor het maken van een ingesloten toepassing. Het Power BI Pro-account fungeert als hoofdaccount voor uw toepassing. U kunt dit account zien als een proxyaccount. Met het Power BI Pro-account kunt u ook insluittokens genereren die toegang bieden tot dashboards en rapporten in de Power BI-service die eigendom zijn van of worden beheerd door uw toepassing. 
 
 *Een voorbeeld van het insluiten van inhoud voor uw klanten is een ISV-toepassing die wordt verkocht aan andere bedrijven.*
 
@@ -74,5 +76,5 @@ Zie [Inhoud migreren van de Power BI Workspace Collections-service in Azure](mig
 [Technisch document over Embedded-analysecapaciteitsplanning](https://aka.ms/pbiewhitepaper)  
 [Technisch document over Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

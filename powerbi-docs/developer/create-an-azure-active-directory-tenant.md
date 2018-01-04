@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/09/2017
-ms.author: asaxton
-ms.openlocfilehash: 3e48f08237767a4c0cc5e1a8ddfc70a9087fbc1c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.date: 11/30/2017
+ms.author: mihart
+ms.openlocfilehash: 22d939dbd0a582611f2f4e90e2306456376e211b
+ms.sourcegitcommit: 910258a5ad8b6861e81ae02c57286db221c37375
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/02/2017
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Een Azure Active Directory-tenant maken voor gebruik met Power BI
 Informatie over het maken van een nieuwe Azure Active Directory-tenant (Azure AD) voor gebruik met uw aangepaste toepassing met behulp van de Power BI REST-API's.
@@ -33,7 +33,7 @@ Zodra u een Azure AD-tenant hebt, kunt u een toepassing definiëren en machtigin
 Uw organisatie heeft mogelijk al een Azure AD-tenant die u voor uw toepassing kunt gebruiken. U kunt die tenant gebruiken voor de behoeften van uw toepassing of u kunt een nieuwe tenant maken specifiek voor uw toepassing. In dit artikel wordt behandeld hoe u een nieuwe tenant maakt.
 
 ## <a name="create-an-azure-active-directory-tenant"></a>Een Azure Active Directory-tenant maken
-U moet een toepassing definiëren in Azure AD om Power BI te kunnen integreren met uw aangepaste toepassing. Hiervoor moet u een map in Azure AD maken. Dit is uw tenant. Als uw organisatie nog geen tenant heeft, omdat deze niet Power BI of Office 365 gebruikt, moet u er een maken. U moet er mogelijk ook een maken als u uw toepassing niet wilt combineren met de tenant van uw organisatie. Zo kunt u zaken apart houden.
+U moet een toepassing definiëren in Azure AD om Power BI te kunnen integreren met uw aangepaste toepassing. Hiervoor moet u een map in Azure AD maken. Dit is uw tenant. Als uw organisatie nog geen tenant heeft, omdat deze niet Power BI of Office 365 gebruikt, [moet u er een maken](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). U moet er mogelijk ook een maken als u uw toepassing niet wilt combineren met de tenant van uw organisatie. Zo kunt u zaken apart houden.
 
 Of misschien wilt u een tenant alleen maken voor testdoeleinden.
 
@@ -96,5 +96,5 @@ Nu u een Azure AD-tenant hebt, kunt u deze tenant gebruiken voor het testen van 
 [Wat is Azure AD-directory?](https://docs.microsoft.com/azure/active-directory/active-directory-whatis)  
 [Een Azure Active Directory-tenant verkrijgen](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)  
 
-Nog vragen? [Misschien dat de Power Bi-community het antwoord weet](http://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

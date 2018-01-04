@@ -1,5 +1,5 @@
 ---
-title: Wat is Power BI Pro-inhoud?
+title: Wat is Power BI Premium?
 description: Power BI Premium is toegewezen capaciteit voor uw organisatie of team om u betrouwbaardere prestaties en grotere gegevensvolumes te kunnen bieden, zonder dat u voor iedere gebruiker een licentie hoeft te kopen.
 services: powerbi
 documentationcenter: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/10/2017
+ms.date: 12/05/2017
 ms.author: asaxton
-ms.openlocfilehash: 816f1151b6f49ace8151f1c26aee18a8c746ff08
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 7c1536693490252029d51ddc619eaa7266095403
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="power-bi-premium---what-is-it"></a>Wat is Power BI Premium?
 Power BI Premium bevat toegewezen resources om de Power BI-service voor uw organisatie of een team uit te voeren, wat resulteert in betrouwbaardere prestaties en grotere gegevensvolumes. Premium biedt de mogelijkheid tot een wijd verspreide distributie zonder dat u gebruikerslicentie hoeft aan te schaffen voor viewers.
@@ -69,9 +69,13 @@ Power BI Premium is beschikbaar in knooppuntconfiguraties met verschillende v-co
 
 * P-knooppunten kunnen worden gebruikt voor ingesloten implementaties of service-implementaties
 * EM-knooppunten kunnen alleen worden gebruikt voor ingesloten implementaties
+* EM1 en EM2 
+* Koppelingen in deze tabel werken alleen goed voor gebruikers die globale beheerders zijn voor Office 365. Voor andere gebruikers wordt een 404-fout weergegeven. 
 
 | Capaciteitsknooppunt | Totaal aantal cores<br/>*(back-end + front-end)* | Back-endcores | Front-endcores | Limieten voor DirectQuery/liveverbindingen | Maximaal aantal paginaweergaven (rendering) tijdens piekuren | Beschikbaarheid |
 | --- | --- | --- | --- | --- | --- | --- |
+| [EM1 (maandelijks)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1-v-core |.5 kernen, 2,5 GB RAM-geheugen |0,5 core |3,75 per seconde |150-300 |Beschikbaar |
+| [EM2 (maandelijks)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2 v-cores |1 core, 5 GB RAM |1 core |7,5 per seconde |301-600 |Beschikbaar |
 | [EM3 (maandelijks)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |4 v-cores |2 cores, 10 GB RAM |2 cores | |601-1,200 |Beschikbaar |
 | [P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |8 v-cores |4 cores, 25 GB RAM |4 cores |30 per seconde |1.201-2.400 |Beschikbaar ([maandelijks](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1) is ook beschikbaar) |
 | [P2](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |16 v-cores |8 cores, 50 GB RAM |8 cores |60 per seconde |2.401-4.800 |Beschikbaar |

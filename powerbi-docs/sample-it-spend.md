@@ -15,21 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: f6c1b564bfab99deb35c919de4eb0c365d62c8e5
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: ebf10d6045bc1d0d0c260dffa7fbc68cfbc4528b
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Voorbeeld van een IT-uitgavenanalyse voor Power BI: een rondleiding
 Met het [inhoudspakket](service-organizational-content-pack-introduction.md) IT-uitgavenanalyse (dashboard, rapport en gegevensset) kunt u de geplande kosten van een IT-afdeling afzetten tegen de werkelijke kosten. Deze vergelijking biedt inzicht in hoe goed het bedrijf het jaar heeft gepland en de mogelijkheid om gebieden te onderzoeken die sterk afwijken van de planning. Het bedrijf in dit voorbeeld hanteert een jaarlijks planningscyclus en produceert vervolgens elk kwartaal een nieuw overzicht met de laatste prognoses om de wijzigingen in de IT-uitgaven in het fiscale jaar te kunnen analyseren.
 
 Dit voorbeeld is onderdeel van een serie die laat zien hoe u Power BI kunt gebruiken met bedrijfsgegevens, -rapporten en -dashboards. Deze echte, maar geanonimiseerde gegevens zijn afkomstig van obviEnce (<http://obvience.com/>).
 
-* [het inhoudspakket IT-uitgavenanalyse ophalen](sample-tutorial-connect-to-the-samples.md)
-* [alleen de gegevensset (Excel-werkmap) voor dit voorbeeld downloaden](http://go.microsoft.com/fwlink/?LinkId=529783).
+>[!Note] 
+U kunt [alleen de gegevensset (Excel-werkmap) voor dit voorbeeld downloaden](http://go.microsoft.com/fwlink/?LinkId=529783). De werkmap bevat Power View-werkbladen die u kunt bekijken en wijzigen. De onbewerkte gegevens bekijken. selecteer **Power Pivot > Beheren**.
 
 ![](media/sample-it-spend/it1.png)
 
@@ -93,7 +93,7 @@ Klik in de linkerbovenhoek op **Rapport bewerken** en verken de mogelijkheden in
 * Het type visualisatie voor elk diagram wijzigen
 * Vastmaken aan uw dashboard
 
-Dit is een veilige omgeving om in te experimenteren. U kunt er altijd voor kiezen om de wijzigingen niet op te slaan. Als u deze wel opslaat, kunt u altijd naar Gegevens ophalen gaan voor een nieuwe kopie van dit voorbeeld.
+Dit is een veilige omgeving om in te experimenteren. U kunt er namelijk altijd voor kiezen de wijzigingen niet op te slaan. Als u deze wel opslaat, kunt u altijd naar Gegevens ophalen gaan voor een nieuwe kopie van dit voorbeeld.
 
 ## <a name="next-steps-connect-to-your-data"></a>Volgende stappen: Verbinding maken met uw gegevens
 We hopen dat deze rondleiding heeft laten zien hoe Power BI-dashboards, Q&A en rapporten inzicht kunnen geven in uitgavengegevens van de IT-afdeling. Nu is het uw beurt om verbinding met uw eigen gegevens te maken. Met Power BI kunt u verbinding maken met een groot aantal gegevensbronnen. Zie [Aan de slag met Power BI](service-get-started.md) voor meer informatie.

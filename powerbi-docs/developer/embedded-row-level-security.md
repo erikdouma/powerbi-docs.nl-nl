@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/09/2017
+ms.date: 11/30/2017
 ms.author: asaxton
-ms.openlocfilehash: 1ab1590146f8b9714a27735cd556dd0203ecc6bf
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: c10ca76ac96090ff1facbdd28210b680392aae8d
+ms.sourcegitcommit: 0f6db65997db604e8e9afc9334cb65bb7344d0dc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Beveiliging op rijniveau met ingesloten Power BI-inhoud
 Beveiliging op rijniveau (RLS) kan worden gebruikt om de gebruikerstoegang tot gegevens in een rapport of gegevensset te beperken, zodat er verschillende gegevens worden weergegeven voor verschillende gebruikers van hetzelfde rapport. RLS kan van pas komen bij het insluiten van rapporten uit Power BI.
@@ -145,7 +145,7 @@ Rollen kunnen worden opgegeven met de identiteit in een insluittoken. Als er gee
 * Wanneer u een identiteit met een insluittoken opgeeft, worden RLS-instellingen in de Power BI-service niet toegepast op beheerders of leden met machtigingen voor bewerken, maar op de gegevens.
 * Het doorgeven van identiteitsgegevens bij het aanroepen van GenerateToken wordt alleen ondersteund voor het lezen van/schrijven naar rapporten. Ondersteuning voor andere bronnen volgt later.
 * Liveverbindingen van Analysis Services worden ondersteund voor on-premises servers.
-* Liveverbindingen van Azure Analysis Services worden niet ondersteund.
+* Live verbindingen van Azure Analysis Services bieden ondersteuning voor het filteren op rollen, maar niet voor dynamische filteren op gebruikersnaam.
 * Als RLS niet vereist is voor de onderliggende gegevensset, mag de GenerateToken-aanvraag **geen** effectieve identiteit bevatten.
 * Als de onderliggende gegevensset een cloudmodel is (model in de cache of DirectQuery), moet de effectieve identiteit ten minste één rol bevatten. Anders wordt roltoewijzing niet uitgevoerd.
 * Er kan slechts één identiteit worden opgegeven in de lijst met identiteiten. In de toekomst wordt het ook mogelijk om een lijst met meerdere identiteiten en tokens in te sluiten in het dashboard.

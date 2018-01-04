@@ -1,6 +1,6 @@
 ---
-title: Aangepaste visuele elementen publiceren naar de Office-store
-description: Meer informatie over het publiceren van aangepaste visuele elementen naar de Office-store, zodat anderen deze kunnen gebruiken.
+title: Aangepaste visuele elementen publiceren naar AppSource
+description: Meer informatie over het publiceren van aangepaste visuele elementen naar AppSource, zodat anderen deze kunnen gebruiken.
 services: powerbi
 documentationcenter: 
 author: guyinacube
@@ -15,22 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/20/2017
+ms.date: 12/5/2017
 ms.author: asaxton
-ms.openlocfilehash: 13456711e6c3bdce4554df7b7fbc0e4e9943987a
-ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
+ms.openlocfilehash: 0d3608d30fdf689c2121e65c5c4cafb861c88c2e
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 12/06/2017
 ---
-# <a name="publish-custom-visuals-to-the-office-store"></a>Aangepaste visuele elementen publiceren naar de Office-store
-Meer informatie over het publiceren van aangepaste visuele elementen naar de Office-store, zodat anderen deze kunnen gebruiken.
+# <a name="publish-custom-visuals-to-appsource"></a>Aangepaste visuele elementen publiceren naar AppSource
+Meer informatie over het publiceren van aangepaste visuele elementen naar AppSource, zodat anderen deze kunnen gebruiken. office
 
-Als u een aangepast visueel element hebt gemaakt, wilt u het wellicht publiceren naar de Office-store zodat andere personen het ook kunnen gebruiken. Voordat u kunt dit doen, moet u een aantal voorbereidende stappen uitvoeren. Zie [Ontwikkelhulpprogramma's gebruiken voor het maken van aangepaste visuele elementen](../service-custom-visuals-getting-started-with-developer-tools.md) voor meer informatie over het maken van aangepaste visuele elementen.
+Als u een aangepast visueel element hebt gemaakt, wilt u het wellicht publiceren naar AppSource zodat andere personen het ook kunnen gebruiken. Voordat u kunt dit doen, moet u een aantal voorbereidende stappen uitvoeren. Zie [Ontwikkelhulpprogramma's gebruiken voor het maken van aangepaste visuele elementen](../service-custom-visuals-getting-started-with-developer-tools.md) voor meer informatie over het maken van aangepaste visuele elementen.
 
-![](media/office-store/powerbi-custom-visual-store.png)
+![](media/office-store/AppSource_01.jpg)
 
-Wat is de Office-store? Eenvoudig gezegd is het de plaats waar u apps (invoegtoepassingen) voor uw Office 365-software kunt vinden. De [Office-store](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) verbindt miljoenen gebruikers van Office 365-oplossingen die hen helpen efficiënter, slimmer of netter te werken.
+Wat is AppSource? Hier vindt u SaaS-apps en -invoegtoepassingen voor uw Microsoft-producten en -service. [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) verbindt miljoenen gebruikers van Office 365-, Dynamics 365-, Cortana Intelligence- en andere oplossingen die hen helpen efficiënter, slimmer of netter te werken.
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>Voorbereiding voor het indienen van uw aangepaste visuele element
 Als u klaar bent met het programmeren en testen van uw aangepaste visuele element en het hebt verpakt in een PBIVIZ-bestand, moet u ook het volgende gereed hebben voor uw indiening.
@@ -53,18 +53,18 @@ Eerst verzendt u een e-mailbericht naar het Power BI-team voor indiening van aan
 Voeg het PBIVIZ-bestand en het PBIX-voorbeeldrapportbestand als bijlagen toe aan uw e-mailbericht. Het team van Power BI stuurt u vervolgens een bericht met instructies en een XML-app-pakketbestand dat u moet uploaden. Dit XML-app-pakket is vereist voor het indienen van het visuele element via het Office-ontwikkelaarscentrum.
 
 > [!NOTE]
-> Om de kwaliteit te verbeteren en ervoor te zorgen dat bestaande rapporten niet worden verbroken, duurt het 2 weken extra voordat wijzigingen in bestaande visuele elementen worden doorgevoerd in de productieomgeving na goedkeuring in de store.
+> Om de kwaliteit te verbeteren en ervoor te zorgen dat bestaande rapporten niet worden verbroken, duurt het twee weken extra voordat wijzigingen in bestaande visuele elementen worden doorgevoerd in de productieomgeving na goedkeuring in de store.
 > 
 > 
 
-## <a name="submitting-to-the-office-store"></a>Indienen bij de Office-store
-Wanneer u het XML-app-pakket van het Power BI-team krijgt, navigeert u naar het [Office-ontwikkelaarscentrum](https://sellerdashboard.microsoft.com/Application/Summary) om het visuele element in te dienen bij de Office-store.
+## <a name="submitting-to-appsource"></a>Verzenden naar AppSource
+Wanneer u het XML-app-pakket van het Power BI-team krijgt, navigeert u naar het [ontwikkelaarscentrum](https://sellerdashboard.microsoft.com/Application/Summary) om het visuele element in te dienen bij AppSource.
 
 > [!NOTE]
 > U hebt een geldig Office-ontwikkelaarsaccount nodig om te kunnen inloggen bij het [Office-ontwikkelaarscentrum](https://dev.office.com/). Een Office-ontwikkelaarsaccount moet een Microsoft-account zijn (Live ID, zoals hotmail.com of outlook.com).
 > 
 > [!IMPORTANT]
-> U moet een e-mailbericht met het PBIVIZ-bestand en het PBIX-bestand verzenden naar het Power BI-team vóór indiening bij de Office-store. Dit is nodig omdat het Power BI-team de bestanden eerst moet uploaden naar de openbare shareserver. Anders kunnen de bestanden niet worden opgehaald in de Office-store. U moet de bestanden verzenden bij elke nieuwe indiening van een visueel element, elke wijziging in een bestaand visueel element, en eventuele oplossingen voor inzendingen die zijn geweigerd door de Office-store.
+> U moet een e-mailbericht met het PBIVIZ-bestand en het PBIX-bestand verzenden naar het Power BI-team vóór indiening bij AppSource. Hierdoor kan het Power BI-team de bestanden uploaden naar de openbare shareserver. Anders kunnen de bestanden niet worden opgehaald in de store. U moet de bestanden verzenden bij elke nieuwe indiening van een visueel element, elke wijziging in een bestaand visueel element, en eventuele oplossingen voor inzendingen die zijn geweigerd.
 > 
 > 
 

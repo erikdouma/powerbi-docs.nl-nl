@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/25/2017
+ms.date: 12/4/2017
 ms.author: mihart
-ms.openlocfilehash: 6858f85cb08c493f7a73dc888a4bb21f66c5f217
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 80a5a668056d1a3f3f2b53600e80f399be4a5e08
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Een rapport filteren door queryreeksparameters in de URL te gebruiken
 Wanneer u een rapport in Power BI-service opent, heeft elke pagina van het rapport een eigen unieke URL. Als u deze rapportpagina wilt filteren, kunt u het deelvenster met filters gebruiken op het rapportcanvas.  Of u kunt queryreeksparameters toevoegen aan de URL om het rapport te filteren. Misschien hebt u een rapport dat u aan collega's wilt laten zien en u wilt het voor hen vooraf filteren. U kunt beginnen met de standaard-URL voor het rapport, de filterparameters toevoegen aan de URL en hen vervolgens via e-mail de volledige URL sturen.
@@ -107,7 +107,7 @@ In sommige gevallen kan dit handig zijn wanneer u verschillende resultaten wilt 
 ## <a name="limitations-and-troubleshooting"></a>Beperkingen en probleemoplossing
 Er zijn een aantal dingen waar u op moet letten bij het gebruik van queryreeksparameters.
 
-* Het filteren van een querytekenreeks werkt niet bij URL’s voor [Publiceren op internet](service-publish-to-web.md).
+* Het filteren van een querytekenreeks werkt niet bij URL’s voor [Publiceren naar internet](service-publish-to-web.md) of Power BI Embedded.   
 * Het veldtype moet een tekenreeks zijn.
 * Tabel- en veldnamen mogen geen spaties bevatten.
 
@@ -115,5 +115,5 @@ Er zijn een aantal dingen waar u op moet letten bij het gebruik van queryreekspa
 [Een visualisatie vastmaken aan een dasboard](service-dashboard-pin-tile-from-report.md)  
 [Probeer het uit, het is gratis.](https://powerbi.com/)
 
-Nog vragen? [Misschien dat de Power Bi-community het antwoord weet](http://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

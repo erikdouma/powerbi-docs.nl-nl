@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/08/2017
 ms.author: maggies
-ms.openlocfilehash: 7a32885efb0813cc430f37952ca4fc9c5e435121
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 0dd906bc1b165793e9ff91f64324eeb8e1d1266c
+ms.sourcegitcommit: b780b7108fd9b52398b8377b52836f0e0fedc96e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/09/2017
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>Rapporten maken die zijn geoptimaliseerd voor de mobiele Power BI-apps
-Wanneer u [een rapport maakt in Power BI Desktop](desktop-report-view.md) kunt u de ervaring van het gebruik van dit rapport in de mobiele Power BI-apps verbeteren door een versie van het rapport specifiek voor de telefoon te maken. Voor een optimale ervaring kunt u uw rapport voor de telefoon aanpassen door visuele elementen te rangschikken en de grootte ervan te wijzigen, en mogelijk niet alle op te nemen. Ook kunt u [responsieve *visuele elementen* maken](desktop-create-responsive-visuals.md) waarvan de grootte goed kan worden gewijzigd voor weergave op een telefoon. Ook worden als u filters aan uw rapport toevoegt, deze filters automatisch in het telefoonrapport weergegeven op een iPhone. De lezers van uw rapport kunnen deze filters zien en het rapport ermee filteren.
+Wanneer u [een rapport maakt in Power BI Desktop](desktop-report-view.md) kunt u de ervaring van het gebruik van dit rapport in de mobiele Power BI-apps verbeteren door een versie van het rapport specifiek voor de telefoon te maken. Voor een optimale ervaring kunt u uw rapport voor de telefoon aanpassen door visuele elementen te rangschikken en de grootte ervan te wijzigen, en mogelijk niet alle op te nemen. Ook kunt u [*responsieve*visuals](#optimize-a-visual-for-any-size) en [responsieve slicers](#enhance-slicers-to-to-work-well-in-phone-reports) maken waarvan de grootte goed kan worden gewijzigd voor weergave op een telefoon. Als u filters aan uw rapport toevoegt, worden deze filters bovendien automatisch in het telefoonrapport weergegeven. De lezers van uw rapport kunnen deze filters zien en het rapport ermee filteren.
 
 ![Geoptimaliseerd rapport op een telefoon](media/desktop-create-phone-report/07-power-bi-phone-report-portrait.png)
 
@@ -56,7 +56,7 @@ Nadat u [een rapport in Power BI Desktop hebt gemaakt](desktop-report-view.md), 
    ![De grootte van een visueel element aanpassen](media/desktop-create-phone-report/03_resizing_a_viz_to_grid.gif)
 
 ## <a name="optimize-a-visual-for-any-size"></a>Een visueel element optimaliseren voor elke grootte
-U kunt de visuele elementen in uw dashboard of rapport zodanig instellen dat ze *responsief* zijn. Dat wil zeggen dat ze dynamisch worden gewijzigd zodat ze de maximale hoeveelheid gegevens weergeven, ongeacht de schermgrootte.
+U kunt de visuele elementen in uw dashboard of rapport zodanig instellen dat ze *responsief* zijn. Dat wil zeggen dat ze dynamisch worden gewijzigd zodat ze de maximale hoeveelheid gegevens weergeven, ongeacht de schermgrootte. 
 
 Als de grootte van een visueel element verandert, geeft Power BI de prioriteit aan de gegevensweergave, bijvoorbeeld door automatisch de opvulling te verwijderen en de legenda naar de bovenkant van het visuele element te verplaatsen, zodat het visuele element ook als het kleiner wordt informatief blijft.
 
@@ -82,10 +82,14 @@ U kiest voor elk visueel element of u reactietijd wilt inschakelen. Lees meer ov
 Met slicers kunt u rapportgegevens op het canvas filteren. Wanneer u slicers ontwerpt in de normale rapportontwerpmodus, kunt u enkele slicerinstellingen wijzigen zodat ze beter geschikt zijn voor gebruik in telefoonrapporten:
 
 * Besluit of rapportlezers slechts één of meer dan één item kunnen selecteren.
-* Maak de slicer verticaal of horizontaal. 
 * Plaats een vak rond de slicer om het rapport gemakkelijker te kunnen scannen.
+* Maak de slicer verticaal, horizontaal of *responsief*. 
 
-Lees meer over [het maken van slicers in de Power BI-service](guided-learning/visualizations.yml#step-4).
+Als u de slicer responsief maakt, worden er meer of minder opties weergegeven wanneer u het formaat en de vorm wijzigt. Hij kan lang, kort, breed of smal zijn. Als u de slicer klein genoeg maakt, wordt op de rapportpagina alleen nog een filterpictogram weergegeven. 
+
+![Power BI responsieve slicer](media/desktop-create-phone-report/power-bi-slicer-2-rows.png)
+
+Lees meer over [responsieve slicers maken](power-bi-slicer-filter-responsive.md).
 
 ## <a name="publish-a-phone-report"></a>Een telefoonrapport publiceren
 * Als u de telefoonversie van een rapport wilt publiceren, [publiceert u het hoofdrapport van de Power BI Desktop naar de Power BI Desktop-service](desktop-upload-desktop-files.md). De telefoonversie wordt dan op hetzelfde moment gepubliceerd.

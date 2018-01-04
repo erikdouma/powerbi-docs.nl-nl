@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/13/2017
+ms.date: 12/11/2017
 ms.author: maggies
-ms.openlocfilehash: 58af226f6c3d93fffc805e23fcf1bda0d055058d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 27ead0a3104693aff4a6fc3c2641c207ad44dc09
+ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Apps maken en publiceren met dashboards en rapporten in Power BI
 
@@ -32,7 +32,7 @@ Uw zakelijke gebruikers hebben vaak meerdere Power BI-dashboards en rapporten no
 
 Met Power BI-apps, nu beschikbaar in preview, kunt u verzamelingen van dashboards en rapporten maken en deze apps naar uw hele organisatie of naar specifieke personen of groepen publiceren. Apps maken het u als beheerder of rapportmaker gemakkelijker om machtigingen voor verzamelingen van dashboards te beheren.
 
-Zakelijke gebruikers kunnen uw apps op een aantal verschillende manieren installeren. Als de Power BI-beheerder u toestemming geeft, kunt u ze automatisch installeren in de Power BI-accounts van uw collega's. Anders kunnen ze uw apps vanuit Microsoft AppSource installeren, of u kunt ze via een directe koppeling verzenden. Ze kunnen uw inhoud eenvoudig vinden en opnieuw bekijken, omdat alles op één plek staat. Ze ontvangen automatisch updates en u kunt bepalen hoe vaak de gegevens worden vernieuwd. Meer informatie over de [app-ervaring voor zakelijke gebruikers](service-install-use-apps.md).
+Zakelijke gebruikers kunnen deze apps installeren vanuit Microsoft AppSource, of u kunt hen een directe koppeling sturen. Ze kunnen uw inhoud eenvoudig vinden en opnieuw bekijken, omdat alles op één plek staat. Ze ontvangen automatisch updates en u kunt bepalen hoe vaak de gegevens worden vernieuwd. Meer informatie over de [app-ervaring voor zakelijke gebruikers](service-install-use-apps.md).
 
 ### <a name="apps-and-organizational-content-packs"></a>Apps en organisatie-inhoudspakketten
 Apps zijn verbeterde organisatie-inhoudspakketten. Als u al organisatie-inhoudspakketten hebt, blijven deze gewoon naast apps werken.
@@ -119,15 +119,13 @@ Als de dashboards en rapporten in uw app-werkruimte klaar zijn, kunt u deze als 
    
      ![App-inhoud](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-4. Bepaal ten slotte bij **Toegang** wie toegang tot de app heeft: ofwel iedereen in uw organisatie, of specifieke personen of e-maildistributielijsten. Als u toestemming hiervoor hebt, kunt u de app automatisch voor de ontvangers installeren.
-   
-     ![App-toegang](media/service-create-distribute-apps/power-bi-apps-access.png)
+4. Bepaal ten slotte bij **Toegang** wie toegang tot de app heeft: ofwel iedereen in uw organisatie, of specifieke personen of Active Directory-beveiligingsgroepen. 
 
 5. Wanneer u **Voltooien** selecteert, wordt er een bevestigingsbericht weergegeven dat de app gereed is om te publiceren. U kunt in het dialoogvenster dat na het voltooien wordt weergegeven, de URL voor de directe koppeling naar de app kopiëren en verzenden naar de personen waarmee u de app hebt gedeeld.
    
      ![App voltooien](media/service-create-distribute-apps/power-bi-apps-success.png)
 
-De zakelijke gebruikers waarnaar u de app hebt gepubliceerd, kunnen deze op verschillende manieren vinden. Als u de app automatisch kon installeren, wordt deze onder Apps in hun Power BI-account weergegeven.  U kunt ze de directe koppeling naar de app sturen, of ze kunnen ernaar zoeken in Microsoft AppSource, waar ze alle apps kunnen zien waar ze toegang tot hebben. Wanneer ze later naar Apps gaan, zien ze deze app in de lijst staan.
+De zakelijke gebruikers waarnaar u de app hebt gepubliceerd, kunnen deze op twee verschillende manieren vinden. U kunt ze de directe koppeling naar de app sturen, of ze kunnen ernaar zoeken in Microsoft AppSource, waar ze alle apps kunnen zien waar ze toegang tot hebben. Wanneer ze later naar Apps gaan, zien ze deze app in de lijst staan.
 
 Meer informatie over de [app-ervaring voor zakelijke gebruikers](service-install-use-apps.md).
 

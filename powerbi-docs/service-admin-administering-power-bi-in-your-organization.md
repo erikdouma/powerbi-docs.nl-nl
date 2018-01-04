@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/05/2017
+ms.date: 11/28/2017
 ms.author: asaxton
-ms.openlocfilehash: 3ee74e9a7f2f174b37e582089e0d9a1d6c433831
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 180e80ee327342b26849aa63a3910337737ac9ad
+ms.sourcegitcommit: 7742f952c20695dfb475f74965c0065b02c01521
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/29/2017
 ---
 # <a name="administering-power-bi-in-your-organization"></a>Power BI in uw organisatie beheren
 Met Microsoft Power BI kunnen gebruikers gegevens visualiseren, ontdekkingen delen en samenwerken op intuïtieve nieuwe manieren. Zie [Aan de slag met Power BI](service-get-started.md) voor meer informatie.
@@ -60,6 +60,7 @@ Zie [Uitleg over de Power BI-beheerdersrol](service-admin-role.md) voor meer inf
 * [Zijn er nog andere zaken waarop ik me moet voorbereiden?](#are-there-any-additional-things-i-should-be-prepared-for)
 * [Is dit gratis? Worden er kosten in rekening gebracht voor deze licenties?](#is-this-free-will-i-be-charged-for-these-licenses)
 * [Waar bevindt mijn Power BI-tenant zich?](#where-is-my-power-bi-tenant-located)
+* [Wat is de Power BI SLA (Service Level Agreement)?](#what-is-the-power-bi-sla)
 
 **Beveiliging in Power BI**
 
@@ -256,6 +257,9 @@ De licenties van **Power BI (gratis)** zijn voor de gratis versie van Power BI. 
 ### <a name="where-is-my-power-bi-tenant-located"></a>Waar bevindt mijn Power BI-tenant zich?
 Zie [Waar bevindt mijn Power BI-tenant zich?](service-admin-where-is-my-tenant-located.md) voor informatie over hoe u ontdekt waar uw Power BI-tenant zich bevindt, ook bekend als het gegevensgebied.
 
+### <a name="what-is-the-power-bi-sla"></a>Wat is de SLA voor Power BI?
+Raadpleeg het artikel [Licentievoorwaarden en documentatie](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) in het gedeelte **Licentieverlening** van de website Microsoft-licentieverlening voor meer informatie over de Power BI SLA (Service Level Agreement).
+
 ## <a name="security-in-power-bi"></a>Beveiliging in Power BI
 ### <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Voldoet Power BI aan nationale, regionale en branchespecifieke nalevingsvereisten?
 Lees meer informatie over Power BI-naleving in het [Microsoft Vertrouwenscentrum](http://go.microsoft.com/fwlink/?LinkId=785324).
@@ -276,5 +280,5 @@ Power BI is gebouwd op basis van Office 365, dat op zijn beurt is gebaseerd op A
 [Uw groep beheren in Power BI en Office 365](service-manage-app-workspace-in-power-bi-and-office-365.md)  
 [Technisch document over Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/).
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

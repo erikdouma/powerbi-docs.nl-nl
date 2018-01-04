@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/13/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 72cfae29d00d5612abed6e5de7475dd1c62ab1b6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 87fd7f9b881c6af482cc3a644e77b0a95ea1743c
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Apps installeren en gebruiken met dashboards en rapporten in Power BI
 *Apps* brengen in Power BI gerelateerde dashboards en rapporten allemaal op één plek samen. Personen in uw organisatie kunnen apps maken en distribueren met belangrijke bedrijfsinformatie. [Externe services](service-connect-to-services.md) waar u reeds gebruik van maakt, zoals Google Analytics en Microsoft Dynamics CRM, bieden ook Power BI-apps. 
@@ -34,7 +34,7 @@ Bij apps ziet u automatisch de wijzigingen wanneer de auteur van de app updates 
 Plannen voor het ontwerpen van een app? Zie [Apps in Power BI maken en publiceren](service-create-distribute-apps.md) voor meer informatie.
 
 ## <a name="get-a-new-app"></a>Een nieuwe app verkrijgen
-U kunt apps op verschillende manieren verkrijgen. De auteur van de app kan de app automatisch installeren in uw Power BI-account of u een directe koppeling naar een app sturen, of u kunt er naar zoeken in AppSource, waar u alle apps ziet waar u toegang tot hebt. In Power BI op uw mobiele apparaat kunt u deze alleen installeren via een directe verbinding en niet vanuit AppSource. Als de auteur van de app de app automatisch installeert, ziet u deze in uw lijst met apps.
+U kunt apps op twee verschillende manieren verkrijgen. De auteur van de app kan u een directe koppeling naar een app sturen, of u kunt er naar zoeken in AppSource, waar u alle apps ziet waartoe u toegang hebt. In Power BI op uw mobiele apparaat kunt u deze alleen installeren via een directe verbinding en niet vanuit AppSource. 
 
 ### <a name="install-an-app-from-a-direct-link"></a>Een app vanuit een directe koppeling installeren
 De eenvoudigste manier om zelf een nieuwe app te installeren is door een directe koppeling te krijgen van de auteur van de app. Power BI maakt een installatiekoppeling die de auteur naar u kan sturen.

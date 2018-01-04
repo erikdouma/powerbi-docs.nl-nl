@@ -16,16 +16,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/26/2017
+ms.date: 11/21/2017
 ms.author: mihart
-ms.openlocfilehash: cfba13cca4152825e81d4be0f46a9cd26a48d157
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8faa60dee8c1785d5560ac34c5eb50288488e893
+ms.sourcegitcommit: 910258a5ad8b6861e81ae02c57286db221c37375
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/02/2017
 ---
 # <a name="subscribe-to-a-power-bi-report-or-dashboard"></a>Abonneren op een Power BI-rapport of -dashboard
-Het is nog nooit zo eenvoudig geweest om op de hoogte blijven van uw belangrijkste dashboards en rapporten. Abonneer u op de rapportpagina's en dashboards die voor u het belangrijkst zijn, zodat u een e-mail van Power BI in uw postvak ontvangt met een momentopname. U vertelt Power BI hoe vaak u de e-mails wilt ontvangen: van één keer per dag tot één keer per week.
+Het is nog nooit zo eenvoudig geweest om op de hoogte blijven van uw belangrijkste dashboards en rapporten. Abonneer u op de rapportpagina's en dashboards die voor u het belangrijkst zijn, zodat u een e-mail van Power BI in uw postvak ontvangt met een momentopname. U geeft voor Power BI op hoe vaak u de e-mails wilt ontvangen: van één keer per dag tot één keer per week. Voor e-mail en momentopnamen wordt de taal gebruikt die in instellingen voor Power BI is ingesteld. Als er geen taal is ingesteld, wordt in Power BI gebruik gemaakt van de huidige taal in de browser.
+
+Als u uw voorkeurstaal wilt zien of instellen, selecteert u het tandwielpictogram ![](media/service-report-subscribe/power-bi-settings-icon.png) **> Instellingen > Algemeen > Taal**.
+
+![](media/service-report-subscribe/power-bi-language.png)
 
 > [!NOTE]
 > Abonnementen kunnen alleen worden gemaakt in de Power BI-service. Wanneer u de e-mail ontvangt, bevat deze een koppeling naar het rapport/dashboard. Wanneer deze koppeling wordt geselecteerd op een mobiel apparaat waarop Power BI-apps zijn geïnstalleerd, wordt de app in plaats van het rapport of het dashboard op de website van Power BI (standaardacties) geopend.

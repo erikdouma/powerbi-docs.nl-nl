@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 12/04/2017
 ms.author: mihart
-ms.openlocfilehash: c51984aed112b62143ab132672b331cd0f97c7a1
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 878738eb3f588c461b687451062a1641479e77ed
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Voorbeeld van een verkoopkansanalyse voor Power BI: een rondleiding volgen
 Het **Voorbeeld van een verkoopanalyse bijhouden** bevat een dashboard (en het bijbehorende rapport) voor een softwarebedrijf dat twee verkoopkanalen heeft: *direct* en *partner*. De Sales manager heeft dit dashboard gemaakt om kansen en omzet bij te houden per regio, dealgrootte en kanaal.
@@ -38,7 +38,8 @@ De Sales manager vertrouwt op twee soorten omzet:
 
 Dit voorbeeld is onderdeel van een serie die laat zien hoe u Power BI kunt gebruiken met bedrijfsgegevens, rapporten en dashboards. Dit zijn echte, geanonimiseerde gegevens van obviEnce ([www.obvience.com)](http://www.obvience.com/).
 
-U kunt ook [alleen de gegevensset (Excel-werkmap)](http://go.microsoft.com/fwlink/?LinkId=529782) voor dit voorbeeld downloaden.  
+>[!Note] 
+U kunt ook [alleen de gegevensset (Excel-werkmap)](http://go.microsoft.com/fwlink/?LinkId=529782) voor dit voorbeeld downloaden. De werkmap bevat Power View-werkbladen die u kunt bekijken en wijzigen.  Als u de onbewerkte gegevens wilt bekijken, selecteert u **Power Pivot > Beheren**. 
 
 ![](media/sample-opportunity-analysis/opportunity1.png)
 
@@ -94,7 +95,7 @@ Onze CFO gebruikt deze pagina om de werkbelasting te beheren. Door te kijken naa
 * Door te filteren op maand (door de naam van de maand te selecteren in de linkerslicer) ziet u dat er in januari zich een groot percentage deals in de fase Afronden bevinden met een gewogen omzet van $ 75 miljoen. Februari heeft daarentegen voornamelijk gemiddelde deals in de fase Oplossing en Voorstel.
 * In het algemeen fluctueren de cijfers van gewogen omzet op basis van verkoopfase, aantal verkoopkansen en dealgrootte. Voeg filters toe (met behulp van het filterdeelvenster rechts) voor deze factoren om meer inzichten te ontdekken.
 
-Dit is een veilige omgeving om in te experimenteren. U kunt er altijd voor kiezen om uw wijzigingen niet op te slaan. Als u ze wel opslaat, kunt u altijd naar **Gegevens ophalen** gaan voor een nieuwe kopie van dit voorbeeld.
+Dit is een veilige omgeving om in te experimenteren. U kunt er altijd voor kiezen om de wijzigingen niet op te slaan. Als u deze wel opslaat, kunt u altijd naar **Gegevens ophalen** gaan voor een nieuwe kopie van dit voorbeeld.
 
 ## <a name="next-steps-connect-to-your-data"></a>Volgende stappen: verbinding maken met uw gegevens
 We hopen dat deze rondleiding heeft laten zien hoe Power BI-dashboards, Q&A en rapporten inzicht kunnen geven in trackinggegevens over verkoopkansen. Nu is het uw beurt om verbinding met uw eigen gegevens te maken. Met Power BI kunt u verbinding maken met een groot aantal gegevensbronnen. Zie [Aan de slag met Power BI](service-get-started.md) voor meer informatie.

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 8f009e382321d296191d861245e005c1ffb7ee33
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: c0689b969c1956d0344afb2bc8aef7bda32c159e
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Aan de slag met Power BI Desktop
 Welkom bij de **handleiding voor Power BI Desktop**. Deze korte inleiding van Power BI Desktop is bedoeld om u te laten zien hoe het programma het werkt en wat het kan doen, en helpt u sneller robuuste gegevensmodellen en handige rapporten te maken die uw business intelligence verbeteren. 
@@ -43,6 +43,10 @@ Als u weinig tijd hebt, kunt u deze handleiding in een paar minuten doorbladeren
 
 Voor een uitgebreider inzicht kunt u elk gedeelte doorlezen, de stappen uitvoeren en uw eigen Power BI Desktop-bestand maken dat klaar is om in de **Power BI**-service te plaatsen en met anderen te delen.
 
+>[!NOTE]
+>Er is ook een afzonderlijke en speciale versie van **Power BI**, met de naam [**Power BI Report Server**](report-server/get-started.md), die is bedoeld voor klanten die hun gegevens en rapportages on-premises moeten houden. Voor gebruik met die gespecialiseerde versie is er tevens een afzonderlijke en speciale versie van **Power BI Desktop** met de naam **Power BI Desktop voor Power BI Report Server**, die alleen werkt met de versie Report Server van Power BI. In dit artikel wordt de standaard **Power BI Desktop** omschreven.
+
+
 ## <a name="how-power-bi-desktop-works"></a>De werking van Power BI Desktop
 Met Power BI Desktop kunt u *verbinding maken met gegevens* (meestal meerdere gegevensbronnen), *die gegevens vormgeven* (met query's die begrijpelijke, handige gegevensmodellen bouwen), en dit model gebruiken om *rapporten te maken* (die anderen kunnen gebruiken, aanpassen en delen).
 
@@ -51,6 +55,8 @@ Wanneer u de stappen verbinden, vormgeven en rapporteren naar tevredenheid hebt 
 Met Power BI Desktop centraliseert, vereenvoudigt en stroomlijnt u het ontwerpen en maken van opslagplaatsen en rapporten voor business intelligence, wat anders een verspreid, ongeorganiseerd en lastig proces kan zijn.
 
 Wilt u het proberen? Laten we aan de slag gaan.
+
+
 
 ## <a name="install-and-run-power-bi-desktop"></a>Power BI Desktop installeren en starten
 U kunt Power BI Desktop uit de **Power BI**-service downloaden door het **tandwielpictogram** te selecteren en vervolgens **Power BI Desktop** te selecteren.
@@ -333,8 +339,8 @@ U kunt allerlei indrukwekkende aan gegevens gerelateerde combinaties en visualis
 U kunt allerlei handelingen uitvoeren met Power BI Desktop. Bekijk de volgende bronnen voor meer informatie over de vele mogelijkheden:
 
 * [Queryoverzicht in Power BI Desktop](desktop-query-overview.md)
-* [Gegevensbronnen in Power BI Desktop](desktop-data-sources.md)
-* [Verbinding maken met gegevens in Power BI Desktop](desktop-connect-to-data.md)
-* [Gegevens vormgeven en combineren met Power BI Desktop](desktop-shape-and-combine-data.md)
-* [Algemene querytaken in Power BI Desktop](desktop-common-query-tasks.md)   
+* [Data Sources in Power BI Desktop](desktop-data-sources.md) (Gegevensbronnen in Power BI Desktop)
+* [Connect to Data in Power BI Desktop](desktop-connect-to-data.md) (Verbinding maken met gegevens in Power BI Desktop)
+* [Shape and Combine Data with Power BI Desktop](desktop-shape-and-combine-data.md) (Gegevens vormgeven en combineren met Power BI Desktop)
+* [Common Query Tasks in Power BI Desktop](desktop-common-query-tasks.md) (Algemene querytaken in Power BI Desktop)   
 

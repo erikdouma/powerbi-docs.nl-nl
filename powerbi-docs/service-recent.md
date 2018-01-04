@@ -16,21 +16,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/17/2017
+ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: 54c6ba317dbe4fa71c9001f190d724c3afd74313
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 554084b26beff469276709b9e7c7f2c9fa84e65c
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="recent-content-in-power-bi-service"></a>**Recente** inhoud in Power BI-service
-![](media/service-recent/power-bi-recent-screen.png)
+
 
 ## <a name="what-is-recent-content"></a>Wat is recente inhoud
-Recente inhoud staat voor de laatste items die u hebt geopend, met een maximum van 20.  Dit zijn dashboards, rapporten, apps en werkmappen.
+Recente inhoud zijn de laatste items die u hebt bezocht. Dit zijn maximaal 20 items.  Deze omvatten: dashboards, rapporten, apps en de werkmappen voor al uw werkruimten.
 
-![](media/service-recent/power-bi-recent.png)
+![](media/service-recent/power-bi-recent-screen.png)
 
 Kijk hoe Amanda laat zien hoe inhoudslijsten voor **Recent** worden gevuld. Volg vervolgens de stapsgewijze instructies onder de video om het zelf te proberen.
 

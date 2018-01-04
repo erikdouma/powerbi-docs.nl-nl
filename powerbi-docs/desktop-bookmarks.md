@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: a5542e7a4c0b1d5014a6fce0042c07fec7398ab4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: e60ff6d06e4ac0cddf398ccfc1d30e4d97e0773c
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi-preview"></a>Bladwijzers gebruiken om inzichten te delen en verhalen te vertellen in Power BI (Preview)
 Met behulp van **bladwijzers** in Power BI kunt u de momenteel geconfigureerde weergave van een rapportpagina vastleggen, inclusief filters en de status van visuele elementen, en later terugkeren naar deze staat door eenvoudig de opgeslagen bladwijzer te selecteren. 
@@ -153,6 +153,7 @@ Houd rekening met de volgende beperkingen en overwegingen in deze preview-releas
 * Als u een visueel element toevoegt aan een rapportpagina nadat u een bladwijzer hebt gemaakt, wordt het visuele element weergegeven in de standaardstaat. Dit betekent ook dat als u een slicer toevoegt aan een pagina waarop u eerder bladwijzers hebt gemaakt, de slicer in de standaardstaat wordt uitgevoerd.
 * Als visuele elementen worden verplaatst nadat een bladwijzer is gemaakt, wordt dit weerspiegeld in de bladwijzer. 
 * U *moet* ten minste één bladwijzer aan uw rapport toevoegen wanneer u dit publiceert naar de **Power BI-service** als u wilt dat bladwijzers beschikbaar zijn in de service. Dit is een vereiste voor elk rapport dat u publiceert.
+* Aangezien bladwijzers momenteel een Preview-functie zijn, zijn deze nog niet beschikbaar in [**Power BI Desktop voor Report Server**](report-server/quickstart-create-powerbi-report.md).
 
 ## <a name="next-steps"></a>Volgende stappen
 Raadpleeg de volgende artikelen voor meer informatie over functies die vergelijkbaar zijn of samenwerken met bladwijzers:

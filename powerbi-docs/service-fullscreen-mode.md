@@ -1,6 +1,6 @@
 ---
-title: Dashboards, dashboardtegels en rapportpagina's weergeven in de modus Volledig scherm
-description: U kunt dashboards, dashboardtegels en rapportpagina's weergeven in de modus Volledig scherm, ook wel de tv-modus genoemd.
+title: Dashboards, dashboardtegels, rapportpagina's en rapportvisualisaties weergeven in de modus Volledig scherm
+description: Geef dashboards, dashboardtegels en rapportvisualisatie weer in de modus Volledig scherm, ook wel de tv-modus genoemd.
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,17 +16,17 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/09/2017
+ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: 87fbe780991969f5fe3e9a31af58e54015d13678
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: a8d1a49a341b98778a6ad08c823397f420b2475e
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="full-screen-mode-in-power-bi"></a>De modus Volledig scherm in Power BI
 ## <a name="what-is-full-screen-mode"></a>Wat is de modus Volledig scherm?
-![De modus Volledig scherm: vóór en na](media/service-fullscreen-mode/power-bi-full-screen-comparison.png)
+![modus Volledig scherm voor dashboard voor en na](media/service-fullscreen-mode/power-bi-full-screen-comparison.png)
 
 Geef uw inhoud (dashboards, rapportpagina's, tegels en visualisaties) weer zonder de afleiding van menu's en navigatiebalken.  U kunt uw tegel zonder andere storende factoren weergeven op het volledige scherm. Dit wordt ook wel de tv-modus genoemd. Welke functionaliteit beschikbaar is in de modus Volledig scherm, is afhankelijk van de inhoud.  
 
@@ -41,7 +41,7 @@ Enkele gebruikstoepassingen voor de modus Volledig scherm zijn:
 > 
 > 
 
-Kijk hoe Amanda haar dashboard in de modus Volledig scherm opent en navigeert, en vervolgens met enkele URL-parameters de standaardweergave bestuurt. Volg vervolgens de stapsgewijze instructies onder de video om het zelf te proberen.
+Kijk hoe Amanda haar dashboard in de modus Volledig scherm opent en navigeert, en vervolgens met enkele URL-parameters de standaardweergave bestuurt. Gebruik vervolgens de stapsgewijze instructies onder de video om het zelf te proberen.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c31gZkyvC54" frameborder="0" allowfullscreen></iframe>
 
@@ -89,7 +89,7 @@ Kijk hoe Amanda haar dashboard in de modus Volledig scherm opent en navigeert, e
 
 ## <a name="next-steps"></a>Volgende stappen
 [Dashboards in Power BI](service-dashboards.md)  
-[Focusmodus voor dashboards en dashboardtegels](service-focus-mode.md)    
+[Focusmodus](service-focus-mode.md)    
 
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

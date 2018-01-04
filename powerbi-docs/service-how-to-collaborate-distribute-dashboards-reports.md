@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 1ee8cc60d5c18cb09915029088824ade89d2b39f
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a77c9a9816ef47ae4b342b2cd3a08b18c90f70de
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="how-should-i-collaborate-and-share-dashboards-and-reports-in-power-bi"></a>Hoe kan ik samenwerken aan dashboards en rapporten en deze delen in Power BI?
 U maakt dashboards en rapporten. Misschien werkt u er ook wel samen aan met collega's. In dat geval moeten anderen toegang hebben tot de dashboards en rapporten. Wat is de beste manier om ze te distribueren?
@@ -54,7 +54,7 @@ Stel dat u uw dashboard wilt distribueren naar een brede doelgroep. U en uw coll
 
 ![Pictogram App publiceren](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-Apps zijn gemakkelijk te vinden en installeren in de Power BI-service ([https://powerbi.com](https://powerbi.com)). U kunt gebruikers in uw bedrijf een directe koppeling sturen naar de app of ze kunnen ernaar zoeken in AppSource. Als de Power BI-beheerder u hiervoor toestemming geeft, kunt u een app automatisch installeren in de Power BI-accounts van uw collega's. Lees meer over het [publiceren van uw apps](service-create-distribute-apps.md#publish-your-app). 
+Apps zijn gemakkelijk te vinden en installeren in de Power BI-service ([https://powerbi.com](https://powerbi.com)). U kunt gebruikers in uw bedrijf een directe koppeling sturen naar de app of ze kunnen ernaar zoeken in AppSource. Lees meer over het [publiceren van uw apps](service-create-distribute-apps.md#publish-your-app). 
 
 Nadat ze een app hebben geïnstalleerd, kunnen ze deze bekijken in hun browser of op een mobiel apparaat.
 

@@ -15,19 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 12/07/2017
 ms.author: asaxton
-ms.openlocfilehash: 5dabaa09923203c31572b413f8674b76028b7483
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 147ec28e64cf271843fcffdd14abe005345170e0
+ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Power BI-inhoud met Azure AD B2B distribueren naar externe gastgebruikers
 
 Power BI kan worden geïntegreerd met Azure Active Directory Business-to-business (Azure AD B2B) voor een veilige distributie van Power BI-inhoud naar gastgebruikers buiten de organisatie, zonder de controle over de interne gegevens te verliezen.
 
 > [!VIDEO https://www.youtube.com/embed/xxQWEQ1NnlY]
+
+> [!NOTE]
+> Deze functie is momenteel niet beschikbaar met de mobiele Power BI-apps. Op een mobiel apparaat kunt u in een browser Power BI-inhoud weergeven die is gedeeld met Azure AD B2B. 
 
 ## <a name="invite-guest-users"></a>Gastgebruikers uitnodigen
 
@@ -93,6 +96,12 @@ Als u in uw tenant een Power BI Pro-licentie toewijst aan een gastgebruiker, kan
 De gastgebruiker beschikt al over een Power BI Pro-licentie die is toegewezen in hun eigen tenant.
 
 ![De gastgebruiker beschikt over een eigen licentie](media/service-admin-azure-ad-b2b/license-approach3.png)
+
+## <a name="limitations"></a>Beperkingen
+
+* Externe B2B-gasten mogen alleen inhoud gebruiken. Externe B2B-gasten kunnen apps, dashboards en rapporten weergeven, gegevens exporteren en e-mailabonnementen instellen voor dashboards en rapporten. Ze hebben geen toegang tot werkruimten en kunnen hun eigen inhoud niet publiceren.
+* Deze functie is momenteel niet beschikbaar met de mobiele Power BI-apps. Op een mobiel apparaat kunt u in een browser Power BI-inhoud weergeven die is gedeeld met Azure AD B2B.
+* Het gebruik van gastgebruikers met Power BI wordt niet ondersteund binnen soevereine clouds (overheid).
 
 ## <a name="next-steps"></a>Volgende stappen
 

@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 12/11/2017
 ms.author: maggies
-ms.openlocfilehash: 0b50568e49df8e2594519028b90d5d833d17c6b7
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 276f663b8454ef0938222576cec13fcfb073e2cf
+ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>Dashboards van Power BI delen met collega's en anderen
 *Delen* is een goede manier om een paar personen toegang te geven tot uw dashboards en rapporten. Power BI ondersteunt [verschillende manieren om samen te werken en uw dashboards te distribueren](service-how-to-collaborate-distribute-dashboards-reports.md). Delen is er hier slechts één van.
@@ -91,6 +91,8 @@ Alleen de eigenaar van het dashboard kan opnieuw delen in- en uitschakelen.
    * **Lezen** om te voorkomen dat deze persoon met iemand anders deelt.
    * **Toegang verwijderen** om te voorkomen dat deze persoon het dashboard ziet.
 
+4. In het dialoogvenster **Toegang verwijderen** geeft u aan of u de toegang tot de bijbehorende inhoud, zoals rapporten en gegevenssets, ook wilt verwijderen. Als u items met een waarschuwingspictogram ![Power BI waarschuwingspictogram](media/service-share-dashboards/power-bi-warning-icon.png) verwijdert, wordt aangeraden verwante inhoud te verwijderen omdat deze niet correct wordt weergegeven.
+
 ## <a name="share-a-dashboard-with-people-outside-your-organization"></a>Een dashboard delen met personen buiten uw organisatie
 Wanneer u deelt met personen buiten uw organisatie, krijgen deze een e-mail met een koppeling naar het gedeelde dashboard. Ze moeten zich aanmelden bij Power BI om het dashboard te zien. Als ze geen licentie voor Power BI Pro hebben, kunnen ze een licentie aanvragen nadat ze op de koppeling hebben geklikt.
 
@@ -115,6 +117,33 @@ Houd rekening met het volgende bij het delen van dashboards:
 * Collega's met hetzelfde e-maildomein als u, en collega's met een ander domein maar dat wel binnen dezelfde tenant is geregistreerd, kunnen het dashboard delen met anderen. Stel dat de domeinen contoso.com en contoso2.com bijvoorbeeld zijn geregistreerd in dezelfde tenant. Als uw e-mailadres konrads@contoso.com is, kunnen ravali@contoso.com en gustav@contoso2.com allebei delen, uiteraard alleen als u ze hiervoor toestemming hebt gegeven.
 * Als uw collega's al toegang hebben tot een specifiek dashboard, kunt u een directe koppeling naar dat dashboard verzenden door de URL te kopiëren wanneer u zich in het dashboard bevindt. Bijvoorbeeld:`https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`
 * Als uw collega's al toegang tot een specifiek dashboard hebben, kunt u ook [een directe koppeling naar het onderliggende rapport versturen](service-share-reports.md). 
+
+## <a name="troubleshoot-sharing"></a>Problemen met delen oplossen
+
+### <a name="my-dashboard-recipients-see-a-lock-icon-in-a-tile-or-a-permission-required-message"></a>De ontvangers van mijn dashboard zien een vergrendelingspictogram in een tegel of een bericht 'Machtiging is vereist'
+
+Als de personen met wie u inhoud deelt een vergrendelde tegel in een dashboard of een bericht 'Machtiging is vereist' zien wanneer ze proberen om een rapport weer te geven, moet u hen in de onderliggende gegevensset toestemming geven. U doet dit als volgt:
+
+1. Ga naar het tabblad **Gegevenssets** in de inhoudslijst.
+
+1. Selecteer het beletselteken (**...** ) naast de gegevensset > **Machtigingen beheren**.
+
+    ![Machtigingen beheren](media/service-share-dashboards/power-bi-sharing-manage-permissions.png)
+
+3. Selecteer **Gebruiker toevoegen**.
+
+    ![Gebruiker toevoegen selecteren](media/service-share-dashboards/power-bi-share-dataset-add-user.png)
+
+1. Typ het volledige e-mailadres voor afzonderlijke personen, distributiegroepen of beveiligingsgroepen. U kunt niet delen met dynamische distributielijsten.
+
+    ![E-mailadressen toevoegen](media/service-share-dashboards/power-bi-add-user-dataset.png)
+
+5. Selecteer **Toevoegen**.
+
+### <a name="i-cant-share-a-dashboard"></a>Ik kan geen dashboards delen
+
+Als u een dashboard wilt delen, moet u toestemming hebben voor het opnieuw delen van de onderliggende inhoud -- verwante rapporten en gegevenssets. Als een bericht wordt weergegeven dat u niet kunt delen, vraagt u de auteur van het rapport u toestemming te geven deze rapporten en gegevenssets opnieuw te delen.
+
 
 ## <a name="next-steps"></a>Volgende stappen
 * Wilt u feedback geven? Dit kan op de [site van de Power BI-community](https://community.powerbi.com/).

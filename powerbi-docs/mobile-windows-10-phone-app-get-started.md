@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: cff6a984f4c3d47bbf7dcd3df43253c318b2bf50
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 97fb3625848210f6222317cf3fc48eea305ef04d
+ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Aan de slag met de mobiele Power BI-app voor Windows 10
 Met de mobiele Power BI-app voor Windows 10 hebt u Power BI op uw telefoon of tablet met bijgewerkte, mobiele toegang tot uw bedrijfsgegevens. U kunt uw bedrijfsdashboards vanaf elke locatie en rechtstreeks op uw [Windows-startscherm](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) bekijken en ze gebruiken.
@@ -35,10 +35,8 @@ U gebruikt deze dashboards en rapporten vervolgens, verkent de gegevens en deelt
 ## <a name="first-things-first"></a>Om te beginnen
 * [**Download de mobiele Power BI-app voor Windows 10**](http://go.microsoft.com/fwlink/?LinkID=526478) vanuit de Windows Store.
   
-  > [!NOTE]
-  > Uw apparaat moet Windows 10 gebruiken. De app werkt het beste op apparaten met ten minste 2 GB RAM en 8 GB interne opslag. De app kan worden uitgevoerd op apparaten met ten minste 1 GB RAM.
-  > 
-  > 
+  Uw apparaat moet Windows 10 gebruiken. De app kan worden uitgevoerd op apparaten met ten minste 3 GB RAM en 8 GB interne opslag.
+   
 * Ontdek [wat er nieuw is in de mobiele Power BI-apps](mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>Registreren voor de Power BI-service op het web
@@ -131,5 +129,5 @@ Hier volgen enkele andere dingen die u in de Power BI-app voor Windows 10-appara
 ## <a name="next-steps"></a>Volgende stappen
 * [De Power BI-app downloaden](http://go.microsoft.com/fwlink/?LinkID=526478) vanuit de Windows Store  
 * [Aan de slag met Power BI](service-get-started.md)
-* Vragen? [Misschien dat de Power Bi-community het antwoord weet](http://community.powerbi.com/)
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 
