@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/11/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: 276f663b8454ef0938222576cec13fcfb073e2cf
-ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
+ms.openlocfilehash: 4cc7f12eb4964c67ae9f91cfcb51eac77d690555
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>Dashboards van Power BI delen met collega's en anderen
 *Delen* is een goede manier om een paar personen toegang te geven tot uw dashboards en rapporten. Power BI ondersteunt [verschillende manieren om samen te werken en uw dashboards te distribueren](service-how-to-collaborate-distribute-dashboards-reports.md). Delen is er hier slechts één van.
@@ -122,7 +122,11 @@ Houd rekening met het volgende bij het delen van dashboards:
 
 ### <a name="my-dashboard-recipients-see-a-lock-icon-in-a-tile-or-a-permission-required-message"></a>De ontvangers van mijn dashboard zien een vergrendelingspictogram in een tegel of een bericht 'Machtiging is vereist'
 
-Als de personen met wie u inhoud deelt een vergrendelde tegel in een dashboard of een bericht 'Machtiging is vereist' zien wanneer ze proberen om een rapport weer te geven, moet u hen in de onderliggende gegevensset toestemming geven. U doet dit als volgt:
+De personen met wie u inhoud deelt zien mogelijk een vergrendelde tegel in een dashboard of het bericht 'Machtiging is vereist' wanneer ze proberen om een rapport weer te geven.
+
+![Vergrendelde tegel in Power BI](media/service-share-dashboards/power-bi-locked_tile_small.png)
+
+Als dit het geval is, moet u hen toestemming geven voor de onderliggende gegevensset. U doet dit als volgt:
 
 1. Ga naar het tabblad **Gegevenssets** in de inhoudslijst.
 

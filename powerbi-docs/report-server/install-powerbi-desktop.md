@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 12/15/2017
 ms.author: maggies
-ms.openlocfilehash: 589a77624169e9fb59999109668439c5f729c5f5
-ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
+ms.openlocfilehash: c1c38d9d98c92963534081049cdcc6a557313639
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren
 Meer informatie over het installeren van een voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop.
 
-Als u Power BI-rapporten wilt maken voor Power BI Report Server, moet u Power BI Desktop downloaden dat is geoptimaliseerd voor Power BI Report Server. Dit is een andere versie van Power BI Desktop dan de versie die wordt gebruikt met de Power BI-service. De versie van Power BI Desktop voor de Power BI-service bevat bijvoorbeeld preview-functies die beschikbaar zijn in de Power BI Report Server-versie nadat deze zijn vrijgegeven. Als u deze versie gebruikt, moet u ervoor zorgen dat de rapportserver kan werken met een bekende versie van de rapporten en het model. 
+Als u Power BI-rapporten wilt maken voor Power BI Report Server, moet u Power BI Desktop downloaden dat is geoptimaliseerd voor Power BI Report Server. Dit is een andere versie van Power BI Desktop dan de versie die wordt gebruikt met de Power BI-service. De versie van Power BI Desktop voor de Power BI-service bevat bijvoorbeeld preview-functies die niet beschikbaar zijn in de Power BI Report Server-versie totdat deze zijn vrijgegeven. Als u deze versie gebruikt, moet u ervoor zorgen dat de rapportserver kan werken met een bekende versie van de rapporten en het model. 
 
 > [!NOTE]
 > U kunt Power BI Desktop en de voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop naast elkaar op dezelfde computer installeren.
@@ -69,6 +69,36 @@ Als u Power BI Desktop al had daarna de voor Power BI Report Server geoptimalise
 U kunt ook eerst de versie van Power BI Desktop die u wilt gebruiken openen. En daarna opent u het bestand vanuit Power BI Desktop.
 
 Wanneer u een Power BI-rapport wilt bewerken vanuit Power BI Report Server of een nieuw Power BI-rapport wilt maken vanuit de web-portal, wordt altijd de juiste versie van Power BI Destop geopend.
+
+## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
+Rapporten in Power BI Report Server en in de Power BI-service (http://powerbi.com) werken bijna exact dezelfde, op een paar functies na.
+
+### <a name="in-a-browser"></a>In een browser
+Rapporten voor Power BI Report Server ondersteunen alle visualisaties, met inbegrip van:
+
+* Aangepaste visualisaties
+
+Rapporten voor Power BI Report Server bieden geen ondersteuning voor:
+
+* R-visuals
+* ArcGIS-kaarten
+* Breadcrumbs
+* Preview-functies in Power BI Desktop
+
+### <a name="in-the-power-bi-mobile-apps"></a>In de mobiele Power BI-apps
+Rapporten voor Power BI Report Server ondersteunen alle basisfunctionaliteit in de [mobiele Power BI-apps](../mobile-apps-for-mobile-devices.md), waaronder:
+
+* [Indeling van telefoonrapport](../desktop-create-phone-report.md): u kunt een rapport optimaliseren voor de mobiele Power BI-apps. Op uw mobiele telefoon hebben geoptimaliseerde rapporten een speciaal pictogram, ![Het pictogram Geoptimaliseerd Power BI-rapport](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-icon.png), en een speciale indeling.
+  
+    ![Rapporten geoptimaliseerd voor telefoons](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-report.png)
+
+Rapporten voor Power BI Report Server bieden geen ondersteuning voor deze functies in de mobiele Power BI-apps:
+
+* R-visuals
+* ArcGIS-kaarten
+* Aangepaste visualisaties
+* Breadcrumbs
+* Geofiltering van streepjescodes
 
 ## <a name="next-steps"></a>Volgende stappen
 Nu u Power BI Desktop hebt geïnstalleerd, kunt u beginnen met het maken van Power BI-rapporten.

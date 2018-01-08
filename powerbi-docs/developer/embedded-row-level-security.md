@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/30/2017
+ms.date: 12/21/2017
 ms.author: asaxton
-ms.openlocfilehash: c10ca76ac96090ff1facbdd28210b680392aae8d
-ms.sourcegitcommit: 0f6db65997db604e8e9afc9334cb65bb7344d0dc
+ms.openlocfilehash: 491be8983967b1a5dce6579411f194117602b00c
+ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/22/2017
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Beveiliging op rijniveau met ingesloten Power BI-inhoud
-Beveiliging op rijniveau (RLS) kan worden gebruikt om de gebruikerstoegang tot gegevens in een rapport of gegevensset te beperken, zodat er verschillende gegevens worden weergegeven voor verschillende gebruikers van hetzelfde rapport. RLS kan van pas komen bij het insluiten van rapporten uit Power BI.
+Beveiliging op rijniveau (RLS) kan worden gebruikt om de gebruikerstoegang tot gegevens in dashboards, tegels, rapporten en gegevenssets te beperken. Meerdere gebruikers kunnen werken met dezelfde artefacten, terwijl ze allemaal verschillende gegevens zien. Het insluiten van inhoud biedt ondersteuning voor RLS.
 
 Als u inhoud wilt insluiten voor niet-Power BI-gebruikers (app is eigenaar van de gegevens), een typisch ISV-scenario, is dit artikel van belang voor u. U moet het insluittoken zo configureren dat rekening wordt gehouden met de gebruiker en rol. Lees verder voor meer informatie over hoe u dit doet.
 
@@ -34,7 +34,7 @@ Als u inhoud wilt insluiten voor Power BI-gebruikers (gebruiker is eigenaar van 
 
 Om te kunnen profiteren van RLS, is het belangrijk dat u de drie hoofdbegrippen kent: gebruikers, rollen en regels. Laten we deze items eens nader bekijken:
 
-**Gebruikers**: dit zijn de werkelijke eindgebruikers die rapporten weergeven. In Power BI Embedded worden gebruikers geïdentificeerd op basis van de eigenschap username (gebruikersnaam) in een insluittoken.
+**Gebruikers**: eindgebruikers die het artefact weergeven (dashboard, tegel, rapport of gegevensset). In Power BI Embedded worden gebruikers geïdentificeerd op basis van de eigenschap username (gebruikersnaam) in een insluittoken.
 
 **Rollen**: gebruikers behoren tot rollen. Rollen zijn containers voor regels en kunnen namen hebben als *Verkoopmanager* of *Verkoper*. U maakt rollen in Power BI Desktop. Zie [Beveiliging op rijniveau (RLS) met Power BI Desktop](../desktop-rls.md) voor meer informatie.
 
@@ -85,11 +85,11 @@ Nu de rollen in Power BI Desktop zijn geconfigureerd, moet u nog enig werk in de
 
 Gebruikers worden geverifieerd en geautoriseerd door de toepassing, en insluittokens worden gebruikt om de betreffende gebruiker toegang te verlenen tot een specifiek Power BI Embedded-rapport. Power BI Embedded bevat geen specifieke informatie over de identiteit van de gebruiker. Voor de juiste werking van RLS moet u aanvullende contextgegevens bij insluittokens doorgeven in de vorm van identiteiten. Dit wordt gedaan met behulp van de API [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx).
 
-De API [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) accepteert een lijst identiteiten met vermelding van de relevante gegevenssets. Op dit moment kan slechts één identiteit worden opgegeven. Ondersteuning voor het insluiten van meerdere gegevenssets in het dashboard wordt in de toekomst toegevoegd. Voor de juiste werking van RLS moet u het volgende doorgeven als onderdeel van de identiteit.
+De API [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) accepteert een lijst identiteiten met vermelding van de relevante gegevenssets. Voor de juiste werking van RLS moet u het volgende doorgeven als onderdeel van de identiteit.
 
 * **gebruikersnaam (verplicht)**: een tekenreeks die kan worden gebruikt om de identiteit van de gebruiker vast te stellen bij het toepassen van RLS-regels. Er kan slechts één gebruiker worden opgegeven.
 * **rollen (verplicht)**: een tekenreeks met de rollen die kunnen worden geselecteerd bij het toepassen van de regels voor beveiliging op rijniveau. Als u meerdere rollen wilt doorgeven, moeten deze worden doorgegeven als een tekenreeksmatrix.
-* **gegevensset (verplicht)**: de toepasselijke gegevensset voor het rapport dat u wilt insluiten. Er kan slechts één gegevensset worden opgegeven in de lijst met gegevenssets. In de toekomst zal ook het insluiten van meerdere gegevenssets in het dashboard worden ondersteund.
+* **gegevensset (verplicht)**: de toepasselijke gegevensset voor het artefact dat u wilt insluiten. 
 
 U kunt het insluittoken maken met behulp van de methode **GenerateTokenInGroup** in **PowerBIClient.Reports**. Op dit moment worden alleen rapporten ondersteund.
 
@@ -125,7 +125,7 @@ Als u de REST-API aanroept, accepteert de bijgewerkte API nu een extra JSON-matr
 }
 ```
 
-Nu zijn alle benodigde onderdelen aanwezig. Als een gebruiker zich bij uw toepassing aanmeldt om dit rapport weer te geven, ziet deze alleen de gegevens die hij of zij mag zien, zoals gedefinieerd in de beveiliging op rijniveau.
+Nu zijn alle benodigde onderdelen aanwezig. Als een gebruiker zich bij uw toepassing aanmeldt om dit artefact weer te geven, ziet deze alleen de gegevens die hij of zij mag zien, zoals gedefinieerd in de beveiliging op rijniveau.
 
 ## <a name="working-with-analysis-services-live-connections"></a>Werken met liveverbindingen van Analysis Services
 Beveiliging op rijniveau kan worden gebruikt voor liveverbindingen van Analysis Services met on-premises servers. Als u dit type verbinding wilt gebruiken, moet u een aantal concepten goed kennen.
@@ -143,12 +143,11 @@ Rollen kunnen worden opgegeven met de identiteit in een insluittoken. Als er gee
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 * De toewijzing van gebruikers aan rollen in de Power BI-service heeft geen invloed op de beveiliging op rijniveau bij gebruik van een insluittoken.
 * Wanneer u een identiteit met een insluittoken opgeeft, worden RLS-instellingen in de Power BI-service niet toegepast op beheerders of leden met machtigingen voor bewerken, maar op de gegevens.
-* Het doorgeven van identiteitsgegevens bij het aanroepen van GenerateToken wordt alleen ondersteund voor het lezen van/schrijven naar rapporten. Ondersteuning voor andere bronnen volgt later.
 * Liveverbindingen van Analysis Services worden ondersteund voor on-premises servers.
 * Live verbindingen van Azure Analysis Services bieden ondersteuning voor het filteren op rollen, maar niet voor dynamische filteren op gebruikersnaam.
 * Als RLS niet vereist is voor de onderliggende gegevensset, mag de GenerateToken-aanvraag **geen** effectieve identiteit bevatten.
 * Als de onderliggende gegevensset een cloudmodel is (model in de cache of DirectQuery), moet de effectieve identiteit ten minste één rol bevatten. Anders wordt roltoewijzing niet uitgevoerd.
-* Er kan slechts één identiteit worden opgegeven in de lijst met identiteiten. In de toekomst wordt het ook mogelijk om een lijst met meerdere identiteiten en tokens in te sluiten in het dashboard.
+* Een lijst met identiteiten kan meerdere identiteitstokens insluiten in het dashboard. Voor alle andere artefacten bevat de lijst één identiteit.
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 
