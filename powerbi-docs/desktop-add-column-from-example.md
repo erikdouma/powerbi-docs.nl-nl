@@ -24,14 +24,14 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 11/22/2017
 ---
 # <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>Een kolom uit een voorbeeld toevoegen in Power BI Desktop
-Vanaf de versie van **Power BI Desktop** van april 2017 kunt u nieuwe kolommen met gegevens aan uw model toevoegen met **Query-editor** door een of meer voorbeeldwaarden voor de nieuwe kolom op te geven. U kunt een voorbeeld van een nieuwe kolom maken op basis van de huidige selectie of invoer op basis van alle (of de geselecteerde) kolommen in een bepaalde tabel.
+Vanaf de versie van **Power BI Desktop** van april 2017 kunt u nieuwe kolommen met gegevens aan uw model toevoegen met **Query-editor**. Dit doet u door eenvoudigweg een of meer voorbeeldwaarden voor de nieuwe kolom op te geven. U kunt een voorbeeld van een nieuwe kolom maken door gebruik te maken van de huidige selectie of door gebruik te maken van invoer die is gebaseerd op alle (of geselecteerde) kolommen in een bepaalde tabel.
 
 ![](media/desktop-add-column-from-example/add-column-from-example_01.png)
 
 Op deze manier kunt u snel en eenvoudig nieuwe kolommen maken. Dit is handig in de volgende gevallen:
 
 * U weet het gewenste gegevensresultaat in uw nieuwe kolom, maar u weet niet met welke transformatie(s) u dat resultaat bereikt.
-* U weet welke transformaties u nodig hebt, maar u weet niet wat u moet aanklikken of selecteren in de gebruikersinterface om die te bewerkstelligen.
+* U weet al welke transformaties u nodig hebt, maar weet niet zeker wat u in de gebruikersinterface moet aanklikken of selecteren om die transformaties te bewerkstelligen.
 * U weet alles over de benodigde transformaties met behulp van een *Aangepaste kolom*-expressie in **M**, maar een of meer expressies komen niet voor in de gebruikersinterface.
 
 Werken met de functie **Een kolom uit een voorbeeld toevoegen** is heel eenvoudig. In de volgende secties ziet u precies hoe eenvoudig het is.
@@ -41,16 +41,16 @@ Start **Query-editor** om een nieuwe kolom te maken met behulp van een voorbeeld
 
 ![](media/desktop-add-column-from-example/add-column-from-example_02.png)
 
-In dit artikel gebruiken we gegevens van het volgende Wikipedia-artikel (dit is een koppeling, zodat u erop kunt klikken om de gegevens op te halen en het proces kunt volgen):
+In dit artikel gebruiken we gegevens uit het volgende Wikipedia-artikel (dit is een koppeling, zodat u erop kunt klikken om de gegevens op te halen en het proces kunt volgen):
 
 * [**Lijst met staten en gebieden van de Verenigde Staten**](https://wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States)
 
-Als u **Query-editor** hebt gestart en enkele gegevens hebt geladen, kunt u aan de slag gaan met het toevoegen van een kolom vanuit voorbeelden. Om een nieuwe kolom toe te voegen, selecteert u in het lint van **Query-Editor** het tabblad **Kolom toevoegen** en selecteert u **Kolom vanuit voorbeelden**. Als u de vervolgkeuzelijst kiest, kunt u **Vanuit alle kolommen** (de standaardwaarde, als u de knop selecteert in plaats van de vervolgkeuzelijst) of **Vanuit selectie** selecteren. In dit artikel behandelen we **Vanuit alle kolommen**.
+Als u **Query-editor** hebt gestart en enkele gegevens hebt geladen, kunt u aan de slag gaan met het toevoegen van een kolom vanuit voorbeelden. Om een nieuwe kolom toe te voegen, selecteert u in het lint van **Query-editor** het tabblad **Kolom toevoegen** en selecteert u **Kolom vanuit voorbeelden**. Als u de vervolgkeuzelijst kiest, kunt u **Vanuit alle kolommen** (de standaardwaarde, als u de knop selecteert in plaats van de vervolgkeuzelijst) of **Vanuit selectie** selecteren. In dit artikel behandelen we **Vanuit alle kolommen**.
 
 ![](media/desktop-add-column-from-example/add-column-from-example_03.png)
 
 ## <a name="the-add-column-from-examples-pane"></a>Het deelvenster Kolom toevoegen vanuit voorbeelden
-Wanneer u een selectie voor het toevoegen van een nieuwe kolom vanuit voorbeelden hebt gemaakt, verschijnt er een nieuw deelvenster met de kolommen in de huidige tabel (mogelijk moet u schuiven om ze allemaal te kunnen zien). De nieuwe **Kolom1** wordt ook weergegeven aan de rechterkant. Dit is de kolom die in **Power BI Desktop** wordt gemaakt op basis van de voorbeelden. Onder de kop van de nieuwe **Kolom1** bevinden zich lege cellen. Hier kunt de voorbeeldwaarden invoeren die in Power BI wordt gebruikt om regels en transformaties te maken die overeenkomen met uw voorbeeld.
+Wanneer u een selectie voor het toevoegen van een nieuwe kolom vanuit voorbeelden hebt gemaakt, verschijnt er een nieuw deelvenster met de kolommen in de huidige tabel (mogelijk moet u schuiven om ze allemaal te kunnen zien). De nieuwe **Kolom1** wordt ook weergegeven aan de rechterkant. Dit is de kolom die in **Power BI Desktop** wordt gemaakt op basis van de voorbeelden. Onder de kop van de nieuwe **Kolom1** bevinden zich lege cellen. Hier kunt u de voorbeeldwaarden invoeren die in Power BI worden gebruikt om regels en transformaties te maken die overeenkomen met uw voorbeeld.
 
 Deze stap wordt ook vastgelegd onder **Toegepaste stappen** in het deelvenster **Query-instellingen**. Zoals altijd worden uw transformatiestappen vastgelegd in **Query-editor** en op de query toegepast in de volgorde waarin ze zijn vastgelegd.
 
@@ -74,12 +74,12 @@ Vervolgens hebben we het laatste gedeelte van de rij met *Massachusetts [E]* ver
 Elk voorbeeld dat u opgeeft, wordt in **Query-Editor** toegevoegd aan de transformaties. Wanneer u tevreden bent, selecteert u **OK** om uw wijzigingen op te slaan.
 
 ## <a name="see-add-column-from-examples-in-action"></a>Zie hoe Kolom toevoegen vanuit voorbeelden werkt
-Wilt u zien hoe deze functie werkt? De volgende video laat zien hoe deze functie wordt gebruikt, met de gegevensbron die eerder in dit voorbeeld is opgegeven. Bekijk en volg elke stap van het proces.
+Wilt u zien hoe deze functie werkt? In de volgende video ziet u hoe deze functie wordt gebruikt met de gegevensbron die eerder in dit voorbeeld is opgegeven. Bekijk en volg elke stap van het proces.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-ykbVW9wQfw" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
-Er zijn veel transformaties beschikbaar wanneer u **Kolom toevoegen vanuit voorbeelden** gebruikt, maar niet elke transformatie wordt opgenomen. De volgende lijst bevat alle transformaties die worden *ondersteund*.
+Er zijn veel transformaties beschikbaar wanneer u **Kolom toevoegen vanuit voorbeelden** gebruikt, maar niet elke transformatie wordt opgenomen. De volgende lijst bevat alle transformaties die *wel* worden ondersteund.
 
 * **Verwijzing**
   
