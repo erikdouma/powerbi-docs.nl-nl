@@ -1,6 +1,6 @@
 ---
 title: Aanbevolen dashboards in Power BI
-description: Documentatie over het maken van een aanbevolen dashboard in Power BI
+description: Documentatie over het maken van een aanbevolen dashboard in de Power BI-service
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,25 +16,26 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: f87f13c71d60a8edc831a1fd9cc7d0a1d5656634
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 81ea6b32c6f61299c410325a432c521d8b402549
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
-# <a name="featured-dashboards-in-power-bi"></a>Aanbevolen dashboards in Power BI
+# <a name="featured-dashboards-in-power-bi-service"></a>Aanbevolen dashboards in de Power BI-service
 ## <a name="create-a-featured-dashboard"></a>Een aanbevolen dashboard maken
-Veel mensen hebben één dashboard dat ze vaker bezoeken dan andere.  Dit kan het dashboard zijn dat u gebruikt voor uw bedrijf, of een dashboard dat een verzameling tegels uit veel verschillende dashboards en rapporten bevat.
+Veel mensen hebben één dashboard dat ze vaker bezoeken dan andere.  Dit kan het dashboard zijn dat we gebruiken voor ons bedrijf, of een dashboard dat een verzameling tegels uit veel verschillende dashboards en rapporten bevat.
 
 ![](media/service-dashboard-featured/power-bi-feature-nav.png)
 
 Als u een dashboard selecteert als *aanbevolen*, wordt het dashboard meteen weergegeven wanneer u de Power BI-service opent.  
 
-> **OPMERKING**: U kunt ook meerdere dashboards selecteren en als *favorieten* instellen. Zie [Favoriete dashboards](service-dashboard-favorite.md).
-> 
-> 
+U kunt ook meerdere dashboards selecteren en als *favorieten* instellen. Zie [Favoriete dashboards](service-dashboard-favorite.md).
+
+> [!NOTE] 
+>Dit onderwerp is van toepassing op Power BI-service en niet op Power BI Desktop.
 
 Als u nog geen aanbevolen dashboard hebt ingesteld, opent Power BI het laatste dashboard dat u hebt gebruikt.  
 
@@ -70,6 +71,8 @@ Als u een dashboard niet meer gemarkeerd wilt hebben als aanbevolen, ziet u hier
 2. Selecteer in de bovenste menubalk **Aanbevolen uitschakelen**.
    
     ![](media/service-dashboard-featured/power-bi-unfeature.png)
+
+Nu opent Power BI het laatste dashboard dat u hebt gebruikt.  
 
 ## <a name="next-steps"></a>Volgende stappen
 [Een dashboard aan favorieten toevoegen](service-dashboard-favorite.md)

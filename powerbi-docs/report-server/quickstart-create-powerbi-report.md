@@ -15,32 +15,47 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/15/2017
 ms.author: maggies
-ms.openlocfilehash: e492d31a8e1ed57a769c9a36f515d99369f6d6dc
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: c8b07e8c2370f7a1694b18a87b2704a7f164f79f
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="quickstart-create-a-power-bi-report-for-power-bi-report-server"></a>Quickstart: een Power BI-rapport maken voor Power BI Report Server
 U kunt Power BI-rapporten on-premises opslaan en beheren via de webportal van Power BI Report Server, net zoals u Power BI-rapporten kunt opslaan in de cloud in de Power BI-service (https://powerbi.com). U maakt rapporten in Power BI Desktop en publiceert deze naar de webportal. Gebruikers in uw organisatie kunnen de rapporten weergeven in een browser of in een mobiele Power BI-app op een mobiele apparaat.
 
 ![Power BI-rapport in de webportal](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
 
-Als u al Power BI-rapporten hebt gemaakt in Power BI Desktop, bent u klaar om Power BI-rapporten te maken voor Power BI Report Server. Als u dat nog niet hebt gedaan, volgen hier vier korte stappen om u op weg te helpen.
+Nu volgen vier snelle stappen om u op weg te helpen.
 
-## <a name="step-1-install-power-bi-desktop-report-server"></a>Stap 1: Power BI Desktop (Report Server) installeren
-Mogelijk hebt u Power BI Desktop al geïnstalleerd voor het maken van rapporten voor de Power BI-service. Het is raadzaam om de versie van Power BI Desktop te installeren die is geoptimaliseerd voor Power BI Report Server, zodat u zeker weet dat de server en app altijd zijn gesynchroniseerd. U kunt beide versies van Power BI Desktop op dezelfde computer installeren.
+## <a name="step-1-install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Stap 1: voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren
 
-1. Selecteer **Nieuw** > **Power BI-rapport** in de webportal van Power BI Report Server.
+Als u al Power BI-rapporten hebt gemaakt in Power BI Desktop, bent u bijna klaar om Power BI-rapporten te maken voor Power BI Report Server. Het is raadzaam om de versie van Power BI Desktop te installeren die is geoptimaliseerd voor Power BI Report Server, zodat u zeker weet dat de server en app altijd zijn gesynchroniseerd. U kunt beide versies van Power BI Desktop op dezelfde computer installeren.
+
+1. Selecteer in de webportal voor rapportserver de pijl **Downloaden** > **Power BI Desktop**.
+
+    ![Power BI Desktop downloaden van de webportal](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
+
+    U kunt ook rechtstreeks naar [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (Geoptimaliseerd voor Power BI Report Server - oktober 2017) gaan in het Microsoft Downloadcentrum.
+
+2. Selecteer **Downloaden** in het downloadcentrum.
+
+3. Selecteer het volgende, afhankelijk van uw computer:
+
+    - **PBIDesktopRS.msi** (de 32-bits versie) of
+
+    - **PBIDesktopRS_x64.msi** (de 64-bits versie).
+
+4. Nadat u het installatieprogramma hebt gedownload, voert u de installatiewizard van Power BI Desktop (oktober 2017) uit.
+
+2. Selecteer aan het einde van de installatie de optie **Power BI Desktop nu starten**.
    
-    ![Nieuw Power BI-rapport](media/quickstart-create-powerbi-report/report-server-web-portal-new-powerbi-report.png)
-   
-    Als u geen toegang hebt tot de webportal van Power BI Report Server, gaat u naar het Microsoft Download Center en downloadt u [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=837581) (geoptimaliseerd voor Power BI-rapportserver - juni 2017 GA).
-2. Selecteer aan het einde van het installatieproces de optie **Power BI Desktop nu starten**.
-   
-    Het programma wordt automatisch gestart en u kunt aan de slag. U hebt de juiste versie als 'Power BI Desktop (Report Server)' wordt vermeld in de titelbalk.
+    Het programma wordt automatisch gestart en u kunt aan de slag. U hebt de juiste versie als 'Power BI Desktop (oktober 2017)' wordt vermeld in de titelbalk.
+
+    ![Power BI Desktop-versie van oktober 2017](media/quickstart-create-powerbi-report/report-server-desktop-october-2017-version.png)
+
 3. Als u niet bekend bent met Power BI Desktop, is het misschien een goed idee om de video's op het welkomstscherm te bekijken.
    
     ![Welkomstscherm van Power BI Desktop](media/quickstart-create-powerbi-report/report-server-powerbi-desktop-start.png)
@@ -97,6 +112,7 @@ Rapporten voor Power BI Report Server bieden geen ondersteuning voor:
 * R-visuals
 * ArcGIS-kaarten
 * Breadcrumbs
+* Preview-functies in Power BI Desktop
 
 ### <a name="in-the-power-bi-mobile-apps"></a>In de mobiele Power BI-apps
 Rapporten voor Power BI Report Server ondersteunen alle basisfunctionaliteit in de [mobiele Power BI-apps](../mobile-apps-for-mobile-devices.md), waaronder:

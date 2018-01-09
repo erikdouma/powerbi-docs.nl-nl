@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: d39fd80b834afc37fb1db43a083f9037a3b83ef1
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 33954aab1d6e79efc985f3e0d3c4d026f529b691
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>In de Power BI-service kunt u van vrijwel alles de naam wijzigen
 In dit artikel leert u hoe u de naam van een dashboard, rapport, rapportpagina, werkmap, gegevensset, app en werkruimte wijzigt in de Power BI-service.
@@ -35,12 +35,12 @@ In dit artikel leert u hoe u de naam van een dashboard, rapport, rapportpagina, 
 | Werkmap in een werkruimte |Ja |Nee |
 | Gegevensset in een werkruimte |Ja |Nee |
 | App-werkruimte |Ja, als u de eigenaar bent of beheerdersmachtigingen hebt |Nee |
-| Gepubliceerde apps |Niet via het app-scherm. U kunt de naam van de app wijzigen in de app-werkruimte en deze opnieuw publiceren met de nieuwe naam. Hiervoor moet u wel over beheerdersmachtigingen beschikken. |Nee |
-| App-inhoud (dashboard, report, werkmap, gegevensset) |Niet via het app-scherm. U kunt de naam van de inhoud van de app wijzigen in de app-werkruimte en de inhoud vervolgens opnieuw publiceren met de nieuwe naam. Hiervoor moet u wel over beheerdersmachtigingen beschikken. |Nee |
+| Gepubliceerde apps |Niet via het app-scherm. U kunt de naam van de app wijzigen in de app-werkruimte en deze opnieuw publiceren met de nieuwe naam. Hiervoor moet u wel over beheerdersmachtigingen beschikken |Nee |
+| App-inhoud (dashboard, report, werkmap, gegevensset) |Niet via het app-scherm. U kunt de naam van de inhoud van de app wijzigen in de app-werkruimte en de inhoud vervolgens opnieuw publiceren met de nieuwe naam. Hiervoor moet u wel over beheerdersmachtigingen beschikken |Nee |
 | Inhoud in **Gedeeld met mij** |Nee |Nee |
 
 ## <a name="rename-a-dashboard-report-or-workbook"></a>De naam van een dashboard, rapport of werkmap wijzigen
-1. Open een werkruimte en selecteer het tabblad **Dashboards**, **Rapporten** of **Werkmappen**. Beweeg de muisaanwijzer over het item waarvan u de naam wilt wijzigen en selecteer het tandwielpictogram ![](media/service-rename/powerbi-cog-icon.png).
+1. Open een werkruimte en selecteer het tabblad **Dashboards**, **Rapporten** of **Werkmappen**. Beweeg de muisaanwijzer over het item waarvan u de naam wilt wijzigen en selecteer het tandwielpictogram ![](media/service-rename/powerbi-cog-icon.png). Als er geen tandwielpictogram beschikbaar is, bent u niet gemachtigd om de naam te wijzigen.
    
    ![](media/service-rename/power-bi-workspace-dashboards.png)
 2. Typ de nieuwe naam op de pagina Instellingen en selecteer **Opslaan**.
@@ -67,7 +67,7 @@ In dit artikel leert u hoe u de naam van een dashboard, rapport, rapportpagina, 
 Iedereen met beheerdersmachtigingen kan de naam van een app-werkruimte wijzigen.
 
 1. Start in de werkruimte waarvan u de naam wilt wijzigen.
-2. Selecteer in de rechterbovenhoek de weglatingstekens (...) en kies **Werkruimte bewerken**.  
+2. Selecteer in de rechterbovenhoek de weglatingstekens (...) en kies **Werkruimte bewerken**. Als u deze optie niet ziet, bent u niet gemachtigd om de naam van deze werkruimte te wijzigen. 
    
     ![](media/service-rename/power-bi-edit-workspace.png)
 3. Typ een nieuwe naam voor de werkruimte en selecteer**Opslaan**.
@@ -93,5 +93,5 @@ Niet tevreden over de naam van een pagina in uw Power BI-rapport?  U kunt in sle
 * Als het item waarvan de naam moet worden gewijzigd, met u is gedeeld of deel uitmaakt van een inhoudspakket, wordt er geen tandwielpictogram weergegeven u hebt geen toegang tot de instellingen.
 * Als u geen weglatingstekens (...) op het tabblad **Gegevenssets** ziet, breidt u het browservenster uit.
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/).
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

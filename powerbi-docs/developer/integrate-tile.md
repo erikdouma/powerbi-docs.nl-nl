@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 12/19/2017
 ms.author: asaxton
-ms.openlocfilehash: 8527ffb7d9e16bcf55216bc6e0bcd60feec12e16
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 0b2e0208814fdd68ef7c6f0bcc1cf6ffa1fe42da
+ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/20/2017
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>Een tegel in een app integreren (gebruiker is eigenaar van de gegevens)
 Informatie over het integreren of insluiten van een tegel in een web-app met behulp van REST-API-aanroepen en de Power BI JavaScript-API voor uw organisatie.
@@ -236,9 +236,11 @@ https://app.powerbi.com/embed?dashboardId={dashboard_id}&tileId={tile_id}&groupI
 ```
 
 ## <a name="next-steps"></a>Volgende stappen
-Er is een voorbeeldtoepassing beschikbaar op GitHub die u kunt bekijken. Zie [integrate-tile-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app) voor meer informatie.
+[Tegel insluiten](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Tile-Embed) in Power BI-JavaScript Wiki
 
-Er is meer informatie beschikbaar voor de JavaScript-API, zie [Power BI JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript).
+[Power BI JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript)
 
-Nog vragen? [Misschien dat de Power Bi-community het antwoord weet](http://community.powerbi.com/)
+Voorbeeld van [integrate-tile-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app) op GitHub.
+
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

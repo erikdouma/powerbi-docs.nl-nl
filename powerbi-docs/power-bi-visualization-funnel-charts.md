@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 231bf7febb19583414d976cc612d06c2caa1e246
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 91c185a082cebc6a9196e0e86898fe366363f8c2
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="funnel-charts-tutorial"></a>Trechterdiagrammen (zelfstudie)
 Een trechterdiagram helpt u om een lineaire proces dat bestaat uit opeenvolgende verbonden fasen te visualiseren. Bijvoorbeeld een verkooptrechter waarmee klanten in verschillende fasen worden bijgehouden: Lead \> Gekwalificeerde lead \> Prospect \> Contract \> Voltooid.  De vorm van de trechter brengt de status van het proces dat u bijhoudt in één oogopslag over.
@@ -59,15 +59,15 @@ Bekijk deze video om te zien hoe Will een trechterdiagram maakt op basis van het
 
 Maak nu uw eigen trechterdiagram dat het aantal mogelijkheden weergeeft dat we hebben in elk van onze verkoopfasen.
 
-In deze instructies wordt het voorbeeld van een verkoopkansanalyse gebruikt. Als u alles op de voet wilt volgen, kunt u het [voorbeeld downloaden](sample-datasets.md), zich aanmelden bij Power BI en achtereenvolgens **Gegevens ophalen \> Voorbeelden \> Voorbeeld van een verkoopkansanalyse \> Verbinding maken** selecteren.
+In deze instructies wordt het voorbeeld van een verkoopkansanalyse gebruikt. Om mee te lezen kunt u het [voorbeeld downloaden](sample-datasets.md) voor de Power BI-service (app.powerbi.com) of voor Power BI Desktop.   
 
-1. Start op een [lege rapportpagina ](power-bi-report-add-page.md)in de [bewerkweergave](service-interact-with-a-report-in-editing-view.md) en selecteer het veld **Verkoopfase** \> **Verkoopfase**.  
+1. Start op een [lege rapportpagina ](power-bi-report-add-page.md) en selecteer het veld **Verkoopfase** \> **Verkoopfase**. Als u de Power BI-service gebruikt, moet u het rapport openen in de [bewerkweergave](service-interact-with-a-report-in-editing-view.md).
    
     ![](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
 2. [Converteer de grafiek](power-bi-report-change-visualization-type.md) naar een trechter. U ziet dat **Verkoopfase** zich bevindt in het veld **Groep**. 
 3. Selecteer vanuit het deelvenster **Velden** de optie **Feit** \> **Aantal kansen**.
    
-    ![](media/power-bi-visualization-funnel-charts/funnelfinal_new.png)
+    ![](media/power-bi-visualization-funnel-charts/power-bi-funnel.png)
 4. Als u de muisaanwijzer boven een balk houdt, wordt een schat aan informatie weergegeven.
    
    * De naam van de fase
@@ -90,14 +90,13 @@ Als u een balk in een trechter markeert, worden de andere visualisaties op de ra
 2. Zie [Interacties tussen visuele elementen in Power BI](service-reports-visual-interactions.md) als u voorkeuren wilt instellen voor hoe visuele elementen elkaar kruislings markeren en filteren
 
 ## <a name="create-a-funnel-chart-in-qa"></a>Een trechterdiagram maken in Q&A
-Markeer het dashboard waaraan ten minste één visualisatie is vastgemaakt vanuit de gegevensset 'Kansen bijhouden'.  Wanneer u een vraag invoert in Q&A, zoekt Power BI antwoorden in alle gegevenssets die zijn gekoppeld aan het geselecteerde dashboard (waaraan tegels zijn vastgemaakt). Zie [Power BI - basisconcepten](service-basic-concepts.md) voor meer informatie.
+Open het dashboard Voorbeeld van een verkoopkansanalyse of een ander dashboard waarop ten minste één visualisatie uit de gegevensset Voorbeeld van een verkoopkansanalyse is vastgezet.  Wanneer u een vraag invoert in Q&A, zoekt Power BI antwoorden in alle gegevenssets die zijn gekoppeld aan het geselecteerde dashboard (waaraan tegels zijn vastgemaakt). Zie [Power BI - basisconcepten](service-basic-concepts.md) voor meer informatie.
 
-1. Markeer een dashboard waaraan ten minste één tegel is vastgemaakt vanuit de gegevensset 'Kansen bijhouden'.
-2. Beginnen met het typen van uw vraag in het vak van Q&A.
+1. Begin op het dashboard Voorbeeld van een verkoopkansanalyse uw vraag te typen in het vak Q&A.
    
    ![](media/power-bi-visualization-funnel-charts/funnelfromqna_new.png)
    
-   Zorg ervoor dat u ‘als trechter’ toevoegt zodat Power BI weet welk type visualisatie u wilt gebruiken.
+2. Zorg ervoor dat u ‘als trechter’ toevoegt zodat Power BI weet welk type visualisatie u wilt gebruiken.
 
 ## <a name="next-steps"></a>Volgende stappen
 [Typen visualisaties in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

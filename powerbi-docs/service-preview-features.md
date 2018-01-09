@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/02/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 7038587e567b2d8377f1ef77583f7baa9695fa58
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 6f63dd502e84433c8ecc40e28d0f518845546f90
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="opt-in-for-power-bi-preview-features"></a>Aanmelden voor preview-functies van Power BI
 ## <a name="what-are-preview-features"></a>Wat zijn *preview-functies*?
@@ -33,22 +33,16 @@ Wanneer we verbeteringen aanbrengen in Power BI, brengen we een aantal nieuwe fu
 > 
 > 
 
-## <a name="current-previews-available"></a>Huidige beschikbare voorbeelden
-**ArcGIS Maps for Power BI (preview)** De combinatie van ArcGIS-kaarten en Power BI tilt kaarten naar een volledig nieuw niveau, verder dan de presentatie van punten op een kaart.
-[Bekijk de service ArcGIS Maps van Esri in de Power BI-service en Power BI Desktop](power-bi-visualization-arcgis.md).
-
-## <a name="turn-the-arcgis-preview-feature-on-and-off"></a>De ArcGIS preview-functie inschakelen (en uitschakelen)
+## <a name="find-previews-and-turn-them-on-and-off"></a>Voorbeelden zoeken en deze inschakelen (en uitschakelen)
 1. Open het menu Instellingen door het tandwielpictogram te selecteren in de rechterbovenhoek van het scherm van Power BI en kies **Instellingen**.
    
    ![](media/service-preview-features/power-bi-settings.png).
-2. Selecteer het tabblad **Algemeen** en kies **Preview-functies**.
+2. Selecteer het tabblad **Algemeen**. Als er voorbeelden beschikbaar zijn, ziet u een optie om **voorbeelden van functies te zien** of een voorbeeldfunctie aan de linkerkant.  In dit voorbeeld wordt een voorbeeld weergegeven voor ArcGIS Maps. 
    
    ![](media/service-preview-features/power-bi-preview-arcgis.png)
-3. Selecteer het keuzerondje **Aan** om de nieuwe ervaring uit te proberen. Klik op **Toepassen**.
-4. Als u preview-functies wilt uitschakelen, volgt u stap 1 en 2 hierboven en selecteert u in stap 3 **Uit** > **Toepassen**.
+3. Selecteer het keuzerondje **Aan** of schakel het selectievakje in om de nieuwe ervaring uit te proberen. Selecteer vervolgens **Toepassen**.
+4. Als u voorbeeldfuncties wilt uitschakelen, volgt u de stappen 1 t/m 3 hierboven. Kies **Uit** in stap 3 of schakel het selectievakje uit en selecteer **Toepassen**.
 
-## <a name="next-steps"></a>Volgende stappen
-[De nieuwe navigatie-ervaring voor Power BI](service-the-new-power-bi-experience.md)
 
 Vragen of feedback? [Bezoek de Power BI-community](http://community.powerbi.com/t5/Navigation-Preview-Forum/bd-p/NavigationPreview).
 

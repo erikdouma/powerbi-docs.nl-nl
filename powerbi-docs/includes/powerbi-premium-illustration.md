@@ -5,6 +5,7 @@
    * Voor de toegang tot app-werkruimten (als leden of beheerders) en het publiceren van apps is Power BI Pro-licentie vereist.
    * App-lezers kunnen zowel gebruikers van Power BI Pro of de gratis versie Power BI zijn.
    * Voor delen is een Power BI Pro-licentie nodig, maar de geadresseerden kunnen zowel gebruikers van Power BI Pro als gebruikers van de gratis versie zijn.
+   * Afhankelijk van of dashboardontvangers een Power BI Pro-licentie of gratis licentie hebben, kunnen ze meldingen voor gegevens instellen.
    * REST-API's voor insluiten maken gebruik van een serviceaccount, met een Power BI Pro-licentie, in plaats van een gebruiker.
 2. Mijn werkruimte in Gedeelde capaciteit
    

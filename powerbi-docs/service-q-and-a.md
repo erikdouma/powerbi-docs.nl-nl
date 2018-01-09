@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/05/2017
+ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: 3f78d19a5a28f096279a4fe25881ae26ffbae3cc
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 44a825e548ae55fa0ce13ba6eed57b860be6fe8f
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="qa-in-power-bi"></a>Q&A in Power BI
 Soms krijgt u het snelst een antwoord uit uw gegevens wanneer u een vraag stelt in natuurlijke taal. Bijvoorbeeld: "Wat was de totale omzet het afgelopen jaar?"  Gebruik Q&A om aan de hand van intuïtieve, natuurlijke taal uw gegevens te verkennen en antwoorden te krijgen in de vorm van diagrammen en grafieken. Q&A verschilt van een zoekmachine. Q&A retourneert alleen resultaten over de gegevens in Power BI.
 
 > [!NOTE]
-> Q&A is ook beschikbaar in de [Microsoft Power BI-app voor iOS op iPads, iPhones en iPod Touch-apparaten](mobile-apps-ios-qna.md).
+> Q&A is ook beschikbaar in de [Microsoft Power BI-app voor iOS op iPads, iPhones en iPod Touch-apparaten](mobile-apps-ios-qna.md) en in [Power BI Desktop](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#QandA).
 > 
 > 
 
@@ -51,11 +51,6 @@ De ervaring is volledig interactief... en snel. Dankzij de opslag in het geheuge
 [Zelfstudie: Power BI Q&A gebruiken met het detailhandelverkoopvoorbeeld](power-bi-visualization-introduction-to-q-and-a.md): Q&A gebruiken in een realistische, praktijkgerichte zelfstudie.
 
 [Ervoor zorgen dat uw gegevens goed werken met Q&A](service-prepare-data-for-q-and-a.md): als u de persoon bent die de gegevenssets en gegevensmodellen maakt,  is dit onderwerp bedoelt voor u.
-
-## <a name="next-steps"></a>Volgende stappen
-[Power BI - basisconcepten](service-basic-concepts.md)
-
-[Aan de slag met Power BI](service-get-started.md)
 
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

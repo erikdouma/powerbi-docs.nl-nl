@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 1fc6e666753ae45931604a1113f340115ec18269
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: c82b5c302511d5c82ae0048b8dce4f227f6fc5b1
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Veelgestelde vragen over Power BI
 * Als u andere vragen hebt, kunt u deze stellen [in de Power BI-community](http://community.powerbi.com/).
@@ -138,7 +138,12 @@ U kunt licenties voor Power BI Pro rechtstreeks kopen of chatten met een vertege
 
 U kunt ook een [Microsoft-partner](https://partner.microsoft.com/) zoeken om u te helpen met uw Power BI-implementatie.
 
-## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Voldoet Power BI aan nationale, regionaal en branchespecifieke nalevingsvereisten?
+## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>Wat gebeurt er als mijn Power BI Pro-licentie is verlopen?
+Er is een respijtperiode van 30 dagen na het verstrijken van een licentie voor Power BI Pro.
+
+Power BI Pro heeft dezelfde levenscyclus van abonnementen als Office 365. Zie [Wat gebeurt er met mijn gegevens en toegang wanneer mijn abonnement op Office 365 voor bedrijven eindigt?](https://support.office.com/en-us/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3) voor meer informatie.
+
+## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Voldoet Power BI aan nationale, regionale en branchespecifieke nalevingsvereisten?
 Lees meer over Power BI-naleving in het [Microsoft Vertrouwenscentrum](http://go.microsoft.com/fwlink/?LinkId=785324).
 
 ## <a name="where-can-i-learn-more-about-security"></a>Waar vind ik meer informatie over beveiliging?
@@ -154,5 +159,5 @@ Net als in veel andere services en software van Microsoft, biedt Power BI een ee
 
 ## <a name="next-steps"></a>Volgende stappen
 * Nog vragen? [Misschien dat de community van Power BI het antwoord weet](http://community.powerbi.com/).
-* Nog steeds geen antwoord? Ga naar de [ondersteuningspagina van Power BI](https://powerbi.microsoft.com/support/).
+* Nog steeds geen antwoord? Ga naar de [ondersteuningspagina van Power BI](https://powerbi.microsoft.com/support/) (Engelstalig)
 

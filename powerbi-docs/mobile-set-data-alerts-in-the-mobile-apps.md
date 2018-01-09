@@ -1,6 +1,6 @@
 ---
 title: Gegevensmeldingen instellen in de mobiele Power BI-apps
-description: Ontdek hoe u meldingen instelt in de mobiele Power BI-apps en in de Power BI-service, zodat u wordt gewaarschuwd als de wijzigingen van gegevens in een dashboard de door u ingestelde beperkingen overschrijden.
+description: Leer hoe u meldingen instelt in de mobiele Power BI-apps, zodat u wordt gewaarschuwd als de wijzigingen van gegevens in een dashboard de door u ingestelde beperkingen overschrijden.
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: 822285a38e08f173ff8cae69c8e7e8ad94957692
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: c6406a6d1ad4269352ce8421b91f4304fd35c78f
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Gegevensmeldingen instellen in de mobiele Power BI-apps
 Van toepassing op:
@@ -30,7 +30,9 @@ Van toepassing op:
 |:--- |:--- |:--- |:--- |:--- |
 | iPhones |iPads |Android-telefoons |Android-tablets |Windows 10-apparaten |
 
-U kunt meldingen instellen in de mobiele Power BI-apps en in de Power BI-service, zodat u wordt gewaarschuwd als de wijzigingen van gegevens in een dashboard de door u ingestelde beperkingen overschrijden. Meldingen worden gebruikt voor tegels met een enkel getal, zoals kaarten en meters, maar niet voor het streamen van gegevens. U kunt gegevensmeldingen instellen voor uw mobiele apparaat en deze zien in de Power BI-service, en vice versa. Alleen u ziet de gegevensmeldingen die u hebt ingesteld, zelfs als u een dashboard of een momentopname van een tegel deelt.
+U kunt meldingen voor dashboards instellen in de mobiele Power BI-apps en in de Power BI-service. Door middel van meldingen wordt u gewaarschuwd als wijzigingen aan de gegevens in een tegel de limieten overschrijden die u hebt ingesteld. Meldingen worden gebruikt voor tegels met een enkel getal, zoals kaarten en meters, maar niet voor het streamen van gegevens. U kunt gegevensmeldingen instellen voor uw mobiele apparaat en deze zien in de Power BI-service, en vice versa. Alleen u ziet de gegevensmeldingen die u hebt ingesteld, zelfs als u een dashboard of een momentopname van een tegel deelt.
+
+U kunt waarschuwingen instellen voor tegels als u over de Power BI Pro-licentie beschikt of als u een gratis Power BI-licentie hebt en de gedeelde dashboard zich in een Premium-capaciteit bevindt. 
 
 > [!WARNING]
 > Gegevensgestuurde meldingen bieden informatie over uw gegevens. Als uw apparaat wordt gestolen, wordt aangeraden de Power BI-service te gebruiken om alle gegevensgestuurde meldingsregels uit te schakelen. 
@@ -173,5 +175,5 @@ Gegevensbronnen worden vaak zo ingesteld dat ze dagelijks worden vernieuwd. Soms
 ## <a name="next-steps"></a>Volgende stappen
 * [Meldingen beheren in de Power BI-service](service-set-data-alerts.md)
 * [Meldingencentrum van Power BI voor mobiel](mobile-apps-notification-center.md)
-* Vragen? [Misschien dat de Power Bi-community het antwoord weet](http://community.powerbi.com/)
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

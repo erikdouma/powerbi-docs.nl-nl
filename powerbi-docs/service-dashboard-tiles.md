@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: d1960ea42bee8b00cc6dd095e94ebf6f6303bce8
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f6ddae485f15a1ebeed2ef1dfa7a1d373f9bb04b
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Dashboardtegels in Power BI
 Dashboards en dashboardtegels zijn functies van Power BI-service, niet van Power BI Desktop. Dashboardtegels kunnen niet worden gemaakt of vastgemaakt in Power BI - Mobiel, [maar kunnen daarin wel worden weergeven en gedeeld](mobile-tiles-in-the-mobile-apps.md). En in Power BI - Mobiel kunt u [afbeeldingen toevoegen aan uw dashboard met uw iPhone-app](mobile-iphone-app-get-started.md).
@@ -100,9 +100,7 @@ Als u een tegel selecteert, hangt wat er daarna gebeurt af van de manier waarop 
 * Als de oorspronkelijke visualisatie waarmee de tegel is gemaakt wijzigt, verandert de tegel niet.  Als u bijvoorbeeld een lijndiagram uit een rapport hebt vastgemaakt en u het lijndiagram vervolgens wijzigt in een staafdiagram, blijft de dashboardtegel een lijndiagram weergeven. De gegevens worden vernieuwd, maar het visualisatietype niet.
 
 ## <a name="next-steps"></a>Volgende stappen
-[Een tegel met een groot getal maken op basis van een rapport](power-bi-visualization-big-number-report.md)
-
-[Een tegel met een groot getal maken op basis van een Q&A](power-bi-visualization-big-number.md)
+[Kaart maken (tegel met grote cijfers) voor uw dashboard](power-bi-visualization-card.md)
 
 [Dashboards in Power BI](service-dashboards.md)  
 

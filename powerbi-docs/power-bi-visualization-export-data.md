@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/02/2017
+ms.date: 11/19/2017
 ms.author: mihart
-ms.openlocfilehash: fb40b2576176b772c841cea3347909aaf34af375
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2e5f72b0eb2507f8d2c7df7fc8a57817bb6ce79f
+ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/20/2017
 ---
 # <a name="export-data-from-visualizations"></a>Gegevens uit visualisaties exporteren
 Als u de gegevens wilt zien die gebruikt worden om een visualisatie te maken, kunt u die [gegevens weergeven in Power BI](service-reports-show-data.md) of exporteren naar Excel als .xlsx- of .csv-bestand.   
@@ -84,7 +84,7 @@ Als u mee wit doen, opent u het rapport [Procurement analysis sample](sample-pro
    ![](media/power-bi-visualization-export-data/power-bi-export-data8.png)
 
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
-* Het maximum aantal rijen dat uit **Power BI Desktop** naar .csv kan worden geëxporteerd,is 30.000.
+* Het maximum aantal rijen dat uit **Power BI Desktop** en de **Power BI-service** naar .csv kan worden geëxporteerd, is 30.000.
 * Het maximum aantal rijen dat naar .xlsx geëxporteerd kan worden in de **Power BI-service** bedraagt 150.000 voor Pro-gebruikers en 30.000 voor gratis gebruikers.
 * Bij gebruik van DirectQuery is de maximale hoeveelheid gegevens die geëxporteerd kan worden 16 MB. Dit kan ertoe leiden dat minder dan het maximum aantal rijen wordt geëxporteerd, vooral als er veel kolommen zijn, gegevens die moeilijk te comprimeren zijn en andere factoren die de bestandsgrootte vergroten en het aantal geëxporteerde rijen verminderen.
 * Power BI ondersteunt exporteren alleen in visualisaties waarin basisaggregaten worden gebruikt. Exporteren is niet beschikbaar voor visualisaties met model- of rapportmetingen.
@@ -101,5 +101,5 @@ Als u mee wit doen, opent u het rapport [Procurement analysis sample](sample-pro
 [Rapporten in Power BI](service-reports.md)  
 [Power BI - basisconcepten](service-basic-concepts.md)
 
-Nog vragen? [Vragen stellen aan de Power BI-community](http://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

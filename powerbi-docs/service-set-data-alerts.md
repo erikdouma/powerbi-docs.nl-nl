@@ -16,16 +16,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/06/2017
+ms.date: 12/21/2017
 ms.author: mihart
-ms.openlocfilehash: cfbd7d124784b15b432921554c8ac5bbe321846c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 2a4134e1a06933927bd2c5453cd8e7a79394c384
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Gegevenswaarschuwingen in de Power BI-service
-Stel meldingen in om u te waarschuwen als wijzigingen aan de gegevens in uw dashboards de limieten overschrijden die u hebt ingesteld. Meldingen kunnen alleen worden ingesteld op tegels die zijn vastgemaakt vanuit visuele rapportelementen, en alleen op meters, KPI's en kaarten. Meldingen kunnen worden ingesteld op visuele elementen die zijn gemaakt van sets streaminggegevens die vanaf een rapport aan een dashboard zijn vastgemaakt. Ze kunnen niet worden ingesteld op streamingtegels die rechtstreeks op het dashboard zijn gemaakt via **Tegel toevoegen** > **Aangepaste streaminggegevens**. U bent zelf de enige die de door u ingestelde meldingen kunt zien, ook als u uw dashboard deelt. Gegevensmeldingen worden volledig met alle platforms gesynchroniseerd. Stel gegevensmeldingen in en bekijk ze [in de mobiele Power BI-apps](mobile-set-data-alerts-in-the-mobile-apps.md) (Engelstalig) en in de Power BI-service. Ze zijn niet beschikbaar voor Power BI Desktop. Meldingen kunnen ook worden [geautomatiseerd en geïntegreerd met Microsoft Flow](https://flow.microsoft.com) - [probeer het zelf](service-flow-integration.md).
+Stel meldingen in om u te waarschuwen als wijzigingen aan de gegevens in uw dashboards de limieten overschrijden die u hebt ingesteld. 
+
+Meldingen kunnen alleen worden ingesteld op tegels die zijn vastgemaakt vanuit visuele rapportelementen, en alleen op meters, KPI's en kaarten. Meldingen kunnen worden ingesteld op visuele elementen die zijn gemaakt van sets streaminggegevens die vanaf een rapport aan een dashboard zijn vastgemaakt. Ze kunnen niet worden ingesteld op streamingtegels die rechtstreeks op het dashboard zijn gemaakt via **Tegel toevoegen** > **Aangepaste streaminggegevens**. 
+
+U bent zelf de enige die de door u ingestelde meldingen kunt zien, ook als u uw dashboard deelt. Gegevensmeldingen worden volledig met alle platforms gesynchroniseerd. Stel gegevensmeldingen in en bekijk ze [in de mobiele Power BI-apps](mobile-set-data-alerts-in-the-mobile-apps.md) (Engelstalig) en in de Power BI-service. Ze zijn niet beschikbaar voor Power BI Desktop. Meldingen kunnen ook worden [geautomatiseerd en geïntegreerd met Microsoft Flow](https://flow.microsoft.com) - [probeer het zelf](service-flow-integration.md).
 
 ![](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
@@ -46,13 +50,12 @@ In dit voorbeeld wordt een kaarttegel gebruikt van het voorbeelddashboard voor r
    ![](media/service-set-data-alerts/powerbi-card.png)
 2. Selecteer het belpictogram ![](media/service-set-data-alerts/power-bi-bell-icon.png) om een of meer meldingen toe te voegen aan **Totaal aantal winkels**.
    
-   ![](media/service-set-data-alerts/powerbi-set-alert.png)
-3. Controleer eerst of de schuifregelaar op **Aan** is ingesteld en geef de melding een titel. Titels helpen u de meldingen makkelijk te herkennen.
+1. Selecteer eerst **+ Waarschuwingsregel toevoegen**. Controleer vervolgens of de schuifregelaar is ingesteld op **Aan** en geef de melding een titel. Titels helpen u de meldingen makkelijk te herkennen.
    
    ![](media/service-set-data-alerts/powerbi-alert-title.png)
 4. Schuif omlaag en voer de details van de melding in.  In dit voorbeeld maken we een melding die ons eenmaal per dag waarschuwt als het totale aantal winkels de honderd overschrijdt. Meldingen worden weergegeven in het meldingencentrum. We zorgen er ook voor dat Power BI een e-mail stuurt.
    
-   ![](media/service-set-data-alerts/powerbi-set-alert-details.png)
+   ![](media/service-set-data-alerts/power-bi-set-alert-details.png)
 5. Selecteer **Opslaan**.
 
 ## <a name="receiving-alerts"></a>Meldingen ontvangen
@@ -76,7 +79,7 @@ Vervolgens wordt een melding verzonden naar het meldingencentrum en ontvangt u e
    > 
 
 ## <a name="managing-alerts"></a>Meldingen beheren
-U kunt meldingen op drie manieren beheren: vanaf het dashboardtegel zelf, vanuit het menu Instellingen in Power BI en vanaf een individuele tegel in de [mobiele Power BI-app op de iPhone](mobile-set-data-alerts-in-the-mobile-apps.md) (Engelstalig) of in de [mobiele Power BI-app voor Windows 10](mobile-set-data-alerts-in-the-mobile-apps.md) (Engelstalig).
+U kunt meldingen op diverse manieren beheren: vanaf het dashboardtegel zelf, vanuit het menu Instellingen in Power BI en vanaf een individuele tegel in de [mobiele Power BI-app op de iPhone](mobile-set-data-alerts-in-the-mobile-apps.md) (Engelstalig) of in de [mobiele Power BI-app voor Windows 10](mobile-set-data-alerts-in-the-mobile-apps.md) (Engelstalig).
 
 ### <a name="from-the-tile-itself"></a>Vanaf de tegel zelf
 1. Als u een melding voor een tegel wilt wijzigen of verwijderen, opent u opnieuw het venster **Meldingen beheren** door het belpictogram ![](media/service-set-data-alerts/power-bi-bell-icon.png) te selecteren. Alle meldingen die u voor die tegel hebt ingesteld, worden weergegeven.
@@ -108,5 +111,5 @@ U kunt meldingen op drie manieren beheren: vanaf het dashboardtegel zelf, vanuit
 [Create a Microsoft Flow that includes a data alert](service-flow-integration.md)   (Een Microsoft Flow maken die een gegevensmelding bevat)  
 [Set data alerts on your mobile device](mobile-set-data-alerts-in-the-mobile-apps.md)   (Gegevensmeldingen instellen op uw mobiele apparaat)  
 [Get started with Power BI](service-get-started.md)   (Aan de slag met Power BI)  
-Hebt u nog vragen? [Misschien dat de Power Bi-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

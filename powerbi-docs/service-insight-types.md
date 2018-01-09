@@ -1,6 +1,6 @@
 ---
-title: Typen snelle inzichten die door Power BI worden ondersteund
-description: Snelle inzichten met Power BI.
+title: Typen inzichten die door Power BI worden ondersteund
+description: Snelle inzichten en inzichten weergeven met Power BI.
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,21 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/03/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 13f5614cf121b17d8ae4dff9653f5789372f7f49
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 53e5e67da9bacd9fc9dcbb770747823647aa3a3c
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
-# <a name="types-of-quick-insights-supported-by-power-bi"></a>Typen snelle inzichten die door Power BI worden ondersteund
-## <a name="how-does-quick-insights-work"></a>Hoe werkt Snelle inzichten?
+# <a name="types-of-insights-supported-by-power-bi"></a>Typen inzichten die door Power BI worden ondersteund
+## <a name="how-does-insights-work"></a>Hoe werkt Inzichten?
 Power BI doorzoekt snel verschillende subsets van uw gegevensset terwijl er tegelijkertijd een geavanceerde algoritmen worden toegepast om potentieel interessante inzichten te detecteren. Power BI probeert binnen de toegewezen hoeveelheid tijd zo veel mogelijk van een gegevensset te scannen.
 
-U kunt Snelle Inzichten uitvoeren voor een gegevensset of tegel (verwante inzichten).   
+U kunt inzichten uitvoeren op basis van een gegevensset of dashboardtegel.   
 
-## <a name="what-types-of-quick-insights-can-we-find"></a>Wat voor typen snelle inzichten kunnen er worden gezocht?
+## <a name="what-types-of-insights-can-we-find"></a>Wat voor typen inzichten kunnen er worden gezocht?
 Hier volgen enkel van de algoritmen die we gebruiken:
 
 ## <a name="category-outliers-topbottom"></a>Categorie-uitbijters (boven/onder)
@@ -78,9 +78,9 @@ Detecteert of er specifieke datums of tijden voor verschillende tijdreeksen zijn
 ![](media/service-insight-types/pbi_auto_insight_types_time_series_outliers.png)
 
 ## <a name="next-steps"></a>Volgende stappen
-[Snelle inzichten in Power BI](service-insights.md)
+[Power BI-inzichten](service-insights.md)
 
-Als u de eigenaar van een gegevensset bent, kunt u deze [optimaliseren voor Snelle inzichten](service-insights-optimize.md)
+Als u de eigenaar van een gegevensset bent, kunt u deze [optimaliseren voor inzichten](service-insights-optimize.md)
 
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

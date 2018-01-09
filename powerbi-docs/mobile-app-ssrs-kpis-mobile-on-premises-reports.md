@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: 99fceab5904deaa510edd213c349dcfb2e38ac28
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 5bbd2f09187e9fac16f6cc4b9ac3ff59a888ed7f
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>On-premises rapportserverrapporten en KPI's weergeven in de mobiele Power BI-apps
 Van toepassing op:
@@ -63,7 +63,14 @@ Met de mobiele Power BI-apps kunt u on-premises Power BI-rapporten, mobiele Repo
 3. Tik op **Verbinding maken met server**.
    
     ![Verbinding maken met server](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-android-server-sign-in.png)
-4. Vul het adres van de server en uw gebruikersnaam en wachtwoord in. Gebruik deze notatie voor het adres van de server:
+
+     De mobiele app moet op een bepaalde manier toegang hebben tot de server. Dit kan op een aantal manieren worden verkregen:
+
+    - Het is het gemakkelijkst door hetzelfde netwerk/VPN te gebruiken.
+    - Het is mogelijk een Web Application Proxy te gebruiken om verbinding te maken van buiten de organisatie. Zie [OAuth gebruiken om verbinding met Reporting Services te maken](mobile-oauth-ssrs.md) voor meer informatie. 
+    - Open een verbinding (poort) in de firewall.
+
+1. Vul het adres van de server en uw gebruikersnaam en wachtwoord in. Gebruik deze notatie voor het adres van de server:
    
      `http://<servername>/reports`
    
@@ -71,10 +78,7 @@ Met de mobiele Power BI-apps kunt u on-premises Power BI-rapporten, mobiele Repo
    
      `https://<servername>/reports`
    
-   > [!NOTE]
-   > Voeg **http** of **https** toe aan het begin van de verbindingsreeks.
-   > 
-   > 
+   Voeg **http** of **https** toe aan het begin van de verbindingsreeks.
    
     ![Het dialoogvenster Verbinding maken met server](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-connect-to-server-dialog.png)
 5. (Optioneel) U kunt bij **Geavanceerde opties** desgewenst een beschrijvende naam opgeven voor de server.
@@ -100,7 +104,7 @@ U kunt KPI's en rapporten op het webportal markeren als favorieten en ze vervolg
 
 * Tik op **Favorieten**.
   
-   ![Favorieten in het linkernavigatievenster](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server.png)
+   ![Favorieten in het linkernavigatievenster](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server-update.png)
   
    Uw favoriete KPI's en rapporten van de webportal bevinden zich allemaal op deze pagina, samen met de Power BI-dashboards in de Power BI-service:
   
@@ -113,5 +117,5 @@ U kunt KPI's en rapporten op het webportal markeren als favorieten en ze vervolg
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Aan de slag met Power BI](service-get-started.md)  
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/).
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

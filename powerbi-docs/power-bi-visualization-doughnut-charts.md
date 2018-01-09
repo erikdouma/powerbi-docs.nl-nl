@@ -15,34 +15,35 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 2f428095eb57c5358770f1d6d8572316d2b84c37
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f3401fac7b0e7e6b5b5404a5a837822772e1d70f
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="doughnut-charts-in-power-bi-tutorial"></a>Ringdiagrammen in Power BI (zelfstudie)
 Een ringdiagram lijkt sterk op een cirkeldiagram omdat ook hierin de relatie van de delen ten opzichte van het geheel wordt getoond. Het enige verschil is dat het midden leeg is, waardoor er ruimte is voor een label of pictogram.
 
 ## <a name="create-a-doughnut-chart"></a>Een ringdiagram maken
-Meld u aan bij Power BI als u mee wilt doen. Selecteer achtereenvolgens **Gegevens ophalen** \> **Voorbeelden** \> **Voorbeeld van een retailanalyse** \> **Verbinding maken**. 
+In deze instructies wordt het Voorbeeld van een retailanalyse gebruikt om een ringdiagram te maken waarin de verkoop van dit jaar op categorie wordt weergegeven. Om mee te lezen kunt u het [voorbeeld downloaden](sample-datasets.md) voor de Power BI-service (app.powerbi.com) of voor Power BI Desktop.
 
-1. Selecteer op het dashboard de tegel **Totaal aantal winkels** om het rapport Voorbeeld van een retailanalyse te openen.
-2. Selecteer **Rapport bewerken** om het rapport in de bewerkweergave te openen.
-3. [Voeg een nieuwe rapportpagina toe](power-bi-report-add-page.md).
-4. Maak een ringdiagram waarin de omzet van dit jaar per categorie wordt weergegeven.
+1. Start op een [lege rapportpagina ](power-bi-report-add-page.md) en selecteer het veld **Verkoopfase** \> **Verkoopfase**. Als u de Power BI-service gebruikt, moet u het rapport openen in de [bewerkweergave](service-interact-with-a-report-in-editing-view.md).
+
+2. Selecteer **Verkoop** \> **Omzet van afgelopen jaar** in het deelvenster Velden.  
    
-   * Selecteer in het deelvenster **Velden** de opties **Verkoop** \> **Omzet van afgelopen jaar**.
-   * Converteer naar een ringdiagram. Als Omzet van afgelopen jaar niet voorkomt in het gebied **Waarden**, sleept u het erheen.
+3. Selecteer in het deelvenster Visualisaties het pictogram voor het ringdiagram ![pictogram voor ringdiagram]() om uw staafdiagram te converteren naar een ringdiagram. Als **Omzet van afgelopen jaar** niet voorkomt in het gebied **Waarden**, sleept u het erheen.
      
-       ![](media/power-bi-visualization-doughnut-charts/convertdonut.png)
-   * Selecteer **Artikel** \> **Categorie** om deze toe te voegen aan het gebied **Legenda**. 
-     
-       ![](media/power-bi-visualization-doughnut-charts/doughnuttutorial.png)
+   ![](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-chart.png)
 
-## <a name="considerations-and-troubleshooting"></a>Overwegingen en probleemoplossing
+4. Selecteer **Artikel** \> **Categorie** om deze toe te voegen aan het gebied **Legenda**. 
+     
+    ![](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-done.png)
+
+5. U kunt desgewenst [de grootte en de kleur van de tekst van de grafiek aanpassen](power-bi-visualization-customize-title-background-and-legend.md). 
+
+## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 * De som van de waarden in het ringdiagram moet 100% zijn.
 * Te veel categorieën zorgen er voor dat het diagram moeilijk te interpreteren is.
 * Ringdiagrammen kunnen het best worden gebruikt om een bepaalde sectie met het totaal te vergelijken en niet om de afzonderlijke secties onderling te vergelijken. 
@@ -54,7 +55,7 @@ Meld u aan bij Power BI als u mee wilt doen. Selecteer achtereenvolgens **Gegeve
 
 [Visualizations in Power BI reports](power-bi-report-visualizations.md) (Visualisaties in Power BI-rapporten)
 
-[Power BI - Basic Concepts](service-basic-concepts.md) (Power BI - basisconcepten)
+[Power BI - basisconcepten](service-basic-concepts.md)
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

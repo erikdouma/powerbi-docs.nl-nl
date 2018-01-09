@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/05/2017
+ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: d29008365ab7df8f0bcd8297bfd5dc2f41c0e3a4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 4b8a606cd110c13a615be88d49f04e68b3f2cbe6
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Aanbevolen vragen voor Q&A-functie van Power BI maken
 Als u beschikt over een gegevensset, kunt u uw eigen aanbevolen vragen toevoegen aan deze dataset.  En Power BI Q & A toont deze vragen aan collega's die uw gegevensset gebruiken.  Aanbevolen vragen geven uw collega's ideeën over de typen vragen die ze kunnen stellen over de gegevensset. U bepaalt zelf welke aanbevolen vragen u toevoegt: u kunt populaire vragen, vragen die interessante resultaten weergeven of vragen die mogelijk moeilijk zijn te formuleren toevoegen.
@@ -32,13 +32,13 @@ Kijk hoe Will een aantal aanbevolen vragen toevoegt aan Power BI Q&A en die vrag
 <iframe width="560" height="315" src="https://www.youtube.com/embed/E1mIAyEXuF4" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Q&A is ook beschikbaar in de [Microsoft Power BI-app voor iOS op iPads, iPhones en iPod Touch-apparaten](mobile-apps-ios-qna.md).
+> Vragen in Q&A zijn beschikbaar voor gebruik in de [Microsoft Power BI-app voor iOS op iPads, iPhones en iPod Touch-apparaten](mobile-apps-ios-qna.md) en in de Q&A-preview van Power BI Desktop. Het maken van de vragen is echter alleen beschikbaar in de Power BI-service (app.powerbi.com).
 > 
 > 
 
 In dit artikel wordt het [voorbeeld van een retailanalyse](sample-datasets.md) gebruikt.
 
-1. Klik in het Q&A-vraagvak.   U ziet dat Q&A al een handige lijst weergeeft met termen die voorkomen in de gegevensset.
+1. Selecteer het vakje Q&A op het dashboard.   U ziet dat Q&A al een handige lijst weergeeft met termen die voorkomen in de gegevensset.
 2. Als u items wilt toevoegen aan deze lijst, selecteert u tandwielpictogram in de rechterbovenhoek van Power BI.  
    ![](media/service-q-and-a-create-featured-questions/pbi_gearicon2.jpg)
 3. Selecteer **Instellingen** &gt; **Gegevenssets** &gt; **Voorbeeld van een retailanalyse** &gt; **Aanbevolen Q&A-vragen** .  
@@ -57,5 +57,5 @@ In dit artikel wordt het [voorbeeld van een retailanalyse](sample-datasets.md) g
 [Q&A in Power BI](service-q-and-a.md)  
 [Zelfstudie: Inleiding tot Q&A in Power BI](power-bi-visualization-introduction-to-q-and-a.md)  
 [Power BI - basisconcepten](service-basic-concepts.md)  
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

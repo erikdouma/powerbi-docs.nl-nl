@@ -15,20 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/29/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 2abaa2ae00b353af46c267083f879cbf9536b397
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 79e10c7d47eb5105e0c3e79bd3451315eae6d27e
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>De Power BI-service of Power BI Desktop gebruiken om een aangepaste antwoordpagina voor Cortana te maken
 Maak gebruik van de Power BI-functionaliteit om speciale rapportpagina's, de zogenaamde *Cortana-antwoordpagina's* (soms ook wel Cortana-antwoordkaarten genoemd) te maken die speciaal zijn ontworpen voor de beantwoording van Cortana-vragen.
 
 ![](media/service-cortana-answer-cards/power-bi-cortana.png)
 
-> [!NOTE]
+> [!IMPORTANT]
 > Als u de preview-versie van het Cortana- en Power BI-**dashboard** uitprobeert, kunt u de rest van dit artikel overslaan. Er zijn geen installatievereisten voor Cortana om uw Power BI-dashboards te doorzoeken.
 > 
 > 
@@ -63,7 +63,7 @@ Een *Cortana-antwoordpagina* in een rapport heeft een formaat dat specifiek is a
    > U kunt de resultaten verbeteren door woorden die worden gebruikt als kolomnamen te vermijden.
    > 
    > 
-6. Als uw rapport paginaniveaufilters heeft, kunt u eventueel **Enkelvoudige selectie vereisen** instellen. In Cortana wordt dit rapport dan alleen als een antwoord weergegeven als één, en uitsluitend één, van de filteritems in de vraag wordt vermeld.
+6. Als uw rapport paginaniveaufilters heeft, kunt u eventueel **Enkelvoudige selectie vereisen** instellen. In Cortana wordt dit rapport dan alleen als een antwoord weergegeven als één, en uitsluitend één, van de filteritems in de vraag wordt vermeld. **Enkelvoudige selectie vereisen** vindt u onder aan het deelvenster **Filters**.
    
    > [!NOTE]
    > U hoeft **Enkelvoudige selectie vereisen** niet in te stellen, als u wilt dat in Cortana een rapport wordt weergegeven op basis van de paginaniveaufilters.  Voor 'omzet weergeven voor Charlotte Lindseys' bijvoorbeeld wordt de antwoordpagina weergegeven, ongeacht of u de instelling Enkelvoudige selectie vereisen hebt geselecteerd.

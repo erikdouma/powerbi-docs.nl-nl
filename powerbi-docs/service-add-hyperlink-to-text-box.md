@@ -1,6 +1,6 @@
 ---
 title: Een hyperlink toevoegen aan een tekstvak in een rapport
-description: Een hyperlink toevoegen aan een tekstvak in Power BI
+description: Een hyperlink toevoegen aan een tekstvak in de Power BI-service en Power BI Desktop
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,16 +16,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 846e6625345bbecb2611615f929f0b55338830e2
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 9533985238fa9fb40bbab4e9ddd459aaaaffc135
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>Een hyperlink toevoegen aan een tekstvak in een rapport
-U kunt tekstvakken toevoegen aan rapporten, vanuit rapporten vastmaken aan dashboards en rechtstreeks aan dashboards toevoegen. U kunt altijd hyperlinks aan een tekstvak toevoegen, ongeacht waar het tekstvak zich bevindt. **Dit onderwerp bevat informatie over tekstvakken in rapporten.**
+U kunt tekstvakken toevoegen aan rapporten, vanuit rapporten vastmaken aan dashboards en rechtstreeks aan dashboards toevoegen. U kunt altijd hyperlinks aan een tekstvak toevoegen, ongeacht waar het tekstvak zich bevindt. **Dit onderwerp gaat over de tekstvakken in rapporten in de Power BI-service (niet in Power BI Desktop).**
 
 > **Opmerking**: zie [Hyperlinks in tabellen](power-bi-hyperlinks-in-tables.md) voor meer informatie over hyperlinks in Power BI-tabellen en -matrices. Zie [Rechtstreeks een tegel vanaf het dashboard toevoegen](service-dashboard-add-widget.md) voor meer informatie over het toevoegen van de tekstvakken aan uw **dashboard**. 
 > 
@@ -47,7 +47,7 @@ U kunt tekstvakken toevoegen aan rapporten, vanuit rapporten vastmaken aan dashb
    
    ![](media/service-add-hyperlink-to-text-box/power-bi-test-link.png)
    
-   * Selecteer de hyperlink in het tekstvak om de URL weer te geven.
+   * Plaats de cursor op een willekeurige plek in de geselecteerde tekst om de URL weer te geven.  
      
       ![](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-edit.png)
    * Selecteer de URL om de pagina te openen in een nieuw browservenster.
@@ -63,5 +63,5 @@ U kunt tekstvakken toevoegen aan rapporten, vanuit rapporten vastmaken aan dashb
 
 [Een tekstvak toevoegen aan een dashboard](service-dashboard-add-widget.md)
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/).
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

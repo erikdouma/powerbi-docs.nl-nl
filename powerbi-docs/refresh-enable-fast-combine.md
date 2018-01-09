@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 11f233321f9be1db5afccad02edbe33900a555ca
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 1e68f7df5214e038df8bcd1584acb815c0af98bf
+ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/22/2017
 ---
 # <a name="disable-privacy-setting-in-power-bi-gateway---personal"></a>Privacyinstelling in Power BI Gateway - Personal uitschakelen
 > [!NOTE]
@@ -59,6 +59,7 @@ Gebruik de volgende stappen om Snel combineren in te schakelen voor uw persoonli
     Als u geen beheerder bent, vindt u het op deze locatie.
    
     <pre><code>C:\Users\[username]\AppData\Local\Power BI Personal Gateway\1.0\Configurator\Connector</code></pre>
+    
 2. Voeg het element **&lt;EnableFastCombine&gt;** toe aan het configuratiebestand, met de waarde true. Door dit element toe te voegen, wordt **Snel combineren** ingeschakeld.
    
    <pre><code>&lt;EnableFastCombine&gt;true&lt;/EnableFastCombine&gt;</code></pre>
@@ -77,6 +78,7 @@ Gebruik de volgende stappen om Snel combineren in te schakelen voor uw persoonli
     Als u geen beheerder bent, vindt u het op deze locatie.
    
     <pre><code>C:\Users\[username]\AppData\Local\Power BI Personal Gateway\1.0\Configurator\Connector</code></pre>
+
 2. Verwijder het element **&lt;EnableFastCombine&gt;** uit het configuratiebestand. Door dit element te verwijderen, wordt **Snel combineren** uitgeschakeld.
 3. Sluit het configuratiescherm voor de gateway en start de gateway opnieuw op.
 4. U ziet niet langer een status die aangeeft dat **Snel combineren** is ingeschakeld.

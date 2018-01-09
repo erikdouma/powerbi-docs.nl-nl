@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/28/2017
+ms.date: 12/12/2017
 ms.author: asaxton
-ms.openlocfilehash: 49df0d0a44ceae3e36f45f6523f39a0b5bb1b6a0
-ms.sourcegitcommit: 7742f952c20695dfb475f74965c0065b02c01521
+ms.openlocfilehash: c4c62ab5c24b7abe2760535da0a6cf69982c7174
+ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 12/14/2017
 ---
 # <a name="using-auditing-within-your-organization"></a>Auditing gebruiken binnen uw organisatie
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zj4kA39jV_4?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-Lees hier meer over de manier waarop u auditing kunt gebruiken met Power BI om uitgevoerde acties te controleren en onderzoeken. U kunt de app Beveiliging- en compliance gebruiken of PowerShell.
+Lees hier meer over de manier waarop u auditing kunt gebruiken met Power BI om uitgevoerde acties te controleren en onderzoeken. U kunt het Beveiligings- en nalevingscentrum of PowerShell gebruiken.
 
 Weten wie welke actie uitvoert op een item in uw Power BI-tenant kan essentieel zijn om uw organisatie te helpen te voldoen aan de vereisten, zoals het voldoen aan regelgeving en archiefbeheer.
 
@@ -35,6 +35,16 @@ U kunt de auditgegevens filteren op datumbereik, gebruiker, dashboard, rapport, 
 
 > [!NOTE]
 > De auditfunctie in Power BI is in preview en is beschikbaar in alle gegevensregio's.
+
+## <a name="requirements"></a>Vereisten
+U moet aan deze vereisten voldoen voor toegang tot de auditlogboeken:
+
+- Voor toegang tot het auditgedeelte van het Beveiligings- en nalevingscentrum van Office 365 moet u een Exchange Online-licentie hebben (meegeleverd bij abonnementen op Office 365 Enterprise E3 en E5).
+- U moet een algemene beheerder zijn of een Exchange-beheerdersrol hebben die toegang tot het auditlogboek biedt. 
+
+  Exchange-beheerdersrollen worden beheerd via het Exchange-beheercentrum. Zie [Machtigingen in Exchange Online](https://technet.microsoft.com/library/jj200692(v=exchg.150).aspx) voor meer informatie.
+
+- Als u wel toegang tot het auditlogboek hebt maar geen algemene beheerder of beheerder van de Power BI-service bent, krijgt u geen toegang tot het beheerportal van Power BI. In dit geval moet u een directe koppeling naar het Beveiligings- en nalevingscentrum van Office 365 ophalen.
 
 ## <a name="enabling-auditing-functionality-in-the-power-bi-admin-portal"></a>Auditing inschakelen in de Power BI-beheerportal
 
@@ -70,8 +80,8 @@ Als u de auditlogboeken van Power BI wilt raadplegen, gaat u naar de app Beveili
    ![](media/service-admin-auditing/powerbi-admin.png)
 
 3. Selecteer **Auditlogboeken**.
-4. 
-5. Selecteer **Naar het Office 365-beheercentrum**.
+ 
+4. Selecteer **Naar het Office 365-beheercentrum**.
    
    ![](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
@@ -231,4 +241,4 @@ Zie [Gedetailleerde eigenschappen in het auditlogboek van Office 365](https://su
 [Search-UnifiedAuditLog](https://technet.microsoft.com/library/mt238501\(v=exchg.160\).aspx)  
 [Gedetailleerde eigenschappen in het auditlogboek van Office 365](https://support.office.com/article/Detailed-properties-in-the-Office-365-audit-log-ce004100-9e7f-443e-942b-9b04098fcfc3)  
 
-Nog vragen? [Misschien dat de Power Bi-community het antwoord weet](http://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 9dc9cb883e1d62c282501e628f52c13267d830b6
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 4c4c31f6289f6b3d12b619b7c6c297d861177fbf
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="favorite-dashboards-in-the-power-bi-service"></a>Favoriete dashboards in de Power BI-service
 Wanneer u van een dashboard een *favoriet* maakt, kunt u dit dashboard openen in al uw werkruimten.  Favorieten zijn doorgaans toepassingen die u vaak bezoekt.
@@ -32,7 +32,7 @@ Wanneer u van een dashboard een *favoriet* maakt, kunt u dit dashboard openen in
 > 
 > 
 
-U kunt in Power BI ook één dashboard selecteren als een [aanbevolen dashboard](service-dashboard-featured.md).
+U kunt in de Power BI-service ook één dashboard selecteren als een [aanbevolen dashboard](service-dashboard-featured.md).
 
 ## <a name="add-a-dashboard-as-a-favorite"></a>Een dashboard toevoegen als een *favoriet*
 Zie hoe Amanda favorieten toevoegt aan haar werkruimte. Volg vervolgens de stapsgewijze instructies onder de video om het zelf te proberen.
@@ -50,7 +50,7 @@ Zie hoe Amanda favorieten toevoegt aan haar werkruimte. Volg vervolgens de staps
    ![](media/service-dashboard-favorite/power-bi-dashboard-favorite.png)
 
 ## <a name="working-with-favorites"></a>Werken met *favorieten*
-1. Om uw vijf meest recente favorieten te zien, uit elke werkruimte, selecteert u de pijl rechts van **Favorieten**.  Hier kunt u een favoriet dashboard selecteren om het te openen. Alleen de vijf recentste favorieten worden weergegeven (alfabetisch). Als u meer dan vijf favorieten hebt, selecteert u **Alles weergeven** om het scherm Favorieten te openen (zie nr.2 hieronder). 
+1. Om uw favorieten te zien, uit elke werkruimte, selecteert u de pijl rechts van **Favorieten**.  Hier kunt u een favoriet dashboard selecteren om het te openen. Er worden maximaal vijf favorieten weergegeven (alfabetisch). Als u meer dan vijf favorieten hebt, selecteert u **Alles weergeven** om het scherm Favorieten te openen (zie nr.2 hieronder). 
    
    ![](media/service-dashboard-favorite/power-bi-favorite-flyout-new.png)
 2. Om **alle** dashboards te zien die u hebt toegevoegd als favorieten, selecteert u in het navigatiedeelvenster links **Favorieten** of het pictogram ![](media/service-dashboard-favorite/power-bi-favorites-icon.png) Favorieten.  
@@ -76,5 +76,5 @@ Gebruikt u een dashboard niet meer zo vaak?  U kunt het verwijderen uit favoriet
 
 [Power BI - basisconcepten](service-basic-concepts.md)
 
-Nog vragen? [Probeer de Power BI-community](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

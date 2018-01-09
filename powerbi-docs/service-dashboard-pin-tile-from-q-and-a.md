@@ -1,5 +1,5 @@
 ---
-title: Een tegel vastmaken aan het Power BI-dashboard vanuit Q&A
+title: Een tegel vastmaken aan een dashboard vanuit Q&A
 description: Documentatie over hoe u vanuit het vak met Q&A-vragen een tegel vastmaakt aan een Power BI-dashboard
 services: powerbi
 documentationcenter: 
@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/09/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: f37c0f9e433f1ac8c6bb8f7f3fa4b513fb4b4652
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8a876c5a05fcdadff1a874148f5d56465bcc8c62
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Een tegel vastmaken aan een dashboard vanuit Q&A
 ## <a name="how-to-pin-a-tile-from-qa"></a>Een tegel vastmaken vanuit Q&A
 Q&A is het ad hoc rapportagehulpmiddel van Power BI. Hebt u een bepaald inzicht nodig? Stel een vraag over uw gegevens en krijg antwoord in de vorm van een visualisatie.
 
-> **OPMERKING**: als u wilt volgen, opent u [Voorbeeld van een retailanalyse](sample-retail-analysis.md).
+Q&A is beschikbaar via dashboards en rapporten. In dit artikel wordt Q&A vanaf een dashboard geopend. Dashboards zijn wel beschikbaar in de Power BI-service, maar niet in Power BI Desktop. Als u wilt volgen, opent u het [dashboard Voorbeeld van een retailanalyse](sample-retail-analysis.md).
 > 
 > 
 
@@ -40,7 +40,9 @@ Q&A is het ad hoc rapportagehulpmiddel van Power BI. Hebt u een bepaald inzicht 
    geeft het vak Vraag u suggesties.
 4. Als u de grafiek als een tegel aan uw dashboard wilt toevoegen, selecteert u de speld ![](media/service-dashboard-pin-tile-from-q-and-a/pbi_pintile.png) in de rechterbovenhoek van het canvas.
 5. Maak de tegel aan een bestaand dashboard of aan een nieuw dashboard vast. 
-   
+
+   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin-to-dashboard.png)
+
    * Bestaand dashboard: selecteer de naam van het dashboard in de vervolgkeuzelijst. Uw keuzes zijn beperkt tot alleen de dashboards in de huidige werkruimte.
    * Nieuw dashboard: typ de naam van het nieuwe dashboard en het wordt toegevoegd aan uw huidige werkruimte.
 6. Selecteer **Vastmaken**.

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/19/2017
+ms.date: 12/19/2017
 ms.author: asaxton
-ms.openlocfilehash: 14d4954cd747e7c578c693212401f57806001228
-ms.sourcegitcommit: 6e8fbbbcbe3e1a38207b29a9ca66ea94fb2a51fb
+ms.openlocfilehash: 76435200df843acc4ba60ebab09633aa8f5c258d
+ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2017
+ms.lasthandoff: 12/20/2017
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Dashboards, rapporten en tegels van Power BI insluiten
 
@@ -121,7 +121,7 @@ Als u inhoud insluit voor uw organisatie, hoeft u mensen alleen te laten weten h
 
 Gebruikers van de gratis versie kunnen inhoud die is ingesloten in een app-werkruimte (groep) gebruiken als deze werkruimte wordt ondersteund door capaciteit. Voeg de gebruiker van de gratis versie toe als lid van de app-werkruimte (groep), anders wordt een 401-fout (niet-geautoriseerd) weergegeven. In de volgende tabel ziet u de Power BI Premium-SKU's die beschikbaar zijn in Office 365.
 
-| Capaciteit knooppunt | Totaal aantal cores<br/>*(Back-end + front-end)* | Cores back-end | Cores front-end | Limieten voor DirectQuery/liveverbindingen | Maximum aantal pagina's (rendering) tijdens piekuren |
+| Capaciteit knooppunt | Totaal aantal cores<br/>*(back-end + front-end)* | Back-endcores | Front-endcores | Limieten voor DirectQuery/liveverbindingen | Maximum aantal pagina's (rendering) tijdens piekuren |
 | --- | --- | --- | --- | --- | --- |
 | EM3 |4 v-cores |2 cores, 10 GB RAM |2 cores | |601-1200 |
 | P1 |8 v-cores |4 cores, 25 GB RAM |4 cores |30 per seconde |1201-2400 |
@@ -138,11 +138,11 @@ Als u inhoud voor uw klanten wilt insluiten, moet u het volgende doen.
 * Als u een afzonderlijke tenant voor ontwikkeling gebruikt, moet u ervoor zorgen dat de app-werkruimten, dashboards en rapporten beschikbaar zijn in uw productieomgeving. Maak de toepassing voor uw productietenant in Azure AD en wijs de juiste app-machtigingen toe, zoals aangegeven in stap 1.
 * Koop de capaciteit die past bij uw behoeften. Raadpleeg de onderstaande tabel om te zien welke Power BI Embedded-capaciteit of SKU u waarschijnlijk nodig hebt. Zie [Technisch document over Embedded-capaciteitsplanning](https://aka.ms/pbiewhitepaper) voor meer informatie. Wanneer u tot aanschaf wilt overgaan, kunt u dat doen in de [Microsoft Azure Portal](https://portal.azure.com). Zie [Power BI Embedded-capaciteit maken in Azure Portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity) voor meer informatie over het maken van Power BI Embedded-capaciteit.
 
-| Capaciteit knooppunt | Totaal aantal cores<br/>*(Back-end + front-end)* | Cores back-end | Cores front-end | Limieten voor DirectQuery/liveverbindingen | Maximum aantal pagina's (rendering) tijdens piekuren |
+| Capaciteit knooppunt | Totaal aantal cores<br/>*(back-end + front-end)* | Back-endcores | Front-endcores | Limieten voor DirectQuery/liveverbindingen | Maximum aantal pagina's (rendering) tijdens piekuren |
 | --- | --- | --- | --- | --- | --- |
-| A1 |1 v-core |0,5 core, 3 GB RAM |0,5 core | |1-300 |
-| A2 |2 v-cores |1 core, 5 GB RAM |1 core | |301-600 |
-| A3 |4 v-cores |2 cores, 10 GB RAM |2 cores | |601-1200 |
+| A1 |1 v-core |0,5 core, 3 GB RAM |0,5 core | 5 per seconde |1-300 |
+| A2 |2 v-cores |1 core, 5 GB RAM |1 core | 10 per seconde |301-600 |
+| A3 |4 v-cores |2 cores, 10 GB RAM |2 cores | 15 per seconde |601-1200 |
 | A4 |8 v-cores |4 cores, 25 GB RAM |4 cores |30 per seconde |1201-2400 |
 | A5 |16 v-cores |8 cores, 50 GB RAM |8 cores |60 per seconde |2401-4800 |
 | A6 |32 v-cores |16 cores, 100 GB RAM |16 cores |120 per seconde |4801-9600 |
@@ -160,7 +160,7 @@ Globale beheerders of Power BI-servicebeheerders kunnen de mogelijkheid om REST-
 ## <a name="next-steps"></a>Volgende stappen
 
 [Insluiten met Power BI](embedding.md)  
-[Inhoud van de verzameling Power BI Embedded-werkruimten migreren naar Power BI](migrate-from-powerbi-embedded.md)  
+[Inhoud van de Power BI Embedded-werkruimteverzameling migreren naar Power BI](migrate-from-powerbi-embedded.md)  
 [Power BI Premium - wat is het?](../service-premium.md)  
 [Power BI Premium aanschaffen](../service-admin-premium-purchase.md)  
 [Git-opslagplaats voor JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript)  

@@ -15,15 +15,18 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: e12b14a73ba63d64d39f296db602e57ceedc5523
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 3d6c3f59611a515ea6a2188457cc80c31a7693ce
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Ondersteunde talen en landen/regio's voor Power BI
+
+In dit artikel vindt u lijsten met ondersteunde talen en landen/regio's voor de documentatie van de Power BI-service, Power BI Desktop en Power BI.
+
 ## <a name="countries-and-regions-where-power-bi-is-available"></a>Landen en regio's waar Power BI beschikbaar is
 Zie de [internationale beschikbaarheidslijst](https://products.office.com/business/international-availability) voor een overzicht met de landen en regio's waar Power BI beschikbaar is. 
 
@@ -36,9 +39,9 @@ De Power BI-service (in de browser) is beschikbaar in de volgende 42 talen:
 * Catalaans - Català
 * Vereenvoudigd Chinees - 中文(简体)
 * Traditioneel Chinees - 中文(繁體)
-* Kroatisch - Hrvatski
-* Tsjechisch - Čeština
-* Deens - Dansk
+* Kroatisch - hrvatski
+* Tsjechisch - čeština
+* Deens - dansk
 * Nederlands - Nederlands
 * Engels - English
 * Estlands - Eesti
@@ -51,7 +54,7 @@ De Power BI-service (in de browser) is beschikbaar in de volgende 42 talen:
 * Hindi - हिंदी
 * Hongaars - Magyar
 * Indonesisch - Bahasa Indonesia
-* Italiaans - Italiano
+* Italiaans - italiano
 * Japans - 日本語
 * Kazachstaans - Қазақ
 * Koreaans - 한국어
@@ -75,7 +78,7 @@ De Power BI-service (in de browser) is beschikbaar in de volgende 42 talen:
 * Oekraïens - українська
 * Vietnamees - Tiếng Việt
 
-## <a name="whats-translated"></a>Wat er is vertaald
+### <a name="whats-translated"></a>Wat er is vertaald
 Menu's, knoppen, berichten en andere elementen van de gebruikerservaring zijn vertaald in uw taal om de navigatie in en het gebruik van Power BI te vereenvoudigen.
 
 Op dit moment zijn een paar functies alleen in het Engels beschikbaar:
@@ -85,22 +88,22 @@ Op dit moment zijn een paar functies alleen in het Engels beschikbaar:
 
 Controleer regelmatig of er meer functies in uw taal beschikbaar zijn gekomen. Hier wordt aan gewerkt. 
 
-## <a name="choose-your-language-in-the-power-bi-service"></a>Uw taal kiezen in de Power BI-service
+### <a name="choose-your-language-in-the-power-bi-service"></a>Uw taal kiezen in de Power BI-service
 1. Selecteer in de Power BI-service achtereenvolgens het pictogram **Instellingen** ![Instellingenpictogram](media/supported-languages-countries-regions/pbi_settings_icon.png) > **Instellingen**.
 2. Selecteer op het tabblad **Algemeen** de optie **Taal**.
 3. Selecteer uw taal > **Toepassen**.
 
-## <a name="choose-your-language-in-the-browser"></a>Uw taal in de browser kiezen
+### <a name="choose-your-language-in-the-browser"></a>Uw taal in de browser kiezen
 Power BI detecteert uw taal op basis van de taalvoorkeuren op uw computer. Waar en hoe u de voorkeuren wijzigt is afhankelijk van uw besturingssysteem en browser. Hieronder wordt uitgelegd hoe u deze voorkeuren in Internet Explorer en Google Chrome opent en wijzigt.
 
-### <a name="internet-explorer-version-11"></a>Internet Explorer (versie 11)
+#### <a name="internet-explorer-version-11"></a>Internet Explorer (versie 11)
 1. Klik in de rechterbovenhoek van uw browservenster op de knop **Extra**:
    
    ![De knop Extra in Internet Explorer](media/supported-languages-countries-regions/languages1.png)
 2. Klik op **Internetopties**.
 3. Klik in het dialoogvenster Internetopties op het tabblad Algemeen bij Vormgeving op de knop **Talen**.
 
-### <a name="google-chrome-version-42"></a>Google Chrome (versie 42)
+#### <a name="google-chrome-version-42"></a>Google Chrome (versie 42)
 1. Klik op in de rechterbovenhoek van uw browservenster op de menuknop:
    
    ![De menuknop in Chrome](media/supported-languages-countries-regions/languages2.png)
@@ -144,7 +147,7 @@ De taal die u voor Power BI Desktop kiest, is van invloed op de weergavenotatie 
 
 Als u de taal in Power BI Desktop wilt wijzigen, gaat u terug naar de downloadpagina en downloadt u Power BI Desktop in een andere taal.
 
-### <a name="choose-the-locale-to-be-used-when-importing-data-into-power-bi-desktop"></a>De landinstellingen kiezen die moeten worden gebruikt om gegevens in Power BI Desktop te importeren
+### <a name="choose-the-locale-for-importing-data-into-power-bi-desktop"></a>De landinstellingen kiezen voor het importeren van gegevens in Power BI Desktop
 Of u Power BI Desktop downloadt of installeert via de Windows Store, u kunt voor een specifiek rapport een andere landinstelling kiezen dan de landinstelling in uw versie van Power BI Desktop. Hiermee wijzigt u de manier waarop gegevens worden geïnterpreteerd wanneer deze worden geïmporteerd uit de gegevensbron, bijvoorbeeld of 3/4/2017 wordt geïnterpreteerd als 3 april of als 4 maart. 
 
 1. Ga in de Power BI Desktop naar **Bestand** > **Opties en instellingen** > **Opties**.
@@ -153,6 +156,22 @@ Of u Power BI Desktop downloadt of installeert via de Windows Store, u kunt voor
    
    ![Dialoogvenster Power BI Desktop opties](media/supported-languages-countries-regions/pbi_supptdlangs_locale.png)
 4. Selecteer **OK**.
+
+### <a name="choose-the-language-for-the-model-in-power-bi-desktop"></a>De taal voor het model in Power BI Desktop selecteren
+
+Naast het instellen van de taal voor de Power BI Desktop-toepassing, kunt u ook de taal voor het model instellen. De taal voor het model is met name van invloed op twee dingen:
+
+- Hoe we tekenreeksen vergelijken en sorteren. Turks heeft bijvoorbeeld 2 i’s. Deze kunnen, afhankelijk van de sortering van uw database, op verschillende plekken terechtkomen wanneer u de database sorteert. 
+- De die taal Power BI Desktop gebruikt bij het maken van verborgen tabellen via datumvelden. Velden worden bijvoorbeeld Maand/Monat/Mois, etc. genoemd.
+
+Ga als volgt te werk om de taal voor het model in te stellen.
+
+1. Ga in de Power BI Desktop naar **Bestand** > **Opties en instellingen** > **Opties**.
+2. Selecteer **Regionale instellingen** onder **Globaal**.
+3. Selecteer in het vak **Modeltaal** een andere taal. 
+
+    ![Modeltaal instellen in Power BI Desktop](media/supported-languages-countries-regions/power-bi-supported-model-languages.png)
+
 
 ## <a name="languages-for-the-help-documentation"></a>Talen voor de Help-documentatie
 De Help is gelokaliseerd in de volgende tien talen: 

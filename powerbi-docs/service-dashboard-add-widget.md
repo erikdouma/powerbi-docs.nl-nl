@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/31/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 20760bec773c6f1d2a3cbbfaefd0651b97cbe601
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 3aa70a6382164cb8284e1a5f61ae73f66e54d2f3
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>Afbeeldingen, tekst, video en meer toevoegen aan uw dashboard
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -42,7 +42,7 @@ Met het besturingselement **Tegel toevoegen** kunt u rechtstreeks een afbeelding
 Stel dat u uw bedrijfslogo wilt weergeven in uw dashboard of een andere afbeelding. U moet het afbeeldingsbestand dan online opslaan en koppelen aan het dashboard. Zorg ervoor dat er geen speciale referenties nodig zijn voor toegang tot het afbeeldingsbestand. Zo is bijvoorbeeld verificatie vereist voor OneDrive en SharePoint en kunt u afbeeldingen die daar zijn opgeslagen, niet op deze manier toevoegen aan een dashboard.  
 
 1. Selecteer **Afbeelding** > **Volgende**.
-2. Voeg informatie over de afbeelding toe in het deelvenster **Details**.
+2. Voeg informatie over de afbeelding toe in het deelvenster **Een afbeeldingstegel toevoegen**.
    
     ![](media/service-dashboard-add-widget/pbi-widget-add-image-new.png)
    
@@ -56,16 +56,16 @@ Stel dat u uw bedrijfslogo wilt weergeven in uw dashboard of een andere afbeeldi
 ## <a name="add-a-text-box-or-dashboard-heading"></a>Een tekstvak of koptekst toevoegen
 1. Selecteer **Tekstvak > Volgende**.
    
-    ![](media/service-dashboard-add-widget/power-bi-add-text-box-new.png)
-   
    > **OPMERKING**: als u een koptekst wilt toevoegen aan het dashboard, typt u de tekst in het tekstvak en vergroot u het lettertype.
-   > 
    > 
 2. Het tekstvak opmaken:
    
    * Als u een titel wilt weergeven boven het tekstvak, selecteert u **Titel en subtitel weergeven** en typt u een titel en/of subtitel.
    * Voer inhoud in voor het tekstvak en maak deze op.  
-   * U kunt desgewenst een aangepaste koppeling instellen voor de titel.  In dit voorbeeld hebben we echter hyperlinks toegevoegd aan het tekstvak zelf en dus laten we **Aangepaste koppeling instellen** uitgeschakeld.
+   * U kunt desgewenst een aangepaste koppeling instellen voor de titel. Een aangepaste koppeling kan een externe site of een dashboard of rapport in uw werkruimte zijn. In dit voorbeeld hebben we echter hyperlinks toegevoegd aan het tekstvak zelf en dus laten we **Aangepaste koppeling instellen** uitgeschakeld.
+
+     ![](media/service-dashboard-add-widget/power-bi-add-textbox.png)
+   
 3. Selecteer **Toepassen**.  Op het dashboard kunt u het tekstvak groter of kleiner maken en verplaatsen.
    
    ![](media/service-dashboard-add-widget/pbi-widget-text-added-new.png)
@@ -74,7 +74,7 @@ Stel dat u uw bedrijfslogo wilt weergeven in uw dashboard of een andere afbeeldi
 Wanneer u een videotegel van YouTube of Vimeo aan uw dashboard toevoegt, wordt de video direct op uw dashboard afgespeeld.
 
 1. Selecteer **Video > Volgende**.
-2. Voeg informatie over de video toe in het deelvenster **Details**.
+2. Voeg informatie over de video toe in het deelvenster **Een videotegel toevoegen**.
    
     ![](media/service-dashboard-add-widget/power-bi-add-video-new.png)
    
@@ -100,7 +100,7 @@ U kunt alle HTML-inhoud plakken of typen.  De inhoud wordt door Power BI als een
    
    * Als u een titel wilt weergeven boven aan de tegel, selecteert u *Titel en subtitel weergeven* en typt u een titel en/of subtitel.
    * Voeg de insluitcode in. In dit voorbeeld kopiëren en plakken we een Twitter-feed.
-   * Selecteer **Toepassen**.  Op het dashboard kunt u de tegel met webinhoud groter of kleiner maken en verplaatsen.
+3. Selecteer **Toepassen**.  Op het dashboard kunt u de tegel met webinhoud groter of kleiner maken en verplaatsen.
      
       ![](media/service-dashboard-add-widget/pbi-widget-code-added-new.png)
 

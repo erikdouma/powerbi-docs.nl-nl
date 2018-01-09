@@ -11,13 +11,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/30/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 6c096cfb76a1d8697cef3d157efcda41e57a1510
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: b18157f28dcaf2e9b130bdc3bd5547312e45a4f9
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>Cortana inschakelen voor toegang tot Power BI-rapporten (en de onderliggende gegevenssets)
 U hebt de [inleiding tot Cortana en Power BI](service-cortana-intro.md) gelezen (als dat niet het geval is, kunt u deze beter eerst lezen en later terugkomen). En nu wilt u het zelf proberen.  Voordat u in Cortana vragen in de natuurlijke taal kunt stellen en antwoorden kunt krijgen uit opgeslagen gegevens in Power BI-***rapporten***, moet er aan enkele vereisten zijn voldaan. U moet in het bijzonder het volgende doen.
@@ -47,11 +47,10 @@ U moet zich aanmelden bij de Power BI-service (niet Power BI Desktop) en deze st
 2. De gegevensset die is gekoppeld aan dit rapport, is **Contoso Sales**.
    
     ![Contoso Sales-gegevensset](media/service-cortana-enable/power-bi-identify-dataset.png)
-3. Selecteer het tandwielpictogram in de rechterbovenhoek van de Power BI-service en kies **Instellingen**.
+3. Selecteer **weglatingstekens (...) > instellingen** aan de rechterkant van de naam van de gegevensset.  
    
-    ![Instellingen kiezen](media/service-cortana-enable/power-bi-cortana-settings.png)
-4. Selecteer het tabblad **Gegevenssets** en kies in de lijst aan de linkerkant de gegevensset die u voor Cortana wilt inschakelen.
-5. Selecteer **Q&A en Cortana** > **Cortana toegang geven tot deze gegevensset** > **Toepassen**.
+    ![Instellingen kiezen](media/service-cortana-enable/power-bi-settings-cortana.png)
+4. Selecteer **Q&A en Cortana** > **Cortana toegang geven tot deze gegevensset** > **Toepassen**.
    
    ![Gegevensset voor Cortana-toegang](media/service-cortana-enable/power-bi-cortana-enable-new.png)
    
@@ -67,16 +66,19 @@ U moet zich aanmelden bij de Power BI-service (niet Power BI Desktop) en deze st
 ## <a name="add-your-power-bi-credentials-to-windows"></a>Uw Power BI-referenties toevoegen aan Windows
 U moet werken met Windows 10 versie 1511 of hoger.
 
-1. Bepaal welke Windows 10-versie wordt uitgevoerd. Open **Instellingen** > **Systeem** > **Over**.
-   
+1. Bepaal welke Windows 10-versie wordt uitgevoerd. Open **Instellingen**.
+    ![Windows-instellingen openen](media/service-cortana-enable/power-bi-cortana-windows.png)
+
+    En selecteer vervolgens **Systeem > Over**. Aan de onderkant van het scherm ziet u **Windows-specificaties > Versie**
+
    * Als u Windows 10 versie 1511 (Windows-update van 10 november 2015) of hoger (niet hoger dan 1607) hebt, voegt u uw werk- of schoolaccount en Microsoft-account toe (voer onderstaande stappen 2 en 3 uit).
    * Als u Windows 10 versie 1607 (Windows-update van 10 juli 2016) of hoger hebt, voegt u uw werk- of schoolaccount toe (voer alleen onderstaande stap 2 uit).
-2. Voeg uw werk- of schoolaccount toe voor Cortana.
+1. Voeg uw werk- of schoolaccount toe voor Cortana.
    
    * Open **Instellingen** > **Accounts**.
      
        ![Instellingen - Accounts](media/service-cortana-enable/power-bi-windows-accounts.png)
-   * Schuif naar beneden en selecteer **Een account voor werk of school toevoegen**.
+   * Schuif naar beneden en selecteer **Een account voor werk of school toevoegen**. Of selecteer op de pagina **Accounts** de optie **Werk of school openen > Verbinding maken**.
      
      ![Een werkaccount toevoegen](media/service-cortana-enable/power-bi-add-work-account2.png)
 

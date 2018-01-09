@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: c1801db4135d6d97a940e593de37ca2886194b53
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 17073390cf19b742730712a8d39a353c7d541cd6
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Spreidingsdiagrammen en bellendiagrammen in Power BI (zelfstudie)
 Een spreidingsdiagram heeft altijd twee waardeassen, waarbij een reeks numerieke gegevens op een horizontale as en een andere reeks numerieke waarden op de verticale as wordt weergegeven. In het diagram worden punten weergegeven op het snijpunt van een numerieke x- en y-waarde, waarbij deze waarden in één gegevenspunt worden gecombineerd. Deze gegevenspunten kunnen, afhankelijk van de gegevens, gelijkmatig of ongelijkmatig over de horizontale as zijn verdeeld.
@@ -47,25 +47,30 @@ Bij een bellendiagram worden de gegevenspunten vervangen door bellen. De *groott
 * om te gebruiken met kwadranten.
 
 ## <a name="create-a-scatter-chart"></a>Een spreidingsdiagram maken
+Bekijk deze video voor informatie over de optie Een spreidingsdiagram maken en volg daarna de onderstaande stappen om zelf een spreidingsdiagram te maken.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PVcfPoVE3Ys?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-1. Open het Voorbeeld van een retailanalyse in de [Bewerkweergave](service-interact-with-a-report-in-editing-view.md) en [voeg een nieuwe rapportpagina toe](power-bi-report-add-page.md).
-2. Selecteer in het deelvenster Velden **Verkoop** > **Verkoop per vierkante meter** en **Verkoop** > **Afwijking van totale verkoop in %**.
-3. Selecteer in het deelvenster Velden **District > District**.
+
+In deze instructies wordt het voorbeeld van een retailanalyse gebruikt. Om mee te lezen kunt u het [voorbeeld downloaden](sample-datasets.md) voor de Power BI-service (app.powerbi.com) of voor Power BI Desktop.   
+
+1. Begin op een [lege rapportpagina](power-bi-report-add-page.md) en selecteer de velden **Verkoop** \> **Sales Per Sq Ft** en **Verkoop** > **Afwijking van totale verkoop in %**. Als u de Power BI-service gebruikt, moet u het rapport openen in de [bewerkweergave](service-interact-with-a-report-in-editing-view.md).
+ 
+2. Selecteer in het deelvenster Velden **District > District**.
    
-    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_pre_convert.png)
+    ![](media/power-bi-visualization-scatter/power-bi-bar-chart.png)
 4. Converteer naar een spreidingsdiagram. Selecteer het pictogram voor spreidingsdiagrammen in het deelvenster Visualisaties.
    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_icon.png).
 5. Sleep **District** van **Details** naar **Legenda**.
    
-    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_new.png)
+    ![](media/power-bi-visualization-scatter/power-bi-scatter.png)
 
 We hebben nu een spreidingsdiagram die Afwijking van totale verkoop in % op de y-as afzet tegen de Verkoop per vierkante meter op de x-as.  De kleuren van de gegevenspunten vertegenwoordigen de districten.  Nu gaan we een derde dimensie toevoegen.
 
 ## <a name="create-a-bubble-chart"></a>Een bellendiagram maken
 1. Sleep vanuit het deelvenster Velden **Verkoop** > **Omzet van dit jaar** > **Vaarde** naar het gebied **Grootte**. 
    
-   ![](media/power-bi-visualization-scatter/pbi_scatter_chart_size.png)
+   ![](media/power-bi-visualization-scatter/power-bi-bubble.png)
 2. Beweeg de muisaanwijzer over een bel.  De grootte van de bel geeft de waarde van **Omzet van dit jaar** weer.
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
