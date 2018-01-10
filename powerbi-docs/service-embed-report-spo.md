@@ -100,9 +100,9 @@ U kunt gebruikers ook op de volgende manier toegang verlenen tot het rapport.
 
 ## <a name="allowing-free-users-access-to-reports"></a>Gebruikers van de gratis versie toegang verlenen tot rapporten
 
-Gebruikers van de gratis versie kunnen rapporten weergeven die zijn ingesloten in het Power BI-webonderdeel voor SharePoint Online. U biedt gebruikers van de gratis versie op dezelfde manier toegang verlenen als gebruikers van Pro-versies. Dit wordt beschreven in [Toegang verlenen tot rapporten](#granting-access-to-reports) hierboven. De werkruimte waarin het rapport zich bevindt, moet ook worden ondersteund door Power BI Premium-capaciteit. 
+Gebruikers van de gratis versie kunnen rapporten weergeven die zijn ingesloten in het Power BI-webonderdeel voor SharePoint Online. U biedt gebruikers van de gratis versie op dezelfde manier toegang als gebruikers van Pro-versies. Dit wordt beschreven in [Toegang verlenen tot rapporten](#granting-access-to-reports) hierboven. De werkruimte waarin het rapport zich bevindt, moet ook worden ondersteund door Power BI Premium-capaciteit. 
 
-Als u bijvoorbeeld een rapport hebt in een app-werkruimte, moet u de app-werkruimte toewijzen aan een Power BI Premium-capaciteit. U moet ook de gebruiker van de gratis versie toevoegen aan de lijst met leden van die app-werkruimte.
+Als u bijvoorbeeld een rapport hebt in een app-werkruimte, moet u de app-werkruimte toewijzen aan een Power BI Premium-capaciteit. U moet de gebruiker van de gratis versie ook toevoegen aan de lijst met leden van die app-werkruimte.
 
 ## <a name="web-part-settings"></a>Instellingen van het webonderdeel
 
@@ -112,10 +112,10 @@ Hierna volgt een beschrijving van de instellingen die kunnen worden aangepast vo
 
 | Eigenschap | Beschrijving |
 | --- | --- |
-| Paginanaam |Hiermee stelt u de standaardpagina in die door het webonderdeel wordt weergegeven. Selecteer een waarde in de vervolgkeuzelijst. Als er geen pagina's worden weergegeven, bestaat uw rapport uit één pagina of bevat de URL die u hebt geplakt de naam van een pagina. Verwijder het rapportgedeelte uit de URL om een specifieke pagina te selecteren. |
+| Paginanaam |Hiermee stelt u de standaardpagina in die door het webonderdeel wordt weergegeven. Selecteer een waarde in de vervolgkeuzelijst. Als er geen pagina's worden weergegeven, zijn er twee mogelijke redenen: uw rapport bestaat uit één pagina of de URL die u hebt geplakt, bevat de naam van een pagina. Verwijder de rapportsectie uit de URL om een specifieke pagina te selecteren. |
 | Weergave |Een optie waarmee u kunt aanpassen hoe het rapport in de SharePoint Online-pagina past. |
-| Navigatiepaneel weergeven |Geeft het navigatievenster van de pagina weer of verbergt het. |
-| Deelvenster Filter weergeven |Geeft het deelvenster Filter weer of verbergt het. |
+| Navigatiedeelvenster weergeven |Geeft het navigatiedeelvenster van de pagina weer of verbergt het. |
+| Filterdeelvenster weergeven |Geeft het Filterdeelvenster weer of verbergt het. |
 
 ## <a name="multi-factor-authentication"></a>Meervoudige verificatie
 
@@ -141,7 +141,7 @@ Neem contact op met de eigenaar van de SharePoint Online-pagina, die u kan helpe
 
 ## <a name="known-issues-and-limitations"></a>Bekende problemen en beperkingen
 
-* **Fout: "Er is een fout opgetreden. Meld u af en meld u opnieuw aan. Ga vervolgens opnieuw naar deze pagina. Correlatie-id: niet gedefinieerd, http-reactiestatus: 400, foutcode server 10001, bericht: Ontbrekende vernieuwingstoken"**
+* **Fout: "Er is een fout opgetreden. Meld u af en meld u opnieuw aan. Ga vervolgens opnieuw naar deze pagina. Correlatie-id: niet gedefinieerd, http-antwoordstatus: 400, serverfout, code 10001, bericht: Ontbrekend vernieuwingstoken"**
   
   Als u dit foutbericht ziet, kunt u een van de volgende acties uitvoeren.
   
