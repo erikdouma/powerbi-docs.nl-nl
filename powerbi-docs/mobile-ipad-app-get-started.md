@@ -24,9 +24,9 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 11/13/2017
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-ipad"></a>Aan de slag met de mobiele Power BI-app op een iPad
-De Microsoft Power BI voor iOS op de iPad biedt de mobiele BI-ervaring voor Power BI, Power BI Report Server en Reporting Services. Bekijk uw bedrijfsdashboards on-premises en in de cloud en gebruik ze vanaf elke locatie met mobiele live-toegang met aanraakfunctionaliteit. Verken de gegevens in dashboards en deel deze met uw collega's per e-mail of sms-bericht. 
+Microsoft Power BI voor iOS op de iPad biedt u een mobiele BI-ervaring voor Power BI, Power BI Report Server en Reporting Services. Bekijk uw bedrijfsdashboards on-premises en in de cloud, en gebruik ze vanaf elke locatie met mobiele live-toegang met aanraakfunctionaliteit. Verken de gegevens in dashboards en deel deze met uw collega's per e-mail of sms-bericht. 
 
-![Power BI dashboard in the iPad app](media/mobile-ipad-app-get-started/power-bi-ipad-dashboard-sales-and-marketing.png)
+![Power BI-dashboard in de iPad-app](media/mobile-ipad-app-get-started/power-bi-ipad-dashboard-sales-and-marketing.png)
 
 U maakt Power BI-rapporten in Power BI Desktop en publiceert deze:
 
@@ -38,7 +38,7 @@ Vervolgens gebruikt u de dashboards en rapporten on-premises of in de cloud in d
 Ontdek [wat er nieuw is in de mobiele Power BI-apps](mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="download-the-ios-app-for-the-ipad"></a>De iOS-app voor de iPad downloaden
-[De iPad-app](http://go.microsoft.com/fwlink/?LinkId=522062) via de App Store van Apple downloaden.
+[Download de iPad-app](http://go.microsoft.com/fwlink/?LinkId=522062) via de App Store van Apple.
 
 > [!NOTE]
 > Op uw iPad moet ten minste iOS 9.0 worden uitgevoerd. 
@@ -48,7 +48,7 @@ Ontdek [wat er nieuw is in de mobiele Power BI-apps](mobile-whats-new-in-the-mob
 ## <a name="sign-up-for-the-power-bi-service"></a>Aanmelden voor de Power BI-service
 Ga naar Power BI (https://powerbi.com) en meld u aan voor de Power BI-service als u dit nog niet hebt gedaan. U kunt zich gratis aanmelden.
 
-## <a name="get-started-with-the-power-bi-app"></a>Aan de slag met Power BI-app
+## <a name="get-started-with-the-power-bi-app"></a>Aan de slag met de Power BI-app
 1. Open de Power BI-app op de iPad.
 2. Tik op **Power BI** als u uw Power BI-dashboards en -rapporten wilt weergeven. Meld u aan met dezelfde referenties als voor uw Power BI-account op internet. 
    
@@ -59,7 +59,7 @@ Ga naar Power BI (https://powerbi.com) en meld u aan voor de Power BI-service al
    Wanneer u zich in de app bevindt, tikt u op de knop voor globale navigatie ![Knop voor globale navigatie](media/mobile-ipad-app-get-started/power-bi-iphone-global-nav-button.png) in de linkerbovenhoek om te schakelen tussen de twee services. 
 
 ## <a name="try-the-power-bi-and-reporting-services-samples"></a>De Power BI- en Reporting Services-voorbeelden uitproberen
-U hoeft zich niet aan te melden om met de Power BI- en Reporting Services-voorbeelden te oefenen. Nadat u de app hebt gedownload, kunt u de voorbeelden bekijken of aan de slag gaan. U kunt op elk gewenst moment teruggaan naar de voorbeelden vanaf de startpagina van dashboards.
+U hoeft zich niet aan te melden om met de Power BI- en Reporting Services-voorbeelden te oefenen. Nadat u de app hebt gedownload, kunt u de voorbeelden bekijken of aan de slag gaan. U kunt op elk gewenst moment teruggaan naar de voorbeelden vanaf de startpagina met dashboards.
 
 ### <a name="power-bi-samples"></a>Power BI-voorbeelden
 U kunt de Power BI-voorbeelddashboards bekijken en gebruiken, maar er zijn enkele dingen die u hiermee niet kunt doen. Het is niet mogelijk de rapporten achter de dashboards te openen, de voorbeelden met anderen te delen of ze aan uw favorieten toe te voegen.
@@ -70,13 +70,13 @@ U kunt de Power BI-voorbeelddashboards bekijken en gebruiken, maar er zijn enkel
    ![Power BI-voorbeelden](media/mobile-ipad-app-get-started/pbi_ipad_samples2.png)
    
    > [!NOTE]
-   > Niet alle functies zijn beschikbaar in de voorbeelden. U kunt bijvoorbeeld niet de voorbeeldrapporten weergeven die ten grondslag liggen aan de dashboards. 
+   > Niet alle functies zijn beschikbaar in de voorbeelden. U kunt bijvoorbeeld niet de voorbeeldrapporten weergeven die de basis vormen voor de dashboards. 
    > 
    > 
 
 ### <a name="reporting-services-mobile-report-samples"></a>Voorbeelden van mobiele Reporting Services-rapporten
 1. Tik op de knop voor globale navigatie ![Knop voor globale navigatie](media/mobile-ipad-app-get-started/power-bi-iphone-global-nav-button.png) in de linkerbovenhoek en tik vervolgens op het pictogram Instellingen ![Pictogram Instellingen](media/mobile-ipad-app-get-started/power-bi-ios-settings-gear.png).
-2. Tik op **Reporting Services-voorbeelden** en open de map Retail Reports of Sales Reports om KPI's en mobiele rapporten te verkennen.
+2. Tik op **Reporting Services-voorbeelden** en open de map Retail Reports of Sales Reports om de bijbehorende KPI's en mobiele rapporten te verkennen.
    
    ![Reporting Services-voorbeelden](media/mobile-ipad-app-get-started/power-bi-reporting-services-samples.png)
 
@@ -90,7 +90,7 @@ Uw dashboards en rapporten worden opgeslagen op verschillende locaties in de mob
   
     ![Zoekresultaten](media/mobile-ipad-app-get-started/power-bi-ipad-search.png)
   
-    Standaard worden alle dashboards en rapporten doorzocht, maar u kunt aangeven dat er slechts één hoeft te worden doorzocht.
+    Standaard worden alle dashboards en rapporten doorzocht, maar u kunt aangeven dat u slechts in één van beide wilt zoeken.
 
 ## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>Uw favoriete dashboards, KPI's en rapporten weergeven
 U ziet op de pagina Favorieten in de mobiele apps al uw favoriete Power BI-dashboards, samen met Power BI Report Server- en Reporting Services-KPI's en -rapporten. Wanneer u een dashboard aan uw *favorieten* toevoegt in de mobiele Power BI-app, kunt u het openen op al uw apparaten, met inbegrip van de Power BI-service in uw browser. 
@@ -123,19 +123,19 @@ Hier volgen enkele dingen die u in de iPad-app voor Power BI kunt doen met dashb
 ### <a name="power-bi-dashboards-and-reports"></a>Power BI-dashboards en -rapporten
 * [Uw apps](service-install-use-apps.md) weergeven.
 * Uw [Power BI-dashboards](mobile-apps-view-dashboard.md) weergeven.
-* [In uw eigen woorden vragen over uw gegevens](mobile-apps-ios-qna.md) stellen met Q&A
+* In uw eigen woorden [vragen over uw gegevens stellen](mobile-apps-ios-qna.md) met Q&A
 * [Een Power BI-QR-code scannen](mobile-apps-qr-code.md) om een verwante dashboardtegel of verwant rapport te openen.
 * [Gegevensmeldingen instellen](mobile-set-data-alerts-in-the-mobile-apps.md) om meldingen te ontvangen wanneer uw gegevens worden gewijzigd.
 * [Meldingen over updates voor uw Power BI-account](mobile-apps-notification-center.md) weergeven, zoals dashboards die collega's met u delen.
   
   ![Meldingen](media/mobile-ipad-app-get-started/power-bi-ipad-notifications.png)
 
-### <a name="reports-and-kpis-on-the-report-server-web-portals"></a>Rapporten en KPI's op de webportals van rapportserver
+### <a name="reports-and-kpis-on-the-report-server-web-portals"></a>Rapporten en KPI's op webportals van de rapportserver
 * [Rapporten en KPI's op de webportal weergeven](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) in de mobiele Power BI-app voor iOS-apparaten.
 * [KPI's op de webportal](https://docs.microsoft.com/sql/reporting-services/working-with-kpis-in-reporting-services) maken.
 * [Rapporten in Power BI Desktop maken en deze publiceren op de Power BI Report Server](report-server/quickstart-create-powerbi-report.md)-webportal
 
 ### <a name="see-also"></a>Zie ook
 * [Aan de slag met Power BI](service-get-started.md)  
-* Vragen? [Misschien dat de Power Bi-community het antwoord weet](http://community.powerbi.com/)
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 
