@@ -350,14 +350,10 @@
           href: service-analyze-in-excel.md
         - name: De interactie tussen visuals in een rapport wijzigen
           href: service-reports-visual-interactions.md
-        - name: Een Power BI-rapport in openen in de leesweergave
-          href: service-report-open-in-reading-view.md
-        - name: Van de leesweergave naar de bewerkingsweergave schakelen in Power BI
+        - name: Een Power BI-rapport in de leesweergave of de bewerkingsweergave openen
           href: service-reading-view-and-editing-view.md
         - name: Interactie met een rapport in de bewerkingsweergave in Power BI
           href: service-interact-with-a-report-in-editing-view.md
-        - name: Interactie met een rapport in de leesweergave in Power BI
-          href: service-interact-with-a-report-in-reading-view.md
         - name: Tips en trucs voor het maken van rapporten in de Power BI-service
           href: power-bi-reports-tips-and-tricks-for-creating.md
         - name: Het deelvenster Analyse
@@ -1006,8 +1002,6 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
     - name: Resources
       items:
-        - name: Apiary
-          href: 'https://go.microsoft.com/fwlink/?linkid=848278'
         - name: Demo voor het insluiten van JavaScript
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
         - name: Voorbeelden
@@ -1052,7 +1046,9 @@
           href: report-server/data-sources.md
         - name: Verbinding maken met gegevensbronnen
           href: report-server/connect-data-sources.md
-        - name: Volgende geplande vernieuwing configureren
+        - name: 'Toegang verkrijgen tot gedeelde gegevenssets als OData-feeds '
+          href: report-server/access-dataset-odata.md
+        - name: Geplande vernieuwing configureren
           href: report-server/configure-scheduled-refresh.md
         - name: Opmerkingen toevoegen aan een rapport
           href: report-server/add-comments.md
