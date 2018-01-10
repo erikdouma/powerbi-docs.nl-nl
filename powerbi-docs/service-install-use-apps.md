@@ -16,11 +16,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 87fd7f9b881c6af482cc3a644e77b0a95ea1743c
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 604aed25b4702525cfbecde9c6fe18ded8c41994
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Apps installeren en gebruiken met dashboards en rapporten in Power BI
 *Apps* brengen in Power BI gerelateerde dashboards en rapporten allemaal op één plek samen. Personen in uw organisatie kunnen apps maken en distribueren met belangrijke bedrijfsinformatie. [Externe services](service-connect-to-services.md) waar u reeds gebruik van maakt, zoals Google Analytics en Microsoft Dynamics CRM, bieden ook Power BI-apps. 
@@ -63,7 +63,7 @@ U kunt ook apps binnen Microsoft AppSource zoeken en installeren.
 3. Selecteer **Nu downloaden** om deze aan uw pagina met apps toe te voegen. 
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>Interactie met de dashboards en rapporten in de app
-U kunt nu de gegevens in de dashboards en rapporten in de app verkennen. U hebt toegang tot de standaard Power BI-interacties zoals filteren, markeren, sorteren en inzoomen. Meer informatie over [Interactie met rapporten in Power BI](service-interact-with-a-report-in-reading-view.md). 
+U kunt nu de gegevens in de dashboards en rapporten in de app verkennen. U hebt toegang tot de standaard Power BI-interacties zoals filteren, markeren, sorteren en inzoomen. Meer informatie over [Interactie met rapporten in Power BI](service-reading-view-and-editing-view.md). 
 
 U kunt wijzigingen niet opslaan, maar u kunt altijd [de gegevens exporteren naar Excel ](power-bi-visualization-export-data.md) uit een tabel of ander visueel element in een rapport.
 

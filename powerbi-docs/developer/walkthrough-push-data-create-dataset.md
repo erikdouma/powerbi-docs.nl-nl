@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: asaxton
-ms.openlocfilehash: b45a6f76a710bc158d0d1763ca10f2125164952a
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 92409e447bf9bc32b83c22650d5b41aef6bb4414
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>Stap 3: Een gegevensset maken in Power BI
 Dit artikel maakt deel uit van een stapsgewijze uitleg van hoe u [gegevens naar een gegevensset pusht](walkthrough-push-data.md).
@@ -32,7 +32,7 @@ Als u een REST-resource aanroept, gebruikt u een URL die de resource zoekt en ve
 
 Als u een REST-bewerking voor Power BI wilt verifiëren, voegt u de token die u hebt gekregen in [Een toegangstoken voor verificatie ophalen](walkthrough-push-data-get-token.md) toe aan een aanvraagheader:
 
-Wanneer u de bewerking [Gegevensset maken](https://msdn.microsoft.com/library/mt203562.aspx) aanroept, wordt een nieuwe gegevensset gemaakt. Voor voorbeelden van het gebruik van de REST-API voor Power BI raadpleegt u [REST-API voor Power BI in APIARY](http://docs.powerbi.apiary.io/).
+Wanneer u de bewerking [Gegevensset maken](https://msdn.microsoft.com/library/mt203562.aspx) aanroept, wordt een nieuwe gegevensset gemaakt. 
 
 ![](media/walkthrough-push-data-create-dataset/powerbi-developer-create-dataset.png)
 
@@ -239,7 +239,6 @@ Hieronder ziet u de [volledige code](#code).
 [Gegevens pushen naar een Power BI-dashboard](walkthrough-push-data.md)  
 [Overzicht van de REST-API voor Power BI](overview-of-power-bi-rest-api.md)  
 [Naslag voor REST-API voor Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
-[REST-API voor Power BI op APIARY](http://docs.powerbi.apiary.io/)  
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

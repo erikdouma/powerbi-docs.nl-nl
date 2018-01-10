@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: asaxton
-ms.openlocfilehash: 4dd18fba5b5e3da0f8973a77166551086cc3f3cf
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8285cbbc2d8dee653863cad50036da58362c32d1
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="integrate-a-report-into-an-app-for-your-organization"></a>Een rapport integreren in een app voor uw organisatie
 Informatie over het integreren of insluiten van een rapport in een web-app met behulp van REST-API-aanroepen en de Power BI JavaScript-API voor uw organisatie.
@@ -54,7 +54,7 @@ In uw app moet u eerst een **toegangstoken** van Azure AD ophalen voordat u de P
 Als u een **Power BI**-rapport wilt ophalen, gebruikt u de bewerking [Rapporten ophalen](https://msdn.microsoft.com/library/mt634543.aspx). Hiermee haalt u een lijst met **Power BI**-rapporten op. Vanuit de lijst met rapporten kunt u een rapport-ID ophalen.
 
 ### <a name="get-reports-using-an-access-token"></a>Rapporten ophalen met behulp van een toegangstoken
-Met het **toegangstoken** dat u hebt opgehaald in [stap 2](#step-2-get-an-access-token-from-azure-ad) roept u de bewerking [Rapporten ophalen](https://msdn.microsoft.com/library/mt634543.aspx) aan. Met de bewerking [Rapporten ophalen](https://msdn.microsoft.com/library/mt634543.aspx) wordt een lijst met rapporten geretourneerd. U kunt een enkel rapport ophalen vanuit de lijst met rapporten. Hieronder vindt u een volledige C#-methode voor het ophalen van een rapport. Voor voorbeelden van het gebruik van de REST-API voor Power BI raadpleegt u [REST-API voor Power BI in APIARY](http://docs.powerbi.apiary.io/).
+Met het **toegangstoken** dat u hebt opgehaald in [stap 2](#step-2-get-an-access-token-from-azure-ad) roept u de bewerking [Rapporten ophalen](https://msdn.microsoft.com/library/mt634543.aspx) aan. Met de bewerking [Rapporten ophalen](https://msdn.microsoft.com/library/mt634543.aspx) wordt een lijst met rapporten geretourneerd. U kunt een enkel rapport ophalen vanuit de lijst met rapporten. Hieronder vindt u een volledige C#-methode voor het ophalen van een rapport. 
 
 Als u de REST-API-aanroep uitvoert, moet u de header *Autorisatie* met de indeling *Bearer {toegangstoken}* toevoegen.
 
@@ -238,5 +238,5 @@ Er is een voorbeeldtoepassing beschikbaar op GitHub die u kunt bekijken. Zie [in
 
 Er is meer informatie beschikbaar voor de JavaScript-API, zie [Power BI JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript).
 
-Nog vragen? [Misschien dat de Power Bi-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

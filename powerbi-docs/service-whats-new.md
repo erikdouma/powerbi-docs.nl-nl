@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/01/2017
 ms.author: sirsu
-ms.openlocfilehash: 4cf430880ade8bafb345fef3f5d7fec228cb6272
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 8b03eb9659d4f2c984200db16daa6de017e73de7
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Wat is er nieuw in de Power BI-service
 Raadpleeg deze pagina voor bekende problemen en onlangs uitgebrachte functies in de **Power BI-service**. Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -589,10 +589,6 @@ Bekijk de [blog](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-ser
 
 * Verkrijg snel inzicht in uw QuickBooks Online-account met ons [inhoudspakket](http://blogs.msdn.com/b/powerbi/archive/2015/05/28/get-quick-insights-into-your-quickbooks-online-account-data.aspx). Zie [documentatie](service-connect-to-quickbooks-online.md) van het QuickBooks Online-inhoudspakket voor Power BI voor meer informatie over hoe u verbinding kunt maken en aan de slag kunt gaan.
 
-**19 mei 2015**
-
-* Met deze update kunt u nu verbinding maken met [Twilio via ons inhoudspakket](service-connect-to-twilio.md)
-* De Power BI-API heeft nieuwe toevoegingen. U kunt nu [een lijst maken van alle tabellen](http://docs.powerbi.apiary.io/#reference/datasets/tables-collection/list-all-tables) en [een bestaand tabelschema bijwerken](http://docs.powerbi.apiary.io/#reference/datasets/table/update-an-existing-tables-schema)
 
 **13 mei 2015**
 
@@ -641,5 +637,5 @@ Bekijk de [blog](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-ser
 ## <a name="next-steps"></a>Volgende stappen
 [Aan de slag met Power BI](service-get-started.md)  
 
-Nog vragen? [Misschien dat de Power Bi-community het antwoord weet](http://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

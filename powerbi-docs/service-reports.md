@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: d974fbac281fc8f1d74553d1342f7056fa8d7b03
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: baa94483b8174d62d0f7e27d726bb59dbb0b4c10
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="reports-in-power-bi"></a>Rapporten in Power BI
 ## <a name="what-is-a-power-bi-report"></a>Wat is een Power BI-rapport?
@@ -71,7 +71,7 @@ Hier vindt u enkele onderwerpen per functie zodat u aan de slag kunt.
 
 ### <a name="if-you-will-be-receiving-and-consuming-reports"></a>Als u rapporten ontvangt en gebruikt
 * Begin met een [rondleiding van Power BI-service](service-basic-concepts.md) zodat u weet waar u rapporten en hulpprogramma's voor rapporten kunt vinden.
-* Meer informatie over het [openen van een rapport](service-report-open-in-reading-view.md) en alle beschikbare interacties in de [Leesweergave](service-dashboard-tiles.md).
+* Meer informatie over het [openen van een rapport](service-report-open.md) en alle beschikbare interacties in de [Leesweergave](service-reading-view-and-editing-view.md).
 * Raak vertrouwd met rapporten door het bekijken van een van onze [voorbeelden](sample-tutorial-connect-to-the-samples.md).  
 * Hebt u het rapport niet meer nodig? U kunt het [verwijderen](service-delete.md).
 * Zie [Gerelateerde inhoud weergeven](service-related-content.md) om te zien welke gegevensset gebruik maakt van het rapport en welke dashboards tegels hebben die vanuit het rapport zijn vastgemaakt.
@@ -86,5 +86,5 @@ Hier vindt u enkele onderwerpen per functie zodat u aan de slag kunt.
 
 [Power BI - basisconcepten](service-basic-concepts.md)
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/19/2017
 ms.author: asaxton
-ms.openlocfilehash: 0b2e0208814fdd68ef7c6f0bcc1cf6ffa1fe42da
-ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
+ms.openlocfilehash: 70ffefa9845f8440205460ee0083f8dc334b7c81
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>Een tegel in een app integreren (gebruiker is eigenaar van de gegevens)
 Informatie over het integreren of insluiten van een tegel in een web-app met behulp van REST-API-aanroepen en de Power BI JavaScript-API voor uw organisatie.
@@ -56,7 +56,7 @@ Als u een **Power BI**-tegel wilt ophalen, gebruikt u de bewerking [Tegels ophal
 Voordat u de tegel kunt ophalen, moet eerst een dashboard-ID worden opgehaald. Zie [Een dashboard in een app integreren (gebruiker is eigenaar van gegevens)](integrate-dashboard.md) voor meer informatie over het ophalen van een dashboard.
 
 ### <a name="get-tiles-using-an-access-token"></a>Tegels ophalen met behulp van een toegangstoken
-Met het **toegangstoken** dat u hebt opgehaald in [stap 2](#step-2-get-an-access-token-from-azure-ad) roept u de bewerking [Tegels ophalen](https://msdn.microsoft.com/library/mt465741.aspx) aan. Met de bewerking [Tegels ophalen](https://msdn.microsoft.com/library/mt465741.aspx) wordt een lijst met rapporten geretourneerd. U kunt een enkele tegel ophalen vanuit de lijst met rapporten. Hieronder vindt u een volledige C#-methode voor het ophalen van een tegel. Voor voorbeelden van het gebruik van de REST-API voor Power BI raadpleegt u [REST-API voor Power BI in APIARY](http://docs.powerbi.apiary.io/).
+Met het **toegangstoken** dat u hebt opgehaald in [stap 2](#step-2-get-an-access-token-from-azure-ad) roept u de bewerking [Tegels ophalen](https://msdn.microsoft.com/library/mt465741.aspx) aan. Met de bewerking [Tegels ophalen](https://msdn.microsoft.com/library/mt465741.aspx) wordt een lijst met rapporten geretourneerd. U kunt een enkele tegel ophalen vanuit de lijst met rapporten. Hieronder vindt u een volledige C#-methode voor het ophalen van een tegel. 
 
 Als u de REST-API-aanroep uitvoert, moet u de header *Autorisatie* met de indeling *Bearer {toegangstoken}* toevoegen.
 

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 07/20/2017
 ms.author: asaxton
-ms.openlocfilehash: 23a77e2b8ac8754b122888e3d0d64f2c3886b61b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 5a6d760667608feb07932b9175b6949387b33f9a
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>Wat kunnen ontwikkelaars doen met Power BI?
 Power BI geeft dashboards weer die interactief zijn en in realtime kunnen worden gemaakt en bijgewerkt via vele verschillende gegevensbronnen. Met behulp van elke programmeertaal die REST-aanroepen ondersteunt, kunt u apps maken die in realtime met een Power BI-dashboard kunnen worden geïntegreerd. U kunt ook Power BI-tegels en -rapporten integreren met apps.
@@ -59,7 +59,6 @@ De voorbeelden voor Power BI-ontwikkelaars omvatten items voor het insluiten van
 ## <a name="developer-tools"></a>Ontwikkelhulpprogramma's
 Hieronder volgen hulpprogramma‘s die u kunt gebruiken bij het ontwikkelen van Power BI-items.
 
-* [Interactieve API-console Apiary](http://docs.powerbi.apiary.io/)
 * [Voorbeeld van het insluiten van JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo)
 
 ## <a name="next-steps"></a>Volgende stappen
@@ -67,5 +66,5 @@ Hieronder volgen hulpprogramma‘s die u kunt gebruiken bij het ontwikkelen van 
 [Aan de slag met ontwikkelhulpmiddelen voor aangepaste visuele elementen (Preview)](../service-custom-visuals-getting-started-with-developer-tools.md) 
 [Naslag voor REST-API voor Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
 
-Nog vragen? [Misschien dat de Power Bi-community het antwoord weet](http://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/18/2017
+ms.date: 01/08/2018
 ms.author: maggies
-ms.openlocfilehash: 4cc7f12eb4964c67ae9f91cfcb51eac77d690555
-ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
+ms.openlocfilehash: d0fbe2ca891096cf8b1ae2145260c3341c451658
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>Dashboards van Power BI delen met collega's en anderen
 *Delen* is een goede manier om een paar personen toegang te geven tot uw dashboards en rapporten. Power BI ondersteunt [verschillende manieren om samen te werken en uw dashboards te distribueren](service-how-to-collaborate-distribute-dashboards-reports.md). Delen is er hier slechts één van.
@@ -110,7 +110,7 @@ Als u vanuit een mobiele app van Power BI een koppeling verstuurt naar personen 
 Houd rekening met het volgende bij het delen van dashboards:
 
 * In het algemeen zien u en uw collega's dezelfde gegevens in het dashboard. Dus als u gemachtigd bent om meer gegevens te zien dan zij, kunnen ze alle gegevens in uw dashboard bekijken. Als er echter [beveiliging op rijniveau](service-admin-rls.md) is toegepast op de gegevensset van een dashboard, worden de referenties van elke persoon gebruikt om te bepalen welke gegevens ze mogen zien.
-* Iedereen met wie u uw dashboard deelt, kan dit zien en in de [leesweergave](service-report-open-in-reading-view.md) interactie hebben met uw rapporten. Ze kunnen geen rapporten maken of wijzigingen in bestaande rapporten opslaan.
+* Iedereen met wie u uw dashboard deelt, kan dit zien en in de [leesweergave](service-reading-view-and-editing-view.md) interactie hebben met uw rapporten. Ze kunnen geen rapporten maken of wijzigingen in bestaande rapporten opslaan.
 * Niemand kan de gegevensset zien of downloaden.
 * Iedereen kan [de dashboardgegevens handmatig vernieuwen](refresh-data.md).
 * Als u Office 365 gebruikt voor e-mail, kunt u delen met leden van een distributiegroep door het e-mailadres in te voeren dat is gekoppeld aan de distributiegroep.

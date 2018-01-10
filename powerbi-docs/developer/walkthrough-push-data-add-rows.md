@@ -17,16 +17,16 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: asaxton
-ms.openlocfilehash: d9fa2984eecfac026cf01a47d73ec6c5950e02d3
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 02c0ac505f542d9c4a346ae7aee72533789d5599
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Stap 5: Rijen toevoegen aan een Power BI-tabel
 Dit artikel maakt deel uit van een stapsgewijze uitleg van hoe u [gegevens naar een gegevensset pusht](walkthrough-push-data.md).
 
-In **stap 4** van Gegevens naar een gegevensset pushen, [Een gegevensset ophalen om rijen toe te voegen aan een Power BI-tabel](walkthrough-push-data-get-datasets.md), hebt u de bewerking [Gegevenssets ophalen](https://msdn.microsoft.com/library/mt203567.aspx) en Newtonsoft.Json gebruikt om een gegevensset-id op te halen. In deze stap gebruikt u de gegevensset-id met de bewerking [Rijen toevoegen](https://msdn.microsoft.com/library/mt203561.aspx) om rijen toe te voegen aan een **Power BI**-gegevensset. Voor voorbeelden van het gebruik van de REST-API voor Power BI raadpleegt u [REST-API voor Power BI in APIARY](http://docs.powerbi.apiary.io/).
+In **stap 4** van Gegevens naar een gegevensset pushen, [Een gegevensset ophalen om rijen toe te voegen aan een Power BI-tabel](walkthrough-push-data-get-datasets.md), hebt u de bewerking [Gegevenssets ophalen](https://msdn.microsoft.com/library/mt203567.aspx) en Newtonsoft.Json gebruikt om een gegevensset-id op te halen. In deze stap gebruikt u de gegevensset-id met de bewerking [Rijen toevoegen](https://msdn.microsoft.com/library/mt203561.aspx) om rijen toe te voegen aan een **Power BI**-gegevensset. 
 
 Wanneer u de bewerking [Rijen toevoegen](https://msdn.microsoft.com/library/mt203561.aspx) aanroept, voegt u rijen toe aan een gegevensset.
 
@@ -319,6 +319,5 @@ Hieronder ziet u de [volledige code](#code).
 [Gegevens pushen naar een Power BI-dashboard](walkthrough-push-data.md)  
 [Overzicht van de REST-API voor Power BI](overview-of-power-bi-rest-api.md)  
 [Naslag voor REST-API voor Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
-[REST-API voor Power BI op APIARY](http://docs.powerbi.apiary.io/)  
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: c8baa19eef8210a375e77acee379389ccd5dbade
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 82519877ac9a9603d87f20fc3f1155af34421078
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report-tutorial"></a>Deel 1: visualisaties toevoegen aan een Power BI-rapport (zelfstudie)
 Dit artikel bevat een korte inleiding over het maken van een visualisatie in een rapport.  [Zie deel II](power-bi-report-add-visualizations-ii.md) voor geavanceerdere inhoud. Kijk mee met Amanda, die een aantal verschillende manieren om visuele elementen in het rapportcanvas te maken, bewerken en op te maken laat zien. Probeer deze vervolgens zelf met behulp van het [Voorbeeld van verkoop en marketing](sample-datasets.md) om uw eigen rapport te maken.
@@ -64,7 +64,7 @@ Dit artikel bevat een korte inleiding over het maken van een visualisatie in een
    
    Doorgaan met [Deel 2: visualisaties toevoegen aan een Power BI-rapport](power-bi-report-add-visualizations-ii.md)
    
-   [Communiceren met de visualisaties](service-interact-with-a-report-in-reading-view.md) in het rapport.
+   [Communiceren met de visualisaties](service-reading-view-and-editing-view.md) in het rapport.
    
    [Nog meer doen met visualisaties](power-bi-report-visualizations.md).
    

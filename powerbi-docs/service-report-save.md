@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: f6d0f320dd18520c94ada531ee87aacbd562f5d7
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+ms.openlocfilehash: 50fd10596ea7ebba1284f78b4056f7afbd0e3400
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="save-a-report-in-power-bi-service-and-power-bi-desktop"></a>Een rapport opslaan in de Power BI-service en Power BI Desktop
 Nadat u wijzigingen in een rapport in Power BI hebt aangebracht, kunt u het rapport opslaan, opslaan met een nieuwe naam, of sluiten zonder uw wijzigingen op te slaan. Stel dat u het rapport opent, een visualisatie maakt en deze vastmaakt aan uw dashboard. Als u de visualisatie nu sluit zonder op te slaan, blijft de tegel op het dashboard, maar wordt de visualisatie niet in het rapport opgeslagen. Als u op deze tegel op het dashboard klikt, wordt het rapport geopend, maar bestaat de visualisatie niet in het rapport.
@@ -35,7 +35,7 @@ Nadat u wijzigingen in een rapport in Power BI hebt aangebracht, kunt u het rapp
 1. Als u probeert te navigeren vanuit een rapport en het rapport is gewijzigd, wordt een prompt weergegeven in Power BI.
    
    ![](media/service-report-save/power-bi-unsaved.png)
-2. U kunt het rapport ook op een andere manier opslaan, door **BESTAND** \> **Opslaan** of **Opslaan als** te selecteren. Als u zich in de [Leesweergave](service-interact-with-a-report-in-reading-view.md) bevindt, ziet u alleen de optie Opslaan als. 
+2. U kunt het rapport ook op een andere manier opslaan, door **BESTAND** \> **Opslaan** of **Opslaan als** te selecteren. Als u zich in de [Leesweergave](service-reading-view-and-editing-view.md) bevindt, ziet u alleen de optie Opslaan als. 
    
    ![](media/service-report-save/power-bi-save-new.png)
 3. Als dit een nieuw rapport (Opslaan) is of een nieuwe versie van een bestaand rapport (Opslaan als), geeft u het rapport een beschrijvende naam.  **Het rapport wordt toegevoegd aan de actieve werkruimte**.

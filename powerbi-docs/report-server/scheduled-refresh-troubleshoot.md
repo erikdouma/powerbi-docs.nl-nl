@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
-ms.author: asaxton
-ms.openlocfilehash: 815e2ff78a89b98978d4b8a5c0d21317e9f92056
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: b9168536e3df719117afaefd5e44954512385852
+ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/06/2018
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>Problemen met geplande vernieuwing oplossen in Power BI Report Server
 In dit artikel worden de hulpmiddelen beschreven die beschikbaar zijn voor het oplossen van problemen met geplande vernieuwing in Power BI Report Server.
@@ -199,5 +199,5 @@ SQL Server Profiler Trace is opgenomen in de [download van SQL Server Management
 ## <a name="lock-pages-in-memory-windows-privilege"></a>Pagina's in het geheugen vergrendelen
 Als u een Power BI-rapport niet kunt weergeven, kan het helpen om de bevoegdheid **Pagina's in het geheugen vergrendelen** toe te wijzen aan het servicesaccount waaronder Power BI Report Server wordt uitgevoerd. Zie [Windows privileges assigned to the Analysis Services service account](https://docs.microsoft.com/sql/analysis-services/instances/configure-service-accounts-analysis-services#bkmk_winpriv) (Windows-bevoegdheden die zijn toegewezen aan het serviceaccount van Analysis Services) voor meer informatie over het configureren van **Pagina's in het geheugen vergrendelen**.
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/).
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

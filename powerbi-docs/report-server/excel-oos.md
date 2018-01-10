@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/23/2017
-ms.author: asaxton
-ms.openlocfilehash: 2aee1652f802e35a99d3681fdbf6177ea29355ab
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 44a423bcebb89a581dbcffde3b8e7704701656ad
+ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/06/2018
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>De rapportserver configureren om Excel-werkmappen te hosten met Office Online Server (OOS)
 Zakelijke gebruikers kunnen nu niet alleen Power BI-rapporten weergeven in de webportal, maar ook hetzelfde doen met Excel-werkmappen in Power BI Report Server. Zo hebben ze één locatie waar ze hun selfservice Microsoft BI-inhoud kunnen publiceren en weergeven.
@@ -183,9 +183,9 @@ Nadat u de detectie-URL hebt ingevoerd en **Toepassen** hebt geselecteerd, moet 
 
 ## <a name="next-steps"></a>Volgende stappen
 [Beheerdershandboek](admin-handbook-overview.md)  
-[Quickstart: Power BI Report Server installeren](quickstart-install-report-server.md)  
-[Report Builder downloaden](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[Snelstartgids: Power BI Report Server installeren](quickstart-install-report-server.md)  
+[Report Builder installeren](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [SQL Server Data Tools (SSDT) downloaden](http://go.microsoft.com/fwlink/?LinkID=616714)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 
