@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/23/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 511f01494410215451d9f77ff637c7cfce8e89b3
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 6d2c14de83fcea1e9067fd3868b7559c3becce14
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Interactie met ArcGIS-kaarten in Power BI
 Dit onderwerp is geschreven vanuit het oogpunt van een persoon die een ArcGIS-kaart *gebruikt* in de Power BI-service, in de desktopversie of op een mobiel apparaat. Zodra een maker een ArcGIS-kaart met u deelt, kunt u deze kaart op veel manieren gebruiken.  Zie [ArcGIS maps by esri tutorial](power-bi-visualization-arcgis.md) (ArcGIS-kaarten van Esri - een zelfstudie) voor meer informatie over het maken van een ArcGIS-kaart.
@@ -62,7 +62,7 @@ ArcGIS Maps for Power BI biedt drie selectiemodi. Er kunnen maximaal 250 gegeven
 <br/>
 
 ## <a name="interacting-with-an-arcgis-map"></a>Interactie met een ArcGIS-kaart
-De functies die beschikbaar zijn voor u, zijn afhankelijk van het feit of u de *maker* (persoon die de kaart heeft gemaakt) of de *consument* (iemand met wie een ArcGIS-kaart is gedeeld) bent. Als u als consument gebruikmaakt van een ArcGIS-kaart (ook wel de [Leesweergave](service-interact-with-a-report-in-reading-view.md) genoemd), zijn dit de beschikbare acties.
+De functies die beschikbaar zijn voor u, zijn afhankelijk van het feit of u de *maker* (persoon die de kaart heeft gemaakt) of de *consument* (iemand met wie een ArcGIS-kaart is gedeeld) bent. Als u als consument gebruikmaakt van een ArcGIS-kaart (ook wel de [Leesweergave](service-reading-view-and-editing-view.md) genoemd), zijn dit de beschikbare acties.
 
 * Net zoals bij andere visualisatietypen kunt u de kaart [vastmaken aan dashboards](service-dashboard-pin-tile-from-report.md), [weergeven](service-reports-show-data.md) en/of [de onderliggende gegevens exporteren](power-bi-visualization-export-data.md), en de kaart bekijken in [Focusmodus](service-focus-mode.md) en op [Volledig scherm](service-fullscreen-mode.md).    
 * Vouw het deelvenster **Filters** uit om de kaart te verkennen met behulp van filters. Wanneer u het rapport sluit, worden de filters die u hebt toegepast, niet opgeslagen.    

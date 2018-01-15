@@ -1,6 +1,6 @@
 ---
-title: Het type visualisatie in een Power BI-rapport wijzigen
-description: Het type visualisatie in een Power BI-rapport wijzigen
+title: Het type visualisatie in een rapport wijzigen
+description: Het type visualisatierapport in de Power BI-service en Power BI Desktop wijzigen
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 629163044a48e15cbd5b2412f4da886cd373c56d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 40ca8c24ec79f61bf0c8b3db71fdd84cdbb6a109
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>Het type visualisatie in een Power BI-rapport wijzigen
-Probeer de verschillende typen visualisaties van Power BI uit om te zien welke uw gegevens het beste illustreert. 
+Probeer de verschillende typen visualisaties in de Power BI-service en Power BI Desktop uit om te zien welke uw gegevens het beste laat zien. 
 
-1. Open uw rapport in de [bewerkingsweergave](service-reading-view-and-editing-view.md) en [maak een visualisatie](power-bi-report-add-visualizations-i.md), als uw rapport die nog niet bevat.
+1. Open een rapport dat al ten minste één visualisatie heeft.   
 2. Selecteer in het deelvenster Visualisaties een ander type visualisatie.  
    
    ![](media/power-bi-report-change-visualization-type/changeviz.gif)

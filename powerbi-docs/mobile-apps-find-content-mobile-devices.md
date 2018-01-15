@@ -1,6 +1,6 @@
 ---
 title: Dashboards, rapporten en apps zoeken in de mobiele Power BI-apps
-description: Krijg meer informatie over waar u uw dashboards en rapporten kunt vinden in de mobiele Power BI-apps, afhankelijk van waarvan ze afkomstig zijn.
+description: Krijg meer informatie over waar u uw dashboards, rapporten en apps kunt vinden in de mobiele Power BI-apps, afhankelijk van waarvan ze afkomstig zijn.
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: 6dca860e4711d85b4b53c31c91ba4cba20bbe6e7
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d63ef5ad9ee59901917fb9bf9c28358c9aa542e8
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="find-your-dashboards-reports-and-apps-in-the-power-bi-mobile-apps"></a>Dashboards, rapporten en apps zoeken in de mobiele Power BI-apps
 Van toepassing op:
@@ -49,7 +49,7 @@ Mogelijk hebt u verbindingen met een of meer on-premises servers in Power BI Rep
 ## <a name="3-apps"></a>3 Apps
 Een app is een verzameling dashboards en rapporten die in uw organisatie speciaal zijn gebouwd om belangrijke metrische gegevens te bieden zodat sneller en gemakkelijker besluiten op basis van gegevens kunnen worden gemaakt. In de Power BI-service ([https://powerbi.com](https://powerbi.com)) kunt u gemakkelijk apps vinden en installeren. Nadat u ze hebt geïnstalleerd, kunt u ze op elk apparaat weergeven. 
 
-![Nieuwe navigatie voor Power BI](media/mobile-apps-find-content-mobile-devices/power-bi-mobile-apps.png)
+![Nieuwe navigatie voor Power BI](media/mobile-apps-find-content-mobile-devices/power-bi-apps-mobile-apps.png)
 
 Met apps krijgt u automatisch alle updates van de auteur. De auteur bepaalt ook hoe vaak de gegevens worden vernieuwd. U hoeft de apps niet zelf bij te werken met de wijzigingen van de auteur.
 

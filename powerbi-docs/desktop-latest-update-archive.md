@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/08/2017
+ms.date: 12/12/2017
 ms.author: davidi
-ms.openlocfilehash: 1ad6621683d6f28b63af373372c1d5100a0abd16
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 48ba3e679214283875abe27d06032fee20598347
+ms.sourcegitcommit: be55922d7f43f458aea0160ec8fdfb1a0b5a0c00
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Eerdere maandelijkse updates voor Power BI Desktop
 
@@ -30,6 +30,66 @@ In dit artikel vindt u informatie over eerdere updates voor **Power BI Desktop**
 In de volgende secties wordt aandacht besteed aan de updates van de afgelopen maanden voor **Power BI Desktop**.
 
 U kunt altijd [de nieuwste versie van Power BI Desktop downloaden](https://powerbi.microsoft.com/desktop). Als u met Windows 10 werkt, kunt u **Power BI Desktop** ook downloaden uit de Windows Store. De maandelijkse versies zijn hetzelfde, ongeacht de manier waarop u **Power BI Desktop** installeert. Zie [dit artikel](desktop-get-the-desktop.md) voor meer informatie. 
+
+
+
+## <a name="november-2017-update-2524921202"></a>Update november 2017 (2.52.4921.202)
+
+Er is in november een hele vracht aan updates voor **Power BI Desktop**. 
+
+De koppelingen naast de verschillende updates betekenen het volgende:
+
+-   **[video]**-fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
+-   Sommige functies hebben een **[artikel]** dat meer informatie biedt.
+-   De meeste functies worden beschreven in de maandelijkse update **[blog]**-post.
+-   Sommige functies behoeven geen uitleg en hebben geen artikel of video nodig.
+
+U kunt ook de video **Meest recente updates** in dit artikel vanaf het begin bekijken, door te klikken op het pictogram **Afspelen** op de videoafbeelding onder de lijst met updates.
+
+De volgende updates zijn deze maand nieuw voor **Power BI Desktop**:
+
+### <a name="reporting"></a>Rapportage
+
+-   Voorwaardelijke opmaak op basis van regels voor Tabel- en Matrix-visuals [[video]](https://youtu.be/sI3yRjdnJ7w?t=55s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting) 
+-   Celuitlijning voor Tabel- en Matrix-visuals [[video]](https://youtu.be/sI3yRjdnJ7w?t=4m16s)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#alignment) 
+-   Volgorde van objecten in de visual regelen via het selectievenster [[video]](https://youtu.be/sI3yRjdnJ7w?t=6m21s)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#selectionPane) 
+-   Objecten vergrendelen in uw rapport [[video]](https://youtu.be/sI3yRjdnJ7w?t=9m2s)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#lock) 
+-   ESRI Plus-abonnement is beschikbaar voor ArcGIS-kaarten voor Power BI [[video]](https://youtu.be/sI3yRjdnJ7w?t=10m31s)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#esriPlus) 
+-   Meldingsopties voor trage gegevensbronnen [[video]](https://youtu.be/sI3yRjdnJ7w?t=16m11s)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#slowDataSource) 
+-   Prestatieverbeteringen filteren [[video]](https://youtu.be/sI3yRjdnJ7w?t=20m9s)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#filtering) 
+-   Onlangs uitgebrachte aangepaste visuals [[video]](https://youtu.be/sI3yRjdnJ7w?t=20m50s)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#customVisuals) 
+
+
+### <a name="analytics"></a>Analyse
+
+-   Celopmaak voor multidimensionale AS-modellen voor kaarten met meerdere rijen [[video]](https://youtu.be/sI3yRjdnJ7w?t=27m25s)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting) 
+
+
+### <a name="data-connectivity"></a>Toegang tot gegevens
+
+-   Impala-connector: ondersteuning voor Windows-verificatie [[video]](https://youtu.be/sI3yRjdnJ7w?t=28m9s)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#impala) 
+
+
+### <a name="other"></a>Overige
+
+-   Query’s bewerken: verbeteringen voor het toevoegen van kolommen op basis van voorbeelden [[video]](https://youtu.be/sI3yRjdnJ7w?t=28m34s)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#addColumnFromExamples) 
+
+
+
+> [!NOTE]
+> U kunt ook [alle gegevensbronnen bekijken die beschikbaar zijn voor Power BI Desktop](desktop-data-sources.md). Deze lijst blijft groeien, dus kom geregeld terug.
+
+Wilt u meer informatie over deze updates? Bekijk de [blogpost](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary), waar meer informatie over elk van deze nieuwe functies wordt gegeven (dit is dezelfde blogpost waarnaar in de bovenstaande lijst wordt verwezen).
+
+In de volgende video wordt elk van deze updates beschreven en weergegeven. U ziet ook de video uit de blogpost.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sI3yRjdnJ7w" frameborder="0" allowfullscreen></iframe>
+
+> [!NOTE]
+> Wellicht bent u ook geïnteresseerd in [wat er nieuw is in de Power BI-service](service-whats-new.md). Lees ook [wat er nieuw is in de mobiele apps voor Power BI](mobile-whats-new-in-the-mobile-apps.md).
+
+
+
 
 
 ## <a name="october-2017-update-2514885543"></a>Update van oktober 2017 (2.51.4885.543)
@@ -77,7 +137,7 @@ De volgende updates zijn deze maand nieuw voor **Power BI Desktop**:
 > [!NOTE]
 > U kunt ook [alle gegevensbronnen bekijken die beschikbaar zijn voor Power BI Desktop](desktop-data-sources.md). Deze lijst blijft groeien, dus kom geregeld terug.
 
-Wilt u meer informatie over deze updates? Bekijk de [blogpost](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary), waar meer informatie over elk van deze nieuwe functies wordt gegeven (dit is dezelfde blogpost waarnaar in de bovenstaande lijst wordt verwezen).
+Wilt u meer informatie over deze updates? Bekijk de [blogpost](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary), waar meer informatie over elk van deze nieuwe functies wordt gegeven (dit is dezelfde blogpost waarnaar in de bovenstaande lijst wordt verwezen).
 
 In de volgende video wordt elk van deze updates beschreven en weergegeven. U ziet ook de video uit de blogpost.
 
