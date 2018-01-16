@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/21/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 8faa60dee8c1785d5560ac34c5eb50288488e893
-ms.sourcegitcommit: 910258a5ad8b6861e81ae02c57286db221c37375
+ms.openlocfilehash: 66e75d638595113b2df67650896a407ae5d13e88
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="subscribe-to-a-power-bi-report-or-dashboard"></a>Abonneren op een Power BI-rapport of -dashboard
 Het is nog nooit zo eenvoudig geweest om op de hoogte blijven van uw belangrijkste dashboards en rapporten. Abonneer u op de rapportpagina's en dashboards die voor u het belangrijkst zijn, zodat u een e-mail van Power BI in uw postvak ontvangt met een momentopname. U geeft voor Power BI op hoe vaak u de e-mails wilt ontvangen: van één keer per dag tot één keer per week. Voor e-mail en momentopnamen wordt de taal gebruikt die in instellingen voor Power BI is ingesteld. Als er geen taal is ingesteld, wordt in Power BI gebruik gemaakt van de huidige taal in de browser.
@@ -65,7 +65,7 @@ Het **maken** van een abonnement is een Power BI Pro-functie en u moet over weer
    ![](media/service-report-subscribe/power-bi-view-related-screen.png)
 
 ## <a name="subscribe-to-a-report-page"></a>Abonneren op een rapportpagina
-1. Open het rapport in de [leesweergave](service-report-open-in-reading-view.md).
+1. Open het rapport in de [leesweergave](service-reading-view-and-editing-view.md).
 2. Selecteer in de bovenste menubalk **Abonneren**.
    
    ![](media/service-report-subscribe/power-bi-subscribe-icon.png)
@@ -109,6 +109,7 @@ Een abonnement wordt beëindigd als de Pro-licentie is verlopen, het dashboard o
 
 ## <a name="considerations-and-troubleshooting"></a>Overwegingen en probleemoplossing
 * Op dit moment kunt u zich niet abonneren op dashboards en rapporten die afkomstig uit inhoudspakketten of Power BI-apps. Er is echter een tijdelijke oplossing. Maak een kopie van het rapport/dashboard en voeg in plaats daarvan abonnementen toe aan die versie.
+* Abonnementen op rapportpagina’s zijn gekoppeld aan de naam van de rapportpagina. Als u zich abonneert op een rapportpagina en de naam ervan wijzigt, moet u uw abonnement opnieuw maken
 * Voor e-mailabonnementen op gegevenssets met een liveverbinding ontvangt u alleen e-mailberichten wanneer de gegevens worden gewijzigd. Als de gegevensset wordt vernieuwd en er geen gegevenswijzigingen zijn, ontvangt u geen mail van Power BI.
 * E-mailabonnementen bieden geen ondersteuning voor de [aangepaste visuals](power-bi-custom-visuals.md).  De enige uitzondering hierop vormen de aangepaste visuals die zijn [gecertificeerd](power-bi-custom-visuals-certified.md).  
 * E-mailabonnementen worden verzonden met de standaard filter- en slicerstatus voor het rapport. De wijzigingen die u aanbrengt in de standaardwaarden voordat u zich abonneert, worden niet weergegeven in het e-mailbericht.    

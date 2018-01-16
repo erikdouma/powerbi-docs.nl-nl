@@ -18,17 +18,17 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/27/2017
 ms.author: mihart
-ms.openlocfilehash: 0fca4788c29f42390a286509acd0675292fc6684
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 04709b76b8e3e464b5384fa2bf137cd79b0749a7
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Metrische gegevens over het gebruik van dashboards en rapporten
 Als u dashboards en rapporten maakt, kunnen metrische gegevens over het gebruik u helpen hun invloed te begrijpen. Wanneer u metrische gegevens over het gebruik van dashboards of rapporten uitvoert, ontdekt u hoe deze dashboards en rapporten worden gebruikt binnen uw organisatie; wat wordt gebruikt, door wie en met welk doel.  
 
 > [!NOTE]
-> Metrische gegevens over gebruik leggen gebruik vast wanneer u dashboards en rapporten insluit, maar niet wanneer u [Publiceren op web](service-publish-to-web.md) gebruikt
+> Metrische gegevens over gebruik houden het gebruik bij van rapporten die zijn ingesloten in SharePoint Online. Ze houden ook insluiting bij van dashboards en rapporten via de stroom “gebruikers is eigenaar van referenties” en “app is eigenaar van referenties”. Metrische gegevens over gebruik houden niet het gebruik van rapportinsluiting bij via [publiceren op web](service-publish-to-web.md).
 > 
 > 
 
@@ -177,5 +177,5 @@ A: Het rapport met metrische gegevens over gebruik bevat alleen rapporten (of da
 ## <a name="next-steps"></a>Volgende stappen
 [Een dashboard aan favorieten toevoegen](service-dashboard-favorite.md)
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

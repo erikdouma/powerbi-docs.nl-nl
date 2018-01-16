@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 57960c3ca46e48f399e0492192c10cba2cfa7ea9
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 0f81b0fa87af5af281b40224bac3b5815461cb9e
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="about-filters-and-highlighting-in-power-bi-reports"></a>Over filters en markeren in Power BI-rapporten
 ***Filters*** zorgen ervoor dat alleen die gegevens worden weergegeven waarop u zich wilt concentreren.  ***Markeren*** is geen filtertechniek, aangezien er geen gegevens worden verwijderd. In plaats daarvan wordt een subset van de zichtbare gegevens gemarkeerd. De niet-gemarkeerde gegevens blijven wel zichtbaar maar zijn lichter van kleur.
@@ -30,7 +30,7 @@ Er zijn diverse verschillende manieren om rapporten in Power BI te filteren en t
 
 * Inleiding tot filters en markeren (het artikel dat u nu leest)
 * De manieren waarop u [filters en markeringen kunt maken en gebruiken in de bewerkingsweergave of de rapporten die u hebt gemaakt](power-bi-report-add-filter.md). Wanneer u over bewerkingsmachtigingen beschikt voor een rapport, kunt u filters en markeringen in rapporten maken, wijzigen en verwijderen.
-* De manieren waarop u [filters en markeringen kunt gebruiken in rapporten die met u zijn gedeeld of in rapporten in de leesweergave](service-interact-with-a-report-in-reading-view.md). De mogelijkheden zijn beperkter, maar u beschikt met Power BI nog altijd over tal van filter- en markeeropties.  
+* De manieren waarop u [filters en markeringen kunt gebruiken in rapporten die met u zijn gedeeld of in rapporten in de leesweergave](service-reading-view-and-editing-view.md). De mogelijkheden zijn beperkter, maar u beschikt met Power BI nog altijd over tal van filter- en markeeropties.  
 * [Een gedetailleerd overzicht van de besturingselementen die in de bewerkingsweergave beschikbaar zijn om te filteren en te markeren](power-bi-how-to-report-filter.md), inclusief uitgebreide informatie over de typen filters (bijvoorbeeld datum en tijd, numerieke tekst) en het verschil tussen de basisopties en geavanceerde opties.
 * Nu u weet hoe de standaard filter- en markeeropties werken, kunt u [leren om te wijzigen op welke manier visualisaties op een pagina elkaar filteren en markeren](service-reports-visual-interactions.md).
 
@@ -50,7 +50,7 @@ Filters en markeringen kunnen worden toegepast via het deelvenster **Filters** o
 > 
 
 ## <a name="filters-in-reading-view-versus-editing-view"></a>Filters in de leesweergave versus filters in de bewerkingsweergave
-U kunt in twee modi met rapporten werken: in de [leesweergave](service-interact-with-a-report-in-reading-view.md) en de [bewerkingsweergave](service-interact-with-a-report-in-editing-view.md).  De beschikbare filtermogelijkheden zijn afhankelijk van de modus waarin u werkt.
+U kunt in twee modi met rapporten werken: in de [leesweergave en de bewerkingsweergave](service-reading-view-and-editing-view.md).  De beschikbare filtermogelijkheden zijn afhankelijk van de modus waarin u werkt.
 
 * In de bewerkingsweergave kunt u rapport-, pagina- en visualisatiefilters toevoegen. Als u het rapport opslaat, worden de filters ook opgeslagen. Personen die het rapport bekijken in de leesweergave, kunnen werken met de filters die u hebt toegevoegd, maar ze kunnen hun wijzigingen niet opslaan.
 * In de leesweergave kunt u werken met elk pagina- en visualisatiefilter dat al in het rapport aanwezig is, maar u kunt uw filterwijzigingen niet opslaan.
@@ -66,7 +66,7 @@ Selecteer een visueel element om te controleren of het rapport ook filters op he
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-filter-visual-level.png)
 
-Verken de gegeven in de leesweergave door de bestaande filters te wijzigen. Meer informatie hierover vindt u in het artikel [Filters gebruiken in de leesweergave](service-interact-with-a-report-in-reading-view.md)
+Verken de gegeven in de leesweergave door de bestaande filters te wijzigen. Meer informatie hierover vindt u in het artikel [Filters gebruiken in de leesweergave](service-reading-view-and-editing-view.md)
 
 ### <a name="the-filters-pane-in-editing-view"></a>Het deelvenster Filters in de bewerkingsweergave
 Wanneer u over eigenaarsmachtigingen voor een rapport beschikt en het rapport opent in de leesweergave, hebben en het in de weergave bewerken Open, ziet u dat **Filters** slechts een van de vele beschikbare deelvensters is.
@@ -83,7 +83,7 @@ Selecteer een veld op het rapportcanvas om de rest van de pagina te filteren en 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
 
 ## <a name="next-steps"></a>Volgende stappen
-[Filters en markeringen gebruiken (in de leesweergave)](service-interact-with-a-report-in-reading-view.md)
+[Filters en markeringen gebruiken (in de leesweergave)](service-reading-view-and-editing-view.md)
 
 [Een filter aan een rapport toevoegen (in de bewerkingsweergave)](power-bi-report-add-filter.md)
 
@@ -93,5 +93,5 @@ Selecteer een veld op het rapportcanvas om de rest van de pagina te filteren en 
 
 Lees meer over [rapporten in Power BI](service-reports.md)
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/).
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

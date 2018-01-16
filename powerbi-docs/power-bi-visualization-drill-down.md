@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/18/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 83c63ee2bed5ae7674223cf2fc3f9241308926e9
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 22dc1c9b703b500625a5aed23b6187fd3f616dde
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="drill-down-in-a-visualization-in-power-bi"></a>Inzoomen op een visualisatie in Power BI
 ## <a name="drill-down-requires-a-hierarchy"></a>Voor inzoomen is een hiërarchie vereist
@@ -54,7 +54,7 @@ Er zijn twee verschillende manieren voor inzoomen (en uitzoomen) in uw visualisa
 ## <a name="method-1-for-drill-down"></a>Methode 1 voor inzoomen
 Deze methode maakt gebruik van de inzoompictogrammen die in de bovenste hoeken van de visualisatie zelf verschijnen.
 
-1. Open in Power BI een rapport in de [Leesweergave](service-report-open-in-reading-view.md) of [Bewerkweergave](service-reading-view-and-editing-view.md). Voor inzoomen is een visualisatie met een hiërarchie vereist. 
+1. Open in Power BI een rapport in de [Leesweergave of Bewerkweergave](service-reading-view-and-editing-view.md). Voor inzoomen is een visualisatie met een hiërarchie vereist. 
    
    Een hiërarchie wordt weergegeven in de onderstaande animatie.  De visualisatie heeft een hiërarchie die bestaat uit gebied, plaats, postcode en plaatsnaam. Elk gebied heeft één of meer steden, elke stad heeft één of meer postcodes, enzovoort. Standaard geeft de visualisatie alleen de gebiedsgegevens weer, omdat *Gebied* als eerste in de lijst voorkomt.
    
@@ -75,7 +75,7 @@ Deze methode maakt gebruik van de inzoompictogrammen die in de bovenste hoeken v
 ## <a name="method-2-for-drill-down"></a>Methode 2 voor inzoomen
 Deze methode maakt gebruik van de vervolgkeuzelijst **Verkennen** in de bovenste Power BI-menubalk.
 
-1. Open in Power BI een rapport in de [Leesweergave](service-report-open-in-reading-view.md) of [Bewerkweergave](service-reading-view-and-editing-view.md). Voor inzoomen is een visualisatie met een hiërarchie vereist. 
+1. Open in Power BI een rapport in de [Leesweergave of Bewerkweergave](service-reading-view-and-editing-view.md). Voor inzoomen is een visualisatie met een hiërarchie vereist. 
    
    Een hiërarchie wordt weergegeven in de onderstaande afbeelding.  De visualisatie heeft een hiërarchie die bestaat uit gebied, plaats, postcode en plaatsnaam. Elk gebied heeft één of meer steden, elke stad heeft één of meer postcodes, enzovoort. Standaard geeft de visualisatie alleen de gebiedsgegevens weer, omdat *Gebied* als eerste in de lijst voorkomt.
    
@@ -106,5 +106,5 @@ Deze methode maakt gebruik van de vervolgkeuzelijst **Verkennen** in de bovenste
 
 [Power BI - basisconcepten](service-basic-concepts.md)
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

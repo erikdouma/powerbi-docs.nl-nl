@@ -15,16 +15,23 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: f3e02da2c0e793f3eb334c39852f5cd23534ad3f
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 4f3441e2f933ee8964fc77e3166aeede97bcfba9
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Voor uw telefoon geoptimaliseerde Power BI-rapporten weergeven
-Wanneer u een Power BI-rapport in Power BI Desktop maakt, kunt u ook een versie van het [rapport maken die is geoptimaliseerd voor weergave in de Power BI-app op een telefoon](desktop-create-phone-report.md).
+
+Van toepassing op:
+
+| ![iPhone](media/mobile-apps-view-phone-report/ios-logo-40-px.png) | ![Android-telefoon](media/mobile-apps-view-phone-report/android-logo-40-px.png) |
+|:--- |:--- |
+| iPhones |Android-telefoons |
+
+Wanneer u een Power BI-rapport in Power BI Desktop maakt, kunt u ook [een versie van het rapport maken die is geoptimaliseerd voor weergave](desktop-create-phone-report.md) in de Power BI-app op een telefoon.
 
 Wanneer u een Power BI-rapport op een telefoon opent, detecteert Power BI vervolgens of het rapport is geoptimaliseerd voor telefoons. Vervolgens wordt het geoptimaliseerde rapport automatisch in staande weergave geopend.
 

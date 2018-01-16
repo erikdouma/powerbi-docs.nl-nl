@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 01/05/2018
 ms.author: asaxton
-ms.openlocfilehash: a4ceeda4d56853df42da8e5c644b3946878a89f0
-ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
+ms.openlocfilehash: 893f9a9b539b2facd62f74f8ecaebe42a4e7fcaa
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="whitepapers-for-power-bi"></a>Technische documenten voor Power BI
 
@@ -41,5 +41,6 @@ Met technische documenten kunt u Power BI-onderwerpen diepgaander verkennen. Hie
 | [Beveiliging](service-admin-power-bi-security.md) |Biedt een gedetailleerde beschrijving van de beveiliging in Power BI. |
 | [Het tabellarische model van BI Semantic beveiligen](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |In dit artikel wordt het beveiligingsmodel voor tabellarische BI Semantic en Power BI geïntroduceerd. U leert rollen maken, dynamische beveiliging implementeren, imitatie-instellingen configureren, rollen beheren en een methode kiezen om verbinding te maken met modellen die geschikt is voor uw netwerkbeveiligingscontext. |
 | [Richtlijnen voor capaciteitsplanning voor Power BI Report Server](report-server/capacity-planning.md) |Het doel van dit document is een leidraad te geven bij de capaciteitsplanning voor Power BI Report Server door het delen van de resultaten van talrijke belastingtests die met verschillende workloads op een rapportserver zijn uitgevoerd. |
-|[Planning en implementatie van Power BI Premium](https://aka.ms/Premium-Capacity-Planning-Deployment) | Technische whitepaper over de best practices en richtlijnen voor het plannen, implementeren en operationeel maken van Power BI Premium. 
+| [Planning en implementatie van Power BI Premium](https://aka.ms/Premium-Capacity-Planning-Deployment)| Het doel van dit document is een leidraad en aanbevolen procedures te geven bij het plannen en implementeren van Premium-capaciteit voor goedgedefinieerde workloads.|
+
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

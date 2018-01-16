@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/4/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 80a5a668056d1a3f3f2b53600e80f399be4a5e08
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 8a818c26a6f9afd134133464b972091faaad093d
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Een rapport filteren door queryreeksparameters in de URL te gebruiken
 Wanneer u een rapport in Power BI-service opent, heeft elke pagina van het rapport een eigen unieke URL. Als u deze rapportpagina wilt filteren, kunt u het deelvenster met filters gebruiken op het rapportcanvas.  Of u kunt queryreeksparameters toevoegen aan de URL om het rapport te filteren. Misschien hebt u een rapport dat u aan collega's wilt laten zien en u wilt het voor hen vooraf filteren. U kunt beginnen met de standaard-URL voor het rapport, de filterparameters toevoegen aan de URL en hen vervolgens via e-mail de volledige URL sturen.
@@ -41,7 +41,7 @@ URL?filter=***Tabel***/***Veld*** eq '***waarde***'
 * De naam van de **tabel** en het **veld** zijn hoofdlettergevoelig, de **waarde** is dat niet.
 * Velden die verborgen zijn in de rapportageweergave kunnen nog steeds worden gefilterd.
 * De **waarde** moet tussen enkele aanhalingstekens staan.
-* Het veldtype moet een tekenreeks zijn.
+* Het veldtype moet een getal of tekenreeks zijn
 * Tabel- en veldnamen mogen geen spaties bevatten.
 
 Als het nog steeds verwarrend voor u is, lees dan verder en we zullen het voor u uitsplitsen.  
@@ -108,7 +108,7 @@ In sommige gevallen kan dit handig zijn wanneer u verschillende resultaten wilt 
 Er zijn een aantal dingen waar u op moet letten bij het gebruik van queryreeksparameters.
 
 * Het filteren van een querytekenreeks werkt niet bij URL’s voor [Publiceren naar internet](service-publish-to-web.md) of Power BI Embedded.   
-* Het veldtype moet een tekenreeks zijn.
+* Het veldtype moet een getal of tekenreeks zijn.
 * Tabel- en veldnamen mogen geen spaties bevatten.
 
 ## <a name="next-steps"></a>Volgende stappen

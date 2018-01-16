@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/09/2017
-ms.author: asaxton
-ms.openlocfilehash: 4a8ea2acfcfe41192b82addfe52dbe67a0df8088
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.date: 01/04/2018
+ms.author: maghan
+ms.openlocfilehash: 1eaa549bf42c17cd2bd857efd4d50b991e862ea0
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Overzicht van het programma voor inhoudspakketten van de Power BI-service
 Een inhoudspakket is een set kant-en-klare elementen waarmee gebruikers direct inzicht kunnen krijgen vanuit een bron. Een inhoudspakket is doorgaans gericht op een specifiek zakelijk scenario om inzicht te bieden voor een functie, domein of workflow.
@@ -49,6 +49,7 @@ Als u een inhoudspakket wilt maken en indienen voor publicatie in de Power BI-se
 * U hebt een SaaS-toepassing die wordt gebruikt door zakelijke gebruikers.
 * Uw SaaS-toepassing bevat gebruikersgegevens die kunnen worden gevisualiseerd in Power BI.
 * Uw SaaS-toepassing heeft een API die toegankelijk is via het openbare internet. In het ideale geval is de API een op REST gebaseerde API of een OData-feed. Power BI-inhoudspakketten ondersteunen meerdere verificatietypen zoals basisverificatie, OAuth 2.0 en API-sleutel. 
+* Uw Saas-toepassing is goedgekeurd om een inhoudsnpakket te publiceren. Dien uw aanvraag in bij pbiservicesapps@microsoft.com. Elke inzending wordt beoordeeld op relevantie en verwacht gebruik. 
 * Ondertekende partnerovereenkomst. U doet dit in de [verzendingsstap](template-content-pack-testing.md#submission).
 
 Controleer de sectie [Ontwerpen](template-content-pack-authoring.md) voor meer informatie over de technische vereisten.

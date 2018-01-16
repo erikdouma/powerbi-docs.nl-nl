@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 6e1e74f26ab1d0a0a59bc33b9d1068807918e18e
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+ms.openlocfilehash: bebd31bbdbd2a571d565c6939199eedd7ecdb049
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - basisconcepten van de Power BI-service
 
@@ -95,7 +95,7 @@ U kunt gegevenssets vernieuwen, een andere naam geven, verkennen en verwijderen.
 ## <a name="reports"></a>Rapporten
 Een Power BI-rapport bestaat uit een of meer pagina's met visualisaties (grafieken en diagrammen zoals lijndiagrammen, cirkeldiagrammen treemaps en nog veel meer). Visualisaties worden ook wel ***visuals*** genoemd. Alle visualisaties in een rapport zijn afkomstig uit één gegevensset. U kunt compleet nieuwe rapporten maken in Power BI, rapporten importeren met dashboards die collega's met u hebben gedeeld, maar u kunt ook rapporten maken wanneer u verbinding maakt met gegevenssets in Excel, Power BI Desktop, databases, SaaS-toepassingen en [apps](service-get-data.md).  Als u bijvoorbeeld verbinding maakt met een Excel-werkmap die Power View-werkbladen bevat, wordt er een rapport in Power BI gemaakt op basis van die werkbladen. En als u verbinding met een SaaS-toepassing maakt, wordt er een vooraf samengestelde rapport in Power BI geïmporteerd.
 
-U kunt in twee modi met rapporten werken: in de [leesweergave](service-report-open-in-reading-view.md) en de [bewerkingsweergave](service-interact-with-a-report-in-editing-view.md).  Alleen de persoon die het rapport heeft gemaakt, mede-eigenaren en diegenen waaraan een machtiging is verleend, hebben toegang tot alle verken-, ontwerp- en deelmogelijkheden die in de ***bewerkingsweergave*** voor dat rapport worden geboden. De personen met wie het rapport wordt gedeeld, kunnen het rapport verkennen en gebruiken in de ***leesweergave***.   
+U kunt in twee modi met rapporten werken: in de [leesweergave en de bewerkingsweergave](service-reading-view-and-editing-view.md).  Alleen de persoon die het rapport heeft gemaakt, mede-eigenaren en diegenen waaraan een machtiging is verleend, hebben toegang tot alle verken-, ontwerp- en deelmogelijkheden die in de ***bewerkingsweergave*** voor dat rapport worden geboden. De personen met wie het rapport wordt gedeeld, kunnen het rapport verkennen en gebruiken in de ***leesweergave***.   
 
 Wanneer u een werkruimte opent, worden de bijbehorende rapporten vermeld op het tabblad **Rapporten**. Elk rapport dat wordt vermeld, vertegenwoordigt een of meer pagina's met visualisaties die zijn gebaseerd op een van de onderliggende gegevenssets. Selecteer een rapport om het te openen. 
 

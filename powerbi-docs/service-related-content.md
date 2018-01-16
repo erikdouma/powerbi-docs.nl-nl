@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 4610523d7c18246394974083c948b7bc018b4da1
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 692bcad734c2c011fc81fedf9fb8870d518cab06
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="view-related-content-in-power-bi-service"></a>Gerelateerde inhoud in Power BI-service bekijken
 In het deelvenster **Gerelateerde inhoud** ziet u hoe uw Power BI-service-inhoud -- dashboards, rapporten en gegevenssets -- onderling zijn verbonden.  En het wordt nog beter. Vanuit dit deelvenster kunt u gemeenschappelijke taken uitvoeren zoals vernieuwen, hernoemen, inzichten genereren, en nog veel meer. Selecteer een gerelateerd rapport of dashboard en het wordt geopend in uw Power BI-werkruimte.   
@@ -74,7 +74,7 @@ Selecteer in een werkruimte het tabblad **Rapporten** en selecteer vervolgens he
 <br>
 **Methode 2**
 
-Open het rapport in [Leesweergave](service-interact-with-a-report-in-reading-view.md) en selecteer ![](media/service-related-content/power-bi-view-related-new.png) in de bovenste menubalk.
+Open het rapport in [Leesweergave](service-reading-view-and-editing-view.md) en selecteer ![](media/service-related-content/power-bi-view-related-new.png) in de bovenste menubalk.
 
 Het deelvenster **Gerelateerde inhoud** wordt geopend. De bijbehorende gegevensset en alle dashboards waaraan minstens één tegel uit het rapport zijn vastgemaakt, worden weergegeven. Voor dit rapport zijn er visualisaties die zijn vastgemaakt aan 2 verschillende dashboards.
 
@@ -97,7 +97,7 @@ Vanaf hier kunt u direct met de gerelateerde inhoud aan de slag.  Selecteer bijv
 
 ## <a name="limitations-and-troubleshooting"></a>Beperkingen en probleemoplossing
 * Als uw browser niet genoeg ruimte heeft, ziet u geen optie voor **Gerelateerde items weergeven**, maar ziet u nog steeds het pictogram Gerelateerde items weergeven ![](media/service-related-content/power-bi-view-related-icon-new.png). Selecteer het pictogram om het deelvenster **Gerelateerde inhoud**  te openen.
-* Als u gerelateerde inhoud voor een rapport wilt openen, moet u in de [Leesweergave](service-interact-with-a-report-in-reading-view.md) zijn.
+* Als u gerelateerde inhoud voor een rapport wilt openen, moet u in de [Leesweergave](service-reading-view-and-editing-view.md) zijn.
 * Gerelateerde inhoud is niet beschikbaar in Power BI Desktop.
 * De functie Gerelateerde inhoud werkt niet voor het streamen van gegevenssets.
 

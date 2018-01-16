@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: 650e02ea7d6f31fce9e5a0a458c41d6daa3fa9e1
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 57c441c489bf71db4b45bdfb96821b3cc2dcdec3
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Instellingen voor de paginaweergave in een Power BI-rapport
 We begrijpen dat het essentieel is dat uw rapport perfect is ingedeeld. Dit kan lastig zijn omdat uw collega's dezelfde rapporten weergeven op schermen met verschillende verhoudingen en afmetingen. 
@@ -45,7 +45,7 @@ Open in de Power BI-service een rapport en selecteer **Weergeven** in de menubal
 
 ![](media/power-bi-report-display-settings/power-bi-change-page-view.png)
 
-Instellingen voor paginaweergave zijn beschikbaar voor zowel de [leesweergave](service-interact-with-a-report-in-reading-view.md) als de [bewerkingsweergave](service-interact-with-a-report-in-editing-view.md). De rapporteigenaar kan in de bewerkweergave instellingen voor paginaweergave toewijzen aan afzonderlijke rapportpagina's. Deze instellingen worden opgeslagen bij het rapport. Wanneer collega’s dat rapport openen in de leesweergave, worden de rapportpagina's weergegeven volgens de instellingen van de eigenaar.  In de leesweergave kunnen collega’s *een aantal* instellingen voor de paginaweergave wijzigen, maar de wijzigingen worden niet opgeslagen wanneer ze het rapport afsluiten.
+Instellingen voor paginaweergave zijn beschikbaar voor zowel de [leesweergave als de bewerkingsweergave](service-reading-view-and-editing-view.md). De rapporteigenaar kan in de bewerkweergave instellingen voor paginaweergave toewijzen aan afzonderlijke rapportpagina's. Deze instellingen worden opgeslagen bij het rapport. Wanneer collega’s dat rapport openen in de leesweergave, worden de rapportpagina's weergegeven volgens de instellingen van de eigenaar.  In de leesweergave kunnen collega’s *een aantal* instellingen voor de paginaweergave wijzigen, maar de wijzigingen worden niet opgeslagen wanneer ze het rapport afsluiten.
 
 ##    <a name="page-view-settings"></a>Instellingen voor paginaweergave
 De eerste set met instellingen voor *Paginaweergave* bepalen hoe de rapportpagina ten opzichte van het browservenster wordt weergegeven.  Kies tussen:

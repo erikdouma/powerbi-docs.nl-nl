@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/29/2017
 ms.author: mihart
-ms.openlocfilehash: 3710b8136a5f8f00d78047d9468dce0d6e68377f
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: da3d4359fab37d1c5ee5f9d214cc5dba0fa9b680
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Rondleiding door het deelvenster Filters van het rapport
 In dit artikel wordt het rapportvenster Filters diepgaand besproken. U ziet het venster voor Power BI-rapporten in Bewerkweergave en in Leesweergave.
@@ -29,7 +29,7 @@ In dit artikel wordt het rapportvenster Filters diepgaand besproken. U ziet het 
 Er zijn veel verschillende manieren om gegevens te filteren in Power BI. Wij raden u aan om te beginnen met het lezen van [Filters en markeren](power-bi-reports-filters-and-highlighting.md).
 
 ## <a name="working-with-filters"></a>Werken met filters
-Rapporten kunnen worden geopend in de [Bewerkweergave](service-interact-with-a-report-in-editing-view.md) of [Leesweergave](service-interact-with-a-report-in-reading-view.md). In de Bewerkweergave kunnen rapporteigenaren [ filters toevoegen aan een rapport](power-bi-report-add-filter.md), en deze filters worden opgeslagen bij het rapport. Mensen die het rapport bekijken in de Leesweergave kunnen de filters gebruiken, maar kunnen wijzigingen in de filters niet opslaan in het rapport.
+Rapporten kunnen worden geopend in de [Bewerkweergave of Leesweergave](service-reading-view-and-editing-view.md). In de Bewerkweergave kunnen rapporteigenaren [ filters toevoegen aan een rapport](power-bi-report-add-filter.md), en deze filters worden opgeslagen bij het rapport. Mensen die het rapport bekijken in de Leesweergave kunnen de filters gebruiken, maar kunnen wijzigingen in de filters niet opslaan in het rapport.
 
 ## <a name="filters-in-reading-view"></a>Filters in Leesweergave
 Wanneer een rapport is geopend in de Leesweergave, wordt het deelvenster Filters rechts van het rapportcanvas weergegeven. Als u het deelvenster niet ziet, selecteert u de pijl in de rechterbovenhoek om het uit te vouwen.
@@ -122,12 +122,12 @@ Als de veldwaarden datums of tijden vertegenwoordigen, kunt u een begin-/eindtij
 
 ## <a name="next-steps"></a>Volgende stappen
 [Filters en markeren in rapporten](power-bi-reports-filters-and-highlighting.md)  
-[Interact with filters and highlighting in report Reading View](service-interact-with-a-report-in-reading-view.md) (Werken met filters en markeringen in de leesweergave voor rapporten)  
+[Interact with filters and highlighting in report Reading View](service-reading-view-and-editing-view.md) (Werken met filters en markeringen in de leesweergave voor rapporten)  
 [Filters maken in de Bewerkweergave van rapporten](power-bi-report-add-filter.md)  
 [Change how report visuals cross-filter and cross-highlight each other](service-reports-visual-interactions.md) (Wijzigen hoe visuele rapportelementen elkaar kruislings filteren en markeren)
 
 Lees meer over [rapporten in Power BI](service-reports.md)  
 [Power BI - basisconcepten](service-basic-concepts.md)
 
-Nog vragen? [Probeer de Power BI-community](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 
