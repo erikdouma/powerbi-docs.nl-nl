@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 01/10/2018
 ms.author: mihart
-ms.openlocfilehash: e2f1ca5abf05c92e76497d7b50600e6ef12e03fc
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+ms.openlocfilehash: 2994e61407bd858792e73019472cd6752abb401d
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Vrijwel alles verwijderen in de Power BI-service
 In dit artikel leert u hoe u een dashboard, rapport, rapportpagina, werkmap, gegevensset, app en werkruimte verwijdert in de Power BI-service.
@@ -141,7 +141,7 @@ Als u een app verwijdert van de pagina met uw app-lijst, wordt de app niet verwi
 In dit artikel hebben we beschreven hoe u de belangrijkste bouwstenen van de Power BI-service verwijdert. Maar er zijn meer dingen die u in Power BI kunt verwijderen.  
 
 * [Uw aanbevolen dashboard verwijderen](service-dashboard-featured.md#change-the-featured-dashboard)
-* [Een dashboard verwijderen (uit uw favorieten)](service-dashboard-favorite.md#unfavorite-a-dashboard)
+* [Een dashboard verwijderen (uit uw favorieten)](service-dashboard-favorite.md)
 * [Een rapportpagina verwijderen](service-delete.md)
 * [Een dashboardtegel verwijderen](service-dashboard-edit-tile.md)
 * [Een visualisatie van een rapport verwijderen](service-delete.md)
