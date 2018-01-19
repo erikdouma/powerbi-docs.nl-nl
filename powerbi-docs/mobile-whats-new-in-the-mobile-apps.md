@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/04/2018
+ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: b2df6825232f51a53bada3676faf598d6bc5d70b
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: 9ed87e17d617e7492287f3f0d0c54da1c21b3a53
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -31,6 +31,11 @@ Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mog
 * [What's new in the Power BI service](service-whats-new.md) (Wat is er nieuw in de Power BI-service)  
 
 ## <a name="december-2017"></a>December 2017
+
+### <a name="improved-security-management"></a>Verbeterd beveiligingsbeheer 
+
+Ondersteuning voor voorwaardelijke toegang (CA) en Microsoft Intune Mobile Device Management (MDM) is op Android-apparaten toegevoegd zodat u de gegevens van uw organisatie beter kunt beveiligen. Deze functie is al beschikbaar op iOS.
+
 ### <a name="improved-permission-management"></a>Verbeterd beheer van machtigingen
 
 Er zijn enkele wijzigingen aangebracht die zorgen voor nauwkeuriger beheer van gebruikersmachtigingen voor gegevenssets, dashboards en rapporten.

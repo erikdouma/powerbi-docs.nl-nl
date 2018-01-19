@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/12/2017
+ms.date: 01/10/2018
 ms.author: davidi
-ms.openlocfilehash: 48ba3e679214283875abe27d06032fee20598347
-ms.sourcegitcommit: be55922d7f43f458aea0160ec8fdfb1a0b5a0c00
+ms.openlocfilehash: 2a65b8b895d6461efa29290dbd9d09639358678d
+ms.sourcegitcommit: a44c29bbc220ecb1ed80810cb1e7df0db8ea611a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Eerdere maandelijkse updates voor Power BI Desktop
 
@@ -32,10 +32,9 @@ In de volgende secties wordt aandacht besteed aan de updates van de afgelopen ma
 U kunt altijd [de nieuwste versie van Power BI Desktop downloaden](https://powerbi.microsoft.com/desktop). Als u met Windows 10 werkt, kunt u **Power BI Desktop** ook downloaden uit de Windows Store. De maandelijkse versies zijn hetzelfde, ongeacht de manier waarop u **Power BI Desktop** installeert. Zie [dit artikel](desktop-get-the-desktop.md) voor meer informatie. 
 
 
+## <a name="december-2017-update-2534954481-"></a>Update december 2017 (2.53.4954.481)
 
-## <a name="november-2017-update-2524921202"></a>Update november 2017 (2.52.4921.202)
-
-Er is in november een hele vracht aan updates voor **Power BI Desktop**. 
+In december vond u een groot aantal updates voor **Power BI Desktop** onder de kerstboom, boordevol functies voor iedereen die gek is op business intelligence.
 
 De koppelingen naast de verschillende updates betekenen het volgende:
 
@@ -46,7 +45,62 @@ De koppelingen naast de verschillende updates betekenen het volgende:
 
 U kunt ook de video **Meest recente updates** in dit artikel vanaf het begin bekijken, door te klikken op het pictogram **Afspelen** op de videoafbeelding onder de lijst met updates.
 
-De volgende updates zijn deze maand nieuw voor **Power BI Desktop**:
+De volgende updates zijn in december uitgekomen voor **Power BI Desktop**:
+
+### <a name="reporting"></a>Rapportage
+
+-   Q&A voor het maken van rapporten [[video]](https://youtu.be/ZPU8B-1BxjI?t=8s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#QandA) 
+-   Cross-markering voor bladwijzers [[video]](https://youtu.be/ZPU8B-1BxjI?t=4m18s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkCrossHighlighting) 
+-   Meer flexibiliteit voor bladwijzers [[video]](https://youtu.be/ZPU8B-1BxjI?t=4m18s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkFlexibility) 
+-   Deelvenster Veldeigenschappen en veldbeschrijvingen [[video]](https://youtu.be/ZPU8B-1BxjI?t=13m19s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#fieldPropertiesPane) 
+-   Visual van de spreiding van de x- en y-asgroeperingen [[video]](https://youtu.be/ZPU8B-1BxjI?t=15m12s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#scatterChart) 
+-   High densitysampling voor kaarten op basis van de breedtegraad en lengtegraad [[video]](https://youtu.be/ZPU8B-1BxjI?t=17m3s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#highDensityMaps) 
+-   Responsieve slicers [[video]](https://youtu.be/sI3yRjdnJ7w?t=20m9s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#responsive) 
+-   Onlangs uitgebrachte aangepaste visuals [[video]](https://youtu.be/ZPU8B-1BxjI?t=18m25s)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#customVisuals) 
+
+
+### <a name="analytics"></a>Analyse
+
+-   Filters inzoomen op andere visuele elementen [[video]](https://youtu.be/ZPU8B-1BxjI?t=28m53s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals) 
+
+
+### <a name="data-connectivity"></a>Toegang tot gegevens
+
+-   Adobe Analytics-connector [[video]](https://youtu.be/ZPU8B-1BxjI?t=30m35s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#AdobeAnalytics) 
+-   HDInsight Interactive Query-connector [[video]](https://youtu.be/ZPU8B-1BxjI?t=31m13s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#HDInsightInteractiveQuery) 
+-   Data.World-connector [[video]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#Data.World) 
+-   Verbeteringen voor SAP BW-connector [[video]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#SAPBW) 
+-   De IBM Netezza-connector is nu algemeen beschikbaar [[video]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#IBMNetezza) 
+
+
+
+> [!NOTE]
+> U kunt ook [alle gegevensbronnen bekijken die beschikbaar zijn voor Power BI Desktop](desktop-data-sources.md). Deze lijst blijft groeien, dus kom geregeld terug.
+
+Wilt u meer informatie over deze updates? Bekijk de [blogpost](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/), waar meer informatie over elk van deze nieuwe functies wordt gegeven (dit is dezelfde blogpost waarnaar in de bovenstaande lijst wordt verwezen).
+
+In de volgende video wordt elk van deze updates beschreven en weergegeven. U ziet ook de video uit de blogpost.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZPU8B-1BxjI" frameborder="0" allowfullscreen></iframe>
+
+> [!NOTE]
+> Wellicht bent u ook geïnteresseerd in [wat er nieuw is in de Power BI-service](service-whats-new.md). Lees ook [wat er nieuw is in de mobiele apps voor Power BI](mobile-whats-new-in-the-mobile-apps.md).
+
+
+## <a name="november-2017-update-2524921202"></a>Update november 2017 (2.52.4921.202)
+
+Er is in november een hele vracht aan updates voor **Power BI Desktop** uitgebracht. 
+
+De koppelingen naast de verschillende updates betekenen het volgende:
+
+-   **[video]**-fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
+-   Sommige functies hebben een **[artikel]** dat meer informatie biedt.
+-   De meeste functies worden beschreven in de maandelijkse update **[blog]**-post.
+-   Sommige functies behoeven geen uitleg en hebben geen artikel of video nodig.
+
+U kunt ook de video **Meest recente updates** in dit artikel vanaf het begin bekijken, door te klikken op het pictogram **Afspelen** op de videoafbeelding onder de lijst met updates.
+
+De volgende updates zijn in november uitgekomen voor **Power BI Desktop**:
 
 ### <a name="reporting"></a>Rapportage
 

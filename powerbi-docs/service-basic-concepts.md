@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 01/10/2018
 ms.author: mihart
-ms.openlocfilehash: bebd31bbdbd2a571d565c6939199eedd7ecdb049
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: be245be7c8f83cb363e93a5d2bc452418f436e37
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - basisconcepten van de Power BI-service
 
@@ -88,7 +88,7 @@ Als u [deel uitmaakt van een ***app-werkruimte***](service-collaborate-power-bi-
 U kunt gegevenssets vernieuwen, een andere naam geven, verkennen en verwijderen. U kunt een gegevensset gebruiken om een nieuw rapport maken of door [snelle inzichten](service-insights.md) uit te voeren.  Als u wilt zien welke rapporten en dashboards al een gegevensset gebruiken, selecteert u **Verwante items weergeven**. Selecteer een gegevensset om deze te verkennen In werkelijkheid opent de gegevensset in de rapporteditor, waar u de gegevens echt kunt doorspitten en visualisaties kunt maken. Laten we doorgaan met het volgende onderwerp: rapporten.
 
 ### <a name="dig-deeper"></a>Dieper graven
-* [Wat is Power BI Premium?](service-premium.md)
+* [Power BI Premium - wat is het?](service-premium.md)
 * [Gegevens ophalen voor Power BI](service-get-data.md)
 * [Voorbeeldgegevenssets voor Power BI](sample-datasets.md)
 
@@ -238,6 +238,7 @@ Dit gedeelte van het scherm bevat aanvullende opties voor interactie met de inho
 
 ## <a name="next-steps"></a>Volgende stappen
 [Aan de slag met Power BI](service-get-started.md)  
+[Navigatie: waar staat wat in Power BI-service](service-the-new-power-bi-experience.md)
 [Power BI-video's](videos.md)  
 [De rapporteditor... Een rondleiding](service-the-report-editor-take-a-tour.md)
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 01/11/2018
 ms.author: asaxton
-ms.openlocfilehash: 8c703b93e87ad32ab3f730979292b85a86fd53c0
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 86d7a7fae9437bca3c116fb12ccf439339c1f0c0
+ms.sourcegitcommit: e623f8e5f715bd40a049b6448ca57b80de998cb4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/13/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application"></a>Een Power BI-dashboard, -tegel of -rapport in uw toepassing insluiten
 Informatie over het integreren of insluiten van een dashboard, een tegel of een rapport in een web-app met behulp van de Power BI .NET-SDK en de Power BI JavaScript API voor uw klanten. Dit is meestal het ISV-scenario.
@@ -125,6 +125,9 @@ Report report = reports.Value.FirstOrDefault();
 ### <a name="create-the-embed-token"></a>Het insluittoken maken
 U moet een insluittoken genereren dat kan worden gebruikt vanuit de JavaScript API. Het insluittoken heeft alleen betrekking op het item dat is ingesloten. Dit betekent dat u een nieuw insluittoken moet maken voor elk stukje Power BI-inhoud dat u wilt insluiten. Zie [GenerateToken API](https://msdn.microsoft.com/library/mt784614.aspx) voor meer informatie, onder andere over welk **accessLevel** u moet gebruiken.
 
+> [!IMPORTANT]
+> Omdat insluitingstokens alleen voor ontwikkelingstesten zijn bedoeld, kan een Power BI-masteraccount een onbeperkt aantal insluitingstokens genereren. Er moet een [capaciteit moet worden aangeschaft](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) voor insluitingsscenario's voor de productie. Het aantal te genereren insluitingstokens is onbeperkt wanneer een capaciteit is aangeschaft.
+
 Een voorbeeld hiervan is beschikbaar in **Controllers\HomeController.cs** van het [Voorbeeld voor insluiten voor uw organisatie](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
 
 Hierbij wordt ervan uitgegaan dat er een klasse wordt gemaakt voor **EmbedConfig** en **TileEmbedConfig**. Er is een voorbeeld van deze items beschikbaar in **Models\EmbedConfig.cs** en **Models\TileEmbedConfig.cs**.
@@ -186,6 +189,8 @@ var embedConfig = new EmbedConfig()
     Id = report.Id
 };
 ```
+
+
 
 ## <a name="step-4---load-an-item-using-javascript"></a>Stap 4: een item laden met JavaScript
 U kunt JavaScript gebruiken om een dashboard te laden in een div-element op uw webpagina. Het voorbeeld maakt gebruik van een EmbedConfig/TileEmbedConfig-model en weergaven van een dashboard, de tegel of het rapport. Voor een volledig voorbeeld van het gebruik van de JavaScript API kunt u het [Voorbeeld van Microsoft Power BI Embedded](https://microsoft.github.io/PowerBI-JavaScript/demo) gebruiken.

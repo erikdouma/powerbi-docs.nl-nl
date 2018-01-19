@@ -1,7 +1,7 @@
 ## <a name="requirements"></a>Vereisten
 **Minimale vereisten**
 
-* .NET 4.5 Framework
+* .NET 4.6 Framework
 * 64-bits versie van Windows 7 of Windows Server 2008 R2 (of hoger)
 
 **Aanbevolen:**

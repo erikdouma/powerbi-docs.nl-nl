@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/11/2017
+ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: 27ead0a3104693aff4a6fc3c2641c207ad44dc09
-ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
+ms.openlocfilehash: 89c376451199aec0a6f464f3298df44d468f37d2
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Apps maken en publiceren met dashboards en rapporten in Power BI
 
@@ -53,12 +53,7 @@ Als maker van apps hebt u een licentie voor Power BI Pro nodig. Voor uw app-gebr
 
 U kunt collega's als leden of beheerders toevoegen aan deze werkruimten. Alle leden en beheerders van de app-werkruimte hebben Power BI Pro-licenties nodig. In de werkruimte kan iedereen samenwerken aan dashboards, rapporten en andere artikelen die u wilt publiceren naar een breder publiek of zelfs uw hele organisatie. 
 
-Als de inhoud klaar is, publiceert u de app. U kunt een directe koppeling naar een breder publiek verzenden, of ze kunnen uw app vinden op het tabblad Apps door naar **Download and explore more apps from AppSource** (Meer apps downloaden en verkennen vanuit AppSource) te gaan. Deze mensen kunnen de inhoud van de app niet wijzigen, maar ze kunnen wel bepaalde acties uitvoeren in de Power BI-service of een van de mobiele apps: filteren, markeren en de gegevens sorteren. 
-
-### <a name="how-are-app-workspaces-different-from-group-workspaces"></a>Hoe verschillen app-werkruimten van groepswerkruimten?
-Alle bestaande groepswerkruimten kunnen als app-werkruimten fungeren, en u kunt apps vanuit al deze werkruimten publiceren. App-werkruimten en groepswerkruimten verschillen wel op één punt: u maakt een app-werkruimte als een plaats voor het maken en opslaan van een specifieke app. Er is een een-op-eenrelatie tussen de app en de inhoud van de app-werkruimte. Alles dat in de app-werkruimte staat, staat in de app wanneer u deze publiceert. 
-
-Nu u apps en app-werkruimten begrijpt, kunnen we een app maken en publiceren. 
+Wanneer de inhoud klaar is, kunt u kiezen welke dashboards en rapporten u wilt publiceren. Vervolgens publiceert u de app. U kunt een directe koppeling naar een breder publiek verzenden, of ze kunnen uw app vinden op het tabblad Apps door naar **Download and explore more apps from AppSource** (Meer apps downloaden en verkennen vanuit AppSource) te gaan. Deze mensen kunnen de inhoud van de app niet wijzigen, maar ze kunnen wel bepaalde acties uitvoeren in de Power BI-service of een van de mobiele apps: filteren, markeren en de gegevens sorteren. 
 
 ## <a name="create-an-app-workspace"></a>Een app-werkruimte maken
 [!INCLUDE [powerbi-service-create-app-workspace](./includes/powerbi-service-create-app-workspace.md)]

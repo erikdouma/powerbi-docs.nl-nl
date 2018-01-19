@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/21/2017
+ms.date: 01/10/2018
 ms.author: davidi
-ms.openlocfilehash: c00281d6b9e8a75df3b08cf1f99d0c9357129816
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: a90926d14289ff0a904f29b7b43f70aa2cbc3130
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Kerberos gebruiken voor eenmalige aanmelding (SSO) van Power BI naar on-premises gegevensbronnen
 Door uw on-premises gegevensgateway te configureren met Kerberos kunt u connectiviteit met naadloze eenmalige aanmelding bewerkstelligen, zodat Power BI rapporten en dashboards kan bijwerken van uw on-premises gegevens. De on-premises gegevensgateway vergemakkelijkt eenmalige aanmelding (SSO) met behulp van DirectQuery, waarmee de gateway verbinding maakt met on-premises gegevensbronnen.
@@ -63,11 +63,15 @@ Hier vindt u aanvullende informatie over deze stappen:
 
 
 > [!NOTE]
-> Om eenmalige aanmelding in te schakelen voor SAP HANA, dient u de volgende twee HANA-specifieke configuratiecorrecties toe te passen voor SAP:
->    1. Werk de SAP HANA-server bij met de SAP HANA Patch 122.13, vrijgegeven door SAP aan het einde van oktober 2017. 
+> Om eenmalige aanmelding in te schakelen voor SAP HANA, dient u ervoor te zorgen dat aan de volgende twee HANA-specifieke configuraties zijn voldaan voor SAP:
+>    1. Zorg ervoor dat op de SAP HANA-server versie 2.00.022* of hoger/later wordt uitgevoerd. 
 >    2. Installeer op de gatewaycomputer het meest recente HANA ODBC-stuurprogramma van SAP.  De minimaal vereiste versie is HANA ODBC versie 2.00.020.00, vrijgegeven in augustus 2017.
+>
+> De volgende koppelingen naar patches en upgrades van SAP kunnen nuttig zijn. Houd er rekening mee dat u zich moet aanmelden bij de volgende bronnen met behulp van uw SAP-ondersteuningsaccount en dat SAP deze koppelingen kan wijzigen of bijwerken.
 > 
-
+> * [HANA 2 SPS 01 Rev 012.03](https://launchpad.support.sap.com/#/notes/2557386) 
+> * [HANA 2 SPS 02 Rev 22](https://launchpad.support.sap.com/#/notes/2547324) 
+> * [HANA 1 SP 12 Rev 122.13](https://launchpad.support.sap.com/#/notes/2528439)
 
 
 ## <a name="errors-from-an-insufficient-kerberos-configuration"></a>Fouten als gevolg van een incorrecte Kerberos-configuratie
@@ -203,7 +207,7 @@ Raadpleeg de volgende bronnen voor meer informatie over de **on-premises gegeven
 
 * [On-premises gegevensgateway](service-gateway-onprem.md)
 * [DirectQuery in Power BI](desktop-directquery-about.md)
-* [Gegevensbronnen die worden ondersteund door DirectQuery](desktop-directquery-data-sources.md)
+* [Data sources supported by DirectQuery](desktop-directquery-data-sources.md) (Gegevensbronnen die worden ondersteund door DirectQuery)
 * [DirectQuery en SAP BW](desktop-directquery-sap-bw.md)
 * [DirectQuery en SAP HANA](desktop-directquery-sap-hana.md)
 

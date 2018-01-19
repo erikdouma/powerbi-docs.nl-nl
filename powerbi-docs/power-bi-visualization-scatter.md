@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 17073390cf19b742730712a8d39a353c7d541cd6
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 44c248d1a99a10c69b3fb7c78e68320fdc5cd2b2
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Spreidingsdiagrammen en bellendiagrammen in Power BI (zelfstudie)
 Een spreidingsdiagram heeft altijd twee waardeassen, waarbij een reeks numerieke gegevens op een horizontale as en een andere reeks numerieke waarden op de verticale as wordt weergegeven. In het diagram worden punten weergegeven op het snijpunt van een numerieke x- en y-waarde, waarbij deze waarden in één gegevenspunt worden gecombineerd. Deze gegevenspunten kunnen, afhankelijk van de gegevens, gelijkmatig of ongelijkmatig over de horizontale as zijn verdeeld.
@@ -75,6 +75,14 @@ We hebben nu een spreidingsdiagram die Afwijking van totale verkoop in % op de y
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 3. U kunt desgewenst [de kleuren, labels, titels, achtergrond en meer van het visuele element wijzigen](service-getting-started-with-color-formatting-and-axis-properties.md).
+
+## <a name="accessibility"></a>Toegankelijkheid
+
+U kunt uw spreidingsdiagram of bellengrafiek toegankelijker maken voor mensen met beperkingen met behulp van *Vormen van markeringen*. 
+
+Als u de markeringsvorm wilt selecteren, kiest u het gedeelte **Indeling** in het deelvenster **Visualisaties**. Vouw het gedeelte **Vormen** uit en selecteer een markeringsvorm.
+
+![Vorm van markering](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 ### <a name="your-scatter-chart-has-only-one-data-point"></a>**Uw spreidingsdiagram heeft slechts één gegevenspunt**

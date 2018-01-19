@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/19/2017
+ms.date: 01/11/2018
 ms.author: asaxton
-ms.openlocfilehash: 76435200df843acc4ba60ebab09633aa8f5c258d
-ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
+ms.openlocfilehash: e614273c21dd5c222816700f0d42888e661ba1e0
+ms.sourcegitcommit: e623f8e5f715bd40a049b6448ca57b80de998cb4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/13/2018
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Dashboards, rapporten en tegels van Power BI insluiten
 
@@ -138,7 +138,10 @@ Als u inhoud voor uw klanten wilt insluiten, moet u het volgende doen.
 * Als u een afzonderlijke tenant voor ontwikkeling gebruikt, moet u ervoor zorgen dat de app-werkruimten, dashboards en rapporten beschikbaar zijn in uw productieomgeving. Maak de toepassing voor uw productietenant in Azure AD en wijs de juiste app-machtigingen toe, zoals aangegeven in stap 1.
 * Koop de capaciteit die past bij uw behoeften. Raadpleeg de onderstaande tabel om te zien welke Power BI Embedded-capaciteit of SKU u waarschijnlijk nodig hebt. Zie [Technisch document over Embedded-capaciteitsplanning](https://aka.ms/pbiewhitepaper) voor meer informatie. Wanneer u tot aanschaf wilt overgaan, kunt u dat doen in de [Microsoft Azure Portal](https://portal.azure.com). Zie [Power BI Embedded-capaciteit maken in Azure Portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity) voor meer informatie over het maken van Power BI Embedded-capaciteit.
 
-| Capaciteit knooppunt | Totaal aantal cores<br/>*(back-end + front-end)* | Back-endcores | Front-endcores | Limieten voor DirectQuery/liveverbindingen | Maximum aantal pagina's (rendering) tijdens piekuren |
+> [!IMPORTANT]
+> Omdat insluitingstokens alleen voor ontwikkelingstesten zijn bedoeld, kan een Power BI-masteraccount een onbeperkt aantal insluitingstokens genereren. Er moet een [capaciteit moet worden aangeschaft](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) voor insluitingsscenario's voor de productie. Het aantal te genereren insluitingstokens is onbeperkt wanneer een capaciteit is aangeschaft.
+
+| Capaciteitsknooppunt | Totaal aantal cores<br/>*(back-end + front-end)* | Back-endcores | Front-endcores | Limieten voor DirectQuery/liveverbindingen | Maximum aantal pagina's (rendering) tijdens piekuren |
 | --- | --- | --- | --- | --- | --- |
 | A1 |1 v-core |0,5 core, 3 GB RAM |0,5 core | 5 per seconde |1-300 |
 | A2 |2 v-cores |1 core, 5 GB RAM |1 core | 10 per seconde |301-600 |
@@ -152,6 +155,8 @@ Als u inhoud voor uw klanten wilt insluiten, moet u het volgende doen.
     ![App-werkruimte toewijzen aan capaciteit](media/embedding-content/powerbi-embedded-premium-capacity.png)
 
 * Implementeer uw bijgewerkte toepassing naar productie en begin met het insluiten van Power BI-dashboards en rapporten.
+
+
 
 ## <a name="admin-settings"></a>Beheerdersinstellingen
 

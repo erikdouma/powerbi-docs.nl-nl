@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/11/2017
 ms.author: tankas
-ms.openlocfilehash: ced415662c2dc39b6491cb79d121f3cd77719fe4
-ms.sourcegitcommit: be55922d7f43f458aea0160ec8fdfb1a0b5a0c00
+ms.openlocfilehash: deff79bba0f7f191a8343629300c725f3150e509
+ms.sourcegitcommit: a44c29bbc220ecb1ed80810cb1e7df0db8ea611a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Wijzigingenlogboek voor Power BI Report Server
 
@@ -32,6 +32,13 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerd
 ## <a name="october-2017"></a>Oktober 2017
 
 - **Power BI Report Server**
+    - *Versie 1.1.6582.41691 (build 14.0.600.442), uitgebracht: 10 januari 2018*
+        - Beveiligingsupdates
+        - Opgeloste fouten
+            - Oplossing voor Model.GetParameters met 400 geretourneerd
+            - Oplossing voor het instellen van gedeelde gegevensset voor bestaande gepagineerde rapporten (RDL)
+            - Oplossing voor ExecutionNotFoundException wanneer het rapport met andere parameterwaarden naar PDF wordt geëxporteerd
+
     - *Versie 1.1.6551.5155 (build 14.0.600.438), uitgebracht: 11 december 2017*
         - Opgeloste fouten
             - Fout bij opslaan van gegevens na het vernieuwen van bepaalde Power BI Desktop-rapporten.
@@ -61,6 +68,9 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerd
             - Verbeterde toegankelijkheid
 
 - **Power BI Report (geoptimaliseerd voor Power BI Report Server)**
+    - *Versie: 2.51.4885.2501 (oktober 2017), uitgebracht: 10 januari 2018*
+        - Beveiligingsupdates
+
     - *Versie: 2.51.4885.1423 (oktober 2017), uitgebracht: 17 november 2017*
         - Opgeloste fouten
             - Oplossing voor het probleem dat de 32-bits versie van Power BI Desktop niet kan worden uitgevoerd op x86-besturingssystemen.
@@ -74,6 +84,9 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerd
 ## <a name="june-2017"></a>Juni 2017
 
 - **Power BI Report Server**
+    - *Build 14.0.600.309, uitgebracht: 10 januari 2018*
+        - Beveiligingsupdates
+
     - *Build 14.0.600.305, uitgebracht: 19 September 2017*  
         - Opgeloste fouten
             - Update naar de nieuwste [webbesturingselement voor Bing Kaarten](https://msdn.microsoft.com/library/mt712542.aspx)
@@ -87,6 +100,10 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerd
 
     - *Build 14.0.600.271, uitgebracht: 12 juni 2017*
         - Eerste release van Power BI Report Server
+
+- **Power BI Report (geoptimaliseerd voor Power BI Report Server)**
+    - *Versie: 2.47.4766.4901 (juni 2017), uitgebracht: 10 januari 2018*
+        - Beveiligingsupdates
 
 ## <a name="next-steps"></a>Volgende stappen
 

@@ -1,6 +1,6 @@
 ---
-title: Dashboards weergeven in de mobiele Power BI-apps
-description: Maak dashboards in de Power BI-service of maak er verbinding mee. Geef ze vervolgens weer in de mobiele Power BI-apps.
+title: Dashboards en rapporten weergeven in de mobiele Power BI-apps
+description: Maak dashboards en rapporten in de Power BI-service of maak er verbinding mee. Geef ze vervolgens weer in de mobiele Power BI-apps.
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,15 +15,15 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/18/2017
+ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: 07a514f5d5c5046f8046bb231aef941f201a829b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: e91b9745663ad88d388b410feb83ac8dfdc791b6
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/17/2018
 ---
-# <a name="view-your-dashboards-in-the-power-bi-mobile-apps"></a>Uw dashboards weergeven in de mobiele Power BI-apps
+# <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Dashboards en rapporten weergeven in de mobiele Power BI-apps
 Van toepassing op:
 
 | ![iPhone](media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Android-telefoon](media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Android-tablet](media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | ![Windows 10-apparaten](media/mobile-apps-view-dashboard/win-10-logo-50-px.png) |
@@ -35,10 +35,10 @@ Dashboards zijn een verzamelplek voor de levenscyclus en processen van uw bedrij
 ## <a name="create-dashboards-in-the-power-bi-service-httpspowerbicom"></a>Dashboards maken in de Power BI-service (https://powerbi.com)
 **U kunt geen dashboards maken in de mobiele apps.** 
 
-Als u dashboards wilt bekijken op uw mobiele apparaat, moet u ze eerst maken in uw webbrowser of hiermee verbinding maken. 
+Als u dashboards en rapporten wilt bekijken op uw mobiele apparaat, moet u ze eerst maken in uw webbrowser of hiermee verbinding maken. 
 
 1. Ga naar de Power BI-service ([https://www.powerbi.com](https://www.powerbi.com)) en [registreer een account](service-self-service-signup-for-power-bi.md).
-2. [Maak uw eigen Power BI-dashboards](service-dashboard-create.md) of maak verbinding met bestaande [inhoudspakketten voor diverse services](service-connect-to-services.md).
+2. [Maak uw eigen Power BI-dashboards en -rapporten](service-get-started.md), of maak verbinding met bestaande [Power BI-apps](service-connect-to-services.md) voor tal van services, zoals [Microsoft Dynamics CRM](service-connect-to-microsoft-dynamics-crm.md) en [Adobe Analyics](service-connect-to-adobe-analytics.md).
 
 Hier ziet u een Power BI-dashboard in de Power BI-service:
 
@@ -213,5 +213,5 @@ Meer informatie over [het maken van een telefoonweergave van een dashboard](serv
 * [Download de Android-app](http://go.microsoft.com/fwlink/?LinkID=544867) via Google play  
 * [Aan de slag met de Android-app voor Power BI](mobile-android-app-get-started.md)  
 * [Aan de slag met Power BI](service-get-started.md)
-* Vragen? [Misschien dat de Power Bi-community het antwoord weet](http://community.powerbi.com/)
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

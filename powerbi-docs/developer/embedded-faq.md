@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 01/15/2018
 ms.author: asaxton
-ms.openlocfilehash: 5f884c9c45627ee3c129daca77e38d17f1223909
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: aa4401a6c913d38e471f83b88fec351308d25870
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Veelgestelde vragen over Power BI Embedded
 
@@ -56,6 +56,10 @@ De aanbeveling van Microsoft is dat ondernemingen Power BI Premium kopen, een ho
 
 Er zijn misschien enkele situaties waarin een ISV (meestal groot) een P-SKU wil gebruiken om te beschikken over de extra voordelen van de vooraf verpakte Power BI-service binnen hun organisatie, maar ook elementen wil insluiten in hun toepassingen. En natuurlijk kunnen sommige ondernemingen besluiten om te kiezen voor A-SKU's in Azure als ze alleen geïnteresseerd zijn in het bouwen van LoB-toepassingen (Line-of-Business) met ingesloten analytische gegevens en niet zijn geïnteresseerd in het gebruik van de vooraf verpakte Power BI-service.
 
+### <a name="how-many-embed-tokens-can-i-create"></a>Hoeveel insluitingstokens kan ik maken?
+
+Insluitingstokens met een PRO-licentie zijn bedoeld voor ontwikkelingstesten, dus een Power BI-masteraccount kan maar een beperkt aantal insluitingstokens genereren. U moet [een capaciteit aanschaffen](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) voor het insluiten van items in een productieomgeving. Wanneer u een capaciteit hebt aangeschaft, kunt u een onbeperkt aantal insluitingstokens genereren.
+
 ### <a name="when-will-power-bi-embedded-be-available-in-azure"></a>Wanneer komt Power BI Embedded beschikbaar in Azure?
 
 Power BI Embedded is nu beschikbaar.
@@ -87,6 +91,12 @@ Hier volgt een (niet volledige) lijst met verschillen tussen de versies.
 |Facturering |Per uur |Per maand |Per maand |
 |Min. periode  |Geen minimumperiode |Jaar  |Maand/jaar |
 |Differentiatie |Volledige elasticiteit: omhoog/omlaag schalen, resources onderbreken/hervatten in Azure-portal of via API  |Kan worden gebruikt voor het insluiten van inhoud in SharePoint Online en Microsoft Teams |Insluiten in toepassingen combineren met het gebruik van de Power BI-service in dezelfde capaciteit |
+
+### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Wat zijn de vereisten voor het maken van een PBIE-capaciteit in Azure?
+
+- U moet zich aanmelden bij uw bedrijfsdirectory (MSA-accounts worden niet ondersteund).
+- U moet een Power BI-tenant hebben; dat wil zeggen dat ten minste één gebruiker in uw directory moet zijn aangemeld bij Power BI. 
+- U moet een Azure-abonnement hebben in uw bedrijfsdirectory.
 
 ### <a name="how-can-i-monitor-capacity-consumption"></a>Hoe kan ik het capaciteitsverbruik controleren?
 
@@ -130,7 +140,7 @@ Het verbruik van Power BI Embedded wordt in uren gemeten.
 
 ### <a name="how-does-the-usage-of-power-bi-embedded-show-up-on-my-bill"></a>Hoe wordt het gebruik van Power BI Embedded weergegeven op mijn factuur?
 
-De facturering voor Power BI Embedded vindt plaats volgens een voorspelbaar uurtarief op basis van het geïmplementeerde type knooppunt (of typen knooppunten).
+De facturering voor Power BI Embedded vindt plaats volgens een voorspelbaar uurtarief op basis van het geïmplementeerde type knooppunt (of typen knooppunten). Houd er rekening dat er kosten in rekening worden gebracht zolang uw bron actief is, ook als u hier geen gebruik van maakt. U moet uw bron actief onderbreken als u niet meer wilt worden gefactureerd. U kunt de bron onderbreken via Azure of ARM API's.
 
 ### <a name="what-happens-if-i-already-purchased-power-bi-premium-and-now-i-want-some-of-the-benefits-of-power-bi-embedded-in-azure"></a>Wat gebeurt er als ik Power BI Premium al heb gekocht en ik nu in Azure wil beschikken over enkele voordelen van Power BI Embedded?
 

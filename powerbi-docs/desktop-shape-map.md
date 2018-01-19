@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 01/16/2018
 ms.author: davidi
-ms.openlocfilehash: 772b1959433b3ba8a4d76ac04103f5a479546d0d
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 258962cbc9ea60b31676a1bcfb10f7906c6e0f74
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Shape-kaarten in Power BI Desktop (preview)
 In Power BI Desktop maakt u een **Shape-kaart**-visual om relatieve vergelijkingen van regio's op een kaart te laten zien door verschillende kleuren op verschillende regio's toe te passen. In tegenstelling tot de **kaart** -visual, kan **Shape Map** geen nauwkeurige geografische locaties van gegevenspunten op een kaart weergeven. In plaats daarvan is het belangrijkste doel het weergeven van relatieve vergelijkingen van regio's op een kaart door ze een andere kleur te geven.
 
-Visuals van **Shape Map** zijn gebaseerd op ESRI/TopoJSON-kaarten die de mogelijkheid bieden om gebruik te maken van aangepaste kaarten die u kunt maken, zoals geografische kaarten, overzichten van zitplaatsen, verdiepingsplattegronden, enzovoort. De mogelijkheid om aangepaste kaarten te gebruiken is niet opgenomen in deze Preview-versie van **Shape Map**, maar het gebruik van aangepaste kaarten wordt ingeschakeld zodra deze functie uit de Preview komt, hetgeen naar verwachting in de volgende maandelijkse Power BI Desktop-update zal zijn.
+Visuals van **Shape Map** zijn gebaseerd op ESRI/TopoJSON-kaarten die de mogelijkheid bieden om gebruik te maken van aangepaste kaarten die u kunt maken, zoals geografische kaarten, overzichten van zitplaatsen, verdiepingsplattegronden, enzovoort. De mogelijkheid om aangepaste toewijzigen te gebruiken is niet beschikbaar in deze voorbeeldrelease van **Shape Map**.
 
 ## <a name="creating-shape-maps"></a>Shape-kaarten maken
 U kunt het **Shape Map**-besturingselement testen met de kaarten die bij deze Preview-versie worden geleverd of u kunt uw eigen aangepaste kaart gebruiken, zolang deze voldoet aan de vereisten die worden beschreven in de volgende sectie, **Aangepaste kaarten gebruiken**.
@@ -95,8 +95,9 @@ U kunt een nieuwe kolom invoeren door een nieuwe kolomnaam te typen (in de lege 
 Er zijn enkele overwegingen en vereisten voor deze Preview-versie van **Shape Map**:
 
 * De **Shape Map**-visual is in Preview en moet worden ingeschakeld in Power BI Desktop. U kunt **Shape Map** inschakelen door **Bestand > Opties en instellingen > Opties > Preview-functies** te selecteren en het selectievakje **Shape Map** in te schakelen.
-* Ook de **Waarden**-bucket moet nu zijn ingesteld zodat de **Legenda**-classificatie goed werkt. We verwachten dat dit gedrag verbeterd zal zijn in de definitieve versie van **Shape Map**.
-* De releaseversie van **Shape Map** wordt voorzien van een gebruikersinterface waarin de kaartsleutels van de geselecteerde kaart worden weergegeven. In deze Preview kunt u verwijzen naar de sleutels voor de kaartregio’s in de tabellen die te vinden zijn in de volgende sectie van dit artikel, **Regiosleutels**.
+* Ook de **Waarden**-bucket moet nu zijn ingesteld zodat de **Legenda**-classificatie goed werkt
+* De uiteindelijke releaseversie van **Shape Map** wordt voorzien van een gebruikersinterface waarin de kaartsleutels van de geselecteerde kaart worden weergegeven (er is geen datum ingesteld voor de uiteindelijke release en **Shape Map** bevindt zich nog in de previewfase); in deze previewrelease kunt u verwijzen naar de sleutels voor de kaartregio’s in de tabellen die te vinden zijn in de volgende sectie van dit artikel, **Regiosleutels**.
+* De visual **Shape Map** brengt maximaal 1000 gegevenspunten aan in de tekening.
 
 ## <a name="region-keys"></a>Regiosleutels
 Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te testen.

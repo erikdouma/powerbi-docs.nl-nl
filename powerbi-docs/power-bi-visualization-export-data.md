@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/19/2017
+ms.date: 01/10/2018
 ms.author: mihart
-ms.openlocfilehash: 2e5f72b0eb2507f8d2c7df7fc8a57817bb6ce79f
-ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
+ms.openlocfilehash: 1df7eb485ac9b9de1007cc2fccbf8141ee4fdcc1
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="export-data-from-visualizations"></a>Gegevens uit visualisaties exporteren
 Als u de gegevens wilt zien die gebruikt worden om een visualisatie te maken, kunt u die [gegevens weergeven in Power BI](service-reports-show-data.md) of exporteren naar Excel als .xlsx- of .csv-bestand.   
@@ -46,7 +46,7 @@ Kijk hoe Will de gegevens van een van de visualisaties in zijn rapport exporteer
 ## <a name="from-a-visualization-in-a-report"></a>Vanuit een visualisatie in een rapport
 Als u mee wit doen, opent u het rapport [Procurement analysis sample](sample-procurement.md) (Voorbeeld van een inkoopanalyse) in de [Bewerkingsweergave](service-reading-view-and-editing-view.md). [Voeg een nieuwe, lege rapportpagina toe](power-bi-report-add-page.md). Volg vervolgens onderstaande stappen om een aggregatie en een filter op visualisatieniveau toe te voegen.
 
-1. Maak een nieuw kolomdiagram.  Selecteer in het deelvenster Velden **Locatie > Plaats** en **Factuur > Kortingspercentage**.   
+1. Maak een nieuw kolomdiagram.  Selecteer in het deelvenster Velden **Locatie > Plaats** en **Factuur > Kortingspercentage**.  Mogelijk moet u **Kortingspercentage** verplaatsen naar de Waarde-put. 
    
     ![](media/power-bi-visualization-export-data/power-bi-export-data3.png)
 2. Wijzig de aggregatie voor **Kortingspercentage** van **Aantal** in **Gemiddelde**. Selecteer in de Waarde-put de pijl rechts van **Kortingspercentage** (er staat mogelijk **Aantal kortingspercentage**) en kies **Gemiddelde**.
