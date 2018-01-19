@@ -94,7 +94,7 @@
           href: service-admin-premium-manage.md
         - name: Ondersteuning voor grotere gegevenssets
           href: service-premium-large-datasets.md
-        - name: Veelgestelde vragen over Power BI
+        - name: Veelgestelde vragen over Power BI Premium
           href: service-premium-faq.md
         - name: Opmerking bij de release van Power BI Premium
           href: service-premium-release-notes.md
@@ -266,26 +266,36 @@
           href: service-data-classification.md
     - name: Vragen stellen over uw gegevens
       items:
-        - name: Q&A in Power BI
-          href: service-q-and-a.md
-        - name: De Q&A-functie van Power BI gebruiken
-          href: service-how-to-q-and-a.md
-        - name: 'Zelfstudie: Aan de slag met de Q&A-functie van Power BI'
-          href: power-bi-visualization-introduction-to-q-and-a.md
-        - name: Q&A gebruiken voor gegevens van Power BI Gateway - Enterprise (preview)
-          href: service-q-and-a-direct-query.md
-        - name: Uw gegevens geschikt maken voor Q&A in Power BI
-          href: service-prepare-data-for-q-and-a.md
-        - name: Inleiding tot Cortana voor Power BI
-          href: service-cortana-intro.md
-        - name: Cortana inschakelen voor Power BI
-          href: service-cortana-enable.md
-        - name: Aanbevolen vragen voor Q&A-functie van Power BI maken
-          href: service-q-and-a-create-featured-questions.md
-        - name: Tips en trucs voor het stellen van vragen met de Q&A-functie in Power BI
-          href: service-q-and-a-tips.md
-        - name: Problemen met Cortana oplossen
-          href: service-cortana-troubleshoot.md
+        - name: Overzicht
+          items:
+            - name: Q&A in Power BI
+              href: power-bi-q-and-a.md
+            - name: Inleiding tot Cortana voor Power BI
+              href: service-cortana-intro.md
+        - name: Snelstartgids
+          items:
+            - name: Aan de slag met Power BI Q&A
+              href: power-bi-visualization-introduction-to-q-and-a.md
+        - name: Zelfstudies
+          items:
+            - name: Q&A gebruiken om visualisaties en rapporten te maken
+              href: power-bi-tutorial-q-and-a.md
+        - name: Procedures
+          items:
+            - name: Q&A gebruiken voor gegevens van Power BI Gateway - Enterprise (preview)
+              href: service-q-and-a-direct-query.md
+            - name: Uw gegevens geschikt maken voor Q&A in Power BI
+              href: service-prepare-data-for-q-and-a.md
+            - name: Cortana inschakelen voor Power BI
+              href: service-cortana-enable.md
+            - name: Aanbevolen vragen voor Q&A-functie van Power BI maken
+              href: service-q-and-a-create-featured-questions.md
+        - name: Resources
+          items:
+            - name: Tips en trucs voor het stellen van vragen met de Q&A-functie in Power BI
+              href: service-q-and-a-tips.md
+            - name: Problemen met Cortana oplossen
+              href: service-cortana-troubleshoot.md
     - name: Uw werk delen
       items:
         - name: Hoe kan ik samenwerken aan en dashboards en rapporten en deze delen?
