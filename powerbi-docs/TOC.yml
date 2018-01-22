@@ -524,6 +524,8 @@
           href: service-gateway-onprem.md
         - name: On-premises gegevensgateway - uitgebreid
           href: service-gateway-onprem-indepth.md
+        - name: Clusters met hoge beschikbaarheid voor on-premises gegevensgateway
+          href: service-gateway-high-availability-clusters.md
         - name: Veelgestelde vragen over on-premises gegevensgateways
           href: service-gateway-onprem-faq.md
         - name: On-premises gegevensgateway (persoonlijke modus)
@@ -766,6 +768,10 @@
           href: desktop-quick-measures.md
         - name: Wat-als-parameters gebruiken
           href: desktop-what-if.md
+        - name: Drillthrough gebruiken
+          href: desktop-drillthrough.md
+        - name: Een relatieve datumslicer en -filter gebruiken
+          href: desktop-slicer-filter-date-range.md
         - name: Toegankelijkheid in Power BI-rapporten
           href: desktop-accessibility.md
         - name: Groeperen en binning gebruiken
