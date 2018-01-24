@@ -113,7 +113,7 @@ Selecteer de koppeling en selecteer vervolgens **Uitvoeren** om het installatiep
     Set-MsolCompanySettings -AllowEmailVerifiedUsers $true
 
 > [!NOTE]
-> Deze blokkering voorkomt dat nieuwe gebruikers in uw organisatie zich registreren voor Power BI. Gebruikers die zich registreren voor Power BI voordat nieuwe registraties voor uw organisatie worden uitgeschakeld, behouden hun licentie. Zie het gedeelte [How Can I Remove Licenses?] (Hoe verwijder ik licenties?) voor instructies over hoe u toegang tot Power BI kunt verwijderen voor gebruikers die zich eerder voor de service hebben geregistreerd.
+> Deze blokkering voorkomt dat nieuwe gebruikers in uw organisatie zich registreren voor Power BI. Gebruikers die zich registreren voor Power BI voordat nieuwe registraties voor uw organisatie worden uitgeschakeld, behouden hun licentie. Zie het gedeelte [How Can I Remove Licenses?] \(Hoe verwijder ik licenties?) voor instructies over hoe u toegang tot Power BI kunt verwijderen voor gebruikers die zich eerder voor de service hebben geregistreerd.
 > 
 > 
 
