@@ -192,7 +192,7 @@ Wanneer u een item in de lijst selecteert, kunt u ervoor kiezen deze opnieuw te 
 
 ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names-entry-selected.png)
 
-### <a name="using-wildcard-"></a>Jokertekens (*) gebruiken
+### <a name="using-wildcard-"></a>Jokertekens (\*) gebruiken
 U kunt een jokerteken gebruiken in uw tekenreeks voor **Vervangen (Oorspronkelijke naam)**. Deze kan alleen los worden gebruikt, niet in combinatie met een ander deel van een tekenreeks. Hierdoor kunt u voor alle gebruikers een enkele waarde doorgeven aan de gegevensbron. Dit is handig als u wilt dat alle gebruikers in uw organisatie dezelfde gebruiker gebruiken in uw lokale omgeving.
 
 ### <a name="test-a-mapping-rule"></a>Een toewijzingsregel testen
