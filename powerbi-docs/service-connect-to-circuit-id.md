@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: ecbcccfbbece8255494c78220a81de62b3ddcc40
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 295d8dbd24c9ae6bce84cb76f6a5e23e7474b893
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-circuit-id-with-power-bi"></a>Verbinding maken met Circuit-ID met Power BI
 Het analyseren van uw communicatiegegevens van Circuit ID is eenvoudig met Power BI. Power BI haalt uw gegevens op en bouwt vervolgens een standaard dashboard en gerelateerde rapporten op basis van die gegevens. Nadat u de verbinding hebt gemaakt, kunt u uw gegevens verkennen en het dashboard geheel naar wens aanpassen. Gegevens worden elke dag automatisch vernieuwd.
@@ -29,7 +29,7 @@ Het analyseren van uw communicatiegegevens van Circuit ID is eenvoudig met Power
 Verbinding maken met het [Circuit ID-inhoudspakket](https://app.powerbi.com/getdata/services/circuitid) voor Power BI.
 
 ## <a name="how-to-connect"></a>Verbinding maken
-1. Selecteer **Gegevens ophalen** onderin het linker navigatievenster.
+1. Selecteer **Gegevens ophalen** onder in het linkernavigatievenster.
    
     ![](media/service-connect-to-circuit-id/getdata.png)
 2. Selecteer in het vak **Services** de optie **Ophalen**.
@@ -47,8 +47,8 @@ Verbinding maken met het [Circuit ID-inhoudspakket](https://app.powerbi.com/getd
 
 **Wat nu?**
 
-* [Stel vragen in het vak Q&A](service-q-and-a.md) bovenin het dashboard
-* [De tegels wijzigen](service-dashboard-edit-tile.md) in het dashboard.
+* [Stel vragen in het vak Q&A](power-bi-q-and-a.md) boven in het dashboard.
+* [Wijzig de tegels](service-dashboard-edit-tile.md) in het dashboard.
 * [Selecteer een tegel](service-dashboard-tiles.md) om het onderliggende rapport te openen.
 * Als uw gegevensset is ingesteld op dagelijks vernieuwen, kunt u het vernieuwingsschema wijzigen of de gegevensset handmatig vernieuwen met **Nu vernieuwen**
 

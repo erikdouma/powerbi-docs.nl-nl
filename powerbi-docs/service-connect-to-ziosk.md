@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 0f4cd7166334338e4b19586c189fd363c5b7c934
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: b508019eaebe6851909594a8a6174ad5f8c969a1
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-ziosk-survey-analytics-with-power-bi"></a>Verbinding maken met Ziosk Survey Analytics via Power BI
 Het Ziosk Survey Analytics-inhoudspakket biedt restaurants met Ziosk-tablets ongeëvenaarde toegang tot inzichten geleverd door Ziosk-onderzoeksgegevens, inclusief segmentering per dag, locatie, werknemer en meer.
@@ -29,7 +29,7 @@ Het Ziosk Survey Analytics-inhoudspakket biedt restaurants met Ziosk-tablets ong
 Maak verbinding met het [Ziosk Survey Analytics-inhoudspakket](https://app.powerbi.com/getdata/services/ziosk-survey-analytics) voor Power BI.
 
 ## <a name="how-to-connect"></a>Verbinding maken
-1. Selecteer **Gegevens ophalen** linksonder in het navigatievenster.  
+1. Selecteer **Gegevens ophalen** onder in het linkernavigatievenster.  
    
     ![](media/service-connect-to-ziosk/getdata.png)
 2. Selecteer in het vak **Services** de optie **Ophalen**.  
@@ -49,10 +49,10 @@ Maak verbinding met het [Ziosk Survey Analytics-inhoudspakket](https://app.power
 
 **Wat nu?**
 
-* [Stel vragen in het vak Q&A](service-q-and-a.md) boven in het dashboard
+* [Stel vragen in het vak Q&A](power-bi-q-and-a.md) boven in het dashboard.
 * [Wijzig de tegels](service-dashboard-edit-tile.md) in het dashboard.
 * [Selecteer een tegel](service-dashboard-tiles.md) om het onderliggende rapport te openen.
-* Als uw gegevensset is ingesteld op dagelijks vernieuwen, kunt u het vernieuwingsschema wijzigen of de gegevensset handmatig vernieuwen met **Nu vernieuwen**
+* Als uw gegevensset is ingesteld op dagelijks vernieuwen, kunt u het vernieuwingsschema wijzigen of de gegevensset handmatig vernieuwen met **Nu vernieuwen**.
 
 ## <a name="whats-included"></a>Wat is inbegrepen?
 Het inhoudspakket bevat gegevens uit de volgende tabellen:  

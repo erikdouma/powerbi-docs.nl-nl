@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: d052bc054e55eabfab53ad3b1ac9229f0a750785
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: e26a26d7cba2ae3d68586a2e0dcdf87481009bd6
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-azure-security-center-with-power-bi"></a>Verbinding maken met het Azure Security Center via Power BI
 Verkrijg inzicht in de beveiliging van uw Azure-workload door met Power BI verbinding te maken van Azure Security-gegevens. Power BI maakt automatisch een dashboard en rapport op basis van de gegevens van uw Azure Security Center zodat u de gegevens kunt analyseren en verkennen.
@@ -29,7 +29,7 @@ Verkrijg inzicht in de beveiliging van uw Azure-workload door met Power BI verbi
 Verbinding maken met het [inhoudspakket van Azure Security Center](https://app.powerbi.com/getdata/services/azure-security-center) voor Power BI.
 
 ## <a name="how-to-connect"></a>Verbinding maken
-1. Selecteer **Gegevens ophalen** linksonder in het navigatievenster.
+1. Selecteer **Gegevens ophalen** onder in het linkernavigatievenster.
    
    ![](media/service-connect-to-azure-security-center/getdata.png)
 2. Selecteer in het vak **Services** de optie **Ophalen**.
@@ -50,10 +50,10 @@ Verbinding maken met het [inhoudspakket van Azure Security Center](https://app.p
 
 **Wat nu?**
 
-* [Stel vragen in het vak Q&A](service-q-and-a.md) boven in het dashboard
+* [Stel vragen in het vak Q&A](power-bi-q-and-a.md) boven in het dashboard.
 * [Wijzig de tegels](service-dashboard-edit-tile.md) in het dashboard.
 * [Selecteer een tegel](service-dashboard-tiles.md) om het onderliggende rapport te openen.
-* Als uw gegevensset is ingesteld op dagelijks vernieuwen, kunt u het vernieuwingsschema wijzigen of de gegevensset handmatig vernieuwen met **Nu vernieuwen**
+* Als uw gegevensset is ingesteld op dagelijks vernieuwen, kunt u het vernieuwingsschema wijzigen of de gegevensset handmatig vernieuwen met **Nu vernieuwen**.
 
 ## <a name="whats-included"></a>Wat is inbegrepen
 Het inhoudspakket bevat inzichten met betrekking tot de status, de waarschuwingsanalyse en de preventieanalyse voor bronbeveiliging.

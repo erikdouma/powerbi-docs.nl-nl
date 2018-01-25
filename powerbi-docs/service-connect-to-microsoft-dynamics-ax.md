@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: f942c0551a473140903e2fce19feba641a62e5a2
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 38b9233bda842877b4c8c16df2904f5fe8b1966d
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-microsoft-dynamics-ax-content-pack-with-power-bi"></a>Verbinding met het Microsoft Dynamics AX-inhoudspakket maken via Power BI
 Microsoft Dynamics AX bevat drie Power BI-inhoudspakketten die zijn bedoeld voor verschillende zakelijke gebruikers. Het inhoudspakket Financiële prestaties is specifiek ontworpen voor CFO's en biedt inzicht in de financiële prestaties van uw organisatie. Het inhoudspakket Afzetkanaalprestaties is bedoeld voor kanaalmanagers en bevat informatie over de verkoopprestaties om trends te voorspellen en inzichten aan het licht te brengen door rechtstreeks gebruik te maken van de retailgegevens en commerciële gegevens. Het inhoudspakket Kostenbeheer is ontworpen voor COO's en CFO's en bevat gedetailleerde informatie over de operationele prestaties.
@@ -52,10 +52,10 @@ Maak verbinding met een van de volgden Microsoft Dynamics AX-inhoudspakketten vo
 
 **Wat nu?**
 
-* [Stel vragen in het vak Q&A](service-q-and-a.md) boven in het dashboard
+* [Stel vragen in het vak Q&A](power-bi-q-and-a.md) boven in het dashboard.
 * [Wijzig de tegels](service-dashboard-edit-tile.md) in het dashboard.
 * [Selecteer een tegel](service-dashboard-tiles.md) om het onderliggende rapport te openen.
-* Als uw gegevensset is ingesteld op dagelijks vernieuwen, kunt u het vernieuwingsschema wijzigen of de gegevensset handmatig vernieuwen met **Nu vernieuwen**
+* Als uw gegevensset is ingesteld op dagelijks vernieuwen, kunt u het vernieuwingsschema wijzigen of de gegevensset handmatig vernieuwen met **Nu vernieuwen**.
 
 ## <a name="whats-included"></a>Wat is inbegrepen?
 Het inhoudspakket maakt gebruik van de OData-feed van Dynamics AX 7 om de gegevens te importeren met betrekking tot de afzetkanaalprestaties, de financiële prestaties of het kostenbeheer.

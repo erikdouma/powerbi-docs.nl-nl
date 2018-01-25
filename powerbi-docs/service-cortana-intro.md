@@ -11,13 +11,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/13/2017
+ms.date: 01/13/2018
 ms.author: mihart
-ms.openlocfilehash: d64ab6b9a94171c99eb0956efce89f59b5174d41
-ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
+ms.openlocfilehash: 648880925f343032c24cda612da58ef2fdadcf80
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Uw Power BI-gegevens snel vinden en weergeven met Cortana voor Power BI
 Gebruik Cortana op uw Windows 10-apparaten om direct antwoord te krijgen op uw belangrijke zakelijke vragen. Door de integratie met Power BI kan Cortana belangrijke gegevens rechtstreeks ophalen uit Power BI-dashboards en -rapporten. U hebt alleen maar Windows 10, versie november 2015 of later, Cortana, Power BI en toegang tot minimaal één gegevensset nodig.
@@ -70,7 +70,7 @@ Als uw dashboard een titel heeft die uit meer dan één woord bestaat, retournee
 ### <a name="cortana-and-reports"></a>Cortana en rapporten
  Cortana kan antwoorden vinden in rapporten met [pagina's die speciaal zijn ontworpen voor weergave door Cortana](service-cortana-answer-cards.md). Stel eenvoudig vragen door de titel of trefwoorden uit een van deze speciale rapportpagina's te gebruiken.  
 
-De onderliggende technologie voor rapporten maakt gebruik van [Power BI Q&A van Microsoft](service-q-and-a.md).
+De onderliggende technologie voor rapporten maakt gebruik van [Power BI Q&A van Microsoft](power-bi-q-and-a.md).
 
 Wanneer u een vraag stelt in Cortana, beantwoordt Power BI die vraag aan de hand van rapportpagina's die speciaal zijn ontworpen voor Cortana. Mogelijke antwoorden worden door Cortana direct bepaald aan de hand van de Cortana-*antwoordkaarten* die al zijn gemaakt in Power BI.  Als u een antwoord verder wilt bestuderen, opent u eenvoudig een resultaat in Power BI.
 

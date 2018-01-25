@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: fc0c8bc1ea177e20c25a614ed1de274f70056578
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 09bd84fc320b550ccdaa0771f747a19bc1003150
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-vmob-with-power-bi"></a>Verbinding maken met VMob via Power BI
 Uw VMob-gegevens opsporen en bekijken is eenvoudig met Power BI en het inhoudspakket van VMob. De volgende gegevens worden opgehaald door Power BI: gebruikersstatistieken, ongelimiteerd en van de afgelopen 30 dagen, KPI’s detailhandel van de afgelopen 30 dagen en campagneprestaties van de afgelopen 30 dagen.
@@ -29,7 +29,7 @@ Uw VMob-gegevens opsporen en bekijken is eenvoudig met Power BI en het inhoudspa
 Maak verbinding met het [VMob-inhoudspakket](https://app.powerbi.com/getdata/services/vmob) voor Power BI.
 
 ## <a name="how-to-connect"></a>Verbinding maken
-1. Selecteer **Gegevens ophalen** linksonder in het navigatievenster.
+1. Selecteer **Gegevens ophalen** onder in het linkernavigatievenster.
    
     ![](media/service-connect-to-vmob/getdata.png)
 2. Selecteer in het vak **Services** de optie **Ophalen**.
@@ -50,7 +50,7 @@ Maak verbinding met het [VMob-inhoudspakket](https://app.powerbi.com/getdata/ser
 
 **Wat nu?**
 
-* [Stel vragen in het vak Q&A](service-q-and-a.md) boven in het dashboard
+* [Stel vragen in het vak Q&A](power-bi-q-and-a.md) boven in het dashboard.
 * [Wijzig de tegels](service-dashboard-edit-tile.md) in het dashboard.
 * [Selecteer een tegel](service-dashboard-tiles.md) om het onderliggende rapport te openen.
 * Als uw gegevensset is ingesteld op dagelijks vernieuwen, kunt u het vernieuwingsschema wijzigen of de gegevensset handmatig vernieuwen met **Nu vernieuwen**

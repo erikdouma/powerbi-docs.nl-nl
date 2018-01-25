@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 39c3fd776e3aed821c7c10c1e905d7400ca64efd
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 9e19246d6caa8111ab4e61b5dc8fd6207ea1099e
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-microsoft-azure-enterprise-with-power-bi"></a>Verbinding maken met Microsoft Azure Enterprise met Power BI
 Verken en bewaak uw Microsoft Azure Enterprise-gegevens in Power BI met het Power BI-inhoudspakket. De gegevens worden eenmaal per dag automatisch vernieuwd.
@@ -41,7 +41,7 @@ Maak verbinding met het [Microsoft Azure Enterprise-inhoudspakket](https://app.p
 4. Geef de URL van de Azure-omgeving, het aantal maanden van de gegevens die u wilt importeren en uw Azure Enterprise-inschrijvingsnummer op. De URL van uw Azure-omgeving is `https://ea.azure.com` of `https://ea.windowsazure.cn`. Zie details over [het vinden van deze parameters](#FindingParams) hieronder.
    
     ![](media/service-connect-to-azure-enterprise/params.png)
-5. Geef uw toegangssleutel op om verbinding te maken. De sleutel voor uw inschrijving vindt u in uw Azure EA-portal.
+5. Geef uw toegangscode op om verbinding te maken. De code voor uw inschrijving vindt u in uw Azure EA-portal.
    
     ![](media/service-connect-to-azure-enterprise/creds.png)
 6. Het importproces wordt automatisch gestart. Nadat het importeren is voltooid, bevat het navigatiedeelvenster een nieuw dashboard, rapport en model. Selecteer het dashboard om uw geïmporteerde gegevens weer te geven.
@@ -50,21 +50,21 @@ Maak verbinding met het [Microsoft Azure Enterprise-inhoudspakket](https://app.p
 
 **Wat nu?**
 
-* [Stel vragen in het vak Q&A](service-q-and-a.md) bovenin het dashboard
-* [Wijzig de tegels ](service-dashboard-edit-tile.md) in het dashboard.
+* [Stel vragen in het vak Q&A](power-bi-q-and-a.md) boven in het dashboard.
+* [Wijzig de tegels](service-dashboard-edit-tile.md) in het dashboard.
 * [Selecteer een tegel](service-dashboard-tiles.md) om het onderliggende rapport te openen.
-* Als uw gegevensset is ingesteld op dagelijks vernieuwen, kunt u het vernieuwingsschema wijzigen of de gegevensset handmatig vernieuwen met **Nu vernieuwen**
+* Als uw gegevensset is ingesteld op dagelijks vernieuwen, kunt u het vernieuwingsschema wijzigen of de gegevensset handmatig vernieuwen met **Nu vernieuwen**.
 
 ## <a name="whats-included"></a>Wat is opgenomen
 Het Azure Enterprise-inhoudspakket bevat maandelijkse rapportagegegevens voor het bereik van de maanden die u tijdens de verbindingsprocedure opgeeft. Het bereik is een zwevend venster, zodat de opgenomen datums worden bijgewerkt zodra de gegevensset wordt vernieuwd.
 
 ## <a name="system-requirements"></a>Systeemvereisten
-Voor het inhoudspakket is toegang vereist tot de bedrijfsfuncties binnen de Azure-portal.
+Voor het inhoudspakket is toegang vereist tot de Enterprise-functies van Azure Portal.
 
 <a name="FindingParams"></a>
 
 ## <a name="finding-parameters"></a>Parameters zoeken
-Power BI-rapportage is beschikbaar voor EA Direct, partners en indirecte klanten die geen factuurgegevens kunnen bekijken. Lees de sectie hieronder voor meer informatie over het vinden van elk van de waarden die de verbindingsstroom verwacht.
+Power BI-rapportage is beschikbaar voor EA Direct, partners en indirecte klanten die factuurgegevens kunnen bekijken. Lees de sectie hieronder voor meer informatie over het vinden van elk van de waarden die de verbindingsstroom verwacht.
 
 **URL van de Azure-omgeving**
 
@@ -74,23 +74,23 @@ Power BI-rapportage is beschikbaar voor EA Direct, partners en indirecte klanten
 
 **Aantal maanden**
 
-* Dit moet een getal zijn tussen 1-36 dat het aantal maanden van gegevens (vanaf vandaag) aangeeft dat u wilt importeren.
+* Dit moet een getal zijn tussen 1-36 dat het aantal maanden (vanaf vandaag) aangeeft waarvoor u gegevens wilt importeren.
 
-I**nschrijvingsnummer**
+**Enrollment Number**
 
-* Dit is het Azure Enterprise-inschrijvingsnummer dat u op het startscherm kunt vinden van de [Azure Enterprise-portal](https://ea.azure.com/) onder Inschrijvingsdetails.
+* Dit is het inschrijvingsnummer voor Azure Enterprise, dat u kunt vinden op het beginscherm van de [Azure Enterprise-portal](https://ea.azure.com/), onder Enrollment Detail.
   
     ![](media/service-connect-to-azure-enterprise/params2.png)
 
-**Toegangssleutel**
+**Access Key**
 
-* Uw sleutel vindt u in de Azure Enterprise-portal onder Gebruiksgegevens downloaden > API-toegangssleutel
+* Uw code vindt u in de Azure Enterprise-portal, onder Download Usage > API Access Key.
   
     ![](media/service-connect-to-azure-enterprise/creds2.png)
 
-**Aanvullende Help**
+**Aanvullende informatie**
 
-* Voor extra hulp bij het instellen van het Azure Enterprise Power BI-pakket kunt u inloggen op de Azure Enterprise-portal om het API-helpbestand te bekijken onder Help en aanvullende instructies onder Rapporten -> Gebruiksgegevens downloaden -> API-toegangssleutel.
+* Voor extra hulp bij het instellen van het Azure Enterprise Power BI-pakket kunt u inloggen op de Azure Enterprise-portal om het API-helpbestand te bekijken onder Help en aanvullende instructies onder Reports -> Download Usage -> API Access Key.
 
 ## <a name="next-steps"></a>Volgende stappen
 [Aan de slag in Power BI](service-get-started.md)

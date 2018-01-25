@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: d88e10b4ee2e76444fccec0edabddd2a123d6b62
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 95673e25b373f6878ba87098fa8e37625f6c4996
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-windows-dev-center-with-power-bi"></a>Verbinding met Windows-ontwikkelaarscentrum maken via Power BI
 Verken en bewaak de analytische gegevens van uw Windows-ontwikkelaarscentrum-app in Power BI met het Power BI-inhoudspakket. De gegevens wordt een keer per dag automatisch vernieuwd.
@@ -29,7 +29,7 @@ Verken en bewaak de analytische gegevens van uw Windows-ontwikkelaarscentrum-app
 Maak verbinding met het [inhoudspakket van Windows-ontwikkelaarscentrum](https://app.powerbi.com/getdata/services/devcenter) voor Power BI.
 
 ## <a name="how-to-connect"></a>Verbinding maken
-1. Selecteer **Gegevens ophalen** linksonder in het navigatievenster.
+1. Selecteer **Gegevens ophalen** onder in het linkernavigatievenster.
    
    ![](media/service-connect-to-windows-dev-center/getdata.png)
 2. Selecteer in het vak **Services** de optie **Ophalen**.
@@ -54,10 +54,10 @@ Maak verbinding met het [inhoudspakket van Windows-ontwikkelaarscentrum](https:/
 
 **Wat nu?**
 
-* [Stel vragen in het vak Q&A](service-q-and-a.md) boven in het dashboard
+* [Stel vragen in het vak Q&A](power-bi-q-and-a.md) boven in het dashboard.
 * [Wijzig de tegels](service-dashboard-edit-tile.md) in het dashboard.
 * [Selecteer een tegel](service-dashboard-tiles.md) om het onderliggende rapport te openen.
-* Als uw gegevensset is ingesteld op dagelijks vernieuwen, kunt u het vernieuwingsschema wijzigen of de gegevensset handmatig vernieuwen met **Nu vernieuwen**
+* Als uw gegevensset is ingesteld op dagelijks vernieuwen, kunt u het vernieuwingsschema wijzigen of de gegevensset handmatig vernieuwen met **Nu vernieuwen**.
 
 ## <a name="whats-included"></a>Wat is inbegrepen?
 Het Power BI-inhoudspakket voor het ontwikkelaarscentrum bevat analytische gegevens voor uw app- en IAP-acquisities, beoordelingen, recensies en status van de app. De gegevens zijn beperkt tot de afgelopen drie maanden. Bovendien is dit een zwevend venster, zodat de opgenomen datums worden bijgewerkt zodra de gegevensset wordt vernieuwd.

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/01/2017
 ms.author: sirsu
-ms.openlocfilehash: 8b03eb9659d4f2c984200db16daa6de017e73de7
-ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
+ms.openlocfilehash: 87233cfe4290546478899d81d7a39714c75963eb
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Wat is er nieuw in de Power BI-service
 Raadpleeg deze pagina voor bekende problemen en onlangs uitgebrachte functies in de **Power BI-service**. Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -470,7 +470,7 @@ Bekijk onze [blog](http://blogs.msdn.com/b/powerbi/archive/2015/10/13/power-bi-w
 
 **6 oktober 2015**
 
-* U kunt met Power BI Q&A uw gegevens verkennen aan de hand van eenvoudige, intuïtieve vragen en antwoorden in de vorm van interactieve grafieken en diagrammen. In deze versie hebben we een functie toegevoegd om u te helpen aan de slag te gaan met Power BI Q&A, zelfs als u niets weet over de gegevens. Als u hiermee aan de slag wilt gaan[, gaat u naar een dashboard naar keuze en klikt u op de koppeling Vragen stellen naast het Q&A-vak](service-how-to-q-and-a.md). Power BI biedt u een aantal suggesties op basis van uw gegevens.
+* U kunt met Power BI Q&A uw gegevens verkennen aan de hand van eenvoudige, intuïtieve vragen en antwoorden in de vorm van interactieve grafieken en diagrammen. In deze versie hebben we een functie toegevoegd om u te helpen aan de slag te gaan met Power BI Q&A, zelfs als u niets weet over de gegevens. Als u hiermee aan de slag wilt gaan[, gaat u naar een dashboard naar keuze en klikt u op de koppeling Vragen stellen naast het Q&A-vak](power-bi-tutorial-q-and-a.md). Power BI biedt u een aantal suggesties op basis van uw gegevens.
 * Twee weken geleden is in Power BI Desktop ondersteuning geïntroduceerd voor het invoegen van vormen in het rapportcanvas. Deze week kan Microsoft aankondigen dat u nu vormen kunt toevoegen aan uw rapportcanvas wanneer u rapporten schrijft en/of bewerkt in de Power BI web-app.
 * We hebben de optie toegevoegd om e-mailmeldingen uit te schakelen wanneer u een dashboard deelt. Schakel gewoon het selectievakje E-mailmelding verzenden naar ontvanger uit in het dialoogvenster voor delen van Power BI. U ziet nu een URL. Kopieer en deel deze URL met uw collega's om hen toegang te geven tot het dashboard.
 * Microsoft Dynamics NAV is een managementoplossing voor kleine tot middelgrote organisaties. Het biedt klanten een volledige oplossing voor hun bedrijf met meer controle over hun financiële zaken en bedrijfsprocessen. Het inhoudspakket voor Power BI biedt kant-en-klare rapporten voor Dynamics NAV-gebruikers, zoals verkoop en winst, verkooppijplijn, winstgevendheid en meer. Deze metrische gegevens worden georganiseerd op een dashboard dat volledig op maat kan worden gemaakt, zodat u gemakkelijk verbinding kunt maken en onmiddellijk kunt beginnen met het verkennen van uw gegevens.

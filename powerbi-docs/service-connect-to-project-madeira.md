@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: a82aac901ac36bbe84d4c855d7d1d79f4695a35b
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 449f6a9363a40895a2b53c7a778ee02129facb7f
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Verbinding maken met Project "Madeira" met behulp van Power BI
 U kunt eenvoudig inzicht krijgen in uw Project "Madeira"-gegevens met Power BI en het Project "Madeira"-inhoudspakket. Met Power BI kunt u uw gegevens ophalen, zowel verkoopgegevens als financiële gegevens, en vervolgens een out-of-box-dashboard en rapporten bouwen op basis van die gegevens.
@@ -33,7 +33,7 @@ Maak verbinding met Project "Madeira" voor Power BI of lees meer over de Project
 Maak verbinding met het [Project "Madeira" Analytics-inhoudspakket](https://app.powerbi.com/getdata/services/project-madeira) voor Power BI.
 
 ## <a name="how-to-connect"></a>Verbinding maken
-1. Selecteer **Gegevens ophalen** onder in het linker navigatievenster.  
+1. Selecteer **Gegevens ophalen** onder in het linkernavigatievenster.  
     ![](media/service-connect-to-project-madeira/getdata.png)
 2. Selecteer in het vak **Services** de optie **Ophalen**.  
     ![](media/service-connect-to-project-madeira/services.png)
@@ -54,10 +54,10 @@ Maak verbinding met het [Project "Madeira" Analytics-inhoudspakket](https://app.
 
 **Wat nu?**
 
-* [Stel vragen in het vak Q&A](service-q-and-a.md) bovenin het dashboard
-* [De tegels wijzigen](service-dashboard-edit-tile.md) in het dashboard.
+* [Stel vragen in het vak Q&A](power-bi-q-and-a.md) boven in het dashboard.
+* [Wijzig de tegels](service-dashboard-edit-tile.md) in het dashboard.
 * [Selecteer een tegel](service-dashboard-tiles.md) om het onderliggende rapport te openen.
-* Als uw gegevensset is ingesteld op dagelijks vernieuwen, kunt u het vernieuwingsschema wijzigen of de gegevensset handmatig vernieuwen met **Nu vernieuwen**
+* Als uw gegevensset is ingesteld op dagelijks vernieuwen, kunt u het vernieuwingsschema wijzigen of de gegevensset handmatig vernieuwen met **Nu vernieuwen**.
 
 <a name="Requirements"></a>
 

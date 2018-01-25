@@ -17,43 +17,43 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 22d490a58fd522b805d9709a1e697d1d2e89df6c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 408f41e1a50b895166308fcba129d86f5c05d0e7
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Verbinding maken met Zuora via Power BI
-Met Zuora voor Power BI kunt u belangrijke omzet-, facturerings- en abonnementsgegevens visualiseren. Gebruik het standaarddashboard en de rapporten om gebruikstrends, facturen en betalingen te analyseren en terugkerende inkomsten te controleren, of pas ze aan om te voldoen aan uw eigen unieke dashboard- en rapportagebehoeften. 
+Met Zuora voor Power BI kunt u belangrijke omzet-, facturerings- en abonnementsgegevens visualiseren. Gebruik het standaarddashboard en de rapporten om gebruikstrends, facturen en betalingen te analyseren en terugkerende inkomsten te controleren, of pas ze aan om te voldoen aan uw eigen unieke dashboard- en rapportagebehoeften.
 
 Verbinding maken met [Zuora](https://app.powerbi.com/getdata/services/Zuora) voor Power BI.
 
 ## <a name="how-to-connect"></a>Verbinding maken
 1. Selecteer **Gegevens ophalen** onder in het linkernavigatievenster.
-   
+
    ![](media/service-connect-to-zuora/getdata.png)
 2. Selecteer in het vak **Services** de optie **Ophalen**.
-   
+
    ![](media/service-connect-to-zuora/services.png)
 3. Selecteer **Zuora** \> **Ophalen**.
-   
+
    ![](media/service-connect-to-zuora/zuora.png)
 4. Geef uw Zuora-URL op. Dit is meestal https://www.zuora.com, zie details over [het vinden van deze parameters](#FindingParams) hieronder.
-   
+
    ![](media/service-connect-to-zuora/params.png)
 5. Selecteer voor **Verificatiemethode** de optie **Standaard** en geef uw gebruikersnaam en wachtwoord (hoofdlettergevoelig) op. Selecteer vervolgens **Aanmelden**.
-   
+
     ![](media/service-connect-to-zuora/creds.png)
 6. Nadat uw aanmelding is goedgekeurd, wordt het importeren automatisch gestart. Nadat het importeren is voltooid, bevat het navigatiedeelvenster een nieuw dashboard, rapport en model. Selecteer het dashboard om uw geïmporteerde gegevens weer te geven.
-   
+
      ![](media/service-connect-to-zuora/dashboard.png)
 
 **Wat nu?**
 
-* [Stel vragen in het vak Q&A](service-q-and-a.md) boven in het dashboard
+* [Stel vragen in het vak Q&A](power-bi-q-and-a.md) boven in het dashboard.
 * [Wijzig de tegels](service-dashboard-edit-tile.md) in het dashboard.
 * [Selecteer een tegel](service-dashboard-tiles.md) om het onderliggende rapport te openen.
-* Als uw gegevensset is ingesteld op dagelijks vernieuwen, kunt u het vernieuwingsschema wijzigen of de gegevensset handmatig vernieuwen met **Nu vernieuwen**
+* Als uw gegevensset is ingesteld op dagelijks vernieuwen, kunt u het vernieuwingsschema wijzigen of de gegevensset handmatig vernieuwen met **Nu vernieuwen**.
 
 ## <a name="whats-included"></a>Wat is inbegrepen
 Het inhoudspakket gebruikt de Zuora AQUA-API voor ophalen in de volgende tabellen:
@@ -111,4 +111,3 @@ Het Zuora-inhoudspakket bevat veel aspecten van uw Zuora-account. Als u bepaalde
 [Aan de slag in Power BI](service-get-started.md)
 
 [Gegevens ophalen in Power BI](service-get-data.md)
-

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: e9fda17bd9560ac564cb6b3ae6c34b986a6bc2aa
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: 6948f0e333ba1136f6fda8fa0f62b146cefdd710
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Leesweergave en bewerkweergave in rapporten van de Power BI-service
 In de Power BI-service (geen Power BI Desktop) zijn er twee modi voor het weergeven en werken met rapporten: de leesweergave en de bewerkweergave. De leesweergave is beschikbaar voor alle gebruikers en is speciaal ontworpen voor *gebruikers van gegevens*, terwijl de bewerkweergave alleen beschikbaar is voor *rapportauteurs* en -eigenaren. 
@@ -56,7 +56,7 @@ In deze grafiek worden niet alle mogelijkheden van een rapport van Power BI-serv
 | [Opties **Rapportweergave** ](power-bi-report-display-settings.md) | Ja, met enkele uitzonderingen. | Ja, alle, met inbegrip van rasterlijnen, uitlijnen en vergrendelen. |
 | [Een vernieuwingsplan maken](refresh-data.md) | Nee  | Ja |
 | [Abonneren op een rapportpagina](service-report-subscribe.md) | Ja | Nee |
-| [Vragen en antwoorden - vragen stellen in rapporten](service-q-and-a.md) | Nee  | Ja |
+| [Vragen en antwoorden - vragen stellen in rapporten](power-bi-q-and-a.md) | Nee  | Ja |
 | [Metrische gegevens over het gebruik weergeven](service-usage-metrics.md) | Ja, op het rapportcanvas. | Ja, in de lijst met rapporten (inhoudsweergave) |
 | [Gerelateerde items weergeven](service-related-content.md) | Ja, op het rapportcanvas. | Ja, in de lijst met rapporten (inhoudsweergave) |
 | [Een rapport opslaan](service-report-save.md) | Ja, maar alleen met behulp van **Opslaan als**. | Ja |

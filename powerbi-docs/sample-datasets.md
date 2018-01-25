@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 2b5568020d3d99788d4fe2288fbc468d82d4e2bf
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 5087e69190372fe7303fb46254885f7a7a456f70
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Welke voorbeeldgegevens zijn beschikbaar voor gebruik met Power BI?
 Stel dat u geen ervaring hebt met Power BI en u Power BI wilt uitproberen, maar nog geen gegevens hebt.  Of misschien hebt u een gegevensset, maar bent u bang dat u de gegevensset beschadigt omdat u (nog) niet begrijpt hoe Power BI werkt?
@@ -125,7 +125,7 @@ De voorbeeldinhoudspakketten zijn ook beschikbaar als Excel-werkmappen. De Excel
 1. Gebruik de onderstaande koppelingen om de bestanden afzonderlijk te downloaden of [download een zip-bestand met alle voorbeeldbestanden](http://go.microsoft.com/fwlink/?LinkId=535020). Als u een ervaren gebruiker bent, kunt u de Excel-werkmappen downloaden om de gegevensmodellen te verkennen of te bewerken.
    
    * [Voorbeeld van een retailanalyse](http://go.microsoft.com/fwlink/?LinkId=529778)
-   * [Voorbeeld van kwaliteitsanalyse van leveranciers](http://go.microsoft.com/fwlink/?LinkId=529779)
+   * [Voorbeeld van een kwaliteitsanalyse van leveranciers](http://go.microsoft.com/fwlink/?LinkId=529779)
    * [Voorbeeld van human resources](http://go.microsoft.com/fwlink/?LinkId=529780)
    * [Voorbeeld van klantwinstgevendheid](http://go.microsoft.com/fwlink/?LinkId=529781)
    * [Voorbeeld van verkoopkansen bijhouden](http://go.microsoft.com/fwlink/?LinkId=529782)
@@ -202,5 +202,5 @@ De voorbeeldinhoudspakketten zijn ook beschikbaar als PBIX-bestanden. De PBIX-be
 
 [Gegevensbronnen voor Power BI](service-get-data.md)
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/).
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

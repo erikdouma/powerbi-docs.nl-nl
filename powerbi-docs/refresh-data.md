@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/19/2018
 ms.author: davidi
-ms.openlocfilehash: 053afc2c085a045c3fe0c8ce70a541d132966640
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 647b042d10768f4ecbb3083384efa9000202a11f
+ms.sourcegitcommit: a973bc6adc88507932e7e1535a74208e3842f5c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 01/20/2018
 ---
 # <a name="data-refresh-in-power-bi"></a>Gegevens vernieuwen in Power BI
 Het maken van de juiste keuzes is sterk afhankelijk van of u beschikt over de recentste gegevens. U hebt waarschijnlijk al de functie Gegevens ophalen in Power BI gebruikt om verbinding te maken met gegevens, gegevens te uploaden, en enkele rapporten en een dashboard te maken. Nu is het belangrijk om ervoor te zorgen dat uw gegevens echt actueel zijn.
@@ -112,7 +112,7 @@ U krijgt de beschikking over zeer veel flexibiliteit als u uw bestanden opslaat 
 | De opdracht Gegevens ophalen (op het lint) wordt gebruikt om verbinding te maken met gegevens uit vermelde online-gegevensbronnen en om deze gegevens op te vragen. |Nee |Ja |Nee (zie hieronder) |
 | De opdracht Gegevens ophalen wordt gebruikt om verbinding te maken met een live-database van Analysis Services en om deze gegevens te verkennen. |Ja |Nee |Ja |
 | De opdracht Gegevens ophalen wordt gebruikt om verbinding te maken met een ondersteunde on-premises DirectQuery-gegevensbron en om deze gegevens te verkennen. |Ja |Nee |Ja |
-| De opdracht Gegevens ophalen wordt gebruikt om verbinding te maken met gegevens uit Azure SQL Database, Azure SQL Data Warehouse of Azure HDInsight Spark en om deze gegevens op te vragen. |Ja (elk uur) |Nee |Nee |
+| De opdracht Gegevens ophalen wordt gebruikt om verbinding te maken met gegevens uit Azure SQL Database, Azure SQL Data Warehouse of Azure HDInsight Spark en om deze gegevens op te vragen. |Ja |Ja |Nee |
 | De opdracht Gegevens ophalen wordt gebruikt om verbinding te maken met gegevens uit een genoemde on-premises gegevensbron en om deze gegevens op te vragen, met uitzondering van Hadoop-bestanden (HDFS) en Microsoft Exchange. |Nee |Ja |Ja |
 
 > [!NOTE]
