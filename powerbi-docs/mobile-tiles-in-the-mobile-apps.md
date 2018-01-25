@@ -82,7 +82,7 @@ Vervolgens kunt u ze in een mobiele Power BI-app openen in de focusmodus om erme
    * Tik op de grafiek om de staaf in een lijn-, staaf-, kolom- of bellendiagram te verplaatsen, of om de waarden voor een bepaald punt in de visualisatie te bekijken.  
    * Tik op het pictogram Momentopname delen ![](media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png) om [aantekeningen toe te voegen aan de tegel en deze te delen](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) met anderen.
    * Tik op het pictogram Rapport openen ![](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png) om [het rapport weer te geven](mobile-reports-in-the-mobile-apps.md) in de mobiele app.
-3. Soms heeft de maker van het dashboard een koppeling toegevoegd aan een tegel. In dat geval ziet u **Koppeling openen** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png) wanneer u op de drie verticale puntjes**** tikt:
+3. Soms heeft de maker van het dashboard een koppeling toegevoegd aan een tegel. In dat geval als u tikt u op het weglatingsteken verticale (**...** ) ziet u **koppeling openen** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png):
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
    
