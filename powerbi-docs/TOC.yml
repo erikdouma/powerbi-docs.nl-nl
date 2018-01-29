@@ -298,7 +298,7 @@
               href: service-cortana-troubleshoot.md
     - name: Uw werk delen
       items:
-        - name: Hoe kan ik samenwerken aan en dashboards en rapporten en deze delen?
+        - name: Hoe kan ik samenwerken en dashboards en rapporten delen?
           href: service-how-to-collaborate-distribute-dashboards-reports.md
         - name: Apps installeren en gebruiken met dashboards en rapporten
           href: service-install-use-apps.md
@@ -308,9 +308,9 @@
           href: service-organizational-content-pack-introduction.md
         - name: Organisatie-inhoudspakketten maken en publiceren (zelfstudie)
           href: service-organizational-content-pack-create-and-publish.md
-        - name: Een dashboard met collega's en anderen delen
+        - name: Dashboards en rapporten delen
           href: service-share-dashboards.md
-        - name: Een rapport met een collega delen
+        - name: Een gefilterd rapport delen
           href: service-share-reports.md
         - name: Vanuit Power BI publiceren naar internet
           href: service-publish-to-web.md
