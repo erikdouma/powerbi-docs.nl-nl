@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/21/2017
+ms.date: 01/22/2018
 ms.author: davidi
-ms.openlocfilehash: 879d142cba4af026cc23188173a380340b4c245b
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 6b2002348ae7e8ef2bb2e112eb8be967d0c68545
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>Rapporten exporteren van Power BI naar PowerPoint (Preview)
 Met Power BI kunt u nu uw rapport publiceren naar **Microsoft PowerPoint** en heel eenvoudig een presentatie op basis van uw Power BI-rapport maken. Wanneer u wilt **exporteren naar PowerPoint** gebeurt het volgende:
 
 * Elke pagina in het Power BI-rapport wordt een afzonderlijke dia in PowerPoint
-* Elke visuele element in het Power BI-rapport wordt geëxporteerd als afbeelding met een hoge resolutie in PowerPoint
+* Elke pagina in het Power BI-rapport wordt geëxporteerd als een enkele afbeelding met een hoge resolutie in PowerPoint
 * Tekstvakken in het Power BI-rapport worden bewerkbare tekstvakken in PowerPoint
 * In PowerPoint wordt een koppeling gemaakt die verwijst naar het Power BI-rapport
 
@@ -65,7 +65,11 @@ Bij het openen van het PowerPoint-bestand dat door Power BI is geëxporteerd, zi
 2. U krijgt zo ook handige informatie over het rapport, zoals de *laatste gegevensvernieuwing* waarop het geëxporteerde rapport is gebaseerd en de *gedownload op* -tijd en -datum. Dit is het tijdstip en de datum waarop het Power BI-rapport naar een PowerPoint-bestand is geëxporteerd.
 3. Elke rapportpagina is een afzonderlijke dia, zoals wordt weergegeven in het navigatiedeelvenster links.
 
-Wanneer u naar een afzonderlijke dia gaat, zult u merken dat elk visuele element een onafhankelijke afbeelding is (zoals al eerder vermeld). Zo kunt u de afbeelding kopiëren en plakken in een andere dia of waar u maar wilt.
+Wanneer u naar een afzonderlijke dia gaat, zult u merken dat elke rapportpagina een onafhankelijke afbeelding is.
+
+>[!NOTE]
+> Het gebruik van één visual per rapportpagina is nieuw gedrag. Het vorige gedrag, waarbij voor elke visual een aparte afbeelding werd gebruikt, is niet meer geïmplementeerd. 
+ 
 
 ![](media/service-publish-to-powerpoint/powerbi_to_powerpoint_6.png)
 
@@ -85,6 +89,7 @@ Er zijn enkele overwegingen en beperkingen waar u rekening mee moet houden bij h
 * Pagina's in PowerPoint worden altijd aangemaakt in het standaard 9:16-formaat, ongeacht de oorspronkelijke paginaformaten of afmetingen in het Power BI-rapport.
 * Rapporten die eigendom zijn van een gebruiker buiten uw Power BI-tenantdomein (zoals een rapport dat eigendom is van iemand buiten uw organisatie en dat met u wordt gedeeld) kunnen niet worden gepubliceerd naar PowerPoint.
 * Als u een dashboard deelt met iemand buiten uw organisatie (en daarmee een gebruiker die niet in uw Power BI-tenant is) dan kan die gebruiker de aan het gedeelde dashboard gekoppelde rapporten niet exporteren naar PowerPoint. Als u bijvoorbeeld aaron@contoso.com bent, kunt u delen met david@cohowinery.com. Maar david@cohowinery.com kan de gekoppelde rapporten niet exporteren naar PowerPoint.
+* Zoals eerder vermeld, wordt elke rapportpagina geëxporteerd als één afbeelding in het PowerPoint-bestand. 
 
 ## <a name="next-steps"></a>Volgende stappen
 [Analyze in Excel](service-analyze-in-excel.md) (Analyseren in Excel)

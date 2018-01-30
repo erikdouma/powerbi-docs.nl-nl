@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 1df7eb485ac9b9de1007cc2fccbf8141ee4fdcc1
-ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
+ms.openlocfilehash: 8567326cb685a03fd1af618aad5310234677ab6d
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="export-data-from-visualizations"></a>Gegevens uit visualisaties exporteren
 Als u de gegevens wilt zien die gebruikt worden om een visualisatie te maken, kunt u die [gegevens weergeven in Power BI](service-reports-show-data.md) of exporteren naar Excel als .xlsx- of .csv-bestand.   
@@ -74,8 +74,7 @@ Als u mee wit doen, opent u het rapport [Procurement analysis sample](sample-pro
    
    >[!WARNING]
    >Door onderliggende gegevens te exporteren, kunnen gebruikers alle gedetailleerde gegevens zien: elke kolom in de gegevens. Power BI-servicebeheerders kunnen dit uitschakelen voor hun organisatie. Als u de eigenaar van een gegevensset bent, kunt u eigen kolommen instellen als ‘verborgen’, zodat ze niet worden weergegeven in de veldenlijst in Desktop of Power BI-service.
-   > 
-   > 
+   
    
    **Onderliggende gegevens**: selecteer deze optie als uw visualisatie een statistische functie heeft en u de onderliggende details wilt zien. Het komt erop neer dat u door *Onderliggende gegevens* te selecteren de aggregatie verwijdert. Wanneer u **Exporteren** selecteert, worden de gegevens geëxporteerd naar een .xlsx-bestand en wordt u gevraagd het bestand op te slaan. Nadat het is opgeslagen, opent u het bestand in Excel.
    
@@ -85,7 +84,9 @@ Als u mee wit doen, opent u het rapport [Procurement analysis sample](sample-pro
 
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 * Het maximum aantal rijen dat uit **Power BI Desktop** en de **Power BI-service** naar .csv kan worden geëxporteerd, is 30.000.
-* Het maximum aantal rijen dat naar .xlsx geëxporteerd kan worden in de **Power BI-service** bedraagt 150.000 voor Pro-gebruikers en 30.000 voor gratis gebruikers.
+* Het maximum aantal rijen dat naar .xlsx kan worden geëxporteerd, is 150.000.
+* Exporteren met behulp van *onderliggende gegevens* werkt niet als de gegevensbron een liveverbinding met Analysis Services is en de versie ouder is dan 2016 is en de tabellen in het model niet over een unieke sleutel beschikken.  
+* Exporteren met behulp van *onderliggende gegevens* werkt niet als de optie *Items zonder gegevens weergeven* is ingeschakeld voor de visualisatie die wordt geëxporteerd.
 * Bij gebruik van DirectQuery is de maximale hoeveelheid gegevens die geëxporteerd kan worden 16 MB. Dit kan ertoe leiden dat minder dan het maximum aantal rijen wordt geëxporteerd, vooral als er veel kolommen zijn, gegevens die moeilijk te comprimeren zijn en andere factoren die de bestandsgrootte vergroten en het aantal geëxporteerde rijen verminderen.
 * Power BI ondersteunt exporteren alleen in visualisaties waarin basisaggregaten worden gebruikt. Exporteren is niet beschikbaar voor visualisaties met model- of rapportmetingen.
 * Aangepaste visualisaties en R-visualisaties worden momenteel niet ondersteund.

@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/12/2018
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 955435ee526c6acae8f478539641529515e2e0a8
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 90449f79da8aed3d992b9ac8bf83ac2ac4c0f83c
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>Een aangepast visueel element laten *certificeren*
 ## <a name="what-is-meant-by-certified"></a>Wat is *gecertificeerd*?
@@ -89,12 +89,12 @@ Microsoft kan naar eigen goeddunken een visueel element uit de lijst met gecerti
 | [Verbeterde spreidingsgrafiek](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380762) | |
 | [Enlighten Aquarium](https://appsource.microsoft.com/product/power-bi-visuals/WA104381112?src=office&tab=Overview) | |
 | [Enlighten-beldiagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380868) | |
+| [Enlighten Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380960?tab=Overview) | |
 | [Enlighten Stack Shuffle](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380849) | |
 | [Enlighten-wafeldiagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380850) | |
 | [Enlighten World Flags](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380923) | |
-| [Flywheel]() | |
 | [Prognose maken van TBATS](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381326?src=office) | |
-| [Gantt](https://store.office.com/gantt-WA104380765.aspx) |[Video](https://youtu.be/qJ7s_KrGiUU) |
+| [Trechter met bron]() | || [Gantt](https://store.office.com/gantt-WA104380765.aspx) |[Video](https://youtu.be/qJ7s_KrGiUU) |
 | [Hiërarchische grafiek van Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381333?src=office) | |
 | [Histogram](https://store.office.com/histogram-chart-WA104380776.aspx) | |
 | [Horizontale trechter](https://appsource.microsoft.com/product/power-bi-visuals/WA104380846) |[Video](https://youtu.be/SudZei68PPo) |
@@ -125,7 +125,6 @@ Microsoft kan naar eigen goeddunken een visueel element uit de lijst met gecerti
 | [Tornadodiagram](https://store.office.com/tornado-chart-WA104380768.aspx) |[Video](https://youtu.be/AQvd2FhRyCI) |
 | [Ultieme variantiegrafiek van Klaus Birringer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381140?src=office) | |
 | [Ultieme waterval, gratis](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380956) | |
-| [Venn-diagram door MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381231) | |
 | [VitaraCharts - MicroChart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381165) | |
 | [Wafeldiagram](https://appsource.microsoft.com/product/power-bi-visuals/WA104381049?src=office&tab=Overview) |[Video](https://youtu.be/1vRqYUsm3Vk) |
 | [Woordwolk](https://store.office.com/word-cloud-WA104380752.aspx?) |[Video](https://www.youtube.com/watch?v=AblTenl9fqo) |

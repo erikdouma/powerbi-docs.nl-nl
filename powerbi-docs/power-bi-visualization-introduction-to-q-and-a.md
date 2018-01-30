@@ -1,6 +1,6 @@
 ---
-title: Aan de slag met de Q&A-functie van Power BI (zelfstudie)
-description: 'Zelfstudie: aan de slag met Q&A in de Power BI-service met een retailanalyse als voorbeeld'
+title: 'Snelstartgids: aan de slag met de Q&A-functie van Power BI'
+description: 'Snelstartgids: aan de slag met Q&A in Power BI-service met een retailanalyse als voorbeeld'
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,17 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/25/2017
+ms.date: 01/16/2018
 ms.author: mihart
-ms.openlocfilehash: 2038fb5bd4a21235c3026c8506ae30b8c3e287e4
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d63c6479ed5f0bb9e882900fc5a653f08ad6a823
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/19/2018
 ---
-# <a name="get-started-with-power-bi-qa-tutorial"></a>Aan de slag met de Q&A-functie van Power BI (zelfstudie)
-## <a name="tutorial-use-power-bi-qa-with-the-retail-analysis-sample"></a>Zelfstudie: de Q&A-functie van Power BI gebruiken met een retailanalyse als voorbeeld
-Soms krijgt u het snelst een antwoord uit uw gegevens wanneer u een vraag stelt in natuurlijke taal.  In deze zelfstudie bekijken we twee verschillende manieren om dezelfde visual te maken: samenstellen in een rapport en een vraag stellen met Q&A.  
+# <a name="get-started-with-power-bi-qa-quickstart"></a>Aan de slag met de Q&A-functie van Power BI (snelstartgids)
+## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>De Q&A-functie van Power BI gebruiken met een retailanalyse als voorbeeld
+Soms krijgt u het snelst een antwoord uit uw gegevens wanneer u een vraag stelt in natuurlijke taal.  In deze snelstartgids bekijken we twee verschillende manieren om dezelfde visualisatie te maken: eerst samenstellen in een rapport en daarna een vraag stellen met Q&A. We doen dit met behulp van Power BI-service, maar het proces is bijna identiek aan als u dit doet met behulp van Power BI Desktop.
+
+Als u dit wilt volgen, moet u een rapport gebruiken dat u kunt bewerken. Daarom maken we gebruik van een van de voorbeelden die beschikbaar zijn met Power BI.
 
 ## <a name="method-1-using-the-report-editor"></a>Methode 1: met behulp van de rapporteditor
 1. Selecteer in de Power BI-werkruimte **Gegevens ophalen** \> **Voorbeelden** \> **Voorbeeld van een retailanalyse**  >  **Verbinding maken**.
@@ -61,13 +63,9 @@ Hoe zouden we hetzelfde lijndiagram maken met Q&A?
 4. Selecteer het speldpictogram ![](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png) om uw diagram aan het dashboard vast te maken.
 
 ## <a name="next-steps"></a>Volgende stappen
-[Wat voor soort vragen kan ik Q&A stellen?](service-q-and-a.md)
-
-[Q&A in Power BI](service-q-and-a.md)
+[Q&A in Power BI](power-bi-q-and-a.md)
 
 [Uw gegevens geschikt maken voor Q&A in Power BI](service-prepare-data-for-q-and-a.md)
 
-[Een werkmap voorbereiden voor Q&A](service-prepare-data-for-q-and-a.md)
-
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/).
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

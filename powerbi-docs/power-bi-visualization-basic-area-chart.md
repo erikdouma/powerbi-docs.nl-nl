@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 42e068b11c22c32f1a6736a6ca8f9020594fb40a
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: c9512be1bcba67eb169a41e3f240fac8e9073a5d
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="basic-area-chart-tutorial"></a>Eenvoudig vlakdiagram (zelfstudie)
 Het eenvoudige vlakdiagram (ook wel gelaagd vlakdiagram genoemd) is gebaseerd op het lijndiagram. Het gebied tussen as en lijn wordt gevuld met kleuren om het volume aan te geven. 
@@ -36,17 +36,26 @@ In de volgende gevallen komen eenvoudige vlakdiagrammen goed van pas:
 * om de volumetrend in een tijdreeks te bekijken en te vergelijken 
 * voor afzonderlijke reeksen die een fysiek telbare verzameling voorstellen
 
+### <a name="prerequisites"></a>Vereisten
+ - Power BI-service
+ - Voorbeeld van een retailanalyse
+
+Meld u aan bij Power BI als u mee wilt doen en selecteer achtereenvolgens **Gegevens ophalen\> Voorbeelden \> Voorbeeld van een retailanalyse > Verbinding maken** en kies **Naar dashboard gaan**. 
+
 ## <a name="create-a-basic-area-chart"></a>Een eenvoudig vlakdiagram maken
-Meld u aan bij Power BI als u mee wilt doen. Selecteer achtereenvolgens **Gegevens ophalen \> Voorbeelden \> Voorbeeld van een retailanalyse**. 
+ 
 
 1. Selecteer op het dashboard Voorbeeld van een retailanalyse de tegel **Totaal aantal winkels** om het rapport Voorbeeld van een retailanalyse te openen.
 2. Selecteer **Rapport bewerken** om het rapport in de bewerkingsweergave te openen.
-3. Voeg een nieuwe rapportpagina toe.
+3. Voeg een nieuwe pagina toe door onder aan het rapport het gele pluspictogram (+) te selecteren.
 4. Maak een vlakdiagram waarin de omzet van dit jaar en die van vorig jaar per maand worden weergegeven.
    
-   a.  Selecteer in het deelvenster **Velden** achtereenvolgens **Verkoop \> Omzet vorig jaar** en **Omzet dit jaar > Waarde**.
-   
-   b.  Converteer het diagram naar een eenvoudig vlakdiagram.    
+   a. Selecteer in het deelvenster VELDEN achtereenvolgens **Verkoop \> Omzet vorig jaar** en **Omzet dit jaar > Waarde**.
+
+   ![](media/power-bi-visualization-basic-area-chart/power-bi-bar-chart.png)
+
+   b.  Converteer het diagram naar een elementair vlakdiagram door het pictogram Vlakdiagram te selecteren in het deelvenster VISUALISATIES.
+
    ![](media/power-bi-visualization-basic-area-chart/convertchart.png)
    
    c.  Selecteer **Tijd\> Maand** om deze waarde toe te voegen aan de bron **As**.   
@@ -55,9 +64,9 @@ Meld u aan bij Power BI als u mee wilt doen. Selecteer achtereenvolgens **Gegeve
    d.  Selecteer het beletselteken (rechtsboven in het visuele element) en kies **Sorteren op maand** om de waarden in de grafiek per maand weer te geven.
 
 ## <a name="highlighting-and-cross-filtering"></a>Markeren en kruislings filteren
-Zie [Een filter aan een rapport toevoegen](power-bi-report-add-filter.md) voor meer informatie over het gebruik van het deelvenster Filters.
+Zie [Een filter aan een rapport toevoegen](power-bi-report-add-filter.md) voor informatie over het gebruik van het deelvenster FILTERS.
 
-Als u een vlak wilt selecteren, klinkt u in het vlak of op de bovenlijn.  Eenvoudige vlakdiagrammen filteren de overige visualisaties op de rapportpagina niet kruislings. Vlakdiagrammen zijn echter wel een doel voor kruislings filteren dat door andere visualisaties op de rapportpagina wordt geactiveerd.
+Selecteer een bepaald gebied of de bovenrand ervan in uw diagram als u dat gebied wilt markeren.  Als er zich in tegenstelling tot andere visualisatietypen andere visualisaties op dezelfde pagina bevinden, worden andere visualisaties op de rapportpagina niet kruislings gefilterd wanneer er een eenvoudige vlakdiagrammen worden gemarkeerd. Vlakdiagrammen zijn echter wel een doel voor kruislings filteren dat door andere visualisaties op de rapportpagina wordt geactiveerd. Zie [Interacties van visuals in rapporten](service-reports-visual-interactions.md) voor meer informatie.
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 * Met eenvoudige vlakdiagrammen kunnen waarden die het gevolg zijn van bedekking op de gelaagde vlakken niet effectief worden vergeleken. Power BI maakt gebruik van transparantie om de overlapping van gebieden aan te geven. Dit werkt echter alleen goed met twee of drie verschillende vlakken. Als u trends voor drie of meer metingen wilt vergelijken, kunt u lijndiagrammen gebruiken. Als u volumes voor drie of meer metingen wilt vergelijken, kunt u treemapgrafieken gebruiken.

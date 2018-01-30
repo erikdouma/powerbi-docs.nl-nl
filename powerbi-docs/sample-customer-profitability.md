@@ -15,23 +15,55 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 9a100b7d13c11a8bd066b72a570f45d0c2bc08be
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 82e909962a0ed1db50f2ba3729988fd7aacadc80
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Voorbeeld van klantwinstgevendheid in Power BI: een rondleiding
 Het inhoudspakket Voorbeeld van klantwinstgevendheid bevat een dashboard, rapport en gegevensset voor een bedrijf dat marketingmateriaal maakt. Dit dashboard is gemaakt door een CFO om de belangrijkste metrische gegevens te verzamelen over haar vijf business unit managers, producten, klanten en brutomarges. In een oogopslag kan ze zien welke factoren van invloed zijn op de winstgevendheid.
 
 Dit voorbeeld is onderdeel van een serie die laat zien hoe u Power BI kunt gebruiken met bedrijfsgegevens, -rapporten en -dashboards. Dit zijn echte gegevens die afkomstig zijn van obviEnce ([www.obvience.com)](http://www.obvience.com/) die zijn geanonimiseerd.
 
-U kunt ook [alleen de gegevensset (Excel-werkmap)](http://go.microsoft.com/fwlink/?LinkId=529781) voor dit voorbeeld downloaden.  
-![](media/sample-customer-profitability/power-bi-dash.png)
+## <a name="prerequisites"></a>Vereisten
+
+Voordat u het voorbeeld kunt gebruiken, moet u het eerst downloaden als een inhoudspakket, een pbix-bestand of een Excel-werkmap.
+
+### <a name="get-the-content-pack-for-this-sample"></a>Het inhoudspakket voor dit voorbeeld ophalen
+
+1. Open Power BI-service (app.powerbi.com) en meld u aan.
+2. Selecteer in de linkerbendehoek **Gegevens ophalen**.
+   
+    ![](media/sample-datasets/power-bi-get-data.png)
+3. Selecteer op de pagina Gegevens ophalen het pictogram **Voorbeelden**.
+   
+   ![](media/sample-datasets/power-bi-samples-icon.png)
+4. Selecteer het **voorbeeld van klantwinstgevendheid** en kies vervolgens **Verbinding maken**.  
+   
+   ![Gegevens ophalen](media/sample-customer-profitability/get-supplier-sample.png)
+5. Het inhoudspakket wordt geïmporteerd in Power BI en er wordt een nieuw dashboard, nieuw rapport en een nieuwe gegevensset toegevoegd aan de huidige werkruimte. De nieuwe inhoud is gemarkeerd met een geel sterretje. Gebruik de voorbeelden om met Power BI te experimenteren.  
+   
+   ![Sterretje](media/sample-customer-profitability/supplier-sample-asterisk.png)
+  
+### <a name="get-the-pbix-file-for-this-sample"></a>Het pbix-bestand voor dit voorbeeld ophalen
+
+U kunt ook het voorbeeld downloaden als pbix-bestand, dat bedoeld is voor gebruik met Power BI Desktop. 
+
+- [Voorbeeld van klantwinstgevendheid](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer Profitability Sample PBIX.pbix)
+
+### <a name="get-the-excel-workbook-for-this-sample"></a>De Excel-werkmap ophalen voor dit voorbeeld
+
+U kunt ook alleen de gegevensset[ (Excel-werkmap) voor dit voorbeeld](http://go.microsoft.com/fwlink/?LinkId=529781) downloaden. De werkmap bevat Power View-werkbladen die u kunt bekijken en wijzigen. Als u de onbewerkte gegevens wilt bekijken, selecteert u **Power Pivot > Beheren**.
 
 ## <a name="what-is-our-dashboard-telling-us"></a>Wat vertelt het dashboard ons?
+
+Zoek onder **Mijn werkruimte** het dashboard voor het voorbeeld van klantwinstgevendheid:
+
+![Dashboard voor het voorbeeld van klantwinstgevendheid](media/sample-customer-profitability/power-bi-dash.png)
+
 ### <a name="company-wide-dashboard-tiles"></a>Dashboardtegels voor de gehele onderneming
 Deze tegels geven onze CFO een weergave van metrische gegevens op hoog niveau die belangrijk voor haar zijn.  Wanneer ze iets interessants ziet, kan ze een tegel selecteren om dieper in de gegevens te graven.
 
@@ -124,8 +156,10 @@ We kunnen ook andere bedrijfstakken verkennen en zelfs klanten toevoegen aan onz
 
 Dit is een veilige omgeving om in te spelen. U kunt er altijd voor kiezen om de wijzigingen niet op te slaan. Als u deze wel opslaat, kunt u altijd naar **Gegevens ophalen** gaan voor een nieuwe kopie van dit voorbeeld.
 
-## <a name="next-steps-connect-to-your-data"></a>Volgende stappen: koppelen aan uw gegevens
-We hopen dat deze rondleiding heeft laten zien hoe Power BI-dashboards, Q&A en rapporten inzicht kunnen geven in klantgegevens. Nu is het uw beurt: aan uw eigen gegevens koppelen. Met Power BI kunt u koppelen met een groot aantal gegevensbronnen. Meer informatie over [Aan de slag met Power BI](service-get-started.md).
+U kunt ook [alleen de gegevensset (Excel-werkmap)](http://go.microsoft.com/fwlink/?LinkId=529781) voor dit voorbeeld downloaden.
+
+## <a name="next-steps-connect-to-your-data"></a>Volgende stap: Verbinding maken met uw gegevens
+We hopen dat deze rondleiding heeft laten zien hoe Power BI-dashboards, Q&A en rapporten inzicht kunnen geven in klantgegevens. Nu is het uw beurt: aan uw eigen gegevens koppelen. Met Power BI kunt u verbinding maken met een groot aantal gegevensbronnen. Meer informatie over [Aan de slag met Power BI](service-get-started.md).
 
 [Terug naar de voorbeelden in Power BI](sample-datasets.md)  
 

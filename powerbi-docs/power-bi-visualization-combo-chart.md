@@ -1,6 +1,6 @@
 ---
-title: Combinatiegrafieken in Power BI (zelfstudie)
-description: Deze documentatie is een zelfstudie (met video) waarin wordt uitgelegd waarom en hoe u een combinatiegrafiek maakt in Power BI.
+title: Zelfstudie - combinatiegrafieken
+description: In deze zelfstudie over combinatiegrafieken wordt uitgelegd wanneer u ze kunt gebruiken en hoe u in Power BI-service en Power BI Desktop kunt bouwen.
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: c00ba74501a411743036c4514750bccbbae3eb00
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: ac738b337e7eb1c861347b273c7f1c4571a700a2
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="combo-chart-in-power--tutorial"></a>Combinatiegrafieken in Power BI (zelfstudie)
 Een combinatiegrafiek in Power BI is een visualisatie waarin een lijndiagram wordt gecombineerd met een kolomdiagram. Als u deze twee diagrammen combineert, kunt u de gegevens sneller vergelijken.
@@ -38,13 +38,16 @@ In de volgende gevallen komen combinatiegrafieken goed van pas:
 * Als u wilt controleren of één meting voldoet aan het doel dat is gedefinieerd door een andere meting.
 * Als u ruimte op het canvas wilt besparen.
 
+### <a name="prerequisites"></a>Vereisten
+Combinatiegrafieken zijn beschikbaar in de Power BI-service en Power BI Desktop. Deze zelfstudie maakt gebruik van Power BI-service om een combinatiegrafiek te maken. Als u deze wilt volgen, opent u Power BI-service en maakt u verbinding met de [onderstaande instructies](#create) voor het voorbeeld van een retailanalyse).
+
+
 ## <a name="create-a-basic-single-axis-combo-chart"></a>Een eenvoudige combinatiegrafiek met één as maken
 Kijk hoe Will een combinatiegrafiek maakt op basis van het voorbeeld van verkoop en marketing.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lnv66cTZ5ho?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-
-Als u uw eigen combinatiegrafiek wilt maken, meldt u zich aan bij Power BI en selecteert u **Gegevens ophalen\> Voorbeelden \> Voorbeeld van een retailanalyse**. 
+<a name="create"></a>Als u uw eigen combinatiegrafiek wilt maken, meldt u zich aan bij Power BI-service en selecteert u **Gegevens ophalen \> Voorbeelden \> Voorbeeld van een retailanalyse > Verbinding maken > Naar dashboard gaan**. 
 
 1. Selecteer op het dashboard Voorbeeld van een retailanalyse de tegel **Totaal aantal winkels** om het rapport Voorbeeld van een retailanalyse te openen.
 2. Selecteer **Rapport bewerken** om het rapport in de bewerkingsweergave te openen.
@@ -58,7 +61,8 @@ Als u uw eigen combinatiegrafiek wilt maken, meldt u zich aan bij Power BI en se
     c.  Selecteer **Tijd** \> **FiscalMonth** om deze waarde toe te voegen aan de bron **As**. 
    
     ![](media/power-bi-visualization-combo-chart/combotutorial1new.png)
-5. Selecteer de weglatingstekens (...) in de rechterbovenhoek van de visualisatie en selecteer **Sorteren op FiscalMonth**.
+5. Selecteer de weglatingstekens (...) in de rechterbovenhoek van de visualisatie en selecteer **Sorteren op FiscalMonth**. U moet deze misschien twee keer selecteren om deze oplopend of aflopend te sorteren.
+
 6. Converteer de kolomdiagram naar een combinatiegrafiek. Selecteer de kolomdiagram en selecteer vervolgens in het deelvenster **Visualisaties** de optie **Lijndiagram en gegroepeerd kolomdiagram**.
    
     ![](media/power-bi-visualization-combo-chart/converttocombo_new2.png)
@@ -73,16 +77,16 @@ Als u uw eigen combinatiegrafiek wilt maken, meldt u zich aan bij Power BI en se
 ## <a name="create-a-combo-chart-with-two-axes"></a>Een combinatiegrafiek met twee assen maken
 In deze taak vergelijken we de brutomarge en de omzet.
 
-1. Maak een nieuw lijndiagram waarin de procentuele brutomarge van het vorige jaar per maand wordt bijgehouden.  In januari was de brutomarge 35%, in april nemen we een piek (45%) waar, in juli daalde het brutomargepercentage en in augustus was er opnieuw een daling. Krijgen we een soortgelijk patroon voor afgelopen jaar en dit jaar te zien?
+1. Maak een nieuw lijndiagram waarin de **procentuele brutomarge van het vorige jaar** per **maand wordt bijgehouden**.  In januari was de brutomarge 35%, in april nemen we een piek (45%) waar, in juli daalde het brutomargepercentage en in augustus was er opnieuw een daling. Krijgen we een soortgelijk patroon voor afgelopen jaar en dit jaar te zien?
    
    ![](media/power-bi-visualization-combo-chart/combo1_new.png)
-2. Voeg **Omzet van dit jaar > Waarde** en **Omzet van afgelopen jaar** aan het lijndiagram toe. De schaal van **BM % vorig jaar** is veel kleiner is dan de schaal van **Verkoop**, waardoor het lastig is om de waarden te vergelijken.      
+2. Voeg **Omzet van dit jaar > Waarde** en **Omzet van afgelopen jaar** aan het lijndiagram toe. De schaal van de **procentuele brutomarge vorig jaar** is veel kleiner is dan de schaal van **Verkoop**, waardoor het lastig is om de waarden te vergelijken.      
    
    ![](media/power-bi-visualization-combo-chart/flatline_new.png)
-3. Converteer het lijndiagram naar een lijndiagram en gestapeld kolomdiagram, zodat de visual eenvoudiger te lezen en te interpreteren is.
+3. Converteer het lijndiagram naar een Lijndiagram en gestapeld kolomdiagram, zodat de visualisatie eenvoudiger te lezen en te interpreteren is.
    
    ![](media/power-bi-visualization-combo-chart/converttocombo_new.png)
-4. Sleep **Brutomarge % vorig jaar** van **Kolomwaarden** naar **Regelwaarden**. In Power BI worden twee assen gemaakt, zodat de gegevenssets verschillend kunnen worden geschaald. Aan de linkerkant in dollars en aan de rechterkant in percentages.
+4. Sleep **Brutomarge% vorig jaar** van **Kolomwaarden** naar **Lijnwaarden**. In Power BI worden twee assen gemaakt, zodat de gegevenssets verschillend kunnen worden geschaald. Aan de linkerkant verkopen in dollars en aan de rechterkant in percentages.
    
    ![](media/power-bi-visualization-combo-chart/power-bi-combochart.png)    
 
@@ -92,7 +96,7 @@ In deze taak vergelijken we de brutomarge en de omzet.
 3. Stel voor de **Y-as (kolom)** de **Positie** in op **Links**, stel **Titel** in op **Aan**, stel **Stijl** in op **Alleen titel weergeven** en stel voor **Weergeven** de optie **Miljoenen** in.
    
    ![](media/power-bi-visualization-combo-chart/power-bi-y-axis-column.png)
-4. Zorg er bij **Y-as (kolom)** ook voor dat **Secundaire weergeven** is ingesteld op **Aan**. Hiermee geeft u de opties weer om het regeldiagramgedeelte van de combinatiegrafiek op te maken.
+4. Schuif bij **Y-as (kolom)** omlaag en zorg ervoor dat **Secundaire weergeven** is ingesteld op **Aan**. Hiermee geeft u de opties weer om het regeldiagramgedeelte van de combinatiegrafiek op te maken.
    
    ![](media/power-bi-visualization-combo-chart/power-bi-show-secondary.png)
 5. Voor **Y-as (regel)** laat u **Positie** ingesteld staan op **Rechts**, stelt u **Titel** in op **Aan** en stelt u voor **Stijl** de optie **Alleen titel weergeven** in.
@@ -101,26 +105,24 @@ In deze taak vergelijken we de brutomarge en de omzet.
    
    ![](media/power-bi-visualization-combo-chart/power-bi-titles-on.png)
 
+6. Wijzig desgewenst het lettertype, grootte en kleur en stel de overige opmaakopties zo in dat de weergave en leesbaarheid van de grafiek wordt verbeterd.
+
 U kunt nu het volgende doen:
 
 * [De combinatiegrafiek toevoegen als dashboardtegel](service-dashboard-tiles.md).
-* [Het rapport opslaan](service-report-save.md).
+* [Sla het rapport op](service-report-save.md).
 
-## <a name="highlighting-and-cross-filtering"></a>Markeren en kruislings filteren
-Zie [Een filter aan een rapport toevoegen](power-bi-report-add-filter.md) voor meer informatie over het gebruik van het deelvenster Filters.
+## <a name="cross-highlighting-and-cross-filtering"></a>Kruislings markeren en kruislings filteren
 
-Wanneer u een kolom of regel in een combinatiegrafiek markeert, worden de andere filters op de rapportpagina kruislings gefilterd en omgekeerd.
+Wanneer u een kolom of regel in een combinatiegrafiek markeert, worden de andere visualisaties op de rapportpagina kruislings gemarkeerd en gefilterd, en omgekeerd. U kunt deze standaardwerking wijzigen met behulp van het besturingselement [Visuele interactie](visual-interactions.md).
 
 ## <a name="next-steps"></a>Volgende stappen
-[Een visualisatie toevoegen aan een rapport](power-bi-report-add-visualizations-i.md)
 
-[Visualisaties in Power BI Reports](power-bi-report-visualizations.md)
+[Overzicht van visualisaties in Power BI-rapporten](power-bi-report-visualizations.md)
 
-[Typen visualisaties in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+[Visualization types in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md) (Typen visualisaties in Power BI)
 
 [Power BI - basisconcepten](service-basic-concepts.md)
 
-[Probeer het uit, het is gratis.](https://powerbi.com/)
-
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/).
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

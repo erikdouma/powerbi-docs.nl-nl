@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 44c248d1a99a10c69b3fb7c78e68320fdc5cd2b2
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 2d8ed3c30d289646504071daca098df1f41f6aab
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Spreidingsdiagrammen en bellendiagrammen in Power BI (zelfstudie)
 Een spreidingsdiagram heeft altijd twee waardeassen, waarbij een reeks numerieke gegevens op een horizontale as en een andere reeks numerieke waarden op de verticale as wordt weergegeven. In het diagram worden punten weergegeven op het snijpunt van een numerieke x- en y-waarde, waarbij deze waarden in één gegevenspunt worden gecombineerd. Deze gegevenspunten kunnen, afhankelijk van de gegevens, gelijkmatig of ongelijkmatig over de horizontale as zijn verdeeld.
@@ -30,6 +30,8 @@ Een spreidingsdiagram heeft altijd twee waardeassen, waarbij een reeks numerieke
 Bij een bellendiagram worden de gegevenspunten vervangen door bellen. De *grootte* van de bellen geven de gegevens een extra dimensie.
 
 ![](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
+
+U kunt het aantal gegevenspunten instellen  
 
 ## <a name="when-to-use-a-scatter-chart-or-bubble-chart"></a>Wanneer u een spreidingsdiagram of bellendiagram gebruikt
 ### <a name="scatter-charts-are-a-great-choice"></a>In de volgende gevallen komen spreidingsdiagrammen goed van pas:
@@ -39,7 +41,7 @@ Bij een bellendiagram worden de gegevenspunten vervangen door bellen. De *groott
 * om de horizontale as om te zetten in een logaritmische schaal.
 * om werkbladgegevens met paren of gegroepeerde sets waarden weer te geven. In een spreidingsdiagram kunt u de onafhankelijke schalen van de assen aanpassen voor meer informatie over de gegroepeerde waarden.
 * om patronen weer te geven in grote gegevenssets, bijvoorbeeld door lineaire of niet-lineaire trends, clusters en uitschieters weer te geven.
-* om een groot aantal gegevenspunten te vergelijken zonder rekening te houden met tijd Hoe meer gegevens u in een spreidingsdiagram opneemt, hoe beter de vergelijkingen die u kunt maken.
+* om grote aantallen gegevenspunten te vergelijken zonder rekening te houden met tijd.  Hoe meer gegevens u opneemt in een spreidingsdiagram, des te beter zijn de vergelijkingen die u kunt maken.
 
 ### <a name="bubble-charts-are-a-great-choice"></a>In de volgende gevallen komen bellendiagrammen goed van pas:
 * als uw gegevens 3 gegevensreeksen bevatten met elk een set waarden.
@@ -76,13 +78,20 @@ We hebben nu een spreidingsdiagram die Afwijking van totale verkoop in % op de y
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 3. U kunt desgewenst [de kleuren, labels, titels, achtergrond en meer van het visuele element wijzigen](service-getting-started-with-color-formatting-and-axis-properties.md).
 
-## <a name="accessibility"></a>Toegankelijkheid
+   U kunt ook de markeringsvorm wijzigen in een ruit, driehoek of vierkant:
 
-U kunt uw spreidingsdiagram of bellengrafiek toegankelijker maken voor mensen met beperkingen met behulp van *Vormen van markeringen*. 
+   ![Vierkante markering](media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
 
-Als u de markeringsvorm wilt selecteren, kiest u het gedeelte **Indeling** in het deelvenster **Visualisaties**. Vouw het gedeelte **Vormen** uit en selecteer een markeringsvorm.
+4. Wanneer u het aantal gegevenspunten zo wilt instellen dat deze in uw bellengrafiek worden weergegeven, vouwt u in de sectie **Indeling** van het deelvenster **Visualisaties** de kaart **Algemeen** uit en past u het **gegevensvolume** aan. Het standaardvolume is 3500. 
+ 
+    ![Gegevensvolume](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
 
-![Vorm van markering](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
+   > [!NOTE]
+   > Omdat meer gegevenspunten kan leiden tot een langere laadtijd, kunt u beter uw rapporten op internet en op mobiel uittesten en ervoor zorgen dat de prestaties overeenkomen met de verwachtingen van uw gebruikers als u toch besluit om rapporten te publiceren met beperkingen aan de bovengrens van de schaal.
+
+5.   Eventueel kunt u, als u de markeringsvorm wilt selecteren, de kaart **Vormen** uitvouwen en vervolgens een markeringsvorm selecteren.
+
+      ![Vorm van markering](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 ### <a name="your-scatter-chart-has-only-one-data-point"></a>**Uw spreidingsdiagram heeft slechts één gegevenspunt**

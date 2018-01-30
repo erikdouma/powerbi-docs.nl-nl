@@ -16,16 +16,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 4b8a606cd110c13a615be88d49f04e68b3f2cbe6
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: e6a83796afe6afab02ec463d3dd2074d1fdc529a
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Aanbevolen vragen voor Q&A-functie van Power BI maken
-Als u beschikt over een gegevensset, kunt u uw eigen aanbevolen vragen toevoegen aan deze dataset.  En Power BI Q & A toont deze vragen aan collega's die uw gegevensset gebruiken.  Aanbevolen vragen geven uw collega's ideeën over de typen vragen die ze kunnen stellen over de gegevensset. U bepaalt zelf welke aanbevolen vragen u toevoegt: u kunt populaire vragen, vragen die interessante resultaten weergeven of vragen die mogelijk moeilijk zijn te formuleren toevoegen.
+Als u beschikt over een gegevensset, kunt u uw eigen aanbevolen vragen toevoegen aan deze dataset.  En de Q&A-functie van Power BI toont deze vragen aan collega's die uw gegevensset (*Verbruiken*) gebruiken.  Aanbevolen vragen geven uw collega's ideeën over de typen vragen die ze kunnen stellen over de gegevensset. U bepaalt zelf welke aanbevolen vragen u toevoegt: u kunt populaire vragen, vragen die interessante resultaten weergeven of vragen die mogelijk moeilijk zijn te formuleren toevoegen.
 
 Kijk hoe Will een aantal aanbevolen vragen toevoegt aan Power BI Q&A en die vragen vervolgens gebruikt om de gegevensset te verkennen. Gebruik vervolgens de stapsgewijze instructies onder de video om het zelf te proberen.
 
@@ -33,7 +33,6 @@ Kijk hoe Will een aantal aanbevolen vragen toevoegt aan Power BI Q&A en die vrag
 
 > [!NOTE]
 > Vragen in Q&A zijn beschikbaar voor gebruik in de [Microsoft Power BI-app voor iOS op iPads, iPhones en iPod Touch-apparaten](mobile-apps-ios-qna.md) en in de Q&A-preview van Power BI Desktop. Het maken van de vragen is echter alleen beschikbaar in de Power BI-service (app.powerbi.com).
-> 
 > 
 
 In dit artikel wordt het [voorbeeld van een retailanalyse](sample-datasets.md) gebruikt.
@@ -54,7 +53,7 @@ In dit artikel wordt het [voorbeeld van een retailanalyse](sample-datasets.md) g
    ![](media/service-q-and-a-create-featured-questions/power-bi-filled-map.png)
 
 ### <a name="next-steps"></a>Volgende stappen
-[Q&A in Power BI](service-q-and-a.md)  
+[Q&A in Power BI](power-bi-q-and-a.md)  
 [Zelfstudie: Inleiding tot Q&A in Power BI](power-bi-visualization-introduction-to-q-and-a.md)  
 [Power BI - basisconcepten](service-basic-concepts.md)  
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

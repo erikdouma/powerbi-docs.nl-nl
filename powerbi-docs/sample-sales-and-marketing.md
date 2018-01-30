@@ -15,24 +15,54 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 7ff8ba4557c829551b97e51f411269e3ba8fbdea
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 473236553513c41e30cb4d48f03f8fc27fd4d647
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Voorbeeld van verkoop en marketing voor Power BI: een rondleiding
+
+## <a name="overview-of-the-sales-and-marketing-sample"></a>Overzicht van het voorbeeld van verkoop en marketing
 Het **voorbeeld van verkoop en marketing** bevat een dashboard en rapporten voor een fictief productiebedrijf met de naam VanArsdel Ltd. Dit dashboard is gemaakt door de Chief Marketing Officer (CMO) van VanArsdel om de branche en het marktaandeel, productvolume, de verkopen en het gevoel over zijn bedrijf in de gaten te houden.
 
 VanArsdel heeft veel concurrenten, maar is de marktleider binnen de branche. De CMO wil het marktaandeel vergroten en de groeimogelijkheden verkennen. Maar om de een of andere reden is het marktaandeel van VanArsdel geslonken, met een aanzienlijke dip in juni.
 
 Dit voorbeeld is onderdeel van een serie die laat zien hoe u Power BI kunt gebruiken met bedrijfsgegevens, rapporten en dashboards. Dit zijn echte, geanonimiseerde gegevens van obviEnce (www.obvience.com).
 
-[!Note] U kunt ook [alleen de gegevensset (Excel-werkmap)](http://go.microsoft.com/fwlink/?LinkId=529785) voor dit voorbeeld downloaden. De werkmap bevat Power View-werkbladen die u kunt bekijken en wijzigen. Als u de onbewerkte gegevens wilt bekijken, selecteert u **Power Pivot > Beheren**.
-
 ![](media/sample-sales-and-marketing/sales1.png)
+
+## <a name="prerequisites"></a>Vereisten
+
+ Voordat u het voorbeeld kunt gebruiken, moet u het eerst downloaden als een inhoudspakket, een pbix-bestand of een Excel-werkmap.
+
+### <a name="get-the-content-pack-for-this-sample"></a>Het inhoudspakket voor dit voorbeeld ophalen
+
+1. Open Power BI-service (app.powerbi.com) en meld u aan.
+2. Selecteer in de linkerbendehoek **Gegevens ophalen**.
+   
+    ![](media/sample-datasets/power-bi-get-data.png)
+3. Selecteer op de pagina Gegevens ophalen het pictogram **Voorbeelden**.
+   
+   ![](media/sample-datasets/power-bi-samples-icon.png)
+4. Selecteer het **voorbeeld van verkoop en marketing** en kies vervolgens **Verbinding maken**.  
+  
+   ![Voorbeeld van verkoop en marketing](media/sample-sales-and-marketing/sales9.png)
+   
+5. Het inhoudspakket wordt geïmporteerd in Power BI en er wordt een nieuw dashboard, nieuw rapport en een nieuwe gegevensset toegevoegd aan de huidige werkruimte. De nieuwe inhoud is gemarkeerd met een geel sterretje. 
+   
+   ![Sterretje](media/sample-sales-and-marketing/sales10.png)
+  
+### <a name="get-the-pbix-file-for-this-sample"></a>Het pbix-bestand voor dit voorbeeld ophalen
+
+U kunt ook het voorbeeld downloaden als pbix-bestand, dat bedoeld is voor gebruik met Power BI Desktop. 
+
+ * [Voorbeeld van verkoop en marketing](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
+
+### <a name="get-the-excel-workbook-for-this-sample"></a>De Excel-werkmap ophalen voor dit voorbeeld
+U kunt ook [alleen de gegevensset (Excel-werkmap)](http://go.microsoft.com/fwlink/?LinkId=529785) voor dit voorbeeld downloaden. De werkmap bevat Power View-werkbladen die u kunt bekijken en wijzigen. Als u de onbewerkte gegevens wilt bekijken, selecteert u **Power Pivot > Beheren**.
 
 ## <a name="what-is-our-dashboard-telling-us"></a>Wat vertelt het dashboard ons?
 Laten de rondleiding beginnen bij het dashboard en eens kijken welke tegels de CMO heeft vastgemaakt. We zien informatie over ons marktaandeel, de verkopen en het sentiment. En we zien die gegevens opgedeeld per regio, tijd en concurrentie.
@@ -48,21 +78,21 @@ Laten de rondleiding beginnen bij het dashboard en eens kijken welke tegels de C
 #### <a name="which-segments-drive-our-sales-does-it-match-the-industry-trend"></a>Welke segmenten zijn goed voor onze verkoop? Komt dit overeen met de trend binnen de branche?
 1. Selecteer de tegel Overzicht totale aantal eenheden per segment. Deze wordt geopend door Q&A.
 2. Typ aan het eind van een bestaande query **voor VanArsdel**. Q&A interpreteert de een bijgewerkt diagram met het antwoord weer. Onze productvolume afkomstig is afkomstig van Convenience en Beheer.
-   
+
    ![](media/sample-sales-and-marketing/sales2.png)
 3. Ons aandeel in de categorieën **Beheer** en **Convenience** is zeer hoog. Dit zijn de segmenten waarin wij concurreren.
 4. Keer terug naar het dashboard door de naam van het dashboard in de bovenst navigatiebalk (broodkruimels) te selecteren.
 
 #### <a name="what-does-total-unit-market-share-look-like-for-category-versus-region"></a>Hoe ziet het marktaandeel voor het totale aantal eenheden eruit voor een categorie (versus regio)?
-1. Bekijk ook de tegel YTD per fabrikant, regio. Ik vraag me af hoe het totale marktaandeel van de eenheid er per categorie uitziet? 
-   
+1. Bekijk ook de tegel YTD per fabrikant, regio. Ik vraag me af hoe het totale marktaandeel van de eenheid er per categorie uitziet?
+
    ![](media/sample-sales-and-marketing/sales3.png)
 2. Typ boven aan het dashboard in het vragenvak de vraag om het **Totale aantal eenheden per fabrikant en categorie voor 2014 als een treemap** weer te geven. Zoals u ziet wordt de visualisatie bijgewerkt terwijl u de vraag typt.
    ![](media/sample-sales-and-marketing/totalunitsbymanufacturerandcategoryfor2014asatreemap-new.png)
 3. Als u de bevindingen wilt vergelijken, moet u de diagram vastmaken aan uw dashboard. Een interessant gegeven is dat in 2014 VanArsdel alleen producten heeft verkocht die in de categorie **Urban** vallen.
 4. Ga terug naar het dashboard.
 
-Dashboards fungeren ook al ingangspunt in rapporten.  Als er een tegel is gemaakt van een onderliggend rapport, kunt u het rapport openen door op de tegel te klikken. 
+Dashboards fungeren ook al ingangspunt in rapporten.  Als er een tegel is gemaakt van een onderliggend rapport, kunt u het rapport openen door op de tegel te klikken.
 
 De R12M-lijn (Rolling 12 maanden) op het dashboard laat zien dat ons marktaandeel na verloop van tijd niet meer toeneemt en zelfs een beetje slinkt. En waarom vindt er in juni een grote dip in marktaandeel plaats? U kunt dit nader onderzoeken door op de visualisatie te klikken om het onderliggende rapport te openen.
 
@@ -72,7 +102,7 @@ De R12M-lijn (Rolling 12 maanden) op het dashboard laat zien dat ons marktaandee
 
 1. Bekijk onderaan de kolomdiagram Totaal aantal eenheden per maand en isVanArsdel. De zwarte kolom representeert VanArsdel (onze producten) en groen is onze concurrentie. De dip die VanArsdel in juni 2014 ondervond, vond niet plaats bij de concurrentie.
 2. De staafdiagram Totale categorievolume per segment, rechts in het midden, is gefilterd om de twee topsegmenten van VanArsdel te tonen. Dit filter is als volgt gemaakt:  
-   
+
    a.  Vouw het deelvenster Filters aan de rechterkant uit.  
    b.  Klik om de visualisatie te selecteren.  
    c.  Onder Filters op niveau van visuele elementen ziet dat **Segment** zodanig is gefilterd dat alleen **Convenience** en **Beheer** zijn opgenomen.  
@@ -112,4 +142,3 @@ Dit is een veilige omgeving om in te experimenteren. U kunt er altijd voor kieze
 
 ## <a name="next-steps-connect-to-your-data"></a>Volgende stappen: verbinding maken met uw gegevens
 We hopen dat deze rondleiding heeft laten zien hoe Power BI-dashboards, Q&A en rapporten inzicht kunnen bieden in de verkoop- en marketinggegevens. Nu is het uw beurt om verbinding met uw eigen gegevens te maken. Met Power BI kunt u verbinding maken met een groot aantal gegevensbronnen. Zie [Aan de slag met Power BI](service-get-started.md) voor meer informatie.  
-

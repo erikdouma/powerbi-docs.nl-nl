@@ -16,18 +16,23 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 5ab075ede78ad5c08858878d6652e9b102a87fca
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 553e3c417f79d6d1c5a45737ad370d74f72177ca
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Tips en trucs voor kaartvisualisaties in Power BI
-Power BI biedt integratie met Bing Kaarten om standaard kaartcoördinaten te bieden (een proces dat geocodering wordt genoemd) zodat u kaarten kunt maken. In beide worden algoritmen gebruikt voor het identificeren van de juiste locatie, maar soms is het een schatting. Als pogingen om de kaartvisualisatie te maken in Power BI mislukken, wordt de hulp van Bing Kaarten ingeroepen.  
+Power BI biedt integratie met Bing Kaarten om standaard kaartcoördinaten te bieden (een proces dat geocodering wordt genoemd) zodat u kaarten kunt maken. In beide worden algoritmen gebruikt voor het identificeren van de juiste locatie, maar soms is het een schatting. Als pogingen om de kaartvisualisatie te maken in Power BI mislukken, wordt de hulp van Bing Kaarten ingeroepen. 
 
-Gebruik de volgende tips om de kans te verhogen dat de geocodering goed verloopt. De eerste reeks tips kunt u gebruiken als u toegang hebt tot de gegevensset zelf. De tweede reeks tips geeft aan wat u kunt doen in Power BI als u geen toegang hebt tot de gegevensset.
+U of uw beheerder moet mogelijk uw firewall bijwerken om toegang te krijgen tot de URL’s die Bing gebruikt voor geocodering.  Deze URL's zijn:
+* https://dev.virtualearth.net/REST/V1/Locations
+* https://platform.bing.com/geo/spatial/v1/public/Geodata
+* https://www.bing.com/api/maps/mapcontrol
+
+Gebruik de volgende tips om de kans te verhogen dat de geocodering goed verloopt. De eerste reeks tips kunt u gebruiken als u toegang hebt tot de gegevensset zelf. De tweede reeks tips geeft aan wat u kunt doen in Power BI als u geen toegang hebt tot de gegevensset. En de laatste set is een lijst met URL's
 
 ## <a name="what-is-sent-to-bing-maps"></a>Welke gegevens worden verzonden naar Bing Kaarten?
 In de Power BI-service en Power BI Desktop worden de benodigde geografische gegevens voor het maken van de kaartvisualisatie naar Bing verzonden. Dit kunnen ook de gegevens uit de buckets **Locatie**, **Breedtegraad** en **Lengtegraad** en de geovelden uit de buckets voor filters op **rapportniveau**, **paginaniveau** of het **niveau van visuele elementen** zijn. Welke gegevens precies worden verzonden, verschilt per kaarttype. Zie de [privacyverklaring van Bing Kaarten](https://go.microsoft.com/fwlink/?LinkID=248686) voor meer informatie.

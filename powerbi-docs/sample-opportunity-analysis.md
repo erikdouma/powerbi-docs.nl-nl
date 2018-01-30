@@ -15,18 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/04/2017
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 878738eb3f588c461b687451062a1641479e77ed
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 8ee889246c7ceae82195faa62232a987a541b076
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Voorbeeld van een verkoopkansanalyse voor Power BI: een rondleiding volgen
-Het **Voorbeeld van een verkoopanalyse bijhouden** bevat een dashboard (en het bijbehorende rapport) voor een softwarebedrijf dat twee verkoopkanalen heeft: *direct* en *partner*. De Sales manager heeft dit dashboard gemaakt om kansen en omzet bij te houden per regio, dealgrootte en kanaal.
 
-De Sales manager vertrouwt op twee soorten omzet:
+## <a name="overview-of-the-opportunity-analysis-sample"></a>Overzicht van het voorbeeld van een verkoopkansanalyse
+Het **voorbeeld van een verkoopanalyse** bevat een dashboard (en het bijbehorende rapport) voor een softwarebedrijf met twee verkoopkanalen: *direct* en *partner*. De Sales manager heeft dit dashboard gemaakt om kansen en omzet bij te houden per regio, dealgrootte en kanaal.
+
+De verkoopmanager vertrouwt op twee soorten omzet:
 
 * **Omzet**: dit is de schatting van een verkoopmedewerker van wat de omzet van het bedrijf zal zijn.
 * **Gewogen omzet**: dit wordt berekend als Omzet X Waarschijnlijkheidspercentage en wordt algemeen gezien als een meer nauwkeurige manier om de werkelijke verkoopomzet te voorspellen. Waarschijnlijkheid wordt bepaald door de huidige ***verkoopfase*** van de deal.
@@ -36,23 +38,51 @@ De Sales manager vertrouwt op twee soorten omzet:
   * Voorstel: 60%  
   * Afronden: 80%
 
-Dit voorbeeld is onderdeel van een serie die laat zien hoe u Power BI kunt gebruiken met bedrijfsgegevens, rapporten en dashboards. Dit zijn echte, geanonimiseerde gegevens van obviEnce ([www.obvience.com)](http://www.obvience.com/).
+  ![](media/sample-opportunity-analysis/opportunity1.png)
 
->[!Note] 
-U kunt ook [alleen de gegevensset (Excel-werkmap)](http://go.microsoft.com/fwlink/?LinkId=529782) voor dit voorbeeld downloaden. De werkmap bevat Power View-werkbladen die u kunt bekijken en wijzigen.  Als u de onbewerkte gegevens wilt bekijken, selecteert u **Power Pivot > Beheren**. 
+Dit voorbeeld is onderdeel van een serie die laat zien hoe u Power BI kunt gebruiken met bedrijfsgegevens, rapporten en dashboards. Dit zijn echte gegevens die afkomstig zijn van obviEnce ([www.obvience.com)](http://www.obvience.com/) die zijn geanonimiseerd.
 
-![](media/sample-opportunity-analysis/opportunity1.png)
+## <a name="prerequisites"></a>Vereisten
+
+ Voordat u het voorbeeld kunt gebruiken, moet u het eerst downloaden als een inhoudspakket, een pbix-bestand of een Excel-werkmap.
+
+### <a name="get-the-content-pack-for-this-sample"></a>Het inhoudspakket voor dit voorbeeld ophalen
+
+1. Open Power BI-service (app.powerbi.com) en meld u aan.
+2. Selecteer in de linkerbendehoek **Gegevens ophalen**.
+   
+    ![](media/sample-datasets/power-bi-get-data.png)
+3. Selecteer op de pagina Gegevens ophalen het pictogram **Voorbeelden**.
+   
+   ![](media/sample-datasets/power-bi-samples-icon.png)
+4. Selecteer het **voorbeeld van een verkoopkansanalyse** en kies **Verbinding maken**.  
+  
+   ![Gegevens ophalen](media/sample-opportunity-analysis/opportunity-connect.png)
+   
+5. Het inhoudspakket wordt geïmporteerd in Power BI en er wordt een nieuw dashboard, nieuw rapport en een nieuwe gegevensset toegevoegd aan de huidige werkruimte. De nieuwe inhoud is gemarkeerd met een geel sterretje. 
+   
+   ![Sterretje](media/sample-opportunity-analysis/opportunity-asterisk.png)
+  
+### <a name="get-the-pbix-file-for-this-sample"></a>Het pbix-bestand voor dit voorbeeld ophalen
+
+U kunt ook het voorbeeld downloaden als pbix-bestand, dat bedoeld is voor gebruik met Power BI Desktop. 
+
+ * [Voorbeeld van een verkoopkansanalyse](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix)
+
+### <a name="get-the-excel-workbook-for-this-sample"></a>De Excel-werkmap ophalen voor dit voorbeeld
+U kunt ook [alleen de gegevensset (Excel-werkmap)](http://go.microsoft.com/fwlink/?LinkId=529782) voor dit voorbeeld downloaden. De werkmap bevat Power View-werkbladen die u kunt bekijken en wijzigen. Als u de onbewerkte gegevens wilt bekijken, selecteert u **Power Pivot > Beheren**.
+
 
 ## <a name="what-is-our-dashboard-telling-us"></a>Wat vertelt het dashboard ons?
 Onze Sales manager heeft een dashboard gemaakt om die metrische gegevens bij te houden die voor haar het belangrijkste zijn. Wanneer ze iets interessants ziet, kan ze een tegel selecteren om de gegevens nader te bekijken.
 
 1. De bedrijfsomzet is $ 2 miljard en de gewogen omzet is $ 461 miljoen.
 2. Het aantal verkoopkansen en de omzet volgen een vertrouwd trechterpatroon, met totalen die afnemen in elke volgende fase.
-3. In de regio Oost liggen onze meeste kansen. 
+3. In de regio Oost liggen onze meeste kansen.
 4. De grote verkoopkansen genereren meer omzet dan de gemiddelde of kleine verkoopkansen.
-5. Grote deals via partners genereren meer omzet: $ 8 miljoen gemiddeld versus $ 6 miljoen voor directe verkopen. 
+5. Grote deals via partners genereren meer omzet: $ 8 miljoen gemiddeld versus $ 6 miljoen voor directe verkopen.
 
-Aangezien de inspanningen om een deal binnen te halen dezelfde zijn of de deal nu is geclassificeerd als groot, gemiddeld of klein, moet ons bedrijf de gegevens bekijken om meer te leren over grote verkoopkansen. 
+Aangezien de inspanningen om een deal binnen te halen dezelfde zijn of de deal nu is geclassificeerd als groot, gemiddeld of klein, moet ons bedrijf de gegevens bekijken om meer te leren over grote verkoopkansen.
 
 Selecteer de tegel **Aantal verkoopkansen op Partnergestuurd en Verkoopfase** om pagina 1 van het rapport te openen.  
 ![](media/sample-opportunity-analysis/opportunity2.png)
@@ -63,8 +93,8 @@ Selecteer de tegel **Aantal verkoopkansen op Partnergestuurd en Verkoopfase** om
 
 * Oost is onze belangrijkste regio wat betreft het aantal verkoopkansen.  
 * Selecteer een voor een elke regio in het cirkeldiagram om de pagina te filteren. Voor elke regio streven partners aanzienlijk grotere verkoopkansen na.   
-* Het kolomdiagram Aantal verkoopkansen op Partnergestuurd en Grootte van verkoopkans geeft duidelijk aan dat de meeste grote verkoopkansen door partners worden gestuurd en dat meer van de kleine en gemiddelde verkoopkansen niet partnergestuurd zijn. 
-* Selecteer elke Verkoopfase in het staafdiagram linksonder om het verschil te zien in regionale aantallen. Je ziet dat Oost onze grootste regio is wat betreft aantallen, maar in de fases Oplossing, Voorstel en Afronden hebben alle drie regio's vergelijkbare aantallen. Dit betekent dat we een hoger percentage deals hebben in Centraal en West. 
+* Het kolomdiagram Aantal verkoopkansen op Partnergestuurd en Grootte van verkoopkans geeft duidelijk aan dat de meeste grote verkoopkansen door partners worden gestuurd en dat meer van de kleine en gemiddelde verkoopkansen niet partnergestuurd zijn.
+* Selecteer elke Verkoopfase in het staafdiagram linksonder om het verschil te zien in regionale aantallen. Je ziet dat Oost onze grootste regio is wat betreft aantallen, maar in de fases Oplossing, Voorstel en Afronden hebben alle drie regio's vergelijkbare aantallen. Dit betekent dat we een hoger percentage deals hebben in Centraal en West.
 
 ### <a name="page-2-of-our-report-is-titled-revenue-overview"></a>Pagina 2 van ons rapport heet 'Overzicht omzet'.
 Deze pagina kijkt op een vergelijkbare manier naar de gegevens, maar gebruikt het perspectief van omzet in plaats van aantal.  
@@ -82,8 +112,8 @@ Het is duidelijk dat onze partners het beter doen als het gaat om verkopen aan k
 Deze pagina kijkt naar dezelfde gegevens, maar splitst ze op per regio en fase.  
 ![](media/sample-opportunity-analysis/opportunity5.png)
 
-* Door te filteren op Oost (selecteer **Oost** in het cirkeldiagram), ziet u dat de verkoopkansen in het oosten ongeveer gelijk verdeeld zijn tussen partnergestuurd en niet-partnergestuurd. 
-* Grote verkoopkansen komen het meeste voor in de regio Midden, kleine verkoopkansen komen het meest voor in de regio Oost en gemiddelde verkoopkansen komen het meest voor in de regio West. 
+* Door te filteren op Oost (selecteer **Oost** in het cirkeldiagram), ziet u dat de verkoopkansen in het oosten ongeveer gelijk verdeeld zijn tussen partnergestuurd en niet-partnergestuurd.
+* Grote verkoopkansen komen het meeste voor in de regio Midden, kleine verkoopkansen komen het meest voor in de regio Oost en gemiddelde verkoopkansen komen het meest voor in de regio West.
 
 ### <a name="page-4-of-our-report-is-titled-upcoming-opportunities"></a>Pagina 4 van ons rapport heet 'Verwachte verkoopkansen'
 Opnieuw kijken we naar vergelijkbare factoren, maar nu vanuit het perspectief datum/tijd.  
@@ -101,4 +131,3 @@ Dit is een veilige omgeving om in te experimenteren. U kunt er altijd voor kieze
 We hopen dat deze rondleiding heeft laten zien hoe Power BI-dashboards, Q&A en rapporten inzicht kunnen geven in trackinggegevens over verkoopkansen. Nu is het uw beurt om verbinding met uw eigen gegevens te maken. Met Power BI kunt u verbinding maken met een groot aantal gegevensbronnen. Zie [Aan de slag met Power BI](service-get-started.md) voor meer informatie.
 
 [Voorbeelden downloaden](sample-datasets.md)  
-

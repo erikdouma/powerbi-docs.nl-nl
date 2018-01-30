@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 01/23/2018
 ms.author: davidi
-ms.openlocfilehash: 78bac79fc440f0a4efe19947ca7a6e9c53866b0a
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 2832849d887795c2af0750f01e929045f75c12fe
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI voor klanten uit de Amerikaanse overheid
 Er is als onderdeel van **Office 365 US Government Community**-abonnement een versie van de **Power BI-service** beschikbaar voor Amerikaanse overheidsklanten. De versie van de **Power BI-service** die in dit artikel wordt besproken, is specifiek ontworpen voor Amerikaanse overheidsklanten en staat los en verschilt van de commerciële versie van de **Power BI-service**.
@@ -45,11 +45,24 @@ De volgende functies beschikbaar zijn voor **Power BI voor Amerikaanse overheids
 * Alle gegevens worden voor Power BI versleuteld in zowel Azure SQL als Blob Storage
 * Verbinding maken met services met [inhoudspakketten](service-connect-to-services.md)
 
+## <a name="connectivity-between-government-and-public-azure-cloud-services"></a>Connectiviteit tussen Azure Government en openbare Azure Cloud Services 
+
+Azure wordt gedistribueerd over meerdere clouds. Standaard zijn tenants toegestaan om firewallregels van een cloudspecifieke instantie te openen, maar netwerken binnen de cloud is anders en vereist dat u specifieke firewallregels opent voor de communicatie tussen services. Als u een Power BI-klant bent en u over bestaande SQL-instanties beschikt in de openbare cloud die u dient te openen, moet u specifieke firewall-regels in SQL openen op de IP-adresruimte van de Azure Government-cloud voor de volgende datacenters:
+
+* USGov Iowa
+* USGov Virginia
+* USGov Texas
+* USGov Arizona
+
+De IP-adresruimten zijn beschikbaar in de openbare cloud, maar voor de cloud van de overheid moet u een Azure-ondersteuningsticket openen om de IP-bereiken voor de hierboven vermelde datacenters aan te vragen. 
+
+
 ## <a name="limitations-of-power-bi-us-government"></a>Beperkingen van Power BI voor de Amerikaanse overheid
 Enkele van de functies die beschikbaar in de commerciële versie van de **Power BI-service** zijn *niet* beschikbaar in de **Power BI-service** voor Amerikaanse overheidsklanten. Het Power BI-team is actief bezig met het beschikbaar maken van deze functies voor Amerikaanse overheidsklanten. Dit artikel wordt bijgewerkt zodra de functies beschikbaar zijn.
 
 * **Power BI voor de Amerikaanse overheid** is alleen beschikbaar met een **Pro**-licentie. Power BI Free-licenties waarnaar wordt verwezen in een beheerportal (of een portal voor gebruikers) worden uitgevoerd in een commerciële Power BI-servicecloud.
 * **Controleren** - Controleren is niet beschikbaar via de Office 365-portal Beveiliging en naleving.
+* **Power BI-inhoud in Cortana** - resultaten voor Power BI wordt niet weergegeven in zoekresultaten van Cortana, waaronder resultaten voor uw Power BI-inhoud (dashboards, rapporten en apps) en tevens resultaten die voor Cortana geoptimaliseerde rapportpagina's weergeven voor specifieke trefwoorden.
 
 Als er **Power BI** Free-licenties zijn toegewezen aan uw account, worden die accounts uitgevoerd in een commerciële versie van de **Power BI**-service en maken ze geen deel uit van **Power BI voor de Amerikaanse overheid**. Bij deze Free-accounts kunnen de volgende problemen optreden:
 

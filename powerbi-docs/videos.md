@@ -15,31 +15,36 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/19/2018
 ms.author: mihart
-ms.openlocfilehash: c29ea77eab09657b5c21fe97322464523b0621dc
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 4ef3991fc285adc84cdcb5efca00c2f9486e9825
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="power-bi-videos"></a>Power BI-video's
 We hebben een YouTube-kanaal voor Power BI. U kunt [ons kanaal](https://www.youtube.com/user/mspowerbi/videos) bezoeken en, als u nog geen ervaring met Power BI hebt, beginnen met het gedeelte [Gegevens analyseren en visualiseren met een Power BI-afspeellijst](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP).
 
-* Deze video bevat een aantal tips voor het optimaliseren van uw gegevens voor Power BI. Meer informatie over de beste manier om uw gegevens op te maken voordat u deze uploadt naar de service.
+Hier volgen enkele video's van die afspeellijst zodat u aan de slag kunt.
+
+* Overzicht van Power BI-service en Power BI Desktop.
   
   <iframe width="500" height="281" src="https://www.youtube.com/embed/l2wy4XgQIu0" frameborder="0" allowfullscreen></iframe>
-* U kunt snel en eenvoudig bestanden met Power BI uploaden via uw lokale computer. Hier vindt u meer informatie.
+* Samenwerken en delen.
   
-  <iframe width="500" height="281" src="https://www.youtube.com/embed/ETj-z3NyY_o" frameborder="0" allowfullscreen></iframe>
-* OneDrive is een uitstekende manier om verbinding met uw gegevens te maken en ervoor te zorgen dat ze te allen tijde up-to-date blijven.
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/5DABLeJzQYM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+* Overzicht van Power BI-mobiel
   
-  <iframe width="500" height="281" src="https://www.youtube.com/embed/6cOjiV_klrs" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/07uBWhaCo78" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+* Power BI voor ontwikkelaars
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/47uXJW1GIUY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>  
 
 ## <a name="watch-some-of-our-new-uploads"></a>Bekijk enkele van onze nieuwe uploads
-* [Time intelligence](https://youtu.be/MNAaHw4PxzE)
-* [Groeperen en binning](https://youtu.be/51n2itS7K5I)
-* [SAP HANA](https://youtu.be/FOjJLvsIACc)
+* [Datumslicer](https://youtu.be/V7i82ZZm0vw)
+* [Aangepaste visualisaties](https://youtu.be/d-rXAJ3_uAo)
+* [Meldingen in Power BI-service](https://youtu.be/JbL2-HJ8clE)
 
 ## <a name="more-videos"></a>Meer video's
 Bekijk de volgende reeks bronnen en inhoud voor meer video's.
@@ -50,5 +55,5 @@ Bekijk de volgende reeks bronnen en inhoud voor meer video's.
 ## <a name="next-steps"></a>Volgende stappen
 [Aan de slag met Power BI](service-get-started.md)
 
-Nog vragen? [Misschien dat de Power Bi-community het antwoord weet](http://community.powerbi.com/).
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

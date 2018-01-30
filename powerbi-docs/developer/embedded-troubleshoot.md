@@ -15,17 +15,52 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 1/17/2018
 ms.author: asaxton
-ms.openlocfilehash: f6ffc56f524da84e865d17981faddef58534c785
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: b9917b515971d16cb54a09deff1202c382eb7ef0
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Problemen oplossen met uw ingesloten toepassing
 
 In dit artikel worden enkele veelvoorkomende problemen besproken die kunnen optreden tijdens het insluiten van inhoud uit Power BI.
+
+## <a name="tools-for-troubleshooting"></a>Hulpprogramma's voor het oplossen van problemen
+
+### <a name="fiddler-trace"></a>Traceren met Fiddler
+
+[Fiddler](http://www.telerik.com/fiddler) is een gratis hulpprogramma van Telerik waarmee u het HTTP-verkeer kunt controleren.  U kunt hiermee het verkeer tussen de Power BI API's en de clientcomputer bekijken. Het programma kan fouten en verwante informatie weergeven.
+
+![Traceren met Fiddler](../includes/media/gateway-onprem-tshoot-tools-include/fiddler.png)
+
+### <a name="f12-in-browser-for-front-end-debugging"></a>F12 in de browser voor front-endfoutopsporing
+
+Met F12 wordt het ontwikkelvenster in uw browser weergegeven. Hier kunt u onder andere informatie over het netwerkverkeer bekijken.
+
+![Fouten opsporen in de browser met F12](media/embedded-troubleshoot/browser-f12.png)
+
+### <a name="extracting-error-details-from-power-bi-response"></a>Foutdetails extraheren uit het Power BI-antwoord
+
+Dit codefragment laat zien hoe u de foutdetails van de HTTP-uitzondering kunt extraheren:
+
+```
+public static string GetExceptionText(this HttpOperationException exc)
+{
+    var errorText = string.Format("Request: {0}\r\nStatus: {1} ({2})\r\nResponse: {3}",
+    exc.Request.Content, exc.Response.StatusCode, (int)exc.Response.StatusCode, exc.Response.Content);
+    if (exc.Response.Headers.ContainsKey("RequestId"))
+    {
+        var requestId = exc.Response.Headers["RequestId"].FirstOrDefault();
+        errorText += string.Format("\r\nRequestId: {0}", requestId);
+    }
+
+    return errorText;
+}
+```
+Het is raadzaam om de aanvraag-id's (en foutdetails voor probleemoplossing) in een logboek te registreren.
+Geef de aanvraag-id op als u contact opneemt met Microsoft Ondersteuning.
 
 ## <a name="app-registration"></a>App-registratie
 
@@ -105,19 +140,6 @@ Als de gebruiker het rapport of het dashboard niet ziet, controleert u of het ra
 
 Open het bestand vanuit Power BI Desktop, of in powerbi.com, om te controleren of de prestaties acceptabel zijn. Zodoende kunt u problemen met uw toepassing of de API voor insluiten uitsluiten.
 
-## <a name="tools-for-troubleshooting"></a>Hulpprogramma's voor het oplossen van problemen
-
-### <a name="fiddler-trace"></a>Traceren met Fiddler
-
-[Fiddler](http://www.telerik.com/fiddler) is een gratis hulpprogramma van Telerik waarmee u het HTTP-verkeer kunt controleren.  U kunt hiermee het verkeer tussen de Power BI API's en de clientcomputer bekijken. Het programma kan fouten en verwante informatie weergeven.
-
-![Traceren met Fiddler](../includes/media/gateway-onprem-tshoot-tools-include/fiddler.png)
-
-### <a name="f12-in-browser-for-front-end-debugging"></a>F12 in de browser voor front-endfoutopsporing
-
-Met F12 wordt het ontwikkelvenster in uw browser weergegeven. Hier kunt u onder andere informatie over het netwerkverkeer bekijken.
-
-![Fouten opsporen in de browser met F12](media/embedded-troubleshoot/browser-f12.png)
 
 Zie [Veelgestelde vragen over Power BI Embedded](embedded-faq.md) voor antwoorden op veelgestelde vragen.
 

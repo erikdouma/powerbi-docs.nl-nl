@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 01/19/2018
 ms.author: mihart
-ms.openlocfilehash: 5e4788e57bd1836d3d5db10dfb86e2c71c00c34f
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 7d9869c16b88cb410073644bdae94173b9cea023
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="visualization-types-in-power-bi"></a>Typen visualisaties in Power BI
 ## <a name="power-bi-visualizations"></a>Visualisaties in Power BI
 We zullen nieuwe visualisaties toevoegen. Kom snel terug!
 
-En bekijk de [Office Store](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) waar u een groeiende lijst vindt met aangepaste visuele elementen die u kunt downloaden en gebruiken in uw eigen dashboards en rapporten. Bent u in een creatieve bui? [Kijk dan hoe u uw eigen visuele elementen maakt en toevoegt aan de communitysite](developer/office-store.md).  
+En bekijk de [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) waar u een groeiende lijst vindt met [aangepaste visuals](power-bi-custom-visuals.md) die u kunt downloaden en gebruiken in uw eigen dashboards en rapporten. Bent u in een creatieve bui? [Kijk dan hoe u uw eigen visuals maakt en toevoegt aan deze communitysite](developer/office-store.md).  
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Lijst met visualisaties die beschikbaar zijn in Power BI
 Al deze visualisaties kunnen worden toegevoegd aan Power BI-rapporten, opgegeven in Q&A en vastgemaakt aan dashboards.

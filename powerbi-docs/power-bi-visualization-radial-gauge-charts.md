@@ -1,5 +1,5 @@
 ---
-title: Radiale-meterdiagrammen in Power BI (zelfstudie)
+title: Zelfstudie - Radiale-meterdiagrammen in Power BI
 description: 'Zelfstudie: Radiale-meterdiagrammen in Power BI'
 services: powerbi
 documentationcenter: 
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 7299b95cb3dd1fab4edce1764c69e1b2657ef547
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 354bfc01231f0f11aabd533bf29f987dec7c9771
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="radial-gauge-charts-in-power-bi-tutorial"></a>Radiale-meterdiagrammen in Power BI (zelfstudie)
 Een radiale-meterdiagram heeft een cirkelvormige boog en toont één waarde die de voortgang naar een doel/KPI meet.  Het doel of de doelwaarde wordt weergegeven door de lijn (naald). De voortgang naar het doel wordt weergegeven door de arcering.  En de waarde die de voortgang vertegenwoordigt, wordt vetgedrukt weergegeven in de boog. Alle mogelijke waarden zijn gelijkmatig verdeeld langs de boog, van minimum (meest linkse waarde) tot maximum (meest rechtse waarde).
@@ -39,17 +39,25 @@ Radiale meters zijn een uitstekende keuze om:
 * de status van één meting weer te geven.
 * informatie weer te geven die snel kan worden gelezen en begrepen.
 
+### <a name="prerequisites"></a>Vereisten
+ - Power BI-service of Power BI Desktop
+ - Excel-werkmap met financiële voorbeelden: [het voorbeeld rechtstreeks downloaden](http://go.microsoft.com/fwlink/?LinkID=521962).
+
 ## <a name="create-a-basic-radial-gauge"></a>Een eenvoudige radiale meter maken
-In deze instructies wordt het voorbeeld Financial Sample gebruikt. Als u wilt meedoen, [downloadt u het voorbeeld](http://go.microsoft.com/fwlink/?LinkID=521962) naar uw computer, meldt u zich aan bij Power BI en selecteert u **Gegevens ophalen \> Bestanden \> Lokaal bestand > Openen**. 
+Deze instructies maken gebruik van Power BI-service. Als u deze wilt volgen, meld u zich aan bij Power BI en opent u het Excel-bestand Financial Sample.  
 
 Of kijk naar Will die laat zien hoe u eenvoudige metrische visuele elementen maakt: meters, kaarten en KPI's.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 ### <a name="step-1-open-the-financial-sample-excel-file"></a>Stap 1: Het Excel-bestand Financial Sample openen
-1. [Download het Excel-voorbeeldbestand Financial Sample](sample-financial-download.md).
-2. Open het bestand in Power BI door **Gegevens ophalen \> Bestanden** te selecteren en te bladeren naar de locatie waar u het bestand hebt opgeslagen. Selecteer **Importeren**. Financial Sample wordt als gegevensset toegevoegd aan uw werkruimte.
-3. Selecteer **Financial Sample** om dit te openen in de modus Verkennen.
+1. [Download het Excel-bestand Financial Sample](sample-financial-download.md) als u dit nog niet hebt gedaan. Vergeet niet de opslaglocatie.
+
+2. Open het bestand in ***Power BI-service***  door **Gegevens ophalen \> Bestanden** te selecteren en naar de locatie te bladeren waar u het bestand hebt opgeslagen. Selecteer **Importeren**. Financial Sample wordt als gegevensset toegevoegd aan uw werkruimte.
+
+3. Selecteer in de inhoudslijst **Gegevensset** **Financial Sample** om dit in de modus Verkennen te openen.
+
+    ![](media/power-bi-visualization-radial-gauge-charts/power-bi-dataset.png)
 
 ### <a name="step-2-create-a-gauge-to-track-gross-sales"></a>Stap 2: Een meter maken om de brutoverkoop bij te houden
 1. Selecteer **Gross Sales** (brutoverkoop) in het deelvenster **Velden**.
