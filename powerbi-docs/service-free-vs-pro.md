@@ -3,7 +3,7 @@ title: Gratis versie van Power BI versus Power BI Pro
 description: Gebruikers in Power BI zijn gratis gebruikers of gebruikers van de Pro-versie. Het is handig om te weten wat de verschillen tussen deze twee soorten gebruikers zijn.
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/02/2017
-ms.author: asaxton
-ms.openlocfilehash: 62e394f23da6e485a443d79ac7ab40ab4aed9df9
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 7d4609d682af729ef60553263c3407aa99b17b5a
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="power-bi-free-vs-pro"></a>Gratis versie van Power BI versus Power BI Pro
 Gebruikers in Power BI zijn gratis gebruikers of gebruikers van de Pro-versie. Het is handig om te weten wat de verschillen tussen deze twee soorten gebruikers zijn.
@@ -52,5 +52,5 @@ Zie[Wat is Power BI Premium?](service-premium.md) voor meer informatie over Powe
 
 Zie [Als individu aanmelden voor Power BI](service-self-service-signup-for-power-bi.md) als u zich bij Power BI wilt aanmelden om aan de slag te gaan.
 
-Nog vragen? [Misschien dat de Power Bi-community het antwoord weet](https://community.powerbi.com/).
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

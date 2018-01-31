@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/26/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 9817011491f65f84201c4d26ee04aa5cd8704ab1
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 6e93a6d216603ee247979c586481115ba3f67d77
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Gegevensbronnen die worden ondersteund door DirectQuery in Power BI
 In **Power BI Desktop** en de **Power BI-service** kunt u met allerlei gegevensbronnen verbinding maken en toegang tot gegevens verkrijgen. In dit artikel wordt beschreven welke gegevensbronnen voor Power BI worden ondersteund voor de verbindingsmethode **DirectQuery**. Zie [**DirectQuery in Power BI**](desktop-directquery-about.md) voor meer informatie over DirectQuery.
@@ -73,5 +73,5 @@ Bekijk de volgende bronnen voor meer informatie over DirectQuery:
 * [DirectQuery in Power BI](desktop-directquery-about.md)
 * [DirectQuery en SAP HANA](desktop-directquery-sap-hana.md)
 * [DirectQuery en SAP BW](desktop-directquery-sap-bw.md)
-* [On-premises gegevensgateway](service-gateway-onprem.md)
+* [On-premises data gateway](service-gateway-onprem.md) (On-premises gegevensgateway)
 

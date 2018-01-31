@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 820bd1fabbb2770b938160420ac0e5bf97ece703
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: fee1179f5a42c70721324e21f1ce87e4ae9ad132
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="manage-your-data-source---oracle"></a>De gegevensbron beheren - Oracle
 Nadat u de on-premises gegevensgateway hebt geïnstalleerd, moet u gegevensbronnen toevoegen die met de gateway kunnen worden gebruikt. In dit artikel leest u hoe u met gateways en gegevensbronnen werkt. U kunt de Oracle-gegevensbron voor geplande vernieuwing of voor DirectQuery gebruiken.
@@ -72,15 +72,15 @@ CONTOSO =
 ```
 
 ## <a name="add-a-gateway"></a>Een gateway toevoegen
-Als u een gateway wilt toevoegen, kunt u deze eenvoudig [downloaden](https://go.microsoft.com/fwlink/?LinkId=698861) en installeren op een server in uw omgeving. Nadat u de gateway hebt geïnstalleerd, wordt deze onder **Gateways beheren** weergegeven in de lijsten met gateways.
+Als u een gateway wilt toevoegen, moet u deze gewoon [downloaden](https://go.microsoft.com/fwlink/?LinkId=698861) en installeren op een server in uw omgeving. Nadat u de gateway hebt geïnstalleerd, wordt deze weergegeven in de lijsten met gateways onder **Gateways beheren**.
 
 > [!NOTE]
-> **Gateways beheren** wordt pas weergegeven nadat u beheerder van ten minste één gateway bent geworden. U kunt beheerder van een gateway worden doordat een andere beheerder u toevoegt of door zelf een gateway te installeren en configureren.
+> **Gateways beheren** wordt alleen weergegeven als u beheerder van ten minste één gateway bent geworden. Dit kan doordat een andere beheerder u toevoegt of door zelf een gateway te installeren en configureren.
 > 
 > 
 
 ## <a name="remove-a-gateway"></a>Een gateway verwijderen
-Als u een gateway verwijdert, worden tegelijkertijd alle gegevensbronnen in de gateway verwijderd.  Dit heeft als gevolg dat ook alle dashboards en rapporten die van deze gegevensbronnen afhankelijk zijn, niet meer werken.
+Als u een gateway verwijdert, worden ook alle gegevensbronnen voor die gateway verwijderd.  De dashboards en rapporten die afhankelijk zijn van deze gegevensbronnen, werken hierdoor ook niet meer.
 
 1. Selecteer het tandwielpictogram ![](media/service-gateway-onprem-manage-oracle/pbi_gearicon.png) in de rechterbovenhoek > **Gateways beheren**.
 2. Gateway > **Verwijderen**
@@ -88,7 +88,7 @@ Als u een gateway verwijdert, worden tegelijkertijd alle gegevensbronnen in de g
    ![](media/service-gateway-onprem-manage-oracle/datasourcesettings7.png)
 
 ## <a name="add-a-data-source"></a>Een gegevensbron toevoegen
-U kunt een gegevensbron toevoegen door een gateway te selecteren en op **Gegevensbron toevoegen** te klikken of te navigeren naar Gateway > **Gegevensbron toevoegen**.
+U kunt een gegevensbron toevoegen door een gateway te selecteren en op **Gegevensbron toevoegen** te klikken of door naar Gateway > **Gegevensbron toevoegen** te gaan.
 
 ![](media/service-gateway-onprem-manage-oracle/datasourcesettings1.png)
 
@@ -101,7 +101,7 @@ Vul vervolgens de gegevens in voor de gegevensbron, waaronder de **server** en d
 U moet ook een **verificatiemethode** kiezen.  Dit kan **Windows** of **Basic** zijn.  Kies **Basic** als u een account wilt gebruiken dat binnen Oracle is gemaakt, in plaats van Windows-verificatie. Voer de referenties in die u voor deze gegevensbron gaat gebruiken.
 
 > [!NOTE]
-> Alle query's in de gegevensbron worden uitgevoerd met deze referenties. Raadpleeg voor meer informatie over hoe [referenties](service-gateway-onprem.md#credentials) worden opgeslagen, het hoofdartikel over on-premises gateways.
+> Alle query's in de gegevensbron worden uitgevoerd met deze referenties. Meer informatie over hoe [referenties](service-gateway-onprem.md#credentials) worden opgeslagen vindt u in het hoofdartikel over on-premises gateways.
 > 
 > 
 
@@ -112,12 +112,12 @@ Als u alles hebt ingevuld, klikt u op **Toevoegen**.  U kunt deze gegevensbron n
 ![](media/service-gateway-onprem-manage-oracle/datasourcesettings4.png)
 
 ### <a name="advanced-settings"></a>Geavanceerde instellingen
-U kunt het privacyniveau voor uw gegevensbron configureren. Hiermee bepaalt u hoe gegevens kunnen worden gecombineerd. Deze instelling wordt alleen gebruikt voor geplande vernieuwing. Deze instelling geldt niet voor DirectQuery. [Meer informatie](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)
+U kunt het privacyniveau voor de gegevensbron configureren. Hiermee bepaalt u hoe gegevens kunnen worden gecombineerd. Dit wordt alleen gebruikt voor geplande vernieuwing. Het geldt niet voor DirectQuery. [Meer informatie](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)
 
 ![](media/service-gateway-onprem-manage-oracle/datasourcesettings9.png)
 
 ## <a name="remove-a-data-source"></a>Een gegevensbron verwijderen
-Als u een gegevensbron verwijdert, heeft dit als gevolg dat alle dashboards of rapporten die van de gegevensbron afhankelijk zijn, niet meer werken.  
+Als u een gegevensbron verwijdert, zullen de dashboards of rapporten die afhankelijk zijn van de gegevensbron niet meer werken.  
 
 Ga naar Gegevensbron > **Verwijderen** om een gegevensbron te verwijderen.
 
@@ -129,20 +129,20 @@ Op het tabblad Beheerders voor de gateway kunt u gebruikers (of beveiligingsgroe
 ![](media/service-gateway-onprem-manage-oracle/datasourcesettings8.png)
 
 ## <a name="manage-users"></a>Gebruikers beheren
-Voor de gegevensbron kunt u op het tabblad Gebruikers gebruikers (of beveiligingsgroepen) toevoegen en verwijderen die deze gegevensbron kunnen gebruiken.
+Op het tabblad Gebruikers voor de gegevensbron kunt u gebruikers (of beveiligingsgroepen) toevoegen en verwijderen die deze gegevensbron kunnen gebruiken.
 
 > [!NOTE]
-> De gebruikerslijst bepaalt alleen wie er gemachtigd zijn om rapporten te publiceren. Rapporteigenaren kunnen dashboards of inhoudspakketten maken en deze delen met andere gebruikers. Gebruikers die het rapport of dashboard gebruiken, hoeven niet in de gebruikerslijst te worden opgenomen.
+> De lijst met gebruikers wordt uitsluitend geraadpleegd om te bepalen wie er rapporten mag publiceren. Rapporteigenaren kunnen dashboards of inhoudspakketten maken en deze delen met andere gebruikers. Gebruikers die het rapport of dashboard gebruiken, hoeven niet in de gebruikerslijst te worden opgenomen.
 > 
 > 
 
 ![](media/service-gateway-onprem-manage-oracle/datasourcesettings5.png)
 
 ## <a name="using-the-data-source"></a>De gegevensbron gebruiken
-Nadat u de gegevensbron hebt gemaakt, kan deze worden gebruikt in combinatie met zowel DirectQuery-verbindingen als geplande vernieuwing.
+Nadat u de gegevensbron hebt gemaakt, kan deze worden gebruikt met DirectQuery-verbindingen of via geplande vernieuwing.
 
 > [!WARNING]
-> De servernaam en databasenaam die in Power BI Desktop en in de gegevensbron in de on-premises gegevensgateway worden gebruikt, moeten overeenkomen!
+> De servernaam en databasenaam die worden gebruikt voor Power BI Desktop en de gegevensbron in de on-premises gegevensgateway moeten overeenkomen.
 > 
 > 
 
@@ -151,9 +151,9 @@ De koppeling tussen uw gegevensset en de gegevensbron in de gateway is gebaseerd
 Dit geldt voor zowel DirectQuery als geplande vernieuwing.
 
 ### <a name="using-the-data-source-with-directquery-connections"></a>De gegevensbron gebruiken met DirectQuery-verbindingen
-Zorg ervoor dat de servernaam en databasenaam voor Power BI Desktop en de geconfigureerde gegevensbron voor de gateway overeenkomen. Zorg er ook voor dat de gebruiker wordt vermeld op het tabblad **Gebruikers** voor de gegevensbron om gegevenssets met DirectQuery te kunnen publiceren. De selectie voor DirectQuery vindt plaats binnen Power BI Desktop, wanneer u voor het eerst gegevens importeert. [Meer informatie](desktop-use-directquery.md)
+Zorg ervoor dat de servernaam en databasenaam voor Power BI Desktop en de geconfigureerde gegevensbron voor de gateway overeenkomen. Zorg er ook voor dat de gebruiker wordt vermeld op het tabblad **Gebruikers** voor de gegevensbron om gegevenssets met DirectQuery te kunnen publiceren. De selectie voor DirectQuery vindt plaats in Power BI Desktop wanneer u voor het eerst gegevens importeert. [Meer informatie](desktop-use-directquery.md)
 
-Als het goed is, beginnen uw rapporten te werken nadat u de gegevens hebt gepubliceerd vanuit Power BI Desktop of via **Gegevens ophalen**. Nadat u de gegevensbron in de gateway hebt gemaakt, kan het enkele minuten duren voordat de verbinding gebruiksklaar is.
+Als het goed is, werken uw rapporten nadat u de gegevens hebt gepubliceerd vanuit Power BI Desktop of via **Gegevens ophalen**. Nadat u de gegevensbron in de gateway hebt gemaakt, kan het enkele minuten duren voordat de verbinding kan worden gebruikt.
 
 ### <a name="using-the-data-source-with-scheduled-refresh"></a>De gegevensbron gebruiken met geplande vernieuwing
 Als u wordt vermeld op het tabblad **Gebruikers** voor de gegevensbron die in de gateway is geconfigureerd, en de servernaam en databasenaam overeenkomen, wordt de gateway weergegeven voor gebruik met geplande vernieuwing.
@@ -184,5 +184,5 @@ Raadpleeg [Troubleshooting the on-premises data gateway](service-gateway-onprem-
 [Problemen met de on-premises gegevensgateway oplossen](service-gateway-onprem-tshoot.md)  
 [Power BI Premium](service-premium.md)
 
-Hebt u nog vragen? [Mogelijk kent de Power BI-community het antwoord](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

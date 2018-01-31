@@ -3,7 +3,7 @@ title: Klanten met Office 365 Dedicated - bekende problemen
 description: Ondersteuning voor klanten met Office 365 Dedicated - bekende problemen. In dit onderwerp worden problemen besproken die specifiek zijn voor klanten met Office 365 Dedicated. Dit is inclusief beperkingen voor de groepsfunctie en de iPhone-app met aangepaste domeinen.
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: asaxton
-ms.openlocfilehash: 8ee54e64ecbb72354a70a2aeb1d8fda87b3b876b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: cd518803eb04f7baceca5d8bc4fdfb1129622016
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="office-365-dedicated-customers---known-issues"></a>Klanten met Office 365 Dedicated - bekende problemen
 Power BI wordt nu ondersteund voor klanten met Office 365 Dedicated.  Als u een O365 Dedicated-klant bent, kunt u zich aanmelden met een account van deze tenant en Power BI gebruiken. Er zijn momenteel twee bekende problemen.

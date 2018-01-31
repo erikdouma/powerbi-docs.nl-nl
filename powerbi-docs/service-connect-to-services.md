@@ -5,7 +5,7 @@ services: powerbi
 documentationcenter: 
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
+backup: 
 editor: 
 tags: 
 qualityfocus: no
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/29/2018
 ms.author: maggies
-ms.openlocfilehash: 484545b0c240f54e2efe73ff16ba24ebe77d247c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: caf18362c0793d0a501ced2cd3160acc8f891516
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Verbinding maken met de services die u gebruikt met Power BI
 U kunt verbinding maken met een aantal services die u gebruikt om uw bedrijf te runnen, zoals Salesforce, Microsoft Dynamics en Google Analytics. In Power BI worden eerst uw referenties gebruikt om verbinding te maken met de service. Vervolgens wordt een Power BI-app met een dashboard en een reeks Power BI-rapporten gemaakt, waarop automatisch uw gegevens worden getoond en die een visueel overzicht geven van uw bedrijf. 
@@ -73,7 +73,7 @@ Gebruikt u een service die u graag als Power BI-app zou willen hebben? Ga naar d
 Hebt u een service waarvoor een app zou willen bouwen? [Dien uw nominatie in](https://azure.microsoft.com/marketplace/programs/certified/apply/) en selecteer Power BI-inhoudspakket publiceren om aan de slag te gaan.
 
 ## <a name="next-steps"></a>Volgende stappen
-* [What are apps in Power BI?](service-install-use-apps.md) (Wat zijn apps in Power BI?)
-* [Get data in Power BI](service-get-data.md) (Gegevens ophalen in Power BI)
-* Hebt u nog vragen? [Misschien dat de Power Bi-community het antwoord weet](http://community.powerbi.com/)
+* [Wat zijn apps in Power BI?](service-install-use-apps.md)
+* [Gegevens ophalen in Power BI](service-get-data.md)
+* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

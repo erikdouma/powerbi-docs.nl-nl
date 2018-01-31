@@ -3,7 +3,7 @@ title: Releaseopmerkingen bij Power BI Report Server
 description: De REST API biedt toegang op programmeerniveau tot de objecten in een Power BI Report Server-catalogus.
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
-ms.author: asaxton
-ms.openlocfilehash: 27c4d7c6db43a2332fbef4f444a149ebb3098c43
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 554270d3b7bdbd3de88a7d5865dae8cdf226a6b2
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>Ontwikkelen met de REST API's voor Power BI Report Server
 Power BI Report Server-ondersteuning voor REST API’s (Representational State Transfer). De REST API's zijn service-eindpunten die ondersteuning bieden voor een set HTTP-bewerkingen (methoden). Deze bewerkingen bieden de mogelijkheid om resources binnen een rapportserver te maken, op te halen, bij te werken of te verwijderen.

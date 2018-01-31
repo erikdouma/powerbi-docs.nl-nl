@@ -3,7 +3,7 @@ title: Gearchiveerde Power BI-werkruimte
 description: Gearchiveerde Power BI-werkruimte na het beheren van uw Office 365-tenant
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: asaxton
-ms.openlocfilehash: e321fc33eb32988c358ac87290150fe54c1e9479
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 7698a1207f19382430fb8e225543b32b6aebcd49
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="power-bi-archived-workspace"></a>Gearchiveerde Power BI-werkruimte
 Met Power BI kan iedereen zich aanmelden en de service binnen een paar minuten gaan gebruiken.  De IT-afdeling van uw organisatie kan er later voor kiezen om het beheer van Power BI over te nemen voor gebruikers in uw organisatie.  Als deze overname plaatsvindt, profiteert u van centraal beheer van gebruikers en machtigingen in uw organisatie en kunt u mogelijk profiteren van gestroomlijnde aanmelding met dezelfde aanmeldgegevens (gebruikersnaam en wachtwoord) die u ook voor andere services in uw organisatie gebruikt. 
@@ -46,5 +46,5 @@ Om Power BI te blijven gebruiken, moet u nieuwe inhoud maken in uw Mijn werkruim
 * **Rapporten.  ** Rapporten die zijn opgenomen in Excel- of Power BI Desktop-bestanden of rapporten die zijn geïnstalleerd als onderdeel van inhoudspakketten worden automatisch opnieuw gemaakt wanneer u het bijbehorende Excel- of Power BI Desktop-bestand opnieuw uploadt of wanneer u opnieuw verbinding maakt met het inhoudspakket.  Als u uw eigen rapporten hebt gemaakt via de Power BI-service, moet u deze rapporten opnieuw maken in uw Mijn werkruimte.
 * **Dashboards.  ** Dashboards die zijn geïnstalleerd als onderdeel van inhoudspakketten worden automatisch opnieuw gemaakt wanneer u opnieuw verbinding maakt met het inhoudspakket in Mijn werkruimte.  Als u uw eigen dashboards hebt gemaakt via de Power BI-service, moet u deze dashboards opnieuw maken in uw Mijn werkruimte.
 
-Nog vragen? [Misschien dat de Power Bi-community het antwoord weet](http://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

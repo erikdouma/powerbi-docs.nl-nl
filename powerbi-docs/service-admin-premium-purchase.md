@@ -3,7 +3,7 @@ title: Power BI Premium aanschaffen
 description: Lees hoe u Power BI Premium beheert en hoe u toegang tot inhoud voor uw hele organisatie inschakelt.
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/17/2017
-ms.author: asaxton
-ms.openlocfilehash: 6dd0191a480274e7a9b03b182113edd4c734c2ef
-ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
+ms.author: maghan
+ms.openlocfilehash: c24d1d973870fc0d50dc95cc1a8822487cd51091
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI Premium aanschaffen
 Lees hoe u Power BI Premium-capaciteit voor uw hele organisatie koopt.
@@ -124,5 +124,5 @@ U kunt uw abonnement vanuit het Office 365-beheercentrum annuleren. Als u uw Pre
 [Power BI-beheerportal](service-admin-portal.md)  
 [Power BI in uw organisatie beheren](service-admin-administering-power-bi-in-your-organization.md)  
 
-Nog vragen? [Misschien dat de Power Bi-community het antwoord weet](http://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

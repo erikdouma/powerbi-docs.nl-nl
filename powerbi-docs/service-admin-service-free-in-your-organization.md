@@ -3,7 +3,7 @@ title: Power BI (gratis) voor uw organisatie
 description: In dit artikel wordt vanuit het perspectief van een organisatie behandeld welke opties u voor Power BI (gratis) hebt. Als u de beheerder van uw tenant bent, wordt hier beschreven hoe u gratis registraties beheert.
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/05/2017
-ms.author: asaxton
-ms.openlocfilehash: 5cdb3c17b1a65fd2a8b55918feaf58dd12fc1a2f
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: ec039ab195e2112654ac7f3057d54ecb60c21058
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="power-bi-free-in-your-organization"></a>Power BI (gratis) voor uw organisatie
 In dit artikel wordt behandeld hoe de aanbieding van Power BI (gratis) binnen uw organisatie kan worden gebruikt. Een organisatie betekent dat u een tenant hebt en gebruikers en services in die tenant kunt beheren. Als beheerder kunt u de toewijzing van licenties beheren of kunt u toestaan dat gebruikers zich registreren als een persoon. Ook komt de licentie voor Power BI (gratis) aan bod en wordt beschreven hoe u de persoonlijke registratie kunt beheren.
@@ -72,7 +72,7 @@ Als beheerder kunt u ervoor kiezen persoonlijke gebruikersregistraties als onder
 
 De AAD-instelling waarmee dit wordt bepaald, is **AllowAdHocSubscriptions**. Bij de meeste tenants is deze instelling ingesteld op waar, wat betekent dat de optie is ingeschakeld. Als u Power BI hebt aangeschaft via een partner, kan deze instelling zijn ingesteld op onwaar, wat betekent dat de optie is uitgeschakeld.
 
-1. U moet zich eerst aanmelden bij Azure Active Directory met uw Office 365-referenties. In de eerste regel wordt gevraagd naar uw referenties. De tweede regel maakt verbinding met Azure Active Directory.
+1. U moet zich eerst aanmelden bij Azure Active Directory met uw Office 365-referenties. In de eerste regel wordt naar uw referenties gevraagd. De tweede regel maakt verbinding met Azure Active Directory.
    
      $msolcred = get-credential   connect-msolservice -credential $msolcred
    

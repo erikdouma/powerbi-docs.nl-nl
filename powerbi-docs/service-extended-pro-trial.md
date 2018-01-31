@@ -3,7 +3,7 @@ title: De verlengde proefperiode voor Pro activeren
 description: Vanaf 1 juni 2017 kunnen alle in aanmerking komende gebruikers zich aanmelden voor de verlengde Pro-proefversie voor de Power BI-service.
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 07/18/2017
-ms.author: asaxton
-ms.openlocfilehash: 595f1b19ebe30980dcc22254853b9daa5dc4d3d4
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 25e384b13f7161c3238e34bfc482570a1b29ec36
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="extended-pro-trial-activation"></a>De verlengde Pro-proefversie activeren
 Vanaf 1 juni 2017 kunnen alle in aanmerking komende gebruikers zich aanmelden voor de verlengde Pro-proefversie voor de Power BI-service.
@@ -114,5 +114,5 @@ Nee. Beheerders kunnen gebruikers er niet van weerhouden de verlengde proefversi
 [Aankondiging Power BI Premium](https://aka.ms/pbipremium-announcement)  
 [Power Bi-gebruikers zoeken die zich hebben aangemeld](service-admin-access-usage.md)
 
-Nog vragen? [Misschien dat de Power Bi-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

@@ -3,7 +3,7 @@ title: Codefragmenten voor het migreren van inhoud in Power BI Embedded
 description: Hier volgen enkele codefragmenten van basisbewerkingen die vereist zijn voor de migratie van inhoud
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 07/21/2017
-ms.author: asaxton
-ms.openlocfilehash: 39be2f2fad9b111bf99c7df2905a90833a2751a3
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: c868c039e8edfe218c2a578402690a40ed1f3030
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-embedded"></a>Codefragmenten voor het migreren van inhoud in Power BI Embedded
 Hier volgen enkele codefragmenten van basisbewerkingen die vereist zijn voor de migratie van inhoud. Zie voor verwante stromen voor bepaalde rapporttypen [Inhoud in een Power BI Embedded-werkruimteverzameling migreren naar Power BI](migrate-from-powerbi-embedded.md#content-migration).
@@ -240,5 +240,5 @@ In dit fragment gaan we ervan uit dat de pushgegevensset zich al in een app-werk
 [Voorbeeld van het insluiten van JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
 [Technisch document over Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

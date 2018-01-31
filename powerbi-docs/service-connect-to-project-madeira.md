@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 449f6a9363a40895a2b53c7a778ee02129facb7f
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.openlocfilehash: bf65b900f315f74c5ca81980e6371d92923cb97d
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Verbinding maken met Project "Madeira" met behulp van Power BI
 U kunt eenvoudig inzicht krijgen in uw Project "Madeira"-gegevens met Power BI en het Project "Madeira"-inhoudspakket. Met Power BI kunt u uw gegevens ophalen, zowel verkoopgegevens als financiële gegevens, en vervolgens een out-of-box-dashboard en rapporten bouwen op basis van die gegevens.
@@ -63,7 +63,8 @@ Maak verbinding met het [Project "Madeira" Analytics-inhoudspakket](https://app.
 
 ## <a name="system-requirements"></a>Systeemvereisten
 Als u uw Project "Madeira"-gegevens wilt importeren in Power BI, moet u machtigingen hebben voor de tabellen met verkoopgegevens en financiële gegevens waaruit gegevens worden opgehaald. Vereiste tabellen (hoofdlettergevoelig) voor het inhoudspakket zijn:  
-
+ 
+    ´´´ 
     - ItemSalesAndProfit  
     - ItemSalesByCustomer  
     - powerbifinance  
@@ -71,10 +72,11 @@ Als u uw Project "Madeira"-gegevens wilt importeren in Power BI, moet u machtigi
     - SalesOpportunities  
     - SalesOrdersBySalesPerson  
     - TopCustomerOverview  
+    ´´´ 
 
 <a name="FindingParams"></a>
 
-## <a name="finding-parameters"></a>Zoeken naar parameters
+## <a name="finding-parameters"></a>Parameters zoeken
 **De juiste URL ophalen** U kunt deze URL eenvoudig ophalen in Project "Madeira" door naar Web Services te gaan en daar te zoeken naar de powerbifinance-webservice. Kopieer de Odata-URL (klik met de rechtermuisknop en selecteer Snelkoppeling kopiëren), maar verwijder daarbij het deel '/powerbifinance...' uit de URL.
 
 **Webservicetoegangssleutels** U moet u een webservicetoegangssleutel voor uw gebruikersaccount maken om gegevens van Project "Madeira" te gebruiken. Zoek in Project "Madeira" naar de pagina Gebruikers en open vervolgens de kaart voor uw gebruikersaccount. Hier kunt u een nieuwe webservicetoegangssleutel genereren en deze kopiëren naar het wachtwoordveld op de verbindingspagina voor Power BI.

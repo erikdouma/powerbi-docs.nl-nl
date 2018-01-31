@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/14/2017
+ms.date: 01/29/2018
 ms.author: maggies
-ms.openlocfilehash: a95e1ae0c1311d4db753d3e795dd7691927745d1
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d7c27792b9eefc97c39f9211fe246e81d0932a80
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Samenwerken in de werkruimte van uw Power BI-app
 De Power BI app-werkruimten zijn goede plaatsen om met uw collega's samen te werken aan dashboards, rapporten en gegevenssets om *apps* te maken. Dat is waar werkruimten voor zijn ontworpen -- samenwerking. Als u klaar bent met de samenwerking met collega’s aan uw dashboards en rapporten, kunt u deze als een app verpakken en ze distribueren. Meer informatie over [apps en app-werkruimten maken in Power BI](service-create-distribute-apps.md). 

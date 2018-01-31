@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 58cfc6feb510dc9dc335b473b40ee4a7f341ee10
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 02012b531ba43ec5f17e47f2b273b75ef8b2d9ec
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Uw gegevensbron beheren - Analysis Services
 Als u de on-premises gegevensgateway hebt geïnstalleerd, dient u gegevensbronnen toevoegen die kunnen worden gebruikt met die gateway. Dit artikel bespreekt het werken met gateways en gegevensbronnen. U kunt de Analysis Services-gegevensbron gebruiken voor zowel geplande vernieuwing als voor liveverbindingen.
@@ -46,15 +46,15 @@ U kunt een liveverbinding gebruiken voor tabelvormige of multidimensionale exemp
 * Acties en benoemde sets zijn niet beschikbaar in Power BI, maar u kunt wel verbinding maken met multidimensionale kubussen die ook acties of benoemde sets bevatten. Ook kunt u visuele elementen en rapporten maken.
 
 ## <a name="add-a-gateway"></a>Een gateway toevoegen
-Om een gateway toe te voegen, kunt u deze eenvoudig [downloaden](https://go.microsoft.com/fwlink/?LinkId=698861) en installeren op een server in uw omgeving. Nadat u de gateway hebt geïnstalleerd, wordt deze onder **Gateways beheren** weergegeven in de lijsten met gateways.
+Als u een gateway wilt toevoegen, moet u deze gewoon [downloaden](https://go.microsoft.com/fwlink/?LinkId=698861) en installeren op een server in uw omgeving. Nadat u de gateway hebt geïnstalleerd, wordt deze weergegeven in de lijsten met gateways onder **Gateways beheren**.
 
 > [!NOTE]
-> **Gateways beheren** wordt niet weergegeven totdat u de beheerder bent van ten minste één gateway. U kunt beheerder worden van een gateway doordat u wordt toegevoegd door een andere beheerder of door zelf een gateway te installeren en configureren.
+> **Gateways beheren** wordt alleen weergegeven als u beheerder van ten minste één gateway bent geworden. Dit kan doordat een andere beheerder u toevoegt of door zelf een gateway te installeren en configureren.
 > 
 > 
 
 ## <a name="remove-a-gateway"></a>Een gateway verwijderen
-Als u een gateway verwijdert, worden ook alle gegevensbronnen in deze gateway verwijderd.  Hierdoor zullen ook alle dashboards en rapporten die afhankelijk zijn van die gegevensbronnen niet meer werken.
+Als u een gateway verwijdert, worden ook alle gegevensbronnen voor die gateway verwijderd.  De dashboards en rapporten die afhankelijk zijn van deze gegevensbronnen, werken hierdoor ook niet meer.
 
 1. Selecteer het tandwielpictogram ![](media/service-gateway-enterprise-manage-ssas/pbi_gearicon.png) in de rechterbovenhoek > **Gateways beheren**.
 2. Gateway > **Verwijderen**
@@ -62,7 +62,7 @@ Als u een gateway verwijdert, worden ook alle gegevensbronnen in deze gateway ve
    ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings7.png)
 
 ## <a name="add-a-data-source"></a>Een gegevensbron toevoegen
-U kunt een gegevensbron toevoegen door een gateway te selecteren en op **Gegevensbron toevoegen** te klikken of te navigeren naar Gateway > **Gegevensbron toevoegen**.
+U kunt een gegevensbron toevoegen door een gateway te selecteren en op **Gegevensbron toevoegen** te klikken of door naar Gateway > **Gegevensbron toevoegen** te gaan.
 
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings1.png)
 
@@ -86,7 +86,7 @@ Als u alles hebt ingevuld, klikt u op **Toevoegen**.  U kunt deze gegevensbron n
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings4.png)
 
 ### <a name="advanced-settings"></a>Geavanceerde instellingen
-U kunt het privacyniveau voor uw gegevensbron configureren. Hiermee bepaalt u hoe gegevens kunnen worden gecombineerd. Deze instelling wordt alleen gebruikt voor geplande vernieuwing. Deze is niet van toepassing voor liveverbindingen. [Meer informatie](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)
+U kunt het privacyniveau voor de gegevensbron configureren. Hiermee bepaalt u hoe gegevens kunnen worden gecombineerd. Deze instelling wordt alleen gebruikt voor geplande vernieuwing. Deze is niet van toepassing voor liveverbindingen. [Meer informatie](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)
 
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings9.png)
 
@@ -216,7 +216,7 @@ Als u een gegevensbron wilt verwijderen, gaat u naar Gegevensbron > **Verwijdere
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings6.png)
 
 ## <a name="manage-administrators"></a>Beheerder beheren
-Op het gatewaytabblad Beheerders kunt u gebruikers (of beveiligingsgroepen) toevoegen en verwijderen die de gateway kunnen beheren.
+Op het tabblad Beheerders voor de gateway kunt u gebruikers (of beveiligingsgroepen) toevoegen en verwijderen die de gateway kunnen beheren.
 
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings8.png)
 
@@ -224,7 +224,7 @@ Op het gatewaytabblad Beheerders kunt u gebruikers (of beveiligingsgroepen) toev
 Voor de gegevensbron kunt u op het tabblad Gebruikers gebruikers of beveiligingsgroepen toevoegen en verwijderen die deze gegevensbron kunnen gebruiken.
 
 > [!NOTE]
-> De gebruikerslijst bepaalt alleen wie gemachtigd zijn om rapporten te publiceren. De eigenaren van rapport kunnen dashboards of inhoudspakketten maken en deze delen met andere gebruikers.
+> De gebruikerslijst bepaalt alleen wie gemachtigd zijn om rapporten te publiceren. De rapporteigenaren kunnen dashboards of inhoudspakketten maken en deze delen met andere gebruikers.
 > 
 > 
 
@@ -238,7 +238,7 @@ Nadat u de gegevensbron hebt gemaakt, wordt deze beschikbaar voor gebruik met zo
 > 
 > 
 
-De koppeling tussen uw gegevensset en de gegevensbron in de gateway is gebaseerd op uw server- en databasenaam. Deze moeten met elkaar overeenkomen. Als u bijvoorbeeld een IP-adres gebruikt als servernaam, moet u in Power BI Desktop dit IP-adres gebruiken voor de gegevensbron in de gatewayconfiguratie. Als u in Power BI Desktop *SERVER\EXEMPLAAR* gebruikt, moet u dat ook gebruiken in de gegevensbron die u voor de gateway configureert.
+De koppeling tussen uw gegevensset en de gegevensbron in de gateway is gebaseerd op uw server- en databasenaam. Deze moeten overeenkomen. Als u bijvoorbeeld een IP-adres gebruikt als servernaam in Power BI Desktop, moet u dit IP-adres gebruiken voor de gegevensbron in de gatewayconfiguratie. Als u in Power BI Desktop *SERVER\EXEMPLAAR* gebruikt, moet u dat ook gebruiken in de gegevensbron die u voor de gateway configureert.
 
 Dit geldt voor zowel liveverbindingen als geplande vernieuwing.
 
@@ -248,7 +248,7 @@ U dient ervoor te zorgen dat de server- en databasenamen voor Power BI Desktop e
 Nadat u de gegevens hebt gepubliceerd, vanuit Power BI Desktop of via **Gegevens ophalen**, zouden uw rapporten moeten werken. Nadat u de gegevensbron in de gateway hebt gemaakt, kan het enkele minuten duren voordat de verbinding kan worden gebruikt.
 
 ### <a name="using-the-data-source-with-scheduled-refresh"></a>De gegevensbron gebruiken met geplande vernieuwing
-Als u wordt vermeld in het tabblad **Gebruikers** voor de gegevensbron die is geconfigureerd in de gateway, en de server- en databasenamen overeenkomen, wordt de gateway weergegeven voor gebruik met geplande vernieuwing.
+Als u wordt vermeld op het tabblad **Gebruikers** voor de gegevensbron die is geconfigureerd in de gateway en de server- en databasenaam overeenkomen, wordt de gateway als optie vermeld en kan deze worden gebruikt bij een geplande vernieuwing.
 
 ![](media/service-gateway-enterprise-manage-ssas/powerbi-gateway-enterprise-schedule-refresh.png)
 
@@ -256,5 +256,5 @@ Als u wordt vermeld in het tabblad **Gebruikers** voor de gegevensbron die is ge
 [On-premises gegevensgateway](service-gateway-onprem.md)  
 [On-premises gegevensgateway - uitgebreid](service-gateway-onprem-indepth.md)  
 [Problemen met de on-premises gegevensgateway oplossen](service-gateway-onprem-tshoot.md)  
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

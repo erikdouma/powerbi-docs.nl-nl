@@ -3,7 +3,7 @@ title: Beveiliging op rijniveau (RLS) met Power BI begrijpen
 description: "Hoe u de beveiliging op rijniveau voor de geïmporteerde gegevenssets en DirectQuery configureert in Power BI Desktop."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 10/12/2017
-ms.author: asaxton
-ms.openlocfilehash: e6b6efb976de8df6064f2eb1156237d1a1250807
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: fccb2094158ed2dffaa0a80cc5609dfbf382be30
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="row-level-security-rls-with-power-bi-desktop"></a>Beveiliging op rijniveau (RLS) met Power BI
 Beveiliging op rijniveau (RLS) kan in Power BI Desktop worden gebruikt om de toegang tot gegevens voor bepaalde gebruikers te beperken. Filters beperken gegevens op rijniveau. U kunt filters definiëren in rollen.
@@ -46,5 +46,5 @@ Meer informatie over opties voor [RLS in de Power BI-service](service-admin-rls.
 ## <a name="next-steps"></a>Volgende stappen
 [Beveiliging op rijniveau (RLS) met de Power BI-service](service-admin-rls.md)  
 
-Hebt u nog vragen? [Misschien dat de Power Bi-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

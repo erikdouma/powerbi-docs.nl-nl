@@ -3,7 +3,7 @@ title: Uitleg over de Power BI-beheerdersrol
 description: "Hoe u de beveiliging op rijniveau voor de geïmporteerde gegevenssets en DirectQuery configureert in de Power BI-service."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/05/2017
-ms.author: asaxton
-ms.openlocfilehash: be5b63ad969ed7c1a341489973832a9f10a8dd46
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 6c0d6a0e0965f2fa4fedce4c2b32ee34a7b1b009
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="understanding-the-power-bi-admin-role"></a>Uitleg over de Power BI-beheerdersrol
 Meer informatie over het gebruik van de Power BI-beheerdersrol binnen uw organisatie.
@@ -125,5 +125,5 @@ De beheerdersrol van Power BI-service biedt geen toegang tot het volgende.
 [Power BI controleren in uw organisatie](service-admin-auditing.md)  
 [Power BI in uw organisatie beheren](service-admin-administering-power-bi-in-your-organization.md)  
 
-Nog vragen? [Misschien dat de Power Bi-community het antwoord weet](http://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 
