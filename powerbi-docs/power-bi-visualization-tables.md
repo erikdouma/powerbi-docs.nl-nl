@@ -1,6 +1,6 @@
 ---
-title: Tabelvisualisaties in Power BI-rapporten en -dashboards (zelfstudie)
-description: Tips voor het werken met tabelvisualisaties in Power BI-rapporten en -dashboards, inclusief het vergroten of verkleinen van de kolombreedte.
+title: 'Zelfstudie: tabelvisualisaties in Power BI-rapporten en -dashboards (zelfstudie)'
+description: Zelfstudie over het werken met tabelvisualisaties in Power BI-rapporten en -dashboards, met informatie over het aanpassen van de kolombreedte.
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: e4a2e162ca193af756e7182fb118bc7e72d38d28
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 4785df6bbc14bf0da4500a9cffdcd47381e412f4
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards-tutorial"></a>Werken met tabelvisualisaties in Power BI-rapporten en -dashboards (zelfstudie)
 Een tabel is een raster met gerelateerde gegevens in een logische reeks rijen en kolommen. Het kan ook koppen en een rij voor totalen bevatten. Tabellen werken goed met kwantitatieve vergelijkingen waarbij u veel waarden voor één categorie bekijkt. Deze tabel geeft bijvoorbeeld 5 verschillende eenheden  voor **Categorie** weer.
@@ -40,11 +40,16 @@ Tabellen zijn een prima keuze:
 > Als een tabel te veel waarden heeft, kunt u deze converteren naar een matrix en/of een detailweergave te gebruiken.
 > 
 > 
+## <a name="prerequisites"></a>Vereisten
+ - Power BI-service of Power BI Desktop
+ - Voorbeeld van een retailanalyse
+
 
 ## <a name="create-a-table"></a>Een tabel maken
-Meld u aan bij Power BI als u mee wilt doen. Selecteer achtereenvolgens **Gegevens ophalen > Voorbeelden > Voorbeeld van een retailanalyse**. We maken de tabel hierboven om de omzet per artikelcategorie weer te geven.
+We maken de tabel hierboven om de omzet per artikelcategorie weer te geven. Meld u aan bij de Power BI-service als u de zelfstudie wilt volgen. Selecteer achtereenvolgens **Gegevens ophalen \> Voorbeelden \> Voorbeeld van een retailanalyse > Verbinding maken** en kies **Naar dashboard gaan. Voor het maken van een visualisatie hebt u bewerkmachtigingen voor de gegevensset en het rapport nodig. De voorbeelden van Power Bi zijn allemaal bewerkbaar. Als het rapport met u is gedeeld, kunt u geen visualisaties maken in rapporten.
 
-1. Selecteer in **Mijn werkruimte** het tabblad Gegevenssets en blader omlaag naar de gegevensset Voorbeeld van een retailanalyse die u zojuist hebt toegevoegd.  Selecteer het prictogram **Rapport maken**.
+1. Selecteer in het navigatiedeelvenster aan de linkerkant **Werkruimten >Mijn werkruimte**.    
+2. Selecteer het tabblad Gegevenssets en scrol omlaag naar de gegevensset Voorbeeld van een retailanalyse die u zojuist hebt toegevoegd.  Selecteer het pictogram **Rapport maken**.
    
     ![](media/power-bi-visualization-tables/power-bi-create-report.png)
 2. Selecteer in de rapporteditor **Artikel** > **Categorie**.  Power BI maakt automatisch een tabel waarin alle categorieën worden weergegeven.

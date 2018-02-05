@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/20/2018
+ms.date: 01/24/2018
 ms.author: mihart
-ms.openlocfilehash: 259007c76b7b53ba0ea55a28fbdd189469383364
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+ms.openlocfilehash: 7c0bd2f342385f71fd91bb81a284ef41deb46169
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Een rapport vanuit de Power BI-service exporteren naar Desktop (preview-versie)
 In Power BI Desktop kunt u een rapport exporteren (ook wel *downloaden* genoemd) naar de Power BI-service door het rapport op te slaan en **Publiceren** te kiezen. U kunt ook de andere kant op exporteren en een rapport downloaden van de Power BI-service naar Desktop. De extensie voor bestanden die worden geëxporteerd in beide richtingen is *.pbix*.
@@ -37,7 +37,7 @@ Volg deze stappen om het .pbix-bestand te downloaden:
 2. Selecteer **Bestand > Rapport downloaden** in de menubalk.
    
    > [!NOTE]
-   > Het rapport moet zijn [gemaakt met Power BI Desktop](guided-learning/publishingandsharing.yml#step-2) na 23 november 2016 (of sindsdien bijgewerkt) om het te kunnen downloaden. Als dit niet het geval is, is de optie *Rapport downloaden* in de Power BI-service niet beschikbaar.
+   > Het rapport moet zijn [gemaakt met Power BI Desktop](guided-learning/publishingandsharing.yml#step-2) na 23 november 2016 (en sindsdien zijn bijgewerkt) om het te kunnen downloaden. Als dit niet het geval is, is de optie *Rapport downloaden* in de Power BI-service niet beschikbaar.
    > 
    > 
 3. Terwijl het .pbix-bestand wordt gemaakt, wordt de voortgang weergegeven in een statusbanner. Wanneer het bestand klaar is, wordt u gevraagd om het .pbix-bestand te openen of op te slaan. De naam van het bestand komt overeen met de titel van het rapport.
@@ -59,7 +59,7 @@ Volg deze stappen om het .pbix-bestand te downloaden:
 Er zijn enkele belangrijke overwegingen en beperkingen met betrekking tot het downloaden (exporteren) van een *.pbix*-bestand van de Power BI-service.
 
 * Om het bestand te downloaden, moet u bewerkingstoegang tot het rapport hebben.
-* Het rapport moet afkomstig zijn van **Power BI Desktop** en moet zijn *gepubliceerd* naar de **Power BI-service**, of het .pbix-bestand moet zijn *geüpload* naar de service.
+* Het rapport moet zijn gemaakt met **Power BI Desktop** en moet zijn *gepubliceerd* naar de **Power BI-service**, of het .pbix-bestand moet zijn *geüpload* naar de service.
 * Rapporten moeten zijn gepubliceerd of bijgewerkt na 23 november 2016. Rapporten die voor deze datum zijn gepubliceerd, kunnen niet worden gedownload.
 * Deze functie werkt niet met rapporten die oorspronkelijk zijn gemaakt in de **Power BI-service**, met inbegrip van inhoudspakketten.
 * U moet altijd de nieuwste versie van **Power BI Desktop** gebruiken wanneer u gedownloade bestanden opent. Gedownloade *.pbix*-bestanden kunnen mogelijk niet worden geopend in versies van **Power BI Desktop** die niet up-to-date zijn.

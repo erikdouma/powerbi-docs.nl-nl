@@ -1,11 +1,11 @@
 ---
-title: Power BI-rapporten delen met collega's
-description: Informatie over het delen van Power BI-rapporten en gefilterde rapporten met collega's binnen uw organisatie.
+title: Power BI-rapporten filteren en delen met collega's
+description: Informatie over het delen van een gefilterd Power BI-rapport met collega's binnen uw organisatie.
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
+backup: lukaszp
 editor: 
 tags: 
 featuredvideoid: 0tUwn8DHo3s
@@ -16,43 +16,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 01/18/2018
 ms.author: maggies
-ms.openlocfilehash: 2a7b4cc652e600b9a368f6f7eda657c06e131da3
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: fff70dc8e0fa1eaafd68d5995881b2c416d4e29d
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/24/2018
 ---
-# <a name="share-power-bi-reports-with-your-coworkers"></a>Power BI-rapporten delen met uw collega's
-*Delen* is een goede manier om enkele personen toegang te geven tot uw dashboards en rapporten. Power BI ondersteunt [verschillende manieren om samen te werken en uw rapporten te distribueren](service-how-to-collaborate-distribute-dashboards-reports.md). Delen is hier slechts één van.
+# <a name="share-a-filtered-power-bi-report-with-your-coworkers"></a>Een gefilterd Power BI-rapport delen met uw collega 's
+*Delen* is een goede manier om enkele personen toegang te geven tot uw dashboards en rapporten. Power BI ondersteunt ook [verschillende andere manieren om samen te werken en uw rapporten te distribueren](service-how-to-collaborate-distribute-dashboards-reports.md).
 
 Als u wilt gaan delen, moeten u en de ontvangers een [Power BI Pro licentie](service-free-vs-pro.md) hebben, of de inhoud moet zich in een [Premium-capaciteit](service-premium.md) bevinden. Suggesties? Het team van Power BI is altijd geïnteresseerd in uw feedback. Ga hiervoor naar de [site van de Power BI-community](https://community.powerbi.com/).
 
-U kunt een rapport delen met collega's in hetzelfde e-maildomein, vanuit uw eigen werkruimte of vanuit een app-werkruimte. Wanneer u een rapport deelt, kunnen de personen met wie u het rapport deelt dit bekijken en de inhoud ervan op verschillende manieren weergeven, maar niet bewerken. Ze zien dezelfde gegevens die u ziet in het rapport, tenzij [beveiliging op rijniveau](service-admin-rls.md) wordt toegepast. 
+U kunt een rapport delen met collega's in hetzelfde e-maildomein als u, vanaf de meeste plaatsen in de Power BI-service: uw Favorieten, Recent, Gedeeld met mij (als de eigenaar het toestaat), Mijn werkruimte of andere werkruimten. Wanneer u een rapport deelt, kunnen de personen met wie u het rapport deelt dit bekijken en de inhoud ervan op verschillende manieren weergeven, maar niet bewerken. Ze zien dezelfde gegevens die u ziet in het rapport, tenzij [beveiliging op rijniveau](service-admin-rls.md) wordt toegepast. 
 
-## <a name="share-a-power-bi-report"></a>Een Power BI-rapport delen
-1. [Maak een dashboard](service-dashboard-create.md) in de Power BI-service met ten minste één tegel die is gekoppeld aan het rapport dat u wilt delen. 
-   
-    Ook als u alleen het rapport wilt delen, moet u eerst een dashboard maken dat aan het rapport is gekoppeld voordat u het kunt delen. 
-
-1. Selecteer in de rechterbovenhoek van het dashboard **Delen**.
-
-     ![Selecteer Delen](media/service-share-reports/power-bi-share-upper-right.png)
-  
-2. Adresseer het rapport aan de beoogde ontvangers. Als u hen geen mail over het dashboard wilt sturen, schakelt u het selectievakje **E-mailbericht naar ontvangers verzenden** uit.
-
-     ![Het selectievakje E-mailbericht verzenden uitschakelen](media/service-share-reports/power-bi-share-dont-send-mail.png)
-
-4. Selecteer **Delen**.
-
-      De personen waarmee u het dashboard deelt, hebben nu toestemming om het onderliggende rapport te bekijken. 
-
-1. Open het rapport in de Power BI-service en kopieer de URL van de rapportpagina. Verzendt de URL naar uw collega's. 
-   
-    Als zij de koppeling selecteren, wordt door Power BI een alleen-lezen versie van het rapport geopend.
-
-## <a name="share-a-filtered-version-of-a-report"></a>Een gefilterde versie van een rapport delen
+## <a name="filter-and-share-a-report"></a>Een rapport filteren en delen
 Wat gebeurt er als u een gefilterde versie van een rapport wilt delen? Dit kan bijvoorbeeld een rapport zijn dat alleen gegevens weergeeft voor een specifieke stad of verkoper of jaar. Hiervoor kunt u een aangepaste URL maken.
 
 1. Open het rapport in de [bewerkingsweergave](service-reading-view-and-editing-view.md), pas het filter toe en sla het rapport op.
@@ -74,11 +53,13 @@ Wat gebeurt er als u een gefilterde versie van een rapport wilt delen? Dit kan b
    
    Uw browser voegt speciale tekens toe om slashes, spaties en apostrofs weer te geven, zodat het uiteindelijke resultaat is:
    
-   app.powerbi.com/groups/me/reports/010ae9ad-a9ab-4904-a7a1-10a61f70f2f5/ReportSection2?filter=Store%252FTerritory%20eq%20%27NC%27
+   app.powerbi.com/groups/me/reports/010ae9ad-a9ab-4904-a7a1-xxxxxxxxxxxx/ReportSection2?filter=Store%252FTerritory%20eq%20%27NC%27
 
-3. Stuur deze URL naar uw collega's. 
-   
-   Als zij de koppeling selecteren, wordt door Power BI een alleen-lezen versie van het gefilterde rapport geopend.
+3. [Deel het rapport](service-share-dashboards.md), maar verwijder het vinkje in het selectievakje **E-mailmelding verzenden naar ontvanger**. 
+
+    ![Het dialoogvenster Rapport delen](media/service-share-reports/power-bi-share-report-dialog.png)
+
+4. Verzend de koppeling met het filter dat u eerder hebt gemaakt.
 
 ## <a name="next-steps"></a>Volgende stappen
 * Wilt u feedback geven? Dit kan op de [site van de Power BI-community](https://community.powerbi.com/).

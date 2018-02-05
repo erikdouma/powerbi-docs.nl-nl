@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 66e75d638595113b2df67650896a407ae5d13e88
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: fc697437ff9f5fb6b8dd49f6513c728d1b8ddfeb
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="subscribe-to-a-power-bi-report-or-dashboard"></a>Abonneren op een Power BI-rapport of -dashboard
 Het is nog nooit zo eenvoudig geweest om op de hoogte blijven van uw belangrijkste dashboards en rapporten. Abonneer u op de rapportpagina's en dashboards die voor u het belangrijkst zijn, zodat u een e-mail van Power BI in uw postvak ontvangt met een momentopname. U geeft voor Power BI op hoe vaak u de e-mails wilt ontvangen: van één keer per dag tot één keer per week. Voor e-mail en momentopnamen wordt de taal gebruikt die in instellingen voor Power BI is ingesteld. Als er geen taal is ingesteld, wordt in Power BI gebruik gemaakt van de huidige taal in de browser.
@@ -119,6 +119,7 @@ Een abonnement wordt beëindigd als de Pro-licentie is verlopen, het dashboard o
 * Mogelijk kunt u zich vanwege de maximale e-mailgrootte niet abonneren op dashboards of rapporten met extreem grote afbeeldingen.    
 * Wanneer dashboards of rapporten langer dan twee maanden niet worden bezocht, wordt de vernieuwing van de bijbehorende gegevenssets automatisch door Power BI onderbroken.  Als u echter een abonnement aan een dashboard of rapport toevoegt, wordt het dashboard of rapport niet onderbroken, ook net als het niet wordt bezocht.    
 * Als u geen e-mails voor een abonnement ontvangt, controleert u of uw User Principal Name (UPN) e-mails kan ontvangen. [Het Power BI-team werkt aan een versoepeling van deze vereiste](https://community.powerbi.com/t5/Issues/No-Mail-from-Cloud-Service/idc-p/205918#M10163). 
+* Voor verstuurde rapporten en dashboards wordt uw taalinstelling van Power BI gebruikt. De standaardtaal is Engels. Als u uw voorkeurstaal wilt zien of instellen, selecteert u het tandwielpictogram ![](media/service-report-subscribe/power-bi-settings-icon.png) **> Instellingen > Algemeen > Taal**.
 
 ## <a name="next-steps"></a>Volgende stappen
 * Nog vragen? [Misschien dat de Power Bi-community het antwoord weet](http://community.powerbi.com/).    

@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/16/2018
+ms.date: 01/24/2018
 ms.author: maggies
-ms.openlocfilehash: 89c376451199aec0a6f464f3298df44d468f37d2
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: fadeaedbcc61626b7f1265ac44480c55a60f4fe0
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Apps maken en publiceren met dashboards en rapporten in Power BI
 
@@ -32,7 +32,13 @@ Uw zakelijke gebruikers hebben vaak meerdere Power BI-dashboards en rapporten no
 
 Met Power BI-apps, nu beschikbaar in preview, kunt u verzamelingen van dashboards en rapporten maken en deze apps naar uw hele organisatie of naar specifieke personen of groepen publiceren. Apps maken het u als beheerder of rapportmaker gemakkelijker om machtigingen voor verzamelingen van dashboards te beheren.
 
-Zakelijke gebruikers kunnen deze apps installeren vanuit Microsoft AppSource, of u kunt hen een directe koppeling sturen. Ze kunnen uw inhoud eenvoudig vinden en opnieuw bekijken, omdat alles op één plek staat. Ze ontvangen automatisch updates en u kunt bepalen hoe vaak de gegevens worden vernieuwd. Meer informatie over de [app-ervaring voor zakelijke gebruikers](service-install-use-apps.md).
+Zakelijke gebruikers kunnen uw apps op een aantal verschillende manieren installeren. Als de Power BI-beheerder u toestemming geeft, kunt u ze automatisch installeren in de Power BI-accounts van uw collega's. Anders kunnen ze uw apps vanuit Microsoft AppSource installeren, of u kunt ze via een directe koppeling verzenden. Ze kunnen uw inhoud eenvoudig vinden en opnieuw bekijken, omdat alles op één plek staat. Ze ontvangen automatisch updates en u kunt bepalen hoe vaak de gegevens worden vernieuwd. Meer informatie over de [app-ervaring voor zakelijke gebruikers](service-install-use-apps.md).
+
+### <a name="licenses-for-apps"></a>Licenties voor apps
+Als maker van apps hebt u een licentie voor Power BI Pro nodig. Voor uw app-gebruikers zijn er twee opties.
+
+* Optie 1: alle zakelijke gebruikers moeten **Power BI Pro**-licenties hebben om uw app te bekijken. 
+* Optie 2: vrije gebruikers in uw organisatie kunnen app-inhoud bekijken als uw app een Power BI Premium-capaciteit heeft. Lees [Wat is Power BI Premium?](service-premium.md) voor meer informatie.
 
 ### <a name="apps-and-organizational-content-packs"></a>Apps en organisatie-inhoudspakketten
 Apps zijn verbeterde organisatie-inhoudspakketten. Als u al organisatie-inhoudspakketten hebt, blijven deze gewoon naast apps werken.
@@ -41,12 +47,6 @@ Nu u een overzicht van apps hebt, gaan we het hebben over *app-werkruimten*, waa
 
 ## <a name="video-apps-and-app-workspaces"></a>Video: Apps en app-werkruimten
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
-
-## <a name="licenses-for-apps"></a>Licenties voor apps
-Als maker van apps hebt u een licentie voor Power BI Pro nodig. Voor uw app-gebruikers zijn er twee opties.
-
-* Optie 1: alle zakelijke gebruikers moeten **Power BI Pro**-licenties hebben om uw app te bekijken. 
-* Optie 2: vrije gebruikers in uw organisatie kunnen app-inhoud bekijken als uw app een Power BI Premium-capaciteit heeft. Lees [Wat is Power BI Premium?](service-premium.md) voor meer informatie.
 
 ## <a name="app-workspaces"></a>App-werkruimten
 *App-werkruimten* zijn de plekken waar u apps maakt. U moet dus eerst een app-werkruimte maken voordat u de app kunt maken. Als u ooit in een groepswerkruimte in Power BI hebt gewerkt, zullen app-werkruimten u bekend voorkomen. Het zijn in feite verder ontwikkelde groepswerkruimten: ruimten met tijdelijke bestanden en containers voor de inhoud van de app. 
@@ -106,21 +106,23 @@ Als de dashboards en rapporten in uw app-werkruimte klaar zijn, kunt u deze als 
    
      ![App publiceren](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
 
-2. Geef eerst bij **Details** de beschrijving op om mensen te helpen de app te vinden. U kunt een achtergrondkleur instellen om de app te personaliseren.
+2. Geef bij **Details** een beschrijving op om mensen te helpen de app te vinden. U kunt een achtergrondkleur instellen om de app te personaliseren.
    
      ![App-details](media/service-create-distribute-apps/power-bi-apps-details.png)
 
-3. Vervolgens ziet u bij **Inhoud** alle inhoud die wordt gepubliceerd als onderdeel van de app: alles wat u in de werkruimte hebt geselecteerd. U kunt ook de startpagina van de app instellen: het dashboard of rapport dat mensen als eerste zien wanneer ze naar uw app gaan. U kunt **Geen** kiezen. Vervolgens komen ze op een lijst van alle inhoud in de app te staan. 
+3. Bij **Inhoud** ziet u alle inhoud die wordt gepubliceerd als onderdeel van de app: alles wat u in de werkruimte hebt geselecteerd. U kunt ook de startpagina van de app instellen: het dashboard of rapport dat mensen als eerste zien wanneer ze naar uw app gaan. U kunt **Geen** kiezen. Vervolgens komen ze op een lijst van alle inhoud in de app te staan. 
    
      ![App-inhoud](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-4. Bepaal ten slotte bij **Toegang** wie toegang tot de app heeft: ofwel iedereen in uw organisatie, of specifieke personen of Active Directory-beveiligingsgroepen. 
+4. Bepaal bij **Toegang** wie toegang tot de app heeft: ofwel iedereen in uw organisatie, of specifieke personen of Active Directory-beveiligingsgroepen. Als u toestemming hiervoor hebt, kunt u de app automatisch voor de ontvangers installeren.
+
+    ![App-toegang](media/service-create-distribute-apps/power-bi-apps-access.png)
 
 5. Wanneer u **Voltooien** selecteert, wordt er een bevestigingsbericht weergegeven dat de app gereed is om te publiceren. U kunt in het dialoogvenster dat na het voltooien wordt weergegeven, de URL voor de directe koppeling naar de app kopiëren en verzenden naar de personen waarmee u de app hebt gedeeld.
    
      ![App voltooien](media/service-create-distribute-apps/power-bi-apps-success.png)
 
-De zakelijke gebruikers waarnaar u de app hebt gepubliceerd, kunnen deze op twee verschillende manieren vinden. U kunt ze de directe koppeling naar de app sturen, of ze kunnen ernaar zoeken in Microsoft AppSource, waar ze alle apps kunnen zien waar ze toegang tot hebben. Wanneer ze later naar Apps gaan, zien ze deze app in de lijst staan.
+De zakelijke gebruikers waarnaar u de app hebt gepubliceerd, kunnen deze op verschillende manieren vinden. Als u de app automatisch kunt installeren, wordt deze onder Apps weergegeven in hun Power BI-account. U kunt ze de directe koppeling naar de app sturen, of ze kunnen ernaar zoeken in Microsoft AppSource, waar ze alle apps kunnen zien waar ze toegang tot hebben. Het maakt niet uit hoe ze de app verkrijgen, want als ze later naar Apps gaan, zullen ze deze app in de lijst zien staan.
 
 Meer informatie over de [app-ervaring voor zakelijke gebruikers](service-install-use-apps.md).
 
@@ -137,6 +139,7 @@ Nadat u uw app hebt gepubliceerd, kunt u deze wijzigen of bijwerken. Het is gema
 1. Ga terug naar de lijst met inhoud van de app-werkruimte en selecteer **App bijwerken**.
    
      ![Knop App bijwerken](media/service-create-distribute-apps/power-bi-app-update-button.png)
+
 4. Werk indien nodig **Details**, **Inhoud** en **Toegang** bij en selecteer **App bijwerken**.
    
      ![Knop App bijwerken](media/service-create-distribute-apps/power-bi-app-update-complete.png)
@@ -167,7 +170,9 @@ Apps zijn een verbetering en vereenvoudiging van inhoudspakketten, met enkele be
 * We willen organisatie-inhoudspakketten op termijn afschaffen. Daarom raden we u aan vanaf nu apps te maken.  
 
 ### <a name="what-about-read-only-members-in-groups"></a>Hoe zit het met alleen-lezen-leden in groepen?
-U kunt alleen-lezen-leden toevoegen in groepen die de inhoud alleen kunnen bekijken. Het grootste probleem met deze benadering is dat u geen beveiligingsgroepen als leden kunt toevoegen. Met apps kunt u een alleen-lezen-versie van uw app-werkruimte publiceren voor grote groepen, met inbegrip van beveiligingsgroepen. U kunt uw wijzigingen voor de dashboards en rapporten in de app klaarzetten zonder dat eindgebruikers hier hinder van ondervinden. We raden u aan apps voortaan op deze manier te gebruiken. Op de lange termijn willen we ook alleen-lezen-leden van werkruimten afschaffen.  
+U kunt alleen-lezen-leden toevoegen in groepen die de inhoud alleen kunnen bekijken. Het grootste probleem met deze benadering is dat u geen beveiligingsgroepen als leden kunt toevoegen. 
+
+Met apps kunt u een alleen-lezen-versie van uw app-werkruimte publiceren voor grote groepen, met inbegrip van beveiligingsgroepen. U kunt uw wijzigingen voor de dashboards en rapporten in de app klaarzetten zonder dat eindgebruikers hier hinder van ondervinden. We raden u aan apps voortaan op deze manier te gebruiken. Op de lange termijn willen we ook alleen-lezen-leden van werkruimten afschaffen.  
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Apps in Power BI installeren en gebruiken](service-install-use-apps.md)

@@ -3,7 +3,7 @@ title: Inhoud van de Power BI Embedded-werkruimteverzameling migreren naar Power
 description: Informatie over het migreren van inhoud van Power BI Embedded naar de Power BI-service en hoe u gebruikmaakt van ontwikkelingen voor het insluiten van inhoud in apps.
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/21/2017
-ms.author: asaxton
-ms.openlocfilehash: 430f1d1a49e510bac66c448b2dceaad1f2537073
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.date: 08/24/2018
+ms.author: maghan
+ms.openlocfilehash: 59d395d11839903108f811ff4a6022ea04cadc8f
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="how-to-migrate-power-bi-embedded-workspace-collection-content-to-power-bi"></a>Inhoud van de Power BI Embedded-werkruimteverzameling migreren naar Power BI
 Informatie over het migreren van inhoud van Power BI Embedded naar de Power BI-service en hoe u gebruikmaakt van ontwikkelingen voor het insluiten van inhoud in apps.
@@ -174,14 +174,11 @@ In uw toepassing wijst u gebruikers die u in de toepassing naar beheert toe aan 
 Wanneer u klaar bent voor de productie, moet u het volgende te doen.
 
 * Als u een afzonderlijke tenant voor ontwikkeling gebruikt, moet u ervoor zorgen dat de app-werkruimten, dashboards en rapporten beschikbaar zijn in uw productieomgeving. Bovendien moet u de toepassing maken voor uw productietenant in Azure AD en de juiste app-machtigingen toewijzen, zoals aangegeven in stap 1.
-* Koop de capaciteit die past bij uw behoeften. U kunt het [Technisch document over Embedded-analysecapaciteitsplanning](https://aka.ms/pbiewhitepaper) lezen voor meer informatie over wat u mogelijk nodig hebt. Wanneer u tot aanschaf wilt overgaan, kunt u dat doen in het [Beheercentrum voor Office 365](https://portal.office.com/adminportal/home#/catalog).
-  
-  > [AZURE.INFORMATION] Zie [Power BI Premium kopen](../service-admin-premium-purchase.md) voor meer informatie over het kopen van Power BI Premium.
-  > 
-  > 
+* Koop de capaciteit die past bij uw behoeften. Bekijk het [technisch document over capaciteitsplanning voor ingesloten analyses](https://aka.ms/pbiewhitepaper) voor meer inzicht in de hoeveelheid en het type capaciteit dat u nodig hebt. U kunt [capaciteit kopen](https://portal.azure.com/#create/Microsoft.PowerBIDedicated) in Azure.
 * Bewerk de app-werkruimte en wijs deze toe aan een Premium capaciteit onder Geavanceerd.
-  
+ 
     ![](media/migrate-from-powerbi-embedded/powerbi-embedded-premium-capacity.png)
+    
 * Implementeer uw bijgewerkte toepassing naar productie en begin met het insluiten van rapporten uit de Power BI-service.
 
 ## <a name="after-migration"></a>Na de migratie
@@ -202,5 +199,5 @@ Het is aan te raden om op te ruimen in Azure.
 [Technisch document over Embedded-analysecapaciteitsplanning](https://aka.ms/pbiewhitepaper)  
 [Technisch document over Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

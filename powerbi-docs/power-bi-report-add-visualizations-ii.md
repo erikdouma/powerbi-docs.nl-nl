@@ -15,16 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: 2b3f25c772a049d10bc03941db677c67c844da8b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 40d6ee1f1448856b444201532caffd4b8c904c85
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report-tutorial"></a>Deel 2, visualisaties toevoegen aan een Power BI-rapport (zelfstudie)
 In [Deel 1](power-bi-report-add-visualizations-ii.md) hebt u een eenvoudige visualisatie gemaakt door selectievakjes naast de veldnamen te selecteren.  In deel 2 leert u hoe u slepen-en-neerzetten kunt gebruiken, en hoe u gebruik kunt maken van de volledige functionaliteit van de deelvensters **Velden** en **Visualisaties** om visualisaties te maken en te wijzigen.
+
+### <a name="prerequisites"></a>Vereisten
+- [Deel 1](power-bi-report-add-visualizations-ii.md)
+- Power BI-service: visualisaties kunnen worden toegevoegd aan rapporten met behulp van de Power BI-service of Power BI Desktop. In deze zelfstudie wordt de Power BI-service gebruikt. 
+- Voorbeeld van een retailanalyse
 
 ## <a name="create-a-new-visualization"></a>Een nieuwe visualisatie maken
 In deze zelfstudie verdiepen we ons in de gegevensset voor retailanalyse en maken we een aantal belangrijke visualisaties.
@@ -64,7 +69,6 @@ In deze zelfstudie verdiepen we ons in de gegevensset voor retailanalyse en make
 ## <a name="next-steps"></a>Volgende stappen
 * Ga naar [The report editor... take a tour](service-the-report-editor-take-a-tour.md) (De rapporteditor... een rondleiding) voor meer informatie over het deelvenster Velden.   
 * Zie [Filters and highlighting in Power BI reports](power-bi-reports-filters-and-highlighting.md) (Filters en markeren in Power BI-rapporten) voor meer informatie over het filteren en markeren van visualisaties.  
-* Zie [Aggregates in reports](service-aggregates.md) (Statistische functies in rapporten) voor meer informatie over het gebruiken en wijzigen van statistische functies.  
 * Meer informatie over [Visualisaties in Power BI-rapporten](power-bi-report-visualizations.md).  
-* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/).
+* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

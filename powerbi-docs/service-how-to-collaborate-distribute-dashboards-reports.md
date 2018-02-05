@@ -1,11 +1,11 @@
 ---
-title: Hoe kan ik samenwerken aan dashboards en rapporten en deze delen in Power BI?
+title: Hoe kan ik samenwerken en inhoud delen in Power BI?
 description: In Power BI kunt u op verschillende manieren samenwerken aan dashboards, rapporten en tegels en deze delen. Elke manier heeft bepaalde voordelen.
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
+backup: lukaszp
 editor: 
 tags: 
 qualityfocus: monitoring
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 01/24/18
 ms.author: maggies
-ms.openlocfilehash: a77c9a9816ef47ae4b342b2cd3a08b18c90f70de
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 032d07616464dcda8cc4cc38b1440936e5393a98
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="how-should-i-collaborate-and-share-dashboards-and-reports-in-power-bi"></a>Hoe kan ik samenwerken aan dashboards en rapporten en deze delen in Power BI?
-U maakt dashboards en rapporten. Misschien werkt u er ook wel samen aan met collega's. In dat geval moeten anderen toegang hebben tot de dashboards en rapporten. Wat is de beste manier om ze te distribueren?
+U hebt dashboards en rapporten gemaakt. Misschien werkt u er ook wel samen aan met collega's. In dat geval moeten anderen toegang hebben tot de dashboards en rapporten. Wat is de beste manier om ze te distribueren?
 
 In dit artikel vergelijken we deze opties voor samenwerken en delen in Power BI: 
 
@@ -34,7 +34,7 @@ In dit artikel vergelijken we deze opties voor samenwerken en delen in Power BI:
 * Publiceren op internet, waar iedereen ze kan zien en ermee kan werken.
 * Afdrukken. 
 
-Ongeacht welke optie u kiest, hebt u voor het delen van een dashboard een [licentie voor Power BI Pro](service-free-vs-pro.md) nodig of moet de inhoud zich in een [Premium capaciteit](service-premium.md) bevinden. De licentievereisten verschillen voor de collega's die uw dashboards raadplegen, afhankelijk van welke optie u kiest. In de volgende secties gaan we in op de details. Suggesties? Het team van Power BI is altijd geïnteresseerd in uw feedback. Ga hiervoor naar de [site van de Power BI-community](https://community.powerbi.com/).
+Ongeacht welke optie u kiest, hebt u voor het delen van een dashboard een [licentie voor Power BI Pro](service-free-vs-pro.md) nodig of moet de inhoud zich in een [Premium capaciteit](service-premium.md) bevinden. De licentievereisten verschillen voor de collega's die uw dashboards raadplegen, afhankelijk van welke optie u kiest. In de volgende secties gaan we in op de details. 
 
 ![Apps in de Power BI-service](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-home-blog.png)
 
@@ -54,7 +54,7 @@ Stel dat u uw dashboard wilt distribueren naar een brede doelgroep. U en uw coll
 
 ![Pictogram App publiceren](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-Apps zijn gemakkelijk te vinden en installeren in de Power BI-service ([https://powerbi.com](https://powerbi.com)). U kunt gebruikers in uw bedrijf een directe koppeling sturen naar de app of ze kunnen ernaar zoeken in AppSource. Lees meer over het [publiceren van uw apps](service-create-distribute-apps.md#publish-your-app). 
+Apps zijn gemakkelijk te vinden en installeren in de Power BI-service ([https://powerbi.com](https://powerbi.com)). U kunt gebruikers in uw bedrijf een directe koppeling sturen naar de app of ze kunnen ernaar zoeken in AppSource. Als de Power BI-beheerder u hiervoor toestemming geeft, kunt u een app automatisch installeren in de Power BI-accounts van uw collega's. Lees meer over het [publiceren van uw apps](service-create-distribute-apps.md#publish-your-app). 
 
 Nadat ze een app hebben geïnstalleerd, kunnen ze deze bekijken in hun browser of op een mobiel apparaat.
 
@@ -69,9 +69,7 @@ U hebt een Power BI Pro-licentie nodig om uw inhoud te delen. Dit geldt ook voor
 
 U kunt ook delen met personen buiten uw organisatie. Deze personen kunnen het dashboard en rapport ook bekijken en de inhoud ervan op verschillende manieren weergeven, maar niet delen. 
 
-Lees hier meer over het [delen van een dashboard](service-share-dashboards.md) vanuit de Power BI-service.
-
-U kunt ook een [directe koppeling naar een rapport delen](service-share-reports.md), en zo het dashboard omzeilen. U kunt een filter aan de koppeling toevoegen, zodat de ontvangers een gefilterde weergave van uw rapport zien.
+Meer informatie over het [delen van dashboards en rapporten](service-share-dashboards.md) vanuit de Power BI-service. U kunt ook een filter toevoegen aan een koppeling en [ een gefilterde weergave van uw rapport delen](service-share-reports.md).
 
 ## <a name="annotate-and-share-from-the-power-bi-mobile-apps"></a>Aantekeningen toevoegen en delen vanuit de mobiele Power BI-apps
 In de mobiele Power BI-apps voor iOS en Android kunt u aantekeningen toevoegen aan een tegel, rapport of visueel element en het onderdeel vervolgens via e-mail delen met anderen. 

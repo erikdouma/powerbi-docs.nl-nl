@@ -1,5 +1,5 @@
 ---
-title: 'Een nieuw rapport maken van een gegevensset '
+title: 'Zelfstudie: Een nieuw rapport maken van een gegevensset '
 description: Maak een nieuw Power BI-rapport van een gegevensset.
 services: powerbi
 documentationcenter: 
@@ -15,20 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/24/2018
 ms.author: mihart
-ms.openlocfilehash: f4afb1eaa1b3012fdbdb0eff35e9eff695cc32e4
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 7405f2c5663c071d58253f2103c9c7d778ea8299
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="create-a-new-power-bi-report-by-importing-a-dataset"></a>Een nieuw Power BI-rapport maken door een gegevensset te importeren
 U hebt [Rapporten in Power BI](service-reports.md) gelezen en u wilt nu uw eigen rapport maken. Er zijn veel verschillende manieren om een rapport te maken. In dit artikel beginnen we met het maken van een zeer eenvoudig rapport vanuit een Excel-gegevensset. Als u de basisbeginselen van het maken van een rapport onder de knie hebt, kunt u met de **Volgende stappen** onderaan verder naar meer geavanceerde onderwerpen over rapporten.  
 
 > **TIP**: zie [Een rapport kopiëren](power-bi-report-copy.md) voor informatie over het maken van een rapport op basis van een bestaand rapport.
 > 
-> 
+### <a name="prerequisites"></a>Vereisten
+- Power BI-service (bekijk [Rapportweergave in Desktop](desktop-report-view.md) om rapporten te maken met Power BI Desktop)   
+- Gegevensset Voorbeeld van een retailanalyse
 
 ## <a name="import-the-dataset"></a>De gegevensset importeren
 Bij deze methode om een rapport te maken begint u met een gegevensset en een leeg rapportcanvas. Volg ons en [download de Excel-gegevensset Voorbeeld van een retailanalyse](http://go.microsoft.com/fwlink/?LinkId=529778) en sla deze op onder OneDrive voor bedrijven (voorkeur) of lokaal.
@@ -36,7 +38,7 @@ Bij deze methode om een rapport te maken begint u met een gegevensset en een lee
 1. We maken het rapport in een Power BI-servicewerkruimte. Selecteer daarom een bestaande werkruimte of maak een nieuwe.
    
    ![](media/service-report-create-new/power-bi-workspaces2.png)
-2. Selecteer **Gegevens ophalen** links onderin de navigatiebalk.
+2. Selecteer **Gegevens ophalen** onder in het navigatiedeelvenster aan de linkerkant.
    
    ![](media/service-report-create-new/power-bi-get-data3.png)
 3. Selecteer **Bestanden** en navigeer naar de locatie waar u het voorbeeld van een retailanalyse hebt opgeslagen.
@@ -83,7 +85,7 @@ Onze CMO heeft nog een paar vragen voor ons. Ze wil graag weten hoe de omzet dit
 4. Selecteer **Tijd** > **Periode** om deze toe te voegen aan de bron **As**.
    
     ![](media/service-report-create-new/power-bi-report-step5.png)
-5. Als u de visualisatie wilt sorteren, selecteert u de weglatingstekens en kiest u **Sorteren op periode**.
+5. Als u de visualisatie wilt sorteren op tijdsperiode, selecteert u de weglatingstekens en kiest u **Sorteren op periode**.
 6. Nu gaan we de slicer toevoegen. Selecteer een leeg gebied op het canvas en kies het slicersjabloon ![](media/service-report-create-new/power-bi-slicer-icon.png). Hiermee wordt een lege slicer aan het canvas toegevoegd.
    
     ![](media/service-report-create-new/power-bi-report-step6.png)    
@@ -93,12 +95,11 @@ Onze CMO heeft nog een paar vragen voor ons. Ze wil graag weten hoe de omzet dit
 8. Ga met de slicer zoeken naar patronen en inzichten per district.
    
    ![](media/service-report-create-new/power-bi-slicer-video2.gif)  
-9. U kunt steeds opnieuw visualisaties toevoegen.
+
+Blijf uw gegevens verkennen en visualisaties toevoegen. Wanneer u interessante inzichten tegenkomt, kunt u deze [vastmaken aan een dashboard](service-dashboard-pin-tile-from-report.md).
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Een kopie van een rapport maken](power-bi-report-copy.md)
-* [Het rapport opslaan](service-report-save.md)    
 * [Een nieuwe pagina aan het rapport toevoegen](power-bi-report-add-page.md)  
-* Meer informatie over [visualisaties aan een dashboard vastmaken](service-dashboard-pin-tile-from-report.md)    
+* Meer informatie over [visualisaties aan een dashboard vastmaken](service-dashboard-pin-tile-from-report.md)   
 * Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

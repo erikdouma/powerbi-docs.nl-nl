@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 03c5afae78e1688cadfdef9c0a96ca9f24247e12
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 0723b3a7155626f875044fa813a522ef6d4923df
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="tutorial-analyzing-sales-data-from-excel-and-an-odata-feed"></a>Zelfstudie: Verkoopgegevens uit Excel en een OData-feed analyseren
 Met **Power BI Desktop** kunt u allerlei verschillende gegevensbronnen met elkaar verbinden en ze vervolgens combineren en indelen, zodat u gemakkelijk interessante en boeiende gegevensanalyse en -visualisaties kunt maken. In deze zelfstudie leert u hoe u gegevens van twee gegevensbronnen kunt combineren. 
@@ -140,7 +140,7 @@ Het regeltotaal voor elke **Order\_Details**-rij berekenen:
 
 ### <a name="step-5-set-the-datatype-of-the-linetotal-field"></a>Stap 5: het gegevenstype van het veld LineTotal instellen
 1. Klik met de rechtermuisknop op de kolom **LineTotal**.
-2. Selecteer **Type wijzigen** en kies **Decimaal getal.
+2. Selecteer **Type wijzigen** en kies **Decimaal getal**.
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/9.png)
 
@@ -227,8 +227,7 @@ Nadat u al deze stappen hebt uitgevoerd, hebt u een verkooprapport waarin alle g
 ## <a name="next-steps"></a>Volgende stappen
 * [Andere zelfstudies voor Power BI Desktop lezen](http://go.microsoft.com/fwlink/?LinkID=521937)
 * [Power BI Desktop-video's bekijken](http://go.microsoft.com/fwlink/?LinkID=519322)
-* [Het Power BI-forum bezoeken](http://go.microsoft.com/fwlink/?LinkID=519326)
+* [Een bezoek brengen aan het Power BI-forum](http://go.microsoft.com/fwlink/?LinkID=519326)
 * [Het Power BI-blog lezen](http://go.microsoft.com/fwlink/?LinkID=519327)
-
 
 

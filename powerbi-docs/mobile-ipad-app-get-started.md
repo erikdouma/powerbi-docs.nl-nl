@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: b9bdde9e258af733dd182f3ea3bd814520a31e8c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: ad46bd02ffc3c745b63e716759007219421edfd8
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-ipad"></a>Aan de slag met de mobiele Power BI-app op een iPad
 Microsoft Power BI voor iOS op de iPad biedt u een mobiele BI-ervaring voor Power BI, Power BI Report Server en Reporting Services. Bekijk uw bedrijfsdashboards on-premises en in de cloud, en gebruik ze vanaf elke locatie met mobiele live-toegang met aanraakfunctionaliteit. Verken de gegevens in dashboards en deel deze met uw collega's per e-mail of sms-bericht. 
@@ -41,7 +41,7 @@ Ontdek [wat er nieuw is in de mobiele Power BI-apps](mobile-whats-new-in-the-mob
 [Download de iPad-app](http://go.microsoft.com/fwlink/?LinkId=522062) via de App Store van Apple.
 
 > [!NOTE]
-> Op uw iPad moet ten minste iOS 9.0 worden uitgevoerd. 
+> Op uw iPad moet ten minste iOS 10 worden uitgevoerd. 
 > 
 > 
 

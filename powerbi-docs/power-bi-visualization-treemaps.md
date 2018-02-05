@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: 5e5bc8eaa4e710e6564ee6f1d3ea1bfcf7f28127
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 7a76cc071a114a7bbd4ccc8ade61ff10b7b2e4c5
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="treemaps-in-power-bi-tutorial"></a>Treemaps in Power BI (zelfstudie)
 In treemaps worden hiërarchische gegevens weergegeven als een set van geneste rechthoeken.  Elk niveau van de hiërarchie wordt weergegeven als een gekleurde rechthoek (ook wel een vertakking genoemd) die andere gekleurde rechthoeken (bladeren) bevat.  De ruimte in elke rechthoek wordt toegewezen op basis van de kwantitatieve waarde die wordt gemeten, waarbij de rechthoeken op grootte worden gesorteerd van linksboven (grootste) naar rechtsonder (kleinste).
@@ -41,20 +41,25 @@ In de volgende gevallen komen treemaps goed van pas:
 * Wanneer u kenmerken wilt weergeven met grootte- en kleurcoderingen.
 * Wanneer u patronen, uitbijters, de belangrijkste bijdragers en uitzonderingen wilt identificeren.
 
+### <a name="prerequisites"></a>Vereisten
+ - Power BI-service of Power BI Desktop
+ - Voorbeeld van een retailanalyse
+
 ## <a name="create-a-basic-treemap"></a>Een eenvoudige treemap maken
 Wilt u eerst kijken hoe iemand anders een treemap maakt?  Ga naar 2:10 in deze video om te kijken hoe Amanda een treemap maakt.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-U kunt ook zelf een treemap maken. In deze instructies wordt het voorbeeld van een retailanalyse gebruikt. Als u alles op de voet wilt volgen, kunt u het [voorbeeld downloaden](sample-datasets.md), zich aanmelden bij Power BI en achtereenvolgens **Gegevens ophalen \> Excel-werkmap \> Verbinden \> Voorbeeld van een retailanalyse**. **XLSX** selecteren.
+U kunt ook zelf een treemap maken. In deze instructies wordt het voorbeeld van een retailanalyse gebruikt. Meld u aan bij de Power BI-service (niet Desktop) als u mee wilt doen en selecteer achtereenvolgens **Gegevens ophalen \> Voorbeelden \> Voorbeeld van een retailanalyse \> Verbinding maken \> Naar dashboard gaan**. Visualisaties maken in een rapport vereist bewerkingsmachtiging voor de gegevensset en het rapport. Gelukkig zijn voorbeelden van Power BI bewerkbaar. Maar als iemand een rapport met u deelt, kunt u geen nieuwe visualisaties toevoegen.
 
-1. Start in de [bewerkingsweergave](service-interact-with-a-report-in-editing-view.md) en selecteer de meting **Verkoop** > **Omzet afgelopen jaar**.   
-   ![](media/power-bi-visualization-treemaps/treemapfirstvalue_new.png)
-2. Converteer de grafiek naar een treemap.  
-   ![](media/power-bi-visualization-treemaps/treemapconvertto_new.png)
-3. Sleep **Item** > **Categorie** naar de bron **Groep**. Er wordt een treemap in Power BI gemaakt waarbij de grootte van de rechthoeken de totale omzet reflecteert en de kleur een categorie representeert.  In wezen hebt u een hiërarchie gemaakt die op visuele wijze de relatieve grootte van het totale aantal verkopen per categorie beschrijft.  De categorie **Heren** is de categorie met de meeste verkopen en de categorie **Kousen** is de categorie met de minste verkopen.
-   ![](media/power-bi-visualization-treemaps/treemapcomplete_new.png)
-4. Sleep **Winkel** > **Keten** naar de bron **Details** om uw treemap te voltooien. U kunt nu de omzet van het afgelopen jaar vergelijken op basis van de categorie en de keten.   
+1. Selecteer de tegel 'Total stores' (Totaal aantal winkels) om het rapport Voorbeeld van een retailanalyse te openen.    
+2. Open de [bewerkingsweergave](service-interact-with-a-report-in-editing-view.md) en selecteer de meting **Verkoop** > **Omzet afgelopen jaar**.   
+   ![](media/power-bi-visualization-treemaps/treemapfirstvalue_new.png)   
+3. Converteer de grafiek naar een treemap.  
+   ![](media/power-bi-visualization-treemaps/treemapconvertto_new.png)   
+4. Sleep **Item** > **Categorie** naar de bron **Groep**. Er wordt een treemap in Power BI gemaakt waarbij de grootte van de rechthoeken de totale omzet weerspiegelt en de kleur een categorie representeert.  In wezen hebt u een hiërarchie gemaakt die op visuele wijze de relatieve grootte van het totale aantal verkopen per categorie beschrijft.  De categorie **Heren** is de categorie met de meeste verkopen en de categorie **Kousen** is de categorie met de minste verkopen.   
+   ![](media/power-bi-visualization-treemaps/treemapcomplete_new.png)   
+5. Sleep **Winkel** > **Keten** naar de bron **Details** om uw treemap te voltooien. U kunt nu de omzet van het afgelopen jaar vergelijken op basis van de categorie en de keten.   
    ![](media/power-bi-visualization-treemaps/treemap_addgroup_new.png)
    
    > [!NOTE]
@@ -73,17 +78,15 @@ Wanneer u een categorie of details in een treemap markeert, worden de andere vis
 
 1. Selecteer op de treemap een Categorie of Keten in een Categorie.  Hiermee worden de andere visualisaties op de pagina kruislings gemarkeerd. Als ik bijvoorbeeld **050-Schoenen** selecteer, kan ik zien dat er het afgelopen een omzet van $ 3.640.471 is gedraaid, waarvan $ 2.174.185 afkomstig was van Fashions Direct.  
    ![](media/power-bi-visualization-treemaps/treemaphiliting.png)
-2. Selecteer in het cirkeldiagram **Omzet afgelopen jaar per keten** het segment **Fashions Direct**.  
-   ![](media/power-bi-visualization-treemaps/treemapnoowl.gif)
+
+2. Als u in het cirkeldiagram **Omzet afgelopen jaar per keten** het segment **Fashions Direct** selecteert, wordt de treemap kruislings gefilterd.  
+   ![](media/power-bi-visualization-treemaps/treemapnoowl.gif)    
+
 3. Zie [Visualisatie-interacties in een Power BI-rapport](service-reports-visual-interactions.md) als u wilt beheren hoe grafieken elkaar kruislings markeren en filteren.
 
 ## <a name="next-steps"></a>Volgende stappen
-[Rapporten in Power BI](service-reports.md)  
-[Een visualisatie toevoegen aan een rapport](power-bi-report-add-visualizations-i.md)  
-[Visualisatietypen in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md) 
- [ Een visualisatie aan een dashboard vastmaken](service-dashboard-pin-tile-from-report.md)  
+[Een visualisatie vastmaken aan een dashboard](service-dashboard-pin-tile-from-report.md)  
 [Power BI - basisconcepten](service-basic-concepts.md)  
-[Probeer het uit, het is gratis.](https://powerbi.com/)
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)  
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)  
 

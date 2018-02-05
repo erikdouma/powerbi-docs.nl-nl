@@ -1,5 +1,5 @@
 ---
-title: 'Een volledige rapportpagina aan een Power BI-dashboard vastmaken '
+title: 'Een volledige rapportpagina vastmaken aan een Power BI-dashboard '
 description: Documentatie over het vastmaken van een volledige live-rapportpagina aan een Power BI-dashboard vanuit een rapport.
 services: powerbi
 documentationcenter: 
@@ -16,16 +16,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: ee8e7541db7f40a5d01607c6551ee734eb9f3d5b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8174a3043d544191032ec65e3b9a1710547b18ab
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Een volledige rapportpagina als een live-tegel aan een Power BI-dashboard vastmaken
-Een andere manier om een nieuwe [dashboardtegel](service-dashboard-tiles.md) toe te voegen is door een volledige rapportpagina vast te maken.  Dit is een eenvoudige manier om meer dan een visualisatie tegelijk vast te maken.  Ook zijn bij het vastmaken van een volledige pagina de tegels *live*; u kunt hiermee direct op het dashboard werken. En wijzigingen die u aan visualisaties aanbrengt in de rapporteditor, zoals een filter toevoegen of de velden wijzigen die worden gebruikt in de grafiek, worden ook in de dashboardtegel doorgevoerd.  
+Een andere manier om een nieuwe [dashboardtegel](service-dashboard-tiles.md) toe te voegen is door een volledige rapportpagina vast te maken. Dit is een eenvoudige manier om meer dan een visualisatie tegelijk vast te maken.  Ook zijn bij het vastmaken van een volledige pagina de tegels *live*; u kunt hiermee direct op het dashboard werken. En wijzigingen die u aan visualisaties aanbrengt in de rapporteditor, zoals een filter toevoegen of de velden wijzigen die worden gebruikt in de grafiek, worden ook in de dashboardtegel doorgevoerd.  
+
+Live-tegels van rapporten vastmaken aan dashboards is alleen beschikbaar in de Power BI-service (app.powerbi.com).
 
 > [!NOTE]
 > U kunt geen tegels vastmaken voor rapporten die met u zijn gedeeld.
@@ -59,5 +61,5 @@ Bekijk hoe Amanda een live-rapportpagina aan een dashboard vastmaakt. Volg vervo
 ## <a name="next-steps"></a>Volgende stappen
 [Dashboards in Power BI](service-dashboards.md)
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

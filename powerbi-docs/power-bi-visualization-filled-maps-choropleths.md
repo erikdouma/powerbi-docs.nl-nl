@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/19/2018
 ms.author: mihart
-ms.openlocfilehash: 2c15cf503a7c66a3b89e45cc338ee5174e5f24e7
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+ms.openlocfilehash: 1f1db890a9fea9c53575f9b5a263400d6b883693
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="filled-maps-choropleths-in-power-bi-tutorial"></a>Choropletenkaarten in Power BI (zelfstudie)
 In een choropletenkaart worden arcering, tinten of patronen gebruikt om aan te geven hoe een waarde in verhouding verschilt voor een geografisch gebied of regio.  U kunt zo snel deze relatieve verschillen laten zien met behulp van arcering die varieert van licht (minder frequent/lager) tot donker (meer-frequent/hoger).    
@@ -49,6 +49,12 @@ In de volgende gevallen zijn choropletenkaarten een goede keuze:
 * als gedefinieerde regio's belangrijk zijn.
 * om een overzicht te krijgen van de verdeling over verschillende geografische locaties.
 
+### <a name="prerequisites"></a>Vereisten
+- Power BI-service of Power BI Desktop
+- Voorbeeld van verkoop en marketing
+
+In deze zelfstudie wordt de Power BI-service gebruikt, niet Power BI Desktop.
+
 ## <a name="create-a-basic-filled-map"></a>Een eenvoudige choropletenkaart maken
 In deze video maakt Kim een eenvoudige kaart en zet deze om in een choropletenkaart.
 
@@ -56,27 +62,27 @@ In deze video maakt Kim een eenvoudige kaart en zet deze om in een choropletenka
 
 
 1. Als u zelf een choropletenkaart wilt maken, [downloadt u het voorbeeld van verkoop en marketing](sample-datasets.md) door u aan te melden bij Power BI en **Gegevens ophalen \> Voorbeelden \> Voorbeeld van verkoop en marketing \> Verbinden** te selecteren.
-2. Wanneer het bericht verschijnt dat het downloaden is voltooid, selecteert u **Gegevensset weergeven**. 
-   
+2. Wanneer het bericht verschijnt dat het downloaden is voltooid, selecteert u **Gegevensset weergeven**.
+
    ![](media/power-bi-visualization-filled-maps-choropleths/power-bi-view-dataset.png)
 3. Power BI opent een leeg rapportcanvas in de [bewerkingsweergave](service-interact-with-a-report-in-editing-view.md).
-   
+
     ![](media/power-bi-visualization-filled-maps-choropleths/power-bi-blank-canvas.png)
 4. Selecteer in het deelvenster Velden het veld **Geo** \> **State**.    
-   
+
    ![](media/power-bi-visualization-filled-maps-choropleths/img002.png)
 5. [Converteer de kaart](power-bi-report-change-visualization-type.md) naar een choropletenkaart. U ziet dat **State** nu ook wordt vermeld onder **Locatie**. Bing Kaarten gebruikt het veld onder **Locatie** om de kaart te maken.  Het deelvenster Locatie kan een aantal geldige locaties bevatten: landen, staten, provincies, steden, postcodes, enzovoort. Bing Kaarten kan choropletenkaarten maken voor locaties over de hele wereld. Hiervoor is wel een geldige vermelding in het deelvenster Locatie vereist.  
-   
+
    ![](media/power-bi-visualization-filled-maps-choropleths/img003.png)
 6. Filter de kaart om alleen het vasteland van de Verenigde Staten weer te geven.
-   
+
    a.  Onder aan het deelvenster Visualisaties ziet u het gebied **Filters**.
-   
+
    b.  Beweeg de muisaanwijzer over **State** en klik op de pijl-omlaag.  
    ![](media/power-bi-visualization-filled-maps-choropleths/img004.png)
-   
+
    c.  Zet een vinkje naast **Alles selecteren** en verwijder het vinkje bij **AK**.
-   
+
    ![](media/power-bi-visualization-filled-maps-choropleths/img005.png)
 7. Selecteer **SalesFact** \> **Sentiment** om dit veld toe te voegen aan het vak **Kleurverzadiging**. Het veld in het vak **Kleurverzadiging** bepaalt de kaartarcering.  
    ![](media/power-bi-visualization-filled-maps-choropleths/power-bi-color-saturation.png)
@@ -87,9 +93,9 @@ In deze video maakt Kim een eenvoudige kaart en zet deze om in een choropletenka
 ## <a name="highlighting-and-cross-filtering"></a>Markeren en kruislings filteren
 Zie [Een filter aan een rapport toevoegen](power-bi-report-add-filter.md) voor meer informatie over het gebruik van het deelvenster Filters.
 
-Als u een locatie op een choropletenkaart markeert, worden de andere visualisaties op de rapportpagina ook gefilterd en omgekeerd. 
+Als u een locatie op een choropletenkaart markeert, worden de andere visualisaties op de rapportpagina ook gefilterd en omgekeerd.
 
-Als u de stappen wilt volgen, kopieert en plakt u de kaart naar de pagina **Sentiment** van het rapport *Sales and Marketing*. 
+Als u de stappen wilt volgen, kopieert en plakt u de kaart naar de pagina **Sentiment** van het rapport *Sales and Marketing*.
 
 1. Selecteer een staat op de choropletenkaart.  Hiermee worden de andere visualisaties op de pagina gemarkeerd. Als u bijvoorbeeld **Texas** selecteert, ziet u dat de gevoelswaarde 74 is, dat Texas zich bevindt in het Central District \#23 en dat de meeste omzet afkomstig is uit de segmenten Moderation en Convenience.   
    ![](media/power-bi-visualization-filled-maps-choropleths/img008.png)
@@ -98,7 +104,7 @@ Als u de stappen wilt volgen, kopieert en plakt u de kaart naar de pagina **Sent
 
 ## <a name="considerations-and-troubleshooting"></a>Overwegingen en probleemoplossing
 Kaartgegevens kunnen dubbelzinnig zijn.  Er is bijvoorbeeld een Parijs in Frankrijk, maar ook in Texas. Uw geografische gegevens worden waarschijnlijk opgeslagen in afzonderlijke kolommen (een kolom voor plaatsnamen, een kolom voor namen van staten of provincies, enzovoort), zodat Bing onmogelijk kan vaststellen of het om de Franse versie of Texaanse versie van Parijs gaat. Als uw gegevensset al de breedtegraad- en lengtegraadgegevens bevat, zijn er in Power BI speciale velden beschikbaar om de kaartgegevens uniek te maken. Sleep hiervoor het veld met de breedtegraadgegevens naar het gebied Visualisaties \> Breedtegraad.  Doe hetzelfde voor de lengtegraadgegevens.  
-![](media/power-bi-visualization-filled-maps-choropleths/pbi_latitude.png) 
+![](media/power-bi-visualization-filled-maps-choropleths/pbi_latitude.png)
 
 Als u gemachtigd bent om de gegevensset te bewerken in Power BI Desktop, bekijkt u deze video voor het oplossen van problemen met dubbelzinnigheid in kaarten.
 
@@ -114,4 +120,3 @@ Zie [Tips and tricks for map visualizations](power-bi-map-tips-and-tricks.md) (T
  [Typen visualisaties in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)    
  [Het gebruikte type visualisatie wijzigen](power-bi-report-change-visualization-type.md)      
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
-

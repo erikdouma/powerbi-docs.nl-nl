@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 424e96c5315bd41fc79999555097602f629a1285
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 52ad27e0f809ed5c3cf4ae22f0d536f88cae0f0c
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds-tutorial"></a>Titel, legenda en achtergrond van visualisaties aanpassen (zelfstudie)
 In deze zelfstudie leert u een aantal verschillende manieren kennen om uw visualisaties aan te passen.   Er zijn heel veel opties voor het aanpassen van uw visualisaties. De beste manier om ze te leren kennen is door het deelvenster Opmaak te verkennen (selecteer de verfroller).  Dit artikel helpt u op weg door te laten zien hoe u de titel, legenda en achtergrond van een visualisatie kunt aanpassen.  
@@ -33,9 +33,12 @@ Kijk hoe Amanda visualisaties in haar rapport aanpast (spoel vooruit naar 4:50 i
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
+### <a name="prerequisites"></a>Vereisten
+- Power BI-service of Power BI Desktop
+- Voorbeeld van een retailanalyse
 
 ## <a name="customize-visualization-titles-in-reports"></a>Visualisatietitels in rapporten aanpassen
-Als u mee wilt doen, meld u dan aan bij app.powerbi en [open het rapport Voorbeeld van een retailanalyse](sample-datasets.md) in de [Bewerkweergave](service-interact-with-a-report-in-editing-view.md).
+Als u mee wilt doen, meld u zich aan bij de Power BI-service (app.powerbi.com) en [opent u het rapport Voorbeeld van een retailanalyse](sample-datasets.md) in de [bewerkingsweergave](service-interact-with-a-report-in-editing-view.md).
 
 > [!NOTE]
 > Wanneer u een visualisatie aan een dashboard vastmaakt, wordt deze dashboardtegel.  De tegels zelf kunnen ook worden aangepast met [nieuwe titels, ondertitels en hyperlinks, en het formaat ervan kan worden gewijzigd](service-dashboard-edit-tile.md).
@@ -120,9 +123,8 @@ Vouw de Achtergrond-opties uit met hetzelfde kolomdiagram geselecteerd.
 | waterval |ja |ja |ja |
 
 ## <a name="next-steps"></a>Volgende stappen
-Meer informatie over [visualisaties in Power BI-rapporten](power-bi-report-visualizations.md)  
 [X-as en Y-as aanpassen](power-bi-visualization-customize-x-axis-and-y-axis.md)  
 [Kleuren en aseigenschappen aanpassen](service-getting-started-with-color-formatting-and-axis-properties.md)  
 [Power BI - basisconcepten](service-basic-concepts.md)  
-Nog vragen? [Probeer de Power BI-community](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

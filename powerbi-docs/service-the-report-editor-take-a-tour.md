@@ -1,5 +1,5 @@
 ---
-title: De rapporteditor... Een rondleiding
+title: 'Snelstartgids: De rapporteditor... Een rondleiding.'
 description: De rapporteditor... Een rondleiding.
 services: powerbi
 documentationcenter: 
@@ -16,20 +16,26 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/30/2017
+ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: e5ee6db22fe0fa7fd1e61ebbfb7dbee9d3458159
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8ecee2c5de9959937b5afa56cdf5b3679c5b9a5e
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="the-report-editortake-a-tour"></a>De rapporteditor... Een rondleiding
+## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Rapporten bewerken met de Power BI-service en Power BI Desktop
 De rapporteditor in de Power BI-service en de rapporteditor in Power BI Desktop zijn vergelijkbaar. In de video ziet u de rapporteditor in Power BI Desktop en in dit artikel ziet u de rapporteditor in de Power BI-service. 
+
+## <a name="the-difference-between-report-creators-and-report-consumers"></a>Het verschil tussen *makers* en *gebruikers* van rapporten
+Alleen rapporteigenaren (ofwel *makers*) kunnen een rapport maken en bewerken. Als *gebruiker* van een rapport dat met u is gedeeld, kunt u het rapport openen en acties uitvoeren in de [leesweergave](service-reading-view-and-editing-view.md) van de Power BI-service, maar hebt u geen toegang tot alle krachtige en uitgebreide functies waarover de rapportmaker beschikt.  
+
+Bekijk [Leesweergave en bewerkweergave in de Power BI-service](service-reading-view-and-editing-view.md) voor meer informatie over rapporten in de leesweergave 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-In de Power BI-service is de *rapporteditor* alleen beschikbaar in de [bewerkweergave](service-reading-view-and-editing-view.md). Als u een rapport in de bewerkweergave wilt openen, moet u de eigenaar van het rapport zijn.
+In de Power BI-service is de *rapporteditor* alleen beschikbaar in de [bewerkweergave](service-reading-view-and-editing-view.md). Als u een rapport in de bewerkweergave wilt openen, moet u de eigenaar of maker van het rapport zijn.
 
 De Power BI-rapporteditor bestaat uit 3 secties:  
 
@@ -87,7 +93,9 @@ Met het deelvenster Analyse in de Power BI-service kunt u dynamische verwijzings
 
 - - -
 ## <a name="the-filters-pane"></a>Het deelvenster Filters
-Pagina-, rapport- en drillthroughfilters en filters op visueel niveau weergeven, instellen en wijzigen.
+Via het deelvenster Filters kunt u permanente filters bekijken, instellen en aanpassen voor uw rapporten op niveau van pagina, rapport, drillthrough en visuele elementen. Ja, u kunt filters toepassen voor specifieke rapportpagina's en visuele elementen door bepaalde elementen te selecteren of met behulp van tools als slicers. Door het deelvenster Filters te gebruiken, wordt de status van de filters opgeslagen met het rapport. 
+
+Het deelvenster Filters heeft nog een andere krachtige functie: de mogelijkheid om te filteren op een veld ***dat nog niet wordt gebruikt in een van de visuele elementen in uw rapport***. Dit werkt als volgt. Wanneer u een rapportpagina maakt, voegt Power BI automatisch alle velden die u gebruikt in uw visualisaties toe aan het filtergebied op niveau van visuele elementen van het deelvenster Filters.  Als u echter een filter wilt instellen voor een visueel element, pagina, drillthrough of rapport met behulp van een veld dat momenteel niet wordt gebruikt in een visualisatie, sleept u het naar een van de filterbuckets.   
 
 ![](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
 
@@ -110,9 +118,9 @@ In het deelvenster Velden worden de tabellen en velden weergegeven die zijn opge
    Elk berekend veld heeft zijn eigen in code vastgelegde formule. U kunt de berekening niet wijzigen; als de berekening bijvoorbeeld een som is, kan deze alleen een som zijn. Lees [Over metingen](desktop-measures.md) voor meer informatie
 * ![](media/service-the-report-editor-take-a-tour/icon.png) **Unieke velden**  
    Velden met dit pictogram zijn geïmporteerd vanuit Excel en zijn ingesteld om alle waarden weer te geven, ook als ze duplicaten bevatten. Stel dat uw gegevens twee records bevatten voor mensen met de naam 'John Smith' en elk record wordt beschouwd als uniek; ze worden niet bij elkaar opgeteld.  
-*  **![](media/service-the-report-editor-take-a-tour/pbi_geo_icon.png)Geografievelden**  
+* **![](media/service-the-report-editor-take-a-tour/pbi_geo_icon.png)Geografievelden**  
    Locatievelden kunnen worden gebruikt om kaartvisualisaties te maken. 
-*  **![](media/service-the-report-editor-take-a-tour/power-bi-hierarchy-icon.png)Hiërarchie**  
+* **![](media/service-the-report-editor-take-a-tour/power-bi-hierarchy-icon.png)Hiërarchie**  
    Selecteer de pijl om de velden weer te geven die de hiërarchie vormen. 
 
 - - -
@@ -125,13 +133,9 @@ In het rapportcanvas wordt uw werk weergegeven. Wanneer u de deelvensters Velden
 ## <a name="next-steps"></a>Volgende stappen:
 [Een rapport maken](service-report-create-new.md)
 
-[Een rapport bewerken](service-interact-with-a-report-in-editing-view.md)
-
-Lees meer over [rapporten in Power BI](service-reports.md)
-
-[Aan de slag met Power BI](service-get-started.md)
+Lees meer informatie over rapporten in de [Power BI-service](service-reports.md), [Power BI Desktop](desktop-report-view.md) en [Power BI - Mobiel](mobile-apps-view-phone-report.md).
 
 [Power BI - basisconcepten](service-basic-concepts.md)
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

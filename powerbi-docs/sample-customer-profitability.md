@@ -1,5 +1,5 @@
 ---
-title: 'Voorbeeld van klantwinstgevendheid in Power BI: een rondleiding'
+title: 'Zelfstudie - Voorbeeld van klantwinstgevendheid in Power BI: een rondleiding'
 description: 'Voorbeeld van klantwinstgevendheid in Power BI: een rondleiding'
 services: powerbi
 documentationcenter: 
@@ -17,20 +17,23 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 82e909962a0ed1db50f2ba3729988fd7aacadc80
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+ms.openlocfilehash: 1e53fd4b22710909e300a61b4c03aae01cff8973
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Voorbeeld van klantwinstgevendheid in Power BI: een rondleiding
+
+## <a name="overview-of-the-customer-profitability-sample"></a>Overzicht van het voorbeeld van klantwinstgevendheid
 Het inhoudspakket Voorbeeld van klantwinstgevendheid bevat een dashboard, rapport en gegevensset voor een bedrijf dat marketingmateriaal maakt. Dit dashboard is gemaakt door een CFO om de belangrijkste metrische gegevens te verzamelen over haar vijf business unit managers, producten, klanten en brutomarges. In een oogopslag kan ze zien welke factoren van invloed zijn op de winstgevendheid.
 
-Dit voorbeeld is onderdeel van een serie die laat zien hoe u Power BI kunt gebruiken met bedrijfsgegevens, -rapporten en -dashboards. Dit zijn echte gegevens die afkomstig zijn van obviEnce ([www.obvience.com)](http://www.obvience.com/) die zijn geanonimiseerd.
+<<<<<<< KOPTEKST ![](media/sample-customer-profitability/power-bi-dash.png)
+
+Dit voorbeeld is onderdeel van een serie die laat zien hoe u Power BI kunt gebruiken met bedrijfsgegevens, rapporten en dashboards. Dit zijn echte gegevens die afkomstig zijn van obviEnce ([www.obvience.com)](http://www.obvience.com/) die zijn geanonimiseerd. De gegevens zijn beschikbaar in verschillende indelingen: inhoudspakket/-app, Excel-werkmap of een .pbix-bestand van Power BI Desktop. Zie [Voorbeeldgegevenssets](sample-datasets.md).
 
 ## <a name="prerequisites"></a>Vereisten
-
-Voordat u het voorbeeld kunt gebruiken, moet u het eerst downloaden als een inhoudspakket, een pbix-bestand of een Excel-werkmap.
+Doet u mee? Deze zelfstudie maakt gebruik van de Power BI-service en het voorbeeldinhoudspakket 'Klantwinstgevendheid'.  Omdat de rapportervaringen zo gelijk zijn, kunt u de zelfstudie ook volgen met Power BI Desktop- en het PBIX-voorbeeldbestand. De instructies om verbinding te maken met het inhoudspakket en het PBIX-bestand staan hieronder.
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Het inhoudspakket voor dit voorbeeld ophalen
 
@@ -50,13 +53,19 @@ Voordat u het voorbeeld kunt gebruiken, moet u het eerst downloaden als een inho
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Het pbix-bestand voor dit voorbeeld ophalen
 
-U kunt ook het voorbeeld downloaden als pbix-bestand, dat bedoeld is voor gebruik met Power BI Desktop. 
-
-- [Voorbeeld van klantwinstgevendheid](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer Profitability Sample PBIX.pbix)
+U kunt ook het voorbeeld downloaden als pbix-bestand, dat bedoeld is voor gebruik met Power BI Desktop. [Customer Profitability Sample](<http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer>> Profitability Sample PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>De Excel-werkmap ophalen voor dit voorbeeld
 
-U kunt ook alleen de gegevensset[ (Excel-werkmap) voor dit voorbeeld](http://go.microsoft.com/fwlink/?LinkId=529781) downloaden. De werkmap bevat Power View-werkbladen die u kunt bekijken en wijzigen. Als u de onbewerkte gegevens wilt bekijken, selecteert u **Power Pivot > Beheren**.
+<a name="if-you-want-to-dig-into-the-datasource-for-this-sample-its-also-available-as-an-excel-workbookhttpgomicrosoftcomfwlinklinkid529781-the-workbook-contains-power-view-sheets-that-you-can-view-and-modify-to-see-the-raw-data-select-power-pivot--manage"></a>Als u zich verder wilt verdiepen in de gegevensbron van dit voorbeeld, is het ook beschikbaar als een [(Excel-werkmap)](http://go.microsoft.com/fwlink/?LinkId=529781). De werkmap bevat Power View-werkbladen die u kunt bekijken en wijzigen. Als u de onbewerkte gegevens wilt bekijken, selecteert u **Power Pivot > Beheren**.
+=======
+
+Dit voorbeeld is onderdeel van een serie die laat zien hoe u Power BI kunt gebruiken met bedrijfsgegevens, rapporten en dashboards. Dit zijn echte gegevens die afkomstig zijn van obviEnce ([www.obvience.com)](http://www.obvience.com/) die zijn geanonimiseerd. De gegevens zijn beschikbaar in verschillende indelingen: inhoudspakket/-app, Excel-werkmap of een .pbix-bestand van Power BI Desktop. Zie [Voorbeeldgegevenssets](sample-datasets.md).
+
+### <a name="prerequisites"></a>Vereisten
+Doet u mee? Ga in de [Power BI-service](https://powerbi.com) naar **Gegevens ophalen > Voorbeelden > Klantwinstgevendheid > Verbinden** om een kopie van het voorbeeld te downloaden.
+>>>>>>> def2c8e086d65b6a3fb92247175730746226ae3e
+
 
 ## <a name="what-is-our-dashboard-telling-us"></a>Wat vertelt het dashboard ons?
 
@@ -65,26 +74,64 @@ Zoek onder **Mijn werkruimte** het dashboard voor het voorbeeld van klantwinstge
 ![Dashboard voor het voorbeeld van klantwinstgevendheid](media/sample-customer-profitability/power-bi-dash.png)
 
 ### <a name="company-wide-dashboard-tiles"></a>Dashboardtegels voor de gehele onderneming
-Deze tegels geven onze CFO een weergave van metrische gegevens op hoog niveau die belangrijk voor haar zijn.  Wanneer ze iets interessants ziet, kan ze een tegel selecteren om dieper in de gegevens te graven.
+1. Open het dashboard in de Power BI-service. De dashboardtegels geven onze CFO een weergave van metrische gegevens op hoog niveau die belangrijk voor haar zijn.  Wanneer ze iets interessants ziet, kan ze een tegel selecteren om dieper in de gegevens te graven.
 
-1. De brutomarge van het bedrijf is 42,5 %.
-2. We hebben 80 klanten.
-3. We verkopen 5 verschillende producten.
-4. We hadden ons laagste omzetvariantiepercentage ten opzichte van budget in februari, gevolgd door het hoogste in maart.
-5. Het grootste deel van onze omzet is afkomstig uit de regio’s Oost en Noord. Brutomarge heeft nooit het budget overschreden, waarbij voor ER-0 en MA-0 enig verder onderzoek nodig is.
-6. Totale omzet van het jaar is bijna gelijk aan het budget.
+2. Bekijk de tegels aan de linkerkant van het dashboard.
+
+    ![](media/sample-customer-profitability/power-bi-manager.png)
+
+- De brutomarge van het bedrijf is 42,5 %.
+- We hebben 80 klanten.
+- We verkopen 5 verschillende producten.
+- We hadden ons laagste omzetvariantiepercentage ten opzichte van budget in februari, gevolgd door het hoogste in maart.
+- Het grootste deel van onze omzet is afkomstig uit de regio’s Oost en Noord. Brutomarge heeft nooit het budget overschreden, waarbij voor ER-0 en MA-0 enig verder onderzoek nodig is.
+- Totale omzet van het jaar is bijna gelijk aan het budget.
+
 
 ### <a name="manager-specific-dashboard-tiles"></a>Managerspecifieke dashboardtegels
-Deze tegels bieden een team-scorecard. De CFO moet haar managers blijven volgen. Deze tegels bieden haar een overzicht op hoog niveau van de winst - op grond van het brutomargepercentage. Als de trend in het brutomargepercentage voor een manager afwijkt van de verwachting, dan kan ze dit verder onderzoeken.
+De tegels aan de rechterkant van het dashboard geven een team-scorecard weer. De CFO moet haar managers blijven volgen. Deze tegels bieden haar een overzicht op hoog niveau van de winst - op grond van het brutomargepercentage. Als de trend in het brutomargepercentage voor een manager afwijkt van de verwachting, dan kan ze dit verder onderzoeken.
 
-Het brutomargepercentage van Annelie is het laagste, maar we zien een constante stijging sinds maart. Valery heeft haar brutomargepercentage daarentegen aanzienlijk zien afnemen. En Andrew had een sterk wisselend jaar. Klik op een van de managerspecifieke tegels om het onderliggende rapport te openen. Het rapport heeft 3 pagina's en opent met de pagina Industry Margin Analysis (analyse van de marge in de bedrijfstak).
+![](media/sample-customer-profitability/power-bi-manager2.png)
 
-## <a name="explore-the-pages-in-the-report"></a>De pagina's in het rapport verkennen
-Ons rapport heeft 3 pagina's:
+- Alle leidinggevenden, behalve Carlos, hebben hun verkoopdoel al overschreden. Maar de werkelijke verkopen van Carlos zijn de hoogste. 
+- Het brutomargepercentage van Annelie is het laagste, maar we zien een constante stijging sinds maart.
+- Valery heeft haar brutomargepercentage daarentegen aanzienlijk zien afnemen. 
+- En Andrew had een sterk wisselend jaar. 
 
-* Team-scorecard richt zich op de prestaties van de 5 managers en hun bedrijfscijfers.
-* Analyse van marge in de bedrijfstak biedt een manier om onze winst te analyseren ten opzichte van de gehele bedrijfstak.
-* Executive-scorecard biedt een weergave van elk van onze managers met een indeling die geschikt is voor Cortana.
+## <a name="explore-the-dashboards-underlying-data"></a>De onderliggende gegevens van het dashboard verkennen
+Dit dashboard bevat tegels die gekoppeld zijn aan een rapport en aan een Excel-werkmap. 
+
+### <a name="open-the-excel-online-data-source"></a>Open de Excel Online-gegevensbron
+Twee tegels op dit dashboard, 'Target vs Actual' (Doel vs Realisatie) en 'Year Over Year Revenue Growth' (Omzetgroei jaar na jaar) zijn vastgemaakt vanuit een Excel-werkmap. Dus als u één van deze tegels selecteert, opent Power BI de gegevensbron, in dit geval Excel Online.
+
+![](media/sample-customer-profitability/power-bi-excel-online.png)
+
+1. Selecteer één van de tegels die vanuit Excel zijn vastgemaakt. Excel Online wordt in de Power BI-service geopend.
+2. U ziet dat de werkmap 3 tabbladen aan gegevens bevat. Open 'Revenue'.
+3. Laten we bekijken waarom Carlos zijn doel nog niet heeft bereikt.  
+    a. Selecteer in de schuifbalk 'Executive' **Carlos Grilo**.   
+    b. Uit de eerste draaitabel blijkt dat de omzet van het beste product van Carlos, Primus, met 152% is gedaald in vergelijking met het afgelopen jaar. En uit de jaar-na-jaargrafiek blijkt dat hij de meeste maanden onder budget zit.  
+
+    ![](media/sample-customer-profitability/power-bi-pivotchart.png)
+
+    ![](media/sample-customer-profitability/power-bi-carlos.png)
+
+4. Blijf verkennen en als u iets interessants vindt, kunt u in de rechtsboven **Vastmaken**![](media/sample-customer-profitability/power-bi-excel-pin.png) selecteren om het [aan het dashboard vast te maken](service-dashboard-pin-tile-from-excel.md).
+
+5. Gebruik de pijl terug in uw browser om terug te keren naar het dashboard. 
+
+### <a name="open-the-underlying-power-bi-report"></a>Open het onderliggende Power BI-rapport
+De meerderheid van de tegels op het voorbeelddashboard Klantwinstgevendheid zijn vastgemaakt vanuit het onderliggende voorbeeldrapport Klantwinstgevendheid. 
+
+1. Selecteer één van deze tegels om het rapport in de leesweergave te openen. 
+
+2. Het rapport heeft 3 pagina's. Elk tabblad aan de onderkant van het rapport vertegenwoordigt een pagina. 
+
+    ![](media/sample-customer-profitability/power-bi-report-tabs.png)
+
+    * Team-scorecard richt zich op de prestaties van de 5 managers en hun bedrijfscijfers.
+    * Analyse van marge in de bedrijfstak biedt een manier om onze winst te analyseren ten opzichte van de gehele bedrijfstak.
+    * Executive-scorecard biedt een weergave van elk van onze managers met een indeling die geschikt is voor Cortana.
 
 ### <a name="team-scorecard-page"></a>De pagina Team-scorecard
 ![](media/sample-customer-profitability/customer2.png)
@@ -126,33 +173,35 @@ Deze pagina wordt opgemaakt als een antwoordkaart voor Cortana. Zie [Antwoordkaa
 ## <a name="dig-into-the-data-by-asking-questions-with-qa"></a>Dieper graven in de gegevens door vragen te stellen met Q&A
 Voor onze analyse zou het handig zijn als we bepalen welke bedrijfstak de meeste omzet voor Valery genereert. Hiervoor gebruiken we Q&A.
 
-1. Selecteer **Power BI** in de bovenste navigatiebalk om terug te keren naar het dashboard.
-2. Selecteer het vakje Q&A bovenin het dashboard.
-   
-    ![](media/sample-customer-profitability/customer4.png)
+1. Open het rapport in de bewerkingsweergave en selecteer **Rapport bewerken**. De bewerkingsweergave is alleen beschikbaar als u 'eigenaar' bent van het rapport. Hieraan wordt soms gerefereerd als de **creator**-modus. Als dit rapport met u is gedeeld, kunt u het niet openen in de bewerkingsweergave.
+
+2.  Selecteer in de bovenste menubalk **Een vraag stellen** om het venter Vragen en antwoorden te openen.
+
+    ![](media/sample-customer-profitability/power-bi-ask-question.png)
+
 3. Typ **totale omzet per branche voor Valery**. Kijk hoe de visualisatie wordt bijgewerkt terwijl u de vraag typt.
    
-    ![](media/sample-customer-profitability/customer5.png)
+    ![](media/sample-customer-profitability/power-bi-qna.png)
    
    Distributie is het grootste opbrengstgebied voor Valery.
 
 ### <a name="dig-deeper-by-adding-filters"></a>Dieper graven door filters toe te voegen
 Laten we kijken naar de branche *Distributie*.  
 
-1. Ga terug naar het dashboard en selecteer het vlakdiagram met de brutomargetrend van Andrew. Het rapport wordt geopend op de pagina Analyse van marge in de bedrijfstak.
+1. Open de rapportpagina 'Industry Margin Analysis' (Marge-analyse branche).
 2. Vouw het filterdeelvenster rechts uit zonder visualisaties te selecteren op de rapportagepagina. In het deelvenster Filters mogen alleen filters op paginaniveau worden weergegeven.  
    
    ![](media/sample-customer-profitability/power-bi-filters.png)
-3. Zoek het filter voor **bedrijfstak** en selecteer de pijl om de lijst uit te vouwen. We gaan een paginafilter voor de bedrijfstak Distributie toevoegen. Wis eerst alle selecties door het selectievakje **Alles selecteren** uit te schakelen. Selecteer vervolgens **Distributie.**  
+3. Zoek het filter voor **bedrijfstak** en selecteer de pijl om de lijst uit te vouwen. We gaan een paginafilter voor de bedrijfstak Distributie toevoegen. Wis eerst alle selecties door het selectievakje **Alles selecteren** uit te schakelen. Selecteer vervolgens alleen **Distributie**.  
    
    ![](media/sample-customer-profitability/customer7.png)
 4. Het vlakdiagram Brutomarge per maand en naam executive laat zien dat alleen Valery en Tina klanten hebben in deze bedrijfstak en dat Valery alleen van juni tot en met november met deze bedrijfstak heeft gewerkt.   
 5. Selecteer **Tina** en vervolgens **Valery** in de legenda van het vlakdiagram Brutomarge per maand en naam executive. U ziet dat het deel van Tina van de Totale omzet per product echt klein is vergeleken met dat van Valery. 
-6. Als u de werkelijke omzet wilt bekijken, gaat u terug naar het dashboard en gebruikt u Q&A om de **totale opbrengsten voor distributie van scenario per executive** op te vragen.  
+6. Als u de werkelijke omzet wilt bekijken, gebruikt u Q&A **om de totale opbrengsten per executive voor distributie van scenario op te vragen**.  
    
-   ![](media/sample-customer-profitability/customer8.png)
+     ![](media/sample-customer-profitability/power-bi-qna2.png)
 
-We kunnen ook andere bedrijfstakken verkennen en zelfs klanten toevoegen aan onze visuele elementen om inzicht te krijgen in de oorzaken voor de prestaties van Valery.
+    We kunnen ook andere bedrijfstakken verkennen en zelfs klanten toevoegen aan onze visuele elementen om inzicht te krijgen in de oorzaken voor de prestaties van Valery.
 
 Dit is een veilige omgeving om in te spelen. U kunt er altijd voor kiezen om de wijzigingen niet op te slaan. Als u deze wel opslaat, kunt u altijd naar **Gegevens ophalen** gaan voor een nieuwe kopie van dit voorbeeld.
 

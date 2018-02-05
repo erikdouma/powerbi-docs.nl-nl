@@ -1,5 +1,5 @@
 ---
-title: Hyperlinks in tabellen
+title: Een hyperlink toevoegen aan een tabel
 description: Hyperlinks in tabellen
 services: powerbi
 documentationcenter: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/30/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: e399553b9a31adb79bed73977409d5d88140ad88
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a5a38934ab684691921c480a02024376a4655b8b
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="hyperlinks-in-tables"></a>Hyperlinks in tabellen
 In dit onderwerp leert u hoe u met Power BI Desktop hyperlinks kunt maken. Zodra u een hyperlink hebt gemaakt, kunt u deze met Power BI Desktop of de Power BI-service toevoegen aan uw rapporttabellen en -matrices. 
@@ -85,10 +85,15 @@ Een andere manier om hyperlinks toe te voegen aan uw Power BI-tabellen en -matri
    
    ![](media/power-bi-hyperlinks-in-tables/hyperlinksintables.gif)
 
+## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
+V: Kan ik een aangepaste URL gebruiken als hyperlink in een tabel of matrix?    
+A: Nee. U kunt een koppelingspictogram gebruiken. Als u aangepaste tekst nodig hebt voor uw hyperlinks en als uw lijst met URL’s kort is, kunt u overwegen om in plaats daarvan een tekstvak te gebruiken.
+
+
 ## <a name="next-steps"></a>Volgende stappen
 [Visualisaties in Power BI-rapporten](power-bi-report-visualizations.md)
 
 [Power BI - basisconcepten](service-basic-concepts.md)
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

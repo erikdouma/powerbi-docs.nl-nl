@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/07/2017
+ms.date: 01/24/2018
 ms.author: maikelson
-ms.openlocfilehash: 7b4f69bc65836d59448ef034f5d655f87d89248e
-ms.sourcegitcommit: 85302d577895e779466df55aa02e5785ab2e3138
+ms.openlocfilehash: 91a629699c782914ec542a2b7a668cf25e47ec27
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="power-bi-webinars"></a>Power BI-webinars
 
@@ -47,13 +47,15 @@ Registreer u bij Power BI-experts en neem deel aan live Q&A-sessies
 
 >[Wees aanwezig bij komende webinars van de Power BI-community](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
-- [Verbetering van winstgevendheid in de gezondheidszorg - 12-12/17](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website)
+Er zijn nog geen webinars gepland. Houd deze pagina in de gaten voor meer geplande evenementen.
 
 ## <a name="on-demand-webinars"></a>On-demand webinars
 
 Vastgelegde sessies op elk gewenst moment bekijken
 
 >[Bekijk de bibliotheek van Power BI on-demand webinars van onze community-experts.](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
+
+- [Verbetering van winstgevendheid in de gezondheidszorg](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website)
 
 - [Hoe kunt u een succesvolle strategie voor gegevensbeheer implementeren die uw organisatie veiliger maakt?](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website)
 

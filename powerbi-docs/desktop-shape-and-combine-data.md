@@ -1,27 +1,7 @@
----
-title: Gegevens vormgeven en combineren in Power BI Desktop
-description: Gegevens vormgeven en combineren in Power BI Desktop
-services: powerbi
-documentationcenter: 
-author: davidiseminger
-manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
-ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 09/06/2017
-ms.author: davidi
-ms.openlocfilehash: 22c5b8f64ef24f6ef6ff918058a56dc36fefddfa
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
-ms.translationtype: HT
-ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2017
+-- title: Gegevens vormgeven en combineren in Power BI Desktop description: Gegevens vormgeven en combineren met Power BI Desktop-services: powerbi documentationcenter: " author: davidiseminger manager: kfile backup: '' editor: '' tags: '' qualityfocus: no qualitydate: ''
+
+ms.service: powerbi ms.devlang: NA ms.topic: article ms.tgt_pltfrm: NA ms.workload: powerbi ms.date: 01/30/2018 ms.author: davidi
+
 ---
 # <a name="shape-and-combine-data-in-power-bi-desktop"></a>Gegevens vormgeven en combineren in Power BI Desktop
 Met **Power BI Desktop** kunt u verbinding maken met veel verschillende soorten gegevensbronnen en vervolgens de gegevens vormgeven om aan uw behoeften te voldoen. Het *vormgeven* van gegevens betekent het omzetten van de gegevens, zoals de naam wijzigen van kolommen of tabellen, het wijzigen van tekst in getallen, het verwijderen van rijen, het instellen van de eerste rij als koptekst, enzovoort. Het *combineren* van gegevens betekent verbinding maken met twee of meer gegevensbronnen, deze naar wens vormgeven en ze samenvoegen tot één handige query.
@@ -119,9 +99,9 @@ De tabelnaam kan eenvoudig worden gewijzigd: typ in het deelvenster **Query-inst
 Goed, we hebben die gegevens vormgegeven voor zover dat nodig was. Laten we nu verbinding maken met een andere gegevensbron en gegevens gaan combineren.
 
 ## <a name="combine-data"></a>Gegevens combineren
-Die informatie over de verschillende staten is best interessant en handig voor extra analyses en query's. Maar er is wel één probleem: de meeste van die gegevens gebruiken de tweeletterige afkorting als code voor staten, niet de volledige naam van de staat. We hebben een manier nodig om namen van staten te koppelen aan hun afkortingen.
+De informatie over de verschillende staten is best interessant en handig voor extra analyses en query's. Maar er is wel één probleem: de meeste van die gegevens gebruiken de tweeletterige afkorting als code voor staten, niet de volledige naam van de staat. We hebben een manier nodig om namen van staten te koppelen aan hun afkortingen.
 
-Maar het zit ons mee: er is een andere openbare gegevensbron die precies dat doet, maar er moet dan wel eerst aardig wat worden aangepast voordat we die bron aan onze pensioneringstabel kunnen koppelen. Hier is de webbron voor staatafkortingen:
+Maar gelukkig is er een andere openbare gegevensbron die precies dat doet, maar er moet dan wel eerst aardig wat worden aangepast voordat die bron aan de pensioneringstabel kan worden gekoppeld. Hier is de webbron voor staatafkortingen:
 
 <http://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations>
 
@@ -190,7 +170,7 @@ Het venster **Samenvoegen** wordt weergegeven, waarin wordt gevraagd welke tabel
 
 ![](media/desktop-shape-and-combine-data/shapecombine_merge.png)
 
-Er wordt een **NewColumn** aan het einde van de query gemaakt, met daarin de inhoud van de tabel (query) die met de bestaande query werd samengevoegd. Alle kolommen uit de samengevoegde query zijn samengevoegd in de **NewColumn**, maar u kunt ervoor kiezen de tabel **uit te breiden** om elke gewenste kolom op te nemen.
+Er wordt een **NewColumn** aan het einde van de query gemaakt, met daarin de inhoud van de tabel (query) die met de bestaande query is samengevoegd. Alle kolommen uit de samengevoegde query zijn samengevoegd in de **NewColumn**, maar u kunt ervoor kiezen de tabel **uit te breiden** om elke gewenste kolom op te nemen.
 
 ![](media/desktop-shape-and-combine-data/shapecombine_mergenewcolumn.png)
 
@@ -201,7 +181,7 @@ Als u de samengevoegde tabel wilt uitvouwen en wilt aangeven welke kolommen u wi
 In dit geval hebben we alleen de kolom **State Code** nodig. Daarom selecteren we alleen die kolom en vervolgens **OK**. We schakelen het selectievakje ‘Oorspronkelijke kolomnaam gebruiken als voorvoegsel’ uit omdat we die niet nodig hebben en ook niet willen. Als we het selectievakje ingeschakeld zouden laten, krijgt de samengevoegde kolom de naam **NewColumn.State Code** (de naam van de oorspronkelijke kolom, ofwel **NewColumn**, gevolgd door een punt, gevolgd door de naam van de kolom die in de query wordt opgenomen).
 
 >[!NOTE]
->Wilt u uitproberen hoe u die **NewColumn**-tabel kunt opzetten? U kunt wat experimenteren en als de resultaten u niet bevallen, kunt u die stap gewoon verwijderen uit de lijst **Toegepaste stappen** in het deelvenster **Query-instellingen**. De query krijgt dan weer de status die gold voordat de **Uitvouwen**-stap werd toegepast. Dit is net als een gratis herkansing, die u zo vaak als u wilt kunt uitvoeren totdat u met het proces van uitvouwen het gewenste resultaat hebt bereikt.
+>Wilt u uitproberen hoe u die **NewColumn**-tabel kunt opzetten? U kunt wat experimenteren en als de resultaten u niet bevallen, kunt u die stap gewoon verwijderen uit de lijst **Toegepaste stappen** in het deelvenster **Query-instellingen**. De query krijgt dan weer de status die gold voordat de stap **Uitbreiden** werd toegepast. U kunt de stap zo vaak uitvoeren als u wilt, totdat u met het uitbreidproces het gewenste resultaat hebt bereikt.
 
 We hebben nu één query (tabel) waarin twee gegevensbronnen zijn samengevoegd, die elk volgens onze behoeften zijn vormgegeven. Deze query kan fungeren als basis voor een groot aantal extra, interessante gegevensverbindingen, zoals statistieken voor huisvestingskosten, demografische gegevens of werkgelegenheid in een staat.
 
@@ -210,11 +190,11 @@ Als u wijzigingen wilt toepassen en de Query-editor wilt sluiten, selecteert u S
 ![](media/desktop-shape-and-combine-data/shapecombine_closeandapply.png)
 
 ## <a name="next-steps"></a>Volgende stappen
-U kunt allerlei dingen doen met Power BI Desktop. Bekijk de volgende bronnen voor meer informatie over de vele mogelijkheden:
+U kunt allerlei handelingen uitvoeren met Power BI Desktop. Bekijk de volgende bronnen voor meer informatie over de vele mogelijkheden:
 
-* [Aan de slag met Power BI Desktop](desktop-getting-started.md)
-* [Queryoverzicht met Power BI Desktop](desktop-query-overview.md)
-* [Gegevensbronnen in Power BI Desktop](desktop-data-sources.md)
+* [Getting Started with Power BI Desktop](desktop-getting-started.md) (Aan de slag met Power BI Desktop)
+* [Query Overview with Power BI Desktop](desktop-query-overview.md) (Queryoverzicht met Power BI Desktop)
+* [Data Sources in Power BI Desktop](desktop-data-sources.md) (Gegevensbronnen in Power BI Desktop)
 * [Verbinding maken met gegevens in Power BI Desktop](desktop-connect-to-data.md)
 * [Algemene querytaken in Power BI Desktop](desktop-common-query-tasks.md)   
 
