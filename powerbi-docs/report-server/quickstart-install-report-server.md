@@ -3,7 +3,7 @@ title: 'Quickstart: Power BI Report Server installeren'
 description: Het installeren van Power BI Report Server zelf gaat erg snel. Inclusief downloaden, installeren en configureren, moet u binnen enkele minuten aan de slag kunnen.
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -15,22 +15,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 06/28/2017
+ms.date: 01/29/2018
 ms.author: maghan
-ms.openlocfilehash: 934b4d3f2da44a161cd76d14c9f042aaf697f26d
-ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
+ms.openlocfilehash: 3ddf8870fd4fb3186ff884220fc4a7de7632c78d
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="quickstart-install-power-bi-report-server"></a>Quickstart: Power BI Report Server installeren
 Het installeren van Power BI Report Server zelf gaat erg snel. Inclusief downloaden, installeren en configureren, moet u binnen enkele minuten aan de slag kunnen.
 
-Dit is een beknopt overzicht van hoe u een rapportserver installeert als u met een nieuwe server aan de slag wilt. Zie [Power BI Report Server installeren](install-report-server.md) voor meer informatie over het installeren van een rapportserver.
+Dit is een beknopt overzicht van hoe u een rapportserver installeert als u met een nieuwe server aan de slag wilt. Bekijk [Power BI Report Server installeren](install-report-server.md) voor meer informatie over het installeren van een rapportserver.
 
  **Downloaden** ![downloaden](media/quickstart-install-report-server/download.png "downloaden")
 
-Ga naar [On-premises reporting with Power BI Report Server](https://powerbi.microsoft.com/report-server/) (On-premises rapporteren met Power BI Report Server) om Power BI Report Server te downloaden. Ga naar het [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=837581) voor een versie van Power BI Desktop die is geoptimaliseerd voor Power BI Report Server.
+Ga naar [On-premises reporting with Power BI Report Server](https://powerbi.microsoft.com/report-server/) (On-premises rapporteren met Power BI Report Server) om Power BI Report Server te downloaden. 
+
+Ga naar het Microsoft Downloadcentrum om [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (geoptimaliseerd voor Power BI Report Server, oktober 2017) te downloaden.
 
 ![tip](media/quickstart-install-report-server/fyi-tip.png "tip") Zie [Power BI Report Server - release-opmerkingen](release-notes.md) voor de huidige release-opmerkingen.
 
