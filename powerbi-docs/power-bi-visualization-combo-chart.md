@@ -47,7 +47,7 @@ Kijk hoe Will een combinatiegrafiek maakt op basis van het voorbeeld van verkoop
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lnv66cTZ5ho?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-<a name="create"></a>Als u uw eigen combinatiegrafiek wilt maken, meldt u zich aan bij Power BI-service en selecteert u **Gegevens ophalen \> Voorbeelden \> Voorbeeld van een retailanalyse > Verbinding maken > Naar dashboard gaan**.
+<a name="create"></a> Als u uw eigen combinatiegrafiek wilt maken, meldt u zich aan bij Power BI-service en selecteert u **Gegevens ophalen \> Voorbeelden \> Voorbeeld van een retailanalyse > Verbinding maken > Naar dashboard gaan**.
 
 1. Selecteer op het dashboard Voorbeeld van een retailanalyse de tegel **Totaal aantal winkels** om het rapport Voorbeeld van een retailanalyse te openen.
 2. Selecteer **Rapport bewerken** om het rapport in de bewerkingsweergave te openen.
