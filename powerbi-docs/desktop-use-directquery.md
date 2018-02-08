@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/25/2017
 ms.author: davidi
-ms.openlocfilehash: 47168f33b8c6aca967b7b4d14248f9ec6b4d0767
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: d3643ae398c037c375c8e67360794047a6f66ed7
+ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/01/2018
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>DirectQuery in Power BI Desktop gebruiken
 Wanneer u in **Power BI Desktop** verbinding maakt met een gegevensbron, kunt u altijd een kopie van de gegevens in **Power BI Desktop** importeren. Voor sommige gegevensbronnen kunt u ook rechtstreeks verbinding maken met de gegevensbron via **DirectQuery**.
@@ -61,7 +61,7 @@ Het gebruik van **DirectQuery** is onderhevig aan de volgende beperkingen:
 * Standaard worden er beperkingen gesteld aan DAX-expressies die zijn toegestaan in metingen. Zie de volgende alinea (na deze lijst met opsommingstekens) voor meer informatie
 * Er worden maximaal 1 miljoen rijen met gegevens geretourneerd wanneer u **DirectQuery** gebruikt. Dit is niet van invloed op aggregaties of berekeningen die worden gebruikt om de gegevensset te maken die met **DirectQuery** wordt geretourneerd, alleen op de geretourneerde rijen. U kunt bijvoorbeeld 10 miljoen rijen aggregeren met een query die wordt uitgevoerd op de gegevensbron, en het resultaat van deze aggregatie retourneren naar Power BI met **DirectQuery**, zolang er maar minder dan 1 miljoen rijen met gegevens naar Power BI worden geretourneerd. Als er meer dan 1 miljoen rijen worden geretourneerd met **DirectQuery**, treedt er een fout op in Power BI.
 
-Om ervoor te zorgen dat de prestaties van query's die naar de onderliggende gegevensbron worden verzonden acceptabel blijven, worden er standaard beperkingen opgelegd aan metingen. Geavanceerde gebruikers kunnen ervoor kiezen deze beperkingen als volgt te omzeilen: selecteer achtereenvolgens **Bestand > Opties**, **Instellingen > Opties en instellingen > DirectQuery** en de optie *Onbeperkte metingen toestaan in de DirectQuery-modus**. Wanneer deze optie is geselecteerd, kan een geldige DAX-expressie voor een meting worden gebruikt. Gebruikers moeten echter wel beseffen dat bepaalde expressies met hoge prestaties als de gegevens worden geïmporteerd, kunnen resulteren in erg trage query's als deze worden uitgevoerd op de back-endbron in de DirectQuery-modus.
+Om ervoor te zorgen dat de prestaties van query's die naar de onderliggende gegevensbron worden verzonden acceptabel blijven, worden er standaard beperkingen opgelegd aan metingen. Geavanceerde gebruikers kunnen ervoor kiezen deze beperkingen als volgt te omzeilen: selecteer achtereenvolgens **Bestand > Opties**, **Instellingen > Opties en instellingen > DirectQuery** en de optie *Onbeperkte metingen toestaan in de DirectQuery-modus*. Als deze optie is geselecteerd, kan elke DAX-expressie worden gebruikt die geldig is voor een meting. Gebruikers moeten echter wel beseffen dat bepaalde expressies met hoge prestaties als de gegevens worden geïmporteerd, kunnen resulteren in erg trage query's als deze worden uitgevoerd op de back-endbron in de DirectQuery-modus.
 
 ## <a name="important-considerations-when-using-directquery"></a>Belangrijke overwegingen bij het gebruik van DirectQuery
 Houd rekening met de volgende drie punten wanneer u **DirectQuery** gebruikt:
