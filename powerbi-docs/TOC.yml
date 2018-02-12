@@ -852,51 +852,51 @@
       items:
         - name: Power BI-apps voor mobiele apparaten
           href: mobile-apps-for-mobile-devices.md
-        - name: Uw dashboards en rapporten op uw mobiele apparaat zoeken
+        - name: 'Dashboards, rapporten en apps vinden op een mobiel apparaat'
           href: mobile-apps-find-content-mobile-devices.md
-        - name: Wat is er nieuw in de mobiele apps voor Power BI
+        - name: Wat is er nieuw in de mobiele apps
           href: mobile-whats-new-in-the-mobile-apps.md
     - name: Alle mobiele apps
       items:
         - name: Power BI-apps voor iOS
           href: mobile-ios-ipad-iphone-apps.md
-        - name: On-premises rapporten en KPI's weergeven in de Power BI - Mobiel-apps
+        - name: On-premises rapporten en KPI's weergeven in de mobiele apps
           href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
-        - name: Dashboards voor Power BI - Mobiel
+        - name: Dashboards in de mobiele apps
           href: mobile-apps-view-dashboard.md
-        - name: Rapporten in de Power BI - Mobiel-apps
+        - name: Rapporten in de mobiele apps
           href: mobile-reports-in-the-mobile-apps.md
         - name: Interactie met tegels in de mobiele apps
           href: mobile-tiles-in-the-mobile-apps.md
-        - name: Een dashboard delen via de Power BI - Mobiel-apps
+        - name: Een dashboard delen via de mobiele Power BI-apps
           href: mobile-share-dashboard-from-the-mobile-apps.md
-        - name: Favoriete items in de Power BI - Mobiel-apps
+        - name: Favorieten in de mobiele apps
           href: mobile-apps-favorites.md
-        - name: Power BI-gegevens uit de praktijk ophalen met de mobiele apps
+        - name: Echte Power BI-gegevens ophalen met de mobiele apps
           href: mobile-apps-data-in-real-world-context.md
-        - name: Een QR-code van Power BI QR scannen met uw telefoon
+        - name: Een QR-code scannen met uw telefoon
           href: mobile-apps-qr-code.md
-        - name: Meldingen in de Power BI - Mobiel-apps ontvangen
+        - name: Meldingen ontvangen in de mobiele apps
           href: mobile-apps-notification-center.md
-        - name: 'Een tegel, rapport of visual van aantekeningen voor zien en delen via de mobiele apps'
+        - name: Aantekeningen toevoegen en delen in de mobiele apps
           href: mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
-        - name: Gegevensmeldingen instellen in de Power BI - Mobiel-apps
+        - name: Gegevensmeldingen instellen in de mobiele apps
           href: mobile-set-data-alerts-in-the-mobile-apps.md
-        - name: Een rapport in de Power BI - Mobiel-apps filteren op locatie
+        - name: Een rapport filteren op locatie in de mobiele apps
           href: mobile-apps-geographic-filtering.md
         - name: Vragen over uw gegevens stellen in de mobiele iOS-apps (zelfstudie)
           href: mobile-apps-ios-qna.md
         - name: Een dieptekoppeling naar een specifieke locatie maken
           href: mobile-apps-deep-link-specific-location.md
-        - name: Uw gegevens offline weergeven in de Power BI - Mobiel-apps
+        - name: Gegevens offline weergeven in de mobiele apps
           href: mobile-apps-offline-data.md
-        - name: Voor uw telefoon geoptimaliseerde Power BI-rapporten weergeven en gebruiken
+        - name: Voor uw telefoon geoptimaliseerde rapporten weergeven en gebruiken
           href: mobile-apps-view-phone-report.md
         - name: Mobiele apps configureren met Intune
           href: service-admin-mobile-intune.md
         - name: OAuth gebruiken om verbinding met Reporting Services te maken
           href: mobile-oauth-ssrs.md
-        - name: Ondersteunde talen in de Power BI - Mobiel-apps
+        - name: Ondersteunde talen in de mobiele apps
           href: mobile-apps-supported-languages.md
     - name: iPad-app (Power BI voor iOS)
       items:
@@ -908,7 +908,7 @@
           href: mobile-iphone-app-get-started.md
         - name: Power BI-app voor Apple Watch
           href: mobile-apple-watch.md
-        - name: Een streepjescode met de Power BI-app op uw iPhone scannen
+        - name: Een streepjescode met de mobiele app op uw iPhone scannen
           href: mobile-apps-scan-barcode-iphone.md
     - name: Power BI-app voor Android-telefoons
       items:
@@ -922,9 +922,9 @@
           href: mobile-android-tablet-app-get-started.md
     - name: Power BI-app voor Windows 10-apparaten
       items:
-        - name: Aan de slag met de Power BI - Mobiel-app voor Windows 10
+        - name: Aan de slag met de mobiele Power BI-app voor Windows 10
           href: mobile-windows-10-phone-app-get-started.md
-        - name: De mobiele rapporten en KPI's van Reporting Services weergeven in de Power BI - Mobiel-app voor Windows 10
+        - name: De mobiele rapporten en KPI's van Reporting Services weergeven in de mobiele app voor Windows 10
           href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
         - name: Een Power BI-tegel of -dashboard aan het startscherm vastmaken
           href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
