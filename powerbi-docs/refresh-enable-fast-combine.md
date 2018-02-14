@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 02/06/2018
 ms.author: davidi
-ms.openlocfilehash: 1e68f7df5214e038df8bcd1584acb815c0af98bf
-ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
+ms.openlocfilehash: 5d754dbdd5d52e7a5b123755015e656d9fb2cea2
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/22/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="disable-privacy-setting-in-power-bi-gateway---personal"></a>Privacyinstelling in Power BI Gateway - Personal uitschakelen
 > [!NOTE]
@@ -45,7 +45,7 @@ U kunt deze fout omzeilen door **Snel combineren** in te schakelen. Als **Snel c
 > 
 
 ## <a name="what-is-fast-combine"></a>Wat is Snel combineren?
-Zie [Privacyniveaus](https://support.office.com/en-us/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) voor meer informatie over privacyniveaus en Snel combineren. Standaard wordt het privacyniveau ingesteld op Privé, hetgeen kan resulteren in de hierboven beschreven fout. De instelling Privé zorgt ervoor dat de gegevensbron wordt gescheiden van andere bronnen. In bepaalde gevallen kan dit een probleem zijn, bijvoorbeeld bij een query met parameters waarmee invoer wordt opgehaald uit een andere gegevensbron.
+Zie [Privacyniveaus](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) voor meer informatie over privacyniveaus en Snel combineren. Standaard wordt het privacyniveau ingesteld op Privé, hetgeen kan resulteren in de hierboven beschreven fout. De instelling Privé zorgt ervoor dat de gegevensbron wordt gescheiden van andere bronnen. In bepaalde gevallen kan dit een probleem zijn, bijvoorbeeld bij een query met parameters waarmee invoer wordt opgehaald uit een andere gegevensbron.
 
 Door Snel combineren in te schakelen wordt de instelling Privé genegeerd en kan de query worden uitgevoerd.
 
@@ -85,7 +85,7 @@ Gebruik de volgende stappen om Snel combineren in te schakelen voor uw persoonli
 
 ## <a name="next-steps"></a>Volgende stappen
 [On-premises gegevensgateway (persoonlijke modus): de nieuwe versie van de persoonlijke gateway](service-gateway-personal-mode.md)
-[Privacyniveaus](https://support.office.com/en-us/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)  
+[Privacyniveaus](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)  
 [Algemene querytaken in Power BI Desktop](desktop-common-query-tasks.md)  
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

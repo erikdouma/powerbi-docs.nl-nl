@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 02012b531ba43ec5f17e47f2b273b75ef8b2d9ec
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 72445988ff4080b7c24f09f797f2038b957631ef
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Uw gegevensbron beheren - Analysis Services
 Als u de on-premises gegevensgateway hebt geïnstalleerd, dient u gegevensbronnen toevoegen die kunnen worden gebruikt met die gateway. Dit artikel bespreekt het werken met gateways en gegevensbronnen. U kunt de Analysis Services-gegevensbron gebruiken voor zowel geplande vernieuwing als voor liveverbindingen.
@@ -89,17 +89,6 @@ Als u alles hebt ingevuld, klikt u op **Toevoegen**.  U kunt deze gegevensbron n
 U kunt het privacyniveau voor de gegevensbron configureren. Hiermee bepaalt u hoe gegevens kunnen worden gecombineerd. Deze instelling wordt alleen gebruikt voor geplande vernieuwing. Deze is niet van toepassing voor liveverbindingen. [Meer informatie](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)
 
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings9.png)
-
-## <a name="get-data-experience-for-analysis-services-in-power-bi-site"></a>Ervaring van 'Gegevens ophalen' voor Analysis Services op de Power BI-site
-Een unieke mogelijkheid die Analysis Services biedt, is dat u direct vanuit de Power BI-service gegevens kunt ophalen. U kunt zonder Power BI Desktop een liveverbinding maken met een Analysis Services-gegevensbron die binnen de gateway is geconfigureerd. Deze optie wordt alleen in de lijst weergegeven indien uw account voor de gateway is opgenomen in het tabblad **Gebruikers**. U kunt de volgende stappen volgen om verbinding te maken met de gegevensbron.
-
-1. Selecteer in de Power BI-service **Gegevens ophalen**.
-2. Selecteer **Databases**.
-3. Selecteer **SQL Server Analysis Services** > **Verbinding maken**.
-4. Selecteer vervolgens een gegevensbron in de lijst. Hier dient een Analysis Services-gegevensbron te worden weergegeven waar u toegang toe hebt.
-5. Selecteer het model waarmee u verbinding wilt maken. Selecteer vervolgens **Verbinding maken**.
-
-Er wordt nu een gegevensset weergegeven met de naam van de server. U kunt vervolgens deze gegevensset selecteren en rapporten gaan maken. Deze rapporten werken dan met actuele gegevens.
 
 ## <a name="usernames-with-analysis-services"></a>Gebruikersnamen en Analysis Services
 Telkens wanneer een gebruiker interactie heeft met een rapport dat is verbonden met Analysis Services, wordt de effectieve gebruikersnaam doorgegeven aan de gateway en vervolgens aan de on-premises Analysis Services-server. Het e-mailadres waarmee u zich bij Power BI aanmeldt, is de informatie die als de effectieve gebruikersnaam wordt doorgegeven aan Analysis Services. Deze informatie wordt doorgegeven via de verbindingseigenschap [EffectiveUserName](https://msdn.microsoft.com/library/dn140245.aspx#bkmk_auth). Dit e-mailadres moet overeenkomen met een UPN die is gedefinieerd in het lokale Active Directory-domein. De UPN is een eigenschap van een Active Directory-account. Dat Windows-account moet aanwezig zijn in een Analysis Services-rol. De aanmelding kan niet tot stand worden gebracht als er geen overeenkomst wordt gevonden in Active Directory. [Meer informatie](https://msdn.microsoft.com/library/ms677605.aspx)

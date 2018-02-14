@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 0ec1ca9bccabd923b67fc1f49da4b7321ba11141
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+ms.openlocfilehash: 0bbbbccefedd437204e1981cb1cc88493373330b
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>Verbinding maken met Application Insights met Power BI
 Power BI gebruiken voor het maken van krachtige aangepaste dashboards van de telemetrie van [Application Insights](https://azure.microsoft.com/documentation/articles/app-insights-overview/). Bekijk uw app-telemetrie op nieuwe manieren. Combineer metrische gegevens uit meerdere apps of componentservices op één dashboard. De eerste versie van het Power BI-inhoudspakket voor Application Insights omvat widgets voor aan algemeen gebruik gerelateerde metrische gegevens zoals actieve gebruikers, paginaweergave, sessies, browser en de versie van het besturingssysteem en geografische verdeling van gebruikers op een kaart.
@@ -61,7 +61,7 @@ Maak verbinding met het [Application Insights-inhoudspakket voor Power BI](https
 ## <a name="whats-included"></a>Wat is inbegrepen
 Het Application Insights-inhoudspakket bevat de volgende tabellen en metrische gegevens:  
 
-     ´´´
+    ´´´
     - ApplicationDetails  
     - UniqueUsersLast7Days   
     - UniqueUsersLast30Days   
@@ -78,7 +78,7 @@ Het Application Insights-inhoudspakket bevat de volgende tabellen en metrische g
     - SessionsByCountryLast7Days   
     - SessionsByCountryLast30Days   
     - PageViewsByCountryDailyLast30Days  
-   ´´´ 
+        ´´´ 
 
 <a name="FindingAppInsightsParams"></a>
 

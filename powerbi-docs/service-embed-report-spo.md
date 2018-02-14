@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/19/2017
 ms.author: maghan
-ms.openlocfilehash: 99b6391dc48772e21dd64038699a3365225167eb
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 78be1a631a167a3b32ecb7d884a3428dc6a362b0
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Insluiten met webonderdeel Rapport in SharePoint Online
 
@@ -98,12 +98,6 @@ U kunt gebruikers ook op de volgende manier toegang verlenen tot het rapport.
 
 2. Deel het dashboard met de gebruikers die toegang moeten hebben tot het rapport. Zie [Een dashboard delen met collega's en anderen](service-share-dashboards.md) voor meer informatie.
 
-## <a name="allowing-free-users-access-to-reports"></a>Gebruikers van de gratis versie toegang verlenen tot rapporten
-
-Gebruikers van de gratis versie kunnen rapporten weergeven die zijn ingesloten in het Power BI-webonderdeel voor SharePoint Online. U biedt gebruikers van de gratis versie op dezelfde manier toegang als gebruikers van Pro-versies. Dit wordt beschreven in [Toegang verlenen tot rapporten](#granting-access-to-reports) hierboven. De werkruimte waarin het rapport zich bevindt, moet ook worden ondersteund door Power BI Premium-capaciteit. 
-
-Als u bijvoorbeeld een rapport hebt in een app-werkruimte, moet u de app-werkruimte toewijzen aan een Power BI Premium-capaciteit. U moet de gebruiker van de gratis versie ook toevoegen aan de lijst met leden van die app-werkruimte.
-
 ## <a name="web-part-settings"></a>Instellingen van het webonderdeel
 
 Hierna volgt een beschrijving van de instellingen die kunnen worden aangepast voor het Power BI-webonderdeel voor SharePoint Online.
@@ -160,5 +154,5 @@ Neem contact op met de eigenaar van de SharePoint Online-pagina, die u kan helpe
 [Een dashboard delen met collega's en anderen](service-share-dashboards.md)  
 [Power BI Premium - wat is het?](service-premium.md)  
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/) 
 
