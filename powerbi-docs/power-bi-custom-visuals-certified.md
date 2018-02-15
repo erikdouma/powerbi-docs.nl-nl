@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/06/2018
 ms.author: mihart
-ms.openlocfilehash: f9824b29515481742c339bc76e766e5e62cf1716
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+ms.openlocfilehash: 34733c469b584fe94a55c0521e889cd39fca6ed8
+ms.sourcegitcommit: 8d1aa392600f2a8dd81859687fed0d0080de4b6e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 02/13/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>Een aangepast visueel element laten *certificeren*
 ## <a name="what-is-meant-by-certified"></a>Wat is *gecertificeerd*?
@@ -50,8 +50,7 @@ Een aangepast visueel element indienen voor certificering:
    * Titel: Aanvraag voor certificering van visueel element    
    * Koppeling naar de GitHub-opslagplaats waar de broncode van het visuele element wordt gehost    
    * Voldoen aan de vereisten (zie hierboven)    
-   * De code- en beveiligingscontrole doorstaan    
-2. U krijgt bericht van het Microsoft-team voor aangepaste visuele elementen wanneer uw aangepaste visuele element is gecertificeerd en toegevoegd aan de lijst met gecertificeerde elementen (hieronder), of dat uw visuele element is geweigerd. In dat geval ontvangt u een rapport van de problemen die moeten worden verholpen. Het is de verantwoordelijkheid van de ontwikkelaar om contact te houden met Microsoft en hun gecertificeerde visuele elementen waar nodig bij te werken.
+   * De code- en beveiligingscontrole doorstaan    2. U krijgt bericht van het Microsoft-team voor aangepaste visuele elementen wanneer uw aangepaste visuele element is gecertificeerd en toegevoegd aan de lijst met gecertificeerde elementen (hieronder), of dat uw visuele element is geweigerd. In dat geval ontvangt u een rapport van de problemen die moeten worden verholpen. Het is de verantwoordelijkheid van de ontwikkelaar om contact te houden met Microsoft en hun gecertificeerde visuele elementen waar nodig bij te werken.
 
 ## <a name="removal-of-power-bi-certified-custom-visuals"></a>Gecertificeerde aangepaste visuele elementen uit Power BI verwijderen
 Microsoft kan naar eigen goeddunken een visueel element uit de lijst met gecertificeerde visuele elementen verwijderen.  
@@ -60,76 +59,84 @@ Microsoft kan naar eigen goeddunken een visueel element uit de lijst met gecerti
 | Koppeling naar AppSource | Koppeling naar video |
 | --- | --- |
 | [Association Rules](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380815) | |
-| [Asterdiagram](https://appsource.microsoft.com/product/power-bi-visuals/WA104380759?src=office&tab=Overview) | |
-| [BciCalendar (Beyondsoft-kalender)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381096?src=office&tab=Overview)  | |
-| [Vlinderdasdiagram door MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380838?src=office&tab=Overview) |[Video](https://youtu.be/So5xKMSpVJI) |
-| [Box-and-whisker](https://appsource.microsoft.com/product/power-bi-visuals/WA104380831?src=office&tab=Overview) | |
-| [Bouwsteendiagram door MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380836) | |
-| [Belgrafiek van Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381340?src=office) | |
-| [Opsommingstekendiagram](https://store.office.com/app.aspx?assetid=WA104380755) |[Video1](https://youtu.be/AOlsFYkfkcw)   [Video2](https://youtu.be/AQvd2FhRyCI) |
-| [Opsommingstekendiagram door OKViz](https://store.office.com/bullet-chart-by-okviz-WA104380953.aspx) |[Video](https://youtu.be/mtvUNl9bMjA) |
-| [Kalender door Tallan](https://appsource.microsoft.com/product/power-bi-visuals/WA104381146?src=office&tab=Overview) | |
-| [Candlestick door OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380952) | |
-| [Chiclet-slicer](https://store.office.com/chiclet-slicer-WA104380756.aspx) |[Video](https://youtu.be/iYOkJ1APueY) |
-| [Koordediagram](https://appsource.microsoft.com/product/power-bi-visuals/WA104380761?src=office&tab=Overview) |[Video](https://youtu.be/AQvd2FhRyCI) |
-| [Ronde meter door MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380837?tab=Overview) | |
-| [Cilindrische meter](https://appsource.microsoft.com/product/power-bi-visuals/WA104380874) | |
-| [Meetklok](https://appsource.microsoft.com/product/power-bi-visuals/WA104381184) |[Video](https://youtu.be/AOlsFYkfkcw) |
-| [Ringdiagram (cirkelgrafiek) door MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380824?tab=Overview) |[Video](https://youtu.be/pDToHDFHnq8) |
-| [Dot Plot door MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381101) | |
-| [Puntdiagram door OKViz](https://appsource.microsoft.com/product/power-bi-visuals/WA104381101?src=office&tab=Overview) |[Video](https://youtu.be/4lskRgcpFJY) |
-| [Dot Plot door Microsoft](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380760?src=office) | |
-| [Inzoom-ringdiagram door ZoomCharts](https://appsource.microsoft.com/product/power-bi-visuals/WA104380858) | |
-| [Inzoom-cartogram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381045?src=office) | |
-| [Inzoom-choropleth](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381044?src=office) | |
-| [Inzoom-kolomdiagram door ZoomCharts](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380881?src=office) | |
-| [Inzoom-kolomdiagram voor op tijd gebaseerde gegevens door ZoomCharts](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380881) | |
-| [Inzoom-ringdiagram door ZoomCharts](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380858) | |
-| [Dual KPI](https://store.office.com/dual-kpi-WA104380774.aspx) |[Video](https://youtu.be/821o0-eVBXo?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x) |
-| [Verbeterde spreidingsgrafiek](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380762) | |
-| [Enlighten Aquarium](https://appsource.microsoft.com/product/power-bi-visuals/WA104381112?src=office&tab=Overview) | |
-| [Enlighten-beldiagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380868) | |
-| [Enlighten Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380960?tab=Overview) | |
+| [Asterdiagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759) | |
+| [Beyondsoft-agenda](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381096) | |
+| [Vlinderdasdiagram door MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380838) | [Video](https://youtu.be/So5xKMSpVJI) |
+| [Box-and-whisker-grafiek](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380831) | |
+| [Bouwsteendiagram door MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380836) | [Video](https://youtu.be/hA3DOsvn2xY) |
+| [Belgrafiek door Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381340) | |
+| [Opsommingstekendiagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380755) | [Video](https://youtu.be/AOlsFYkfkcw) |
+| [Opsommingstekendiagram door OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380953) | [Video](https://youtu.be/mtvUNl9bMjA) |
+| [Kalender door Tallan](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381146) | |
+| [Candlestick door OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380952) | [Video](https://youtu.be/nT_18gyRxPo) |
+| [Kaart met staten door OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380967) | |
+| [Chiclet-slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380756) | |
+| [Chord](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380761) | [Video](https://youtu.be/AQvd2FhRyCI) |
+| [Ronde meter door MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380837) | [Video](https://youtu.be/9NHXALkBXuY) |
+| [Cluster-kaart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380806) | |
+| [Clustering](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380861) | |
+| [Clustering met uitschieters](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380889) | |
+| [Correlatie-grafiek](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380814) | |
+| [Cilindrische meter door MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380874) | [Video](https://youtu.be/DgdoWi7Gcxo) |
+| [Beslissingsboomstructuur](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380817) | |
+| [Meetklok](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381184) | |
+| [Puntdiagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380760) | |
+| [Puntdiagram door OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380949) | [Video](https://youtu.be/By16pX9KT40) |
+| [Inzoom-cartogram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381045) | |
+| [Inzoom-choropleth](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381044) | |
+| [Inzoom-kolomdiagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380857) | [Video](https://youtu.be/lBy2gQQ5YsQ) |
+| [Inzoom-kolomdiagram voor op tijd gebaseerde gegevens](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380881) | [Video](https://youtu.be/T_mRou18vx0) |
+| [Inzoom-ringdiagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380858) | [Video](https://youtu.be/AUVFrSHmPeo) |
+| [Dual KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380774) | |
+| [Verbeterde spreidingsgrafiek](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380762) | [Video](https://youtu.be/xCfM0cjM4do) |
+| [Enlighten Aquarium](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381112) | |
+| [Enlighten Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380960) | |
 | [Enlighten Stack Shuffle](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380849) | |
 | [Enlighten-wafeldiagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380850) | |
-| [Enlighten World Flags](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380923) | |
-| [Krachtgestuurde grafiek](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380764) |[Video](https://youtu.be/YsTa7uyJ4sg) |
-| [Prognose maken van TBATS](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381326?src=office) | |
-| [Trechter met bron]() | || [Gantt](https://store.office.com/gantt-WA104380765.aspx) |[Video](https://youtu.be/qJ7s_KrGiUU) |
-| [Hiërarchische grafiek van Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381333?src=office) | |
-| [Histogram](https://store.office.com/histogram-chart-WA104380776.aspx) | |
-| [Horizontale trechter](https://appsource.microsoft.com/product/power-bi-visuals/WA104380846) |[Video](https://youtu.be/SudZei68PPo) |
-| [Tijdlijn afbeeldingen](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381254) | |
-| [Infographic Designer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380898?src=office) | |
-| [KPI-indicator](https://store.office.com/kpi-indicator-WA104380832.aspx) | |
-| [KPI-ticker door MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380946) | |
-| [LineDot-grafiek](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380766?src=office) | |
-| [Lineaire meter door MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380821?src=office&tab=Overview) |[Video](https://youtu.be/AOlsFYkfkcw) |
-| [Mekkodiagram](https://appsource.microsoft.com/product/power-bi-visuals/WA104380785?src=office&tab=Overview)  | [Video](https://youtu.be/90FLCKpgicA)|
-| [Afspeelas (dynamische slicer)](https://store.office.com/play-axis-dynamic-slicer-WA104380981.aspx) | |
-| [Power KPI](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083) |[Video](https://youtu.be/IvfIP3E6-1Q) |
-| [Pulse-grafiek](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381006) | |
-| [Radardiagram](https://store.office.com/radar-chart-WA104380771.aspx) | |
-| [Cirkelgrafiek (ringdiagram) door MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380824?src=office&tab=Overview) | [Video](https://youtu.be/pDToHDFHnq8)|
-| [Draaigrafiek door MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381007?src=office) |  |
-| [Sankeydiagram](https://store.office.com/app.aspx?assetid=WA104380777.aspx) |[Video](https://youtu.be/WWP9wVUHGaA) |
-| [Bladerscherm](https://store.office.com/scroller-WA104381018.aspx) |[Video](https://youtu.be/uhRFQF2cGSY) |
-| [Slim filter door SQLBI](https://store.office.com/smart-filter-by-okviz-WA104380859.aspx) |[Video](https://youtu.be/gcJsDDRQq28) |
-| [Sparkline door OKViz](https://appsource.microsoft.com/product/power-bi-visuals/WA104380910?src=office&tab=Overview) |[Video](https://youtu.be/0m3Vnvso9tY) |
-| [Stroomgrafiek](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380772?tab=Overview) |  |
-| [Zonnestraal](https://appsource.microsoft.com/product/power-bi-visuals/WA104380767?src=office&tab=Overview) | |
-| [Tabelheatmap](https://store.office.com/table-heatmap-WA104380818.aspx) | |
-| [Tachometer](https://store.office.com/tachometer-WA104380937.aspx?) |[Video](https://www.youtube.com/watch?v=C3OXdETbS9o) |
-| [Tekstwrapper](https://appsource.microsoft.com/product/power-bi-visuals/WA104380826) | |
-| [Thermometer](https://appsource.microsoft.com/product/power-bi-visuals/WA104380847?src=office&tab=Overview) | [Video](https://youtu.be/SPX9mgrAdBc)|
-| [Time Series-ontleding](https://appsource.microsoft.com/product/power-bi-visuals/WA104380897) | |
-| [Tijdlijnslicer](https://store.office.com/timeline-slicer-WA104380786.aspx) |[Video](https://youtu.be/ozMtZ4_NZ10) |
-| [Tornadodiagram](https://store.office.com/tornado-chart-WA104380768.aspx) |[Video](https://youtu.be/AQvd2FhRyCI) |
-| [Ultieme variantiegrafiek van Klaus Birringer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381140?src=office) | |
-| [Ultieme waterval, gratis](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380956) | |
-| [VitaraCharts - MicroChart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381165) | |
-| [Wafeldiagram](https://appsource.microsoft.com/product/power-bi-visuals/WA104381049?src=office&tab=Overview) |[Video](https://youtu.be/1vRqYUsm3Vk) |
-| [Woordwolk](https://store.office.com/word-cloud-WA104380752.aspx?) |[Video](https://www.youtube.com/watch?v=AblTenl9fqo) |
+| [Krachtgestuurde grafiek](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380764) | [Video](https://youtu.be/YsTa7uyJ4sg) |
+| [Prognose maken van TBATS](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381326) | |
+| [Prognose maken met ARIMA](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380888) | |
+| [Trechter met bron door MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381334) | [Video](https://youtu.be/R_EcimsLI8U) |
+| [Gantt](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380765) | [Video](https://youtu.be/qJ7s_KrGiUU) |
+| [Globe-gegevensbalken](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381344) | |
+| [Hiërarchische grafiek door Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381333) | [Video](https://youtu.be/0ZGzJaq_KT4) |
+| [Histogram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380776) | |
+| [Horizontale trechter door MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380846) | [Video](https://youtu.be/SudZei68PPo) |
+| [Afbeelding door CloudScope](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381297) | |
+| [Afbeeldingenraster](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381355) | |
+| [Infographic Designer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380898) | |
+| [KPI-indicator](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380832) | |
+| [KPI-ticker door MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380946) | [Video](https://youtu.be/cudG4gsZ2V8) |
+| [Lineaire meter door MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380821) | [Video](https://youtu.be/7_jFaM30dkc) |
+| [LineDot-grafiek](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380766) | |
+| [Mekkodiagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380785) | [Video](https://youtu.be/90FLCKpgicA) |
+| [Afspeelas (dynamische slicer)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380981) | |
+| [Power KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381083) | [Video](https://youtu.be/IvfIP3E6-1Q) |
+| [Power KPI Matrix](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381299) | [Video](https://youtu.be/1enze8pcGzY) |
+| [Radardiagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380771) | |
+| [Ringgrafiek door MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380824) | [Video](https://youtu.be/pDToHDFHnq8) |
+| [Draaigrafiek door MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381007) | [Video](https://youtu.be/d5xBCMmb3hU) |
+| [Sankeydiagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380777) | [Video](https://youtu.be/WWP9wVUHGaA) |
+| [Bladerscherm](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381018) | |
+| [Slim filter door OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380859) | [Video](https://youtu.be/gcJsDDRQq28) |
+| [Sparkline door OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380910) | [Video](https://youtu.be/0m3Vnvso9tY) |
+| [Spline-grafiek](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380860) | |
+| [Stroomgrafiek](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380772) | |
+| [Zonnestraal](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380767) | |
+| [Tabelheatmap](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380818) | |
+| [Tachometer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380937) | [Video](https://youtu.be/C3OXdETbS9o) |
+| [Tekst-wrapper door MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) | |
+| [Thermometer](https://appsource.microsoft.com/en-us/product/office/WA104379807) | |
+| [Tijdreeksontledingsgrafiek](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380897) | |
+| [Tijdreeks- en prognosegrafiek](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380816) | |
+| [Tijdlijnslicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380786) | [Video](https://youtu.be/ozMtZ4_NZ10) |
+| [Tornadodiagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380768) | [Video](https://www.youtube.com/watch?v=AQvd2FhRyCI) |
+| [Handelsgrafiek door MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380823) | [Video](https://youtu.be/xhTR6y6J9Ko) |
+| [Ultieme afwijking](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381140) | [Video](https://youtu.be/pDYF8iZxERs) |
+| [Ultieme waterval](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380956) | [Video](https://youtu.be/0BZsVCQdEkc) |
+| [Gebruikerslijst door CloudScope](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381426) | |
+| [Wafeldiagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381049) | [Video](https://youtu.be/1vRqYUsm3Vk) |
+| [Woordwolk](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380752) | [Video](https://youtu.be/AblTenl9fqo) |
 
 ## <a name="next-steps"></a>Volgende stappen
 [Aan de slag met ontwikkelhulpprogramma's voor aangepaste visuele elementen (Preview)](service-custom-visuals-getting-started-with-developer-tools.md)      
