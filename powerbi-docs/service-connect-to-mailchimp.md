@@ -3,7 +3,7 @@ title: Verbinding met MailChimp maken via Power BI
 description: MailChimp voor Power BI
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 5a0935d9401841ee2db71fdf821621ababdd01cb
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 3fe1f9be4e65785ff5f812cd1ac6ac6216a53f40
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-mailchimp-with-power-bi"></a>Verbinding met MailChimp maken via Power BI
 Met het Power BI-inhoudspakket worden gegevens opgehaald uit uw MailChimp-account en worden een dashboard, een set met rapporten en een gegevensset gegenereerd die u kunt gebruiken om uw gegevens te verkennen. Haal analyses op om [MailChimp-dashboards](https://powerbi.microsoft.com/integrations/mailchimp) te maken en snel trends voor uw campagnes, rapporten en individuele abonnees te identificeren. De gegevens worden dagelijks vernieuwd, zodat u zeker weet dat uw bewakingsgegevens up-to-date zijn.

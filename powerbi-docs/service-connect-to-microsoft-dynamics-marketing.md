@@ -3,7 +3,7 @@ title: Verbinding maken met Microsoft Dynamics Marketing in Power BI
 description: Microsoft Dynamics Marketing voor Power BI
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 2800dc496d32c099024db0960c87912afb3b79d7
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 3b05064265e951e64d1f34d801555e837fc4d8fb
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-microsoft-dynamics-marketing-with-power-bi"></a>Verbinding maken met Microsoft Dynamics Marketing in Power BI
 Met het Microsoft Dynamics Marketing-inhoudspakket voor Power BI kunt u eenvoudig toegang krijgen tot uw gegevens en uw gegevens van Dynamics Marketing analyseren. Het inhoudspakket maakt gebruik van een beschrijvend model boven op de OData-feed, met alle benodigde entiteiten en meetwaarden zoals Programma's, Campagnes, Marketing-contactpersonen en bedrijven, Potentiële klanten, Leadscores, E-mailmarketingberichten en websites, gedragsonderzoek, budgetten, financiële transacties, prestatie-KPI's en nog veel meer. 

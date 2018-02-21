@@ -3,7 +3,7 @@ title: Verbinding met tyGraph maken via Power BI
 description: tyGraph voor Power BI
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 113d635469130a85486db4bccb555d4aa599f961
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 200438c1c7a488f963b44040324374905d643b6e
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-tygraph--with-power-bi"></a>Verbinding met tyGraph maken via Power BI
 Visualiseer en verken uw tyGraph-gegevens in Power BI met het Power BI-inhoudspakket. Maak om te beginnen verbinding met uw tyGraph-account en laadt het dashboard, de rapporten en de gegevensset. De kant-en-klare inhoud biedt onder andere inzicht in de MAE-score (Measure of Active Engagement) en actiefste leden. U kunt de inhoud verder aanpassen om de informatie onder de aandacht te brengen die voor u het belangrijkst is.  De gegevens worden automatisch vernieuwd volgens een schema dat u instelt.
@@ -48,7 +48,7 @@ Maak verbinding met [tyGraph voor Power BI](https://app.powerbi.com/getdata/serv
    
     **Als u geen geverifieerde Yammer-beheerder bent**
    
-    Voor het tyGraph-inhoudspakket hebt u een tyGraph-account nodig die is gemaakt door een geverifieerde Yammer-beheerder. Zodra het account is gemaakt, kunnen er aanvullende sleutels worden uitgegeven aan gebruikers binnen dezelfde organisatie. Als uw geverifieerde beheerder nog geen tyGraph-account heeft gemaakt is, neemt u contact met de beheerder op met het verzoek om dit alsnog te doen. Als er wel al een account is gemaakt, kunt u een sleutel aanvragen door een e-mail te verzenden naar <mailto:support@unlimitedviz.com>.
+    Voor het tyGraph-inhoudspakket hebt u een tyGraph-account nodig die is gemaakt door een geverifieerde Yammer-beheerder. Zodra het account is gemaakt, kunnen er aanvullende sleutels worden uitgegeven aan gebruikers binnen dezelfde organisatie. Als uw geverifieerde beheerder nog geen tyGraph-account heeft gemaakt is, neemt u contact met de beheerder op met het verzoek om dit alsnog te doen. Als er wel al een account is gemaakt, kunt u een sleutel aanvragen door een e-mail te verzenden naar < mailto:support@unlimitedviz.com >.
    
     ![](media/service-connect-to-tygraph/creds.png)
 6. Zodra de verificatie is geslaagd, wordt het importproces automatisch gestart. Nadat het importeren is voltooid, bevat het navigatiedeelvenster een nieuw dashboard, rapport en model. Selecteer het dashboard om uw geïmporteerde gegevens weer te geven.

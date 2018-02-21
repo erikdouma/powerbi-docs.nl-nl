@@ -3,7 +3,7 @@ title: Verbinding maken met VMob via Power BI
 description: VMob voor Power BI
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 09bd84fc320b550ccdaa0771f747a19bc1003150
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: f81c132de6ab2d7c086379dc538e23fd2f4072e8
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-vmob-with-power-bi"></a>Verbinding maken met VMob via Power BI
 Uw VMob-gegevens opsporen en bekijken is eenvoudig met Power BI en het inhoudspakket van VMob. De volgende gegevens worden opgehaald door Power BI: gebruikersstatistieken, ongelimiteerd en van de afgelopen 30 dagen, KPI’s detailhandel van de afgelopen 30 dagen en campagneprestaties van de afgelopen 30 dagen.

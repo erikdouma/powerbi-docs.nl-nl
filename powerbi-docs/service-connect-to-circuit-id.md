@@ -3,7 +3,7 @@ title: Verbinding maken met Circuit-ID met Power BI
 description: Circuit-ID voor Power BI
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 295d8dbd24c9ae6bce84cb76f6a5e23e7474b893
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: b108bfaff61842b8ec6a7139e55558b16b7c56ac
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-circuit-id-with-power-bi"></a>Verbinding maken met Circuit-ID met Power BI
 Het analyseren van uw communicatiegegevens van Circuit ID is eenvoudig met Power BI. Power BI haalt uw gegevens op en bouwt vervolgens een standaard dashboard en gerelateerde rapporten op basis van die gegevens. Nadat u de verbinding hebt gemaakt, kunt u uw gegevens verkennen en het dashboard geheel naar wens aanpassen. Gegevens worden elke dag automatisch vernieuwd.
