@@ -3,7 +3,7 @@ title: Verbinding maken met Project "Madeira" met behulp van Power BI
 description: Project "Madeira" voor Power BI
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: cde5199ad65e69f3304cfe244b549f1e7ae61e97
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+ms.author: sarinas
+ms.openlocfilehash: b75ea1028694a9dab32073ce70180e61798d7d28
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Verbinding maken met Project "Madeira" met behulp van Power BI
 U kunt eenvoudig inzicht krijgen in uw Project "Madeira"-gegevens met Power BI en het Project "Madeira"-inhoudspakket. Met Power BI kunt u uw gegevens ophalen, zowel verkoopgegevens als financiële gegevens, en vervolgens een out-of-box-dashboard en rapporten bouwen op basis van die gegevens.
