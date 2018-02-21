@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: cee6cd859507105b7fc0c7e7075478d3a876f7bb
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 6d63236254906619f7244db9f57af162a19a70d6
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>De slicer voor numeriek bereik in Power BI Desktop gebruiken
 Met de **slicer voor numeriek bereik**, kunt u allerlei filters toepassen op een van de numerieke kolommen in het gegevensmodel. U kunt ervoor kiezen om te filteren **tussen** getallen, **kleiner dan of gelijk aan** een getal of **groter dan of gelijk aan** een getal. Hoewel dit eenvoudig klinkt, is het een zeer krachtige manier om uw gegevens te filteren.
@@ -56,6 +56,11 @@ Wanneer we **Kleiner dan of gelijk aan** selecteren, verdwijnt het besturingsele
 Ten slotte, als we **Groter dan of gelijk aan** selecteren, verdwijnt het besturingselement rechts van de schuifregelaar en kunnen we de lagere waarde aanpassen, zoals op de volgende afbeelding te zien is. Nu worden alleen items met een *UnitPrice* groter dan of gelijk aan 750.56 weergegeven in de visuele elementen op de rapportpagina.
 
 ![](media/desktop-slicer-numeric-range/slicer-numeric-range_7.png)
+
+## <a name="snap-to-whole-numbers-with-the-numeric-range-slicer-preview"></a>Uitlijnen op gehele getallen met de slicer voor numeriek bereik (Preview)
+
+Vanaf de versie van **Power BI Desktop** van februari 2018 lijnt uw slicer voor numeriek bereik uit op gehele getallen. Hierdoor kan uw slicer foutloos uitlijnen op gehele getallen. Uitlijning op gehele getallen geldt niet voor decimale filters.
+
 
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 De volgende beperkingen en overwegingen zijn momenteel van toepassing op de **slicer voor numeriek bereik**

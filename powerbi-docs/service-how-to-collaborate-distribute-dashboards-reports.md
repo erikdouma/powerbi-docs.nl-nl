@@ -1,6 +1,6 @@
 ---
 title: Hoe kan ik samenwerken en inhoud delen in Power BI?
-description: In Power BI kunt u op verschillende manieren samenwerken aan dashboards, rapporten en tegels en deze delen. Elke manier heeft bepaalde voordelen.
+description: In Power BI kunt u op verschillende manieren samenwerken aan dashboards, rapporten, tegels en apps en deze delen. Elke manier heeft bepaalde voordelen.
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,15 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/18
+ms.date: 02/09/2018
 ms.author: maggies
-ms.openlocfilehash: 032d07616464dcda8cc4cc38b1440936e5393a98
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 31d862fd2086c0e1bdc98f3e6d84fcc1d2c094de
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/11/2018
 ---
-# <a name="how-should-i-collaborate-and-share-dashboards-and-reports-in-power-bi"></a>Hoe kan ik samenwerken aan dashboards en rapporten en deze delen in Power BI?
+# <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Hoe kan ik samenwerken en inhoud delen in Power BI?
+
 U hebt dashboards en rapporten gemaakt. Misschien werkt u er ook wel samen aan met collega's. In dat geval moeten anderen toegang hebben tot de dashboards en rapporten. Wat is de beste manier om ze te distribueren?
 
 In dit artikel vergelijken we deze opties voor samenwerken en delen in Power BI: 

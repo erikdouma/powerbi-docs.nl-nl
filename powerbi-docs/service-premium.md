@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 02/05/2018
 ms.author: maghan
-ms.openlocfilehash: eb2072b0beadf3f6f2cf702f35f56441bc38c7ff
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: b2e41884ca799ca07223a4b5444e39b38aa2102a
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="power-bi-premium---what-is-it"></a>Wat is Power BI Premium?
 Power BI Premium bevat toegewezen resources om de Power BI-service voor uw organisatie of een team uit te voeren, wat resulteert in betrouwbaardere prestaties en grotere gegevensvolumes. Premium biedt de mogelijkheid tot een wijd verspreide distributie zonder dat u gebruikerslicentie hoeft aan te schaffen voor viewers.
@@ -46,7 +46,7 @@ Er zijn twee typen capaciteit in Power BI. Gedeelde capaciteit en Power BI Premi
 | Ingesloten API en besturingselementen |![](media/service-premium/not-available.png "Niet beschikbaar") |![](media/service-premium/available.png "Beschikbaar")<sup>2</sup> |
 | **Power BI-rapporten on-premises publiceren** |![](media/service-premium/not-available.png "Niet beschikbaar") |![](media/service-premium/available.png "Beschikbaar") |
 
-*<sup>1</sup> Gratis gebruik door gebruiker in apps omvat onder meer het weergeven van inhoud op internet en op mobiele apparaten, het gebruik van Q&A, Snelle inzichten, Cortana, exporteren naar CSV, Excel en PowerPoint.*  
+*<sup>1</sup> Gratis gebruik door gebruiker in apps omvat onder meer het weergeven van inhoud op internet en op mobiele apparaten, het gebruik van Veelgestelde vragen, Snelle inzichten, Cortana, exporteren naar CSV, Excel en PowerPoint. Een Pro-licentie is vereist voor andere activiteiten die niet worden genoemd, bijvoorbeeld rapporten maken van gedeelde gegevenssets en Analyseren in Excel. Meer informatie over de functionaliteit van de [gratis versie van Power BI versus Power BI Pro](service-free-vs-pro.md).*  
 *<sup>2</sup> Toekomstige verbeteringen voor Power BI Premium nadat Power BI algemeen beschikbaar is gemaakt.*
 
 ### <a name="premium-capacity"></a>Premium-capaciteit

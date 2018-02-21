@@ -15,31 +15,29 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: add95532f645c143aea0f58200f9e3b1467320d0
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 02498ff745a2e06a49ed6064a4f7eefebff305f8
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Het deelvenster Analyse in Power BI Desktop gebruiken
-Met het deelvenster **Analyse** in **Power BI Desktop** kunt u dynamische *referentielijnen* toevoegen aan visuele elementen en de aandacht richten op belangrijke trends of inzichten. U vindt het deelvenster **Analyse** in het gedeelte **Visualisaties** van Power BI Desktop vanaf de release van augustus 2016 (versie 2.37.4464.321 of hoger), zoals hieronder weergegeven.
+Met het deelvenster **Analyse** in **Power BI Desktop** kunt u dynamische *referentielijnen* toevoegen aan visuele elementen en de aandacht richten op belangrijke trends of inzichten. Het deelvenster **Analyse** is te vinden in het gedeelte **Visualisaties** van Power BI Desktop.
 
 ![](media/desktop-analytics-pane/analytics-pane_1.png)
 
 > [!NOTE]
 > Het deelvenster **Analyse** wordt alleen weergegeven wanneer u een visueel element op het canvas van Power BI Desktop selecteert.
-> 
-> 
 
-## <a name="enable-forecasting-preview"></a>Prognose inschakelen (preview)
-Met de release van september 2016 van **Power BI Desktop** (versie 2.39.4526.362 of hoger) kunt u daarnaast ook *prognoses* uitvoeren via het deelvenster **Analyse**. U kunt deze preview-functie inschakelen door te gaan naar **Bestand > Opties en instellingen > Opties** en vervolgens **Voorbeeldfuncties** in het linkerdeelvenster in te schakelen. Schakel het selectievakje naast **Prognose** in, zoals in de volgende afbeelding. U moet **Power BI Desktop** opnieuw opstarten om de wijzigingen door te voeren.
+## <a name="search-within-the-analytics-pane"></a>Zoeken binnen het deelvenster Analyse
+Vanaf de release van **Power BI Desktop** van februari 2018 (versie 2.55.5010.201 of hoger), kunt u zoeken binnen het deelvenster **Analyse**, dat een subsectie is van het deelvenster **Visualisaties**. Zoals in de onderstaande afbeelding te zien is, verschijnt het zoekvak wanneer het deelvenster **Analyse** is geselecteerd.
 
 ![](media/desktop-analytics-pane/analytics-pane_1b.png)
 
 ## <a name="using-the-analytics-pane"></a>Het deelvenster Analyse gebruiken
-Met het deelvenster **Analyse** kunt u de volgende soorten dynamische referentielijnen maken (niet alle lijnen zijn beschikbaar voor alle soorten visuele elementen):
+Met het deelvenster **Analyse** kunt u de volgende soorten dynamische referentielijnen maken (niet alle lijnen zijn beschikbaar voor alle soorten visuals):
 
 * Constante lijn voor de X-as
 * Constante lijn voor de Y-as
@@ -61,7 +59,7 @@ Voer de volgende stappen uit als u de beschikbare dynamische referentielijnen vo
    ![](media/desktop-analytics-pane/analytics-pane_3.png)
 3. U voegt een nieuwe lijn toe door **+ Toevoegen** te selecteren. U kunt vervolgens een naam voor de lijn opgeven door te dubbelklikken op het tekstvak en daarna de naam te typen.
    
-   U beschikt over allerlei opties voor de lijn, zoals *kleur*, *transparantie*, *stijl* en *positie* (ten opzichte van de gegevenselementen van het visuele element) selecteren en aangeven of een label moet worden toegevoegd. En wat belangrijker is, u kunt selecteren op welke **meting** in het visuele element u de lijn wilt baseren door de vervolgkeuzelijst **Meting** te selecteren die automatisch wordt gevuld met gegevenselementen uit het visuele element. In dit geval selecteren we *Weather* (Weer) als meting, voegen we het label *Average Weather* (Gemiddelde weer) toe en passen we enkele van de andere opties toe zoals hieronder wordt weergegeven.
+   U beschikt over allerlei opties voor de lijn, zoals *kleur*, *transparantie*, *stijl* en *positie* (ten opzichte van de gegevenselementen van de visual) selecteren en aangeven of een label moet worden toegevoegd. En wat belangrijker is, u kunt selecteren op welke **meting** in het visuele element u de lijn wilt baseren door de vervolgkeuzelijst **Meting** te selecteren die automatisch wordt gevuld met gegevenselementen uit het visuele element. In dit geval selecteren we *Weather* (Weer) als meting, voegen we het label *Average Weather* (Gemiddelde weer) toe en passen we enkele van de andere opties toe zoals hieronder wordt weergegeven.
    
    ![](media/desktop-analytics-pane/analytics-pane_4.png)
 4. Als u een gegevenslabel wilt weergeven, schakelt u de schuifregelaar **Gegevenslabel** in. Als u doet dit, krijgt u allerlei extra opties voor uw gegevenslabel, zoals wordt weergegeven in de volgende afbeelding.
@@ -85,9 +83,9 @@ U kunt de functie **Prognose** gebruiken door een visueel element te selecteren 
 ![](media/desktop-analytics-pane/analytics-pane_8.png)
 
 ## <a name="limitations"></a>Beperkingen
-De mogelijkheid om dynamische referentielijnen te gebruiken is gebaseerd op het type visueel element dat wordt gebruikt. In de volgende lijst wordt aangegeven welke dynamische lijnen momenteel beschikbaar zijn voor welke visuele elementen:
+De mogelijkheid om dynamische referentielijnen te gebruiken is gebaseerd op het type visual dat wordt gebruikt. In de volgende lijst wordt aangegeven welke dynamische lijnen momenteel beschikbaar zijn voor welke visuele elementen:
 
-Volledig gebruik van dynamische lijnen is beschikbaar voor de volgende visuele elementen:
+Volledig gebruik van dynamische lijnen is beschikbaar voor de volgende visuals:
 
 * Vlakdiagram
 * Lijndiagram
@@ -95,7 +93,7 @@ Volledig gebruik van dynamische lijnen is beschikbaar voor de volgende visuele e
 * Gegroepeerd kolomdiagram
 * Gegroepeerd staafdiagram
 
-De volgende visuele elementen kunnen alleen een *constante lijn* uit het deelvenster **Analyse** gebruiken:
+De volgende visuals kunnen alleen een *constante lijn* uit het deelvenster **Analyse** gebruiken:
 
 * Gestapeld vlakdiagram
 * Gestapeld staafdiagram
@@ -103,12 +101,12 @@ De volgende visuele elementen kunnen alleen een *constante lijn* uit het deelven
 * 100% gestapeld staafdiagram
 * 100% gestapeld kolomdiagram
 
-Voor de volgende visuele elementen is een *trendlijn* momenteel de enige optie:
+Voor de volgende visuals is een *trendlijn* momenteel de enige optie:
 
 * Niet-gestapeld lijndiagram
 * Gegroepeerd kolomdiagram
 
-Tot slot kunnen voor niet-Cartesische visuele elementen momenteel geen dynamische lijnen uit het deelvenster **Analyse** worden toegepast, zoals:
+Tot slot kunnen voor niet-Cartesische visuals momenteel geen dynamische lijnen uit het deelvenster **Analyse** worden toegepast, zoals:
 
 * Matrix
 * Cirkeldiagram
@@ -116,7 +114,7 @@ Tot slot kunnen voor niet-Cartesische visuele elementen momenteel geen dynamisch
 * Tabel
 
 ## <a name="next-steps"></a>Volgende stappen
-U kunt veel verschillende dingen doen met Power BI Desktop. Bekijk de volgende bronnen voor meer informatie over de vele mogelijkheden:
+U kunt allerlei handelingen uitvoeren met Power BI Desktop. Bekijk de volgende bronnen voor meer informatie over de vele mogelijkheden:
 
 * [Wat is er nieuw in Power BI Desktop](desktop-latest-update.md)
 * [Power BI Desktop downloaden](desktop-get-the-desktop.md)
@@ -124,5 +122,5 @@ U kunt veel verschillende dingen doen met Power BI Desktop. Bekijk de volgende b
 * [Queryoverzicht met Power BI Desktop](desktop-query-overview.md)
 * [Gegevenstypen in Power BI Desktop](desktop-data-types.md)
 * [Gegevens vormgeven en combineren met Power BI Desktop](desktop-shape-and-combine-data.md)
-* [Algemene querytaken in Power BI Desktop](desktop-common-query-tasks.md)    
+* [Common Query Tasks in Power BI Desktop](desktop-common-query-tasks.md) (Algemene querytaken in Power BI Desktop)    
 

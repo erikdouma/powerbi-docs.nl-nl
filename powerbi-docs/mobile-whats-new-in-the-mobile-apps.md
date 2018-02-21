@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/16/2018
+ms.date: 02/09/2018
 ms.author: maggies
-ms.openlocfilehash: 9ed87e17d617e7492287f3f0d0c54da1c21b3a53
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 3ce4aa6117f5c3267f821af765d6b70fcb7eacd9
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 02/11/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -29,6 +29,24 @@ Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mog
 * [Power BI team blog for the mobile apps](https://powerbi.microsoft.com/blog/tag/mobile/) (Power BI-teamblog voor mobiele apps)
 * [What's new in Power BI Desktop](desktop-latest-update.md) (Wat is er nieuw in Power BI Desktop)  
 * [What's new in the Power BI service](service-whats-new.md) (Wat is er nieuw in de Power BI-service)  
+
+## <a name="january-2018"></a>Januari 2018
+
+### <a name="report-favorites"></a>Favoriete rapporten
+
+Voeg rapporten toe aan uw favorieten zodat ze op de pagina **Favorieten** worden weergegeven. Lees meer over [favorieten in de mobiele Power BI-apps](mobile-apps-favorites.md).
+
+### <a name="view-shared-reports"></a>Gedeelde rapporten bekijken
+
+Als iemand nu een rapport met u deelt, wordt het samen met dashboards vermeld op de pagina **Gedeeld met mij**.
+
+### <a name="improved-hyperlink-support"></a>Verbeterde ondersteuning voor hyperlinks
+
+U kunt nu op koppelingen in aangepaste visuals tikken om deze in uw mobiele browser te openen.
+
+### <a name="intune-integration-android"></a>Intune-integratie (Android)
+
+Ondersteuning voor voorwaardelijke toegang met Intune Mobile Device Management.
 
 ## <a name="december-2017"></a>December 2017
 

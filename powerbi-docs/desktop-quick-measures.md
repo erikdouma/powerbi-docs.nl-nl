@@ -1,5 +1,5 @@
 ---
-title: Gebruik Snelle metingen om eenvoudig algemene en krachtige berekeningen in Power BI uit te voeren (preview)
+title: Gebruik Snelle metingen om eenvoudig algemene en krachtige berekeningen in Power BI uit te voeren
 description: Snelle metingen biedt kant-en-klare DAX-formules waarmee u snel algemene berekeningen uitvoert
 services: powerbi
 documentationcenter: 
@@ -15,23 +15,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: d0fc21c19a574f096c46c26331df3114e8c46c31
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: ce971f980bf1796bfef8439b1ea260190fb678df
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
-# <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations-preview"></a>Gebruik Snelle metingen om eenvoudig algemene en krachtige berekeningen uit te voeren (preview)
-Sinds de release in april 2017 van **Power BI Desktop** kunt u **Snelle metingen** gebruiken om snel en eenvoudig algemene, krachtige berekeningen uit te voeren. Een **Snelle meting** voert een reeks DAX-opdrachten uit op de achtergrond (de DAX is al voor u geschreven) op basis van wat u in een dialoogvenster opgeeft, en genereert vervolgens de resultaten die u in uw rapport kunt gebruiken. Bovendien kunt u de DAX bekijken die door de Snelle meting wordt uitgevoerd en zo uw eigen kennis van DAX uitbreiden.
+# <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>Gebruik Snelle metingen om eenvoudig algemene en krachtige berekeningen uit te voeren
+U kunt **Snelle metingen** gebruiken om snel en eenvoudig algemene, krachtige berekeningen uit te voeren. Een **Snelle meting** voert een reeks DAX-opdrachten uit op de achtergrond (de DAX is al voor u geschreven) op basis van wat u in een dialoogvenster opgeeft, en genereert vervolgens de resultaten die u in uw rapport kunt gebruiken. Bovendien kunt u de DAX bekijken die door de Snelle meting wordt uitgevoerd en zo uw eigen kennis van DAX uitbreiden.
 
 ![](media/desktop-quick-measures/quick-measures_01.png)
 
 U maakt **Snelle metingen** door met de rechtermuisknop op een veld in de bron **Velden** te klikken en vervolgens in het menu dat wordt weergegeven **Snelle metingen** te selecteren. U kunt ook met de rechtermuisknop op elke waarde in het deelvenster **Waarden** van een bestaande visual klikken (zoals het veld *Waarden* in een *Staafdiagram*-visual). Er zijn veel beschikbare categorieën voor berekeningen en manieren om elke berekening naar wens aan te passen.
 
-### <a name="enable-the-quick-measures-preview"></a>De preview-functie Snelle metingen inschakelen
-U kunt vanaf de release in **april 2017** van **Power BI Desktop** de nieuwe functie **Snelle metingen** proberen. Als u deze preview-functie wilt inschakelen, selecteert u **Bestand > Opties en Instellingen > Opties > Voorbeeldfuncties** en schakelt u vervolgens het selectievakje naast **Snelle metingen** in. Power BI Desktop moet opnieuw worden opgestart nadat u de selectie hebt gemaakt.
+### <a name="quick-measures-now-generally-available"></a>Snelle metingen zijn nu algemeen beschikbaar
+
+Vanaf de versie van **Power BI Desktop** van februari 2018 zijn snelle metingen algemeen beschikbaar (niet meer als preview-versie). Als u een eerdere versie van **Power BI Desktop** gebruikt, kunt u de functie **Snelle metingen** proberen vanaf de versie van **Power BI Desktop** van **april 2017**: selecteer **Bestand > Opties en instellingen > Opties > Preview-functies** en vink het selectievakje naast **Snelle metingen** aan.
 
 ![](media/desktop-quick-measures/quick-measures_02b.png)
 
@@ -56,23 +57,23 @@ Als u het vervolgkeuzemenu opent, wordt er een lange lijst met beschikbare **Sne
 
 Er zijn vijf verschillende berekeningsgroepen voor Snelle metingen, die elk een verzameling berekeningen omvatten. Het betreft de volgende groepen en berekeningen:
 
-* **Aggregaat binnen een categorie**
+* **Samenvoegen per categorie**
   * Gemiddelde binnen een categorie
   * Afwijking binnen een categorie
   * Maximum binnen een categorie
   * Minimum binnen een categorie
   * Gewogen gemiddelde per categorie
-* **Filters en basislijnen**
-  * Gefilterde meting
+* **Filters**
+  * Gefilterde waarde
   * Verschil met basislijn
-  * Percentageverschil met basislijn
-  * Totalen van nieuwe categorieën
+  * Percentageverschil met gefilterde waarde
+  * Verkopen van nieuwe categorieën
 * **Time intelligence**
   * Totaal van jaar tot heden
   * Totaal van kwartaal tot heden
   * Totaal van maand tot heden
-  * Wijziging jaar na jaar
-  * Wijziging kwartaal na kwartaal
+  * Jaar-tot-jaarwijziging
+  * Kwartaal-tot-kwartaalwijziging
   * Wijziging maand na maand
   * Voortschrijdend gemiddelde
 * **Totalen**
@@ -85,6 +86,7 @@ Er zijn vijf verschillende berekeningsgroepen voor Snelle metingen, die elk een 
   * Vermenigvuldiging
   * Deling
   * Percentageverschil
+  * Correlatiecoëfficiënt
 * **Tekst**
   * Sterwaardering
   * Samengevoegde lijst met waarden
@@ -136,7 +138,7 @@ Het is alsof u een heel attente leraar hebt die onmiddellijk op uw vragen reagee
 En wanneer de meting perfect is, kunt u deze een handige andere naam geven met behulp van hetzelfde snelmenu (klikken met de rechtermuisknop).
 
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
-Houd rekening met de volgende beperkingen en overwegingen in deze preview-release van **Snelle metingen**.
+Er zijn enkele beperkingen en overwegingen waar u rekening mee moet houden.
 
 * **Snelle metingen** is alleen beschikbaar als u het model kunt aanpassen. Dit kan niet wanneer u met DirectQuery of de meeste liveverbindingen werkt (SSAS-liveverbindingen worden wel ondersteund, zoals eerder beschreven).
 * De meting die wordt toegevoegd aan de bron **Velden** kan voor elke visual in het rapport worden gebruikt.
@@ -152,8 +154,6 @@ Vanaf de update voor **Power BI Desktop** van oktober 2017 kunt u uw eigen aange
 
 ### <a name="additional-information-and-examples"></a>Aanvullende informatie en voorbeelden
 We zijn van plan om voorbeelden en richtlijnen voor alle **Snelle metingen**-berekeningen te geven. Bekijk het artikel dus regelmatig opnieuw voor updates.
-
-Aangezien dit een **preview**-functie is, zijn we zeer geïnteresseerd in uw feedback en ideeën.
 
 Hebt u een idee voor een nieuwe **Snelle meting**? Geweldig! Ga naar [deze pagina](https://go.microsoft.com/fwlink/?linkid=842906) en stuur uw ideeën (en DAX-formule) in voor de **Snelle meting** die u graag in **Power BI Desktop** zou willen zien. We bekijken vervolgens of uw suggestie aan de lijst met **Snelle metingen** kan worden toegevoegd in een toekomstige release.
 

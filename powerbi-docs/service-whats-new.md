@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/01/2017
-ms.author: sirsu
-ms.openlocfilehash: 87233cfe4290546478899d81d7a39714c75963eb
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.date: 02/07/2018
+ms.author: nikhilga
+ms.openlocfilehash: b60e883d1f5c143270c52bd3ae8a7100593a7dfe
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/11/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Wat is er nieuw in de Power BI-service
 Raadpleeg deze pagina voor bekende problemen en onlangs uitgebrachte functies in de **Power BI-service**. Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -35,6 +35,23 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
+## <a name="january-2018"></a>Januari 2018
+*   Power BI-rapporten delen en aan uw favorieten toevoegen.
+*   Ondersteuning voor eenmalige aanmelding (SSO) met OAuth2 en DirectQuery voor Azure SQL Database en datawarehouse.
+*   Audits binnen regio's: auditlogboeken worden nu opgeslagen in dezelfde Office 365-regio als hun tenant.
+*   Algemene beschikbaarheid van [Webonderdeel Power BI-rapport](https://go.microsoft.com/fwlink/p/?LinkId=825698) voor SharePoint Online.
+*   Beheerder kan het bekijken van aangepaste visuals uitschakelen voor alle gebruikers in een tenant.
+*   Ondersteuning bij geplande vernieuwing van Azure Analysis Services (AAS).
+
+## <a name="previous-months-2017"></a>Vorige maanden (2017)
+## <a name="october-and-november-2017"></a>Oktober en november 2017
+*   Selectieve publicatie van inhoud met [Power BI-apps](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps).
+*   Distributie naar externe gebruikers met [Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/).
+* Door AI gegenereerde aanbevelingen voor apps.
+* Updates voor de gebruikersinterface in dashboardtegels.
+* Ondersteuning voor e-mailabonnementen voor apps. 
+* Gedetailleerde controle voor de beheerder over [publiceren op internet](https://docs.microsoft.com/en-us/power-bi/service-admin-portal#export-and-sharing-settings).
+
 ## <a name="september-2017"></a>September 2017
 * Dashboards met gratis gebruikers delen met Premium.
 * Capaciteiten toewijzen om aan uw bedrijfsbehoeften te voldoen met v-core groepering.
@@ -42,7 +59,6 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 * [PubNub-blok](https://www.pubnub.com/docs/blocks-catalog/power-bi-realtime-dashboards) om gegevens eenvoudig in REST API's te pushen
 * Verbeterde laadprestaties voor [Metrische gegevens over gebruik](service-usage-metrics.md).
 
-## <a name="previous-months-2017"></a>Vorige maanden (2017)
 ### <a name="august-2017"></a>Augustus 2017
 * Uw doelgroep kennen met [Metrische gegevens over gebruik per gebruiker](https://powerbi.microsoft.com/blog/introducing-per-user-usage-metrics-know-your-audience-and-amplify-your-impact/).
 * Aan de slag met apps van de [Power BI-service](service-connect-to-services.md) voor onlineservices.

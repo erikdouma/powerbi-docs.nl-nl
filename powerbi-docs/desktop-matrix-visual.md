@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: ff29fa49cc3ad1a57ae0d09596b6e0d086b4d349
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 0056fe1d5a2881f1415fe5889ab563a27bb8648d
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>Gebruik de matrixvisualisatie in Power BI Desktop
 Met de **Matrix**-visualisatie kunt u matrixvisualisaties (ook wel *tabellen* genoemd) maken in **Power BI Desktop**-rapporten, en elementen in de matrix kruislings markeren met andere visualisaties. Bovendien kunt u rijen en kolommen selecteren, en zelfs afzonderlijke cellen en kruislings markeren. En ten slotte ondersteunt de matrixvisualisatie ook een getrapte lay-out, om beter gebruik te maken van de lay-outruimte.
@@ -34,6 +34,19 @@ Er zijn veel functies gekoppeld aan de matrix, en in de volgende secties van dit
 > Vanaf de release van juli 2017 van **Power BI Desktop**, worden in matrix- en tabelvisualisaties de stijlen (inclusief kleuren) van het toegepaste **Rapportthema** gebruikt. Dit zijn mogelijk niet de verwachte kleuren voor uw matrixvisualisatie; u kunt ze wijzigen in de **Rapportthema**-configuratie. Zie [ **Rapportthema's gebruiken in Power BI Desktop** ](desktop-report-themes.md) voor meer informatie over thema's.
 > 
 > 
+
+## <a name="understanding-how-power-bi-calculates-totals"></a>Begrijpen hoe Power BI totalen berekent
+
+Voordat u leert hoe u de **Matrix**-visual gebruikt, is het belangrijk om te begrijpen hoe Power BI totale en subtotale waarden in tabellen en matrices berekent. In het geval van totale en subtotale rijen wordt de meting over alle rijen in de onderliggende data geëvalueerd. Het is *geen* eenvoudige optelsom van de waarden in de zichtbare of weergegeven rijen. Dit betekent dat u in de totaalrij andere waarden kunt krijgen dan u had verwacht. 
+
+Bekijk de volgende **Matrix**-visuals. 
+
+![](media/desktop-matrix-visual/matrix-visual_3.png)
+
+In dit voorbeeld geven alle rijen uiterst rechts in de **Matrix**-visual het *Bedrag* weer van elke combinatie van een verkoper/datum. Maar omdat een verkoper in meerdere datums verschijnt kunnen de getallen vaker dan één keer worden weergegeven. Het accurate totaal van de onderliggende gegevens en de eenvoudige optelsom van de zichtbare waarden komen daarom niet overeen. Dit is een algemeen patroon wanneer de waarde die u optelt de één is in een één-op-veelrelatie.
+
+Als u naar de totalen en subtotalen kijkt, moet u onthouden dat die waarden zijn gebaseerd op de onderliggende gegevens en niet enkel op de zichtbare waarden. 
+
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>Inzoomen gebruiken met de Matrix-visualisatie
 Met de **Matrix**-visualisatie, kunt u allerlei interessante zoomactiviteiten uitvoeren die vroeger niet beschikbaar waren. Eén hiervan is de mogelijkheid om in te zoomen met behulp van rijen, kolommen en zelfs op afzonderlijke secties en cellen. Laten we eens kijken hoe dat werkt.
@@ -144,16 +157,12 @@ Beide benaderingen geven hetzelfde resultaat. Door *Geavanceerde besturingseleme
 
 ![](media/desktop-matrix-visual/matrix-visual_19.png)
 
-## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
-Er zijn enkele beperkingen en overwegingen waar mee u rekening moet houden in deze release van **Matrix**-visualisatie.
+## <a name="next-steps"></a>Volgende stappen
 
-* Inzoomen op kolommen kan alleen worden uitgevoerd via het contextmenu, en er is momenteel geen aanwijzing in de visualisatie dat u kunt inzoomen op rij- of kolomgroepen
-* U kunt alleen alle items in een niveau in één keer uitvouwen, en niet één categorie tegelijk
-* Wanneer u met de rechtermuisknop op een kolomknop klikt, kan **Records weergeven** worden weergegeven in het contextmenu, maar deze optie werkt niet
-* Er is momenteel geen *Eindtotaal*-rij
-* Het uitschakelen van de subtotaalrij in de getrapte lay-out heeft geen effect
-* Kolomkoppen kunnen worden afgekapt als binnengroepen kortere tekst hebben dan de buitenste groep
-* Wanneer de inspringing van de getrapte lay-out wordt gewijzigd, zou de buitenste groep niet moeten worden ingesprongen
+Wellicht bent u geïnteresseerd in de volgende artikelen:
 
-We zijn altijd benieuwd naar uw mening. We houden momenteel een **enquête** over deze **Matrix**-visualisatie, dus als u een paar minuten hebt, neem dan a.u.b. deel aan [de enquête](https://www.instant.ly/s/PYXT1).
+* [Rasterlijnen en Uitlijnen op raster gebruiken in Power BI Desktop-rapporten](desktop-gridlines-snap-to-grid.md)
+* [Gegevensbronnen in Power BI Desktop](desktop-data-sources.md)
+* [Gegevenstypen in Power BI Desktop](desktop-data-types.md)
 
+ 

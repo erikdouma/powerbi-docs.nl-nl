@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: c09e3502a607661cbe90ff068220c51c9196734e
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 262245dab44ae904b51d6cb1449082171631dc09
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="analyze-in-excel"></a>Analyseren in Excel
 In bepaalde situaties wilt u misschien Excel gebruiken om een gegevensset in Power BI te bekijken en er acties op uit te voeren. Dat kan met **Analyseren in Excel**. U kunt ook draaitabel-, grafiek- en slicer-functies gebruiken in Excel op basis van de gegevensset in Power BI.
@@ -32,6 +32,7 @@ Er zijn enkele vereisten voor het gebruik van **Analyseren in Excel**:
 * **Analyseren in Excel** wordt ondersteund voor Microsoft Excel 2010 SP1 of hoger.
 * Excel-draaitabellen bieden geen ondersteuning voor aggregatie van numerieke velden met slepen en neerzetten. Uw gegevensset in Power BI *moet vooraf gedefinieerde metingen hebben*.
 * Sommige organisaties hebben mogelijk groepsbeleidregels ingesteld die voorkomen dat de vereiste **Analyseren in Excel**-updates naar Excel worden geïnstalleerd. Als het niet lukt om de updates te installeren, vraagt u dit na bij uw beheerder.
+* Voor **Analyseren in Excel** is een Pro-licentie vereist. Als u meer wilt weten over de verschillen in functionaliteit tussen gratis en Pro-licenties, kunt u eens kijken naar [Gratis versie van Power BI versus Power BI Pro](service-free-vs-pro.md). 
 
 ## <a name="how-does-it-work"></a>Hoe werkt het?
 Wanneer u **Analyseren in Excel** selecteert vanuit het menu met het weglatingsteken (...) dat is gekoppeld aan een gegevensset of rapport in **Power BI**, maakt Power BI een .ODC-bestand dat vanuit de browser naar uw computer wordt gedownload.

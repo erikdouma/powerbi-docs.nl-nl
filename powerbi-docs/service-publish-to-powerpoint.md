@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: davidi
-ms.openlocfilehash: 4ca79e960bc0370789ee735ba6b5391cbb8b110f
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 5ebfa2f54c26c0b4c3321120558e1cccb8bce146
+ms.sourcegitcommit: ed49510adee96042c02d6bdadbfcf8a2e566fbf8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/13/2018
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>Rapporten exporteren van Power BI naar PowerPoint (Preview)
 Met Power BI kunt u nu uw rapport publiceren naar **Microsoft PowerPoint** en heel eenvoudig een presentatie op basis van uw Power BI-rapport maken. Wanneer u wilt **exporteren naar PowerPoint** gebeurt het volgende:
@@ -64,6 +64,8 @@ Bij het openen van het PowerPoint-bestand dat door Power BI is geëxporteerd, zi
 1. De eerste pagina van de presentatie bevat de naam van uw rapport en een koppeling zodat u het rapport waarop de presentatie is gebaseerd, kunt **Weergeven in Power BI**.
 2. U krijgt zo ook handige informatie over het rapport, zoals de *laatste gegevensvernieuwing* waarop het geëxporteerde rapport is gebaseerd en de *gedownload op* -tijd en -datum. Dit is het tijdstip en de datum waarop het Power BI-rapport naar een PowerPoint-bestand is geëxporteerd.
 3. Elke rapportpagina is een afzonderlijke dia, zoals wordt weergegeven in het navigatiedeelvenster links.
+4. Uw gepubliceerde rapport wordt gerenderd in de taal die is geselecteerd in uw instellingen voor Power BI. Anders wordt de taal bepaald door de landinstelling van uw browser. Als u uw voorkeurstaal wilt zien of instellen, selecteert u het tandwielpictogram ![](media/service-report-subscribe/power-bi-settings-icon.png) **> Instellingen > Algemeen > Taal**. Raadpleeg [Ondersteunde talen en landen/regio's voor Power BI](supported-languages-countries-regions.md) voor informatie over landinstellingen.
+5. Op de titeldia van de PowerPoint-presentatie staat het tijdstip van de export in de juiste tijdzone.
 
 Wanneer u naar een afzonderlijke dia gaat, zult u merken dat elke rapportpagina een onafhankelijke afbeelding is.
 

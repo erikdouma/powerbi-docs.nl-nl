@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/02/2018
+ms.date: 02/06/2018
 ms.author: maghan
-ms.openlocfilehash: 36f2b591f53e7d9e930048cdedde114348466147
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 7e19e37bf024ec30db58057de54e3039ed7b80b2
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="power-bi-admin-portal"></a>Power BI-beheerportal
 
@@ -40,7 +40,7 @@ Om toegang te krijgen tot het Power BI-beheerportal, moet uw account zijn ingest
 
 ![](media/service-admin-portal/powerbi-admin-settings.png)
 
-In de portal ziet u vijf tabbladen. Deze worden hieronder beschreven.
+In de portal ziet u zes tabbladen. Deze worden hieronder beschreven.
 
 * [Metrische gegevens over gebruik](#usage-metrics)
 * [Gebruikers](#users)
@@ -48,6 +48,7 @@ In de portal ziet u vijf tabbladen. Deze worden hieronder beschreven.
 * [Tenantinstellingen](#tenant-settings)
 * [Premium-instellingen](#premium-settings)
 * [Codes insluiten](#embed-codes)
+* [Organisatievisuals](#Organization-visuals)
 
 ![](media/service-admin-portal/powerbi-admin-landing-page.png)
 
@@ -269,6 +270,46 @@ Zie [Power BI Premium beheren](service-admin-premium-manage.md) voor meer inform
 
 Als beheerder kunt u de invoegcodes weergeven die worden gegenereerd voor uw tenant. U kunt het rapport weergeven en de ingesloten code verwijderen om deze in te trekken.
 
+## <a name="organization-visuals"></a>Organisatievisuals
+
+In het tabblad organisatievisuals kunt u aangepaste visuals binnen uw organisatie implementeren en beheren, zodat u eenvoudig eigen aangepaste visuals in de organisatie kunt implementeren die door rapportauteurs gemakkelijk rechtstreeks vanuit Power BI Desktop kunnen worden ontdekt en geïmporteerd in hun rapporten.
+ 
+De pagina toont alle aangepaste visuals die momenteel in de opslagplaats van de organisatie worden geïmplementeerd.
+ 
+![](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
+
+### <a name="add-a-new-custom-visual"></a>Een nieuwe aangepaste visual toevoegen
+
+Selecteer **Een aangepast visueel element toevoegen** om een aangepaste visual aan de lijst toe te voegen
+
+![](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
+
+> [!WARNING]
+> Een aangepaste visual kan een code bevatten met beveiligings- of privacyrisico's. Zorg ervoor dat u de auteur en de bron van de aangepaste visual vertrouwt voordat u de visual in de opslagplaats van de organisatie implementeert.
+> 
+
+Vul de velden in:
+ 
+* Kies een .pbiviz-bestand (vereist): selecteer een aangepaste visual om te uploaden. Alleen versies van aangepaste API-visuals worden ondersteund (lees hier wat dit betekent).
+Voordat u een aangepaste visual uploadt, moet u controleren of de beveiliging en privacy van die visual past bij de normen van uw organisatie. Meer informatie over beveiliging van aangepaste visuals.
+ 
+* Geef een naam aan uw visual (vereist): geef een korte titel aan de visual zodat gebruikers van Power BI Desktop gemakkelijk begrijpen wat de visual doet.
+ 
+* Pictogram (vereist): het pictogrambestand dat wordt weergegeven in de gebruikersinterface van Power BI Desktop.
+ 
+* Beschrijving: een korte beschrijving van de visual zodat de gebruiker meer context heeft en weet waarvoor de visual is bedoeld.
+ 
+Selecteer 'Toepassen' om de uploadaanvraag te starten. U ziet het nieuwe item in de lijst als de aanvraag is geslaagd. Als de aanvraag is mislukt, ziet u de bijbehorende foutmelding
+ 
+### <a name="delete-a-custom-visual-from-the-list"></a>Een aangepaste visual verwijderen uit de lijst
+
+Selecteer het prullenbakpictogram om de visual permanent te verwijderen uit de opslagplaats.
+Belangrijk: verwijderen kan niet ongedaan worden gemaakt. Wanneer de visual is verwijderd, wordt deze onmiddellijk niet meer weergegeven in bestaande rapporten. Zelfs als u dezelfde visual opnieuw uploadt, vervangt de nieuwe visual de vorige die is verwijderd niet. Gebruikers moeten de nieuwe visual opnieuw importeren en het exemplaar vervangen dat in hun rapport is opgenomen.
+ 
+### <a name="how-to-update-a-visual"></a>Een visual bijwerken
+
+Als u een visual in de opslagplaats wilt bijwerken, omdat er een nieuwe versie van de visual is (met bijvoorbeeld bugfixes, nieuwe functies, enzovoort), uploadt u het nieuwe bestand (zorg ervoor dat de id van de visual dezelfde blijft) als een nieuwe toevoeging aan de lijst en zorgt u ervoor dat u de juiste informatie in de titel en beschrijving invoert (bijvoorbeeld 'Mijn Visual v2.0'). De volgende keer dat gebruikers toegang hebben tot de opslagplaats van de organisatie vanuit Power BI Desktop, kunnen ze de nieuwe versie importeren waarbij wordt gevraagd om de huidige versie die zij in het verslag hebben opgenomen, te vervangen.
+ 
 ## <a name="next-steps"></a>Volgende stappen
 
 [Understanding the Power BI admin role](service-admin-role.md) (Power BI-beheerdersrol)  

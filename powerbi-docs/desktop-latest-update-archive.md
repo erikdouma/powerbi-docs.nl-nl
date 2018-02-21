@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 2a65b8b895d6461efa29290dbd9d09639358678d
-ms.sourcegitcommit: a44c29bbc220ecb1ed80810cb1e7df0db8ea611a
+ms.openlocfilehash: 71a86c29c1ac690233016d91c4a66111978d47ba
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Eerdere maandelijkse updates voor Power BI Desktop
 
@@ -30,6 +30,56 @@ In dit artikel vindt u informatie over eerdere updates voor **Power BI Desktop**
 In de volgende secties wordt aandacht besteed aan de updates van de afgelopen maanden voor **Power BI Desktop**.
 
 U kunt altijd [de nieuwste versie van Power BI Desktop downloaden](https://powerbi.microsoft.com/desktop). Als u met Windows 10 werkt, kunt u **Power BI Desktop** ook downloaden uit de Windows Store. De maandelijkse versies zijn hetzelfde, ongeacht de manier waarop u **Power BI Desktop** installeert. Zie [dit artikel](desktop-get-the-desktop.md) voor meer informatie. 
+
+
+## <a name="january-2018-update-2544970761"></a>Update van januari 2018 (2.54.4970.761)
+
+We luidden het nieuwe jaar in met een aantal updates voor **Power BI Desktop**. Ons goede voornemen is om het komende jaar meer updates te blijven geven.
+
+De koppelingen naast de verschillende updates betekenen het volgende:
+
+* **[video]**-fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
+* Sommige functies hebben een **[artikel]** dat meer informatie biedt.
+* De meeste functies worden beschreven in de maandelijkse update **[blog]**-post.
+-   Sommige functies behoeven geen uitleg en hebben geen artikel of video nodig.
+
+U kunt ook de video **Meest recente updates** in dit artikel vanaf het begin bekijken, door te klikken op het pictogram **Afspelen** op de videoafbeelding onder de lijst met updates.
+
+De volgende updates zijn in januari uitgekomen voor **Power BI Desktop**:
+
+### <a name="reporting"></a>Rapportage
+
+-   Pagina's weergeven en verbergen [[video]](https://youtu.be/W8Pp5wuCXJw?t=20s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#hidePages) 
+-   De achtergrondkleur van gegevenslabels regelen voor Cartesische en toegewezen visuals [[video]](https://youtu.be/W8Pp5wuCXJw?t=3m13s)[[blog]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#dataLabelBackground) 
+-   Het gebied uitbreiden dat wordt gebruikt voor de aslabels in grafieken [[video]](https://youtu.be/W8Pp5wuCXJw?t=5m10s) [[blog] ](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#axisSize) 
+-   Bediening van opvulling van balk/kolom [[video]](https://youtu.be/W8Pp5wuCXJw?t=6m40s) [[blog] ](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#padding) 
+-   Datums weergeven als een hiërarchie (preview) [[video]](https://youtu.be/W8Pp5wuCXJw?t=7m41s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#dateHierarchy) 
+-   Een ankerdatum toevoegen voor een relatieve datumslicer [[video]](https://youtu.be/W8Pp5wuCXJw?t=9m22s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#anchorDate) 
+-   Selectie van populairste N in Q&A [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#topN) 
+-   Groot aantal nieuwe aangepaste visuals[[video]](https://youtu.be/W8Pp5wuCXJw?t=11m32s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#customVisuals) 
+
+### <a name="analytics"></a>Analyse
+
+-   Snelle meting correlatiecoëfficiënt [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#correlationCoefficient) 
+
+
+### <a name="data-connectivity"></a>Toegang tot gegevens
+
+-   Ondersteuning voor Azure Active Directory-verificatie voor Azure SQL Database en Data Warehouse-connectors [[video]](https://youtu.be/W8Pp5wuCXJw?t=21m42s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#AADauth) 
+
+
+> [!NOTE]
+> U kunt ook [alle gegevensbronnen bekijken die beschikbaar zijn voor Power BI Desktop](desktop-data-sources.md). Deze lijst blijft groeien, dus kom geregeld terug.
+
+Wilt u meer informatie over deze updates? Bekijk de [blogpost](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/), waar meer informatie over elk van deze nieuwe functies wordt gegeven (dit is dezelfde blogpost waarnaar in de bovenstaande lijst wordt verwezen).
+
+In de volgende video wordt elk van deze updates beschreven en weergegeven. U ziet ook de video uit de blogpost.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W8Pp5wuCXJw" frameborder="0" allowfullscreen></iframe>
+
+> [!NOTE]
+> Wellicht bent u ook geïnteresseerd in [wat er nieuw is in de Power BI-service](service-whats-new.md). Lees ook [wat er nieuw is in de mobiele apps voor Power BI](mobile-whats-new-in-the-mobile-apps.md).
+
 
 
 ## <a name="december-2017-update-2534954481-"></a>Update december 2017 (2.53.4954.481)

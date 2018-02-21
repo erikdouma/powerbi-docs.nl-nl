@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 3715f2b877073357975af76495f955ff204cbc73
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 5ae0ef1ec5b13699f3ae5c502d29529841a7a726
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Rapportweergave in Power BI Desktop
 Als u met Power BI hebt gewerkt, dan weet u hoe eenvoudig het is om rapporten te maken met dynamische perspectieven en inzichten in uw gegevens. Power BI heeft nog meer geavanceerde functies in Power BI Desktop. Met Power BI Desktop kunt u geavanceerde query's uitvoeren, een mashup maken van gegevens uit meerdere bronnen, relaties tussen tabellen maken en nog veel meer.
@@ -62,6 +62,24 @@ Als u een pagina wilt verwijderen, klikt u op de **x** op het tabblad van de pag
 
 > [!NOTE]
 > Rapporten en visuele elementen kunnen in Power BI Desktop niet worden vastgemaakt aan een dashboard. Als u dat wilt doen, moet u [publiceren vanuit Power BI Desktop](desktop-upload-desktop-files.md) (Engelstalig) naar uw Power BI-site.
-> 
-> 
+
+## <a name="hide-report-pages"></a>Rapportpagina’s verbergen
+
+Als u een rapport maakt, kunt u ook pagina's uit een rapport verbergen. Dit kan nuttig zijn als u onderliggende gegevens of visuals in een rapport wilt maken, maar u niet wilt dat anderen deze pagina's kunnen zien, bijvoorbeeld als u tabellen of ondersteunende visuals maakt die ook voor andere rapportpagina’s worden gebruikt. Er zijn veel andere creatieve redenen te bedenken waarom u een rapportpagina zou willen maken die u vervolgens wilt verbergen voor een rapport dat u wilt publiceren. 
+
+Een rapportpagina verbergen is eenvoudig. Klik met uw rechtermuisknop op het tabblad Rapportpagina en selecteer **Verbergen** in het menu dat dan verschijnt.
+
+![](media/desktop-report-view/report-view_05.png)
+
+Er zijn enkele overwegingen waarmee u rekening moet houden als u een rapportpagina verbergt:
+
+* In **Power BI Desktop** kunt u nog steeds een weergave van een verborgen rapport zien, zelfs als de titel van de pagina in het grijs wordt weergegeven. In de volgende afbeelding is pagina 4 verborgen.
+
+    ![](media/desktop-report-view/report-view_06.png)
+
+* U kunt een verborgen rapportpagina *niet* zien als u het rapport weergeeft met de **Power BI-service**.
+
+* Een rapportpagina verbergen is *geen* veiligheidsmaatregel. Gebruikers kunnen nog steeds toegang krijgen tot de pagina en de inhoud is nog steeds toegankelijk door middel van detailanalyse of andere methoden.
+
+* Als een pagina in de Weergavemodus verborgen is, worden er geen navigatiepijlen weergegeven.
 

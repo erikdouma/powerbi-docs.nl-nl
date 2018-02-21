@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/06/2018
 ms.author: maggies
-ms.openlocfilehash: fadeaedbcc61626b7f1265ac44480c55a60f4fe0
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 23c52f7eb66e4e7b0683a2392f0fc60ad76ea243
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Apps maken en publiceren met dashboards en rapporten in Power BI
 
@@ -64,6 +64,8 @@ Toevoegen van inhoud werkt hetzelfde als inhoud toevoegen aan uw Mijn werkruimte
 
 * [Maak verbinding met services](service-connect-to-services.md) zoals Microsoft Dynamics CRM, Salesforce of Google Analytics.
 * [Haal gegevens op uit bestanden](service-get-data-from-files.md) zoals Excel, CSV of PBIX-bestanden (Power BI Desktop).
+
+Wanneer u inhoud bekijkt in een app-werkruimte, wordt de eigenaar weergegeven als naam van de app-werkruimte.
 
 ## <a name="add-an-image-to-your-app-optional"></a>Een afbeelding aan uw app toevoegen (optioneel)
 Power BI maakt standaard een kleine gekleurde cirkel voor uw app met de initialen van de app. Maar misschien wilt u deze aanpassen met een afbeelding. U hebt een licentie voor Exchange Online nodig om een afbeelding toe te voegen.

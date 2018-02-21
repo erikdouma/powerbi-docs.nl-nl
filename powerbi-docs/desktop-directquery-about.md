@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 0d6d66016663ed0e12d8f3da854ec1e9f7da7eae
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: ceccf00879d3ac17f907f5dce296bb03bb0227d2
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="using-directquery-in-power-bi"></a>DirectQuery gebruiken in Power BI
 U kunt verbinding maken met allerlei verschillende gegevensbronnen wanneer u **Power BI Desktop** of de **Power BI-service** gebruikt, en u kunt deze verbindingen op verschillende manieren tot stand brengen. U kunt gegevens *importeren* in Power BI, wat de meest voorkomende manier is om gegevens te verkrijgen, of u kunt rechtstreeks verbinding maken met gegevens in de oorspronkelijke opslagplaats, wat **DirectQuery** wordt genoemd. In dit artikel vindt u informatie over **DirectQuery**, met speciale aandacht voor de volgende onderwerpen:
@@ -269,14 +269,21 @@ Overweeg de volgende punten bij het definiëren van het model:
 ### <a name="report-design-guidance"></a>Richtlijnen voor rapportontwerp
 Hanteer de volgende richtlijnen als u een rapport met een DirectQuery-verbinding gaat maken:
 
+* **Overweeg het gebruik van opties voor Query's beperken:** Power BI biedt opties in rapporten om minder query's te verzenden en om bepaalde interacties uit te schakelen die zouden resulteren in een slechte ervaring als de resulterende query's er lang over zouden doen om uitgevoerd te worden. Als u deze opties wilt instellen, gaat u in **Power BI Desktop** naar **Bestand > Opties en instellingen > Opties** en selecteert u **Query's beperken**. 
+
+   ![](media/desktop-directquery-about/directquery-about_03b.png)
+
+    U kunt kruislingse markering door uw hele rapport uitschakelen door selectievakjes aan te vinken in **Query's beperken**. U kunt ook een knop *Toepassen* tonen op slicer- en/of filterselecties, waarmee u vervolgens vele slicer- en filterselecties kunt maken voordat u ze toepast, waardoor er geen query's worden verzonden totdat u de knop **Toepassen** op de slicer selecteert. Uw selecties worden dan gebruikt om de gegevens te filteren.
+
+    Deze opties zijn van toepassing op uw rapport terwijl u het rapport beheert in **Power BI Desktop**, ook als uw gebruikers het rapport in de **Power BI-service** gebruiken.
+
 * **Pas eerst filters toe.** Als u filters wilt toepassen, moet u dit altijd aan het begin van het opbouwen van een visualisatie doen. In plaats van bijvoorbeeld TotalSalesAmount en ProductName naar de visualisatie te slepen en vervolgens te filteren op een bepaald jaar, past u het filter Year helemaal aan het begin toe. De reden hiervoor is dat bij elke stap van het bouwen van een visualisatie een query wordt verstuurd, en hoewel het mogelijk is om vervolgens een andere wijziging door te voeren voordat de eerste query is voltooid, wordt de onderliggende gegevensbron hierbij onnodig belast. Door filters in een vroeg stadium toe te passen, zijn de tussenliggende query's over het algemeen minder belastend. Een andere consequentie van het niet vroeg toepassen van filters is dat de eerder genoemde limiet van één miljoen rijen wordt bereikt.
 * **Beperk het aantal visualisaties op een pagina.** Als een pagina wordt geopend (of als een slicer of filter op de pagina wordt gewijzigd), worden alle visualisaties op de pagina vernieuwd. Er geldt ook een limiet voor het aantal query's dat tegelijk wordt verzonden, dus als het aantal visualisaties toeneemt, worden enkele visualisaties na elkaar vernieuwd, waardoor het langer duurt om de hele pagina te vernieuwen. Daarom is het raadzaam om het aantal visualisaties op één pagina te beperken en in plaats daarvan meer, eenvoudigere pagina's te gebruiken.
 * **Overweeg om de interactie tussen visualisaties uit te schakelen.** Visualisaties op een rapportpagina kunnen standaard worden gebruikt voor kruislings filteren en markeren van de andere visualisaties op de pagina. Als u bijvoorbeeld '1999' selecteert in het cirkeldiagram, ziet u in het kolomdiagram markeringen die de verkopen per categorie voor '1999' aangeven.                                                                  
   
   ![](media/desktop-directquery-about/directquery-about_04.png)
   
-  Deze interactie kan echter worden beheerd zoals wordt beschreven [in dit artikel](service-reports-visual-interactions.md). In DirectQuery is kruislings filteren en markeren op deze manier alleen mogelijk als er query's worden verzonden naar de onderliggende gegevensbron. Deze interactie moet worden uitgeschakeld als het hierdoor te lang duurt om te reageren op de selectie van gebruikers.
-* **Overweeg om alleen het rapport te delen.** Er zijn verschillende manieren om inhoud te delen nadat deze is gepubliceerd naar de **Power BI-service**. In het geval van DirectQuery is het raadzaam om te overwegen alleen het uiteindelijke rapport te delen, in plaats van andere gebruikers toe te staan om nieuwe rapporten te maken (waardoor ze mogelijk te maken krijgen met prestatieproblemen voor de specifieke visualisaties die ze bouwen).
+  In DirectQuery is kruislings filteren en markeren op deze manier alleen mogelijk als er query's worden ingediend bij de onderliggende gegevensbron. Deze interactie moet worden uitgeschakeld als het hierdoor te lang duurt om te reageren op de selectie van gebruikers. Deze interactie kan echter worden uitgeschakeld voor het volledige rapport (zoals hierboven beschreven voor de *opties voor Query's beperken*), of per geval zoals [in dit artikel](service-reports-visual-interactions.md) wordt beschreven.
 
 Naast de bovenstaande lijst met suggesties, kunnen de volgende rapportagemogelijkheden prestatieproblemen veroorzaken:
 
@@ -294,6 +301,8 @@ Naast de bovenstaande lijst met suggesties, kunnen de volgende rapportagemogelij
 * **Mediaan.** Over het algemeen wordt elke aggregatie (Sum, Count Distinct, enzovoort) naar de onderliggende gegevensbron gepusht. Dit geldt echter niet voor Median, omdat deze statistische functie doorgaans niet wordt ondersteund door de onderliggende gegevensbron. In dergelijke gevallen worden de detailgegevens opgehaald uit de onderliggende gegevensbron en wordt de mediaan berekend aan de hand van de geretourneerde resultaten. Dit is geen probleem wanneer de mediaan moet worden berekend voor een relatief klein aantal resultaten, maar er treden prestatieproblemen op (of de query mislukt door de limiet van één miljoen rijen) als de kardinaliteit groot is.  Zo kan het berekenen van de mediaan van het inwonertal van landen redelijk snel gaan, maar het berekenen van de mediaan van de verkoopprijs te lang duren.
 * **Geavanceerde tekstfilters ('contains' en vergelijkbaar).** Bij het filteren op een tekstkolom zijn geavanceerde filters toegestaan zoals 'contains' en 'begins with'. Deze filters kunnen voor sommige gegevensbronnen zeker tot slechtere prestaties leiden. Het is met name belangrijk dat niet het standaardfilter 'contains' wordt gebruikt als in werkelijkheid een exacte overeenkomst ('is' of 'is not') vereist is. Hoewel de resultaten mogelijk hetzelfde zijn, afhankelijk van de werkelijke gegevens, kunnen de prestaties aanzienlijk verschillen vanwege het gebruik van indexen.
 * **Slicers met meervoudige selectie.** De standaardinstelling is dat in een slicer maar één selectie kan worden gemaakt. Het toestaan van meervoudige selectie in filters kan bepaalde prestatieproblemen veroorzaken. Als de gebruiker namelijk een verzameling items selecteert in de slicer (bijvoorbeeld de tien producten waarin hij is geïnteresseerd), moeten voor elke nieuwe selectie query's worden verzonden naar de bron in de back-end. Hoewel de gebruiker het volgende item kan selecteren terwijl de query nog niet is voltooid, leidt dit tot extra belasting van de onderliggende gegevensbron.
+
+* **Overweeg om totalen in visuals uit te schakelen:** tabellen en matrices geven standaard totalen en subtotalen weer. In veel gevallen moeten er afzonderlijke query's worden verzonden naar de onderliggende bron om de waarden voor deze totalen op te halen. Dit is van toepassing wanneer u gebruikmaakt van de samenvoeging *DistinctCount*, of in alle gevallen wanneer u DirectQuery gebruikt via SAP BW of SAP HANA. Dergelijke totalen moeten worden uitgeschakeld (met behulp van het deelvenster **Indeling**) als ze niet vereist zijn. 
 
 ### <a name="diagnosing-performance-issues"></a>Oorzaak van prestatieproblemen achterhalen
 In dit gedeelte wordt beschreven hoe u de oorzaak van prestatieproblemen kunt achterhalen of hoe u meer gedetailleerde informatie kunt verzamelen met als doel de rapporten te optimaliseren.

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: bf65b900f315f74c5ca81980e6371d92923cb97d
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+ms.openlocfilehash: cde5199ad65e69f3304cfe244b549f1e7ae61e97
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Verbinding maken met Project "Madeira" met behulp van Power BI
 U kunt eenvoudig inzicht krijgen in uw Project "Madeira"-gegevens met Power BI en het Project "Madeira"-inhoudspakket. Met Power BI kunt u uw gegevens ophalen, zowel verkoopgegevens als financiële gegevens, en vervolgens een out-of-box-dashboard en rapporten bouwen op basis van die gegevens.
@@ -47,7 +47,7 @@ Maak verbinding met het [Project "Madeira" Analytics-inhoudspakket](https://app.
     >[!NOTE]
     >U moet een supergebruiker zijn in Project "Madeira".
    
-    ![](media/service-connect-to-project-madeira/creds.png)
+   ![](media/service-connect-to-project-madeira/creds.png)
 6. Zodra u bent verbonden, wordt er automatisch een dashboard, rapport en gegevensset geladen. Wanneer dit is voltooid, worden de tegels bijgewerkt met gegevens uit uw account.  
    
     ![](media/service-connect-to-project-madeira/dashboard.png)
@@ -95,12 +95,14 @@ Als u OK kiest, wordt er een sleutel gemaakt, zodat u deze kunt kopiëren naar h
 ## <a name="troubleshooting"></a>Problemen oplossen
 Het Power BI-dashboard is afhankelijk van de gepubliceerde webservices die hierboven worden vermeld, en geeft gegevens weer van het voorbeeldbedrijf of uw eigen bedrijf als u gegevens uit uw huidige financiële oplossing importeert. Als er toch iets mis gaat, vindt u in dit gedeelte tijdelijke oplossingen voor de meest voorkomende problemen.
 
-**De validatie van de parameter is mislukt. Controleer of alle parameters geldig zijn.** Als deze fout wordt weergegeven nadat u uw Project "Madeira"-URL hebt ingevoerd, controleert u of aan de volgende vereisten wordt voldaan:  
+**Kan de parameter niet valideren. Controleer of alle parameters geldig zijn**
 
-    - De URL volgt exact dit patroon: https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')  
-    - Verwijder tekst tussen haakjes na de bedrijfsnaam  
-    - Zorg dat er geen afsluitende slash aan het einde van de URL staat.  
-    - Zorg ervoor dat de URL een beveiligde verbinding gebruikt en dus met https begint.  
+Als deze fout wordt weergegeven nadat u uw Project 'Madeira'-URL hebt ingevoerd, controleert u of er aan de volgende vereisten wordt voldaan:  
+
+   - De URL volgt exact dit patroon: https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')  
+   - Verwijder tekst tussen haakjes na de bedrijfsnaam  
+   - Zorg dat er geen afsluitende slash aan het einde van de URL staat.  
+   - Zorg ervoor dat de URL een beveiligde verbinding gebruikt en dus met https begint.  
 
 **'Aanmelden mislukt'** Als er een fout wordt weergegeven dat het aanmelden is mislukt wanneer u zich probeert aan te melden voor het dashboard met uw Project "Madeira"-gegevens, kan dit een van de volgende oorzaken hebben:  
 

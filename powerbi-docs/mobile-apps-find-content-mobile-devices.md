@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/04/2018
+ms.date: 02/06/2018
 ms.author: maggies
-ms.openlocfilehash: d63ef5ad9ee59901917fb9bf9c28358c9aa542e8
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: 23a3fc38b1cf284f79b3515b25ec0396b79fb267
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="find-your-dashboards-reports-and-apps-in-the-power-bi-mobile-apps"></a>Dashboards, rapporten en apps zoeken in de mobiele Power BI-apps
 Van toepassing op:
@@ -41,7 +41,11 @@ Uw dashboards, rapporten en apps worden opgeslagen op verschillende locaties in 
 5. [Werkruimten](mobile-apps-find-content-mobile-devices.md#5-workspaces)
 
 ## <a name="1-favorites"></a>1 Favorieten
-Verzamel de dashboards en apps die u het meest gebruikt, door ze te labelen als favorieten. Lees meer over [favorieten in de mobiele Power BI-apps](mobile-apps-favorites.md).
+Verzamel de dashboards, rapporten en apps die u het meest gebruikt, door ze te labelen als favorieten. 
+
+![Favorieten in de mobiele Power BI-apps](media/mobile-apps-find-content-mobile-devices/power-bi-android-favorites-reports.png)
+
+Lees meer over [favorieten in de mobiele Power BI-apps](mobile-apps-favorites.md).
 
 ## <a name="2-report-servers"></a>2 Rapportservers
 Mogelijk hebt u verbindingen met een of meer on-premises servers in Power BI Report Server of SQL Server Reporting Services. Als dit het geval is, worden de KPI’s, Power BI-rapporten en gepagineerde rapporten op de server hier weergegeven. Als u een van deze hebt gelabeld als favoriet op de server, worden ze ook weergegeven in de lijst met favorieten. Lees meer over het [weergeven van on-premises KPI's en rapporten in de mobiele Power BI-apps](mobile-app-ssrs-kpis-mobile-on-premises-reports.md).
@@ -65,9 +69,9 @@ In de mobiele Power BI-apps kunt u alle apps bekijken die u al hebt geïnstallee
 In de Power BI-service kunt u naar Microsoft AppSource gaan om naar andere apps te zoeken. Dit kan niet vanuit de mobiele Power BI-apps. 
 
 ## <a name="4-shared-with-me"></a>4 Gedeeld met mij
-Hier vindt u dashboards die collega's met u hebben gedeeld. U kunt filteren op de eigenaar van het dashboard of een zoekopdracht uitvoeren om te vinden wat u zoekt. Gedeelde inhoud die u regelmatig bezoekt, kunt u rechtstreeks vanuit de weergave **Gedeeld met mij** toevoegen aan Favorieten door op het beletselteken (...) te tikken.
+Hier vindt u dashboards en rapporten die collega's met u hebben gedeeld. U kunt filteren op de eigenaar of een zoekopdracht uitvoeren om te vinden wat u zoekt. Gedeelde inhoud die u regelmatig bezoekt, kunt u rechtstreeks vanuit de weergave **Gedeeld met mij** toevoegen aan Favorieten door op het beletselteken (**...**) te tikken.
 
-![Nieuwe navigatie voor Power BI](media/mobile-apps-find-content-mobile-devices/power-bi-mobile-shared-with-me-fave.png)
+![Power BI Met mij gedeeld](media/mobile-apps-find-content-mobile-devices/power-bi-android-shared-fave.png)
 
 ## <a name="5-workspaces"></a>5 Werkruimten
 Ook wel *App-werkruimten* genoemd. Dit zijn faseringsomgevingen in de Power BI-service ([https://powerbi.com](https://powerbi.com)) waar u kunt samenwerken met collega's om een verzameling dashboards en rapporten te maken. Vervolgens distribueert u de verzameling als een *app*. 

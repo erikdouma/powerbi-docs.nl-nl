@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 10557146b0b640450779049a30dd8f394686f57a
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 8abb327181af031df508f0629cbc09053a9a7927
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery en SAP Business Warehouse (BW)
 U kunt rechtstreeks verbinding maken met **SAP Business Warehouse (BW)**-gegevensbronnen met behulp van **DirectQuery**. Gezien de OLAP-/multidimensionale aard van SAP BW, zijn er veel belangrijke verschillen tussen DirectQuery via SAP BW en via relationele bronnen zoals SQL Server. Deze verschillen kunnen als volgt worden samengevat:
@@ -74,13 +74,9 @@ De volgende tabel bevat alle SAP BW-functies die niet volledig worden ondersteu
 | Attributen |Het is niet mogelijk om toegang te krijgen tot de attributen van een kenmerk in Power BI. |
 | Taalinstelling eindgebruiker |De landinstelling die wordt gebruikt om verbinding te maken met SAP BW wordt ingesteld als onderdeel van de verbindingsgegevens, en weerspiegelt niet de landinstelling van de gebruiker van het uiteindelijke rapport. |
 | Tekstvariabelen |In SAP BW kunnen veldnamen plaatsaanduidingen voor variabelen bevatten (bijvoorbeeld "Werkelijke waarden $YEAR$") die worden vervangen door de geselecteerde waarde. Als bijvoorbeeld het jaar 2016 wordt geselecteerd voor de variabele, wordt het veld in BEx-hulpprogramma’s weergegeven als "Werkelijke waarden 2016". <br/> <br/> De kolomnaam in Power BI wordt niet gewijzigd afhankelijk van de variabele waarde, en wordt weergegeven als "Werkelijke waarden $YEAR$".  De kolomnaam kan vervolgens wel worden gewijzigd in Power BI. |
+| Uitgangsvariabelen van klanten | Uitgangsvariabelen van klanten worden niet ontsloten door de openbare API en worden daarom niet ondersteund door Power BI. |
+| Kenmerkstructuren | Kenmerkstructuren in de onderliggende bron van SAP BW zullen leiden tot een ‘explosie’ van metingen die in Power BI worden weergegeven. Bijvoorbeeld met twee metingen, Verkoop en Kosten, en een kenmerkstructuur met Begroot en Feitelijk, worden er vier metingen weergegeven: Verkoop.Begroot, Verkoop.Feitelijk, Kosten.Begroot, Kosten.Feitelijk. |
 
-## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
-De volgende tabel bevat de beperkingen van de bètaversie van de SAP BW-connector.
-
-| Beperking | Beschrijving |
-| --- | --- |
-| Vernieuwen niet mogelijk |De knop Vernieuwen is uitgeschakeld en visualisaties/metagegevens kunnen niet worden vernieuwd. |
 
 ## <a name="next-steps"></a>Volgende stappen
 Bekijk de volgende bronnen voor meer informatie over DirectQuery:
