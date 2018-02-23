@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/02/2017
+ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: 7d4609d682af729ef60553263c3407aa99b17b5a
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: a666099d55b70f088a101738e3ffea8fcf218659
+ms.sourcegitcommit: 2ceea44d3606c15b57142c37649c9d481ec4becc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="power-bi-free-vs-pro"></a>Gratis versie van Power BI versus Power BI Pro
 Gebruikers in Power BI zijn gratis gebruikers of gebruikers van de Pro-versie. Het is handig om te weten wat de verschillen tussen deze twee soorten gebruikers zijn.
