@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/28/2017
 ms.author: amac
-ms.openlocfilehash: 3a9b1481bd4e587b72ba791b47836bb4a4bc18e6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+LocalizationGroup: Samples
+ms.openlocfilehash: 966c64e45db296888e7927130f263c288d7e714d
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="download-the-financial-sample-workbook-for-power-bi"></a>De werkmap met financiële voorbeelden voor Power BI downloaden
 Hebt u wat gegevens nodig om de Power BI-service te kunnen uitproberen? We bieden een eenvoudige Excel-werkmap met financiële voorbeeldgegevens die u kunt downloaden.  U kunt de werkmap als volgt downloaden:

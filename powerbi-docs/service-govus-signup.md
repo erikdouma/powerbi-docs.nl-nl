@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/27/2017
 ms.author: davidi
-ms.openlocfilehash: 8ff1d5be4e360aa5afb8b6bd704f3426957466ef
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Get started
+ms.openlocfilehash: e4015d0de5c11a9726089a62825950dc0532205d
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Uw Amerikaanse overheidsorganisatie registreren in de Power BI-service
 Er is als onderdeel van **Office 365 US Government Community**-abonnement een versie van de **Power BI-service** beschikbaar voor Amerikaanse overheidsklanten. De versie van de **Power BI-service** die in dit artikel wordt besproken, is specifiek ontworpen voor Amerikaanse overheidsklanten en staat los en verschilt van de commerciële versie van de **Power BI-service**.
@@ -45,12 +46,14 @@ Als uw organisatie een nieuwe **Office Government Cloud** klant is, voert u de v
 
 > [!NOTE]
 > Deze stappen moeten worden uitgevoerd door de portalbeheerder.
-> 
-> 
+>
 
-1. Ga naar [https://products.office.com/en-us/government/office-365-web-services-for-government](https://products.office.com/en-us/government/office-365-web-services-for-government). 
-    >[!NOTE]
-    >Als u zich op dit moment niet wilt aanmelden voor Office Government Cloud, kunt u contact opnemen met de verkoopmedewerker.
+1. Ga naar [https://products.office.com/en-us/government/office-365-web-services-for-government](https://products.office.com/en-us/government/office-365-web-services-for-government).
+
+>[!NOTE]
+>Als u zich op dit moment niet wilt aanmelden voor Office Government Cloud, kunt u contact opnemen met de verkoopmedewerker.
+>
+
 2. Selecteer Office G3 en vul het formulier in voor een evaluatieversie van Office.
 3. Zodra u klant van Office Cloud bent, gaat u verder met de onderstaande stappen voor bestaande Office Government Cloud-klanten.
 
