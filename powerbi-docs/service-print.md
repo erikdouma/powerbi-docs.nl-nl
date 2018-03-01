@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: f505b27043e357b5cf1c01a0779634a948905dfc
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+LocalizationGroup: Common tasks
+ms.openlocfilehash: 62796d9eb376ab4c92cc5596176ac501a69c0e62
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="printing-from-power-bi-service"></a>Afdrukken via de Power BI-service
 U kunt een volledig dashboard, een dashboardtegel, een rapportpagina of een rapportvisual afdrukken via de Power BI-service. Rapporten kunnen slechts pagina voor pagina worden afgedrukt. U kunt niet het hele rapport in een keer afdrukken.
@@ -54,7 +55,7 @@ Kijk hoe Amanda afdrukt vanuit haar dashboard en rapport. Volg vervolgens de sta
 1. [Open de tegel in de focusmodus](service-focus-mode.md) door het weglatingsteken te selecteren en het focuspictogram ![](media/service-print/power-bi-focus-icon.png) te kiezen.
    
     ![](media/service-print/menu-options.png)
-2. Open de tegel in [het volledige scherm](service-tile-fullscreen-mode.md) door in de navigatiebalk aan de bovenkant het pictogram voor de modus Volledig scherm ![](media/service-print/power-bi-full-screen-icon.png) te selecteren.
+2. Open de tegel in [het volledige scherm](service-fullscreen-mode.md) door in de navigatiebalk aan de bovenkant het pictogram voor de modus Volledig scherm ![](media/service-print/power-bi-full-screen-icon.png) te selecteren.
 3. Beweeg de muisaanwijzer over de tegel om het menu Opties weer te geven.
    
     ![](media/service-print/menu-options-new.png)
@@ -98,5 +99,5 @@ Rapporten kunnen alleen pagina voor pagina worden afgedrukt.
 ## <a name="next-steps"></a>Volgende stappen
 [Dashboards en rapporten delen met collega's en anderen](service-share-dashboards.md)
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/).
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 
