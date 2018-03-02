@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/07/2018
 ms.author: nikhilga
-ms.openlocfilehash: b60e883d1f5c143270c52bd3ae8a7100593a7dfe
-ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
+LocalizationGroup: Get started
+ms.openlocfilehash: b3e12a9bdfa6643351cdfc82ce9051197df6ee1e
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Wat is er nieuw in de Power BI-service
 Raadpleeg deze pagina voor bekende problemen en onlangs uitgebrachte functies in de **Power BI-service**. Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -631,9 +632,9 @@ Bekijk de [blog](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-ser
 
 **31 maart 2015**
 
-* ** GitHub ** dashboards hebben nieuwe visuele elementen die gericht zijn op het bouwen van community’s, verbeterde berekeningen en een verbeterde indeling
-* ** SendGrid ** dashboards hebben nieuwe visuele elementen en een nieuwe indeling om meer inzicht te verkrijgen
-* U kunt nu ** treemaps in Q&A ** gebruiken met behulp van de vermelding 'als treemap' aan het einde van uw query
+* **GitHub**-dashboards hebben nieuwe visuele elementen die gericht zijn op het bouwen van community's, verbeterde berekeningen en een verbeterde indeling
+* **SendGrid**-dashboards hebben nieuwe visuele elementen en een nieuwe indeling om meer inzicht te verkrijgen
+* U kunt nu **treemaps in Q&A** gebruiken met behulp van de vermelding 'als treemap' aan het einde van uw query
 * U kunt nu **treemaps**  uit Q&A en rapporten vastmaken 
 * Veel fouten zijn opgelost.
 

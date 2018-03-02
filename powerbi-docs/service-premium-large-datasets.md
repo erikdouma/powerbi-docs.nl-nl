@@ -15,17 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/11/2017
-ms.author: v-mamcge
-ms.openlocfilehash: 82ac4382fe80d83b60705f135b50738718f28876
-ms.sourcegitcommit: 7eb15c813a0d14322cb1316bb7aab23cbc13aae6
+ms.date: 02/27/2018
+ms.author: jocaplan
+LocalizationGroup: Premium
+ms.openlocfilehash: def06965692644c0328dae7a1d0ade8d13cc0d6c
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="power-bi-premium-support-for-large-datasets"></a>Power BI Premium-ondersteuning voor grotere gegevenssets
 
-Power BI Premium ondersteunt uploads met Power BI Desktop-bestanden (pbix) die maximaal 10 GB groot zijn. Als u een grote gegevensset wilt gebruiken, publiceert u deze naar een werkruimte die is toegewezen aan Premium capaciteit.
+Power BI Premium ondersteunt uploads met Power BI Desktop-bestanden (pbix) die maximaal 10 GB groot zijn. Een gegevensset kan, na te zijn geüpload, worden vernieuwd tot een grootte van 12 GB. Als u een grote gegevensset wilt gebruiken, publiceert u deze naar een werkruimte die is toegewezen aan Premium capaciteit.
  
 ## <a name="best-practices"></a>Aanbevolen procedures
 
@@ -53,10 +54,10 @@ In deze sectie worden aanbevolen procedures beschreven voor het werken met grote
 **Omdat de beperkingen van geheugen en tijd per query veel hoger zijn in Premium capaciteit**, is het raadzaam filters en slicers te gebruiken om van visuals alleen de benodigde informatie weer te geven.
 
 ## <a name="next-steps"></a>Volgende stappen
-[Power BI Premium - wat is het?](service-premium.md)  
+[Wat is Power BI Premium?](service-premium.md)  
 [Releaseopmerkingen bij Power BI Premium](service-premium-release-notes.md)  
 [Technisch document over Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 [Een technisch document over een Power BI-implementatie voor de onderneming plannen](https://aka.ms/pbienterprisedeploy)  
 [De verlengde Pro-proefversie activeren](service-extended-pro-trial.md)  
 
-Nog vragen? [Misschien dat de Power Bi-community het antwoord weet](https://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

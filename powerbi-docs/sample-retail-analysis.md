@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/17/2018
 ms.author: mihart
-ms.openlocfilehash: 97c8f3f74bea0629107b68b9e42a4a449863b066
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+LocalizationGroup: Samples
+ms.openlocfilehash: 54a12f7e3b2ecee65701ca6c629d078ad7b9c0c9
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Voorbeeld van een retailanalyse voor Power BI: rondleiding
 
@@ -31,7 +32,7 @@ In dit voorbeelddashboard en het onderliggende rapport met bedrijfsgegevens word
 
 ## <a name="prerequisites"></a>Vereisten
 
- Voordat u het voorbeeld kunt gebruiken, moet u het eerst downloaden als een inhoudspakket, een pbix-bestand of een Excel-werkmap.
+ Voordat u het voorbeeld kunt gebruiken, moet u het eerst downloaden als een [inhoudspakket](https://docs.microsoft.com/en-us/power-bi/sample-datasets#get-and-open-a-sample-content-pack-in-power-bi-service), een [PBIX-bestand](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) of een [Excel-werkmap](http://go.microsoft.com/fwlink/?LinkId=529778).
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Het inhoudspakket voor dit voorbeeld ophalen
 
@@ -166,7 +167,8 @@ Dit is een veilige omgeving om in te experimenteren. U kunt er namelijk altijd v
 We hopen dat deze rondleiding heeft laten zien hoe Power BI-dashboards, Q&A en rapporten inzicht kunnen geven in retailgegevens. Nu is het uw beurt om verbinding met uw eigen gegevens te maken. Met Power BI kunt u verbinding maken met een groot aantal gegevensbronnen. Zie [Aan de slag met Power BI](service-get-started.md) voor meer informatie.
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Het inhoudspakket Retail Analysis Sample downloaden](sample-tutorial-connect-to-the-samples.md)    
+* [Het inhoudspakket Retail Analysis Sample downloaden](sample-tutorial-connect-to-the-samples.md)
+* [Een ZIP-bestand van alle voorbeeldbestanden downloaden](http://go.microsoft.com/fwlink/?LinkId=535020)    
 * [De Excel-werkmap voor dit Power BI-voorbeeld downloaden](http://go.microsoft.com/fwlink/?LinkId=529778)    
 * [Gegevens ophalen (voor Power BI)](service-get-data.md)    
 * [Power BI - basisconcepten](service-basic-concepts.md)    
