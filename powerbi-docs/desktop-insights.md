@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/25/2017
 ms.author: davidi
-ms.openlocfilehash: e32cf08625d6d36013175ad9533eac8791e76814
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Create reports
+ms.openlocfilehash: 17a66c362124616796eb48a7052d89226555df3b
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-insights-in-power-bi-desktop-preview"></a>Inzichten gebruiken in Power BI Desktop (preview)
 U kunt **Power BI Desktop** vragen toe- of afnames in diagrammen uit te leggen en om snelle, geautomatiseerde en inzichtelijke analyses over uw gegevens. Klik hiertoe met de rechtermuisknop op een gegevenspunt en selecteer **Analyseren > Leg de afname uit** (toename, als de vorige staaf lager is) en u krijgt inzicht in een gebruiksvriendelijk venster.

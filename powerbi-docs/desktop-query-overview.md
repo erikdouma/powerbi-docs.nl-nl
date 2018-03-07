@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: ecbbcd29a2273810d2e5be5700164008b52c06bd
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+LocalizationGroup: Transform and shape data
+ms.openlocfilehash: 8b7fb21e533fecbfe93481741ae53b0073f6a776
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Queryoverzicht in Power BI Desktop
 Met **Power BI Desktop** kunt u verbinding maken met de wereld van gegevens, overtuigende en gefundeerde rapporten maken en uw resultaten delen met anderen, die verder kunnen bouwen op uw werk en hun business intelligence-activiteiten kunnen uitbreiden.
@@ -141,11 +142,11 @@ Om uw werk op te slaan, kiest u **Bestand \> Opslaan** (of **Bestand \> Opslaan 
 ![](media/desktop-query-overview/queryoverview_savework.png)
 
 ## <a name="next-steps"></a>Volgende stappen
-Er zijn veel verschillende dingen die u met Power BI Desktop kunt doen. Bekijk de volgende bronnen voor meer informatie over de vele mogelijkheden:
+U kunt allerlei handelingen uitvoeren met Power BI Desktop. Bekijk de volgende bronnen voor meer informatie over de vele mogelijkheden:
 
 * [Aan de slag met Power BI Desktop](desktop-getting-started.md)
 * [Gegevensbronnen in Power BI Desktop](desktop-data-sources.md)
-* [Verbinding maken met gegevens in Power BI Desktop](desktop-connect-to-data.md)
-* [Gegevens vormgeven en combineren met Power BI Desktop](desktop-shape-and-combine-data.md)
-* [Algemene querytaken in Power BI Desktop](desktop-common-query-tasks.md)   
+* [Connect to Data in Power BI Desktop](desktop-connect-to-data.md) (Verbinding maken met gegevens in Power BI Desktop)
+* [Shape and Combine Data with Power BI Desktop](desktop-shape-and-combine-data.md) (Gegevens vormgeven en combineren met Power BI Desktop)
+* [Common Query Tasks in Power BI Desktop](desktop-common-query-tasks.md) (Algemene querytaken in Power BI Desktop)   
 

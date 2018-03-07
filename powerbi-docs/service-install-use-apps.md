@@ -16,11 +16,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: maggies
-ms.openlocfilehash: a833961bd2f9ad3af77c6d90a95c0e5b1c307d1a
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Share your work
+ms.openlocfilehash: 406e1219296c5b2491e3b59d5a8cd6f50cfc2376
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Apps installeren en gebruiken met dashboards en rapporten in Power BI
 *Apps* brengen in Power BI gerelateerde dashboards en rapporten allemaal op één plek samen. Personen in uw organisatie kunnen apps maken en distribueren met belangrijke bedrijfsinformatie. [Externe services](service-connect-to-services.md) waar u reeds gebruik van maakt, zoals Google Analytics en Microsoft Dynamics CRM, bieden ook Power BI-apps. 

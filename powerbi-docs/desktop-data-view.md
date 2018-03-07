@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 3081a5dfc9338c60d93f952d68c8d4f320edae9f
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+LocalizationGroup: Model your data
+ms.openlocfilehash: dba33cd5476b26d7c81238bf4eedc366deb65191
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="data-view-in-power-bi-desktop"></a>Gegevensweergave in Power BI Desktop
 De **gegevensweergave** helpt u bij het controleren, onderzoeken en begrijpen van gegevens uw Power BI Desktop-model. Het verschilt van de manier waarop u tabellen, kolommen en gegevens in **Query-editor** bekijkt. In de gegevensweergave bekijkt u gegevens *nadat* deze in het model zijn geladen.

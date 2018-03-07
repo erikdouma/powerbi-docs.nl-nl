@@ -17,11 +17,12 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: davidi
-ms.openlocfilehash: 0288e9613a187b64e5bc71c952e01d70f1f56012
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Gateways
+ms.openlocfilehash: 717451afc35614e9c356e5748f39f0302fa6244e
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>Clusters met hoge beschikbaarheid voor on-premises gegevensgateway
 U kunt **clusters met hoge beschikbaarheid** maken van installaties van **on-premises datagateway**, om te controleren of uw organisatie toegang heeft tot on-premises gegevensbronnen die worden gebruikt in Power BI-rapporten en -dashboards. Met dit soort clusters kunnen gatewaybeheerders gateways groeperen om storingen op één punt bij het openen van on-premises gegevensbronnen te voorkomen. In dit artikel worden de stappen beschreven die u kunt nemen om een cluster met hoge beschikbaarheid van on-premises gegevensgateways te maken. Ook vindt u in dit artikel aanbevolen procedures voor het instellen van deze clusters. Voor gatewayclusters met hoge beschikbaarheid is de update van november 2017 of hoger vereist voor de on-premises gegevensgateway.
@@ -83,7 +84,7 @@ Als deze stappen zijn voltooid, kunt u de opdrachten in de volgende tabel gebrui
 ## <a name="next-steps"></a>Volgende stappen
 
 -   [Manage your data source - Analysis Services](service-gateway-enterprise-manage-ssas.md) (Uw gegevensbron beheren - Analysis Services)  
--   [Manage your data source - SAP HANA](service-gateway-enterprise-manage-sap.md) (Gegevensbron beheren - SAP HANA)  
+-   [Manage your data source - SAP HANA](service-gateway-enterprise-manage-sap.md) (Uw gegevensbron beheren - SAP HANA)  
 -   [Manage your data source - SQL Server](service-gateway-enterprise-manage-sql.md) (Gegevensbron beheren - SQL Server)  
 -   [Manage your data source - Oracle](service-gateway-onprem-manage-oracle.md) (Gegevensbron beheren - Oracle)  
 -   [Manage your data source - Import/Scheduled refresh](service-gateway-enterprise-manage-scheduled-refresh.md) (Gegevensbron beheren - importeren/geplande vernieuwing)  

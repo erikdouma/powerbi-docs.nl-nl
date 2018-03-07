@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 05/30/2017
 ms.author: mihart
-ms.openlocfilehash: b6ce0c396f4a189489b97fe5cd86ab5cd8dbcc35
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 619f694e6e3ed167a14262994c1c978d5b4ea2e0
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="slicers-in-power-bi-service-tutorial"></a>Slicers in Power BI-service (zelfstudie)
 Uw adjunct-directeur van Verkoop wil een aantal metrische gegevens kunnen inzien, voor de gehele afdeling en voor elke afzonderlijke District Manager. Ze kon voor elke manager een aparte rapportpagina maken, of ze kon een slicer gebruiken. Een slicer beperkt het gedeelte van de gegevensset die wordt weergegeven in de andere visualisaties op de pagina.  Slicers bieden een alternatieve manier voor filteren.
@@ -111,7 +112,7 @@ Hebt u ideeën voor het verbeteren van Power BI? [Een idee verzenden](https://id
 
  [Power BI - basisconcepten](service-basic-concepts.md)
 
-[Probeer het uit -- gratis!](https://powerbi.com/)
+[Probeer het uit, het is gratis.](https://powerbi.com/)
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

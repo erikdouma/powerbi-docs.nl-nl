@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/20/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 1ffbf698f3a53aa1075cf62f2e05467dcde73cee
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+LocalizationGroup: Learn more
+ms.openlocfilehash: 9650f0be6ca795fdea3395721c0eb02e80464821
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="analyzing-web-page-data-using-power-bi-desktop-tutorial"></a>Gegevens van een webpagina analyseren met Power BI Desktop (zelfstudie)
 In deze zelfstudie leert u hoe u een tabel met gegevens uit een webpagina kunt importeren en een rapport kunt maken om deze gegevens te visualiseren. Als onderdeel van dit proces kunt u navigeren tussen tabellen die beschikbaar zijn op een webpagina en gegevenstransformatiestappen uitvoeren om de tabel een andere vorm te geven.

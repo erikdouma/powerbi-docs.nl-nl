@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 173c02c2d44236539c81edc2612e944b01641653
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+LocalizationGroup: Share your work
+ms.openlocfilehash: d8aac093b06910d5d32c2e5d33951db9448757c4
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Uw app-werkruimte beheren in Power BI en Office 365
 Als maker of beheerder van een [app-werkruimte in Power BI](service-install-use-apps.md) of in Office 365, beheert u bepaalde aspecten van de werkruimte in Power BI. Andere aspecten beheert u in Office 365. 
@@ -81,5 +82,5 @@ Wanneer u uw app uit de app-werkruimte distribueert, wordt de afbeelding die u h
 ## <a name="next-steps"></a>Volgende stappen
 * [Wat zijn apps in Power BI?](service-install-use-apps.md)
 * [Apps en app-werkruimten maken in Power BI](service-create-distribute-apps.md)
-* Nog vragen? [Probeer de Power BI-community](http://community.powerbi.com/)
+* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

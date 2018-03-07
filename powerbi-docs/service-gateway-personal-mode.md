@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/14/2017
+ms.date: 12/14/2017
 ms.author: davidi
-ms.openlocfilehash: 4162ebf02ad401242d724cb90b0f68920db435f6
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+LocalizationGroup: Gateways
+ms.openlocfilehash: 2bd3604a3f16c6977c52c1b3484ac024445c65bb
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>On-premises gegevensgateway (persoonlijke modus)
 U kunt on-premises gegevensbronnen gebruiken en Power BI-rapporten en -dashboards maken met behulp van een gateway. Een **gateway** is software die de toegang vereenvoudigt tot gegevens die zijn opgeslagen op een privé, on-premises netwerk en het vervolgens mogelijk maakt deze gegevens te gebruiken in onlineservices, zoals de **Power BI-service**. De **on-premises gegevensgateway (persoonlijke modus)** is een onlangs uitgebrachte update voor de Power BI-gateway waarmee personen een gateway kunnen installeren op hun eigen computer om zo toegang te krijgen tot on-premises gegevens.

@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 17215f8a1c9aa0da40c52b5dd957c2a7d8c5613b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+LocalizationGroup: Learn more
+ms.openlocfilehash: f9aa1570fe9386e5f8e726097a1c88d448dc2da1
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-desktop-send-a-smile-privacy-statement"></a>Privacyverklaring van Power BI Desktop voor Glimlach verzenden
 Bij Microsoft werken we er hard aan uw privacy te beschermen bij het leveren van producten die u de prestaties, het vermogen en het gebruiksgemak bieden die u nodig hebt. Deze privacyverklaring legt veel van de procedures voor het gebruik en de verzameling van gegevens uit van *Glimlach verzenden* voor Microsoft Power BI Desktop Feedback. De verklaring geldt niet voor andere online of offline sites, producten of services van Microsoft.

@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: ca1761c0708681e6b413ba679980bacb3931e01d
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+LocalizationGroup: Gateways
+ms.openlocfilehash: 7283ee62838779590bbc01eb8b4348cfc7873dc1
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>On-premises gegevensgateway nader bekeken
 Het is mogelijk dat gebruikers in uw organisatie toegang hebben tot on-premises gegevens (waarvoor ze al zijn geautoriseerd), maar voordat deze gebruikers verbinding kunnen maken met uw on-premises gegevensbron, moet er een on-premises gegevensgateway worden geïnstalleerd en geconfigureerd. De gateway zorgt ervoor dat er op een snelle, veilige en transparante manier kan worden gecommuniceerd tussen een gebruiker in de cloud en de on-premises gegevensbron.
@@ -37,7 +38,7 @@ In dit artikel worden geen stapsgewijze instructies gegeven voor het installeren
 [!INCLUDE [gateway-onprem-datasources-include](./includes/gateway-onprem-datasources-include.md)]
 
 ## <a name="sign-in-account"></a>Aanmeldingsaccount
-Gebruikers melden zich aan met een werk- of schoolaccount. Dit is uw organisatieaccount. Als u zich hebt geregistreerd voor een Office 365-aanbieding en niet uw feitelijke het e-mailadres van uw werk hebt opgegeven, kan dit eruit zien als nancy@contoso.onmicrosoft.com. Uw account wordt binnen een cloudservice opgeslagen in een tenant van Azure Active Directory (AAD). In de meeste gevallen komt de UPN van uw AAD-account overeen met het e-mailadres.
+Gebruikers melden zich aan met een werk- of schoolaccount. Dit is uw organisatieaccount. Als u zich hebt geregistreerd voor een Office 365-aanbieding en niet het echte e-mailadres van uw werk hebt opgegeven, kan dit eruit zien als nancy@contoso.onmicrosoft.com. Uw account wordt binnen een cloudservice opgeslagen in een tenant van Azure Active Directory (AAD). In de meeste gevallen komt de UPN van uw AAD-account overeen met het e-mailadres.
 
 ## <a name="authentication-to-on-premises-data-sources"></a>Verificatie voor on-premises gegevensbronnen
 Er worden opgeslagen referenties gebruikt voor verbinding met on-premises gegevensbronnen vanuit de gateway met uitzondering van Analysis Services. Ongeacht de individuele gebruiker, worden de opgeslagen referenties gebruikt om verbinding te maken.
@@ -109,7 +110,7 @@ Hoe dichter de gateway zich bij de server bevindt, des te sneller de verbinding.
 Nadat de gateway is geïnstalleerd, kunt u de gegevensbronnen voor de gateway gaan maken. U kunt gegevensbronnen toevoegen via het scherm **Gateways beheren**. Zie voor meer informatie deze artikelen over het beheren van gegevensbronnen:
 
 [Manage your data source - Analysis Services](service-gateway-enterprise-manage-ssas.md) (Gegevensbron beheren - Analysis Services)  
-[Manage your data source - SAP HANA](service-gateway-enterprise-manage-sap.md) (Gegevensbron beheren - SAP HANA)  
+[Manage your data source - SAP HANA](service-gateway-enterprise-manage-sap.md) (Uw gegevensbron beheren - SAP HANA)  
 [Manage your data source - SQL Server](service-gateway-enterprise-manage-sql.md) (Gegevensbron beheren - SQL Server)  
 [Manage your data source - Oracle](service-gateway-onprem-manage-oracle.md) (Gegevensbron beheren - Oracle)  
 [Manage your data source - Import/Scheduled refresh](service-gateway-enterprise-manage-scheduled-refresh.md) (Gegevensbron beheren - importeren/geplande vernieuwing)  

@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 553e3c417f79d6d1c5a45737ad370d74f72177ca
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 5a78481376d679025fe3ac8929dff8756eb61257
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Tips en trucs voor kaartvisualisaties in Power BI
 Power BI biedt integratie met Bing Kaarten om standaard kaartcoördinaten te bieden (een proces dat geocodering wordt genoemd) zodat u kaarten kunt maken. In beide worden algoritmen gebruikt voor het identificeren van de juiste locatie, maar soms is het een schatting. Als pogingen om de kaartvisualisatie te maken in Power BI mislukken, wordt de hulp van Bing Kaarten ingeroepen. 

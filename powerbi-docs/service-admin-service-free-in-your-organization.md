@@ -17,11 +17,12 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/05/2017
 ms.author: maghan
-ms.openlocfilehash: ec039ab195e2112654ac7f3057d54ecb60c21058
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Administration
+ms.openlocfilehash: ec266cd2631797a1bbbef686824f78b0f1e3e14a
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-free-in-your-organization"></a>Power BI (gratis) voor uw organisatie
 In dit artikel wordt behandeld hoe de aanbieding van Power BI (gratis) binnen uw organisatie kan worden gebruikt. Een organisatie betekent dat u een tenant hebt en gebruikers en services in die tenant kunt beheren. Als beheerder kunt u de toewijzing van licenties beheren of kunt u toestaan dat gebruikers zich registreren als een persoon. Ook komt de licentie voor Power BI (gratis) aan bod en wordt beschreven hoe u de persoonlijke registratie kunt beheren.

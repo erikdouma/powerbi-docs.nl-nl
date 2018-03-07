@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/05/2017
 ms.author: davidi
-ms.openlocfilehash: dcb262d110025f2c36c4029227b353132c4dafb6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+LocalizationGroup: Connect to data
+ms.openlocfilehash: 7d203668f3fbb3f9a50af50280d68d2fadf15f64
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Koppelingen van OneDrive voor Bedrijven gebruiken in Power BI Desktop
 Veel gebruikers hebben Excel-werkmappen opgeslagen op hun OneDrive voor Bedrijven-station. Het zou mooi zijn deze met Power BI Desktop te gebruiken. Met **Power BI Desktop** kunt u onlinekoppelingen voor **Excel-bestanden** gebruiken die in **OneDrive voor Bedrijven** zijn opgeslagen en waar u rapporten en visuele elementen mee kunt maken. U kunt een **OneDrive voor Bedrijven** groepsaccount of een individueel account van **OneDrive voor Bedrijven** gebruiken.
@@ -37,7 +38,7 @@ Voor een onlinekoppeling van **OneDrive voor Bedrijven** zijn een paar specifiek
    > 
    
    ![](media/desktop-use-onedrive-business-links/odb-links_02.png)
-2. In **Excel** selecteert u **Bestand > Info** en vervolgens de koppeling boven de knop **Werkmap beveiligen**. Selecteer **Koppeling naar het Klembord kopiëren**.
+2. In **Excel** selecteert u **Bestand > Info** en vervolgens de koppeling boven de knop **Werkmap beveiligen**. Selecteer **Koppeling naar het Klembord kopiëren** (mogelijk staat in uw versie **Pad naar het Klembord kopiëren**).
    
    ![](media/desktop-use-onedrive-business-links/odb-links_03.png)
 

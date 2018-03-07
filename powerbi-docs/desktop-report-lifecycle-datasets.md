@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 8ef8ffda62fbaedae6f98a1ec98b919c42402185
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Connect to data
+ms.openlocfilehash: fff56b220579a19505337f2ac9697cd3e61e83cb
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Verbinding maken met gegevenssets in de Power BI-service vanuit Power BI Desktop
 U kunt een live verbinding maken met een gedeelde gegevensset in de Power BI-service en veel verschillende rapporten maken op basis van dezelfde gegevensset. Dit betekent dat u uw perfecte gegevensmodel in Power BI Desktop kunt maken en dit publiceren naar de Power BI-service, waarna u en anderen meerdere verschillende rapporten (in afzonderlijke .pbix-bestanden) kunnen maken op basis van hetzelfde algemene gegevensmodel. Deze functie heet **Liveverbinding met Power BI-service**.

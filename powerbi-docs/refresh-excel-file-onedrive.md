@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 0ba7acfd620f589e24cc66ad96b5f0fbb1996107
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+LocalizationGroup: Data refresh
+ms.openlocfilehash: c20ba2a33a88ba8c6ab27cf60b02babf3ebb4cad
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>Een gegevensset vernieuwen die is gemaakt van een Excel-werkmap in OneDrive of SharePoint Online
 U kunt Excel-werkmappen importeren die zijn opgeslagen op uw lokale computer of in de cloudopslag, zoals OneDrive voor Bedrijven of SharePoint Online. In dit artikel worden de voordelen van het gebruik van cloudopslag voor uw Excel-bestanden beschreven. Zie [Gegevens ophalen uit Excel-werkmapbestanden](service-excel-workbook-files.md) voor meer informatie over het importeren van Excel-bestanden in Power BI.
@@ -90,12 +91,12 @@ Selecteer vervolgens in **Laden naar** de optie **Deze gegevens toevoegen aan he
 Geen enkel probleem. Wanneer u Power Pivot gebruikt om verbinding te maken met een on-premises of online gegevensbron en om gegevens hieruit op te halen, worden de gegevens automatisch in het gegevensmodel geladen.
 
 ## <a name="how-do-i-schedule-refresh"></a>Hoe kan ik een vernieuwing plannen?
-Wanneer u een vernieuwingsschema instelt, maakt Power BI rechtstreeks verbinding met de gegevensbronnen met behulp van de verbindingsgegevens en referenties in de gegevensset om eventuele bijgewerkte gegevens op te halen en in de gegevensset te laden. Alle visualisaties in rapporten en dashboards die zijn gebaseerd op die gegevensset in de Power BI-service worden ook bijgewerkt.
+Wanneer u een vernieuwingsschema instelt, maakt Power BI rechtstreeks verbinding met de gegevensbronnen met behulp van de verbindingsgegevens en referenties in de gegevensset om eventuele bijgewerkte gegevens op te halen en in de gegevensset te laden. Alle visualisaties in rapporten en dashboards die zijn gebaseerd op die gegevensset in de Power BI-service, worden ook bijgewerkt.
 
 Zie [Het plannen van de vernieuwing configureren](refresh-scheduled-refresh.md) voor meer informatie over het instellen van de planning voor een vernieuwing.
 
 ## <a name="when-things-go-wrong"></a>Wanneer het fout gaat
-Als er iets fout gaat, komt dit meestal doordat Power BI niet kan worden aangemeld bij gegevensbronnen of doordat de gegevensset verbinding maakt met een on-premises gegevensbron terwijl de gateway offline is. Controleer eerst of Power BI kan worden aangemeld bij gegevensbronnen. Als het wachtwoord voor aanmelding bij een gegevensbron is veranderd of als Power BI wordt afgemeld bij een gegevensbron, meldt u zich eerst opnieuw aan bij de gegevensbronnen met de gegevensbronreferenties.
+Als er iets fout gaat, komt dit meestal doordat Power BI niet kan worden aangemeld bij gegevensbronnen of doordat de gegevensset verbinding maakt met een on-premises gegevensbron terwijl de gateway offline is. Controleer eerst of Power BI kan worden aangemeld bij gegevensbronnen. Als het wachtwoord voor aanmelding bij een gegevensbron is veranderd, of als Power BI wordt afgemeld bij een gegevensbron, probeert u eerst om opnieuw aan te melden bij de gegevensbronnen met de gegevensbronreferenties.
 
 Laat de optie **Mij een e-mail met melding voor mislukte vernieuwing sturen** ingeschakeld. U wilt immers direct op de hoogte worden gesteld als een geplande vernieuwing is mislukt.
 
@@ -103,7 +104,7 @@ Laat de optie **Mij een e-mail met melding voor mislukte vernieuwing sturen** in
 \* Vernieuwen wordt niet ondersteund voor OData-feeds waarmee vanuit Power Pivot verbinding wordt gemaakt en waaruit gegevens worden opgehaald. Wanneer u een OData-feed als gegevensbron gebruikt, moet u Power Query gebruiken.
 
 ## <a name="troubleshooting"></a>Probleemoplossing
-Soms gaat het vernieuwen van gegevens niet zoals u verwacht. Meestal komt dat door een probleem met een gateway. Raadpleeg de artikelen over het oplossen van problemen met gateways voor informatie over hulpprogramma's en bekende problemen.
+Soms gaat het vernieuwen van gegevens niet zoals u verwacht. Meestal komt dat door een probleem met een gateway. Zie de artikelen over het oplossen van problemen met de gateway voor informatie over hulpprogramma's en bekende problemen.
 
 [Problemen met de on-premises gegevensgateway oplossen](service-gateway-onprem-tshoot.md)
 

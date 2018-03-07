@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: b75ea1028694a9dab32073ce70180e61798d7d28
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 02b8c2e8ed9a8a4ca0c8aaf9848699f3ca3c24c8
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Verbinding maken met Project "Madeira" met behulp van Power BI
 U kunt eenvoudig inzicht krijgen in uw Project "Madeira"-gegevens met Power BI en het Project "Madeira"-inhoudspakket. Met Power BI kunt u uw gegevens ophalen, zowel verkoopgegevens als financiële gegevens, en vervolgens een out-of-box-dashboard en rapporten bouwen op basis van die gegevens.
@@ -106,8 +107,8 @@ Als deze fout wordt weergegeven nadat u uw Project 'Madeira'-URL hebt ingevoerd,
 
 **'Aanmelden mislukt'** Als er een fout wordt weergegeven dat het aanmelden is mislukt wanneer u zich probeert aan te melden voor het dashboard met uw Project "Madeira"-gegevens, kan dit een van de volgende oorzaken hebben:  
 
-    - Het account dat u gebruikt, heeft geen rechten om de Project "Madeira"-gegevens van uw account te lezen. Controleer uw gebruikersaccount in Project "Madeira" en bekijk of u de juiste webservicetoegangssleutel hebt gebruikt als wachtwoord. Probeer het vervolgens opnieuw.  
-    - Het Project "Madeira"-exemplaar waarmee u probeert verbinding te maken, heeft geen geldig SSL-certificaat. In dit geval ziet u een gedetailleerde foutmelding (kan geen vertrouwde SSL-relatie tot stand brengen). Houd er rekening mee dat zelfondertekende certificaten niet worden ondersteund.  
+   - Het account dat u gebruikt, heeft geen rechten om de Project "Madeira"-gegevens van uw account te lezen. Controleer uw gebruikersaccount in Project "Madeira" en bekijk of u de juiste webservicetoegangssleutel hebt gebruikt als wachtwoord. Probeer het vervolgens opnieuw.  
+   - Het Project "Madeira"-exemplaar waarmee u probeert verbinding te maken, heeft geen geldig SSL-certificaat. In dit geval ziet u een gedetailleerde foutmelding (kan geen vertrouwde SSL-relatie tot stand brengen). Houd er rekening mee dat zelfondertekende certificaten niet worden ondersteund.  
 
 **'Oeps'** Als er een dialoogvenster met de foutmelding 'Oeps' wordt weergegeven nadat u het dialoogvenster voor verificatie hebt doorgegeven, wordt dit meestal veroorzaakt door een probleem bij het verbinden met de gegevens voor het inhoudspakket. Controleer of de URL het patroon heeft dat eerder is aangegeven:  
     https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')
