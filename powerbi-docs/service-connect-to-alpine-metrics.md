@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: 8f821ce7081f341f0614ea7c8e3a006adabf3e4f
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 2c7072cca04033242ee9b07f0f3c1f82160cb332
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-alpine-metrics-sales-predictions-with-power-bi"></a>Verbinding met de verkoopprognoses van Alpine Metrics maken via Power BI
 Alpine Metrics voorziet in geavanceerde procesoptimalisatie van voorspellende verkoop in de cloud en op aanvraag voor grote en kleine verkooporganisaties. Het Alpine Metrics Sales Predictions-inhoudspakket voor Power BI bevat metrische gegevens over bijvoorbeeld de potentiële verkopen en risico's, waardoor u een beter inzicht in de toekomst van uw bedrijf krijgt. 

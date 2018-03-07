@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 8b1efc64dc471bafa410f41c94f7e06d638fe9e0
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 8074845fc2f48ba8b06134cfefcbf8f15ace5350
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="copy-and-paste-a-visualization-in-power-bi-service-and-power-bi-desktop"></a>Een visualisatie in een rapport in de Power BI-service en Power BI Desktop kopiëren en plakken
 Voor het kopiëren en plakken van een visualisatie hebt u bewerkmachtigingen voor het rapport nodig. In de Power BI-service betekent dit het openen van het rapport in de [bewerkweergave](service-reading-view-and-editing-view.md).
@@ -32,7 +33,7 @@ Voor het kopiëren en plakken van een visualisatie hebt u bewerkmachtigingen voo
    ![](media/power-bi-visualization-copy-paste/copypasteviznew.gif)
 
 ### <a name="next-steps"></a>Volgende stappen
-Meer informatie over [visualisaties in Power BI-rapporten](power-bi-report-visualizations.md) (Engelstalig)
+Meer informatie over [visualisaties in Power BI-rapporten](power-bi-report-visualizations.md)
 
 [Power BI - basisconcepten](service-basic-concepts.md)  
 

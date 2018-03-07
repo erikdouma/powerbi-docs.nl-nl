@@ -1,13 +1,13 @@
 ## <a name="list-of-available-data-source-types"></a>Lijst met beschikbare typen gegevensbronnen
 | **Gegevensbron** | **Live/DirectQuery** | **Door gebruiker geconfigureerde handmatige of geplande vernieuwing** |
 | --- | --- | --- | --- |
-| Amazon Redshift |Ja |Ja |
-| Tabel van Analysis Services |Ja |Ja |
+| Analysis Services tabellair |Ja |Ja |
 | Multidimensionale database van Analysis Services |Ja |Ja |
 | Bestand |Nee |Ja |
 | Map |Nee |Ja |
 | IBM DB2 |Nee |Ja |
 | IBM Informix-database |Nee |Ja |
+| IBM Netezza |Ja |Ja |
 | Impala |Ja |Ja |
 | MySQL |Nee |Ja |
 | OData |Nee |Ja |

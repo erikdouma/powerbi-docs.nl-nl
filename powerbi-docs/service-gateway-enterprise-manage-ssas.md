@@ -17,11 +17,12 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 72445988ff4080b7c24f09f797f2038b957631ef
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Gateways
+ms.openlocfilehash: 6ce9a6d962098b3f40c351d0319c4b7908f4e4f7
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Uw gegevensbron beheren - Analysis Services
 Als u de on-premises gegevensgateway hebt geïnstalleerd, dient u gegevensbronnen toevoegen die kunnen worden gebruikt met die gateway. Dit artikel bespreekt het werken met gateways en gegevensbronnen. U kunt de Analysis Services-gegevensbron gebruiken voor zowel geplande vernieuwing als voor liveverbindingen.

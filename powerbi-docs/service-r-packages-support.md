@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 5904910bc0bca9bc69962263a0e77b8597dab370
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Connect to data
+ms.openlocfilehash: 67b4e6420177d2b268838b3052e29f230025cfb8
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>R-pakketten in Power BI-service
 U kunt de krachtige [programmeertaal R](https://www.r-project.org/) gebruiken om visuals te maken in Power BI-service. Er worden veel R-pakketten ondersteund in de Power BI-service (en dit worden er steeds meer), maar sommige pakketten ook niet.
@@ -34,7 +35,7 @@ Ondersteunde R-pakketten voor de **Power BI-service** vindt u in de volgende sec
 ## <a name="requirements-and-limitations-of-r-packages"></a>Vereisten en beperkingen van R-pakketten
 Er zijn een paar vereisten en beperkingen voor R-pakketten:
 
-* De Power BI-service ondersteunt voor het grootste deel R-pakketten met gratis en open source-softwarelicenties zoals GPL-2, GPL 3, MIT +, enzovoort.
+* De Power BI-service ondersteunt vrij wel alle R-pakketten met gratis en open source-softwarelicenties zoals GPL-2, GPL 3, MIT +, enzovoort.
 * De Power BI-service ondersteunt pakketten die zijn gepubliceerd in CRAN. De service biedt geen ondersteuning voor persoonlijke of aangepaste R-pakketten. We adviseren gebruikers om hun persoonlijke pakketten beschikbaar te maken op CRAN en dan pas een aanvraag te versturen om het pakket beschikbaar te maken in de Power BI-service.
 * Voor **Power BI Desktop** zijn er twee verschillende R-pakketten:
   

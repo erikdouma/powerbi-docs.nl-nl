@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 7ea0fbf09196af9ffecaf5ae54ea0754fdd44a0b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+LocalizationGroup: Share your work
+ms.openlocfilehash: 00ddec3dbf4087935a7c3583138dabb2a83f0ae5
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Inleiding tot organisatie-inhoudspakketten in Power BI
 > [!NOTE]
@@ -85,5 +86,5 @@ Alle distributiegroepsleden beschikken over dezelfde machtigingen voor de gegeve
 * [Organisatie-inhoudspakketten maken en publiceren](service-organizational-content-pack-create-and-publish.md)
 * [Een app maken en distribueren in Power BI](service-create-distribute-apps.md) 
 * [Power BI - basisconcepten](service-basic-concepts.md)
-* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

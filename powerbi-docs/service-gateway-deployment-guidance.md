@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 3caf9f8aef802e8423f6a3940e55aba99331b912
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+LocalizationGroup: Gateways
+ms.openlocfilehash: 992c3cbeb9899a784cc8df9fdca9a29f57aa7e81
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Richtlijnen voor het implementeren van een gegevensgateway voor Power BI
 Dit artikel bevat richtlijnen en overwegingen voor het implementeren van een gegevensgateway in uw netwerkomgeving. Een **gateway** is software die toegang mogelijk maakt tot gegevens die zich bevinden in een particulier, on-premises netwerk, waarna deze later kunnen worden gebruikt in een cloudservice zoals Power BI. In dit artikel vindt u stapsgewijze instructies en richtlijnen voor de implementatie van een **on-premises gegevensgateway**.

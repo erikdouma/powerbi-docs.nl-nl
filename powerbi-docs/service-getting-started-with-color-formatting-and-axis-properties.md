@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 04b9a745d3969ab42c2a02c9b3cc28a65cd4d69c
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 1c6698f4e85dcbf41b79bf4289890b2e60365254
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="getting-started-with-color-formatting-and-axis-properties"></a>Aan de slag met kleuropmaak en aseigenschappen
 In **Power BI** kunt u de kleur wijzigen van gegevensreeksen, gegevenspunten en zelfs van de achtergrond van visualisaties. U kunt ook de weergave van de x-as en y-as bepalen, zodat dat u volledige controle hebt over de manier waarop uw dashboards en rapporten worden weergegeven.

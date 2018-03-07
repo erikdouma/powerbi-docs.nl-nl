@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
 ms.author: maghan
-ms.openlocfilehash: 7698a1207f19382430fb8e225543b32b6aebcd49
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Administration
+ms.openlocfilehash: 34625c6c093e6ad4255b6e9e153c84d4cb3881d4
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-archived-workspace"></a>Gearchiveerde Power BI-werkruimte
 Met Power BI kan iedereen zich aanmelden en de service binnen een paar minuten gaan gebruiken.  De IT-afdeling van uw organisatie kan er later voor kiezen om het beheer van Power BI over te nemen voor gebruikers in uw organisatie.  Als deze overname plaatsvindt, profiteert u van centraal beheer van gebruikers en machtigingen in uw organisatie en kunt u mogelijk profiteren van gestroomlijnde aanmelding met dezelfde aanmeldgegevens (gebruikersnaam en wachtwoord) die u ook voor andere services in uw organisatie gebruikt. 

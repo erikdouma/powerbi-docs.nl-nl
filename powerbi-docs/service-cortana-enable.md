@@ -13,11 +13,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: b18157f28dcaf2e9b130bdc3bd5547312e45a4f9
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 10faf7b20c91b0c709df6783152ab55d0e6c958c
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>Cortana inschakelen voor toegang tot Power BI-rapporten (en de onderliggende gegevenssets)
 U hebt de [inleiding tot Cortana en Power BI](service-cortana-intro.md) gelezen (als dat niet het geval is, kunt u deze beter eerst lezen en later terugkomen). En nu wilt u het zelf proberen.  Voordat u in Cortana vragen in de natuurlijke taal kunt stellen en antwoorden kunt krijgen uit opgeslagen gegevens in Power BI-***rapporten***, moet er aan enkele vereisten zijn voldaan. U moet in het bijzonder het volgende doen.

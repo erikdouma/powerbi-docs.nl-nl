@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: ec1bd6b8edbf77c7c9d0d7af069e243d8f96c0bd
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+LocalizationGroup: Create reports
+ms.openlocfilehash: cb23034c207bd272f716e8074bb3702ea30e893a
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="sort-by-column-in-power-bi-desktop"></a>Op kolom sorteren in Power BI Desktop
 In **Power BI Desktop** en de **Power BI-service** kunt u de weergave van een visueel element wijzigen door deze op andere gegevensvelden te sorteren. Als u de sortering van een visueel element wijzigt, kunt u de informatie markeren die u wilt overbrengen en ervoor zorgen dat het visuele element de trend (of de nadruk) die u wilt overbrengen weergeeft.

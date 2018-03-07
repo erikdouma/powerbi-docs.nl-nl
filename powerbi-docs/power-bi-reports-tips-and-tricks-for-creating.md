@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 2d82cee4a825be9c38b3545210e182924147c0f3
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+LocalizationGroup: Reports
+ms.openlocfilehash: 4ad78f3c776fcb5aa44332e23fdf5a14531b2bdf
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="tips-for-creating-stunning-reports"></a>Tips voor het maken van geweldige rapporten
 Er is weinig verschil tussen de Power BI-service en Power BI Desktop als het gaat om het maken van rapporten en het werken ermee. Dit betekent dat de meeste van deze koppelingen voor beide programma's van toepassing zijn.

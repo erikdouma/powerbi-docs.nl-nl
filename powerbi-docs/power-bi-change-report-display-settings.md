@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: mihart
-ms.openlocfilehash: a1affeff46b67d89939b41ca76b4693cbc4ede33
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+LocalizationGroup: Reports
+ms.openlocfilehash: 9ec589655a3dc9b3e19def76cee2f20c48a512b2
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="change-the-size-of-a-report-page-tutorial"></a>De grootte van een rapportpagina wijzigen (zelfstudie)
 In het [vorige artikel en de video](power-bi-report-display-settings.md) hebt u twee verschillende manieren gezien om de paginaweergave in Power BI-rapporten te bepalen: **Weergave** en **Paginagrootte**. Paginaweergave en paginagrootte zijn beschikbaar in Power BI-service en Power BI Desktop, welke bijna identiek zijn qua uiterlijk en functioneren, maar voor deze zelfstudie maken we gebruik van Power BI-service.

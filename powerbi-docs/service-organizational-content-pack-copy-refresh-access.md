@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 246d9aaf2496a99300787d496047607587e393b9
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+LocalizationGroup: Share your work
+ms.openlocfilehash: 328edd6f7bc1d7e0e2550eff2c34b97b5fd6442d
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>Organisatie-inhoudspakketten: kopiëren, vernieuwen en toegang verkrijgen
 > [!NOTE]
@@ -58,5 +59,5 @@ Zie [Organisatie-inhoudspakketten beheren, bijwerken en verwijderen](service-org
 ## <a name="next-steps"></a>Volgende stappen
 * [Inleiding tot organisatie-inhoudspakketten](service-organizational-content-pack-introduction.md)
 * [Een groep maken in Power BI](service-create-distribute-apps.md)
-* Nog vragen? [Probeer de Power BI-community](http://community.powerbi.com/)
+* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

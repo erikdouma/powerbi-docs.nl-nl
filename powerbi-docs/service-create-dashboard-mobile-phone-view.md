@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: fca163588801633ad3eac227ceea84be17089713
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+LocalizationGroup: Dashboards
+ms.openlocfilehash: babc9f97ed8c45c2cb9ac994d881941d03629676
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="create-a-view-of-a-power-bi-dashboard-optimized-for-mobile-phones"></a>Een weergave van een Power BI-dashboard maken die is geoptimaliseerd voor mobiele telefoons
 Wanneer u dashboards in de mobiele Power BI-app op een telefoon weergeeft, ziet u dat de dashboardtegels achter elkaar worden weergegeven en allemaal dezelfde grootte hebben. In de Power BI-service kunt u een aangepaste weergave voor uw eigen dashboards maken, met name voor telefoons.
@@ -65,5 +66,5 @@ Als u de telefoon draait, wordt het dashboard weergegeven zoals in de service, n
 ## <a name="next-steps"></a>Volgende stappen
 * [Rapporten maken die zijn geoptimaliseerd voor de mobiele Power BI-apps](desktop-create-phone-report.md)
 * [Responsieve visuals maken die zijn geoptimaliseerd voor elke grootte](desktop-create-responsive-visuals.md)
-* Nog vragen? [Misschien dat de Power Bi-community het antwoord weet](http://community.powerbi.com/)
+* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 
