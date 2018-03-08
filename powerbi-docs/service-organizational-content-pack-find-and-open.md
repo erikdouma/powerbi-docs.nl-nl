@@ -17,15 +17,16 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 56ee1279ff33fd8cd016443d4c615edc71dc7f55
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+LocalizationGroup: Share your work
+ms.openlocfilehash: 56766f6b2170a6bc7d22d1b9581db2d3bde441ad
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>Een organisatie-inhoudspakket zoeken en hier verbinding mee maken
 > [!NOTE]
-> Hebt u al iets over de nieuwe *apps* gehoord? Apps zijn de nieuwe manier om de inhoud naar grote doelgroepen te distribueren in Power BI. U kunt het beste apps gebruikt in plaats van organisatie-inhoudspakketten of alleen-lezenwerkruimten gebruiken. Meer [informatie over apps](service-install-use-apps.md).
+> Hebt u al iets over de nieuwe *apps* gehoord? Apps zijn de nieuwe manier om inhoud naar grote doelgroepen te distribueren in Power BI. U kunt het beste apps in plaats van organisatie-inhoudspakketten of alleen-lezenwerkruimten gebruiken. Meer [informatie over apps](service-install-use-apps.md).
 > 
 > 
 
@@ -57,5 +58,5 @@ Als de eigenaar van het inhoudspakket het pakket wijzigt en:
 ## <a name="next-steps"></a>Volgende stappen
 * [Inleiding tot organisatie-inhoudspakketten](service-organizational-content-pack-introduction.md)  
 * [Een app maken en distribueren in Power BI](service-create-distribute-apps.md)
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/).
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 
