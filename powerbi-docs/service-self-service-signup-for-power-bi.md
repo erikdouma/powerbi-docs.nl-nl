@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/09/2017
+ms.date: 03/02/2018
 ms.author: maghan
 LocalizationGroup: Get started
-ms.openlocfilehash: ccd3a42a6cbcc716683b6da536ca2ecdacc11aaf
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b098c87796306bedb8f9da43971d093f464dd4bd
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Registreren voor Power BI als afzonderlijke gebruiker
 Lees hoe u zich registreert voor Power BI en aan de slag kunt met rapporten en visualisaties.
@@ -40,23 +40,24 @@ Als u deel uitmaakt van een bestaande organisatie die Office 365 gebruikt, kunt 
 
 > [!NOTE]
 > Als u deel uitmaakt van een organisatie, is de functie voor afzonderlijke aanmelding mogelijk uitgeschakeld. Zie [Afzonderlijke aanmelding is uitgeschakeld](#individual-sign-up-has-been-turned-off) voor meer informatie als u een foutmelding krijgt dat deze functie is uitgeschakeld.
-> 
-> 
+>
 
-## <a name="what-you-need-to-sign-up"></a>Wat u nodig hebt om u te registreren
-Als u zich wilt registreren voor Power BI, moet u een zakelijke e-mailadres hebben. Een persoonlijke e-mailadres werkt niet met de Power BI-service.
+## <a name="what-you-need-to-sign-up"></a>Wat hebt u nodig om te registreren?
 
-<a name="what-email-address-can-be-used-with-power-bi"/>
+Als u zich wilt registreren voor Power BI, hebt u een zakelijk e-mailadres nodig. Een persoonlijk e-mailadres werkt niet bij het registreren voor Power BI.
 
 ### <a name="what-email-address-can-be-used-with-power-bi"></a>Welk e-mailadres kan worden gebruikt met Power BI?
-Power BI is vereist dat u een e-mailadres van uw werk, of school, gebruikt bij de registratie. Power BI biedt geen ondersteuning voor e-mailadressen die worden geleverd door e-mailservices voor consumenten of door telecomproviders. Het betreft onder andere deze e-mailadressen: outlook.com, hotmail.com en gmail.com.
+Power BI is vereist dat u een e-mailadres van uw werk, of school, gebruikt bij de registratie. U kunt niet registreren voor Power BI met e-mailadressen die worden geleverd door e-mailservices voor consumenten of door telecomproviders. Het betreft onder andere deze e-mailadressen: outlook.com, hotmail.com en gmail.com.
 
 Als u zich probeert te registreren met een persoonlijk e-mailadres, wordt u gevraagd om een e-mailadres van uw werk of school te gebruiken.
 
 > [!NOTE]
-> Power BI ondersteunt op dit moment geen selfserviceregistratie voor adressen met de extensie .gov of .mil. Neem contact op met uw Office 365-beheerder.
-> 
-> 
+> U kunt registreren voor Power BI met .gov- of .mil-adressen. Lees [Uw Amerikaanse overheidsorganisatie registreren in de Power BI-service](https://docs.microsoft.com/en-us/power-bi/service-govus-signup) voor meer informatie.
+>
+
+> [!NOTE]
+> Nadat u zich heb geregistreerd, kunt u [gastgebruikers uitnodigen](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b) om inhoud te bekijken in uw Power BI-tenant met een elk e-mailadres inclusief persoonlijke accounts.
+>
 
 ## <a name="which-one-do-you-need"></a>Welke versie heb ik nodig?
 U kunt bepalen welke versie u nodig hebt door te kijken wat er bij elk licentietype wordt geleverd. Gratis gebruikers hebben toegang tot de meeste functionaliteit van de services, met uitzondering van de functies voor delen en samenwerking. Power BI Pro-gebruikers kunnen alle functies in de service gebruiken, maar dit is niet gratis. Als u geen plannen hebt om inhoud te delen, is de gratis versie waarschijnlijk een prima keuze. Meer informatie vindt u op de [pagina met prijzen van Power BI](https://powerbi.microsoft.com//pricing/).
@@ -141,7 +142,7 @@ In veel gevallen kunt u zich registreren voor Power BI door de bovenstaande stap
 
 | **Symptoom/foutbericht** | **Oorzaak en tijdelijke oplossing** |
 | --- | --- |
-| **Persoonlijk e-mailadres (bijvoorbeeld nancy@gmail.com)** U krijgt bij het aanmelden een bericht als het volgende: <br /><br /> *U hebt een persoonlijke e-mailadres ingevoerd. Voer uw zakelijke e-mailadres zodat we uw bedrijfsgegevens veilig kunnen opslaan.* <br /><br /> of <br /><br /> *Dat ziet eruit als een persoonlijke e-mailadres. Voer uw zakelijke e-mailadres in zodat we u kunnen koppelen aan anderen in uw bedrijf. En u hoeft zich geen zorgen te maken. We delen uw adres met niemand.* |Power BI biedt geen ondersteuning voor e-mailadressen die worden geleverd door e-mailservices voor consumenten of door telecomproviders. <br /><br /> U kunt de registratie alsnog proberen te voltooien door gebruik te maken van een e-mailadres dat is toegewezen door uw werk of school. <br /><br /> Als u zich nog steeds niet kunt registreren en u er geen bezwaar tegen hebt om een meer geavanceerde registratie te voltooien, kunt u zich [registreren voor een nieuw proefabonnement op Office 365 en gebruikt u dat e-mailadres voor de registratie](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). |
+| **Persoonlijk e-mailadres (bijvoorbeeld nancy@gmail.com)** U krijgt bij het aanmelden een bericht als het volgende: <br /><br /> *U hebt een persoonlijke e-mailadres ingevoerd. Voer uw zakelijke e-mailadres zodat we uw bedrijfsgegevens veilig kunnen opslaan.* <br /><br /> of <br /><br /> *Dat ziet eruit als een persoonlijke e-mailadres. Voer uw zakelijke e-mailadres in zodat we u kunnen koppelen aan anderen in uw bedrijf. En u hoeft zich geen zorgen te maken. We delen uw adres met niemand.* |Power BI biedt geen ondersteuning voor e-mailadressen die worden geleverd door e-mailservices voor consumenten of door telecomproviders. <br /><br /> U kunt de registratie alsnog proberen te voltooien door gebruik te maken van een e-mailadres dat is toegewezen door uw werk of school. <br /><br /> Als u zich nog steeds niet kunt registreren en u er geen bezwaar tegen hebt om een meer geavanceerde registratie te voltooien, kunt u zich [registreren voor een nieuw proefabonnement op Office 365 en gebruikt u dat e-mailadres voor de registratie](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). <br /><br /> Het gebruikersaccount uitnodigen als een [Azure B2B-gast](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b). |
 | **Selfserviceregistratie uitgeschakeld** U krijgt bij het aanmelden een bericht als het volgende: <br /><br /> *De registratie kan niet worden voltooid. Uw IT-afdeling heeft registratie voor Microsoft Power BI uitgeschakeld. Neem contact met ze op om de registratie te voltooien.* <br /><br /> of <br /><br /> *Dat ziet eruit als een persoonlijke e-mailadres. Voer uw zakelijke e-mailadres in zodat we u kunnen koppelen aan anderen in uw bedrijf. En u hoeft zich geen zorgen te maken. We delen uw adres met niemand.* |De IT-beheerder van uw organisatie heeft registratie via selfservice voor Power BI uitgeschakeld. <br /><br /> Om de registratie alsnog te voltooien, neemt u contact op met uw IT-afdeling en vraagt u of ze via de instructies op de onderstaande pagina bestaande gebruikers toestemming willen geven om zich te registreren voor Power BI en om nieuwe gebruikers toestemming te geven lid te worden van uw bestaande tenant. <br/><br/> Dit probleem kan ook optreden als u zich via een partner hebt geregistreerd voor Office 365. [Meer informatie](service-admin-syndication-partner.md) <br /><br /> [Power BI in uw organisatie](https://support.office.com/en-ca/article/Power-BI-in-your-Organization-d7941332-8aec-4e5e-87e8-92073ce73dc5#BKMK_HowCanIAllowO365Tenant) |
 | **E-mailadres is geen Office 365-id** U krijgt bij de registratie een bericht als het volgende: <br /><br /> *We kunnen u niet vinden op contoso.com.  Gebruikt u een andere id op het werk of school? <br /><br />Probeer u met die id aan te melden en als dat niet lukt, neemt u contact op met uw IT-afdeling.* |Uw organisatie gebruikt id's voor aanmelding bij Office 365 en andere Microsoft-services die verschillen van uw e-mailadres.  Bijvoorbeeld: uw e-mailadres is Nancy.Smith@contoso.com, maar uw id is nancys@contoso.com. <br /><br /> Om de registratie te voltooien, gebruikt u de id die uw organisatie u heeft toegewezen voor aanmelding bij Office 365 of andere Microsoft-services.  Als u die id niet weet, kunt u contact opnemen met uw IT-beheerder. <br /><br /> Als u zich nog steeds niet kunt registreren en u er geen bezwaar tegen hebt om een meer geavanceerde registratie te voltooien, kunt u zich [registreren voor een nieuw proefabonnement op Office 365 en gebruikt u dat e-mailadres voor de registratie](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). |
 
