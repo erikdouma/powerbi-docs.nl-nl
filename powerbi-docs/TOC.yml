@@ -664,11 +664,13 @@
           href: desktop-ssas-multidimensional.md
         - name: Verbinding met CSV-bestanden maken in Power BI Desktop
           href: desktop-connect-csv.md
-        - name: Verbinding met een Impala-database maken in Power BI Desktop (preview)
+        - name: Verbinding met Adobe Analytics maken in Power BI Desktop (preview)
+          href: desktop-connect-csv.md
+        - name: Verbinding met een Impala-database maken in Power BI Desktop
           href: desktop-connect-impala.md
-        - name: Verbinding met en OData-feed maken in Power BI Desktop
+        - name: Verbinding maken met een OData-feed in Power BI Desktop
           href: desktop-connect-odata.md
-        - name: Verbinding met een Amazon Redshift-database maken in Power BI Desktop (preview)
+        - name: Verbinding met een Amazon Redshift-database maken in Power BI Desktop
           href: desktop-connect-redshift.md
         - name: Verbinding met een webpagina maken vanuit Power BI Desktop
           href: desktop-connect-to-web.md
@@ -768,6 +770,8 @@
           href: desktop-slicers.md
         - name: Bladwijzers in Power BI
           href: desktop-bookmarks.md
+        - name: Aangepaste rapporttooltips maken (preview)
+          href: desktop-tooltips.md
         - name: Rapportthema's gebruiken
           href: desktop-report-themes.md
         - name: Snelle metingen gebruiken
