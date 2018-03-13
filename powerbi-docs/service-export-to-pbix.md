@@ -15,20 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 7c0bd2f342385f71fd91bb81a284ef41deb46169
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+LocalizationGroup: Reports
+ms.openlocfilehash: 0cda094f3104b32f9bad31bf5030e235eb7ce83d
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Een rapport vanuit de Power BI-service exporteren naar Desktop (preview-versie)
 In Power BI Desktop kunt u een rapport exporteren (ook wel *downloaden* genoemd) naar de Power BI-service door het rapport op te slaan en **Publiceren** te kiezen. U kunt ook de andere kant op exporteren en een rapport downloaden van de Power BI-service naar Desktop. De extensie voor bestanden die worden geëxporteerd in beide richtingen is *.pbix*.
 
 U moet rekening houden met enkele beperkingen en overwegingen; deze worden later in dit artikel besproken.
 
-![](media/service-export-to-pbix/power-bi-file-export.png)
+![Vervolgkeuzelijst Bestand](media/service-export-to-pbix/power-bi-file-export.png)
 
 ## <a name="download-the-report-as-a-pbix"></a>Het rapport downloaden als een .pbix-bestand
 Volg deze stappen om het .pbix-bestand te downloaden:
@@ -42,18 +43,18 @@ Volg deze stappen om het .pbix-bestand te downloaden:
    > 
 3. Terwijl het .pbix-bestand wordt gemaakt, wordt de voortgang weergegeven in een statusbanner. Wanneer het bestand klaar is, wordt u gevraagd om het .pbix-bestand te openen of op te slaan. De naam van het bestand komt overeen met de titel van het rapport.
    
-    ![](media/service-export-to-pbix/power-bi-save-pbix.png)
+    ![Openen, opslaan of annuleren](media/service-export-to-pbix/power-bi-save-pbix.png)
    
     U hebt nu de optie om het . pbix-bestand te openen in de Power BI-service (app.powerbi.com) of Power BI Desktop.     
 4. Als u het rapport direct in Desktop wilt openen, selecteert u **Openen**. Selecteer **Opslaan > Opslaan-als** om het bestand op een specifieke locatie op te slaan. Als u dat nog niet hebt gedaan, [installeert u Power BI Desktop](desktop-get-the-desktop.md).
    
     Wanneer u het rapport opent in Desktop, wordt mogelijk een waarschuwingsbericht weergegeven waarin staat dat sommige functies die beschikbaar zijn in het rapport van de Power BI-service mogelijk niet beschikbaar zijn in Desktop.
    
-    ![](media/service-export-to-pbix/power-bi-export-to-pbix_2.png)
+    ![Waarschuwingsvenster](media/service-export-to-pbix/power-bi-export-to-pbix_2.png)
 
 5. De rapporteditor in Desktop lijkt erg veel op de rapporteditor in Power BI-service.  
    
-    ![](media/service-export-to-pbix/power-bi-desktop.png)
+    ![Rapporteditor in Desktop](media/service-export-to-pbix/power-bi-desktop.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 Er zijn enkele belangrijke overwegingen en beperkingen met betrekking tot het downloaden (exporteren) van een *.pbix*-bestand van de Power BI-service.

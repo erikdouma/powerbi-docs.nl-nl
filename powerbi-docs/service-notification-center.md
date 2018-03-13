@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 430ff5ad86636d96ca693ff7fc1ac1bb0d16b5cc
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Dashboards
+ms.openlocfilehash: afa3753d04cfb74c2673d222a0b1e6b07a1f5118
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="power-bi-notifications"></a>Power BI-meldingen
 Het meldingencentrum is een sequentiële feed met informatie over uw Power BI-ervaring. Open het meldingencentrum om berichten te bekijken over nieuwe dashboards die met u zijn gedeeld, wijzigingen in uw groepsruimte, informatie over Power BI-gebeurtenissen en -vergaderingen, waarschuwingen die u hebt ingesteld en meer. U kunt [meldingen instellen in de Power BI-service](service-set-data-alerts.md), maar ook in de mobiele Power BI-apps.
@@ -34,13 +35,13 @@ Kijk hoe Amanda meldingen bekijkt die ze heeft ontvangen, haar meldingen beheert
 
 1. Wanneer u zich aanmeldt bij Power BI, worden alle nieuwe meldingen die naar u zijn verzonden terwijl u offline was, toegevoegd aan uw feed. Als u nieuwe meldingen hebt, wordt er een gele ballon met het aantal nieuwe items weergegeven in Power BI.
    
-   ![](media/service-notification-center/power-bi-new-notification.png)
+   ![Pictogram voor nieuwe melding](media/service-notification-center/power-bi-new-notification.png)
 2. Selecteer in de menubalk van Power BI het meldingenpictogram.
    
-   ![](media/service-notification-center/power-bi-notifications-icon.png)
+   ![Bovenste menubalk waarin meldingenpictogram is geselecteerd](media/service-notification-center/power-bi-notifications-icon.png)
 3. De nieuwste meldingen worden bovenaan weergegeven en ongelezen berichten worden gemarkeerd. Meldingen worden gedurende 90 dagen bewaard, tenzij u ze eerder verwijdert of de limiet van 100 berichten bereikt.
    
-   ![](media/service-notification-center/power-bi-notifications.png)
+   ![Meldingencentrum](media/service-notification-center/power-bi-notifications.png)
 4. Als u een melding wilt verwijderen selecteert u het X-pictogram.
 
 ### <a name="next-steps"></a>Volgende stappen

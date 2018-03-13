@@ -14,13 +14,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/06/2018
+ms.date: 02/22/2018
 ms.author: maggies
-ms.openlocfilehash: 23c52f7eb66e4e7b0683a2392f0fc60ad76ea243
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Share your work
+ms.openlocfilehash: d711e2276f2ac170ed54152d54c023261ca9c0bc
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Apps maken en publiceren met dashboards en rapporten in Power BI
 
@@ -94,7 +95,7 @@ Power BI maakt standaard een kleine gekleurde cirkel voor uw app met de initiale
      ![Aangepaste afbeelding](media/service-create-distribute-apps/power-bi-apps-image.png)
 
 ## <a name="publish-your-app"></a>Uw app publiceren
-Als de dashboards en rapporten in uw app-werkruimte klaar zijn, kunt u deze als een app publiceren. U hoeft niet alle rapporten en dashboards in de werkruimte te publiceren. U kunt ook alleen de items publiceren die gereed zijn. 
+Als de dashboards en rapporten in uw app-werkruimte klaar zijn, kunt u deze als een app publiceren. U hoeft niet alle rapporten en dashboards in de werkruimte te publiceren. U kunt ook alleen de items publiceren die gereed zijn.
 
 1. Kies in de lijstweergave van de werkruimte welke dashboards en rapporten u in de app wilt opnemen.
 
@@ -104,23 +105,23 @@ Als de dashboards en rapporten in uw app-werkruimte klaar zijn, kunt u deze als 
 
      ![Waarschuwing over bijbehorend dashboard](media/service-create-distribute-apps/power-bi-apps-report-warning.png)
 
-1. Selecteer de knop **App publiceren** in de rechterbovenhoek om het proces voor het delen van alle inhoud in de werkruimte te starten.
+2. Selecteer de knop **App publiceren** in de rechterbovenhoek om het proces voor het delen van alle inhoud in de werkruimte te starten.
    
      ![App publiceren](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
 
-2. Geef bij **Details** een beschrijving op om mensen te helpen de app te vinden. U kunt een achtergrondkleur instellen om de app te personaliseren.
+3. Geef bij **Details** een beschrijving op om mensen te helpen de app te vinden. U kunt een achtergrondkleur instellen om de app te personaliseren.
    
      ![App-details](media/service-create-distribute-apps/power-bi-apps-details.png)
 
-3. Bij **Inhoud** ziet u alle inhoud die wordt gepubliceerd als onderdeel van de app: alles wat u in de werkruimte hebt geselecteerd. U kunt ook de startpagina van de app instellen: het dashboard of rapport dat mensen als eerste zien wanneer ze naar uw app gaan. U kunt **Geen** kiezen. Vervolgens komen ze op een lijst van alle inhoud in de app te staan. 
+4. Bij **Inhoud** ziet u alle inhoud die wordt gepubliceerd als onderdeel van de app: alles wat u in de werkruimte hebt geselecteerd. U kunt ook de startpagina van de app instellen: het dashboard of rapport dat mensen als eerste zien wanneer ze naar uw app gaan. U kunt **Geen** kiezen. Vervolgens komen ze op een lijst van alle inhoud in de app te staan. 
    
      ![App-inhoud](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-4. Bepaal bij **Toegang** wie toegang tot de app heeft: ofwel iedereen in uw organisatie, of specifieke personen of Active Directory-beveiligingsgroepen. Als u toestemming hiervoor hebt, kunt u de app automatisch voor de ontvangers installeren.
+5. Bepaal bij **Toegang** wie toegang tot de app heeft: ofwel iedereen in uw organisatie, of specifieke personen of Active Directory-beveiligingsgroepen. Als u toestemming hiervoor hebt, kunt u de app automatisch voor de ontvangers installeren. U kunt deze instelling inschakelen in de [Power BI-beheerportal](#how-to-enable-pushing-apps). Meer overwegingen voor het [pushen van een app](#how-to-enable-pushing-apps).
 
     ![App-toegang](media/service-create-distribute-apps/power-bi-apps-access.png)
 
-5. Wanneer u **Voltooien** selecteert, wordt er een bevestigingsbericht weergegeven dat de app gereed is om te publiceren. U kunt in het dialoogvenster dat na het voltooien wordt weergegeven, de URL voor de directe koppeling naar de app kopiëren en verzenden naar de personen waarmee u de app hebt gedeeld.
+6. Wanneer u **Voltooien** selecteert, wordt er een bevestigingsbericht weergegeven dat de app gereed is om te publiceren. U kunt in het dialoogvenster dat na het voltooien wordt weergegeven, de URL voor de directe koppeling naar de app kopiëren en verzenden naar de personen waarmee u de app hebt gedeeld.
    
      ![App voltooien](media/service-create-distribute-apps/power-bi-apps-success.png)
 
@@ -138,7 +139,7 @@ Nadat u uw app hebt gepubliceerd, kunt u deze wijzigen of bijwerken. Het is gema
    
      De app-werkruimte is uw faseringsplek. Uw wijzigingen worden pas live wanneer u de app opnieuw publiceert. Dit betekent dat u wijzigingen kunt aanbrengen zonder dat dit de gepubliceerde apps beïnvloedt.  
  
-1. Ga terug naar de lijst met inhoud van de app-werkruimte en selecteer **App bijwerken**.
+3. Ga terug naar de lijst met inhoud van de app-werkruimte en selecteer **App bijwerken**.
    
      ![Knop App bijwerken](media/service-create-distribute-apps/power-bi-app-update-button.png)
 
@@ -147,6 +148,32 @@ Nadat u uw app hebt gepubliceerd, kunt u deze wijzigen of bijwerken. Het is gema
      ![Knop App bijwerken](media/service-create-distribute-apps/power-bi-app-update-complete.png)
 
 De mensen waarnaar u de app heeft gepubliceerd, zien automatisch de bijgewerkte versie van de app. 
+
+# <a name="automatically-install-apps-for-end-users"></a>Automatisch apps voor eindgebruikers installeren
+U kunt automatisch apps installeren voor eindgebruikers, zodat u eenvoudiger de juiste apps naar de juiste personen of groepen kunt distribueren.
+
+Apps leveren gegevens die uw eindgebruikers nodig hebben om hun werkzaamheden te kunnen uitvoeren. Nu kunt u deze apps automatisch installeren in de lijst met apps en hoeft u de apps niet meer te zoeken in Microsoft AppSource of een installatiekoppeling te volgen. Dit maakt het voor u eenvoudiger om standaardinhoud voor Power BI te implementeren voor uw gebruikers.
+
+## <a name="how-to-install-an-app-automatically-for-end-users"></a>Procedure voor het automatisch installeren van een app voor eindgebruikers
+Zodra de beheerder de functie heeft ingeschakeld, is voor app-uitgevers een nieuwe optie beschikbaar voor het **automatisch installeren van de app**. Wanneer het selectievakje is ***ingeschakeld*** en de app-uitgever **Voltooien** (of **App bijwerken** voor bestaande apps) selecteert, wordt de app gepusht naar alle gebruikers of groepen die zijn gedefinieerd de sectie **Machtigingen** van de app op het tabblad **Toegang**.
+
+![Het pushen van apps inschakelen](media/service-create-distribute-apps/power-bi-apps-access.png)
+
+## <a name="how-users-get-the-apps-that-were-pushed-to-them"></a>Hoe krijgen gebruikers de apps die naar ze zijn gepusht?
+Nadat u een app hebt gepusht, wordt deze automatisch weergegeven in de lijst met apps. U kunt de apps cureren die gebruikers of gebruikersrollen in uw organisatie paraat moeten hebben.
+
+![Het pushen van apps inschakelen](media/service-create-distribute-apps/power-bi-apps-left-nav.png)
+
+### <a name="considerations-for-automatically-installing-apps"></a>Overwegingen voor het automatisch installeren van apps
+Hier volgt een aantal zaken waarmee u rekening moet houden wanneer u apps naar eindgebruikers pusht:
+
+* Het automatisch installeren van apps voor gebruikers kan enige tijd in beslag nemen. De meeste apps worden direct voor gebruikers geïnstalleerd, maar het pushen van apps kan enige tijd duren.  Hoe lang dit duurt, is afhankelijk van het aantal items in de app en het aantal personen dat toegang tot de app heeft. U wordt aangeraden apps buiten bedrijfsuren te pushen en te zorgen dat er voldoende tijd voor de installatie is voordat gebruikers de app nodig hebben. Voordat u een algemene mededeling over de beschikbaarheid van de app verzendt, kunt u bij meerdere gebruikers controleren of de app is geïnstalleerd.
+
+* Vernieuw de browser. Voordat de gepushte app in de lijst Apps wordt weergegeven, kan het zijn dat gebruikers de browser moeten vernieuwen of moeten sluiten en vervolgens opnieuw moeten openen.
+
+* Als gebruikers de app niet direct in de lijst met apps zien, moeten ze de browser vernieuwen of sluiten en opnieuw openen.
+
+* Probeer gebruikers niet te overspoelen met apps. Zorg ervoor dat u niet te veel apps pusht, zodat gebruikers het gevoel hebben dat de vooraf geïnstalleerde apps ook daadwerkelijk nuttig voor ze zijn. Voor een goed afstemming van de timing is het verstandig te bepalen wie apps naar eindgebruikers mag pushen. U kunt in uw organisatie een contactpersoon toewijzen die verantwoordelijk is voor het pushen van apps naar eindgebruikers.
 
 ## <a name="unpublish-an-app"></a>Een app publiceren ongedaan maken
 Elk lid van een app-werkruimte kan het publiceren van de app ongedaan maken.
@@ -167,7 +194,7 @@ in deze release hebben we alle groepswerkruimten gewijzigd in app-werkruimten. U
 ### <a name="how-are-apps-different-from-organizational-content-packs"></a>Hoe verschillen apps van organisatie-inhoudspakketten?
 Apps zijn een verbetering en vereenvoudiging van inhoudspakketten, met enkele belangrijke verschillen. 
 
-* Nadat zakelijke gebruikers een inhoudspakket hebben geïnstalleerd, verliest deze de gegroepeerde identiteit; de groep is nu alleen nog een lijst met dashboards en rapporten afgewisseld met andere dashboards en rapporten. Apps behouden daarentegen ook na de installatie hun groepering en identiteit. Dit maakt het eenvoudig voor zakelijke gebruikers om ze in de toekomst opnieuw te openen.  
+* Nadat zakelijke gebruikers een inhoudspakket hebben geïnstalleerd, verliest deze de gegroepeerde identiteit; de groep is nu alleen nog een lijst met dashboards en rapporten afgewisseld met andere dashboards en rapporten. Apps behouden daarentegen ook na de installatie hun groepering en identiteit. Dit maakt het eenvoudig voor zakelijke gebruikers om ze in de toekomst opnieuw te openen.
 * U kunt meerdere inhoudspakketten vanuit elke werkruimte maken, maar een app heeft een een-op-eenrelatie met de werkruimte. We denken dat apps op deze manier gemakkelijker te begrijpen en op lange termijn te onderhouden zijn. Zie het planningsgedeelte van de Power BI-blog voor meer informatie over hoe we op dit vlak verbeteringen willen aanbrengen. 
 * We willen organisatie-inhoudspakketten op termijn afschaffen. Daarom raden we u aan vanaf nu apps te maken.  
 
@@ -179,5 +206,5 @@ Met apps kunt u een alleen-lezen-versie van uw app-werkruimte publiceren voor gr
 ## <a name="next-steps"></a>Volgende stappen
 * [Apps in Power BI installeren en gebruiken](service-install-use-apps.md)
 * [Power BI-apps voor externe services](service-connect-to-services.md)
+* [Power BI-beheerportal](https://docs.microsoft.com/en-us/power-bi/service-admin-portal)
 * Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
-

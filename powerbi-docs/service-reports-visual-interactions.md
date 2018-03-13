@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: a7c4db0044772c28a3cb7a62649de3001945246c
-ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
+LocalizationGroup: Reports
+ms.openlocfilehash: 7e2ef4a1ec49335a49e7f934a7606b2fe64f755c
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="visualization-interactions-in-a-power-bi-report"></a>Visualisatie-interacties in een Power BI-rapport
 Als u machtigingen hebt om een rapport te bewerken, kunt u **Visuele interacties** gebruiken om te wijzigen hoe visualisaties op een rapportpagina invloed op elkaar hebben. 
@@ -44,24 +45,24 @@ In dit artikel ziet u hoe u **Visuele interacties** gebruikt in de [bewerkingswe
 2. Toon de opties voor **Visuele interacties**.
     - Selecteer de vervolgkeuzelijst op de menubalk van rapporten in de Power BI-service.
 
-       ![](media/service-reports-visual-interactions/power-bi-visual-interaction.png)
+       ![Vervolgkeuzelijst Visuele interacties](media/service-reports-visual-interactions/power-bi-visual-interaction.png)
 
     - Selecteer in Desktop **Indeling > Interacties**.
 
-        ![](media/service-reports-visual-interactions/pbi-visual-interaction-desktop.png)
+        ![Opmaak gevolgd door Interacties selecteren](media/service-reports-visual-interactions/pbi-visual-interaction-desktop.png)
 
 3. Als u de besturingselementen voor interactie tussen visualisaties wilt inschakelen, selecteert u **Interacties bewerken**. Power BI voegt pictogrammen voor kruislings filteren en kruislings markeren toe aan alle andere visualisaties op de rapportpagina.
    
-    ![](media/service-reports-visual-interactions/power-bi-icons-on.png)
+    ![Rapport waarin Visuele interacties is ingeschakeld](media/service-reports-visual-interactions/power-bi-icons-on.png)
 3. Bepaal welke impact de geselecteerde visualisatie op de andere moet hebben.  Herhaal dit eventueel voor alle andere visualisaties op de rapportpagina.
    
-   * Als de visualisatie kruislings moet worden gefilterd, selecteert u het **filterpictogram** ![](media/service-reports-visual-interactions/pbi-filter-icon-outlined.png).
-   * Als de visualisatie kruislings moet worden gemarkeerd, selecteert u het **markeerpictogram** ![](media/service-reports-visual-interactions/pbi-highlight-icon-outlined.png).
-   * Als er niets hoeft te gebeuren, selecteert u het pictogram voor **geen impact** ![](media/service-reports-visual-interactions/pbi-noimpact-icon-outlined.png).
+   * Als de visualisatie kruislings moet worden gefilterd, selecteert u het **filterpictogram** ![Filterpictogram](media/service-reports-visual-interactions/pbi-filter-icon-outlined.png).
+   * Als de visualisatie kruislings moet worden gemarkeerd, selecteert u het **markeerpictogram** ![Markeerpictogram](media/service-reports-visual-interactions/pbi-highlight-icon-outlined.png).
+   * Als er niets hoeft te gebeuren, selecteert u het pictogram voor **geen impact** ![Pictogram voor geen impact](media/service-reports-visual-interactions/pbi-noimpact-icon-outlined.png).
 
 4. Als u besturingselementen voor analyseren wilt inschakelen, selecteert u **Analysefilters voor andere visuals**.  Wanneer u nu omlaag (of omhoog) gaat in een visualisatie, worden de andere visualisaties op de rapportpagina gewijzigd om uw huidige analyseselectie weer te geven. 
 
-   ![](media/service-reports-visual-interactions/drill2.gif)
+   ![Video van het inschakelen van besturingselementen voor analyseren](media/service-reports-visual-interactions/drill2.gif)
 
 ### <a name="next-steps"></a>Volgende stappen
 [How to use report filters](power-bi-how-to-report-filter.md) (Rapportfilters gebruiken)

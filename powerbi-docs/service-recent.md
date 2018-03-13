@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 103edc93dafb9615e08692965258ffc61905baf1
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 972e816dcd833b6ae0e7bd26b760952066aa5ac8
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="recent-content-in-power-bi-service"></a>**Recente** inhoud in Power BI-service
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 02/24/2018
 ## <a name="what-is-recent-content"></a>Wat is recente inhoud
 Recente inhoud zijn de laatste items die u hebt bezocht. Dit zijn maximaal 20 items.  Deze omvatten: dashboards, rapporten, apps en de werkmappen voor al uw werkruimten.
 
-![](media/service-recent/power-bi-recent-screen.png)
+![Venster Recente inhoud](media/service-recent/power-bi-recent-screen.png)
 
 Kijk hoe Amanda laat zien hoe inhoudslijsten voor **Recent** worden gevuld. Volg vervolgens de stapsgewijze instructies onder de video om het zelf te proberen.
 
@@ -40,11 +40,11 @@ Kijk hoe Amanda laat zien hoe inhoudslijsten voor **Recent** worden gevuld. Volg
 ## <a name="display-recent-content"></a>Recente inhoud weergeven
 Selecteer de pijl rechts van **Recent** in de linkernavigatiebalk voor een overzicht van de vijf meest recent bezochte items.  Hier kunt u recent geopende inhoud selecteren om te openen. Alleen de vijf meest recente items worden weergegeven.
 
-![](media/service-recent/power-bi-recent-flyout-new.png)
+![Flyout Recente inhoud](media/service-recent/power-bi-recent-flyout-new.png)
 
-Als u meer dan vijf onlangs bezochte items hebt, selecteert u **Alles weergeven** om het scherm Recent te openen (zie hieronder). U kunt ook **Recent** of het pictogram Recent ![](media/service-recent/power-bi-recent-icon.png) gebruiken in het linker navigatievenster.
+Als u meer dan vijf onlangs bezochte items hebt, selecteert u **Alles weergeven** om het scherm Recent te openen (zie hieronder). U kunt ook **Recent** of het pictogram Recent ![Pictogram Recent](media/service-recent/power-bi-recent-icon.png) gebruiken in het linkernavigatievenster.
 
-![](media/service-recent/power-bi-recent-list.png)
+![Alle recente inhoud weergeven](media/service-recent/power-bi-recent-list.png)
 
 Van hieruit kunt u met de inhoud werken zoals u zou doen op de afzonderlijke schermen van de [ **dashboards**](service-dashboards.md), [ **rapporten**](service-reports.md) en  **werkmappen** tabbladen en [ **apps** ](service-install-use-apps.md).
 

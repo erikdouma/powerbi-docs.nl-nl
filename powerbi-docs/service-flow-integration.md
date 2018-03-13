@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 527978a3559abdc7c46b08569af40b769e9054e4
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b38866b2a9989af529e89cd358f25716072c46bb
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow en Power BI
 
@@ -46,44 +46,44 @@ In deze taak gebruiken we een sjabloon om een eenvoudige stroom te maken die wor
 1. Meld u aan bij Microsoft Flow (flow.microsoft.com).
 2. Selecteer **Mijn stromen**.
    
-   ![](media/service-flow-integration/power-bi-my-flows.png)
+   ![Menubalk Flow](media/service-flow-integration/power-bi-my-flows.png)
 3. Selecteer **Maken op basis van sjabloon**.
    
-    ![](media/service-flow-integration/power-bi-template.png)
+    ![Menubalk Mijn stromen](media/service-flow-integration/power-bi-template.png)
 4. Gebruik het zoekvak om Power BI-sjablonen te zoeken en selecteer **Een e-mail versturen naar een doelgroep wanneer een waarschuwing met betrekking tot Power BI-gegevens wordt geactiveerd**.
    
-    ![](media/service-flow-integration/power-bi-flow-alert.png)
+    ![Zoekresultaten](media/service-flow-integration/power-bi-flow-alert.png)
 
 
 ### <a name="build-the-flow"></a>De stroom bouwen
 Deze sjabloon bevat één trigger (Power BI-gegevenswaarschuwing voor nieuwe Olympische medaille voor Ierland) en één actie (een e-mail versturen). Wanneer u een veld selecteert, wordt er dynamische inhoud in Flow weergegeven die u kunt opnemen.  In dit voorbeeld hebt we de waarde en de URL van de tegel opgenomen in de berichttekst.
 
-![](media/service-flow-integration/power-bi-template1.png)
+![Stroomsjabloon](media/service-flow-integration/power-bi-template1.png)
 
 1. Selecteer in de vervolgkeuzelijst met triggers een Power BI-gegevenswaarschuwing. Selecteer **Nieuwe medaille voor Ierland**. Zie [Gegevenswaarschuwingen in Power BI](service-set-data-alerts.md) als u wilt weten hoe een waarschuwing maakt.
    
-   ![](media/service-flow-integration/power-bi-trigger-flow.png)
+   ![Vervolgkeuzelijst met waarschuwingen](media/service-flow-integration/power-bi-trigger-flow.png)
 2. Voer één of meer geldige e-mailadressen in en selecteer vervolgens **Bewerken** (hieronder weergegeven) of **Dynamische inhoud toevoegen**. 
    
-   ![](media/service-flow-integration/power-bi-flow-email.png)
+   ![Scherm E-mail verzenden](media/service-flow-integration/power-bi-flow-email.png)
 
 3. Flow maakt een titel en een bericht dat u kunt behouden of bewerken. Alle waarden die u hebt ingesteld toen u de waarschuwing in Power BI maakte, zijn beschikbaar voor uw gebruik. Plaats uw cursor en selecteer de waarden in het grijs gemarkeerde gebied. 
 
-   ![](media/service-flow-integration/power-bi-flow-email-default.png)
+   ![Scherm E-mail verzenden](media/service-flow-integration/power-bi-flow-email-default.png)
 
 1.  Als u bijvoorbeeld een waarschuwingstitel in Power BI hebt gemaakt voor **We hebben nog een medaille gewonnen**, kunt u **Waarschuwingstitel** selecteren om die tekst toe te voegen aan het onderwerpsveld van uw e-mailbericht.
 
-    ![](media/service-flow-integration/power-bi-flow-message.png)
+    ![De e-mailtekst maken](media/service-flow-integration/power-bi-flow-message.png)
 
     En u kunt het standaard e-mailbericht behouden of uw eigen bericht maken. Het bovenstaande voorbeeld bevat enkele wijzigingen in het bericht.
 
 1. Zodra u bent klaar bent, selecteert u **Stroom maken** of **Stroom opslaan**.  De stroom is gemaakt en geëvalueerd.  Als er fouten worden aangetroffen, laat Flow u dit weten.
 2. Als er fouten worden aangetroffen, selecteert u **Stroom bewerken** om ze te corrigeren. Selecteer anders **Gereed** om de nieuwe stroom uit te voeren.
    
-   ![](media/service-flow-integration/power-bi-flow-running.png)
+   ![Het bericht Geslaagd](media/service-flow-integration/power-bi-flow-running.png)
 5. Wanneer de gegevenswaarschuwing wordt geactiveerd, wordt er een e-mail verzonden naar de door u opgegeven adressen.  
    
-   ![](media/service-flow-integration/power-bi-flow-email2.png)
+   ![Waarschuwings-e-mail](media/service-flow-integration/power-bi-flow-email2.png)
 
 ## <a name="create-a-flow-that-uses-power-bi---from-scratch-blank"></a>Een stroom maken die gebruikmaakt van Power BI - compleet nieuw (leeg)
 In deze taak maken we een eenvoudige maar volledig nieuwe stroom die wordt geactiveerd door een Power BI-gegevenswaarschuwing (melding).
@@ -91,28 +91,28 @@ In deze taak maken we een eenvoudige maar volledig nieuwe stroom die wordt geact
 1. Meld u aan bij Microsoft Flow.
 2. Selecteer **Mijn stromen** > **Nieuwe stroom maken**.
    
-   ![](media/service-flow-integration/power-bi-my-flows.png)
+   ![Bovenste menubalk stroom](media/service-flow-integration/power-bi-my-flows.png)
 3. Gebruik het zoekvak om een Power BI-trigger te zoeken en selecteer **Power BI - wanneer gegevensgebaseerde waarschuwing wordt geactiveerd**.
 
 ### <a name="build-your-flow"></a>Uw stroom maken
 1. Selecteer in de vervolgkeuzelijst de naam van de waarschuwing.  Zie [Gegevenswaarschuwingen in Power BI](service-set-data-alerts.md) als u wilt weten hoe een waarschuwing maakt.
    
-    ![](media/service-flow-integration/power-bi-totalstores2.png)
+    ![De naam van de waarschuwing selecteren](media/service-flow-integration/power-bi-totalstores2.png)
 2. Selecteer **Nieuwe stap** > **Een actie toevoegen**.
    
-   ![](media/service-flow-integration/power-bi-new-step.png)
+   ![Een nieuwe stap toevoegen](media/service-flow-integration/power-bi-new-step.png)
 3. Zoek **Outlook** en selecteer **Gebeurtenis maken**.
    
-   ![](media/service-flow-integration/power-bi-create-event.png)
+   ![De stroom bouwen](media/service-flow-integration/power-bi-create-event.png)
 4. Vul de gebeurtenisvelden in. Wanneer u een veld selecteert, wordt er dynamische inhoud in Flow weergegeven die u kunt opnemen.
    
-   ![](media/service-flow-integration/power-bi-flow-event.png)
+   ![Doorgaan met het bouwen van de stroom](media/service-flow-integration/power-bi-flow-event.png)
 5. Als u klaar bent, selecteert u **Stroom maken**.  De stroom wordt opgeslagen in Flow en geëvalueerd. Als er geen fouten zijn, selecteert u **Gereed** om de stroom uit te voeren.  De nieuwe stroom wordt toegevoegd aan de pagina **Mijn stromen**.
    
-   ![](media/service-flow-integration/power-bi-flow-running.png)
+   ![De stroom voltooien](media/service-flow-integration/power-bi-flow-running.png)
 6. Wanneer de stroom wordt geactiveerd door uw Power BI-gegevenswaarschuwing, ontvangt u een Outlook-gebeurtenismelding die vergelijkbaar is met de volgende.
    
-    ![](media/service-flow-integration/power-bi-flow-notice.png)
+    ![Stroom activeert Outlook-melding](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Aan de slag met Microsoft-Flow](https://flow.microsoft.com/en-us/documentation/getting-started/)

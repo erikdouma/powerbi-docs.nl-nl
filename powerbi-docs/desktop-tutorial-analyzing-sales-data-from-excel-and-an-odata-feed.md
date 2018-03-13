@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 0723b3a7155626f875044fa813a522ef6d4923df
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Learn more
+ms.openlocfilehash: 4cab3ed114d03d42c6acf1bf62f70e7d920e16b2
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="tutorial-analyzing-sales-data-from-excel-and-an-odata-feed"></a>Zelfstudie: Verkoopgegevens uit Excel en een OData-feed analyseren
 Met **Power BI Desktop** kunt u allerlei verschillende gegevensbronnen met elkaar verbinden en ze vervolgens combineren en indelen, zodat u gemakkelijk interessante en boeiende gegevensanalyse en -visualisaties kunt maken. In deze zelfstudie leert u hoe u gegevens van twee gegevensbronnen kunt combineren. 
@@ -34,7 +35,7 @@ Zo ziet het uiteindelijk rapport eruit:
 
 ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/18.png)
 
-U hebt voor de stappen in deze zelfstudie de werkmap Products nodig, die u kunt downloaden**:**[ klik](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)[hier](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)[ om](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**[Products.xlsx](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**[ te downloaden.](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)
+U hebt voor de stappen in deze zelfstudie de werkmap Products nodig, die u kunt downloaden: **[ klik hier om Products.xlsx](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)** te downloaden.
 
 In het dialoogvenster **Opslaan als** noemt u het bestand **Products.xlsx**.
 
@@ -82,7 +83,7 @@ Als u queryhandelingen uitvoert in Query-editor, worden er querystappen gemaakt 
 | Gegevenstype wijzigen |Changed Type |Table.TransformColumnTypes(\#"Removed Other Columns",{{"UnitsInStock", Int64.Type}}) |
 
 ## <a name="task-2-import-order-data-from-an-odata-feed"></a>Taak 2: bestelgegevens importeren uit een OData-feed
-In deze taak gaat u bestelgegevens importeren. Deze stap is representatief voor het verbinding maken met een verkoopsysteem. U importeert gegevens in Power BI Desktop vanuit de voorbeeld-OData-feed Northwind op de volgende URL, die u kunt kopiëren (en plakken) in de onderstaande stappen: <http://services.odata.org/V3/Northwind/Northwind.svc/> 
+In deze taak gaat u bestelgegevens importeren. Deze stap is representatief voor het verbinding maken met een verkoopsysteem. U importeert gegevens in Power BI Desktop vanuit de voorbeeld-OData-feed Northwind via de volgende URL, die u kunt kopiëren (en plakken) in de onderstaande stappen: <http://services.odata.org/V3/Northwind/Northwind.svc/> 
 
 ### <a name="step-1-connect-to-an-odata-feed"></a>Stap 1: verbinding maken met een OData-feed
 1. Vanuit het tabblad **Start** in Query-editor selecteert u **Gegevens ophalen**.

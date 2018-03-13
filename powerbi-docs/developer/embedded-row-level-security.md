@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 02/22/2018
 ms.author: maghan
-ms.openlocfilehash: b9d39e2214b20677141a6e6beb9d61b628c320c2
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 2dde59bba1c5d9ded1c82cf2dd1086be14f19304
+ms.sourcegitcommit: d6e013eb6291ae832970e220830d9862a697d1be
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Beveiliging op rijniveau met ingesloten Power BI-inhoud
 Beveiliging op rijniveau (RLS) kan worden gebruikt om de gebruikerstoegang tot gegevens in dashboards, tegels, rapporten en gegevenssets te beperken. Meerdere gebruikers kunnen werken met dezelfde artefacten, terwijl ze allemaal verschillende gegevens zien. Het insluiten van inhoud biedt ondersteuning voor RLS.
@@ -140,6 +140,47 @@ Voor liveverbindingen van Analysis Services wordt een [on-premises gegevensgatew
 
 Rollen kunnen worden opgegeven met de identiteit in een insluittoken. Als er geen rol wordt opgegeven, wordt de rollen herleid op basis van de opgegeven gebruikersnaam.
 
+**De functie CustomData gebruiken**
+
+Met de functie CustomData kunt u vrije tekst (tekenreeks) doorgeven met behulp van de eigenschap van de CustomData-verbindingsreeks, een waarde die via de functie CUSTOMDATA() door AS moet worden gebruikt.
+U kunt de functie gebruiken als alternatieve manier voor het aanpassen van het gegevensverbruik.
+De functie kan binnen de DAX-query voor rollen worden gebruikt en de functie kan zonder rol in de DAX-query voor metingen worden gebruikt.
+De functie CustomData maakt deel uit van de functionaliteit voor het genereren van tokens voor de artefacten Dashboard, Rapport en Tegel. Dashboards kunnen over meerdere CustomData-identiteiten (één per tegel/model) beschikken.
+
+> [!NOTE]
+> De functie CustomData werkt alleen voor modellen die zich in Azure Analysis Services bevinden. Bovendien werkt de functie alleen in de livemodus. In tegenstelling tot gebruikers en rollen, kan de functie voor aangepaste gegevens niet in een PBIX-bestand worden ingesteld. Tijdens het genereren van een token met de functie voor aangepaste gegevens moet u over een gebruikersnaam beschikken.
+>
+>
+
+**CustomData SDK - toevoegingen**
+
+De eigenschap van de CustomData-tekenreeks is toegevoegd aan de effectieve identiteit in het scenario voor het genereren van tokens.
+        
+        [JsonProperty(PropertyName = "customData")]
+        public string CustomData { get; set; }
+
+Met behulp van de volgende aanroep kan de identiteit kan worden gemaakt met aangepaste gegevens:
+
+        public EffectiveIdentity(string username, IList<string> datasets, IList<string> roles = null, string customData = null);
+
+**CustomData SDK - gebruik**
+
+Als u REST API aanroept, kunt u binnen elke identiteit aangepaste gegevens toevoegen, bijvoorbeeld:
+
+```
+{
+    "accessLevel": "View",
+    "identities": [
+        {
+            "username": "EffectiveIdentity",
+            "roles": [ "Role1", "Role2" ],
+            "customData": "MyCustomData",
+            "datasets": [ "fe0a1aeb-f6a4-4b27-a2d3-b5df3bb28bdc" ]
+        }
+    ]
+}
+```
+
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 * De toewijzing van gebruikers aan rollen in de Power BI-service heeft geen invloed op de beveiliging op rijniveau bij gebruik van een insluittoken.
 * Wanneer u een identiteit met een insluittoken opgeeft, worden RLS-instellingen in de Power BI-service niet toegepast op beheerders of leden met machtigingen voor bewerken, maar op de gegevens.
@@ -150,4 +191,3 @@ Rollen kunnen worden opgegeven met de identiteit in een insluittoken. Als er gee
 * Een lijst met identiteiten kan meerdere identiteitstokens insluiten in het dashboard. Voor alle andere artefacten bevat de lijst één identiteit.
 
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-

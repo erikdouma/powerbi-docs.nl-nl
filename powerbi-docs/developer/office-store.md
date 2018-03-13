@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/5/2017
 ms.author: maghan
-ms.openlocfilehash: 03be98e9aa2bd4d91357cc00208d82bd0116f69c
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 761f6a85d0f975f4178adfce830a6c73578aec73
+ms.sourcegitcommit: 20dd809a2ef8c0d6c6f677baadb5f57f41438cbe
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Aangepaste visuele elementen publiceren naar AppSource
 Meer informatie over het publiceren van aangepaste visuele elementen naar AppSource, zodat anderen deze kunnen gebruiken. office
@@ -86,7 +86,7 @@ Voer de volgende stappen uit om de inzending te voltooien.
    * *Titel van inzending:* naam van uw inzending in het ontwikkelaarscentrum
    * *Versie:* uw versienummer wordt automatisch ingevuld op basis van het app-pakket van uw invoegtoepassing.
    * *Releasedatum (UTC):* selecteer een datum voor de release van uw app in de store. Als u een datum in de toekomst kiest, is uw app pas vanaf die datum beschikbaar in de store.
-   * *Categorie:* de eerste categorie wordt automatisch ingevuld als "Gegevensvisualisatie + BI". Alle aangepaste visuele Power BI-elementen worden zo gelabeld. U mag maximaal 2 extra categorieën opgeven om gebruikers te helpen uw visuele element eenvoudig te kunnen opzoeken
+   * *Categorie:* de eerste categorie wordt automatisch ingevuld als "Gegevensvisualisatie + BI". Alle aangepaste Power BI-visuals worden zo gelabeld. U mag maximaal twee extra categorieën opgeven zodat gebruikers uw visual eenvoudig kunnen vinden.
    * *Testopmerkingen:* optioneel, voor als u bepaalde instructies voor de testers van Microsoft wilt opgeven
    * *Mijn app bevat of gebruikt versleuteling of cryptografie, of roept versleuteling of cryptografie aan:* laat dit selectievakje uitgeschakeld
    * *Deze invoegtoepassing beschikbaar maken in de catalogus met Office-invoegtoepassingen op de iPad:* laat dit selectievakje uitgeschakeld
@@ -121,7 +121,7 @@ Voer de volgende stappen uit om de inzending te voltooien.
     > Als u een andere optie dan gratis selecteert of als het element inhoud bevat voor een in-app aankoop, wordt de inzending geweigerd.
     > 
     > 
-17. U kunt nu Opslaan als concept selecteren en het visuele element later indienen, of **Indienen voor goedkeuring** selecteren om het aangepaste visuele element in te dienen bij de Office-store.
+17. U kunt nu **Opslaan als concept** selecteren en de visual later indienen, of **Indienen voor goedkeuring** selecteren om de aangepaste visual in te dienen bij de Office-store.
 
 ## <a name="tracking-submission-status-and-usage"></a>Status en gebruik van de inzending bijhouden
 U kunt de [validatiebeleidsregels](https://dev.office.com/officestore/docs/validation-policies#13-power-bi-custom-visuals) controleren.
