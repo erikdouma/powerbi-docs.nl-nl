@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 1a4290d06d623b21b64e1ff03fb0382a55dc2a3c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 40ef141046db4b8dac9cf47f7f043ca306d2fadb
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="display-a-dashboard-tile-or-report-visual-in-focus-mode"></a>Een dashboardtegel of rapportvisual weergeven in de focusmodus
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
@@ -36,39 +36,41 @@ In de ***focusmodus*** kunt u een dashboardtegel of rapportvisual uitbreiden (po
 > De focusmodus is niet hetzelfde als de [modus Volledig scherm](service-fullscreen-mode.md).
 > 
 ## <a name="focus-mode-for-dashboard-tiles"></a>Focusmodus voor dashboardtegels
-1. Beweeg de muisaanwijzer over de tegel Visualisatie, selecteer het beletselteken (...) en kies **Openen in de focusmodus** ![](media/service-focus-mode/power-bi-dashboard-focus-mode.png).  
+1. Beweeg de muisaanwijzer over de tegelvisualisatie, selecteer het weglatingsteken (...) en kies **Openen in de focusmodus** 
+
+    ![Menu met weglatingstekens voor tegel](media/service-focus-mode/power-bi-dashboard-focus-mode.png).
    
 2. De tegel wordt geopend en op het volledige rapportcanvas weergegeven. 
 
-   ![](media/service-focus-mode/power-bi-tile-focus.png)
+   ![Tegel vult rapportcanvas](media/service-focus-mode/power-bi-tile-focus.png)
 
 3. Vouw het deelvenster Filters uit om alle filters weer te geven die zijn toegepast op deze visual.
    
-   ![](media/service-focus-mode/power-bi-focus-filters.png)
+   ![Focusmodus met deelvenster Filters](media/service-focus-mode/power-bi-focus-filters.png)
 
 4. U kunt verder experimenteren door de filters te wijzigen en, als u iets interessants ontdekt, de visual vastmaken aan een dashboard.
 
 5. U kunt de focusmodus sluiten en terugkeren naar het dashboard door **< Focusmodus sluiten** te selecteren (in de linkerbovenhoek van de visual).
    
-    ![](media/service-focus-mode/power-bi-tile-exit-focus.png)    
+    ![Focusmodus verlaten](media/service-focus-mode/power-bi-tile-exit-focus.png)    
 
 
 ## <a name="focus-mode-for-report-visualizations"></a>Focusmodus voor rapportvisualisaties
 
-1. Beweeg de muisaanwijzer over de visualisatie en selecteer het pictogram **Focusmodus** ![](media/service-focus-mode/pbi_popout.jpg).  
+1. Beweeg de muisaanwijzer over de rapportvisualisatie en selecteer het pictogram **Focusmodus** ![Pictogram Focusmodus](media/service-focus-mode/pbi_popout.jpg).  
    
-   ![](media/service-focus-mode/power-bi-hover-focus.png)
+   ![Focuspictogram wordt weergegeven op de tegel](media/service-focus-mode/power-bi-hover-focus.png)
 2. De visualisatie wordt geopend en op het volledige canvas weergegeven. 
 
    
-   ![](media/service-focus-mode/power-bi-display-focus-newer2.png)
+   ![Visual in focusmodus](media/service-focus-mode/power-bi-display-focus-newer2.png)
 3. Vouw het deelvenster Filters uit om alle filters weer te geven die zijn toegepast op deze visual.
    
-   ![](media/service-focus-mode/power-bi-display-focus-filters.png)
+   ![Focusmodus met deelvenster Filters](media/service-focus-mode/power-bi-display-focus-filters.png)
 4. U kunt verder experimenteren door de filters te wijzigen en, als u iets interessants ontdekt, de visual vastmaken aan een dashboard.   
 5. U kunt de focusmodus sluiten en terugkeren naar het rapport door **< Terug naar rapport** te selecteren (in de linkerbovenhoek van de visual). 
    
-    ![](media/service-focus-mode/power-bi-exit-focus-report.png)  
+    ![Focusmodus verlaten](media/service-focus-mode/power-bi-exit-focus-report.png)  
 
 ## <a name="go-from-focus-mode-to-full-screen-mode"></a>Van de focusmodus naar een volledig scherm schakelen
 Zodra u zich in de focusmodus bevindt, kunt u de tegel of visual [weergeven in een volledig scherm (tv-modus.)](service-fullscreen-mode.md) In de modus Volledig scherm worden er geen menu's en navigatieknoppen weergegeven.

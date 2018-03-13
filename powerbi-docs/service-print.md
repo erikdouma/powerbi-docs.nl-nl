@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 62796d9eb376ab4c92cc5596176ac501a69c0e62
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d8b4175f83415821e1ff9b63e3c53cd8f869b54f
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="printing-from-power-bi-service"></a>Afdrukken via de Power BI-service
 U kunt een volledig dashboard, een dashboardtegel, een rapportpagina of een rapportvisual afdrukken via de Power BI-service. Rapporten kunnen slechts pagina voor pagina worden afgedrukt. U kunt niet het hele rapport in een keer afdrukken.
@@ -41,25 +41,24 @@ Kijk hoe Amanda afdrukt vanuit haar dashboard en rapport. Volg vervolgens de sta
 1. Open het dashboard dat u wilt afdrukken.
 2. Selecteer in de rechterbovenhoek de weglatingstekens (...) en kies **Dashboard afdrukken**.
    
-    ![](media/service-print/pbi_print_dash_ellipses.png)
+    ![Optie Dashboard afdrukken](media/service-print/pbi_print_dash_ellipses.png)
 3. Het venster Afdrukken voor uw browser wordt geopend. Kies de instellingen en de afdrukbestemming en selecteer **Afdrukken**.
    
    > [!NOTE]
    > Welk afdrukvenster wordt weergegeven, is afhankelijk van de browser die u gebruikt.
    > 
-   > 
    
-    ![](media/service-print/pbi_print_dash_new2.png)
+    ![Dialoogvenster Afdrukken](media/service-print/pbi_print_dash_new2.png)
 
 ## <a name="print-a-dashboard-tile"></a>Een dashboardtegel afdrukken
-1. [Open de tegel in de focusmodus](service-focus-mode.md) door het weglatingsteken te selecteren en het focuspictogram ![](media/service-print/power-bi-focus-icon.png) te kiezen.
+1. [Open de tegel in de focusmodus](service-focus-mode.md) door het weglatingsteken te selecteren en het focuspictogram ![Focuspictogram](media/service-print/power-bi-focus-icon.png) te kiezen.
    
-    ![](media/service-print/menu-options.png)
-2. Open de tegel in [het volledige scherm](service-fullscreen-mode.md) door in de navigatiebalk aan de bovenkant het pictogram voor de modus Volledig scherm ![](media/service-print/power-bi-full-screen-icon.png) te selecteren.
+    ![Menu met weglatingstekens](media/service-print/menu-options.png)
+2. Open de tegel in de [modus Volledig scherm](service-fullscreen-mode.md) door in de navigatiebalk aan de bovenkant het pictogram voor de modus Volledig scherm ![Pictogram voor modus Volledig scherm](media/service-print/power-bi-full-screen-icon.png) te selecteren.
 3. Beweeg de muisaanwijzer over de tegel om het menu Opties weer te geven.
    
-    ![](media/service-print/menu-options-new.png)
-4. Selecteer het pictogram voor afdrukken ![](media/service-print/print-icon.png).     
+    ![Menu met opties voor volledig scherm](media/service-print/menu-options-new.png)
+4. Selecteer het pictogram voor afdrukken ![Pictogram voor afdrukken](media/service-print/print-icon.png).     
    
    > [!NOTE]
    > Welk afdrukvenster wordt weergegeven, is afhankelijk van de browser die u gebruikt.
@@ -72,7 +71,7 @@ Rapporten kunnen alleen pagina voor pagina worden afgedrukt.
 1. Open het rapport in de lees- of bewerkingsweergave.
 2. Selecteer **Bestand** > **Afdrukken** om de huidige rapportpagina af te drukken.
    
-    ![](media/service-print/power-bi-print.png)
+    ![Menu Bestand in Power BI](media/service-print/power-bi-print.png)
 3. Het venster Afdrukken voor uw browser wordt geopend.
    
    > [!NOTE]
@@ -81,7 +80,7 @@ Rapporten kunnen alleen pagina voor pagina worden afgedrukt.
    > 
 
 ## <a name="print-a-report-visual"></a>Een rapportvisual afdrukken
-1. [Open de visual in de focusmodus](service-focus-mode.md) door de muisaanwijzer over de tegel te bewegen en in de rechterbovenhoek het focuspictogram ![](media/service-print/power-bi-focus-icon.png) te selecteren.
+1. [Open de visual in de focusmodus](service-focus-mode.md) door de muisaanwijzer over de tegel te bewegen en in de rechterbovenhoek het focuspictogram ![Focuspictogram](media/service-print/power-bi-focus-icon.png) te selecteren.
 2. Volg stap 2 en 3 hierboven onder *Een rapportpagina afdrukken*.
 
 ## <a name="considerations-and-troubleshooting"></a>Overwegingen en probleemoplossing

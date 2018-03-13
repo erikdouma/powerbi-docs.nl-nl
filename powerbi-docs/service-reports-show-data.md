@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: b9e72c57ccd165ed02424e303c5ec54f179868e0
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Visualizations
+ms.openlocfilehash: b85fe5cf70c915a3355c80a61f01a32216450f03
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="show-the-data-that-was-used-to-create-the-visualization"></a>De gegevens weergeven die zijn gebruikt voor het maken van de visualisatie
 ## <a name="show-data"></a>Gegevens weergeven
@@ -38,16 +39,16 @@ U kunt de gegevens die zijn gebruikt voor het maken van de visualisatie ook expo
 1. Open in de Power BI-service een rapport in de [Leesweergave of Bewerkweergave](service-reading-view-and-editing-view.md) en selecteer een visueel element.  Open de Rapportweergave in Power BI Desktop.
 2. Als u de gegevens achter het visuele element wilt weergeven, selecteert u **Verkennen** > **Gegevens weergeven**.
    
-   ![](media/service-reports-show-data/power-bi-show-data.png)
+   ![Gegevens weergeven selecteren](media/service-reports-show-data/power-bi-show-data.png)
 3. Standaard worden de gegevens weergegeven onder het visuele element.
    
-   ![](media/service-reports-show-data/power-bi-explore-show-data.png)
+   ![Visual en gegevens verticaal weergeven](media/service-reports-show-data/power-bi-explore-show-data.png)
 4. Als de afdrukstand wilt wijzigen, selecteert u verticale indeling ![](media/service-reports-show-data/power-bi-vertical-icon-new.png) in de rechterbovenhoek van de visualisatie.
    
-   ![](media/service-reports-show-data/power-bi-explore-show-data2.png)
+   ![Visual en gegevens horizontaal weergeven](media/service-reports-show-data/power-bi-explore-show-data2.png)
 5. Als u de gegevens wilt exporteren naar een .csv-bestand, selecteert u het beletselteken en kiest u **Gegevens exporteren**.
    
-    ![](media/service-reports-show-data/power-bi-export-data-new.png)
+    ![Gegevens exporteren selecteren](media/service-reports-show-data/power-bi-export-data-new.png)
    
     Zie [Gegevens exporteren uit Power BI-visualisaties](power-bi-visualization-export-data.md) voor meer informatie over het exporteren van de gegevens naar Excel.
 6. Als u de gegevens wilt verbergen, schakelt u **Verkennen** > **Gegevens weergeven** uit.

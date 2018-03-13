@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/21/2017
 ms.author: mihart
-ms.openlocfilehash: 202f92b9c7089a4bd9bb5dd976051bba47da632e
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 634dc4efe6553a9de91716552a21563f5405fa69
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Aanbevolen procedures voor het ontwerpen van rapporten en visuele elementen
 <!-- Shared newnav Include -->
@@ -215,7 +216,7 @@ Gebruik bij het instellen van een achtergrond voor de rapportpagina's kleuren di
 
 U maakt geen kunstwerk, maar een functioneel rapport. Kies een kleur waardoor het rapport beter leesbaar wordt en die de rapportelementen goed uit de verf laat komen.  
 
-Uit een studie over het gebruik van kleur en visualisaties in webpagina's is gebleken dat een groter contrast tussen kleuren zorgt voor een sneller begrip (*The effect of text and background colour on visual search of Web pages** en **Determining Users’ Perception of Web Page Visual Complexity and Aesthetic Characteristics*.)
+Uit een studie over het gebruik van kleur en visualisaties in webpagina's is gebleken dat een groter contrast tussen kleuren zorgt voor een sneller begrip (The effect of text and background colour on visual search of Web pages en **Determining Users’ Perception of Web Page Visual Complexity and Aesthetic Characteristics**.)
 
 We hebben een aantal aanbevolen procedures voor het gebruik van kleur toegepast op ons voorbeeldrapport (afbeelding 20 en 21) dat hieronder wordt weergegeven. Het meest opmerkelijke is dat we de achtergrondkleur hebben gewijzigd in zwart.  Het geel was te fel en zorgde voor overbelaste ogen.  Ook in het diagram Aantal keer atletennaam op jaar en soort medaille is het gele gedeelte van de balken opgegaan in de gele achtergrond.  Door een zwarte (of witte) achtergrond te gebruiken, wordt het contrast optimaal en komt de focus op de visuele elementen te liggen.
 

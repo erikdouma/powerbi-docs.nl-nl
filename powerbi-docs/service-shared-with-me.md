@@ -16,17 +16,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 63497e7d517bed8aeba8abefcc4e48c628e06252
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 6c29f0915009fced89c80e05f40b91c467e505ce
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="display-the-power-bi-dashboards-that-have-been-shared-with-me"></a>De Power BI-dashboards weergeven die met mij zijn gedeeld
 ## <a name="shared-with-me"></a>Gedeeld met mij
-![](media/service-shared-with-me/power-bi-share-dash.png)
+![Deelpictogram](media/service-shared-with-me/power-bi-share-dash.png)
 
 Als een collega een dashboard met u deelt, wordt de titel ervan toegevoegd aan uw lijst **Gedeeld met mij**. Het dashboard is alleen beschikbaar vanuit **Gedeeld met mij**, niet vanuit een werkruimte of vanuit **Apps**.
 
@@ -38,8 +39,8 @@ U krijgt veel opties om met het dashboard en het onderliggende rapport te commun
 
 ## <a name="actions-available-from-the-shared-with-me-screen"></a>Acties die via de scherm **Gedeeld met mij** beschikbaar zijn
 * Selecteer het sterpictogram op [Een dashboard aan favorieten toevoegen](service-dashboard-favorite.md).
-* [Een dashboard verwijderen](service-delete.md)  ![](media/service-shared-with-me/power-bi-delete-icon.png)
-* Sommige dashboards kunnen opnieuw worden gedeeld  ![](media/service-shared-with-me/power-bi-share-icon-new.png)
+* [Een dashboardtegel verwijderen](service-delete.md) ![Pictogram met prullenbak](media/service-shared-with-me/power-bi-delete-icon.png)
+* Sommige dashboards kunnen opnieuw worden gedeeld  ![Deelpictogram](media/service-shared-with-me/power-bi-share-icon-new.png)
 * Bovendien kunt u, als uw lijsten met dashboards lang worden, [via het zoekveld en sorteren vinden wat u nodig hebt](service-navigation-search-filter-sort.md).
   
   > [!NOTE]
@@ -51,7 +52,7 @@ U krijgt veel opties om met het dashboard en het onderliggende rapport te commun
 ## <a name="filter-shared-dashboards-by-owner"></a>Gedeelde dashboards filteren op eigenaar
 De inhoud in het scherm **Gedeeld met mij** kan verder worden gefilterd op de eigenaar van de inhoud. Als ik bijvoorbeeld **Amanda** selecteer, zie ik alleen het dashboard dat Amanda met mij heeft gedeeld.
 
-![](media/service-shared-with-me/power-bi-owner.png)
+![Dashboard gefilterd op eigenaar](media/service-shared-with-me/power-bi-owner.png)
 
 ## <a name="next-steps"></a>Volgende stappen
 [Power BI - basisconcepten](service-basic-concepts.md)  

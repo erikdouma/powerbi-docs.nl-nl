@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/18/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 49e0b976fcee8c18edc14f80df2786e5ebf3fedc
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 7c33e1d3719b30569996425ed247c1eac87b78f1
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="enable-qa-for-live-connections"></a>Q&A inschakelen voor live-verbindingen
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>Wat is een on-premises gegevensgateway?  Wat is een live-verbinding?
@@ -44,15 +45,15 @@ Zie deze onderwerpen voor meer informatie:
 ## <a name="enable-qa"></a>Q&A inschakelen
 Als de gegevensgateway is ingesteld, kunt u vanuit Power BI verbinding maken met uw gegevens.  Maak een dashboard op basis van uw on-premises gegevens of upload een PBIX-bestand dat gebruikmaakt van on-premises gegevens.  Mogelijk hebt u ook al on-premises gegevens in dashboards, rapporten en gegevenssets die met u zijn gedeeld.
 
-1. Selecteer in de rechterbovenhoek van de Power BI-service het tandwielpictogram ![](media/service-q-and-a-direct-query/power-bi-cog.png) en kies **Instellingen**.
+1. Selecteer in de rechterbovenhoek van de Power BI-service het tandwielpictogram ![Tandwielpictogram](media/service-q-and-a-direct-query/power-bi-cog.png) en kies **Instellingen**.
    
-   ![](media/service-q-and-a-direct-query/powerbi-settings.png)
+   ![Menu Instellingen](media/service-q-and-a-direct-query/powerbi-settings.png)
 2. Selecteer **gegevenssets** en kies de gegevensset die u wilt inschakelen voor Q&A.
    
-   ![](media/service-q-and-a-direct-query/power-bi-q-and-a-settings.png)
+   ![Scherm Gegevenssets van menu Instellingen](media/service-q-and-a-direct-query/power-bi-q-and-a-settings.png)
 3. Vouw **Q&A en Cortana** uit, schakel het selectievakje **Q&A inschakelen voor deze gegevensset** in en kies **Toepassen**.
    
-    ![](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
+    ![Q&A-gebied uitgevouwen](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
 
 ## <a name="what-data-is-cached-and-how-is-privacy-protected"></a>Welke gegevens worden in de cache geplaatst en hoe wordt de privacy beschermd?
 Wanneer u Q&A inschakelt voor uw on-premises gegevens, wordt er een subset van uw gegevens opgeslagen in de cache van de service. Dit wordt gedaan om ervoor te zorgen dat Q&A met redelijke prestaties kan worden uitgevoerd. Power BI sluit waarden die langer zijn dan 24 tekens uit van cachebewerkingen. De cache wordt binnen enkele uren verwijderd als u aangeeft dat u Q&A niet meer wilt gebruiken door het selectievakje **Q&A inschakelen voor deze gegevensset** uit te schakelen of wanneer u de gegevensset verwijdert.

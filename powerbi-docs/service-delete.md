@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: ea4dfaf8678e19894c1947282197d7e14cfaa944
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3d20b27b24851872b05a9c7dccb383032e1d65b8
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Vrijwel alles verwijderen in de Power BI-service
 In dit artikel leert u hoe u een dashboard, rapport, rapportpagina, werkmap, gegevensset, app en werkruimte verwijdert in de Power BI-service.
@@ -36,21 +36,21 @@ Dashboards kunnen worden verwijderd. Als u het dashboard verwijdert, worden de o
 
 ### <a name="to-delete-a-dashboard"></a>Ga als volgt te werk om een dashboard te verwijderen
 1. Selecteer in uw werkruimte het tabblad **Dashboards**.
-2. Zoek het dashboard dat u wilt verwijderen en selecteer het verwijderpictogram ![](media/service-delete/power-bi-delete-icon.png).
+2. Zoek het dashboard dat u wilt verwijderen en selecteer het verwijderpictogram ![Verwijderpictogram](media/service-delete/power-bi-delete-icon.png).
 
-    ![](media/service-delete/power-bi-delete-dash.gif)
+    ![Video](media/service-delete/power-bi-delete-dash.gif)
 
 ## <a name="delete-a-report"></a>Een rapport verwijderen
 Geen zorgen, als u een rapport verwijdert, wordt de gegevensset waarop het rapport is gebaseerd niet verwijderd.  En ook eventuele visualisaties die u uit het rapport hebt vastgemaakt zijn veilig. Ze blijven op het dashboard totdat u ze afzonderlijk verwijdert.
 
 ### <a name="to-delete-a-report"></a>Ga als volgt te werk om een rapport te verwijderen
 1. Selecteer in uw werkruimte het tabblad **Rapporten**.
-2. Zoek het rapport dat u wilt verwijderen en selecteer het verwijderpictogram ![](media/service-delete/power-bi-delete-icon.png).   
+2. Zoek het rapport dat u wilt verwijderen en selecteer het verwijderpictogram   ![Verwijderpictogram](media/service-delete/power-bi-delete-icon.png).   
 
-    ![](media/service-delete/power-bi-delete-reportnew.png)
+    ![Tabblad Rapporten van een werkruimte](media/service-delete/power-bi-delete-reportnew.png)
 3. Bevestig de verwijdering.
 
-   ![](media/service-delete/power-bi-delete-report.png)
+   ![Dialoogvenster Rapport verwijderen](media/service-delete/power-bi-delete-report.png)
 
    > [!NOTE]
    > Als het rapport onderdeel van is een [inhoudspakket](service-organizational-content-pack-introduction.md), kunt u het niet verwijderen met behulp van deze methode.  Zie [De verbinding met een organisatie-inhoudspakket verwijderen](service-organizational-content-pack-disconnect.md).
@@ -64,12 +64,12 @@ Als de werkmap is opgeslagen in OneDrive voor Bedrijven, wordt deze niet verwijd
 
 ### <a name="to-delete-a-workbook"></a>Ga als volgt te werk om een werkmap te verwijderen
 1. Selecteer in uw werkruimte het tabblad **Werkmappen**.
-2. Zoek de werkmap die u wilt verwijderen en selecteer het verwijderpictogram ![](media/service-delete/power-bi-delete-report2.png).
+2. Zoek de werkmap die u wilt verwijderen en selecteer het verwijderpictogram ![Verwijderpictogram](media/service-delete/power-bi-delete-report2.png) .
 
-    ![](media/service-delete/power-bi-delete-workbooknew.png)
+    ![Tabblad Werkmappen](media/service-delete/power-bi-delete-workbooknew.png)
 3. Bevestig de verwijdering.
 
-   ![](media/service-delete/power-bi-delete-confirm.png)
+   ![Dialoogvenster Werkmap verwijderen](media/service-delete/power-bi-delete-confirm.png)
 
 ## <a name="delete-a-dataset"></a>Een gegevensset verwijderen
 Gegevenssets kunnen worden verwijderd. Met het verwijderen van een gegevensset verwijdert u echter ook alle rapporten en dashboardtegels die gegevens uit die gegevensset bevatten.
@@ -80,13 +80,13 @@ Als een gegevensset deel uitmaakt van een of meer [organisatie-inhoudspakketten]
 1. Selecteer in uw werkruimte het tabblad **Gegevenssets**.
 2. Zoek de gegevensset die u wilt verwijderen en selecteer het beletselteken (...).  
 
-    ![](media/service-delete/power-bi-delete-datasetnew.png)
+    ![Tabblad Gegevenssets](media/service-delete/power-bi-delete-datasetnew.png)
 3. Selecteer in de vervolgkeuzelijst **Verwijderen**.
 
-   ![](media/service-delete/power-bi-delete-datasetnew2.png)
+   ![Menu met weglatingstekens](media/service-delete/power-bi-delete-datasetnew2.png)
 4. Bevestig de verwijdering.
 
-   ![](media/service-delete/power-bi-delete-dataset-confirm.png)
+   ![Dialoogvenster Dashboard verwijderen](media/service-delete/power-bi-delete-dataset-confirm.png)
 
 ## <a name="delete-an-app-workspace"></a>Een app-werkruimte verwijderen
 > [!WARNING]
@@ -99,13 +99,13 @@ Als u de auteur van de app-werkruimte bent, kunt u deze verwijderen. Wanneer u d
 ### <a name="to-delete-an-app-workspace---if-you-are-an-admin"></a>Als u een beheerder bent, kunt u een app-werkruimte als volgt verwijderen
 1. Selecteer in de linker navigatie **Werkruimten**
 
-    ![](media/service-delete/power-bi-delete-workspace.png)
+    ![App-werkruimten](media/service-delete/power-bi-delete-workspace.png)
 2. Selecteer het beletselteken (...) aan de rechterkant van de werkruimte die u wilt verwijderen en kies **Werkruimte bewerken**.
 
-   ![](media/service-delete/power-bi-edit-workspace.png)
+   ![Menu met weglatingstekens > Werkruimte bewerken](media/service-delete/power-bi-edit-workspace.png)
 3. In het venster **Werkruimte bewerken** selecteert u **Werkruimte verwijderen** > **verwijderen**.
 
-    ![](media/service-delete/power-bi-delete-workspace2.png)
+    ![Werkruimte verwijderen](media/service-delete/power-bi-delete-workspace2.png)
 
 ### <a name="to-remove-an-app-workspace-from-your-list"></a>Ga als volgt te werk om een app-werkruimte uit uw lijst te verwijderen
 Als u niet langer lid wilt zijn van een app-werkruimte, kunt u deze ***verlaten***. Deze wordt vervolgens verwijderd uit de lijst. Als u een werkruimte verlaat, blijft deze bestaan voor alle andere leden van de werkruimte.  
@@ -118,7 +118,7 @@ Als u niet langer lid wilt zijn van een app-werkruimte, kunt u deze ***verlaten*
 1. Start in de werkruimte die u wilt verwijderen.
 2. Selecteer in de rechterbovenhoek het beletselteken (...) en kies **Werkruimte verlaten** > **Verlaten**.
 
-      ![](media/service-delete/power-bi-leave-workspace.png)
+      ![Werkruimte verlaten](media/service-delete/power-bi-leave-workspace.png)
 
    > [!NOTE]
    > De opties die worden weergegeven in de vervolgkeuzelijst zijn afhankelijk van uw rol in de app-werkruimte: beheerder of lid.
@@ -134,7 +134,7 @@ Als u een app verwijdert van de pagina met uw app-lijst, wordt de app niet verwi
 1. Selecteer in de linkernavigatie **Apps** om de pagina met de app-lijst te openen.
 2. Houd de muis boven de app die u wilt verwijderen en selecteer het verwijderpictogram ![](media/service-delete/power-bi-delete-report2.png).
 
-   ![](media/service-delete/power-bi-delete-app.png)
+   ![Apps selecteren](media/service-delete/power-bi-delete-app.png)
 
    Als u per ongeluk een app verwijdert, hebt u verschillende opties om deze terug te zetten.  U kunt de maker van de app vragen om de app opnieuw te sturen, het oorspronkelijke e-mailbericht met de koppeling naar de app zoeken, uw [meldingencentrum](service-notification-center.md) controleren om te zien of er nog meldingen voor die app worden weergegeven, of de [AppSource](service-install-use-apps.md) van uw organisatie controleren.
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 1/17/2018
+ms.date: 2/26/2018
 ms.author: maghan
-ms.openlocfilehash: 2936fa40700895d9953bb227cc30e68d64ae9205
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 78e3361578b82a9ebf69feae1f7a8ac54966bbc9
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Problemen oplossen met uw ingesloten toepassing
 
@@ -82,6 +82,7 @@ Mogelijk is er een Fiddler-opname nodig om het probleem nader te onderzoeken. He
 
 Mogelijk is er een Fiddler-opname nodig om het probleem nader te onderzoeken. Er kunnen verschillende reden zijn voor een 403-fout.
 
+* De gebruiker heeft de hoeveelheid insluittokens overschreden die voor een gedeelde capaciteit kan worden gemaakt. U moet Azure-capaciteit aanschaffen als u insluittokens wilt genereren, en de werkruimte vervolgens aan die capaciteit toewijzen. Zie [Create Power BI Embedded capacity in the Azure portal](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity) (Power BI Embedded-capaciteit maken in Azure Portal).
 * Het Azure AD-verificatietoken is verlopen.
 * De geverifieerde gebruiker is geen lid van de groep (app-werkruimte).
 * De geverifieerde gebruiker is geen beheerder van de groep (app-werkruimte).

@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 94a01f1d302d455dbcfe52ce39f5cb0b1ac4aa29
-ms.sourcegitcommit: 05018ef2fe8439a9e8f599c696b8c3cee67e3958
+ms.openlocfilehash: cc50e4e8830aca3951da6004b8ada3913aff28ed
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/21/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>Een aangepast visueel element laten *certificeren*
 ## <a name="what-is-meant-by-certified"></a>Wat is *gecertificeerd*?
@@ -50,7 +50,9 @@ Een aangepast visueel element indienen voor certificering:
    * Titel: Aanvraag voor certificering van visueel element    
    * Koppeling naar de GitHub-opslagplaats waar de broncode van het visuele element wordt gehost    
    * Voldoen aan de vereisten (zie hierboven)    
-   * De code- en beveiligingscontrole doorstaan    2. U krijgt bericht van het Microsoft-team voor aangepaste visuele elementen wanneer uw aangepaste visuele element is gecertificeerd en toegevoegd aan de lijst met gecertificeerde elementen (hieronder), of dat uw visuele element is geweigerd. In dat geval ontvangt u een rapport van de problemen die moeten worden verholpen. Het is de verantwoordelijkheid van de ontwikkelaar om contact te houden met Microsoft en hun gecertificeerde visuele elementen waar nodig bij te werken.
+   * De code- en beveiligingscontrole doorstaan    
+
+2. U krijgt bericht van het Microsoft-team voor aangepaste visuele elementen wanneer uw aangepaste visuele element is gecertificeerd en toegevoegd aan de lijst met gecertificeerde elementen (hieronder), of dat uw visuele element is geweigerd. In dat geval ontvangt u een rapport van de problemen die moeten worden verholpen. Het is de verantwoordelijkheid van de ontwikkelaar om contact te houden met Microsoft en hun gecertificeerde visuele elementen waar nodig bij te werken.
 
 ## <a name="removal-of-power-bi-certified-custom-visuals"></a>Gecertificeerde aangepaste visuele elementen uit Power BI verwijderen
 Microsoft kan naar eigen goeddunken een visueel element uit de lijst met gecertificeerde visuele elementen verwijderen.  
@@ -117,6 +119,7 @@ Microsoft kan naar eigen goeddunken een visueel element uit de lijst met gecerti
 | [Afspeelas (dynamische slicer)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380981) | |
 | [Power KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381083) | [Video](https://youtu.be/IvfIP3E6-1Q) |
 | [Power KPI Matrix](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381299) | [Video](https://youtu.be/1enze8pcGzY) |
+| [Kwadrantdiagram door MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381011) | [Video](https://youtu.be/ppBnyhqWNC0) |
 | [Radardiagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380771) | |
 | [Ringgrafiek door MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380824) | [Video](https://youtu.be/pDToHDFHnq8) |
 | [Draaigrafiek door MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381007) | [Video](https://youtu.be/d5xBCMmb3hU) |
@@ -129,6 +132,7 @@ Microsoft kan naar eigen goeddunken een visueel element uit de lijst met gecerti
 | [Zonnestraal](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380767) | |
 | [Tabelheatmap](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380818) | |
 | [Tachometer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380937) | [Video](https://youtu.be/C3OXdETbS9o) |
+| [Tekstfilter](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381309) | |
 | [Tekst-wrapper door MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) | |
 | [Thermometer](https://appsource.microsoft.com/en-us/product/office/WA104379807) | |
 | [Tijdreeksontledingsgrafiek](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380897) | |

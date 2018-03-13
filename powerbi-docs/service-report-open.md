@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/07/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 1d9c183a7fab95caa44221bd2d252ab92889b3f4
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: c5177f4ccce8e8e274944cdcb539ca65a8f87ca8
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="open-a-report-in-power-bi-service-apppowerbicom"></a>Een rapport openen in de Power BI-service (app.powerbi.com)
 Rapporten zijn beschikbaar in Power BI-service, Power BI Desktop, Power BI - Mobiel en zelfs Power BI Embedded. Dit artikel is van toepassing op het openen van rapporten in ***Power BI-service***.
@@ -32,11 +32,11 @@ In de Power BI-service zijn er twee modi voor het weergeven en werken met rappor
 
 1. Begin in een werkruimte en selecteer het tabblad **Rapporten** om alle rapporten in deze werkruimte weer te geven.  
    
-   ![](media/service-report-open/power-bi-open-report.png)
-1. Selecteer de naam van het rapport om het in de leesweergave te openen.  
+   ![Tabblad Rapporten van een werkruimte](media/service-report-open/power-bi-open-report.png)
+2. Selecteer de naam van het rapport om het in de leesweergave te openen.  
    
-    ![](media/service-report-open/power-bi-reading-view.png)
-1. [In de leesweergave](service-reading-view-and-editing-view.md) kunt u allerlei taken uitvoeren.  Dit voorbeeldrapport heeft meerdere pagina's. U kunt elke tab onder in het rapportcanvas selecteren om de gegevens te bekijken. 
+    ![Rapport in leesweergave](media/service-report-open/power-bi-reading-view.png)
+3. [In de leesweergave](service-reading-view-and-editing-view.md) kunt u allerlei taken uitvoeren.  Dit voorbeeldrapport heeft meerdere pagina's. U kunt elke tab onder in het rapportcanvas selecteren om de gegevens te bekijken. 
 
 ## <a name="open-a-report-from-a-dashboard"></a>Een rapport openen vanaf een dashboard
 Er kunt een rapport op verschillende manieren openen. U kunt bijvoorbeeld beginnen in een dashboard en een tegel selecteren die vanuit een rapport is gemaakt.  Als u de tegel selecteert, wordt het rapport geopend in de leesweergave. Als u wilt volgen, opent u het [dashboard Voorbeeld van verkoop en marketing](sample-datasets.md).
@@ -47,34 +47,34 @@ Er kunt een rapport op verschillende manieren openen. U kunt bijvoorbeeld beginn
 
 2.  In dit voorbeeld hebben we de kolomgrafiektegel 'Totaal aantal eenheden JTD...' geselecteerd.
 
-    ![](media/service-report-open/power-bi-dashboard.png)
+    ![Dashboard waarin tegel is geselecteerd](media/service-report-open/power-bi-dashboard.png)
 
 3.  Het bijbehorende rapport wordt geopend in de leesweergave. U ziet dat we op de pagina 'Categorie JTD' zijn. Dit is de rapportpagina die de kolomgrafiek bevat die we in het dashboard hebben geselecteerd.
 
-    ![](media/service-report-open/power-bi-report.png)
+    ![Rapport dat is geopend in de leesweergave](media/service-report-open/power-bi-report.png)
 
 4. Blijf in de leesweergave of selecteer **Rapport bewerken** om het rapport in de bewerkweergave te openen. Houd er rekening mee dat alleen gebruikers met machtigingen om dat rapport te bewerken, het kunnen openen in de bewerkweergave.
 
-    ![](media/service-report-open/power-bi-edit-report.png)
+    ![Rapporteditor waarin het pictogram Rapport bewerken wordt weergegeven](media/service-report-open/power-bi-edit-report.png)
 
 ## <a name="create-a-brand-new-report-from-a-dataset"></a>Een splinternieuw rapport maken van een gegevensset
 En nog een andere manier om een rapport te openen, is vanuit een gegevensset. Wanneer u begint met een gegevensset, is het rapportcanvas leeg. Deze methode wordt daarom aanbevolen voor *auteurs* van rapporten die zijn geïnteresseerd in het maken van een nieuw rapport op basis van een gegevensset waarvan ze eigenaar zijn. Als u net als in het bovenstaande voorbeeld wilt volgen, downloadt u de app [Voorbeeld van verkoop en marketing voorbeeld](sample-datasets.md).
 
 1. Start in de werkruimte waarin de gegevensset staat die u wilt gebruiken als basis voor een rapport.
 
-   ![](media/service-report-open/power-bi-workspace.png)
+   ![Linkernavigatiedeelvenster waarin App-werkruimten worden weergegeven](media/service-report-open/power-bi-workspace.png)
 
 2. Selecteer het tabblad **Gegevenssets** om de lijst met alle gegevenssets in deze werkruimte weer te geven. Dit heet de inhoudsweergavelijst **Gegevenssets**.
    
-   ![](media/service-report-open/power-bi-dataset.png)
+   ![Lijst met gegevenssets](media/service-report-open/power-bi-dataset.png)
 
 1. Zoek de gegevens op en selecteer het pictogram **Rapport maken** om de gegevensset te openen in de bewerkweergave. Als u geen machtigingen hebt om een gegevensset te bewerken, kunt u deze niet openen. 
    
-    ![](media/service-report-open/power-bi-create-report.png)
+    ![Gegevensset met pictogram Rapport maken](media/service-report-open/power-bi-create-report.png)
 
 3. De gegevensset wordt geopend in de rapporteditor. De gegevensvelden worden aan de rechterkant weergegeven. U kunt direct beginnen met verkennen en visualisaties maken. 
 
-   ![](media/service-report-open/power-bi-blank-canvas.png)
+   ![rapportcanvas](media/service-report-open/power-bi-blank-canvas.png)
 
 ##  <a name="still-more-ways-to-open-a-report"></a>Nog meer manieren om een rapport te openen
 Naarmate u vertrouwder raakt met het navigeren door de Power BI-service, moet u nagaan welke werkstromen het meest voor u geschikt. Enkele andere manieren om rapporten te benaderen:

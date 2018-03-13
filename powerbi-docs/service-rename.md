@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 9f4d4897558f241d316ee9d7021b4c34660fe9bf
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: cdea6474901dad27a4155b80fb605502102201a5
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>In de Power BI-service kunt u van vrijwel alles de naam wijzigen
 In dit artikel leert u hoe u de naam van een dashboard, rapport, rapportpagina, werkmap, gegevensset, app en werkruimte wijzigt in de Power BI-service.
@@ -41,20 +41,20 @@ In dit artikel leert u hoe u de naam van een dashboard, rapport, rapportpagina, 
 | Inhoud in **Gedeeld met mij** |Nee |Nee |
 
 ## <a name="rename-a-dashboard-report-or-workbook"></a>De naam van een dashboard, rapport of werkmap wijzigen
-1. Open een werkruimte en selecteer het tabblad **Dashboards**, **Rapporten** of **Werkmappen**. Beweeg de muisaanwijzer over het item waarvan u de naam wilt wijzigen en selecteer het tandwielpictogram ![](media/service-rename/powerbi-cog-icon.png). Als er geen tandwielpictogram beschikbaar is, bent u niet gemachtigd om de naam te wijzigen.
+1. Open een werkruimte en selecteer het tabblad **Dashboards**, **Rapporten** of **Werkmappen**. Beweeg de muisaanwijzer over het item waarvan u de naam wilt wijzigen en selecteer het tandwielpictogram ![Tandwielpictogram](media/service-rename/powerbi-cog-icon.png). Als er geen tandwielpictogram beschikbaar is, bent u niet gemachtigd om de naam te wijzigen.
    
-   ![](media/service-rename/power-bi-workspace-dashboards.png)
+   ![Werkruimte Power BI-service](media/service-rename/power-bi-workspace-dashboards.png)
 2. Typ de nieuwe naam op de pagina Instellingen en selecteer **Opslaan**.
    
-   ![](media/service-rename/power-bi-rename-dashboard2.png)
+   ![Venster Instellingen voor gegevensset](media/service-rename/power-bi-rename-dashboard2.png)
 
 ## <a name="rename-a-dataset"></a>De naam van een gegevensset wijzigen
 1. Open een werkruimte en selecteer het tabblad **Gegevenssets**.
    
-   ![](media/service-rename/power-bi-ellipses.png)
+   ![Tabblad Gegevenssets voor werkruimte](media/service-rename/power-bi-ellipses.png)
 2. Beweeg met de muis over het item waarvan u de naam wilt wijzigen, selecteer de weglatingstekens (...), en kies **Naam wijzigen**.  
    
-      ![](media/service-rename/power-bi-rename-datasets.png)
+      ![Naam wijzigen selecteren](media/service-rename/power-bi-rename-datasets.png)
    
    > [!NOTE]
    > De opties in de vervolgkeuzelijst variëren.
@@ -62,7 +62,7 @@ In dit artikel leert u hoe u de naam van een dashboard, rapport, rapportpagina, 
    > 
 3. Typ en nieuwe naam op de pagina Instellingen en selecteer **Opslaan**.
    
-     ![](media/service-rename/power-bi-rename.png)
+     ![Deelvenster Naam wijzigen](media/service-rename/power-bi-rename.png)
 
 ## <a name="rename-an-app-workspace"></a>De naam van een app-werkruimte wijzigen
 Iedereen met beheerdersmachtigingen kan de naam van een app-werkruimte wijzigen.
@@ -70,10 +70,10 @@ Iedereen met beheerdersmachtigingen kan de naam van een app-werkruimte wijzigen.
 1. Start in de werkruimte waarvan u de naam wilt wijzigen.
 2. Selecteer in de rechterbovenhoek de weglatingstekens (...) en kies **Werkruimte bewerken**. Als u deze optie niet ziet, bent u niet gemachtigd om de naam van deze werkruimte te wijzigen. 
    
-    ![](media/service-rename/power-bi-edit-workspace.png)
+    ![Werkruimte bewerken selecteren](media/service-rename/power-bi-edit-workspace.png)
 3. Typ een nieuwe naam voor de werkruimte en selecteer**Opslaan**.
    
-   ![](media/service-rename/power-bi-workspace-rename.png)
+   ![Deelvenster Werkruimte bewerken](media/service-rename/power-bi-workspace-rename.png)
 
 ## <a name="rename-a-page-in-a-report"></a>De naam van een pagina in een rapport wijzigen
 Niet tevreden over de naam van een pagina in uw Power BI-rapport?  U kunt in slechts een paar klikken de naam wijzigen. De naam van een pagina kan worden gewijzigd in de [weergave voor het bewerken van rapporten](service-interact-with-a-report-in-editing-view.md).
@@ -81,16 +81,16 @@ Niet tevreden over de naam van een pagina in uw Power BI-rapport?  U kunt in sle
 1. Open het rapport in de [bewerkingsweergave](service-reading-view-and-editing-view.md).
 2. Zoek de tabbladen voor de rapportpagina's onder aan het Power BI-venster.
    
-    ![](media/service-rename/report-page-tabs-new.png)
+    ![Rapport waarin tabbladen zijn gemarkeerd](media/service-rename/report-page-tabs-new.png)
 3. Open de rapportpagina waarvan u de naam wilt wijzigen door het tabblad te selecteren.
 4. Dubbelklik op de naam op het tabblad om deze te markeren.  
    
-    ![](media/service-rename/hilite-tab.png)
+    ![Close-up van een tabbladnaam](media/service-rename/hilite-tab.png)
 5. Typ een nieuwe naam voor de rapportpagina en selecteer ENTER.
    
-    ![](media/service-rename/new-name.png)
+    ![Een nieuwe paginanaam typen](media/service-rename/new-name.png)
 
-## <a name="considerations-and-troubleshooting"></a>Overwegingen en probleemoplossing
+## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 * Als het item waarvan de naam moet worden gewijzigd, met u is gedeeld of deel uitmaakt van een inhoudspakket, wordt er geen tandwielpictogram weergegeven u hebt geen toegang tot de instellingen.
 * Als u geen weglatingstekens (...) op het tabblad **Gegevenssets** ziet, breidt u het browservenster uit.
 

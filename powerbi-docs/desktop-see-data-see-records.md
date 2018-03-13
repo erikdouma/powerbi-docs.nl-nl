@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/22/2018
 ms.author: davidi
-ms.openlocfilehash: a61a5d46c2f663ff7e8388a862f5649487504092
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Learn more
+ms.openlocfilehash: c44a5140fe40217aac170abb0b351197803b6299
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>Gegevens weergeven en Records weergeven gebruiken in Power BI Desktop
 In **Power BI Desktop** kunt u inzoomen op de gegevens van een visueel element en ziet u een tekstweergave van de gegevens of afzonderlijke gegevenselementen voor een geselecteerd visueel element. Deze functies worden soms aangeduid met *doorklikken* of *analyse* of *detailanalyse*.
@@ -69,6 +70,9 @@ U kunt zich ook focussen op één gegevenselement in een visueel element en inzo
 Zodra **Records weergeven** is geselecteerd, wordt er door **Power BI Desktop** gefocust op dat afzonderlijke gegevenselement en worden op het canvas de gegevens voor dat element weergegeven, zoals weergegeven in de volgende afbeelding.
 
 ![](media/desktop-see-data-see-records/see-data-see-records_8.png)
+
+> [!NOTE]
+> U kunt wijzigingen in gegevens die worden bekeken in de weergave **Records weergeven** (of door gebruikers worden gewijzigd), niet in een rapport opslaan.
 
 Als u terug wilt gaan naar het rapport, selecteert u de knop **Terug naar rapport** in de linkerbovenhoek van het canvas.
 

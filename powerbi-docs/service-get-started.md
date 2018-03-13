@@ -16,23 +16,23 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: aacc31c3ebb31bf6f8077a2bf802e8127048a431
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: cbb7697e3d3dbc92c2917b0a80deadfc0b9fd5a0
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="get-started-with-power-bi-service-apppowerbicom"></a>Aan de slag met de Power BI-service (app.powerbi.com)
 In deze zelfstudie leest u hoe u aan de slag kunt met de ***Power BI-service***. Als u wilt weten hoe de Power BI-service aansluit bij de andere Power BI-aanbiedingen, is het een goed idee om eerst [Wat is Power BI?](guided-learning/gettingstarted.yml#step-1) te lezen.
 
-![](media/service-get-started/power-bi-components.png)
+![Illustratie van relatie tussen Desktop, service en mobiel](media/service-get-started/power-bi-components.png)
 
 Er is een gratis versie en een Pro-versie van de Power BI-service. Ongeacht welke versie u gebruikt: *als u al een account hebt*, opent u een browser en typt u app.powerbi.com om de Power BI-service te openen. Als u een nieuwe gebruiker bent, kunt u het beste beginnen op www.powerbi.com. Vanaf deze pagina kunt u meer informatie vinden over Power BI voordat u zich bij de service aanmeldt.  Wanneer u klaar bent om de service te proberen, selecteert u de koppeling **Gratis aanmelden** die u in de rechterbovenhoek ziet. Als uw beheerder Power BI al voor u heeft ingeschakeld, hoeft u de knop Gratis aanmelden niet te gebruiken maar kunt u rechtstreeks naar app.powerbi.com gaan. 
 
-![](media/service-get-started/power-bi-sign-up.png)
+![Gratis aanmelden of registreren](media/service-get-started/power-bi-sign-up.png)
 
 Als u hulp nodig hebt bij Power BI Desktop, leest u [Getting started with Power BI Desktop](desktop-getting-started.md) (Aan de slag met Power BI Desktop). Als u hulp zoekt voor een mobiele Power BI-app, leest u [Power BI-apps voor mobiele apparaten](mobile-apps-for-mobile-devices.md).
 
@@ -58,27 +58,27 @@ Hier volgt een voorbeeld van het ophalen van gegevens uit een CSV-bestand. Wilt 
 1. [Meld u aan bij Power BI](http://www.powerbi.com/). Hebt u geen account? Geen probleem, u kunt er gratis een aanvragen.
 2. Power BI wordt geopend in uw browser. Selecteer **Gegevens ophalen** onderin de linkernavigatiebalk.
    
-   ![](media/service-get-started/getdata3.png)
+   ![Gegevens ophalen](media/service-get-started/getdata3.png)
 3. Selecteer **Bestanden**. 
    
-   ![](media/service-get-started/gs1.png)
+   ![Bestanden ophalen](media/service-get-started/gs1.png)
 4. Blader naar het bestand op uw computer en kies **Openen**. Als u het bestand hebt opgeslagen in OneDrive voor Bedrijven, selecteert u die optie. Als u het bestand lokaal hebt opgeslagen, selecteert u **Lokaal bestand**. 
    
-   ![](media/service-get-started/gs2.png)
+   ![Gegevens ophalen > scherm Bestanden](media/service-get-started/gs2.png)
 5. Voor deze zelfstudie selecteren we **Importeren** om het Excel-bestand toe te voegen als een gegevensset die we vervolgens kunnen gebruiken om rapporten en dashboards te maken. Als u **Uploaden** selecteert, wordt de hele Excel-werkmap geüpload naar Power BI, waar u deze kunt openen en bewerken in Excel Online.
    
-   ![](media/service-get-started/power-bi-import.png)
+   ![Importeren kiezen](media/service-get-started/power-bi-import.png)
 6. Als de gegevensset klaar is, selecteert u **Gegevensset weergeven** om deze te openen in de rapporteditor. 
 
-    ![](media/service-get-started/power-bi-gs.png)
+    ![Dialoogvenster Uw gegevensset is gereed](media/service-get-started/power-bi-gs.png)
 
     Omdat we nog geen visualisaties hebben gemaakt, is het rapportcanvas nog leeg.
 
-    ![](media/service-get-started/power-bi-report-editor.png)
+    ![Leeg rapportcanvas](media/service-get-started/power-bi-report-editor.png)
 
 6. Bekijk de bovenste menubalk en kijk of u de optie **Leesweergave** ziet staan. Als u de optie voor de leesweergave kunt zien, betekent dit dat u zich in de **bewerkweergave** bevindt. 
 
-    ![](media/service-get-started/power-bi-editing-view.png)
+    ![Optie Leesweergave](media/service-get-started/power-bi-editing-view.png)
 
     In de bewerkweergave kunt u uw rapporten maken en aanpassen omdat u de *eigenaar* van het rapport bent; u bent de *maker*. Wanneer u uw rapport met collega’s deelt, kunnen zij alleen interactief met het rapport werken in de leesweergave; zij worden *consumenten* genoemd. Lees meer over de [leesweergave en de bewerkweergave](service-reading-view-and-editing-view.md).
     
@@ -91,49 +91,49 @@ Nu u verbinding met de gegevens hebt gemaakt, kunt u gaan verkennen.  Wanneer u 
     
 1. In de rapporteditor gebruiken we het deelvenster **Velden** aan de rechterkant van de pagina voor het bouwen van een visualisatie.  Schakel het selectievakje in van **Gross Sales** en **Date**.
    
-   ![](media/service-get-started/fields.png)
+   ![Lijst met velden](media/service-get-started/fields.png)
 
 2. Power BI analyseert de gegevens en maakt vervolgens een visualisatie.  Als u eerst **Date** hebt geselecteerd, ziet u een tabel.  Als u eerst **Gross Sales** hebt geselecteerd, ziet u een grafiek. Probeer de gegevens eens op een andere manier weer te geven. Laten we deze gegevens eens bekijken als lijndiagram. Selecteer het pictogram Lijndiagram (ook wel sjabloon genoemd) in het **deelvenster Visualisaties**.
    
-   ![](media/service-get-started/gettingstart5new.png)
+   ![Rapporteditor waarin pictogram is geselecteerd](media/service-get-started/gettingstart5new.png)
 
 3. Dit lijkt interessant, dus laten we deze *vastmaken* aan een dashboard. Beweeg de muisaanwijzer over de visualisatie en selecteer het pictogram **Vastmaken**.  Wanneer u deze visualisatie vastmaakt, wordt deze opgeslagen op uw dashboard en kunt u in één oogopslag zien wat de meest recente waarde is.
    
-   ![](media/service-get-started/pinnew.png)
+   ![Speldpictogram](media/service-get-started/pinnew.png)
 
 5. Omdat dit een nieuw rapport is, wordt u gevraagd dit rapport op te slaan voordat u een visualisatie aan een dashboard kan vastmaken. Geef uw rapport een naam (bijv. *Verkoop over periode*) en selecteer **Opslaan en doorgaan**. 
    
-   ![](media/service-get-started/pbi_getstartsaveb4pinnew.png)
+   ![Dialoogvenster Rapport opslaan](media/service-get-started/pbi_getstartsaveb4pinnew.png)
    
 6. Laten we het lijndiagram aan het nieuwe dashboard vastmaken aan en deze de naam 'Financieel voorbeeld voor de zelfstudie' geven. 
    
-   ![](media/service-get-started/power-bi-pin.png)
+   ![Het rapport een naam geven](media/service-get-started/power-bi-pin.png)
    
  1. Selecteer **Vastmaken**.
    
     U ontvangt een bericht (in de rechterbovenhoek) dat de visualisatie als tegel aan uw dashboard is toegevoegd.
    
-    ![](media/service-get-started/power-bi-pin-success.png)
+    ![Dialoogvenster Aan dashboard vastgemaakt](media/service-get-started/power-bi-pin-success.png)
 
 8. Selecteer **Naar het dashboard gaan** om de lijndiagram, die als tegel aan uw nieuwe dashboard is vastgemaakt, te bekijken. Maak het dashboard nog beter door meer visualisatietegels toe te voegen en [tegels een andere naam te geven, groter of kleiner te maken, te koppelen en te verplaatsen](service-dashboard-edit-tile.md).
    
-   ![](media/service-get-started/power-bi-new-dashboard.png)
+   ![Dashboard waarin visualisatie is vastgemaakt](media/service-get-started/power-bi-new-dashboard.png)
    
    Selecteer de nieuwe tegel in het dashboard als u wilt terugkeren naar het rapport. U keert terug naar de rapporteditor in de leesweergave. Als u terug wilt naar de bewerkweergave, selecteert u **Rapport bewerken** in de bovenste menubalk. Eenmaal in de bewerkweergave, kunt u meer tegels verkennen en vastmaken. 
 
 ## <a name="step-3--continue-the-exploration-with-qa-natural-language-querying"></a>Stap 3: ga verder met verkennen met behulp van Q&A (query's uitvoeren in natuurlijke taal)
 1. Als u gegevens snel wilt verkennen, kunt u een vraag typen in het vak Een vraag stellen. Het vak Q&A bevindt zich boven aan uw dashboard (**Q&A over uw gegevens**) en in de bovenste menubalk in uw rapport (**Q&A**). Typ bijvoorbeeld eens ‘what segment had the most revenue’.
    
-   ![](media/service-get-started/powerbi-qna.png)
+   ![Q&A-canvas](media/service-get-started/powerbi-qna.png)
 
-2. Via Q&A wordt een antwoord gezocht dat vervolgens als visualisatie wordt weergegeven. Selecteer het pictogram Vastmaken ![](media/service-get-started/pbi_pinicon.png) om deze visualisatie ook weer te geven in uw dashboard.
+2. Via Q&A wordt een antwoord gezocht dat vervolgens als visualisatie wordt weergegeven. Selecteer het speldpictogram ![Speldpictogram](media/service-get-started/pbi_pinicon.png) om deze visualisatie ook in uw dashboard weer te geven.
 3. Maak de visualisatie vast aan het dashboard ‘Financieel voorbeeld voor zelfstudie’.
    
-    ![](media/service-get-started/power-bi-pin2.png)
+    ![Dialoogvenster Aan dashboard vastmaken](media/service-get-started/power-bi-pin2.png)
 
 4. Ga terug naar uw dashboard. Hier ziet u de nieuwe tegel.
 
-   ![](media/service-get-started/power-bi-final-dashboard.png)
+   ![Dashboard waarin grafiek is vastgemaakt](media/service-get-started/power-bi-final-dashboard.png)
 
 ## <a name="next-steps"></a>Volgende stappen
 Klaar om meer uit te proberen?  Hier volgen enkele goede manieren om nader kennis te maken met Power BI.

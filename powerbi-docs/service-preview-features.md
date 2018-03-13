@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 4ffa00f92a6ee1275c1f8a691369cfd54363aa98
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 45f10ab7fef7669adbbc836e67a4daaed267905e
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="opt-in-for-power-bi-preview-features"></a>Aanmelden voor preview-functies van Power BI
 ## <a name="what-are-preview-features"></a>Wat zijn *preview-functies*?
@@ -37,10 +37,10 @@ Wanneer we verbeteringen aanbrengen in Power BI, brengen we een aantal nieuwe fu
 ## <a name="find-previews-and-turn-them-on-and-off"></a>Voorbeelden zoeken en deze inschakelen (en uitschakelen)
 1. Open het menu Instellingen door het tandwielpictogram te selecteren in de rechterbovenhoek van het scherm van Power BI en kies **Instellingen**.
    
-   ![](media/service-preview-features/power-bi-settings.png).
+   ![Menu Instellingen](media/service-preview-features/power-bi-settings.png).
 2. Selecteer het tabblad **Algemeen**. Als er voorbeelden beschikbaar zijn, ziet u een optie om **voorbeelden van functies te zien** of een voorbeeldfunctie aan de linkerkant.  In dit voorbeeld wordt een voorbeeld weergegeven voor ArcGIS Maps. 
    
-   ![](media/service-preview-features/power-bi-preview-arcgis.png)
+   ![Tabblad Algemeen](media/service-preview-features/power-bi-preview-arcgis.png)
 3. Selecteer het keuzerondje **Aan** of schakel het selectievakje in om de nieuwe ervaring uit te proberen. Selecteer vervolgens **Toepassen**.
 4. Als u voorbeeldfuncties wilt uitschakelen, volgt u de stappen 1 t/m 3 hierboven. Kies **Uit** in stap 3 of schakel het selectievakje uit en selecteer **Toepassen**.
 

@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 2a4134e1a06933927bd2c5453cd8e7a79394c384
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 187ca632ad947e5cb657f3a5d19e1d62262259b4
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Gegevenswaarschuwingen in de Power BI-service
 Stel meldingen in om u te waarschuwen als wijzigingen aan de gegevens in uw dashboards de limieten overschrijden die u hebt ingesteld. 
@@ -31,10 +32,10 @@ Meldingen kunnen alleen worden ingesteld op tegels die zijn vastgemaakt vanuit v
 
 U bent zelf de enige die de door u ingestelde meldingen kunt zien, ook als u uw dashboard deelt. Gegevensmeldingen worden volledig met alle platforms gesynchroniseerd. Stel gegevensmeldingen in en bekijk ze [in de mobiele Power BI-apps](mobile-set-data-alerts-in-the-mobile-apps.md) (Engelstalig) en in de Power BI-service. Ze zijn niet beschikbaar voor Power BI Desktop. Meldingen kunnen ook worden [geautomatiseerd en geïntegreerd met Microsoft Flow](https://flow.microsoft.com) - [probeer het zelf](service-flow-integration.md).
 
-![](media/service-set-data-alerts/powerbi-alert-types-new.png)
+![Tegels](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
 > [!WARNING]
-> Gegevensgestuurde waarschuwingsmeldingen bieden informatie over uw gegevens. Als u uw Power BI-gegevens op een mobiel apparaat weergeeft en dat apparaat wordt gestolen, wordt u aangeraden de Power BI-service te gebruiken om alle regels voor gegevensgestuurde meldingen uit te schakelen.
+> Gegevensgestuurde meldingen bieden informatie over uw gegevens. Als u uw Power BI-gegevens op een mobiel apparaat weergeeft en dat apparaat wordt gestolen, wordt u aangeraden de Power BI-service te gebruiken om alle regels voor gegevensgestuurde meldingen uit te schakelen.
 > 
 > 
 
@@ -47,15 +48,15 @@ In dit voorbeeld wordt een kaarttegel gebruikt van het voorbeelddashboard voor r
 
 1. Begin op een dashboard. Selecteer de beletseltekens (drie puntjes) op een dashboardmeter, KPI of kaarttegel.
    
-   ![](media/service-set-data-alerts/powerbi-card.png)
-2. Selecteer het belpictogram ![](media/service-set-data-alerts/power-bi-bell-icon.png) om een of meer meldingen toe te voegen aan **Totaal aantal winkels**.
+   ![Tegel Totaal aantal winkels](media/service-set-data-alerts/powerbi-card.png)
+2. Selecteer het belpictogram ![Waarschuwingspictogram](media/service-set-data-alerts/power-bi-bell-icon.png) om een of meer waarschuwingen toe te voegen aan **Totaal aantal winkels**.
    
 1. Selecteer eerst **+ Waarschuwingsregel toevoegen**. Controleer vervolgens of de schuifregelaar is ingesteld op **Aan** en geef de melding een titel. Titels helpen u de meldingen makkelijk te herkennen.
    
-   ![](media/service-set-data-alerts/powerbi-alert-title.png)
+   ![Venster Waarschuwingen beheren](media/service-set-data-alerts/powerbi-alert-title.png)
 4. Schuif omlaag en voer de details van de melding in.  In dit voorbeeld maken we een melding die ons eenmaal per dag waarschuwt als het totale aantal winkels de honderd overschrijdt. Meldingen worden weergegeven in het meldingencentrum. We zorgen er ook voor dat Power BI een e-mail stuurt.
    
-   ![](media/service-set-data-alerts/power-bi-set-alert-details.png)
+   ![Venster Waarschuwingen beheren, drempel instellen](media/service-set-data-alerts/power-bi-set-alert-details.png)
 5. Selecteer **Opslaan**.
 
 ## <a name="receiving-alerts"></a>Meldingen ontvangen
@@ -65,13 +66,13 @@ Vervolgens wordt een melding verzonden naar het meldingencentrum en ontvangt u e
 
 1. Als de melding zo is ingesteld dat u een e-mail ontvangt, vindt u iets soortgelijks als hieronder in uw Postvak IN.
    
-   ![](media/service-set-data-alerts/powerbi-alerts-email.png)
+   ![Waarschuwings-e-mail](media/service-set-data-alerts/powerbi-alerts-email.png)
 2. Er wordt een bericht aan het **meldingencentrum** toegevoegd en een nieuw meldingenpictogram aan de desbetreffende tegel.
    
-   ![](media/service-set-data-alerts/powerbi-alert-notifications.png)
+   ![Meldingspictogram in Power BI-service](media/service-set-data-alerts/powerbi-alert-notifications.png)
 3. Open het meldingencentrum om de details van de melding te bekijken.
    
-    ![](media/service-set-data-alerts/powerbi-alert-notfication.png)
+    ![De waarschuwing lezen](media/service-set-data-alerts/powerbi-alert-notfication.png)
    
    > [!NOTE]
    > Meldingen werken alleen voor gegevens die zijn vernieuwd. Als gegevens worden vernieuwd, controleert Power BI of er een melding voor die gegevens is ingesteld. Als de gegevens een drempelwaarde voor de melding hebben bereikt, wordt er een melding geactiveerd.
@@ -82,23 +83,23 @@ Vervolgens wordt een melding verzonden naar het meldingencentrum en ontvangt u e
 U kunt meldingen op diverse manieren beheren: vanaf het dashboardtegel zelf, vanuit het menu Instellingen in Power BI en vanaf een individuele tegel in de [mobiele Power BI-app op de iPhone](mobile-set-data-alerts-in-the-mobile-apps.md) (Engelstalig) of in de [mobiele Power BI-app voor Windows 10](mobile-set-data-alerts-in-the-mobile-apps.md) (Engelstalig).
 
 ### <a name="from-the-tile-itself"></a>Vanaf de tegel zelf
-1. Als u een melding voor een tegel wilt wijzigen of verwijderen, opent u opnieuw het venster **Meldingen beheren** door het belpictogram ![](media/service-set-data-alerts/power-bi-bell-icon.png) te selecteren. Alle meldingen die u voor die tegel hebt ingesteld, worden weergegeven.
+1. Als u een waarschuwing voor een tegel wilt wijzigen of verwijderen, opent u opnieuw het venster **Waarschuwingen beheren** door het belpictogram ![Waarschuwingspictogram](media/service-set-data-alerts/power-bi-bell-icon.png) te selecteren. Alle meldingen die u voor die tegel hebt ingesteld, worden weergegeven.
    
-    ![](media/service-set-data-alerts/powerbi-see-alerts.png).
+    ![Venster Waarschuwingen beheren](media/service-set-data-alerts/powerbi-see-alerts.png).
 2. Als u een tegel wilt wijzigen, selecteert u de pijl links van de naam van de melding.
    
-    ![](media/service-set-data-alerts/powerbi-see-alerts-arrow.png).
+    ![Pijl naast de naam van de waarschuwing](media/service-set-data-alerts/powerbi-see-alerts-arrow.png).
 3. Als u een tegel wilt verwijderen, selecteert u de prullenbak rechts van de naam van de melding.
    
-      ![](media/service-set-data-alerts/powerbi-see-alerts-delete.png)
+      ![Pictogram met prullenbak geselecteerd](media/service-set-data-alerts/powerbi-see-alerts-delete.png)
 
 ### <a name="from-the-power-bi-settings-menu"></a>Vanuit het menu Instellingen in Power BI
 1. Selecteer het tandwielpictogram in de Power BI-menubalk.
    
-    ![](media/service-set-data-alerts/powerbi-gear-icon.png).
+    ![Tandwielpictogram](media/service-set-data-alerts/powerbi-gear-icon.png).
 2. Selecteer onder **Instellingen** de optie **Meldingen**.
    
-    ![](media/service-set-data-alerts/powerbi-alert-settings.png)
+    ![Tabblad Waarschuwingen in het venster Instellingen](media/service-set-data-alerts/powerbi-alert-settings.png)
 3. Hier kunt u meldingen in- en uitschakelen, het venster **Meldingen beheren** openen om wijzigingen aan te brengen of de melding verwijderen.
 
 ## <a name="tips-and-troubleshooting"></a>Tips en problemen oplossen

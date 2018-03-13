@@ -16,18 +16,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 8a818c26a6f9afd134133464b972091faaad093d
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: 5015886d0314c767bc16fe223c7db91adb0fd2bb
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Een rapport filteren door queryreeksparameters in de URL te gebruiken
 Wanneer u een rapport in Power BI-service opent, heeft elke pagina van het rapport een eigen unieke URL. Als u deze rapportpagina wilt filteren, kunt u het deelvenster met filters gebruiken op het rapportcanvas.  Of u kunt queryreeksparameters toevoegen aan de URL om het rapport te filteren. Misschien hebt u een rapport dat u aan collega's wilt laten zien en u wilt het voor hen vooraf filteren. U kunt beginnen met de standaard-URL voor het rapport, de filterparameters toevoegen aan de URL en hen vervolgens via e-mail de volledige URL sturen.
 
-![](media/service-url-filters/power-bi-report2.png)
+![Power BI-rapport in de service](media/service-url-filters/power-bi-report2.png)
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/WQFtN8nvM4A?list=PLv2BtOtLblH3YE_Ycas5B1GtcoFfJXavO&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -36,7 +37,7 @@ De syntaxis is vrij eenvoudig: start met de URL van het rapport, voeg een vraagt
 
 URL?filter=***Tabel***/***Veld*** eq '***waarde***'
 
-![](media/service-url-filters/power-bi-filter-urls7b.png)
+![URL met filter](media/service-url-filters/power-bi-filter-urls7b.png)
 
 * De naam van de **tabel** en het **veld** zijn hoofdlettergevoelig, de **waarde** is dat niet.
 * Velden die verborgen zijn in de rapportageweergave kunnen nog steeds worden gefilterd.
@@ -49,7 +50,7 @@ Als het nog steeds verwarrend voor u is, lees dan verder en we zullen het voor u
 ## <a name="filter-on-a-field"></a>Filteren op een veld
 Stel dat de URL van ons rapport als volgt is.
 
-![](media/service-url-filters/power-bi-filter-urls6.png)
+![Begin-URL](media/service-url-filters/power-bi-filter-urls6.png)
 
 En we zien op onze visualisatiekaart (boven) dat we winkels in North Carolina hebben.
 
@@ -61,7 +62,7 @@ Als u het rapport zodanig wilt filteren dat er alleen winkels in North Carolina 
 
 ?filter=Winkel/Gebied eq 'NC'
 
-![](media/service-url-filters/power-bi-filter-urls7.png)
+![URL met filter](media/service-url-filters/power-bi-filter-urls7.png)
 
 >[!NOTE]
 >*NC* is de waarde voor North Carolina zoals opgeslagen in het veld **Gebied** van de tabel **Winkel**.

@@ -15,19 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: f6ddae485f15a1ebeed2ef1dfa7a1d373f9bb04b
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 3b6d8c31c9ba03b0119635af5f9270a584081139
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Dashboardtegels in Power BI
 Dashboards en dashboardtegels zijn functies van Power BI-service, niet van Power BI Desktop. Dashboardtegels kunnen niet worden gemaakt of vastgemaakt in Power BI - Mobiel, [maar kunnen daarin wel worden weergeven en gedeeld](mobile-tiles-in-the-mobile-apps.md). En in Power BI - Mobiel kunt u [afbeeldingen toevoegen aan uw dashboard met uw iPhone-app](mobile-iphone-app-get-started.md).
 
 ## <a name="dashboard-tiles"></a>Dashboardtegels
-![](media/service-dashboard-tiles/power-bi-dashboard.png)
+![Power BI-dashboard](media/service-dashboard-tiles/power-bi-dashboard.png)
 
 Een tegel is een momentopname van uw gegevens, vastgemaakt aan het dashboard. Een tegel kan worden gemaakt vanuit een rapport, gegevensset, dashboard of Q&A-vak, vanuit Excel en SQL Server Reporting Services (SSRS), enzovoort.  Deze schermopname laat verschillende tegels zien die zijn vastgemaakt aan een dashboard.
 
@@ -53,34 +54,34 @@ Er zijn veel verschillende manieren om een tegel toe te voegen (vastmaken) aan e
 
 Zelfstandige tegels voor afbeeldingen, tekstvakken, video's, streaminggegevens en webinhoud kunnen rechtstreeks op het dashboard worden gemaakt met [Tegel toevoegen](service-dashboard-add-widget.md).
 
-  ![](media/service-dashboard-tiles/add_widgetnew.png)
+  ![Pictogram Tegel toevoegen](media/service-dashboard-tiles/add_widgetnew.png)
 
 ## <a name="interacting-with-tiles-on-a-dashboard"></a>Interactie met tegels op een dashboard
 ### <a name="move-and-resize-a-tile"></a>Een tegel verplaatsen en het formaat ervan wijzigen
-Pak een tegel en [beweeg deze over het dashboard](service-dashboard-edit-tile.md). Wijs de formaatgreep aan en selecteer deze ![](media/service-dashboard-tiles/resize-handle.jpg) om het formaat van de tegel te wijzigen.
+Pak een tegel en [beweeg deze over het dashboard](service-dashboard-edit-tile.md). Wijs de formaatgreep ![Formaatgreep](media/service-dashboard-tiles/resize-handle.jpg) aan en selecteer deze om het formaat van de tegel te wijzigen.
 
 ### <a name="hover-over-a-tile-to-change-the-appearance-and-behavior"></a>Beweeg de muisaanwijzer over een tegel om het uiterlijk en gedrag ervan te wijzigen
 1. Beweeg de muisaanwijzer over de tegel om de weglatingstekens weer te geven.
    
-    ![](media/service-dashboard-tiles/ellipses_new.png)
+    ![Weglatingstekens tegel](media/service-dashboard-tiles/ellipses_new.png)
 2. Selecteer de weglatingstekens om het actiemenu van de tegel te openen.
    
-    ![](media/service-dashboard-tiles/power-bi-tile-menu.png)
+    ![Pictogram weglatingstekens](media/service-dashboard-tiles/power-bi-tile-menu.png)
    
     Hier kunt u het volgende doen:
    
-   * [Het rapport openen waarmee deze tegel is gemaakt ](service-reports.md)![](media/service-dashboard-tiles/chart-icon.jpg)  
+   * [Het rapport openen waarmee deze tegel is gemaakt ](service-reports.md) ![Rapportpictogram](media/service-dashboard-tiles/chart-icon.jpg)  
    
-   * [Het werkblad openen waarmee deze tegel is gemaakt ](service-reports.md)![](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
+   * [Het werkblad openen waarmee deze tegel is gemaakt ](service-reports.md) ![Werkbladpictogram](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
      
-     * [Weergave in de focusmodus ](service-focus-mode.md) ![](media/service-dashboard-tiles/fullscreen-icon.jpg)  
-     * [De in de tegel gebruikte gegevens exporteren](power-bi-visualization-export-data.md)![](media/service-dashboard-tiles/export-icon.png)
-     * [Titel en subtitel bewerken, een hyperlink toevoegen, tijdstip van laatste vernieuwing weergeven](service-dashboard-edit-tile.md)![](media/service-dashboard-tiles/pencil-icon.jpg)
-     * [Inzichten verkrijgen](service-insights.md) ![](media/service-dashboard-tiles/power-bi-insights.png)
+     * [Weergave in de focusmodus ](service-focus-mode.md) ![Focuspictogram](media/service-dashboard-tiles/fullscreen-icon.jpg)  
+     * [De in de tegel gebruikte gegevens exporteren](power-bi-visualization-export-data.md) ![Pictogram voor exporteren van gegevens](media/service-dashboard-tiles/export-icon.png)
+     * [Titel en subtitel bewerken, een hyperlink toevoegen, tijdstip van laatste vernieuwing weergeven](service-dashboard-edit-tile.md) ![Bewerkpictogram](media/service-dashboard-tiles/pencil-icon.jpg)
+     * [Inzichten uitvoeren](service-insights.md) ![Pictogram voor inzichten](media/service-dashboard-tiles/power-bi-insights.png)
      * [De tegel aan een ander dashboard vastmaken](service-pin-tile-to-another-dashboard.md)
-       ![](media/service-dashboard-tiles/pin-icon.jpg)
-   * [De tegel verwijderen](service-dashboard-edit-tile.md)
-     ![](media/service-dashboard-tiles/trash-icon.png)
+       ![Speldpictogram](media/service-dashboard-tiles/pin-icon.jpg)
+     * [De tegel verwijderen](service-dashboard-edit-tile.md)
+     ![Verwijderpictogram ](media/service-dashboard-tiles/trash-icon.png)
 3. Selecteer een leeg gebied op het canvas om het actiemenu te sluiten.
 
 ### <a name="select-click-a-tile"></a>Selecteer (klik op) een tegel

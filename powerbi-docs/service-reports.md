@@ -15,19 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: baa94483b8174d62d0f7e27d726bb59dbb0b4c10
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: 664e07b1a772c0eb5d14372061511bc86c671b64
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="reports-in-power-bi"></a>Rapporten in Power BI
 ## <a name="what-is-a-power-bi-report"></a>Wat is een Power BI-rapport?
 Een Power BI-***rapport*** biedt een meervoudige weergave van een gegevensset, met visualisaties die andere bevindingen en inzichten uit die gegevensset weergeven.  Een rapport kan één visualisatie of pagina's vol visualisaties hebben. Afhankelijk van uw functie bent u mogelijk iemand die rapporten *maakt* en/of iemand die rapporten *verbruikt* of gebruikt.
 
-![](media/service-reports/reportview.png)
+![Rapportpagina](media/service-reports/reportview.png)
 
 Dit rapport heeft 3 pagina's (of tabbladen) en momenteel wordt de overzichtspagina Winkelverkoop weergegeven. Op deze pagina zijn 6 verschillende visualisaties en een paginatitel. Visualisaties kunnen worden *vastgemaakt* aan dashboards. Wanneer deze vastgemaakte visualisatie wordt geselecteerd, wordt het rapport waaruit het rapport is vastgemaakt, geopend.
 
@@ -43,7 +44,7 @@ Rapporten zijn gebaseerd op een enkele gegevensset. De visualisaties in een rapp
 
 | **Mogelijkheid** | **Dashboards** | **Rapporten** |
 | --- | --- | --- |
-| Pagina's |Één pagina |Een of meer pagina's |
+| Pagina's |Eén pagina |Een of meer pagina's |
 | Gegevensbronnen |Een of meer rapporten en een of meer gegevenssets per dashboard |Eén gegevensset per rapport |
 | Beschikbaar in Power BI Desktop |Nee |Ja, u kunt rapporten maken en bekijken in Desktop |
 | Vastmaken |U kunt bestaande visualisaties (tegels) alleen vanaf het huidige dashboard aan uw andere dashboards vastmaken |U kunt visualisaties (als tegels) aan elk dashboard vastmaken. U kunt hele rapportpagina's aan uw dashboards vastmaken. |
@@ -55,7 +56,7 @@ Rapporten zijn gebaseerd op een enkele gegevensset. De visualisaties in een rapp
 | U kunt het visualisatietype wijzigen |Nee. In feite, als een eigenaar van een rapport het visualisatietype in het rapport wijzigt, wordt de vastgemaakte visualisatie op het dashboard niet bijgewerkt |Ja |
 | U kunt onderliggende tabellen en velden van de gegevensset bekijken |Nee. U kunt gegevens exporteren maar tabellen en velden niet in het dashboard zelf zien. |Ja. U kunt tabellen en velden en waarden van gegevenssets bekijken. |
 | U kunt visualisaties maken |Beperkt tot het toevoegen van widgets aan het dashboard met Tegel toevoegen |U kunt veel verschillende soorten visuele elementen maken, aangepaste visualisaties toevoegen, visualisaties bewerken en meer met Machtigingen bewerken |
-| Aanpassen |U kunt dingen doen met de visualisaties (tegels) zoals verplaatsen en rangschikken, vergroten/verkleinen, koppelingen toevoegen, hernoemen, verwijderen en het volledige scherm weergeven. Maar de gegevens en visualisaties zelf zijn alleen-lezen. |In de Leesweergave kunt u publiceren, insluiten, filteren, exporteren, downloaden als .pbix, gerelateerde inhoud weergeven, QR-codes genereren, analyseren in Excel en meer.  In de Bewerkweergave kunt u alles wat tot nu toe is vermeld en nog veel meer doen. |
+| Aanpassen |U kunt dingen doen met de visualisaties (tegels) zoals verplaatsen en rangschikken, vergroten/verkleinen, koppelingen toevoegen, hernoemen, verwijderen en schermvullend weergeven. Maar de gegevens en visualisaties zelf zijn alleen-lezen. |In de leesweergave kunt u publiceren, insluiten, filteren, exporteren, downloaden als .pbix, gerelateerde inhoud weergeven, QR-codes genereren, analyseren in Excel en meer.  In de Bewerkweergave kunt u alles wat tot nu toe is vermeld en nog veel meer doen. |
 
 ## <a name="report-creators-and-report-consumers"></a>***Makers*** en ***verbruikers*** van rapporten
 Afhankelijk van uw rol bent u mogelijk iemand die rapporten maakt voor uw eigen gebruik of om te delen met collega's. U wilt meer informatie over het maken en delen van rapporten. Of misschien bent u iemand die rapporten van andere ontvangt. U wilt meer informatie over het begrijpen en communiceren met de rapporten.
