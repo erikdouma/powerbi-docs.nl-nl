@@ -19,10 +19,10 @@ ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: b3dda418f3493c91db1be75365192539757f0449
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Interactie met een rapport in de bewerkweergave in Power BI-service
 Rapporten kunnen worden bewerkt in Power BI-service en in Power BI Desktop - als u eigenaarsmachtigingen hebt. In tegenstelling tot Desktop heeft Power BI-service twee verschillende modi voor interactie met rapporten -- [leesweergave](service-reading-view-and-editing-view.md) voor *gebruikers* van rapporten en bewerkweergave voor rapporteigenaars en -auteurs. In deze zelfstudie wordt de bewerkweergave in Power BI-service behandeld. 

@@ -16,19 +16,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 81ea6b32c6f61299c410325a432c521d8b402549
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: efa6d0266ae6fc8418ff4a6f2f78e47f5481d166
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="featured-dashboards-in-power-bi-service"></a>Aanbevolen dashboards in de Power BI-service
 ## <a name="create-a-featured-dashboard"></a>Een aanbevolen dashboard maken
 Veel mensen hebben één dashboard dat ze vaker bezoeken dan andere.  Dit kan het dashboard zijn dat we gebruiken voor ons bedrijf, of een dashboard dat een verzameling tegels uit veel verschillende dashboards en rapporten bevat.
 
-![](media/service-dashboard-featured/power-bi-feature-nav.png)
+![Pictogram Instellen als aanbevolen](media/service-dashboard-featured/power-bi-feature-nav.png)
 
 Als u een dashboard selecteert als *aanbevolen*, wordt het dashboard meteen weergegeven wanneer u de Power BI-service opent.  
 
@@ -47,22 +48,22 @@ Kijk mee terwijl Amanda een aanbevolen dashboard maakt en volg vervolgens de ins
 
 
 1. Open het dashboard dat u wilt instellen als *aanbevolen*. 
-2. In de bovenste navigatiebalk ziet u **Instellen als aanbevolen** of alleen het pictogram Aanbevolen ![](media/service-dashboard-featured/power-bi-featured-icon.png). Selecteer één van beide.
+2. In de bovenste navigatiebalk ziet u **Instellen als aanbevolen** of alleen het pictogram Aanbevolen ![Pictogram Aanbevolen](media/service-dashboard-featured/power-bi-featured-icon.png). Selecteer één van beide.
    
-    ![](media/service-dashboard-featured/power-bi-set-as-featured.png)
+    ![Pictogram Instellen als aanbevolen](media/service-dashboard-featured/power-bi-set-as-featured.png)
 3. Bevestig uw selectie.
    
-    ![](media/service-dashboard-featured/power-bi-create-featured.png)
+    ![Instellen als aanbevolen dashboard](media/service-dashboard-featured/power-bi-create-featured.png)
 
 ## <a name="change-the-featured-dashboard"></a>Het aanbevolen dashboard wijzigen
 Als u later van gedachten verandert, kunt u een nieuw dashboard instellen als aanbevolen dashboard.
 
 1. Volg de stappen 1 en 2 hierboven.
    
-    ![](media/service-dashboard-featured/power-bi-change-feature.png)
+    ![Venster Aanbevolen dashboard wijzigen](media/service-dashboard-featured/power-bi-change-feature.png)
 2. Selecteer **Instellen als aanbevolen**. Als u de markering als aanbevolen van een dashboard ongedaan maakt, wordt het niet verwijderd uit uw werkruimte.  
    
-    ![](media/service-dashboard-featured/power-bi-success.png)
+    ![Het bericht Geslaagd](media/service-dashboard-featured/power-bi-success.png)
 
 ## <a name="remove-the-featured-dashboard"></a>Het aanbevolen dashboard verwijderen
 Als u een dashboard niet meer gemarkeerd wilt hebben als aanbevolen, ziet u hier hoe u de markering als aanbevolen van een dashboard verwijdert.
@@ -70,7 +71,7 @@ Als u een dashboard niet meer gemarkeerd wilt hebben als aanbevolen, ziet u hier
 1. Open het momenteel aanbevolen dashboard.
 2. Selecteer in de bovenste menubalk **Aanbevolen uitschakelen**.
    
-    ![](media/service-dashboard-featured/power-bi-unfeature.png)
+    ![Aanbevolen verwijderen](media/service-dashboard-featured/power-bi-unfeature.png)
 
 Nu opent Power BI het laatste dashboard dat u hebt gebruikt.  
 

@@ -15,18 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 6948f0e333ba1136f6fda8fa0f62b146cefdd710
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Reports
+ms.openlocfilehash: 6eca438c9e12d99f925aef864ed9b74e16ef30b7
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Leesweergave en bewerkweergave in rapporten van de Power BI-service
 In de Power BI-service (geen Power BI Desktop) zijn er twee modi voor het weergeven en werken met rapporten: de leesweergave en de bewerkweergave. De leesweergave is beschikbaar voor alle gebruikers en is speciaal ontworpen voor *gebruikers van gegevens*, terwijl de bewerkweergave alleen beschikbaar is voor *rapportauteurs* en -eigenaren. 
 
-![](media/service-reading-view-and-editing-view/power-bi-creators-consumers.png)
+![Illustraties van makers en gebruikers van rapport](media/service-reading-view-and-editing-view/power-bi-creators-consumers.png)
 
 ## <a name="report-reading-view"></a>Leesweergave rapport
 
@@ -83,17 +84,17 @@ Onthoud dat alleen de auteur en eigenaar(eigenaren) van rapporten een rapport in
 
 1. Een rapport wordt standaard geopend in de leesweergave. U kunt zien dat u zich in de leesweergave bevindt als u de optie **Rapport bewerken** ziet staan. Als **Rapport bewerken** grijs wordt weergegeven, bent u niet gemachtigd om het rapport te openen in de bewerkweergave.
 
-   ![](media/service-reading-view-and-editing-view/power-bi-edit-report-grey.png)
+   ![Rapport bewerken grijs weergegeven](media/service-reading-view-and-editing-view/power-bi-edit-report-grey.png)
 
 2. Als **Rapport bewerken** niet grijs wordt weergegeven, selecteert u deze optie om het rapport in de bewerkweergave te openen. 
    
-   ![](media/service-reading-view-and-editing-view/power-bi-edit-report.png)
+   ![Optie Rapport bewerken](media/service-reading-view-and-editing-view/power-bi-edit-report.png)
    
    Het rapport is nu in de bewerkweergave en maakt gebruik van dezelfde [weergave-instellingen](power-bi-report-display-settings.md) als die u voor het laatst hebt gebruikt in de leesweergave.
 
 2. Als u terug wilt naar de leesweergave, selecteert u **Leesweergave** in de bovenste navigatiebalk.
    
-    ![](media/service-reading-view-and-editing-view/power-bi-reading-view.png)
+    ![Optie Leesweergave](media/service-reading-view-and-editing-view/power-bi-reading-view.png)
 
 
 

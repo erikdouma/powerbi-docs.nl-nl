@@ -16,16 +16,17 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/17/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 6527006095e6d716687477e7408a980ee765fb5a
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+LocalizationGroup: Dashboards
+ms.openlocfilehash: dda89f4cffd99ae8f7b435133e9be550d7da0339
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>Een kopie van een dashboard maken in Power BI
-![](media/service-dashboard-copy/power-bi-dashboard.png)
+![Dashboard](media/service-dashboard-copy/power-bi-dashboard.png)
 
  Er zijn veel verschillende redenen om een kopie te maken van een dashboard. Misschien wilt u wijzigingen aanbrengen en de prestaties ten opzichte van het origineel testen. Of misschien wilt u enigszins verschillende versies distribueren per collega, regio of team. Misschien vindt een collega uw dashboardontwerpen zeer geslaagd en wil zij ze gebruiken om aan haar managers te rapporteren. Een andere reden zou zijn als u een nieuwe database met dezelfde gegevensstructuur en dezelfde gegevenstypen hebt en u het dashboard dat u al hebt gemaakt, opnieuw wilt gebruiken. Dat kan ook, maar vergt wel wat werk in Power BI Desktop. 
 
@@ -36,13 +37,13 @@ Als u een kopie van een dashboard wilt maken, moet dit vanuit het dashboard *Aut
 1. Open het dashboard.
 2. Selecteer in de rechterbovenhoek de weglatingstekens (...) en kies **Dashboard dupliceren**.
    
-   ![](media/service-dashboard-copy/power-bi-dulicate.png)
+   ![Menu met weglatingstekens](media/service-dashboard-copy/power-bi-dulicate.png)
 3. Geef het dashboard en naam en selecteer **Dupliceren**. 
    
-   ![](media/service-dashboard-copy/power-bi-name.png)
+   ![Dialoogvenster Dashboard dupliceren](media/service-dashboard-copy/power-bi-name.png)
 4. Het nieuwe dashboard wordt opgeslagen in dezelfde werkruimte als het origineel. 
    
-   ![](media/service-dashboard-copy/power-bi-copied.png)
+   ![Tabblad Dashboards](media/service-dashboard-copy/power-bi-copied.png)
 
 5.    Open het nieuwe dashboard en bewerk indien nodig. Hier volgen enkele dingen die u mogelijk daarna wilt doen:    
     a. [Tegels verplaatsen, de naam ervan wijzigen, vergroten/verkleinen of zelfs verwijderen](service-dashboard-edit-tile.md).  

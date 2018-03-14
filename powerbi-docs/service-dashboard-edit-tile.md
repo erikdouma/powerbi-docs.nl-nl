@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/20/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 5c208ab13398987350d2acd72e29dbc4d6a6c4a1
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 98856d551e0f124d7ea3e038623e2340ceeb18b8
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Een dashboardtegel bewerken of verwijderen
 
@@ -54,23 +55,23 @@ Dit artikel bevat informatie over het volgende.
 ## <a name="create-a-new-visualization-and-pin-it-to-the-dashboard"></a>Een nieuwe visualisatie maken en vastmaken aan het dashboard
 1. Selecteer de tegel Bedrag om het rapport te openen in het dashboard voor IT-uitgavenanalyse.
 
-    ![](media/service-dashboard-edit-tile/power-bi-amount-tile.png)
+    ![Tegel Bedrag](media/service-dashboard-edit-tile/power-bi-amount-tile.png)
 
 2. Open het rapport in de bewerkingsweergave door **Rapport bewerken** te selecteren in de bovenste menubalk.
 
 3. Voeg een nieuwe rapportpagina toe door onder aan het rapport het plusteken (+) te selecteren.
 
-    ![](media/service-dashboard-edit-tile/power-bi-add-page.png)
+    ![Plusteken](media/service-dashboard-edit-tile/power-bi-add-page.png)
 
 4. Selecteer in het deelvenster VELDEN **Feit > Bedrag** en **Zakelijk gebied > Zakelijk gebied**.
  
 5. Selecteer in het deelvenster VISUALISATIES het pictogram Ringdiagram om de visualisatie te converteren naar een ringdiagram.
 
-    ![](media/service-dashboard-edit-tile/power-bi-donut-chart.png)
+    ![Deelvenster Visualisaties](media/service-dashboard-edit-tile/power-bi-donut-chart.png)
 
 5. Selecteer het speldpictogram en maak het ringdiagram vast aan het dashboard van het voorbeeld van een IT-uitgavenanalyse.
 
-   ![](media/service-dashboard-edit-tile/power-bi-pin.png)
+   ![De muisaanwijzer over een tegel bewegen](media/service-dashboard-edit-tile/power-bi-pin.png)
 
 6. Wanneer het bericht verschijnt dat de bewerking is voltooid, selecteert u **Naar het dashboard gaan**. U wordt vervolgens gevraagd om uw wijzigingen op te slaan. Selecteer **Opslaan**.
 
@@ -86,24 +87,23 @@ Zoek de nieuwe tegel op het dashboard. Selecteert en de tegel en houd deze vast 
 ## <a name="resize-the-tile"></a>Het formaat van de tegel wijzigen
 U kunt tegels verschillende afmetingen geven--van 1 x 1 tegeleenheden tot en met 5 x 5 tegeleenheden. Selecteer en sleep de greep (in de rechterbenedenhoek) om het formaat van de tegel te wijzigen.
 
-![](media/service-dashboard-edit-tile/pbigif_resizetile4.gif)
+![Video](media/service-dashboard-edit-tile/pbigif_resizetile4.gif)
 
 - - -
 ## <a name="the-ellipses--menu"></a>Het menu met weglatingstekens (...)
 
 1. Selecteer de weglatingstekens in de rechterbovenhoek van de tegel. 
    
-   ![](media/service-dashboard-edit-tile/power-bi-tile.png)
+   ![Weglatingstekens tegel](media/service-dashboard-edit-tile/power-bi-tile.png)
 
 2. Beweeg de muisaanwijzer over de tegel Account en selecteer de weglatingstekens om de opties weer te geven. De beschikbare opties kunnen per tegeltype verschillen.  De beschikbare opties voor een live-tegel zijn bijvoorbeeld anders dan de beschikbare opties voor een tegel voor standaardvisualisatie. Als er een dashboard is gedeeld met u (u bent niet de eigenaar), hebt u minder opties.
 
-   ![](media/service-dashboard-edit-tile/power-bi-tile-menu-new.png)
+   ![Opties van menu weglatingstekens](media/service-dashboard-edit-tile/power-bi-tile-menu-new.png)
 
 3. Selecteer **Details bewerken** om het venster Tegeldetails te openen. 
 
     Wijzig de titel en het standaardgedrag van de tegel.  Bijvoorbeeld, u kunt besluiten dat, wanneer een *gebruiker* een tegel selecteert, in plaats van dat het rapport wordt geopend waarmee die tegel was gemaakt er een nieuw dashboard wordt weergegeven.  
    
-   ![](media/service-dashboard-edit-tile/power-bi-tile-menu-new.png)
 
 
 <a name="rename"></a>
@@ -111,7 +111,7 @@ U kunt tegels verschillende afmetingen geven--van 1 x 1 tegeleenheden tot en met
 ### <a name="rename-the-tile"></a>De tegel een nieuwe naam geven
 Wijzig aan de bovenkant van het venster Tegeldetails **Titel** in **Besteed bedrag**.
 
-![](media/service-dashboard-edit-tile/power-bi-tile-title.png)
+![Venster Tegeldetails](media/service-dashboard-edit-tile/power-bi-tile-title.png)
 
 
 <a name="hyperlink"></a>
@@ -123,27 +123,27 @@ Standaard geldt dat, wanneer u een tegel selecteert, u gewoonlijk naar het rappo
 
 2. Selecteer **Koppelen aan een dashboard of rapport in de huidige werkruimte** en kies daarna uit de vervolgkeuzelijst.  In dit voorbeeld heb ik het dashboard met het voorbeeld van human resources geselecteerd. Als u dit voorbeeld nog niet in uw werkruimte hebt, kunt u het toevoegen en terugkeren naar deze stap, of u kunt een ander dashboard selecteren. 
 
-    ![](media/service-dashboard-edit-tile/power-bi-custom-link.png)
+    ![Dialoogvenster Functionaliteit](media/service-dashboard-edit-tile/power-bi-custom-link.png)
 
 3. Selecteer **Toepassen**.
 
 4. De nieuwe titel wordt op de tegel weergegeven.  En als u de tegel selecteert, wordt in Power BI het dashboard voor Human Resources geopend. 
 
-    ![](media/service-dashboard-edit-tile/power-bi-title.png)
+    ![Titel tegel](media/service-dashboard-edit-tile/power-bi-title.png)
 
 <a name="different"></a>
 
 ### <a name="pin-the-tile-to-a-different-dashboard"></a>De tegel vastmaken aan een ander dashboard
-1. Selecteer in het vervolgkeuzemenu van de weglatingstekens **Tegel vastmaken** ![](media/service-dashboard-edit-tile/pinnooutline.png).
+1. Selecteer in het vervolgkeuzemenu van de weglatingstekens **Tegel vastmaken** ![Speldpictogram](media/service-dashboard-edit-tile/pinnooutline.png).
 2. Beslis of u een duplicaat van deze tegel aan een bestaand dashboard of aan een nieuw dashboard wilt vastmaken. 
    
-   ![](media/service-dashboard-edit-tile/pbi_pintoanotherdash.png)
+   ![Dialoogvenster Aan dashboard vastmaken](media/service-dashboard-edit-tile/pbi_pintoanotherdash.png)
 3. Selecteer **Vastmaken**.
 
 <a name="delete"></a>
 
 ### <a name="delete-the-tile"></a>De tegel verwijderen
-1. Als u een tegel uit een dashboard wilt verwijderen, selecteert u **Tegel verwijderen** ![](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png) in de vervolgkeuzemenu van de weglatingstekens. 
+1. Als u een tegel uit een dashboard wilt verwijderen, selecteert u **Tegel verwijderen** ![Verwijderpictogram](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png) in het vervolgkeuzemenu van de weglatingstekens. 
 
 2. Wanneer u een tegel verwijdert, verwijdert u daarmee niet de onderliggende visualisatie. Open het onderliggende rapport door de tegel Bedrag te selecteren. Open de laatste pagina in het rapport om te zien of de oorspronkelijke visualisatie niet uit het rapport is verwijderd. 
 
