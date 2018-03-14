@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 352efd894eb58823c9f506089ee28b7d11b30687
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 80fb45e8f0d181779c699c081006b6610248dc50
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Problemen met Cortana voor Power BI oplossen
 Dit artikel maakt deel uit van een serie. Wij raden u aan de volgende drie artikelen te lezen als u dat nog niet hebt gedaan.
@@ -95,7 +96,7 @@ Lukt het nog steeds niet?  Dan is het nu een goed moment om het hulpprogramma vo
    Omdat de tekst een resultaat heeft opgeleverd, weten we nu dat Cortana **wel** is ingeschakeld in Power BI. Hierdoor kunnen we het probleem beperken tot Windows, de taalinstelling van Cortana of meer dan 100 ingeschakelde gegevenssets voor Cortana.
 
 ### <a name="having-trouble-retrieving-answers-from-a-dashboard"></a>Problemen bij het ophalen van antwoorden uit een dashboard?
-Zoekt u een dashboard dat met u is gedeeld?  Open Power BI > **Gedeeld met mij** en zoek de naam van het dashboard.  Typ die naam vervolgens in het veld *Utterance**.
+Zoekt u een dashboard dat met u is gedeeld?  Open Power BI > **Gedeeld met mij** en zoek de naam van het dashboard.  Typ die naam vervolgens in het veld **Utterances**.
 
 ![Gedeeld met mij openen in Power BI](media/service-cortana-troubleshoot/power-bi-cortana-shared-with-me.png)
 

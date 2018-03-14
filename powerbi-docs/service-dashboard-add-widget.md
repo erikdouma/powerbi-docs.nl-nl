@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 3aa70a6382164cb8284e1a5f61ae73f66e54d2f3
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: cb1db61a3e0017adf56314862a5bb71fe1288dc6
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>Afbeeldingen, tekst, video en meer toevoegen aan uw dashboard
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -31,12 +32,12 @@ ms.lasthandoff: 12/21/2017
 ## <a name="add-tile"></a>Tegel toevoegen
 Met het besturingselement **Tegel toevoegen** kunt u rechtstreeks een afbeelding, tekstvak, video, streaminggegevens of webcode aan uw dashboard toevoegen.
 
-1. Selecteer **Tegel toevoegen** in de bovenste menubalk. Afhankelijk van de beschikbare ruimte, ziet u mogelijk alleen het plusteken ![](media/service-dashboard-add-widget/power-bi-add-tile-icon-small.png).
+1. Selecteer **Tegel toevoegen** in de bovenste menubalk. Afhankelijk van de beschikbare ruimte, ziet u mogelijk alleen het plusteken ![Plusteken](media/service-dashboard-add-widget/power-bi-add-tile-icon-small.png).
    
-    ![](media/service-dashboard-add-widget/power-bi-add-tile-icon.png)
+    ![Pictogram Tegel toevoegen](media/service-dashboard-add-widget/power-bi-add-tile-icon.png)
 2. Selecteer het type tegel dat u wilt toevoegen: **Afbeelding**, **Tekstvak**, **Video**, **Webinhoud** of **Aangepaste streaminggegevens**.
    
-    ![](media/service-dashboard-add-widget/power-bi-add-tile.png)
+    ![Venster Tegel toevoegen](media/service-dashboard-add-widget/power-bi-add-tile.png)
 
 ## <a name="add-an-image"></a>Een afbeelding toevoegen
 Stel dat u uw bedrijfslogo wilt weergeven in uw dashboard of een andere afbeelding. U moet het afbeeldingsbestand dan online opslaan en koppelen aan het dashboard. Zorg ervoor dat er geen speciale referenties nodig zijn voor toegang tot het afbeeldingsbestand. Zo is bijvoorbeeld verificatie vereist voor OneDrive en SharePoint en kunt u afbeeldingen die daar zijn opgeslagen, niet op deze manier toevoegen aan een dashboard.  
@@ -44,14 +45,14 @@ Stel dat u uw bedrijfslogo wilt weergeven in uw dashboard of een andere afbeeldi
 1. Selecteer **Afbeelding** > **Volgende**.
 2. Voeg informatie over de afbeelding toe in het deelvenster **Een afbeeldingstegel toevoegen**.
    
-    ![](media/service-dashboard-add-widget/pbi-widget-add-image-new.png)
+    ![Venster Afbeeldingstegel toevoegen](media/service-dashboard-add-widget/pbi-widget-add-image-new.png)
    
    * Als u een titel wilt weergeven boven de afbeelding, selecteert u *Titel en subtitel weergeven* en typt u een titel en/of subtitel.
    * Voer de URL van de afbeelding in.
    * Als u van de tegel een hyperlink wilt maken, schakelt u **Aangepaste koppeling instellen** in en voert u de URL in.  Als collega's op deze afbeelding of titel klikken, gaan ze naar deze URL.
    * Selecteer **Toepassen**.  Op het dashboard kunt u de afbeelding groter of kleiner maken en verplaatsen.
      
-     ![](media/service-dashboard-add-widget/power-bi-add-image-dash.png)
+     ![Afbeelding in dashboard](media/service-dashboard-add-widget/power-bi-add-image-dash.png)
 
 ## <a name="add-a-text-box-or-dashboard-heading"></a>Een tekstvak of koptekst toevoegen
 1. Selecteer **Tekstvak > Volgende**.
@@ -64,11 +65,11 @@ Stel dat u uw bedrijfslogo wilt weergeven in uw dashboard of een andere afbeeldi
    * Voer inhoud in voor het tekstvak en maak deze op.  
    * U kunt desgewenst een aangepaste koppeling instellen voor de titel. Een aangepaste koppeling kan een externe site of een dashboard of rapport in uw werkruimte zijn. In dit voorbeeld hebben we echter hyperlinks toegevoegd aan het tekstvak zelf en dus laten we **Aangepaste koppeling instellen** uitgeschakeld.
 
-     ![](media/service-dashboard-add-widget/power-bi-add-textbox.png)
+     ![Venster Een tekstvaktegel toevoegen](media/service-dashboard-add-widget/power-bi-add-textbox.png)
    
 3. Selecteer **Toepassen**.  Op het dashboard kunt u het tekstvak groter of kleiner maken en verplaatsen.
    
-   ![](media/service-dashboard-add-widget/pbi-widget-text-added-new.png)
+   ![Dashboard met afbeelding en tekstvak](media/service-dashboard-add-widget/pbi-widget-text-added-new.png)
 
 ## <a name="add-a-video"></a>Een video toevoegen
 Wanneer u een videotegel van YouTube of Vimeo aan uw dashboard toevoegt, wordt de video direct op uw dashboard afgespeeld.
@@ -76,14 +77,14 @@ Wanneer u een videotegel van YouTube of Vimeo aan uw dashboard toevoegt, wordt d
 1. Selecteer **Video > Volgende**.
 2. Voeg informatie over de video toe in het deelvenster **Een videotegel toevoegen**.
    
-    ![](media/service-dashboard-add-widget/power-bi-add-video-new.png)
+    ![Venster Een videotegel toevoegen](media/service-dashboard-add-widget/power-bi-add-video-new.png)
    
    * Als u een titel en subtitel wilt weergeven boven aan de videotegel, selecteert u *Titel en subtitel weergeven* en typt u een titel en/of subtitel. In dit voorbeeld voegen we een subtitel toe en maken we hier een hyperlink van die is gekoppeld aan de volledige afspeellijst op YouTube.
    * Voer de URL voor de video in.
    * Voeg een hyperlink voor de titel en de subtitel toe.  Misschien dat uw collega's na het zien van de ingesloten video de hele afspeellijst willen bekijken op YouTube. Dat kan door een koppeling naar de afspeellijst toe te voegen.
    * Selecteer **Toepassen**.  Op het dashboard kunt u de videotegel groter of kleiner maken en verplaatsen.
      
-      ![](media/service-dashboard-add-widget/pbi-widget-video-added-new.png)
+      ![Dashboard waaraan videotegel is toegevoegd](media/service-dashboard-add-widget/pbi-widget-video-added-new.png)
 3. Selecteer de videotegel om de video af te spelen.
 4. Selecteer de subtitel om naar de afspeellijst op YouTube te gaan.
 
@@ -96,13 +97,13 @@ U kunt alle HTML-inhoud plakken of typen.  De inhoud wordt door Power BI als een
 1. Selecteer **Webinhoud > Volgende**.
 2. Voeg gegevens toe aan het deelvenster **Een webinhoudtegel toevoegen**.
    
-    ![](media/service-dashboard-add-widget/power-bi-add-web-content.png)
+    ![Venster Een webinhoudtegel toevoegen](media/service-dashboard-add-widget/power-bi-add-web-content.png)
    
    * Als u een titel wilt weergeven boven aan de tegel, selecteert u *Titel en subtitel weergeven* en typt u een titel en/of subtitel.
    * Voeg de insluitcode in. In dit voorbeeld kopiëren en plakken we een Twitter-feed.
 3. Selecteer **Toepassen**.  Op het dashboard kunt u de tegel met webinhoud groter of kleiner maken en verplaatsen.
      
-      ![](media/service-dashboard-add-widget/pbi-widget-code-added-new.png)
+      ![Dashboard met vier tegels](media/service-dashboard-add-widget/pbi-widget-code-added-new.png)
 
 ## <a name="tips-for-embedding-web-content"></a>Tips voor het insluiten van webinhoud
 * Gebruik een beveiligde bron voor iframes. Als u de insluitcode voor het iframe invoert en vervolgens een lege tegel ziet, controleer dan of u **http** gebruikt voor de bron van het iframe.  Als dat zo is, wijzigt u dit in **https**.
@@ -145,12 +146,12 @@ U kunt een tegel als volgt wijzigen:
 
 1. Beweeg de aanwijzer in de rechterbovenhoek van de tegel en selecteer de drie puntjes.
    
-    ![](media/service-dashboard-add-widget/pbi_ellipses.png)
+    ![Weglatingstekens voor tegel selecteren](media/service-dashboard-add-widget/pbi_ellipses.png)
 2. Selecteer Details bewerken om het deelvenster **Details van de tegel** opnieuw te openen en breng de wijzigingen aan.
    
-    ![](media/service-dashboard-add-widget/pbi-edit.png)
+    ![Pictogram Pen (bewerken)](media/service-dashboard-add-widget/pbi-edit.png)
 
-## <a name="considerations-and-troubleshooting"></a>Overwegingen en probleemoplossing
+## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 * U kunt een tegel op een dashboard eenvoudiger verplaatsen door een titel en/of subtitel toe te voegen.
 * Als u bepaalde inhoud wilt insluiten vanaf een website, maar de website geen insluitcode geeft om te kopiëren en plakken, gaat u naar embed.ly om te lezen hoe u de insluitcode genereert.
 

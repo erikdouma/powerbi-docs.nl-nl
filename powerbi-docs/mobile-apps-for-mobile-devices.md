@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: 6803c8aa2898c9ab27b515c04d7db813e7d44ea4
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: 7285e15b6f63cc53b9221a46e0a524313c413cda
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="take-power-bi-anywhere-in-mobile-apps-for-your-mobile-device"></a>Zorg dat u Power BI altijd bij de hand hebt met mobiele apps voor uw apparaat
 U bekijkt uw Power BI-dashboards en -rapporten in de Power BI-service ([https://powerbi.com](https://powerbi.com)) en uw on-premises Power BI-rapporten op [Power BI Report Server](report-server/get-started.md). U kunt voortaan met de mobiele Power BI-apps verbinding maken met uw on-premises en cloudgegevens. Bekijk en werk met uw Power BI-dashboards en -rapporten op uw mobiele apparaat &#151. Dat kan met iOS (iPad, iPhone, iPod Touch of Apple Watch), een Android-telefoon of tablet, of op een Windows 10-apparaat.
@@ -51,4 +51,5 @@ Lees meer over [het configureren van mobiele Power BI-apps voor Android en iOS m
 ## <a name="next-steps"></a>Volgende stappen
 * [Gratis versie van Power BI vs. Pro-licenties](service-free-vs-pro.md)
 * Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+
 

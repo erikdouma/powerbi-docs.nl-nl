@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 06edf8aae58dbcf2e22cf5d1ea13bf6350465853
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+LocalizationGroup: Dashboards
+ms.openlocfilehash: fdd014e513a794a72196a3173703b9536f06768a
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Vanuit Excel een tegel vastmaken aan een Power BI-dashboard
 Voordat u een tegel uit uw Excel-werkmap vastmaakt, koppelt u de werkmap aan de Power BI-service (app.powerbi.com). Met het koppelen van een werkmap wordt een gekoppelde alleen-lezen versie van die werkmap naar Power BI-service overgebracht. Zo kunt u bereiken aan dashboards koppelen. U kunt zelfs een volledig werkblad aan een dashboard vastmaken.  
@@ -42,35 +43,35 @@ U kunt uw werkmap niet in Power BI bewerken. Maar als u wijzigingen wilt aanbren
 1. Upload uw werkmap naar uw OneDrive voor Bedrijven.
 2. Maak vanuit Power BI [verbinding met die werkmap](service-excel-workbook-files.md) door **Gegevens ophalen > Bestanden > OneDrive - Bedrijven** te selecteren en navigeer naar de locatie waar u het Excel-bestand hebt opgeslagen. Selecteer het bestand en kies **Verbinden > Verbinden**.
 
-   ![](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
+   ![Dialoogvenster OneDrive voor Bedrijven](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
 
-3. De werkmap wordt in Power BI toegevoegd aan het tabblad **Werkmappen** van uw werkruimte.  Het pictogram ![](media/service-dashboard-pin-tile-from-excel/pbi_workbookicon.png) geeft aan dat dit een Excel-werkmap is en een geel sterretje geeft aan dat de werkmap nieuw is.
+3. De werkmap wordt in Power BI toegevoegd aan het tabblad **Werkmappen** van uw werkruimte.  Het ![werkbladpictogram](media/service-dashboard-pin-tile-from-excel/pbi_workbookicon.png) geeft aan dat dit een Excel-werkmap is en een geel sterretje geeft aan dat de werkmap nieuw is.
    
     
-   ![](media/service-dashboard-pin-tile-from-excel/power-bi-workbooks.png)
+   ![Tabblad Werkmappen](media/service-dashboard-pin-tile-from-excel/power-bi-workbooks.png)
 4. Open de werkmap in Power BI door de werkmapnaam te selecteren.
 
     Wijzigingen in de werkmap in Power BI worden niet opgeslagen en hebben geen invloed op de oorspronkelijke werkmap in OneDrive voor Bedrijven. Als u waarden in Power BI sorteert, filtert of wijzigt, kunnen deze wijzigingen niet worden opgeslagen of vastgemaakt. Als u wijzigingen moet aanbrengen die worden opgeslagen, selecteert u **Bewerken** rechtsboven in de hoek om het ter bewerking te openen in Excel Online of Excel. Het kan een paar minuten duren voordat wijzigingen die op deze manier zijn aangebracht, bijgewerkt zijn in de tegels op het dashboard.
    
    
-   ![](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
+   ![Excel Online in Power BI](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
 
 ## <a name="pin-a-range-of-cells-to-a-dashboard"></a>Een bereik van cellen aan een dashboard vastmaken
 U kunt een nieuwe [dashboardtegel](service-dashboard-tiles.md) onder meer toevoegen vanuit een Excel-werkmap in Power BI. Bereiken kunnen worden vastgemaakt vanuit Excel-werkmappen die zijn opgeslagen in uw OneDrive voor bedrijven of een andere in groepen gedeelde documentbibliotheek. De bereiken kunnen gegevens, grafieken, tabellen, draaitabellen, draaigrafieken en andere onderdelen van Excel bevatten.
 
 1. Markeer de cellen die u wilt vastmaken aan een dashboard.
    
-    ![](media/service-dashboard-pin-tile-from-excel/pbi_selectrange.png)
-2. Selecteer het speldpictogram ![](media/service-dashboard-pin-tile-from-excel/pbi_pintile_small.png). 
+    ![Cellen selecteren in Excel-werkmap](media/service-dashboard-pin-tile-from-excel/pbi_selectrange.png)
+2. Selecteer het speldpictogram ![Speldpictogram](media/service-dashboard-pin-tile-from-excel/pbi_pintile_small.png) . 
 3. Maak de tegel vast aan een bestaand dashboard of aan een nieuw dashboard. 
    
    * Bestaand dashboard: selecteer de naam van het dashboard in de vervolgkeuzelijst.
    * Nieuw dashboard: typ de naam van het nieuwe dashboard.
    
-    ![](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
+    ![Dialoogvenster Aan dashboard vastmaken](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
 4. Selecteer **Vastmaken**. Een bericht (rechts bovenin) laat u weten dat het bereik als tegel aan uw dashboard is toegevoegd. 
    
-    ![](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)
+    ![Dialoogvenster Aan dashboard vastgemaakt](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)
 5. Selecteer **Naar het dashboard gaan**. Hier kunt u de vastgemaakte visualisatie [hernoemen, vergroten of verkleinen, koppelen en verplaatsen](service-dashboard-edit-tile.md). Standaard wordt de werkmap in Power BI geopend als de vastgemaakte tegel wordt geselecteerd.
 
 ## <a name="pin-an-entire-table-or-pivot-chart-to-a-dashboard"></a>Een hele tabel of draaigrafiek aan een dashboard vastmaken
@@ -78,16 +79,16 @@ Volg de bovenstaande stappen maar selecteer in plaats van een celbereik een hele
 
 Als u een tabel wilt vastmaken, selecteert u het volledige bereik van de tabel inclusief koppen.  Als u een draaitabel wilt vastmaken, moet u elk zichtbare gedeelte van de draaitabel opnemen, inclusief eventuele filters.
 
- ![](media/service-dashboard-pin-tile-from-excel/pbi_selecttable.png)
+ ![Cellen selecteren](media/service-dashboard-pin-tile-from-excel/pbi_selecttable.png)
 
 Als een tegel is gemaakt op basis van een tabel of draaitabel, wordt de hele tabel weergeven.  Als u rijen of kolommen in de originele werkmap toevoegt/verwijdert/filtert, worden deze ook in de tegel toegevoegd/verwijderd/gefilterd.
 
 ## <a name="view-the-workbook-linked-to-the-tile"></a>De werkmap die aan de tegel is gekoppeld bekijken
 Als een tegelwerkmap wordt geselecteerd, wordt de gekoppelde werkmap in Power BI geopend. Omdat het werkmapbestand is opgeslagen op OneDrive voor Bedrijven, moet u voor de weergave van de werkmap leesmachtigingen voor de werkmap hebben. Als u geen machtiging hebt, krijgt u een foutbericht.  
 
- ![](media/service-dashboard-pin-tile-from-excel/pin-from-excel.gif)
+ ![Video](media/service-dashboard-pin-tile-from-excel/pin-from-excel.gif)
 
-## <a name="considerations-and-troubleshooting"></a>Overwegingen en probleemoplossing
+## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 Niet-ondersteunde functies: Power BI maakt gebruik van Excel Services om de werkmaptegels op te halen. Omdat sommige functies van Excel niet worden ondersteund in de Excel Services REST API, zijn ze niet zichtbaar in de tegels in Power BI. Bijvoorbeeld: Sparklines, voorwaardelijke opmaak van pictogrammenset en tijdslicers. Zie [Niet-ondersteunde functies in Excel Services REST API](http://msdn.microsoft.com/library/office/ff394477.aspx) voor een volledige lijst met niet-ondersteunde functies.
 
 ## <a name="next-steps"></a>Volgende stappen

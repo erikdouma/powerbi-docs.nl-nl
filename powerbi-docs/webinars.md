@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/07/2018
+ms.date: 03/01/2018
 ms.author: maikelson
-ms.openlocfilehash: a16ed05732f5031f0a6f33522d52bb501e241c4f
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+ms.openlocfilehash: eb1f158dd054d9e1e462b556897fde8a74ae4bc3
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="power-bi-webinars"></a>Power BI-webinars
 
@@ -39,6 +39,10 @@ Aan de slag met deze populaire on-demand webinars
 <br>door Miranda Li
 <br>[Nu bekijken](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Simply-Compelling-Seven-Tips-to-Better-Visualization-Design/m-p/173401?Is=Website)
 
+**Learn to Navigate Your Way Through a Power BI Dashboard in 20 Minutes** (Leer in 20 minuten door een Power BI-dashboard te navigeren)
+<br>door Miguel Martinez
+<br>[Registreren en nu bekijken](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
+
 **Samen beter: 5 voordelen die Excel-gebruikers uit het gebruik van Power BI kunnen halen**
 <br>door Carlos Otero en Miguel Martinez
 <br>[Registreren en nu bekijken](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
@@ -49,36 +53,14 @@ Aan de slag met deze populaire on-demand webinars
 
 Registreer u bij Power BI-experts en neem deel aan live Q&A-sessies
 
-**Office 365 Finance Pro's Webinarserie - aflevering 2: terugkerende rapporten automatiseren en Analyses zelf beheren inschakelen**
-<br>door Mark Traverso en Miguel Martinez
-<br>*15 februari, 12:00 uur PST, 15:00 uur EST*
+**Webinar-reeks met framework voor ingebruikname van Power BI: Deel 1 - Ingebruikname: een gegevensgestuurde cultuur aannemen**
+<br>door Manu Kanwarpal
+<br>*8 maart, 9:00 AM PST, 12:00 PM EST*
 
-Leer tips, trucs en best practices om meer uit uw werkdag te halen met Office 365.
+Verschuif de mindset van uw organisatie naar een gegevensgestuurde cultuur en registreer u voor de webinar-reeks waarmee u over een framework voor ingebruikname van Power BI van Microsoft beschikt. De ingebruikname van selfservice-BI (business intelligence) is een uitdagend proces en het downloaden van de tools is slechts de eerste stap. Een geslaagde ingebruikname vereist een verandering in de mensen, processen en technologie.
+Deze webinar is de eerste in een reeks bestaande uit vijf delen waarmee u optimaal kunt profiteren van de mogelijkheden die Power BI voor uw organisatie biedt.
 
-[Registreren om op 15 februari te kijken](https://aka.ms/Office365FinanceProsPBI)
-
-**BI-oplossingen verkopen met Microsoft**
-<br>door Tamer Farag
-<br>*15 februari, 08:00 uur PST, 11:00 uur EST*
-
-Kijk mee met deze webinar om te leren hoe u succesvol een partnerschap aangaat met Microsoft om een kans te grijpen op de Business Intelligence-markt. U krijgt een overzicht van onze meest recente trainingsresources, marketingmaterialen, stimulansen en aanbiedingen om uw praktijk uit te bouwen. Bovendien leert u hoe u op PowerBI.com en AppSource.com onder de aandacht wordt gebracht om ervoor te zorgen dat uw oplossingen en aanbiedingen centraal staan bij Microsoft-klanten en -verkopers.
-
-[Registreren om op 15 februari te kijken](https://infopedia.eventbuilder.com/event?eventid=l9d4s7)
-
-**Learn to Navigate Your Way Through a Power BI Dashboard in 20 Minutes** (Leer in 20 minuten door een Power BI-dashboard te navigeren)
-<br>door Miguel Martinez
-<br>*21 februari, 10:00 PST, 13:00 EST*
-
-Hebt u ooit een Power BI-dashboard geopend en gedacht 'wat nu'?  Hoe navigeer ik hierin om de gegevens te zoeken die voor mij belangrijk zijn? Beperkt u het gebruik van filters en slicers uit angst 'iets te verbreken'?  Wees niet bang, maar laat ons u leren hoe u door een Power BI-dashboard navigeert. We leiden u desgewenst stapsgewijs door de algemene functies die door andere beheerders worden gebruikt om op de gezochte gegevens in te zoomen.
-
-[Registreren om op 21 februari te kijken](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
-
-**Publieke of private gegevenssets visualiseren met de nieuwe Power BI en data.world-connector**
-<br>*22 februari, 10:00 uur PST, 13:00 uur EST*
-
-In samenwerking met data.world heeft Microsoft een nieuwe gegevensconnector uitgebracht waarmee u data.world-gegevenssets kunt importeren in Power BI Desktop. Kijk mee om te leren hoe u kunt profiteren van deze geweldige nieuwe connector en de kracht van de data.world-community kunt gebruiken om uw gegevensverhaal te delen en om met anderen samen te werken.
-
-[Registreren om op 22 februari te kijken](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
+[Registreren voor webinar op 8 maart](https://info.microsoft.com/ww-landing-powerbi-adoption.html?Is=Website)
 
 >[Wees aanwezig bij komende webinars van de Power BI-community](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
 
@@ -110,7 +92,15 @@ Vastgelegde sessies op elk gewenst moment bekijken
 <br>door Jon Thompson van Blue Margin en Jim Pastor van Elgin Fastener Group
 <br>[Registreren en nu bekijken](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
 
+**Publieke of private gegevenssets visualiseren met de nieuwe Power BI en data.world-connector**
+<br>door Patrick McGarry en Miguel Martinez
+<br>[Registreren en nu bekijken](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
+
 ### <a name="advanced-topics"></a>Geavanceerde onderwerpen ###
+
+**Office 365 Finance Pro's Webinarserie - aflevering 2: terugkerende rapporten automatiseren en Analyses zelf beheren inschakelen**
+<br>door Mark Traverso en Miguel Martinez
+<br>[Registreren en nu bekijken](https://aka.ms/Office365FinanceProsPBI)
 
 **Hoe kunt u een succesvolle strategie voor gegevensbeheer implementeren die uw organisatie veiliger maakt?**
 <br>door Ajay Anandan
