@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: c0aaa29a0d933da9fa61d08628766963144e0f76
-ms.sourcegitcommit: c45498071d582dcca264216863906ffaae382523
+ms.openlocfilehash: b7931cb97ff1c409cc2524e31d079dd770160ec4
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Voorbeeld van klantwinstgevendheid in Power BI: een rondleiding
 
@@ -40,21 +40,22 @@ Doet u mee? Deze zelfstudie maakt gebruik van de Power BI-service en het voorbee
 
 1. Open Power BI-service (app.powerbi.com) en meld u aan.
 2. Selecteer in de linkerbendehoek **Gegevens ophalen**.
-   
+
     ![](media/sample-datasets/power-bi-get-data.png)
 3. Selecteer op de pagina Gegevens ophalen het pictogram **Voorbeelden**.
-   
+
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Selecteer het **voorbeeld van klantwinstgevendheid** en kies vervolgens **Verbinding maken**.  
-   
+
    ![Gegevens ophalen](media/sample-customer-profitability/get-supplier-sample.png)
 5. Het inhoudspakket wordt geïmporteerd in Power BI en er wordt een nieuw dashboard, nieuw rapport en een nieuwe gegevensset toegevoegd aan de huidige werkruimte. De nieuwe inhoud is gemarkeerd met een geel sterretje. Gebruik de voorbeelden om met Power BI te experimenteren.  
-   
+
    ![Sterretje](media/sample-customer-profitability/supplier-sample-asterisk.png)
-  
+
 ### <a name="get-the-pbix-file-for-this-sample"></a>Het pbix-bestand voor dit voorbeeld ophalen
 
-U kunt ook het voorbeeld downloaden als pbix-bestand, dat bedoeld is voor gebruik met Power BI Desktop. [Voorbeeld van klantwinstgevendheid] (<http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer>> Profitability Sample PBIX.pbix)
+U kunt ook het voorbeeld downloaden als pbix-bestand, dat bedoeld is voor gebruik met Power BI Desktop.
+[Voorbeeld van klantwinstgevendheid](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer Profitability Sample PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>De Excel-werkmap ophalen voor dit voorbeeld
 
@@ -87,13 +88,13 @@ De tegels aan de rechterkant van het dashboard geven een team-scorecard weer. De
 
 ![](media/sample-customer-profitability/power-bi-manager2.png)
 
-- Alle leidinggevenden, behalve Carlos, hebben hun verkoopdoel al overschreden. Maar de werkelijke verkopen van Carlos zijn de hoogste. 
+- Alle leidinggevenden, behalve Carlos, hebben hun verkoopdoel al overschreden. Maar de werkelijke verkopen van Carlos zijn de hoogste.
 - Het brutomargepercentage van Annelie is het laagste, maar we zien een constante stijging sinds maart.
-- Valery heeft haar brutomargepercentage daarentegen aanzienlijk zien afnemen. 
-- En Andrew had een sterk wisselend jaar. 
+- Valery heeft haar brutomargepercentage daarentegen aanzienlijk zien afnemen.
+- En Andrew had een sterk wisselend jaar.
 
 ## <a name="explore-the-dashboards-underlying-data"></a>De onderliggende gegevens van het dashboard verkennen
-Dit dashboard bevat tegels die gekoppeld zijn aan een rapport en aan een Excel-werkmap. 
+Dit dashboard bevat tegels die gekoppeld zijn aan een rapport en aan een Excel-werkmap.
 
 ### <a name="open-the-excel-online-data-source"></a>Open de Excel Online-gegevensbron
 Twee tegels op dit dashboard, 'Target vs Actual' (Doel vs Realisatie) en 'Year Over Year Revenue Growth' (Omzetgroei jaar na jaar) zijn vastgemaakt vanuit een Excel-werkmap. Dus als u één van deze tegels selecteert, opent Power BI de gegevensbron, in dit geval Excel Online.
@@ -112,14 +113,14 @@ Twee tegels op dit dashboard, 'Target vs Actual' (Doel vs Realisatie) en 'Year O
 
 4. Blijf verkennen en als u iets interessants vindt, kunt u in de rechtsboven **Vastmaken**![](media/sample-customer-profitability/power-bi-excel-pin.png) selecteren om het [aan het dashboard vast te maken](service-dashboard-pin-tile-from-excel.md).
 
-5. Gebruik de pijl terug in uw browser om terug te keren naar het dashboard. 
+5. Gebruik de pijl terug in uw browser om terug te keren naar het dashboard.
 
 ### <a name="open-the-underlying-power-bi-report"></a>Open het onderliggende Power BI-rapport
-De meerderheid van de tegels op het voorbeelddashboard Klantwinstgevendheid zijn vastgemaakt vanuit het onderliggende voorbeeldrapport Klantwinstgevendheid. 
+De meerderheid van de tegels op het voorbeelddashboard Klantwinstgevendheid zijn vastgemaakt vanuit het onderliggende voorbeeldrapport Klantwinstgevendheid.
 
-1. Selecteer één van deze tegels om het rapport in de leesweergave te openen. 
+1. Selecteer één van deze tegels om het rapport in de leesweergave te openen.
 
-2. Het rapport heeft 3 pagina's. Elk tabblad aan de onderkant van het rapport vertegenwoordigt een pagina. 
+2. Het rapport heeft 3 pagina's. Elk tabblad aan de onderkant van het rapport vertegenwoordigt een pagina.
 
     ![](media/sample-customer-profitability/power-bi-report-tabs.png)
 
@@ -155,10 +156,10 @@ Hoe verschilt de winstgevendheid per bedrijfstak? Hoe worden de producten en kla
 
 Op de bellengrafiek zoekt de CFO naar de grootste bellen, omdat deze de grootste invloed hebben op de omzet. Doordat de pagina per manager kan worden gefilterd door op hun namen te klikken in het vlakdiagram, kan de invloed van elke manager per branche eenvoudig worden bekeken.
 
-* De invloed van Andrew omvat veel verschillende bedrijfstaksegmenten met breed uiteenlopende brutomargepercentages (de meeste aan de positieve kant) en variantiepercentages. 
-* De grafiek van Annelie is vergelijkbaar, behalve dat ze zich op slechts een handvol bedrijfstakken richt met een focus op het segment Federal en het product Gladius. 
-* Carlos richt zich duidelijk op het segment Services, met een hoge winst. Hij heeft het variantiepercentage sterk verbeterd voor het High Tech-segment en een voor hem nieuw segment, Industrieel, vertoont uitzonderlijk goede prestaties in vergelijking met het budget. 
-* Tina werkt met een handvol segmenten en heeft het hoogste brutomargepercentage. De voornamelijk kleine bellen laten echter zien dat haar invloed op de winstgevendheid van het bedrijf minimaal is. 
+* De invloed van Andrew omvat veel verschillende bedrijfstaksegmenten met breed uiteenlopende brutomargepercentages (de meeste aan de positieve kant) en variantiepercentages.
+* De grafiek van Annelie is vergelijkbaar, behalve dat ze zich op slechts een handvol bedrijfstakken richt met een focus op het segment Federal en het product Gladius.
+* Carlos richt zich duidelijk op het segment Services, met een hoge winst. Hij heeft het variantiepercentage sterk verbeterd voor het High Tech-segment en een voor hem nieuw segment, Industrieel, vertoont uitzonderlijk goede prestaties in vergelijking met het budget.
+* Tina werkt met een handvol segmenten en heeft het hoogste brutomargepercentage. De voornamelijk kleine bellen laten echter zien dat haar invloed op de winstgevendheid van het bedrijf minimaal is.
 * Valery, die verantwoordelijk is voor slechts één product, werkt in slechts 5 bedrijfstakken. Haar invloed voor de bedrijfstak is seizoensgebonden, maar produceert altijd een grote bel, die wijst op een grote invloed op de winstgevendheid van het bedrijf. Biedt de bedrijfstak een verklaring voor haar negatieve prestaties?
 
 ### <a name="executive-scorecard"></a>Executive-scorecard
@@ -174,9 +175,9 @@ Voor onze analyse zou het handig zijn als we bepalen welke bedrijfstak de meeste
     ![](media/sample-customer-profitability/power-bi-ask-question.png)
 
 3. Typ **totale omzet per branche voor Valery**. Kijk hoe de visualisatie wordt bijgewerkt terwijl u de vraag typt.
-   
+
     ![](media/sample-customer-profitability/power-bi-qna.png)
-   
+
    Distributie is het grootste opbrengstgebied voor Valery.
 
 ### <a name="dig-deeper-by-adding-filters"></a>Dieper graven door filters toe te voegen
@@ -184,15 +185,15 @@ Laten we kijken naar de branche *Distributie*.
 
 1. Open de rapportpagina 'Industry Margin Analysis' (Marge-analyse branche).
 2. Vouw het filterdeelvenster rechts uit zonder visualisaties te selecteren op de rapportagepagina. In het deelvenster Filters mogen alleen filters op paginaniveau worden weergegeven.  
-   
+
    ![](media/sample-customer-profitability/power-bi-filters.png)
 3. Zoek het filter voor **bedrijfstak** en selecteer de pijl om de lijst uit te vouwen. We gaan een paginafilter voor de bedrijfstak Distributie toevoegen. Wis eerst alle selecties door het selectievakje **Alles selecteren** uit te schakelen. Selecteer vervolgens alleen **Distributie**.  
-   
+
    ![](media/sample-customer-profitability/customer7.png)
 4. Het vlakdiagram Brutomarge per maand en naam executive laat zien dat alleen Valery en Tina klanten hebben in deze bedrijfstak en dat Valery alleen van juni tot en met november met deze bedrijfstak heeft gewerkt.   
-5. Selecteer **Tina** en vervolgens **Valery** in de legenda van het vlakdiagram Brutomarge per maand en naam executive. U ziet dat het deel van Tina van de Totale omzet per product echt klein is vergeleken met dat van Valery. 
+5. Selecteer **Tina** en vervolgens **Valery** in de legenda van het vlakdiagram Brutomarge per maand en naam executive. U ziet dat het deel van Tina van de Totale omzet per product echt klein is vergeleken met dat van Valery.
 6. Als u de werkelijke omzet wilt bekijken, gebruikt u Q&A **om de totale opbrengsten per executive voor distributie van scenario op te vragen**.  
-   
+
      ![](media/sample-customer-profitability/power-bi-qna2.png)
 
     We kunnen ook andere bedrijfstakken verkennen en zelfs klanten toevoegen aan onze visuele elementen om inzicht te krijgen in de oorzaken voor de prestaties van Valery.
@@ -205,4 +206,3 @@ U kunt ook [alleen de gegevensset (Excel-werkmap)](http://go.microsoft.com/fwlin
 We hopen dat deze rondleiding heeft laten zien hoe Power BI-dashboards, Q&A en rapporten inzicht kunnen geven in klantgegevens. Nu is het uw beurt: aan uw eigen gegevens koppelen. Met Power BI kunt u verbinding maken met een groot aantal gegevensbronnen. Meer informatie over [Aan de slag met Power BI](service-get-started.md).
 
 [Terug naar de voorbeelden in Power BI](sample-datasets.md)  
-
