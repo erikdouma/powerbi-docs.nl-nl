@@ -862,6 +862,8 @@
       items:
         - name: Power BI-apps voor iOS
           href: mobile-ios-ipad-iphone-apps.md
+        - name: Power BI voor gemengde realiteit
+          href: mobile-mixed-reality-app.md
         - name: On-premises rapporten en KPI's weergeven in de mobiele apps
           href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
         - name: Dashboards in de mobiele apps
