@@ -15,21 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3a01f7c8ab679e2820261c7947a9561ff5513d60
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e7f37a076f913d50f5a6b654aa79b50d61bc5add
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>Een QR-code voor een tegel in Power BI maken voor gebruik in de mobiele apps
 QR-codes in Power BI kunnen alles in de praktijk rechtstreeks verbinden met gerelateerde BI-gegevens. Er is geen navigatie of zoekopdracht nodig.
 
 U kunt een QR-code maken in de Power BI-service voor tegels in een dashboard, zelfs in dashboards die u niet kunt bewerken. Vervolgens plaatst u de QR-code in een belangrijke locatie. U kunt hem bijvoorbeeld in een e-mailbericht plakken of afdrukken en op een specifieke locatie ophangen. 
 
-Collega's met wie u het dashboard hebt gedeeld, kunnen de QR-code met [hun mobiele apparaat](mobile-apps-qr-code.md) scannen voor rechtstreekse toegang tot de tegel. Ze kunnen de QR-codescanner in de Power BI-app gebruiken, of een andere QR-scanner die op hun apparaat is geïnstalleerd. .
+Collega's met wie u het dashboard hebt gedeeld, kunnen de QR-code met [hun mobiele apparaat](mobile-apps-qr-code.md) scannen voor rechtstreekse toegang tot de tegel. Ze kunnen de QR-codescanner in de Power BI-app gebruiken, of een andere QR-scanner die op hun apparaat is geïnstalleerd.
+
 
 ## <a name="create-a-qr-code-for-a-tile"></a>Een QR-code voor een tegel maken
 1. Open een dashboard in de Power BI-service.
