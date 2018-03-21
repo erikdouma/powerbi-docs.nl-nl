@@ -17,20 +17,18 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/05/2017
 ms.author: maghan
-ms.openlocfilehash: 81036ce9a265f4541b23954584d7a9dd9b99a080
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 337fafe395a5d80d0b82ac069579048a69cd6c4f
+ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="upgrade-power-bi-report-server"></a>Een upgrade uitvoeren voor Power BI Report Server
 Leer hoe u een upgrade uitvoert voor Power BI Report Server.
 
  **Downloaden** ![downloaden](media/upgrade/download.png "downloaden")
 
-Ga naar [On-premises rapportage met Power BI Report Server](https://powerbi.microsoft.com/report-server/) om Power BI Report Server en de voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop te downloaden.
-
-![Tip](media/upgrade/fyi-tip.png "Tip") Zie [Opmerkingen bij de release van Power BI Report Server](release-notes.md) voor opmerkingen bij de huidige release.
+Ga naar [On-premises rapportage met Power BI Report Server](https://powerbi.microsoft.com/report-server/) om Power BI Report Server en de geoptimaliseerde versie van Power BI Desktop voor Power BI Report Server te downloaden.
 
 ## <a name="before-you-begin"></a>Voordat u begint
 Voordat u een upgrade uitvoert van een rapportserver, is het raadzaam de volgende stappen uit te voeren om een back-up van uw rapportserver te maken.
