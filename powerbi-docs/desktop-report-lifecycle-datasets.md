@@ -2,14 +2,14 @@
 title: Verbinding maken met gegevenssets in de Power BI-service vanuit Power BI Desktop
 description: Een algemene gegevensset gebruiken voor meerdere Power BI Desktop-rapporten en levenscyclus van uw rapport beheren
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fff56b220579a19505337f2ac9697cd3e61e83cb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 948c87e3e594ebb0ca2f75f747f7dd6fe36e18e7
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Verbinding maken met gegevenssets in de Power BI-service vanuit Power BI Desktop
 U kunt een live verbinding maken met een gedeelde gegevensset in de Power BI-service en veel verschillende rapporten maken op basis van dezelfde gegevensset. Dit betekent dat u uw perfecte gegevensmodel in Power BI Desktop kunt maken en dit publiceren naar de Power BI-service, waarna u en anderen meerdere verschillende rapporten (in afzonderlijke .pbix-bestanden) kunnen maken op basis van hetzelfde algemene gegevensmodel. Deze functie heet **Liveverbinding met Power BI-service**.
@@ -116,8 +116,8 @@ Wanneer u de **liveverbinding met de Power BI-service** gebruikt, zijn er enkele
 * Aangezien dit een live-verbinding is, zijn de navigatie aan de linkerkant en modellering uitgeschakeld, vergelijkbaar met het gedrag bij een verbinding met **SQL Server Analysis Services**.
 * Omdat dit een live-verbinding is, worden RLS (beveiliging op rij- en rolniveau), OneDrive voor Bedrijven en soortgelijke gedragingen afgedwongen, net als bij verbinding met **SQL Server Analysis Services**.
 * Wanneer u selecteert met welke gegevensset verbinding moet worden gemaakt in de **Power BI-service**, is het zoekvak alleen van toepassing op werkruimten die zijn uitgebreid.
-* Als u het oorspronkelijke gedeelde .pbix-bestand wijzigt, worden de gegevensset en het rapport dat wordt gedeeld in de **Power BI-service** overschreven.
-* U kunt het oorspronkelijk gedeelde rapport niet vervangen. Pogingen daartoe resulteren in een waarschuwing waarin u wordt gevraagd het bestand een andere naam te geven en het te publiceren.
+* Als de eigenaar het oorspronkelijke gedeelde .pbix-bestand wijzigt, worden de gegevensset en het rapport dat wordt gedeeld in de **Power BI-service** overschreven.
+* Leden van een werkruimte kunnen het oorspronkelijk gedeelde rapport niet vervangen. Pogingen daartoe resulteren in een waarschuwing waarin u wordt gevraagd het bestand een andere naam te geven en het te publiceren.
 * Als u de gedeelde gegevensset in de **Power BI-service** verwijdert, werken andere **Power BI Desktop**-bestanden (.pbix) niet meer goed en worden hun visuele elementen niet meer weergegeven.
 * Voor inhoudspakketten moet u eerst een kopie van een inhoudspakket maken voordat u het gebruikt als basis voor het delen van een. pbix-rapport en gegevensset met de **Power BI service**.
 * Nadat de inhoudspakketten van *Mijn organisatie* zijn gekopieerd,kunt u het rapport dat op de service is gemaakt en/of een rapport dat is gemaakt bij het kopiëren van een inhoudspakket met een liveverbinding niet meer vervangen. Pogingen daartoe resulteren in een waarschuwing waarin u wordt gevraagd het bestand een andere naam te geven en het te publiceren. In dit geval kunt u alleen gepubliceerde live gekoppelde rapporten vervangen.

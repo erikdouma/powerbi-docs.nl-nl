@@ -2,26 +2,26 @@
 title: Veelgestelde vragen over Power BI Embedded
 description: Hier vindt u een lijst met veelgestelde vragen en antwoorden over Power BI Embedded.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/15/2018
+ms.date: 03/07/2018
 ms.author: maghan
-ms.openlocfilehash: 9d387208b1ace0b0f0fd700b471e07e3b2584883
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 52ff1095c063be867354a23e0e8e4908a4b4e1d7
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Veelgestelde vragen over Power BI Embedded
 
@@ -66,7 +66,7 @@ Power BI Embedded is nu beschikbaar.
 
 ## <a name="technical"></a>Technisch
 
-### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-em-skus-in-office-365"></a>Wat is het verschil tussen de A-SKU's in Azure en EM-SKU's in Office 365?
+### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365"></a>Wat is het verschil tussen de A-SKU's in Azure en de EM-SKU's in Office 365?
 
 PowerBI.com is een bedrijfsoplossing die veel mogelijkheden biedt, zoals sociale samenwerking, e-mailabonnementen enzovoort, in een SaaS-aanbieding (Software as a Service).
 
@@ -128,6 +128,10 @@ Gebruik PowerBI.com om werkruimten toe te wijzen aan uw Power BI Embedded-capaci
 
 Australië - zuidoost, Brazilië - zuid, Canada Centraal, VS - oost 2, India, westen, Japan - oost, VS Noord-Centraal, Noord-Europa, VS - zuiden (midden), Zuidoost-Azië, VK Zuid, West-Europa, VS-West en VS-West 2.
 
+### <a name="what-type-of-content-pack-data-can-be-embedded"></a>Welk type inhoudspakketgegevens kan worden ingesloten?
+
+**Dashboards** en **tegels** die zijn gebouwd op basis van gegevenssets van het inhoudspakket *kunnen niet* worden ingesloten. **Rapporten** die zijn gebouwd op basis van een gegevensset van het inhoudspakket *kunnen* echter wel worden ingesloten.
+
 ## <a name="licensing"></a>Licentieverlening
 
 ### <a name="how-do-i-purchase-power-bi-embedded"></a>Hoe kan ik Power BI Embedded kopen?
@@ -170,7 +174,7 @@ Klanten kunnen hun gebruik op uurbasis aanpassen. Er is geen maandelijkse of jaa
 
 ### <a name="where-is-power-bi-embedded-available-us-government-germany-china-what-is-the-timing"></a>Waar is Power BI Embedded beschikbaar? Amerikaanse overheid? Duitsland? China? Wat is de timing?
 
-Power BI Embedded zal op het moment van algemene beschikbaarheid (GA) beschikbaar zijn in commerciële Azure-clouds.  Beschikbaarheid in onafhankelijke clouds zal in de toekomst worden toegevoegd.
+Power BI Embedded is beschikbaar in commerciële clouds van Azure en in de cloud van de Amerikaanse overheid.  Beschikbaarheid in onafhankelijke clouds voor Duitsland en China zal in de toekomst worden toegevoegd.
 
 ### <a name="is-power-bi-embedded-available-for-non-profits-and-educational"></a>Is Power BI Embedded beschikbaar voor non-profitorganisaties en het onderwijs?
 

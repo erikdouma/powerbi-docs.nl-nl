@@ -2,14 +2,14 @@
 title: Beveiliging op rijniveau met ingesloten Power BI-inhoud
 description: Meer informatie over de stappen die u moet uitvoeren voor het insluiten van Power BI-inhoud in uw toepassing.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/22/2018
 ms.author: maghan
-ms.openlocfilehash: 2dde59bba1c5d9ded1c82cf2dd1086be14f19304
-ms.sourcegitcommit: d6e013eb6291ae832970e220830d9862a697d1be
+ms.openlocfilehash: 0d7127d43e2764e1dcd15f7052b3367c8629d2f6
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Beveiliging op rijniveau met ingesloten Power BI-inhoud
 Beveiliging op rijniveau (RLS) kan worden gebruikt om de gebruikerstoegang tot gegevens in dashboards, tegels, rapporten en gegevenssets te beperken. Meerdere gebruikers kunnen werken met dezelfde artefacten, terwijl ze allemaal verschillende gegevens zien. Het insluiten van inhoud biedt ondersteuning voor RLS.
@@ -134,7 +134,7 @@ De effectieve identiteit die wordt opgegeven voor de eigenschap voor de gebruike
 
 **Configuratie van on-premises gegevensgateway**
 
-Voor liveverbindingen van Analysis Services wordt een [on-premises gegevensgateway](../service-gateway-onprem.md) gebruikt. Bij het genereren van een insluittoken, met een opgegeven identiteit, moet het hoofdaccount zijn opgegeven als beheerder van de gateway. Als het hoofdaccount niet is opgegeven, wordt de beveiliging op rijniveau niet correct toegepast op de gegevens. Een niet-beheerder van de gateway kan rollen opgeven, maar moet zijn eigen gebruikersnaam als effectieve identiteit opgeven.
+Voor liveverbindingen van Analysis Services wordt een [On-premises gegevensgateway](../service-gateway-onprem.md) gebruikt. Bij het genereren van een insluittoken, met een opgegeven identiteit, moet het hoofdaccount zijn opgegeven als beheerder van de gateway. Als het hoofdaccount niet is opgegeven, wordt de beveiliging op rijniveau niet correct toegepast op de gegevens. Een niet-beheerder van de gateway kan rollen opgeven, maar moet zijn eigen gebruikersnaam als effectieve identiteit opgeven.
 
 **Gebruik van rollen**
 

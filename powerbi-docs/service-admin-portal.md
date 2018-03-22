@@ -2,27 +2,27 @@
 title: Power BI-beheerportal
 description: De beheerportal bevat opties voor het beheer van tenants van Power BI in uw organisatie. De portal bevat onder andere metrische gegevens over gebruik, toegang tot het Office 365-beheercentrum en instellingen.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/23/2018
+ms.date: 03/02/2018
 ms.author: maghan
 LocalizationGroup: Administration
-ms.openlocfilehash: 15d1f391ba7a9c32ce1f8abd9620e84f16206e26
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1ce2bc2746773c344251b89173b5825940eb0174
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="power-bi-admin-portal"></a>Power BI-beheerportal
 
@@ -141,6 +141,10 @@ U kunt de functie ook alleen inschakelen voor een specifieke groep gebruikers en
 ### <a name="share-content-to-external-users"></a>Inhoud delen met externe gebruikers
 
 Gebruikers in de organisatie kunnen dashboards delen met gebruikers buiten de organisatie.
+
+![](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
+
+Hier is het bericht dat wordt weergegeven wanneer u deelt met een externe gebruiker.
 
 ![](media/service-admin-portal/powerbi-admin-sharing-external.png)
 

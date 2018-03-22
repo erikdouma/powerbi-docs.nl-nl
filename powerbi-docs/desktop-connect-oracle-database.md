@@ -2,14 +2,14 @@
 title: Verbinding maken met een Oracle-database
 description: Stappen en downloads die nodig zijn om Oracle te verbinden met Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6308b2e201b669bf17ee636677232b365d62e332
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4126a5f4fc7b8a398d39cad7c14e87e179ab3175
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="connect-to-an-oracle-database"></a>Verbinding maken met een Oracle-database
 Om een Oracle-database te kunnen verbinden met **Power BI Desktop**, moet de juiste Oracle-clientsoftware worden geïnstalleerd op de computer waarop Power BI Desktop wordt uitgevoerd. Welke Oracle-clientsoftware u moet gebruiken, is afhankelijk van welke versie van Power BI Desktop u hebt geïnstalleerd: de **32-bits** versie of de **64-bits** versie.
@@ -30,7 +30,7 @@ Om een Oracle-database te kunnen verbinden met **Power BI Desktop**, moet de jui
 **Ondersteunde versies**: Oracle 9 en hoger, Oracle-clientsoftware 8.1.7 en hoger.
 
 ## <a name="determining-which-version-of-power-bi-desktop-is-installed"></a>Bepalen welke versie van Power BI Desktop is geïnstalleerd
-Om te bepalen welke versie van Power BI Desktop is geïnstalleerd, selecteert u **Bestand > Info** en schakelt u de regel **Versie:** in. Op de volgende afbeelding is een 64-bits versie van Power BI Desktop geïnstalleerd:
+Om te bepalen welke versie van Power BI Desktop is geïnstalleerd, selecteert u **Bestand > Help > Info** en schakelt u de regel **Versie:** in. Op de volgende afbeelding is een 64-bits versie van Power BI Desktop geïnstalleerd:
 
 ![](media/desktop-connect-oracle-database/connect-oracle-database_1.png)
 
@@ -44,7 +44,7 @@ Gebruik voor **64-bits** versies van Power BI Desktop de volgende koppeling om d
 * [64-bits ODAC 12c release 4 (12.1.0.2.4) voor Windows x64](http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
 
 ## <a name="connect-to-an-oracle-database"></a>Verbinding maken met een Oracle-database
-Zodra het overeenkomende clientstuurprogramma is geïnstalleerd, kunt u verbinding maken met een Oracle-database. Voer de volgende stappen uit om de verbinding tot stand te brengen.
+Zodra het overeenkomende clientstuurprogramma is geïnstalleerd, kunt u verbinding maken met een Oracle-database. Voer de volgende stappen uit om de verbinding tot stand te brengen:
 
 1. Selecteer vanuit het venster Gegevens ophalen **Database > Oracle-database**
    

@@ -2,7 +2,7 @@
 Gebruikers melden zich aan met een werk- of schoolaccount. Dit is uw organisatieaccount. Als u zich hebt geregistreerd voor een Office 365-aanbieding en niet het echte e-mailadres van uw werk hebt opgegeven, kan dit eruit zien als nancy@contoso.onmicrosoft.com. Uw account wordt binnen een cloudservice opgeslagen in een tenant van Azure Active Directory (AAD). In de meeste gevallen komt de UPN van uw AAD-account overeen met het e-mailadres.
 
 ## <a name="windows-service-account"></a>Windows-serviceaccount
-De on-premises gegevensgateway is zo geconfigureerd dat *NT SERVICE\PBIEgwService* wordt gebruikt voor de aanmeldingsreferenties voor Windows-services. Standaard heeft deze gateway het recht zich aan te melden als een service. Dit is in de context van de computer waarop u de gateway installeert.
+De On-premises gegevensgateway is zo geconfigureerd dat *NT SERVICE\PBIEgwService* wordt gebruikt voor de aanmeldingsreferenties voor Windows-services. Standaard heeft deze gateway het recht zich aan te melden als een service. Dit is in de context van de computer waarop u de gateway installeert.
 
 > [!NOTE]
 > Als u de persoonlijke modus hebt geselecteerd, configureert u het Windows-serviceaccount apart.
@@ -66,9 +66,9 @@ U kunt de *Windows-gatewayservice* overigens ook opnieuw starten vanuit het dial
 ![](./media/gateway-onprem-accounts-ports-more/gw-onprem_02.png)
 
 ## <a name="support-for-tls-1112"></a>Ondersteuning voor TLS 1.1/1.2
-Sinds de update van augustus 2017 maakt de on-premises gegevensgateway standaard gebruik van Transport Layer Security (TLS) 1.1 of 1.2 om te communiceren met de **Power BI-service**. Eerdere versies van de on-premises gegevensgateway maken standaard gebruik van TLS 1.0. Op 15 maart 2018 wordt de ondersteuning voor TLS 1.0 beëindigd, waardoor de gateway ook niet meer via TLS 1.0 kan communiceren met de **Power BI-service**, dus u dient de installatie van uw on-premises gegevensgateway voor die datum te upgraden naar de release van augustus 2017 of later om garanderen dat uw gateways blijven functioneren.
+Sinds de update van augustus 2017 maakt de On-premises gegevensgateway standaard gebruik van Transport Layer Security (TLS) 1.1 of 1.2 om te communiceren met de **Power BI-service**. Eerdere versies van de On-premises gegevensgateway maken standaard gebruik van TLS 1.0. Op 15 maart 2018 wordt de ondersteuning voor TLS 1.0 beëindigd, waardoor de gateway ook niet meer via TLS 1.0 kan communiceren met de **Power BI-service**, dus u dient de installatie van uw On-premises gegevensgateway voor die datum te upgraden naar de release van augustus 2017 of later om garanderen dat uw gateways blijven functioneren.
 
-Het is belangrijk om te weten dat TLS 1.0 tot 1 november nog steeds wordt ondersteund door de on-premises gegevensgateway en door de gateway wordt gebruikt als back-upprotocol bij problemen. Om ervoor te zorgen dat al het verkeer van en naar de gateway gebruikmaakt van TLS 1.1 of 1.2 (en om te voorkomen dat uw gateway nog TLS 1.0 gebruikt), moet u de volgende registersleutels toevoegen op de computer waarop de gateway-service wordt uitgevoerd:
+Het is belangrijk om te weten dat TLS 1.0 tot 1 november nog steeds wordt ondersteund door de On-premises gegevensgateway en door de gateway wordt gebruikt als back-upprotocol bij problemen. Om ervoor te zorgen dat al het verkeer van en naar de gateway gebruikmaakt van TLS 1.1 of 1.2 (en om te voorkomen dat uw gateway nog TLS 1.0 gebruikt), moet u de volgende registersleutels toevoegen op de computer waarop de gateway-service wordt uitgevoerd:
 
         [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
         [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001

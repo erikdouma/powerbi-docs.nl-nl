@@ -1,28 +1,28 @@
 ---
 title: Power BI-inhoud met Azure AD B2B distribueren naar externe gastgebruikers
-description: "Power BI kan worden geïntegreerd met Azure Active Directory Business-to-business (Azure AD B2B) voor een veilige distributie van Power BI-inhoud naar gastgebruikers buiten de organisatie."
+description: Power BI kan worden geïntegreerd met Azure Active Directory Business-to-business (Azure AD B2B) voor een veilige distributie van Power BI-inhoud naar gastgebruikers buiten de organisatie.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/07/2017
+ms.date: 03/02/2018
 ms.author: maghan
 LocalizationGroup: Administration
-ms.openlocfilehash: 09bd3064c7a694355255cb3cca29ade02986d42e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 55394392de78bcd1a2c38ecf92dd3218c8660132
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Power BI-inhoud met Azure AD B2B distribueren naar externe gastgebruikers
 
@@ -31,7 +31,14 @@ Power BI kan worden geïntegreerd met Azure Active Directory Business-to-busines
 > [!VIDEO https://www.youtube.com/embed/xxQWEQ1NnlY]
 
 > [!NOTE]
+> U moet de functie [Instellingen exporteren en delen](service-admin-portal.md#export-and-sharing-settings) **inschakelen** in de tenant-instellingen van de Power BI-beheerdersportal voordat u gastgebruikers uitnodigt.
+
+> [!NOTE]
 > Deze functie is momenteel niet beschikbaar met de mobiele Power BI-apps. Op een mobiel apparaat kunt u in een browser Power BI-inhoud weergeven die is gedeeld met Azure AD B2B. 
+
+## <a name="who-can-you-invite"></a>Wie kunt u uitnodigen?
+
+U kunt gastgebruikers uitnodigen die gebruikmaken van ongeacht welk e-mailadres, met inbegrip van persoonlijke accounts zoals gmail.com, outlook.com of hotmail.com. Deze worden in Azure B2B 'Sociale-id's' genoemd. Raadpleeg voor meer informatie [Azure B2B](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 
 ## <a name="invite-guest-users"></a>Gastgebruikers uitnodigen
 
@@ -63,8 +70,9 @@ De gastgebruiker moet in de e-mailuitnodiging die is ontvangen, de optie **Aan d
 
 ### <a name="ad-hoc-invites"></a>Ad-hocuitnodigingen
 
-Als u uitnodiging wilt versturen, voegt u de externe gebruiker toe aan de toegangslijst van een app wanneer u deze publiceert.
+Als u op een bepaald moment een uitnodiging wilt uitbrengen, voegt u de externe gebruiker toe aan uw dashboard of meldt u dit via de gebruikersinterface voor delen of uw app via de toegangspagina.
 
+Hier volgt een voorbeeld van wat te doen wanneer u een externe gebruiker uitnodigt om een app te gebruiken.
 ![Externe gebruiker is toegevoegd aan de app-toegangslijst](media/service-admin-azure-ad-b2b/power-bi-app-access.png)
 
 De gastgebruiker ontvangt een e-mail met het bericht dat de app is gedeeld.
@@ -98,8 +106,9 @@ De gastgebruiker beschikt al over een Power BI Pro-licentie die is toegewezen in
 
 ![De gastgebruiker beschikt over een eigen licentie](media/service-admin-azure-ad-b2b/license-approach3.png)
 
-## <a name="limitations"></a>Beperkingen
+## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 
+* Wanneer u gastgebruikers uitnodigt die van persoonlijke e-mailaccounts gebruikmaken, zoals gmail.com, outlook.com of hotmail.com, kunt u deze [ingesloten video](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-redemption-experience) bekijken om een voorbeeld te zien van hoe een gebruiker zich zou aanmelden.
 * Externe B2B-gasten mogen alleen inhoud gebruiken. Externe B2B-gasten kunnen apps, dashboards en rapporten weergeven, gegevens exporteren en e-mailabonnementen instellen voor dashboards en rapporten. Ze hebben geen toegang tot werkruimten en kunnen hun eigen inhoud niet publiceren.
 * Deze functie is momenteel niet beschikbaar met de mobiele Power BI-apps. Op een mobiel apparaat kunt u in een browser Power BI-inhoud weergeven die is gedeeld met Azure AD B2B.
 * Het gebruik van gastgebruikers met Power BI wordt niet ondersteund binnen soevereine clouds (overheid).

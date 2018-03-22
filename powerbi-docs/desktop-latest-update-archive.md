@@ -2,27 +2,27 @@
 title: Eerdere maandelijkse updates voor Power BI Desktop
 description: Functie-updates uit eerdere versies van Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: identified
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b0d7dc85b9795b432b461d48894404417850b9bc
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4997c29941608c12a89598b6e9cb1b1ad3aa2fe8
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Eerdere maandelijkse updates voor Power BI Desktop
 
@@ -31,6 +31,69 @@ In dit artikel vindt u informatie over eerdere updates voor **Power BI Desktop**
 In de volgende secties wordt aandacht besteed aan de updates van de afgelopen maanden voor **Power BI Desktop**.
 
 U kunt altijd [de nieuwste versie van Power BI Desktop downloaden](https://powerbi.microsoft.com/desktop). Als u met Windows 10 werkt, kunt u **Power BI Desktop** ook downloaden uit de Windows Store. De maandelijkse versies zijn hetzelfde, ongeacht de manier waarop u **Power BI Desktop** installeert. Zie [dit artikel](desktop-get-the-desktop.md) voor meer informatie. 
+
+
+## <a name="february-2018-update-2555010521"></a>Update van februari 2018 (2.55.5010.521)
+
+Wij waren erg blij met de updates van **Power BI Desktop** in februari en we hopen dat u ze ook nuttig hebt gevonden.
+
+De koppelingen naast de verschillende updates betekenen het volgende:
+
+* **[video]**-fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
+* Sommige functies hebben een **[artikel]** dat meer informatie biedt.
+* De meeste functies worden beschreven in de maandelijkse update **[blog]**-post.
+* Sommige functies behoeven geen uitleg en hebben geen artikel of video nodig.
+
+U kunt ook de video **Meest recente updates** voor deze maand vanaf het begin bekijken, door te klikken op het pictogram **Afspelen** op de videoafbeelding onder de lijst met updates.
+
+De volgende updates zijn in februari 2018 uitgekomen voor **Power BI Desktop**:
+
+### <a name="reporting"></a>Rapportage
+
+* Meervoudige selectie van gegevenspunten in meerdere pagina's [[video]](https://youtu.be/KeVB5RwMzJo?t=23s) [[artikel]](desktop-multi-select.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight) 
+* Slicers synchroniseren via meerdere pagina's van een rapport [[video]](https://youtu.be/KeVB5RwMzJo?t=3m33s) [[artikel]](desktop-slicers.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers) 
+* Verbetering van numeriek bereik slicer - uitlijning van hele getallen (Preview) [[video]](https://youtu.be/KeVB5RwMzJo?t=8m44s) [[artikel]](desktop-slicer-numeric-range.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#rangeSlicer) 
+* Snellere geocodering van Bing-kaarten (web-preview) - tot 6 keer sneller [[video]](https://youtu.be/KeVB5RwMzJo?t=10m18s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#geocoding) 
+* Gegevenslabels voor staaf- en kolomdiagrammen laten overlopen [[video]](https://youtu.be/KeVB5RwMzJo?t=12m31s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#overflow) 
+* De opmaak- en analysepanelen door bladeren [[video]](https://youtu.be/KeVB5RwMzJo?t=14m46s) [[article]](desktop-analytics-pane.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search) 
+
+
+### <a name="custom-visuals"></a>Aangepaste visualisaties
+
+* Aangepaste organisatievisuals (Preview) [[video]](https://youtu.be/KeVB5RwMzJo?t=19m23s) [[artikel]](power-bi-custom-visuals-organization.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#organizationalVisuals) 
+
+
+### <a name="analytics"></a>Analyse
+
+* Een aangepaste gegevenstabel instellen [[video]](https://youtu.be/KeVB5RwMzJo?t=16m4s) [[artikel]](desktop-date-tables.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
+* Snelle metingen zijn nu algemeen beschikbaar [[video]](https://youtu.be/KeVB5RwMzJo?t=17m52s) [[artikel]](desktop-quick-measures.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
+
+### <a name="data-connectivity"></a>Toegang tot gegevens
+
+* Verbeteringen in DirectQuery via SAP HANA (Preview) [[video]](https://youtu.be/KeVB5RwMzJo?t=30m1s) [[artikel]](desktop-directquery-sap-hana.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#saphana) 
+
+### <a name="other"></a>Overige
+
+* Prestatieverbeteringen voor DirectQuery [[video]](https://youtu.be/KeVB5RwMzJo?t=32m24s) [[artikel]](desktop-directquery-about.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf) 
+* Prestatieverbeteringen voor openen en opslaan [[video]](https://youtu.be/KeVB5RwMzJo?t=33m40s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#savePerf) 
+* Verbeteringen van *Items zonder gegevens weergeven* [[video]](https://youtu.be/KeVB5RwMzJo?t=34m6s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#showItemsWithNoData) 
+* Permanente filters beheren voor de toekomstige functie van **Power BI-service** [[video]](https://youtu.be/KeVB5RwMzJo?t=34m56s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#persistentFilters) 
+
+
+
+> [!NOTE]
+> U kunt ook [alle gegevensbronnen bekijken die beschikbaar zijn voor Power BI Desktop](desktop-data-sources.md). Deze lijst blijft groeien, dus kom geregeld terug.
+
+Wilt u meer informatie over deze updates? Bekijk de [blogpost](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary), waar meer informatie over elk van deze nieuwe functies wordt gegeven (dit is dezelfde blogpost waarnaar in de bovenstaande lijst wordt verwezen).
+
+
+In de volgende video wordt elk van deze updates beschreven en weergegeven. U ziet ook de video uit de blogpost.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KeVB5RwMzJo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> Wellicht bent u ook geïnteresseerd in [wat er nieuw is in de Power BI-service](service-whats-new.md). Lees ook [wat er nieuw is in de mobiele apps voor Power BI](mobile-whats-new-in-the-mobile-apps.md).
 
 
 ## <a name="january-2018-update-2544970761"></a>Update van januari 2018 (2.54.4970.761)
@@ -44,7 +107,7 @@ De koppelingen naast de verschillende updates betekenen het volgende:
 * De meeste functies worden beschreven in de maandelijkse update **[blog]**-post.
 -   Sommige functies behoeven geen uitleg en hebben geen artikel of video nodig.
 
-U kunt ook de video **Meest recente updates** in dit artikel vanaf het begin bekijken, door te klikken op het pictogram **Afspelen** op de videoafbeelding onder de lijst met updates.
+U kunt ook de video **Meest recente updates** voor deze maand vanaf het begin bekijken, door te klikken op het pictogram **Afspelen** op de videoafbeelding onder de lijst met updates.
 
 De volgende updates zijn in januari uitgekomen voor **Power BI Desktop**:
 
@@ -83,7 +146,7 @@ In de volgende video wordt elk van deze updates beschreven en weergegeven. U zie
 
 
 
-## <a name="december-2017-update-2534954481-"></a>Update december 2017 (2.53.4954.481)
+## <a name="december-2017-update-2534954481"></a>Update van december 2017 (2.53.4954.481)
 
 In december vond u een groot aantal updates voor **Power BI Desktop** onder de kerstboom, boordevol functies voor iedereen die gek is op business intelligence.
 
@@ -350,9 +413,9 @@ De volgende updates zijn in juli uitgekomen voor **Power BI Desktop**:
 -   Responsieve lay-out voor visualisaties (preview) [[video]](https://youtu.be/4X96ow7FnSY?t=12m14s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals)
 -   Nieuwe optie watervalgrafiek - uitsplitsing [[video]](https://youtu.be/4X96ow7FnSY?t=14m29s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#waterfall)
 -   Updates aangepaste visualisaties [[video]](https://youtu.be/4X96ow7FnSY?t=17m34s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#customVisuals)
-    -   Drilldown Choropleth [[video]](https://youtu.be/4X96ow7FnSY?t=18m11s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownChoropleth)
-    -   Drilldown Cartogram [[video]](https://youtu.be/4X96ow7FnSY?t=19m14s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownCartogram)
-    -   Drilldown Player [[video]](https://youtu.be/4X96ow7FnSY?t=20m17s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownPlayer)
+    -   Details bekijken van Choropleth [[video]](https://youtu.be/4X96ow7FnSY?t=18m11s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownChoropleth)
+    -   Details bekijken van Cartogram [[video]](https://youtu.be/4X96ow7FnSY?t=19m14s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownCartogram)
+    -   Details bekijken van Player [[video]](https://youtu.be/4X96ow7FnSY?t=20m17s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownPlayer)
     -   Gecertificeerde aangepaste visualisaties [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#certifiedCustomVisuals)
 
 
@@ -1038,7 +1101,7 @@ In april hebben we onze Power BI-klanten blij gemaakt met nog een verzameling in
 
 -   Extra stijlen voor een tabelkaart, matrixkaart en kaart met meerdere rijen
 -   Trendlijnen op enkelvoudige visualisaties
--   Nieuwe inzoomactie – **Records weergeven**
+-   Nieuwe inzoomactie - **Records weergeven**
 -   Kaart automatische zoomen tijdens inzoomen/filteren
 -   Inline-hiërarchielabels voor uitgevouwen weergave (preview - [zie het artikel](desktop-inline-hierarchy-labels.md))
 
@@ -1059,7 +1122,7 @@ In april hebben we onze Power BI-klanten blij gemaakt met nog een verzameling in
     -   SparkPost
     -   tyGraph
 -   Voorwaardelijke kolommen
--   DirectQuery – DirectQuery of importmodus opgeven in gegevensbronvensters
+-   DirectQuery - Geef DirectQuery op versus importmodus opgeven in gegevensbronvensters
 -   Kolomtype-indicator in voorbeeld van kolomkoppen in query-editor
 -   Query's en querygroepen opnieuw ordenen met behulp van gebaren voor slepen en neerzetten
 -   Menu Querybeheer op het lint
@@ -1141,7 +1204,7 @@ Ook deze korte maand weer de nodige updates! Februari heeft dit keer 29 dagen (d
 ### <a name="report-view"></a>Rapportweergave:
 
 -   Gegevens achter een visualisatie zichtbaar maken (inclusief *Gegevens exporteren naar CSV*)
--   Kaartverbeteringen – kaart uitzetten met alleen breedtegraad/lengtegraad
+-   Kaartverbeteringen - kaart uitzetten met alleen breedtegraad/lengtegraad
 -   Release-ondersteuning voor KPI-verbruik (inclusief ondersteuning voor navigatiehiërarchie en KPI-trend voor SSAS MD)
 -   SSAS-verkenningsmodus: ondersteuning voor **Weergave**-mappen in het deelvenster **Velden**
 -   Verbeteringen van lay-out van lint: contextueel linttabblad voor **Hulpmiddelen voor rapporten**
@@ -1159,15 +1222,15 @@ Ook deze korte maand weer de nodige updates! Februari heeft dit keer 29 dagen (d
 ### <a name="data-connectivity"></a>Toegang tot gegevens:
 
 -   **DirectQuery**-ondersteuning voor Oracle- en Teradata-databases
--   **DirectQuery**: ondersteuning voor het maken van berekende kolommen
+-   **DirectQuery** - ondersteuning voor het maken van berekende kolommen
 -   Ondersteuning voor het publiceren van live-rapporten van Analysis Services
 -   Connector voor JSON-bestanden
 -   SQL Sentry-connector
 -   Ondersteuning voor geneste CSV-bestanden
--   Exchange-connector: OAuth-ondersteuning
--   Connector voor SharePoint-lijsten: URL-validatie
+-   Exchange-connector - OAuth-ondersteuning
+-   Connector voor SharePoint-lijsten - URL-validatie
 -   Databaseconnectoren - mogelijkheid om navigatiekolommen uit te schakelen in queryvoorbeelden (optimalisatie van prestaties)
--   Web-connector – fijnmazige scoping van referenties
+-   Web-connector - fijnmazige scoping van referenties
 -   Verbeteringen van dialoogvenster **Gegevens invoeren**
 -   SAP HANA - ondersteuning voor eenmalige aanmelding met Windows-verificatie (alleen voor Power BI Desktop)
 -   SAP HANA - ondersteuning voor **Veld**labels
@@ -1294,7 +1357,7 @@ Een andere maand, maar weer een grote verzameling nieuwe functies en verbetering
 -   Gedrag van slicerselectie (enkelvoudige versus meervoudige selectie)
 -   Bepalen van Z-volgorde
 -   Achtergrondkleuren voor dia's
--   Interactie tussen visualisaties – subweergave (op tegel)
+-   Interactie tussen visualisaties - subweergave (op tegel)
 -   Pagina's dupliceren
 -   Ondersteuning voor KPI's en afbeeldingen in tabellen, matrices en kaarten
 -   Betere knopinfo in vlak- en lijndiagrammen
@@ -1363,7 +1426,7 @@ Ook in oktober weer een grote verzameling updates voor Power BI Desktop:
 
 
 ### <a name="data-transformations"></a>Gegevenstransformaties:
--   Filteren op 'niet eerste/laatste datum'
+-   Filteren op ‘niet eerste/laatste datum’
 -   Filteren op 'is in vorige N minuten/uur/seconden'
 -   Query's kopiëren en plakken tussen Power BI Desktop en Excel
 -   Ondersteuning voor speciale tekens in Kolom splitsen
@@ -1396,7 +1459,7 @@ We hebben met deze update de volgende enorme verzameling van 44 functies toegevo
 - Ondersteuning voor invoegen van vormen in het rapportcanvas
 - Verbeteringen van het deelvenster Velden
     - Zoekvak om gemakkelijker velden op naam te zoeken
-    - 'Alles uitvouwen/Alles samenvouwen' voor het verbeteren van de navigatie wanneer er meerdere tabellen in het deelvenster Velden staan
+    - Alles uitvouwen/Alles samenvouwen voor het verbeteren van de navigatie wanneer er meerdere tabellen in het deelvenster Velden staan
     - Ondersteuning voor veldkardinaliteit in deelvenster Velden, slepen-vervangen voor buckets met één item
     - Extra opmaakopties voor gegevenslabels
     - Verbeteringen as cartesisch diagram:
@@ -1426,7 +1489,7 @@ We hebben met deze update de volgende enorme verzameling van 44 functies toegevo
 - Ondersteuning voor on-premises Spark-distributies
 - Ondersteuning voor SharePoint-lijsten van niet-Engelse sites
 - Exchange-connector, verbeterde ondersteuning, nu verbindingen naar meerdere postvakken toegestaan
-- Connector voor Excel-werkmappen – automatische detectie van kolomtype bij importeren van XLS-bestanden
+- Connector voor Excel-werkmappen - automatische detectie van kolomtype bij importeren van XLS-bestanden
 - Optie Gerelateerde tabellen selecteren bij het verbinden met databasebronnen
 - Verbeterde referenties voor Active Directory-connector, zodat alternatieve Windows-referenties zijn toegestaan
 - Verbeterde ervaring voor functieaanroepen bij het laden van functies uit een gegevensbron (zoals een database)
@@ -1512,7 +1575,7 @@ De volgende functies zijn toegevoegd in deze update:
 
 -   Ondersteuning voor het openen van recente bestanden op de startpagina en via het menu Bestand \> Openen.
 
--   Ondersteuning voor Exchange UPN-referenties in de Exchange-connector.
+-   Ondersteuning voor Exchange UPN-referenties in de Exchange-connector.ï»¿
 
 Naast al deze nieuwe functies, wordt **Power BI Desktop ook beschikbaar gesteld in 42 verschillende talen.** Ga naar [onze officiële downloadpagina](https://www.microsoft.com/download/details.aspx?id=45331) om de volledige lijst met talen op te halen en de gewenste taalversie te installeren.
 
@@ -1542,7 +1605,7 @@ De volgende functies zijn toegevoegd in deze update:
 
 -   Nieuwe tekstkolomfilters - **Begint niet met** en **Eindigt niet met**
 
--   Verbeterd dialoogvenster Privacyniveaus
+-   Verbeterd dialoogvenster Privacyniveausï»¿
 
 Bekijk de volgende video voor meer informatie:
 
@@ -1626,7 +1689,7 @@ De volgende functies zijn toegevoegd of verbeterd in deze update:
 - Prestatieverbeteringen
 - Connector voor Dynamics CRM Online
     > [!NOTE]
-    > Op dit moment worden alleen URL's binnen het domein crm.microsoft.com geaccepteerd door dit dialoogvenster. Dit betreft geen tenants uit een niet-productieomgeving. Dit probleem wordt opgelost in de update van maart. De tijdelijke oplossing is om verbinding te maken met deze feed met behulp van 'Uit OData'. *
+    > Op dit moment worden alleen URL's binnen het domein crm.microsoft.com geaccepteerd door dit dialoogvenster. Dit betreft geen tenants uit een niet-productieomgeving. Dit probleem wordt opgelost in de update van maart. De tijdelijke oplossing is om verbinding te maken met deze feed met behulp van 'Uit OData'.*
 - Verbeteringen aan het dialoogvenster Navigator
     -   Betere voorbeeldervaring voor multidimensionale bronnen (Analysis Services en SAP BusinessObjects)
     -   Optie Geselecteerde items weergeven

@@ -2,14 +2,14 @@
 title: Een externe R IDE met Power BI gebruiken
 description: U kunt een externe IDE starten en gebruiken met Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ab73dde22fdb0603a900ac67b6e76e8f5aaf3872
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3903a4d7351ab00da24750736840c6ba35cffa2b
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>Een externe R IDE met Power BI gebruiken
 Met **Power BI Desktop** kunt u uw externe R IDE (Integrated Development Environment) gebruiken om R-scripts te maken en verfijnen, en deze scripts vervolgens gebruiken in Power BI.
@@ -53,7 +53,7 @@ De standaardinstelling is dat **Power BI Desktop** **R Studio** start als extern
 En als er geen **.R**-bestandskoppeling bestaat, kunt u ook een pad opgeven naar een aangepaste IDE in de sectie *Blader naar de R IDE van uw voorkeur* van het dialoogvenster **Opties**. U kunt ook een andere R IDE starten door in **Power BI Desktop** het tandwielpictogram **Instellingen** naast de pijl **R IDE starten** te selecteren.
 
 ## <a name="launch-an-r-ide-from-power-bi-desktop"></a>Een R IDE starten vanuit Power BI Desktop
-U kunt als volgt een R IDE starten vanuit **Power BI Desktop**.
+U kunt als volgt een R IDE starten vanuit **Power BI Desktop**:
 
 1. Laad gegevens in **Power BI Desktop**.
 2. Selecteer in het deelvenster **Velden** enkele velden waarmee u wilt werken. Als u nog geen scriptelementen hebt ingeschakeld, wordt u gevraagd dat alsnog te doen.

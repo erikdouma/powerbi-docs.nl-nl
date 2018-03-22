@@ -2,76 +2,70 @@
 title: DirectQuery voor SAP HANA in Power BI
 description: Overwegingen bij het gebruik van DirectQuery met SAP HANA
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: cd266118fa560b3d637a85b352f8c1f03d137ec6
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7b1b56ee467dfdf6dc8c63557a9a9f4ab86e965e
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="directquery-and-sap-hana"></a>DirectQuery en SAP HANA
-Met behulp van **DirectQuery** kunt u rechtstreeks verbinding maken met **SAP HANA**-gegevensbronnen. Er zijn twee opties om verbinding te maken met HANA:
+Met behulp van **DirectQuery** kunt u rechtstreeks verbinding maken met **SAP HANA**-gegevensbronnen. Er zijn twee opties om verbinding te maken met SAP HANA:
 
-* **HANA behandelen als multi-dimensionale bron (standaard):** momenteel als preview-versie beschikbaar en de nieuwe standaardinstelling. In dit geval is het gedrag vergelijkbaar met dat van Power BI wanneer Power BI verbinding maakt met andere multi-dimensionale bronnen, bijvoorbeeld SAP Business Warehouse of Analysis Services. Als u verbinding maakt met HANA met behulp van deze instelling, wordt er één analytische of berekeningsweergave geselecteerd en alle metingen, hiërarchieën en kenmerken in dat overzicht zijn beschikbaar in de lijst met velden. Terwijl er visuals worden gemaakt, worden de samengevoegde gegevens altijd opgehaald uit HANA. Dit is de normale, aanbevolen benadering.
+* **SAP HANA behandelen als een multi-dimensionale bron (standaard):** in dit geval is het gedrag vergelijkbaar met dat van Power BI wanneer Power BI verbinding maakt met andere multi-dimensionale bronnen, bijvoorbeeld SAP Business Warehouse of Analysis Services. Als u verbinding maakt met SAP HANA met behulp van deze instelling, wordt er één analytische of berekeningsweergave geselecteerd en alle metingen, hiërarchieën en kenmerken in dat overzicht zijn beschikbaar in de lijst met velden. Terwijl er visuele elementen worden gemaakt, worden de samengevoegde gegevens altijd opgehaald uit SAP HANA. Dit is de aanbevolen aanpak en standaard voor nieuwe DirectQuery-rapporten via SAP HANA.
 
-* **HANA behandelen als een relationele bron:** in dit geval behandelt Power BI HANA als een relationele bron. Dit biedt meer flexibiliteit, maar zorg ervoor dat metingen worden samengevoegd zoals verwacht en vermijd prestatieproblemen.
+* **SAP HANA behandelen als een relationele bron:** in dit geval behandelt Power BI SAP HANA als een relationele bron. Dit biedt meer flexibiliteit, maar zorg ervoor dat metingen worden samengevoegd zoals verwacht en vermijd prestatieproblemen.
 
-De benadering die wordt gebruikt om verbinding te maken, wordt bepaald door een algemeen hulpmiddel dat u als volgt instelt. Selecteer **Bestand > Opties en instellingen**, kies vervolgens **Opties > DirectQuery** en selecteer tot slot de optie **HANA behandelen als een relationele bron**, zoals hieronder in de afbeelding wordt weergegeven. 
+De benadering die wordt gebruikt om verbinding te maken, wordt bepaald door een algemeen hulpmiddel dat u als volgt instelt. Selecteer **Bestand > Opties en instellingen**, kies vervolgens **Opties > DirectQuery** en selecteer tot slot de optie **SAP HANA behandelen als een relationele bron**, zoals hieronder in de afbeelding wordt weergegeven. 
 
 ![](media/desktop-directquery-sap-hana/directquery-sap-hana_01a.png)
 
-Houd er rekening mee dat de **SAP HANA-connector** momenteel als **preview**-versie beschikbaar is en moet worden ingeschakeld voordat de eerder genoemde optie beschikbaar is. Als u de nieuwe preview-ervaring voor SAP HANA wilt inschakelen, stelt u dat in bij **Opties > Preview-functies**, zoals wordt weergegeven in de volgende afbeelding.
+De optie om SAP HANA als relationele bron te behandelen, bepaalt de benadering die wordt gebruikt voor *nieuwe* rapporten met behulp van DirectQuery via SAP HANA. Deze optie heeft geen effect op bestaande SAP HANA-verbindingen in het huidige rapport, noch op verbindingen in andere geopende rapporten. Dus als de optie momenteel niet is aangevinkt, wordt een nieuwe verbinding die aan SAP HANA wordt toegevoegd met behulp van **Gegevens ophalen**, gemaakt met SAP HANA als multi-dimensionale bron. Als er echter een ander rapport is geopend dat ook verbinding maakt met SAP HANA, blijft dat rapport zich gedragen volgens de optie die was ingesteld *op het moment dat het rapport werd gemaakt*. Dit betekent dat rapporten die verbinding maken met SAP HANA en die voor februari 2018 zijn gemaakt, SAP HANA blijven behandelen als een relationele bron. 
 
-![](media/desktop-directquery-sap-hana/directquery-sap-hana_01b.png)
-
-De optie om HANA als relationele bron te behandelen, bepaalt de benadering die wordt gebruikt voor *nieuwe* verbindingen. Deze optie heeft geen effect op bestaande HANA-verbindingen in het huidige rapport, noch op verbindingen in andere geopende rapporten. Dus als de optie momenteel niet is aangevinkt, wordt een nieuwe verbinding die aan HANA wordt toegevoegd met behulp van **Gegevens ophalen**, gemaakt met HANA als multi-dimensionale bron. Als er echter een ander rapport is geopend dat ook verbinding maakt met HANA, blijft dat rapport zich gedragen volgens de optie die was ingesteld *op het moment dat het rapport werd gemaakt*. Dit betekent dat rapporten die verbinding maken met HANA en die voor februari 2018 zijn gemaakt, HANA blijven behandelen als een relationele bron. 
-
-De twee benaderingen leveren erg verschillend gedrag op en het is niet mogelijk om de benadering van een bestaand rapport te wijzigen. 
+De twee benaderingen laten zeer verschillend gedrag zien, en het is niet mogelijk om de benadering van een bestaand rapport te wijzigen. 
 
 We gaan beide benaderingen grondiger bekijken.
 
-## <a name="treat-hana-as-a-multi-dimensional-source-default"></a>HANA behandelen als een multi-dimensionale bron (standaard)
+## <a name="treat-sap-hana-as-a-multi-dimensional-source-default"></a>SAP HANA behandelen als een multi-dimensionale bron (standaard)
 
-Dit is de standaardinstelling en is momenteel als preview-versie beschikbaar. Volg de stappen in de vorige sectie om de preview-functie in te schakelen. 
+Deze verbindingsmethode wordt standaard gebruikt voor alle nieuwe verbindingen met SAP HANA, waarbij SAP HANA wordt behandeld als een multi-dimensionale bron. Als u een verbinding met SAP HANA als relationele bron wilt behandelen, moet u **Bestand > Opties en instellingen** selecteren en het vakje onder **Direct Query > SAP HANA behandelen als een relationele bron** aanvinken. Hoewel deze functie beschikbaar is als **Preview**-versie, kunnen rapporten die gebruikmaken van de multi-dimensionale benadering *niet* worden gepubliceerd in de Power BI-service. Als u dat wel doet, levert dat fouten op wanneer het rapport wordt geopend in de Power BI-service.  
 
-Wanneer deze **Preview**-functie is ingeschakeld in **Opties > Preview-functies** (zie eerdere secties voor de stappen om deze in te stellen), maken alle nieuwe verbindingen met HANA standaard gebruik van deze verbindingsmethode en wordt HANA als een multi-dimensionale bron behandeld. Als u een verbinding met HANA als relationele bron wilt behandelen, moet u **Bestand > Opties en instellingen** selecteren en het vakje onder **Direct Query > HANA behandelen als een relationele bron** aanvinken. Hoewel deze functie beschikbaar is als **Preview**-versie, kunnen rapporten die gebruikmaken van de multi-dimensionale benadering *niet* worden gepubliceerd in de Power BI-service. Als u dat wel doet, levert dat fouten op wanneer het rapport wordt geopend in de Power BI-service.  
+Wanneer u verbinding maakt met SAP HANA als een multi-dimensionale bron, is het volgende van toepassing:
 
-Wanneer u verbinding maakt met HANA als een multi-dimensionale bron, is het volgende van toepassing:
-
-* In de navigator **Gegevens ophalen** kan één HANA-weergave worden geselecteerd. Het is niet mogelijk om afzonderlijke metingen of kenmerken te selecteren. Op het moment van verbinden is er geen query gedefinieerd, wat niet het geval is bij het importeren van gegevens of wanneer DirectQuery wordt gebruikt wanneer HANA als relationele bron wordt behandeld. Dit betekent ook dat het niet mogelijk is om rechtstreeks een HANA SQL-query te gebruiken wanneer deze verbindingsmethode is geselecteerd.
+* In de navigator **Gegevens ophalen** kan één SAP HANA-weergave worden geselecteerd. Het is niet mogelijk om afzonderlijke metingen of kenmerken te selecteren. Op het moment van verbinden is er geen query gedefinieerd, wat niet het geval is bij het importeren van gegevens of wanneer DirectQuery wordt gebruikt wanneer SAP HANA als relationele bron wordt behandeld. Dit betekent ook dat het niet mogelijk is om rechtstreeks een SAP HANA SQL-query te gebruiken wanneer deze verbindingsmethode is geselecteerd.
 
 * Alle metingen, hiërarchieën en kenmerken van de geselecteerde weergave worden weergegeven in de lijst met velden. 
 
-* Als een meting wordt gebruik in een visual, wordt HANA gevraagd om de berichtwaarde op te halen op het aggregatieniveau dat nodig is voor de visual. Dus wanneer er sprake is van niet-additieve metingen (tellers, ratio's, enzovoort) worden alle samenvoegingen uitgevoerd door HANA en wordt er verder geen samenvoeging uitgevoerd door Power BI. 
+* Als een meting wordt gebruik in een visual, wordt SAP HANA gevraagd om de berichtwaarde op te halen op het aggregatieniveau dat nodig is voor de visual. Dus wanneer er sprake is van niet-additieve metingen (tellers, ratio's, enzovoort) worden alle samenvoegingen uitgevoerd door SAP HANA en wordt er verder geen samenvoeging uitgevoerd door Power BI. 
 
-* Er moeten bepaalde beperkingen worden opgelegd om ervoor te zorgen dat de juiste samengevoegde waarden altijd kunnen worden opgehaald van HANA. Het is bijvoorbeeld niet mogelijk om berekende kolommen toe te voegen of om gegevens van meerdere HANA-weergaven binnen hetzelfde rapport te combineren. 
+* Er moeten bepaalde beperkingen worden opgelegd om ervoor te zorgen dat de juiste samengevoegde waarden altijd kunnen worden opgehaald van SAP HANA. Het is bijvoorbeeld niet mogelijk om berekende kolommen toe te voegen of om gegevens van meerdere SAP HANA-weergaven binnen hetzelfde rapport te combineren. 
 
-HANA behandelen als een multi-dimensionale bron biedt niet de grotere flexibiliteit die wordt geleverd door de alternatieve *relationele* benadering, maar het is eenvoudiger en zorgt voor correcte samengevoegde waarden voor complexere HANA-metingen en resulteert over het algemeen in hogere prestaties. 
+SAP HANA behandelen als een multi-dimensionale bron biedt niet de grotere flexibiliteit die wordt geleverd door de alternatieve *relationele* benadering, maar het is eenvoudiger en zorgt voor correcte samengevoegde waarden voor complexere SAP HANA-metingen en resulteert over het algemeen in hogere prestaties. 
 
-De lijst met **velden** bevat alle metingen, kenmerken en hiërarchieën uit de HANA-weergave. Houd rekening met de volgende gedragingen die van toepassing zijn wanneer u deze verbindingsmethode gebruikt:
+De lijst met **velden** bevat alle metingen, kenmerken en hiërarchieën uit de SAP HANA-weergave. Houd rekening met de volgende gedragingen die van toepassing zijn wanneer u deze verbindingsmethode gebruikt:
 
 * Elk kenmerk dat is opgenomen in ten minste één hiërarchie wordt standaard verborgen. Als het nodig is, kunnen deze echter wel worden weergegeven door **Verborgen opties weergeven** te selecteren in het contextmenu in de lijst met velden. In hetzelfde contextmenu kunnen ze, indien nodig, zichtbaar worden gemaakt.
 
-* In HANA kan een kenmerk worden gedefinieerd om een ander kenmerk als label te gebruiken. Een **Product** (met de waarden 1, 2, 3, enzovoort) kan bijvoorbeeld **ProductName** (met de waarden Fiets, Shirt, Handschoenen, enzovoort) als label gebruiken. In dit geval wordt er één veld, **Product**, weergegeven in de lijst met velden, waarvan de waarden de labels Fiets, Shirt, Handschoenen, enzovoort zijn, maar dat wordt gesorteerd op, en met uniekheid bepaald door, de sleutelwaarden 1, 2, 3. Er wordt ook een verborgen kolom **Product.Key** gemaakt, zodat er, indien nodig, toegang tot de onderliggende sleutelwaarden kan worden verkregen. 
+* In SAP HANA kan een kenmerk worden gedefinieerd om een ander kenmerk als label te gebruiken. Een **Product** (met de waarden 1, 2, 3, enzovoort) kan bijvoorbeeld **ProductName** (met de waarden Fiets, Shirt, Handschoenen, enzovoort) als label gebruiken. In dit geval wordt er één veld, **Product**, weergegeven in de lijst met velden, waarvan de waarden de labels Fiets, Shirt, Handschoenen, enzovoort zijn, maar dat wordt gesorteerd op, en met uniekheid bepaald door, de sleutelwaarden 1, 2, 3. Er wordt ook een verborgen kolom **Product.Key** gemaakt, zodat er, indien nodig, toegang tot de onderliggende sleutelwaarden kan worden verkregen. 
 
-Eventuele variabelen die zijn gedefinieerd in de onderliggende HANA worden weergegeven op het moment van verbinden en de vereiste waarden kunnen worden ingevoerd. Die waarden kunnen vervolgens worden gewijzigd door **Query's bewerken** te selecteren vanuit het lint en door vervolgens **Variabelen bewerken** te selecteren uit de vervolgkeuzelijst die wordt weergegeven. 
+Eventuele variabelen die zijn gedefinieerd in de onderliggende SAP HANA-weergave worden weergegeven op het moment van verbinden, waarna de vereiste waarden kunnen worden ingevoerd. Die waarden kunnen vervolgens worden gewijzigd door **Query's bewerken** te selecteren vanuit het lint en door vervolgens **Variabelen bewerken** te selecteren uit de vervolgkeuzelijst die wordt weergegeven. 
 
-De toegestane modelleringsbewerkingen zijn restrictiever dan dat normaal is wanneer er gebruik wordt gemaakt van DirectQuery, omdat ervoor gezorgd moet worden dat de juiste samengevoegde gegevens kunnen worden opgehaald van HANA. Het is echter nog steeds mogelijk om vele toevoegingen te doen en wijzigingen aan te brengen, waaronder metingen definiëren, velden hernoemen en verbergen en weergave-indelingen maken. Al die veranderingen worden bewaard na vernieuwing en niet-conflicterende wijzigingen in de HANA-weergave worden toegepast. 
+De toegestane modelleringsbewerkingen zijn restrictiever dan dat normaal is wanneer er gebruik wordt gemaakt van DirectQuery, omdat ervoor gezorgd moet worden dat de juiste samengevoegde gegevens kunnen worden opgehaald van SAP HANA. Het is echter nog steeds mogelijk om vele toevoegingen te doen en wijzigingen aan te brengen, waaronder metingen definiëren, velden hernoemen en verbergen en weergave-indelingen maken. Al die veranderingen worden bewaard na vernieuwing en niet-conflicterende wijzigingen in de SAP HANA-weergave worden toegepast. 
 
 ### <a name="additional-modelling-restrictions"></a>Extra modelleringsbeperkingen
 
@@ -89,9 +83,9 @@ De primaire extra modelleringsbeperkingen bij het verbinden met SAP HANA met beh
 Er zijn weinig beperkingen in visuals bij het verbinden met SAP HANA met behulp van DirectQuery (behandeld als multi-dimensionale bron): 
 * **Geen aggregatie van kolommen:** het is niet mogelijk de aggregatie voor een kolom in een visual te wijzigen, deze is altijd *Niet samenvatten*.
 
-## <a name="treat-hana-as-a-relational-source"></a>HANA behandelen als een relationele bron 
+## <a name="treat-sap-hana-as-a-relational-source"></a>SAP HANA behandelen als een relationele bron 
 
-Wanneer u ervoor kiest om met HANA als een relationele bron verbinding te maken, is er meer flexibiliteit. U kunt bijvoorbeeld berekende kolommen maken, gegevens opnemen uit meerdere HANA-weergaven en relaties tussen de resulterende tabellen maken. Wanneer u SAP HANA op deze manier gebruikt, is het belangrijk om bepaalde aspecten te begrijpen van hoe verbindingen worden behandeld om zo voor het volgende te zorgen: 
+Wanneer u ervoor kiest om met SAP HANA als een relationele bron verbinding te maken, is er meer flexibiliteit. U kunt bijvoorbeeld berekende kolommen maken, gegevens opnemen uit meerdere SAP HANA-weergaven en relaties tussen de resulterende tabellen maken. Wanneer u SAP HANA op deze manier gebruikt, is het belangrijk om bepaalde aspecten te begrijpen van hoe verbindingen worden behandeld om zo voor het volgende te zorgen: 
 
 * De resultaten zijn zoals ze worden verwacht als de SAP HANA-weergave niet-additieve metingen bevat (bijvoorbeeld unieke tellingen, of gemiddelden, in plaats van eenvoudige optellingen).
 * De resulterende query's efficiënt zijn
@@ -112,48 +106,48 @@ Als **DirectQuery** (via diezelfde relationele bron) wordt gebruikt in plaats va
 * In een visueel element wordt elke volgende samenstelling (*Som*, *Gemiddelde*, *Minus* en overige) opnieuw uitgevoerd voor die logische tabel van de query. En ook hier wordt in een visueel element met een *gemiddelde* van *AveragePrice* de waarde 4,56 geretourneerd.
   
 Neem nu SAP HANA eens in overweging wanneer de verbinding wordt behandeld als een relationele bron. Power BI werkt in SAP HANA zowel met *analytische weergaven* als *berekeningsweergaven*. Beide kunnen metingen bevatten. Tegenwoordig volgt de werkwijze voor SAP HANA dezelfde principes die eerder in deze sectie zijn beschreven: de query die wordt gedefinieerd in **Gegevens ophalen** of **Query-editor**, bepaalt de beschikbare gegevens. Vervolgens vindt elke volgende samenstelling in een visueel element van die gegevens plaats. Hetzelfde geldt voor zowel Importeren als DirectQuery.  
-Gezien de aard van HANA is de query die in het eerste dialoogvenster **Gegevens ophalen** of **Query-editor** is gedefinieerd, echter altijd een combinatiequery. Deze bevat gewoonlijk alle metingen waarbij de feitelijk te gebruiken samenstelling door de HANA-weergave wordt gedefinieerd.
+Gezien de aard van SAP HANA is de query die in het eerste dialoogvenster **Gegevens ophalen** of **Query-editor** is gedefinieerd, echter altijd een combinatiequery. Deze bevat gewoonlijk alle metingen waarbij de feitelijk te gebruiken samenstelling door de SAP HANA-weergave wordt gedefinieerd.
 
-Het equivalent van SQL Server in bovenstaand voorbeeld is dat er een HANA-weergave is die *ID*, *ProductID*, *DepotID*, en metingen bevat, inclusief *AveragePrice*, gedefinieerd in de weergave als *Average of Price*.  
+Het equivalent van SQL Server in bovenstaand voorbeeld is dat er een SAP HANA-weergave is die *ID*, *ProductID*, *DepotID*, en metingen bevat, inclusief *AveragePrice*, gedefinieerd in de weergave als *Average of Price*.  
     
-Als in **Gegevens ophalen** de gemaakte selecties voor **ProductID** en de meting **AveragePrice** zijn, dan wordt er een query over de weergave gedefinieerd, waarbij die samengestelde gegevens worden gevraagd (in het eerdere voorbeeld wordt ter verduidelijking pseudo-SQL gebruikt, wat niet overeenkomt met de exacte syntaxis van HANA SQL). Vervolgens aggregeren eventuele verdere samenstellingen die in een visueel element worden gedefinieerd de resultaten van een dergelijke query. Dit is, net zoals hierboven beschreven voor SQL Server, opnieuw van toepassing op zowel het geval Importeren als DirectQuery. In het geval van DirectQuery wordt de query uit **Gegevens ophalen** of **Query-editor** gebruikt in een subselectie binnen één query die naar HANA wordt verzonden. Het is dus niet feitelijk zo dat alle gegevens worden ingelezen voordat ze verder worden samengesteld.  
+Als in **Gegevens ophalen** de gemaakte selecties voor **ProductID** en de meting **AveragePrice** zijn, dan wordt er een query over de weergave gedefinieerd, waarbij die samengestelde gegevens worden gevraagd (in het eerdere voorbeeld wordt ter verduidelijking pseudo-SQL gebruikt, wat niet overeenkomt met de exacte syntaxis van SAP HANA SQL). Vervolgens aggregeren eventuele verdere samenstellingen die in een visueel element worden gedefinieerd de resultaten van een dergelijke query. Dit is, net zoals hierboven beschreven voor SQL Server, opnieuw van toepassing op zowel het geval Importeren als DirectQuery. In het geval van DirectQuery wordt de query uit **Gegevens ophalen** of **Query-editor** gebruikt in een subselectie binnen één query die naar SAP HANA wordt verzonden. Het is dus niet feitelijk zo dat alle gegevens worden ingelezen voordat ze verder worden samengesteld.  
 
-Al deze overwegingen en gedragen maken de volgende belangrijke overwegingen nodig wanneer u van DirectQuery via HANA gebruikmaakt:  
+Al deze overwegingen en gedragen maken de volgende belangrijke overwegingen nodig wanneer u van DirectQuery via SAP HANA gebruikmaakt:  
 
-* Er moet worden gelet op verdere samenstellingen die in visuele elementen worden uitgevoerd zodra de meting in HANA niet-additief is (bijvoorbeeld geen eenvoudige *Som*, *Minus* of *Max*).
+* Er moet worden gelet op verdere samenstellingen die in visuele elementen worden uitgevoerd zodra de meting in SAP HANA niet-additief is (bijvoorbeeld geen eenvoudige *Som*, *Minus* of *Max*).
 
-* In **Gegevens ophalen** of **Query-editor** mogen alleen de vereiste kolommen worden opgenomen om de vereiste gegevens op te halen. Dit weerspiegelt het feit dat het resultaat een query is en een redelijke query is die naar HANA kan worden verzonden. Als bijvoorbeeld tientallen kolommen zouden worden geselecteerd (die eventueel nodig kunnen zijn voor verdere visuele elementen), dan houdt een eenvoudig visueel element ook voor DirectQuery in dat de in de subselectie gebruikte combinatiequery tientallen kolommen bevat, die over het algemeen slechte prestaties geven.
+* In **Gegevens ophalen** of **Query-editor** mogen alleen de vereiste kolommen worden opgenomen om de vereiste gegevens op te halen. Dit weerspiegelt het feit dat het resultaat een query is en een redelijke query is die naar SAP HANA kan worden verzonden. Als bijvoorbeeld tientallen kolommen zouden worden geselecteerd (die eventueel nodig kunnen zijn voor verdere visuele elementen), dan houdt een eenvoudig visueel element ook voor DirectQuery in dat de in de subselectie gebruikte combinatiequery tientallen kolommen bevat, die over het algemeen slechte prestaties geven.
   
-We kijken naar een voorbeeld. In het volgende voorbeeld worden naast de meting *OrderQuantity* vijf kolommen geselecteerd in het dialoogvenster **Gegevens ophalen**: **CalendarQuarter**, **Color**, **LastName**, **ProductLine**, **SalesOrderNumber**. Dit betekent dat als er later een eenvoudige visual wordt gemaakt met Minus OrderQuantity, dit resulteert in de volgende SQL-query naar HANA. Het gearceerde gedeelte is de subselectie. Deze bevat de query van **Gegevens ophalen** / **Query-editor**. Als de subselectie een resultaat oplevert met zeer hoge kardinaliteit, dan zijn de prestaties van HANA waarschijnlijk erg slecht.  
+We kijken naar een voorbeeld. In het volgende voorbeeld worden naast de meting *OrderQuantity* vijf kolommen geselecteerd in het dialoogvenster **Gegevens ophalen**: **CalendarQuarter**, **Color**, **LastName**, **ProductLine**, **SalesOrderNumber**. Dit betekent dat als er later een eenvoudige visual wordt gemaakt met Minus OrderQuantity, dit resulteert in de volgende SQL-query naar SAP HANA. Het gearceerde gedeelte is de subselectie. Deze bevat de query van **Gegevens ophalen** / **Query-editor**. Als de subselectie een resultaat oplevert met zeer hoge kardinaliteit, dan zijn de prestaties van SAP HANA waarschijnlijk erg slecht.  
 
 ![](media/desktop-directquery-sap-hana/directquery-sap-hana_03.png)
 
    
-Vanwege dit gedrag wordt het aangeraden dat de in **Gegevens ophalen** of **Query-editor** geselecteerde items worden beperkt tot die items die nodig zijn, terwijl er nog wel een redelijke query voor HANA uitrolt.  
+Vanwege dit gedrag wordt het aangeraden dat de in **Gegevens ophalen** of **Query-editor** geselecteerde items worden beperkt tot die items die nodig zijn, terwijl er nog wel een redelijke query voor SAP HANA uitrolt.  
 
 ## <a name="best-practices"></a>Best practices 
 
-Voor beide benaderingen om met SAP HANA verbinding te maken, gelden de aanbevelingen voor het gebruik van DirectQuery ook voor HANA, in het bijzonder die zijn gerelateerd aan het waarborgen van goede prestaties. Deze aanbevelingen zijn uitgebreid beschreven in het artikel [DirectQuery gebruiken in Power BI](desktop-directquery-about.md).
+Voor beide benaderingen om met SAP HANA verbinding te maken, gelden de aanbevelingen voor het gebruik van DirectQuery ook voor SAP HANA, in het bijzonder die zijn gerelateerd aan het waarborgen van goede prestaties. Deze aanbevelingen zijn uitgebreid beschreven in het artikel [DirectQuery gebruiken in Power BI](desktop-directquery-about.md).
    
 ## <a name="limitations"></a>Beperkingen
 
 De volgende lijst bevat alle SAP HANA-functies die niet volledig worden ondersteund of functies die zich anders gedragen bij gebruik van Power BI. 
 
 * **Bovenliggende/onderliggende hiërarchieën**: bovenliggende/onderliggende hiërarchieën zijn niet zichtbaar in Power BI.
-Dit is omdat Power BI toegang krijgt tot HANA via de SQL-interface en er kan via SQL geen volledige toegang verkregen worden tot bovenliggende/onderliggende hiërarchieën.
+Dit is omdat Power BI toegang krijgt tot SAP HANA via de SQL-interface en er kan via SQL geen volledige toegang verkregen worden tot bovenliggende/onderliggende hiërarchieën.
 * **Andere hiërarchiemetagegevens**: de basisstructuur van hiërarchieën wordt weergegeven in Power BI, maar sommige hiërarchiemetagegevens (zoals het gedrag controleren van niet-aaneengesloten hiërarchieën) hebben geen effect.
 Ook dit komt door de beperkingen die door de SQL-interface zijn opgelegd.
 * **Verbinding met SSL**: u kunt geen verbinding maken met SAP HANA-exemplaren die zijn geconfigureerd om SSL te gebruiken.
 Power BI kan verbinding maken met analytische en berekeningsweergaven ter ondersteuning van kenmerkweergaven, maar niet rechtstreeks met kenmerkweergaven.
 * **Ondersteuning voor catalogusobjecten**: Power BI kan geen verbinding met de catalogusobjecten.
-* **Variabelen wijzigen na publicatie**: nadat het rapport is gepubliceerd, kunt u de waarden van HANA-variabelen niet meer rechtstreeks wijzigen in de Power BI-service. 
+* **Variabelen wijzigen na publicatie**: nadat het rapport is gepubliceerd, kunt u de waarden van SAP HANA-variabelen niet meer rechtstreeks wijzigen in de Power BI-service. 
  
 ## <a name="known-issues"></a>Bekende problemen 
 De volgende lijst bevat alle bekende problemen die zich voor kunnen doen bij het verbinden met SAP HANA (DirectQuery) met behulp van Power BI. 
 
-* **HANA-probleem bij query voor tellers en andere metingen**: onjuiste gegevens worden geretourneerd door HANA wanneer er verbinding wordt gemaakt met een analytische weergave en er in dezelfde visual een tellermeting en een andere ratiometing wordt opgenomen. Dit wordt behandeld in SAP-notitie 2128928 (Onverwachte resultaten bij query naar een berekende kolom en een teller). In dit geval is de ratiometing onjuist. 
+* **SAP HANA-probleem bij query voor tellers en andere metingen**: onjuiste gegevens worden geretourneerd door SAP HANA wanneer er verbinding wordt gemaakt met een analytische weergave en er in dezelfde visual een tellermeting en een andere ratiometing wordt opgenomen. Dit wordt behandeld in SAP-notitie 2128928 (Onverwachte resultaten bij query naar een berekende kolom en een teller). In dit geval is de ratiometing onjuist. 
 
-* **Meerdere Power BI-kolommen van één HANA-kolom**: HANA beschrijft sommige berekeningsweergaven waar een HANA-kolom wordt gebruikt in meer dan één hiërarchie als twee afzonderlijke kenmerken. Dit resulteert erin dat er twee kolommen in Power BI worden gemaakt.  Deze kolommen zijn echter standaard verborgen en alle query's die betrekking hebben op de hiërarchieën, of rechtstreeks op de kolommen, gedragen zich correct. 
+* **Meerdere Power BI-kolommen van één SAP HANA-kolom**: SAP HANA beschrijft sommige berekeningsweergaven waar een SAP HANA-kolom wordt gebruikt in meer dan één hiërarchie als twee afzonderlijke kenmerken. Dit resulteert erin dat er twee kolommen in Power BI worden gemaakt.  Deze kolommen zijn echter standaard verborgen en alle query's die betrekking hebben op de hiërarchieën, of rechtstreeks op de kolommen, gedragen zich correct. 
  
 ## <a name="next-steps"></a>Volgende stappen
 

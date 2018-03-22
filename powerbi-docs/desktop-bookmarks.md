@@ -1,30 +1,30 @@
 ---
-title: Bladwijzers gebruiken in Power BI (Preview)
+title: Bladwijzers gebruiken in Power BI
 description: Met bladwijzers in Power BI Desktop kunt u weergaven en instellingen in uw rapporten opslaan en verhalende presentaties samenstellen
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3a56983f48d80cf39b89958db4327e3632ee733e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 706662e9fd7c6bd41015b286a7b7f1025e40a15e
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi-preview"></a>Bladwijzers gebruiken om inzichten te delen en verhalen te vertellen in Power BI (Preview)
+# <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Bladwijzers gebruiken om inzichten te delen en verhalen te vertellen in Power BI 
 Met behulp van **bladwijzers** in Power BI kunt u de momenteel geconfigureerde weergave van een rapportpagina vastleggen, inclusief filters en de status van visuele elementen, en later terugkeren naar deze staat door eenvoudig de opgeslagen bladwijzer te selecteren. 
 
 U kunt ook een verzameling bladwijzers maken, deze rangschikken in de gewenste volgorde en vervolgens de bladwijzers doorlopen in een presentatie om een reeks inzichten te markeren of uw verhaal te vertellen aan de hand van visuele elementen en rapporten. 
@@ -33,12 +33,14 @@ U kunt ook een verzameling bladwijzers maken, deze rangschikken in de gewenste v
 
 Er zijn vele toepassingen voor bladwijzers. U kunt ze gebruiken om uw eigen voortgang bij het maken van rapporten bij te houden (u kunt bladwijzers eenvoudig toevoegen, verwijderen en wijzigen) en u kunt bladwijzers maken om een PowerPoint-achtige presentatie te maken, waarbij u bladwijzers op volgorde doorloopt om zo een verhaal te vertellen met uw rapport. Er zijn mogelijk ook andere toepassingen, afhankelijk van hoe u bladwijzers het beste denkt te kunnen gebruiken.
 
-### <a name="enable-the-bookmarks-preview"></a>Preview-functie voor bladwijzers inschakelen
-U kunt de nieuwe functie voor **bladwijzers** uitproberen vanaf de release van **oktober 2017** van **Power BI Desktop** en ook voor rapporten waarvoor bladwijzers zijn ingeschakeld in de **Power BI-service**. Als u deze preview-functie wilt inschakelen, selecteert u **Bestand > Opties en instellingen > Opties > Voorbeeldfuncties** en schakelt u vervolgens het selectievakje naast **Bladwijzers** in. Power BI Desktop moet opnieuw worden opgestart nadat u de selectie hebt gemaakt.
+### <a name="enable-the-bookmarks-preview-versions-prior-to-march-2018"></a>Preview-functie voor bladwijzers inschakelen (versies vóór maart 2018)
+Met ingang van de Power BI Desktop-versie van maart 2018 zijn bladwijzers algemeen beschikbaar. 
+
+We raden altijd aan om een upgrade naar de meest recente versie uit te voeren. Maar als uw Power BI Desktop-versie van vóór deze release is, kunt u de functie voor **bladwijzers** uitproberen vanaf de release van **oktober 2017** van **Power BI Desktop** en ook voor rapporten waarvoor bladwijzers zijn ingeschakeld in de **Power BI-service**. Als u de preview-functie wilt inschakelen, selecteert u **Bestand > Opties en instellingen > Opties > Voorbeeldfuncties** en schakelt u vervolgens het selectievakje naast **Bladwijzers** in. 
 
 ![Bladwijzers inschakelen in het venster Opties](media/desktop-bookmarks/bookmarks_02.png)
 
-**Power BI Desktop** moet opnieuw worden opgestart nadat u de selectie hebt gemaakt.
+U moet **Power BI Desktop** opnieuw opstarten nadat u de selectie hebt gemaakt om de preview-versie in te schakelen voor bladwijzers.
 
 ## <a name="using-bookmarks"></a>Bladwijzers gebruiken
 Als u bladwijzers wilt gebruiken, selecteert u **Beeld** op het lint en schakelt u het selectievakje voor **Beeldvenster Bladwijzers** in. 
@@ -147,14 +149,13 @@ In de **Power BI-service** werkt het deelvenster **Bladwijzers** hetzelfde als i
 Let erop dat u de grijze bladwijzerbalk moet gebruiken om te navigeren door de bladwijzers en niet de zwarte pijlen (met de zwarte pijlen doorloopt u rapportpagina's, geen bladwijzers).
 
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
-Houd rekening met de volgende beperkingen en overwegingen in deze preview-release van **bladwijzers**.
+Houd rekening met de volgende beperkingen en overwegingen in deze release van **bladwijzers**.
 
 * Aangepaste visuele elementen werken niet met bladwijzers als ze de *bron* van het filter zijn. Als u aangepaste visuele elementen gebruikt om elementen op een pagina te filteren (bijvoorbeeld de chiclet-slicer) en terugkeert naar die pagina via een bladwijzer, wordt de pagina mogelijk gefilterd, maar wordt het aangepaste visuele element niet bijgewerkt om weer te geven hoe de pagina wordt gefilterd. 
 * De status van kruislingse markeringen voor een rapportvenster wordt *niet* opgeslagen wanneer u een bladwijzer maakt. 
 * Als u een visueel element toevoegt aan een rapportpagina nadat u een bladwijzer hebt gemaakt, wordt het visuele element weergegeven in de standaardstaat. Dit betekent ook dat als u een slicer toevoegt aan een pagina waarop u eerder bladwijzers hebt gemaakt, de slicer in de standaardstaat wordt uitgevoerd.
 * Als visuele elementen worden verplaatst nadat een bladwijzer is gemaakt, wordt dit weerspiegeld in de bladwijzer. 
 * U *moet* ten minste één bladwijzer aan uw rapport toevoegen wanneer u dit publiceert naar de **Power BI-service** als u wilt dat bladwijzers beschikbaar zijn in de service. Dit is een vereiste voor elk rapport dat u publiceert.
-* Aangezien bladwijzers momenteel een Preview-functie zijn, zijn deze nog niet beschikbaar in [**Power BI Desktop voor Report Server**](report-server/quickstart-create-powerbi-report.md).
 
 ## <a name="next-steps"></a>Volgende stappen
 Raadpleeg de volgende artikelen voor meer informatie over functies die vergelijkbaar zijn of samenwerken met bladwijzers:

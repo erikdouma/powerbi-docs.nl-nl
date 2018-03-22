@@ -2,27 +2,27 @@
 title: Een alternatief e-mailadres gebruiken voor Power BI
 description: Een alternatief e-mailadres gebruiken voor Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/09/2017
+ms.date: 03/08/2018
 ms.author: maghan
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: c97f60e39d68060c8eb3396bac4eb7725dab9c86
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: adc78cceb8a6b6edd06896e53a1a64cf0d28b2b8
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="using-an-alternate-email-address"></a>Een alternatief e-mailadres gebruiken voor Power BI
 Standaard wordt het e-mailadres dat u gebruikt voor het aanmelden bij Power BI gebruikt om u updates over de activiteit in Power BI te sturen.  Wanneer iemand u bijvoorbeeld een uitnodiging om iets te delen stuurt, wordt deze naar dit adres verzonden.
@@ -45,6 +45,19 @@ Soms wilt u deze e-mailberichten ontvangen via een alternatief e-mailadres, in p
 > Als u deze instelling wijzigt, heeft dit geen invloed op het e-mailadres dat wordt gebruikt voor het verzenden van service-updates, nieuwsbrieven en andere aanbiedingsberichten.  Deze worden altijd verzonden naar e-mailadres dat u oorspronkelijk hebt gebruikt bij het registreren voor Power BI.
 > 
 > 
+
+## <a name="updating-through-azure-active-directory"></a>Bijwerken via Azure Active Directory
+Wanneer u een insluittoken van Active Azure Directory (AAD) voor Power BI wilt vastleggen, kunt u gebruikmaken van drie verschillende typen e-mailberichten. De drie verschillende typen zijn:
+
+* het belangrijkste e-mailadres dat is gekoppeld aan een AAD-account van een gebruiker;
+* het e-mailadres UserPrincipalName (UPN);
+* het matrixkenmerk van een 'ander' e-mailadres
+
+Power BI selecteert welk e-mailadres moet worden gebruikt op basis van de volgende criteria:
+1.  Als het e-mailkenmerk in het gebruikersobject van de AAD-tenant aanwezig is, wordt dat mailkenmerk door Power BI als e-mailadres gebruikt
+2.  Als het UPN-e-mailadres *niet* tot het domein  **\*. onmicrosoft.com** behoort (de gegevens na het '@’-symbool), wordt dat mailkenmerk door Power BI als e-mailadres gebruikt
+3.  Als het matrixkenmerk 'ander' e-mailadres in het AAD-gebruikersobject aanwezig is, wordt het eerste e-mailadres in de lijst gebruikt (omdat er een lijst kan zijn van e-mailadressen in dit kenmerk)
+4. Als geen van de bovenstaande voorwaarden aanwezig zijn, wordt het UPN-adres gebruikt
 
 ## <a name="updating-with-powershell"></a>Bijwerken met PowerShell
 U kunt het alternatieve e-mailadres ook bijwerken via PowerShell voor Azure Active Directory. Dit doet u met de opdracht [Set-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser).

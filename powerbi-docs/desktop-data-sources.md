@@ -2,12 +2,12 @@
 title: Gegevensbronnen in Power BI Desktop
 description: Gegevensbronnen in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: complete
 qualitydate: 04/29/2016
 ms.service: powerbi
@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 85ac8564efca953d338bef9aab8b59699d992c19
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ff28f5d43b065ae798e2e9f275c8e8b59e9ee1ce
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Gegevensbronnen in Power BI Desktop
 Met Power BI Desktop kunt u verbinding maken met gegevens uit veel verschillende bronnen. Onderaan op deze pagina vindt u een volledige lijst met beschikbare gegevensbronnen.
@@ -78,13 +78,14 @@ De categorie **Database** biedt de volgende gegevensverbindingen:
 * Oracle-database
 * IBM DB2-database
 * IBM Informix-database (bèta)
-* IBM Netezza (bèta)
+* IBM Netezza
 * MySQL-database
 * PostgreSQL-database
 * Sybase-database
 * Teradata-database
 * SAP HANA-database
-* SAP Business Warehouse-server
+* SAP Business Warehouse-toepassingsserver
+* SAP Business Warehouse-berichtenserver (bèta)
 * Amazon Redshift
 * Impala
 * Google BigQuery (bèta)
@@ -103,13 +104,14 @@ De categorie **Azure** biedt de volgende gegevensverbindingen:
 
 * Azure SQL-database
 * Azure SQL Data Warehouse
-* SQL Server Analysis Services-database (bèta)
+* Microsoft Azure Analysis Services-database
 * Azure Blob-opslag
 * Azure-tabelopslag
 * Azure Cosmos DB (bèta)
 * Azure Data Lake Store
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark (bèta)
+* HDInsight interactieve Query (bèta)
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Azure**.
 
@@ -121,6 +123,7 @@ De categorie **Onlineservices** biedt de volgende gegevensverbindingen:
 * SharePoint Online-lijst
 * Microsoft Exchange Online
 * Dynamics 365 (online)
+* Dynamics NAV (bèta)
 * Dynamics 365 for Financials (bèta)
 * Common Data Service (bèta)
 * Inzicht van Microsoft Azure-verbruik (bèta)
@@ -128,23 +131,24 @@ De categorie **Onlineservices** biedt de volgende gegevensverbindingen:
 * Salesforce-objecten
 * Salesforce-rapporten
 * Google Analytics
+* Adobe Analytics
 * appFigures (bèta)
 * comScore Digital Analytix (bèta)
 * Dynamics 365 for Customer Insights (bèta)
+* Data.World - Gegevensset ophalen (bèta)
 * Facebook
 * GitHub (bèta)
-* Kusto (bèta)
 * MailChimp (bèta)
+* Marketo (bèta)
 * Mixpanel (bèta)
-* Planview Enterprise (bèta)
-* Projectplace (bèta)
+* Planview Enterprise One - PRM (bèta)
+* Planview Projectplace (bèta)
 * QuickBooks Online (bèta)
 * Smartsheet
 * SparkPost (bèta)
-* SQL Sentry (bèta)
 * Stripe (bèta)
 * SweetIQ (bèta)
-* Troux (bèta)
+* Planview Enterprise One - CMT (bèta)
 * Twilio (bèta)
 * tyGraph (bèta)
 * Webtrends (bèta)
@@ -157,6 +161,7 @@ In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Onlines
 De categorie **Overige** biedt de volgende gegevensverbindingen:
 
 * Vertica (bèta)
+* Kusto (bèta)
 * Web
 * SharePoint-lijst
 * OData-feed
@@ -203,4 +208,3 @@ U kunt allerlei handelingen uitvoeren met Power BI Desktop. Bekijk de volgende b
 * [Gegevenstypen in Power BI Desktop](desktop-data-types.md)
 * [Gegevens vormgeven en combineren met Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Common Query Tasks in Power BI Desktop](desktop-common-query-tasks.md) (Algemene querytaken in Power BI Desktop)    
-

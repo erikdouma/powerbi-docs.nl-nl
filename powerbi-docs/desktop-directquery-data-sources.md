@@ -2,27 +2,27 @@
 title: Gegevensbronnen die worden ondersteund door DirectQuery in Power BI
 description: Hier vindt u een lijst met ondersteunde gegevensbronnen voor DirectQuery.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/09/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3630d876f3e32cbe981d7fb5bcc38d9da1a257f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2f395a5030cb2e025b8b69fa9b5375f471dea452
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Gegevensbronnen die worden ondersteund door DirectQuery in Power BI
 In **Power BI Desktop** en de **Power BI-service** kunt u met allerlei gegevensbronnen verbinding maken en toegang tot gegevens verkrijgen. In dit artikel wordt beschreven welke gegevensbronnen voor Power BI worden ondersteund voor de verbindingsmethode **DirectQuery**. Zie [**DirectQuery in Power BI**](desktop-directquery-about.md) voor meer informatie over DirectQuery.
@@ -37,7 +37,8 @@ De volgende gegevensbronnen worden ondersteund door DirectQuery in Power BI:
 * IBM Netezza (bèta)
 * Impala (versie 2.x)
 * Oracle Database (versie 12 en hoger)
-* SAP Business Warehouse (bèta)
+* SAP Business Warehouse-toepassingsserver
+* SAP Business Warehouse-berichtenserver (bèta)
 * SAP HANA
 * Snowflake
 * Spark (bèta) (versie 0.9 en hoger)
@@ -50,7 +51,7 @@ Gegevensbronnen met **(bèta)** of **(voorbeeld)** achter de naam zijn onderhevi
 Het enige verschil tussen **bèta**- en **voorbeeld**gegevensbronnen is dat **voorbeeld**bronnen moeten zijn ingeschakeld als voorbeeldfunctie voordat ze beschikbaar worden voor gebruik. U schakelt een **voorbeeld**gegevensconnector als volgt in: ga in **Power BI Desktop** naar **Bestand > Opties en instellingen** en kies **Instellingen > Opties > Voorbeeldfuncties**.
 
 ## <a name="on-premises-gateway-requirements"></a>Vereisten voor on-premises gateway
-In de volgende tabel wordt aangegeven of u een **on-premises gegevensgateway** nodig hebt om verbinding te maken met de opgegeven gegevensbron, na publicatie van een rapport naar de **Power BI-service**.
+In de volgende tabel wordt aangegeven of u een **On-premises gegevensgateway** nodig hebt om verbinding te maken met de opgegeven gegevensbron, na publicatie van een rapport naar de **Power BI-service**.
 
 | Bron | Gateway vereist? |
 | --- | --- |
@@ -62,11 +63,14 @@ In de volgende tabel wordt aangegeven of u een **on-premises gegevensgateway** n
 | Teradata-database |Ja |
 | Amazon Redshift |Nee |
 | Impala (versie 2.x) |Ja |
-| Snowflake (voorbeeld) |Nog niet ondersteund in de **Power BI-service** |
+| Snowflake |Ja |
 | Spark (bèta), versie 0.9 en hoger |Nog niet ondersteund in de **Power BI-service** |
-| Azure HDInsight Spark (bèta) |Nog niet ondersteund in de **Power BI-service** |
-| IBM Netezza (bèta) |Nog niet ondersteund in de **Power BI-service** |
-| SAP Business Warehouse (bèta) |Nog niet ondersteund in de **Power BI-service** |
+| Azure HDInsight Spark (bèta) |Nee |
+| IBM Netezza |Ja |
+| SAP Business Warehouse-toepassingsserver |Ja |
+| SAP Business Warehouse-berichtenserver |Nog niet ondersteund in de **Power BI-service** |
+| Google BigQuery |Nee |
+
 
 ## <a name="next-steps"></a>Volgende stappen
 Bekijk de volgende bronnen voor meer informatie over DirectQuery:

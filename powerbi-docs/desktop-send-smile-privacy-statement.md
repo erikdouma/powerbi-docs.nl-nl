@@ -2,29 +2,34 @@
 title: Privacyverklaring van Power BI Desktop voor Glimlach verzenden
 description: Privacyverklaring van Power BI Desktop voor Glimlach verzenden
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f9aa1570fe9386e5f8e726097a1c88d448dc2da1
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ac61259fc0f02e8f84a94502e9f8dd89d5ca4b96
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="power-bi-desktop-send-a-smile-privacy-statement"></a>Privacyverklaring van Power BI Desktop voor Glimlach verzenden
+
+Met ingang van de **Power BI Desktop**-versie van maart 2018 maakt foutrapportage gebruik van het platform Windows Foutrapportage in plaats van de functie *Glimlach verzenden* of *Frons verzenden*. U kunt meer informatie krijgen over het platform Windows Foutrapportage in de [Windows Privacy-blog](https://blogs.windows.com/windowsexperience/2018/01/24/microsoft-introduces-new-privacy-tools-ahead-of-data-privacy-day/). 
+
+## <a name="for-versions-of-power-bi-desktop-prior-to-march-2018"></a>Voor Power BI Desktop-versies van vóór maart 2018
+
 Bij Microsoft werken we er hard aan uw privacy te beschermen bij het leveren van producten die u de prestaties, het vermogen en het gebruiksgemak bieden die u nodig hebt. Deze privacyverklaring legt veel van de procedures voor het gebruik en de verzameling van gegevens uit van *Glimlach verzenden* voor Microsoft Power BI Desktop Feedback. De verklaring geldt niet voor andere online of offline sites, producten of services van Microsoft.
 
 Tenzij anders wordt vermeld in deze verklaring, verzendt *Glimlach verzenden* geen persoonlijke gegevens naar Microsoft. Informatie die wordt verzonden naar Microsoft wordt nooit zonder uw toestemming gedeeld buiten Microsoft, haar beheerde dochterbedrijven en haar partners.

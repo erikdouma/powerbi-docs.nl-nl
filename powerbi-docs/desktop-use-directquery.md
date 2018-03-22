@@ -2,14 +2,14 @@
 title: DirectQuery in Power BI Desktop gebruiken
 description: DirectQuery (ook wel een liveverbinding genoemd) in Power BI Desktop gebruiken
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/25/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ec124ef4ae34b064e217b3ce646a329d538e4214
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: df45bbaa142b2c476a6391b1c43638e1ee76c3ae
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>DirectQuery in Power BI Desktop gebruiken
 Wanneer u in **Power BI Desktop** verbinding maakt met een gegevensbron, kunt u altijd een kopie van de gegevens in **Power BI Desktop** importeren. Voor sommige gegevensbronnen kunt u ook rechtstreeks verbinding maken met de gegevensbron via **DirectQuery**.
@@ -83,7 +83,7 @@ Houd rekening met de volgende drie punten wanneer u **DirectQuery** gebruikt:
 ## <a name="publish-to-the-power-bi-service"></a>Publiceren naar de Power BI-service
 Rapporten die zijn gemaakt met **DirectQuery**, kunnen worden gepubliceerd naar de Power BI-service.
 
-Als de **on-premises gegevensgateway** (**Azure SQL Database**, **Azure SQL Data Warehouse** of **Redshift**) niet vereist is voor de gegevensbron, moeten er referenties worden opgegeven voordat het gepubliceerde rapport in de Power BI-service wordt weergegeven.
+Als de **On-premises gegevensgateway** (**Azure SQL Database**, **Azure SQL Data Warehouse** of **Redshift**) niet vereist is voor de gegevensbron, moeten er referenties worden opgegeven voordat het gepubliceerde rapport in de Power BI-service wordt weergegeven.
 
 Ga als volgt te werk om referenties op te geven: selecteer het tandwielpictogram **Instellingen** in Power BI en selecteer vervolgens **Instellingen**.
 
@@ -95,7 +95,7 @@ Het venster **Instellingen** wordt weergegeven. Selecteer het tabblad **Gegevens
 
 Als iemand probeert een gepubliceerd rapport te openen of een gegevensset die is gemaakt met **DirectQuery** te verkennen voordat er referenties zijn opgegeven, treedt er een fout op bij het maken van verbinding met deze gegevensbronnen.
 
-Voor andere gegevensbronnen dan **Azure SQL Database**, **Azure SQL Data Warehouse** en **Redshift** die gebruikmaken van DirectQuery, moet u een **on-premises gegevensgateway** installeren en de gegevensbron registreren voordat er een verbinding tot stand kan worden gebracht. Zie [On-premises gegevensgateway](http://go.microsoft.com/fwlink/p/?LinkID=627094) voor meer informatie.
+Voor andere gegevensbronnen dan **Azure SQL Database**, **Azure SQL Data Warehouse** en **Redshift** die gebruikmaken van DirectQuery, moet u een **On-premises gegevensgateway** installeren en de gegevensbron registreren voordat er een verbinding tot stand kan worden gebracht. Zie [On-premises gegevensgateway](http://go.microsoft.com/fwlink/p/?LinkID=627094) voor meer informatie.
 
 ## <a name="next-steps"></a>Volgende stappen
 Bekijk de volgende bronnen voor meer informatie over **DirectQuery**:

@@ -2,14 +2,14 @@
 title: DirectQuery gebruiken in Power BI
 description: Informatie over het gebruiken van DirectQuery met Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 572f64cc0e6ba97c62c9a088c60cf3887bacc6ae
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: aba599f4ab5bcc9d1f5c0446e4476a169ca5e2c4
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="using-directquery-in-power-bi"></a>DirectQuery gebruiken in Power BI
 U kunt verbinding maken met allerlei verschillende gegevensbronnen wanneer u **Power BI Desktop** of de **Power BI-service** gebruikt, en u kunt deze verbindingen op verschillende manieren tot stand brengen. U kunt gegevens *importeren* in Power BI, wat de meest voorkomende manier is om gegevens te verkrijgen, of u kunt rechtstreeks verbinding maken met gegevens in de oorspronkelijke opslagplaats, wat **DirectQuery** wordt genoemd. In dit artikel vindt u informatie over **DirectQuery**, met speciale aandacht voor de volgende onderwerpen:
@@ -64,7 +64,7 @@ Wanneer u **Gegevens ophalen** in **Power BI Desktop** gebruikt om verbinding te
 * Bij het laden worden alle gegevens die zijn gedefinieerd met deze query's, geïmporteerd in de cache van Power BI.
 * Bij het samenstellen van een visualisatie binnen **Power BI Desktop**, wordt er een query uitgevoerd op de geïmporteerde gegevens. De opslag in Power BI zorgt ervoor dat de query erg snel is, waardoor alle wijzigingen in de visualisatie direct zichtbaar zijn.
 * Eventuele wijzigingen in de onderliggende gegevens worden niet doorgevoerd in visualisaties. U moet dan *Vernieuwen* kiezen om de gegevens opnieuw te importeren.
-* Bij het publiceren van het rapport (het PBIX-bestand) naar de **Power BI-service**, wordt er een gegevensset gemaakt die wordt geüpload naar de Power BI-service.  De geïmporteerde gegevens maken deel uit van deze dataset. Vervolgens is het mogelijk om geplande vernieuwing van die gegevens in te stellen, bijvoorbeeld om de gegevens elke dag opnieuw te importeren. Afhankelijk van de locatie van de oorspronkelijke gegevensbron, kan het nodig zijn om een on-premises gegevensgateway te configureren.
+* Bij het publiceren van het rapport (het PBIX-bestand) naar de **Power BI-service**, wordt er een gegevensset gemaakt die wordt geüpload naar de Power BI-service.  De geïmporteerde gegevens maken deel uit van deze dataset. Vervolgens is het mogelijk om geplande vernieuwing van die gegevens in te stellen, bijvoorbeeld om de gegevens elke dag opnieuw te importeren. Afhankelijk van de locatie van de oorspronkelijke gegevensbron, kan het nodig zijn om een On-premises gegevensgateway te configureren.
 * Wanneer er een bestaand rapport wordt geopend in de **Power BI-service**, of bij het ontwerpen van een nieuw rapport, worden de geïmporteerde gegevens opnieuw bevraagd, zodat er sprake is van interactiviteit.
 * Het is mogelijk om visualisaties, maar ook volledige rapportpagina's, als tegels vast te maken aan een dashboard. De tegels worden automatisch vernieuwd wanneer de onderliggende gegevensset wordt vernieuwd.  
 
@@ -75,7 +75,7 @@ Wanneer u **Gegevens ophalen** gebruikt in **Power BI Desktop** om verbinding te
 * Bij het laden worden er echter niet daadwerkelijk gegevens geïmporteerd in de opslaglocatie van Power BI. In plaats daarvan worden bij het bouwen van een visualisatie in **Power BI Desktop**, query's verzonden naar de onderliggende gegevensbron om de benodigde gegevens op te halen. De tijd die vervolgens nodig is om de visualisatie te vernieuwen, is afhankelijk van de prestaties van de onderliggende gegevensbron.
 * Eventuele wijzigingen in de onderliggende gegevens worden niet direct doorgevoerd in bestaande visualisaties. Het is nog steeds nodig om Vernieuwen te kiezen, waarna de vereiste query's opnieuw worden verzonden voor de visualisaties en deze waar nodig worden bijgewerkt.
 * Bij het publiceren van het rapport naar de **Power BI-service** levert dit weer een gegevensset op in de Power BI-service, net als bij importeren. Er worden echter *geen* gegevens opgenomen in deze dataset.
-* Bij het openen van een bestaand rapport in de **Power BI-service**, of bij het ontwerpen van een nieuw rapport, wordt de onderliggende gegevensbron opnieuw bevraagd om de benodigde gegevens op te halen. Afhankelijk van de locatie van de oorspronkelijke gegevensbron, kan het nodig zijn om een on-premises gegevensgateway te configureren, net als bij de importmodus om de gegevens te vernieuwen.
+* Bij het openen van een bestaand rapport in de **Power BI-service**, of bij het ontwerpen van een nieuw rapport, wordt de onderliggende gegevensbron opnieuw bevraagd om de benodigde gegevens op te halen. Afhankelijk van de locatie van de oorspronkelijke gegevensbron, kan het nodig zijn om een On-premises gegevensgateway te configureren, net als bij de importmodus om de gegevens te vernieuwen.
 * Het is mogelijk om visualisaties, maar ook volledige rapportpagina's, als tegels vast te maken aan een dashboard. Om ervoor te zorgen dat een dashboard snel wordt geopend, worden de tegels automatisch vernieuwd volgens een bepaald schema (bijvoorbeeld elk uur). Deze frequentie kan worden aangepast om in te spelen op de snelheid waarmee gegevens worden gewijzigd en hoe belangrijk het is om de nieuwste gegevens te zien. Bij het openen van een dashboard bevatten de tegels dus de gegevens van het moment van de laatste vernieuwing. Dit kan betekenen dat de meest recente wijzigingen die zijn aangebracht in de onderliggende gegevensbron, nog niet zichtbaar zijn. Een geopend dashboard kan altijd worden vernieuwd om de nieuwste gegevens te tonen.    
 
 ### <a name="live-connections"></a>Live-verbindingen
@@ -88,7 +88,7 @@ De situatie die wordt beschreven in de vorige alinea geldt ook voor het maken va
 
 Het gedrag van rapporten via SSAS, bij het publiceren naar de **Power BI-service**, is op de volgende punten vergelijkbaar met DirectQuery-rapporten:
 
-* Bij het openen van een bestaand rapport in de **Power BI-service** of bij het ontwerpen van een nieuw rapport, wordt de onderliggende SSAS-gegevensbron bevraagd (waarvoor mogelijk een on-premises gegevensgateway nodig is)
+* Bij het openen van een bestaand rapport in de **Power BI-service** of bij het ontwerpen van een nieuw rapport, wordt de onderliggende SSAS-gegevensbron bevraagd (waarvoor mogelijk een On-premises gegevensgateway nodig is)
 * Dashboardtegels worden automatisch vernieuwd volgens een schema (bijvoorbeeld elk uur of met een andere frequentie)
 
 Er zijn echter ook belangrijke verschillen, bijvoorbeeld dat voor live-verbindingen altijd de identiteit van de gebruiker die het rapport opent, wordt doorgegeven aan de onderliggende SSAS-gegevensbron.
