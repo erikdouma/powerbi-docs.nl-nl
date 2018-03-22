@@ -698,8 +698,6 @@
           href: desktop-assume-referential-integrity.md
         - name: 'Zelfstudie: Dynamische beveiliging op rijniveau met tabellair model van Analysis Services'
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
-        - name: DirectQuery voor Oracle- en Teradata-databases
-          href: desktop-directquery-for-oracle-teradata.md
         - name: De SAP BW-connector in Power BI Desktop gebruiken (preview)
           href: desktop-sap-bw-connector.md
         - name: Koppelingen van OneDrive voor Bedrijven gebruiken in Power BI Desktop
