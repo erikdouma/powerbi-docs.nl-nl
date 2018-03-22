@@ -2,14 +2,14 @@
 title: R-scripts uitvoeren in Power BI Desktop
 description: R-scripts uitvoeren in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1b8b6dc3932ec4bc1eddd24c91a81a0eaafae479
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 34e756a661ec580e2c0eea8fc53378566eccf305
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="run-r-scripts-in-power-bi-desktop"></a>R-scripts uitvoeren in Power BI Desktop
 U kunt R-scripts rechtstreeks in **Power BI Desktop** uitvoeren en de resulterende gegevenssets in een Power BI Desktop-gegevensmodel importeren.
@@ -41,14 +41,14 @@ Als u het script wilt uitvoeren in Power BI Desktop, dient u ervoor te zorgen da
 Als u een R-script in Power BI Desktop voorbereidt en uitvoert, gelden er enkele beperkingen:
 
 * Er worden alleen gegevensframes geïmporteerd. Zorg er dus voor dat de gegevens die u in Power BI wilt importeren, in een gegevensframe worden weergegeven
-* Kolommen van het type Complex of Vector worden niet geïmporteerd maar in de gemaakte tabel vervangen door foutwaarden.
+* Kolommen van het type Complex of Vector worden niet geïmporteerd maar in de gemaakte tabel vervangen door foutwaarden
 * In Power BI worden afwezige waarden vertaald naar NULL-waarden
 * R-scripts waarvan het uitvoeren langer duurt dan dertig minuten, worden door een time-out afgebroken
 * Bij interactieve aanroepen in het R-script, zoals het wachten op gebruikersinvoer, wordt het uitvoeren van het script onderbroken
 * Als de werkmap in het R-script wordt ingesteld, *moet* u een volledig pad naar de werkmap definiëren in plaats van een relatief pad
 
 ### <a name="run-your-r-script-and-import-data"></a>R-script uitvoeren en gegevens importeren
-1. In Power BI Desktop bevindt de R-scriptgegevensconnector zich in **Gegevens ophalen**. Als u het R-script wilt uitvoeren, selecteert u **Gegevens ophalen &gt; Meer...** en vervolgens **Overige &gt; R-script**, zoals in de volgende afbeelding is weergegeven.
+1. In Power BI Desktop bevindt de R-scriptgegevensconnector zich in **Gegevens ophalen**. Als u het R-script wilt uitvoeren, selecteert u **Gegevens ophalen &gt; Meer...** en vervolgens **Overige &gt; R-script**, zoals in de volgende afbeelding is weergegeven:
    
    ![](media/desktop-r-scripts/r-scripts-1.png)
 2. Als R op de lokale computer is geïnstalleerd, wordt de meest recente installatie geselecteerd als de R-engine. Kopieer het script in het scriptvenster en selecteer **OK**.

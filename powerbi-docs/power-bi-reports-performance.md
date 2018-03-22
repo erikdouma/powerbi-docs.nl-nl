@@ -2,14 +2,14 @@
 title: Aanbevolen procedures voor de prestaties van Power BI
 description: Dit artikel bevat informatie voor het snel maken van betrouwbare rapporten in Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: MarkMcGeeAtAquent
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/12/2017
 ms.author: v-mamcge
 LocalizationGroup: Reports
-ms.openlocfilehash: 5f22d39c17ddbbd06a9ed38eeb162d1106607105
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e584f48f5d3650821aac094ebfde7eef5261cc36
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="power-bi-performance-best-practices"></a>Aanbevolen procedures voor de prestaties van Power BI 
 Dit artikel biedt informatie voor het snel maken van betrouwbare rapporten in Power BI.  
@@ -130,11 +130,11 @@ Via Profiler SQL kunt u de query's identificeren die de meeste CPU-tijd in besla
 
 ## <a name="gateway-best-practices"></a>Aanbevolen procedures voor Gateway 
 
-De on-premises gegevensgateway is een uitstekend hulpprogramma om de Power BI-service te verbinden met uw on-premises gegevens. Met een slechte planning kan het echter tevens een knelpunt vormen voor de rapportprestaties. Dit geldt met name voor DirectQuery-/live-verbindinggegevenssets, waarbij alle query's en reacties op query's via de gateway verlopen. Hier volgen enkele aanbevolen procedures voor optimaal presterende gateways: 
+De On-premises gegevensgateway is een uitstekend hulpprogramma om de Power BI-service te verbinden met uw on-premises gegevens. Met een slechte planning kan het echter tevens een knelpunt vormen voor de rapportprestaties. Dit geldt met name voor DirectQuery-/live-verbindinggegevenssets, waarbij alle query's en reacties op query's via de gateway verlopen. Hier volgen enkele aanbevolen procedures voor optimaal presterende gateways: 
  
 - **Gebruik de ondernemingsmodus** in plaats van de persoonlijke modus. 
 - **Aanbevolen hardwarespecificaties voor de gateway**: 8 CPU-kernen, 16 GB RAM-geheugen. 
-- **Stel bewaking in**: stel bewaking in van de prestaties op de gatewaycomputer om te controleren of de gateway overbelast raakt en een knelpunt begint te vormen. Zie [Problemen voor de on-premises gegevensgateway oplossen](service-gateway-onprem-tshoot.md) voor meer informatie.
+- **Stel bewaking in**: stel bewaking in van de prestaties op de gatewaycomputer om te controleren of de gateway overbelast raakt en een knelpunt begint te vormen. Zie [Problemen voor de On-premises gegevensgateway oplossen](service-gateway-onprem-tshoot.md) voor meer informatie.
 - **Schaal omhoog of schaal uit**: als de gateway inderdaad een knelpunt wordt, kunt u omhoog schalen (de gateway naar een krachtigere computer met meer CPU en RAM-geheugen verplaatsen) of uitschalen (bijvoorbeeld gegevenssets splitsen naar andere gateways). 
 - **Afzonderlijke import versus DirectQuery**: als u wilt uitschalen, wordt aanbevolen de gateways voor de import te scheiden van de gateways voor DirectQuery. 
  

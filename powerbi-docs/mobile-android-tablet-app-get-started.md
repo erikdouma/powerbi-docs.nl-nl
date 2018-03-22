@@ -2,14 +2,14 @@
 title: Aan de slag met de mobiele Power BI-app op Android-tablets
 description: Lees hoe u met de mobiele Power BI-app voor Android-tablets onderweg beschikt over Power BI, met mobiele toegang tot zakelijke gegevens on-premises en in de cloud.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: bd96466a8a8c19a495540b93a512cb62746a6837
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 407f4d8c2faf26b9837b24318c24c118786e21ae
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-tablets"></a>Aan de slag met de mobiele Power BI-app op Android-tablets
 De mobiele Power BI-app voor Android-tablets verzorgt de mobiele BI-ervaring voor Power BI, Power BI Report Server en Reporting Services. Bekijk en gebruik vanaf elke locatie uw bedrijfsdashboards on-premises en in de cloud met mobiele live-toegang met aanraakfunctionaliteit. Verken de gegevens in dashboards en deel deze met uw collega's per e-mail of sms-bericht. 
@@ -69,7 +69,7 @@ Als u zich nog niet hebt geregistreerd, gaat u naar de [Power BI-service (http:/
    Geef de aanmeldingsgegevens van uw rapportserver op in de app voor Android-tablet voor Power BI om [Power BI Report Server en Reporting Services-rapporten en -KPI's weer te geven](mobile-app-ssrs-kpis-mobile-on-premises-reports.md).
 
 ## <a name="try-the-power-bi-and-reporting-services-samples"></a>De Power BI- en Reporting Services-voorbeelden uitproberen
-U kunt zelfs zonder u aan te melden met de Power BI- en Reporting Services-voorbeelden oefenen. Nadat u de app hebt gedownload, kunt u de voorbeelden bekijken of aan de slag gaan. U kunt op elk gewenst moment teruggaan naar de voorbeelden vanaf de startpagina van dashboards.
+U hoeft zich niet aan te melden om met de Power BI- en Reporting Services-voorbeelden te oefenen. Nadat u de app hebt gedownload, kunt u de voorbeelden bekijken of aan de slag gaan. U kunt op elk gewenst moment teruggaan naar de voorbeelden vanaf de startpagina met dashboards.
 
 ### <a name="power-bi-samples"></a>Power BI-voorbeelden
 U kunt de Power BI-voorbeelddashboards bekijken en gebruiken, maar er zijn enkele dingen die u hiermee niet kunt doen. Het is niet mogelijk de rapporten achter de dashboards te openen, de voorbeelden met anderen te delen of ze aan uw favorieten toe te voegen.
@@ -141,4 +141,5 @@ Hier volgen enkele dingen die u in de Android-tablet-app voor Power BI kunt doen
 ### <a name="see-also"></a>Zie ook
 * [De Android-app downloaden](http://go.microsoft.com/fwlink/?LinkID=544867) vanuit de Android-app-store.
 * [Aan de slag met Power BI](service-get-started.md)
-* Vragen? [Vragen stellen aan de Power BI-community](http://community.powerbi.com/)
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+

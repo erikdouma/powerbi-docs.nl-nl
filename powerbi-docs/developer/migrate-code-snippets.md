@@ -2,29 +2,29 @@
 title: Codefragmenten voor het migreren van inhoud in Power BI Embedded
 description: Hier volgen enkele codefragmenten van basisbewerkingen die vereist zijn voor de migratie van inhoud
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/21/2017
+ms.date: 03/06/2018
 ms.author: maghan
-ms.openlocfilehash: c868c039e8edfe218c2a578402690a40ed1f3030
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: d293f2184f0f9a314a77c362312de4ab6a4dc5df
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="code-snippets-for-migrating-content-from-power-bi-embedded"></a>Codefragmenten voor het migreren van inhoud in Power BI Embedded
-Hier volgen enkele codefragmenten van basisbewerkingen die vereist zijn voor de migratie van inhoud. Zie voor verwante stromen voor bepaalde rapporttypen [Inhoud in een Power BI Embedded-werkruimteverzameling migreren naar Power BI](migrate-from-powerbi-embedded.md#content-migration).
+# <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Codefragmenten voor het migreren van inhoud van Power BI-werkruimteverzameling
+Hier volgen enkele codefragmenten van basisbewerkingen die vereist zijn voor de migratie van inhoud. Zie voor verwante stromen voor bepaalde rapporttypen [Inhoud van een Power BI-werkruimteverzameling migreren naar Power BI Embedded](migrate-from-powerbi-embedded.md#content-migration).
 
 U kunt een **hulpprogramma voor migratie** gebruiken om u te helpen bij het kopiëren van inhoud van Power BI Embedded (PaaS) naar de Power BI-service (SaaS). Met name als u veel inhoud hebt. Zie [Hulpprogramma voor migratie in Power BI Embedded](migrate-tool.md) voor meer informatie.
 

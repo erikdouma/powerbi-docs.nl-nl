@@ -2,14 +2,14 @@
 title: Gegevenstypen in Power BI Desktop
 description: Gegevenstypen in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,18 +18,18 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d15aeaf90e748b9ba14a0160042d2db4f36d3150
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 71a2908357164cf93870800947ae5fa0aa04c75c
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Gegevenstypen in Power BI Desktop
 In dit artikel worden de gegevenstypen beschreven die worden ondersteund in Power BI Desktop en Data Analysis Expressions (DAX). 
 
 Wanneer u gegevens laadt in Power BI Desktop, wordt geprobeerd het gegevenstype van de bronkolom te converteren naar een gegevenstype dat betere ondersteuning biedt voor opslag, berekeningen en visualisatie van gegevens . Als bijvoorbeeld een kolom met waarden die u uit Excel importeert, geen decimale waarden bevat, converteert Power BI Desktop de hele kolom met gegevens naar het gegevenstype Geheel getal, dat beter geschikt is voor het opslaan van gehele getallen.
 
-Dit is belangrijk omdat sommige DAX-functies speciale vereisten voor gegevenstypen hebben. Hoewel DAX in veel gevallen een gegevenstype impliciet converteert, gebeurt dat een enkele keer niet.  Als een DAX-functie bijvoorbeeld het gegevenstype Date nodig heeft en het gegevenstype voor de kolom Text is, zal de DAX-functie niet correct werken.  Het is dus zowel belangrijk als handig om het juiste gegevenstype voor een kolom te gebruiken. Impliciete conversies worden verderop in dit artikel beschreven.
+Dit concept is belangrijk omdat sommige DAX-functies speciale vereisten voor gegevenstypen hebben. Hoewel DAX in veel gevallen een gegevenstype impliciet converteert, gebeurt dat een enkele keer niet.  Als een DAX-functie bijvoorbeeld het gegevenstype Date nodig heeft en het gegevenstype voor de kolom Text is, zal de DAX-functie niet correct werken.  Het is dus zowel belangrijk als handig om het juiste gegevenstype voor een kolom te gebruiken. Impliciete conversies worden verderop in dit artikel beschreven.
 
 ## <a name="determine-and-specify-a-columns-data-type"></a>Het gegevenstype van een kolom vaststellen en opgeven
 U kunt in Power BI Desktop het gegevenstype van een kolom vaststellen en opgeven in de Query-editor of in de Gegevens- of Rapportweergave:
@@ -56,7 +56,7 @@ Power BI Desktop ondersteunt drie getaltypen:
 ### <a name="datetime-types"></a>Datum/tijd-typen
 Power BI Desktop ondersteunt vijf datum/tijd-gegevenstypen in de Queryweergave en drie in de Rapportweergave en het rapportmodel.   Tijdens het laden in het model worden zowel Datum/tijd/tijdzone als Duur geconverteerd.
 
-**Datum/tijd**: geeft een datum- en tijd-waarde weer.  De Datum/tijd-waarde wordt opgeslagen als een Decimaal getal.  Daardoor kunt u een conversie tussen beide uitvoeren.   Het tijdgedeelte van een datum wordt opgeslagen als een fractie van hele veelvouden van 1/300 seconden (3,33ms).  Datums tussen 1900 en 9999 worden ondersteund.
+**Datum/tijd**: geeft een datum- en tijd-waarde weer.  De Datum/tijd-waarde wordt opgeslagen als een Decimaal getal.  Daardoor kunt u een conversie tussen beide uitvoeren.   Het tijdgedeelte van een datum wordt opgeslagen als een fractie van hele veelvouden van 1/300 seconden (3,33 ms).  Datums tussen 1900 en 9999 worden ondersteund.
 
 **Datum**: geeft alleen een datum weer (geen tijdgedeelte).  Bij conversie naar het model is een Datum-waarde hetzelfde als een Datum/tijd-waarde met nul voor de decimale waarde.
 
@@ -125,7 +125,7 @@ Als een datum bijvoorbeeld wordt gebruikt in voor aftrekken met een ander gegeve
 > 
 > 
 
-**Vermenigvuldiging(*)**
+**Vermenigvuldiging (*)**
 
 | Operator(\*) | INTEGER | CURRENCY | REAL | Datum/tijd |
 | --- | --- | --- | --- | --- |
@@ -155,7 +155,7 @@ De volgende DAX-expressies illustreren dit gedrag:
 
 =IF(FALSE()\>"true","Expressie is waar", "Expressie is onwaar") retourneert "Expressie is waar"
 
-=IF("12"\>12,"Expressie is waar", "Expressie is onwaar") retourneert "Expressie is waar".
+=IF("12"\>12,"Expressie is waar", "Expressie is onwaar") retourneert "Expressie is waar"
 
 =IF("12"=12,"Expressie is waar", "Expressie is onwaar") retourneert "Expressie is onwaar"
 

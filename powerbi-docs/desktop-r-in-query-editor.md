@@ -2,14 +2,14 @@
 title: R gebruiken in Query-editor van Power BI
 description: R gebruiken in Query-editor van Power BI Desktop om geavanceerde analyses uit te voeren
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d4358be705de4908de6a9aedb0dbd78e2ef9e17f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ab6d935eb955dea5e2362a1cc52cf30657f4f8df
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="using-r-in-query-editor"></a>R gebruiken in Query-editor
 U kunt **R**, een programmeertaal die veel door statistici, gegevenswetenschappers en gegevensanalisten wordt toegepast, gebruiken in **Query-editor** van Power BI Desktop. Dankzij de integratie van R in **Query-editor** kunt u met R gegevens opschonen en geavanceerde data shaping en analyses in gegevenssets uitvoeren, met inbegrip van het aanvullen van ontbrekende gegevens, voorspellingen en clustering. **R** is een krachtige programmeertaal en kan in **Query-editor** worden gebruikt om uw gegevensmodel voor te bereiden en rapporten te maken.
@@ -31,9 +31,9 @@ U kunt **R**, een programmeertaal die veel door statistici, gegevenswetenschappe
 Als u **R** wilt gebruiken in **Query-editor** van Power BI Desktop, moet u **R** op de lokale computer installeren. U kunt **R** gratis downloaden en installeren vanaf tal van locaties, waaronder de [Revolution Open-downloadpagina](https://mran.revolutionanalytics.com/download/) en de [CRAN-opslagplaats](https://cran.r-project.org/bin/windows/base/).
 
 ## <a name="using-r-in-query-editor"></a>R gebruiken in Query-editor
-We laten u zien hoe u **R** in **Query-editor** kunt gebruiken aan de hand van een voorbeeld voor een beursgegevensset, die is gebaseerd op een .CSV-bestand dat u [hier kunt downloaden](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv) en volgen. Hieronder volgen de stappen voor dit voorbeeld:
+Bekijk aan de hand van dit voorbeeld hoe u **R** in **Query-editor** kunt gebruiken voor een beursgegevensset, die is gebaseerd op een .CSV-bestand dat u [hier kunt downloaden](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv) en volgen. Hieronder volgen de stappen voor dit voorbeeld:
 
-1. Laad eerst uw gegevens in **Power BI Desktop**. In dit voorbeeld laden we het bestand *EuStockMarkets_NA.csv*. In **Power BI Desktop** selecteert u op het lint **Start** de opties **Gegevens ophalen > CSV**.
+1. Laad eerst uw gegevens in **Power BI Desktop**. Laad in dit voorbeeld het bestand *EuStockMarkets_NA.csv* en selecteer **Gegevens ophalen > CSV** in het lint **Start** in **Power BI Desktop**.
    
    ![](media/desktop-r-in-query-editor/r-in-query-editor_1.png)
 2. Selecteer het bestand en selecteer **Openen**. De CSV wordt nu weergegeven in het dialoogvenster **CSV-bestand**.
@@ -48,7 +48,7 @@ We laten u zien hoe u **R** in **Query-editor** kunt gebruiken aan de hand van e
 5. Selecteer op het tabblad **Transformeren** de optie **R-Script uitvoeren**. De editor **R-script uitvoeren** wordt geopend (weergegeven in de volgende stap). U ziet dat er in de rijen 15 en 20 gegevens ontbreken, net als in andere rijen die niet in de volgende afbeelding te zien zijn. De stappen hieronder laten zien hoe R die rijen voor u kan invullen.
    
    ![](media/desktop-r-in-query-editor/r-in-query-editor_5d.png)
-6. In dit voorbeeld vullen we de volgende scriptcode in:
+6. Vul in dit voorbeeld de volgende scriptcode in:
    
        library(mice)
        tempData <- mice(dataset,m=1,maxit=50,meth='pmm',seed=100)
@@ -57,27 +57,27 @@ We laten u zien hoe u **R** in **Query-editor** kunt gebruiken aan de hand van e
        output$completedValues <- completedData$"SMI missing values"
    
    > [!NOTE]
-   > Deze scriptcode werkt alleen goed als de bibliotheek *mice* in uw R-omgeving is geïnstalleerd. Als u mice wilt installeren, voert u het volgende uit in uw R-installatie: |      > install.packages('mice')
+   > Deze scriptcode werkt alleen goed als de bibliotheek *mice* in uw R-omgeving is geïnstalleerd. Als u mice wilt installeren, voert u de volgende opdracht uit in uw R-installatie: |      > install.packages('mice')
    > 
    > 
    
    De code ziet er als volgt uit wanneer deze in het dialoogvenster **R-script uitvoeren** wordt ingevoerd:
    
    ![](media/desktop-r-in-query-editor/r-in-query-editor_5b.png)
-7. Als u **OK** selecteert, geeft **Query-editor** een waarschuwing over de privacy van gegevens weer.
+7. Wanneer u **OK** hebt geselecteerd, geeft **Query-editor** een waarschuwing over de privacy van gegevens weer.
    
    ![](media/desktop-r-in-query-editor/r-in-query-editor_6.png)
 8. R-scripts werken alleen goed in de Power BI-service als alle gegevensbronnen op *openbaar* zijn ingesteld. Zie [Privacyniveaus](desktop-privacy-levels.md) voor meer informatie over privacy-instellingen en de implicaties ervan.
    
    ![](media/desktop-r-in-query-editor/r-in-query-editor_7.png)
    
-   Wanneer u dit doet, wordt er een nieuwe kolom in de bron **Velden** met de naam *completedValues* weergegeven. Er ontbreken een aantal gegevenselementen, bijvoorbeeld in rijen 15 en 18. In het volgende gedeelte bekijken we hoe R hiermee omgaat.
+   U ziet een nieuwe kolom in het deelvenster **Velden** met de naam *completedValues*. Er ontbreken een aantal gegevenselementen, bijvoorbeeld in rijen 15 en 18. Bekijk in het volgende gedeelte hoe R hiermee omgaat.
    
 
 Met slechts vijf regels R-script kan **Query-editor** de ontbrekende waarden invullen met behulp van een voorspellend model.
 
 ## <a name="creating-visuals-from-r-script-data"></a>Visuals maken vanuit R-scriptgegevens
-U kunt nu een visual maken om te zien hoe de R-scriptcode met behulp van de bibliotheek *mice* de ontbrekende waarden voltooit, zoals weergegeven in de volgende afbeelding.
+U kunt nu een visual maken om te zien hoe de R-scriptcode met behulp van de bibliotheek *mice* de ontbrekende waarden voltooit, zoals weergegeven in de volgende afbeelding:
 
 ![](media/desktop-r-in-query-editor/r-in-query-editor_8a.png)
 

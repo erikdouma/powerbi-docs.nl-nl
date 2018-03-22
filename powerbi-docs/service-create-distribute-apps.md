@@ -2,13 +2,13 @@
 title: Apps maken en publiceren met dashboards en rapporten in Power BI
 description: 'Informatie over het maken en publiceren van apps: verzamelingen van dashboards en rapporten die zijn gemaakt om belangrijke statistieken voor uw organisatie te bieden.'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.workload: powerbi
 ms.date: 02/22/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d711e2276f2ac170ed54152d54c023261ca9c0bc
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: c2f2fcca7c1d915f94960824d32a5d4f18a978b6
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Apps maken en publiceren met dashboards en rapporten in Power BI
 
@@ -174,6 +174,8 @@ Hier volgt een aantal zaken waarmee u rekening moet houden wanneer u apps naar e
 * Als gebruikers de app niet direct in de lijst met apps zien, moeten ze de browser vernieuwen of sluiten en opnieuw openen.
 
 * Probeer gebruikers niet te overspoelen met apps. Zorg ervoor dat u niet te veel apps pusht, zodat gebruikers het gevoel hebben dat de vooraf geïnstalleerde apps ook daadwerkelijk nuttig voor ze zijn. Voor een goed afstemming van de timing is het verstandig te bepalen wie apps naar eindgebruikers mag pushen. U kunt in uw organisatie een contactpersoon toewijzen die verantwoordelijk is voor het pushen van apps naar eindgebruikers.
+
+* Gastgebruikers die een uitnodiging niet hebben geaccepteerd krijgen geen apps die automatisch voor hen worden geïnstalleerd.  
 
 ## <a name="unpublish-an-app"></a>Een app publiceren ongedaan maken
 Elk lid van een app-werkruimte kan het publiceren van de app ongedaan maken.

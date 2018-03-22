@@ -2,14 +2,14 @@
 title: Publiceren op internet vanuit Power BI
 description: Met Power BI publiceren op internet kunt u eenvoudig interactieve Power BI-visualisaties op elk apparaat online invoegen, zoals blogberichten, websites, e-mailberichten of sociale media.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 11/27/2017
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: ee1b403eaa8456266b452ff34814dc4f4059d9a6
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 089cd84f493343822293cb6e74330d26e2a8bcd6
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publiceren op internet vanuit Power BI
 
@@ -136,7 +136,7 @@ Aangepaste visuele elementen worden ondersteund in **Publiceren op internet**. W
 **Publiceren op internet** wordt ondersteund voor de meeste gegevensbronnen en rapporten in de Power BI-service. De volgende opties worden momenteel echter niet ondersteund of zijn niet beschikbaar voor Publiceren op internet:
 
 1. Rapporten met beveiliging op rijniveau.
-2. Rapporten die als gegevensbron gebruikmaken van een liveverbinding, waaronder tabellaire Analysis Services gehost door multidimensionale Analysis Services, Azure Analysis Services en Power BI-service.
+2. Rapporten die als gegevensbron gebruikmaken van een liveverbinding, waaronder on-premises multi-dimensionale Analysis Services en Azure Analysis Services welke gehost worden door tabellaire Analysis Services, en Power BI-service.
 3. Rapporten die direct of via een organisatie-inhoudspakket met u worden gedeeld.
 4. Rapporten in een groep waarvan u geen lid bent met machtigingen voor bewerken.
 5. Visuele R-elementen worden momenteel niet ondersteund in Publiceren op internet-rapporten.

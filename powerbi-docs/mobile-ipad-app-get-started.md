@@ -2,12 +2,12 @@
 title: Aan de slag met de mobiele Power BI-app op een iPad
 description: Lees hoe u met de app Microsoft Power BI voor iOS op de iPad onderweg beschikt over Power BI en mobiele toegang tot zakelijke gegevens, zowel on-premises als in de cloud.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: identified
 qualitydate: 08/08/2016
 ms.service: powerbi
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: ad46bd02ffc3c745b63e716759007219421edfd8
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+ms.openlocfilehash: a35197e7775fb1b0dfec5c0905706f44d6f14494
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-ipad"></a>Aan de slag met de mobiele Power BI-app op een iPad
 Microsoft Power BI voor iOS op de iPad biedt u een mobiele BI-ervaring voor Power BI, Power BI Report Server en Reporting Services. Bekijk uw bedrijfsdashboards on-premises en in de cloud, en gebruik ze vanaf elke locatie met mobiele live-toegang met aanraakfunctionaliteit. Verken de gegevens in dashboards en deel deze met uw collega's per e-mail of sms-bericht. 
@@ -138,4 +138,5 @@ Hier volgen enkele dingen die u in de iPad-app voor Power BI kunt doen met dashb
 ### <a name="see-also"></a>Zie ook
 * [Aan de slag met Power BI](service-get-started.md)  
 * Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+
 

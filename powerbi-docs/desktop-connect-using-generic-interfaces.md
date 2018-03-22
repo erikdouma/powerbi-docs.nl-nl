@@ -2,14 +2,14 @@
 title: Verbinding met gegevens maken via algemene interfaces in Power BI Desktop
 description: Lees hoe u verbinding maakt met verschillende gegevensbronnen via algemene interfaces in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,21 +18,21 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e4415f4315400e7ff11c356badee19eebace82b7
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5c28a53f4421c88bfc6237813ce6fdb76cc160cd
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>Verbinding met gegevens maken via algemene interfaces in Power BI Desktop
-U kunt verbinding maken met een groot aantal verschillende gegevensbronnen in **Power BI Desktop**, waarbij u ingebouwde gegevensconnectors gebruikt, variërend van **Access-databases** tot **Zendesk**-bronnen, zoals weergegeven in het venster **Gegevens ophalen**. U kunt ook verbinding maken met allerlei *andere* gegevensbronnen, om zo uw verbindingsopties nog verder uit te breiden, met behulp van de algemene interfaces (zoals **ODBC** of **REST API's**) die zijn ingebouwd in **Power BI Desktop**.
+U kunt verbinding maken met een groot aantal verschillende gegevensbronnen in **Power BI Desktop**, waarbij u ingebouwde gegevensconnectors gebruikt, variërend van **Access-databases** tot **Zendesk**-bronnen, zoals weergegeven in het venster **Gegevens ophalen**. U kunt ook verbinding maken met allerlei *andere* gegevensbronnen, om zo uw verbindingsopties verder uit te breiden, met behulp van de algemene interfaces (zoals **ODBC** of **REST API's**) die zijn ingebouwd in **Power BI Desktop**.
 
 ![](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_1.png)
 
 ## <a name="power-bi-desktop-data-interfaces"></a>Gegevensinterfaces in Power BI Desktop
 **Power BI Desktop** omvat een groeiende verzameling gegevensconnectors die zijn ontworpen om verbinding te maken met een specifieke gegevensbron. De gegevensconnector **SharePoint-lijst** biedt bijvoorbeeld specifieke velden en ondersteunende informatie tijdens de verbinding die zijn ontworpen voor **SharePoint-lijsten**. Dat geldt ook voor andere gegevensbronnen in het venster dat wordt weergegeven wanneer u **Gegevens ophalen > Meer...**  selecteert (zoals in de vorige afbeelding).
 
-Daarnaast kunt u in **Power BI Desktop** verbinding maken met gegevensbronnen die niet specifiek worden aangegeven in de lijsten bij **Gegevens ophalen** door een van de volgende algemene gegevensinterfaces te gebruiken:
+Daarnaast kunt u in **Power BI Desktop** verbinding maken met gegevensbronnen die niet worden aangegeven in de lijsten bij **Gegevens ophalen** door een van de volgende algemene gegevensinterfaces te gebruiken:
 
 * **ODBC**
 * **OLE DB**
@@ -44,7 +44,7 @@ Als u in het verbindingsvensters die deze algemene interfaces bieden, de juiste 
 
 In de volgende secties vindt u lijsten met gegevensbronnen die toegankelijk via deze algemene interfaces.
 
-Kunt u de gegevensbron die u wilt gebruiken met **Power BI Desktop** niet vinden? [Laat het ons weten](https://ideas.powerbi.com/), zodat we deze kunnen toevoegen aan onze lijst met ideeën en aanvragen.
+Kunt u de gegevensbron die u wilt gebruiken met **Power BI Desktop** niet vinden? Verzend uw idee naar de lijst van het Power BI-team [met ideeën en aanvragen](https://ideas.powerbi.com/).
 
 ## <a name="data-sources-accessible-through-odbc"></a>Gegevensbronnen die toegankelijk zijn via ODBC
 Met de **ODBC**-connector in **Power BI Desktop** kunt u gegevens importeren uit elk ODBC-stuurprogramma van derden door eenvoudig de **naam van de gegevensbron (DSN)** of een  *verbindingsreeks* op te geven. Desgewenst kunt u ook een SQL-instructie opgeven die wordt uitgevoerd door het ODBC-stuurprogramma.
@@ -114,7 +114,7 @@ De volgende lijst bevat enkele voorbeelden van gegevensbronnen waarmee **Power B
 | R-script |Statistische R-bestanden |[Richtlijnen voor R-scripts van CRAN](https://cran.r-project.org/doc/manuals/R-data.html) |
 
 ## <a name="next-steps"></a>Volgende stappen
-Met Power BI Desktop kunt u verbinding maken met allerlei gegevensbronnen. Bekijk de volgende bronnen voor meer informatie over gegevensbronnen:
+Met **Power BI Desktop** kunt u verbinding maken met allerlei gegevensbronnen. Bekijk de volgende bronnen voor meer informatie over gegevensbronnen:
 
 * [Getting Started with Power BI Desktop](desktop-getting-started.md) (Aan de slag met Power BI Desktop)
 * [Data Sources in Power BI Desktop](desktop-data-sources.md) (Gegevensbronnen in Power BI Desktop)

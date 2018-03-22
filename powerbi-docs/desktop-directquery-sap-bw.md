@@ -2,27 +2,27 @@
 title: DirectQuery en SAP Business Warehouse (BW) in Power BI
 description: Overwegingen bij het gebruik van DirectQuery met SAP Business Warehouse (BW)
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 03/07/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4e8c4def5defc32ef7ba6414c3d76ac778564b66
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3697928986c5e579407e227911c5beab71c6a08d
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery en SAP Business Warehouse (BW)
 U kunt rechtstreeks verbinding maken met **SAP Business Warehouse (BW)**-gegevensbronnen met behulp van **DirectQuery**. Gezien de OLAP-/multidimensionale aard van SAP BW, zijn er veel belangrijke verschillen tussen DirectQuery via SAP BW en via relationele bronnen zoals SQL Server. Deze verschillen kunnen als volgt worden samengevat:
@@ -32,6 +32,9 @@ U kunt rechtstreeks verbinding maken met **SAP Business Warehouse (BW)**-gegeven
 * Vanwege de unieke aard van OLAP-bronnen zijn er aanvullende beperkingen (voor zowel modellering als visualisaties) van toepassing, naast de normale beperkingen voor DirectQuery. Deze beperkingen worden verderop in dit artikel beschreven.
 
 Bovendien is het *uiterst belangrijk* te weten dat er veel functies van SAP BW zijn die niet worden ondersteund in Power BI, en dat er vanwege de aard van de openbare interface met SAP BW belangrijke gevallen zijn waarin de resultaten die via Power BI worden gezien, niet overeenkomen met de resultaten zoals gezien met behulp van een SAP-programma. Deze beperkingen worden verderop in dit artikel beschreven. Bekijk deze beperkingen en verschillen in werking zorgvuldig om ervoor te zorgen dat de via Power BI waargenomen resultaten zoals die door de openbare SAP-interface worden geretourneerd, correct worden geïnterpreteerd.  
+
+> [!NOTE]
+> De mogelijkheid om gebruik te maken van DirectQuery via SAP BW was in preview tot de update van maart 2018 maart voor Power BI Desktop. Tijdens de preview hebben de feedback en voorgestelde verbeteringen de aanzet gegeven tot een wijziging die gevolgen heeft voor rapporten die zijn gemaakt met die preview-versie. Nu de release van de algemene beschikbaarheid (GA) van DirectQuery via SAP BW heeft plaatsgevonden, *moet* u eventuele bestaande (preview-)rapporten met DirectQuery via SAP BW die zijn gemaakt met de pre-GA-versie weggooien. In rapporten die zijn gemaakt met de pre-GA-versie van DirectQuery via SAP BW komen fouten met de pre-GA-rapporten voor bij het aanroepen van Vernieuwen. Dit is een gevolg van de poging om de metagegevens te vernieuwen met eventuele wijzigingen in de onderliggende SAP BW-kubus. Maak deze rapporten opnieuw met behulp van de GA-versie van DirectQuery via SAP BW vanuit een leeg rapport. 
 
 ## <a name="additional-modelling-restrictions"></a>Extra modelleringsbeperkingen
 De primaire extra modelleringsbeperkingen bij het verbinden met SAP BW met behulp van DirectQuery in Power BI zijn als volgt:

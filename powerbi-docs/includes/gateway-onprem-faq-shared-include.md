@@ -1,6 +1,6 @@
 ## <a name="general"></a>Algemeen
 **Vraag:** Hoe heet de Windows-service precies?  
-**Antwoord:** De gateway heet 'on-premises gegevensgatewayservice' in Services.
+**Antwoord:** De gateway heet 'On-premises gegevensgatewayservice' in Services
 
 **Vraag:** Wat zijn de vereisten voor de gateway?  
 **Antwoord:** Zie het gedeelte met vereisten in het [hoofdartikel over de gateway](../service-gateway-onprem.md).
@@ -38,7 +38,7 @@ U kunt een hulpprogramma van derden, de app [Azure Speed Test](http://azurespeed
 **Antwoord:** De referenties die u voor een gegevensbron opgeeft, worden versleuteld opgeslagen in de gatewaycloudservice. De referenties worden on-premises versleuteld bij de gateway.
 
 **Vraag:** Kan ik de gateway plaatsen in een perimeternetwerk (ook wel 'DMZ' of 'gescreend subnet' genoemd)?  
-**Antwoord:** De gateway vereist een verbinding met de gegevensbron. Als de gegevensbron niet in uw perimeternetwerk toegankelijk is, kan de gateway mogelijk geen verbinding tot stand brengen. Stel dat bijvoorbeeld uw SQL-server zich niet in uw perimeternetwerk bevindt en dat u vanuit het perimeternetwerk geen verbinding kunt maken met uw SQL-server. Als u de gateway in uw perimeternetwerk hebt geplaatst, kan deze de SQL-server niet bereiken.
+**Antwoord:** De gateway vereist een verbinding met de gegevensbron. Als de gegevensbron niet in uw perimeternetwerk toegankelijk is, kan de gateway mogelijk geen verbinding tot stand brengen. Stel dat bijvoorbeeld uw SQL Server zich niet in uw perimeternetwerk bevindt. En u kunt bijvoorbeeld uw SQL Server niet verbinden met het perimeternetwerk. Als u de gateway in uw perimeternetwerk hebt geplaatst, kan deze de SQL-server niet bereiken.
 
 **Vraag:** Is het mogelijk de gateway te dwingen om HTTPS-verkeer met Azure Service Bus te gebruiken in plaats van TCP?  
 **Antwoord:** Ja. Dit beperkt de prestaties echter aanzienlijk. Hiervoor moet u het bestand *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* wijzigen. Wijzig de waarde van `AutoDetect` in `Https`. Dit bestand bevindt zich in *C:\Program Files\On-premises data gateway*.

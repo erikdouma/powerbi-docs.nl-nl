@@ -2,14 +2,14 @@
 title: Power BI Gateway - Personal
 description: Power BI Gateway - Personal
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,15 +18,15 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 06ed973b3b16f5ac8ed8bef484d48af994a4e5f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7a523284bd777d87b7ac42ba7e9ff82ee7bdf623
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
 > [!NOTE]
-> Er is een nieuwe versie van de persoonlijke gateway voor Power BI: de **on-premises gegevensgateway (persoonlijke modus)**. Het volgende artikel beschrijft de vorige versie van de persoonlijke gateway, genaamd **Power BI Gateway - Personal**. Deze wordt op 31 juli 2017 buiten gebruik gesteld, waarna deze niet meer zal werken. Zie het artikel [**On-premises gegevensgateway (persoonlijke modus)**](service-gateway-personal-mode.md) voor meer informatie over de nieuwe versie van de persoonlijke gateway, inclusief de installatie-instructies.
+> Er is een nieuwe versie van de persoonlijke gateway voor Power BI: de **On-premises gegevensgateway (persoonlijke modus)**. Het volgende artikel beschrijft de vorige versie van de persoonlijke gateway, genaamd **Power BI Gateway - Personal**. Deze wordt op 31 juli 2017 buiten gebruik gesteld, waarna deze niet meer zal werken. Zie het artikel [**On-premises gegevensgateway (persoonlijke modus)**](service-gateway-personal-mode.md) voor meer informatie over de nieuwe versie van de persoonlijke gateway, inclusief de installatie-instructies.
 > 
 > 
 
@@ -44,7 +44,7 @@ Een *gegevensset* bestaat uit gegevens die van een online of on-premises gegeven
 
 Een *gegevensbron* is de plek waar de gegevens die u uploadt naar een gegevensset werkelijk vandaan komen. Dit kan van alles zijn: een database, een Excel-werkblad,  een webservice, enz. U kunt in Excel-werkmappen een eenvoudig werkblad maken met rijen gegevens en dat gebruiken als een gegevensbron. U kunt ook Power Query of Power Pivot in Excel gebruiken om verbinding te maken met gegevens in online en on-premises gegevensbronnen en deze op te vragen, allemaal in dezelfde werkmap. Ook kunt u de functie Gegevens ophalen in Power BI Desktop gebruiken om verbinding te maken met gegevens in zowel online als on-premises gegevensbronnen en deze zo op te vragen.
 
-De persoonlijke gateway wordt geïnstalleerd via de on-premises gegevensgateway. U kunt deze downloaden via de [Power BI Gateway-pagina](https://powerbi.microsoft.com/gateway/).
+De persoonlijke gateway wordt geïnstalleerd via de On-premises gegevensgateway. U kunt deze downloaden via de [Power BI Gateway-pagina](https://powerbi.microsoft.com/gateway/).
 
 ## <a name="do-i-need-a-gateway"></a>Heb ik een gateway nodig?
 Voordat u een gateway installeert, is het belangrijk om te bepalen of u deze echt nodig hebt. Dit hangt af van uw gegevensbronnen:
@@ -90,18 +90,18 @@ Laten we deze stappen eens nader bekijken.
 
 ### <a name="download-and-install-a-gateway"></a>Een gateway downloaden en installeren
 > [!NOTE]
-> Er is een nieuwe versie van de persoonlijke gateway voor Power BI: de **on-premises gegevensgateway (persoonlijke modus)**. Dit artikel beschrijft de vorige versie van de persoonlijke gateway, genaamd **Power BI Gateway - Personal**. Deze wordt op 31 juli 2017 buiten gebruik gesteld, waarna deze niet meer zal werken. Zie het artikel [**On-premises gegevensgateway (persoonlijke modus)**](service-gateway-personal-mode.md) voor meer informatie over de nieuwe versie van de persoonlijke gateway, inclusief de installatie-instructies.
+> Er is een nieuwe versie van de persoonlijke gateway voor Power BI, de **On-premises gegevensgateway (persoonlijke modus)**. Dit artikel beschrijft de vorige versie van de persoonlijke gateway, genaamd **Power BI Gateway - Personal**. Deze wordt op 31 juli 2017 buiten gebruik gesteld, waarna deze niet meer zal werken. Zie het artikel [**On-premises gegevensgateway (persoonlijke modus)**](service-gateway-personal-mode.md) voor meer informatie over de nieuwe versie van de persoonlijke gateway, inclusief de installatie-instructies.
 > 
 > 
 
-U wordt gevraagd een gateway te installeren wanneer u bij een ondersteunde gegevensset voor het eerst klikt op NU VERNIEUWEN of VERNIEUWEN PLANNEN. Ook kunt u **Gegevensgateway** selecteren in het menu Downloads om de gateway te downloaden. Download de [on-premises gegevensgateway](http://go.microsoft.com/fwlink/?LinkID=820925).
+U wordt gevraagd een gateway te installeren wanneer u bij een ondersteunde gegevensset voor het eerst klikt op NU VERNIEUWEN of VERNIEUWEN PLANNEN. Ook kunt u **Gegevensgateway** selecteren in het menu Downloads om de gateway te downloaden. Download de [On-premises gegevensgateway](http://go.microsoft.com/fwlink/?LinkID=820925).
 
 Selecteer hier **Persoonlijke gateway** in plaats van **On-premises gegevensgateway** om een gateway voor uzelf in te richten.
 
 Het installeren van een gateway is niet heel ingewikkeld. U selecteert een locatie om de gateway te installeren en wordt gevraagd om de gebruiksrechtovereenkomst te lezen en accepteren, net als bij elke andere toepassing. Er zijn echter enkele belangrijke zaken om rekening mee te houden. Met name het type computer waarop u de gateway installeert en het type account waarmee u op die computer bent aangemeld bij Windows zijn van belang.
 
 > [!NOTE]
-> De gateway moet toegang hebben tot de gegevensbron. Als uw computer geen verbinding met de gegevensbron kan maken, kunt u overwegen om een [on-premises gegevensgateway](service-gateway-onprem.md) te installeren op een computer die wel toegang tot de gegevensbron heeft. Dit kan bijvoorbeeld een installatie van SQL Server zijn op een virtuele machine (VM) die wordt gehost in Azure. Uw persoonlijke computer heeft mogelijk geen toegang tot de virtuele machine. U kunt dan de on-premises gegevensgateway installeren op de virtuele machine en de gegevensbron configureren in de Power BI-service.
+> De gateway moet toegang hebben tot de gegevensbron. Als uw computer geen verbinding met de gegevensbron kan maken, kunt u overwegen om een [On-premises gegevensgateway](service-gateway-onprem.md) te installeren op een computer die wel toegang tot de gegevensbron heeft. Dit kan bijvoorbeeld een installatie van SQL Server zijn op een virtuele machine (VM) die wordt gehost in Azure. Uw persoonlijke computer heeft mogelijk geen toegang tot de virtuele machine. U kunt dan de On-premises gegevensgateway installeren op de virtuele machine en de gegevensbron configureren in de Power BI-service.
 > 
 > 
 

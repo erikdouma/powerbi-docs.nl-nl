@@ -1,4 +1,4 @@
-## <a name="install-the-on-premises-data-gateway"></a>De on-premises gegevensgateway installeren
+## <a name="install-the-on-premises-data-gateway"></a>De On-premises gegevensgateway installeren
 De gegevensgateway wordt op uw computer geïnstalleerd en uitgevoerd. Het is raadzaam om de gateway te installeren op een computer die voortdurend aan kan blijven.
 
 > [!NOTE]
@@ -15,9 +15,9 @@ Houd rekening met de volgende aspecten met betrekking tot de installatie van bei
 
 * Beide gateways vereisen een 64-bits Windows-besturingssysteem.
 * Gateways kunnen niet worden geïnstalleerd op een domeincontroller.
-* U kunt maximaal twee on-premises gegevensgateways installeren op dezelfde computer, één in beide modi (persoonlijk en standaard). 
+* u kunt maximaal twee On-premises gegevensgateways installeren op dezelfde computer, één in beide modi (persoonlijk en standaard). 
 * U kunt niet meer dan één gateway in dezelfde modus op dezelfde computer uitvoeren.
-* U kunt meerdere on-premises gegevensgateways op verschillende computers installeren en deze allemaal beheren vanuit één Power BI-gatewaybeheerinterface (dit geldt niet voor de persoonlijke modus; zie het volgende punt).
+* u kunt meerdere On-premises gegevensgateways op verschillende computers installeren en deze allemaal beheren vanuit één Power BI-gatewaybeheerinterface (dit geldt niet voor de persoonlijke modus; zie het volgende punt)
 * Voor elke Power BI-gebruiker kunt u slechts één gateway in de persoonlijke modus uitvoeren. Als u voor dezelfde gebruiker een andere gateway in de persoonlijke modus installeert, wordt, zelfs op een andere computer, de bestaande voorgaande installatie vervangen door de meest recente installatie.
 
 ![On-prem-data-gateway-install-powerbi](./media/gateway-onprem-install-include/on-prem-data-gateway-install-powerbi.png)

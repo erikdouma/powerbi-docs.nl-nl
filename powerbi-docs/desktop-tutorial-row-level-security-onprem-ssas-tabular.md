@@ -2,14 +2,14 @@
 title: 'Zelfstudie: Dynamische beveiliging op rijniveau met tabellair model van Analysis Services in Power BI'
 description: 'Zelfstudie: Dynamische beveiliging op rijniveau met tabellair model van Analysis Services'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: selvarms
 manager: amitaro
 backup: davidi
 editor: davidi
-tags: 
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 982b027ebf7605cdc0ce122759d5f3837d23c0ed
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 67b347be9974605156d02cbbf179126c68ae91e8
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="tutorial-dynamic-row-level-security-with-analysis-services-tabular-model"></a>Zelfstudie: Dynamische beveiliging op rijniveau met tabellair model van Analysis Services
 In deze zelfstudie ziet u de benodigde stappen voor het implementeren van **beveiliging op rijniveau** binnen een **tabellair model van Analysis Services**, en wordt beschreven hoe u dit model kunt gebruiken in een Power BI-rapport. Het is de bedoeling dat u de stappen in deze zelfstudie volgt, en zo leert wat de benodigde stappen zijn, door deze uit te voeren op een voorbeeldgegevensset.
@@ -85,9 +85,9 @@ Er zijn veel gepubliceerde artikelen waarin wordt beschreven hoe u dynamische be
 9. Met deze formule worden alle kolommen opgelost naar de Booleaanse voorwaarde false, zodat er geen kolommen voor de tabel **DimUserSecurity** kunnen worden opgevraagd.
 10. Nu moeten we het model verwerken en implementeren. Raadpleeg [dit artikel](https://msdn.microsoft.com/library/hh231693.aspx) voor hulp bij het implementeren van het model.
 
-## <a name="task-3-adding-data-sources-within-your-on-premises-data-gateway"></a>Taak 3: Gegevensbronnen toevoegen binnen uw on-premises gegevensgateway
+## <a name="task-3-adding-data-sources-within-your-on-premises-data-gateway"></a>Taak 3: Gegevensbronnen toevoegen binnen uw On-premises gegevensgateway
 1. Nadat het tabellaire model geïmplementeerd en gereed voor gebruik is, moet u een gegevensbronverbinding toevoegen aan uw tabellaire on-premises Analysis Services-server in uw Power BI-portal.
-2. Om de **Power BI-service** toegang tot uw on-premises Analysis-service te geven, moet u een **[on-premises gegevensgateway](service-gateway-onprem.md)** hebben geïnstalleerd en geconfigureerd in uw omgeving.
+2. Om de **Power BI-service** toegang tot uw on-premises Analysis-service te geven, moet u een **[On-premises gegevensgateway](service-gateway-onprem.md)** hebben geïnstalleerd en geconfigureerd in uw omgeving.
 3. Als de gateway correct is geconfigureerd, moet u gegevensbronverbinding maken voor uw tabellaire **Analysis Services**-exemplaar. Raadpleeg dit artikel voor het [toevoegen van een gegevensbron in de Power BI-portal](service-gateway-enterprise-manage-ssas.md).
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/pbi_gateway.png)

@@ -2,12 +2,12 @@
 title: Wat is er nieuw in de meest recente update voor Power BI Desktop?
 description: Wat is er nieuw in de meest recente update voor Power BI Desktop?
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: complete
 qualitydate: 05/31/2016
 ms.service: powerbi
@@ -15,22 +15,22 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/06/2018
+ms.date: 03/09/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e68f581e735619a85024cb9582bbc88b8f9aca79
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8dda30e988b4ab47eb32a85d746aeed38d565f2b
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Wat is er nieuw in de meest recente update voor Power BI Desktop?
 
-## <a name="february-2018-update-2555010521"></a>Update van februari 2018 (2.55.5010.521)
+## <a name="march-2018-update-2565023861"></a>Update van maart 2018 (2.56.5023.861)
 
 U kunt nu [de nieuwste versie van Power BI Desktop downloaden](https://powerbi.microsoft.com/desktop). Als u met Windows 10 werkt, kunt u **Power BI Desktop** ook downloaden van de Windows Store. De maandelijkse versies zijn hetzelfde, ongeacht de manier waarop u **Power BI Desktop** installeert. Zie [dit artikel](desktop-get-the-desktop.md) voor meer informatie. 
 
-Wij zijn erg blij met de updates van **Power BI Desktop** deze maand en we hopen dat u ze ook nuttig vindt.
+We zijn enorm blij met de updates van deze maand voor **Power BI Desktop**.
 
 De koppelingen naast de verschillende updates betekenen het volgende:
 
@@ -45,46 +45,39 @@ De volgende updates zijn deze maand nieuw voor **Power BI Desktop**:
 
 ### <a name="reporting"></a>Rapportage
 
-* Meervoudige selectie van gegevenspunten in meerdere pagina's [[video]](https://youtu.be/KeVB5RwMzJo?t=23s) [[artikel]](desktop-multi-select.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight) 
-* Slicers synchroniseren via meerdere pagina's van een rapport [[video]](https://youtu.be/KeVB5RwMzJo?t=3m33s) [[artikel]](desktop-slicers.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers) 
-* Verbetering van numeriek bereik slicer - uitlijning van hele getallen (Preview) [[video]](https://youtu.be/KeVB5RwMzJo?t=8m44s) [[artikel]](desktop-slicer-numeric-range.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#rangeSlicer) 
-* Snellere geocodering van Bing-kaarten (web-preview) - tot 6 keer sneller [[video]](https://youtu.be/KeVB5RwMzJo?t=10m18s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#geocoding) 
-* Gegevenslabels voor staaf- en kolomdiagrammen laten overlopen [[video]](https://youtu.be/KeVB5RwMzJo?t=12m31s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#overflow) 
-* De opmaak- en analysepanelen door bladeren [[video]](https://youtu.be/KeVB5RwMzJo?t=14m46s) [[article]](desktop-analytics-pane.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search) 
-
+* Knopinfo rapportpagina’s [[video]](https://youtu.be/kuI6MMzDh34?t=16s)  [[artikel]]() [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#tooltips) 
+* De bladwijzerfunctie is nu algemeen beschikbaar [[video]](https://youtu.be/kuI6MMzDh34?t=9m2s) [[artikel]](desktop-bookmarks.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking) 
+* Weergave-eenheden en precisiebesturing voor tabel- of matrixkolommen [[video]](https://youtu.be/kuI6MMzDh34?t=11m1s) [[artikel]](desktop-slicer-numeric-range.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#displayUnits) 
+* Uitschakelen van de visuele kopteksten in de Leesmodus voor een rapport [[video]](https://youtu.be/kuI6MMzDh34?t=12m25s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualHeader) 
+* Verbeterde plaatsing van visuele standaardelementen [[video]](https://youtu.be/kuI6MMzDh34?t=14m45s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualPlacement) 
 
 ### <a name="custom-visuals"></a>Aangepaste visualisaties
 
-* Aangepaste organisatievisuals (Preview) [[video]](https://youtu.be/KeVB5RwMzJo?t=19m23s) [[artikel]](power-bi-custom-visuals-organization.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#organizationalVisuals) 
-
-
-### <a name="analytics"></a>Analyse
-
-* Een aangepaste gegevenstabel instellen [[video]](https://youtu.be/KeVB5RwMzJo?t=16m4s) [[artikel]](desktop-date-tables.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
-* Snelle metingen zijn nu algemeen beschikbaar [[video]](https://youtu.be/KeVB5RwMzJo?t=17m52s) [[artikel]](desktop-quick-measures.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
+* Veel nieuwe aangepaste visuele elementen[[video]](https://youtu.be/kuI6MMzDh34?t=15m43s) [[artikel]](power-bi-custom-visuals-organization.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>Toegang tot gegevens
 
-* Verbeteringen in DirectQuery via SAP HANA (Preview) [[video]](https://youtu.be/KeVB5RwMzJo?t=30m1s) [[artikel]](desktop-directquery-sap-hana.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#saphana) 
+* Verbeteringen in de Team Services-connector van Visual Studio [[video]](https://youtu.be/kuI6MMzDh34?t=32m) [[artikel]](desktop-multi-select.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#vsts) 
+* Verbeteringen voor de SAP HANA-connector [[video]](https://youtu.be/kuI6MMzDh34?t=32m44s) [[artikel]](desktop-directquery-sap-hana.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#saphana) 
+  * Multidimensionale ondersteuning van DirectQuery is nu algemeen beschikbaar
+  * Ondersteuning SSL-certificaatvalidatie
+* SAP BW DirectQuery is nu algemeen beschikbaar [[video]](https://youtu.be/kuI6MMzDh34?t=34m10s) [[artikel]](desktop-directquery-sap-hana.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#sapBW) 
+* De Azure Analysis Services-connector is nu algemeen beschikbaar [[video]](https://youtu.be/kuI6MMzDh34?t=34m10s)[[artikel]](desktop-directquery-sap-hana.md)[[blog]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#azureAS) 
 
 ### <a name="other"></a>Overige
 
-* Prestatieverbeteringen voor DirectQuery [[video]](https://youtu.be/KeVB5RwMzJo?t=32m24s) [[artikel]](desktop-directquery-about.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf) 
-* Prestatieverbeteringen voor openen en opslaan [[video]](https://youtu.be/KeVB5RwMzJo?t=33m40s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#savePerf) 
-* Verbeteringen van *Items zonder gegevens weergeven* [[video]](https://youtu.be/KeVB5RwMzJo?t=34m6s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#showItemsWithNoData) 
-* Permanente filters beheren voor de toekomstige functie van **Power BI-service** [[video]](https://youtu.be/KeVB5RwMzJo?t=34m56s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#persistentFilters) 
-
-
+* Verbeterde foutrapportage [[video]](https://youtu.be/kuI6MMzDh34?t=34m51s) [[artikel]](desktop-directquery-about.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#errors) 
+* Vorige fouten die u hebt aangetroffen weergeven [[video]](https://youtu.be/kuI6MMzDh34?t=34m51s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#viewErrors) 
 
 > [!NOTE]
 > U kunt ook [alle gegevensbronnen bekijken die beschikbaar zijn voor Power BI Desktop](desktop-data-sources.md). Deze lijst blijft groeien, dus kom geregeld terug.
 
-Wilt u meer informatie over deze updates? Bekijk de [blogpost](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary), waar meer informatie over elk van deze nieuwe functies wordt gegeven (dit is dezelfde blogpost waarnaar in de bovenstaande lijst wordt verwezen).
+Wilt u meer informatie over deze updates? Bekijk de [blogpost](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary), waar meer informatie over elk van deze nieuwe functies wordt gegeven (dit is dezelfde blogpost waarnaar in de bovenstaande lijst wordt verwezen).
 
 
 In de volgende video wordt elk van deze updates beschreven en weergegeven. U ziet ook de video uit de blogpost.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KeVB5RwMzJo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kuI6MMzDh34" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 > [!NOTE]

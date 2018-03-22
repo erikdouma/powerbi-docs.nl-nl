@@ -1,50 +1,50 @@
 ---
-title: Inhoud van de Power BI Embedded-werkruimteverzameling migreren naar Power BI
-description: Informatie over het migreren van inhoud van Power BI Embedded naar de Power BI-service en hoe u gebruikmaakt van ontwikkelingen voor het insluiten van inhoud in apps.
+title: Inhoud van Power BI-werkruimteverzameling migreren naar Power BI
+description: Informatie over het migreren van Power BI-werkruimteverzameling naar Power BI Embedded en hoe u gebruikmaakt van ontwikkelingen voor het insluiten van inhoud in apps.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
-ms.service: powerbi
+qualitydate: ''
+ms.Embedded: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/24/2018
+ms.date: 03/06/2018
 ms.author: maghan
-ms.openlocfilehash: 59d395d11839903108f811ff4a6022ea04cadc8f
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: c8ad315976dd1ca47d6b4dc2fd9a191a11e044c7
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="how-to-migrate-power-bi-embedded-workspace-collection-content-to-power-bi"></a>Inhoud van de Power BI Embedded-werkruimteverzameling migreren naar Power BI
-Informatie over het migreren van inhoud van Power BI Embedded naar de Power BI-service en hoe u gebruikmaakt van ontwikkelingen voor het insluiten van inhoud in apps.
+# <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Inhoud van de Power BI-werkruimteverzameling migreren naar Power BI Embedded
+Informatie over het migreren van Power BI-werkruimteverzameling naar Power BI Embedded en hoe u gebruikmaakt van ontwikkelingen voor het insluiten van inhoud in apps.
 
-Microsoft [introduceerde recentelijk Power BI Premium](https://powerbi.microsoft.com/blog/microsoft-accelerates-modern-bi-adoption-with-power-bi-premium/), een nieuw, op capaciteit gebaseerd licentiemodel met meer flexibiliteit voor het openen, delen en distribueren van inhoud. Power BI Premium zorgt ook voor hogere schaalbaarheid en verbeterde prestaties van de Power BI-service.
+Microsoft [introduceerde recentelijk Power BI Embedded](https://powerbi.microsoft.com/en-us/blog/power-bi-embedded-capacity-based-skus-coming-to-azure/), een nieuw, op capaciteit gebaseerd licentiemodel met meer flexibiliteit voor het openen, delen en distribueren van inhoud. De aanbieding zorgt ook voor hogere schaalbaarheid en verbeterde prestaties.
 
-Dankzij de introductie van Power BI Premium worden de Power BI Embedded- en de Power BI-service samengevoegd, en wordt de manier waarop Power BI-inhoud wordt ingesloten in apps verbeterd. Dit houdt in dat u één API-service, een consistente set mogelijkheden en toegang tot de nieuwste functies van Power BI (zoals dashboards, gateways en app-werkruimten) gebruikt voor het insluiten van uw inhoud. In de toekomst kunt u beginnen met Power BI Desktop en overgaan op implementaties met Power BI Premium, dat in de meeste gevallen aan het einde van het tweede kwartaal van 2017 beschikbaar is.
+Met Power BI Embedded beschikt u over één API-service, een consistente set mogelijkheden en toegang tot de nieuwste functies van Power BI (zoals dashboards, gateways en app-werkruimten) gebruikt voor het insluiten van uw inhoud. Als u verder gaat, zult kunnen starten met Power BI Desktop en overstappen op implementatie met Power BI Embedded.
 
-De huidige Power BI Embedded-service blijft beschikbaar voor een bepaalde tijd nadat het samengevoegde aanbod is geïntroduceerd. Klanten met een Enterprise-overeenkomst hebben toegang tot hun bestaande overeenkomsten tot de vervaldatum. Klanten die Power BI Embedded via directe kanalen of CSP-kanalen hebben verkregen, krijgen vanaf de introductiedatum van Power BI Premium een jaar toegang tot de service.  In dit artikel vindt u enkele richtlijnen voor het migreren van inhoud van de Azure-service naar de Power BI-service en wat u kunt verwachten bij wijzigingen in uw toepassing.
+De huidige Power BI-werkruimteverzameling blijft beschikbaar gedurende een beperkte periode. Klanten die werken onder een Enterprise Agreement hebben toegang tot en met de vervaldatum van hun bestaande overeenkomsten; klanten die Power BI-werkruimteverzameling hebben verkregen via directe of CSP-kanalen behouden toegang tot één jaar na de release van de algemene beschikbaarheid van Power BI Embedded.  In dit artikel vindt u enkele richtlijnen voor het migreren van inhoud van Power BI-werkruimteverzameling naar de nieuwe Power BI Embedded-ervaring en welke wijzigingen u kunt verwachten in uw toepassing.
 
 > [!IMPORTANT]
-> De migratie is afhankelijk van de Power BI-service, maar gebruikers van uw toepassing zijn niet afhankelijk van Power BI als u een **insluittoken** gebruikt. Ze hoeven zich niet aan te melden voor Power BI om de ingesloten inhoud in uw toepassing te bekijken. U kunt deze aanpak bij het insluiten gebruiken voor gebruikers die niet beschikken over Power BI.
+> Hoewel de migratie afhankelijk is van Power BI Embedded, zijn de gebruikers van uw toepassing niet afhankelijk van Power BI als deze een **insluittoken** gebruiken. Ze hoeven zich niet aan te melden voor Power BI om de ingesloten inhoud in uw toepassing te bekijken. U kunt deze aanpak voor insluiten gebruiken voor Embedded-gebruikers die niet beschikken over Power BI.
 > 
 > 
 
 ![](media/migrate-from-powerbi-embedded/powerbi-embed-flow.png)
 
 ## <a name="prepare-for-the-migration"></a>Voorbereiden voor de migratie
-Er zijn enkele dingen die u moet doen om inhoud voor te bereiden op een migratie van de Power BI Embedded Azure-service naar de Power BI-service. U moet een tenant hebben die beschikbaar is en een gebruiker die een licentie voor Power BI Pro heeft.
+Er zijn enkele dingen die u moet doen om inhoud voor te bereiden op een migratie van Power BI-werkruimteverzameling naar Power BI Embedded. U moet een tenant hebben die beschikbaar is en een gebruiker die een licentie voor Power BI Pro heeft.
 
 1. Controleer of u toegang hebt tot een Azure AD-tenant (Azure Active Directory).
    
-    U moet bepalen hoe u tenants gebruiks.
+    U moet bepalen welk tenant-instelling u wilt gebruiken.
    
    * Wilt u de bestaande Power BI-tenant van uw bedrijf gebruiken?
    * Wilt u een afzonderlijke tenant voor uw toepassing gebruiken?
@@ -67,7 +67,7 @@ De volgende accounts moet binnen uw tenant aanwezig zijn.
 2. Accounts voor analisten die inhoud maken.
    
     Deze gebruikers moeten waar nodig worden toegewezen aan de app-werkruimten.
-3. Een *masteraccount* of serviceaccount voor de toepassing.
+3. Een *masteraccount* of Embedded-account voor de toepassing.
    
     De referenties voor dit account worden opgeslagen op de back-end van de toepassing en gebruikt voor het verkrijgen van een Azure AD-token voor de Power BI REST API's. Dit account wordt gebruikt voor het genereren van een insluittoken voor de toepassing. Dit account moet ook een beheerder zijn van de app-werkruimten die zijn gemaakt voor het insluiten van inhoud.
    
@@ -100,16 +100,16 @@ U hebt een gebruiker nodig die een Pro-licentie heeft om een app-werkruimte in P
 > 
 
 ## <a name="content-migration"></a>Inhoud migreren
-U kunt de inhoud van uw werkruimteverzamelingen naar de Power BI-service parallel met uw huidige oplossing uitvoeren. Hiervoor is geen uitvaltijd vereist.
+U kunt de inhoud van uw werkruimteverzamelingen naar Power BI Embedded parallel met uw huidige oplossing migreren. Hiervoor is geen uitvaltijd vereist.
 
-U kunt een **hulpprogramma voor migratie** gebruiken om u te helpen bij het kopiëren van inhoud van Power BI Embedded naar de Power BI-service. Met name als u veel inhoud hebt. Zie [Hulpprogramma voor migratie in Power BI Embedded](migrate-tool.md) voor meer informatie.
+U kunt een **hulpprogramma voor migratie** gebruiken om u te helpen bij het kopiëren van inhoud van Power BI-werkruimteverzameling naar Power BI Embedded. Met name als u veel inhoud hebt. Zie [Hulpprogramma voor migratie in Power BI Embedded](migrate-tool.md) voor meer informatie.
 
 Het migreren van inhoud gebeurt hoofdzakelijk via twee API's.
 
 1. Download PBIX: deze API kan PBIX-bestanden downloaden die na oktober 2016 zijn geüpload naar Power BI.
 2. Import PBIX: deze API kan elk type PBIX-bestand uploaden naar Power BI.
 
-Zie [Codefragmenten voor het migreren van inhoud in Power BI Embedded](migrate-code-snippets.md) voor een aantal gerelateerde codefragmenten.
+Zie [Codefragmenten voor het migreren van inhoud in Power BI-werkruimteverzameling](migrate-code-snippets.md) voor een aantal gerelateerde codefragmenten.
 
 ### <a name="report-types"></a>Rapporttypen
 Er zijn verschillende soorten rapporten en voor elk rapport is een enigszins verschillende migratiestroom vereist.
@@ -160,7 +160,7 @@ Er zijn een aantal tijdelijke oplossingen waarmee u het rapport van de Push API 
 6. Koppel het rapport opnieuw aan de Push API-gegevensset.
 
 ## <a name="create-and-upload-new-reports"></a>Nieuwe rapporten maken en uploaden
-U kunt niet alleen inhoud migreren van de Power BI Embedded Azure-service, maar ook rapporten en gegevenssets maken met Power BI Desktop en deze rapporten vervolgens publiceren naar een app-werkruimte. De eindgebruiker die de rapporten naar een app-werkruimte publiceert, moet beschikken over een Power BI Pro-licentie.
+U kunt niet alleen inhoud migreren van de Power BI-werkruimteverzameling, maar ook rapporten en gegevenssets maken met Power BI Desktop en deze rapporten vervolgens publiceren naar een app-werkruimte. De eindgebruiker die de rapporten naar een app-werkruimte publiceert, moet beschikken over een Power BI Pro-licentie.
 
 ## <a name="rebuild-your-application"></a>Uw toepassing opnieuw bouwen
 1. U moet uw toepassing wijzigen met de Power BI REST-API's en de rapportlocatie in powerbi.com.
@@ -174,30 +174,29 @@ In uw toepassing wijst u gebruikers die u in de toepassing naar beheert toe aan 
 Wanneer u klaar bent voor de productie, moet u het volgende te doen.
 
 * Als u een afzonderlijke tenant voor ontwikkeling gebruikt, moet u ervoor zorgen dat de app-werkruimten, dashboards en rapporten beschikbaar zijn in uw productieomgeving. Bovendien moet u de toepassing maken voor uw productietenant in Azure AD en de juiste app-machtigingen toewijzen, zoals aangegeven in stap 1.
-* Koop de capaciteit die past bij uw behoeften. Bekijk het [technisch document over capaciteitsplanning voor ingesloten analyses](https://aka.ms/pbiewhitepaper) voor meer inzicht in de hoeveelheid en het type capaciteit dat u nodig hebt. U kunt [capaciteit kopen](https://portal.azure.com/#create/Microsoft.PowerBIDedicated) in Azure.
+* Koop de capaciteit die past bij uw behoeften. Bekijk het [technisch document over capaciteitsplanning voor Power BI Embedded-analyses](https://aka.ms/pbiewhitepaper) voor meer inzicht in de hoeveelheid en het type capaciteit dat u nodig hebt. U kunt [capaciteit kopen](https://portal.azure.com/#create/Microsoft.PowerBIDedicated) in Azure.
 * Bewerk de app-werkruimte en wijs deze toe aan een Premium capaciteit onder Geavanceerd.
  
-    ![](media/migrate-from-powerbi-embedded/powerbi-embedded-premium-capacity.png)
+    ![](media/migrate-from-powerbi-embedded/powerbi-embedded-premium-capacity02.png)
     
-* Implementeer uw bijgewerkte toepassing naar productie en begin met het insluiten van rapporten uit de Power BI-service.
+* Implementeer uw bijgewerkte toepassing naar productie en begin met het insluiten van rapporten uit de Power BI Embedded.
 
 ## <a name="after-migration"></a>Na de migratie
 Het is aan te raden om op te ruimen in Azure.
 
-* Verwijder alle werkruimten uit de geïmplementeerde oplossing in de Azure-service van Power BI Embedded.
+* Verwijder alle werkruimten uit de geïmplementeerde oplossing in de Azure Embedded van Power BI-werkruimteverzameling.
 * Verwijder eventuele werkruimteverzamelingen die zijn opgeslagen in Azure.
 
 ## <a name="next-steps"></a>Volgende stappen
 [Insluiten met Power BI](embedding.md)  
-[Hulpprogramma voor de migratie van Power BI Embedded](migrate-tool.md)  
-[Codefragmenten voor het migreren van inhoud in Power BI Embedded](migrate-code-snippets.md)  
+[Migratieprogramma voor Power BI-werkruimteverzameling](migrate-tool.md)  
+[Codefragmenten voor het migreren van inhoud van Power BI-werkruimteverzameling](migrate-code-snippets.md)  
 [Dashboards, rapporten en tegels van Power BI insluiten](embedding-content.md)  
 [Power BI Premium - wat is het?](../service-premium.md)  
 [Git-opslagplaats voor JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Git-opslagplaats voor Power BI C#](https://github.com/Microsoft/PowerBI-CSharp)  
 [Voorbeeld van het insluiten van JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
-[Technisch document over Embedded-analysecapaciteitsplanning](https://aka.ms/pbiewhitepaper)  
+[Technisch document over analysecapaciteitsplanning voor Power BI-werkruimteverzameling](https://aka.ms/pbiewhitepaper)  
 [Technisch document over Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
-
