@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/06/2018
+ms.date: 03/14/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 4997c29941608c12a89598b6e9cb1b1ad3aa2fe8
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 786e9adf9698b0d878043c684dc3b65a49bc760a
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Eerdere maandelijkse updates voor Power BI Desktop
 
@@ -879,7 +879,7 @@ In de volgende video wordt elk van deze updates beschreven en weergegeven. U zie
 
 
 
-## <a name="august-2016-update-2374464321"></a>Update van augustus 2016 (2.37.4464.321)
+## <a name="august-2016-update-2384491282"></a>Update van augustus 2016 (2.38.4491.282)
 
 In augustus zijn er heel wat nieuwe functies toegevoegd voor Power BI Desktop:
 
