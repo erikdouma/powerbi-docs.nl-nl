@@ -2,14 +2,14 @@
 title: Rapportweergave in Power BI Desktop
 description: Rapportweergave in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,16 +18,16 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e68a819325e601f869b34c4ccbe3e873fe9408b3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: af10699ea30b9d8e8dd8e3495860c43387a7e0be
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Rapportweergave in Power BI Desktop
 Als u met Power BI hebt gewerkt, dan weet u hoe eenvoudig het is om rapporten te maken met dynamische perspectieven en inzichten in uw gegevens. Power BI heeft nog meer geavanceerde functies in Power BI Desktop. Met Power BI Desktop kunt u geavanceerde query's uitvoeren, een mashup maken van gegevens uit meerdere bronnen, relaties tussen tabellen maken en nog veel meer.
 
-Power BI Desktop omvat een **rapportweergave**, waarin u een willekeurig aantal rapportpagina's met visuele elementen kunt maken. De rapportweergave kent vrijwel hetzelfde ontwerp als de bewerkweergave van een rapport in de Power BI-service. U kunt er visuele elementen verplaatsen, kopiëren en plakken, samenvoegen, enzovoort.
+Power BI Desktop omvat een **rapportweergave**, waarin u een willekeurig aantal rapportpagina's met visuele elementen kunt maken. De rapportweergave kent vrijwel hetzelfde ontwerp als de bewerkweergave van een rapport in de Power BI-service. U kunt er visualisaties verplaatsen, kopiëren en plakken, samenvoegen enzovoort.
 
 Het verschil is dat u in Power BI Desktop met uw query's kunt werken en gegevens kunt modelleren om ervoor te zorgen dat uw rapporten de beste inzichten geven in uw gegevens. U kunt uw Power BI Desktop-bestand vervolgens opslaan waar u wilt, bijvoorbeeld op de lokale harde schijf of in de cloud.
 
@@ -36,7 +36,7 @@ Wanneer u de eerste keer uw gegevens in Power BI Desktop laadt, ziet u de **rapp
 
 ![](media/desktop-report-view/pbi_reportviewinpbidesigner_reportview.png)
 
-U kunt wisselen tussen de **rapportweergave**, de **gegevensweergave** en de **relatieweergave** door de pictogrammen aan de linkerkant van de navigatiebalk te selecteren:
+U kunt schakelen tussen de **rapportweergave**, **gegevensweergave** en **relatieweergave** door de pictogrammen in de linkernavigatiebalk te selecteren:
 
 ![](media/desktop-report-view/pbi_reportviewinpbidesigner_changeview.png)
 
@@ -44,7 +44,7 @@ Zodra u gegevens hebt toegevoegd, kunt u velden aan een nieuw visueel element op
 
 ![](media/desktop-report-view/pbid_reportview_addvis.gif)
 
-Als u het type visuele element wilt wijzigen, kunt u dit selecteren in de groep **Visualization** op het lint. U kunt ook met de rechtermuisknop klikken en een ander type selecteren op het pictogram **Change visualization type**.
+Als u het visualisatietype wilt wijzigen, kunt u dit selecteren in de groep **Visualisatie** in het lint. U kunt ook met de rechtermuisknop klikken en een ander type selecteren via het pictogram **Visualisatietype wijzigen**.
 
 ![](media/desktop-report-view/pbid_reportview_changevis.gif)
 
@@ -53,7 +53,7 @@ Als u het type visuele element wilt wijzigen, kunt u dit selecteren in de groep 
 > 
 > 
 
-Een rapport bevat ten minste één lege pagina om mee te beginnen. De pagina's worden links van het canvas in de navigatiebalk weergegeven. U kunt allerlei soorten visuele elementen aan een pagina toevoegen, maar het is belangrijk dat u er niet te veel gebruikt. Te veel visuele elementen op een pagina maken deze onoverzichtelijk, waardoor de juiste informatie lastig te vinden is. U kunt nieuwe pagina's aan uw rapport toevoegen. Klik hiertoe op **Nieuwe pagina** op het lint.
+Een rapport bevat ten minste één lege pagina om mee te beginnen. De pagina's worden links van het canvas in de navigatiebalk weergegeven. U kunt allerlei soorten visuele elementen aan een pagina toevoegen, maar het is belangrijk dat u er niet te veel gebruikt. Te veel visuele elementen op een pagina maken deze onoverzichtelijk, waardoor de juiste informatie lastig te vinden is. U kunt nieuwe pagina's toevoegen aan het rapport. U klikt in het lint gewoon op **Nieuwe pagina**.
 
 ![](media/desktop-report-view/pbidesignerreportviewnewpage.png)
 

@@ -2,14 +2,14 @@
 title: Q&A in Power BI Desktop gebruiken
 description: Met Q&A kunt u query's met natuurlijke taal gebruiken in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/12/2017
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: dacbb31e8e32abfcb34e565958620d579f68b4f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d6075832d77f6bea7d7d8588719c4a002cdbf298
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Q&A in Power BI Desktop gebruiken voor query's met natuurlijke taal
 Normale zinnen en natuurlijke taal gebruiken om informatie uit uw gegevens te kunnen opvragen, is uiterst nuttig. Nog nuttiger is het wanneer uw gegevens antwoorden. Dit is wat u voor elkaar kunt krijgen met Q&A in **Power BI Desktop**.
@@ -33,7 +33,7 @@ In de volgende secties wordt beschreven hoe u uw model aanpast zodat dit goed sa
 
 ## <a name="add-missing-relationships"></a>Ontbrekende relaties toevoegen
 
-Als in uw modellen relaties tussen tabellen ontbreken, kunt u noch met Power BI-rapporten, noch met Q&A interpreteren hoe deze tabellen moeten worden samengevoegd als u er vragen over stelt. Relaties vormen de basis van een goed model. U kunt bijvoorbeeld geen vragen stellen over de 'totale verkoop voor klanten in Amsterdam' als de relatie tussen de tabel *bestellingen* en de tabel *klanten* ontbreekt. In de volgende afbeeldingen ziet u voorbeelden van een model waarvoor nog actie is vereist en een model dat gereed is voor Q&A.
+Als in uw model relaties tussen tabellen ontbreken, kunt u noch met Power BI-rapporten noch met Q&A interpreteren hoe deze tabellen moeten worden samengevoegd als u er een vraag over stelt. Relaties vormen de basis van een goed model. U kunt bijvoorbeeld geen vragen stellen over de 'totale verkoop voor klanten in Amsterdam' als de relatie tussen de tabel *bestellingen* en de tabel *klanten* ontbreekt. In de volgende afbeeldingen ziet u voorbeelden van een model waarvoor nog actie is vereist en een model dat gereed is voor Q&A.
 
 **Actie vereist**
 
@@ -50,7 +50,7 @@ De keuze van tabellen en kolommen is erg belangrijk voor Q&A. Als u bijvoorbeeld
 
 Met Q&A kunt u enkele eenvoudige analyses van woorden en detectie van meervouden uitvoeren. Q&A gaat echter ervan uit dat uw tabel- en kolomnamen een goed beeld vormen van de inhoud ervan.
 
-Kijk nu eens naar een ander voorbeeld. Stel, u hebt een tabel met de naam *Personeelsbezetting* die de voor- en achternamen en het aantal werknemers bevat, en u hebt een andere tabel met de naam *Werknemers* die het aantal werknemers, het aantal functies en de begindatums bevat. Dit vormt weliswaar geen problemen voor mensen die bekend zijn met het model, maar als iemand vraagt 'tel het aantal werknemers', krijgt deze persoon mogelijk een optelsom van de rijen van de tabel 'Werknemers' en waarschijnlijk niet de gewenste gegevens omdat dit een optelsom vormt van elke functie die elke werknemer ooit heeft gehad. Het is beter om de naam van de tabellen te wijzigen zodat deze de gegevens weergeven die ze daadwerkelijk bevatten.
+Kijk nu eens naar een ander voorbeeld. Stel, u hebt een tabel met de naam *Personeelsbezetting* die de voor- en achternamen en het aantal werknemers bevat. Daarnaast hebt u een andere tabel met de naam *Werknemers* die het aantal werknemers, het aantal functies en de begindatums bevat. Dit vormt weliswaar geen problemen voor mensen die bekend zijn met het model, maar als iemand vraagt 'tel het aantal werknemers', krijgt deze persoon mogelijk een optelsom van de rijen van de tabel 'Werknemers' en waarschijnlijk niet de gewenste gegevens omdat dit een optelsom vormt van elke functie die elke werknemer ooit heeft gehad. Het is beter om de naam van de tabellen te wijzigen zodat deze de gegevens weergeven die ze daadwerkelijk bevatten.
 
 **Actie vereist**
 
@@ -180,11 +180,11 @@ De enige uitzondering op de regel 'normalisatie is beter' treedt op wanneer er m
 
 Deze stap geldt specifiek voor Q&A (en niet voor Power BI-rapporten in het algemeen). Gebruikers gebruiken vaak tal van termen om te verwijzen naar hetzelfde, zoals totale verkoop, net verkoop, totale net verkoop. Met het model van Power BI kunt u deze synoniemen toevoegen aan tabellen en kolommen in het model. 
 
-Dit kan erg belangrijk zijn. Zelfs met eenvoudige tabel- en kolomnamen, stellen gebruikers van Q&A vragen waarin ze de woorden gebruiken die als eerste in hen opkomen in plaats van te kiezen uit een vooraf gedefinieerde lijst met kolommen. Hoe meer logische synoniemen u kunt toevoegen, hoe beter de ervaring van uw gebruikers met het rapport. Als u synoniemen wilt toevoegen, selecteert u in de weergave **Relaties** op het lint de knop Synoniemen, zoals weergegeven in de volgende afbeelding.
+Dit kan erg belangrijk zijn. Zelfs met eenvoudige tabel- en kolomnamen, stellen gebruikers van Q&A vragen waarin ze de woorden gebruiken die als eerste in hen opkomen in plaats van te kiezen uit een vooraf gedefinieerde lijst met kolommen. Hoe meer logische synoniemen u kunt toevoegen, hoe beter de ervaring van uw gebruikers met het rapport. Als u synoniemen wilt toevoegen, selecteert u in de weergave **Relaties** in het lint de knop Synoniemen, zoals wordt weergegeven in de volgende afbeelding.
 
 ![Synoniemen voor Q&A toevoegen](media/desktop-qna-in-reports/desktop-qna_21.png)
 
-Het veld **Synoniemen** wordt weergegeven aan de rechterkant van **Power BI Desktop**. Hier kunt u uw synoniemen toevoegen, zoals weergegeven in de volgende afbeelding.
+Het veld **Synoniemen** wordt weergegeven aan de rechterkant van **Power BI Desktop**. Hier kunt u de synoniemen toevoegen, zoals in de volgende afbeelding wordt weergegeven.
 
 ![Synoniemen voor Q&A toevoegen](media/desktop-qna-in-reports/desktop-qna_22.png)
 

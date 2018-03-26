@@ -2,32 +2,32 @@
 title: Over filters en markeren in Power BI-rapporten
 description: Over filters en markeren in Power BI-rapporten
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: dc39f23c192c8bbe1126551c20205bafd8be3a07
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ffbab0c1e203ce3fd8779b4eebca90debbb531e5
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="about-filters-and-highlighting-in-power-bi-reports"></a>Over filters en markeren in Power BI-rapporten
 ***Filters*** zorgen ervoor dat alleen die gegevens worden weergegeven waarop u zich wilt concentreren.  ***Markeren*** is geen filtertechniek, aangezien er geen gegevens worden verwijderd. In plaats daarvan wordt een subset van de zichtbare gegevens gemarkeerd. De niet-gemarkeerde gegevens blijven wel zichtbaar maar zijn lichter van kleur.
 
-Er zijn diverse verschillende manieren om rapporten in Power BI te filteren en te markeren. Wanneer al deze informatie in één artikel zou worden gepresenteerd, zou dit alleen maar tot verwarring leiden. We hebben daarom de volgende onderverdeling gemaakt:
+Er zijn veel verschillende manieren om rapporten in Power BI te filteren en te markeren. Wanneer al deze informatie in één artikel zou worden gepresenteerd, zou dit alleen maar tot verwarring leiden. We hebben daarom de volgende onderverdeling gemaakt:
 
 * Inleiding tot filters en markeren (het artikel dat u nu leest)
 * De manieren waarop u [filters en markeringen kunt maken en gebruiken in de bewerkingsweergave of de rapporten die u hebt gemaakt](power-bi-report-add-filter.md). Wanneer u over bewerkingsmachtigingen beschikt voor een rapport, kunt u filters en markeringen in rapporten maken, wijzigen en verwijderen.
@@ -41,9 +41,11 @@ Er zijn diverse verschillende manieren om rapporten in Power BI te filteren en t
 > 
 
 ## <a name="introduction-to-filters-and-highlighting-in-reports-using-the-filters-pane"></a>Inleiding tot het gebruik van het deelvenster Filters om gegevens in rapporten te filteren en te markeren
+ In dit artikel wordt beschreven hoe u filters en markeringen toepast in de Power BI-service.  De gebruikswijze is echter bijna precies hetzelfde als in Power BI Desktop.  
+
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-add-filter-reading-view.png)
 
-Filters en markeringen kunnen worden toegepast via het deelvenster **Filters** of door rechtstreeks in het rapport gegevens te selecteren (ad hoc, zie onderaan de pagina). Het deelvenster Filters bevat de tabellen en velden die in het rapport worden gebruikt en de filters die zijn toegepast, indien van toepassing. De filters worden onderverdeeld in **Filters op paginaniveau**, **Filters op rapportniveau** en **Filters op het niveau van visuele elementen**.  Er worden alleen filters op het niveau van visuele elementen weergegeven als u een visualisatie op het rapportcanvas selecteert.
+Filters en markeringen kunnen worden toegepast via het deelvenster **Filters** of door rechtstreeks in het rapport gegevens te selecteren (ad hoc, zie onderaan de pagina). Het deelvenster Filters bevat de tabellen en velden die in het rapport worden gebruikt en de filters die zijn toegepast, indien van toepassing. De filters worden onderverdeeld in: **filters op paginaniveau**, **filters op rapportniveau**, **gedetailleerde filters** en **filters op het niveau van visuals**.  Er worden alleen filters op het niveau van visuele elementen weergegeven als u een visualisatie op het rapportcanvas selecteert.
 
 > [!TIP]
 > Als naast het filter het woord **Alle** wordt weergegeven, betekent dit dat het hele veld is opgenomen als een filter.  Zo zien we aan **Chain (All)** (Keten (Alle)) in onderstaande schermopname dat deze rapportpagina gegevens bevat over alle winkelketens.  Aan de andere kant blijkt uit het filter op rapportniveau **FiscalYear is 2013 or 2014** (Boekjaar is 2013 of 2014) dat het rapport alleen gegevens voor de boekjaren 2013 en 2014 bevat.
@@ -53,8 +55,8 @@ Filters en markeringen kunnen worden toegepast via het deelvenster **Filters** o
 ## <a name="filters-in-reading-view-versus-editing-view"></a>Filters in de leesweergave versus filters in de bewerkingsweergave
 U kunt in twee modi met rapporten werken: in de [leesweergave en de bewerkingsweergave](service-reading-view-and-editing-view.md).  De beschikbare filtermogelijkheden zijn afhankelijk van de modus waarin u werkt.
 
-* In de bewerkingsweergave kunt u rapport-, pagina- en visualisatiefilters toevoegen. Als u het rapport opslaat, worden de filters ook opgeslagen. Personen die het rapport bekijken in de leesweergave, kunnen werken met de filters die u hebt toegevoegd, maar ze kunnen hun wijzigingen niet opslaan.
-* In de leesweergave kunt u werken met elk pagina- en visualisatiefilter dat al in het rapport aanwezig is, maar u kunt uw filterwijzigingen niet opslaan.
+* In de bewerkingsweergave kunt u filters voor rapporten, pagina’s, visuals en gedetailleerde filters toevoegen. Wanneer u het rapport opslaat, worden de filters samen met het rapport opgeslagen, zelfs als u het in een mobiele app opent. Personen die het rapport in de leesweergave bekijken, kunnen de filters gebruiken die u hebt toegevoegd, maar kunnen geen nieuwe filters toevoegen.
+* In de leesweergave kunt u de filters gebruiken die al beschikbaar zijn in het rapport. Daarnaast kunt u de door u aangebrachte selecties opslaan.  U kunt echter geen nieuwe filters toevoegen.
 
 ### <a name="the-filters-pane-in-reading-view"></a>Het deelvenster Filters in de leesweergave
 Als u alleen in de leesweergave toegang tot een rapport hebt, ziet het deelvenster Filters er ongeveer als volgt uit:
@@ -67,7 +69,7 @@ Selecteer een visueel element om te controleren of het rapport ook filters op he
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-filter-visual-level.png)
 
-Verken de gegeven in de leesweergave door de bestaande filters te wijzigen. Meer informatie hierover vindt u in het artikel [Filters gebruiken in de leesweergave](service-reading-view-and-editing-view.md)
+Verken de gegeven in de leesweergave door de bestaande filters te wijzigen. De wijzigingen die u aanbrengt, worden samen met het rapport opgeslagen, zelfs als u het rapport in een mobiele app opent. Meer informatie hierover vindt u in het artikel [De leesweergave en bewerkingsweergave in de Power BI-service](service-reading-view-and-editing-view.md)
 
 ### <a name="the-filters-pane-in-editing-view"></a>Het deelvenster Filters in de bewerkingsweergave
 Wanneer u over eigenaarsmachtigingen voor een rapport beschikt en het rapport opent in de leesweergave, hebben en het in de weergave bewerken Open, ziet u dat **Filters** slechts een van de vele beschikbare deelvensters is.
@@ -78,10 +80,14 @@ Net als in de leesweergave (hierboven) zien we dat dit rapport zes filters op pa
 
 Meer we kunnen in de bewerkingsweergave nog veel meer met filters en markeringen doen. Het belangrijkste verschil is dat er nieuwe filters kunnen worden toegevoegd. Hoe u dit doet en nog veel meer informatie kunt u lezen in het artikel [Een filter aan een rapport toevoegen](power-bi-report-add-filter.md).
 
-## <a name="ad-hoc-filterting-and-highlighting"></a>Ad hoc filteren en markeren
-Selecteer een veld op het rapportcanvas om de rest van de pagina te filteren en te markeren. Selecteer een lege ruimte in hetzelfde visuele element om deze te verwijderen. Dit type filters en markeringen wordt niet opgeslagen in het rapport, maar biedt wel een leuke manier om snel de impact van gegevens te verkennen. Zie [Interacties tussen visuele elementen](service-reports-visual-interactions.md) als u de werking van dit type kruisfilters en kruismarkeringen wilt verfijnen.
+## <a name="ad-hoc-filtering-and-highlighting"></a>Ad hoc filteren en markeren
+Selecteer een veld op het rapportcanvas om de rest van de pagina te filteren en te markeren. Selecteer een lege ruimte in hetzelfde visuele element om deze te verwijderen. Met dit type filters en markeringen kunt u op een leuke manier snel de impact van gegevens verkennen. Zie [Interacties tussen visuals](service-reports-visual-interactions.md) als u de werking wilt verfijnen van dit type filters en markeringen die kruislings worden toegepast.
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
+
+Wanneer u het rapport afsluit, worden de wijzigingen opgeslagen. Als u de door u toegepaste filters ongedaan wilt maken, selecteert u **Standaardinstellingen herstellen** op de bovenste menubalk.
+
+![](media/power-bi-reports-filters-and-highlighting/power-bi-reset-to-default.png)
 
 ## <a name="next-steps"></a>Volgende stappen
 [Filters en markeringen gebruiken (in de leesweergave)](service-reading-view-and-editing-view.md)

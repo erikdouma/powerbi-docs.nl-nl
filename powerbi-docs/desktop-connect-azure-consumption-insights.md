@@ -1,15 +1,15 @@
 ---
-title: "Verbinding met Azure Consumption Insights-gegevens maken in Power BI Desktop (bèta)"
+title: Verbinding met Azure Consumption Insights-gegevens maken in Power BI Desktop (bèta)
 description: Eenvoudig verbinding maken met Azure en inzicht verkrijgen over het verbruik en gebruik met behulp van Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,23 +18,23 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9127f7b2e19a304c514d5e6449cf1ceb7ecddb13
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1e82ec988389790a3d96cb6f98f0db5d1a385fda
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Verbinding met Azure Consumption Insights maken in Power BI Desktop (bèta)
 Met de **Azure Consumption Insights**-connector kunt u vanuit **Power BI Desktop** verbinding maken met Azure en gedetailleerde gegevens en informatie over het gebruik van Azure-services van uw organisatie verkrijgen. U kunt ook metingen, aangepaste kolommen en visuele elementen maken om rapporten over het gebruik van Azure van uw organisatie te maken en te delen. Deze versie van de **Azure Consumption and Insights**-connector is een bètaversie en kan worden gewijzigd.
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01.png)
 
-In dit artikel leert u hoe u verbinding maakt met de **Azure Consumption Insights**-connector, hoe u de benodigde gegevens ophaalt, en hoe u een migratie van de Azure Enterprise-connector uitvoert. Ook vindt u een toewijzing van beschikbare *gebruiksgegevenskolommen* in de **ACI** (Azure Consumption Insights) API.
+In dit artikel wordt uitgelegd hoe u verbinding maakt met de **Azure Consumption Insights**-connector, hoe u de benodigde gegevens ophaalt en hoe u een migratie van de Azure Enterprise-connector uitvoert. Ook vindt u er een toewijzing van beschikbare *gebruiksgegevenskolommen* in de **ACI** (Azure Consumption Insights) API.
 
 ## <a name="connect-to-azure-consumption-insights"></a>Verbinding met Azure Consumption Insights maken
 Om verbinding te maken met behulp van de **Azure Consumption Insights**-connector, moet u toegang hebben tot de Enterprise-functies binnen Azure Portal.
 
-Om verbinding te maken met behulp van de **Azure Consumption Insights**-connector, selecteert u **Gegevens ophalen** in het lint **Start** in **Power BI Desktop**. Selecteer **Onlineservices** in de categorieën aan de linkerkant en u ziet **Azure Consumption Insights (bèta)**. Selecteer **Verbinding maken**.
+Om verbinding te maken via de **Azure Consumption Insights**-connector, selecteert u **Gegevens ophalen** in het lint **Start** in **Power BI Desktop**. Selecteer **Onlineservices** in de categorieën aan de linkerkant en u ziet **Azure Consumption Insights (bèta)**. Selecteer **Verbinding maken**.
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01b.png)
 
@@ -42,11 +42,11 @@ Geef uw *inschrijvingsnummer* op in het dialoogvenster dat wordt weergegeven.
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_02.png)
 
-* U kunt uw inschrijvingsnummer ophalen vanuit de [Azure Enterprise-portal](https://ea.azure.com), op de locatie die wordt weergegeven in de volgende afbeelding.
+* U kunt uw inschrijvingsnummer ophalen in [Azure Enterprise Portal](https://ea.azure.com), op de locatie die wordt weergegeven in de volgende afbeelding:
   
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
   
-  In deze versie van de connector worden alleen Enterprise-inschrijvingen van https://ea.azure.com ondersteund. China-inschrijvingen worden momenteel niet ondersteund.
+  In deze versie van de connector worden alleen Enterprise-inschrijvingen vanuit https://ea.azure.com ondersteund. China-inschrijvingen worden momenteel niet ondersteund.
 
 Geef vervolgens uw *toegangssleutel* op om verbinding te maken.
 
@@ -61,7 +61,7 @@ Als u de *toegangssleutel* hebt opgegeven en **Verbinding maken** selecteert, wo
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04.png)
 
 > [!NOTE]
-> De tabellen *Samenvatting en *Prijzenoverzicht* zijn alleen beschikbaar voor de API-sleutel op inschrijvingsniveau. Deze tabellen bevatten bovendien standaard de gegevens voor *Gebruik* en *Prijzenoverzicht* van de huidige maand. De tabellen *Samenvatting* en *Marketplace* zijn niet beperkt tot de huidige maand.
+> De tabellen *Samenvatting* en *Prijzenoverzicht* zijn alleen beschikbaar voor de API-sleutel op inschrijvingsniveau. Deze tabellen bevatten bovendien standaard de gegevens voor *Gebruik* en *Prijzenoverzicht* van de huidige maand. De tabellen *Samenvatting* en *Marketplace* zijn niet beperkt tot de huidige maand.
 > 
 > 
 
@@ -84,16 +84,16 @@ Typ het volgende in de **formulebalk**:
 
     = MicrosoftAzureConsumptionInsights.Contents
 
-Er wordt een verzameling voorbeelden weergegeven, zoals wordt weergegeven in de volgende afbeelding.
+Er wordt een verzameling voorbeelden weergegeven, zoals u ziet in de volgende afbeelding:
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_07.png)
 
 Gebruik het volgende bij het werken met rapporten en het maken van query's:
 
-* Gebruik *noOfMonths* voor het definiëren van het aantal maanden vanaf de huidige datum
+* Gebruik *numberOfMonth* voor het definiëren van het aantal maanden vanaf de huidige datum
   * Gebruik een waarde tussen 1 en 36 voor het aantal maanden, gerekend vanaf de huidige datum, dat u wilt importeren. U wordt aangeraden niet meer dan 12 maanden aan gegevens op te halen, om te voorkomen dat u drempelwaarden met importbeperkingen en de toegestane hoeveelheid gegevens voor query's in Power BI overschrijdt.
 * Gebruik *startBillingDataWindow* en *endBillingDataWindow* voor het definiëren van een aantal maanden in een historisch tijdvenster
-* Gebruik *noOfMonths* *niet* in combinatie met *startBillingDataWindow* of *endBillingDataWindow*
+* Gebruik *numberOfMonth* *niet* in combinatie met *startBillingDataWindow* of *endBillingDataWindow*
 
 ## <a name="migrating-from-the-azure-enterprise-connector"></a>Migratie van de Azure Enterprise-connector uitvoeren
 Sommige klanten hebben visuele elementen gemaakt met de *Azure Enterprise-connector (bèta)*, die uiteindelijk buiten gebruik wordt gesteld en wordt vervangen door de **Azure Consumption Insights**-connector. De **Azure Consumption Insights**-connector bevat onder andere de volgende functies en verbeteringen:
@@ -108,7 +108,7 @@ Om klanten te helpen met de overgang naar de nieuwe **Azure Consumption Insights
 Eerst moet u verbinding maken met Azure via de **Azure Consumption Insights**-connector, die eerder in dit artikel in detail is beschreven. In deze stap selecteert u **Gegevens ophalen > Lege query** in het lint **Start** in **Power BI Desktop**.
 
 ### <a name="step-2-use-the-advanced-editor-to-create-a-query"></a>Stap 2: Een query maken met de geavanceerde editor
-In **Query-editor** selecteert u **Geavanceerde editor** in de sectie **Query** van het lint **Start**. In het **Geavanceerde editor**-venster dat wordt weergegeven, voert u de volgende query in.
+In **Query-editor** selecteert u **Geavanceerde editor** in de sectie **Query** van het lint **Start**. In het venster **Geavanceerde editor** dat wordt weergegeven, voert u de volgende query in:
 
     let    
         enrollmentNumber = "100",
@@ -121,17 +121,17 @@ In **Query-editor** selecteert u **Geavanceerde editor** in de sectie **Query** 
 
 Uiteraard moet u de waarde van *enrollmentNumber* vervangen door uw eigen inschrijvingsnummer, dat u kunt ophalen uit de [Azure Enterprise-portal](https://ea.azure.com). De parameter *numberOfMonth* is het aantal maanden aan gegevens dat u wilt bewaren, teruggerekend vanaf de huidige datum. Nul (0) staat voor de huidige maand.
 
-Als u **Gereed** selecteert in het **Geavanceerde editor**-venster, wordt het voorbeeldweergave vernieuwd en ziet u de gegevens van het opgegeven maandbereik in de tabel. Selecteer **Sluiten en toepassen** om terug te keren.
+Wanneer u **Gereed** selecteert in het venster **Geavanceerde editor**, wordt het voorbeeld vernieuwd en worden de gegevens van het opgegeven maandbereik in de tabel weergegeven. Selecteer **Sluiten en toepassen** om terug te keren.
 
 ### <a name="step-3-move-measures-and-custom-columns-to-the-new-report"></a>Stap 3: Metingen en aangepaste kolommen naar het nieuwe rapport verplaatsen
 Vervolgens moet u alle aangepaste kolommen of metingen die u hebt gemaakt, verplaatsen naar de nieuwe detailtabel. Dit zijn de stappen.
 
 1. Open Kladblok (of een andere teksteditor).
-2. Selecteer de meting die u wilt verplaatsen en kopieer de tekst van het veld *Formule* en plak deze in Kladblok.
+2. Selecteer de meting die u wilt verplaatsen, kopieer de tekst van het veld *Formule* en plak deze in Kladblok.
    
    ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_11.png)
 3. Wijzig de naam van *Query1* in de oorspronkelijke naam van de detailtabel.
-4. Maak nieuwe metingen en aangepaste kolommen in de tabel. Klik hiertoe met de rechtermuisknop op de tabel en kies **Nieuwe meting**. Knip en plak vervolgens al uw opgeslagen metingen en kolommen erin totdat u klaar bent.
+4. Maak nieuwe metingen en aangepaste kolommen in de tabel door met de rechtermuisknop op de tabel te klikken en **Nieuwe meting** te kiezen. Knip en plak vervolgens al uw opgeslagen metingen en kolommen in de nieuwe tabel.
 
 ### <a name="step-4-re-link-tables-that-had-relationships"></a>Stap 4: Tabellen met eerdere relaties opnieuw koppelen
 Veel dashboards bevatten aanvullende zoek- of filtertabellen, zoals datumtabellen of tabellen die worden gebruikt voor aangepaste projecten. Als u de relaties van die tabellen opnieuw instelt, zijn de meeste resterende problemen opgelost. U kunt dit als volgt doen.

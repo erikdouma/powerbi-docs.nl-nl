@@ -2,33 +2,31 @@
 title: Wat is er nieuw in Power BI Report Server
 description: Meer informatie over wat er nieuw is in Power BI Report Server. Dit onderwerp bestrijkt de primaire functiegebieden. Het wordt bijgewerkt wanneer nieuwe items worden uitgebracht.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/31/2017
-ms.author: maghan
-ms.openlocfilehash: 2ac4efa4e1eff5099fa3732b0fa753b04941979e
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 03/19/2018
+ms.author: maggies
+ms.openlocfilehash: 4f149baccf551762589c17bd6d6ba17c36f4da37
+ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Wat is er nieuw in Power BI Report Server
 Meer informatie over wat er nieuw is in Power BI Report Server. Dit onderwerp bestrijkt de primaire functiegebieden. Het wordt bijgewerkt wanneer nieuwe items worden uitgebracht.
 
-Ga naar [On-premises rapportage met de Power BI Report Server](https://powerbi.microsoft.com/report-server/) om Power BI Report Server en de geoptimaliseerde versie van Power BI Desktop voor Power BI Report Server te downloaden.
-
-![tip](media/whats-new/fyi-tip.png "tip") Zie [Power BI Report Server - release-opmerkingen](release-notes.md) voor de huidige release-opmerkingen.
+Ga naar [On-premises rapportage met Power BI Report Server](https://powerbi.microsoft.com/report-server/) om Power BI Report Server en de geoptimaliseerde versie van Power BI Desktop voor Power BI Report Server te downloaden.
 
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
 
@@ -37,6 +35,103 @@ Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mog
 * [Wat is er nieuw in de mobiele apps voor Power BI](../mobile-whats-new-in-the-mobile-apps.md)
 * [Power BI-teamblog](https://powerbi.microsoft.com/blog/)
 
+## <a name="march-2018-release"></a>Release van maart 2018
+
+In de release van maart 2018 zijn veel nieuwe functies toegevoegd aan de voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop. Hieronder worden ze per gebied weergegeven: 
+- [Visuals](#visuals-updates)
+- [Rapportage](#reporting)
+- [Analyse](#analytics)
+- [Prestaties](#performance)
+- [Rapportserver](#report-server)
+- [Overige](#other-improvements)
+
+### <a name="highlights-of-this-release"></a>Hoogtepunten van deze release
+
+Uit de lange lijst met nieuwe functies volgen hier de interessantste functies.
+
+#### <a name="rule-based-conditional-formatting-for-table-and-matrixhttpspowerbimicrosoftcomblogpower-bi-desktop-november-2017-feature-summaryconditionalformatting"></a>[Voorwaardelijke opmaak op basis van regels voor tabel en matrix](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting)
+ 
+Maak op basis van specifieke bedrijfslogica regels die aan de hand van voorwaarden de achtergrondkleur of tekstkleur in de tabel of matrix bepalen.
+
+#### <a name="show-and-hide-pageshttpspowerbimicrosoftcomblogpower-bi-desktop-january-2018-feature-summaryhidepages"></a>[Pagina's weergeven en verbergen](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#hidePages)
+
+U wilt dat lezers toegang hebben tot uw rapport, maar sommige van de pagina's zijn nog niet helemaal af. Nu kunt u deze verbergen totdat ze klaar zijn. U kunt de pagina's ook in de normale navigatie verbergen en de lezers naar de pagina laten gaan via bladwijzers of drillthrough.
+
+#### <a name="bookmarkinghttpspowerbimicrosoftcomblogpower-bi-desktop-march-2018-feature-summarybookmarking"></a>[Bladwijzers gebruiken](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking)
+
+Maak bladwijzers en vertel een verhaal met de gegevens in uw rapport.
+
+- [Kruislings markeren voor bladwijzers](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkCrossHighlighting): bladwijzers behouden de kruislings gemarkeerde status van de rapportpagina en geven deze weer op het moment dat u de bladwijzer maakt.
+- [Meer flexibiliteit met bladwijzers](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkFlexibility): bladwijzers weerspiegelen de eigenschappen die u instelt in het rapport en zijn alleen van invloed op de visuals die u kiest.
+
+#### <a name="multi-select-data-points-across-multiple-chartshttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summarycrosshighlight"></a>[Meervoudige selectie van gegevenspunten in meerdere diagrammen](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight)
+
+Selecteer meerdere gegevenspunten in verschillende diagrammen en pas kruislings markeren toe op de hele pagina.
+
+#### <a name="sync-slicers-across-multiple-pages-of-your-reporthttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summarysyncslicers"></a>[Slicers op meerdere pagina's van een rapport synchroniseren](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers)
+
+Een slicer kan van toepassing zijn op één, twee of meer pagina's in een rapport.
+
+#### <a name="quick-measureshttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summaryquickmeasures"></a>[Snelle metingen](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
+
+Maak nieuwe metingen op basis van bestaande metingen en numerieke kolommen in een tabel.
+
+#### <a name="drilling-down-filters-other-visualshttpspowerbimicrosoftcomblogpower-bi-desktop-december-feature-summarydrillfiltersothervisuals"></a>[Bij inzoomen andere visuals filteren](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
+
+Wanneer u in een bepaalde categorie op één visual inzoomt, kunnen daarbij alle visuals op de pagina worden gefilterd op diezelfde categorie.
+
+### <a name="visuals-updates"></a>Updates voor visuals
+
+- [Celuitlijning voor tabel en matrix](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#alignment)
+- [Weergave-eenheden en precisiebeheer voor tabel- en matrixkolommen](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#displayUnits)
+- [Overloop van gegevenslabels voor staaf- en kolomdiagrammen](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#overflow)
+- [De achtergrondkleur van gegevenslabels regelen voor visuals met cartesische grafieken en kaarten](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#dataLabelBackground)
+- [Regelen van de opvulling voor staven/kolommen](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#padding)
+- [Het gebied vergroten dat wordt gebruikt voor de aslabels in grafieken](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#axisSize)
+- [Visual met spreidingsdiagram uit x- en y-asgroeperingen](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#scatterChart)
+- [High-densitysampling voor kaarten op basis van de breedte- en lengtegraad](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#highDensityMaps)
+- [Responsieve slicers](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#responsive)
+- [Een ankerdatum toevoegen voor een slicer voor relatieve datums](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#anchorDate)
+
+### <a name="reporting"></a>Rapportage
+
+- [De koptekst van een visual uitschakelen in de leesmodus voor een rapport](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualHeader)
+- [Rapportopties voor trage gegevensbronnen](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#slowDataSource)
+- [Verbeterde plaatsing van standaardvisuals](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualPlacement)
+- [De rangschikking van visuele elementen regelen via het selectievenster](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#selectionPane)
+- [Objecten in het rapport vergrendelen](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#lock)
+- [Het opmaak- en analysevenster doorzoeken](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search)
+- [Het deelvenster Veldeigenschappen en veldbeschrijvingen](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#fieldPropertiesPane)
+
+### <a name="analytics"></a>Analyse
+
+- [UTCNOW() en UTCTODAY()](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#utcDAX)
+- [Aangepaste datumtabel markeren](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
+- [Bij inzoomen andere visuals filteren](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
+- [Opmaak op celniveau voor multidimensionale AS-modellen voor kaarten met meerdere rijen](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting)
+ 
+### <a name="performance"></a>Prestaties
+
+- [Prestatieverbeteringen bij het filteren](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#filtering)
+- [Prestatieverbeteringen bij DirectQuery](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf)
+- [Prestatieverbeteringen bij het openen en opslaan](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#savePerf)
+- [Verbeteringen bij Items zonder gegevens weergeven](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#showItemsWithNoData)
+ 
+### <a name="report-server"></a>Rapportserver 
+
+#### <a name="export-to-accessible-pdf"></a>Exporteren naar toegankelijke PDF
+
+Wanneer u een gepagineerd (RDL) rapport naar PDF exporteert, kunt u nu een toegankelijk/getagd PDF-bestand gebruiken. Het is groter, maar met schermlezers en andere ondersteunende technologieën is het eenvoudiger te lezen en kan hierin gemakkelijker worden genavigeerd. U kunt de toegankelijke PDF inschakelen door de apparaatgegevensinstelling **AccessiblePDF** in te stellen op **Waar**. Zie [PDF-apparaatgegevensinstellingen](https://docs.microsoft.com/sql/reporting-services/pdf-device-information-settings) en [Apparaatgegevensinstellingen wijzigen](https://docs.microsoft.com/sql/reporting-services/customize-rendering-extension-parameters-in-rsreportserver-config#changing-device-information-settings).
+
+
+### <a name="other-improvements"></a>Andere verbeteringen
+
+- [Verbeteringen bij Kolom toevoegen uit voorbeelden](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#addColumnFromExamples)
+- [Snelkoppeling voor Consulting Services](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#consultingServices)
+- [Verbeterde foutrapportage](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#errors)
+- [Fouten bekijken die zich eerder hebben voorgedaan](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#viewErrors)
+
+ 
 ## <a name="october-2017-release"></a>Release van oktober 2017
 ### <a name="power-bi-report-data-sources"></a>Power BI-rapportgegevensbronnen
 Voor Power BI-rapporten in Power BI Report Server kan verbinding worden gemaakt met een groot aantal verschillende gegevensbronnen. U kunt gegevens importeren en vernieuwing van gegevens plannen, of rechtstreeks met DirectQuery of een liveverbinding met SQL Server Analysis Services een query op de gegevens uitvoeren. Zie de lijst met gegevensbronnen die geplande vernieuwing ondersteunen en bronnen die DirectQuery ondersteunen in 'Power BI-rapportgegevensbronnen in Power BI Report Server'.
@@ -111,7 +206,6 @@ Power BI Report Server ondersteunt nu de nieuwe visuele Power BI-tabel en -matri
 * Verbeterde samenwerking in rapporten met opmerkingen
 
 ## <a name="next-steps"></a>Volgende stappen
-[Releaseopmerkingen bij Power BI Report Server](release-notes.md)  
 [Gebruikershandboek](user-handbook-overview.md)  
 [Beheerdershandboek](admin-handbook-overview.md)  
 [Snelstartgids: Power BI Report Server installeren](quickstart-install-report-server.md)  

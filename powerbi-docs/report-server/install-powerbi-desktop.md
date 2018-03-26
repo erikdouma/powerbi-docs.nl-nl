@@ -2,34 +2,33 @@
 title: Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren
 description: Meer informatie over het installeren van een voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/15/2017
+ms.date: 03/19/2018
 ms.author: maggies
-ms.openlocfilehash: c1c38d9d98c92963534081049cdcc6a557313639
-ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
+ms.openlocfilehash: 9951137ac10752a39f0e4ad555a36e2935faf327
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren
 Meer informatie over het installeren van een voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop.
 
 Als u Power BI-rapporten wilt maken voor Power BI Report Server, moet u Power BI Desktop downloaden dat is geoptimaliseerd voor Power BI Report Server. Dit is een andere versie van Power BI Desktop dan de versie die wordt gebruikt met de Power BI-service. De versie van Power BI Desktop voor de Power BI-service bevat bijvoorbeeld preview-functies die niet beschikbaar zijn in de Power BI Report Server-versie totdat deze zijn vrijgegeven. Als u deze versie gebruikt, moet u ervoor zorgen dat de rapportserver kan werken met een bekende versie van de rapporten en het model. 
 
-> [!NOTE]
-> U kunt Power BI Desktop en de voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop naast elkaar op dezelfde computer installeren.
+Het goede nieuws is dat u Power BI Desktop en de voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop naast elkaar op dezelfde computer kunt installeren.
 
 ## <a name="download-and-install-power-bi-desktop"></a>Power BI Desktop downloaden en installeren
 
@@ -39,7 +38,7 @@ U kunt het snelste controleren of u over de meest recente versie van de voor Pow
 
     ![Power BI Desktop downloaden van de webportal](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    U kunt ook rechtstreeks naar [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (Geoptimaliseerd voor Power BI Report Server - oktober 2017) gaan in het Microsoft Downloadcentrum.
+    U kunt ook rechtstreeks naar [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723) (geoptimaliseerd voor Power BI Report Server, maart 2018) gaan in het Microsoft Downloadcentrum.
 
 2. Selecteer **Downloaden** in het downloadcentrum.
 
@@ -71,7 +70,7 @@ U kunt ook eerst de versie van Power BI Desktop die u wilt gebruiken openen. En 
 Wanneer u een Power BI-rapport wilt bewerken vanuit Power BI Report Server of een nieuw Power BI-rapport wilt maken vanuit de web-portal, wordt altijd de juiste versie van Power BI Destop geopend.
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
-Rapporten in Power BI Report Server en in de Power BI-service (http://powerbi.com) werken bijna exact dezelfde, op een paar functies na.
+Rapporten in Power BI Report Server en in de Power BI-service (http://powerbi.com)) werken bijna exact dezelfde, op een paar functies na.
 
 ### <a name="in-a-browser"></a>In een browser
 Rapporten voor Power BI Report Server ondersteunen alle visualisaties, met inbegrip van:
@@ -99,6 +98,13 @@ Rapporten voor Power BI Report Server bieden geen ondersteuning voor deze functi
 * Aangepaste visualisaties
 * Breadcrumbs
 * Geofiltering van streepjescodes
+
+## <a name="power-bi-desktop-for-earlier-versions-of-power-bi-report-server"></a>Power BI Desktop voor eerdere versies van Power BI Report Server
+
+Als u een rapportserver heeft met een eerdere versie, moet u de overeenkomstige versie van Power BI Desktop gebruiken. Hieronder staan de twee voorgaande versies.
+
+- Microsoft Power BI Desktop ([geoptimaliseerd voor Power BI Report Server, oktober 2017](https://www.microsoft.com/download/details.aspx?id=56136))
+- Microsoft Power BI Desktop ([geoptimaliseerd voor Power BI Report Server, juni 2017](https://www.microsoft.com/download/details.aspx?id=55330))
 
 ## <a name="next-steps"></a>Volgende stappen
 Nu u Power BI Desktop hebt geïnstalleerd, kunt u beginnen met het maken van Power BI-rapporten.

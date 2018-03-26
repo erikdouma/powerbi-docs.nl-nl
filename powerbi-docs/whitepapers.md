@@ -2,26 +2,26 @@
 title: Technische documenten voor Power BI
 description: Met technische documenten kunt u Power BI-onderwerpen diepgaander verkennen.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/05/2018
+ms.date: 03/16/2018
 ms.author: maghan
-ms.openlocfilehash: ac3f2b52374df0ea9a153a97548e40420388181d
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 5e9e0ea009e403b89af7ff67e81062433ba56b80
+ms.sourcegitcommit: 863df35192b9aba1e7c22a64bc8df24418416730
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="whitepapers-for-power-bi"></a>Technische documenten voor Power BI
 
@@ -42,5 +42,6 @@ Met technische documenten kunt u Power BI-onderwerpen diepgaander verkennen. Hie
 | [Het tabellarische model van BI Semantic beveiligen](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |In dit artikel wordt het beveiligingsmodel voor tabellarische BI Semantic en Power BI geïntroduceerd. U leert rollen maken, dynamische beveiliging implementeren, imitatie-instellingen configureren, rollen beheren en een methode kiezen om verbinding te maken met modellen die geschikt is voor uw netwerkbeveiligingscontext. |
 | [Richtlijnen voor capaciteitsplanning voor Power BI Report Server](report-server/capacity-planning.md) |Het doel van dit document is een leidraad te geven bij de capaciteitsplanning voor Power BI Report Server door het delen van de resultaten van talrijke belastingtests die met verschillende workloads op een rapportserver zijn uitgevoerd. |
 | [Planning en implementatie van Power BI Premium](https://aka.ms/Premium-Capacity-Planning-Deployment)| Het doel van dit document is een leidraad en aanbevolen procedures te geven bij het plannen en implementeren van Premium-capaciteit voor goedgedefinieerde workloads.|
+| [Power BI en SAP BW](https://aka.ms/powerbiandsapbw)| In dit document wordt beschreven hoe SAP-klanten profijt kunnen hebben door Power BI te koppelen aan hun bestaande SAP Business Warehouse (BW)-systemen.|
 
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

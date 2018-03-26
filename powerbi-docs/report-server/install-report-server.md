@@ -1,27 +1,27 @@
 ---
 title: Power BI Report Server installeren
-description: 'Lees hoe u Power BI Report Server installeert. '
+description: Lees hoe u Power BI Report Server installeert.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/29/2018
-ms.author: maghan
-ms.openlocfilehash: 340e4a79e4ab0950143ea1af4f1c9a1f9c54b64c
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 03/19/2018
+ms.author: maggies
+ms.openlocfilehash: 8b8bb3867ec1630dc5163148e4aa20e10c0504b7
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="install-power-bi-report-server"></a>Power BI Report Server installeren
 
@@ -29,11 +29,9 @@ Lees hoe u Power BI Report Server installeert.
 
  **Downloaden** ![downloaden](media/install-report-server/download.png "downloaden")
 
-Ga naar [On-premises reporting with Power BI Report Server](https://powerbi.microsoft.com/report-server/) (On-premises rapporteren met Power BI Report Server) om Power BI Report Server te downloaden. 
+Ga naar [On-premises rapportage met Power BI Report Server](https://powerbi.microsoft.com/report-server/) om Power BI Report Server te downloaden en selecteer **Gratis proefversie downloaden**. 
 
-Ga naar het Microsoft Downloadcentrum om [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (geoptimaliseerd voor Power BI Report Server, oktober 2017) te downloaden.
-
-![tip](media/install-report-server/fyi-tip.png "tip") Zie [Power BI Report Server - release-opmerkingen](release-notes.md) voor de huidige release-opmerkingen.
+## <a name="video-install-power-bi-report-server"></a>Video: Power BI Report Server installeren
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/zacaEb9A4F0?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -41,6 +39,7 @@ Ga naar het Microsoft Downloadcentrum om [Microsoft Power BI Desktop](https://go
 Voordat u Power BI Report Server installeert, is het raadzaam om de [hardware- en softwarevereisten voor het installeren van Power BI Report Server](system-requirements.md) door te lezen.
 
 ### <a name="power-bi-report-server-product-key"></a>Productcode van Power BI Report Server
+
 #### <a name="power-bi-premium"></a>Power BI Premium
 Als u Power BI Premium hebt gekocht, vindt u de productcode voor Power BI Report Server op het tabblad **Premium-instellingen** in de Power BI-beheerportal. Dit is alleen beschikbaar voor hoofdbeheerders of gebruikers die de rol Power BI-servicebeheerder toegewezen hebben gekregen.
 
@@ -56,10 +55,7 @@ Als u een SQL Server Enterprise SA-overeenkomst hebt, kunt u uw productcode vind
 ## <a name="install-your-report-server"></a>Een rapportserver installeren
 Het installeren van Power BI Report Server is vrij eenvoudig. U hoeft slechts een paar stappen uit te voeren om de bestanden te installeren.
 
-> [!NOTE]
-> Er is geen SQL Server Database Engine-server nodig op het moment van de installatie. U hebt die wel nodig om Reporting Services na de installatie te configureren.
-> 
-> 
+Er is geen SQL Server Database Engine-server nodig tijdens de installatie. U hebt die wel nodig om Reporting Services na de installatie te configureren.
 
 1. Zoek de locatie van PowerBIReportServer.exe en start het installatieprogramma.
 2. Selecteer **Install Power BI Report Server**.
@@ -84,15 +80,14 @@ Het installeren van Power BI Report Server is vrij eenvoudig. U hoeft slechts ee
    
     ![Installatiepad opgeven](media/install-report-server/pbireportserver-install-file-path.png)
    
-   > [!NOTE]
-   > Het standaardpad isC:\Program Files\Microsoft Power BI Report Server.
-   > 
-   > 
-7. Als de installatie is voltooid, selecteert u **Configure report server** om Reporting Services Configuration Manager te starten.
+    Het standaardpad isC:\Program Files\Microsoft Power BI Report Server.
+
+1. Als de installatie is voltooid, selecteert u **Configure report server** om Reporting Services Configuration Manager te starten.
    
     ![De rapportserver configureren](media/install-report-server/pbireportserver-configure.png)
 
-## <a name="configuration-your-report-server"></a>Configuratie van de rapportserver
+## <a name="configuring-your-report-server"></a>Uw rapportserver configureren
+
 Nadat u **Configure Report Server** Configure Report Server tijdens de installatie, ziet u het scherm van Reporting Services Configuration Manager. Zie [Reporting Services Configuration Manager](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode) voor meer informatie.
 
 U moet een [rapportserverdatabase maken](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database) om de eerste configuratie van Reporting Services te voltooien. Voor deze stap hebt u een server met een SQL Server-database nodig.

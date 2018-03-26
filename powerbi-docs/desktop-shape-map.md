@@ -2,14 +2,14 @@
 title: Shape-kaarten gebruiken in Power BI Desktop (preview)
 description: Relatieve vergelijkingen tussen regio's maken met behulp van Shape-kaarten in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/16/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 335e9800be3d2a2cd30cc84835ab7b0173922c46
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2bdd29f664d49dd4628b2f27d0eddf1f5dad1cf7
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Shape-kaarten in Power BI Desktop (preview)
 In Power BI Desktop maakt u een **Shape-kaart**-visual om relatieve vergelijkingen van regio's op een kaart te laten zien door verschillende kleuren op verschillende regio's toe te passen. In tegenstelling tot de **kaart** -visual, kan **Shape Map** geen nauwkeurige geografische locaties van gegevenspunten op een kaart weergeven. In plaats daarvan is het belangrijkste doel het weergeven van relatieve vergelijkingen van regio's op een kaart door ze een andere kleur te geven.
@@ -73,6 +73,23 @@ U kunt aangepaste kaarten met **Shape Map** gebruiken zolang ze de **TopoJSON**-
 Als u uw **TopoJSON**-kaartbestand wilt gebruiken, voegt u een ShapeMap-visual toe aan uw rapport en enkele gegevens aan de *Locatie*- en *Waarden*-buckets. In het deelvenster **Visualisaties**, met de sectie **Indeling** geselecteerd (de verfkwast, weergegeven als (1) in de volgende afbeelding), vouwt u de sectie **Vorm** uit en selecteert u **+ Kaart toevoegen**.
 
 ![](media/desktop-shape-map/shape-map_6.png)
+
+## <a name="sample-custom-map"></a>Voorbeeld van een aangepaste kaart
+De *vereniging van Amerikaanse officieren van justitie* publiceert een jaarlijks fiscaal verslag over hun gerechtelijke procedures en geschillen.  U kunt al deze rapporten vinden via de onderstaande koppeling,
+
+https://www.justice.gov/usao/resources/annual-statistical-reports
+
+Omdat staten in verschillende districten kunnen worden onderverdeeld, moeten we een aangepaste Shape-kaart gebruiken.  Door de **TopoJSON**-kaart van Amerikaanse juridische districten te importeren in **Power BI Desktop** kunnen we vervolgens de jaarlijkse fiscale gegevens voor officieren van justitie in beeld brengen.  In de onderstaande afbeelding ziet u een voorbeeld van deze kaart.
+
+![](media/desktop-shape-map/shape-map_7a.png)
+
+U kunt interessante dingen doen met de kaarten van de afzonderlijke staten en meer details weergeven op basis van de districten die onderdeel uitmaken van een staat. 
+
+![](media/desktop-shape-map/shape-map_7b.png)
+
+Als u wilt experimenteren met deze gegevensset en de weergave ervan, kunt u het oorspronkelijke PBIX-bestand dat is gebruikt voor het genereren van dit rapport met de volgende koppeling downloaden.
+
+* [PBIX-bestand voor demo van aangepaste Shape-kaart. ](http://download.microsoft.com/download/1/2/8/128943FB-9231-42BD-8A5D-5E2362C9D589/DistrictAttorneyFiscalReport.pbix)
 
 ## <a name="getting-map-data"></a>Kaartgegevens ophalen
 Om snel gegevens op te nemen in een model zodat u **Shape Map** kunt testen, kunt u een van de tabellen aan het eind van dit artikel kopiëren en **Gegevens invoeren** op het **Start**-lint selecteren.

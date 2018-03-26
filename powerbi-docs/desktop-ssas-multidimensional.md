@@ -2,14 +2,14 @@
 title: Multidimensionale gegevens van Analysis Services in Power BI Desktop
 description: Multidimensionale gegevens van Analysis Services in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,16 +18,16 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6009f938d2dc8961dc63cb0ac6b08459f41f3ea3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 18f80073bf690cd6fc64f94d25f8aad8bf5044e1
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Verbinding maken met multidimensionale modellen van SSAS in Power BI Desktop
 Met Power BI Desktop hebt u toegang tot **multidimensionale modellen van SSAS**, vaak **SSAS MD** genoemd.
 
-Om verbinding te maken met een **SSAS MD**-database, selecteert u **Gegevens ophalen &gt; Database &gt; SQL Server Analysis Services-database**, zoals weergegeven op de volgende afbeelding.
+Als u verbinding wilt maken met een **SSAS MD**-database, selecteert u **Gegevens ophalen &gt; Database &gt; SQL Server Analysis Services-database**, zoals wordt weergegeven in de volgende afbeelding:
 
 ![](media/desktop-ssas-multidimensional/ssas-multidimensional-2.png)
 
@@ -37,13 +37,13 @@ Om verbinding te maken met een **SSAS MD**-database, selecteert u **Gegevens oph
 In de volgende secties worden onderdelen en functies van Power BI- en SSAS MD-verbindingen beschreven.
 
 ### <a name="tabular-metadata-of-multidimensional-models"></a>Metagegevens van de multidimensionale modellen in tabelvorm
-In de volgende tabel wordt de overeenkomst weergegeven tussen multidimensionale objecten en de metagegevens in tabelvorm die worden geretourneerd naar Power BI Desktop. Power BI doorzoekt het model op metagegevens in tabelvorm en op basis van de geretourneerde metagegevens worden de juiste DAX-query's uitgevoerd op Analysis Services wanneer u een visualisatie, zoals een tabel, een matrix, een grafiek of een slicer, maakt.
+In de volgende tabel wordt de overeenkomst weergegeven tussen multidimensionale objecten en de metagegevens in tabelvorm die worden geretourneerd naar Power BI Desktop. Power BI haalt het model metagegevens op in tabelvorm en op basis van de geretourneerde metagegevens worden de betreffende DAX-query's uitgevoerd op Analysis Services wanneer u een visualisatie, zoals een tabel, matrix, grafiek of slicer maakt.
 
 | Multidimensionaal BISM-object | Metagegevens in tabelvorm |
 | --- | --- |
 | Kubus |Model |
 | Kubusdimensie |Tabel |
-| Dimensiekenmerken (sleutels) naam) |Kolommen |
+| Dimensiekenmerken (sleutels), naam |Kolommen |
 | Meetgroep |Tabel |
 | Meting |Meting |
 | Metingen zonder gekoppelde meetgroep |In de tabel met de naam *Metingen* |
@@ -58,7 +58,7 @@ Meetgroepen in een multidimensionale kubus worden in Power BI weergegeven als ta
 In een multidimensionaal model kunt u een set metingen of KPI's in een kubus definiëren met als locatie een *weergavemap*, waarmee u complexe modellen kunt vereenvoudigen. Power BI herkent weergavemappen in metagegevens in tabelvorm en toont metingen en KPI's in de weergavemappen. KPI's in multidimensionale databases ondersteunen *Waarde*, *Doel*, *Statusgrafiek* en *Trendgrafiek*.
 
 ### <a name="dimension-attribute-type"></a>Dimensiekenmerktype
-Multidimensionale modellen ondersteunen ook het koppelen van dimensiekenmerken aan specifieke dimensiekenmerktypen. Bijvoorbeeld een dimensie **Geografie** waar de dimensiekenmerken *Stad*, *Staat-provincie*, *Land* en *Postcode* waaraan de juiste geografietypen zijn gekoppeld in de metagegevens in tabelvorm worden weergegeven. Power BI herkent de metagegevens. zodat u kaartvisualisaties kunt maken. U herkent deze koppelingen aan het *kaart*pictogram naast het element in het deelvenster **Veld** in Power BI.
+Multidimensionale modellen ondersteunen ook het koppelen van dimensiekenmerken aan specifieke dimensiekenmerktypen. Bijvoorbeeld een dimensie **Geografie**, waarin de dimensiekenmerken *Stad*, *Staat-provincie*, *Land* en *Postcode*, waaraan de betreffende geografietypen zijn gekoppeld, worden weergegeven in de metagegevens in tabelvorm. Power BI herkent de metagegevens. zodat u kaartvisualisaties kunt maken. U herkent deze koppelingen aan het *kaart*pictogram naast het element in het deelvenster **Veld** in Power BI.
 
 Power BI kan ook afbeeldingen weergeven wanneer u een veld met URL's (Uniform Resource Locator) van de afbeeldingen opgeeft. U kunt deze velden opgeven als het type *ImageURL* in SQL Server Data Tools (of daarna in Power BI), en het bijbehorende type wordt voor Power BI opgegeven in de metagegevens in tabelvorm. Power BI kan deze afbeeldingen vervolgens ophalen van de URL en weergeven als visuele elementen.
 
@@ -71,7 +71,7 @@ Multidimensionale modellen ondersteunen het maken van verschillende typen *berek
 * Berekende leden in kenmerkhiërarchieën en niet op hetzelfde niveau als *Alle*
 * Berekende leden in gebruikershiërarchieën
 
-Multidimensionale modellen geven *berekende leden in kenmerkhiërarchieën* weer als waarden van een kolom. Er zijn een paar extra opties en beperkingen bij het weergeven van dit type berekend lid:
+In multidimensionale modellen worden *berekende leden in kenmerkhiërarchieën* weergegeven als waarden van een kolom. Er zijn een paar extra opties en beperkingen bij het weergeven van dit type berekend lid:
 
 * Dimensiekenmerk kan een optioneel *UnknownMember* hebben
 * Een kenmerk dat berekende leden bevat, kan niet het hoofdkenmerk van de dimensie zijn, tenzij dit het enige kenmerk van de dimensie is

@@ -2,29 +2,29 @@
 title: 'Quickstart: een Power BI-rapport maken voor Power BI Report Server'
 description: Leer hoe u in een paar eenvoudige stappen een Power BI-rapport voor Power BI Report Server maakt.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 3/5/2018
+ms.date: 3/19/2018
 ms.author: maggies
-ms.openlocfilehash: 0f0e8422edd2f8c1a34d82be065ffde554c96400
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 5295a62897c740872480b905f3aef4af37ca0942
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="quickstart-create-a-power-bi-report-for-power-bi-report-server"></a>Quickstart: een Power BI-rapport maken voor Power BI Report Server
-U kunt Power BI-rapporten on-premises opslaan en beheren via de webportal van Power BI Report Server, net zoals u Power BI-rapporten kunt opslaan in de cloud in de Power BI-service (https://powerbi.com). U maakt rapporten in Power BI Desktop en publiceert deze naar de webportal. Gebruikers in uw organisatie kunnen de rapporten weergeven in een browser of in een mobiele Power BI-app op een mobiele apparaat.
+U kunt Power BI-rapporten on-premises opslaan en beheren in de webportal van Power BI Report Server, net zoals u Power BI-rapporten kunt opslaan in de cloud in de Power BI-service (https://powerbi.com)). U maakt rapporten in Power BI Desktop en publiceert deze naar de webportal. Gebruikers in uw organisatie kunnen de rapporten weergeven in een browser of in een mobiele Power BI-app op een mobiele apparaat.
 
 ![Power BI-rapport in de webportal](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
 
@@ -38,7 +38,7 @@ Als u al Power BI-rapporten hebt gemaakt in Power BI Desktop, bent u bijna klaar
 
     ![Power BI Desktop downloaden van de webportal](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
 
-    U kunt ook rechtstreeks naar [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (Geoptimaliseerd voor Power BI Report Server - oktober 2017) gaan in het Microsoft Downloadcentrum.
+    U kunt ook rechtstreeks naar [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723) (geoptimaliseerd voor Power BI Report Server, maart 2018) gaan in het Microsoft Downloadcentrum.
 
 2. Selecteer **Downloaden** in het downloadcentrum.
 
@@ -48,13 +48,13 @@ Als u al Power BI-rapporten hebt gemaakt in Power BI Desktop, bent u bijna klaar
 
     - **PBIDesktopRS_x64.msi** (de 64-bits versie).
 
-4. Nadat u het installatieprogramma hebt gedownload, voert u de installatiewizard van Power BI Desktop (oktober 2017) uit.
+4. Nadat u het installatieprogramma hebt gedownload, voert u de installatiewizard van Power BI Desktop (maart 2018) uit.
 
 2. Selecteer aan het einde van de installatie de optie **Power BI Desktop nu starten**.
    
-    Het programma wordt automatisch gestart en u kunt aan de slag. U hebt de juiste versie als 'Power BI Desktop (oktober 2017)' wordt vermeld in de titelbalk.
+    Het programma wordt automatisch gestart en u kunt aan de slag. U hebt de juiste versie als 'Power BI Desktop (maart 2018)' wordt vermeld in de titelbalk.
 
-    ![Power BI Desktop-versie van oktober 2017](media/quickstart-create-powerbi-report/report-server-desktop-october-2017-version.png)
+    ![Power BI Desktop-versie van maart 2018](media/quickstart-create-powerbi-report/report-server-desktop-october-2017-version.png)
 
 3. Als u niet bekend bent met Power BI Desktop, is het misschien een goed idee om de video's op het welkomstscherm te bekijken.
    
@@ -100,7 +100,7 @@ Wanneer uw rapport klaar is, kunt u het opslaan op de Power BI-rapportserver die
     ![Het rapport bekijken in de webportal](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
-Rapporten in Power BI Report Server en in de Power BI-service (http://powerbi.com) werken bijna exact dezelfde, op een paar functies na.
+Rapporten in Power BI Report Server en in de Power BI-service (http://powerbi.com)) werken bijna exact dezelfde, op een paar functies na.
 
 ### <a name="in-a-browser"></a>In een browser
 Rapporten voor Power BI Report Server ondersteunen alle visualisaties, met inbegrip van:
@@ -135,6 +135,7 @@ Er zijn heel interessante informatiebronnen voor het maken van rapporten in Powe
 
 * [Aan de slag met Power BI Desktop](../desktop-getting-started.md)
 * Zelfstudie: [Aan de slag met Power BI Desktop](../guided-learning/gettingdata.yml#step-2)
+
 
 ### <a name="power-bi-report-server"></a>Power BI Report Server
 * [Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren](install-powerbi-desktop.md)  
