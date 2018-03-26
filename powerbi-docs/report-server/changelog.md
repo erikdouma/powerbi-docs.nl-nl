@@ -2,14 +2,14 @@
 title: Wijzigingenlogboek voor Power BI Report Server
 description: Dit is een wijzigingenlogboek voor Power BI Report Server met een overzicht van nieuwe items en oplossingen voor problemen voor elke uitgebrachte build.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: jtarquino
 manager: jonhp
 backup: maggies
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,17 +17,35 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/11/2017
 ms.author: tankas
-ms.openlocfilehash: deff79bba0f7f191a8343629300c725f3150e509
-ms.sourcegitcommit: a44c29bbc220ecb1ed80810cb1e7df0db8ea611a
+ms.openlocfilehash: 7c460955aba71bfb3a89d94aa6000c7bdd451ac2
+ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Wijzigingenlogboek voor Power BI Report Server
 
 Dit is een wijzigingenlogboek voor Power BI Report Server met een overzicht van nieuwe items en oplossingen voor problemen voor elke uitgebrachte build.
 
-Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerde informatie over nieuwe functies.
+Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerde informatie over nieuwe functies. 
+
+## <a name="march-2018"></a>Maart 2018
+- **Power BI Report Server**
+    - *Versie 1.2.6648.38132 (build 15.0.2.378), uitgebracht: 19 maart 2018*
+        - Beveiligingsupdates
+        - Verbeterde toegankelijkheid
+        - Opgeloste fouten
+            - Er is voor gepagineerde rapporten (RDL) een fout opgelost, waarbij de zichtbaarheid van de parameters in een gekoppeld rapport werd teruggedraaid nadat de eigenschappen ervan waren bewerkt
+            - Voor de webportal is een fout opgelost voor de verificatie van aangepaste formulieren, waarbij de cookie voor een verschuivende verloopdatum werd genegeerd
+            - Er is een fout opgelost voor het exporteren naar Word, waarbij een ongelijke rijhoogte werd gemaakt als de inhoud van de rij leeg was
+            - Er is voor gepagineerde rapporten (RDL) een fout opgelost, waarbij een verbindingsreeks die is gebaseerd op een expressie werd verwijderd wanneer de referenties voor de gegevensbron werden gewijzigd
+            - Er is een fout opgelost zodat KPI kan worden gebruikt met tekstwaarden
+            - Er is voor gepagineerde rapporten (RDL) een fout opgelost, zodat een nieuwe gegevensset kan worden toegewezen aan een bestaand gepagineerd rapport
+            - Andere foutoplossingen met betrekking tot de stabiliteit en het gebruik
+
+- **Power BI Report (geoptimaliseerd voor Power BI Report Server)**
+    - Versie: 2.56.5023.1043 (maart 2018), uitgebracht: 19 maart 2018
+        - Bevat de vereiste wijzigingen om verbinding te maken met Power BI Report Server (maart 2018)
 
 ## <a name="october-2017"></a>Oktober 2017
 

@@ -2,26 +2,26 @@
 title: Wat is er nieuw in de mobiele apps voor Power BI
 description: Wat is er nieuw in de mobiele apps voor Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/15/2018
+ms.date: 03/13/2018
 ms.author: maggies
-ms.openlocfilehash: 530e4a2dc47a2d790dde3d7d1e7a2faeb7d79732
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: 5c2573bf4a3900b4d4216170e843263bc41a4e07
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -30,11 +30,21 @@ Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mog
 * [What's new in Power BI Desktop](desktop-latest-update.md) (Wat is er nieuw in Power BI Desktop)  
 * [What's new in the Power BI service](service-whats-new.md) (Wat is er nieuw in de Power BI-service)  
 
+## <a name="march-2018"></a>Maart 2018
+
+### <a name="power-bi-for-mixed-reality-app-preview"></a>De app Power BI for Mixed Reality (preview)
+
+We hebben de app Power BI for Mixed Reality gemaakt, zodat uw gegevens nog toegankelijker voor u zijn. Bekijk de dashboards en rapporten terwijl u in een virtuele omgeving werkt of plaats en bekijk deze op specifieke locaties in uw omgeving. Lees meer over de nieuwe [app Power BI for Mixed Reality](mobile-mixed-reality-app.md).
+
 ## <a name="february-2018"></a>Februari 2018
 
 ### <a name="share-reports"></a>Rapporten delen
 
 U kunt een rapport nu rechtstreeks vanuit de mobiele apps delen. Meer informatie over het [delen van dashboards en rapporten vanuit de mobiele apps](mobile-share-dashboard-from-the-mobile-apps.md).
+
+### <a name="improved-tooltips"></a>Verbeterde tooltips
+
+Wanneer u op een visual van een rapport tikt en dit ingedrukt houdt, kunt u nu met uw vinger over de visual slepen om informatie weer te geven over elk gegevenspunt in het element.
 
 ## <a name="january-2018"></a>Januari 2018
 

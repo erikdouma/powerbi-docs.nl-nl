@@ -2,49 +2,57 @@
 title: Een visualisatie-, pagina-, drillthrough- of rapportfilter aan een rapport toevoegen
 description: Een paginafilter, visualisatiefilter of rapportfilter aan rapport in Power BI toevoegen
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: d30941e49915122864976868d36418d53844b927
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e222b9bddc3e7c204a728e207b8969cdf13d605f
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
-# <a name="add-a-filter-to-a-power-bi-report-in-editing-view"></a>Een filter aan een Power BI-filter toevoegen (in de bewerkingsweergave)
+# <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Een filter aan een Power BI-servicerapport toevoegen (in de bewerkingsweergave)
 > [!TIP]
 > U wordt aangeraden eerst [About filters and highlighting in Power BI reports](power-bi-reports-filters-and-highlighting.md) (Over filters en markeren in Power BI-rapporten) te lezen.
+
+De voorbeelden in dit artikel hebben betrekking op de Power BI-service. De stappen zijn echter bijna identiek in Power BI Desktop.
 > 
 > 
 
 ## <a name="what-is-the-difference-between-report-filters-in-editing-view-versus-reading-view"></a>Wat is het verschil tussen rapportfilters in de bewerkingsweergave versus de leesweergave?
 U kunt in twee modi met rapporten werken: in de [leesweergave](service-reading-view-and-editing-view.md) en de [bewerkingsweergave](service-interact-with-a-report-in-editing-view.md).  De beschikbare filtermogelijkheden zijn afhankelijk van de modus waarin u werkt.
 
-* In de bewerkingsweergave kunt u rapport-, pagina- en visualisatiefilters toevoegen. Als u het rapport opslaat, worden de filters ook opgeslagen. Personen die het rapport bekijken in de leesweergave, kunnen werken met de filters die u hebt toegevoegd, maar ze kunnen de wijzigingen niet opslaan.
-* In de leesweergave kunt u werken met elk rapport-, pagina- en visualisatiefilter dat al in het rapport aanwezig is, maar u kunt wijzigingen aan de filters niet opslaan.
+* In de bewerkingsweergave kunt u rapport-, pagina- en visualisatiefilters toevoegen. Als u het rapport opslaat, worden de filters ook opgeslagen. Personen die het rapport in de leesweergave bekijken, kunnen de filters gebruiken die u hebt toegevoegd.
+* In de leesweergave kunt u de filters voor rapporten, pagina's en visuals, en de gedetailleerde filters gebruiken die al in het rapport beschikbaar zijn. U kunt echter geen nieuwe filters toevoegen. De wijzigingen die u in het deelvenster Filters aanbrengt, worden samen met het rapport opgeslagen, zelfs als u het rapport in een mobiele app weergeeft.  
 
 > [!NOTE]
-> In dit artikel wordt beschreven hoe u filters maakt in de **bewerkingsweergave** voor rapporten.  Zie [Interacting with filters in report Reading View](service-reading-view-and-editing-view.md) (Werken met filters in de leesweergave voor rapporten) voor meer informatie over filters in de leesweergave.
-> 
-> 
+> In dit artikel wordt beschreven hoe u filters maakt in de **bewerkingsweergave** voor rapporten.  Zie [Filters gebruiken in de leesweergave voor rapporten](service-reading-view-and-editing-view.md) voor meer informatie over filters in de leesweergave.
 
-## <a name="visual-filters-page-filters-drillthrough-filters-and-report-filters"></a>Visualisatiefilters, paginafilters, drillthrough-filters en rapportfilters
-Een **paginafilter** kan worden toegepast op alle visuele elementen van een rapportpagina. Een **visualisatiefilter** kan worden toegepast op één visueel element van een rapportpagina. Een **rapportfilter** kan worden toegepast op alle pagina's van een rapport.
 
-![](media/power-bi-report-add-filter/power-bi-add-filter-reading-view.png)
+## <a name="filters-available-in-the-power-bi-filters-pane"></a>Filters die beschikbaar zijn in het Power BI-deelvenster *Filters*
+Zowel in Power BI Desktop als in de Power BI-service wordt het deelvenster Filters weergegeven aan de rechterkant van het rapportcanvas. Als het deelvenster niet wordt weergegeven, selecteert u het symbool '>' in de rechterbovenhoek om het deelvenster uit te vouwen.
+
+Er zijn vier soorten filters.
+
+- **Paginafilter** wordt toegepast op alle visuals op een rapportpagina     
+- **Filter voor visuals** wordt toegepast op één visual op een rapportpagina    
+- **Gedetailleerde filter** wordt toegepast op één item in een rapport    
+- **Rapportfilter** wordt toegepast op alle pagina's in een rapport    
+
+    ![](media/power-bi-report-add-filter/power-bi-add-filter-reading-view.png)
 
 ## <a name="add-a-filter-to-a-specific-visualization-aka-visual-filter"></a>Een filter toevoegen aan een specifieke visualisatie (ook wel een visualisatiefilter genoemd)
 U kunt dit op twee manieren doen: 
@@ -130,11 +138,11 @@ We gaan nu kijken hoe het drillthrough-filter werkt.
 3. Selecteer in het deelvenster Velden het veld dat u wilt toevoegen als een nieuw filter op rapportniveau en sleep het naar het gebied **Filters op rapportniveau**.  
 4. Selecteer de waarden die u wilt filteren (Zie [Rapportfilters gebruiken](power-bi-how-to-report-filter.md)).
 
-De visuele elementen op de actieve pagina (en ook op alle andere pagina's van het rapport) worden gewijzigd overeenkomstig het nieuwe filter. Als u het rapport met het filter opslaat, kunnen lezers van het rapport met het filter werken in de leesweergave door waarden te selecteren of te wissen.
+    De visuele elementen op de actieve pagina (en ook op alle andere pagina's van het rapport) worden gewijzigd overeenkomstig het nieuwe filter. Als u het rapport met het filter opslaat, kunnen lezers van het rapport met het filter werken in de leesweergave door waarden te selecteren of te wissen.
 
 1. Selecteer de pijl Vorige om terug te keren naar de vorige rapportpagina.
 
-## <a name="troubleshooting"></a>Problemen oplossen
+## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 ### <a name="why-your-visual-level-filter-and-page-level-filter-may-return-different-results"></a>Waarom de filters op visueel niveau en op paginaniveau verschillende resultaten kunnen retourneren
 Als u een filter op visueel niveau toevoegt, wordt er gefilterd op de geaggregeerde resultaten.  De standaardaggregatie is Som, maar u kunt [het samenvoegingstype wijzigen](service-aggregates.md) (Engelstalig).  
 

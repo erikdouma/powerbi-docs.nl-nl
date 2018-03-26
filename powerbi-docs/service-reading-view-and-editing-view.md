@@ -2,38 +2,38 @@
 title: Leesweergave en bewerkweergave voor rapporten in de Power BI-service
 description: Overzicht op hoog niveau van de verschillen tussen de lees- en bewerkweergave voor rapporten in de Power BI-service
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 6eca438c9e12d99f925aef864ed9b74e16ef30b7
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: a9cb6e3d3fe244a3d530efeb2624e3cc5a799e55
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Leesweergave en bewerkweergave in rapporten van de Power BI-service
-In de Power BI-service (geen Power BI Desktop) zijn er twee modi voor het weergeven en werken met rapporten: de leesweergave en de bewerkweergave. De leesweergave is beschikbaar voor alle gebruikers en is speciaal ontworpen voor *gebruikers van gegevens*, terwijl de bewerkweergave alleen beschikbaar is voor *rapportauteurs* en -eigenaren. 
+In de Power BI-service (geen Power BI Desktop) zijn er twee modi voor het weergeven en werken met rapporten: de leesweergave en de bewerkweergave. De leesweergave is beschikbaar voor alle gebruikers en is speciaal ontworpen voor *gebruikers van gegevens*, terwijl de bewerkweergave alleen beschikbaar is voor *rapportauteurs* en -eigenaren.
 
 ![Illustraties van makers en gebruikers van rapport](media/service-reading-view-and-editing-view/power-bi-creators-consumers.png)
 
 ## <a name="report-reading-view"></a>Leesweergave rapport
 
- De leesweergave is een manier om het rapport te verkennen en ermee te werken -- het is een leuke en veilige manier om met uw gegevens te spelen en er meer over te weten te komen. De leesweergave is ontworpen voor *gebruikers* van het rapport, personen die rapporten vanuit Apps openen of [met wie rapporten zijn gedeeld](service-share-dashboards.md). De leesweergave zorgt ervoor dat elke afzonderlijke consument van een specifiek rapport hetzelfde rapport, identieke visualisaties en dezelfde filters ziet.  Consumenten kunnen met uw rapport werken, maar geen wijzigingen opslaan.
+ De leesweergave is een manier om het rapport te verkennen en ermee te werken -- het is een leuke en veilige manier om met uw gegevens te spelen en er meer over te weten te komen. De leesweergave is ontworpen voor *gebruikers* van het rapport, personen die rapporten vanuit Apps openen of [met wie rapporten zijn gedeeld](service-share-dashboards.md). In de leesweergave krijgt elke afzonderlijke gebruiker van een specifiek rapport hetzelfde rapport en identieke visualisaties te zien, waarop dezelfde filters zijn toegepast.  Gebruikers kunnen met de rapporten werken, de bestaande filters wijzigen (en deze wijzigingen worden met het rapport opgeslagen), maar kunnen geen nieuwe filters toevoegen.
 
->**Opmerking**: in bepaalde omstandigheden kunnen rapportconsumenten verschillende gegevens zien vanwege beveiligings- en gegevensmachtigingen op rijniveau. 
+>**Opmerking**: in bepaalde omstandigheden kunnen rapportconsumenten verschillende gegevens zien vanwege beveiligings- en gegevensmachtigingen op rijniveau.
 
 ## <a name="report-editing-view"></a>Bewerkweergave rapport
 
@@ -42,7 +42,7 @@ De bewerkweergave is alleen beschikbaar voor personen die het rapport hebben gem
 De bewerkweergave is ontworpen voor het *auteurs* van rapporten. Hier importeren auteurs gegevens en maken ze er verbinding mee, verkennen ze de gegevens en maken ze rapporten en dashboards. In de bewerkweergave kunnen *auteurs* nog dieper in hun gegevens graven door velden toe te voegen en te verwijderen, het type visualisatie te veranderen, nieuwe visualisaties te maken en visualisaties en pagina's uit het rapport toe te voegen en te verwijderen. Ze kunnen de gemaakte rapporten vervolgens delen met collega's.
 
 ## <a name="reading-view-versus-editing-view"></a>Leesweergave versus bewerkweergave
-In deze grafiek worden niet alle mogelijkheden van een rapport van Power BI-service vermeld! Hierin staan alleen die rapporttaken die niet beschikbaar zijn in **zowel** leesweergave als bewerkweergave. 
+In deze grafiek worden niet alle mogelijkheden van een rapport van Power BI-service vermeld! Hierin staan alleen die rapporttaken die niet beschikbaar zijn in **zowel** leesweergave als bewerkweergave.
 
 
 |Taak  | Leesweergave  | Bewerkweergave |
@@ -52,7 +52,7 @@ In deze grafiek worden niet alle mogelijkheden van een rapport van Power BI-serv
 | [Een rapport maken of bewerken](service-report-create-new.md) | Nee  | Ja |
 | [Een rapport delen](service-share-reports.md)| Ja | Ja, en kan ook machtigingen beheren, zoals het geven van *eigenaarsmachtigingen* aan anderen. |
 | [Persistent (permanent) filters op visueel niveau, drillthrough-niveau, paginaniveau en rapportniveau maken vanuit het deelvenster Filters](power-bi-report-add-filter.md) | Nee  | Ja |
-| [Deelvenster Rapportfilters gebruiken](power-bi-how-to-report-filter.md) | Ja, kan de bestaande filters gebruiken, maar wijzigingen worden niet opgeslagen in het rapport. | Ja |
+| [Deelvenster Rapportfilters gebruiken](power-bi-how-to-report-filter.md) | Ja, de bestaande filters kunnen worden gebruikt en wijzigingen kunnen met het rapport worden opgeslagen. Er kunnen echter geen nieuwe filters worden toegevoegd. | Ja |
 | [Het rapportdeelvenster Analyse gebruiken](service-analytics-pane.md) | Nee | Ja |
 | [Opties **Rapportweergave** ](power-bi-report-display-settings.md) | Ja, met enkele uitzonderingen. | Ja, alle, met inbegrip van rasterlijnen, uitlijnen en vergrendelen. |
 | [Een vernieuwingsplan maken](refresh-data.md) | Nee  | Ja |
@@ -86,14 +86,14 @@ Onthoud dat alleen de auteur en eigenaar(eigenaren) van rapporten een rapport in
 
    ![Rapport bewerken grijs weergegeven](media/service-reading-view-and-editing-view/power-bi-edit-report-grey.png)
 
-2. Als **Rapport bewerken** niet grijs wordt weergegeven, selecteert u deze optie om het rapport in de bewerkweergave te openen. 
-   
+2. Als **Rapport bewerken** niet grijs wordt weergegeven, selecteert u deze optie om het rapport in de bewerkweergave te openen.
+
    ![Optie Rapport bewerken](media/service-reading-view-and-editing-view/power-bi-edit-report.png)
-   
+
    Het rapport is nu in de bewerkweergave en maakt gebruik van dezelfde [weergave-instellingen](power-bi-report-display-settings.md) als die u voor het laatst hebt gebruikt in de leesweergave.
 
 2. Als u terug wilt naar de leesweergave, selecteert u **Leesweergave** in de bovenste navigatiebalk.
-   
+
     ![Optie Leesweergave](media/service-reading-view-and-editing-view/power-bi-reading-view.png)
 
 
@@ -101,5 +101,4 @@ Onthoud dat alleen de auteur en eigenaar(eigenaren) van rapporten een rapport in
 ### <a name="next-steps"></a>Volgende stappen
 Er zijn vele manieren om met een rapport in de leesweergave te werken en om uw gegevens zodanig op te delen dat u inzichten en antwoord op uw vragen krijgt.  In het volgende onderwerp, [Interactie met een rapport in de leesweergave](service-interact-with-a-report-in-editing-view.md), wordt dit uitvoerig beschreven.    
 Terug naar [Rapporten in Power BI](service-reports.md)    
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/) 
-
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

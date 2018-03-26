@@ -2,14 +2,14 @@
 title: Verbinding met een webpagina maken vanuit Power BI Desktop
 description: Eenvoudig verbinding maken met gegevens van een webpagina in Power BI Desktop en deze gebruiken
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0ee3ff3b3ca33ea4760f9f08b4e05cbd65e2ab34
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 23984d8e64445d869062e942eb6155ff58b0d0ae
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-a-web-page-from-power-bi-desktop"></a>Verbinding met een webpagina maken vanuit Power BI Desktop
 U kunt verbinding maken met een webpagina en de gegevens in Power BI Desktop importeren voor gebruik in uw visuele elementen en gegevensmodellen.
@@ -47,7 +47,7 @@ Als **Laden** wordt geselecteerd, worden de geselecteerde items geïmporteerd en
 
 Meer hoeft u niet te doen om verbinding te maken met een webpagina en de gegevens in Power BI Desktop te importeren.
 
-Hier kunt u de velden naar het rapportcanvas slepen en alle visuele elementen maken die u wilt. U kunt met de gegevens van de webpagina werken zoals met alle andere gegevens; u kunt ze vormgeven, relaties maken tussen deze gegevens en andere gegevensbronnen in uw gegevensmodel, en verder doen wat u wilt om een Power BI-rapport naar wens te maken.
+Hier kunt u de velden naar het rapportcanvas slepen en alle visuele elementen maken die u wilt. U kunt de gegevens van de webpagina ook gebruiken net als alle andere gegevens. U kunt ze vormgeven, relaties maken tussen deze gegevens en andere gegevensbronnen in uw gegevensmodel, en verder doen wat u wilt om een Power BI-rapport naar wens te maken.
 
 Kijk eens in de [handleiding voor Power BI Desktop](desktop-getting-started.md) (Engelstalig) voor meer informatie over het verbinding maken met een webpagina.
 

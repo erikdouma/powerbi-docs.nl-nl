@@ -2,15 +2,15 @@
 title: Gecertificeerde visualisaties in Power BI
 description: Vereisten en proces voor het indienen van een aangepast visueel element voor certificering. En een lijst met al gecertificeerde aangepaste visuele elementen.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: cc50e4e8830aca3951da6004b8ada3913aff28ed
-ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
+ms.openlocfilehash: d768756c8c7ede792c547f03779396f11e6e4f85
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>Een aangepast visueel element laten *certificeren*
 ## <a name="what-is-meant-by-certified"></a>Wat is *gecertificeerd*?
@@ -60,7 +60,6 @@ Microsoft kan naar eigen goeddunken een visueel element uit de lijst met gecerti
 ## <a name="list-of-custom-visuals-that-have-been-certified"></a>Lijst met aangepaste visuele elementen die zijn gecertificeerd
 | Koppeling naar AppSource | Koppeling naar video |
 | --- | --- |
-| [Association Rules](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380815) | |
 | [Asterdiagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759) | |
 | [Beyondsoft-agenda](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381096) | |
 | [Vlinderdasdiagram door MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380838) | [Video](https://youtu.be/So5xKMSpVJI) |
@@ -77,11 +76,7 @@ Microsoft kan naar eigen goeddunken een visueel element uit de lijst met gecerti
 | [Chord](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380761) | [Video](https://youtu.be/AQvd2FhRyCI) |
 | [Ronde meter door MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380837) | [Video](https://youtu.be/9NHXALkBXuY) |
 | [Cluster-kaart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380806) | |
-| [Clustering](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380861) | |
-| [Clustering met uitschieters](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380889) | |
-| [Correlatie-grafiek](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380814) | |
 | [Cilindrische meter door MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380874) | [Video](https://youtu.be/DgdoWi7Gcxo) |
-| [Beslissingsboomstructuur](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380817) | |
 | [Meetklok](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381184) | |
 | [Puntdiagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380760) | |
 | [Puntdiagram door OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380949) | [Video](https://youtu.be/By16pX9KT40) |
@@ -97,8 +92,6 @@ Microsoft kan naar eigen goeddunken een visueel element uit de lijst met gecerti
 | [Enlighten Stack Shuffle](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380849) | |
 | [Enlighten-wafeldiagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380850) | |
 | [Krachtgestuurde grafiek](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380764) | [Video](https://youtu.be/YsTa7uyJ4sg) |
-| [Prognose maken van TBATS](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381326) | |
-| [Prognose maken met ARIMA](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380888) | |
 | [Trechter met bron door MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381334) | [Video](https://youtu.be/R_EcimsLI8U) |
 | [Gantt](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380765) | [Video](https://youtu.be/qJ7s_KrGiUU) |
 | [Opgeefdiagram door MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381364) | [Video](https://youtu.be/vJLV9JRCpI8) |
@@ -119,6 +112,7 @@ Microsoft kan naar eigen goeddunken een visueel element uit de lijst met gecerti
 | [Afspeelas (dynamische slicer)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380981) | |
 | [Power KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381083) | [Video](https://youtu.be/IvfIP3E6-1Q) |
 | [Power KPI Matrix](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381299) | [Video](https://youtu.be/1enze8pcGzY) |
+| [Pulse-grafiek](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381006) | [Video](https://youtu.be/DQWdcQtjDVw) |
 | [Kwadrantdiagram door MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381011) | [Video](https://youtu.be/ppBnyhqWNC0) |
 | [Radardiagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380771) | |
 | [Ringgrafiek door MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380824) | [Video](https://youtu.be/pDToHDFHnq8) |
@@ -127,7 +121,6 @@ Microsoft kan naar eigen goeddunken een visueel element uit de lijst met gecerti
 | [Bladerscherm](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381018) | |
 | [Slim filter door OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380859) | [Video](https://youtu.be/gcJsDDRQq28) |
 | [Sparkline door OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380910) | [Video](https://youtu.be/0m3Vnvso9tY) |
-| [Spline-grafiek](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380860) | |
 | [Stroomgrafiek](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380772) | |
 | [Zonnestraal](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380767) | |
 | [Tabelheatmap](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380818) | |
@@ -135,8 +128,6 @@ Microsoft kan naar eigen goeddunken een visueel element uit de lijst met gecerti
 | [Tekstfilter](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381309) | |
 | [Tekst-wrapper door MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) | |
 | [Thermometer](https://appsource.microsoft.com/en-us/product/office/WA104379807) | |
-| [Tijdreeksontledingsgrafiek](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380897) | |
-| [Tijdreeks- en prognosegrafiek](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380816) | |
 | [Tijdlijnslicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380786) | [Video](https://youtu.be/ozMtZ4_NZ10) |
 | [Tornadodiagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380768) | [Video](https://www.youtube.com/watch?v=AQvd2FhRyCI) |
 | [Handelsgrafiek door MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380823) | [Video](https://youtu.be/xhTR6y6J9Ko) |

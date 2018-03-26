@@ -2,38 +2,40 @@
 title: Overzicht van het deelvenster Filters van Power BI
 description: Overzicht van het deelvenster Rapportfilters in Power BI-service en Power BI-dashboard
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 03/15/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 83aed39c8a652ed5b38c18b67f1cdccfc7884240
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 00b0b116aa59ebab1d963a8803f788040761d9f5
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Rondleiding door het deelvenster Filters van het rapport
 In dit artikel wordt het rapportvenster Filters diepgaand besproken. U ziet het deelvenster in de [bewerkweergave en leesweergave van Power BI-service](service-reading-view-and-editing-view.md) en in de [rapportweergave van Power BI Desktop](desktop-report-view.md).
 
 Er zijn veel verschillende manieren om gegevens te filteren in Power BI. Wij raden u aan om te beginnen met het lezen van [Filters en markeren](power-bi-reports-filters-and-highlighting.md).
 
-## <a name="working-with-filters"></a>Werken met filters
-Rapporten kunnen worden geopend in de [Bewerkweergave of Leesweergave](service-reading-view-and-editing-view.md). In de Bewerkweergave kunnen rapporteigenaren [ filters toevoegen aan een rapport](power-bi-report-add-filter.md), en deze filters worden opgeslagen bij het rapport. Mensen die het rapport bekijken in de Leesweergave kunnen de filters gebruiken, maar kunnen wijzigingen in de filters niet opslaan in het rapport.
+## <a name="working-with-the-report-filters-pane"></a>Het deelvenster Filters van het rapport gebruiken
+Rapporten worden in Power BI Desktop geopend in de rapportweergave. Rapporten in de Power BI-service kunnen in de [bewerkingsweergave of leesweergave](service-reading-view-and-editing-view.md) worden geopend. In de bewerkingsweergave en in de rapportweergave van Power BI Desktop kunnen rapporteigenaren [filters aan een rapport toevoegen](power-bi-report-add-filter.md). Deze filters worden met het rapport opgeslagen. Gebruikers die het rapport in de leesweergave bekijken, kunnen de filters gebruiken. Ze kunnen echter geen nieuwe filters toevoegen aan het rapport.
 
-## <a name="filters-in-reading-view"></a>Filters in Leesweergave
-Wanneer een rapport is geopend in de leesweergave, wordt het deelvenster Filters aan de rechterkant van het rapportcanvas weergegeven. Als u het deelvenster niet ziet, selecteert u de pijl in de rechterbovenhoek om het uit te vouwen.
+In de Power BI-service worden wijzigingen die u aanbrengt in het deelvenster Filters bewaard en deze wijzigingen worden doorgevoerd in de mobiele versie van het rapport. Als u de standaardinstellingen die de maker heeft geconfigureerd voor het deelvenster Filters wilt herstellen, selecteert u **Standaardinstellingen herstellen** in de bovenste menubalk.     
+
+## <a name="open-the-filters-pane"></a>Het deelvenster Filters openen
+Wanneer een rapport is geopend, wordt het deelvenster Filters aan de rechterkant van het rapportcanvas weergegeven. Als u het deelvenster niet ziet, selecteert u de pijl in de rechterbovenhoek om het uit te vouwen. Als u de leesweergave van de Power BI-service gebruikt, is het deelvenster Filters het enige deelvenster dat aan de rechterkant beschikbaar is.
 
 In dit voorbeeld hebben we een visualisatie met 6 filters geselecteerd. De rapportagepagina heeft ook filters, onder de kop **Filters op paginaniveau**. Er is één [Drillthrough-filter](power-bi-report-add-filter.md) en het hele rapport heeft ook een filter: **FiscalYear** (Boekjaar) is 2013 of 2014.
 
@@ -49,14 +51,18 @@ Iedereen die dit rapport bekijkt, kan met deze filters werken.
 * Wijzig het filter, bijvoorbeeld door **Lindseys** te wijzigen in **Fashions Direct**.
   
      ![](media/power-bi-how-to-report-filter/power-bi-filter-chain.png)
-* Verwijder het filter door de **x** naast de naam van het filter te selecteren.
+
+* Herstel de oorspronkelijke staat van de filters door **Standaardinstellingen herstellen** in de bovenste menubalk te selecteren.    
+    ![](media/power-bi-how-to-report-filter/power-bi-reset-to-default.png)
+    
+* Verwijder het filter door de **x** naast de filternaam te selecteren.
   
-  Het verwijderen van een filter verwijdert het uit de lijst, maar verwijdert de gegevens niet uit het rapport.  Als u bijvoorbeeld het filter van **FiscalYear is 2013 or 2014** (Boekjaar is 2013 of 2014) verwijdert, blijven de boekjaargegevens in het rapport staan, maar worden ze niet langer gefilterd om alleen 2013 en 2014 weer te geven, en worden alle belastingjaren weergegeven die voorkomen in de gegevens.  Als u het filter eenmaal hebt verwijderd kunt u het echter niet meer wijzigen, omdat het uit de lijst is verwijderd. Een betere optie is het filter te wissen door het gumpictogram ![](media/power-bi-how-to-report-filter/power-bi-eraser-icon.png) te selecteren.
+  Het verwijderen van een filter verwijdert het uit de lijst, maar verwijdert de gegevens niet uit het rapport.  Als u bijvoorbeeld het filter **FiscalYear is 2013 or 2014** (Boekjaar is 2013 of 2014) verwijdert, blijven de boekjaargegevens in het rapport staan. De gegevens worden niet meer gefilterd, zodat nu niet alleen de gegevens voor 2013 en 2014, maar voor alle belastingjaren die voorkomen in de gegevens worden weergegeven.  Als u het filter eenmaal hebt verwijderd kunt u het echter niet meer wijzigen, omdat het uit de lijst is verwijderd. Een betere optie is het filter te wissen door het gumpictogram ![](media/power-bi-how-to-report-filter/power-bi-eraser-icon.png) te selecteren.
   
   ![](media/power-bi-how-to-report-filter/power-bi-delete-filter.png)
 
 ## <a name="filters-in-editing-view"></a>Filters in de Bewerkweergave
-Wanneer een rapport is geopend in de Bewerkweergave, wordt het deelvenster Filters rechts van het rapportcanvas weergegeven, in het onderste deel van het **Visualisatiedeelvenster**. Als u het deelvenster niet ziet, selecteert u de pijl in de rechterbovenhoek om het uit te vouwen.
+Wanneer een rapport is geopend in Power BI Desktop of in de bewerkingsweergave van de Power BI-service, wordt het deelvenster Filters aan de rechterkant van het rapportcanvas weergegeven, in het onderste deel van het **deelvenster Visualisaties**. Als u het deelvenster niet ziet, selecteert u de pijl in de rechterbovenhoek om het uit te vouwen.
 
 ![](media/power-bi-how-to-report-filter/power-bi-all-filters.png).  
 
@@ -73,16 +79,16 @@ Als u opties voor een bepaald filter wilt weergeven, selecteert u de pijl omlaag
 ![](media/power-bi-how-to-report-filter/pbi_filterlistdropdown.jpg)
 
 ## <a name="clear-a-filter"></a>Een filter wissen
- Selecteer in de geavanceerde of standaardfiltermodus het gumpictogram ![](media/power-bi-how-to-report-filter/pbi_erasericon.jpg) om het filter opnieuw in te stellen. 
+ Selecteer in de geavanceerde modus of standaardfiltermodus het gumpictogram ![](media/power-bi-how-to-report-filter/pbi_erasericon.jpg) om het filter te wissen. 
 
 ## <a name="add-a-filter"></a>Een filter toevoegen
-* Voeg in de bewerkingsweergave een filter toe aan een visueel element, pagina, drillthrough of rapport door een veld uit het deelvenster Velden te selecteren en het naar de juiste filterbucket te slepen, waar u de woorden **Sleep velden hierheen** ziet. Nadat een veld als filter is toegevoegd, kunt u het verfijnen met behulp van de besturingselementen Standaardfilters toepassen en Geavanceerd filteren (zie hieronder).
+* Voeg in Power BI Desktop of in de bewerkingsweergave van de Power BI-service een filter toe aan een visual, pagina, drillthrough of rapport door een veld uit het deelvenster Velden te selecteren en het naar het betreffende vak voor filters te slepen, waar u de woorden **Sleep velden hierheen** ziet. Nadat een veld als filter is toegevoegd, kunt u het verfijnen met behulp van de besturingselementen Standaardfilters toepassen en Geavanceerd filteren (zie hieronder).
 
 - **Door een nieuw veld naar het filtergebied op niveau van visuele elementen te slepen, wordt dat veld niet aan het visuele element toegevoegd** maar kunt u wel filteren op dit visuele element met het nieuwe veld. In onderstaand voorbeeld wordt **Chain** (Keten) aan de visualisatie toegevoegd als nieuw filter. Merk op dat het toevoegen van **Chain** als filter de visualisatie niet verandert, totdat u het besturingselement Standaardfilters toepassen of Geavanceerd filteren gebruikt.
 
     ![](media/power-bi-how-to-report-filter/power-bi-visual-filter.gif)
 
-* Alle velden die worden gebruikt om een visualisatie te maken, zijn ook beschikbaar als filters. Selecteer eerst een visueel element om het te activeren. De velden die in de visualisatie worden gebruikt, worden vermeld in het deelvenster Visualisaties (als u de Bewerkweergave gebruikt) en in het deelvenster Filters onder het kopje **Filters op niveau van visuele elementen**.
+* Alle velden die worden gebruikt om een visualisatie te maken, zijn ook beschikbaar als filters. Selecteer eerst een visueel element om het te activeren. De velden die in de visual worden gebruikt, worden vermeld in het deelvenster Visualisaties en in het deelvenster Filters onder de kop **Filters op niveau van visual**.
   
    ![](media/power-bi-how-to-report-filter/power-bi-visual-filter.png)  
   

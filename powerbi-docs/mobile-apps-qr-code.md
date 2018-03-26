@@ -2,26 +2,26 @@
 title: Een Power BI QR-code scannen met uw mobiele apparaat
 description: QR-codes in Power BI kunnen alles in de praktijk rechtstreeks verbinden met gerelateerde BI-gegevens in de mobiele Power BI-app voor iPhones en Android-apparaten.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 03/13/2018
 ms.author: maggies
-ms.openlocfilehash: 80c8de8626f2d891a7875933ee72a43dd5d7f09e
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 2716452f285d8df0aa0d3b89c2b9b36aa87cc5cc
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Een Power BI QR-code scannen met uw mobiele apparaat
 Van toepassing op:
@@ -36,10 +36,10 @@ Stel dat een collega [een QR-code heeft gemaakt in de Power BI-service](service-
 
 U kunt de QR-code voor directe toegang tot de relevante tegel of het rapport scannen met uw telefoon. Hiervoor gebruikt u de scanner in de Power BI-app of een andere scanner die is geïnstalleerd op uw telefoon. 
 
+Als uw collega het dashboard of rapport niet met u heeft gedeeld, kunt u rechtstreeks toegang aanvragen vanuit de mobiele app. 
+
 > [!NOTE]
-> Als uw collega het dashboard of rapport niet met u heeft gedeeld, kunt u rechtstreeks toegang aanvragen vanuit de mobiele app.
-> 
-> 
+> U kunt ook [een QR-code voor een rapport scannen met de app Power BI for Mixed Reality](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view).
 
 ## <a name="scan-a-power-bi-qr-code-on-your-iphone-with-the-power-bi-scanner"></a>Een Power BI QR-code op uw iPhone scannen met de scanner van Power BI
 1. Open in de mobiele Power BI-app het algemene navigatiemenu ![](media/mobile-apps-qr-code/power-bi-iphone-global-nav-button.png) in de linkerbovenhoek. 
@@ -80,5 +80,6 @@ U kunt de QR-code voor directe toegang tot de relevante tegel of het rapport sca
 * [Verbinding maken met Power BI-gegevens uit de praktijk](mobile-apps-data-in-real-world-context.md) met de mobiele apps
 * [Een QR-code voor een tegel maken in de Power BI-service](service-create-qr-code-for-tile.md)
 * [Een QR-code voor een rapport maken in de Power BI-service](service-create-qr-code-for-report.md)
-* Vragen? [Misschien dat de Power Bi-community het antwoord weet](http://community.powerbi.com/)
+* U kunt ook [een QR-code scannen met de app Power BI for Mixed Reality](mobile-mixed-reality-app.md)
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 
