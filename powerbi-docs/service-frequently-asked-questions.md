@@ -2,12 +2,12 @@
 title: Veelgestelde vragen over Power BI
 description: Dit artikel bevat een lijst met veelgestelde vragen en antwoorden over de Power BI-service, Power BI Desktop en de mobiele Power BI-apps.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: complete
 qualitydate: 04/04/2016
 ms.service: powerbi
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/06/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: af02b57fefaf9764e7a1eac8172d6dc0111dfccd
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7f1c42d46568723706bcdd349790c963f204a33c
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Veelgestelde vragen over Power BI
 * Als u andere vragen hebt, kunt u deze stellen [in de Power BI-community](http://community.powerbi.com/).
@@ -72,7 +72,7 @@ Werkadressen die eindigen op **.gov** en **.mil** worden momenteel niet onderste
 Ja, er zijn speciale prijzen voor non-profitorganisaties die rechtstreeks kopen bij Microsoft. Ga voor meer informatie naar de site [over BI voor non-profitorganisaties](https://www.microsoft.com/about/philanthropies/product-donations/products/powerbi/). Prijzen voor overheids- en onderwijsinstellingen worden aangeboden via de MOSP/Direct-, EA- en open-licentieprogramma's. Overheidsprijzen zijn ook beschikbaar via syndicatie. Power BI is nog niet beschikbaar voor de US Government Community Cloud (GCC).
 
 ## <a name="is-power-bi-available-on-premises"></a>Is Power BI on-premises beschikbaar?
-De Power BI-service ([https://powerbi.com](https://powerbi.com)) is niet beschikbaar als een persoonlijke, interne cloudservice. U hebt echter drie mogelijkheden om gegevens on-premises weer te geven en te manipuleren. 
+De Power BI-service [https://powerbi.com](https://powerbi.com) is niet beschikbaar als persoonlijke, interne cloudservice. U hebt echter drie mogelijkheden om gegevens on-premises weer te geven en te manipuleren. 
 
 ### <a name="on-premises-data-gateway"></a>On-premises gegevensgateway
 Met Power BI en Power BI Desktop kunt u een veilige verbinding tot stand brengen met uw eigen on-premises gegevensbronnen. Met de [on-premises gegevensgateway](service-gateway-onprem.md) kunt u een liveverbinding maken met uw on-premises SQL Server Analysis Services-server en met andere gegevensbronnen. U kunt ook geplande vernieuwingsintervallen instellen met een gecentraliseerde gateway. Als er geen gateway beschikbaar is, kunt u gegevens uit on-premises gegevensbronnen vernieuwen via de [persoonlijke Power BI-gateway](personal-gateway.md).
