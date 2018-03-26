@@ -2,27 +2,28 @@
 title: Wat is er nieuw in de Power BI-service
 description: Wat is er nieuw in de Power BI-service
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
 backup: sirsu
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/07/2018
+ms.date: 03/22/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: b3e12a9bdfa6643351cdfc82ce9051197df6ee1e
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: a388f090eac1896c7f47d7d16251c419fc4c33c2
+ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/23/2018
+---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Wat is er nieuw in de Power BI-service
 Raadpleeg deze pagina voor bekende problemen en onlangs uitgebrachte functies in de **Power BI-service**. Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -36,7 +37,17 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="january-2018"></a>Januari 2018
+## <a name="march-2018"></a>Maart 2018
+* [Permanente filters](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/) in de Power BI-service.
+* Inhoud delen met gebruikers via hun persoonlijke e-mailaccount. Uitbreiding van [Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/).
+
+## <a name="previous-months-2018"></a>Vorige maanden (2018)
+### <a name="february-2018"></a>Februari 2018
+* Automatisch [Power BI-apps](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps) voor eindgebruikers installeren.
+* P4- en P5-capaciteiten in Power BI Premium
+* Preview van [aangepaste visuals voor organisaties](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-organization).
+
+### <a name="january-2018"></a>Januari 2018
 *   Power BI-rapporten delen en aan uw favorieten toevoegen.
 *   Ondersteuning voor eenmalige aanmelding (SSO) met OAuth2 en DirectQuery voor Azure SQL Database en datawarehouse.
 *   Audits binnen regio's: auditlogboeken worden nu opgeslagen in dezelfde Office 365-regio als hun tenant.

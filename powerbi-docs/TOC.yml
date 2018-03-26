@@ -556,6 +556,10 @@
           href: service-admin-service-free-in-your-organization.md
         - name: Power BI Pro kopen
           href: service-admin-purchasing-power-bi-pro.md
+        - name: Power BI Pro toewijzen
+          href: service-admin-assigning-power-bi-pro-licenses.md
+        - name: Power BI Pro in uw organisatie
+          href: service-admin-power-bi-pro-in-your-organization.md
         - name: Governance- en implementatiemethoden voor Power BI
           href: service-admin-governance.md
         - name: Beveiliging van Power BI
