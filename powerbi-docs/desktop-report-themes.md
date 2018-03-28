@@ -2,14 +2,14 @@
 title: Rapportthema's gebruiken in Power BI Desktop (preview)
 description: Ontdek hoe u een aangepast kleurenpalet gebruikt en het toepast op een volledig rapport in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8893e9f048f10f2c9c4d5bf787382b7cf65f54a9
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9161966897811820935c72ac1657ceca58da403a
+ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Rapportthema's gebruiken in Power BI Desktop (preview)
 Met **Rapportthema's** kunt u een kleurenthema op uw gehele rapport toepassen, zoals zakelijke kleuren, seizoensgebonden kleuren of andere kleurthema's die u op een rapport zou willen toepassen. Bij het toepassen van een **Rapportthema** worden voor alle visuals in het rapport de kleuren van het geselecteerde thema gebruikt. Er zijn enkele uitzonderingen van toepassing, zoals verderop in dit artikel wordt beschreven.
@@ -163,7 +163,7 @@ Als u een uitgebreid JSON-bestand wilt maken met gedetailleerder beheer van de o
         }
     }
 
-Bij de gedeelten **visualName** en **cardName** kunt u een specifieke visual en cardName opgeven. U kunt ook een sterretje ('*') gebruiken als u de instelling wilt toepassen op alle visuals of alle kaarten die een eigenschap voor een specifieke visual bevatten. U kunt het sterretje ('*') gebruiken als u een instelling in uw hele rapport wilt toepassen, zoals een tekengrootte of specifieke lettertypefamilie die voor alle visuals in het rapport moeten worden gebruikt.
+Bij de gedeelten **visualName** en **cardName** kunt u een specifieke visual en cardName opgeven. U kunt ook een sterretje ('\*') gebruiken als u de instelling wilt toepassen op alle visuals of alle kaarten die een eigenschap voor een specifieke visual bevatten. U kunt het sterretje ('\*') gebruiken als u een instelling in uw hele rapport wilt toepassen, zoals een tekengrootte of specifieke lettertypefamilie die voor alle visuals in het rapport moeten worden gebruikt.
 
 > [!NOTE]
 > U hoeft alleen de opmaakelementen op te geven waarop u de instelling wilt toepassen. Eventuele opmaakelementen die niet in het JSON-bestand zijn opgenomen, worden naar de standaardwaarden en -instellingen teruggezet.
