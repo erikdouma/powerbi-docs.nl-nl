@@ -1,28 +1,28 @@
 ---
-title: "Een Power BI-rapport kopiëren"
+title: Een Power BI-rapport kopiëren
 description: Maak een nieuw Power BI-rapport op basis van een ander rapport.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 01/09/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 63d545f24db126566d5c7f9c485e9cc4fd0e079e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f7b4230a6dc9089008928145863fe70977fb92f4
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="create-a-new-report-from-an-existing-report"></a>Een nieuw rapport maken van een bestaand rapport
 Misschien hebt u een rapport dat al verbinding maakt met uw gegevensset en bevat het rapport enkele visuals die u wilt opnieuw wilt gebruiken of wilt wijzigen.  In dat geval kunt u het rapport gewoon kopiëren als basis voor een nieuw rapport.  Hiervoor gaat u als volgt te werk:
