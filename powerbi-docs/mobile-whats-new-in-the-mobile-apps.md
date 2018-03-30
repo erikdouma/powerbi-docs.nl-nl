@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/13/2018
+ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: 5c2573bf4a3900b4d4216170e843263bc41a4e07
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 29241b4c0f059540e6f1496f04b3044ebbd7d68b
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -35,6 +35,18 @@ Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mog
 ### <a name="power-bi-for-mixed-reality-app-preview"></a>De app Power BI for Mixed Reality (preview)
 
 We hebben de app Power BI for Mixed Reality gemaakt, zodat uw gegevens nog toegankelijker voor u zijn. Bekijk de dashboards en rapporten terwijl u in een virtuele omgeving werkt of plaats en bekijk deze op specifieke locaties in uw omgeving. Lees meer over de nieuwe [app Power BI for Mixed Reality](mobile-mixed-reality-app.md).
+
+### <a name="share-reports-and-dashboards-externally"></a>Rapporten en dashboards extern delen
+
+Deel dashboards en rapporten met gebruikers buiten uw organisatie, rechtstreeks vanuit de app. Extern delen is ingeschakeld voor zowel sociale als organisatieaccounts. 
+
+### <a name="persistent-filters"></a>Permanente filters
+
+Wanneer u filters en slicers instelt in Power BI op het web, worden uw filterkeuzes ook opgeslagen in uw mobiele app, zodat u verder kunt gaan waar u was gebleven.
+
+### <a name="refresh-reports-on-the-ipad"></a>Rapporten vernieuwen op de iPad
+
+Power BI-rapporten hebben nu een knop Vernieuwen in de iPad-app.
 
 ## <a name="february-2018"></a>Februari 2018
 

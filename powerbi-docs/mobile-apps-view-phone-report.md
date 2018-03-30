@@ -2,26 +2,26 @@
 title: Voor uw telefoon geoptimaliseerde Power BI-rapporten weergeven
 description: Lees over de interactie met rapportpagina's die zijn geoptimaliseerd voor weergave in de Power BI-apps voor uw telefoon.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/04/2018
+ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: 4f3441e2f933ee8964fc77e3166aeede97bcfba9
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: 275dc9fff2f87dd4811eb1a3fe3db944a2965b58
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Voor uw telefoon geoptimaliseerde Power BI-rapporten weergeven
 
@@ -47,7 +47,7 @@ Alle andere functies van Power BI-rapporten werken nog steeds in voor de telefoo
 * [Rapporten op Android-telefoons](mobile-reports-in-the-mobile-apps.md).
 
 ## <a name="filter-the-report-page-on-a-phone"></a>De rapportpagina filteren op een telefoon
-Als u een voor de telefoon geoptimaliseerd rapport hebt waarvoor filters zijn gedefinieerd, kunt u deze filters gebruiken wanneer u het rapport op een telefoon bekijkt. 
+Als u een voor de telefoon geoptimaliseerd rapport hebt waarvoor filters zijn gedefinieerd, kunt u deze filters gebruiken wanneer u het rapport op een telefoon bekijkt. Het rapport wordt op uw telefoon geopend en is gefilterd op de waarden zoals die zijn gefilterd in het webrapport. Er wordt ook een bericht weergegeven waarin staat dat er filters actief zijn op de pagina. U kunt de filters op uw telefoon wijzigen.
 
 1. Tik op het filterpictogram ![Filterpictogram op telefoon](media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) onder aan de pagina. 
 2. Gebruik basis- of geavanceerde filters om de resultaten waarin u geïnteresseerd bent te bekijken.

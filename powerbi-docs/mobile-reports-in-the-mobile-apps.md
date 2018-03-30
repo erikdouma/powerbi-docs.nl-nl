@@ -2,26 +2,26 @@
 title: Rapporten verkennen in de mobiele Power BI-apps
 description: 'Meer informatie over het weergeven en gebruiken van rapporten in de mobiele Power BI-app op uw telefoon of tablet. U maakt rapporten in de Power BI-service of Power BI Desktop en kunt ze vervolgens gebruiken de mobiele apps. '
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/25/2018
+ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: 51006f70d0be13f08de7047f0097f7530d32a470
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+ms.openlocfilehash: 6edd5a6e9606150d4b489a79cdb5ca57ac2f8cce
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Rapporten verkennen in de mobiele Power BI-apps
 Van toepassing op:
@@ -33,7 +33,7 @@ Van toepassing op:
 Een Power BI-rapport is een interactieve weergave van uw gegevens met visuele elementen die verschillende bevindingen en inzichten van die gegevens vertegenwoordigen. Rapporten weergeven in de mobiele Power BI-apps is de derde stap in een proces dat uit drie stappen bestaat.
 
 1. [Rapporten maken in Power BI Desktop](desktop-report-view.md). U kunt zelfs [een rapport optimaliseren voor telefoons](mobile-apps-view-phone-report.md) in Power BI Desktop. 
-2. Deze rapporten publiceren naar de Power BI-service [(https://powerbi.com)](https://powerbi.com) of [Power BI-rapportserver](report-server/get-started.md).  
+2. Deze rapporten publiceren naar de Power BI-service [(https://powerbi.com)](https://powerbi.com) of [Power BI Report Server](report-server/get-started.md).  
 3. Vervolgens kunt u de rapporten gebruiken in de mobiele Power BI-apps.
 
 ## <a name="open-a-power-bi-report-in-the-mobile-app"></a>Een Power BI-rapport openen in de mobiele app
@@ -50,7 +50,9 @@ Power BI-rapporten worden opgeslagen op verschillende plaatsen in de mobiele app
   ![Telefoonrapport in de liggende modus](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-landscape.png)
 
 ## <a name="view-reports-optimized-for-phones"></a>Rapporten weergeven die zijn geoptimaliseerd voor telefoons
-Makers van Power BI-rapporten kunnen een rapportindeling maken die speciaal is geoptimaliseerd voor telefoons. Rapportpagina's die zijn geoptimaliseerd voor telefoons beschikken over een extra functionaliteit: u kunt bijvoorbeeld inzoomen op visuals en deze sorteren in de focusmodus, en u krijgt toegang tot de [filters die de auteur van het rapport heeft toegevoegd aan de rapportpagina](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone). In een rapportenlijst bevat een geoptimaliseerd rapport een speciaal pictogram ![het telefoonrapport-pictogram](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png):
+Makers van Power BI-rapporten kunnen een rapportindeling maken die speciaal is geoptimaliseerd voor telefoons. Rapportpagina's die zijn geoptimaliseerd voor telefoons beschikken over een extra functionaliteit: u kunt bijvoorbeeld inzoomen op visuals en deze sorteren in de focusmodus, en u krijgt toegang tot de [filters die de auteur van het rapport heeft toegevoegd aan de rapportpagina](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone). Het rapport wordt op uw telefoon geopend en is gefilterd op de waarden zoals die zijn gefilterd in het webrapport. Er wordt ook een bericht weergegeven waarin staat dat er filters actief zijn op de pagina. U kunt de filters op uw telefoon wijzigen.
+
+In een lijst met rapporten heeft een geoptimaliseerd rapport een speciaal pictogram ![Pictogram van telefoonrapport](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png):
 
 ![Telefoonrapport openen](media/mobile-reports-in-the-mobile-apps/power-bi-android-phone-report.png)
 
@@ -63,7 +65,7 @@ Wanneer u een rapport op een telefoon bekijkt, wordt dit geopend in de staande w
 Lees meer over [rapporten die zijn geoptimaliseerd voor weergave op een telefoon](mobile-apps-view-phone-report.md).
 
 ## <a name="use-slicers-to-filter-a-report-page"></a>Slicers gebruiken om een rapportpagina te filteren
-Overweeg [slicers aan een rapportpagina toe te voegen](power-bi-visualization-slicers.md) bij het ontwerpen van een rapport in Power BI Desktop of de Power BI-service. U en uw collega's kunnen de slicers gebruiken om de pagina in een browser en in de mobiele apps te filteren. Wanneer u het rapport op een telefoon bekijkt, kunt u de slicers zowel in de liggende modus zien en er interactie mee hebben als in een pagina die is geoptimaliseerd voor de staande modus van de telefoon.
+Overweeg [slicers aan een rapportpagina toe te voegen](power-bi-visualization-slicers.md) bij het ontwerpen van een rapport in Power BI Desktop of de Power BI-service. U en uw collega's kunnen de slicers gebruiken om de pagina in een browser en in de mobiele apps te filteren. Wanneer u het rapport op een telefoon bekijkt, kunt u de slicers zowel in de liggende modus zien en er interactie mee hebben als in een pagina die is geoptimaliseerd voor de staande modus van de telefoon. Als u in de browser een waarde selecteert in een slicer of filter, wordt die waarde ook geselecteerd wanneer u de pagina in de mobiele app bekijkt. U ziet een bericht waarin staat dat er op de pagina filters actief zijn.  
 
 * Wanneer u een waarde selecteert in een slicer op de rapportpagina, worden de andere visuele elementen op de pagina gefilterd.
   
