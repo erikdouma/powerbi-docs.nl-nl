@@ -2,12 +2,12 @@
 title: Aantekeningen maken en delen in mobiele Power BI-apps
 description: 'Lees meer over het toevoegen van aantekeningen bij en het delen van tegels, rapporten en visuals vanuit de mobiele Microsoft Power BI-app voor iOS en Android. '
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 02/28/2017
 ms.service: powerbi
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: f62d743a9d1d49444b118c1cb63a45dc7255d852
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 12dd7e2dcce655b6cde370877f56c4d57e18dbd9
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Een tegel, rapport of visual van aantekeningen voorzien en delen via mobiele Power BI-apps
 Van toepassing op:

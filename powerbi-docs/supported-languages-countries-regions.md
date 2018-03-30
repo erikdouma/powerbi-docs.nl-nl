@@ -2,27 +2,27 @@
 title: Ondersteunde talen en landen/regio's voor Power BI
 description: Zie de lijst met ondersteunde talen en landen/regio's voor de documentatie van de Power BI-service, Power BI Desktop en Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/18/2017
+ms.date: 03/20/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 9c007202bc6526872ea3469ccc5e46b71a8e6dcb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0ca6a21e67e7ab1d2a0c0daa8da07052041db139
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Ondersteunde talen en landen/regio's voor Power BI
 
@@ -32,7 +32,7 @@ In dit artikel vindt u lijsten met ondersteunde talen en landen/regio's voor de 
 Zie de [internationale beschikbaarheidslijst](https://products.office.com/business/international-availability) voor een overzicht met de landen en regio's waar Power BI beschikbaar is. 
 
 ## <a name="languages-for-the-power-bi-service"></a>Talen voor de Power BI-service
-De Power BI-service (in de browser) is beschikbaar in de volgende 42 talen:
+De Power BI-service (in de browser) is beschikbaar in de volgende 44 talen:
 
 * Arabisch
 * Baskisch - Basque
