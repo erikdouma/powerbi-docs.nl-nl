@@ -2,14 +2,14 @@
 title: Power BI en ExpressRoute
 description: Power BI en ExpressRoute
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: 30bc1c58d02634748acfc2dce4fbfbec51fa6cba
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: faf438e9f76a7a929f7369dc91ef4edb4fbef42d
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="power-bi-and-expressroute"></a>Power BI en ExpressRoute
 Met **Power BI** en **ExpressRoute** kunt u een verbinding via een particulier netwerk opzetten tussen uw organisatie en Power BI (of met behulp van de co-locatievoorziening van een internetprovider), om zo internet te omzeilen en uw gevoelige gegevens en verbindingen van Power BI beter te beveiligen.
@@ -49,7 +49,7 @@ Dit zijn de twee algemene uitzonderingen voor Power BI in combinatie met Express
 * Statische bestanden die worden gedownload van een **CDN (Content Delivery Network)** en websites
 * **Telemetriegegevens** die worden verzonden via het openbare internet
 
-Power BI gebruikt verschillende **CDN's (Content Delivery Networks)** of websites om de benodigde statische inhoud en bestanden op een efficiënte manier via het openbare internet te distribueren naar gebruikers op basis van geografische landinstelling. Deze statische bestanden omvatten productdownloads (zoals **Power BI Desktop**, **on-premises gegevensgateway** of **Power BI-inhoudspakketten** van verschillende onafhankelijke serviceproviders), browserconfiguratiebestanden die worden gebruikt om volgende verbindingen met Power BI te initiëren en tot stand te brengen, evenals de eerste, beveiligde Power BI-aanmeldingspagina. De feitelijke referenties worden alleen via ExpressRoute verzonden.   
+Power BI gebruikt verschillende **CDN's (Content Delivery Networks)** of websites om de benodigde statische inhoud en bestanden op een efficiënte manier via het openbare internet te distribueren naar gebruikers op basis van geografische landinstelling. Deze statische bestanden omvatten productdownloads (zoals **Power BI Desktop**, **On-premises gegevensgateway** of **Power BI-inhoudspakketten** van verschillende onafhankelijke serviceproviders), browserconfiguratiebestanden die worden gebruikt om volgende verbindingen met Power BI te initiëren en tot stand te brengen, evenals de eerste, beveiligde Power BI-aanmeldingspagina. De feitelijke referenties worden alleen via ExpressRoute verzonden.   
 
 Bepaalde **telemetriegegevens** worden ook verzonden via het openbare internet en via ExpressRoute. Voorbeelden van telemetriegegevens zijn gebruiksstatistieken en vergelijkbare gegevens, die worden verzonden naar services die worden gebruikt voor het monitoren van gebruik en activiteit.
 

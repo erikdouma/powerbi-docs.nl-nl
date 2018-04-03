@@ -2,14 +2,14 @@
 title: Een rapport openen in de Leesweergave of Bewerkweergave in de Power BI-service
 description: Een Power BI-rapport in de leesweergave of de bewerkingsweergave openen
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

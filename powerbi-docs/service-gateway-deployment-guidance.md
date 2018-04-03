@@ -2,14 +2,14 @@
 title: Richtlijnen voor het implementeren van een gegevensgateway voor Power BI
 description: Lees hier alles over de aanbevolen procedures en overwegingen voor het implementeren van een gateway voor Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 992c3cbeb9899a784cc8df9fdca9a29f57aa7e81
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9438b9563d17cff8ce334e48bc34a4f3fa6acf1c
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Richtlijnen voor het implementeren van een gegevensgateway voor Power BI
 Dit artikel bevat richtlijnen en overwegingen voor het implementeren van een gegevensgateway in uw netwerkomgeving. Een **gateway** is software die toegang mogelijk maakt tot gegevens die zich bevinden in een particulier, on-premises netwerk, waarna deze later kunnen worden gebruikt in een cloudservice zoals Power BI. In dit artikel vindt u stapsgewijze instructies en richtlijnen voor de implementatie van een **on-premises gegevensgateway**.
@@ -86,12 +86,12 @@ De *gatewayteller* biedt samen met de tellers van computer een beeld van de bela
 
 Deze tellers zijn toegankelijk via **Prestatiemeter van Windows** en zijn geschikt voor alle hulpprogramma's voor rapportage die u voor dit doel inzet. Lees het onderstaande blogbericht (Engelstalig) uit de community voor een gedetailleerde beschrijving van de procedure voor het gebruiken van de prestatiemeter voor gateways met Power BI.
 
-* [Monitor on-premises data gateways](https://insightsquest.com/2016/08/08/monitor-on-premises-data-gateways/)
+* [On-premises gegevensgateways controleren](https://insightsquest.com/2016/08/08/monitor-on-premises-data-gateways/)
 
 #### <a name="logs"></a>Logboeken
 Configuratie- en servicelogboeken bieden een andere dimensie van wat er met uw gateway gebeurt. Controleer altijd uw gatewaylogboeken wanneer de verbinding niet werkt zoals verwacht. Het is namelijk zo dat niet alle foutberichten in de Power BI-service worden weergegeven.
 
-Een eenvoudige manier om de logboekbestanden op uw lokale computer te bekijken, is met de knop *Logboeken exporteren* op de pagina **On-premises gegevensgateway** wanneer u de gateway opnieuw opent nadat de eerste installatie voltooid is. Selecteer vervolgens **Diagnostische gegevens > Logboeken exporteren**.
+Een eenvoudige manier om de logboekbestanden op uw lokale computer te bekijken, is met de knop *Logboeken exporteren* op de pagina **On-premises gegevensgateway** wanneer u de gateway opnieuw opent nadat de eerste installatie is voltooid. Selecteer vervolgens **Diagnostische gegevens > Logboeken exporteren**.
 
 #### <a name="additional-logging"></a>Aanvullende logboekregistratie
 Op de gateway worden standaard basisvermeldingen bijgehouden in de logboeken. Als u problemen met de gateway onderzoekt en meer informatie nodig hebt over de verbindingsgegevens van een query, kunt u tijdelijk *uitgebreide logboekregistratie* inschakelen om aanvullende logboekinformatie te verzamelen. Dit doet u door in de geïnstalleerde gateway **Diagnostische gegevens > Aanvullende logboekregistratie** te selecteren.

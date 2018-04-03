@@ -2,14 +2,14 @@
 title: Gegevens vernieuwen in Power BI
 description: Gegevens vernieuwen in Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/19/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 23709342f522d029e01cf7192627e179d260fa8d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: decd8a072ba644c9d67a7a0005b752423d32984a
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="data-refresh-in-power-bi"></a>Gegevens vernieuwen in Power BI
 Het maken van de juiste keuzes is sterk afhankelijk van of u beschikt over de recentste gegevens. U hebt waarschijnlijk al de functie Gegevens ophalen in Power BI gebruikt om verbinding te maken met gegevens, gegevens te uploaden, en enkele rapporten en een dashboard te maken. Nu is het belangrijk om ervoor te zorgen dat uw gegevens echt actueel zijn.
@@ -162,7 +162,7 @@ De mogelijkheden voor het vernieuwen van gegevens voor een gegevensset die is op
 Zie [Inleiding tot organisatie-inhoudspakketten](service-organizational-content-pack-introduction.md) voor meer informatie.
 
 ## <a name="live-connections-and-directquery-to-on-premises-data-sources"></a>Live-verbindingen en DirectQuery voor on-premises gegevensbronnen
-Met de on-premises gegevensgateway kunt u vanuit Power BI query's uitvoeren op de on-premises gegevensbronnen. Wanneer u interactie hebt met een visualisatie, worden query's rechtstreeks vanuit Power BI verzonden naar de database. Er worden dan bijgewerkte gegevens geretourneerd en de visualisaties worden bijgewerkt. Omdat er een rechtstreekse verbinding bestaat tussen Power BI en de database, is het niet nodig om gegevensvernieuwing te plannen.
+Met de on-premises gegevensgateway kunt u vanuit Power BI query's uitvoeren voor de on-premises gegevensbronnen. Wanneer u interactie hebt met een visualisatie, worden query's rechtstreeks vanuit Power BI verzonden naar de database. Er worden dan bijgewerkte gegevens geretourneerd en de visualisaties worden bijgewerkt. Omdat er een rechtstreekse verbinding bestaat tussen Power BI en de database, is het niet nodig om gegevensvernieuwing te plannen.
 
 Wanneer u een live-verbinding gebruikt om verbinding te maken met een gegevensbron van SQL Service Analysis Services (SSAS), in plaats van DirectQuery, kan de live-verbinding met een SSAS-bron verlopen via de cache, zelfs bij het laden van een rapport. Dit gedrag zorgt ervoor dat het rapport sneller kan worden geladen. U kunt de meest recente gegevens uit de SSAS-gegevensbron opvragen via de knop **Vernieuwen**. Eigenaren van SSAS-gegevensbronnen kunnen de vernieuwingsfrequentie voor de cache van de gegevensset configureren om ervoor te zorgen dat rapporten zo actueel zijn als nodig is. 
 

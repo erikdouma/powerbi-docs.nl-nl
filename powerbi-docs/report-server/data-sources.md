@@ -2,26 +2,26 @@
 title: Power BI-rapportgegevensbronnen in Power BI Report Server
 description: Power BI-rapporten kunnen verbinding maken met verschillende gegevensbronnen. Afhankelijk van hoe de gegevens worden gebruikt, zijn er verschillende gegevensbronnen beschikbaar.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
+ms.date: 03/21/2018
 ms.author: maghan
-ms.openlocfilehash: caa45aab2c31974abb041a82eb2216ebee2eb148
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 3777c58bae36d6115b51b64e0422529fe390a13c
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI-rapportgegevensbronnen in Power BI Report Server
 Power BI-rapporten kunnen verbinding maken met verschillende gegevensbronnen. Afhankelijk van hoe de gegevens worden gebruikt, zijn er verschillende gegevensbronnen beschikbaar. De gegevens kunnen worden geïmporteerd of de gegevens kunnen rechtstreeks worden opgevraagd rechtstreeks met DirectQuery of een liveverbinding met SQL Server Analysis Services.
@@ -34,6 +34,7 @@ Deze gegevensbronnen zijn specifiek voor Power BI-rapporten die in Power BI Repo
 > 
 
 ## <a name="list-of-supported-data-sources"></a>Lijst met ondersteunde gegevensbronnen
+
 Andere gegevensbronnen werken mogelijk ook, ondanks dat ze niet op de ondersteunde lijst staan.
 
 | **Gegevensbron** | **In cache opgeslagen gegevens** | **Geplande vernieuwing** | **Live/DirectQuery** |
@@ -48,7 +49,7 @@ Andere gegevensbronnen werken mogelijk ook, ondanks dat ze niet op de ondersteun
 | Amazon Redshift |Ja |Nee |Nee |
 | Azure Blob Storage |Ja |Ja |Nee |
 | Azure Data Lake Store |Ja |Nee |Nee |
-| Azure HDInsight (HDFS) |Ja |Ja |Nee |
+| Azure HDInsight (HDFS) |Ja |Nee |Nee |
 | Azure HDInsight (Spark) |Ja |Ja |Nee |
 | Azure Table Storage |Ja |Ja |Nee |
 | Dynamics 365 (online) |Ja |Nee |Nee |
@@ -119,6 +120,100 @@ Andere gegevensbronnen werken mogelijk ook, ondanks dat ze niet op de ondersteun
 > De beveiliging op rijniveau die is geconfigureerd voor de gegevensbron, moet werken voor DirectQuery (SQL Server, Azure SQL Database, Oracle en Teradata) en liveverbindingen, mits Kerberos goed is geconfigureerd in uw omgeving.
 > 
 > 
+
+## <a name="list-of-supported-authentication-methods-for-model-refresh"></a>Lijst met ondersteunde verificatiemethoden voor modelvernieuwing
+
+Power BI Report Server biedt geen ondersteuning voor verificatie op basis van OAuth voor modelvernieuwing. Sommige gegevensbronnen, zoals Excel of Access-databases, maken gebruik van een afzonderlijke stap zoals Bestand of Web om verbinding te maken met gegevens.
+
+| **Gegevensbron** | **Anonieme verificatie** | **Verificatie met sleutel** | **Gebruikersnaam en wachtwoord** | **Windows-verificatie** |
+| --- | --- | --- | --- | --- |
+| SQL Server-database |Nee |Nee |Ja |Ja |
+| SQL Server Analysis Services |Nee |Nee |Ja |Ja |
+| Web |Ja |Nee |Ja |Ja |
+| Azure SQL Database |Nee |Nee |Ja |Nee |
+| Azure SQL Data Warehouse |Nee |Nee |Ja |Nee |
+| Active Directory |Nee |Nee |Ja |Ja |
+| Amazon Redshift |Nee |Nee |Nee |Nee |
+| Azure Blob Storage |Ja |Ja |Nee |Nee |
+| Azure Data Lake Store |Nee |Nee |Nee |Nee |
+| Azure HDInsight (HDFS) |Nee |Nee |Nee |Nee |
+| Azure HDInsight (Spark) |Ja |Ja |Nee |Nee |
+| Azure-tabelopslag |Nee |Ja |Nee |Nee |
+| Dynamics 365 (online) |Nee |Nee |Nee |Nee |
+| Facebook |Nee |Nee |Nee |Nee |
+| Map |Nee |Nee |Nee |Ja |
+| Google Analytics |Nee |Nee |Nee |Nee |
+| Hadoop-bestand (HDFS) |Nee |Nee |Nee |Nee |
+| IBM DB2-database |Nee |Nee |Ja |Ja |
+| Impala |Nee |Nee |Nee |Nee |
+| Microsoft Exchange |Nee |Nee |Nee |Nee |
+| Microsoft Exchange Online |Nee |Nee |Nee |Nee |
+| MySQL-database |Nee |Nee |Ja |Ja |
+| OData-feed |Ja |Ja |Ja |Ja |
+| ODBC |Ja |Nee |Ja |Ja |
+| OLE DB |Ja |Nee |Ja |Ja |
+| Oracle-database |Nee |Nee |Ja |Ja |
+| PostgreSQL-database |Nee |Nee |Ja |Nee |
+| Power BI-service |Nee |Nee |Nee |Nee |
+| R-script |Nee |Nee |Nee |Nee |
+| Salesforce-objecten |Nee |Nee |Nee |Nee |
+| Salesforce-rapporten |Nee |Nee |Nee |Nee |
+| SAP Business Warehouse-server |Nee |Nee |Ja |Nee |
+| SAP HANA-database |Nee |Nee |Ja |Ja |
+| SharePoint-map (on-premises) |Ja |Nee |Nee |Ja |
+| SharePoint-lijst (on-premises) |Ja |Nee |Nee |Ja |
+| SharePoint Online-lijst |Nee |Nee |Nee |Nee |
+| Snowflake |Nee |Nee |Nee |Nee |
+| Sybase-database |Nee |Nee |Ja |Ja |
+| Teradata-database |Nee |Nee |Ja |Ja |
+| appFigures (bèta) |Nee |Nee |Nee |Nee |
+| SQL Server Analysis Services-database (bèta) |Nee |Nee |Nee |Nee |
+| Azure Cosmos DB (bèta) |Nee |Nee |Nee |Nee |
+| Azure HDInsight Spark (bèta) |Nee |Nee |Nee |Nee |
+| Common Data Service (bèta) |Nee |Nee |Nee |Nee |
+| comScore Digital Analytix (bèta) |Nee |Nee |Nee |Nee |
+| Dynamics 365 for Customer Insights (bèta) |Nee |Nee |Nee |Nee |
+| Dynamics 365 for Financials (bèta) |Nee |Nee |Nee |Nee |
+| GitHub (bèta) |Nee |Nee |Nee |Nee |
+| Google BigQuery (bèta) |Nee |Nee |Nee |Nee |
+| IBM Informix-database (bèta) |Nee |Nee |Nee |Nee |
+| IBM Netezza (bèta) |Nee |Nee |Nee |Nee |
+| Kusto (bèta) |Nee |Nee |Nee |Nee |
+| MailChimp (bèta) |Nee |Nee |Nee |Nee |
+| Inzicht van Microsoft Azure-verbruik (bèta) |Nee |Nee |Nee |Nee |
+| Mixpanel (bèta) |Nee |Nee |Nee |Nee |
+| Planview Enterprise (bèta) |Nee |Nee |Nee |Nee |
+| Projectplace (bèta) |Nee |Nee |Nee |Nee |
+| QuickBooks Online (bèta) |Nee |Nee |Nee |Nee |
+| Smartsheet |Nee |Nee |Nee |Nee |
+| Spark (bèta) |Nee |Nee |Nee |Nee |
+| SparkPost (bèta) |Nee |Nee |Nee |Nee |
+| SQL Sentry (bèta) |Nee |Nee |Nee |Nee |
+| Stripe (bèta) |Nee |Nee |Nee |Nee |
+| SweetIQ (bèta) |Nee |Nee |Nee |Nee |
+| Troux (bèta) |Nee |Nee |Nee |Nee |
+| Twilio (bèta) |Nee |Nee |Nee |Nee |
+| tyGraph (bèta) |Nee |Nee |Nee |Nee |
+| Vertica (bèta) |Nee |Nee |Nee |Nee |
+| Visual Studio-teamservices (bèta) |Nee |Nee |Nee |Nee |
+| Webtrends (bèta) |Nee |Nee |Nee |Nee |
+| Zendesk (bèta) |Nee |Nee |Nee |Nee |
+
+## <a name="list-of-supported-authentication-methods-for-directquery"></a>Lijst met ondersteunde verificatiemethoden voor DirectQuery
+
+Power BI Report Server biedt geen ondersteuning voor verificatie op basis van OAuth voor DirectQuery.
+
+| **Gegevensbron** | **Anonieme verificatie** | **Verificatie met sleutel** | **Gebruikersnaam en wachtwoord** | **Windows-verificatie** | **Geïntegreerde Windows-verificatie** |
+| --- | --- | --- | --- | --- | --- |
+| SQL Server-database |Nee |Nee |Ja |Ja |Ja |
+| SQL Server Analysis Services |Nee |Nee |Ja |Ja |Ja |
+| Azure SQL Database |Nee |Nee |Ja |Nee |Nee |
+| Azure SQL Data Warehouse |Nee |Nee |Ja |Nee |Nee |
+| Oracle-database |Nee |Nee |Ja |Ja |Ja |
+| SAP Business Warehouse-server |Nee |Nee |Ja |Nee |Ja |
+| SAP HANA-database |Nee |Nee |Ja |Ja |Nee |
+| Teradata-database |Nee |Nee |Ja |Ja |Ja |
+
 
 ## <a name="next-steps"></a>Volgende stappen
 Nu de gegevensbron is gekozen, kunt u [een rapport maken](quickstart-create-powerbi-report.md) op basis van de gegeven in die gegevensbron.

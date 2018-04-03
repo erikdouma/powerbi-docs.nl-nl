@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7b1b56ee467dfdf6dc8c63557a9a9f4ab86e965e
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 966399c2ad11ac6a04400e3c009927deb6d35b94
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="directquery-and-sap-hana"></a>DirectQuery en SAP HANA
 Met behulp van **DirectQuery** kunt u rechtstreeks verbinding maken met **SAP HANA**-gegevensbronnen. Er zijn twee opties om verbinding te maken met SAP HANA:
@@ -43,7 +43,7 @@ We gaan beide benaderingen grondiger bekijken.
 
 ## <a name="treat-sap-hana-as-a-multi-dimensional-source-default"></a>SAP HANA behandelen als een multi-dimensionale bron (standaard)
 
-Deze verbindingsmethode wordt standaard gebruikt voor alle nieuwe verbindingen met SAP HANA, waarbij SAP HANA wordt behandeld als een multi-dimensionale bron. Als u een verbinding met SAP HANA als relationele bron wilt behandelen, moet u **Bestand > Opties en instellingen** selecteren en het vakje onder **Direct Query > SAP HANA behandelen als een relationele bron** aanvinken. Hoewel deze functie beschikbaar is als **Preview**-versie, kunnen rapporten die gebruikmaken van de multi-dimensionale benadering *niet* worden gepubliceerd in de Power BI-service. Als u dat wel doet, levert dat fouten op wanneer het rapport wordt geopend in de Power BI-service.  
+Deze verbindingsmethode wordt standaard gebruikt voor alle nieuwe verbindingen met SAP HANA, waarbij SAP HANA wordt behandeld als een multi-dimensionale bron. Als u een verbinding met SAP HANA als relationele bron wilt behandelen, moet u **Bestand > Opties en instellingen > Opties** selecteren en het vakje onder **DirectQuery > SAP HANA behandelen als een relationele bron** inschakelen. Hoewel deze functie beschikbaar is als **Preview**-versie, kunnen rapporten die gebruikmaken van de multi-dimensionale benadering *niet* worden gepubliceerd in de Power BI-service. Als u dat wel doet, levert dat fouten op wanneer het rapport wordt geopend in de Power BI-service.  
 
 Wanneer u verbinding maakt met SAP HANA als een multi-dimensionale bron, is het volgende van toepassing:
 
@@ -63,24 +63,24 @@ De lijst met **velden** bevat alle metingen, kenmerken en hiërarchieën uit de 
 
 * In SAP HANA kan een kenmerk worden gedefinieerd om een ander kenmerk als label te gebruiken. Een **Product** (met de waarden 1, 2, 3, enzovoort) kan bijvoorbeeld **ProductName** (met de waarden Fiets, Shirt, Handschoenen, enzovoort) als label gebruiken. In dit geval wordt er één veld, **Product**, weergegeven in de lijst met velden, waarvan de waarden de labels Fiets, Shirt, Handschoenen, enzovoort zijn, maar dat wordt gesorteerd op, en met uniekheid bepaald door, de sleutelwaarden 1, 2, 3. Er wordt ook een verborgen kolom **Product.Key** gemaakt, zodat er, indien nodig, toegang tot de onderliggende sleutelwaarden kan worden verkregen. 
 
-Eventuele variabelen die zijn gedefinieerd in de onderliggende SAP HANA-weergave worden weergegeven op het moment van verbinden, waarna de vereiste waarden kunnen worden ingevoerd. Die waarden kunnen vervolgens worden gewijzigd door **Query's bewerken** te selecteren vanuit het lint en door vervolgens **Variabelen bewerken** te selecteren uit de vervolgkeuzelijst die wordt weergegeven. 
+Eventuele variabelen die zijn gedefinieerd in de onderliggende SAP HANA-weergave, worden weergegeven op het moment van verbinden, waarna de vereiste waarden kunnen worden ingevoerd. Die waarden kunnen vervolgens worden gewijzigd door **Query's bewerken** te selecteren vanuit het lint en door vervolgens **Parameters beheren** te selecteren in de vervolgkeuzelijst die wordt weergegeven. 
 
-De toegestane modelleringsbewerkingen zijn restrictiever dan dat normaal is wanneer er gebruik wordt gemaakt van DirectQuery, omdat ervoor gezorgd moet worden dat de juiste samengevoegde gegevens kunnen worden opgehaald van SAP HANA. Het is echter nog steeds mogelijk om vele toevoegingen te doen en wijzigingen aan te brengen, waaronder metingen definiëren, velden hernoemen en verbergen en weergave-indelingen maken. Al die veranderingen worden bewaard na vernieuwing en niet-conflicterende wijzigingen in de SAP HANA-weergave worden toegepast. 
+De toegestane modelleringsbewerkingen zijn restrictiever dan dat normaal is wanneer er gebruik wordt gemaakt van DirectQuery, omdat ervoor moet worden gezorgd dat de juiste samengevoegde gegevens kunnen worden opgehaald van SAP HANA. Het is echter nog steeds mogelijk om vele toevoegingen te doen en wijzigingen aan te brengen, waaronder metingen definiëren, velden hernoemen en verbergen en weergave-indelingen maken. Al die veranderingen worden bewaard na vernieuwing en niet-conflicterende wijzigingen in de SAP HANA-weergave worden toegepast. 
 
-### <a name="additional-modelling-restrictions"></a>Extra modelleringsbeperkingen
+### <a name="additional-modeling-restrictions"></a>Extra modelleringsbeperkingen
 
 De primaire extra modelleringsbeperkingen bij het verbinden met SAP HANA met behulp van DirectQuery (behandeld als multi-dimensionale bron) zijn als volgt: 
 
 * **Geen ondersteuning voor berekende kolommen:** de mogelijkheid voor het maken van berekende kolommen is uitgeschakeld. Dit betekent ook dat Groeperen en Clustering, waarmee berekende kolommen worden gemaakt, niet beschikbaar zijn.
 * **Aanvullende beperkingen voor metingen:** er zijn extra beperkingen voor de DAX-expressies die kunnen worden gebruikt in metingen, overeenkomstig het door SAP HANA geboden ondersteuningsniveau.
-* **Geen ondersteuning voor het definiëren van relaties:** in een rapport kunnen query's slechts één weergave vormen en daarom is er geen ondersteuning om relaties te definiëren.
+* **Geen ondersteuning voor het definiëren van relaties:** in een rapport kunnen query's slechts voor één weergave worden uitgevoerd. Daarom wordt het definiëren van relaties niet ondersteund.
 * **Geen gegevensweergave:** de **Gegevensweergave** geeft normaal gesproken de gegevens op detailniveau weer in de tabellen. Gezien de aard van OLAP-bronnen zoals SAP HANA, is deze weergave niet beschikbaar via SAP HANA.
 * **Kolom- en metingsdetails zijn vast:** de lijst met kolommen en metingen in de lijst met velden wordt bepaald door de onderliggende gegevensbron en kan niet worden gewijzigd. Het is bijvoorbeeld niet mogelijk om een kolom te verwijderen of het gegevenstype ervan te wijzigen (de naam kan wel worden gewijzigd).
 * **Extra beperkingen in DAX:** er zijn extra beperkingen met betrekking tot de DAX die kunnen worden gebruikt in metingdefinities, in overeenstemming met beperkingen in de bron. Het is bijvoorbeeld niet mogelijk om een statistische functie over een tabel te gebruiken.
 
 ### <a name="additional-visualization-restrictions"></a>Extra visualisatiebeperkingen
 
-Er zijn weinig beperkingen in visuals bij het verbinden met SAP HANA met behulp van DirectQuery (behandeld als multi-dimensionale bron): 
+Er zijn beperkingen in visuals bij het verbinden met SAP HANA met behulp van DirectQuery (behandeld als multi-dimensionale bron): 
 * **Geen aggregatie van kolommen:** het is niet mogelijk de aggregatie voor een kolom in een visual te wijzigen, deze is altijd *Niet samenvatten*.
 
 ## <a name="treat-sap-hana-as-a-relational-source"></a>SAP HANA behandelen als een relationele bron 
@@ -138,14 +138,14 @@ Dit is omdat Power BI toegang krijgt tot SAP HANA via de SQL-interface en er kan
 * **Andere hiërarchiemetagegevens**: de basisstructuur van hiërarchieën wordt weergegeven in Power BI, maar sommige hiërarchiemetagegevens (zoals het gedrag controleren van niet-aaneengesloten hiërarchieën) hebben geen effect.
 Ook dit komt door de beperkingen die door de SQL-interface zijn opgelegd.
 * **Verbinding met SSL**: u kunt geen verbinding maken met SAP HANA-exemplaren die zijn geconfigureerd om SSL te gebruiken.
-Power BI kan verbinding maken met analytische en berekeningsweergaven ter ondersteuning van kenmerkweergaven, maar niet rechtstreeks met kenmerkweergaven.
+* **Ondersteuning voor kenmerkweergaven**: Power BI kan verbinding maken met analytische en berekeningsweergaven, maar niet rechtstreeks met kenmerkweergaven.
 * **Ondersteuning voor catalogusobjecten**: Power BI kan geen verbinding met de catalogusobjecten.
 * **Variabelen wijzigen na publicatie**: nadat het rapport is gepubliceerd, kunt u de waarden van SAP HANA-variabelen niet meer rechtstreeks wijzigen in de Power BI-service. 
  
 ## <a name="known-issues"></a>Bekende problemen 
 De volgende lijst bevat alle bekende problemen die zich voor kunnen doen bij het verbinden met SAP HANA (DirectQuery) met behulp van Power BI. 
 
-* **SAP HANA-probleem bij query voor tellers en andere metingen**: onjuiste gegevens worden geretourneerd door SAP HANA wanneer er verbinding wordt gemaakt met een analytische weergave en er in dezelfde visual een tellermeting en een andere ratiometing wordt opgenomen. Dit wordt behandeld in SAP-notitie 2128928 (Onverwachte resultaten bij query naar een berekende kolom en een teller). In dit geval is de ratiometing onjuist. 
+* **SAP HANA-probleem bij query voor tellers en andere metingen**: onjuiste gegevens worden geretourneerd door SAP HANA wanneer er verbinding wordt gemaakt met een analytische weergave en er in dezelfde visual een tellermeting en een andere ratiometing wordt opgenomen. Dit wordt behandeld in SAP-notitie 2128928 (Onverwachte resultaten bij het uitvoeren van een query voor een berekende kolom en een teller). In dit geval is de ratiometing onjuist. 
 
 * **Meerdere Power BI-kolommen van één SAP HANA-kolom**: SAP HANA beschrijft sommige berekeningsweergaven waar een SAP HANA-kolom wordt gebruikt in meer dan één hiërarchie als twee afzonderlijke kenmerken. Dit resulteert erin dat er twee kolommen in Power BI worden gemaakt.  Deze kolommen zijn echter standaard verborgen en alle query's die betrekking hebben op de hiërarchieën, of rechtstreeks op de kolommen, gedragen zich correct. 
  

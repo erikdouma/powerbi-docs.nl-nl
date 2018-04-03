@@ -2,14 +2,14 @@
 title: Privacyinstellingen uitschakelen
 description: Snel combineren in Personal Gateway inschakelen om privacyinstellingen voor het vernieuwen uit te schakelen.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,15 +18,15 @@ ms.workload: powerbi
 ms.date: 02/06/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 54d5f5ec2db890de0fbcef5ef0633548b90a6079
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b8ec52f3c8bcb4051bd0ac9064786ddbfd15d9fe
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="disable-privacy-setting-in-power-bi-gateway---personal"></a>Privacyinstelling in Power BI Gateway - Personal uitschakelen
 > [!NOTE]
-> Er is een nieuwe versie van de persoonlijke gateway voor Power BI: de **on-premises gegevensgateway (persoonlijke modus)**. Het volgende artikel beschrijft de vorige versie van de persoonlijke gateway, genaamd **Power BI Gateway - Personal**. Deze wordt op 31 juli 2017 buiten gebruik gesteld, waarna deze niet meer zal werken. Zie het artikel [**On-premises gegevensgateway (persoonlijke modus)**](service-gateway-personal-mode.md) voor meer informatie over de nieuwe versie van de persoonlijke gateway, inclusief de installatie-instructies. Snel combineren is ook beschikbaar in de nieuwe versie van de persoonlijke gateway en wordt ook in dat artikel beschreven.
+> Er is een nieuwe versie van de persoonlijke gateway voor Power BI: de **On-premises gegevensgateway (persoonlijke modus)**. Het volgende artikel beschrijft de vorige versie van de persoonlijke gateway, genaamd **Power BI Gateway - Personal**. Deze wordt op 31 juli 2017 buiten gebruik gesteld, waarna deze niet meer zal werken. Zie het artikel [**On-premises gegevensgateway (persoonlijke modus)**](service-gateway-personal-mode.md) voor meer informatie over de nieuwe versie van de persoonlijke gateway, inclusief de installatie-instructies. Snel combineren is ook beschikbaar in de nieuwe versie van de persoonlijke gateway en wordt ook in dat artikel beschreven.
 > 
 > 
 
