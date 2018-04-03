@@ -2,13 +2,13 @@
 title: Geplande vernieuwing configureren
 description: In dit artikel wordt uitgelegd welke stappen u moet uitvoeren om een gateway te selecteren en een geplande vernieuwing te configureren.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
+backup: ''
+editor: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: dec6b60b4dfddd9a4c55ee01cb7b9dc6b8c71cd3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: af8895b90b2f3315fb0cfd71351dbe65c108071e
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="configuring-scheduled-refresh"></a>Een geplande vernieuwing configureren
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 02/24/2018
 
 Als uw gegevensset geplande vernieuwing ondersteunt met Nu vernieuwen en Vernieuwen plannen, zijn er enkele belangrijke vereisten en instellingen voor een geslaagde vernieuwing. Dit zijn **Gatewayverbinding**, **Gegevensbronreferenties** en **Vernieuwen plannen**. Laten we deze items eens nader bekijken.
 
-Hieronder worden de optie beschreven voor [Power BI Gateway - Personal](personal-gateway.md) en de [on-premises gegevensgateway](service-gateway-onprem.md).
+Hieronder worden de opties beschreven voor [Power BI Gateway - Personal](personal-gateway.md) en de [on-premises gegevensgateway](service-gateway-onprem.md).
 
 Ga als volgt te werk om het venster Vernieuwen plannen weer te geven:
 
@@ -130,7 +130,7 @@ Soms gaat het vernieuwen van gegevens niet zoals u verwacht. Meestal komt dat do
 ## <a name="next-steps"></a>Volgende stappen
 [Gegevens vernieuwen in Power BI](refresh-data.md)  
 [Power BI Gateway - Personal](personal-gateway.md)  
-[On-premises gegevensgateway](service-gateway-onprem.md)  
+[On-premises data gateway](service-gateway-onprem.md) (On-premises gegevensgateway)  
 [Problemen met de on-premises gegevensgateway oplossen](service-gateway-onprem-tshoot.md)  
 [Problemen met Power BI Gateway - Personal oplossen](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 

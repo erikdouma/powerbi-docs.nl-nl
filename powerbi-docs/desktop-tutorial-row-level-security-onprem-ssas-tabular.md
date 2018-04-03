@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 67b347be9974605156d02cbbf179126c68ae91e8
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 34ad1c6568dfd73dc65d561e4fed7bf8c4c63fbc
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="tutorial-dynamic-row-level-security-with-analysis-services-tabular-model"></a>Zelfstudie: Dynamische beveiliging op rijniveau met tabellair model van Analysis Services
 In deze zelfstudie ziet u de benodigde stappen voor het implementeren van **beveiliging op rijniveau** binnen een **tabellair model van Analysis Services**, en wordt beschreven hoe u dit model kunt gebruiken in een Power BI-rapport. Het is de bedoeling dat u de stappen in deze zelfstudie volgt, en zo leert wat de benodigde stappen zijn, door deze uit te voeren op een voorbeeldgegevensset.
@@ -38,31 +38,31 @@ Tijdens deze zelfstudie worden de volgende stappen in detail beschreven, zodat u
 * Een nieuw dashboard maken op basis van het rapport
 * Het dashboard delen met uw collega's
 
-Om de stappen in deze zelfstudie te volgen, hebt u de database **AdventureworksDW2012** nodig. Deze kunt u **[hier](http://msftdbprodsamples.codeplex.com/releases/view/55330)** downloaden.
+Om de stappen in deze zelfstudie te volgen, hebt u de database **AdventureworksDW2012** nodig. Deze kunt u downloaden uit de **[opslagplaats](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)**.
 
 ## <a name="task-1-create-the-user-security-table-and-define-data-relationship"></a>Taak 1: De gebruikersbeveiligingstabel maken en de gegevensrelatie definiëren
-Er zijn veel gepubliceerde artikelen waarin wordt beschreven hoe u dynamische beveiliging op rijniveau met het **tabellaire model van SQL Server Analysis Services (SSAS)** kunt definiëren. [Voor dit voorbeeld volgen we dit artikel.](https://msdn.microsoft.com/library/hh479759.aspx) Met de volgende stappen doorloopt u de eerste taak in deze zelfstudie.
+Er zijn veel gepubliceerde artikelen waarin wordt beschreven hoe u dynamische beveiliging op rijniveau met het **tabellaire model van SQL Server Analysis Services (SSAS)** kunt definiëren. Voor ons voorbeeld volgen we het artikel [Implement Dynamic Security by Using Row Filters](https://msdn.microsoft.com/library/hh479759.aspx) (Dynamische beveiliging implementeren door rijfilters te gebruiken). Met de volgende stappen doorloopt u de eerste taak in deze zelfstudie:
 
 1. Voor dit voorbeeld maken we gebruik van de relationele database **AdventureworksDW2012**. Maak de tabel **DimUserSecurity** in de database, zoals wordt weergegeven in de volgende afbeelding. Voor dit voorbeeld maken we de tabel met behulp van SQL Server Management Studio (SSMS).
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable.png)
-2. Wanneer de tabel is gemaakt en opgeslagen, moeten we de relatie tussen de kolom **SalesTerritoryID** van de tabel **DimUserSecurity** en de kolom **SalesTerritoryKey** van de tabel **DimSalesTerritory** definiëren, zoals wordt weergegeven in de volgende afbeelding. Klik hiertoe vanuit **SSMS** met de rechtermuisknop op de tabel **DimUserSecurity** en selecteer **Edit** (bewerken).
+2. Wanneer de tabel is gemaakt en opgeslagen, moeten we de relatie tussen de kolom **SalesTerritoryID** van de tabel **DimUserSecurity** en de kolom **SalesTerritoryKey** van de tabel **DimSalesTerritory** definiëren, zoals wordt weergegeven in de volgende afbeelding. Klik hiertoe vanuit **SSMS** met de rechtermuisknop op de tabel **DimUserSecurity** en selecteer **Ontwerpen**. Selecteer vervolgens **Tabelontwerpfunctie -> Relaties** in het menu.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_keys.png)
-3. Sla de tabel op en voeg enkele rijen met gebruikersgegevens toe aan de tabel. Klik hiertoe opnieuw met de rechtermuisknop op de tabel **DimUserSecurity** en selecteer **Edit top 200 rows** (bovenste 200 rijen bewerken). Nadat u de gebruikers hebt toegevoegd, zien de rijen van de tabel **DimUserSecurity** er ongeveer uit zoals in de volgende afbeelding:
+3. Sla de tabel op en voeg enkele rijen met gebruikersgegevens toe aan de tabel. Klik hiertoe opnieuw met de rechtermuisknop op de tabel **DimUserSecurity** en selecteer **Edit top 200 rows** (Bovenste 200 rijen bewerken). Nadat u de gebruikers hebt toegevoegd, zien de rijen van de tabel **DimUserSecurity** er ongeveer uit zoals in de volgende afbeelding:
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_users.png)
    
    In latere taken komen we op deze gebruikers terug.
 4. Vervolgens voeren we een *inner join* uit op de tabel **DimSalesTerritory**. In deze tabel worden de regiodetails van de gekoppelde gebruiker weergegeven. De *inner join* wordt uitgevoerd met de volgende code. In de volgende afbeelding ziet u hoe de tabel eruitziet als de *inner join* is geslaagd.
    
-       **select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeKey, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join  [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryKey] = b.[SalesTerritoryKey]**
+       select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeID, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join  [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryKey] = b.[SalesTerritoryID]
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_join_users.png)
 5. Merk op dat de bovenstaande afbeelding informatie bevat over de verantwoordelijke gebruiker(s) per verkoopregio. Deze gegevens worden weergegeven vanwege de relatie die we hebben gemaakt in **stap 2**. Merk ook op dat de gebruiker **Jon Doe deel uitmaakt van de verkoopregio Australië**. We komen terug op Jon Doe in de komende stappen en taken.
 
 ## <a name="task-2-create-the-tabular-model-with-facts-and-dimension-tables"></a>Taak 2: Het tabellaire model met feiten- en dimensietabellen maken
-1. Zodra uw relationele datawarehouse geïnstalleerd is, is het tijd voor het definiëren van uw tabellaire model. Het model kan worden gemaakt met behulp van **SQL Server Data Tools (SSDT)**. [Raadpleeg dit artikel](https://msdn.microsoft.com/library/hh231689.aspx) voor meer informatie over het definiëren van een tabellair model.
+1. Zodra uw relationele datawarehouse geïnstalleerd is, is het tijd voor het definiëren van uw tabellaire model. Het model kan worden gemaakt met behulp van **SQL Server Data Tools (SSDT)**. Zie [Create a New Tabular Model Project](https://msdn.microsoft.com/library/hh231689.aspx) (Een nieuw project voor een tabellair model maken) voor meer informatie over het definiëren van een tabellair model.
 2. Importeer alle benodigde tabellen in het model zoals hieronder wordt weergegeven.
    
     ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/ssdt_model.png)
@@ -76,18 +76,19 @@ Er zijn veel gepubliceerde artikelen waarin wordt beschreven hoe u dynamische be
 6. In deze stap gebruiken we de functie **LOOKUPVALUE** om waarden te retourneren voor een kolom waarin de Windows-gebruikersnaam hetzelfde is als de gebruikersnaam die wordt geretourneerd door de functie **USERNAME**. Query's kunnen vervolgens worden beperkt als de waarden die worden geretourneerd door **LOOKUPVALUE** overeenkomen met de waarden in dezelfde tabel of een verwante tabel. Typ de volgende formule in de kolom **DAX Filter**:
    
        =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
-7. In deze formule retourneert de functie **LOOKUPVALUE** alle waarden voor de kolom **DimUserSecurity[SalesTerritoryID]**, waarbij de waarde van **DimUserSecurity[UserName]** gelijk is aan de huidige aangemelde Windows-gebruikersnaam en de waarde van **DimUserSecurity[SalesTerritoryID]** gelijk is aan die van **DimSalesTerritory[SalesTerritoryKey]**.
+    In deze formule retourneert de functie **LOOKUPVALUE** alle waarden voor de kolom **DimUserSecurity[SalesTerritoryID]**, waarbij de waarde van **DimUserSecurity[UserName]** gelijk is aan de huidige aangemelde Windows-gebruikersnaam en de waarde van **DimUserSecurity[SalesTerritoryID]** gelijk is aan die van **DimSalesTerritory[SalesTerritoryKey]**.
    
    De set waarden van SalesTerritoryKey die wordt geretourneerd door **LOOKUPVALUE**, wordt vervolgens gebruikt voor het beperken van de rijen in de tabel **DimSalesTerritory**. Alleen rijen waarvan de **SalesTerritoryKey** voor de rij voorkomt in de set met id's die zijn geretourneerd door de functie **LOOKUPVALUE**, worden weergegeven.
-8. Typ de volgende formule voor de tabel **DimUserSecurity** in de kolom **DAX Filter**.
+8. Typ de volgende formule voor de tabel **DimUserSecurity** in de kolom **DAX Filter**:
    
        =FALSE()
-9. Met deze formule worden alle kolommen opgelost naar de Booleaanse voorwaarde false, zodat er geen kolommen voor de tabel **DimUserSecurity** kunnen worden opgevraagd.
-10. Nu moeten we het model verwerken en implementeren. Raadpleeg [dit artikel](https://msdn.microsoft.com/library/hh231693.aspx) voor hulp bij het implementeren van het model.
+
+    Met deze formule worden alle kolommen opgelost naar de Booleaanse voorwaarde false, zodat er geen kolommen voor de tabel **DimUserSecurity** kunnen worden opgevraagd.
+1. Nu moeten we het model verwerken en implementeren. Zie [het artikel Deploy](https://msdn.microsoft.com/library/hh231693.aspx) voor hulp bij het implementeren van het model.
 
 ## <a name="task-3-adding-data-sources-within-your-on-premises-data-gateway"></a>Taak 3: Gegevensbronnen toevoegen binnen uw On-premises gegevensgateway
 1. Nadat het tabellaire model geïmplementeerd en gereed voor gebruik is, moet u een gegevensbronverbinding toevoegen aan uw tabellaire on-premises Analysis Services-server in uw Power BI-portal.
-2. Om de **Power BI-service** toegang tot uw on-premises Analysis-service te geven, moet u een **[On-premises gegevensgateway](service-gateway-onprem.md)** hebben geïnstalleerd en geconfigureerd in uw omgeving.
+2. Om de **Power BI-service** toegang tot uw on-premises Analysis-service te geven, moet u een **[on-premises gegevensgateway](service-gateway-onprem.md)** hebben geïnstalleerd en geconfigureerd in uw omgeving.
 3. Als de gateway correct is geconfigureerd, moet u gegevensbronverbinding maken voor uw tabellaire **Analysis Services**-exemplaar. Raadpleeg dit artikel voor het [toevoegen van een gegevensbron in de Power BI-portal](service-gateway-enterprise-manage-ssas.md).
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/pbi_gateway.png)
@@ -98,14 +99,14 @@ Er zijn veel gepubliceerde artikelen waarin wordt beschreven hoe u dynamische be
 2. Selecteer in de lijst met gegevensbronnen **SQL Server Analysis Services-database** en selecteer **Verbinding maken**.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata.png)
-3. Vul de details van uw tabellaire **Analysis Services**-exemplaar in en selecteer **Live verbinding maken**. Selecteer OK. In **Power BI** werkt dynamische beveiliging alleen bij een **liveverbinding**.
+3. Vul de details van uw tabellaire **Analysis Services**-exemplaar in en selecteer **Live verbinding maken**. Selecteer **OK**. In **Power BI** werkt dynamische beveiliging alleen bij een **liveverbinding**.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata_connectlive.png)
 4. U ziet dat het model dat is geïmplementeerd in het **Analysis Services**-exemplaar. Selecteer het betreffende model en selecteer **OK**.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata_connectlive.png)
 5. In **Power BI Desktop** worden nu alle beschikbare velden weergegeven, rechts van het canvas in het deelvenster **Velden**.
-6. Selecteer in het deelvenster **Velden** aan de rechterkant de meting **SalesAmount** uit de tabel **FactInternetSaless** en de dimensie **SalesTerritoryRegion** uit de tabel **SalesTerritory**.
+6. Selecteer in het deelvenster **Velden** aan de rechterkant de meting **SalesAmount** in de tabel **FactInternetSales** en de dimensie **SalesTerritoryRegion** in de tabel **SalesTerritory**.
 7. We willen dit rapport simpel houden, dus we zullen nu geen kolommen meer toevoegen. Om de gegevens wat duidelijker weer te geven, wijzigen we de visualisatie in **Ringdiagram**.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/donut_chart.png)
@@ -134,7 +135,7 @@ Er zijn veel gepubliceerde artikelen waarin wordt beschreven hoe u dynamische be
 2. De sessie wordt geïnitialiseerd zodra de gebruiker (in dit geval Jon Doe) het dashboard opent in de Power BI-service. U kunt zien dat de rol **salesterritoryusers** onmiddellijk van kracht wordt met de effectieve gebruikersnaam als **<EffectiveUserName>jondoe@moonneo.com</EffectiveUserName>**
    
        <PropertyList><Catalog>DefinedSalesTabular</Catalog><Timeout>600</Timeout><Content>SchemaData</Content><Format>Tabular</Format><AxisFormat>TupleFormat</AxisFormat><BeginRange>-1</BeginRange><EndRange>-1</EndRange><ShowHiddenCubes>false</ShowHiddenCubes><VisualMode>0</VisualMode><DbpropMsmdFlattened2>true</DbpropMsmdFlattened2><SspropInitAppName>PowerBI</SspropInitAppName><SecuredCellValue>0</SecuredCellValue><ImpactAnalysis>false</ImpactAnalysis><SQLQueryMode>Calculated</SQLQueryMode><ClientProcessID>6408</ClientProcessID><Cube>Model</Cube><ReturnCellProperties>true</ReturnCellProperties><CommitTimeout>0</CommitTimeout><ForceCommitTimeout>0</ForceCommitTimeout><ExecutionMode>Execute</ExecutionMode><RealTimeOlap>false</RealTimeOlap><MdxMissingMemberMode>Default</MdxMissingMemberMode><DisablePrefetchFacts>false</DisablePrefetchFacts><UpdateIsolationLevel>2</UpdateIsolationLevel><DbpropMsmdOptimizeResponse>0</DbpropMsmdOptimizeResponse><ResponseEncoding>Default</ResponseEncoding><DirectQueryMode>Default</DirectQueryMode><DbpropMsmdActivityID>4ea2a372-dd2f-4edd-a8ca-1b909b4165b5</DbpropMsmdActivityID><DbpropMsmdRequestID>2313cf77-b881-015d-e6da-eda9846d42db</DbpropMsmdRequestID><LocaleIdentifier>1033</LocaleIdentifier><EffectiveUserName>jondoe@moonneo.com</EffectiveUserName></PropertyList>
-3. Op basis van de aanvraag voor de effectieve gebruikersnaam, wordt de aanvraag in Analysis Services omgezet naar de werkelijke referentie moonneo\jondoe na het uitvoeren van de query op de lokale Active Directory. Als de werkelijke referentie eenmaal in **Analysis Services** is opgehaald uit Active Directory, worden in **Analysis Services** alleen de gegevens geretourneerd waarvoor de gebruiker gemachtigd is op basis van zijn of haar toegangsrechten.
+3. Op basis van de aanvraag voor de effectieve gebruikersnaam, wordt de aanvraag in Analysis Services omgezet naar de werkelijke referentie moonneo\jondoe na het uitvoeren van de query op de lokale Active Directory. Als de werkelijke referentie eenmaal in **Analysis Services** is opgehaald uit Active Directory, worden in **Analysis Services** alleen de gegevens geretourneerd waarvoor de gebruiker toegangsrechten en machtigingen heeft.
 4. Als er meer activiteit plaatsvindt in het dashboard, bijvoorbeeld als Jon Doe vanuit het dashboard naar het onderliggende rapport navigeert, ziet u dat er in SQL Profiler een specifieke query wordt geretourneerd naar het tabellaire Analysis Services-model als een DAX-query.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/profiler1.png)
@@ -165,7 +166,7 @@ Er zijn veel gepubliceerde artikelen waarin wordt beschreven hoe u dynamische be
    ```
 
 ## <a name="considerations"></a>Overwegingen
-Er zijn enkele overwegingen waarmee u rekening moet houden bij het werken met beveiliging op rijniveau, SSAS en Power BI.
+Er zijn enkele overwegingen waarmee u rekening moet houden bij het werken met beveiliging op rijniveau, SSAS en Power BI:
 
 1. On-premises beveiliging op rijniveau met Power BI is alleen beschikbaar bij een liveverbinding.
 2. Dankzij de **live verbinding** van de Power BI-service zijn eventuele wijzigingen in de gegevens na het verwerken van het model onmiddellijk beschikbaar voor de gebruikers die het rapport openen.

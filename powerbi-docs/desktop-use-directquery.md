@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/25/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: df45bbaa142b2c476a6391b1c43638e1ee76c3ae
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 83726531a3ef82f59efb6e12c0ea0dbcd4bf5d7c
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>DirectQuery in Power BI Desktop gebruiken
 Wanneer u in **Power BI Desktop** verbinding maakt met een gegevensbron, kunt u altijd een kopie van de gegevens in **Power BI Desktop** importeren. Voor sommige gegevensbronnen kunt u ook rechtstreeks verbinding maken met de gegevensbron via **DirectQuery**.
@@ -62,7 +62,7 @@ Het gebruik van **DirectQuery** is onderhevig aan de volgende beperkingen:
 * Standaard worden er beperkingen gesteld aan DAX-expressies die zijn toegestaan in metingen. Zie de volgende alinea (na deze lijst met opsommingstekens) voor meer informatie
 * Er worden maximaal 1 miljoen rijen met gegevens geretourneerd wanneer u **DirectQuery** gebruikt. Dit is niet van invloed op aggregaties of berekeningen die worden gebruikt om de gegevensset te maken die met **DirectQuery** wordt geretourneerd, alleen op de geretourneerde rijen. U kunt bijvoorbeeld 10 miljoen rijen aggregeren met een query die wordt uitgevoerd op de gegevensbron, en het resultaat van deze aggregatie retourneren naar Power BI met **DirectQuery**, zolang er maar minder dan 1 miljoen rijen met gegevens naar Power BI worden geretourneerd. Als er meer dan 1 miljoen rijen worden geretourneerd met **DirectQuery**, treedt er een fout op in Power BI.
 
-Om ervoor te zorgen dat de prestaties van query's die naar de onderliggende gegevensbron worden verzonden acceptabel blijven, worden er standaard beperkingen opgelegd aan metingen. Geavanceerde gebruikers kunnen ervoor kiezen deze beperkingen als volgt te omzeilen: selecteer achtereenvolgens **Bestand > Opties**, **Instellingen > Opties en instellingen > DirectQuery** en de optie *Onbeperkte metingen toestaan in de DirectQuery-modus*. Als deze optie is geselecteerd, kan elke DAX-expressie worden gebruikt die geldig is voor een meting. Gebruikers moeten echter wel beseffen dat bepaalde expressies met hoge prestaties als de gegevens worden geïmporteerd, kunnen resulteren in erg trage query's als deze worden uitgevoerd op de back-endbron in de DirectQuery-modus.
+Om ervoor te zorgen dat de prestaties van query's die naar de onderliggende gegevensbron worden verzonden acceptabel blijven, worden er standaard beperkingen opgelegd aan metingen. Geavanceerde gebruikers kunnen ervoor kiezen deze beperking als volgt te omzeilen: selecteer achtereenvolgens **Bestand > Opties en instellingen > Opties**, **DirectQuery** en de optie *Onbeperkte metingen toestaan in de DirectQuery-modus*. Als deze optie is geselecteerd, kan elke DAX-expressie worden gebruikt die geldig is voor een meting. Gebruikers moeten echter wel beseffen dat bepaalde expressies met hoge prestaties als de gegevens worden geïmporteerd, kunnen resulteren in erg trage query's als deze worden uitgevoerd op de back-endbron in de DirectQuery-modus.
 
 ## <a name="important-considerations-when-using-directquery"></a>Belangrijke overwegingen bij het gebruik van DirectQuery
 Houd rekening met de volgende drie punten wanneer u **DirectQuery** gebruikt:
@@ -77,7 +77,7 @@ Houd rekening met de volgende drie punten wanneer u **DirectQuery** gebruikt:
       the maximum allowed size of '1000000' rows.
   
   Deze situatie kan zich voordoen bij een eenvoudig diagram met een kolom met een zeer hoge kardinaliteit, als de aggregatie-optie is ingesteld op *Niet samenvatten*. Het visuele element mag alleen kolommen bevatten met een kardinaliteit van minder dan 1 miljoen, of de juiste filters moeten worden toegepast.
-* **Beveiliging**: alle gebruikers die een gepubliceerd rapport gebruiken, maken verbinding met de back-endgegevensbron met behulp van de referenties die zijn ingevoerd na de publicatie van het rapport naar de Power BI-service. Dit is in feite hetzelfde als gegevens die worden geïmporteerd: alle gebruikers zien dezelfde gegevens, ongeacht eventuele beveiligingsregels die in de back-endbron zijn gedefinieerd. Klanten die beveiliging per gebruiker willen, moeten DirectQuery-bronnen implementeren en RLS gebruiken. [Meer informatie over RLS](service-admin-rls.md).
+* **Beveiliging**: alle gebruikers die een gepubliceerd rapport gebruiken, maken verbinding met de back-endgegevensbron met behulp van de referenties die zijn ingevoerd na de publicatie van het rapport naar de Power BI-service. Dit is in feite hetzelfde als gegevens die worden geïmporteerd: alle gebruikers zien dezelfde gegevens, ongeacht eventuele beveiligingsregels die in de back-endbron zijn gedefinieerd. Klanten die beveiliging per gebruiker bij DirectQuery-bronnen willen implementeren, moeten RLS gebruiken. [Meer informatie over RLS](service-admin-rls.md).
 * **Ondersteunde functies**: niet alle functies in **Power BI Desktop** worden ondersteund in de **DirectQuery**-modus, of kunnen beperkt zijn. Bovendien zijn sommige functies in de Power BI-service (zoals *Snelle inzichten*) niet beschikbaar voor gegevenssets als **DirectQuery** wordt gebruikt. Alle beperkingen van deze functies bij gebruik van **DirectQuery** moeten in aanmerking worden genomen bij het bepalen of u **DirectQuery** wilt gebruiken.   
 
 ## <a name="publish-to-the-power-bi-service"></a>Publiceren naar de Power BI-service

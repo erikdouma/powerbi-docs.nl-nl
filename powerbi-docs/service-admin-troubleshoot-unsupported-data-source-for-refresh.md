@@ -2,14 +2,14 @@
 title: Problemen oplossen met een gegevensbron waarvoor vernieuwen niet wordt ondersteund
 description: Problemen oplossen met een gegevensbron waarvoor vernieuwen niet wordt ondersteund
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 28ec83a12de986d7dab0a2cceb622b62ea16da1b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d09d75350cbffbab78c1a44252f18d2216c2505f
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>Problemen oplossen met een gegevensbron waarvoor vernieuwen niet wordt ondersteund
 Mogelijk wordt er een fout weergegeven wanneer u een gegevensset probeert te configureren voor een geplande vernieuwing.
@@ -47,7 +47,7 @@ Als u niet zeker weet welke gegevensbron is gebruikt, kunt u dit controleren doo
 ## <a name="next-steps"></a>Volgende stappen
 [Gegevens vernieuwen](refresh-data.md)  
 [Power BI Gateway - Personal](personal-gateway.md)  
-[On-premises gegevensgateway](service-gateway-onprem.md)  
+[On-premises data gateway](service-gateway-onprem.md) (On-premises gegevensgateway)  
 [Problemen met de on-premises gegevensgateway oplossen](service-gateway-onprem-tshoot.md)  
 [Problemen met Power BI Gateway - Personal oplossen](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
