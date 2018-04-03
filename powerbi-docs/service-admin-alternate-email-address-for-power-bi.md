@@ -55,7 +55,7 @@ Wanneer u een insluittoken van Active Azure Directory (AAD) voor Power BI wilt v
 
 Power BI selecteert welk e-mailadres moet worden gebruikt op basis van de volgende criteria:
 1.  Als het e-mailkenmerk in het gebruikersobject van de AAD-tenant aanwezig is, wordt dat mailkenmerk door Power BI als e-mailadres gebruikt
-2.  Als het UPN-e-mailadres *niet* tot het domein  **\*. onmicrosoft.com** behoort (de gegevens na het '@’-symbool), wordt dat mailkenmerk door Power BI als e-mailadres gebruikt
+2.  Als het UPN-e-mailadres *niet* tot het domein  **\*. onmicrosoft.com** behoort (de gegevens na het '\@’-symbool), wordt dat mailkenmerk door Power BI als e-mailadres gebruikt
 3.  Als het matrixkenmerk 'ander' e-mailadres in het AAD-gebruikersobject aanwezig is, wordt het eerste e-mailadres in de lijst gebruikt (omdat er een lijst kan zijn van e-mailadressen in dit kenmerk)
 4. Als geen van de bovenstaande voorwaarden aanwezig zijn, wordt het UPN-adres gebruikt
 
