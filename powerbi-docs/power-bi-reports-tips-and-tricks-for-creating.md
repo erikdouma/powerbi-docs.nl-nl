@@ -2,14 +2,14 @@
 title: Tips voor het maken van geweldige rapporten
 description: Tips en trucs voor het maken van rapporten in de Power BI-service
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 4ad78f3c776fcb5aa44332e23fdf5a14531b2bdf
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d19cc60ea23f87e14e78db9e896a4b17c19aeb66
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="tips-for-creating-stunning-reports"></a>Tips voor het maken van geweldige rapporten
 Er is weinig verschil tussen de Power BI-service en Power BI Desktop als het gaat om het maken van rapporten en het werken ermee. Dit betekent dat de meeste van deze koppelingen voor beide programma's van toepassing zijn.
@@ -45,7 +45,7 @@ Miguel Myers is lid van de community en is zowel gegevenswetenschapper als grafi
 * [Lees het blog](https://powerbi.microsoft.com/blog/how-to-design-visually-stunning-reports/)
 * [Bekijk de webinar](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-04Apr-19-Design-Reports-in-PowerBI-Registration.html)
 
-## <a name="next-steps"></a>Volgende stappen
+## <a name="next-steps"></a>Volgende stappen 
 [Power BI - basisconcepten](service-basic-concepts.md)
 
 [Rapporten in Power BI](service-reports.md)
