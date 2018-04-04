@@ -2,14 +2,14 @@
 title: Tips en trucs voor het stellen van vragen met de Q&A-functie in Power BI
 description: Tips en trucs voor het stellen van vragen met de Q&A-functie in Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/18/2018
 ms.author: jastru
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: bdf1f161e0a95bda5b37d9c43a3bdcc6bde1066a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 28ebd938b1121e1d2d453a9c9e72592b1c814742
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Tips voor het stellen van vragen met de Q&A-functie van Power BI
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Woorden en terminologie die door Q&A worden herkend
@@ -94,9 +94,6 @@ Er wordt geprobeerd om de vraag die u in Q&A stelt, zo nauwkeurig mogelijk te be
 * Er worden automatisch vervangende termen uit een of meer onderliggende gegevenssets voorgesteld wanneer u de muisaanwijzer in het vragenvak naar achteren verplaatst.
 * De vraag wordt op basis van de gegevens in een of meer onderliggende gegevenssets opnieuw geformuleerd. Dit is om te controleren of Q&A uw vraag heeft begrepen, aangezien de woorden die u hebt gebruikt, worden vervangen door synoniemen uit een of meer onderliggende gegevenssets.
 * Woorden die niet worden herkend, worden weergegeven in een lichtere kleur.
-
-## <a name="combine-results-from-more-than-one-dataset"></a>Resultaten van meerdere gegevenssets combineren
-Een van de krachtigste functies van Power BI is de mogelijkheid om gegevens uit verschillende gegevenssets te combineren.  Beperk uw vragen dus niet tot één gegevensset. Stel vragen waarmee u gegevens uit meerdere gegevenssets ophaalt. Als mijn dashboard bijvoorbeeld bevat uit het voorbeeld van een retailanalyse en een gegevensset met informatie over de populatie van de provinciën, kan ik het volgende vragen: *geef in aflopende volgorde het aantal winkels op basis van de provinciebevolking weer in een staafdiagram*.
 
 ## <a name="dont-stop-now"></a>Stop nog niet
 Nadat Q&A de resultaten heeft weergegeven, kunt u nog meer acties uitvoeren. Met de interactieve functies van de visualisatie en van Q&A kunt u nog meer inzichten te verwerven

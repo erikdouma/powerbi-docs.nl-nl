@@ -2,14 +2,14 @@
 title: Capaciteiten in Power BI Premium en Power BI Embedded beheren
 description: Lees hoe u Power BI Premium beheert en hoe u toegang tot inhoud voor uw hele organisatie inschakelt.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/10/2017
 ms.author: maghan
 LocalizationGroup: Premium
-ms.openlocfilehash: a6040871652484ad5de70a0d73e14a13742fe56a
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 556f91464e8a08b5cb149648be2b097578964af9
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Capaciteiten in Power BI Premium en Power BI Embedded beheren
 Meer informatie over het beheren van Power BI Premium- en Power BI Embedded-capaciteiten, die toegewezen resources voor uw inhoud bieden.
@@ -47,6 +47,10 @@ Als u wilt profiteren van de toegewezen capaciteit, moet u een abonnement voor P
 * **Power BI Embedded:** [Create Power BI Embedded capacity in the Azure portal](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity) (Power BI Embedded-capaciteit maken in Azure Portal)
 
 Bij de aankoop van Power BI Premium-SKU's ontvangt uw tenant het overeenkomstige aantal v cores dat nodig is om capaciteiten uit te voeren. Als u bijvoorbeeld Power BI Premium P3 SKU koopt, ontvangt de tenant 32 v-cores.
+
+> [!NOTE]
+> U hebt 30 dagen volledige toegang nadat uw abonnement is beëindigd. Daarna krijgt uw inhoud een gedeelde capaciteit. Modellen van > 1 GB worden niet ondersteund met een reguliere gedeelde licentie.
+>
 
 ## <a name="capacity-admins"></a>Capaciteitsbeheerders
 > [!NOTE]
