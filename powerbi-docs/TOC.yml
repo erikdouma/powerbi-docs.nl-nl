@@ -728,7 +728,7 @@
           href: desktop-common-query-tasks.md
         - name: Shape-kaarten gebruiken in Power BI Desktop (preview)
           href: desktop-shape-map.md
-        - name: Binaire bestanden combineren
+        - name: Bestanden combineren (binaire)
           href: desktop-combine-binaries.md
     - name: Uw gegevens modelleren
       items:
