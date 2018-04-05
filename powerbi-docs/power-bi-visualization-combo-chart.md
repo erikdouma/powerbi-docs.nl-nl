@@ -2,15 +2,15 @@
 title: Zelfstudie - combinatiegrafieken
 description: In deze zelfstudie over combinatiegrafieken wordt uitgelegd wanneer u ze kunt gebruiken en hoe u in Power BI-service en Power BI Desktop kunt bouwen.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: lnv66cTZ5ho
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,11 +19,11 @@ ms.workload: powerbi
 ms.date: 01/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a52a50b647e743bfd29eecd970c1f381098bd344
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: b5e89a9a1f2e88ed793dff6457b58fd9ac609ef5
+ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="combo-chart-in-power--tutorial"></a>Combinatiegrafieken in Power BI (zelfstudie)
 Een combinatiegrafiek in Power BI is een visualisatie waarin een lijndiagram wordt gecombineerd met een kolomdiagram. Als u deze twee diagrammen combineert, kunt u de gegevens sneller vergelijken.
@@ -46,7 +46,7 @@ Combinatiegrafieken zijn beschikbaar in de Power BI-service en Power BI Desktop.
 ## <a name="create-a-basic-single-axis-combo-chart"></a>Een eenvoudige combinatiegrafiek met één as maken
 Kijk hoe Will een combinatiegrafiek maakt op basis van het voorbeeld van verkoop en marketing.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lnv66cTZ5ho?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lnv66cTZ5ho?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>  
 
 <a name="create"></a> Als u uw eigen combinatiegrafiek wilt maken, meldt u zich aan bij Power BI-service en selecteert u **Gegevens ophalen \> Voorbeelden \> Voorbeeld van een retailanalyse > Verbinding maken > Naar dashboard gaan**.
 
