@@ -770,6 +770,8 @@
           href: desktop-insights.md
         - name: Slicers in Power BI Desktop
           href: desktop-slicers.md
+        - name: Knoppen gebruiken in Power BI
+          href: desktop-buttons.md
         - name: Bladwijzers in Power BI
           href: desktop-bookmarks.md
         - name: Aangepaste rapporttooltips maken (preview)
