@@ -992,6 +992,8 @@
           href: service-custom-visuals-getting-started-with-developer-tools.md
         - name: Een aangepaste visual laten certificeren
           href: power-bi-custom-visuals-certified.md
+        - name: Aangepaste visuele elementen publiceren naar AppSource
+          href: developer/office-store.md
     - name: Gegevens in een dashboard pushen
       items:
         - name: Gegevens in een dashboard pushen
