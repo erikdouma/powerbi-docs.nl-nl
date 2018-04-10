@@ -2,14 +2,14 @@
 title: Q&A gebruiken met liveverbindingen
 description: Hier leest u hoe u Q&A van Power BI gebruikt om query's in natuurlijke taal uit te voeren via live-verbindingen met Analysis Services-gegevens en de on-premises gegevensgateway.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
 backup: mihart
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,17 +18,17 @@ ms.workload: powerbi
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 7c33e1d3719b30569996425ed247c1eac87b78f1
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.openlocfilehash: c6fa26d85d362af0d66276509f4e52ba718d338a
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="enable-qa-for-live-connections"></a>Q&A inschakelen voor live-verbindingen
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>Wat is een on-premises gegevensgateway?  Wat is een live-verbinding?
 U kunt gegevenssets importeren in Power BI of u kunt een live-verbinding met ze opzetten. Gegevenssets met een live-verbinding worden vaak aangeduid als 'on-premises'. De live-verbindingen worden beheerd met behulp van een [gateway](service-gateway-onprem.md), en gegevens en query's worden uitgewisseld via live-query's.
 
-## <a name="qa-for-on-premises-data-gateway-datasets"></a>Q&A voor gegevenssets via -premises gegevensgateways:
+## <a name="qa-for-on-premises-data-gateway-datasets"></a>Q&A voor gegevenssets via on-premises gegevensgateway
 Als u Q&A wilt gebruiken met gegevenssets die toegankelijk zijn via een gateway, moet u deze eerst inschakelen.
 
 Als dat is gebeurd, maakt Power BI een index van de gegevensbron en wordt er een subset van die gegevens geüpload naar Power BI om het stellen van vragen mogelijk te maken. Het kan enkele minuten duren om de eerste index te maken. De index wordt vervolgens automatisch onderhouden en bijgewerkt door Power BI als de gegevens worden gewijzigd. Als u Q&A wilt gebruiken met deze gegevenssets, doet u dit op dezelfde manier als met gegevens die naar Power BI zijn gepubliceerd. De volledige set met functies die beschikbaar is in de Q&A-ervaring wordt in beide gevallen ondersteund, inclusief het gebruik van de gegevensbron met Cortana.
@@ -61,7 +61,7 @@ Wanneer u Q&A inschakelt voor uw on-premises gegevens, wordt er een subset van u
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 Tijdens de preview-fase van deze functie gelden verschillende beperkingen:
 
-* In eerste instantie is de functie alleen beschikbaar voor gegevensbronnen in tabelvorm van SQL Server 2016 Analysis Services. De functie is geoptimaliseerd om te werken met gegevens in tabelvorm. Bepaalde functionaliteit is beschikbaar voor multidimensionale gegevensbronnen, maar de volledige Q&A-ervaring wordt nog niet ondersteund voor dit type gegevensbronnen. In de loop van de tijd worden er extra gegevensbronnen bekendgemaakt die worden ondersteund door de on-premises gegevensgateway.
+* In eerste instantie is de functie alleen beschikbaar voor gegevensbronnen in tabelvorm van SQL Server 2016 Analysis Services. De functie is geoptimaliseerd om te werken met gegevens in tabelvorm. Bepaalde functionaliteit is beschikbaar voor multidimensionale gegevensbronnen, maar de volledige Q&A-ervaring wordt nog niet ondersteund voor dit type gegevensbronnen. In de loop van de tijd worden er extra gegevensbronnen doorgevoerd die worden ondersteund door de on-premises gegevensgateway.
 * Volledige ondersteuning voor beveiliging op rijniveau die is gedefinieerd in SQL Server Analysis Services is in eerste instantie niet beschikbaar in de openbare preview. Tijdens het stellen van vragen in Q&A kan de functie Automatisch aanvullen suggesties weergeven waartoe een gebruiker geen toegang heeft. De RLS die is gedefinieerd in het model wordt echter in acht genomen voor visuele elementen in rapporten en grafieken, zodat er geen onderliggende numerieke gegevens kunnen worden blootgesteld. Opties voor het beheren van dit gedrag worden in komende updates uitgebracht.
 * Live-verbindingen worden alleen ondersteund met de on-premises gegevensgateway. Deze verbindingen kunnen dus niet worden gebruikt met de persoonlijke gateway.
 

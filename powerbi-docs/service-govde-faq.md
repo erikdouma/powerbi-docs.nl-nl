@@ -2,14 +2,14 @@
 title: Veelgestelde vragen over Power BI voor Duitse overheidsklanten
 description: Antwoorden op veelgestelde vragen over de Power BI-service voor de Duitse overheid voor Duitse overheidsklanten
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 1e6b43efc887550e98bc6195c24af77c61594989
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 911e75cb0d9f81c2696575942a13531e5799218e
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Veelgestelde vragen over Power BI voor Duitse Cloud-klanten
 Er is een versie van de **Power BI-service** beschikbaar voor de EU-/EFTA-klanten (Europese Unie/Europese Vrijhandelsovereenkomst), ook vaak Microsoft Cloud Deutschland (MCD) genoemd. De versie van de **Power BI-service** die in dit artikel wordt besproken, is specifiek voor EU-/EFTA-klanten en staat los en verschilt van de commerciële versie van de **Power BI-service** of Power BI-services die aan overheidsklanten worden geleverd.
@@ -43,7 +43,7 @@ De volgende vragen en antwoorden bieden belangrijke informatie voor Power BI Pro
 4. **Bevat de Power BI-service voor de Duitse cloud een gratis service?**
    
    Nee. We kunnen geld geen gratis licentieversies in de Power BI-service voor de Duitse cloud. Als u de gratis versie van Power BI echter voldoet aan uw bedrijfsbehoeften, kunt u zich het beste aanmelden voor de [gratis versie van Power BI in de openbare cloud](https://powerbi.microsoft.com/get-started/).
-5. **Kan ik Power BI Desktop, Power BI - Mobiel, on-premises gegevensgateways en Publisher voor Excel gebruiken voor de Power BI-service voor de Duitse cloud?**
+5. **Kan ik Power BI Desktop, Power BI - Mobiel, On-premises gegevensgateway en Publisher voor Excel gebruiken met de Power BI-service voor de Duitse cloud?**
    
    Ja. We hebben onze Power BI-clientproducten zodanig bijgewerkt dat ze probleemloos werken in combinatie met de Power BI-service voor de Duits cloud. Meld u aan met uw Power BI-serviceaccount voor de Duitse cloud om dezelfde clientproducten te gebruiken voor de Power BI-service voor de Duitse cloud. U kunt op de volgende locaties de nieuwste versie van de clientproducten downloaden:
    

@@ -1,15 +1,15 @@
 ---
-title: Proxyinstellingen configureren voor de on-premises gegevensgateway
-description: Informatie over de configuratie van de proxyinstellingen voor de lokale data gateway.
+title: Proxy-instellingen configureren voor de on-premises gegevensgateway
+description: Informatie over de configuratie van de proxy-instellingen voor de on-premises gegevensgateway.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,13 +18,13 @@ ms.workload: powerbi
 ms.date: 11/21/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 27b8d36ed870501170efdb81c40edb6cb4727499
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f6bfc47e7b74d9b17479a2ac7fc3dbc3f3e76816
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
-# <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Proxyinstellingen configureren voor de on-premises gegevensgateway
+# <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Proxy-instellingen configureren voor de on-premises gegevensgateway
 Het is mogelijk dat u in uw werkomgeving alleen toegang tot internet hebt via een proxy. Hierdoor is het mogelijk dat de on-premises gegevensgateway geen verbinding kan maken met de service.
 
 ## <a name="does-your-network-use-a-proxy"></a>Maakt uw netwerk gebruik van een proxy?
@@ -36,7 +36,7 @@ In het volgende bericht op superuser.com wordt beschreven hoe u kunt bepalen of 
 De proxygegevens worden geconfigureerd in een .NET-configuratiebestand. De locatie en bestandsnamen kunnen afwijken. Dit is afhankelijk van de gateway die u gebruikt.
 
 ### <a name="on-premises-data-gateway"></a>On-premises gegevensgateway
-Er zijn twee belangrijkste configuratiebestanden betrokken bij on-premises gegevensgateway.
+Er zijn twee belangrijke configuratiebestanden betrokken bij de on-premises gegevensgateway.
 
 **Configuratie**
 
@@ -82,7 +82,7 @@ Wanneer de proxyinstellingen worden geconfigureerd voor het gebruik van standaar
         net stop PBIEgwService
    
         net start PBIEgwService
-3. Start de **configurator voor de on-premises gegevensgateway**. U kunt de startknop windows selecteren en zoeken op *lokale gegevensgateway*.
+3. Start de **configurator voor de on-premises gegevensgateway**. U kunt de startknop van Windows selecteren en zoeken op *On-premises gegevensgateway*.
 4. Meld u aan bij Power BI.
 5. Gebruik de herstelsleutel om de gateway te herstellen.
    

@@ -1,15 +1,15 @@
 ---
 title: Uw gegevensbron beheren - Analysis Services
-description: Informatie over het beheren van de on-premises gegevensgateway en de gegevensbronnen die deel uitmaken van deze gateway. Dit is van toepassing op Analysis Services in zowel de modus Multidimensioneel als de modus Tabellair.
+description: De on-premises gegevensgateway en de gegevensbronnen hiervoor beheren. Dit is van toepassing op Analysis Services in zowel de modus Multidimensioneel als de modus Tabellair.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6ce9a6d962098b3f40c351d0319c4b7908f4e4f7
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 59fc3db101de246aaf4ab08c7916b25497b74fd2
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Uw gegevensbron beheren - Analysis Services
-Als u de on-premises gegevensgateway hebt geïnstalleerd, dient u gegevensbronnen toevoegen die kunnen worden gebruikt met die gateway. Dit artikel bespreekt het werken met gateways en gegevensbronnen. U kunt de Analysis Services-gegevensbron gebruiken voor zowel geplande vernieuwing als voor liveverbindingen.
+Nadat u de on-premises gegevensgateway hebt geïnstalleerd, moet u gegevensbronnen toevoegen die met de gateway kunnen worden gebruikt. In dit artikel wordt beschreven hoe u gateways en gegevensbronnen gebruikt. U kunt de Analysis Services-gegevensbron gebruiken voor zowel geplande vernieuwing als voor liveverbindingen.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ownIGbcRAAU" frameborder="0" allowfullscreen></iframe>
 
@@ -76,13 +76,13 @@ Vul vervolgens de gegevens in voor de gegevensbron, waaronder de **Server** en d
 De **Gebruikersnaam** en **Wachtwoord** die u invoert worden door de gateway gebruikt om verbinding te maken met het Analysis Services-exemplaar.
 
 > [!NOTE]
-> Het Windows-account dat u opgeeft moet serverbeheerdermachtigingen hebben voor het exemplaar waarmee u verbinding maakt. Als het wachtwoord van dit account zo is ingesteld dat dit verloopt, kunnen gebruikers een verbindingsfout krijgen als het wachtwoord voor de gegevensbron niet op tijd wordt bijgewerkt. Raadpleeg voor meer informatie over hoe [referenties](service-gateway-onprem.md#credentials) worden opgeslagen het artikel over de on-premises gateway.
+> Het Windows-account dat u opgeeft moet serverbeheerdermachtigingen hebben voor het exemplaar waarmee u verbinding maakt. Als het wachtwoord van dit account zo is ingesteld dat dit verloopt, kunnen gebruikers een verbindingsfout krijgen als het wachtwoord voor de gegevensbron niet op tijd wordt bijgewerkt. Meer informatie over hoe [referenties](service-gateway-onprem.md#credentials) worden opgeslagen vindt u in het hoofdartikel over on-premises gateways.
 > 
 > 
 
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings3-ssas.png)
 
-Als u alles hebt ingevuld, klikt u op **Toevoegen**.  U kunt deze gegevensbron nu gebruiken voor geplande vernieuwing of liveverbindingen op basis van een Analysis Services-exemplaar dat on-premises wordt uitgevoerd.  Er wordt *Verbinding gemaakt* weergegeven als deze bewerking is geslaagd.
+U kunt op **Toevoegen** klikken nadat u alles hebt ingevuld.  U kunt deze gegevensbron nu gebruiken voor geplande vernieuwing of liveverbindingen op basis van een Analysis Services-exemplaar dat on-premises wordt uitgevoerd.  Er wordt *Verbinding gemaakt* weergegeven als deze bewerking is geslaagd.
 
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings4.png)
 
@@ -159,14 +159,14 @@ Voor een on-premises gegevensgateway met configureerbare aangepaste gebruikersto
 Uw gateway configureren voor het uitvoeren van de AD-zoekopdracht:
 
 1. Download en installeer de nieuwste versie van de gateway.
-2. In de gateway dient u de **on-premises gegevensgatewayservice** in te stellen zodat deze wordt uitgevoerd met een domeinaccount (in plaats van een lokaal serviceaccount, anders wordt de AD-zoekopdracht tijdens runtime niet goed uitgevoerd). U moet de gatewayservice opnieuw starten om de wijziging door te voeren.  Ga naar de gateway-app op uw computer (zoek 'On-premises gegevensgateway'). Vervolgens gaat u naar **Service-instellingen > Serviceaccount wijzigen**. Zorg ervoor dat u de herstelsleutel voor deze gateway hebt, omdat u deze nodig hebt om de gateway te herstellen op dezelfde computer, tenzij u een nieuwe gateway wilt maken. 
+2. In de gateway dient u de **on-premises gegevensgatewayservice** in te stellen zodat deze wordt uitgevoerd met een domeinaccount (in plaats van een lokaal serviceaccount, anders wordt de AD-zoekopdracht tijdens runtime niet goed uitgevoerd). U moet de gatewayservice opnieuw starten om de wijziging door te voeren.  Ga naar de gateway-app op uw computer (zoek 'on-premises gegevensgateway'). Vervolgens gaat u naar **Service-instellingen > Serviceaccount wijzigen**. Zorg ervoor dat u de herstelsleutel voor deze gateway hebt, omdat u deze nodig hebt om de gateway te herstellen op dezelfde computer, tenzij u een nieuwe gateway wilt maken. 
 3. Navigeer naar de installatiemap van de gateway, *C:\Program Files\On-premises data gateway* met een beheerdersaccount, om te zorgen dat u schrijfrechten hebt, en bewerk het volgende bestand:
    
        Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
 4. Bewerk de volgende twee configuratiewaarden voor uw AD-gebruikers volgens de kenmerkconfiguraties van *uw* Active Directory. De onderstaande configuratiewaarden zijn slechts voorbeelden: u moet deze invoeren op basis van uw Active Directory-configuratie. 
    
    ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
-5. Start de **on-premises gegevensgatewayservice** opnieuw om de configuratiewijzigingen door te voeren.
+5. Start de **on-premises gegevensgateway**-service opnieuw om de configuratiewijzigingen door te voeren.
 
 ### <a name="working-with-mapping-rules"></a>Werken met toewijzingsregels
 Om een toewijzingsregel te maken, voert u een waarde in voor **Oorspronkelijke naam** en **Nieuwe naam** en selecteert u vervolgens **Toevoegen**.
@@ -224,7 +224,7 @@ Voor de gegevensbron kunt u op het tabblad Gebruikers gebruikers of beveiligings
 Nadat u de gegevensbron hebt gemaakt, wordt deze beschikbaar voor gebruik met zowel liveverbindingen als via geplande vernieuwing.
 
 > [!NOTE]
-> De server- en databasenaam in Power BI Desktop en de gegevensbron in de on-premises gegevensgateway moet overeenkomen.
+> De servernaam en databasenaam die worden gebruikt voor Power BI Desktop en de gegevensbron in de on-premises gegevensgateway moeten overeenkomen!
 > 
 > 
 
@@ -244,7 +244,7 @@ Als u wordt vermeld op het tabblad **Gebruikers** voor de gegevensbron die is ge
 
 ## <a name="next-steps"></a>Volgende stappen
 [On-premises gegevensgateway](service-gateway-onprem.md)  
-[On-premises gegevensgateway - uitgebreid](service-gateway-onprem-indepth.md)  
+[On-premises data gateway in-depth](service-gateway-onprem-indepth.md) (On-premises gegevensgateway - uitgebreid)  
 [Problemen met de on-premises gegevensgateway oplossen](service-gateway-onprem-tshoot.md)  
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

@@ -2,14 +2,14 @@
 title: Clusters met hoge beschikbaarheid voor on-premises gegevensgateway
 description: U kunt clusters van on-premises gegevensgateways maken voor hoge beschikbaarheid voor uw onderneming.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 717451afc35614e9c356e5748f39f0302fa6244e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9ad1d4288184368dbb294bfafa69fe005780b322
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>Clusters met hoge beschikbaarheid voor on-premises gegevensgateway
-U kunt **clusters met hoge beschikbaarheid** maken van installaties van **on-premises datagateway**, om te controleren of uw organisatie toegang heeft tot on-premises gegevensbronnen die worden gebruikt in Power BI-rapporten en -dashboards. Met dit soort clusters kunnen gatewaybeheerders gateways groeperen om storingen op één punt bij het openen van on-premises gegevensbronnen te voorkomen. In dit artikel worden de stappen beschreven die u kunt nemen om een cluster met hoge beschikbaarheid van on-premises gegevensgateways te maken. Ook vindt u in dit artikel aanbevolen procedures voor het instellen van deze clusters. Voor gatewayclusters met hoge beschikbaarheid is de update van november 2017 of hoger vereist voor de on-premises gegevensgateway.
+U kunt **clusters met hoge beschikbaarheid** maken van installaties van een **on-premises gegevensgateway** om te controleren of uw organisatie toegang heeft tot on-premises gegevensbronnen die worden gebruikt in Power BI-rapporten en -dashboards. Met dit soort clusters kunnen gatewaybeheerders gateways groeperen om storingen op één punt bij het openen van on-premises gegevensbronnen te voorkomen. In dit artikel worden de stappen beschreven die u kunt nemen om een cluster met hoge beschikbaarheid van on-premises gegevensgateways te maken. Ook vindt u in dit artikel aanbevolen procedures voor het instellen van deze clusters. Voor gatewayclusters met hoge beschikbaarheid is de update van november 2017 of hoger vereist voor de on-premises gegevensgateway.
 
 
 ## <a name="setting-up-high-availability-clusters-of-gateways"></a>Gatewayclusters met hoge beschikbaarheid instellen
@@ -63,7 +63,7 @@ Als u de PowerShell-opdrachten in de tabel wilt uitvoeren, moet u eerst de volge
     Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force
     ```
 
-3. Vervolgens gaat u naar de installatiemap van de on-premises gateway in het PowerShell-venster en importeert u de benodigde module met de volgende opdracht:
+3. Vervolgens gaat u naar de installatiemap van de on-premises gegevensgateway in het PowerShell-venster en importeert u de benodigde module met de volgende opdracht:
 
     ```
     Import-Module .\OnPremisesDataGatewayHAMgmt.psm1
@@ -90,7 +90,7 @@ Als deze stappen zijn voltooid, kunt u de opdrachten in de volgende tabel gebrui
 -   [Manage your data source - Import/Scheduled refresh](service-gateway-enterprise-manage-scheduled-refresh.md) (Gegevensbron beheren - importeren/geplande vernieuwing)  
 -   [On-premises data gateway in-depth](service-gateway-onprem-indepth.md) (On-premises gegevensgateway - uitgebreid)  
 -   [On-premises data gateway (personal mode)](service-gateway-personal-mode.md) (On-premises gegevensgateway (persoonlijke modus))
--   [Configuring proxy settings for the on-premises data gateway](service-gateway-proxy.md) (Proxy-instellingen configureren voor de on-premises gegevensgateway)  
+-   [Proxyinstellingen configureren voor de on-premises gegevensgateway](service-gateway-proxy.md)  
 -   [Use Kerberos for SSO (single sign-on) from Power BI to on-premises data sources](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md) (Kerberos gebruiken voor eenmalige aanmelding (SSO) van Power BI naar on-premises gegevensbronnen)  
 
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

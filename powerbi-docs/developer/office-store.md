@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/5/2017
+ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 5dc5cda126943bbb6da25e384b789c169187b249
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 9730f92a7f50e2e0d0ad824f8a5f74f6a09ded97
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Aangepaste visuele elementen publiceren naar AppSource
 Meer informatie over het publiceren van aangepaste visuele elementen naar AppSource, zodat anderen deze kunnen gebruiken. office
@@ -39,7 +39,7 @@ Als u klaar bent met het programmeren en testen van uw aangepaste visuele elemen
 | --- | --- | --- |
 | Pbiviz-pakket met alle vereiste metagegevens |Ja |Naam van visuele element<br>Weergavenaam<br>GUID<br>Versie<br>Beschrijving<br>Naam en e-mailadres van auteur |
 | Voorbeeld van PBIX-rapportbestand |Ja |Ter promotie van uw visuele element, moet u gebruikers helpen om vertrouwd te raken met het visuele element. U moet de toegevoegde waarde van het visuele element voor de gebruiker benadrukken en voorbeelden geven van het gebruik, opmaakopties, enzovoort. U kunt ook een *hints*-pagina aan het einde toevoegen met een aantal tips en trucs, dingen die men moet vermijden en dergelijke.<br>Het voorbeeld van een pbix-rapportbestand moet offline werken, zonder een externe verbinding |
-| Pictogram |Ja |U moet een logo voor het aangepaste visuele element maken. Dit logo wordt in de webwinkel weergegeven. De ondersteunde bestandsindelingen zijn PNG, JPG, JPEG en GIF. Het logo moet een grootte hebben van exact 300 bij 300 pixels (breedte x hoogte). Het bestand mag niet groter zijn dan 512 kB. |
+| Pictogram |Ja |U moet een logo voor het aangepaste visuele element maken. Dit logo wordt in de webwinkel weergegeven. De ondersteunde bestandsindelingen zijn PNG, JPG, JPEG en GIF. Het logo moet een grootte hebben van exact 300 bij 300 pixels (breedte x hoogte). **Belangrijk** Lees de [korte handleiding](https://docs.microsoft.com/en-us/office/dev/store/craft-effective-appsource-store-images) zorgvuldig door voordat u het pictogram verstuurt. |
 | Schermopnamen |Ja |U moet ten minste één schermopname aanleveren. De ondersteunde bestandsindelingen zijn PNG, JPG, JPEG en GIF. De schermopname moet een grootte hebben van exact 1366 bij 768 pixels (breedte x hoogte). Het bestand mag niet groter zijn dan 1024 kB. *Voeg tekstballonnen toe met meer informatie over de toegevoegde waarde van de belangrijkste functies die worden weergegeven in elke schermopname.* |
 | Koppeling naar ondersteuning voor de download |Ja |Geef de URL op waar klanten terecht kunnen voor ondersteuning bij eventuele problemen met uw visuele element. De URL moet https:// of http:// bevatten. |
 | Koppeling naar privacydocument |Ja |Geef een koppeling op naar het privacybeleid voor klanten die gebruikmaken van het visuele element. De koppeling moet https:// of http:// bevatten. |
@@ -49,6 +49,10 @@ Als u klaar bent met het programmeren en testen van uw aangepaste visuele elemen
 
 ## <a name="submitting-to-power-bi"></a>Indienen bij Power BI
 Eerst verzendt u een e-mailbericht naar het Power BI-team voor indiening van aangepaste visuele elementen. U kunt uw e-mailbericht verzenden naar [pbivizsubmit@microsoft.com](mailto:pbivizsubmit@microsoft.com).
+
+> [!IMPORTANT]
+> De volgende velden in het pbiviz.json-bestand moeten worden ingevuld voordat u het .pbiviz-pakket maakt: description, supportUrl, author, name en email.
+> 
 
 Voeg het PBIVIZ-bestand en het PBIX-voorbeeldrapportbestand als bijlagen toe aan uw e-mailbericht. Het team van Power BI stuurt u vervolgens een bericht met instructies en een XML-app-pakketbestand dat u moet uploaden. Dit XML-app-pakket is vereist voor het indienen van het visuele element via het Office-ontwikkelaarscentrum.
 

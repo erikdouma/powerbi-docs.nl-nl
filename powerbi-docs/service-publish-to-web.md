@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 03/28/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 089cd84f493343822293cb6e74330d26e2a8bcd6
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 31e40efee8c4d67ec524212996ac6d7a8caf1852
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publiceren op internet vanuit Power BI
 
@@ -133,13 +133,16 @@ Aangepaste visuele elementen worden ondersteund in **Publiceren op internet**. W
 
 ## <a name="limitations"></a>Beperkingen
 
-**Publiceren op internet** wordt ondersteund voor de meeste gegevensbronnen en rapporten in de Power BI-service. De volgende opties worden momenteel echter niet ondersteund of zijn niet beschikbaar voor Publiceren op internet:
+**Publiceren op internet** wordt ondersteund voor de meeste gegevensbronnen en rapporten in de Power BI-service. De volgende opties worden **momenteel echter niet ondersteund of zijn niet beschikbaar** voor Publiceren op internet:
 
 1. Rapporten met beveiliging op rijniveau.
-2. Rapporten die als gegevensbron gebruikmaken van een liveverbinding, waaronder on-premises multi-dimensionale Analysis Services en Azure Analysis Services welke gehost worden door tabellaire Analysis Services, en Power BI-service.
+2. Rapporten die als gegevensbron gebruikmaken van Live Connection, waaronder Analysis Services Tabular dat on-premises wordt gehost, Analysis Services Multidimensional en Azure Analysis Services.
 3. Rapporten die direct of via een organisatie-inhoudspakket met u worden gedeeld.
 4. Rapporten in een groep waarvan u geen lid bent met machtigingen voor bewerken.
 5. Visuele R-elementen worden momenteel niet ondersteund in Publiceren op internet-rapporten.
+6. Exporteren van gegevens uit de visuele elementen in een rapport dat is gepubliceerd naar het web
+7. ArcGIS Maps for Power BI visuals
+8. [Beveilig vertrouwelijke of eigendomsinformatie](#publish-to-web-from-power-bi)
 
 ## <a name="tenant-setting"></a>Tenantinstelling
 
@@ -177,7 +180,7 @@ U kunt **Publiceren op internet** allen gebruiken als u gebruiker van Microsoft 
 
 ## <a name="how-it-works-technical-details"></a>Hoe het werkt (technische details)
 
-Wanneer u een invoegcode maakt met **Publiceren op internet**, wordt het rapport zichtbaar voor gebruikers op het internet. Het is openbaar beschikbaar, dus u kunt verwachten dat bezoekers het rapport eenvoudig via sociale media zullen delen. Terwijl gebruikers het rapport bekijken, doordat ze de directe openbare URL openen of de ingesloten versie op een webpagina of blog bekijken, worden de rapportdefinitie en de resultaten van de query's die nodig zijn om het rapport weer te geven door Power BI in de cache opgeslagen. Deze aanpak zorgt ervoor dat het rapport door duizenden gebruikers gelijktijdig kan worden bekeken zonder invloed op prestaties.  
+Wanneer u een invoegcode maakt met **Publiceren op internet**, wordt het rapport zichtbaar voor gebruikers op het internet. Het is openbaar beschikbaar, dus u kunt verwachten dat bezoekers het rapport eenvoudig via sociale media zullen delen. Terwijl gebruikers het rapport bekijken, doordat ze de directe openbare URL openen of de ingesloten versie op een webpagina of blog bekijken, worden de rapportdefinitie en de resultaten van de query's die nodig zijn om het rapport weer te geven door Power BI in de cache opgeslagen. Deze aanpak zorgt ervoor dat het rapport door duizenden gebruikers gelijktijdig kan worden bekeken zonder invloed op prestaties.
 
 De cache heeft een lange levensduur. Als u de rapportdefinitie bijwerkt (bijvoorbeeld als u de weergavemodus wijzigt) of de rapportgegevens vernieuwt, duurt het ongeveer een uur voordat wijzigingen worden doorgevoerd in de versie van het rapport die door uw gebruikers kan worden gelezen. U kunt daarom het beste uw werkzaamheden ver van tevoren plannen en de invoegcode voor **Publiceren op internet** alleen maken wanneer u tevreden bent met de instellingen.
 

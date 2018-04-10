@@ -2,14 +2,14 @@
 title: Algemene querytaken in Power BI Desktop
 description: Algemene querytaken in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 4d0a8b9a1f855c373b43c5c78ec41b6bc34d1d18
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 37c5e55d426d308fe8ea7de5c6604a9c66f81896
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Algemene querytaken in Power BI Desktop
 Wanneer u werkt in het venster **Query-editor** van Power BI Desktop, beschikt u over een aantal veelgebruikte taken. In dit document worden die taken gedemonstreerd en ziet u koppelingen voor meer informatie. 
@@ -45,7 +45,7 @@ De eerste gegevensverbinding is een Excel-werkmap. De andere is een webbron (die
 De stappen om met beide gegevensbronnen verbinding te maken, vormen het begin van de algemene querytaken.
 
 ## <a name="connect-to-data"></a>Verbinding maken met gegevens
-U maakt verbinding met gegevens in Power BI Desktop door de knop **Gegevens ophalen** te selecteren op het tabblad **Start** op het lint. Power BI Desktop geeft een menu met de meest voorkomende gegevensbronnen weer. Voor een volledige lijst met gegevensbronnen waarmee Power BI Desktop verbinding kan maken, selecteert u de knop **Meer...**  onderaan het menu. Zie [Data Sources in Power BI Desktop](https://powerbi.uservoice.com/knowledgebase/articles/471643) (Gegevensbronnen in Power BI Desktop) voor meer informatie.
+U maakt verbinding met gegevens in Power BI Desktop door de knop **Gegevens ophalen** te selecteren op het tabblad **Start** op het lint. Power BI Desktop geeft een menu met de meest voorkomende gegevensbronnen weer. Voor een volledige lijst met gegevensbronnen waarmee Power BI Desktop verbinding kan maken, selecteert u de knop **Meer...**  onderaan het menu. Zie [Data Sources in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-data-sources) (Gegevensbronnen in Power BI Desktop) voor meer informatie.
 
 ![](media/desktop-common-query-tasks/commonquerytasks_getdata.png)
 
@@ -67,27 +67,27 @@ Selecteer **OK** en net als voorheen inspecteert Power BI Desktop de werkmap en 
 
 Andere gegevensverbindingen lijken daar op. Als verificatie vereist is voor het maken van een gegevensverbinding, vraagt Power BI Desktop u de juiste referenties op te geven.
 
-Zie [Connect to Data in Power BI Desktop](https://powerbi.uservoice.com/knowledgebase/articles/471635) (Verbinding maken met gegevens in Power BI Desktop) voor een stapsgewijze demonstratie over het verbinding maken met gegevens in Power BI Desktop.
+Zie [Connect to Data in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-connect-to-data) (Verbinding maken met gegevens in Power BI Desktop) voor een stapsgewijze demonstratie over het verbinding maken met gegevens in Power BI Desktop.
 
 ## <a name="shape-and-combine-data"></a>Gegevens vormgeven en combineren
-U kunt gegevens eenvoudig vormgeven en combineren met de Query-editor. Deze sectie bevat enkele voorbeelden van de manieren waarop u gegevens kunt vormgeven. Zie **[Gegevens vormgeven en combineren met Power BI Desktop](https://powerbi.uservoice.com/knowledgebase/articles/471644)** voor een volledigere demonstratie van hoe men gegevens kan vormgeven en combineren.
+U kunt gegevens eenvoudig vormgeven en combineren met de Query-editor. Deze sectie bevat enkele voorbeelden van de manieren waarop u gegevens kunt vormgeven. Zie **[Gegevens vormgeven en combineren met Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-shape-and-combine-data)** voor een volledigere demonstratie van hoe men gegevens kan vormgeven en combineren.
 
-In de vorige sectie hebben we verbinding gemaakt met twee gegevenssets: een Excel-werkmap en een webbron. Nadat de sets in de Query-editor zijn geladen, is het volgende te zien, met de query van de webpagina geselecteerd (in de lijst met de beschikbare query's zoals weergegeven in het deelvenster **Query's** aan de linkerkant van het venster van de Query-editor).
+In de vorige sectie hebben we verbinding gemaakt met twee gegevenssets: een Excel-werkmap en een webbron. Nadat de sets in de Query-editor zijn geladen, is het volgende te zien, met de query van de webpagina geselecteerd (overgenomen uit de lijst met de beschikbare query's zoals weergegeven in het deelvenster **Query's** aan de linkerkant van het venster van de Query-editor).
 
 ![](media/desktop-common-query-tasks/commonquerytasks_querypaneloaded.png)
 
 Wanneer u gegevens vormgeeft, zet u een gegevensbron om in de vorm en indeling die aan uw behoeften voldoen. In dit geval is die eerste kolom, met de titel *Kop*, niet nodig. Daarom zullen we die verwijderen.
 
-De **Query-editor** biedt veel opdrachten op het lint en in een contextgevoelig snelmenu. Wanneer ik bijvoorbeeld met de rechtermuisknop op de kolom *Kop* klik, kan ik de kolom verwijderen met het menu dat wordt geopend. Ik kan ook de kolom selecteren en vervolgens de knop **Kolommen verwijderen** op het lint selecteren.
+De **Query-editor** biedt veel opdrachten op het lint en in een contextgevoelig snelmenu. Wanneer u bijvoorbeeld met de rechtermuisknop op de kolom *Kop* klik, kunt u de kolom verwijderen met het menu dat wordt geopend. U kunt ook de kolom selecteren en vervolgens de knop **Kolommen verwijderen** op het lint selecteren.
 
 ![](media/desktop-common-query-tasks/commonquerytasks_removecolumns.png)
 
-Er zijn veel andere manieren waarop ik de gegevens in deze query zou kunnen vormgeven. Ik kan een onbeperkt aantal rijen vanaf de bovenkant of de onderkant verwijderen. Ik kan kolommen toevoegen, kolommen splitsen, waarden vervangen en andere vormgevingstaken uitvoeren om de Query-editor duidelijk te maken welke gegevens ik wil.
+Er zijn veel andere manieren waarop u de gegevens in deze query zou kunnen vormgeven. U kunt een onbeperkt aantal rijen vanaf de bovenkant of de onderkant verwijderen. U kunt kolommen toevoegen, kolommen splitsen, waarden vervangen en andere vormgevingstaken uitvoeren om de Query-editor duidelijk te maken welke gegevens u wilt.
 
 ## <a name="group-rows"></a>Rijen groeperen
 In de Query-editor kunt u de waarden uit meerdere rijen samenbrengen in één enkele waarde. Dit kan nuttig zijn bij het samenvatten van het aantal aangeboden producten, de totale verkoopcijfers of het aantal studenten.
 
-In dit voorbeeld groeperen we rijen in een gegevensset met inschrijvingen voor een onderwijsinstelling. De gegevens zijn afkomstig uit een Excel-werkmap en zijn in de Query-editor zodanig vormgegeven dat alleen de kolommen worden opgehaald die we nodig hebben. De naam van de tabel is gewijzigd en er zijn enkele andere transformaties uitgevoerd.
+In dit voorbeeld groeperen we rijen in een gegevensset met inschrijvingen voor een onderwijsinstelling. De gegevens zijn afkomstig uit een Excel-werkmap en zijn in de Query-editor zodanig vormgegeven dat alleen de kolommen worden opgehaald die we nodig hebben, de tabel een andere naam te geven en enkele andere transformaties uit te voeren.
 
 Laten we eens nagaan hoeveel instanties (uitgaande van schooldistricten en andere onderwijsinstanties zoals regionale servicegebieden, enzovoort) er in elke Amerikaanse staat zijn. We selecteren de kolom *State Abbr* en klikken vervolgens op de knop **Groeperen op** op het tabblad **Transformeren** of op het tabblad **Start** op het lint (**Groeperen op** is op beide tabbladen beschikbaar).
 
@@ -98,11 +98,13 @@ Het venster **Groeperen op…** wordt weergegeven. Wanneer de Query-editor rijen
 1. *Groeperen op*: dit is de kolom die moet worden gegroepeerd. De Query-editor kiest de geselecteerde kolom, maar u kunt in dit venster ook een andere kolom in de tabel kiezen.
 2. *Nieuwe kolomnaam*: de Query-editor stelt een naam voor de nieuwe kolom voor op basis van de bewerking die wordt toegepast op de kolom die wordt gegroepeerd, maar u kunt de nieuwe kolom elke gewenste naam geven.
 3. *Bewerking*: hier geeft u de bewerking op die de Query-editor toepast.
-4. *De tekens +/-*: u kunt aggregatiebewerkingen (**Groeperen op**-acties) uitvoeren op meerdere kolommen en meerdere aggregaties uitvoeren, en dat allemaal in het venster **Groeperen op** met een en dezelfde bewerking. De Query-editor maakt een nieuwe kolom (gebaseerd op uw selecties in dit venster die op meerdere kolommen van toepassing zijn). Selecteer de knop  **+**  om meer kolommen of aggregaties toe te voegen aan een **Groeperen op**-bewerking. U kunt een kolom of aggregatie verwijderen door het "–"-pictogram te selecteren. Probeer het eens om na te gaan hoe dat eruitziet. 
+4. *Groepering toevoegen* en *Aggregatie toevoegen*: deze opties worden weergegeven na het selecteren van de optie **Geavanceerd**. U kunt groeperingsbewerkingen (**Groeperen op**-acties) uitvoeren op meerdere kolommen en meerdere aggregaties uitvoeren, en dat allemaal in het venster **Groeperen op** met een en dezelfde bewerking. De Query-editor maakt een nieuwe kolom (gebaseerd op uw selecties in dit venster) die op meerdere kolommen van toepassing zijn. 
+
+Selecteer de knop **Groepering toevoegen** of **Aggregatie toevoegen** om meer groeperingen of aggregaties toe te voegen aan een **Groeperen op**-bewerking. U kunt een groepering of aggregatie verwijderen door het **...**-pictogram te selecteren en **Verwijderen** te selecteren. Probeer het eens om na te gaan hoe dat er uitziet.
    
    ![](media/desktop-common-query-tasks/commonquerytasks_groupbynumbered.png)
 
-Wanneer we **OK** selecteren, wordt de **Groeperen op**-bewerking uitgevoerd en worden de resultaten weergegeven. En wat blijkt: Ohio, Texas, Illinois en Californië hebben elk meer dan duizend instanties!
+Wanneer we **OK** selecteren, wordt de **Groeperen op**-bewerking uitgevoerd en worden de resultaten weergegeven. En wat blijkt: Ohio, Texas, Illinois en Californië hebben nu elk meer dan duizend instanties!
 
 ![](media/desktop-common-query-tasks/commonquerytasks_groupedresult.png)
 
@@ -115,7 +117,7 @@ Een voorbeeld. De volgende **Products**-tabel is zodanig vormgegeven dat alleen 
 
 ![](media/desktop-common-query-tasks/pivotcolumns_pivotbutton.png)
 
-Het venster **Draaikolom** wordt weergegeven, zodat u weet welke waarden in de kolom worden gebruikt om nieuwe kolommen te maken (1). Wanneer u **Geavanceerde optie** (2) uitvouwt, kunt u de functie selecteren die wordt toegepast op de geaggregeerde waarden (3).
+Het venster **Draaikolom** wordt weergegeven, zodat u weet welke waarden in de kolom worden gebruikt om nieuwe kolommen te maken (1). Wanneer u **Geavanceerde opties** (2) uitvouwt, kunt u de functie selecteren die wordt toegepast op de geaggregeerde waarden (3).
 
 ![](media/desktop-common-query-tasks/pivotcolumns_pivotdialog.png)
 
@@ -126,7 +128,7 @@ Wanneer u **OK** selecteert, wordt de tabel weergegeven op basis van de transfor
 ## <a name="create-custom-columns"></a>Aangepaste kolommen maken
 In de Query-editor kunt u aangepaste formules maken die worden uitgevoerd op meerdere kolommen in uw tabel, waarna u de resultaten van dergelijke formules in een nieuwe (aangepaste) kolom kunt opnemen. De Query-editor maakt het gemakkelijk om aangepaste kolommen te maken.
 
-In de Query-editor selecteert u **Aangepaste kolom toevoegen** op het tabblad **Kolom toevoegen** op het lint.
+In de Query-editor selecteert u **Aangepaste kolom** op het tabblad **Kolom toevoegen** op het lint.
 
 ![](media/desktop-common-query-tasks/commonquerytasks_customcolumn.png)
 
@@ -147,7 +149,7 @@ De Query-editor bewaart alle toegepaste stappen voor elke query in de vorm van t
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitorbutton.png)
 
-Hier ziet u de **Geavanceerde editor** met de querystappen die zijn gekoppeld aan de weergegeven **USA\_StudentEnrollment**-query. Deze stappen zijn gemaakt in de Power Query-formuletaal, die vaak wordt aangeduid als **M**. Zie [Meer informatie over Power Query-formules](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f?ui=en-US&rs=en-US&ad=US) voor meer informatie. Als u de taalspecificatie zelf wilt weergeven, downloadt u de [Specificatie van de formuletaal van Microsoft Power Query voor Excel](http://go.microsoft.com/fwlink/?linkid=320633).
+Hier ziet u de **Geavanceerde editor** met de querystappen die zijn gekoppeld aan de weergegeven **USA\_StudentEnrollment**-query. Deze stappen zijn gemaakt in de Power Query-formuletaal, die vaak wordt aangeduid als **M**. Zie [Meer informatie over Power Query-formules](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f?ui=en-US&rs=en-US&ad=US) voor meer informatie. Zie [Specificatie van de formuletaal van Microsoft Power Query voor Excel](http://go.microsoft.com/fwlink/?linkid=320633) als u de taalspecificatie zelf wilt weergeven.
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
 

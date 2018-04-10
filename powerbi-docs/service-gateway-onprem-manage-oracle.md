@@ -1,15 +1,15 @@
 ---
 title: De gegevensbron beheren - Oracle
-description: Informatie over het beheren van de on-premises gegevensgateway en de gegevensbronnen die deel uitmaken van deze gateway.
+description: De on-premises gegevensgateway en de gegevensbronnen hiervoor beheren.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 538904ea8ddb64d530daade143cc290046994464
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2e0e786d043466e5620f0faedfb1761014144164
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="manage-your-data-source---oracle"></a>De gegevensbron beheren - Oracle
-Nadat u de on-premises gegevensgateway hebt geïnstalleerd, moet u gegevensbronnen toevoegen die met de gateway kunnen worden gebruikt. In dit artikel leest u hoe u met gateways en gegevensbronnen werkt. U kunt de Oracle-gegevensbron voor geplande vernieuwing of voor DirectQuery gebruiken.
+Nadat u de on-premises gegevensgateway hebt geïnstalleerd, moet u gegevensbronnen toevoegen die met de gateway kunnen worden gebruikt. In dit artikel wordt beschreven hoe u gateways en gegevensbronnen gebruikt. U kunt de Oracle-gegevensbron voor geplande vernieuwing of voor DirectQuery gebruiken.
 
 ## <a name="download-and-install-the-gateway"></a>De gateway downloaden en installeren
 U kunt de gateway downloaden via de Power BI-service. Selecteer **Downloads** > **Gegegevensgateway** of ga naar de [pagina voor het downloaden van gateways](https://go.microsoft.com/fwlink/?LinkId=698861).
@@ -102,13 +102,13 @@ Vul vervolgens de gegevens in voor de gegevensbron, waaronder de **server** en d
 U moet ook een **verificatiemethode** kiezen.  Dit kan **Windows** of **Basic** zijn.  Kies **Basic** als u een account wilt gebruiken dat binnen Oracle is gemaakt, in plaats van Windows-verificatie. Voer de referenties in die u voor deze gegevensbron gaat gebruiken.
 
 > [!NOTE]
-> Alle query's in de gegevensbron worden uitgevoerd met deze referenties. Meer informatie over hoe [referenties](service-gateway-onprem.md#credentials) worden opgeslagen vindt u in het hoofdartikel over on-premises gateways.
+> Alle query's over de gegevensbron worden uitgevoerd met deze referenties. Meer informatie over hoe [referenties](service-gateway-onprem.md#credentials) worden opgeslagen vindt u in het hoofdartikel over on-premises gateways.
 > 
 > 
 
 ![](media/service-gateway-onprem-manage-oracle/data-source-oracle2.png)
 
-Als u alles hebt ingevuld, klikt u op **Toevoegen**.  U kunt deze gegevensbron nu gebruiken voor geplande vernieuwing of DirectQuery op een on-premises Oracle-server. De tekst *Verbinding gemaakt* wordt weergegeven als deze bewerking is geslaagd.
+U kunt op **Toevoegen** klikken nadat u alles hebt ingevuld.  U kunt deze gegevensbron nu gebruiken voor geplande vernieuwing of DirectQuery op een on-premises Oracle-server. De tekst *Verbinding gemaakt* wordt weergegeven als deze bewerking is geslaagd.
 
 ![](media/service-gateway-onprem-manage-oracle/datasourcesettings4.png)
 
@@ -143,11 +143,11 @@ Op het tabblad Gebruikers voor de gegevensbron kunt u gebruikers (of beveiliging
 Nadat u de gegevensbron hebt gemaakt, kan deze worden gebruikt met DirectQuery-verbindingen of via geplande vernieuwing.
 
 > [!WARNING]
-> De servernaam en databasenaam die worden gebruikt voor Power BI Desktop en de gegevensbron in de on-premises gegevensgateway moeten overeenkomen.
+> De servernaam en databasenaam die worden gebruikt voor Power BI Desktop en de gegevensbron in de on-premises gegevensgateway moeten overeenkomen!
 > 
 > 
 
-De koppeling tussen uw gegevensset en de gegevensbron in de gateway is gebaseerd op de servernaam en databasenaam. Deze moeten met elkaar overeenkomen! Als u bijvoorbeeld een IP-adres gebruikt als servernaam, moet u in Power BI Desktop dit IP-adres gebruiken voor de gegevensbron in de gatewayconfiguratie. Deze naam moet ook overeenkomen met een alias die is gedefinieerd in het bestand tnsnames.ora. Raadpleeg [De Oracle-client installeren](#installing-the-oracle-client) voor meer informatie over het bestand tnsnames.ora.
+De koppeling tussen uw gegevensset en de gegevensbron in de gateway is gebaseerd op uw server- en databasenaam. Deze moeten met elkaar overeenkomen! Als u bijvoorbeeld een IP-adres gebruikt als servernaam, moet u in Power BI Desktop dit IP-adres gebruiken voor de gegevensbron in de gatewayconfiguratie. Deze naam moet ook overeenkomen met een alias die is gedefinieerd in het bestand tnsnames.ora. Raadpleeg [De Oracle-client installeren](#installing-the-oracle-client) voor meer informatie over het bestand tnsnames.ora.
 
 Dit geldt voor zowel DirectQuery als geplande vernieuwing.
 
@@ -177,11 +177,11 @@ Deze fouten kunnen zich voordoen als de Oracle-client niet is geïnstalleerd of 
 > 
 > 
 
-Raadpleeg [Troubleshooting the on-premises data gateway](service-gateway-onprem-tshoot.md) (Problemen met de on-premises gegevensgateway oplossen) voor aanvullende informatie over probleemoplossing voor de gateway.
+Raadpleeg [Problemen met de on-premises gegevensgateway oplossen](service-gateway-onprem-tshoot.md) voor aanvullende informatie over probleemoplossing voor de gateway.
 
 ## <a name="next-steps"></a>Volgende stappen
 [On-premises gegevensgateway](service-gateway-onprem.md)  
-[On-premises gegevensgateway - uitgebreid](service-gateway-onprem-indepth.md)  
+[On-premises data gateway in-depth](service-gateway-onprem-indepth.md) (On-premises gegevensgateway - uitgebreid)  
 [Problemen met de on-premises gegevensgateway oplossen](service-gateway-onprem-tshoot.md)  
 [Power BI Premium](service-premium.md)
 

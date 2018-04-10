@@ -2,14 +2,14 @@
 title: Gebruik Snelle metingen om eenvoudig algemene en krachtige berekeningen in Power BI uit te voeren
 description: Snelle metingen biedt kant-en-klare DAX-formules waarmee u snel algemene berekeningen uitvoert
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b9cc94593ca6fd98590d69bee3a2fa4cae6d0050
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a7f877512d5b0f897fb98d2db205d1418d25c71a
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>Gebruik Snelle metingen om eenvoudig algemene en krachtige berekeningen uit te voeren
 U kunt **Snelle metingen** gebruiken om snel en eenvoudig algemene, krachtige berekeningen uit te voeren. Een **Snelle meting** voert een reeks DAX-opdrachten uit op de achtergrond (de DAX is al voor u geschreven) op basis van wat u in een dialoogvenster opgeeft, en genereert vervolgens de resultaten die u in uw rapport kunt gebruiken. Bovendien kunt u de DAX bekijken die door de Snelle meting wordt uitgevoerd en zo uw eigen kennis van DAX uitbreiden.
@@ -59,14 +59,14 @@ Als u het vervolgkeuzemenu opent, wordt er een lange lijst met beschikbare **Sne
 Er zijn vijf verschillende berekeningsgroepen voor Snelle metingen, die elk een verzameling berekeningen omvatten. Het betreft de volgende groepen en berekeningen:
 
 * **Samenvoegen per categorie**
-  * Gemiddelde binnen een categorie
-  * Afwijking binnen een categorie
-  * Maximum binnen een categorie
-  * Minimum binnen een categorie
+  * Gemiddelde per categorie
+  * Afwijking per categorie
+  * Maximum per categorie
+  * Minimum per categorie
   * Gewogen gemiddelde per categorie
 * **Filters**
   * Gefilterde waarde
-  * Verschil met basislijn
+  * Verschil met gefilterde waarde
   * Percentageverschil met gefilterde waarde
   * Verkopen van nieuwe categorieën
 * **Time intelligence**
@@ -101,7 +101,7 @@ De volgende **Matrix**-visual bevat een tabel voor de verkoop van verschillende 
 
 ![](media/desktop-quick-measures/quick-measures_05.png)
 
-Wanneer u met de rechtermuisknop op de veldbron **Waarden** klikt en **Snelle metingen** selecteert, kunt u *Gemiddelde binnen een categorie* als de *Berekening* selecteren, en daarna *Som van SalesAmount* als de *Basiswaarde*. Vervolgens geeft u de *SalesAmount* op door dat veld van het vak *Velden*  naar het rechterdeelvenster in het gedeelte *Categorie* aan de linkerkant te slepen.
+Wanneer u met de rechtermuisknop op de veldbron **Waarden** klikt en **Snelle metingen** selecteert, kunt u *Gemiddelde per categorie* als de *Berekening* selecteren, en daarna *Som van SalesAmount* als de *Basiswaarde*. Vervolgens geeft u de *SalesAmount* op door dat veld van het vak *Velden*  op het rechterdeelvenster naar het gedeelte *Categorie* aan de linkerkant te slepen.
 
 ![](media/desktop-quick-measures/quick-measures_06.png)
 

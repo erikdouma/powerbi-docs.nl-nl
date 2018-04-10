@@ -2,14 +2,14 @@
 title: Veelgestelde vragen over on-premises gegevensgateways
 description: Hier vindt u antwoorden op veelgestelde vragen over on-premises gegevensgateways. Dit is de plek waar u antwoorden vindt op veelgestelde vragen over de gateway.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: d06a83584bb1b270eb10f6c7098358e718f3492f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 93771e4f6e7969ac0b26aaa87a240c2261150776
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="on-premises-data-gateway-faq"></a>Veelgestelde vragen over on-premises gegevensgateways
 <!-- Shared FAQ shared Include -->
@@ -33,7 +33,7 @@ ms.lasthandoff: 02/24/2018
 **Antwoord:** Nee. Dit wordt op dit moment niet ondersteund.
 
 **Vraag:** Kan ik de gateway gebruiken om verbinding te maken met een multidimensionaal exemplaar (OLAP).  
-**Antwoord:** Ja. De on-premises gegevensgateway ondersteunt live-verbindingen met zowel tabellaire modellen van Analysis Services als multidimensionale modellen.
+**Antwoord:** Ja. De on-premises gegevensgateway ondersteunt live-verbindingen met zowel tabellaire als multidimensionale modellen van Analysis Services.
 
 **Vraag:** Wat gebeurt er als ik de gateway installeer op een computer in een ander domein dan mijn on-premises server die gebruikmaakt van Windows-authenticatie?  
 **Antwoord:** Hier kunnen we helaas geen duidelijk antwoord geven. Het hangt allemaal af van de vertrouwensrelatie tussen de twee domeinen. Als de twee verschillende domeinen deel uitmaken van een model op basis van vertrouwde domeinen, kan de gateway mogelijk verbinding maken met de Analysis Services-server en kan de effectieve gebruikersnaam mogelijk worden omgezet. Als dat niet het geval is, kan de aanmelding mislukken.

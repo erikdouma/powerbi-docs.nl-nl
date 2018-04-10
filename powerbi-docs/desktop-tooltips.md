@@ -18,23 +18,23 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2905dbc51e684ec39ac36a76c7024db0fe15cc18
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 87733126c4772b88c4e58cf60f9640668faf9cc7
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>Knopinfo maken op basis van rapportpagina’s in Power BI Desktop (voorbeeld)
 U kunt visueel uitgebreide **tooltips voor rapporten** maken die worden weergegeven wanneer u de muisaanwijzer over visuele elementen beweegt, op basis van rapportpagina's die u maakt in **Power BI Desktop**. Wanneer u een rapportpagina maakt die als knopinfo fungeert, kunnen uw aangepaste knopinfo visuele elementen, afbeeldingen en ongeacht welke andere verzameling van items bevatten die u in de rapportpagina maakt. 
 
 ![Rapportknopinfo van Power BI Desktop](media/desktop-tooltips/desktop-tooltips_00a.png)
 
-U kunt zoveel knopinfopagina's maken als u wilt. Elke knopinfopagina kan worden gekoppeld aan een of meer velden in uw rapport, zodat wanneer u de muisaanwijzer over een visueel element beweegt dat deel uitmaakt van het geselecteerde veld, de knopinfo wordt weergegeven die u hebt gemaakt op de knopinfopagina wanneer u de muisaanwijzer over het visuele element beweegt, gefilterd op basis van het datapoint waarover uw muis beweegt. 
+U kunt zoveel knopinfopagina's maken als u wilt. Elke knopinfopagina kan worden gekoppeld aan een of meer velden in uw rapport, zodat wanneer u de muisaanwijzer over een visueel element beweegt dat deel uitmaakt van het geselecteerde veld, de knopinfo wordt weergegeven die u hebt gemaakt op de knopinfopagina wanneer u de muisaanwijzer over het visuele element beweegt, gefilterd door het gegevenspunt waarover uw muis beweegt. 
 
-U kunt allerlei interessante dingen doen met rapportknopinfo. Laten we eens kijken hoe u knopinfo kunt maken en wat u moet doen om ze te configureren.
+U kunt allerlei interessante dingen doen met rapportknopinfo. We gaan nu kijken hoe u knopinfo kunt maken en wat u moet doen om deze te configureren.
 
 ### <a name="enable-the-tooltips-preview"></a>Het tooltips-voorbeeld inschakelen 
-Aangezien rapportknopinfo momenteel in preview is, moet u ze inschakelen voordat u een rapportknopinfo kunt maken. Als u de preview-functie van rapportknopinfo wilt inschakelen, selecteert u **Bestand > Opties en Instellingen > Opties > Previewfuncties** in Power BI Desktop en schakelt u vervolgens het selectievakje naast **Bladwijzers** in. 
+Aangezien rapportknopinfo momenteel in preview is, moet u ze inschakelen voordat u een rapportknopinfo kunt maken. Als u de previewfunctie van rapportknopinfo wilt inschakelen, selecteert u **Bestand > Opties en Instellingen > Opties > Previewfuncties** in Power BI Desktop en schakelt u vervolgens het selectievakje naast **Rapportpagina knopinfo** in. 
 
 ![Preview-functie voor rapportknopinfo inschakelen](media/desktop-tooltips/desktop-tooltips_01.png)
 
@@ -99,7 +99,7 @@ De mogelijkheid om knopinfo handmatig in te stellen biedt vele toepassingen. U k
 
 ## <a name="reverting-to-default-tooltips"></a>Herstellen van de standaardknopinfo
 
-Als u een handmatige knopinfo voor een visueel element maakt, maar u besluit dat u in plaats daarvan de standaardknopinfo wilt, kunt u altijd terugkeren naar de standaardknopinfo die Power BI biedt. Hiervoor hoeft u, als u een visueel element hebt geselecteerd en de kaart **Knopinfo** hebt uitgevouwen, slechts *Automatisch* te selecteren in de vervolgkeuzelijst **Pagina** als u wilt teruggaan naar de standaardknopinfo.
+Als u een handmatige knopinfo voor een visueel element maakt, maar besluit dat u in plaats daarvan de standaardknopinfo wilt, kunt u altijd terugkeren naar de standaardknopinfo die Power BI biedt. Hiervoor hoeft u, als u een visueel element hebt geselecteerd en de kaart **Knopinfo** hebt uitgevouwen, slechts *Automatisch* te selecteren in de vervolgkeuzelijst **Pagina** als u wilt teruggaan naar de standaardknopinfo.
 
 ![Terug naar de standaardknopinfo voor een visueel element](media/desktop-tooltips/desktop-tooltips_11.png)
 

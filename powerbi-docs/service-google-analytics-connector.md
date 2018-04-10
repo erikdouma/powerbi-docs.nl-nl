@@ -2,14 +2,14 @@
 title: 'Service van derden: Google Analytics-connector voor Power BI Desktop'
 description: 'Service van derden: Google Analytics-connector voor Power BI Desktop'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e05f64b52c34b3f038994e9cac8a9b7e6aebc7ad
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: fdd48073d80176eff1576633c2e9f15bdd430a60
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="google-analytics-connector-for-power-bi-desktop"></a>Google Analytics-connector voor Power BI Desktop
 > [!NOTE]
@@ -33,7 +33,7 @@ ms.lasthandoff: 02/24/2018
 U kunt verbinding maken met Google Analytics-gegevens met de **Google Analytics**-connector. Volg deze stappen om verbinding te maken:
 
 1. In **Power BI Desktop** selecteert u op het lint **Start** de opties **Gegevens ophalen**.
-2. Selecteer in het venster **Gegevens ophalen** **Overige** in de categorieën in het linkerdeelvenster.
+2. Selecteer **Online services** in het venster **Gegevens ophalen**, uit de categorieën in het linkerdeelvenster.
 3. Selecteer **Google Analytics** in de selecties in het rechterdeelvenster.
 4. Selecteer onderin het venster **Verbinding maken**.  
    ![](media/service-google-analytics-connector/tps_googleanalytics_1.png)
