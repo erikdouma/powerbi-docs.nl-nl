@@ -2,27 +2,27 @@
 title: Problemen met de on-premises gegevensgateway oplossen
 description: In dit artikel worden manieren besproken om problemen met de on-premises gegevensgateway op te lossen. Het biedt mogelijke tijdelijke oplossingen voor bekende problemen, evenals hulpprogramma's om u te helpen.
 services: powerbi
-documentationcenter: 
-author: davidiseminger
+documentationcenter: ''
+author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 11/21/2017
-ms.author: davidi
+ms.date: 03/23/2018
+ms.author: maghan
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1651f18194cd47582376b52bb6359db10a330c27
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9742fd0d48f4a77b5019aa7547fa511404c6f63e
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Problemen met de on-premises gegevensgateway oplossen
 In dit artikel worden enkele veelvoorkomende problemen besproken die kunnen optreden tijdens het gebruik van de **on-premises gegevensgateway**.
@@ -78,14 +78,14 @@ U kunt de volgende stappen volgen om dit op te lossen.
 1. Verwijder de gateway.
 2. Verwijder de volgende map.
    
-        c:\Program Files\on-premises data gateway
+        c:\Program Files\On-premises data gateway
 3. Installeer de gateway opnieuw.
 4. Optioneel kunt u de herstelsleutel voor het herstellen van een bestaande gateway toepassen.
 
 ### <a name="support-for-tls-1112"></a>Ondersteuning voor TLS 1.1/1.2
-Sinds de update van augustus 2017 maakt de on-premises gegevensgateway standaard gebruik van Transport Layer Security (TLS) 1.1 of 1.2 om te communiceren met de **Power BI-service**. Eerdere versies van de on-premises gegevensgateway maken standaard gebruik van TLS 1.0. Op 1 november 2017 wordt de ondersteuning voor TLS 1.0 beëindigd. Upgrade daarom vóór die datum de installatie van uw on-premises gegevensgateway naar de release van augustus 2017 of later om te garanderen dat uw gateways blijven functioneren.
+Sinds de update van augustus 2017 maakt de On-premises gegevensgateway standaard gebruik van Transport Layer Security (TLS) 1.1 of 1.2 om te communiceren met de **Power BI-service**. Eerdere versies van de On-premises gegevensgateway maken standaard gebruik van TLS 1.0. Op 1 november 2017 wordt de ondersteuning voor TLS 1.0 beëindigd. Upgrade daarom vóór die datum de installatie van uw on-premises gegevensgateway naar de release van augustus 2017 of later om te garanderen dat uw gateways blijven functioneren.
 
-Het is belangrijk om te weten dat TLS 1.0 tot 1 november nog steeds wordt ondersteund door de on-premises gegevensgateway en door de gateway wordt gebruikt als back-upprotocol bij problemen. Om ervoor te zorgen dat al het verkeer van en naar de gateway gebruikmaakt van TLS 1.1 of 1.2 (en om te voorkomen dat uw gateway nog TLS 1.0 gebruikt), moet u de volgende registersleutels toevoegen op de computer waarop de gateway-service wordt uitgevoerd:
+Het is belangrijk om te weten dat TLS 1.0 tot 1 november nog steeds wordt ondersteund door de On-premises gegevensgateway en door de gateway wordt gebruikt als back-upprotocol bij problemen. Om ervoor te zorgen dat al het verkeer van en naar de gateway gebruikmaakt van TLS 1.1 of 1.2 (en om te voorkomen dat uw gateway nog TLS 1.0 gebruikt), moet u de volgende registersleutels toevoegen op de computer waarop de gateway-service wordt uitgevoerd:
 
         [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
         [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
@@ -115,7 +115,7 @@ Deze fout kan verschillende oorzaken hebben. Controleer of u verbinding kunt mak
 
 Onder **Details weergeven** wordt de foutcode **DM_GWPipeline_UnknownError** weergegeven.
 
-U kunt voor meer informatie ook de logboeken raadplegen: Gebeurtenislogboeken > **Logboeken Toepassingen en Services** > **On-premises gegevensgateway-service**.
+U kunt voor meer informatie ook de Gebeurtenislogboeken raadplegen> **Logboeken Toepassingen en Services** > **On-premises gegevensgateway-service**.
 
 ### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>Fout: Er is een fout opgetreden tijdens het verbinden met <server>. Details: 'Er is contact gemaakt met de gegevensgateway, maar de gateway heeft geen toegang tot de on-premises gegevensbron.'
 Er kan geen verbinding worden gemaakt met de opgegeven gegevensbron. Controleer de informatie die is opgegeven voor de gegevensbron.
@@ -193,7 +193,7 @@ Doe het volgende om dit te controleren.
 
 Eventueel kunt u nagaan wat Power BI ophaalt uit Azure Active Directory.
 
-1. Blader hiervoor naar [https://graphexplorer.cloudapp.net](https://graphexplorer.cloudapp.net).
+1. Blader naar [https://graphexplorer.cloudapp.net](https://graphexplorer.cloudapp.net).
 2. Selecteer **Aanmelden** in de rechterbovenhoek.
 3. Voer de volgende query uit. Er wordt nu een vrij groot JSON-antwoord weergegeven.
    
@@ -314,8 +314,10 @@ from [dbo].[V_CustomerOrders] as [$Table])
 GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 ```
 
-### <a name="microsoftpowerbidatamovementpipelinegatewaycoredllconfig"></a>Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
-In het bestand *Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config* dient u de waarde `TraceVerbosity` te wijzigen van `4` naar `5`. Dit bestand bevindt zich in *C:\Program Files\On-premises data gateway*. Als u deze instelling wijzigt, worden er uitgebreide logboekvermeldingen naar het gatewaylogboek geschreven. Hierbij wordt voor vermeldingen ook de duur getoond.
+### <a name="microsoftpowerbidatamovementpipelinediagnosticsdllconfig"></a>Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config
+In het bestand *Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config* dient u de waarde `TracingVerbosity` te wijzigen van `4` naar `5`. Dit bestand bevindt zich in *C:\Program Files\On-premises data gateway*. Als u deze instelling wijzigt, worden er uitgebreide logboekvermeldingen naar het gatewaylogboek geschreven. Hierbij wordt voor vermeldingen ook de duur getoond. U kunt ook uitgebreide vermeldingen inschakelen door het inschakelen van de knop 'Aanvullende logboekregistratie' in de toepassing On-Premise Gateway.
+
+   ![Aanvullende logboekregistratie](media/service-gateway-onprem-tshoot/additional-logging.png)
 
 > [!IMPORTANT]
 > Door TraceVerbosity in te stellen op `5`, kan de grootte van het logboekbestand aanzienlijk toenemen, afhankelijk van het gatewaygebruik. Wanneer u klaar bent met het controleren van de logboeken, kunt u TraceVerbosity het beste weer instellen op `4`. Het wordt afgeraden om deze instelling langere tijd ingeschakeld te laten.
@@ -352,6 +354,72 @@ Om te bepalen hoe lang het duurde om een query bij de gegevensbron uit te voeren
    > 
    > 
 
+## <a name="kerberos"></a>Kerberos
+
+Als de onderliggende databaseserver en de on-premises gegevensgateway niet juist zijn geconfigureerd voor [Kerberos Constrained Delegation](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md), schakel dan [uitgebreide logboekregistratie](#microsoftpowerbidatamovementpipelinediagnosticsdllconfig) in op de gateway en onderzoek op basis van de fouten/traceringen in logboekbestanden van de gateway als beginpunt voor probleemoplossing.
+
+### <a name="impersonationlevel"></a>ImpersonationLevel (imitatieniveau)
+
+Het ImpersonationLevel (imitatieniveau) is gerelateerd aan de installatie van de SPN of de lokale beleidsinstelling.
+
+```
+[DataMovement.PipeLine.GatewayDataAccess] About to impersonate user DOMAIN\User (IsAuthenticated: True, ImpersonationLevel: Identification)
+```
+
+**Oplossing**
+
+Volg deze stappen om het probleem op te lossen:
+1. Een SPN voor de on-premises gateway instellen
+2. Beperkte delegering instellen in uw Active Directory (AD)
+
+### <a name="failedtoimpersonateuserexception-failed-to-create-windows-identity-for-user-userid"></a>FailedToImpersonateUserException: kan geen Windows-identiteit voor de gebruiker userid maken
+
+FailedToImpersonateUserException zal zich voordoen als u zich niet namens een andere gebruiker als zodanig kunt voordoen. Dit kan ook gebeuren als het account dat u probeert te imiteren vanuit een ander domein komt dan het domein waarop de gateway-service zich bevindt (dit is een beperking).
+
+**Oplossing**
+* Controleer of de configuratie klopt volgens de stappen in de sectie ImpersonationLevel hierboven
+* Zorg ervoor dat de userid die deze probeert te imiteren een geldig AD-Account is
+
+### <a name="general-error-1033-error-while-parsing-protocol"></a>Algemene fout: Fout tijdens het parseren van protocol 1033
+
+U krijgt de fout 1033 te zien wanneer uw externe id, die is geconfigureerd in SAP HANA, niet met de aanmelding overeenkomt als de gebruiker wordt geïmiteerd met behulp van de UPN (alias@domain.com). In de logboeken ziet u hoe de 'oorspronkelijke UPN 'alias@domain.com' wordt vervangen door een nieuwe UPN 'alias@domain.com' aan de bovenkant van de foutenlogboeken zoals hieronder wordt weergegeven.'
+
+```
+[DM.GatewayCore] SingleSignOn Required. Original UPN 'alias@domain.com' replaced with new UPN 'alias@domain.com'.
+```
+
+**Oplossing**
+* SAP HANA vereist dat de geïmiteerde gebruiker het kenmerk sAMAccountName in AD (gebruikersalias) gebruikt. Als dit niet juist is, ziet u de fout 1033.
+
+    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount.png)
+
+* In de logboeken ziet u de sAMAccountName (alias) en niet de UPN, dit is de alias die wordt gevolgd door het domein (alias@doimain.com)
+
+    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
+
+```
+      <setting name="ADUserNameReplacementProperty" serializeAs="String">
+        <value>sAMAccount</value>
+      </setting>
+      <setting name="ADServerPath" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="CustomASDataSource" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="ADUserNameLookupProperty" serializeAs="String">
+        <value>AADEmail</value>
+```
+
+### <a name="sap-aglibodbchdb-dllhdbodbc-communication-link-failure-10709-connection-failed-rte-1-kerberos-error-major-miscellaneous-failure-851968-minor-no-credentials-are-available-in-the-security-package"></a>[SAP AG] [LIBODBCHDB DLL] [HDBODBC] Koppeling communicatiefout;-10709 verbinding is mislukt (RTE:[-1] Kerberos-fout. Primair: 'Diverse-fout [851968]', secundair: 'Er zijn geen referenties beschikbaar in het beveiligingspakket'
+
+U krijgt het foutbericht 10709, verbinding mislukt, als de overdracht niet juist is geconfigureerd in AD.
+
+**Oplossing**
+* Zorg ervoor dat u de SAP Hana-server op het tabblad Delegering in AD heeft voor het gateway-serviceaccount
+
+   ![Tabblad Delegering](media/service-gateway-onprem-tshoot/delegation-in-AD.png)
+
 <!-- Shared Troubleshooting tools Include -->
 [!INCLUDE [gateway-onprem-tshoot-tools-include](./includes/gateway-onprem-tshoot-tools-include.md)]
 
@@ -378,4 +446,3 @@ Voor meer informatie over het oplossen van problemen met betrekking tot vernieuw
 [Manage your data source - SQL Server](service-gateway-enterprise-manage-sql.md) (Uw gegevensbron beheren - SQL Server)  
 [Manage your data source - Import/Scheduled refresh](service-gateway-enterprise-manage-scheduled-refresh.md) (Uw gegevensbron beheren - importeren/geplande vernieuwing)  
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
-

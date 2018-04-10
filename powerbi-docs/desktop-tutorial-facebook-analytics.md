@@ -2,14 +2,14 @@
 title: 'Zelfstudie: Facebook-analyses met Power BI Desktop'
 description: 'Zelfstudie: Facebook-analyses met Power BI Desktop'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,213 +18,234 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: e0bdec7d2774fd5c6641041af14b2170d7223151
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 6113ab53e36dd035772c0bd9812f9870a6404eac
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Zelfstudie: Facebook-analyses met Power BI Desktop
-In deze zelfstudie leert u hoe u gegevens uit **Facebook** importeert en visualiseert. Tijdens de zelfstudie leert u hoe u verbinding maakt met een bepaalde Facebook-pagina (de Power BI-pagina), stappen voor gegevenstransformatie toepast en een aantal visualisaties maakt.
 
-Dit zijn de stappen die u gaat uitvoeren:
+In deze zelfstudie leert u hoe u gegevens uit Facebook importeert en gebruikt in Power BI Desktop. U moet verbinding maken met en gegevens importeren van de Power BI Facebook-pagina, transformaties toepassen op de geïmporteerde gegevens en de gegevens in rapportvisualisaties gebruiken.
 
-* **Taak 1:** verbinding maken met een Facebook-pagina
-* **Taak 2:** visualisaties maken met behulp van de rapportweergave
-  
-  * **Stap 1**: een treemapvisualisatie maken
-* **Taak 3:** gegevens vormgeven in de queryweergave
-  
-  * **Stap 1**: de datum/tijd-kolom splitsen in twee kolommen
-  * **Stap 2**: een samengevoegde waarde van een verwante tabel toevoegen
-* **Taak 4:** extra visualisaties maken met behulp van de rapportweergave
-  
-  * **Stap 1**: de query in uw rapport laden
-  * **Stap 2**: een lijndiagram en een staafdiagram maken
+## <a name="connect-to-a-facebook-page"></a>Verbinding maken met een Facebook-pagina
 
-## <a name="task-1-connect-to-a-facebook-page"></a>**Taak 1: verbinding maken met een Facebook-pagina**
-In deze taak importeert u gegevens van de [Microsoft Power BI Facebook](https://www.facebook.com/microsoftbi)-site (dit is de URL: *https://www.facebook.com/microsoftbi)*.
+Deze zelfstudie gebruikt gegevens van de [Microsoft Power BI Facebook-pagina](https://www.facebook.com/microsoftbi) (*https://www.facebook.com/microsoftbi*). Met uitzondering van een persoonlijk Facebook-account hebt u geen speciale referenties nodig om verbinding te maken met en gegevens te importeren van deze pagina.
 
-Iedereen kan verbinding maken met deze pagina en deze stappen volgen. Er zijn geen speciale referenties vereist (met uitzondering van de referenties van uw eigen Facebook-account, dat u in deze stap gebruikt).
-
-![](media/desktop-tutorial-facebook-analytics/1.png)
-
-1. Selecteer in het dialoogvenster **Aan de slag** of op het linttabblad **Start** de optie **Gegevens ophalen**.
-2. Het dialoogvenster **Gegevens ophalen** wordt weergegeven, zodat u uit allerlei soorten gegevensbronnen kunt selecteren. Selecteer **Facebook** in de groep **Overig**.
+1. Open Power BI Desktop en selecteer **Gegevens ophalen** in het dialoogvenster **Aan de slag** of selecteer op het linttabblad **Start** de optie **Gegevens ophalen** en vervolgens **Meer...** .
    
-   ![](media/desktop-tutorial-facebook-analytics/t_fb_getdataother.png)
+2. Selecteer in het dialoogvenster **Gegevens ophalen** de optie **Facebook** in de groep **Onlineservices** en selecteer vervolgens **Verbinden**.
    
-   Wanneer u **Verbinden** selecteert, verschijnt een dialoogvenster om u te waarschuwen voor de risico's van het gebruik van een service van derden.
+   ![Gegevens ophalen](media/desktop-tutorial-facebook-analytics/t_fb_getdataother.png)
    
-   ![](media/desktop-tutorial-facebook-analytics/t_fb_connectingtotps.png)
-3. Wanneer u Doorgaan selecteert, verschijnt het dialoogvenster **Facebook** waarin u de naam van de pagina kunt plakken (**microsoftbi**) in het tekstvak **Gebruikersnaam**. Selecteer **Berichten** in de vervolgkeuzelijst **Verbinding**.
+   Er verschijnt een dialoogvenster waarin u wordt gewaarschuwd voor de risico's van het gebruik van een service van derden.
    
-   ![](media/desktop-tutorial-facebook-analytics/2.png)
-4. Klik op **OK**.
+   ![Waarschuwing over derden](media/desktop-tutorial-facebook-analytics/t_fb_connectingtotps.png)
+   
+3. Selecteer **Doorgaan**. Het dialoogvenster **Facebook** wordt weergegeven.
+   
+4. Typ of plak de naam van de pagina **microsoftbi** in het tekstvak **Gebruikersnaam**, selecteer **Berichten** in de vervolgkeuzelijst **Verbinding** en selecteer vervolgens **OK**.
+   
+   ![Verbinding maken](media/desktop-tutorial-facebook-analytics/2.png)
+   
 5. Wanneer u wordt gevraagd om referenties in te voeren, meldt u zich aan met uw Facebook-account en geeft u Power Bi toegang via uw account.
    
-   ![](media/desktop-tutorial-facebook-analytics/facebookcredentials.png)
+   ![Referenties](media/desktop-tutorial-facebook-analytics/facebookcredentials.png)
 
-Nadat verbinding is gemaakt met de pagina, ziet u dat de gegevens worden geladen in het model. 
-
-![](media/desktop-tutorial-facebook-analytics/t_fb_1-loadpreview.png)
-
-Hierna worden de gegevens weergegeven in **Query-Editor**. **Query-Editor** maakt deel uit van Power BI Desktop, maar wordt geladen in een apart venster. Hier voert u alle transformaties uit op uw gegevensverbindingen.
-
-![](media/desktop-tutorial-facebook-analytics/t_fb_1-intoqueryeditor.png)
-
-Wanneer u tevreden bent over uw gegevens, kunt u ze laden in Power BI Desktop. Selecteer **Laden en sluiten** in het lint **Start**.
-
-![](media/desktop-tutorial-facebook-analytics/t_fb_1-loadandclose.png)
-
-Hier ziet u een dialoogvenster waarin de voortgang wordt weergegeven van het laden van de gegevens in het gegevensmodel van Power BI Desktop.
-
-![](media/desktop-tutorial-facebook-analytics/t_fb_1-loading.png)
-
-Nadat de gegevens zijn geladen, gaat u naar de weergave **Rapport**. Hier worden de kolommen uit de tabel vermeld in de lijst **Veld** aan de rechterkant.
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner1.png)
-
-## <a name="task-2-create-visualizations-using-the-report-view"></a>**Taak 2: visualisaties maken met behulp van de rapportweergave**
-Nu u de gegevens van de pagina het geïmporteerd, kunt u snel en eenvoudig inzicht krijgen in uw gegevens met behulp van visualisaties.
-
-**Stap 1**: een treemapvisualisatie maken
-
-Het maken van een visualisatie is eenvoudig. U hoeft slechts een veld uit de **Veldenlijst** te slepen en neer te zetten op het **canvas Rapporteren.**
-
-Sleep het veld **Type** naar het canvas **Rapport**. Power BI Desktop maakt een nieuwe visualisatie in het **canvas Rapport**. Sleep vervolgens **Type** van **Velden** (hetzelfde veld dat u zojuist naar het canvas **Rapport** hebt gesleept) naar het gebied **Waarde** om de visualisatie  **Balk** te maken.
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner2.png)
-
-We kunnen eenvoudig het type visualisatie wijzigen door een ander pictogram te selecteren in het deelvenster **Visualisatie**. We wijzigen het type in een **Treemap** door het bijbehorende pictogram te selecteren in **Visualisaties**, zoals wordt weergegeven in de volgende afbeelding.
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner3.png)
-
-Vervolgens voegen we een legenda toe en daarna wijzigen we de kleur van een gegevenspunt. Selecteer het pictogram **Opmaak** in het deelvenster **Visualisaties**. Het pictogram **Opmaak** ziet eruit als een verfkwast.
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner3a.png)
-
-Wanneer u de pijl omlaag naast **Legenda** selecteert, wordt de sectie uitgevouwen om te laten zien hoe u het bijschrift voor de geselecteerde visualisatie aanpast. In dit geval hebben we de volgende selecties gemaakt:
-
-* de schuifregelaar **Legenda** is naar **Aan** verplaatst zodat een legenda wordt weergegeven
-* **Rechts** is geselecteerd in de vervolgkeuzelijst **Positie van legenda**
-* de schuifregelaar **Titel** is ook verplaatst naar **Aan**, dus er wordt een titel voor de legenda weergegeven
-* er is **type** ingevoerd om de legenda een titel te geven
-
-Deze instellingen zijn in de volgende afbeelding al gemaakt en worden weergegeven in de visualisatie.
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner3b.png)
-
-Vervolgens gaan we de kleur van een van de gegevenspunten wijzigen. Het gegevenspunt van de koppeling moet blauw zijn, zodat de algemene kleur voor hyperlinks wordt benaderd.
-
-Selecteer de pijl naast **Gegevenskleuren** om die sectie uit te vouwen. De gegevenspunten worden weergegeven met selectiepijlen naast elke kleur, zodat we een andere kleur kunnen selecteren voor elk gegevenspunt.
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner3c.png)
-
-Wanneer u op de pijl omlaag van het kleurvak naast een gegevenspunt klikt, verschijnt een dialoogvenster waarin u uw kleur kunt kiezen. In dit geval kiezen we lichtblauw.
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner3d.png)
-
-Dat ziet er veel beter uit. In de volgende afbeelding ziet u hoe de kleur is toegepast op het gegevenspunt in de visualisatie, en dat de legenda ook automatisch is bijgewerkt, evenals de kleur in de sectie **Gegevenskleuren**.
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner3e.png)
-
-## <a name="task-3-shape-data-in-the-table"></a>**Taak 3: gegevens vormgeven in de tabel**
-Nu u de geselecteerde tabel hebt geïmporteerd en u bent begonnen met het visualiseren, merkt u mogelijk dat u verschillende stappen moet uitvoeren voor het vormgeven en opschonen van uw gegevens om er het meeste uit te halen.
-
-**Stap 1**: de datum/tijd-kolom splitsen in twee kolommen
-
-In deze stap splitst u de kolom **created\_time** zodat u van de waarden datum en tijd gebruik kunt maken. Wanneer u in Power BI Desktop bent en u een bestaande query wilt wijzigen, moet u **Query-Editor** starten. Selecteer daarvoor **Query's bewerken** op het tabblad **Start**.
-
-![](media/desktop-tutorial-facebook-analytics/t_fb_editquery.png)
-
-1. Schuif in het raster van **Query Editor** naar rechts totdat u de kolom **created\_time** hebt gevonden
-2. Klik met de rechtermuisknop op een kolomkop in het raster **Query-preview** en klik op **Kolom splitsen \> Op scheidingsteken** om de kolommen te splitsen. Kies **Aangepast** in de vervolgkeuzelijst voor het scheidingsteken en voer **‘T’** in. Deze bewerking is ook beschikbaar in het linttabblad **Start** in de groep **Kolommen beheren** .
+   Nadat u verbinding hebt gemaakt met de Power BI Facebook-pagina, ziet u een voorbeeld van de gegevens in de **Berichten** van de pagina. 
    
-   ![](media/desktop-tutorial-facebook-analytics/9.png)
+   ![Voorbeeld van gegevens](media/desktop-tutorial-facebook-analytics/t_fb_1-loadpreview.png)
    
-   ![](media/desktop-tutorial-facebook-analytics/10.png)
-3. Wijzig de naam van de gemaakte kolommen respectievelijk in **created\_date** en **created\_time**.
-4. Selecteer de nieuwe kolom **created\_time**, *** en navigeer in het lint **Queryweergave** naar het tabblad **Kolom toevoegen**. Selecteer **Tijd\>Uur** in de groep **Van datum en tijd**. Hierdoor wordt een nieuwe kolom toegevoegd met alleen het uurgedeelte van de tijd.
+## <a name="shape-and-transform-the-imported-data"></a>De geïmporteerde gegevens vormgeven en transformeren
+
+U wilt zien en weergeven welke berichten de meeste opmerkingen hebben gedurende een bepaalde periode, maar u ziet dat in het gegevensvoorbeeld **Berichten** de gegevens over de **created_time** moeilijk te lezen en te begrijpen zijn, en dat er helemaal geen gegevens over opmerkingen zijn. U moet een aantal vormgevings- en opschoningsacties op de gegevens uitvoeren om er zoveel mogelijk informatie uit te kunnen halen. U kunt de **Power Query-editor** van Power BI Desktop gebruiken om de gegevens te bewerken voordat of nadat u deze naar Power BI Desktop importeert. 
+
+### <a name="split-the-datetime-column"></a>De datum/tijd-kolom splitsen
+
+Eerst scheidt u de datum- en tijdwaarden in de kolom **created_time**, zodat deze beter leesbaar zijn. 
+
+1. Selecteer in het Facebook-gegevensvoorbeeld de optie **Bewerken**. 
    
-   ![](media/desktop-tutorial-facebook-analytics/11.png)
-5. Wijzig het type van de nieuwe kolom **Uur** in **Geheel getal** door te navigeren naar het tabblad **Start** en de vervolgkeuzelijst **Gegevenstype** te selecteren. U kunt ook met de rechtermuisknop op de kolom klikken en het **Transformeren\>Geheel getal** selecteren.
+   ![Gegevensvoorbeeld - bewerken](media/desktop-tutorial-facebook-analytics/t_fb_1-editpreview.png)
    
-   ![](media/desktop-tutorial-facebook-analytics/12.png)
-
-**Stap 2**: een samengevoegde waarde van een verwante tabel toevoegen
-
-In deze stap voegt u het aantal deelacties van de geneste waarde toe zodat u deze in de visualisaties kunt gebruiken.
-
-1. Schuif naar rechts tot u de kolom **shares** ziet. De geneste waarde geeft aan dat we nog een transformatie moeten uitvoeren om de werkelijke waarden op te halen.
-2. Selecteer in de rechterbovenhoek van de kolomkop het pictogram ![](media/desktop-tutorial-facebook-analytics/14.png) om de opbouwfunctie **Uitvouwen/samenvoegen** te openen. Selecteer **aantal** en klik op **OK**. Hiermee wordt de telling van de deelacties voor elke rij in de tabel toegevoegd.
+   De **Power Query-editor** van Power BI Desktop wordt in een nieuw venster geopend en geeft het voorbeeld van de gegevens van de Power BI Facebook-pagina weer. 
    
-   ![](media/desktop-tutorial-facebook-analytics/15.png)
+   ![Power Query-editor](media/desktop-tutorial-facebook-analytics/t_fb_1-intoqueryeditor.png)
    
-   Nadat de gegevens zijn geladen, wijzigt u de naam van de kolom **shares** door te dubbelklikken op de naam van de kolom, door met de rechtermuisknop te klikken op de kolom of door in het lint **Queryweergave** de optie **Naam wijzigen** te selecteren op het tabblad **Transformeren** in de groep **Elke kolom**.
-3. Ten slotte moet u het type van de nieuwe kolom **shares** wijzigen in **Geheel getal**. Het type van de geselecteerde kolom kan worden gewijzigd door met de rechtermuisknop te klikken op de kolom en **Transformeren\>Geheel getal** te selecteren, of *** door te navigeren naar het tabblad **Start** en de vervolgkeuzelijst **Gegevenstype** te selecteren.
-
-### <a name="query-steps-created"></a>Gemaakte querystappen
-Als u transformaties uitvoert in Query-editor, worden er querystappen gemaakt en vermeld in het deelvenster **Queryinstellingen** in de lijst **TOEGEPASTE STAPPEN**. Elke querystap heeft een bijbehorende Query-formule, die ook wel bekendstaat als de M-taal.
-
-![](media/desktop-tutorial-facebook-analytics/16.png)
-
-| Taak | Querystap | Formule |
-| --- | --- | --- |
-| Verbinding maken met een Facebook-bron |Bron |Facebook.Graph  (&quot;https://graph.facebook.com/microsoftbi/posts&quot;) |
-| **Kolommen splitsen** om de waarden die u nodig hebt op te halen |Kolom splitsen op scheidingsteken |Table.SplitColumn  (Source,&quot;created_time&quot;,Splitter.SplitTextByDelimiter(&quot;T&quot;),{&quot;created_time.1&quot;, &quot;created_time.2&quot;}) |
-| **Het type wijzigen** van de nieuwe kolommen (automatische stap) |Gewijzigd type |Table.TransformColumnTypes  (#&quot;Split Column by Delimiter&quot;,{{&quot;created_time.1&quot;, type date}, {&quot;created_time.2&quot;, type time}}) |
-| **De naam van **een kolom wijzigen**** |Kolommen met een nieuwe naam |Table.RenameColumns  (#&quot;Changed Type&quot;,{{&quot;created_time.1&quot;, &quot;created_date&quot;}, {&quot;created_time.2&quot;, &quot;created_time&quot;}}) |
-| **Een kolom **invoegen**** |Ingevoegde tijd |Table.AddColumn  (#&quot;Renamed Columns&quot;, &quot;Hour&quot;, each Time.Hour([created_time]), type number) |
-| ** Type wijzigen ** |Gewijzigd type1 |Table.TransformColumnTypes  (#&quot;Inserted Hour&quot;,{{&quot;Hour&quot;, type text}}) |
-| **Waarden ** uitvouwen in een geneste tabel**** |Deelacties uitvouwen |Table.ExpandRecordColumn  (#&quot;Changed Type1&quot;, &quot;shares&quot;, {&quot;count&quot;}, {&quot;shares.count&quot;}) |
-| ** De kolom ** een nieuwe naam geven**** |Kolommen met een nieuwe naam1 |Table.RenameColumns  (#&quot; Expand shares&quot;,{{&quot;shares.count&quot;, &quot;shares&quot;}}) |
-| **Type wijzigen** |Gewijzigd type2 |Table.TransformColumnTypes  (#&quot;Renamed Columns1&quot;,{{&quot;shares&quot;, Int64.Type}}) |
-
-## <a name="task-4-create-additional-visualizations-using-the-report-view"></a>**Taak 4: extra visualisaties maken met behulp van de rapportweergave**
-Nu we de gegevens hebben omgezet in de vorm die we nodig hebben voor de rest van onze analyse, kunnen we de resulterende tabel laden ons rapport en extra visualisaties maken.
-
-**Stap 1**: de query in uw rapport laden
-
-Om de queryresultaten in het rapport te laden, moeten we **Laden en sluiten** selecteren in **Query Editor**. Hiermee worden onze wijzigingen in Power BI Desktop geladen en wordt **Query Editor** gesloten.
-
-![](media/desktop-tutorial-facebook-analytics/t_fb_1-loadandclose.png)
-
-In Power BI Desktop moeten we de weergave **Rapport** open hebben. Selecteer het eerste pictogram in de linkerbalk in Power BI Desktop.
-
-![](media/desktop-tutorial-facebook-analytics/17.png)
-
-**Stap 2**: een lijndiagram en een staafdiagram maken
-
-Om een visualisatie te maken, kunnen we velden slepen uit de lijst **Veld** en ze neerzetten in het canvas **Rapport**.
-
-1. Sleep het veld **shares** naar het canvas **Rapport**. Hiermee wordt automatisch een staafdiagram gemaakt. Sleep vervolgens created\_date naar de diagram. Power BI Desktop wijzigt de visualisatie in een **Lijndiagram**.
+2. Selecteer de kolom **created_time**. U ziet dat er momenteel sprake is van het gegevenstype Tekst, dat wordt aangegeven door het pictogram **ABC**. Klik met de rechtermuisknop op de koptekst en selecteer **Kolom splitsen op scheidingsteken** in de vervolgkeuzelijst of selecteer **Kolom splitsen op scheidingsteken** onder **Transformeren** op het linttabblad Start.  
    
-   ![](media/desktop-tutorial-facebook-analytics/19.png)
-2. Sleep vervolgend het veld **shares** en zet het neer in het **canvast Rapport**. Sleep het veld **Uur** nu naar de sectie **As** in de **lijst Veld**.
+   ![Kolom splitsen op scheidingsteken](media/desktop-tutorial-facebook-analytics/delimiter1.png)
    
-   ![](media/desktop-tutorial-facebook-analytics/20.png)
-3. We kunnen eenvoudig het type visualisatie wijzigen door op een ander pictogram te klikken in het deelvenster **Visualisatie**. De pijl in de afbeelding hieronder wijst naar het pictogram **Staafdiagram**.
+3. Selecteer in het dialoogvenster **Kolom splitsen op scheidingsteken** de optie **Aangepast** in de vervolgkeuzelijst, voer **T** in (het teken waarmee het tijdgedeelte van de waarden voor created_time begint) in het invoerveld en selecteer **OK**. 
    
-   ![](media/desktop-tutorial-facebook-analytics/21.png)
-4. Wijzig tet type visualisatie in **Staafdiagram**.
-5. De **Staafdiagram** is gemaakt, maar de as is nog niet precies wat we willen. Hij moet worden gesorteerd in de andere richting (van hoog naar laag). Selecteer de pijl omlaag naast **Y-as** om die sectie uit te vouwen. We moeten het type van de as wijzigen van **Doorlopend** naar **Categorisch**, zodat deze sorteert zoals we willen (in de onderstaande afbeelding ziet u de as voordat we de selectie maken, bekijk de volgende afbeelding om te zien hoe de sortering eruit moet gaan zien).
+   ![Het dialoogvenster Kolom splitsen op scheidingsteken](media/desktop-tutorial-facebook-analytics/delimiter2.png)
+   
+   De kolom wordt gesplitst in twee kolommen die de tekenreeksen voor en na het **T**-scheidingsteken bevatten en hebben respectievelijk de naam **created_time.1** en **created_time.2**. U ziet dat Power BI de gegevenstypen automatisch heeft gedetecteerd en gewijzigd in **Datum** voor de eerste kolom en **Tijd** voor de tweede kolom en de datum- en tijdwaarden heeft opgemaakt, zodat deze beter leesbaar zijn.
+   
+4. Wijzig de naam van de kolommen door te dubbelklikken op elke kolomkop of elke kolom te selecteren. Selecteer vervolgens **Naam wijzigen** in de groep **Elke kolom** van het tabblad **Transformeren** op het lint en typ de nieuwe kolomkoppen, respectievelijk **created_date** en **created_time**.
+   
+   ![Nieuwe datum- en tijdkolommen](media/desktop-tutorial-facebook-analytics/delimiter3.png)
+   
+### <a name="expand-the-nested-column"></a>De geneste kolom uitvouwen
 
-![](media/desktop-tutorial-facebook-analytics/22.png)
+Nu de datum- en tijdgegevens worden weergegeven zoals u wilt, geeft u opmerkingsgegevens weer door een geneste kolom uit te vouwen. 
 
-Dat ziet er veel beter uit. En nu hebben we drie visualisaties op deze pagina. We kunnen het formaat wijzigen zoals we willen om de rapportpagina op te vullen.
+1. Selecteer de kolom **object_link** en selecteer vervolgens het ![uitvouwpictogram](media/desktop-tutorial-facebook-analytics/14.png) om het dialoogvenster **Uitvouwen/aggregatie** te openen. Selecteer **connections** en selecteer vervolgens **OK**. 
+   
+   ![object_link uitvouwen](media/desktop-tutorial-facebook-analytics/expand1.png)
+   
+   De kolomkop wordt gewijzigd in **object_link.connections**.
+2. Selecteer nogmaals het ![uitvouwpictogram](media/desktop-tutorial-facebook-analytics/14.png) boven aan de kolom **object_link.connections**, selecteer **comments** en selecteer vervolgens **OK**. De kolomkop wordt gewijzigd in **object_link.connections.comments**.
+   
+3. Selecteer het ![uitvouwpictogram](media/desktop-tutorial-facebook-analytics/14.png) boven aan de kolom **object_link.connections.comments** en selecteer deze keer **Aggregatie** in plaats van Uitvouwen in het dialoogvenster. Selecteer **Aantal id’s** en selecteer **OK**. 
+   
+   ![Opmerkingen samenstellen](media/desktop-tutorial-facebook-analytics/expand2.png)
+   
+   Het aantal opmerkingen voor elk bericht wordt nu weergegeven in de kolom. 
+   
+4. Wijzig de naam van de kolom **Aantal object_link.connections.comments.id** in **Aantal opmerkingen**.
+   
+5. Selecteer de pijl omlaag naast het kopje **Aantal opmerkingen** en selecteer **Aflopend sorteren** om de berichten te sorteren van de meeste naar de minste opmerkingen. 
+   
+   ![Opmerkingen per bericht](media/desktop-tutorial-facebook-analytics/data-fixed.png)
+   
+### <a name="review-query-steps"></a>Querystappen bekijken
 
-![](media/desktop-tutorial-facebook-analytics/23.png)
+Terwijl u gegevens in de **Power Query-editor** hebt vormgegeven en getransformeerd, is elke stap vastgelegd in het gebied **Toegepaste stappen** van het deelvenster **Queryinstellingen** aan de rechterkant van het Power Query-editor-venster. U kunt stap voor stap terug door de toegepaste stappen lopen om precies te zien welke wijzigingen u hebt aangebracht en deze indien nodig bewerken, verwijderen of opnieuw rangschikken (hoewel dit riskant kan zijn, omdat het wijzigen van de voorgaande stappen later fouten kan veroorzaken in stappen). 
 
-Zoals u ziet, is het zeer eenvoudig om visualisaties in uw rapport aan te passen om de gegevens te presenteren op de manier waarop u wilt. Power BI Desktop biedt een naadloze complete ervaring voor het ophalen van gegevens uit een breed scala aan gegevensbronnen en het vormgeven van deze gegevens om te voldoen aan uw analysebehoeften. Zo kunt u deze gegevens op uitgebreide en interactieve manieren visualiseren. Wanneer uw rapport klaar is, kunt u [het uploaden naar Power BI](desktop-upload-desktop-files.md) en op basis van dit rapport dashboards maken die u kunt delen met andere Power BI-gebruikers.
+Nadat de gegevenstransformaties tot nu toe zijn toegepast, moeten uw toegepaste stappen er als volgt uitzien:
+   
+   ![Toegepaste stappen](media/desktop-tutorial-facebook-analytics/applied-steps.png)
+   
+   >[!TIP]
+   >Onder de Toegepaste stappen liggen formules die geschreven zijn in de **Power Query-taal**, ook wel bekend als de **M**-taal. Als u de formules wilt bekijken en bewerken, selecteert u **Geavanceerde editor** in de groep **Query** van het tabblad Start van het lint. 
 
-U kunt het eindresultaat van deze zelfstudie [hier](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/FacebookAnalytics.pbix) downloaden
+### <a name="import-the-transformed-data"></a>De getransformeerde gegevens importeren
 
-### <a name="where-else-can-i-get-more-information"></a>Waar vind ik meer informatie?
+Wanneer u tevreden met de gegevens bent, selecteert u **Sluiten en toepassen** > **Sluiten en toepassen** op het tabblad Start van het lint om deze te importeren in Power BI Desktop. 
+   
+   ![Sluiten en toepassen](media/desktop-tutorial-facebook-analytics/t_fb_1-loadandclose.png)
+   
+   In een dialoogvenster wordt de voortgang weergegeven van het laden van de gegevens in het gegevensmodel van Power BI Desktop. 
+   
+   ![Gegevens laden](media/desktop-tutorial-facebook-analytics/t_fb_1-loading.png)
+   
+   Zodra de gegevens zijn geladen, worden deze in de rapportweergave weergegeven als een nieuwe query in de lijst met velden.
+   
+   ![Nieuwe query](media/desktop-tutorial-facebook-analytics/fb-newquery.png)
+   
+## <a name="use-the-data-in-report-visualizations"></a>De gegevens in rapportvisualisaties gebruiken 
+
+Nu u de gegevens van de Facebook-pagina hebt geïmporteerd, kunt u snel en eenvoudig inzicht krijgen in uw gegevens met behulp van visualisaties. Het maken van een visualisatie is eenvoudig; u hoeft alleen maar een veld te selecteren in de lijst **Velden** of het te verslepen naar het rapportcanvas.
+
+### <a name="create-a-bar-chart"></a>Een staafdiagram maken
+
+1. Selecteer in de rapportweergave van Power BI Desktop **bericht** in de veldenlijst of sleep dit veld naar het canvas. Er wordt een tabel met alle berichten weergegeven op het canvas. 
+   
+   ![Nieuwe query](media/desktop-tutorial-facebook-analytics/table-viz.png)
+   
+2. Selecteer met deze tabel geselecteerd ook **Aantal opmerkingen** in de lijst met velden of sleep het veld naar de tabel. 
+   
+3. Selecteer het pictogram **Gestapeld staafdiagram** in het deelvenster Visualisaties. De tabel wordt een staafdiagram waarin het aantal opmerkingen per bericht wordt weergegeven. 
+   
+   ![Staafdiagram](media/desktop-tutorial-facebook-analytics/barchart1.png)
+   
+4. Selecteer het weglatingsteken (...) in de rechterbovenhoek van de visualisatie en selecteer vervolgens **Sorteren op aantal opmerkingen** om de tabel te sorteren op aflopend aantal opmerkingen. 
+   
+   ![Sorteren op aantal opmerkingen](media/desktop-tutorial-facebook-analytics/barchart2.png)
+   
+5. Merk op dat de meeste opmerkingen zijn gekoppeld aan **lege** berichten (deze berichten zijn artikelen, koppelingen, video's of andere niet-tekstuele inhoud). Als u lege rijen wilt wegfilteren, selecteert u **bericht (alle)** onder **Filters** onderaan in het deelvenster Visualisaties, selecteert u **Alles selecteren** en vervolgens **Leeg** om deze te deselecteren. De filtervermelding wijzigt in **bericht is niet (Leeg)** en de rij Leeg verdwijnt uit de diagramweergave. 
+   
+   ![Lege rijen wegfilteren](media/desktop-tutorial-facebook-analytics/barchart3.png)
+   
+### <a name="format-the-chart"></a>Het diagram opmaken
+
+De visualisatie wordt interessanter, maar u kunt nog niet veel van de berichttekst in het diagram zien. Ga als volgt te werk om meer van de berichttekst weer te geven:
+
+1. Maak het diagram zo groot mogelijk met behulp van de grepen in de diagramweergave. 
+   
+2. Selecteer met het diagram geselecteerd het **opmaakpictogram** (verfroller) in het visualisatiedeelvenster.
+   
+3. Selecteer de pijl omlaag naast de **y-as** en sleep de schuifregelaar naast **Maximumgrootte** helemaal naar rechts (50%). 
+4. Verklein ook de **Tekengrootte** naar **10**, zodat er meer tekst past.
+   
+   ![Opmaakwijzigingen](media/desktop-tutorial-facebook-analytics/barchart4.png)
+   
+   Het diagram geeft nu meer van de berichtinhoud weer. 
+   
+   ![Meer berichten weergeven](media/desktop-tutorial-facebook-analytics/barchart5.png)
+   
+De x-as (het aantal opmerkingen) van het diagram toont geen exacte waarden, en ziet er een beetje verloren uit aan de onderkant van het diagram. U besluit in plaats daarvan gegevenslabels te gebruiken. 
+
+1. Selecteer het opmaakpictogram en selecteer de schuifregelaar naast de **x-as** om deze **uit** te schakelen. 
+   
+2. Selecteer de schuifregelaar naast **Gegevenslabels** om deze **in** te schakelen. Het diagram toont nu het exacte aantal opmerkingen voor elk bericht.
+   
+   ![Gegevenslabels toepassen](media/desktop-tutorial-facebook-analytics/barchart6.png)
+   
+### <a name="edit-the-data-type"></a>Het gegevenstype bewerken
+
+Dit is beter, maar de gegevenslabels hebben alle een decimaal van **.0** die afleidt en misleidend is, aangezien het **Aantal berichten** een geheel getal moet zijn. U wilt het gegevenstype van de kolom **Aantal berichten** wijzigen in een geheel getal.
+
+1. Als u het gegevenstype wilt bewerken, klikt u met de rechtermuisknop op **Query1** in de veldenlijst of houdt u de muis erboven en selecteert u **Meer opties** weglatingsteken (...) en vervolgens **Query bewerken**. U kunt ook **Query's bewerken** selecteren in het gebied **Externe gegevens** van het tabblad Start op het lint en vervolgens **Query's bewerken** selecteren in de vervolgkeuzelijst. De **Power Query-editor** van Power BI Desktop wordt in een afzonderlijk venster geopend.
+   
+   ![Query in de lijst met velden bewerken](media/desktop-tutorial-facebook-analytics/editquery1.png)     ![Query’s op het lint bewerken](media/desktop-tutorial-facebook-analytics/t_fb_editquery.png)
+   
+2. Selecteer in de Power Query-editor de kolom **Aantal opmerkingen** en wijzig het gegevenstype in een **Geheel getal** door: 
+   - Het pictogram **1.2** naast de kolomkop **Aantal opmerkingen** te selecteren en **Geheel getal** te selecteren in de vervolgkeuzelijst, of
+   - Met de rechtermuisknop op de kolomkop te klikken en **Type wijzigen > Geheel getal** te selecteren, of
+   - **Gegevenstype: decimaal getal** te selecteren in de groep **Transformeren** van het tabblad Start of de groep **Elke kolom** van het tabblad **Transformeren** en **Geheel getal** te selecteren.
+   
+   Het pictogram in de kolomkop verandert in **123**, wat het gegevenstype voor een geheel getal aangeeft.
+   
+   ![Gegevenstype wijzigen](media/desktop-tutorial-facebook-analytics/change-datatype.png)
+   
+3. Selecteer **Sluiten en toepassen** of alleen **Toepassen** om de wijzigingen toe te passen terwijl u het Power Query-editorvenster open houdt. Zodra de wijzigingen zijn geladen, worden de gegevenslabels in het diagram gehele getallen. 
+   
+   ![Diagram met gehele getallen](media/desktop-tutorial-facebook-analytics/vis-3.png)
+   
+### <a name="create-a-date-slicer"></a>Een gegevensslicer maken
+
+U wilt het aantal opmerkingen over berichten visualiseren gedurende een bepaalde periode. U kunt een slicervisualisatie maken als u de gegevens in het diagram wilt filteren op andere perioden. 
+
+1. Klik op een leeg gebied van het canvas en selecteer vervolgens het **slicerpictogram** in het visualisatiedeelvenster. Er wordt een lege slicervisualisatie weergegeven. 
+   
+   ![Slicerpictogram selecteren](media/desktop-tutorial-facebook-analytics/slicer1.png)
+   
+2. Selecteer het veld **created_date** in de veldenlijst of sleep het naar de nieuwe slicer. De slicer verandert in een schuifregelaar voor het datumbereik, op basis van het datumgegevenstype van het veld.
+   
+   ![Slicer voor datumbereikschuifregelaar](media/desktop-tutorial-facebook-analytics/slicer2.png)
+   
+3. Verplaats de grepen van de schuifregelaar om verschillende datumbereiken te selecteren en merk op hoe de diagramgegevens op basis daarvan worden gefilterd. U kunt ook de datumvelden selecteren in de slicer en specifieke datums typen of deze kiezen in een pop-upkalender.
+    
+   ![Gegevens slicen](media/desktop-tutorial-facebook-analytics/slicer3.png)
+   
+### <a name="format-the-visualizations"></a>De visualisaties opmaken
+
+U besluit het diagram een aantrekkelijkere en meer beschrijvende titel te geven. 
+
+1. Selecteer met het diagram geselecteerd het **opmaak**pictogram en selecteer de pijl van de vervolgkeuzelijst om **Titel** uit te vouwen.
+2. Wijzig de **Titeltekst** in **Opmerkingen per bericht**. 
+3. Selecteer de pijl van de vervolgkeuzelijst naast **Tekstkleur** en selecteer een groene kleur die overeenkomt met de groene staven van de visualisatie.
+4. Vergroot de **Tekengrootte** in **10** en wijzig de **Lettertypefamilie** in **Segoe (Bold)**.
+
+![Diagramtitel opmaken](media/desktop-tutorial-facebook-analytics/formatting1.png)
+
+Experimenteer met andere opmaakopties en -instellingen om het uiterlijk van uw visualisaties te wijzigen. 
+
+![Visualisaties](media/desktop-tutorial-facebook-analytics/vis-1.png)
+
+## <a name="create-more-visualizations"></a>Meer visualisaties maken
+
+Zoals u ziet, is het zeer eenvoudig om visualisaties in uw rapport aan te passen om de gegevens te presenteren op de manieren waarop u wilt. Probeer bijvoorbeeld met behulp van de geïmporteerde Facebook-gegevens dit lijndiagram te maken met het aantal opmerkingen gedurende een bepaalde periode.
+
+![Lijndiagram](media/desktop-tutorial-facebook-analytics/moreviz.png)
+
+Power BI Desktop biedt een naadloze complete ervaring voor het ophalen van gegevens uit een breed scala aan gegevensbronnen en het vormgeven van deze gegevens om te voldoen aan uw analysebehoeften. Zo kunt u deze gegevens op uitgebreide en interactieve manieren visualiseren. Wanneer uw rapport klaar is, kunt u [het uploaden naar de Power BI-service](desktop-upload-desktop-files.md) en op basis van dit rapport dashboards maken die u kunt delen met andere Power BI-gebruikers.
+
+## <a name="next-steps"></a>Volgende stappen
 * [Andere zelfstudies voor Power BI Desktop lezen](http://go.microsoft.com/fwlink/?LinkID=521937)
 * [Power BI Desktop-video's bekijken](http://go.microsoft.com/fwlink/?LinkID=519322)
 * [Een bezoek brengen aan het Power BI-forum](http://go.microsoft.com/fwlink/?LinkID=519326)
 * [Het Power BI-blog lezen](http://go.microsoft.com/fwlink/?LinkID=519327)
-
-
 

@@ -3,7 +3,7 @@ title: Power BI-beheerportal
 description: De beheerportal bevat opties voor het beheer van tenants van Power BI in uw organisatie. De portal bevat onder andere metrische gegevens over gebruik, toegang tot het Office 365-beheercentrum en instellingen.
 services: powerbi
 documentationcenter: ''
-author: markingmyname
+author: mgblythe
 manager: kfile
 backup: ''
 editor: ''
@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/02/2018
-ms.author: maghan
+ms.date: 04/02/2018
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 1ce2bc2746773c344251b89173b5825940eb0174
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 54ddccf9ca6ffdc1d9cbe840dbfced8d978ad194
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="power-bi-admin-portal"></a>Power BI-beheerportal
 
@@ -326,8 +326,8 @@ Belangrijk: verwijderen kan niet ongedaan worden gemaakt. Wanneer de visual is v
  
 ### <a name="how-to-update-a-visual"></a>Een visual bijwerken
 
-Als u een visual in de opslagplaats wilt bijwerken, omdat er een nieuwe versie van de visual is (met bijvoorbeeld bugfixes, nieuwe functies, enzovoort), uploadt u het nieuwe bestand (zorg ervoor dat de id van de visual dezelfde blijft) als een nieuwe toevoeging aan de lijst en zorgt u ervoor dat u de juiste informatie in de titel en beschrijving invoert (bijvoorbeeld 'Mijn Visual v2.0'). De volgende keer dat gebruikers toegang hebben tot de opslagplaats van de organisatie vanuit Power BI Desktop, kunnen ze de nieuwe versie importeren waarbij wordt gevraagd om de huidige versie die zij in het verslag hebben opgenomen, te vervangen.
- 
+Als u een visual in de opslagplaats wilt bijwerken omdat er een nieuwe versie van de visual is (bijvoorbeeld bugfixes, nieuwe functionaliteit, enzovoort), selecteer dan het pictogram **Bijwerken** en upload het nieuwe bestand. Zorg ervoor dat de id van de visual ongewijzigd blijft. Het nieuwe bestand vervangt het vorige bestand voor alle rapporten in de hele organisatie. Vervang echter niet de vorige versie als de nieuwe versie van de visual een verbruiks- of gegevensstructuur van de vorige versie van de visual kan verbreken. In plaats daarvan moet u een nieuwe vermelding maken voor de nieuwe versie van de visual. Voeg bijvoorbeeld een nieuw versienummer (versie X.X) toe aan de titel van de nieuwe vermelde visual. Op deze manier is het duidelijk dat dit dezelfde visual is, alleen met een bijgewerkt versienummer, zodat bestaande rapporten hun functionaliteit niet verbreken. Zorg er weer voor dat de id van de visual ongewijzigd blijft. De volgende keer dat gebruikers toegang hebben tot de opslagplaats van de organisatie vanuit Power BI Desktop, kunnen ze de nieuwe versie importeren, waarbij wordt gevraagd om de huidige versie in hun rapport te vervangen.
+
 ## <a name="next-steps"></a>Volgende stappen
 
 [Understanding the Power BI admin role](service-admin-role.md) (Power BI-beheerdersrol)  

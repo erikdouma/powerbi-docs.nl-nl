@@ -2,27 +2,27 @@
 title: On-premises gegevensgateway
 description: Dit is een overzicht van de on-premises gegevensgateway voor Power BI. U kunt deze gateway gebruiken om te werken met DirectQuery-gegevensbronnen. U kunt deze gateway ook gebruiken om cloud-gegevenssets te vernieuwen met on-premises gegevens.
 services: powerbi
-documentationcenter: 
-author: davidiseminger
+documentationcenter: ''
+author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 02/22/2018
-ms.author: davidi
+ms.date: 03/26/2018
+ms.author: maghan
 LocalizationGroup: Gateways
-ms.openlocfilehash: c9025194ebe8ce6b1829aacd9d74bff5d9c55e3c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1c0bd455d8b2dd34cc7d9ef20b0e75c5457034d2
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="on-premises-data-gateway"></a>On-premises gegevensgateway
 De on-premises gegevensgateway fungeert als een brug waarmee u over snelle en veilige gegevensoverdracht beschikt tussen on-premises gegevens (gegevens die zich niet in de cloud bevinden) en de services van Power BI, Microsoft Flow, Logic Apps en PowerApps.
@@ -53,7 +53,7 @@ U kunt een liveverbinding gebruiken voor tabelvormige of multidimensionale exemp
 [!INCLUDE [gateway-onprem-datasources-include](./includes/gateway-onprem-datasources-include.md)]
 
 ## <a name="download-and-install-the-on-premises-data-gateway"></a>De on-premises gegevensgateway downloaden en installeren
-Selecteer **Gegevensgateway** in het menu Downloads om de gateway te downloaden. Download de [on-premises gegevensgateway](http://go.microsoft.com/fwlink/?LinkID=820925).
+Selecteer **Gegevensgateway** in het menu Downloads om de gateway te downloaden. Download de [On-premises gegevensgateway](http://go.microsoft.com/fwlink/?LinkID=820925).
 
 ![](media/service-gateway-onprem/powerbi-download-data-gateway.png)
 
@@ -91,7 +91,12 @@ Wanneer u een gegevensbron aan de gateway toevoegt, moet u referenties opgeven v
 <!-- How the gateway works -->
 [!INCLUDE [gateway-onprem-how-it-works-include](./includes/gateway-onprem-how-it-works-include.md)]
 
-## <a name="troubleshooting"></a>Probleemoplossing
+## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
+* [Azure Information Protection](https://docs.microsoft.com/en-us/microsoft-365/enterprise/protect-files-with-aip
+) wordt momenteel niet ondersteund
+* [Access Online](https://products.office.com/en-us/access) wordt momenteel niet ondersteund
+
+## <a name="troubleshooting"></a>Problemen oplossen
 Zie [Problemen met de on-premises gegevensgateway oplossen](service-gateway-onprem-tshoot.md) als u problemen hebt bij het installeren en configureren van een gateway. Als u denkt dat er een probleem is met uw firewall, raadpleegt u de sectie [Firewall of proxyserver](service-gateway-onprem-tshoot.md#firewall-or-proxy) in het artikel over probleemoplossing.
 
 Zie [Proxy-instellingen voor de Power BI-gateways configureren](service-gateway-proxy.md) als u denkt dat er proxy-problemen met de gateway zijn.
@@ -103,7 +108,7 @@ Zie [Proxy-instellingen voor de Power BI-gateways configureren](service-gateway-
 [Manage your data source - Oracle](service-gateway-onprem-manage-oracle.md) (Gegevensbron beheren - Oracle)  
 [Manage your data source - Import/Scheduled refresh](service-gateway-enterprise-manage-scheduled-refresh.md) (Gegevensbron beheren - importeren/geplande vernieuwing)  
 [On-premises data gateway in-depth](service-gateway-onprem-indepth.md) (On-premises gegevensgateway - uitgebreid)  
-[On-premises data gateway (personal mode) - the new version of the personal gateway (On-premises gegevensgateway (persoonlijke modus) - de nieuwe versie van de persoonlijke gateway)](service-gateway-personal-mode.md)
+[On-premises gegevensgateway (persoonlijke modus) - de nieuwe versie van de persoonlijke gateway](service-gateway-personal-mode.md)
 [Proxy-instellingen voor de on-premises gegevensgateway configureren](service-gateway-proxy.md)  
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

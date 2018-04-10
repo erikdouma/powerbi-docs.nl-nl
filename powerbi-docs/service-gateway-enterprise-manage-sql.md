@@ -2,14 +2,14 @@
 title: Uw gegevensbron beheren - SQL
 description: De on-premises gegevensgateway en de gegevensbronnen hiervoor beheren.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5e1bbc86ea56dfbc692d8a81cbeb4bc38d872c2b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ad9b619f7e0d52442796dc461948a705b9b0f74a
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="manage-your-data-source---sql-server"></a>Uw gegevensbron beheren - SQL Server
 Wanneer u de on-premises gegevensgateway hebt geïnstalleerd, kunt u gegevensbronnen toevoegen die met de gateway kunnen worden gebruikt. In dit artikel wordt beschreven hoe u gateways en gegevensbronnen gebruikt. U kunt de SQL Server-gegevensbron voor een geplande vernieuwing of voor DirectQuery gebruiken.
@@ -108,7 +108,7 @@ Op het tabblad Gebruikers voor de gegevensbron kunt u gebruikers (of beveiliging
 Nadat u de gegevensbron hebt gemaakt, kan deze worden gebruikt met DirectQuery-verbindingen of via geplande vernieuwing.
 
 > [!NOTE]
-> De servernaam en databasenaam die worden gebruikt voor Power BI Desktop en de gegevensbron in de on-premises gegevensgateway moeten overeenkomen.
+> De servernaam en databasenaam die worden gebruikt voor Power BI Desktop en de gegevensbron in de on-premises gegevensgateway moeten overeenkomen!
 > 
 > 
 
@@ -128,7 +128,7 @@ Als u wordt vermeld op het tabblad **Gebruikers** voor de gegevensbron die is ge
 
 ## <a name="next-steps"></a>Volgende stappen
 * [On-premises gegevensgateway](service-gateway-onprem.md)  
-* [On-premises gegevensgateway - uitgebreid](service-gateway-onprem-indepth.md)  
+* [On-premises data gateway in-depth](service-gateway-onprem-indepth.md) (On-premises gegevensgateway - uitgebreid)  
 * [Problemen met de on-premises gegevensgateway oplossen](service-gateway-onprem-tshoot.md)
 * [Kerberos gebruiken voor eenmalige aanmelding (SSO) in Power BI bij on-premises gegevensbronnen](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md). 
 * Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

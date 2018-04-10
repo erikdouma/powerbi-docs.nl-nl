@@ -2,14 +2,14 @@
 title: Aan de slag met Power BI-gateways
 description: Hier vindt u basisinformatie over gegevensgateways voor Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: e56af5ae1c59afc7d7aef01450bb1c778eb70b14
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: bf01bb7764db09d6afe24e520f2d185c191ef56c
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="getting-started-with-power-bi-gateways"></a>Aan de slag met Power BI-gateways
 Welkom bij de gids **Aan de slag met Power BI-gateways**. In deze stapsgewijze introductie maakt u kennis met wat een gateway doet, hoe deze werkt en hoe u uw eigen gateway kunt installeren, configureren en uitvoeren.  
@@ -45,7 +45,7 @@ Gelukkig biedt Power BI twee gateways die geschikt zijn voor elk van deze scenar
 * **On-premises gegevensgateway (personal mode)**: Met deze gateway kan één gebruiker verbinding maken met bronnen. Kan niet worden gedeeld met anderen. Kan alleen worden gebruikt met Power BI.
 * **On-premises gegevensgateway**: Hiermee kunnen meerdere gebruikers verbinding maken met meerdere on-premises gegevensbronnen. De gateway kan worden gebruikt met Power BI-, PowerApps-, Flow- en Azure Logic-apps. Hiervoor is slechts één gatewayinstallatie nodig.
 
-Beide gateways hebben een soortgelijke functie. Ze faciliteren de toegang tot gegevens in een particulier on-premises netwerk, zodat deze gegevens kunnen worden gebruikt in cloudservices als Power BI. De persoonlijke gateway kan slechts door één persoon worden gebruikt en alleen met Power BI. De **on-premises gegevensgateway** kan worden gebruikt door verschillende gebruikers en verschillende services.
+Beide gateways hebben een soortgelijke functie. Ze faciliteren de toegang tot gegevens in een particulier on-premises netwerk, zodat deze gegevens kunnen worden gebruikt in cloudservices als Power BI. De persoonlijke gateway kan slechts door één persoon worden gebruikt en alleen met Power BI. De **on-premises gegevensgateway** kan worden gebruikt door veel gebruikers en veel services.
 
 Als u een gateway wilt gebruiken, moet u drie stappen uitvoeren:
 
@@ -84,7 +84,7 @@ Er is een aantal punten waarmee u rekening moet houden om tot een beslissing te 
 
 * Beide gateways vereisen een 64-bits Windows-besturingssysteem.
 * Gateways kunnen niet worden geïnstalleerd op een domeincontroller.
-* U kunt maximaal twee on-premises gegevensgateways installeren op dezelfde computer, één in beide modi (persoonlijk en standaard). 
+* U kunt maximaal twee on-premises gegevensgateways installeren op dezelfde computer, één in elke modus (persoonlijk en standaard). 
 * U kunt niet meer dan één gateway in dezelfde modus op dezelfde computer uitvoeren.
 * U kunt meerdere on-premises gegevensgateways op verschillende computers installeren en deze allemaal beheren vanuit één Power BI-gatewaybeheerinterface (dit geldt niet voor de persoonlijke modus; zie het volgende punt).
 * Voor elke Power BI-gebruiker kunt u slechts één gateway in de persoonlijke modus uitvoeren. Als u voor dezelfde gebruiker een andere gateway in de persoonlijke modus installeert, zelfs op een andere computer, wordt de bestaande voorgaande installatie vervangen door de meest recente installatie.

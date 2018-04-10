@@ -18,23 +18,23 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 706662e9fd7c6bd41015b286a7b7f1025e40a15e
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 1660f129ef5c93cf5aed5a3a5eda3c835e1885c1
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Bladwijzers gebruiken om inzichten te delen en verhalen te vertellen in Power BI 
-Met behulp van **bladwijzers** in Power BI kunt u de momenteel geconfigureerde weergave van een rapportpagina vastleggen, inclusief filters en de status van visuele elementen, en later terugkeren naar deze staat door eenvoudig de opgeslagen bladwijzer te selecteren. 
+Met behulp van **bladwijzers** in Power BI kunt u de momenteel geconfigureerde weergave van een rapportpagina vastleggen, inclusief filters en de status van visuals, en later terugkeren naar deze staat door eenvoudig de opgeslagen bladwijzer te selecteren. 
 
 U kunt ook een verzameling bladwijzers maken, deze rangschikken in de gewenste volgorde en vervolgens de bladwijzers doorlopen in een presentatie om een reeks inzichten te markeren of uw verhaal te vertellen aan de hand van visuele elementen en rapporten. 
 
 ![Bladwijzers in Power BI](media/desktop-bookmarks/bookmarks_01.png)
 
-Er zijn vele toepassingen voor bladwijzers. U kunt ze gebruiken om uw eigen voortgang bij het maken van rapporten bij te houden (u kunt bladwijzers eenvoudig toevoegen, verwijderen en wijzigen) en u kunt bladwijzers maken om een PowerPoint-achtige presentatie te maken, waarbij u bladwijzers op volgorde doorloopt om zo een verhaal te vertellen met uw rapport. Er zijn mogelijk ook andere toepassingen, afhankelijk van hoe u bladwijzers het beste denkt te kunnen gebruiken.
+Er zijn vele toepassingen voor bladwijzers. U kunt ze gebruiken om uw eigen voortgang bij het maken van rapporten bij te houden (u kunt bladwijzers eenvoudig toevoegen, verwijderen en wijzigen) en u kunt bladwijzers maken om een PowerPoint-achtige presentatie te maken, waarbij u bladwijzers op volgorde doorloopt om zo met uw rapport een verhaal te vertellen. Er zijn mogelijk ook andere toepassingen, afhankelijk van hoe u bladwijzers het beste denkt te kunnen gebruiken.
 
 ### <a name="enable-the-bookmarks-preview-versions-prior-to-march-2018"></a>Preview-functie voor bladwijzers inschakelen (versies vóór maart 2018)
-Met ingang van de Power BI Desktop-versie van maart 2018 zijn bladwijzers algemeen beschikbaar. 
+Met ingang van de versie van maart 2018 van Power BI Desktop zijn bladwijzers algemeen beschikbaar. 
 
 We raden altijd aan om een upgrade naar de meest recente versie uit te voeren. Maar als uw Power BI Desktop-versie van vóór deze release is, kunt u de functie voor **bladwijzers** uitproberen vanaf de release van **oktober 2017** van **Power BI Desktop** en ook voor rapporten waarvoor bladwijzers zijn ingeschakeld in de **Power BI-service**. Als u de preview-functie wilt inschakelen, selecteert u **Bestand > Opties en instellingen > Opties > Voorbeeldfuncties** en schakelt u vervolgens het selectievakje naast **Bladwijzers** in. 
 
@@ -84,15 +84,15 @@ Wanneer u een verzameling bladwijzers hebt die u in een bepaalde volgorde wilt p
 In de **weergavemodus** moet u op enkele dingen letten:
 
 1. De naam van de bladwijzer wordt weergegeven in de bladwijzerbalk, onderaan op het canvas.
-2. De bladwijzerbalk bevat pijlen waarmee u naar de volgende of vorige bladwijzer kunt gaan
-3. U kunt de **weergavemodus** afsluiten door **Afsluiten** te selecteren in het deelvenster **Bladwijzers** of door de **X** op de bladwijzerbalk te selecteren. 
+2. De bladwijzerbalk bevat pijlen waarmee u naar de volgende of vorige bladwijzer kunt gaan.
+3. U kunt de **Weergavemodus** afsluiten door **Afsluiten** te selecteren in het deelvenster **Bladwijzers** of door de **X** op de bladwijzerbalk te selecteren. 
 
 ![Onderdelen van de bladwijzerbalk](media/desktop-bookmarks/bookmarks_07.png)
 
-In de **weergavemodus** kunt u het deelvenster **Bladwijzers** sluiten (door te klikken op de X in dit deelvenster) om meer ruimte vrij te maken voor de presentatie. In de **weergavemodus** zijn alle visuele elementen interactief en beschikbaar voor kruislingse markering, net zoals wanneer u er normaal mee werkt. 
+In de **weergavemodus** kunt u het deelvenster **Bladwijzers** sluiten (door te klikken op de X in dit deelvenster) om meer ruimte vrij te maken voor de presentatie. In de **Weergavemodus** zijn alle visuele elementen interactief en beschikbaar voor kruislingse markering, net zoals wanneer u er normaal mee werkt. 
 
 ## <a name="visibility---using-the-selection-pane"></a>Zichtbaarheid via het selectiedeelvenster
-Met de introductie van bladwijzers is tevens het nieuwe **selectiedeelvenster** geïntroduceerd. Het **selectiedeelvenster** bevat een lijst met alle objecten op de huidige pagina. Hier kunt u het object selecteren en opgeven of een bepaald object zichtbaar is. 
+Met de introductie van bladwijzers is tevens het nieuwe **selectiedeelvenster** geïntroduceerd. Het **Selectiedeelvenster** bevat een lijst met alle objecten op de huidige pagina. Hier kunt u het object selecteren en opgeven of een bepaald object zichtbaar is. 
 
 ![Het selectiedeelvenster inschakelen](media/desktop-bookmarks/bookmarks_08.png)
 

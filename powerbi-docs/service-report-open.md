@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: c5177f4ccce8e8e274944cdcb539ca65a8f87ca8
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.openlocfilehash: 17921d1fe28a1b4c0640748123efe4b70982b18d
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="open-a-report-in-power-bi-service-apppowerbicom"></a>Een rapport openen in de Power BI-service (app.powerbi.com)
 Rapporten zijn beschikbaar in Power BI-service, Power BI Desktop, Power BI - Mobiel en zelfs Power BI Embedded. Dit artikel is van toepassing op het openen van rapporten in ***Power BI-service***.
@@ -78,7 +78,7 @@ En nog een andere manier om een rapport te openen, is vanuit een gegevensset. Wa
 
 ##  <a name="still-more-ways-to-open-a-report"></a>Nog meer manieren om een rapport te openen
 Naarmate u vertrouwder raakt met het navigeren door de Power BI-service, moet u nagaan welke werkstromen het meest voor u geschikt. Enkele andere manieren om rapporten te benaderen:
-- Vanuit het navigatiedeelvenster links met **Favorieten**, **Recent**, **Apps* en **Gedeeld met mij**. 
+- Vanuit het linker navigatiedeelvenster met **Favorieten**, **Recent**, **Apps** en **Gedeeld met mij**. 
 - [Gerelateerde items weergeven](service-related-content.md) gebruiken
 - In een e-mail, wanneer iemand [met u deelt](service-share-reports.md) of als u [een waarschuwing instelt](service-set-data-alerts.md).    
 - Vanaf uw [Meldingencentrum](service-notification-center.md)    

@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9161966897811820935c72ac1657ceca58da403a
-ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
+ms.openlocfilehash: 8f5b80497850b8e61bd7df97c3c88777265d7a6b
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Rapportthema's gebruiken in Power BI Desktop (preview)
 Met **Rapportthema's** kunt u een kleurenthema op uw gehele rapport toepassen, zoals zakelijke kleuren, seizoensgebonden kleuren of andere kleurthema's die u op een rapport zou willen toepassen. Bij het toepassen van een **Rapportthema** worden voor alle visuals in het rapport de kleuren van het geselecteerde thema gebruikt. Er zijn enkele uitzonderingen van toepassing, zoals verderop in dit artikel wordt beschreven.
@@ -62,7 +62,7 @@ Het JSON-bestand heeft de volgende vereiste regels:
 
 * **name**: dit is de themanaam, het enige vereiste veld
 * **dataColors**: een lijst met hexcode-kleurcodes die voor gegevens in Power BI Desktop-visuals moeten worden gebruikt. De lijst kan zo veel of zo weinig kleuren bevatten als u wilt
-* **background**, **foreground** en **tableAccent**: deze waarden zijn kleuren die moeten worden gebruikt in **tabel**- en **matrix**-visuals. Hoe deze kleuren worden gebruikt, is afhankelijk van de specifieke tabel- of matrixstijl die is toegepast. Voor de **tabel**- en **matrix**-visuals worden deze stijlen standaard toegepast.
+* **background**, **foreground** en **tableAccent**: deze waarden zijn kleuren die moeten worden gebruikt in **tabel**- en **matrix**-visuals. Hoe u deze kleuren gebruikt, is afhankelijk van de specifieke tabel- of matrixstijl die is toegepast. Voor de **tabel**- en **matrix**-visuals worden deze stijlen standaard toegepast.
 
 Als u een stijl op een **tabel**- of **matrix**-visual wilt toepassen, selecteert u de visual en selecteert u in het deelvenster **Visualisaties** het gedeelte **Opmaak**. Vouw vervolgens **Matrixstijl** uit en selecteer een stijl in de vervolgkeuzelijst **Stijl**.
 
@@ -100,7 +100,7 @@ Ziet u al dat groen? Dat komt doordat de kleuren deel uitmaakten van het **Rappo
 ### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>Situaties waarin de Rapportthema-kleuren niet behouden blijven in uw rapporten
 Als u een aangepaste kleurenset (of afzonderlijke kleur) op een bepaald gegevenspunt in een visual toepast, wordt bij het toepassen van een Rapportthema de aangepaste kleur voor het gegevenspunt *niet* overschreven.
 
-Als u handmatig de kleur van een gegevenspunt hebt ingesteld met behulp van het gedeelte Themakleuren van het kleurenpalet, wordt die kleur *niet* bijgewerkt wanneer u een nieuw Rapportthema toepast. Als u uw standaardkleuren wilt herstellen (zodat ze worden bijgewerkt wanneer u een nieuw Rapportthema toepast), kunt u in het palet **Themakleuren** **Terugzetten naar standaardinstelling** selecteren.
+Als u handmatig de kleur van een gegevenspunt hebt ingesteld met behulp van het gedeelte Themakleuren van het kleurenpalet, wordt/worden die kleur(en) *niet* bijgewerkt wanneer u een nieuw Rapportthema toepast. Als u uw standaardkleuren wilt herstellen (zodat ze worden bijgewerkt wanneer u een nieuw Rapportthema toepast), kunt u in het palet **Themakleuren** **Terugzetten naar standaardinstelling** selecteren.
 
 ![](media/desktop-report-themes/report-themes_9.png)
 

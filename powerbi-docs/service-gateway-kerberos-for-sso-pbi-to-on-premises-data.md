@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 03/09/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 834800b26e8dd3738f274a73aa4ff9b36402a3d9
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: f60709e45e844ff7ab1a9c6bf3cb669c567dfcc8
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Kerberos gebruiken voor eenmalige aanmelding (SSO) van Power BI naar on-premises gegevensbronnen
-Door uw on-premises gegevensgateway te configureren met Kerberos kunt u connectiviteit met naadloze eenmalige aanmelding bewerkstelligen, zodat Power BI rapporten en dashboards kan bijwerken van uw on-premises gegevens. De on-premises gegevensgateway vergemakkelijkt eenmalige aanmelding (SSO) met behulp van DirectQuery, waarmee de gateway verbinding maakt met on-premises gegevensbronnen.
+Door uw on-premises gegevensgateway te configureren met Kerberos kunt u connectiviteit met naadloze eenmalige aanmelding bewerkstelligen, zodat Power BI rapporten en dashboards kan bijwerken vanuit uw on-premises gegevens. De on-premises gegevensgateway vergemakkelijkt eenmalige aanmelding (SSO) met behulp van DirectQuery, waarmee de gateway verbinding maakt met on-premises gegevensbronnen.
 
 De volgende bronnen worden momenteel ondersteund, allemaal op basis van [beperkte Kerberos-delegering](https://technet.microsoft.com/library/jj553400.aspx): SQL Server, SAP HANA en Teradata.
 
@@ -103,10 +103,10 @@ In een standaardinstallatie wordt de gateway uitgevoerd als een lokaal serviceac
 
 Om **beperkte Kerberos-delegering** in te schakelen, moet de gateway worden uitgevoerd als een domeinaccount, tenzij uw AAD al wordt gesynchroniseerd met uw lokale Active Directory (AAD DirSync/Connect). Om deze accountwijziging correct te laten werken, hebt u twee opties:
 
-* Als u met een eerdere versie van de on-premises gegevensgateway bent gestart, dient u nauwkeurig en op volgorde alle vijf stappen te volgen (inclusief het uitvoeren van de gatewayconfigurator in stap 3) die worden beschreven in het volgende artikel:
+* Als u met een eerdere versie van de on-premises gegevensgateway bent gestart, dient u nauwkeurig en op volgorde alle vijf stappen te volgen (inclusief het uitvoeren van de gateway-configurator in stap 3) die worden beschreven in het volgende artikel:
   
   * [De gatewayserviceaccount wijzigen in een domeingebruiker](https://powerbi.microsoft.com/documentation/powerbi-gateway-proxy/#changing-the-gateway-service-account-to-a-domain-user)
-  * Als u de Preview-versie van de on-premises gegevensgateway hebt geïnstalleerd, is er een nieuwe gebruikersinterface ingericht om rechtstreeks vanuit de gatewayconfigurator het serviceaccount te wijzigen. Zie de sectie **De gateway overschakelen naar een domeinaccount** aan het einde van dit artikel.
+  * Als u de Preview-versie van de on-premises gegevensgateway hebt geïnstalleerd, is er een nieuwe gebruikersinterface ingericht om rechtstreeks vanuit de gateway-configurator het serviceaccount te wijzigen. Zie de sectie **De gateway overschakelen naar een domeinaccount** aan het einde van dit artikel.
 
 > [!NOTE]
 > Als AAD DirSync/Connect is geconfigureerd en gebruikersaccounts worden gesynchroniseerd, hoeft de gatewayservice bij het uitvoeren geen lokale AD-zoekacties uit te voeren en kunt u de lokale service-SID gebruiken voor de gatewayservice (en is er dus geen domeinaccount vereist). De stappen voor het configureren van beperkte Kerberos-delegering die in dit artikel worden beschreven zijn verder hetzelfde als voor die configuratie (alleen toegepast op de service-SID, in plaats van het domeinaccount).
@@ -186,7 +186,7 @@ Met deze voorbeeldnamen en -instellingen, worden de configuratiestappen als volg
     
     Klik hierop met de rechtermuisknop, open de **Eigenschappen** voor **Een client nabootsen na verificatie** en controleer de lijst met accounts. Hier moet het gatewayserviceaccount (**PBIEgwTest\GatewaySvc**) op staan.
 17. Selecteer in de lijst met beleidsregels onder **Toewijzing van gebruikersrechten** de optie **Functioneren als deel van het besturingssysteem (SeTcbPrivilege)**. Zorg ervoor dat het gatewayserviceaccount ook wordt opgenomen in de lijst met accounts.
-18. Start het serviceproces van de **on-premises gegevensgateway** opnieuw.
+18. Start het serviceproces van de **on-premises gegevensgateway** opnieuw op.
 
 ## <a name="running-a-power-bi-report"></a>Een Power BI-rapport uitvoeren
 Nadat alle configuratiestappen zijn voltooid die eerder in dit artikel worden beschreven, kunt u de pagina **Gateway beheren** in Power BI gebruiken om de gegevensbron te configureren, bij de **Geavanceerde instellingen** eenmalige aanmelding in te schakelen en vervolgens rapporten en gegevenssets te publiceren die met de gegevensbron zijn gekoppeld.
@@ -210,7 +210,7 @@ Eerder in dit artikel werd de mogelijkheid genoemd om de gateway van een lokaal 
 ## <a name="next-steps"></a>Volgende stappen
 Raadpleeg de volgende bronnen voor meer informatie over de **on-premises gegevensgateway** en **DirectQuery**:
 
-* [On-premises gegevensgateway](service-gateway-onprem.md)
+* [On-premises data gateway](service-gateway-onprem.md) (On-premises gegevensgateway)
 * [DirectQuery in Power BI](desktop-directquery-about.md)
 * [Data sources supported by DirectQuery](desktop-directquery-data-sources.md) (Gegevensbronnen die worden ondersteund door DirectQuery)
 * [DirectQuery en SAP BW](desktop-directquery-sap-bw.md)

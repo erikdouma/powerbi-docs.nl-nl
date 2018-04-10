@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/22/2018
 ms.author: maghan
 LocalizationGroup: Administration
-ms.openlocfilehash: 8b0b49e5c628f5e01bb2368d9bc471acc5342f97
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: 685091cff071676da050d1a042a487fdadc77407
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="purchasing-power-bi-pro"></a>Power BI Pro kopen
 
@@ -70,6 +70,10 @@ Voer de volgende stappen uit om Power BI Pro aan te schaffen als u een IT-beheer
 ## <a name="pricing"></a>Prijzen
 
 Zie [Prijzen voor Power BI](https://powerbi.microsoft.com/en-us/pricing/) voor de meest recente informatie over de prijzen.
+
+> [!NOTE]
+> Gebruikers waaraan Pro-licenties zijn toegewezen, hebben 30 dagen volledige toegang na het einde van het abonnement. Als dit gebeurt, ziet u uw abonnement als 'verlopen' weergegeven in het beheerportal.
+>
 
 ## <a name="next-steps"></a>Volgende stappen
 [Registreren voor Power BI via selfservice](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)

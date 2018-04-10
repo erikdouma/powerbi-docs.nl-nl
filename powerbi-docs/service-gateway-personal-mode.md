@@ -2,14 +2,14 @@
 title: On-premises gegevensgateway (persoonlijke modus)
 description: De gegevensgateway voor Power BI die personen kunnen gebruiken voor het verbinden met on-premises gegevens
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/14/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2bd3604a3f16c6977c52c1b3484ac024445c65bb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 777e5f27954890fe842096c0f2633f6803ebf319
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>On-premises gegevensgateway (persoonlijke modus)
 U kunt on-premises gegevensbronnen gebruiken en Power BI-rapporten en -dashboards maken met behulp van een gateway. Een **gateway** is software die de toegang vereenvoudigt tot gegevens die zijn opgeslagen op een privé, on-premises netwerk en het vervolgens mogelijk maakt deze gegevens te gebruiken in onlineservices, zoals de **Power BI-service**. De **on-premises gegevensgateway (persoonlijke modus)** is een onlangs uitgebrachte update voor de Power BI-gateway waarmee personen een gateway kunnen installeren op hun eigen computer om zo toegang te krijgen tot on-premises gegevens.
@@ -79,17 +79,17 @@ U bent bijna klaar. Nu de nieuwe gateway is geïnstalleerd, hoeft de vorige vers
 Om te bepalen welke versie van de persoonlijke gateway u momenteel hebt geïnstalleerd, kunt u het volgende doen:
 
 * De vorige versie van de persoonlijke gateway heet **Power BI Gateway - Personal** en maakt gebruik van het Power BI-pictogram in het installatiedialoogvenster.
-* De nieuwe versie van de persoonlijke gateway heet **On-premises gegevensgateway (persoonlijke modus)** en maakt gebruik van het gateway-pictogram (een cloud met pijlen in twee richtingen onderaan).
+* De nieuwe versie van de persoonlijke gateway heet **On-premises gegevensgateway (persoonlijke modus)** en maakt gebruik van het gateway-pictogram (een wolk met verticale pijlen in twee richtingen onderaan).
 
 U kunt navigeren naar **Programma's toevoegen/verwijderen** om te kijken of **Power BI Gateway - Personal** in de lijst staat. Indien dit het geval is, staat de vorige versie van de persoonlijke gateway geïnstalleerd.
 
 ## <a name="using-fast-combine-with-the-personal-gateway"></a>Fast Combine gebruiken in combinatie met de persoonlijke gateway
-Als u **Fast Combine** gebruikte in combinatie met de vorige versie van de gateway, dient u de volgende stappen te doorlopen om **Fast Combine** weer in te schakelen voor gebruik met de **on-premises gegevensgateway (persoonlijke modus)** .
+Als u **Fast Combine** gebruikte in combinatie met de vorige versie van de gateway, dient u de volgende stappen te doorlopen om **Fast Combine** weer in te schakelen voor gebruik met de **on-premises gegevensgateway (persoonlijke modus)**:
 
 1. Open met behulp van de Verkenner het volgende bestand:
    
    ```
-   %localappdata%\Microsoft\on-premises data gateway (personal mode)\Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
+   %localappdata%\Microsoft\On-premises data gateway (personal mode)\Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
    ```
 2. Voeg onderaan het bestand de volgende tekst toe:
    
@@ -119,12 +119,12 @@ De volgende gegevensbronnen worden momenteel niet ondersteund voor de **on-premi
 Ondersteuning voor Spark is gepland voor de tweede helft van het kalenderjaar 2017.
 
 ## <a name="frequently-asked-questions-faq"></a>Veelgestelde vragen
-* Kan ik de **on-premises gegevensgateway (persoonlijke modus)** uitvoeren naast de **lokale gegevensgateway** (voorheen bekend als de Enterprise-versie van de gateway)?
+* Kan ik de **on-premises gegevensgateway (persoonlijke modus)** uitvoeren naast de **on-premises gegevensgateway** (voorheen bekend als de Enterprise-versie van de gateway)?
   
   * **Antwoord**: ja, met de nieuwe versie kunnen deze gelijktijdig worden uitgevoerd.
 * Kan ik de **On-premises gegevensgateway (persoonlijke modus)** uitvoeren als een service?
   
-  * **Antwoord:** nee. de **on-premises gegevensgateway (persoonlijke modus)** kan alleen worden uitgevoerd als een toepassing. Als u de gateway wilt uitvoeren als een service en/of met beheerdersrechten, zult u naar de [**on-premises gegevensgateway**](service-gateway-onprem.md) (voorheen bekend als de Enterprise-gateway).
+  * **Antwoord:** nee. De **on-premises gegevensgateway (persoonlijke modus)** kan alleen worden uitgevoerd als een toepassing. Als u de gateway wilt uitvoeren als een service en/of met beheerdersrechten, zult u de [**on-premises gegevensgateway**](service-gateway-onprem.md) (voorheen bekend als de Enterprise-gateway) moeten gebruiken.
 * Hoe vaak wordt de **on-premises gegevensgateway (persoonlijke modus)** bijgewerkt?
   
   * **Antwoord**: we zullen de persoonlijke gateway maandelijks bijwerken.

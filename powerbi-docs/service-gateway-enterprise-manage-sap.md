@@ -1,15 +1,15 @@
 ---
 title: SAP HANA-gegevensbron beheren
-description: Hier leest u hoe u de on-premises gegevensgateway beheert en de gegevensbronnen die bij deze gateway horen. Dit artikel is specifiek voor SAP HANA.
+description: De on-premises gegevensgateway en de gegevensbronnen hiervoor beheren. Dit artikel is specifiek voor SAP HANA.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 8f9ec69c2a131a8de8f53385170bbddc59211f7b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 43bc0c22918e041f354c29ae9cc3ee4806b8da1a
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="manage-your-sap-hana-data-source"></a>SAP HANA-gegevensbron beheren
 Nadat u de on-premises gegevensgateway hebt geïnstalleerd, moet u gegevensbronnen toevoegen die met de gateway kunnen worden gebruikt. In dit artikel wordt beschreven hoe u gateways en gegevensbronnen gebruikt. U kunt de SAP HANA-gegevensbron gebruiken voor geplande vernieuwing of voor DirectQuery.
@@ -60,7 +60,7 @@ U kunt dan in de lijst het **Gegevensbrontype** selecteren.
 Vul vervolgens de gegevens in voor de gegevensbron, waaronder de **server**, de **gebruikersnaam** en de **database**.
 
 > [!NOTE]
-> Alle query's op de gegevensbron worden uitgevoerd met deze referenties. Meer informatie over hoe [referenties](service-gateway-onprem.md#credentials) worden opgeslagen vindt u in het hoofdartikel over on-premises gateways.
+> Alle query's over de gegevensbron worden uitgevoerd met deze referenties. Meer informatie over hoe [referenties](service-gateway-onprem.md#credentials) worden opgeslagen vindt u in het hoofdartikel over on-premises gateways.
 > 
 > 
 
@@ -101,7 +101,7 @@ Op het tabblad Gebruikers voor de gegevensbron kunt u gebruikers (of beveiliging
 Nadat u de gegevensbron hebt gemaakt, kan deze worden gebruikt met DirectQuery-verbindingen of via geplande vernieuwing.
 
 > [!NOTE]
-> De servernaam en databasenaam die worden gebruikt voor Power BI Desktop en de gegevensbron in de on-premises gegevensgateway moeten overeenkomen.
+> De servernaam en databasenaam die worden gebruikt voor Power BI Desktop en de gegevensbron in de on-premises gegevensgateway moeten overeenkomen!
 > 
 > 
 
@@ -121,7 +121,7 @@ Als u wordt vermeld op het tabblad **Gebruikers** voor de gegevensbron die is ge
 
 ## <a name="next-steps"></a>Volgende stappen
 [On-premises gegevensgateway](service-gateway-onprem.md)  
-[On-premises gegevensgateway - uitgebreid](service-gateway-onprem-indepth.md)  
+[On-premises data gateway in-depth](service-gateway-onprem-indepth.md) (On-premises gegevensgateway - uitgebreid)  
 [Problemen met de on-premises gegevensgateway oplossen](service-gateway-onprem-tshoot.md)  
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

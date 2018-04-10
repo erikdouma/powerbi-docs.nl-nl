@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/11/2017
 ms.author: tankas
-ms.openlocfilehash: 7c460955aba71bfb3a89d94aa6000c7bdd451ac2
-ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
+ms.openlocfilehash: 1345cfee8eb92b9b4e3cf883f19edddee859a1c3
+ms.sourcegitcommit: c9905e625ba14dc28ad23835f320e49631c51d0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 03/29/2018
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Wijzigingenlogboek voor Power BI Report Server
 
@@ -31,6 +31,12 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerd
 
 ## <a name="march-2018"></a>Maart 2018
 - **Power BI Report Server**
+    - *Versie 1.2.6660.39920 (build 15.0.2.389), uitgebracht: 28 maart 2018*
+        - Opgeloste fouten
+            - Voor Power BI-rapporten (PBIX) werkt de oplossing voor het exporteren van gegevens niet vanuit Power BI Visuals
+            - Voor Power BI-rapporten (PBIX) werkt de oplossing voor het herstellen van URL-filters niet
+            - Voor gepagineerde rapporten (RDL), wordt de oplossing voor het weergeven van installatiekopieën niet juist weergegeven in IE11 na de upgrade naar de maart-release van Power BI Report Server
+
     - *Versie 1.2.6648.38132 (build 15.0.2.378), uitgebracht: 19 maart 2018*
         - Beveiligingsupdates
         - Verbeterde toegankelijkheid
