@@ -1,12 +1,12 @@
 ---
 title: Apps installeren en gebruiken met dashboards en rapporten in Power BI
-description: "Apps brengen in Power BI gerelateerde dashboards en rapporten allemaal op één plek samen."
+description: Apps brengen in Power BI gerelateerde dashboards en rapporten allemaal op één plek samen.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 10/02/2017
 ms.service: powerbi

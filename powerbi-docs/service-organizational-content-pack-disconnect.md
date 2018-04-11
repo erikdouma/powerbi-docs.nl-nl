@@ -2,14 +2,14 @@
 title: De verbinding met een organisatie-inhoudspakket verbreken - Power BI
 description: Informatie over het verwijderen van de verbinding met een organisatie-inhoudspakket door de gegevensset in Power BI te verwijderen.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

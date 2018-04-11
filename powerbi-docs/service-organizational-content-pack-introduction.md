@@ -2,14 +2,14 @@
 title: Inleiding tot organisatie-inhoudspakketten in Power BI
 description: Lees hoe u uw dashboards, rapporten, Excel-werkmappen en gegevenssets kunt verpakken in organisatie-inhoudspakketten die u met uw collega's kunt delen.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -2,10 +2,10 @@
 title: Uw Power BI-rapporten en -dashboards snel vinden en weergeven met Cortana
 description: Gebruik Cortana met Power BI om antwoorden uit uw gegevens te halen. Werkt momenteel alleen met rapporten en dashboards.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-editor: 
+editor: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

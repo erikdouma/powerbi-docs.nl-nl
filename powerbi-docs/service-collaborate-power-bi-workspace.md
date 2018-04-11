@@ -2,14 +2,14 @@
 title: Samenwerken in de werkruimte van uw Power BI-app
 description: Meer informatie over samenwerken aan Power BI Desktop-bestanden in de werkruimte van uw app en met Office 365-services, zoals het delen van bestanden op OneDrive voor Bedrijven, conversaties in Exchange, agenda en taken.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

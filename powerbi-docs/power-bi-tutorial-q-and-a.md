@@ -2,11 +2,11 @@
 title: Zelfstudie - Q&A gebruiken op een dashboard of in een rapport
 description: Zelfstudie over het maken van nieuwe visualisaties op dashboards en rapporten via de Q&A-functie in Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

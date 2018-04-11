@@ -2,10 +2,10 @@
 title: Cortana activeren voor Power BI
 description: Gebruik Cortana met Power BI om antwoorden uit uw gegevens te krijgen. Activeer Cortana voor elke Power BI-gegevensset en schakel vervolgens Cortana in voor toegang tot de gegevenssets vanaf Windows-apparaten.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-editor: 
+editor: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -2,14 +2,14 @@
 title: Organisatie-inhoudspakketten maken en publiceren - Power BI
 description: In deze zelfstudie maakt u een organisatie-inhoudspakket, beperkt u de toegang tot een specifieke groep en publiceert u het naar de bibliotheek voor inhoudspakketten van uw organisatie op Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
