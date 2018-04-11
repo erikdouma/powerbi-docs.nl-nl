@@ -1,5 +1,5 @@
 ---
-title: Verbinding met Adobe Analytics maken in Power BI Desktop (preview)
+title: Verbinding met Adobe Analytics maken in Power BI Desktop
 description: Eenvoudig verbinding maken met een Adobe Analytics in Power BI Desktop en deze gebruiken
 services: powerbi
 documentationcenter: ''
@@ -15,26 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/09/2018
+ms.date: 04/04/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: efd6d066e2f98f86248730917c2f4aa0c8a39983
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 4488cd373fae22c4494ac697602536496ffc9b00
+ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/05/2018
 ---
-# <a name="connect-to-adobe-analytics-in-power-bi-desktop-preview"></a>Verbinding met Adobe Analytics maken in Power BI Desktop (preview)
+# <a name="connect-to-adobe-analytics-in-power-bi-desktop"></a>Verbinding met Adobe Analytics maken in Power BI Desktop 
 In **Power BI Desktop** kunt u verbinding maken met een **Adobe Analytics** en gebruikmaken van de onderliggende gegevens, net zoals elke andere gegevensbron in Power BI Desktop. 
 
 ![Gegevens ophalen uit Adobe Analytics](media/desktop-connect-adobe-analytics/connect-adobe-analytics_01.png)
-
-## <a name="enable-the-adobe-analytics-connector-preview"></a>De preview-versie van Adobe Analytics-connector inschakelen 
-Aangezien de **Adobe Analytics**-connector momenteel zich in preview bevindt, dient u de preview-functie in volgorde in te schakelen, zodat de connector beschikbaar wordt in het venster **Gegevens ophalen**. Als u de previewfunctie van de connector wilt inschakelen, selecteert u **Bestand > Opties en Instellingen > Opties > Previewfuncties** in Power BI Desktop en schakelt u vervolgens het selectievakje naast **Bladwijzers** in. 
-
-![Preview-functie van Adobe Analytics-connector inschakelen in Opties](media/desktop-connect-adobe-analytics/connect-adobe-analytics_02.png)
-
-U moet **Power BI Desktop** opnieuw opstarten nadat u de selectie hebt gemaakt om de preview-versie van de Adobe Analytics-connector in te schakelen.
 
 ## <a name="connect-to-adobe-analytics-data"></a>Verbinding maken met Adobe Analytics-gegevens
 Als u verbinding wilt maken met **Adobe Analytics**-gegevens, selecteert u **Gegevens ophalen** op het lint **Start** in Power BI Desktop. Selecteer **Onlineservices** in de categorieën aan de linkerkant en u ziet **Adobe Analytics-connector**.

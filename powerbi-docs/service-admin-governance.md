@@ -2,27 +2,27 @@
 title: Beheer- en implementatiemethoden
 description: Technisch document voor meer informatie over concepten, opties en suggesties voor beheer in het Power BI-ecosysteem.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 400fa6aa16f77da60a912bcd6c45665f880d8afd
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8f2f48143e9f1c5a304f8d864ea39b8118d331f8
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="governance-and-deployment-approaches"></a>Beheer- en implementatiemethoden
 De afgelopen tientallen jaren zijn bedrijven zich steeds meer bewust geworden van de noodzaak om strategisch gegevensassets in te zetten om gebruik te maken van marktkansen. Door de uitvoering van concurrerende analyses of door hun inzicht in operationele patronen begrijpen veel organisaties nu dat ze voordeel kunnen halen uit een gegevensstrategie als een manier om hun concurrenten voor te blijven.  
