@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/28/2018
 ms.author: maghan
-ms.openlocfilehash: 4faf32419c0b02ceadb495832ed90d312b823773
-ms.sourcegitcommit: c9905e625ba14dc28ad23835f320e49631c51d0f
+ms.openlocfilehash: bef0748f1431a29c96d7aa23ab457683e247724a
+ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/29/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Een Power BI-dashboard, -tegel of -rapport in uw toepassing insluiten voor onafhankelijke clouds
 Informatie over het integreren of insluiten van een dashboard, een tegel of een rapport in een web-app met behulp van de Power BI .NET-SDK en de Power BI JavaScript API voor uw klanten. Dit is meestal het ISV-scenario.
@@ -54,7 +54,7 @@ Dit artikel bevat de code die wordt gebruikt in het [voorbeeld voor het insluite
     2. Werk clientid (client-id van systeemeigen app), groupid, use (hoofdgebruiker) en password bij in het bestand Web.config.
     3. Voeg de GCC-parameters als volgt toe aan het bestand web.config.
 
-```
+```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
 
 <add key="resourceUrl" value="https://analysis.usgovcloudapi.net/powerbi/api" />
@@ -69,7 +69,7 @@ Dit artikel bevat de code die wordt gebruikt in het [voorbeeld voor het insluite
     2. Werk clientid (client-id van systeemeigen app), groupid, use (hoofdgebruiker) en password bij in het bestand Web.config.
     3. Voeg de DoDCON-parameters als volgt toe aan het bestand web.config.
 
-```
+```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
 
 <add key="resourceUrl" value="https://high.analysis.usgovcloudapi.net/powerbi/api" />
@@ -84,7 +84,7 @@ Dit artikel bevat de code die wordt gebruikt in het [voorbeeld voor het insluite
     2. Werk clientid (client-id van systeemeigen app), groupid, use (hoofdgebruiker) en password bij in het bestand Web.config.
     3. Voeg de DoDCON-parameters als volgt toe aan het bestand web.config.
 
-```
+```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
 
 <add key="resourceUrl" value="https://mil.analysis.usgovcloudapi.net/powerbi/api" />
@@ -99,7 +99,7 @@ Dit artikel bevat de code die wordt gebruikt in het [voorbeeld voor het insluite
     2. Werk clientid (client-id van systeemeigen app), groupid, use (hoofdgebruiker) en password bij in het bestand Web.config.
     3. Voeg de parameters voor Power BI-cloud voor Duitsland als volgt toe aan het bestand web.config.
 
-```
+```xml
 <add key="authorityUrl" value=https://login.microsoftonline.de/common/oauth2/authorize/" />
 
 <add key="resourceUrl" value="https://analysis.cloudapi.de/powerbi/api" />
@@ -142,7 +142,7 @@ Als u uw Power BI-inhoud wilt insluiten, moet u een aantal zaken doen om ervoor 
 ### <a name="create-the-power-bi-client-with-your-access-token"></a>De Power BI-client maken met uw toegangstoken
 U maakt uw Power BI-clientobject met uw toegangstoken zodat het kan communiceren met de Power BI-API's. Dit wordt gedaan door AccessToken te verpakken met een *Microsoft.Rest.TokenCredentials*-object.
 
-```
+```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
 using Microsoft.Rest;
 using Microsoft.PowerBI.Api.V2;
@@ -163,7 +163,7 @@ Een voorbeeld hiervan is beschikbaar in **Controllers\HomeController.cs** van he
 
 **Dashboards**
 
-```
+```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
@@ -176,7 +176,7 @@ Dashboard dashboard = dashboards.Value.FirstOrDefault();
 
 **Tegel**
 
-```
+```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
@@ -197,7 +197,7 @@ Tile tile = tiles.Value.FirstOrDefault();
 
 **Rapport**
 
-```
+```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
@@ -220,7 +220,7 @@ Hierbij wordt ervan uitgegaan dat er een klasse wordt gemaakt voor **EmbedConfig
 
 **Dashboard**
 
-```
+```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
@@ -239,7 +239,7 @@ var embedConfig = new EmbedConfig()
 
 **Tegel**
 
-```
+```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
@@ -259,7 +259,7 @@ var embedConfig = new TileEmbedConfig()
 
 **Rapport**
 
-```
+```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
@@ -282,7 +282,7 @@ Een toepassingsvoorbeeld hiervan is beschikbaar in [Voorbeeld voor insluiten voo
 
 **Views\Home\EmbedDashboard.cshtml**
 
-```
+```csharp
 <script src="~/scripts/powerbi.js"></script>
 <div id="dashboardContainer"></div>
 <script>
@@ -320,7 +320,7 @@ Een toepassingsvoorbeeld hiervan is beschikbaar in [Voorbeeld voor insluiten voo
 
 **Views\Home\EmbedTile.cshtml**
 
-```
+```csharp
 <script src="~/scripts/powerbi.js"></script>
 <div id="tileContainer"></div>
 <script>
@@ -362,7 +362,7 @@ Een toepassingsvoorbeeld hiervan is beschikbaar in [Voorbeeld voor insluiten voo
 
 **Views\Home\EmbedReport.cshtml**
 
-```
+```csharp
 <script src="~/scripts/powerbi.js"></script>
 <div id="reportContainer"></div>
 <script>

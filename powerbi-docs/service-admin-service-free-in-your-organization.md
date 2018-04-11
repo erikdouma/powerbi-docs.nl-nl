@@ -2,27 +2,27 @@
 title: Power BI (gratis) voor uw organisatie
 description: In dit artikel wordt vanuit het perspectief van een organisatie behandeld welke opties u voor Power BI (gratis) hebt. Als u de beheerder van uw tenant bent, wordt hier beschreven hoe u gratis registraties beheert.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/05/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: ec266cd2631797a1bbbef686824f78b0f1e3e14a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5da8b4cbb86766e6b411af902fce4bf18f480612
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="power-bi-free-in-your-organization"></a>Power BI (gratis) voor uw organisatie
 In dit artikel wordt behandeld hoe de aanbieding van Power BI (gratis) binnen uw organisatie kan worden gebruikt. Een organisatie betekent dat u een tenant hebt en gebruikers en services in die tenant kunt beheren. Als beheerder kunt u de toewijzing van licenties beheren of kunt u toestaan dat gebruikers zich registreren als een persoon. Ook komt de licentie voor Power BI (gratis) aan bod en wordt beschreven hoe u de persoonlijke registratie kunt beheren.
