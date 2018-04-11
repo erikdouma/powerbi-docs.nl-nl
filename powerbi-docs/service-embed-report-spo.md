@@ -68,7 +68,7 @@ Als u uw rapport wilt insluiten in SharePoint Online, moet u eerst de URL voor h
 
     ![](media/service-embed-report-spo/powerbi-sharepoint-new-page.png)
 
-2. Selecteer  **+**  en selecteer het webonderdeel **Power BI**.
+2. Selecteer **+** en selecteer het webonderdeel **Power BI**.
 
     ![](media/service-embed-report-spo/powerbi-sharepoint-new-web-part.png)
 

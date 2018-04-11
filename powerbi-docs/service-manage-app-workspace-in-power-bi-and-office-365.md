@@ -2,14 +2,14 @@
 title: Uw app-werkruimte beheren in Power BI en Office 365
 description: App-werkruimten in Power BI zijn een gezamenlijke ervaring die is gebouwd op Office 365-groepen. Beheer uw app-werkruimten in Power BI en ook in Office 365.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

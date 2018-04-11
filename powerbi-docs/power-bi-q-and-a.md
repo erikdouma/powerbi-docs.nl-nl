@@ -2,14 +2,14 @@
 title: Overzicht van vragen en antwoorden in Power BI-service en Power BI Desktop
 description: Overzicht van de documentatie voor Power BI Q&A-query's in natuurlijke taal.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

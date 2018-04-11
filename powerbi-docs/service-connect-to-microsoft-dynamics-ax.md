@@ -2,14 +2,14 @@
 title: Verbinding met het Microsoft Dynamics AX-inhoudspakket maken via Power BI
 description: Microsoft Dynamics AX-inhoudspakket voor Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

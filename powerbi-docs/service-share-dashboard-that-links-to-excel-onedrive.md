@@ -2,14 +2,14 @@
 title: Een dashboard delen dat is gekoppeld aan een Excel-bestand in OneDrive - Power BI
 description: Meer informatie over het delen van dashboards die verbonden zijn met een Excel-werkmap in OneDrive voor Bedrijven en waaraan tegels uit die werkmap zijn vastgemaakt.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

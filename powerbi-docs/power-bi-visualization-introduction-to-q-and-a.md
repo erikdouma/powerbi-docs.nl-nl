@@ -2,14 +2,14 @@
 title: 'Snelstartgids: aan de slag met de Q&A-functie van Power BI'
 description: 'Snelstartgids: aan de slag met Q&A in Power BI-service met een retailanalyse als voorbeeld'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -2,14 +2,14 @@
 title: Verbinding maken met Adobe Analytics via Power BI
 description: Maak verbinding met Adobe Analytics via Power BI voor een app die uw accountgegevens in een dashboard en rapporten weergeeft.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

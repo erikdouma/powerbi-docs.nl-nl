@@ -2,14 +2,14 @@
 title: Organisatie-inhoudspakketten beheren en bijwerken
 description: Meer informatie over het beheren, bijwerken en verwijderen van de organisatie-inhoudspakketten in Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
