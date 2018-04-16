@@ -2,14 +2,14 @@
 title: Standaard DAX-bewerkingen in Power BI Desktop
 description: Standaard DAX-bewerkingen in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 1b6a08ffbc7d1edfe0a86b6eb0a84702dec22da0
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 474cca86151925ee4991d477a6127536180808a8
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Standaard DAX-bewerkingen in Power BI Desktop
 Dit artikel is bedoeld voor nieuwe gebruikers van Power BI Desktop. Het bevat een snelle en eenvoudige inleiding over hoe u met Data Analysis Expressions (DAX) een aantal problemen met basisberekeningen en gegevensanalyse kunt oplossen. We bekijken conceptuele informatie, een reeks taken die u kunt uitvoeren en enkele kwisjes om te testen wat u hebt geleerd. Nadat u dit artikel hebt gelezen, zou u een goed begrip van de belangrijkste basisconcepten in DAX moeten hebben.
@@ -40,7 +40,7 @@ We gaan kijken hoe DAX-formules worden gebruikt in berekeningen, en meer in het 
 
 **Voorbeeldwerkmap**
 
-De beste manier om DAX te leren kennen, is enkele eenvoudige formules maken, die gaan gebruiken met feitelijke gegevens en zelf de resultaten daarvan zien. De hier gegeven voorbeelden en taken maken gebruik van het bestand Contoso Sales Sample for Power BI Desktop Preview. Dit is hetzelfde voorbeeldbestand dat wordt gebruikt in het artikel Zelfstudie: Uw eigen metingen maken in Power BI Desktop. U kunt het artikel [hier](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip) downloaden.
+De beste manier om DAX te leren kennen, is enkele eenvoudige formules maken, die gaan gebruiken met feitelijke gegevens en zelf de resultaten daarvan zien. De hier gegeven voorbeelden en taken maken gebruik van het bestand Contoso Sales Sample for Power BI Desktop Preview. Dit is hetzelfde voorbeeldbestand dat wordt gebruikt in het artikel [Zelfstudie: Uw eigen metingen maken in Power BI Desktop](desktop-tutorial-create-measures.md). Hier volgt het te downloaden [voorbeeldbestand](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip).
 
 ## <a name="lets-begin"></a>Laten we beginnen.
 We gaan ons een beeld vormen van DAX aan de hand van drie fundamentele concepten: *syntaxis*, *functies* en *context*. Natuurlijk, er zijn andere belangrijke concepten in DAX, maar deze drie bieden de beste basis om uw vaardigheden in DAX verder uit te bouwen.
@@ -83,7 +83,7 @@ U ziet ook dat de kolom [SalesAmount] wordt voorafgegaan door de tabel Sales waa
 > 
 > 
 
-Het is belangrijk dat uw formules de juiste syntaxis hebben. In de meeste gevallen geldt dat als de syntaxis niet juist is, er een syntaxisfout wordt geretourneerd. In andere gevallen kan de syntaxis juist zijn, maar zijn de geretourneerde waarden niet wat u verwacht. De DAX-editor in Power BI Desktop biedt suggesties. Dit is een functie waarmee u syntactisch juiste formules kunt maken door u te helpen de juiste elementen te selecteren.
+Het is belangrijk dat uw formules de juiste syntaxis hebben. In de meeste gevallen geldt dat als de syntaxis niet juist is, er een syntaxisfout wordt geretourneerd. In andere gevallen kan de syntaxis juist zijn, maar zijn de geretourneerde waarden niet wat u verwacht. De DAX-editor in Power BI Desktop biedt een suggestiefunctie. Dit is een functie waarmee u syntactisch juiste formules kunt maken door u te helpen de juiste elementen te selecteren.
 
 We gaan een eenvoudige formule maken. Deze taak biedt u meer inzicht in de syntaxis van formules en laat zien hoe de suggestiefunctie in de formulebalk u kan helpen.
 
@@ -111,7 +111,6 @@ Voor het uitvoeren van deze taak moet u het bestand Contoso Sales Sample for Pow
 7.  Tussen de haakjes **()** voor de functie PREVIOUSQUARTER typt u **Calendar[DateKey]**.
     
     De functie PREVIOUSQUARTER heeft één argument, te weten een kolom met een aaneengesloten reeks datums.
-    >
     
 8.  Controleer of de beide argumenten die worden doorgegeven aan de functies PREVIOUSQUARTER en CALCULATE worden afgesloten door twee haakjes sluiten **))**.
     
@@ -144,7 +143,7 @@ Aan het einde van dit artikel vindt u de antwoorden.
 ### <a name="functions"></a>Functies
 Functies zijn vooraf gedefinieerde formules waarmee berekeningen in een bepaalde volgorde of met een bepaalde structuur worden uitgevoerd met behulp van specifieke waarden, argumenten genaamd. Argumenten kunnen bestaan uit andere functies, een andere formule, een expressie, kolomverwijzingen, getallen, tekst, logische waarden zoals TRUE of FALSE, of constanten.
 
-DAX omvat de volgende categorieën van functies: [Datum en tijd](https://msdn.microsoft.com/library/ee634786.aspx), [Tijdintelligentie](https://msdn.microsoft.com/library/ee634763.aspx)[,](https://msdn.microsoft.com/library/ee634552.aspx)[Informatie](https://msdn.microsoft.com/library/ee634552.aspx), [Logisch](https://msdn.microsoft.com/library/ee634365.aspx)[,](https://msdn.microsoft.com/library/ee634365.aspx)[Wiskundig](https://msdn.microsoft.com/library/ee634241.aspx), [Statistisch](https://msdn.microsoft.com/library/ee634822.aspx), [Tekst](https://msdn.microsoft.com/library/ee634938.aspx), [Bovenliggend/onderliggend](https://msdn.microsoft.com/library/mt150102.aspx) en [Overige](https://msdn.microsoft.com/library/mt150101.aspx) functies. Als u vertrouwd bent met functies in Excel-formules, zullen veel van de functies in DAX u bekend voorkomen. DAX-functies zijn echter uniek vanwege het volgende:
+DAX omvat de volgende categorieën van functies: [Datum en tijd](https://msdn.microsoft.com/library/ee634786.aspx), [Tijdintelligentie](https://msdn.microsoft.com/library/ee634763.aspx), [Informatie](https://msdn.microsoft.com/library/ee634552.aspx), [Logisch](https://msdn.microsoft.com/library/ee634365.aspx), [Wiskundig](https://msdn.microsoft.com/library/ee634241.aspx), [Statistisch](https://msdn.microsoft.com/library/ee634822.aspx), [Tekst](https://msdn.microsoft.com/library/ee634938.aspx), [Bovenliggend/onderliggend](https://msdn.microsoft.com/library/mt150102.aspx) en [Overige](https://msdn.microsoft.com/library/mt150101.aspx) functies. Als u vertrouwd bent met functies in Excel-formules, zullen veel van de functies in DAX u bekend voorkomen. DAX-functies zijn echter uniek vanwege het volgende:
 
 * Een DAX-functie heeft altijd betrekking op een volledige kolom of tabel. Als u alleen bepaalde waarden uit een tabel of kolom wilt gebruiken, kunt u filters toevoegen aan de formule.
 * Als u berekeningen moet aanpassen op rijbasis, biedt DAX functies waarmee u de huidige rijwaarde of een gerelateerde waarde als een soort argument kunt gebruiken, voor het uitvoeren van berekeningen die per context verschillen. Later geven we meer informatie over context.

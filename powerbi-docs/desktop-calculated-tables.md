@@ -2,14 +2,14 @@
 title: Berekende tabellen gebruiken in Power BI Desktop
 description: Berekende tabellen in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 8bf8d2629d6a0bd88a85fa468547586e93502721
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 41017e1570a518e26305b6195531bcff889dbd9c
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>Berekende tabellen gebruiken in Power BI Desktop
 Met berekende tabellen kunt u een nieuwe tabel toevoegen aan het model. In dit geval laadt u echter geen query's en waarden in de kolommen van uw nieuwe tabel vanuit een gegevensbron, maar maakt u een DAX-formule (Data Analysis Expressions) die de waarden van de tabel definieert. In Power BI Desktop worden berekende tabellen gemaakt met behulp van de functie Nieuwe tabel in de rapportweergave of gegevensweergave.
@@ -36,7 +36,7 @@ Net als normale tabellen kunnen berekende tabellen relaties met andere tabellen 
 Berekende tabellen berekenen resultaten met behulp van [Data Analysis Expressions](https://msdn.microsoft.com/library/gg413422.aspx) (DAX), een formuletaal die is bedoeld om te werken met relationele gegevens, zoals in Power BI Desktop. DAX bevat een bibliotheek met meer dan 200 functies, operatoren en constructies. Het biedt zodoende een uitgebreide flexibiliteit bij het maken van formules voor het berekenen van resultaten voor vrijwel elke gegevensanalyse.
 
 ## <a name="lets-look-at-an-example"></a>Hier volgt een voorbeeld
-Jeff, een projectmanager bij Contoso, heeft een tabel met werknemers in Northwest en een andere tabel met werknemers in Southwest. Jeff wil de twee tabellen samenvoegen tot één tabel.
+Jeff, een projectmanager bij Contoso, heeft een tabel met werknemers in het noordwesten en een andere tabel met werknemers in het zuidwesten. Jeff wil de twee tabellen samenvoegen tot één tabel.
 
 **NorthwestEmployees**
 
@@ -71,7 +71,15 @@ Berekende tabellen kunnen worden gedefinieerd met een DAX-expressie die een tabe
 
 U kunt berekende tabellen met DAX gebruiken om veel analytische problemen op te lossen. We hebben hier slechts een korte inleiding over berekende tabellen gegeven. Als u gaat werken met berekende tabellen, zijn hier enkele van de meest voorkomende DAX-tabelfuncties die u mogelijk van pas komen:
 
-&lt;TABLE&gt; DISTINCT VALUES CROSSJOIN UNION NATURALINNERJOIN NATURALLEFTOUTERJOIN INTERSECT CALENDAR CALENDARAUTO
+* DISTINCT
+* VALUES
+* CROSSJOIN
+* UNION
+* NATURALINNERJOIN
+* NATURALLEFTOUTERJOIN
+* INTERSECT
+* CALENDAR
+* CALENDARAUTO
 
 Zie de [Naslag voor DAX-functies](https://msdn.microsoft.com/ee634396.aspx) voor deze en andere DAX-functies die tabellen retourneren.
 
