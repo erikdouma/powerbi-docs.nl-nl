@@ -2,14 +2,14 @@
 title: Berekende kolommen in Power BI Desktop gebruiken
 description: Berekende kolommen in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: e9d1820bff2768f2169530ec49cfa2963bff9baa
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4a47e707969b592ec27c79558699638ce14f8640
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>Berekende kolommen in Power BI Desktop gebruiken
 Met berekende kolommen kunt u nieuwe gegevens toevoegen aan een tabel die al in het model is opgenomen. In dit geval laadt u echter geen query's en waarden in de nieuwe kolom van een gegevensbron, maar maakt u een DAX-formule (Data Analysis Expressions) die de waarden van de kolom definieert. In Power BI Desktop worden berekende kolommen gemaakt met behulp van de functie Nieuwe kolom in de rapportweergave.
@@ -54,7 +54,7 @@ Jeff heeft nu het veld dat hij wil.
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatefield.png)
 
-Hij kan deze toevoegen aan zijn rapportcanvas, samen met het aantal verzendingen. Zeer snel en met een minimale inspanning heeft Jeff nu het veld Plaats, Provincie. Hij kan bijna elk type visualisatie toevoegen. Jeff ziet ook dat Power BI Desktop zelfs weet hoe het de Plaats, Provincie-waarden moet lezen in zijn nieuwe kolom wanneer hij een kaartvisualisatie maakt.
+Hij kan deze toevoegen aan zijn rapportcanvas, samen met het aantal verzendingen. Jeff heeft nu zeer snel en met een minimale inspanning een veld Plaats, Provincie die hij aan bijna elk type visualisatie kan toevoegen. Jeff ziet dat Power BI Desktop zelfs weet hoe het de Plaats, Provincie-waarden moet lezen in zijn nieuwe kolom wanneer hij een kaartvisualisatie maakt.
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatemap.png)
 
