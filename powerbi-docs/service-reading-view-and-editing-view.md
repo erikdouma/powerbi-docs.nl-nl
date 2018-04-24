@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/13/2018
+ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a9cb6e3d3fe244a3d530efeb2624e3cc5a799e55
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 1ccc4eeff54bff91a9ed245fdb82462768b65264
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Leesweergave en bewerkweergave in rapporten van de Power BI-service
 In de Power BI-service (geen Power BI Desktop) zijn er twee modi voor het weergeven en werken met rapporten: de leesweergave en de bewerkweergave. De leesweergave is beschikbaar voor alle gebruikers en is speciaal ontworpen voor *gebruikers van gegevens*, terwijl de bewerkweergave alleen beschikbaar is voor *rapportauteurs* en -eigenaren.
@@ -48,7 +48,6 @@ In deze grafiek worden niet alle mogelijkheden van een rapport van Power BI-serv
 |Taak  | Leesweergave  | Bewerkweergave |
 |-------------------------|-------|-------|
 |**Rapporten in zijn geheel**  |
-||||
 | [Een rapport maken of bewerken](service-report-create-new.md) | Nee  | Ja |
 | [Een rapport delen](service-share-reports.md)| Ja | Ja, en kan ook machtigingen beheren, zoals het geven van *eigenaarsmachtigingen* aan anderen. |
 | [Persistent (permanent) filters op visueel niveau, drillthrough-niveau, paginaniveau en rapportniveau maken vanuit het deelvenster Filters](power-bi-report-add-filter.md) | Nee  | Ja |
@@ -63,12 +62,10 @@ In deze grafiek worden niet alle mogelijkheden van een rapport van Power BI-serv
 | [Een rapport opslaan](service-report-save.md) | Ja, maar alleen met behulp van **Opslaan als**. | Ja |
 | [Een rapport verwijderen](service-delete.md) | Nee  | Ja |
 |**Rapportpagina’s** |
-||||
 | [Een rapportpagina toevoegen of de naam ervan wijzigen](power-bi-report-add-page.md)  | Nee  | Ja  |
 | [Een rapportpagina dupliceren](power-bi-report-copy-paste-page.md) | Nee  | Ja |
 | [Rapportpagina verwijderen](service-delete.md) | nee | ja |
 |**Werken met rapportvisualisaties**|
-||||
 | [Visualisaties toevoegen aan een rapport](power-bi-report-add-visualizations-i.md) | Nee  | Ja |
 | [Tekstvakken en vormen aan een rapport toevoegen](power-bi-reports-add-text-and-shapes.md) | Nee  | Ja |
 | [Het rapportvenster Opmaak gebruiken](service-the-report-editor-take-a-tour.md) | Nee | Ja |

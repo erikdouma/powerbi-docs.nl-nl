@@ -2,27 +2,27 @@
 title: Power BI voor Office 365 is buiten gebruik gesteld
 description: Power BI voor Office 365 is buiten gebruik gesteld. Leer hoe u de huidige versie van Power BI kunt gebruiken en beheren.
 services: powerbi
-documentationcenter: 
-author: davidiseminger
+documentationcenter: ''
+author: mgblythe
 manager: kfile
 backup: amandacofsky
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: c83ae371153443f48fa6996e4024119ca3d94d04
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 34e739ef47207b2f3fe3f9d5536c7941164bae98
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="power-bi-for-office-365-is-retired"></a>Power BI voor Office 365 is buiten gebruik gesteld
 Power BI voor Office 365, een eerdere versie van Power BI, is overgegaan naar de huidige versie van [Power BI](https://powerbi.microsoft.com). Gebruikers die eerder **Power BI voor Office 365** hebben gebruikt, kunnen de huidige versie van Power BI gebruiken. U vindt hier [meer informatie over Power BI](service-get-started.md).

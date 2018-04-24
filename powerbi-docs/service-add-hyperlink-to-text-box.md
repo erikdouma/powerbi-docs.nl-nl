@@ -2,31 +2,31 @@
 title: Een hyperlink toevoegen aan een tekstvak in een rapport
 description: Een hyperlink toevoegen aan een tekstvak in de Power BI-service en Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 95352c72dfca1c1439f89d532dbcfcc5cd26758c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 13edfd3f6968af66f96e3690f2509ba8a7158bbe
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>Een hyperlink toevoegen aan een tekstvak in een rapport
-U kunt tekstvakken toevoegen aan rapporten, vanuit rapporten vastmaken aan dashboards en rechtstreeks aan dashboards toevoegen. U kunt altijd hyperlinks aan een tekstvak toevoegen, ongeacht waar het tekstvak zich bevindt. **Dit onderwerp gaat over de tekstvakken in rapporten in de Power BI-service (niet in Power BI Desktop).**
+U kunt tekstvakken toevoegen aan rapporten, vanuit rapporten vastmaken aan dashboards en rechtstreeks aan dashboards toevoegen. U kunt altijd hyperlinks aan een tekstvak toevoegen, ongeacht waar het tekstvak zich bevindt.  
 
 > **Opmerking**: zie [Hyperlinks in tabellen](power-bi-hyperlinks-in-tables.md) voor meer informatie over hyperlinks in Power BI-tabellen en -matrices. Zie [Rechtstreeks een tegel vanaf het dashboard toevoegen](service-dashboard-add-widget.md) voor meer informatie over het toevoegen van de tekstvakken aan uw **dashboard**. 
 > 
@@ -61,8 +61,6 @@ U kunt tekstvakken toevoegen aan rapporten, vanuit rapporten vastmaken aan dashb
 
 ## <a name="next-steps"></a>Volgende stappen
 [Tekstvakken in Power BI-rapporten](power-bi-reports-add-text-and-shapes.md)
-
-[Een tekstvak toevoegen aan een dashboard](service-dashboard-add-widget.md)
 
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

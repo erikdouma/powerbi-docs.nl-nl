@@ -2,15 +2,15 @@
 title: Een tegel aan een Power BI-dashboard vastmaken via Excel
 description: Vanuit Excel op OneDrive voor Bedrijven een tegel vastmaken aan een Power BI-dashboard. Bereiken, grafieken, tabellen vastmaken
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: l8JoB7w0zJA
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,11 +19,11 @@ ms.workload: powerbi
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: fdd014e513a794a72196a3173703b9536f06768a
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 76bfe440291687d7f34b859eccad6099a498c819
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Vanuit Excel een tegel vastmaken aan een Power BI-dashboard
 Voordat u een tegel uit uw Excel-werkmap vastmaakt, koppelt u de werkmap aan de Power BI-service (app.powerbi.com). Met het koppelen van een werkmap wordt een gekoppelde alleen-lezen versie van die werkmap naar Power BI-service overgebracht. Zo kunt u bereiken aan dashboards koppelen. U kunt zelfs een volledig werkblad aan een dashboard vastmaken.  
@@ -41,20 +41,19 @@ Wanneer u de optie **Verbinden** kiest, wordt uw werkmap weergegeven in Power BI
 U kunt uw werkmap niet in Power BI bewerken. Maar als u wijzigingen wilt aanbrengen, kunt u het potloodpictogram op het tabblad **Werkmappen** in uw werkruimte selecteren en uw werkmap vervolgens bewerken in Excel Online of openen in Excel op uw computer. Eventuele wijzigingen worden opgeslagen in de werkmap op OneDrive.
 
 1. Upload uw werkmap naar uw OneDrive voor Bedrijven.
+
 2. Maak vanuit Power BI [verbinding met die werkmap](service-excel-workbook-files.md) door **Gegevens ophalen > Bestanden > OneDrive - Bedrijven** te selecteren en navigeer naar de locatie waar u het Excel-bestand hebt opgeslagen. Selecteer het bestand en kies **Verbinden > Verbinden**.
 
-   ![Dialoogvenster OneDrive voor Bedrijven](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
+    ![Dialoogvenster OneDrive voor Bedrijven](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
 
 3. De werkmap wordt in Power BI toegevoegd aan het tabblad **Werkmappen** van uw werkruimte.  Het ![werkbladpictogram](media/service-dashboard-pin-tile-from-excel/pbi_workbookicon.png) geeft aan dat dit een Excel-werkmap is en een geel sterretje geeft aan dat de werkmap nieuw is.
-   
     
-   ![Tabblad Werkmappen](media/service-dashboard-pin-tile-from-excel/power-bi-workbooks.png)
+    ![Tabblad Werkmappen](media/service-dashboard-pin-tile-from-excel/power-bi-workbooks.png)
 4. Open de werkmap in Power BI door de werkmapnaam te selecteren.
 
     Wijzigingen in de werkmap in Power BI worden niet opgeslagen en hebben geen invloed op de oorspronkelijke werkmap in OneDrive voor Bedrijven. Als u waarden in Power BI sorteert, filtert of wijzigt, kunnen deze wijzigingen niet worden opgeslagen of vastgemaakt. Als u wijzigingen moet aanbrengen die worden opgeslagen, selecteert u **Bewerken** rechtsboven in de hoek om het ter bewerking te openen in Excel Online of Excel. Het kan een paar minuten duren voordat wijzigingen die op deze manier zijn aangebracht, bijgewerkt zijn in de tegels op het dashboard.
    
-   
-   ![Excel Online in Power BI](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
+    ![Excel Online in Power BI](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
 
 ## <a name="pin-a-range-of-cells-to-a-dashboard"></a>Een bereik van cellen aan een dashboard vastmaken
 U kunt een nieuwe [dashboardtegel](service-dashboard-tiles.md) onder meer toevoegen vanuit een Excel-werkmap in Power BI. Bereiken kunnen worden vastgemaakt vanuit Excel-werkmappen die zijn opgeslagen in uw OneDrive voor bedrijven of een andere in groepen gedeelde documentbibliotheek. De bereiken kunnen gegevens, grafieken, tabellen, draaitabellen, draaigrafieken en andere onderdelen van Excel bevatten.
