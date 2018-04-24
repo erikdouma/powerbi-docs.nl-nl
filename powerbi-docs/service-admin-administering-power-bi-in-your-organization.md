@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 11/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 64dd0239026d3529129924b8d89eb5cc2642a9af
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: d5cb48469cc5ed5b49da841552bf7426ad29c3fb
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="administering-power-bi-in-your-organization"></a>Power BI in uw organisatie beheren
 Met Microsoft Power BI kunnen gebruikers gegevens visualiseren, ontdekkingen delen en samenwerken op intuïtieve nieuwe manieren. Zie [Aan de slag met Power BI](service-get-started.md) voor meer informatie.
@@ -185,8 +185,6 @@ U dient de meest recente 64-bits versie van de [Azure Active Directory-module vo
 Als uw organisatie al een bestaande Office 365-omgeving heeft en alle gebruikers in uw organisatie Office 365-accounts hebben, verandert er niets aan het identiteitsbeheer.
 
 Als uw organisatie al een bestaande Office 365-omgeving heeft, maar niet alle gebruikers in uw organisatie een Office 365-account hebben, maken we een gebruiker in de tenant en wijzen we licenties toe op basis van het werk- of school-e-mailadres van de gebruiker. Dit wil zeggen dat het aantal gebruikers dat u beheert, zal toenemen naarmate er meer gebruikers in uw organisatie zich registreren voor de service.
-
-Als u uw directory on-premises beheert en Active Directory Federation Services (AD FS) gebruikt, voegt Microsoft geen gebruikers toe aan uw tenant en ontvangen gebruikers die proberen lid te worden van uw tenant een bericht waarin staat dat ze contact kunnen opnemen met de beheerder van hun organisatie.
 
 Als uw organisatie nog geen Office 365-omgeving aan uw e-maildomein heeft gekoppeld, verandert er niets aan uw identiteitsbeheer. Gebruikers worden toegevoegd aan een nieuwe gebruikersdirectory die alleen van toepassing is op clouddiensten en u kunt de rol van tenant-beheerder aannemen om de gebruikers te beheren.
 
