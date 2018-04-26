@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1e82ec988389790a3d96cb6f98f0db5d1a385fda
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 1f1eeda618c54def9e756f727161d5bc7d541218
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Verbinding met Azure Consumption Insights maken in Power BI Desktop (bèta)
 Met de **Azure Consumption Insights**-connector kunt u vanuit **Power BI Desktop** verbinding maken met Azure en gedetailleerde gegevens en informatie over het gebruik van Azure-services van uw organisatie verkrijgen. U kunt ook metingen, aangepaste kolommen en visuele elementen maken om rapporten over het gebruik van Azure van uw organisatie te maken en te delen. Deze versie van de **Azure Consumption and Insights**-connector is een bètaversie en kan worden gewijzigd.
