@@ -844,12 +844,14 @@
           href: desktop-tutorial-facebook-analytics.md
         - name: Privacy verklaring van Power BI Desktop voor Glimlacht verzenden
           href: desktop-send-smile-privacy-statement.md
-    - name: Probleemoplossing
+    - name: Problemen oplossen
       items:
-        - name: Problemen oplossen met het importeren van Access-databases en Excel-spreadsheets in Power BI Desktop en Power Query
-          href: desktop-access-database-errors.md
+        - name: Problemen oplossen bij het aanmelden bij Power BI Desktop
+          href: desktop-troubleshooting-sign-in.md
         - name: Problemen oplossen bij het starten van Power BI Desktop
           href: desktop-error-launching-desktop.md
+        - name: Problemen oplossen met het importeren van Access-databases en Excel-spreadsheets in Power BI Desktop en Power Query
+          href: desktop-access-database-errors.md
 - name: Power BI - Mobiel-apps
   items:
     - name: Aan de slag
@@ -1070,9 +1072,9 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848709'
         - name: Werken met KPI's
           href: 'https://go.microsoft.com/fwlink/?linkid=849021'
-        - name: Ondersteunde gegevensbronnen
+        - name: Gegevensbronnen voor Power BI-rapporten (.pbix)
           href: report-server/data-sources.md
-        - name: Verbinding maken met gegevensbronnen
+        - name: Gegevensbronnen voor gepagineerde rapporten (.rdl)
           href: report-server/connect-data-sources.md
         - name: 'Toegang verkrijgen tot gedeelde gegevenssets als OData-feeds '
           href: report-server/access-dataset-odata.md
