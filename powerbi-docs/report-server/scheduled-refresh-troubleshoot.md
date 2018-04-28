@@ -2,14 +2,14 @@
 title: Problemen met geplande vernieuwing oplossen in Power BI Report Server
 description: In dit artikel worden de hulpmiddelen beschreven die beschikbaar zijn voor het oplossen van problemen met geplande vernieuwing in Power BI Report Server.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 466505ae2c4050629e8bbcc4ff90cde520d31375
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: cf084492a7b5d1ecc10ff933eeaef4cdbdc14022
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>Problemen met geplande vernieuwing oplossen in Power BI Report Server
 In dit artikel worden de hulpmiddelen beschreven die beschikbaar zijn voor het oplossen van problemen met geplande vernieuwing in Power BI Report Server.
@@ -60,7 +60,6 @@ De volgende instellingen kunnen worden gebruikt om invloed te hebben op geplande
 
 | Instelling | Beschrijving |
 | --- | --- |
-| EnablePowerBIReportEmbeddedModels |De mogelijkheid om geïmporteerde gegevens te gebruiken in uw rapporten in- of uitschakelen. Geldige waarden zijn True en False. |
 | MaxFileSizeMb |De maximale bestandsgrootte voor geüploade rapporten. De standaardwaarde is 1000 MB (1 GB). De maximumwaarde is 2000 MB (2 GB). |
 | ModelCleanupCycleMinutes |Bepaalt hoe vaak het model wordt gecontroleerd om het te verwijderen uit het geheugen. De standaardwaarde is 15 minuten. |
 | ModelExpirationMinutes |Bepaalt na hoeveel minuten van inactiviteit het model verloopt en wordt verwijderd. De standaardwaarde is 60 minuten. |
