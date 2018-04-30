@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/26/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: c6c924095e3aaf4839f1c9422e027ba5373b9ad4
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: ee696e4d967e995771480d660de260b6d3b755cd
+ms.sourcegitcommit: 0cae0e6e1fd06b6465721702b2d0bb8333eb5afb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/27/2018
 ---
 # <a name="on-premises-data-gateway"></a>On-premises gegevensgateway
 De on-premises gegevensgateway fungeert als een brug waarmee u over snelle en veilige gegevensoverdracht beschikt tussen on-premises gegevens (gegevens die zich niet in de cloud bevinden) en de services van Power BI, Microsoft Flow, Logic Apps en PowerApps.
@@ -96,6 +96,11 @@ Wanneer u een gegevensbron aan de gateway toevoegt, moet u referenties opgeven v
 ) wordt momenteel niet ondersteund
 * [Access Online](https://products.office.com/en-us/access) wordt momenteel niet ondersteund
 
+## <a name="tenant-level-administration"></a>Beheer op tenantniveau 
+
+Er is momenteel geen centrale locatie waar tenantbeheerders alle gateways kunnen beheren die andere gebruikers hebben geïnstalleerd en geconfigureerd.  Als u een tenantbeheerder bent, kunt u het beste de gebruikers in uw organisatie vragen u toe te voegen als beheerder aan elke gateway die ze installeren. Op deze manier kunt u alle gateways in uw organisatie beheren via de pagina Gateway-instellingen of via [PowerShell-opdrachten](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters). 
+
+
 ## <a name="troubleshooting"></a>Problemen oplossen
 Zie [Problemen met de on-premises gegevensgateway oplossen](service-gateway-onprem-tshoot.md) als u problemen hebt bij het installeren en configureren van een gateway. Als u denkt dat er een probleem is met uw firewall, raadpleegt u de sectie [Firewall of proxyserver](service-gateway-onprem-tshoot.md#firewall-or-proxy) in het artikel over probleemoplossing.
 
@@ -110,5 +115,5 @@ Zie [Proxy-instellingen voor de Power BI-gateways configureren](service-gateway-
 [On-premises data gateway in-depth](service-gateway-onprem-indepth.md) (On-premises gegevensgateway - uitgebreid)  
 [On-premises gegevensgateway (persoonlijke modus) - de nieuwe versie van de persoonlijke gateway](service-gateway-personal-mode.md)
 [Proxy-instellingen voor de on-premises gegevensgateway configureren](service-gateway-proxy.md)  
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 
