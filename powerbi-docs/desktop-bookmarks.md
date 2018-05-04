@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/06/2018
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1660f129ef5c93cf5aed5a3a5eda3c835e1885c1
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 492eed949fd47b8f057bc67b127ba774b2218887
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Bladwijzers gebruiken om inzichten te delen en verhalen te vertellen in Power BI 
 Met behulp van **bladwijzers** in Power BI kunt u de momenteel geconfigureerde weergave van een rapportpagina vastleggen, inclusief filters en de status van visuals, en later terugkeren naar deze staat door eenvoudig de opgeslagen bladwijzer te selecteren. 
@@ -69,6 +69,10 @@ Configureer een rapportpagina zoals u deze wilt weergeven in de bladwijzer. Zodr
 
 Nadat u een bladwijzer hebt gemaakt, kunt u deze weergeven door eenvoudig te klikken op de bladwijzer in het deelvenster **Bladwijzers**. 
 
+U kunt ook kiezen of elke bladwijzer *gegevens*eigenschapen zal toepassen, zoals filters en slicers, de *weergave*-eigenschappen zoals spotlight en de zichtbaarheid ervan, en paginawijzigingen die de pagina tonen die zichtbaar was toen de bladwijzer werd toegevoegd. Deze mogelijkheden zijn nuttig wanneer u bladwijzers gebruikt om tussen visualisatietypen te schakelen. In dat geval wilt u waarschijnlijk de gegevenseigenschappen uitschakelen, zodat filters niet opnieuw worden ingesteld als gebruikers visualisatietypen veranderen. 
+
+Om dergelijke wijzigingen aan te brengen kiest u het beletselteken naast de naam van de bladwijzer, zoals in de vorige afbeelding, en (de)selecteert u de vinkjes bij *Gegevens*, *Weergave* en andere besturingselementen. 
+
 ## <a name="arranging-bookmarks"></a>Bladwijzers ordenen
 Wanneer u bladwijzers maakt, is de volgorde waarin u ze maakt mogelijk niet dezelfde volgorde waarin u ze aan uw publiek wilt laten zien. Geen probleem. U kunt eenvoudig de volgorde van bladwijzers wijzigen.
 
@@ -105,13 +109,13 @@ Wanneer een bladwijzer wordt toegevoegd, wordt de zichtbaarheidsstatus van elk o
 Het is belangrijk te weten dat **slicers** een rapportpagina blijven filteren, ongeacht of ze zichtbaar zijn. U kunt daardoor verschillende bladwijzers met verschillende slicerinstellingen maken en één rapportpagina maken die er verschillend uitziet (met verschillende inzichten) in meerdere bladwijzers.
 
 ## <a name="bookmarks-for-shapes-and-images"></a>Bladwijzers voor vormen en afbeeldingen
-U kunt ook vormen en afbeeldingen koppelen aan bladwijzers. Als u via deze functie op een object klikt, wordt de bladwijzer weergegeven die aan dat object is gekoppeld. 
+U kunt ook vormen en afbeeldingen koppelen aan bladwijzers. Als u via deze functie op een object klikt, wordt de bladwijzer weergegeven die aan dat object is gekoppeld. Dit is vooral handig bij het werken met knoppen. U kunt meer te weten komen door het artikel over [knoppen gebruiken in Power BI](desktop-buttons.md) te lezen. 
 
-Als u een bladwijzer wilt toewijzen aan een object, selecteert u het object en selecteer u vervolgens **Koppeling** in het deelvenster **Vorm opmaken**, zoals in de volgende afbeelding.
+Als u een bladwijzer wilt toewijzen aan een object, selecteert u het object en vouwt u vervolgens de sectie **Actie** in het deelvenster **Vorm opmaken** uit, zoals in de volgende afbeelding.
 
 ![Bladwijzerkoppeling toevoegen aan een object](media/desktop-bookmarks/bookmarks_10.png)
 
-Nadat u de schuifregelaar **Koppeling** op **Aan** hebt gezet, kunt u selecteren of het object een koppeling of een bladwijzer is. Als u bladwijzer selecteert, kunt u vervolgens de bladwijzer selecteren waaraan het object is gekoppeld.
+Nadat u de schuifregelaar **Actie** op **Aan** hebt gezet, kunt u selecteren of het object een terugknop, een bladwijzer of een Q&A-knop is. Als u bladwijzer selecteert, kunt u vervolgens de bladwijzer selecteren waaraan het object is gekoppeld.
 
 U kunt allerlei interessante dingen doen met bladwijzers die aan objecten zijn gekoppeld. U kunt een visuele inhoudsopgave op de rapportpagina maken of u kunt verschillende weergaven (zoals visuele) van dezelfde gegevens maken door eenvoudig te klikken op een object.
 
@@ -138,9 +142,7 @@ Als daarentegen **Spotlight** wordt geselecteerd in het menu van het visuele ele
 Als een van beide modi is geselecteerd wanneer een bladwijzer wordt toegevoegd, blijft die modus (focus of Spotlight) bewaard in de bladwijzer.
 
 ## <a name="bookmarks-in-the-power-bi-service"></a>Bladwijzers in de Power BI-service
-Wanneer u een rapport met ten minste één bladwijzer publiceert naar de **Power BI-service**, kunt die bladwijzers zien en gebruiken in de **Power BI-service**. Voor elk rapport dat u publiceert, moet u ten minste één bladwijzer maken in het rapport voordat u het publiceert als u wilt dat de bladwijzerfunctie beschikbaar is in de **Power BI-service**.
-
-Als bladwijzers beschikbaar zijn in een rapport, kunt u **Beeld > Selectiedeelvenster** of **Beeld > Deelvenster Bladwijzers** selecteren om een van die deelvensters weer te geven.
+Wanneer u een rapport met ten minste één bladwijzer publiceert naar de **Power BI-service**, kunt die bladwijzers zien en gebruiken in de **Power BI-service**. Als bladwijzers beschikbaar zijn in een rapport, kunt u **Beeld > Selectiedeelvenster** of **Beeld > Deelvenster Bladwijzers** selecteren om een van die deelvensters weer te geven.
 
 ![Deelvenster Bladwijzers en selectiedeelvenster weergeven in de Power BI-service](media/desktop-bookmarks/bookmarks_14.png)
 
@@ -151,11 +153,10 @@ Let erop dat u de grijze bladwijzerbalk moet gebruiken om te navigeren door de b
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 Houd rekening met de volgende beperkingen en overwegingen in deze release van **bladwijzers**.
 
-* Aangepaste visuele elementen werken niet met bladwijzers als ze de *bron* van het filter zijn. Als u aangepaste visuele elementen gebruikt om elementen op een pagina te filteren (bijvoorbeeld de chiclet-slicer) en terugkeert naar die pagina via een bladwijzer, wordt de pagina mogelijk gefilterd, maar wordt het aangepaste visuele element niet bijgewerkt om weer te geven hoe de pagina wordt gefilterd. 
-* De status van kruislingse markeringen voor een rapportvenster wordt *niet* opgeslagen wanneer u een bladwijzer maakt. 
+* De meeste aangepaste visualisaties zouden goed met bladwijzers moeten werken. Als u problemen ondervindt met bladwijzers en een aangepaste visualisatie, neem dan contact op met de maker van die aangepaste visualisatie en vraag deze om ondersteuning voor bladwijzers toe te voegen. 
 * Als u een visueel element toevoegt aan een rapportpagina nadat u een bladwijzer hebt gemaakt, wordt het visuele element weergegeven in de standaardstaat. Dit betekent ook dat als u een slicer toevoegt aan een pagina waarop u eerder bladwijzers hebt gemaakt, de slicer in de standaardstaat wordt uitgevoerd.
 * Als visuele elementen worden verplaatst nadat een bladwijzer is gemaakt, wordt dit weerspiegeld in de bladwijzer. 
-* U *moet* ten minste één bladwijzer aan uw rapport toevoegen wanneer u dit publiceert naar de **Power BI-service** als u wilt dat bladwijzers beschikbaar zijn in de service. Dit is een vereiste voor elk rapport dat u publiceert.
+
 
 ## <a name="next-steps"></a>Volgende stappen
 Raadpleeg de volgende artikelen voor meer informatie over functies die vergelijkbaar zijn of samenwerken met bladwijzers:

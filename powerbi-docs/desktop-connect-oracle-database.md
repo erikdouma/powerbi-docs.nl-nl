@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 4/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4126a5f4fc7b8a398d39cad7c14e87e179ab3175
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: e898fb3f7024b4041616770d6fe1d8e8469878dd
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="connect-to-an-oracle-database"></a>Verbinding maken met een Oracle-database
 Om een Oracle-database te kunnen verbinden met **Power BI Desktop**, moet de juiste Oracle-clientsoftware worden geïnstalleerd op de computer waarop Power BI Desktop wordt uitgevoerd. Welke Oracle-clientsoftware u moet gebruiken, is afhankelijk van welke versie van Power BI Desktop u hebt geïnstalleerd: de **32-bits** versie of de **64-bits** versie.
@@ -49,7 +49,7 @@ Zodra het overeenkomende clientstuurprogramma is geïnstalleerd, kunt u verbindi
 1. Selecteer vanuit het venster Gegevens ophalen **Database > Oracle-database**
    
    ![](media/desktop-connect-oracle-database/connect-oracle-database_2.png)
-2. Geef in het dialoogvenster **Oracle-database** dat wordt weergegeven de naam van de server op en selecteer **Verbinding maken**. Als een SID vereist is, kunt u deze opgeven in de volgende indeling: *Servernaam/SID*.
+2. Geef in het dialoogvenster **Oracle-database** dat wordt weergegeven de naam van de server op en selecteer **Verbinding maken**. Als een SID vereist is, kunt u deze opgeven in de indeling *Servernaam/SID*, waarbij SID de unieke naam van de database is. Als de indeling *Servernaam/SID* niet werkt, probeert u *Servernaam/Servicenaam*, waarbij Servicenaam de alias is die wordt gebruikt om verbinding te maken.
    
    ![](media/desktop-connect-oracle-database/connect-oracle-database_3.png)
 3. Als u gegevens wilt importeren met behulp van een systeemeigen databasequery, kunt u uw query in het vak **SQL-instructie** plaatsen. Dit vak is beschikbaar als u het gedeelte **Geavanceerde opties** van het dialoogvenster **Oracle-database** uitvouwt.

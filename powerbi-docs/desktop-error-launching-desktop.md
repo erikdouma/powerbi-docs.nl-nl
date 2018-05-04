@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 43263afb63fa0350a240cae602f4a2acf8ef8edd
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 2014524b3209a67bd0f0aaa3d1ddf00042227c4d
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>Problemen oplossen als Power BI Desktop niet kan worden gestart
 In **Power BI Desktop** kunnen gebruikers die een eerdere versie van de **On-premises gegevensgateway van Power BI** hebben geïnstalleerd en uitvoeren, Power BI Desktop mogelijk niet starten vanwege beheerbeleidsbeperkingen die door de on-premises gateway van Power BI zijn ingesteld voor named pipes op de lokale computer. 
@@ -39,10 +39,12 @@ Als u de On-premises gegevensgateway van Power BI niet meer nodig hebt, kunt u d
 ### <a name="resolution-3-run-power-bi-desktop-with-administrator-privilege"></a>Oplossing 3: Power BI Desktop uitvoeren met administratorbevoegdheden
 U kunt eventueel ook Power BI Desktop starten als beheerder. Ook dan kan Power BI Desktop zonder problemen worden gestart. De aanbevolen oplossing is en blijft echter de meest recente versie van de On-premises gegevensgateway van Power BI te installeren, zoals eerder in dit artikel is beschreven.
 
+Het is belangrijk te weten dat Power BI Desktop is ontworpen met een architectuur op basis van meerdere processen, en dat verschillende van deze processen communiceren met behulp van named pipes van Windows. Er kunnen andere processen zijn die deze named pipes verstoren. De meestvoorkomende reden voor dergelijke interferentie is beveiliging, waaronder situaties waarin antivirussoftware of firewalls de pipes kunnen blokkeren of verkeer omleiden naar een specifieke poort. Dit probleem kan mogelijk worden opgelost door Power BI Desktop te starten met administratorbevoegdheden. Als opstarten met administratorbevoegdheden niet mogelijk is, neem dan contact op met de beheerder om te bepalen welke toegepaste beveiligingsregels de communicatie met named pipes verhinderen, en zet Power BI Desktop en de betreffende subprocessen op de whitelist.
+
 ## <a name="help-with-other-issues-when-launching-power-bi-desktop"></a>Hulp bij andere problemen met het starten van Power BI Desktop
 Wij proberen zo veel mogelijk problemen met **Power BI Desktop** te behandelen. Wij kijken regelmatig naar problemen waar veel klanten last van hebben en nemen ze in onze artikelen op.
 
-Als het probleem met het starten van **Power BI Desktop** niet ligt aan de On-premises gegevensgateway of als de eerder beschreven oplossingen niet werken, kunt u een ondersteuningsincident indienen bij de [ondersteuning voor Power BI](https://support.powerbi.com) (https://support.powerbi.com) zodat wij u kunnen helpen bij het identificeren en oplossen van uw probleem.
+Als het probleem met het starten van **Power BI Desktop** niet ligt aan de on-premises gegevensgateway of als de eerder beschreven oplossingen niet werken, kunt u een ondersteuningsincident indienen bij de [ondersteuning voor Power BI](https://support.powerbi.com) (https://support.powerbi.com) zodat wij u kunnen helpen bij het identificeren en oplossen van uw probleem.
 
 Voor andere problemen die zich in de toekomst kunnen voordoen in **Power BI Desktop** (hopelijk zijn dat er geen of slechts weinig), is het handig om tracering in te schakelen en logboekbestanden te verzamelen, zodat het probleem beter kan worden geïsoleerd en geïdentificeerd. U schakelt tracering als volgt in: selecteer **Bestand > Opties en instellingen > Opties** en selecteer vervolgens **Diagnose**. Schakel daarna het selectievakje **Tracering inschakelen** onder *Diagnostische opties* in. We beseffen dat **Power BI Desktop** actief moet zijn om deze optie te kunnen inschakelen, wat nuttiger is voor toekomstige problemen bij het starten van **Power BI Desktop**.
 

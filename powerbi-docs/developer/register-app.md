@@ -2,26 +2,26 @@
 title: Een app registreren om Power BI-inhoud in te sluiten
 description: Informatie over het registreren van een toepassing in Azure Active Directory voor gebruik met ingesloten Power BI-inhoud.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: cc9a4c7a29ddb84e6230d42f31a9c6a0427008f1
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: e3d0e8b98135e232809cd2b5e3fc06827b1f480e
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Een Azure AD-app registreren om Power BI-inhoud in te sluiten
 Informatie over het registreren van een toepassing in Azure Active Directory (Azure AD) voor gebruik met ingesloten Power BI-inhoud.
@@ -58,6 +58,22 @@ Ga als volgt te werk om uw toepassing te registreren met het Power BI App-hulppr
 7. Selecteer **App registreren**.
    
     U krijgt dan een **client-id**. Als u een **web-app aan de serverzijde** hebt geselecteerd, ontvangt u ook een **clientgeheim**. De **client-id** kan indien nodig op een later tijdstip worden opgehaald uit Azure Portal. Als u het **clientgeheim** kwijtraakt, moet u een nieuw clientgeheim maken binnen Azure Portal.
+
+8. U moet naar Azure navigeren om **Machtigingen verlenen** te selecteren.
+> [!Note]
+    > U moet een globale beheerder in de Azure-tenant zijn om dit uit te voeren
+>
+
+* Ga naar Azure.
+* Zoek en selecteer **App registraties**.
+* Kies uw app.
+* Selecteer **Instellingen**.
+* Selecteer **Vereiste machtigingen**.
+* Selecteer **Power BI-Service** om de machtigingen te verifiëren die u hebt geselecteerd in de App-registratiesite.
+* Selecteer **Machtigingen verlenen**.
+
+
+
 
 U kunt de geregistreerde toepassing nu als onderdeel van uw aangepaste toepassing gebruiken om te communiceren met de Power BI-service.
 
@@ -190,4 +206,5 @@ U wilt zijn aangemeld met de *hoofd*account, die wordt gebruikt voor insluiting,
 Nu u uw toepassing in Azure AD hebt geregistreerd, moet u gebruikers in uw toepassing verifiëren. Zie [Gebruikers verifiëren en een Azure AD-toegangstoken verkrijgen voor uw Power BI-app](get-azuread-access-token.md) voor meer informatie.
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+
 

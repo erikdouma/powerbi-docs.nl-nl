@@ -2,26 +2,26 @@
 title: Problemen oplossen met uw ingesloten toepassing
 description: In dit artikel worden enkele veelvoorkomende problemen besproken die kunnen optreden tijdens het insluiten van inhoud uit Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 2/26/2018
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 78e3361578b82a9ebf69feae1f7a8ac54966bbc9
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.openlocfilehash: 13bdbbfec2e76b526b92d65f6f9f5cd1372f2094
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Problemen oplossen met uw ingesloten toepassing
 
@@ -141,7 +141,8 @@ Als de gebruiker het rapport of het dashboard niet ziet, controleert u of het ra
 
 Open het bestand vanuit Power BI Desktop, of in powerbi.com, om te controleren of de prestaties acceptabel zijn. Zodoende kunt u problemen met uw toepassing of de API voor insluiten uitsluiten.
 
-
-Zie [Veelgestelde vragen over Power BI Embedded](embedded-faq.md) voor antwoorden op veelgestelde vragen.
+Zie [Veelgestelde vragen over Power BI Embedded](embedded-faq.md) voor meer informatie.
 
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+
+

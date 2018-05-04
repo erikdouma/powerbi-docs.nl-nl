@@ -1,6 +1,6 @@
 ---
 title: Power BI-rapportgegevensbronnen in Power BI Report Server
-description: Power BI-rapporten kunnen verbinding maken met verschillende gegevensbronnen. Afhankelijk van hoe de gegevens worden gebruikt, zijn er verschillende gegevensbronnen beschikbaar.
+description: Power BI-rapporten (pbix) kunnen verbinding maken met een aantal gegevensbronnen. Afhankelijk van hoe de gegevens worden gebruikt, zijn er verschillende gegevensbronnen beschikbaar.
 services: powerbi
 documentationcenter: ''
 author: markingmyname
@@ -15,23 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 04/02/2018
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: bc490834b215af45df1063fd06b94ed9b735d852
-ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
+ms.openlocfilehash: a32ef2e1e85b252a2a1071cb95c80149486c2604
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/26/2018
 ---
-# <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI-rapportgegevensbronnen in Power BI Report Server
-Power BI-rapporten kunnen verbinding maken met verschillende gegevensbronnen. Afhankelijk van hoe de gegevens worden gebruikt, zijn er verschillende gegevensbronnen beschikbaar. De gegevens kunnen worden geïmporteerd of de gegevens kunnen rechtstreeks worden opgevraagd rechtstreeks met DirectQuery of een liveverbinding met SQL Server Analysis Services.
+# <a name="power-bi-report-pbix-data-sources-in-power-bi-report-server"></a>Power BI-rapportgegevensbronnen (.pbix) in Power BI Report Server
+Power BI-rapporten kunnen verbinding maken met een aantal gegevensbronnen. Afhankelijk van hoe de gegevens worden gebruikt, zijn er verschillende gegevensbronnen beschikbaar. De gegevens kunnen worden geïmporteerd of de gegevens kunnen rechtstreeks worden opgevraagd rechtstreeks met DirectQuery of een liveverbinding met SQL Server Analysis Services.
 
-Deze gegevensbronnen zijn specifiek voor Power BI-rapporten die in Power BI Report Server worden gebruikt. Zie [Gegevensbronnen die worden ondersteund door Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs) voor meer informatie over gegevensbronnen die worden ondersteund met gepagineerde rapporten.
+Deze gegevensbronnen zijn specifiek voor Power BI-rapporten die in Power BI Report Server worden gebruikt. Zie [Data Sources Supported by Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs) (Gegevensbronnen die worden ondersteund door Reporting Services) voor meer informatie over gegevensbronnen die worden ondersteund met gepagineerde rapporten (.rdl).
 
 > [!IMPORTANT]
-> Alle gegevensbronnen in een Power BI Desktop-rapport moeten worden ondersteund voor het configureren van een geplande vernieuwing.
-> 
-> 
+> Alle gegevensbronnen in een Power BI Desktop-rapport moeten het configureren van een geplande vernieuwing ondersteunen.
+>  
 
 ## <a name="list-of-supported-data-sources"></a>Lijst met ondersteunde gegevensbronnen
 
@@ -216,7 +215,7 @@ Power BI Report Server biedt geen ondersteuning voor verificatie op basis van OA
 
 
 ## <a name="next-steps"></a>Volgende stappen
-Nu de gegevensbron is gekozen, kunt u [een rapport maken](quickstart-create-powerbi-report.md) op basis van de gegeven in die gegevensbron.
+Nu u verbinding hebt met de gegevensbron, kunt u [een Power BI-rapport maken](quickstart-create-powerbi-report.md) op basis van de gegeven in die gegevensbron.
 
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

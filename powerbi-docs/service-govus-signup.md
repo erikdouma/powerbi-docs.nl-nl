@@ -2,27 +2,27 @@
 title: Registratie voor Power BI voor Amerikaanse overheidsklanten
 description: Voor de VS Hier kunnen overheidsklanten lezen hoe ze hun Amerikaanse overheidsorganisatie kunnen registreren voor de Power BI-service voor de Amerikaanse overheid.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/27/2017
+ms.date: 04/24/2017
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e4015d0de5c11a9726089a62825950dc0532205d
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: a52aaaffb5f66ba5596e788183ef52753f08c8bf
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Uw Amerikaanse overheidsorganisatie registreren in de Power BI-service
 Er is als onderdeel van **Office 365 US Government Community**-abonnement een versie van de **Power BI-service** beschikbaar voor Amerikaanse overheidsklanten. De versie van de **Power BI-service** die in dit artikel wordt besproken, is specifiek ontworpen voor Amerikaanse overheidsklanten en staat los en verschilt van de commerciële versie van de **Power BI-service**.
@@ -73,7 +73,7 @@ Als uw organisatie een bestaand **Office Government Cloud**-klant, maar u geen *
 6. Wijs gebruikers aan het account toe.
    
    ![](media/service-govus-signup/service_govus_signup_5.png)
-7. Ga naar [https://app.powerbigov.us](https://app.powerbigov.us) en meld u aan bij de **Power BI-service** voor Amerikaanse overheidsklanten.
+7. Meld u aan bij de **Power BI-service** voor Amerikaanse overheidsklanten op [https://app.powerbigov.us](https://app.powerbigov.us)
 
 ## <a name="additional-signup-information"></a>Aanvullende registratie-informatie
 Hieronder vindt u aanvullende informatie om u te registreren voor **Power BI US Government** met verschillende scenario's voor licentiemigratie.
@@ -97,12 +97,7 @@ Ga naar **Facturering > Abonnementen** en selecteer **Power BI Pro for Governmen
 ### <a name="whitelisting-instructions"></a>Instructies voor opname in de whitelist (whitelisting)
 *Whitelisting* is een proces dat door het engineeringteam van Power BI wordt gebruikt om klanten van de commerciële cloudomgeving over te zetten naar de veilige cloudomgeving voor de overheid. Zodoende zorgt u ervoor de functies in de US Government-cloud naar verwachting werken. Alle bestaande (of nieuwe) Amerikaanse overheidsklanten die voor het eerste **Power BI**-services voor de Amerikaanse overheid aanschaffen, *moeten* het volgende whitelistingproces starten. Het proces moet worden uitgevoerd vóór de installatie of de migratie naar **Power BI**-services voor de Amerikaanse overheid. 
 
-Als u uw tenant wilt *opnemen in de whitelist* voor de US Government-cloud, kunt u via de volgende koppeling een ondersteuningsticket invullen om dit aan te vragen. Houd er rekening mee dat alleen beheerders deze aanvraag kunnen indien:
-
-* [Online ondersteuningsaanvraag voor *opname in de whitelist*](https://powerbi.microsoft.com/clouds/).
-* Zorg ervoor dat u het domein opgeeft dat moet worden *opgenomen in de whitelist*. Daarnaast moet u e-mailadres opgeven van de Microsoft-vertegenwoordiger die u helpt met dit proces.
-
-Het proces voor *opnamen in de whitelist* neemt ongeveer drie weken in beslag. Tijdens die drie weken brengt het engineeringteam van Power BI de benodigde wijzigingen aan ervoor te zorgen dat uw tenant goed werkt in de US Government-cloud.
+Neem contact op met het Microsoft-accountteam voor hulp bij opname in de whitelist als u uw tenant wilt laten opnemen in de *whitelist* voor de US Government-cloud. Houd er rekening mee dat alleen beheerders deze aanvraag kunnen indienen. Het proces voor *opnamen in de whitelist* neemt ongeveer drie weken in beslag. Tijdens die drie weken brengt het engineeringteam van Power BI de benodigde wijzigingen aan ervoor te zorgen dat uw tenant goed werkt in de US Government-cloud.
 
 Klanten die migreren van de **gratis** Power BI-licenties naar **Power BI US Government** (en per definitie migreren naar de bijbehorende **Pro**-licentiefuncties die eerder in dit artikel zijn beschreven), ondervinden de problemen die worden beschreven in de volgende sectie van dit artikel, totdat hun tenant door het engineeringteam van Power BI is *opgenomen in de whitelist*.
 

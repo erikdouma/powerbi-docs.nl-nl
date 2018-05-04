@@ -2,14 +2,14 @@
 title: Power BI-inhoud insluiten in een toepassing voor uw klanten
 description: Informatie over het integreren of insluiten van een dashboard, een tegel of een rapport in een web-app met behulp van de Power BI-API's voor uw klanten.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/11/2018
 ms.author: maghan
-ms.openlocfilehash: c6b9edb929934a80886874fe421f11cc7462dbd8
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 779ae9a6df285b58c83021f87ed593af9ec0b3fb
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application"></a>Een Power BI-dashboard, -tegel of -rapport in uw toepassing insluiten
 Informatie over het integreren of insluiten van een dashboard, een tegel of een rapport in een web-app met behulp van de Power BI .NET-SDK en de Power BI JavaScript API voor uw klanten. Dit is meestal het ISV-scenario.
@@ -126,7 +126,7 @@ Report report = reports.Value.FirstOrDefault();
 U moet een insluittoken genereren dat kan worden gebruikt vanuit de JavaScript API. Het insluittoken heeft alleen betrekking op het item dat is ingesloten. Dit betekent dat u een nieuw insluittoken moet maken voor elk stukje Power BI-inhoud dat u wilt insluiten. Zie [GenerateToken API](https://msdn.microsoft.com/library/mt784614.aspx) voor meer informatie, onder andere over welk **accessLevel** u moet gebruiken.
 
 > [!IMPORTANT]
-> Omdat insluitingstokens alleen voor ontwikkelingstesten zijn bedoeld, kan een Power BI-masteraccount een onbeperkt aantal insluitingstokens genereren. Er moet een [capaciteit moet worden aangeschaft](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) voor insluitingsscenario's voor de productie. Het aantal te genereren insluitingstokens is onbeperkt wanneer een capaciteit is aangeschaft.
+> Omdat insluitingstokens alleen voor ontwikkelingstesten zijn bedoeld, kan een Power BI-masteraccount een onbeperkt aantal insluitingstokens genereren. Er moet een [capaciteit moet worden aangeschaft](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) voor insluitingsscenario's voor de productie. Het aantal te genereren insluitingstokens is onbeperkt wanneer een capaciteit is aangeschaft. Ga naar [Beschikbare functies ophalen](https://msdn.microsoft.com/en-us/library/mt846473.aspx) om te controleren hoeveel gratis insluittokens zijn gebruikt.
 
 Een voorbeeld hiervan is beschikbaar in **Controllers\HomeController.cs** van het [Voorbeeld voor insluiten voor uw organisatie](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
 

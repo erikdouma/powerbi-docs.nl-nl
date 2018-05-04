@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/07/2018
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 52ff1095c063be867354a23e0e8e4908a4b4e1d7
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 24e4dbaf6ede92436ff05c8cb57756e3ab7e8526
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Veelgestelde vragen over Power BI Embedded
 
@@ -60,10 +60,6 @@ Er zijn misschien enkele situaties waarin een ISV (meestal groot) een P-SKU wil 
 
 Insluitingstokens met een PRO-licentie zijn bedoeld voor ontwikkelingstesten, dus een Power BI-masteraccount kan maar een beperkt aantal insluitingstokens genereren. U moet [een capaciteit aanschaffen](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) voor het insluiten van items in een productieomgeving. Wanneer u een capaciteit hebt aangeschaft, kunt u een onbeperkt aantal insluitingstokens genereren.
 
-### <a name="when-will-power-bi-embedded-be-available-in-azure"></a>Wanneer komt Power BI Embedded beschikbaar in Azure?
-
-Power BI Embedded is nu beschikbaar.
-
 ## <a name="technical"></a>Technisch
 
 ### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365"></a>Wat is het verschil tussen de A-SKU's in Azure en de EM-SKU's in Office 365?
@@ -74,7 +70,7 @@ Power BI Embedded bestaat uit een set API's die beschikbaar zijn voor ontwikkela
 
 Hier volgt een (niet volledige) lijst met verschillen tussen de versies.
 
-|Functie  |Power BI Embedded<br>(A-SKU's) |Power BI Premium-capaciteit<br>(EM-SKU's)  |
+|Functie  |Power BI Embedded<br>(A-SKU's) |Power BI Premium-capaciteit<br>(EM-SKU's)  | 
 |---------|---------|---------|
 |Artefacten uit Power BI-App-werkruimten insluiten     |Azure capaciteit |Office 365-capaciteit |
 |Power BI-licentie vereist voor gebruiken van rapporten |Nee  |Ja |
@@ -138,14 +134,6 @@ Australië - zuidoost, Brazilië - zuid, Canada Centraal, VS - oost 2, India, we
 
 Power BI Embedded is beschikbaar via Azure.
 
-### <a name="how-power-bi-embedded-be-metered"></a>Hoe wordt het verbruik van Power BI Embedded gemeten?
-
-Het verbruik van Power BI Embedded wordt in uren gemeten.
-
-### <a name="how-does-the-usage-of-power-bi-embedded-show-up-on-my-bill"></a>Hoe wordt het gebruik van Power BI Embedded weergegeven op mijn factuur?
-
-De facturering voor Power BI Embedded vindt plaats volgens een voorspelbaar uurtarief op basis van het geïmplementeerde type knooppunt (of typen knooppunten). Houd er rekening dat er kosten in rekening worden gebracht zolang uw bron actief is, ook als u hier geen gebruik van maakt. U moet uw bron actief onderbreken als u niet meer wilt worden gefactureerd. U kunt de bron onderbreken via Azure of ARM API's.
-
 ### <a name="what-happens-if-i-already-purchased-power-bi-premium-and-now-i-want-some-of-the-benefits-of-power-bi-embedded-in-azure"></a>Wat gebeurt er als ik Power BI Premium al heb gekocht en ik nu in Azure wil beschikken over enkele voordelen van Power BI Embedded?
 
 Klanten blijven betalen voor bestaande Power BI Premium-aankopen tot het einde van hun huidige abonnementsperiode en kunnen hun Power BI Premium-aankopen op dat moment overzetten.
@@ -153,6 +141,14 @@ Klanten blijven betalen voor bestaande Power BI Premium-aankopen tot het einde v
 ### <a name="do-i-still-have-to-buy-power-bi-premium-to-get-access-to-power-bi-embedded"></a>Moet ik toch nog Power BI Premium kopen om toegang te krijgen tot Power BI Embedded?
 
 Nee, Power BI Embedded omvat de op Azure gebaseerde capaciteit die u nodig hebt om uw oplossing te implementeren en distribueren naar klanten.
+
+### <a name="whats-the-purchase-commitment-for-power-bi-embedded"></a>Wat is de aankoopverplichting voor Power BI Embedded? 
+
+Klanten kunnen hun gebruik op uurbasis aanpassen. Er is geen maandelijkse of jaarlijkse verplichting voor de Power BI Embedded-service.
+
+### <a name="how-does-the-usage-of-power-bi-embedded-show-up-on-my-bill"></a>Hoe wordt het gebruik van Power BI Embedded weergegeven op mijn factuur?
+
+De facturering voor Power BI Embedded vindt plaats volgens een voorspelbaar uurtarief op basis van het geïmplementeerde type knooppunt (of typen knooppunten). Houd er rekening dat er kosten in rekening worden gebracht zolang uw bron actief is, ook als u hier geen gebruik van maakt. U moet uw bron actief onderbreken als u niet meer wilt worden gefactureerd.
 
 ### <a name="who-needs-a-power-bi-pro-license-for-power-bi-embedded-and-why"></a>Wie moet een Power BI Pro-licentie voor Power BI Embedded hebben en waarom?
 
@@ -168,16 +164,21 @@ Ja, u kunt uw [Azure-tegoed](https://azure.microsoft.com/free/) gebruiken voor P
 
 Power BI Embedded maakt deel uit van Azure en dus is het mogelijk om de service te gebruiken met het [tegoed van $ 200 dat u hebt ontvangen bij het aanmelden voor Azure](https://azure.microsoft.com/free/).
 
-### <a name="whats-the-purchase-commitment-for-power-bi-embedded"></a>Wat is de aankoopverplichting voor Power BI Embedded? 
+### <a name="is-there-a-limit-to-the-number-of-embed-tokens-a-power-bi-master-account-can-generate"></a>Is er een limiet aan het aantal insluittokens dat kan worden gegenereerd door een Power BI-hoofdaccount? 
 
-Klanten kunnen hun gebruik op uurbasis aanpassen. Er is geen maandelijkse of jaarlijkse verplichting voor de Power BI Embedded-service.
+Ja, het aantal is beperkt omdat deze insluittokens alleen bedoeld zijn voor ontwikkeltests. [Er moet een capaciteit worden aangeschaft](#technical) voor insluitingsscenario's voor de productie. Het aantal te genereren insluitingstokens is onbeperkt wanneer een capaciteit is aangeschaft. Ga naar [Beschikbare functies ophalen](https://msdn.microsoft.com/en-us/library/mt846473.aspx) om te controleren hoeveel gratis insluittokens zijn gebruikt.
 
-### <a name="where-is-power-bi-embedded-available-us-government-germany-china-what-is-the-timing"></a>Waar is Power BI Embedded beschikbaar? Amerikaanse overheid? Duitsland? China? Wat is de timing?
+### <a name="is-power-bi-embedded-available-for-sovereign-clouds-us-government-germany-china"></a>Is Power BI Embedded beschikbaar voor soevereine clouds (US Government, Duitsland, China)?
 
-Power BI Embedded is beschikbaar in commerciële clouds van Azure en in de cloud van de Amerikaanse overheid.  Beschikbaarheid in onafhankelijke clouds voor Duitsland en China zal in de toekomst worden toegevoegd.
+Power BI Embedded is beschikbaar voor sommige [soevereine clouds](embed-sample-for-customers-sovereign-clouds.md). Het is **NIET** beschikbaar voor de China-cloud.
 
 ### <a name="is-power-bi-embedded-available-for-non-profits-and-educational"></a>Is Power BI Embedded beschikbaar voor non-profitorganisaties en het onderwijs?
 
 Non-profitorganisaties en onderwijsinstellingen kunnen Azure kopen. Er zijn geen speciale prijzen voor deze typen klanten in Azure.
 
+Zie voor meer informatie [Problemen oplossen met uw ingesloten toepassing](embedded-troubleshoot.md)
+
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+
+
+

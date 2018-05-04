@@ -1,6 +1,6 @@
 ---
 title: Rapporten verkennen in de mobiele Power BI-apps
-description: 'Meer informatie over het weergeven en gebruiken van rapporten in de mobiele Power BI-app op uw telefoon of tablet. U maakt rapporten in de Power BI-service of Power BI Desktop en kunt ze vervolgens gebruiken de mobiele apps. '
+description: Meer informatie over het weergeven en gebruiken van rapporten in de mobiele Power BI-app op uw telefoon of tablet. U maakt rapporten in de Power BI-service of Power BI Desktop en kunt ze vervolgens gebruiken de mobiele apps.
 services: powerbi
 documentationcenter: ''
 author: maggiesMSFT
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: 6edd5a6e9606150d4b489a79cdb5ca57ac2f8cce
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: a7bd77ec65fd3897c6e9af9acd2a20a229565415
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Rapporten verkennen in de mobiele Power BI-apps
 Van toepassing op:
@@ -50,7 +50,7 @@ Power BI-rapporten worden opgeslagen op verschillende plaatsen in de mobiele app
   ![Telefoonrapport in de liggende modus](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-landscape.png)
 
 ## <a name="view-reports-optimized-for-phones"></a>Rapporten weergeven die zijn geoptimaliseerd voor telefoons
-Makers van Power BI-rapporten kunnen een rapportindeling maken die speciaal is geoptimaliseerd voor telefoons. Rapportpagina's die zijn geoptimaliseerd voor telefoons beschikken over een extra functionaliteit: u kunt bijvoorbeeld inzoomen op visuals en deze sorteren in de focusmodus, en u krijgt toegang tot de [filters die de auteur van het rapport heeft toegevoegd aan de rapportpagina](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone). Het rapport wordt op uw telefoon geopend en is gefilterd op de waarden zoals die zijn gefilterd in het webrapport. Er wordt ook een bericht weergegeven waarin staat dat er filters actief zijn op de pagina. U kunt de filters op uw telefoon wijzigen.
+Makers van Power BI-rapporten kunnen een rapportindeling maken die speciaal is geoptimaliseerd voor telefoons. Rapportpagina's die zijn geoptimaliseerd voor telefoons beschikken over een extra functionaliteit: u kunt bijvoorbeeld inzoomen op visualisaties en deze sorteren, en u krijgt toegang tot de [filters die de auteur van het rapport heeft toegevoegd aan de rapportpagina](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone). Het rapport wordt op uw telefoon geopend en is gefilterd op de waarden zoals die zijn gefilterd in het webrapport. Er wordt ook een bericht weergegeven waarin staat dat er filters actief zijn op de pagina. U kunt de filters op uw telefoon wijzigen.
 
 In een lijst met rapporten heeft een geoptimaliseerd rapport een speciaal pictogram ![Pictogram van telefoonrapport](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png):
 
@@ -64,7 +64,7 @@ Wanneer u een rapport op een telefoon bekijkt, wordt dit geopend in de staande w
 
 Lees meer over [rapporten die zijn geoptimaliseerd voor weergave op een telefoon](mobile-apps-view-phone-report.md).
 
-## <a name="use-slicers-to-filter-a-report-page"></a>Slicers gebruiken om een rapportpagina te filteren
+## <a name="use-slicers-to-filter-a-report"></a>Slicers gebruiken om een rapport te filteren
 Overweeg [slicers aan een rapportpagina toe te voegen](power-bi-visualization-slicers.md) bij het ontwerpen van een rapport in Power BI Desktop of de Power BI-service. U en uw collega's kunnen de slicers gebruiken om de pagina in een browser en in de mobiele apps te filteren. Wanneer u het rapport op een telefoon bekijkt, kunt u de slicers zowel in de liggende modus zien en er interactie mee hebben als in een pagina die is geoptimaliseerd voor de staande modus van de telefoon. Als u in de browser een waarde selecteert in een slicer of filter, wordt die waarde ook geselecteerd wanneer u de pagina in de mobiele app bekijkt. U ziet een bericht waarin staat dat er op de pagina filters actief zijn.  
 
 * Wanneer u een waarde selecteert in een slicer op de rapportpagina, worden de andere visuele elementen op de pagina gefilterd.
@@ -73,7 +73,7 @@ Overweeg [slicers aan een rapportpagina toe te voegen](power-bi-visualization-sl
   
   In deze afbeelding filtert de slicer het kolomdiagram zodat alleen de waarden voor juli worden weergegeven.
 
-## <a name="cross-filter-and-highlight-a-power-bi-report-page"></a>Een Power BI-rapportpagina kruisfilteren en markeren
+## <a name="cross-filter-and-highlight-a-report"></a>Een rapport kruislings filteren en markeren
 Wanneer u een waarde in een visueel element selecteert, worden de andere visuele elementen niet gefilterd. Wel worden de gerelateerde waarden in de andere visuele elementen gemarkeerd.
 
 * Tik op een waarde in een visueel element.
@@ -88,8 +88,8 @@ Wanneer u een waarde in een visueel element selecteert, worden de andere visuele
    ![Een visueel element sorteren](media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-sort.png)
 * Als u de sorteervolgorde wilt omkeren, tikt u nogmaals op de drie puntjes (**...** ) en tikt u nogmaals op dezelfde veldnaam.
 
-## <a name="drill-down-and-up-in-a-visual-on-an-ipad-or-a-tablet"></a>In- en uitzoomen op een visueel element op een iPad of een tablet
-Als de maker van een rapport deze mogelijkheid heeft toegevoegd aan een visueel element, kunt u op een iPad of tablet inzoomen op een visueel element om de waarden te bekijken waaruit één onderdeel ervan bestaat. U kunt [inzoomen op een visueel element toevoegen](power-bi-visualization-drill-down.md) in Power BI Desktop of de Power BI-service. 
+## <a name="drill-down-on-an-ipad-or-a-tablet"></a>Inzoomen op een iPad of tablet
+Als de maker van een rapport de mogelijkheid om in te zoomen heeft toegevoegd aan een visueel element, kunt u op een iPad of tablet inzoomen op een visueel element om de waarden te bekijken waaruit één onderdeel ervan bestaat. U kunt [inzoomen op een visueel element toevoegen](power-bi-visualization-drill-down.md) in Power BI Desktop of de Power BI-service. 
 
 > [!NOTE]
 > Inzoomen werkt momenteel niet voor kaarten toewijzingen op de iPad of een tablet.

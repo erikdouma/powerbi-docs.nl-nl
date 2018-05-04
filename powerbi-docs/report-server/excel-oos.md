@@ -1,39 +1,32 @@
 ---
-title: De rapportserver configureren om Excel-werkmappen te hosten met Office Online Server (OOS)
-description: Zakelijke gebruikers kunnen nu niet alleen Power BI-rapporten weergeven in de webportal, maar ook hetzelfde doen met Excel-werkmappen in Power BI Report Server.
+title: Excel-werkmappen hosten met behulp van Office Online Server (OOS) - Power BI Report Server
+description: Naast het bekijken van Power BI-rapporten in de webportal, kan Power BI Report Server Excel-werkmappen hosten met behulp van Office Online Server (OOS).
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/23/2017
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: a9d5c1b8da8935a535ed112030a5c2a40132f176
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: f2ff2b695ca548572294a4705235ae1c2b0046c5
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>De rapportserver configureren om Excel-werkmappen te hosten met Office Online Server (OOS)
-Zakelijke gebruikers kunnen nu niet alleen Power BI-rapporten weergeven in de webportal, maar ook hetzelfde doen met Excel-werkmappen in Power BI Report Server. Zo hebben ze één locatie waar ze hun selfservice Microsoft BI-inhoud kunnen publiceren en weergeven.
+Naast het bekijken van Power BI-rapporten in de webportal, kan Power BI Report Server Excel-werkmappen hosten met behulp van [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS). Uw rapportserver wordt één locatie voor het publiceren en bekijken van selfservice-inhoud van Microsoft BI.
 
-> [!NOTE]
-> Dit is een preview-functie die is opgenomen in de preview-versie van augustus 2017. Zie [Wat er nieuw is in Power BI Report Server](whats-new.md) voor meer informatie.
-> 
-> 
-
-![Excel-rapporten worden weergegeven via de webportal van de rapport.](media/excel-oos/excel-in-pbirs.png)
-
-Dit wordt bereikt door [Office Online Server](https://technet.microsoft.com/library/jj219437\(v=office.16\).aspx) (OOS) te gebruiken.
+![Excel-rapporten weergegeven via de webportal van de rapportserver](media/excel-oos/excel-in-pbirs.png)
 
 ## <a name="prepare-server-to-run-office-online-server"></a>De server voorbereiden om Office Online Server uit te voeren
 Voer deze procedures uit op de server waarop u Office Online Server wilt uitvoeren. Deze server moet een Windows Server 2012 R2 of Windows Server 2016 zijn. Voor Windows Server 2016 is de versie van Office Online Server van april 2017 of later vereist.
