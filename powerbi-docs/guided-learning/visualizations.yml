@@ -5,20 +5,20 @@ metadata:
   description: Met visualisaties komen uw gegevens tot leven en komt u tot inzichten die alleen aan het licht komen met pakkende visuele representaties. In deze sectie kunt u lezen hoe.
   audience: Business User
   level: Beginner
-  nextTutorialHref: exploringdata
+  nextTutorialHref: exploringdata.yml
   nextTutorialTitle: Gegevens verkennen
   displayType: one-column
   author: davidiseminger
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 12/05/2017
+  ms.date: 05/02/2018
   ms.author: davidi
-  ms.openlocfilehash: e1492e55e47ea0871f4a07a0cc599570f36cae40
-  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+  ms.openlocfilehash: 8ce82b4d86d6e6eb8affbe567cc606fe2cc37732
+  ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
   ms.translationtype: HT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 02/06/2018
+  ms.lasthandoff: 05/04/2018
 items:
 - durationInMinutes: 1
   content: >
@@ -79,7 +79,7 @@ items:
 
 
     [!INCLUDE [](includes/3-8-create-waterfall-funnel-charts.md)]
-- title: "Meters en kaarten met één getal"
+- title: Meters en kaarten met één getal
   durationInMinutes: 7
   content: >
     > [!Video https://www.youtube.com/embed/xmja6EpqaO0?rel=0]
@@ -121,14 +121,14 @@ items:
 
 
     [!INCLUDE [](includes/3-11b-duplicate-page.md)]
-- title: "Categorieën zonder gegevens weergeven"
+- title: Categorieën zonder gegevens weergeven
   durationInMinutes: 3
   content: >
     > [!Video https://www.youtube.com/embed/rsUMVJAIH00?rel=0]
 
 
     [!INCLUDE [](includes/3-11c-display-empty-categories.md)]
-- title: "Opties voor samenvattingen en categorieën"
+- title: Opties voor samenvattingen en categorieën
   durationInMinutes: 9
   content: >
     > [!Video https://www.youtube.com/embed/Co2z9b-s_yM?rel=0]
@@ -142,7 +142,7 @@ items:
 
 
     [!INCLUDE [](includes/3-11f-arrange-visual-zorder.md)]
-- title: "Visuele hiërarchieën en inzoomen"
+- title: Visuele hiërarchieën en inzoomen
   durationInMinutes: 5
   content: >
     > [!Video https://www.youtube.com/embed/q8WDUAiTGeU?rel=0]
@@ -156,4 +156,4 @@ items:
 
 
     [!INCLUDE [](includes/3-11h-r-visual-integration.md)]
-- content: "Goed gedaan. U hebt de sectie **Visualisaties** van **Begeleide training** voltooid. U bent nu klaar voor de volgende zelfstudie: **Gegevens verkennen**.\0"
+- content: 'Goed gedaan. U hebt de sectie **Visualisaties** van **Begeleide training** voltooid. U bent nu klaar voor de volgende zelfstudie: **Gegevens verkennen**.'
