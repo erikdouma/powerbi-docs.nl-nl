@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/11/2017
 ms.author: tankas
-ms.openlocfilehash: 1345cfee8eb92b9b4e3cf883f19edddee859a1c3
-ms.sourcegitcommit: c9905e625ba14dc28ad23835f320e49631c51d0f
+ms.openlocfilehash: 67b9a162d689a8615a3e2459295eab6dad6d2364
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/29/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Wijzigingenlogboek voor Power BI Report Server
 
@@ -92,6 +92,9 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerd
             - Verbeterde toegankelijkheid
 
 - **Power BI Report (geoptimaliseerd voor Power BI Report Server)**
+    - *Versie: 2.51.4885.3981 (oktober 2017), uitgebracht: 10 april 2018*
+        - Beveiligingsupdates
+
     - *Versie: 2.51.4885.2501 (oktober 2017), uitgebracht: 10 januari 2018*
         - Beveiligingsupdates
 

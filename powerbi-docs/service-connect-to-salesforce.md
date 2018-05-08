@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/16/2017
+ms.date: 04/13/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8089c796441fd4200b146da6330dd5c208bf8b30
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 62624d35f1fb477c4daf2ffcef92bb18fb8a6a8e
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Verbinding met Salesforce maken via Power BI
 Met Power BI kunt u eenvoudig verbinding maken met uw Salesforce.com-account. Door deze verbinding te maken worden uw gegevens opgehaald en wordt er automatische een dashboard met de bijbehorende rapporten op basis van uw gegevens gemaakt.
@@ -72,13 +72,15 @@ U kunt dit dashboard wijzigen om uw gegevens weer te geven zoals u dat wilt. U k
 * [Selecteer een tegel](service-dashboard-tiles.md) om het onderliggende rapport te openen.
 * Als uw gegevensset is ingesteld op dagelijks vernieuwen, kunt u het vernieuwingsschema wijzigen of de gegevensset handmatig vernieuwen met **Nu vernieuwen**.
 
-## <a name="system-requirements"></a>Systeemvereisten
-* Verbinding met een productieaccount van Salesforce waarvoor API-toegang is ingeschakeld.
-* Er moet tijdens het aanmelden een machtiging aan de BI-app worden verleend.
-* Het account beschikt over voldoende beschikbare API-aanroepen om de gegevens op te halen en te vernieuwen.
-* Er is een geldig verificatietoken nodig om de gegevens te kunnen vernieuwen. Zorg ervoor dat u maximaal Salesforce-gegevenssets importeert, aangezien er een limiet van vijf verificatietokens per toepassing geldt voor Salesforce.
+## <a name="system-requirements-and-considerations"></a>Systeemvereisten en overwegingen
+- Verbinding met een productieaccount van Salesforce waarvoor API-toegang is ingeschakeld.
+- Er moet tijdens het aanmelden een machtiging aan de BI-app worden verleend.
+- Het account beschikt over voldoende beschikbare API-aanroepen om de gegevens op te halen en te vernieuwen.
+- Er is een geldig verificatietoken nodig om de gegevens te kunnen vernieuwen. Zorg ervoor dat u maximaal Salesforce-gegevenssets importeert, aangezien er een limiet van vijf verificatietokens per toepassing geldt voor Salesforce.
+- De API voor Salesforce-rapporten heeft een beperking: er worden maximaal 2000 rijen gegevens ondersteund.
 
-## <a name="troubleshooting"></a>Probleemoplossing
+
+## <a name="troubleshooting"></a>Problemen oplossen
 Als er fouten optreden, raadpleegt u de bovenstaande vereisten. Houd er ook rekening mee dat er geen ondersteuning wordt geboden voor aanmelden bij een aangepast of sandbox-domein.
 
 ## <a name="next-steps"></a>Volgende stappen

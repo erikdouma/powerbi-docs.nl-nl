@@ -1,27 +1,27 @@
 ---
-title: Tips en trucs voor het maken van rapporten in Power BI Desktop
-description: Tips en trucs voor het maken van rapporten in Power BI Desktop
+title: Tips en trucs voor het maken van rapporten in Power BI
+description: Tips en trucs voor het maken van rapporten in de Power BI-service en Power BI Desktop
 services: powerbi
-documentationcenter: 
-author: davidiseminger
+documentationcenter: ''
+author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: willthom
+editor: ''
+tags: ''
 qualityfocus: identified
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 03/21/2018
 ms.author: davidi
-ms.openlocfilehash: 69e4d89f4118e6ea34ddbd4308965a90a662a970
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: d4c32d82fb25fcce47900080d3c454623e14cd74
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Tips en trucs voor het maken van rapporten in Power BI Desktop
 Als uw gegevens optimaal te kunnen gebruiken, hebt u soms wat extra hulp nodig. We hebben een aantal tips en trucs voor u verzameld om u te helpen bij het maken van rapporten in Microsoft Power BI Desktop *en* in Pro-Plus-edities van Microsoft Excel 2016 of Excel 2013 waar de Power Pivot-invoegtoepassing is ingeschakeld en Power Query is geïnstalleerd en ingeschakeld. 
@@ -39,46 +39,46 @@ Wanneer u de Query Editor in Power BI Desktop gebruikt om gegevens te laden, bep
 Het is belangrijk om het volgende te onthouden: als gegevens cursief worden weergegeven in het gegevensraster, betekent dit niet dat het gegevenstype correct is ingesteld, alleen dat de gegevens niet als tekst worden beschouwd.
 
 ## <a name="reference-queries-in-the-query-editor"></a>Naar query's verwijzen in de Query Editor
-Wanneer u in het navigatiepaneel van Query Editor met de rechtermuisknop op een van de query's klikt, is er een optie "Verwijzingen" beschikbaar.  Dit is nuttig vanwege de volgende reden:
+Wanneer u in de Query Editor-navigator in Power BI Desktop met de rechtermuisknop op een van de query's klikt, is er een optie Verwijzingen beschikbaar.  Dit is nuttig vanwege de volgende reden:
 
 * Wanneer u bestanden als gegevensbron voor een query gebruikt, wordt het absolute pad naar het bestand opgeslagen in de query. Wanneer u het Power BI Desktop-bestand of de Excel-werkmap deelt of verplaatst, bespaart u tijd wanneer u de paden met één handeling kunt bijwerken in plaats van per pad.
 
 Standaard voeren alle query's hun gegevens uit naar een Excel-werkblad of een gegevensmodel (of beide). Sommige query's vormen tussenliggende stappen en zijn niet bestemd voor eindgebruikers.  Wanneer u naar query's verwijst zoals hierboven wordt beschreven, is dit vaak het geval.  U kunt het laadgedrag van query's instellen door in het navigatiepaneel met de rechtermuisknop te klikken op de query en de optie 'Laden inschakelen' in of uit te schakelen.  Wanneer het selectievakje naast 'Laden inschakelen' niet is geactiveerd, blijft de query wel beschikbaar in het query-tabblad en kunt u deze blijven gebruiken met andere query's.  Dit is vooral nuttig in combinatie met de transformatiehandelingen Samenvoegen, Toevoegen en Verwijzen.  Omdat de query-resultaten niet naar het gegevensmodel worden geladen, wordt de query echter niet opgenomen in uw lijst met rapportvelden of uw gegevensmodel. 
 
 ## <a name="scatter-charts-need-a-point-identifier"></a>Spreidingsdiagrammen hebben een punt-id nodig
-We gebruiken hier een voorbeeld van een eenvoudige tabel met temperaturen en de tijdstippen waarop deze zijn uitgelezen. Als u deze gegevens rechtstreeks tot een spreidingsdiagram verwerkt, brengt Power BI Desktop alle waarden samen tot een centraal punt. Als u afzonderlijke gegevenspunten wilt weergeven, dient u eerst een veld toe te voegen aan de bucket Details voor de velden.   Een eenvoudige manier om dit te doen is door op het query-tabblad de optie 'Indexkolom toevoegen' te gebruiken, op het lint 'Kolom toevoegen'. 
+We gebruiken hier een voorbeeld van een eenvoudige tabel met temperaturen en de tijdstippen waarop deze zijn uitgelezen. Als u deze gegevens rechtstreeks tot een spreidingsdiagram verwerkt, brengt Power BI alle waarden samen tot een centraal punt. Als u afzonderlijke gegevenspunten wilt weergeven, dient u eerst een veld toe te voegen aan de bucket Details voor de velden.   Een eenvoudige manier om dit te doen is door in Power BI Desktop op het querytabblad de optie Indexkolom toevoegen op het lint Kolom toevoegen te gebruiken. 
 
 ## <a name="reference-lines-in-your-report"></a>Referentielijnen in uw rapport
-U kunt een berekende kolom gebruiken om een referentielijn te definiëren.  Bepaal welke tabel en kolom waar u een referentielijn wilt maken.  Selecteer in het lint 'Nieuwe kolom' en typ in de formulebalk de volgende formule:
+U kunt een berekende kolom in Power BI Desktop gebruiken om een referentielijn te definiëren.  Bepaal welke tabel en kolom waar u een referentielijn wilt maken.  Selecteer in het lint 'Nieuwe kolom' en typ in de formulebalk de volgende formule:
 
     Target Value = 100
 
 Deze berekende kolom retourneert de waarde 100, ongeacht waar deze wordt gebruikt.  De nieuwe kolom wordt weergegeven in de veldenlijst.  Voeg de berekende kolom Doelwaarde toe aan een lijndiagram om weer te geven hoe een reeks zich verhoudt tot die specifieke referentielijn.  
 
 ## <a name="sort-by-another-column"></a>Sorteren op een andere kolom
-Wanneer u in Power BI Desktop een categorische (tekenreeks-)waarde gebruikt voor grafiekassen of in een slicer of filter, wordt standaard op alfabetische volgorde gesorteerd. Als u deze volgorde wilt overschrijven, als u bijvoorbeeld werkt met dagen van de weken of maanden, kunt u Power BI Desktop opdracht geven om te sorteren op een andere kolom. Zie [Op kolom sorteren in Power BI Desktop](desktop-sort-by-column.md) voor meer informatie.
+Wanneer u in Power BI een categorische (tekenreeks)waarde gebruikt voor grafiekassen of in een slicer of filter, wordt standaard op alfabetische volgorde gesorteerd. Als u deze volgorde wilt overschrijven, als u bijvoorbeeld werkt met dagen van de weken of maanden, kunt u Power BI Desktop opdracht geven om te sorteren op een andere kolom. Zie [Op kolom sorteren in Power BI Desktop](desktop-sort-by-column.md) voor meer informatie.
 
 ## <a name="building-maps-more-easily-with-hints-to-bing"></a>Eenvoudiger maps maken met hints van Bing
-Power BI biedt integratie met Bing om standaard kaartcoördinaten te bieden (een proces dat geocodering wordt genoemd) zodat u eenvoudiger kaarten kunt maken.  Bing gebruikt bepaalde algoritmen en hints om de juiste locatie te bepalen, maar dit blijft een schatting.   U kunt de volgende tips gebruiken om de kans te verhogen dat de geocodering goed verloopt:
+Power BI biedt integratie met Bing om standaard kaartcoördinaten te bieden (een proces dat geocodering wordt genoemd) zodat u eenvoudiger kaarten kunt maken.  Bing gebruikt bepaalde algoritmen en hints om de juiste locatie te bepalen, maar dit blijft een schatting. U kunt de volgende tips gebruiken om de kans te verhogen dat de geocodering goed verloopt:
 
-Wanneer u een kaart maakt, zult u meestal landen, staten en plaatsen willen weergeven.  Als u na de geografische aanduiding een naamkolom gebruikt, kan Bing beter inschatten wat u wilt weergeven. Als u bijvoorbeeld een veld met namen van Amerikaans staten gebruikt, zoals 'Californië' en 'Washington', is het mogelijk dat Bing voor 'Washington' de locatie van Washington, DC, retourneert, in plaats van de staat Washington.  Door een kolom 'Staat' toe te voegen, wordt de geocodering verbeterd.  Datzelfde geldt voor kolommen met de naam 'Land', 'Staat' en 'Plaats'.   
+Wanneer u een kaart maakt, zult u meestal landen, staten en plaatsen willen weergeven.  Als u in Power BI Desktop na de geografische aanduiding kolommen noemt, kan Bing beter inschatten wat u wilt weergeven. Als u bijvoorbeeld een veld met namen van Amerikaans staten gebruikt, zoals 'Californië' en 'Washington', is het mogelijk dat Bing voor 'Washington' de locatie van Washington, DC, retourneert, in plaats van de staat Washington.  Door een kolom 'Staat' toe te voegen, wordt de geocodering verbeterd.  Datzelfde geldt voor kolommen met de naam Land en Plaats.   
 
 Sommige aanduidingen zijn ambigu wanneer deze worden gebruikt in de context van meerdere landen.  Wat in sommige landen/regio's als 'staat' wordt beschouwd, kan in andere landen/regio's een andere aanduiding krijgen, zoals 'provincie' of 'county'.  U kunt de nauwkeurigheid van de geocodering vergroten door kolommen te maken die meerdere velden samenvoegen en deze vervolgens gebruiken om gegevenslocaties te visualiseren.  Zo kunt u in plaats van alleen 'Wiltshire' door te geven, ervoor kiezen 'Wiltshire, Engeland' door te geven om nauwkeurigere geocoderingsresultaten te krijgen. 
 
-Ook kunt u altijd specifieke breedte- en lengtegraden opgeven voor een locatie.  Wanneer u dit doet, moet u ook een locatieveld doorgeven, anders worden de gegevens standaard geaggregeerd, waardoor de locatie van de breedte- en lengtegraden mogelijk niet overeenkomt met wat u verwacht.
+Ook kunt u in de Power BI-service of Power BI Desktop altijd specifieke breedte- en lengtegraden opgeven voor een locatie.  Wanneer u dit doet, moet u ook een locatieveld doorgeven, anders worden de gegevens standaard geaggregeerd, waardoor de locatie van de breedte- en lengtegraden mogelijk niet overeenkomt met wat u verwacht.
 
 ## <a name="categorizing-geographic-fields-to-hint-bings-geocoding"></a>Geografische velden categoriseren om hints te geven voor de geocodering van Bing
-U kunt in Power BI Desktop zorgen dat velden correct worden gegeocodeerd door de gegevenscategorie voor de gegevensvelden in te stellen.   Hiervoor selecteert u de gewenste tabel in Power BI Desktop, gaat u naar het lint Geavanceerd en stelt u de gegevenscategorie in op Adres, Plaats, Continent, Land/Regio, Land, Postcode, Staat of Provincie.  Door deze gegevenscategorieën is het eenvoudiger voor Bing om de gegevens correct te coderen. Zie [Gegevenscategorisatie in Power BI Desktop](desktop-data-categorization.md) voor meer informatie.
+Een andere manier is te zorgen dat velden correct worden gegeocodeerd door de gegevenscategorie voor de gegevensvelden in te stellen.   Hiervoor selecteert u de gewenste tabel in Power BI Desktop, gaat u naar het lint Geavanceerd en stelt u de gegevenscategorie in op Adres, Plaats, Continent, Land/Regio, Land, Postcode, Staat of Provincie.  Deze gegevenscategorieën helpen Bing bij het correct coderen van de gegevens. Zie [Gegevenscategorisatie in Power BI Desktop](desktop-data-categorization.md) voor meer informatie.
 
 ## <a name="better-geocoding-with-more-specific-locations"></a>Betere geocodering met specifiekere locaties
-Soms is zelfs het instellen van de gegevenscategorieën onvoldoende om correcte kaarten te maken.  U kunt in een query een specifiekere locatie zoals een adres maken met behulp van de Query Editor in Power BI Desktop.  Gebruik de functie Kolom toevoegen om een aangepaste kolom te maken.  Maak de gewenste locatie vervolgens als volgt: 
+Soms is zelfs het instellen van de gegevenscategorieën onvoldoende om correcte kaarten te maken.  Maak met de query-editor in Power BI Desktop een specifiekere locatie, zoals een adres.  Gebruik de functie Kolom toevoegen om een aangepaste kolom te maken.  Maak de gewenste locatie vervolgens als volgt: 
 
     = [Field1] & " " & [Field2]
 
-Vervolgens kunt u het resulterende veld gebruiken in kaartvisualisaties. Dit is zeer nuttig wanneer u straatadressen afleidt van velden voor een bezorgadres, welke veel worden gebruikt in gegevenssets.  Houd er wel rekening mee dat deze samenvoeging alleen werkt met tekstvelden.  Indien nodig dient u een huisnummer eerst te converteren naar een tekstgegevenstype, voordat u dit gebruikt om een adres te vormen.
+Vervolgens kunt u het resulterende veld gebruiken in kaartvisualisaties. Dit is zeer nuttig wanneer u straatadressen afleidt van velden voor een bezorgadres die veel in gegevenssets worden gebruikt.  Houd er wel rekening mee dat deze samenvoeging alleen werkt met tekstvelden.  Indien nodig dient u een huisnummer eerst te converteren naar een tekstgegevenstype, voordat u dit gebruikt om een adres te vormen.
 
 ## <a name="histograms-in-the-query-stage"></a>Histogrammen in de query-fase
-Er zijn verschillende manieren om histogrammen te maken. We beginnen met de eenvoudigste en bouwen het daarna op:
+Er zijn verschillende manieren om in Power BI Desktop histogrammen te maken. We beginnen met de eenvoudigste en bouwen het daarna op:
 
 Eenvoudigste histogrammen: bepaal welke query het veld bevat dat u wilt gebruiken om een histogram te maken.  Gebruik de optie 'Verwijzing' voor de query om een nieuwe query te maken en geef deze de naam 'FieldName Histogram'. Gebruik de optie 'Groeperen op' in het lint 'Transformatie' en selecteer de aggregatie 'Rijen tellen'.  Zorg dat het gegevenstype een getal is voor de resulterende cumulatieve kolom. Visualiseer vervolgens deze gegevens op de rapportenpagina.  Deze methode is snel en eenvoudig te maken, maar werkt niet goed als u veel gegevenspunten hebt en u kunt zo niet eenvoudig door visualisaties bladeren.
 
@@ -104,7 +104,7 @@ De volgende stap in het proces is een relatie te definiëren tussen de query's '
 Tot slot maakt u het histogram.  Sleep het veld Bucket uit de tabel 'Buckets'.  Verwijder het standaardveld uit de resulterende kolomdiagram.  Sleep nu het histogramveld uit de tabel 'Details' naar dezelfde visualisatie.  Wijzig voor de velden de standaardaggregatie naar Aantal.  Nu wordt het histogram gemaakt. Als u nog een visualisatie maakt, zoals een treemap van de tabel Details, kunt u een gegevenspunt in de treemap selecteren om dit gegevenspunt uit te lichten in het histogram en om het histogram weer te geven voor het geselecteerde gegevenspunt, ten opzichte van de trend voor de volledige gegevensset.
 
 ## <a name="histograms"></a>Histogrammen
-U kunt een berekend veld gebruiken om een histogram te definiëren.  Bepaal op basis van welke tabel en kolom u een histogram wilt maken.  Typ in het berekeningsgebied de volgende formule:
+U kunt in Power BI Desktop een berekend veld gebruiken om een histogram te definiëren.  Bepaal op basis van welke tabel en kolom u een histogram wilt maken.  Typ in het berekeningsgebied de volgende formule:
 
 > Frequency:=COUNTROWS(\<Kolomnaam\>)
 > 
@@ -112,7 +112,7 @@ U kunt een berekend veld gebruiken om een histogram te definiëren.  Bepaal op b
 
 Sla de wijzigingen op en keer terug naar uw rapport.  Voeg de \<Kolomnaam\> en de Frequentie toe aan een tabel converteer deze naar een staafdiagram.  Controleer of de \<Kolomnaam\> op de x-as wordt weergegeven en het berekende veld Frequentie op de y-as.
 
-## <a name="tips-and-tricks-for-creating-relationships"></a>Tips en trucs voor het maken van relaties
+## <a name="tips-and-tricks-for-creating-relationships-in-power-bi-desktop"></a>Tips en trucs voor het maken van relaties in Power BI Desktop
 Vaak zorgen bij het laden van gedetailleerde gegevenssets uit meerdere bronnen problemen zoals null-waarden, lege waarden of dubbele waarden ervoor dat u geen relaties kunt maken. 
 
 Hier volgt een voorbeeld. 
@@ -125,10 +125,10 @@ Als we gegevenssets laden, zoals een set over actieve klantenondersteuningsaanvr
 
 Als we alle incidenten en werkitems willen volgen die betrekking hebben op een specifieke CustomerName, kunnen we niet enkel een relatie tussen deze twee gegevenssets maken.  Sommige WorkItems zijn misschien niet gekoppeld aan een CustomerName, dus dan is dat veld leeg of NULL.  Ook kunnen er meerdere records in WorkItems en CustomerIncidents zijn voor een bepaalde CustomerName.  
 
-### <a name="creating-relationships-when-the-data-has-null-or-blank-values"></a>Een relatie maken als mijn gegevens velden met lege of null-waarden bevatten
+### <a name="creating-relationships-in-power-bi-desktop-when-the-data-has-null-or-blank-values"></a>Een relatie maken in Power BI Desktop als de gegevens velden met lege of null-waarden bevatten
 Vaak bevatten gegevenssets kolommen met lege of null-waarden.  Dit kan problemen veroorzaken bij het gebruik van relaties.  U kunt deze problemen eigenlijk op twee manieren oplossen.  U kunt de rijen verwijderen die lege of null-waarden bevatten.  U kunt doen dit met behulp van de filterfunctie in het query-tabblad of, als u query's samenvoegt, door de optie 'Alleen overeenkomende rijen behouden' te selecteren. De andere oplossing is de lege of null-waarde te vervangen door waarden die wel werken in relaties, doorgaans door tekenreeksen zoals 'NULL' of '(Leeg)'.   Er bestaat hier geen correct antwoord: door de rijen op query-niveau te filteren worden rijen verwijdert, wat gevolgen kan hebben voor de samenvattende statistieken en berekeningen.  De andere oplossing behoudt die gegevensrijen, maar kan ervoor zorgen dat niet-gerelateerde rijen worden weergegeven in het model, wat kan leiden tot fouten in de berekeningen.  Als u de tweede methode gebruikt, dient u waar nodig filters voor de Weergave/Grafiek te gebruiken, om te zorgen dat u nauwkeurige resultaten krijgt.  Zorg ook vooral dat u controleert welke regels worden behouden en/of verwijderd en dat u begrijpt wat de gevolgen zijn voor de analyse.  
 
-### <a name="creating-relationships-when-the-data-has-duplicate-values"></a>Een relatie maken als mijn gegevens dubbele waarden bevatten
+### <a name="creating-relationships-in-power-bi-desktop-when-the-data-has-duplicate-values"></a>Een relatie maken in Power BI Desktop als de gegevens dubbele waarden bevatten
 Vaak zorgen bij het laden van gedetailleerde gegevenssets uit meerdere bronnen dubbele waarden ervoor dat u geen relaties kunt maken.  U kunt dit ondervangen door een dimensietabel te maken met de unieke waarden van beide gegevenssets. 
 
 Hier volgt een voorbeeld. 
@@ -155,7 +155,7 @@ U hebt nu een dimensietabel gemaakt die u kunt gebruiken om relaties te maken me
 Query Editor is een zeer krachtig hulpmiddel om gegevens te bewerken en geschikt te maken voor gebruik in visualisaties of modellen. Er zijn enkele patronen om te onthouden.
 
 ### <a name="temporary-columns-can-be-deleted-after-computing-a-result"></a>Tijdelijke kolommen kunnen worden verwijderd na het berekenen van een resultaat
-Vaak zult u een berekening moeten maken waarmee gegevens uit meerdere kolommen worden omgezet naar één nieuwe kolom.  Dit kan ingewikkeld zijn.  Een gemakkelijke manier om dit te doen, is door de bewerking op te breken in stappen.  Begin door de oorspronkelijke kolommen te dupliceren. Doorloop vervolgens de stappen om tijdelijke kolommen te maken. Maak dan pas de kolom voor het uiteindelijke resultaat.  U kunt de tijdelijke kolommen nu verwijderen, om de uiteindelijke gegevensset op te ruimen. Dit is mogelijk omdat het query-tabblad stappen in volgorde uitvoert. 
+Vaak zult u in Power BI Desktop een berekening moeten maken waarmee gegevens uit meerdere kolommen worden omgezet naar één nieuwe kolom.  Dit kan ingewikkeld zijn.  Een gemakkelijke manier om dit te doen, is door de bewerking op te breken in stappen.  Begin door de oorspronkelijke kolommen te dupliceren. Doorloop vervolgens de stappen om tijdelijke kolommen te maken. Maak dan pas de kolom voor het uiteindelijke resultaat.  U kunt de tijdelijke kolommen nu verwijderen, om de uiteindelijke gegevensset op te ruimen. Dit is mogelijk omdat het query-tabblad stappen in volgorde uitvoert. 
 
 ### <a name="duplicate-or-reference-queries-followed-by-merge-to-original-query"></a>Query's dupliceren of ernaar verwijzen, en deze vervolgens samenvoegen met de oorspronkelijke query
 Soms is het handig om samenvattende statistieken te berekenen voor een gegevensset.  De eenvoudige manier om dit te doen is de query te dupliceren of ernaar te verwijzen in het query-tabblad. Gebruik vervolgens **Groeperen op** om samenvattende statistieken te berekenen.  Samenvattende statistieken kunnen het makkelijker maken de gegevens in de oorspronkelijke gegevensset te normaliseren, zodat ze beter vergelijkbaar zijn, zoals in .  Dit is vooral handig om afzonderlijke waarden te vergelijken met het totaal.  Om dit te doen gaat u naar de oorspronkelijke query en selecteert u de optie Samenvoegen.  Voeg de gegevens uit de query voor samenvattende statistieken daarna samen met de gegevens die een overeenkomend aanduiding hebben.  U kunt nu de gegevens normaliseren tot de vorm die nodig is voor uw analyse.
@@ -168,4 +168,3 @@ DAX is de formuletaal voor berekeningen in Power BI Desktop.  Deze is geoptimali
 [Naslaginformatie voor Data Analysis Expressions (DAX)](https://msdn.microsoft.com/library/gg413422.aspx)
 
 [DAX Resource Center](http://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
-

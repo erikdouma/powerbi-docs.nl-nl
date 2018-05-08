@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5f081dff246c478f1b9ee3c918de2099b8382100
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 5480768fc088b3a32a1af222d38e3829298e8f0d
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>On-premises gegevensgateway nader bekeken
 Het is mogelijk dat gebruikers in uw organisatie toegang hebben tot on-premises gegevens (waarvoor ze al zijn geautoriseerd), maar voordat deze gebruikers verbinding kunnen maken met uw on-premises gegevensbron, moet er een on-premises gegevensgateway worden geïnstalleerd en geconfigureerd. De gateway zorgt ervoor dat er op een snelle, veilige en transparante manier kan worden gecommuniceerd tussen een gebruiker in de cloud en de on-premises gegevensbron.
@@ -87,10 +87,7 @@ De cloudservices kennen alleen accounts binnen Azure Active Directory. Het maakt
    U kunt een account maken in de Azure-portal of in de beheerportal van Office 365. De accountnaam komt dan overeen met de UPN van het lokale Active Directory-account.
 2. U kunt het hulpprogramma [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/) gebruiken om lokale accounts te synchroniseren met uw Azure Active Directory-tenant.
    
-   Het hulpprogramma Azure AD Connect biedt opties voor de synchronisatie van adreslijst en wachtwoord. Als u geen tenantbeheerder of lokale domeinbeheerder bent, moet u contact opnemen met uw IT-beheerder om dit in orde te laten maken.
-3. U kunt Active Directory Federation Services (ADFS) configureren.
-   
-   U kunt het hulpprogramma [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/) gebruiken om uw ADFS-server te koppelen aan uw AAD-tenant. ADFS maakt gebruik van de hierboven beschreven adreslijstsynchronisatie, maar biedt ondersteuning voor een scenario met eenmalige aanmelding (SSO). Als u zich bijvoorbeeld binnen het bedrijfsnetwerk bevindt en naar een cloudservice gaat, wordt u bij het aanmelden mogelijk niet gevraagd om een gebruikersnaam en wachtwoord. Neem contact op met uw IT-beheerder om te vragen of deze mogelijkheid beschikbaar is voor uw organisatie.
+   Het hulpprogramma Azure AD Connect biedt opties voor adreslijstsynchronisatie en het instellen van verificatie, met inbegrip van wachtwoordhashsynchronisatie, pass-through-verificatie en federatie. Als u geen tenantbeheerder of lokale domeinbeheerder bent, moet u contact opnemen met uw IT-beheerder om dit in orde te laten maken.
 
 Door gebruik te maken van Azure AD Connect weet u zeker dat de UPN overeenkomt tussen AAD en uw lokale Active Directory.
 

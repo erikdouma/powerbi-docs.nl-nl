@@ -2,14 +2,14 @@
 title: Gebruik de matrixvisualisatie in Power BI Desktop
 description: Ontdek hoe de matrixvisualisatie stapindelingen en gedetailleerde markeringen in Power BI Desktop mogelijk maakt
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: de40c8ee25c5facc1c4396c807d38784c11e8bca
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: fdab0ee5a4804bcb05e936f4e6a9455127d352fa
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>Gebruik de matrixvisualisatie in Power BI Desktop
-Met de **Matrix**-visualisatie kunt u matrixvisualisaties (ook wel *tabellen* genoemd) maken in **Power BI Desktop**-rapporten, en elementen in de matrix kruislings markeren met andere visualisaties. Bovendien kunt u rijen en kolommen selecteren, en zelfs afzonderlijke cellen en kruislings markeren. En ten slotte ondersteunt de matrixvisualisatie ook een getrapte lay-out, om beter gebruik te maken van de lay-outruimte.
+Met de visualfunctie **Matrix** kunt u matrixvisuals (ook wel *tabellen* genoemd) maken in **Power BI Desktop**-rapporten, en elementen in de matrix kruislings markeren met andere visuals. Bovendien kunt u rijen en kolommen selecteren, en zelfs afzonderlijke cellen en kruislings markeren. En ten slotte ondersteunt de matrixvisualisatie ook een getrapte lay-out, om beter gebruik te maken van de lay-outruimte.
 
 ![](media/desktop-matrix-visual/matrix-visual_2a.png)
 
@@ -63,7 +63,7 @@ Wanneer in de visualisatie een groepering is gemaakt in de sectie **Rijen**, wor
 
 ![](media/desktop-matrix-visual/matrix-visual_5.png)
 
-Net als bij het zoom- en uitvouwgedrag in andere visualisaties, kunnen we met die knoppen inzoomen op (of teruggaan door) de hiërarchie. In dit geval kunnen we vanuit *Categorie* inzoomen op *Subcategorie*, zoals getoond in de volgende afbeelding, waar het pictogram voor één niveau inzoomen (de hooivork) is geselecteerd.
+Net als bij het zoom- en uitvouwgedrag in andere visualisaties, kunnen we met die knoppen inzoomen op (of teruggaan door) de hiërarchie. In dit geval kunnen we vanuit *Categorie* inzoomen op *Subcategorie*, zoals weergegeven in de volgende afbeelding, waar het pictogram voor één niveau inzoomen (de hooivork) is geselecteerd.
 
 ![](media/desktop-matrix-visual/matrix-visual_6.png)
 
@@ -71,17 +71,17 @@ U kunt niet alleen die pictogrammen gebruiken, maar ook met de rechtermuisknop o
 
 ![](media/desktop-matrix-visual/matrix-visual_7.png)
 
-Er zijn een aantal opties in het menu dat verschijnt die verschillende resultaten genereren:
+Er zijn enkele opties in het menu dat verschijnt die verschillende resultaten genereren:
 
 Door **Inzoomen** te selecteren wordt de matrix voor *dat* rijniveau uitgevouwen; alle andere rijkoppen worden *uitgesloten*, behalve de rijkop waarop u met de rechtermuisknop hebt geklikt. In de volgende afbeelding is met de rechtermuisknop op *Computers* geklikt en **Inzoomen** geselecteerd. U ziet dat andere rijen op het hoogste niveau niet meer in de matrix worden weergegeven. Dit is een handige functie, zoals u met name zult zin in de sectie over **kruislings markeren**.
 
 ![](media/desktop-matrix-visual/matrix-visual_8.png)
 
-We kunnen op het pictogram **Uitzoomen** klikken om terug te gaan naar de vorige weergave op het hoogste niveau. Als we vervolgens **Volgende niveau weergeven** selecteren in het contextmenu, krijgen we een alfabetische lijst met alle itemselecties op het volgende niveau (in dit geval het veld *Subcategorie*), zonder de hiërarchiecategorisering op het hogere niveau.
+U kunt op het pictogram **Uitzoomen** klikken om terug te gaan naar de vorige weergave op het hoogste niveau. Als u vervolgens **Volgend niveau weergeven** selecteert in het contextmenu, krijgt u een alfabetische lijst met alle items op het volgende niveau (in dit geval het veld *SubCategory*), zonder de hiërarchiecategorisatie op het hogere niveau.
 
 ![](media/desktop-matrix-visual/matrix-visual_8a.png)
 
-Wanneer we op het pictogram **Uitzoomen** in de linkerbovenhoek klikken om alle categorieën op het hoogste niveau weer te geven in de matrix, en vervolgens nogmaals met de rechtermuisknop klikken en **Uitbreiden naar het volgende niveau** kiezen, zien we het volgende:
+Wanneer u op het pictogram **Uitzoomen** in de linkerbovenhoek klikt om alle categorieën op het hoogste niveau weer te geven in de matrix, en vervolgens opnieuw met de rechtermuisknop klikt en **Uitbreiden naar het volgende niveau** kiest, ziet u het volgende:
 
 ![](media/desktop-matrix-visual/matrix-visual_9.png)
 
@@ -96,29 +96,29 @@ Wanneer we in de visualisatie **Matrix** met de rechtermuisknop op een kolom kli
 
 ![](media/desktop-matrix-visual/matrix-visual_11.png)
 
-Wanneer **Inzoomen**  wordt geselecteerd, wordt het volgende niveau van de kolomhiërarchie voor *Deluxe* weergegeven, in dit geval *Kleur*.
+Wanneer u **Inzoomen**  selecteert, wordt het volgende niveau van de kolomhiërarchie voor *Deluxe* weergegeven, in dit geval *Kleur*.
 
 ![](media/desktop-matrix-visual/matrix-visual_12.png)
 
-De rest van de menu-items in het contextmenu werken op kolommen op dezelfde manier als op rijen (Zie de vorige sectie **Inzoomen op rijkoppen**). U kunt het **Volgende niveau weergeven**, **Uitbreiden naar het volgende niveau**, en kolommen **Opnemen** of **Uitsluiten**, net als met rijen.
+De rest van de menu-items in het contextmenu werken voor kolommen op dezelfde manier als voor rijen (zie de vorige sectie **Inzoomen op rijkoppen**). U kunt het **Volgende niveau weergeven**, **Uitbreiden naar het volgende niveau** en kolommen **Opnemen** of **Uitsluiten**, net als met rijen.
 
 > [!NOTE]
-> De pictogrammen voor in- en uitzoomen linksboven in de matrixvisualisatie zijn alleen van toepassing op rijen. Als u wilt inzoomen op kolommen, moet u het contextmenu gebruiken.
+> De pictogrammen voor in- en uitzoomen linksboven in de matrixvisual zijn alleen van toepassing op rijen. Als u wilt inzoomen op kolommen, moet u het contextmenu gebruiken.
 > 
 > 
 
 ## <a name="stepped-layout-with-matrix-visuals"></a>Getrapte indeling met matrixvisualisatie
-In de **Matrix**-visualisatie worden de subcategorieën automatisch ingesprongen in een hiërarchie onder elk bovenliggend item; dit wordt een **getrapte lay-out** genoemd.
+In de visual **Matrix** worden de subcategorieën automatisch ingesprongen in een hiërarchie onder elk bovenliggend item; dit wordt een **indeling met interval** genoemd.
 
-In de *oorspronkelijke* versie van de matrixvisualisatie werden subcategorieën weergegeven in een geheel andere kolom, wat veel meer ruimte kostte in de visualisatie. De volgende afbeelding toont de tabel in oorspronkelijke **matrix**visualisatie; u ziet dat de subcategorieën in een afzonderlijke kolom staan.
+In de *oorspronkelijke* versie van de matrixvisualisatie werden subcategorieën weergegeven in een geheel andere kolom, wat veel meer ruimte kostte in de visualisatie. In de volgende afbeelding wordt de tabel in de oorspronkelijke visual **Matrix** weergegeven; u ziet dat de subcategorieën in een afzonderlijke kolom staan.
 
 ![](media/desktop-matrix-visual/matrix-visual_14.png)
 
-In de volgende afbeelding ziet u een **Matrix**-visualisatie met **getrapte lay-out** in actie. U ziet dat de categorie *Computers* subcategorieën heeft (Computeraccessoires, Desktops, Laptops, Monitors, enzovoort) die enigszins zijn ingesprongen, waardoor de visualisatie er netter en veel compacter uitziet.
+In de volgende afbeelding ziet u de visual **Matrix** met een **indeling met interval** in actie. U ziet dat de categorie *Computers* subcategorieën heeft (Computeraccessoires, Desktops, Laptops, Monitors, enzovoort) die enigszins zijn ingesprongen, waardoor de visualisatie er netter en veel compacter uitziet.
 
 ![](media/desktop-matrix-visual/matrix-visual_13.png)
 
-U kunt de instellingen van de **getrapte lay-out** gemakkelijk aanpassen. Selecteer de **Matrix**-visualisatie en vouw in de sectie **Opmaak** (verfrollerpictogram) van het deelvenster **Visualisaties** de sectie **Rijkoppen** uit. Er zijn twee opties: de wisselknop **Getrapte lay-out** (waarmee u dit in- of uitschakelt), en de **Inspringing voor getrapte lay-out** (hiermee geeft u het aantal ingesprongen pixels op).
+U kunt de instellingen van de indeling met interval gemakkelijk aanpassen. Selecteer de **Matrix**-visualisatie en vouw in de sectie **Opmaak** (verfrollerpictogram) van het deelvenster **Visualisaties** de sectie **Rijkoppen** uit. U hebt twee opties: de wisselknop **Getrapte lay-out** (waarmee u dit in- of uitschakelt) en de **Inspringing voor getrapte lay-out** (hiermee geeft u het aantal ingesprongen pixels op).
 
 ![](media/desktop-matrix-visual/matrix-visual_15.png)
 
@@ -136,21 +136,21 @@ Vouw in de sectie **Opmaak** van het deelvenster **Visualisaties** de kaart **Su
 Hetzelfde geldt voor de kolomsubtotalen.
 
 ## <a name="cross-highlighting-with-matrix-visuals"></a>Kruislings markeren met matrixvisualisaties
-Met de **Matrix**-visualisatie kan elk element in de matrix worden geselecteerd als de basis voor kruislings markeren. Selecteer een kolom in een **Matrix**, en die kolom wordt gemarkeerd, net als andere visualisaties op de rapportpagina. Dit was al een algemene functie van andere visualisaties en de selectie van een gegevenspunt, en nu kan de **Matrix**-visualisatie hieraan deelnemen.
+Met de visual **Matrix** kan elk element in de matrix worden geselecteerd als de basis voor kruislings markeren. Selecteer een kolom in een **Matrix**, en die kolom wordt gemarkeerd, net als andere visualisaties op de rapportpagina. Dit was al een algemene functie van andere visualisaties en gegevenspuntselecties, en nu biedt de **matrix**visualisatie dezelfde functionaliteit.
 
 Bovendien werkt Ctrl+klikken ook voor kruislings markeren. In de volgende afbeelding is bijvoorbeeld een verzameling subcategorieën geselecteerd in de **Matrix**visualisatie. U ziet dat items die niet in de visualisatie zijn geselecteerd, lichter zijn gekleurd, en dat de in de **Matrix**-visualisatie gemaakte selecties worden weerspiegeld in de andere visualisaties op de pagina.
 
 ![](media/desktop-matrix-visual/matrix-visual_16.png)
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>Arcering en tekstkleuren met matrixvisualisaties
-Met de **Matrix**-visualisatie kunt u **voorwaardelijke opmaak** (kleuren en arcering) toepassen op de achtergrond van cellen in de matrix en op de tekst en waarden zelf.
+Met de visual **Matrix** kunt u **voorwaardelijke opmaak** (kleuren en arcering) toepassen op de achtergrond van cellen in de matrix en op de tekst en waarden zelf.
 
 Als u voorwaardelijke opmaak wilt toepassen, kunt u het volgende doen als er een matrixvisualisatie is geselecteerd:
 
 * Klik in het deelvenster **Velden** met de rechtermuisknop op het veld en selecteer **Voorwaardelijke opmaak** in het menu.
   
   ![](media/desktop-matrix-visual/matrix-visual_17.png)
-* Of vouw in het deelvenster **Opmaak** de kaart **Voorwaardelijke opmaak** uit en zet de schuifknop van **Achtergrondkleurschalen** of **Tekstkleurschalen** op **Aan**. Door een van deze in te schakelen wordt een koppeling weergegeven naar *Geavanceerde besturingselementen*, waarmee u de kleuren en waarden voor de kleurenopmaak kunt aanpassen.
+* Of vouw in het deelvenster **Opmaak** de kaart **Voorwaardelijke opmaak** uit en zet de schuifknop van **Achtergrondkleurschalen** of **Tekstkleurschalen** op **Aan**. Door een van deze opties in te schakelen wordt een koppeling weergegeven naar *Geavanceerde besturingselementen*, waarmee u de kleuren en waarden voor de kleurenopmaak kunt aanpassen.
   
   ![](media/desktop-matrix-visual/matrix-visual_18.png)
 

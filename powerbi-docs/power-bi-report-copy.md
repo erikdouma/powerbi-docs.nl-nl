@@ -1,6 +1,6 @@
 ---
-title: Een Power BI-rapport kopiëren
-description: Maak een nieuw Power BI-rapport op basis van een ander rapport.
+title: Een rapport kopiëren in de Power BI-service
+description: Maak een nieuw Power BI-rapport op basis van een ander rapport in de Power BI-service.
 services: powerbi
 documentationcenter: ''
 author: mihart
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/09/2018
+ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: f7b4230a6dc9089008928145863fe70977fb92f4
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: a4f4e394aa4534093858ebfe7738dd7fdb0affd2
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="create-a-new-report-from-an-existing-report"></a>Een nieuw rapport maken van een bestaand rapport
+# <a name="create-a-new-report-from-an-existing-report-copy-a-report"></a>Een nieuw rapport maken van een bestaand rapport (een rapport kopiëren)
 Misschien hebt u een rapport dat al verbinding maakt met uw gegevensset en bevat het rapport enkele visuals die u wilt opnieuw wilt gebruiken of wilt wijzigen.  In dat geval kunt u het rapport gewoon kopiëren als basis voor een nieuw rapport.  Hiervoor gaat u als volgt te werk:
 
 1. [Open een rapport](service-report-open.md).
@@ -47,3 +47,5 @@ Misschien hebt u een rapport dat al verbinding maakt met uw gegevensset en bevat
 [Nieuwe visualisaties maken](power-bi-report-add-visualizations-ii.md)
 
 [Visualisaties verwijderen](service-delete.md) die u niet nodig hebt
+
+[Een rapport maken met Power BI Desktop](desktop-report-view.md)

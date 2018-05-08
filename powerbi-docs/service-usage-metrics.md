@@ -2,28 +2,28 @@
 title: Metrische gegevens over het gebruik van dashboards en rapporten
 description: Metrische gegevens over het gebruik van Power BI-dashboards en -rapporten bekijken, opslaan en gebruiken. Uw invloed meten en vergroten met metrische gegevens over gebruik voor makers van rapporten.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1ad8425917153f2f9662041dc594817857f8f499
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: d12f59f768b98bbc974258592f236176ecf52b3f
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Metrische gegevens over het gebruik van dashboards en rapporten
 Als u dashboards en rapporten maakt, kunnen metrische gegevens over het gebruik u helpen hun invloed te begrijpen. Wanneer u metrische gegevens over het gebruik van dashboards of rapporten uitvoert, ontdekt u hoe deze dashboards en rapporten worden gebruikt binnen uw organisatie; wat wordt gebruikt, door wie en met welk doel.  
@@ -53,7 +53,7 @@ Wanneer u **Metrische gegevens over gebruik** of het pictogram ![Pictogram Metri
 
 Rapporten met metrische gegevens over gebruik worden niet weergegeven in **Recent**, **Werkruimten**, **Favorieten** of andere inhoudslijsten. Ze kunnen niet worden toegevoegd aan een app. Als u een tegel van een rapport met metrische gegevens over gebruik vastmaakt aan een dashboard, kan dat dashboard niet worden toegevoegd aan een app of een inhoudspakket.
 
-Om de rapportgegevens nader te bekijken of om uw eigen rapporten samen te stellen op basis van de gegevensset, gebruikt u **Opslaan als** (zie [Het rapport als een volledig Power BI-rapport opslaan](#save-the-usage-metrics-report-as-a-full-featured-power-bi-report).
+Om de rapportgegevens nader te bekijken of om uw eigen rapporten samen te stellen op basis van de gegevensset, gebruikt u **Opslaan als** (zie [Het rapport als een volledig Power BI-rapport opslaan](#Save-the-Usage-Metrics-report-as-a-full-featured-Power-BI-report-(personalize)).
 
 ## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>Een rapport met metrische gegevens over gebruik voor een dashboard of rapport openen
 1. Begin in de werkruimte die het dashboard of rapport bevat.
@@ -100,7 +100,7 @@ Om de rapportgegevens nader te bekijken of om uw eigen rapporten samen te stelle
 ### <a name="report-usage-metrics-report"></a>Rapport Metrische gegevens over rapportgebruik
 ![Rapport Metrische gegevens over rapportgebruik](media/service-usage-metrics/power-bi-report-usage-metrics-update.png)
 
-## <a name="save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize"></a>Het rapport met metrische gegevens over gebruik rapport opslaan als een volledig Power BI-rapport (aan persoonlijke voorkeuren aanpassen)
+## <a name="save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize"></a>Het rapport met metrische gegevens over gebruik opslaan als een volledig Power BI-rapport (aan persoonlijke voorkeuren aanpassen)
 
 ![Opslaan als](media/service-usage-metrics/power-bi-save-as.png)
 

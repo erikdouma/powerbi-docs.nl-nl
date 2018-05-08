@@ -15,27 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/12/2017
+ms.date: 04/10/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 46f8d11d45423a9f7df96ac4d1e59c5d805304a7
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 23fa4ea28631e7545a1d68cd1f631eb087c56b98
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="using-auditing-within-your-organization"></a>Auditing gebruiken binnen uw organisatie
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zj4kA39jV_4?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 Lees hier meer over de manier waarop u auditing kunt gebruiken met Power BI om uitgevoerde acties te controleren en onderzoeken. U kunt het Beveiligings- en nalevingscentrum of PowerShell gebruiken.
 
 Weten wie welke actie uitvoert op een item in uw Power BI-tenant kan essentieel zijn om uw organisatie te helpen te voldoen aan de vereisten, zoals het voldoen aan regelgeving en archiefbeheer.
 
 U kunt de auditgegevens filteren op datumbereik, gebruiker, dashboard, rapport, gegevensset en soort activiteit. U kunt de activiteiten ook downloaden in een CSV-bestand (bestand met door komma's gescheiden waarden) om de gegevens offline te analyseren.
-
-> [!NOTE]
-> De auditfunctie in Power BI is in preview en is beschikbaar in alle gegevensregio's.
 
 ## <a name="requirements"></a>Vereisten
 U moet aan deze vereisten voldoen voor toegang tot de auditlogboeken:
@@ -47,28 +42,8 @@ U moet aan deze vereisten voldoen voor toegang tot de auditlogboeken:
 
 - Als u wel toegang tot het auditlogboek hebt maar geen algemene beheerder of beheerder van de Power BI-service bent, krijgt u geen toegang tot het beheerportal van Power BI. In dit geval moet u een directe koppeling naar het Beveiligings- en nalevingscentrum van Office 365 ophalen.
 
-## <a name="enabling-auditing-functionality-in-the-power-bi-admin-portal"></a>Auditing inschakelen in de Power BI-beheerportal
-
-U moet auditing inschakelen voor uw organisatie als u met de rapporten wilt werken. U kunt dit doen met de tenantinstellingen in de beheerportal.
-
-1. Selecteer het **tandwiel** in de rechterbovenhoek.
-
-2. Selecteer **Beheerportal**.
-   
-   ![](media/service-admin-auditing/powerbi-admin.png)
-
-3. Selecteer **Tenantinstellingen**.
-   
-   ![](media/service-admin-auditing/powerbi-admin-tenant-settings.png)
-
-4. Schakel **Auditlogboeken voor het controleren van interne activiteiten en naleving maken** in.
-
-5. Selecteer **Toepassen**.
-
-In Power BI worden nu verschillende activiteiten vastgelegd die door uw gebruikers worden uitgevoerd in Power BI. Het duurt 48 uur voordat de logboeken worden weergegeven in de app Beveiliging en compliance van Office 365. Ga naar de sectie [Lijst van activiteiten die worden gecontroleerd door Power BI](#list-of-activities-audited-by-power-bi) voor meer informatie over de activiteiten die worden vastgelegd.
-
 > [!NOTE]
-> Als u auditing wilt inschakelen voor Power BI in uw tenant, moet u ten minste één licentie voor een Exchange-postvak hebben in uw tenant.
+> Als u auditlogboeken voor Power BI in uw tenant wilt weergeven, moet u ten minste één licentie voor een Exchange-postvak hebben in uw tenant.
 
 ## <a name="accessing-your-audit-logs"></a>Auditlogboeken raadplegen
 

@@ -1,29 +1,29 @@
 ---
-title: 'Zelfstudie: tabelvisualisaties in Power BI-rapporten en -dashboards (zelfstudie)'
+title: Tabelvisualisaties in Power BI-rapporten en -dashboards (zelfstudie)
 description: Zelfstudie over het werken met tabelvisualisaties in Power BI-rapporten en -dashboards, met informatie over het aanpassen van de kolombreedte.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d41fd5085912ec74312fa4a4b25060cbd4afba94
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a36e2afcda7c741c871b07c526ab010f77290a3b
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards-tutorial"></a>Werken met tabelvisualisaties in Power BI-rapporten en -dashboards (zelfstudie)
 Een tabel is een raster met gerelateerde gegevens in een logische reeks rijen en kolommen. Het kan ook koppen en een rij voor totalen bevatten. Tabellen werken goed met kwantitatieve vergelijkingen waarbij u veel waarden voor één categorie bekijkt. Deze tabel geeft bijvoorbeeld 5 verschillende eenheden  voor **Categorie** weer.
@@ -69,15 +69,21 @@ Er zijn veel manieren om een tabel op te maken. Hier komen er slechts enkele aan
 
 * Probeer het tabelraster op te maken. Hier hebben we een blauw verticaal raster toegevoegd, ruimte toegevoegd aan de rijen, de omlijning dikker gemaakt en de tekst groter gemaakt.
   
-    ![](media/power-bi-visualization-tables/power-bi-table-grid2-new.png)
+    ![](media/power-bi-visualization-tables/power-bi-table-gridnew.png)
   
     ![](media/power-bi-visualization-tables/power-bi-table-grid3.png)
 * We hebben de achtergrondkleur van de kolomkoppen gewijzigd, omlijning toegevoegd en het lettertype groter gemaakt. 
   
-    ![](media/power-bi-visualization-tables/power-bi-table-column.png)
+    ![](media/power-bi-visualization-tables/power-bi-table-column-headers.png)
+
   
     ![](media/power-bi-visualization-tables/power-bi-table-column2.png)
-* Na een paar extra opmaakstappen, is dit het resultaat. Omdat er zoveel opmaakopties zijn, kunt u het beste beginnen met een normale tabel, het deelvenster Opmaak ![](media/power-bi-visualization-tables/power-bi-format.png) openen, en verschillende opties uitproberen. 
+
+* U kunt zelfs opmaak toepassen op afzonderlijke kolommen en kolomkoppen. Breid om te beginnen **Veldopmaak** uit en selecteer vervolgens de op te maken kolom in de vervolgkeuzelijst. Afhankelijk van de kolomwaarden kunt u met Veldopmaak dingen instellen zoals weergave-eenheden, tekstkleur, aantal decimalen, achtergrond, uitlijning en meer. Nadat u de instellingen hebt aangepast, bepaalt u of u die instellingen zowel op de veldnamenrij als op de totalenrij toepast.
+
+    ![](media/power-bi-visualization-tables/power-bi-field-formatting.png)
+
+* Na een paar extra opmaakstappen, is dit het resultaat. Omdat er zoveel opmaakopties zijn, kunt u het beste beginnen met de standaardopmaak, het deelvenster Opmaak ![](media/power-bi-visualization-tables/power-bi-format.png) openen en verschillende opties proberen. 
   
     ![](media/power-bi-visualization-tables/power-bi-table-format.png)
 

@@ -2,14 +2,14 @@
 title: 'Zelfstudie: Berekende kolommen in Power BI Desktop maken'
 description: 'Zelfstudie: Berekende kolommen in Power BI Desktop maken'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,135 +18,126 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: acdaa95908cd03006170eb06ddfc780c836c64ac
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 526659cfe0631eb9cb43ff6b47729a8a6227ec68
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Zelfstudie: Berekende kolommen in Power BI Desktop maken
-De gegevens die u analyseert bevatten soms niet een bepaald veld dat u nodig hebt om de gewenste resultaten te krijgen. In dergelijke gevallen bieden berekende kolommen uitkomst. Berekende kolommen gebruiken DAX-formules (Data Analysis Expressions) om de waarden in een kolom te definiëren. Die waarden kunnen bijna van alles zijn, of het nu gaat om het samenstellen van tekstwaarden uit een aantal verschillende kolommen elders in het model of om het berekenen van een numerieke waarde op basis van andere waarden. Stel uw gegevens bevatten een kolom Plaats en een kolom Staat (als velden in de lijst Velden), maar u wilt één veld Locatie waarin beide waarden als één waarde zijn opgenomen, zoals Miami, FL. En dat is precies waarvoor berekende kolommen bedoeld zijn.
 
-Berekende kolommen zijn vergelijkbaar met metingen in die zin dat beide gebaseerd zijn op een DAX-formule, maar van elkaar verschillen in de manier waarop ze worden gebruikt. Metingen worden het vaakst gebruikt in het gebied Waarden van een visualisatie om resultaten te berekenen op basis van andere velden in een rij in een tabel of op een as, in een legenda of groep van een visualisatie. Anderzijds worden berekende kolommen gebruikt wanneer u de resultaten van de kolom in die rij in de tabel of op de as, in de legenda of groep wilt.
+De gegevens die u analyseert bevatten soms niet een bepaald veld dat u nodig hebt om de gewenste resultaten te krijgen. In dergelijke gevallen bieden *berekende kolommen* uitkomst. Berekende kolommen gebruiken DAX-formules (Data Analysis Expressions) om waarden voor een kolom te berekenen, alles van het samenbrengen van tekstwaarden uit een aantal verschillende kolommen tot het berekenen van een numerieke waarde op basis van andere waarden. Stel bijvoorbeeld dat uw gegevens de velden **Plaats** en **Staat** bevatten, terwijl u één veld **Locatie** wilt waarin beide waarden als één waarde zijn opgenomen, zoals Miami, FL. En dat is precies waarvoor berekende kolommen bedoeld zijn.
 
-Deze zelfstudie bevat uitleg en een stapsgewijze procedure voor het maken van enkele berekende kolommen in Power BI Desktop. De zelfstudie is bedoeld voor Power BI-gebruikers die al bekend zijn met het gebruik van Power BI Desktop en eraan toe zijn om geavanceerdere modellen te maken. U dient al te weten hoe u Query gebruikt om gegevens te importeren, hoe u werkt met meerdere verwante tabellen en hoe u velden toevoegt aan het rapportcanvas. Raadpleeg [Aan de slag met Power BI Desktop](desktop-getting-started.md) als u nog geen ervaring hebt met het gebruik van Power BI Desktop.
+Berekende kolommen zijn vergelijkbaar met [metingen](desktop-tutorial-create-measures.md) in die zin dat beide gebaseerd zijn op een DAX-formule, maar van elkaar verschillen in de manier waarop ze worden gebruikt. U gebruikt vaak metingen in het gebied **Waarden** van een visualisatie om resultaten op basis van andere velden te berekenen. U gebruikt berekende kolommen als nieuwe **Velden** in de rijen, assen, legenda's en groepsgebieden van visualisaties.
 
-Om de stappen in deze zelfstudie te voltooien, moet u het bestand [Contoso-verkoopvoorbeeld voor Power BI Desktop](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip) downloaden. Dit is hetzelfde voorbeeldbestand dat wordt gebruikt in de zelfstudie [Uw eigen metingen maken in Power BI Desktop](desktop-tutorial-create-measures.md). Het bestand bevat al verkoopgegevens van het fictieve bedrijf Contoso, Inc. Omdat de gegevens in het bestand zijn geïmporteerd uit een database, kunt u geen verbinding maken met de gegevensbron en ook geen gegevens weergeven in Query-editor. Nadat u het bestand hebt gedownload naar uw computer, opent u het in Power BI Desktop.
+Deze zelfstudie bevat uitleg en een stapsgewijze procedure voor het maken van enkele berekende kolommen en het gebruik hiervan in rapportvisualisaties in Power BI Desktop. 
 
-## <a name="lets-create-a-calculated-column"></a>We gaan een berekende kolom maken
-Stel dat we productcategorieën willen weergeven samen met subcategorieën van producten in één enkele waarde in rijen, zoals Mobiele telefoons – accessoires, Mobiele telefoons – smartphones & PDA's, enzovoort. Als we in de Rapport- en Gegevensweergave (we gebruiken hier de Rapportweergave) naar onze producttabellen in de lijst met velden kijken, is er blijkbaar geen veld met informatie die we nodig hebben. We hebben echter wel een veld ProductCategory en een veld ProductSubcategory, elk in hun eigen tabel.
+### <a name="prerequisites"></a>Vereisten
+- Deze zelfstudie is bedoeld voor Power BI-gebruikers die al bekend zijn met het gebruik van Power BI Desktop en eraan toe zijn om geavanceerdere modellen te maken. U dient al te weten hoe u **Gegevens ophalen** en de **Power Query-editor** gebruikt om gegevens te importeren, hoe u werkt met meerdere verwante tabellen en hoe u velden toevoegt aan het rapportcanvas. Raadpleeg [Aan de slag met Power BI Desktop](desktop-getting-started.md) als u nog geen ervaring hebt met het gebruik van Power BI Desktop.
+  
+- In de zelfstudie wordt gebruikgemaakt van het [Contoso-verkoopvoorbeeld voor Power BI Desktop](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip), hetzelfde voorbeeld dat wordt gebruikt voor de zelfstudie [Create your own measures in Power BI Desktop](desktop-tutorial-create-measures.md) (Uw eigen metingen maken in Power BI Desktop). Deze verkoopgegevens van het fictieve bedrijf Contoso, Inc. zijn geïmporteerd uit een database. U kunt daarom geen verbinding maken met de gegevensbron en ook geen gegevens weergeven in de Power Query-editor. Download het bestand en pak het uit op uw computer, en open het vervolgens in Power BI Desktop.
 
- ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_nonewcol.png)
+## <a name="create-a-calculated-column-with-values-from-related-tables"></a>Een berekende kolom maken met waarden uit verwante tabellen
 
-We maken een nieuwe berekende kolom om waarden uit deze twee kolommen te combineren naar nieuwe waarden voor de nieuwe kolom. Opmerkelijk genoeg moeten we gegevens uit twee verschillende tabellen combineren in één kolom. Omdat we DAX gaan gebruiken om de nieuwe kolom te maken, kunnen we gebruikmaken van alle mogelijkheden van het model dat we al hebben, inclusief de relaties tussen verschillende tabellen die al bestaan.
+U wilt in uw verkooprapport productcategorieën en subcategorieën weergeven als enkele waarden, zoals Mobiele telefoons – accessoires, Mobiele telefoons – smartphones & PDA's enzovoort. Er is geen veld in de lijst **Velden** dat u die gegevens biedt, maar er is een veld **ProductCategory** en een veld **ProductSubcategory**, elk in een eigen tabel. U kunt een berekende kolom maken waarin waarden van deze twee kolommen worden gecombineerd. DAX-formules kunnen gebruikmaken van alle mogelijkheden van het model dat u al hebt, inclusief relaties tussen verschillende tabellen die al bestaan. 
 
-### <a name="to-create-a-productfullcategory-column"></a>Een ProductFullCategory-kolom maken
-1.  Klik met de rechtermuisknop op (of klik op de pijl-omlaag bij) de tabel **ProductSubcategory** in de lijst met velden en klik vervolgens op **New Column**. Hiermee zorgt u ervoor dat de nieuwe kolom wordt toegevoegd aan de tabel ProductSubcategory.
+ ![Kolommen in lijst Velden](media/desktop-tutorial-create-calculated-columns/create1.png)
+
+1.  Selecteer het beletselteken (...) voor **Meer opties** of klik met de rechtermuisknop op de tabel **ProductSubcategory** in de lijst Velden en selecteer vervolgens **New Column**. Hiermee maakt u de nieuwe kolom in de tabel ProductSubcategory.
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_newcolumn.png)
+    ![Nieuwe kolom](media/desktop-tutorial-create-calculated-columns/create2.png)
     
-    De formulebalk wordt weergegeven aan de bovenkant van het rapportcanvas of het gegevensraster. Hier kunnen we de naam van de kolom wijzigen en een DAX-formule invoeren.
+    De formulebalk wordt weergegeven bovenaan het rapportcanvas. Hier kunt u de kolom een naam geven en een DAX-formule invoeren.
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_newcolumnformula.png)
+    ![Formulebalk](media/desktop-tutorial-create-calculated-columns/create3.png)
     
-    Een nieuwe berekende kolom heet standaard gewoon Column. Als we de naam niet wijzigen en we een nieuwe kolom maken, krijgt die de naam Column 2, Column 3, enzovoort. We willen de kolommen herkenbaarder maken, dus geven we de nieuwe kolom een nieuwe naam.
+2.  Een nieuwe berekende kolom heet standaard gewoon Column. Als u de naam niet wijzigt, heten de extra nieuwe kolommen Column 2, Column 3 enzovoort. U wilt dat de kolom beter herkenbaar is. Omdat de naam **Column** al is gemarkeerd in de formulebalk, wijzigt u de naam door **ProductFullCategory** te typen. Typ vervolgens een 'is gelijk'-teken (**=**).
     
-2.  Aangezien de naam **Column** al in de formulebalk is gemarkeerd, typt u **ProductFullCategory**.
+3.  U wilt de waarden in de nieuwe kolom laten beginnen met de ProductCategory-naam. Omdat deze kolom in een andere, maar wel verwante tabel staat, kunt u de functie [RELATED](https://msdn.microsoft.com/library/ee634202.aspx) gebruiken.
     
-    Nu kunnen we de formule gaan invoeren. We willen de waarden in de nieuwe kolom laten beginnen met de ProductCategory-naam uit de tabel ProductCategory. Omdat deze kolom in een andere, maar wel gerelateerde tabel staat, gaan we daarvoor de functie [RELATED](https://msdn.microsoft.com/library/ee634202.aspx) gebruiken.
+    Typ na het 'is gelijk'-teken een **r**. Een vervolgkeuzelijst met suggesties bevat alle DAX-functies die beginnen met de letter R. Als u een functie selecteert, wordt een beschrijving van het effect ervan weergegeven. Terwijl u typt, wordt de lijst met suggesties verder beperkt voor de functie die u nodig hebt. Selecteer **RELATED** en druk vervolgens op **Enter**.
     
-3.  Typ na het gelijkteken een **R**. In een vervolgkeuzelijst wordt een lijst met suggesties weergegeven met alle DAX-functies die beginnen met de letter R. Hoe meer u typt, hoe korter de lijst met suggesties wordt. Ga door tot u de gewenste functie hebt gevonden. Naast de functie ziet u een beschrijving van de functie. Selecteer **RELATED** door omlaag te schuiven en druk vervolgens op Enter.
+    ![RELATED kiezen](media/desktop-tutorial-create-calculated-columns/create4.png)
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_pfc_1.png)
+    Er wordt een haakje openen weergegeven, samen met een andere suggestielijst van de verwante kolommen die u aan de RELATED-functie kunt doorgeven, met beschrijvingen en informatie over verwachte parameters. 
     
-    Er wordt een haakje openen weergegeven en een andere lijst met suggesties, ditmaal voor alle beschikbare kolommen die kunnen worden doorgegeven in de functie RELATED. Er wordt ook een beschrijving weergegeven, samen met informatie over welke parameters worden verwacht.
+    ![ProductCategory kiezen](media/desktop-tutorial-create-calculated-columns/create5.png)
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_pfc_2.png)
-    
-    Een expressie wordt altijd wordt weergegeven tussen een haakje openen en een haakje sluiten. In dit geval bevat onze expressie één argument die wordt doorgegeven aan de functie RELATED; een gerelateerde kolom waaruit waarden worden geretourneerd. De lijst met kolommen wordt automatisch verkleind zodat alleen de gerelateerde kolommen worden weergegeven. In dit geval willen we de kolom ProductCategory opnemen in de tabel ProductCategory.
-    
-    Selecteer **ProductCategory[ProductCategory]** en typ een haakje sluiten.
+4.  U wilt de kolom **ProductCategory** uit de tabel **ProductCategory**. Selecteer **ProductCategory[ProductCategory]**, druk op **Enter** en typ een haakje sluiten.
     
     > [!TIP]
-    > Syntaxisfouten zijn meestal te wijten aan een ontbrekend of verkeerd geplaatst haakje sluiten. Maar Power BI Desktop zal dat in veel gevallen automatisch toevoegen, mocht u het vergeten.
-    > 
-    > 
+    > Syntaxisfouten worden meestal veroorzaakt door een ontbrekende of verkeerd geplaatste haakje sluiten, hoewel deze soms door Power BI Desktop wordt toegevoegd.
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_pfc_3.png)
+4. U wilt dat de ProductCategories en ProductSubcategories in de nieuwe waarden door streepjes en spaties worden gescheiden. U typt daarom na het haakje sluiten van de eerste expressie een spatie, en-teken (**&**), dubbel aanhalingsteken (**"**), spatie, streepje (**-**), nog een spatie, nog een dubbel aanhalingsteken en nog een en-teken. De formule moet er nu zo uitzien:
     
-4. We willen een koppeltekensymbool toevoegen om de waarden van elkaar te scheiden. Typ daarom na het haakje sluiten van de eerste expressie een spatie, een en-teken (&), een aanhalingsteken, een spatie, een koppelteken (-), nog een spatie, een aanhalingsteken sluiten en tot slot nog een en-teken. De formule moet er nu zo uitzien:
-    
-    **ProductFullCategory = RELATED(ProductCategory[ProductCategory]) & " - " &**
+    `ProductFullCategory = RELATED(ProductCategory[ProductCategory]) & " - " &`
     
     > [!TIP]
-    > Klik op de dubbele pijl-omlaag rechts van de formulebalk om de formule-editor uit te vouwen. Druk op Alt en Enter om een regel omlaag te gaan en op Tab om items te verplaatsen.
-    > 
-    > 
+    > Als u meer ruimte nodig hebt, selecteert u de dubbele pijl-omlaag rechts van de formulebalk om de formule-editor uit te vouwen. Druk in de editor op **Alt + Enter** om een regel omlaag te gaan en op **Tab** om items te verplaatsen.
     
-5.  Typ tot slot nog een haakje openen en selecteer de kolom **[ProductSubcategory]** om de formule te voltooien. De formule moet er nu zo uitzien:
+5.  Voer een haakje openen (**[**) in en selecteer de kolom **[ProductSubcategory]** om de formule te voltooien. 
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_pfc_5.png)
+    ![ProductSubcategory kiezen](media/desktop-tutorial-create-calculated-columns/create6.png)
     
-    U ziet dat we geen andere RELATED-functie hebben gebruikt in de tweede expressie voor het aanroepen van de kolom ProductSubcategory. Dat komt omdat deze kolom al in dezelfde tabel staat waarin we de nieuwe kolom maken. We kunnen [ProductCategory] invoeren met de tabelnaam (volledig gekwalificeerde naam) of zonder de tabelnaam (niet-gekwalificeerde naam).
+    U hoefde geen andere RELATED-functie te gebruiken om de tabel ProductSubcategory in de tweede expressie aan te roepen, omdat u de berekende kolom in deze tabel maakt. U kunt [ProductSubcategory] invoeren met het tabelnaamvoorvoegsel (volledig gekwalificeerd) of zonder (niet gekwalificeerd).
     
-6.  Voltooi de formule door op Enter te drukken of op het vinkje in de formulebalk te klikken. De formule wordt gevalideerd en toegevoegd aan de lijst met velden in de tabel **ProductSubcategory**.
+6.  Voltooi de formule door op **Enter** te drukken of door het vinkje in de formulebalk te selecteren. De formule wordt gevalideerd en de kolomnaam **ProductFullCategory** wordt weergegeven in de tabel **ProductSubcategory** in de lijst Velden. 
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_pfc_6.png)
+    ![Voltooide ProductFullCategory-kolom](media/desktop-tutorial-create-calculated-columns/create7.png)
     
-    Zoals u ziet, krijgen berekende kolommen een speciaal pictogram in de lijst met velden. Dat geeft aan dat ze een formule bevatten. Zo worden ze alleen in Power BI Desktop weergegeven. Het is in de Power BI-service (uw Power BI-site) niet mogelijk om een formule te wijzigen en daarom heeft een veld met een berekende kolom geen pictogram.
+    >[!NOTE]
+    >In Power BI Desktop krijgen berekende kolommen een speciaal pictogram in de lijst met velden zodat u kunt zien dat ze formules bevatten. Het is in de Power BI-service (uw Power BI-site) niet mogelijk om formules te wijzigen en daarom hebben berekende kolommen geen pictogram.
     
-## <a name="lets-add-our-new-column-to-a-report"></a>Laten we onze nieuwe kolom toevoegen aan een rapport
-We kunnen nu de nieuwe ProductFullCategory-kolom toevoegen aan het rapportcanvas. Laten we SalesAmount bekijken op basis van ProductFullCategory.
+## <a name="use-your-new-column-in-a-report"></a>De nieuwe kolom in een rapport gebruiken
 
-Sleep de kolom **ProductFullCategory** uit de tabel **ProductSubcategory** naar het rapportcanvas en sleep het veld **SalesAmount**uit de tabel **Sales** naar de grafiek.
+U kunt uw nieuwe ProductFullCategory-kolom nu gebruiken om te kijken naar SalesAmount per ProductFullCategory.
 
-![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_report_1.png)
+1. Selecteer of sleep de kolom **ProductFullCategory** uit de tabel **ProductSubcategory** naar het rapportcanvas om een tabel te maken waarin alle ProductFullCategory-namen worden weergegeven.
+   
+   ![ProductFullCategory-tabel](media/desktop-tutorial-create-calculated-columns/vis1.png)
+    
+2. Selecteer of sleep het veld **SalesAmount** uit de tabel **Sales** naar de tabel om de Sales Amount voor elke Product Full Category weer te geven.
+   
+   ![SalesAmount op basis van ProductFullCategory-tabel](media/desktop-tutorial-create-calculated-columns/vis2.png)
+    
+## <a name="create-a-calculated-column-that-uses-an-if-function"></a>Een berekende kolom maken die gebruikmaakt van een IF-functie
 
-## <a name="lets-create-another"></a>Laten we nog een kolom maken
-Nu u weet hoe u een berekende kolom kunt maken, maken we er nog een.
+Het Contoso-verkoopvoorbeeld bevat verkoopgegevens voor zowel actieve als inactieve winkels. U wilt ervoor zorgen dat in het rapport de verkoop van actieve winkels duidelijk wordt gescheiden van de verkoop van inactieve winkels door een veld Active StoreName te maken. In de nieuwe berekende kolom Active StoreName wordt elke actieve winkel weergegeven met de volledige naam van de winkel, terwijl inactieve winkels worden gegroepeerd onder Inactive. 
 
-Het Contoso Sales Sample for Power BI Desktop-model bevat verkoopgegevens voor zowel actieve als inactieve winkels. We willen duidelijk laten zien dat de gegevens voor inactieve winkels ook als zodanig worden aangeduid. Daarom gaan we een veld met de naam Active StoreName maken. Daarvoor maken we een andere kolom. Wanneer, zoals in dit geval, een winkel niet actief is, willen we dat de nieuwe Active StoreName-kolom (als een veld) de naam van de winkel weergeeft als 'Inactief', maar wel de echte naam van de winkel laat zien als deze actief is.
+Gelukkig heeft de tabel Stores een kolom genaamd **Status**, met waarden On voor actieve winkels en Off voor inactieve winkels die we kunnen gebruiken om waarden voor de nieuwe kolom Active StoreName te maken. De DAX-formule gebruikt de logische functie [IF](https://msdn.microsoft.com/library/ee634824.aspx) om de status van elke winkel te testen en om afhankelijk van het resultaat een bepaalde waarde te retourneren. Als de status van een winkel On is, wordt de naam van de winkel door de formule geretourneerd. Als deze Off is, wordt door de formule Inactive als Active StoreName toegewezen. 
 
-Gelukkig heeft de tabel Stores een kolom Status, met de waarde On voor actieve winkels en Off voor inactieve winkels. We kunnen waarden voor elke rij in de kolom Status testen om nieuwe waarden in de nieuwe kolom te maken.
 
-### <a name="to-create-an-active-storename-column"></a>Een Active StoreName-kolom maken
-1.  Maak een nieuwe berekende kolom met de naam **Active StoreName** in de tabel **Stores**.
+1.  Maak een nieuwe berekende kolom in de tabel **Stores** en geef hieraan de naam **Active StoreName** in de formulebalk.
     
-    Voor deze kolom gaat onze DAX-formule de status van elke kolom controleren. Als de status van een winkel On is, wordt de naam van de winkel door de formule geretourneerd. Is de status Off, dan is de naam 'Inactive'. Daarvoor gebruiken we de logische functie [IF](https://msdn.microsoft.com/library/ee634824.aspx) om de winkelstatus te testen en een bepaalde waarde te retourneren als het resultaat waar of onwaar is.
+2.  Begin na het teken **=** met het typen van **IF**. In de lijst met suggesties wordt weergegeven wat u kunt toevoegen. Selecteer **IF**.
     
-2.  Begin **IF** te typen. In de lijst met suggesties wordt weergegeven wat we kunnen toevoegen. Selecteer **IF**.
+    ![IF selecteren](media/desktop-tutorial-create-calculated-columns/if1.png)
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_activestore_1.png)
+3.  Het eerste argument voor IF is een logische test om te kijken of de status van een winkel de waarde On heeft. Typ een haakje openen **[**, waarmee kolommen uit de tabel Stores worden weergegeven, en selecteer **[Status]**.
     
-    Het eerste argument voor IF is een logische test. We willen testen of een winkel de status 'On' heeft.
+    ![Status selecteren](media/desktop-tutorial-create-calculated-columns/if2.png)
     
-3.  Typ een haakje openen **[**, zodat we kolommen uit de tabel Stores kunnen selecteren. Selecteer **[Status]**.
+4.  Typ na **[Status]** direct **="On"** en typ vervolgens een komma (**,**) om het argument te beëindigen. De knopinfo wijst erop dat u nu een waarde moet toevoegen die moet worden geretourneerd wanneer het resultaat TRUE is.
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_activestore_2.png)
+    ![TRUE-waarde toevoegen](media/desktop-tutorial-create-calculated-columns/if3.png)
     
-4.  Direct achter **[Status]** typt u **="On"** en typt u een komma (**,**) om het tweede argument in te voeren. De knopinfo stelt voor de waarde toe te voegen als het resultaat waar is.
+5.  Als de winkel de status On heeft, wilt u de naam van de winkel laten zien. Typ een haakje openen (**[**), selecteer de kolom **[StoreName]** en typ nog een komma. De knopinfo wijst erop dat u nu een waarde moet toevoegen die moet worden geretourneerd wanneer het resultaat FALSE is. 
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_activestore_3.png)
+    ![FALSE-waarde toevoegen](media/desktop-tutorial-create-calculated-columns/if4.png)
     
-5.  Als de winkel de status ’On’ heeft, willen we de naam van de winkel laten zien. Typ een haakje openen **[**, selecteer de kolom **[StoreName]** en typ nog een komma zodat we het derde argument kunnen invoeren.
+6.  De waarde moet *Inactive* zijn, dus typt u **"Inactive"**. Vervolgens voltooit u de formule door op **Enter** te drukken of door het vinkje in de formulebalk te selecteren. De formule wordt gevalideerd en de naam van de nieuwe kolom wordt weergegeven in de tabel **Stores** in de lijst Velden.
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_activestore_step5.png)
+    ![Active StoreName-kolom](media/desktop-tutorial-create-calculated-columns/if5.png)
     
-6.  We moeten een waarde toevoegen voor wanneer het resultaat onwaar is, en in dit geval moet de waarde **‘Inactive’** zijn.
+8.  U kunt de nieuwe Active StoreName-kolom in visualisaties gebruiken, net zoals elk ander veld. Als u SalesAmounts op Active StoreName wilt weergeven, selecteert u het veld **Active StoreName** of sleept u dit naar het canvas en selecteert u vervolgens het veld **SalesAmount** of sleept u dit naar de tabel. In deze tabel worden actieve winkels afzonderlijk weergegeven met de naam, maar inactieve winkels zijn gegroepeerd aan het einde als *Inactive*. 
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_activestore_step6.png)
+    ![SalesAmount op Active StoreName-tabel](media/desktop-tutorial-create-calculated-columns/if6.png)
     
-7.  Voltooi de formule door op Enter te drukken of op het vinkje in de formulebalk te klikken. De formule wordt gevalideerd en toegevoegd aan de lijst met velden in de tabel Stores.
-    
-    We kunnen de nieuwe Active StoreName-kolom in visualisaties gebruiken, net zoals elk ander veld. In dit diagram worden winkels met de status ‘On’ afzonderlijk weergegeven op naam, maar winkels met de status ‘Off’ worden gegroepeerd en weergegeven als ‘Inactive’. 
-    
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_activestore_viz.png)
-    
-## <a name="what-weve-learned"></a>Wat hebben we geleerd
-Berekende kolommen kunnen onze gegevens duidelijker maken. We hebben geleerd hoe berekende kolommen worden gemaakt met behulp van de formulebalk, hoe de lijst met suggesties wordt gebruikt en wat de beste manier is om de nieuwe kolommen een naam te geven.
+## <a name="what-youve-learned"></a>Wat u hebt geleerd
+Berekende kolommen kunnen uw gegevens duidelijker maken. U hebt geleerd hoe u berekende kolommen in de lijst met velden en formulebalk maakt, hoe u suggestielijsten en knopinfo gebruikt bij het maken van formules, hoe u DAX-functies aanroept zoals RELATED en IF met de juiste argumenten en hoe u de berekende kolommen in rapportvisualisaties gebruikt.
 
 ## <a name="next-steps"></a>Volgende stappen
-Zie [Standaard DAX-bewerkingen in Power BI Desktop](desktop-quickstart-learn-dax-basics.md) voor meer informatie over DAX-formules en voor het maken van berekende kolommen met geavanceerdere DAX-formules. Dit artikel is voornamelijk gericht op de grondbeginselen van DAX, zoals de syntaxis en functies. Daarnaast gaan we iets dieper in op het begrip context.
+Zie [Standaard DAX-bewerkingen in Power BI Desktop](desktop-quickstart-learn-dax-basics.md) voor meer informatie over DAX-formules en voor het maken van berekende kolommen met geavanceerdere formules. Dit artikel is voornamelijk gericht op de grondbeginselen van DAX, zoals de syntaxis en functies. Daarnaast gaan we iets dieper in op het begrip context.
 
 Voeg [Naslaginformatie over Data Analysis Expressions (DAX)](https://msdn.microsoft.com/library/gg413422.aspx) toe aan uw favorieten. Hier vindt u gedetailleerde informatie over de syntaxis, operators en meer dan 200 functies van DAX.
 

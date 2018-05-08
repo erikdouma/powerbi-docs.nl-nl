@@ -2,14 +2,14 @@
 title: What if-parameters gebruiken om variabelen in Power BI Desktop te visualiseren
 description: Uw eigen What if-variabele maken om variabelen in Power BI-rapporten voor te stellen en te visualiseren
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,18 +18,18 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5222b6ba99c9e61d1070f66115b90aa29099fd8d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5c6aa2639b8991cd7a9e1527c780bdbe21ad64b9
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>Een What if-parameter maken en gebruiken om variabelen in Power BI Desktop te visualiseren
 Vanaf de release van augustus 2017 van **Power BI Desktop** kunt u **What if**-variabelen voor uw rapporten maken, communiceren met de variabele als een slicer en daardoor verschillende sleutelwaarden in uw rapporten visualiseren en kwantificeren.
 
 ![](media/desktop-what-if/what-if_01.png)
 
-De **What if**-parameter kunt u selecteren op het tabblad **Model maken** van **Power BI Desktop**. Er wordt dan een dialoogvenster weergegeven waarin u de parameter kunt configureren.
+De parameter **What if** bevindt zich op het tabblad **Model maken** van **Power BI Desktop**. Wanneer u deze selecteert, wordt een dialoogvenster weergegeven waarin u de parameter kunt configureren.
 
 ## <a name="creating-a-what-if-parameter"></a>Een What if-parameter maken
 Als u een **What if**-parameter wilt maken, selecteert u de **What if**-knop op het tabblad **Model maken** van **Power BI Desktop**. In de volgende afbeelding hebben we een parameter met de naam *Discount percentage* gemaakt en is het gegevenstype ingesteld op *Decimaal getal*. De *Minimum*waarde is nul, de *Maximum*waarde is 0,50 (50 procent). Bovendien hebben we de *Verhoging* ingesteld op 0,05, ofwel vijf procent. Dat is hoeveel de parameter wordt aangepast bij interactie met een rapport.
@@ -37,7 +37,7 @@ Als u een **What if**-parameter wilt maken, selecteert u de **What if**-knop op 
 ![](media/desktop-what-if/what-if_02.png)
 
 > [!NOTE]
-> Zorg er bij decimale getallen voor dat u deze vooraf laat gaan door een nul, zoals 0,50, dus niet ,50. Anders wordt het getal niet gevalideerd en kan de knop **OK** niet worden geselecteerd.
+> Zorg er bij decimale getallen voor dat u deze vooraf laat gaan door een nul, zoals 0,50, en dus niet ,50. Anders wordt het getal niet gevalideerd en kan de knop **OK** niet worden geselecteerd.
 > 
 > 
 
@@ -49,7 +49,7 @@ Door een **What if**-parameter te maken wordt ook een meting gemaakt, waarmee u 
 
 ![](media/desktop-what-if/what-if_04.png)
 
-Het is belangrijk en handig te weten dat wanneer u een **What if**-parameter maakt, zowel de parameter als de meting deel van het model worden. Ze zijn beschikbaar in het hele rapport en kunnen derhalve op andere rapportpagina’s worden gebruikt. En omdat ze onderdeel van het model zijn, kunt u de slicer verwijderen uit de rapportpagina. Wilt u de slicer terug, dan kunt u de **What if**-parameter gewoon ophalen uit de lijst **Velden** en naar het canvas slepen (wijzig vervolgens de visual in een slicer) om de **What if**-parameter gemakkelijk terug in het rapport te zetten.
+Het is belangrijk en handig te weten dat wanneer u een **What if**-parameter maakt, zowel de parameter als de meting deel van het model worden. Ze zijn beschikbaar in het hele rapport en kunnen derhalve op andere rapportpagina's worden gebruikt. En omdat ze onderdeel van het model zijn, kunt u de slicer verwijderen uit de rapportpagina. Wilt u de slicer terug, dan kunt u de parameter **What if** gewoon ophalen uit de lijst **Velden** en naar het canvas slepen (wijzig vervolgens de visual in een slicer) om de parameter gemakkelijk terug in het rapport te zetten.
 
 ## <a name="using-a-what-if-parameter"></a>Een What if-parameter gebruiken
 Laten we een eenvoudig voorbeeld van het gebruik van een **What if**-parameter maken. In de vorige sectie hebben we de **What if**-parameter gemaakt. We gaan de parameter nu gebruiken door een nieuwe meting te maken waarvan de waarde wordt aangepast met de slicer. Daarvoor maken we een nieuwe meting.

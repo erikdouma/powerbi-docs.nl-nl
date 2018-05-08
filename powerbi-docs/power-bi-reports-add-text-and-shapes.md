@@ -2,31 +2,31 @@
 title: Tekstvakken en vormen in Power BI-rapporten
 description: Documentatie hoe u met de Microsoft Power BI-service tekstvakken en vormen toevoegt aan en maakt in rapporten.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
+backup: ''
+editor: ''
 featuredvideoid: _3q6VEBhGew
-tags: 
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8ce10e5d7b0ea2247655a9f93bfc3534086106f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5e71159e2c7d0cb7439a14bf5d8e082192c4ab7a
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="static-content-in-power-bi-reports"></a>Statische inhoud in Power BI-rapporten
-Er kunnen tekstvakken en vormen aan de rapporten worden toegevoegd met behulp van de Power BI-service en Power BI Desktop. In beide gevallen moet u bewerkingsrechten voor het rapport hebben. Als een rapport met u is gedeeld, hebt u geen toegang tot de bewerkingsweergave. 
+Er kunnen tekstvakken en vormen aan de rapporten worden toegevoegd met behulp van de Power BI-service en Power BI Desktop. In beide gevallen moet u bewerkingsrechten voor het rapport hebben. Als een rapport met u is gedeeld in de Power BI-service, hebt u geen bewerkingsmachtigingen. 
 
 Bekijk hoe Will Power BI Desktop gebruikt om [statistische afbeeldingen aan een rapport toe te voegen](guided-learning/visualizations.yml#step-11) en volg vervolgens de stappen hieronder om het zelf met de Power BI-service te proberen.
 > 

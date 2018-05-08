@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: maghan
-ms.openlocfilehash: c8ad315976dd1ca47d6b4dc2fd9a191a11e044c7
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 5cf1be502267b14075ac6160ce93fce47941d3c2
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Inhoud van de Power BI-werkruimteverzameling migreren naar Power BI Embedded
 Informatie over het migreren van Power BI-werkruimteverzameling naar Power BI Embedded en hoe u gebruikmaakt van ontwikkelingen voor het insluiten van inhoud in apps.
@@ -58,8 +58,7 @@ De volgende accounts moet binnen uw tenant aanwezig zijn.
 
 > [!NOTE]
 > Deze accounts moeten Power BI Pro-licenties hebben om app-werkruimten te kunnen gebruiken.
-> 
-> 
+>
 
 1. Een beheerder van de tenant.
    
@@ -71,10 +70,13 @@ De volgende accounts moet binnen uw tenant aanwezig zijn.
    
     De referenties voor dit account worden opgeslagen op de back-end van de toepassing en gebruikt voor het verkrijgen van een Azure AD-token voor de Power BI REST API's. Dit account wordt gebruikt voor het genereren van een insluittoken voor de toepassing. Dit account moet ook een beheerder zijn van de app-werkruimten die zijn gemaakt voor het insluiten van inhoud.
    
-   > [!NOTE]
-   > Dit is een normaal gebruikersaccount in uw organisatie dat wordt gebruikt voor het insluiten van inhoud.
-   > 
-   > 
+> [!NOTE]
+> Dit is een normaal gebruikersaccount in uw organisatie dat wordt gebruikt voor het insluiten van inhoud.
+>
+
+> [!NOTE]
+> Als tokenverificatie voor alleen apps een vereiste voor uw toepassing is, klikt u [hier](mailto:pbieci@microsoft.com?Subject=App-only%20token%20requirement) om contact met ons op te nemen.
+>
 
 ## <a name="app-registration-and-permissions"></a>Registratie en machtigingen voor de app
 U moet een toepassing in Azure AD registreren en bepaalde machtigingen verlenen.
@@ -126,13 +128,13 @@ In het cachegeheugen opgeslagen gegevenssets verwijzen naar PBIX-bestanden die g
 #### <a name="directquery-dataset--report"></a>DirectQuery-gegevensset en -rapport
 **Stroom**
 
-1. Roep GET aan https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources en sla de verbindingsreeks die u hebt ontvangen op.
+1. Roep GET https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources aan en sla de ontvangen verbindingsreeks op.
 2. Roep de Download PBIX API aan vanuit de PaaS-werkruimte.
 3. Sla de PBIX op.
 4. Roep de Import PBIX aan in de SaaS-werkruimte.
-5. Werk de verbindingsreeks bij door POST https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections aan te roepen
-6. Haal de GW-ID en datasource-ID op door GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources aan te roepen
-7. Werk de referenties van de gebruiker bij door PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id} aan te roepen
+5. Verbindingsreeks bijwerken door aanroepen - POST https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections
+6. GW-id en gegevensbron-id ophalen door aanroepen - GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
+7. Referenties van gebruiker bijwerken door aanroepen - PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}
 
 #### <a name="old-dataset--reports"></a>Oude gegevensset en rapport
 Dit zijn gegevenssets/rapporten die zijn gemaakt vóór oktober 2016. Download PBIX biedt geen ondersteuning voor PBIX-bestanden die vóór oktober 2016 zijn geüpload

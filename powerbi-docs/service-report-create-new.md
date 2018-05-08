@@ -2,35 +2,35 @@
 title: 'Zelfstudie: Een nieuw rapport maken van een gegevensset '
 description: Maak een nieuw Power BI-rapport van een gegevensset.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 7da16deb3e5919d509a5cbbb7fd845914c8c4ea4
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.openlocfilehash: e6c4a614f19a6ba7b9e24c199b7f291e7f57f098
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="create-a-new-power-bi-report-by-importing-a-dataset"></a>Een nieuw Power BI-rapport maken door een gegevensset te importeren
-U hebt [Rapporten in Power BI](service-reports.md) gelezen en u wilt nu uw eigen rapport maken. Er zijn veel verschillende manieren om een rapport te maken. In dit artikel beginnen we met het maken van een zeer eenvoudig rapport vanuit een Excel-gegevensset. Als u de basisbeginselen van het maken van een rapport onder de knie hebt, kunt u met de **Volgende stappen** onderaan verder naar meer geavanceerde onderwerpen over rapporten.  
+# <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>Een nieuw rapport in de Power BI-service maken door een gegevensset te importeren
+U hebt [Rapporten in Power BI](service-reports.md) gelezen en u wilt nu uw eigen rapport maken. Er zijn veel verschillende manieren om een rapport te maken. In dit artikel beginnen we met het maken van een zeer eenvoudig rapport vanuit een Excel-gegevensset met de Power BI-service. Als u de basisbeginselen van het maken van een rapport onder de knie hebt, kunt u met de **Volgende stappen** onderaan verder naar meer geavanceerde onderwerpen over rapporten.  
 
 > **TIP**: zie [Een rapport kopiëren](power-bi-report-copy.md) voor informatie over het maken van een rapport op basis van een bestaand rapport.
 > 
 ### <a name="prerequisites"></a>Vereisten
-- Power BI-service (bekijk [Rapportweergave in Desktop](desktop-report-view.md) om rapporten te maken met Power BI Desktop)   
+- Power BI-service (zie [Rapportweergave in Desktop](desktop-report-view.md) om rapporten te maken met Power BI Desktop)  
 - Gegevensset Voorbeeld van een retailanalyse
 
 ## <a name="import-the-dataset"></a>De gegevensset importeren

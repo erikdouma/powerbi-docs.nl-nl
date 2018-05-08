@@ -2,14 +2,14 @@
 title: Gegevens en records weergeven in visuele elementen in Power BI Desktop
 description: De functies Gegevens weergeven en Records weergeven in Power BI Desktop gebruiken om in te zoomen op details
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,78 +18,81 @@ ms.workload: powerbi
 ms.date: 02/22/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: c44a5140fe40217aac170abb0b351197803b6299
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 507c2e5e6d9f41e3342019cc8f051dd1e11954cc
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>Gegevens weergeven en Records weergeven gebruiken in Power BI Desktop
-In **Power BI Desktop** kunt u inzoomen op de gegevens van een visueel element en ziet u een tekstweergave van de gegevens of afzonderlijke gegevenselementen voor een geselecteerd visueel element. Deze functies worden soms aangeduid met *doorklikken* of *analyse* of *detailanalyse*.
+In **Power BI Desktop** kunt u inzoomen op de gegevens van een visualisatie en ziet u tekstweergaven van de onderliggende gegevens of de afzonderlijke gegevensrecords voor de geselecteerde visual. Deze functies worden soms aangeduid met *doorklikken*, *drillthrough* of *drillthrough naar details*.
 
-Gebruik **Records weergeven** om de onderliggende rijen te bekijken voor een geselecteerd gegevenselement van een visueel element; gebruik **Gegevens weergeven** om een tekstversie te bekijken van de waarden in dat visuele element. Voor het gebruik van **Gegevens weergeven** en **Records weergeven** gelden beperkingen, zoals besproken aan het eind van dit artikel.
+U gebruikt **Gegevens bekijken** om een tekstversie te bekijken van de waarden die worden gebruikt door de geselecteerde visualisatie, of u gebruikt **Records bekijken** om alle gegevens te bekijken voor één geselecteerde record of gegevenspunt. 
 
-![](media/desktop-see-data-see-records/see-data-see-records_1.png)
+![Gegevens bekijken en Records bekijken](media/desktop-see-data-see-records/see-data-record.png)
 
-## <a name="using-see-data-in-power-bi-desktop"></a>Gegevens weergeven gebruiken in Power BI Desktop
-De knop **Gegevens weergeven** bevindt zich op het tabblad **Gegevens/analyseren** in de sectie **Visual Tools** van het lint.
+>[!IMPORTANT]
+>**Gegevens bekijken** en **Records bekijken** ondersteunen alleen de volgende visualisatietypen:
+>  - Staafdiagram
+>  - Kolomdiagram
+>  - Ringdiagram
+>  - Choropletenkaart
+>  - Trechterdiagram
+>  - Kaart
+>  - Cirkeldiagram
+>  - Treemap
 
-![](media/desktop-see-data-see-records/see-data-see-records_2.png)
+## <a name="use-see-data-in-power-bi-desktop"></a>Gegevens bekijken gebruiken in Power BI Desktop
 
-U kunt ook **gegevens weergeven** door met de rechtermuisknop op een visueel element te klikken en **Gegevens weergeven** te selecteren in het menu dat wordt weergegeven.
+Met **Gegevens bekijken** ziet u de onderliggende gegevens van een visualisatie. **Gegevens bekijken** bevindt zich op het tabblad **Gegevens/analyseren** in de sectie **Visual Tools** van het lint wanneer een visualisatie is geselecteerd.
 
-![](media/desktop-see-data-see-records/see-data-see-records_3.png)
+![Gegevens bekijken in het lint](media/desktop-see-data-see-records/see-data1.png)
+
+U kunt de gegevens ook bekijken door met de rechtermuisknop op een visualisatie te klikken en vervolgens **Gegevens weergeven** te selecteren vanuit het menu dat verschijnt, of door het beletselteken (...) voor **Meer opties** in de rechterbovenhoek van een visualisatie te selecteren en vervolgens **Gegevens weergeven** te selecteren.
+
+![Met rechtermuisknop klikken op Gegevens weergeven](media/desktop-see-data-see-records/see-data2.png)&nbsp;&nbsp;![Meer opties van Gegevens weergeven](media/desktop-see-data-see-records/see-data3.png)
 
 > [!NOTE]
-> Houd de muisaanwijzer boven een gegevenspunt in het visuele element, zodat het snelmenu zichtbaar wordt.
-> 
-> 
+> Houd de muisaanwijzer boven een gegevenspunt in de visual, zodat het snelmenu zichtbaar wordt.
 
-Als u **Gegevens weergeven** selecteert, wordt er door **Power BI Desktop** gefocust op het visuele element en de gegevens die u hebt geselecteerd en wordt er ruimte op het canvas vrijgemaakt voor het weergeven van het visuele element en de tekstweergave van de gegevens. Het visuele element wordt weergegeven op het bovenste gedeelte van het canvas; de gegevens wordt weergegeven op de onderste helft, zoals weergegeven in de volgende afbeelding. Dit is de *horizontale* weergave.
+Wanneer u **Gegevens bekijken** of **Gegevens weergeven** selecteert, worden op het Power BI Desktop-canvas zowel de visual element als de tekstweergave van de gegevens weergegeven. De visual wordt in de *horizontale weergave* weergegeven op het bovenste gedeelte van het canvas; de gegevens worden weergegeven op de onderste helft. 
 
-![](media/desktop-see-data-see-records/see-data-see-records_4.png)
+![horizontale weergave](media/desktop-see-data-see-records/see-data4a.png)
 
-U kunt ook overschakelen naar de *verticale weergave* (of terug naar de *horizontale weergave*) door het pictogram in de rechterbovenhoek te selecteren.
+U kunt schakelen tussen de horizontale weergave en een *verticale weergave* door het pictogram in de rechterbovenhoek van het canvas te selecteren.
 
-![](media/desktop-see-data-see-records/see-data-see-records_5.png)
+![verticale weergave in- of uitschakelen](media/desktop-see-data-see-records/see-data4.png)
 
 Als u terug wilt gaan naar het rapport, selecteert u **< Terug naar rapport** in de linkerbovenhoek van het canvas.
 
-![](media/desktop-see-data-see-records/see-data-see-records_6.png)
+![Terug naar rapport](media/desktop-see-data-see-records/see-data5.png)
 
-## <a name="using-see-records-in-power-bi-desktop"></a>Records weergeven gebruiken in Power BI Desktop
-U kunt zich ook focussen op één gegevenselement in een visueel element en inzoomen op de achterliggende gegevens. Zodra een visueel element is geselecteerd, zijn er twee manieren om **Records weergeven** te gebruiken: u kunt op het lint **Gegevens/analyseren** de wisselknop **Records weergeven** inschakelen en vervolgens op een gegevenselement klikken. U kunt ook met de rechtermuisknop op een gegevenselement klikken en **Records weergeven** selecteren in het menu dat verschijnt.
+## <a name="use-see-records-in-power-bi-desktop"></a>Records bekijken gebruiken in Power BI Desktop
 
-![](media/desktop-see-data-see-records/see-data-see-records_7.png)
+U kunt zich ook focussen op één gegevensrecord in een visualisatie en inzoomen op de achterliggende gegevens. Als u **Records bekijken** wilt gebruiken, selecteert u een visualisatie, selecteert u **Records bekijken** op het tabblad **Gegevens/analyseren** in de sectie **Visual Tools** van het lint en selecteert u vervolgens een gegevenspunt of rij van de visualisatie. 
 
-> [!NOTE]
-> Als het geselecteerde visuele element geen ondersteuning biedt voor **Records weergeven**, dan wordt de knop op het lint grijs weergegeven.
-> 
-> 
-
-Zodra **Records weergeven** is geselecteerd, wordt er door **Power BI Desktop** gefocust op dat afzonderlijke gegevenselement en worden op het canvas de gegevens voor dat element weergegeven, zoals weergegeven in de volgende afbeelding.
-
-![](media/desktop-see-data-see-records/see-data-see-records_8.png)
+![Records bekijken in het lint](media/desktop-see-data-see-records/see-record1.png)
 
 > [!NOTE]
-> U kunt wijzigingen in gegevens die worden bekeken in de weergave **Records weergeven** (of door gebruikers worden gewijzigd), niet in een rapport opslaan.
+> Als de knop **Records bekijken** in het lint is uitgeschakeld en niet beschikbaar is, betekent dit dat de geselecteerde visualisatie geen ondersteuning biedt voor **Records bekijken**.
 
-Als u terug wilt gaan naar het rapport, selecteert u de knop **Terug naar rapport** in de linkerbovenhoek van het canvas.
+U kunt ook met de rechtermuisknop op een gegevenselement klikken en **Records bekijken** kiezen in het menu dat verschijnt.
 
-## <a name="limitations"></a>Beperkingen
-Er zijn enkele beperkingen waar u rekening mee moet houden bij het gebruik van **Gegevens weergeven** of **Records weergeven**:
+![Records bekijken door met de rechtermuisknop te klikken](media/desktop-see-data-see-records/see-record2.png)
 
-* Alleen de volgende visuele typen worden ondersteund:
-  * **Balk**
-  * **Kolom**
-  * **Kaart**
-  * **Structuurkaart**
-  * **Choropletenkaart**
-  * **Cirkeldiagram**
-  * **Ringdiagram**
-  * **Trechterdiagram**
-* U kunt **Records weergeven** niet gebruiken als voor het visuele element een berekende meting wordt gebruikt
-* U kunt **Records weergeven** niet gebruiken als u bent verbonden met een live, multidimensionaal model (MD)
+Wanneer u **Records bekijken** voor een gegevenselement selecteert, worden op het Power BI Desktop-canvas alle gegevens weergegeven die zijn gekoppeld aan het geselecteerde element. 
+
+![](media/desktop-see-data-see-records/see-record3.png)
+
+Als u terug wilt gaan naar het rapport, selecteert u **< Terug naar rapport** in de linkerbovenhoek van het canvas.
+
+![](media/desktop-see-data-see-records/see-record4.png)
+
+> [!NOTE]
+>**Records bekijken** heeft de volgende beperkingen:
+> - U kunt de gegevens in de weergave **Records bekijken** niet wijzigen en in het rapport opslaan.
+> - U kunt **Records bekijken** niet gebruiken als voor de visual een berekende meting wordt gebruikt.
+> - U kunt **Records bekijken** niet gebruiken als u bent verbonden met een live, multidimensionaal model (MD).
 
 ## <a name="next-steps"></a>Volgende stappen
 **Power BI Desktop** bevat diverse functies voor gegevensbeheer en het opmaken van rapporten. Bekijk de volgende bronnen voor enkele voorbeelden:

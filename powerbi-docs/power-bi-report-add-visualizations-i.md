@@ -2,31 +2,31 @@
 title: 'Deel 1: visualisaties toevoegen aan een Power BI-rapport (zelfstudie)'
 description: 'Zelfstudie: Deel 1: visualisaties toevoegen aan een Power BI-rapport'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: IkJda4O7oGs
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b81061c25b453fc35e1490c3ded2d9c9770d4599
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b6fdc11b19e130272cf715f4cff58721f46dd6e8
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report-tutorial"></a>Deel 1: visualisaties toevoegen aan een Power BI-rapport (zelfstudie)
-Dit artikel bevat een korte inleiding over het maken van een visualisatie in een rapport.  [Zie deel II](power-bi-report-add-visualizations-ii.md) voor geavanceerdere inhoud. Kijk mee met Amanda, die een aantal verschillende manieren om visuele elementen in het rapportcanvas te maken, bewerken en op te maken laat zien. Probeer deze vervolgens zelf met behulp van het [Voorbeeld van verkoop en marketing](sample-datasets.md) om uw eigen rapport te maken.
+Dit artikel bevat een korte inleiding over het maken van een visualisatie in een rapport met de Power BI-service of Power BI Desktop.  [Zie deel II](power-bi-report-add-visualizations-ii.md) voor geavanceerdere inhoud. Kijk mee met Amanda, die een aantal verschillende manieren om visuele elementen in het rapportcanvas te maken, bewerken en op te maken laat zien. Probeer deze vervolgens zelf met behulp van het [Voorbeeld van verkoop en marketing](sample-datasets.md) om uw eigen rapport te maken.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 

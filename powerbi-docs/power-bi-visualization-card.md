@@ -2,27 +2,27 @@
 title: Kaartvisualisaties (tegels met grote getallen)
 description: Een kaartvisualisatie maken in Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 03/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f38f3bb19be268cba4745c88aa98d09c080c773e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3e30e0f742d97817583ecdfd72df65a8658ec977
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="card-visualizations"></a>Kaartvisualisaties
 Soms is één getal het belangrijkste dat u wilt bijhouden op uw Power BI-dashboard of -rapport, zoals de totale omzet, het marktaandeel jaar na jaar of het totale aantal verkoopkansen. Dit type visualisatie wordt een *kaart* genoemd. Net als bij bijna alle systeemeigen Power BI-visualisaties kunnen kaarten worden gemaakt met behulp van de rapporteditor of Q&A.
@@ -91,6 +91,25 @@ Het vak Q&A is de eenvoudigste manier om een kaart te maken. Het vak Q&A is besc
 - Als u het vak Vraag niet wordt weergegeven, neemt u contact op met de beheerder van uw systeem of tenant.    
 - Als u Desktop gebruikt en op een lege ruimte in een rapport dubbelklikt maar Q&A niet wordt geopend, moet u deze functie mogelijk eerst inschakelen.  Selecteer **Bestand > Opties en instellingen > Opties > Preview-functies > Q&A** en start Desktop opnieuw op.
 
+## <a name="format-a-card"></a>Een kaart opmaken
+U hebt vele opties om de labels, tekst, kleur en meer te wijzigen. De beste manier om dit te leren is door een kaart te maken en naar het opmaakvenster te gaan. Hieronder volgt een aantal beschikbare indelingsopties. 
+
+1. Open het opmaakvenster door het verfkwastpictogram te selecteren. 
+
+    ![](media/power-bi-visualization-card/power-bi-format-card.png)
+2. Vouw **Gegevenslabel** uit en wijzig de kleur, grootte en de lettertypefamilie. Stel, u hebt duizenden winkels. Dan kunt u **Eenheden weergeven** gebruiken om het aantal winkels per duizendtallen weer te geven en de decimaalposities in te stellen. U kunt bijvoorbeeld 125,8K weergeven in plaats van 125.832,00.
+
+3.  Vouw **Gegevenslabel** uit en wijzig de kleur en grootte.
+
+    ![](media/power-bi-visualization-card/power-bi-card-format.png)
+
+4. Vouw **Achtergrond** uit en verplaats de schuifregelaar naar Aan.  U kunt vervolgens de achtergrondkleur en de transparantie instellen.
+
+    ![](media/power-bi-visualization-card/power-bi-format-color.png)
+
+5. Probeer de andere opmaakopties om uw kaart geheel naar wens te maken. 
+
+    ![](media/power-bi-visualization-card/power-bi-formatted.png)
 
 ## <a name="next-steps"></a>Volgende stappen
 [Dashboardtegels in Power BI](service-dashboard-tiles.md)

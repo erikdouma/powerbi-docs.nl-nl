@@ -1,35 +1,39 @@
 ---
-title: Dashboards, dashboardtegels, rapportpagina's en rapportvisualisaties weergeven in de modus Volledig scherm
+title: Dashboards, tegels, rapportpagina's en visualisaties weergeven in de modus Volledig scherm
 description: Geef dashboards, dashboardtegels en rapportvisualisaties weer in de modus Volledig scherm, ook wel de *tv-modus* genoemd.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 23241edc3b7fec6b4cf10c422fc7744268ed2cdc
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 8fc102d7ec13a7d1c18706028d99ecfef9812baf
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="full-screen-mode-in-power-bi"></a>De modus Volledig scherm in Power BI
+# <a name="full-screen-mode-in-power-bi-service"></a>De modus Volledig scherm in de Power BI-service
 ## <a name="what-is-full-screen-mode"></a>Wat is de modus Volledig scherm?
 ![modus Volledig scherm voor dashboard voor en na](media/service-fullscreen-mode/power-bi-full-screen-comparison.png)
 
-Geef uw inhoud (dashboards, rapportpagina's, tegels en visualisaties) weer zonder de afleiding van menu's en navigatiebalken.  U kunt uw tegel zonder andere storende factoren weergeven op het volledige scherm. Dit wordt ook wel de tv-modus genoemd. Welke functionaliteit beschikbaar is in de modus Volledig scherm, is afhankelijk van de inhoud.  
+Geef uw Power BI-inhoud (dashboards, rapportpagina's, tegels en visualisaties) weer zonder de afleiding van menu's en navigatiebalken.  U kunt uw tegel zonder andere storende factoren weergeven op het volledige scherm. Dit wordt ook wel de tv-modus genoemd. Welke functionaliteit beschikbaar is in de modus Volledig scherm, is afhankelijk van de inhoud. 
+
+Als u Power BI mobiel gebruikt, [is de modus Volledig scherm beschikbaar voor Windows 10 Mobile-apps](mobile-windows-10-app-presentation-mode.md). Power BI Desktop beschikt niet over een modus Volledig scherm voor rapporten of visualisaties, maar heeft wel de optie Passend op pagina voor de [relatieweergave](desktop-report-view.md) en de [focusmodus voor rapportvisuals](service-focus-mode.md).
+
+ 
 
 Enkele gebruikstoepassingen voor de modus Volledig scherm zijn:
 

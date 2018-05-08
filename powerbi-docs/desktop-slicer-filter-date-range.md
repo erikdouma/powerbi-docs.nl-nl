@@ -2,14 +2,14 @@
 title: Een relatieve datumslicer of -filter in Power BI Desktop gebruiken
 description: Informatie over het gebruik van een slicer of filter om relatieve datumbereiken te beperken in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,19 +18,19 @@ ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0432998e44cdb1bf95a41225b73d805ec2a2379f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 668c26cb2c2f6cda669280b2541fb5ccf8a44f27
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>Een relatieve datumslicer en -filter in Power BI Desktop gebruiken
-Met de **relatieve datumslicer** of het **relatieve datumfilter** kunt u tijdgebaseerde filters toepassen op een datumkolom in het gegevensmodel. U kunt bijvoorbeeld de **relatieve datumslicer** gebruiken om alleen gegevens weer te geven over verkopen die hebben plaatsgevonden in de afgelopen 30 dagen (of maand of kalendermaanden, enzovoort). En wanneer u de gegevens vernieuwt, wordt de juiste relatieve datumbeperking automatisch toegepast door de relatieve periode.
+Met de **relatieve datumslicer** of het **relatieve datumfilter** kunt u tijdgebaseerde filters toepassen op een datumkolom in het gegevensmodel. U kunt bijvoorbeeld de **relatieve datumslicer** gebruiken om alleen gegevens weer te geven over verkopen die hebben plaatsgevonden in de afgelopen 30 dagen (of maand, kalendermaanden enzovoort). En wanneer u de gegevens vernieuwt, wordt de juiste relatieve datumbeperking automatisch toegepast door de relatieve periode.
 
 ![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_01.png)
 
 ## <a name="using-the-relative-date-range-slicer"></a>De relatieve datumbereikslicer gebruiken
-U kunt de relatieve datumslicer net als elke andere slicer gebruiken. Maak eenvoudig een visueel **slicer**-element voor uw rapport en selecteer vervolgens een datumwaarde voor de waarde **Veld**. Op de volgende afbeelding is *OrderDate* geselecteerd.
+U kunt de relatieve datumslicer net als elke andere slicer gebruiken. Maak eenvoudig een **slicer**-visual voor uw rapport en selecteer vervolgens een datumwaarde voor de waarde **Veld**. Op de volgende afbeelding is *OrderDate* geselecteerd.
 
 ![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_02.png)
 
@@ -40,7 +40,7 @@ Selecteer het dakje in de rechterbovenhoek van de **relatieve datumslicer**. Er 
 
 Selecteer *Relatief* voor de relatieve datumslicer.
 
-Vervolgens kunt u de instellingen selecteren. Voor de eerste vervolgkeuzelijst in de *relatieve datumslicer* kunt u een keuze maken uit de volgende opties:
+Vervolgens kunt u de instellingen selecteren. Voor de eerste vervolgkeuzelijst in de *relatieve datumslicer* hebt u de volgende opties:
 
 * Laatste
 * Volgende
@@ -52,7 +52,7 @@ Deze selecties worden weergegeven op de volgende afbeelding.
 
 Voor de volgende (middelste) instelling in de *relatieve datumslicer* kunt u een getal invoeren om het relatieve datumbereik te definiëren.
 
-Voor de derde instelling kunt u de datummeetwaarde selecteren en kunt u kiezen uit de volgende opties:
+Met de derde instelling kunt u de datummeting kiezen. U hebt de volgende opties:
 
 * Dagen
 * Weken
@@ -66,7 +66,7 @@ Deze selecties worden weergegeven op de volgende afbeelding.
 
 ![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_05.png)
 
-Een voorbeeld: u selecteert *Maanden* in die lijst en voert 2 in voor de middelste instelling. Het volgende gebeurt: als het vandaag 20 juli is, geven de gegevens die zijn opgenomen in de visuele elementen en worden beperkt door de slicer gegevens weer voor de vorige twee maanden, vanaf 20 mei tot 20 juli (de datum van vandaag).
+Als u *Maanden* in die lijst selecteert en 2 opgeeft in de middelste instelling, gebeurt het volgende: als het vandaag 20 juli is, geven de gegevens die zijn opgenomen in de visuals en worden beperkt door de slicer gegevens weer voor de vorige twee maanden, vanaf 20 mei tot 20 juli (de datum van vandaag).
 
 Ter vergelijking: als u *Maanden (kalender)* hebt geselecteerd, geven de visuele elementen die worden beperkt gegevens weer van 1 mei tot en met 30 juni (de laatste twee volledige kalendermaanden).
 
@@ -75,7 +75,7 @@ U kunt ook een relatief datumbereikfilter voor uw rapportpagina of het hele rapp
 
 ![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_06.png)
 
-Zodra dit zich daar bevindt, kunt u het relatieve datumbereik op dezelfde manier wijzigen als hoe u de **relatieve datumslicer** hebt aangepast. Selecteer **Relatieve datumfilter** in de vervolgkeuzelijst **Filtertype**.
+Zodra dit zich daar bevindt, kunt u het relatieve datumbereik op dezelfde manier wijzigen als waarop u de **relatieve datumslicer** hebt aangepast. Selecteer **Relatieve datumfilter** in de vervolgkeuzelijst **Filtertype**.
 
 ![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_07.png)
 
