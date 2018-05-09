@@ -2,14 +2,14 @@
 title: Ondersteunde browsers voor Power BI
 description: Een lijst bekijken met browsers die in Power BI worden ondersteund
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article

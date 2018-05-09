@@ -2,12 +2,12 @@
 title: Classificatie van dashboardgegevens
 description: Hier leest u alles over de classificatie van dashboardgegevens, onder andere hoe een beheerder dit instelt en hoe de eigenaar van een dashboard de classificatie kan aanpassen.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: amandacofsky
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: complete
 qualitydate: 03/15/2016
 ms.service: powerbi

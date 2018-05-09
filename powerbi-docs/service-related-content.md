@@ -2,15 +2,15 @@
 title: Gerelateerde inhoud in Power BI-service bekijken
 description: Navigatie eenvoudiger gemaakt, gerelateerde content bekijken in dashboards, rapporten en gegevenssets
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: B2vd4MQrz4M
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

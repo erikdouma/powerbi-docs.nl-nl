@@ -2,14 +2,14 @@
 title: Uw gegevens optimaliseren voor snelle inzichten van Power BI
 description: 'Optimaliseer uw gegevens voor snelle inzichten van Power BI. Als Power BI geen inzichten in uw gegevens vindt, kunt u onder andere het volgende doen:'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

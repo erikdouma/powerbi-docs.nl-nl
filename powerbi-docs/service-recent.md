@@ -2,15 +2,15 @@
 title: Recent bezochte inhoud weergeven in Power BI
 description: Documentatie over recente geopende inhoud in Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: G26dr2PsEpk
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

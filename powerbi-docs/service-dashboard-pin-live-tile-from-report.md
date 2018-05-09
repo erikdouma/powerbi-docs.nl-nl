@@ -2,15 +2,15 @@
 title: 'Een volledige rapportpagina vastmaken aan een Power BI-dashboard '
 description: Documentatie over het vastmaken van een volledige live-rapportpagina aan een Power BI-dashboard vanuit een rapport.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

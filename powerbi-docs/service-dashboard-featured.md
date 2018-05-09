@@ -2,15 +2,15 @@
 title: Aanbevolen dashboards in Power BI
 description: Documentatie over het maken van een aanbevolen dashboard in de Power BI-service
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: G26dr2PsEpk
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -2,13 +2,13 @@
 title: Rapport filteren op geografische locatie in een mobiele Power BI-app
 description: Leer hoe u een rapport kunt filteren op uw geografische locatie in de mobiele Microsoft Power BI-apps, als de rapporteigenaar geografische labels heeft ingesteld.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

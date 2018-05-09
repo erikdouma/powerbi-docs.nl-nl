@@ -2,15 +2,15 @@
 title: De interactie tussen visuals in een rapport wijzigen
 description: Documentatie voor het instellen van Visuele interacties in een Microsoft Power BI-rapport en een Power BI Desktop-rapport.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: N_xYsCbyHPw
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

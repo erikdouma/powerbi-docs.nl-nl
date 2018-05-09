@@ -2,14 +2,14 @@
 title: De verlengde proefperiode voor Pro activeren
 description: Vanaf 1 juni 2017 kunnen alle in aanmerking komende gebruikers zich aanmelden voor de verlengde Pro-proefversie voor de Power BI-service.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

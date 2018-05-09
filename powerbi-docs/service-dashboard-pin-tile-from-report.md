@@ -2,15 +2,15 @@
 title: Vanuit een rapport een tegel vastmaken aan een Power BI-dashboard
 description: Maak vanuit een rapport een tegel vast aan een Power BI-dashboard.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: lJKgWnvl6bQ
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

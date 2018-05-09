@@ -2,15 +2,15 @@
 title: Favorieten in Power BI-service (dashboards, rapporten, apps)
 description: Documentatie over het instellen van dashboards, rapporten en apps als favorieten in Power BI-service
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
+backup: ''
+editor: ''
 featuredvideoid: G26dr2PsEpk
-tags: 
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

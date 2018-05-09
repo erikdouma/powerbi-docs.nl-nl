@@ -2,14 +2,14 @@
 title: Statistische functies (som, gemiddelde, maximum, enzovoort) in visualisaties
 description: De aggregatie in een grafiek (som, gemiddelde, maximum, enz.) in Power BI wijzigen
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: modifying
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

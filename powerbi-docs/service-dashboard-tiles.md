@@ -2,13 +2,13 @@
 title: Dashboardtegels in Power BI-service
 description: Alle informatie over dashboardtegels in Power BI. Hiertoe behoren tegels die zijn gemaakt vanuit SQL Server Reporting Services (SSRS).
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
 qualitydate: 03/15/2016
 ms.service: powerbi
 ms.devlang: NA

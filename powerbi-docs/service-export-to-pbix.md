@@ -2,14 +2,14 @@
 title: Een rapport uit Power BI-service exporteren naar Desktop (preview-versie)
 description: Een rapport van de Power BI-service downloaden naar een Power BI Desktop-bestand
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

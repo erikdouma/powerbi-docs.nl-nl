@@ -2,13 +2,13 @@
 title: Interactie met een ArcGIS-kaart die met u is gedeeld
 description: 'ArcGIS-kaart gebruiken in de leesweergave '
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
+backup: ''
+editor: ''
 tags: power bi, service, desktop, mobile
-featuredvideoid: 
+featuredvideoid: ''
 qualityfocus: monitoring
 qualitydate: 06/23/2017
 ms.service: powerbi

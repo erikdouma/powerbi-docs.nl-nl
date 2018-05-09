@@ -2,15 +2,15 @@
 title: Automatisch gegevensinzichten genereren met Power BI
 description: Meer informatie over het verkrijgen van inzicht in uw gegevenssets en dashboardtegels.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: et_MLSL2sA8
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

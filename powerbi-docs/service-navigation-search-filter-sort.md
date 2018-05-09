@@ -2,14 +2,14 @@
 title: Uw inhoud zoeken en sorteren in de Power BI-service
 description: documentatie voor sorteren en het sorteren van inhoud in Power BI-werkruimten
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -2,14 +2,14 @@
 title: Het deelvenster Analyse in de Power BI-service
 description: Dynamische referentielijnen maken voor visuals in de Power BI-service
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

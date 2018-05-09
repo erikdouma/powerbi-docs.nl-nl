@@ -2,14 +2,14 @@
 title: 'Service van derden: Facebook-connector voor Power BI Desktop'
 description: 'Service van derden: Facebook-connector voor Power BI Desktop'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

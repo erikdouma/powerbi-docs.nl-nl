@@ -2,14 +2,14 @@
 title: Een dashboard vastmaken aan het Windows 10-startscherm - mobiele Power BI-app
 description: Ontdek hoe u een Power BI-dashboard kunt vastmaken aan het startscherm van Windows 10 vanuit de mobiele Power BI-app, zodat u belangrijke metrische gegevens in een oogopslag kunt zien.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

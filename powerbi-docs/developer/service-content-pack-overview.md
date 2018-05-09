@@ -2,14 +2,14 @@
 title: Overzicht van het programma voor inhoudspakketten van de Power BI-service
 description: Certificeringsprogramma voor inhoudspakketten
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

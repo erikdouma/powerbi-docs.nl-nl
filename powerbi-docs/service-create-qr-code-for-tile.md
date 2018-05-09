@@ -2,14 +2,14 @@
 title: Een QR-code voor een tegel maken voor gebruik in de mobiele Power BI-apps
 description: QR-codes in Power BI kunnen alles in de praktijk rechtstreeks verbinden met gerelateerde BI-gegevens in de mobiele Power BI-app, zonder zoekopdrachten.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

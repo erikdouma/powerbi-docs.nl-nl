@@ -2,14 +2,14 @@
 title: Aangepaste visuals maken met ontwikkelhulpprogramma's
 description: Met aangepaste visuals kunt voldoen aan de behoeften van uw gebruikers en het ontwerp van uw app handhaven. Leer hoe u ontwikkelhulpprogramma's kunt gebruiken om aangepaste visuals voor Power BI te maken.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

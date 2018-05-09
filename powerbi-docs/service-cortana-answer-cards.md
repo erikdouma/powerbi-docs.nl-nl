@@ -2,14 +2,14 @@
 title: Aangepaste Power BI-antwoordpagina's maken voor Cortana
 description: Aangepaste antwoordpagina's voor Cortana maken in Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: yaron
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

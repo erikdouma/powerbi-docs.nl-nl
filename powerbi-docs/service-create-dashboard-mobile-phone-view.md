@@ -2,14 +2,14 @@
 title: Een weergave voor mobiele telefoons maken van een Power BI-dashboard
 description: Leer hoe u een aangepaste weergave van een dashboard in de Power BI-service maakt die specifiek is bedoeld voor weergave op mobiele telefoons.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

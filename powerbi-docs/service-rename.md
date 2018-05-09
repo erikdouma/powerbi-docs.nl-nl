@@ -2,14 +2,14 @@
 title: Namen van dashboards, rapporten, werkruimten, rapportpagina's, gegevenssets wijzigen
 description: In de Power BI-service kunt u van vrijwel alles de naam wijzigen.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

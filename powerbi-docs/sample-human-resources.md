@@ -2,14 +2,14 @@
 title: 'Voorbeeld van human resources: rondleiding'
 description: 'Voorbeeld van human resources voor Power BI: rondleiding'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

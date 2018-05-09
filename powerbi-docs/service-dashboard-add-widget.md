@@ -2,15 +2,15 @@
 title: Afbeeldingen, tekst, video en streaminggegevens toevoegen aan uw dashboard
 description: Hier leest u hoe u met de widget Tegel toevoegen een afbeelding, video, tekstvak, webcode en streaminggegevens toevoegt aan een dashboard.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: e2PD8m1Q0vU
 qualityfocus: identified
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -2,14 +2,14 @@
 title: De gegevens weergeven die zijn gebruikt voor het maken van de Power BI-visualisatie
 description: In dit document wordt uitgelegd hoe u de gegevens die zijn gebruikt voor het maken van een visueel element in Power BI kunt weergegeven en hoe u die gegevens exporteert naar een CSV-bestand.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -2,12 +2,12 @@
 title: Wat is een Power BI-dashboard?
 description: Dashboards zijn een belangrijke functie van de Power BI-service.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 04/05/2017
 ms.service: powerbi

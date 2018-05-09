@@ -2,15 +2,15 @@
 title: Een afbeelding toevoegen aan een Power BI-dashboard
 description: Documentatie over hoe u een afbeelding kunt toevoegen aan een Power BI-dashboard.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

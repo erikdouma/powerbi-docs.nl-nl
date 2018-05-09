@@ -2,13 +2,13 @@
 title: Geografische filters in Power BI Desktop instellen voor de mobiele apps
 description: Als u geografische filters in het model in Power BI Desktop instelt, kunt u gegevens voor uw locatie automatisch filteren in de mobiele Power BI-apps.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

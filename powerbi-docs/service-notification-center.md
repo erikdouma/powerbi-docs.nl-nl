@@ -1,16 +1,16 @@
 ---
 title: Meldingencentrum van Power BI
-description: "Het meldingencentrum is een sequentiële feed met informatie over uw Power BI-ervaring."
+description: Het meldingencentrum is een sequentiële feed met informatie over uw Power BI-ervaring.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: bZMSv5KAlcE
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

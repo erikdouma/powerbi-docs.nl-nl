@@ -2,14 +2,14 @@
 title: De referenties voor het Xero-inhoudspakket vernieuwen
 description: Als u het Xero Power BI-inhoudspakket gebruikt, hebt u mogelijk problemen ondervonden met het dagelijkse vernieuwen van het inhoudspakket vanwege een recent service-incident met Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -2,14 +2,14 @@
 title: Rapporten maken die zijn geoptimaliseerd voor de mobiele Power BI-apps
 description: Informatie over het optimaliseren van rapportpagina's in Power BI Desktop voor de mobiele Power BI-apps.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -2,14 +2,14 @@
 title: 10 tips voor hulp bij uw vragen over Power BI
 description: Hier zijn 10 manieren om hulp te krijgen wanneer u een vraag hebt over Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article

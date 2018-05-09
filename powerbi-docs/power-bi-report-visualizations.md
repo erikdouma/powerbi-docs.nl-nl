@@ -2,15 +2,15 @@
 title: Overzicht van rapportvisualisaties in Power BI-service en Power BI Desktop
 description: Overzicht van rapportvisualisaties (visuals) in Microsoft Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: SYk_gWrtKvM
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

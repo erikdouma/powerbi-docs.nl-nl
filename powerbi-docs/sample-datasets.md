@@ -2,12 +2,12 @@
 title: Een rondleiding volgen van de beschikbare Power BI-voorbeelden
 description: Voorbeelden van inhoudspakketten, PBIX-bestanden en Excel gegevenssets voor Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 03/05/2017
 ms.service: powerbi

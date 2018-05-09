@@ -1,15 +1,15 @@
 ---
 title: Pagina's opnieuw ordenen in een rapport in Power BI
-description: "Pagina’s in een rapport in de Power BI-service en Power BI Desktop opnieuw rangschikken"
+description: Pagina’s in een rapport in de Power BI-service en Power BI Desktop opnieuw rangschikken
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
