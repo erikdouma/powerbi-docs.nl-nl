@@ -11,18 +11,18 @@ tags: ''
 qualityfocus: ''
 qualitydate: ''
 ms.service: powerbi
+ms.component: powerbi-service
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
-ms.workload: powerbi
 ms.date: 01/18/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 814c4a4274b5f2e022074454ce5460d13a20f1e2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: c48e118a6708cae901a01d1956b6a3d0ea6c0561
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="qa-in-power-bi-service-and-power-bi-desktop"></a>Q&A in Power BI-service en Power BI Desktop
 ## <a name="what-is-qa"></a>Wat is Q&A?
@@ -86,4 +86,4 @@ Zie [Tips voor het stellen van vragen](service-q-and-a-tips.md) voor informatie 
 
 [Ervoor zorgen dat uw gegevens goed werken met Q&A](service-prepare-data-for-q-and-a.md): als u de persoon bent die de gegevenssets en gegevensmodellen maakt,  is dit onderwerp bedoelt voor u.
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
