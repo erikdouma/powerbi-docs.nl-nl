@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 4/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b5da2bf43f2d38e0828571e2b9d404feb615ac69
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 7be260a5989ffb6a9dc1b72dad90d227e0b6295b
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Drillthrough gebruiken in Power BI Desktop
 Met **drillthrough** in **Power BI Desktop** kunt u een pagina in uw rapport maken die zich op een bepaalde entiteit richt, zoals een leverancier, klant of fabrikant. Met die specifieke rapportpagina kunnen gebruikers met de rechtermuisknop op een gegevenspunt in andere rapportpagina's klikken en inzoomen op die specifieke pagina voor gefilterde details met betrekking tot die context.
@@ -45,8 +45,8 @@ Met **drillthrough** in **Power BI Desktop** kunt u een pagina in uw rapport mak
 ## <a name="use-your-own-image-for-a-back-button"></a>Uw eigen afbeelding gebruiken voor een knop Terug    
  Omdat de knop Terug een afbeelding is, kunt u deze vervangen door een andere afbeelding naar keuze. De knop werkt dan nog steeds als knop Terug om gebruikers van het rapport te laten terugkeren naar de oorspronkelijke pagina.
 
-1. Voor het gebruik van uw eigen afbeelding voor een knop Terug plaatst u een afbeeldingsvisual op de drillthrough-pagina.
-2. Selecteer de visual en stel de schuifregelaar voor **de knop Terug** in op aan. De afbeelding fungeert nu als een knop Terug.
+1. Klik op het tabblad **Start** op **Afbeelding**, zoek uw afbeelding en plaats deze op de pagina Drillthrough.
+2. Selecteer de nieuwe afbeelding op de pagina Drillthrough. Activeer de schuifknop **Koppeling** in de sectie Afbeelding opmaken en stel het **Type** in op **Terug**. De afbeelding fungeert nu als een knop Terug.
 
     ![](media/desktop-drillthrough/drillthrough_05.png)
 
