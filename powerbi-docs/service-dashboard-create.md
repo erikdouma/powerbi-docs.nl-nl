@@ -1,16 +1,16 @@
 ---
-title: Snelstartgids - Een Power BI-dashboard maken op basis van een rapport
+title: Een Power BI-dashboard maken op basis van een rapport
 description: Een Power BI-dashboard maken op basis van een rapport
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 33e003c4e45cf851dbdf2bc602807a57d1ba49af
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: e995795496612d8eb8561cacd8bb4d31e1db394b
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Een Power BI-dashboard maken op basis van een rapport
 U hebt [Dashboards in Power BI](service-dashboards.md) gelezen en u wilt nu uw eigen dashboard maken. Er zijn veel verschillende manieren om een dashboard te maken: op basis van een rapport, helemaal vanaf het begin, op basis van een gegevensset, door een bestaand dashboard te dupliceren, en meer.  
@@ -36,7 +36,7 @@ Het maken van een dashboard is een functie die beschikbaar is voor **Makers** en
 >
 > 
 
-![Dashboard](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
+![dashboard](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
 
 ## <a name="video-create-a-dashboard-by-pinning-visuals-and-images-from-a-report"></a>Video: Een dashboard maken door visualisaties en afbeeldingen van een rapport vast te maken
 Kijk hoe Amanda een nieuw dashboard maakt door visualisaties van een rapport vast te maken. Probeer het vervolgens zelf uit door de stappen onder de video te volgen met behulp van het voorbeeld van een Inkoopanalyse.
@@ -109,7 +109,7 @@ U kunt [een hele rapportpagina vastmaken als *live-tegel*](service-dashboard-pin
 
 4. Wanneer het bericht verschijnt dat de bewerking is voltooid, selecteert u **Naar dashboard gaan**. Daar ziet u de tegels die u uit het rapport hebt vastgemaakt. In het onderstaande voorbeeld hebben we 2 tegels van pagina 1 van het rapport vastgemaakt en 1 live-tegel van pagina 2 van het rapport.
 
-   ![Dashboard](media/service-dashboard-create/power-bi-dashboard.png)
+   ![dashboard](media/service-dashboard-create/power-bi-dashboard.png)
 
 Gefeliciteerd, u hebt uw eerste dashboard gemaakt! Nu u een dashboard hebt, kunt u er nog veel meer mee doen.  Probeer een van de voorgestelde **Volgende stappen** hieronder, of ga er zelf mee spelen en verkennen.   
 

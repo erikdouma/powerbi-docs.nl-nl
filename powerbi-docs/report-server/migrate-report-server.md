@@ -2,14 +2,14 @@
 title: Een rapportserverinstallatie migreren
 description: Leer hoe u uw exemplaar van SQL Server Reporting Services migreert naar een exemplaar van Power BI-rapportserver.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/05/2017
 ms.author: maghan
-ms.openlocfilehash: 67fe876bb9de92cc7f4c0c140f7c016f01216cdd
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 9983956ccb33cc9c45fd1ac316fb74d07eb3acf5
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="migrate-a-report-server-installation"></a>Een rapportserverinstallatie migreren
 Leer hoe u een exemplaar van SQL Server Reporting Services migreert naar een exemplaar van Power BI Report Server.
@@ -107,7 +107,7 @@ Het proces voor de migratie van het ene naar een ander exemplaar van Power BI Re
 
 ## <a name="next-steps"></a>Volgende stappen
 [Beheerdershandboek](admin-handbook-overview.md)  
-[Snelstartgids: Power BI Report Server installeren](quickstart-install-report-server.md)  
+[Power BI Report Server installeren](install-report-server.md)  
 [Script met het hulpprogramma rs.exe en de webservice](https://docs.microsoft.com/sql/reporting-services/tools/script-with-the-rs-exe-utility-and-the-web-service)
 
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

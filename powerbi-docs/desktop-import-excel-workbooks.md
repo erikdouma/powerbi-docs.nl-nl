@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 247b8dca825f3e98de02207ba6d146e1aacd7580
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: e8937efdc646d38942ffc7f0b216103fdcf053cb
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="import-excel-workbooks-into-power-bi-desktop"></a>Excel-werkmappen in Power BI Desktop importeren
 Met **Power BI Desktop** kunt u eenvoudig Excel-werkmappen met Power Query-query's, Power Pivot-modellen en Power View-werkbladen in Power BI Desktop importeren. Er worden automatisch rapporten en visualisaties gemaakt op basis van de Excel-werkmap, en wanneer ze eenmaal zijn geïmporteerd kunt u deze rapporten blijven verbeteren en verfijnen met Power BI Desktop, met behulp van de bestaande functies en nieuwe functies die met elke maandelijkse update van Power BI Desktop worden uitgebracht.

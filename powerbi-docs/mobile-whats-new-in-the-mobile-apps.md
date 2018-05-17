@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 04/23/2018
 ms.author: maggies
-ms.openlocfilehash: eeb6fe244057f10e33936c475f753cfba95deed8
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 381cfeaf8e117cfdc952e361cd0e6cb633b65f47
+ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/10/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -271,7 +271,7 @@ Lees het [overzicht met functies van de mobiele Power BI-app van november 2016](
 #### <a name="android-devices"></a>Android-apparaten
 **Preview: Intune Mobile Application Management** Power BI-ondersteuning voor Microsoft Intune Mobile Application Manager (MAM) is nu in preview voor Power BI Pro-gebruikers op Android-apparaten. 
 
-**Favorieten** Tag uw favoriete dashboards op uw Android-apparaat en bekijk al uw [favoriete Power BI-dashboards en mobiele rapporten en KPI's van Reporting Services](mobile-android-tablet-app-get-started.md#view-your-favorite-dashboards-kpis-and-reports) op één handige locatie. 
+**Favorieten** Tag uw favoriete dashboards op uw Android-apparaat en bekijk al uw [favoriete Power BI-dashboards en mobiele rapporten en KPI's van Reporting Services](mobile-android-app-get-started.md#view-your-favorite-dashboards-kpis-and-reports) op één handige locatie. 
 
 #### <a name="ios-devices"></a>iOS-apparaten
 **Koppelingen** URL's in tegels en visuele elementen zijn nu klikbaar en worden in de browser geopend.

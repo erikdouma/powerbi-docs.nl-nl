@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/09/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 344e6ecc31748d58f0803f95aed53badfa6be4f2
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: f2d5cea1881d6a450b9188e9754ac503cb45f301
+ms.sourcegitcommit: 50016425005d2e929c8c606c2d0d393342e05d39
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/12/2018
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Kerberos gebruiken voor eenmalige aanmelding (SSO) van Power BI naar on-premises gegevensbronnen
 Door uw on-premises gegevensgateway te configureren met Kerberos kunt u connectiviteit met naadloze eenmalige aanmelding bewerkstelligen, zodat Power BI rapporten en dashboards kan bijwerken vanuit uw on-premises gegevens. De on-premises gegevensgateway vergemakkelijkt eenmalige aanmelding (SSO) met behulp van DirectQuery, waarmee de gateway verbinding maakt met on-premises gegevensbronnen.
@@ -31,6 +31,7 @@ De volgende bronnen worden momenteel ondersteund, allemaal op basis van [beperkt
 
 * SQL Server
 * SAP HANA
+* SAP BW
 * Teradata
 
 Wanneer een gebruiker in de Power BI-service een DirectQuery-rapport gebruikt, kan elke cross-filter, segmentering, sortering en bewerking van het rapport ertoe leiden dat er live query's worden uitgevoerd naar de onderliggende on-premises gegevensbron.  Wanneer eenmalige aanmelding is geconfigureerd voor de gegevensbron, worden query's uitgevoerd onder de identiteit van de gebruiker die Power BI gebruikt (dat wil zeggen, via de webervaring of de mobiele Power BI-apps). Iedere gebruiker ziet dus exact die gegevens waar hij of zij op de onderliggende gegevensbron voor is gemachtigd. Wanneer eenmalige aanmelding is ingesteld, vindt er geen gedeelde gegevenscaching plaats tussen verschillende gebruikers.

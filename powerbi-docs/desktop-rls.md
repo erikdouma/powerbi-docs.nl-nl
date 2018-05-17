@@ -15,22 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 05/03/2018
 ms.author: maghan
 LocalizationGroup: Create reports
-ms.openlocfilehash: febe8cafb7be578be0dcf23a151f28deb544a4c8
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0985aa06a76e93b1e437b53dae22146aa2a4598c
+ms.sourcegitcommit: 50016425005d2e929c8c606c2d0d393342e05d39
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/12/2018
 ---
 # <a name="row-level-security-rls-with-power-bi-desktop"></a>Beveiliging op rijniveau (RLS) met Power BI
-Beveiliging op rijniveau (RLS) kan in Power BI Desktop worden gebruikt om de toegang tot gegevens voor bepaalde gebruikers te beperken. Filters beperken gegevens op rijniveau. U kunt filters definiëren in rollen.
+Met Beveiliging op rijniveau (RLS) met Power BI wordt de toegang tot gegevens voor bepaalde gebruikers beperkt. Filters beperken gegevens op rijniveau. U kunt filters definiëren in rollen.
 
-U kunt RLS nu configureren voor gegevensmodellen die met Power BI Desktop zijn geïmporteerd in Power BI. U kunt RLS ook configureren voor gegevenssets die gebruikmaken van DirectQuery, zoals SQL Server. Voorheen kon u RLS alleen implementeren binnen on-premises Analysis Services-modellen buiten Power BI. Voor Analysis Services-liveverbindingen configureert u beveiliging op rijniveau voor het on-premises model. De beveiligingsoptie wordt niet weergegeven voor gegevenssets met een liveverbinding.
+U kunt RLS nu configureren voor gegevensmodellen die met Power BI Desktop zijn geïmporteerd in Power BI. U kunt RLS ook configureren voor gegevenssets die gebruikmaken van DirectQuery, zoals SQL Server. Voorheen kon u RLS alleen implementeren binnen on-premises Analysis Services-modellen buiten Power BI. Voor Analysis Services-liveverbindingen configureert u beveiliging op rijniveau voor het on-premises model. De beveiligingsoptie wordt niet weergegeven voor gegevenssets met live verbinding.
 
 > [!IMPORTANT]
-> Als u rollen/regels hebt gedefinieerd in de Power BI-service, moet u deze rollen in Power BI Desktop opnieuw maken en het rapport publiceren naar de service.
+> Als u rollen en regels hebt gedefinieerd binnen de Power BI-service moet u deze rollen opnieuw maken binnen Power BI Desktop en het rapport publiceren naar de service.
 > 
 > 
 

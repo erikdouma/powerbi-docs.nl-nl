@@ -1,5 +1,5 @@
 ---
-title: Interactie met een rapport in de bewerkweergave (zelfstudie)
+title: Interactie met een rapport in de bewerkweergave
 description: Interactie met een rapport in de bewerkweergave voor rapporten in Power BI-service
 services: powerbi
 documentationcenter: ''
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: eea3bcb040f5267cb1fcc1f24ef6b306f6c03af3
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 6b4fcd59b16e9fd7ef0dcddfc44a93bb842a32f8
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Interactie met een rapport in de bewerkweergave in Power BI-service
 Rapporten kunnen worden gemaakt en bewerkt in de Power BI-service en in Power BI Desktop. Rapporten in de Power BI-service kunnen in de **bewerkingsweergave** worden gemaakt en bewerkt. En in Power BI Desktop kunnen rapporten worden gemaakt en bewerkt in de [**Rapportweergave**](desktop-report-view.md). In dit artikel wordt de bewerkingsweergave in de Power BI-service behandeld. 
@@ -52,5 +52,5 @@ Een licentie voor Power BI Pro is vereist voor het bewerken van rapporten die zi
 ## <a name="next-steps"></a>Volgende stappen
 Terug naar [Leesweergave en bewerkweergave in de Power BI-service](service-reading-view-and-editing-view.md)
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ad83703b77907488f47f9b5f419e8e4d5145ae97
-ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
+ms.openlocfilehash: 006a2d6b64bfbaf1284759f176f379320dfae3b6
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Koppelingen van OneDrive voor Bedrijven gebruiken in Power BI Desktop
 Veel gebruikers hebben Excel-werkmappen opgeslagen op hun OneDrive voor Bedrijven-station. Het zou mooi zijn deze met Power BI Desktop te gebruiken. Met **Power BI Desktop** kunt u onlinekoppelingen voor **Excel-bestanden** gebruiken die in **OneDrive voor Bedrijven** zijn opgeslagen en waar u rapporten en visuele elementen mee kunt maken. U kunt een **OneDrive voor Bedrijven** groepsaccount of een individueel account van **OneDrive voor Bedrijven** gebruiken.

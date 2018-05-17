@@ -2,14 +2,14 @@
 title: De productcode van uw rapportserver zoeken
 description: Meer informatie over hoe u uw Power BI Report Server-productcode kunt vinden voor het installeren van uw server in een productieomgeving.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: ff2e515823cbaa726fbdf72d1cb398381ea69363
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: b1bfbdc635c0abba7e6d14567c3e839fd6a0c716
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>De productcode van uw rapportserver zoeken
 Meer informatie over hoe u uw Power BI Report Server-productcode kunt vinden voor het installeren van uw server in een productieomgeving.
@@ -52,7 +52,7 @@ Als u een SQL Server Enterprise SA-overeenkomst hebt, kunt u uw productcode vind
 ![](media/find-product-key/vlsc-download.png "Volume Licensing Service Center")
 
 ## <a name="next-steps"></a>Volgende stappen
-[Quickstart: Power BI Report Server installeren](quickstart-install-report-server.md)  
+[Power BI Report Server installeren](install-report-server.md)  
 [Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren](install-powerbi-desktop.md)  
 [Report Builder installeren](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [SQL Server Data Tools (SSDT) downloaden](http://go.microsoft.com/fwlink/?LinkID=616714)

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/28/2018
 ms.author: maghan
-ms.openlocfilehash: bef0748f1431a29c96d7aa23ab457683e247724a
-ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
+ms.openlocfilehash: 5d0d679a9b5d3bea494915dc981e155ad69eeac6
+ms.sourcegitcommit: 1c7780e0dfe0b6b8322e6fafdd0693177db455d2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 05/14/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Een Power BI-dashboard, -tegel of -rapport in uw toepassing insluiten voor onafhankelijke clouds
 Informatie over het integreren of insluiten van een dashboard, een tegel of een rapport in een web-app met behulp van de Power BI .NET-SDK en de Power BI JavaScript API voor uw klanten. Dit is meestal het ISV-scenario.
@@ -38,7 +38,7 @@ Power BI ondersteunt ook onafhankelijke (privé)clouds. Elke onafhankelijke clou
 
 ![Ingesloten dashboard](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-Als u wilt beginnen met dit scenario, hebt u een **Power BI**-account nodig. Als u geen account hebt ingesteld, kunt u afhankelijk van het type overheid, zich [aanmelden voor een Power BI-account voor de US Government](../service-govus-signup.md) of [een Power BI-cloudaccount voor Duitsland](https://powerbi.microsoft.com/en-us/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1).
+Als u wilt beginnen met dit scenario, hebt u een **Power BI**-account nodig. Als u geen account hebt ingesteld, kunt u afhankelijk van het type overheid, zich [aanmelden voor een Power BI-account voor de US Government](../service-govus-signup.md) of [een Power BI-cloudaccount voor Duitsland](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1).
 
 > [!NOTE]
 > Wilt u liever een dashboard insluiten voor uw organisatie? Bekijk dan [Een dashboard integreren in een app voor uw organisatie](integrate-dashboard.md).
@@ -407,10 +407,10 @@ Een toepassingsvoorbeeld hiervan is beschikbaar in [Voorbeeld voor insluiten voo
 
 * Er is een voorbeeldtoepassing beschikbaar op GitHub die u kunt bekijken. De bovenstaande voorbeelden zijn gebaseerd op dat voorbeeld. Voor meer informatie raadpleegt u [Voorbeeld voor insluiten voor uw organisatie](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
 * Raadpleeg [Power BI JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript) voor meer informatie over de JavaScript-API.
-* Voor meer informatie over de Power BI-cloud voor Duitsland raadpleegt u [Veelgestelde vragen over de Power BI-cloud voor Duitsland ](https://docs.microsoft.com/en-us/power-bi/service-govde-faq)
+* Voor meer informatie over de Power BI-cloud voor Duitsland raadpleegt u [Veelgestelde vragen over de Power BI-cloud voor Duitsland ](https://docs.microsoft.com/power-bi/service-govde-faq)
 * [Inhoud van Power BI-werkruimteverzameling migreren naar Power BI](migrate-from-powerbi-embedded.md)
 
 Beperkingen en overwegingen
 * GCC-accounts bieden op dit moment alleen ondersteuning voor P- en EM-capaciteit
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

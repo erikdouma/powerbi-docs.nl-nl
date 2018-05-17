@@ -2,27 +2,27 @@
 title: Rechtstreeks gegevens in Power BI Desktop invoeren
 description: Eenvoudig gegevens rechtstreeks invoeren in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 09dc9de858da04084204d68d6829f59500e9fa10
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7a8fde71db651a39920110f72d5d26b2faefd1c0
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="enter-data-directly-into-power-bi-desktop"></a>Rechtstreeks gegevens in Power BI Desktop invoeren
 Met Power BI Desktop kunt u gegevens rechtstreeks invoeren en die gegevens gebruiken in uw rapporten en visualisaties. U kunt bijvoorbeeld delen van een werkmap of webpagina kopiëren en vervolgens in Power BI Desktop plakken.

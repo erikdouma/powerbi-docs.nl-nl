@@ -21,7 +21,7 @@ Voor het definiëren van rollen kunt u het volgende doen.
 7. Voer de DAX-expressies in. De expressie moet waar of onwaar retourneren. Bijvoorbeeld: [Entiteit-id] = “Waarde”.
    
    > [!NOTE]
-   > U kunt *username()* binnen deze expressie gebruiken. Let op: *username()* heeft de indeling *DOMAIN\username* binnen Power BI Desktop. Binnen de Power BI-service heeft dit de indeling van de UPN van de gebruiker. U kunt eventueel ook *userprincipalname()* gebruiken, waarmee de gebruiker altijd in de indeling van de principal-naam van gebruiker wordt geretourneerd.
+   > U kunt *username()* binnen deze expressie gebruiken. Let op: *username()* heeft de indeling *DOMAIN\username* binnen Power BI Desktop. Binnen de Power BI-service heeft dit de indeling van de UPN van de gebruiker. U kunt ook *userprincipalname()* gebruiken waarmee altijd de gebruiker wordt geretourneerd in de indeling van zijn/haar user principal name.
    > 
    > 
    

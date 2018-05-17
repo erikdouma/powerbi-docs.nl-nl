@@ -15,28 +15,28 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 05/02/2018
+ms.date: 05/07/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f9ef31815f82775fd228f170073ee576c299ed45
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 460221ed9cf35b4c5db9509085a819519202d4a3
+ms.sourcegitcommit: 50016425005d2e929c8c606c2d0d393342e05d39
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/12/2018
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>De slicer voor numeriek bereik in Power BI Desktop gebruiken
-Met de **slicer voor numeriek bereik**, kunt u allerlei filters toepassen op een van de numerieke kolommen in het gegevensmodel. U kunt ervoor kiezen om te filteren **tussen** getallen, **kleiner dan of gelijk aan** een getal of **groter dan of gelijk aan** een getal. Hoewel dit eenvoudig klinkt, is het een zeer krachtige manier om uw gegevens te filteren.
+Met de **slicer voor numeriek bereik**, kunt u allerlei filters toepassen op een van de numerieke kolommen in het gegevensmodel. U kunt er voor kiezen om te filteren **tussen** getallen, **minder dan of gelijk aan** een getal of **groter dan of gelijk aan** een getal. Hoewel dit eenvoudig klinkt, is het een zeer krachtige manier om uw gegevens te filteren.
 
-![](media/desktop-slicer-numeric-range/slicer-numeric-range_2.png)
+![Visual met slicer voor numeriek bereik](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-0.png)
 
 ## <a name="using-the-numeric-range-slicer"></a>De slicer voor numeriek bereik gebruiken
-U kunt de slicer voor numeriek bereik net als elke andere slicer gebruiken. Maak eenvoudig een visueel **slicer**-element voor uw rapport en selecteer vervolgens een numerieke waarde voor de waarde **Veld**. Op de volgende afbeelding is *UnitPrice* geselecteerd.
+U kunt de slicer voor numeriek bereik net als elke andere slicer gebruiken. Maak eenvoudig een visueel **slicer**-element voor uw rapport en selecteer vervolgens een numerieke waarde voor de waarde **Veld**. In de volgende afbeelding is het veld *LineTotal* geselecteerd.
 
-![](media/desktop-slicer-numeric-range/slicer-numeric-range_3.png)
+![Een slicer voor numeriek bereik maken](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-1-create.png)
 
-Selecteer het dakje in de rechterbovenhoek van de **slicer voor numeriek bereik**. Er wordt dan een menu weergegeven.
+Selecteer koppeling met de pijl-omlaag in de rechterbovenhoek van de **slicer voor numerik bereik**. Er wordt een menu weergegeven.
 
-![](media/desktop-slicer-numeric-range/slicer-numeric-range_4.png)
+![Menu met slicer voor numeriek bereik](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-2-between.png)
 
 Voor het numerieke bereik kunt u een keuze maken uit de volgende drie opties:
 
@@ -44,29 +44,27 @@ Voor het numerieke bereik kunt u een keuze maken uit de volgende drie opties:
 * Kleiner dan of gelijk aan
 * Groter dan of gelijk aan
 
-Wanneer u **Tussen** selecteert in het menu, wordt een schuifregelaar weergegeven en kunt u filteren op numerieke waarden die tussen de getallen liggen. Naast het gebruik van de schuifregelaar zelf, kunt u ook in een vak klikken en de waarden typen. Dit is handig wanneer u wilt segmenteren op specifieke gehele getallen, maar het vanwege de gedetailleerdheid van de balk moeilijk is om precies op dat getal te komen.
+Wanneer u **Tussen** selecteert in het menu, wordt een schuifregelaar weergegeven en kunt u filteren op numerieke waarden die tussen de getallen liggen. Naast het gebruik van de schuifregelaar zelf, kunt u ook in een vak klikken en de waarden typen. Dit is handig wanneer u wilt slicen op specifieke getallen, maar de granulatie van het bewegen van de slicerbalk maakt het lastig om precies op dat getal te belanden.
 
-Op de volgende afbeelding wordt de rapportpagina gefilterd voor *UnitPrice*-waarden die variëren tussen 500 en 1500.
+In de volgende afbeelding is de rapportpagina gefilterd voor *LineTotal*-waarden binnen een bereik van 2500.00 tot 6000.00.
 
-![](media/desktop-slicer-numeric-range/slicer-numeric-range_5.png)
+![Slicer met numeriek bereik met Tussen](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-3-between-range.png)
 
-Wanneer we **Kleiner dan of gelijk aan** selecteren, verdwijnt het besturingselement links (lagere waarde) van de schuifregelaar en kan alleen de bovengrens van de schuifregelaar worden aangepast. Op de volgende afbeelding stellen we de schuifregelaar in op 497.17.
+Wanneer we **Kleiner dan of gelijk aan** selecteren, verdwijnt het besturingselement links (lagere waarde) van de schuifregelaar en kan alleen de bovengrens van de schuifregelaar worden aangepast. In de volgende afbeelding is het maximum van de schuifregelaar ingesteld op 5928.19.
 
-![](media/desktop-slicer-numeric-range/slicer-numeric-range_6.png)
+![Slicer met numeriek bereik met Kleiner dan](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-4-less-than.png)
 
-Ten slotte, als we **Groter dan of gelijk aan** selecteren, verdwijnt het besturingselement rechts van de schuifregelaar en kunnen we de lagere waarde aanpassen, zoals op de volgende afbeelding te zien is. Nu worden alleen items met een *UnitPrice* groter dan of gelijk aan 750.56 weergegeven in de visuele elementen op de rapportpagina.
+Ten slotte, als we **Groter dan of gelijk aan** selecteren, verdwijnt het besturingselement rechts van de schuifregelaar en kunnen we de lagere waarde aanpassen, zoals op de volgende afbeelding te zien is. Nu worden alleen items met een *LineTotal* meer of gelijk aan 4902.99 weergegeven in de visuele elementen op de rapportpagina.
 
-![](media/desktop-slicer-numeric-range/slicer-numeric-range_7.png)
+![Slicer met numeriek bereik met Groter dan](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-5-greater-than.png)
 
-## <a name="snap-to-whole-numbers-with-the-numeric-range-slicer-preview"></a>Uitlijnen op gehele getallen met de slicer voor numeriek bereik (Preview)
+## <a name="snap-to-whole-numbers-with-the-numeric-range-slicer"></a>Uitlijnen op hele getallen met de slicer met numeriek bereik
 
-Vanaf de versie van **Power BI Desktop** van februari 2018 lijnt uw slicer voor numeriek bereik uit op gehele getallen. Hierdoor kan uw slicer foutloos uitlijnen op gehele getallen. Uitlijning op gehele getallen geldt niet voor decimale filters.
+Een slicer met numeriek bereik lijnt uit op hele getallen, tenzij het een decimaal bereik is. Hierdoor kan uw slicer foutloos uitlijnen op gehele getallen. 
 
 
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
-De volgende beperkingen en overwegingen zijn momenteel van toepassing op de **slicer voor numeriek bereik**
+De volgende beperkingen en overwegingen zijn momenteel van toepassing op de **slicer met numeriek bereik**:
 
 * De **slicer voor numeriek bereik** filtert momenteel elke onderliggende rij in de gegevens, geen statische waarden. Als bijvoorbeeld een veld *Verkoopbedrag* wordt gebruikt, wordt elke transactie op basis van *Verkoopbedrag* gefilterd, niet de som van *Verkoopbedrag* voor elk gegevenspunt van een visueel element.
-* Deze slicer werkt momenteel niet met metingen
-* Op dit moment is de **slicer voor numeriek bereik** alleen beschikbaar in **Power BI Desktop**. Als een rapport dat gebruikmaakt van de **slicer voor numeriek bereik** wordt gepubliceerd naar de **Power BI-service**, wordt het filter nog wel toegepast, maar wordt dit weergegeven als een slicer voor lijsten.
-
+* Dit werkt momenteel niet met Measures.

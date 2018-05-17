@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: d321d70fe201af500feb35ef4e5ea1df6cc558f0
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 2f5ca353d26b83a8c8cce5356724b351cb9d1621
+ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Problemen met Power BI Gateway - Personal oplossen
 In dit artikel worden enkele veelvoorkomende problemen behandeld die kunnen optreden bij het gebruik van Power BI Gateway - Personal.
@@ -76,11 +76,11 @@ U kunt een fout van deze strekking krijgen in Instellingen voor \<gegevensset\> 
 
 **Fout: [Kan gegevens niet combineren] &lt;queryonderdeel&gt;/&lt;...&gt;/&lt;...&gt; wil toegang tot gegevensbronnen met privacyniveaus die niet samen kunnen worden gebruikt. Bouw deze gegevenscombinatie opnieuw.**
 
-**Oplossing**: Een fout van deze strekking is het gevolg van privacyniveaubeperkingen en de soorten gegevensbronnen die u gebruikt. [Meer informatie](refresh-enable-fast-combine.md)
+**Oplossing**: Een fout van deze strekking is het gevolg van privacyniveaubeperkingen en de soorten gegevensbronnen die u gebruikt.
 
 **Fout: Fout in gegevensbron: de waarde '\[tabel\]' kan niet worden geconverteerd naar type tabel.**
 
-**Oplossing**: Een fout van deze strekking is het gevolg van privacyniveaubeperkingen en de soorten gegevensbronnen die u gebruikt. [Meer informatie](refresh-enable-fast-combine.md)
+**Oplossing**: Een fout van deze strekking is het gevolg van privacyniveaubeperkingen en de soorten gegevensbronnen die u gebruikt.
 
 **Fout: Er is onvoldoende ruimte voor deze rij.**
 
@@ -156,5 +156,5 @@ U kunt ook naar de **map Temp** (%temp%) gaan en bestanden zoeken die beginnen m
 [Power BI Gateway - Personal](personal-gateway.md)  
 [Problemen met tegelfouten oplossen](refresh-troubleshooting-tile-errors.md)  
 [Problemen met de on-premises gegevensgateway oplossen](service-gateway-onprem-tshoot.md)  
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

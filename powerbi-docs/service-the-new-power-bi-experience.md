@@ -6,53 +6,44 @@ documentationcenter: ''
 author: mihart
 manager: kfile
 backup: ''
-editor: ''
 featuredvideoid: G26dr2PsEpk
-tags: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
+ms.topic: quickstart
+ms.component: powerbi-service
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 05/07/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 82aedf3defc1a3154c884c18b90dc27195847e9a
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 58b1125a894ff064942e61534db990587bdf9f2a
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/07/2018
 ---
-# <a name="getting-around-in-power-bi-service"></a>Navigeren in de Power BI-service
-## <a name="the-left-navigation-pane"></a>Het linkernavigatievenster
+# <a name="quickstart---getting-around-in-power-bi-service"></a>Quickstart: navigeren in de Power BI-service
 
-![Linkernavigatiedeelvenster](media/service-the-new-power-bi-experience/power-bi-navbar-bigger.png)
+Nu u de basisprincipes van Power BI kent, zullen we een kijkje nemen bij de **Power BI-service**. Zoals eerder werd genoemd, brengt iemand in uw team misschien al haar tijd door in **Power BI Desktop**. Ze combineert gegevens en maakt rapporten voor anderen. Maar u daarentegen besteedt al uw tijd in de Power BI-service. U bekijkt en werkt interactief met inhoud die door anderen is gemaakt (de **verbruikservaring**) of downloadt gegevens en maakt uw eigen rapporten en dashboards (de **maakervaring**). In deze quickstart gaat u voorbeeldgegevens importeren en die gegevens gebruiken om de Power BI-service te leren gebruiken. 
+ 
+## <a name="prerequisites"></a>Vereisten
 
-**Snelzoekgids**
+- Als u zich niet hebt geregistreerd voor Power BI, kunt u zich hier [aanmelden voor een gratis proefversie](https://app.powerbi.com/signupredirect?pbi_source=web) voordat u begint.
 
-| Actie | Nieuw (huidig) pad |
-| --- | --- | --- |
-| Dashboard of rapport aan favorieten toevoegen |Werkruimte > Dashboards of Werkruimte > Rapporten en selecteer het sterpictogram zodat dit geel wordt weergegeven |
-| App aan favorieten toevoegen | Selecteer **Apps** in het linkernavigatievenster en selecteer de ster naast de appnaam
-| Een lijst met favoriete items weergeven |Selecteer in het navigatievenster links de optie **Favorieten**. |
-| Een lijst met onlangs bezochte dashboards en rapporten weergeven |Selecteer in het navigatievenster links de optie **Recent**. |
-| Een lijst weergeven met dashboards die met u zijn gedeeld |Selecteer in het navigatievenster links de optie **Gedeeld met mij**. |
-| Een dashboard delen |Open het dashboard en selecteer **Delen** of maak en publiceer een app. |
-| Een dashboard verwijderen |Mijn werkruimte > Dashboards > prullenbakpictogram |
-| Een rapport verwijderen |Mijn werkruimte > Rapporten > prullenbakpictogram |
-| Een gegevensset verwijderen |Mijn werkruimte > Gegevenssets > ... > Verwijderen |
-| Een dashboard openen |Werkruimte > Dashboards > selecteer de naam van het dashboard |
-| Een rapport openen |Werkruimte > Rapporten > selecteer de naam van het dashboard |
-| Een gegevensset openen |Werkruimte > Gegevenssets > selecteer de naam van de gegevensset |
-| Een dashboard maken |Selecteer in de bovenste navigatiebalk Maken > Dashboard |
-| Een rapport maken |Selecteer in de bovenste navigatiebalk Maken > Rapport |
-| Een gegevensset maken |Selecteer in de bovenste navigatiebalk Maken > Gegevensset |
-| Een app maken |Werkruimten > App-werkruimte maken |
-| Een lijst weergeven met alle dashboards, rapporten en gegevenssets waarvan u de eigenaar bent |Werkruimten > Mijn werkruimte |
+- [Basisconcepten van de Power BI-service](service-basic-concepts.md) lezen
 
-## <a name="common-tasks"></a>Algemene taken
+## <a name="open-power-bi-service-and-get-some-data"></a>De Power BI-service openen en een aantal gegevens downloaden
+We nemen een aantal voorbeeldgegevens die we gebruiken voor onze rondleiding in de Power BI-service. We bieden u talloze soorten voorbeeldgegevens die u kunt verkennen; we gebruiken in dit voorbeeld de gegevens over detailhandels.    
+1. Open app.powerbi.com en selecteer de koppeling voor **Voorbeelden**. 
+
+    ![De Power BI-service voor de eerste keer openen](media/service-the-new-power-bi-experience/power-bi-new-user.png)
+
+2. Selecteer **Voorbeeld van een retailanalyse > Verbinding maken**.
+
+    ![het voorbeeld selecteren](media/service-the-new-power-bi-experience/power-bi-retail-sample.png)
+
+    De Power BI-service importeert het voorbeeld en geeft het dashboard weer. Dashboards zijn de elementen waarmee de Power BI-service zich onderscheidt van Power BI Desktop. Het voorbeeld bevat ook een rapport en een gegevensset, die we later zullen behandelen.
+
+    ![](media/service-the-new-power-bi-experience/power-bi-dashboard.png)
 
 Laat Amanda u meenemen op een rondleiding door de navigatie van de Power BI-service.  Volg vervolgens de stapsgewijze instructies onder de video om zelf op verkenning uit te gaan.
 
@@ -60,16 +51,28 @@ Laat Amanda u meenemen op een rondleiding door de navigatie van de Power BI-serv
 
 
 ## <a name="view-content-dashboards-reports-workbooks-datasets-workspaces-apps"></a>Inhoud weergeven (dashboards, rapporten, werkmappen, gegevenssets, werkruimten en apps)
-Laten we beginnen door te kijken hoe de basisinhoud (dashboards, rapporten, gegevenssets en werkmappen) wordt geordend. Voorheen werd al uw inhoud weergegeven in het navigatievenster aan de linkerkant. U kunt dit nog steeds doen, maar de inhoud wordt nu standaard weergegeven in de context van de werkruimte, op basis van het type inhoud. Selecteer in het linkernavigatievenster een werkruimte zodat de tabbladen voor de bijbehorende inhoud (dashboards, rapporten, werkmappen, gegevenssets) worden weergegeven op het Power BI-canvas aan de rechterkant.
+Laten we beginnen door te kijken hoe de basisinhoud (dashboards, rapporten, gegevenssets en werkmappen) wordt geordend. Er wordt inhoud weergegeven binnen de context van een werkruimte. Op dit moment beschikt u over één werkruimte, genaamd **Mijn werkruimte**. Alle inhoud waarvan u de eigenaar bent, wordt opgeslagen in Mijn werkruimte. Deze werkruimte kunt u beschouwen als een persoonlijke sandbox of persoonlijk werkgebied voor uw eigen inhoud. U kunt vanuit Mijn werkruimte inhoud delen met collega's. De inhoud in Mijn werkruimte wordt geordend op vier tabbladen: Dashboards, Rapporten, Werkmappen en Gegevenssets.
 
-Als u de gratis versie van Power BI gebruikt, wordt er slechts één werkruimte weergegeven, namelijk **Mijn werkruimte**.
+![Scherm Mijn werkruimte](media/service-the-new-power-bi-experience/power-bi-my-workspace2.png)
 
-![Korte video van werkruimte](media/service-the-new-power-bi-experience/power-bi-new-nav.gif)
+Selecteer in het linkernavigatievenster een werkruimte zodat de tabbladen voor de bijbehorende inhoud (dashboards, rapporten, werkmappen, gegevenssets) worden weergegeven op het Power BI-canvas aan de rechterkant.
 
-### <a name="favorite-dashboards-reports-and-apps"></a>Favoriete dashboards, rapporten en apps
+Als u een nieuwe gebruiker bent, wordt er slechts één werkruimte weergegeven, namelijk **Mijn werkruimte**.
+
+![Korte video van werkruimte](media/service-the-new-power-bi-experience/nav.gif)
+
+Op die tabbladen (ook wel *inhoudsweergaven* genoemd), ziet u informatie over de inhoud en acties die u op die inhoud kunt uitvoeren.  Vanaf het tabblad Dashboards kunt u bijvoorbeeld een dashboard openen, delen, verwijderen, zoeken, nieuwe inhoud maken, sorteren en meer.
+
+![Tabblad Dashboards](media/service-the-new-power-bi-experience/power-bi-dashboard-tab.png)
+
+Open het dashboard door de dashboardnaam te selecteren.
+
+![Geopende dashboards](media/service-the-new-power-bi-experience/power-bi-open-dashboard.png)
+
+## <a name="favorite-a-dashboard-and-a-report"></a>Dashboard en een rapport aan favorieten toevoegen
 Met **Favorieten** hebt u snel toegang tot uw belangrijkste inhoud.  
 
-1. Open het dashboard of het rapport en selecteer in de rechterbovenhoek **Aan favorieten toevoegen**.
+1. Open het dashboard en selecteer in de rechterbovenhoek **Aan favorieten toevoegen**.
    
    ![Favoriet toevoegen](media/service-the-new-power-bi-experience/powerbi-dashboard-favorite.png)
    
@@ -77,78 +80,49 @@ Met **Favorieten** hebt u snel toegang tot uw belangrijkste inhoud.
    
    ![Favoriet verwijderen](media/service-the-new-power-bi-experience/power-bi-unfavorite2.png)
 
-2. Selecteer voor een app de optie **Apps** in het linkernavigatievenster, beweeg de muisaanwijzer over de app en kies de ster om deze app als favoriet in te stellen.
-
 2. Als u een lijst wilt weergeven met alle inhoud die u aan Favorieten hebt toegevoegd, selecteert u in het linkernavigatievenster de pijl rechts van **Favorieten**. Omdat het linkernavigatievenster een permanente functie van de Power BI-service is, hebt u overal in de Power BI-service toegang tot deze lijst.
    
-    ![Flyout Favorieten](media/service-the-new-power-bi-experience/power-bi-favorite-flyout.png)
+    ![Flyout Favorieten](media/service-the-new-power-bi-experience/power-bi-favorite.png)
    
-    Hier kunt u een dashboard, rapport of app selecteren om dit te openen.
+    We hebben nu nog maar één favoriet. Favorieten kunnen dashboards, rapporten of apps zijn.  
 
-3. Als u het deelvenster **Favorieten** wilt openen, selecteert u in het linkernavigatievenster de optie **Favorieten** of selecteert u het pictogram Favorieten ![](media/service-the-new-power-bi-experience/powerbi-star-icon.png).
+1. U kunt een dashboard of rapport ook via het tabblad **Dashboards** of **Rapporten** van de werkruimte als favoriet markeren.  Open het tabblad **Rapporten** en selecteer het sterpictogram links naast de rapportnaam.
    
-   ![Scherm Favorieten openen](media/service-the-new-power-bi-experience/power-bi-favorites-screen.png)
-   
-   Hier kunt u inhoud openen en zoeken, inhoud uit de favorieten verwijderen en inhoud met collega’s delen.
+   ![Markeren als favoriet](media/service-the-new-power-bi-experience/power-bi-report-favorite.png)
 
-1. U kunt een dashboard of rapport ook via het tabblad **Dashboards** of **Rapporten** van de werkruimte als favoriet markeren.  Open gewoon de werkruimte om de inhoudsweergave te tonen en selecteer het sterpictogram links naast de naam.
+3. Open het *deelvenster* **Favorieten** door **Favorieten** te selecteren in het linkernavigatiedeelvenster of door het sterpictogram ![](media/service-the-new-power-bi-experience/powerbi-star-icon.png) te selecteren.
    
-   ![Markeren als favoriet](media/service-the-new-power-bi-experience/power-bi-favorite-dashboard-new.png)
+   ![Scherm Favorieten openen](media/service-the-new-power-bi-experience/power-bi-favorite-pane.png)
+   
+   U hebt nu twee favorieten: één dashboard en één rapport. Hier kunt u inhoud openen en zoeken, inhoud uit de favorieten verwijderen en inhoud met collega’s delen.
+
+4. Selecteer de naam van het rapport om het in de rapporteditor te openen.
+
+    ![rapport openen](media/service-the-new-power-bi-experience/power-bi-report-open.png)
+
 
 Zie [Favorieten](service-dashboard-favorite.md) voor meer informatie
 
-### <a name="recents"></a>Recent geopende
-Snel toegang verkrijgen tot de inhoud die u het recentst hebt geopend door naar het deelvenster **Recent geopend** te gaan. Het venster bevat inhoud uit al uw verschillende werkruimten.
+## <a name="locate-your-most-recent-content"></a>Uw meest recente inhoud zoeken
 
-  ![Deelvenster Recent geopende](media/service-the-new-power-bi-experience/power-bi-recent-new.png)
+1. Net als bij Favorieten hebt u overal in de Power BI-service snel toegang tot uw recent geopende inhoud door in het linkernavigatievenster de pijl naast **Recent** te selecteren.
 
-Net als bij Favorieten hebt u overal in de Power BI-service snel toegang tot uw recent geopende inhoud door in het linkernavigatievenster de pijl naast **Recent geopende** te selecteren.
+   ![Flyout Recent geopende](media/service-the-new-power-bi-experience/power-bi-recent-flyout.png)
 
-  ![Flyout Recent geopende](media/service-the-new-power-bi-experience/power-bi-recent-flyout-new.png)
+    Selecteer de inhoud in de flyout om deze te openen.
+
+2. Soms wilt u geen recente inhoud openen, maar informatie bekijken of een andere actie uitvoeren zoals delen, Insights uitvoeren of exporteren naar Excel. Open in deze gevallen het deelvenster **Recente items** door **Recent** of het bijbehorende pictogram te selecteren in het linkernavigatiedeelvenster. Als u meerdere werkruimtes had, bevat deze lijst inhoud uit al uw werkruimtes.
+
+   ![Deelvenster Recent geopende](media/service-the-new-power-bi-experience/power-bi-recent.png)
 
 Zie [Recent geopende in Power BI](service-recent.md) voor meer informatie.
-
-### <a name="apps"></a>Apps
-Een app is een verzameling dashboards en rapporten die is gebouwd om belangrijke metrische gegevens op één plek te leveren. U kunt interne apps voor uw organisatie maar ook [apps voor externe services](service-connect-to-services.md) gebruiken, zoals Google Analytics en Microsoft Dynamics CRM. 
-
-![Deelvenster Apps](media/service-the-new-power-bi-experience/power-bi-apps.png)
-
-Zie **App-werkruimten** (hieronder) en [Wat zijn Power BI-apps](service-install-use-apps.md) voor meer informatie.
-
-### <a name="shared-with-me"></a>Gedeeld met mij
-**Gedeeld met mij** is de locatie voor alle inhoud die collega's met u hebben gedeeld.  Filter op dashboardeigenaar, gebruik het zoekveld om relevante informatie te vinden en sorteer de items op datum.  U kunt de gedeelde inhoud die u regelmatig bezoekt, in de weergave **Gedeeld met mij** eenvoudig toevoegen aan uw favorieten.
-
-![Deelvenster Gedeeld met mij](media/service-the-new-power-bi-experience/power-bi-shared-new.png)
-
-Zie [Gedeeld met mij](service-shared-with-me.md) voor meer informatie.
-
-### <a name="working-with-workspaces"></a>Werken met werkruimten
-Het volgende element in het linkernavigatievenster is de optie *Werkruimten*. Werkruimten zijn als het ware *containers* voor uw Power BI-inhoud. Er zijn twee soorten werkruimten: **Mijn werkruimte** en app-werkruimten.
-
-Als u geen lid van een app-werkruimte of geen beheerder bent, worden er mogelijk geen app-werkruimten weergegeven in het linkernavigatievenster. Als u met de gratis versie van Power BI werkt, worden er ook geen app-werkruimten weergegeven.
-
-#### <a name="my-workspace"></a>Mijn werkruimte
-Alle inhoud waarvan u de eigenaar bent, wordt opgeslagen in **Mijn werkruimte**. Deze werkruimte kunt u beschouwen als een persoonlijke sandbox of persoonlijk werkgebied voor uw eigen inhoud. U kunt vanuit Mijn werkruimte inhoud delen met collega's. De inhoud in Mijn werkruimte wordt geordend op vier tabbladen: Dashboards, Rapporten, Werkmappen en Gegevenssets.
-
-![Scherm Mijn werkruimte](media/service-the-new-power-bi-experience/power-bi-my-workspace2.png)
-
-#### <a name="app-workspaces"></a>App-werkruimten
-Apps en app-werkruimten zijn een functie van Power BI Pro. Als u dashboards en rapporten voor anderen ontwerpt, gebruikt u hiervoor app-werkruimten. Een app-werkruimte is de plaats waar u de app maakt. Voordat u een app kunt maken, moet u dus eerst de app-werkruimte maken. Het zijn in feite verder ontwikkelde groepswerkruimten: ruimten met tijdelijke bestanden en containers voor de inhoud van de app.  U en uw collega's kunnen samenwerken aan dashboards, rapporten en andere inhoud die u wilt distribueren naar een breder publiek of zelfs uw hele organisatie.
-
-Ga naar [Een app maken en distribueren in Power BI](service-create-distribute-apps.md#app-workspaces) voor meer informatie.
-
-Net als voor **Mijn werkruimte** wordt de inhoud geordend op vier tabbladen: Dashboards, Rapporten, Werkmappen en Gegevenssets.
-
-![App-werkruimte](media/service-the-new-power-bi-experience/power-bi-app-workspace.png)
-
-U kunt tussen werkruimten schakelen door in het linkernavigatievenster **Werkruimten** te selecteren.
-
-![Een werkruimte selecteren](media/service-the-new-power-bi-experience/power-bi-workspacesnew2.png)
 
 ### <a name="search-and-sort-content"></a>Inhoud zoeken en sorteren
 Met de nieuwe inhoudsweergave kunt u gemakkelijker inhoud zoeken, filteren en sorteren. Als u een dashboard, rapport of werkmap wilt zoeken, typt u in het zoekgebied. Power BI-filters zijn alleen van toepassing op inhoud waarvan de naam uw zoekreeks bevat.
 
-![Een dashboard zoeken](media/service-the-new-power-bi-experience/power-bi-search-sortnew.png)
+Omdat u maar één voorbeeld hebt, is zoeken en sorteren niet nodig.  Maar indien u lange lijsten met dashboards, rapporten, werkmappen en gegevenssets hebt, is zoeken en sorteren wellicht zeer nuttig.
+
+![Een dashboard zoeken](media/service-the-new-power-bi-experience/power-bi-search-sort.png)
 
 U kunt de inhoud ook sorteren op naam of eigenaar.  
 
@@ -157,7 +131,6 @@ U kunt de inhoud ook sorteren op naam of eigenaar.
 Zie [Power BI-navigatie: zoeken, sorteren en filteren](service-navigation-search-filter-sort.md) voor meer informatie.
 
 ## <a name="next-steps"></a>Volgende stappen
-[Basisconcepten](service-basic-concepts.md) van de Power BI-service    
 
-Vragen of feedback? [Bezoek de Power BI-community](http://community.powerbi.com/t5/Navigation-Preview-Forum/bd-p/NavigationPreview).
-
+> [!div class="nextstepaction"]
+> [Leesweergave en bewerkweergave in de Power BI-service](./service-reading-view-and-editing-view.md)

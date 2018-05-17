@@ -2,14 +2,14 @@
 title: Kerberos configureren om Power BI-rapporten te gebruiken
 description: Informatie over hoe u de rapportserver configureert voor Kerberos-verificatie met gegevensbronnen die worden gebruikt binnen uw Power BI-rapporten voor een gedistribueerde omgeving.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 70d4992ad4680d2a412a6bdded895f4248f5dab1
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 8a99f4d07b17ae1a8d260c1655dfbb948f76c317
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Kerberos configureren om Power BI-rapporten te gebruiken
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -223,7 +223,7 @@ Hoewel deze configuratie in de meeste gevallen werkt, kan er met Kerberos een an
 
 ## <a name="next-steps"></a>Volgende stappen
 [Beheerdershandboek](admin-handbook-overview.md)  
-[Snelstartgids: Power BI Report Server installeren](quickstart-install-report-server.md)  
+[Power BI Report Server installeren](install-report-server.md)  
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

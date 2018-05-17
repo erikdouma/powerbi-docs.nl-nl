@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 974194cb04701e2dc21814a0945227ad9c4b770c
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 67e0008383147763654d8e3a053384d28f4a57f7
+ms.sourcegitcommit: 50016425005d2e929c8c606c2d0d393342e05d39
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/12/2018
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>Labels voor inlinehiërarchie gebruiken in Power BI Desktop
 **Power BI Desktop** ondersteunt het gebruik van **labels voor inlinehiërarchie**, de eerste van twee functies waarmee het hiërarchisch analyseren wordt verbeterd. De tweede functie, die nog in ontwikkeling is, maakt het gebruik van geneste hiërarchielabels mogelijk (houd dit in de gaten, onze updates verschijnen regelmatig).   
@@ -30,35 +30,41 @@ ms.lasthandoff: 05/04/2018
 ## <a name="how-inline-hierarchy-labels-work"></a>Hoe labels voor inlinehiërarchie werken
 Met labels voor inlinehiërarchie kunt u hiërarchielabels zien terwijl u visuele elementen uitvouwt met de functie **Alles uitvouwen**. Een groot voordeel van deze hiërarchielabels is dat u ook op deze verschillende hiërarchielabels kunt **sorteren** terwijl u uw hiërarchische gegevens uitvouwt.
 
-### <a name="using-the-built-in-expand-all-feature-without-sorting-by-hierarchy-labels"></a>De ingebouwde functie Alles uitvouwen gebruiken (zonder sorteren op hiërarchielabels)
-Voordat we labels voor inlinehiërarchie in actie gaan bekijken, kijken we eerst nog eens hoe de standaardfunctie **Alles uitvouwen** zich gedraagt. Daardoor kunnen we beter begrijpen (en waarderen) hoe handig labels voor inlinehiërarchie kunnen zijn.
+### <a name="using-the-built-in-expand-feature-without-sorting-by-hierarchy-labels"></a>Met gebruik van de ingebouwde functie Uitvouwen (zonder de sorteren op hiërarchielabels)
+Laten we het standaardgedrag van de functie **Uitvouwen naar volgend niveau** bekijken voordat we labels voor inlinehiërarchie in actie zien. Daardoor kunnen we beter begrijpen (en waarderen) hoe handig labels voor inlinehiërarchie kunnen zijn.
 
-In de volgende afbeelding ziet u een staafdiagram met de verkoopcijfers per jaar. Als u er met de rechtermuisknop op klikt, kunt u **Alles uitvouwen** kiezen.
+In de volgende afbeelding ziet u een staafdiagram met de verkoopcijfers per jaar. Wanneer u met de rechtermuisknop op een balk klikt, kunt u kiezen voor **Uitvouwen tot volgend niveau**.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_4.png)
+![Contextmenu uitvouwen](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-menu.png)
 
-Als **Alles uitvouwen** is geselecteerd, wordt de datumhiërarchie uitgevouwen van *Jaar* naar *Kwartaal*, zoals u in de volgende afbeelding kunt zien.
+> [!NOTE]
+> Als alternatief voor het klikken met de rechtermuisknop op een balk, kunt u de knop *Uitvouwen* selecteren linksboven de visualisatie.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_5.png)
+  ![Knop Uitvouwen](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-expand-button-finger.png)
 
-Merk op dat de labels *Jaar* en *Maand* samen inline worden getoond. Dit labelschema gaat op deze manier verder als u **Alles uitvouwen** ook toepast tot onder aan de hiërarchie.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_6.png)
+Als **Uitvouwen naar volgend niveau** is geselecteerd, vouwt de visual de gekozen datumhiërarchie van *Jaar* naar *Kwartaal*, zoals weergegeven in de volgende afbeelding.
+
+![Visual uitgevouwen naar jaar en kwartaal](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-qty-year-quarter.png)
+
+De labels *Jaar* en *Kwartaal* worden samen weergegeven; dit labelingschema gaat door als u **Alles uitvouwt** tot de onderkant van de hiërarchie.
+
+![Visual uitgevouwen naar jaar, kwartaal en maand](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-qty-year-quarter-month.png)
 
 Dit is dus het gedrag van de ingebouwde *Datumhiërarchie*, gekoppeld aan velden met het gegevenstype *datum/tijd*. We gaan verder naar de volgende sectie, waar we de verschillen zien van de nieuwe functie voor labels voor inlinehiërarchie.
 
 ### <a name="using-inline-hierarchy-labels"></a>Werken met labels voor inlinehiërarchie
-We kijken nu naar een ander diagram en gebruiken gegevens met informele hiërarchieën. In het volgende visuele element zien we een staafdiagram met **Verkoopbedrag**, waarbij *Kleur* als as wordt gebruikt. In deze gegevens vormen *Kleur* en *Klasse* een informele hiërarchie. Hier kunt u opnieuw *Alles uitvouwen* selecteren om in de hiërarchie in te zoomen.
+We kijken nu naar een ander diagram en gebruiken gegevens met informele hiërarchieën. In de volgende visual hebben we een staafdiagram met **Kwantiteit**, met *ProductName* als de as. In deze gegevens vormen *ProductName* en *ShipCountry* een informele hiërarchie. Vanuit hier kunt u nogmaals *Uitvouwen naar volgend niveau* selecteren om in te zoomen op de hiërarchie.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_7.png)
+![Grafiek met informele hiërarchie](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-top-expand.png)
 
-Als u **Alles uitvouwen** selecteert, wordt het volgende niveau getoond, met een weergave van de labels voor inlinehiërarchie. Standaard worden inlinehiërarchieën gesorteerd op de meetwaarde, in dit geval **Verkoopbedrag**. Als labels voor inlinehiërarchie zijn ingeschakeld, kunt u deze gegevens ook sorteren op hiërarchie door het beletselteken (**...**) in de rechterbovenhoek te selecteren en vervolgens **Sorteren op > Kleurklasse**, zoals u in de volgende afbeelding kunt zien.
+Door **Uitvouwen naar volgend niveau** te selecteren wordt het volgende niveau weergegeven met inline-weergave van hiërarchielabels. Standaard worden inlinehiërarchieën gesorteerd op de meetwaarde, in dit geval **Kwantiteit**. Met inlinehiërarchieën ingeschakeld kunt u er voor kiezen om deze gegevens ook op hiërarchie te sorteren door het beletselteken in de rechterbovenhoek te selecteren (de **...**) en daarna **Sorteren op ProductName ShipCountry** te selecteren zoals weergegeven in de volgende afbeelding.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_8.png)
+![Grafiek met informele hiërarchie standaard gesorteerd](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-sort-quantity.png)
 
-Als u **Kleurklasse** hebt geselecteerd, worden de gegevens gesorteerd op basis van de geselecteerde informele hiërarchie, zoals in het onderstaande voorbeeld is te zien.
+Als **ShipCountry** is geselecteerd worden de gegevens gesorteerd op basis van de informele hiërarchieselectie zoals weergegeven in de volgende afbeelding.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_9.png)
+![Grafiek met informele hiërarchie gesorteerd op informele hiërarchie](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-sorted.png)
 
 > [!NOTE]
 > Met de functie voor labels voor inlinehiërarchie kunt u de ingebouwde tijdhiërarchie nog niet op waarde sorteren, maar nog slechts op volgorde van hiërarchie.

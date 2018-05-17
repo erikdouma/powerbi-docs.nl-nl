@@ -2,27 +2,27 @@
 title: Problemen met Analyseren in Excel in Power BI Desktop oplossen
 description: Oplossingen voor gangbare problemen met Analyseren in Excel
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 1760828290846b9ee7601ad4aa313ee3e9cbdf8a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 102eb23ad17e9669d9cd9f5176aafd3b6e2eec08
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Problemen met Analyseren in Excel oplossen
 Wanneer u Analyseren in Excel gebruikt, krijgt u mogelijk een onverwacht resultaat of werkt de functie niet zoals verwacht. Deze pagina bevat oplossingen voor algemene problemen bij het gebruik van Analyseren in Excel.

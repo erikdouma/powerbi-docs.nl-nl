@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: eb37cb0551a613cf85d5b5dd2608b018a3a05250
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 83eb0f534a7aa98746e04a63d5474138159393f8
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="connect-to-github-with-power-bi"></a>Verbinding maken met GitHub via Power BI
 Het GitHub-inhoudspakket voor Power BI maakt het mogelijk om inzicht te verkrijgen in een GitHub-opslagplaats (ook wel een repository of repo genoemd) met gegevens van bijdragen, problemen, pull-aanvragen en actieve gebruikers.
@@ -100,10 +100,9 @@ Het eerste deel, 'Azure', is de eigenaar en het tweede deel, 'azure-sdk-for-php'
 Indien nodig kunt u uw GitHub-referenties controleren.  
 
 1. Ga in een ander browservenster naar de website van GitHub en meld u aan bij GitHub. U kunt in de rechterbovenhoek van de GitHub-site zien of u bent aangemeld.    
-2. Navigeer in GitHub naar de URL van de opslagplaats die u wilt raadplegen in Power BI, bijvoorbeeld https://github.com/dotnet/corefx.  
+2. Navigeer in GitHub naar de URL van de opslagplaats die u wilt raadplegen in Power BI, Bijvoorbeeld: https://github.com/dotnet/corefx.  
 3. Ga terug naar Power BI en probeer verbinding te maken met GitHub. Gebruik in het dialoogvenster Configure GitHub de naam van de opslagplaats en de naam van de eigenaar van dezelfde opslagplaats.  
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Aan de slag met Power BI](service-get-started.md)
 * [Gegevens ophalen](service-get-data.md)
-

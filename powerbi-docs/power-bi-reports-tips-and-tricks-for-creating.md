@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: d9500f2c3d385e96b9133a3b634fe06f9769936e
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: f1b92cf370dfdfdbeadd71ee954030aa8a79d338
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Tips en trucs voor het maken van rapporten in Power BI Desktop en de Power BI-service
 Als uw gegevens optimaal te kunnen gebruiken, hebt u soms wat extra hulp nodig. We hebben een aantal tips en trucs voor u verzameld om u te helpen bij het maken van rapporten in Microsoft Power BI Desktop, de Power BI-service *en* in Pro-Plus-edities van Microsoft Excel 2016 of Excel 2013 waar de Power Pivot-invoegtoepassing is ingeschakeld en Power Query is geïnstalleerd en ingeschakeld.
@@ -131,7 +131,7 @@ Als we alle incidenten en werkitems willen volgen die betrekking hebben op een s
 #### <a name="creating-relationships-in-power-bi-desktop-when-the-data-has-null-or-blank-values"></a>Een relatie maken in Power BI Desktop als de gegevens velden met lege of null-waarden bevatten
 Vaak bevatten gegevenssets kolommen met lege of null-waarden.  Dit kan problemen veroorzaken bij het gebruik van relaties.  U kunt deze problemen eigenlijk op twee manieren oplossen.  U kunt de rijen verwijderen die lege of null-waarden bevatten.  U kunt doen dit met behulp van de filterfunctie in het query-tabblad of, als u query's samenvoegt, door de optie 'Alleen overeenkomende rijen behouden' te selecteren. De andere oplossing is de lege of null-waarde te vervangen door waarden die wel werken in relaties, doorgaans door tekenreeksen zoals 'NULL' of '(Leeg)'.   Er bestaat hier geen correct antwoord: door de rijen op query-niveau te filteren worden rijen verwijdert, wat gevolgen kan hebben voor de samenvattende statistieken en berekeningen.  De andere oplossing behoudt die gegevensrijen, maar kan ervoor zorgen dat niet-gerelateerde rijen worden weergegeven in het model, wat kan leiden tot fouten in de berekeningen.  Als u de tweede methode gebruikt, dient u waar nodig filters voor de Weergave/Grafiek te gebruiken, om te zorgen dat u nauwkeurige resultaten krijgt.  Zorg ook vooral dat u controleert welke regels worden behouden en/of verwijderd en dat u begrijpt wat de gevolgen zijn voor de analyse.  
 
-#### <a name="creating-relationships-in-power-bi-desktop-when-the-data-has-duplicate-values"></a>Een relatie maken in Power BI Desktop als mijn gegevens dubbele waarden bevatten
+#### <a name="creating-relationships-in-power-bi-desktop-when-the-data-has-duplicate-values"></a>Een relatie maken in Power BI Desktop als de gegevens dubbele waarden bevatten
 Vaak zorgen bij het laden van gedetailleerde gegevenssets uit meerdere bronnen dubbele waarden ervoor dat u geen relaties kunt maken.  U kunt dit ondervangen door een dimensietabel te maken met de unieke waarden van beide gegevenssets.
 
 Hier volgt een voorbeeld.
@@ -166,7 +166,7 @@ Soms is het handig om samenvattende statistieken te berekenen voor een gegevenss
 ### <a name="using-dax-for-the-first-time"></a>DAX voor het eerst gebruiken
 DAX is de formuletaal voor berekeningen in Power BI Desktop.  Deze is geoptimaliseerd voor BI-analyse.  Dit kan anders zijn dan wat u gewend bent als u tot nu toe alleen query-talen hebt gebruikt die op SQL lijken. Er zijn zeer goede onlinebronnen en informatieve literatuur beschikbaar om te leren werken met DAX.
 
-[Quick Start: Standaard DAX-bewerkingen in Power BI Desktop](desktop-quickstart-learn-dax-basics.md)
+[Standaard DAX-bewerkingen in Power BI Desktop leren gebruiken](desktop-quickstart-learn-dax-basics.md)
 
 [Naslaginformatie voor Data Analysis Expressions (DAX)](https://msdn.microsoft.com/library/gg413422.aspx)
 

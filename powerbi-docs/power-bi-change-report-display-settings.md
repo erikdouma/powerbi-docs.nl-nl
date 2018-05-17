@@ -1,15 +1,15 @@
 ---
-title: De grootte van een rapportpagina wijzigen (zelfstudie)
-description: 'Zelfstudie: De weergave-instellingen voor een pagina in een Power BI-rapport wijzigen'
+title: De grootte van een rapportpagina wijzigen
+description: De weergave-instellingen voor een pagina in een Power BI-rapport wijzigen
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: modifying
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,13 +18,13 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 9ec589655a3dc9b3e19def76cee2f20c48a512b2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8381f3100676b6e20f7fb748045c4852b30c45b9
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
 ---
-# <a name="change-the-size-of-a-report-page-tutorial"></a>De grootte van een rapportpagina wijzigen (zelfstudie)
+# <a name="change-the-size-of-a-report-page"></a>De grootte van een rapportpagina wijzigen
 In het [vorige artikel en de video](power-bi-report-display-settings.md) hebt u twee verschillende manieren gezien om de paginaweergave in Power BI-rapporten te bepalen: **Weergave** en **Paginagrootte**. Paginaweergave en paginagrootte zijn beschikbaar in Power BI-service en Power BI Desktop, welke bijna identiek zijn qua uiterlijk en functioneren, maar voor deze zelfstudie maken we gebruik van Power BI-service.
 
 ### <a name="prerequisites"></a>Vereisten
@@ -121,4 +121,4 @@ Vergeet niet dat u in de vorige stap hebt gezien dat onze rapportpagina momentee
 
 Terug naar [Instellingen voor de paginaweergave in een Power BI-rapport](power-bi-report-display-settings.md)
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

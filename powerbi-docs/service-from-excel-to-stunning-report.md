@@ -1,15 +1,15 @@
 ---
-title: 'Zelfstudie: in een handomdraai aantrekkelijke rapporten van Excel-werkmappen maken'
-description: 'Zelfstudie: in een handomdraai aantrekkelijke rapporten van Excel-werkmappen maken'
+title: In een handomdraai aantrekkelijke rapporten van Excel-werkmappen maken
+description: In een handomdraai aantrekkelijke rapporten van Excel-werkmappen maken
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Data from files
-ms.openlocfilehash: 64872b94d13f30cbab08d67530cc6ae0ccbe8fc3
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.openlocfilehash: 849511476200d401432fdcc2ad88ec2930448bf9
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>In een handomdraai aantrekkelijke rapporten van Excel-werkmappen maken
 Uw manager wil een rapport zien met recente verkoopcijfers gecombineerd met uw laatste campagne-indrukken aan het einde van de dag. Maar de meest recente gegevens bevinden zich op verschillende systemen van derden en in bestanden op uw laptop. In het verleden duurde het uren om visuele elementen te maken en een rapport te formatteren. U begint zich zorgen te maken.

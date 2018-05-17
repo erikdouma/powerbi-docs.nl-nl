@@ -1,6 +1,6 @@
 ---
-title: 'Snelstartgids: aan de slag met de Q&A-functie van Power BI'
-description: 'Snelstartgids: aan de slag met Q&A in Power BI-service met een retailanalyse als voorbeeld'
+title: Aan de slag met Power BI Q&A
+description: Aan de slag met Q&A in de Power BI-service met een retailanalyse als voorbeeld
 services: powerbi
 documentationcenter: ''
 author: mihart
@@ -18,13 +18,13 @@ ms.workload: powerbi
 ms.date: 01/16/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 0f4f56431fd0c667411c302f4f30f0c395269e4a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: aa9b90521d2bf8df88676756135442a22277a4e8
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
 ---
-# <a name="get-started-with-power-bi-qa-quickstart"></a>Aan de slag met de Q&A-functie van Power BI (snelstartgids)
+# <a name="get-started-with-power-bi-qa"></a>Aan de slag met Power BI Q&A
 ## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>De Q&A-functie van Power BI gebruiken met een retailanalyse als voorbeeld
 Soms krijgt u het snelst een antwoord uit uw gegevens wanneer u een vraag stelt in natuurlijke taal.  In deze snelstartgids bekijken we twee verschillende manieren om dezelfde visualisatie te maken: eerst samenstellen in een rapport en daarna een vraag stellen met Q&A. We doen dit met behulp van Power BI-service, maar het proces is bijna identiek aan als u dit doet met behulp van Power BI Desktop.
 
@@ -68,5 +68,5 @@ Hoe zouden we hetzelfde lijndiagram maken met Q&A?
 
 [Uw gegevens geschikt maken voor Q&A in Power BI](service-prepare-data-for-q-and-a.md)
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

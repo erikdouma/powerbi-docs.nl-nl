@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a7f877512d5b0f897fb98d2db205d1418d25c71a
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 992282438ceac88dce759b60dc26f0767d0b1f86
+ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>Gebruik Snelle metingen om eenvoudig algemene en krachtige berekeningen uit te voeren
 U kunt **Snelle metingen** gebruiken om snel en eenvoudig algemene, krachtige berekeningen uit te voeren. Een **Snelle meting** voert een reeks DAX-opdrachten uit op de achtergrond (de DAX is al voor u geschreven) op basis van wat u in een dialoogvenster opgeeft, en genereert vervolgens de resultaten die u in uw rapport kunt gebruiken. Bovendien kunt u de DAX bekijken die door de Snelle meting wordt uitgevoerd en zo uw eigen kennis van DAX uitbreiden.
@@ -43,8 +43,6 @@ Vanaf de versie van **Power BI Desktop** van februari 2018 zijn snelle metingen 
 Als u een **Snelle meting** wilt maken, klikt u met de rechtermuisknop op een willekeurig veld in de bron **Velden** in **Power BI Desktop** en selecteert u in het menu dat wordt weergegeven **Snelle meting**.
 
 ![](media/desktop-quick-measures/quick-measures_01.png)
-
-Modellering moet beschikbaar zijn op de gegevensset die momenteel is geladen, anders is **Snelle metingen** niet beschikbaar. Liveverbindingen (zoals een verbinding met een gegevensset van een Power BI-service) geven niet het menu-item **Snelle metingen** weer wanneer u met de rechtermuisknop op de lijst **Velden** klikt, met uitzondering van SSAS-liveverbindingen. 
 
 Wanneer u SSAS-liveverbindingen (SQL Server Analysis Services) gebruikt, zijn alleen sommige **Snelle metingen** beschikbaar. **Power BI Desktop** geeft alleen de verzamelde **Snelle metingen** weer die worden ondersteund voor de versie van SSAS waarmee de verbinding is gemaakt. Als u bent verbonden met een live SSAS-gegevensbron en bepaalde **Snelle metingen** niet in de lijst staan, komt dat omdat de SSAS-versie waarmee u bent verbonden, niet de DAX-meting ondersteunt die wordt gebruikt om die **Snelle meting** te implementeren.
 
@@ -141,9 +139,10 @@ En wanneer de meting perfect is, kunt u deze een handige andere naam geven met b
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 Er zijn enkele beperkingen en overwegingen waar u rekening mee moet houden.
 
-* **Snelle metingen** is alleen beschikbaar als u het model kunt aanpassen. Dit kan niet wanneer u met DirectQuery of de meeste liveverbindingen werkt (SSAS-liveverbindingen worden wel ondersteund, zoals eerder beschreven).
+* **Snelle metingen** is alleen beschikbaar als u het model kunt aanpassen. Dit kan niet wanneer u met sommige liveverbindingen werkt (tabellaire SSAS-liveverbindingen worden wel ondersteund, zoals eerder beschreven).
 * De meting die wordt toegevoegd aan de bron **Velden** kan voor elke visual in het rapport worden gebruikt.
 * U kunt de DAX die is gekoppeld aan een **Snelle meting** op elk moment bekijken door in de bron **Velden** de meting te selecteren en vervolgens de formule in de **formulebalk** te bekijken.
+* U kunt geen snelle time intelligence-meetwaarden maken wanneer u in de DirectQuery-modus werkt. De DAX-functies die worden gebruikt in deze snelle meetwaarden hebben implicaties voor de prestaties wanneer u ze omzet in de T-SQL-verklaringen die naar uw gegevensbron worden verzonden.
 
 > [!WARNING]
 > Snelle metingen genereren momenteel *alleen* DAX-instructies met een komma als scheidingsteken. Als uw versie van **Power BI Desktop** is gelokaliseerd in een taal die komma's als decimaaltekens gebruikt, werkt Snelle metingen niet goed.
@@ -151,7 +150,7 @@ Er zijn enkele beperkingen en overwegingen waar u rekening mee moet houden.
 > 
 
 ### <a name="time-intelligence-and-quick-measures"></a>Time intelligence en Snelle metingen
-Vanaf de update voor **Power BI Desktop** van oktober 2017 kunt u uw eigen aangepaste datumtabellen gebruiken met **Snelle metingen** voor time intelligence. Als uw gegevensmodel een aangepaste datumtabel heeft, kunt u de primaire datumkolom in de tabel gebruiken voor snelle metingen voor time intelligence. Het is *essentieel* dat tijdens het maken van het model de primaire datumkolom in de tabel als datumtabel is gemarkeerd, zoals beschreven in [dit artikel](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular).
+Vanaf de update voor **Power BI Desktop** van oktober 2017 kunt u uw eigen aangepaste datumtabellen gebruiken met **Snelle metingen** voor time intelligence. Als u een extern tabulair model gebruikt, is het essentieel dat tijdens het maken van het model de primaire datumkolom in de tabel als datumtabel is gemarkeerd, zoals beschreven in [dit artikel](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular). Als u uw eigen gegevenstabel importeert, moet u deze als datumtabel markeren, zoals beschreven in [dit artikel](https://docs.microsoft.com/power-bi/desktop-date-tables)
 
 ### <a name="additional-information-and-examples"></a>Aanvullende informatie en voorbeelden
 We zijn van plan om voorbeelden en richtlijnen voor alle **Snelle metingen**-berekeningen te geven. Bekijk het artikel dus regelmatig opnieuw voor updates.
