@@ -15,52 +15,52 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/08/2017
+ms.date: 05/04/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: f70ebae419c83e359f950d7b1180809d3e25b59e
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: ac30f03bc9f221097eeaa1c203bd19daa473cfa4
+ms.sourcegitcommit: 50016425005d2e929c8c606c2d0d393342e05d39
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/12/2018
 ---
-# <a name="create-a-responsive-slicer-you-can-resize-in-power-bi-preview"></a>Een responsieve slicer maken waarvan u de grootte kunt wijzigen in Power BI (preview)
+# <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>Een responsieve slicer maken waarvan u de grootte kunt wijzigen in Power BI
 
 Responsieve slicers worden in grootte aangepast zodat ze overal op het rapport passen. U kunt de grootte en vorm van responsieve slicers aanpassen, van horizontaal naar vierkant naar verticaal. De waarden in de slicer worden hierop automatisch gerangschikt. In Power BI Desktop kunt in de Power BI-service horizontale slicers en slicers voor datum/bereik responsief maken. Slicers voor datum/bereik hebben tevens verbeterde aanraakgebieden, zodat u ze eenvoudiger razendsnel kunt wijzigen. U kunt responsieve slicers zo klein of groot maken als u zelf wilt. Het formaat wordt ook automatisch aangepast zodat ze goed op rapporten in de Power BI-service en in de mobiele Power BI-apps passen. 
 
-![Responsieve slicers kunnen verschillende vormen hebben](media/power-bi-slicer-filter-responsive/responsive-slicer-gif.gif)
+![Responsieve slicers kunnen verschillende vormen hebben](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer.gif)
 
 ## <a name="create-a-slicer"></a>Een slicer maken
 
 De eerste stap bij het maken van een dynamische slicer is het maken van een eenvoudige slicer. 
 
-1. Selecteer het pictogram **Slicer** ![Slicerpictogram](media/power-bi-slicer-filter-responsive/power-bi-slicer-icon.png) in het deelvenster **Visualisaties**.
+1. Selecteer het pictogram **Slicer** ![Slicerpictogram](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer-icon.png) in het deelvenster **Visualisaties**.
 2. Sleep het veld dat u wilt filteren naar **Veld**.
 
-    ![Een veld aan de slicer toevoegen](media/power-bi-slicer-filter-responsive/power-bi-slicer-field.png)
+    ![Een veld aan de slicer toevoegen](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-1-create.png)
 
 ## <a name="convert-to-a-horizontal-slicer"></a>Naar een horizontale slicer converteren
 
 1. Selecteer de slicer en selecteer vervolgens in het deelvenster **Visualisaties** het tabblad **Indeling**.
 2. Vouw de sectie **Algemeen** uit en selecteer vervolgens voor **Afdrukstand** de optie **Horizontaal**.
 
-    ![De slicer instellen op horizontaal](media/power-bi-slicer-filter-responsive/power-bi-slicer-horizontal.png) 
+    ![De slicer instellen op horizontaal](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-2-horizontal.png) 
 
 1.  Waarschijnlijk wilt u de weergave breder maken om weer waarden weer te geven.
 
-     ![De slicer breder maken](media/power-bi-slicer-filter-responsive/power-bi-slicer-wide-horizontal.png)
+     ![De slicer breder maken](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-3-wider.png)
 
 ## <a name="make-it-responsive-and-experiment-with-it"></a>De slicer responsief maken en hiermee experimenteren
 
 Deze stap is eenvoudig. 
 
-1. Stel bij **Afdrukstand** in de sectie **Algemeen** van het tabblad **Indeling** de optie **Responsief (voorbeeldweergave)** in op **Aan**.  
+1. Stel bij **Afdrukstand** in de sectie **Algemeen** van het tabblad **Indeling** de optie **Responsief** in op **Aan**.  
 
-    ![De slicer is nu responsief](media/power-bi-slicer-filter-responsive/power-bi-slicer-wide-responsive.png)
+    ![De slicer is nu responsief](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-4-responsive-on.png)
 
 1. Nu kunt u ermee experimenteren. Versleep de hoeken om de slicer korter, hoger, breder of smaller te maken. Als u de slicer klein genoeg maakt, wordt alleen nog een filterpictogram weergegeven.
 
-    ![Responsieve slicer die zo klein is dat het een filterpictogram wordt](media/power-bi-slicer-filter-responsive/power-bi-slicer-small-filter-icon.png)
+    ![Responsieve slicer die zo klein is dat het een filterpictogram wordt](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-5-mini-icon.png)
 
 ## <a name="add-it-to-a-phone-report-layout"></a>Toevoegen aan de rapportindeling voor telefoons
 
@@ -68,11 +68,11 @@ In Power BI Desktop kunt u voor elke pagina van een rapport een telefoonindeling
 
 1. Selecteer in het menu **Beeld** de optie **Telefoonindeling**.
 
-     ![Pictogram Telefoonindeling, menu Beeld](media/power-bi-slicer-filter-responsive/power-bi-phone-layout-menu.png)
+     ![Pictogram Telefoonindeling, menu Beeld](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-6-phone-layout-button.png)
     
 1. Sleep alle visuals die u in het telefoonrapport wilt weergeven in het raster. Wanneer u de responsieve slicer sleept, stelt u dit op de gewenste grootte in; in dit geval slechts een filterpictogram.
 
-    ![De slicer toevoegen aan de indeling van het telefoonrapport](media/power-bi-slicer-filter-responsive/power-bi-slicer-phone-layout.png)
+    ![De slicer toevoegen aan de indeling van het telefoonrapport](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-7-phone-slicer-icon.png)
 
 Meer informatie over het maken van [rapporten die zijn geoptimaliseerd voor de mobiele Power BI-apps](desktop-create-phone-report.md).
 
