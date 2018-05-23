@@ -1,27 +1,19 @@
 ---
 title: Een upgrade uitvoeren voor Power BI Report Server
 description: Leer hoe u een upgrade uitvoert voor Power BI Report Server.
-services: powerbi
-documentationcenter: 
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: maghan
-ms.openlocfilehash: 337fafe395a5d80d0b82ac069579048a69cd6c4f
-ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
+ms.openlocfilehash: e54ddf59221b472bbac4e8665e036529ba475d9c
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="upgrade-power-bi-report-server"></a>Een upgrade uitvoeren voor Power BI Report Server
 Leer hoe u een upgrade uitvoert voor Power BI Report Server.
@@ -37,7 +29,7 @@ Voordat u een upgrade uitvoert van een rapportserver, is het raadzaam de volgend
 U moet back-up van de versleutelingssleutels maken wanneer u een installatie van de rapportserver voor het eerst configureert. U moet ook telkens een back-up van de sleutels maken wanneer u de identiteit van de serviceaccounts of de naam van de computer wijzigt. Zie [Back-ups van Reporting Services-versleutelingssleutels maken en herstellen](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-encryption-keys-back-up-and-restore-encryption-keys) voor meer informatie.
 
 ### <a name="backing-up-the-report-server-databases"></a>Back-ups van de rapportserverdatabases maken
-Omdat een rapportserver is een staatloze server is, worden alle toepassingsgegevens opgeslagen in de **reportserver-** en **reportservertempdb-**databases die worden uitgevoerd op een exemplaar van SQL Server Database Engine. U kunt een van de ondersteunde methoden voor het maken van back-ups van SQL Server-databases gebruiken om een back-up te maken van de databases **reportserver** en **reportservertempdb**. Aanbevelingen die specifiek zijn voor de rapportserverdatabase zijn onder meer:
+Omdat een rapportserver is een staatloze server is, worden alle toepassingsgegevens opgeslagen in de **reportserver-** en **reportservertempdb-** databases die worden uitgevoerd op een exemplaar van SQL Server Database Engine. U kunt een van de ondersteunde methoden voor het maken van back-ups van SQL Server-databases gebruiken om een back-up te maken van de databases **reportserver** en **reportservertempdb**. Aanbevelingen die specifiek zijn voor de rapportserverdatabase zijn onder meer:
 
 * Gebruik het volledig-herstelmodel om een back-up van de database **reportserver** te maken.
 * Gebruik het eenvoudige herstelmodel om een back-up van de database **reportservertempdb** te maken.

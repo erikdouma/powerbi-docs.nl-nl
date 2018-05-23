@@ -1,34 +1,31 @@
 ---
 title: Overzicht van vragen en antwoorden in Power BI-service en Power BI Desktop
 description: Overzicht van de documentatie voor Power BI Q&A-query's in natuurlijke taal.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: ''
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
+ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: c48e118a6708cae901a01d1956b6a3d0ea6c0561
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: a1d39d10982f1d598ffce7e978c1b030e0a442d4
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="qa-in-power-bi-service-and-power-bi-desktop"></a>Q&A in Power BI-service en Power BI Desktop
 ## <a name="what-is-qa"></a>Wat is Q&A?
 Soms krijgt u het snelst een antwoord uit uw gegevens wanneer u een vraag stelt in natuurlijke taal. Bijvoorbeeld: "Wat was de totale omzet het afgelopen jaar?"  Gebruik Q&A om aan de hand van intuïtieve, natuurlijke taal uw gegevens te verkennen en antwoorden te krijgen in de vorm van diagrammen en grafieken. Q&A verschilt van een zoekmachine. Q&A retourneert alleen resultaten over de gegevens in Power BI.
 
 Dit artikel is het uitgangspunt voor alles omtrent Q&A. Selecteer de onderstaande koppeling voor meer informatie over Q&A in Power BI-service (dashboards en rapporten), Power BI Desktop (rapporten), Power BI Embedded en Power BI-mobiel.  
+
+> [!NOTE]
+> **Power BI Q&A** ondersteunt alleen het beantwoorden van query's in natuurlijke taal gevraagd, die in het Engels zijn opgesteld. U kunt tevens een preview-functie proberen voor het stellen van vragen in het Spaans. Ga in **Power BI Desktop** naar **Bestand**, **Opties en instellingen**, **Opties** en zoek het tabblad **Preview-functies**. Schakel het selectievakje in voor **Ondersteuning voor Q&A in het Spaans**.  
+>
+>
 
 ![](media/power-bi-q-and-a/pbi_qa_boxsalessqft.png)
 

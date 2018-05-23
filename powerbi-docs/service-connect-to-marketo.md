@@ -1,28 +1,20 @@
 ---
 title: Verbinding maken met Marketo met Power BI
 description: Marketo voor Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 78f128e870bbf775c805438464342612d5ba8382
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3f7ad953f36830db74fb8e611dc9a0641498affd
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Verbinding maken met Marketo met Power BI
 Het Power BI-inhoudspakket voor Marketo biedt u inzicht in uw Marketo-account; u krijgt toegang tot gegevens over potentiële klanten en hun activiteiten. Als u deze verbinding tot stand brengt, worden uw gegevens opgehaald en krijgt u automatisch toegang tot een dashboard en rapporten op basis van de gegevens.
@@ -43,8 +35,8 @@ Verbinding maken met het [Marketo-inhoudspakket](https://app.powerbi.com/getdata
    
    ![](media/service-connect-to-marketo/pbi_marketoconnect.png)
    
-   Meer informatie over het Marketo REST-eindpunt: [http://developers.marketo.com/documentation/rest/endpoint-url/](http://developers.marketo.com/documentation/rest/endpoint-url/).
-5. Gebruik de verificatiemethode **Basic** en voer de client-id in bij **Gebruikersnaam** en het clientgeheim bij **Wachtwoord**. De client-id en het clientgeheim zijn beschikbaar in Marketo, of kunnen worden verkregen via uw Marketo-beheerder ([http://developers.marketo.com/documentation/rest/custom-service/](http://developers.marketo.com/documentation/rest/custom-service/)). 
+   Meer informatie over het Marketo REST-eindpunt: [http://developers.marketo.com/documentation/rest/endpoint-url/ ](http://developers.marketo.com/documentation/rest/endpoint-url/).
+5. Gebruik de verificatiemethode **Basic** en voer de client-id in bij **Gebruikersnaam** en het clientgeheim bij **Wachtwoord**. Client-ID en Clientgeheim zijn beschikbaar in Marketo of bij de marketo-beheerder ([http://developers.marketo.com/documentation/rest/custom-service/](http://developers.marketo.com/documentation/rest/custom-service/)). 
    
    ![](media/service-connect-to-marketo/pbi_marketosignin.png)
    

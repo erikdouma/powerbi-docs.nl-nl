@@ -1,28 +1,20 @@
 ---
 title: Verbinding maken met Microsoft Azure Enterprise met Power BI
 description: Microsoft Azure Enterprise voor Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 60bcad86af5fcaa09d6b2fb16b581ec7c37264ae
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7425e194bd6bda51442a128d146fb4061a77af81
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-microsoft-azure-enterprise-with-power-bi"></a>Verbinding maken met Microsoft Azure Enterprise met Power BI
 Verken en bewaak uw Microsoft Azure Enterprise-gegevens in Power BI met het Power BI-inhoudspakket. De gegevens worden eenmaal per dag automatisch vernieuwd.
@@ -73,7 +65,7 @@ Power BI-rapportage is beschikbaar voor EA Direct, partners en indirecte klanten
   
     ![](media/service-connect-to-azure-enterprise/params3.png)
 
-**Aantal maanden**
+**Number of Months**
 
 * Dit moet een getal zijn tussen 1-36 dat het aantal maanden (vanaf vandaag) aangeeft waarvoor u gegevens wilt importeren.
 

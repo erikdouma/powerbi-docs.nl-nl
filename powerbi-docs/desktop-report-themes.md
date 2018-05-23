@@ -1,28 +1,20 @@
 ---
 title: Rapportthema's gebruiken in Power BI Desktop (preview)
 description: Ontdek hoe u een aangepast kleurenpalet gebruikt en het toepast op een volledig rapport in Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8f4f8c257404eaca97f419603bac386da5bf7446
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 8ad48c0e5b78dabee7b1851c75b01e7fda611c1d
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Rapportthema's gebruiken in Power BI Desktop (preview)
 Met **Rapportthema's** kunt u een kleurenthema op uw gehele rapport toepassen, zoals zakelijke kleuren, seizoensgebonden kleuren of andere kleurthema's die u op een rapport zou willen toepassen. Bij het toepassen van een **Rapportthema** worden voor alle visuals in het rapport de kleuren van het geselecteerde thema gebruikt. Er zijn enkele uitzonderingen van toepassing, zoals verderop in dit artikel wordt beschreven.
@@ -149,7 +141,7 @@ Het JSON-basisbestand heeft vijf vereiste regels:
 
 * **name**: dit is de themanaam, het enige vereiste veld
 * **dataColors**: een lijst met hexcode-kleurcodes die voor gegevens in Power BI Desktop-visuals moeten worden gebruikt. De lijst kan zo veel of zo weinig kleuren bevatten als u wilt
-* **background**, **foreground** en **tableAccent**: deze waarden zijn kleuren die moeten worden gebruikt in **tabel**- en **matrix**-visuals. Hoe deze kleuren worden gebruikt, is afhankelijk van de specifieke tabel- of matrixstijl die is toegepast. Voor de **tabel**- en **matrix**-visuals worden deze stijlen standaard toegepast.
+* **background**, **foreground** en **tableAccent**: deze waarden zijn kleuren die moeten worden toegepast in verschillende typen visuals. De **foreground** is van toepassing op tekst in tekstvakken, tekst met KPI-doelen, tekst in kaarten met meerdere rijen, kaartwaardetekst, toelichtingstekst bij meters, tekst bij verticale slicerelementen, en totalen en waardeteksten voor **tabellen** en **matrixen**. De **background** is van toepassing op de invulling van knoppen en de achtergrond van labels in combinatiegrafieken. Hoe deze kleuren worden gebruikt, is afhankelijk van de visual die is toegepast. Voor de **tabel**- en **matrix**-visuals worden deze stijlen standaard toegepast.
 
 Als u een uitgebreid JSON-bestand wilt maken met gedetailleerder beheer van de opmaak, moet u een gedeelte **visualStyles** toevoegen in het JSON-bestand en opmaakgegevens in dit gedeelte opnemen. De indeling van het gedeelte **visualStyles** ziet er als volgt uit:
 

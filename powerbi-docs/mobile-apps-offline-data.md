@@ -1,27 +1,19 @@
 ---
 title: Gegevens offline weergeven in de mobiele Power BI-apps
 description: 'Hier leest u wat een voordeel is van het weergeven van Power BI in een mobiele app in plaats van een mobiele browser: u kunt uw gegevens ook zien wanneer u niet met een netwerk bent verbonden.'
-services: powerbi
-documentationcenter: 
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: 6ed6f2898fa99075c6130cd60c083f619b6ba258
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 5dd171ccd7d8859286abeac2f87771b454421448
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Gegevens offline weergeven in de mobiele Power BI-apps
 Van toepassing op:

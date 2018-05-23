@@ -1,28 +1,20 @@
 ---
 title: Drillthrough gebruiken in Power BI Desktop
 description: Informatie over inzoomen op nieuwe gegevens op een nieuwe rapportpagina in Power BI Desktop.
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/08/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d0c78643d285099f7b7856704ac7ee350ff9f93a
-ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
+ms.openlocfilehash: 8c9a0d075c6d55baa1f518874fa668a3f0db8cb3
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Drillthrough gebruiken in Power BI Desktop
 Met **drillthrough** in **Power BI Desktop** kunt u een pagina in uw rapport maken die zich op een bepaalde entiteit richt, zoals een leverancier, klant of fabrikant. Met die specifieke rapportpagina kunnen gebruikers met de rechtermuisknop op een gegevenspunt in andere rapportpagina's klikken en inzoomen op die specifieke pagina voor gefilterde details met betrekking tot die context.
@@ -71,6 +63,14 @@ Wanneer u drillthrough toepast op een visual kunt u zien welke filters er zijn t
 ![tijdelijke filters in cursief](media/desktop-drillthrough/drillthrough_07.png)
 
 U kunt dit doen met tooltips-pagina’s, maar dat zou een vreemde ervaring zijn (de tooltip wordt niet op de juiste manier werkend weergegeven) dus het wordt niet aanbevolen om dit te doen met tooltips.
+
+## <a name="add-a-measure-to-drillthrough"></a>Een meting aan drillthrough toevoegen
+
+Naast het doorgeven van alle filters aan het drillthrough-venster, kunt u ook een meting (of een samengevatte numerieke kolom) toevoegen aan het drillthrough-gebied. Sleep het veld drillthrough naar de kaart Drillthrough om dit toe te passen. 
+
+![een meting aan drillthrough toevoegen](media/desktop-drillthrough/drillthrough_08.png)
+
+Wanneer u een meting (of samengevatte numerieke kolom) toevoegt, kunt u inzoomen op de pagina als het veld wordt gebruikt het gebied *Waarde* van een visual.
 
 Meer hoeft u niet te doen om **drillthrough** in uw rapporten te gebruiken. Het is een uitstekende manier om een uitgebreid overzicht te krijgen over de entiteitsgegevens die u voor uw drillthrough-filter selecteert.
 

@@ -1,28 +1,21 @@
 ---
 title: Interactie met een ArcGIS-kaart die met u is gedeeld
 description: 'ArcGIS-kaart gebruiken in de leesweergave '
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
+ms.reviewer: ''
 tags: power bi, service, desktop, mobile
 featuredvideoid: ''
-qualityfocus: monitoring
-qualitydate: 06/23/2017
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 3a4c722144b1d3d44dee0f742b5ae90ccef53fe3
-ms.sourcegitcommit: c45498071d582dcca264216863906ffaae382523
+ms.openlocfilehash: 2a5e654062c056308431b2a94f7e2da4e3d46d17
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Interactie met ArcGIS-kaarten in Power BI
 Dit onderwerp is geschreven vanuit het oogpunt van een persoon die een ArcGIS-kaart *gebruikt* in de Power BI-service, in de desktopversie of op een mobiel apparaat. Zodra een maker een ArcGIS-kaart met u deelt, kunt u deze kaart op veel manieren gebruiken.  Zie [ArcGIS maps by esri tutorial](power-bi-visualization-arcgis.md) (ArcGIS-kaarten van Esri - een zelfstudie) voor meer informatie over het maken van een ArcGIS-kaart.

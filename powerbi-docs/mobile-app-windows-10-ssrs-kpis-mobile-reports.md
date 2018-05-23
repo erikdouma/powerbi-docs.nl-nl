@@ -1,27 +1,19 @@
 ---
 title: Mobiele SSRS-rapporten en KPI's weergeven in de mobiele app voor Windows 10 - Power BI
 description: De mobiele Power BI-app voor Windows 10 biedt op uw mobiele apparaat via aanraking live toegang tot uw belangrijke on-premises zakelijke informatie.
-services: powerbi
-documentationcenter: 
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: 7d210e6f31cd76060bcc824622962804b82dc495
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 7bbf03c35284924c415a9ae1348528ed80c3f2fe
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="view-reporting-services-ssrs-mobile-reports-and-kpis-in-the-windows-10-power-bi-mobile-app"></a>Mobiele rapporten en KPI's van Reporting Services (SSRS) weergeven in de mobiele Power BI-app voor Windows 10
 De mobiele Power BI-app voor Windows 10 biedt op uw mobiele apparaat via aanraking live toegang tot uw belangrijke on-premises zakelijke informatie in SQL Server 2016 Reporting Services. 
@@ -42,7 +34,7 @@ Bekijk de mobiele rapporten en KPI's, geordend in mappen of verzameld als favori
 Ook als u geen toegang hebt tot een Reporting Services-webportal, kunt u de functies van mobiele rapporten van Reporting Services bekijken.
 
 1. Open de Power BI-app op uw Windows 10-apparaat.
-2. Tik op de algemene navigatieknop ![Algemene navigatieknop](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/powerbi_windows10_options_icon.png) in de linkerbovenhoek.
+2. Tik op de algemene navigatieknop ![Knop voor globale navigatie](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/powerbi_windows10_options_icon.png) in de linkerbovenhoek.
 3. Tik op het pictogram **Instellingen** ![pictogram Instellingen](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png), klik met de rechtermuisknop op **Verbinding maken met server** (of tik erop en houd vast) en tik op **Voorbeelden weergeven**.
    
    ![SSRS-voorbeelden bekijken](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-win10-connect-ssrs-samples.png)

@@ -1,28 +1,20 @@
 ---
 title: Verbinding maken met Project "Madeira" met behulp van Power BI
 description: Project "Madeira" voor Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 02b8c2e8ed9a8a4ca0c8aaf9848699f3ca3c24c8
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: b4462d8ef5037cf4fe76a6ff061b7993e8d8ec44
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Verbinding maken met Project "Madeira" met behulp van Power BI
 U kunt eenvoudig inzicht krijgen in uw Project "Madeira"-gegevens met Power BI en het Project "Madeira"-inhoudspakket. Met Power BI kunt u uw gegevens ophalen, zowel verkoopgegevens als financiële gegevens, en vervolgens een out-of-box-dashboard en rapporten bouwen op basis van die gegevens.
@@ -40,7 +32,7 @@ Maak verbinding met het [Project "Madeira" Analytics-inhoudspakket](https://app.
     ![](media/service-connect-to-project-madeira/services.png)
 3. Selecteer **Project "Madeira"** en selecteer vervolgens **Ophalen**.  
     ![](media/service-connect-to-project-madeira/projectmadeira.png)
-4. Wanneer u dat wordt gevraagd, voert u de URL van Project "Madeira" in. De URL moet het volgende patroon exact volgen en uw Project "Madeira"-bedrijfsnaam bevatten: https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US'). Let er op dat er geen afsluitende schuine streep aan het einde staat en dat de verbinding https is. Gedetailleerde informatie over het vinden van deze URL vindt u [hieronder](#FindingParams).  
+4. Wanneer u dat wordt gevraagd, voert u de URL van Project "Madeira" in. De URL moet het volgende patroon exact volgen en de bedrijfsnaam van uw project Madeira bevatten: https://mycronusus.projectmadeira.com:7048/NAV/OData/Company(CRONUS%20US). Let er op dat er geen afsluitende schuine streep aan het einde staat en dat de verbinding https is. Gedetailleerde informatie over het vinden van deze URL vindt u [hieronder](#FindingParams).  
    
     ![](media/service-connect-to-project-madeira/params.png)
 5. Wanneer u dat wordt gevraagd, selecteert u Basic als verificatiemethode, voert u uw e-mailadres voor Project "Madeira" in als de gebruikersnaam, en voert u de webservicetoegangssleutel voor uw Project "Madeira"-account in als het wachtwoord. Als u al bent aangemeld bij Project "Madeira" in uw browser, ontvangt u mogelijk geen prompt om referenties in te voeren. Gedetailleerde informatie over het genereren van de toegangssleutel vindt u [hieronder](#FindingParams).  

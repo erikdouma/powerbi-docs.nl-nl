@@ -1,27 +1,19 @@
 ---
 title: Wat is er nieuw in de mobiele apps voor Power BI
 description: Wat is er nieuw in de mobiele apps voor Power BI
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
+ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
 ms.date: 04/23/2018
 ms.author: maggies
-ms.openlocfilehash: 381cfeaf8e117cfdc952e361cd0e6cb633b65f47
-ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
+ms.openlocfilehash: 5bd38c7973a4820b98e6591a12a8950987759b93
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -407,7 +399,7 @@ Lees de [blog over mobiele Power BI-apps van maart 2016](https://powerbi.microso
 #### <a name="iphone-mobile-app"></a>Mobiele iPhone-app
 **Apple Watch** Bekijk uw Power BI-tegels en KPI's op uw [Apple Watch](mobile-apple-watch.md) (Engelstalig).
 
-**iOS 9.0 en hoger**  Voor de beste prestaties en om nieuwe functies voor Power BI mogelijk te maken, worden alleen apparaten ondersteund waarop iOS 9.0 en hoger wordt uitgevoerd.
+**iOS 9.0 en hoger ** Voor de beste prestaties en om nieuwe functies voor Power BI mogelijk te maken, worden alleen apparaten ondersteund waarop iOS 9.0 en hoger wordt uitgevoerd.
 
 **Algemene zoekopdracht** Lijst met onlangs weergegeven items en globale zoekopdracht toegevoegd, zodat u snel de benodigde gegevens kunt vinden.
 

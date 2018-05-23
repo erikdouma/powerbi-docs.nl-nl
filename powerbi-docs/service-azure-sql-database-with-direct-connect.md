@@ -1,28 +1,20 @@
 ---
 title: Azure SQL Database met DirectQuery
 description: Azure SQL Database met DirectQuery
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 12/18/2017
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: a32326c089c50ef4913f6d646d68d66e31efdbfc
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 27b2eb90a07d3112b771fd3ee23cc86353a46991
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="azure-sql-database-with-directquery"></a>Azure SQL Database met DirectQuery
 Ontdek hoe u rechtstreeks verbinding met Azure SQL Database maakt en rapporten kunt maken waarin dynamische gegevens worden gebruikt. U kunt uw gegevens in de bron in plaats van Power BI bewaren.
@@ -36,7 +28,7 @@ Met DirectQuery worden query’s teruggestuurd naar Azure SQL Database wanneer u
 * Voor elke actie, zoals het selecteren van een kolom of het toevoegen van een filter, wordt er een query terug naar de database gestuurd.
 * Tegels worden om het uur vernieuwd (vernieuwen hoeft niet te worden gepland). Dit kan worden aangepast in de geavanceerde instellingen wanneer u verbinding maakt.
 * Q&A is niet beschikbaar voor DirectQuery-gegevenssets.
-* Wijzigingen in het schema worden niet automatisch doorgevoerd
+* Wijzigingen in het schema worden niet automatisch doorgevoerd.
 
 Deze beperkingen en opmerkingen kunnen veranderen, aangezien we de ervaring voortdurend proberen te verbeteren. De stappen om verbinding te maken, worden hieronder beschreven. 
 

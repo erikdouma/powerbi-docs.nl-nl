@@ -1,28 +1,20 @@
 ---
 title: Verbinding maken met Xero via Power BI
 description: Xero voor Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: d9f61067f89fb031926428109ef5dac5bcfd6392
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d3074602af73d937e64a9155d3d197b91b1b1ae8
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-xero-with-power-bi"></a>Verbinding maken met Xero via Power BI
 Xero is eenvoudig te gebruiken onlineboekhoudsoftware die speciaal ontworpen is voor kleine bedrijven. Met behulp van dit Power BI-inhoudspakket kunt u indrukwekkende visualisaties maken op basis van uw financiële gegevens in Xero. Uw standaarddashboard bevat allerlei metrische gegevens voor kleine bedrijven zoals kaspositie, omzet versus uitgaven, winst-en-verlies-trend, vervallen facturen en ROI.
@@ -102,7 +94,7 @@ Geef een naam op voor uw organisatie die kan worden bijgehouden in Power BI. Dit
 * Als het inhoudspakket niet kan worden vernieuwd, controleert u of u per ongeluk niet meer dan één keer verbinding hebt gemaakt met dezelfde organisatie in Power BI. Xero staat slechts één actieve verbinding met een organisatie toe en mogelijk ziet u een foutbericht dat aangeeft dat uw referenties ongeldig zijn als u meer dan één keer verbinding probeert te maken met dezelfde organisatie.  
 * Als er problemen zijn bij het verbinding maken met het Xero-inhoudspakket voor Power BI, zoals foutberichten of een erg trage respons, wist u eerst de cache en cookies, start u de browser opnieuw en maakt u vervolgens opnieuw verbinding met Power BI.  
 
-Voor andere problemen kunt u een ondersteuningsticket aanmaken op http://support.powerbi.com als het probleem zich blijft voordoen.
+Voor andere problemen kunt u een ondersteuningsticket maken op http://support.powerbi.com als het probleem zich blijft voordoen.
 
 ## <a name="next-steps"></a>Volgende stappen
 [Aan de slag in Power BI](service-get-started.md)

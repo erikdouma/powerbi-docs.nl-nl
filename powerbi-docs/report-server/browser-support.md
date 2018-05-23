@@ -1,27 +1,19 @@
 ---
 title: Browserondersteuning voor Power BI Report Server
 description: Meer informatie over welke browserversies worden ondersteund voor het beheren en weergeven van Power BI Report Server en de besturingselementen van de rapportviewer.
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 01/25/2018
 ms.author: maghan
-ms.openlocfilehash: a0ac612ec132d5aefc8353b4ef92212913e3db5a
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 23eea014ca4554a2df676cf1fe0be54c2b69d15a
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Browserondersteuning voor Power BI Report Server
 Meer informatie over welke browserversies worden ondersteund voor het beheren en weergeven van Power BI Report Server en de besturingselementen van de rapportviewer.
@@ -54,7 +46,7 @@ Hier volgt de huidige lijst met browsers die worden ondersteund voor de web-port
 
 * Google Chrome (+)
   
-  **(+)**  Nieuwste openbaar vrijgegeven versie
+  **(+) ** Nieuwste openbaar vrijgegeven versie
 
 ## <a name="browser-requirements-for-the-report-viewer-web-control-2015"></a>Browservereisten voor het webbesturingselement voor rapportviewer (2015)
 Hier volgt de huidige lijst met browsers die worden ondersteund voor het webbesturingselement voor rapportviewer. De rapportviewer ondersteunt de weergave van rapporten vanuit de webportal.
@@ -72,7 +64,7 @@ Hier volgt de huidige lijst met browsers die worden ondersteund voor het webbest
 
 * Apple Safari (+)
   
-  **(+)**  Nieuwste openbaar vrijgegeven versie
+  **(+) ** Nieuwste openbaar vrijgegeven versie
 
 ### <a name="authentication-requirements"></a>Verificatievereisten
 Browsers ondersteunen specifieke verificatieschema's die moeten worden verwerkt door de rapportserver om ervoor te zorgen dat de aanvraag van de client lukt. De volgende tabel geeft aan welke standaard verificatietypen worden ondersteund door elke browser die wordt uitgevoerd op een Windows-besturingssysteem.
@@ -85,7 +77,7 @@ Browsers ondersteunen specifieke verificatieschema's die moeten worden verwerkt 
 | **Mozilla Firefox**(+) |NTLM, Basic |NTLM |Ja. De standaardinstellingen voor verificatie werken met Firefox. |
 | **Apple Safari**(+) |NTLM, Basic |Basic |Ja. De standaardinstellingen voor verificatie werken met Safari. |
 
- **(+)**  Nieuwste openbaar vrijgegeven versie
+ **(+) ** Nieuwste openbaar vrijgegeven versie
 
 ### <a name="script-requirements-for-viewing-reports"></a>Scriptvereisten voor het weergeven van rapporten
 Configureer uw browser voor het uitvoeren van scripts wanneer u de rapportviewer wilt gebruiken.
@@ -116,7 +108,7 @@ Gebruik een browser waarbij scriptondersteuning is ingeschakeld. Als de browser 
 * Google Chrome (+)
 * Mozilla Firefox (+)
   
-  **(+)**  Nieuwste openbaar vrijgegeven versie
+  **(+) ** Nieuwste openbaar vrijgegeven versie
 
 ## <a name="next-steps"></a>Volgende stappen
 [Beheerdershandboek](admin-handbook-overview.md)  

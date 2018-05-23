@@ -1,27 +1,19 @@
 ---
 title: De presentatiemodus weergeven in Surface Hub en Windows 10 - Power BI I
 description: Meer informatie over het weergeven van Power BI-rapporten in Surface Hub en het weergeven van Power BI-dashboards, -rapporten en -tegels in de modus Volledig scherm op Windows 10-apparaten.
-services: powerbi
-documentationcenter: 
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: cd4fa5d694b76a93ccb017ec17473e8f2775ed85
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 13bfd1d587d59c1c87f03605dbe62f60fa90f5c6
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="view-reports-in-presentation-mode-on-surface-hub-and-windows-10---power-bi"></a>Rapporten weergeven in de presentatiemodus op Surface Hub en Windows 10 - Power BI
 U kunt rapporten weergeven in de presentatiemodus op Surface Hub en dashboards, rapporten en tegels in de modus Volledig scherm weergeven op Windows 10-apparaten. 
@@ -82,5 +74,5 @@ De presentatiemodus is standaard ingeschakeld in Surface Hub, maar als deze uitg
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Dashboards en rapporten weergeven in de modus Volledig scherm van de Power BI-service](service-fullscreen-mode.md)
-* Vragen? [Misschien dat de Power Bi-community het antwoord weet](http://community.powerbi.com/)
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

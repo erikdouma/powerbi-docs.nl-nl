@@ -1,28 +1,20 @@
 ---
 title: Aanbevolen procedures voor de prestaties van Power BI
 description: Dit artikel bevat informatie voor het snel maken van betrouwbare rapporten in Power BI
-services: powerbi
-documentationcenter: ''
 author: MarkMcGeeAtAquent
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/12/2017
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/18/2018
 ms.author: v-mamcge
 LocalizationGroup: Reports
-ms.openlocfilehash: e584f48f5d3650821aac094ebfde7eef5261cc36
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 78dcd0ac0735bfbb3c22678d6bda1397120360cd
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="power-bi-performance-best-practices"></a>Aanbevolen procedures voor de prestaties van Power BI 
 Dit artikel biedt informatie voor het snel maken van betrouwbare rapporten in Power BI.  
@@ -96,8 +88,14 @@ Houd er rekening mee dat voor DirectQuery en live-verbinding deze querycache per
 ## <a name="understand-custom-visual-performance"></a>Prestaties van aangepaste visuals begrijpen 
 Zorg ervoor dat u voor elke aangepaste visual de juiste stappen uitvoert om hoge prestaties te garanderen. Onvoldoende geoptimaliseerde aangepaste visuals kunnen de prestaties van het volledige rapport negatief beïnvloeden. 
  
-## <a name="deep-dive-into-query-performance-with-sql-profiler-and-power-bi-desktop"></a>Verdiepen in queryprestaties met SQL Profiler en Power BI Desktop 
-Voor meer informatie over welke visuals de meeste tijd en resources gebruiken, kunt u SQL Profiler verbinden met Power BI Desktop voor een volledige weergave van de prestaties van query's. Ga hiervoor als volgt te werk: 
+## <a name="deep-dive-into-query-performance-with-sql-profiler-and-power-bi-desktop"></a>Verdiepen in queryprestaties met SQL Profiler en Power BI Desktop
+
+Voor meer informatie over welke visuals de meeste tijd en resources gebruiken, kunt u SQL Profiler verbinden met Power BI Desktop voor een volledige weergave van de prestaties van query's.
+
+> [!NOTE]
+> Power BI Desktop ondersteunt verbindingen met een poort voor diagnostische gegevens. Via de poort voor diagnostische gegevens kunt u verbinding maken met andere hulpprogramma’s en traceringen uitvoeren voor diagnostische doeleinden. *Het aanbrengen van wijzigingen in het model wordt niet ondersteund! Wijzigingen in het model kunnen leiden tot beschadiging en verlies van gegevens.*
+
+Ga hiervoor als volgt te werk:
   
 1. **Installeer SQL Server Profiler en voer Power BI Desktop uit** 
 

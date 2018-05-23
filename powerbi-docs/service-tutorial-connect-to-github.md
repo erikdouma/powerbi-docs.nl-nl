@@ -1,30 +1,23 @@
 ---
-title: 'Zelfstudie: verbinding maken met de GitHub-app met Power BI'
+title: 'Zelfstudie: verbinding maken met een GitHub-voorbeeld met Power BI'
 description: In deze zelfstudie gebruikt u echte gegevens in de GitHub-service met Power BI en Power BI maakt automatisch dashboards en rapporten.
 author: maggiesMSFT
 manager: kfile
-backup: SarinaJoan
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: SarinaJoan
 ms.service: powerbi
 ms.component: powerbi-service
 ms.custom: connect-to-services
-ms.devlang: NA
 ms.topic: tutorial
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 05/05/2018
+ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5f393d8255128b27dce8422444b427835aeef0cb
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 1c2579f4250914933fd0459668fb55e4ba339f90
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/19/2018
 ---
-# <a name="tutorial-connect-to-the-github-app-with-power-bi"></a>Zelfstudie: verbinding maken met de GitHub-app met Power BI
+# <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>Zelfstudie: verbinding maken met een GitHub-voorbeeld met Power BI
 In deze zelfstudie gebruikt u echte gegevens in de GitHub-service met Power BI en Power BI maakt automatisch dashboards en rapporten. U maakt verbinding met de opslagplaats voor openbare Power BI-inhoud (ook wel *repo* genoemd) en ziet de volgende informatie: hoeveel dragen bij aan de openbare Power BI-inhoud? Wie levert de meeste bijdragen? Op welke dag van de wek worden de meeste bijdragen geleverd? En antwoorden op andere vragen. 
 
 ![Het GitHub-rapport in Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-punch-card.png)
