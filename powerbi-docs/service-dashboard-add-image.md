@@ -1,29 +1,21 @@
 ---
 title: Een afbeelding toevoegen aan een Power BI-dashboard
 description: Documentatie over hoe u een afbeelding kunt toevoegen aan een Power BI-dashboard.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: ''
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7927e43f570912b341ccd99dcbc1a7b8003c2fd1
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 84b952dd744028e453101f3efb31ba8d084be2e1
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="add-an-image-to-a-power-bi-dashboard"></a>Een afbeelding toevoegen aan een Power BI-dashboard
 Er zijn verschillende manieren om een zelfstandige afbeelding toe te voegen aan een dashboard: één manier is een afbeelding van een rapport vast te maken aan een dashboard en een andere manier is de afbeelding rechtstreeks toe te voegen aan het dashboard met **Tegel toevoegen**.  Ga voor meer informatie naar deze artikelen:

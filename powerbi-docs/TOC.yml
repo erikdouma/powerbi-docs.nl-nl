@@ -140,8 +140,6 @@
                   href: service-connect-to-azure-consumption-insights.md
                 - name: Azure Search
                   href: service-connect-to-azure-search.md
-                - name: Azure Security Center
-                  href: service-connect-to-azure-security-center.md
                 - name: Circuit-id
                   href: service-connect-to-circuit-id.md
                 - name: ClickDimensions
@@ -416,8 +414,6 @@
                   href: refresh-csv-file-onedrive.md
                 - name: Problemen met vernieuwingsscenario's oplossen
                   href: refresh-troubleshooting-refresh-scenarios.md
-                - name: Privacyinstellingen uitschakelen
-                  href: refresh-enable-fast-combine.md
             - name: Problemen oplossen
               items:
                 - name: Uw wachtwoord vergeten voor Power BI?
@@ -470,6 +466,18 @@
       items:
         - name: Meerdere gegevensbronnen vorm geven en combineren
           href: desktop-shape-and-combine-data.md
+        - name: Gegevens van een webpagina importeren en analyseren met Power BI Desktop
+          href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
+        - name: ' Verkoopgegevens uit Excel en een OData-feed analyseren'
+          href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
+        - name: Uw eigen metingen maken in Power BI Desktop
+          href: desktop-tutorial-create-measures.md
+        - name: Berekende kolommen maken in Power BI Desktop
+          href: desktop-tutorial-create-calculated-columns.md
+        - name: Facebook-analyses met Power BI Desktop
+          href: desktop-tutorial-facebook-analytics.md
+        - name: Dynamische beveiliging op rijniveau met tabellair model van Analysis Services
+          href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
     - name: Voorbeelden
       items:
         - name: De werkmap met financiële voorbeelden voor Power BI downloaden
@@ -526,18 +534,6 @@
           href: desktop-connect-to-data.md
         - name: Publiceren vanuit Power BI Desktop
           href: desktop-upload-desktop-files.md
-        - name: Gegevens van een webpagina importeren en analyseren met Power BI Desktop
-          href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
-        - name: ' Verkoopgegevens uit Excel en een OData-feed analyseren'
-          href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
-        - name: Uw eigen metingen maken in Power BI Desktop
-          href: desktop-tutorial-create-measures.md
-        - name: Berekende kolommen maken in Power BI Desktop
-          href: desktop-tutorial-create-calculated-columns.md
-        - name: Facebook-analyses met Power BI Desktop
-          href: desktop-tutorial-facebook-analytics.md
-        - name: Dynamische beveiliging op rijniveau met tabellair model van Analysis Services
-          href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
         - name: Aangepaste visualisaties in Power BI
           href: power-bi-custom-visuals.md
         - name: Aangepaste visuals voor organisaties in Power BI
@@ -898,8 +894,6 @@
           href: developer/qanda.md
     - name: Procedures
       items:
-        - name: Een aangepaste visual maken met ontwikkelhulpprogramma's
-          href: service-custom-visuals-getting-started-with-developer-tools.md
         - name: Uw inhoud insluiten
           href: developer/embedding-content.md
         - name: Gegevens in een dashboard pushen
@@ -914,6 +908,18 @@
           href: developer/integrate-report.md
         - name: Inhoud integreren in uw toepassing (app is eigenaar van de gegevens)
           href: developer/embed-sample-for-customers.md
+        - name: Inhoud integreren in uw toepassing voor onafhankelijke clouds (app is eigenaar van de gegevens)
+          href: developer/embed-sample-for-customers-sovereign-clouds.md
+        - name: Een aangepaste visual maken
+          items:
+            - name: Een aangepaste visual maken met ontwikkelhulpprogramma's
+              href: service-custom-visuals-getting-started-with-developer-tools.md
+            - name: De beveiliging en privacy van aangepaste visuals controleren
+              href: service-custom-visuals-review-for-security-and-privacy.md
+            - name: Een aangepaste visual laten certificeren
+              href: power-bi-custom-visuals-certified.md
+            - name: Aangepaste visuele elementen publiceren naar AppSource
+              href: developer/office-store.md
         - name: Insluiten
           items:
             - name: Insluiten met Power BI
@@ -932,12 +938,6 @@
               href: developer/migrate-code-snippets.md
             - name: Problemen oplossen met uw ingesloten toepassing
               href: developer/embedded-troubleshoot.md
-        - name: Een aangepaste visual maken
-          items:
-            - name: De beveiliging en privacy van aangepaste visuele elementen controleren
-              href: service-custom-visuals-review-for-security-and-privacy.md
-            - name: Een aangepaste visual laten certificeren
-              href: power-bi-custom-visuals-certified.md
         - name: Gegevens in een dashboard pushen
           items:
             - name: Een app bij Azure AD registreren
@@ -976,7 +976,7 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
     - name: Resources
       items:
-        - name: Demo voor het insluiten van JavaScript
+        - name: Voorbeeld van JavaScript Playground
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
         - name: Voorbeelden
           href: 'https://go.microsoft.com/fwlink/?linkid=851293'
@@ -1126,10 +1126,12 @@
           href: service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md
         - name: Proxyinstellingen configureren
           href: service-gateway-proxy.md
-        - name: On-premises gegevensgateway - uitgebreid
-          href: service-gateway-onprem-indepth.md
         - name: Clusters met hoge beschikbaarheid voor on-premises gegevensgateway
           href: service-gateway-high-availability-clusters.md
+        - name: On-premises gegevensgateway
+          href: service-gateway-onprem.md
+        - name: On-premises gegevensgateway - uitgebreid
+          href: service-gateway-onprem-indepth.md
         - name: On-premises gegevensgateway (persoonlijke modus)
           href: service-gateway-personal-mode.md
         - name: Problemen met de on-premises gegevensgateway oplossen
@@ -1188,6 +1190,8 @@
           href: service-admin-health.md
         - name: Uw Power BI-account beëindigen
           href: service-admin-closing-your-account.md
+        - name: Power BI Pro in uw organisatie
+          href: service-admin-power-bi-pro-in-your-organization.md
         - name: Power BI (gratis) in uw organisatie
           href: service-admin-service-free-in-your-organization.md
         - name: Power BI en ExpressRoute

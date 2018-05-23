@@ -1,28 +1,20 @@
 ---
 title: Q&A gebruiken met liveverbindingen
 description: Hier leest u hoe u Q&A van Power BI gebruikt om query's in natuurlijke taal uit te voeren via live-verbindingen met Analysis Services-gegevens en de on-premises gegevensgateway.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: mihart
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: mihart
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: c6fa26d85d362af0d66276509f4e52ba718d338a
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 7402bc638f27175e1c8e1f733fefd508850d9943
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="enable-qa-for-live-connections"></a>Q&A inschakelen voor live-verbindingen
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>Wat is een on-premises gegevensgateway?  Wat is een live-verbinding?
@@ -71,5 +63,5 @@ Tijdens de preview-fase van deze functie gelden verschillende beperkingen:
 [Power BI - basisconcepten](service-basic-concepts.md)  
 [Overzicht van Q&A-functie in Power BI](power-bi-q-and-a.md)  
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

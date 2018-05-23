@@ -1,28 +1,20 @@
 ---
 title: Samenwerken in de werkruimte van uw Power BI-app
 description: Meer informatie over samenwerken aan Power BI Desktop-bestanden in de werkruimte van uw app en met Office 365-services, zoals het delen van bestanden op OneDrive voor Bedrijven, conversaties in Exchange, agenda en taken.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ajayan
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/29/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1837bc36ac4707663b5583699b0090ac9a692eb7
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: cab0f0513d73a865407574d43f8cd65ca5d75a9e
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Samenwerken in de werkruimte van uw Power BI-app
 De Power BI app-werkruimten zijn goede plaatsen om met uw collega's samen te werken aan dashboards, rapporten en gegevenssets om *apps* te maken. Dat is waar werkruimten voor zijn ontworpen -- samenwerking. Als u klaar bent met de samenwerking met collega’s aan uw dashboards en rapporten, kunt u deze als een app verpakken en ze distribueren. Meer informatie over [apps en app-werkruimten maken in Power BI](service-create-distribute-apps.md). 

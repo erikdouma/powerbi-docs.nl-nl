@@ -4,13 +4,13 @@ Goed gedaan! **Gefeliciteerd.** U hebt de cursus **Begeleide training** voor Pow
 
 Dit is de laatste sectie (en het laatste onderwerp, tenzij u meer wilt weten over DAX) van de cursus. Als u alle secties in de juiste volgorde hebt bekeken, kunt u tevreden over uzelf zijn. Goed gedaan! U weet nu alles over de volgende **belangrijke concepten**:
 
-* Wat [Power BI is](../gettingstarted.yml#step-1)
-* De [bouwstenen](../gettingstarted.yml#step-3) van Power BI
-* Gegevens [ophalen](../gettingdata.yml#step-3) en [modelleren](../modeling.yml#step-1)
-* [Visualisaties](../visualizations.yml#step-1)
-* [Gegevens verkennen](../exploringdata.yml#step-1) in de Power BI-service
-* [Excel en Power BI](../powerbiandexcel.yml#step-1) in combinatie gebruiken
-* Uw werk [publiceren en delen](../publishingandsharing.yml#step-1)
+* Wat [Power BI is](../gettingstarted.yml?tutorial-step=1)
+* De [bouwstenen](../gettingstarted.yml?tutorial-step=3) van Power BI
+* Gegevens [ophalen](../gettingdata.yml?tutorial-step=3) en [modelleren](../modeling.yml?tutorial-step=1)
+* [Visualisaties](../visualizations.yml?tutorial-step=1)
+* [Gegevens verkennen](../exploringdata.yml?tutorial-step=1) in de Power BI-service
+* [Excel en Power BI](../powerbiandexcel.yml?tutorial-step=1) in combinatie gebruiken
+* Uw werk [publiceren en delen](../publishingandsharing.yml?tutorial-step=1)
 
 Dat is niet niks. Nu u dit allemaal in uw hoofd hebt, kunt u uw kennis in praktijk brengen. Hier volgen enkele **koppelingen naar downloads** of manieren om uw browser **te verbinden met de Power BI-service**:
 

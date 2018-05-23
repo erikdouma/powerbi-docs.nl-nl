@@ -1,28 +1,20 @@
 ---
 title: Registratie voor Power BI voor Amerikaanse overheidsklanten
 description: Voor de VS Hier kunnen overheidsklanten lezen hoe ze hun Amerikaanse overheidsorganisatie kunnen registreren voor de Power BI-service voor de Amerikaanse overheid.
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/24/2017
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a52aaaffb5f66ba5596e788183ef52753f08c8bf
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 17d7c07cb35eb9046b6fcfe8da5a85ee15fe7eaf
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Uw Amerikaanse overheidsorganisatie registreren in de Power BI-service
 Er is als onderdeel van **Office 365 US Government Community**-abonnement een versie van de **Power BI-service** beschikbaar voor Amerikaanse overheidsklanten. De versie van de **Power BI-service** die in dit artikel wordt besproken, is specifiek ontworpen voor Amerikaanse overheidsklanten en staat los en verschilt van de commerciële versie van de **Power BI-service**.
@@ -130,7 +122,7 @@ Beheerders kunnen het licentierapport uitvoeren om gebruikers in uw tenant te id
 Er zijn veel verschillende dingen die u met Power BI kunt doen. Bekijk de volgende resources voor meer informatie en trainingen, inclusief een artikel waarin wordt uitgelegd hoe zich voor de service kunt aanmelden:
 
 * [Overzicht van Power BI voor de Amerikaanse overheid](service-govus-overview.md)
-* [Begeleide training voor Power BI](guided-learning/gettingstarted.yml#step-1)
+* [Begeleide training voor Power BI](guided-learning/gettingstarted.yml?tutorial-step=1)
 * [Aan de slag met de Power BI-service](service-get-started.md)
 * [Aan de slag met Power BI Desktop](desktop-getting-started.md)
 

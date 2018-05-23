@@ -1,29 +1,21 @@
 ---
 title: Favorieten in Power BI-service (dashboards, rapporten, apps)
 description: Documentatie over het instellen van dashboards, rapporten en apps als favorieten in Power BI-service
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
+ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
-tags: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 82f8575c019790820aa46c75e095f8ef64bb6fde
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 920e61ed173e979a92958e56f9e0276f26288b3f
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Favoriete dashboards, rapporten en apps in de Power BI-service
 Wanneer u van inhoud een *favoriet* maakt, kunt u deze inhoud openen in al uw werkruimten.  Favorieten zijn doorgaans inhoud die u vaak bezoekt.
@@ -54,7 +46,7 @@ Zie hoe Amanda favorieten toevoegt aan haar werkruimte. Volg vervolgens de staps
 
 1. Selecteer **Apps** in het linkernavigatievenster.
 
-   ![Dashboard](media/service-dashboard-favorite/power-bi-favorite-apps.png)
+   ![dashboard](media/service-dashboard-favorite/power-bi-favorite-apps.png)
 
 2. Beweeg de muisaanwijzer over een app om meer details weer te geven.  Selecteer het ![Sterpictogram](media/service-dashboard-favorite/power-bi-favorite-icon.png)  sterpictogram om de app aan uw favorieten toe te voegen.
    

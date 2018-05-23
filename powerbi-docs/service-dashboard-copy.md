@@ -1,32 +1,24 @@
 ---
 title: Een kopie maken van een Power BI-dashboard
 description: 'Een Power BI-dashboard dupliceren '
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: ''
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: dda89f4cffd99ae8f7b435133e9be550d7da0339
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 28dd9e7ca63964e5964e08cf720a26a5eff468c1
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>Een kopie van een dashboard maken in Power BI
-![Dashboard](media/service-dashboard-copy/power-bi-dashboard.png)
+![dashboard](media/service-dashboard-copy/power-bi-dashboard.png)
 
  Er zijn veel verschillende redenen om een kopie te maken van een dashboard. Misschien wilt u wijzigingen aanbrengen en de prestaties ten opzichte van het origineel testen. Of misschien wilt u enigszins verschillende versies distribueren per collega, regio of team. Misschien vindt een collega uw dashboardontwerpen zeer geslaagd en wil zij ze gebruiken om aan haar managers te rapporteren. Een andere reden zou zijn als u een nieuwe database met dezelfde gegevensstructuur en dezelfde gegevenstypen hebt en u het dashboard dat u al hebt gemaakt, opnieuw wilt gebruiken. Dat kan ook, maar vergt wel wat werk in Power BI Desktop. 
 

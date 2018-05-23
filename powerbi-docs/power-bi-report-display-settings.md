@@ -1,29 +1,21 @@
 ---
 title: Instellingen voor paginaweergave en instellingen voor paginaweergave voor een rapport
 description: Instellingen voor paginaweergave en instellingen voor paginaweergave voor een rapport
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: ''
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 12/24/2017
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 8d8fd5e3c983acc458647ae5efce67bafd4cd412
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: af90ba6bcf85c07d2d046ed21f733ca7c16e3856
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Instellingen voor de paginaweergave in een Power BI-rapport
 We begrijpen dat het essentieel is dat uw rapport perfect is ingedeeld. Dit kan lastig zijn omdat uw collega's dezelfde rapporten weergeven op schermen met verschillende verhoudingen en afmetingen. 

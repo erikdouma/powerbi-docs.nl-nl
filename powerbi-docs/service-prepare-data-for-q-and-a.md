@@ -1,28 +1,20 @@
 ---
 title: Uw Excel-gegevens geschikt maken voor Q&A in Power BI
 description: Uw gegevens geschikt maken voor Q&A in Power BI
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: b45c259cf90668fea878c220670f3efa76b482fd
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: a6216169eb50ca535b73b07f5553c9b3d5e17470
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="how-to-make-your-excel-data-work-well-with-qa-in-power-bi"></a>Uw Excel-gegevens geschikt maken voor Q&A in Power BI
 Lees verder als u gegevensmodellen maakt of Excel-werkmappen bouwt die worden gebruikt in Power BI.
@@ -56,5 +48,5 @@ Terug naar [Q&A in Power BI](power-bi-q-and-a.md)
 [Snelstartgids Q&A](power-bi-visualization-introduction-to-q-and-a.md)  
 [Gegevens ophalen (voor Power BI)](service-get-data.md)  
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

@@ -1,29 +1,21 @@
 ---
 title: Afdrukken via de Power BI-service
 description: Een dashboard, tegel of rapportpagina uit Power BI afdrukken.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: ''
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: d8b4175f83415821e1ff9b63e3c53cd8f869b54f
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: d5859c0b59717a4af432c5fb7b526fa62ff03f59
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="printing-from-power-bi-service"></a>Afdrukken via de Power BI-service
 U kunt een volledig dashboard, een dashboardtegel, een rapportpagina of een rapportvisual afdrukken via de Power BI-service. Rapporten kunnen slechts pagina voor pagina worden afgedrukt. U kunt niet het hele rapport in een keer afdrukken.

@@ -1,28 +1,20 @@
 ---
 title: Power BI voor Amerikaanse overheidsklanten - Overzicht
 description: 'Voor Amerikaanse overheidsklanten: kom meer te weten over de kenmerken en limieten voor de Power BI-service voor de Amerikaanse overheid'
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: fc917b3a6754c0e9badc11b0d331ae1328bf089c
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: ecd3c4a3d9cf9beddff5053f3dc696e6e99de70a
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI voor klanten uit de Amerikaanse overheid
 Er is als onderdeel van **Office 365 US Government Community**-abonnement een versie van de **Power BI-service** beschikbaar voor Amerikaanse overheidsklanten. De versie van de **Power BI-service** die in dit artikel wordt besproken, is specifiek ontworpen voor Amerikaanse overheidsklanten en staat los en verschilt van de commerciële versie van de **Power BI-service**.
@@ -104,7 +96,7 @@ Er zijn veel verschillende dingen die u met Power BI kunt doen. Bekijk de volgen
 
 * [Registreren voor Power BI voor de Amerikaanse overheid](service-govus-signup.md)
 * <a href="https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government">Demo van Power BI voor de Amerikaanse overheid</a>
-* [Begeleide training voor Power BI](guided-learning/gettingstarted.yml#step-1)
+* [Begeleide training voor Power BI](guided-learning/gettingstarted.yml?tutorial-step=1)
 * [Aan de slag met de Power BI-service](service-get-started.md)
 * [Aan de slag met Power BI Desktop](desktop-getting-started.md)
 

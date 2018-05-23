@@ -1,28 +1,20 @@
 ---
 title: 10 tips voor hulp bij uw vragen over Power BI
 description: Hier zijn 10 manieren om hulp te krijgen wanneer u een vraag hebt over Power BI
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 0984e00dbe6b82a2b5b9cfc07f318ded03961f64
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 297805d187ccdea2c04e0b79ad86723ec80d3f80
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>10 tips voor hulp bij uw vragen over Power BI
 Raakt u ooit gefrustreerd bij het gebruik van Power BI of krijgt u geen antwoorden op uw vragen over Power BI wanneer u ze nodig hebt, dat wil zeggen ‘precies op tijd’? 
@@ -52,7 +44,7 @@ Passen video's beter bij uw manier van leren? Power BI heeft twee sets waarin u 
 ## <a name="6-attend-training"></a>6 Volg een training
 De trainingsmogelijkheden waaruit u kunt kiezen, zijn bijna eindeloos; van individuele training in de praktijk tot korte video's.
 
-* [Begeleide training](guided-learning/gettingstarted.yml#step-1) op de Power BI-site.
+* [Begeleide training](guided-learning/gettingstarted.yml?tutorial-step=1) op de Power BI-site.
 * [Gratis Power BI-webinars](webinars.md), live en on-demand, op de Power BI-site.
 
 U vindt aanvullende opties online, zoals:

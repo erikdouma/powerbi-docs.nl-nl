@@ -1,28 +1,20 @@
 ---
 title: Rasterlijnen en Uitlijnen op raster gebruiken in Power BI Desktop-rapporten
 description: Rasterlijnen, Uitlijnen op raster, Z-volgorde, Uitlijnen en Verdelen gebruiken in Power BI Desktop-rapporten
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 4/19/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 479668d2f5c21bc6d730097556ce6de46409c7ed
-ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
+ms.openlocfilehash: 7477fc19dda5aeb7729fbbde319faa0d930db179
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/28/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-gridlines-and-snap-to-grid-in-power-bi-desktop-reports"></a>Rasterlijnen en Uitlijnen op raster gebruiken in Power BI Desktop-rapporten
 Op het canvas van het **Power BI Desktop**-rapport vindt u rasterlijnen waarmee u visuals netjes op een rapportpagina kunt uitlijnen en de functie Uitlijnen op raster kunt gebruiken, waarmee u de visuals in uw rapporten op gelijkmatige afstand kunt zetten en ze een professioneel en uitgelijnd uiterlijk geven.

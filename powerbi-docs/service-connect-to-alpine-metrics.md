@@ -1,28 +1,20 @@
 ---
 title: Verbinding met de verkoopprognoses van Alpine Metrics maken via Power BI
 description: Verkoopprognoses van Alpine Metrics voor Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2c7072cca04033242ee9b07f0f3c1f82160cb332
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d9e70e0b69f0ce68826f566e6e5cdb0f4d8e113e
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-alpine-metrics-sales-predictions-with-power-bi"></a>Verbinding met de verkoopprognoses van Alpine Metrics maken via Power BI
 Alpine Metrics voorziet in geavanceerde procesoptimalisatie van voorspellende verkoop in de cloud en op aanvraag voor grote en kleine verkooporganisaties. Het Alpine Metrics Sales Predictions-inhoudspakket voor Power BI bevat metrische gegevens over bijvoorbeeld de potentiële verkopen en risico's, waardoor u een beter inzicht in de toekomst van uw bedrijf krijgt. 
