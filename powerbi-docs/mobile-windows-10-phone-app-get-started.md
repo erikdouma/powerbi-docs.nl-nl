@@ -1,27 +1,19 @@
 ---
 title: Aan de slag met de mobiele Power BI-app voor Windows 10
 description: Met de mobiele Power BI-app voor Windows 10 hebt u bijgewerkte, mobiele toegang tot uw bedrijfsgegevens via uw tablet of telefoon.
-services: powerbi
-documentationcenter: 
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 97fb3625848210f6222317cf3fc48eea305ef04d
-ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
+ms.openlocfilehash: 6cd1c8aec1bf31a8cae43074531014cbeef71bd5
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Aan de slag met de mobiele Power BI-app voor Windows 10
 Met de mobiele Power BI-app voor Windows 10 hebt u Power BI op uw telefoon of tablet met bijgewerkte, mobiele toegang tot uw bedrijfsgegevens. U kunt uw bedrijfsdashboards vanaf elke locatie en rechtstreeks op uw [Windows-startscherm](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) bekijken en ze gebruiken.
@@ -57,7 +49,7 @@ Als u zich nog niet hebt geregistreerd, gaat u naar de [Power BI-service](http:/
 3. Tik op **Verkennen** om uw eigen dashboards weer te geven.
 
 ## <a name="try-the-power-bi-and-reporting-services-samples"></a>De Power BI- en Reporting Services-voorbeelden uitproberen
-U hoeft zich niet aan te melden om met de Power BI- en Reporting Services-voorbeelden te oefenen. Nadat u de app hebt gedownload, kunt u de voorbeelden bekijken of aan de slag gaan. U kunt op elk gewenst moment teruggaan naar de voorbeelden vanaf de startpagina van dashboards.
+U hoeft zich niet aan te melden om met de Power BI- en Reporting Services-voorbeelden te oefenen. Nadat u de app hebt gedownload, kunt u de voorbeelden bekijken of aan de slag gaan. U kunt op elk gewenst moment teruggaan naar de voorbeelden vanaf de startpagina met dashboards.
 
 ### <a name="power-bi-samples"></a>Power BI-voorbeelden
 U kunt de Power BI-voorbeelddashboards bekijken en gebruiken, maar er zijn enkele dingen die u hiermee niet kunt doen. Het is niet mogelijk de rapporten achter de dashboards te openen, de voorbeelden met anderen te delen of ze aan uw favorieten toe te voegen.

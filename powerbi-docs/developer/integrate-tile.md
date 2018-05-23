@@ -1,27 +1,19 @@
 ---
 title: Een Power BI-tegel integreren in een app voor uw organisatie
 description: Scenario voor het integreren van een tegel in een app, voorbeeldcode
-services: powerbi
-documentationcenter: 
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: c4c1b9223554491968a541c9d6b698a9655eded5
-ms.sourcegitcommit: 2ceea44d3606c15b57142c37649c9d481ec4becc
+ms.openlocfilehash: 6ad2138ab37b20fa16a5455ab167ec9e6b7e159c
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>Een tegel in een app integreren (gebruiker is eigenaar van de gegevens)
 Informatie over het integreren of insluiten van een tegel in een web-app met behulp van REST-API-aanroepen en de Power BI JavaScript-API voor uw organisatie.
@@ -242,5 +234,5 @@ https://app.powerbi.com/embed?dashboardId={dashboard_id}&tileId={tile_id}&groupI
 
 Voorbeeld van [integrate-tile-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app) op GitHub.
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

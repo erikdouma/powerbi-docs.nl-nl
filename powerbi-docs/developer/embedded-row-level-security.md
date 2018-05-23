@@ -1,27 +1,19 @@
 ---
 title: Beveiliging op rijniveau met ingesloten Power BI-inhoud
 description: Meer informatie over de stappen die u moet uitvoeren voor het insluiten van Power BI-inhoud in uw toepassing.
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 02/22/2018
 ms.author: maghan
-ms.openlocfilehash: 0d7127d43e2764e1dcd15f7052b3367c8629d2f6
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 218f4cd0aaaa5ffc8cab3a06b06af9544b02143d
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Beveiliging op rijniveau met ingesloten Power BI-inhoud
 Beveiliging op rijniveau (RLS) kan worden gebruikt om de gebruikerstoegang tot gegevens in dashboards, tegels, rapporten en gegevenssets te beperken. Meerdere gebruikers kunnen werken met dezelfde artefacten, terwijl ze allemaal verschillende gegevens zien. Het insluiten van inhoud biedt ondersteuning voor RLS.
@@ -190,4 +182,4 @@ Als u REST API aanroept, kunt u binnen elke identiteit aangepaste gegevens toevo
 * Als de onderliggende gegevensset een cloudmodel is (model in de cache of DirectQuery), moet de effectieve identiteit ten minste één rol bevatten. Anders wordt roltoewijzing niet uitgevoerd.
 * Een lijst met identiteiten kan meerdere identiteitstokens insluiten in het dashboard. Voor alle andere artefacten bevat de lijst één identiteit.
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

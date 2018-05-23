@@ -1,28 +1,20 @@
 ---
 title: DirectQuery en SAP Business Warehouse (BW) in Power BI
 description: Overwegingen bij het gebruik van DirectQuery met SAP Business Warehouse (BW)
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 03/07/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 792895f5bff61f52c82823040c974b162493edb2
-ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
+ms.openlocfilehash: a8fde13b0beeb57fb5d25aa35002358f04ab6cad
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery en SAP Business Warehouse (BW)
 U kunt rechtstreeks verbinding maken met **SAP Business Warehouse (BW)**-gegevensbronnen met behulp van **DirectQuery**. Gezien de OLAP-/multidimensionale aard van SAP BW, zijn er veel belangrijke verschillen tussen DirectQuery via SAP BW en via relationele bronnen zoals SQL Server. Deze verschillen kunnen als volgt worden samengevat:
@@ -51,7 +43,7 @@ De primaire extra beperkingen voor visualisaties bij het verbinden met SAP BW m
 
 * **Geen aggregatie van kolommen:** het is niet mogelijk de aggregatie voor een kolom in een visualisatie te wijzigen; deze is altijd *Niet samenvatten*
 * **Filteren van metingen is uitgeschakeld:** het filteren van metingen is uitgeschakeld overeenkomstig de door SAP BW geboden ondersteuning.
-* **Meerdere selecties en opnemen/uitsluiten:**de mogelijkheid om meerdere gegevenspunten in een visualisatie te selecteren is uitgeschakeld als de punten waarden uit meer dan één kolom vertegenwoordigen. Bijvoorbeeld: in een staafdiagram met verkopen per land met Categorie in de legenda, is het niet mogelijk het punt voor (Verenigde Staten, Fietsen) en (Frankrijk, Kleding) te selecteren. Op dezelfde manier is het niet mogelijk het punt voor (Verenigde Staten, Fietsen) te selecteren en dit uit te sluiten van de visualisatie. Beide beperkingen worden opgelegd overeenkomstig de ondersteuning die door SAP BW wordt geboden.
+* **Meerdere selecties en opnemen/uitsluiten:** de mogelijkheid om meerdere gegevenspunten in een visualisatie te selecteren is uitgeschakeld als de punten waarden uit meer dan één kolom vertegenwoordigen. Bijvoorbeeld: in een staafdiagram met verkopen per land met Categorie in de legenda, is het niet mogelijk het punt voor (Verenigde Staten, Fietsen) en (Frankrijk, Kleding) te selecteren. Op dezelfde manier is het niet mogelijk het punt voor (Verenigde Staten, Fietsen) te selecteren en dit uit te sluiten van de visualisatie. Beide beperkingen worden opgelegd overeenkomstig de ondersteuning die door SAP BW wordt geboden.
 
 ## <a name="support-for-sap-bw-features"></a>Ondersteuning voor SAP BW-functies
 De volgende tabel bevat alle SAP BW-functies die niet volledig worden ondersteund of zich anders gedragen bij gebruik van Power BI.   

@@ -1,28 +1,20 @@
 ---
 title: Problemen met importeren in Access en met XLS-bestanden oplossen in Power BI Desktop
 description: Problemen met het importeren van Access-databases en XLS-spreadsheets oplossen in Power BI Desktop en Power Query
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 6448d76915f9bc2a118e1552fd7bc9d82058c713
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: d1023f1563f69c37e2aebe47181a5276d27d3497
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="resolve-issues-importing-access-and-xls-files-in-power-bi-desktop"></a>Problemen met het importeren van Access- en XLS-bestanden oplossen in Power BI Desktop
 In **Power BI Desktop** maken zowel **Access-databases** als vroege versies van **Excel-werkmappen** (XLS-bestanden van het type Excel 97-2003) gebruik van de *Access-database-engine*. Er zijn drie veelvoorkomende situaties die kunnen verhinderen dat de Access-database-engine niet goed werkt:
