@@ -1,38 +1,22 @@
 ---
-title: 'Fout: '
-corporate: 
-ssl: 
-certificate: 
-is: 
-untrusted": 
-'-': 
-power: 
-bi": 
+title: De fout 'Zakelijk SSL-certificaat is niet vertrouwd' herstellen
 description: Tijdens het aanmelden bij de Android-app voor Power BI ziet u mogelijk u het bericht, 'Kan niet worden geverifieerd omdat uw zakelijke SSL-certificaat niet vertrouwd is
-.": 
-services: powerbi
-documentationcenter: 
+.": ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 10/13/2017
+ms.component: powerbi-mobile
+ms.topic: conceptual
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 4ef29c0cab96e21045f30805d7445aa34d37697a
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 494e148a62675aab1a6e799c4e4b61f022483d9f
+ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/22/2018
 ---
-# <a name="error-corporate-ssl-certificate-is-untrusted---power-bi"></a>Fout: ‘Zakelijk SSL-certificaat is niet vertrouwd’ - Power BI
+# <a name="fixing-corporate-ssl-certificate-is-untrusted---power-bi"></a>De fout 'Zakelijk SSL-certificaat is niet vertrouwd' herstellen - Power BI
 Tijdens het aanmelden bij de mobiele Android-app voor Microsoft Power BI ziet u mogelijk u het bericht, 'Kan niet worden geverifieerd omdat uw zakelijke SSL-certificaat niet vertrouwd is door dit apparaat. Neem contact op met de IT-beheerder van uw bedrijf.’ 
 
 Wat u moet doen is meestal afhankelijk van het besturingssysteem op uw Android-apparaat, maar er zijn een aantal andere problemen waardoor deze fout kan optreden.
@@ -60,5 +44,5 @@ Als u een aangepaste verificatieserver gebruikt, wordt het SSL-certificaat in de
 
 ## <a name="next-steps"></a>Volgende stappen
 * [De Android-app downloaden](http://go.microsoft.com/fwlink/?LinkID=544867) vanuit de Android-app-store.
-* Vragen? [Misschien dat de Power Bi-community het antwoord weet](http://community.powerbi.com/)
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

@@ -1,28 +1,20 @@
 ---
 title: Aan de slag met Power BI Desktop
 description: Aan de slag met Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 99f2679f30c8eebf40389883b41601d4fc3da939
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 606ef1f1c69643852a94a7d83ece93cca8940e7a
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Aan de slag met Power BI Desktop
 Welkom bij de **handleiding voor Power BI Desktop**. Deze korte inleiding van Power BI Desktop is bedoeld om u te laten zien hoe het programma het werkt en wat het kan doen, en helpt u sneller robuuste gegevensmodellen en handige rapporten te maken die uw business intelligence verbeteren. 
@@ -336,6 +328,10 @@ Zie [Een dashboard delen](service-share-dashboards.md) voor meer informatie over
 
 U kunt allerlei indrukwekkende aan gegevens gerelateerde combinaties en visualisaties maken met Power BI Desktop en met de Power BI-service. Bekijk het volgende gedeelte voor meer informatie.
 
+## <a name="diagnostics"></a>Diagnostische gegevens
+
+Power BI Desktop ondersteunt verbindingen met een poort voor diagnostische gegevens. Via de poort voor diagnostische gegevens kunt u verbinding maken met andere hulpprogramma's en traceringen uitvoeren voor diagnostische doeleinden. *Het aanbrengen van wijzigingen in het model wordt niet ondersteund. Wijzigingen in het model kunnen leiden tot beschadiging en verlies van gegevens.*
+
 ## <a name="next-steps"></a>Volgende stappen
 U kunt allerlei handelingen uitvoeren met Power BI Desktop. Bekijk de volgende bronnen voor meer informatie over de vele mogelijkheden:
 
@@ -344,4 +340,3 @@ U kunt allerlei handelingen uitvoeren met Power BI Desktop. Bekijk de volgende b
 * [Connect to Data in Power BI Desktop](desktop-connect-to-data.md) (Verbinding maken met gegevens in Power BI Desktop)
 * [Shape and Combine Data with Power BI Desktop](desktop-shape-and-combine-data.md) (Gegevens vormgeven en combineren met Power BI Desktop)
 * [Common Query Tasks in Power BI Desktop](desktop-common-query-tasks.md) (Algemene querytaken in Power BI Desktop)   
-

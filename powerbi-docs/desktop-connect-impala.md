@@ -1,28 +1,20 @@
 ---
 title: Verbinding met een Impala-database maken in Power BI Desktop
 description: Eenvoudig verbinding met een Impala-database maken in Power BI Desktop en deze gebruiken
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bef087b485573ba9a629887bfb05d875c88c8b4c
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 9b00120a0c4c22ba8f031663ab19d94d2c482d3b
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-an-impala-database-in-power-bi-desktop"></a>Verbinding met een Impala-database maken in Power BI Desktop
 In Power BI Desktop kunt u verbinding maken met een **Impala**-database en gebruikmaken van de onderliggende gegevens, net zoals elke andere gegevensbron in Power BI Desktop.
@@ -36,7 +28,7 @@ In het **Impala**-venster dat verschijnt, typt of plakt u de naam van de Impala-
 
 ![](media/desktop-connect-impala/connect_impala_3a.png)
 
-Voer uw gebruikersnaam en wachtwoord in als u daarom wordt gevraagd of maak anoniem verbinding. Beide mogelijkheden worden ondersteund.
+Voer uw referenties in wanneer u daar om wordt gevraagd, of maak anoniem verbinding. De Impala-connector ondersteunt Anonymouse-, Basic- (gebruikersnaam en wachtwoord) en Windows-verificatie.
 
 ![](media/desktop-connect-impala/connect_impala_4.png)
 
@@ -52,7 +44,7 @@ Als u verbinding hebt gemaakt, verschijnt er een **Navigator**-scherm waarin de 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 Houd rekening met enkele beperkingen en overwegingen als u de **Impala**-connector wilt gebruiken:
 
-* Toekomstige abonnementen bieden ondersteuning voor vernieuwen bij gebruik van **Power BI Gateway**.
+* De Impala-connector wordt ondersteund in de on-premises gegevensgateway met behulp van één van de drie ondersteunde verificatiemechanismen.
 
 ## <a name="next-steps"></a>Volgende stappen
 Met Power BI Desktop kunt u verbinding maken met allerlei andere gegevens. Bekijk de volgende bronnen voor meer informatie over gegevensbronnen:

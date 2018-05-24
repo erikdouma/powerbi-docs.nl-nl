@@ -1,34 +1,26 @@
 ---
 title: Een gegevensset maken
 description: 'Stappen: Gegevens naar een gegevensset pushen: een gegevensset maken in Power BI'
-services: powerbi
-documentationcenter: 
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 31677a3d92ece6944825eccad190863f67c3a145
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: c94f0a94cfc2e59942a17b542efb7b1bb641174c
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>Stap 3: Een gegevensset maken in Power BI
 Dit artikel maakt deel uit van een stapsgewijze uitleg van hoe u [gegevens naar een gegevensset pusht](walkthrough-push-data.md).
 
 In **stap 2** van Gegevens naar een gegevensset pushen, [Een toegangstoken voor verificatie ophalen](walkthrough-push-data-get-token.md), hebt u een token opgehaald voor verificatie bij **Azure AD**. In deze stap gebruikt u de token om de bewerking [Gegevensset maken](https://msdn.microsoft.com/library/mt203562.aspx) aan te roepen.
 
-Als u een REST-resource aanroept, gebruikt u een URL die de resource zoekt en verzendt u een JSON-tekenreeks (JavaScript Object Notation), waarin de gegevensset wordt beschreven, naar de resource van de Power BI-service. Een REST-resource geeft het deel van de Power BI-service aan waarmee u wilt werken. Als u gegevens naar de gegevensset wilt pushen, is de doelresource een **gegevensset**. De URL die een gegevensset opgeeft is https://api.PowerBI.com/v1.0/myorg/datasets. Als u gegevens pusht binnen een groep, is de URL https://api.PowerBI.com/v1.0/myorg/groups/{groeps_id}/datasets.
+Als u een REST-resource aanroept, gebruikt u een URL die de resource zoekt en verzendt u een JSON-tekenreeks (JavaScript Object Notation), waarin de gegevensset wordt beschreven, naar de resource van de Power BI-service. Een REST-resource geeft het deel van de Power BI-service aan waarmee u wilt werken. Als u gegevens naar de gegevensset wilt pushen, is de doelresource een **gegevensset**. De URL waarmee een gegevensset wordt geïdentificeerd is https://api.PowerBI.com/v1.0/myorg/datasets. Als u de gegevens binnen een groep pusht, is de URL https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets.
 
 Als u een REST-bewerking voor Power BI wilt verifiëren, voegt u de token die u hebt gekregen in [Een toegangstoken voor verificatie ophalen](walkthrough-push-data-get-token.md) toe aan een aanvraagheader:
 

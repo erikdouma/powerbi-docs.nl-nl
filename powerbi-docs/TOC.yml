@@ -10,12 +10,14 @@
           href: service-the-new-power-bi-experience.md
     - name: Zelfstudies
       items:
-        - name: Verbinding maken met de online service GitHub
+        - name: Verbinding maken met een GitHub-voorbeeld
           href: service-tutorial-connect-to-github.md
     - name: Concepten
       items:
         - name: Wat is er nieuw in de Power BI-service
           href: service-whats-new.md
+        - name: Aanmelding via self-service
+          href: service-self-service-signup-for-power-bi.md
         - name: Power BI - de basis
           items:
             - name: Power BI - basisconcepten
@@ -56,16 +58,12 @@
           items:
             - name: Snelle inzichten in Power BI
               href: service-insights.md
-            - name: Een dashboard maken van een rapport
-              href: service-dashboard-create.md
             - name: Gegevens ophalen uit bestanden
               href: service-get-data-from-files.md
             - name: Een Power BI-rapport in de leesweergave of de bewerkingsweergave openen
               href: service-reading-view-and-editing-view.md
             - name: De rapporteditor... Een rondleiding
               href: service-the-report-editor-take-a-tour.md
-            - name: Voorbeelden voor Power BI
-              href: sample-datasets.md
             - name: Visualisaties in Power BI
               href: power-bi-report-visualizations.md
             - name: Gegevensbronnen voor Power BI
@@ -124,6 +122,8 @@
                   href: service-connect-to-services.md
                 - name: Acumatica
                   href: service-connect-to-acumatica.md
+                - name: Adobe Analytics
+                  href: service-connect-to-adobe-analytics.md
                 - name: Verkoopprognoses van Alpine Metrics
                   href: service-connect-to-alpine-metrics.md
                 - name: appFigures
@@ -248,8 +248,6 @@
                   href: service-publish-to-powerpoint.md
         - name: Werken in Power BI
           items:
-            - name: De inhoudspakketten met Power BI-voorbeelden gebruiken
-              href: sample-tutorial-connect-to-the-samples.md
             - name: In een handomdraai aantrekkelijke rapporten van Excel-werkmappen maken
               href: service-from-excel-to-stunning-report.md
             - name: Q&A gebruiken om visualisaties en rapporten te maken
@@ -268,6 +266,8 @@
               href: refresh-scheduled-refresh.md
             - name: Dashboards
               items:
+                - name: Een dashboard maken van een rapport
+                  href: service-dashboard-create.md
                 - name: Een kopie maken van een dashboard
                   href: service-dashboard-copy.md
                 - name: Vanuit een rapport een tegel vastmaken aan een Power BI-dashboard
@@ -314,19 +314,15 @@
                   href: power-bi-q-and-a-linguistic-schema.md
             - name: Uw werk delen
               items:
-                - name: 'Organisatie-inhoudspakketten: inleiding'
-                  href: service-organizational-content-pack-introduction.md
-                - name: Organisatie-inhoudspakketten maken en publiceren
-                  href: service-organizational-content-pack-create-and-publish.md
                 - name: Een gefilterd rapport delen
                   href: service-share-reports.md
                 - name: Vanuit Power BI publiceren naar internet
                   href: service-publish-to-web.md
                 - name: Rapport insluiten in SharePoint Online
                   href: service-embed-report-spo.md
-                - name: Verbinding maken met de bestanden in OneDrive voor Bedrijven van uw groep
+                - name: Verbinding maken met de bestanden in de OneDrive van uw groep
                   href: service-connect-to-files-in-app-workspace-onedrive-for-business.md
-                - name: Samenwerken in de werkruimte van uw Power BI-groep
+                - name: Samenwerken in de werkruimte van uw groep
                   href: service-collaborate-power-bi-workspace.md
                 - name: Uw groep beheren in Power BI en Office 365
                   href: service-manage-app-workspace-in-power-bi-and-office-365.md
@@ -334,6 +330,10 @@
                   href: service-organizational-content-pack-manage-update-delete.md
                 - name: 'Organisatie-inhoudspakketten: kopiëren, vernieuwen en toegang verkrijgen'
                   href: service-organizational-content-pack-copy-refresh-access.md
+                - name: 'Organisatie-inhoudspakketten: inleiding'
+                  href: service-organizational-content-pack-introduction.md
+                - name: Organisatie-inhoudspakketten maken en publiceren
+                  href: service-organizational-content-pack-create-and-publish.md
                 - name: De verbinding met een organisatie-inhoudspakket verwijderen
                   href: service-organizational-content-pack-disconnect.md
                 - name: Een dashboard delen dat is gekoppeld aan een Excel-werkmap in OneDrive voor Bedrijven
@@ -446,9 +446,13 @@
                   href: service-refresh-xero-credentials.md
     - name: Resources
       items:
-        - name: Ondersteunde browsers voor Power BI
+        - name: Video's
+          href: videos.md
+        - name: Webinars
+          href: webinars.md
+        - name: Ondersteunde browsers
           href: service-browser-support.md
-        - name: Ondersteunde talen en landen/regio's voor Power BI
+        - name: Ondersteunde talen en landen/regio's
           href: supported-languages-countries-regions.md
         - name: Whitepapers
           href: whitepapers.md
@@ -480,24 +484,28 @@
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
     - name: Voorbeelden
       items:
-        - name: De werkmap met financiële voorbeelden voor Power BI downloaden
-          href: sample-financial-download.md
-        - name: 'Voorbeeld van kwaliteitsanalyse van leveranciers voor Power BI: rondleiding'
-          href: sample-supplier-quality.md
-        - name: 'Voorbeeld van een IT-uitgavenanalyse voor Power BI: rondleiding'
-          href: sample-it-spend.md
-        - name: 'Voorbeeld van verkoop en marketing voor Power BI: rondleiding'
-          href: sample-sales-and-marketing.md
-        - name: 'Voorbeeld van klantwinstgevendheid voor Power BI: rondleiding'
+        - name: Voorbeelden voor Power BI
+          href: sample-datasets.md
+        - name: De inhoudspakketten met voorbeelden gebruiken
+          href: sample-tutorial-connect-to-the-samples.md
+        - name: 'Voorbeeld van klantwinstgevendheid: rondleiding'
           href: sample-customer-profitability.md
+        - name: 'Voorbeeld van een IT-uitgavenanalyse: rondleiding'
+          href: sample-it-spend.md
         - name: 'Voorbeeld van human resources: rondleiding'
           href: sample-human-resources.md
-        - name: 'Voorbeeld van een verkoopkanalyse voor Power BI: rondleiding'
+        - name: 'Voorbeeld van een verkoopkansanalyse: rondleiding'
           href: sample-opportunity-analysis.md
         - name: 'Voorbeeld van een inkoopanalyse: rondleiding'
           href: sample-procurement.md
-        - name: 'Voorbeeld van een retailanalyse voor Power BI: rondleiding'
+        - name: 'Voorbeeld van een retailanalyse: rondleiding'
           href: sample-retail-analysis.md
+        - name: 'Voorbeeld van verkoop en marketing: rondleiding'
+          href: sample-sales-and-marketing.md
+        - name: 'Voorbeeld van een kwaliteitsanalyse van leveranciers: rondleiding'
+          href: sample-supplier-quality.md
+        - name: De werkmap met financiële voorbeelden downloaden
+          href: sample-financial-download.md
     - name: Concepten
       items:
         - name: Wat is er nieuw in de meest recente update voor Power BI Desktop?
@@ -806,6 +814,8 @@
           items:
             - name: On-premises rapporten weergeven in de mobiele apps
               href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+            - name: De app Power BI for Mixed Reality (preview)
+              href: mobile-mixed-reality-app.md
             - name: Een dashboard delen via de mobiele Power BI-apps
               href: mobile-share-dashboard-from-the-mobile-apps.md
             - name: Interactie met tegels in de mobiele apps
@@ -837,7 +847,7 @@
             - name: Aan de slag met de app Power BI voor Android
               href: mobile-android-app-get-started.md
             - name: Het vertrouwen in uw zakelijke SSL-certificaat herstellen
-              href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+              href: mobile-android-error-update-android-system-webview.md
         - name: iOS
           items:
             - name: Aan de slag met de Power Bi-app voor iOS
@@ -1004,8 +1014,6 @@
           href: report-server/changelog.md
         - name: Ondersteuningstijdlijn
           href: report-server/support-timeline.md
-        - name: Ondersteunde gegevensbronnen
-          href: report-server/data-sources.md
         - name: Hardware- en softwarevereisten
           href: report-server/system-requirements.md
         - name: Browserondersteuning
@@ -1016,9 +1024,9 @@
           items:
             - name: Geplande vernieuwing van Power BI-rapport
               href: report-server/scheduled-refresh.md
-            - name: Gegevensbronnen voor Power BI-rapporten (.pbix)
+            - name: Power BI-rapportgegevensbronnen
               href: report-server/data-sources.md
-            - name: Gegevensbronnen voor gepagineerde rapporten (.rdl)
+            - name: Gegevensbronnen voor gepagineerde rapporten
               href: report-server/connect-data-sources.md
             - name: Abonnementen
               href: 'https://go.microsoft.com/fwlink/?linkid=851310'
@@ -1048,10 +1056,6 @@
               href: report-server/getting-around.md
             - name: Een gepagineerd rapport maken voor een rapportserver
               href: report-server/quickstart-create-paginated-report.md
-            - name: Geavanceerde Power BI-rapporten
-              href: 'https://go.microsoft.com/fwlink/?linkid=848708'
-            - name: Geavanceerde gepagineerde rapporten
-              href: 'https://go.microsoft.com/fwlink/?linkid=848709'
             - name: Werken met KPI's
               href: 'https://go.microsoft.com/fwlink/?linkid=849021'
             - name: 'Toegang verkrijgen tot gedeelde gegevenssets als OData-feeds '

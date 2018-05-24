@@ -1,27 +1,19 @@
 ---
 title: Een app bij Azure AD registreren
 description: 'Overzicht: gegevens in een gegevensset pushen, een app bij Azure AD registreren'
-services: powerbi
-documentationcenter: 
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 48ab2a51a479269b8846288b64089964a0544681
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 660f79eab32ae7ade5cea990c6fc152bb9507297
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="step-1-register-an-app-with-azure-ad"></a>Stap 1: Een app bij Azure AD registreren
 Dit artikel maakt deel uit van een stapsgewijze uitleg van hoe u [gegevens naar een gegevensset pusht](walkthrough-push-data.md).
@@ -39,7 +31,7 @@ Hier volgen de stappen om een app bij Azure AD te registreren.
 2. Klik op **Aanmelden met uw bestaande account** en meld u aan bij uw Power BI-account.
 3. Voer een **app-naam** in, zoals 'App met voorbeeldgegevens voor pushen'.
 4. Kies voor **App-type** de optie **Systeemeigen app**.
-5. Voer een **omleidings-URL** in, bijvoorbeeld **https://login.live.com/oauth20_desktop.srf**. Voor een **systeemeigen client-app** geeft **Azure AD** bij een omleidings-URI meer details over de specifieke toepassing die wordt geverifieerd. De standaard-URI voor een client-app is https://login.live.com/oauth20_desktop.srf.
+5. Voer een **Omleidings-URL** in, bijvoorbeeld **https://login.live.com/oauth20_desktop.srf**. Voor een **systeemeigen client-app** geeft **Azure AD** bij een omleidings-URI meer details over de specifieke toepassing die wordt geverifieerd. De standaard URI voor een client-app is https://login.live.com/oauth20_desktop.srf.
 6. Kies voor **Choose APIs to access** de optie **Alle gegevenssets lezen en schrijven**. Zie [Power BI Permissions](power-bi-permissions.md) (Machtigingen voor Power BI) voor alle app-machtigingen voor Power BI.
 7. Klik op **App registreren** en sla de **client-ID** op die is gegenereerd. Een **client-ID** identificeert de app in Azure AD.
 

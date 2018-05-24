@@ -1,27 +1,19 @@
 ---
 title: Aan de slag met de mobiele Power BI-app op een iPhone
 description: Lees hoe u met de app Microsoft Power BI voor iOS op de iPhone onderweg beschikt over Power BI en mobiele toegang tot zakelijke gegevens, zowel on-premises als in de cloud.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: complete
-qualitydate: 05/04/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: 9a2f381ea97fb62d85841cbfcace8352007dd60b
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 9a3177dc0fe80ebc6c1041ce64b1186cb5865e37
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-iphone-or-ipod-touch"></a>Aan de slag met de mobiele Power BI-app op een iPhone of iPod Touch
 De Microsoft Power BI voor iOS op de iPhone of iPod Touch biedt de mobiele BI-ervaring voor Power BI, Power BI Report Server en Reporting Services. Bekijk uw bedrijfsdashboards on-premises en in de cloud en gebruik ze vanaf elke locatie met mobiele live-toegang met aanraakfunctionaliteit. Verken de gegevens in dashboards en deel deze met uw collega's per e-mail of sms-bericht. En blijf via uw [Apple Watch](mobile-apple-watch.md) op de hoogte van uw meest recente gegevens.  
@@ -46,7 +38,7 @@ Ontdek [wat er nieuw is in de mobiele Power BI-apps](mobile-whats-new-in-the-mob
 > 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Aanmelden voor de Power BI-service
-Ga naar Power BI (https://powerbi.com) en meld u aan voor de Power BI-service als u dit nog niet hebt gedaan. U kunt zich gratis aanmelden.
+Ga naar Power BI (https://powerbi.com)) voor de service als u dit nog niet hebt gedaan. U kunt zich gratis aanmelden.
 
 ## <a name="get-started-with-the-power-bi-app"></a>Aan de slag met Power BI-app
 1. Open de Power BI-app op de iPhone.

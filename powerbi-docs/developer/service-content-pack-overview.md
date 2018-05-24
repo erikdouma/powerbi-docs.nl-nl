@@ -1,27 +1,19 @@
 ---
 title: Overzicht van het programma voor inhoudspakketten van de Power BI-service
 description: Certificeringsprogramma voor inhoudspakketten
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 02/20/2018
 ms.author: maghan
-ms.openlocfilehash: 2cc78b3d2a877e465d5f4bdc67f501b7de87f88e
-ms.sourcegitcommit: 20dd809a2ef8c0d6c6f677baadb5f57f41438cbe
+ms.openlocfilehash: cfb9727a41d602ce14bfd2a403a87e82d2f0e94d
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Overzicht van het programma voor inhoudspakketten van de Power BI-service
 Een inhoudspakket is een set kant-en-klare elementen waarmee gebruikers direct inzicht kunnen krijgen vanuit een bron. Een inhoudspakket is doorgaans gericht op een specifiek zakelijk scenario om inzicht te bieden voor een functie, domein of workflow.
@@ -85,7 +77,7 @@ Gepubliceerde inhoudspakketten kunnen eenmaal per maand worden bijgewerkt. Bijwe
 U kunt uw vragen per e-mail verzenden naar [pbiservicesapps@microsoft.com](mailto:pbiservicesapps@microsoft.com)
 
 ## <a name="support"></a>Ondersteuning
-Gebruik voor ondersteuning tijdens de ontwikkeling [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support). Deze pagina wordt actief bewaakt en beheerd. Klantincidenten worden zo snel mogelijk naar het desbetreffende team doorgestuurd.
+Gebruik [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support) voor ondersteuning tijdens de ontwikkeling. Deze pagina wordt actief bewaakt en beheerd. Klantincidenten worden zo snel mogelijk naar het desbetreffende team doorgestuurd.
 
 ## <a name="next-step"></a>Volgende stap
 [Ontwerpen](template-content-pack-authoring.md)

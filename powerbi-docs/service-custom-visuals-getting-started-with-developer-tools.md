@@ -1,27 +1,19 @@
 ---
 title: Aangepaste visuals maken met ontwikkelhulpprogramma's
 description: Met aangepaste visuals kunt voldoen aan de behoeften van uw gebruikers en het ontwerp van uw app handhaven. Leer hoe u ontwikkelhulpprogramma's kunt gebruiken om aangepaste visuals voor Power BI te maken.
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: c7ed6a9b8acc74c9d4e39ff21a10624a208847f4
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 8b5da248b6992c8ae3e8d30caf4f0fc6c47bdcf5
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Aangepaste visuals maken met ontwikkelhulpprogramma's
 Met aangepaste visuals kunt voldoen aan de behoeften van uw gebruikers en het ontwerp van uw app handhaven. Leer hoe u ontwikkelhulpprogramma's kunt gebruiken om aangepaste visuals voor Power BI te maken.
@@ -87,7 +79,7 @@ Als u een aangepaste visual wilt maken, moet u NodeJS installeren. NodeJS is ver
     --install-cert  Install localhost certificate
     </code></pre>
 
-<a name"ssl-setup"></a>
+<a name="ssl-setup"></a>
 
 ### <a name="server-certificate-setup"></a>Servercertificaat instellen
 Als u een livevoorbeeld van de visual wilt weergeven, hebt u een vertrouwde HTTPS-server nodig. Voordat u kunt beginnen, moet u een SSL-certificaat installeren zodat er visuele assets in uw webbrowser kunnen worden geladen. 
@@ -97,9 +89,24 @@ Als u een livevoorbeeld van de visual wilt weergeven, hebt u een vertrouwde HTTP
 > 
 > 
 
-Als u een certificaat wilt *toevoegen*, voert u de volgende opdracht uit.
+Als u een certificaat wilt *maken*, voert u de volgende opdracht uit.
+
+    pbiviz --create-cert
+
+> [!NOTE]
+> U zou een bericht moeten zien waarin het locatiepad naar het certificaat en een nieuw gegenereerde wachtwoordzin staan weergegeven.
+> 
+> 
+
+
+Als u het certificaat wilt *installeren*, voert u de volgende opdracht uit.
 
     pbiviz --install-cert
+    
+> [!NOTE]
+> U zou een bericht moeten zien waarin staat dat u de nieuw gegenereerde wachtwoordzin moet gebruiken om een PFX-certificaat te installeren.
+> 
+> 
 
 **Windows OS**
 

@@ -1,38 +1,21 @@
 ---
-title: 'Fout: '
-need: 
-to: 
-update: 
-android: 
-system: 
-webview": 
-'-': 
-power: 
-bi": 
+title: De fout 'Android Systeem WebView moet worden bijgewerkt' herstellen - Power BI
 description: Terwijl u zich aanmeldt bij de mobiele Android-app, krijgt u mogelijk een bericht dat u Android System WebView moet bijwerken.
-services: powerbi
-documentationcenter: 
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 10/13/2017
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 1a478d8465f05fcc4218d049101c239ed5559fc9
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 1b2e440f1c25468f4e947256720ef236a927b23c
+ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/22/2018
 ---
-# <a name="error-need-to-update-android-system-webview---power-bi"></a>Fout: Android Systeem WebView moet worden bijgewerkt - Power BI
+# <a name="fixing-need-to-update-android-system-webview"></a>De fout 'Android Systeem WebView moet worden bijgewerkt' herstellen
 Tijdens het aanmelden bij de mobiele Android-app voor Microsoft Power BI, krijgt u mogelijk een bericht dat u Android System WebView moet bijwerken. 
 
 Stel dat u naar de Google Play Store gaat en Android System WebView bijwerkt. Vervolgens keert u terug en opent u de mobiele Power BI-app opnieuw. 

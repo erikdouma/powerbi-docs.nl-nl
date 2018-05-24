@@ -1,27 +1,19 @@
 ---
 title: Maak een koppeling naar een specifieke locatie in de Power BI - Mobiel-apps
 description: Informatie over het maken van de dieptekoppeling naar een specifiek dashboard, tegel of rapport in de Power BI - Mobiel-app met een uniform resource identifier (URI).
-services: powerbi
-documentationcenter: 
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: f0174dfd845508b859f703827cec6e1a9290fe78
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 3be6882219e23a2d22ee03e6805ce3a1e8e08b8f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Maak een koppeling naar een specifieke locatie in de Power BI - Mobiel-apps
 U kunt een uniform resource identifier (URI) gebruiken om een koppelen te maken met een specifieke locatie (een *dieptekoppeling*) in de Power BI - Mobiel-apps op alle mobiele platforms: iOS, Android-apparaten en Windows 10.
@@ -41,13 +33,13 @@ Met deze URI wordt de Power BI - Mobiel-app geopend naar een specifiek dashboard
 
     mspbi://app/OpenDashboard?DashboardObjectId=<36-character-dashboard-id>
 
-Ga naar het specifieke dashboard in de Power BI-service (https://powerbi.com) om de dashboardobject-id met 36 tekens op te halen. Zie bijvoorbeeld het gemarkeerde gedeelte van deze URL:
+Ga naar het specifieke dashboard in de Power BI-service (https://powerbi.com)) om de dashboardobject-id met 36 tekens op te halen. Zie bijvoorbeeld het gemarkeerde gedeelte van deze URL:
 
 https://powerbi.com/groups/me/dashboards/**61b7e871-cb98-48ed-bddc-6572c921e270**
 
 Voeg `&GroupObjectId=<36-character-group-id>` toe vóór of na de dashboard-id wanneer het dashboard zich in een groep bevindt die niet Mijn werkruimte is. Bijvoorbeeld, 
 
-mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60**&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
+mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60 **&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
 
 Let op het en-teken (&) tussen de twee.
 
@@ -56,7 +48,7 @@ Met deze URI wordt een specifieke tegel in focus geopend in de Power BI - Mobiel
 
     mspbi://app/OpenTile?DashboardObjectId=<36-character-dashboard-id>&TileObjectId=<36-character-tile-id>
 
-Ga naar het specifieke dashboard in de Power BI-service (https://powerbi.com) en open de tegel in de focusmodus om de dashboard- en tegelobject-id met 36 tekens op te halen. Zie bijvoorbeeld de gemarkeerde gedeelten van deze URL:
+Ga naar het specifieke dashboard in de Power BI-service (https://powerbi.com)) en open de tegel in de focusmodus om de dashboard- en tegelobject-id met 36 tekens op te halen. Zie bijvoorbeeld de gemarkeerde gedeelten van deze URL:
 
 https://powerbi.com/groups/me/dashboards/**3784f99f-b460-4d5e-b86c-b6d8f7ec54b7**/tiles/**565f9740-5131-4648-87f2-f79c4cf9c5f5**/infocus
 
@@ -73,7 +65,7 @@ Met deze URI wordt een specifiek rapport geopend in de Power BI - Mobiel-app:
 
     mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>
 
-Ga naar het specifiek rapport in de Power BI-service (https://powerbi.com) om de rapportobject-id met 36 tekens op te halen. Zie bijvoorbeeld het gemarkeerde gedeelte van deze URL:
+Ga naar het specifiek rapport in de Power BI-service (https://powerbi.com)) om de rapportobject-id met 36 tekens op te halen. Zie bijvoorbeeld het gemarkeerde gedeelte van deze URL:
 
 https://powerbi.com/groups/me/reports/**df9f0e94-31df-450b-b97f-4461a7e4d300**
 
@@ -82,7 +74,7 @@ Met deze URI wordt een specifieke rapportpagina geopend in de Power BI - Mobiel-
 
     mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>&reportPage=ReportSection<number>
 
-De rapportpagina heet ReportSection, gevolgd door een getal. Open nogmaals het rapport in de Power BI-service (https://powerbi.com) en ga naar de specifieke rapportpagina. 
+De rapportpagina heet ReportSection, gevolgd door een getal. Open nogmaals het rapport in de Power BI-service (https://powerbi.com)) en ga naar de specifieke rapportpagina. 
 
 Zie bijvoorbeeld het gemarkeerde gedeelte van deze URL:
 

@@ -1,28 +1,20 @@
 ---
 title: De referenties voor het Xero-inhoudspakket vernieuwen
 description: Als u het Xero Power BI-inhoudspakket gebruikt, hebt u mogelijk problemen ondervonden met het dagelijkse vernieuwen van het inhoudspakket vanwege een recent service-incident met Power BI.
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 2be07994ebd136fa3cd99cd3d64967618cde7258
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5978443f05e039c34ff023f235624968b5eb8a3e
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="how-to-refresh-your-xero-content-pack-credentials-if-refresh-failed"></a>Uw referenties voor het Xero-inhoudspakket vernieuwen als vernieuwen is mislukt
 Als u het Xero Power BI-inhoudspakket gebruikt, hebt u mogelijk problemen ondervonden met het dagelijkse vernieuwen van het inhoudspakket vanwege een recent service-incident met Power BI.
@@ -52,7 +44,7 @@ Als het vernieuwen is mislukt zoals hierboven wordt weergegeven, voert u de volg
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-refresh-now.png)
 
-Als u nog steeds problemen ondervindt bij het vernieuwen, kunt u contact met ons opnemen op [http://support.powerbi.com](http://support.powerbi.com) 
+Als u nog steeds problemen ondervindt bij het vernieuwen, kunt u contact met ons opnemen via [http://support.powerbi.com](http://support.powerbi.com) 
 
 Ga naar de [Help-pagina voor Xero- inhoudspakketten](service-connect-to-xero.md) voor meer informatie over het Xero-inhoudspakket voor Power BI.
 

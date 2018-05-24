@@ -1,27 +1,19 @@
 ---
 title: Dashboards, rapporten en apps zoeken in de mobiele Power BI-apps
 description: Krijg meer informatie over waar u uw dashboards, rapporten en apps kunt vinden in de mobiele Power BI-apps, afhankelijk van waarvan ze afkomstig zijn.
-services: powerbi
-documentationcenter: 
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: maggies
-ms.openlocfilehash: 23a3fc38b1cf284f79b3515b25ec0396b79fb267
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+ms.openlocfilehash: 26a45efaba84961351008bf7b3497c6214cfd702
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="find-your-dashboards-reports-and-apps-in-the-power-bi-mobile-apps"></a>Dashboards, rapporten en apps zoeken in de mobiele Power BI-apps
 Van toepassing op:
@@ -74,7 +66,7 @@ Hier vindt u dashboards en rapporten die collega's met u hebben gedeeld. U kunt 
 ![Power BI Met mij gedeeld](media/mobile-apps-find-content-mobile-devices/power-bi-android-shared-fave.png)
 
 ## <a name="5-workspaces"></a>5 Werkruimten
-Ook wel *App-werkruimten* genoemd. Dit zijn faseringsomgevingen in de Power BI-service ([https://powerbi.com](https://powerbi.com)) waar u kunt samenwerken met collega's om een verzameling dashboards en rapporten te maken. Vervolgens distribueert u de verzameling als een *app*. 
+Werkruimten worden ook wel *App-werkruimten* genoemd. Dit zijn faseringsomgevingen in de Power BI-service ([https://powerbi.com](https://powerbi.com)) waar u kunt samenwerken met collega's om een verzameling dashboards en rapporten te maken. Vervolgens distribueert u de verzameling als een *app*. 
 
 In de mobiele apps kunt u inhoud weergeven en gebruiken van elke werkruimte waarvan u een lid of beheerder bent. U kunt apps uit werkruimten niet publiceren in de mobiele apps.
 

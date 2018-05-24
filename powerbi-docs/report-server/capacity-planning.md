@@ -1,27 +1,19 @@
 ---
 title: Richtlijnen voor capaciteitsplanning voor Power BI Report Server
 description: Dit document biedt richtlijnen voor de capaciteitsplanning voor Power BI Report Server door de resultaten van diverse belastingtests met verschillende workloads te delen.
-services: powerbi
-documentationcenter: ''
 author: parthsha
 manager: kfile
-backup: maghan
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maghan
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: 36d12e520cd53abc0159e698f3f469f62f884c95
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 94f137f0b8627bf34e78d9ac36574c64dd5d4752
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Richtlijnen voor capaciteitsplanning voor Power BI Report Server
 Power BI Report Server is een selfservice-BI en rapportageoplossing voor ondernemingen die klanten on-premises, achter hun firewall kunnen implementeren. De oplossing combineert de interactieve rapportagemogelijkheden van Power BI Desktop met het on-premises serverplatform van SQL Server Reporting Services. Met het intensieve en toenemende gebruik van analyses en rapporten binnen ondernemingen is het soms behoorlijk lastig om de hardware-infrastructuur en de benodigde softwarelicenties voor het schalen van het gebruikersbestand te budgetteren. Het doel van dit document is een leidraad te geven bij de capaciteitsplanning voor Power BI Report Server door het delen van de resultaten van talrijke belastingtests die met verschillende workloads op een rapportserver zijn uitgevoerd. Hoewel de rapporten, query's en gebruikspatronen sterk kunnen variëren, vormen de resultaten die in dit artikel worden gepresenteerd, alsmede de daadwerkelijk uitgevoerde testen en de gedetailleerde beschrijving van de testprocedures, een goed referentiepunt voor iedereen die overweegt om Power BI Report Server te implementeren.
@@ -57,7 +49,7 @@ De Power BI Report Server-implementatie bestaat uit de volgende virtuele machine
 Zie bijlage 1.1 Power BI Report Server-topologie en bijlage 1.2 Configuratie van de virtuele machine van Power BI Report Server voor een grondige configuratie van elke virtuele machine die wordt gebruikt in de topologie.
 
 ### <a name="tests"></a>Testen
-De testen die worden gebruikt om de belastingtesten uit te voeren, zijn openbaar beschikbaar in een GitHub-project met de naam Reporting Services LoadTest (zie https://github.com/Microsoft/Reporting-Services-LoadTest). Met dit hulpprogramma kunnen gebruikers de kenmerken van de prestaties, betrouwbaarheid, schaalbaarheid en herstelmogelijkheden van SQL Server Reporting Services en Power BI Report Server bestuderen. Dit project bestaat uit vier groepen van testcases:
+De testen die worden gebruikt om de belastingtesten uit te voeren, zijn openbaar beschikbaar in een GitHub-project met de naam Reporting Services LoadTest (zie https://github.com/Microsoft/Reporting-Services-LoadTest)). Met dit hulpprogramma kunnen gebruikers de kenmerken van de prestaties, betrouwbaarheid, schaalbaarheid en herstelmogelijkheden van SQL Server Reporting Services en Power BI Report Server bestuderen. Dit project bestaat uit vier groepen van testcases:
 
 * Testen waarbij de weergave van Power BI-rapporten wordt gesimuleerd.
 * Testen waarbij de weergave van mobiele rapporten wordt gesimuleerd.
@@ -121,7 +113,7 @@ De resultaten in dit artikel zijn afgeleid van testen waarbij een specifieke set
 ### <a name="1-topology"></a>1 Topologie
 **1.1 Topologie van Power BI Report Server**
 
-Er is een vaste VM-configuratie voor elk type machine gebruikt (behalve voor de machine waarop Power BI Report Server werd gehost), om ons uitsluitend te concentreren op het gedrag van Power BI Report Server onder verschillende configuraties. Elke machine waren de machines ingericht overeenkomstig de tweede generatie (v2) uit de D-serie met Premium-opslagschijven. In de sectie Algemeen doel op https://azure.microsoft.com/nl-nl/pricing/details/virtual-machines/windows/ vindt u gedetailleerde informatie over elke VM-grootte.
+Er is een vaste VM-configuratie voor elk type machine gebruikt (behalve voor de machine waarop Power BI Report Server werd gehost), om ons uitsluitend te concentreren op het gedrag van Power BI Report Server onder verschillende configuraties. Elke machine waren de machines ingericht overeenkomstig de tweede generatie (v2) uit de D-serie met Premium-opslagschijven. U kunt getailleerde informatie over elke VM-grootte vinden in de sectie 'Algemeen gebruik' op https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/.
 
 | Type virtuele machine | Processor | Geheugen | Azure VM-grootte |
 | --- | --- | --- | --- |
@@ -131,7 +123,7 @@ Er is een vaste VM-configuratie voor elk type machine gebruikt (behalve voor de 
 
 **1.2 Configuratie van de virtuele machine van Power BI Report Server** 
 
-Voor de virtuele machine waarop Power BI Report Server werd gehost, zijn andere processor- en geheugenconfiguraties gebruikt. In tegenstelling tot de andere virtuele machines was deze machine ingericht overeenkomstig de derde generatie (v3) machines uit de D-serie met Premium-opslagschijven. In de sectie Algemeen doel op https://azure.microsoft.com/nl-nl/pricing/details/virtual-machines/windows/ vindt u gedetailleerde informatie over deze VM-grootte.
+Voor de virtuele machine waarop Power BI Report Server werd gehost, zijn andere processor- en geheugenconfiguraties gebruikt. In tegenstelling tot de andere virtuele machines was deze machine ingericht overeenkomstig de derde generatie (v3) machines uit de D-serie met Premium-opslagschijven. U kunt getailleerde informatie over deze VM-grootte vinden in de sectie 'Algemeen gebruik' op https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/.
 
 | Virtuele machine | Processor | Geheugen | Azure VM-grootte |
 | --- | --- | --- | --- |
@@ -141,12 +133,12 @@ Voor de virtuele machine waarop Power BI Report Server werd gehost, zijn andere 
 ### <a name="2-run-the-loadtest-tool"></a>2 Het hulpprogramma LoadTest uitvoeren
 Als u het hulpprogramma LoadTest van Reporting Services wilt uitvoeren voor uw implementatie of een Microsoft Azure-implementatie van Power BI Report Server, voert u de volgende stappen uit.
 
-1. Kloon het LoadTest-project voor Reporting Services van GitHub (https://github.com/Microsoft/Reporting-Services-LoadTest).
+1. Maak een kloon van het Reporting Services LoadTest-project op GitHub (https://github.com/Microsoft/Reporting-Services-LoadTest)).
 2. In de projectmap vindt u een oplossingsbestand met de naam RSLoadTests.sln. Open dit bestand in Visual Studio 2015 of later.
 3. Bepaal of u dit hulpprogramma wilt uitvoeren voor uw implementatie van Power BI Report Server of voor een implementatie van Power BI Report Server in Microsoft Azure. Als u dit hulpprogramma gebruikt voor uw eigen implementatie, gaat u naar stap 5.
-4. Volg de instructies op https://github.com/Microsoft/Reporting-Services-LoadTest#create-a-sql-server-reporting-services-load-environment-in-azure om een Power BI Report Server-omgeving te maken in Azure.
-5. Zodra u de omgeving hebt geïmplementeerd, volgt u de instructies op https://github.com/Microsoft/Reporting-Services-LoadTest#load-test-execution om de testen uit te voeren.
+4. Volg de instructies die worden weergegeven op https://github.com/Microsoft/Reporting-Services-LoadTest#create-a-sql-server-reporting-services-load-environment-in-azure om een Power BI Report Server-omgeving in Azure te maken.
+5. Nadat u de omgeving hebt geïmplementeerd, volgt u de instructies die worden weergegeven op https://github.com/Microsoft/Reporting-Services-LoadTest#load-test-execution om de tests uit te voeren.
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 
 
