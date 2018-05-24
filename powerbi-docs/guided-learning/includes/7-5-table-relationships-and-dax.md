@@ -11,7 +11,7 @@ De functie **TABEL** bijvoorbeeld volgt relaties en retourneert de waarde van ee
 
 ![](media/7-5-table-relationships-and-dax/dax-relationships_2.png)
 
-De functie **RELATED** werkt aan *veel-op-een-*relaties, terwijl de functie **RELATEDTABLE** is bedoeld voor *een-op-veel*relaties.
+De functie **RELATED** werkt aan *veel-op-een-* relaties, terwijl de functie **RELATEDTABLE** is bedoeld voor *een-op-veel*relaties.
 
 U kunt relationele functies gebruiken om expressies te bouwen die waarden tussen meerdere tabellen bevatten. DAX retourneert een resultaat met deze functies, ongeacht de lengte van de keten van de relatie.
 

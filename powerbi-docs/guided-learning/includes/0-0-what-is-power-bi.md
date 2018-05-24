@@ -14,7 +14,7 @@ Als u **niet bekend** met Power BI bent, helpt deze cursus u op weg. Als u een *
 **Power BI** kan snel en eenvoudig zijn. Zo kunt u bijvoorbeeld snel inzichten maken op basis van een Excel-spreadsheet of een lokale database. Maar **Power BI** is ook een robuust en geavanceerd programma waarmee uitgebreide modellen en realtime analyses kunnen worden gemaakt en de mogelijkheid maatwerkontwikkeling biedt. Power BI kan dus fungeren als een persoonlijk hulpprogramma voor rapportage en visualisatie, maar ook als de analyse- en besluitvormingsmotor achter groepsprojecten, afdelingen en complete bedrijven.
 
 ## <a name="the-parts-of-power-bi"></a>De onderdelen van Power BI
-Power BI bestaat uit de Windows-bureaubladtoepassing **Power BI Desktop**, een online SaaS-service (*software als een dienst*) met de naam de **Power BI-service** en Power BI -Mobiel**-apps** voor Windows-telefoons en -tablets en iOS- en Android-apparaten.
+Power BI bestaat uit de Windows-bureaubladtoepassing **Power BI Desktop**, een online SaaS-service (*software als een dienst*) met de naam de **Power BI-service** en Power BI -Mobiel **-apps** voor Windows-telefoons en -tablets en iOS- en Android-apparaten.
 
 ![](media/0-0-what-is-power-bi/c0a0_2.png)
 

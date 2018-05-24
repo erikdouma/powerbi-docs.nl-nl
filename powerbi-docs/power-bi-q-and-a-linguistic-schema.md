@@ -7,14 +7,14 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/20/2018
+ms.date: 05/22/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: b7fb59e7fca6a3211b542b2a942565d6865e560c
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: c504280257a959ccd7a46e61b9d377c22b76c14d
+ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="language-modeling-and-the-linguistic-schema"></a>Taalmodellen maken en het taalkundige schema 
 Normale zinnen en natuurlijke taal gebruiken om informatie uit uw gegevens te kunnen opvragen, is uiterst nuttig. Nog nuttiger is het wanneer uw gegevens antwoorden. Dit is wat u voor elkaar kunt krijgen met Q&A in Power BI. Wanneer u Power BI Q&A een vraag stelt, wordt geprobeerd een zo goed mogelijk antwoord te geven. 
@@ -53,10 +53,7 @@ U wordt aangeraden Visual Studio Code te gebruiken om YAML-bestanden voor taalku
 
     ![Hoe wilt u dit bestand openen](media/power-bi-q-and-a-linguistic-schema/power-bi-visual-code.png)
 
-4. Installeer in Visual Studio Code de YAML-ondersteuning van de Red Hat-extensie.
-
-   
-
+4. Installeer in Visual Studio Code de YAML-ondersteuning van de Red Hat-extensie.    
     a. Selecteer het tabblad **Extensies** (laatste aan de linkerkant) of druk op CTRL+SHIFT+X.    
     ![Het pictogram Extensies](media/power-bi-q-and-a-linguistic-schema/power-bi-extensions.png)    
     b. Zoek 'yaml' en selecteer **YAML-ondersteuning door Red Hat** in de lijst.    

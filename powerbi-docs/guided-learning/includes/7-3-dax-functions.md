@@ -7,7 +7,7 @@ DAX bevat veel functies voor het vormen en bewerken van uw gegevens en andere ma
 * **Tekst**functies
 * **Datum**functies
 
-Wanneer u de formule begint te typen in de **formulebalk** van Power BI Desktop, verschijnt net als in Excel een lijst met beschikbare functies waaruit u de gewenste functie kunt kiezen. Met behulp van de **pijl-omhoog-** en **pijl-omlaag-**toetsen op het toetsenbord kunt u de beschikbare functies markeren en een korte beschrijving van de functie weergeven.
+Wanneer u de formule begint te typen in de **formulebalk** van Power BI Desktop, verschijnt net als in Excel een lijst met beschikbare functies waaruit u de gewenste functie kunt kiezen. Met behulp van de **pijl-omhoog-** en **pijl-omlaag-** toetsen op het toetsenbord kunt u de beschikbare functies markeren en een korte beschrijving van de functie weergeven.
 
 Power BI biedt de functies die overeenkomen met de letters die u hebt getypt. Als u bijvoorbeeld *S* hebt getypt, worden alleen de functies weergegeven die beginnen met een *S*. Als u *Su* typt, worden alleen de functies weergegeven die de letterreeks *Su* *bevatten* in de naam (de functies hoeven niet te beginnen met *Su*).
 
@@ -50,9 +50,9 @@ DAX bevat de volgende **logische** functies:
 * IF
 * IFERROR
 
-Deze speciale functies kunnen ook worden uitgedrukt met *operators*. **AND** kan bijvoorbeeld worden getypt als (of vervangen worden door)  **&&**  in uw DAX-formule.
+Deze speciale functies kunnen ook worden uitgedrukt met *operators*. **AND** kan bijvoorbeeld worden getypt als (of vervangen worden door) **&&** in uw DAX-formule.
 
-U kunt operators gebruiken (zoals  **&&** ) als u meer dan twee voorwaarden in de formule wilt gebruiken. Anders kunt u voor de leesbaarheid van de DAX-code het best de functienaam zelf gebruiken (zoals **AND**).
+U kunt operators gebruiken (zoals **&&**) als u meer dan twee voorwaarden in de formule wilt gebruiken. Anders kunt u voor de leesbaarheid van de DAX-code het best de functienaam zelf gebruiken (zoals **AND**).
 
 ## <a name="information-functions"></a>Informatiefuncties
 DAX bevat de volgende **informatie**functies:

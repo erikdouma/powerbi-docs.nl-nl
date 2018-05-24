@@ -32,7 +32,7 @@ U kunt berekende kolommen in Power BI Desktop maken door **Nieuwe kolom** op het
 
 ![](media/7-2-dax-calculation-types/dax-calc-types_2a.png)
 
-Als u de knop **Nieuwe kolom** selecteert, wordt de **formulebalk** gevuld met een basisnaam voor de kolom (die u uiteraard kunt wijzigen) en de  **=** operator. De nieuwe kolom wordt weergegeven in het gegevensraster, zoals in de volgende afbeelding.
+Als u de knop **Nieuwe kolom** selecteert, wordt de **formulebalk** gevuld met een basisnaam voor de kolom (die u uiteraard kunt wijzigen) en de **=** operator. De nieuwe kolom wordt weergegeven in het gegevensraster, zoals in de volgende afbeelding.
 
 ![](media/7-2-dax-calculation-types/dax-calc-types_3.png)
 
