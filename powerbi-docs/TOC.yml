@@ -96,6 +96,8 @@
                   href: service-print.md
                 - name: Abonneren op een rapport of dashboard
                   href: service-report-subscribe.md
+                - name: Veel manieren om een rapport te openen
+                  href: service-report-open.md
                 - name: De naam van inhoud in Power BI wijzigen
                   href: service-rename.md
                 - name: Dashboards en rapporten weergeven in een volledig scherm (tv-modus)
@@ -846,7 +848,9 @@
           items:
             - name: Aan de slag met de app Power BI voor Android
               href: mobile-android-app-get-started.md
-            - name: Het vertrouwen in uw zakelijke SSL-certificaat herstellen
+            - name: De fout 'Uw zakelijke SSL-certificaat wordt niet vertrouwd' oplossen
+              href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+            - name: De fout 'Android Systeem WebView moet worden bijgewerkt' oplossen
               href: mobile-android-error-update-android-system-webview.md
         - name: iOS
           items:
