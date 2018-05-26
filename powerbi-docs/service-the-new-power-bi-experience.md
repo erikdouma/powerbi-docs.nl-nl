@@ -8,14 +8,14 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 05/07/2018
+ms.date: 05/18/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 157103ff224cf0d71e2ca14106903b9c89fdc3d4
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 004b9c921de9e94cb52f90cdea4815acd6162175
+ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Quickstart: navigeren in de Power BI-service
 
@@ -125,6 +125,19 @@ U kunt de inhoud ook sorteren op naam of eigenaar.
 ![Inhoud sorteren](media/service-the-new-power-bi-experience/power-bi-sort.png)
 
 Zie [Power BI-navigatie: zoeken, sorteren en filteren](service-navigation-search-filter-sort.md) voor meer informatie.
+
+## <a name="clean-up-resources"></a>Resources opschonen
+Als u deze snelstartgids hebt voltooid, kunt u het voorbeelddashboard, het voorbeeldrapport en de voorbeeldgegevensset verwijderen.
+
+1. Open de Power BI-service (app.powerbi.com) en meld u aan.    
+2. Selecteer **Werkruimten > Mijn Werkruimte** in het linkerdeelvenster.  
+    Met de gele ster wordt aangegeven dat het een favoriet betreft.    
+3. Selecteer op het tabblad **Dashboards** het pictogram **Verwijderen** (prullenbak) naast het dashboard voor de retailanalyse.    
+
+    ![dashboard verwijderen](media/service-the-new-power-bi-experience/power-bi-cleanup.png)
+
+4. Selecteer het tabblad **Rapporten** en doe hetzelfde voor het rapport voor de retailanalyse.
+1. Selecteer het tabblad **Gegevenssets** en doe hetzelfde voor het rapport voor de retailanalyse.
 
 ## <a name="next-steps"></a>Volgende stappen
 
