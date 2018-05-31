@@ -1,29 +1,21 @@
 ---
 title: Wat is Power BI Desktop?
 description: Wat is Power BI Desktop en hoe gaat u hiermee aan de slag?
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
+ms.component: powerbi-desktop
 ms.topic: overview
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f59fb625f0fd47755d172b9bcd39ca6e153c8845
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: be29d5879ef62ab3d7fcef271e61337a0d2fb050
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33810984"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34289183"
 ---
 # <a name="what-is-power-bi-desktop"></a>Wat is Power BI Desktop?
 

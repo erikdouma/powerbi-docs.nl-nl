@@ -1,29 +1,21 @@
 ---
 title: 'Deel 2: Visualisaties toevoegen aan een Power BI-rapport'
 description: 'Deel 2: Visualisaties toevoegen aan een Power BI-rapport'
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 39f11f2740918e5ec3fc62c86c72bac4544d5ff6
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 5c3f98635d188aa1857be9c8d8e36dc296339ad7
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33814307"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34292220"
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report"></a>Deel 2: Visualisaties toevoegen aan een Power BI-rapport
 In [Deel 1](power-bi-report-add-visualizations-ii.md) hebt u een eenvoudige visualisatie gemaakt door selectievakjes naast de veldnamen te selecteren.  In deel 2 leert u hoe u slepen-en-neerzetten kunt gebruiken, en hoe u gebruik kunt maken van de volledige functionaliteit van de deelvensters **Velden** en **Visualisaties** om visualisaties te maken en te wijzigen.

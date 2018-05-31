@@ -1,31 +1,31 @@
 ---
 title: Power BI-inhoud insluiten in een toepassing voor uw klanten
 description: Informatie over het integreren of insluiten van een rapport, dashboard of tegel in een web-app met behulp van de Power BI-API's voor uw klanten.
-services: powerbi
 author: markingmyname
 ms.author: maghan
 ms.date: 05/07/2018
 ms.topic: tutorial
 ms.service: powerbi
+ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 2d4fdee8d3e4cca60294acd0a9167da1f048afa5
-ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
+ms.openlocfilehash: dd46617f5a3b1445c597656148e4068ef3cfed92
+ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2018
-ms.locfileid: "34051928"
+ms.lasthandoff: 05/22/2018
+ms.locfileid: "34445228"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Zelfstudie: een Power BI-rapport, dashboard of tegel insluiten in een toepassing voor uw klanten
-Met **Power BI Embedded in Azure** kunt u rapporten, dashboards en tegels in een toepassing insluiten, zodat uw klanten gegevens kunnen delen. Dit is doorgaans een scenario voor **ISV-ontwikkelaars** waarin de **app eigenaar is van de gegevens**. Wanneer de **app eigenaar is van de gegevens**, betekent dit dat u Power BI-inhoud insluit voor uw eigen klanten. De gebruiker van de Power BI-inhoud kan bijvoorbeeld rapporten, dashboards of tegels bekijken zonder dat deze zich hoeft aan te melden bij **Power BI**. Deze zelfstudie laat zien hoe u een rapport in een toepassing kunt integreren of insluiten met behulp van de .NET SDK voor **Power BI** en de JavaScript-API voor **Power BI** bij gebruik van **Power BI Embedded in Azure** voor uw klanten wanneer de **app eigenaar is van de gegevens**.
+Met **Power BI Embedded in Azure** kunt u rapporten, dashboards en tegels in een toepassing insluiten met de **gegevens waarvan de app eigenaar is**. Als **de app eigenaar is van de gegevens** kunt u een toepassing gebruiken die Power BI gebruikt als ingesloten analytics platform. Dit is doorgaans een scenario voor een **ISV-ontwikkelaar**. Als **ISV-ontwikkelaar** kunt u Power BI-inhoud maken waarmee rapporten, dashboards of tegels worden weergegeven in een toepassing die volledig geïntegreerd en interactief is, zonder dat gebruikers van de toepassing een licentie voor Power BI moeten hebben, of zelfs merken dat achter de schermen Power BI wordt gebruikt. In deze zelfstudie leert u hoe u een rapport in een toepassing kunt integreren met de .NET SDK voor **Power BI** en de JavaScript-API voor **Power BI** bij gebruik van **Power BI Embedded in Azure** voor uw klanten wanneer de **app eigenaar is van de gegevens**.
 
 In deze zelfstudie leert u het volgende:
 >[!div class="checklist"]
 >* Een toepassing registreren in Azure.
->* Een rapport, dashboard of tegel insluiten in een toepassing met Power BI Embedded in Azure.
+>* Een Power BI-rapport insluiten in een toepassing.
 
 ## <a name="prerequisites"></a>Vereisten
-Als u wilt beginnen, hebt u een **Power BI Pro**-account en een **Microsoft Azure**-account nodig.
+Als u wilt beginnen, hebt u een **Power BI Pro**-account als **hoofdaccount** en een **Microsoft Azure**-abonnement nodig.
 
 * Als u zich niet hebt geregistreerd voor **Power BI Pro**, [kunt u zich hier aanmelden voor een gratis proefversie](https://powerbi.microsoft.com/en-us/pricing/) voordat u begint.
 * Als u nog geen abonnement op Azure hebt, maakt u een [gratis account](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) voordat u begint.
@@ -95,33 +95,6 @@ U moet extra machtigingen inschakelen voor uw toepassing naast de informatie die
    
     ![Machtigingen verlenen binnen het dialoogvenster Vereiste machtigingen](media/embed-sample-for-customers/embed-sample-for-customers-016.png)
 
-### <a name="create-your-power-bi-embedded-dedicated-capacity-in-azure"></a>Toegewezen capaciteit van Power BI Embedded maken in Azure
-
-1. Meld u aan bij [Azure Portal](https://portal.azure.com).
-
-    ![Hoofdweergave van Azure Portal](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
-
-2. Kies in het navigatiedeelvenster links **Alle services** en selecteer **Power BI Embedded**.
-
-    ![PBIE zoeken](media/embed-sample-for-customers/embed-sample-for-customers-017.png)
-
-3. Volg de aanwijzingen en vul de juiste informatie in die nodig is voor het maken van nieuwe toegewezen capaciteit van **Power BI Embedded**. Selecteer vervolgens **Maken**. Raadpleeg tijdens het kiezen van de **prijscategorie** de onderstaande tabel om te bepalen welke categorie het beste aansluit op uw behoeften. Selecteer vervolgens **Maken** en wacht totdat de resource is voltooid.
-
-    ![PBIE instellen](media/embed-sample-for-customers/embed-sample-for-customers-018.png)
-
-| Capaciteitsknooppunt | Totaal aantal cores<br/>*(back-end + front-end)* | Back-endcores | Front-endcores | Limieten voor DirectQuery/liveverbindingen | Maximum aantal pagina's (rendering) tijdens piekuren |
-| --- | --- | --- | --- | --- | --- |
-| A1 |1 v-core |0,5 core, 3 GB RAM |0,5 core | 5 per seconde |1-300 |
-| A2 |2 v-cores |1 core, 5 GB RAM |1 core | 10 per seconde |301-600 |
-| A3 |4 v-cores |2 cores, 10 GB RAM |2 cores | 15 per seconde |601-1200 |
-| A4 |8 v-cores |4 cores, 25 GB RAM |4 cores |30 per seconde |1201-2400 |
-| A5 |16 v-cores |8 cores, 50 GB RAM |8 cores |60 per seconde |2401-4800 |
-| A6 |32 v-cores |16 cores, 100 GB RAM |16 cores |120 per seconde |4.801-9.600 |
-
-Nu kunt u de nieuwe **toegewezen capaciteit van Power BI Embedded** bekijken.
-
-   ![Toegewezen capaciteit van PBIE](media/embed-sample-for-customers/embed-sample-for-customers-019.png)
-
 ## <a name="setup-your-power-bi-environment"></a>Uw Power BI-omgeving instellen
 
 ### <a name="create-an-app-workspace"></a>Een app-werkruimte maken
@@ -150,10 +123,6 @@ Als u rapporten, dashboards of tegels voor uw klanten insluit, moet u uw inhoud 
 
 6. Bepaal per persoon of deze een lid of een beheerder is. Beheerders kunnen de werkruimte zelf bewerken, en bijvoorbeeld ook andere leden toevoegen. Leden kunnen de inhoud in de werkruimte bewerken, tenzij ze alleen leesrechten hebben. Zowel beheerders als leden kunnen de app publiceren.
 
-7. Vouw **Geavanceerd** uit, schakel **Toegewezen capaciteit** in en selecteer de **toegewezen capaciteit van Power BI Embedded** die u hebt gemaakt. Selecteer vervolgens **Opslaan**.
-
-    ![Leden toevoegen](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
-
 Nu kunt u de nieuwe werkruimte weergeven. De werkruimte wordt gemaakt en in Power BI geopend. De werkruimte wordt weergegeven in de lijst met werkruimten waarvan u lid bent. Omdat u een beheerder bent, kunt u het weglatingsteken (...) selecteren om terug te gaan en wijzigingen aanbrengen, bijvoorbeeld nieuwe leden toevoegen of machtigingen van leden wijzigen.
 
    ![Nieuwe werkruimte](media/embed-sample-for-customers/embed-sample-for-customers-025.png)
@@ -180,6 +149,10 @@ U kunt de rapporten en gegevenssets maken met Power BI Desktop en de rapporten v
 
 ## <a name="embed-your-content"></a>Uw inhoud insluiten
 
+Als u voor uw klanten inhoud in uw toepassing wilt insluiten, is een **toegangstoken** vereist voor het hoofdaccount van **Azure AD**. U moet een [Azure AD-toegangstoken ophalen](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) voor uw Power BI-toepassing met een app die eigenaar is van de gegevens voordat u de Power BI API kunt aanroepen.
+
+Volg deze stappen om inhoud in te sluiten met een voorbeeldtoepassing.
+
 1. Download het [voorbeeld waarin de app eigenaar is van de gegevens](https://github.com/Microsoft/PowerBI-Developer-Samples) vanuit GitHub om aan de slag te gaan.
 
     ![Voorbeeldtoepassing waarin app eigenaar is van de gegevens](media/embed-sample-for-customers/embed-sample-for-customers-026.png)
@@ -190,18 +163,18 @@ U kunt de rapporten en gegevenssets maken met Power BI Desktop en de rapporten v
 
     * Vul bij **clientId** de **toepassings-ID** van **Azure** in. **clientId** wordt door de toepassing gebruikt om zich te identificeren bij de gebruikers bij wie ze machtigingen aanvragen. Ga als volgt te werk om de **client-id** op te halen:
 
-        1. Meld u aan bij [Azure Portal](https://portal.azure.com).
+    1. Meld u aan bij [Azure Portal](https://portal.azure.com).
 
         ![Hoofdweergave van Azure Portal](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
-        2. Kies in het navigatiedeelvenster links **Alle services** en selecteer **App-registraties**.
+    2. Kies in het navigatiedeelvenster links **Alle services** en selecteer **App-registraties**.
 
         ![App-registratie zoeken](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
-        3. Selecteer de toepassing waarvoor u de **client-id** wilt ophalen.
+    3. Selecteer de toepassing waarvoor u de **client-id** wilt ophalen.
 
         ![App kiezen](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
-      4. U ziet een **toepassings-ID** die wordt vermeld als een GUID. Gebruik deze **toepassings-ID** als de **client-id** voor de toepassing.
+    4. U ziet een **toepassings-ID** die wordt vermeld als een GUID. Gebruik deze **toepassings-ID** als de **client-id** voor de toepassing.
 
         ![clientId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)     
 
@@ -230,8 +203,31 @@ U kunt de rapporten en gegevenssets maken met Power BI Desktop en de rapporten v
 
     ![Toepassing weergeven](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
 
-Voor een volledig voorbeeld van het gebruik van de JavaScript-API kunt u het [hulpprogramma Playground](https://microsoft.github.io/PowerBI-JavaScript/demo) gebruiken. Hiermee kunt u op een snelle manier verschillende typen Power BI Embedded-voorbeelden uitproberen. Op de [wikipagina voor PowerBI JavaScript](https://github.com/Microsoft/powerbi-javascript/wiki) vindt u ook meer informatie over de JavaScript-API.
+## <a name="move-to-production"></a>Verplaatsen naar productie
+
+Nu u uw toepassing hebt ontwikkeld, is het tijd om aan uw app-werkruimte toegewezen capaciteit toe te voegen. Toegewezen capaciteit is vereist voor het verplaatsen naar productie.
+
+### <a name="create-a-dedicated-capacity"></a>Een toegewezen capaciteit maken
+Als u een toegewezen capaciteit maakt, profiteert u van een toegewezen resource voor uw klant. Werkruimten die niet zijn toegewezen aan een toegewezen capaciteit, bevinden zich in een gedeelde capaciteit. U maakt een toegewezen capaciteit met de oplossing voor [Power BI Embedded-toegewezen capaciteit](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity) in Azure.
+
+>[!Note]
+>Insluitingstokens met een PRO-licentie zijn bedoeld voor ontwikkelingstesten, dus een Power BI-hoofdaccount kan maar een beperkt aantal insluitingstokens genereren. U moet een toegewezen capaciteit aanschaffen voor het insluiten van items in een productieomgeving. Met een toegewezen capaciteit kunt u een onbeperkt aantal insluitingstokens genereren. Ga naar [Beschikbare functies ophalen](https://msdn.microsoft.com/library/mt846473.aspx) om de waarde voor het gebruik te controleren. Hiermee wordt het huidige gebruik van insluitingstokens in procenten aangegeven.
+>
+
+### <a name="assign-app-workspace-to-dedicated-capacity"></a>App-werkruimte toewijzen aan toegewezen capaciteit
+
+Zodra een toegewezen capaciteit is gemaakt, moet u de app-werkruimte toewijzen aan de toegewezen capaciteit. Ga hiervoor als volgt te werk.
+
+1. Vouw binnen de **Power BI-service** werkruimten uit en selecteer het beletselteken voor de werkruimte waarin u uw inhoud insluit. Selecteer vervolgens **Werkruimten bewerken**.
+
+    ![Werkruimte bewerken](media/embed-sample-for-customers/embed-sample-for-customers-036.png)
+
+2. Vouw **Geavanceerd** uit, schakel **Toegewezen capaciteit** in en selecteer de toegewezen capaciteit die u hebt gemaakt. Selecteer vervolgens **Opslaan**.
+
+    ![Toegewezen capaciteit toewijzen](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
+
+Voor een volledig voorbeeld van het gebruik van de JavaScript-API kunt u het [hulpprogramma Playground](https://microsoft.github.io/PowerBI-JavaScript/demo) gebruiken. Hiermee kunt u op een snelle manier verschillende typen Power BI Embedded-voorbeelden uitproberen. Op de [wikipagina voor Power BI JavaScript](https://github.com/Microsoft/powerbi-javascript/wiki) vindt u ook meer informatie over de JavaScript-API.
 
 Als u meer vragen hebt over Power BI Embedded, gaat u naar de pagina met [veelgestelde vragen](embedded-faq.md).  Als u in uw toepassing problemen ondervindt met Power BI Embedded, gaat u naar de pagina voor [probleemoplossing](embedded-troubleshoot.md).
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/) 
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

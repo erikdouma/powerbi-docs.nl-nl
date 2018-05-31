@@ -1,29 +1,20 @@
 ---
 title: 'Zelfstudie: Power BI Report Server in een VM verkennen'
 description: In deze zelfstudie maakt u een virtuele machine met Power BI Report Server dat al is geïnstalleerd en verkent u de webportal.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
-ms.component: powerbi-report-server
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
+ms.component: powerbi-report-server
 ms.topic: tutorial
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 05/05/2018
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: a77dceac19368fc7997f79513b0b5f946a914dfc
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 38985014407a4d64998e25f6944f57aedcc67309
+ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33813939"
+ms.lasthandoff: 05/22/2018
+ms.locfileid: "34444998"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Zelfstudie: de webportal van Power BI Report Server in een VM verkennen
 In deze zelfstudie maakt u een virtuele Azure-machine met Power BI Report Server dat al is geïnstalleerd, zodat u voorbeeldexemplaren van Power BI- en gepagineerde rapporten en KPI's kunt bekijken, bewerken en beheren.
@@ -58,6 +49,8 @@ Gelukkig heeft het Power BI-team een VM gemaakt die hoort bij het al geïnstalle
 5. Maak een gebruikersnaam en wachtwoord.
 
 6. Houd voor **Resourcegroep** **Nieuwe maken** ingeschakeld en noem deze **reportserverresourcegroup**.
+
+    Als u de zelfstudie meer dan één keer volgt, moet u de resourcegroep na de eerste keer een andere naam geven. U kunt de naam van dezelfde resourcegroep niet twee keer in één abonnement gebruiken. 
 
 7. Laat de overige standaardwaarden ongemoeid en klik op **OK**.
 
@@ -99,7 +92,7 @@ Als de VM wordt geopend, vindt u hier de items die u op het bureaublad ziet.
 
 ![Virtuele machine van Power BI Report Server wordt gestart](media/tutorial-explore-report-server-web-portal/power-bi-report-server-start-vm-numbered.png)
 
-|Nummer  |Wat het betekent  |
+|Getal  |Wat het betekent  |
 |---------|---------|
 |![Nummer 1](media/tutorial-explore-report-server-web-portal/number-1.png) | Hiermee wordt SQL Server Data Tools gestart om gepagineerde (RDL) rapporten te maken |
 |![Nummer 2](media/tutorial-explore-report-server-web-portal/number-2.png) | Power BI-voorbeeldrapporten (PBIX)  |
@@ -165,6 +158,8 @@ In de webportal kunt u Power BI-rapporten bekijken en ermee werken en u kunt Pow
      Het rapport wordt geopend in Power BI Desktop. Let op de naam in de bovenste balk: 'Power BI Desktop (March 2018)'. Dat is de versie die is geoptimaliseerd voor Power BI Report Server.
 
     ![Power BI Desktop](media/tutorial-explore-report-server-web-portal/power-bi-report-server-power-bi-desktop.png)
+
+     Gebruik de versie van Power BI Desktop die is geïnstalleerd op de VM. U kunt niet wisselen tussen domeinen voor het uploaden van een rapport.
 
 3. Vouw in het deelvenster Velden de tabel Klanten uit en sleep het veld Occupation naar Filters op rapportniveau.
 
@@ -252,7 +247,9 @@ Als u deze zelfstudie hebt voltooid, verwijdert u de resourcegroep, de virtuele 
 
 ## <a name="next-steps"></a>Volgende stappen
 
-In deze zelfstudie hebt u een VM gemaakt met Power BI Report Server. U hebt enkele functies van de webportal uitgeprobeerd en een Power BI- en een gepagineerd rapport geopend in de bijbehorende editors. Als u meer informatie zoekt over het maken van rapporten voor Power BI Report Server, kunt u doorgaan.
+In deze zelfstudie hebt u een VM gemaakt met Power BI Report Server. U hebt enkele functies van de webportal uitgeprobeerd en een Power BI- en een gepagineerd rapport geopend in de bijbehorende editors. Op deze VM zijn de SQL Server Analysis Services-gegevensbronnen geïnstalleerd, zodat u uw eigen Power BI en gepagineerde rapporten kunt maken met die gegevensbronnen. 
+
+Als u meer informatie zoekt over het maken van rapporten voor Power BI Report Server, kunt u doorgaan.
 
 > [!div class="nextstepaction"]
 > [Een Power BI-rapport maken voor Power BI Report Server](./quickstart-create-powerbi-report.md)

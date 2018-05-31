@@ -1,29 +1,20 @@
 ---
 title: 'Zelfstudie: vragen stellen met de virtuele Q&A-analist in iOS-apps - Power BI'
 description: In deze zelfstudie stelt u in uw eigen woorden vragen over deze voorbeeldgegevens aan de virtuele Q&A-analist in de mobiele Power BI-app op uw iOS-apparaat.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
-ms.devlang: NA
 ms.topic: tutorial
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
 ms.date: 05/08/2018
 ms.author: maggies
-ms.openlocfilehash: 270a6ef9f9c9559ae5dd303249fd372c5f4d2b79
-ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
+ms.openlocfilehash: 5c8afc963c67493c30821048736d914d3aec278e
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2018
-ms.locfileid: "33945912"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34297855"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-ios-apps---power-bi"></a>Zelfstudie: vragen stellen over uw gegevens met de virtuele Q&A-analist in iOS-apps - Power BI
 
@@ -89,7 +80,7 @@ De eerste stap in de zelfstudie is het downloaden van het voorbeeld van een verk
    
 5. Het voorbeeld wordt geïmporteerd in Power BI en er wordt een nieuw dashboard, een nieuw rapport en een nieuwe gegevensset aan Mijn werkruimte toegevoegd.
    
-   ![Voorbeelddashboard voor verkoopkansanalyse](media/tutorial-mobile-apps-ios-qna/power-bi-service-opportunity-sample.png)
+   ![Dashboard Opportunity Analysis Sample](media/tutorial-mobile-apps-ios-qna/power-bi-service-opportunity-sample.png)
 
 U kunt het voorbeeld nu weergeven op uw iOS-apparaat.
 
@@ -100,7 +91,7 @@ U kunt het voorbeeld nu weergeven op uw iOS-apparaat.
 
 2. Tik op het pictogram van de virtuele analist Q&A ![Pictogram van virtuele analist Q&A](media/tutorial-mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png) in het actiemenu aan de onderkant van de pagina (boven aan de pagina op een iPad).
 
-     ![Voorbeelddashboard voor verkoopkansanalyse](media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-opportunity-analysis.png)
+     ![Dashboard Opportunity Analysis Sample](media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-opportunity-analysis.png)
 
      De virtuele analist van Power BI biedt enkele suggesties om mee aan de slag te gaan.
 
