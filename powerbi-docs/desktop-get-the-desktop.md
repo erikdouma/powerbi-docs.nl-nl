@@ -1,28 +1,21 @@
 ---
 title: Power BI Desktop downloaden
 description: Power BI Desktop downloaden en installeren
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: 08/15/2017
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/24/2018
+ms.component: powerbi-desktop
+ms.topic: conceptual
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a03e859e769f880b0c627080a864b41e96fc138b
-ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
+ms.openlocfilehash: eee341314b309eda119dd282eafd18188f8fdfd0
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34286630"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop downloaden
 Met **Power BI Desktop** kunt u geavanceerde query's, modellen en rapporten samenstellen die gegevens visualiseren. Met **Power BI Desktop** kunt u gegevensmodellen bouwen, rapporten maken en uw werk delen door dit te publiceren naar de Power BI-service.  **Power BI Desktop** is gratis te downloaden.
@@ -82,7 +75,7 @@ Er gelden enkele overwegingen en beperkingen voor de installatie van **Power BI 
 > Het is niet mogelijk om zowel de gedownloade (MSI) versie als de **Microsoft Store**-versie van **Power BI Desktop** tegelijk op dezelfde computer te installeren (soms ook wel een *side-by-side* installatie genoemd). U moet **Power BI Desktop** handmatig verwijderen voordat u het downloadt uit de **Microsoft Store**
 > 
 > [!NOTE]
-> De Power BI Report Server-versie van **Power BI Desktop** is een afzonderlijke installatie die verschilt van de versies die in dit artikel worden besproken. Voor informatie over de Report Server-versie van **Power BI Desktop** raadpleegt u het artikel [Quickstart: een Power BI-rapport maken voor Power BI Report Server](report-server/quickstart-create-powerbi-report.md).
+> De Power BI Report Server-versie van **Power BI Desktop** is een afzonderlijke installatie die verschilt van de versies die in dit artikel worden besproken. Zie [Een Power BI-rapport maken voor Power BI Report Server](report-server/quickstart-create-powerbi-report.md) voor informatie over de Report Server-versie van **Power BI Desktop**.
 > 
 > 
 

@@ -18,11 +18,12 @@ ms.workload: powerbi
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 4552e08c5291ee5f0ce268e796e1a9148eb64be2
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 62eab4de4dc46695f7bfd922333d588ed863f2bc
+ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/08/2018
+ms.locfileid: "33871473"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Ondersteunde talen en landen/regio's voor Power BI
 
@@ -165,6 +166,11 @@ Naast het instellen van de taal voor de Power BI Desktop-toepassing, kunt u ook 
 - Hoe we tekenreeksen vergelijken en sorteren. Turks heeft bijvoorbeeld 2 i’s. Deze kunnen, afhankelijk van de sortering van uw database, op verschillende plekken terechtkomen wanneer u de database sorteert. 
 - De die taal Power BI Desktop gebruikt bij het maken van verborgen tabellen via datumvelden. Velden worden bijvoorbeeld Maand/Monat/Mois, etc. genoemd.
 
+> [!NOTE]
+> Het model van Power BI gebruikt momenteel een landinstelling die niet hoofdlettergevoelig (of kana-gevoelig) is, zodat 'ABC' en 'abc' als hetzelfde worden gezien. Als 'ABC' eerst in de database is geladen, worden andere tekenreeksen waarvan alleen de lettergrootte verschilt, zoals 'Abc' niet als een afzonderlijke waarde geladen.
+> 
+>
+
 Ga als volgt te werk om de taal voor het model in te stellen.
 
 1. Ga in de Power BI Desktop naar **Bestand** > **Opties en instellingen** > **Opties**.
@@ -173,6 +179,10 @@ Ga als volgt te werk om de taal voor het model in te stellen.
 
     ![Modeltaal instellen in Power BI Desktop](media/supported-languages-countries-regions/power-bi-supported-model-languages.png)
 
+> [!NOTE]
+> Als een Power BI-model is gemaakt, kan de taal ervan niet meer worden gewijzigd.
+> 
+>
 
 ## <a name="languages-for-the-help-documentation"></a>Talen voor de Help-documentatie
 De Help is gelokaliseerd in de volgende tien talen: 
