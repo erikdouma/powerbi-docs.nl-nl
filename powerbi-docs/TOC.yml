@@ -898,32 +898,14 @@
       items:
         - name: Wat kan ik doen met de Power BI API?
           href: developer/overview-of-power-bi-rest-api.md
-        - name: Veelgestelde vragen
-          href: developer/embedded-faq.md
         - name: Power BI-machtigingen
           href: developer/power-bi-permissions.md
         - name: Beveiliging op rijniveau (RLS)
           href: developer/embedded-row-level-security.md
-        - name: Q&A insluiten
-          href: developer/qanda.md
+        - name: Veelgestelde vragen
+          href: developer/embedded-faq.md
     - name: Procedures
       items:
-        - name: Uw inhoud insluiten
-          href: developer/embedding-content.md
-        - name: Gegevens in een dashboard pushen
-          href: developer/walkthrough-push-data.md
-        - name: Power BI Embedded migreren
-          href: developer/migrate-from-powerbi-embedded.md
-        - name: Een dashboard in een app integreren (gebruiker is eigenaar van de gegevens)
-          href: developer/integrate-dashboard.md
-        - name: Een Power BI-tegel in een app integreren (gebruiker is eigenaar van de gegevens)
-          href: developer/integrate-tile.md
-        - name: Een Power BI-rapport in een app integreren (gebruiker is eigenaar van de gegevens)
-          href: developer/integrate-report.md
-        - name: Inhoud integreren in uw toepassing (app is eigenaar van de gegevens)
-          href: developer/embed-sample-for-customers.md
-        - name: Inhoud integreren in uw toepassing voor onafhankelijke clouds (app is eigenaar van de gegevens)
-          href: developer/embed-sample-for-customers-sovereign-clouds.md
         - name: Een aangepaste visual maken
           items:
             - name: Een aangepaste visual maken met ontwikkelhulpprogramma's
@@ -938,6 +920,18 @@
           items:
             - name: Insluiten met Power BI
               href: developer/embedding.md
+            - name: Uw inhoud insluiten
+              href: developer/embedding-content.md
+            - name: Een dashboard in een app integreren (gebruiker is eigenaar van de gegevens)
+              href: developer/integrate-dashboard.md
+            - name: Een Power BI-tegel in een app integreren (gebruiker is eigenaar van de gegevens)
+              href: developer/integrate-tile.md
+            - name: Een Power BI-rapport in een app integreren (gebruiker is eigenaar van de gegevens)
+              href: developer/integrate-report.md
+            - name: Inhoud integreren in uw toepassing (app is eigenaar van de gegevens)
+              href: developer/embed-sample-for-customers.md
+            - name: Inhoud integreren in uw toepassing voor onafhankelijke clouds (app is eigenaar van de gegevens)
+              href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: Aangepaste indelingen insluiten in een app
               href: developer/embedded-custom-layout.md
             - name: Een Azure Active Directory-tenant maken
@@ -946,14 +940,20 @@
               href: developer/register-app.md
             - name: Verifiëren bij de Power BI-service
               href: developer/get-azuread-access-token.md
+            - name: Q&A insluiten
+              href: developer/qanda.md
+            - name: Power BI Embedded migreren
+              href: developer/migrate-from-powerbi-embedded.md
             - name: Hulpprogramma voor de migratie van Power BI Embedded
               href: developer/migrate-tool.md
             - name: Migratiecodefragmenten
               href: developer/migrate-code-snippets.md
             - name: Problemen oplossen met uw ingesloten toepassing
               href: developer/embedded-troubleshoot.md
-        - name: Gegevens in een dashboard pushen
+        - name: Push-gegevens
           items:
+            - name: Gegevens in een dashboard pushen
+              href: developer/walkthrough-push-data.md
             - name: Een app bij Azure AD registreren
               href: developer/walkthrough-push-data-register-app-with-azure-ad.md
             - name: Een verificatietoegangstoken ophalen
@@ -990,6 +990,8 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
     - name: Resources
       items:
+        - name: Onboarding van ervaringsprogramma voor insluiten
+          href: 'https://aka.ms/embedsetup'
         - name: Voorbeeld van JavaScript Playground
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
         - name: Voorbeelden

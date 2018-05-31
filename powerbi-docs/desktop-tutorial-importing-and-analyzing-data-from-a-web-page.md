@@ -2,167 +2,195 @@
 title: 'Zelfstudie: Gegevens van een webpagina importeren en analyseren met Power BI Desktop'
 description: 'Zelfstudie: Gegevens van een webpagina importeren en analyseren met Power BI Desktop'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 9650f0be6ca795fdea3395721c0eb02e80464821
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 14c6cc0d221e5ed0a2fe6ead88deb9e8fb867290
+ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/10/2018
+ms.locfileid: "33945958"
 ---
-# <a name="analyzing-web-page-data-using-power-bi-desktop-tutorial"></a>Gegevens van een webpagina analyseren met Power BI Desktop (zelfstudie)
-In deze zelfstudie leert u hoe u een tabel met gegevens uit een webpagina kunt importeren en een rapport kunt maken om deze gegevens te visualiseren. Als onderdeel van dit proces kunt u navigeren tussen tabellen die beschikbaar zijn op een webpagina en gegevenstransformatiestappen uitvoeren om de tabel een andere vorm te geven.
+# <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>Zelfstudie: Gegevens van een webpagina analyseren met Power BI Desktop
 
- In dit artikel:
+Als een fanatieke voetbalfan wilt u rapporteren over de winnaars van het UEFA Europees kampioenschap (Euro Cup) in de afgelopen jaren. Met Power BI Desktop kunt u deze gegevens vanuit een webpagina in een rapport importeren en visualisaties maken die de gegevens weergeven. In deze zelfstudie leert u hoe Power BI Desktop kunt gebruiken voor het volgende:
 
-* **Taak 1:** verbinding maken met een webgegevensbron
-* **Taak 2:** gegevens vormgeven in de queryweergave
-  * Stap 1: andere kolommen verwijderen, zodat alleen kolommen die van belang zijn worden weergegeven
-  * Stap 2: waarden vervangen om waarden op te schonen in een geselecteerde kolom
-  * Stap 3: waarden in een kolom filteren
-  * Stap 4: naam van een kolom wijzigen
-  * Stap 5: null-waarden in een kolom filteren
-  * Stap 6: naam van een query wijzigen
-  * Gemaakte querystappen
-* **Taak 3:** visualisaties maken met behulp van de rapportweergave
-  * Stap 1: de query voor uw rapport laden
-  * Stap 2: een kaartvisualisatie maken
+- Verbinding maken met een webgegevensbron en door alle beschikbare tabellen navigeren,
+- Gegevens vormgeven en transformeren in de **Power Query-editor**,
+- Een query een naam geven en importeren in een Power BI Desktop-rapport, en 
+- Een kaart- en een cirkeldiagramvisualisatie maken en aanpassen.
 
-## <a name="task-1-connect-to-a-web-data-source"></a>Taak 1: verbinding maken met een webgegevensbron
- In taak 1 importeert u een wedstrijdsamenvattingstabel van de Wikipedia-pagina over de UEFA (UEFA European Football Championship) (Engelstalig) op de volgende locatie: http://en.wikipedia.org/wiki/UEFA\_European\_Football\_Championship
+## <a name="connect-to-a-web-data-source"></a>Verbinding maken met een webgegevensbron
 
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
+U kunt de gegevens over de UEFA-winnaars verkrijgen uit de tabel met resultaten op de Wikipedia-pagina over het UEFA Europees kampioenschap (Engelstalig) op http://en.wikipedia.org/wiki/UEFA_European_Football_Championship. 
 
-### <a name="add-a-wikipedia-page-data-source"></a>Een Wikipedia-pagina toevoegen als gegevensbron
-1. Selecteer in het dialoogvenster **Aan de slag** of op het linttabblad **Start** de optie **Gegevens ophalen**.
-2. Het dialoogvenster **Gegevens ophalen** wordt geopend. Hierin kunt u voor het importeren van gegevens naar Power BI Desktop een keuze maken uit een breed scala aan gegevensbronnen. Wij selecteren **Web**, dat beschikbaar is onder de groep **Alles** of **Overige**.
-3. Plak in het dialoogvenster **Webinhoud** in het tekstvak **URL** de Wikipedia-URL (http://en.wikipedia.org/wiki/UEFA\_European\_Football\_Championship).
-4. Klik op **OK**.
+![Resultatentabel op Wikipedia (Engelstalig)](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
 
-Als u verbinding hebt met de webpagina, wordt in het dialoogvenster **Navigator** een lijst weergegeven met tabellen die beschikbaar zijn op deze Wikipedia-pagina (Engelstalig). Klik één keer op elk van deze tabellen om een preview van de gegevens te bekijken.
+Ga als volgt te werk om de gegevens te importeren:
 
-Selecteer in het linkerdeelvenster van **Navigator** de tabel **Resultaten [bewerken]** voor de wedstrijdsamenvattingsresultaten of selecteer de tabel **Resultaten [bewerken]** en selecteer  **Bewerken**. We kunnen nu de vorm van de tabel wijzigen voordat deze in het rapport wordt geladen, aangezien de gegevens niet de vorm hebben die we nodig hebben voor onze analyse.
+1. Klik op het linttabblad **Start** van Power BI Desktop op de pijl van de vervolgkeuzelijst **Gegevens ophalen** en selecteer **Web**.
+   
+   ![Gegevens ophalen via lint](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web3.png) 
+   
+   >[!NOTE]
+   >U kunt ook het item **Gegevens ophalen** zelf selecteren of **Gegevens ophalen** in het dialoogvenster **Aan de slag** in Power BI selecteren en vervolgens **Web** selecteren in de sectie **Alles** of **Overige** van het dialoogvenster **Gegevens ophalen**. Selecteer vervolgens **Verbinding maken**.
+   
+2. Plak in het dialoogvenster **Van web**de URL `http://en.wikipedia.org/wiki/UEFA_European_Football_Championship` in het tekstvak **URL** en selecteer vervolgens **OK**.
+   
+    ![Gegevens ophalen via dialoogvenster](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web2.png)
+   
+   Nadat u verbinding hebt gemaakt met de Wikipedia-pagina (Engelstalig), wordt in het dialoogvenster **Navigator** van Power BI een lijst met beschikbare tabellen op de pagina weergegeven. U kunt een van de tabelnamen selecteren om een voorbeeld van de gegevens weer te geven. De tabel **Resultaten [bewerken]** bevat de gegevens die u wilt, hoewel deze niet precies in de gewenste vorm zijn. Voordat u de gegevens in uw rapport laadt, geeft u ze vorm en schoont u ze op. 
+   
+   ![Dialoogvenster Navigator](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/tutorialimanaly_navigator.png)
+   
+   >[!NOTE]
+   >In het deelvenster **Voorbeeld** wordt de meest recent geselecteerde tabel weergegeven, maar alle geselecteerde tabellen worden geladen in de **Power Query-editor** wanneer u **Bewerken** of **Laden**  selecteert. 
+   
+3. Selecteer de tabel **Resultaten [bewerken]** in de lijst **Navigator**, en selecteer vervolgens **Bewerken**. 
+   
+   In **Power Query-editor** wordt een voorbeeld van de tabel geopend, waarin u transformaties kunt toepassen om de gegevens op te schonen. 
+   
+   ![Power Query-editor](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage3.png)
+   
+## <a name="shape-data-in-power-query-editor"></a>Gegevens vormgeven in Power Query-Editor
 
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/tutorialimanaly_navigator.png)
+U wilt de gegevens gemakkelijker te scannen maken door alleen het jaar en de landen die gewonnen hebben weer te geven. U kunt de **Power Query-editor** gebruiken om deze stappen voor het vormgeven en opschonen van gegevens uit te voeren.
 
-Hiermee wordt een preview van de tabel in de queryweergave getoond, waar we een reeks transformatiestappen kunnen uitvoeren om de gegevens op te schonen.
+Verwijder eerst alle kolommen behalve **Year** en **Final Winners** uit de tabel.
 
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage3.png)
+1. Selecteer in het raster **Power Query-editor** de kolommen**Year** en **Final Winners** (houd de **Ctrl**-toets ingedrukt om meerdere items te selecteren).
+   
+2. Klik met de rechtermuisknop en selecteer **Andere kolommen verwijderen** in de vervolgkeuzelijst of selecteer **Kolommen verwijderen** > **Andere kolommen verwijderen** in de groep  **Kolommen beheren** op het linttabblad **Start** en verwijder alle andere kolommen uit de tabel. 
+   
+   ![Vervolgkeuzelijst Andere kolommen verwijderen](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web6.png) of ![Lint Andere kolommen verwijderen](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage4.png)
 
-## <a name="task-2-shape-data-in-the-subject-table"></a>Taak 2: gegevens vormgeven in de queryweergave
-Nu u de onderwerptabel hebt geselecteerd voor uw gegevensquery, leert u hoe u verschillende stappen voor vormgeving en opschoning van gegevens uitvoert.
-
-**Stap 1**: andere kolommen verwijderen, zodat alleen kolommen die van belang zijn worden weergegeven
-
-In deze stap verwijdert u alle kolommen behalve **Year** en **Final Winners**.
-
-1. Selecteer in het raster **Queryvoorbeeld** de kolommen **Year** en **Final Winners** (gebruik **CTRL** + **klik**).
-2. Klik met de rechtermuisknop op een kolomkop in het raster **Queryvoorbeeld** en klik op **Andere kolommen verwijderen** om de niet-geselecteerde kolommen te verwijderen. Deze bewerking is ook beschikbaar op het linttabblad **Start**, in de groep **Kolommen beheren**.
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage4.png)
-
-**Stap 2**: waarden vervangen om waarden op te schonen in een geselecteerde kolom
-
-In deze stap vervangt u het achtervoegsel van Details in de kolom **Year**. Dit achtervoegsel bevindt zich op een nieuwe regel en is dus niet zichtbaar in de tabelpreview. Als u echter in een van de cellen met een numerieke waarde in de kolom Year klikt, ziet u de volledige waarde in de gedetailleerde weergave.
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage5.png)
+Verwijder vervolgens het extra woord **Details** uit de kolomcellen **Year**.
 
 1. Selecteer de kolom **Year**.
-2. Klik op het lint **Queryweergave** op **Waarden vervangen** onder het tabblad **Start** of klik met de rechtermuisknop op de kolom **Year** en klik op **Waarden vervangen** om Details te vervangen door een lege tekenreeks.
-3. Typ in het dialoogvenster **Waarden vervangen** Details in het tekstvak **Te zoeken waarde** en laat het tekstvak **Vervangen door** leeg.
-4. Klik op **OK**.
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage6.png)
-
- **Stap 3**: waarden in een kolom filteren
-
-In deze stap filtert u de kolom **Year** om rijen weer te geven die geen "Year" bevatten.
-
-1. Klik op de pijl omlaag voor het filter voor de kolom **Year**.
-2. Schakel in de vervolgkeuzelijst **Filter** de optie **Year** uit.
-3. Klik op **OK**.
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage7.png)
-
-**Stap 4**: de naam van een kolom wijzigen
-
-Nu we de gegevens in de kolom **Year** hebben opgeschoond, gaan we werken aan de kolom **Final Winner**.
-
-Omdat we alleen de lijst met winnaars bekijken, kunnen we de naam van deze kolom wijzigen in **Country**.
-
-1. Selecteer de kolom **Final Winner** in de querypreview.
-2. Op het lint **Queryweergave** vindt u onder het tabblad **Transformeren** en de groep **Alle kolommen** de optie **Naam wijzigen**.
-3. De kolomnaam kan nu worden bewerkt. We wijzigen de naam van deze kolom in **Country**.
-
-**Stap 5**: null-waarden in een kolom filteren
-
-We moeten ook de null-waarden uit de kolom **Country** filteren. Hiervoor kunnen we het filtermenu gebruiken zoals we in stap 3 hebben gedaan, maar kunnen we ook:
-
-1. Met de rechtermuisknop klikken op een van de cellen in de kolom **Country** met een null-waarde.
-2. **Tekstfilters -\> Niet gelijk aan** in het contextmenu selecteren.
-3. Hiermee maakt u een nieuwe filterstap voor het verwijderen van rijen met null-waarden in de kolom **Country**.
-
-**Stap 6:** een query een naam geven
-
-In deze stap geeft u de uiteindelijke query de naam **Euro Cup Winners**.
-
-1. Voer in het deelvenster **Queryinstellingen** in het tekstvak **Naam** **Euro Cup Winners** in.
    
-   ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage8.png)
-
-## <a name="task-3-create-visualizations-using-the-report-view"></a>Taak 3: visualisaties maken met behulp van de rapportweergave
-Nu we de gegevens hebben omgezet in de vorm die we nodig hebben voor onze analyse, kunnen we de resulterende tabel laden in ons rapport en een paar visualisaties maken.
-
-**Stap 1**: de query in uw rapport laden
-
-Om de queryresultaten naar Power BI Desktop te laden en een rapport te maken, selecteren we **Sluiten en laden** vanuit het lint **Start**.
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage9.png)
-
-Hiermee wordt de query geëvalueerd en wordt de tabeluitvoer naar het rapport geladen. Selecteer in Power BI Desktop het pictogram **rapport** om Power BI Desktop in de rapportweergave weer te geven.
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage10.png)
-
-U ziet de resulterende tabelvelden in het deelvenster **Velden** aan de rechterkant van de **rapportweergave**.
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage11.png)
-
-**Stap 2**: een kaartvisualisatie maken
-
-Om een visualisatie te maken, kunnen we velden slepen uit de lijst **Veld** en ze neerzetten in het canvas **Rapport**.
-
-1. Versleep het veld **Country** en zet het neer in het **rapportcanvas**. Hiermee wordt een nieuwe visualisatie in het **rapportcanvas** gemaakt. In dit geval wordt er een **kaartvisualisatie** gemaakt, aangezien we een lijst met landen hebben.
+2. Klik met de rechtermuisknop en selecteer **Waarden vervangen** in de vervolgkeuzelijst, of selecteer **Waarden vervangen** in de groep **Transformeren** op het tabblad **Start** van het lint (ook te vinden in de groep **Elke kolom** op het tabblad **Transformeren**). 
    
-   ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage12.png)
-2. We kunnen eenvoudig het type visualisatie wijzigen door op een ander pictogram te klikken in het deelvenster **Visualisatie**.
+   ![Vervolgkeuzelijst Waarden vervangen](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web7.png) of ![Lint Waarden vervangen](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web8a.png)
    
-   ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage13.png)
-3. We houden het type visualisatie ingesteld op **Kaart**. We kunnen de grootte van de visualisatie ook aanpassen door een van de hoeken van de visualisatie tot de juiste grootte te verslepen.
+3. Typ in het dialoogvenster **Waarden vervangen** **Details** in het tekstvak **Te zoeken waarde** en laat het tekstvak **Vervangen door** leeg. Selecteer **OK** om het woord 'Details' uit de **Year**-vermeldingen te verwijderen.
    
-   ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage14.png)
-4. Momenteel hebben alle punten op de kaart dezelfde grootte. We willen dit wijzigen zodat landen die meer Euro Cup-wedstrijden hebben gewonnen met een grotere punt op de kaart worden weergegeven. Hiervoor kunnen we het veld **Year** in de **Veldenlijst** verslepen naar het vak **Waarden** in de onderste helft van het deelvenster **Velden**.
+   ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage6.png)
+
+Sommige **Year**-cellen bevatten alleen het woord 'Year' in plaats van jaarwaarden. U kunt de kolom **Year** filteren om alleen rijen weer te geven die het woord 'Year' niet bevatten. 
+
+1. Selecteer de pijl omlaag voor het filter voor de kolom **Year**.
+   
+2. Blader omlaag in de vervolgkeuzelijst en schakel het selectievakje naast de optie **Year** uit en selecteer vervolgens **OK** om de rijen te verwijderen die alleen het woord 'Year' in de kolom **Year** bevatten. 
+
+   ![Gegevens filteren](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage7.png)
+
+Nu u de gegevens in de kolom **Year** hebt opgeschoond, kunt u gaan werken aan de kolom **Final Winner**. Omdat u nu alleen de lijst met winnaars bekijkt, kunt u de naam van deze kolom wijzigen in **Country**. Ga als volgt te werk om de naam van de kolom te wijzigen:
+
+1. Dubbelklik op de kolomkop **Final Winner** of tik op de kolomkop en houd deze vast, of 
+   - Klik met de rechtermuisknop op de kolomkop **Final Winners** en selecteer **Naam wijzigen** in de vervolgkeuzelijst, of 
+   - Selecteer de kolom **Final Winners** en selecteer **Naam wijzigen** in de groep **Elke kolom** op het tabblad **Transformeren** van het lint. 
+   
+   ![Vervolgkeuzelijst Naam wijzigen](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage7a.png) of ![Lint Naam wijzigen](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web8.png)
+   
+2. Typ **Country** in de koptekst en druk op **Enter** om de naam van de kolom te wijzigen.
+
+Ook wilt u rijen zoals '2020' wegfilteren die null-waarden in de kolom **Country** bevatten. U kunt het filtermenu gebruiken zoals u hebt gedaan met de **Year**-waarden, of u kunt:
+
+1. Met de rechtermuisknop op de cel **Country** in de rij **2020** klikken, die de waarde *null* heeft. 
+2. **Tekstfilters** > **Is niet gelijk aan** in het contextmenu selecteren om rijen die de waarde van deze cel bevatten te verwijderen.
+   
+   ![Tekstfilter](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web11.png)
+   
+## <a name="import-the-query-into-report-view"></a>De query importeren in de rapportweergave
+
+Nu u de gegevens de gewenste vorm hebt gegeven, kunt u de query de naam 'Euro Cup Winners' geven en importeren in uw rapport.
+
+1. Voer in het deelvenster **Queryinstellingen** in het tekstvak **Naam** **Euro Cup Winners** in en druk op **Enter**.
+   
+   ![De query een naam geven](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage8.png)
+
+2. Selecteer **Sluiten en toepassen** > **Sluiten en toepassen** op het tabblad **Start** van het lint.
+   
+   ![Sluiten en toepassen](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage9.png)
+   
+De query wordt geladen in de **rapportweergave** van Power BI Desktop, waar u deze kunt zien in het deelvenster **Velden**. 
+   
+   ![Deelvenster Velden](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage11.png)
+>[!TIP]
+>U kunt altijd teruggaan naar de **Power Query-editor** om uw query te bewerken en te verfijnen door:
+>- Het beletselteken (**...** ) **Meer opties** naast **Euro Cup Winners** in het deelvenster **Velden** te selecteren en **Query bewerken** te selecteren in de vervolgkeuzelijst, of
+>- **Query's bewerken** > **Query's bewerken** te selecteren in de groep **Externe gegevens** van het linttabblad **Start** in de rapportweergave. 
+
+## <a name="create-a-visualization"></a>Een visualisatie maken
+
+Ga als volgt te werk om een visualisatie te maken op basis van uw gegevens: 
+
+1. Selecteer het veld **Country** in het deelvenster **Velden** of sleep het naar het rapportcanvas. Power BI Desktop herkent de gegevens als landnamen en maakt automatisch een **kaart**visualisatie. 
+   
+   ![Kaartvisualisatie](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web14.png)
+   
+2. Vergroot de kaart door te slepen met de grepen in de hoeken, zodat de namen van alle winnende landen zichtbaar zijn.  
+
+   ![Kaart vergroten](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage14.png)
+   
+3. De kaart toont identieke gegevenspunten voor elk land dat een toernooi Euro Cup-toernooi heeft gewonnen. Als u wilt dat de grootte van elk gegevenspunt weergeeft hoe vaak het land heeft gewonnen, sleept u het veld **Year** naar **Sleep gegevensvelden hierheen** onder **Grootte** in het onderste gedeelte van het deelvenster **Visualisaties**. Het veld wordt automatisch gewijzigd in de meetwaarde**Count of Year** en de kaartvisualisatie toont nu grotere gegevenspunten voor landen die meer toernooien hebben gewonnen. 
    
    ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage15.png)
+   
 
-Zoals u ziet, is het zeer eenvoudig om visualisaties van uw rapport aan te passen om de gegevens te presenteren op de manier waarop u wilt. Power BI Desktop biedt een naadloze complete ervaring voor het ophalen van gegevens uit een breed scala aan gegevensbronnen en het vormgeven van deze gegevens om te voldoen aan uw analysebehoeften. Zo kunt u deze gegevens op uitgebreide en interactieve manieren visualiseren. Wanneer uw rapport klaar is, kunt u [het uploaden naar Power BI](desktop-upload-desktop-files.md) en op basis van dit rapport dashboards maken die u kunt delen met andere Power BI-gebruikers.
+## <a name="customize-the-visualization"></a>De visualisatie aanpassen
 
-Hiermee is de zelfstudie **Gegevens van een webpagina importeren** voltooid. U kunt het voltooide Power BI Desktop-bestand [hier](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Analyzing_Data_From_The_Web.pbix) downloaden.
+Zoals u ziet, is het zeer eenvoudig om visualisaties te maken op basis van uw gegevens. U kunt uw visualisaties ook eenvoudig aanpassen om de gegevens beter te presenteren op manieren die u wilt. 
 
-## <a name="where-else-can-i-get-more-information"></a>Waar vind ik meer informatie?
+### <a name="format-the-map"></a>De kaart opmaken
+U kunt de weergave van een visualisatie wijzigen door deze te selecteren en vervolgens te klikken op het pictogram **Opmaak** (verfroller) in het deelvenster **Visualisaties**. De gegevenspunten 'Duitsland' in uw visualisatie kunnen bijvoorbeeld misleidend zijn, omdat West-Duitsland twee toernooien heeft gewonnen en Duitsland er een heeft gewonnen en de kaart de twee punten over elkaar heen plaatst in plaats van deze van elkaar te scheiden of bij elkaar op te tellen. U kunt deze twee punten een andere kleur geven om dit te markeren. U kunt de kaart ook een aantrekkelijkere en meer beschrijvende titel geven. 
+
+1. Selecteer met de visualisatie geselecteerd het pictogram **Opmaak** en selecteer vervolgens **Gegevenskleuren** om de opties voor gegevenskleuren uit te vouwen. 
+   
+   ![Gegevens opmaken met kleuren](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web15.png)
+   
+2. Schakel **Alles weergeven** in op **Aan** en selecteer vervolgens de vervolgkeuzelijst naast **West-Duitsland** en kies de kleur geel. 
+   
+   ![Kleur wijzigen](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web16.png)
+   
+3. Selecteer **Titel** om de opties voor titels uit te vouwen en typ in het veld **Titeltekst** de tekst **Euro Cup Winners** in plaats van de huidige titel. 
+4. Wijzig de **Tekenkleur**in rood, de **Tekengrootte** in **12** en de **Lettertypefamilie** in **Segoe (Bold)**. 
+   
+   ![Gegevens opmaken met kleuren](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web17.png)
+   
+
+De visualisatie van uw kaart ziet er nu als volgt uit:
+
+![Opgemaakte kaartvisualisatie](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web18.png)
+   
+### <a name="change-the-visualization-type"></a>Het type visualisatie wijzigen
+U kunt het type visualisatie wijzigen door dit te selecteren en vervolgens boven aan het deelvenster **Visualisatie** op een ander pictogram te klikken. Op uw kaartvisualisatie ontbreken bijvoorbeeld de gegevens voor de Sovjetunie en Tsjechoslowakije, omdat deze landen niet meer op de wereldkaart bestaan. Een ander type visualisatie zoals een treemap of cirkeldiagram zijn mogelijk nauwkeuriger, omdat alle waarden worden weergegeven. 
+
+Als u de kaart wilt wijzigen in een cirkeldiagram, selecteert u de kaart en selecteert u vervolgens het pictogram **Cirkeldiagram** in het deelvenster **Visualisatie**. 
+   
+![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web19.png)
+
+>[!TIP]
+>- U kunt de opmaakopties voor **Gegevenskleuren** gebruiken om 'Duitsland' en 'West Duitsland' dezelfde kleur te geven. 
+>- Als u de landen met de meeste overwinningen samen in het cirkeldiagram wilt groeperen, selecteert u het beletselteken (**...** ) rechts boven in de visualisatie en selecteert u vervolgens **Sorteren op aantal jaar** in de vervolgkeuzelijst. 
+
+Power BI Desktop biedt een naadloze complete ervaring voor het ophalen van gegevens uit een breed scala aan gegevensbronnen en het vormgeven van deze gegevens om te voldoen aan uw analysebehoeften. Zo kunt u deze gegevens op uitgebreide en interactieve manieren visualiseren. Wanneer uw rapport klaar is, kunt u [het uploaden naar Power BI](desktop-upload-desktop-files.md) en op basis van dit rapport dashboards maken die u kunt delen met andere Power BI-gebruikers.
+
+## <a name="see-also"></a>Zie ook
 * [Andere zelfstudies voor Power BI Desktop lezen](http://go.microsoft.com/fwlink/?LinkID=521937)
 * [Power BI Desktop-video's bekijken](http://go.microsoft.com/fwlink/?LinkID=519322)
 * [Een bezoek brengen aan het Power BI-forum](http://go.microsoft.com/fwlink/?LinkID=519326)

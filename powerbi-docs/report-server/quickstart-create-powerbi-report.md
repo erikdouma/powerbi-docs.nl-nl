@@ -1,29 +1,22 @@
 ---
-title: 'Quickstart: een Power BI-rapport maken voor Power BI Report Server'
+title: Een Power BI-rapport maken voor Power BI Report Server
 description: Leer hoe u in een paar eenvoudige stappen een Power BI-rapport voor Power BI Report Server maakt.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 3/22/2018
 ms.author: maggies
-ms.openlocfilehash: 7c0f7ad804a61aeade6f120f2a2d2bd048219ee2
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: 9f5ea2a83fff37be07933669403b7eb53ceb09c0
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/19/2018
+ms.locfileid: "34310472"
 ---
-# <a name="quickstart-create-a-power-bi-report-for-power-bi-report-server"></a>Quickstart: een Power BI-rapport maken voor Power BI Report Server
+# <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Een Power BI-rapport maken voor Power BI Report Server
 U kunt Power BI-rapporten on-premises opslaan en beheren in de webportal van Power BI Report Server, net zoals u Power BI-rapporten kunt opslaan in de cloud in de Power BI-service (https://powerbi.com)). U maakt rapporten in Power BI Desktop en publiceert deze naar de webportal. Gebruikers in uw organisatie kunnen de rapporten weergeven in een browser of in een mobiele Power BI-app op een mobiele apparaat.
 
 ![Power BI-rapport in de webportal](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
@@ -131,11 +124,10 @@ Rapporten voor Power BI Report Server bieden geen ondersteuning voor deze functi
 
 ## <a name="next-steps"></a>Volgende stappen
 ### <a name="power-bi-desktop"></a>Power BI Desktop
-Er zijn heel interessante informatiebronnen voor het maken van rapporten in Power BI Desktop. Deze koppelingen zijn een goed uitgangspunt.
+Er zijn heel interessante informatiebronnen voor het maken van rapporten in Power BI Desktop. Deze koppeling is een goed startpunt.
 
 * [Aan de slag met Power BI Desktop](../desktop-getting-started.md)
-* Zelfstudie: [Aan de slag met Power BI Desktop](../guided-learning/gettingdata.yml#step-2)
-
+* Zelfstudie: [Aan de slag met Power BI Desktop](../guided-learning/gettingdata.yml?tutorial-step=2)
 
 ### <a name="power-bi-report-server"></a>Power BI Report Server
 * [Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren](install-powerbi-desktop.md)  

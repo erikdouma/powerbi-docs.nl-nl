@@ -1,27 +1,20 @@
 ---
 title: Veelgestelde vragen over Power BI Embedded
 description: Hier vindt u een lijst met veelgestelde vragen en antwoorden over Power BI Embedded.
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 24e4dbaf6ede92436ff05c8cb57756e3ab7e8526
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 255efac5d5bf73bca3126f869d4c7434d5c6ef0f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34289735"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Veelgestelde vragen over Power BI Embedded
 
@@ -58,7 +51,7 @@ Er zijn misschien enkele situaties waarin een ISV (meestal groot) een P-SKU wil 
 
 ### <a name="how-many-embed-tokens-can-i-create"></a>Hoeveel insluitingstokens kan ik maken?
 
-Insluitingstokens met een PRO-licentie zijn bedoeld voor ontwikkelingstesten, dus een Power BI-masteraccount kan maar een beperkt aantal insluitingstokens genereren. U moet [een capaciteit aanschaffen](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) voor het insluiten van items in een productieomgeving. Wanneer u een capaciteit hebt aangeschaft, kunt u een onbeperkt aantal insluitingstokens genereren.
+Insluitingstokens met een PRO-licentie zijn bedoeld voor ontwikkelingstesten, dus een Power BI-hoofdaccount kan maar een beperkt aantal insluitingstokens genereren. U moet [een capaciteit aanschaffen](#technical) voor het insluiten van items in een productieomgeving. Wanneer u een capaciteit hebt aangeschaft, kunt u een onbeperkt aantal insluitingstokens genereren. Ga naar [Beschikbare functies ophalen](https://msdn.microsoft.com/library/mt846473.aspx) om de waarde voor het gebruik te controleren. Hiermee wordt het huidige gebruik van insluitingstokens in procenten aangegeven.
 
 ## <a name="technical"></a>Technisch
 
@@ -164,10 +157,6 @@ Ja, u kunt uw [Azure-tegoed](https://azure.microsoft.com/free/) gebruiken voor P
 
 Power BI Embedded maakt deel uit van Azure en dus is het mogelijk om de service te gebruiken met het [tegoed van $ 200 dat u hebt ontvangen bij het aanmelden voor Azure](https://azure.microsoft.com/free/).
 
-### <a name="is-there-a-limit-to-the-number-of-embed-tokens-a-power-bi-master-account-can-generate"></a>Is er een limiet aan het aantal insluittokens dat kan worden gegenereerd door een Power BI-hoofdaccount? 
-
-Ja, het aantal is beperkt omdat deze insluittokens alleen bedoeld zijn voor ontwikkeltests. [Er moet een capaciteit worden aangeschaft](#technical) voor insluitingsscenario's voor de productie. Het aantal te genereren insluitingstokens is onbeperkt wanneer een capaciteit is aangeschaft. Ga naar [Beschikbare functies ophalen](https://msdn.microsoft.com/en-us/library/mt846473.aspx) om te controleren hoeveel gratis insluittokens zijn gebruikt.
-
 ### <a name="is-power-bi-embedded-available-for-sovereign-clouds-us-government-germany-china"></a>Is Power BI Embedded beschikbaar voor soevereine clouds (US Government, Duitsland, China)?
 
 Power BI Embedded is beschikbaar voor sommige [soevereine clouds](embed-sample-for-customers-sovereign-clouds.md). Het is **NIET** beschikbaar voor de China-cloud.
@@ -176,9 +165,47 @@ Power BI Embedded is beschikbaar voor sommige [soevereine clouds](embed-sample-f
 
 Non-profitorganisaties en onderwijsinstellingen kunnen Azure kopen. Er zijn geen speciale prijzen voor deze typen klanten in Azure.
 
+## <a name="power-bi-workspace-collection"></a>Power BI-werkruimteverzameling
+
+### <a name="what-is-power-bi-workspace-collection"></a>Wat is de Power BI-werkruimteverzameling?
+
+De **Power BI-werkruimteverzameling** (**Power BI Embedded** versie 1) is een oplossing die is gebaseerd op de Azure-resource **Power BI-werkruimteverzameling**. Met deze oplossing kunt u **Power BI Embedded**-toepassingen voor uw klanten maken met behulp van Power BI-inhoud in de **Power BI-werkruimteverzameling**, toegewezen API's en werkruimteverzamelingsleutels waarmee de toepassing kan worden geverifieerd in Power BI.
+
+### <a name="can-i-migrate-from-power-bi-workspace-collection-to-power-bi-embedded"></a>Kan ik inhoud van de Power BI-werkruimteverzameling migreren naar Power BI Embedded?
+
+1. U kunt het hulpprogramma voor migratie gebruiken om inhoud van de **Power BI-werkruimteverzameling** te migreren naar Power BI - https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded#content-migration.
+
+2. U begint met de POC van de **Power BI Embedded**-toepassing waarin gebruik wordt gemaakt van de Power BI-inhoud.
+
+3. Wanneer u klaar bent voor productie, koopt u toegewezen capaciteit van **Power BI Embedded** en wijst u uw Power BI-inhoud (werkruimte) aan die capaciteit toe.
+
+>[!Note]
+U kunt de **Power BI-werkruimteverzameling** blijven gebruiken terwijl u daarnaast een **Power BI Embedded**-oplossing bouwt. Zodra u klaar bent, kunt u uw klant naar de nieuwe **Power BI Embedded**-oplossing verplaatsen en de **Power BI-werkruimteverzameling** buiten gebruik stellen.
+
+Zie [Inhoud van de Power BI-werkruimteverzameling migreren naar Power BI Embedded](https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded) voor meer informatie.
+
+### <a name="is-power-bi-workspace-collection-on-a-path-to-be-deprecated"></a>Wordt de Power BI-werkruimteverzameling afgeschaft?
+
+Ja, maar de klanten die al gebruikmaken van de oplossing **Power BI-werkruimteverzameling** kunnen deze blijven gebruiken totdat deze wordt afgeschaft. Daarnaast kunnen klanten nieuwe werkruimteverzamelingen maken en **Power BI Embedded**-toepassingen die nog steeds gebruikmaken van de oplossing **Power BI-werkruimteverzameling**.
+
+Dit betekent echter wel dat er geen nieuwe functies worden toegevoegd aan de oplossingen voor de **Power BI-werkruimteverzameling** en dat klanten wordt aangeraden de migratie naar de nieuwe **Power BI Embedded**-oplossing te plannen.
+### <a name="when-will-power-bi-workspace-collection-support-be-discontinued"></a>Wanneer wordt ondersteuning voor de Power BI-werkruimteverzameling stopgezet?
+
+Klanten die al gebruikmaken van de oplossing voor de **Power BI-werkruimteverzamelingen** kunnen deze blijven gebruiken tot eind juni 2018 of tot het einde van de ondersteuningsovereenkomst.
+
+### <a name="in-what-regions-can-pbi-workspace-collection-be-created"></a>In welke regio's kunnen PBI-werkruimteverzameling worden gemaakt?
+
+Beschikbare regio's zijn Australië - zuidoost, Brazilië - zuid, Canada Centraal, VS - oost 2, Japan - oost, VS Noord-Centraal, Noord-Europa, VS - zuiden (midden), Zuidoost-Azië, VK Zuid, West-Europa, India - westen en VS-West.
+
+### <a name="why-should-i-migrate-from-pbi-workspace-collection-to-power-bi-embedded"></a>Waarom moet ik inhoud van PBI-werkruimteverzameling migreren naar Power BI Embedded?
+
+Er zijn nieuwe functies en mogelijkheden geïntroduceerd in de **Power BI Embedded**-oplossing die niet beschikbaar zijn in de **Power BI-werkruimteverzameling**.
+
+Hieronder vindt u enkele voorbeelden van deze functies:
+* Alle PBI-gegevensbronnen worden ondersteund, in tegenstelling tot de twee gegevensbronnen die in de **Power BI-werkruimteverzameling** worden ondersteund. 
+* Nieuwe functies, zoals functies voor Q&A, vernieuwen, bladwijzers, het insluiten van dashboards en tegels, aangepaste menu's, enzovoort, worden alleen ondersteund in de **Power BI Embedded**-oplossing.
+* Model voor facturering van capaciteit.
+
 Zie voor meer informatie [Problemen oplossen met uw ingesloten toepassing](embedded-troubleshoot.md)
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
-
-
-
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

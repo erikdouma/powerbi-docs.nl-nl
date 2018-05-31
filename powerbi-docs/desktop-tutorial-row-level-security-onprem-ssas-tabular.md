@@ -1,30 +1,24 @@
 ---
-title: 'Zelfstudie: Dynamische beveiliging op rijniveau met tabellair model van Analysis Services in Power BI'
-description: 'Zelfstudie: Dynamische beveiliging op rijniveau met tabellair model van Analysis Services'
-services: powerbi
-documentationcenter: ''
+title: Dynamische beveiliging op rijniveau met model in tabelvorm van Analysis Services in Power BI
+description: Dynamische beveiliging op rijniveau met model in tabelvorm van Analysis Services
 author: selvarms
 manager: amitaro
-backup: davidi
+ms.reviewer: davidi
 editor: davidi
-tags: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 10/12/2017
+ms.component: powerbi-desktop
+ms.topic: tutorial
+ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 34ad1c6568dfd73dc65d561e4fed7bf8c4c63fbc
-ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
+ms.openlocfilehash: f8c1aae757e80c0c2adbc321345c242eba25098c
+ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/23/2018
+ms.locfileid: "34456129"
 ---
-# <a name="tutorial-dynamic-row-level-security-with-analysis-services-tabular-model"></a>Zelfstudie: Dynamische beveiliging op rijniveau met tabellair model van Analysis Services
+# <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Dynamische beveiliging op rijniveau met model in tabelvorm van Analysis Services
 In deze zelfstudie ziet u de benodigde stappen voor het implementeren van **beveiliging op rijniveau** binnen een **tabellair model van Analysis Services**, en wordt beschreven hoe u dit model kunt gebruiken in een Power BI-rapport. Het is de bedoeling dat u de stappen in deze zelfstudie volgt, en zo leert wat de benodigde stappen zijn, door deze uit te voeren op een voorbeeldgegevensset.
 
 Tijdens deze zelfstudie worden de volgende stappen in detail beschreven, zodat u begrijpt wat u moet doen om dynamische beveiliging op rijniveau te implementeren in een tabellair model van Analysis Services:

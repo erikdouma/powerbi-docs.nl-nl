@@ -1,27 +1,20 @@
 ---
 title: Dashboards en rapporten weergeven in de mobiele Power BI-apps
 description: Maak dashboards en rapporten in de Power BI-service of maak er verbinding mee. Geef ze vervolgens weer in de mobiele Power BI-apps.
-services: powerbi
-documentationcenter: 
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: complete
-qualitydate: 07/08/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/16/2018
+ms.component: powerbi-mobile
+ms.topic: conceptual
+ms.date: 05/07/2018
 ms.author: maggies
-ms.openlocfilehash: e91b9745663ad88d388b410feb83ac8dfdc791b6
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 2e178d3c8961865fa7d728d50f118c882788247e
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295866"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Dashboards en rapporten weergeven in de mobiele Power BI-apps
 Van toepassing op:
@@ -37,8 +30,8 @@ Dashboards zijn een verzamelplek voor de levenscyclus en processen van uw bedrij
 
 Als u dashboards en rapporten wilt bekijken op uw mobiele apparaat, moet u ze eerst maken in uw webbrowser of hiermee verbinding maken. 
 
-1. Ga naar de Power BI-service ([https://www.powerbi.com](https://www.powerbi.com)) en [registreer een account](service-self-service-signup-for-power-bi.md).
-2. [Maak uw eigen Power BI-dashboards en -rapporten](service-get-started.md), of maak verbinding met bestaande [Power BI-apps](service-connect-to-services.md) voor tal van services, zoals [Microsoft Dynamics CRM](service-connect-to-microsoft-dynamics-crm.md) en [Adobe Analyics](service-connect-to-adobe-analytics.md).
+1. Ga naar de Power BI-service ([https://www.powerbi.com](https://www.powerbi.com)) en [meld u aan voor een account](service-self-service-signup-for-power-bi.md).
+2. [Maak uw eigen Power BI-dashboards en -rapporten](service-get-started.md), of maak verbinding met bestaande [Power BI-apps](service-connect-to-services.md) voor tal van services, zoals [Microsoft Dynamics CRM](service-connect-to-microsoft-dynamics-crm.md) en [Adobe Analytics](service-connect-to-adobe-analytics.md).
 
 Hier ziet u een Power BI-dashboard in de Power BI-service:
 
@@ -115,31 +108,21 @@ Als u wilt in- en uitzoomen op verschillende gebieden van uw dashboard, kunt u h
    
    ![Startpagina met dashboards](media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
 
-     -     Gele sterren ![Favorietster](media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) geven aan welke dashboards zijn opgeslagen in uw favorieten. 
+    Gele sterren ![Favorietster](media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) geven aan welke dashboards zijn opgeslagen in uw favorieten. 
 
-     -     De notatie ![Gegevensclassificatie](media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) (in dit geval 'MBI') onder een dashboardnaam geeft aan hoe de gegevens in elk dashboard worden geclassificeerd. Lees meer over [gegevensclassificatie in Power BI](service-data-classification.md).
-
+    De notatie ![Gegevensclassificatie](media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) (in dit geval 'MBI') onder een dashboardnaam geeft aan hoe de gegevens in elk dashboard worden geclassificeerd. Lees meer over [gegevensclassificatie in Power BI](service-data-classification.md).
 
     Power BI-dashboards zien er enigszins anders uit op uw Android-telefoon. Alle tegels hebben dezelfde breedte en ze zijn achter elkaar van boven naar beneden gesorteerd.
 
     ![Staande dashboardweergave](media/mobile-apps-view-dashboard/pbi_andr_dash.png)
 
-     U kunt uw telefoon ook kantelen om dashboards liggend op uw telefoon weer te geven.
-
-    > [AZURE.TIP] Als u de eigenaar van het dashboard bent, kunt u in de Power BI-service [een weergave maken van het dashboard voor telefoons](service-create-dashboard-mobile-phone-view.md) in de staande modus. 
+    Als u de eigenaar van het dashboard bent, kunt u in de Power BI-service [een weergave maken van het dashboard voor telefoons](service-create-dashboard-mobile-phone-view.md) in de staande modus. 
 
 1. In het dashboard tikt u op het verticale beletselteken (...) naast de naam om een collega uit te nodigen, te vernieuwen of informatie over het dashboard op te halen:
    
    ![Beletseltekenmenu](media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 2. Veeg omhoog en omlaag om alle [tegels in het dashboard te bekijken](mobile-tiles-in-the-mobile-apps.md). 
 3. Als u wilt teruggaan naar de startpagina met dashboards, tikt u op de naam van het dashboard om het navigatiepad te openen. Tik vervolgens op **Mijn werkruimte**.   
-
-### <a name="view-dashboards-in-landscape-mode-on-your-android-phone"></a>Dashboards weergeven liggende modus op uw Android-telefoon
-U kunt dashboards ook bekijken in de liggende modus door uw telefoon te kantelen. De indeling van het dashboard wijzigt van een reeks met tegels in een weergave van het gehele dashboard. U ziet alle tegels in het dashboard net zoals in de Power BI-service.
-
-![Liggend dashboard](media/mobile-apps-view-dashboard/power-bi-android-landscape-dashboard.png)
-
-Als u wilt in- en uitzoomen op verschillende gebieden van uw dashboard, kunt u het ‘knijpgebaar’ gebruiken. U kunt pannen om te navigeren. U kunt nog steeds [tikken op een tegel](mobile-tiles-in-the-mobile-apps.md) om deze te openen in de focusmodus en te communiceren met uw gegevens.
 
 ## <a name="view-dashboards-on-your-android-tablet"></a>Dashboards weergeven op uw Android-tablet
 1. Open de Power BI-app op uw Android-tablet en meld u aan.

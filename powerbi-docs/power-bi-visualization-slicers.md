@@ -1,6 +1,6 @@
 ---
-title: Slicers in Power BI (zelfstudie)
-description: 'Zelfstudie: Slicers in Power BI'
+title: Slicers in Power BI
+description: Slicers in Power BI
 services: powerbi
 documentationcenter: ''
 author: mihart
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 03/05/2018
 ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 30f548e73dd9f3c4fb93f048dec0c46eee3845ca
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 223b408186f445791a95ead30c04efe7b59888bf
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813456"
 ---
-# <a name="slicers-in-power-bi-tutorial"></a>Slicers in Power BI (zelfstudie)
+# <a name="slicers-in-power-bi"></a>Slicers in Power BI
 U wilt dat de lezers van uw rapport de algemene metrische gegevens voor de verkoop kunnen bekijken, maar dat ze ook prestaties voor afzonderlijke districtmanagers en verschillende perioden kunnen markeren. U kunt aparte rapporten of vergelijkende grafieken maken of u kunt gebruikmaken van slicers. Een slicer is een alternatieve manier om te filteren. U beperkt hiermee het gedeelte van de gegevensset dat wordt weergegeven in de andere visualisaties in een rapport. 
 
 In deze zelfstudie wordt gebruikgemaakt van het gratis [voorbeeld van een retailanalyse](sample-retail-analysis.md) om u te helpen bij het maken, opmaken en gebruiken van lijst- en datumbereikslicers. Ontdek manieren om slicers op te maken en te gebruiken. 
@@ -187,7 +188,7 @@ De overige opmaakopties zijn standaard uitgeschakeld. Indien **ingeschakeld**:
 
 Hebt u ideeën voor het verbeteren van Power BI? [Een idee verzenden](https://ideas.powerbi.com/forums/265200-power-bi-ideas).
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 
 [Een visualisatie toevoegen aan een rapport](power-bi-report-add-visualizations-i.md)
 

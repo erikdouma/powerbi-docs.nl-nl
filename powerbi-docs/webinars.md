@@ -1,27 +1,20 @@
 ---
 title: Power BI-webinars
 description: Power BI-webinars
-services: powerbi
-documentationcenter: ''
 author: maikelson
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 04/26/2018
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/09/2018
 ms.author: maikelson
-ms.openlocfilehash: 9fa7f56f102ae098c870ae0e6e12f56cc26d0fde
-ms.sourcegitcommit: 0cae0e6e1fd06b6465721702b2d0bb8333eb5afb
+ms.openlocfilehash: 29aba440f92f37763dd9887b5fa7511d6191a5f7
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34299281"
 ---
 # <a name="power-bi-webinars"></a>Power BI-webinars
 
@@ -31,17 +24,13 @@ Registreer u voor onze komende live webinars of bekijk onze opgenomen sessies on
 
 Registreer u bij Power BI-experts en neem deel aan live Q&A-sessies
 
-**[Power BI adoption framework webinar series](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)** (Webinarserie over het kader voor overstappen op Power BI)
-<br>door Manu Kanwarpal en Paul Henwood
-<br>*Maart, april en mei 2018 9:00 uur PST, 12:00 uur EST*
+**De juiste inzichten visualiseren met Power BI en Visio**
+<br>door Shakun Grover
+<br>*22 mei 2018 10:00 AM PST, 1:00 PM EST*
 
-Plan een effectieve implementatie van Power BI voor uw organisatie en maak kennis met de aspecten van effectief SaaS-beheer (software as a service). Dit is een serie van vijf delen waarmee u optimaal kunt profiteren van de mogelijkheden die Power BI voor uw organisatie biedt.
+Neem deel aan dit webinar voor informatie over het combineren van Power BI-dashboards en Microsoft Visio-diagrammen om krachtige visuele inzichten te maken. Visio en Power BI hebben een sterk visueel karakter en vullen elkaar aan. In Visio kunt u illustratieve diagrammen maken, zoals onderling verbonden werkstromen en lay-outs uit de praktijk. Met Power BI kunt u intuïtieve dashboards maken met behulp van grafieken en kaarten waarmee u de KPI's kunt meten en de doelstellingen kunt volgen.
 
-[Registreren om op 1 mei te bekijken - Deel 5 - Rollout: Successfully rolling out Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website) (Implementatie: Power BI met succes implementeren)
-<br>[Registreren en nu bekijken - Deel 4 - Security: Keeping your data secure with Power BI](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website) (Beveiliging: uw gegevens beveiligd houden met Power BI)
-<br>[Registreren en nu bekijken - Deel 3 - Service Management: Power BI Service Management Insights](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website) (Servicebeheer: inzichten van beheer met de Power BI-service)
-<br>[Registreren en nu bekijken - Deel 2 - Governance: Govern your Power BI usage](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website) (Governance: uw Power BI-gebruik bepalen)
-<br>[Registreren en nu bekijken - Deel 1 - Adoption: Adopt a data-driven culture](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website) (Ingebruikname: overstappen op een gegevensbestuurde cultuur)
+[Registreren voor webinar op 22 mei](https://info.microsoft.com/ww-landing-powerbi-and-visio.html?Is=Website)
 
 **Informatie over Power BI Embedded in 20 minuten**
 <br>door Megan Asarrane en Colin Murphy
@@ -88,6 +77,10 @@ Vastgelegde sessies op elk gewenst moment bekijken
 **Visueel aantrekkelijke Power BI-rapporten ontwerpen**
 <br>door Charles Sterling
 <br>[Nu bekijken](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
+
+**Meer doen met spreadsheets**
+<br>door Gohul Shanmugalingam
+<br>[Registreren en nu bekijken](https://info.microsoft.com/CA-PowerBI-WBNR-FY18-05May-09-DataBeyondtheSpreadsheet-MCW0006385_01Registration-ForminBody.html?Is=Website)
 
 **Een rapport transformeren van Goed naar Fantastisch.**
 <br>door Reid Havens
@@ -139,6 +132,14 @@ Vastgelegde sessies op elk gewenst moment bekijken
 <br>door Nagasaikiran Kambhampati en Miguel Martinez
 <br>[Registreren om te bekijken](https://info.microsoft.com/ww-landing-advanced-analytics-excel-powerbi.html?Is=Website)
 <br>[Download the Advanced Analytics Starter Kit to follow along](https://aka.ms/pbiaawebinar) (De Advanced Analytics Starter Kit downloaden om mee te kijken)
+
+**[Power BI adoption framework webinar series](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)** (Webinarserie over het kader voor overstappen op Power BI)
+<br>door Manu Kanwarpal en Paul Henwood
+<br>[Registreren en nu bekijken - Deel 1 - Adoption: Adopt a data-driven culture](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website) (Ingebruikname: overstappen op een gegevensbestuurde cultuur)
+<br>[Registreren en nu bekijken - Deel 2 - Governance: Govern your Power BI usage](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website) (Governance: uw Power BI-gebruik bepalen)
+<br>[Registreren en nu bekijken - Deel 3 - Service Management: Power BI Service Management Insights](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website) (Servicebeheer: inzichten van beheer met de Power BI-service)
+<br>[Registreren en nu bekijken - Deel 4 - Security: Keeping your data secure with Power BI](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website) (Beveiliging: uw gegevens beveiligd houden met Power BI)
+<br>[Registreren en nu bekijken - Deel 5 - Rollout: Successfully rolling out Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
 
 **Webinarserie voor Office 365 Finance-professionals**
 <br>door Mark Traverso, Carlos Otero, Johnnie Thomas, Amanda Cofsky en Miguel Martinez

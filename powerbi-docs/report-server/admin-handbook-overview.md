@@ -1,34 +1,35 @@
 ---
-title: Overzicht van het beheerdershandboek voor Power BI Report Server
-description: Welkom bij het beheerdershandboek voor Power BI Report Server, een on-premises locatie om uw Power BI-rapporten, mobiele rapporten en gepagineerde rapporten op te slaan en te beheren.
+title: Beheeroverzicht voor Power BI Report Server
+description: Dit artikel bevat het beheeroverzicht voor Power BI Report Server, een on-premises locatie om uw Power BI-rapporten, mobiele rapporten en gepagineerde rapporten op te slaan en te beheren.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
+ms.date: 05/07/2018
 ms.author: maghan
-ms.openlocfilehash: 130a4264b2e8c4e511527f34088a580a7787673b
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 52b2c9cac7fd07564480fdbf3a6a91e04e72db11
+ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/08/2018
+ms.locfileid: "33883082"
 ---
-# <a name="administrator-handbook-overview-power-bi-report-server"></a>Overzicht van het beheerdershandboek voor Power BI Report Server
-Welkom bij het beheerdershandboek voor Power BI Report Server, een on-premises locatie om uw Power BI-rapporten, mobiele rapporten en gepagineerde rapporten op te slaan en te beheren.
+# <a name="admin-overview-power-bi-report-server"></a>Beheeroverzicht voor Power BI Report Server
+Dit artikel bevat het beheeroverzicht voor Power BI Report Server, een on-premises locatie om uw Power BI-rapporten, mobiele rapporten en gepagineerde rapporten op te slaan en te beheren. In dit artikel maakt u kennis met concepten van planning, implementatie en beheer van uw Power BI Report Server, met koppelingen naar meer informatie.
 
 ![](media/admin-handbook-overview/admin-handbook.png)
 
-Dit handboek biedt u inzicht in concepten over het plannen, implementeren en beheren van uw Power BI-rapportserver.
+
 
 ## <a name="installing-and-migration"></a>Installatie en migratie
 U moet Power BI Report Server installeren om het gaan gebruiken. We hebben informatie waarmee u deze taak kunt uitvoeren.
@@ -36,10 +37,9 @@ U moet Power BI Report Server installeren om het gaan gebruiken. We hebben infor
 Bekijk, voordat u begint met installeren, upgraden of migreren naar Power BI-rapportserver, de [systeemvereisten](system-requirements.md) voor de rapportserver.
 
 ### <a name="installing"></a>Installeren
-Als u een nieuwe Power BI-rapportserver implementeert, kunt u de volgende documenten als hulpmiddel gebruiken. Er is een snelstartgids beschikbaar om meteen te beginnen. U kunt eventueel ook het installatiedocument bekijken voor de volledige informatie.
+Als u een nieuwe Power BI Report Server implementeert, kunt u de volgende documenten als hulpmiddel gebruiken. 
 
-* [Snelstartgids: Power BI Report Server installeren](quickstart-install-report-server.md)
-* [Power BI Report Server installeren](install-report-server.md)
+[Power BI Report Server installeren](install-report-server.md)
 
 ### <a name="migration"></a>Migratie
 Er is geen in-place upgrade voor SQL Server Reporting Services. Als u over een bestaand SQL Server Reporting Services-exemplaar beschikt waarvan u een Power BI-rapportserver wilt maken, moet u deze migreren. Er zijn ook andere redenen waarom u wellicht een migratie zou willen uitvoeren. Neem het migratiedocument door voor meer informatie.
@@ -55,7 +55,7 @@ Het merendeel van uw configuratie wordt uitgevoerd binnen Report Server Configur
 Beveiliging en bescherming zijn belangrijk voor elke organisatie. Meer informatie over verificatie, autorisatie, rollen en machtigingen vindt u in de [beveiligings](https://docs.microsoft.com/sql/reporting-services/security/reporting-services-security-and-protection)documentatie.
 
 ## <a name="next-steps"></a>Volgende stappen
-[Snelstartgids: Power BI Report Server installeren](quickstart-install-report-server.md)  
+[Power BI Report Server installeren](install-report-server.md)  
 [De productcode van uw rapportserver zoeken](find-product-key.md)  
 [Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren](install-powerbi-desktop.md)  
 [Report Builder installeren](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  

@@ -15,25 +15,31 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/19/2018
+ms.date: 04/19/2018
 ms.author: maggies
-ms.openlocfilehash: 4f149baccf551762589c17bd6d6ba17c36f4da37
-ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
+ms.openlocfilehash: 21769ee9c88dd2310da2a86be8dbadd1f17522ff
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813249"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Wat is er nieuw in Power BI Report Server
 Meer informatie over wat er nieuw is in Power BI Report Server. Dit onderwerp bestrijkt de primaire functiegebieden. Het wordt bijgewerkt wanneer nieuwe items worden uitgebracht.
 
 Ga naar [On-premises rapportage met Power BI Report Server](https://powerbi.microsoft.com/report-server/) om Power BI Report Server en de geoptimaliseerde versie van Power BI Desktop voor Power BI Report Server te downloaden.
 
-Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
+Raadpleeg deze bronnen om op de hoogte te blijven van nieuwe functies in Power BI Report Server.
 
-* [Wat is er nieuw in de Power BI-service](../service-whats-new.md)
+* [Microsoft Power BI-blog](https://powerbi.microsoft.com/blog/)
+* [SQL server reporting services-teamblog](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
+* [YouTube-kanaal Guy in a Cube](https://aka.ms/guyinacube)
+
+Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden in Power BI:
+
+* [What's new in the Power BI service](../service-whats-new.md) (Wat is er nieuw in de Power BI-service)
 * [Wat is er nieuw in Power BI Desktop](../desktop-latest-update.md)
 * [Wat is er nieuw in de mobiele apps voor Power BI](../mobile-whats-new-in-the-mobile-apps.md)
-* [Power BI-teamblog](https://powerbi.microsoft.com/blog/)
 
 ## <a name="march-2018-release"></a>Release van maart 2018
 
@@ -208,7 +214,7 @@ Power BI Report Server ondersteunt nu de nieuwe visuele Power BI-tabel en -matri
 ## <a name="next-steps"></a>Volgende stappen
 [Gebruikershandboek](user-handbook-overview.md)  
 [Beheerdershandboek](admin-handbook-overview.md)  
-[Snelstartgids: Power BI Report Server installeren](quickstart-install-report-server.md)  
+[Power BI Report Server installeren](install-report-server.md)  
 [Report Builder installeren](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [SQL Server Data Tools (SSDT) downloaden](http://go.microsoft.com/fwlink/?LinkID=616714)
 

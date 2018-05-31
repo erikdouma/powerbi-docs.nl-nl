@@ -1,31 +1,24 @@
 ---
-title: Visuele KPI-elementen (zelfstudie)
+title: Visuele KPI-elementen
 description: KPI maken in de Power BI-service en Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: xmja6EpqaO0
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4d6af52f10f16d973dc97ed0da1ed74bf63ec2cc
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 2fc84d82e67b1c1e4a4b37655a13bd5415abf816
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34292588"
 ---
-# <a name="kpi-visuals-tutorial"></a>Visuele KPI-elementen (zelfstudie)
+# <a name="kpi-visuals"></a>Visuele KPI-elementen
 Een Key Performance Indicator (KPI) is een visuele aanwijzing waarmee de voortgang naar een meetbaar doel wordt aangegeven. Zie [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050) voor meer informatie over KPI's.
 
 ## <a name="when-to-use-a-kpi"></a>Een KPI gebruiken
@@ -79,5 +72,5 @@ KPI's zijn ook op uw mobiele apparaten beschikbaar, zodat u altijd een vinger aa
 
 [Visualisaties in Power BI-rapporten](power-bi-report-visualizations.md)
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

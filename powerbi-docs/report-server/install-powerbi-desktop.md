@@ -1,27 +1,20 @@
 ---
 title: Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren
 description: Meer informatie over het installeren van een voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: c22e909130767abd1dc6f0aa00d76e1fb6b99ee7
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: 2061bb5afde8c19693eb565b298fabedebae89ac
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/19/2018
+ms.locfileid: "34310401"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren
 Meer informatie over het installeren van een voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop.
@@ -109,10 +102,10 @@ Als u een rapportserver heeft met een eerdere versie, moet u de overeenkomstige 
 ## <a name="next-steps"></a>Volgende stappen
 Nu u Power BI Desktop hebt geïnstalleerd, kunt u beginnen met het maken van Power BI-rapporten.
 
-[Quickstart: een Power BI-rapport maken voor Power BI Report Server](quickstart-create-powerbi-report.md)  
+[Een Power BI-rapport maken voor Power BI Report Server](quickstart-create-powerbi-report.md)  
 [Aan de slag met Power BI Desktop](../desktop-getting-started.md)  
-Zelfstudie: [Aan de slag met Power BI Desktop](../guided-learning/gettingdata.yml#step-2)  
-[Gebruikershandboek voor Power BI Report Server](user-handbook-overview.md)
+Zelfstudie: [Aan de slag met Power BI Desktop](../guided-learning/gettingdata.yml?tutorial-step=2)
+[Overzicht gebruikershandboeken, Power BI Report Server](user-handbook-overview.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

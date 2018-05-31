@@ -1,31 +1,24 @@
 ---
-title: 'Deel 1: visualisaties toevoegen aan een Power BI-rapport (zelfstudie)'
-description: 'Zelfstudie: Deel 1: visualisaties toevoegen aan een Power BI-rapport'
-services: powerbi
-documentationcenter: ''
+title: 'Deel 1: visualisaties toevoegen aan een Power BI-rapport'
+description: 'Deel 1: visualisaties toevoegen aan een Power BI-rapport'
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b6fdc11b19e130272cf715f4cff58721f46dd6e8
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 2203d6af692e80ffe5480a81a0e0f2312c62b905
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34293761"
 ---
-# <a name="part-i-add-visualizations-to-a-power-bi-report-tutorial"></a>Deel 1: visualisaties toevoegen aan een Power BI-rapport (zelfstudie)
+# <a name="part-i-add-visualizations-to-a-power-bi-report"></a>Deel 1: visualisaties toevoegen aan een Power BI-rapport
 Dit artikel bevat een korte inleiding over het maken van een visualisatie in een rapport met de Power BI-service of Power BI Desktop.  [Zie deel II](power-bi-report-add-visualizations-ii.md) voor geavanceerdere inhoud. Kijk mee met Amanda, die een aantal verschillende manieren om visuele elementen in het rapportcanvas te maken, bewerken en op te maken laat zien. Probeer deze vervolgens zelf met behulp van het [Voorbeeld van verkoop en marketing](sample-datasets.md) om uw eigen rapport te maken.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>

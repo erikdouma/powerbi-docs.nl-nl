@@ -1,90 +1,74 @@
 ---
-title: Aan de slag met Power BI Report Server
-description: 'Lees hoe u Power BI Report Server installeert. '
+title: Wat is Power BI Report Server?
+description: U kunt een overzicht krijgen van Power BI Report Server zodat u begrijpt hoe het is aangepast voor SQL Server Reporting Services (SSRS) en de rest van Power BI.
 services: powerbi
-documentationcenter: 
-author: markingmyname
-manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+keywords: ''
+author: maggiesMSFT
+ms.author: maggies
+ms.component: powerbi-report-server
+ms.date: 05/07/2018
+ms.topic: overview
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 3/5/2018
-ms.author: maghan
-ms.openlocfilehash: 88aa347a5e6feae969cf9b32e0e2177114efc757
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+manager: kfile
+ms.custom: mvc
+ms.openlocfilehash: 83220c399b527df421a14f9e45148feabc902ebb
+ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/08/2018
+ms.locfileid: "33840092"
 ---
-# <a name="get-started-with-power-bi-report-server"></a>Aan de slag met Power BI Report Server
-Maak, implementeer en beheer Power BI-, mobiele en gepagineerde rapporten on-premises met een reeks kant-en-klare hulpprogramma's en services die worden geboden door Power BI Report Server.
+# <a name="what-is-power-bi-report-server"></a>Wat is Power BI Report Server?
 
-## <a name="create-deploy-and-manage-reports"></a>Rapporten maken, implementeren en beheren
-Power BI Report Server is een oplossing die klanten op hun eigen locatie implementeren voor het maken, publiceren, en het beheren van rapporten, waarna ze deze op verschillende manieren kunt leveren aan de juiste gebruikers: in een webbrowser, op hun mobiele apparaat of als een e-mailbericht in hun mailbox.
+Power BI Report Server is een on-premises rapportserver met een webportal waarin u rapporten en KPI's kunt bekijken en beheren, in combinatie met de hulpmiddelen voor het maken van rapporten, gepagineerde rapporten, mobiele rapporten en KPI's van Power BI. Uw gebruikers hebben op verschillende manieren toegang tot deze rapporten: ze kunnen ze in een webbrowser of op een mobiel apparaat bekijken of als een e-mailbericht in hun Postvak IN.
 
-Power BI Report Server biedt een reeks producten:
+![De webportal van Power BI Report Server](media/get-started/power-bi-report-server-overview.png)
 
-* Een moderne webportal die u kunt weergeven in elke moderne browser. In de webportal kunt u rapporten en KPI's indelen en weergeven. U kunt in de portal ook Excel-werkmappen opslaan.
-* Power BI-rapporten, gemaakt met Power BI Desktop, die u kunt weergeven in de webportal in uw eigen omgeving.
-* Gepagineerde rapporten zodat u modern vormgegeven rapporten kunt maken, met hulpprogramma's om deze rapporten.
-* Mobiele rapporten met een responsieve indeling die wordt aangepast aan verschillende apparaten en de verschillende manieren waarop deze worden vastgehouden.
+## <a name="comparing-power-bi-report-server"></a>Power BI Report Server vergelijken 
+Power BI Report Server lijkt op zowel SQL Server Reporting Services als de online Power BI-service, maar er zijn verschillen. Power BI Report Server host net als de Power BI-service zowel Power BI-rapporten (PBIX) als Excel-bestanden. Power BI Report Server is net als Reporting Services on-premises en host gepagineerde rapporten (RDL). Power BI Report Server omvat Reporting Services: alles wat u kunt doen in Reporting Services, kunt u doen met Power BI Report Server en nog meer, en het biedt ondersteuning voor Power BI-rapporten. Zie [Comparing Power BI Report Server and the Power BI service](compare-report-server-service.md) (Power BI Report Server vergelijken met de Power BI-service) voor meer informatie.
 
-Lees verder voor meer informatie over elk van deze hulpprogramma’s.
-
-### <a name="whats-new-in-power-bi-report-server"></a>Wat is er nieuw in Power BI Report Server
-Met deze resources blijft u op de hoogte van nieuwe functies in Power BI Report Server.
-
-* [Wat is er nieuw in Power BI Report Server](whats-new.md)
-* [Microsoft Power BI-blog](https://powerbi.microsoft.com/blog/)
-* [SQL server reporting services-teamblog](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
-* [YouTube-kanaal Guy in a Cube](https://aka.ms/guyinacube)
+## <a name="licensing-power-bi-report-server"></a>Licenties voor Power BI Report Server
+Power BI Report Server is verkrijgbaar via twee verschillende licenties: [Power BI Premium](../service-premium.md) en [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions) met Software Assurance. Met een licentie voor Power BI Premium kunt u een hybride implementatie maken waarin de cloud en uw on-premises omgeving gemengd zijn.  
 
 ## <a name="web-portal"></a>Webportal
-![](media/get-started/web-portal.png)
+Het toegangspunt voor Power BI Report Server is een veilige webportal die u in een moderne browser kunt bekijken. Hier hebt u toegang tot al uw rapporten en KPI's. De inhoud op de webportal is in een traditionele mappenhiërarchie gerangschikt. De inhoud in de mappen is gerangschikt op type: Power BI-rapporten, mobiele rapporten, gepagineerde rapporten, KPI's, en Excel-werkmappen, plus gedeelde gegevenssets en gedeelde gegevensbronnen die u kunt gebruiken als bouwstenen voor uw rapporten. U kunt uw favorieten labelen, zodat u ze in één map kunt bekijken. En u kunt KPI's rechtstreeks in de webportal maken. 
 
-Voor eindgebruikers van Power BI Report Server is een moderne webportal de voordeur die u kunt weergeven in elke modern browsers. U kunt hebt in de nieuwe portal toegang tot al uw rapporten en KPI's.
+![De webportal van Power BI Report Server](media/get-started/web-portal.png)
 
-U kunt uw eigen aangepaste [huisstijl](https://docs.microsoft.com/sql/reporting-services/branding-the-web-portal) toepassen op uw webportal. En u kunt KPI's rechtstreeks in de webportal maken. Met KPI's kunt u belangrijke zakelijke gegevens in één oogopslag in de browser weergeven zonder dat u een rapport moet openen.
+Afhankelijk van uw machtigingen kunt de inhoud van de webportal beheren. U kunt rapportverwerking inplannen, rapporten op aanvraag openen en u abonneren op gepubliceerde rapporten. U kunt ook uw eigen aangepaste [huisstijl](https://docs.microsoft.com/sql/reporting-services/branding-the-web-portal) toepassen op uw webportal. 
 
-De inhoud op de webportal is gerangschikt op type: Power BI-rapporten, mobiele rapporten, gepagineerde rapporten en KPI's, plus Excel-werkmappen, gedeelde gegevenssets en gedeelde gegevensbronnen die u kunt gebruiken als bouwstenen voor uw rapporten. U kunt deze hier veilig opslaan en beheren in de traditionele maphiërarchie. U kunt uw favorieten labelen en u kunt de inhoud beheren, als u die rol hebt.
-
-U kunt rapportverwerking inplannen, rapporten op aanvraag openen en abboneren op gepubliceerde rapporten in de nieuwe webportal.
-
-Meer informatie over de [webportal](https://docs.microsoft.com/sql/reporting-services/web-portal-ssrs-native-mode).
+Meer informatie over de [webportal van Power BI Report Server](https://docs.microsoft.com/sql/reporting-services/web-portal-ssrs-native-mode) (Engelstalig).
 
 ## <a name="power-bi-reports"></a>Power BI-rapporten
-![](media/get-started/powerbi-reports.png)
+U maakt Power BI-rapporten (PBIX) met de versie van Power BI Desktop die voor de rapportserver is geoptimaliseerd. Vervolgens publiceert u ze en bekijkt u ze in de webportal in uw eigen omgeving.
 
-Een Power BI-rapport biedt een meervoudige weergave van een gegevensset, met visualisaties die andere bevindingen en inzichten uit die gegevensset weergeven.  Een rapport kan één visualisatie of pagina's vol visualisaties hebben. Afhankelijk van uw functie bent u mogelijk iemand die rapporten maakt en/of iemand die rapporten verbruikt of gebruikt.
+![Power BI-rapporten in Power BI Report Server](media/get-started/powerbi-reports.png)
 
-Rapporten zijn gebaseerd op een enkele gegevensset. De visualisaties in een rapport vertegenwoordigen een schat aan informatie. En de visualisaties zijn niet statisch; u kunt gegevens toevoegen en verwijderen, visualisatietypen wijzigen en filters en slicers toepassen terwijl u zich verder in de gegevens verdiept om inzichten te ontdekken en antwoorden te zoeken. Net als een dashboard, maar dan nog meer, is een rapport zeer interactief en zeer aanpasbaar en de visualisaties worden bijgewerkt naarmate de onderliggende gegevens veranderen.
+Een Power BI-rapport biedt een meervoudige weergave in een gegevensmodel, met visualisaties die andere bevindingen en inzichten uit dat gegevensmodel voorstellen.  Een rapport kan één visualisatie of pagina's vol visualisaties bevatten. Afhankelijk van uw functie kunt u rapporten lezen en verkennen of ze voor andere personen maken.
+
+[Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop](quickstart-create-powerbi-report.md) installeren.
 
 ## <a name="paginated-reports"></a>Gepagineerde rapporten
-![](media/get-started/paginated-reports.png)
+Gepagineerde rapporten (RDL) zijn rapporten in documentstijl met visualisaties, waarin tabellen horizontaal en verticaal kunnen worden uitgebreid om alle gegevens weer te geven, eventueel doorlopend op volgende pagina's. Ze zijn ideaal voor het genereren van documenten met een perfecte vaste indeling die zijn geoptimaliseerd voor afdrukken, zoals PDF- en Word-bestanden.
 
-Gepagineerde rapporten zijn rapporten met een gepagineerde documentindeling, waarin de tabellen meer rijen en het rapport pagina's hebben, afhankelijk van de hoeveelheid gegevens. Dat is ideaal voor het genereren van documenten met een perfecte vaste indeling die zijn geoptimaliseerd voor afdrukken, zoals PDF- en Word-bestanden.
+![Gepagineerde rapporten in Power BI Report Server](media/get-started/paginated-reports.png)
 
 U kunt modern vormgegeven rapporten maken met [Report Builder](https://docs.microsoft.com/sql/reporting-services/report-builder/report-builder-in-sql-server-2016) of Report Designer in [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt).
 
+## <a name="reporting-services-mobile-reports"></a>Mobiele rapporten van Reporting Services
+Mobiele rapporten maken verbinding met on-premises gegevens en hebben een responsieve indeling die wordt aangepast aan verschillende apparaten en de wijze waarop deze worden vastgehouden. U maakt ze met SQL Server Mobile Report Publisher.
+
+Meer informatie over [Mobiele rapporten van Reporting Services](https://docs.microsoft.com/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher). 
+
 ## <a name="report-server-programming-features"></a>Programmeerfuncties van Report Server
-Maak gebruik van de programmeerfuncties van Power BI Report Server zodat u de functionalitait van uw rapporten kunt uitbreiden en aanpassen, met geïntegreerde API's of uitgebreide gegevens en het verwerken van rapporten in aangepaste toepassingen.
+Maak gebruik van de programmeerfuncties van Power BI Report Server zodat u de functionaliteit van uw rapporten kunt uitbreiden en aanpassen met API's voor het integreren of uitbreiden van gegevens en het verwerken van rapporten in aangepaste toepassingen.
 
 Meer [ontwikkelaarsdocumentatie voor Report Server](https://docs.microsoft.com/sql/reporting-services/reporting-services-developer-documentation).
 
 ## <a name="next-steps"></a>Volgende stappen
-[Gebruikershandboek](user-handbook-overview.md)  
-[Beheerdershandboek](admin-handbook-overview.md)  
-[Snelstartgids: Power BI Report Server installeren](quickstart-install-report-server.md)  
+[Power BI Report Server installeren](install-report-server.md)  
 [Report Builder installeren](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
-[SQL Server Data Tools (SSDT) downloaden](http://go.microsoft.com/fwlink/?LinkID=616714)
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 
 

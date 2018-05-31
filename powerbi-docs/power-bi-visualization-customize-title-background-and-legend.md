@@ -1,16 +1,16 @@
 ---
-title: Aan de slag met het opmaken van Power BI-visualisaties (zelfstudie)
-description: 'Zelfstudie: De titel, achtergrond en legenda van een visualisatie aanpassen'
+title: Aan de slag met het opmaken van Power BI-visualisaties
+description: De titel, achtergrond en legenda van een visualisatie aanpassen
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
+backup: ''
+editor: ''
 featuredvideoid: IkJda4O7oGs
-tags: 
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e81f4e9ede3591accc94576291179b4fd40215e5
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9a61d0aa7bed1e46109b5e467e64922cf434c10e
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813272"
 ---
-# <a name="customize-visualization-titles-legends-and-backgrounds-tutorial"></a>Titel, legenda en achtergrond van visualisaties aanpassen (zelfstudie)
+# <a name="customize-visualization-titles-legends-and-backgrounds"></a>Titels, legenda's en achtergronden van visualisaties aanpassen
 In deze zelfstudie leert u een aantal verschillende manieren kennen om uw visualisaties aan te passen.   Er zijn heel veel opties voor het aanpassen van uw visualisaties. De beste manier om ze te leren kennen is door het deelvenster Opmaak te verkennen (selecteer de verfroller).  Dit artikel helpt u op weg door te laten zien hoe u de titel, legenda en achtergrond van een visualisatie kunt aanpassen.  
 
 Niet alle visualisaties kunnen worden aangepast. [Bekijk de volledige lijst](#list).  

@@ -1,27 +1,20 @@
 ---
 title: Wijzigingenlogboek voor Power BI Report Server
 description: Dit is een wijzigingenlogboek voor Power BI Report Server met een overzicht van nieuwe items en oplossingen voor problemen voor elke uitgebrachte build.
-services: powerbi
-documentationcenter: ''
 author: jtarquino
-manager: jonhp
-backup: maggies
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+manager: kfile
+ms.reviewer: maggies
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 12/11/2017
-ms.author: tankas
-ms.openlocfilehash: 67b9a162d689a8615a3e2459295eab6dad6d2364
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.author: jtarquino
+ms.openlocfilehash: 65ad5e6ca9fbdd71643f71fa56186ee3d01d2dd1
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295671"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Wijzigingenlogboek voor Power BI Report Server
 
@@ -31,6 +24,24 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerd
 
 ## <a name="march-2018"></a>Maart 2018
 - **Power BI Report Server**
+    - *Versie 1.2.6690.34729 (build 15.0.2.402), uitgebracht: 27 april 2018*
+        - Opgeloste fouten
+            - Migratie van SQL Server Reporting Services 2017-catalogussen inschakelen
+            - Voor Power BI-rapporten (PBIX)
+                - Rapporten kunnen worden vernieuwd wanneer een server is geconfigureerd om aangepaste verificatie te gebruiken
+                - De gegevensbronreferenties worden niet opnieuw ingesteld door de eigenschappen van een rapport te wijzigen
+            - Voor Gepagineerde rapporten (RDL)
+                - Het gebruik van `Lookup()` of afgeleide functies zoals `LookupSet()` en `MultiLookup()` in RDL-expressies heeft niet meer dit resultaat: `#Error`
+                - Gekoppelde rapporten worden tijdens het afdrukken aangepast aan de paginagrootte van het doelrapport
+                - Abonnementen kunnen worden gemaakt voor gekoppelde rapporten die gebruikmaken van trapsgewijze parameters
+                - Standaardparameters voor meerdere waarden kunnen worden gewijzigd wanneer u IE11 gebruikt
+                - Gegevensgestuurde bezorgingsopties voor abonnementen kunnen worden bewerkt
+                - Abonnementen kunnen worden bekeken en bewerkt terwijl het abonnement wordt uitgevoerd
+                - Verbindingsreeksen op basis van expressies worden niet verwijderd door de gegevensbronreferenties in te stellen
+            - Voor KPI's
+                - Trendregels worden vernieuwd wanneer de gegevens worden bijgewerkt
+            - Algemene verbeteringen in de stabiliteit
+
     - *Versie 1.2.6660.39920 (build 15.0.2.389), uitgebracht: 28 maart 2018*
         - Opgeloste fouten
             - Voor Power BI-rapporten (PBIX) werkt de oplossing voor het exporteren van gegevens niet vanuit Power BI Visuals
@@ -46,7 +57,7 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerd
             - Er is een fout opgelost voor het exporteren naar Word, waarbij een ongelijke rijhoogte werd gemaakt als de inhoud van de rij leeg was
             - Er is voor gepagineerde rapporten (RDL) een fout opgelost, waarbij een verbindingsreeks die is gebaseerd op een expressie werd verwijderd wanneer de referenties voor de gegevensbron werden gewijzigd
             - Er is een fout opgelost zodat KPI kan worden gebruikt met tekstwaarden
-            - Er is voor gepagineerde rapporten (RDL) een fout opgelost, zodat een nieuwe gegevensset kan worden toegewezen aan een bestaand gepagineerd rapport
+            - Er is voor gepagineerde rapporten (RDL) een fout opgelost, zodat een nieuwe gegevensset kan worden toegewezen aan een bestaand gepagineerd rapport (RDL)
             - Andere foutoplossingen met betrekking tot de stabiliteit en het gebruik
 
 - **Power BI Report (geoptimaliseerd voor Power BI Report Server)**
@@ -120,7 +131,7 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerd
 
     - *Build 14.0.600.301, uitgebracht: 11 juli 2017*
         - Opgeloste fouten
-            - De tag {{UserId}} in Power BI-rapporten wordt omgezet in de opgeslagen referenties in plaats dat de gebruiker het rapport uitvoert.
+            - De tag `{{UserId}}` wordt omgezet in de opgeslagen referenties in plaats van dat de gebruiker het rapport uitvoert in Power BI-rapporten
             - Sommige afbeeldingen worden niet weergegeven in Power BI Report Server-rapporten.
             - De naam van een Power BI-rapport in Power BI Report Server kan niet worden gewijzigd.
             - Kan geen aangepaste visuals in de mobiele Power BI-app laden (de mobiele app moet opnieuw worden geïnstalleerd om de lokale cache te wissen).
@@ -136,7 +147,7 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerd
 
 [Gebruikershandboek](user-handbook-overview.md)  
 [Beheerdershandboek](admin-handbook-overview.md)  
-[Snelstartgids: Power BI Report Server installeren](quickstart-install-report-server.md)  
+[Power BI Report Server installeren](install-report-server.md)  
 [Report Builder installeren](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [SQL Server Data Tools (SSDT) downloaden](http://go.microsoft.com/fwlink/?LinkID=616714)
 

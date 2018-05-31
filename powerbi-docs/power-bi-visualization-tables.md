@@ -1,5 +1,5 @@
 ---
-title: Tabelvisualisaties in Power BI-rapporten en -dashboards (zelfstudie)
+title: Tabelvisualisaties in Power BI-rapporten en -dashboards
 description: Zelfstudie over het werken met tabelvisualisaties in Power BI-rapporten en -dashboards, met informatie over het aanpassen van de kolombreedte.
 services: powerbi
 documentationcenter: ''
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a36e2afcda7c741c871b07c526ab010f77290a3b
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 0f7084cf2e0ad4db88ad99bd969ada20ba40aa57
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812628"
 ---
-# <a name="working-with-tables-in-power-bi-reports-and-dashboards-tutorial"></a>Werken met tabelvisualisaties in Power BI-rapporten en -dashboards (zelfstudie)
+# <a name="working-with-tables-in-power-bi-reports-and-dashboards"></a>Werken met tabelvisualisaties in Power BI-rapporten en -dashboards
 Een tabel is een raster met gerelateerde gegevens in een logische reeks rijen en kolommen. Het kan ook koppen en een rij voor totalen bevatten. Tabellen werken goed met kwantitatieve vergelijkingen waarbij u veel waarden voor één categorie bekijkt. Deze tabel geeft bijvoorbeeld 5 verschillende eenheden  voor **Categorie** weer.
 
 ![](media/power-bi-visualization-tables/table.png)

@@ -1,108 +1,107 @@
 ---
 title: Een rapport insluiten met een iFrame
-description: Het installeren van Power BI Report Server zelf gaat erg snel. Inclusief downloaden, installeren en configureren, moet u binnen enkele minuten aan de slag kunnen.
-services: powerbi
-documentationcenter: 
+description: Power BI Report Server-rapport insluiten in een iFrame in SharePoint Server
 author: markingmyname
-manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
-ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 11/09/2017
 ms.author: maghan
-ms.openlocfilehash: 56835bfb25c8c930099fadf710137f69fa89fc2e
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 05/04/2018
+ms.topic: quickstart
+ms.service: powerbi
+ms.component: powerbi-report-server
+ms.custom: mvc
+manager: kfile
+ms.openlocfilehash: 8d7653e6f390959df745fa2b19076ee89b26b1bc
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34293692"
 ---
-# <a name="quickstart-embed-a-power-bi-report-using-an-iframe-and-url-parameters"></a>Snelstartgids: een Power BI-rapport insluiten met een iFrame en URL-parameters
+# <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>Snelstart: Een Power BI Report Server-rapport insluiten met behulp van een iFrame in SharePoint Server
 
-U kunt elk gewenst rapport insluiten door een iFrame in uw toepassing te gebruiken. 
+In deze snelstart leert u hoe u een Power BI Report Server-rapport insluit met behulp van een iFrame op een SharePoint-pagina. Als u met SharePoint Online werkt, moet Power BI Report Server openbaar toegankelijk zijn. In SharePoint Online werkt het Power BI-webonderdeel dat geschikt is voor de Power BI-service niet met Power BI Report Server. 
 
-## <a name="url-parameter"></a>URL-parameter
+![Voorbeeld van iFrame](media/quickstart-embed/quickstart_embed_01.png)
+## <a name="prerequisites"></a>Vereisten
+* U moet [Power BI Report Server](https://powerbi.microsoft.com/en-us/report-server/) hebben geïnstalleerd en geconfigureerd.
+* U moet een voor [Power BI Report Server geoptimaliseerde versie van Power BI Desktop](install-powerbi-desktop.md) hebben geïnstalleerd.
+* U moet een [SharePoint](https://docs.microsoft.com/en-us/sharepoint/install/install)-omgeving hebben geïnstalleerd en geconfigureerd.
 
-Voor elke URL naar een rapport, kunt u de queryreeksparameter `?rs:Embed=true` toevoegen.
+## <a name="creating-the-power-bi-report-server-report-url"></a>De Power BI Report Server-rapport-URL maken
 
-Voorbeeld:
+1. Download het voorbeeld vanuit GitHub [Blog Demo](https://github.com/Microsoft/powerbi-desktop-samples).
 
-```
-http://myserver/reports/powerbi/Sales?rs:embed=true
-```
+    ![PBIX-voorbeeldbestand downloaden](media/quickstart-embed/quickstart_embed_14.png)
 
-Dit werkt voor alle typen rapporten in Power BI Report Server.
+2. Open het PBIX-voorbeeldbestand vanuit GitHub in de voor **Power BI Report Server geoptimaliseerde versie van Power BI Desktop**.
 
-## <a name="iframe"></a>iFrame
+    ![PBI RS Desktop-tool](media/quickstart-embed/quickstart_embed_02.png)
 
-Zodra u de URL hebt, kunt u een iFrame binnen een webpagina maken om het rapport te hosten.
+3. Sla het rapport op naar **Power BI Report Server**. 
 
-Voorbeeld:
+    ![PBI RS opslaan](media/quickstart-embed/quickstart_embed_03.png)
 
-```
-<iframe width="800" height="600" src="http://myserver/reports/powerbi/Sales?rs:embed=true" frameborder="0" allowFullScreen="true"></iframe>
-```
+4. Bekijk het rapport in de **webportal**.
 
-## <a name="url-filter"></a>URL-filter
+    ![Webportal](media/quickstart-embed/quickstart_embed_04.png)
 
-U kunt een queryreeksparameter aan de URL toevoegen om de gegevens te filteren die worden geretourneerd in het Power BI-rapport.
+### <a name="capturing-the-url-parameter"></a>De URL-parameter vastleggen
 
-De syntaxis is vrij eenvoudig: start met de URL van het rapport, voeg een vraagteken toe en vervolgens deze filtersyntaxis.
+Zodra u de URL hebt, kunt u een iFrame binnen een SharePoint-pagina maken om het rapport te hosten. Voor elke Power BI Report Server-rapport-URL kunt u een queryreeksparameter van `?rs:embed=true` toevoegen om uw rapport in te sluiten in een iFrame. 
 
-URL?filter=***Tabel***/***Veld*** eq '***waarde***'
+   Bijvoorbeeld:
+    ``` 
+    http://myserver/reports/powerbi/Sales?rs:embed=true
+    ```
+## <a name="embedding-a-power-bi-report-server-report-in-a-sharepoint-iframe"></a>Power BI Report Server-rapport insluiten in een SharePoint iFrame
 
-Houd rekening met het volgende:
+1. Navigeer naar een SharePoint **Site-inhoud**-pagina.
 
-- De naam van de **tabel** en het **veld** zijn hoofdlettergevoelig, de **waarde** is dat niet.
-- U kunt een rapport filteren met velden die in de rapportweergave worden verborgen.
-- De **waarde** moet tussen enkele aanhalingstekens staan.
-- Het veldtype moet een tekenreeks zijn.
-- Tabel- en veldnamen mogen geen spaties bevatten.
+    ![Pagina Site-inhoud](media/quickstart-embed/quickstart_embed_05.png)
 
-###  <a name="example-filter-on-a-field"></a>Voorbeeld: filteren op een veld
+2. Kies de pagina waaraan u uw rapport wilt toevoegen.
 
-Neem bijvoorbeeld het [voorbeeld van een retailanalyse](../sample-datasets.md). Stel dat dit de URL naar het rapport op de rapportserver in de map met de naam 'power bi' is:
+    ![App Site-inhoud-pagina](media/quickstart-embed/quickstart_embed_06.png)
 
-```
-https://report-server/reports/power-bi/Retail-Analysis-Sample
-```
+3. Selecteer het tandwielpictogram rechts bovenin en selecteer **Pagina bewerken**.
 
-Zoals u ziet bevatten de kaartvisualisatie in het voorbeeld van een retailanalyse de winkels in North Carolina en andere staten.
+    ![Optie Pagina bewerken](media/quickstart-embed/quickstart_embed_07.png)
 
-![Kaartvisualisatie van het voorbeeld van een retailanalyse](media/quickstart-embed/report-server-retail-analysis-sample-map.png)
+4. Selecteer **Webonderdeel toevoegen**.
 
-*NC* is de waarde voor North Carolina zoals opgeslagen in het veld **Gebied** van de tabel **Winkel** tabel. Als u het rapport zodanig wilt filteren dat er alleen winkels in North Carolina worden weergegeven, voegt u het volgende aan de URL toe:
+    ![Webonderdeel toevoegen](media/quickstart-embed/quickstart_embed_08.png)
 
-?filter=Winkel/Gebied eq 'NC'
+5. Selecteer onder **Categorieën** de optie **Media en inhoud**, selecteer onder **Delen** de optie **Inhoudseditor** en selecteer vervolgens **Toevoegen** .
 
-Nu is het rapport gefilterd op North Carolina. Alle visualisaties op de rapportpagina bevatten alleen gegevens voor North Carolina.
+    ![Selecteer Webonderdeel Inhoudseditor](media/quickstart-embed/quickstart_embed_09.png) ![Selecteer toevoegen](media/quickstart-embed/quickstart_embed_091.png)
 
-![Gefilterde visualisaties in het voorbeeld van een retailanalyse](media/quickstart-embed/report-server-retail-analysis-sample-filtered-map.png)
+6. Selecteer **Klik hier om nieuwe inhoud toe te voegen**.
 
-### <a name="create-a-dax-formula-to-filter-on-multiple-values"></a>Een DAX-formule maken om op meerdere waarden te filteren
+    ![Nieuwe inhoud toevoegen](media/quickstart-embed/quickstart_embed_10.png)
 
-U kunt ook op meerdere velden filteren door een berekende kolom in Power BI Desktop te maken waarmee twee velden worden samengevoegd in één waarde. Vervolgens kunt u filteren op die waarde.
+7. Selecteer in het lint het tabblad **Tekstopmaak** en selecteer **Bron bewerken**.
 
-Het voorbeeld met de retailanalyse bevat bijvoorbeeld twee velden: Gebied en Keten. U kunt in Power BI Desktop een [berekende kolom maken](../desktop-tutorial-create-calculated-columns.md) (veld) met de naam GebiedKeten. Houd er rekening mee dat de naam van het **veld** geen spaties mag bevatten. Hier volgt de DAX-formule voor die kolom.
+     ![Bron bewerken](media/quickstart-embed/quickstart_embed_11.png)
 
-GebiedKeten = [Gebied] & "-" & [Keten]
+8. Plak uw iFrame-code in het venster Bron bewerken en selecteer OK.
 
-Publiceer het rapport naar Power BI Report Server en gebruik de URL-queryreeks vervolgens om te filteren om zodoende alleen gegevens voor de winkels van Lindseys in NC weer te geven.
+    ![iFrame-code](media/quickstart-embed/quickstart_embed_12.png)
 
-```
-https://report-server/reports/power-bi/Retail-Analysis-Sample?filter=Store/TerritoryChain eq 'NC-Lindseys'
+     Bijvoorbeeld:
+     ```
+     <iframe width="800" height="600" src="http://myserver/reports/powerbi/Sales?rs:embed=true" frameborder="0" allowFullScreen="true"></iframe>
+     ```
 
-```
+9. Selecteer in het lint het tabblad **Pagina** en selecteer **Stoppen met bewerken**.
+
+    ![Stoppen met bewerken](media/quickstart-embed/quickstart_embed_13.png)
+
+10. U ziet nu het rapport op de pagina.
+
+    ![Voorbeeld van iFrame](media/quickstart-embed/quickstart_embed_01.png)
 
 ## <a name="next-steps"></a>Volgende stappen
 
 [Snelstartgids: een Power BI-rapport maken voor Power BI Report Server](quickstart-create-powerbi-report.md)  
 [Snelstartgids: een gepagineerd rapport maken voor Power BI Report Server](quickstart-create-paginated-report.md)  
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/) 

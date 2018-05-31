@@ -1,27 +1,20 @@
 ---
 title: Tips en trucs voor het maken van rapporten in Power BI
 description: Tips en trucs voor het maken van rapporten in de Power BI-service en Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: willthom
-editor: ''
-tags: ''
-qualityfocus: identified
-qualitydate: ''
+ms.reviewer: willthom
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: davidi
-ms.openlocfilehash: d4c32d82fb25fcce47900080d3c454623e14cd74
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 7f1ec08fdd280d8c4c3e96367083e7bdb2d31e1b
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34230204"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Tips en trucs voor het maken van rapporten in Power BI Desktop
 Als uw gegevens optimaal te kunnen gebruiken, hebt u soms wat extra hulp nodig. We hebben een aantal tips en trucs voor u verzameld om u te helpen bij het maken van rapporten in Microsoft Power BI Desktop *en* in Pro-Plus-edities van Microsoft Excel 2016 of Excel 2013 waar de Power Pivot-invoegtoepassing is ingeschakeld en Power Query is geïnstalleerd en ingeschakeld. 
@@ -61,7 +54,7 @@ Wanneer u in Power BI een categorische (tekenreeks)waarde gebruikt voor grafieka
 ## <a name="building-maps-more-easily-with-hints-to-bing"></a>Eenvoudiger maps maken met hints van Bing
 Power BI biedt integratie met Bing om standaard kaartcoördinaten te bieden (een proces dat geocodering wordt genoemd) zodat u eenvoudiger kaarten kunt maken.  Bing gebruikt bepaalde algoritmen en hints om de juiste locatie te bepalen, maar dit blijft een schatting. U kunt de volgende tips gebruiken om de kans te verhogen dat de geocodering goed verloopt:
 
-Wanneer u een kaart maakt, zult u meestal landen, staten en plaatsen willen weergeven.  Als u in Power BI Desktop na de geografische aanduiding kolommen noemt, kan Bing beter inschatten wat u wilt weergeven. Als u bijvoorbeeld een veld met namen van Amerikaans staten gebruikt, zoals 'Californië' en 'Washington', is het mogelijk dat Bing voor 'Washington' de locatie van Washington, DC, retourneert, in plaats van de staat Washington.  Door een kolom 'Staat' toe te voegen, wordt de geocodering verbeterd.  Datzelfde geldt voor kolommen met de naam Land en Plaats.   
+Wanneer u een kaart maakt, zult u meestal landen, staten en plaatsen willen weergeven.  Als u in Power BI Desktop kolommen een naam geeft op basis van de geografische aanduiding, kan Bing beter inschatten wat u wilt weergeven. Als u bijvoorbeeld een veld met namen van Amerikaans staten gebruikt, zoals 'Californië' en 'Washington', is het mogelijk dat Bing voor 'Washington' de locatie van Washington, DC, retourneert, in plaats van de staat Washington.  Door een kolom 'Staat' toe te voegen, wordt de geocodering verbeterd.  Datzelfde geldt voor kolommen met de naam Land en Plaats.   
 
 Sommige aanduidingen zijn ambigu wanneer deze worden gebruikt in de context van meerdere landen.  Wat in sommige landen/regio's als 'staat' wordt beschouwd, kan in andere landen/regio's een andere aanduiding krijgen, zoals 'provincie' of 'county'.  U kunt de nauwkeurigheid van de geocodering vergroten door kolommen te maken die meerdere velden samenvoegen en deze vervolgens gebruiken om gegevenslocaties te visualiseren.  Zo kunt u in plaats van alleen 'Wiltshire' door te geven, ervoor kiezen 'Wiltshire, Engeland' door te geven om nauwkeurigere geocoderingsresultaten te krijgen. 
 
@@ -163,7 +156,7 @@ Soms is het handig om samenvattende statistieken te berekenen voor een gegevenss
 ## <a name="using-dax-for-the-first-time"></a>DAX voor het eerst gebruiken
 DAX is de formuletaal voor berekeningen in Power BI Desktop.  Deze is geoptimaliseerd voor BI-analyse.  Dit kan anders zijn dan wat u gewend bent als u tot nu toe alleen query-talen hebt gebruikt die op SQL lijken. Er zijn zeer goede onlinebronnen en informatieve literatuur beschikbaar om te leren werken met DAX. 
 
-[Quick Start: Standaard DAX-bewerkingen in Power BI Desktop](desktop-quickstart-learn-dax-basics.md)
+[Standaard DAX-bewerkingen in Power BI Desktop leren gebruiken](desktop-quickstart-learn-dax-basics.md)
 
 [Naslaginformatie voor Data Analysis Expressions (DAX)](https://msdn.microsoft.com/library/gg413422.aspx)
 

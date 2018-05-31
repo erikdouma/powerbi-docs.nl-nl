@@ -1,104 +1,65 @@
 ---
-title: Power BI Pro-licenties toewijzen
-description: Power BI Pro-licenties toewijzen
-services: powerbi
-documentationcenter: ''
+title: 'Snelstart: Power BI Pro-licenties toewijzen in Office 365'
+description: Informatie over het toewijzen van licenties voor Power BI Pro, zodat uw gebruikers toegang hebben tot alle inhoud en mogelijkheden in de Power BI-service.
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 03/22/2018
+ms.component: powerbi-admin
+ms.topic: quickstart
+ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: cc22bfa635bb9d91624e6d4a5cdfe301d6478af6
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: cd4a849a010d4ece6cd91a220d617ac3098a77ea
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295371"
 ---
-# <a name="assigning-power-bi-pro-licenses"></a>Power BI Pro-licenties toewijzen
+# <a name="quickstart-assign-power-bi-pro-licenses-in-office-365"></a>Snelstart: Power BI Pro-licenties toewijzen in Office 365
 
-Beheerders kunnen kiezen uit diverse beheerportals en PowerShell-cmdlets om Power BI Pro-licenties aan gebruikers toe te wijzen. Power BI-licentiebeheer wordt ondersteund door Azure Active Directory (Azure AD).
+Power BI Pro is een afzonderlijke licentie waarmee toegang kan worden verkregen tot alle inhoud en mogelijkheden in de Power BI-service, inclusief de mogelijkheid voor het delen van inhoud en samenwerken met andere Pro-gebruikers. Alleen Pro-gebruikers kunnen inhoud naar app-werkruimten publiceren en deze inhoud gebruiken, dashboards delen en zich abonneren op dashboards en rapporten. In dit artikel wordt uitgelegd hoe u Power BI Pro-licenties in Office 365 kunt toewijzen. U kunt ook [licenties toewijzen in Azure](service-admin-assigning-power-bi-pro-licenses-azure.md).
 
-* De eigenaren van een Azure-abonnement kunnen de Azure Active Directory-blade in [Azure Portal](https://ms.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/39bc3cf7-31a4-43f6-954c-f2d69ca2f0) gebruiken. 
 
-* Globale beheerders en gebruikersaccountbeheerders kunnen gebruikmaken van het [Office 365-beheercentrum](https://portal.office.com/AdminPortal/Home#/homepage).
+## <a name="prerequisites"></a>Vereisten
 
-## <a name="managing-power-bi-pro-licenses-in-the-azure-portal"></a>Power BI Pro-licenties beheren in Azure Portal
+U moet lid zijn van de rol [**Globale beheerder** of **Beheerder van gebruikersaccounts**](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) in Office 365.
 
-Power BI maakt gebruik van Microsoft Azure Active Directory, dat als service een belangrijke rol speelt. Door Microsoft Azure Active Directory worden gebruikersaccounts en groepen opgeslagen, maar ook andere instellingen zoals informatie over aangeschafte producten.
+U moet [ten minste één licentie kopen](service-admin-purchasing-power-bi-pro.md) voordat u begint.
 
-### <a name="assigning-licenses-to-individual-user-accounts"></a>Licenties toewijzen aan afzonderlijke gebruikersaccounts
 
-Voer de volgende stappen uit om Pro-licenties toe te wijzen aan afzonderlijke gebruikersaccounts als u eigenaar bent van een Azure-abonnement:
 
-1. Navigeer naar [Azure Portal](https://ms.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/39bc3cf7-31a4-43f6-954c-f2d69ca2f0). 
+## <a name="assign-licenses-to-individual-user-accounts"></a>Licenties toewijzen aan afzonderlijke gebruikersaccounts
 
-2. Klik in de linkernavigatiebalk op Azure Active Directory.
+Voer de volgende stappen uit om Power BI Pro-licenties toe te wijzen aan afzonderlijke gebruikersaccounts:
 
-    ![image](media/service-assigning-power-bi-pro-licenses/service-assigning-power-bi-pro-licenses-01.png)
+1. Open het [Office 365-beheercentrum](https://portal.office.com/adminportal/home#/homepage).
 
-3. Klik in de Azure Active Directory-blade op Licenties.
+2. Vouw **Gebruikers** uit in het linkernavigatiedeelvenster en selecteer **Actieve gebruikers**.
 
-    ![image](media/service-assigning-power-bi-pro-licenses/service-assigning-power-bi-pro-licenses-02.png)
+    ![Actieve gebruikers](media/service-admin-assigning-power-bi-pro-licenses/service-assigning-power-bi-pro-licenses-05.png)
 
-4. Klik in de blade Licenties op Alle producten en vervolgens op Power BI Pro om de lijst van gebruikers met een licentie weer te geven.
+3. Selecteer een gebruiker en selecteer vervolgens **Bewerken** onder **Productlicenties**.
 
-    ![image](media/service-assigning-power-bi-pro-licenses/service-assigning-power-bi-pro-licenses-03.png)
+    ![Productlicenties bewerken](media/service-admin-assigning-power-bi-pro-licenses/service-assigning-power-bi-pro-licenses-06.png)
 
-5. Klik op Toewijzen om een Power BI Pro-licentie toe te voegen aan een extra gebruikersaccount.
+4. Zet de instelling onder **Power BI Pro** op **Aan** en selecteer vervolgens **Opslaan**.
 
-    ![image](media/service-assigning-power-bi-pro-licenses/service-assigning-power-bi-pro-licenses-04.png)
+    ![Productlicenties op Aan](media/service-admin-assigning-power-bi-pro-licenses/service-assigning-power-bi-pro-licenses-07.png)
 
-> [!NOTE]
-> Hoewel de meeste aspecten van licenties kunnen worden beheerd, is het niet mogelijk om Power BI Pro-licenties aan te schaffen in Azure Portal. Gebruik het Office 365-beheercentrum om een Power BI Pro-abonnement te kopen. Zie [Purchasing Power BI Pro](https://docs.microsoft.com/en-us/power-bi/service-admin-purchasing-power-bi-pro) (Power BI Pro kopen) voor meer informatie.
->
+5. Controleer onder **Status** voor het geselecteerde account of de Power BI Pro-licentie is toegewezen.
 
-## <a name="managing-power-bi-pro-licenses-in-the-office-365-admin-center"></a>Power BI Pro-licenties beheren in het Office 365-beheercentrum
+    ![Licentiestatus controleren](media/service-admin-assigning-power-bi-pro-licenses/service-assigning-power-bi-pro-licenses-08.png)
 
-Als u een globale beheerder bent, kunt u in het Office 365-beheercentrum een Power BI Pro-abonnement aanschaffen en de bijbehorende licenties voor de organisatie beheren.
 
-Voer de volgende stappen uit om Pro-licenties toe te wijzen aan afzonderlijke gebruikersaccounts als u een Office 365-beheerder bent:
-
-1. Ga naar het Office 365-beheercentrum.
-
-2. Vouw Gebruikers uit in het linkernavigatiedeelvenster en klik vervolgens op Actieve gebruikers.
-
-    ![image](media/service-assigning-power-bi-pro-licenses/service-assigning-power-bi-pro-licenses-05.png)
-
-3. Selecteer een of meerdere gebruikers en klik vervolgens op Productlicenties bewerken.
-
-    ![image](media/service-assigning-power-bi-pro-licenses/service-assigning-power-bi-pro-licenses-06.png)
-
-4. Zet de instelling onder Power BI Pro op Aan en klik vervolgens op Opslaan.
-
-    ![image](media/service-assigning-power-bi-pro-licenses/service-assigning-power-bi-pro-licenses-07.png)
-
-5. Controleer onder Status voor de geselecteerde accounts of de Power BI Pro-licentie is toegewezen.
-
-    ![image](media/service-assigning-power-bi-pro-licenses/service-assigning-power-bi-pro-licenses-08.png)
-
-> [!NOTE]
-> Als uw abonnement geen licenties meer bevat, kunt u er meer toevoegen door Facturering uit te vouwen in het linkernavigatiedeelvenster en vervolgens op Abonnementen te klikken. Selecteer op de pagina Abonnementen het Power BI Pro-abonnement en klik vervolgens op Licenties toevoegen/verwijderen.
->
 
 ## <a name="next-steps"></a>Volgende stappen
+
+Nu u licenties hebt toegewezen, kunt u meer te weten komen over Power BI Pro.
+
 [Power BI Pro in uw organisatie](service-admin-power-bi-pro-in-your-organization.md)
-</br>
-[De verlengde Pro-proefversie activeren](service-extended-pro-trial.md)
-</br>
-[Power BI-serviceovereenkomst voor afzonderlijke gebruikers](https://powerbi.microsoft.com/terms-of-service/)
-</br>
-[Aankondiging Power BI Premium](https://aka.ms/pbipremium-announcement)
-</br>
+
 [Power Bi-gebruikers zoeken die zich hebben aangemeld](service-admin-access-usage.md)
 
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

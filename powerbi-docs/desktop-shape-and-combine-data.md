@@ -1,33 +1,34 @@
 ---
-title: Gegevens vormgeven en combineren in Power BI Desktop
-description: Gegevens vormgeven en combineren in Power BI Desktop
-services: powerbi
-documentationcenter: ''
+title: Gegevens van meerdere gegevensbronnen vormgeven en combineren
+description: In deze zelfstudie leert u hoe gegevens in Power BI Desktop kunt vormgeven en combineren
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/30/2018
+ms.component: powerbi-desktop
+ms.topic: tutorial
+ms.date: 05/03/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 0bb2f8a8d9299d525085a8ba7d2ecabdcd9e6c78
-ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
+ms.openlocfilehash: 27479add7839e1078e76bbb6523b287f10194566
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/04/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34288746"
 ---
-# <a name="shape-and-combine-data-in-power-bi-desktop"></a>Gegevens vormgeven en combineren in Power BI Desktop
-Met **Power BI Desktop** kunt u verbinding maken met veel verschillende soorten gegevensbronnen en vervolgens de gegevens vormgeven om aan uw behoeften te voldoen. Het *vormgeven* van gegevens betekent het omzetten van de gegevens, zoals de naam wijzigen van kolommen of tabellen, het wijzigen van tekst in getallen, het verwijderen van rijen, het instellen van de eerste rij als koptekst, enzovoort. Het *combineren* van gegevens betekent verbinding maken met twee of meer gegevensbronnen, deze naar wens vormgeven en ze samenvoegen tot één handige query.
+# <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Zelfstudie: gegevens vormgeven en combineren in Power BI Desktop
 
-Dit document laat zien hoe u een query kunt vormgeven met Power BI Desktop, waarbij enkele van de meest algemene taken nader worden toegelicht. De hier gebruikte query wordt uitvoeriger beschreven, waaronder het maken van een volledig nieuwe query, in [Aan de slag met Power BI Desktop](desktop-getting-started.md).
+Met **Power BI Desktop** kunt u verbinding maken met veel verschillende typen gegevensbronnen en de gegevens vervolgens vormgeven om aan uw behoeften te voldoen, zodat u visuele rapporten kunt maken die u met anderen kunt delen. Het *vormgeven* van gegevens betekent het omzetten van de gegevens, zoals de naam wijzigen van kolommen of tabellen, het wijzigen van tekst in getallen, het verwijderen van rijen, het instellen van de eerste rij als koptekst, enzovoort. Het *combineren* van gegevens betekent verbinding maken met twee of meer gegevensbronnen, deze naar wens vormgeven en ze samenvoegen tot één handige query.
+
+In deze zelfstudie komen de volgende onderwerpen aan bod:
+
+* Gegevens vormgeven met **Query-editor**
+* Verbinding maken met een gegevensbron
+* Verbinding maken met een andere gegevensbron
+* Deze gegevensbronnen combineren en een gegevensmodel maken voor gebruik in rapporten
+
+Deze zelfstudie laat zien hoe u een query kunt vormgeven met Power BI Desktop, waarbij enkele van de meest algemene taken nader worden toegelicht. De hier gebruikte query wordt uitvoeriger beschreven, waaronder het maken van een volledig nieuwe query, in [Aan de slag met Power BI Desktop](desktop-getting-started.md).
 
 Het is handig om te weten dat de **Query-editor** in Power BI Desktop op ruime schaal gebruikmaakt van contextmenu's, samen met het lint. Het meeste van wat u kunt selecteren in het lint **Transformeren** is ook beschikbaar door met de rechtermuisknop op een item (zoals een kolom) te klikken en een keuze te maken in het menu dat verschijnt.
 

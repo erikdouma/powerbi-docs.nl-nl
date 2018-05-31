@@ -18,11 +18,12 @@ ms.workload: powerbi
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c1b0d87d432dc337a1dab5d13bba10cc8c99dd14
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 26d04c77967a8223672cbe174a3c45e6d12602ea
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813364"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Aanbevolen procedures voor het ontwerpen van rapporten en visuele elementen
 <!-- Shared newnav Include -->
@@ -734,7 +735,7 @@ Als u dit wilt doen, opent u het opmaakvenster, vouwt u **Y-as** uit en zet u **
 
 Raadpleeg voor meer informatie:
 
-* [Zelfstudie: combinatiegrafieken in Power BI](power-bi-visualization-combo-chart.md)
+* [Combinatiegrafieken in Power BI](power-bi-visualization-combo-chart.md)
 * [Het gevaar van twee assen met verschillende maten in visuele elementen](http://www.perceptualedge.com/articles/visual_business_intelligence/dual-scaled_axes.pdf)
 
 ### <a name="scatter-chart"></a>Spreidingsdiagram
@@ -808,10 +809,10 @@ Een goed alternatief is een eenvoudig visueel element dat een KPI weergeeft
 
 Met KPI's worden de waarde, de status, het doel, de afwijking van het doel en de trend weergegeven in dezelfde hoeveelheid ruimte. De groene kleur verandert in rood als het doel niet wordt behaald en geel als een tussenliggend doel wordt behaald. Het is veel eenvoudiger af te lezen en te interpreteren dan de meter.
 
-Raadpleeg voor meer informatie:
+Zie deze onderwerpen voor meer informatie:
 
-* [Zelfstudie: diagrammen met een radiale meter in Power BI](power-bi-visualization-radial-gauge-charts.md)
-* [Zelfstudie: KPI's in Power BI](power-bi-visualization-kpi.md)
+* [Radiale-meterdiagrammen in Power BI](power-bi-visualization-radial-gauge-charts.md)
+* [KPI’s in Power BI](power-bi-visualization-kpi.md)
 
 ## <a name="conclusion"></a>Conclusie
 Het moment is nu aangebroken om zelf deze aanbevolen procedures toe te passen.  Houd contact en deel uw eigen aanbevelingen met ons. Bent u het niet eens met onze aanbevelingen of hebt u een goede reden gevonden om een uitzondering te maken?  We horen het graag van u.  

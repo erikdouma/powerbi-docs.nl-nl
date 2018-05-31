@@ -1,15 +1,15 @@
 ---
-title: Deel 2, visualisaties toevoegen aan een Power BI-rapport (zelfstudie)
-description: 'Zelfstudie: Deel 2, visualisaties toevoegen aan een Power BI-rapport'
+title: 'Deel 2: Visualisaties toevoegen aan een Power BI-rapport'
+description: 'Deel 2: Visualisaties toevoegen aan een Power BI-rapport'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,13 +18,14 @@ ms.workload: powerbi
 ms.date: 01/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 567bece0089a01170e218af9606331e44cb7834f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 39f11f2740918e5ec3fc62c86c72bac4544d5ff6
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33814307"
 ---
-# <a name="part-2-add-visualizations-to-a-power-bi-report-tutorial"></a>Deel 2, visualisaties toevoegen aan een Power BI-rapport (zelfstudie)
+# <a name="part-2-add-visualizations-to-a-power-bi-report"></a>Deel 2: Visualisaties toevoegen aan een Power BI-rapport
 In [Deel 1](power-bi-report-add-visualizations-ii.md) hebt u een eenvoudige visualisatie gemaakt door selectievakjes naast de veldnamen te selecteren.  In deel 2 leert u hoe u slepen-en-neerzetten kunt gebruiken, en hoe u gebruik kunt maken van de volledige functionaliteit van de deelvensters **Velden** en **Visualisaties** om visualisaties te maken en te wijzigen.
 
 ### <a name="prerequisites"></a>Vereisten
@@ -71,5 +72,5 @@ In deze zelfstudie verdiepen we ons in de gegevensset voor retailanalyse en make
 * Ga naar [The report editor... take a tour](service-the-report-editor-take-a-tour.md) (De rapporteditor... een rondleiding) voor meer informatie over het deelvenster Velden.   
 * Zie [Filters and highlighting in Power BI reports](power-bi-reports-filters-and-highlighting.md) (Filters en markeren in Power BI-rapporten) voor meer informatie over het filteren en markeren van visualisaties.  
 * Meer informatie over [Visualisaties in Power BI-rapporten](power-bi-report-visualizations.md).  
-* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

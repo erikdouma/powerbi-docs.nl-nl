@@ -1,6 +1,6 @@
 ---
-title: 'Zelfstudie: Verkoopgegevens uit Excel en een OData-feed analyseren in Power BI Desktop'
-description: 'Zelfstudie: Verkoopgegevens uit Excel en een OData-feed analyseren'
+title: 'Zelfstudie: gegevens uit Excel en een OData-feed combineren in Power BI Desktop'
+description: 'Zelfstudie: gegevens uit Excel en een OData-feed combineren'
 services: powerbi
 documentationcenter: ''
 author: davidiseminger
@@ -15,220 +15,254 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
-ms.author: davidi
+ms.date: 05/02/2018
+ms.author: v-thepet
 LocalizationGroup: Learn more
-ms.openlocfilehash: aad93a6c636fb0d75ad89f9e3d9eb70ec203cc88
-ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
+ms.openlocfilehash: 00c4915df0e18504ec6f5d26540d9289c2f5ddb2
+ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/04/2018
+ms.lasthandoff: 05/10/2018
+ms.locfileid: "33945981"
 ---
-# <a name="tutorial-analyzing-sales-data-from-excel-and-an-odata-feed"></a>Zelfstudie: Verkoopgegevens uit Excel en een OData-feed analyseren
-Met **Power BI Desktop** kunt u allerlei verschillende gegevensbronnen met elkaar verbinden en ze vervolgens combineren en indelen, zodat u gemakkelijk interessante en boeiende gegevensanalyse en -visualisaties kunt maken. In deze zelfstudie leert u hoe u gegevens van twee gegevensbronnen kunt combineren. 
+# <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>Zelfstudie: verkoopgegevens uit Excel en een OData-feed combineren
 
-Het is gebruikelijk dat gegevens over meerdere gegevensbronnen zijn verdeeld, zoals productgegevens in de ene database en verkoopgegevens in de andere. U leert in dit document technieken die onder andere een Excel-werkmap en een OData-feed omvatten, maar deze technieken kunnen ook worden toegepast op andere gegevensbronnen, zoals SQL Server-query's, CSV-bestanden of een gegevensbron in Power BI Desktop.
+Het komt vaak voor dat gegevens over meerdere gegevensbronnen zijn verdeeld, bijvoorbeeld de productgegevens in de ene database en de verkoopgegevens in de andere. Met **Power BI Desktop** kunt u gegevens uit verschillende bronnen combineren om interessante en aantrekkelijke gegevensanalyses en -visualisaties te maken. 
 
-In deze zelfstudie importeert u gegevens uit Excel (dit omvat productinformatie) en uit een OData-feed (met daarin gegevens over bestellingen). U voert stappen voor transformatie en aggregatie uit, en combineert gegevens van beide bronnen om een rapport voor **Totale verkoop per product en jaar** te maken dat interactieve visualisaties bevat. 
-
-Zo ziet het uiteindelijk rapport eruit:
-
-![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/18.png)
-
-U hebt voor de stappen in deze zelfstudie de werkmap Products nodig, die u kunt downloaden: **[ klik hier om Products.xlsx](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)** te downloaden.
-
-In het dialoogvenster **Opslaan als** noemt u het bestand **Products.xlsx**.
-
-## <a name="task-1-get-product-data-from-an-excel-workbook"></a>Taak 1: productgegevens uit een Excel-werkmap ophalen
-In deze taak importeert u producten uit het bestand Products.xlsx in Power BI Desktop.
-
-### <a name="step-1-connect-to-an-excel-workbook"></a>Stap 1: verbinding maken met een Excel-werkmap
-1. Start Power BI Desktop.
-2. Selecteer in het lint Start **Gegevens ophalen**. Excel is een van de **meest voorkomende** gegevensverbindingen, en u kunt deze rechtstreeks vanuit het menu **Gegevens ophalen** selecteren.
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_1.png)
-3. Als u direct de knop Gegevens ophalen selecteert, kunt u ook **Bestand \> Excel** selecteren en voor **Verbinden** kiezen.
-4. In het dialoogvenster **Bestand openen** selecteert u het bestand **Products.xlsx**.
-5. In het deelvenster **Navigator** selecteert u de tabel **Products** en selecteert u vervolgens **Bewerken**.
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_2.png)
-
-### <a name="step-2-remove-other-columns-to-only-display-columns-of-interest"></a>Stap 2: andere kolommen verwijderen, zodat alleen kolommen die van belang zijn worden weergegeven
-In deze stap verwijdert u alle kolommen behalve **ProductID**, **ProductName**, **UnitsInStock** en **QuantityPerUnit**. In Power BI Desktop zijn er vaak een aantal manieren om dezelfde taak uit te voeren. Veel knoppen op het lint zijn bijvoorbeeld ook toegankelijk via het snelmenu wanneer u met de rechtermuisknop op een kolom of cel klikt.
-
-Power BI Desktop bevat Query-editor, waarin u uw gegevensverbindingen kunt indelen en transformeren. Query-editor wordt automatisch geopend wanneer u in **Navigator** **Bewerken** selecteert. U kunt Query-editor ook openen door in het lint **Start** van Power BI Desktop **Query's bewerken** te selecteren. De volgende stappen worden uitgevoerd in Query-editor.
-
-1. Selecteer in Query-editor de kolommen **ProductID**, **ProductName**, **QuantityPerUnit**, en **UnitsInStock**. Gebruik **Ctrl+klikken** om meer dan één kolom te selecteren of **Shift+klikken** om kolommen naast elkaar te selecteren).
-2. Selecteer in het lint **Kolommen verwijderen** \> **Andere kolommen verwijderen**, of klik met de rechtermuisknop op een kolomkop en klik op **Andere kolommen verwijderen**.
-
-![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/anlayzingsalesdata_removeothercolumns.png)
-
-### <a name="step-3-change-the-data-type-of-the-unitsinstock-column"></a>Stap 3: het gegevenstype van de kolom UnitsInStock wijzigen
-Wanneer Query-editor verbinding met gegevens maakt, controleert de editor elk veld om het beste gegevenstype te bepalen. Voor de Excel-werkmap is 'producten op voorraad' altijd een geheel getal, dus in deze stap bevestigt u dat het gegevenstype van de kolom **UnitsInStock** Geheel getal is.
-
-1. Selecteer de kolom **UnitsInStock**.
-2. Selecteer in het lint **Start** de vervolgkeuzeknop **Gegevenstype**.
-3. Als hier niet al een geheel getal staat, selecteert u **Geheel getal** voor het gegevenstype in de vervolgkeuzelijst (de knop **Gegevenstype:** geeft ook het gegevenstype voor de huidige selectie weer).
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/anlayzingsalesdata_wholenumber.png)      
-
-### <a name="power-bi-desktop-steps-created"></a>Gemaakte stappen in Power BI Desktop
-Als u queryhandelingen uitvoert in Query-editor, worden er querystappen gemaakt en vermeld in het deelvenster **Queryinstellingen** in de lijst **Toegepaste stappen**. Elke querystap heeft een bijbehorende formule, die ook wel bekendstaat als de M-taal. Zie [Learn about Power BI formulas](https://support.office.com/Article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f) (Meer informatie over Power BI-formules) voor meer informatie over de M-formuletaal.
-
-| Taak | Querystap | Formule |
-| --- | --- | --- |
-| Verbinding maken met een Excel-werkmap |Bron |Source{[Name="Products"]}[Data] |
-| Van de eerste rij tabelkolomkoppen maken |FirstRowAsHeader |[Table.PromoteHeaders](https://support.office.com/Article/TablePromoteHeaders-b8eaeb95-042a-42e1-9164-6d3c646acadc "Table.PromoteHeaders") <br /> (Products) |
-| Andere kolommen verwijderen, zodat alleen kolommen die van belang zijn worden weergegeven |RemovedOtherColumns |[Table.SelectColumns](https://support.office.com/Article/TableSelectColumns-20bb9e28-9fd3-4cd2-a21b-97972c82ec22 "Table.SelectColumns")  <br />(FirstRowAsHeader,{"ProductID", "ProductName", "QuantityPerUnit", "UnitsInStock"}) |
-| Gegevenstype wijzigen |Changed Type |Table.TransformColumnTypes(\#"Removed Other Columns",{{"UnitsInStock", Int64.Type}}) |
-
-## <a name="task-2-import-order-data-from-an-odata-feed"></a>Taak 2: bestelgegevens importeren uit een OData-feed
-In deze taak gaat u bestelgegevens importeren. Deze stap is representatief voor het verbinding maken met een verkoopsysteem. U importeert gegevens in Power BI Desktop vanuit de voorbeeld-OData-feed Northwind via de volgende URL, die u kunt kopiëren (en plakken) in de onderstaande stappen: <http://services.odata.org/V3/Northwind/Northwind.svc/> 
-
-### <a name="step-1-connect-to-an-odata-feed"></a>Stap 1: verbinding maken met een OData-feed
-1. Vanuit het tabblad **Start** in Query-editor selecteert u **Gegevens ophalen**.
-2. Blader naar de gegevensbron van de **OData-feed**.
-3. In het dialoogvenster **OData-feed** plakt u de **URL** voor de OData-feed Northwind.
-4. Selecteer **OK**.
-5. In het deelvenster **Navigator** selecteert u de tabel **Orders** en selecteert u vervolgens **Bewerken**.
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/anlayzingsalesdata_odatafeed.png)
+In deze zelfstudie leert u hoe gegevens uit twee gegevensbronnen kunt combineren: een Excel-werkmap met de productgegevens en een OData-feed met de ordergegevens. Nadat u alle gegevenssets hebt geïmporteerd en de transformatie- en aggregatiestappen hebt uitgevoerd, gebruikt u de gegevens uit beide bronnen om een verkoopanalyserapport met interactieve visualisaties te genereren. Deze technieken kunnen ook worden toegepast op de SQL Server-query's, CSV-bestanden en andere gegevensbronnen in Power BI Desktop.
 
 >[!NOTE]
->U kunt op een tabelnaam klikken zonder het selectievakje te selecteren om een voorbeeld te bekijken.
+>In Power BI Desktop zijn er vaak een aantal manieren om een taak uit te voeren. Veel lintselecties zijn bijvoorbeeld ook beschikbaar door met de rechtermuisknop te klikken, of via het menu **Meer opties** in een kolom of cel. In de onderstaande stappen worden verschillende alternatieve methoden beschreven. 
 
-### <a name="step-2-expand-the-orderdetails-table"></a>Step 2: de tabel Order\_Details uitbreiden
-De tabel **Orders** bevat een verwijzing naar een tabel **Details**, die de afzonderlijke producten in elke bestelling bevat. Wanneer u verbinding maakt met gegevensbronnen met meerdere tabellen (zoals een relationele database) kunt u deze verwijzingen gebruiken om uw query te maken. 
+## <a name="import-the-product-data-from-excel"></a>De productgegevens importeren uit Excel
 
-In deze stap breidt u de tabel **Order\_Details** uit die is gerelateerd aan de tabel **Orders** om de kolommen **ProductID**, **UnitPrice** en **Quantity** uit **Order\_Details** te combineren in de tabel **Orders**. Dit is een weergave van de gegevens in deze tabellen:
+Importeert eerst de productgegevens uit de Excel-werkmap Products.xlsx in Power BI Desktop.
 
-![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/orderdetails.png)
+1. [Download de Excel-werkmap Products.xlsx](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx) en sla de werkmap op als **Products.xlsx**.
+   
+2. Selecteer de pijl naast **Gegevens ophalen** op het tabblad **Start** op het Power BI Desktop-lint. Selecteer **Excel** in de vervolgkeuzelijst **Meest voorkomend**. 
+   
+   ![Gegevens ophalen](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_1.png)
+   
+   >[!NOTE]
+   >U kunt ook het item **Gegevens ophalen** zelf selecteren of **Gegevens ophalen** in het dialoogvenster **Aan de slag** in Power BI selecteren en vervolgens **Excel** of **Bestand** > **Excel** selecteren in het dialoogvenster **Gegevens ophalen**. Selecteer vervolgens **Verbinding maken**.
+   
+3. Navigeer in het dialoogvenster **Openen** naar het bestand **Products.xlsx**, selecteer het bestand en kies **Openen**.
+   
+4. In het deelvenster **Navigator** selecteert u de tabel **Products** en selecteert u vervolgens **Bewerken**.
+   
+   ![Navigator-deelvenster voor Excel](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_2.png)
+   
+In **Power Query-editor** wordt een voorbeeld van de tabel geopend, waarin u transformaties kunt toepassen om de gegevens op te schonen. 
+   
+![Power Query-editor](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_3.png)
+   
+>[!NOTE]
+>U kunt **Power Query-editor** ook openen door **Query's bewerken** > **Query's bewerken** te selecteren in **Start** op het lint in Power BI Desktop, of door met de rechtermuisknop te klikken op **Meer opties** of deze optie te kiezen naast een query in de **rapportweergave**. Selecteer vervolgens **Query bewerken**.
 
-Met de bewerking **Uitbreiden** combineert u kolommen uit een verwante tabel in een onderwerptabel. Wanneer de query wordt uitgevoerd, worden rijen uit de gerelateerde tabel (**Order\_Details**) gecombineerd in rijen van de onderwerptabel (**Orders**).
+## <a name="clean-up-the-products-columns"></a>De productkolommen opschonen
 
-Nadat u de tabel **Order\_Details** hebt uitgebreid, worden er drie nieuwe kolommen en extra rijen toegevoegd aan de tabel **Orders**, één voor elke rij in de geneste of gerelateerde tabel.
+In het gecombineerde rapport worden alleen de kolommen **ProductID**, **ProductName**, **QuantityPerUnit** en **UnitsInStock** uit de Excel-werkmap gebruikt. De overige kolommen kunnen dus worden verwijderd. 
 
-1. Scrol in de **Queryweergave** naar de kolom **Order\_Details**.
-2. Selecteer in de kolom **Order\_Details** het uitbreidpictogram (![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/expand.png)).
-3. In de vervolgkeuzelijst **Uitbreiden**:
+1. Selecteer in **Power Query-editor** de kolommen **ProductID**, **ProductName**, **QuantityPerUnit** en **UnitsInStock** (gebruik **Ctrl**+**klikken** om meer dan één kolom te selecteren of **Shift**+**klikken** om kolommen naast elkaar te selecteren).
+   
+2. Klik met de rechtermuisknop op een van de geselecteerde koppen en selecteer **Overige kolommen verwijderen** in de vervolgkeuzelijst om alle kolommen met uitzondering van de geselecteerde kolommen uit de tabel te verwijderen. 
+   U kunt ook **Kolommen verwijderen** > **Overige kolommen verwijderen** selecteren in de groep **Kolommen beheren** op het tabblad **Start** op het lint. 
+   
+   ![Overige kolommen verwijderen](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/analyzingsalesdata_removeothercolumns.png)
+
+## <a name="import-the-order-data-from-an-odata-feed"></a>De ordergegevens importeren uit een OData-feed
+
+Vervolgens importeert u de ordergegevens uit de OData-feed van het Northwind-voorbeeldverkoopsysteem. 
+
+1. Selecteer **Nieuwe bron** in **Power Query-editor** en selecteer **OData-feed** in de vervolgkeuzelijst **Meest voorkomend**. 
+   
+   ![OData ophalen](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata.png)
+   
+2. Plak de URL voor de OData-feed Northwind in het dialoogvenster **OData-feed**, `http://services.odata.org/V3/Northwind/Northwind.svc/`, en selecteer **OK**.
+   
+   ![Dialoogvenster OData-feed](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata2.png)
+   
+3. Selecteer in het **Navigator**-deelvenster de tabel **Orders** en selecteer **OK** om de gegevens in **Power Query-editor** te laden.
+   
+   ![Navigator-deelvenster voor OData](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/analyzingsalesdata_odatafeed.png)
+   
+   >[!NOTE]
+   >In **Navigator** kunt u een tabelnaam selecteren (zonder het selectievakje te selecteren) om een voorbeeld te bekijken.
+
+## <a name="expand-the-order-data"></a>De ordergegevens uitvouwen
+
+Als u verbinding maakt met gegevensbronnen die meerdere tabellen bevatten, zoals relationele databases of de OData-feed Northwind, kunt u verwijzingen tussen de tabellen gebruiken om uw query's op te bouwen. De tabel **Orders** bevat verwijzingen naar verschillende verwante tabellen. U kunt de kolommen **ProductID**, **UnitPrice** en **Quantity** uit de verwante tabel **Order_Details** toevoegen aan de onderwerptabel (**Orders**). Hiervoor gebruikt u de bewerking **Uitvouwen**. 
+
+1. Schuif naar rechts in de tabel **Orders** totdat u de kolom **Order_Details** ziet. In de tabel worden geen gegevens, maar verwijzingen naar de andere tabel weergegeven.
+   
+   ![Kolom Order_Details](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/7.png)
+   
+2. Selecteer het pictogram **Uitvouwen** (![Pictogram Uitvouwen](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/expand.png)) in de kolomkop **Order_Details**. 
+   
+3. In de vervolgkeuzelijst **Uitvouwen**:
+   
    1. Selecteer **(Alle kolommen selecteren)** om alle kolommen te wissen.
-   2. Selecteer **ProductID**, **UnitPrice** en **Quantity**.
-   3. Klik op **OK**.
-      ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/7.png)
+      
+   2. Selecteer **ProductID**, **UnitPrice** en **Quantity**, en selecteer vervolgens **OK**.
+      
+      ![Dialoogvenster Uitvouwen](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/8.png)
 
-### <a name="step-3-remove-other-columns-to-only-display-columns-of-interest"></a>Stap 3: andere kolommen verwijderen, zodat alleen kolommen die van belang zijn worden weergegeven
-In deze stap verwijdert u alle kolommen behalve **OrderDate, ShipCity**, **ShipCountry**, **Order\_Details.ProductID**, **Order\_ Details.UnitPrice** en **Order\_Details.Quantity**. U hebt in de vorige taak **Andere kolommen verwijderen** gebruikt. Bij deze taak verwijdert u de geselecteerde kolommen.
+Nadat u de tabel **Order_Details** hebt uitgevouwen, wordt de kolom **Order_Details** vervangen door de drie nieuwe kolommen uit de geneste tabel. Daarnaast zijn er in de tabel nieuwe rijen voor de toegevoegde gegevens uit elke order. 
 
-1. Selecteer in de **Queryweergave** alle kolommen door a. en b. te voltooien:
-   1. Klik op de eerste kolom (**OrderID**).
-   2. Shift+klik op de laatste kolom (**Shipper**).
-   3. Nu dat alle kolommen zijn geselecteerd, gebruikt u Ctrl+klikken om de selectie van de volgende kolommen op te heffen: **OrderDate**, **ShipCity**, **ShipCountry**, **Order\_Details.ProductID**, **Order\_Details.UnitPrice** en **Order\_Details.Quantity**.
-2. Nu alleen de kolommen die we willen verwijderen zijn geselecteerd, klikt u met de rechtermuisknop op een geselecteerde kolomkop en klikt u vervolgens op **Kolommen verwijderen**.
+![Uitgevouwen kolommen](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/9.png)
 
-### <a name="step-4-calculate-the-line-total-for-each-orderdetails-row"></a>Stap 4: het regeltotaal voor elke Order\_Details-rij berekenen
-Met Power BI Desktop kunt u berekeningen maken op basis van de kolommen die u importeert, zodat u de gegevens waarmee u verbinding maakt, kunt aanvullen. In deze stap maakt u een **Aangepaste kolom** om het regeltotaal van elke **Order\_Details**-rij te berekenen.
+## <a name="create-a-custom-calculated-column"></a>Een aangepaste berekende kolom maken
 
-Het regeltotaal voor elke **Order\_Details**-rij berekenen:
+In Power Query-editor kunt u aangepaste berekeningen en aangepaste velden maken om uw gegevens te verrijken. U maakt een aangepaste kolom waarmee de totaalprijs voor elk regelartikel in een order wordt berekend door de prijs per eenheid te vermenigvuldigen met de artikelhoeveelheid.
 
-1. Klik in het linttabblad **Kolom toevoegen** op **Toevoegen** **Aangepaste kolom**.
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_4.png)
-2. Voer in het dialoogvenster **Aangepaste kolom toevoegen** in het tekstvak **Aangepaste kolomformule** het volgende in: **[Order\_Details.UnitPrice]** \* **[Order\_Details.Quantity]**
-3. Voer in het tekstvak **Nieuwe kolomnaam** **LineTotal** in.
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/8.png)
-4. Klik op **OK**.
-
-### <a name="step-5-set-the-datatype-of-the-linetotal-field"></a>Stap 5: het gegevenstype van het veld LineTotal instellen
-1. Klik met de rechtermuisknop op de kolom **LineTotal**.
-2. Selecteer **Type wijzigen** en kies **Decimaal getal**.
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/9.png)
-
-### <a name="step-6-rename-and-reorder-columns-in-the-query"></a>Stap 6: de naam en de volgorde van kolommen in de query wijzigen
-In deze stap zorgt u ervoor dat het model eenvoudig te gebruiken is bij het maken van rapporten door de naam van de uiteindelijke kolommen en de volgorde te wijzigen.
-
-1. Sleep in **Query-editor** de kolom **LineTotal** naar links, achter **ShipCountry**.
+1. Selecteer **Aangepaste kolom** op het tabblad **Kolom toevoegen** op het lint van Power Query-editor.
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/10.png)
-2. Verwijder het voorvoegsel *Order\_Details.* uit de kolommen **Order\_Details.ProductID**, **Order\_Details.UnitPrice** en **Order\_Details.Quantity** door te dubbelklikken op elke kolomkop en vervolgens de tekst uit de kolomnaam te verwijderen.
-
-### <a name="power-bi-desktop-steps-created"></a>Gemaakte stappen in Power BI Desktop
-Als u queryhandelingen uitvoert in Query-editor, worden er querystappen gemaakt en vermeld in het deelvenster **Queryinstellingen** in de lijst **Toegepaste stappen**. Elke querystap heeft een bijbehorende Power Query-formule, die ook wel bekendstaat als de M-taal. Zie [Learn about Power BI formulas](https://support.office.com/Article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f "Learn about Power Query formulas") (Meer informatie over Power BI-formules) voor meer informatie over deze formuletaal.
-
-| Taak | Querystap | Formule |
-| --- | --- | --- |
-| Verbinding maken met een OData-feed |Bron |Source{[Name="Orders"]}[Data] |
-| De tabel Order\_Details uitbreiden |Order\_Details uitbreiden |[Table.ExpandTableColumn](https://support.office.com/Article/TableExpandTableColumn-54903f25-75a2-4a44-a9a3-52a9d895ee98 "Table.ExpandTableColumn") <br /> (Orders, "Order\_Details", {"ProductID", "UnitPrice", "Quantity"}, {"Order\_Details.ProductID", "Order\_Details.UnitPrice", "Order\_Details.Quantity"}) |
-| Andere kolommen verwijderen, zodat alleen kolommen die van belang zijn worden weergegeven |RemovedColumns |[Table.RemoveColumns](https://support.office.com/Article/TableRemoveColumns-6265190e-2f58-4300-85b8-df88fc1a67d3 "Table.RemoveColumns") <br />(\#"Expand Order\_Details",{"OrderID", "CustomerID", "EmployeeID", "RequiredDate", "ShippedDate", "ShipVia", "Freight", "ShipName", "ShipAddress", "ShipCity", "ShipRegion", "ShipPostalCode", "ShipCountry", "Customer", "Employee", "Shipper"}) |
-| Het regeltotaal voor elke Order\_Details-rij berekenen |InsertedColumn |[Table.AddColumn](https://support.office.com/Article/TableAddColumn-6c64d0a5-9654-4d15-bfb6-9cc380aaf3c0 "Table.AddColumn") <br /> (RemovedColumns, "Custom", each [Order\_Details.UnitPrice] \* [Order\_Details.Quantity]) |
-
-## <a name="task-3-combine-the-products-and-total-sales-queries"></a>Taak 3: de query's Producten en Totale verkoop combineren
-In Power BI Desktop hoeft u niet query's te combineren om erover te rapporteren. In plaats daarvan kunt u **relaties** tussen gegevenssets maken. Deze relaties kunnen worden gemaakt op basis van elke kolom die veel voorkomt in uw gegevenssets. Zie [Relaties maken en beheren](desktop-create-and-manage-relationships.md) voor meer informatie.
-
-In deze zelfstudie delen de gegevens voor Orders en Products een gemeenschappelijk ProductID-veld, dus er moet een relatie tussen deze gegevens bestaan in het model dat we met Power BI Desktop gebruiken. Geef in Power BI Desktop op dat de kolommen uit elke tabel gerelateerd zijn (dat wil zeggen kolommen die dezelfde waarden hebben). Power BI Desktop bepaalt de richting en kardinaliteit van de relatie. In sommige gevallen kan het programma zelfs de relaties automatisch detecteren.
-
-In deze taak controleert u of er in Power BI Desktop een relatie tot stand is gebracht tussen de query's **Producten** en **Totale verkoop**.
-
-### <a name="step-1-confirm-the-relationship-between-products-and-total-sales"></a>Stap 1: de relatie tussen Producten en Totale verkoop controleren
-1. Eerst moet het model dat in Query-editor is gemaakt in Power BI Desktop worden geladen. Vanuit het lint **Start** in Query-editor selecteert u **Sluiten en laden**.
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_4.png)
-2. Power BI Desktop laadt de gegevens van de twee query's.
+2. Typ **LineTotal** in het veld **Nieuwe kolomnaam** van het dialoogvenster **Aangepaste kolom**.
+
+3. Voer **[Order_Details.UnitPrice]** \* **[Order_Details.Quantity]** in het veld **Aangepaste kolomformule** in, achter het teken **=**. (U kunt ook de veldnamen selecteren in het schuifblok **Beschikbare kolommen** en **<< Invoegen** selecteren in plaats van de namen te typen.) 
+3. Selecteer **OK**.
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/11.png)      
-3. Zodra de gegevens zijn geladen, selecteert u de knop **Relaties beheren** in het lint **Start**.
+   ![Dialoogvenster Aangepaste kolom](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/11.png)
+
+Het nieuwe veld **LineTotal** wordt als laatste kolom in de tabel **Orders** weergegeven.
+
+## <a name="set-the-data-type-for-the-new-field"></a>Het gegevenstype voor het nieuwe veld instellen
+
+Tijdens het maken van verbinding met gegevens in Power Query-editor wordt automatisch bepaald wat het beste gegevenstype voor elk veld is, waarna de gegevens dienovereenkomstig worden weergegeven. De pictogrammen in de koppen geven aan welke gegevenstypen aan de velden zijn toegewezen. De gegevenstypen kunt u ook bekijken onder **Gegevenstype** in de groep **Transformeren** van het tabblad **Start** op het lint. 
+
+De gegevenstype van de nieuwe kolom **LineTotal** is **Willekeurig**, maar de waarden zijn valuta's. Als u een gegevenstype wilt toewijzen, klikt u met de rechtermuisknop op de kolomkop **LineTotal**, selecteert u **Gegevenstype wijzigen** in de vervolgkeuzelijst en selecteert u vervolgens **Vast decimaal getal**. 
+
+![Gegevenstype wijzigen](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/12.png)
+
+>[!NOTE]
+>U kunt ook de kolom **LineTotal** selecteren, de pijl naast **Gegevenstype** in het gebied **Transformeren** van het tabblad **Start** op het lint selecteren en vervolgens **Vast decimaal getal** selecteren.
+
+## <a name="clean-up-the-orders-columns"></a>De orderkolommen opschonen
+
+U kunt in rapporten gemakkelijker met uw model werken door bepaalde kolommen te verwijderen, te rangschikken en de namen van de kolommen te wijzigen.
+
+In uw rapport worden alleen de kolommen **OrderDate**, **ShipCity**, **ShipCountry**, **Order_Details.ProductID**, **Order_Details.UnitPrice** en **Order_Details.Quantity** gebruikt. U kunt deze kolommen selecteren en **Overige kolommen verwijderen** gebruiken (zoals u ook hebt gedaan met de Excel-gegevens), of u kunt alle kolommen behalve de weergegeven kolommen selecteren, met de rechtermuisknop op een van de geselecteerde kolommen klikken en **Kolommen verwijderen** selecteren om alle kolommen te verwijderen. 
+
+U kunt ervoor zorgen dat de kolommen **Order_Details.ProductID**, **Order_Details.UnitPrice** en **Order_Details.Quantity** makkelijker te vinden zijn door de voorvoegsels *Order_Details.* uit de kolomnamen te verwijderen. Ga als volgt te werk om de namen van de kolommen te wijzigen in respectievelijk **ProductID**, **UnitPrice** en **Quantity**:
+
+1. Dubbelklik of tik op elke kolomkop en houd deze ingedrukt, of klik met de rechtermuisknop op de kolomkop en selecteer **Naam wijzigen** in de vervolgkeuzelijst. 
+2. Verwijder het voorvoegsel *Order_Details.* uit elke naam en druk vervolgens op **Enter**.
+
+Als u de kolom **LineTotal** toegankelijker wilt maken, sleept u de kolom naar links en zet u deze rechts van de kolom **ShipCountry** neer.
+
+![Opgeschoonde tabel](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/14.png)
+
+## <a name="review-the-query-steps"></a>De querystappen bekijken
+
+Tijdens het vormgeven en transformeren van gegevens in Power Query-editor wordt elke stap vastgelegd in het gebied **Toegepaste stappen** van het deelvenster **Queryinstellingen** aan de rechterkant van het venster van Power Query-editor. U kunt stap voor stap terug door de toegepaste stappen lopen om te zien welke wijzigingen u hebt aangebracht en deze indien nodig bewerken, verwijderen of opnieuw rangschikken (hoewel dit riskant kan zijn, omdat het wijzigen van de voorgaande stappen later fouten kan veroorzaken in stappen). 
+
+Selecteer uw query's in de lijst **Query's** aan de linkerkant van Power Query-editor en bekijk de **toegepast stappen** in **Query-instellingen**. Nadat de vorige gegevenstransformaties zijn toegepast, moeten de toegepaste stappen voor uw twee query's er als volgt uitzien:
+
+![Toegepaste stappen voor query voor producten](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/15.png) &nbsp;&nbsp; ![Toegepaste stappen voor query voor orders](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/17.png)
+
+>[!TIP]
+>Onder de Toegepaste stappen liggen formules die geschreven zijn in de **Power Query-taal**, ook wel bekend als de **M**-taal. Als u de formules wilt bekijken en bewerken, selecteert u **Geavanceerde editor** in de groep **Query** van het tabblad Start van het lint. 
+
+## <a name="import-the-transformed-queries"></a>De getransformeerde query's importeren
+
+Wanneer u tevreden bent met de gegevens, selecteert u **Sluiten en toepassen** > **Sluiten en toepassen** in de groep **Sluiten** van het tabblad **Start** op het lint om de gegevens te importeren in de rapportweergave in Power BI Desktop. 
+
+![Sluiten en toepassen](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_4.png)
+
+Wanneer de gegevens zijn geladen, worden de query's weergegeven in de lijst **Velden** in de rapportweergave in Power BI Desktop.
+
+![Query's in lijst Velden](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/18.png)
+
+## <a name="manage-the-relationship-between-the-datasets"></a>De relatie tussen de gegevenssets beheren
+
+In Power BI Desktop hoeft u niet query's te combineren om erover te rapporteren. U kunt echter de relaties tussen gegevenssets gebruiken (op basis van velden die ze gemeen hebben) om uw rapporten uit te breiden en te verrijken. In Power BI Desktop kunnen relaties automatisch worden gedetecteerd, maar u kunt ze ook maken in het dialoogvenster **Relaties beheren**. Zie [Relaties maken en beheren in Power BI Desktop](desktop-create-and-manage-relationships.md) voor meer informatie over relaties in Power BI Desktop.
+
+De gegevenssets voor orders en producten in deze zelfstudie delen een gemeenschappelijk veld, *ProductID*, dus op basis van deze kolom is er een relatie tussen deze gegevenssets. 
+
+1. Selecteer in de rapportweergave in Power BI Desktop de optie **Relaties beheren** in het gebied **Relaties** op het tabblad **Start** van het lint.
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_5.png)
-4. Selecteer de **Nieuw...**- knop
+   ![Relaties beheren op het lint](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_5.png)
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_6.png)
-5. Als u nu probeert een relatie te maken, ziet u dat er al een bestaat. Zoals wordt weergegeven in het dialoogvenster **Relatie maken** (door de gearceerde kolommen), hebben de **ProductsID**-velden in elke query al een bestaande relatie.
+2. In het dialoogvenster **Relaties beheren** ziet u dat in Power BI Desktop al een actieve relatie tussen de tabellen met producten en orders is gedetecteerd die wordt weergegeven. Selecteer **Bewerken** om de relatie weer te geven. 
    
-    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/12.png)
-6. Selecteer **Annuleren** en selecteer vervolgens de weergave **Relatie** in Power BI Desktop.
+   ![Dialoogvenster Relaties beheren](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_6.png)
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_7.png)
-7. U ziet het volgende: een visualisatie van de relatie tussen de query's.
+   Het dialoogvenster **Relatie bewerken** wordt geopend, met de details over de relatie.  
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_8.png)
-8. Wanneer u dubbelklikt op de pijl in de regel die de twee query's verbindt, wordt het dialoogvenster **Relatie bewerken** weergegeven.
+   ![Dialoogvenster Relatie bewerken](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_7.png)
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_9.png)
-9. U hoeft niets te wijzigen, dus u kunt gewoon **Annuleren** selecteren om het dialoogvenster **Relatie bewerken** te sluiten.
+3. De relatie is op de juiste manier automatisch gedetecteerd in Power BI Desktop. U kunt dus **Annuleren** en vervolgens **Sluiten** selecteren om de dialoogvensters voor de relatie af te sluiten.
 
-## <a name="task-4-build-visuals-using-your-data"></a>Taak 4: visuals maken met behulp van uw gegevens
-Met Power BI Desktop kunt u een aantal visualisaties maken om inzicht in uw gegevens te krijgen. U kunt rapporten met meerdere pagina's maken en elke pagina kan meerdere visuals hebben. U kunt acties uitvoeren op uw visualisaties om uw gegevens te analyseren en er meer inzicht in te krijgen. Zie [Een rapport bewerken](service-interact-with-a-report-in-editing-view.md) voor meer informatie over het bewerken van rapporten.
+U kunt ook de relaties tussen uw query's weergeven en beheren door de weergave **Relatie** aan de linkerkant van het Power BI Desktop-venster te selecteren. Dubbelklik op de pijl op de lijn die de twee query's verbindt om het dialoogvenster **Relatie bewerken** te openen en de relatie weer te geven of te wijzigen. 
 
-In deze taak maakt u een rapport op basis van de gegevens die eerder zijn geladen. U gebruikt het deelvenster Velden om de kolommen te selecteren waarvan u de visualisaties maakt.
+![Relatieweergave](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_8.png)
 
-### <a name="step-1-create-charts-showing-units-in-stock-by-product-and-total-sales-by-year"></a>Stap 1: grafieken maken die aantal in voorraad weergeven per product en totale verkoop per jaar
-Sleep **UnitsInStock** van het deelvenster Velden (aan de rechterkant van het scherm) naar een lege ruimte op het canvas. Er wordt een tabelvisualisatie gemaakt. Sleep vervolgens ProductName naar het vak As, in de onderste helft van het deelvenster Visualisaties. Vervolgens selecteert u **Sorteren op \> UnitsInStock** met behulp van de opties in de rechterbovenhoek van de visualisatie.
+Als u vanuit de relatieweergave terug wilt gaan naar de rapportweergave, selecteert u het pictogram **Rapportweergave**. 
 
-![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/14.png)
+![Het pictogram Rapportweergave](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_9.png)
 
-Sleep **OrderDate** naar het canvas onder de eerste grafiek en sleep vervolgens LineTotal (ook vanuit het deelvenster Velden) naar de visual. Selecteer Lijndiagram. De volgende visualisatie wordt gemaakt.
+## <a name="create-visualizations-using-your-data"></a>Visualisaties maken met behulp van uw gegevens
 
-![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/15.png)
+In de rapportweergave van Power BI Desktop kunt u een aantal visualisaties maken om inzicht in uw gegevens te krijgen. U kunt rapporten met meerdere pagina's maken en elke pagina kan meerdere visuals bevatten. U en andere gebruikers kunnen interactief werken met uw visualisaties om uw gegevens te analyseren en er meer inzicht in te krijgen. Zie het Engelstalige artikel [Edit a Report](service-interact-with-a-report-in-editing-view.md) (Een rapport bewerken) voor meer informatie over het weergeven en bewerken van rapport in de Power BI-service (uw site).
 
- Sleep nu **ShipCountry** naar een ruimte op het canvas in de rechterbovenhoek. Omdat u een geografisch veld hebt geselecteerd, wordt er automatisch een kaart gemaakt. Sleep nu **LineTotal** naar het veld **Waarden**. De cirkels op de kaart voor elk land hebben nu een grootte in verhouding met **LineTotal** voor bestellingen die naar dat land zijn verzonden.
+Voor het visualiseren en analyseren van uw verkoopgegevens kunt u beide gegevenssets (en de relatie tussen deze sets) gebruiken. 
 
-![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/17.png)
+Maak eerst een gestapeld kolomdiagram waarin gebruik wordt gemaakt van velden uit beide query's om de hoeveelheid van elk besteld product weer te geven. 
 
-### <a name="step-2-interact-with-your-report-visuals-to-analyze-further"></a>Stap 2: acties uitvoeren op de visuals in uw rapport voor verdere analyse
-Met Power BI Desktop kunt u acties uitvoeren op uw visuals, zoals kruislings markeren en filteren, om verdere trends te ontdekken. Zie [Filtering and Highlighting in Reports](power-bi-reports-filters-and-highlighting.md) (Filteren en markeren in rapporten) voor meer informatie
-
-1. Klik op de lichtblauwe cirkel in het midden van **Canad***a**. De andere visuals worden gefilterd, zodat alleen de voorraad (**ShipCountry**) en het totaalaantal bestellingen (**LineTotal**) voor Canada worden weergegeven.
+1. Selecteer het veld **Quantity** in **Orders** in het deelvenster **Velden** aan de rechterkant of sleep het veld naar een lege plek op het canvas. Hiermee wordt een gestapeld kolomdiagram gemaakt met de totale hoeveelheid bestelde producten. 
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/18.png)
+2. Selecteer **ProductName** in **Products** in het deelvenster **Velden** of sleep het veld naar de grafiek om de hoeveelheid van elk besteld product weer te geven. 
+   
+3. Als u de producten wilt sorteren op de minst bestelde hoeveelheden, selecteert u het weglatingsteken (**...** ) bij **Meer opties** en selecteert u rechts boven in de visualisatie **Op hoeveelheid sorteren**.
+   
+4. Gebruik de handgrepen in de hoeken van het diagram om het diagram groter te maken zodat meer productnamen zichtbaar zijn. 
+   
+   ![Staafdiagram met hoeveelheid op ProductName](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/19.png)
 
-## <a name="complete-sales-analysis-report"></a>Verkoopanalyserapport voltooien
-Nadat u al deze stappen hebt uitgevoerd, hebt u een verkooprapport waarin alle gegevens uit het bestand Products.xlsx en de OData-feed Northwind zijn gecombineerd. Het rapport bevat visuals waarmee u verkoopgegevens voor verschillende landen kunt analyseren. U kunt [hier](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Analyzing_Sales_Data.pbix) een voltooid Power BI Desktop-bestand downloaden voor deze zelfstudie.
+Maak vervolgens een diagram met de orderbedragen (**LineTotal**) gedurende een bepaalde periode (**OrderDate**). 
+
+1. Zorg dat er niets is geselecteerd op het canvas, selecteer **LineTotal** in **Orders** in het deelvenster **Velden** of sleep het item naar een lege ruimte op het canvas. Het gestapelde kolomdiagram bevat het totaalbedrag voor alle orders. 
+   
+2. Selecteer het diagram, selecteer **OrderDate** in **Orders** of sleep het item naar het diagram. Het diagram bevat nu voor elke orderdatum de regeltotalen. 
+   
+3. U kunt de grootte van de visualisatie aanpassen door de hoeken te slepen, zodat u meer gegevens kunt bekijken. 
+   
+   ![Lijndiagram LineTotals op OrderDate](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/20.png)
+   
+   >[!TIP]
+   >Als u alleen de jaren in het diagram (slechts drie gegevenspunten) ziet, klikt u op de pijl naast **OrderDate** in het veld **As** van het deelvenster **Visualisaties**. Selecteer vervolgens **OrderDate** in plaats van **Datumhiërarchie**. 
+
+Maak ten slotte een kaartvisualisatie waarin de orderbedragen van elk land worden weergegeven. 
+
+1. Zorg dat er niets is geselecteerd op het canvas, selecteer **ShipCountry** in **Orders** in het deelvenster **Velden** of sleep het item naar een lege ruimte op het canvas. In Power BI Desktop wordt gedetecteerd dat de gegevens uit landnamen bestaan, waarna automatisch een kaartvisualisatie wordt gemaakt met een gegevenspunt voor elk land waarvoor orders bestaan. 
+   
+2. Als u de orderbedragen voor elk land wilt weergeven aan de hand van de grootte van de gegevenspunten, sleept u het veld **LineTotal** naar de kaart (of sleept u het veld naar **Sleep hier gegevensvelden** onder **Grootte** in de onderste helft van het deelvenster **Visualisaties**). De grootte van de cirkels op de kaart geven nu de bedragen van de orders vanuit elk land weer. 
+   
+   ![Kaartvisualisatie van LineTotals op ShipCountry](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/21.png)
+
+## <a name="interact-with-your-report-visuals-to-analyze-further"></a>Interactief werken met de visuals in uw rapport voor verdere analyse
+
+Met Power BI Desktop kunt u verdere trends ontdekken door interactief te werken met de visuals, zoals kruislings markeren en filteren. Zie het Engelstalige artikel [Filtering and Highlighting in Reports](power-bi-reports-filters-and-highlighting.md) (Filteren en markeren in rapporten) voor meer informatie. 
+
+Vanwege de relatie tussen uw query's heeft het interactief werken met één visualisatie gevolgen voor alle andere visualisaties op de pagina. 
+
+Selecteer de cirkel in het midden van **Canada** in de kaartvisualisatie. Houd er rekening mee dat met de andere twee visualisaties gegevens alleen worden gefilterd om de regeltotalen en orderhoeveelheden voor Canada te markeren.
+
+![Verkoopgegevens gefilterd voor Canada](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/22.png)
+
+Als u een van de producten in het diagram **Hoeveelheid op ProductName** selecteert, worden het kaart- en datumdiagram gefilterd om de gegevens voor het desbetreffende product weer te geven. Als u een van de datums in het diagram **LineTotal op OrderDate** selecteert, worden het kaart- en het productdiagram gefilterd om de gegevens voor die datum weer te geven. 
+>[!TIP]
+>Als u een selectie wilt opheffen, selecteert u de visualisatie opnieuw of selecteert u een van de andere visualisaties. 
+
+## <a name="complete-the-sales-analysis-report"></a>Het verkoopanalyserapport voltooien
+
+In het voltooide rapport worden gegevens van het Excel-bestand Products.xlsx samengevoegd met gegevens van de OData-feed Northwind. Deze gegevens worden gecombineerd tot visuals waarmee u ordergegevens voor verschillende landen, perioden en producten kunt analyseren. Wanneer uw rapport klaar is, kunt u [het uploaden naar de Power BI-service](desktop-upload-desktop-files.md) en delen met andere Power BI-gebruikers.
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Andere zelfstudies voor Power BI Desktop lezen](http://go.microsoft.com/fwlink/?LinkID=521937)
 * [Power BI Desktop-video's bekijken](http://go.microsoft.com/fwlink/?LinkID=519322)
 * [Een bezoek brengen aan het Power BI-forum](http://go.microsoft.com/fwlink/?LinkID=519326)
 * [Het Power BI-blog lezen](http://go.microsoft.com/fwlink/?LinkID=519327)
-
-

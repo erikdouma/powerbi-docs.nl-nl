@@ -1,31 +1,24 @@
 ---
-title: De eigenschappen van de X-as en Y-as aanpassen (zelfstudie)
-description: 'Zelfstudie: De eigenschappen van de X-as en y-as aanpassen'
-services: powerbi
-documentationcenter: 
+title: De eigenschappen van de X-as en Y-as aanpassen
+description: De eigenschappen van de X-as en Y-as aanpassen
 author: mihart
 manager: kfile
-backup: 
+ms.reviewer: ''
 featuredvideoid: 9DeAKM4SNJM
-editor: 
-tags: 
-qualityfocus: complete
-qualitydate: 05/16/2017
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d4156429b728718fa89131a46ebd0f5dd5aabf67
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 372f00e7bd62068688bdcc22c1e983c3fe629f8a
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295686"
 ---
-# <a name="customize-x-axis-and-y-axis-properties-tutorial"></a>De eigenschappen van de X-as en Y-as aanpassen (zelfstudie)
+# <a name="customize-x-axis-and-y-axis-properties"></a>De eigenschappen van de X-as en Y-as aanpassen
 In deze zelfstudie leert u veel verschillende manieren om de X-as en Y-as van uw visualisaties aan te passen. Niet alle visualisaties hebben assen of kunnen worden aangepast. Zo hebben cirkeldiagrammen bijvoorbeeld geen assen. Bovendien verschillen de aanpassingsopties per visualisatie; er zijn te veel opties om ze in één artikel te behandelen. We werpen een blik op een aantal van de meestgebruikte as-aanpassingen, en maken u vertrouwd met het tabblad voor visuele opmaak in het rapportcanvas van Power BI.  
 
 > [!NOTE]

@@ -1,29 +1,22 @@
 ---
-title: 'Snelstartgids: een gepagineerd rapport maken voor Power BI Report Server'
+title: Een gepagineerd rapport maken voor Power BI Report Server
 description: Leer hoe u in een paar eenvoudige stappen een gepagineerd rapport voor Power BI Report Server maakt.
-services: powerbi
-documentationcenter: 
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 1e77a1ef92826010d6bc2fa28749a2ee17bbe723
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 75810bfad9efd5a0ea42a07d44a61d4f92f7f232
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34294911"
 ---
-# <a name="quickstart-create-a-paginated-report-for-power-bi-report-server"></a>Snelstartgids: een gepagineerd rapport maken voor Power BI Report Server
+# <a name="create-a-paginated-report-for-power-bi-report-server"></a>Een gepagineerd rapport maken voor Power BI Report Server
 Zoals de naam al aangeeft, kunnen gepagineerde rapporten uit meerdere pagina's bestaan. Ze worden opgemaakt met een vaste indeling en kunnen uiterst precies worden aangepast. Gepagineerde rapporten zijn RDL bestanden.
 
 U kunt gepagineerde rapporten beheren en opslaan in de webportal van Power BI Report Server, net als u in de webportal van de SQL Server Reporting Services (SSRS). U maakt en bewerkt de rapporten in Report Builder of Report Designer in SQL Server Data Tools (SSDT). Vervolgens kunt u ze naar een van de twee webportals publiceren. De rapportlezers binnen uw organisatie kunnen ze weergeven in een browser of in een mobiele Power BI-app op hun mobiele apparaat.
@@ -103,5 +96,5 @@ Er zijn meer dan genoeg goede bronnen voor het ontwerpen van rapporten in Report
 * [Zelfstudies over Report Builder](https://docs.microsoft.com/sql/reporting-services/report-builder-tutorials)
 * [Gebruikershandboek voor Power BI Report Server](user-handbook-overview.md)  
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/).
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 
