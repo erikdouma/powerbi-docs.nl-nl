@@ -1,28 +1,20 @@
 ---
 title: Beheeroverzicht voor Power BI Report Server
 description: Dit artikel bevat het beheeroverzicht voor Power BI Report Server, een on-premises locatie om uw Power BI-rapporten, mobiele rapporten en gepagineerde rapporten op te slaan en te beheren.
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 05/07/2018
 ms.author: maghan
-ms.openlocfilehash: 52b2c9cac7fd07564480fdbf3a6a91e04e72db11
-ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
+ms.openlocfilehash: 228402dd2137f0cf2f3d480ff1acee10d2f28c51
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/08/2018
-ms.locfileid: "33883082"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34296383"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>Beheeroverzicht voor Power BI Report Server
 Dit artikel bevat het beheeroverzicht voor Power BI Report Server, een on-premises locatie om uw Power BI-rapporten, mobiele rapporten en gepagineerde rapporten op te slaan en te beheren. In dit artikel maakt u kennis met concepten van planning, implementatie en beheer van uw Power BI Report Server, met koppelingen naar meer informatie.
