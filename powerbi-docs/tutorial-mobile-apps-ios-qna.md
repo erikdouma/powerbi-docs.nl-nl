@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: tutorial
 ms.date: 05/08/2018
 ms.author: maggies
-ms.openlocfilehash: 5c8afc963c67493c30821048736d914d3aec278e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 8cb9e78898228aa7dad82db76d1d7da1a7151702
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34297855"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561420"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-ios-apps---power-bi"></a>Zelfstudie: vragen stellen over uw gegevens met de virtuele Q&A-analist in iOS-apps - Power BI
 
@@ -132,5 +132,5 @@ Als u de zelfstudie hebt voltooid, kunt u het dashboard, het rapport en de gegev
 
 U hebt de virtuele Q&A-assistent in de mobiele Power BI-apps voor iOS geprobeerd. Lees meer over Q&A in de Power BI-service.
 > [!div class="nextstepaction"]
-> [Q&A in de Power BI-service](/.power-bi-q-and-a.md)
+> [Q&A in de Power BI-service](power-bi-q-and-a.md)
 

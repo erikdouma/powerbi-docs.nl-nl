@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 18093772232d119a24e76437d3f62a145a0a7153
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34247683"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>Verbinding maken met Office365Mon met Power BI
 U kunt eenvoudig de onderbrekingen van Office 365 en prestatiegegevens analyseren met Power BI en het Office365Mon-inhoudspakket. Uw gegevens, inclusief storingen en statuscontroles, worden opgehaald met Power BI en er worden een kant-en-klaar dashboard en rapporten gemaakt op basis van die gegevens.

@@ -11,10 +11,11 @@ ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 760eda5625bd52bf7129ba7cfe5f213921d469b7
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34247798"
 ---
 # <a name="create-a-new-report-from-an-existing-report-copy-a-report"></a>Een nieuw rapport maken van een bestaand rapport (een rapport kopiëren)
 Misschien hebt u een rapport dat al verbinding maakt met uw gegevensset en bevat het rapport enkele visuals die u wilt opnieuw wilt gebruiken of wilt wijzigen.  In dat geval kunt u het rapport gewoon kopiëren als basis voor een nieuw rapport.  Hiervoor gaat u als volgt te werk:

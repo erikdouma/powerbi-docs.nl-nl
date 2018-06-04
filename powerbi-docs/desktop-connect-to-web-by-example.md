@@ -1,29 +1,21 @@
 ---
 title: Gegevens van een webpagina extraheren met behulp van een voorbeeld in Power BI Desktop (preview)
 description: Gegevens van een webpagina extraheren door een voorbeeld op te geven van de gegevens die u wilt opvragen
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/07/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3d67d9737ff09e3d5959ab24e615473f537654ab
-ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
+ms.openlocfilehash: 55c1a70e054b6bb6ff06c7fe6f83b58d8b1f26f3
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/09/2018
-ms.locfileid: "33917200"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34290977"
 ---
 # <a name="get-data-from-a-web-page-by-providing-an-example-preview"></a>Gegevens van een webpagina ophalen door een voorbeeld op te geven (preview)
 
@@ -56,7 +48,7 @@ Als u het voorbeeld in het artikel wilt volgen, kunt u de [URL van de Microsoft 
 
 ![Dialoogvenster Web](media/desktop-connect-to-web-by-example/web-by-example_04.png)
 
-Wanneer u **OK** selecteert, wordt het dialoogvenster **Navigator** geopend, waarin de automatisch gedetecteerde tabellen van de webpagina worden weergegeven. In het voorbeeld in de onderstaande afbeelding zijn geen tabellen gevonden, maar bevindt zich aan de onderkant van de pagina een knop met de naam **Tabel extraheren met voorbeelden**. Met deze knop kunt u voorbeelden opgeven.
+Wanneer u **OK** selecteert, wordt het dialoogvenster **Navigator** geopend, waarin de automatisch gedetecteerde tabellen van de webpagina worden weergegeven. In het voorbeeld in de onderstaande afbeelding zijn geen tabellen gevonden. Aan de onderkant van de pagina bevindt zich echter een knop met de naam **Tabel extraheren met voorbeelden**. Met deze knop kunt u voorbeelden opgeven.
 
 
 ![Navigator-venster](media/desktop-connect-to-web-by-example/web-by-example_05.png)

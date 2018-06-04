@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: bc9a8637416bdea50e955c1aea73bbcfeed51bb6
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34242996"
 ---
 # <a name="connect-to-comscore-digital-analytix-with-power-bi"></a>Verbinding met comScore Digital Analytix maken via Power BI
 Visualiseer en verken uw comScore Digital Analytix-gegevens in Power BI met het Power BI-inhoudspakket. De gegevens wordt een keer per dag automatisch vernieuwd.

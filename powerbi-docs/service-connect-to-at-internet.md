@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 21554c5addac0adad84783dad83b4861544a3425
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34242208"
 ---
 # <a name="connect-to-at-internet-bridge-with-power-bi"></a>Verbinding met AT Internet Bridge maken via met Power BI
 AT Internet helpt u direct waarde te onttrekken aan uw gegevens dankzij het geïntegreerde digitale analyseplatform, de Analytics Suite. Het AT Internet Bridge-inhoudspakket voor Power BI bevat onder meer gegeven over bezoeken, bronnen, lokalisatie en apparaten voor uw site.

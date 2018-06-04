@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data from databases
 ms.openlocfilehash: a656866b1c9cdc0d1eb83b67c0edf79c182d1a71
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34244428"
 ---
 # <a name="azure-and-power-bi"></a>Azure en Power BI
 Met **Azure**-services en **Power BI** kunt u uw inspanningen op het gebied van gegevensverwerking omzetten in analyses en rapporten waarmee u realtime-inzichten in uw bedrijf krijgt. Of uw gegevensverwerking nu cloudgebaseerd of on-premises, eenvoudig of complex, afkomstig van één bron of zeer grootschalig, geagendeerd of realtime is, Azure en Power BI hebben de ingebouwde connectiviteit en integratie om uw inspanningen op het gebied van business intelligence tot leven te wekken.

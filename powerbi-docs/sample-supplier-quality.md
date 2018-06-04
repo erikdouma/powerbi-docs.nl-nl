@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/19/2018
+ms.date: 05/19/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 5089fef7c0292f1a6651b23eea814cc6cd9da9ce
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 6de9c4cb792e08c609af977fac3ea3d09f737acf
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722058"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Voorbeeld van kwaliteitsanalyse van leveranciers voor Power BI: een rondleiding volgen
 
@@ -32,7 +33,7 @@ Dit zijn echte gegevens die afkomstig zijn van obviEnce ([www.obvience.com)](htt
 
 ## <a name="prerequisites"></a>Vereisten
 
- Voordat u het voorbeeld kunt gebruiken, moet u het eerst downloaden als een [inhoudspakket](https://docs.microsoft.com/en-us/power-bi/sample-supplier-quality#get-the-content-pack-for-this-sample), een [PBIX-bestand](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix) of een [Excel-werkmap](http://go.microsoft.com/fwlink/?LinkId=529779).
+ Voordat u het voorbeeld kunt gebruiken, moet u het eerst downloaden als een [inhoudspakket](https://docs.microsoft.com/power-bi/sample-supplier-quality#get-the-content-pack-for-this-sample), een [PBIX-bestand](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix) of een [Excel-werkmap](http://go.microsoft.com/fwlink/?LinkId=529779).
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Het inhoudspakket voor dit voorbeeld ophalen
 

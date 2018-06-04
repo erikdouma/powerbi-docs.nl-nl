@@ -11,10 +11,11 @@ ms.date: 4/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: a56097c02c9f3af63151d0a38e14fdc580e4ee9e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34291000"
 ---
 # <a name="connect-to-an-oracle-database"></a>Verbinding maken met een Oracle-database
 Om een Oracle-database te kunnen verbinden met **Power BI Desktop**, moet de juiste Oracle-clientsoftware worden geïnstalleerd op de computer waarop Power BI Desktop wordt uitgevoerd. Welke Oracle-clientsoftware u moet gebruiken, is afhankelijk van welke versie van Power BI Desktop u hebt geïnstalleerd: de **32-bits** versie of de **64-bits** versie.

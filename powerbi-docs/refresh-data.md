@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: 779bfb3e69a76d0fe9e9a34d6576b2054de89cc1
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34253614"
 ---
 # <a name="data-refresh-in-power-bi"></a>Gegevens vernieuwen in Power BI
 Het maken van de juiste keuzes is sterk afhankelijk van of u beschikt over de recentste gegevens. U hebt waarschijnlijk al de functie Gegevens ophalen in Power BI gebruikt om verbinding te maken met gegevens, gegevens te uploaden, en enkele rapporten en een dashboard te maken. Nu is het belangrijk om ervoor te zorgen dat uw gegevens echt actueel zijn.

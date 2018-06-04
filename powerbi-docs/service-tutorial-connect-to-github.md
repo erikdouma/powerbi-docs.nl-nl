@@ -12,10 +12,11 @@ ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 1c2579f4250914933fd0459668fb55e4ba339f90
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34310102"
 ---
 # <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>Zelfstudie: verbinding maken met een GitHub-voorbeeld met Power BI
 In deze zelfstudie gebruikt u echte gegevens in de GitHub-service met Power BI en Power BI maakt automatisch dashboards en rapporten. U maakt verbinding met de opslagplaats voor openbare Power BI-inhoud (ook wel *repo* genoemd) en ziet de volgende informatie: hoeveel dragen bij aan de openbare Power BI-inhoud? Wie levert de meeste bijdragen? Op welke dag van de wek worden de meeste bijdragen geleverd? En antwoorden op andere vragen. 

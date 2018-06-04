@@ -12,10 +12,11 @@ ms.date: 05/18/2018
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: aeaea6d14cf8f4fd62fbbf5098e68429fe40b96a
-ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34471934"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Een rapport filteren door queryreeksparameters in de URL te gebruiken
 Wanneer u een rapport in Power BI-service opent, heeft elke pagina van het rapport een eigen unieke URL. Als u deze rapportpagina wilt filteren, kunt u het deelvenster met filters gebruiken op het rapportcanvas.  Of u kunt queryreeksparameters toevoegen aan de URL om het rapport te filteren. Misschien hebt u een rapport dat u aan collega's wilt laten zien en u wilt het voor hen vooraf filteren. U kunt beginnen met de standaard-URL voor het rapport, de filterparameters toevoegen aan de URL en hen vervolgens via e-mail de volledige URL sturen.

@@ -7,14 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2ffa82cbc45a735bfb857a1f69c7e79e925ed753
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 498a66c5e675fc8a394f3c3a0dc2ef7ff7fa99c2
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722423"
 ---
 # <a name="connect-to-microsoft-dynamics-nav-with-power-bi"></a>Verbinding maken met Microsoft Dynamics NAV in Power BI
 Inzicht krijgen in uw Microsoft Dynamics NAV-gegevens is eenvoudig met Power BI. Met Power BI kunt u uw gegevens ophalen, zowel verkoopgegevens als financiële gegevens, en vervolgens een app bouwen met een dashboard en rapporten op basis van die gegevens. Voor Power BI moet u machtigingen hebben voor de tabellen waaruit gegevens worden opgehaald, in dit geval verkoopgegevens en financiële gegevens. Meer informatie over de vereisten volgt hieronder. Nadat u de app hebt geïnstalleerd, kunt u het dashboard en de rapporten bekijken in de Power BI-service ([https://powerbi.com](https://powerbi.com)) en in de mobiele Power BI-apps. 

@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 6f914a031c70c68703116083f42885e2fe79cf30
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34247890"
 ---
 # <a name="connect-to-sparkpost-with-power-bi"></a>Verbinding met SparkPost maken via Power BI
 Met het Power BI-inhoudspakket voor SparkPost kunt u waardevolle gegevenssets extraheren uit uw SparkPost-account en in een inzichtelijk dashboard weergeven. Met behulp van het SparkPost-inhoudspakket kunt u uw algemene e-mailstatistieken visualiseren, inclusief domeinen, campagnes en betrokkenheid per serviceprovider.

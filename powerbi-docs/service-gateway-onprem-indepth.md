@@ -11,10 +11,11 @@ ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: 8b0121dbfe633eca9c438dfd272d3aeb56fd59a4
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34298568"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>On-premises gegevensgateway nader bekeken
 Het is mogelijk dat gebruikers in uw organisatie toegang hebben tot on-premises gegevens (waarvoor ze al zijn geautoriseerd), maar voordat deze gebruikers verbinding kunnen maken met uw on-premises gegevensbron, moet er een on-premises gegevensgateway worden geïnstalleerd en geconfigureerd. De gateway zorgt ervoor dat er op een snelle, veilige en transparante manier kan worden gecommuniceerd tussen een gebruiker in de cloud en de on-premises gegevensbron.

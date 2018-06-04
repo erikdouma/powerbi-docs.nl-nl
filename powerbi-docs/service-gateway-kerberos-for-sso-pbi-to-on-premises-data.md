@@ -11,10 +11,11 @@ ms.date: 03/09/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: fc7885755da62c7b777bb0af7627626b1ce60aa0
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34299074"
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Kerberos gebruiken voor eenmalige aanmelding (SSO) van Power BI naar on-premises gegevensbronnen
 Door uw on-premises gegevensgateway te configureren met Kerberos kunt u connectiviteit met naadloze eenmalige aanmelding bewerkstelligen, zodat Power BI rapporten en dashboards kan bijwerken vanuit uw on-premises gegevens. De on-premises gegevensgateway vergemakkelijkt eenmalige aanmelding (SSO) met behulp van DirectQuery, waarmee de gateway verbinding maakt met on-premises gegevensbronnen.

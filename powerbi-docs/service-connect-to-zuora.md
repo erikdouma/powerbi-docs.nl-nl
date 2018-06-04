@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: f283a8ed273dcb609e9d5160adbeb714e8935ab9
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34251928"
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Verbinding maken met Zuora via Power BI
 Met Zuora voor Power BI kunt u belangrijke omzet-, facturerings- en abonnementsgegevens visualiseren. Gebruik het standaarddashboard en de rapporten om gebruikstrends, facturen en betalingen te analyseren en terugkerende inkomsten te controleren, of pas ze aan om te voldoen aan uw eigen unieke dashboard- en rapportagebehoeften.

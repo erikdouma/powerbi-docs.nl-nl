@@ -11,10 +11,11 @@ ms.date: 08/10/2017
 ms.author: amac
 LocalizationGroup: Dashboards
 ms.openlocfilehash: f08e4199af06a4a7fd74cb525e918a67a27165a8
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34251317"
 ---
 # <a name="dashboard-data-classification"></a>Classificatie van dashboardgegevens
 Elk dashboard is anders en afhankelijk van de gegevensbron waarmee u verbinding maakt, zult u waarschijnlijk merken dat u en de collega's met wie u het dashboard deelt, verschillende voorzorgsmaatregelen zullen moeten nemen, afhankelijk van de vertrouwelijkheid van de gegevens. Sommige dashboards mogen nooit worden afgedrukt of worden gedeeld met personen buiten uw bedrijf, terwijl andere zonder beperkingen kunnen worden gedeeld. Door gegevens in het dashboard te classificeren, kunt u anderen die het dashboard raadplegen, bewust maken van de mate van beveiliging die vereist is. U kunt uw dashboards voorzien van classificatielabels die zijn opgesteld door de IT-afdeling van uw bedrijf, zodat iedereen die de inhoud bekijkt, weet hoe het staat met de vertrouwelijkheid van de gegevens.

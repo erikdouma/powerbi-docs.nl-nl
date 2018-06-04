@@ -11,10 +11,11 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: maggies
 ms.openlocfilehash: 494e148a62675aab1a6e799c4e4b61f022483d9f
-ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34444952"
 ---
 # <a name="fixing-corporate-ssl-certificate-is-untrusted---power-bi"></a>De fout 'Zakelijk SSL-certificaat is niet vertrouwd' herstellen - Power BI
 Tijdens het aanmelden bij de mobiele Android-app voor Microsoft Power BI ziet u mogelijk u het bericht, 'Kan niet worden geverifieerd omdat uw zakelijke SSL-certificaat niet vertrouwd is door dit apparaat. Neem contact op met de IT-beheerder van uw bedrijf.’ 

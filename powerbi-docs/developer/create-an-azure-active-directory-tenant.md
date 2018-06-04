@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
 ms.openlocfilehash: fd981b2f0c6e012444501a8a651092e11c3edf75
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34286032"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Een Azure Active Directory-tenant maken voor gebruik met Power BI
 Informatie over het maken van een nieuwe Azure Active Directory-tenant (Azure AD) voor gebruik met uw aangepaste toepassing met behulp van de Power BI REST-API's.

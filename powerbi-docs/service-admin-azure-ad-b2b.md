@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2cd096303412ef2ecbf65d818cfa70a007767da9
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 6e1665b6e9c9ff0a756d9ccdaf9e6feb4ed9eb39
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722219"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Power BI-inhoud met Azure AD B2B distribueren naar externe gastgebruikers
 
@@ -30,7 +31,7 @@ Power BI kan worden geïntegreerd met Azure Active Directory Business-to-busines
 
 ## <a name="who-can-you-invite"></a>Wie kunt u uitnodigen?
 
-U kunt gastgebruikers uitnodigen die gebruikmaken van ongeacht welk e-mailadres, met inbegrip van persoonlijke accounts zoals gmail.com, outlook.com of hotmail.com. Deze worden in Azure B2B 'Sociale-id's' genoemd. Raadpleeg voor meer informatie [Azure B2B](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
+U kunt gastgebruikers uitnodigen die gebruikmaken van ongeacht welk e-mailadres, met inbegrip van persoonlijke accounts zoals gmail.com, outlook.com of hotmail.com. Deze worden in Azure B2B 'Sociale-id's' genoemd. Raadpleeg voor meer informatie [Azure B2B](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 
 ## <a name="invite-guest-users"></a>Gastgebruikers uitnodigen
 
@@ -100,7 +101,7 @@ De gastgebruiker beschikt al over een Power BI Pro-licentie die is toegewezen in
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 
-* Wanneer u gastgebruikers uitnodigt die van persoonlijke e-mailaccounts gebruikmaken, zoals gmail.com, outlook.com of hotmail.com, kunt u deze [ingesloten video](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-redemption-experience) bekijken om een voorbeeld te zien van hoe een gebruiker zich zou aanmelden.
+* Wanneer u gastgebruikers uitnodigt die van persoonlijke e-mailaccounts gebruikmaken, zoals gmail.com, outlook.com of hotmail.com, kunt u deze [ingesloten video](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-redemption-experience) bekijken om een voorbeeld te zien van hoe een gebruiker zich zou aanmelden.
 * Externe B2B-gasten mogen alleen inhoud gebruiken. Externe B2B-gasten kunnen apps, dashboards en rapporten weergeven, gegevens exporteren en e-mailabonnementen instellen voor dashboards en rapporten. Ze hebben geen toegang tot werkruimten en kunnen hun eigen inhoud niet publiceren.
 * Deze functie is momenteel niet beschikbaar met de mobiele Power BI-apps. Op een mobiel apparaat kunt u in een browser Power BI-inhoud weergeven die is gedeeld met Azure AD B2B.
 * Deze functie is momenteel niet beschikbaar in het webonderdeel voor Power BI SharePoint Online-rapporten.

@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 091f17e89bd4fb9658e777f63ac2017239e32b71
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34287320"
 ---
 # <a name="using-r-in-query-editor"></a>R gebruiken in Query-editor
 U kunt **R**, een programmeertaal die veel door statistici, gegevenswetenschappers en gegevensanalisten wordt toegepast, gebruiken in **Query-editor** van Power BI Desktop. Dankzij de integratie van R in **Query-editor** kunt u met R gegevens opschonen en geavanceerde data shaping en analyses in gegevenssets uitvoeren, met inbegrip van het aanvullen van ontbrekende gegevens, voorspellingen en clustering. **R** is een krachtige programmeertaal en kan in **Query-editor** worden gebruikt om uw gegevensmodel voor te bereiden en rapporten te maken.
