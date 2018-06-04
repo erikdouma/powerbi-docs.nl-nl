@@ -11,10 +11,11 @@ ms.date: 04/19/2018
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 7fb3e6163d63cdf3f40d0400f246095550fc9032
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34286555"
 ---
 # <a name="high-density-line-sampling-in-power-bi"></a>High-densitysampling van lijnen in Power BI
 Sinds de release in juni 2017 van **Power BI Desktop** en updates voor de **Power BI-service** is er een nieuw samplingalgoritme beschikbaar waarmee visuals worden verbeterd die high-densitygegevens verzamelen. U kunt bijvoorbeeld een lijndiagram maken op basis van de verkoopresultaten van uw winkels, waarbij elke winkel jaarlijks meer dan tienduizend verkoopontvangsten genereert. Met een lijndiagram van dergelijke verkoopcijfers wordt een sample van gegevens opgehaald (door een zinvolle representatie van alle gegevens te selecteren, ter illustratie van de wijze waarop de verkoop gedurende een bepaalde periode varieert) uit de gegevens voor elke winkel en wordt een lijndiagram met meerdere reeksen gemaakt dat op die manier de onderliggende gegevens laat zien. Dit is gebruikelijk bij het visualiseren van high-densitygegevens. In Power BI Desktop is de sampling van high-densitygegevens verbeterd, zoals nader beschreven in dit artikel.

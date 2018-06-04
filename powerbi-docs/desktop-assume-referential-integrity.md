@@ -11,10 +11,11 @@ ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 15edc53e88ba46d3edd41b2a28d76deaabd28659
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34290586"
 ---
 # <a name="assume-referential-integrity-settings-in-power-bi-desktop"></a>De instellingen voor Referentiële integriteit aannemen in Power BI Desktop
 Als u via **DirectQuery** verbinding maakt met een gegevensbron, kunt u de selectie **Referentiële integriteit aannemen** gebruiken om efficiëntere query's voor uw gegevensbron uit te voeren. Voor deze functie gelden enkele vereisten van de onderliggende gegevens en de functie is alleen beschikbaar wanneer u **DirectQuery** gebruikt.

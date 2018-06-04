@@ -11,10 +11,11 @@ ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Get started
 ms.openlocfilehash: 060bebbc79db02d28755cc7832f4a4ef3d2d578f
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34299488"
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Registreren voor Power BI als afzonderlijke gebruiker
 Lees hoe u zich registreert voor Power BI en aan de slag kunt met rapporten en visualisaties.

@@ -11,10 +11,11 @@ ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: e1161e5e461b3b32e549c69cfa7987c8f799e0fd
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34245334"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-app-workspace"></a>Verbinding maken met in OneDrive opgeslagen bestanden voor uw Power BI-app-werkruimte
 Wanneer u [een app-werkruimte hebt gemaakt in Power BI](service-create-distribute-apps.md), kunt u uw Excel-, CSV- en Power BI Desktop-bestanden op de OneDrive voor bedrijven opslaan voor uw Power BI-app-werkruimte. U kunt de bestanden die u in OneDrive opslaat, blijven bijwerken, en die updates worden automatisch weergegeven in de Power BI-rapporten en op de dashboards op basis van de bestanden. 

@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 1f482cf9e3f0cf344a2808ca778839a50d851ac7
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 50ace772c24b2a9e706e82ca16ddcb36d8b6b60c
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722196"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Power Bi-gebruikers zoeken die zich hebben aangemeld
 Als u tenantbeheerder bent en u wilt zien wie zich heeft aangemeld bij Power BI, kunt u met behulp van de toegangs- en gebruiksrapporten van Azure Active Directory meer zichtbaarheid krijgen.
@@ -60,7 +61,7 @@ U kunt in het scherm Activiteit **Downloaden** selecteren in de werkbalk. Hierme
 U kunt PowerShell gebruiken om de aanmeldingsgegevens te exporteren. Een [voorbeeld](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-sign-in-activity-samples#powershell-script) is beschikbaar in de documentatie van Azure Active Directory.
 
 > [!NOTE]
-> Om het PowerShell-voorbeeld te laten werken, moet u voldoen aan de [toegangsvereisten voor de API](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-reporting-api-prerequisites) van Azure Active Directory-rapportage.
+> Om het PowerShell-voorbeeld te laten werken, moet u voldoen aan de [toegangsvereisten voor de API](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-prerequisites) van Azure Active Directory-rapportage.
 > 
 > 
 
