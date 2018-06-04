@@ -11,10 +11,10 @@ ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
 ms.openlocfilehash: c47722fda28fc45289858f082a0838f583b53dbb
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
 ms.locfileid: "34296775"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparing Power BI Report Server and the Power BI service (Power BI Report Server vergelijken met de Power BI-service)
@@ -31,7 +31,7 @@ Power BI Report Server en de Power BI-service hebben veel overeenkomsten en een 
 | Power BI-rapporten maken in Power BI Desktop | Ja | Ja |  
 | Power BI-rapporten maken in de browser | Nee | Ja |  
 | Gateway vereist | Nee | Ja voor on-premises gegevensbronnen |  
-| Realtimestreaming | Nee | Ja | [Realtimestreaming in Power BI](../service-real-time-streaming.md)
+| Realtime streaming | Nee | Ja | [Realtimestreaming in Power BI](../service-real-time-streaming.md)
 | Dashboards | Nee | Ja | [Dashboards in de Power BI-service](../service-dashboards.md) 
 | Distributiegroep met rapporten die apps gebruiken | Nee | Ja | [Apps maken en publiceren met dashboards en rapporten](../service-create-distribute-apps.md) 
 | Inhoudspakketten | Nee | Ja | [Organisatie-inhoudspakketten: inleiding](../service-organizational-content-pack-introduction.md) 

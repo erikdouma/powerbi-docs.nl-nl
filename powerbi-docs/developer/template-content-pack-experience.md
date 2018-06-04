@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maghan
 ms.openlocfilehash: 1a29767eb76122865e93927bbbec1fbdcebe5678
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34290770"
 ---
 # <a name="template-content-pack-experiences-in-power-bi"></a>Ervaringen met sjablooninhoudspakketten in Power BI
 In deze sectie wordt een typische ervaring voor een gebruiker beschreven die verbinding maakt met een ISV [inhoudspakket](../service-connect-to-services.md). 

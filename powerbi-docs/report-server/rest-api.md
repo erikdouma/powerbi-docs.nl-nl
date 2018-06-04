@@ -7,18 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/01/2017
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: e77c77acb7808923097eb3e2146bef816eda51ee
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: a1cbcc6d265504bc93ef6447a6be381ca6399063
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721749"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>Ontwikkelen met de REST API's voor Power BI Report Server
 Power BI Report Server-ondersteuning voor REST API’s (Representational State Transfer). De REST API's zijn service-eindpunten die ondersteuning bieden voor een set HTTP-bewerkingen (methoden). Deze bewerkingen bieden de mogelijkheid om resources binnen een rapportserver te maken, op te halen, bij te werken of te verwijderen.
 
 De REST API biedt toegang op programmeerniveau tot de objecten in een Power BI Report Server-catalogus. Voorbeelden van objecten zijn mappen, rapporten, KPI's, gegevensbronnen, gegevenssets, vernieuwingsplannen, abonnementen en meer. Met behulp van de REST API kunt u bijvoorbeeld door de maphiërarchie navigeren, de inhoud van een map ontdekken of een rapportdefinitie downloaden. U kunt ook objecten maken, bijwerken en verwijderen. Voorbeelden van het werken met objecten zijn een rapport uploaden, een plan vernieuwen, een map verwijderen, enzovoort.
+
+[!INCLUDE [GDPR-related guidance](../includes/gdpr-hybrid-note.md)]
 
 ## <a name="components-of-a-rest-api-requestresponse"></a>Onderdelen van een REST API-aanvraag/antwoord
 Een combinatie van REST API-aanvraag/antwoord kan worden opgesplitst in vijf onderdelen:

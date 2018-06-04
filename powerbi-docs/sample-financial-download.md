@@ -11,10 +11,11 @@ ms.date: 05/21/2018
 ms.author: amac
 LocalizationGroup: Samples
 ms.openlocfilehash: 8a586561ea91fc8a66d70099938818372456df98
-ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34456031"
 ---
 # <a name="download-the-financial-sample-workbook-for-power-bi"></a>De werkmap met financiële voorbeelden voor Power BI downloaden
 Hebt u wat gegevens nodig om de Power BI-service te kunnen uitproberen? We bieden een eenvoudige Excel-werkmap met financiële voorbeeldgegevens die u kunt downloaden.  U kunt de werkmap als volgt downloaden:

@@ -11,10 +11,11 @@ ms.date: 05/18/2018
 ms.author: v-mamcge
 LocalizationGroup: Reports
 ms.openlocfilehash: 78dcd0ac0735bfbb3c22678d6bda1397120360cd
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34310539"
 ---
 # <a name="power-bi-performance-best-practices"></a>Aanbevolen procedures voor de prestaties van Power BI 
 Dit artikel biedt informatie voor het snel maken van betrouwbare rapporten in Power BI.  
@@ -93,7 +94,7 @@ Zorg ervoor dat u voor elke aangepaste visual de juiste stappen uitvoert om hoge
 Voor meer informatie over welke visuals de meeste tijd en resources gebruiken, kunt u SQL Profiler verbinden met Power BI Desktop voor een volledige weergave van de prestaties van query's.
 
 > [!NOTE]
-> Power BI Desktop ondersteunt verbindingen met een poort voor diagnostische gegevens. Via de poort voor diagnostische gegevens kunt u verbinding maken met andere hulpprogramma’s en traceringen uitvoeren voor diagnostische doeleinden. *Het aanbrengen van wijzigingen in het model wordt niet ondersteund! Wijzigingen in het model kunnen leiden tot beschadiging en verlies van gegevens.*
+> Power BI Desktop ondersteunt verbindingen met een poort voor diagnostische gegevens. Via de poort voor diagnostische gegevens kunt u verbinding maken met andere hulpprogramma's en traceringen uitvoeren voor diagnostische doeleinden. *Het aanbrengen van wijzigingen in het model wordt niet ondersteund. Wijzigingen in het model kunnen leiden tot beschadiging en verlies van gegevens.*
 
 Ga hiervoor als volgt te werk:
   
