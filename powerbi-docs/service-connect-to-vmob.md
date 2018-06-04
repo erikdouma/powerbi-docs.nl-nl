@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: b1f2970ad73783acf3736856463915161056b801
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34237871"
 ---
 # <a name="connect-to-vmob-with-power-bi"></a>Verbinding maken met VMob via Power BI
 Uw VMob-gegevens opsporen en bekijken is eenvoudig met Power BI en het inhoudspakket van VMob. De volgende gegevens worden opgehaald door Power BI: gebruikersstatistieken, ongelimiteerd en van de afgelopen 30 dagen, KPI’s detailhandel van de afgelopen 30 dagen en campagneprestaties van de afgelopen 30 dagen.
