@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: fceeda7a135d097c3269c25e25fde0c8cd639767
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1e29898ed2c72b3a28bc2fd90dd430e45b5cde03
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296889"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799528"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Geplande vernieuwing van Power BI-rapporten in Power BI Report Server
 Met behulp van geplande vernieuwing van Power BI-rapporten kunt u ervoor zorgen dat de gegevens voor een rapport up-to-date blijven.
@@ -60,9 +60,6 @@ De traditionele werkbelasting voor een rapportserver is vergelijkbaar met een we
 Zie [Monitor an Analysis Services Instance](https://docs.microsoft.com/sql/analysis-services/instances/monitor-an-analysis-services-instance) (Een Analysis Services-exemplaar bewaken) voor informatie over het bewaken van een Analysis Services-exemplaar.
 
 Zie [Geheugeneigenschappen](https://docs.microsoft.com/sql/analysis-services/server-properties/memory-properties) voor informatie over geheugeninstellingen in Analysis Services.
-
-### <a name="authentication-and-kerberos"></a>Verificatie en Kerberos
-Als uw gegevensbron is ingesteld voor het gebruik van Windows-referenties, moet mogelijk beperkte Kerberos-overdracht worden geconfigureerd voor een juiste werking van de gegevensbron. Raadpleeg voor meer informatie [Windows-verificatie configureren op de rapportserver](https://docs.microsoft.com/sql/reporting-services/security/configure-windows-authentication-on-the-report-server).
 
 ## <a name="next-steps"></a>Volgende stappen
 [Geplande vernieuwing van een Power BI-rapport configureren](configure-scheduled-refresh.md).
