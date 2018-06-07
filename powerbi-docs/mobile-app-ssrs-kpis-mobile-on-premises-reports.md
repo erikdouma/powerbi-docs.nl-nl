@@ -7,24 +7,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/18/2017
+ms.date: 05/21/2018
 ms.author: maggies
-ms.openlocfilehash: 4277a8353fa6d9538ff050f0c08b9644d4a218c6
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 999fdf0376973d6550a5c4e214b4315db01e74e0
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34482240"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>On-premises rapportserverrapporten en KPI's weergeven in de mobiele Power BI-apps
+
+Met de mobiele Power BI-apps hebt u live en mobiel via aanraking toegang tot uw on-premises bedrijfsgegevens in Power BI Report Server en SQL Server 2016 Reporting Services (SSRS).
+
 Van toepassing op:
 
 | ![iPhone](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/iphone-logo-50-px.png) | ![iPad](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/ipad-logo-50-px.png) | ![Android-telefoon](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/android-phone-logo-50-px.png) | ![Android-tablet](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/android-tablet-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |
 | iPhones |iPads |Android-telefoons |Android-tablets |
 
-Met de mobiele Power BI-apps hebt u live en mobiel via aanraking toegang tot uw on-premises bedrijfsgegevens in Power BI Report Server en SQL Server 2016 Reporting Services (SSRS). 
 
- ![Startpagina van Report Server in de mobiele apps](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-pbi-report-server-home.png)
+![Startpagina van Report Server in de mobiele apps](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-pbi-report-server-home.png)
 
 ## <a name="first-things-first"></a>Om te beginnen
 **In de mobiele apps geeft u Power BI-inhoud weer. U maakt de inhoud daar niet.**
@@ -43,7 +46,7 @@ Ook als u geen toegang hebt tot een Reporting Services-webportal, kunt u de func
    
    ![Reporting Services-voorbeelden](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-ssrs-samples.png)
 
-## <a name="connect-to-an-on-premises-server"></a>Verbinding maken met een on-premises server
+## <a name="connect-to-an-on-premises-report-server"></a>Verbinding maken met een on-premises rapportserver
 Met de mobiele Power BI-apps kunt u on-premises Power BI-rapporten, mobiele Reporting Services-rapporten en KPI's weergeven in de mobiele Power BI-apps. 
 
 1. Open de Power BI-app op uw mobiele apparaat.
@@ -77,6 +80,24 @@ Met de mobiele Power BI-apps kunt u on-premises Power BI-rapporten, mobiele Repo
 6. De server (in dit voorbeeld power bi report server genoemd) wordt nu weergegeven in de linkernavigatiebalk.
    
    ![Rapportserver in het linkernavigatiedeelvenster](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-left-nav-report-server.png)
+
+## <a name="connect-to-an-on-premises-report-server-in-ios"></a>Verbinding maken met een on-premises rapportserver in iOS
+
+Als u Power BI bekijkt in de mobiele iOS-app, heeft uw IT-beheerder mogelijk een app-configuratiebeleid gedefinieerd. Als dit het geval is, kunt u gestroomlijnd verbinding maken met de rapportserver en hoeft u niet zoveel informatie op te geven wanneer u verbinding maakt met een rapportserver. 
+
+1. U ziet een bericht dat uw mobiele app is geconfigureerd met een rapportserver. Tik op **Aanmelden**.
+
+    ![Aanmelden bij de rapportserver](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-config-server-sign-in.png)
+
+2.  Op de pagina **Verbinding maken met server** zijn de details over de rapportserver al ingevuld. Tik op **Verbinding maken**.
+
+    ![Ingevulde details rapportserver](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-remote-configure-connect-server.png)
+
+3. Voer een wachtwoord in om een verificatie uit te voeren en tik vervolgens op **Aanmelden**. 
+
+    ![Ingevulde details rapportserver](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-config-server-address.png)
+
+U kunt nu KPI's en Power BI-rapporten zien en gebruiken die zijn opgeslagen op de rapportserver.
 
 ## <a name="view-power-bi-reports-and-kpis-in-the-power-bi-app"></a>Power BI-rapporten en -KPI's weergeven in de Power BI-app
 Power BI-rapporten en mobiele Reporting Services-rapporten worden weergegeven in de mappen waarin ze zijn opgeslagen op de Reporting Services-webportal. 

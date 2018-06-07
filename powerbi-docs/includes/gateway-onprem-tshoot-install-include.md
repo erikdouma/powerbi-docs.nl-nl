@@ -24,3 +24,6 @@ U kunt forceren dat de gateway met Azure Service Bus communiceert via HTTPS in p
 ### <a name="error-failed-to-add-user-to-group---2147463168---pbiegwservice---performance-log-users---"></a>Fout: kan de gebruiker niet toevoegen aan de groep.  (-2147463168   PBIEgwService   Prestatielogboekgebruikers)
 Deze fout kan optreden als u de gateway probeert te installeren op een domeincontroller. De implementatie op een domeincontroller wordt niet ondersteund. U moet de gateway implementeren op een computer die geen domeincontroller is.
 
+### <a name="installation-fails"></a>Kan niet installeren
+U komt mogelijk installatiefouten tegen als de antivirussoftware op de installatiemachine is verouderd. U kunt ofwel de antivirusinstallatie bijwerken of de antivirussoftware alleen gedurende het voltooien van de gatewayinstallatie uitschakelen en daarna weer inschakelen.
+

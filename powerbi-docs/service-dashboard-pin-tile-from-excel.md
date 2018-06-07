@@ -8,14 +8,15 @@ featuredvideoid: l8JoB7w0zJA
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d6bb6bbed1d5423acbcf53ac50717debdfea4eaa
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 6cdcff66d48ede031a635e44e3a40af4e321c0c5
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584065"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Vanuit Excel een tegel vastmaken aan een Power BI-dashboard
 Voordat u een tegel uit uw Excel-werkmap vastmaakt, koppelt u de werkmap aan de Power BI-service (app.powerbi.com). Met het koppelen van een werkmap wordt een gekoppelde alleen-lezen versie van die werkmap naar Power BI-service overgebracht. Zo kunt u bereiken aan dashboards koppelen. U kunt zelfs een volledig werkblad aan een dashboard vastmaken.  
@@ -65,7 +66,7 @@ U kunt een nieuwe [dashboardtegel](service-dashboard-tiles.md) onder meer toevoe
     ![Dialoogvenster Aan dashboard vastgemaakt](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)
 5. Selecteer **Naar het dashboard gaan**. Hier kunt u de vastgemaakte visualisatie [hernoemen, vergroten of verkleinen, koppelen en verplaatsen](service-dashboard-edit-tile.md). Standaard wordt de werkmap in Power BI geopend als de vastgemaakte tegel wordt geselecteerd.
 
-## <a name="pin-an-entire-table-or-pivot-chart-to-a-dashboard"></a>Een hele tabel of draaigrafiek aan een dashboard vastmaken
+## <a name="pin-an-entire-table-or-pivottable-to-a-dashboard"></a>Een hele tabel of draaigrafiek aan een dashboard vastmaken
 Volg de bovenstaande stappen maar selecteer in plaats van een celbereik een hele tabel of draaitabel.
 
 Als u een tabel wilt vastmaken, selecteert u het volledige bereik van de tabel inclusief koppen.  Als u een draaitabel wilt vastmaken, moet u elk zichtbare gedeelte van de draaitabel opnemen, inclusief eventuele filters.

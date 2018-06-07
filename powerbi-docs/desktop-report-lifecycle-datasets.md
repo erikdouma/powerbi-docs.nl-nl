@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1bf5f83265c9d4fc11532b647207f8d273aab50c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: b1bfe0e35015cd32024b381a1859330cd8f1862a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721105"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Verbinding maken met gegevenssets in de Power BI-service vanuit Power BI Desktop
 U kunt een live verbinding maken met een gedeelde gegevensset in de Power BI-service en veel verschillende rapporten maken op basis van dezelfde gegevensset. Dit betekent dat u uw perfecte gegevensmodel in Power BI Desktop kunt maken en dit publiceren naar de Power BI-service, waarna u en anderen meerdere verschillende rapporten (in afzonderlijke .pbix-bestanden) kunnen maken op basis van hetzelfde algemene gegevensmodel. Deze functie heet **Liveverbinding met Power BI-service**.
@@ -35,6 +36,8 @@ Iedereen is dol op haar rapport, en haar gegevensset; en dat is waar het problee
 
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>Verbinding maken met een gegevensset van Power BI-service via een liveverbinding
 Nadat Anna haar rapport heeft gemaakt (en de gegevensset waarop het is gebaseerd), publiceert ze het naar de **Power BI-service** en wordt het weergegeven in de werkruimte van haar team in Power BI-service. Nu kan iedereen in haar werkruimte het zien en gebruiken.
+
+Voor meer informatie over werkruimten raadpleegt u [App-werkruimten](service-create-distribute-apps.md#app-workspaces).
 
 Andere leden van haar werkruimte kunnen nu een liveverbinding maken met het gedeelde gegevensmodel van Anna (met behulp van de functie **Liveverbinding met Power BI-service**), en eigen unieke rapporten maken op basis van *haar oorspronkelijke gegevensset*.
 

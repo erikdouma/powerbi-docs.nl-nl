@@ -8,15 +8,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 37f4e06aee41b8741dd3a1a1a52e3237fbd893a3
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 22eb44048d8a4f681d8d112ce3fdb5a841d0511e
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34293255"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584226"
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards"></a>Werken met tabelvisualisaties in Power BI-rapporten en -dashboards
 Een tabel is een raster met gerelateerde gegevens in een logische reeks rijen en kolommen. Het kan ook koppen en een rij voor totalen bevatten. Tabellen werken goed met kwantitatieve vergelijkingen waarbij u veel waarden voor één categorie bekijkt. Deze tabel geeft bijvoorbeeld 5 verschillende eenheden  voor **Categorie** weer.
@@ -119,6 +119,9 @@ Met voorwaardelijke opmaak voor tabellen kunt u aangepaste celachtergrondkleuren
 In Power BI wordt soms een kolomkop in een rapport en in een dashboard afgekapt. Houd de muis boven de ruimte aan de rechterkant van de kolomkop om de dubbele pijlen zichtbaar te maken. Selecteer deze en versleep ze om de volledige kolomnaam weer te geven.
 
 ![](media/power-bi-visualization-tables/resizetable.gif)
+
+## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
+* Wanneer u kolomopmaak toepast, kunt u slechts één uitlijningsoptie per kolom kiezen: Automatisch, Links, Centreren, Rechts. Doorgaans bevat een kolom alleen tekst of alleen getallen, en geen combinatie daarvan. Maar in het geval dat een kolom zowel getallen als tekst bevat, worden met de optie **Automatisch** teksten links uitgelijnd en getallen rechts. Dit gedrag ondersteund talen die van links naar rechts worden gelezen.   
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

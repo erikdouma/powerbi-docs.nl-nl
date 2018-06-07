@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8ad48c0e5b78dabee7b1851c75b01e7fda611c1d
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 757c1465d2451da8ebf340c7b9bfe1f4d9ff04f1
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721174"
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Rapportthema's gebruiken in Power BI Desktop (preview)
 Met **Rapportthema's** kunt u een kleurenthema op uw gehele rapport toepassen, zoals zakelijke kleuren, seizoensgebonden kleuren of andere kleurthema's die u op een rapport zou willen toepassen. Bij het toepassen van een **Rapportthema** worden voor alle visuals in het rapport de kleuren van het geselecteerde thema gebruikt. Er zijn enkele uitzonderingen van toepassing, zoals verderop in dit artikel wordt beschreven.
@@ -54,7 +55,7 @@ Het JSON-bestand heeft de volgende vereiste regels:
 
 * **name**: dit is de themanaam, het enige vereiste veld
 * **dataColors**: een lijst met hexcode-kleurcodes die voor gegevens in Power BI Desktop-visuals moeten worden gebruikt. De lijst kan zo veel of zo weinig kleuren bevatten als u wilt
-* **background**, **foreground** en **tableAccent**: deze waarden zijn kleuren die moeten worden gebruikt in **tabel**- en **matrix**-visuals. Hoe u deze kleuren gebruikt, is afhankelijk van de specifieke tabel- of matrixstijl die is toegepast. Voor de **tabel**- en **matrix**-visuals worden deze stijlen standaard toegepast.
+* **background**, **foreground** en **tableAccent**: deze waarden zijn kleuren die moeten worden toegepast in verschillende typen visuals. De **foreground** is van toepassing op tekst in tekstvakken, tekst met KPI-doelen, tekst in kaarten met meerdere rijen, kaartwaardetekst, toelichtingstekst bij meters, tekst bij verticale slicerelementen, en totalen en waardeteksten voor **tabellen** en **matrixen**. De **background** is van toepassing op de invulling van knoppen en de achtergrond van labels in combinatiegrafieken. Hoe deze kleuren worden gebruikt, is afhankelijk van de visual die is toegepast. Voor de **tabel**- en **matrix**-visuals worden deze stijlen standaard toegepast.
 
 Als u een stijl op een **tabel**- of **matrix**-visual wilt toepassen, selecteert u de visual en selecteert u in het deelvenster **Visualisaties** het gedeelte **Opmaak**. Vouw vervolgens **Matrixstijl** uit en selecteer een stijl in de vervolgkeuzelijst **Stijl**.
 

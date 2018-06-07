@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/13/2018
+ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 7006d35a76780313e4d57d0d489b5b25ed92b4d2
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: e5e257fd245687f2aeb83a9ee45c0342cf16392d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561696"
 ---
 # <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Een filter aan een Power BI-servicerapport toevoegen (in de bewerkingsweergave)
 > [!TIP]
@@ -28,7 +29,7 @@ De voorbeelden in dit artikel hebben betrekking op de Power BI-service. De stapp
 U kunt in twee modi met rapporten werken: in de [leesweergave](service-reading-view-and-editing-view.md) en de [bewerkingsweergave](service-interact-with-a-report-in-editing-view.md).  De beschikbare filtermogelijkheden zijn afhankelijk van de modus waarin u werkt.
 
 * In de bewerkingsweergave kunt u rapport-, pagina- en visualisatiefilters toevoegen. Als u het rapport opslaat, worden de filters ook opgeslagen. Personen die het rapport in de leesweergave bekijken, kunnen de filters gebruiken die u hebt toegevoegd.
-* In de leesweergave kunt u de filters voor rapporten, pagina's en visuals, en de gedetailleerde filters gebruiken die al in het rapport beschikbaar zijn. U kunt echter geen nieuwe filters toevoegen. De wijzigingen die u in het deelvenster Filters aanbrengt, worden samen met het rapport opgeslagen, zelfs als u het rapport in een mobiele app weergeeft.  
+* In de leesweergave kunt u de filters voor rapporten, pagina's en visuals, en de gedetailleerde filters gebruiken die al in het rapport beschikbaar zijn. U kunt echter geen nieuwe filters toevoegen. De wijzigingen die u in het deelvenster Filters aanbrengt, worden echter samen met het rapport opgeslagen, zelfs als u het rapport in een mobiele app weergeeft en zelfs als u het rapport laat liggen en later weer verder gaat.  
 
 > [!NOTE]
 > In dit artikel wordt beschreven hoe u filters maakt in de **bewerkingsweergave** voor rapporten.  Zie [Filters gebruiken in de leesweergave voor rapporten](service-reading-view-and-editing-view.md) voor meer informatie over filters in de leesweergave.
@@ -44,7 +45,11 @@ Er zijn vier soorten filters.
 - **Gedetailleerde filter** wordt toegepast op één item in een rapport    
 - **Rapportfilter** wordt toegepast op alle pagina's in een rapport    
 
-    ![](media/power-bi-report-add-filter/power-bi-add-filter-reading-view.png)
+    ![het deelvenster Filter in de leesweergave](media/power-bi-report-add-filter/power-bi-add-filter-reading-view.png)
+
+Omdat filters *behouden blijven*, behoudt Power BI gemaakte wijzigingen in het filter, de slicer en andere gegevensweergaven wanneer u van het rapport weg navigeert. U kunt dus verdergaan waar u bent gebleven wanneer u naar het rapport terugkeert. Als u uw filterwijzigingen niet wilt bewaren, selecteert u **Standaardinstelling herstellen** in de bovenste menubalk.
+
+![de knop permanent filter](media/power-bi-report-add-filter/power-bi-reset-to-default.png)
 
 ## <a name="add-a-filter-to-a-specific-visualization-aka-visual-filter"></a>Een filter toevoegen aan een specifieke visualisatie (ook wel een visualisatiefilter genoemd)
 U kunt dit op twee manieren doen: 
@@ -135,12 +140,13 @@ We gaan nu kijken hoe het drillthrough-filter werkt.
 1. Selecteer de pijl Vorige om terug te keren naar de vorige rapportpagina.
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
-### <a name="why-your-visual-level-filter-and-page-level-filter-may-return-different-results"></a>Waarom de filters op visueel niveau en op paginaniveau verschillende resultaten kunnen retourneren
-Als u een filter op visueel niveau toevoegt, wordt er gefilterd op de geaggregeerde resultaten.  De standaardaggregatie is Som, maar u kunt [het samenvoegingstype wijzigen](service-aggregates.md) (Engelstalig).  
 
-Als u een filter op paginaniveau toevoegt, wordt er zonder aggregeren gefilterd.  Dit gebeurt omdat een pagina meerdere visuele elementen kan bevatten die elk verschillende aggregatietypen kunnen gebruiken.  Het filter wordt dus op elke gegevensrij toegepast.
+- Er zijn situaties waarin het filter op visueel niveau en op paginaniveau verschillende resultaten kunnen retourneren.  Als u bijvoorbeeld een filter op visueel niveau toevoegt, wordt er door Power BI gefilterd op de geaggregeerde resultaten.  De standaardaggregatie is Som, maar u kunt [het samenvoegingstype wijzigen](service-aggregates.md) (Engelstalig).  
 
-Als u het deelvenster Velden niet ziet, controleer dan of u in de [bewerkingsweergave](service-interact-with-a-report-in-editing-view.md) voor rapporten zit
+    Als u vervolgens een filter op paginaniveau toevoegt, wordt er door Power BI zonder aggregeren gefilterd.  Dit gebeurt omdat een pagina meerdere visuele elementen kan bevatten die elk verschillende aggregatietypen kunnen gebruiken.  Het filter wordt dus op elke gegevensrij toegepast.
+
+- Als u het deelvenster Velden niet ziet, controleer dan of u in de [bewerkingsweergave](service-interact-with-a-report-in-editing-view.md) voor rapporten zit    
+- Als u veel wijzigingen in de filters hebt aangebracht en wilt terugkeren naar de standaardinstellingen van de auteur van het rapport, selecteert u **Standaardinstelling herstellen** in de bovenste menubalk.
 
 ## <a name="next-steps"></a>Volgende stappen
  [How to use report filters](power-bi-how-to-report-filter.md) (Rapportfilters gebruiken)

@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 11/30/2017
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 043bd43ac6d0abcd4cc4bae54f4ee57cc4ef2a41
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 2e899593cbe3453381dd2d3457cec97467aec4d6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561742"
 ---
 # <a name="embedding-with-power-bi"></a>Insluiten met Power BI
 Power BI biedt API's voor het insluiten van uw dashboards en rapporten in toepassingen. De Power BI API's bieden een consistente set mogelijkheden en toegang tot de nieuwste functies van Power BI (zoals dashboards, gateways en app-werkruimten) voor het insluiten van inhoud.
@@ -32,11 +33,13 @@ Met het insluiten van inhoud voor uw organisatie kunt u de Power BI-service uitb
 
 Zie de volgende scenario's voor informatie over het insluiten van inhoud voor uw organisatie:
 
+* [Een rapport in een app integreren](integrate-report.md)
 * [Een dashboard in een app integreren](integrate-dashboard.md)
 * [Een tegel in een app integreren](integrate-tile.md)
-* [Een rapport in een app integreren](integrate-report.md)
 
 Mogelijkheden voor selfservice, zoals bewerken, opslaan en meer, zijn beschikbaar via de [JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript) wanneer u inhoud insluit voor Power BI-gebruikers.
+
+U kunt het [hulpprogramma voor onboarding-ervaring om inhoud in te sluiten voor uw organisatie](https://aka.ms/embedsetup/UserOwnsData) uitvoeren om snel aan de slag te gaan en een voorbeeldtoepassing te downloaden waarmee u een rapport voor uw organisatie leert integreren.
 
 ## <a name="embedding-for-your-customers"></a>Inhoud voor uw klanten insluiten
 Door inhoud voor uw klanten in te sluiten kunt u dashboards en rapporten insluiten voor gebruikers die geen account voor Power BI hebben. Uw klanten hebben geen voorkennis over Power BI nodig. Er is ten minste een Power BI Pro-account nodig voor het maken van een ingesloten toepassing. Het Power BI Pro-account fungeert als hoofdaccount voor uw toepassing. U kunt dit account zien als een proxyaccount. Met het Power BI Pro-account kunt u ook insluittokens genereren die toegang bieden tot dashboards en rapporten in de Power BI-service die eigendom zijn van of worden beheerd door uw toepassing. 
@@ -50,11 +53,12 @@ Als u dashboards, rapporten en tegels wilt insluiten, gebruikt u de API's die u 
 > [!IMPORTANT]
 > Het insluiten is afhankelijk van de Power BI-service, maar uw klanten zijn niet afhankelijk van Power BI. Ze hoeven zich niet aan te melden voor Power BI om de ingesloten inhoud in uw toepassing te bekijken.
 > 
-> 
 
 Wanneer u klaar bent om tot productie over te gaan, moet uw app-werkruimte worden toegewezen aan een capaciteit. Power BI Embedded, binnen Microsoft Azure, biedt capaciteit voor gebruik met uw toepassingen.
 
 Zie [Power BI-dashboards, -rapporten en -tegels insluiten](embedding-content.md) voor informatie over het insluiten.
+
+U kunt het [hulpprogramma voor onboarding-ervaring om inhoud in te sluiten voor uw klanten](https://aka.ms/embedsetup/AppOwnsData) uitvoeren om snel aan de slag te gaan en een voorbeeldtoepassing te downloaden waarmee u een rapport in uw toepassing leert integreren.
 
 Zie [Inhoud migreren van de Power BI Workspace Collections-service in Azure](migrate-from-powerbi-embedded.md) als u de Power BI Workspace Collections-service in Azure gebruikt en op zoek bent naar meer informatie over het migreren van uw inhoud.
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 04/19/2018
+ms.date: 05/21/2018
 ms.author: maggies
-ms.openlocfilehash: 391edc8a2187f9a4af43b93f0713d40e41f6e943
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 07c393425d2a04376a4fcf81c2c35a0e115eeaee
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34295417"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481947"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Wat is er nieuw in Power BI Report Server
 Meer informatie over wat er nieuw is in Power BI Report Server. Dit onderwerp bestrijkt de primaire functiegebieden. Het wordt bijgewerkt wanneer nieuwe items worden uitgebracht.
@@ -32,6 +32,12 @@ Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mog
 * [What's new in the Power BI service](../service-whats-new.md) (Wat is er nieuw in de Power BI-service)
 * [Wat is er nieuw in Power BI Desktop](../desktop-latest-update.md)
 * [Wat is er nieuw in de mobiele apps voor Power BI](../mobile-whats-new-in-the-mobile-apps.md)
+
+## <a name="may-2018"></a>Mei 2018
+
+### <a name="configure-power-bi-ios-mobile-apps-for-report-servers-remotely"></a>Power BI mobiele iOS-apps op afstand configureren voor rapportservers
+
+Als IT-beheerder kunt u nu het MDM-hulpprogramma van uw organisatie gebruiken om op afstand toegang via de Power BI mobiele iOS-app tot een rapportserver te configureren. Zie [Toegang via Power BI mobiele iOS-apps tot rapportserver op afstand configureren](configure-powerbi-mobile-apps-remote.md) voor meer informatie.
 
 ## <a name="march-2018-release"></a>Release van maart 2018
 
@@ -204,8 +210,8 @@ Power BI Report Server ondersteunt nu de nieuwe visuele Power BI-tabel en -matri
 * Verbeterde samenwerking in rapporten met opmerkingen
 
 ## <a name="next-steps"></a>Volgende stappen
-[Gebruikershandboek](user-handbook-overview.md)  
-[Beheerdershandboek](admin-handbook-overview.md)  
+[Wat is Power BI Report Server?](get-started.md) 
+[Handboek voor beheerders](admin-handbook-overview.md)  
 [Power BI Report Server installeren](install-report-server.md)  
 [Report Builder installeren](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [SQL Server Data Tools (SSDT) downloaden](http://go.microsoft.com/fwlink/?LinkID=616714)
