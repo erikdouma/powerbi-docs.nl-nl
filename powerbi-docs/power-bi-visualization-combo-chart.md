@@ -1,30 +1,22 @@
 ---
 title: Combinatiegrafieken in Power BI
 description: In deze zelfstudie over combinatiegrafieken wordt uitgelegd wanneer u ze kunt gebruiken en hoe u in Power BI-service en Power BI Desktop kunt bouwen.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: lnv66cTZ5ho
-qualityfocus: monitoring
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/21/2018
+ms.component: powerbi-desktop
+ms.topic: conceptual
+ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 52c571d83ab6a77825945df71d3da29fd5f96d5e
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 6cc9b9cafe2b3efdb8e51e89c203e2cb123e909a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33812812"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584272"
 ---
 # <a name="combo-chart-in-power-bi"></a>Combinatiegrafieken in Power BI
 Een combinatiegrafiek in Power BI is een visualisatie waarin een lijndiagram wordt gecombineerd met een kolomdiagram. Als u deze twee diagrammen combineert, kunt u de gegevens sneller vergelijken.
@@ -113,6 +105,7 @@ U kunt nu het volgende doen:
 
 * [De combinatiegrafiek toevoegen als dashboardtegel](service-dashboard-tiles.md).
 * [Sla het rapport op](service-report-save.md).
+* [Het rapport toegankelijker maken voor mensen met beperkingen](desktop-accessibility.md)
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>Kruislings markeren en kruislings filteren
 

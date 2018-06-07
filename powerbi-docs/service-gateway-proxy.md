@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ab5afb36458d7e1b5271a356bb1532ba77de6408
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: c0ad0c22d0787eaaa45cb36c74c01f6a1d1f85e3
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722653"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Proxy-instellingen configureren voor de on-premises gegevensgateway
 Het is mogelijk dat u in uw werkomgeving alleen toegang tot internet hebt via een proxy. Hierdoor is het mogelijk dat de on-premises gegevensgateway geen verbinding kan maken met de service.
@@ -50,6 +51,19 @@ De standaardproxyconfiguratie is als volgt.
     </system.net>
 
 De standaardconfiguratie werkt met Windows-verificatie. Als uw proxy een andere vorm van verificatie gebruikt, moet u de instellingen wijzigen. Als u niet zeker weet welke vorm van verificatie wordt gebruikt, neemt u contact op met uw netwerkbeheerder.
+
+Naast het gebruik van standaardreferenties kunt u een <proxy>-element toevoegen om de proxyserverinstellingen uitgebreider te definiëren. U kunt bijvoorbeeld opgeven dat uw on-premises gegevensgateway altijd de proxy moet gebruiken, zelfs voor lokale resources, door de parameter bypassonlocal in te stellen op Onwaar. Dit is nuttig voor het oplossen van problemen als u alle https-aanvragen die afkomstig zijn van een on-premises gegevensgateway in de logboekbestanden van de proxy. De volgende voorbeeldconfiguratie geeft aan dat alle aanvragen via een specifieke proxy met IP-adres 192.168.1.10 moeten lopen.
+
+    <system.net>
+        <defaultProxy useDefaultCredentials="true">
+            <proxy  
+                autoDetect="false"  
+                proxyaddress="http://192.168.1.10:3128"  
+                bypassonlocal="false"  
+                usesystemdefault="true"
+            />  
+        </defaultProxy>
+    </system.net>
 
 Zie [Het element defaultProxy (Netwerkinstellingen)](https://msdn.microsoft.com/library/kd3cf2ex.aspx) voor meer informatie over de configuratie van de proxyelementen voor .NET-configuratiebestanden.
 

@@ -7,14 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/13/2018
+ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f5eeb877488539254478ad4bc25d64d663b797f1
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: e36cff803af74d212f4c1804fe3a955a11c193cf
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722446"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Verbinding met Salesforce maken via Power BI
 Met Power BI kunt u eenvoudig verbinding maken met uw Salesforce.com-account. Door deze verbinding te maken worden uw gegevens opgehaald en wordt er automatische een dashboard met de bijbehorende rapporten op basis van uw gegevens gemaakt.
@@ -73,7 +74,12 @@ U kunt dit dashboard wijzigen om uw gegevens weer te geven zoals u dat wilt. U k
 
 
 ## <a name="troubleshooting"></a>Problemen oplossen
-Als er fouten optreden, raadpleegt u de bovenstaande vereisten. Houd er ook rekening mee dat er geen ondersteuning wordt geboden voor aanmelden bij een aangepast of sandbox-domein.
+Als er fouten optreden, raadpleegt u de bovenstaande vereisten. Houd er ook rekening mee dat aanmelden bij een aangepast of sandbox-domein momenteel niet wordt ondersteund.
+
+### <a name="unable-to-connect-to-the-remote-server-message"></a>Het bericht Kan geen verbinding maken met de externe server
+
+Als het bericht Er kan geen verbinding worden gemaakt met de externe server wordt weergegeven wanneer u probeert verbinding te maken met uw Salesforce-account, raadpleegt u deze oplossing op het Outsystems-forum: [Bericht over fout in Salesforce Connector-logboek: Er kan geen verbinding worden gemaakt met de externe server](https://www.outsystems.com/forums/Forum_TopicView.aspx?TopicId=17674&TopicName=log-in-error-message-unable-to-connect-to-the-remote-server&)
+
 
 ## <a name="next-steps"></a>Volgende stappen
 [Aan de slag met Power BI](service-get-started.md)

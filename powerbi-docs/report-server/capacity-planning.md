@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: 94f137f0b8627bf34e78d9ac36574c64dd5d4752
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 3c3295483112ae0b5475e15c2073faba86dfff30
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561811"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Richtlijnen voor capaciteitsplanning voor Power BI Report Server
 Power BI Report Server is een selfservice-BI en rapportageoplossing voor ondernemingen die klanten on-premises, achter hun firewall kunnen implementeren. De oplossing combineert de interactieve rapportagemogelijkheden van Power BI Desktop met het on-premises serverplatform van SQL Server Reporting Services. Met het intensieve en toenemende gebruik van analyses en rapporten binnen ondernemingen is het soms behoorlijk lastig om de hardware-infrastructuur en de benodigde softwarelicenties voor het schalen van het gebruikersbestand te budgetteren. Het doel van dit document is een leidraad te geven bij de capaciteitsplanning voor Power BI Report Server door het delen van de resultaten van talrijke belastingtests die met verschillende workloads op een rapportserver zijn uitgevoerd. Hoewel de rapporten, query's en gebruikspatronen sterk kunnen variëren, vormen de resultaten die in dit artikel worden gepresenteerd, alsmede de daadwerkelijk uitgevoerde testen en de gedetailleerde beschrijving van de testprocedures, een goed referentiepunt voor iedereen die overweegt om Power BI Report Server te implementeren.
@@ -49,7 +50,7 @@ De Power BI Report Server-implementatie bestaat uit de volgende virtuele machine
 Zie bijlage 1.1 Power BI Report Server-topologie en bijlage 1.2 Configuratie van de virtuele machine van Power BI Report Server voor een grondige configuratie van elke virtuele machine die wordt gebruikt in de topologie.
 
 ### <a name="tests"></a>Testen
-De testen die worden gebruikt om de belastingtesten uit te voeren, zijn openbaar beschikbaar in een GitHub-project met de naam Reporting Services LoadTest (zie https://github.com/Microsoft/Reporting-Services-LoadTest)). Met dit hulpprogramma kunnen gebruikers de kenmerken van de prestaties, betrouwbaarheid, schaalbaarheid en herstelmogelijkheden van SQL Server Reporting Services en Power BI Report Server bestuderen. Dit project bestaat uit vier groepen van testcases:
+De testen die worden gebruikt om de belastingtesten uit te voeren, zijn openbaar beschikbaar in een GitHub-project met de naam [Reporting Services LoadTest](https://github.com/Microsoft/Reporting-Services-LoadTest). Met dit hulpprogramma kunnen gebruikers de kenmerken van de prestaties, betrouwbaarheid, schaalbaarheid en herstelmogelijkheden van SQL Server Reporting Services en Power BI Report Server bestuderen. Dit project bestaat uit vier groepen van testcases:
 
 * Testen waarbij de weergave van Power BI-rapporten wordt gesimuleerd.
 * Testen waarbij de weergave van mobiele rapporten wordt gesimuleerd.

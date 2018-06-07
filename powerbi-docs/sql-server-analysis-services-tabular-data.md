@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 51f813d4d92ac94b43c0f2b7cd0fcad1f0673b5e
-ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
+ms.openlocfilehash: 86dabdb84dd4ca949930c25213f554060135f10a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722949"
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Live SQL Server Analysis Services-gegevens in Power BI
 U kunt in Power BI op twee manieren verbinding maken met een live SQL Server Analysis Services-server. In **Gegevens ophalen** kunt u verbinding maken met een SQL Server Analysis Services-server of u kunt verbinding maken met een [Power BI Desktop-bestand](service-desktop-files.md) of [Excel-werkmap](service-excel-workbook-files.md) die al verbonden is met een Analysis Services-server. Microsoft raadt als best practice sterk aan om Power BI Desktop te gebruiken vanwege de uitgebreide functionaliteit van de set hulpmiddelen en de mogelijkheid om lokaal een back-up van het Power BI Desktop-bestand te onderhouden.
@@ -44,9 +45,12 @@ Nadat u verbinding met het model hebt gemaakt, wordt deze weergegeven in uw Powe
 ## <a name="dashboard-tiles"></a>Dashboardtegels
 Als u visuals uit een rapport aan een dashboard vastmaakt, worden de vastgemaakte tegels automatisch elke tien minuten vernieuwd. Als de gegevens in uw on-premises Analysis Services-server zijn bijgewerkt, worden de tegels na tien minuten automatisch bijgewerkt.
 
+## <a name="common-issues"></a>Veelvoorkomende problemen
+
+* Fout: kan het modelschema niet laden: deze fout treedt op wanneer de gebruiker die verbinding maakt met SSAS geen toegang heeft tot SSAS-database, -kubus en -model.
+
 ## <a name="next-steps"></a>Volgende stappen
 [On-premises gegevensgateway](service-gateway-onprem.md)  
 [Uw Analysis Services-gegevensbronnen beheren](service-gateway-enterprise-manage-ssas.md)  
 [Problemen met de on-premises gegevensgateway oplossen](service-gateway-onprem-tshoot.md)  
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
-

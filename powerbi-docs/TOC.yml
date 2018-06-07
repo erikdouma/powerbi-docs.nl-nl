@@ -234,6 +234,8 @@
                   href: service-dashboard-featured.md
                 - name: Centraal meldingencentrum van Power BI
                   href: service-notification-center.md
+                - name: Dashboardthema’s
+                  href: service-dashboard-themes.md
             - name: Rapporten
               items:
                 - name: Wijzigen hoe een diagram in een Power BI-rapport wordt gesorteerd
@@ -572,6 +574,8 @@
               href: desktop-import-excel-workbooks.md
             - name: Verbinding met gegevens maken via algemene interfaces
               href: desktop-connect-using-generic-interfaces.md
+            - name: Verbinding maken met Adobe Analytics
+              href: desktop-connect-adobe-analytics.md
             - name: Verbinding maken met een Oracle-database
               href: desktop-connect-oracle-database.md
             - name: R-scripts uitvoeren in Power BI Desktop
@@ -616,8 +620,6 @@
               href: desktop-directquery-sap-hana.md
             - name: De instelling Referentiële integriteit aannemen in Power BI Desktop
               href: desktop-assume-referential-integrity.md
-            - name: DirectQuery voor Oracle- en Teradata-databases
-              href: desktop-directquery-for-oracle-teradata.md
             - name: De SAP BW-connector in Power BI Desktop gebruiken (preview)
               href: desktop-sap-bw-connector.md
             - name: Koppelingen van OneDrive voor Bedrijven gebruiken in Power BI Desktop
@@ -788,6 +790,8 @@
           href: desktop-send-smile-privacy-statement.md
         - name: Toegankelijkheid in Power BI-rapporten
           href: desktop-accessibility.md
+        - name: Het Power BI Desktop-aanmeldingsformulier beheren
+          href: desktop-admin-sign-in-form.md
 - name: Power BI - Mobiel-apps
   items:
     - name: Overzicht

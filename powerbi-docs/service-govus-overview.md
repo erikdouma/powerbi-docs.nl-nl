@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ecd3c4a3d9cf9beddff5053f3dc696e6e99de70a
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.openlocfilehash: e676ef85d982a59b7058bce9e6467e8482b7aa62
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722686"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI voor klanten uit de Amerikaanse overheid
 Er is als onderdeel van **Office 365 US Government Community**-abonnement een versie van de **Power BI-service** beschikbaar voor Amerikaanse overheidsklanten. De versie van de **Power BI-service** die in dit artikel wordt besproken, is specifiek ontworpen voor Amerikaanse overheidsklanten en staat los en verschilt van de commerciële versie van de **Power BI-service**.
@@ -55,9 +56,10 @@ Enkele van de functies die beschikbaar in de commerciële versie van de **Power 
 
 * **Insluiten in SharePoint Online**: het is niet mogelijk inhoud in te sluiten in SharePoint Online met het Power BI-webonderdeel.
 * **Power BI voor de Amerikaanse overheid** is alleen beschikbaar met een **Pro**-licentie. Power BI Free-licenties waarnaar wordt verwezen in een beheerportal (of een portal voor gebruikers) worden uitgevoerd in een commerciële Power BI-servicecloud.
-* **Controleren** - Controleren is niet beschikbaar via de Office 365-portal Beveiliging en naleving.
+* **Controleren**: controleren is nu, vanaf juni 2018, beschikbaar via de Office 365-portal Beveiliging en naleving.
 * **Power BI-inhoud in Cortana** - resultaten voor Power BI wordt niet weergegeven in zoekresultaten van Cortana, waaronder resultaten voor uw Power BI-inhoud (dashboards, rapporten en apps) en tevens resultaten die voor Cortana geoptimaliseerde rapportpagina's weergeven voor specifieke trefwoorden.
-* **Externe gebruiker delen**: delen is alleen toegestaan binnen een Power BI-tenant. U kunt niet met gebruikers buiten uw Power BI-tenant delen.
+* **Externe gebruiker delen**: delen is toegestaan binnen een Power BI-tenant en vanaf juni 2018 kunt u ook met gebruikers buiten uw Power BI-tenant delen.
+* **Metrische gegevens over het gebruik van dashboards en rapporten**: metrische gegevens over het gebruik zijn beschikbaar voor rapporten en dashboards. Klanten kunnen gegevens uit auditlogboeken gebruiken om informatie op te halen over inhoud in hun organisatie.
 
 Als er **Power BI** Free-licenties zijn toegewezen aan uw account, worden die accounts uitgevoerd in een commerciële versie van de **Power BI**-service en maken ze geen deel uit van **Power BI voor de Amerikaanse overheid**. Bij deze Free-accounts kunnen de volgende problemen optreden:
 

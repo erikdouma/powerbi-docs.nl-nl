@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 21ceec0ea522bd45a937096bcd778f2695c1edc3
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 4eb9f8e0b8548fbecd4e5d2e2fd47c4c3acd2bd6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722811"
 ---
 # <a name="on-premises-data-gateway"></a>On-premises gegevensgateway
 
@@ -93,6 +94,11 @@ Wanneer u een gegevensbron aan de gateway toevoegt, moet u referenties opgeven v
 
 Er is momenteel geen centrale locatie waar tenantbeheerders alle gateways kunnen beheren die andere gebruikers hebben geïnstalleerd en geconfigureerd.  Als u een tenantbeheerder bent, kunt u het beste de gebruikers in uw organisatie vragen u toe te voegen als beheerder aan elke gateway die ze installeren. Op deze manier kunt u alle gateways in uw organisatie beheren via de pagina Gateway-instellingen of via [PowerShell-opdrachten](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters). 
 
+## <a name="enabling-outbound-azure-connections"></a>Uitgaande Azure-verbindingen inschakelen 
+De on-premises gegevensgateway is afhankelijk van Azure Service Bus voor cloudconnectiviteit en brengt dienovereenkomstig uitgaande verbindingen naar de bijbehorende Azure-regio tot stand. Standaard is dit de locatie van uw Power BI-tenant. Zie [Waar bevindt mijn Power BI-tenant zich?](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-where-is-my-tenant-located/)
+Als uitgaande verbindingen door een firewall worden geblokkeerd, moet u de firewall configureren zodat deze uitgaande verbindingen toestaat van de on-premises gegevensgateway naar de bijbehorende Azure-regio. Zie [Microsoft Azure Datacenter IP-bereiken](https://www.microsoft.com/en-us/download/details.aspx?id=41653) voor meer informatie over het IP-adressenbereik van elk Azure-datacenter.
+> [!NOTE]
+> Het IP-adressenbereik kan na verloop van tijd worden gewijzigd; download dus regelmatig de nieuwste informatie. 
 
 ## <a name="troubleshooting"></a>Problemen oplossen
 Zie [Problemen met de on-premises gegevensgateway oplossen](service-gateway-onprem-tshoot.md) als u problemen hebt bij het installeren en configureren van een gateway. Als u denkt dat er een probleem is met uw firewall, raadpleegt u de sectie [Firewall of proxyserver](service-gateway-onprem-tshoot.md#firewall-or-proxy) in het artikel over probleemoplossing.

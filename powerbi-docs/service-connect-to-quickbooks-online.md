@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ab914cd883d9a297150dd9a33dce9c6ce76308bf
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 7caf471674c20607826550fc14f8ebc8e772b61a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584249"
 ---
 # <a name="connect-to-quickbooks-online-with-power-bi"></a>Verbinding maken met QuickBooks Online via Power BI
 Wanneer u in Power BI verbinding maakt met uw QuickBooks Online-gegevens, worden direct een Power BI-dashboard en Power BI-rapporten weergegeven die inzicht geven in onder andere uw cashflow, winstgevendheid en klanten. U kunt het dashboard en de rapporten ongewijzigd gebruiken of deze aanpassen om de informatie die u het belangrijkst vindt eruit te laten springen. De gegevens worden eenmaal per dag automatisch vernieuwd.
@@ -22,7 +23,7 @@ Wanneer u in Power BI verbinding maakt met uw QuickBooks Online-gegevens, worden
 Maak verbinding met het [QuickBooks Online-inhoudspakket](https://dxt.powerbi.com/getdata/services/quickbooks-online) voor Power BI.
 
 >[!NOTE]
->Als u uw QuickBooks Online-gegevens in Power BI wilt importeren, moet u een beheerder zijn voor uw QuickBooks Online-account en u aanmelden met uw beheerdersreferenties voor het account.
+>Als u uw QuickBooks Online-gegevens in Power BI wilt importeren, moet u een beheerder zijn voor uw QuickBooks Online-account en u aanmelden met uw beheerdersreferenties voor het account. U kunt deze connector niet gebruiken in combinatie met QuickBooks Desktop-software. 
 
 ## <a name="how-to-connect"></a>Verbinding maken
 1. Selecteer **Gegevens ophalen** onder in het linkernavigatievenster.

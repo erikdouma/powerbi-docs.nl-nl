@@ -3,18 +3,18 @@ title: Power BI-inhoud insluiten in een toepassing voor uw klanten
 description: Informatie over het integreren of insluiten van een rapport, dashboard of tegel in een web-app met behulp van de Power BI-API's voor uw klanten.
 author: markingmyname
 ms.author: maghan
-ms.date: 05/07/2018
+ms.date: 05/25/2018
 ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: dd46617f5a3b1445c597656148e4068ef3cfed92
-ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
+ms.openlocfilehash: ae683dfbeb7b3848575ab766c33b695eb823d497
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/22/2018
-ms.locfileid: "34445228"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721036"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Zelfstudie: een Power BI-rapport, dashboard of tegel insluiten in een toepassing voor uw klanten
 Met **Power BI Embedded in Azure** kunt u rapporten, dashboards en tegels in een toepassing insluiten met de **gegevens waarvan de app eigenaar is**. Als **de app eigenaar is van de gegevens** kunt u een toepassing gebruiken die Power BI gebruikt als ingesloten analytics platform. Dit is doorgaans een scenario voor een **ISV-ontwikkelaar**. Als **ISV-ontwikkelaar** kunt u Power BI-inhoud maken waarmee rapporten, dashboards of tegels worden weergegeven in een toepassing die volledig geïntegreerd en interactief is, zonder dat gebruikers van de toepassing een licentie voor Power BI moeten hebben, of zelfs merken dat achter de schermen Power BI wordt gebruikt. In deze zelfstudie leert u hoe u een rapport in een toepassing kunt integreren met de .NET SDK voor **Power BI** en de JavaScript-API voor **Power BI** bij gebruik van **Power BI Embedded in Azure** voor uw klanten wanneer de **app eigenaar is van de gegevens**.
@@ -36,6 +36,9 @@ Als u wilt beginnen, hebt u een **Power BI Pro**-account als **hoofdaccount** en
 
 Voordat u begint met het insluiten van dashboards, rapporten en tegels in uw toepassing, moet u ervoor zorgen dat uw omgeving is ingesteld voor het insluiten van inhoud. Als onderdeel van het instellingsproces moet u het volgende doen.
 
+U kunt het [hulpprogramma voor onboarding-ervaring](https://aka.ms/embedsetup/AppOwnsData) uitvoeren om snel aan de slag te gaan en een voorbeeldtoepassing te downloaden waarmee u een omgeving leert maken en een rapport leert insluiten.
+
+Als u echter besluit de omgeving handmatig in te stellen, kunt u hieronder doorgaan.
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Een toepassing registreren in Azure Active Directory (Azure AD)
 
 U kunt uw toepassing registreren bij Azure Active Directory AD zodat uw toepassing toegang heeft tot de Power BI REST-API's. Hiermee kunt u een identiteit instellen voor uw toepassing en machtigingen opgeven voor Power BI REST-resources.

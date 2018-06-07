@@ -8,14 +8,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/19/2017
+ms.date: 05/25/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 757f59b59ea13478a943650f23ef98d9cc5b3e08
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 1c9948ad5c09b3123d898bf8841243d6e5fa83fd
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34553560"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Insluiten met webonderdeel Rapport in SharePoint Online
 
@@ -142,7 +143,9 @@ Neem contact op met de eigenaar van de SharePoint Online-pagina, die u kan helpe
 
 * Er kunnen problemen optreden als u Internet Explorer 10 gebruikt. U kunt de [browserondersteuning voor Power BI](service-browser-support.md) en voor [Office 365](https://products.office.com/office-system-requirements#Browsers-section) onderzoeken.
 
-* Het Power BI-webonderdeel is niet beschikbaar in [nationale clouds](https://powerbi.microsoft.com/en-us/clouds/). 
+* Het Power BI-webonderdeel is niet beschikbaar in [onafhankelijke clouds](https://powerbi.microsoft.com/en-us/clouds/).
+
+* De klassieke SharePoint Server wordt niet ondersteund met dit webonderdeel.
 
 ## <a name="next-steps"></a>Volgende stappen
 

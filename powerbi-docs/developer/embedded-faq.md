@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 04/23/2018
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 255efac5d5bf73bca3126f869d4c7434d5c6ef0f
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: d7baa305c514d084f6390754d516b238794bcdbf
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34289735"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721013"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Veelgestelde vragen over Power BI Embedded
 
@@ -102,6 +102,9 @@ Power BI Embedded blijft Azure AD gebruiken voor de verificatie van de hoofdgebr
 De verificatie en autorisatie van de toepassingsgebruikers wordt geïmplementeerd door de ISV. ISV's kunnen hun eigen verificatie implementeren voor hun toepassingen.
 
 Als u al een Azure AD-tenant hebt, kunt u uw bestaande adreslijst gebruiken of u kunt een nieuwe Azure AD-tenant maken voor de beveiliging van de inhoud van uw ingesloten toepassing.
+
+Voor het ophalen van een AAD-token kunt u een van de Azure Active Directory-verificatiebibliotheken gebruiken. Er zijn clientbibliotheken beschikbaar voor meerdere platformen.
+https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries
 
 ### <a name="how-is-power-bi-embedded-different-from-other-azure-services"></a>Hoe verschilt Power BI Embedded van andere Azure-services?
 
@@ -205,6 +208,31 @@ Hieronder vindt u enkele voorbeelden van deze functies:
 * Alle PBI-gegevensbronnen worden ondersteund, in tegenstelling tot de twee gegevensbronnen die in de **Power BI-werkruimteverzameling** worden ondersteund. 
 * Nieuwe functies, zoals functies voor Q&A, vernieuwen, bladwijzers, het insluiten van dashboards en tegels, aangepaste menu's, enzovoort, worden alleen ondersteund in de **Power BI Embedded**-oplossing.
 * Model voor facturering van capaciteit.
+
+## <a name="onboarding-experience-tool-for-embedding"></a>Hulpprogramma voor onboarding-ervaring voor insluiten
+
+### <a name="what-is-the-onboarding-experience-tool"></a>Wat is het hulpprogramma voor onboarding-ervaring?
+
+Met het [hulpprogramma voor onboarding-ervaring](https://aka.ms/embedsetup) kunt u snel aan de slag en een voorbeeldtoepassing downloaden om met het insluiten van inhoud met behulp van Power BI te beginnen.
+
+### <a name="which-solution-should-i-choose"></a>Welke oplossing moet ik kiezen?
+
+* [Door inhoud voor uw klanten in te sluiten](embedding.md#embedding-for-your-customers) kunt u dashboards en rapporten insluiten voor gebruikers die geen account voor Power BI hebben. Voer de oplossing [Insluiten voor uw klanten](https://aka.ms/embedsetup/AppOwnsData) uit.
+* [Met het insluiten van inhoud voor uw organisatie](embedding.md#embedding-for-your-organization) kunt u Power BI-service uitbreiden. Voer de oplossing [Insluiten voor uw organisatie](https://aka.ms/embedsetup/UserOwnsData) uit.
+
+### <a name="ive-downloaded-the-sample-app-which-solution-do-i-choose"></a>Ik heb de voorbeeld-app gedownload. Welke oplossing moet ik kiezen?
+
+Als u met de ervaring **Insluiten voor uw klanten** werkt, moet u het bestand *PowerBI-Developer-Samples.zip* opslaan en uitpakken. Open vervolgens de map *PowerBI-Developer-Samples-master\App Owns Data* en voer het bestand *PowerBIEmbedded_AppOwnsData.sln* uit.
+
+Als u met de ervaring **Insluiten voor uw organisatie** werkt, moet u het bestand *PowerBI-Developer-Samples.zip* opslaan en uitpakken. Open vervolgens de map *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* en voer het bestand *pbi-saas-embed-report.sln* uit.
+
+### <a name="how-can-i-edit-my-registered-application"></a>Hoe kan ik mijn geregistreerde toepassing bewerken?
+
+U kunt [hier](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application) leren hoe u geregistreerde AAD-toepassingen bewerkt.
+
+### <a name="how-can-i-edit-my-power-bi-user-profile-or-data"></a>How kan ik mijn Power BI-gebruikersprofiel of -gegevens bewerken?
+
+U kunt [hier](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts) leren hoe u uw Power BI-gegevens bewerkt.
 
 Zie voor meer informatie [Problemen oplossen met uw ingesloten toepassing](embedded-troubleshoot.md)
 

@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 04/23/2018
+ms.date: 05/21/2018
 ms.author: maggies
-ms.openlocfilehash: 5bd38c7973a4820b98e6591a12a8950987759b93
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 0e4401499ab54707970b928366c67a9dcf7d587a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34482171"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -21,6 +22,12 @@ Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mog
 * [Power BI team blog for the mobile apps](https://powerbi.microsoft.com/blog/tag/mobile/) (Power BI-teamblog voor mobiele apps)
 * [What's new in Power BI Desktop](desktop-latest-update.md) (Wat is er nieuw in Power BI Desktop)  
 * [What's new in the Power BI service](service-whats-new.md) (Wat is er nieuw in de Power BI-service)  
+
+## <a name="may-2018"></a>Mei 2018
+
+### <a name="configure-power-bi-ios-mobile-apps-for-report-servers-remotely"></a>Power BI mobiele iOS-apps op afstand configureren voor rapportservers
+
+Uw IT-beheerder kan nu een MDM-hulpprogramma gebruiken om toegang via een Power BI mobiele iOS-app tot een rapportserver te configureren. Zie [Toegang via Power BI mobiele iOS-apps tot rapportserver op afstand configureren](report-server/configure-powerbi-mobile-apps-remote.md) voor meer informatie.
 
 ## <a name="april-2018"></a>April 2018
 
@@ -399,7 +406,7 @@ Lees de [blog over mobiele Power BI-apps van maart 2016](https://powerbi.microso
 #### <a name="iphone-mobile-app"></a>Mobiele iPhone-app
 **Apple Watch** Bekijk uw Power BI-tegels en KPI's op uw [Apple Watch](mobile-apple-watch.md) (Engelstalig).
 
-**iOS 9.0 en hoger ** Voor de beste prestaties en om nieuwe functies voor Power BI mogelijk te maken, worden alleen apparaten ondersteund waarop iOS 9.0 en hoger wordt uitgevoerd.
+**iOS 9.0 en hoger**  Voor de beste prestaties en om nieuwe functies voor Power BI mogelijk te maken, worden alleen apparaten ondersteund waarop iOS 9.0 en hoger wordt uitgevoerd.
 
 **Algemene zoekopdracht** Lijst met onlangs weergegeven items en globale zoekopdracht toegevoegd, zodat u snel de benodigde gegevens kunt vinden.
 

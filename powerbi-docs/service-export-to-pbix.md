@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 90f7cddec13159c445dc97f7adeea790020f8c72
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.openlocfilehash: 938f7b5f905d156518f71a30b355575cf1c04683
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722538"
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Een rapport vanuit de Power BI-service exporteren naar Desktop (preview-versie)
 In Power BI Desktop kunt u een rapport exporteren (ook wel *downloaden* genoemd) naar de Power BI-service door het rapport op te slaan en **Publiceren** te kiezen. U kunt ook de andere kant op exporteren en een rapport downloaden van de Power BI-service naar Desktop. De extensie voor bestanden die worden geëxporteerd in beide richtingen is *.pbix*.
@@ -57,6 +58,7 @@ Er zijn enkele belangrijke overwegingen en beperkingen met betrekking tot het do
 * Deze functie werkt niet met rapporten die oorspronkelijk zijn gemaakt in de **Power BI-service**, met inbegrip van inhoudspakketten.
 * U moet altijd de nieuwste versie van **Power BI Desktop** gebruiken wanneer u gedownloade bestanden opent. Gedownloade *.pbix*-bestanden kunnen mogelijk niet worden geopend in versies van **Power BI Desktop** die niet up-to-date zijn.
 * Als uw beheerder de mogelijkheid om gegevens te exporteren heeft uitgeschakeld, is deze functie niet meer zichtbaar in de **Power BI-service**.
+* Gegevensset met incrementeel vernieuwen kan niet worden gedownload naar een *.pbix*-bestand.
 
 ## <a name="next-steps"></a>Volgende stappen
 Bekijk de één minuut durende video **Guy in a Cube** over deze functie:

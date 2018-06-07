@@ -9,11 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 2108d8fc290a5af568a3e06ae5986e82413b680b
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: fa142a34da003328ef509c319faf24d556023440
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34720806"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Problemen oplossen met uw ingesloten toepassing
 
@@ -74,7 +75,7 @@ Mogelijk is er een Fiddler-opname nodig om het probleem nader te onderzoeken. He
 
 Mogelijk is er een Fiddler-opname nodig om het probleem nader te onderzoeken. Er kunnen verschillende reden zijn voor een 403-fout.
 
-* De gebruiker heeft de hoeveelheid insluittokens overschreden die voor een gedeelde capaciteit kan worden gemaakt. U moet Azure-capaciteit aanschaffen als u insluittokens wilt genereren, en de werkruimte vervolgens aan die capaciteit toewijzen. Zie [Create Power BI Embedded capacity in the Azure portal](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity) (Power BI Embedded-capaciteit maken in Azure Portal).
+* De gebruiker heeft de hoeveelheid insluittokens overschreden die voor een gedeelde capaciteit kan worden gemaakt. U moet Azure-capaciteit aanschaffen als u insluittokens wilt genereren, en de werkruimte vervolgens aan die capaciteit toewijzen. Zie [Create Power BI Embedded capacity in the Azure portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity) (Power BI Embedded-capaciteit maken in Azure Portal).
 * Het Azure AD-verificatietoken is verlopen.
 * De geverifieerde gebruiker is geen lid van de groep (app-werkruimte).
 * De geverifieerde gebruiker is geen beheerder van de groep (app-werkruimte).
@@ -132,6 +133,53 @@ Als de gebruiker het rapport of het dashboard niet ziet, controleert u of het ra
 **Het rapport of het dashboard presteert traag**
 
 Open het bestand vanuit Power BI Desktop, of in powerbi.com, om te controleren of de prestaties acceptabel zijn. Zodoende kunt u problemen met uw toepassing of de API voor insluiten uitsluiten.
+
+## <a name="onboarding-experience-tool-for-embedding"></a>Hulpprogramma voor onboarding-ervaring voor insluiten
+
+U kunt het [hulpprogramma voor onboarding-ervaring](https://aka.ms/embedsetup) uitvoeren om snel een voorbeeldtoepassing te downloaden. Vervolgens kunt u uw toepassing vergelijken met het voorbeeld.
+
+### <a name="prerequisites"></a>Vereisten
+
+Verifieer dat u aan alle voorwaarden voldoet voordat u het hulpprogramma voor onboarding-ervaring gebruikt. U hebt een **Power BI Pro**-account en een **Microsoft Azure**-account nodig.
+
+* Als u zich niet hebt geregistreerd voor **Power BI Pro**, [kunt u zich hier aanmelden voor een gratis proefversie](https://powerbi.microsoft.com/en-us/pricing/) voordat u begint.
+* Als u nog geen abonnement op Azure hebt, maakt u een [gratis account](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) voordat u begint.
+* U moet beschikken over een eigen [Azure Active Directory-tenant ](create-an-azure-active-directory-tenant.md).
+* [Visual Studio](https://www.visualstudio.com/) moet zijn geïnstalleerd (versie 2013 of hoger).
+
+### <a name="common-issues"></a>Veelvoorkomende problemen
+
+Hier volgt een lijst met veelvoorkomende problemen die kunnen optreden wanneer u testen uitvoert met het hulpprogramma voor onboarding-ervaring:
+
+#### <a name="using-the-embed-for-your-customers-sample-application"></a>De voorbeeldtoepassing Insluiten voor uw klanten gebruiken
+
+Als u met de ervaring **Insluiten voor uw klanten** werkt, moet u het bestand *PowerBI-Developer-Samples.zip* opslaan en uitpakken. Open vervolgens de map *PowerBI-Developer-Samples-master\App Owns Data* en voer het bestand *PowerBIEmbedded_AppOwnsData.sln* uit.
+
+Als u **Machtigingen verlenen** selecteert (de stap Machtigingen verlenen), krijgt u de volgende fout:
+
+    AADSTS70001: Application with identifier <client ID> was not found in the directory <directory ID>
+
+U lost dit op door het pop-upvenster te sluiten, enkele seconden te wachten en het vervolgens opnieuw te proberen. Mogelijk moet u deze actie een aantal keer herhalen. Een tijdsinterval zorgt ervoor dat het registratieproces voor de toepassing door het probleem niet kan worden voltooid voordat dit beschikbaar is voor externe API’s.
+
+De volgende foutmelding wordt weergegeven wanneer u de voorbeeld-app uitvoert:
+
+    Password is empty. Please fill password of Power BI username in web.config.
+
+Deze fout treedt op omdat de enige waarde die niet in de voorbeeldtoepassing wordt ingevoerd uw gebruikerswachtwoord is. Open het Web.config-bestand in de oplossing en vul in het veld pbiPassword het wachtwoord van uw gebruiker in.
+
+#### <a name="using-the-embed-for-your-organization-sample-application"></a>De voorbeeldtoepassing Insluiten voor uw organisatie gebruiken
+
+Als u met de ervaring **Insluiten voor uw organisatie** werkt, moet u het bestand *PowerBI-Developer-Samples.zip* opslaan en uitpakken. Open vervolgens de map *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* en voer het bestand *pbi-saas-embed-report.sln* uit.
+
+Wanneer u de voorbeeld-app **Insluiten voor uw organisatie** uitvoert, krijgt u de volgende fout:
+
+    AADSTS50011: The reply URL specified in the request does not match the reply URLs configured for the application: <client ID>
+
+Dit komt doordat de omleidings-URL die is opgegeven voor de web-servertoepassing afwijkt van de URL van het voorbeeld. Als u de voorbeeldtoepassing wilt registreren, gebruikt u *http://localhost:13526/* als de omleidings-URL.
+
+Als u de geregistreerde toepassing wilt bewerken, moet u leren hoe u de [geregistreerde AAD-toepassing](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application) bewerkt, zodat de toepassing toegang kan geven tot de web-API’s.
+
+Als u uw Power BI-gebruikersprofiel of -gegevens wilt bewerken, leert u hoe u uw [Power BI-gegevens](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts) moet bewerken.
 
 Zie [Veelgestelde vragen over Power BI Embedded](embedded-faq.md) voor meer informatie.
 

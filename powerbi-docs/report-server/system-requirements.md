@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/01/2017
+ms.date: 05/18/2018
 ms.author: maghan
-ms.openlocfilehash: 2963dbe2a5d1109e4396568624e16bf49d98da10
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 3b0e9c148b86d8bf762a31cca5c3421df454502d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481718"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Hardware- en softwarevereisten voor het installeren van Power BI Report Server
 Hier worden de minimale hardware- en softwarevereisten voor het installeren en uitvoeren van Power BI Report Server behandeld.
@@ -66,8 +67,8 @@ U kunt een liveverbinding gebruiken voor tabelvormige of multidimensionale exemp
 | 2016 en later |Standaard SKU of hoger |
 
 ## <a name="next-steps"></a>Volgende stappen
-[Gebruikershandboek](user-handbook-overview.md)  
-[Beheerdershandboek](admin-handbook-overview.md)  
+[Wat is Power BI Report Server?](get-started.md)  
+[Administratoroverzicht](admin-handbook-overview.md)  
 [Power BI Report Server installeren](install-report-server.md)  
 [Report Builder installeren](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [SQL Server Data Tools (SSDT) downloaden](http://go.microsoft.com/fwlink/?LinkID=616714)

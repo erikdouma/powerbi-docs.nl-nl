@@ -8,15 +8,15 @@ featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/05/2018
+ms.date: 05/25/2018
 ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 77c1dbe528b218fe3b51992f548325bb8916c22c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 75ae82e43987cb42b858fe4350330fda3692cf97
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34297349"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721496"
 ---
 # <a name="slicers-in-power-bi"></a>Slicers in Power BI
 U wilt dat de lezers van uw rapport de algemene metrische gegevens voor de verkoop kunnen bekijken, maar dat ze ook prestaties voor afzonderlijke districtmanagers en verschillende perioden kunnen markeren. U kunt aparte rapporten of vergelijkende grafieken maken of u kunt gebruikmaken van slicers. Een slicer is een alternatieve manier om te filteren. U beperkt hiermee het gedeelte van de gegevensset dat wordt weergegeven in de andere visualisaties in een rapport. 
@@ -43,6 +43,13 @@ Slicers van Power BI hebben de volgende beperkingen:
 ## <a name="create-slicers"></a>Slicers maken
 
 Voor het maken van een nieuwe slicer kunt u het slicerpictogram selecteren en vervolgens het gegevensveld selecteren waarop u wilt filteren (of het naar het vak **Velden** in het deelvenster **Visualisaties** slepen). U kunt ook eerst het gegevensveld selecteren of slepen om een visualisatie te maken en vervolgens het slicerpictogram selecteren om de visualisatie om te zetten in een slicer. Met verschillende gegevenstypen worden verschillende typen slicers met verschillende effecten en opties gemaakt. 
+
+Wanneer u een rapport voor de eerste keer wijzigt, wordt de knop voor **Standaardinstelling herstellen** geactiveerd. Dit helpt u eraan herinneren dat u de oorspronkelijke rapportinstellingen hebt gewijzigd. Als u weg navigeert van het rapport, wordt die wijziging opgeslagen (behouden). Wanneer u terugkeert naar het rapport hoeft u het rapport niet opnieuw te segmenteren.  Als u het rapport echter wilt terugzetten naar de standaardinstellingen van de auteur, selecteert u de knop **Standaardinstelling herstellen** in de bovenste menubalk.
+
+![de knop Herstellen naar standaardwaarde](media/power-bi-visualization-slicers/power-bi-reset-to-default.png)
+
+> [!NOTE]
+> Als de knop **Standaardinstelling herstellen** nog steeds uitgeschakeld is, betekent dit dat de auteur van het rapport de functie voor het rapport heeft uitgeschakeld of dat het rapport een aangepaste visual bevat. Beweeg de muisaanwijzer boven de knop om de knopinfo te lezen voor een uitleg. 
 
 **Een nieuwe slicer maken om gegevens te filteren op districtmanager**
 

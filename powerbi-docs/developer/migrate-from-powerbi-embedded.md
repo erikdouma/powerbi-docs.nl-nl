@@ -6,13 +6,14 @@ manager: kfile
 ms.reviewer: ''
 ms.Embedded: powerbi
 ms.topic: conceptual
-ms.date: 03/06/2018
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: bfee68658816d46e23a3b66f9b04b2069704a2b8
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 67b52fa94ee3af9da3bfcae17f69a72e1aa46c77
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34689778"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Inhoud van de Power BI-werkruimteverzameling migreren naar Power BI Embedded
 Informatie over het migreren van Power BI-werkruimteverzameling naar Power BI Embedded en hoe u gebruikmaakt van ontwikkelingen voor het insluiten van inhoud in apps.
@@ -26,9 +27,14 @@ De huidige Power BI-werkruimteverzameling blijft beschikbaar gedurende een beper
 > [!IMPORTANT]
 > Hoewel de migratie afhankelijk is van Power BI Embedded, zijn de gebruikers van uw toepassing niet afhankelijk van Power BI als deze een **insluittoken** gebruiken. Ze hoeven zich niet aan te melden voor Power BI om de ingesloten inhoud in uw toepassing te bekijken. U kunt deze aanpak voor insluiten gebruiken voor Embedded-gebruikers die niet beschikken over Power BI.
 > 
-> 
 
 ![](media/migrate-from-powerbi-embedded/powerbi-embed-flow.png)
+
+Voordat u aan de slag gaat met de migratie naar de nieuwe Power BI Embedded, kunt u snel een overzicht raadplegen voor hulp bij het instellen van uw nieuwe Power BI Embedded-omgeving met het [hulpprogramma voor onboarding-ervaring](https://aka.ms/embedsetup).
+
+Kies de oplossing die het beste bij u past:
+* **Insluiten voor uw klanten**: wanneer u geïnteresseerd bent in een oplossing [waarbij de app eigenaar van de gegevens is](https://aka.ms/embedsetup/AppOwnsData). [Door inhoud voor uw klanten in te sluiten](embedding.md#embedding-for-your-customers) kunt u dashboards en rapporten insluiten voor gebruikers die geen account voor Power BI hebben. 
+* **Insluiten voor uw organisatie**: wanneer u geïnteresseerd bent in een oplossing [waarbij de gebruiker eigenaar van de gegeven is](https://aka.ms/embedsetup/UserOwnsData). [Met het insluiten van inhoud voor uw organisatie](embedding.md#embedding-for-your-organization) kunt u de Power BI-service uitbreiden.
 
 ## <a name="prepare-for-the-migration"></a>Voorbereiden voor de migratie
 Er zijn enkele dingen die u moet doen om inhoud voor te bereiden op een migratie van Power BI-werkruimteverzameling naar Power BI Embedded. U moet een tenant hebben die beschikbaar is en een gebruiker die een licentie voor Power BI Pro heeft.
@@ -63,10 +69,6 @@ De volgende accounts moet binnen uw tenant aanwezig zijn.
    
 > [!NOTE]
 > Dit is een normaal gebruikersaccount in uw organisatie dat wordt gebruikt voor het insluiten van inhoud.
->
-
-> [!NOTE]
-> Als tokenverificatie voor alleen apps een vereiste voor uw toepassing is, klikt u [hier](mailto:pbieci@microsoft.com?Subject=App-only%20token%20requirement) om contact met ons op te nemen.
 >
 
 ## <a name="app-registration-and-permissions"></a>Registratie en machtigingen voor de app

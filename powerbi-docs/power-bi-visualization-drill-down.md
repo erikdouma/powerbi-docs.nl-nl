@@ -1,5 +1,5 @@
 ---
-title: Inzoomen op een visualisatie in Power BI
+title: Zoommodus voor een visualisatie in Power BI
 description: In dit document wordt beschreven hoe u kunt inzoomen op een visualisatie in Microsoft Power BI-service en Power BI Desktop.
 author: mihart
 manager: kfile
@@ -8,17 +8,19 @@ featuredvideoid: MNAaHw4PxzE
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/26/2018
+ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d622e6b461668d1972a78f6844bd269fb6596061
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.openlocfilehash: f0ac0ca1bd03f06e2b7679ab4afc1b9193286f5b
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584203"
 ---
-# <a name="drill-down-in-a-visualization-in-power-bi"></a>Inzoomen op een visualisatie in Power BI
-## <a name="drill-down-requires-a-hierarchy"></a>Voor inzoomen is een hiërarchie vereist
+# <a name="drill-mode-in-a-visualization-in-power-bi"></a>Zoommodus voor een visualisatie in Power BI
+
+## <a name="drill-requires-a-hierarchy"></a>Voor zoomen is een hiërarchie vereist
 Wanneer een visueel element een hiërarchie heeft, kunt u inzoomen om extra details te onthullen. U kunt bijvoorbeeld een visualisatie hebben die kijkt naar het aantal Olympische medailles door een hiërarchie bestaande uit sport, discipline en gebeurtenis. Standaard zou de visualisatie het aantal medailles weergeven per sport (gymnastiek, skiën, watersport, enzovoort). Maar omdat deze een hiërarchie bevat, zou het selecteren van één van de visuele elementen (zoals een balk, lijn of bel) een steeds gedetailleerder beeld weergeven. Selecteer het element **Watersport** om de gegevens voor zwemmen, duiken en waterpolo te bekijken.  Selecteer het element **Duiken** om de details voor duikplank, platform en gesynchroniseerde duikgebeurtenissen te bekijken.
 
 U kunt hiërarchieën toevoegen aan rapporten die u bezit, maar niet aan rapporten die met u worden gedeeld.
@@ -35,64 +37,134 @@ Data zijn een uniek type hiërarchie. Wanneer u een datumveld aan een visualisat
 > [!NOTE]
 > Bekijk de video [Hiërarchieën maken en toevoegen](https://youtu.be/q8WDUAiTGeU) voor meer informatie over het maken van hiërarchieën met Power BI Desktop
 > 
-> 
 
-## <a name="two-methods-to-drill-down"></a>Twee methoden om in te zoomen
-U kunt op twee manieren inzoomen (en uitzoomen) in uw visualisatie.  Beiden worden beschreven in dit artikel. Met beide methoden bereikt u hetzelfde, dus gebruik de methode die u het handigst vindt.
+## <a name="prerequisites"></a>Vereisten
+
+1. Voor zoomen in Power BI-service of Desktop is een visualisatie met een hiërarchie vereist. 
+   
+2. Open hiervoor het [Voorbeeld van een retailanalyse](sample-datasets.md) en maak een treemap op basis van **Totaal aantal eenheden dit jaar** (waarden) per **Gebied**, **Plaats**, **Postcode**en **Naam** (Groep).  De treemap heeft een hiërarchie die bestaat uit gebied, plaats, postcode en plaatsnaam. Elk gebied heeft één of meer plaatsen, elke plaats heeft één of meer postcodes, enzovoort. Standaard geeft de visualisatie alleen de gebiedsgegevens weer, omdat *Gebied* als eerste in de lijst voorkomt.
+   
+   ![](media/power-bi-visualization-drill-down/power-bi-hierarcy-list.png)
+
+2. Leren hoe de verschillende zoompictogrammen in combinatie met elkaar werken, kan verwarrend zijn. We gaan daarom een filter op de treemap toepassen zodat alleen twee van de kleinere territoria worden weergegeven: **KY** en **TN**. Selecteer de treemap en vouw onder  **Filters op niveau van visuele elementen** de optie **Territorium** uit. Selecteer vervolgens **KY** en **TN**.
+
+    ![filter voor KY en TN](media/power-bi-visualization-drill-down/power-bi-filter.png)    
+
+   Nu worden alleen deze twee territoria in de treemap weergegeven.
+
+   ![Dubbel zoompictogram](media/power-bi-visualization-drill-down/power-bi-territories.png)
+
+## <a name="three-ways-to-access-the-drill-features"></a>Drie manieren om toegang te krijgen tot de zoomfuncties
+U hebt verschillende opties voor toegang tot functies voor inzoomen, uitzoomen en uitvouwen voor visualisaties met hiërarchieën. In dit artikel leest u hoe de eerste optie hieronder kunt gebruiken. Zodra u de basisbeginselen over inzoomen en uitvouwen begrijpt, kunt u met deze drie methoden dezelfde taken uitvoeren. Probeer ze en kies de methode die u het prettigst vindt.
+
+- Beweeg de muisaanwijzer over een visualisatie om de pictogrammen te zien en te gebruiken.  
+
+    ![pad voor inzoomen](media/power-bi-visualization-drill-down/power-bi-hover.png)
+
+- Klik met de rechtermuisknop op een visualisatie om het menu weer te geven en te gebruiken.
+    
+    ![contextmenu](media/power-bi-visualization-drill-down/power-bi-drill-menu.png)
+
+- Vanaf de Power BI-menubalk selecteert u de knop **Verkennen**.
+
+   ![](media/power-bi-visualization-drill-down/power-bi-explore.png)
+
+## <a name="drill-pathways"></a>Paden voor inzoomen
+### <a name="drill-down"></a>Inzoomen
+U hebt verschillende manieren om op uw visualisatie in te zoomen. Met ***Inzoomen*** gaat u naar het volgende niveau in de hiërarchie, dus als u naar het niveau **Territorium** kijkt, kunt u inzoomen op stadsniveau, vervolgens op postcodeniveau en tenslotte op naamniveau. Elke stap in het pad toont u nieuwe informatie.
+
+![pad voor inzoomen](media/power-bi-visualization-drill-down/power-bi-drill-path.png)
+
+### <a name="expand"></a>Uitvouwen
+
+Met ***Uitvouwen*** voegt u een extra hiërarchieniveau toe aan de huidige weergave. Dus als u naar het niveau **Territorium** kijkt, kunt u dit uitvouwen en informatie over stad, postcode en naam aan uw treemap toevoegen. Elke stap in het pad toont u dezelfde informatie en voegt één niveau aan nieuwe informatie toe.
+
+![pad uitvouwen](media/power-bi-visualization-drill-down/power-bi-expand-path.png)
+
+U kunt ook kiezen of u wilt inzoomen of uitvouwen op één veld per keer of op alle velden tegelijk. 
+
+## <a name="drill-down-all-fields-at-a-time"></a>Inzoomen op alle velden tegelijk
+
+1. Begin op het hoogste niveau van de treemap, waarin gegevens voor KY en TN worden weergegeven. Verbreed uw treemap door een van de grepen te selecteren en sleep deze greep naar rechts. 
+
+    ![treemap waarin 2 staten worden weergegeven](media/power-bi-visualization-drill-down/power-bi-drill-down.png) .
+
+2. Als u op ***alle velden tegelijk*** wilt inzoomen, selecteert u de dubbele pijl in de linkerbovenhoek van de visualisatie ![dubbel inzoompictogram](media/power-bi-visualization-drill-down/power-bi-drill-icon3.png). Uw treemap toont nu stadsgegevens voor Kentucky en Tennessee. 
+
+    ![Dubbel zoompictogram](media/power-bi-visualization-drill-down/power-bi-drill-down1.png)
+   
+5. Zoom nog één keer in op het postcodeniveau van de hiërarchie.
+
+    ![Dubbel zoompictogram](media/power-bi-visualization-drill-down/power-bi-drill-down2.png)
+
+3. Als u weer wilt uitzoomen, selecteert u de pijl omhoog in de linkerbovenhoek van de visualisatie ![](media/power-bi-visualization-drill-down/power-bi-drill-icon5.png).
+
+
+## <a name="drill-down-one-field-at-a-time"></a>Inzoomen op één veld tegelijk
+Deze methode maakt gebruik van het inzoompictogram dat in de rechterbovenhoek van de visualisatie zelf verschijnt. 
+
+1. Selecteer het inzoompictogram om dit in te stellen op ![inzoomen ingeschakeld](media/power-bi-visualization-drill-down/power-bi-drill-icon2.png). Nu hebt u de optie om op ***één veld tegelijk*** in te zoomen. 
+   
+   ![](media/power-bi-visualization-drill-down/power-bi-drill-icon-new.png)
+
+   Als u inzoomen niet inschakelt, zal het selecteren van een visueel element (zoals een balk, bel of blad) niet uitzoomen maar in plaats daarvan de andere grafieken op de rapportagepagina kruislings filteren.
+
+2. Selecteer het *bladknooppunt* voor **TN**. Uw treemap laat nu alle steden in Tennessee zien waarin een winkel is gevestigd. 
+
+    ![](media/power-bi-visualization-drill-down/power-bi-drill-down-one1.png)
+
+2. Op dit punt kunt u doorgaan met inzoomen op Tennesee of inzoomen op een specifieke stad in Tennesee, of het niveau uitvouwen (zie **Alle velden tegelijk uitvouwen**, hieronder). We blijven voor dit moment inzoomen op één veld tegelijk.  Selecteer **Knoxville, TN**. Uw treemap geeft nu de postcode voor uw winkel in Knoxville weer. 
+
+   ![](media/power-bi-visualization-drill-down/power-bi-drill-down-one2.png)
+
+    U ziet dat de titel wordt gewijzigd tijdens het in- en uitzoomen.  
+
+## <a name="expand-all-and-expand-one-field-at-a-time"></a>Alle velden tegelijk en één veld tegelijk uitvouwen
+Het gebruik van een treemap die ons alleen een postcode toont, is niet erg informatief.  Laten we dus één niveau in de hiërarchie omlaag uitvouwen.  
+
+1. Maak de treemap actief en selecteer het pictogram *omlaag uitvouwen* ![pictogram omlaag uitvouwen](media/power-bi-visualization-drill-down/power-bi-drill-icon6.png). Uw treemap toont nu twee niveaus van onze hiërarchie: postcode en winkelnaam. 
+
+    ![weergave van postcode en winkelnaam](media/power-bi-visualization-drill-down/power-bi-expand1.png)
+
+2. Als u alle vier hiërarchieniveaus met gegevens voor Tennesee wilt zien, selecteert u de pijl voor uitzoomen totdat u het tweede niveau van uw treemap bereikt, **Totaal aantal eenheden dit jaar per territorium en stad**. 
+
+    ![](media/power-bi-visualization-drill-down/power-bi-drill-down-one1.png)
+
+
+3. Zorg ervoor dat inzoomen nog steeds is ingeschakeld ![inzoomen ingeschakeld](media/power-bi-visualization-drill-down/power-bi-drill-icon2.png) en selecteer het pictogram *omlaag uitvouwen* ![pictogram omlaag uitvouwen](media/power-bi-visualization-drill-down/power-bi-drill-icon6.png). Uw treemap toont nu extra informatie; in plaats van alleen stad en staat wordt nu ook de postcode getoond. 
+
+    ![Dubbel zoompictogram](media/power-bi-visualization-drill-down/power-bi-expand-one3.png)
+
+4. Selecteer het pictogram *omlaag uitvouwen* nog één keer om alle vier hiërarchieniveaus met details voor Tennesee op uw treemap weer te geven. Beweeg de muisaanwijzer over een bladknooppunt voor nog meer informatie.
+
+   ![treemap met Tennesee-gegevens](media/power-bi-visualization-drill-down/power-bi-expand-all.png)
+
+## <a name="drilling-filters-other-visuals"></a>Analysefilters voor andere visuals
+As u in de zoommodus werkt, kunt u bepalen hoe inzoomen en uitvouwen invloed heeft op de andere visualisaties op de pagina. 
+
+Standaard wordt met zoomen niet op andere visuals in een rapport gefilterd. U kunt deze functie echter inschakelen in Power BI Desktop en Power BI-service. 
+
+1. In Desktop selecteert u het tabblad **Indeling** en schakelt u het selectievakje voor **Analysefilters voor andere visuals** in.
+
+    ![instelling in Power BI Desktop](media/power-bi-visualization-drill-down/power-bi-drill-filters-desktop.png)
+
+2. Wanneer u nu wilt inzoomen (of uitzoomen of uitvouwen) in een visual met een hiërarchie, activeert u hiermee filters voor de andere visuals op de pagina. 
+
+    ![instelling in Desktop](media/power-bi-visualization-drill-down/power-bi-drill-filters.png)
+
+    ![instelling in Desktop](media/power-bi-visualization-drill-down/power-bi-drill-filters2.png)
 
 > [!NOTE]
-> Open hiervoor het [Voorbeeld van een retailanalyse](sample-datasets.md) in Power BI-service en maak een treemap op basis van **Totaal aantal eenheden dit jaar** (waarden) per **Gebied**, **Plaats**, **Postcode**en **Naam** (Groep).  
-> 
-> 
+> Als u dit in Power BI-service wilt inschakelen, selecteert u **Interacties met visuals > Analysefilters voor andere visuals** in de bovenste menubalk.
+>
+> ![instelling in Power BI-service](media/power-bi-visualization-drill-down/power-bi-drill-filters-service.png)
 
-## <a name="method-one-for-drill-down"></a>Methode één voor inzoomen
-Deze methode maakt gebruik van de inzoompictogrammen die in de bovenste hoeken van de visualisatie zelf verschijnen.
 
-1. Open in Power BI een rapport in de [Leesweergave of Bewerkweergave](service-reading-view-and-editing-view.md). Voor inzoomen is een visualisatie met een hiërarchie vereist. 
-   
-   Een hiërarchie wordt weergegeven in de onderstaande animatie.  De visualisatie heeft een hiërarchie die bestaat uit gebied, plaats, postcode en plaatsnaam. Elk gebied heeft één of meer plaatsen, elke plaats heeft één of meer postcodes, enzovoort. Standaard geeft de visualisatie alleen de gebiedsgegevens weer, omdat *Gebied* als eerste in de lijst voorkomt.
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-hierarcy-list.png)
-2. Selecteer het pijlpictogram in de rechterbovenhoek van de visualisatie om inzoomen in te schakelen. Wanneer het pictogram donker is, is inzoomen ingeschakeld. Als u inzoomen niet inschakelt, zal het selecteren van een visueel element (zoals een balk of bel) de andere grafieken op de rapportagepagina kruislings filteren.    
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-drill-icon.png)
-3. Als u op **één veld tegelijk** wilt inzoomen, selecteert u een van de elementen in uw visualisatie. In een staafdiagram betekent dit dat u op een van de staven moet klikken. In een treemap betekent dit dat u op een van de **bladeren** moet klikken. U ziet dat de titel wordt gewijzigd tijdens het in- en uitzoomen. In deze animatie wijzigt de titel van Totaal aantal eenheden dit jaar per gebied in Totaal aantal eenheden dit jaar per gebied en plaats en vervolgens in Totaal aantal eenheden dit jaar per gebied, plaats en postcode en in Totaal aantal eenheden dit jaar per gebied, plaats, postcode en naam. Als u weer wilt uitzoomen, selecteert u het pictogram **Uitzoomen** ![](media/power-bi-visualization-drill-down/power-bi-drill-icon5.png) in de linkerbovenhoek van de visualisatie zoals hieronder wordt weergegeven.
-   
-   ![](media/power-bi-visualization-drill-down/drill.gif)
-4. Als u op ***alle velden tegelijk*** wilt inzoomen, selecteert u de dubbele pijl in de linkerbovenhoek van de visualisatie.
-   
-   ![](media/power-bi-visualization-drill-down/pbi_drillall.png)
-5. Als u weer wilt uitzoomen, selecteert u de pijl omhoog in de linkerbovenhoek van de visualisatie.
-   
-   ![](media/power-bi-visualization-drill-down/pbi_drillup2.png)
-
-## <a name="method-two-for-drill-down"></a>Methode twee voor inzoomen
-Voor deze methode wordt gebruikgemaakt van de vervolgkeuzelijst **Verkennen** in de bovenste Power BI-menubalk.
-
-1. Open in Power BI een rapport in de [Leesweergave of Bewerkweergave](service-reading-view-and-editing-view.md). Voor inzoomen is een visualisatie met een hiërarchie vereist. 
-   
-   Een hiërarchie wordt weergegeven in de onderstaande afbeelding.  De visualisatie heeft een hiërarchie die bestaat uit gebied, plaats, postcode en plaatsnaam. Elk gebied heeft één of meer plaatsen, elke plaats heeft één of meer postcodes, enzovoort. Standaard geeft de visualisatie alleen de gebiedsgegevens weer, omdat *Gebied* als eerste in de lijst voorkomt.
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-hierarcy-list.png)
-2. Als u de functie voor inzoomen wilt inschakelen, selecteert u een visualisatie om deze te activeren en selecteert u vervolgens in de Power BI-menubalk bovenaan **Verkennen** > **Inzoomen**. Het pictogram voor inzoomen in de rechterbovenhoek van de visualisatie verandert in een zwarte achtergrond. ![](media/power-bi-visualization-drill-down/power-bi-drill-icon2.png)  
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-explore2.png)
-3. Eenmaal ingeschakeld kunt u op één veld tegelijk inzoomen door een van de bladeren van de treemap te selecteren. In dit voorbeeld is het gebied met de naam **NC** geselecteerd om het totale aantal verkochte eenheden van dit jaar in North Carolina per plaats te bekijken.
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-drilldown-1.png)
-4. Als u alle velden in één keer wilt inzoomen, selecteer dan **Verkennen** > **Volgend niveau weergeven**.
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-show-next-level.png)
-5. Als u wilt uitzoomen, selecteert u **Verkennen** > **Uitzoomen**.
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-drill-up2.png)
-
-6. Als u de gegevens wilt zien die worden gebruikt om de visual te maken, selecteert u **Gegevens bekijken**. De gegevens worden weergegeven in een deelvenster onder de visual. Dit deelvenster blijft zichtbaar wanneer u op het visuele element blijft in- en uitzoomen. Zie voor meer informatie [Gegevens weergeven die worden gebruikt voor het maken van het visuele element](service-reports-show-data.md).
 
 ## <a name="understanding-the-hierarchy-axis-and-hierarchy-group"></a>Informatie over de hiërarchie-as en de hiërarchiegroep
 De hiërarchie-as en de hiërarchiegroep kunt u zien als mechanismen voor het verhogen en verlagen van de granulatie van de gegevens die u wilt weergeven. Alle gegevens die kunnen worden ingedeeld in categorieën en subcategorieën, worden gezien als gegevens met een hiërarchie. Ook datums en tijden vallen hieronder.
 
-U kunt in Power BI aangeven dat een visualisatie over een hiërarchie moet beschikken. Hiervoor selecteert u een of meer gegevensvelden die u aan de bron **As** of aan de bron **Groep** wilt toevoegen, samen met de gegevens die u als gegevensvelden wilt onderzoeken in de bron **Waarden**. Gegevens zijn hiërarchisch als in de linker- en rechterbovenhoek van uw visualisatie de pictogrammen voor de inzoommodus worden weergegeven. 
+U kunt in Power BI aangeven dat een visualisatie over een hiërarchie moet beschikken. Hiervoor selecteert u een of meer gegevensvelden die u aan de bron **As** of aan de bron **Groep** wilt toevoegen, samen met de gegevens die u als gegevensvelden wilt onderzoeken in de bron **Waarden**. Gegevens zijn hiërarchisch als in de linker- en rechterbovenhoek van uw visualisatie de pictogrammen voor de *inzoommodus* worden weergegeven. 
 
 Er zijn in feite twee typen hiërarchische gegevens:
 - Datum- en tijdgegevens: Als u een gegevensveld met gegevenstype Datum/tijd hebt, hebt u al hiërarchische gegevens. Voor elk gegevensveld waarvan de waarden kunnen worden geparseerd in een [datum-/tijd](https://msdn.microsoft.com/library/system.datetime.aspx) structuur, wordt in Power BI automatisch een hiërarchie gemaakt. U hoeft hiervoor alleen een datum-/tijdveld aan de bron **As** of **Groep** toe te voegen.

@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: e5e49d2f30cca4c0c731d29fe31d2cb6856066f2
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 08a7740d1a44c4a5e8ef961100c38f3bc4622fd8
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721956"
 ---
 # <a name="add-comments-to-a-report-in-a-report-server"></a>Opmerkingen toevoegen aan een rapport in een rapportserver
 In de webportal van een rapportserver kunt u opmerkingen toevoegen aan rapporten, waaronder Power BI-rapporten. De opmerkingen staan live bij het rapport en iedereen met de juiste machtigingen ziet de opmerkingen voor het rapport. Zie de sectie [Machtigingen](#permissions) hieronder voor meer informatie.
@@ -44,7 +45,7 @@ Afhankelijk van uw machtigingen is het volgende op u van toepassing:
 * U kunt alle opmerkingen bekijken en uw eigen opmerkingen plaatsen, bewerken en verwijderen, en opmerkingen van anderen verwijderen.
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Gebruikershandboek voor Power BI Report Server](user-handbook-overview.md)  
+* [Wat is Power BI Report Server?](get-started.md)  
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

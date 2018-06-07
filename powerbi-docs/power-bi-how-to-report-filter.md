@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/15/2018
+ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: b0a18d5befe49a3ffaa400b0e081d88720cdd28c
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 6d0a1afe27372c808e63adb34fda96e978b2e2be
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721381"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Rondleiding door het deelvenster Filters van het rapport
 In dit artikel wordt het rapportvenster Filters diepgaand besproken. U ziet het deelvenster in de [bewerkweergave en leesweergave van Power BI-service](service-reading-view-and-editing-view.md) en in de [rapportweergave van Power BI Desktop](desktop-report-view.md).
@@ -22,7 +23,7 @@ In dit artikel wordt het rapportvenster Filters diepgaand besproken. U ziet het 
 Er zijn veel verschillende manieren om gegevens te filteren in Power BI. Wij raden u aan om te beginnen met het lezen van [Filters en markeren](power-bi-reports-filters-and-highlighting.md).
 
 ## <a name="working-with-the-report-filters-pane"></a>Het deelvenster Filters van het rapport gebruiken
-Rapporten worden in Power BI Desktop geopend in de rapportweergave. Rapporten in de Power BI-service kunnen in de [bewerkingsweergave of leesweergave](service-reading-view-and-editing-view.md) worden geopend. In de bewerkingsweergave en in de rapportweergave van Power BI Desktop kunnen rapporteigenaren [filters aan een rapport toevoegen](power-bi-report-add-filter.md). Deze filters worden met het rapport opgeslagen. Gebruikers die het rapport in de leesweergave bekijken, kunnen de filters gebruiken. Ze kunnen echter geen nieuwe filters toevoegen aan het rapport.
+Rapporten worden in Power BI Desktop geopend in de rapportweergave. Rapporten in de Power BI-service kunnen in de [bewerkingsweergave of leesweergave](service-reading-view-and-editing-view.md) worden geopend. In de bewerkingsweergave en in de rapportweergave van Power BI Desktop kunnen rapporteigenaren [filters aan een rapport toevoegen](power-bi-report-add-filter.md). Deze filters worden met het rapport opgeslagen. Gebruikers die het rapport in de leesweergave bekijken, kunnen de filters gebruiken en hun wijzigingen opslaan. Ze kunnen echter geen nieuwe filters toevoegen aan het rapport.
 
 In de Power BI-service worden wijzigingen die u aanbrengt in het deelvenster Filters bewaard en deze wijzigingen worden doorgevoerd in de mobiele versie van het rapport. Als u de standaardinstellingen die de maker heeft geconfigureerd voor het deelvenster Filters wilt herstellen, selecteert u **Standaardinstellingen herstellen** in de bovenste menubalk.     
 

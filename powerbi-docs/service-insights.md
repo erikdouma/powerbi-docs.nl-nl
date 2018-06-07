@@ -8,22 +8,22 @@ featuredvideoid: et_MLSL2sA8
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 19b7bf6105a2d178d51d8068f0226160b8a28467
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 8be938b1a75f754b7c23a57a5a0ccfdb4e60032b
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561880"
 ---
 # <a name="automatically-generate-data-insights-with-power-bi"></a>Automatisch gegevensinzichten genereren met Power BI
 Hebt u een nieuwe gegevensset en weet niet precies waar u moet beginnen?  Moet u snel een dashboard bouwen?  Wilt u snel inzichten zoeken die u hebt gemist?
 
 Voer Snelle inzichten uit om interessante interactieve visualisaties op basis van uw gegevens te genereren. Snelle inzichten kan worden uitgevoerd op een volledige gegevensset (Snelle inzichten) of op een specifieke dashboardtegel (Scoped inzichten). U kunt inzichten zelfs uitvoeren op een inzicht.
 
-> **Opmerking**: inzichten werken niet met DirectQuery. Ze werken alleen met gegevens die zijn geüpload naar Power BI.
-> 
+> **Opmerking**: inzichten werkt niet met DirectQuery, maar alleen met gegevens die zijn geüpload naar Power BI.
 > 
 
 De functie voor inzichten is gebouwd op een groeiende [set geavanceerde analytische algoritmen](service-insight-types.md) die zijn ontwikkeld samen met Microsoft Research. We blijven Microsoft Research gebruiken om ervoor te zorgen dat meer mensen op nieuwe en intuïtieve manieren inzichten in hun gegevens kunnen vinden.

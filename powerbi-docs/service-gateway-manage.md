@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 53995f0ee723590ae4e419eb62de0d9230deb4b6
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: aec57dc8d015afe80c9cc9cde83c2d1fd6ba26b0
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34298407"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722584"
 ---
 # <a name="manage-a-power-bi-gateway"></a>Power BI Gateway beheren
 
@@ -48,7 +48,7 @@ Power BI biedt ondersteuning voor veel on-premises gegevensbronnen en elke bron 
 
 5. Voor SQL Server kiest u een **Verificatiemethode** van **Windows** of **Basic** (SQL-verificatie).  Als u **Basic** kiest, voert u de referenties voor de gegevensbron in.
 
-6. Onder **Geavanceerde instellingen** kunt u optioneel het [privacyniveau]((https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)) voor de gegevensbron configureren (geldt niet voor [DirectQuery](desktop-directquery-about.md)).
+6. Onder **Geavanceerde instellingen** kunt u optioneel het [privacyniveau](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) voor de gegevensbron configureren (geldt niet voor [DirectQuery](desktop-directquery-about.md)).
 
     ![Geavanceerde instellingen](media/service-gateway-manage/advanced-settings.png)
 

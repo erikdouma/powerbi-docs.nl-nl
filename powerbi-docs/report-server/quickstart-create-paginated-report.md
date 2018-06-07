@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 75810bfad9efd5a0ea42a07d44a61d4f92f7f232
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: e996b1399ff4dde96d122e747cf1f07db3a44876
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34294911"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721818"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Een gepagineerd rapport maken voor Power BI Report Server
 Zoals de naam al aangeeft, kunnen gepagineerde rapporten uit meerdere pagina's bestaan. Ze worden opgemaakt met een vaste indeling en kunnen uiterst precies worden aangepast. Gepagineerde rapporten zijn RDL bestanden.
@@ -94,7 +94,7 @@ Wanneer uw rapport klaar is, slaat u het op in Power BI Report Server.
 Er zijn meer dan genoeg goede bronnen voor het ontwerpen van rapporten in Report Builder en in Report Designer in SQL Server Data Tools. De zelfstudies over Report Builder vormen een goed startpunt.
 
 * [Zelfstudies over Report Builder](https://docs.microsoft.com/sql/reporting-services/report-builder-tutorials)
-* [Gebruikershandboek voor Power BI Report Server](user-handbook-overview.md)  
+* [Wat is Power BI Report Server?](get-started.md)  
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

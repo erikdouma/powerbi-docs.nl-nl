@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 891e9d35be271f6479a832b234a69132736f09a5
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 6e1b2960eee8f436f8dbce660e755a5d0b39a68e
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721565"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Problemen met vernieuwingsscenario's oplossen
 Hier vindt u informatie over de verschillende scenario's die zich kunnen voordoen bij het vernieuwen van gegevens in de Power BI-service.
@@ -56,6 +57,14 @@ De maximale grootte voor gegevenssets die worden geïmporteerd in de **Power BI-
 
 ## <a name="scheduled-refresh-timeout"></a>Time-out bij geplande vernieuwing
 Er wordt een time-out van twee uur gehanteerd voor de geplande vernieuwing van geïmporteerde gegevenssets. Deze time-out is vijf uur voor gegevenssets in **Premium**-werkruimten. Als deze limiet wordt bereikt, kunt u proberen om de gegevensset kleiner of minder complex te maken. Een andere optie is om de gegevensset op te splitsen in kleinere delen.
+
+## <a name="access-to-the-resource-is-forbidden"></a>Toegang tot de resource is verboden  
+Deze fout kan optreden vanwege verlopen referenties in het cachegeheugen. Meld u aan bij Power BI en ga naar https://app.powerbi.com?alwaysPromptForContentProviderCreds=true om de cache van uw internetbrowser te wissen. Hierdoor dwingt u een update van uw referenties af. 
+    
+    
+## <a name="data-refresh-failure-because-of-password-change-or-expired-credentials"></a>Fout bij gegevens vernieuwen vanwege gewijzigd wachtwoord of verlopen referenties 
+Gegevens vernieuwen kan ook mislukken vanwege verlopen referenties in het cachegeheugen. Meld u aan bij Power BI en ga naar https://app.powerbi.com?alwaysPromptForContentProviderCreds=true om de cache van uw internetbrowser te wissen. Hierdoor dwingt u een update van uw referenties af.
+
 
 ## <a name="next-steps"></a>Volgende stappen
 [Gegevens vernieuwen](refresh-data.md)  
