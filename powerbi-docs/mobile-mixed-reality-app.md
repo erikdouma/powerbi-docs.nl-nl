@@ -1,25 +1,25 @@
 ---
 title: De app Power BI for Mixed Reality (preview)
-description: Bekijk uw dashboards en rapporten in de app Power BI for Mixed Reality in een virtuele omgeving of in uw fysieke omgeving.
+description: Bekijk uw dashboards en rapporten in de app Power BI for Mixed Reality (preview) in een virtuele omgeving of in uw fysieke omgeving.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/13/2018
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 32ef06cfdefe4ff1554cfe5f449d69583569f158
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 15c59d25814a50ce09b5b52accd0f88d74871a34
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721427"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799321"
 ---
 # <a name="power-bi-for-mixed-reality-app-preview"></a>De app Power BI for Mixed Reality (preview)
-Bekijk uw dashboards en rapporten in de app Power BI for Mixed Reality in een virtuele omgeving of plaats deze op specifieke locaties in uw fysieke omgeving. 
+Bekijk uw dashboards en rapporten in de app Power BI for Mixed Reality (preview) in een virtuele omgeving of plaats deze op specifieke locaties in uw fysieke omgeving. 
 
-Download in Windows Store de preview-versie van de app Power BI for Mixed Reality om uw dashboards en rapporten te bekijken. U kunt hiermee werken in een virtuele omgeving en vervolgens de dashboards en rapporten selecteren die u wilt plaatsen. 
+[Download de Power BI for Mixed Reality](https://www.microsoft.com/p/power-bi-mobile/9nblgggzlxn1?activetab=pivot%3aoverviewtab)-app uit de Windows store: in de Windows Store heeft de app de naam Power BI - Mobiel. U kunt met uw dashboards en rapporten werken in een virtuele omgeving en vervolgens de exemplaren selecteren die u wilt plaatsen. 
 
 ## <a name="two-views-windows-classic-and-holographic"></a>Twee weergaven: klassieke Windows-weergave en holografische weergave
 

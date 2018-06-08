@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 6d7ab55c3ecbb13b40354f67263d597f0e1179f7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5b4d5ea7970dd44cfebadca6935452688515aef5
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297671"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799413"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Rapporten verkennen in de mobiele Power BI-apps
 Van toepassing op:
@@ -81,25 +81,30 @@ Wanneer u een waarde in een visueel element selecteert, worden de andere visuele
    ![Een visueel element sorteren](media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-sort.png)
 * Als u de sorteervolgorde wilt omkeren, tikt u nogmaals op de drie puntjes (**...** ) en tikt u nogmaals op dezelfde veldnaam.
 
-## <a name="drill-down-on-an-ipad-or-a-tablet"></a>Inzoomen op een iPad of tablet
-Als de maker van een rapport de mogelijkheid om in te zoomen heeft toegevoegd aan een visueel element, kunt u op een iPad of tablet inzoomen op een visueel element om de waarden te bekijken waaruit één onderdeel ervan bestaat. U kunt [inzoomen op een visueel element toevoegen](power-bi-visualization-drill-down.md) in Power BI Desktop of de Power BI-service. 
+## <a name="drill-down-and-up-in-a-visual"></a>In- en uitzoomen op een visueel element
+Als de maker van een rapport de mogelijkheid om in te zoomen heeft toegevoegd aan een visual, kunt u inzoomen op de visual om de waarden te bekijken waaruit één onderdeel ervan bestaat. U kunt [inzoomen op een visueel element toevoegen](power-bi-visualization-drill-down.md) in Power BI Desktop of de Power BI-service. 
 
-> [!NOTE]
-> Inzoomen werkt momenteel niet voor kaarten toewijzingen op de iPad of een tablet.
-> 
-> 
+* Tik op een gegevenspunt in een visual om de knopinfo weer te geven. Als inzoomen beschikbaar is, heeft de onderkant van de knopinfo pijlen waarop u kunt tikken. 
+  
+  ![Inzoomen op een visueel element](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-tooltip.png)
 
-* Tik op een visueel element. Als er pijlen omhoog en omlaag worden weergegeven in de bovenste hoeken ![Pictogrammen voor inzoomen en uitzoomen](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-down.png), kunt u inzoomen. Als u wilt inzoomen op één waarde, tikt u op de pijl in de rechterbovenhoek en tikt u op een waarde in het visuele element, in dit geval de donkerblauw bel FD-04.
+* Als u weer wilt uitzoomen, tikt u op de pijl-omhoog in de knopinfo.
   
-  ![Inzoomen op een visueel element](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-one.png)
-* Als u weer wilt uitzoomen, tikt u op de pijl-omhoog in de linkerbovenhoek.
-  
-  ![Uitzoomen](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up.png)
+  ![Uitzoomen](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-tooltip.png)
 
-## <a name="go-back-to-my-workspace"></a>Teruggaan naar Mijn werkruimte
-* Tik op de pijl naast de rapportnaam > tik op **Mijn werkruimte**.
-  
-  ![Teruggaan](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-back.png)
+* U kunt ook inzoomen op alle gegevenspunten in een visual. Open de visual in de focusmodus, tik op het pictogram Verkennen en kies ervoor het volledige volgende niveau weer te geven of uit te breiden om het huidige en het volgende niveau weer te geven.
+
+   ![Power BI inzoomen op alles](media/mobile-reports-in-the-mobile-apps/power-bi-drill-down-all.png)
+
+## <a name="drill-through-from-one-page-to-another"></a>In detail analyseren van de ene pagina naar de andere
+
+Als u met *drillthrough* op een bepaald deel van een visual tikt, wordt u door Power BI naar een andere pagina in het rapport geleid, gefilterd op de waarde waarop u hebt getikt. De schrijver van het rapport kan een of meer mogelijkheden voor drillthrough instellen, waarmee u per mogelijkheid naar een andere pagina wordt geleid. In dat geval kunt u kiezen wat u in detail wilt analyseren. Als u in het volgende voorbeeld op de waarde in de meter tikt, kunt u kiezen tussen analyseren op **uitgaven per bedrijfsgebied** of **plannen per bedrijfsgebied**.
+
+![Detailanalyse van Power BI - Mobiel-rapport](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-through-it-spent-report.png)
+
+Wanneer u een detailanalyse hebt gemaakt, gaat u met de knop terug weer terug naar de vorige pagina van het rapport.
+
+Meer informatie over [detailanalyse toevoegen in Power BI Desktop](desktop-drillthrough.md).
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Voor uw telefoon geoptimaliseerde Power BI-rapporten weergeven en gebruiken](mobile-apps-view-phone-report.md)

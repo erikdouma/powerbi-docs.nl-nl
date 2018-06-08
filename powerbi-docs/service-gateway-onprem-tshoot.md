@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/02/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e688561b6b669aab68c4251fa5e25157dc219cd6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e689e031395130bab8ad80d5d06936a9dabaf852
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722995"
+ms.locfileid: "34755065"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Problemen met de on-premises gegevensgateway oplossen
 In dit artikel worden enkele veelvoorkomende problemen besproken die kunnen optreden tijdens het gebruik van de **on-premises gegevensgateway**.
@@ -149,6 +149,9 @@ In dat geval moet u samenwerken met uw domeinbeheerders om de vertrouwensrelatie
 **Kan de gegevensbronnen van de gegevensgateway niet zien via de Analysis Services-functie 'Gegevens ophalen' van de Power BI-service**
 
 Zorg ervoor dat uw account wordt vermeld op het tabblad **Gebruikers** van de gegevensbron in de configuratie van de gateway. Als u geen toegang tot de gateway hebt, neemt u contact op met de beheerder van de gateway en vraagt u deze de informatie te controleren. Alleen accounts die zijn opgenomen in de lijst met **Gebruikers**, zien de gegevensbron die wordt weergegeven in de Analysis Services-lijst.
+
+### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>Fout: u hebt geen gateway geïnstalleerd of geconfigureerd voor de gegevensbronnen in deze gegevensset
+Zorg ervoor dat u een of meer gegevensbronnen hebt toegevoegd aan de gateway, zoals beschreven in [Een gegevensbron toevoegen](service-gateway-manage.md#add-a-data-source). Als de gateway niet wordt weergegeven in de beheerportal onder **Gateways beheren** wist u de browsercache of meldt u zich af en weer aan bij de service.
 
 ## <a name="datasets"></a>Gegevenssets
 ### <a name="error-there-is-not-enough-space-for-this-row"></a>Fout: Er is onvoldoende ruimte voor deze rij.

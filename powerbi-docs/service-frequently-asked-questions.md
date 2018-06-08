@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/06/2018
+sktopms.date: 06/01/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: e72e3bcca4254b957580775196d4919e88452773
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e8af4695ba54fee91820552802cf18d8a758e8b0
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34253088"
+ms.locfileid: "34755042"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Veelgestelde vragen over Power BI
 * Als u andere vragen hebt, kunt u deze stellen [in de Power BI-community](http://community.powerbi.com/).
 * Nog steeds geen antwoord? Ga naar de [ondersteuningspagina van Power BI](https://powerbi.microsoft.com/support/).
 
 ## <a name="what-is-microsoft-power-bi"></a>Wat is Microsoft Power BI?
-[Power BI](https://powerbi.microsoft.com/) is een business analytics-service in de cloud die iedereen de mogelijkheid biedt om gegevens sneller, efficiënter en met meer inzicht te visualiseren en analyseren. De service geeft gebruikers toegang tot een breed scala aan gegevens via eenvoudig te gebruiken dashboards, interactieve rapporten en interessante visualisaties die gegevens tot leven brengen.
+Power BI is een business analytics-service in de cloud die iedereen de mogelijkheid biedt om gegevens sneller, efficiënter en met meer inzicht te visualiseren en analyseren. De service geeft gebruikers toegang tot een breed scala aan gegevens via eenvoudig te gebruiken dashboards, interactieve rapporten en interessante visualisaties die gegevens tot leven brengen. Meer informatie over [Wat is Power BI](power-bi-overview.md).
 
 ## <a name="whats-the-difference-between-power-bi-and-power-bi-pro"></a>Wat is het verschil tussen Power BI en Power BI Pro?
 Power BI biedt allerlei functies waarmee u op een geheel nieuwe wijze aan de slag kunt met gegevens. Power BI Pro bevat alle fantastische functies van Power BI, plus aanvullende functies zoals meer opslagcapaciteit, gegevens automatisch vaker vernieuwen dan dagelijks, live gegevensbronnen met volledige interactiviteit en groepen. Lees hier meer over [de verschillen tussen Power BI Pro en de gratis versie van Power BI](https://powerbi.microsoft.com/pricing).
@@ -33,36 +33,20 @@ Power BI Desktop is gratis. Er is een gratis proefversie van 60 dagen beschikbaa
 ## <a name="what-if-i-have-questions-about-power-bi-premium"></a>Wat als ik vragen heb over Power BI Premium?
 Zie [Veelgestelde vragen over Power BI Premium](service-premium-faq.md) als u vragen hebt over Power BI Premium.
 
-## <a name="are-users-who-signed-up-after-may-3-2017-eligible-for-the-extended-pro-trial"></a>Komen gebruikers die zich na 3 mei 2017 hebben geregistreerd in aanmerking voor de verlengde proefversie van Power BI Pro?
-Gebruikers die zich hebben geregistreerd voor Power BI (gratis) op of na 3 mei 2017 komen niet in aanmerking voor de verlengde proefversie van Power BI Pro. Ze komen echter wel in aanmerking voor de gewone proefversie van 60 dagen.
-
-## <a name="how-do-i-find-out-who-in-my-organization-is-eligible-for-the-extended-pro-trial"></a>Hoe kom ik erachter wie in mijn organisatie in aanmerking komt voor de verlengde proefversie van Power BI Pro?
-Hoewel er geen directe manier is om dit vast te stellen, kunt u een rapport van Azure Active Directory genereren voor Power BI om te zien wie de actieve gebruikers zijn binnen uw organisatie. Actieve gebruikers die zich voor of op de bovenstaande datum hebben geregistreerd, en die een gratis licentie hebben, ontvangen een pop-upmelding voor de verlenging. Zie [Power BI-gebruikers vinden die zich hebben geregistreerd](service-admin-access-usage.md) voor meer informatie.
-
-> [!NOTE]
-> Het Azure AD-rapport geeft niet aan of een gebruiker de gratis versie of Pro-versie van Power BI heeft. U ziet alleen welke gebruikers zich hebben geregistreerd voor Power BI en wanneer ze hebben ingelogd. Als gebruikers zijn opgenomen in dit rapport, betekent dit niet dat ze automatisch in aanmerking komen voor de verlengde Pro-proefversie.
-> 
-> 
+## <a name="how-do-i-find-out-who-in-my-organization-has-a-power-bi-account"></a>Hoe kom ik erachter wie er in mijn organisatie een Power BI-account heeft?
+U kunt een rapport van Azure Active Directory genereren voor Power BI om de actieve gebruikers binnen uw organisatie te zien. Het Azure AD-rapport geeft niet aan of een gebruiker de gratis versie of Pro-versie van Power BI heeft. U ziet alleen welke gebruikers zich hebben geregistreerd voor Power BI en wanneer ze hebben ingelogd. Zie [Power BI-gebruikers vinden die zich hebben geregistreerd](service-admin-access-usage.md) voor meer informatie.
 
 ## <a name="what-is-power-bi-desktop"></a>Wat is Power BI Desktop?
-[Power BI Desktop](https://powerbi.microsoft.com/designer) is een gratis desktop-app die u gewoon op uw eigen computer kunt installeren. Power BI Desktop werkt nauw samen met de Power BI-service om functies te bieden voor geavanceerde verkenning, vormgeving, modellering en rapportage van gegevens, dit alles met behulp van zeer interactieve visualisaties. U kunt uw werk opslaan in een bestand, en uw gegevens en rapporten direct naar uw Power BI-site publiceren om deze met anderen te delen.
+Power BI Desktop is een gratis desktop-app die u gewoon op uw eigen computer kunt installeren. Power BI Desktop werkt nauw samen met de Power BI-service om functies te bieden voor geavanceerde verkenning, vormgeving, modellering en rapportage van gegevens, dit alles met behulp van zeer interactieve visualisaties. U kunt uw werk opslaan in een bestand, en uw gegevens en rapporten direct naar uw Power BI-site publiceren om deze met anderen te delen. Meer informatie over [Wat is Power BI Desktop](desktop-what-is-desktop.md).
 
 ## <a name="what-do-i-need-to-use-power-bi"></a>Wat heb ik nodig om Power BI te gebruiken?
-Alleen een webbrowser en een e-mailadres van uw werk.
-
->[!NOTE]
->Werkadressen die eindigen op .gov en .mil worden momenteel niet ondersteund.
+Alleen een webbrowser en een e-mailadres van uw werk. U kunt zich aanmelden met een .gov- en een .mil-e-mailadres. Zie [Uw Amerikaanse overheidsorganisatie registreren in Power BI-service](service-govus-signup.md) voor meer informatie 
 
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>Waarom moet ik me registreren met een e-mailadres van het werk?
 Power BI biedt geen ondersteuning voor e-mailadressen die worden geleverd door e-mailservices voor consumenten of telecomproviders. Lees hier meer over het [selfservice-registratieproces van Power BI](service-self-service-signup-for-power-bi.md).
 
-## <a name="which-work-email-addresses-are-supported"></a>Welke werk-e-mailadressen worden ondersteund?
-Werkadressen die eindigen op **.edu** en **.org** worden ondersteund.
-
-Werkadressen die eindigen op **.gov** en **.mil** worden momenteel niet ondersteund.
-
 ## <a name="is-government-academic-and-non-profit-pricing-available-for-power-bi"></a>Zijn er speciale prijzen voor overheid, onderwijs en non-profit beschikbaar voor Power BI?
-Ja, er zijn speciale prijzen voor non-profitorganisaties die rechtstreeks kopen bij Microsoft. Ga voor meer informatie naar de site [over BI voor non-profitorganisaties](https://www.microsoft.com/about/philanthropies/product-donations/products/powerbi/). Prijzen voor overheids- en onderwijsinstellingen worden aangeboden via de MOSP/Direct-, EA- en open-licentieprogramma's. Overheidsprijzen zijn ook beschikbaar via syndicatie. Power BI is nog niet beschikbaar voor de US Government Community Cloud (GCC).
+Ja, er zijn speciale prijzen voor non-profitorganisaties die rechtstreeks kopen bij Microsoft. Ga voor meer informatie naar de site [over BI voor non-profitorganisaties](https://www.microsoft.com/about/philanthropies/product-donations/products/powerbi/). Prijzen voor overheids- en onderwijsinstellingen worden aangeboden via de MOSP/Direct-, EA- en open-licentieprogramma's. Overheidsprijzen zijn ook beschikbaar via syndicatie. 
 
 ## <a name="is-power-bi-available-on-premises"></a>Is Power BI on-premises beschikbaar?
 De Power BI-service [https://powerbi.com](https://powerbi.com) is niet beschikbaar als persoonlijke, interne cloudservice. U hebt echter drie mogelijkheden om gegevens on-premises weer te geven en te manipuleren. 

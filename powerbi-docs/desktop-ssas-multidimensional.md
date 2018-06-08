@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 94152d1c1dc30bcaea212638e5ef65da6faf7ff7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 62f6c8ac23fad39dfb6942678cf92a37014de8bf
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34286147"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799574"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Verbinding maken met multidimensionale modellen van SSAS in Power BI Desktop
 Met Power BI Desktop hebt u toegang tot **multidimensionale modellen van SSAS**, vaak **SSAS MD** genoemd.
@@ -98,3 +98,7 @@ De volgende functies van SSAS MD worden ondersteund in Power BI Desktop:
   * ImageUrls
   * Dimensiebeveiliging
 
+## <a name="troubleshooting"></a>Problemen oplossen 
+De volgende lijst bevat alle bekende problemen bij het verbinden met SQL Server Analysis Services (SSAS). 
+
+* **Fout: kan het modelschema niet laden**: deze fout treedt doorgaans op wanneer de gebruiker die verbinding maakt met Analysis Services geen toegang heeft tot de database/kubus.

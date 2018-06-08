@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: d2f657423903b783c2e57822cabb577acd10a8bc
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5d5544fba824443b1ba7b58c3e9d21f7769554d6
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34294681"
+ms.locfileid: "34755318"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>De Power BI-service of Power BI Desktop gebruiken om een aangepaste antwoordpagina voor Cortana te maken
 Gebruik de volledige mogelijkheden van Power BI om speciale rapportpagina’s te maken, genaamd *Cortana-antwoordpagina’s* (soms *Cortana-antwoordkaarten*) die specifiek zijn ontworpen om vragen over Cortana te beantwoorden.
@@ -46,6 +46,12 @@ Een *Cortana-antwoordpagina* in een rapport heeft een formaat dat specifiek is a
    
     ![](media/service-cortana-answer-cards/pbi-cortana-page-size-new.png)
 3. Maak een visueel element of een groep visuele elementen die u in Cortana wilt weergeven als antwoord op een bepaalde vraag (of een verzameling vragen).
+
+> [!NOTE]
+> Cortana-antwoordpagina's bieden momenteel geen ondersteuning voor afbeeldingen waarin zich statische afbeeldingen bevinden. U kunt afbeeldingen opnemen in tabel- of matrixvisuals die dynamisch worden opgehaald op basis van een URL in uw gegevens. 
+> 
+> 
+
 4. Zorg ervoor dat alle visuele elementen binnen de paginaranden passen. Wijzig eventueel de weergave-instellingen, gegevenslabels, kleuren en achtergronden.  
    
     ![](media/service-cortana-answer-cards/pbi_cortana_modify-new.png)

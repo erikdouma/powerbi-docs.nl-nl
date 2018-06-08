@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 04/10/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 04dc755eb7d575aa8438b4a5000ad40549c6220f
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: bcf012d94dedfd912479c3e51e0de388b177c294
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297073"
+ms.locfileid: "34755019"
 ---
 # <a name="using-auditing-within-your-organization"></a>Auditing gebruiken binnen uw organisatie
 
 Lees hier meer over de manier waarop u auditing kunt gebruiken met Power BI om uitgevoerde acties te controleren en onderzoeken. U kunt het Beveiligings- en nalevingscentrum of PowerShell gebruiken.
 
-Weten wie welke actie uitvoert op een item in uw Power BI-tenant kan essentieel zijn om uw organisatie te helpen te voldoen aan de vereisten, zoals het voldoen aan regelgeving en archiefbeheer.
+Weten wie welke actie uitvoert op een item in uw Power BI-tenant kan essentieel zijn om uw organisatie te helpen te voldoen aan de vereisten, zoals het voldoen aan regelgeving en archiefbeheer. U kunt Power BI-controles gebruiken om acties van gebruikers te controleren, zoals Rapport weergegeven en Dashboard weergeven. U kunt de controlefunctie niet gebruiken om machtigingen te controleren. 
 
 U kunt de auditgegevens filteren op datumbereik, gebruiker, dashboard, rapport, gegevensset en soort activiteit. U kunt de activiteiten ook downloaden in een CSV-bestand (bestand met door komma's gescheiden waarden) om de gegevens offline te analyseren.
 
@@ -29,18 +29,18 @@ U kunt de auditgegevens filteren op datumbereik, gebruiker, dashboard, rapport, 
 U moet aan deze vereisten voldoen voor toegang tot de auditlogboeken:
 
 - Voor toegang tot het auditgedeelte van het Beveiligings- en nalevingscentrum van Office 365 moet u een Exchange Online-licentie hebben (meegeleverd bij abonnementen op Office 365 Enterprise E3 en E5).
-- U moet een algemene beheerder zijn of een Exchange-beheerdersrol hebben die toegang tot het auditlogboek biedt. 
 
-  Exchange-beheerdersrollen worden beheerd via het Exchange-beheercentrum. Zie [Machtigingen in Exchange Online](https://technet.microsoft.com/library/jj200692(v=exchg.150).aspx) voor meer informatie.
+- U moet een algemene beheerder zijn of een Exchange-beheerdersrol hebben die toegang tot het auditlogboek biedt. Exchange-beheerdersrollen worden beheerd via het Exchange-beheercentrum. Zie [Machtigingen in Exchange Online](https://technet.microsoft.com/library/jj200692(v=exchg.150).aspx) voor meer informatie.
 
 - Als u wel toegang tot het auditlogboek hebt maar geen algemene beheerder of beheerder van de Power BI-service bent, krijgt u geen toegang tot het beheerportal van Power BI. In dit geval moet u een directe koppeling naar het Beveiligings- en nalevingscentrum van Office 365 ophalen.
 
-> [!NOTE]
-> Als u auditlogboeken voor Power BI in uw tenant wilt weergeven, moet u ten minste één licentie voor een Exchange-postvak hebben in uw tenant.
+- Als u auditlogboeken voor Power BI in uw tenant wilt weergeven, moet u ten minste één licentie voor een Exchange-postvak hebben in uw tenant.
 
 ## <a name="accessing-your-audit-logs"></a>Auditlogboeken raadplegen
 
-Als u de auditlogboeken van Power BI wilt raadplegen, gaat u naar de app Beveiliging en compliance van Office 365.
+Als u de auditlogboeken van Power BI wilt raadplegen, gaat u naar het Beveiligings- en compliancecentrum van Office 365.
+
+Er kan een vertraging tot 48 uur bestaan tussen het inschakelen van de controlefunctie en het kunnen weergeven van controlegegevens. Als u niet direct gegevens ziet, controleert u de controlelogboeken op een later tijdstip. Er kan een vergelijkbare vertraging optreden tussen het ophalen van machtiging voor het weergeven van controlelogboeken en het kunnen openen van de logboeken.
 
 1. Selecteer het **tandwiel** in de rechterbovenhoek.
 
@@ -56,8 +56,7 @@ Als u de auditlogboeken van Power BI wilt raadplegen, gaat u naar de app Beveili
 
 U kunt ook [Office 365 | Beveiliging en compliance](https://protection.office.com/#/unifiedauditlog) kiezen.
 
-> [!NOTE]
-> Als u accounts van gewone gebruikers toegang wilt geven tot het auditlogboek, moet u machtigingen toewijzen in het beheercentrum van Exchange Online. U kunt bijvoorbeeld een gebruiker toewijzen aan een bestaande rolgroep, zoals Organisatiebeheer, of u kunt een nieuwe rolgroep maken met de rol Auditlogboeken. Zie [Machtigingen in Exchange Online](https://technet.microsoft.com/library/jj200692\(v=exchg.150\).aspx) voor meer informatie.
+Als u accounts van gewone gebruikers toegang wilt geven tot het auditlogboek, moet u machtigingen toewijzen in het beheercentrum van Exchange Online. U kunt bijvoorbeeld een gebruiker toewijzen aan een bestaande rolgroep, zoals Organisatiebeheer, of u kunt een nieuwe rolgroep maken met de rol Auditlogboeken. Zie [Machtigingen in Exchange Online](https://technet.microsoft.com/library/jj200692\(v=exchg.150\).aspx) voor meer informatie.
 
 ## <a name="search-only-power-bi-activities"></a>Alleen Power BI activiteiten zoeken
 
