@@ -1136,6 +1136,8 @@
           href: service-gateway-onprem-manage-oracle.md
         - name: 'Uw zakelijke gegevensbron beheren: importeren/geplande vernieuwing'
           href: service-gateway-enterprise-manage-scheduled-refresh.md
+        - name: On-premises en cloud-gegevensbronnen samenvoegen
+          href: service-gateway-mashup-on-premises-cloud.md
         - name: Kerberos gebruiken voor SSO (Single Sign-On)
           href: service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md
         - name: Proxyinstellingen configureren
