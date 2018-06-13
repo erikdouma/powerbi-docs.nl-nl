@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/05/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 980aa830e38e49613b54ad473ef23eb7eac78ed2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 04963d513fa397e75c34f0650bf55fb31c1490f2
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722788"
+ms.locfileid: "34755088"
 ---
 # <a name="power-bi-premium---what-is-it"></a>Wat is Power BI Premium?
 Power BI Premium bevat toegewezen resources om de Power BI-service voor uw organisatie of een team uit te voeren, wat resulteert in betrouwbaardere prestaties en grotere gegevensvolumes. Premium biedt de mogelijkheid tot een wijd verspreide distributie zonder dat u gebruikerslicentie hoeft aan te schaffen voor viewers.
@@ -61,9 +61,8 @@ Uw werkruimte bevindt zich standaard in de gedeelde capaciteit. Dit geldt ook vo
 ### <a name="premium-capacity-nodes"></a>Premium-capaciteitsknooppunten
 Power BI Premium is beschikbaar in knooppuntconfiguraties met verschillende v-corecapaciteiten. Zie [Prijzen van Power BI](https://powerbi.microsoft.com/pricing/) voor meer informatie over het specifieke SKU-aanbod en de kosten. Er is ook een [kostencalculator](https://powerbi.microsoft.com/calculator/) beschikbaar. Zie [Technisch document over het plannen van een Power BI Enterprise-implementatie](https://aka.ms/pbienterprisedeploy) voor meer informatie over het plannen van de ingesloten analysecapaciteit.
 
-* P-knooppunten kunnen worden gebruikt voor ingesloten implementaties of service-implementaties
-* EM-knooppunten kunnen alleen worden gebruikt voor ingesloten implementaties
-* EM1 en EM2 
+* P-knooppunten kunnen worden gebruikt voor ingesloten of service-implementaties.
+* EM-knooppunten kunnen alleen worden gebruikt voor ingesloten implementaties. EM-knooppunten hebben geen toegang tot premiummogelijkheden, zoals apps delen met gebruikers die geen Power BI Pro-licentie hebben.
 
 >[!NOTE]
 >Koppelingen in deze tabel werken alleen goed voor gebruikers die globale beheerders zijn voor Office 365. Voor andere gebruikers wordt een 404-fout weergegeven. 

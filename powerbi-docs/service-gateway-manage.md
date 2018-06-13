@@ -10,21 +10,25 @@ ms.topic: conceptual
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: aec57dc8d015afe80c9cc9cde83c2d1fd6ba26b0
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8369566712e24c035ac0ec07cc7d5a219041a400
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722584"
+ms.locfileid: "34755157"
 ---
 # <a name="manage-a-power-bi-gateway"></a>Power BI Gateway beheren
 
-Nadat u [een Power BI-gegevensgateway hebt geïnstalleerd](service-gateway-install.md), kunt u deze beheren via het gedeelte **Gateways beheren** van de Power BI-service in de gateway-app op uw lokale computer en ook met PowerShell-scripts. Dit artikel richt zich op de Power BI-service. Als u zojuist een gateway hebt geïnstalleerd, wordt u aangeraden vervolgens [een gegevensbron toe te voegen](#add-a-data-source) en vervolgens [gebruikers toe te voegen](#add-users-to-a-data-source), zodat ze de gegevensbron kunnen openen.
+Nadat u [een Power BI-gegevensgateway hebt geïnstalleerd](service-gateway-install.md), beheert u deze op basis van uw vereisten. In dit onderwerp leert u hoe u: gegevensbronnen en gebruikers toevoegt en verwijdert; een gateway opnieuw opstart; en een gateway migreert, herstelt, overneemt en verwijdert. 
+
+U kunt een gateway beheren via het gedeelte **Gateways beheren** van de Power BI-service in de gateway-app op uw lokale computer en ook met PowerShell-scripts. Dit artikel richt zich op de Power BI-service. 
+
+Als u zojuist een gateway hebt geïnstalleerd, wordt u aangeraden vervolgens [een gegevensbron toe te voegen](#add-a-data-source) en vervolgens [gebruikers toe te voegen](#add-users-to-a-data-source), zodat ze de gegevensbron kunnen openen.
 
 
 ## <a name="manage-data-sources"></a>Gegevensbronnen beheren
 
-Power BI biedt ondersteuning voor veel on-premises gegevensbronnen en elke bron heeft zijn eigen vereisten. In dit voorbeeld leert u hoe u SQL Server toevoegt als gegevensbron, maar de stappen komen overeen met die voor andere gegevensbronnen.
+Power BI biedt ondersteuning voor veel on-premises gegevensbronnen en elke bron heeft zijn eigen vereisten. Een gateway kan worden gebruikt voor een enkele gegevensbron of meerdere gegevensbronnen. In dit voorbeeld leert u hoe u SQL Server toevoegt als gegevensbron, maar de stappen komen overeen met die voor andere gegevensbronnen.
 
 
 ### <a name="add-a-data-source"></a>Een gegevensbron toevoegen
@@ -113,6 +117,14 @@ Wanneer beheerders het menu-item **Gateways beheren** (onder het tandwielpictogr
 
 Alle nieuwe aanvragen voor **Geplande vernieuwing** en DirectQuery-bewerkingen worden automatisch doorgestuurd naar het primaire exemplaar van een bepaald gatewaycluster. Als het primaire gatewayexemplaar niet online is, wordt de aanvraag doorgestuurd naar een ander gatewayexemplaar in het cluster.
 
+
+## <a name="share-a-gateway"></a>Een gateway delen
+
+U kunt gateways niet direct *delen*, maar u kunt wel beheerders toevoegen aan de gateway en u kunt gebruikers toevoegen aan de gegevensbronnen van de gateway. 
+
+Nadat u een gateway hebt geïnstalleerd, bent u de beheerder van die gateway. Dit is een standaardinstelling. Zoals u al eerder zag, kunt u andere personen als beheerders toevoegen. Deze beheerders kunnen gegevensbronnen toevoegen en de gateway configureren en verwijderen.
+
+U kunt ook gebruikers toewijzen aan de gegevensbronnen die u maakt onder elk van uw gateways. Gebruikers kunnen vervolgens die gegevensbronnen gebruiken om Power BI-rapporten te vernieuwen. Ze kunnen echter geen gegevensbronnen of gatewayinstellingen wijzigen.
 
 ## <a name="migrate-restore-or-take-over-a-gateway"></a>Gateway migreren, herstellen of overnemen
 

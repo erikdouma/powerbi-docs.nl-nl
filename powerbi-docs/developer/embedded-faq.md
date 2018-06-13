@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: d7baa305c514d084f6390754d516b238794bcdbf
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 3e1b3b59fff26242e662d90365a6b8acc98259e6
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721013"
+ms.locfileid: "34754927"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Veelgestelde vragen over Power BI Embedded
 
@@ -103,8 +103,7 @@ De verificatie en autorisatie van de toepassingsgebruikers wordt geïmplementeer
 
 Als u al een Azure AD-tenant hebt, kunt u uw bestaande adreslijst gebruiken of u kunt een nieuwe Azure AD-tenant maken voor de beveiliging van de inhoud van uw ingesloten toepassing.
 
-Voor het ophalen van een AAD-token kunt u een van de Azure Active Directory-verificatiebibliotheken gebruiken. Er zijn clientbibliotheken beschikbaar voor meerdere platformen.
-https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries
+Als u een AAD-token wilt ophalen, kunt u één van de Azure Active Directory-verificatiebibliotheken gebruiken: https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries. Er zijn clientbibliotheken beschikbaar voor meerdere platformen.
 
 ### <a name="how-is-power-bi-embedded-different-from-other-azure-services"></a>Hoe verschilt Power BI Embedded van andere Azure-services?
 

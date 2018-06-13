@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: c0ad0c22d0787eaaa45cb36c74c01f6a1d1f85e3
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ef554d7190709565610336169b4883d71970f822
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722653"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799551"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Proxy-instellingen configureren voor de on-premises gegevensgateway
 Het is mogelijk dat u in uw werkomgeving alleen toegang tot internet hebt via een proxy. Hierdoor is het mogelijk dat de on-premises gegevensgateway geen verbinding kan maken met de service.
@@ -50,7 +50,7 @@ De standaardproxyconfiguratie is als volgt.
         <defaultProxy useDefaultCredentials="true" />
     </system.net>
 
-De standaardconfiguratie werkt met Windows-verificatie. Als uw proxy een andere vorm van verificatie gebruikt, moet u de instellingen wijzigen. Als u niet zeker weet welke vorm van verificatie wordt gebruikt, neemt u contact op met uw netwerkbeheerder.
+De standaardconfiguratie werkt met Windows-verificatie. Als uw proxy een andere vorm van verificatie gebruikt, moet u de instellingen wijzigen. Als u niet zeker weet welke vorm van verificatie wordt gebruikt, neemt u contact op met uw netwerkbeheerder. Basisproxyverificatie wordt niet aangeraden. Wanneer u probeert basisproxyverificatie te gebruiken, kan dit leiden tot proxyverificatiefouten waardoor de gateway niet goed wordt geconfigureerd. Gebruik een sterkere proxyverificatiemethode voor omzetten.
 
 Naast het gebruik van standaardreferenties kunt u een <proxy>-element toevoegen om de proxyserverinstellingen uitgebreider te definiëren. U kunt bijvoorbeeld opgeven dat uw on-premises gegevensgateway altijd de proxy moet gebruiken, zelfs voor lokale resources, door de parameter bypassonlocal in te stellen op Onwaar. Dit is nuttig voor het oplossen van problemen als u alle https-aanvragen die afkomstig zijn van een on-premises gegevensgateway in de logboekbestanden van de proxy. De volgende voorbeeldconfiguratie geeft aan dat alle aanvragen via een specifieke proxy met IP-adres 192.168.1.10 moeten lopen.
 
@@ -93,6 +93,10 @@ Wanneer de proxyinstellingen worden geconfigureerd voor het gebruik van standaar
 5. Gebruik de herstelsleutel om de gateway te herstellen.
    
     Zodoende stelt u het nieuwe serviceaccount in staat op de opgeslagen referenties voor gegevensbronnen te ontsleutelen.
+    
+> [!NOTE]
+> Wanneer u het serviceaccount rechtstreeks wijzigt met het bedieningspaneel Services, worden ACL's niet automatisch ook bijgewerkt. U moet ervoor zorgen dat het nieuwe serviceaccount toegang heeft tot de installatiebestanden en -map. U vindt de gatewayinstallatiemap onder C:\Program Files\On-premises data gateway. 
+> 
 
 ## <a name="next-steps"></a>Volgende stappen
 [On-premises gegevensgateway (personal mode)](service-gateway-personal-mode.md)

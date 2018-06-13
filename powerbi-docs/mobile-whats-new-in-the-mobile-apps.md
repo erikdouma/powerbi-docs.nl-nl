@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/21/2018
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 0e4401499ab54707970b928366c67a9dcf7d587a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 9cf6e1a0b4e711f696d9728850352a53ac8442f6
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482171"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799620"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -25,9 +25,26 @@ Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mog
 
 ## <a name="may-2018"></a>Mei 2018
 
-### <a name="configure-power-bi-ios-mobile-apps-for-report-servers-remotely"></a>Power BI mobiele iOS-apps op afstand configureren voor rapportservers
+### <a name="mobile-drill-through-all-mobile-apps"></a>Mobiele drillthrough: alle mobiele apps
+
+U kunt inzoomen vanaf een geselecteerd gegevenspunt naar een andere rapportpagina in de mobiele apps, als de rapportontwerper die actie heeft gedefinieerd. 
+
+### <a name="back-button-all-mobile-apps"></a>De knop Terug: alle mobiele apps
+
+Wanneer u nu door een rapport navigeert door te vegen, een rapportpagina op de actiebalk te kiezen of in te zoomen, gaat u met de knop Terug terug naar de vorige pagina die u hebt bekeken. 
+
+### <a name="dashboard-themes-all-mobile-apps"></a>Dashboardthema's: alle mobiele apps
+
+Wanneer rapportontwerpers dashboardthema's in de Power BI-service aanpassen, wordt ook de vormgeving van het dashboard in de mobiele app gewijzigd. U ziet echter geen achtergrondafbeeldingen.
+
+### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS: toegang via Power BI mobiele iOS-apps tot rapportservers op afstand configureren
 
 Uw IT-beheerder kan nu een MDM-hulpprogramma gebruiken om toegang via een Power BI mobiele iOS-app tot een rapportserver te configureren. Zie [Toegang via Power BI mobiele iOS-apps tot rapportserver op afstand configureren](report-server/configure-powerbi-mobile-apps-remote.md) voor meer informatie.
+
+### <a name="power-bi-for-mixed-reality-app-preview"></a>De app Power BI for Mixed Reality (preview)
+
+De Power BI for Mixed Reality-app is nu beschikbaar in de Microsoft Store. Bekijk de dashboards en rapporten terwijl u in een virtuele omgeving werkt of plaats en bekijk deze op specifieke locaties in uw omgeving. Bekijk de nieuwe video [Kennismaking met Power BI op Hololens](https://www.youtube.com/watch?v=J_X_nOFUBss) voor context of lees het artikel over de nieuwe [Power BI for Mixed Reality-app](mobile-mixed-reality-app.md).
+
 
 ## <a name="april-2018"></a>April 2018
 
