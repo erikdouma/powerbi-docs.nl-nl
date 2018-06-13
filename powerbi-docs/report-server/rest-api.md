@@ -1,5 +1,5 @@
 ---
-title: Releaseopmerkingen bij Power BI Report Server
+title: Ontwikkelen met de REST API's voor Power BI Report Server
 description: De REST API biedt toegang op programmeerniveau tot de objecten in een Power BI Report Server-catalogus.
 author: markingmyname
 manager: kfile
@@ -9,14 +9,15 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: a1cbcc6d265504bc93ef6447a6be381ca6399063
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 08c8075fe275ff1472d3e9845f954ef4d029b373
+ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721749"
+ms.lasthandoff: 06/09/2018
+ms.locfileid: "35250425"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>Ontwikkelen met de REST API's voor Power BI Report Server
+
 Power BI Report Server-ondersteuning voor REST API’s (Representational State Transfer). De REST API's zijn service-eindpunten die ondersteuning bieden voor een set HTTP-bewerkingen (methoden). Deze bewerkingen bieden de mogelijkheid om resources binnen een rapportserver te maken, op te halen, bij te werken of te verwijderen.
 
 De REST API biedt toegang op programmeerniveau tot de objecten in een Power BI Report Server-catalogus. Voorbeelden van objecten zijn mappen, rapporten, KPI's, gegevensbronnen, gegevenssets, vernieuwingsplannen, abonnementen en meer. Met behulp van de REST API kunt u bijvoorbeeld door de maphiërarchie navigeren, de inhoud van een map ontdekken of een rapportdefinitie downloaden. U kunt ook objecten maken, bijwerken en verwijderen. Voorbeelden van het werken met objecten zijn een rapport uploaden, een plan vernieuwen, een map verwijderen, enzovoort.
@@ -24,6 +25,7 @@ De REST API biedt toegang op programmeerniveau tot de objecten in een Power BI R
 [!INCLUDE [GDPR-related guidance](../includes/gdpr-hybrid-note.md)]
 
 ## <a name="components-of-a-rest-api-requestresponse"></a>Onderdelen van een REST API-aanvraag/antwoord
+
 Een combinatie van REST API-aanvraag/antwoord kan worden opgesplitst in vijf onderdelen:
 
 * De **Aanvraag-URI** die bestaat uit: `{URI-scheme} :// {URI-host} / {resource-path} ? {query-string}`. Hoewel de aanvraag-URI is opgenomen in de berichtkop van de aanvraag, wordt deze hier afzonderlijk aangeroepen omdat u deze voor de meeste talen of frameworks afzonderlijk moet doorgeven vanuit het aanvraagbericht.
@@ -46,15 +48,17 @@ Een combinatie van REST API-aanvraag/antwoord kan worden opgesplitst in vijf ond
   * Met MIME gecodeerde antwoordobjecten worden geretourneerd in de berichttekst van het HTTP-antwoord, zoals een reactie via een GET-methode waarmee gegevens worden geretourneerd. Normaal gesproken worden deze objecten geretourneerd in een gestructureerde indeling (bijvoorbeeld JSON of XML), zoals aangegeven in de `Content-type`-antwoordkop.
 
 ## <a name="api-documentation"></a>API-documentatie
+
 Een moderne REST API vraagt om moderne API-documentatie. De REST API is gebouwd op de OpenAPI-specificatie (ook wel de Swagger-specificatie genoemd) en documentatie is beschikbaar op [SwaggerHub](https://app.swaggerhub.com/apis/microsoft-rs/PBIRS/2.0). Naast het bieden van documentatie over de API, helpt SwaggerHub ook bij het genereren van een clientbibliotheek in de taal naar keuze: JavaScript, TypeScript, C#, Java, Python, Ruby en meer.
 
 ## <a name="testing-api-calls"></a>API-aanroepen testen
+
 Een hulpprogramma voor het testen van HTTP-aanvraag-/antwoordberichten is [Fiddler](http://www.telerik.com/fiddler). Fiddler is een gratis proxy voor webfoutopsporing waarmee uw REST-aanvragen kunnen worden onderschept, zodat u eenvoudig een diagnose kunt uitvoeren voor de HTTP-aanvraag-/antwoordberichten.
 
 ## <a name="next-steps"></a>Volgende stappen
+
 Bekijk de beschikbare API's op [SwaggerHub](https://app.swaggerhub.com/apis/microsoft-rs/PBIRS/2.0).
 
 Voorbeelden zijn beschikbaar op [GitHub](https://github.com/Microsoft/Reporting-Services). Het voorbeeld omvat een HTML5-app die is gebouwd op TypeScript, React en webpack, evenals een PowerShell-voorbeeld.
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-

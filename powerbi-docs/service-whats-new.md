@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/09/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 0589ef3ad4f55a9684f0a7b31ed6421936c3e5c2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: db32f7d0d3f7ca7b6943ca5347dc349c8c44be85
+ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34299166"
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35301844"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Wat is er nieuw in de Power BI-service
@@ -24,7 +24,7 @@ Raadpleeg deze pagina voor bekende problemen en onlangs uitgebrachte functies in
 - [Wat is er nieuw in Power BI Desktop](desktop-latest-update.md)  
 - [Wat is er nieuw in de mobiele apps voor Power BI](mobile-whats-new-in-the-mobile-apps.md)  
 - [Power BI-teamblog](https://powerbi.microsoft.com/blog/)
-- [Opmerkingen bij de lenterelease (2018) van de zakelijke toepassingen](https://aka.ms/bagspring2018releasenotes_internal) van Dynamics 365: de nieuwste updates aan onze zakelijke toepassingen, evenals nieuwe mogelijkheden om uw toepassingen en extensies op ons platform te bouwen. 
+- [Opmerkingen bij de lenterelease (2018) van de zakelijke toepassingen](http://aka.ms/businessappsreleasenotes) van Dynamics 365: de nieuwste updates aan onze zakelijke toepassingen, evenals nieuwe mogelijkheden om uw toepassingen en extensies op ons platform te bouwen. 
 
 U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en mogelijkheden.
 

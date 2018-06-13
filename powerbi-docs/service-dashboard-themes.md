@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/30/2018
+ms.date: 06/05/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1ea92be426312a738e03d78454a4c83a82b233c5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 331dc45f3049fe77145b86ffafd363162c74a589
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722515"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813797"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Dashboardthema’s gebruiken in Power BI-service
 Met **Dashboardthema's** kunt u een kleurenthema op uw gehele dashboard toepassen, zoals zakelijke kleuren, seizoensgebonden kleuren of andere kleurthema's die u op een rapport zou willen toepassen. Bij het toepassen van een **Dashboardthema** worden voor alle visuals op het dashboard de kleuren van het geselecteerde thema gebruikt. Er zijn enkele uitzonderingen van toepassing, zoals verderop in dit artikel wordt beschreven.
 
 ![voorbeelddashboard met thema](media/service-dashboard-themes/power-bi-full-dashboard-theme.png)
 
-Het wijzigen van de kleuren van de rapportvisuals op het dashboard heeft geen invloed op de visuals in het rapport. Ook als u tegels vastmaakt vanuit een rapport waarop al een [rapportthema is toegepast](/desktop-report-themes.md), kunt u ervoor kiezen het huidige thema te behouden of het dashboardthema te gebruiken.
+Het wijzigen van de kleuren van de rapportvisuals op het dashboard heeft geen invloed op de visuals in het rapport. Ook als u tegels vastmaakt vanuit een rapport waarop al een [rapportthema is toegepast](desktop-report-themes.md), kunt u ervoor kiezen het huidige thema te behouden of het dashboardthema te gebruiken.
 
 
 ## <a name="prerequisites"></a>Vereisten

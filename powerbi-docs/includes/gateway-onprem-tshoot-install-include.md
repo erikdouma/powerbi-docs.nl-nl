@@ -4,8 +4,6 @@ Er kunnen zich allerlei problemen voordoen als de gatewayversie verouderd is.  H
 ## <a name="common-issues"></a>Veel voorkomende problemen
 Hier volgen enkele veelvoorkomende problemen en oplossingen die enkele klanten hebben gebruikt in omgevingen die de toegang tot internet beperken.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-t7RO6mHATI?showinfo=0" frameborder="0" allowfullscreen></iframe>
-
 ### <a name="authentication-to-proxy-server"></a>Verificatie bij de proxyserver
 De proxy vereist mogelijk dat het domeingebruikersaccount wordt geverifieerd. De gateway gebruikt standaard een service-SID voor de Windows-service Gebruiker aanmelden. Mogelijk helpt het om de aanmeldingsgebruiker te wijzigen in een domeingebruiker. Zie [De gatewayserviceaccount wijzigen in een domeingebruiker](../service-gateway-proxy.md#changing-the-gateway-service-account-to-a-domain-user) voor meer informatie.
 
