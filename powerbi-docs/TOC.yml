@@ -900,8 +900,18 @@
           href: developer/embed-sample-for-customers.md
     - name: Concepten
       items:
-        - name: Wat kan ik doen met de Power BI API?
-          href: developer/overview-of-power-bi-rest-api.md
+        - name: Werken met REST-API's van Power BI
+          items:
+            - name: Wat kan ik doen met de Power BI API?
+              href: developer/overview-of-power-bi-rest-api.md
+            - name: Beperkingen van REST-API's van Power BI
+              href: developer/api-rest-api-limitations.md
+            - name: Eigenschappen van gegevensset
+              href: developer/api-dataset-properties.md
+            - name: Versiebeheer gegevensmodel
+              href: developer/api-data-model-versioning.md
+        - name: Een aangepaste visual maken met ontwikkelhulpprogramma's
+          href: service-custom-visuals-getting-started-with-developer-tools.md
         - name: Power BI-machtigingen
           href: developer/power-bi-permissions.md
         - name: Beveiliging op rijniveau (RLS)
@@ -968,6 +978,8 @@
               href: developer/walkthrough-push-data-add-rows.md
             - name: Volledige vermelding van de code
               href: developer/walkthrough-push-data-complete-code.md
+            - name: Automatisch bewaarbeleid voor realtime-gegevens
+              href: developer/api-automatic-retention-policy-for-real-time-data.md
         - name: Certificering van het inhoudspakket
           items:
             - name: Certificeringsprogramma voor inhoudspakketten
