@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: 6ad2138ab37b20fa16a5455ab167ec9e6b7e159c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: afed2bc87e7e358d9ba02a465c43d223f6e7cba3
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34288309"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813774"
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>Een tegel in een app integreren (gebruiker is eigenaar van de gegevens)
 Informatie over het integreren of insluiten van een tegel in een web-app met behulp van REST-API-aanroepen en de Power BI JavaScript-API voor uw organisatie.
@@ -28,7 +28,7 @@ Als u wilt beginnen met dit scenario, hebt u een **Power BI**-account nodig. Als
 > 
 > 
 
-Als u een tegel wilt integreren in een web-app, gebruikt u de **Power BI** REST-API of de Power BI C# SDK en een **AD-toegangstoken** (Azure Active Directory) voor verificatie bij het ophalen van een tegel. Vervolgens kunt u de tegel laden met hetzelfde toegangstoken. De **Power BI** API biedt programmatische toegang tot bepaalde **Power BI**-resources. Zie voor meer informatie [Overzicht van Power BI REST-API](https://msdn.microsoft.com/library/dn877544.aspx) en de [Power BI JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript).
+Als u een tegel wilt integreren in een web-app, gebruikt u de **Power BI** REST-API of de Power BI C# SDK en een **AD-toegangstoken** (Azure Active Directory) voor verificatie bij het ophalen van een tegel. Vervolgens kunt u de tegel laden met hetzelfde toegangstoken. De **Power BI** API biedt programmatische toegang tot bepaalde **Power BI**-resources. Zie [Power BI REST-API](https://docs.microsoft.com/rest/api/power-bi/) en de [Power BI JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript) voor meer informatie.
 
 ## <a name="download-the-sample"></a>Het voorbeeld downloaden
 Dit artikel bevat de code die wordt gebruikt in de [integrate-tile-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app) op GitHub. Als u dit scenario wilt volgen, kunt u het voorbeeld downloaden.
@@ -44,12 +44,12 @@ Als u de [integrate-tile-web-app](https://github.com/Microsoft/PowerBI-Developer
 In uw app moet u eerst een **toegangstoken** van Azure AD ophalen voordat u de Power BI REST-API kunt aanroepen. Zie [Gebruikers verifiëren en een Azure AD-toegangstoken verkrijgen voor uw Power BI-app](get-azuread-access-token.md) voor meer informatie.
 
 ## <a name="step-3---get-a-tile"></a>Stap 3: een tegel ophalen
-Als u een **Power BI**-tegel wilt ophalen, gebruikt u de bewerking [Tegels ophalen](https://msdn.microsoft.com/library/mt465741.aspx). Hiermee haalt u een lijst met **Power BI**-tegels op uit een bepaald dashboard. Vanuit de lijst met tegels kunt u een tegel-ID en insluitings-URL ophalen.
+Als u een **Power BI**-tegel wilt ophalen, gebruikt u de bewerking [Tegels ophalen](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles). Hiermee haalt u een lijst met **Power BI**-tegels op uit een bepaald dashboard. Vanuit de lijst met tegels kunt u een tegel-ID en insluitings-URL ophalen.
 
 Voordat u de tegel kunt ophalen, moet eerst een dashboard-ID worden opgehaald. Zie [Een dashboard in een app integreren (gebruiker is eigenaar van gegevens)](integrate-dashboard.md) voor meer informatie over het ophalen van een dashboard.
 
 ### <a name="get-tiles-using-an-access-token"></a>Tegels ophalen met behulp van een toegangstoken
-Met het **toegangstoken** dat u hebt opgehaald in [stap 2](#step-2-get-an-access-token-from-azure-ad) roept u de bewerking [Tegels ophalen](https://msdn.microsoft.com/library/mt465741.aspx) aan. Met de bewerking [Tegels ophalen](https://msdn.microsoft.com/library/mt465741.aspx) wordt een lijst met rapporten geretourneerd. U kunt een enkele tegel ophalen vanuit de lijst met rapporten. Hieronder vindt u een volledige C#-methode voor het ophalen van een tegel. 
+Met het **toegangstoken** dat u hebt opgehaald in [stap 2](#step-2-get-an-access-token-from-azure-ad) roept u de bewerking [Tegels ophalen](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles) aan. Met de bewerking [Tegels ophalen](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles) wordt een lijst met rapporten geretourneerd. U kunt een enkele tegel ophalen vanuit de lijst met rapporten. Hieronder vindt u een volledige C#-methode voor het ophalen van een tegel. 
 
 Als u de REST-API-aanroep uitvoert, moet u de header *Autorisatie* met de indeling *Bearer {toegangstoken}* toevoegen.
 
@@ -216,7 +216,7 @@ Als u de [integrate-tile-web-app](https://github.com/Microsoft/PowerBI-Developer
 ![Ingesloten tegel in web-app](media/integrate-tile/powerbi-embedded-tile.png)
 
 ## <a name="working-with-groups-app-workspaces"></a>Met groepen werken (app-werkruimten)
-Als u een tegel uit een groep (app-werkgroep) wilt insluiten, hebt u de lijst met alle beschikbare tegels in een dashboard van een groep nodig. Deze roept u aan met de volgende REST-API-aanroep. Zie [Tegels ophalen](https://msdn.microsoft.com/library/mt465741.aspx) voor meer informatie over deze REST-API-aanroep. U moet binnen de groep gemachtigd zijn, anders retourneert de aanvraag geen resultaten.
+Als u een tegel uit een groep (app-werkgroep) wilt insluiten, hebt u de lijst met alle beschikbare tegels in een dashboard van een groep nodig. Deze roept u aan met de volgende REST-API-aanroep. Zie [Tegels ophalen](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles) voor meer informatie over deze REST-API-aanroep. U moet binnen de groep gemachtigd zijn, anders retourneert de aanvraag geen resultaten.
 
 ```
 https://api.powerbi.com/v1.0/myorg/groups/{groupId}/dashboards/{dashboard_id}/tiles

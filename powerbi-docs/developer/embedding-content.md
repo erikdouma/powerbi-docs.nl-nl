@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 03/12/2018
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 6824436af46caaa78d5ae23d1e1047f27bd30bba
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: cb84cb2f4242cb120f187c27bb1b1675177c33a2
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813038"
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Dashboards, rapporten en tegels van Power BI insluiten
 
@@ -34,14 +35,21 @@ Voordat u begint met het insluiten van dashboards en rapporten in uw toepassing,
 
 * [Controleren of u een Azure Active Directory-tenant hebt](embedding-content.md#azureadtenant)
 * [Een Power BI Pro-account maken](embedding-content.md#proaccount)
-* [Uw Azure Active Directory-toepassing en machtigingen registreren](embedding-content.md#appreg)
+
+U kunt het [hulpprogramma voor de onboarding-ervaring](https://aka.ms/embedsetup) uitvoeren om snel aan de slag te gaan en een voorbeeldtoepassing te downloaden.
+
+Kies de oplossing die het beste bij u past:
+* [Door inhoud voor uw klanten in te sluiten](embedding.md#embedding-for-your-customers) kunt u dashboards en rapporten insluiten voor gebruikers die geen account voor Power BI hebben. Voer de oplossing [Insluiten voor uw klanten](https://aka.ms/embedsetup/AppOwnsData) uit.
+* [Met het insluiten van inhoud voor uw organisatie](embedding.md#embedding-for-your-organization) kunt u Power BI-service uitbreiden. Voer de oplossing [Insluiten voor uw organisatie](https://aka.ms/embedsetup/UserOwnsData) uit.
+
+Als u echter besluit de omgeving handmatig in te stellen, kunt u hieronder doorgaan. 
 
 > [!NOTE]
-> Power BI-capaciteit is niet vereist voor het ontwikkelen van uw toepassing. De ontwikkelaars van de toepassing moeten beschikken over een Power BI Pro-licentie.
+> Er is geen speciale capaciteit vereist voor het ontwikkelen van uw toepassing. De ontwikkelaars van de toepassing moeten beschikken over een Power BI Pro-licentie.
 
 ### <a name="azureadtenant"></a>Azure Active Directory-tenant
 
-U hebt Azure Active Directory-tenant (Azure AD) nodig om items vanuit Power BI te kunnen insluiten. Deze tenant moet ten minste één Power BI Pro-gebruiker hebben. U moet ook een Azure AD-app in de tenant definiëren. U kunt een bestaande Azure AD-tenant gebruiken of een nieuwe, specifieke Azure AD-tenant maken voor het insluiten.
+U hebt een Azure Active Directory-tenant (Azure AD) nodig om items vanuit Power BI te kunnen insluiten. Deze tenant moet ten minste één Power BI Pro-gebruiker hebben. U moet ook een Azure AD-app in de tenant definiëren. U kunt een bestaande Azure AD-tenant gebruiken of een nieuwe, specifieke Azure AD-tenant maken voor het insluiten.
 
 U moet bepalen welke tenantconfiguratie u wilt gebruiken voor het insluiten van inhoud voor klanten.
 
@@ -55,19 +63,19 @@ Als u geen bestaande tenant wilt gebruiken, kunt u kiezen of u een nieuwe tenant
 
 U hebt slechts één Power BI Pro-account nodig voor het insluiten van inhoud. Mogelijk wilt u echter verschillende gebruikers met verschillende toegangsrechten voor items instellen. Hier volgt een overzicht van mogelijke gebruikers voor uw tenant.
 
-De volgende accounts zijn vereist voor uw tenant. Ook moet aan die accounts een Power BI Pro-licentie toegewezen zijn. Een Power BI Pro-licentie is vereist voor het werken met app-werkruimten in Power BI.
+De volgende accounts zijn vereist voor uw tenant. Ook moet aan die accounts een Power BI Pro-licentie zijn toegewezen. Een Power BI Pro-licentie is vereist voor het werken met app-werkruimten in Power BI.
 
 #### <a name="an-organizationtenant-admin-user"></a>Een organisatie-/tenantbeheerder
 
-U wordt afgeraden om het gebruikersaccount van de globale beheerder van uw organisatie/tenant te gebruiken voor het insluiten van inhoud voor klanten. Zo beperkt u de toegangsrechten van het account voor de toepassing binnen uw tenant. Het wordt aanbevolen dat deze beheerder een beheerder is van alle app-werkruimten die worden gemaakt voor het insluiten van inhoud.
+U wordt afgeraden om het gebruikersaccount van de globale beheerder van uw organisatie/tenant te gebruiken voor het insluiten van inhoud voor klanten. Zo beperkt u de toegangsrechten van het account voor de toepassing binnen uw tenant. Het wordt aanbevolen dat de beheerder een beheerder is van alle app-werkruimten die worden gemaakt voor het insluiten van inhoud.
 
-#### <a name="accounts-for-analysts-that-will-create-content"></a>Accounts voor analisten die inhoud maken
+#### <a name="accounts-for-analysts-that-create-content"></a>Accounts voor analisten die inhoud maken
 
 Mogelijk hebt u meerdere gebruikers die inhoud voor Power BI maken. U hebt een Power BI Pro-account nodig voor elke analist die inhoud maakt en implementeert in Power BI.
 
 #### <a name="an-application-master-user-account-for-embedding-for-your-customers"></a>Een *hoofd*gebruikersaccount voor het insluiten van inhoud voor klanten
 
-Het hoofdaccount is het account dat in uw toepassing wordt gebruikt voor het insluiten van inhoud voor uw klanten. Het scenario wordt doorgaans gebruikt voor ISV-toepassingen. Het hoofdaccount is in feite het enige vereiste account binnen uw organisatie. Het kan ook worden gebruikt als beheerdersaccount en analistaccount, maar dit wordt niet aanbevolen. De referenties voor dit account worden opgeslagen op de back-end van uw toepassing en gebruikt voor het verkrijgen van een Azure AD-verificatietoken voor de Power BI-API's. Dit account wordt gebruikt voor het genereren van een insluittoken voor de toepassing die moet worden gebruikt voor uw klanten.
+Het hoofdaccount is het account dat in uw toepassing wordt gebruikt voor het insluiten van inhoud voor uw klanten. Het scenario wordt doorgaans gebruikt voor ISV-toepassingen. Het hoofdaccount is het enige vereiste account binnen uw organisatie. Het kan ook worden gebruikt als beheerdersaccount en analistaccount, maar dit wordt niet aanbevolen. De referenties voor dit account worden opgeslagen in de back-end van uw toepassing en gebruikt voor het verkrijgen van een Azure AD-verificatietoken voor de Power BI-API's. Dit account wordt gebruikt voor het genereren van een insluittoken voor de toepassing die moet worden gebruikt voor uw klanten.
 
 Het hoofdaccount is slechts een standaardgebruiker met een Power BI Pro-licentie die u gebruikt voor uw toepassing. Het account moet een beheerder zijn van de app-werkruimte die wordt gebruikt voor het insluiten van inhoud.
 
@@ -105,7 +113,7 @@ Zie het volgende scenario voor informatie over het **insluiten van inhoud voor k
 
 * [Een dashboard, tegel of rapport in uw toepassing integreren](embed-sample-for-customers.md)
 
-Wanneer u inhoud voor uw klanten wilt insluiten, is een insluittoken vereist. Zie [Token genereren](https://msdn.microsoft.com/library/mt784614.aspx) voor meer informatie.
+Wanneer u inhoud voor uw klanten wilt insluiten, is een insluittoken vereist. Zie [Insluittoken](https://docs.microsoft.com/rest/api/power-bi/embedtoken) voor meer informatie.
 
 ## <a name="step-3-promote-your-solution-to-production"></a>Stap 3: het niveau van de oplossing verhogen naar productie
 
@@ -115,17 +123,21 @@ Om het niveau te verhogen naar productie, zijn enkele extra stappen vereist.
 
 Als u inhoud insluit voor uw organisatie, hoeft u mensen alleen te laten weten hoe ze uw toepassing kunnen verkrijgen. 
 
-Gebruikers van de gratis versie kunnen inhoud die is ingesloten in een app-werkruimte (groep) gebruiken als deze werkruimte wordt ondersteund door capaciteit. Voeg de gebruiker van de gratis versie toe als lid van de app-werkruimte (groep), anders wordt een 401-fout (niet-geautoriseerd) weergegeven. In de volgende tabel ziet u de Power BI Premium-SKU's die beschikbaar zijn in Office 365.
+Gebruikers van de gratis versie kunnen inhoud die is ingesloten in een app-werkruimte (groep) gebruiken als deze werkruimte wordt ondersteund door specifieke capaciteit. Voeg de gebruiker van de gratis versie toe als lid van de app-werkruimte (groep), anders wordt een 401-fout (niet-geautoriseerd) weergegeven. In de volgende tabel ziet u de Power BI Premium-SKU's die beschikbaar zijn in Office 365.
 
 | Capaciteit knooppunt | Totaal aantal cores<br/>*(back-end + front-end)* | Back-endcores | Front-endcores | Limieten voor DirectQuery/liveverbindingen | Maximum aantal pagina's (rendering) tijdens piekuren |
 | --- | --- | --- | --- | --- | --- |
 | EM3 |4 v-cores |2 cores, 10 GB RAM |2 cores | |601-1200 |
 | P1 |8 v-cores |4 cores, 25 GB RAM |4 cores |30 per seconde |1201-2400 |
 | P2 |16 v-cores |8 cores, 50 GB RAM |8 cores |60 per seconde |2401-4800 |
-| P3 |32 v-cores |16 cores, 100 GB RAM |16 cores |120 per seconde |4801-9600 |
+| P3 |32 v-cores |16 cores, 100 GB RAM |16 cores |120 per seconde |4.801-9.600 |
 
 > [!NOTE]
 > Als u Power BI Premium wilt kopen, moet u een globale beheerder of factureringsbeheerder binnen uw tenant zijn. Zie [Power BI Premium kopen](../service-admin-premium-purchase.md) voor meer informatie over het kopen van Power BI Premium.
+
+>[!Note]
+>[Stel uw omgeving voor ingesloten analyse in voor uw organisatie.](#step-1-setup-your-embedded-analytics-development-environment)
+>
 
 ### <a name="embedding-for-your-customers"></a>Inhoud voor uw klanten insluiten
 
@@ -135,7 +147,7 @@ Als u inhoud voor uw klanten wilt insluiten, moet u het volgende doen.
 * Koop de capaciteit die past bij uw behoeften. Raadpleeg de onderstaande tabel om te zien welke Power BI Embedded-capaciteit of SKU u waarschijnlijk nodig hebt. Zie [Technisch document over Embedded-capaciteitsplanning](https://aka.ms/pbiewhitepaper) voor meer informatie. Wanneer u tot aanschaf wilt overgaan, kunt u dat doen in de [Microsoft Azure Portal](https://portal.azure.com). Zie [Power BI Embedded-capaciteit maken in Azure Portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity) voor meer informatie over het maken van Power BI Embedded-capaciteit.
 
 > [!IMPORTANT]
-> Omdat insluitingstokens alleen voor ontwikkelingstesten zijn bedoeld, kan een Power BI-masteraccount een onbeperkt aantal insluitingstokens genereren. Er moet een [capaciteit moet worden aangeschaft](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) voor insluitingsscenario's voor de productie. Het aantal te genereren insluitingstokens is onbeperkt wanneer een capaciteit is aangeschaft. Ga naar [Beschikbare functies ophalen](https://msdn.microsoft.com/en-us/library/mt846473.aspx) om te controleren hoeveel gratis insluittokens zijn gebruikt.
+> Omdat insluittokens alleen voor ontwikkelingstesten zijn bedoeld, kan een Power BI-masteraccount een onbeperkt aantal insluittokens genereren. Er moet een [capaciteit moet worden aangeschaft](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) voor insluitingsscenario's voor de productie. Het aantal te genereren insluittokens is onbeperkt wanneer een specifieke capaciteit is aangeschaft. Ga naar [Beschikbare functies](https://docs.microsoft.com/rest/api/power-bi/availablefeatures) om te controleren hoeveel gratis insluittokens zijn gebruikt.
 
 | Capaciteitsknooppunt | Totaal aantal cores<br/>*(back-end + front-end)* | Back-endcores | Front-endcores | Limieten voor DirectQuery/liveverbindingen | Maximum aantal pagina's (rendering) tijdens piekuren |
 | --- | --- | --- | --- | --- | --- |
@@ -144,15 +156,17 @@ Als u inhoud voor uw klanten wilt insluiten, moet u het volgende doen.
 | A3 |4 v-cores |2 cores, 10 GB RAM |2 cores | 15 per seconde |601-1200 |
 | A4 |8 v-cores |4 cores, 25 GB RAM |4 cores |30 per seconde |1201-2400 |
 | A5 |16 v-cores |8 cores, 50 GB RAM |8 cores |60 per seconde |2401-4800 |
-| A6 |32 v-cores |16 cores, 100 GB RAM |16 cores |120 per seconde |4801-9600 |
+| A6 |32 v-cores |16 cores, 100 GB RAM |16 cores |120 per seconde |4.801-9.600 |
 
-* Bewerk de app-werkruimte en wijs deze toe aan een capaciteit onder Geavanceerd.
+* Bewerk de app-werkruimte en wijs deze via Geavanceerd toe aan een specifieke capaciteit.
 
     ![App-werkruimte toewijzen aan capaciteit](media/embedding-content/powerbi-embedded-premium-capacity.png)
 
 * Implementeer uw bijgewerkte toepassing naar productie en begin met het insluiten van Power BI-dashboards en rapporten.
 
-
+>[!Note]
+>[Stel uw omgeving voor ingesloten analyse in voor uw klanten.](#step-1-setup-your-embedded-analytics-development-environment) 
+>
 
 ## <a name="admin-settings"></a>Beheerdersinstellingen
 
@@ -171,4 +185,3 @@ Globale beheerders of Power BI-servicebeheerders kunnen de mogelijkheid om REST-
 [Technisch document over Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
-

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e676ef85d982a59b7058bce9e6467e8482b7aa62
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 7f712086ff667a5d4b1f21fb441c94bfae96693f
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722686"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813636"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI voor klanten uit de Amerikaanse overheid
 Er is als onderdeel van **Office 365 US Government Community**-abonnement een versie van de **Power BI-service** beschikbaar voor Amerikaanse overheidsklanten. De versie van de **Power BI-service** die in dit artikel wordt besproken, is specifiek ontworpen voor Amerikaanse overheidsklanten en staat los en verschilt van de commerciële versie van de **Power BI-service**.
@@ -92,6 +92,11 @@ Met behulp van de volgende vragen (en antwoorden) kunt u snel de informatie over
 | URL van de commerciële versie | URL van de versie voor de Amerikaanse overheid |
 | --- | --- |
 | https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) |
+
+**Vraag:** mijn account is in meer dan één onafhankelijke cloud ingericht. Hoe selecteer ik tijdens het gebruik van **Power BI Desktop** met welke cloud ik verbinding wil maken?
+
+**Antwoord:** vanaf de release van juli 2018 van **Power BI Desktop** kunt u kiezen welke cloud u wilt gebruiken tijdens het aanmelden bij **Power BI Desktop**.
+
 
 ## <a name="next-steps"></a>Volgende stappen
 Er zijn veel verschillende dingen die u met Power BI kunt doen. Bekijk de volgende resources voor meer informatie en trainingen, inclusief een artikel waarin wordt uitgelegd hoe zich voor de service kunt aanmelden:

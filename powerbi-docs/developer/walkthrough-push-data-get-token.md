@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 640c6dac9a896cff55bddad46ceef8bce7ccae14
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 238d068e5083c8f46ac3299faddd4e0872f0654d
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34289367"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812624"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>Stap 2: Een toegangstoken voor verificatie ophalen
 Dit artikel maakt deel uit van een stapsgewijze uitleg van hoe u [gegevens naar een gegevensset pusht](walkthrough-push-data.md).
@@ -104,7 +104,7 @@ Voeg deze code toe aan Program {...}.
        #endregion
 ```
 
-Nadat u een verificatietoken hebt opgehaald, kunt u elke Power BI-bewerking aanroepen. In de volgende stap ziet u hoe u de bewerking [Gegevensset maken](https://msdn.microsoft.com/library/mt203562.aspx) kunt aanroepen voor het maken van een gegevensset om gegevens naar een dashboard te pushen.
+Nadat u een verificatietoken hebt opgehaald, kunt u elke Power BI-bewerking aanroepen. In de volgende stap ziet u hoe u de bewerking [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) kunt aanroepen voor het maken van een gegevensset om gegevens naar een dashboard te pushen.
 
 In de volgende stap ziet u hoe u [een gegevensset maakt in Power BI](walkthrough-push-data-create-dataset.md).
 
@@ -181,6 +181,6 @@ Hieronder ziet u de [volledige code](#code).
 [Azure AD Authentication Library-pakket voor .NET-NuGet](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)  
 [Gegevens naar een Power BI-gegevensset pushen](walkthrough-push-data.md)  
 [Overzicht van de REST-API voor Power BI](overview-of-power-bi-rest-api.md)  
-[Naslag voor REST-API voor Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Naslag voor REST-API voor Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

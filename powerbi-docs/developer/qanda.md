@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/20/2017
 ms.author: maghan
-ms.openlocfilehash: 86dd69cede6975021aff4b0ce3dada112db980ad
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d1fd42f059f8050662adc80018748d11c1e73e2b
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34287780"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813751"
 ---
 # <a name="qa-in-power-bi-embedded"></a>Q&A in Power BI Embedded
 Power BI Embedded biedt u de mogelijkheid tot het opnemen van Q&A in een toepassing zodat uw gebruikers vragen kunnen stellen in natuurlijke taal en direct antwoord kunnen krijgen in de vorm van visuele elementen zoals diagrammen of grafieken.
@@ -93,7 +93,7 @@ qna.on("visualRendered", function(event) {
 ```
 
 ## <a name="embed-token"></a>Token insluiten
-Maak een insluittoken op basis van een gegevensset om een Q&A-deel te starten. Zie [Token genereren voor Q&A](https://msdn.microsoft.com/library/mt784614.aspx#qanda) voor meer informatie.
+Maak een insluittoken op basis van een gegevensset om een Q&A-deel te starten. Zie [Token genereren](https://docs.microsoft.com/rest/api/power-bi/embedtoken) voor meer informatie.
 
 ## <a name="next-steps"></a>Volgende stappen
 Bekijk het [voorbeeld van het insluiten van JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/) als u overweegt Q&A te gaan insluiten.

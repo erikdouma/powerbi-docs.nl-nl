@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: 979b76350b9867bbc684a70bd89a82f88993e625
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: dd7276eb436dfd9d842930f6a2c550a2a6b521f3
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290264"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812946"
 ---
 # <a name="integrate-a-dashboard-into-an-app-for-your-organization"></a>Een dashboard integreren in een app voor uw organisatie
 Informatie over het integreren of insluiten van een dashboard in een web-app met behulp van REST-API-aanroepen en de Power BI JavaScript API voor uw organisatie.
@@ -28,7 +28,7 @@ Als u wilt beginnen met dit scenario, hebt u een **Power BI**-account nodig. Als
 > 
 > 
 
-Als u een dashboard wilt integreren in een web-app, gebruikt u de **Power BI** REST-API of de Power BI C# SDK en een **AD-toegangstoken** (Azure Active Directory) voor verificatie bij het ophalen van een dashboard. Vervolgens kunt u het dashboard laden met hetzelfde toegangstoken. De **Power BI** API biedt programmatische toegang tot bepaalde **Power BI**-resources. Zie voor meer informatie [Overzicht van Power BI REST-API](https://msdn.microsoft.com/library/dn877544.aspx) en de [Power BI JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript).
+Als u een dashboard wilt integreren in een web-app, gebruikt u de **Power BI** REST-API of de Power BI C# SDK en een **AD-toegangstoken** (Azure Active Directory) voor verificatie bij het ophalen van een dashboard. Vervolgens kunt u het dashboard laden met hetzelfde toegangstoken. De **Power BI** API biedt programmatische toegang tot bepaalde **Power BI**-resources. Zie [Power BI REST-API](https://docs.microsoft.com/rest/api/power-bi/) en de [Power BI JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript) voor meer informatie.
 
 ## <a name="download-the-sample"></a>Het voorbeeld downloaden
 Dit artikel bevat de code die wordt gebruikt in de [integrate-dashboard-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-dashboard-web-app) op GitHub. Als u dit scenario wilt volgen, kunt u het voorbeeld downloaden.
@@ -44,12 +44,12 @@ Als u het [Voorbeeld voor het insluiten van een dashboard](https://github.com/Mi
 In uw app moet u eerst een **toegangstoken** van Azure AD ophalen voordat u de Power BI REST-API kunt aanroepen. Zie [Gebruikers verifiëren en een Azure AD-toegangstoken verkrijgen voor uw Power BI-app](get-azuread-access-token.md) voor meer informatie.
 
 ## <a name="step-3---get-a-dashboard"></a>Stap 3: een dashboard ophalen
-Als u een **Power BI**-dashboard wilt ophalen, gebruikt u de bewerking [Dashboards ophalen](https://msdn.microsoft.com/library/mt465739.aspx). Hiermee haalt u een lijst met **Power BI**-dashboards op. U kunt een dashboard-ID ophalen uit de lijst met dashboards.
+Als u een **Power BI**-dashboard wilt ophalen, gebruikt u de bewerking [Dashboards ophalen](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards). Hiermee haalt u een lijst met **Power BI**-dashboards op. U kunt een dashboard-ID ophalen uit de lijst met dashboards.
 
 ![](media/integrate-dashboard/powerbi-embed-dashboard-get-dashboards.png)
 
 ### <a name="get-dashboards-using-an-access-token"></a>Dashboards ophalen met behulp van een toegangstoken
-Met het **toegangstoken** dat u hebt opgehaald in [stap 2](#step-2-get-an-access-token-from-azure-ad) roept u de bewerking [Dashboards ophalen](https://msdn.microsoft.com/library/mt465739.aspx) aan. De bewerking [Dashboards ophalen](https://msdn.microsoft.com/library/mt465739.aspx) retourneert een lijst met dashboards. U kunt één dashboard ophalen uit de lijst met dashboards. Hieronder vindt u een volledige C#-methode voor het ophalen van een dashboard. 
+Met het **toegangstoken** dat u hebt opgehaald in [stap 2](#step-2-get-an-access-token-from-azure-ad) roept u de bewerking [Dashboards ophalen](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards) aan. De bewerking [Dashboards ophalen](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards) retourneert een lijst met dashboards. U kunt één dashboard ophalen uit de lijst met dashboards. Hieronder vindt u een volledige C#-methode voor het ophalen van een dashboard. 
 
 Als u de REST-API-aanroep uitvoert, moet u de header *Autorisatie* met de indeling *Bearer {toegangstoken}* toevoegen.
 
@@ -258,7 +258,7 @@ Tile Clicked
 ```
 
 ## <a name="working-with-groups-app-workspaces"></a>Met groepen werken (app-werkruimten)
-Als u een dashboard uit een groep (app-werkgroep) wilt insluiten, hebt u de lijst met alle beschikbare dashboards in een groep nodig. Deze roept u aan met de volgende REST-API-aanroep. Zie [Dashboards ophalen](https://msdn.microsoft.com/library/mt465739.aspx) voor meer informatie over deze REST-API-aanroep. U moet binnen de groep gemachtigd zijn, anders retourneert de aanvraag geen resultaten.
+Als u een dashboard uit een groep (app-werkgroep) wilt insluiten, hebt u de lijst met alle beschikbare dashboards in een groep nodig. Deze roept u aan met de volgende REST-API-aanroep. Zie [Dashboards ophalen](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards) voor meer informatie over deze REST-API-aanroep. U moet binnen de groep gemachtigd zijn, anders retourneert de aanvraag geen resultaten.
 
 ```
 https://api.powerbi.com/v1.0/myorg/groups/{groupId}/dashboards

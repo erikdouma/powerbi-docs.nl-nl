@@ -9,11 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/22/2018
 ms.author: maghan
-ms.openlocfilehash: 218f4cd0aaaa5ffc8cab3a06b06af9544b02143d
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 806ec6051cf8b77dfe17664d82e6add40147f0ed
+ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35301729"
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Beveiliging op rijniveau met ingesloten Power BI-inhoud
 Beveiliging op rijniveau (RLS) kan worden gebruikt om de gebruikerstoegang tot gegevens in dashboards, tegels, rapporten en gegevenssets te beperken. Meerdere gebruikers kunnen werken met dezelfde artefacten, terwijl ze allemaal verschillende gegevens zien. Het insluiten van inhoud biedt ondersteuning voor RLS.
@@ -75,9 +76,9 @@ Door het filter toe te passen zoals we hier hebben gedaan, worden alle records i
 ## <a name="applying-user-and-role-to-an-embed-token"></a>Gebruiker en rol toepassen op een insluittoken
 Nu de rollen in Power BI Desktop zijn geconfigureerd, moet u nog enig werk in de toepassing verrichten om van de rollen te kunnen profiteren.
 
-Gebruikers worden geverifieerd en geautoriseerd door de toepassing, en insluittokens worden gebruikt om de betreffende gebruiker toegang te verlenen tot een specifiek Power BI Embedded-rapport. Power BI Embedded bevat geen specifieke informatie over de identiteit van de gebruiker. Voor de juiste werking van RLS moet u aanvullende contextgegevens bij insluittokens doorgeven in de vorm van identiteiten. Dit wordt gedaan met behulp van de API [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx).
+Gebruikers worden geverifieerd en geautoriseerd door de toepassing, en insluittokens worden gebruikt om de betreffende gebruiker toegang te verlenen tot een specifiek Power BI Embedded-rapport. Power BI Embedded bevat geen specifieke informatie over de identiteit van de gebruiker. Voor de juiste werking van RLS moet u aanvullende contextgegevens bij insluittokens doorgeven in de vorm van identiteiten. Dit wordt gedaan met de API [Insluittoken](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
 
-De API [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) accepteert een lijst identiteiten met vermelding van de relevante gegevenssets. Voor de juiste werking van RLS moet u het volgende doorgeven als onderdeel van de identiteit.
+Met de API wordt een lijst identiteiten geaccepteerd met vermelding van de relevante gegevenssets. Voor de juiste werking van RLS moet u het volgende doorgeven als onderdeel van de identiteit.
 
 * **gebruikersnaam (verplicht)**: een tekenreeks die kan worden gebruikt om de identiteit van de gebruiker vast te stellen bij het toepassen van RLS-regels. Er kan slechts één gebruiker worden opgegeven.
 * **rollen (verplicht)**: een tekenreeks met de rollen die kunnen worden geselecteerd bij het toepassen van de regels voor beveiliging op rijniveau. Als u meerdere rollen wilt doorgeven, moeten deze worden doorgegeven als een tekenreeksmatrix.
@@ -177,7 +178,7 @@ Als u REST API aanroept, kunt u binnen elke identiteit aangepaste gegevens toevo
 * De toewijzing van gebruikers aan rollen in de Power BI-service heeft geen invloed op de beveiliging op rijniveau bij gebruik van een insluittoken.
 * Wanneer u een identiteit met een insluittoken opgeeft, worden RLS-instellingen in de Power BI-service niet toegepast op beheerders of leden met machtigingen voor bewerken, maar op de gegevens.
 * Liveverbindingen van Analysis Services worden ondersteund voor on-premises servers.
-* Live verbindingen van Azure Analysis Services bieden ondersteuning voor het filteren op rollen, maar niet voor dynamische filteren op gebruikersnaam.
+* Live verbindingen van Azure Analysis Services bieden ondersteuning voor het filteren op rollen, maar niet voor dynamische filteren op gebruikersnaam. U kunt dynamisch filteren met CustomData.
 * Als RLS niet vereist is voor de onderliggende gegevensset, mag de GenerateToken-aanvraag **geen** effectieve identiteit bevatten.
 * Als de onderliggende gegevensset een cloudmodel is (model in de cache of DirectQuery), moet de effectieve identiteit ten minste één rol bevatten. Anders wordt roltoewijzing niet uitgevoerd.
 * Een lijst met identiteiten kan meerdere identiteitstokens insluiten in het dashboard. Voor alle andere artefacten bevat de lijst één identiteit.

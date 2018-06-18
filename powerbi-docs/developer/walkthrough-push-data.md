@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
 ms.author: maghan
-ms.openlocfilehash: 76d07c8384123a303c8801a45ecd05b9e6ed0321
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 96b29c9dc6c384b663ef375d4968dedb011bd05d
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34289459"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813107"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Gegevens naar een Power BI-gegevensset pushen
 Met de Power BI API kunt u gegevens pushen naar een Power BI-gegevensset. Stel, u wilt een bestaande zakelijke werkstroom uitbreiden om belangrijke gegevens naar uw gegevensset te pushen. In dit geval wilt u de gegevensset Sales Marketing, die de tabel Product bevat, pushen naar een gegevensset.
@@ -31,14 +31,14 @@ Voordat u de gegevens naar een gegevensset gaat pushen, hebt u een Azure Active 
 Het volgende gedeelte bevat een algemene bespreking van Power BI API-bewerkingen die gegevens pushen.
 
 ## <a name="power-bi-api-operations-to-push-data"></a>Power BI API-bewerkingen om gegevens te pushen
-Met de REST-API voor Power BI kunt u gegevensbronnen pushen naar Power BI. Wanneer een app rijen toevoegt aan een gegevensset, worden de tegels op het dashboard automatisch bijgewerkt met de bijgewerkte gegevens. Als u gegevens wilt pushen, gebruikt u de bewerking [Gegevensset maken](https://msdn.microsoft.com/library/mt203562.aspx), samen met de bewerking [Rijen toevoegen](https://msdn.microsoft.com/library/mt203561.aspx). Als u een gegevensset zoekt, gebruikt u de bewerking [Gegevenssets ophalen](https://msdn.microsoft.com/library/mt203567.aspx). Voor elk van deze bewerkingen kunt u een groeps-id doorgeven als u wilt werken met een groep. Gebruik de bewerking [Groepen ophalen](https://msdn.microsoft.com/library/mt243842.aspx) om een lijst met groeps-id's op te halen.
+Met de REST-API voor Power BI kunt u gegevensbronnen pushen naar Power BI. Wanneer een app rijen toevoegt aan een gegevensset, worden de tegels op het dashboard automatisch bijgewerkt met de bijgewerkte gegevens. Als u gegevens wilt pushen, gebruikt u de bewerking [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) samen met de bewerking [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows). Als u een gegevensset zoekt, gebruikt u de bewerking [Gegevenssets ophalen](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets). Voor elk van deze bewerkingen kunt u een groeps-id doorgeven als u wilt werken met een groep. Gebruik de bewerking [Groepen ophalen](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups) om een lijst met groeps-id's op te halen.
 
 Met de volgende bewerkingen kunt u gegevens naar een gegevensset pushen:
 
-* [Gegevensset maken](https://msdn.microsoft.com/library/mt203562.aspx)
-* [Gegevenssets ophalen](https://msdn.microsoft.com/library/mt203567.aspx)
-* [Rijen toevoegen](https://msdn.microsoft.com/library/mt203561.aspx)
-* [Groepen ophalen](https://msdn.microsoft.com/library/mt243842.aspx)
+* [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)
+* [Gegevenssets ophalen](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)
+* [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)
+* [Groepen ophalen](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)
 
 U maakt u een gegevensset in Power BI door een JSON-tekenreeks (JavaScript Object Notation) door te geven aan de Power BI-service. Zie [Inleiding tot JSON](http://json.org/) voor meer informatie over JSON.
 
@@ -112,11 +112,7 @@ Als u gegevens wilt gaan pushen naar een gegevensset, leest u [Stap 1: Een app b
 [Volgende stap >](walkthrough-push-data-register-app-with-azure-ad.md)
 
 ## <a name="next-steps"></a>Volgende stappen
-[Aanmelden voor Power BI](create-an-azure-active-directory-tenant.md)  
-[Gegevensset maken](https://msdn.microsoft.com/library/mt203562.aspx)  
-[Gegevenssets ophalen](https://msdn.microsoft.com/library/mt203567.aspx)  
-[Rijen toevoegen](https://msdn.microsoft.com/library/mt203561.aspx)  
-[Groepen ophalen](https://msdn.microsoft.com/library/mt243842.aspx)  
+[Registreren voor Power BI](create-an-azure-active-directory-tenant.md)  
 [Inleiding tot JSON](http://json.org/)  
 [Overview of Power BI REST API](overview-of-power-bi-rest-api.md) (Overzicht van de REST-API voor Power BI)  
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

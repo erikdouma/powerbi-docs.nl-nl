@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/26/2018
+ms.date: 06/05/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4eb9f8e0b8548fbecd4e5d2e2fd47c4c3acd2bd6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c91e257d79e9d16fa5a7a58b696d58aefaaaaf92
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722811"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812808"
 ---
 # <a name="on-premises-data-gateway"></a>On-premises gegevensgateway
 
@@ -47,7 +47,9 @@ U kunt een liveverbinding gebruiken voor tabelvormige of multidimensionale exemp
 [!INCLUDE [gateway-onprem-datasources-include](./includes/gateway-onprem-datasources-include.md)]
 
 ## <a name="download-and-install-the-on-premises-data-gateway"></a>De on-premises gegevensgateway downloaden en installeren
-Selecteer **Gegevensgateway** in het menu Downloads om de gateway te downloaden. Download de [On-premises gegevensgateway](http://go.microsoft.com/fwlink/?LinkID=820925).
+Selecteer **Gegevensgateway** in het menu Downloads om de gateway te downloaden. Download de [On-premises gegevensgateway](http://go.microsoft.com/fwlink/?LinkID=820925). 
+
+U kunt de on-premises gegevensgateway bijwerken door de gateway opnieuw te installeren, zoals in dit gedeelte wordt beschreven. Bij het bijwerken van de gateway (door deze opnieuw te installeren) worden de bestaande gateway-instellingen bewaard.
 
 ![](media/service-gateway-onprem/powerbi-download-data-gateway.png)
 
@@ -56,9 +58,8 @@ Selecteer **Gegevensgateway** in het menu Downloads om de gateway te downloaden.
 
 ## <a name="install-the-gateway-in-personal-mode"></a>De gateway in persoonlijke modus installeren
 > [!NOTE]
-> Persoonlijk werkt alleen met Power BI.
-> 
-> 
+> De persoonlijke versie van de gateway werkt alleen met Power BI.
+
 
 Nadat de persoonlijke gateway is geïnstalleerd, moet u de **Power BI Gateway - Persoonlijke configuratiewizard** starten.
 

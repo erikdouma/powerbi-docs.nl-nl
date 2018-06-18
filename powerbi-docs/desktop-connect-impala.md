@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9b00120a0c4c22ba8f031663ab19d94d2c482d3b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b4e45d2ce20e42b4289ffcaaf7c487e4ae746ca0
+ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34287688"
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35301752"
 ---
 # <a name="connect-to-an-impala-database-in-power-bi-desktop"></a>Verbinding met een Impala-database maken in Power BI Desktop
 In Power BI Desktop kunt u verbinding maken met een **Impala**-database en gebruikmaken van de onderliggende gegevens, net zoals elke andere gegevensbron in Power BI Desktop.
@@ -29,7 +29,7 @@ In het **Impala**-venster dat verschijnt, typt of plakt u de naam van de Impala-
 
 ![](media/desktop-connect-impala/connect_impala_3a.png)
 
-Voer uw referenties in wanneer u daar om wordt gevraagd, of maak anoniem verbinding. De Impala-connector ondersteunt Anonymouse-, Basic- (gebruikersnaam en wachtwoord) en Windows-verificatie.
+Voer uw referenties in wanneer u daar om wordt gevraagd, of maak anoniem verbinding. De Impala-connector ondersteunt Anonymous-, Basic- (gebruikersnaam en wachtwoord) en Windows-verificatie.
 
 ![](media/desktop-connect-impala/connect_impala_4.png)
 

@@ -1,26 +1,27 @@
 ---
-title: OAuth gebruiken om verbinding met Reporting Services te maken
-description: Meer informatie over het configureren van uw omgeving voor de ondersteuning van OAuth-verificatie met behulp van de Power BI-app voor mobiel om verbinding met Reporting Services 2016 of hoger te maken.
+title: OAuth gebruiken om verbinding te maken met Power BI Report Server en SSRS
+description: Lees meer over het configureren van uw omgeving voor de ondersteuning van OAuth-verificatie met de Power BI-app voor mobiel om verbinding te maken met SQL Server Reporting Services 2016 of hoger.
 author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/10/2017
+ms.date: 06/07/2018
 ms.author: maghan
-ms.openlocfilehash: 4c9b2f5233ab984e57bf48978284441850c0c48f
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: ba8a0c6868e84cf9d675fff8f69a34b4befc9b61
+ms.sourcegitcommit: b7839f2aa68c3626f55ee7e49c8392169d1ec67e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34852205"
 ---
-# <a name="using-oauth-to-connect-to-reporting-services"></a>OAuth gebruiken om verbinding met Reporting Services te maken
-Lees meer informatie over het configureren van uw omgeving voor de ondersteuning van OAuth-verificatie met behulp van de Power BI-app voor mobiel om verbinding met Reporting Services 2016 of hoger te maken.
+# <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth gebruiken om verbinding te maken met Power BI Report Server en SSRS
+Lees meer over het configureren van uw omgeving voor de ondersteuning van OAuth-verificatie met de Power BI-app voor mobiel om verbinding te maken met Power BI Report Server en SQL Server Reporting Services 2016 of hoger.
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
 
-In het verleden ondersteunde de Power BI-app voor mobiel alleen basisverificatie via HTTPS voor Reporting Services om mobiele rapporten of KPI's weer te geven. Veel organisaties staan dit type configuratie niet toe vanwege beveiligingsproblemen. Dankzij een update voor de Power BI-app voor mobiel, kunt u nu OAuth gebruiken om verbinding te maken met Reporting Services. Windows Server 2016 biedt een aantal verbeteringen voor de webtoepassingsproxy-rol om dit type verificatie toe te staan.
+U kunt OAuth gebruiken om verbinding te maken met Power BI Report Server en Reporting Services; u kunt dan mobiele rapporten en KPI's weergeven. Windows Server 2016 biedt een aantal verbeteringen voor de webtoepassingsproxyrol (WAP) om dit type verificatie toe te staan. Houd er rekening mee dat deze configuratie geen ondersteuning biedt voor de weergave van Power BI-rapporten in de Power BI-apps voor mobiel. U kunt ze echter wel in een browser weergeven op een mobiel apparaat. Als u Power BI-rapporten wilt weergeven in de mobiele app moet u gebruikmaken van Windows-verificatie.
 
 ## <a name="requirements"></a>Vereisten
 Windows Server 2016 is vereist voor de webtoepassingsproxy-servers (WAP) en ADFS-servers (Active Directory Federation Services). U hoeft niet een Windows 2016-domein op functioneel niveau te hebben.
@@ -202,7 +203,8 @@ Nadat u **Aanmelden** hebt geselecteerd, ziet u de onderdelen van uw Reporting S
 U kunt meervoudige verificatie inschakelen om extra beveiliging voor uw omgeving mogelijk te maken. Zie [AD FS 2016 en Azure MFA configureren](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa) voor meer informatie.
 
 ## <a name="troubleshooting"></a>Problemen oplossen
-**U ontvangt de volgende fout: Kan niet aanmelden bij de SSRS-server. Controleer de serverconfiguratie.**
+
+### <a name="you-receive-the-error-failed-to-login-to-ssrs-server-please-verify-server-configuration"></a>U ziet de volgende fout: kan niet aanmelden bij de SSRS-server. Controleer de serverconfiguratie.
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
 

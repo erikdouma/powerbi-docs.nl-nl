@@ -9,11 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 6ecb9426ba1344fdf55789a22daec6b9fb6c6e89
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 7c3a50fa487b9444b2f10b9d546d247be70dd1c9
+ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35301775"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Aangepaste visuele elementen publiceren naar AppSource
 Meer informatie over het publiceren van aangepaste visuele elementen naar AppSource, zodat anderen deze kunnen gebruiken. office
@@ -25,7 +26,7 @@ Als u een aangepast visueel element hebt gemaakt, wilt u het wellicht publiceren
 Wat is AppSource? Hier vindt u SaaS-apps en -invoegtoepassingen voor uw Microsoft-producten en -service. [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) verbindt miljoenen gebruikers van Office 365-, Dynamics 365-, Cortana Intelligence- en andere oplossingen die hen helpen efficiënter, slimmer of netter te werken.
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>Voorbereiding voor het indienen van uw aangepaste visuele element
-Als u klaar bent met het programmeren en testen van uw aangepaste visuele element en het hebt verpakt in een PBIVIZ-bestand, moet u ook het volgende gereed hebben voor uw indiening.
+Als u klaar bent met het programmeren en testen van uw aangepaste visual en het hebt verpakt in een PBIVIZ-bestand, moet u ook het volgende gereed hebben voor uw inzending.
 
 | Item | Vereist | Beschrijving |
 | --- | --- | --- |

@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 10/05/2017
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: d2fa65587fdbd85aabd429d531b79e9e614d2f49
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 032e0ed05d56d2d7f1e2b41cfd922999ff43ea94
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813360"
 ---
 # <a name="integrate-a-report-into-an-app-for-your-organization"></a>Een rapport integreren in een app voor uw organisatie
 Informatie over het integreren of insluiten van een rapport in een web-app met behulp van REST-API-aanroepen en de Power BI JavaScript-API voor uw organisatie.
@@ -27,10 +28,14 @@ Als u wilt beginnen met dit scenario, hebt u een **Power BI**-account nodig. Als
 > 
 > 
 
-Als u een rapport wilt integreren in een web-app, gebruikt u de **Power BI** REST-API of de Power BI C# SDK en een **AD-toegangstoken** (Azure Active Directory) voor verificatie bij het ophalen van een rapport. Vervolgens kunt u het rapport laden met hetzelfde toegangstoken. De **Power BI** API biedt programmatische toegang tot bepaalde **Power BI**-resources. Zie voor meer informatie [Overzicht van Power BI REST-API](https://msdn.microsoft.com/library/dn877544.aspx) en de [Power BI JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript).
+Als u een rapport wilt integreren in een web-app, gebruikt u de **Power BI** REST-API of de Power BI C# SDK en een **AD-toegangstoken** (Azure Active Directory) voor verificatie bij het ophalen van een rapport. Vervolgens kunt u het rapport laden met hetzelfde toegangstoken. De **Power BI** API biedt programmatische toegang tot bepaalde **Power BI**-resources. Zie [Power BI REST-API](https://docs.microsoft.com/rest/api/power-bi/) en de [Power BI JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript) voor meer informatie.
 
 ## <a name="download-the-sample"></a>Het voorbeeld downloaden
 Dit artikel bevat de code die wordt gebruikt in de [integrate-report-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-report-web-app) op GitHub. Als u dit scenario wilt volgen, kunt u het voorbeeld downloaden.
+
+U kunt ook het [hulpprogramma voor de onboarding-ervaring](https://aka.ms/embedsetup/UserOwnsData) uitvoeren om snel aan de slag te gaan en een voorbeeldtoepassing te downloaden.
+
+Als u echter besluit de omgeving handmatig in te stellen, kunt u hieronder doorgaan.
 
 ## <a name="step-1---register-an-app-in-azure-ad"></a>Stap 1: een app bij Azure AD registreren
 U moet uw toepassing registreren bij Azure AD om REST-API-aanroepen te kunnen uitvoeren. Zie [Een Azure AD-app voor het insluiten van Power BI-inhoud registreren](register-app.md) voor meer informatie.
@@ -43,10 +48,10 @@ Als u de [integrate-report-web-app](https://github.com/Microsoft/PowerBI-Develop
 In uw app moet u eerst een **toegangstoken** van Azure AD ophalen voordat u de Power BI REST-API kunt aanroepen. Zie [Gebruikers verifiëren en een Azure AD-toegangstoken verkrijgen voor uw Power BI-app](get-azuread-access-token.md) voor meer informatie.
 
 ## <a name="step-3---get-a-report"></a>Stap 3: een rapport ophalen
-Als u een **Power BI**-rapport wilt ophalen, gebruikt u de bewerking [Rapporten ophalen](https://msdn.microsoft.com/library/mt634543.aspx). Hiermee haalt u een lijst met **Power BI**-rapporten op. Vanuit de lijst met rapporten kunt u een rapport-ID ophalen.
+Als u een **Power BI**-rapport wilt ophalen, gebruikt u de bewerking [Rapporten ophalen](https://docs.microsoft.com/rest/api/power-bi/reports/getreports). Hiermee haalt u een lijst met **Power BI**-rapporten op. Vanuit de lijst met rapporten kunt u een rapport-ID ophalen.
 
 ### <a name="get-reports-using-an-access-token"></a>Rapporten ophalen met behulp van een toegangstoken
-Met het **toegangstoken** dat u hebt opgehaald in [stap 2](#step-2-get-an-access-token-from-azure-ad) roept u de bewerking [Rapporten ophalen](https://msdn.microsoft.com/library/mt634543.aspx) aan. Met de bewerking [Rapporten ophalen](https://msdn.microsoft.com/library/mt634543.aspx) wordt een lijst met rapporten geretourneerd. U kunt een enkel rapport ophalen vanuit de lijst met rapporten. Hieronder vindt u een volledige C#-methode voor het ophalen van een rapport. 
+Met het **toegangstoken** dat u hebt opgehaald in [stap 2](#step-2-get-an-access-token-from-azure-ad) roept u de bewerking [Rapporten ophalen](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) aan. Met de bewerking [Rapporten ophalen](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) wordt een lijst met rapporten geretourneerd. U kunt een enkel rapport ophalen vanuit de lijst met rapporten. Hieronder vindt u een volledige C#-methode voor het ophalen van een rapport. 
 
 Als u de REST-API-aanroep uitvoert, moet u de header *Autorisatie* met de indeling *Bearer {toegangstoken}* toevoegen.
 
@@ -213,7 +218,7 @@ Als u de [integrate-report-web-app](https://github.com/Microsoft/PowerBI-Develop
 ![Voorbeeld van ingesloten rapport](media/integrate-report/powerbi-embedded-report.png)
 
 ## <a name="working-with-groups-app-workspaces"></a>Met groepen werken (app-werkruimten)
-Als u een rapport uit een groep (app-werkgroep) wilt insluiten, hebt u de lijst met alle beschikbare rapporten in een dashboard van een groep nodig. Deze roept u aan met de volgende REST-API-aanroep. Zie [Rapporten ophalen](https://msdn.microsoft.com/library/mt634543.aspx) voor meer informatie over deze REST-API-aanroep. U moet binnen de groep gemachtigd zijn, anders retourneert de aanvraag geen resultaten.
+Als u een rapport uit een groep (app-werkgroep) wilt insluiten, hebt u de lijst met alle beschikbare rapporten in een dashboard van een groep nodig. Deze roept u aan met de volgende REST-API-aanroep. Zie [Rapporten ophalen](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) voor meer informatie over deze REST-API-aanroep. U moet binnen de groep gemachtigd zijn, anders retourneert de aanvraag geen resultaten.
 
 ```
 https://api.powerbi.com/v1.0/myorg/groups/{group_id}/reports

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 62f6c8ac23fad39dfb6942678cf92a37014de8bf
-ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
+ms.openlocfilehash: c16fe65d766c6a1c18d809a68b3b0f6af8047db0
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "34799574"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813337"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Verbinding maken met multidimensionale modellen van SSAS in Power BI Desktop
 Met Power BI Desktop hebt u toegang tot **multidimensionale modellen van SSAS**, vaak **SSAS MD** genoemd.
@@ -75,11 +75,12 @@ De berekende leden van de gebruikershiërarchieën worden niet weergegeven in Po
 ### <a name="security"></a>Beveiliging
 Multidimensionale modellen ondersteunen beveiliging op dimensie- en celniveau via *rollen*. Wanneer u verbinding met een kubus met Power BI maakt, wordt u geverifieerd en geëvalueerd op de juiste machtigingen. Wanneer op een gebruiker *dimensiebeveiliging* is toegepast, worden de leden van de respectieve dimensie niet zichtbaar voor de gebruiker in Power BI. Wanneer voor een gebruiker echter de machtiging *celbeveiliging* is gedefinieerd, waarbij bepaalde cellen zijn beperkt, kan die gebruiker geen verbinding maken met de kubus via Power BI.
 
-## <a name="limitations-of-ssas-multidimensional-models-in-power-bi-desktop"></a>Beperkingen van multidimensionale modellen van SSAS in Power BI Desktop
+## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 Er gelden bepaalde beperkingen voor het gebruik van **SSAS MD**:
 
 * Op servers moet SQL Server 2012 SP1 CU4 of een hogere versie van Analysis Services worden uitgevoerd voor een goede werking van de connector voor Power BI Desktop SSAS MD
 * *Acties* en *benoemde sets* zijn niet beschikbaar in Power BI, maar u kunt wel verbinding maken met kubussen die ook *acties* of *benoemde sets* bevatten. Ook kunt u visuele elementen en rapporten maken.
+* Mogelijk treedt het probleem op dat, wanneer Power BI metagegevens weergeeft voor een SSAS-model, u geen gegevens uit het model kunt ophalen. Dit kan gebeuren als u de 32-bits versie van de MSOLAP-provider op uw systeem hebt geïnstalleerd en u niet beschikt over de 64-bits versie. Het probleem kan wellicht worden opgelost door de 64-bits versie te installeren.
 
 ## <a name="supported-features-of-ssas-md-in-power-bi-desktop"></a>Ondersteunde functies van SSAS MD in Power BI Desktop
 De volgende functies van SSAS MD worden ondersteund in Power BI Desktop:

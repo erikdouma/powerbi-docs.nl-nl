@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 264071f314e4a05a3d0b283ab58d644dff4b44a1
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: f84e43a96243841b247530b5639f5f0c6ae1bb4f
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813659"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Relaties maken en beheren in Power BI Desktop
 Wanneer u meerdere tabellen importeert, gaat u waarschijnlijk analyses uitvoeren met gegevens uit de tabellen. Relaties tussen deze tabellen zijn nodig om nauwkeurig resultaten te berekenen en de juiste gegevens in uw rapporten weer te geven. Met Power BI Desktop is het maken van deze relaties eenvoudig. In de meeste gevallen hoeft u niets eens iets te doen en kan de functie Autodetectie dit voor u doen. In sommige gevallen moet u echter mogelijk zelf relaties maken of moet u enkele wijzigingen in een relatie aanbrengen. Hoe dan ook is het belangrijk om relaties in Power BI Desktop te begrijpen en te weten hoe u ze maakt en bewerkt.
@@ -35,6 +36,16 @@ Klik op het tabblad **Start** op **Relaties beheren** \> **Autodetectie**.
 ![](media/desktop-create-and-manage-relationships/manualrelationship2.gif)
 
 Standaard configureert Power BI Desktop automatisch de eigenschappen voor Kardinaliteit (richting), Kruisfilterrichting en Actief voor uw nieuwe relatie. U kunt deze indien nodig wijzigen. Zie het gedeelte 'Inzicht in extra opties' verderop in dit artikel voor meer informatie.
+
+U ziet de foutmelding dat *een van de kolommen unieke waarden moet bevatten* als geen van de tabellen die zijn geselecteerd voor de relatie beschikt over unieke waarden. Ten minste één tabel in een relatie *moet* over een specifieke, unieke lijst sleutelwaarden beschikken. Dit is een algemene vereiste voor alle databasetechnologieën op basis van relaties. 
+
+Als deze fout optreedt, zijn er verschillende manieren om het probleem te verhelpen:
+
+* Gebruik Dubbele rijen verwijderen om een kolom met unieke waarden te maken. Het nadeel van deze benadering is dat er informatie verloren gaat bij het verwijderen van dubbele rijen. Vaak wordt een sleutel (rij) met een goede reden gedupliceerd.
+* Voeg een tussenliggende tabel op basis van de lijst afzonderlijke sleutelwaarden toe aan het model. Deze tabel wordt dan gekoppeld aan beide oorspronkelijke kolommen in de relatie.
+
+Zie de [blogpost](https://blogs.technet.microsoft.com/cansql/2016/12/19/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message/) met gedetailleerde informatie hierover als u graag meer wilt weten.
+
 
 ## <a name="edit-a-relationship"></a>Een relatie bewerken
 1. Klik op het tabblad **Start** op **Relaties beheren**.
