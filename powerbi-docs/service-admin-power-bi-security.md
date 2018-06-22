@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34296222"
 ---
 # <a name="power-bi-security"></a>Beveiliging van Power BI
 [Download het witboek Beveiliging van Power BI](http://go.microsoft.com/fwlink/?LinkId=829185) voor een gedetailleerde uitleg van Power BI-beveiliging:
