@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34290655"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Algemene querytaken in Power BI Desktop
 Wanneer u werkt in het venster **Query-editor** van Power BI Desktop, beschikt u over een aantal veelgebruikte taken. In dit document worden die taken gedemonstreerd en ziet u koppelingen voor meer informatie. 

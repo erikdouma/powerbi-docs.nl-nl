@@ -16,6 +16,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34299465"
 ---
 # <a name="the-report-editortake-a-tour"></a>De rapporteditor... Een rondleiding
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Rapporten bewerken met de Power BI-service en Power BI Desktop

@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34289988"
 ---
 # <a name="power-bi-data-source-prerequisites"></a>Vereisten voor Power BI-gegevensbronnen
 Voor elke gegevensprovider ondersteunt Power BI een specifieke providerversie voor objecten. Zie [Gegevensbronnen](desktop-data-sources.md) (Engelstalig) voor meer informatie over gegevensbronnen die in Power BI beschikbaar zijn. In de volgende tabel worden deze vereisten beschreven.

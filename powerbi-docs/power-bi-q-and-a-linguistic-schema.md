@@ -15,6 +15,7 @@ ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/24/2018
+ms.locfileid: "34471888"
 ---
 # <a name="language-modeling-and-the-linguistic-schema"></a>Taalmodellen maken en het taalkundige schema 
 Normale zinnen en natuurlijke taal gebruiken om informatie uit uw gegevens te kunnen opvragen, is uiterst nuttig. Nog nuttiger is het wanneer uw gegevens antwoorden. Dit is wat u voor elkaar kunt krijgen met Q&A in Power BI. Wanneer u Power BI Q&A een vraag stelt, wordt geprobeerd een zo goed mogelijk antwoord te geven. 
