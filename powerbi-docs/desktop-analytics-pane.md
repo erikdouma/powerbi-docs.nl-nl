@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34287665"
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Het deelvenster Analyse in Power BI Desktop gebruiken
 Met het deelvenster **Analyse** in **Power BI Desktop** kunt u dynamische *referentielijnen* toevoegen aan visuele elementen en de aandacht richten op belangrijke trends of inzichten. Het deelvenster **Analyse** is te vinden in het gedeelte **Visualisaties** van Power BI Desktop.
