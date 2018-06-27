@@ -11,10 +11,10 @@ ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: 2dc47d1fdf539c20cc0aabadd65b0401dc172ae8
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34298959"
 ---
 # <a name="tutorial-connect-to-on-premises-data-in-sql-server"></a>Zelfstudie: Verbinding maken met on-premises gegevens in SQL Server
@@ -186,7 +186,7 @@ U hebt een rapport gepubliceerd in de Power BI-service en de SQL Server-gegevens
 
 6. Stel onder **Vernieuwen plannen** vernieuwen in op **Aan**. Selecteer vervolgens **Toepassen**. De gegevensset wordt dagelijks standaard vernieuwd.
 
-    ![Vernieuwen van gegevens plannen](media/service-gateway-sql-tutorial/schedule-refresh.png)
+    ![Planning vernieuwen](media/service-gateway-sql-tutorial/schedule-refresh.png)
 
 ## <a name="clean-up-resources"></a>Resources opschonen
 Als u geen gebruik meer wilt maken van de voorbeeldgegevens, voert u `DROP DATABASE TestGatewayDocs` uit in SSMS. Als u de SQL Server-gegevensbron niet wilt gebruiken, [verwijdert u de gegevensbron](service-gateway-manage.md#remove-a-data-source). 
