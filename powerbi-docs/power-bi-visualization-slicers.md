@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 75ae82e43987cb42b858fe4350330fda3692cf97
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 338b72ef39c5b9c9fe454c1063f26602e8ce2299
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721496"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964786"
 ---
 # <a name="slicers-in-power-bi"></a>Slicers in Power BI
 U wilt dat de lezers van uw rapport de algemene metrische gegevens voor de verkoop kunnen bekijken, maar dat ze ook prestaties voor afzonderlijke districtmanagers en verschillende perioden kunnen markeren. U kunt aparte rapporten of vergelijkende grafieken maken of u kunt gebruikmaken van slicers. Een slicer is een alternatieve manier om te filteren. U beperkt hiermee het gedeelte van de gegevensset dat wordt weergegeven in de andere visualisaties in een rapport. 
@@ -183,7 +183,7 @@ De overige opmaakopties zijn standaard uitgeschakeld. Indien **ingeschakeld**:
 - **Rand:** Hiermee wordt een rand van 1-pixel rondom de slicer toegevoegd en wordt de kleur ervan ingesteld. (Deze slicerrand valt niet onder en wordt niet beïnvloed door de algemene omtrekinstellingen.) 
 
 ## <a name="next-steps"></a>Volgende stappen
-[Probeer het uit - het is gratis.](https://powerbi.com/)
+[Aanmelden voor een gratis proefversie](https://powerbi.microsoft.com/get-started/)
 
 Hebt u ideeën voor het verbeteren van Power BI? [Een idee verzenden](https://ideas.powerbi.com/forums/265200-power-bi-ideas).
 

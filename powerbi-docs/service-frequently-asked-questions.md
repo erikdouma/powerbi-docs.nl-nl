@@ -10,12 +10,12 @@ ms.topic: conceptual
 sktopms.date: 06/01/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: e8af4695ba54fee91820552802cf18d8a758e8b0
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.openlocfilehash: 6341d5b3bba051cc31fe95f526450e03c14d4b69
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34755042"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964809"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Veelgestelde vragen over Power BI
 * Als u andere vragen hebt, kunt u deze stellen [in de Power BI-community](http://community.powerbi.com/).
@@ -24,8 +24,10 @@ ms.locfileid: "34755042"
 ## <a name="what-is-microsoft-power-bi"></a>Wat is Microsoft Power BI?
 Power BI is een business analytics-service in de cloud die iedereen de mogelijkheid biedt om gegevens sneller, efficiënter en met meer inzicht te visualiseren en analyseren. De service geeft gebruikers toegang tot een breed scala aan gegevens via eenvoudig te gebruiken dashboards, interactieve rapporten en interessante visualisaties die gegevens tot leven brengen. Meer informatie over [Wat is Power BI](power-bi-overview.md).
 
-## <a name="whats-the-difference-between-power-bi-and-power-bi-pro"></a>Wat is het verschil tussen Power BI en Power BI Pro?
-Power BI biedt allerlei functies waarmee u op een geheel nieuwe wijze aan de slag kunt met gegevens. Power BI Pro bevat alle fantastische functies van Power BI, plus aanvullende functies zoals meer opslagcapaciteit, gegevens automatisch vaker vernieuwen dan dagelijks, live gegevensbronnen met volledige interactiviteit en groepen. Lees hier meer over [de verschillen tussen Power BI Pro en de gratis versie van Power BI](https://powerbi.microsoft.com/pricing).
+## <a name="whats-the-difference-between-power-bi-pro-and-power-bi-premium"></a>Wat is het verschil tussen Power BI Pro en Power BI Premium?
+Power BI Pro is een afzonderlijke licentie waarmee toegang kan worden verkregen tot alle inhoud en mogelijkheden in de Power BI-service, inclusief de mogelijkheid voor het delen van inhoud en samenwerken met andere Pro-gebruikers. Alleen Pro-gebruikers kunnen inhoud naar app-werkruimten publiceren en deze inhoud gebruiken, dashboards delen en zich abonneren op dashboards en rapporten. 
+
+Premium biedt toegewezen capaciteit voor consistente prestaties en ondersteuning voor grotere gegevensvolumes in Power BI. Voor individuele gebruikers voorziet Premium ook in wijdverbreide distributie van inhoud door Pro-gebruikers zonder per gebruiker-licenties voor ontvangers die de inhoud bekijken.
 
 ## <a name="how-much-does-power-bi-cost"></a>Wat kost Power BI?
 Power BI Desktop is gratis. Er is een gratis proefversie van 60 dagen beschikbaar voor Power BI Pro. Lees hier alles over de [prijzen van Power BI](https://powerbi.microsoft.com/pricing).
@@ -34,7 +36,7 @@ Power BI Desktop is gratis. Er is een gratis proefversie van 60 dagen beschikbaa
 Zie [Veelgestelde vragen over Power BI Premium](service-premium-faq.md) als u vragen hebt over Power BI Premium.
 
 ## <a name="how-do-i-find-out-who-in-my-organization-has-a-power-bi-account"></a>Hoe kom ik erachter wie er in mijn organisatie een Power BI-account heeft?
-U kunt een rapport van Azure Active Directory genereren voor Power BI om de actieve gebruikers binnen uw organisatie te zien. Het Azure AD-rapport geeft niet aan of een gebruiker de gratis versie of Pro-versie van Power BI heeft. U ziet alleen welke gebruikers zich hebben geregistreerd voor Power BI en wanneer ze hebben ingelogd. Zie [Power BI-gebruikers vinden die zich hebben geregistreerd](service-admin-access-usage.md) voor meer informatie.
+U kunt een rapport van Azure Active Directory genereren voor Power BI om de actieve gebruikers binnen uw organisatie te zien. Het Azure AD-rapport geeft niet aan welk type licentie elke gebruiker heeft. U ziet alleen welke gebruikers zich hebben geregistreerd voor Power BI en wanneer ze hebben ingelogd. Zie [Power BI-gebruikers vinden die zich hebben geregistreerd](service-admin-access-usage.md) voor meer informatie.
 
 ## <a name="what-is-power-bi-desktop"></a>Wat is Power BI Desktop?
 Power BI Desktop is een gratis desktop-app die u gewoon op uw eigen computer kunt installeren. Power BI Desktop werkt nauw samen met de Power BI-service om functies te bieden voor geavanceerde verkenning, vormgeving, modellering en rapportage van gegevens, dit alles met behulp van zeer interactieve visualisaties. U kunt uw werk opslaan in een bestand, en uw gegevens en rapporten direct naar uw Power BI-site publiceren om deze met anderen te delen. Meer informatie over [Wat is Power BI Desktop](desktop-what-is-desktop.md).
