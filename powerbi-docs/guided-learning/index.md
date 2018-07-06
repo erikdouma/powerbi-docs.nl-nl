@@ -2,12 +2,12 @@
 title: Begeleide training voor Microsoft Power BI
 description: Begin uw reis naar nieuwe kennis met deze serie opeenvolgende cursussen, en krijg inzicht in de uitgebreide en krachtige mogelijkheden van Microsoft Power BI.
 layout: LandingPage
-ms.openlocfilehash: f80886799a2cfc960e4d441d3572d94f3c09b22e
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 2cd748b60da6781ff9ea710b5802f3d68c3bc6b8
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34310148"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600671"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -272,7 +272,7 @@ Gegevens verkennen </h3>
                                 <span style="margin-left: 32px; align-self: center;">9 min.</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml?tutorial-step=5">Aangepaste Q&A-suggesties maken</a>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=5">Aangepaste Q&amp;A-suggesties maken</a>
                                 <span style="margin-left: 32px; align-self: center;">4 min.</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">

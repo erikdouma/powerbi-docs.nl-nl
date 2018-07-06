@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 817e01f83904a8481fa1d0915f671c6761247795
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 957408729812ab348cc171360416ee01b432d2e0
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34287665"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136589"
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Het deelvenster Analyse in Power BI Desktop gebruiken
 Met het deelvenster **Analyse** in **Power BI Desktop** kunt u dynamische *referentielijnen* toevoegen aan visuele elementen en de aandacht richten op belangrijke trends of inzichten. Het deelvenster **Analyse** is te vinden in het gedeelte **Visualisaties** van Power BI Desktop.
@@ -114,8 +114,8 @@ U kunt allerlei handelingen uitvoeren met Power BI Desktop. Bekijk de volgende b
 
 * [Wat is er nieuw in Power BI Desktop](desktop-latest-update.md)
 * [Power BI Desktop downloaden](desktop-get-the-desktop.md)
-* [Aan de slag met Power BI Desktop](desktop-getting-started.md)
-* [Queryoverzicht met Power BI Desktop](desktop-query-overview.md)
+* [Wat is Power BI Desktop?](desktop-what-is-desktop.md)
+* [Query Overview with Power BI Desktop](desktop-query-overview.md) (Queryoverzicht met Power BI Desktop)
 * [Gegevenstypen in Power BI Desktop](desktop-data-types.md)
 * [Gegevens vormgeven en combineren met Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Common Query Tasks in Power BI Desktop](desktop-common-query-tasks.md) (Algemene querytaken in Power BI Desktop)    

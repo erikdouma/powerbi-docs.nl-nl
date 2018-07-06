@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a584d61e1f2f55c244b453e6c086f3222217ee9a
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 43119a700b3b660a2734d1a8f974291a2817ce8e
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34288999"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37597993"
 ---
 # <a name="bidirectional-cross-filtering-using-directquery-in-power-bi-desktop"></a>In twee richtingen kruislings filteren met DirectQuery in Power BI Desktop
 
@@ -33,13 +33,11 @@ Als u kruislings filteren wilt inschakelen, dient u in het dialoogvenster **Rela
 
 * **Kruisfilterrichting** moet zijn ingesteld op **Beide**
 * **Beveiligingsfilter in beide richtingen toepassen** moet ook zijn geselecteerd
-  
+
   ![](media/desktop-bidirectional-filtering/bidirectional-filtering_2.png)
 
 > [!NOTE]
-> Gebruik *UserPrincipalName* (vaak dezelfde naam als die van de gebruiker bij aanmelden, bijvoorbeeld *joe@contoso.com*) in plaats van *UserName* als u DAX-formules voor kruislings filteren in Power BI Desktop gaat maken. Wellicht dient u dus een gerelateerde tabel te maken die *UserName* (of bijvoorbeeld EmployeeID) toewijst aan *UserPrincipleName*.
-> 
-> 
+> Gebruik *UserPrincipalName* (vaak dezelfde naam als die van de gebruiker bij aanmelden, bijvoorbeeld <em>joe@contoso.com</em>) in plaats van *UserName* als u DAX-formules voor kruislings filteren in Power BI Desktop gaat maken. Wellicht moet u dus een gerelateerde tabel maken die *UserName* (of bijvoorbeeld EmployeeID) toewijst aan *UserPrincipleName*.
 
 Lees het eerder genoemde [whitepaper](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) voor meer informatie en voorbeelden over de werking van kruislings filteren in twee richtingen.
 
