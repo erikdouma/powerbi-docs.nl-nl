@@ -12,6 +12,8 @@
       items:
         - name: Verbinding maken met een GitHub-voorbeeld
           href: service-tutorial-connect-to-github.md
+        - name: Aan de slag met Power BI
+          href: service-get-started.md
     - name: Concepten
       items:
         - name: Wat is er nieuw in de Power BI-service
@@ -382,6 +384,8 @@
                   href: service-excel-workbook-files.md
                 - name: Gegevens ophalen uit Power BI Desktop-bestanden
                   href: service-desktop-files.md
+                - name: Parameterinstellingen voor datasets
+                  href: service-parameters.md
                 - name: Gegevens ophalen uit CSV-bestanden (bestand met door komma's gescheiden waarden)
                   href: service-comma-separated-value-files.md
                 - name: Realtime streaming in Power BI (preview)
@@ -860,16 +864,12 @@
           items:
             - name: Aan de slag met de iOS-app
               href: mobile-iphone-app-get-started.md
-            - name: Aan de slag met de iPad-app
-              href: mobile-ipad-app-get-started.md
             - name: Virtuele Q&A-analist in mobiele iOS-apps
               href: mobile-apps-ios-qna.md
             - name: Power BI-app voor Apple Watch
               href: mobile-apple-watch.md
             - name: Een streepjescode met de app op uw iPhone scannen
               href: mobile-apps-scan-barcode-iphone.md
-            - name: Power BI-apps voor iOS
-              href: mobile-ios-ipad-iphone-apps.md
         - name: iOS en Android
           items:
             - name: Aantekeningen toevoegen en delen in de mobiele apps
@@ -940,8 +940,6 @@
               href: developer/integrate-tile.md
             - name: Een Power BI-rapport in een app integreren (gebruiker is eigenaar van de gegevens)
               href: developer/integrate-report.md
-            - name: Inhoud integreren in uw toepassing (app is eigenaar van de gegevens)
-              href: developer/embed-sample-for-customers.md
             - name: Inhoud integreren in uw toepassing voor onafhankelijke clouds (app is eigenaar van de gegevens)
               href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: Aangepaste indelingen insluiten in een app
@@ -1234,6 +1232,13 @@
           href: service-admin-syndication-partner.md
         - name: Mobiele apps configureren met Intune
           href: service-admin-mobile-intune.md
+    - name: Verwijzing
+      items:
+        - name: 'PowerShell, REST API''s en .NET SDK'
+          href: service-admin-reference.md
+        - name: Power BI-cmdlets voor PowerShell
+          href: 'https://docs.microsoft.com/en-us/powershell/power-bi/'
+          maintainContext: true
     - name: Resources
       items:
         - name: Governance- en implementatiemethoden voor Power BI
