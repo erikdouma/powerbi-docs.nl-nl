@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/31/2018
 ms.author: maghan
-ms.openlocfilehash: 9988d108c33e086938aca76d088c6852bb1117a4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f4aac424d448dcb3e2dd722efe54db99d318ba80
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813272"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599479"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Een Azure AD-app registreren om Power BI-inhoud in te sluiten
 Informatie over het registreren van een toepassing in Azure Active Directory (Azure AD) voor gebruik met ingesloten Power BI-inhoud.
@@ -54,9 +54,8 @@ Ga als volgt te werk om uw toepassing te registreren met het Power BI App-hulppr
     U krijgt dan een **client-id**. Als u een **web-app aan de serverzijde** selecteert, ontvangt u een **clientgeheim**. De **client-id** kan indien nodig op een later tijdstip worden opgehaald uit Azure Portal. Als u het **clientgeheim** kwijtraakt, moet u een nieuw clientgeheim maken binnen Azure Portal.
 
 8. U moet naar Azure navigeren om **Machtigingen verlenen** te selecteren.
-> [!Note]
-    > U moet een globale beheerder in de Azure-tenant zijn om dit uit te voeren
->
+   > [!Note]
+   > U moet een globale beheerder in de Azure-tenant zijn om dit uit te voeren
 
 * Ga naar Azure.
 * Zoek en selecteer **App registraties**.
@@ -83,8 +82,8 @@ Uw andere optie voor het registreren van uw toepassing is dit rechtstreeks in Az
     ![](media/register-app/azuread-new-app-registration.png)
 5. Volg de aanwijzingen en maak een nieuwe toepassing.
    
-   * Voor webtoepassingen geeft u de aanmeldings-URL op, die de basis-URL van uw app vormt waar gebruikers zich kunnen aanmelden, bijvoorbeeld http://localhost:13526.
-   * Voor systeemeigen toepassingen geeft u een omleidings-URI op, die Azure AD gebruikt om tokenantwoorden te retourneren. Voer een specifieke waarde in voor uw toepassing, bijvoorbeeld http://myapplication/redirect
+   * Voor webtoepassingen geeft u de aanmeldings-URL op, die de basis-URL van uw app vormt waar gebruikers zich kunnen aanmelden, bijvoorbeeld `http://localhost:13526`.
+   * Voor systeemeigen toepassingen geeft u een omleidings-URI op, die Azure AD gebruikt om tokenantwoorden te retourneren. Voer een specifieke waarde in voor uw toepassing, bijvoorbeeld `http://myapplication/redirect`
 
 Zie voor meer informatie over het registreren van toepassingen bij Azure Active Directory het onderwerp [Toepassingen integreren met Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
 
@@ -161,44 +160,44 @@ U moet hiervoor zijn aangemeld bij het *hoofd*account, dat wordt gebruikt voor i
    * **AllPrincipals** kan alleen worden gebruikt door tenantbeheerders om alle gebruikers in de tenant machtigingen te verlenen.
    * **Principal** wordt gebruikt om machtigingen te verlenen aan een specifieke gebruiker. In dit geval moet er een extra eigenschap worden toegevoegd aan de aanvraagbody: *principalId={User_ObjectId}*.
     
-    *Machtigingen verlenen* is vereist voor het hoofdaccount om te voorkomen dat om toestemming wordt gevraagd door Azure AD. Dit is niet mogelijk bij niet-interactieve aanmelding.
+     *Machtigingen verlenen* is vereist voor het hoofdaccount om te voorkomen dat om toestemming wordt gevraagd door Azure AD. Dit is niet mogelijk bij niet-interactieve aanmelding.
    
-    ```
-    Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
-    Authorization: Bearer ey..qw
-    Content-Type: application/json
-    { 
-    "clientId":"{Service_Plan_ID}",
-    "consentType":"AllPrincipals",
-    "resourceId":"c78b2585-1df6-41de-95f7-dc5aeb7dc98e",
-    "scope":"Dataset.ReadWrite.All Dashboard.Read.All Report.Read.All Group.Read Group.Read.All Content.Create Metadata.View_Any Dataset.Read.All Data.Alter_Any",
-    "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
-    "startTime":"2017-03-29T14:35:32.4933413+03:00"
-    }
-    ```
+     ```
+     Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
+     Authorization: Bearer ey..qw
+     Content-Type: application/json
+     { 
+     "clientId":"{Service_Plan_ID}",
+     "consentType":"AllPrincipals",
+     "resourceId":"c78b2585-1df6-41de-95f7-dc5aeb7dc98e",
+     "scope":"Dataset.ReadWrite.All Dashboard.Read.All Report.Read.All Group.Read Group.Read.All Content.Create Metadata.View_Any Dataset.Read.All Data.Alter_Any",
+     "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
+     "startTime":"2017-03-29T14:35:32.4933413+03:00"
+     }
+     ```
 
-5.  App-machtigingen verlenen aan Azure Active Directory (AAD)
+5. App-machtigingen verlenen aan Azure Active Directory (AAD)
    
-    De waarde van **consentType** kan **AllPrincipals** of **Principal** zijn.
+   De waarde van **consentType** kan **AllPrincipals** of **Principal** zijn.
 
-    * **AllPrincipals** kan alleen worden gebruikt door tenantbeheerders om alle gebruikers in de tenant machtigingen te verlenen.
-    * **Principal** wordt gebruikt om machtigingen te verlenen aan een specifieke gebruiker. In dit geval moet er een extra eigenschap worden toegevoegd aan de aanvraagbody: *principalId={User_ObjectId}*.
+   * **AllPrincipals** kan alleen worden gebruikt door tenantbeheerders om alle gebruikers in de tenant machtigingen te verlenen.
+   * **Principal** wordt gebruikt om machtigingen te verlenen aan een specifieke gebruiker. In dit geval moet er een extra eigenschap worden toegevoegd aan de aanvraagbody: *principalId={User_ObjectId}*.
     
-    *Machtigingen verlenen* is vereist voor het hoofdaccount om te voorkomen dat om toestemming wordt gevraagd door Azure AD. Dit is niet mogelijk bij niet-interactieve aanmelding.
+   *Machtigingen verlenen* is vereist voor het hoofdaccount om te voorkomen dat om toestemming wordt gevraagd door Azure AD. Dit is niet mogelijk bij niet-interactieve aanmelding.
 
- ```
-    Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
-    Authorization: Bearer ey..qw
-    Content-Type: application/json
-    { 
-    "clientId":"{Service_Plan_ID}",
-    "consentType":"AllPrincipals",
-    "resourceId":"61e57743-d5cf-41ba-bd1a-2b381390a3f1",
-    "scope":"User.Read Directory.AccessAsUser.All",
-    "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
-    "startTime":"2017-03-29T14:35:32.4933413+03:00"
-    }
- ```
+   ```
+   Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
+   Authorization: Bearer ey..qw
+   Content-Type: application/json
+   { 
+   "clientId":"{Service_Plan_ID}",
+   "consentType":"AllPrincipals",
+   "resourceId":"61e57743-d5cf-41ba-bd1a-2b381390a3f1",
+   "scope":"User.Read Directory.AccessAsUser.All",
+   "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
+   "startTime":"2017-03-29T14:35:32.4933413+03:00"
+   }
+   ```
 
 ## <a name="next-steps"></a>Volgende stappen
 Nu u uw toepassing in Azure AD hebt geregistreerd, moet u gebruikers in uw toepassing verifiëren. Zie [Gebruikers verifiëren en een Azure AD-toegangstoken verkrijgen voor uw Power BI-app](get-azuread-access-token.md) voor meer informatie.

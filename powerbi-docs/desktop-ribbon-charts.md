@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3575a94ede595b4d83fef0cddcbb279ea7a533c0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 0e0f9e857816b44782831640a74801b515919bae
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34285526"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136750"
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Lintgrafieken gebruiken in Power BI
 In **Power BI** kunt u lintgrafieken gebruiken om gegevens te visualiseren en snel te bepalen welke gegevenscategorie de hoogste rang heeft (hoogste waarde). In lintgrafieken kunnen wijzigingen in de rang goed worden weergegeven, waarbij voor elke periode de hoogste rang (waarde) altijd bovenaan wordt weergegeven. Lintgrafieken zijn beschikbaar in **Power BI Desktop** vanaf de release van september 2017 en in daarop volgende updates van de **Power BI-service**.
@@ -44,7 +44,7 @@ Met deze opmaakopties voor lintgrafieken kunt u de volgende aanpassingen aanbren
 ## <a name="next-steps"></a>Volgende stappen
 Lees de volgende artikelen voor meer informatie over **Power BI Desktop** en hoe u aan de slag kunt.
 
-* [Getting Started with Power BI Desktop](desktop-getting-started.md) (Aan de slag met Power BI Desktop)
+* [Wat is Power BI Desktop?](desktop-what-is-desktop.md)
 * [Query Overview with Power BI Desktop](desktop-query-overview.md) (Queryoverzicht met Power BI Desktop)
 * [Data Sources in Power BI Desktop](desktop-data-sources.md) (Gegevensbronnen in Power BI Desktop)
 * [Connect to Data in Power BI Desktop](desktop-connect-to-data.md) (Verbinding maken met gegevens in Power BI Desktop)

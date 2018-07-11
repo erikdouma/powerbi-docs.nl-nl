@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: eaef6c8273fc8f4b0d4d43dc1df82fdf97c2edf8
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 8931bc773f0543cc8687c1a8f9f63681109247e2
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36964763"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600199"
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Spreidingsdiagrammen en bellendiagrammen in Power BI
 Een spreidingsdiagram heeft altijd twee waardeassen, waarbij een reeks numerieke gegevens op een horizontale as en een andere reeks numerieke waarden op de verticale as wordt weergegeven. In het diagram worden punten weergegeven op het snijpunt van een numerieke x- en y-waarde, waarbij deze waarden in één gegevenspunt worden gecombineerd. Deze gegevenspunten kunnen, afhankelijk van de gegevens, gelijkmatig of ongelijkmatig over de horizontale as zijn verdeeld.
@@ -57,9 +57,9 @@ In deze instructies wordt het voorbeeld van een retailanalyse gebruikt. Om mee t
    - **Verkoop** > **Afwijkingspercentage totale verkoop**
    - **District** > **District**
 
-    ![](media/power-bi-visualization-scatter/power-bi-bar-chart.png)
+     ![](media/power-bi-visualization-scatter/power-bi-bar-chart.png)
 
-    Als u de Power BI-service gebruikt, moet u het rapport openen in de [bewerkweergave](service-interact-with-a-report-in-editing-view.md).
+     Als u de Power BI-service gebruikt, moet u het rapport openen in de [bewerkweergave](service-interact-with-a-report-in-editing-view.md).
 
 3. Converteer naar een spreidingsdiagram. Selecteer het pictogram voor spreidingsdiagrammen in het deelvenster Visualisaties.
 

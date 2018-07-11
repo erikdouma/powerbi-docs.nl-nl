@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8716e6b5b75c7cd3db1b8daecfaae240f0647a50
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e9b37ba2b44a23fa0f198bce7a649c67335ac0ed
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297257"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36945130"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Aanbevolen procedures voor het ontwerpen van rapporten en visuele elementen
 <!-- Shared newnav Include -->
@@ -787,8 +787,6 @@ Over het algemeen kunnen met staaf-, kolom- en lijndiagrammen wel de meeste situ
 Hij legt uit dat cirkeldiagrammen wel nuttig zijn om de verhouding van een onderdeel tot het geheel weer te geven. Maar zelfs in dat geval maakt het weinig verschil of u daarvoor bijvoorbeeld een gestapeld staafdiagram met 100%-balken gebruikt.
 
 Een ander grappig artikel (met animatie) over cirkeldiagrammen vindt u op de [Darkhorse Analytics-website](http://www.darkhorseanalytics.com/blog/salvaging-the-pie).
-
-Of lees het artikel [Why Tufte is flat-out wrong about pie charts](http://speakingppt.com/2013/03/18/why-tufte-is-flat-out-wrong-about-pie-charts/) waarin het standpunt van Tufte wordt bestreden.
 
 #### <a name="radial-gauges--kpis"></a>Radiale meters en KPI's
 ![](media/power-bi-visualization-best-practices/power-bi-gauge.png)

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/21/2018
+ms.date: 06/23/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 6f03a8615f4ea679b1778e7612a2d6fc4449f457
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5e69f9416f1de84cd4e2268964620b6a114d4016
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722242"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944486"
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Voorbeeld van verkoop en marketing voor Power BI: een rondleiding
 
@@ -30,7 +30,7 @@ Dit voorbeeld is onderdeel van een serie die laat zien hoe u Power BI kunt gebru
 
 ## <a name="prerequisites"></a>Vereisten
 
- Voordat u het voorbeeld kunt gebruiken, moet u het eerst downloaden als een [inhoudspakket](https://docs.microsoft.com/power-bi/sample-sales-and-marketing#get-the-content-pack-for-this-sample), een [PBIX-bestand](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales-and-Marketing-Sample-PBIX.pbix) of een [Excel-werkmap](http://go.microsoft.com/fwlink/?LinkId=529785).
+ Voordat u het voorbeeld kunt gebruiken, moet u het eerst downloaden als een [inhoudspakket](https://docs.microsoft.com/power-bi/sample-sales-and-marketing#get-the-content-pack-for-this-sample), een [PBIX-bestand](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix) of een [Excel-werkmap](http://go.microsoft.com/fwlink/?LinkId=529785).
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Het inhoudspakket voor dit voorbeeld ophalen
 

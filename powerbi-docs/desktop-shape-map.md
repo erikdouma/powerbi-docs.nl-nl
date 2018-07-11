@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 019aa1425d05fcfdc4415570acdc29e7a684dc25
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 88b8b4a50913cd45c5e4ff80a5d5e0ded2eb4cdb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290954"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600739"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Shape-kaarten in Power BI Desktop (preview)
 In Power BI Desktop maakt u een **Shape-kaart**-visual om relatieve vergelijkingen van regio's op een kaart te laten zien door verschillende kleuren op verschillende regio's toe te passen. In tegenstelling tot de **kaart** -visual, kan **Shape Map** geen nauwkeurige geografische locaties van gegevenspunten op een kaart weergeven. In plaats daarvan is het belangrijkste doel het weergeven van relatieve vergelijkingen van regio's op een kaart door ze een andere kleur te geven.
@@ -40,23 +40,23 @@ Power BI Desktop maakt een leeg ontwerpcanvas voor de **Shape Map**-visual.
 Voer de volgende stappen uit om een **Shape Map** te maken:
 
 1. Sleep in het deelvenster **Velden** een veld met de regionamen (of afkortingen) naar de bucket **Locatie** en een veld met meetgegevens naar de bucket **Kleurverzadiging** (er wordt nog geen kaart weergegeven).
-   
+
    > [!NOTE]
-> Zie de sectie **Kaartgegevens ophalen** hieronder voor informatie over het snel ophalen van kaartgegevens om **Shape Map** te testen.
+   > Zie de sectie **Kaartgegevens ophalen** hieronder voor informatie over het snel ophalen van kaartgegevens om **Shape Map** te testen.
    > 
    > 
-   
+
    ![](media/desktop-shape-map/shape-map_3a.png)
 2. In het instellingenvenster **Indeling** vouwt u **Vorm** uit en maakt u een selectie in de vervolgkeuzelijst **Standaardkaarten** om uw gegevens weer te geven. Op dat punt wordt de kaart weergegeven, zoals is te zien in de volgende afbeelding.
-   
+
    ![](media/desktop-shape-map/shape-map_3b.png)
-   
+
    > [!NOTE]
-> In de sectie **Regiosleutels** aan het eind van dit artikel ziet u een verzameling tabellen met sleutels voor kaartregio's waarmee u de **Shape Map**-visual kunt testen.
+   > In de sectie **Regiosleutels** aan het eind van dit artikel ziet u een verzameling tabellen met sleutels voor kaartregio's waarmee u de **Shape Map**-visual kunt testen.
    > 
    > 
 3. Vervolgens kunt u vanuit het instellingenvenster **Indeling** de kaartprojectie en zoominstellingen wijzigen. U kunt ook de zoominstellingen wijzigen. U kunt bijvoorbeeld kleuren wijzigen, maximum- en minimumwaarden instellen, enzovoort.
-   
+
    ![](media/desktop-shape-map/shape-map_3d.png)
 4. U kunt ook een kolom met categoriegegevens aan de **Legenda**-bucket toevoegen en de kaartregio's classificeren op basis van categorieën.
 
@@ -114,6 +114,7 @@ Er zijn enkele overwegingen en vereisten voor deze Preview-versie van **Shape Ma
 Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te testen.
 
 ### <a name="australia-states"></a>Australië: staten
+
 | id | afk | iso | naam | postcode |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |West-Australië |WA |
@@ -126,6 +127,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te
 | au-act |ACT |AU-ACT |Australian Capital Territory |ACT |
 
 ### <a name="austria-states"></a>Oostenrijk: deelstaten
+
 | id | iso | naam | naam-nl | postcode |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |Wenen |WI |
@@ -139,6 +141,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te
 | at-bu |AT-1 |Burgenland |Burgenland |BU |
 
 ### <a name="brazil-states"></a>Brazilië: staten
+
 | id |
 | --- |
 | Tocantins |
@@ -174,6 +177,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te
 | Litigated Zone 4 |
 
 ### <a name="canada-provinces"></a>Canada: provincies
+
 | id | iso | naam | postcode |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
@@ -191,6 +195,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te
 | ca-ab |CA-AB |Alberta |AB |
 
 ### <a name="france-regions"></a>Frankrijk: regio's
+
 | id | naam | naam-nl |
 | --- | --- | --- |
 | Alsace |Elzas |Elzas |
@@ -217,6 +222,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te
 | Aquitaine |Aquitaine |Aquitaine |
 
 ### <a name="germany-states"></a>Duitsland: deelstaten
+
 | id | iso | naam | naam-nl | postcode |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlin |Berlijn |BE |
@@ -237,6 +243,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te
 | de-bw |DE-BW |Baden-Württemberg |Baden-Württemberg |BW |
 
 ### <a name="ireland-counties"></a>Ierland: county's
+
 | id |
 | --- |
 | Wicklow |
@@ -267,6 +274,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te
 | Carlow |
 
 ### <a name="italy-regions"></a>Italië: regio's
+
 | id | iso | naam | naam-nl | postcode |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Veneto |Veneto |VN |
@@ -291,6 +299,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te
 | it-ab |IT-65 |Abruzzo |Abruzzen |AB |
 
 ### <a name="mexico-states"></a>Mexico: staten
+
 | id | abreviatura | iso | naam | naam-nl | postcode |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas |ZA |
@@ -327,6 +336,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te
 | mx-agu |Ags. |MX-AGU |Aguascalientes |Aguascalientes |AG |
 
 ### <a name="netherlands-provinces"></a>Nederland: provincies
+
 | id | iso | naam | naam-nl |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |South Holland |
@@ -343,6 +353,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te
 | nl-dr |NL-DR |Drenthe |Drenthe |
 
 ### <a name="uk-countries"></a>VK: landen
+
 | id | iso | naam |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Wales |
@@ -351,6 +362,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te
 | gb-eng |GB-ENG |Engeland |
 
 ### <a name="usa-states"></a>VS: staten
+
 | id | naam | postcode |
 | --- | --- | --- |
 | us-mi |Michigan |MI |

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b7e08f586c0c1f0bf7409735683bc9c1cd6aa969
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: ade1e9377ddcb014cc71909c7256533a0e74d606
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286860"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136451"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Gegevensbronnen in Power BI Desktop
 Met Power BI Desktop kunt u verbinding maken met gegevens uit veel verschillende bronnen. Onderaan op deze pagina vindt u een volledige lijst met beschikbare gegevensbronnen.
@@ -203,8 +203,8 @@ Dat is alles wat u hoeft te weten om verbinding te maken met gegevensbronnen in 
 ## <a name="next-steps"></a>Volgende stappen
 U kunt allerlei handelingen uitvoeren met Power BI Desktop. Bekijk de volgende bronnen voor meer informatie over de vele mogelijkheden:
 
-* [Getting Started with Power BI Desktop](desktop-getting-started.md) (Aan de slag met Power BI Desktop)
-* [Queryoverzicht met Power BI Desktop](desktop-query-overview.md)
+* [Wat is Power BI Desktop?](desktop-what-is-desktop.md)
+* [Query Overview with Power BI Desktop](desktop-query-overview.md) (Queryoverzicht met Power BI Desktop)
 * [Gegevenstypen in Power BI Desktop](desktop-data-types.md)
 * [Gegevens vormgeven en combineren met Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Common Query Tasks in Power BI Desktop](desktop-common-query-tasks.md) (Algemene querytaken in Power BI Desktop)    

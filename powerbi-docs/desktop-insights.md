@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2b5959049b65d32eebf7f484e8485ff59a10f459
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5bb3f49ef49ed7bbaeb3f52e0711247e0abdc615
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286078"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37134680"
 ---
 # <a name="use-insights-in-power-bi-desktop-preview"></a>Inzichten gebruiken in Power BI Desktop (preview)
 U kunt **Power BI Desktop** vragen toe- of afnames in diagrammen uit te leggen en om snelle, geautomatiseerde en inzichtelijke analyses over uw gegevens. Klik hiertoe met de rechtermuisknop op een gegevenspunt en selecteer **Analyseren > Leg de afname uit** (toename, als de vorige staaf lager is) en u krijgt inzicht in een gebruiksvriendelijk venster.
@@ -72,7 +72,7 @@ Daarnaast worden de volgende modeltypen en gegevensbronnen niet voor inzichten o
 ## <a name="next-steps"></a>Volgende stappen
 Lees de volgende artikelen voor meer informatie over **Power BI Desktop** en hoe u aan de slag kunt.
 
-* [Getting Started with Power BI Desktop](desktop-getting-started.md) (Aan de slag met Power BI Desktop)
+* [Wat is Power BI Desktop?](desktop-what-is-desktop.md)
 * [Query Overview with Power BI Desktop](desktop-query-overview.md) (Queryoverzicht met Power BI Desktop)
 * [Data Sources in Power BI Desktop](desktop-data-sources.md) (Gegevensbronnen in Power BI Desktop)
 * [Connect to Data in Power BI Desktop](desktop-connect-to-data.md) (Verbinding maken met gegevens in Power BI Desktop)

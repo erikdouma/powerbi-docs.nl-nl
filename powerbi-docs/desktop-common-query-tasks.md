@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 6f80c1cc5d0b97318fe9e9b0653d166d571d1310
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 44756e45a6f9944f9d52afa98709b1a3f7b5b6e1
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290655"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137486"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Algemene querytaken in Power BI Desktop
 Wanneer u werkt in het venster **Query-editor** van Power BI Desktop, beschikt u over een aantal veelgebruikte taken. In dit document worden die taken gedemonstreerd en ziet u koppelingen voor meer informatie. 
@@ -218,7 +218,7 @@ Dit zijn de formulecategorieën voor de Query-editor:
 ## <a name="next-steps"></a>Volgende stappen
 U kunt allerlei handelingen uitvoeren met Power BI Desktop. Bekijk de volgende bronnen voor meer informatie over de vele mogelijkheden:
 
-* [Getting Started with Power BI Desktop](desktop-getting-started.md) (Aan de slag met Power BI Desktop)
+* [Wat is Power BI Desktop?](desktop-what-is-desktop.md)
 * [Query Overview with Power BI Desktop](desktop-query-overview.md) (Queryoverzicht met Power BI Desktop)
 * [Data Sources in Power BI Desktop](desktop-data-sources.md) (Gegevensbronnen in Power BI Desktop)
 * [Connect to Data in Power BI Desktop](desktop-connect-to-data.md) (Verbinding maken met gegevens in Power BI Desktop)

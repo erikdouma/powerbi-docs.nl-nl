@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ec5b46dcfebf614e70a0b8ebf858af7b34906eae
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 8813294f359c6bd6e1bb01fa3cc2ec3f5eb3d280
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290701"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598252"
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Koppelingen van OneDrive voor Bedrijven gebruiken in Power BI Desktop
 Veel gebruikers hebben Excel-werkmappen opgeslagen op hun OneDrive voor Bedrijven-station. Het zou mooi zijn deze met Power BI Desktop te gebruiken. Met **Power BI Desktop** kunt u onlinekoppelingen voor **Excel-bestanden** gebruiken die in **OneDrive voor Bedrijven** zijn opgeslagen en waar u rapporten en visuele elementen mee kunt maken. U kunt een **OneDrive voor Bedrijven** groepsaccount of een individueel account van **OneDrive voor Bedrijven** gebruiken.
@@ -26,7 +26,7 @@ Voor een onlinekoppeling van **OneDrive voor Bedrijven** zijn een paar specifiek
 1. Ga via de browser naar uw locatie van OneDrive voor Bedrijven. Klik met de rechtermuisknop o het bestand dat u wilt gebruiken en selecteer **Openen in Excel**.
    
    > [!NOTE]
-> De interface van uw browser kan afwijken van de volgende afbeelding. U kunt **Openen in Excel** (voor bestanden) op diverse manieren selecteren in de browserinterface van **OneDrive voor Bedrijven**. U kunt elke optie gebruiken om het bestand in Excel te openen.
+   > De interface van uw browser kan afwijken van de volgende afbeelding. U kunt **Openen in Excel** (voor bestanden) op diverse manieren selecteren in de browserinterface van **OneDrive voor Bedrijven**. U kunt elke optie gebruiken om het bestand in Excel te openen.
    > 
    > 
    

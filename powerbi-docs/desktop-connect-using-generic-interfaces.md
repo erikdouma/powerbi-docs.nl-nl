@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4be27c91d0616d4611eb07dab5d68c39ed0ab6d2
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 9dad723d7b65836770fb866ddeed80d069a9658a
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34287734"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137095"
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>Verbinding met gegevens maken via algemene interfaces in Power BI Desktop
 U kunt verbinding maken met een groot aantal verschillende gegevensbronnen in **Power BI Desktop**, waarbij u ingebouwde gegevensconnectors gebruikt, variërend van **Access-databases** tot **Zendesk**-bronnen, zoals weergegeven in het venster **Gegevens ophalen**. U kunt ook verbinding maken met allerlei *andere* gegevensbronnen, om zo uw verbindingsopties verder uit te breiden, met behulp van de algemene interfaces (zoals **ODBC** of **REST API's**) die zijn ingebouwd in **Power BI Desktop**.
@@ -109,7 +109,7 @@ De volgende lijst bevat enkele voorbeelden van gegevensbronnen waarmee **Power B
 ## <a name="next-steps"></a>Volgende stappen
 Met **Power BI Desktop** kunt u verbinding maken met allerlei gegevensbronnen. Bekijk de volgende bronnen voor meer informatie over gegevensbronnen:
 
-* [Getting Started with Power BI Desktop](desktop-getting-started.md) (Aan de slag met Power BI Desktop)
+* [Wat is Power BI Desktop?](desktop-what-is-desktop.md)
 * [Data Sources in Power BI Desktop](desktop-data-sources.md) (Gegevensbronnen in Power BI Desktop)
 * [Shape and Combine Data with Power BI Desktop](desktop-shape-and-combine-data.md) (Gegevens vormgeven en combineren met Power BI Desktop)
 * [Connect to Excel workbooks in Power BI Desktop](desktop-connect-excel.md) (Verbinding maken met Excel-werkmappen in Power BI Desktop)   

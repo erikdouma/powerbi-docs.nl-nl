@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 705de47a1e89d765f34eadfcd35064ccde7aa66b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c57ae7a0213ce324f673e53862ba3dfa38f57409
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34481895"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092662"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>De rapportserver configureren om Excel-werkmappen te hosten met Office Online Server (OOS)
 Naast het bekijken van Power BI-rapporten in de webportal, kan Power BI Report Server Excel-werkmappen hosten met behulp van [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS). Uw rapportserver wordt één locatie voor het publiceren en bekijken van selfservice-inhoud van Microsoft BI.
@@ -78,7 +78,7 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 
 **Parameters**
 
-* **–InternalURL** is de volledig gekwalificeerde domeinnaam (FQDN) van de server met Office Online Server, zoals http://servername.contoso.com.
+* **–InternalURL** is de volledig gekwalificeerde domeinnaam (FQDN) van de server met Office Online Server, zoals `http://servername.contoso.com`.
 * **–ExternalURL** is de FQDN-naam die toegankelijk is op het internet.
 * **–CertificateName** is de beschrijvende naam van het certificaat.
 
@@ -91,7 +91,7 @@ New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
 
 **Parameters**
 
-* **–InternalURL** is de naam van de server met Office Online Server, zoals http://servername.
+* **–InternalURL** is de naam van de server met Office Online Server, zoals `http://servername`.
 * **–AllowHttp** configureert de farm voor het gebruik van HTTP.
 
 ### <a name="verify-that-the-office-online-server-farm-was-created-successfully"></a>Controleren of de Office Online Server-farm is gemaakt

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 15651c29dc333385156b1e82f55cab0d315c9862
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 994e27a08ca4f26dc730246b34c7607818e81e66
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291138"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135416"
 ---
 # <a name="connect-to-csv-files-in-power-bi-desktop"></a>Verbinding met CSV-bestanden maken in Power BI Desktop
 Verbinding maken met een bestand met door komma's gescheiden waarden (*CSV*) vanuit Power BI Desktop lijkt erg veel op verbinding maken met een Excel-werkmap. Beide zijn erg eenvoudig uit te voeren en in dit artikel leert u de stappen kennen om verbinding te maken met een CSV-bestand waartoe u toegang hebt.
@@ -47,7 +47,7 @@ U kunt deze gegevens in Power BI Desktop gebruiken om visuele elementen of rappo
 ### <a name="next-steps"></a>Volgende stappen
 Met Power BI Desktop kunt u verbinding maken met allerlei andere gegevens. Bekijk de volgende bronnen voor meer informatie over gegevensbronnen:
 
-* [Getting Started with Power BI Desktop](desktop-getting-started.md) (Aan de slag met Power BI Desktop)
+* [Wat is Power BI Desktop?](desktop-what-is-desktop.md)
 * [Data Sources in Power BI Desktop](desktop-data-sources.md) (Gegevensbronnen in Power BI Desktop)
 * [Shape and Combine Data with Power BI Desktop](desktop-shape-and-combine-data.md) (Gegevens vormgeven en combineren met Power BI Desktop)
 * [Connect to Excel workbooks in Power BI Desktop](desktop-connect-excel.md) (Verbinding maken met Excel-werkmappen in Power BI Desktop)   

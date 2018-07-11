@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 6d0a1afe27372c808e63adb34fda96e978b2e2be
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: c25a402138c209eb6a4a36bf39865c30c1c0e5b9
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721381"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598937"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Rondleiding door het deelvenster Filters van het rapport
 In dit artikel wordt het rapportvenster Filters diepgaand besproken. U ziet het deelvenster in de [bewerkweergave en leesweergave van Power BI-service](service-reading-view-and-editing-view.md) en in de [rapportweergave van Power BI Desktop](desktop-report-view.md).
@@ -77,7 +77,7 @@ Als u opties voor een bepaald filter wilt weergeven, selecteert u de pijl omlaag
 ## <a name="add-a-filter"></a>Een filter toevoegen
 * Voeg in Power BI Desktop of in de bewerkingsweergave van de Power BI-service een filter toe aan een visual, pagina, drillthrough of rapport door een veld uit het deelvenster Velden te selecteren en het naar het betreffende vak voor filters te slepen, waar u de woorden **Sleep velden hierheen** ziet. Nadat een veld als filter is toegevoegd, kunt u het verfijnen met behulp van de besturingselementen Standaardfilters toepassen en Geavanceerd filteren (zie hieronder).
 
-- **Door een nieuw veld naar het filtergebied op niveau van visuele elementen te slepen, wordt dat veld niet aan het visuele element toegevoegd** maar kunt u wel filteren op dit visuele element met het nieuwe veld. In onderstaand voorbeeld wordt **Chain** (Keten) aan de visualisatie toegevoegd als nieuw filter. Merk op dat het toevoegen van **Chain** als filter de visualisatie niet verandert, totdat u het besturingselement Standaardfilters toepassen of Geavanceerd filteren gebruikt.
+* **Door een nieuw veld naar het filtergebied op niveau van visuele elementen te slepen, wordt dat veld niet aan het visuele element toegevoegd** maar kunt u wel filteren op dit visuele element met het nieuwe veld. In onderstaand voorbeeld wordt **Chain** (Keten) aan de visualisatie toegevoegd als nieuw filter. Merk op dat het toevoegen van **Chain** als filter de visualisatie niet verandert, totdat u het besturingselement Standaardfilters toepassen of Geavanceerd filteren gebruikt.
 
     ![](media/power-bi-how-to-report-filter/power-bi-visual-filter.gif)
 

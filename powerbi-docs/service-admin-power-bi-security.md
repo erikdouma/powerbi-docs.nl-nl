@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: d3b3e077ac3dadf92a1c25d3704a4f59adea588b
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: ec8f1e40cac1c98bcfb5049d1fe8dd7397b616d6
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34296222"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598832"
 ---
 # <a name="power-bi-security"></a>Beveiliging van Power BI
 [Download het witboek Beveiliging van Power BI](http://go.microsoft.com/fwlink/?LinkId=829185) voor een gedetailleerde uitleg van Power BI-beveiliging:
@@ -48,7 +48,7 @@ De stippellijn in de bovenstaande afbeelding van het cluster **Back End** verdui
 ## <a name="user-authentication"></a>Verificatie van de gebruiker
 Power BI maakt gebruik van Azure Active Directory ([AAD](http://azure.microsoft.com/services/active-directory/)) om gebruikers te verifiëren die zich aanmelden bij de Power BI-service en gebruikt vervolgens de Power BI-aanmeldingsreferenties wanneer een gebruiker probeert resources te openen die verificatie vereisen. Gebruikers melden zich aan bij de Power BI-service met het e-mailadres dat is gebruikt om hun Power BI-account in te stellen; Power BI gebruikt dat aanmeldadres als de *effectieve gebruikersnaam* die wordt doorgegeven aan bronnen wanneer een gebruiker probeert verbinding maken met gegevens. De *effectieve gebruikersnaam* wordt vervolgens toegewezen aan een *User Principal Name* ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx)) en omgezet naar het bijbehorende Windows-domeinaccount, op basis waarvan de verificatie moet worden toegepast.
 
-Voor organisaties die zakelijke e-mailadressen gebruikten voor aanmelding bij Power BI (zoals *david@contoso.com*), is de toewijzing van *effectieve gebruikersnaam* naar UPN eenvoudig. Voor organisaties die geen zakelijke e-mailadressen gebruikten voor aanmelding bij Power BI (zoals *david@contoso.onmicrosoft.com*), is voor toewijzing tussen AAD en on-premises referenties vereist dat [adreslijstsynchronisatie](https://technet.microsoft.com/library/jj573653.aspx) goed werkt.
+Voor organisaties die zakelijke e-mailadressen gebruikten voor aanmelding bij Power BI (zoals <em>david@contoso.com</em>), is de toewijzing van *effectieve gebruikersnaam* naar UPN eenvoudig. Voor organisaties die geen zakelijke e-mailadressen gebruikten voor aanmelding bij Power BI (zoals <em>david@contoso.onmicrosoft.com</em>), is voor toewijzing tussen AAD en on-premises referenties vereist dat [adreslijstsynchronisatie](https://technet.microsoft.com/library/jj573653.aspx) goed werkt.
 
 De platformbeveiliging voor Power BI omvat ook de multitenant-omgevingsbeveiliging, netwerkbeveiliging en de mogelijkheid om extra op AAD gebaseerde beveiligingsmaatregelen toe te voegen.
 

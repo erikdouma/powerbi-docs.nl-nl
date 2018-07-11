@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 372f00e7bd62068688bdcc22c1e983c3fe629f8a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d28c6f4a0237253847cd474a3c3558399ba6fa64
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34295686"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600514"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>De eigenschappen van de X-as en Y-as aanpassen
 In deze zelfstudie leert u veel verschillende manieren om de X-as en Y-as van uw visualisaties aan te passen. Niet alle visualisaties hebben assen of kunnen worden aangepast. Zo hebben cirkeldiagrammen bijvoorbeeld geen assen. Bovendien verschillen de aanpassingsopties per visualisatie; er zijn te veel opties om ze in één artikel te behandelen. We werpen een blik op een aantal van de meestgebruikte as-aanpassingen, en maken u vertrouwd met het tabblad voor visuele opmaak in het rapportcanvas van Power BI.  
@@ -86,9 +86,9 @@ Eerst maakt u een Combinatiegrafiek waarmee u de impact kunt bekijken die het aa
 
     ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-line-chart.png)
 
->[NOTE]: For help sorting by month, see [sorting by other criteria](power-bi-report-change-sort.md#other)
-1. In januari was de brutomarge 35%, in april nemen we een piek (45%) waar, in juli daalde het brutomargepercentage en in augustus was er opnieuw een daling. Krijgen we een soortgelijk patroon voor afgelopen jaar en dit jaar te zien?
-2. Voeg **Omzet van dit jaar > Waarde** en **Omzet van afgelopen jaar** aan het lijndiagram toe. De schaal van **BM % vorig jaar** (de blauwe lijn die langs de rasterlijn 0% loopt) is veel kleiner dan de schaal van **Verkoop**, waardoor het lastig is om de waarden te vergelijken. Een de percentages in de labels op de Y-as zijn absurd.      
+> [NOTE]: For help sorting by month, see [sorting by other criteria](power-bi-report-change-sort.md#other)
+> 1. In januari was de brutomarge 35%, in april nemen we een piek (45%) waar, in juli daalde het brutomargepercentage en in augustus was er opnieuw een daling. Krijgen we een soortgelijk patroon voor afgelopen jaar en dit jaar te zien?
+> 2. Voeg **Omzet van dit jaar > Waarde** en **Omzet van afgelopen jaar** aan het lijndiagram toe. De schaal van **BM % vorig jaar** (de blauwe lijn die langs de rasterlijn 0% loopt) is veel kleiner dan de schaal van **Verkoop**, waardoor het lastig is om de waarden te vergelijken. Een de percentages in de labels op de Y-as zijn absurd.      
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/flatline_new.png)
 5. Converteer het lijndiagram naar een Lijndiagram en gestapeld kolomdiagram, zodat de visualisatie eenvoudiger te lezen en te interpreteren is.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 49f6e073d40ef00413ba38dd709780758cf1e448
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1c9f838261658a77fa8a4d019e610de72649bbbb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291023"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600769"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Standaard DAX-bewerkingen in Power BI Desktop
 Dit artikel is bedoeld voor nieuwe gebruikers van Power BI Desktop. Het bevat een snelle en eenvoudige inleiding over hoe u met Data Analysis Expressions (DAX) een aantal problemen met basisberekeningen en gegevensanalyse kunt oplossen. We bekijken conceptuele informatie, een reeks taken die u kunt uitvoeren en enkele kwisjes om te testen wat u hebt geleerd. Nadat u dit artikel hebt gelezen, zou u een goed begrip van de belangrijkste basisconcepten in DAX moeten hebben.
@@ -83,33 +83,33 @@ We gaan een eenvoudige formule maken. Deze taak biedt u meer inzicht in de synta
 ### <a name="task-create-a-measure-formula"></a>Taak: Maak een metingformule
 Voor het uitvoeren van deze taak moet u het bestand Contoso Sales Sample for Power BI Desktop Preview openen.
     
-1.  Klik vanuit de Rapportweergave met de rechtermuisknop op de tabel **Sales** in de lijst met velden en klik op **New Measure**.
+1. Klik vanuit de Rapportweergave met de rechtermuisknop op de tabel **Sales** in de lijst met velden en klik op **New Measure**.
     
-2.  Vervang **Measure** in de formulebalk door een nieuwe metingnaam te typen, **Previous Quarter Sales**.
+2. Vervang **Measure** in de formulebalk door een nieuwe metingnaam te typen, **Previous Quarter Sales**.
     
-3.  Typ na het gelijkteken **SUM**, gevolgd door een haakje openen.
+3. Typ na het gelijkteken **SUM**, gevolgd door een haakje openen.
     
-    We typen nu geen kolomnaam om meteen met optellen te beginnen, maar we voeren een andere functie in om de gegevens te *filteren* die we willen optellen.
+   We typen nu geen kolomnaam om meteen met optellen te beginnen, maar we voeren een andere functie in om de gegevens te *filteren* die we willen optellen.
     
-4.  Typ tussen de haakjes **CALCULATE**, gevolgd door een haakje openen.
+4. Typ tussen de haakjes **CALCULATE**, gevolgd door een haakje openen.
     
-    U gebruikt de functie CALCULATE om de bedragen te filteren die we willen laten optellen door een argument dat we doorgeven aan de functie CALCULATE. Dit is wat wordt aangeduid als functies nesten. De functie CALCULATE heeft minimaal twee argumenten. De eerste is de te evalueren expressie en de tweede is een filter.
+   U gebruikt de functie CALCULATE om de bedragen te filteren die we willen laten optellen door een argument dat we doorgeven aan de functie CALCULATE. Dit is wat wordt aangeduid als functies nesten. De functie CALCULATE heeft minimaal twee argumenten. De eerste is de te evalueren expressie en de tweede is een filter.
    
-5.  Tussen de haakjes **()** voor de functie **CALCULATE** typt u **Sales[SalesAmount]**. Dit is het eerste argument van de expressie voor de functie CALCULATE.
+5. Tussen de haakjes **()** voor de functie **CALCULATE** typt u **Sales[SalesAmount]**. Dit is het eerste argument van de expressie voor de functie CALCULATE.
     
-6.  Typ een komma (**,**) om het eerste filter op te geven en typ **PREVIOUSQUARTER** gevolgd door een haakje openen.
+6. Typ een komma (**,**) om het eerste filter op te geven en typ **PREVIOUSQUARTER** gevolgd door een haakje openen.
     
-    U gebruikt de functie PREVIOUSQUARTER voor tijdintelligentie om de SUM-resultaten te filteren op het vorige kwartaal.
+   U gebruikt de functie PREVIOUSQUARTER voor tijdintelligentie om de SUM-resultaten te filteren op het vorige kwartaal.
     
-7.  Tussen de haakjes **()** voor de functie PREVIOUSQUARTER typt u **Calendar[DateKey]**.
+7. Tussen de haakjes **()** voor de functie PREVIOUSQUARTER typt u **Calendar[DateKey]**.
     
-    De functie PREVIOUSQUARTER heeft één argument, te weten een kolom met een aaneengesloten reeks datums.
+   De functie PREVIOUSQUARTER heeft één argument, te weten een kolom met een aaneengesloten reeks datums.
     
-8.  Controleer of de beide argumenten die worden doorgegeven aan de functies PREVIOUSQUARTER en CALCULATE worden afgesloten door twee haakjes sluiten **))**.
+8. Controleer of de beide argumenten die worden doorgegeven aan de functies PREVIOUSQUARTER en CALCULATE worden afgesloten door twee haakjes sluiten **))**.
     
    De formule moet er nu zo uitzien:
     
-    **Previous Quarter Sales = CALCULATE(SUM(Sales[SalesAmount]), PREVIOUSQUARTER(Calendar[DateKey])) =**
+   **Previous Quarter Sales = CALCULATE(SUM(Sales[SalesAmount]), PREVIOUSQUARTER(Calendar[DateKey])) =**
     
 9. Klik op het vinkje ![](media/desktop-quickstart-learn-dax-basics/qsdax_syntax_taskcheckmark.png) in de formulebalk of druk op Enter om de formule te valideren en toe te voegen aan het model.
 

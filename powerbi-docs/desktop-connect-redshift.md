@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b1085c3715d9b4b75925cec1b94ec49b0f5792f7
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: c90d2ecf5c3722dfa3991d7001f7c5054e48e6a6
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813130"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135117"
 ---
 # <a name="connect-to-amazon-redshift-in-power-bi-desktop"></a>Verbinding met Amazon Redshift maken in Power BI Desktop
 In **Power BI Desktop** kunt u verbinding maken met een **Amazon Redshift**-database en gebruikmaken van de onderliggende gegevens, net zoals elke andere gegevensbron in Power BI Desktop.
@@ -45,7 +45,7 @@ Als u uw selecties in het venster **Navigator** hebt gemaakt, kunt u de gegevens
 ## <a name="next-steps"></a>Volgende stappen
 Met Power BI Desktop kunt u verbinding maken met allerlei andere gegevens. Bekijk de volgende bronnen voor meer informatie over gegevensbronnen:
 
-* [Getting Started with Power BI Desktop](desktop-getting-started.md) (Aan de slag met Power BI Desktop)
+* [Wat is Power BI Desktop?](desktop-what-is-desktop.md)
 * [Data Sources in Power BI Desktop](desktop-data-sources.md) (Gegevensbronnen in Power BI Desktop)
 * [Shape and Combine Data with Power BI Desktop](desktop-shape-and-combine-data.md) (Gegevens vormgeven en combineren met Power BI Desktop)
 * [Connect to Excel workbooks in Power BI Desktop](desktop-connect-excel.md) (Verbinding maken met Excel-werkmappen in Power BI Desktop)   

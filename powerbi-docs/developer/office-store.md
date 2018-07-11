@@ -9,15 +9,15 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 7c3a50fa487b9444b2f10b9d546d247be70dd1c9
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: 2147a5ccb1df8bd107d662559c97400a24dd490e
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301775"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092110"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Aangepaste visuele elementen publiceren naar AppSource
-Meer informatie over het publiceren van aangepaste visuele elementen naar AppSource, zodat anderen deze kunnen gebruiken. office
+Meer informatie over het publiceren van aangepaste visuele elementen naar AppSource, zodat anderen deze kunnen gebruiken.
 
 Als u een aangepast visueel element hebt gemaakt, wilt u het wellicht publiceren naar AppSource zodat andere personen het ook kunnen gebruiken. Voordat u kunt dit doen, moet u een aantal voorbereidende stappen uitvoeren. Zie [Ontwikkelhulpprogramma's gebruiken voor het maken van aangepaste visuele elementen](../service-custom-visuals-getting-started-with-developer-tools.md) voor meer informatie over het maken van aangepaste visuele elementen.
 
@@ -36,7 +36,7 @@ Als u klaar bent met het programmeren en testen van uw aangepaste visual en het 
 | Schermopnamen |Ja |U moet ten minste één schermopname aanleveren. De ondersteunde bestandsindelingen zijn PNG, JPG, JPEG en GIF. De schermopname moet een grootte hebben van exact 1366 bij 768 pixels (breedte x hoogte). Het bestand mag niet groter zijn dan 1024 kB. *Voeg tekstballonnen toe met meer informatie over de toegevoegde waarde van de belangrijkste functies die worden weergegeven in elke schermopname.* |
 | Koppeling naar ondersteuning voor de download |Ja |Geef de URL op waar klanten terecht kunnen voor ondersteuning bij eventuele problemen met uw visuele element. De URL moet https:// of http:// bevatten. |
 | Koppeling naar privacydocument |Ja |Geef een koppeling op naar het privacybeleid voor klanten die gebruikmaken van het visuele element. De koppeling moet https:// of http:// bevatten. |
-| Gebruiksrechtovereenkomst |Ja |U moet een bestand met een gebruiksrechtovereenkomst uploaden. U kunt uw eigen gebruiksrechtovereenkomst gebruiken, of de standaardgebruiksrechtovereenkomst voor aangepaste visuele elementen van Power BI in de Office-store. Als u de standaardgebruiksrechtovereenkomst wilt gebruiken, plakt u de volgende URL in het dialoogvenster voor het uploaden van het bestand 'Gebruiksrechtovereenkomst' van het verkoperdashboard: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf). |
+| Gebruiksrechtovereenkomst |Ja |U moet een bestand met een gebruiksrechtovereenkomst uploaden. U kunt uw eigen gebruiksrechtovereenkomst gebruiken, of de standaardgebruiksrechtovereenkomst voor aangepaste visuele elementen van Power BI in de Office-store. Als u de standaardgebruiksrechtovereenkomst wilt gebruiken, plakt u de volgende URL in het dialoogvenster voor het uploaden van het bestand 'Gebruiksrechtovereenkomst' van het verkoperdashboard: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf). |
 | Koppeling naar video |Nee |Om de interesse van gebruikers voor uw aangepaste visuele element te vergroten, wordt u aangeraden een koppeling naar een video over het visuele element op te geven. De URL moet https:// of http:// bevatten. |
 | GitHub-opslagplaats |Nee |U dient bij voorkeur een geldige [GitHub](https://www.github.com)-opslagplaats en een openbare koppeling daarnaartoe te hebben, met bronnen van uw visuele element en voorbeeldgegevens zodat andere ontwikkelaars feedback kunnen geven en verbeteringen van uw code kunnen voorstellen. |
 
@@ -97,7 +97,7 @@ Voer de volgende stappen uit om de inzending te voltooien.
    * Koppeling naar video
    * Gebruiksrechtovereenkomst
      
-       U moet een bestand met een gebruiksrechtovereenkomst uploaden. U kunt uw eigen gebruiksrechtovereenkomst gebruiken, of de standaardgebruiksrechtovereenkomst voor aangepaste visuele elementen van Power BI in de Office-store. Als u de standaardgebruiksrechtovereenkomst wilt gebruiken, plakt u de volgende URL in het dialoogvenster voor het uploaden van het bestand 'Gebruiksrechtovereenkomst' van het verkoperdashboard: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf).
+       U moet een bestand met een gebruiksrechtovereenkomst uploaden. U kunt uw eigen gebruiksrechtovereenkomst gebruiken, of de standaardgebruiksrechtovereenkomst voor aangepaste visuele elementen van Power BI in de Office-store. Als u de standaardgebruiksrechtovereenkomst wilt gebruiken, plakt u de volgende URL in het dialoogvenster voor het uploaden van het bestand 'Gebruiksrechtovereenkomst' van het verkoperdashboard: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf).
 8. Selecteer **Volgende** om door te gaan naar de pagina **Details**.
 9. Selecteer **Taal** en kies een taal in de lijst.
    

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ef554d7190709565610336169b4883d71970f822
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 621a5f92ebd9c7314b719b6643f5bfef958916c3
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34799551"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599330"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Proxy-instellingen configureren voor de on-premises gegevensgateway
 Het is mogelijk dat u in uw werkomgeving alleen toegang tot internet hebt via een proxy. Hierdoor is het mogelijk dat de on-premises gegevensgateway geen verbinding kan maken met de service.
@@ -77,23 +77,23 @@ Wanneer de proxyinstellingen worden geconfigureerd voor het gebruik van standaar
 
 ### <a name="change-the-on-premises-data-gateway-service-account"></a>Het serviceaccount van de on-premises gegevensgateway wijzigen
 1. Wijzig het Windows-serviceaccount voor de **on-premises gegevensgatewayservice**.
-   
+
     Het standaardaccount voor deze service is *NT SERVICE\PBIEgwService*. U kunt dit het beste wijzigen in een domeingebruikersaccount in uw Active Directory-domein. U kunt ook een beheerd serviceaccount gebruiken om te voorkomen dat het wachtwoord opnieuw moet worden ingesteld.
-   
+
     U kunt het account wijzigen op het tabblad **Aanmelden** in de eigenschappen van de Windows-service.
 2. Start de **on-premises gegevensgatewayservice** opnieuw.
-   
+
     Open een opdrachtprompt met verhoogde bevoegdheid en voer de volgende opdrachten uit:
-   
+
         net stop PBIEgwService
-   
+
         net start PBIEgwService
 3. Start de **configurator voor de on-premises gegevensgateway**. U kunt de startknop van Windows selecteren en zoeken op *On-premises gegevensgateway*.
 4. Meld u aan bij Power BI.
 5. Gebruik de herstelsleutel om de gateway te herstellen.
-   
+
     Zodoende stelt u het nieuwe serviceaccount in staat op de opgeslagen referenties voor gegevensbronnen te ontsleutelen.
-    
+
 > [!NOTE]
 > Wanneer u het serviceaccount rechtstreeks wijzigt met het bedieningspaneel Services, worden ACL's niet automatisch ook bijgewerkt. U moet ervoor zorgen dat het nieuwe serviceaccount toegang heeft tot de installatiebestanden en -map. U vindt de gatewayinstallatiemap onder C:\Program Files\On-premises data gateway. 
 > 

@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 27479add7839e1078e76bbb6523b287f10194566
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6c1bb67b0c7fb8d3e3344cbb48f7fcf52dac64ed
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34288746"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137302"
 ---
 # <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Zelfstudie: gegevens vormgeven en combineren in Power BI Desktop
 
@@ -233,7 +233,7 @@ Als u wijzigingen wilt toepassen en de Query-editor wilt sluiten, selecteert u *
 ## <a name="next-steps"></a>Volgende stappen
 U kunt allerlei handelingen uitvoeren met Power BI Desktop. Bekijk de volgende bronnen voor meer informatie over de vele mogelijkheden:
 
-* [Getting Started with Power BI Desktop](desktop-getting-started.md) (Aan de slag met Power BI Desktop)
+* [Wat is Power BI Desktop?](desktop-what-is-desktop.md)
 * [Query Overview with Power BI Desktop](desktop-query-overview.md) (Queryoverzicht met Power BI Desktop)
 * [Data Sources in Power BI Desktop](desktop-data-sources.md) (Gegevensbronnen in Power BI Desktop)
 * [Verbinding maken met gegevens in Power BI Desktop](desktop-connect-to-data.md)

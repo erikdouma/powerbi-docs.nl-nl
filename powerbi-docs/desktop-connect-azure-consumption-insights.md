@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 59723d4c8e241781b7f29773ea182cd5b075e0c2
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f42efcb833c723e7af9132f7e039c8ff8805d17d
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34288194"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137371"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Verbinding met Azure Consumption Insights maken in Power BI Desktop (bèta)
 Met de **Azure Consumption Insights**-connector kunt u vanuit **Power BI Desktop** verbinding maken met Azure en gedetailleerde gegevens en informatie over het gebruik van Azure-services van uw organisatie verkrijgen. U kunt ook metingen, aangepaste kolommen en visuele elementen maken om rapporten over het gebruik van Azure van uw organisatie te maken en te delen. Deze versie van de **Azure Consumption and Insights**-connector is een bètaversie en kan worden gewijzigd.
@@ -193,7 +193,7 @@ De kolommen en namen van detailgegevens in Azure Portal zijn vergelijkbaar in de
 ## <a name="next-steps"></a>Volgende stappen
 Met Power BI Desktop kunt u verbinding maken met allerlei andere gegevens. Bekijk de volgende bronnen voor meer informatie over gegevensbronnen:
 
-* [Getting Started with Power BI Desktop](desktop-getting-started.md) (Aan de slag met Power BI Desktop)
+* [Wat is Power BI Desktop?](desktop-what-is-desktop.md)
 * [Data Sources in Power BI Desktop](desktop-data-sources.md) (Gegevensbronnen in Power BI Desktop)
 * [Shape and Combine Data with Power BI Desktop](desktop-shape-and-combine-data.md) (Gegevens vormgeven en combineren met Power BI Desktop)
 * [Connect to Excel workbooks in Power BI Desktop](desktop-connect-excel.md) (Verbinding maken met Excel-werkmappen in Power BI Desktop)   

@@ -1,4 +1,5 @@
 ## <a name="list-of-available-data-source-types"></a>Lijst met beschikbare typen gegevensbronnen
+
 | **Gegevensbron** | **Live/DirectQuery** | **Door gebruiker geconfigureerde handmatige of geplande vernieuwing** |
 | --- | --- | --- | --- |
 | Analysis Services tabellair |Ja |Ja |

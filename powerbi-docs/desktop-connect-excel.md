@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bb35e8762b4cbe79e8efe2aede15bcac66f2ac8b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 699df2cf1cfcfde25eaadcec2946e9be922c56d9
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34289781"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136083"
 ---
 # <a name="connect-to-excel-in-power-bi-desktop"></a>Verbinding maken met Excel in Power BI Desktop
 Verbinding maken met een Excel-werkmap vanuit Power BI Desktop is erg eenvoudig. Dit artikel begeleidt u stapsgewijs door de procedure.
@@ -48,7 +48,7 @@ U bent nu klaar om de geïmporteerde gegevens uit de Excel-werkmap in Power BI D
 ### <a name="next-steps"></a>Volgende stappen
 Met Power BI Desktop kunt u verbinding maken met allerlei andere gegevens. Bekijk de volgende bronnen voor meer informatie over gegevensbronnen:
 
-* [Getting Started with Power BI Desktop](desktop-getting-started.md) (Aan de slag met Power BI Desktop)
+* [Wat is Power BI Desktop?](desktop-what-is-desktop.md)
 * [Data Sources in Power BI Desktop](desktop-data-sources.md) (Gegevensbronnen in Power BI Desktop)
 * [Shape and Combine Data with Power BI Desktop](desktop-shape-and-combine-data.md) (Gegevens vormgeven en combineren met Power BI Desktop)
 * [Connect to CSV files in Power BI Desktop](desktop-connect-csv.md) (Verbinding met CSV-bestanden maken in Power BI Desktop)   

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 34eabdcdd43ffc576ab684605b4c6ff374e58d50
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: 89ffa4c644005b53c263bef4535628dd603f1f6d
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250517"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599841"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Beveiliging op rijniveau (RLS) met Power BI
 Beveiliging op rijniveau (RLS) kan in Power BI worden gebruikt om de toegang tot gegevens voor bepaalde gebruikers te beperken. Filters beperken gegevens op rijniveau. U kunt filters definiëren in rollen.
@@ -26,7 +26,7 @@ U kunt RLS configureren voor gegevensmodellen met Power BI Desktop zijn geïmpor
 
 Het beveiligingsfilter op rijniveau gebruikt standaard filters in één richting, ongeacht of de relaties zijn ingesteld op één richting of twee richtingen. U kunt handmatig kruisfiltering met beveiliging op rijniveau in twee richtingen inschakelen door de relatie te selecteren en het selectievakje **Beveiligingsfilter toepassen in beide richtingen** te markeren. U moet dit vakje markeren wanneer u [dynamische beveiliging op rijniveau](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters) implementeert, waarbij u beveiliging op rijniveau biedt op basis van gebruikersnaam of aanmeldings-id. 
 
-Zie voor meer informatie [Kruisfiltering in twee richtingen met DirectQuery in Power BI Desktop](desktop-bidirectional-filtering.md) en het technische artikel [Het semantische BI-model in tabelvorm beveiligen](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing the Tabular BI Semantic Model.docx).
+Zie voor meer informatie [Kruisfiltering in twee richtingen met DirectQuery in Power BI Desktop](desktop-bidirectional-filtering.md) en het technische artikel [Het semantische BI-model in tabelvorm beveiligen](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx).
 
 ![Beveiligingsfilter toepassen](media/service-admin-rls/rls-apply-security-filter.png)
 

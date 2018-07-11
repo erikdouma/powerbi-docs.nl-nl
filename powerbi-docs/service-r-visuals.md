@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fd4198bb6b826f8d4af22e83e313c4c0b8101024
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 016237c95d3494435931e143ff34dbe4a82abb55
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34299304"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599652"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>R-visuals maken in de Power BI-service
 De Power BI-service ondersteunt de weergave van en de interactie met visuele elementen die zijn gemaakt met R-scripts. Visuele elementen die zijn gemaakt met R-scripts, vaak *R-visuals* genoemd, kunnen geavanceerde vormgeving en analyses van gegevens bieden, zoals prognoses. Hiervoor wordt gebruikgemaakt van de krachtige analysemogelijkheden en visualisatievoorzieningen van R.
@@ -37,7 +37,7 @@ Wanneer het rapport is gemaakt in **Power BI Desktop**, kunt u het rapport met d
 
 Houd er rekening mee dat in de service niet alle R-pakketten worden ondersteund. Aan het einde van dit artikel vindt u een lijst met pakketten die momenteel worden ondersteund in de Power BI-service.
 
-U kunt dit [voorbeeldbestand voor Power BI Desktop](http://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample SL.pbix) (PBIX-bestand) downloaden om te experimenteren met enkele R-visuals en te zien hoe dit werkt.
+U kunt dit [voorbeeldbestand voor Power BI Desktop](http://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample%20SL.pbix) (PBIX-bestand) downloaden om te experimenteren met enkele R-visuals en te zien hoe dit werkt.
 
 R-visuals die zijn gemaakt in **Power BI Desktop** en vervolgens naar de Power BI-service zijn gepubliceerd, gedragen zich voor het overgrote deel als elk ander visueel element in de Power BI-service. Dit wil zeggen dat u interactie met de elementen kunt hebben, ze kunt filteren, segmenteren en vastmaken aan een dashboard of delen met anderen. Lees dit artikel over [het delen van een dashboard met collega's en anderen](service-share-dashboards.md) voor meer informatie over het delen van dashboards en visuele elementen. Een verschil met andere visuele elementen is dat R-visuals geen knopinfo kunnen weergeven en niet kunnen worden gebruikt voor het filteren van andere visuele elementen.
 

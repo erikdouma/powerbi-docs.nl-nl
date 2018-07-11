@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 606ef1f1c69643852a94a7d83ece93cca8940e7a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 175852a05c4964e6a476abf50684d9ffc12c4468
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34309918"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599864"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Aan de slag met Power BI Desktop
 Welkom bij de **handleiding voor Power BI Desktop**. Deze korte inleiding van Power BI Desktop is bedoeld om u te laten zien hoe het programma het werkt en wat het kan doen, en helpt u sneller robuuste gegevensmodellen en handige rapporten te maken die uw business intelligence verbeteren. 
@@ -313,7 +313,7 @@ De **Power BI**-service geeft de eerste pagina van het rapport weer. Langs de on
 
 U kunt wijzigingen aanbrengen in een rapport in de **Power BI**-service door bovenaan het rapportcanvas **Rapport bewerken** te selecteren.
 
-Selecteer **Bestand \> Opslaan als** in de service om het rapport op te slaan. U kunt allerlei interessante visuals maken in de **Power BI**-service vanuit uw rapport, die u aan een *dashboard* kunt vastmaken. Als u meer informatie wilt over dashboards in de **Power BI**-service**[, bekijkt u Tips voor het ontwerpen van een geweldig dashboard](service-dashboards-design-tips.md)**.
+Selecteer **Bestand \> Opslaan als** in de service om het rapport op te slaan. U kunt allerlei interessante visuals maken in de **Power BI**-service vanuit uw rapport, die u aan een *dashboard* kunt vastmaken. Als u meer informatie wilt over dashboards in de **Power BI**-service<strong>[, bekijkt u Tips voor het ontwerpen van een geweldig dashboard](service-dashboards-design-tips.md)</strong>.
 
  ![](media/desktop-getting-started/gsg_share5.png)
 

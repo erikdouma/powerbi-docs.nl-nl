@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 293c8af5b7c6a544b08a5f7b3dc0be7dd576f7ec
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2c52dd30a2b0dc911adbf706ec5007bb553f2717
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34245702"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092294"
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>Een gegevensset vernieuwen die is opgeslagen in OneDrive of SharePoint Online
 Door bestanden van OneDrive of SharePoint Online te importeren in de Power BI-service, zorgt u ervoor dat uw werk in **Power BI Desktop** gesynchroniseerd blijft met de Power BI-service.
@@ -49,7 +49,7 @@ In Power BI worden Nu vernieuwen en Vernieuwen plannen ondersteund voor gegevens
 ## <a name="onedrive-or-onedrive-for-business-whats-the-difference"></a>OneDrive of OneDrive voor Bedrijven. Wat is het verschil?
 Als u zowel een persoonlijk OneDrive-account als een OneDrive voor Bedrijven-account hebt, kunt u het beste alle bestanden die u wilt importeren in Power BI bewaren in OneDrive voor Bedrijven. Waarom? Omdat u waarschijnlijk twee verschillende accounts gebruikt om u aan te melden.
 
-Verbinding maken met OneDrive voor Bedrijven verloopt vaak zonder problemen in Power BI omdat het account waarmee u zich aanmeldt bij Power BI meestal hetzelfde account is als het account waarmee u zich aanmeldt bij OneDrive voor Bedrijven. Bij het persoonlijke OneDrive-account meldt u zich echter waarschijnlijk met een ander [Microsoft-account](http://www.microsoft.com/account/default.aspx) aan.
+Verbinding maken met OneDrive voor Bedrijven verloopt vaak zonder problemen in Power BI omdat het account waarmee u zich aanmeldt bij Power BI meestal hetzelfde account is als het account waarmee u zich aanmeldt bij OneDrive voor Bedrijven. Bij het persoonlijke OneDrive-account meldt u zich echter waarschijnlijk met een ander [Microsoft-account](https://account.microsoft.com) aan.
 
 Zorg, wanneer u zich aanmeldt met uw Microsoft-account, dat u Aangemeld blijven selecteert. In dat geval kunnen alle wijzigingen die u aanbrengt in het bestand in Power BI Desktop worden gesynchroniseerd met gegevenssets in Power BI  
     ![](media/refresh-desktop-file-onedrive/refresh_signin_keepmesignedin.png)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 35171c5b1d61b9df860b72ee98d8fb63a875092d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f4ee0f114e6d905f202505f71b194a5b56fd6397
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286377"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137348"
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Queryoverzicht in Power BI Desktop
 Met **Power BI Desktop** kunt u verbinding maken met de wereld van gegevens, overtuigende en gefundeerde rapporten maken en uw resultaten delen met anderen, die verder kunnen bouwen op uw werk en hun business intelligence-activiteiten kunnen uitbreiden.
@@ -137,8 +137,8 @@ Om uw werk op te slaan, kiest u **Bestand \> Opslaan** (of **Bestand \> Opslaan 
 ## <a name="next-steps"></a>Volgende stappen
 U kunt allerlei handelingen uitvoeren met Power BI Desktop. Bekijk de volgende bronnen voor meer informatie over de vele mogelijkheden:
 
-* [Aan de slag met Power BI Desktop](desktop-getting-started.md)
-* [Gegevensbronnen in Power BI Desktop](desktop-data-sources.md)
+* [Wat is Power BI Desktop?](desktop-what-is-desktop.md)
+* [Data Sources in Power BI Desktop](desktop-data-sources.md) (Gegevensbronnen in Power BI Desktop)
 * [Connect to Data in Power BI Desktop](desktop-connect-to-data.md) (Verbinding maken met gegevens in Power BI Desktop)
 * [Shape and Combine Data with Power BI Desktop](desktop-shape-and-combine-data.md) (Gegevens vormgeven en combineren met Power BI Desktop)
 * [Common Query Tasks in Power BI Desktop](desktop-common-query-tasks.md) (Algemene querytaken in Power BI Desktop)   

@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
 ms.author: maghan
-ms.openlocfilehash: 96b29c9dc6c384b663ef375d4968dedb011bd05d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1cc19d1ceefb95e0cb56e2a5dcbcc89609f654d5
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813107"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598544"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Gegevens naar een Power BI-gegevensset pushen
 Met de Power BI API kunt u gegevens pushen naar een Power BI-gegevensset. Stel, u wilt een bestaande zakelijke werkstroom uitbreiden om belangrijke gegevens naar uw gegevensset te pushen. In dit geval wilt u de gegevensset Sales Marketing, die de tabel Product bevat, pushen naar een gegevensset.
@@ -98,6 +98,7 @@ Voor de voorbeeldgegevensset Sales Marketing moet u dus een JSON-tekenreeks door
 Voor een Power BI-tabelschema kunt u de volgende gegevenstypen gebruiken.
 
 ## <a name="power-bi-table-data-types"></a>Gegevenstypen voor Power BI-tabellen
+
 | **Gegevenstype** | **Beperkingen** |
 | --- | --- |
 | Int64 |Int64.MaxValue en Int64.MinValue zijn niet toegestaan. |

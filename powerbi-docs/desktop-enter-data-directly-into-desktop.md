@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 51889b066095f7f69782bc72556d816007e1574a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 3a1a458ab263eb1e03c565e7a47679994afda82e
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291092"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136129"
 ---
 # <a name="enter-data-directly-into-power-bi-desktop"></a>Rechtstreeks gegevens in Power BI Desktop invoeren
 Met Power BI Desktop kunt u gegevens rechtstreeks invoeren en die gegevens gebruiken in uw rapporten en visualisaties. U kunt bijvoorbeeld delen van een werkmap of webpagina kopiëren en vervolgens in Power BI Desktop plakken.
@@ -41,7 +41,7 @@ U kunt de gegevens in Power BI Desktop nu gebruiken om visuele elementen of rapp
 ### <a name="next-steps"></a>Volgende stappen
 Met Power BI Desktop kunt u verbinding maken met allerlei andere gegevens. Bekijk de volgende bronnen voor meer informatie over gegevensbronnen:
 
-* [Getting Started with Power BI Desktop](desktop-getting-started.md) (Aan de slag met Power BI Desktop)
+* [Wat is Power BI Desktop?](desktop-what-is-desktop.md)
 * [Data Sources in Power BI Desktop](desktop-data-sources.md) (Gegevensbronnen in Power BI Desktop)
 * [Shape and Combine Data with Power BI Desktop](desktop-shape-and-combine-data.md) (Gegevens vormgeven en combineren met Power BI Desktop)
 * [Connect to Excel workbooks in Power BI Desktop](desktop-connect-excel.md) (Verbinding maken met Excel-werkmappen in Power BI Desktop)   

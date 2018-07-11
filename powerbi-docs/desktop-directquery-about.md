@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 472be555bb4c46da41eb762c1eeae14ef991e742
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: ed9ab95aace7ab1ff0774732241bdd4a7fffcb15
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290862"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600984"
 ---
 # <a name="using-directquery-in-power-bi"></a>DirectQuery gebruiken in Power BI
 U kunt verbinding maken met allerlei verschillende gegevensbronnen wanneer u **Power BI Desktop** of de **Power BI-service** gebruikt, en u kunt deze verbindingen op verschillende manieren tot stand brengen. U kunt gegevens *importeren* in Power BI, wat de meest voorkomende manier is om gegevens te verkrijgen, of u kunt rechtstreeks verbinding maken met gegevens in de oorspronkelijke opslagplaats, wat **DirectQuery** wordt genoemd. In dit artikel vindt u informatie over **DirectQuery**, met speciale aandacht voor de volgende onderwerpen:
@@ -152,7 +152,7 @@ Wanneer u **DirectQuery** gebruikt, zijn er nog steeds mogelijkheden om het mode
     
     De reden hiervoor is dat een dergelijke meting tot slechte prestaties kan leiden als er sprake is van een zeer groot aantal artikelen.
 * **Berekende tabellen worden niet ondersteund.** De mogelijkheid om een berekende tabel te definiëren met behulp van een DAX-expressie wordt niet ondersteund in de DirectQuery-modus.
-* **Filteren van relatie werkt maar in één richting.** Bij gebruik van DirectQuery is het niet mogelijk om Kruisfilterrichting voor een relatie in te stellen op Beide. Voor de drie onderstaande tabellen is het bijvoorbeeld niet mogelijk om een visualisatie te maken met daarin uitgesplitst voor alle mannelijke en vrouwelijke klanten (Customer[Gender]) het aantal artikelen dat ze per categorie hebben gekocht (Product[Category]). Het gebruik van dergelijke bidirectionele filters wordt beschreven [in dit gedetailleerde technisch document](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional cross-filtering in Analysis Services 2016 and Power BI.docx). Het document bevat weliswaar voorbeelden in de context van SQL Server Analysis Services, maar de fundamentele punten gelden ook voor Power BI.
+* **Filteren van relatie werkt maar in één richting.** Bij gebruik van DirectQuery is het niet mogelijk om Kruisfilterrichting voor een relatie in te stellen op Beide. Voor de drie onderstaande tabellen is het bijvoorbeeld niet mogelijk om een visualisatie te maken met daarin uitgesplitst voor alle mannelijke en vrouwelijke klanten (Customer[Gender]) het aantal artikelen dat ze per categorie hebben gekocht (Product[Category]). Het gebruik van dergelijke bidirectionele filters wordt beschreven [in dit gedetailleerde technisch document](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx). Het document bevat weliswaar voorbeelden in de context van SQL Server Analysis Services, maar de fundamentele punten gelden ook voor Power BI.
   
   ![](media/desktop-directquery-about/directquery-about_01.png)
   

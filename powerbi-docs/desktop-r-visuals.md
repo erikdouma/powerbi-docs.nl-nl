@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 641a4f457782711902ee7e2414cb9afffb391afc
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 32b21e23a6cc4a5e6d9ae4915ddc56f9f9957d14
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286331"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599638"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>Power BI-visuals maken met R
 In combinatie met **Power BI Desktop** kunt u **R** gebruiken om uw gegevens te visualiseren.
@@ -81,9 +81,9 @@ Nadat u uw R-installatie hebt opgegeven, bent u klaar om R-visuals te gaan maken
    * Wanneer u **Uitvoeren** selecteert in de titelbalk van **R-scripteditor**
    * Wanneer een gegevenswijziging plaatsvindt, als gevolg van het vernieuwen, filteren of markeren van gegevens
 
-    In de volgende afbeelding ziet u een voorbeeld van de plotcode van de correlatie en wordt de correlatie tussen kenmerken van verschillende typen auto's weergegeven.
+     In de volgende afbeelding ziet u een voorbeeld van de plotcode van de correlatie en wordt de correlatie tussen kenmerken van verschillende typen auto's weergegeven.
 
-    ![](media/desktop-r-visuals/r-visuals-6.png)
+     ![](media/desktop-r-visuals/r-visuals-6.png)
 
 5. Als u een grotere weergave van de visualisaties wilt, minimaliseert u de **R-scripteditor**. En net zoals andere visuals in **Power BI Desktop** kunt u de correlatieplot kruislings filteren door alleen sportauto's in de ringgrafiek (de ronde visual aan de rechterkant, zoals weergegeven in het bovenstaande voorbeeld) te selecteren.
 

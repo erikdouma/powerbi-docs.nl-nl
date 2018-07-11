@@ -1,4 +1,5 @@
 ### <a name="on-premises-data-gateway"></a>On-premises gegevensgateway
+
 | **Gegevensbron** |
 | --- |
 | Analysis Services tabellair |

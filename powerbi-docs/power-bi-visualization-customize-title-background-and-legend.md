@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d65281539bcc27ce24971a6da0945908ba65e754
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1a39b347a68cb5557ffff7758efbfba86884b5ce
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297096"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598996"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>Titels, legenda's en achtergronden van visualisaties aanpassen
 In deze zelfstudie leert u een aantal verschillende manieren kennen om uw visualisaties aan te passen.   Er zijn heel veel opties voor het aanpassen van uw visualisaties. De beste manier om ze te leren kennen is door het deelvenster Opmaak te verkennen (selecteer de verfroller).  Dit artikel helpt u op weg door te laten zien hoe u de titel, legenda en achtergrond van een visualisatie kunt aanpassen.  
@@ -41,26 +41,26 @@ Als u mee wilt doen, meld u zich aan bij de Power BI-service (app.powerbi.com) e
 
 1. Navigeer naar de pagina ‘New Stores’ (Nieuwe winkels) van het rapport en selecteer het kolomdiagram ‘Open Store Count by Open Month...’ (Aantal geopende winkels per openingsmaand...).
 2. Selecteer het verfrollerpictogram in het deelvenster Visualisaties om de opmaakopties zichtbaar te maken.  en selecteer **Titel** om die sectie uit te vouwen.  
-   
+
    ![](media/power-bi-visualization-customize-title-background-and-legend/power-bi-formatting-menu.png)
 3. Schakel **Titel** in of uit door de schuifknop Aan (of Uit) te selecteren. Laat deze voorlopig **Aan** staan.  
-   
+
    ![](media/power-bi-visualization-customize-title-background-and-legend/onoffslider.png)
 4. Wijziging de **Titeltekst** door in het tekstveld **Aantal geopende winkels per openingsmaand** te typen.  
 5. Wijzig de **Tekstkleur** in oranje en de **Achtergrondkleur** in geel.
-   
+
    * Selecteer de vervolgkeuzelijst en kies een kleur uit de **Themakleuren**, **Recente kleuren**, of **Aangepaste kleur**.
    * Selecteer de vervolgkeuzelijst om het kleurvenster te sluiten.  
      ![](media/power-bi-visualization-customize-title-background-and-legend/customizecolorpicker.png)
-   
+
    U kunt altijd de standaardkleuren weer instellen door **Terugkeren naar standaardinstelling** te selecteren in het kleurvenster.
 6. Vergroot de tekengrootte naar 12.
 7. De laatste aanpassing van de grafiektitel die we doen is het uitlijnen ervan op het midden van de visualisatie. De standaardpositie van de titel is links uitgelijnd.  
    ![](media/power-bi-visualization-customize-title-background-and-legend/customizealign.png)
-   
+
     Op dit punt in de zelfstudie zou de **titel** van uw kolomdiagram er ongeveer als volgt uit moeten zien:  
     ![](media/power-bi-visualization-customize-title-background-and-legend/tutorialprogress1.png)
-   
+
     Als u alle titelaanpassingen die we tot nu toe hebben gedaan wilt terugdraaien, selecteert u **Terugkeren naar standaardinstelling** onderaan het deelvenster **Titel**.  
     ![](media/power-bi-visualization-customize-title-background-and-legend/revertall.png)
 
@@ -69,29 +69,30 @@ Vouw de Achtergrond-opties uit met hetzelfde kolomdiagram geselecteerd.
 
 1. Schakel de achtergrond in of uit door de schuifknop Aan (of Uit) te selecteren. Laat deze voorlopig **Aan** staan.
 2. Wijzig de achtergrondkleur in 74% grijs.
-   
+
    * Selecteer de vervolgkeuzelijst en kies een grijze kleur uit de **Themakleuren**, **Recente kleuren**, of **Aangepaste kleur**.
    * Wijzig de Transparantie in 74%.   
      ![](media/power-bi-visualization-customize-title-background-and-legend/power-bi-customize-background.png)
-   
+
    Als u alle achtergrondaanpassingen die we tot nu toe hebben gedaan wilt terugdraaien, selecteert u **Terugkeren naar standaardinstelling** onderaan het deelvenster **Achtergrond**.
 
 ## <a name="customize-visualization-legends"></a>Visualisatielegenda aanpassen
 1. Open de rapportpagina **Overzicht** en selecteer de grafiek ‘Total Sales Variance by FiscalMonth and District Manager’ (Totale verkoopverschillen per boekmaand en districtsmanager).
 2. Selecteer op het tabblad Visualisatie het verfkwastpictogram om het opmaakdeelvenster te openen.  
 3. Vouw de **Legenda**opties uit.
-   
+
       ![](media/power-bi-visualization-customize-title-background-and-legend/legend.png)
 4. Schakel de legenda in of uit door de schuifknop Aan (of Uit) te selecteren. Laat deze voorlopig **Aan** staan.
 5. Verplaats de legenda naar de linkerkant van de visualisatie.    
 6. Voeg een legendatitel in door de wisselknop **Titel** op **Aan** te zetten en in het veld **Legendanaam** de tekst **Managers** te typen.
    ![](media/power-bi-visualization-customize-title-background-and-legend/legend-move.png)
-   
+
    Als u alle legenda-aanpassingen die we tot nu toe hebben gedaan wilt terugdraaien, selecteert u **Terugkeren naar standaardinstelling** onderaan het deelvenster **Legenda**.
 
 <a name="list"></a>
 
 ## <a name="visualization-types-that-can-be-customized"></a>Visualisatietypen die kunnen worden aangepast
+
 | Visualisatie | Titel | Achtergrond | Legenda |
 |:--- |:--- |:--- |:--- |
 | gebied |ja |ja |ja |
