@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: b479c46ffe3e51ad5f15cc9884a2ea02626a4cc5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244625"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38876877"
 ---
 # <a name="connect-to-google-analytics-with-power-bi"></a>Verbinding maken met Google Analytics via Power BI
 U maakt verbinding met Google Analytics via Power BI door eerst verbinding te maken met uw Google Analytics-account. U ziet een Power BI-dashboard en een set Power BI-rapporten die inzicht geven in het verkeer van uw site en de gebruikersgegevens. U kunt met het dashboard en de rapporten werken, maar u kunt wijzigingen niet opslaan. De gegevens wordt eenmaal per dag automatisch vernieuwd.

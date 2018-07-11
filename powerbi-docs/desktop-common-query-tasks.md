@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 44756e45a6f9944f9d52afa98709b1a3f7b5b6e1
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: fde23a47bb0f4034e213a652d60241ff625921d3
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137486"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38877326"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Algemene querytaken in Power BI Desktop
 Wanneer u werkt in het venster **Query-editor** van Power BI Desktop, beschikt u over een aantal veelgebruikte taken. In dit document worden die taken gedemonstreerd en ziet u koppelingen voor meer informatie. 
@@ -38,7 +38,7 @@ De eerste gegevensverbinding is een Excel-werkmap. De andere is een webbron (die
 De stappen om met beide gegevensbronnen verbinding te maken, vormen het begin van de algemene querytaken.
 
 ## <a name="connect-to-data"></a>Verbinding maken met gegevens
-U maakt verbinding met gegevens in Power BI Desktop door de knop **Gegevens ophalen** te selecteren op het tabblad **Start** op het lint. Power BI Desktop geeft een menu met de meest voorkomende gegevensbronnen weer. Voor een volledige lijst met gegevensbronnen waarmee Power BI Desktop verbinding kan maken, selecteert u de knop **Meer...**  onderaan het menu. Zie [Data Sources in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-data-sources) (Gegevensbronnen in Power BI Desktop) voor meer informatie.
+U maakt verbinding met gegevens in Power BI Desktop door de knop **Gegevens ophalen** te selecteren op het tabblad **Start** op het lint. Power BI Desktop geeft een menu met de meest voorkomende gegevensbronnen weer. Voor een volledige lijst met gegevensbronnen waarmee Power BI Desktop verbinding kan maken, selecteert u de knop **Meer...**  onderaan het menu. Zie [Data Sources in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-data-sources) (Gegevensbronnen in Power BI Desktop) voor meer informatie.
 
 ![](media/desktop-common-query-tasks/commonquerytasks_getdata.png)
 
@@ -60,10 +60,10 @@ Selecteer **OK** en net als voorheen inspecteert Power BI Desktop de werkmap en 
 
 Andere gegevensverbindingen lijken daar op. Als verificatie vereist is voor het maken van een gegevensverbinding, vraagt Power BI Desktop u de juiste referenties op te geven.
 
-Zie [Connect to Data in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-connect-to-data) (Verbinding maken met gegevens in Power BI Desktop) voor een stapsgewijze demonstratie over het verbinding maken met gegevens in Power BI Desktop.
+Zie [Connect to Data in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-connect-to-data) (Verbinding maken met gegevens in Power BI Desktop) voor een stapsgewijze demonstratie over het verbinding maken met gegevens in Power BI Desktop.
 
 ## <a name="shape-and-combine-data"></a>Gegevens vormgeven en combineren
-U kunt gegevens eenvoudig vormgeven en combineren met de Query-editor. Deze sectie bevat enkele voorbeelden van de manieren waarop u gegevens kunt vormgeven. Zie **[Gegevens vormgeven en combineren met Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-shape-and-combine-data)** voor een volledigere demonstratie van hoe men gegevens kan vormgeven en combineren.
+U kunt gegevens eenvoudig vormgeven en combineren met de Query-editor. Deze sectie bevat enkele voorbeelden van de manieren waarop u gegevens kunt vormgeven. Zie **[Gegevens vormgeven en combineren met Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data)** voor een volledigere demonstratie van hoe men gegevens kan vormgeven en combineren.
 
 In de vorige sectie hebben we verbinding gemaakt met twee gegevenssets: een Excel-werkmap en een webbron. Nadat de sets in de Query-editor zijn geladen, is het volgende te zien, met de query van de webpagina geselecteerd (overgenomen uit de lijst met de beschikbare query's zoals weergegeven in het deelvenster **Query's** aan de linkerkant van het venster van de Query-editor).
 

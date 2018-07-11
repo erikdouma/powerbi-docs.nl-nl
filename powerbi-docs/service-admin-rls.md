@@ -11,11 +11,11 @@ ms.date: 01/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 89ffa4c644005b53c263bef4535628dd603f1f6d
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599841"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38924650"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Beveiliging op rijniveau (RLS) met Power BI
 Beveiliging op rijniveau (RLS) kan in Power BI worden gebruikt om de toegang tot gegevens voor bepaalde gebruikers te beperken. Filters beperken gegevens op rijniveau. U kunt filters definiëren in rollen.

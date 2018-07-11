@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: e8e9b21e62f0a91234fccf78977a696e321ed8dc
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34251616"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38924530"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>Verbinding maken met Adobe Analytics via Power BI
 Wanneer u verbinding wilt maken met Adobe Analytics via Power BI, kunt u beginnen door eerst verbinding te maken met uw Adobe Analytics Marketing Cloud-account. U krijgt een app met een Power BI-dashboard en een set Power BI-rapporten die inzicht geven in het verkeer van uw site en de gebruikersgegevens. De gegevens worden eenmaal per dag automatisch vernieuwd. U kunt met het dashboard en de rapporten werken, maar u kunt wijzigingen niet opslaan.

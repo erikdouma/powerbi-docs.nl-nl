@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/31/2018
 ms.author: maghan
-ms.openlocfilehash: f4aac424d448dcb3e2dd722efe54db99d318ba80
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: aa51d516e903908fb2b0121f9bbed41d54f5e670
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599479"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38924996"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Een Azure AD-app registreren om Power BI-inhoud in te sluiten
 Informatie over het registreren van een toepassing in Azure Active Directory (Azure AD) voor gebruik met ingesloten Power BI-inhoud.
@@ -23,7 +23,6 @@ U kunt uw toepassing registreren bij Azure AD zodat uw toepassing toegang heeft 
 
 > [!IMPORTANT]
 > Voordat u een Power BI-app registreert, hebt u een [Azure Active Directory-tenant en een organisatiegebruiker](create-an-azure-active-directory-tenant.md) nodig. Als u zich nog niet hebt geregistreerd voor Power BI met een gebruiker in uw tenant, wordt de registratie van de app niet voltooid.
-> 
 > 
 
 Er zijn twee manieren om uw toepassing te registreren. De eerste is met het [Power BI App-hulpprogramma voor registratie](https://dev.powerbi.com/apps/). U kunt dit ook rechtstreeks doen in Azure Portal. Het Power BI App-hulpprogramma voor registratie is de eenvoudigste optie, omdat u slechts enkele velden hoeft in te vullen. Gebruik Azure Portal als u wijzigingen wilt aanbrengen in uw app.
@@ -45,7 +44,7 @@ Ga als volgt te werk om uw toepassing te registreren met het Power BI App-hulppr
    
     De **URL van startpagina** is alleen beschikbaar als u kiest voor een **web-app aan de serverzijde** voor het type toepassing.
    
-    Voor de voorbeelden voor *insluiting voor uw klanten* en *integrate-dashboard-web-app* is de omleidings-URL `http://localhost:13526/redirect`. Voor het rapport- en tegelvoorbeeld is de omleidings-URL `http://localhost:13526/`.
+    Voor de voorbeelden voor *insluiting voor uw klanten* en *integrate-dashboard-web-app* is de **omleidings-URL** `http://localhost:13526/Redirect`. Voor het rapport- en tegelvoorbeeld is de **omleidings-URL** `http://localhost:13526/`.
 6. Kies de API's voor de toepassing die toegang heeft. Zie [Power BI-machtigingen](power-bi-permissions.md) voor meer informatie over Power BI-toegangsmachtigingen.
    
     ![](media/register-app/app-registration-apis.png)
@@ -83,7 +82,7 @@ Uw andere optie voor het registreren van uw toepassing is dit rechtstreeks in Az
 5. Volg de aanwijzingen en maak een nieuwe toepassing.
    
    * Voor webtoepassingen geeft u de aanmeldings-URL op, die de basis-URL van uw app vormt waar gebruikers zich kunnen aanmelden, bijvoorbeeld `http://localhost:13526`.
-   * Voor systeemeigen toepassingen geeft u een omleidings-URI op, die Azure AD gebruikt om tokenantwoorden te retourneren. Voer een specifieke waarde in voor uw toepassing, bijvoorbeeld `http://myapplication/redirect`
+   * Voor systeemeigen toepassingen geeft u een **omleidings-URI** op, die Azure AD gebruikt om tokenantwoorden te retourneren. Voer een specifieke waarde in voor uw toepassing, bijvoorbeeld `http://myapplication/Redirect`
 
 Zie voor meer informatie over het registreren van toepassingen bij Azure Active Directory het onderwerp [Toepassingen integreren met Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
 

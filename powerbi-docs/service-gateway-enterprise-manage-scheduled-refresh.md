@@ -11,11 +11,11 @@ ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: 17c608b017123b5ae7111ef6d97703cdbc30940d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297326"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38937322"
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>Gegevensbron beheren - importeren/geplande vernieuwing
 Nadat u de on-premises gegevensgateway hebt geïnstalleerd, moet u gegevensbronnen toevoegen die met de gateway kunnen worden gebruikt. In dit artikel wordt beschreven hoe u werkt met gateways en gegevensbronnen die worden gebruikt voor geplande vernieuwing in plaats van DirectQuery of liveverbindingen.
