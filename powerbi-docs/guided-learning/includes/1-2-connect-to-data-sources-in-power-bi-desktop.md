@@ -6,7 +6,7 @@ Wanneer u **Power BI Desktop** start en doorgaat op het scherm Start, kunt u Geg
 
 Er zijn maandelijkse updates voor Power BI Desktop en bij elke update wordt de pagina **Wat is er nieuw** bijgewerkt met informatie over de updates, koppelingen naar de blog en een downloadkoppeling.
 
-In Power BI Desktop zijn allerlei verschillende gegevensbronnen beschikbaar. Selecteer een bron om een verbinding tot stand te brengen. Afhankelijk van uw selectie wordt u gevraagd de bron op uw computer of in het netwerk te zoeken of moet u zich aanmelden voor een service voor verificatie van uw aanvraag.
+In Power BI Desktop zijn allerlei verschillende gegevensbronnen beschikbaar. Selecteer een bron om een verbinding tot stand te brengen. Afhankelijk van uw selectie wordt u gevraagd de bron op uw computer of in het netwerk te zoeken of moet u zich aanmelden bij een service voor verificatie van uw aanvraag.
 
 ![](media/1-2-connect-to-data-sources-in-power-bi-desktop/1-2_2.gif)
 

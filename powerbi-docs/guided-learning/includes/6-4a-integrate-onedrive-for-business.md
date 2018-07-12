@@ -4,7 +4,7 @@ Met OneDrive voor bedrijven als bron voor uw inhoud in Power BI beschikt u over 
 
 ![](media/6-4a-integrate-onedrive-for-business/6-4a_1.png)
 
-Als u verbinding wilt maken met een PBIX-bestand (Power BI Desktop) in OneDrive voor Bedrijven meldt u zich aan bij de Power BI-service en selecteert u **Gegevens ophalen**. Kies **Bestanden** onder Importeren of Verbinding maken met gegevens en selecteer vervolgens **OneDrive - Bedrijven**. Markeer het gewenste bestand en selecteer **Verbinding maken**.
+Als u verbinding wilt maken met een PBIX-bestand (Power BI Desktop) in OneDrive voor Bedrijven, meldt u zich aan bij de Power BI-service en selecteert u **Gegevens ophalen**. Kies **Bestanden** onder Importeren of Verbinding maken met gegevens en selecteer vervolgens **OneDrive - Bedrijven**. Markeer het gewenste bestand en selecteer **Verbinding maken**.
 
 ![](media/6-4a-integrate-onedrive-for-business/6-4a_2.png)
 

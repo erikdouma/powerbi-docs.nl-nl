@@ -1,6 +1,6 @@
 Als u uw gegevens wilt bijhouden terwijl u onderweg bent, kunt u een Power BI - Mobiel-toepassing gebruiken voor iOS-, Android- en Windows-apparaten.
 
-Wanneer u de Power BI-app gebruikt, meldt u zich eerst aan bij uw account met uw accountgegevens voor de Power BI-service. Op een mobiel Windows-apparaat (in dit geval een tablet) ziet het aanmeldsymbool er als volgt uit.
+Als u de Power BI-app gebruikt, meldt u zich eerst aan bij uw account met uw accountgegevens voor de Power BI-service. Op een mobiel Windows-apparaat (in dit geval een tablet) ziet het aanmeldsymbool er als volgt uit.
 
 ![](media/4-4a-power-bi-mobile/4-4a_1.png)
 
