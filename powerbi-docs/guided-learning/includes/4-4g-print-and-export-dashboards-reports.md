@@ -1,4 +1,4 @@
-Het kan zijn dat u een afgedrukt rapport of afgedrukte dashboard wilt overbrengen naar een vergadering, zodat u deze met anderen kunt delen. Met Power BI zijn er een paar manieren om afdrukken van uw visualisaties te maken.
+Het kan zijn dat u een afgedrukt rapport of afgedrukte dashboard wilt overbrengen naar een vergadering, zodat u deze met anderen kunt delen. U kunt met Power BI op verschillende manieren afdrukken van uw visuals maken.
 
 Selecteer in de Power BI-service het weglatingsteken (drie puntjes) rechtsboven in de service en selecteer vervolgens **Dashboard afdrukken**.
 
