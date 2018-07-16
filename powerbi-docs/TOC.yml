@@ -896,8 +896,10 @@
           href: developer/what-can-you-do.md
     - name: Zelfstudies
       items:
-        - name: Inhoud insluiten voor klanten
+        - name: Inhoud insluiten voor uw klanten
           href: developer/embed-sample-for-customers.md
+        - name: Inhoud insluiten voor uw organisatie
+          href: developer/embed-sample-for-your-organization.md
     - name: Concepten
       items:
         - name: Werken met REST-API's van Power BI
@@ -934,12 +936,8 @@
               href: developer/embedding.md
             - name: Uw inhoud insluiten
               href: developer/embedding-content.md
-            - name: Een dashboard in een app integreren (gebruiker is eigenaar van de gegevens)
-              href: developer/integrate-dashboard.md
-            - name: Een Power BI-tegel in een app integreren (gebruiker is eigenaar van de gegevens)
-              href: developer/integrate-tile.md
-            - name: Een Power BI-rapport in een app integreren (gebruiker is eigenaar van de gegevens)
-              href: developer/integrate-report.md
+            - name: Insluiten vanuit een app
+              href: developer/embed-from-apps.md
             - name: Inhoud integreren in uw toepassing voor onafhankelijke clouds (app is eigenaar van de gegevens)
               href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: Aangepaste indelingen insluiten in een app
