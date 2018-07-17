@@ -3,13 +3,17 @@
 1. Items binnen een Premium-capaciteit
    
    * Voor de toegang tot app-werkruimten (als leden of beheerders) en het publiceren van apps is Power BI Pro-licentie vereist.
-   * App-lezers kunnen zowel gebruikers van Power BI Pro of de gratis versie Power BI zijn.
-   * Voor delen is een Power BI Pro-licentie nodig, maar de geadresseerden kunnen zowel gebruikers van Power BI Pro als gebruikers van de gratis versie zijn.
-   * Afhankelijk van of dashboardontvangers een Power BI Pro-licentie of gratis licentie hebben, kunnen ze meldingen voor gegevens instellen.
-   * REST-API's voor insluiten maken gebruik van een serviceaccount, met een Power BI Pro-licentie, in plaats van een gebruiker.
+
+   * Voor het delen van een app is een Pro-licentie vereist, voor het gebruik van een app niet.
+
+   * Alle ontvangers van het dashboard kunnen gegevensmeldingen instellen, ongeacht de licentie die aan hen is toegewezen.
+
+   * REST-API's voor insluiten maken gebruik van een serviceaccount met een Pro-licentie, in plaats van een gebruikersaccount.
+
 2. Mijn werkruimte in Gedeelde capaciteit
    
-   * Voor delen is een Pro-licentie vereist. Geadresseerden hebben ook een Pro-licentie nodig.
+   * Er is een Pro-licentie vereist voor zowel het delen als gebruiken van een app.
+
 3. App-werkruimten Gedeelde capaciteit
    
    * Voor het gebruik van de apps is een Pro-licentie vereist.

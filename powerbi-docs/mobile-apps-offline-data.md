@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/16/2018
+ms.date: 06/27/2018
 ms.author: maggies
-ms.openlocfilehash: 5dd171ccd7d8859286abeac2f87771b454421448
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: cade8b126742610814f47587c950458796cca474
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34292841"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136474"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Gegevens offline weergeven in de mobiele Power BI-apps
 Van toepassing op:
@@ -55,7 +55,8 @@ Wanneer u offline bent met Power BI op uw mobiele apparaat, kunnen deze beperkin
 * Power BI kan maximaal 250 MB aan gegevens offline cachen.
 * Sommige tegeltypen vereisen een actieve serververbinding en zijn dus niet offline beschikbaar. Voorbeelden hiervan zijn tegels met Bing-kaarten en verschillende aangepaste tegels.
 * Hele Excel-werkmappen zijn niet offline beschikbaar in Power BI.
-* U kunt mobiele rapporten en KPI's van Reporting Services offline zien, maar alleen als u ze eerder hebt bekeken terwijl er verbinding was. Deze onderdelen worden niet op de achtergrond vernieuwd. Dit gebeurt alleen wanneer u ze opent. 
+* U kunt mobiele rapporten en KPI's van Reporting Services offline zien, maar alleen als u ze eerder hebt bekeken terwijl er verbinding was. Deze onderdelen worden niet op de achtergrond vernieuwd. Dit gebeurt alleen wanneer u ze opent.
+* Power BI Desktop-bestanden (.pbix) die zijn opgeslagen naar Power BI Report Server, zijn niet zichtbaar in de mobiele Power BI-apps. 
 
 ## <a name="next-steps"></a>Volgende stappen
 Op basis van uw feedback kunnen we bepalen wat in de toekomst moet worden geïmplementeerd. Vergeet dus niet op andere functies te stemmen die u graag in de mobiele Power BI-apps zou willen zien. 
@@ -63,5 +64,5 @@ Op basis van uw feedback kunnen we bepalen wat in de toekomst moet worden geïmp
 * [Power BI-apps voor mobiele apparaten](mobile-apps-for-mobile-devices.md)
 * Volg @MSPowerBI op Twitter
 * Deelnemen aan conversaties in de [Power BI-community](http://community.powerbi.com/)
-* [Aan de slag met Power BI](service-get-started.md)
+* [Wat is Power BI?](power-bi-overview.md)
 

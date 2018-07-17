@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 997dd8b598e67d590723c72fb35245c3b3486c8b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: afcaae9499aa1c7e1461030cfa6b5d7b35a47188
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242441"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136014"
 ---
 # <a name="connect-to-zendesk-with-power-bi"></a>Verbinding maken met Zendesk met Power BI
 Het Zendesk-inhoudspakket biedt een Power BI-dashboard en een set Power BI-rapporten die inzicht geven in uw ticketaantallen en agentprestaties. U kunt het dashboard en de rapporten zó gebruiken, of ze aanpassen om de informatie die u het belangrijkst vindt eruit te laten springen.  De gegevens worden eenmaal per dag automatisch vernieuwd. 
@@ -84,6 +84,6 @@ De URL van uw Zendesk is hetzelfde als de URL die u gebruikt bij het aanmelden b
 Als u problemen ondervindt bij het maken van verbinding, controleer dan uw Zendesk-URL en bevestig dat u een Zendesk-beheerdersaccount gebruikt.
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Aan de slag met Power BI](service-get-started.md)
+* [Wat is Power BI?](power-bi-overview.md)
 * [Gegevens ophalen](service-get-data.md)
 

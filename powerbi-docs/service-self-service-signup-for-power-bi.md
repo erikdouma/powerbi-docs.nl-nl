@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 060bebbc79db02d28755cc7832f4a4ef3d2d578f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: abc53080456e27e58d8b9519c9d6543e66142780
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34299488"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926485"
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Registreren voor Power BI als afzonderlijke gebruiker
 Lees hoe u zich registreert voor Power BI en aan de slag kunt met rapporten en visualisaties.
@@ -32,8 +32,7 @@ Als een individu hebt u verschillende mogelijkheden om u te registreren en aan d
 Als u deel uitmaakt van een bestaande organisatie die Office 365 gebruikt, kunt u zich nog steeds registreren voor een gratis account. Uw IT-beheerder heeft ook enkele opties om Power BI Pro te kopen en licenties toe te wijzen. Zie [Purchasing Power BI Pro](service-admin-purchasing-power-bi-pro.md) (Power BI Pro kopen) voor meer informatie over de opties beschikbaar zijn voor een IT-beheerder.
 
 > [!NOTE]
-> Als u deel uitmaakt van een organisatie, is de functie voor afzonderlijke aanmelding mogelijk uitgeschakeld. Zie [Afzonderlijke aanmelding is uitgeschakeld](#individual-sign-up-has-been-turned-off) voor meer informatie als u een foutmelding krijgt dat deze functie is uitgeschakeld.
->
+> Als u deel uitmaakt van een organisatie, is de functie voor afzonderlijke aanmelding mogelijk uitgeschakeld. Als u de foutmelding krijgt dat aanmelding is uitgeschakeld, neemt u contact op met uw IT-afdeling voor meer informatie.
 
 ## <a name="what-you-need-to-sign-up"></a>Wat hebt u nodig om te registreren?
 
@@ -69,16 +68,16 @@ Als u zich wilt registreren voor Power BI, kunt u het volgende doen.
 
 1. Ga naar [powerbi.com](https://powerbi.microsoft.com).
 2. Selecteer **Start Free** of **Sign up free**.
-   
+
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup1.png)
 3. Selecteer op de pagina Getting Started **Try Free >** onder Power BI.
-   
+
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup2.png)
 4. Voer het e-mailadres in waarmee u zich wilt registreren en selecteer vervolgens **Registreren**. Gebruik een e-mailadres dat is toegestaan voor registratie. Zie [Welk e-mailadres kan worden gebruikt met Power BI](#what-email-address-can-be-used-with-power-bi) voor meer informatie over welk e-mailadres u kunt gebruiken.
-   
+
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup3.png)
 5. U krijgt een bericht met het verzoek om uw e-mail te controleren.
-   
+
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup4.png)
 6. Selecteer de koppeling in de e-mail van Office 365 om uw e-mailadres te bevestigen. U gaat nu terug naar het registratieproces. U moet mogelijk nog wat extra informatie over uzelf opgeven.
 7. Vervolgens gaat u naar https://app.powerbi.com en kunt u Power BI gratis gaan gebruiken.
@@ -123,7 +122,7 @@ Daarna kunt u selecteren **Proefversie starten** selecteren.
 > 
 
 ### <a name="what-this-looks-like-within-the-service"></a>Uw account controleren in de service
-Wanneer u zich in de service bevindt, kunt u controleren of u inderdaad een proefabonnement van Pro hebt door eerst het *tandwielpictogram* te selecteren en vervolgens **Persoonlijke opslag beheren**.
+Wanneer u zich in de service bevindt, kunt u controleren of u inderdaad een proefabonnement van Pro hebt door eerst het <strong>tandwielpictogram* te selecteren en vervolgens **Persoonlijke opslag beheren</strong>.
 
 ![](media/service-self-service-signup-for-power-bi/powerbi-pro-trial3.png)
 
@@ -133,11 +132,12 @@ Er is geen manier om als individu een licentie van Power BI Pro te kopen. U moet
 ## <a name="troubleshooting"></a>Problemen oplossen
 In veel gevallen kunt u zich registreren voor Power BI door de bovenstaande stappen van het proces voor selfserviceregistratie uit te voeren. Er zijn echter enkele redenen waarom u de selfserviceregistratie mogelijk niet kunt voltooien.  In de onderstaande tabel ziet u enkele van de meest voorkomende oorzaken voor het niet kunnen registreren en wat u eraan kunt doen.
 
-| **Symptoom/foutbericht** | **Oorzaak en tijdelijke oplossing** |
-| --- | --- |
-| **Persoonlijk e-mailadres (bijvoorbeeld nancy@gmail.com)** U krijgt bij het aanmelden een bericht als het volgende: <br /><br /> *U hebt een persoonlijke e-mailadres ingevoerd. Voer uw zakelijke e-mailadres zodat we uw bedrijfsgegevens veilig kunnen opslaan.* <br /><br /> of <br /><br /> *Dat ziet eruit als een persoonlijke e-mailadres. Voer uw zakelijke e-mailadres in zodat we u kunnen koppelen aan anderen in uw bedrijf. En u hoeft zich geen zorgen te maken. We delen uw adres met niemand.* |Power BI biedt geen ondersteuning voor e-mailadressen die worden geleverd door e-mailservices voor consumenten of door telecomproviders. <br /><br /> U kunt de registratie alsnog proberen te voltooien door gebruik te maken van een e-mailadres dat is toegewezen door uw werk of school. <br /><br /> Als u zich nog steeds niet kunt registreren en u er geen bezwaar tegen hebt om een meer geavanceerde registratie te voltooien, kunt u zich [registreren voor een nieuw proefabonnement op Office 365 en gebruikt u dat e-mailadres voor de registratie](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). <br /><br /> Het gebruikersaccount uitnodigen als een [Azure B2B-gast](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b). |
-| **Selfserviceregistratie uitgeschakeld** U krijgt bij het aanmelden een bericht als het volgende: <br /><br /> *De registratie kan niet worden voltooid. Uw IT-afdeling heeft registratie voor Microsoft Power BI uitgeschakeld. Neem contact met ze op om de registratie te voltooien.* <br /><br /> of <br /><br /> *Dat ziet eruit als een persoonlijke e-mailadres. Voer uw zakelijke e-mailadres in zodat we u kunnen koppelen aan anderen in uw bedrijf. En u hoeft zich geen zorgen te maken. We delen uw adres met niemand.* |De IT-beheerder van uw organisatie heeft registratie via selfservice voor Power BI uitgeschakeld. <br /><br /> Om de registratie alsnog te voltooien, neemt u contact op met uw IT-afdeling en vraagt u of ze via de instructies op de onderstaande pagina bestaande gebruikers toestemming willen geven om zich te registreren voor Power BI en om nieuwe gebruikers toestemming te geven lid te worden van uw bestaande tenant. <br/><br/> Dit probleem kan ook optreden als u zich via een partner hebt geregistreerd voor Office 365. [Meer informatie](service-admin-syndication-partner.md) <br /><br /> [Power BI in uw organisatie](https://support.office.com/en-ca/article/Power-BI-in-your-Organization-d7941332-8aec-4e5e-87e8-92073ce73dc5#BKMK_HowCanIAllowO365Tenant) |
-| **E-mailadres is geen Office 365-id** U krijgt bij de registratie een bericht als het volgende: <br /><br /> *We kunnen u niet vinden op contoso.com.  Gebruikt u een andere id op het werk of school? <br /><br />Probeer u met die id aan te melden en als dat niet lukt, neemt u contact op met uw IT-afdeling.* |Uw organisatie gebruikt id's voor aanmelding bij Office 365 en andere Microsoft-services die verschillen van uw e-mailadres.  Bijvoorbeeld: uw e-mailadres is Nancy.Smith@contoso.com, maar uw id is nancys@contoso.com. <br /><br /> Om de registratie te voltooien, gebruikt u de id die uw organisatie u heeft toegewezen voor aanmelding bij Office 365 of andere Microsoft-services.  Als u die id niet weet, kunt u contact opnemen met uw IT-beheerder. <br /><br /> Als u zich nog steeds niet kunt registreren en u er geen bezwaar tegen hebt om een meer geavanceerde registratie te voltooien, kunt u zich [registreren voor een nieuw proefabonnement op Office 365 en gebruikt u dat e-mailadres voor de registratie](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). |
+
+|                                                                                                                                                                                                                          **Symptoom/foutbericht**                                                                                                                                                                                                                           |                                                                                                                                                                                                                                                                                                                                                **Oorzaak en tijdelijke oplossing**                                                                                                                                                                                                                                                                                                                                                |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <strong>Persoonlijk e-mailadres (bijvoorbeeld nancy@gmail.com)</strong> U krijgt bij het aanmelden een bericht als het volgende: <br /><br /> *U hebt een persoonlijke e-mailadres ingevoerd. Voer uw zakelijke e-mailadres zodat we uw bedrijfsgegevens veilig kunnen opslaan.* <br /><br /> of <br /><br /> *Dat ziet eruit als een persoonlijke e-mailadres. Voer uw zakelijke e-mailadres in zodat we u kunnen koppelen aan anderen in uw bedrijf. En u hoeft zich geen zorgen te maken. We delen uw adres met niemand.* |                          Power BI biedt geen ondersteuning voor e-mailadressen die worden geleverd door e-mailservices voor consumenten of door telecomproviders. <br /><br /> U kunt de registratie alsnog proberen te voltooien door gebruik te maken van een e-mailadres dat is toegewezen door uw werk of school. <br /><br /> Als u zich nog steeds niet kunt registreren en u er geen bezwaar tegen hebt om een meer geavanceerde registratie te voltooien, kunt u zich [registreren voor een nieuw proefabonnement op Office 365 en gebruikt u dat e-mailadres voor de registratie](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). <br /><br /> Het gebruikersaccount uitnodigen als een [Azure B2B-gast](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).                           |
+|            **Selfserviceregistratie uitgeschakeld** U krijgt bij het aanmelden een bericht als het volgende: <br /><br /> *De registratie kan niet worden voltooid. Uw IT-afdeling heeft registratie voor Microsoft Power BI uitgeschakeld. Neem contact met ze op om de registratie te voltooien.* <br /><br /> of <br /><br /> *Dat ziet eruit als een persoonlijke e-mailadres. Voer uw zakelijke e-mailadres in zodat we u kunnen koppelen aan anderen in uw bedrijf. En u hoeft zich geen zorgen te maken. We delen uw adres met niemand.*             |                             De IT-beheerder van uw organisatie heeft registratie via selfservice voor Power BI uitgeschakeld. <br /><br /> Om de registratie alsnog te voltooien, neemt u contact op met uw IT-afdeling en vraagt u of ze via de instructies op de onderstaande pagina bestaande gebruikers toestemming willen geven om zich te registreren voor Power BI en om nieuwe gebruikers toestemming te geven lid te worden van uw bestaande tenant. <br/><br/> Dit probleem kan ook optreden als u zich via een partner hebt geregistreerd voor Office 365. [Meer informatie](service-admin-syndication-partner.md) <br /><br /> [Power BI in uw organisatie](https://support.office.com/en-ca/article/Power-BI-in-your-Organization-d7941332-8aec-4e5e-87e8-92073ce73dc5#BKMK_HowCanIAllowO365Tenant)                              |
+|                                                                                          **E-mailadres is geen Office 365-id** U krijgt bij de registratie een bericht als het volgende: <br /><br /> *We kunnen u niet vinden op contoso.com.  Gebruikt u een andere id op het werk of school? <br /><br />Probeer u met die id aan te melden en als dat niet lukt, neemt u contact op met uw IT-afdeling.*                                                                                           | Uw organisatie gebruikt id's voor aanmelding bij Office 365 en andere Microsoft-services die verschillen van uw e-mailadres.  Bijvoorbeeld: uw e-mailadres is Nancy.Smith@contoso.com, maar uw id is nancys@contoso.com. <br /><br /> Om de registratie te voltooien, gebruikt u de id die uw organisatie u heeft toegewezen voor aanmelding bij Office 365 of andere Microsoft-services.  Als u die id niet weet, kunt u contact opnemen met uw IT-beheerder. <br /><br /> Als u zich nog steeds niet kunt registreren en u er geen bezwaar tegen hebt om een meer geavanceerde registratie te voltooien, kunt u zich [registreren voor een nieuw proefabonnement op Office 365 en gebruikt u dat e-mailadres voor de registratie](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). |
 
 ## <a name="next-steps"></a>Volgende stappen
 [Power BI (free) in your organization](service-admin-service-free-in-your-organization.md) (Power BI (gratis) in uw organisatie)  

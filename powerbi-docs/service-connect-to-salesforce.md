@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e36cff803af74d212f4c1804fe3a955a11c193cf
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: dda983aec42731aa885323749d9302db75066569
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34722446"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136773"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Verbinding met Salesforce maken via Power BI
 Met Power BI kunt u eenvoudig verbinding maken met uw Salesforce.com-account. Door deze verbinding te maken worden uw gegevens opgehaald en wordt er automatische een dashboard met de bijbehorende rapporten op basis van uw gegevens gemaakt.
@@ -82,7 +82,7 @@ Als het bericht Er kan geen verbinding worden gemaakt met de externe server word
 
 
 ## <a name="next-steps"></a>Volgende stappen
-[Aan de slag met Power BI](service-get-started.md)
+[Wat is Power BI?](power-bi-overview.md)
 
 [Gegevens ophalen](service-get-data.md)
 

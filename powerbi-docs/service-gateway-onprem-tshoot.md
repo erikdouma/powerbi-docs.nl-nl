@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/02/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e689e031395130bab8ad80d5d06936a9dabaf852
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a99200707c8fc7de4fea2e32fe83238011bbf46c
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34755065"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926582"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Problemen met de on-premises gegevensgateway oplossen
 In dit artikel worden enkele veelvoorkomende problemen besproken die kunnen optreden tijdens het gebruik van de **on-premises gegevensgateway**.
@@ -31,10 +31,10 @@ In dit artikel worden enkele veelvoorkomende problemen besproken die kunnen optr
 De gateway wordt uitgevoerd als een Windows-service, dus u kunt deze op verschillende manieren stoppen en starten. U kunt bijvoorbeeld een opdrachtprompt met verhoogde bevoegdheden openen op de computer waarop de gateway wordt uitgevoerd en vervolgens een van deze opdrachten uitvoeren:
 
 * Als u de service wilt stoppen, voert u deze opdracht uit:
-  
+
     '''   net stop PBIEgwService   '''
 * Als u de service wilt starten, voert u deze opdracht uit:
-  
+
     '''   net start PBIEgwService   '''
 
 ### <a name="error-failed-to-create-gateway-please-try-again"></a>Fout: De gateway is niet gemaakt. Probeer het opnieuw.
@@ -70,7 +70,7 @@ U kunt de volgende stappen volgen om dit op te lossen.
 
 1. Verwijder de gateway.
 2. Verwijder de volgende map.
-   
+
         c:\Program Files\On-premises data gateway
 3. Installeer de gateway opnieuw.
 4. Optioneel kunt u de herstelsleutel voor het herstellen van een bestaande gateway toepassen.
@@ -129,11 +129,11 @@ U kunt dit controleren door de volgende stappen te volgen.
 
 1. Maak verbinding met de Analysis Services-computer in SQL Server Management Studio. Voer in de geavanceerde verbindingseigenschappen EffectiveUserName in voor de betrokken gebruiker en kijk of de fout nog steeds optreedt.
 2. U kunt het Active Directory-hulpprogramma dsacls gebruiken om te controleren of het kenmerk wordt weergegeven. Dit hulpprogramma is normaal gesproken te vinden op een domeincontroller. U moet weten wat de onderscheidende domeinnaam voor het account is en die aan het hulpprogramma doorgeven.
-   
+
         dsacls "CN=John Doe,CN=UserAccounts,DC=contoso,DC=com"
-   
+
     Het resultaat zou op het volgende moeten lijken.
-   
+
             Allow BUILTIN\Windows Authorization Access Group
                                           SPECIAL ACCESS for tokenGroupsGlobalAndUniversal
                                           READ PROPERTY
@@ -184,15 +184,15 @@ Doe het volgende om dit te controleren.
 
 1. U vindt de effectieve gebruikersnaam in de [gatewaylogboeken](#logs).
 2. Wanneer u de waarde hebt achterhaald die wordt doorgegeven, controleert u of deze juist is. Als dit uw gebruiker betreft, kunt u de volgende opdracht uitvoeren vanaf de opdrachtprompt om te zien wat de UPN moet zijn. De UPN ziet eruit als een e-mailadres.
-   
+
         whoami /upn
 
 Eventueel kunt u nagaan wat Power BI ophaalt uit Azure Active Directory.
 
-1. Blader naar [https://graphexplorer.cloudapp.net](https://graphexplorer.cloudapp.net).
+1. Blader naar [https://developer.microsoft.com/graph/graph-explorer](https://developer.microsoft.com/graph/graph-explorer).
 2. Selecteer **Aanmelden** in de rechterbovenhoek.
 3. Voer de volgende query uit. Er wordt nu een vrij groot JSON-antwoord weergegeven.
-   
+
         https://graph.windows.net/me?api-version=1.5
 4. Zoek hierin naar **UserPrincipalName**.
 
@@ -206,7 +206,7 @@ U vindt de datacenterregio waarin u zich bevindt, met behulp van de volgende sta
 1. Selecteer **?** in de rechterbovenhoek van de Power BI-service.
 2. Selecteer **Over Power BI**.
 3. Uw gegevensregio wordt weergegeven bij **Uw gegevens worden opgeslagen in**.
-   
+
     ![](media/service-gateway-onprem-tshoot/power-bi-data-region.png)
 
 Als u nog steeds niet voldoende informatie hebt, kunt u een netwerktracering uitvoeren met een hulpprogramma zoals [fiddler](#fiddler) of netsh, hoewel dit geavanceerde methoden zijn en u wellicht hulp nodig hebt bij het analyseren van de verzamelde gegevens. U kunt voor hulp contact opnemen met de [ondersteuning](https://support.microsoft.com).
@@ -329,6 +329,7 @@ In het bestand *Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config* 
 <a name="activities"></a>
 
 ### <a name="activity-types"></a>Activiteitstypen
+
 | Activiteitstype | Beschrijving |
 | --- | --- |
 | MGEQ |Query's uitgevoerd via ADO.NET. Hieronder vallen DirectQuery-gegevensbronnen. |
@@ -342,9 +343,9 @@ Om te bepalen hoe lang het duurde om een query bij de gegevensbron uit te voeren
 2. Zoek naar een [activiteitstype](#activities) om de query te vinden. Een voorbeeld hiervan is MGEQ.
 3. Noteer de tweede GUID: dit is de aanvraag-id.
 4. Zoek verder naar MGEQ totdat u de vermelding FireActivityCompletedSuccessfullyEvent vindt, waar de duur bij wordt getoond. Controleer vervolgens of de vermelding dezelfde aanvraag-id bevat. De duur wordt getoond in milliseconden.
-   
+
         DM.EnterpriseGateway Verbose: 0 : 2016-09-26T23:08:56.7940067Z DM.EnterpriseGateway    baf40f21-2eb4-4af1-9c59-0950ef11ec4a    5f99f566-106d-c8ac-c864-c0808c41a606    MGEQ    21f96cc4-7496-bfdd-748c-b4915cb4b70c    B8DFCF12 [DM.Pipeline.Common.TracingTelemetryService] Event: FireActivityCompletedSuccessfullyEvent (duration=5004)
-   
+
    > [!NOTE]
    > FireActivityCompletedSuccessfullyEvent is een uitgebreid item. Dit item wordt niet vastgelegd tenzij TraceVerbosity is ingesteld op niveau 5.
    > 
@@ -423,12 +424,12 @@ U krijgt het foutbericht 10709, verbinding mislukt, als de overdracht niet juist
 Wanneer u de gateway gebruikt voor geplande vernieuwing, kan de optie **Geschiedenis vernieuwen** helpen om te zien welke fouten zijn opgetreden. Daarnaast kan deze optie nuttige gegevens bieden als u een ondersteuningsaanvraag wilt aanmaken. U kunt zowel geplande vernieuwingen als vernieuwingen op aanvraag bekijken. U krijgt als volgt toegang tot de optie **Geschiedenis vernieuwen**.
 
 1. Ga in het navigatiedeelvenster van Power BI naar **Gegevenssets**, selecteer een gegevensset &gt; Menu openen &gt; **Vernieuwen plannen**.
-   
+
     ![](media/service-gateway-onprem-tshoot/scheduled-refresh.png)
 2. Selecteer in het venster **Instellingen voor...** &gt; **Vernieuwen plannen** en selecteer **Geschiedenis vernieuwen**.
-   
+
     ![](media/service-gateway-onprem-tshoot/scheduled-refresh-2.png)
-   
+
     ![](media/service-gateway-onprem-tshoot/refresh-history.png)
 
 Voor meer informatie over het oplossen van problemen met betrekking tot vernieuwen raadpleegt u het artikel [Problemen met vernieuwingsscenario's oplossen](refresh-troubleshooting-refresh-scenarios.md).

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 06/20/2018
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: f264dadf9d9d91083094d393e1b63d9f53aaca4c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 0f2c3649a2c6e0582fe7536473f7a6ee9067ee1d
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722354"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137440"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>Azure SQL Data Warehouse met DirectQuery
 Door het gebruik van Azure SQL Data Warehouse in combinatie DirectQuery kunt u dynamische rapporten maken op basis van gegevens en metrische gegevens die al beschikbaar zijn in Azure SQL Data Warehouse. Met DirectQuery worden in realtime query’s teruggestuurd naar Azure SQL Database Warehouse wanneer u de gegevens in de rapportweergave verkent. Dit, in combinatie met de schaal van SQL Data Warehouse, biedt gebruikers de mogelijkheid om in enkele minuten dynamische rapporten te maken op basis van terabytes aan gegevens. Bovendien kunnen gebruikers met de introductie van de knop **Openen in Power BI** rechtstreeks via Power BI verbinding maken met hun SQL Data Warehouse, zonder dat ze de informatie handmatig hoeven op te geven.
@@ -32,6 +32,11 @@ Als u de SQL Data Warehouse-connector gebruikt:
 Deze beperkingen en opmerkingen kunnen veranderen, aangezien we de ervaring voortdurend proberen te verbeteren. De stappen om verbinding te maken, worden hieronder beschreven.
 
 ## <a name="using-the-open-in-power-bi-button"></a>De knop Openen in Power BI gebruiken
+
+> [!Important]
+> De connectiviteit met Azure SQL Data Warehouse is verbeterd.  Gebruik Power BI Desktop voor de beste ervaring bij het maken van verbinding met uw Azure SQL Data Warehouse-gegevensbron.  Als u uw model en het rapport hebt gemaakt, kunt u deze publiceren naar Power BI-service.  De directe connector voor Azure SQL Data Warehouse in Power BI-service is afgeschaft.
+>
+
 De eenvoudigste manier om tussen SQL Data Warehouse en Power BI te schakelen is met de knop **Openen in Power BI** in Azure Preview Portal. Met deze knop kunt u probleemloos nieuwe dashboards in Power BI maken.
 
 1. Ga naar uw instantie van SQL Data Warehouse in Azure Preview Portal om aan de slag te gaan. SQL Data Warehouse is op dit moment alleen beschikbaar in Azure Preview Portal.
@@ -82,7 +87,7 @@ De volledige servernaam en databasenaam vindt u in Azure Preview Portal. SQL Dat
 >
 
 ## <a name="next-steps"></a>Volgende stappen
-[Aan de slag met Power BI](service-get-started.md)  
+[Wat is Power BI?](power-bi-overview.md)  
 [Gegevens ophalen voor Power BI](service-get-data.md)  
 [Azure SQL Data Warehouse](https://azure.microsoft.com/documentation/services/sql-data-warehouse/)  
 

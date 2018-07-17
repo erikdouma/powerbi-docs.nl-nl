@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5e12e32d947779f4ebc5bc2d238125c7359c08fe
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 7a10429561efed82d9481b2899a997cc89737d55
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242290"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135554"
 ---
 # <a name="connect-to-mandrill-with-power-bi"></a>Verbinding maken met Mandrill met Power BI
 Met het Power BI-inhoudspakket worden gegevens opgehaald uit uw Mandrill-account en worden een dashboard, een set met rapporten en een gegevensset gegenereerd die u kunt gebruiken om uw gegevens te verkennen. Gebruik de analytische gegevens van Mandrill om snel inzicht te krijgen in uw nieuwsbrief of marketingcampagne. De gegevens worden dagelijks vernieuwd, zodat u zeker weet dat uw bewakingsgegevens up-to-date zijn.
@@ -47,7 +47,7 @@ Verbinding maken met het [Mandrill-inhoudspakket voor Power BI](http://app.power
 * Als uw gegevensset is ingesteld op dagelijks vernieuwen, kunt u het vernieuwingsschema wijzigen of de gegevensset handmatig vernieuwen met **Nu vernieuwen**
 
 ## <a name="next-steps"></a>Volgende stappen
-[Aan de slag met Power BI](service-get-started.md)
+[Wat is Power BI?](power-bi-overview.md)
 
 [Power BI - basisconcepten](service-basic-concepts.md)
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 07/03/2018
 ms.author: maggies
-ms.openlocfilehash: 9cf6e1a0b4e711f696d9728850352a53ac8442f6
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 645e1e40867f52718f2ec79a17cf1b5525a3d951
+ms.sourcegitcommit: 9efb94ddb254e9c03e9871ad232509065ee24bf2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34799620"
+ms.lasthandoff: 07/06/2018
+ms.locfileid: "37864394"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -22,6 +22,16 @@ Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mog
 * [Power BI team blog for the mobile apps](https://powerbi.microsoft.com/blog/tag/mobile/) (Power BI-teamblog voor mobiele apps)
 * [What's new in Power BI Desktop](desktop-latest-update.md) (Wat is er nieuw in Power BI Desktop)  
 * [What's new in the Power BI service](service-whats-new.md) (Wat is er nieuw in de Power BI-service)  
+
+## <a name="june-2018"></a>Juni 2018
+
+### <a name="full-canvas-reports"></a>Rapporten in volledig canvas
+
+De actiebalken bovenaan en onderaan verdwijnen nu kort nadat het rapport is geladen, zodat u meer rapportinhoud tegelijk kunt bekijken.
+
+### <a name="increased-phone-report-canvas-size"></a>Verbeterde canvasgrootte van rapporten op telefoon
+
+De canvasgrootte van rapporten op een telefoon is vergroot, zodat meer visuals kunnen worden weergegeven.
 
 ## <a name="may-2018"></a>Mei 2018
 

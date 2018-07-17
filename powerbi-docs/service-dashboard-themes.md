@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 331dc45f3049fe77145b86ffafd363162c74a589
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: d17694d6dd2e2133b80d326a8aa86194d5710946
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813797"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944647"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Dashboardthema’s gebruiken in Power BI-service
 Met **Dashboardthema's** kunt u een kleurenthema op uw gehele dashboard toepassen, zoals zakelijke kleuren, seizoensgebonden kleuren of andere kleurthema's die u op een rapport zou willen toepassen. Bij het toepassen van een **Dashboardthema** worden voor alle visuals op het dashboard de kleuren van het geselecteerde thema gebruikt. Er zijn enkele uitzonderingen van toepassing, zoals verderop in dit artikel wordt beschreven.
@@ -89,7 +89,6 @@ Net zoals de ingebouwde en aangepaste opties worden de kleuren automatisch toege
 
     ![Doelthema gebruiken](media/service-dashboard-themes/power-bi-use-destination.png)
 
-* Dashboardthema's worden momenteel niet ondersteund wanneer u het ingesloten dashboard bekijkt met behulp van de REST API, op mobiele apparaten of door externe gebruikers.    
 * Dashboardthema's kunnen niet worden toegepast op vastgemaakte liverapportpagina’s, iframe-tegels, SSRS-tegels, werkboektegels of afbeeldingen.
 * Dashboardthema's kunnen worden bekeken op mobiele apparaten, maar u kunt een dashboardthema alleen maken in Power BI-service. 
 * Aangepaste dashboardthema's werken alleen met tegels die vanuit rapporten zijn vastgemaakt. 

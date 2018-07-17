@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2017
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 17d7c07cb35eb9046b6fcfe8da5a85ee15fe7eaf
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 70e73e5d567c7c6c24aae0ca5478dae2cd6c7f6f
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310476"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136313"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Uw Amerikaanse overheidsorganisatie registreren in de Power BI-service
 Er is als onderdeel van **Office 365 US Government Community**-abonnement een versie van de **Power BI-service** beschikbaar voor Amerikaanse overheidsklanten. De versie van de **Power BI-service** die in dit artikel wordt besproken, is specifiek ontworpen voor Amerikaanse overheidsklanten en staat los en verschilt van de commerciële versie van de **Power BI-service**.
@@ -125,5 +125,5 @@ Er zijn veel verschillende dingen die u met Power BI kunt doen. Bekijk de volgen
 * [Overzicht van Power BI voor de Amerikaanse overheid](service-govus-overview.md)
 * [Begeleide training voor Power BI](guided-learning/gettingstarted.yml?tutorial-step=1)
 * [Aan de slag met de Power BI-service](service-get-started.md)
-* [Aan de slag met Power BI Desktop](desktop-getting-started.md)
+* [Wat is Power BI Desktop?](desktop-what-is-desktop.md)
 

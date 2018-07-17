@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6cae9bdfbb89e8c3a11e8ee3fec45327296319b3
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 9c41cca5ba4b66e118ea1122988080bbc1d45a8a
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34288907"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37597440"
 ---
 # <a name="project-online-connect-to-data-through-power-bi-desktop"></a>Project Online: verbinding met gegevens maken via Power BI Desktop
 U kunt verbinding maken met gegevens maken in Project Online via Power BI Desktop.
@@ -25,7 +25,7 @@ U kunt verbinding maken met gegevens maken in Project Online via Power BI Deskto
 
 ### <a name="step-2-connect-to-project-online-with-odata"></a>Stap 2: verbinding maken met Project Online met OData
 1. Open **Power BI Desktop**.
-2. Op het *welkomstscherm* selecteert u **Gegevens ophalen.**
+2. Selecteer **Gegevens ophalen** in het *welkomstscherm*.
 3. Kies **OData-feed** en selecteer **Verbinding maken**.
 4. Voer het adres voor uw OData-feed in het URL-vak in en klik op OK.
    

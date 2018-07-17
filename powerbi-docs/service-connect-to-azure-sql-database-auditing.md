@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 36351491f7cb99a2e597ef4fd498ef7c38da386e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: dd9b5b9f9db95b73a7001c34bcabcd2deacb8b4c
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34243886"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136549"
 ---
 # <a name="sql-database-auditing-content-pack-for-power-bi"></a>SQL Database Auditing-inhoudspakket voor Power BI
 Met het Power BI-inhoudspakket voor Azure [SQL Database Auditing](http://azure.microsoft.com/documentation/articles/sql-database-auditing-get-started/) kunt u de activiteit van uw database begrijpen en meer inzicht krijgen in afwijkingen die kunnen wijzen op problemen voor het bedrijf of vermoedelijke beveiligingsschendingen. 
@@ -69,4 +69,4 @@ Maak verbinding met het [SQL Database Auditing-inhoudspakket](https://app.powerb
 
 ## <a name="next-steps"></a>Volgende stappen
 [Gegevens ophalen voor Power BI](service-get-data.md)
-[Aan de slag met Power BI](service-get-started.md)
+[Wat is Power BI?](power-bi-overview.md)

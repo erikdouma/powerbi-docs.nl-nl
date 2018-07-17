@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 21554c5addac0adad84783dad83b4861544a3425
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1baccb5fd674d5e0037f112fc8cbee450b6bcb8a
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242208"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136359"
 ---
 # <a name="connect-to-at-internet-bridge-with-power-bi"></a>Verbinding met AT Internet Bridge maken via met Power BI
 AT Internet helpt u direct waarde te onttrekken aan uw gegevens dankzij het geïntegreerde digitale analyseplatform, de Analytics Suite. Het AT Internet Bridge-inhoudspakket voor Power BI bevat onder meer gegeven over bezoeken, bronnen, lokalisatie en apparaten voor uw site.
@@ -59,7 +59,7 @@ Dit inhoudspakket bevat gegevens van de afgelopen 45 dagen in de volgende tabell
     - Globale bezoeken  
 
 ## <a name="next-steps"></a>Volgende stappen
-[Aan de slag met Power BI](service-get-started.md)
+[Wat is Power BI?](power-bi-overview.md)
 
 [Power BI - basisconcepten](service-basic-concepts.md)
 

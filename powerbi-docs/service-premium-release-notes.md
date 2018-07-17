@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 09/11/2017
 ms.author: mgblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 3cf20899e705328c9f63bdbede4c30bd69488762
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 52c6293bacb2cae1d74a7a0459c61fe3c3bc201f
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34298315"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944348"
 ---
 # <a name="power-bi-premium-release-notes"></a>Opmerking bij de release van Power BI Premium
 Dit zijn de opmerkingen bij de release van Power BI Premium, een toegewezen capaciteit waarmee uw organisatie of team beschikt over meer betrouwbare prestaties, grotere gegevensvolumes en de mogelijkheid om inhoud te distribueren zonder licenties per gebruikers voor bezoekers.
 
-* Gebruikers met gratis Power BI-licenties kunnen nu dashboards weergeven die met hen worden gedeeld uit Premium-werkruimten in de Power BI-service.
+* Alle gebruikers (ongeacht de licentie die aan hen is toegewezen) kunnen nu dashboards weergeven die met hen worden gedeeld uit Premium-werkruimten in Power BI-service.
 * Capaciteitsbeheerders ontvangen nu automatisch machtigingen voor capaciteitstoewijzing.
 * Dynamische beveiliging op rijniveau (RLS) is nu beschikbaar voor ingesloten gebruiksvoorbeelden. Zie [Beveiliging op rijniveau (RLS) met ingesloten analyse](developer/embedded-row-level-security.md) voor meer informatie.
 * Het distribueren van Power BI-apps naar gebruikers in andere AAD-tenants met powerbi.com wordt nog niet ondersteund. Hier wordt aan gewerkt.

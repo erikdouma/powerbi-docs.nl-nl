@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c2b9a106c4007af868cf69902ce511da8e03e75f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: e4ffc542a9564ba3893245ef637b3edd01c38640
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244556"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598750"
 ---
 # <a name="change-the-size-of-a-report-page"></a>De grootte van een rapportpagina wijzigen
 In het [vorige artikel en de video](power-bi-report-display-settings.md) hebt u twee verschillende manieren gezien om de paginaweergave in Power BI-rapporten te bepalen: **Weergave** en **Paginagrootte**. Paginaweergave en paginagrootte zijn beschikbaar in Power BI-service en Power BI Desktop, welke bijna identiek zijn qua uiterlijk en functioneren, maar voor deze zelfstudie maken we gebruik van Power BI-service.
@@ -31,19 +31,19 @@ In het [vorige artikel en de video](power-bi-report-display-settings.md) hebt u 
    ![](media/power-bi-change-report-display-settings/pbi_fit_to_page.png)
 2. Zorg dat er geen visualisaties zijn ingeschakeld op het canvas. Selecteer **Weergave** en bekijk de weergaveopties.
 
-    * In de Leesweergave ziet u dit.
+   * In de Leesweergave ziet u dit.
 
      ![](media/power-bi-change-report-display-settings/power-bi-page-view-menu-new.png)
-    * In de Bewerkweergave ziet u dit.
+   * In de Bewerkweergave ziet u dit.
 
-    ![](media/power-bi-change-report-display-settings/power-bi-view-editing-view.png)
+     ![](media/power-bi-change-report-display-settings/power-bi-view-editing-view.png)
 
-1. Laten we kijken hoe de pagina eruit ziet met de instelling **Ware grootte** .
+3. Laten we kijken hoe de pagina eruit ziet met de instelling **Ware grootte** .
 
    ![](media/power-bi-change-report-display-settings/power-bi-actal-size2.png)
 
    Niet geweldig, het dashboard heeft nu dubbele schuifbalken.
-2. Schakel over naar **Aan breedte aanpassen**.
+4. Schakel over naar **Aan breedte aanpassen**.
 
    ![](media/power-bi-change-report-display-settings/pbi_fit_to_width.png)
 

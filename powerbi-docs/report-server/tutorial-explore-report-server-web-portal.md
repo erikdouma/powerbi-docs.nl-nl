@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 38985014407a4d64998e25f6944f57aedcc67309
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 32bf2d3cedbeeb2430620855a2ac95bf349af9a2
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34444998"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092041"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Zelfstudie: de webportal van Power BI Report Server in een VM verkennen
 In deze zelfstudie maakt u een virtuele Azure-machine met Power BI Report Server dat al is geïnstalleerd, zodat u voorbeeldexemplaren van Power BI- en gepagineerde rapporten en KPI's kunt bekijken, bewerken en beheren.
@@ -100,7 +100,7 @@ Als de VM wordt geopend, vindt u hier de items die u op het bureaublad ziet.
 |![Nummer 4](media/tutorial-explore-report-server-web-portal/number-4.png) | Hiermee wordt Power BI Desktop gestart dat is geoptimaliseerd voor Power BI Report Server (maart 2018)  |
 |![Nummer 5](media/tutorial-explore-report-server-web-portal/number-5.png) | Hiermee wordt de webportal van Power BI Report Server in de browser geopend   |
 
-Dubbelklik op het pictogram **Webportal van Report Server**. In de browser wordt http://localhost/reports/browse geopend. In de webportal ziet u verschillende, op type ingedeelde bestanden. 
+Dubbelklik op het pictogram **Webportal van Report Server**. In de browser wordt `http://localhost/reports/browse` geopend. In de webportal ziet u verschillende, op type ingedeelde bestanden. 
 
 ![De webportal van Power BI Report Server](media/tutorial-explore-report-server-web-portal/power-bi-report-server-browser-in-vm.png)
 

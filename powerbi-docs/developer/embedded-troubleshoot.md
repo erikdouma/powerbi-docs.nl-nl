@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 04/23/2018
+ms.date: 07/03/2018
 ms.author: maghan
-ms.openlocfilehash: ad23161985cc2721562cfdfd9128e326db887ece
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: b3c9599ea3ce01094bb75d9b036fb25b1ca7109a
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813153"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926554"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Problemen oplossen met uw ingesloten toepassing
 
@@ -96,6 +96,44 @@ De back-end van de toepassing moet het verificatietoken mogelijk vernieuwen voor
     {"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
 ```
 
+## <a name="authentication"></a>Verificatie
+
+### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>De verificatie is mislukt met AADSTS70002 of AADSTS50053
+
+**(AADSTS70002: fout bij het valideren van referenties. AADSTS50053: u hebt te vaak geprobeerd u aan te melden met een onjuiste gebruikers-id of een onjuist wachtwoord)**
+
+Als u Power BI Embedded en Azure AD Direct Authentication gebruikt en u berichten ontvangt bij het aanmelden zoals ***fout: unauthorized_client, error_description:AADSTS70002: fout bij het valideren van referenties. AADSTS50053: u hebt te vaak geprobeerd u aan te melden met een onjuiste gebruikers-id of een onjuist wachtwoord***. Dit komt doordat directe verificatie sinds 14-6-2018 is uitgeschakeld.
+
+Het wordt aanbevolen het [Azure AD-beleid voor voorwaardelijke toegang](https://cloudblogs.microsoft.com/enterprisemobility/2018/06/07/azure-ad-conditional-access-support-for-blocking-legacy-auth-is-in-public-preview/) te gebruiken voor het blokkeren van verouderde verificatie of [pass-through-verificatie voor Azure AD Directory](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication) te gebruiken.
+
+Er is echter een manier om dit weer in te schakelen met behulp van een [Azure AD-beleid](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) waarvan het bereik wordt beperkt voor de organisatie of een [service-principal](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
+
+**_Het wordt aangeraden dit alleen per app in en uitsluitend als een tijdelijke oplossing te schakelen._**
+
+Als u dit beleid wilt kunnen maken, moet u een **globale beheerder** zijn voor de map waar u het beleid maakt en toewijst. Hier volgt een voorbeeldscript voor het maken van het beleid en het toewijzen ervan aan de serviceprovider voor deze toepassing:
+
+1. Installeer de [previewversie van de Azure AD PowerShell-module](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
+
+2. Voer de volgende powershell-opdrachten per regel uit (zorg dat de variabele $sp niet meer dan 1 toepassing als resultaat heeft).
+
+```powershell
+Connect-AzureAD
+```
+
+```powershell
+$sp = Get-AzureADServicePrincipal -SearchString "Name_Of_Application"
+```
+
+```powershell
+$policy = New-AzureADPolicy -Definition @("{`"HomeRealmDiscoveryPolicy`":{`"AllowCloudPasswordValidation`":true}}") -DisplayName EnableDirectAuth -Type HomeRealmDiscoveryPolicy -IsOrganizationDefault $false
+```
+
+```powershell
+Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id 
+```
+
+Na het toewijzen van het beleid wacht u ongeveer 15-20 seconden tot het beleid wordt doorgegeven voordat u begint met testen.
+
 **Het token wordt niet gegeneerd wanneer de effectieve identiteit wordt opgegeven**
 
 GenerateToken kan om enkele verschillende redenen mislukken wanneer de effectieve identiteit wordt opgegeven.
@@ -113,6 +151,30 @@ Probeer het volgende om te controleren wat de reden is.
 * Staat IsEffectiveIdentityRolesRequired in gestel op true (waar) en er dus een rol is vereist.
 * DatasetId is verplicht voor elke EffectiveIdentity.
 * Voor Analysis Services moet de hoofdgebruiker een gatewaybeheerder zijn.
+
+### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: voor de toekenning zijn beheerdersmachtigingen vereist
+
+**_Symptomen:_**</br>
+Wanneer een gebruiker die geen beheerder is zich voor de eerste keer wil aanmelden bij een toepassing en toestemming verleent, wordt de volgende fout weergegeven:
+* ConsentTest heeft toestemming nodig voor toegang tot bronnen in uw organisatie die alleen door een beheerder kunnen worden verleend. Vraag een beheerder om toestemming te verlenen voor deze app voordat u deze kunt gebruiken.
+* AADSTS90094: voor de toekenning zijn beheerdersmachtigingen vereist.
+
+    ![Toestemming testen](media/embedded-troubleshoot/consent-test-01.png)
+
+Een gebruiker met beheerdersrechten kan zich aanmelden en toestemming verlenen.
+
+**_Hoofdoorzaak:_**</br>
+Toestemming van de gebruiker is uitgeschakeld voor de tenant.
+
+**_Er zijn verschillende oplossingen mogelijk:_**
+
+*Toestemming inschakelen voor de gebruiker voor de gehele tenant (alle gebruikers, alle toepassingen)*
+1. Navigeer in Azure Portal naar Azure Active Directory = > Gebruikers en groepen = > Gebruikersinstellingen
+2. Schakel de instelling Gebruikers kunnen apps namens hen toegang geven tot bedrijfsgegevens in en sla de wijzigingen op
+
+    ![Toestemming testen oplossen](media/embedded-troubleshoot/consent-test-02.png)
+
+*Machtigingen verlenen door een beheerder* Hiermee verleent u machtigingen voor de toepassing door een beheerder, voor de gehele tenant of voor een specifieke gebruiker.
 
 ## <a name="data-sources"></a>Gegevensbronnen
 
@@ -175,7 +237,7 @@ Wanneer u de voorbeeld-app **Insluiten voor uw organisatie** uitvoert, krijgt u 
 
     AADSTS50011: The reply URL specified in the request does not match the reply URLs configured for the application: <client ID>
 
-Dit komt doordat de omleidings-URL die is opgegeven voor de web-servertoepassing afwijkt van de URL van het voorbeeld. Als u de voorbeeldtoepassing wilt registreren, gebruikt u *http://localhost:13526/* als de omleidings-URL.
+Dit komt doordat de omleidings-URL die is opgegeven voor de web-servertoepassing afwijkt van de URL van het voorbeeld. Als u de voorbeeldtoepassing wilt registreren, gebruikt u `http://localhost:13526/` als de omleidings-URL.
 
 Als u de geregistreerde toepassing wilt bewerken, moet u leren hoe u de [geregistreerde AAD-toepassing](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application) bewerkt, zodat de toepassing toegang kan geven tot de web-API’s.
 

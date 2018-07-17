@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/09/2018
+ms.date: 06/06/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: db32f7d0d3f7ca7b6943ca5347dc349c8c44be85
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: 750dbf2593981e8fc9ad5f2f66219d6bf6fd641c
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301844"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137463"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Wat is er nieuw in de Power BI-service
@@ -31,11 +31,19 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="april-2018"></a>April 2018
+## <a name="may-2018"></a>Mei 2018
+* [Themadashboards](https://docs.microsoft.com/en-us/power-bi/service-dashboard-themes) in Power BI-service.
+* [Incrementeel vernieuwen](https://docs.microsoft.com/en-us/power-bi/service-premium-incremental-refresh) met Premium.
+* Werkstroom voor toegang aanvragen voor [Power BI-apps](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps).
+* Updates van Gegevens ophalen om het gebruikers gemakkelijker te maken [Power BI-apps](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps) te vinden.
+* Instellingen om [permanente filters](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/) in en uit te schakelen in Power BI-service.
+* Verbeteringen in de werkstroom van Azure B2B voor uitnodigingen voor rapporten.
+
+## <a name="previous-months-2018"></a>Vorige maanden (2018)
+### <a name="april-2018"></a>April 2018
 * [Technisch document over Power BI en de AVG](http://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
 * [Auditlogboeken](https://docs.microsoft.com/power-bi/service-admin-auditing) van de Power BI-service worden standaard ingeschakeld voor Office 365-tenant.
 
-## <a name="previous-months-2018"></a>Vorige maanden (2018)
 ### <a name="march-2018"></a>Maart 2018
 * [Permanente filters](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/) in de Power BI-service.
 * Inhoud delen met gebruikers via hun persoonlijke e-mailaccount. Uitbreiding van [Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/).
@@ -63,7 +71,7 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 * Gedetailleerde controle voor de beheerder over [publiceren op internet](https://docs.microsoft.com/en-us/power-bi/service-admin-portal#export-and-sharing-settings).
 
 ## <a name="september-2017"></a>September 2017
-* Dashboards met gratis gebruikers delen met Premium.
+* Deel in de Premium-capaciteit dashboards met gebruikers die geen Power BI Pro-licentie hebben.
 * Capaciteiten toewijzen om aan uw bedrijfsbehoeften te voldoen met v-core groepering.
 * Capaciteitswaarden onmiddellijk vergroten of verkleinen met één klik.
 * [PubNub-blok](https://www.pubnub.com/docs/blocks-catalog/power-bi-realtime-dashboards) om gegevens eenvoudig in REST API's te pushen
@@ -222,7 +230,7 @@ Zie [de Power BI-teamblog](https://powerbi.microsoft.com/blog/power-bi-added-to-
 
 ***Analyseren in Excel***
 
-* [Analyseren in Excel](service-analyze-in-excel.md) is beschikbaar voor alle gebruikers: toegang tot uw Power BI-gegevensmodellen in Excel is uitgebreid voor alle gebruikers, voor gratis en Pro.
+* [Analyseren in Excel](service-analyze-in-excel.md) is beschikbaar voor alle gebruikers: toegang tot uw Power BI-gegevensmodellen in Excel is uitgebreid voor alle gebruikers, ongeacht de licentie die aan hen is toegewezen.
 * Verbeterde ervaring voor accounts met meerdere gebruikers: als u meer dan 1 Power BI-gebruikersaccount hebt, verloopt het aanmelden nu eenvoudiger.
 
 Zie [de Power BI-teamblog](https://powerbi.microsoft.com/blog/power-bi-service-april-update-expressroute-for-power-bi/) voor meer informatie
@@ -567,7 +575,7 @@ Bekijk de [blog](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-ser
 
 **24 juli 2015**
 
-* Microsoft kondigt met trots de algemeen beschikbare (GA) versie van Power BI aan. U kunt doorgaan met de gratis versie van Power BI of zich aanmelden voor [Power BI Pro](service-self-service-signup-for-power-bi.md). Als onderdeel van de GA-versie worden enkele geweldige nieuwe functies geboden:
+* Microsoft kondigt met trots de algemeen beschikbare (GA) versie van Power BI aan. Meld u vandaag nog aan voor [Power BI Pro](service-self-service-signup-for-power-bi.md). Als onderdeel van de GA-versie worden enkele geweldige nieuwe functies geboden:
 * Een nieuwe manier om visualisaties en rapporten te maken: het nieuwe rapportcanvas heeft een groter aanbod aan visualisaties, meer controle over de opmaak van titels, legenda’s, assen, kleuren, achtergronden en meer.
 * [Power BI-groepen](service-create-distribute-apps.md): groepen bieden een krachtige gezamenlijke ervaring op basis van Office 365-groepen.
 * [Organisatie-inhoudspakketten](service-organizational-content-pack-introduction.md): met Power BI is het maken van dashboards en rapporten zeer eenvoudig. Gebruikers kunnen deze inhoud nu publiceren naar de inhoudsgalerij van hun organisatie.
@@ -661,7 +669,7 @@ Bekijk de [blog](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-ser
 * De betrouwbaarheid van vernieuwen met OneDrive is verbeterd.  Sommige problemen waarbij werkmappen niet werden vernieuwd in OneDrive, zijn opgelost.
 
 ## <a name="next-steps"></a>Volgende stappen
-[Aan de slag met Power BI](service-get-started.md)  
+[Wat is Power BI?](power-bi-overview.md)  
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/05/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 04963d513fa397e75c34f0650bf55fb31c1490f2
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.openlocfilehash: 15b64b917fed56e9d9ab6be2023060378324c794
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34755088"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944555"
 ---
 # <a name="power-bi-premium---what-is-it"></a>Wat is Power BI Premium?
 Power BI Premium bevat toegewezen resources om de Power BI-service voor uw organisatie of een team uit te voeren, wat resulteert in betrouwbaardere prestaties en grotere gegevensvolumes. Premium biedt de mogelijkheid tot een wijd verspreide distributie zonder dat u gebruikerslicentie hoeft aan te schaffen voor viewers.
@@ -36,11 +36,11 @@ Er zijn twee typen capaciteit in Power BI. Gedeelde capaciteit en Power BI Premi
 | **Vernieuwingsfrequentie** |8 keer per dag |Niet beperkt |
 | **Isolatie met toegewezen hardware** |![](media/service-premium/not-available.png "Niet beschikbaar") |![](media/service-premium/available.png "Beschikbaar") |
 | **Enterprise distributie** naar ***alle gebruikers*** | | |
-| Apps |![](media/service-premium/not-available.png "Niet beschikbaar") |![](media/service-premium/available.png "Beschikbaar")<sup>1</sup> |
+| Apps en delen |![](media/service-premium/not-available.png "Niet beschikbaar") |![](media/service-premium/available.png "Beschikbaar")<sup>1</sup> |
 | Ingesloten API en besturingselementen |![](media/service-premium/not-available.png "Niet beschikbaar") |![](media/service-premium/available.png "Beschikbaar")<sup>2</sup> |
 | **Power BI-rapporten on-premises publiceren** |![](media/service-premium/not-available.png "Niet beschikbaar") |![](media/service-premium/available.png "Beschikbaar") |
 
-*<sup>1</sup> Gratis gebruik door gebruiker in apps omvat onder meer het weergeven van inhoud op internet en op mobiele apparaten, het gebruik van Veelgestelde vragen, Snelle inzichten, Cortana, exporteren naar CSV, Excel en PowerPoint. Een Pro-licentie is vereist voor andere activiteiten die niet worden genoemd, bijvoorbeeld rapporten maken van gedeelde gegevenssets en Analyseren in Excel. Meer informatie over de functionaliteit van de [gratis versie van Power BI versus Power BI Pro](service-free-vs-pro.md).*  
+*<sup>1</sup> Zie [Gebruikersmogelijkheden met Power BI Pro- en Power BI Premium](service-free-vs-pro.md)-functionaliteit voor meer informatie.*  
 *<sup>2</sup> Toekomstige verbeteringen voor Power BI Premium nadat Power BI algemeen beschikbaar is gemaakt.*
 
 ### <a name="premium-capacity"></a>Premium-capaciteit
@@ -51,7 +51,7 @@ Wanneer een werkruimte wordt ondersteund door een premium-capaciteit, kunt profi
 * Geplande vernieuwingen: voorheen konden geïmporteerde modellen slechts 8x per dag volgens schema worden vernieuwd. Deze beperking geldt niet voor gegevenssets in Premium-werkruimten. Dit is niet van toepassing op de geplande cachevernieuwingsinstellingen voor DirectQuery. Deze zijn hetzelfde voor de Premium-capaciteit en de gedeelde capaciteit.
 * Isolatie met toegewezen hardware: gezien de aard van de gedeelde capaciteit, kunnen de prestaties van uw rapporten en dashboards worden beïnvloed door de resourcevereisten van andere workloads in de capaciteit, ondanks dat we dit zoveel mogelijk proberen te voorkomen. Premium biedt daarentegen een consistentere, betrouwbaardere prestaties voor uw workloads door deze te isoleren van niet-gerelateerde workloads.
 
-Als een app wordt ondersteund door een premium-capaciteit (oftewel de app is gepubliceerd vanuit een app-werkruimte die momenteel is toegewezen aan Premium), kan de gepubliceerde app worden gebruikt door iedere gebruiker in uw organisatie, ongeacht de toegewezen licenties. Dit betekent dat zelfs gebruikers van de gratis versie van Power BI deze gepubliceerde apps kunnen gebruiken.
+Als een app wordt ondersteund door een premium-capaciteit (oftewel de app is gepubliceerd vanuit een app-werkruimte die momenteel is toegewezen aan Premium), kan de gepubliceerde app worden gebruikt door iedere gebruiker in uw organisatie, ongeacht de toegewezen licenties.
 
 ### <a name="shared-capacity"></a>Gedeelde capaciteit
 Uw werkruimte bevindt zich standaard in de gedeelde capaciteit. Dit geldt ook voor uw persoonlijke *Mijn werkruimte* en app-werkruimten. Een gedeelde capaciteit is de ervaring zoals u die gewend bent met Power BI, waar uw workloads worden uitgevoerd op calculatiebronnen die worden gedeeld met andere klanten.

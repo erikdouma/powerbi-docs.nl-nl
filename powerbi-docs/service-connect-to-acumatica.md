@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ea5ce2e1e635149c91fbcf38d84e3093af7915c9
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 9366eff71e09b1f6c71c1f2519feb3d2392e3c58
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34243840"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092639"
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>Verbinding maken met Acumatica met Power BI
 Met het Acumatica-inhoudspakket voor Power BI kunt u snel inzicht verkrijgen in uw verkoopkansgegevens. Power BI haalt uw gegevens op inclusief kansen, accounts en klanten, en bouwt vervolgens een standaard dashboard en gerelateerde rapporten op basis van die gegevens.
@@ -66,7 +66,7 @@ Een Acumatica OData-eindpunt is als volgt ingedeeld en moet HTTPS gebruiken:
 
     https://[sitedomain]/odata/[companyname]
 
-Het domein van de toepassingssite vindt u in de adresbalk van uw browser wanneer u zich bij Acumatica aanmeldt. In het onderstaande voorbeeld is het domein van de site is https://pbi.acumatica.com. Het OData-eindpunt dat u moet opgeven is daarom https://pbi.acumatica.com/odata.
+Het domein van de toepassingssite vindt u in de adresbalk van uw browser wanneer u zich bij Acumatica aanmeldt. In het onderstaande voorbeeld is het domein van de site `https://pbi.acumatica.com`. Het OData-eindpunt dat u moet opgeven is daarom `https://pbi.acumatica.com/odata`.
 
  ![](media/service-connect-to-acumatica/url.png)
 

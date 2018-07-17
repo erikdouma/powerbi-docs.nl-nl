@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: aa4bc70fa67af4e3b82b8ed9a4eb16851d98eaeb
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a4c931b671840ca78f340005c30aeb92454ca2a6
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297142"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599176"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Uw gegevensbron beheren - Analysis Services
 Nadat u de on-premises gegevensgateway hebt geïnstalleerd, moet u gegevensbronnen toevoegen die met de gateway kunnen worden gebruikt. In dit artikel wordt beschreven hoe u gateways en gegevensbronnen gebruikt. U kunt de Analysis Services-gegevensbron gebruiken voor zowel geplande vernieuwing als voor liveverbindingen.
@@ -52,7 +52,7 @@ Als u een gateway verwijdert, worden ook alle gegevensbronnen voor die gateway v
 
 1. Selecteer het tandwielpictogram ![](media/service-gateway-enterprise-manage-ssas/pbi_gearicon.png) in de rechterbovenhoek > **Gateways beheren**.
 2. Gateway > **Verwijderen**
-   
+
    ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings7.png)
 
 ## <a name="add-a-data-source"></a>Een gegevensbron toevoegen
@@ -119,15 +119,13 @@ Volg de volgende stappen om het venster voor UPN-toewijzing te openen.
 2. Vouw de gateway uit die de Analysis Services-gegevensbron bevat. Als u de Analysis Services-gegevensbron nog niet hebt gemaakt, kunt u dat ook eerst doen.
 3. Selecteer de gegevensbron en selecteer vervolgens het tabblad **Gebruikers**.
 4. Selecteer **Gebruikersnamen toewijzen**.
-   
+
     ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_02.png)
 
 U krijgt dan opties te zien om regels toe te voegen en voor een bepaalde gebruiker te testen.
 
 > [!NOTE]
-> Het is mogelijk om per ongeluk een andere gebruiker te wijzigen dan u wilde. Als uw **Vervangen (oorspronkelijke waarde)** *@contoso.com* is en uw **Door (nieuwe naam)** *@contoso.local* is, worden alle gebruikers met een aanmeldingsnaam die *@contoso.com* bevat vervangen door *@contoso.local*. Ook als uw **Vervangen (oorspronkelijke naam)** *dave@contoso.com* is en uw **Door (nieuwe naam)** *dave@contoso.local* is, wordt een gebruiker met de aanmeldnaam v-dave@contoso.com verzonden als v-dave*@contoso.local*.
-> 
-> 
+> Het is mogelijk om per ongeluk een andere gebruiker te wijzigen dan u wilde. Als uw **Vervangen (oorspronkelijke waarde)** <em>@contoso.com</em> is en uw **Door (nieuwe naam)** <em>@contoso.local</em> is, worden alle gebruikers met een aanmeldingsnaam die <em>@contoso.com</em> bevat vervangen door <em>@contoso.local</em>. Ook als uw **Vervangen (oorspronkelijke naam)** <em>dave@contoso.com</em> is en uw **Door (nieuwe naam)** <em>dave@contoso.local</em> is, wordt een gebruiker met de aanmeldnaam v-dave@contoso.com verzonden als v-dave<em>@contoso.local</em>.
 
 ### <a name="ad-lookup-mapping"></a>Toewijzing op basis van AD-zoekactie
 Volg de stappen in deze sectie om AAD UPN's opnieuw toe te wijzen aan Active Directory-gebruikers met behulp van een zoekactie op basis van on-premises AD-eigenschappen. Laten we eerst doornemen hoe dit werkt.
@@ -147,17 +145,17 @@ Voor een on-premises gegevensgateway met configureerbare aangepaste gebruikersto
 2. Zoek naar het kenmerk van de AD-persoon (zoals *E-mail*) op basis van een binnenkomende UPN-tekenreeks ('firstName.lastName@contoso.com') van de **Power BI-service**.
 3. Als de AD-zoekopdracht mislukt, wordt geprobeerd de UPN door te geven aan SSAS als EffectiveUser.
 4. Als de AD-zoekopdracht slaagt, wordt de *UserPrincipalName* van die AD-persoon opgehaald. 
-5. Deze geeft het e-mailadres van de *UserPrincipalName* dan door aan SSAS als *EffectiveUser*, zoals: *Alias@corp.on-prem.contoso*.
+5. Deze geeft het e-mailadres van de *UserPrincipalName* dan door aan SSAS als *EffectiveUser*, zoals: <em>Alias@corp.on-prem.contoso</em>.
 
 Uw gateway configureren voor het uitvoeren van de AD-zoekopdracht:
 
 1. Download en installeer de nieuwste versie van de gateway.
 2. In de gateway dient u de **on-premises gegevensgatewayservice** in te stellen zodat deze wordt uitgevoerd met een domeinaccount (in plaats van een lokaal serviceaccount, anders wordt de AD-zoekopdracht tijdens runtime niet goed uitgevoerd). U moet de gatewayservice opnieuw starten om de wijziging door te voeren.  Ga naar de gateway-app op uw computer (zoek 'on-premises gegevensgateway'). Vervolgens gaat u naar **Service-instellingen > Serviceaccount wijzigen**. Zorg ervoor dat u de herstelsleutel voor deze gateway hebt, omdat u deze nodig hebt om de gateway te herstellen op dezelfde computer, tenzij u een nieuwe gateway wilt maken. 
 3. Navigeer naar de installatiemap van de gateway, *C:\Program Files\On-premises data gateway* met een beheerdersaccount, om te zorgen dat u schrijfrechten hebt, en bewerk het volgende bestand:
-   
+
        Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
 4. Bewerk de volgende twee configuratiewaarden voor uw AD-gebruikers volgens de kenmerkconfiguraties van *uw* Active Directory. De onderstaande configuratiewaarden zijn slechts voorbeelden: u moet deze invoeren op basis van uw Active Directory-configuratie. 
-   
+
    ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
 5. Start de **on-premises gegevensgateway**-service opnieuw om de configuratiewijzigingen door te voeren.
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 7402bc638f27175e1c8e1f733fefd508850d9943
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 75636885da6357a756508558841c99435aa5f442
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34245577"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092179"
 ---
 # <a name="enable-qa-for-live-connections"></a>Q&A inschakelen voor live-verbindingen
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>Wat is een on-premises gegevensgateway?  Wat is een live-verbinding?
@@ -56,6 +56,7 @@ Tijdens de preview-fase van deze functie gelden verschillende beperkingen:
 
 * In eerste instantie is de functie alleen beschikbaar voor gegevensbronnen in tabelvorm van SQL Server 2016 Analysis Services. De functie is geoptimaliseerd om te werken met gegevens in tabelvorm. Bepaalde functionaliteit is beschikbaar voor multidimensionale gegevensbronnen, maar de volledige Q&A-ervaring wordt nog niet ondersteund voor dit type gegevensbronnen. In de loop van de tijd worden er extra gegevensbronnen doorgevoerd die worden ondersteund door de on-premises gegevensgateway.
 * Volledige ondersteuning voor beveiliging op rijniveau die is gedefinieerd in SQL Server Analysis Services is in eerste instantie niet beschikbaar in de openbare preview. Tijdens het stellen van vragen in Q&A kan de functie Automatisch aanvullen suggesties weergeven waartoe een gebruiker geen toegang heeft. De RLS die is gedefinieerd in het model wordt echter in acht genomen voor visuele elementen in rapporten en grafieken, zodat er geen onderliggende numerieke gegevens kunnen worden blootgesteld. Opties voor het beheren van dit gedrag worden in komende updates uitgebracht.
+* Beveiliging op objectniveau wordt niet ondersteund. Q&A houdt geen rekening met beveiliging op objectniveau, waardoor mogelijk tabel- of kolomnamen worden weergegeven voor gebruikers die hiertoe geen toegang hebben. U moet RLS inschakelen om ervoor te zorgen dat gegevenswaarden ook op de juiste manier worden beveiligd. 
 * Live-verbindingen worden alleen ondersteund met de on-premises gegevensgateway. Deze verbindingen kunnen dus niet worden gebruikt met de persoonlijke gateway.
 
 ## <a name="next-steps"></a>Volgende stappen

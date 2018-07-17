@@ -8,22 +8,23 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/27/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 387780371a82ab4f2c834683ab522258d130e18e
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.openlocfilehash: 002c1c256a0d78601d112e4ee34326c0914f9ac1
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34755249"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599684"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Metrische gegevens over het gebruik van dashboards en rapporten
 Als u dashboards en rapporten maakt, kunnen metrische gegevens over het gebruik u helpen hun invloed te begrijpen. Wanneer u metrische gegevens over het gebruik van dashboards of rapporten uitvoert, ontdekt u hoe deze dashboards en rapporten worden gebruikt binnen uw organisatie; wat wordt gebruikt, door wie en met welk doel.  
 
-  > **OPMERKING**: metrische gegevens over gebruik houden het gebruik bij van rapporten die zijn ingesloten in SharePoint Online. Via gegevens over het gebruik wordt echter geen insluiting bijgehouden van dashboards en rapporten via de stroom Gebruiker is eigenaar van referenties of App is eigenaar van referenties. Metrische gegevens over gebruik houden eveneens niet het gebruik van rapportinsluiting bij via [publiceren op internet](service-publish-to-web.md).
+> [!NOTE]
+> Metrische gegevens over gebruik houden het gebruik bij van rapporten die zijn ingesloten in SharePoint Online. Via gegevens over het gebruik wordt echter geen insluiting bijgehouden van dashboards en rapporten via de stroom Gebruiker is eigenaar van referenties of App is eigenaar van referenties. Metrische gegevens over gebruik houden eveneens niet het gebruik van rapportinsluiting bij via [publiceren op internet](service-publish-to-web.md).
 
-Deze rapporten over metrische gegevens over gebruik zijn alleen-lezen. U kunt een rapport met metrische gegevens over gebruik echter aanpassen door Opslaan als te gebruiken. Hiermee maakt u een nieuwe gegevensset en wordt het alleen-lezenrapport geconverteerd naar een volledig Power BI-rapport dat u kunt bewerken. Het persoonlijke rapport bevat niet alleen metrische gegevens over het geselecteerde dashboard of rapport, maar door het standaardfilter te verwijderen, hebt u nu toegang tot metrische gegevens over gebruik voor alle dashboards of alle rapporten in de geselecteerde werkruimte.
+Deze rapporten over metrische gegevens over gebruik zijn alleen-lezen. U kunt een rapport met metrische gegevens over gebruik echter aanpassen door Opslaan als te gebruiken. Hiermee maakt u een nieuwe gegevensset en wordt het alleen-lezenrapport geconverteerd naar een volledig Power BI-rapport dat u kunt bewerken. Het persoonlijke rapport bevat niet alleen metrische gegevens over het geselecteerde dashboard of rapport, maar door het standaardfilter te verwijderen, hebt u nu toegang tot metrische gegevens over gebruik voor alle dashboards of alle rapporten in de geselecteerde werkruimte. U kunt zelfs de namen van uw eindgebruikers zien.
 
 ![Rapport voor metrische gegevens over gebruik](media/service-usage-metrics/power-bi-dashboard-usage-metrics-update-3.png)
 
@@ -33,7 +34,7 @@ Wanneer u weet hoe uw inhoud wordt gebruikt, kunt u de invloed ervan demonstrere
 Het uitvoeren van rapporten over gebruik van metrische gegevens is alleen beschikbaar in Power BI-service.  Als u een rapport met metrische gegevens over gebruik echter opslaat of vastmaakt aan een dashboard, kunt u het openen met dat rapport werken op mobiele apparaten.
 
 ### <a name="prerequisites"></a>Vereisten
-- De functie metrische gegevens over gebruik legt gebruiksinformatie van alle gebruikers vast, zowel van gebruikers van de gratis versie als van de Pro-versie. Er is echter een Pro-licentie vereist om de metrische gegevens over gebruik uit te voeren.
+- De functie metrische gegevens over gebruik legt gebruiksinformatie van alle gebruikers vast, ongeacht de licentie die aan hen is toegewezen. Er is echter een Power BI Pro-licentie vereist om de metrische gegevens over gebruik uit te voeren.
 - Metrische gegevens over gebruik zijn beschikbaar op dashboards en rapporten in de geselecteerde werkruimte. Als u toegang wilt tot de metrische gegevens over gebruik voor een bepaald dashboard of rapport, moet u:    
     • Bewerkingsrechten hebben voor dat dashboard of rapport   
     • Beschikken over een Pro-licentie
@@ -50,26 +51,24 @@ Om de rapportgegevens nader te bekijken of om uw eigen rapporten samen te stelle
 ## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>Een rapport met metrische gegevens over gebruik voor een dashboard of rapport openen
 1. Begin in de werkruimte die het dashboard of rapport bevat.
 2. Selecteer het pictogram **Metrische gegevens over gebruik** ![Pictogram Metrische gegevens over gebruik](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png) in de inhoudslijst van de werkruimte of in het dashboard of rapport zelf.
-   
+
     ![Tabblad Dashboards](media/service-usage-metrics/power-bi-run-usage-metrics-report.png)
-   
+
     ![Metrische gegevens over gebruik selecteren](media/service-usage-metrics/power-bi-run-usage-metrics-report2.png)
 3. De eerste keer dat u dit doet, maakt Power BI het rapport met metrische gegevens over gebruik en laat u weten wanneer het gereed is.
-   
+
     ![Metrische gegevens zijn gereed](media/service-usage-metrics/power-bi-usage-metrics-ready.png)    
 4. Selecteer **Metrische gegevens over gebruik weergeven** om de resultaten te openen.
-   
+
     Metrische gegevens over gebruik zijn een krachtige bondgenoot tijdens het implementeren en beheren van Power BI-dashboards en -rapporten. Wilt u weten welke pagina's van uw rapport het nuttigst zijn en welke u geleidelijk moet opheffen? Segmenteer op **rapportpagina** om erachter te komen. Wilt u weten of u een mobiele indeling voor uw dashboard moet maken? Segmenteer op **platformen** om te ontdekken hoeveel gebruikers gebruikmaken van uw inhoud via de mobiele apps versus via een webbrowser.
 
 5. Beweeg desgewenst de muisaanwijzer over een visualisatie en selecteer het speldpictogram om de visualisatie toe te voegen aan een dashboard. Of selecteer in de bovenste menubalk **Live pagina vastmaken** om de gehele pagina toe te voegen aan een dashboard. Vanuit het dashboard kunt u de metrische gegevens over gebruik eenvoudiger controleren of delen met anderen.
-   
-   > **OPMERKING:** als u een tegel van een rapport met metrische gegevens over gebruik vastmaakt aan een dashboard, kan dat dashboard niet worden toegevoegd aan een app of een inhoudspakket.
-   > 
-   > 
 
-<br><br>
+    > [!NOTE]
+    > Als u een tegel van een rapport met metrische gegevens over gebruik vastmaakt aan een dashboard, kan dat dashboard niet worden toegevoegd aan een app of een inhoudspakket.
 
 ## <a name="what-metrics-are-reported"></a>Welke metrische gegevens worden gerapporteerd?
+
 | Meetwaarde | Dashboard | Rapport | Beschrijving |
 | --- | --- | --- | --- |
 | Distributiemethodeslicer |ja |ja |Hoe gebruikers toegang kregen tot de inhoud. Er zijn drie mogelijke methoden: gebruikers kunnen toegang krijgen tot het dashboard of rapport door lid te zijn van een [app-werkruimte](service-the-new-power-bi-experience.md), doordat de inhoud [met hen is gedeeld](service-share-dashboards.md) of door een inhoudspakket/-app te installeren.  Weergaven door middel van een app worden geteld als inhoudspakket. |
@@ -108,16 +107,16 @@ Wanneer u een kopie maakt met behulp van 'Opslaan als' (aan persoonlijke voorkeu
 
 
 1. Selecteer **Bestand > Opslaan als** in het vooraf samengestelde rapport met metrische gegevens over gebruik. Power BI converteert het rapport met metrische gegevens over gebruik in een volledig Power BI-rapport. Dit wordt een *persoonlijk* rapport met metrische gegevens over gebruik genoemd. Het persoonlijke gebruiksrapport en de persoonlijke gegevensset zijn opgeslagen in de actuele werkruimte met de naam **mihart*.
-   
+
     ![Opslaan als](media/service-usage-metrics/power-bi-save-as.png)
 2. Open het rapport in de weergave Bewerken en [werk ermee u zoals u ook met andere Power BI-rapporten werkt](service-interact-with-a-report-in-editing-view.md). Voeg bijvoorbeeld nieuwe pagina's toe en maak nieuwe visualisaties, voeg filters toe, maak de lettertypen en kleuren op, enzovoort.
-   
+
     ![Rapport openen in de bewerkweergave](media/service-usage-metrics/power-vi-editing-view.png)
 3. U kunt ook beginnen met de nieuwe gegevensset en een compleet nieuw rapport maken.
-   
+
     ![Tabblad Gegevenssets](media/service-usage-metrics/power-bi-new-dataset.png)
 4. Het nieuwe rapport wordt opgeslagen in de huidige werkruimte (mihart) en wordt ook toegevoegd aan de inhoudslijst **Recent**.
-   
+
     ![Tabblad Rapporten](media/service-usage-metrics/power-bi-new-report.png)
 
 ### <a name="remove-the-filter-to-see-all-the-usage-metrics-data-in-the-workspace"></a>Het filter verwijderen om ***alle*** metrische gegevens over gebruik in de werkruimte te bekijken
@@ -126,26 +125,28 @@ Als u de metrische gegevens over gebruik voor alle dashboards of voor alle rappo
 Als u bijvoorbeeld het dashboard met de naam 'Europese verkoop' hebt gebruikt om dit nieuwe persoonlijke rapport te maken, worden alleen gebruiksgegevens van het dashboard 'Europese verkoop' weergegeven. Om het filter te verwijderen en gegevens van alle dashboards in die werkruimte in te schakelen:
 
 1. Open het persoonlijke rapport in de weergave Bewerken.
-   
+
     ![Rapport bewerken selecteren](media/service-usage-metrics/power-bi-editing-view.png)
 2. Zoek in het deelvenster Filters de bucket **Filters op rapportniveau** en verwijder het filter door de 'x' selecteren.
-   
+
     ![Het filter verwijderen](media/service-usage-metrics/power-bi-report-level-filter2.png)
-   
+
     Het persoonlijke rapport geeft nu metrische gegevens weer voor de hele werkruimte.
 
 ## <a name="admin-controls-for-usage-metrics---for-power-bi-administrators"></a>Besturingselementen voor beheerders voor metrische gegevens over gebruik - voor Power BI-beheerders
 Rapporten met metrische gegevens over gebruik zijn een functie die de Power BI- of Office 365-beheerder kan in- of uitschakelen. Beheerders hebben gedetailleerde controle welke gebruikers toegang hebben tot metrische gegevens over gebruik hebben; ze zijn standaard ingeschakeld voor alle gebruikers in de organisatie.
 
 1. Open het Beheerportal door het tandwielpictogram te selecteren rechts boven in Power BI-service en **Beheerportal** te kiezen.
-   
+
     ![Tandwielpictogram selecteren](media/service-usage-metrics/power-bi-admin-portal-new.png)
 2. Selecteer in het Beheerportal **Tenantinstellingen** en kies **Metrische gegevens over gebruik voor inhoudsmakers**.
-   
+
     ![Beheerportal](media/service-usage-metrics/power-bi-usage-settings.png)
 3. Schakel metrische gegevens over gebruik in (of uit) en selecteer **Toepassen**.
-   
+
     ![Metrische gegevens over gebruik ingeschakeld](media/service-usage-metrics/power-bi-tenant-settings-updated.png)
+
+Standaard wordt gegevens per gebruiker ingeschakeld voor metrische gegevens over gebruik. Accountgegevens van makers van inhoud worden in het metrische rapport opgenomen. Als u deze informatie niet voor een bepaalde gebruiker of voor geen enkele gebruiker wilt opnemen, schakelt u de functie voor bepaalde beveiligingsgroepen of voor een hele organisatie uit. Accountgegevens worden dan in het rapport weergegeven als *Naamloos*.
 
 Wanneer beheerders metrische gegevens over gebruik uitschakelen voor de gehele organisatie, kunnen ze de optie **Verwijder alle bestaande inhoud over metrische gegevens over gebruik** gebruiken om alle bestaande rapporten en dashboardtegels te verwijderen die zijn gemaakt met behulp van rapporten met metrische gegevens over gebruik en gegevenssets. Deze optie verwijdert alle toegang tot metrische gegevens voor alle gebruikers in de organisatie die deze mogelijk al gebruiken. Let op, want het verwijderen van bestaande metrische gegevens over gebruik kan niet ongedaan worden gemaakt.
 

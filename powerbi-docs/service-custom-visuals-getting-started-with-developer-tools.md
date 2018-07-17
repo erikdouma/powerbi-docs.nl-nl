@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: 8b5da248b6992c8ae3e8d30caf4f0fc6c47bdcf5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a9663951035a697a9fb1f8732d2ce418950078f4
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296292"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600374"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Aangepaste visuals maken met ontwikkelhulpprogramma's
 Met aangepaste visuals kunt voldoen aan de behoeften van uw gebruikers en het ontwerp van uw app handhaven. Leer hoe u ontwikkelhulpprogramma's kunt gebruiken om aangepaste visuals voor Power BI te maken.
@@ -32,14 +32,14 @@ Als u een aangepaste visual wilt maken, moet u NodeJS installeren. NodeJS is ver
 
 1. Download en installeer [NodeJS](https://nodejs.org). Versie 4.0 of later is vereist, maar u kunt het beste 5.0 of later installeren.
 2. Installeer de opdrachtregelprogramma's. Typ de volgende opdracht achter een opdrachtprompt.
-   
+
         npm install -g powerbi-visuals-tools
 3. U kunt controleren of de hulpprogramma's zijn geïnstalleerd door de volgende opdracht uit te voeren zonder parameters.
-   
+
         pbiviz
-   
+
     Als het goed is, wordt de Help-uitvoer weergegeven.
-   
+
     <pre><code>
          +syyso+/
     oms/+osyhdhyso/
@@ -59,22 +59,22 @@ Als u een aangepaste visual wilt maken, moet u NodeJS installeren. NodeJS is ver
                /dmmh /mmmm/ /osyhhy/
                  //   dmmd
                        ++
-   
+
        PowerBI Custom Visual Tool
-   
+
     Usage: pbiviz [options] [command]
-   
+
     Commands:
-   
+
     new [name]        Create a new visual
     info              Display info about the current visual
     start             Start the current visual
     package           Package the current visual into a pbiviz file
     update [version]  Updates the api definitions and schemas in the current visual. Changes the version if specified
     help [cmd]        display help for [cmd]
-   
+
     Options:
-   
+
     -h, --help      output usage information
     -V, --version   output the version number
     --install-cert  Install localhost certificate
@@ -103,7 +103,7 @@ Als u een certificaat wilt *maken*, voert u de volgende opdracht uit.
 Als u het certificaat wilt *installeren*, voert u de volgende opdracht uit.
 
     pbiviz --install-cert
-    
+
 > [!NOTE]
 > U zou een bericht moeten zien waarin staat dat u de nieuw gegenereerde wachtwoordzin moet gebruiken om een PFX-certificaat te installeren.
 > 
@@ -112,20 +112,20 @@ Als u het certificaat wilt *installeren*, voert u de volgende opdracht uit.
 **Windows OS**
 
 1. Selecteer **Certificaat installeren...**.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows.png)
 2. Selecteer achtereenvolgens **Huidige gebruiker** en **Volgende**.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows2.png)
 3. Selecteer **Alle certificaten in het onderstaande archief opslaan** en selecteer vervolgens **Bladeren...**.
 4. Selecteer **Vertrouwde basiscertificeringsinstanties**  en selecteer vervolgens **OK**. Selecteer **Volgende**.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows3.png)
 5. Selecteer **Voltooien**.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows4.png)
 6. Selecteer **Ja** in het dialoogvenster Beveiligingswaarschuwing.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows5.png)
 7. Sluit alle browsers die u hebt geopend.
 
@@ -137,13 +137,13 @@ Als u het certificaat wilt *installeren*, voert u de volgende opdracht uit.
 **OSX**
 
 1. Als de vergrendeling in de linkerbovenhoek is vergrendeld, selecteert u deze om te ontgrendelen. Zoek naar *localhost* en dubbelklik op het certificaat.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-osx.png)
 2. Selecteer **Altijd vertrouwen** en sluit het venster.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-osx2.png)
 3. Voer uw gebruikersnaam en wachtwoord in. Selecteer **Instellingen bijwerken**.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-osx3.png)
 4. Sluit alle browsers die u hebt geopend.
 
@@ -157,15 +157,15 @@ Volg de onderstaande stappen om een livevoorbeeld van uw aangepaste visual weer 
 
 1. Ga naar [app.powerbi.com](https://app.powerbi.com) en meld u aan.
 2. Selecteer het **tandwielpictogram** en selecteer vervolgens **Instellingen**.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-settings.png)
 3. Selecteer **Ontwikkelaar** en selecteer vervolgens **Visueel element voor ontwikkelaars inschakelen voor testen**.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-settings-enable-developer-live-preview.png)
 4. Selecteer in het deelvenster **Visualisatie** de optie **Visueel element voor ontwikkelaars**.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-developer-visual-selection.png)
-   
+
    > [!NOTE]
    > Hiervoor moet u `pbiviz start` hebben uitgevoerd vanuit de visualmap op uw ontwikkelcomputer. Zie [Een nieuwe visual maken](#create-a-new-visual) in dit artikel voor meer informatie over het maken van een visual.
    > 
@@ -196,11 +196,11 @@ Ga als volgt te werk om uw visual uit te voeren:
 1. Open een prompt.
 2. Wijzig de map in de visualmap. Dit is de map met het `pbiviz.json`-bestand.
 3. Voer de volgende opdracht uit.
-   
+
     ```
     pbiviz start
     ```
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-start-visual.png)
 
 Als u zich op de verkeerde locatie bevindt, wordt er een fout weergegeven die vergelijkbaar is met de volgende.
@@ -249,7 +249,7 @@ Ga als volgt te werk om uw visual te verpakken:
 1. Open een prompt.
 2. Wijzig de map in de visualmap. Dit is de map met het `pbiviz.json`-bestand.
 3. Voer de volgende opdracht uit.
-   
+
     ```
     pbiviz package
     ```
@@ -294,6 +294,7 @@ Hiermee wordt uw API bijgewerkt naar API-versie 1.2.0. U kunt `1.2.0` vervangen 
 Uw visualproject is de map die wordt gemaakt wanneer u de opdracht `pbiviz new` uitvoert. 
 
 ### <a name="file-structure"></a>Bestandsstructuur
+
 | Item | Beschrijving |
 | --- | --- |
 | assets/ |Hiermee slaat u de elementen van de visual op (pictogram, schermafbeeldingen, enzovoort). |

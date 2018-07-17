@@ -7,27 +7,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 07/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d0cc0ce18a187280c48be0c84bf9adf680ea3ea4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 11be5cd6f5b97fe612bf42a37228518ab2fbb227
+ms.sourcegitcommit: d1a0da8638c5d957b884ca9412275ee8880d4b14
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813429"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37900049"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>De SAP BW Connector in Power BI Desktop gebruiken
 Met Power BI Desktop hebt u toegang tot gegevens van **SAP Business Warehouse (BW)**.
 
 Raadpleegt het [technische document over Power BI en SAP BW](https://aka.ms/powerbiandsapbw) voor informatie over hoe SAP-klanten kunnen profiteren van de koppeling tussen Power BI en hun bestaande SAP Business Warehouse-systemen.
 
-Vanaf de release van juni 2018 van **Power BI Desktop** kunt u de SAP BW-connector gebruiken. Er zijn belangrijke verbeteringen aangebracht in de prestaties en mogelijkheden. Deze bijgewerkte versie van de SAP BW-connector is ontwikkeld door Microsoft en heet **Implementation 2.0**. U kunt de reguliere **SAP BW-connector** of de **Implementation 2.0 SAP-connector** selecteren. In de volgende gedeelten wordt voor elke versie beschreven hoe de installatie in zijn werk gaat. U kunt een van beide connectors kiezen wanneer u vanuit Power BI Desktop verbinding maakt met SAP BW.
+Vanaf de release van juni 2018 van **Power BI Desktop** kunt u de SAP BW-connector gebruiken. Er zijn belangrijke verbeteringen aangebracht in de prestaties en mogelijkheden. Deze bijgewerkte versie van de SAP BW-connector is ontwikkeld door Microsoft en heet **Implementation 2.0**. U kunt versie 1 (v1) van de **SAP BW-connector** of de **Implementation 2.0 SAP-connector** selecteren. In de volgende gedeelten wordt voor elke versie beschreven hoe de installatie in zijn werk gaat. U kunt een van beide connectors kiezen wanneer u vanuit Power BI Desktop verbinding maakt met SAP BW.
 
 Het wordt aangeraden om waar mogelijk gebruik te maken van de **Implementation 2.0 SAP-connector**.
 
-## <a name="installation-of-the-standard-sap-bw-connector"></a>Installatie van de reguliere SAP BW-connector
-Het wordt aangeraden om waar mogelijk gebruik te maken van de Implementation 2.0 SAP-connector (zie de instructies in het volgende gedeelte). In dit gedeelte wordt beschreven hoe u de reguliere **SAP BW-connector** installeert. Volg voor de installatie de volgende stappen:
+## <a name="installation-of-version-1-of-the-sap-bw-connector"></a>Installatie van versie 1 van de SAP BW-connector
+Het wordt aangeraden om waar mogelijk gebruik te maken van de Implementation 2.0 SAP-connector (zie de instructies in het volgende gedeelte). In dit gedeelte wordt beschreven hoe u versie 1 van de **SAP BW-connector** installeert. Volg voor de installatie de volgende stappen:
 
 1. Installeer de **SAP NetWeaver**-bibliotheek op uw lokale computer. U kunt de **SAP Netweaver**-bibliotheek bij uw SAP-beheerder verkrijgen of rechtstreeks uit het [SAP Software Download Center](https://support.sap.com/swdc) downloaden. Omdat de indeling van het **SAP Software Download Center** vaak verandert, kunnen we geen specifiekere richtlijnen geven voor de navigatie op die site. De **SAP NetWeaver** bibliotheek is meestal ook opgenomen in de hulpprogramma's voor installatie van de SAP-client.
    
@@ -54,11 +54,11 @@ Tijdens de installatie selecteert u in het venster **Optionele installatiestappe
 ![Optionele SAP-installatiestappen](media/desktop-sap-bw-connector/sap_bw_2b.png)
 
 > [!NOTE]
-> Voor de reguliere SAP BW-implementatie zijn Netweaver-DLL's vereist. Als u Implementation 2.0 van de SAP-connector gebruikt (en niet van de reguliere versie), zijn de Netweaver-DLL's niet vereist.
+> Voor de eerste versie van SAP BW-implementatie zijn Netweaver-DLL's vereist. Als u Implementation 2.0 van de SAP-connector gebruikt (en niet van de eerste versie), zijn de Netweaver-DLL's niet vereist.
 
 
-## <a name="standard-sap-bw-connector-features"></a>Functies van de reguliere SAP BW-connector
-Met de reguliere **SAP BW-connector** in Power BI Desktop kunt u gegevens importeren uit uw **SAP Business Warehouse Server**-kubussen of u kunt DirectQuery gebruiken. 
+## <a name="version-1-sap-bw-connector-features"></a>Functies van versie 1 van de SAP BW-connector
+Met versie 1 van de **SAP BW-connector** in Power BI Desktop kunt u gegevens importeren uit uw **SAP Business Warehouse Server**-kubussen, of u kunt DirectQuery gebruiken. 
 
 Lees voor meer informatie over de **SAP BW-connector** en hoe u deze kunt gebruiken met DirectQuery eens het artikel [DirectQuery en SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md).
 
@@ -101,7 +101,7 @@ U moet een nieuwe verbinding maken voor het gebruik van Implementation 2.0 van d
 
     ![Dialoogvenster voor SAP-verbinding](media/desktop-sap-bw-connector/sap_bw_7.png)
 
-3. Selecteer **OK**. De **Navigator**-ervaring is dan hetzelfde als in het vorige gedeelte is beschreven voor de reguliere SAP BW-connector. 
+3. Selecteer **OK**. De **Navigator**-ervaring is dan hetzelfde als in het vorige gedeelte is beschreven voor versie 1 van de SAP BW-connector. 
 
 ### <a name="new-options-for-implementation-20"></a>Nieuwe opties voor Implementation 2.0 
 
@@ -163,7 +163,7 @@ Bestaande rapporten kunnen alleen worden gewijzigd voor het gebruik van **Implem
 
     ![querycodefragment](media/desktop-sap-bw-connector/sap_bw_12.png)
 
-4. Er is alles aan gedaan om Implementation 2.0 van de SAP BW-connector compatibel te maken met de reguliere SAP BW-connector. Er kunnen echter verschillen zijn als er verschillende SAP BW MDX-uitvoeringsmodi worden gebruikt. U kunt eventuele verschillen verhelpen door een andere uitvoeringsmodus te selecteren.
+4. Er is alles aan gedaan om Implementation 2.0 van de SAP BW-connector compatibel te maken met versie 1 van de SAP BW-connector. Er kunnen echter verschillen zijn als er verschillende SAP BW MDX-uitvoeringsmodi worden gebruikt. U kunt eventuele verschillen verhelpen door een andere uitvoeringsmodus te selecteren.
 
 ## <a name="troubleshooting"></a>Problemen oplossen
 Dit gedeelte bevat situaties waarin zich problemen voordoen (en oplossingen hiervoor) bij het werken met de **SAP BW**-connector.

@@ -3,18 +3,18 @@ title: Veelgestelde vragen over Power BI Embedded
 description: Hier vindt u een lijst met veelgestelde vragen en antwoorden over Power BI Embedded.
 author: markingmyname
 manager: kfile
+ms.author: maghan
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/25/2018
-ms.author: maghan
-ms.openlocfilehash: bcdb20d22790b74b54caca5d21325039d6e718bf
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.date: 06/22/2018
+ms.openlocfilehash: 07d51448083f61725157d3ea37c5d9dc73e85157
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34812739"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599945"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Veelgestelde vragen over Power BI Embedded
 
@@ -76,7 +76,7 @@ Hier volgt een (niet volledige) lijst met verschillen tussen de versies.
 |  |A-SKU (Power BI Embedded)  |EM-SKU (Power BI Premium)  |P-SKU (Power BI Premium)  |
 |---------|---------|---------|---------|
 |Kopen     |Azure-portal |Office |Office |
-|Gebruiksvoorbeelden |* Inhoud insluiten in uw eigen toepassing |* Inhoud insluiten in uw eigen toepassing<br>* Inhoud delen met gebruikers van de gratis versie van Power BI buiten PowerBI.com en insluiten in andere SaaS-toepassingen (SharePoint, Teams) |* Inhoud insluiten in uw eigen toepassing<br>* Inhoud delen met gebruikers van de gratis versie van Power BI buiten PowerBI.com en insluiten in andere SaaS-toepassingen (SharePoint, Teams)<br>* Inhoud delen met gebruikers van de gratis versie van Power BI via PowerBI.com  |
+|Gebruiksvoorbeelden |* Inhoud insluiten in uw eigen toepassing |* Inhoud insluiten in uw eigen toepassing<br>* Inhoud delen met gebruikers van de gratis versie van Power BI buiten PowerBI.com en insluiten in andere SaaS-toepassingen (SharePoint, [Teams](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/)) |* Inhoud insluiten in uw eigen toepassing<br>* Inhoud delen met gebruikers van de gratis versie van Power BI buiten PowerBI.com en insluiten in andere SaaS-toepassingen (SharePoint, Teams)<br>* Inhoud delen met gebruikers van de gratis versie van Power BI via PowerBI.com  |
 |Facturering |Per uur |Per maand |Per maand |
 |Min. periode  |Geen minimumperiode |Jaar  |Maand/jaar |
 |Differentiatie |Volledige elasticiteit: omhoog/omlaag schalen, resources onderbreken/hervatten in Azure-portal of via API  |Kan worden gebruikt voor het insluiten van inhoud in SharePoint Online en Microsoft Teams |Insluiten in toepassingen combineren met het gebruik van de Power BI-service in dezelfde capaciteit |
@@ -95,6 +95,58 @@ Controle via Azure staat op de planning voor de korte termijn. De Azure-resource
 
 Hoewel er op dit moment nog geen functie voor automatisch schalen is, zijn alle API's beschikbaar op om ieder gewenst moment te schalen.
 
+### <a name="why-creatingscalingresuming-a-capacity-results-in-putting-the-capacity-into-a-suspended-state"></a>Waarom wordt een capaciteit bij het maken/schalen/hervatten in de status onderbroken geplaatst?
+
+Het inrichten van een capaciteit (schalen/hervatten/maken) mislukt mogelijk. De aanroeper van de inrichtingsaanroep moet de ProvisioningState van een capaciteit controleren met de API voor gegevens ophalen: [Capaciteiten - Details ophalen](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails).
+
+### <a name="why-can-i-only-create-pbie-in-a-specific-region"></a>Waarom kan ik PBIE alleen in een bepaalde regio maken?
+
+U kunt alleen PBIE-capaciteiten voor uw PBI-tenantregio maken.
+
+### <a name="how-can-i-find-what-is-my-pbi-tenant-region"></a>Waar kan ik zien wat mijn PBI-tenantregio is?
+
+U kunt de PBI-portal gebruiken om te zien wat uw PBI-tenantregio is.
+
+https://app.powerbi.com/ > ? > Over Power BI
+
+![Over Power BI](media/embedded-faq/about-01.png)
+![Tenantregio](media/embedded-faq/tenant-location-01.png)
+
+### <a name="what-is-supported-with-the-communicating-sequential-processes-csp-channel"></a>Wat wordt ondersteund met het CSP-kanaal (communicating sequential processes)?
+
+* U kunt PBIE maken voor uw tenant met het abonnementstype CSP
+* Het partneraccount kan zich aanmelden bij de klanttenant en PBIE kopen voor de klanttenant. Geef de gebruiker van de klanttenant op als Power BI-capaciteitsbeheerder.
+
+### <a name="why-do-i-get-an-unsupported-account-message"></a>Waarom krijg ik een bericht over een niet-ondersteund account?
+
+Voor Power BI moet u zich aanmelden met een organisatieaccount. Het aanmelden voor Power BI met een MSA (Microsoft-account) wordt niet ondersteund.
+
+### <a name="can-i-use-apis-to-create--manage-azure-capacities"></a>Kan ik API's gebruiken voor het maken en beheren van Azure-capaciteiten?
+
+Ja, er zijn Powershell-cmdlets en ARM-API's die u kunt gebruiken voor het maken en beheren van PBIE-resources.
+
+* REST-API's - https://docs.microsoft.com/rest/api/power-bi-embedded/
+* PowerShell-cmdlets - https://docs.microsoft.com/powershell/module/azurerm.powerbiembedded/
+
+### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>Wat is de rol van de toegewezen PBI Embedded-capaciteit in een PBI Embedded-oplossing?
+
+Als u [uw oplossing wilt verhogen naar productie](https://docs.microsoft.com/en-us/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production), moet u de Power BI-inhoud (app-werkruimte) die u in uw toepassing gebruikt toewijzen aan een toegewezen capaciteit.
+
+### <a name="what-are-the-azure-regions-pbi-embedded-is-available"></a>Wat zijn de Azure-regio's waar PBI Embedded beschikbaar is?
+
+[PAM](https://ecosystemmanager.azurewebsites.net/home) (EcoManager) - Zie Product availability manager
+
+Beschikbare regio's (16 - dezelfde regio's als Power BI)
+* US (6) - US - oost, US - oost 2, US - noord-centraal, US - zuid-centraal, US - west, US - west 2
+* Europa (2) - Europa - noord, Europa - west
+* Azië en Stille Oceaan (2) - Azië - zuidoost, Azië - oost
+* Brazilië (1) - Brazilië - zuid
+* Japan (1) Japan - oost
+* Australië (1) - Australië - zuidoost
+* India (1) - India - west
+* Canada (1) Canada Centraal
+* Verenigd Koninkrijk (1) - UK - zuid
+
 ### <a name="what-is-the-authentication-model-for-power-bi-embedded"></a>Wat is het verificatiemodel voor Power BI Embedded?
 
 Power BI Embedded blijft Azure AD gebruiken voor de verificatie van de hoofdgebruiker (een aangewezen gebruiker met een Power BI Pro-licentie), waarbij de toepassing binnen Power BI wordt geverifieerd.
@@ -104,6 +156,17 @@ De verificatie en autorisatie van de toepassingsgebruikers wordt geïmplementeer
 Als u al een Azure AD-tenant hebt, kunt u uw bestaande adreslijst gebruiken of u kunt een nieuwe Azure AD-tenant maken voor de beveiliging van de inhoud van uw ingesloten toepassing.
 
 Als u een AAD-token wilt ophalen, kunt u één van de Azure Active Directory-verificatiebibliotheken gebruiken: https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries. Er zijn clientbibliotheken beschikbaar voor meerdere platformen.
+
+### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>Mijn toepassing gebruikt al AAD voor verificatie van de gebruiker. Hoe kunnen we deze identiteit gebruiken bij de verificatie bij Power BI in een scenario waarin de gebruiker eigenaar is van de gegevens? 
+
+Het is standaard OAuth on-behalf-of flow (https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api) de toepassing moet zo worden geconfigureerd dat machtigingen zijn vereist voor Power BI-service (met de vereiste bereiken). Zodra u een gebruikerstoken voor uw app hebt, roept u de ADAL-API AcquireTokenAsync aan met het token voor gebruikerstoegang en geeft u de Power BI resource-URL op als de resource-id. Hieronder ziet u een voorbeeld van hoe u dit kunt doen:
+
+```csharp
+var context = new AD.AuthenticationContext(authorityUrl);
+var userAssertion = new AD.UserAssertion(userAccessToken);
+var clientAssertion = new AD.ClientAssertionCertificate(MyAppId, MyAppCertificate)
+var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAssertion, userAssertion);
+```
 
 ### <a name="how-is-power-bi-embedded-different-from-other-azure-services"></a>Hoe verschilt Power BI Embedded van andere Azure-services?
 
@@ -117,7 +180,7 @@ Gebruik PowerBI.com om werkruimten toe te wijzen aan uw Power BI Embedded-capaci
 
 ### <a name="what-deploy-regions-are-supported"></a>Welke implementatieregio's worden ondersteund?
 
-Australië - zuidoost, Brazilië - zuid, Canada Centraal, VS - oost 2, India, westen, Japan - oost, VS Noord-Centraal, Noord-Europa, VS - zuiden (midden), Zuidoost-Azië, VK Zuid, West-Europa, VS-West en VS-West 2.
+Australië - zuidoost, Brazilië - zuid, Canada Centraal, US - oost 2, India - west, Japan - oost, US - noord-centraal, Europa - noord, US - zuid-centraal, Azië - zuidoost, VK Zuid, Europa - west, US - west en US - west 2.
 
 ### <a name="what-type-of-content-pack-data-can-be-embedded"></a>Welk type inhoudspakketgegevens kan worden ingesloten?
 
@@ -181,8 +244,8 @@ De **Power BI-werkruimteverzameling** (**Power BI Embedded** versie 1) is een op
 
 3. Wanneer u klaar bent voor productie, koopt u toegewezen capaciteit van **Power BI Embedded** en wijst u uw Power BI-inhoud (werkruimte) aan die capaciteit toe.
 
->[!Note]
-U kunt de **Power BI-werkruimteverzameling** blijven gebruiken terwijl u daarnaast een **Power BI Embedded**-oplossing bouwt. Zodra u klaar bent, kunt u uw klant naar de nieuwe **Power BI Embedded**-oplossing verplaatsen en de **Power BI-werkruimteverzameling** buiten gebruik stellen.
+> [!Note]
+> U kunt de **Power BI-werkruimteverzameling** blijven gebruiken terwijl u daarnaast een **Power BI Embedded**-oplossing bouwt. Zodra u klaar bent, kunt u uw klant naar de nieuwe **Power BI Embedded**-oplossing verplaatsen en de **Power BI-werkruimteverzameling** buiten gebruik stellen.
 
 Zie [Inhoud van de Power BI-werkruimteverzameling migreren naar Power BI Embedded](https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded) voor meer informatie.
 
@@ -197,7 +260,7 @@ Klanten die al gebruikmaken van de oplossing voor de **Power BI-werkruimteverzam
 
 ### <a name="in-what-regions-can-pbi-workspace-collection-be-created"></a>In welke regio's kunnen PBI-werkruimteverzameling worden gemaakt?
 
-Beschikbare regio's zijn Australië - zuidoost, Brazilië - zuid, Canada Centraal, VS - oost 2, Japan - oost, VS Noord-Centraal, Noord-Europa, VS - zuiden (midden), Zuidoost-Azië, VK Zuid, West-Europa, India - westen en VS-West.
+Beschikbare regio's zijn Australië - zuidoost, Brazilië - zuid, Canada Centraal, US - oost 2, Japan - oost, US - noord-centraal, Europa - noord, US - zuid-centraal, Azië - zuidoost, VK Zuid, Europa - west, India - west en US - west.
 
 ### <a name="why-should-i-migrate-from-pbi-workspace-collection-to-power-bi-embedded"></a>Waarom moet ik inhoud van PBI-werkruimteverzameling migreren naar Power BI Embedded?
 

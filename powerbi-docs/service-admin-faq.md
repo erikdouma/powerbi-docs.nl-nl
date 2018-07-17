@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4c8601e15a415e680028b2259a4c2b8e56dbd3b4
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: dce044a3f143ba85732c8345639ea57f44f05d5f
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297234"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926583"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI beheren: veelgestelde vragen
 
@@ -41,14 +41,13 @@ Dit artikel bevat veelgestelde vragen over Power BI-beheer. Zie [Wat is Power BI
 * [Hoe verwijder ik Power BI voor gebruikers die zich al hebben geregistreerd?](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [Hoe weet ik wanneer nieuwe gebruikers lid zijn geworden van mijn tenants?](#how-do-i-know-when-new-users-have-joined-my-tenant)
 * [Zijn er nog andere zaken waarop ik me moet voorbereiden?](#are-there-any-additional-things-i-should-be-prepared-for)
-* [Is dit gratis? Worden er kosten in rekening gebracht voor deze licenties?](#is-this-free-will-i-be-charged-for-these-licenses)
 * [Waar bevindt mijn Power BI-tenant zich?](#where-is-my-power-bi-tenant-located)
 * [Wat is de Power BI SLA (Service Level Agreement)?](#what-is-the-power-bi-sla)
 
 **Beveiliging in Power BI**
 
 * [Voldoet Power BI aan nationale, regionale en branchespecifieke nalevingsvereisten?](#does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements)
-* [Hoe werkt beveiliging in Power BI?](#how-does-security-work-in-power-bi?)
+* [Hoe werkt beveiliging in Power BI?](#how-does-security-work-in-power-bi)
 
 ## <a name="sign-up-for-power-bi"></a>Registreren voor Power BI
 ### <a name="how-do-users-sign-up-for-power-bi"></a>Hoe kunnen gebruikers zich registreren voor Power BI?
@@ -232,9 +231,6 @@ U kunt een toename in aanvragen voor het opnieuw instellen van wachtwoorden erva
 
 U kunt een gebruiker uit uw tenant verwijderen via het standaardproces in het Office 365-beheercentrum. Als de gebruiker echter nog steeds een actief e-mailadres van uw organisatie heeft, kan diegene opnieuw lid worden, tenzij u lid worden voor alle gebruikers blokkeert.
 
-### <a name="is-this-free-will-i-be-charged-for-these-licenses"></a>Is dit gratis? Worden er kosten in rekening gebracht voor deze licenties?
-De licenties van **Power BI (gratis)** zijn voor de gratis versie van Power BI. Als u geïnteresseerd bent in aanvullende mogelijkheden bent, kunt u de [Power BI Pro-versie](service-premium.md) bekijken.
-
 ### <a name="where-is-my-power-bi-tenant-located"></a>Waar bevindt mijn Power BI-tenant zich?
 Zie [Waar bevindt mijn Power BI-tenant zich?](service-admin-where-is-my-tenant-located.md) voor informatie over hoe u ontdekt waar uw Power BI-tenant zich bevindt, ook bekend als het gegevensgebied.
 
@@ -252,7 +248,6 @@ Power BI is gebouwd op basis van Office 365, dat op zijn beurt is gebaseerd op A
 [Power BI-beheerportal](service-admin-portal.md)  
 [Understanding the Power BI admin role](service-admin-role.md) (Power BI-beheerdersrol)  
 [Registreren voor Power BI via selfservice](service-self-service-signup-for-power-bi.md)  
-[Power BI (free) in your organization](service-admin-service-free-in-your-organization.md) (Power BI (gratis) in uw organisatie)  
 [Purchasing Power BI Pro](service-admin-purchasing-power-bi-pro.md) (Power BI Pro kopen)  
 [Power BI Premium - wat is het?](service-premium.md)  
 [Power BI Premium aanschaffen](service-admin-premium-purchase.md)  

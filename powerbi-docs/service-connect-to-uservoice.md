@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2761b2bd1230e18b5dd4e0b69342e55ed33d0983
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e44d4bb48289b515797167fb3b91a9bbf0d2bcdd
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34250821"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092156"
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>Verbinding maken met UserVoice via Power BI
 Met Power BI en het inhoudspakket van UserVoice kunt u eenvoudig uw UserVoice-gegevens bijhouden en verkennen. Uw gegevens, inclusief tickets, suggesties en tevredenheidsbeoordelingen, worden opgehaald met Power BI en er worden een kant-en-klaar dashboard en rapporten gemaakt op basis van die gegevens.
@@ -35,7 +35,7 @@ Maak verbinding met het [UserVoice-inhoudspakket](https://app.powerbi.com/getdat
 3. Selecteer **UserVoice** en vervolgens **Ophalen**.
    
    ![](media/service-connect-to-uservoice/uservoice.png)
-4. Voer uw UserVoice-URL in wanneer u hierom wordt gevraagd. De URL moet exact het volgende patroon volgen https://fabrikam.uservoice.com, waarbij fabrikam moet worden vervangen door de naam van uw product of service.
+4. Voer uw UserVoice-URL in wanneer u hierom wordt gevraagd. De URL moet exact het volgende patroon volgen `https://fabrikam.uservoice.com`, waarbij fabrikam moet worden vervangen door de naam van uw product of service.
    
    >[!NOTE]
    >Let er op dat er geen afsluitende slash aan het einde staat en dat de verbinding http**s** is.
@@ -63,7 +63,7 @@ Maak verbinding met het [UserVoice-inhoudspakket](https://app.powerbi.com/getdat
 
 Als u deze fout ziet nadat u uw UserVoice-URL hebt ingevoerd. Zorg dat aan de volgende vereisten is voldaan:
 
-* De URL volgt exact het patroon https://fabrikam.uservoice.com, waarbij fabrikam moet worden vervangen door het juiste UserVoice-voorvoegsel.
+* De URL volgt exact het patroon `https://fabrikam.uservoice.com`, waarbij fabrikam moet worden vervangen door het juiste UserVoice URL-voorvoegsel.
 * Controleer of alle elementen in kleine letters zijn getypt.
 * Zorg dat de URL begint met http**s**.
 * Zorg dat er geen afsluitende slash aan het einde van de URL staat.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/08/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f8b1e94ca0923c3e2ba509df266cec0f05596ab1
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: b95ff0d9102377b6aeb59488a565f7bcb9a65566
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34852182"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598593"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>Organisatie-inhoudspakketten in Power BI maken en publiceren (zelfstudie)
 > [!NOTE]
@@ -43,24 +43,24 @@ Doet u mee? Ga in [Power BI-service](https://powerbi.com) naar **Gegevens ophale
    
    Houd er rekening mee dat de bibliotheek voor inhoudspakketten van uw organisatie op den duur honderden inhoudspakketten kan bevatten die gepubliceerd worden voor de organisatie of voor groepen. Neem de tijd om uw inhoudspakket een betekenisvolle naam te geven, een goede beschrijving toe te voegen en de juiste doelgroep te selecteren.  Gebruik woorden die het gemakkelijk maken uw inhoudspakket te vinden met een zoekopdracht.
    
-   1.  Selecteer **Specifieke groepen** en voer de volledige e-mailadressen van personen, [Office 365-groepen](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9), distributiegroepen of beveiligingsgsgroepen in. Voorbeeld:
+   1. Selecteer **Specifieke groepen** en voer de volledige e-mailadressen van personen, [Office 365-groepen](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9), distributiegroepen of beveiligingsgsgroepen in. Voorbeeld:
       
-         salesmgrs@contoso.com; sales@contoso.com
+        salesmgrs@contoso.com; sales@contoso.com
       
       Probeer het voor deze zelfstudie met uw eigen e-mailadres of dat van uw groep.
    
-   2.  Noem het inhoudspakket **Verkoopkansen**.
+   2. Noem het inhoudspakket **Verkoopkansen**.
    
       > [!TIP]
       > U zou de naam van het dashboard in de naam van het inhoudspakket kunnen opnemen. Op die manier kunnen uw collega's het dashboard gemakkelijker vinden nadat ze verbinding hebben gemaakt met uw inhoudspakket.
       > 
       > 
    
-   3.  Aanbevolen: Voeg een **beschrijving** toe. Dit helpt collega's de inhoudspakketten die ze nodig hebben, gemakkelijker te vinden. Naast een beschrijving kunt u ook sleutelwoorden toevoegen die uw collega's kunnen gebruiken om het inhoudspakket te zoeken. Neem contactgegevens op voor het geval uw collega's een vraag hebben of hulp nodig hebben.
+   3. Aanbevolen: Voeg een **beschrijving** toe. Dit helpt collega's de inhoudspakketten die ze nodig hebben, gemakkelijker te vinden. Naast een beschrijving kunt u ook sleutelwoorden toevoegen die uw collega's kunnen gebruiken om het inhoudspakket te zoeken. Neem contactgegevens op voor het geval uw collega's een vraag hebben of hulp nodig hebben.
    
-   4.  **Upload een afbeelding of logo** om het groepsleden gemakkelijker maken het inhoudspakket te vinden. Het is gemakkelijker naar een afbeelding te bladeren dan om tekst te vinden. Wij hebben een afbeelding gebruikt van de kolomgrafiektegel Aantal verkoopkansen 100% in de schermafbeelding hieronder.
+   4. **Upload een afbeelding of logo** om het groepsleden gemakkelijker maken het inhoudspakket te vinden. Het is gemakkelijker naar een afbeelding te bladeren dan om tekst te vinden. Wij hebben een afbeelding gebruikt van de kolomgrafiektegel Aantal verkoopkansen 100% in de schermafbeelding hieronder.
    
-   5.  Selecteer het dashboard **Voorbeeld van een verkoopkansanalyse** om het toe te voegen aan het inhoudspakket.  Het bijbehorende rapport en de bijbehorende gegevensset worden automatisch toegevoegd. Als u wilt, kunt u ook andere toevoegen.
+   5. Selecteer het dashboard **Voorbeeld van een verkoopkansanalyse** om het toe te voegen aan het inhoudspakket.  Het bijbehorende rapport en de bijbehorende gegevensset worden automatisch toegevoegd. Als u wilt, kunt u ook andere toevoegen.
    
       > [!NOTE]
       >  Alleen de dashboards, rapporten, gegevenssets en werkmappen die u kunt bewerken worden weergegeven. Dingen die met u gedeeld zijn, staan dus niet in de lijst.
@@ -71,7 +71,7 @@ Doet u mee? Ga in [Power BI-service](https://powerbi.com) naar **Gegevens ophale
    
    6. Als u Excel-werkmappen hebt, staan deze onder Rapporten, met een Excel-pictogram. U kunt deze ook toevoegen aan het inhoudspakket.
    
-     ![](media/service-organizational-content-pack-create-and-publish/pbi_orgcontpkexcel.png)
+      ![](media/service-organizational-content-pack-create-and-publish/pbi_orgcontpkexcel.png)
    
       > [!NOTE]
       > Als leden van de groep de Excel-werkmap niet kunnen bekijken, moet u mogelijk [de werkmap met hen delen in OneDrive voor Bedrijven](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c).

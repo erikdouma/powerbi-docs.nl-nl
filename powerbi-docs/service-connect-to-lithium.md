@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1d41ce3ff0c73675793e872170914b96a1d73d14
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 6cbd67a9c35726830fc862326d9a015b96952b83
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241906"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136290"
 ---
 # <a name="connect-to-lithium-with-power-bi"></a>Verbinding met Lithium maken via Power BI
 Lithium bouwt vertrouwde relaties tussen de beste merken ter wereld en hun klanten en helpt mensen om antwoorden te vinden en hun ervaringen te delen. Door het Lithium-inhoudspakket te verbinden met Power BI, kunt u essentiële metrische gegevens over uw online community meten om zodoende de verkoop te stimuleren, de servicekosten te reduceren en de loyaliteit te verhogen. 
@@ -58,7 +58,7 @@ Maak verbinding met het [Lithium-inhoudspakket](https://app.powerbi.com/getdata/
 Voor het Lithium-inhoudspakket is een Lithium Community v15.9 of hoger vereist. Neem contact op met uw Lithium-beheerder om dit te controleren.
 
 ## <a name="next-steps"></a>Volgende stappen
-[Aan de slag met Power BI](service-get-started.md)
+[Wat is Power BI?](power-bi-overview.md)
 
 [Power BI - basisconcepten](service-basic-concepts.md)
 

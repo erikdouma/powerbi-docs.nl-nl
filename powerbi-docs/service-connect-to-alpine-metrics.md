@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: d9e70e0b69f0ce68826f566e6e5cdb0f4d8e113e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 7456a030dd5047642c4de9c7a289fed96fe390f1
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34242927"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135968"
 ---
 # <a name="connect-to-alpine-metrics-sales-predictions-with-power-bi"></a>Verbinding met de verkoopprognoses van Alpine Metrics maken via Power BI
 Alpine Metrics voorziet in geavanceerde procesoptimalisatie van voorspellende verkoop in de cloud en op aanvraag voor grote en kleine verkooporganisaties. Het Alpine Metrics Sales Predictions-inhoudspakket voor Power BI bevat metrische gegevens over bijvoorbeeld de potentiële verkopen en risico's, waardoor u een beter inzicht in de toekomst van uw bedrijf krijgt. 
@@ -66,7 +66,7 @@ Het inhoudspakket bevat gegevens uit de volgende tabellen:
 Een Alpine Metrics-account met machtigingen voor de bovenstaande tabellen is vereist om dit inhoudspakket te starten.
 
 ## <a name="next-steps"></a>Volgende stappen
-[Aan de slag met Power BI](service-get-started.md)
+[Wat is Power BI?](power-bi-overview.md)
 
 [Power BI - basisconcepten](service-basic-concepts.md)
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/09/2018
+ms.date: 06/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: fe5aeb070ed647d81801186228ba8e3c595952b6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 56604cc1e708772e9b0f6b31fda880215a24d90d
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34254005"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137540"
 ---
 # <a name="supported-browsers-for-power-bi"></a>Ondersteunde browsers voor Power BI
 Power BI wordt uitgevoerd in deze browsers:
@@ -29,7 +29,7 @@ Power BI wordt uitgevoerd in deze browsers:
 Deze browsers worden ondersteund op alle platforms waar ze beschikbaar zijn.
 
 ### <a name="next-steps"></a>Volgende stappen
-* [Aan de slag met Power BI](service-get-started.md)
-* Misschien dat de [Power Bi-community](http://community.powerbi.com/) het antwoord weet
+* [Wat is Power BI?](power-bi-overview.md)
+* [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 * Nog steeds geen antwoord? Ga naar de [ondersteuningspagina van Power BI](https://powerbi.microsoft.com/support/) (Engelstalig)
 

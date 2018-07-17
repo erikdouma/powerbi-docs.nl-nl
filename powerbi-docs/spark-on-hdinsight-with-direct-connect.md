@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 236a3d1bde84d4259d921d44730057a4e2fd3591
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e1320135ba0abb737a487036948c2822d0c337ae
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34256743"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136497"
 ---
 # <a name="spark-on-hdinsight-with-directquery"></a>Spark op HDInsight met DirectQuery
 Met Spark in Azure HDInsight met DirectQuery kunt u dynamische rapporten maken op basis van gegevens en metrische gegevens die u al hebt in uw Spark-cluster. Met DirectQuery worden query’s teruggestuurd naar uw Azure HDInsight Spark-cluster terwijl u de gegevens in de rapportweergave verkent. Deze ervaring wordt aangeraden voor gebruikers die vertrouwd zijn met de entiteiten waarmee ze verbinding maken.
@@ -27,7 +27,11 @@ Met Spark in Azure HDInsight met DirectQuery kunt u dynamische rapporten maken o
 
 Met volgende stappen kunt u verbinding maken met uw Spark op Azure HDInsight-gegevensbron met behulp van DirectQuery binnen de Power BI-service.
 
-1. Selecteer **Gegevens ophalen** onder in het linker navigatievenster.
+> [!Important]
+> De connectiviteit met Spark is verbeterd.  Gebruik Power BI Desktop voor de beste ervaring bij het maken van verbinding met uw Spark-gegevensbron.  Als u uw model en het rapport hebt gemaakt, kunt u deze publiceren naar Power BI-service.  De directe verbinding voor Spark in Power BI-service is afgeschaft.
+>
+
+1. Selecteer **Gegevens ophalen** onder in het linkernavigatievenster.
    
      ![](media/spark-on-hdinsight-with-direct-connect/spark-getdata.png)
 2. Selecteer **Databases en meer**.
@@ -71,7 +75,7 @@ U kunt ook aanvullende bronnen binnen Azure Portal toewijzen onder **Configurati
 
 ## <a name="next-steps"></a>Volgende stappen
 [Aan de slag: Apache Spark-cluster maken op HDInsight Linux en interactieve query’s uitvoeren met Spark SQL](https://azure.microsoft.com/documentation/articles/hdinsight-apache-spark-jupyter-spark-sql)  
-[Aan de slag met Power BI](service-get-started.md)  
+[Wat is Power BI?](power-bi-overview.md)  
 [Gegevens ophalen voor Power BI](service-get-data.md)  
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

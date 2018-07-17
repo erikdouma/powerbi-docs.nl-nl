@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 35bdf975d9df31ded5a7c3f5be26ae6181002169
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a6b4795be959cfc1842a07f1ba0a74dd81109e89
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240425"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965591"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Interactie met een rapport in de bewerkweergave in Power BI-service
 Rapporten kunnen worden gemaakt en bewerkt in de Power BI-service en in Power BI Desktop. Rapporten in de Power BI-service kunnen in de **bewerkingsweergave** worden gemaakt en bewerkt. En in Power BI Desktop kunnen rapporten worden gemaakt en bewerkt in de [**Rapportweergave**](desktop-report-view.md). In dit artikel wordt de bewerkingsweergave in de Power BI-service behandeld. 
 
-De Power BI-service heeft twee verschillende modi voor interactie met rapporten: [Leesweergave](service-reading-view-and-editing-view.md) voor *gebruikers* van rapporten en Bewerkingsweergave voor rapporteigenaren en -auteurs.  Een licentie voor Power BI Pro is vereist voor het delen van rapporten evenals voor het bewerken van rapporten die zijn gemaakt door anderen. Als u gebruiker bent van de gratis versie van Power BI, kunt u wel rapporten maken, maar is het niet mogelijk om ze te [delen](service-share-reports.md).    
+De Power BI-service heeft twee verschillende modi voor interactie met rapporten: [Leesweergave](service-reading-view-and-editing-view.md) voor *gebruikers* van rapporten en Bewerkingsweergave voor rapporteigenaren en -auteurs.  Een licentie voor Power BI Pro is vereist voor het delen van rapporten evenals voor het bewerken van rapporten die zijn gemaakt door anderen. Als u geen Pro-licentie hebt, kunt u wel rapporten maken, maar is het niet mogelijk om ze te [delen](service-share-reports.md).    
 
 In de bewerkweergave van rapporten hebt u veel flexibiliteit bij zowel het verkennen als ontwerpen van een rapport. Alle functionaliteit van de [leesweergave](service-reading-view-and-editing-view.md) is beschikbaar en nog veel meer. De bewerkweergave is alleen beschikbaar voor degene die het rapport heeft gemaakt of voor collega’s die [mede-eigenaar van een rapport zijn als lid of beheerder van een app-werkruimte](service-create-distribute-apps.md).
 
@@ -39,7 +39,7 @@ Bekijk de lijst met onderwerpen onder de kop **Rapporten** links in de inhoudsop
 * Een rapportpagina dupliceren
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
-Een licentie voor Power BI Pro is vereist voor het bewerken van rapporten die zijn gemaakt door anderen, en om uw rapporten met anderen te delen.  Als u gebruiker bent van de gratis versie van Power BI, kunt u wel rapporten maken, maar is het niet mogelijk om ze te [delen](service-share-reports.md).
+Een licentie voor Power BI Pro is vereist voor het bewerken van rapporten die zijn gemaakt door anderen, en om uw rapporten met anderen te delen.  Als u geen Pro-licentie hebt, kunt u wel rapporten maken, maar is het niet mogelijk om ze te [delen](service-share-reports.md).
 
 
 ## <a name="next-steps"></a>Volgende stappen

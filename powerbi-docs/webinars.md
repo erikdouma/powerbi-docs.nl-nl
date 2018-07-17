@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/09/2018
+ms.date: 06/13/2018
 ms.author: maikelson
-ms.openlocfilehash: 29aba440f92f37763dd9887b5fa7511d6191a5f7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8a20e5b9807f9495183ebb1e6bd396e68f02c1a1
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34299281"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137548"
 ---
 # <a name="power-bi-webinars"></a>Power BI-webinars
 
@@ -22,25 +22,9 @@ Registreer u voor onze komende live webinars of bekijk onze opgenomen sessies on
 
 ## <a name="upcoming-webinars"></a>Komende webinars
 
-Registreer u bij Power BI-experts en neem deel aan live Q&A-sessies
+Er zijn nog geen webinars gepland. Houd deze pagina in de gaten voor meer geplande evenementen.
 
-**De juiste inzichten visualiseren met Power BI en Visio**
-<br>door Shakun Grover
-<br>*22 mei 2018 10:00 AM PST, 1:00 PM EST*
-
-Neem deel aan dit webinar voor informatie over het combineren van Power BI-dashboards en Microsoft Visio-diagrammen om krachtige visuele inzichten te maken. Visio en Power BI hebben een sterk visueel karakter en vullen elkaar aan. In Visio kunt u illustratieve diagrammen maken, zoals onderling verbonden werkstromen en lay-outs uit de praktijk. Met Power BI kunt u intuïtieve dashboards maken met behulp van grafieken en kaarten waarmee u de KPI's kunt meten en de doelstellingen kunt volgen.
-
-[Registreren voor webinar op 22 mei](https://info.microsoft.com/ww-landing-powerbi-and-visio.html?Is=Website)
-
-**Informatie over Power BI Embedded in 20 minuten**
-<br>door Megan Asarrane en Colin Murphy
-<br>*23 mei 2018 10:00 uur PST, 13:00 uur EST*
-
-Dit webinar geeft een inleiding tot Power BI Embedded. Aan het einde van dit webinar weten gebruikers wat Power BI Embedded is, weten ze wat de volgende stappen zijn om aan de slag te gaan met het product en weten ze waar ze hulp en meer informatie kunnen vinden.
-
-[Registreren voor webinar op 23 mei](https://info.microsoft.com/ww-landing-power-bi-embedded-in-20-min.html?Is=Website)
-
->[Wees aanwezig bij komende webinars van de Power BI-community](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
+>[Wees aanwezig bij komende webinars van de Power BI-community](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>Aanbevolen webinars
 
@@ -78,15 +62,27 @@ Vastgelegde sessies op elk gewenst moment bekijken
 <br>door Charles Sterling
 <br>[Nu bekijken](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
 
+**Informatie over Power BI Embedded in 20 minuten**
+<br>door Megan Asarrane en Colin Murphy
+<br>[Registreren en nu bekijken](https://info.microsoft.com/ww-landing-power-bi-embedded-in-20-min.html?Is=Website)
+
 **Meer doen met spreadsheets**
 <br>door Gohul Shanmugalingam
 <br>[Registreren en nu bekijken](https://info.microsoft.com/CA-PowerBI-WBNR-FY18-05May-09-DataBeyondtheSpreadsheet-MCW0006385_01Registration-ForminBody.html?Is=Website)
+
+**De juiste inzichten visualiseren met Power BI en Visio**
+<br>door Shakun Grover
+<br>[Registreren en nu bekijken](https://info.microsoft.com/ww-landing-powerbi-and-visio.html?Is=Website)
 
 **Een rapport transformeren van Goed naar Fantastisch.**
 <br>door Reid Havens
 <br>[Nu bekijken](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
 
 ### <a name="partners"></a>Partners ###
+
+**Verbeter uw BI met Location Intelligence**
+<br>door Scott Ball van Esri en Enrique Plaza van Microsoft
+<br>[Registreren en nu bekijken](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
 
 **Verbetering van winstgevendheid in de gezondheidszorg**
 <br>door Stephen Cracknell en Stuart Macanliss van US Medical IT
@@ -172,7 +168,7 @@ Vastgelegde sessies op elk gewenst moment bekijken
 
 - [Microsoft Data Insights Summit 2017 on-demand sessies](https://community.powerbi.com/t5/Data-Insights-Summit-2017-On/bd-p/DataInsightsSummit2017OnDemand?Is=Website)
 
-- [Aan de slag met Power BI](service-get-started.md)
+- [Wat is Power BI?](power-bi-overview.md)
 
 - Volg [@MSPowerBI op Twitter](https://twitter.com/mspowerbi)
 

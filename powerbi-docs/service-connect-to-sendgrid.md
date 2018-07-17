@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a08d9d10725a5c135ef6732b8397a57833463f4c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a0ae99e2dfad889840cc29ca4fa9f0f29397bf04
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34247821"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135370"
 ---
 # <a name="connect-to-sendgrid-with-power-bi"></a>Verbinding met SendGrid maken via Power BI
 Met het Power BI-inhoudspakket voor SendGrid kunt u inzichten en statistieken verkrijgen uit uw SendGrid-account. Met behulp van het SendGrid-inhoudspakket kunt u uw statistieken van SendGrid visualiseren in een dashboard.
@@ -56,7 +56,7 @@ De volgende metrische gegevens zijn beschikbaar in het SendGrid-dashboard:
 * E-mailbericht statistiek per apparaat, client, browser
 
 ## <a name="next-steps"></a>Volgende stappen
-[Aan de slag met Power BI](service-get-started.md)
+[Wat is Power BI?](power-bi-overview.md)
 
 [Gegevens ophalen](service-get-data.md)
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 07db52bd2ffd881417f7ff59647c6779f7dc6bce
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: e2df8ecd746e34b85a3fdd15943ff6eda5712663
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248337"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598973"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Een dashboardtegel bewerken of verwijderen
 
@@ -35,12 +35,12 @@ Dit artikel bevat informatie over het volgende.
 * [Een tegel vastmaken aan een ander dashboard](#different)
 * [Een tegel verwijderen](#delete)
   
- > [!TIP]
- > Als u de visualisatie die wordt weergegeven op de tegel wilt wijzigen, moet u de tegel verwijderen en een nieuwe [dashboardtegel](service-dashboard-tiles.md) toevoegen.
- > 
+  > [!TIP]
+  > Als u de visualisatie die wordt weergegeven op de tegel wilt wijzigen, moet u de tegel verwijderen en een nieuwe [dashboardtegel](service-dashboard-tiles.md) toevoegen.
 
- ### <a name="prerequisites"></a>Vereisten
- 1. Als u deze wilt volgen, opent u Power BI-service (niet Power BI Desktop) en downloadt u [het voorbeeld van een IT-uitgavenanalyse](sample-it-spend.md). Wanneer het bericht verschijnt dat het downloaden is voltooid, selecteert u **Naar het dashboard gaan**
+  
+## <a name="prerequisites"></a>Vereisten
+Als u deze wilt volgen, opent u Power BI-service (niet Power BI Desktop) en downloadt u [het voorbeeld van een IT-uitgavenanalyse](sample-it-spend.md). Wanneer het bericht verschijnt dat het downloaden is voltooid, selecteert u **Naar het dashboard gaan**
 
 - - -
 <a name="create"></a>

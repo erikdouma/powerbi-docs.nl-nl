@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 58e6dc99198eb4f031dd28b5c80cc8babb03dbfb
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d5f2fa0abe6f0503ce5f41387f66db928ae0267e
+ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247259"
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "37145405"
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Problemen met Power BI Gateway - Personal oplossen
 In dit artikel worden enkele veelvoorkomende problemen behandeld die kunnen optreden bij het gebruik van Power BI Gateway - Personal.
@@ -146,7 +146,7 @@ U kunt ook naar de **map Temp** (%temp%) gaan en bestanden zoeken die beginnen m
 ## <a name="next-steps"></a>Volgende stappen
 [Configuring proxy settings for the on-premises data gateway](service-gateway-proxy.md) (Proxy-instellingen voor de on-premises gegevensgateway configureren)  
 [Data refresh in Power BI](refresh-data.md) (Gegevens vernieuwen in Power BI)  
-[Power BI Gateway - Personal](personal-gateway.md)  
+[Power BI Gateway - Personal](service-gateway-personal-mode.md)  
 [Problemen met tegelfouten oplossen](refresh-troubleshooting-tile-errors.md)  
 [Problemen met de on-premises gegevensgateway oplossen](service-gateway-onprem-tshoot.md)  
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

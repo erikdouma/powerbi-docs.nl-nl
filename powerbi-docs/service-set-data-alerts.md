@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 321e66fd5ed185a92c98bf7832dc3b71944be98d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ffbad48df6665d5dff6c4eca97e86e6f2850565f
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34689709"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137543"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Gegevenswaarschuwingen in de Power BI-service
 Stel meldingen in om u te waarschuwen als wijzigingen aan de gegevens in uw dashboards de limieten overschrijden die u hebt ingesteld. 
@@ -104,6 +104,6 @@ U kunt meldingen op diverse manieren beheren: vanaf het dashboardtegel zelf, van
 ## <a name="next-steps"></a>Volgende stappen
 [Create a Microsoft Flow that includes a data alert](service-flow-integration.md)   (Een Microsoft Flow maken die een gegevensmelding bevat)  
 [Set data alerts on your mobile device](mobile-set-data-alerts-in-the-mobile-apps.md)   (Gegevensmeldingen instellen op uw mobiele apparaat)  
-[Get started with Power BI](service-get-started.md)   (Aan de slag met Power BI)  
+[Wat is Power BI?](power-bi-overview.md)    
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

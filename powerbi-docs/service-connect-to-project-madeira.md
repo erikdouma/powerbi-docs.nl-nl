@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b4462d8ef5037cf4fe76a6ff061b7993e8d8ec44
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1ce4fe4e80138995e7ec356b92f31e45f3a2c920
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34245600"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599779"
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Verbinding maken met Project "Madeira" met behulp van Power BI
 U kunt eenvoudig inzicht krijgen in uw Project "Madeira"-gegevens met Power BI en het Project "Madeira"-inhoudspakket. Met Power BI kunt u uw gegevens ophalen, zowel verkoopgegevens als financiële gegevens, en vervolgens een out-of-box-dashboard en rapporten bouwen op basis van die gegevens.
@@ -33,7 +33,7 @@ Maak verbinding met het [Project "Madeira" Analytics-inhoudspakket](https://app.
     ![](media/service-connect-to-project-madeira/services.png)
 3. Selecteer **Project "Madeira"** en selecteer vervolgens **Ophalen**.  
     ![](media/service-connect-to-project-madeira/projectmadeira.png)
-4. Wanneer u dat wordt gevraagd, voert u de URL van Project "Madeira" in. De URL moet het volgende patroon exact volgen en de bedrijfsnaam van uw project Madeira bevatten: https://mycronusus.projectmadeira.com:7048/NAV/OData/Company(CRONUS%20US). Let er op dat er geen afsluitende schuine streep aan het einde staat en dat de verbinding https is. Gedetailleerde informatie over het vinden van deze URL vindt u [hieronder](#FindingParams).  
+4. Wanneer u dat wordt gevraagd, voert u de URL van Project "Madeira" in. De URL moet het volgende patroon exact volgen en de bedrijfsnaam van uw project moet ‘Madeira’ bevatten: <https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US>'). Let er op dat er geen afsluitende schuine streep aan het einde staat en dat de verbinding https is. Gedetailleerde informatie over het vinden van deze URL vindt u [hieronder](#FindingParams).  
    
     ![](media/service-connect-to-project-madeira/params.png)
 5. Wanneer u dat wordt gevraagd, selecteert u Basic als verificatiemethode, voert u uw e-mailadres voor Project "Madeira" in als de gebruikersnaam, en voert u de webservicetoegangssleutel voor uw Project "Madeira"-account in als het wachtwoord. Als u al bent aangemeld bij Project "Madeira" in uw browser, ontvangt u mogelijk geen prompt om referenties in te voeren. Gedetailleerde informatie over het genereren van de toegangssleutel vindt u [hieronder](#FindingParams).  
@@ -93,10 +93,10 @@ Het Power BI-dashboard is afhankelijk van de gepubliceerde webservices die hierb
 
 Als deze fout wordt weergegeven nadat u uw Project 'Madeira'-URL hebt ingevoerd, controleert u of er aan de volgende vereisten wordt voldaan:  
 
-   - De URL volgt exact dit patroon: https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')  
-   - Verwijder tekst tussen haakjes na de bedrijfsnaam  
-   - Zorg dat er geen afsluitende slash aan het einde van de URL staat.  
-   - Zorg ervoor dat de URL een beveiligde verbinding gebruikt en dus met https begint.  
+- De URL volgt exact dit patroon: https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('<em>CRONUS%20US</em>')  
+- Verwijder tekst tussen haakjes na de bedrijfsnaam  
+- Zorg dat er geen afsluitende slash aan het einde van de URL staat.  
+- Zorg ervoor dat de URL een beveiligde verbinding gebruikt en dus met https begint.  
 
 **'Aanmelden mislukt'** Als er een fout wordt weergegeven dat het aanmelden is mislukt wanneer u zich probeert aan te melden voor het dashboard met uw Project "Madeira"-gegevens, kan dit een van de volgende oorzaken hebben:  
 
@@ -104,16 +104,16 @@ Als deze fout wordt weergegeven nadat u uw Project 'Madeira'-URL hebt ingevoerd,
    - Het Project "Madeira"-exemplaar waarmee u probeert verbinding te maken, heeft geen geldig SSL-certificaat. In dit geval ziet u een gedetailleerde foutmelding (kan geen vertrouwde SSL-relatie tot stand brengen). Houd er rekening mee dat zelfondertekende certificaten niet worden ondersteund.  
 
 **'Oeps'** Als er een dialoogvenster met de foutmelding 'Oeps' wordt weergegeven nadat u het dialoogvenster voor verificatie hebt doorgegeven, wordt dit meestal veroorzaakt door een probleem bij het verbinden met de gegevens voor het inhoudspakket. Controleer of de URL het patroon heeft dat eerder is aangegeven:  
-    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')
+    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('<em>CRONUS%20US</em>')
 
 Een veelvoorkomende fout is het opgeven van de volledige URL voor een specifieke webservice:  
-    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')/powerbifinance
+    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('<em>CRONUS%20US</em>')/powerbifinance
 
 Of u bent mogelijk vergeten om de bedrijfsnaam op te geven:   
-    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/
+    https://<em>mycronusus</em>.projectmadeira.com:7048/NAV/OData/
 
 ## <a name="next-steps"></a>Volgende stappen
-[Aan de slag met Power BI](service-get-started.md)
+[Wat is Power BI?](power-bi-overview.md)
 
 [Power BI - basisconcepten](service-basic-concepts.md)
 

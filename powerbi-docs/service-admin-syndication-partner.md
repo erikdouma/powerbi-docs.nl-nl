@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 67863b261bb8f3490d20ad21786313541df33388
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: a86b1d6823a1d889b47015d1213a9a056c537703
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250310"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926646"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Kan Power BI niet toevoegen aan een abonnement voor een Office 365-partner
 Met Office 365 kunnen bedrijven Office 365 gebundeld en geïntegreerd met hun eigen oplossingen verkopen en eindklanten één aanspreekpunt bieden voor inkopen, facturering en ondersteuning.
@@ -33,7 +33,7 @@ Als u Power BI niet rechtstreeks kunt kopen, hebt u toch een aantal opties, afha
 
 [Power BI (gratis)](#power-bi-free)
 
-[Power BI Pro en Premium](#power-bi-pro)
+[Power BI Pro en Premium](#power-bi-pro-and-premium)
 
 ## <a name="power-bi-free"></a>Power BI (gratis)
 Als u tevreden bent met het gratis aanbod voor Power BI, kunt u zich aanmelden voor de gratis service. Standaard zijn individuele aanmeldingen, ook wel ad-hoc-abonnementen genoemd, uitgeschakeld. Wanneer u zich aanmeldt voor Power BI, ziet u een bericht dat uw IT-afdeling de aanmelding voor Microsoft Power BI heeft uitgeschakeld.

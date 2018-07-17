@@ -1,6 +1,6 @@
 ---
-title: Aan de slag met de Power BI-service
-description: Aan de slag met de Power BI-service
+title: Aan de slag met Power BI-service (Power BI Online)
+description: Aan de slag met Power BI Online (app.powerbi.com)
 author: adamw
 manager: kfile
 ms.reviewer: ''
@@ -8,22 +8,37 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: d66653ebe9232cb6da2f3c53b01e791ca9966db9
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1c4f710cd048fc2c2828f0386d23328c164bb3fb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34310125"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598639"
 ---
-# <a name="get-started-with-power-bi-service-apppowerbicom"></a>Aan de slag met de Power BI-service (app.powerbi.com)
-In deze zelfstudie leest u hoe u aan de slag kunt met de ***Power BI-service***. Als u wilt weten hoe de Power BI-service aansluit bij de andere Power BI-aanbiedingen, is het een goed idee om eerst [Wat is Power BI?](guided-learning/gettingstarted.yml?tutorial-step=1) te lezen.
+# <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Zelfstudie: Aan de slag met Power BI-service (app.powerbi.com)
+In deze zelfstudie leest u hoe u aan de slag kunt met de ***Power BI-service***. Als u wilt weten hoe de Power BI-service aansluit bij de andere Power BI-aanbiedingen, is het een goed idee om eerst [Wat is Power BI?](power-bi-overview.md) te lezen.
 
-![Illustratie van relatie tussen Desktop, service en mobiel](media/service-get-started/power-bi-components.png)
+![illustratie van relatie tussen Desktop, service en mobiel](media/service-get-started/power-bi-components.png)
 
-Er is een gratis versie en een Pro-versie van de Power BI-service. Ongeacht welke versie u gebruikt: *als u al een account hebt*, opent u een browser en typt u app.powerbi.com om de Power BI-service te openen. Als u een nieuwe gebruiker bent, kunt u het beste beginnen op www.powerbi.com. Vanaf deze pagina kunt u meer informatie vinden over Power BI voordat u zich bij de service aanmeldt.  Wanneer u klaar bent om de service te proberen, selecteert u de koppeling **Gratis aanmelden** die u in de rechterbovenhoek ziet. Als uw beheerder Power BI al voor u heeft ingeschakeld, hoeft u de knop Gratis aanmelden niet te gebruiken maar kunt u rechtstreeks naar app.powerbi.com gaan. 
+In deze zelfstudie voert u de volgende stappen uit:
+
+> [!div class="checklist"]
+> * Andere inhoud zoeken om aan de slag te gaan met Power BI-service
+> * Inloggen op uw Power BI Online-account of u aanmelden voor een account als u er nog geen hebt
+> * De Power BI-service openen
+> * Enkele gegevens ophalen en openen in de rapportweergave
+> * Deze gegevens gebruiken om visualisaties te maken en op te slaan als een rapport
+> * Een dashboard maken door tegels van het rapport vast te maken
+> * Een andere visualisatie toevoegen aan uw dashboard met behulp van Q&A (query's uitvoeren in natuurlijke taal)
+> * Resources opschonen door het verwijderen van de gegevensset, het rapport en het dashboard
+
+## <a name="sign-up-for-power-bi-service"></a>Aanmelden voor Power BI-service
+Als u zich niet hebt aangemeld voor Power BI, kunt u zich [aanmelden voor een gratis Power BI Pro-proefversie](https://app.powerbi.com/signupredirect?pbi_source=web) voordat u begint.
+
+Als u al een account hebt, opent u een browser en typt u app.powerbi.com om Power BI-service te openen. 
 
 ![Gratis aanmelden of registreren](media/service-get-started/power-bi-sign-up.png)
 
@@ -36,10 +51,9 @@ Bezoek onze [afspeellijst op YouTube](https://www.youtube.com/playlist?list=PL1N
 > 
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
 > 
-> 
-> 
 
-Microsoft Power BI helpt u om up-to-date te blijven met de informatie die belangrijk voor u is.  Met behulp van de ***dashboards*** van de Power BI-service weet u altijd precies wat er speelt in uw bedrijf.  De dashboards bevatten ***tegels*** waarop u kunt klikken om ***rapporten*** te openen voor nog meer inzicht in de gegevens.  U kunt verbinding maken met verschillende ***gegevenssets*** om alle relevante gegevens op één plek samen te brengen. Wilt u weten wat de bouwstenen zijn van Power BI?  Zie [Power BI - Basisconcepten](service-basic-concepts.md).
+## <a name="what-is-power-bi-service"></a>Wat is Power BI-service?
+Microsoft Power BI-service wordt ook wel Power BI Online of app.powerbi.com genoemd. Power BI helpt u om up-to-date te blijven met de informatie die belangrijk voor u is.  Met behulp van de ***dashboards*** van de Power BI-service weet u altijd precies wat er speelt in uw bedrijf.  De dashboards bevatten ***tegels*** waarop u kunt klikken om ***rapporten*** te openen voor nog meer inzicht in de gegevens.  U kunt verbinding maken met verschillende ***gegevenssets*** om alle relevante gegevens op één plek samen te brengen. Wilt u weten wat de bouwstenen zijn van Power BI?  Zie [Power BI - Basisconcepten](service-basic-concepts.md).
 
 Als u belangrijke gegevens hebt verzameld in Excel- of CSV-bestanden, kunt u een Power BI-dashboard maken om overal en altijd op de hoogte te blijven en inzichten te delen met anderen.  Hebt u een abonnement op een SaaS-toepassing zoals Salesforce?  U kunt een goede start maken door verbinding te maken met Salesforce en automatisch een dashboard te maken van die gegevens. [Bekijk ook alle andere SaaS-apps](service-get-data.md) waarmee u verbinding kunt maken. Als u deel uitmaakt van een organisatie, controleert u of er misschien [apps](service-create-distribute-apps.md) voor u zijn gepubliceerd.
 
@@ -48,7 +62,7 @@ Lees hier meer over de andere manieren om [gegevens op te halen voor Power BI](s
 ## <a name="step-1-get-data"></a>Stap 1: Gegevens ophalen
 Hier volgt een voorbeeld van het ophalen van gegevens uit een CSV-bestand. Wilt u deze zelfstudie zelf uitvoeren? [Download dan dit CSV-voorbeeldbestand](http://go.microsoft.com/fwlink/?LinkID=521962).
 
-1. [Meld u aan bij Power BI](http://www.powerbi.com/). Hebt u geen account? Geen probleem, u kunt er gratis een aanvragen.
+1. [Meld u aan bij Power BI](http://www.powerbi.com/). Hebt u geen account? Geen probleem, u kunt zich aanmelden voor een gratis proefversie.
 2. Power BI wordt geopend in uw browser. Selecteer **Gegevens ophalen** onderin de linkernavigatiebalk.
    
    ![Gegevens ophalen](media/service-get-started/getdata3.png)
@@ -94,21 +108,21 @@ Nu u verbinding met de gegevens hebt gemaakt, kunt u gaan verkennen.  Wanneer u 
    
    ![Speldpictogram](media/service-get-started/pinnew.png)
 
-5. Omdat dit een nieuw rapport is, wordt u gevraagd dit rapport op te slaan voordat u een visualisatie aan een dashboard kan vastmaken. Geef uw rapport een naam (bijv. *Verkoop over periode*) en selecteer **Opslaan en doorgaan**. 
+4. Omdat dit een nieuw rapport is, wordt u gevraagd dit rapport op te slaan voordat u een visualisatie aan een dashboard kan vastmaken. Geef uw rapport een naam (bijv. *Verkoop over periode*) en selecteer **Opslaan en doorgaan**. 
    
    ![Dialoogvenster Rapport opslaan](media/service-get-started/pbi_getstartsaveb4pinnew.png)
    
-6. Laten we het lijndiagram aan het nieuwe dashboard vastmaken aan en deze de naam 'Financieel voorbeeld voor de zelfstudie' geven. 
+5. Laten we het lijndiagram aan het nieuwe dashboard vastmaken aan en deze de naam 'Financieel voorbeeld voor de zelfstudie' geven. 
    
    ![Het rapport een naam geven](media/service-get-started/power-bi-pin.png)
    
- 1. Selecteer **Vastmaken**.
+1. Selecteer **Vastmaken**.
    
     U ontvangt een bericht (in de rechterbovenhoek) dat de visualisatie als tegel aan uw dashboard is toegevoegd.
    
     ![Dialoogvenster Aan dashboard vastgemaakt](media/service-get-started/power-bi-pin-success.png)
 
-8. Selecteer **Naar het dashboard gaan** om de lijndiagram, die als tegel aan uw nieuwe dashboard is vastgemaakt, te bekijken. Maak het dashboard nog beter door meer visualisatietegels toe te voegen en [tegels een andere naam te geven, groter of kleiner te maken, te koppelen en te verplaatsen](service-dashboard-edit-tile.md).
+6. Selecteer **Naar het dashboard gaan** om de lijndiagram, die als tegel aan uw nieuwe dashboard is vastgemaakt, te bekijken. Maak het dashboard nog beter door meer visualisatietegels toe te voegen en [tegels een andere naam te geven, groter of kleiner te maken, te koppelen en te verplaatsen](service-dashboard-edit-tile.md).
    
    ![Dashboard waarin visualisatie is vastgemaakt](media/service-get-started/power-bi-new-dashboard.png)
    
@@ -128,26 +142,21 @@ Nu u verbinding met de gegevens hebt gemaakt, kunt u gaan verkennen.  Wanneer u 
 
    ![Dashboard waarin grafiek is vastgemaakt](media/service-get-started/power-bi-final-dashboard.png)
 
+## <a name="clean-up-resources"></a>Resources opschonen
+Nu u de zelfstudie hebt voltooid, kunt u de gegevensset, het rapport en het dashboard verwijderen. 
+
+1. Selecteer **Mijn werkruimte** in de linkernavigatiebalk.
+2. Selecteer het tabblad **Gegevenssets** en zoek de gegevensset die u voor deze zelfstudie hebt geïmporteerd.  
+3. Selecteer het beletselteken (...) > **Verwijderen**.
+
+    ![De gegevensset verwijderen](media/service-get-started/power-bi-delete.jpg)
+
+    Als u de gegevensset verwijdert, worden ook het rapport en het dashboard verwijderd. 
+
+
 ## <a name="next-steps"></a>Volgende stappen
 Klaar om meer uit te proberen?  Hier volgen enkele goede manieren om nader kennis te maken met Power BI.
 
-* [Verbinding maken met een andere gegevensset](service-get-data.md).
-* [Uw dashboard delen](service-share-dashboards.md) met uw collega's.
-* [Tips voor het ontwerpen van dashboards lezen](service-dashboards-design-tips.md).
-* Uw dashboards bekijken met een [Power BI-app op een mobiel apparaat](mobile-apps-for-mobile-devices.md).
-
-Nog niet helemaal zeker van uw zaak? Neem dan eerst deze onderwerpen door om nog meer vertrouwd te raken met Power BI.
-
-* [Lees hoe rapporten, gegevenssets, dashboards en tegels bij elkaar passen](service-basic-concepts.md)
-* Ga naar onze website voor [Power BI Guided Learning](guided-learning/index.md) (Power BI: Gestuurd leren) om een aantal (zeer korte) trainingen te volgen
-* Bekijk enkele [Power BI-video's](videos.md)
-* [Voorbeelden die u kunt gebruiken](sample-datasets.md)
-
-### <a name="stay-in-touch-with-power-bi"></a>Blijf op de hoogte met Power BI
-* Volg [@MSPowerBI op Twitter](https://twitter.com/mspowerbi)
-* Abonneer u op ons [YouTube-videokanaal](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
-* Bekijk onze [introductiewebinars over Power BI](webinars.md) wanneer het u uitkomt
-* Weet u niet zeker waar u de juiste informatie kunt vinden? Ga naar onze [pagina met tien tips voor het krijgen van hulp](service-tips-for-finding-help.md).
-
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+> [!div class="nextstepaction"]
+> [Verbinding maken met de onlineservices die u gebruikt](./service-connect-to-services.md)
 

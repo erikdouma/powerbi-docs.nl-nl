@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 94b019f04fb6fabcad3092524fd2724015a6d8e1
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 7cc2519353be7f83f69cdc6dda9d5f1a8ccc33a3
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242185"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137010"
 ---
 # <a name="connect-to-microsoft-dynamics-marketing-with-power-bi"></a>Verbinding maken met Microsoft Dynamics Marketing in Power BI
 Met het Microsoft Dynamics Marketing-inhoudspakket voor Power BI kunt u eenvoudig toegang krijgen tot uw gegevens en uw gegevens van Dynamics Marketing analyseren. Het inhoudspakket maakt gebruik van een beschrijvend model boven op de OData-feed, met alle benodigde entiteiten en meetwaarden zoals Programma's, Campagnes, Marketing-contactpersonen en bedrijven, Potentiële klanten, Leadscores, E-mailmarketingberichten en websites, gedragsonderzoek, budgetten, financiële transacties, prestatie-KPI's en nog veel meer. 
@@ -72,5 +72,5 @@ Als er problemen blijven optreden, opent u een ondersteuningsticket om contact o
 ## <a name="next-steps"></a>Volgende stappen
 [Gegevens ophalen voor Power BI](service-get-data.md)
 
-[Aan de slag met Power BI](service-get-started.md)
+[Wat is Power BI?](power-bi-overview.md)
 

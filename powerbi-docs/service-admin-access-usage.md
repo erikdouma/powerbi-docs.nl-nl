@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 50ace772c24b2a9e706e82ca16ddcb36d8b6b60c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c1ac019b0d6f80c3129b105336f71a71e0925648
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722196"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926531"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Power Bi-gebruikers zoeken die zich hebben aangemeld
 Als u tenantbeheerder bent en u wilt zien wie zich heeft aangemeld bij Power BI, kunt u met behulp van de toegangs- en gebruiksrapporten van Azure Active Directory meer zichtbaarheid krijgen.
@@ -25,9 +25,7 @@ Als u tenantbeheerder bent en u wilt zien wie zich heeft aangemeld bij Power BI,
 U kunt het activiteitenrapport openen binnen de [nieuwe](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-activity-sign-ins) en de [klassieke](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports) portals voor Azure Active Directory (Azure AD). Hoewel in de video hierboven de klassieke portal als voorbeeld wordt gebruikt, wordt de nieuwe portal in dit artikel belicht.
 
 > [!NOTE]
-> Dit activiteitenrapport betreft zowel Power BI- (gratis) als Pro-gebruikers, maar maakt geen onderscheid in de licentie waarover ze beschikken.
-> 
-> 
+> In dit activiteitenrapport wordt niet het type licentie van elke gebruiker weergegeven.
 
 ## <a name="requirements"></a>Vereisten
 Hier volgen de vereisten om het rapport van aanmeldingsactiviteiten weer te geven.
@@ -70,7 +68,7 @@ Gegevens met betrekking tot aanmelden kunnen maximaal 30 dagen beschikbaar zijn.
 
 ## <a name="next-steps"></a>Volgende stappen
 [Rapporten van aanmeldingsactiviteiten in de Azure Active Directory-portal (nieuwe portal)](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-activity-sign-ins)  
-[Uw toegangs- en gebruiksrapporten weergeven (klassieke portal)](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports#view-or-download-a-report)  
+[Uw toegangs- en gebruiksrapporten weergeven (klassieke portal)](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports)  
 [PowerShell-scriptvoorbeeld aanmelding](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-sign-in-activity-samples#powershell-script)  
 [Bewaarbeleid Azure Active Directory-rapporten](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-retention)  
 [Auditing gebruiken binnen uw organisatie](service-admin-auditing.md)  

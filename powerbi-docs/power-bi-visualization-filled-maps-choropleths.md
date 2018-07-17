@@ -8,28 +8,28 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5933404b9429ca773ed119addd81d86ad1a28597
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: f056ccb9e8fca4122aa4417a50f1fbd6993a9c2a
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34293048"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944578"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Choropletenkaarten in Power BI
 In een choropletenkaart worden arcering, tinten of patronen gebruikt om aan te geven hoe een waarde in verhouding verschilt voor een geografisch gebied of regio.  U kunt zo snel deze relatieve verschillen laten zien met behulp van arcering die varieert van licht (minder frequent/lager) tot donker (meer-frequent/hoger).    
 
-![](media/power-bi-visualization-filled-maps-choropleths/large_map.png)
+![Kaart van VS](media/power-bi-visualization-filled-maps-choropleths/large_map.png)
 
 ## <a name="what-is-sent-to-bing"></a>Welke gegevens worden naar Bing verzonden?
 Power BI is geïntegreerd met Bing om standaardkaartcoördinaten te bieden (een proces dat geocodering wordt genoemd). Wanneer u een visualisatie van een kaart maakt in de Power BI-service of Power BI Desktop, worden de gegevens in de buckets **Locatie**, **Breedtegraad** en **Lengtegraad** naar Bing verzonden. Deze buckets worden trouwens gebruikt om de visualisatie te maken.
 
 U of uw beheerder moet mogelijk uw firewall bijwerken om toegang te krijgen tot de URL’s die Bing gebruikt voor geocodering.  Deze URL's zijn:
-* https://dev.virtualearth.net/REST/V1/Locations
-* https://platform.bing.com/geo/spatial/v1/public/Geodata
-* https://www.bing.com/api/maps/mapcontrol
+    * https://dev.virtualearth.net/REST/V1/Locations
+    * https://platform.bing.com/geo/spatial/v1/public/Geodata
+    * https://www.bing.com/api/maps/mapcontrol
 
 Meer informatie over de gegevens die naar Bing worden verzonden en tips voor het verbeteren van de geocodering leest u in [Tips and tricks for map visualizations](power-bi-map-tips-and-tricks.md) (Tips en trucs voor kaartvisualisaties).
 
@@ -58,30 +58,30 @@ In deze video maakt Kim een eenvoudige kaart en zet deze om in een choropletenka
 1. Als u zelf een choropletenkaart wilt maken, [downloadt u het voorbeeld van verkoop en marketing](sample-datasets.md) door u aan te melden bij Power BI en **Gegevens ophalen \> Voorbeelden \> Voorbeeld van verkoop en marketing \> Verbinden** te selecteren.
 2. Wanneer het bericht verschijnt dat het downloaden is voltooid, selecteert u **Gegevensset weergeven**.
 
-   ![](media/power-bi-visualization-filled-maps-choropleths/power-bi-view-dataset.png)
+   ![Het bericht Geslaagd](media/power-bi-visualization-filled-maps-choropleths/power-bi-view-dataset.png)
 3. Power BI opent een leeg rapportcanvas in de [bewerkingsweergave](service-interact-with-a-report-in-editing-view.md).
 
-    ![](media/power-bi-visualization-filled-maps-choropleths/power-bi-blank-canvas.png)
+    ![Nieuw rapport](media/power-bi-visualization-filled-maps-choropleths/power-bi-blank-canvas.png)
 4. Selecteer in het deelvenster Velden het veld **Geo** \> **State**.    
 
-   ![](media/power-bi-visualization-filled-maps-choropleths/img002.png)
+   ![geel vinkje naast de status](media/power-bi-visualization-filled-maps-choropleths/img002.png)
 5. [Converteer de kaart](power-bi-report-change-visualization-type.md) naar een choropletenkaart. U ziet dat **State** nu ook wordt vermeld onder **Locatie**. Bing Kaarten gebruikt het veld onder **Locatie** om de kaart te maken.  Het deelvenster Locatie kan een aantal geldige locaties bevatten: landen, staten, provincies, steden, postcodes, enzovoort. Bing Kaarten kan choropletenkaarten maken voor locaties over de hele wereld. Hiervoor is wel een geldige vermelding in het deelvenster Locatie vereist.  
 
-   ![](media/power-bi-visualization-filled-maps-choropleths/img003.png)
+   ![sjablonen met het pictogram voor choropletenkaart gemarkeerd](media/power-bi-visualization-filled-maps-choropleths/img003.png)
 6. Filter de kaart om alleen het vasteland van de Verenigde Staten weer te geven.
 
    a.  Onder aan het deelvenster Visualisaties ziet u het gebied **Filters**.
 
    b.  Beweeg de muisaanwijzer over **State** en klik op de pijl-omlaag.  
-   ![](media/power-bi-visualization-filled-maps-choropleths/img004.png)
+   ![Filters voor visueel niveau die State(All) weergeven](media/power-bi-visualization-filled-maps-choropleths/img004.png)
 
    c.  Zet een vinkje naast **Alles selecteren** en verwijder het vinkje bij **AK**.
 
-   ![](media/power-bi-visualization-filled-maps-choropleths/img005.png)
+   ![Status van de vervolgkeuzelijst waarbij Alles en AK niet zijn geselecteerd](media/power-bi-visualization-filled-maps-choropleths/img005.png)
 7. Selecteer **SalesFact** \> **Sentiment** om dit veld toe te voegen aan het vak **Kleurverzadiging**. Het veld in het vak **Kleurverzadiging** bepaalt de kaartarcering.  
-   ![](media/power-bi-visualization-filled-maps-choropleths/power-bi-color-saturation.png)
+   ![Sentiment in het vak Kleurverzadiging](media/power-bi-visualization-filled-maps-choropleths/power-bi-color-saturation.png)
 8. De choropletenkaart is groen gearceerd, met lichtgroen voor lagere gevoelscijfers en donkergroen voor een hoger, positiever gevoel.  Hier heb ik echter de staat Wyoming (WY) geselecteerd en daar valt op dat het gevoel zeer goed is, namelijk 74.  
-   ![](media/power-bi-visualization-filled-maps-choropleths/img007.png)
+   ![zwart dialoogvenster met de status en het sentiment](media/power-bi-visualization-filled-maps-choropleths/img007.png)
 9. [Sla het rapport op](service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>Markeren en kruislings filteren
@@ -92,13 +92,13 @@ Als u een locatie op een choropletenkaart markeert, worden de andere visualisati
 Als u de stappen wilt volgen, kopieert en plakt u de kaart naar de pagina **Sentiment** van het rapport *Sales and Marketing*.
 
 1. Selecteer een staat op de choropletenkaart.  Hiermee worden de andere visualisaties op de pagina gemarkeerd. Als u bijvoorbeeld **Texas** selecteert, ziet u dat de gevoelswaarde 74 is, dat Texas zich bevindt in het Central District \#23 en dat de meeste omzet afkomstig is uit de segmenten Moderation en Convenience.   
-   ![](media/power-bi-visualization-filled-maps-choropleths/img008.png)
+   ![Texas geselecteerd](media/power-bi-visualization-filled-maps-choropleths/img008.png)
 2. Schakel op het lijndiagram tussen **No** en **Yes**. Hierdoor wordt de choropletenkaart gefilterd op gevoel voor VanArsdel en op concurrentie voor VanArsdel.  
-   ![](media/power-bi-visualization-filled-maps-choropleths/img009.gif)
+   ![video over het schakelen](media/power-bi-visualization-filled-maps-choropleths/img009.gif)
 
-## <a name="considerations-and-troubleshooting"></a>Overwegingen en probleemoplossing
+## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 Kaartgegevens kunnen dubbelzinnig zijn.  Er is bijvoorbeeld een Parijs in Frankrijk, maar ook in Texas. Uw geografische gegevens worden waarschijnlijk opgeslagen in afzonderlijke kolommen (een kolom voor plaatsnamen, een kolom voor namen van staten of provincies, enzovoort), zodat Bing onmogelijk kan vaststellen of het om de Franse versie of Texaanse versie van Parijs gaat. Als uw gegevensset al de breedtegraad- en lengtegraadgegevens bevat, zijn er in Power BI speciale velden beschikbaar om de kaartgegevens uniek te maken. Sleep hiervoor het veld met de breedtegraadgegevens naar het gebied Visualisaties \> Breedtegraad.  Doe hetzelfde voor de lengtegraadgegevens.  
-![](media/power-bi-visualization-filled-maps-choropleths/pbi_latitude.png)
+![Deelvensters Visualisaties en Velden](media/power-bi-visualization-filled-maps-choropleths/pbi_latitude.png)
 
 Als u gemachtigd bent om de gegevensset te bewerken in Power BI Desktop, bekijkt u deze video voor het oplossen van problemen met dubbelzinnigheid in kaarten.
 

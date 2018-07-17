@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 297805d187ccdea2c04e0b79ad86723ec80d3f80
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f4d16a5694dde63b66dcb001f1a5375ed92d978c
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310056"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137164"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>10 tips voor hulp bij uw vragen over Power BI
 Raakt u ooit gefrustreerd bij het gebruik van Power BI of krijgt u geen antwoorden op uw vragen over Power BI wanneer u ze nodig hebt, dat wil zeggen ‘precies op tijd’? 
@@ -69,6 +69,6 @@ Als al het andere mislukt, is de laatste tip om het systeem te observeren. Vaak 
 U vraagt zich bijvoorbeeld af of u dashboards kunt delen met een beveiligingsgroep. Ga om deze vraag te beantwoorden naar het dialoogvenster Delen en probeer een beveiligingsgroep toe te voegen. Hoe dan ook, na deze test hebt u uw antwoord.
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Aan de slag met Power BI](service-get-started.md)
-* Misschien dat de [Power Bi-community](http://community.powerbi.com/) het antwoord weet
+* [Wat is Power BI?](power-bi-overview.md)
+* [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 * Nog steeds geen antwoord? Ga naar de [ondersteuningspagina van Power BI](https://powerbi.microsoft.com/support/) (Engelstalig)

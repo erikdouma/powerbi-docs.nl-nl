@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f283a8ed273dcb609e9d5160adbeb714e8935ab9
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 57e1e8ce015db9b5f88f7b685c80092023540a6f
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34251928"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599130"
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Verbinding maken met Zuora via Power BI
 Met Zuora voor Power BI kunt u belangrijke omzet-, facturerings- en abonnementsgegevens visualiseren. Gebruik het standaarddashboard en de rapporten om gebruikstrends, facturen en betalingen te analyseren en terugkerende inkomsten te controleren, of pas ze aan om te voldoen aan uw eigen unieke dashboard- en rapportagebehoeften.
@@ -32,7 +32,7 @@ Verbinding maken met [Zuora](https://app.powerbi.com/getdata/services/Zuora) voo
 3. Selecteer **Zuora** \> **Ophalen**.
 
    ![](media/service-connect-to-zuora/zuora.png)
-4. Geef uw Zuora-URL op. Dit is doorgaans https://www.zuora.com. Bekijk hieronder de details voor het [zoeken naar die parameters](#FindingParams).
+4. Geef uw Zuora-URL op. Dit is doorgaans <https://www.zuora.com>. Bekijk hieronder de details voor het [zoeken naar die parameters](#FindingParams).
 
    ![](media/service-connect-to-zuora/params.png)
 5. Selecteer voor **Verificatiemethode** de optie **Standaard** en geef uw gebruikersnaam en wachtwoord (hoofdlettergevoelig) op. Selecteer vervolgens **Aanmelden**.

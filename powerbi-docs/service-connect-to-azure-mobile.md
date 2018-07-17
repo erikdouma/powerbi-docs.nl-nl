@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 336ae9cd9ac2940b244df88aaf5a8fff7bd3a55e
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 2d2d983da6de5ec88574092289ed2958c7a98923
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241837"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600407"
 ---
 # <a name="connect-to-azure-mobile-engagement-with-power-bi"></a>Met Power BI verbinding maken met Azure Mobile Engagement
 Met het Azure Mobile Engagement-inhoudspakket voor Power BI kunt u snel inzicht verkrijgen in uw app-gegevens.
@@ -42,7 +42,7 @@ Verbinding maken met het [inhoudspakket van Azure Mobile Engagement](https://app
    
     ![](media/service-connect-to-azure-mobile/dashboard.png)
 
- **Wat nu?**
+## <a name="what-now"></a>Wat nu?
 
 * [Stel vragen in het vak Q&A](power-bi-q-and-a.md) boven in het dashboard.
 * [Wijzig de tegels](service-dashboard-edit-tile.md) in het dashboard.

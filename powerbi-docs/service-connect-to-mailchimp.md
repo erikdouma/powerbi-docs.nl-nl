@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6a62b97a4c7d75644bd3a824118414509ef8438f
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: f54841b77d79854334ddb6d93ccdc9b5926201ac
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241177"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136689"
 ---
 # <a name="connect-to-mailchimp-with-power-bi"></a>Verbinding met MailChimp maken via Power BI
 Met het Power BI-inhoudspakket worden gegevens opgehaald uit uw MailChimp-account en worden een dashboard, een set met rapporten en een gegevensset gegenereerd die u kunt gebruiken om uw gegevens te verkennen. Haal analyses op om [MailChimp-dashboards](https://powerbi.microsoft.com/integrations/mailchimp) te maken en snel trends voor uw campagnes, rapporten en individuele abonnees te identificeren. De gegevens worden dagelijks vernieuwd, zodat u zeker weet dat uw bewakingsgegevens up-to-date zijn.
@@ -51,7 +51,7 @@ Maak verbinding met het [MailChimp-inhoudspakket](https://app.powerbi.com/getdat
 * Als uw gegevensset is ingesteld op dagelijks vernieuwen, kunt u het vernieuwingsschema wijzigen of de gegevensset handmatig vernieuwen met **Nu vernieuwen**
 
 ## <a name="next-steps"></a>Volgende stappen
-[Aan de slag met Power BI](service-get-started.md)
+[Wat is Power BI?](power-bi-overview.md)
 
 [Power BI - basisconcepten](service-basic-concepts.md)
 

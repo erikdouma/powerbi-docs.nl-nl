@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 779bfb3e69a76d0fe9e9a34d6576b2054de89cc1
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: aa7fcc720861d1459183aaf7a82a2af8912eb5b6
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34253614"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599743"
 ---
 # <a name="data-refresh-in-power-bi"></a>Gegevens vernieuwen in Power BI
 Het maken van de juiste keuzes is sterk afhankelijk van of u beschikt over de recentste gegevens. U hebt waarschijnlijk al de functie Gegevens ophalen in Power BI gebruikt om verbinding te maken met gegevens, gegevens te uploaden, en enkele rapporten en een dashboard te maken. Nu is het belangrijk om ervoor te zorgen dat uw gegevens echt actueel zijn.
@@ -101,6 +101,7 @@ Gegevensvernieuwing wordt ondersteund voor Power BI Desktop-bestanden en Excel-w
 U krijgt de beschikking over zeer veel flexibiliteit als u uw bestanden opslaat in OneDrive of SharePoint Online en dan vanuit Power BI verbinding met de bestanden maakt. Maar deze flexibiliteit zorg er ook voor dat dit een van de lastigste scenario's kan zijn om te begrijpen. Geplande vernieuwing voor bestanden die zijn opgeslagen in OneDrive of SharePoint Online, is anders dan pakketvernieuwing. In de sectie [Soorten gegevensvernieuwing](#types-of-refresh) kunt u hier meer over lezen.
 
 ### <a name="power-bi-desktop-file"></a>Power BI Desktop-bestand
+
 | **Gegevensbron** | **Automatische vernieuwing** | **Door gebruiker geconfigureerde handmatige of geplande vernieuwing** | **Gateway vereist** |
 | --- | --- | --- | --- |
 | De opdracht Gegevens ophalen (op het lint) wordt gebruikt om verbinding te maken met gegevens uit vermelde online-gegevensbronnen en om deze gegevens op te vragen. |Nee |Ja |Nee (zie hieronder) |
@@ -117,6 +118,7 @@ U krijgt de beschikking over zeer veel flexibiliteit als u uw bestanden opslaat 
 Meer informatie kunt u lezen in [Een gegevensset vernieuwen die is gemaakt van een Power BI Desktop-bestand in OneDrive](refresh-desktop-file-onedrive.md).
 
 ### <a name="excel-workbook"></a>Excel-werkmap
+
 | **Gegevensbron** | **Automatische vernieuwing** | **Door gebruiker geconfigureerde handmatige of geplande vernieuwing** | **Gateway vereist** |
 | --- | --- | --- | --- |
 | Tabellen met gegevens in een werkblad dat niet is geladen in het Excel-gegevensmodel. |Ja, elk uur *(alleen OneDrive/SharePoint Online)* |Alleen handmatig *(alleen OneDrive/SharePoint Online)* |Nee |
@@ -131,6 +133,7 @@ Meer informatie kunt u lezen in [Een gegevensset vernieuwen die is gemaakt van e
 Meer gedetailleerde informatie vindt u in [Een gegevensset vernieuwen die is gemaakt op basis van een Excel-werkmap in OneDrive](refresh-excel-file-onedrive.md).
 
 ### <a name="comma-separated-value-csv-file-on-onedrive-or-sharepoint-online"></a>Bestand met door komma's gescheiden waarden (.csv) in OneDrive of SharePoint Online
+
 | **Gegevensbron** | **Automatische vernieuwing** | **Door gebruiker geconfigureerde handmatige of geplande vernieuwing** | **Gateway vereist** |
 | --- | --- | --- | --- |
 | Eenvoudige, door komma's gescheiden waarden |Ja (elk uur) |Alleen handmatig |Nee |
@@ -145,6 +148,7 @@ Er zijn twee soorten inhoudspakketten in Power BI:
 **Organisatie-inhoudspakketten**: deze worden gemaakt en gedeeld door gebruikers in uw eigen organisatie. Gebruikers van inhoudspakketten kunnen geen schema voor gegevensvernieuwing instellen of handmatig vernieuwen. Alleen de maker van het inhoudspakket kan vernieuwen instellen voor de gegevenssets in het inhoudspakket. Instellingen voor vernieuwen worden overgenomen met de gegevensset.
 
 ### <a name="content-packs-from-online-services"></a>Inhoudspakketten uit onlineservices
+
 | **Gegevensbron** | **Automatische vernieuwing** | **Door gebruiker geconfigureerde handmatige of geplande vernieuwing** | **Gateway vereist** |
 | --- | --- | --- | --- |
 | Onlineservices in Gegevens ophalen &gt; Services |Ja |Ja |Nee |
@@ -237,7 +241,7 @@ In dit geval kunt u de gegevens in de gegevensset Verkooprapport.xlsx handmatig 
 > 
 > 
 
-Meer informatie vindt u in [Excel-gegevens in Power BI](service-excel-workbook-files.md), [Power BI Gateway - Personal](personal-gateway.md), [On-premises gegevensgateway](service-gateway-onprem.md), [Een gegevensset vernieuwen die is gemaakt op basis van een Excel-werkmap op een lokaal station](refresh-excel-file-local-drive.md).
+Meer informatie vindt u in [Excel-gegevens in Power BI](service-excel-workbook-files.md), [Power BI Gateway - Personal](service-gateway-personal-mode.md), [On-premises gegevensgateway](service-gateway-onprem.md), [Een gegevensset vernieuwen die is gemaakt op basis van een Excel-werkmap op een lokaal station](refresh-excel-file-local-drive.md).
 
 ### <a name="power-bi-desktop-file-with-data-from-an-odata-feed"></a>Power BI Desktop-bestand met gegevens uit een OData-feed
 In dit geval gebruikt u Gegevens ophalen in Power BI Desktop om verbinding te maken met tellinggegevens in een OData-feed en deze te importeren.  U maakt verschillende rapporten in Power BI Desktop, geeft het bestand de naam WACensus en slaat het op in een share van uw bedrijf. U publiceert het bestand vervolgens naar de Power BI-service.
@@ -270,7 +274,7 @@ Zie [Problemen oplossen met on-premises gateway](service-gateway-onprem-tshoot.m
 ## <a name="next-steps"></a>Volgende stappen
 [Problemen oplossen met on-premises gateway](service-gateway-onprem-tshoot.md)  
 [Problemen met vernieuwingsscenario's oplossen](refresh-troubleshooting-refresh-scenarios.md)  
-[Power BI Gateway - Personal](personal-gateway.md)  
+[Power BI Gateway - Personal](service-gateway-personal-mode.md)  
 [On-premises gegevensgateway](service-gateway-onprem.md)  
 
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

@@ -1,48 +1,46 @@
 ---
-title: Aan de slag met de mobiele Power BI-app op een iPhone
-description: Lees hoe u met de app Microsoft Power BI voor iOS op de iPhone onderweg beschikt over Power BI en mobiele toegang tot zakelijke gegevens, zowel on-premises als in de cloud.
+title: Aan de slag met de mobiele Power BI-app voor iOS
+description: Lees hoe u met de mobiele Microsoft Power BI-app voor iOS onderweg beschikt over Power BI en mobiele toegang tot zakelijke gegevens, zowel on-premises als in de cloud.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/25/2018
+ms.date: 06/27/2018
 ms.author: maggies
-ms.openlocfilehash: 9a3177dc0fe80ebc6c1041ce64b1186cb5865e37
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1700d5bb6a3c17b0a76e6cf04155050a01136e96
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34294405"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136545"
 ---
-# <a name="get-started-with-the-power-bi-mobile-app-on-an-iphone-or-ipod-touch"></a>Aan de slag met de mobiele Power BI-app op een iPhone of iPod Touch
-De Microsoft Power BI voor iOS op de iPhone of iPod Touch biedt de mobiele BI-ervaring voor Power BI, Power BI Report Server en Reporting Services. Bekijk uw bedrijfsdashboards on-premises en in de cloud en gebruik ze vanaf elke locatie met mobiele live-toegang met aanraakfunctionaliteit. Verken de gegevens in dashboards en deel deze met uw collega's per e-mail of sms-bericht. En blijf via uw [Apple Watch](mobile-apple-watch.md) op de hoogte van uw meest recente gegevens.  
+# <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>Aan de slag met de mobiele Power BI-app op iOS-apparaten
+De Microsoft Power BI-app voor iOS op de iPhone, iPad of iPod touch biedt de mobiele BI-ervaring voor Power BI, Power BI Report Server en Reporting Services. Bekijk uw bedrijfsdashboards on-premises en in de cloud, en gebruik ze vanaf elke locatie met mobiele live-toegang met aanraakfunctionaliteit. Verken de gegevens in dashboards en deel deze met uw collega's per e-mail of sms-bericht. En blijf via uw [Apple Watch](mobile-apple-watch.md) op de hoogte van uw meest recente gegevens.  
 
-![Dashboards van de mobiele Power BI-app voor de iPhone](media/mobile-iphone-app-get-started/power-bi-mobile-get-started-dash.png)
+![Mobiele Power BI-app op iPhone of iPad](media/mobile-iphone-app-get-started/pbi_ipad_iphonedevices.png)
 
 U maakt Power BI-rapporten in Power BI Desktop en publiceert deze:
 
 * [Publiceer de rapporten naar de Power BI-service](service-get-started.md) en maak dashboards.
 * [Publiceer de rapporten on-premises naar Power BI Report Server](report-server/quickstart-create-powerbi-report.md).
 
-Vervolgens gebruikt u de dashboards en rapporten on-premises of in de cloud in de Power BI-app voor de iPhone.
+Vervolgens gebruikt u de dashboards en rapporten on-premises of in de cloud in de mobiele Power BI-app voor iOS.
 
 Ontdek [wat er nieuw is in de mobiele Power BI-apps](mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="download-the-app"></a>De app downloaden
-[De iOS-app downloaden](http://go.microsoft.com/fwlink/?LinkId=522062 "Download iPhone-app") via de Apple App Store naar uw iPhone of iPod Touch.
+[De iOS-app downloaden](http://go.microsoft.com/fwlink/?LinkId=522062 "Download de iOS-app") via de Apple App Store naar uw iPhone, iPad of iPod touch.
 
-> [!NOTE]
-> U kunt de Power BI-app voor iOS uitvoeren op de iPhone 5 en hoger met iOS 10 of hoger. U kunt de app ook uitvoeren op een iPod Touch met iOS 10 of hoger.
-> 
-> 
+U kunt de Power BI-app voor iOS uitvoeren op de iPhone 5 en hoger met iOS 10 of hoger. U kunt de app ook uitvoeren op een iPad of iPod touch met iOS 10 of hoger. 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Aanmelden voor de Power BI-service
-Ga naar Power BI (https://powerbi.com)) voor de service als u dit nog niet hebt gedaan. U kunt zich gratis aanmelden.
+Als u nog niet bent aangemeld, gaat u naar [powerbi.com](https://powerbi.microsoft.com/get-started/) en selecteert u onder **Power BI - Samenwerken en delen via de cloud** de optie **Gratis proberen**.
 
-## <a name="get-started-with-the-power-bi-app"></a>Aan de slag met Power BI-app
-1. Open de Power BI-app op de iPhone.
+
+## <a name="get-started-with-the-power-bi-app"></a>Aan de slag met de Power BI-app
+1. Open de Power BI-app op uw iOS-apparaat.
 2. Tik op **Power BI** om uw Power BI-dashboards weer te geven.  
    Als u uw mobiele rapporten en KPI's van Reporting Services wilt weergeven, tikt u op **SQL Server Reporting Services**.
    
@@ -72,7 +70,7 @@ U kunt de Power BI-voorbeelddashboards bekijken en gebruiken, maar er zijn enkel
 2. Tik in de rechterbovenhoek op het ![tandwielpictogram](media/mobile-iphone-app-get-started/power-bi-ios-gear-icon.png) en tik vervolgens op **Reporting Services-voorbeelden**.
 3. Open de map Detailhandelrapporten of Verkooprapporten om de bijbehorende KPI's en mobiele rapporten te verkennen.
    
-   ![Voorbeelden van Reporting Services in de mobiele Power BI-app](media/mobile-iphone-app-get-started/power-bi-iphone-ssrs-samples.png)
+   ![Voorbeelden van Reporting Services in de mobiele Power BI-app](media/mobile-iphone-app-get-started/power-bi-reporting-services-samples.png)
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Uw inhoud in de mobiele Power BI-apps zoeken
 Uw dashboards en rapporten worden opgeslagen op verschillende locaties in de mobiele Power BI-apps. Waar ze worden opgeslagen, is afhankelijk van waar ze afkomstig zijn. Klik [hier](mobile-apps-find-content-mobile-devices.md) voor informatie over het zoeken van uw inhoud in de mobiele apps. Bovendien kunt u altijd zoeken naar alles wat u in de mobiele Power BI-apps hebt. 
@@ -104,34 +102,14 @@ Organisaties kunnen Microsoft Intune gebruiken voor het beheer van apparaten en 
 Microsoft Intune kan bijvoorbeeld worden gebruikt om een pincode voor toegang te vereisen, om te beheren hoe gegevens door de toepassing worden verwerkt of zelfs om toepassingsgegevens te versleutelen wanneer de app niet wordt gebruikt.
 
 > [!NOTE]
-> Als u de mobiele Power BI-app op uw iPhone gebruikt en uw organisatie Microsoft Intune MAM heeft geconfigureerd, is het vernieuwen van gegevens op de achtergrond uitgeschakeld. De volgende keer dat u de app gebruikt, worden de gegevens vanuit de Power BI-service op het web vernieuwd.
-> 
+> Als u de mobiele Power BI-app op uw iOS-apparaat gebruikt en uw organisatie Microsoft Intune MAM heeft geconfigureerd, is het vernieuwen van gegevens op de achtergrond uitgeschakeld. De volgende keer dat u de app gebruikt, worden de gegevens vanuit de Power BI-service op het web vernieuwd.
 > 
 
 Lees meer over [het configureren van mobiele Power BI-apps met Microsoft Intune](service-admin-mobile-intune.md). 
 
 ## <a name="next-steps"></a>Volgende stappen
-Hier volgen enkele dingen die u in de iPhone-app voor Power BI kunt doen met dashboards en rapporten in Power BI en rapporten en KPI's in de Power BI Report Server- of Reporting Services-webportal.
 
-### <a name="power-bi-dashboards-and-reports"></a>Power BI-dashboards en -rapporten
-* [Uw apps](service-install-use-apps.md) weergeven.
-* Uw [Power BI-dashboards](mobile-apps-view-dashboard.md) weergeven.
-* [In uw eigen woorden vragen over uw gegevens](mobile-apps-ios-qna.md) stellen met Q&A
-* Uw Power BI-tegels weergeven op uw [Apple Watch](mobile-apple-watch.md).
-* [Gegevensmeldingen](mobile-set-data-alerts-in-the-mobile-apps.md) instellen voor uw gegevens.
-* [Power BI-dashboards](mobile-share-dashboard-from-the-mobile-apps.md) delen.
-* [Aantekeningen maken](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) en de tegel, rapport of visualisatie delen.
-* [Een Power BI-QR-code scannen](mobile-apps-qr-code.md) om een verwante dashboardtegel of verwant rapport te openen.
-* [Fototegels maken](mobile-iphone-app-get-started.md) met uw iPhone-app.
-* [Meldingen over updates voor uw Power BI-account](mobile-apps-notification-center.md) weergeven, zoals dashboards die collega's met u delen.
-
-### <a name="reports-and-kpis-on-the-report-server-web-portals"></a>Rapporten en KPI's op de webportals van rapportserver
-* [Rapporten en KPI's op de webportal weergeven](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) in de mobiele Power BI-app voor iOS-apparaten.
-* [KPI's op de webportal](https://docs.microsoft.com/sql/reporting-services/working-with-kpis-in-reporting-services) maken.
-* [Rapporten in Power BI Desktop maken en deze publiceren op de Power BI Report Server](report-server/quickstart-create-powerbi-report.md)-webportal
-
-### <a name="see-also"></a>Zie ook
-* [Aan de slag met Power BI](service-get-started.md)
+* [Wat is Power BI?](power-bi-overview.md)
 * Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 
 

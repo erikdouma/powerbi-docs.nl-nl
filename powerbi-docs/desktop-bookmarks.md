@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d350593f3a5168d959711e1ca2bbbd8a86524187
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a69cccafa9651bbda44ea2154ebe68463c9da907
+ms.sourcegitcommit: 7e0335bd8c263b5f8ba4303b986ddc450d842297
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34288056"
+ms.lasthandoff: 06/23/2018
+ms.locfileid: "36330117"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Bladwijzers gebruiken om inzichten te delen en verhalen te vertellen in Power BI 
 Met behulp van **bladwijzers** in Power BI kunt u de momenteel geconfigureerde weergave van een rapportpagina vastleggen, inclusief filters en de status van visuals, en later terugkeren naar deze staat door eenvoudig de opgeslagen bladwijzer te selecteren. 
@@ -64,7 +64,7 @@ Nadat u een bladwijzer hebt gemaakt, kunt u deze weergeven door eenvoudig te kli
 
 U kunt ook kiezen of elke bladwijzer *gegevens*eigenschapen zal toepassen, zoals filters en slicers, de *weergave*-eigenschappen zoals spotlight en de zichtbaarheid ervan, en paginawijzigingen die de pagina tonen die zichtbaar was toen de bladwijzer werd toegevoegd. Deze mogelijkheden zijn nuttig wanneer u bladwijzers gebruikt om tussen visualisatietypen te schakelen. In dat geval wilt u waarschijnlijk de gegevenseigenschappen uitschakelen, zodat filters niet opnieuw worden ingesteld als gebruikers visualisatietypen veranderen. 
 
-Om dergelijke wijzigingen aan te brengen kiest u het beletselteken naast de naam van de bladwijzer, zoals in de vorige afbeelding, en (de)selecteert u de vinkjes bij *Gegevens*, *Weergave* en andere besturingselementen. 
+Als u dergelijke wijzigingen wilt aanbrengen, kiest u de drie puntjes naast de naam van de bladwijzer, zoals in de vorige afbeelding, en (de)selecteert u de vinkjes bij *Gegevens*, *Weergave* en andere besturingselementen. 
 
 ## <a name="arranging-bookmarks"></a>Bladwijzers ordenen
 Wanneer u bladwijzers maakt, is de volgorde waarin u ze maakt mogelijk niet dezelfde volgorde waarin u ze aan uw publiek wilt laten zien. Geen probleem. U kunt eenvoudig de volgorde van bladwijzers wijzigen.
@@ -120,7 +120,7 @@ Een andere functie die is uitgebracht samen met bladwijzers, is **Spotlight**. M
 We vergelijken **Spotlight** met de **focusmodus** om te zien hoe ze verschillen.
 
 1. In de **focusmodus** kunt u ervoor zorgen dat één visueel element het volledige canvas vult door het pictogram voor de **focusmodus** te selecteren.
-2. Met **Spotlight** kun je één visueel element in de oorspronkelijke grootte benadrukken door alle andere visuele elementen op de pagina te laten vervagen, zodat ze bijna helemaal transparant zijn. 
+2. Met **Spotlight** kunt u één visual in de oorspronkelijke grootte benadrukken door alle andere visuals op de pagina te laten vervagen, zodat ze bijna helemaal transparant zijn. 
 
 ![Focusmodus vergeleken met Spotlight](media/desktop-bookmarks/bookmarks_11.png)
 
@@ -128,7 +128,7 @@ Wanneer wordt geklikt op het **focuspictogram** van het visuele element in de vo
 
 ![focusmodus](media/desktop-bookmarks/bookmarks_12.png)
 
-Als daarentegen **Spotlight** wordt geselecteerd in het menu van het visuele element, ziet de pagina er zo uit:
+Als daarentegen **Spotlight** wordt geselecteerd in het menu van de visual, ziet de pagina er zo uit:
 
 ![spotlightmodus](media/desktop-bookmarks/bookmarks_13.png)
 
@@ -146,7 +146,7 @@ Let erop dat u de grijze bladwijzerbalk moet gebruiken om te navigeren door de b
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 Houd rekening met de volgende beperkingen en overwegingen in deze release van **bladwijzers**.
 
-* De meeste aangepaste visualisaties zouden goed met bladwijzers moeten werken. Als u problemen ondervindt met bladwijzers en een aangepaste visualisatie, neem dan contact op met de maker van die aangepaste visualisatie en vraag deze om ondersteuning voor bladwijzers toe te voegen. 
+* De meeste aangepaste visualisaties zouden goed met bladwijzers moeten werken. Als u problemen ondervindt met bladwijzers en een aangepaste visual, neem dan contact op met de maker van die aangepaste visual en vraag deze om ondersteuning voor bladwijzers toe te voegen. 
 * Als u een visueel element toevoegt aan een rapportpagina nadat u een bladwijzer hebt gemaakt, wordt het visuele element weergegeven in de standaardstaat. Dit betekent ook dat als u een slicer toevoegt aan een pagina waarop u eerder bladwijzers hebt gemaakt, de slicer in de standaardstaat wordt uitgevoerd.
 * Als visuele elementen worden verplaatst nadat een bladwijzer is gemaakt, wordt dit weerspiegeld in de bladwijzer. 
 

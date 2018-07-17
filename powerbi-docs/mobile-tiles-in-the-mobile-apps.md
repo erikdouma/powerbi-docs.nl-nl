@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 4680ab3709f1a2cbe56445e6719ea4de15396eb0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5601ab79832f2d52622f5c13ecd23f346408f08e
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297648"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598610"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Werken met tegels in de mobiele Power BI-apps
 Van toepassing op:
@@ -40,7 +40,7 @@ Vervolgens kunt u ze in een mobiele Power BI-app openen in de focusmodus om erme
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   *In dit lijndiagram ziet u bijvoorbeeld de waarden voor de omzet van **augustus** dit jaar (**This Year Sales**) en vorig jaar **Last Year Sales**.*  
+   <em>In dit lijndiagram ziet u bijvoorbeeld de waarden voor de omzet van **augustus** dit jaar (**This Year Sales</em>*) en vorig jaar (**Last Year Sales**).*  
    
    Tik in een cirkeldiagram op een segment van de cirkel om de waarde van het segment boven de cirkel weer te geven.  
    
@@ -107,7 +107,7 @@ Vervolgens kunt u ze in een mobiele Power BI-app openen in de focusmodus om erme
    
    ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_bartile0316.png)
    
-   *In dit staafdiagram worden de waarden voor de staaf **Décor** boven de grafiek weergegeven.*
+   <em>In dit staafdiagram worden de waarden voor de staaf **Décor</em>* boven de grafiek weergegeven.*
    
    Tik op het pictogram **Volledig scherm** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) om de tegel schermvullend weer te geven, zonder de navigatie- en menubalken.
    
@@ -126,6 +126,6 @@ Vervolgens kunt u ze in een mobiele Power BI-app openen in de focusmodus om erme
 4. Tik op de pijl naar links of de knop Terug om de tegel te sluiten en terug te gaan naar het dashboard.
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Aan de slag met Power BI](service-get-started.md)
+* [Wat is Power BI?](power-bi-overview.md)
 * Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

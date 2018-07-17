@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2dc47d1fdf539c20cc0aabadd65b0401dc172ae8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 087813feb7db96a320c48ed6b2433a7183446c71
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298959"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926508"
 ---
 # <a name="tutorial-connect-to-on-premises-data-in-sql-server"></a>Zelfstudie: Verbinding maken met on-premises gegevens in SQL Server
 
@@ -128,7 +128,7 @@ Nu u voorbeeldgegevens hebt om mee te werken, maakt u verbinding met SQL Server 
 
 ## <a name="add-sql-server-as-a-gateway-data-source"></a>SQL Server toevoegen als een gegevensbron van de gateway
 
-In Power BI Desktop maakt u rechtstreeks verbinding met SQL Server, maar voor de Power BI-service is een gateway nodig als overbrugging. Nu voegt u uw exemplaar van SQL Server toe als een gegevensbron voor de gateway die u hebt gemaakt in een vorig artikel (vermeld onder [Vereisten](#prereqisites)). 
+In Power BI Desktop maakt u rechtstreeks verbinding met SQL Server, maar voor de Power BI-service is een gateway nodig als overbrugging. Nu voegt u uw exemplaar van SQL Server toe als een gegevensbron voor de gateway die u hebt gemaakt in een vorig artikel (vermeld onder [Vereisten](#prerequisites)). 
 
 1. Selecteer rechtsboven in de Power BI-service het tandwielpictogram ![tandwielpictogram Instellingen](media/service-gateway-sql-tutorial/icon-gear.png) > **Gateways beheren**.
 
@@ -142,15 +142,17 @@ In Power BI Desktop maakt u rechtstreeks verbinding met SQL Server, maar voor de
 
     ![Gegevensbroninstellingen invoeren](media/service-gateway-sql-tutorial/data-source-settings.png)
 
-    | Optie | Waarde |
-    | ---    | ---   |
-    | **Naam gegevensbron**       | test-sql-source      |
-    | **Gegevensbrontype**       | SQL Server      |
-    | **Server**       |  De naam van het SQL Server-exemplaar (moet identiek zijn aan de naam die u hebt opgegeven in Power BI Desktop)    |
-    | **Database**       | TestGatewayDocs      |
-    | **Verificatiemethode**       | Windows      |
-    | **Gebruikersnaam**        |  Het account, zoals michael@contoso.com, dat u gebruikt om verbinding te maken met SQL Server     |
-    | **Wachtwoord**       |  Het wachtwoord voor het account dat u gebruikt om verbinding te maken met SQL Server    |
+
+   |          Optie           |                                               Waarde                                                |
+   |---------------------------|----------------------------------------------------------------------------------------------------|
+   |   **Naam gegevensbron**    |                                          test-sql-source                                           |
+   |   **Gegevensbrontype**    |                                             SQL Server                                             |
+   |        **Server**         | De naam van het SQL Server-exemplaar (moet identiek zijn aan de naam die u hebt opgegeven in Power BI Desktop) |
+   |       **Database**        |                                          TestGatewayDocs                                           |
+   | **Verificatiemethode** |                                              Windows                                               |
+   |       **Gebruikersnaam**        |             Het account, zoals michael@contoso.com, dat u gebruikt om verbinding te maken met SQL Server             |
+   |       **Wachtwoord**        |                   Het wachtwoord voor het account dat u gebruikt om verbinding te maken met SQL Server                    |
+
 
 4. Selecteer **Toevoegen**. U ziet *Verbinding gemaakt* als de procedure is voltooid.
 

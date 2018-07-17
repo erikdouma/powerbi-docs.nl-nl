@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8ad41917c887cff7db991051aa35d5dad6b6a8fa
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 9bec96b594d7a761311e0ef9f457f320eb1f3963
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242418"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136428"
 ---
 # <a name="connect-to-sql-sentry-with-power-bi"></a>Verbinding maken met SQL Sentry met Power BI
 Prestatiegegevens die u hebt verzameld met SQL Sentry kunt u eenvoudig analyseren met behulp van Power BI. Power BI haalt uw gegevens op en bouwt vervolgens een standaarddashboard en gerelateerde rapporten op basis van die gegevens.
@@ -93,7 +93,7 @@ Als gegevens uit bepaalde apps niet worden weergegeven in Power BI, controleert 
 Als u niet de eigenaar bent van de SQL Sentry-database die met <https://cloud.sqlsentry.com> wordt gesynchroniseerd, neemt u contact op met uw beheerder om ervoor te zorgen dat u toegang hebt tot de verzamelde gegevens.
 
 ## <a name="next-steps"></a>Volgende stappen
-[Aan de slag met Power BI](service-get-started.md)
+[Wat is Power BI?](power-bi-overview.md)
 
 [Gegevens ophalen voor Power BI](service-get-data.md)
 

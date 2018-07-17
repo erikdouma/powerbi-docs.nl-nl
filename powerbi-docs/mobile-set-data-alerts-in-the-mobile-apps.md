@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: aa4aac1b0628fb0670a4265095ba2abcae3c1dcf
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 2ca419e1e07485ad29c486d8626e78d9605c8468
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34292565"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965016"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Gegevensmeldingen instellen in de mobiele Power BI-apps
 Van toepassing op:
@@ -25,7 +25,7 @@ Van toepassing op:
 
 U kunt meldingen voor dashboards instellen in de mobiele Power BI-apps en in de Power BI-service. Door middel van meldingen wordt u gewaarschuwd als wijzigingen aan de gegevens in een tegel de limieten overschrijden die u hebt ingesteld. Meldingen worden gebruikt voor tegels met een enkel getal, zoals kaarten en meters, maar niet voor het streamen van gegevens. U kunt gegevensmeldingen instellen voor uw mobiele apparaat en deze zien in de Power BI-service, en vice versa. Alleen u ziet de gegevensmeldingen die u hebt ingesteld, zelfs als u een dashboard of een momentopname van een tegel deelt.
 
-U kunt waarschuwingen instellen voor tegels als u over de Power BI Pro-licentie beschikt of als u een gratis Power BI-licentie hebt en de gedeelde dashboard zich in een Premium-capaciteit bevindt. 
+U kunt waarschuwingen instellen voor tegels als u over de Power BI Pro-licentie beschikt of als het gedeelde dashboard zich in een Premium-capaciteit bevindt. 
 
 > [!WARNING]
 > Gegevensgestuurde meldingen bieden informatie over uw gegevens. Als uw apparaat wordt gestolen, wordt aangeraden de Power BI-service te gebruiken om alle gegevensgestuurde meldingsregels uit te schakelen. 

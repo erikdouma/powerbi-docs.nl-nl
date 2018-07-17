@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/22/2018
+ms.date: 06/23/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: f6e4be87b86d7a73abf364d1b526c1f6d549934c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 02c3998a95e7d481ee032513054933f1484ae7f9
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34471727"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944601"
 ---
 # <a name="the-power-bi-samples"></a>De Power BI-voorbeelden
 
@@ -36,29 +36,29 @@ In deze zelfstudie leert u hoe u
 ## <a name="samples-and-power-bi-service"></a>Voorbeelden en de Power BI-service
 
 1. Open de Power BI-service (app.powerbi.com) en meld u aan.
-2. Selecteer **Gegevens ophalen** onder in het linkernavigatievenster. Als u **Gegevens ophalen** niet ziet, vouwt u het navigatievenster uit door ![](media/sample-tutorial-connect-to-the-samples/expand-nav.png) te selecteren.
+2. Selecteer **Gegevens ophalen** onder in het linkernavigatievenster. Als u **Gegevens ophalen** niet ziet, vouwt u het navigatievenster uit door het ![hamburgerpictogram](media/sample-tutorial-connect-to-the-samples/expand-nav.png) te selecteren.
    
-   ![](media/sample-tutorial-connect-to-the-samples/pbi_getdata.png)
+   ![pictogram voor gegevens ophalen](media/sample-tutorial-connect-to-the-samples/pbi_getdata.png)
 5. Selecteer **Voorbeelden**.  
    
-   ![](media/sample-tutorial-connect-to-the-samples/pbi_samplesdownload.png)
+   ![Voorbeelden-knop](media/sample-tutorial-connect-to-the-samples/pbi_samplesdownload.png)
 6. Selecteer *Retail Analysis Sample* en kies **Verbinding maken**.   
    
-   ![](media/sample-tutorial-connect-to-the-samples/pbi_retailanalysissampleconnect.png)
+   ![gele knop voor verbinding maken](media/sample-tutorial-connect-to-the-samples/pbi_retailanalysissampleconnect.png)
 
 ## <a name="what-exactly-was-imported"></a>Wat is er precies geïmporteerd?
 Wanneer u bij de voorbeeldinhoudspakketten **Verbinding maken** selecteert, haalt Power BI in werkelijkheid een kopie van dat inhoudspakket op en slaat dit voor u op in de cloud. Omdat de persoon die het inhoudspakket heeft gemaakt, een gegevensset, een rapport en een dashboard heeft opgenomen, krijgt u die wanneer u klikt op **Verbinding maken**. 
 
 1. Power BI maakt het nieuwe dashboard en geeft dit weer op het tabblad **Dashboards**. Het gele sterretje geeft aan dat het nieuw is.
    
-   ![](media/sample-tutorial-connect-to-the-samples/power-bi-new-dashboard.png)
+   ![Het bericht Geslaagd](media/sample-tutorial-connect-to-the-samples/power-bi-new-dashboard.png)
 2. Open het tabblad **Rapporten**.  Hier ziet u een nieuw rapport met de naam *Retail Analysis Sample*.
    
-   ![](media/sample-tutorial-connect-to-the-samples/power-bi-new-report.png)
+   ![rood kader rond Retail Analysis Sample en een gele ster](media/sample-tutorial-connect-to-the-samples/power-bi-new-report.png)
    
    Bekijk ook het tabblad **Gegevenssets**.  Er is ook een nieuwe gegevensset.
    
-   ![](media/sample-tutorial-connect-to-the-samples/power-bi-new-dataset.png)
+   ![rood kader rond Retail Analysis Sample](media/sample-tutorial-connect-to-the-samples/power-bi-new-dataset.png)
 
 ## <a name="explore-your-new-content"></a>De nieuwe inhoud verkennen
 Verken nu zelf het dashboard, de gegevensset en het rapport. Er zijn veel verschillende manieren om te navigeren naar uw dashboards, rapporten en gegevenssets en slechts een van die manieren wordt hieronder beschreven.  
@@ -70,13 +70,13 @@ Verken nu zelf het dashboard, de gegevensset en het rapport. Er zijn veel versch
 
 1. Ga terug naar het tabblad **Dashboards** en selecteer het dashboard *Voorbeeld van retailanalyse* om dit te openen.    
    
-   ![](media/sample-tutorial-connect-to-the-samples/power-bi-dashboards.png)
+   ![tabblad Dashboard geselecteerd](media/sample-tutorial-connect-to-the-samples/power-bi-dashboards.png)
 2. Het dashboard wordt geopend.  Dit bevat diverse visualisatietegels.
    
-   ![](media/sample-tutorial-connect-to-the-samples/power-bi-dashboards2new.png)
+   ![dashboard met visual gemarkeerd](media/sample-tutorial-connect-to-the-samples/power-bi-dashboards2new.png)
 3. Selecteer een van de tegels om het onderliggende rapport te openen.  In dit voorbeeld selecteren we het vlakdiagram (dat een roze kader heeft in de vorige afbeelding). Het rapport wordt geopend op de pagina die dat vlakdiagram bevat.
    
-    ![](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
+    ![pagina van het rapport met de bijbehorende visual gemarkeerd](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
    
    > [!NOTE]
    > Als de tegel was gemaakt met [Power BI Q&A](power-bi-q-and-a.md), zou in plaats daarvan de Q&A-pagina zijn geopend. Als de tegel [vanuit Excel was vastgemaakt](service-dashboard-pin-tile-from-excel.md) zou Excel Online het in Power BI hebben geopend.
@@ -84,44 +84,44 @@ Verken nu zelf het dashboard, de gegevensset en het rapport. Er zijn veel versch
    > 
 1. Terug op het tabblad **Gegevenssets** hebt u verschillende mogelijkheden om de gegevensset te verkennen.  U kunt de set niet openen en alle rijen en kolommen bekijken (zoals wel kan in Power BI Desktop of Excel).  Als iemand een inhoudspakket deelt met collega's, wil hij of zij doorgaans alleen de inzichten delen en de collega's niet direct toegang geven tot de gegevens. Maar dat betekent niet dat u de gegevensset niet kunt verkennen.  
    
-   ![](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon2.png)
+   ![Tabblad Gegevenssets](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon2.png)
    
-   * Eén manier om de gegevensset te verkennen, is door zelf uw eigen visualisaties en rapporten te maken.  Selecteer het diagrampictogram ![](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon4.png) om de gegevensset te openen in de rapportbewerkingsmodus.
+   * Eén manier om de gegevensset te verkennen, is door zelf uw eigen visualisaties en rapporten te maken.  Selecteer het diagrampictogram ![rapportpictogram](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon4.png) om de gegevensset te openen in de rapportbewerkingsmodus.
      
-       ![](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
+       ![compleet nieuw rapport](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
    * Een andere manier om de gegevensset te verkennen, is door [Snelle inzichten](service-insights.md) uit te voeren. Selecteer de drie puntjes (...) en kies **Inzichten verkrijgen**. Wanneer de inzichten gereed zijn, selecteert u **Inzichten weergeven**.
      
-       ![](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
+       ![Insights-rapport](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 
 ## <a name="samples-and-power-bi-desktop"></a>Voorbeelden en Power BI Desktop 
 Wanneer u het PBIX-voorbeeldbestand voor het eerst opent, wordt het in de Rapportgave weergegeven en kunt u een oneindig aantal rapportpagina's met visualisaties verkennen, maken en bewerken. De rapportweergave kent vrijwel hetzelfde ontwerp als de bewerkingsweergave van een rapport in de Power BI-service. U kunt er visuele elementen verplaatsen, kopiëren en plakken, samenvoegen, enzovoort.
 
 Het verschil is dat u in Power BI Desktop met uw query's kunt werken en gegevens kunt modelleren om ervoor te zorgen dat uw rapporten de beste inzichten geven in uw gegevens. U kunt uw Power BI Desktop-bestand vervolgens opslaan waar u wilt, bijvoorbeeld op de lokale harde schijf of in de cloud.
 
-1. Open het [PBIX-voorbeeldbestand](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail-Analysis-Sample-PBIX.pbix) van de retailanalyse in Power BI Desktop. 
+1. Open het [PBIX-voorbeeldbestand](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) van de retailanalyse in Power BI Desktop. 
 
-    ![](media/sample-tutorial-connect-to-the-samples/power-bi-samples-desktop.png)
+    ![Voorbeeld geopend in de rapportweergave van Power BI](media/sample-tutorial-connect-to-the-samples/power-bi-samples-desktop.png)
 
 1. Het bestand wordt geopend in de rapportweergave. Ziet u de 4 tabbladen onder in de rapporteditor? Dat betekent dat er 4 pagina's in dit rapport zijn en momenteel is de pagina 'New Stores' (nieuwe winkels) geselecteerd. 
 
-    ![](media/sample-tutorial-connect-to-the-samples/power-bi-sample-tabs.png).
+    ![close-up van tabbladen onderin en New Stores gemarkeerd](media/sample-tutorial-connect-to-the-samples/power-bi-sample-tabs.png).
 
 3. Zie voor een diepgaande uitleg van de rapporteditor [De rapporteditor... Een rondleiding](service-the-report-editor-take-a-tour.md)
 
 ## <a name="what-exactly-was-imported"></a>Wat is er precies geïmporteerd?
 Wanneer u het PBIX-voorbeeldbestand in Desktop opent, haalt Power BI in werkelijkheid een kopie van die gegevens op en slaat deze voor u op in de cloud. Vanaf Desktop hebt u toegang tot het rapport ***en de onderliggende gegevensset***. Wanneer de gegevens geladen zijn, probeert Power BI Desktop voor u relaties te zoeken en te maken.  
 
-1. Schakel over naar [gegevensweergave](desktop-data-view.md) door het tabelpictogram te selecteren ![](media/sample-tutorial-connect-to-the-samples/power-bi-data-icon.png) .
+1. Schakel over naar [gegevensweergave](desktop-data-view.md) door het tabelpictogram ![tabelpictogram](media/sample-tutorial-connect-to-the-samples/power-bi-data-icon.png) te selecteren.
  
-    ![](media/sample-tutorial-connect-to-the-samples/power-bi-desktop-sample-data.png)
+    ![Gegevensweergave in Desktop](media/sample-tutorial-connect-to-the-samples/power-bi-desktop-sample-data.png)
 
     De gegevensweergave helpt u bij het controleren, onderzoeken en begrijpen van gegevens in uw Power BI Desktop-model. Het verschilt van de manier waarop u tabellen, kolommen en gegevens in Query-editor bekijkt. In de gegevensweergave bekijkt u gegevens nadat deze in het model zijn geladen.
 
     Wanneer u een gegevensmodel maakt, wilt u soms zien wat een tabel of kolom nu echt bevat zonder een visueel element te maken op het rapportcanvas, vaak tot rijniveau aan toe. Dit is vooral van toepassing wanneer u metingen en berekende kolommen maakt of als u een gegevenstype of gegevenscategorie moet identificeren.
 
-1. Schakel over naar [relatieweergave](desktop-relationship-view.md) door het pictogram ![](media/sample-tutorial-connect-to-the-samples/power-bi-desktop-relationship-icon.png) te selecteren.
+1. Schakel over naar [Relatieweergave](desktop-relationship-view.md) door het pictogram ![ pictogram dat lijkt op 3 verbonden vakken](media/sample-tutorial-connect-to-the-samples/power-bi-desktop-relationship-icon.png) te selecteren.
  
-    ![](media/sample-tutorial-connect-to-the-samples/power-bi-relationships.png)
+    ![relatieweergave in Power BI Desktop](media/sample-tutorial-connect-to-the-samples/power-bi-relationships.png)
 
     In de relatieweergave worden alle tabellen, kolommen en relaties in uw model weergegeven. Hier kunt u relaties bekijken, wijzigen en maken.
 

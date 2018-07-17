@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 53c4250949a696f4abbd0722cf89207f2c8d37c8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 166d61c78f8e85a91dafa5de698d782b456834a7
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813843"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37601632"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Eerdere maandelijkse updates voor Power BI Desktop
 
@@ -255,7 +255,7 @@ De koppelingen naast de verschillende updates betekenen het volgende:
 * **[video]**-fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
 * Sommige functies hebben een **[artikel]** dat meer informatie biedt.
 * De meeste functies worden beschreven in de maandelijkse update **[blog]**-post.
--   Sommige functies behoeven geen uitleg en hebben geen artikel of video nodig.
+* Sommige functies behoeven geen uitleg en hebben geen artikel of video nodig.
 
 U kunt ook de video **Meest recente updates** voor deze maand vanaf het begin bekijken, door te klikken op het pictogram **Afspelen** op de videoafbeelding onder de lijst met updates.
 
@@ -1844,15 +1844,15 @@ De volgende functies zijn toegevoegd of verbeterd in deze update:
     -   Betere voorbeeldervaring voor multidimensionale bronnen (Analysis Services en SAP BusinessObjects)
     -   Optie Geselecteerde items weergeven
     -   Verbeterde zoekmogelijkheden in de structuur van Navigator
--   Nieuwe transformaties
-    -   Bewerking voor verouderen en aftrekken voor datum/tijd-kolommen
-    -   Cumulatieve kolommen: optie voor uitschakelen van voorvoegsel nieuwe kolommen
--   Verbeteringen aan lijst met velden
-    -   Tabellen uitvouwen/samenvouwen
-    -   Velden verbergen/zichtbaar maken
-    -   Geoptimaliseerde lay-out (afstand, marges en lettertypen)
--   Navigatie door rapportpagina's - ondersteuning voor toetsenbord
--   Veel fouten opgelost
+- Nieuwe transformaties
+  -   Bewerking voor verouderen en aftrekken voor datum/tijd-kolommen
+  -   Cumulatieve kolommen: optie voor uitschakelen van voorvoegsel nieuwe kolommen
+- Verbeteringen aan lijst met velden
+  -   Tabellen uitvouwen/samenvouwen
+  -   Velden verbergen/zichtbaar maken
+  -   Geoptimaliseerde lay-out (afstand, marges en lettertypen)
+- Navigatie door rapportpagina's - ondersteuning voor toetsenbord
+- Veel fouten opgelost
 
 <iframe width="500" height="281" src="https://www.youtube.com/embed/-bZFeS1S1wU" frameborder="0" allowfullscreen></iframe>
 

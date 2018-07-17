@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/21/2018
+ms.date: 06/13/2018
 ms.author: maggies
-ms.openlocfilehash: 999fdf0376973d6550a5c4e214b4315db01e74e0
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 32d73b4be55190b908353083b497581cb1b08c6e
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482240"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599019"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>On-premises rapportserverrapporten en KPI's weergeven in de mobiele Power BI-apps
 
@@ -103,6 +103,9 @@ U kunt nu KPI's en Power BI-rapporten zien en gebruiken die zijn opgeslagen op d
 Power BI-rapporten en mobiele Reporting Services-rapporten worden weergegeven in de mappen waarin ze zijn opgeslagen op de Reporting Services-webportal. 
 
 * Tik op een Power BI-rapport ![Pictogram van een Power BI-rapport](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-report-icon.png). Het rapport wordt geopend in de liggende stand. U kunt met het rapport werken in de Power BI-app.
+
+    > [!NOTE]
+  > In- en uitzoomen is momenteel niet ingeschakeld in Power BI-rapporten op een Power BI Report Server.
   
     ![Power BI-rapport](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-report-server-report.png)
 * In Power BI Desktop kunnen rapporteigenaren [een rapport optimaliseren](desktop-create-phone-report.md) voor de mobiele Power BI-apps. Geoptimaliseerde rapporten hebben een speciaal pictogram, ![het pictogram Geoptimaliseerd Power BI-rapport](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png), en een speciale indeling.
@@ -129,6 +132,6 @@ U kunt KPI's en rapporten op het webportal markeren als favorieten en ze vervolg
 3. Tik op **Server verwijderen**.
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Aan de slag met Power BI](service-get-started.md)  
+* [Wat is Power BI?](power-bi-overview.md)  
 * Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

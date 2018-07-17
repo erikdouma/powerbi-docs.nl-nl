@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 920e61ed173e979a92958e56f9e0276f26288b3f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 7fe40fa3ea4a80198c3b06d2594c7ad0837ee923
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34250670"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136175"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Favoriete dashboards, rapporten en apps in de Power BI-service
 Wanneer u van inhoud een *favoriet* maakt, kunt u deze inhoud openen in al uw werkruimten.  Favorieten zijn doorgaans inhoud die u vaak bezoekt.
@@ -76,7 +76,7 @@ Gebruikt u een rapport niet meer zo vaak?  U kunt het verwijderen uit favorieten
 > 
 
 ## <a name="next-steps"></a>Volgende stappen
-[Aan de slag met Power BI](service-get-started.md)
+[Wat is Power BI?](power-bi-overview.md)
 
 [Power BI - basisconcepten](service-basic-concepts.md)
 

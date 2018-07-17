@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: overview
-ms.date: 06/04/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 78edb9d45df1332a25ec27476562d6105c7a8a48
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.openlocfilehash: c2e0dc401e5927e69ecb9b059042df646b238bd5
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34755364"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944394"
 ---
 # <a name="what-is-power-bi"></a>Wat is Power BI?
 **Power BI** bestaat uit een verzameling softwareservices, apps en connectors die samenwerken om uw niet-gerelateerde gegevensbronnen om te zetten in coherente, visueel aantrekkelijke en interactieve inzichten. Of uw gegevens nu bestaan uit een eenvoudig Excel-spreadsheet of een verzameling van cloudgebaseerde en on-premises hybride datawarehouses, met **Power BI** kunt u eenvoudig verbinding maken met uw gegevensbronnen, visualiseren (of ontdekken) wat belangrijk is en dat delen met wie u maar wilt.
@@ -57,4 +57,5 @@ Maak, implementeer en beheer Power BI-, mobiele en gepagineerde rapporten on-pre
 Power BI Report Server is een oplossing die u implementeert achter de firewall. Vervolgens kunt u uw rapporten op verschillende manieren aanbieden aan de juiste gebruikers, zoals weergegeven in een webbrowser, op een mobiel apparaat of als een e-mailbericht. En omdat Power BI Report Server compatibel is met Power BI in de cloud, kunt u uw inhoud naar de cloud verplaatsen op het moment dat u er klaar voor bent.
 
 ## <a name="next-steps"></a>Volgende stappen
-[Aanmelden, gegevens ophalen en kennismaken met Power BI-service](service-the-new-power-bi-experience.md)
+[Aanmelden, gegevens ophalen en kennismaken met Power BI-service](service-the-new-power-bi-experience.md)   
+[Zelfstudie: Aan de slag met Power BI-service](service-get-started.md)

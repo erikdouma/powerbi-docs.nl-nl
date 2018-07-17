@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 02a88f04d3c23746da702db043c1992267baf054
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d0e1fdc79ae4bcd5946d82f2cbf7b929a47372cb
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248672"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136796"
 ---
 # <a name="dashboards-in-power-bi-service"></a>Dashboards in de Power BI-service
 
@@ -84,7 +84,7 @@ U hebt Power BI Pro nodig om een dashboard te kunnen delen, maar ook om een gede
 > 
 
 ## <a name="next-steps"></a>Volgende stappen
-[Aan de slag met Power BI](service-get-started.md)  
+[Wat is Power BI?](power-bi-overview.md)  
 [Power BI - basisconcepten](service-basic-concepts.md)  
 [Power BI Premium - wat is het?](service-premium.md)  
 

@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 05/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5e69ed0010c5a2ff496b761f54b4cf2561f9b4ca
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1f3c871d4ac47a110f2085ef1bdccb166fc00643
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297418"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944302"
 ---
 # <a name="what-is-power-bi-administration"></a>Wat is Power BI-beheer?
 
@@ -73,12 +73,12 @@ Er zijn diverse hulpprogramma's voor systeembeheer voor Power BI-beheer. Een ove
 
 | **Hulpprogramma** | **Veelvoorkomende taken** |
 | --- | --- |
-| Power BI-beheerportal |<ul><li>Toegang tot Power BI blokkeren voor gebruikers<br><li>Premium-capaciteit aanschaffen en ermee werken<br><li>Kwaliteit van service waarborgen<br><li>Classificatie van zakelijke gegevens beheren<br><li>Publiceren en delen van beleidsregels afdwingen<br><li>Werkruimten beheren<br><li>Aangepaste visuals publiceren<br><li>Codes verifiëren die worden gebruikt voor het insluiten van Power BI in andere toepassingen<br><li>Oplossen van gegevens bij gegevenstoegang en andere problemen</ul>|
-| Office 365-beheercentrum |<ul><li>Registratie van gebruikers beheren<br><li>Pro-licenties kopen en toewijzen</ul>|
-| Office 365-centrum voor beveiliging en naleving |<ul><li>Controle van gebeurtenissen bekijken en beheren</ul>|
-| Azure Active Directory (AAD) in Azure Portal |<ul><li>Voorwaardelijke toegang tot Power BI-resources configureren via AAD<br><li>Power BI Embedded-capaciteit inrichten</ul>|
-| PowerShell-cmdlets |<ul><li>Werkruimten en andere aspecten van Power BI beheren via scripts</ul>|
-| API's voor beheer |<ul><li>U kunt aangepaste hulpprogramma's voor systeembeheer bouwen om het werk van een Power BI-beheerder te vereenvoudigen. In Power BI Desktop kunnen deze API's bijvoorbeeld worden gebruikt om rapporten te maken op basis van gegevens met betrekking tot beheer.</ul>|
+| Power BI-beheerportal |<ul><li>Premium-capaciteit aanschaffen en ermee werken</li><li>Kwaliteit van service waarborgen</li><li>Classificatie van zakelijke gegevens beheren</li><li>Publiceren en delen van beleidsregels afdwingen</li><li>Werkruimten beheren<br><li>Aangepaste visuals publiceren</li><li>Codes verifiëren die worden gebruikt voor het insluiten van Power BI in andere toepassingen</li><li>Oplossen van gegevens bij gegevenstoegang en andere problemen</li></ul>|
+| Office 365-beheercentrum |<ul><li>Registratie van gebruikers beheren</li><li>Pro-licenties kopen en toewijzen</li><li>Toegang tot Power BI blokkeren voor gebruikers</li></ul>|
+| Office 365-centrum voor beveiliging en naleving |<ul><li>Controle van gebeurtenissen bekijken en beheren</li></ul>|
+| Azure Active Directory (AAD) in Azure Portal |<ul><li>Voorwaardelijke toegang tot Power BI-resources configureren via AAD</li><li>Power BI Embedded-capaciteit inrichten</li></ul>|
+| PowerShell-cmdlets |<ul><li>Werkruimten en andere aspecten van Power BI beheren via scripts</li></ul>|
+| API's en SDK voor beheer |<ul><li>U kunt aangepaste hulpprogramma's voor systeembeheer bouwen om het werk van een Power BI-beheerder te vereenvoudigen. In Power BI Desktop kunnen deze API's bijvoorbeeld worden gebruikt om rapporten te maken op basis van gegevens met betrekking tot beheer.</li></ul>|
 
 ## <a name="next-steps"></a>Volgende stappen
 

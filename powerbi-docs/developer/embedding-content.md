@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: cb84cb2f4242cb120f187c27bb1b1675177c33a2
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: 8a912791777c631208ee40d37c5eaad56806ccf9
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813038"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36945261"
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Dashboards, rapporten en tegels van Power BI insluiten
 
@@ -35,6 +35,9 @@ Voordat u begint met het insluiten van dashboards en rapporten in uw toepassing,
 
 * [Controleren of u een Azure Active Directory-tenant hebt](embedding-content.md#azureadtenant)
 * [Een Power BI Pro-account maken](embedding-content.md#proaccount)
+* [Registratie en machtigingen voor de app](embedding-content.md#appreg)
+* [App-werkruimten maken](embedding-content.md#appws)
+* [Rapporten maken en uploaden](embedding-content.md#createreports)
 
 U kunt het [hulpprogramma voor de onboarding-ervaring](https://aka.ms/embedsetup) uitvoeren om snel aan de slag te gaan en een voorbeeldtoepassing te downloaden.
 
@@ -67,7 +70,7 @@ De volgende accounts zijn vereist voor uw tenant. Ook moet aan die accounts een 
 
 #### <a name="an-organizationtenant-admin-user"></a>Een organisatie-/tenantbeheerder
 
-U wordt afgeraden om het gebruikersaccount van de globale beheerder van uw organisatie/tenant te gebruiken voor het insluiten van inhoud voor klanten. Zo beperkt u de toegangsrechten van het account voor de toepassing binnen uw tenant. Het wordt aanbevolen dat de beheerder een beheerder is van alle app-werkruimten die worden gemaakt voor het insluiten van inhoud.
+U wordt afgeraden om het gebruikersaccount van de globale beheerder van uw organisatie/tenant te gebruiken voor het insluiten van inhoud voor klanten. Zo beperkt u de toegangsrechten van het account voor de toepassing binnen uw tenant. De beheerder moet een beheerder zijn van alle app-werkruimten die worden gemaakt voor het insluiten van inhoud.
 
 #### <a name="accounts-for-analysts-that-create-content"></a>Accounts voor analisten die inhoud maken
 
@@ -83,7 +86,7 @@ Het hoofdaccount is slechts een standaardgebruiker met een Power BI Pro-licentie
 
 U moet uw toepassing registreren bij Azure AD om REST-API-aanroepen te kunnen uitvoeren. Zie [Een Azure AD-app voor het insluiten van Power BI-inhoud registreren](register-app.md) voor meer informatie.
 
-### <a name="create-app-workspaces"></a>App-werkruimten maken
+### <a name="appws"></a>App-werkruimten maken
 
 Als u dashboards en rapporten voor uw klanten wilt insluiten, moeten deze dashboards en rapporten in een app-werkruimte worden geplaatst. Het eerder vermelde *hoofd*account moet een beheerder van de app-werkruimte zijn.
 
@@ -93,13 +96,17 @@ Als u dashboards en rapporten voor uw klanten wilt insluiten, moeten deze dashbo
 > Een gebruiker die geen beheerder is, kan maximaal maar 250 app-werkruimten maken. Als u meer app-werkruimten wilt maken, moet u een beheerdersaccount voor de tenant gebruiken.
 >
 
-### <a name="create-and-upload-your-reports"></a>Rapporten maken en uploaden
+### <a name="createreports"></a>Rapporten maken en uploaden
 
 U kunt de rapporten en gegevenssets maken met Power BI Desktop en de rapporten vervolgens publiceren naar een app-werkruimte. De eindgebruiker die de rapporten naar een app-werkruimte publiceert, moet beschikken over een Power BI Pro-licentie.
 
 ## <a name="step-2-embed-your-content"></a>Stap 2: uw inhoud insluiten
 
-U moet de verificatie met Power BI uitvoeren binnen uw toepassing. Als u inhoud voor klanten wilt insluiten, slaat u de referenties voor het *hoofd*account op in de toepassing. Zie [Gebruikers verifiëren en een Azure AD-toegangstoken verkrijgen voor uw Power BI-app](get-azuread-access-token.md) voor meer informatie.
+U moet de verificatie met Power BI uitvoeren binnen uw toepassing. Als u inhoud voor klanten wilt insluiten, slaat u de referenties voor het *hoofd*account op in de toepassing.
+
+> [!NOTE]
+> Zie [Gebruikers verifiëren en een Azure AD-toegangstoken ophalen voor uw Power BI-app](get-azuread-access-token.md) voor meer informatie over het verifiëren van gebruikers bij het insluiten van inhoud voor uw klanten.
+>
 
 Als de verificatie is geslaagd, binnen uw toepassing, kunt u dashboards en rapporten insluiten in de toepassing met de REST-API's van Power BI en JavaScript-API's. 
 
@@ -123,7 +130,7 @@ Om het niveau te verhogen naar productie, zijn enkele extra stappen vereist.
 
 Als u inhoud insluit voor uw organisatie, hoeft u mensen alleen te laten weten hoe ze uw toepassing kunnen verkrijgen. 
 
-Gebruikers van de gratis versie kunnen inhoud die is ingesloten in een app-werkruimte (groep) gebruiken als deze werkruimte wordt ondersteund door specifieke capaciteit. Voeg de gebruiker van de gratis versie toe als lid van de app-werkruimte (groep), anders wordt een 401-fout (niet-geautoriseerd) weergegeven. In de volgende tabel ziet u de Power BI Premium-SKU's die beschikbaar zijn in Office 365.
+Alle gebruikers (ongeacht de licentie die aan hen is toegewezen) kunnen inhoud die is ingesloten in een app-werkruimte (groep) gebruiken als deze werkruimte wordt ondersteund door specifieke capaciteit. U moet gebruikers die geen Power BI Pro-licentie hebben expliciet toevoegen aan de app-werkruimte, anders wordt een 401-fout (niet-geautoriseerd) weergegeven. In de volgende tabel ziet u de Power BI Premium-SKU's die beschikbaar zijn in Office 365.
 
 | Capaciteit knooppunt | Totaal aantal cores<br/>*(back-end + front-end)* | Back-endcores | Front-endcores | Limieten voor DirectQuery/liveverbindingen | Maximum aantal pagina's (rendering) tijdens piekuren |
 | --- | --- | --- | --- | --- | --- |

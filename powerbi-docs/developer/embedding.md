@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/25/2018
+ms.date: 06/22/2018
 ms.author: maghan
-ms.openlocfilehash: 2e899593cbe3453381dd2d3457cec97467aec4d6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 82a4c9c58567f5ace943363b7bed59fa744e85a5
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34561742"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944095"
 ---
 # <a name="embedding-with-power-bi"></a>Insluiten met Power BI
 Power BI biedt API's voor het insluiten van uw dashboards en rapporten in toepassingen. De Power BI API's bieden een consistente set mogelijkheden en toegang tot de nieuwste functies van Power BI (zoals dashboards, gateways en app-werkruimten) voor het insluiten van inhoud.
@@ -29,7 +29,7 @@ Voor een voorbeeld van hoe het insluiten van inhoud werkt, raadpleegt u het [Ins
 ## <a name="embedding-for-your-organization"></a>Inhoud insluiten voor uw organisatie
 Met het insluiten van inhoud voor uw organisatie kunt u de Power BI-service uitbreiden. Hiervoor moeten gebruikers van uw toepassing zich aanmelden bij de Power BI-service wanneer deze hun inhoud willen weergeven. Als iemand zich in uw organisatie zich heeft aangemeld, heeft hij alleen toegang tot zijn hun eigen dashboards en rapporten of de dashboards en rapporten die met hem zijn gedeeld in de Power BI-service. 
 
-*Voorbeelden van het insluiten van inhoud voor uw organisatie zijn interne webtoepassingen, het webonderdeel voor SharePoint Online en Microsoft Teams-integratie.*
+*Voorbeelden van het insluiten van inhoud voor uw organisatie zijn interne webtoepassingen, het webonderdeel voor SharePoint Online en [Microsoft Teams-integratie (hiervoor moet u beheerdersrechten hebben)](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/).*
 
 Zie de volgende scenario's voor informatie over het insluiten van inhoud voor uw organisatie:
 
