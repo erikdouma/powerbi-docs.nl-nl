@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: d9e2f76c63ee9ebff01080686277a3fbb5af46f3
-ms.sourcegitcommit: d1a0da8638c5d957b884ca9412275ee8880d4b14
+ms.openlocfilehash: a8833cb6b41ea76d50814975ada6239690a0c196
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37900072"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38877413"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Zelfstudie: een Power BI-rapport, dashboard of tegel insluiten in een toepassing voor uw klanten
 Met **Power BI Embedded in Azure** kunt u rapporten, dashboards en tegels in een toepassing insluiten met de **gegevens waarvan de app eigenaar is**. Als **de app eigenaar is van de gegevens** kunt u een toepassing gebruiken die Power BI gebruikt als ingesloten analytics platform. Dit is doorgaans een scenario voor een **ISV-ontwikkelaar**. Als **ISV-ontwikkelaar** kunt u Power BI-inhoud maken waarmee rapporten, dashboards of tegels worden weergegeven in een toepassing die volledig geïntegreerd en interactief is, zonder dat gebruikers van de toepassing een licentie voor Power BI moeten hebben, of zelfs merken dat achter de schermen Power BI wordt gebruikt. In deze zelfstudie leert u hoe u een rapport in een toepassing kunt integreren met de .NET SDK voor **Power BI** en de JavaScript-API voor **Power BI** bij gebruik van **Power BI Embedded in Azure** voor uw klanten wanneer de **app eigenaar is van de gegevens**.
@@ -54,7 +54,7 @@ U kunt uw toepassing registreren bij Azure Active Directory AD zodat uw toepassi
     ![App-registratie zoeken](media/embed-sample-for-customers/embed-sample-for-customers-003.png)</br>
     ![Nieuwe app-registratie](media/embed-sample-for-customers/embed-sample-for-customers-004.png)
 
-4. Volg de aanwijzingen en maak een nieuwe toepassing. Als de app eigenaar is van de gegevens, gebruikt **Systeemeigen** als het toepassingstype. Daarnaast moet u een **omleidings-URI** opgeven, die **Azure AD** gebruikt om tokenantwoorden te retourneren. Voer een specifieke waarde in voor uw toepassing (bijvoorbeeld `http://localhost:13526/redirect`).
+4. Volg de aanwijzingen en maak een nieuwe toepassing. Als de app eigenaar is van de gegevens, gebruikt **Systeemeigen** als het toepassingstype. Daarnaast moet u een **omleidings-URI** opgeven, die **Azure AD** gebruikt om tokenantwoorden te retourneren. Voer een specifieke waarde in voor uw toepassing (bijvoorbeeld `http://localhost:13526/Redirect`).
 
     ![App maken](media/embed-sample-for-customers/embed-sample-for-customers-005.png)
 
