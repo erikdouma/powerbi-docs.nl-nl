@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 08d5d5b8d44d1ebceab2bb41ddbb244afda64fb6
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 24d585af19dd774cdf6fe7dafb66c12e02d311f9
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36945038"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38924787"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Capaciteiten in Power BI Premium en Power BI Embedded beheren
 Meer informatie over het beheren van Power BI Premium- en Power BI Embedded-capaciteiten, die toegewezen resources voor uw inhoud bieden.
 
 ![Instellingenscherm voor Power BI-capaciteiten](media/service-admin-premium-manage/premium-capacity-management.png)
 
-De capaciteit is vormt het hart van de Power BI Premium- en Power BI Embedded-aanbiedingen.
+De capaciteit vormt het hart van de Power BI Premium- en Power BI Embedded-aanbiedingen.
 
 ## <a name="what-is-capacity"></a>Wat is capaciteit?
 De capaciteit is de set resources die is exclusief voor u is gereserveerd. Wanneer u over capaciteit beschikt, betekent dit dat u dashboards, rapporten en gegevenssets kunt publiceren voor gebruikers binnen uw organisatie zonder dat u licenties voor ze hoeft aan te schaffen. Daarnaast garandeert u zodoende betrouwbare en consistente prestaties voor de inhoud die in de capaciteit wordt gehost.
@@ -32,6 +32,16 @@ Capaciteit is volledig transparant voor uw eindgebruikers. Ze kunnen Power BI of
 [!INCLUDE [powerbi-premium-illustration](./includes/powerbi-premium-illustration.md)]
 
 Zie [Wat is Power BI Premium?](service-premium.md) voor meer informatie.
+
+### <a name="capacity-admins"></a>Capaciteitsbeheerders
+> [!NOTE]
+> Capaciteitsbeheerders, voor Power BI Embedded-capaciteit, worden gedefinieerd in Microsoft Azure Portal.
+
+Wanneer u als capaciteitsbeheerder wordt toegewezen aan een capaciteit, hebt u de volledige controle over de capaciteit en de bijbehorende beheerfuncties. U kunt via de beheerportal van Power BI meer capaciteitsbeheerders toevoegen (alleen Power BI Premium) of gebruikers machtigingen voor capaciteitstoewijzingen geven. U kunt bulksgewijs capaciteit aan werkruimten toewijzen en de metrische gegevens over het gebruik van een capaciteit weergeven.
+
+Elke capaciteit heeft zijn eigen beheerders. Als u een capaciteitsbeheerder definieert voor een capaciteit, betekent dit niet dat deze toegang heeft tot alle capaciteiten in uw organisatie. Capaciteitsbeheerders hebben niet standaard toegang tot alle Power BI-beheergedeelten, zoals metrische gegevens over het gebruik, auditlogboeken of tenantinstellingen. Capaciteitsbeheerders beschikken ook niet over machtigingen om nieuwe capaciteiten in te stellen of de SKU van bestaande capaciteiten te wijzigen. Alleen globale beheerders of Power BI-servicebeheerders hebben toegang tot deze items.
+
+Alle globale beheerders van Office 365 en Power BI-beheerders zijn automatisch capaciteitsbeheerders van zowel de Power BI Premium- als Power BI Embedded-capaciteit.
 
 ## <a name="purchase-capacity"></a>Capaciteit kopen
 Als u wilt profiteren van de toegewezen capaciteit, moet u een abonnement voor Power BI Premium in het Office 365-beheercentrum aanschaffen of een Power BI Embedded-resource in Microsoft Azure Portal maken. Raadpleeg de volgende artikelen voor meer informatie:
@@ -43,21 +53,9 @@ Bij de aankoop van Power BI Premium-SKU's ontvangt uw tenant het overeenkomstige
 
 > [!NOTE]
 > U hebt 30 dagen volledige toegang nadat uw abonnement is beëindigd. Daarna krijgt uw inhoud een gedeelde capaciteit. Modellen van > 1 GB worden niet ondersteund met een reguliere gedeelde licentie.
->
 
-## <a name="capacity-admins"></a>Capaciteitsbeheerders
-> [!NOTE]
-> Capaciteitsbeheerders, voor Power BI Embedded-capaciteit, worden gedefinieerd in Microsoft Azure Portal.
->
->
 
-Wanneer u als capaciteitsbeheerder wordt toegewezen aan een capaciteit, hebt u de volledige controle over de capaciteit en de bijbehorende beheerfuncties. U kunt via de beheerportal van Power BI meer capaciteitsbeheerders toevoegen (alleen Power BI Premium) of gebruikers machtigingen voor capaciteitstoewijzingen geven. U kunt bulksgewijs capaciteit aan werkruimten toewijzen en de metrische gegevens over het gebruik van een capaciteit weergeven.
-
-Elke capaciteit heeft zijn eigen beheerders. Als u een capaciteitsbeheerder definieert voor een capaciteit, betekent dit niet dat deze toegang heeft tot alle capaciteiten in uw organisatie. Capaciteitsbeheerders hebben niet standaard toegang tot alle Power BI-beheergedeelten, zoals metrische gegevens over het gebruik, auditlogboeken of tenantinstellingen. Capaciteitsbeheerders beschikken ook niet over machtigingen om nieuwe capaciteiten in te stellen of de SKU van bestaande capaciteiten te wijzigen. Alleen globale beheerders of Power BI-servicebeheerders hebben toegang tot deze items.
-
-Alle globale beheerders van Office 365 en Power BI-beheerders zijn automatisch capaciteitsbeheerders van zowel de Power BI Premium- als Power BI Embedded-capaciteit.
-
-## <a name="managing-capacity"></a>Capaciteit beheren
+## <a name="manage-capacity"></a>Capaciteit beheren
 Nadat u capaciteitsknooppunten in Office 365 hebt aangeschaft, moet u een nieuwe capaciteit instellen. Dit doet u via de [Power BI-beheerportal](service-admin-portal.md). In de beheerportal ziet u een sectie met de naam **Capaciteitsinstellingen**. Hier beheert u Power BI Premium-capaciteiten voor uw organisatie.
 
 ![Capaciteitsinstellingen in de beheerportal](media/service-admin-premium-manage/admin-portal-premium.png)
@@ -96,8 +94,6 @@ In het scherm voor het beheren van de Premium-capaciteit kunt u onder Acties het
 
 > [!NOTE]
 > De capaciteitsinstellingen voor Power BI Embedded worden beheerd in Microsoft Azure Portal.
->
->
 
 ### <a name="change-capacity-size-power-bi-premium"></a>De capaciteitsgrootte wijzigen (Power BI Premium)
 Power BI-beheerders en globale beheerders van Office 365 kunnen de Power BI Premium-capaciteitsgrootte wijzigen door **Capaciteitsgrootte wijzigen** te selecteren. Capaciteitsbeheerders die geen Power BI-beheerder of globale beheerder van Office 365 zijn, beschikken niet over deze optie.
@@ -128,35 +124,6 @@ U kunt aanvullende **capaciteitsbeheerders** voor Power BI Premium-capaciteiten 
 ![](media/service-admin-premium-manage/capacity-user-permissions.png)
 
 ![](media/service-admin-premium-manage/capacity-user-permissions2.png)
-
-## <a name="usage-measurements-power-bi-premium"></a>Metingen voor gebruik (Power BI Premium)
-Voor elke capaciteit kunt u metingen voor het gebruik van de CPU, het geheugen, geheugenthrashing en directe query zien. Het is raadzaam om deze metrische gegevens goed in de gaten te houden om ervoor te zorgen dat uw gebruikers goede prestaties bij uw capaciteit ervaren:
-
-![Gebruik van de afgelopen zeven dagen](media/service-admin-premium-manage/premium-dashboard-tiles.png)
-
-> [!NOTE]
-> Het capaciteitsgebruik van Power BI Embedded wordt bewaakt in de Azure Portal.
-
-| Metrische gegevens | Beschrijving |
-| --- | --- |
-| CPU |Aantal keer dat CPU-gebruik 80% of meer was. |
-| Geheugenthrashing |De geheugendruk van uw back-endkernen. Met deze gegevens wordt aangegeven hoe vaak gegevenssets uit het geheugen zijn verwijderd vanwege de geheugendruk door het gebruik van meerdere gegevenssets. |
-| Memory Usage |Gemiddeld geheugengebruik, in gigabytes (GB). |
-| DQ/s | Aantal keer dat het aantal DirectQuery- en liveverbindingen 80% van de limiet heeft overschreden. <br> <br> * We beperken het totale aantal query's per seconde voor DirectQuery en liveverbindingen.<br><br>* De limieten zijn 30/s voor P1, 60/s voor P2 en 120/s voor P3.<br><br> * De query's voor DirectQuery en liveverbindingen tellen beide een zwaar voor de bovenstaande limiet. Als u één seconde bijvoorbeeld 15 DirectQuery-query's en 15 query's voor een liveverbinding hebt, is u limiet bereikt.<br/><br>* Dit geldt ook voor on-premises- en cloudverbindingen. |
-
-Metrische gegevens geven het gebruik van de afgelopen week aan.  Als u een weergave met meer details wilt zien van de metrische gegevens, klikt u hiervoor op een van de samenvattingstegels.  Hiermee gaat u naar de gedetailleerde diagrammen voor elk van de metrische gegevens voor uw Premium-capaciteit.  Deze grafieken worden voor de afgelopen week per uur samengevat en kunnen helpen bij het isoleren wanneer u mogelijk specifieke, prestatiegerelateerde evenementen hebt gehad in uw Premium-capaciteit.  
-
-![Gedetailleerde gebruiksgrafiek CPU](media/service-admin-premium-manage/premium-usage-detailed-chart-cpu.png)
-
-![Geheugenthrashing gedetailleerde gebruiksgrafiek](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-thrashing.png)
-
-
-![Gedetailleerde gebruiksgrafiek Geheugengrootte](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-size.png)
-
-
-![Geheugenthrashing gedetailleerde gebruiksgrafiek](media/service-admin-premium-manage/premium-usage-detailed-chart-dq.png)
-
-U kunt ook de onderliggende gegevens voor elk van de metrische gegevens exporteren naar een csv-bestand.  Deze export biedt u gedetailleerde informatie voor elke dag van de afgelopen week, in stappen van drie minuten.
 
 ## <a name="assign-a-workspace-to-a-capacity"></a>Werkruimte toewijzen aan een capaciteit
 Er zijn enkele manieren waarop een werkruimte kan worden toegewezen aan een capaciteit.
@@ -193,6 +160,36 @@ Als u een werkruimte wilt overzetten naar capaciteit, moet u over beheerdersmach
 5. Selecteer **Opslaan**.
 
 Zodra de werkruimte is opgeslagen, wordt de werkruimte en alle bijbehorende inhoud overgezet naar een Premium capaciteit, zonder dat de eindgebruikers hier iets van merken.
+
+
+## <a name="monitor-capacity-usage"></a>Capaciteitsgebruik bewaken
+Voor elke capaciteit kunt u metingen voor het gebruik van de CPU, het geheugen, geheugenthrashing en directe query zien. Het is raadzaam om deze metrische gegevens goed in de gaten te houden om ervoor te zorgen dat uw gebruikers goede prestaties bij uw capaciteit ervaren:
+
+![Gebruik van de afgelopen zeven dagen](media/service-admin-premium-manage/premium-dashboard-tiles.png)
+
+> [!NOTE]
+> Het capaciteitsgebruik van Power BI Embedded wordt bewaakt in de Azure Portal.
+
+| Metrische gegevens | Beschrijving |
+| --- | --- |
+| CPU |Aantal keer dat CPU-gebruik 80% of meer was. |
+| Geheugenthrashing |De geheugendruk van uw back-endkernen. Met deze gegevens wordt aangegeven hoe vaak gegevenssets uit het geheugen zijn verwijderd vanwege de geheugendruk door het gebruik van meerdere gegevenssets. |
+| Memory Usage |Gemiddeld geheugengebruik, in gigabytes (GB). |
+| DQ/s | Aantal keer dat het aantal DirectQuery- en liveverbindingen 80% van de limiet heeft overschreden. <br> <br> * We beperken het totale aantal query's per seconde voor DirectQuery en liveverbindingen.<br><br>* De limieten zijn 30/s voor P1, 60/s voor P2 en 120/s voor P3.<br><br> * De query's voor DirectQuery en liveverbindingen tellen beide een zwaar voor de bovenstaande limiet. Als u één seconde bijvoorbeeld 15 DirectQuery-query's en 15 query's voor een liveverbinding hebt, is u limiet bereikt.<br/><br>* Dit geldt ook voor on-premises- en cloudverbindingen. |
+
+Metrische gegevens geven het gebruik van de afgelopen week aan.  Als u een weergave met meer details wilt zien van de metrische gegevens, klikt u hiervoor op een van de samenvattingstegels.  Hiermee gaat u naar de gedetailleerde diagrammen voor elk van de metrische gegevens voor uw Premium-capaciteit.  Deze grafieken worden voor de afgelopen week per uur samengevat en kunnen helpen bij het isoleren wanneer u mogelijk specifieke, prestatiegerelateerde evenementen hebt gehad in uw Premium-capaciteit.  
+
+![Gedetailleerde gebruiksgrafiek CPU](media/service-admin-premium-manage/premium-usage-detailed-chart-cpu.png)
+
+![Geheugenthrashing gedetailleerde gebruiksgrafiek](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-thrashing.png)
+
+
+![Gedetailleerde gebruiksgrafiek Geheugengrootte](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-size.png)
+
+
+![Geheugenthrashing gedetailleerde gebruiksgrafiek](media/service-admin-premium-manage/premium-usage-detailed-chart-dq.png)
+
+U kunt ook de onderliggende gegevens voor elk van de metrische gegevens exporteren naar een csv-bestand.  Deze export biedt u gedetailleerde informatie voor elke dag van de afgelopen week, in stappen van drie minuten.
 
 ## <a name="what-premium-looks-like-for-users"></a>Wat betekent een Premium-capaciteit voor gebruikers
 Meestal hoeven gebruikers niet eens te weten dat ze zich in een Premium-capaciteit bevinden. Hun dashboards en rapporten werken gewoon. Als visuele hint wordt er een ruitvormig pictogram naast werkruimten in een Premium-capaciteit weergegeven.

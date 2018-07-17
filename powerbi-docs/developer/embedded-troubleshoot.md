@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 07/03/2018
+ms.date: 07/09/2018
 ms.author: maghan
-ms.openlocfilehash: b3c9599ea3ce01094bb75d9b036fb25b1ca7109a
-ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
+ms.openlocfilehash: d6b30d97b1982ceca34579751e412a279b0d8881
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "37926554"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38877019"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Problemen oplossen met uw ingesloten toepassing
 
@@ -102,13 +102,11 @@ De back-end van de toepassing moet het verificatietoken mogelijk vernieuwen voor
 
 **(AADSTS70002: fout bij het valideren van referenties. AADSTS50053: u hebt te vaak geprobeerd u aan te melden met een onjuiste gebruikers-id of een onjuist wachtwoord)**
 
-Als u Power BI Embedded en Azure AD Direct Authentication gebruikt en u berichten ontvangt bij het aanmelden zoals ***fout: unauthorized_client, error_description:AADSTS70002: fout bij het valideren van referenties. AADSTS50053: u hebt te vaak geprobeerd u aan te melden met een onjuiste gebruikers-id of een onjuist wachtwoord***. Dit komt doordat directe verificatie sinds 14-6-2018 is uitgeschakeld.
+Als u Power BI Embedded en Azure AD Direct Authentication gebruikt en u berichten ontvangt bij het aanmelden zoals ***fout: unauthorized_client, error_description:AADSTS70002: fout bij het valideren van referenties. AADSTS50053: u hebt te vaak geprobeerd u aan te melden met een onjuiste gebruikers-id of een onjuist wachtwoord***. Dit komt doordat directe verificatie sinds 14-6-2018 standaard is uitgeschakeld.
 
-Het wordt aanbevolen het [Azure AD-beleid voor voorwaardelijke toegang](https://cloudblogs.microsoft.com/enterprisemobility/2018/06/07/azure-ad-conditional-access-support-for-blocking-legacy-auth-is-in-public-preview/) te gebruiken voor het blokkeren van verouderde verificatie of [pass-through-verificatie voor Azure AD Directory](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication) te gebruiken.
+Er is een manier om dit weer in te schakelen met behulp van [Azure AD-beleid](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) waarvan het bereik wordt beperkt tot de organisatie of een [service-principal](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
 
-Er is echter een manier om dit weer in te schakelen met behulp van een [Azure AD-beleid](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) waarvan het bereik wordt beperkt voor de organisatie of een [service-principal](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
-
-**_Het wordt aangeraden dit alleen per app in en uitsluitend als een tijdelijke oplossing te schakelen._**
+We raden aan deze optie alleen per app in te schakelen.
 
 Als u dit beleid wilt kunnen maken, moet u een **globale beheerder** zijn voor de map waar u het beleid maakt en toewijst. Hier volgt een voorbeeldscript voor het maken van het beleid en het toewijzen ervan aan de serviceprovider voor deze toepassing:
 
