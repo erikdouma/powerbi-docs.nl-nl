@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/22/2018
-ms.openlocfilehash: 07d51448083f61725157d3ea37c5d9dc73e85157
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: f3602f44bd2ab98e115f904baa89429db918637c
+ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599945"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39032066"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Veelgestelde vragen over Power BI Embedded
 
@@ -76,7 +76,7 @@ Hier volgt een (niet volledige) lijst met verschillen tussen de versies.
 |  |A-SKU (Power BI Embedded)  |EM-SKU (Power BI Premium)  |P-SKU (Power BI Premium)  |
 |---------|---------|---------|---------|
 |Kopen     |Azure-portal |Office |Office |
-|Gebruiksvoorbeelden |* Inhoud insluiten in uw eigen toepassing |* Inhoud insluiten in uw eigen toepassing<br>* Inhoud delen met gebruikers van de gratis versie van Power BI buiten PowerBI.com en insluiten in andere SaaS-toepassingen (SharePoint, [Teams](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/)) |* Inhoud insluiten in uw eigen toepassing<br>* Inhoud delen met gebruikers van de gratis versie van Power BI buiten PowerBI.com en insluiten in andere SaaS-toepassingen (SharePoint, Teams)<br>* Inhoud delen met gebruikers van de gratis versie van Power BI via PowerBI.com  |
+|Gebruiksvoorbeelden |* Inhoud insluiten in uw eigen toepassing |* Inhoud insluiten in uw eigen toepassing<br>* Inhoud insluiten in andere SaaS-toepassingen ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) |* Inhoud insluiten in uw eigen toepassing<br>* Inhoud insluiten in andere SaaS-toepassingen ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))<br>* Inhoud delen met gebruikers van Power BI via [Power BI-service](https://powerbi.microsoft.com/en-us/)  |
 |Facturering |Per uur |Per maand |Per maand |
 |Min. periode  |Geen minimumperiode |Jaar  |Maand/jaar |
 |Differentiatie |Volledige elasticiteit: omhoog/omlaag schalen, resources onderbreken/hervatten in Azure-portal of via API  |Kan worden gebruikt voor het insluiten van inhoud in SharePoint Online en Microsoft Teams |Insluiten in toepassingen combineren met het gebruik van de Power BI-service in dezelfde capaciteit |

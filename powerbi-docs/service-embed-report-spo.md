@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1c9948ad5c09b3123d898bf8841243d6e5fa83fd
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 63cb1fe3061d1ba48e71a4ac09862fce29dd9196
+ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34553560"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39032043"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Insluiten met webonderdeel Rapport in SharePoint Online
 
@@ -84,7 +84,7 @@ Wanneer een rapport wordt ingesloten in SharePoint Online, zijn gebruikers niet 
 > [!IMPORTANT]
 > Controleer wie het rapport kan raadplegen in de Power BI-service en verleen toegang tot personen die niet worden vermeld.
 
-Binnen de Power BI-service kunt u op twee manieren toegang verlenen tot het rapport. Als u een Office 365-groep gebruikt om uw SharePoint Online-teamsite te bouwen, geeft u aan dat de gebruiker lid is van de app-werkruimte binnen de Power BI-service. Hiermee garandeert u dat gebruikers de inhoud van die groep kunnen bekijken. Zie [Een app maken en distribueren in Power BI](service-create-distribute-apps.md) voor meer informatie.
+Binnen de Power BI-service kunt u op twee manieren toegang verlenen tot het rapport. Als u een Office 365-groep gebruikt om uw SharePoint Online-teamsite te bouwen, geeft u aan dat de gebruiker lid is van de **app-werkruimte binnen de Power BI-service** en de **SharePoint-pagina**. Hiermee garandeert u dat gebruikers de inhoud van die groep kunnen bekijken. Zie [Een app maken en distribueren in Power BI](service-create-distribute-apps.md) voor meer informatie.
 
 U kunt gebruikers ook op de volgende manier toegang verlenen tot het rapport.
 
@@ -129,7 +129,7 @@ Neem contact op met de eigenaar van de SharePoint Online-pagina, die u kan helpe
 
 ## <a name="known-issues-and-limitations"></a>Bekende problemen en beperkingen
 
-* **Fout: "Er is een fout opgetreden. Meld u af en meld u opnieuw aan. Ga vervolgens opnieuw naar deze pagina. Correlatie-id: niet gedefinieerd, http-antwoordstatus: 400, serverfout, code 10001, bericht: Ontbrekend vernieuwingstoken"**
+* Fout: "Er is een fout opgetreden. Meld u af en meld u opnieuw aan. Ga vervolgens opnieuw naar deze pagina. Correlatie-id: niet gedefinieerd, http-antwoordstatus: 400, serverfout, code 10001, bericht: Ontbrekend vernieuwingstoken"
   
   Als u dit foutbericht ziet, kunt u een van de volgende acties uitvoeren.
   
@@ -154,5 +154,4 @@ Neem contact op met de eigenaar van de SharePoint Online-pagina, die u kan helpe
 [Een dashboard delen met collega's en anderen](service-share-dashboards.md)  
 [Power BI Premium - wat is het?](service-premium.md)  
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/) 
-
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

@@ -10,15 +10,17 @@ ms.topic: conceptual
 ms.date: 12/05/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e15983bf754a2fc1e2fe9ae376eedbed36e20ce4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 9777131c25974a2bc9936ef1c1ce285bb652028c
+ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298775"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39032020"
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>Clusters met hoge beschikbaarheid voor on-premises gegevensgateway
-U kunt **clusters met hoge beschikbaarheid** maken van installaties van een **on-premises gegevensgateway** om te controleren of uw organisatie toegang heeft tot on-premises gegevensbronnen die worden gebruikt in Power BI-rapporten en -dashboards. Met dit soort clusters kunnen gatewaybeheerders gateways groeperen om storingen op één punt bij het openen van on-premises gegevensbronnen te voorkomen. In dit artikel worden de stappen beschreven die u kunt nemen om een cluster met hoge beschikbaarheid van on-premises gegevensgateways te maken. Ook vindt u in dit artikel aanbevolen procedures voor het instellen van deze clusters. Voor gatewayclusters met hoge beschikbaarheid is de update van november 2017 of hoger vereist voor de on-premises gegevensgateway.
+U kunt **clusters met hoge beschikbaarheid** maken van installaties van een **on-premises gegevensgateway** om te controleren of uw organisatie toegang heeft tot on-premises gegevensbronnen die worden gebruikt in Power BI-rapporten en -dashboards. Met dit soort clusters kunnen gatewaybeheerders gateways groeperen om storingen op één punt bij het openen van on-premises gegevensbronnen te voorkomen. De Power BI-service gebruikt altijd de primaire gateway in het cluster, tenzij deze niet beschikbaar is. In dat geval schakelt de service over naar de volgende gateway in het cluster, etc.
+
+In dit artikel worden de stappen beschreven die u kunt nemen om een cluster met hoge beschikbaarheid van on-premises gegevensgateways te maken. Ook vindt u in dit artikel aanbevolen procedures voor het instellen van deze clusters. Voor gatewayclusters met hoge beschikbaarheid is de update van november 2017 of hoger vereist voor de on-premises gegevensgateway.
 
 
 ## <a name="setting-up-high-availability-clusters-of-gateways"></a>Gatewayclusters met hoge beschikbaarheid instellen
