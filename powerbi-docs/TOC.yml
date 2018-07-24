@@ -530,6 +530,12 @@
       items:
         - name: Wat is er nieuw in de meest recente update voor Power BI Desktop?
           href: desktop-latest-update.md
+        - name: Samengestelde modellen in Power BI Desktop (preview-versie)
+          href: desktop-composite-models.md
+        - name: Veel-op-veelrelaties in Power BI Desktop (preview-versie)
+          href: desktop-many-to-many-relationships.md
+        - name: Opslagmodus in Power BI Desktop (preview-versie)
+          href: desktop-storage-mode.md
         - name: In twee richtingen kruislings filteren in Power BI Desktop (preview)
           href: desktop-bidirectional-filtering.md
         - name: Power BI en DirectQuery
@@ -670,6 +676,8 @@
               href: desktop-import-and-display-kpis.md
         - name: Rapporten maken
           items:
+            - name: Visuele elementen voor rapporten
+              href: desktop-visual-elements-for-reports.md
             - name: Q&A in Power BI Desktop
               href: desktop-qna-in-reports.md
             - name: Het deelvenster Analyse in Power BI Desktop
@@ -1244,6 +1252,8 @@
               href: service-premium-large-datasets.md
             - name: Incrementeel vernieuwen
               href: service-premium-incremental-refresh.md
+            - name: Ondersteuning voor meerdere geografische gebieden (preview-versie)
+              href: service-admin-premium-multi-geo.md
             - name: Veelgestelde vragen over Power BI Premium
               href: service-premium-faq.md
             - name: Opmerking bij de release van Power BI Premium
