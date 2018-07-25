@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 638b46d681a9a9e7ef7754a4e28d0e94812ef8de
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 96675f8e96eef84a10684487f652c872405bf037
+ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34812348"
+ms.lasthandoff: 07/19/2018
+ms.locfileid: "39157143"
 ---
 # <a name="power-bi-rest-api-reference"></a>Naslag voor REST-API voor Power BI
 Power BI is een cloudgebaseerde service die u kunt gebruiken om aangepaste dashboardtoepassingen te bouwen. De Power BI REST-API is een op REST gebaseerde API die programmatische toegang biedt tot **dashboard**resources zoals **gegevenssets**, **tabellen** en **rijen** in Power BI.
@@ -31,4 +31,3 @@ De Power BI REST-API biedt de volgende bewerkingen:
 Zie [Power BI REST-API](https://docs.microsoft.com/rest/api/power-bi/) voor meer informatie over de Power BI REST-API.
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
-
