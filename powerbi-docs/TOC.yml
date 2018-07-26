@@ -804,6 +804,8 @@
           href: desktop-data-types.md
         - name: Privacyniveaus in Power BI Desktop
           href: desktop-privacy-levels.md
+        - name: Uitbreidbaarheid van connectors in Power BI
+          href: desktop-connector-extensibility.md
     - name: Resources
       items:
         - name: Power BI Desktop-video's

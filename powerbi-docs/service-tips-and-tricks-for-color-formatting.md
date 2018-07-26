@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/19/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3c91a6a70899a4a59c3d98cd9ab948284df5b662
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 144cdace662b5f6dbe546a213e07f087d634dcff
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298384"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39256004"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Tips en trucs voor het gebruik van kleuren in Power BI
 Power BI biedt veel verschillende manieren voor het aanpassen van uw dashboards en rapporten. In dit artikel vindt u een verzameling tips die ervoor kunnen zorgen dat uw Power BI-visualisaties boeiend, interessant en afgestemd op uw behoeften zijn.
@@ -97,7 +97,7 @@ In deze eerste afbeelding ziet u hoe de balken in de grafiek het kleurverloop in
 
 ![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_12.png)
 
-Nu gaan we kijken wat er gebeurt als wij numerieke waarden opgeven in de vakken **Minimum** en **Maximum** onder de kleurenkiezers **Minimum** en **Maximum** (zie volgende afbeelding). Stel **Minimum** in op 20.000.000 en **Maximum** in op 20.000.000.
+Nu gaan we kijken wat er gebeurt als wij numerieke waarden opgeven in de vakken **Minimum** en **Maximum** onder de kleurenkiezers **Minimum** en **Maximum** (zie volgende afbeelding). Stel **Minimum** in op 20.000.000 en **Maximum** in op 20.000.001.
 
 Door het instellen van deze waarden wordt het verloop niet langer toegepast op de waarden in de grafiek die onder **Minimum** of boven **Maximum** liggen; een balk met een waarde boven **Maximum** is groen en een balk met een waarde onder **Minimum** is rood.
 
