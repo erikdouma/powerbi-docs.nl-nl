@@ -57,7 +57,7 @@ De vereiste elementen voor een berekende meting zijn dezelfde als voor een berek
 * een nieuwe naam van de meting
 * ten minste één functie of expressie
 
-> Met dank aan [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit) voor de video
+> Met dank aan [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax) voor de video
 > 
 > 
 

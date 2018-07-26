@@ -34,7 +34,7 @@ Power BI en DAX bevatten bijvoorbeeld waarden die niet goed zijn gekruisindexeer
 
 U kunt ook volledig berekende tabellen maken met DAX-functies. Berekende tabellen die zijn gemaakt met behulp van DAX moeten een **naam** en een **tabel**functie hebben. Berekende tabellen kunnen worden gebruikt als elke andere tabel, zoals voor het opstellen van relaties.
 
-> Met dank aan [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit) voor de video
+> Met dank aan [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax) voor de video
 > 
 > 
 

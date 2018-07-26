@@ -89,7 +89,7 @@ DAX bevat de volgende **datum**functies:
 
 Deze functies zijn weliswaar handig voor het berekenen en extraheren van gegevens in *datum*waarden, maar zijn niet van toepassing op tijdsintelligentie die gebruikmaakt van een datumtabel.
 
-> Met dank aan [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit) voor de video
+> Met dank aan [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax) voor de video
 > 
 > 
 

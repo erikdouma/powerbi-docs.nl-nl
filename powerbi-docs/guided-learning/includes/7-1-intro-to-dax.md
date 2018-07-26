@@ -3,7 +3,7 @@ Welkom bij de sectie **Begeleide training** van Power BI als introductie op **DA
 **DAX** staat voor **Data Analysis Expressions** en is de formuletaal die in Power BI (en achter de schermen) wordt gebruikt. DAX wordt ook in andere producten van Microsoft gebruikt, zoals Power Pivot en SSAS Tabular. In deze sectie wordt alleen besproken hoe DAX in Power BI wordt gebruikt.
 
 ## <a name="dax-and-this-guided-learning-video-series"></a>DAX en de videoserie 'Begeleide training'
-Het doel van deze sectie **Begeleide training** is om u de basisprincipes en grondbeginselen van DAX te leren, zodat u weet wat DAX is en hoe het werkt. Ook worden de handigste functies besproken door DAX-deskundige [ Alberto Ferrari](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit).
+Het doel van deze sectie **Begeleide training** is om u de basisprincipes en grondbeginselen van DAX te leren, zodat u weet wat DAX is en hoe het werkt. Ook worden de handigste functies besproken door DAX-deskundige [ Alberto Ferrari](http://www.sqlbi.com/learning-dax).
 
 ![Portret van Alberto Ferrari](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
 
