@@ -35,7 +35,7 @@ Verbinding maken met [Dynamics Marketing-inhoudspakket](https://app.powerbi.com/
 3. Selecteer **Microsoft Dynamics Marketing** \> **Ophalen**.
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/mdmarketing.png)
-4. Geef de OData-URL op die is gekoppeld aan uw account.  Deze heeft de indeling https://[instance\_name].marketing.dynamics.com/analytics.
+4. Geef de OData-URL op die is gekoppeld aan uw account.  Deze heeft de indeling https:// [instance\_name].marketing.dynamics.com/analytics.
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/pbi_dynmktgserviceurl.png)
 5. Geef indien gewenst uw referenties op (deze stap kan worden overgeslagen als u al bent aangemeld in uw browser). Voer voor de verificatiemethode **oAuth2** in en klik op **Aanmelden**:
