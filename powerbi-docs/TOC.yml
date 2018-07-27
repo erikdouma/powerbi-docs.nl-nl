@@ -682,8 +682,10 @@
               href: desktop-qna-in-reports.md
             - name: Het deelvenster Analyse in Power BI Desktop
               href: desktop-analytics-pane.md
-            - name: Inzichten gebruiken in Power BI Desktop
+            - name: Inzichten gebruiken om toenames en afnames te verklaren
               href: desktop-insights.md
+            - name: Inzichten gebruiken om te zoeken waar de distributie afwijkt in grafieken
+              href: desktop-insights-find-where-different.md
             - name: Bladwijzers in Power BI
               href: desktop-bookmarks.md
             - name: Rapportthema's gebruiken
