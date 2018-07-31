@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 3323258304f8c36131caf6ef269d9befa6cfbb96
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: ba6b8cb1ade1337a29e758a16db285dbea7c41db
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136520"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280174"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Aan de slag met de mobiele Power BI-app op Android-apparaten
 De Android-app voor Microsoft Power BI biedt de mobiele BI-ervaring voor Power BI, Power BI Report Server en Reporting Services. Bekijk en gebruik vanaf elke locatie uw bedrijfsdashboards on-premises en in de cloud met mobiele live-toegang met aanraakfunctionaliteit. Verken de gegevens in dashboards en deel deze met uw collega's per e-mail of sms-bericht. 
@@ -86,7 +86,7 @@ U kunt de Power BI-voorbeelddashboards bekijken en gebruiken, maar er zijn enkel
     Standaard worden alle dashboards en rapporten doorzocht, maar u kunt aangeven dat er slechts één hoeft te worden doorzocht.
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Uw inhoud in de mobiele Power BI-apps zoeken
-Uw dashboards en rapporten worden opgeslagen op verschillende locaties in de mobiele Power BI-apps. Waar ze worden opgeslagen, is afhankelijk van waar ze afkomstig zijn. Klik [hier](mobile-apps-find-content-mobile-devices.md) voor informatie over het zoeken van uw inhoud in de mobiele apps. Bovendien kunt u altijd zoeken naar alles wat u in de mobiele Power BI-apps hebt. 
+Uw dashboards en rapporten worden opgeslagen op verschillende locaties in de mobiele Power BI-apps. Waar ze worden opgeslagen, is afhankelijk van waar ze afkomstig zijn. Klik [hier](mobile-apps-quickstart-view-dashboard-report.md) voor informatie over het zoeken van uw inhoud in de mobiele apps. Bovendien kunt u altijd zoeken naar alles wat u in de mobiele Power BI-apps hebt. 
 
 ![Linkernavigatievenster](media/mobile-android-app-get-started/power-bi-mobile-new-nav-no-numbers.png)
 

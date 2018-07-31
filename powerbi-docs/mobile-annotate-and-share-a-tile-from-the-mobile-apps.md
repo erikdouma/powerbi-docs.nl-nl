@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: c70a5c50a139423f6c5e69ed6ec9a416dfae8b4e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: bb628f0cc6f723a195f3b90e6d20f4018d9f2709
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34295256"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39279844"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Een tegel, rapport of visual van aantekeningen voorzien en delen via mobiele Power BI-apps
 Van toepassing op:
@@ -31,7 +31,7 @@ U kunt momentopnamen van tegels, rapporten of visuals van aantekeningen voorzien
 
 Het e-mailbericht met de momentopname van de tegel, het rapport of de visual bevat ook een koppeling naar het werkelijke object in de Power BI-service ([https://powerbi.com](https://powerbi.com)). De geadresseerden kunnen op de koppeling klikken en rechtstreeks naar de tegel, het rapport of de visual gaan, als u en zij beschikken over Power BI Pro-licenties, of als de inhoud deel uitmaakt van de [Premium-capaciteit](service-premium.md) en u het item al met hen hebt gedeeld. 
 
-U kunt [een tegel ook delen vanuit de mobiele Power BI-app voor Windows 10-apparaten](mobile-share-tile-windows-10-phone-app.md), maar u kunt geen aantekeningen toevoegen.
+U kunt [een tegel ook delen vanuit de mobiele Power BI-app voor Windows 10-apparaten](mobile-windows-10-phone-app-get-started.md), maar u kunt geen aantekeningen toevoegen.
 
 ## <a name="open-a-tile-for-annotating"></a>Een tegel openen om aantekeningen toe te voegen
 1. Tik op een tegel om deze te openen in de focusmodus.

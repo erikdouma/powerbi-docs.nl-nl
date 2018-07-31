@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 2ee490107b802957b262d0a133d8e8b0e2a42754
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: d445264e22520efe81af94e1e4c4261d15eed04b
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135784"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280059"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Aan de slag met de mobiele Power BI-app voor Windows 10
 Met de mobiele Power BI-app voor Windows 10 hebt u Power BI op uw telefoon of tablet met bijgewerkte, mobiele toegang tot uw bedrijfsgegevens. U kunt uw bedrijfsdashboards vanaf elke locatie en rechtstreeks op uw [Windows-startscherm](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) bekijken en ze gebruiken.
@@ -87,7 +87,7 @@ U kunt uw dashboards, rapporten en apps snel vinden door te typen in het zoekvak
    ![Relevante zoekresultaten](media/mobile-windows-10-phone-app-get-started/pbi_win10_search_m.png)
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Uw inhoud in de mobiele Power BI-apps zoeken
-Uw dashboards en rapporten worden opgeslagen op verschillende locaties in de mobiele Power BI-apps. Waar ze worden opgeslagen, is afhankelijk van waar ze afkomstig zijn. Klik [hier](mobile-apps-find-content-mobile-devices.md) voor informatie over het zoeken van uw inhoud in de mobiele apps. Bovendien kunt u altijd zoeken naar alles wat u in de mobiele Power BI-apps hebt. 
+Uw dashboards en rapporten worden opgeslagen op verschillende locaties in de mobiele Power BI-apps. Waar ze worden opgeslagen, is afhankelijk van waar ze afkomstig zijn. Klik [hier](mobile-apps-quickstart-view-dashboard-report.md) voor informatie over het zoeken van uw inhoud in de mobiele apps. Bovendien kunt u altijd zoeken naar alles wat u in de mobiele Power BI-apps hebt. 
 
 ![Linkernavigatievenster van Power BI](media/mobile-windows-10-phone-app-get-started/power-bi-win10-left-nav.png)
 
@@ -111,7 +111,7 @@ Hier volgen enkele andere dingen die u in de Power BI-app voor Windows 10-appara
 * [Uw apps](service-install-use-apps.md) weergeven.
 * Uw [dashboards](mobile-apps-view-dashboard.md) weergeven.
 * [Power BI-tegels en -dashboards vastmaken](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) op het startscherm van uw apparaat als live-tegels.
-* [Tegels delen](mobile-share-tile-windows-10-phone-app.md).
+* [Tegels delen](mobile-windows-10-phone-app-get-started.md).
 * [Dashboards](mobile-share-dashboard-from-the-mobile-apps.md) delen.
 
 ### <a name="reporting-services-mobile-reports-and-kpis"></a>Mobiele rapporten en KPI's van Reporting Services

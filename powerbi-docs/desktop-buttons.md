@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/04/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a56108668bea3e5210c4429825045ebb23faf72c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 6abe55f41211e5af907fb0a2642b3f8420236e1b
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34228755"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39330484"
 ---
 # <a name="using-buttons-in-power-bi"></a>Knoppen gebruiken in Power BI
 Met behulp van **knoppen** in Power BI kunt u rapporten en dashboards maken die zich als apps gedragen en daarmee voor een aantrekkelijke omgeving zorgen, zodat gebruikers met de muisaanwijzer over Power BI-inhoud kunnen bewegen, erop kunnen klikken en op andere manieren met deze inhoud kunnen communiceren. U kunt de knoppen toevoegen aan rapporten in **Power BI Desktop** en deze rapporten delen of naar de Power BI-service publiceren om dashboards te maken die zich als een app gedragen tegenover gebruikers.

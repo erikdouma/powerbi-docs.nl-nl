@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1d4b825cd7301af020f01de215e00968d21f972c
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 954264018babcf8a2a95ec5686ac7688cd52fe24
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34250003"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39328414"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>Rapporten exporteren van Power BI naar PowerPoint (Preview)
 Met Power BI kunt u nu uw rapport publiceren naar **Microsoft PowerPoint** en heel eenvoudig een presentatie op basis van uw Power BI-rapport maken. Wanneer u wilt **exporteren naar PowerPoint** gebeurt het volgende:

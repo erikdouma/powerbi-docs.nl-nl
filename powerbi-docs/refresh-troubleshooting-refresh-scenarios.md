@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 6e1b2960eee8f436f8dbce660e755a5d0b39a68e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2168328ec2ed030c9a744a315c81f4a7d0b39404
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721565"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39327908"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Problemen met vernieuwingsscenario's oplossen
 Hier vindt u informatie over de verschillende scenario's die zich kunnen voordoen bij het vernieuwen van gegevens in de Power BI-service.

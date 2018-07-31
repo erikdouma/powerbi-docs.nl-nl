@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b2437074fb6beff4b1be62287d547111488862e3
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: c21d04da722e017210f7f83df3e1a5aa7dde1166
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39210325"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280749"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>Knopinfo maken op basis van rapportpagina’s in Power BI Desktop (voorbeeld)
 U kunt visueel uitgebreide **tooltips voor rapporten** maken die worden weergegeven wanneer u de muisaanwijzer over visuele elementen beweegt, op basis van rapportpagina's die u maakt in **Power BI Desktop**. Wanneer u een rapportpagina maakt die als knopinfo fungeert, kunnen uw aangepaste knopinfo visuele elementen, afbeeldingen en ongeacht welke andere verzameling van items bevatten die u in de rapportpagina maakt. 
@@ -124,6 +124,7 @@ In deze preview-versie van rapport**knopinfo** zijn er enkele beperkingen en ove
 * Rapportknopinfo wordt niet ondersteund voor aangepaste visuele elementen. 
 * Clusters worden momenteel niet ondersteund als velden die in rapportknopinfo kunnen worden weergegeven. 
 * Bij het kiezen van een veld dat u wilt weergeven als rapportknopinfo tonen visuele elementen met dat veld, wanneer u in plaats van een categorie een veld gebruikt, alleen de opgegeven knopinfo wanneer de samenvatting met het geselecteerde veld overeenkomt. 
+
 
 
 ## <a name="next-steps"></a>Volgende stappen

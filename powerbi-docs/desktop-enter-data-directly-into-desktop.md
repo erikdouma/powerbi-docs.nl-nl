@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3a1a458ab263eb1e03c565e7a47679994afda82e
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: c1f9ae5d988df16eeb9e9824968e55d2c22f0454
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136129"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39328598"
 ---
 # <a name="enter-data-directly-into-power-bi-desktop"></a>Rechtstreeks gegevens in Power BI Desktop invoeren
 Met Power BI Desktop kunt u gegevens rechtstreeks invoeren en die gegevens gebruiken in uw rapporten en visualisaties. U kunt bijvoorbeeld delen van een werkmap of webpagina kopiëren en vervolgens in Power BI Desktop plakken.

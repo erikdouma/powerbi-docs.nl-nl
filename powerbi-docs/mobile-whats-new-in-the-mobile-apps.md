@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/19/2018
 ms.author: maggies
-ms.openlocfilehash: 41a8b463ca95d0e4e0e0ba71dbd9ec9a1ce78920
-ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
+ms.openlocfilehash: 7149fd43d4214ed756eff61a523805ec9f50e1ae
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/20/2018
-ms.locfileid: "39182720"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280772"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -185,7 +185,7 @@ Lees het [overzicht van functies op mobiele apps van juli 2017](https://powerbi.
 
 **Nieuw menu: Apps** Een app is een verzameling dashboards en rapporten die door uw organisatie is gebouwd om belangrijke metrieken te bieden zodat sneller en eenvoudige besluiten op basis van gegevens kunnen worden gemaakt.
 
-Lees meer over [hoe de inhoud in Power BI is georganiseerd](mobile-apps-find-content-mobile-devices.md) (Engelstalig).
+Lees meer over [hoe de inhoud in Power BI is georganiseerd](mobile-apps-quickstart-view-dashboard-report.md) (Engelstalig).
 
 #### <a name="ios-and-android-devices"></a>iOS- en Android-apparaten
 **Power BI-rapportserver (preview)** Maak Power BI-rapporten on-premises en publiceer ze. Vervolgens [bekijkt u ze en werkt ermee in uw mobiele iOS- of Android-apparaat](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) (Engelstalig). 
@@ -241,7 +241,7 @@ Met Q&A kunt u in uw eigen woorden vragen stellen over uw gegevens. Power BI gee
 U kunt nu verbinding hebben met maximaal vijf SSRS-servers (SQL Server Reporting Services) tegelijk.
 
 #### <a name="android-tablets"></a>Android-tablets
-**De mobiele Power BI-app** voor Android-tablets is nu wereldwijd beschikbaar. Aan de slag met de [Power BI-app voor Android-tablets](mobile-android-tablet-app-get-started.md) (Engelstalig).
+**De mobiele Power BI-app** voor Android-tablets is nu wereldwijd beschikbaar. Aan de slag met de [Power BI-app voor Android-tablets](mobile-android-app-get-started.md) (Engelstalig).
 
 #### <a name="ios-and-android-devices"></a>iOS- en Android-apparaten
 **Nieuw menu voor dashboard-tegels** Navigeer naar het onderliggende rapport, vouw de tegel uit of beheer een melding - alles vanuit een menu op de tegel in een dashboard. 
@@ -304,7 +304,7 @@ Lees het [overzicht met functies van de mobiele Power BI-app van november 2016](
 #### <a name="android-tablets"></a>Android-tablets
 **Mobiele Power BI-app voor Android-tablets** Ja, de preview-versie is er.
 
-* Probeer [Power BI op uw Android-tablet](mobile-android-tablet-app-get-started.md) (Engelstalig)
+* Probeer [Power BI op uw Android-tablet](mobile-android-app-get-started.md) (Engelstalig)
 * Verken [mobiele rapporten en KPI's van Reporting Services op uw Android-tablet](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) (Engelstalig)
 
 #### <a name="android-devices"></a>Android-apparaten
@@ -498,7 +498,7 @@ Alle verbeteringen van januari zijn al aanwezig in de nieuwe [Power BI-app voor 
 
 **R-tegels en webwidgets** Bekijk deze nieuwe tegeltypen in dashboards op uw mobiele apparaat.
 
-**Bing-dashboards** In de Power BI-service kunt u nu [dashboards maken met Bing-zoekresultaten](service-connect-to-bing.md) (Engelstalig) en ze weergeven op uw mobiele apparaat.
+**Bing-dashboards** In de Power BI-service kunt u nu [dashboards maken met Bing-zoekresultaten](service-connect-to-services.md) (Engelstalig) en ze weergeven op uw mobiele apparaat.
 
 **Rapportpagina's als tegels vastgemaakt aan dashboards** Nu u een hele rapportpagina aan een dashboard in de Power BI-service kunt vastmaken, kunt u rapportpagina's bekijken in de Power BI-app op uw iPhone of Android-telefoon.
 

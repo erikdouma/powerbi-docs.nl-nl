@@ -5,7 +5,6 @@ Hier volgt een lijst van de huidige beperkingen voor beveiliging op rijniveau vo
 * U kunt RLS alleen definiëren in de gegevenssets die zijn gemaakt met behulp van de Power BI Desktop-client. Als u RLS wilt inschakelen voor gegevenssets die zijn gemaakt met Excel, moet u uw bestanden eerst naar PBIX-bestanden converteren. [Meer informatie](../desktop-import-excel-workbooks.md)
 * Alleen ETL- en DirectQuery-verbindingen worden ondersteund. Live verbindingen met Analysis Services worden afgehandeld in het on-premises model.
 * Q&A en Cortana wordt op dit moment niet ondersteund met RLS. Als voor alle modellen RLS is geconfigureerd, ziet u niet het Q&A-invoervak voor dashboards. Dit staat op de roadmap, maar er is geen tijdlijn beschikbaar.
-* Extern delen wordt momenteel niet ondersteund met gegevenssets die RLS gebruiken.
 * Voor elk gegeven model is het maximale aantal Azure AD-principals (dat is, individuele gebruikers van beveiligingsgroepen) dat kan worden toegewezen aan beveiligingsrollen 1000. Als u grote aantallen gebruikers aan rollen wilt toewijzen, kunt u beter beveiligingsgroepen toewijzen dan afzonderlijke gebruikers.
 
 ## <a name="known-issues"></a>Bekende problemen

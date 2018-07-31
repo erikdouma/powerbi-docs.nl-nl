@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 5601ab79832f2d52622f5c13ecd23f346408f08e
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: eda7f44c869829564703bda6112177234d3f2d44
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598610"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280128"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Werken met tegels in de mobiele Power BI-apps
 Van toepassing op:
@@ -92,7 +92,7 @@ Vervolgens kunt u ze in een mobiele Power BI-app openen in de focusmodus om erme
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10tileellpslink.png)
    
-    [Een momentopname van de tegel delen](mobile-share-tile-windows-10-phone-app.md).
+    [Een momentopname van de tegel delen](mobile-windows-10-phone-app-get-started.md).
    
     Tik op **Rapport openen** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) om [het onderliggende rapport weer te geven](mobile-reports-in-the-mobile-apps.md).
    
@@ -120,7 +120,7 @@ Vervolgens kunt u ze in een mobiele Power BI-app openen in de focusmodus om erme
    
    ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-center-map.png)
    
-   Tik op het pictogram Momentopname delen ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_shareicon.png) om [een tegel te delen](mobile-share-tile-windows-10-phone-app.md) met anderen.   
+   Tik op het pictogram Momentopname delen ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_shareicon.png) om [een tegel te delen](mobile-windows-10-phone-app-get-started.md) met anderen.   
    
    Tik op het pictogram Rapport openen ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) om [het rapport weer te geven](mobile-reports-in-the-mobile-apps.md) waarop de tegel is gebaseerd. 
 4. Tik op de pijl naar links of de knop Terug om de tegel te sluiten en terug te gaan naar het dashboard.
