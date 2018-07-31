@@ -7,15 +7,15 @@ ms.reviewer: ajayan
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/08/2018
+ms.date: 07/19/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1b7a111e1b240a37211c17bce4d497de2d864074
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 45e9207ffa666e33b298e82bbc78e07c226b780e
+ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34852297"
+ms.lasthandoff: 07/20/2018
+ms.locfileid: "39182789"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Organisatie-inhoudspakketten beheren, bijwerken en verwijderen
 > [!NOTE]
@@ -52,7 +52,7 @@ Wanneer u een wijziging aanbrengt en deze opslaat in het dashboard dat u hebt op
 4. Breng in het venster **Inhoudspakket bijwerken** de eventuele benodigde wijzigingen aan en selecteer **Bijwerken**. Het bericht **Geslaagd** wordt weergegeven.
    
    * Voor groepsleden die het inhoudspakket niet hebben aangepast, wordt de update automatisch toegepast.
-   * Groepsleden die het inhoudspakket hebben aangepast, ontvangen een melding dat er een nieuwe versie beschikbaar is.  Zij kunnen naar AppSource gaan en het bijgewerkte inhoudspakket ophalen zonder dat hun gepersonaliseerde versie verloren gaat.  Ze hebben nu twee versies: de gepersonaliseerde versie en het bijgewerkte inhoudspakket.  De gepersonaliseerde versie bevat geen tegels meer van het oorspronkelijke inhoudspakket.  Maar tegels die zijn vastgemaakt vanuit andere rapporten worden nog wel weergegeven.    
+   * Groepsleden die het inhoudspakket hebben aangepast, ontvangen een melding dat er een nieuwe versie beschikbaar is.  Zij kunnen naar AppSource gaan en het bijgewerkte inhoudspakket ophalen zonder dat hun gepersonaliseerde versie verloren gaat.  Ze hebben nu twee versies: de gepersonaliseerde versie en het bijgewerkte inhoudspakket.  De gepersonaliseerde versie bevat geen tegels meer van het oorspronkelijke inhoudspakket.  Maar tegels die zijn vastgemaakt vanuit andere rapporten worden nog wel weergegeven. Als de eigenaar van het inhoudspakket echter de gegevensset verwijdert waarop het inhoudspakket is gebaseerd, wordt het hele rapport verwijderd.  
 
 ## <a name="update-the-audience-expand-or-restrict-access"></a>De doelgroep bijwerken: de toegang beperken of uitbreiden
 Een andere aanpassing die beschikbaar is voor makers van inhoudspakketten, is het uitbreiden en beperken van toegang tot het inhoudspakket.  Misschien hebt u een inhoudspakket gepubliceerd voor een brede doelgroep en u hebt besloten om de toegang te beperken tot een kleinere groep.  

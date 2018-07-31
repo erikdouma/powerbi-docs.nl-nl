@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/06/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1f53b0efc2195221fbcbe45f03102d2c98e8eef3
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b2437074fb6beff4b1be62287d547111488862e3
+ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34232103"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39210325"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>Knopinfo maken op basis van rapportpagina’s in Power BI Desktop (voorbeeld)
 U kunt visueel uitgebreide **tooltips voor rapporten** maken die worden weergegeven wanneer u de muisaanwijzer over visuele elementen beweegt, op basis van rapportpagina's die u maakt in **Power BI Desktop**. Wanneer u een rapportpagina maakt die als knopinfo fungeert, kunnen uw aangepaste knopinfo visuele elementen, afbeeldingen en ongeacht welke andere verzameling van items bevatten die u in de rapportpagina maakt. 
@@ -119,6 +119,7 @@ Wanneer een visueel element in een rapport kruislings gemarkeerd wordt, toont de
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 In deze preview-versie van rapport**knopinfo** zijn er enkele beperkingen en overweging waarmee u rekening moet houden.
 
+* Sinds de release van juli 2018 van **Power BI Desktop** is er knopinfo beschikbaar voor visualisaties in tabellen en matrices. 
 * Rapportknopinfo wordt niet ondersteund bij het weergeven van rapporten in mobiele apps of in geïntegreerde omgevingen, zoals publiceren op het internet. 
 * Rapportknopinfo wordt niet ondersteund voor aangepaste visuele elementen. 
 * Clusters worden momenteel niet ondersteund als velden die in rapportknopinfo kunnen worden weergegeven. 
