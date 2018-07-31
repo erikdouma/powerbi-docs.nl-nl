@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-sktopms.date: 06/01/2018
+sktopms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6341d5b3bba051cc31fe95f526450e03c14d4b69
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 08772389df36e72e4f8c83239ba396773070f61a
+ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36964809"
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "37145382"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Veelgestelde vragen over Power BI
 * Als u andere vragen hebt, kunt u deze stellen [in de Power BI-community](http://community.powerbi.com/).
@@ -54,7 +54,7 @@ Ja, er zijn speciale prijzen voor non-profitorganisaties die rechtstreeks kopen 
 De Power BI-service [https://powerbi.com](https://powerbi.com) is niet beschikbaar als persoonlijke, interne cloudservice. U hebt echter drie mogelijkheden om gegevens on-premises weer te geven en te manipuleren. 
 
 ### <a name="on-premises-data-gateway"></a>On-premises gegevensgateway
-Met Power BI en Power BI Desktop kunt u een veilige verbinding tot stand brengen met uw eigen on-premises gegevensbronnen. Met de [on-premises gegevensgateway](service-gateway-onprem.md) kunt u een liveverbinding maken met uw on-premises SQL Server Analysis Services-server en met andere gegevensbronnen. U kunt ook geplande vernieuwingsintervallen instellen met een gecentraliseerde gateway. Als er geen gateway beschikbaar is, kunt u gegevens uit on-premises gegevensbronnen vernieuwen via de [persoonlijke Power BI-gateway](personal-gateway.md).
+Met Power BI en Power BI Desktop kunt u een veilige verbinding tot stand brengen met uw eigen on-premises gegevensbronnen. Met de [on-premises gegevensgateway](service-gateway-onprem.md) kunt u een liveverbinding maken met uw on-premises SQL Server Analysis Services-server en met andere gegevensbronnen. U kunt ook geplande vernieuwingsintervallen instellen met een gecentraliseerde gateway. Als er geen gateway beschikbaar is, kunt u gegevens uit on-premises gegevensbronnen vernieuwen via de [persoonlijke Power BI-gateway](service-gateway-personal-mode.md).
 
 ### <a name="power-bi-report-server"></a>Power BI Report Server
 Power BI Report Server is een oplossing die u op uw eigen locatie implementeert voor het maken, publiceren, en het beheren van rapporten, waarna u deze op verschillende manieren kunt leveren aan andere gebruikers: in een webbrowser, op hun mobiele apparaat of als een e-mailbericht in hun mailbox. Lees hier meer over [Power BI Report Server](report-server/get-started.md).
@@ -138,6 +138,7 @@ Net als in veel andere services en software van Microsoft, biedt Power BI een ee
 * Als u uw laatste actie, of laatste paar acties, **ongedaan wilt maken**,drukt u op Ctrl+Z.
 
 ## <a name="next-steps"></a>Volgende stappen
-* Nog vragen? [Misschien dat de community van Power BI het antwoord weet](http://community.powerbi.com/).
+* [Wat is Power BI?](power-bi-overview.md)
+* Hebt u nog vragen? [Misschien dat de community van Power BI het antwoord weet](http://community.powerbi.com/).
 * Nog steeds geen antwoord? Ga naar de [ondersteuningspagina van Power BI](https://powerbi.microsoft.com/support/) (Engelstalig)
 

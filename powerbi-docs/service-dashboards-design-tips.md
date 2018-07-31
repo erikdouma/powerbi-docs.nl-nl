@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 9c67aa0982733847cdca7d6079fa8887e6c1d1d2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 7da86135a391f8a6206a913a1e13df423ad96fbd
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34247042"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944969"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Tips voor het ontwerpen van een geweldig Power BI-dashboard
 Nu u een dashboard hebt gemaakt en een aantal tegels hebt toegevoegd, kunt u nadenken over hoe u ervoor zorgt dat het dashboard niet alleen mooi, maar ook functioneel is. Dit betekent in de praktijk meestal dat de belangrijkste informatie een opvallende plaats krijgt, en dat het dashboard netjes en opgeruimd is.
@@ -59,7 +59,7 @@ De meeste mensen lezen van boven naar beneden. Plaats daarom het hoogste detailn
 ## <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>De juiste visualisatie gebruiken voor de gegevens en de visualisatie zo opmaken dat deze gemakkelijk te lezen is
 Vermijd een verscheidenheid aan visualisaties omwille van de verscheidenheid alleen.  Visualisaties moeten een beeld schetsen, en gemakkelijk te begrijpen en te interpreteren zijn.  Voor sommige gegevens en visualisaties is een eenvoudig grafische visualisatie voldoende. Maar andere gegevens vragen mogelijk om een complexere visualisatie. Zorg ervoor dat u titels en labels, en andere aanpassingen gebruikt om de lezer te helpen.  
 
-* [Kies de juiste gegevensvisualisaties](http://blogs.msdn.com/b/microsoft_business_intelligence1/archive/2012/10/08/best-practices-in-data-visualization.aspx). Wees voorzichtig met grafieken die een vertekend beeld van de realiteit geven, bijvoorbeeld 3D-grafieken. Houd er rekening mee dat het menselijk brein moeite heeft met het interpreteren van circulaire vormen. Cirkeldiagrammen, ringdiagrammen, meters en andere cirkelvormige diagramtypen zien er wel mooi uit, maar ze zijn geen aanbevolen manier om gegevens te visualiseren.
+* [Kies de juiste gegevensvisualisaties](https://www.youtube.com/watch?v=-tdkUYrzrio). Wees voorzichtig met grafieken die een vertekend beeld van de realiteit geven, bijvoorbeeld 3D-grafieken. Houd er rekening mee dat het menselijk brein moeite heeft met het interpreteren van circulaire vormen. Cirkeldiagrammen, ringdiagrammen, meters en andere cirkelvormige diagramtypen zien er wel mooi uit, maar ze zijn geen aanbevolen manier om gegevens te visualiseren.
 * Wees consistent met diagramschalen op assen, de volgorde van diagramdimensies en ook de kleuren die worden gebruikt voor dimensiewaarden binnen diagrammen.
 * Zorg ervoor dat u kwantitatieve gegevens goed codeert. Gebruik niet meer dan 3 of 4 cijfers, wanneer u getallen weergeeft. Geef metingen weer met 1 of 2 cijfers links van de decimale punt, en gebruik een schaal voor duizendtallen of miljoenen, bijvoorbeeld 3,4 miljoen en niet 3.400.000.
 * Gebruik gaan combinatie van precisie- en tijdsniveaus. Zorg ervoor dat tijdsperioden begrijpelijk zijn.  Gebruik niet een diagram met de gegevens van de afgelopen maand naast gefilterde diagrammen uit een specifieke maand van het jaar.
