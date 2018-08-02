@@ -18,7 +18,7 @@ ms.locfileid: "39088834"
 ---
 # <a name="embed-reports-or-dashboards-from-apps"></a>Rapporten of dashboards uit apps insluiten
 
-In **Power BI** kunt u apps maken om gekoppelde **dashboards** en **rapporten** op één plek te verzamelen en ze vervolgens te publiceren naar grote groepen mensen in uw organisatie. Het gebruik van die apps is relevant wanneer al uw gebruikers Power BI gebruiken, zodat u inhoud met ze kunt delen zonder Power BI Apps te gebruiken. Bekijk de volgende korte stappen om inhoud uit een gepubliceerde Power BI-app in te sluiten in een externe toepassing.
+In **Power BI** kunt u apps maken om gekoppelde **dashboards** en **rapporten** op één plek te verzamelen en ze vervolgens te publiceren naar grote groepen mensen in uw organisatie. Het gebruik van die apps is relevant wanneer al uw gebruikers Power BI gebruiken, zodat u inhoud met ze kunt delen zonder Power BI-apps te gebruiken. Bekijk de volgende korte stappen om inhoud uit een gepubliceerde Power BI-app in te sluiten in een externe toepassing.
 
 ## <a name="how-to-grab-report-embed-url-for-embedding"></a>De insluitings-URL voor rapporten ophalen voor insluiten
 

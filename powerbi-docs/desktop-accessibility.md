@@ -32,7 +32,7 @@ Vanaf de versie van **Power BI Desktop** van september 2017 kunt u op de toets *
 
 ![Druk op ? in Power BI Desktop om sneltoetsen voor toegankelijkheid weer te geven](media/desktop-accessibility/accessibility_03.png)
 
-Dankzij deze verbeteringen voor toegankelijkheid, kunt u een Power BI-rapport gebruiken met een toetsenbord of een schermlezer. Dit kan met behulp van de volgende technieken:
+Dankzij deze verbeteringen voor toegankelijkheid kunt u een Power BI-rapport gebruiken met een toetsenbord of een schermlezer. Dit kan met behulp van de volgende technieken:
 
 U kunt de focus verplaatsen tussen de tabbladen van het rapport of de objecten op een rapportpagina met **Ctrl+F6**.
 
@@ -41,12 +41,12 @@ U kunt de focus verplaatsen tussen de tabbladen van het rapport of de objecten o
 
 Als u tussen visuals navigeert en hier verder interactief mee wilt werken, drukt u op **Alt+Shift+F10** om de focus naar de visuele kop te verplaatsen. Deze kop bevat verschillende opties zoals het sorteren en exporteren van de gegevens achter de grafiek en de Focus-modus. 
 
-U kunt op **Alt+Shift+F11** drukken om een toegankelijke versie van het venster *Gegevens weergeven* weer te geven. Hiermee kunt u de gegevens die in de visual worden gebruikt in een HTML-tabel bekijken, met behulp van dezelfde sneltoetsen die u normaal gesproken met de schermlezer gebruikt. 
+U kunt op **Alt+Shift+F11** drukken om een toegankelijke versie van het venster *Gegevens weergeven* weer te geven. Hiermee kunt u de gegevens die in de visual worden gebruikt, in een HTML-tabel bekijken met behulp van dezelfde sneltoetsen die u normaal gesproken met de schermlezer gebruikt. 
 
 ![Druk op Alt+Shift+F11 in Power BI Desktop om een toegankelijke versie van het venster Gegevens weergeven voor een visueel element weer te geven](media/desktop-accessibility/accessibility_04.png)
 
 > [!NOTE]
-> De functie Gegevens weergeven is alleen toegankelijk voor een schermlezer via deze sneltoets. Als u Gegevens weergeven opent via de optie weergeven in de visuele kop, is deze optie niet toegankelijk voor een schermlezer.
+> De functie Gegevens weergeven is alleen toegankelijk voor een schermlezer via deze sneltoets. Als u Gegevens weergeven opent via de optie in de visuele kop, is deze optie niet toegankelijk voor een schermlezer.
 > 
 > 
 
