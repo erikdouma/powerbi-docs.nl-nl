@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/06/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 72a900b1661a77e5b31c1d68b5726d989b236f7b
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.openlocfilehash: f07b5174d031c79f4d8f232c49836b54d95621f1
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39031997"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39256027"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Toegankelijkheid in Power BI Desktop-rapporten
 Power BI bevat functies die het gebruikers met een handicap gemakkelijker maken om Power BI-rapporten te gebruiken en ermee te werken. Deze functies omvatten de mogelijkheid om een rapport te gebruiken met het toetsenbord of een schermlezer, de focus te verplaatsen naar verschillende objecten op een pagina met de tabtoets, en handig gebruik te maken van markeringen in visualisaties.
@@ -41,14 +41,20 @@ U kunt de focus verplaatsen tussen de tabbladen van het rapport of de objecten o
 
 Als u tussen visuals navigeert en hier verder interactief mee wilt werken, drukt u op **Alt+Shift+F10** om de focus naar de visuele kop te verplaatsen. Deze kop bevat verschillende opties zoals het sorteren en exporteren van de gegevens achter de grafiek en de Focus-modus. 
 
+![Druk op Alt+Shift+F10 in Power BI Desktop om de focus naar de header van de visual te verplaatsen](media/desktop-accessibility/accessibility_08.png)
+
 U kunt op **Alt+Shift+F11** drukken om een toegankelijke versie van het venster *Gegevens weergeven* weer te geven. Hiermee kunt u de gegevens die in de visual worden gebruikt, in een HTML-tabel bekijken met behulp van dezelfde sneltoetsen die u normaal gesproken met de schermlezer gebruikt. 
 
 ![Druk op Alt+Shift+F11 in Power BI Desktop om een toegankelijke versie van het venster Gegevens weergeven voor een visueel element weer te geven](media/desktop-accessibility/accessibility_04.png)
 
 > [!NOTE]
 > De functie Gegevens weergeven is alleen toegankelijk voor een schermlezer via deze sneltoets. Als u Gegevens weergeven opent via de optie in de visuele kop, is deze optie niet toegankelijk voor een schermlezer.
-> 
-> 
+
+Sinds de release van **Power BI Desktop** in juli 2018 hebben slicers ook ingebouwde toegankelijkheidsfuncties. Wanneer u een slicer selecteert, past u de waarde van de slicer aan door met Ctrl+pijl-rechts door de verschillende besturingselementen binnen de slicer te gaan. Bijvoorbeeld: de eerste keer dat u op Ctrl+pijl-rechts drukt, is de focus op de gum en is het drukken op de spatiebalk gelijk aan klikken op de knop Gum, waarbij alle waarden in de slicer worden gewist. 
+
+U kunt door de besturingselementen in een slicer gaan door op de TAB-toets te drukken. Bij het drukken op de TAB-toets met de focus op de gum gaat u naar de vervolgkeuzeknop; bij nog een keer drukken gaat u naar de eerste slicerwaarde (als er meerdere waarden voor de slicer zijn, zoals een bereik). 
+
+![Druk op Ctrl+(pijl-rechts) in Power BI Desktop om elementen of waarden in een slicer aan te passen en druk op de spatiebalk om het element te selecteren en de waarde ervan aan te passen](media/desktop-accessibility/accessibility_07.png)
 
 Deze toegankelijkheidsfuncties zijn toegevoegd zodat gebruikers volledig gebruik kunnen maken van Power BI-rapporten met een schermlezer en toetsenbordnavigatie.
 
