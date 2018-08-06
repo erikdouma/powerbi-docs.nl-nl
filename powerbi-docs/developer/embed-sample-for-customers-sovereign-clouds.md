@@ -2,24 +2,26 @@
 title: Power BI-inhoud insluiten in een toepassing voor uw klanten voor onafhankelijke clouds
 description: Informatie over het integreren of insluiten van een dashboard, een tegel of een rapport in een web-app met behulp van de Power BI-API's voor uw klanten.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
-ms.topic: conceptual
-ms.date: 03/28/2018
-ms.author: maghan
-ms.openlocfilehash: ebbb004fe79bbae942243bc227e1c09fd51fa75f
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.topic: tutorial
+ms.date: 07/26/2018
+ms.openlocfilehash: 2d722428ce2029ef4689e6b4bf5dfcdd208baff8
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813705"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39255866"
 ---
-# <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Een Power BI-dashboard, -tegel of -rapport in uw toepassing insluiten voor onafhankelijke clouds
-Informatie over het integreren of insluiten van een dashboard, een tegel of een rapport in een web-app met behulp van de Power BI .NET-SDK en de Power BI JavaScript API voor uw klanten. Dit is meestal het ISV-scenario.
+# <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Zelfstudie: een Power BI-dashboard, -tegel of -rapport in uw toepassing insluiten voor onafhankelijke clouds
+Informatie over het integreren of insluiten van een dashboard, een tegel of een rapport in een web-app met behulp van de Power BI .NET-SDK en de Power BI JavaScript API voor uw klanten. Dit is doorgaans een ISV-scenario.
 
-Power BI ondersteunt ook onafhankelijke (privé)clouds. Elke onafhankelijke cloud heeft een eigen lidmaatschap. Er zijn verschillende onafhankelijke clouds:
+Power BI ondersteunt ook onafhankelijke (privé)clouds.
+
+Er zijn verschillende onafhankelijke clouds:
 
 * U.S. Government Community Cloud (GCC)
 
@@ -29,81 +31,83 @@ Power BI ondersteunt ook onafhankelijke (privé)clouds. Elke onafhankelijke clou
 
 * Power BI-cloud voor Duitsland
 
+* Power BI-cloud voor China
+
 ![Ingesloten dashboard](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-Als u wilt beginnen met dit scenario, hebt u een **Power BI**-account nodig. Als u geen account hebt ingesteld, kunt u afhankelijk van het type overheid, zich [aanmelden voor een Power BI-account voor de US Government](../service-govus-signup.md) of [een Power BI-cloudaccount voor Duitsland](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1).
+Als u wilt beginnen met dit scenario, hebt u een **Power BI**-account nodig. Als u geen account hebt ingesteld, kunt u zich afhankelijk van het type onafhankelijke cloud aanmelden voor een [Power BI-account voor de Amerikaanse overheid](../service-govus-signup.md), een [account voor de Power BI-cloud voor Duitsland](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) of een [account voor de Power BI-cloud voor China](http://www.21vbluecloud.com/powerbi/).
 
 > [!NOTE]
 > Wilt u liever een dashboard insluiten voor uw organisatie? Bekijk dan [Een dashboard integreren in een app voor uw organisatie](integrate-dashboard.md).
 >
 
-Als u een dashboard wilt integreren in een web-app, gebruikt u de **Power BI** API en een **AD-toegangstoken** (Azure Active Directory) voor verificatie bij het ophalen van een dashboard. Vervolgens kunt u het dashboard laden met een insluittoken. De **Power BI** API biedt programmatische toegang tot bepaalde **Power BI**-resources. Zie [Power BI REST-API](https://docs.microsoft.com/rest/api/power-bi/), [Power BI .NET-SDK](https://github.com/Microsoft/PowerBI-CSharp) en [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) voor meer informatie.
+Als u een dashboard wilt integreren in een web-app, gebruikt u de **Power BI** API en een **AD-toegangstoken** (Azure Active Directory) voor verificatie bij het ophalen van een dashboard. Vervolgens kunt u het dashboard laden met een insluittoken. De **Power BI**-API biedt programmatische toegang tot specifieke **Power BI**-resources. Zie [Power BI REST-API](https://docs.microsoft.com/rest/api/power-bi/), [Power BI .NET-SDK](https://github.com/Microsoft/PowerBI-CSharp) en [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) voor meer informatie.
 
 ## <a name="download-the-sample"></a>Het voorbeeld downloaden
 Dit artikel bevat de code die wordt gebruikt in het [voorbeeld voor het insluiten van inhoud voor uw klanten](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData) op GitHub. Als u dit scenario wilt volgen, kunt u het voorbeeld downloaden.
 
 * Government Community Cloud (GCC):
     1. Overschrijf het bestand Cloud.config door GCCCloud.config.
-    2. Werk clientid (client-id van systeemeigen app), groupid, use (hoofdgebruiker) en password bij in het bestand Web.config.
+    2. Werk clientid (client-id van systeemeigen app), groupid, de gebruiker (hoofdgebruiker) en het wachtwoord bij in het bestand Web.config.
     3. Voeg de GCC-parameters als volgt toe aan het bestand web.config.
 
 ```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
-
 <add key="resourceUrl" value="https://analysis.usgovcloudapi.net/powerbi/api" />
-
 <add key="apiUrl" value="https://api.powerbigov.us/" />
-
 <add key="embedUrlBase" value="https://app.powerbigov.us" />
 ```
 
 * Military Contractors (DoDCON):
     1. Overschrijf het bestand Cloud.config door TBCloud.config.
-    2. Werk clientid (client-id van systeemeigen app), groupid, use (hoofdgebruiker) en password bij in het bestand Web.config.
+    2. Werk clientid (client-id van systeemeigen app), groupid, de gebruiker (hoofdgebruiker) en het wachtwoord bij in het bestand Web.config.
     3. Voeg de DoDCON-parameters als volgt toe aan het bestand web.config.
 
 ```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
-
 <add key="resourceUrl" value="https://high.analysis.usgovcloudapi.net/powerbi/api" />
-
 <add key="apiUrl" value="https://api.high.powerbigov.us/" />
-
 <add key="embedUrlBase" value="https://app.high.powerbigov.us" />
 ```
 
 * Military (DoD):
     1. Overschrijf het bestand Cloud.config door PFCloud.config.
-    2. Werk clientid (client-id van systeemeigen app), groupid, use (hoofdgebruiker) en password bij in het bestand Web.config.
+    2. Werk clientid (client-id van systeemeigen app), groupid, de gebruiker (hoofdgebruiker) en het wachtwoord bij in het bestand Web.config.
     3. Voeg de DoDCON-parameters als volgt toe aan het bestand web.config.
 
 ```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
-
 <add key="resourceUrl" value="https://mil.analysis.usgovcloudapi.net/powerbi/api" />
-
 <add key="apiUrl" value="https://api.mil.powerbigov.us/" />
-
 <add key="embedUrlBase" value="https://app.mil.powerbigov.us" />
 ```
 
 * Parameters voor Power BI-cloud voor Duitsland
     1. Overschrijf het bestand Cloud.config met inhoud van Power BI-cloud voor Duitsland.
-    2. Werk clientid (client-id van systeemeigen app), groupid, use (hoofdgebruiker) en password bij in het bestand Web.config.
+    2. Werk clientid (client-id van systeemeigen app), groupid, de gebruiker (hoofdgebruiker) en het wachtwoord bij in het bestand Web.config.
     3. Voeg de parameters voor Power BI-cloud voor Duitsland als volgt toe aan het bestand web.config.
 
 ```xml
 <add key="authorityUrl" value=https://login.microsoftonline.de/common/oauth2/authorize/" />
-
 <add key="resourceUrl" value="https://analysis.cloudapi.de/powerbi/api" />
-
 <add key="apiUrl" value="https://api.powerbi.de/" />
-
 <add key="embedUrlBase" value="https://app.powerbi.de" />
 ```
 
+* Parameters van de Power BI-cloud voor China
+    1. Overschrijf het bestand Cloud.config met inhoud van de [Power BI-cloud voor China](https://github.com/Microsoft/PowerBI-Developer-Samples/blob/master/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData/CloudConfigs/Power%20BI%20operated%20by%2021Vianet%20in%20China/Cloud.config).
+    2. Werk clientid (client-id van systeemeigen app), groupid, de gebruiker (hoofdgebruiker) en het wachtwoord bij in het bestand Web.config.
+    3. Voeg de parameters voor de Power BI-cloud voor China als volgt toe aan het bestand web.config.
+
+```xml
+<add key="authorityUrl" value=https://login.chinacloudapi.cn/common/oauth2/authorize/" />
+<add key="resourceUrl" value="https://analysis.chinacloudapi.cn/powerbi/api" />
+<add key="apiUrl" value="https://api.powerbi.cn/" />
+<add key="embedUrlBase" value="https://app.powerbi.cn" />
+```
+
 ## <a name="step-1---register-an-app-in-azure-ad"></a>Stap 1: een app bij Azure AD registreren
-U moet uw toepassing bij Azure AD registreren om REST API-aanroepen te kunnen uitvoeren. Zie [Een Azure AD-app voor het insluiten van Power BI-inhoud registreren](register-app.md) voor meer informatie. Omdat er verschillende lidmaatschappen voor onafhankelijke clouds zijn, zijn er afzonderlijke URL's om uw toepassing te registreren.
+U moet uw toepassing registreren bij Azure AD om REST API-aanroepen te kunnen uitvoeren. Zie [Een Azure AD-app voor het insluiten van Power BI-inhoud registreren](register-app.md) voor meer informatie. Omdat er verschillende lidmaatschappen voor onafhankelijke clouds zijn, zijn er afzonderlijke URL's om uw toepassing te registreren.
 
 * Government Community Cloud (GCC): https://app.powerbigov.us/apps 
 
@@ -113,11 +117,13 @@ U moet uw toepassing bij Azure AD registreren om REST API-aanroepen te kunnen ui
 
 * Power BI-cloud voor Duitsland: https://app.powerbi.de/apps
 
-Als u het [voorbeeld voor het insluiten van inhoud voor uw klanten](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) hebt gedownload, gebruikt u de **client-ID** die u krijgt na de registratie, zodat het voorbeeld kan worden geverifieerd met Azure AD. Voor het configureren van het voorbeeld wijzigt u de **clientId** in het bestand *web.config*.
+* Power BI-cloud voor China - https://app.powerbi.cn/apps
+
+Als u het [voorbeeld voor het insluiten van inhoud voor uw klanten](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) hebt gedownload, gebruikt u de **client-id** die u verkrijgt na de registratie, zodat het voorbeeld kan worden geverifieerd voor Azure AD. Voor het configureren van het voorbeeld wijzigt u de **clientId** in het bestand *web.config*.
 
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>Stap 2: een toegangstoken ophalen uit Azure AD
-In uw app moet u eerst een **toegangstoken** van Azure AD ophalen voordat u de Power BI REST-API kunt aanroepen. Zie [Gebruikers verifiëren en een Azure AD-toegangstoken verkrijgen voor uw Power BI-app](get-azuread-access-token.md) voor meer informatie. Omdat er verschillende lidmaatschappen voor onafhankelijke clouds zijn, zijn er afzonderlijke URL's om een toegangstoken voor uw toepassing op te halen.
+In uw toepassing moet u een **toegangstoken** van Azure AD ophalen voordat u de Power BI REST API kunt aanroepen. Zie [Gebruikers verifiëren en een Azure AD-toegangstoken verkrijgen voor uw Power BI-app](get-azuread-access-token.md) voor meer informatie. Omdat er verschillende lidmaatschappen voor onafhankelijke clouds zijn, zijn er afzonderlijke URL's om een toegangstoken voor uw toepassing op te halen.
 
 * Government Community Cloud (GCC): https://login.microsoftonline.com
 
@@ -127,10 +133,12 @@ In uw app moet u eerst een **toegangstoken** van Azure AD ophalen voordat u de P
 
 * Power BI-cloud voor Duitsland: https://login.microsoftonline.de
 
+* Power BI-cloud voor China - https://login.microsoftonline.cn
+
 U kunt hier voorbeelden van bekijken in elke inhoudsitemtaak in **Controllers\HomeController.cs**.
 
 ## <a name="step-3---get-a-content-item"></a>Stap 3: een inhoudsitem ophalen
-Als u uw Power BI-inhoud wilt insluiten, moet u een aantal zaken doen om ervoor te zorgen dat dit op de juiste manier gebeurt. Al deze stappen kunt u rechtstreeks doen met de REST-API, maar de voorbeeldtoepassing en deze voorbeelden worden gemaakt met de .NET-SDK.
+Als u uw Power BI-inhoud wilt insluiten, moet u een aantal zaken doen om ervoor te zorgen dat dit op de juiste manier gebeurt. Al deze stappen kunt u rechtstreeks uitvoeren met de REST API, maar voor de voorbeeldtoepassing en deze voorbeelden wordt gebruikgemaakt van de .NET-SDK.
 
 ### <a name="create-the-power-bi-client-with-your-access-token"></a>De Power BI-client maken met uw toegangstoken
 U maakt uw Power BI-clientobject met uw toegangstoken zodat het kan communiceren met de Power BI-API's. Dit wordt gedaan door AccessToken te verpakken met een *Microsoft.Rest.TokenCredentials*-object.
@@ -142,7 +150,7 @@ using Microsoft.PowerBI.Api.V2;
 
 var tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bearer");
 
-// Create a Power BI Client object. It will be used to call Power BI APIs.
+// Create a Power BI Client object. This is used to call the Power BI APIs.
 using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 {
     // Your code to embed items.
@@ -160,7 +168,7 @@ Een voorbeeld hiervan is beschikbaar in **Controllers\HomeController.cs** van he
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
-// You will need to provide the GroupID where the dashboard resides.
+// You need to provide the GroupID where the dashboard resides.
 ODataResponseListDashboard dashboards = client.Dashboards.GetDashboardsInGroup(GroupId);
 
 // Get the first report in the group.
@@ -175,7 +183,7 @@ using Microsoft.PowerBI.Api.V2.Models;
 
 // To retrieve the tile, you first need to retrieve the dashboard.
 
-// You will need to provide the GroupID where the dashboard resides.
+// You need to provide the GroupID where the dashboard resides.
 ODataResponseListDashboard dashboards = client.Dashboards.GetDashboardsInGroup(GroupId);
 
 // Get the first report in the group.
@@ -194,7 +202,7 @@ Tile tile = tiles.Value.FirstOrDefault();
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
-// You will need to provide the GroupID where the dashboard resides.
+// You need to provide the GroupID where the dashboard resides.
 ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(GroupId);
 
 // Get the first report in the group.
@@ -205,7 +213,7 @@ Report report = reports.Value.FirstOrDefault();
 U moet een insluittoken genereren dat kan worden gebruikt vanuit de JavaScript API. Het insluittoken heeft alleen betrekking op het item dat is ingesloten. Dit betekent dat u een nieuw insluittoken moet maken voor elk stukje Power BI-inhoud dat u wilt insluiten. Zie [Insluittoken](https://docs.microsoft.com/rest/api/power-bi/embedtoken) voor meer informatie, onder andere over welk **accessLevel** u moet gebruiken.
 
 > [!IMPORTANT]
-> Omdat insluitingstokens alleen voor ontwikkelingstesten zijn bedoeld, kan een Power BI-masteraccount een onbeperkt aantal insluitingstokens genereren. Er moet een [capaciteit moet worden aangeschaft](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) voor insluitingsscenario's voor de productie. Het aantal te genereren insluitingstokens is onbeperkt wanneer een capaciteit is aangeschaft.
+> Omdat insluittokens alleen voor ontwikkelingstesten zijn bedoeld, kan een Power BI-masteraccount een onbeperkt aantal insluittokens genereren. Er moet een [capaciteit moet worden aangeschaft](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) voor insluitingsscenario's voor de productie. Het aantal te genereren insluitingstokens is onbeperkt wanneer een capaciteit is aangeschaft.
 
 Een voorbeeld hiervan is beschikbaar in **Controllers\HomeController.cs** van het [Voorbeeld voor insluiten voor uw organisatie](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
 
@@ -400,7 +408,7 @@ Een toepassingsvoorbeeld hiervan is beschikbaar in [Voorbeeld voor insluiten voo
 
 * Er is een voorbeeldtoepassing beschikbaar op GitHub die u kunt bekijken. De bovenstaande voorbeelden zijn gebaseerd op dat voorbeeld. Voor meer informatie raadpleegt u [Voorbeeld voor insluiten voor uw organisatie](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
 * Raadpleeg [Power BI JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript) voor meer informatie over de JavaScript-API.
-* Voor meer informatie over de Power BI-cloud voor Duitsland raadpleegt u [Veelgestelde vragen over de Power BI-cloud voor Duitsland ](https://docs.microsoft.com/power-bi/service-govde-faq)
+* Raadpleeg [Veelgestelde vragen over de Power BI-cloud voor Duitsland](https://docs.microsoft.com/power-bi/service-govde-faq) voor meer informatie over de Power BI-cloud voor Duitsland
 * [Inhoud van Power BI-werkruimteverzameling migreren naar Power BI](migrate-from-powerbi-embedded.md)
 
 Beperkingen en overwegingen

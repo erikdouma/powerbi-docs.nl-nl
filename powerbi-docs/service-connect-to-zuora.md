@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 57e1e8ce015db9b5f88f7b685c80092023540a6f
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 48246d61789a0b1e160109c1f2fb0e81838b3965
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599130"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39280312"
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Verbinding maken met Zuora via Power BI
 Met Zuora voor Power BI kunt u belangrijke omzet-, facturerings- en abonnementsgegevens visualiseren. Gebruik het standaarddashboard en de rapporten om gebruikstrends, facturen en betalingen te analyseren en terugkerende inkomsten te controleren, of pas ze aan om te voldoen aan uw eigen unieke dashboard- en rapportagebehoeften.
@@ -68,7 +68,7 @@ Het omvat ook deze berekende maateenheden:
 | Maateenheid | Beschrijving | Pseudo-berekening |
 | --- | --- | --- |
 | Account: betalingen |Totale betalingsbedragen in een periode gebaseerd op de ingangsdatum van de betaling. |SUM (Payment.Amount) <br>WHERE<br>Payment.EffectiveDate = < TimePeriod.EndDate<br>AND    Payment.EffectiveDate >= TimePeriod.StartDate |
-| Account: restituties |Totaal aantal restitutiebedragen in een periode op basis van restitutiedatum. Bedrag wordt gerapporteerd als een negatief getal. |-1*SUM(Refund.Amount)<br>WHERE<br>Refund.RefundDate = < TimePeriod.EndDate<br>AND    Refund.RefundDate >= TimePeriod.StartDate |
+| Account: restituties |Totale aantal restitutiebedragen in een periode op basis van restitutiedatum. Bedrag wordt gerapporteerd als een negatief getal. |-1*SUM(Refund.Amount)<br>WHERE<br>Refund.RefundDate = < TimePeriod.EndDate<br>AND    Refund.RefundDate >= TimePeriod.StartDate |
 | Account: netto betalingen |Betalingen plus restituties van een account in een bepaalde periode. |Account.Payments + Account.Refunds |
 | Account: actieve accounts |Het aantal accounts die in een bepaalde periode actief waren. Abonnementen moeten zijn gestart voor (of op) begindatum van periode. |COUNT (Account.AccountNumber)<br>WHERE<br>    Subscription.Status != "Verlopen"<br>AND    Subscription.Status != "Concept"<br>AND    Subscription.SubscriptionStartDate <= TimePeriod.StartDate<br>AND    (Subscription.SubscriptionEndDate > TimePeriod.StartDate<br>OR<br>Subscription.SubscriptionEndDate = null) –evergreen abonnement |
 | Account: gemiddelde terugkerende omzet |Brutomarge MRR per actieve account in een bepaalde periode. |Bruto MRR / Account.ActiveAccounts |

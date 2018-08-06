@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/06/2018
+ms.date: 07/26/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 11be5cd6f5b97fe612bf42a37228518ab2fbb227
-ms.sourcegitcommit: d1a0da8638c5d957b884ca9412275ee8880d4b14
+ms.openlocfilehash: 5db9b801fad3145cc864799062fe886c99da53aa
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37900049"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280197"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>De SAP BW Connector in Power BI Desktop gebruiken
 Met Power BI Desktop hebt u toegang tot gegevens van **SAP Business Warehouse (BW)**.
 
-Raadpleegt het [technische document over Power BI en SAP BW](https://aka.ms/powerbiandsapbw) voor informatie over hoe SAP-klanten kunnen profiteren van de koppeling tussen Power BI en hun bestaande SAP Business Warehouse-systemen.
+Raadpleegt het [technische document over Power BI en SAP BW](https://aka.ms/powerbiandsapbw) voor informatie over hoe SAP-klanten kunnen profiteren van de koppeling tussen Power BI en hun bestaande SAP Business Warehouse-systemen. Zie het artikel [DirectQuery en SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md) voor meer informatie over het gebruik van DirectQuery met SAP BW.
 
 Vanaf de release van juni 2018 van **Power BI Desktop** kunt u de SAP BW-connector gebruiken. Er zijn belangrijke verbeteringen aangebracht in de prestaties en mogelijkheden. Deze bijgewerkte versie van de SAP BW-connector is ontwikkeld door Microsoft en heet **Implementation 2.0**. U kunt versie 1 (v1) van de **SAP BW-connector** of de **Implementation 2.0 SAP-connector** selecteren. In de volgende gedeelten wordt voor elke versie beschreven hoe de installatie in zijn werk gaat. U kunt een van beide connectors kiezen wanneer u vanuit Power BI Desktop verbinding maakt met SAP BW.
 
@@ -38,9 +38,9 @@ Het wordt aangeraden om waar mogelijk gebruik te maken van de Implementation 2.0
 
 ## <a name="installation-of-implementation-20-sap-connector"></a>Installatie van de Implementation 2.0 SAP-connector
 
-voor **Implementation 2.0** van de SAP-connector is de SAP .NET Connector 3.0 vereist. U kunt de [SAP .NET Connector 3.0 downloaden](https://go.microsoft.com/fwlink/?linkid=872300) van de SAP-website. Gebruik daarvoor de volgende koppeling:
+voor **Implementation 2.0** van de SAP-connector is de SAP .NET Connector 3.0 vereist. U kunt de [SAP .NET Connector 3.0 downloaden](https://support.sap.com/en/product/connectors/msnet.html) van de SAP-website. Gebruik daarvoor de volgende koppeling:
 
-* [SAP .NET Connector 3.0](https://go.microsoft.com/fwlink/?linkid=872300)
+* [SAP .NET Connector 3.0](https://support.sap.com/en/product/connectors/msnet.html)
 
 Er is een geldige S-gebruiker nodig om de download te kunnen uitvoeren. Klanten wordt aangeraden om contact op te nemen met het SAP Basis-team om de SAP .NET Connector 3.0 te verkrijgen. 
 
@@ -54,7 +54,7 @@ Tijdens de installatie selecteert u in het venster **Optionele installatiestappe
 ![Optionele SAP-installatiestappen](media/desktop-sap-bw-connector/sap_bw_2b.png)
 
 > [!NOTE]
-> Voor de eerste versie van SAP BW-implementatie zijn Netweaver-DLL's vereist. Als u Implementation 2.0 van de SAP-connector gebruikt (en niet van de eerste versie), zijn de Netweaver-DLL's niet vereist.
+> Voor de eerste versie van de SAP BW-implementatie waren Netweaver-DLL's vereist. Als u Implementation 2.0 van de SAP-connector gebruikt (en niet de eerste versie gebruikt), zijn de Netweaver-DLL's niet vereist.
 
 
 ## <a name="version-1-sap-bw-connector-features"></a>Functies van versie 1 van de SAP BW-connector
@@ -207,6 +207,7 @@ Dit gedeelte bevat situaties waarin zich problemen voordoen (en oplossingen hier
 Raadpleeg de volgende resources voor meer informatie over SAP en DirectQuery:
 
 * [DirectQuery en SAP HANA](desktop-directquery-sap-hana.md)
+* [DirectQuery en SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md)
 * [DirectQuery in Power BI](desktop-directquery-about.md)
 * [Gegevensbronnen die worden ondersteund door DirectQuery](desktop-directquery-data-sources.md)
 * [Technisch document over Power BI en SAP BW](https://aka.ms/powerbiandsapbw)

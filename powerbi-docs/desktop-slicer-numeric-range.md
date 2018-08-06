@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1e380a6821db7207d14e719fa5e070af38196b97
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 135e6ff76a0972bdedbff3eaf7ab1222f82a94ab
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34286929"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39331164"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>De slicer voor numeriek bereik in Power BI Desktop gebruiken
 Met de **slicer voor numeriek bereik**, kunt u allerlei filters toepassen op een van de numerieke kolommen in het gegevensmodel. U kunt er voor kiezen om te filteren **tussen** getallen, **minder dan of gelijk aan** een getal of **groter dan of gelijk aan** een getal. Hoewel dit eenvoudig klinkt, is het een zeer krachtige manier om uw gegevens te filteren.
@@ -53,7 +53,7 @@ Ten slotte, als we **Groter dan of gelijk aan** selecteren, verdwijnt het bestur
 
 ## <a name="snap-to-whole-numbers-with-the-numeric-range-slicer"></a>Uitlijnen op hele getallen met de slicer met numeriek bereik
 
-Een slicer met numeriek bereik lijnt uit op hele getallen, tenzij het een decimaal bereik is. Hierdoor kan uw slicer foutloos uitlijnen op gehele getallen. 
+Een slicer met numeriek bereik lijnt uit op gehele getallen als het gegevenstype van het onderliggende veld **Geheel getal** is. Hierdoor kan uw slicer foutloos uitlijnen op gehele getallen. Met velden van het type **Decimaal getal** kunt u fracties van een getal invoer. De opmaak die is toegepast op het tekstvak komt overeen met de opmaak van het veld, hoewel u ook preciezere getallen kunt invoeren of selecteren.
 
 
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
@@ -61,3 +61,4 @@ De volgende beperkingen en overwegingen zijn momenteel van toepassing op de **sl
 
 * De **slicer voor numeriek bereik** filtert momenteel elke onderliggende rij in de gegevens, geen statische waarden. Als bijvoorbeeld een veld *Verkoopbedrag* wordt gebruikt, wordt elke transactie op basis van *Verkoopbedrag* gefilterd, niet de som van *Verkoopbedrag* voor elk gegevenspunt van een visueel element.
 * Dit werkt momenteel niet met Measures.
+* U kunt een willekeurig getal invoeren in de tekstvakken van een slicer met numeriek bereik, zelfs als dit getal buiten het bereik van de waarden in de onderliggende kolom ligt. Hiermee kunt u filters instellen als u weet dat de gegevens in de toekomst kunnen veranderen.

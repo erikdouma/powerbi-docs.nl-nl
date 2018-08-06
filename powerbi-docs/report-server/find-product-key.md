@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 828c5e8afc28b496b1920468097ce629fe646e37
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 2ea6f2e557f26358ab6a93d33c890e90c96885f4
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34564645"
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>De productcode van uw rapportserver zoeken
 Meer informatie over hoe u uw Power BI Report Server-productcode kunt vinden voor het installeren van uw server in een productieomgeving.
@@ -31,9 +32,9 @@ Als u Power BI Premium hebt aangeschaft, vindt u uw Power BI Report Server-produ
 
 Als u **Power BI Report Server-sleutel** selecteert, wordt een dialoogvenster weergeven met uw productcode. U kunt deze kopiëren en gebruiken bij de installatie.
 
-![Power BI Report Server-productcode](media/find-product-key/pbirs-product-key-dialog.png)
+![Productcode van Power BI Report Server](media/find-product-key/pbirs-product-key-dialog.png)
 
-## <a name="purchased-software-assurance-agreeemnt"></a>U hebt een Software Assurance-overeenkomst aangeschaft
+## <a name="purchased-software-assurance-agreement"></a>U hebt een Software Assurance-overeenkomst aangeschaft
 Als u een SQL Server Enterprise SA-overeenkomst hebt, kunt u uw productcode vinden in het [Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/). Zoek bij het nieuwste servicepack naar de meest recente versie van SQL Server. Als u deze niet ziet, kijkt u bij de RTM-versie van de meest recente versie van SQL Server.
 
 > [!NOTE]

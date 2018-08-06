@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/04/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 2caa22152580d3de8c6ede585c43dedf4e624f88
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: fad7b8453b6d5d29a1f6c5d9d9ed49b0a8b8a66f
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813728"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280335"
 ---
 # <a name="data-view-in-power-bi-desktop"></a>Gegevensweergave in Power BI Desktop
 De **gegevensweergave** helpt u bij het controleren, onderzoeken en begrijpen van gegevens in uw **Power BI Desktop**-model. Het verschilt van de manier waarop u tabellen, kolommen en gegevens in **Query-editor** bekijkt. In de gegevensweergave bekijkt u gegevens *nadat* deze in het model zijn geladen.
@@ -46,4 +46,5 @@ U kunt in de **gegevensweergave** ook filteren op gegevens en gegevens sorteren.
 
 U kunt op afzonderlijke waarden filteren of geavanceerde filters gebruiken op basis van de gegevens in de kolom. 
 
-
+> [!NOTE]
+> Als u een Power BI-model maakt voor een andere cultuur dan die van uw huidige gebruikersinterface (het model is bijvoorbeeld gemaakt voor Amerikaans Engels en u bekijkt het in het Spaans), wordt het zoekvak in de gebruikersinterface Gegevensweergave alleen weergegeven voor tekstvelden.
