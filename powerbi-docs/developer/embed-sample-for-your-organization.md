@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: cfc450216202f332f518955d28cb71df6aa0b800
-ms.sourcegitcommit: f2b106b5eb338a64f903e8ce6793bccb07f9440a
+ms.openlocfilehash: 544429528ed51dd2928eb82632f512ff3f7d5afd
+ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/18/2018
-ms.locfileid: "39105264"
+ms.lasthandoff: 07/31/2018
+ms.locfileid: "39359726"
 ---
-# <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>Zelfstudie: een Power BI-rapport, dashboard of tegel insluiten in een toepassing voor uw organisatie
+# <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>Zelfstudie: een Power BI-rapport, -dashboard of -tegel insluiten in een toepassing voor uw organisatie
 In deze zelfstudie leert u hoe u een rapport in een toepassing kunt integreren met de **.NET SDK voor Power BI** en de **JavaScript-API voor Power BI** bij het insluiten van **Power BI** in een toepassing voor uw organisatie. Met **Power BI** kunt u rapporten, dashboards en tegels in een toepassing insluiten met **gegevens waarvan de gebruiker eigenaar is**. Uw toepassing kan met **gegevens waarvan de gebruiker eigenaar is** de Power BI-service uitbreiden.
 
 ![Toepassing weergeven](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
@@ -56,7 +56,7 @@ U kunt uw toepassing registreren bij Azure Active Directory AD zodat uw toepassi
     ![App-registratie zoeken](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)</br>
     ![Nieuwe app-registratie](media/embed-sample-for-your-organization/embed-sample-for-your-organization-004.png)
 
-4. Volg de aanwijzingen en maak een nieuwe toepassing. Voor **gegevens waarvan de gebruiker eigenaar is** moet u **Web-app/API** voor het toepassingstype gebruiken. Daarnaast moet u een **aanmeldings-URL** opgeven, die **Azure AD** gebruikt om tokenantwoorden te retourneren. Voer een specifieke waarde in voor uw toepassing ( bijvoorbeeld http://localhost:13526/).
+4. Volg de aanwijzingen en maak een nieuwe toepassing. Voor **gegevens waarvan de gebruiker eigenaar is** moet u **Web-app/API** voor het toepassingstype gebruiken. Daarnaast moet u een **aanmeldings-URL** opgeven, die door **Azure AD** wordt gebruikt om tokenantwoorden te retourneren. Voer een specifieke waarde in voor uw toepassing ( bijvoorbeeld http://localhost:13526/).
 
     ![App maken](media/embed-sample-for-your-organization/embed-sample-for-your-organization-005.png)
 
@@ -178,7 +178,7 @@ Volg deze stappen om inhoud in te sluiten met een voorbeeldtoepassing.
 
     ![ClientID](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
 
-    Vul de **ClientSecret**-gegevens in in het gedeelte **Sleutels** van de sectie **App-registraties** in **Azure**.
+    Geef de **ClientSecret**-gegevens op in het gedeelte **Sleutels** van de sectie **App-registraties** in **Azure**.
 
     Ga als volgt te werk om het **ClientSecret** op te halen:
 
@@ -202,7 +202,7 @@ Volg deze stappen om inhoud in te sluiten met een voorbeeldtoepassing.
 
     ![Sleutels](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
 
-    Vul de **Beschrijving** in met een naam en selecteer een **Duur**, Selecteer vervolgens **Opslaan** om de **Waarde** voor uw toepassing op te halen. Zodra u de blade **Sleutels** sluit nadat u de **sleutelwaarde** hebt opgeslagen, wordt het waardeveld alleen nog als **_Verborgen_** weergegeven. Vanaf dat moment kunt u de **sleutelwaarde** niet meer ophalen. Als u de **sleutelwaarde** kwijtraakt, moet u een nieuwe waarde maken binnen **Azure Portal**.
+    Geef een naam op in **Beschrijving** en selecteer een **Duur**, Selecteer vervolgens **Opslaan** om de **Waarde** voor uw toepassing op te halen. Zodra u de blade **Sleutels** sluit nadat u de **sleutelwaarde** hebt opgeslagen, wordt het waardeveld alleen nog als **_Verborgen_** weergegeven. Vanaf dat moment kunt u de **sleutelwaarde** niet meer ophalen. Als u de **sleutelwaarde** kwijtraakt, moet u een nieuwe waarde maken binnen **Azure Portal**.
 
     ![Sleutels](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
 
@@ -231,7 +231,7 @@ Volg deze stappen om inhoud in te sluiten met een voorbeeldtoepassing.
 ## <a name="embed-your-content-within-your-application"></a>Uw inhoud in uw toepassing insluiten
 Hoewel de stappen voor het insluiten van uw inhoud kunnen worden uitgevoerd met de [Power BI REST-API's](https://docs.microsoft.com/rest/api/power-bi/), worden de voorbeeldcodes die worden beschreven in dit artikel gemaakt met de **.NET SDK**.
 
-Als u een rapport wilt integreren in een web-app, gebruikt u de **Power BI REST-API** of de **Power BI C# SDK** en een **AD-toegangstoken** (Azure Active Directory) voor verificatie bij het ophalen van een rapport. Vervolgens kunt u het rapport laden met hetzelfde **toegangstoken**. De **Power BI Rest-API** biedt programmatische toegang tot specifieke **Power BI**-resources. Zie [Power BI REST-API](https://docs.microsoft.com/rest/api/power-bi/) en de [Power BI JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript) voor meer informatie.
+Als u een rapport wilt integreren in een web-app, gebruikt u de **Power BI REST-API** of de **Power BI C# SDK** en een **AD-toegangstoken** (Azure Active Directory) voor autorisatie bij het ophalen van een rapport. Vervolgens kunt u het rapport laden met hetzelfde **toegangstoken**. De **Power BI Rest-API** biedt programmatische toegang tot specifieke **Power BI**-resources. Zie [Power BI REST-API](https://docs.microsoft.com/rest/api/power-bi/) en de [Power BI JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript) voor meer informatie.
 
 ### <a name="get-an-access-token-from-azure-ad"></a>Een toegangstoken ophalen uit Azure AD
 In uw toepassing moet u eerst een **toegangstoken** van Azure AD ophalen voordat u de Power BI REST-API kunt aanroepen. Zie [Gebruikers verifiëren en een Azure AD-toegangstoken verkrijgen voor uw Power BI-app](get-azuread-access-token.md) voor meer informatie.
@@ -248,7 +248,7 @@ Als u de REST-API-aanroep uitvoert, moet u de header *Autorisatie* met de indeli
 
 Hier vindt u een voorbeeldcode voor het ophalen van rapporten met de **REST API**.
 
-*Een voorbeeld van het ophalen van een inhoudsitem dat u wilt insluiten (rapport, dashboard of tegel) is beschikbaar in het bestand **_Default.aspx.cs_** in de [voorbeeldtoepassing](#embed-your-content-using-the-sample-application).*
+*Een voorbeeld van het ophalen van een inhoudsitem dat u wilt insluiten (rapport, dashboard of tegel), is beschikbaar in het bestand **_Default.aspx.cs_** in de [voorbeeldtoepassing](#embed-your-content-using-the-sample-application).*
 
 ```csharp
 using Newtonsoft.Json;
@@ -329,7 +329,7 @@ U kunt JavaScript gebruiken om een rapport te laden in een div-element op uw web
 
 Hier volgt een codevoorbeeld van hoe u een rapport ophaalt uit een bepaalde werkruimte.
 
-*Een voorbeeld van het laden van een inhoudsitem voor een rapport, dashboard of tegel die u wilt insluiten is beschikbaar in het bestand **_Default.aspx_** in de [voorbeeldtoepassing](#embed-your-content-using-the-sample-application).*
+*Een voorbeeld van het laden van een inhoudsitem voor een rapport, dashboard of tegel die u wilt insluiten, is beschikbaar in het bestand **_Default.aspx_** in de [voorbeeldtoepassing](#embed-your-content-using-the-sample-application).*
 
 ```javascript
 <!-- Embed Report-->
@@ -413,11 +413,28 @@ function updateEmbedReport() {
 Nu u uw toepassing hebt ontwikkeld, is het tijd om aan uw app-werkruimte toegewezen capaciteit toe te voegen.
 
 ### <a name="create-a-dedicated-capacity"></a>Een toegewezen capaciteit maken
-Als u een toegewezen capaciteit maakt, profiteert u van een toegewezen resource voor de inhoud in uw app-werkruimte. Als een werkruimte niet aan een speciale capaciteit is toegewezen, wordt deze als gedeelde capaciteit beschouwd. U kunt een toegewezen capaciteit maken met [Power BI Premium ](../service-admin-premium-purchase.md).
+Als u een toegewezen capaciteit maakt, profiteert u van een toegewezen resource voor de inhoud in uw app-werkruimte. U kunt een toegewezen capaciteit maken met [Power BI Premium](../service-premium.md).
+
+In de volgende tabel ziet u de Power BI Premium-SKU's die beschikbaar zijn in [Office 365](../service-admin-premium-purchase.md).
+
+| Capaciteitsknooppunt | Totaal aantal v-cores<br/>*(back-end + front-end)* | v-cores voor back-end | v-cores voor front-end | Limieten voor DirectQuery/liveverbindingen | Maximaal aantal paginaweergaven (rendering) tijdens piekuren |
+| --- | --- | --- | --- | --- | --- |
+| EM1 |1 v-core |0,5 v-cores, 10 GB RAM |0,5 v-cores |3,75 per seconde |150-300 |
+| EM2 |2 v-cores |1 v-core, 10 GB RAM |1 v-core |7,5 per seconde |301-600 |
+| EM3 |4 v-cores |2 v-cores, 10 GB RAM |2 v-cores |15 per seconde |601-1200 |
+| P1 |8 v-cores |4 v-cores, 25 GB RAM |4 v-cores |30 per seconde |1201-2400 |
+| P2 |16 v-cores |8 v-cores, 50 GB RAM |8 v-cores |60 per seconde |2401-4800 |
+| P3 |32 v-cores |16 v-cores, 100 GB RAM |16 v-cores |120 per seconde |4.801-9.600 |
+| P4 |64 v-cores |32 v-cores, 200 GB RAM |32 v-cores |240 per seconde |9601-19200
+| P5 |128 v-cores |64-v-cores, 400 GB RAM |64 v-cores |480 per seconde |19201-38400
+
+*Met **_EM-SKU's_** **kunt u** inhoud openen met een GRATIS Power BI-licentie als u de inhoud insluit in **_MS Office-apps_**. U kunt echter **geen inhoud openen** met een GRATIS Power BI-licentie wanneer u gebruikmaakt van **_Powerbi.com_** of de mobiele versie van **_Power BI_**.*
+
+*Met **_P-SKU's_** **kunt u** inhoud openen met een GRATIS Power BI-licentie als u de inhoud insluit in **_MS Office-apps_** of als u gebruikmaakt van **_Powerbi.com_** of **_de mobiele versie van Power BI_**.*
 
 ### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>Een app-werkruimte toewijzen aan een toegewezen capaciteit
 
-Zodra een toegewezen capaciteit is gemaakt, kunt u uw app-werkruimte toewijzen aan die toegewezen capaciteit. Ga hiervoor als volgt te werk.
+Zodra u toegewezen capaciteit hebt gemaakt, kunt u uw app-werkruimte toewijzen aan die toegewezen capaciteit. Ga hiervoor als volgt te werk.
 
 1. Vouw binnen **Power BI-service** werkruimten uit en selecteer het beletselteken voor de werkruimte die u gebruikt voor het insluiten van uw inhoud. Selecteer vervolgens **Werkruimten bewerken**.
 
@@ -431,13 +448,17 @@ Zodra een toegewezen capaciteit is gemaakt, kunt u uw app-werkruimte toewijzen a
 
     ![app-werkruimte gekoppeld aan een capaciteit](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
 
+## <a name="admin-settings"></a>Beheerdersinstellingen
+
+Globale beheerders of Power BI-servicebeheerders kunnen de mogelijkheid om REST-API's te gebruiken, in- of uitschakelen voor een tenant. Power BI-beheerders kunnen deze instelling inschakelen voor de hele organisatie of voor afzonderlijke beveiligingsgroepen. Standaard is deze instelling ingeschakeld voor de hele organisatie. Dit doet u via de [Power BI-beheerportal](../service-admin-portal.md).
+
 ## <a name="next-steps"></a>Volgende stappen
-In deze zelfstudie hebt u geleerd hoe u Power BI-inhoud insluit in een toepassing met uw **Power BI-account voor uw organisatie**. U kunt nu proberen Power BI-inhoud in een toepassing in te sluiten met apps.  Ook kunt u proberen Power BI-inhoud in te sluiten voor externe klanten.
+In deze zelfstudie hebt u geleerd hoe u Power BI-inhoud insluit in een toepassing met uw **Power BI-account voor uw organisatie**. U kunt nu proberen Power BI-inhoud in een toepassing in te sluiten met apps.  U kunt ook Power BI-inhoud insluiten voor uw klanten.
 
 > [!div class="nextstepaction"]
 > [Insluiten vanuit apps](embed-from-apps.md)
 
 > [!div class="nextstepaction"]
->[Insluiten voor externe klanten](embed-sample-for-customers.md)
+>[Insluiten voor uw klanten](embed-sample-for-customers.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
