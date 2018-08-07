@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: v-mamcge
 LocalizationGroup: Reports
-ms.openlocfilehash: 58ae70553264b8055603da66a4cfd71b5c74a3e9
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: b3bb1e6d7d7ce5b3fdc050f5df10af9f61acac92
+ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "37598844"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39582566"
 ---
 # <a name="power-bi-performance-best-practices"></a>Aanbevolen procedures voor de prestaties van Power BI 
 Dit artikel biedt informatie voor het snel maken van betrouwbare rapporten in Power BI.  
@@ -24,8 +24,8 @@ Dit artikel biedt informatie voor het snel maken van betrouwbare rapporten in Po
 
 Hoe meer gegevens via een visual moeten worden weergeven, hoe langzamer de visual wordt geladen. Hoewel dit principe duidelijk lijkt, wordt dit gemakkelijk vergeten. Voorbeeld: stel u eens voor dat u een grote gegevensset hebt. Hierop maakt u een rapport met een tabel van de tabel. Eindgebruikers gebruiken slicers op de pagina om de gewenste rijen weer te geven. Doorgaans zijn ze slechts in enkele tientallen rijen geïnteresseerd.
 
-Vaak wordt de fout gemaakt de standaardweergave van de tabel niet te filteren, waardoor alle 100M+-rijen worden weergegeven. De gegevens voor deze rijen moeten in het geheugen worden geladen en bij elke vernieuwing worden gedecomprimeerd. Dit is een grote belasting op het geheugen. De oplossing: verklein het maximale aantal items dat in de tabel wordt weergegeven met behulp van het filter Top N. Het maximale aantal items kan vele malen groter zijn dan wat gebruikers nodig hebben, bijvoorbeeld 10.000. Als gevolg hiervan wordt de ervaring voor de eindgebruiker niet gewijzigd, maar wordt het geheugengebruik van het rapport vele malen verminderd en worden de prestaties aanzienlijk verbeterd. 
- 
+Vaak wordt de fout gemaakt de standaardweergave van de tabel niet te filteren, waardoor alle 100M+-rijen worden weergegeven. De gegevens voor deze rijen moeten in het geheugen worden geladen en bij elke vernieuwing worden gedecomprimeerd. Dit is een grote belasting op het geheugen. De oplossing: verklein het maximale aantal items dat in de tabel wordt weergegeven met behulp van het filter Top N. Het maximale aantal items kan vele malen groter zijn dan wat gebruikers nodig hebben, bijvoorbeeld 10.000. Als gevolg hiervan wordt de ervaring voor de eindgebruiker niet gewijzigd, maar wordt het geheugengebruik van het rapport vele malen verminderd en worden de prestaties aanzienlijk verbeterd.
+
 Een soortgelijke benadering als hierboven beschreven, wordt sterk aangeraden voor alle visuals in uw rapporten. Stel uzelf de vraag of alle gegevens in deze visual nodig zijn. Zijn er manieren om de hoeveelheid gegevens die worden weergegeven in de visual te filteren met minimale gevolgen voor de eindgebruiker? Houd er rekening mee dat met name tabellen zeer kostbaar kunnen zijn. 
  
 ## <a name="limit-visuals-on-report-pages"></a>Visuals op rapportpagina's beperken 
