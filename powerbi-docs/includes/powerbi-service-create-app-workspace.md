@@ -1,4 +1,4 @@
-1. Maak eerst de werkruimte. Selecteer **Werkruimten** > **App-werkruimte maken**.
+1. Maak eerst de werkruimte. Selecteer **Werkruimten** > **App-werkruimte maken**. 
    
      ![App-werkruimte maken](media/powerbi-service-create-app-workspace/power-bi-create-app-workspace.png)
    

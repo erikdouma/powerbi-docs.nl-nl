@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: fb05b6fd2378c8fe2b6dec35250df31d227b7760
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 3ea99d26418a583a6ca588879aeafcd114aeaa6e
+ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135439"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39616000"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Maak een koppeling naar een specifieke locatie in de Power BI - Mobiel-apps
 U kunt een uniform resource identifier (URI) gebruiken om een koppelen te maken met een specifieke locatie (een *dieptekoppeling*) in de Power BI - Mobiel-apps op alle mobiele platforms: iOS, Android-apparaten en Windows 10.
@@ -36,7 +36,7 @@ Met deze URI wordt de Power BI - Mobiel-app geopend naar een specifiek dashboard
 
 Ga naar het specifieke dashboard in de Power BI-service (https://powerbi.com)) om de dashboardobject-id met 36 tekens op te halen. Zie bijvoorbeeld het gemarkeerde gedeelte van deze URL:
 
-https://powerbi.com/groups/me/dashboards/**61b7e871-cb98-48ed-bddc-6572c921e270**
+`https://powerbi.com/groups/me/dashboards/**61b7e871-cb98-48ed-bddc-6572c921e270**`
 
 Voeg `&GroupObjectId=<36-character-group-id>` toe vóór of na de dashboard-id wanneer het dashboard zich in een groep bevindt die niet Mijn werkruimte is. Bijvoorbeeld, 
 
@@ -51,7 +51,7 @@ Met deze URI wordt een specifieke tegel in focus geopend in de Power BI - Mobiel
 
 Ga naar het specifieke dashboard in de Power BI-service (https://powerbi.com)) en open de tegel in de focusmodus om de dashboard- en tegelobject-id met 36 tekens op te halen. Zie bijvoorbeeld de gemarkeerde gedeelten van deze URL:
 
-https://powerbi.com/groups/me/dashboards/**3784f99f-b460-4d5e-b86c-b6d8f7ec54b7**/tiles/**565f9740-5131-4648-87f2-f79c4cf9c5f5**/infocus
+`https://powerbi.com/groups/me/dashboards/**3784f99f-b460-4d5e-b86c-b6d8f7ec54b7**/tiles/**565f9740-5131-4648-87f2-f79c4cf9c5f5**/infocus`
 
 Voor deze zou, zou de URI als volgt zijn:
 
