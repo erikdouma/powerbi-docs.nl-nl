@@ -10,12 +10,12 @@ ms.topic: reference
 ms.date: 05/21/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 14b5f3d4b571df8ae672ee9731ed97555c476abd
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 7c970cd28a50dc15a7b721107b17ceade24c3bb2
+ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 08/02/2018
-ms.locfileid: "34456017"
+ms.locfileid: "39475747"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Gegevenstypen in Power BI Desktop
 In dit artikel worden de gegevenstypen beschreven die worden ondersteund in Power BI Desktop en Data Analysis Expressions (DAX). 
@@ -45,6 +45,11 @@ Power BI Desktop ondersteunt drie getaltypen:
 **Vast decimaal getal**: heeft een vaste locatie voor het decimaalteken. Er staan altijd vier cijfers rechts van het decimaalteken en er is plaats voor 19 significante cijfers.  De grootste waarde die kan worden weergegeven is 922.337.203.685.477,5807 (positief of negatief).  Het type Vast decimaal getal is handig in gevallen waar door afronding fouten kunnen ontstaan.  Wanneer u werkt met veel getallen met kleine decimale waarden, kan het aantal fouten soms oplopen waardoor het resultaat een kleine afwijking vertoont.  Omdat de waarden achter de vier cijfers rechts van het decimaalteken worden afgekapt, kunt u met het type Vast decimaal getal dit soort fouten voorkomen.   Als u bekend bent met SQL Server, komt dit gegevenstype overeen met Decimaal (19,4) van SQL Server of het gegevenstype Valuta in Power Pivot. 
 
 **Geheel getal**: geeft een 64-bits (8-bytes) geheel getal weer. Omdat het een geheel getal is, zijn er geen cijfers rechts van het decimaalteken. Er is plaats voor 19 cijfers; positieve of negatieve gehele getallen tussen -9.223.372.036.854.775.808 (-2^63) en 9.223.372.036.854.775.807 (2^63-1).  Hiermee kunt u het grootst mogelijke getal van de verschillende numerieke gegevenstypen aangeven.  Net zoals het type Vast decimaal getal kan het type Geheel getal handig zijn in gevallen waarin u het afronden wilt controleren. 
+
+> [!NOTE]
+>  Het gegevensmodel van Power BI Desktop biedt ondersteuning voor gehele getallen van 64-bits, maar het hoogste getal dat veilig in de visuals kan worden uitgedrukt is 9.007.199.254.740.991 (2^53-1) vanwege beperkingen van JavaScript. Als u in uw gegevensmodel met hogere getallen werkt, kunt u de grootte via berekeningen beperken voordat u ze aan een visual toevoegt 
+> 
+>
 
 ### <a name="datetime-types"></a>Datum/tijd-typen
 Power BI Desktop ondersteunt vijf datum/tijd-gegevenstypen in de Queryweergave en drie in de Rapportweergave en het rapportmodel.   Tijdens het laden in het model worden zowel Datum/tijd/tijdzone als Duur geconverteerd.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8fd04b6c7fe83e7047d2eaecf4fb4b0e564f0e9f
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: a14ed61d8d7e72090a034319052600cb429e8c16
+ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329633"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39475724"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Q&A in Power BI Desktop gebruiken voor query's met natuurlijke taal
 Normale zinnen en natuurlijke taal gebruiken om informatie uit uw gegevens te kunnen opvragen, is uiterst nuttig. Nog nuttiger is het wanneer uw gegevens antwoorden. Dit is wat u voor elkaar kunt krijgen met Q&A in **Power BI Desktop**.
@@ -24,6 +24,11 @@ Als u met Q&A het grote aantal vragen wilt interpreteren waarop de functie kan r
 
 > [!NOTE]
 > Q&A is alleen beschikbaar wanneer u met een model werkt dat **geïmporteerde** gegevens bevat. Liveverbindingen met SSAS- en DirectQuery-modellen worden niet ondersteund.
+>
+>
+
+> [!NOTE]
+> Voor Q&A is de volgende update van C Runtime vereist als u een eerdere Windows-versie dan Windows 10 gebruikt. Installeer belangrijke updates via Windows Update of installeer het vereiste Microsoft-onderdeel handmatig (KB2999226) om het probleem op te lossen. https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows
 >
 >
 

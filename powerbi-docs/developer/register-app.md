@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 07/31/2018
 ms.author: maghan
-ms.openlocfilehash: 447c777191e3da0a0d255a4eb7a6a0886fb278a5
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.openlocfilehash: 06e7c27579f559928dab822a7e0323cfb4abc1a1
+ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39359881"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "39388589"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Een Azure AD-app registreren om Power BI-inhoud in te sluiten
 Informatie over het registreren van een toepassing in Azure Active Directory (Azure AD) voor gebruik met ingesloten Power BI-inhoud.
@@ -167,15 +167,17 @@ U moet hiervoor zijn aangemeld bij het *hoofd*account, dat wordt gebruikt voor i
      { 
      "clientId":"{Service_Plan_ID}",
      "consentType":"AllPrincipals",
-     "resourceId":"c78b2585-1df6-41de-95f7-dc5aeb7dc98e",
+     "resourceId":"c78a3685-1ce7-52cd-95f7-dc5aea8ec98e",
      "scope":"Dataset.ReadWrite.All Dashboard.Read.All Report.Read.All Group.Read Group.Read.All Content.Create Metadata.View_Any Dataset.Read.All Data.Alter_Any",
      "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
      "startTime":"2017-03-29T14:35:32.4933413+03:00"
      }
      ```
-    De resource-id die is gebruikt, *c78b2585-1df6-41de-95f7-dc5aeb7dc98e*, is niet universeel, maar afhankelijk van de tenant. Deze waarde is de objectId van de toepassing Power BI Service in de AAD-tenant.
+    De **resourceId** *c78a3685-1ce7-52cd-95f7-dc5aea8ec98e* is niet universeel maar is afhankelijk van de tenant. Deze waarde is de objectId van de toepassing Power BI Service in de AAD-tenant.
 
-    De gebruiker kan deze waarde snel verkrijgen door in Azure Portal: a. https://portal.azure.com/#blade/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/AllApps b. In het zoekvak te zoeken naar Power BI Service
+    De gebruiker kan deze waarde snel verkrijgen in Azure Portal:
+    1. https://portal.azure.com/#blade/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/AllApps
+    2. In het zoekvak te zoeken naar Power BI Service
 
 5. App-machtigingen verlenen aan Azure Active Directory (AAD)
    

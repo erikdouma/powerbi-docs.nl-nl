@@ -2,19 +2,19 @@
 title: Rijen toevoegen aan een tabel
 description: 'Stappen om gegevens te pushen: rijen toevoegen aan een Power BI-tabel'
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/10/2017
-ms.author: maghan
-ms.openlocfilehash: b6fdd950b77dedf9f5180f7cbc90d40c786051c7
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.date: 08/01/2018
+ms.openlocfilehash: 7608d9098177805849ec61f0427ee5bc662d58c9
+ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34812532"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39475655"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Stap 5: Rijen toevoegen aan een Power BI-tabel
 Dit artikel maakt deel uit van een stapsgewijze uitleg van hoe u [gegevens naar een gegevensset pusht](walkthrough-push-data.md).
@@ -109,7 +109,7 @@ Hieronder ziet u de [volledige code](#code).
 
 <a name="code"/>
 
-## <a name="complete-code-listing"></a>Volledige code
+## <a name="complete-code-listing"></a>Volledige vermelding van de code
     using System;
     using Microsoft.IdentityModel.Clients.ActiveDirectory;
     using System.Net;
@@ -307,9 +307,10 @@ Hieronder ziet u de [volledige code](#code).
         }
     }
 
+Hoewel de bovenstaande code **_//Get the first id_** bevat, moet de gegevensset op naam worden gezocht.
+
 ## <a name="next-steps"></a>Volgende stappen
 [Gegevens pushen naar een Power BI-dashboard](walkthrough-push-data.md)  
 [Overzicht van de REST-API voor Power BI](overview-of-power-bi-rest-api.md)  
 [Naslag voor REST-API voor Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
-

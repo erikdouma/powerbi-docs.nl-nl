@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/22/2018
-ms.openlocfilehash: f104d2e9e27cfb9af72813053c0d8cb14aaf2635
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.openlocfilehash: ab637be12487029d17d7b1bfa89022dbae9aaa49
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39359651"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39415387"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Veelgestelde vragen over Power BI Embedded
 
@@ -216,6 +216,8 @@ De facturering voor Power BI Embedded vindt plaats volgens een voorspelbaar uurt
 Een licentie voor Power BI Pro is vereist voor analisten die rapporten moeten toevoegen aan een Power BI-werkruimte, ontwikkelaars die de REST-API's willen gebruiken en tenantbeheerders die de Power BI-tenant en -capaciteit moeten beheren.
 
 Omdat Power BI Embedded het gebruik van de Power BI-portal toestaat voor het beheren en valideren van ingesloten inhoud, is de Power BI Pro-licentie vereist voor het verifiëren van de app in PowerBI.com voor toegang tot de rapporten in de juiste opslagplaatsen.
+
+Voor het [maken of bewerken van ingesloten rapporten](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Create-Report-in-Embed-View) binnen uw eigen toepassing heeft de eindgebruiker echter geen Pro-licentie nodig omdat deze helemaal geen Power BI-gebruiker hoeft te zijn.
 
 ### <a name="can-i-get-started-for-free"></a>Kan ik gratis aan de slag?
 

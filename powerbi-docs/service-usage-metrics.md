@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 002c1c256a0d78601d112e4ee34326c0914f9ac1
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: d0449087715b1fac82276810397167d2a5de8f28
+ms.sourcegitcommit: 9c0f990ffb66256eb342af8528987bb108069af6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37599684"
+ms.lasthandoff: 08/03/2018
+ms.locfileid: "39501403"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Metrische gegevens over het gebruik van dashboards en rapporten
 Als u dashboards en rapporten maakt, kunnen metrische gegevens over het gebruik u helpen hun invloed te begrijpen. Wanneer u metrische gegevens over het gebruik van dashboards of rapporten uitvoert, ontdekt u hoe deze dashboards en rapporten worden gebruikt binnen uw organisatie; wat wordt gebruikt, door wie en met welk doel.  
@@ -149,6 +149,10 @@ Rapporten met metrische gegevens over gebruik zijn een functie die de Power BI- 
 Standaard wordt gegevens per gebruiker ingeschakeld voor metrische gegevens over gebruik. Accountgegevens van makers van inhoud worden in het metrische rapport opgenomen. Als u deze informatie niet voor een bepaalde gebruiker of voor geen enkele gebruiker wilt opnemen, schakelt u de functie voor bepaalde beveiligingsgroepen of voor een hele organisatie uit. Accountgegevens worden dan in het rapport weergegeven als *Naamloos*.
 
 Wanneer beheerders metrische gegevens over gebruik uitschakelen voor de gehele organisatie, kunnen ze de optie **Verwijder alle bestaande inhoud over metrische gegevens over gebruik** gebruiken om alle bestaande rapporten en dashboardtegels te verwijderen die zijn gemaakt met behulp van rapporten met metrische gegevens over gebruik en gegevenssets. Deze optie verwijdert alle toegang tot metrische gegevens voor alle gebruikers in de organisatie die deze mogelijk al gebruiken. Let op, want het verwijderen van bestaande metrische gegevens over gebruik kan niet ongedaan worden gemaakt.
+
+## <a name="usage-metrics-in-national-clouds"></a>Metrische gegevens over gebruik in nationale clouds
+
+Power BI is beschikbaar in afzonderlijke nationale clouds. Deze clouds bieden hetzelfde niveau qua beveiliging, privacy, compatibiliteit en transparantie als de algemene versie van Power BI en worden aangevuld met een uniek model voor lokale voorschriften voor het leveren van services, gegevenslocatie, toegang en beheer. Vanwege dit unieke model voor lokale voorschriften zijn metrische gegevens over gebruik niet beschikbaar in nationale clouds. Zie [nationale clouds](https://powerbi.microsoft.com/en-us/clouds/) voor meer informatie.
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 V: Ik kan geen metrische gegevens over gebruik op een dashboard of rapport uitvoeren    

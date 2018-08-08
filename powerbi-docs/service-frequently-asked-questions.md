@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-sktopms.date: 06/28/2018
+sktopms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 08772389df36e72e4f8c83239ba396773070f61a
-ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
+ms.openlocfilehash: 5f117bdeb4e37986884c6a1021db1f361bdcddd3
+ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2018
-ms.locfileid: "37145382"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39582661"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Veelgestelde vragen over Power BI
 * Als u andere vragen hebt, kunt u deze stellen [in de Power BI-community](http://community.powerbi.com/).
@@ -47,8 +47,8 @@ Alleen een webbrowser en een e-mailadres van uw werk. U kunt zich aanmelden met 
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>Waarom moet ik me registreren met een e-mailadres van het werk?
 Power BI biedt geen ondersteuning voor e-mailadressen die worden geleverd door e-mailservices voor consumenten of telecomproviders. Lees hier meer over het [selfservice-registratieproces van Power BI](service-self-service-signup-for-power-bi.md).
 
-## <a name="is-government-academic-and-non-profit-pricing-available-for-power-bi"></a>Zijn er speciale prijzen voor overheid, onderwijs en non-profit beschikbaar voor Power BI?
-Ja, er zijn speciale prijzen voor non-profitorganisaties die rechtstreeks kopen bij Microsoft. Ga voor meer informatie naar de site [over BI voor non-profitorganisaties](https://www.microsoft.com/about/philanthropies/product-donations/products/powerbi/). Prijzen voor overheids- en onderwijsinstellingen worden aangeboden via de MOSP/Direct-, EA- en open-licentieprogramma's. Overheidsprijzen zijn ook beschikbaar via syndicatie. 
+## <a name="is-government-academic-and-nonprofit-pricing-available-for-power-bi"></a>Zijn er speciale prijzen voor overheid, onderwijs en non-profitorganisaties beschikbaar voor Power BI?
+Ja, er zijn speciale prijzen voor non-profitorganisaties die rechtstreeks kopen bij Microsoft. Ga voor meer informatie en registratie naar de site [Microsoft voor non-profitorganisaties](https://www.microsoft.com/en-us/nonprofits/power-bi). Prijzen voor overheids- en onderwijsinstellingen worden aangeboden via de MOSP/Direct-, EA- en open-licentieprogramma's. Overheidsprijzen zijn ook beschikbaar via syndicatie. 
 
 ## <a name="is-power-bi-available-on-premises"></a>Is Power BI on-premises beschikbaar?
 De Power BI-service [https://powerbi.com](https://powerbi.com) is niet beschikbaar als persoonlijke, interne cloudservice. U hebt echter drie mogelijkheden om gegevens on-premises weer te geven en te manipuleren. 

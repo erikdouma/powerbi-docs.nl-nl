@@ -9,19 +9,19 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2018
 ms.author: maghan
-ms.openlocfilehash: ba8a0c6868e84cf9d675fff8f69a34b4befc9b61
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3777d082d8e0d166abadd2ab89035d6895421f24
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34852205"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39415341"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth gebruiken om verbinding te maken met Power BI Report Server en SSRS
 Lees meer over het configureren van uw omgeving voor de ondersteuning van OAuth-verificatie met de Power BI-app voor mobiel om verbinding te maken met Power BI Report Server en SQL Server Reporting Services 2016 of hoger.
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
 
-U kunt OAuth gebruiken om verbinding te maken met Power BI Report Server en Reporting Services; u kunt dan mobiele rapporten en KPI's weergeven. Windows Server 2016 biedt een aantal verbeteringen voor de webtoepassingsproxyrol (WAP) om dit type verificatie toe te staan. Houd er rekening mee dat deze configuratie geen ondersteuning biedt voor de weergave van Power BI-rapporten in de Power BI-apps voor mobiel. U kunt ze echter wel in een browser weergeven op een mobiel apparaat. Als u Power BI-rapporten wilt weergeven in de mobiele app moet u gebruikmaken van Windows-verificatie.
+U kunt OAuth gebruiken om verbinding te maken met Power BI Report Server en Reporting Services; u kunt dan mobiele rapporten en KPI's weergeven. Windows Server 2016 biedt een aantal verbeteringen voor de webtoepassingsproxyrol (WAP) om dit type verificatie toe te staan. Houd er rekening mee dat het weergeven van Power BI-rapporten die worden gehost in Power BI Report Server en waarbij WAP wordt gebruikt om te verifiëren, momenteel niet officieel wordt ondersteund.
 
 ## <a name="requirements"></a>Vereisten
 Windows Server 2016 is vereist voor de webtoepassingsproxy-servers (WAP) en ADFS-servers (Active Directory Federation Services). U hoeft niet een Windows 2016-domein op functioneel niveau te hebben.
