@@ -112,8 +112,6 @@
                   href: service-install-use-apps.md
                 - name: Een organisatie-inhoudspakket zoeken en hier verbinding mee maken
                   href: service-organizational-content-pack-find-and-open.md
-                - name: Dashboards en rapporten delen
-                  href: service-share-dashboards.md
                 - name: Aan de slag met Power BI Q&A
                   href: power-bi-visualization-introduction-to-q-and-a.md
             - name: Verbinding maken met services
@@ -306,9 +304,15 @@
                   href: power-bi-q-and-a-linguistic-schema.md
             - name: Uw werk delen
               items:
-                - name: Hoe kan ik samenwerken en dashboards en rapporten delen?
+                - name: Hoe kan ik samenwerken en inhoud delen?
                   href: service-how-to-collaborate-distribute-dashboards-reports.md
-                - name: Apps maken en distribueren met dashboards en rapporten
+                - name: Dashboards en rapporten delen
+                  href: service-share-dashboards.md
+                - name: App-werkruimten maken
+                  href: service-create-workspaces.md
+                - name: De nieuwe werkruimten maken (preview)
+                  href: service-create-the-new-workspaces.md
+                - name: Apps publiceren met dashboards en rapporten
                   href: service-create-distribute-apps.md
                 - name: Een gefilterd rapport delen
                   href: service-share-reports.md
@@ -362,7 +366,7 @@
                   href: service-report-create-new.md
                 - name: Interactie met een rapport in de bewerkingsweergave in Power BI
                   href: service-interact-with-a-report-in-editing-view.md
-                - name: Analyseren in Excel
+                - name: In Excel analyseren
                   href: service-analyze-in-excel.md
                 - name: De interactie tussen visuals in een rapport wijzigen
                   href: service-reports-visual-interactions.md
