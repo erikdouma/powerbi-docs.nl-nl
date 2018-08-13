@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 203648affe06abe304d0e8a328b00189b42fa143
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: fa812801eb01529c3e364d69f041b7efd193c3ae
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39328391"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657869"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Gegevensbronnen in Power BI Desktop
 Met Power BI Desktop kunt u verbinding maken met gegevens uit veel verschillende bronnen. Onderaan op deze pagina vindt u een volledige lijst met beschikbare gegevensbronnen.
@@ -93,7 +93,6 @@ In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Databas
 De categorie **Power BI** biedt de volgende gegevensverbindingen:
 
 * Power BI-gegevenssets
-* Power BI-gegevenspools (bèta)
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Power BI**.
 
@@ -168,7 +167,7 @@ De categorie **Overige** biedt de volgende gegevensverbindingen:
 * Active Directory
 * Microsoft Exchange
 * Hadoop-bestand (HDFS)
-* Spark (bèta)
+* Spark
 * R-script
 * ODBC
 * OLE DB
