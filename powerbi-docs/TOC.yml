@@ -682,6 +682,8 @@
           items:
             - name: Visuele elementen voor rapporten
               href: desktop-visual-elements-for-reports.md
+            - name: Exporteren naar PDF en rapporten afdrukken
+              href: desktop-export-to-pdf.md
             - name: Q&A in Power BI Desktop
               href: desktop-qna-in-reports.md
             - name: Het deelvenster Analyse in Power BI Desktop
@@ -1242,6 +1244,8 @@
           href: service-gateway-onprem-indepth.md
         - name: On-premises gegevensgateway (persoonlijke modus)
           href: service-gateway-personal-mode.md
+        - name: Aangepaste connectors
+          href: service-gateway-custom-connectors.md
         - name: Problemen met de on-premises gegevensgateway oplossen
           href: service-gateway-onprem-tshoot.md
 - name: Beheer
