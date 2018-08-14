@@ -3,24 +3,23 @@ title: Organisatie-inhoudspakketten beheren en bijwerken
 description: Meer informatie over het beheren, bijwerken en verwijderen van de organisatie-inhoudspakketten in Power BI.
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/19/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 45e9207ffa666e33b298e82bbc78e07c226b780e
-ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
+ms.openlocfilehash: d00ad254e25f8806f6cf2bc944e849e32167b1f8
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/20/2018
-ms.locfileid: "39182789"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624316"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Organisatie-inhoudspakketten beheren, bijwerken en verwijderen
 > [!NOTE]
-> Hebt u al iets over de nieuwe *apps* gehoord? Apps zijn de nieuwe manier om inhoud naar grote doelgroepen te distribueren in Power BI. We willen organisatie-inhoudspakketten binnenkort afschaffen. Daarom raden we u aan vanaf nu apps te gebruiken. Meer [informatie over apps](service-install-use-apps.md).
-> 
+> U kunt in de preview voor de nieuwe werkruimte-ervaring geen organisatie-inhoudspakketten maken of installeren. Het is nu een goed moment om uw inhoudspakketten te upgraden naar apps, als u dat nog niet hebt gedaan. Informatie over [de nieuwe werkruimte-ervaring](service-create-the-new-workspaces.md).
 > 
 
 U kunt uw dashboards, rapporten, Excel-werkmappen en gegevenssets verpakken en met uw collega's delen als [organisatie-inhoudspakketten](service-organizational-content-pack-introduction.md). Uw collega's kunnen ze als zodanig gebruiken of ze kunnen hun eigen exemplaren maken.

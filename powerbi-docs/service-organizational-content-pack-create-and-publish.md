@@ -3,33 +3,30 @@ title: Organisatie-inhoudspakketten maken en publiceren - Power BI
 description: In deze zelfstudie maakt u een organisatie-inhoudspakket, beperkt u de toegang tot een specifieke groep en publiceert u het naar de bibliotheek voor inhoudspakketten van uw organisatie op Power BI.
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/08/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b95ff0d9102377b6aeb59488a565f7bcb9a65566
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 46cd5e2730d1b0e90fe37a93bbd4340ffb708348
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598593"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624247"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>Organisatie-inhoudspakketten in Power BI maken en publiceren (zelfstudie)
-> [!NOTE]
-> Hebt u al iets over de nieuwe *apps* gehoord? Apps zijn de nieuwe manier om inhoud naar grote doelgroepen te distribueren in Power BI. We willen organisatie-inhoudspakketten binnenkort afschaffen. Daarom raden we u aan vanaf nu apps te gebruiken. Meer [informatie over apps](service-install-use-apps.md).
-> 
-> 
 
 In deze zelfstudie maakt u een organisatie-inhoudspakket, geeft u er een specifieke groep toegang toe en publiceert u het naar de bibliotheek voor inhoudspakketten van uw organisatie op Power BI.
 
 Het maken van inhoudspakketten verschilt van het delen van dashboards of het samenwerken aan een dashboard in een groep. Lees [Hoe kan ik samenwerken aan en dashboards en rapporten en deze delen?](service-how-to-collaborate-distribute-dashboards-reports.md) om te bepalen wat de beste optie voor uw situatie is.
 
+Voor het maken van een organisatie-inhoudspakket moeten u en uw collega’s beschikken over een [Power BI Pro-account](https://powerbi.microsoft.com/pricing). 
+
 > [!NOTE]
-> Voor het maken van een organisatie-inhoudspakket moeten u en uw collega’s beschikken over een [Power BI Pro-account](https://powerbi.microsoft.com/pricing).
-> 
+> U kunt in de preview voor een nieuwe werkruimte-ervaring geen organisatie-inhoudspakketten maken of installeren. Het is nu een goed moment om uw inhoudspakketten te upgraden naar apps, als u dat nog niet hebt gedaan. Informatie over [de nieuwe werkruimte-ervaring](service-create-the-new-workspaces.md).
 > 
 
 Stel u voor dat u releasebeheerder bent bij Contoso en bezig bent de introductie van een nieuw product voor te bereiden.  U hebt een dashboard gemaakt met rapporten die u wilt delen met de andere werknemers die aan de introductie werken. U zoekt een manier om het dashboard en de rapporten te verpakken als een oplossing die uw collega’s kunnen gebruiken. 

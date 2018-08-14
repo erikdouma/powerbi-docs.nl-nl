@@ -3,22 +3,25 @@ title: Uw app-werkruimte beheren in Power BI en Office 365
 description: App-werkruimten in Power BI zijn een gezamenlijke ervaring die is gebouwd op Office 365-groepen. Beheer uw app-werkruimten in Power BI en ook in Office 365.
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukasz
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d298c750d23e22ef0a6b2791916add13bb260ad0
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 2bbc619c2f581e26e36f03013f3db248fab49610
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36965200"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624339"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Uw app-werkruimte beheren in Power BI en Office 365
 Als maker of beheerder van een [app-werkruimte in Power BI](service-install-use-apps.md) of in Office 365, beheert u bepaalde aspecten van de werkruimte in Power BI. Andere aspecten beheert u in Office 365. 
+
+> [!NOTE]
+> Bij de preview van de nieuwe werkruimte-ervaring is de relatie tussen Power BI-werkruimten en Office 365-groepen gewijzigd. Er wordt niet automatisch een Office 365-groep gemaakt wanneer u een van de nieuwe werkruimten maakt. Meer informatie over [het maken van de nieuwe werkruimten (preview)](service-create-the-new-workspaces.md)
 
 **In Power BI** kunt u:
 
@@ -38,7 +41,7 @@ U hebt een [Power BI Pro](service-free-vs-pro.md)-licentie nodig om beheerder of
 ## <a name="edit-your-app-workspace-in-power-bi"></a>Uw app-werkruimte bewerken in Power BI
 1. Selecteer in de Power BI-service de pijl naast **Werkruimten** > selecteer het beletselteken (**…**) naast uw werkruimtenaam > **Werkruimte bewerken**. 
    
-   ![](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
+   ![Werkruimten bewerken in Power BI](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
    
    > [!NOTE]
    > U ziet **Werkruimte bewerken** alleen als u beheerder van een app-werkruimte bent.
@@ -46,34 +49,34 @@ U hebt een [Power BI Pro](service-free-vs-pro.md)-licentie nodig om beheerder of
    > 
 2. Hier kunt u leden een andere naam geven, toevoegen of verwijderen of de app-werkruimte verwijderen. 
    
-   ![](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-edit-workspace.png)
+   ![Dialoogvenster Werkruimte bewerken](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-edit-workspace.png)
 3. Selecteer **Opslaan** of **Annuleren**.
 
 ## <a name="edit-power-bi-app-workspace-properties-in-office-365"></a>Eigenschappen van app-werkruimten van Power BI bewerken in Office 365
 1. Selecteer in de Power BI-service de pijl naast **Werkruimten** > selecteer het beletselteken (**…**) naast uw werkruimtenaam > **Leden**. 
    
-   ![](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
+   ![Werkruimten bewerken in Power BI](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
    
    Hiermee opent u de groepsweergave van Outlook voor Office 365 van uw app-werkruimte.
    
    Mogelijk moet u zich aanmelden bij uw zakelijke account.
 2. Tik op het beletselteken (**...** ) naast de naam van een lid om het lid beheerder te maken of om het lid te verwijderen uit de app-werkruimte. 
    
-   ![](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
+   ![Een groep bewerken in Office 365](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
 
 ## <a name="add-an-image-and-set-other-workspace-properties-in-the-office-365-group"></a>Een afbeelding toevoegen en andere werkruimte-eigenschappen instellen in de Office 365-groep
-Wanneer u uw app uit de app-werkruimte distribueert, wordt de afbeelding die u hier toevoegt de afbeelding voor uw app. Zie de sectie [Een afbeelding toevoegen aan uw app](service-create-distribute-apps.md#add-an-image-to-your-app-optional) van het artikel [Een app maken en distribueren in Power BI](service-create-distribute-apps.md).
+Wanneer u uw app uit de app-werkruimte distribueert, wordt de afbeelding die u hier toevoegt de afbeelding voor uw app. Zie de sectie [Een afbeelding toevoegen aan uw app](service-create-workspaces.md#add-an-image-to-your-office-365-app-workspace-optional) van het artikel [De nieuwe werkruimten maken](service-create-workspaces.md).
 
 1. Selecteer de groepsafbeelding om de eigenschappen van de werkruimtegroep te bewerken in de Outlook voor Office 365-weergave van uw app-werkruimte.
    
-   ![](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgroupo365.png)
+   ![Pictogram Groep bewerken](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgroupo365.png)
 2. U kunt hier de naam, beschrijving en taal bewerken, een afbeelding toevoegen en andere eigenschappen instellen.
    
-   ![](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgrpo365dialog.png)
+   ![Dialoogvenster Groep bewerken](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgrpo365dialog.png)
 3. Selecteer **Opslaan** of **Verwijderen**.
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Wat zijn apps in Power BI?](service-install-use-apps.md)
-* [Apps en app-werkruimten maken in Power BI](service-create-distribute-apps.md)
-* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* [Apps met dashboards en rapporten publiceren in Power BI](service-create-distribute-apps.md)
+* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

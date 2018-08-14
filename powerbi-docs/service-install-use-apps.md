@@ -3,29 +3,30 @@ title: Apps installeren en gebruiken met dashboards en rapporten in Power BI
 description: Apps brengen in Power BI gerelateerde dashboards en rapporten allemaal op één plek samen.
 author: maggiesMSFT
 manager: kfile
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/24/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: de566aa22a7c48a27682a9c577f84eb6015ac8b7
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 464906acd17248c5a752d7febc4ab7b907c7cc46
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34242730"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624363"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Apps installeren en gebruiken met dashboards en rapporten in Power BI
 *Apps* brengen in Power BI gerelateerde dashboards en rapporten allemaal op één plek samen. Personen in uw organisatie kunnen apps maken en distribueren met belangrijke bedrijfsinformatie. [Externe services](service-connect-to-services.md) waar u reeds gebruik van maakt, zoals Google Analytics en Microsoft Dynamics CRM, bieden ook Power BI-apps. 
 
 ![Apps in Power BI](media/service-install-use-apps/power-bi-apps-left-nav.png)
 
-Apps zijn gemakkelijk te vinden en installeren in de Power BI-service ([https://powerbi.com](https://powerbi.com)) en op uw mobiele apparaat. Nadat u een app hebt geïnstalleerd, hoeft u de namen van veel verschillende dashboards niet meer te onthouden omdat ze allemaal bij elkaar zijn in de app, in uw browser of op uw mobiele apparaat.
+Apps zijn gemakkelijk te vinden en installeren in de Power BI-service ([https://powerbi.com](https://powerbi.com)) en op uw mobiele apparaat. Nadat u een app hebt geïnstalleerd, hoeft u de namen van veel verschillende dashboards niet meer te onthouden omdat ze allemaal bij elkaar staan in de app, in uw browser of op uw mobiele apparaat.
 
 Bij apps ziet u automatisch de wijzigingen wanneer de auteur van de app updates publiceert. De auteur bepaalt ook hoe vaak de gegevens worden gepland om te worden vernieuwd, zodat u zich geen zorgen hoeft te maken over het up-to-date houden van de gegevens. 
 
-Plannen voor het ontwerpen van een app? Zie [Apps maken en publiceren in Power BI](service-create-distribute-apps.md) voor meer informatie.
+Plannen voor het ontwerpen van een app? Zie [Werkruimten maken met uw collega's in Power BI](service-create-distribute-apps.md) voor meer informatie.
 
 ## <a name="get-a-new-app"></a>Een nieuwe app verkrijgen
 U kunt apps op verschillende manieren verkrijgen. De auteur van de app kan de app automatisch installeren in uw Power BI-account of u een directe koppeling naar een app sturen, of u kunt er naar zoeken in AppSource, waar u alle apps ziet waar u toegang tot hebt. In Power BI op uw mobiele apparaat kunt u deze alleen installeren via een directe verbinding en niet vanuit AppSource. Als de auteur van de app de app automatisch installeert, ziet u deze in uw lijst met apps.
@@ -41,7 +42,7 @@ Wanneer u klikt op de koppeling in de e-mail wordt Power BI-service ([https://po
 
 **Op uw iOS- of mobiele Android-apparaat** 
 
-Wanneer u op de koppeling in de e-mail op uw mobiele apparaat klikt, wordt de app automatisch geïnstalleerd en wordt de app-inhoudslijst geopend. 
+Wanneer u op de koppeling in de e-mail op uw mobiele apparaat klikt, wordt de app automatisch geïnstalleerd en wordt de app-inhoudslijst in de mobiele app geopend. 
 
 ![App-inhoudslijst op mobiele apparaten](media/service-install-use-apps/power-bi-app-index-it-spend-360.png)
 
@@ -57,11 +58,11 @@ U kunt ook apps binnen Microsoft AppSource zoeken en installeren.
 3. Selecteer **Nu downloaden** om deze aan uw pagina met apps toe te voegen. 
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>Interactie met de dashboards en rapporten in de app
-U kunt nu de gegevens in de dashboards en rapporten in de app verkennen. U hebt toegang tot de standaard Power BI-interacties zoals filteren, markeren, sorteren en inzoomen. Meer informatie over [Interactie met rapporten in Power BI](service-reading-view-and-editing-view.md). 
-
-U kunt wijzigingen niet opslaan, maar u kunt altijd [de gegevens exporteren naar Excel ](power-bi-visualization-export-data.md) uit een tabel of ander visueel element in een rapport.
+U kunt nu de gegevens in de dashboards en rapporten in de app verkennen. U hebt toegang tot de standaard Power BI-interacties zoals filteren, markeren, sorteren en inzoomen. U kunt [de gegevens ook exporteren naar Excel ](power-bi-visualization-export-data.md) vanuit een tabel of andere visual in een rapport. Meer informatie over [Interactie met rapporten in Power BI](service-reading-view-and-editing-view.md). 
 
 ![Gegevens uit een Power BI-visualisatie exporteren](media/service-install-use-apps/power-bi-service-export-data-visual.png)
+
+
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Apps maken en publiceren in Power BI](service-create-distribute-apps.md)

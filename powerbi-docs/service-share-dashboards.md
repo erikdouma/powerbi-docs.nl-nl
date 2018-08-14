@@ -8,15 +8,15 @@ featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/18/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e176f82e106c531410b8e9233b983c6e321bddf4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d683ce3d06e2ac6be6c51f257e4f9483e718e2d8
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34299051"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624386"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Uw Power BI-dashboards en -rapporten delen met collega's en anderen
 *Delen* is een goede manier om enkele personen toegang te geven tot uw dashboards en rapporten. Power BI ondersteunt ook [verschillende andere manieren om samen te werken en uw dashboards en rapporten te distribueren](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -91,6 +91,8 @@ Alleen de eigenaar van het dashboard of het rapport kan opnieuw delen in- en uit
 
 4. In het dialoogvenster **Toegang verwijderen** geeft u aan of u de toegang tot de bijbehorende inhoud, zoals rapporten en gegevenssets, ook wilt verwijderen. Als u items met een waarschuwingspictogram ![Power BI waarschuwingspictogram](media/service-share-dashboards/power-bi-warning-icon.png) verwijdert, wordt aangeraden verwante inhoud te verwijderen omdat deze niet correct wordt weergegeven.
 
+    ![Waarschuwingsvenster over delen in Power BI](media/service-share-dashboards/power-bi-sharing-warning-dialog.png)
+
 ## <a name="share-a-dashboard-or-report-with-people-outside-your-organization"></a>Een dashboard of rapport delen met personen buiten uw organisatie
 Wanneer u inhoud deelt met personen buiten uw organisatie, krijgen zij een e-mail met een koppeling naar het gedeelde dashboard of rapport en moeten ze zich aanmelden bij Power BI om het te zien. Als ze geen licentie voor Power BI Pro hebben, kunnen ze er één aanvragen nadat ze op de koppeling hebben geklikt.
 
@@ -145,6 +147,8 @@ Als dit het geval is, moet u hen toestemming geven voor de onderliggende gegeven
 ### <a name="i-cant-share-a-dashboard-or-report"></a>Ik kan geen dashboards of rapporten delen
 
 Als u een dashboard of rapport wilt delen, hebt u toestemming nodig om de onderliggende inhoud opnieuw te delen -- verwante rapporten en gegevenssets. Als een bericht wordt weergegeven dat u niet kunt delen, vraagt u de auteur van het rapport u toestemming te geven deze rapporten en gegevenssets opnieuw te delen.
+
+![Bericht 'Kan niet delen'](media/service-share-dashboards/power-bi-sharing-unable-to-share.png)
 
 
 ## <a name="next-steps"></a>Volgende stappen

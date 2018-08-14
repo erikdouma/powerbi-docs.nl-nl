@@ -3,29 +3,29 @@ title: Een organisatie-inhoudspakket zoeken en hier verbinding mee maken - Power
 description: Een organisatie-inhoudspakket zoeken en openen in Power BI
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/08/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5ea86ab577298b6099487228cdf4c8a87e4fe421
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 67072d690f09e922601c6b14ad1c150e2298040b
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280220"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624270"
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>Een organisatie-inhoudspakket zoeken en hier verbinding mee maken
-> [!NOTE]
-> Hebt u al iets over de nieuwe *apps* gehoord? Apps zijn de nieuwe manier om inhoud naar grote doelgroepen te distribueren in Power BI. We willen organisatie-inhoudspakketten binnenkort afschaffen. Daarom raden we u aan vanaf nu apps te gebruiken. Meer [informatie over apps](service-install-use-apps.md).
-> 
-> 
 
 Wanneer iemand een organisatie-inhoudspakket naar uw organisatie publiceert, naar distributie- of -beveiligingsgroepen, of naar [Office 365-groepen](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9) waarvan u deel uitmaakt, wordt deze weergegeven in AppSource.  Blader door of zoek in AppSource om een open organisatie-inhoudspakket te vinden.
 
 Het maken van inhoudspakketten verschilt van het delen van dashboards of het samenwerken aan een dashboard in een groep. Lees [Samen aan dashboards en rapporten werken en deze delen?](service-how-to-collaborate-distribute-dashboards-reports.md) om te bepalen wat de beste optie voor uw situatie is.
+
+> [!NOTE]
+> U kunt in de preview voor een nieuwe werkruimte-ervaring geen organisatie-inhoudspakketten maken of installeren. Het is nu een goed moment om uw inhoudspakketten te upgraden naar apps, als u dat nog niet hebt gedaan. Informatie over [de nieuwe werkruimte-ervaring](service-create-the-new-workspaces.md).
+> 
 
 ## <a name="find-an-organizational-content-pack"></a>Een organisatie-inhoudspakket zoeken
 Gebruikers van [Power BI Pro](https://powerbi.microsoft.com/pricing) kunnen naar AppSource gaan. Hier worden inhoudspakketten weergegeven die worden gedeeld met de volledige organisatie, distributie- of -beveiligingsgroepen en met Office 365-groepen waartoe ze behoren.  
