@@ -1,5 +1,5 @@
 ---
-title: Rapportthema's gebruiken in Power BI Desktop (preview)
+title: Rapportthema's gebruiken in Power BI Desktop
 description: Ontdek hoe u een aangepast kleurenpalet gebruikt en het toepast op een volledig rapport in Power BI Desktop
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/02/2018
+ms.date: 08/08/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 757c1465d2451da8ebf340c7b9bfe1f4d9ff04f1
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6aa3e6ba5a471176a6af2551344744cdc45697fb
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721174"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657938"
 ---
-# <a name="use-report-themes-in-power-bi-desktop-preview"></a>Rapportthema's gebruiken in Power BI Desktop (preview)
+# <a name="use-report-themes-in-power-bi-desktop"></a>Rapportthema's gebruiken in Power BI Desktop
 Met **Rapportthema's** kunt u een kleurenthema op uw gehele rapport toepassen, zoals zakelijke kleuren, seizoensgebonden kleuren of andere kleurthema's die u op een rapport zou willen toepassen. Bij het toepassen van een **Rapportthema** worden voor alle visuals in het rapport de kleuren van het geselecteerde thema gebruikt. Er zijn enkele uitzonderingen van toepassing, zoals verderop in dit artikel wordt beschreven.
 
 ![](media/desktop-report-themes/report-themes_1.png)
@@ -26,10 +26,14 @@ Voor het toepassen van een **Rapportthema** is een JSON-bestand met een eenvoudi
 
 Vanaf de release uit september 2017 van **Power BI Desktop**, kunt u nog meer rapportthema-elementen definiëren met een JSON-bestand, en bijna alle elementen aanpassen (en standaardiseren) met behulp van het JSON-bestand dat u handmatig kunt aanpassen in het deelvenster **Opmaak**. Het doel van de release uit september 2017 (en van latere releases) is om u volledige controle te geven over hoe uw rapporten er tot in de details uitzien.
 
-### <a name="enable-report-themes-in-preview"></a>Rapportthema's in preview inschakelen
-U kunt vanaf de release uit **maart 2017** van **Power BI Desktop** de nieuwe functie **Rapportthema's** proberen. Als u deze preview-functie wilt inschakelen, selecteert u **Bestand > Opties en Instellingen > Opties > Voorbeeldfuncties** en schakelt u vervolgens het selectievakje naast **Rapportthema's** in. **Power BI Desktop** moet opnieuw worden opgestart nadat u de selectie hebt gemaakt.
+### <a name="enable-report-themes"></a>Rapportthema's inschakelen
+Vanaf de augustus 2018-release van **Power BI Desktop** zijn rapportthema's algemeen beschikbaar en hoeven deze niet te worden ingeschakeld. 
+
+Als u een eerdere versie van **Power BI Desktop** gebruikt, kunt u deze inschakelen als preview-functie door **Bestand > Opties en instellingen > Opties > Preview-functies** te selecteren en vervolgens het selectievakje naast **Aangepaste Rapportthema’s** in te schakelen. **Power BI Desktop** moet opnieuw worden opgestart nadat u de selectie hebt gemaakt.
 
 ![](media/desktop-report-themes/report-themes_2.png)
+
+Het wordt altijd aanbevolen te upgraden naar de meest recente versie van **Power BI Desktop**, die u via een koppeling in [Power BI Desktop downloaden](desktop-get-the-desktop.md) kunt krijgen. 
 
 ## <a name="how-report-themes-work"></a>Hoe Rapportthema's werken
 Selecteer in het lint **Start** de knop **Thema wisselen** en selecteer vervolgens **Thema importeren** in de vervolgkeuzelijst om een Rapportthema op een Power BI Desktop-rapport toe te passen.
@@ -100,7 +104,7 @@ Als u handmatig de kleur van een gegevenspunt hebt ingesteld met behulp van het 
 Verder worden voor veel **Aangepaste visuele elementen** Rapportthema's niet toegepast.
 
 ## <a name="report-theme-files-you-can-use-right-now"></a>Rapportthema-bestanden die u nu kunt gebruiken
-Wilt u aan de slag gaan met **Rapportthema's**? Mooi! Hier volgen een aantal vooraf gedefinieerde JSON-bestanden voor Rapportthema's die u kunt downloaden en importeren in uw **Power BI Desktop**-rapport, plus een installatiekopie van het Rapportthema dat is toegepast op het rapport dat in dit artikel wordt gebruikt.
+Wilt u aan de slag gaan met **Rapportthema's**? Mooi! Hier volgen enkele vooraf gedefinieerde JSON-bestanden voor Rapportthema's die u kunt downloaden en importeren in uw **Power BI Desktop**-rapport, plus een installatiekopie van het Rapportthema dat is toegepast op het rapport dat in dit artikel wordt gebruikt.
 
 * Het [thema](https://go.microsoft.com/fwlink/?linkid=843924) dat is gebruikt in de [blogpost](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/) waarin de eerste release van **Rapportthema's** werd aangekondigd, genaamd [*waveform.json*](https://go.microsoft.com/fwlink/?linkid=843924).
 

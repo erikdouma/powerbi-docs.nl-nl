@@ -2,23 +2,24 @@
 title: Problemen met de on-premises gegevensgateway oplossen
 description: In dit artikel worden manieren besproken om problemen met de on-premises gegevensgateway op te lossen. Het biedt mogelijke tijdelijke oplossingen voor bekende problemen, evenals hulpprogramma's om u te helpen.
 author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-gateways
 ms.topic: conceptual
-ms.date: 06/02/2018
-ms.author: mblythe
+ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: a99200707c8fc7de4fea2e32fe83238011bbf46c
-ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
+ms.openlocfilehash: f0f29cb88c77f3d7775670c0869ee55938327763
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "37926582"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39658007"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Problemen met de on-premises gegevensgateway oplossen
-In dit artikel worden enkele veelvoorkomende problemen besproken die kunnen optreden tijdens het gebruik van de **on-premises gegevensgateway**.
+
+In dit artikel worden enkele veelvoorkomende problemen besproken tijdens het gebruik van de **on-premises gegevensgateway**.
 
 <!-- Shared Community & support links Include -->
 [!INCLUDE [gateway-onprem-tshoot-support-links-include](./includes/gateway-onprem-tshoot-support-links-include.md)]
@@ -27,46 +28,54 @@ In dit artikel worden enkele veelvoorkomende problemen besproken die kunnen optr
 [!INCLUDE [gateway-onprem-tshoot-install-include](./includes/gateway-onprem-tshoot-install-include.md)]
 
 ## <a name="configuration"></a>Configuratie
+
 ### <a name="how-to-restart-the-gateway"></a>De gateway opnieuw starten
-De gateway wordt uitgevoerd als een Windows-service, dus u kunt deze op verschillende manieren stoppen en starten. U kunt bijvoorbeeld een opdrachtprompt met verhoogde bevoegdheden openen op de computer waarop de gateway wordt uitgevoerd en vervolgens een van deze opdrachten uitvoeren:
+
+De gateway wordt uitgevoerd als een Windows-service. U kunt deze dus op een aantal manieren stoppen en starten. U kunt bijvoorbeeld een opdrachtprompt met verhoogde bevoegdheden openen op de computer waarop de gateway wordt uitgevoerd en vervolgens een van deze opdrachten uitvoeren:
 
 * Als u de service wilt stoppen, voert u deze opdracht uit:
 
     '''   net stop PBIEgwService   '''
+
 * Als u de service wilt starten, voert u deze opdracht uit:
 
     '''   net start PBIEgwService   '''
 
-### <a name="error-failed-to-create-gateway-please-try-again"></a>Fout: De gateway is niet gemaakt. Probeer het opnieuw.
-Alle gegevens zijn beschikbaar, maar de aanroep naar de Power BI-service heeft een fout geretourneerd. Deze fout en een activiteits-id worden weergegeven. Dit kan gebeuren om verschillende redenen. U kunt voor meer informatie de logboeken verzamelen en bekijken, zoals hieronder wordt beschreven.
+### <a name="error-failed-to-create-a-gateway-try-again"></a>Fout: De gateway is niet gemaakt. Opnieuw proberen
+
+Alle gegevens zijn beschikbaar, maar de aanroep naar de Power BI-service heeft een fout geretourneerd. De fout wordt weergegeven samen met een activiteits-id. Dit kan gebeuren om verschillende redenen. U kunt voor meer informatie de logboeken verzamelen en bekijken, zoals hieronder wordt beschreven.
 
 Dit kan ook voorkomen vanwege problemen met de proxyconfiguratie. De gebruikersinterface biedt geen mogelijkheid voor proxyconfiguratie. U kunt meer informatie raadplegen over het [wijzigen van de proxyconfiguratie](service-gateway-proxy.md)
 
-### <a name="error-failed-to-update-gateway-details--please-try-again"></a>Kan de gatewaygegevens niet bijwerken.  Probeer het opnieuw.
-Informatie van de Power BI-service is ontvangen op de gateway. De informatie is doorgegeven aan de lokale Windows-service, maar niet geretourneerd. Of het genereren van een symmetrische sleutel is mislukt. De interne uitzondering wordt weergegeven onder **Details weergeven**. U kunt voor meer informatie de logboeken verzamelen en bekijken, zoals hieronder wordt beschreven.
+### <a name="error-failed-to-update-gateway-details-please-try-again"></a>Kan de gatewaygegevens niet bijwerken. Probeer het opnieuw
 
-### <a name="error-power-bi-service-reported-local-gateway-as-unreachable-please-restart-the-gateway-and-try-again"></a>Fout: De Power BI-service rapporteert dat de lokale gateway niet bereikbaar is. Start de gateway opnieuw en probeer het opnieuw.
+Informatie van de Power BI-service is ontvangen op de gateway. De informatie is doorgegeven aan de lokale Windows-service, maar niet geretourneerd. Een andere mogelijkheid is dat het genereren van een symmetrische sleutel is mislukt. De interne uitzondering wordt weergegeven onder **Details weergeven**. U kunt voor meer informatie de hierna genoemde logboeken verzamelen en bekijken.
+
+### <a name="error-power-bi-service-reported-local-gateway-as-unreachable-restart-the-gateway-and-try-again"></a>Fout: De Power BI-service rapporteert dat de lokale gateway niet bereikbaar is. Start de gateway opnieuw en probeer het opnieuw
+
 Aan het einde van de configuratie wordt de Power BI-service opnieuw aangeroepen om de gateway te valideren. De Power BI-service rapporteert niet dat de gateway *live* is. De communicatie slaagt mogelijk wel als u de Windows-service opnieuw start. U kunt voor meer informatie de logboeken verzamelen en bekijken, zoals hieronder wordt beschreven.
 
 ### <a name="script-error-during-sign-into-power-bi"></a>Scriptfout tijdens het aanmelden bij Power BI
-Mogelijk treedt er een scriptfout op tijdens het aanmelden bij Power BI als onderdeel van de configuratie van de on-premises gegevensgateway. Dit probleem moet zijn opgelost na het installeren van de volgende beveiligingsupdate. De update kan worden geïnstalleerd via Windows Update.
+
+Mogelijk treedt er een scriptfout op tijdens het aanmelden bij Power BI als onderdeel van de configuratie van de on-premises gegevensgateway. Dit probleem is opgelost nadat u de volgende beveiligingsupdate hebt geïnstalleerd. De update kan worden geïnstalleerd via Windows Update.
 
 [MS16-051: Beveiligingsupdate voor Internet Explorer: 10 mei 2016 (KB 3154070)](https://support.microsoft.com/kb/3154070)
 
 ### <a name="gateway-configuration-failed-with-a-null-reference-exception"></a>De gatewayconfiguratie is mislukt met een null-referentie-uitzondering
+
 Mogelijk treedt er een fout op vergelijkbaar met de volgende.
 
         Failed to update gateway details.  Please try again.
         Error updating gateway configuration.
 
-Hierbij wordt een stack-trace getoond, die mogelijk het volgende bevat.
+Hierbij wordt een stack-trace getoond, die mogelijk het volgende bericht bevat.
 
         Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.CouldNotUpdateGatewayConfigurationException: Error updating gateway configuration. ----> System.ArgumentNullException: Value cannot be null.
         Parameter name: serviceSection
 
-Als u een upgrade uitvoert van een oudere gateway, behouden we het configuratiebestand. Mogelijk ontbreekt er een sectie. Wanneer de gateway deze sectie probeert te lezen, wordt de bovenstaande null-referentie-uitzondering weergegeven.
+Als u een upgrade uitvoert van een oudere gateway, behouden we het configuratiebestand. Mogelijk ontbreekt er een sectie. Wanneer de gateway deze sectie probeert te lezen, kan de bovenstaande null-referentie-uitzondering worden weergegeven.
 
-U kunt de volgende stappen volgen om dit op te lossen.
+Voer de volgende stappen uit om dit op te lossen.
 
 1. Verwijder de gateway.
 2. Verwijder de volgende map.
@@ -76,44 +85,51 @@ U kunt de volgende stappen volgen om dit op te lossen.
 4. Optioneel kunt u de herstelsleutel voor het herstellen van een bestaande gateway toepassen.
 
 ### <a name="support-for-tls-1112"></a>Ondersteuning voor TLS 1.1/1.2
-Sinds de update van augustus 2017 maakt de On-premises gegevensgateway standaard gebruik van Transport Layer Security (TLS) 1.1 of 1.2 om te communiceren met de **Power BI-service**. Eerdere versies van de On-premises gegevensgateway maken standaard gebruik van TLS 1.0. Op 1 november 2017 wordt de ondersteuning voor TLS 1.0 beëindigd. Upgrade daarom vóór die datum de installatie van uw on-premises gegevensgateway naar de release van augustus 2017 of later om te garanderen dat uw gateways blijven functioneren.
 
-Het is belangrijk om te weten dat TLS 1.0 tot 1 november nog steeds wordt ondersteund door de On-premises gegevensgateway en door de gateway wordt gebruikt als back-upprotocol bij problemen. Om ervoor te zorgen dat al het verkeer van en naar de gateway gebruikmaakt van TLS 1.1 of 1.2 (en om te voorkomen dat uw gateway nog TLS 1.0 gebruikt), moet u de volgende registersleutels toevoegen op de computer waarop de gateway-service wordt uitgevoerd:
+Sinds de update van augustus 2017 maakt de On-premises gegevensgateway standaard gebruik van Transport Layer Security (TLS) 1.1 of 1.2 om te communiceren met de **Power BI-service**. Eerdere versies van de On-premises gegevensgateway maken standaard gebruik van TLS 1.0. U moet de installatie van uw on-premises gegevensgateway upgraden naar de release van augustus 2017 of later om te garanderen dat uw gateways blijven functioneren.
+
+>[!NOTE]
+>De ondersteuning voor TLS 1.0 is beëindigd op 1 november 2017.
+
+Het is belangrijk om te weten dat TLS 1.0 nog tot 1 november 2017 wordt ondersteund door de on-premises gegevensgateway en door de gateway wordt gebruikt als back-upprotocol bij problemen. Om ervoor te zorgen dat al het verkeer van en naar de gateway gebruikmaakt van TLS 1.1 of 1.2 (en om te voorkomen dat uw gateway nog TLS 1.0 gebruikt), moet u de volgende registersleutels toevoegen op de computer waarop de gateway-service wordt uitgevoerd:
 
         [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
         [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
 
 > [!NOTE]
 > Door deze registersleutels toe te voegen of te wijzigen, wordt deze wijziging toegepast voor alle .NET-toepassingen. Zie [Transport Layer Security (TLS) registry settings](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings) (Registerinstellingen voor Transport Layer Security (TLS)) voor meer informatie over registerwijzigingen die invloed hebben op TLS voor andere toepassingen.
-> 
-> 
 
 ## <a name="data-sources"></a>Gegevensbronnen
+
 ### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>Fout: Er kan geen verbinding worden gemaakt. Details: 'Ongeldige verbindingsreferenties'
-Onder **Details weergeven** moet de foutmelding worden weergegeven die van de gegevensbron is ontvangen. Voor SQL Server ziet dit er ongeveer als volgt uit.
+
+Onder **Details weergeven** wordt de foutmelding weergegeven die van de gegevensbron is ontvangen. Voor SQL Server ziet dit er ongeveer als volgt uit.
 
     Login failed for user 'username'.
 
 Controleer of u de juiste gebruikersnaam en het juiste wachtwoord gebruikt. Controleer ook of deze referenties verbinding kunnen maken met de gegevensbron. Zorg ervoor dat het gebruikte account overeenkomt met de geselecteerde **verificatiemethode**.
 
 ### <a name="error-unable-to-connect-details-cannot-connect-to-the-database"></a>Fout: Er kan geen verbinding worden gemaakt. Details: 'Kan geen verbinding maken met de database'
+
 Er kan wel verbinding worden gemaakt met de server, maar niet met de opgegeven database. Controleer de naam van de database en of de gebruikersreferenties de juiste machtigingen hebben voor toegang tot deze database.
 
-Onder **Details weergeven** moet de foutmelding worden weergegeven die van de gegevensbron is ontvangen. Voor SQL Server ziet dit er ongeveer als volgt uit.
+Onder **Details weergeven** wordt de foutmelding weergegeven die van de gegevensbron is ontvangen. Voor SQL Server ziet dit er ongeveer als volgt uit.
 
     Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
 
 ### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>Fout: Er kan geen verbinding worden gemaakt. Details: 'Onbekende fout in de gegevensgateway'
+
 Deze fout kan verschillende oorzaken hebben. Controleer of u verbinding kunt maken met de gegevensbron vanaf de computer die als host fungeert voor de gateway. Dit kan voorkomen wanneer de server niet toegankelijk is.
 
-Onder **Details weergeven** wordt de foutcode **DM_GWPipeline_UnknownError** weergegeven.
+Onder **Details weergeven** ziet u de foutcode **DM_GWPipeline_UnknownError**.
 
 U kunt voor meer informatie ook de Gebeurtenislogboeken raadplegen> **Logboeken Toepassingen en Services** > **On-premises gegevensgateway-service**.
 
 ### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>Fout: Er is een fout opgetreden tijdens het verbinden met <server>. Details: 'Er is contact gemaakt met de gegevensgateway, maar de gateway heeft geen toegang tot de on-premises gegevensbron.'
+
 Er kan geen verbinding worden gemaakt met de opgegeven gegevensbron. Controleer de informatie die is opgegeven voor de gegevensbron.
 
-Onder **Details weergeven** wordt de foutcode **DM_GWPipeline_Gateway_DataSourceAccessError** weergegeven.
+Onder **Details weergeven** ziet u de foutcode **DM_GWPipeline_Gateway_DataSourceAccessError**.
 
 Als de onderliggende foutmelding op de volgende melding lijkt, betekent dit dat het account dat u voor de gegevensbron gebruikt, geen serverbeheerder is voor het betreffende Analysis Services-exemplaar. [Meer informatie](https://docs.microsoft.com/sql/analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance)
 
@@ -121,14 +137,14 @@ Als de onderliggende foutmelding op de volgende melding lijkt, betekent dit dat 
 
 Als de onderliggende foutmelding op de volgende melding lijkt, kan dit betekenen dat het directory-kenmerk [token-groups-global-and-universal](https://msdn.microsoft.com/library/windows/desktop/ms680300.aspx) (TGGAU) mogelijk ontbreekt voor het serviceaccount voor Analysis Services.
 
-    The user name or password is incorrect.
+    The username or password is incorrect.
 
 Het TGGAU-kenmerk is ingeschakeld voor domeinen met toegang die compatibel is met oudere versies dan Windows 2000. Voor de meeste nieuw gemaakte domeinen is dit kenmerk echter niet standaard ingeschakeld. Meer informatie hierover vindt u op [deze pagina](https://support.microsoft.com/kb/331951).
 
 U kunt dit controleren door de volgende stappen te volgen.
 
 1. Maak verbinding met de Analysis Services-computer in SQL Server Management Studio. Voer in de geavanceerde verbindingseigenschappen EffectiveUserName in voor de betrokken gebruiker en kijk of de fout nog steeds optreedt.
-2. U kunt het Active Directory-hulpprogramma dsacls gebruiken om te controleren of het kenmerk wordt weergegeven. Dit hulpprogramma is normaal gesproken te vinden op een domeincontroller. U moet weten wat de onderscheidende domeinnaam voor het account is en die aan het hulpprogramma doorgeven.
+2. U kunt het Active Directory-hulpprogramma dsacls gebruiken om te controleren of het kenmerk wordt weergegeven. Dit hulpprogramma bevindt zich op een domeincontroller. U moet weten wat de onderscheidende domeinnaam voor het account is en die aan het hulpprogramma doorgeven.
 
         dsacls "CN=John Doe,CN=UserAccounts,DC=contoso,DC=com"
 
@@ -138,52 +154,61 @@ U kunt dit controleren door de volgende stappen te volgen.
                                           SPECIAL ACCESS for tokenGroupsGlobalAndUniversal
                                           READ PROPERTY
 
-Om dit probleem op te lossen, moet u TGGAU inschakelen voor het account dat wordt gebruikt voor de Windows-service van Analysis Services.
+Als u dit probleem wilt oplossen, moet u TGGAU inschakelen voor het account dat wordt gebruikt voor de Windows-service van Analysis Services.
 
-**Een andere mogelijkheid is dat de gebruikersnaam of het wachtwoord onjuist is**
+#### <a name="another-possibility-for-username-or-password-incorrect"></a>Een andere mogelijkheid is dat de gebruikersnaam of het wachtwoord onjuist is
 
 Deze fout kan ook optreden als de Analysis Services-server zich in een ander domein bevindt dan de gebruikers en er geen wederzijdse vertrouwensrelatie tot stand is gebracht.
 
-In dat geval moet u samenwerken met uw domeinbeheerders om de vertrouwensrelatie tussen de domeinen te controleren.
+U moet samenwerken met uw domeinbeheerders om de vertrouwensrelatie tussen de domeinen te controleren.
 
-**Kan de gegevensbronnen van de gegevensgateway niet zien via de Analysis Services-functie 'Gegevens ophalen' van de Power BI-service**
+#### <a name="unable-to-see-the-data-gateway-data-sources-in-the-get-data-experience-for-analysis-services-from-the-power-bi-service"></a>Kan de gegevensbronnen van de gegevensgateway niet zien via de Analysis Services-functie 'Gegevens ophalen' van de Power BI-service
 
-Zorg ervoor dat uw account wordt vermeld op het tabblad **Gebruikers** van de gegevensbron in de configuratie van de gateway. Als u geen toegang tot de gateway hebt, neemt u contact op met de beheerder van de gateway en vraagt u deze de informatie te controleren. Alleen accounts die zijn opgenomen in de lijst met **Gebruikers**, zien de gegevensbron die wordt weergegeven in de Analysis Services-lijst.
+Zorg ervoor dat uw account wordt vermeld op het tabblad **Gebruikers** van de gegevensbron in de configuratie van de gateway. Als u geen toegang hebt tot de gateway, neemt u contact op met de beheerder van de gateway en vraagt u deze de informatie te controleren. Alleen op accounts die zijn opgenomen in de lijst met **Gebruikers** is de gegevensbron te zien die wordt weergegeven in de Analysis Services-lijst.
 
 ### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>Fout: u hebt geen gateway geïnstalleerd of geconfigureerd voor de gegevensbronnen in deze gegevensset
+
 Zorg ervoor dat u een of meer gegevensbronnen hebt toegevoegd aan de gateway, zoals beschreven in [Een gegevensbron toevoegen](service-gateway-manage.md#add-a-data-source). Als de gateway niet wordt weergegeven in de beheerportal onder **Gateways beheren** wist u de browsercache of meldt u zich af en weer aan bij de service.
 
 ## <a name="datasets"></a>Gegevenssets
-### <a name="error-there-is-not-enough-space-for-this-row"></a>Fout: Er is onvoldoende ruimte voor deze rij.
+
+### <a name="error-there-is-not-enough-space-for-this-row"></a>Fout: Er is onvoldoende ruimte voor deze rij
+
 Dit gebeurt als een enkele rij groter is dan 4 MB. U moet bepalen om welke rij uit de gegevensbron het gaat en deze wegfilteren of kleiner maken.
 
-### <a name="error-the-server-name-provided-doesnt-match-the-server-name-on-the-sql-server-ssl-certificate"></a>Fout: De opgegeven servernaam komt niet overeen met de servernaam op het SSL-certificaat van SQL Server.
-Dit kan gebeuren wanneer de certificaat-CN voor de servers een FQDN (volledig gekwalificeerde domeinnaam) is, maar u alleen de netbios-naam voor de server hebt opgegeven. Hierdoor komt de servernaam niet overeen met het certificaat. Om dit probleem op te lossen, moet u de servernaam in de gegevensbron van de gateway en in het PBIX-bestand instellen op de FQDN van de server.
+### <a name="error-the-server-name-provided-doesnt-match-the-server-name-on-the-sql-server-ssl-certificate"></a>Fout: De opgegeven servernaam komt niet overeen met de servernaam op het SSL-certificaat van SQL Server
 
-### <a name="i-dont-see-the-on-premises-data-gateway-persent-when-configuring-scheduled-refresh"></a>De on-premises gegevensgateway wordt niet weergegeven bij het configureren van een geplande vernieuwing.
+Dit kan gebeuren wanneer de certificaat-CN voor de servers een FQDN (Fully Qualified Domain Name) is, maar u alleen de NetBIOS-naam voor de server hebt opgegeven. Hierdoor komt de servernaam niet overeen met het certificaat. Om dit probleem op te lossen, moet u de servernaam in de gegevensbron van de gateway en in het PBIX-bestand instellen op de FQDN van de server.
+
+### <a name="i-dont-see-the-on-premises-data-gateway-present-when-configuring-scheduled-refresh"></a>De on-premises gegevensgateway wordt niet weergegeven bij het configureren van een geplande vernieuwing
+
 Dit kan door meerdere scenario's worden veroorzaakt.
 
 1. Mogelijk komen de server- en databasenamen die zijn ingevoerd in Power BI Desktop, niet overeen met de geconfigureerde gegevensbron voor de gateway. Deze moeten dezelfde waarden gebruiken. De waarden zijn niet hoofdlettergevoelig.
-2. Uw account wordt niet vermeld op het tabblad **Gebruikers** van de gegevensbron in de configuratie van de gateway. Neem contact op met de beheerder van de gateway om aan deze lijst te worden toegevoegd.
+2. Uw account wordt niet vermeld op het tabblad **Gebruikers** van de gegevensbron in de configuratie van de gateway. Neem contact op met de beheerder van de gateway als u aan deze lijst wilt worden toegevoegd.
 3. Uw Power BI Desktop-bestand bevat meerdere gegevensbronnen en niet al deze gegevensbronnen zijn geconfigureerd bij de gateway. U moet elke gegevensbron bij de gateway definiëren als u wilt dat de gateway wordt weergegeven voor geplande vernieuwing.
 
-### <a name="error-the-received-uncompressed-data-on-the-gateway-client-has-exceeded-limit"></a>Fout: De niet-gecomprimeerde gegevens die door de gatewayclient zijn ontvangen, hebben de limiet overschreden.
-De exacte beperking is 10 GB aan niet-gecomprimeerde gegevens per tabel. Als dit probleem optreedt, zijn er goede mogelijkheden om uw gegevens te optimaliseren en het probleem te voorkomen. Een gunstig resultaat bereikt u vooral met het terugdringen van het gebruik van lange tekenreekswaarden met veel herhaling en het vervangen hiervan door een genormaliseerde sleutel, en met het verwijderen van ongebruikte kolommen.
+### <a name="error-the-received-uncompressed-data-on-the-gateway-client-has-exceeded-the-limit"></a>Fout: De niet-gecomprimeerde gegevens die door de gatewayclient zijn ontvangen, hebben de limiet overschreden
+
+De exacte beperking is 10 GB aan niet-gecomprimeerde gegevens per tabel. Als dit probleem optreedt, zijn er goede mogelijkheden om uw gegevens te optimaliseren en het probleem te voorkomen. Een gunstig resultaat bereikt u vooral met het terugdringen van het gebruik van zeer constante, lange tekenreekswaarden en het vervangen hiervan door een genormaliseerde sleutel, en met het verwijderen van de kolom (indien niet in gebruik).
 
 ## <a name="reports"></a>Rapporten
-### <a name="report-could-not-access-the-data-source-because-you-do-not-have-access-to-our-data-source-via-an-on-premises-data-gateway"></a>Rapport heeft geen toegang tot de gegevensbron omdat u geen toegang tot onze gegevensbron hebt via een on-premises gegevensgateway.
+
+### <a name="report-could-not-access-the-data-source-because-you-do-not-have-access-to-our-data-source-via-an-on-premises-data-gateway"></a>Rapport heeft geen toegang tot de gegevensbron omdat u geen toegang tot onze gegevensbron hebt via een on-premises gegevensgateway
+
 Dit wordt meestal veroorzaakt door een van de volgende dingen.
 
 1. De informatie van de gegevensbron komt niet overeen met wat er in de onderliggende gegevensset aanwezig is. De server- en databasenaam die in de on-premises gegevensgateway zijn opgegeven voor de gegevensbron, moeten overeenkomen met wat u hebt opgegeven in Power BI Desktop. Als u in Power BI Desktop een IP-adres gebruikt, moet de gegevensbron voor de on-premises gegevensgateway ook een IP-adres gebruiken.
 2. Er is op geen enkele gateway binnen uw organisatie een gegevensbron beschikbaar. U kunt de gegevensbron configureren op een nieuwe of bestaande on-premises gegevensgateway.
 
-### <a name="error-data-source-access-error-please-contact-the-gateway-administrator"></a>Fout: Fout met toegang tot de gegevensbron. Neem contact op met de gatewaybeheerder.
+### <a name="error-data-source-access-error-please-contact-the-gateway-administrator"></a>Fout: Fout met toegang tot de gegevensbron. Neem contact op met de gatewaybeheerder
+
 Als dit rapport gebruikmaakt van een live Analysis Services-verbinding, treedt er mogelijk een probleem op waarbij er een waarde aan EffectiveUserName wordt doorgegeven die niet geldig is of geen machtigingen heeft op de Analysis Services-computer. Een verificatieprobleem wordt doorgaans veroorzaakt doordat de waarde die voor EffectiveUserName wordt doorgegeven, niet overeenkomt met een lokale User Principal Name (UPN).
 
 Doe het volgende om dit te controleren.
 
 1. U vindt de effectieve gebruikersnaam in de [gatewaylogboeken](#logs).
-2. Wanneer u de waarde hebt achterhaald die wordt doorgegeven, controleert u of deze juist is. Als dit uw gebruiker betreft, kunt u de volgende opdracht uitvoeren vanaf de opdrachtprompt om te zien wat de UPN moet zijn. De UPN ziet eruit als een e-mailadres.
+2. Wanneer u de waarde hebt achterhaald die wordt doorgegeven, controleert u of deze juist is. Als dit uw gebruiker betreft, kunt u de volgende opdracht uitvoeren vanaf de opdrachtprompt om de UPN te zien. De UPN ziet eruit als een e-mailadres.
 
         whoami /upn
 
@@ -207,17 +232,19 @@ U vindt de datacenterregio waarin u zich bevindt, met behulp van de volgende sta
 2. Selecteer **Over Power BI**.
 3. Uw gegevensregio wordt weergegeven bij **Uw gegevens worden opgeslagen in**.
 
-    ![](media/service-gateway-onprem-tshoot/power-bi-data-region.png)
+    ![Gegevensgebied](media/service-gateway-onprem-tshoot/power-bi-data-region.png)
 
 Als u nog steeds niet voldoende informatie hebt, kunt u een netwerktracering uitvoeren met een hulpprogramma zoals [fiddler](#fiddler) of netsh, hoewel dit geavanceerde methoden zijn en u wellicht hulp nodig hebt bij het analyseren van de verzamelde gegevens. U kunt voor hulp contact opnemen met de [ondersteuning](https://support.microsoft.com).
 
 ## <a name="performance"></a>Prestaties
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IJ_DJ30VNk4?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ### <a name="performance-counters"></a>Prestatiemeters
-Er zijn een aantal prestatiemeteritems die kunnen worden gebruikt voor het bijhouden van de activiteiten van de gateway. Dit is handig om te bepalen of er een grote activiteitsbelasting is en er mogelijk een nieuwe gateway moet worden gemaakt. Deze items geven niet aan hoelang iets duurt.
 
-Deze items zijn op te vragen via het hulpprogramma Prestatiemeter van Windows.
+Er zijn een aantal prestatiemeteritems die kunnen worden gebruikt voor het bijhouden van de activiteiten van de gateway. Dit is handig om te bepalen of er een grote activiteitsbelasting is en er mogelijk een nieuwe gateway moet worden gemaakt. Deze tellers geven niet aan hoelang iets duurt.
+
+Deze tellers zijn toegankelijk via het hulpprogramma Prestatiemeter van Windows.
 
 ![](media/service-gateway-onprem-tshoot/gateway-perfmon.png)
 
@@ -227,8 +254,8 @@ Deze prestatiemeteritems zijn in enkele algemene groepen ingedeeld.
 | --- | --- |
 | ADO.NET |Dit wordt gebruikt voor DirectQuery-verbindingen. |
 | ADOMD |Dit wordt gebruikt voor Analysis Services 2014 en eerdere versies. |
-| OLEDB |Dit wordt gebruikt door bepaalde gegevensbronnen. Hieronder vallen SAP HANA en Analysis Services 2016 en latere versies. |
-| Mashup |Hieronder vallen alle geïmporteerde gegevensbronnen. Als u geplande vernieuwing of vernieuwing op aanvraag gebruikt, verloopt dit via de mashup-engine. |
+| OLEDB |Bepaalde gegevensbronnen maken gebruik van deze optie. Hieronder vallen SAP HANA en Analysis Services 2016 en latere versies. |
+| Mashup |Hieronder vallen alle geïmporteerde gegevensbronnen. Als u vernieuwing plant of vernieuwing op aanvraag uitvoert, verloopt dit via de mashup-engine. |
 
 Hier volgt een overzicht van de beschikbare prestatiemeteritems.
 
@@ -263,17 +290,17 @@ Hier volgt een overzicht van de beschikbare prestatiemeteritems.
 | Aantal OLEDB-query's voor sets met enkelvoudige resultaten mislukt per seconde |Aantal mislukte OLEDB-query's voor sets met enkelvoudige resultaten uitgevoerd per seconde. |
 
 ## <a name="reviewing-slow-performing-queries"></a>Traag presterende query's controleren
-Mogelijk vindt u de respons via de gateway te langzaam. Dit kan bijvoorbeeld het geval zijn voor DirectQuery-query's of bij het vernieuwen van uw geïmporteerde gegevensset. U kunt aanvullende logboekregistratie inschakelen voor query's en de bijbehorende tijdinstellingen, zodat u beter begrijpt wat de prestaties vertraagt. Wanneer u een langlopende query hebt gevonden, zijn er misschien extra aanpassingen vereist in uw gegevensbron om de queryprestaties te verbeteren. Denk bijvoorbeeld aan het aanpassen van de indexen voor een SQL Server-query.
+
+Mogelijk vindt u de respons via de gateway te langzaam. Dit kan bijvoorbeeld het geval zijn voor DirectQuery-query's of bij het vernieuwen van uw geïmporteerde gegevensset. U kunt aanvullende logboekregistratie inschakelen voor query's en de bijbehorende tijdinstellingen, zodat u beter begrijpt wat traag presteert. Wanneer u een langlopende query hebt gevonden, zijn er mogelijk extra aanpassingen vereist in uw gegevensbron om de queryprestaties te verbeteren. Denk bijvoorbeeld aan het aanpassen van de indexen voor een SQL Server-query.
 
 U moet twee configuratiebestanden wijzigen om de duur van een query te bepalen.
 
 ### <a name="microsoftpowerbidatamovementpipelinegatewaycoredllconfig"></a>Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
+
 In het bestand *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* dient u de waarde `EmitQueryTraces` te wijzigen van `False` naar `True`. Dit bestand bevindt zich in *C:\Program Files\On-premises data gateway*. Als u `EmitQueryTraces` inschakelt, worden de query's bijgehouden die vanaf de gateway naar een gegevensbron worden verzonden.
 
 > [!IMPORTANT]
 > Het inschakelen van EmitQueryTraces kan ervoor zorgen dat de grootte van het logboekbestand aanzienlijk toeneemt, afhankelijk van het gatewaygebruik. Wanneer u klaar bent met het controleren van de logboeken, kunt u EmitQueryTraces het beste weer instellen op False. Het wordt afgeraden om deze instelling langere tijd ingeschakeld te laten.
-> 
-> 
 
 ```
 <setting name="EmitQueryTraces" serializeAs="String">
@@ -311,14 +338,13 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 ```
 
 ### <a name="microsoftpowerbidatamovementpipelinediagnosticsdllconfig"></a>Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config
-In het bestand *Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config* dient u de waarde `TracingVerbosity` te wijzigen van `4` naar `5`. Dit bestand bevindt zich in *C:\Program Files\On-premises data gateway*. Als u deze instelling wijzigt, worden er uitgebreide logboekvermeldingen naar het gatewaylogboek geschreven. Hierbij wordt voor vermeldingen ook de duur getoond. U kunt ook uitgebreide vermeldingen inschakelen door het inschakelen van de knop 'Aanvullende logboekregistratie' in de toepassing On-Premise Gateway.
+
+In het bestand *Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config* dient u de waarde `TracingVerbosity` te wijzigen van `4` naar `5`. Dit bestand bevindt zich in *C:\Program Files\On-premises data gateway*. Als u deze instelling wijzigt, worden er uitgebreide logboekvermeldingen naar het gatewaylogboek geschreven. Hierbij wordt voor vermeldingen ook de duur getoond. U kunt ook uitgebreide vermeldingen inschakelen door het inschakelen van de knop Aanvullende logboekregistratie in de toepassing On-Premises Gateway.
 
    ![Aanvullende logboekregistratie](media/service-gateway-onprem-tshoot/additional-logging.png)
 
 > [!IMPORTANT]
-> Door TraceVerbosity in te stellen op `5`, kan de grootte van het logboekbestand aanzienlijk toenemen, afhankelijk van het gatewaygebruik. Wanneer u klaar bent met het controleren van de logboeken, kunt u TraceVerbosity het beste weer instellen op `4`. Het wordt afgeraden om deze instelling langere tijd ingeschakeld te laten.
-> 
-> 
+> Door TraceVerbosity in te stellen op `5`, kan de grootte van het logboekbestand aanzienlijk toenemen, afhankelijk van het gatewaygebruik. Wanneer u klaar bent met het controleren van de logboeken, moet u TraceVerbosity weer instellen op `4`. Het wordt afgeraden om deze instelling langere tijd ingeschakeld te laten.
 
 ```
 <setting name="TracingVerbosity" serializeAs="String">
@@ -330,7 +356,7 @@ In het bestand *Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config* 
 
 ### <a name="activity-types"></a>Activiteitstypen
 
-| Activiteitstype | Beschrijving |
+| Type activiteit | Beschrijving |
 | --- | --- |
 | MGEQ |Query's uitgevoerd via ADO.NET. Hieronder vallen DirectQuery-gegevensbronnen. |
 | MGEO |Query's uitgevoerd via OLEDB. Hieronder vallen SAP HANA en Analysis Services 2016. |
@@ -348,8 +374,56 @@ Om te bepalen hoe lang het duurde om een query bij de gegevensbron uit te voeren
 
    > [!NOTE]
    > FireActivityCompletedSuccessfullyEvent is een uitgebreid item. Dit item wordt niet vastgelegd tenzij TraceVerbosity is ingesteld op niveau 5.
-   > 
-   > 
+
+## <a name="firewall-or-proxy"></a>Firewall of proxy
+
+Zie [Configuring proxy settings for the Power BI gateways](service-gateway-proxy.md) (Proxy-instellingen voor de Power BI-gateways configureren) voor informatie over het aanleveren van proxygegevens voor uw gateway.
+
+U kunt controleren of uw firewall of proxy verbindingen mogelijk blokkeert, door de opdracht [Test-NetConnection](https://docs.microsoft.com/powershell/module/nettcpip/test-netconnection) uit te voeren in een PowerShell-prompt. Deze opdracht test de verbinding met Azure Service Bus. De test heeft alleen betrekking op de netwerkverbinding, niet op de cloudserverservice of de gateway. Met deze opdracht kunt u controleren of uw computer verbinding kan maken met internet.
+
+    Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
+
+> [!NOTE]
+> Test-NetConnection is alleen beschikbaar in Windows Server 2012 R2 en hoger. De opdracht is ook beschikbaar in Windows 8.1 en hoger. In eerdere versies van het besturingssysteem kunt u Telnet gebruiken om poortconnectiviteit te testen.
+
+De resultaten ziet er ongeveer uit als in het volgende voorbeeld. Het verschil zit in TcpTestSucceeded. Als **TcpTestSucceeded** niet *true* is, wordt u mogelijk geblokkeerd door een firewall.
+
+    ComputerName           : watchdog.servicebus.windows.net
+    RemoteAddress          : 70.37.104.240
+    RemotePort             : 5672
+    InterfaceAlias         : vEthernet (Broadcom NetXtreme Gigabit Ethernet - Virtual Switch)
+    SourceAddress          : 10.120.60.105
+    PingSucceeded          : False
+    PingReplyDetails (RTT) : 0 ms
+    TcpTestSucceeded       : True
+
+Als u grondig te werk wilt gaan, vervangt u de waarden **ComputerName** en **Port** door de waarden die worden vermeld onder [ports](https://docs.microsoft.com/power-bi/service-gateway-onprem#ports)
+
+De firewall blokkeert mogelijk ook de verbindingen tussen Azure Service Bus en de Azure-datacenters. Als dat het geval is, kunt u het beste de IP-adressen van de datacenters voor uw regio op de goedgekeurde lijst plaatsen (deblokkeren). U vindt [hier](https://www.microsoft.com/download/details.aspx?id=41653) een lijst met IP-adressen voor Azure.
+
+### <a name="network-ports-test"></a>Test netwerkpoorten
+
+De netwerkpoortentest is een hulpprogramma om te controleren of uw gateway toegang heeft tot de juiste poorten voor alle externe servers die voor uw gateway vereist zijn voor het overbrengen van gegevens. Als de netwerkpoortentest geen verbinding kan maken met een van de poorten, ondervindt uw gateway mogelijk netwerkproblemen. Als u momenteel netwerkproblemen met uw gateway ondervindt, moet u een netwerkpoortentest uitvoeren om te controleren of u de optimale netwerkomgeving hebt.  
+
+#### <a name="start-a-new-test"></a>Een nieuwe test starten
+
+Hiermee voert u een nieuwe netwerkpoortentest uit in de gebruikersinterface van On-premises gegevensgateway.
+
+![Poortentest starten](media/service-gateway-onprem-tshoot/gateway-onprem-porttest-starttest.png)
+
+Bij het uitvoeren van de netwerkpoortentest haalt de gateway een lijst met poorten en servers van Azure Service Bus op. Vervolgens wordt geprobeerd verbinding maken met alle servers en poorten. Wanneer de koppeling Nieuwe test starten opnieuw wordt weergegeven, is de netwerkpoortentest uitgevoerd.  
+
+#### <a name="test-results"></a>Testresultaten
+
+Een samenvatting van de test is te zien onder de koppeling Nieuwe test starten bij Recente testresultaten. De twee resultaten zijn Voltooid (Geslaagd) en Voltooid (Mislukt, zie de laatste testresultaten). Als de test is geslaagd, dan heeft de gateway verbinding gemaakt met de vereiste poorten. Als de test is mislukt, dan worden deze vereiste poorten en servers mogelijk door uw netwerkomgeving geblokkeerd. 
+
+![Resultaten poortentest](media/service-gateway-onprem-tshoot/gateway-onprem-porttest-result.png)
+
+Als u de resultaten van de laatste voltooide test wilt weergeven, selecteert u de koppeling Laatste voltooide test openen, zoals hieronder wordt weergegeven. De testresultaten worden in de standaard teksteditor van Windows geopend.  
+
+In de testresultaten worden alle servers, poorten en IP-adressen vermeld die voor uw gateway vereist zijn. Als in de testresultaten Gesloten voor alle poorten is weergegeven, zoals hieronder wordt weergegeven, controleert u of de verbinding niet wordt geblokkeerd door uw netwerkomgeving. Mogelijk moet u contact opnemen met uw netwerkbeheerder om de vereiste poorten te openen.
+
+![Bestand poortentestresultaten](media/service-gateway-onprem-tshoot/gateway-onprem-porttest-result-file.png)
 
 ## <a name="kerberos"></a>Kerberos
 
@@ -371,21 +445,23 @@ Volg deze stappen om het probleem op te lossen:
 
 ### <a name="failedtoimpersonateuserexception-failed-to-create-windows-identity-for-user-userid"></a>FailedToImpersonateUserException: kan geen Windows-identiteit voor de gebruiker userid maken
 
-FailedToImpersonateUserException zal zich voordoen als u zich niet namens een andere gebruiker als zodanig kunt voordoen. Dit kan ook gebeuren als het account dat u probeert te imiteren vanuit een ander domein komt dan het domein waarop de gateway-service zich bevindt (dit is een beperking).
+FailedToImpersonateUserException doet zich voor als u zich niet namens een andere gebruiker als zodanig kunt voordoen. Dit kan ook gebeuren als het account dat u probeert te imiteren vanuit een ander domein komt dan het domein waarop de gateway-service zich bevindt (dit is een beperking).
 
 **Oplossing**
+
 * Controleer of de configuratie klopt volgens de stappen in de sectie ImpersonationLevel hierboven
 * Zorg ervoor dat de userid die deze probeert te imiteren een geldig AD-Account is
 
-### <a name="general-error-1033-error-while-parsing-protocol"></a>Algemene fout: Fout tijdens het parseren van protocol 1033
+### <a name="general-error-1033-error-while-parsing-the-protocol"></a>Algemene fout: Fout 1033 tijdens het parseren van het protocol
 
-U krijgt de fout 1033 te zien wanneer uw externe id, die is geconfigureerd in SAP HANA, niet met de aanmelding overeenkomt als de gebruiker wordt geïmiteerd met behulp van de UPN (alias@domain.com). In de logboeken ziet u hoe de 'oorspronkelijke UPN 'alias@domain.com' wordt vervangen door een nieuwe UPN 'alias@domain.com' aan de bovenkant van de foutenlogboeken zoals hieronder wordt weergegeven.'
+De fout 1033 wordt weergegeven wanneer uw externe id, die is geconfigureerd in SAP HANA, niet met de aanmelding overeenkomt als de gebruiker wordt geïmiteerd met behulp van de UPN (alias@domain.com). In de logboeken ziet u hoe de oorspronkelijke UPN alias@domain.com wordt vervangen door een nieuwe UPN alias@domain.com bovenaan de foutenlogboeken zoals hieronder wordt weergegeven.
 
 ```
-[DM.GatewayCore] SingleSignOn Required. Original UPN 'alias@domain.com' replaced with new UPN 'alias@domain.com'.
+[DM.GatewayCore] SingleSignOn Required. Original UPN 'alias@domain.com' replaced with new UPN 'alias@domain.com.'
 ```
 
 **Oplossing**
+
 * SAP HANA vereist dat de geïmiteerde gebruiker het kenmerk sAMAccountName in AD (gebruikersalias) gebruikt. Als dit niet juist is, ziet u de fout 1033.
 
     ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount.png)
@@ -410,9 +486,10 @@ U krijgt de fout 1033 te zien wanneer uw externe id, die is geconfigureerd in SA
 
 ### <a name="sap-aglibodbchdb-dllhdbodbc-communication-link-failure-10709-connection-failed-rte-1-kerberos-error-major-miscellaneous-failure-851968-minor-no-credentials-are-available-in-the-security-package"></a>[SAP AG] [LIBODBCHDB DLL] [HDBODBC] Koppeling communicatiefout;-10709 verbinding is mislukt (RTE:[-1] Kerberos-fout. Primair: 'Diverse-fout [851968]', secundair: 'Er zijn geen referenties beschikbaar in het beveiligingspakket'
 
-U krijgt het foutbericht 10709, verbinding mislukt, als de overdracht niet juist is geconfigureerd in AD.
+Het foutbericht 10709 (Verbinding is mislukt) wordt weergegeven als de overdracht niet juist is geconfigureerd in AD.
 
 **Oplossing**
+
 * Zorg ervoor dat u de SAP Hana-server op het tabblad Delegering in AD heeft voor het gateway-serviceaccount
 
    ![Tabblad Delegering](media/service-gateway-onprem-tshoot/delegation-in-AD.png)
@@ -421,7 +498,8 @@ U krijgt het foutbericht 10709, verbinding mislukt, als de overdracht niet juist
 [!INCLUDE [gateway-onprem-tshoot-tools-include](./includes/gateway-onprem-tshoot-tools-include.md)]
 
 ### <a name="refresh-history"></a>Geschiedenis vernieuwen
-Wanneer u de gateway gebruikt voor geplande vernieuwing, kan de optie **Geschiedenis vernieuwen** helpen om te zien welke fouten zijn opgetreden. Daarnaast kan deze optie nuttige gegevens bieden als u een ondersteuningsaanvraag wilt aanmaken. U kunt zowel geplande vernieuwingen als vernieuwingen op aanvraag bekijken. U krijgt als volgt toegang tot de optie **Geschiedenis vernieuwen**.
+
+Wanneer u de gateway gebruikt voor geplande vernieuwing, kan de optie **Geschiedenis vernieuwen** helpen om te zien welke fouten zijn opgetreden. Daarnaast kan deze optie nuttige gegevens bieden als u een ondersteuningsaanvraag wilt maken. U kunt zowel geplande vernieuwingen als vernieuwingen op aanvraag bekijken. U krijgt als volgt toegang tot de optie **Geschiedenis vernieuwen**.
 
 1. Ga in het navigatiedeelvenster van Power BI naar **Gegevenssets**, selecteer een gegevensset &gt; Menu openen &gt; **Vernieuwen plannen**.
 

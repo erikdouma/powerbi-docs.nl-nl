@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 70aa61d6a02bea1b7058a68b20718008ace1b8c8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 61a30484713ac96d3bbb65355310007a52f300a5
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34480883"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657800"
 ---
 # <a name="conditional-formatting-in-tables"></a>Voorwaardelijke opmaak in tabellen 
 Met voorwaardelijke opmaak voor tabellen kunt u aangepaste celkleuren opgeven op basis van celwaarden of op basis van andere waarden of velden, waaronder het gebruik van kleurovergangen. U kunt ook celwaarden met gegevensbalken weergeven. 
@@ -24,7 +24,7 @@ Selecteer voor toegang tot voorwaardelijke opmaak in het venster **Velden** van 
 
 ![Het menu Voorwaardelijke opmaak](media/desktop-conditional-table-formatting/table-formatting-0-popup-menu.png)
 
-In de volgende gedeelten worden deze drie voorwaardelijke opmaakopties behandeld. U kunt een of meer opties combineren in een afzonderlijke tabelkolom.
+In de volgende gedeelten worden deze voorwaardelijke opmaakopties behandeld. U kunt een of meer opties combineren in een afzonderlijke tabelkolom.
 
 > [!NOTE]
 > Wanneer voorwaardelijke opmaak wordt toegepast op een tabel, worden alle aangepaste tabelstijlen die zijn toegepast op de voorwaardelijk opgemaakte cellen overschreven.
@@ -95,3 +95,43 @@ Standaard is de optie **Alleen balk weergeven** niet ingeschakeld; de tabelcel t
 Als de optie **Alleen balk weergeven** is ingeschakeld, toont de tabelcel alleen de balk.
 
 ![Voorbeeldtabel met alleen gegevensbalken](media/desktop-conditional-table-formatting/table-formatting-3-default-table-bars.png)
+
+## <a name="color-formatting-by-field-value"></a>Kleuropmaak op veldwaarde
+
+U kunt een meting of een kolom waarin een kleur is opgegeven, gebruiken om die kleur via een tekstwaarde of een hex-code toe te passen op de achtergrond van de tekenkleur van een tabel of een matrixvisual. U kunt ook aangepaste logica voor een bepaald veld maken en ervoor zorgen dat deze logica de gewenste kleur toepast op het lettertype of de achtergrond.
+
+Er is bijvoorbeeld in de volgende tabel een kleur gekoppeld aan elk productmodel. 
+
+![Veld ProductName met kleurnaam](media/desktop-conditional-table-formatting/conditional-table-formatting_01.png)
+
+Als u die cel wilt opmaken op basis van de veldwaarde, selecteert u het dialoogvenster **Voorwaardelijke opmaak** door met de rechtermuisknop op de kolom *Kleur* te klikken voor deze visual en in dit geval in het menu **Achtergrondkleur** te selecteren. 
+
+![Achtergrondkleur selecteren in het menu](media/desktop-conditional-table-formatting/conditional-table-formatting_02.png)
+
+Selecteer in het dialoogvenster dat wordt weergegeven **Veldwaarde** in het vervolgkeuzevak **Opmaken door**, zoals wordt weergegeven in de volgende afbeelding.
+
+![Opmaken door veldwaarde](media/desktop-conditional-table-formatting/conditional-table-formatting_03.png)
+
+U kunt deze procedure herhalen voor de tekenkleur, waarna het resultaat in de visual een effen kleur in de kolom **Kleur** wordt, zoals wordt weergegeven in het volgende scherm.
+
+![Opmaken door veldwaarde](media/desktop-conditional-table-formatting/conditional-table-formatting_04.png)
+
+U kunt ook een DAX-berekening maken op basis van bedrijfslogica die verschillende hex-codes oplevert op basis van de voorwaarden van uw voorkeur. Dit is meestal gemakkelijker dan het maken van meerdere regels in het dialoogvenster voor voorwaardelijke opmaak. Bekijk het veld *ColorKPI* in de volgende voorbeeldafbeelding.
+
+![DAX-berekeningen](media/desktop-conditional-table-formatting/conditional-table-formatting_05.png)
+
+U kunt vervolgens de veldwaarde voor **Achtergrondkleur** op de volgende manier instellen.
+
+![De veldkleur instellen op basis van een KPI](media/desktop-conditional-table-formatting/conditional-table-formatting_06.png)
+
+En u kunt vervolgens resultaten als de volgende matrix krijgen.
+
+![Matrixvisual met een op KPI-waarde gebaseerde kleur](media/desktop-conditional-table-formatting/conditional-table-formatting_07.png)
+
+Er zijn veel meer variaties die u kunt maken door gewoon gebruik te maken van uw eigen verbeelding en een beetje DAX.
+
+## <a name="next-steps"></a>Volgende stappen
+Raadpleeg voor meer informatie hete volgende artikel:  
+
+* [Tips en trucs voor het gebruik van opmaak in Power BI](service-tips-and-tricks-for-color-formatting.md)  
+

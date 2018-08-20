@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: dcf63989a7d016b5795337f43c9524b05d2d54cd
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: 8c2ee97fb39fe115da78bad7bc5787a152dfd793
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39210371"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39658145"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Eerdere maandelijkse updates voor Power BI Desktop
 
@@ -34,10 +34,66 @@ U kunt ook de video **Meest recente updates** in dit artikel vanaf het begin bek
 
 In de volgende secties wordt aandacht besteed aan de updates van de afgelopen maanden voor **Power BI Desktop**.
 
+## <a name="july-2018-update-26051693201"></a>Update van juli 2018 (2.60.5169.3201)
+
+De grote updates van juli waren tamelijk indrukwekkend, met langverwachte gegevens- en rapportagefuncties die uw visuals nog interessanter maken en letterlijk en figuurlijk voor kleurrijke inzichten zorgen.
+
+De volgende updates zijn in juli uitgekomen voor **Power BI Desktop**:
+
+### <a name="modeling"></a>Modellen maken
+
+* Samengestelde modellen (preview-versie)  [[video]](https://youtu.be/Mtig3rmIUe0?t=15s)  [[artikel]](desktop-composite-models.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
+* Veel-op-veel-relaties (preview-versie) (gekoppeld aan samengestelde modellen)   [[video]](https://youtu.be/Mtig3rmIUe0?t=4m53s)  [[artikel]](desktop-many-to-many-relationships.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
+* Opslagmodus (preview-versie) (gekoppeld aan samengestelde modellen)   [[video]](https://youtu.be/Mtig3rmIUe0?t=15s)  [[artikel]](desktop-storage-mode.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
+
+
+### <a name="reporting"></a>Rapportage
+
+* Nieuwe koptekst voor visualisatie met meer flexibiliteit en opmaak  [[video]](https://youtu.be/Mtig3rmIUe0?t=8m26s)  [[artikel]](desktop-visual-elements-for-reports.md#using-improved-visual-headers-in-power-bi-reports)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#visualHeader) 
+* Achtergrondopmaak [[video]](https://youtu.be/Mtig3rmIUe0?t=14m19s)  [[artikel]](desktop-visual-elements-for-reports.md#using-wallpaper-in-power-bi-reports)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#wallpaper) 
+* Update van thema's - meer controle over visualisaties en pagina (preview-versie)  [[video]](https://youtu.be/Mtig3rmIUe0?t=19m14s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#theme) 
+* Knopinfo voor tabel en matrix  [[video]](https://youtu.be/Mtig3rmIUe0?t=22m53s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#tableTooltips) 
+* Knopinfo uitschakelen voor visualisaties  [[video]](https://youtu.be/Mtig3rmIUe0?t=22m53s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#tooltips) 
+* Toegankelijkheid van slicers  [[video]](https://youtu.be/Mtig3rmIUe0?t=27m29s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#slicerAccessibility) 
+* Verbeteringen van opmaakvenster  [[video]](https://youtu.be/Mtig3rmIUe0?t=30m18s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#formattingPane) 
+* Ondersteuning van trapvormige lijnen voor lijn- en combinatiegrafieken  [[video]](https://youtu.be/Mtig3rmIUe0?t=32m46s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#steppedLine) 
+* Gegevenslabels voor combinatiegrafieken uitschakelen voor afzonderlijke reeksen  [[video]](https://youtu.be/Mtig3rmIUe0?t=34m19s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#comboDataLabels) 
+* Verbetering van sorteerbewerkingen  [[video]](https://youtu.be/Mtig3rmIUe0?t=35m44s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#sorting) 
+
+### <a name="analytics"></a>Analyse
+
+* Inzichten in distributiefactor  [[video]](https://youtu.be/Mtig3rmIUe0?t=37m)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#distributionFactor) 
+
+### <a name="custom-visuals"></a>Aangepaste visuals
+
+* Categorie gecertificeerd door Power BI  [[video]](https://youtu.be/Mtig3rmIUe0?t=41m13s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#certifiedVisuals) 
+* Specifieke organisatie-visualisaties uitschakelen  [[video]](https://youtu.be/Mtig3rmIUe0?t=42m32s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#orgCustomVisuals) 
+* Vier nieuwe aangepaste visualisaties  [[video]](https://youtu.be/Mtig3rmIUe0?t=44m)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#visio) 
+
+### <a name="data-connectivity"></a>Toegang tot gegevens
+
+* DirectQuery-connector voor IBM DB2 (preview-versie)  [[video]](https://youtu.be/Mtig3rmIUe0?t=54m25s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#IBMDB2) 
+* Verbeteringen van connector Web By Example  [[video]](https://youtu.be/Mtig3rmIUe0?t=54m53s)  [[artikel]](desktop-connect-to-web-by-example.md)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#WebByExample) 
+* SAP HANA - standaardwaarden voor variabelen bij invoer van variabelen [[video]](https://youtu.be/Mtig3rmIUe0?t=56m19s)  [[artikel]](desktop-sap-hana.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#SAPHANA) 
+
+
+> [!NOTE]
+> U kunt ook [alle gegevensbronnen bekijken die beschikbaar zijn voor Power BI Desktop](desktop-data-sources.md). Deze lijst blijft groeien, dus kom geregeld terug.
+
+Wilt u meer informatie over deze updates? Bekijk de [blogpost](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/), waar meer informatie over elk van deze nieuwe functies wordt gegeven (dit is dezelfde blogpost waarnaar in de bovenstaande lijst wordt verwezen).
+
+
+In de volgende video wordt elk van deze updates beschreven en weergegeven. U ziet ook de video uit de blogpost.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Mtig3rmIUe0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> Wellicht bent u ook geïnteresseerd in [wat er nieuw is in de Power BI-service](service-whats-new.md). Lees ook [wat er nieuw is in de mobiele apps voor Power BI](mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="june-2018-update-2595135101"></a>Update van juni 2018 (2.59.5135.101)
 
-De updates van deze maand omvatten functies en verbeteringen waarmee u uw rapporten nieuw leven kunt inblazen en u meer inzichten verkrijgt.
+De updates van juni omvatten functies en verbeteringen waarmee u uw rapporten nieuw leven kunt inblazen en u meer inzichten verkrijgt.
 
 De volgende updates zijn in juni uitgekomen voor **Power BI Desktop**:
 
@@ -49,7 +105,7 @@ De volgende updates zijn in juni uitgekomen voor **Power BI Desktop**:
 * Gegevenslabels afzonderlijk voor elke meting opmaken in een combinatiegrafiek [[video]](https://youtu.be/4VpGtWSrssE?t=9m29s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#comboLabels) 
 * Langere telefoonrapporten [[video]](https://youtu.be/4VpGtWSrssE?t=11m26s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#phoneReports) 
 
-### <a name="custom-visuals"></a>Aangepaste visualisaties
+### <a name="custom-visuals"></a>Aangepaste visuals
 
 * Twee nieuwe aangepaste visuals [[video]](https://youtu.be/4VpGtWSrssE?t=17m42s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#customVisuals) 
 
@@ -104,7 +160,7 @@ De volgende updates zijn in mei uitgekomen voor **Power BI Desktop**:
 
 * Incrementeel vernieuwen (preview) [[video]](https://youtu.be/-_GMCE1TLvQ?t=7m42s) [[artikel]](service-premium-incremental-refresh.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#incrementalRefresh) 
 
-### <a name="custom-visuals"></a>Aangepaste visualisaties
+### <a name="custom-visuals"></a>Aangepaste visuals
 
 * Groot aantal nieuwe aangepaste visuele elementen[[video]](https://youtu.be/-_GMCE1TLvQ?t=9m44s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#customVisuals) 
 
@@ -156,7 +212,7 @@ De volgende updates zijn in april uitgekomen voor **Power BI Desktop**:
 * Uw taalkundig schema bijwerken [[video]](https://youtu.be/W_Nb73Od_AI?t=22m)  [[artikel]](power-bi-custom-visuals-organization.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#linguisticSchema) 
 * Nieuwe DAX-functie: COMBINEVALUES() [[video]](https://youtu.be/W_Nb73Od_AI?t=23m37s) [[blog ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#combineValues) 
 
-### <a name="custom-visuals"></a>Aangepaste visualisaties
+### <a name="custom-visuals"></a>Aangepaste visuals
 
 * De visuele organisatie-elementen zijn nu algemeen beschikbaar [[video]](https://youtu.be/W_Nb73Od_AI?t=26m11s) [[artikel]](power-bi-custom-visuals-organization.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#organizationalVisuals) 
 * Groot aantal nieuwe aangepaste visuele elementen[[video]](https://youtu.be/W_Nb73Od_AI?t=28m8s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#overviewByCloudScope) 
@@ -196,7 +252,7 @@ We zijn enorm blij met de updates van maart voor **Power BI Desktop**. De volgen
 * Uitschakelen van de visuele kopteksten in de Leesmodus voor een rapport [[video]](https://youtu.be/kuI6MMzDh34?t=12m25s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualHeader) 
 * Verbeterde plaatsing van visuele standaardelementen [[video]](https://youtu.be/kuI6MMzDh34?t=14m45s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualPlacement) 
 
-### <a name="custom-visuals"></a>Aangepaste visualisaties
+### <a name="custom-visuals"></a>Aangepaste visuals
 
 * Veel nieuwe aangepaste visuele elementen[[video]](https://youtu.be/kuI6MMzDh34?t=15m43s) [[artikel]](power-bi-custom-visuals-organization.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#customVisuals) 
 
@@ -255,7 +311,7 @@ De volgende updates zijn in februari 2018 uitgekomen voor **Power BI Desktop**:
 * De opmaak- en analysepanelen door bladeren [[video]](https://youtu.be/KeVB5RwMzJo?t=14m46s) [[article]](desktop-analytics-pane.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search) 
 
 
-### <a name="custom-visuals"></a>Aangepaste visualisaties
+### <a name="custom-visuals"></a>Aangepaste visuals
 
 * Aangepaste organisatievisuals (Preview) [[video]](https://youtu.be/KeVB5RwMzJo?t=19m23s) [[artikel]](power-bi-custom-visuals-organization.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#organizationalVisuals) 
 

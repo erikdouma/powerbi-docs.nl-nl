@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: be4651d1658c80c84105a65bc48e4072ed203794
-ms.sourcegitcommit: 7bdb76bd80973c5e5174747b7e304705754fe647
+ms.openlocfilehash: a3e39e6326eb5b32cd72e2aefec74c07804b4639
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "39217623"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657892"
 ---
 # <a name="use-visual-elements-to-enhance-power-bi-reports"></a>Power BI-rapporten verbeteren met visualisaties
 
@@ -59,6 +59,9 @@ Als u de transparantie van de pagina-achtergrond instelt op meer dan 50%, wordt 
 ![Transparantie groter dan 50% resulteert in een rand met stippellijn](media/desktop-visual-elements-for-reports/visual-elements-for-reports_04.png)
 
 Het is belangrijk om te weten dat de rand met een stippellijn *alleen* wordt weergegeven tijdens het bewerken van uw rapport en dat deze *niet* zichtbaar is voor personen die uw gepubliceerde rapport bekijken, bijvoorbeeld in de **Power BI-service**.
+
+> [!NOTE]
+> Als u donkere kleuren als achtergrond gebruikt en de kleur van de tekst instelt op wit of een zeer lichte kleur, moet u zich ervan bewust zijn dat de functie **Exporteren naar PDF** niet geldt voor de achtergrond. Daarom wordt een wit lettertype bij exporteren bijna onzichtbaar in het geëxporteerde PDF-bestand. Zie [Exporteren naar PDF](desktop-export-to-pdf.md) voor meer informatie over **Exporteren naar PDF**.
 
 
 ## <a name="using-improved-visual-headers-in-power-bi-reports"></a>Verbeterde visuele koppen gebruiken in Power BI-rapporten

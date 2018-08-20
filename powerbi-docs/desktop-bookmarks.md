@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2b8c4066f3128899d2c3c8121d7c5d41768f89dc
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: fe52646eef029359ac0e41c5fb32be524076a22d
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39327816"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657961"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Bladwijzers gebruiken om inzichten te delen en verhalen te vertellen in Power BI 
 Met behulp van **bladwijzers** in Power BI kunt u de momenteel geconfigureerde weergave van een rapportpagina vastleggen, inclusief filters en de status van visuals, en later terugkeren naar deze staat door eenvoudig de opgeslagen bladwijzer te selecteren. 
@@ -113,6 +113,33 @@ Nadat u de schuifregelaar **Actie** op **Aan** hebt gezet, kunt u selecteren of 
 U kunt allerlei interessante dingen doen met bladwijzers die aan objecten zijn gekoppeld. U kunt een visuele inhoudsopgave op de rapportpagina maken of u kunt verschillende weergaven (zoals visuele) van dezelfde gegevens maken door eenvoudig te klikken op een object.
 
 In de bewerkingsmodus kunt u met ingedrukte CTRL-toets klikken om de koppeling te volgen. Als u niet in de bewerkingsmodus werkt, klikt u op het object om de koppeling te volgen. 
+
+## <a name="bookmark-groups"></a>Bladwijzergroepen
+
+Sinds de release van augustus 2018 van **Power BI Desktop** kunt u bladwijzergroepen maken en gebruiken. De bladwijzergroep is een door u opgegeven verzameling bladwijzers, die kan worden weergegeven en ingedeeld als een groep. 
+
+Als u een bladwijzergroep wilt maken, houdt u de CTRL-toets ingedrukt, selecteert u de bladwijzers die u wilt opnemen in de groep, klikt u vervolgens op de drie puntjes naast een van de geselecteerde bladwijzers en selecteert u **Groep** in het menu dat wordt weergegeven.
+
+![Een bladwijzergroep maken](media/desktop-bookmarks/bookmarks_15.png)
+
+**Power BI Desktop** noemt de groep automatisch *Groep 1*. Gelukkig kunt u op de naam dubbelklikken en de naam wijzigen in wat u wilt.
+
+![De naam van een bladwijzergroep wijzigen](media/desktop-bookmarks/bookmarks_16.png)
+
+Wanneer u bij een bladwijzergroep op de naam van de bladwijzergroep klikt, wordt de bladwijzergroep alleen uitgevouwen of samengevouwen. De groep vormt op zichzelf geen bladwijzer. 
+
+Wanneer u de functie **Weergeven** voor bladwijzers gebruikt, is het volgende van toepassing:
+
+* Als de geselecteerde bladwijzer zich in een groep bevindt wanneer u **Weergeven** selecteert in Bladwijzers, worden alleen de bladwijzers *in die groep* weergegeven in de weergavesessie. 
+
+* Als de geselecteerde bladwijzer geen groep is, of zich op het hoogste niveau bevindt (zoals de naam van een bladwijzergroep), dan worden alle bladwijzers voor het gehele rapport afgespeeld, met inbegrip van bladwijzers in een groep. 
+
+Als u een bladwijzergroep wilt opheffen, selecteert u gewoon een bladwijzer in een groep, klikt u op het beletselteken en selecteert u vervolgens **Groep opheffen** in het menu dat wordt weergegeven. 
+
+![Een bladwijzergroep opheffen](media/desktop-bookmarks/bookmarks_17.png)
+
+Houd er rekening mee dat, wanneer u **Groep opheffen** selecteert in een groep, alle bladwijzers uit de groep worden gehaald (de groep wordt verwijderd, maar niet de bladwijzers zelf). Als u dus een afzonderlijke bladwijzer uit een groep wilt verwijderen, moet u de **groep opheffen** voor alle leden van die groep, waarmee de groep wordt verwijderd. Daarna selecteert u de leden die u aan de nieuwe groep wilt toevoegen (houd CTRL ingedrukt terwijl u op elke bladwijzer klikt) en selecteert u opnieuw **Groep**. 
+
 
 ## <a name="using-spotlight"></a>Spotlight gebruiken
 Een andere functie die is uitgebracht samen met bladwijzers, is **Spotlight**. Met **Spotlight** kunt u de aandacht vestigen op een specifieke grafiek, bijvoorbeeld wanneer u bladwijzers presenteert in de **weergavemodus**.
