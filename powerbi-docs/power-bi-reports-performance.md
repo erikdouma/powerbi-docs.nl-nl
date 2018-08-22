@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 05/18/2018
-ms.author: v-mamcge
+ms.author: kfile
 LocalizationGroup: Reports
-ms.openlocfilehash: b3bb1e6d7d7ce5b3fdc050f5df10af9f61acac92
-ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
+ms.openlocfilehash: 2e8888679f36b64a6fc5956a9ca10dc3d07dce1a
+ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39582566"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40257261"
 ---
 # <a name="power-bi-performance-best-practices"></a>Aanbevolen procedures voor de prestaties van Power BI 
 Dit artikel biedt informatie voor het snel maken van betrouwbare rapporten in Power BI.  
@@ -46,10 +46,10 @@ Zie [DirectQuery in SQL Server 2016 Analysis Services](https://blogs.msdn.micros
  
 ## <a name="directquery-and-live-connection-understand-underlying-data-source-performance"></a>DirectQuery en Live-verbinding: inzicht in prestaties van onderliggende gegevensbronnen 
 
-Wanneer gebruikers in het geval van DirectQuery of live-verbinding een Power BI-rapport bekijken, stuurt Power BI realtime-query's naar de onderliggende gegevensbron. Het rapport wordt opgebouwd als de gegevensbron de querygegevens retourneert. Hierdoor zijn de rapportprestaties in dergelijke gevallen grotendeels afhankelijk van de prestaties van de onderliggende gegevensbron. 
- 
-In deze gevallen is het belangrijk om inzicht te hebben in de prestaties van de onderliggende gegevensbron. Verschillende gegevensbronnen hebben verschillende hulpprogramma's voor inzicht in queryprestaties. SQL Server en Azure SQL bieden bijvoorbeeld de Query Store, waarin een geschiedenis van query's en hun runtime-statistieken worden vastgelegd. 
- 
+Wanneer gebruikers in het geval van DirectQuery of live-verbinding een Power BI-rapport bekijken, stuurt Power BI realtime-query's naar de onderliggende gegevensbron. Het rapport wordt opgebouwd als de gegevensbron de querygegevens retourneert. Hierdoor zijn de rapportprestaties in dergelijke gevallen grotendeels afhankelijk van de prestaties van de onderliggende gegevensbron.
+
+In deze gevallen is het belangrijk om inzicht te hebben in de prestaties van de onderliggende gegevensbron. Verschillende gegevensbronnen hebben verschillende hulpprogramma's voor inzicht in queryprestaties. SQL Server en Azure SQL bieden bijvoorbeeld de Query Store, waarin een geschiedenis van query's en hun runtime-statistieken worden vastgelegd.
+
 Als vuistregel geldt dat u bij het implementeren van Power BI-rapporten die zijn gebaseerd op DirectQuery en live-verbindingen, moet proberen wat uw eindgebruikers in Power BI Desktop doen. Als het rapport langzaam wordt geladen in Power BI Desktop, zal het vrijwel zeker ook langzaam worden geladen in de service voor uw eindgebruikers. 
  
 ## <a name="directquery-best-practices"></a>Aanbevolen procedures voor DirectQuery 
