@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/07/2018
+ms.date: 08/17/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 36343b4db0481ea61fbfac1c791aa84760ee2c77
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 271859dbc13e909d255e4287ae14e66b2d85724f
+ms.sourcegitcommit: 23bb84cd3e80ba7f03d559e48db322774d1a6fe0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624651"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "40257057"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>De nieuwe werkruimten maken (preview) in Power BI
 
@@ -129,7 +129,7 @@ We implementeren overal in de service werkstromen Toegang aanvragen, zodat gebru
 
 ## <a name="distribute-an-app"></a>Een app distribueren
 
-Wanneer de inhoud klaar is, kunt u kiezen welke dashboards en rapporten u wilt publiceren. Vervolgens publiceert u deze als een *app*. Uw collega's kunnen uw apps op een aantal verschillende manieren krijgen. U kunt ze automatisch installeren in de Power BI-accounts van uw collega's als uw Power BI-beheerder u toestemming geeft. Anders kunnen ze uw apps zoeken en installeren vanuit Microsoft AppSource of kunt u de apps via een directe koppeling verzenden. Ze ontvangen automatisch updates en u kunt bepalen hoe vaak de gegevens worden vernieuwd. Zie [Apps met dashboards en rapporten publiceren in Power BI](service-create-distribute-apps.md) voor meer informatie.
+Wanneer de inhoud klaar is, kunt u kiezen welke dashboards en rapporten u wilt publiceren. Vervolgens publiceert u deze als een *app*. U kunt vanuit elke werkruimte een app maken. Uw collega's kunnen uw app op een aantal verschillende manieren verkrijgen. U kunt de app automatisch installeren in de Power BI-accounts van uw collega's als uw Power BI-beheerder u hiervoor toestemming geeft. Anders kunnen ze uw app zoeken en installeren vanuit Microsoft AppSource of kunt u de app via een directe koppeling verzenden. Ze ontvangen automatisch updates en u kunt bepalen hoe vaak de gegevens worden vernieuwd. Zie [Apps met dashboards en rapporten publiceren in Power BI](service-create-distribute-apps.md) voor meer informatie.
 
 ## <a name="convert-old-app-workspaces-to-new-app-workspaces"></a>Oude app-werkruimten converteren naar nieuwe app-werkruimten
 
@@ -161,7 +161,7 @@ Aan sommige andere nieuwe app-werkruimtefuncties van de preview-versie wordt nog
 Sommige functies werken in de nieuwe app-werkruimten anders dan in de huidige app-werkruimten. Deze verschillen zijn doorgevoerd op basis van feedback die we van klanten hebben ontvangen en maken een flexibelere benadering voor de samenwerking met werkruimten mogelijk:
 
 - Leden kunnen wel of niet opnieuw delen: vervangen door de rol Inzender
-- Alleen-lezenwerkruimten: vervangen door een toekomstige rol Lezer die alleen-lezentoegang tot inhoud in een werkruimte biedt.
+- Alleen-lezenwerkruimten: in plaats van dat u gebruikers alleen-lezentoegang geeft tot een werkruimte, wijst u gebruikers de toekomstig beschikbare rol Lezer toe. Hiermee krijgen ze vergelijkbare alleen-lezentoegang tot de inhoud in een werkruimte.
 
 ## <a name="known-issues"></a>Bekende problemen
 

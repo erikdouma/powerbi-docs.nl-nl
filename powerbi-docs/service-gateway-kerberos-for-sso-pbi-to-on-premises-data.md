@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/09/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 402a39ef9e52fe61d80940a5050997ba19930209
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: bf5120b1c4d787dd13e21245b234207123221fc4
+ms.sourcegitcommit: 9d6f37fd32b965592bd7b108dea87b8e53b11334
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36964832"
+ms.lasthandoff: 08/18/2018
+ms.locfileid: "40257210"
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Kerberos gebruiken voor eenmalige aanmelding (SSO) van Power BI naar on-premises gegevensbronnen
 Door uw on-premises gegevensgateway te configureren met Kerberos kunt u connectiviteit met naadloze eenmalige aanmelding bewerkstelligen, zodat Power BI rapporten en dashboards kan bijwerken vanuit uw on-premises gegevens. De on-premises gegevensgateway vergemakkelijkt eenmalige aanmelding (SSO) met behulp van DirectQuery, waarmee de gateway verbinding maakt met on-premises gegevensbronnen.
@@ -51,9 +51,7 @@ Hier vindt u aanvullende informatie over deze stappen:
    - De gebruikersimitatie en de verbinding met de database slaagt alleen als het gatewayserviceaccount een domeinaccount (of service-SID) is en als de beperkte Kerberos-delegering zo is geconfigureerd dat de database Kerberos-tickets van de gatewayserviceaccount accepteert.  
    
    > [!NOTE]
-   > Met betrekking tot de service-SID: als AAD DirSync/Connect is geconfigureerd en gebruikersaccounts worden gesynchroniseerd, hoeft de gatewayservice bij het uitvoeren geen lokale AD-zoekacties uit te voeren en kunt u de lokale service-SID gebruiken voor de gatewayservice (en is er dus geen domeinaccount vereist).  De stappen voor het configureren van beperkte Kerberos-delegering die in dit document worden beschreven zijn verder hetzelfde (deze worden alleen toegepast op de service-SID, in plaats van het domeinaccount).
-   > 
-   > 
+   > Met betrekking tot de service-SID: als AAD DirSync/Connect is geconfigureerd en gebruikersaccounts worden gesynchroniseerd, hoeft de gatewayservice bij het uitvoeren geen lokale AD-zoekacties uit te voeren en kunt u de lokale service-SID gebruiken voor de gatewayservice (en is er dus geen domeinaccount vereist). De stappen voor het configureren van beperkte Kerberos-delegering die in dit artikel worden beschreven zijn verder hetzelfde als voor die configuratie (ze worden eenvoudigweg toegepast op het computerobject van de gateway - in Active Directory in plaats van in het domeinaccount).
 
 
 > [!NOTE]

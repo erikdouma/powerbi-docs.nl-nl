@@ -10,22 +10,22 @@ ms.topic: conceptual
 ms.date: 07/25/2018
 ms.author: gepopell
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c63357df043ff6a646562d398a07d8042dd5a0ee
-ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
+ms.openlocfilehash: bba674df9864697199a274698a1b17320b8ccd80
+ms.sourcegitcommit: 9d6f37fd32b965592bd7b108dea87b8e53b11334
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "39256548"
+ms.lasthandoff: 08/18/2018
+ms.locfileid: "40257191"
 ---
 # <a name="connector-extensibility-in-power-bi"></a>Uitbreidbaarheid van connectors in Power BI
 
 In Power BI kunnen klanten en ontwikkelaars de gegevensbronnen waarmee ze verbinding maken op tal van manieren uitbreiden, door bijvoorbeeld bestaande connectors en algemene gegevensbronnen te gebruiken (zoals ODBC, OData, Oledb, Web, CSV, XML en JSON). Hiernaast kunnen ontwikkelaars ook gegevensextensies maken (ook wel **aangepaste connectors** genoemd) en connectors certificeren zodat het **gecertificeerde connectors** worden.
 
-In eerdere versies van Power BI werd de mogelijkheid om **aangepaste connectors** te gebruiken ingeschakeld met een functieschakelaar. Er is nu een menu waarmee u veilig kunt bepalen welk niveau aan aangepaste code u wilt kunnen laten uitvoeren in uw systeem: alle aangepaste connectors of alleen connectors die zijn gecertificeerd en die door Microsoft worden gedistribueerd via het dialoogvenster **Gegevens ophalen**.
+Op dit moment is de mogelijkheid om **aangepaste connectors** te gebruiken ingeschakeld met een functieschakelaar. Deze functie wordt nog niet algemeen beschikbaar gemaakt. Er is nu een menu toegevoegd waarmee u veilig kunt bepalen welk niveau aan aangepaste code u wilt kunnen laten uitvoeren in uw systeem: alle aangepaste connectors of alleen connectors die zijn gecertificeerd en die door Microsoft worden gedistribueerd via het dialoogvenster **Gegevens ophalen**.
 
 ## <a name="custom-connectors"></a>Aangepaste connectors
 
-**Aangepaste connectors** kunnen vele verschillende zaken omvatten, van kleine API's die van groot belang zijn voor uw bedrijf tot grote, branchespecifieke services die Microsoft niet heeft geïmplementeerd. De meeste van deze connectors worden door de leverancier zelf gedistribueerd. Als u een specifieke gegevensconnector nodig hebt, moet u contact opnemen met een leverancier.
+**Aangepaste connectors** kunnen vele verschillende zaken omvatten, van kleine API's die van groot belang zijn voor uw bedrijf tot grote, branchespecifieke services waarvoor Microsoft nog geen connector beschikbaar heeft gesteld. Veel connectors worden door de leverancier zelf gedistribueerd. Als u een specifieke gegevensconnector nodig hebt, moet u contact opnemen met een leverancier.
 
 Als u een **aangepaste connector** wilt gebruiken, plaatst u deze in de map *\[Documenten\\Power BI Desktop\\Aangepaste connectors*. Pas de beveiligingsinstellingen aan zoals wordt beschreven in het volgende gedeelte.
 
@@ -52,6 +52,6 @@ Als u deze fout wilt verhelpen en u de connectors wilt gebruiken, moet u de beve
 
 ## <a name="certified-connectors"></a>Gecertificeerde connectors
 
-Een beperkte subset gegevensextensies wordt beschouwd als **gecertificeerd**. Gecertificeerde connectors zijn beschikbaar via het dialoogvenster **Gegevens ophalen**. De partij die verantwoordelijk is voor onderhoud en ondersteuning blijft de externe ontwikkelaar die de connector heeft gemaakt. Microsoft distribueert deze wel, maar kan niet verantwoordelijk worden gehouden voor de prestaties of de functionaliteit op de lange termijn.
+Een beperkte subset gegevensextensies wordt beschouwd als **gecertificeerd**. Gecertificeerde connectors zijn beschikbaar via het dialoogvenster **Gegevens ophalen**. De partij die verantwoordelijk is voor onderhoud en ondersteuning blijft de externe ontwikkelaar die de connector heeft gemaakt. Microsoft distribueert deze connectors wel, maar kan niet verantwoordelijk worden gehouden voor de prestaties of de functionaliteit op de lange termijn.
 
-Als u een aangepaste connector wilt laten certificeren, laat u uw leverancier contact opnemen met Microsoft.
+Als u een aangepaste connector wilt laten certificeren, laat u uw leverancier contact opnemen met dataconnectors@microsoft.com.

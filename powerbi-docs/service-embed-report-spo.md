@@ -2,21 +2,21 @@
 title: Insluiten met webonderdeel Rapport in SharePoint Online
 description: Met het nieuwe webonderdeel Rapport van Power BI voor SharePoint Online kunt u eenvoudig interactieve Power BI-rapporten insluiten in SharePoint Online-pagina's.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/25/2018
-ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 63cb1fe3061d1ba48e71a4ac09862fce29dd9196
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.date: 08/16/2018
+ms.openlocfilehash: 85e04993639d3c2897d2d7dddc00e79fd4fdf0c6
+ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39032043"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40257078"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Insluiten met webonderdeel Rapport in SharePoint Online
 
@@ -28,6 +28,7 @@ Wanneer u de nieuwe optie **Insluiten in SharePoint Online** gebruikt, zijn de i
 
 Er zijn enkele vereisten als u **Insluiten in SharePoint Online** wilt gebruiken voor rapporten.
 
+* U hebt een Power BI Pro-licentie of een [Power BI Premium-capaciteit (EM of P-SKU)](service-premium.md#premium-capacity-nodes) nodig met een licentie voor Power BI.
 * Voor het Power BI-webonderdeel voor SharePoint Online is [Moderne pagina's](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b) vereist.
 
 ## <a name="embed-your-report"></a>Uw rapport insluiten
@@ -49,7 +50,7 @@ Als u uw rapport wilt insluiten in SharePoint Online, moet u eerst de URL voor h
     ![](media/service-embed-report-spo/powerbi-embed-link-sharepoint.png)
 
    > [!NOTE]
-   > U kunt ook de URL gebruiken die wordt weergegeven in de adresbalk van uw webbrowser wanneer u een rapport weergeeft. Die URL bevat de rapportpagina die u op dat moment weergeeft. U moet de rapportsectie verwijderen uit de URL als u een andere pagina wilt gebruiken.
+   > U kunt ook de URL gebruiken die wordt weergegeven in de adresbalk van uw webbrowser wanneer u een rapport weergeeft. De URL bevat de rapportpagina die u op dat moment weergeeft. U moet de rapportsectie verwijderen uit de URL als u een andere pagina wilt gebruiken.
 
 ### <a name="add-the-power-bi-report-to-a-sharepoint-online-page"></a>Het Power BI-rapport toevoegen aan een SharePoint Online-pagina
 
@@ -84,7 +85,7 @@ Wanneer een rapport wordt ingesloten in SharePoint Online, zijn gebruikers niet 
 > [!IMPORTANT]
 > Controleer wie het rapport kan raadplegen in de Power BI-service en verleen toegang tot personen die niet worden vermeld.
 
-Binnen de Power BI-service kunt u op twee manieren toegang verlenen tot het rapport. Als u een Office 365-groep gebruikt om uw SharePoint Online-teamsite te bouwen, geeft u aan dat de gebruiker lid is van de **app-werkruimte binnen de Power BI-service** en de **SharePoint-pagina**. Hiermee garandeert u dat gebruikers de inhoud van die groep kunnen bekijken. Zie [Een app maken en distribueren in Power BI](service-create-distribute-apps.md) voor meer informatie.
+Binnen de Power BI-service kunt u op twee manieren toegang verlenen tot het rapport. Als u een Office 365-groep gebruikt om uw SharePoint Online-teamsite te bouwen, geeft u aan dat de gebruiker lid is van de **app-werkruimte binnen de Power BI-service** en de **SharePoint-pagina**. Hiermee garandeert u dat gebruikers de inhoud van de groep kunnen bekijken. Zie [Een app maken en distribueren in Power BI](service-create-distribute-apps.md) voor meer informatie.
 
 U kunt gebruikers ook op de volgende manier toegang verlenen tot het rapport.
 
@@ -107,7 +108,7 @@ Hierna volgt een beschrijving van de instellingen die kunnen worden aangepast vo
 
 ## <a name="multi-factor-authentication"></a>Meervoudige verificatie
 
-Als uw zich voor uw Power BI-omgeving moet aanmelden met meervoudige verificatie, wordt u mogelijk gevraagd om u aan te melden met een beveiligingsapparaat om uw identiteit te verifiëren. Dit gebeurt als u zich niet hebt aangemeld bij SharePoint Online met meervoudige verificatie, maar uw Power BI-omgeving vereist een account dat is gevalideerd door een beveiligingsapparaat.
+Als uw zich voor uw Power BI-omgeving moet aanmelden met meervoudige verificatie, wordt u mogelijk gevraagd om u aan te melden met een beveiligingsapparaat om uw identiteit te verifiëren. Dit gebeurt als u zich niet hebt aangemeld bij SharePoint Online met meervoudige verificatie, maar uw Power BI-omgeving een account vereist dat is gevalideerd door een beveiligingsapparaat.
 
 > [!NOTE]
 > Meervoudige verificatie wordt nog niet ondersteund met Azure Active Directory 2.0. Gebruikers ontvangen een bericht waarin *fout* staat. Als dergelijke gebruikers zich met hun beveiligingsapparaat opnieuw aanmelden bij SharePoint Online, kunnen ze het rapport mogelijk weergeven.
@@ -135,9 +136,9 @@ Neem contact op met de eigenaar van de SharePoint Online-pagina, die u kan helpe
   
   1. Meld u af bij SharePoint en meld u weer aan. Sluit alle browservensters voordat u zich weer aanmeldt.
 
-  2. Als voor uw gebruikersaccount meervoudige verificatie (MFA) is vereist, meldt u zich aan bij SharePoint met uw apparaat voor meervoudige verificatie (telefoon-app, via een smartcard, enzovoort).
+  2. Als voor uw gebruikersaccount meervoudige verificatie (MFA) is vereist, meldt u zich aan bij SharePoint met uw apparaat voor meervoudige verificatie (telefoon-app, via een smartcard enzovoort).
   
-  3. Accounts van Azure B2B-gastgebruikers worden niet ondersteund. Gebruikers zien het Power BI-logo in het onderdeel dat wordt geladen, maar het rapport wordt weergegeven.
+  3. Accounts van Azure B2B-gastgebruikers worden niet ondersteund. Gebruikers zien het Power BI-logo in het onderdeel dat wordt geladen, maar het rapport wordt niet weergegeven.
 
 * Power BI ondersteunt niet dezelfde gelokaliseerde talen als SharePoint Online. U kunt hierdoor mogelijk niet de juiste lokalisatie zien in een ingesloten rapport.
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/02/2018
+ms.date: 08/15/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e2b61f84b459d3b14c2cd066e0261dcdb1b8a5ef
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: db77e3e7421074383f67bffad318e6f7f4c3df28
+ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36965499"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40257136"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI-beheerportal
 
@@ -100,36 +100,37 @@ Meer informatie over auditlogboeken vindt u in [Auditing Power BI in your organi
 
 Het derde tabblad in de beheerportal is **Tenantinstellingen**. Via tenantinstellingen hebt u meer controle over welke functies beschikbaar worden gesteld aan uw organisatie. Als u zich zorgen maakt over gevoelige gegevens, zijn sommige van onze functies mogelijk niet geschikt voor uw organisatie, of misschien wilt u alleen een bepaalde functie beschikbaar stellen aan een specifieke groep. Als dat het geval is, kunt u functies uitschakelen in uw tenant.
 
-Standaard wordt gegevens per gebruiker ingeschakeld voor metrische gegevens over gebruik. Accountgegevens van makers van inhoud worden in het metrische rapport opgenomen. Als u deze informatie niet voor een bepaalde gebruiker of voor geen enkele gebruiker wilt opnemen, schakelt u de functie voor bepaalde beveiligingsgroepen of voor een hele organisatie uit. Accountgegevens worden dan in het rapport weergegeven als *Naamloos*.
-
 ![](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
 > [!NOTE]
 > Het kan maximaal tien minuten duren voordat de instelling voor iedereen in uw tenant is doorgevoerd.
 
-Instellingen kunnen drie statuswaarden hebben op basis van de instellingen die u hebt opgegeven.
+Instellingen kunnen drie statussen hebben:
 
-### <a name="disabled-for-the-entire-organization"></a>Uitgeschakeld voor de hele organisatie
+* **Uitgeschakeld voor de hele organisatie**: u kunt een functie uitschakelen zodat gebruikers deze niet kunnen gebruiken.
 
-U kunt een functie uitschakelen, zodat gebruikers deze niet kunnen gebruiken.
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
+* **Ingeschakeld voor de hele organisatie**: u kunt een functie inschakelen voor de hele organisatie zodat alle gebruikers toegang hebben tot die functie.
 
-### <a name="enabled-for-the-entire-organization"></a>Ingeschakeld voor de hele organisatie
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-U kunt een functie inschakelen voor de hele organisatie, zodat alle gebruikers toegang hebben tot die functie.
+* **Ingeschakeld voor een subset van de organisatie**: u kunt een functie ook inschakelen voor een deel van uw organisatie. Dit kan op verschillende manieren. U kunt de functie inschakelen voor de hele organisatie, uitgezonderd voor een specifieke groep gebruikers.
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
 
-### <a name="enabled-for-a-subset-of-the-organization"></a>Ingeschakeld voor een subset van de organisatie
+    U kunt de functie ook alleen inschakelen voor een specifieke groep gebruikers en ook uitschakelen voor een andere groep gebruikers. Op deze manier kunt u ervoor zorgen dat bepaalde gebruikers geen toegang hebben tot de functie, zelfs niet als deel uitmaken van de groep die wel toegang heeft.
 
-U kunt een functie ook inschakelen voor een deel van uw organisatie. Dit kan op verschillende manieren. U kunt de functie inschakelen voor de hele organisatie, uitgezonderd voor een specifieke groep gebruikers.
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
+In de volgende secties ziet u een overzicht van de verschillende typen tenantinstellingen.
 
-U kunt de functie ook alleen inschakelen voor een specifieke groep gebruikers en ook uitschakelen voor een andere groep gebruikers. Op deze manier kunt u ervoor zorgen dat bepaalde gebruikers geen toegang hebben tot de functie, zelfs niet als deel uitmaken van de groep die wel toegang heeft.
+## <a name="workspace-settings"></a>Instellingen voor werkruimten
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+### <a name="create-workspaces-preview"></a>Werkruimten maken (preview)
+Gebruikers in de organisatie kunnen app-werkruimten maken om samen te werken aan dashboards, rapporten en andere inhoud.
+
+Zie [Nieuwe werkruimten maken](service-create-the-new-workspaces.md) voor meer informatie.
 
 ## <a name="export-and-sharing-settings"></a>Instellingen voor exporteren en delen
 
@@ -244,9 +245,9 @@ Gebruikers in de organisatie kunnen interactie hebben met visuele elementen die 
 > [!NOTE]
 > Deze instelling geldt voor de hele organisatie en kan niet worden beperkt tot specifieke groepen.
 
-## <a name="audit-settings"></a>Instellingen voor controle en gebruik
+## <a name="audit-and-usage-settings"></a>Instellingen voor controle en gebruik
 
-### <a name="create-audit-logs-for-internal-activity-auditing-and-compliance"></a>Auditlogboeken voor het controleren van interne activiteiten en naleving maken
+### <a name="create-audit-logs-for-internal-activity-auditing-and-compliance"></a>Auditlogboeken maken voor het controleren van interne activiteiten en naleving
 
 Gebruikers in de organisatie kunnen de auditfunctie gebruiken voor het controleren van acties die door andere gebruikers in de organisatie worden uitgevoerd in Power BI. [Meer informatie](service-admin-auditing.md)
 
@@ -254,6 +255,25 @@ Deze instelling moet worden ingeschakeld om vermeldingen te kunnen vastleggen in
 
 > [!NOTE]
 > Deze instelling geldt voor de hele organisatie en kan niet worden beperkt tot specifieke groepen.
+
+### <a name="usage-metrics-for-content-creators"></a>Metrische gegevens over het gebruik voor makers van inhoud
+Gebruikers in de organisatie kunnen metrische gegevens weergeven over het gebruik van de dashboards en rapporten die ze hebben gemaakt. [Meer informatie](service-usage-metrics.md).
+
+U kunt de optie instellen op **Ingeschakeld** en vervolgens aangeven wie de metrische gegevens over het gebruik mag zien (de hele organisatie of bepaalde beveiligingsgroepen).
+
+> [!NOTE]
+> Houd er rekening mee dat het even kan duren voordat wijzigingen in de tenantinstellingen van kracht worden.
+
+### <a name="per-user-data-in-usage-metrics-for-content-creators"></a>Gegevens per gebruiker in metrische gegevens over gebruik voor makers van inhoud
+In metrische gegevens over het gebruik voor makers van inhoud zijn namen en e-mailadressen zichtbaar van gebruikers die inhoud openen. [Meer informatie](service-usage-metrics.md).
+
+U kunt de optie instellen op **Ingeschakeld** en vervolgens aangeven wie de weergavenamen en e-mailadressen mag zien in de metrische gegevens over het gebruik (de hele organisatie of bepaalde beveiligingsgroepen).
+
+Standaard wordt Gegevens per gebruiker ingeschakeld voor metrische gegevens over gebruik. Accountgegevens van makers van inhoud worden in het metrische rapport opgenomen. Als u deze informatie niet voor een bepaalde gebruiker of voor geen enkele gebruiker wilt opnemen, schakelt u de functie voor bepaalde beveiligingsgroepen of voor een hele organisatie uit. Accountgegevens worden dan in het rapport weergegeven als *Naamloos*.
+
+> [!NOTE]
+> Houd er rekening mee dat het even kan duren voordat wijzigingen in de tenantinstellingen van kracht worden.
+
 
 ## <a name="dashboard-settings"></a>Instellingen voor dashboard
 
@@ -270,9 +290,9 @@ Gebruikers in de organisatie kunnen dashboards labelen met classificaties die he
 
 Gebruikers in de organisatie kunnen Power BI-dashboards en rapporten insluiten in SaaS-toepassingen (Software as a Service). Als u deze instelling uitschakelt, kunnen gebruikers de REST API's niet gebruiken om inhoud van Power BI in te sluiten in hun toepassing.
 
-## <a name="premium-settings"></a>Premium-instellingen
+## <a name="capacity-settings"></a>Capaciteitsinstellingen
 
-Via het tabblad Premium-instellingen kunt u capaciteiten van Power BI Premium beheren die zijn gekocht voor uw organisatie. Alle gebruikers binnen uw organisatie zien het tabblad Premium-instellingen, maar ze zien alleen inhoud op het tabblad als ze zijn aangewezen als **Capaciteitsbeheerder** of als ze beschikken over toewijzingsmachtigingen. Als een gebruiker geen machtigingen heeft, zien ze het volgende bericht.
+Via het tabblad Capaciteitsinstellingen kunt u capaciteiten van Power BI Premium beheren die zijn gekocht voor uw organisatie. Alle gebruikers binnen uw organisatie zien het tabblad Premium-instellingen, maar ze zien alleen inhoud op het tabblad als ze zijn aangewezen als **Capaciteitsbeheerder** of als ze beschikken over toewijzingsmachtigingen. Als een gebruiker geen machtigingen heeft, zien ze het volgende bericht.
 
 ![](media/service-admin-portal/premium-settings-no-access.png "Geen toegang tot Premium-instellingen")
 

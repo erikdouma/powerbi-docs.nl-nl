@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: a9663951035a697a9fb1f8732d2ce418950078f4
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 0d165505981f841c7dfe9688c7a95cea3b6777c3
+ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600374"
+ms.lasthandoff: 08/14/2018
+ms.locfileid: "40256877"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Aangepaste visuals maken met ontwikkelhulpprogramma's
 Met aangepaste visuals kunt voldoen aan de behoeften van uw gebruikers en het ontwerp van uw app handhaven. Leer hoe u ontwikkelhulpprogramma's kunt gebruiken om aangepaste visuals voor Power BI te maken.
@@ -178,10 +178,10 @@ U kunt nu beginnen met het ontwikkelen van uw visual.
 U kunt een nieuw project voor een visual maken door de volgende opdracht uit te voeren.
 
 ```
-pbiviz new My Visual name
+pbiviz new MyVisualName
 ```
 
-U kunt *Mijn visualnaam* vervangen door de naam die u de visual wilt geven. Dit kan later worden gewijzigd door de `name` en `displayName` de velden in het gegenereerde `pbiviz.json`-bestand te wijzigen.
+U kunt *MyVisualName* vervangen door de naam die u de visual wilt geven. Dit kan later worden gewijzigd door de `name` en `displayName` de velden in het gegenereerde `pbiviz.json`-bestand te wijzigen.
 
 Met deze opdracht wordt er een nieuw map gemaakt in de map waar de opdracht is uitgevoerd. Er wordt een eenvoudig startersjabloon voor uw visual gegenereerd. Zodra de opdracht is voltooid, kunt u de map openen en uw favoriete editor gebruiken om aan uw nieuwe visual te werken.
 

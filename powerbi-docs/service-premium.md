@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 02/05/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 15b64b917fed56e9d9ab6be2023060378324c794
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 81a03c7728d92bcc78dba9a02cbe4c45f582fd3d
+ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38925431"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40257133"
 ---
 # <a name="power-bi-premium---what-is-it"></a>Wat is Power BI Premium?
-Power BI Premium bevat toegewezen resources om de Power BI-service voor uw organisatie of een team uit te voeren, wat resulteert in betrouwbaardere prestaties en grotere gegevensvolumes. Premium biedt de mogelijkheid tot een wijd verspreide distributie zonder dat u gebruikerslicentie hoeft aan te schaffen voor viewers.
+Power BI Premium bevat toegewezen resources om de Power BI-service voor uw organisatie of een team uit te voeren. Dit resulteert in betrouwbaardere prestaties en u kunt grotere gegevensvolumes verwerken. Premium biedt de mogelijkheid tot een wijd verspreide distributie zonder dat u gebruikerslicentie hoeft aan te schaffen voor viewers.
 
 U kunt profiteren van Power BI Premium door werkruimten aan een Premium-capaciteit toe te wijzen. *Premium-capaciteit* is een toegewezen resource voor uw organisatie. Werkruimten die niet zijn toegewezen aan een premium-capaciteit, bevinden zich in een gedeelde capaciteit.
 
-*Gedeelde capaciteit* is de ervaring zoals u die gewend bent met Power BI, waar uw workloads worden uitgevoerd op calculatiebronnen die worden gedeeld met andere klanten. Bij een gedeelde capaciteit gelden er meer beperkingen voor de individuele gebruikers om een goede ervaring voor alle gebruikers te waarborgen.
+Met *gedeelde capaciteit* worden uw workloads uitgevoerd via rekenresources die met andere klanten worden gedeeld. Bij een gedeelde capaciteit gelden er meer beperkingen voor de individuele gebruikers om een goede ervaring voor alle gebruikers te waarborgen.
 
 [!INCLUDE [powerbi-premium-illustration](./includes/powerbi-premium-illustration.md)]
 
@@ -33,7 +33,7 @@ Er zijn twee typen capaciteit in Power BI. Gedeelde capaciteit en Power BI Premi
 
 |  | Gedeelde capaciteit | Power BI Premium-capaciteit |
 | --- | --- | --- |
-| **Vernieuwingsfrequentie** |8 keer per dag |Niet beperkt |
+| **Vernieuwingsfrequentie** |8 keer per dag |48 keer per dag |
 | **Isolatie met toegewezen hardware** |![](media/service-premium/not-available.png "Niet beschikbaar") |![](media/service-premium/available.png "Beschikbaar") |
 | **Enterprise distributie** naar ***alle gebruikers*** | | |
 | Apps en delen |![](media/service-premium/not-available.png "Niet beschikbaar") |![](media/service-premium/available.png "Beschikbaar")<sup>1</sup> |
@@ -48,8 +48,8 @@ Als u een Power BI Premium-capaciteit wilt gebruiken, moet u een werkruimte toew
 
 Wanneer een werkruimte wordt ondersteund door een premium-capaciteit, kunt profiteren van de voordelen van Power BI Premium.
 
-* Geplande vernieuwingen: voorheen konden geïmporteerde modellen slechts 8x per dag volgens schema worden vernieuwd. Deze beperking geldt niet voor gegevenssets in Premium-werkruimten. Dit is niet van toepassing op de geplande cachevernieuwingsinstellingen voor DirectQuery. Deze zijn hetzelfde voor de Premium-capaciteit en de gedeelde capaciteit.
-* Isolatie met toegewezen hardware: gezien de aard van de gedeelde capaciteit, kunnen de prestaties van uw rapporten en dashboards worden beïnvloed door de resourcevereisten van andere workloads in de capaciteit, ondanks dat we dit zoveel mogelijk proberen te voorkomen. Premium biedt daarentegen een consistentere, betrouwbaardere prestaties voor uw workloads door deze te isoleren van niet-gerelateerde workloads.
+* **Geplande vernieuwingen**: met gedeelde capaciteit wordt het aantal geplande vernieuwingen voor geïmporteerde modellen beperkt tot acht per dag. Het aantal vernieuwingen wordt tot 48 keer verhoogd voor gegevenssets in Premium-werkruimten. Dit is niet van toepassing op de geplande cachevernieuwingsinstellingen voor DirectQuery. Deze zijn hetzelfde voor de Premium-capaciteit en de gedeelde capaciteit.
+* **Isolatie met toegewezen hardware**: gezien de aard van de gedeelde capaciteit, kunnen de prestaties van uw rapporten en dashboards worden beïnvloed door de resourcevereisten van andere workloads in de capaciteit, ondanks dat we dit zoveel mogelijk proberen te voorkomen. Premium biedt daarentegen een consistentere, betrouwbaardere prestaties voor uw workloads door deze te isoleren van niet-gerelateerde workloads.
 
 Als een app wordt ondersteund door een premium-capaciteit (oftewel de app is gepubliceerd vanuit een app-werkruimte die momenteel is toegewezen aan Premium), kan de gepubliceerde app worden gebruikt door iedere gebruiker in uw organisatie, ongeacht de toegewezen licenties.
 
@@ -69,7 +69,7 @@ Power BI Premium is beschikbaar in knooppuntconfiguraties met verschillende v-co
 
 | Capaciteitsknooppunt | Totaal aantal v-cores<br/>*(back-end + front-end)* | Back-end-v-cores | Front-end-v-cores | Limieten voor DirectQuery/liveverbindingen | Maximaal aantal paginaweergaven (rendering) tijdens piekuren | Beschikbaarheid |
 | --- | --- | --- | --- | --- | --- | --- |
-| [EM1 (maandelijks)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1-v-core |0,5 v-cores, 2,5 GB RAM |0,5 v-cores |3,75 per seconde |150-300 |Beschikbaar |
+| [EM1 (maandelijks)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1-v-core |0,5 v-core, 2,5 GB RAM |0,5 v-core |3,75 per seconde |150-300 |Beschikbaar |
 | [EM2 (maandelijks)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2 v-cores |1 v-core, 5 GB RAM |1-v-core |7,5 per seconde |301-600 |Beschikbaar |
 | [EM3 (maandelijks)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |4 v-cores |2 v-cores, 10 GB RAM |2 v-cores | |601-1200 |Beschikbaar |
 | [P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |8 v-cores |4 v-cores, 25 GB RAM |4 v-cores |30 per seconde |1.201-2.400 |Beschikbaar ([maandelijks](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1) is ook beschikbaar) |

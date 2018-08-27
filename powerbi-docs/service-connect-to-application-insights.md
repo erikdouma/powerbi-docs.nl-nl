@@ -7,15 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/10/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6ccf112a78e69e006a4ca3d6e8a7cd372adf5f05
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3c1000eb48cfb53f5838f19f6c0ece4403e9d3ba
+ms.sourcegitcommit: 126e5eca8bfab6273581dabd7603df88be755240
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244244"
+ms.lasthandoff: 08/11/2018
+ms.locfileid: "40257157"
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>Verbinding maken met Application Insights met Power BI
 Power BI gebruiken voor het maken van krachtige aangepaste dashboards van de telemetrie van [Application Insights](https://azure.microsoft.com/documentation/articles/app-insights-overview/). Bekijk uw app-telemetrie op nieuwe manieren. Combineer metrische gegevens uit meerdere apps of componentservices op één dashboard. De eerste versie van het Power BI-inhoudspakket voor Application Insights omvat widgets voor aan algemeen gebruik gerelateerde metrische gegevens zoals actieve gebruikers, paginaweergave, sessies, browser en de versie van het besturingssysteem en geografische verdeling van gebruikers op een kaart.
@@ -23,7 +23,7 @@ Power BI gebruiken voor het maken van krachtige aangepaste dashboards van de tel
 Maak verbinding met het [Application Insights-inhoudspakket voor Power BI](https://app.powerbi.com/getdata/services/application-insights).
 
 >[!NOTE]
->Toegang tot de overzichtsblade Application Insights voor uw toepassing in de Azure Preview-portal is vereist voor de verbinding. Meer informatie over de vereisten volgt hieronder.
+>Deze integratiemethode is nu **afgeschaft**. Voor meer informatie over de voorkeursmethode voor het koppelen van Application Insights aan Power BI gebruikt u de [functionaliteit voor het exporteren van analytische query's](https://docs.microsoft.com/azure/application-insights/app-insights-export-power-bi#export-analytics-queries).
 
 ## <a name="how-to-connect"></a>Verbinding maken
 1. Selecteer **Gegevens ophalen** onder in het linkernavigatievenster.

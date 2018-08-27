@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: e0f90ccade44960cf24fd133b4caf46280b4a511
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ec97676fc043f9d8bd014465cc1fd2c0ffcca423
+ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482125"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40257033"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Wijzigingenlogboek voor Power BI Report Server
 
@@ -22,6 +22,18 @@ Dit is een wijzigingenlogboek voor Power BI Report Server met een overzicht van 
 
 Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerde informatie over nieuwe functies. 
 
+## <a name="august-2018"></a>Augustus 2018
+- **Power BI Report Server**
+    - *Versie 1.3.6801.38816 (build 15.0.2.540), uitgebracht: 15 augustus 2018*
+        - Functies
+            - SAP HANA SSO DirectQuery-ondersteuning met Kerberos is nu beschikbaar voor Power BI-rapporten
+            - Aangepaste API voor visuals beschikbaar bij de release - versie 1.13.0
+            - Er wordt een oudere versie van de functie voor aangepaste visuals geïntroduceerd die compatibel is met de huidige versie van de server-API (indien beschikbaar)
+
+- **Power BI Report (geoptimaliseerd voor Power BI Report Server)**
+    - *Versie: 2.61.5192.64 (augustus 2018), uitgebracht: 15 augustus 2018*
+        - Bevat de vereiste wijzigingen om verbinding te maken met Power BI Report Server (augustus 2018)         
+        
 ## <a name="march-2018"></a>Maart 2018
 - **Power BI Report Server**
     - *Versie 1.2.6690.34729 (build 15.0.2.402), uitgebracht: 27 april 2018*

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/02/2018
+ms.date: 08/10/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 61421db59a6488394cad0b8a921590a90b020bff
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: d37ed22c0abba4e843d37fd6df465f9a755fbdc6
+ms.sourcegitcommit: 126e5eca8bfab6273581dabd7603df88be755240
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280634"
+ms.lasthandoff: 08/11/2018
+ms.locfileid: "40257103"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Gegevensbronnen die worden ondersteund door DirectQuery in Power BI
 In **Power BI Desktop** en de **Power BI-service** kunt u met allerlei gegevensbronnen verbinding maken en toegang tot gegevens verkrijgen. In dit artikel wordt beschreven welke gegevensbronnen voor Power BI worden ondersteund voor de verbindingsmethode **DirectQuery**. Zie [**DirectQuery in Power BI**](desktop-directquery-about.md) voor meer informatie over DirectQuery.
@@ -23,6 +23,7 @@ In **Power BI Desktop** en de **Power BI-service** kunt u met allerlei gegevensb
 De volgende gegevensbronnen worden ondersteund door DirectQuery in Power BI:
 
 * Amazon Redshift
+* Azure Databricks
 * Azure HDInsight Spark (bèta)
 * Azure SQL Database
 * Azure SQL Data Warehouse
@@ -39,7 +40,7 @@ De volgende gegevensbronnen worden ondersteund door DirectQuery in Power BI:
 * Teradata-database
 * Vertica (bèta)
 
-Gegevensbronnen met **(bèta)** of **(voorbeeld)** achter de naam zijn onderhevig aan wijzigingen, en worden niet ondersteund voor productiegebruik. Mogelijk worden ze ook niet ondersteund na publicatie van een rapport naar de **Power BI-service**. Dit betekent dat het openen van een gepubliceerd rapport of het verkennen van de gegevensset kan resulteren in een fout.
+Gegevensbronnen met **(bèta)** of **(preview)** achter de naam zijn onderhevig aan wijzigingen, en worden niet ondersteund voor productiegebruik. Mogelijk worden ze ook niet ondersteund na publicatie van een rapport naar de **Power BI-service**. Dit betekent dat het openen van een gepubliceerd rapport of het verkennen van de gegevensset kan resulteren in een fout.
 
 Het enige verschil tussen **bèta**- en **voorbeeld**gegevensbronnen is dat **voorbeeld**bronnen moeten zijn ingeschakeld als voorbeeldfunctie voordat ze beschikbaar worden voor gebruik. U schakelt een **(voorbeeld)** gegevensconnector als volgt in: ga in **Power BI Desktop** naar **Bestand > Opties en instellingen > Opties** en kies **Voorbeeldfuncties**.
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f9c6d161149a4c862636a13ad88d3c43f2dbcd8a
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: cbec15b472e6cfad6134cc48970977132d61dd36
+ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329306"
+ms.lasthandoff: 08/14/2018
+ms.locfileid: "40257164"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Werken met tabellaire Analysis Services-gegevens in Power BI Desktop
 Er zijn twee manieren om met Power BI Desktop verbinding te maken met en gegevens op te halen uit tabellaire SQL Server Analysis Services-modellen: verkennen met behulp van een liveverbinding of items selecteren en importeren in Power BI Desktop.
@@ -24,7 +24,9 @@ Laten we deze mogelijkheden eens nader bekijken.
 
 **Verkennen met behulp van een liveverbinding**: wanneer u een liveverbinding gebruikt, worden de items in uw tabellaire model of perspectief, zoals tabellen, kolommen en metingen, weergegeven in de lijst met Power BI Desktop-velden. Met de geavanceerde hulpprogramma's voor visualisatie en rapportage van Power BI Desktop kunt u uw tabellaire model op nieuwe, zeer interactieve manieren verkennen.
 
-Bij een liveverbinding worden er geen gegevens vanuit het tabellaire model geïmporteerd in Power BI Desktop. Bij elke interactie met een visualisatie wordt er een query op het tabellaire model uitgevoerd in Power BI Desktop en worden de resultaten daarvan berekend en weergegeven. U ziet altijd de meest recente gegevens. Tabellaire modellen zijn hierdoor hoogst nauwkeurig. Welke items in Power BI Desktop worden weergegeven is afhankelijk van uw machtigingen voor het tabellaire model waarmee u bent verbonden.
+Bij een liveverbinding worden er geen gegevens vanuit het tabellaire model geïmporteerd in Power BI Desktop. Bij elke interactie met een visualisatie wordt er een query op het tabellaire model uitgevoerd in Power BI Desktop en worden de resultaten daarvan berekend en weergegeven. U ziet in het model in tabelvorm altijd de meest recente gegevens die beschikbaar zijn, ofwel vanaf de laatste verwerkingstijd ofwel vanuit de DirectQuery-tabellen in het model in tabelvorm. 
+
+Modellen in tabelvorm zijn hierdoor hoogst nauwkeurig. Welke items in Power BI Desktop worden weergegeven is afhankelijk van uw machtigingen voor het tabellaire model waarmee u bent verbonden.
 
 Als u dynamische rapporten in Power BI Desktop hebt gemaakt, kunt u deze delen door ze te publiceren op uw Power BI-site. Wanneer u een Power BI Desktop-bestand met een liveverbinding met een tabellair model op uw Power BI-site publiceert, moet er een On-premises gegevensgateway zijn geïnstalleerd en geconfigureerd door een beheerder. Zie [On-premises gegevensgateway](service-gateway-onprem.md) voor meer informatie.
 
