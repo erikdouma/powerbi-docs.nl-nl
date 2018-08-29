@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: eda7f44c869829564703bda6112177234d3f2d44
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 20bdd4731cd4aad3c6412d1959de3be088a3457a
+ms.sourcegitcommit: ef4bf1439bc5655d1afc7fb97079ea0679e9124b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39280128"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43151947"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Werken met tegels in de mobiele Power BI-apps
 Van toepassing op:
@@ -28,10 +28,6 @@ Tegels zijn live-momentopnamen van uw gegevens, die zijn vastgemaakt aan een das
 Vervolgens kunt u ze in een mobiele Power BI-app openen in de focusmodus om ermee te werken. U kunt tegels openen met alle soorten visualisaties, waaronder tegels op basis van Bing en R.
 
 ## <a name="tiles-in-the-ios-apps"></a>Tegels in de iOS-apps
-> [!NOTE]
-> U kunt [afbeeldingstegels maken met uw iPhone-app](mobile-iphone-app-get-started.md) en deze opslaan in uw dashboards.
-> 
-> 
 
 1. Open een [dashboard in de mobiele app voor iOS](mobile-apps-view-dashboard.md).
 2. Tik op een tegel. De tegel wordt nu geopend in de focusmodus, waar u de gegevens op de tegel eenvoudiger kunt bekijken en verkennen. In de focusmodus kunt u het volgende doen:
@@ -40,7 +36,7 @@ Vervolgens kunt u ze in een mobiele Power BI-app openen in de focusmodus om erme
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   <em>In dit lijndiagram ziet u bijvoorbeeld de waarden voor de omzet van **augustus** dit jaar (**This Year Sales</em>*) en vorig jaar (**Last Year Sales**).*  
+   *In dit lijndiagram ziet u bijvoorbeeld de waarden voor de omzet van **augustus** dit jaar (**This Year Sales**) en vorig jaar **Last Year Sales**.*  
    
    Tik in een cirkeldiagram op een segment van de cirkel om de waarde van het segment boven de cirkel weer te geven.  
    
@@ -107,7 +103,7 @@ Vervolgens kunt u ze in een mobiele Power BI-app openen in de focusmodus om erme
    
    ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_bartile0316.png)
    
-   <em>In dit staafdiagram worden de waarden voor de staaf **Décor</em>* boven de grafiek weergegeven.*
+   *In dit staafdiagram worden de waarden voor de staaf **Décor** boven de grafiek weergegeven.*
    
    Tik op het pictogram **Volledig scherm** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) om de tegel schermvullend weer te geven, zonder de navigatie- en menubalken.
    

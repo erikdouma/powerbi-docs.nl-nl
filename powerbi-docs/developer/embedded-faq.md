@@ -2,19 +2,19 @@
 title: Veelgestelde vragen over Power BI Embedded
 description: Hier vindt u een lijst met veelgestelde vragen en antwoorden over Power BI Embedded.
 author: markingmyname
-manager: kfile
 ms.author: maghan
+manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 06/22/2018
-ms.openlocfilehash: ab637be12487029d17d7b1bfa89022dbae9aaa49
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.date: 08/21/2018
+ms.openlocfilehash: 935932e92e5d95ae52957bf1360db8d2232286ad
+ms.sourcegitcommit: dddb6f8d39131febadfd97efa0e0e1d728f4f5ff
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39415387"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "42702955"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Veelgestelde vragen over Power BI Embedded
 
@@ -25,7 +25,7 @@ ms.locfileid: "39415387"
 
 ### <a name="what-is-power-bi-embedded"></a>Wat is Power BI Embedded?
 
-Microsoft Power BI Embedded zorgt ervoor dat ontwikkelaars van toepassingen schitterende, volledig interactieve rapporten, dashboards en tegels kunnen insluiten in toepassingen, zonder dat ze hiervoor tijd en geld kwijt zijn om hun eigen gegevensvisualisaties en besturingselementen helemaal zelf te bouwen.
+Microsoft Power BI Embedded (PBIE) zorgt ervoor dat ontwikkelaars van toepassingen schitterende, volledig interactieve rapporten kunnen insluiten in toepassingen, zonder dat ze hiervoor tijd en geld kwijt zijn om hun eigen gegevensvisualisaties en besturingselementen helemaal zelf te bouwen.
 
 ### <a name="who-is-the-target-audience-for-power-bi-embedded"></a>Wie is de doelgroep voor Power BI Embedded?
 
@@ -70,7 +70,7 @@ Hier volgt een (niet volledige) lijst met verschillen tussen de versies.
 | Power BI-rapporten gebruiken in een ingesloten toepassing | Ja | Ja | Ja |
 | Power BI-rapporten gebruiken in SharePoint | Nee | Ja | Ja |
 | Power BI-rapporten gebruiken in Dynamics | Nee | Ja | Ja |
-| Power BI-rapporten gebruiken in Teams | Nee | Ja | Ja |
+| Power BI-rapporten gebruiken in Teams (alleen in desktop-app) | Nee | Ja | Ja |
 | Inhoud op Powerbi.com en in de mobiele Power BI-app openen met een GRATIS Power BI-licentie | Nee | Nee | Ja |
 | Inhoud die is ingesloten in MS Office-apps openen met een GRATIS Power BI-licentie | Nee | Ja | Ja |
 
@@ -79,10 +79,10 @@ Hier volgt een (niet volledige) lijst met verschillen tussen de versies.
 |  |A-SKU (Power BI Embedded)  |EM-SKU (Power BI Premium)  |P-SKU (Power BI Premium)  |
 |---------|---------|---------|---------|
 |Kopen     |Azure-portal |Office |Office |
-|Gebruiksvoorbeelden |* Inhoud insluiten in uw eigen toepassing |* Inhoud insluiten in uw eigen toepassing<br>* Inhoud insluiten in andere MS Office-toepassingen ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) |* Inhoud insluiten in uw eigen toepassing<br>* Inhoud insluiten in andere MS Office-toepassingen ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))<br>* Inhoud delen met gebruikers van Power BI via [Power BI-service](https://powerbi.microsoft.com/en-us/)  |
+|Gebruiksvoorbeelden |* Inhoud insluiten in uw eigen toepassing |* Inhoud insluiten in uw eigen toepassing<br>* Inhoud insluiten in andere MS Office-toepassingen ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) (alleen in desktop-app), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) |* Inhoud insluiten in uw eigen toepassing<br>* Inhoud insluiten in andere MS Office-toepassingen ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) (alleen in desktop-app), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))<br>* Inhoud delen met gebruikers van Power BI via [Power BI-service](https://powerbi.microsoft.com/en-us/)  |
 |Facturering |Per uur |Per maand |Per maand |
 |Min. periode  |Geen minimumperiode |Jaar  |Maand/jaar |
-|Differentiatie |Volledige elasticiteit: omhoog/omlaag schalen, resources onderbreken/hervatten in Azure-portal of via API  |Kan worden gebruikt voor het insluiten van inhoud in SharePoint Online en Microsoft Teams |Insluiten in toepassingen combineren met het gebruik van de Power BI-service in dezelfde capaciteit |
+|Differentiatie |Volledige elasticiteit: omhoog/omlaag schalen, resources onderbreken/hervatten in Azure-portal of via API  |Kan worden gebruikt voor het insluiten van inhoud in SharePoint Online en Microsoft Teams (alleen in desktop-app) |Insluiten in toepassingen combineren met het gebruik van de Power BI-service in dezelfde capaciteit |
 
 ### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Wat zijn de vereisten voor het maken van een PBIE-capaciteit in Azure?
 
@@ -126,7 +126,7 @@ Voor Power BI moet u zich aanmelden met een organisatieaccount. Het aanmelden vo
 
 ### <a name="can-i-use-apis-to-create--manage-azure-capacities"></a>Kan ik API's gebruiken voor het maken en beheren van Azure-capaciteiten?
 
-Ja, er zijn Powershell-cmdlets en ARM-API's die u kunt gebruiken voor het maken en beheren van PBIE-resources.
+Ja, er zijn Powershell-cmdlets en API's voor Azure Resource Manager (ARM) die u kunt gebruiken voor het maken en beheren van PBIE-resources.
 
 * REST-API's - https://docs.microsoft.com/rest/api/power-bi-embedded/
 * PowerShell-cmdlets - https://docs.microsoft.com/powershell/module/azurerm.powerbiembedded/

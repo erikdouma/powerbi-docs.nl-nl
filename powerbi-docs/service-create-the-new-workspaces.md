@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/17/2018
+ms.date: 08/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 271859dbc13e909d255e4287ae14e66b2d85724f
-ms.sourcegitcommit: 23bb84cd3e80ba7f03d559e48db322774d1a6fe0
+ms.openlocfilehash: cde28e7c41a35c3bbc37d0da56313ad7f8698110
+ms.sourcegitcommit: 15b877343540bb7e21f1d5bbd3d6f64e66fa138c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "40257057"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42914514"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>De nieuwe werkruimten maken (preview) in Power BI
 
@@ -29,12 +29,13 @@ Met de preview voor nieuwe werkruimten kunt u:
 - Een werkruimte in Power BI maken zonder een Office 365-groep te maken.
 - Gedetailleerdere werkruimterollen gebruiken voor flexibeler beheer van machtigingen in een werkruimte.
  
-Wanneer u een van de nieuwe werkruimten maakt, maakt u geen onderliggende, gekoppelde Office 365-groep. Alle werkruimtebeheer vindt plaats in Power BI, niet in Office 365. U kunt nog steeds een Office 365-groep aan de werkruimte toevoegen om gebruikerstoegang tot inhoud via Office 365-groepen te blijven beheren. U kunt echter daarnaast beveiligingsgroepen of distributielijsten gebruiken en personen rechtstreeks toevoegen in Power BI, zodat u de toegang tot werkruimten op allerlei manieren kunt beheren
+Wanneer u een van de nieuwe werkruimten maakt, maakt u geen onderliggende, gekoppelde Office 365-groep. Alle werkruimtebeheer vindt plaats in Power BI, niet in Office 365. U kunt nog steeds een Office 365-groep aan de werkruimte toevoegen om gebruikerstoegang tot inhoud via Office 365-groepen te blijven beheren. U kunt echter daarnaast beveiligingsgroepen of distributielijsten gebruiken en personen rechtstreeks toevoegen in Power BI, zodat u de toegang tot werkruimten op allerlei manieren kunt beheren Omdat werkruimtebeheer nu via Power BI verloopt, besluiten Power BI-beheerders wie in een organisatie werkruimten kan maken. Raadpleeg de [sectie Werkruimten in het artikel over de Power BI-beheerportal](service-admin-portal.md#workspace-settings) voor meer informatie. 
 
 U voegt gebruikersgroepen of personen aan de nieuwe werkruimten toe als leden, inzenders of beheerders. Iedereen in een gebruikersgroep krijgt de rol die u hebt gedefinieerd. Als een persoon zich in verschillende gebruikersgroepen bevindt, krijgt hij/zij het hoogste niveau van de machtigingen die door de rol worden toegewezen.  Zie [Rollen in de nieuwe werkruimten](#roles-in-the-new-workspaces) verderop in dit artikel voor een uitleg over de verschillende rollen.
 
 Iedereen die u aan een app-werkruimte toevoegt, heeft een Power BI Pro-licentie nodig. Deze gebruikers kunnen in de werkruimte samenwerken aan dashboards en rapporten die u wilt publiceren naar een breder publiek of zelfs uw hele organisatie. Als u inhoud naar anderen binnen uw organisatie wilt distribueren, kunt u Power BI Pro-licenties toewijzen aan die gebruikers of de werkruimte in een Power BI Premium-capaciteit plaatsen.
-Omdat dit een preview-functie is, zijn er enkele beperkingen waarmee u rekening moet houden. Zie <section link> verderop in dit artikel voor een uitleg van de huidige beperkingen. Voor de nieuwe werkruimten worden enkele functies anders ontworpen. Zie <koppeling sectie> verderop in dit artikel voor een uitleg van de wijzigingen die naar verwachting definitief zijn, samen met de preview.
+
+Voor de nieuwe werkruimten worden enkele functies anders ontworpen. Zie [Functies van de app-werkruimten die anders werken](#app-workspace-features-that-work-differently) verderop in dit artikel voor een uitleg van de wijzigingen die naar verwachting definitief zijn, samen met de preview. Omdat dit een preview-functie is, zijn er enkele beperkingen waarmee u rekening moet houden. Zie [Bekende problemen](#known-issues) verderop in dit artikel voor een uitleg van de huidige beperkingen. 
 
 ## <a name="roll-out-new-app-workspaces"></a>Implementatie van nieuwe app-werkruimten
 

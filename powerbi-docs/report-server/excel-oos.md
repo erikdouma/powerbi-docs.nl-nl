@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: f56e05e51090f37fdb0bcd295ec877ee73b5dac0
-ms.sourcegitcommit: 640382408111d6e9cd1b9dfad0b484e3c727e454
+ms.openlocfilehash: dc29336754be008b541f146fff7c5f8609472cd0
+ms.sourcegitcommit: dddb6f8d39131febadfd97efa0e0e1d728f4f5ff
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "40257950"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "42703001"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>De rapportserver configureren om Excel-werkmappen te hosten met Office Online Server (OOS)
 
@@ -37,7 +37,7 @@ Voer deze procedures uit op de server waarop u Office Online Server wilt uitvoer
     ```
 
     **Windows Server 2016:**
-   
+
     ```
     Add-WindowsFeature Web-Server,Web-Mgmt-Tools,Web-Mgmt-Console,Web-WebServer,Web-Common-Http,Web-Default-Doc,Web-Static-Content,Web-Performance,Web-Stat-Compression,Web-Dyn-Compression,Web-Security,Web-Filtering,Web-Windows-Auth,Web-App-Dev,Web-Net-Ext45,Web-Asp-Net45,Web-ISAPI-Ext,Web-ISAPI-Filter,Web-Includes,NET-Framework-Features,NET-Framework-45-Features,NET-Framework-Core,NET-Framework-45-Core,NET-HTTP-Activation,NET-Non-HTTP-Activ,NET-WCF-HTTP-Activation45,Windows-Identity-Foundation,Server-Media-Foundation
     ```
@@ -57,9 +57,9 @@ Als u functies van Excel Online wilt gebruiken die gebruikmaken van toegang tot 
 1. Download Office Online Server via het [Volume Licensing Service Center (VLSC)](http://go.microsoft.com/fwlink/p/?LinkId=256561). De download bevindt zich bij de Office-producten in de VLSC-portal. Voor ontwikkelingsdoeleinden kunt u OOS downloaden vanuit de downloads voor MSDN-abonnees.
 2. Voer Setup.exe uit.
 3. Selecteer op de pagina **Lees de licentievoorwaarden voor Microsoft-software** de optie **Ik ga akkoord met de voorwaarden van deze overeenkomst** en selecteer **Doorgaan**.
-4. Selecteer op de pagina **Kies een bestandslocatie** de map waar u de bestanden van Office Online Server wilt installeren (bijvoorbeeld*C:\Program Files\Microsoft Office Web Apps*) en selecteer **Nu installeren**. Als de opgegeven map niet bestaat, wordt deze voor u gemaakt.
+4. Selecteer op de pagina **Kies een bestandslocatie** de map waar u de bestanden van Office Online Server wilt installeren (bijvoorbeeld C:\Program Files\Microsoft Office Web Apps*) en selecteer **Nu installeren**. Als de opgegeven map niet bestaat, wordt deze voor u gemaakt.
 
-    **_Het is raadzaam om Office Online Server op het systeemstation te installeren._**
+    Het is raadzaam om Office Online Server op het systeemstation te installeren.
 
 5. Als Setup de installatie van Office Online Server heeft voltooid, selecteert u **Sluiten**.
 
