@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 3ea99d26418a583a6ca588879aeafcd114aeaa6e
-ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
+ms.openlocfilehash: e1df06c07f767936d861788c89205bce20cd5582
+ms.sourcegitcommit: 60f637d8555fd59fd9a86de720b89b388fb85ac0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39616000"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "43695128"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Maak een koppeling naar een specifieke locatie in de Power BI - Mobiel-apps
 U kunt een uniform resource identifier (URI) gebruiken om een koppelen te maken met een specifieke locatie (een *dieptekoppeling*) in de Power BI - Mobiel-apps op alle mobiele platforms: iOS, Android-apparaten en Windows 10.
@@ -68,7 +68,7 @@ Met deze URI wordt een specifiek rapport geopend in de Power BI - Mobiel-app:
 
 Ga naar het specifiek rapport in de Power BI-service (https://powerbi.com)) om de rapportobject-id met 36 tekens op te halen. Zie bijvoorbeeld het gemarkeerde gedeelte van deze URL:
 
-https://powerbi.com/groups/me/reports/**df9f0e94-31df-450b-b97f-4461a7e4d300**
+`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300`
 
 ## <a name="open-to-a-specific-report-page"></a>Naar een specifieke rapportpagina openen
 Met deze URI wordt een specifieke rapportpagina geopend in de Power BI - Mobiel-app:
@@ -79,7 +79,7 @@ De rapportpagina heet ReportSection, gevolgd door een getal. Open nogmaals het r
 
 Zie bijvoorbeeld het gemarkeerde gedeelte van deze URL:
 
-https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/**ReportSection11**
+`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/ReportSection11`
 
 ## <a name="open-in-full-screen-mode"></a>In de volledige-schermmodus openen
 Voeg de vetgedrukte parameter toe om een specifiek rapport in de volledige-schermmodus te openen:
@@ -95,7 +95,7 @@ U kunt ook context toevoegen aan de tekenreeks. Deze context kan worden gebruikt
 
 Zie bijvoorbeeld het gemarkeerde gedeelte van deze URL: 
 
-https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/**&context=SlackDeepLink**
+`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/&context=SlackDeepLink`
 
 ## <a name="next-steps"></a>Volgende stappen
 Op basis van uw feedback kunnen we bepalen wat in de toekomst moet worden geïmplementeerd. Vergeet dus niet op andere functies te stemmen die u graag in de mobiele Power BI-apps zou willen zien. 
