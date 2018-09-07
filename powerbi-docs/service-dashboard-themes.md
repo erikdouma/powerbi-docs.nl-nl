@@ -2,20 +2,20 @@
 title: Dashboardthema’s gebruiken in Power BI-service
 description: Ontdek hoe u een aangepast kleurenpalet gebruikt en het toepast op een volledig dashboard in Power BI-service
 author: mihart
-manager: kfile
+manager: annbe
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 08/22/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: d17694d6dd2e2133b80d326a8aa86194d5710946
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 25bd28db7b31921d5f1a02ae72cee47207134f2a
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944647"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241471"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Dashboardthema’s gebruiken in Power BI-service
 Met **Dashboardthema's** kunt u een kleurenthema op uw gehele dashboard toepassen, zoals zakelijke kleuren, seizoensgebonden kleuren of andere kleurthema's die u op een rapport zou willen toepassen. Bij het toepassen van een **Dashboardthema** worden voor alle visuals op het dashboard de kleuren van het geselecteerde thema gebruikt. Er zijn enkele uitzonderingen van toepassing, zoals verderop in dit artikel wordt beschreven.
@@ -46,7 +46,7 @@ Het standaardthema voor Power BI-dashboards is **Licht**. Als u de kleuren wilt 
 
 ![Selecteer Aangepast in het vervolgkeuzemenu](media/service-dashboard-themes/power-bi-theme-custom.png)
 
-Gebruik de aangepaste opties om uw eigen dashboardthema te maken. Als u een achtergrondafbeelding wilt toevoegen, raden we aan een afbeelding met een minimale resolutie van 1920x1080 te gebruiken.  
+Gebruik de aangepaste opties om uw eigen dashboardthema te maken. Als u een achtergrondafbeelding wilt toevoegen, raden we aan een afbeelding met een minimale resolutie van 1920x1080 te gebruiken. Als u een afbeelding als achtergrond wilt gebruiken, kunt u de afbeelding uploaden naar een openbare website, de URL kopiëren en deze in het veld **Afbeeldings-URL** plakken. 
 
 ### <a name="using-json-themes"></a>JSON-thema's gebruiken
 Een andere manier om een aangepast thema te maken is het uploaden van een JSON-bestand met instellingen voor alle kleuren die u maar wilt gebruiken voor uw dashboard. In Power BI Desktop gebruiken makers van rapporten JSON-bestanden om [thema's voor rapporten te maken](desktop-report-themes.md). Dezelfde JSON-bestanden kunnen worden geüpload voor dashboards of u kunt JSON-bestanden zoeken en uploaden via de [pagina met de themagalerie](https://community.powerbi.com/t5/Themes-Gallery/bd-p/ThemesGallery) in de Power BI-community 

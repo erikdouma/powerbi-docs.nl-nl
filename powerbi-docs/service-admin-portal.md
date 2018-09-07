@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/15/2018
+ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: db77e3e7421074383f67bffad318e6f7f4c3df28
-ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
+ms.openlocfilehash: 592c3bf5fbd508d63236d16ca21164ee507df35b
+ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "40257136"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43300110"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI-beheerportal
 
@@ -23,7 +23,7 @@ De beheerportal bevat opties voor het beheer van tenants van Power BI in uw orga
 
 Het beheer van tenants van Power BI voor uw bedrijf loopt via de Power BI-beheerportal. Het beheerportal is toegankelijk voor alle gebruikers die globale beheerders zijn in Office 365 of die de rol van beheerder van Power BI-service hebben. Zie [Understanding the Power BI admin role](service-admin-role.md) (Power BI-beheerdersrol) voor meer informatie over de beheerdersrol voor de Power BI-service.
 
-Alle gebruikers zien de optie **Beheerportal** als ze het tandwielpictogram kiezen. Gebruikers die geen beheerder zijn, zien alleen de sectie **Premium-instellingen**, met alleen de capaciteiten waarvoor ze over de vereiste rechten beschikken.
+Alle gebruikers kunnen de optie **Beheerportal** zien als ze het tandwielpictogram kiezen. Gebruikers die geen beheerder zijn, kunnen alleen de sectie **Premium-instellingen** zien, met alleen de capaciteiten waarvoor ze over de vereiste rechten beschikken.
 
 ## <a name="how-to-get-to-the-admin-portal"></a>Toegang krijgen tot de beheerportal
 
@@ -54,7 +54,7 @@ Het eerste tabblad in het beheerportal is **Metrische gegevens over gebruik**. H
 
 Als dat is gebeurd, ziet u twee secties met tegels. De eerste sectie bevat gebruiksgegevens voor individuele gebruikers en de tweede sectie vergelijkbare informatie voor groepen in uw organisatie.
 
-Hier volgt een overzicht van wat u in elke tegel ziet:
+Hier volgt een overzicht van wat u in elke tegel kunt zien:
 
 * Unieke telling van alle dashboards, rapporten en gegevenssets in de werkruimte voor gebruikers
   
@@ -150,7 +150,7 @@ Gebruikers in de organisatie kunnen rapporten op internet publiceren. [Meer info
 
 ![](media/service-admin-portal/powerbi-admin-publish-to-web.png)
 
-Gebruikers zien verschillende opties in de gebruikersinterface op basis van de instelling voor publiceren naar het web.
+Gebruikers kunnen verschillende opties in de gebruikersinterface zien op basis van de instelling voor publiceren naar het web.
 
 |Functie |Ingeschakeld voor de hele organisatie |Uitgeschakeld voor de hele organisatie |Specifieke beveiligingsgroepen   |
 |---------|---------|---------|---------|
@@ -210,12 +210,14 @@ Meer informatie over het [pushen van apps](service-create-distribute-apps.md#how
 ## <a name="integration-settings"></a>Instellingen voor integratie
 
 ### <a name="ask-questions-about-data-using-cortana"></a>Vragen over gegevens stellen met Cortana
+
 Gebruikers in de organisatie kunnen vragen over hun gegevens stellen met behulp van Cortana.
 
 > [!NOTE]
 > Deze instelling geldt voor de hele organisatie en kan niet worden beperkt tot specifieke groepen.
 
 ### <a name="use-analyze-in-excel-with-on-premises-datasets"></a>Analyseren in Excel gebruiken met on-premises gegevenssets
+
 Gebruikers in de organisatie kunnen Excel gebruiken voor het weergeven van on-premises Power BI-gegevenssets en het werken met deze sets. [Meer informatie](service-analyze-in-excel.md)
 
 > [!NOTE]
@@ -230,7 +232,9 @@ Gebruikers in de organisatie kunnen de visualisatie ArcGIS Maps for Power BI, di
 Gebruikers in de organisatie kunnen externe-zoekopdrachtfuncties gebruiken waarbij gebruik wordt gemaakt van Azure Search. Gebruikers kunnen bijvoorbeeld gebruikmaken van Cortana om belangrijke gegevens rechtstreeks op te halen uit Power BI-dashboards en -rapporten. [Meer informatie](service-cortana-intro.md)
 
 ## <a name="custom-visuals-settings"></a>Instellingen voor aangepaste visuele elementen
+
 ### <a name="enable-custom-visuals-for-the-entire-organization"></a>Aangepaste visuele elementen inschakelen voor de hele organisatie
+
 Gebruikers in de organisatie kunnen aangepaste visuele elementen gebruiken en delen. [Meer informatie](power-bi-custom-visuals.md)
 
 > [!NOTE]
@@ -288,15 +292,27 @@ Gebruikers in de organisatie kunnen dashboards labelen met classificaties die he
 
 ### <a name="embed-content-in-apps"></a>Inhoud in apps insluiten
 
-Gebruikers in de organisatie kunnen Power BI-dashboards en rapporten insluiten in SaaS-toepassingen (Software as a Service). Als u deze instelling uitschakelt, kunnen gebruikers de REST API's niet gebruiken om inhoud van Power BI in te sluiten in hun toepassing.
+Gebruikers in de organisatie kunnen Power BI-dashboards en rapporten insluiten in SaaS-toepassingen (Software as a Service). Als u deze instelling uitschakelt, kunnen gebruikers de REST API's niet gebruiken om inhoud van Power BI in hun toepassing in te sluiten.
 
 ## <a name="capacity-settings"></a>Capaciteitsinstellingen
 
-Via het tabblad Capaciteitsinstellingen kunt u capaciteiten van Power BI Premium beheren die zijn gekocht voor uw organisatie. Alle gebruikers binnen uw organisatie zien het tabblad Premium-instellingen, maar ze zien alleen inhoud op het tabblad als ze zijn aangewezen als **Capaciteitsbeheerder** of als ze beschikken over toewijzingsmachtigingen. Als een gebruiker geen machtigingen heeft, zien ze het volgende bericht.
+### <a name="premium-settings"></a>Premium-instellingen
 
-![](media/service-admin-portal/premium-settings-no-access.png "Geen toegang tot Premium-instellingen")
+Via het tabblad Premium-instellingen kunt u capaciteiten van Power BI Premium (Em of P SKU) beheren die voor uw organisatie zijn gekocht. Alle gebruikers binnen uw organisatie kunnen het tabblad Premium-instellingen zien, maar ze zien alleen inhoud op het tabblad als ze zijn aangewezen als **Capaciteitsbeheerder** of als ze beschikken over toewijzingsmachtigingen. Als een gebruiker geen machtigingen heeft, verschijnt het volgende bericht.
+
+![Power BI Premium-beheerdersinstellingen](media/service-admin-portal/premium-settings-no-access.png "Geen toegang tot Premium-instellingen")
 
 Zie [Power BI Premium beheren](service-admin-premium-manage.md) voor meer informatie over het beheren van Premium-instellingen.
+
+### <a name="power-bi-embedded-settings"></a>Power BI Embedded-instellingen
+
+Via het tabblad Power BI Embedded-instellingen kunt u de capaciteiten van Power BI Embedded (A SKU) bekijken die u voor uw klant hebt aangeschaft. Aangezien u alleen A SKU's vanuit Azure kunt aanschaffen, kunt u [ingesloten capaciteiten in Azure beheren](developer/azure-pbie-create-capacity.md) vanuit de **Azure-portal**.
+
+![Power BI Embedded-beheerdersinstellingen](media/service-admin-portal/manage-pbie-capacities-01.png)
+
+![Details van Power BI Embedded-beheerdersinstellingen](media/service-admin-portal/manage-pbie-capacities-02.png)
+
+Zie [Wat is Power BI Embedded?](developer/azure-pbie-what-is-power-bi-embedded.md) voor meer informatie over het beheren van Power BI Embedded (A SKU)-instellingen.
 
 ## <a name="embed-codes"></a>Codes insluiten
 
@@ -307,10 +323,10 @@ Als beheerder kunt u de invoegcodes weergeven die worden gegenereerd voor uw ten
 ## <a name="organization-visuals"></a>Organisatievisuals
 
 In het tabblad organisatievisuals kunt u aangepaste visuals binnen uw organisatie implementeren en beheren, zodat u eenvoudig eigen aangepaste visuals in de organisatie kunt implementeren die door rapportauteurs gemakkelijk rechtstreeks vanuit Power BI Desktop kunnen worden ontdekt en geïmporteerd in hun rapporten.
- 
+
 De pagina toont alle aangepaste visuals die momenteel in de opslagplaats van de organisatie worden geïmplementeerd.
- 
-![](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
+
+![Visual Organisatiebeheer](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
 
 ### <a name="add-a-new-custom-visual"></a>Een nieuwe aangepaste visual toevoegen
 
@@ -320,26 +336,38 @@ Selecteer **Een aangepast visueel element toevoegen** om een aangepaste visual a
 
 > [!WARNING]
 > Een aangepaste visual kan een code bevatten met beveiligings- of privacyrisico's. Zorg ervoor dat u de auteur en de bron van de aangepaste visual vertrouwt voordat u de visual in de opslagplaats van de organisatie implementeert.
-> 
 
 Vul de velden in:
- 
+
 * Kies een .pbiviz-bestand (vereist): selecteer een aangepaste visual om te uploaden. Alleen versies van aangepaste API-visuals worden ondersteund (lees hier wat dit betekent).
+
 Voordat u een aangepaste visual uploadt, moet u controleren of de beveiliging en privacy van die visual past bij de normen van uw organisatie. Meer informatie over beveiliging van aangepaste visuals.
- 
+
 * Geef een naam aan uw visual (vereist): geef een korte titel aan de visual zodat gebruikers van Power BI Desktop gemakkelijk begrijpen wat de visual doet.
- 
+
 * Pictogram (vereist): het pictogrambestand dat wordt weergegeven in de gebruikersinterface van Power BI Desktop.
- 
+
 * Beschrijving: een korte beschrijving van de visual zodat de gebruiker meer context heeft en weet waarvoor de visual is bedoeld.
- 
+
 Selecteer 'Toepassen' om de uploadaanvraag te starten. U ziet het nieuwe item in de lijst als de aanvraag is geslaagd. Als de aanvraag is mislukt, ziet u de bijbehorende foutmelding
- 
+
 ### <a name="delete-a-custom-visual-from-the-list"></a>Een aangepaste visual verwijderen uit de lijst
 
 Selecteer het prullenbakpictogram om de visual permanent te verwijderen uit de opslagplaats.
-Belangrijk: verwijderen kan niet ongedaan worden gemaakt. Wanneer de visual is verwijderd, wordt deze onmiddellijk niet meer weergegeven in bestaande rapporten. Zelfs als u dezelfde visual opnieuw uploadt, vervangt de nieuwe visual de vorige die is verwijderd niet. Gebruikers moeten de nieuwe visual opnieuw importeren en het exemplaar vervangen dat in hun rapport is opgenomen.
- 
+Belangrijk: verwijderen kan niet ongedaan worden gemaakt. Wanneer de visual is verwijderd, wordt deze onmiddellijk niet meer weergegeven in bestaande rapporten. Zelfs als u dezelfde visual opnieuw uploadt, vervangt de nieuwe visual de vorige die is verwijderd niet. Gebruikers moeten de nieuwe visual opnieuw importeren en het exemplaar vervangen dat in hun rapporten is opgenomen.
+
+### <a name="disable-a-custom-visual-in-the-list"></a>Een aangepaste visual uit de lijst verwijderen
+
+Als u de visual in de opslagplaats wilt uitschakelen, selecteert u het tandwielpictogram. In de sectie **Toegang** kunt u de aangepaste visual uitschakelen.
+
+Als de visual is uitgeschakeld, wordt deze niet meer weergegeven in bestaande rapporten en wordt het onderstaande foutbericht weergegeven.
+
+*Deze aangepaste visual is niet langer beschikbaar. Neem voor meer informatie contact op met uw beheerder.*
+
+Visuals met een bladwijzer werken echter nog steeds.
+
+Na elke update of wijziging door een beheerder, moeten gebruikers van Power BI Desktop de toepassing opnieuw starten of de browser in de Power BI-service vernieuwen om de updates te kunnen zien.
+
 ### <a name="how-to-update-a-visual"></a>Een visual bijwerken
 
 Als u een visual in de opslagplaats wilt bijwerken omdat er een nieuwe versie van de visual is (bijvoorbeeld bugfixes, nieuwe functionaliteit, enzovoort), selecteer dan het pictogram **Bijwerken** en upload het nieuwe bestand. Zorg ervoor dat de id van de visual ongewijzigd blijft. Het nieuwe bestand vervangt het vorige bestand voor alle rapporten in de hele organisatie. Vervang echter niet de vorige versie als de nieuwe versie van de visual een verbruiks- of gegevensstructuur van de vorige versie van de visual kan verbreken. In plaats daarvan moet u een nieuwe vermelding maken voor de nieuwe versie van de visual. Voeg bijvoorbeeld een nieuw versienummer (versie X.X) toe aan de titel van de nieuwe vermelde visual. Op deze manier is het duidelijk dat dit dezelfde visual is, alleen met een bijgewerkt versienummer, zodat bestaande rapporten hun functionaliteit niet verbreken. Zorg er weer voor dat de id van de visual ongewijzigd blijft. De volgende keer dat gebruikers toegang hebben tot de opslagplaats van de organisatie vanuit Power BI Desktop, kunnen ze de nieuwe versie importeren, waarbij wordt gevraagd om de huidige versie in hun rapport te vervangen.

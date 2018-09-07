@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/30/2018
 ms.author: chwade
 LocalizationGroup: Premium
-ms.openlocfilehash: 1b6a3c35abeff33e2fb1e0fecdc5c2a5c88e1530
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: fd62e90d4a4f348ee7b3a524f85725d517180068
+ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34298177"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43300133"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Incrementeel vernieuwen in Power BI Premium
 
@@ -43,6 +43,12 @@ Grote gegevenssets met potentieel miljarden rijen passen mogelijk niet in Power 
 
 Als u gebruik wilt maken van incrementele vernieuwing in de Power BI-service, moet u filteren met behulp van de datum-/tijd-parameters van Power Query in combinatie met de gereserveerde, hoofdlettergevoelige namen **RangeStart** en **RangeEnd**.
 
+Na publicatie worden de parameterwaarden automatisch door de Power BI-service overschreven. U hoeft ze niet in te stellen bij de gegevenssetinstellingen in de service.
+ 
+Het is belangrijk dat het filter naar het bronsysteem wordt gepusht als er query's worden ingediend voor vernieuwingsbewerkingen. Dit betekent dat de gegevensbron ondersteuning moet bieden aan het vouwen van query's. Gezien de diverse ondersteuningsniveaus voor het vouwen van query's voor elke gegevensbron, wordt u aangeraden te controleren of de filterlogica in de bronquery's is opgenomen. Als dit niet zo is, worden door elke query alle gegevens uit de bron opgevraagd, waardoor voor het object geen incrementele vernieuwing wordt uitgevoerd.
+ 
+Het filter wordt in de Power BI-service gebruikt voor het partitioneren van de gegevens in reeksen. Het is niet bedoeld om het bijwerken hiervan in de gefilterde gegevenskolom te ondersteunen. Een update wordt beschouwd als een invoeging en een verwijdering (niet als een update). Als de verwijdering zich voordoet in het historische bereik en niet in het incrementele bereik, wordt het niet opgepikt.
+
 Selecteer **Parameters beheren** in de Power Query Editor om parameters met standaardwaarden te definiëren.
 
 ![Parameters beheren](media/service-premium-incremental-refresh/manage-parameters.png)
@@ -61,9 +67,6 @@ Zorg ervoor dat rijen worden gefilterd waarbij de kolomwaarde *na of gelijk is a
 > `(x as datetime) => Date.Year(x)*10000 + Date.Month(x)*100 + Date.Day(x)`
 
 Selecteer **Sluiten en toepassen** in de Power Query Editor. U moet een subset van de gegevensset in Power BI Desktop hebben.
-
-> [!NOTE]
-> Na publicatie worden de parameterwaarden automatisch door de Power BI-service overschreven. U hoeft ze niet in te stellen bij de gegevenssetinstellingen.
 
 ### <a name="define-the-refresh-policy"></a>Het vernieuwingsbeleid definiëren
 
@@ -102,9 +105,11 @@ De eerste vernieuwing in de Power BI-service kan langer duren omdat alle vijf ja
 
 **Definitie van deze bereiken is wellicht alles wat u nodig hebt. In dat geval kunt u meteen doorgaan naar de onderstaande publicatiestap. De extra vervolgkeuzelijsten zijn bedoeld voor geavanceerde functies.**
 
+### <a name="advanced-policy-options"></a>Geavanceerde beleidsopties
+
 #### <a name="detect-data-changes"></a>Gegevenswijzigingen detecteren
 
-Incrementele vernieuwing van tien dagen is natuurlijk veel efficiënter dan vernieuwing van vijf jaar. Maar het kan wellicht nog beter. Als u het selectievakje **Gegevenswijzigingen detecteren** inschakelt, kunt u een datum/tijd-kolom selecteren voor de identificatie en die alleen wordt vernieuwd als er gegevens zijn gewijzigd. Hierbij wordt ervan uitgegaan dat een dergelijke kolom in het bronsysteem bestaat, wat gebruikelijk is voor controledoeleinden. De maximumwaarde van deze kolom wordt geëvalueerd voor elke periode in het incrementele bereik. Als deze nog niet is gewijzigd sinds de laatste vernieuwing, hoeft u de periode niet te vernieuwen. In het voorbeeld kan hiermee het aantal dagen dat wordt vernieuwd nog eens verder worden beperkt van tien tot misschien twee dagen.
+Incrementele vernieuwing van tien dagen is natuurlijk veel efficiënter dan vernieuwing van vijf jaar. Maar het kan wellicht nog beter. Als u het selectievakje **Gegevenswijzigingen detecteren** inschakelt, kunt u een datum/tijd-kolom selecteren voor de identificatie en die alleen wordt vernieuwd als er gegevens zijn gewijzigd. Hierbij wordt ervan uitgegaan dat een dergelijke kolom in het bronsysteem bestaat, wat gebruikelijk is voor controledoeleinden. **Dit mag niet dezelfde kolom zijn die wordt gebruikt voor het partitioneren van de gegevens met de parameters RangeStart/RangeEnd.** De maximumwaarde van deze kolom wordt geëvalueerd voor elke periode in het incrementele bereik. Als deze nog niet is gewijzigd sinds de laatste vernieuwing, hoeft u de periode niet te vernieuwen. In het voorbeeld kan hiermee het aantal dagen dat wordt vernieuwd nog eens verder worden beperkt van tien tot misschien twee dagen.
 
 ![Wijzigingen detecteren](media/service-premium-incremental-refresh/detect-changes.png)
 

@@ -2,35 +2,35 @@
 title: Problemen oplossen met uw ingesloten toepassing
 description: In dit artikel worden enkele veelvoorkomende problemen besproken die kunnen optreden tijdens het insluiten van inhoud uit Power BI.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 07/09/2018
-ms.author: maghan
-ms.openlocfilehash: d6b30d97b1982ceca34579751e412a279b0d8881
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.date: 08/31/2018
+ms.openlocfilehash: 48faf9ebde5860b59569a7e0a3a96664d06a1b0d
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38877019"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241563"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Problemen oplossen met uw ingesloten toepassing
 
-In dit artikel worden enkele veelvoorkomende problemen besproken die kunnen optreden tijdens het insluiten van inhoud uit Power BI.
+In dit artikel worden enkele veelvoorkomende problemen besproken die kunnen optreden tijdens het insluiten van inhoud vanuit Power BI.
 
 ## <a name="tools-for-troubleshooting"></a>Hulpprogramma's voor het oplossen van problemen
 
 ### <a name="fiddler-trace"></a>Traceren met Fiddler
 
-[Fiddler](http://www.telerik.com/fiddler) is een gratis hulpprogramma van Telerik waarmee u het HTTP-verkeer kunt controleren.  U kunt hiermee het verkeer tussen de Power BI API's en de clientcomputer bekijken. Het programma kan fouten en verwante informatie weergeven.
+[Fiddler](http://www.telerik.com/fiddler) is een gratis hulpprogramma van Telerik waarmee u het HTTP-verkeer kunt controleren.  U kunt hiermee het verkeer tussen de Power BI API's en de clientcomputer bekijken. Het programma kan fouten en aanverwante informatie weergeven.
 
 ![Traceren met Fiddler](../includes/media/gateway-onprem-tshoot-tools-include/fiddler.png)
 
 ### <a name="f12-in-browser-for-front-end-debugging"></a>F12 in de browser voor front-endfoutopsporing
 
-Met F12 wordt het ontwikkelvenster in uw browser weergegeven. Hier kunt u onder andere informatie over het netwerkverkeer bekijken.
+Met F12 wordt het ontwikkelvenster in uw browser weergegeven. Met dit programma kunt u onder andere informatie over het netwerkverkeer bekijken.
 
 ![Fouten opsporen in de browser met F12](media/embedded-troubleshoot/browser-f12.png)
 
@@ -38,7 +38,7 @@ Met F12 wordt het ontwikkelvenster in uw browser weergegeven. Hier kunt u onder 
 
 Dit codefragment laat zien hoe u de foutdetails van de HTTP-uitzondering kunt extraheren:
 
-```
+```csharp
 public static string GetExceptionText(this HttpOperationException exc)
 {
     var errorText = string.Format("Request: {0}\r\nStatus: {1} ({2})\r\nResponse: {3}",
@@ -52,16 +52,17 @@ public static string GetExceptionText(this HttpOperationException exc)
     return errorText;
 }
 ```
-Het is raadzaam om de aanvraag-id's (en foutdetails voor probleemoplossing) in een logboek te registreren.
+
+Het is raadzaam om de aanvraag-id (en foutdetails voor probleemoplossing) in een logboek te registreren.
 Geef de aanvraag-id op als u contact opneemt met Microsoft Ondersteuning.
 
 ## <a name="app-registration"></a>App-registratie
 
 **App-registratiefout**
 
-Er wordt in de foutberichten in Azure Portal of op de Power BI-pagina voor het registreren van apps aangegeven dat u over onvoldoende bevoegdheden beschikt. Als u een toepassing wilt registreren, moet u een beheerder van de Azure AD-tenant zijn of moet de functie voor toepassingsregistraties door niet-beheerders zijn ingeschakeld.
+Er wordt in de foutberichten in de Azure-portal of op de Power BI-pagina voor het registreren van apps aangegeven dat u over onvoldoende bevoegdheden beschikt. Als u een toepassing wilt registreren, moet u een beheerder van de Azure AD-tenant zijn of moet de functie voor toepassingsregistraties voor niet-beheerders zijn ingeschakeld.
 
-**De Power BI-service wordt weergegeven in Azure Portal tijdens het registreren van een nieuwe app**
+**De Power BI-service wordt niet weergegeven in de Azure-portal tijdens het registreren van een nieuwe app**
 
 Er moet ten minste één gebruiker zijn aangemeld voor Power BI. Als de **Power BI-service** niet in de API-lijst wordt vermeld, is er geen gebruiker aangemeld voor Power BI.
 
@@ -73,9 +74,9 @@ Mogelijk is er een Fiddler-opname nodig om het probleem nader te onderzoeken. He
 
 **De API-aanroep retourneert fout 403**
 
-Mogelijk is er een Fiddler-opname nodig om het probleem nader te onderzoeken. Er kunnen verschillende reden zijn voor een 403-fout.
+Mogelijk is er een Fiddler-opname nodig om het probleem nader te onderzoeken. Er kunnen verschillende redenen zijn voor een 403-fout.
 
-* De gebruiker heeft de hoeveelheid insluittokens overschreden die voor een gedeelde capaciteit kan worden gemaakt. U moet Azure-capaciteit aanschaffen als u insluittokens wilt genereren, en de werkruimte vervolgens aan die capaciteit toewijzen. Zie [Create Power BI Embedded capacity in the Azure portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity) (Power BI Embedded-capaciteit maken in Azure Portal).
+* De gebruiker heeft de hoeveelheid insluitingstokens overschreden die voor een gedeelde capaciteit kan worden gegenereerd. U moet Azure-capaciteit aanschaffen als u insluitingstokens wilt genereren, en de werkruimte vervolgens aan die capaciteit toewijzen. Zie [Create Power BI Embedded capacity in the Azure portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity) (Power BI Embedded-capaciteit maken in Azure Portal).
 * Het Azure AD-verificatietoken is verlopen.
 * De geverifieerde gebruiker is geen lid van de groep (app-werkruimte).
 * De geverifieerde gebruiker is geen beheerder van de groep (app-werkruimte).
@@ -102,7 +103,7 @@ De back-end van de toepassing moet het verificatietoken mogelijk vernieuwen voor
 
 **(AADSTS70002: fout bij het valideren van referenties. AADSTS50053: u hebt te vaak geprobeerd u aan te melden met een onjuiste gebruikers-id of een onjuist wachtwoord)**
 
-Als u Power BI Embedded en Azure AD Direct Authentication gebruikt en u berichten ontvangt bij het aanmelden zoals ***fout: unauthorized_client, error_description:AADSTS70002: fout bij het valideren van referenties. AADSTS50053: u hebt te vaak geprobeerd u aan te melden met een onjuiste gebruikers-id of een onjuist wachtwoord***. Dit komt doordat directe verificatie sinds 14-6-2018 standaard is uitgeschakeld.
+Als u Power BI Embedded en Azure AD Direct Authentication gebruikt en u bij het aanmelden berichten ontvangt als ***fout: unauthorized_client, error_description:AADSTS70002: fout bij het valideren van referenties. AADSTS50053: u hebt te vaak geprobeerd u aan te melden met een onjuiste gebruikers-id of een onjuist wachtwoord***. Dit komt doordat directe verificatie sinds 14-6-2018 standaard is uitgeschakeld.
 
 Er is een manier om dit weer in te schakelen met behulp van [Azure AD-beleid](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) waarvan het bereik wordt beperkt tot de organisatie of een [service-principal](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
 
@@ -112,7 +113,7 @@ Als u dit beleid wilt kunnen maken, moet u een **globale beheerder** zijn voor d
 
 1. Installeer de [previewversie van de Azure AD PowerShell-module](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
 
-2. Voer de volgende powershell-opdrachten per regel uit (zorg dat de variabele $sp niet meer dan 1 toepassing als resultaat heeft).
+2. Voer de volgende PowerShell-opdrachten per regel uit (zorg ervoor dat de variabele $sp niet meer dan één toepassing als resultaat heeft).
 
 ```powershell
 Connect-AzureAD
@@ -167,7 +168,7 @@ Toestemming van de gebruiker is uitgeschakeld voor de tenant.
 **_Er zijn verschillende oplossingen mogelijk:_**
 
 *Toestemming inschakelen voor de gebruiker voor de gehele tenant (alle gebruikers, alle toepassingen)*
-1. Navigeer in Azure Portal naar Azure Active Directory = > Gebruikers en groepen = > Gebruikersinstellingen
+1. Navigeer in de Azure-portal naar Azure Active Directory = > Gebruikers en groepen = > Gebruikersinstellingen
 2. Schakel de instelling Gebruikers kunnen apps namens hen toegang geven tot bedrijfsgegevens in en sla de wijzigingen op
 
     ![Toestemming testen oplossen](media/embedded-troubleshoot/consent-test-02.png)
@@ -182,7 +183,7 @@ Een gegevensbron kan één set referenties voor één hoofdgebruiker hebben. Als
 
 ## <a name="content-rendering"></a>Inhoud weergeven
 
-**De ingesloten inhoud kan niet worden weergegeven of er treedt een time-out op** 
+**De ingesloten inhoud kan niet worden weergegeven of gebruikt, of er treedt een time-out op** 
 
 Controleer of het insluitingstoken is verlopen. Controleer de vervaldatum van het insluitingstoken en vernieuw het token. Zie [Refresh token using JavaScript SDK](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Refresh-token-using-JavaScript-SDK-example) (Token vernieuwen met de JavaScript-SDK) voor meer informatie.
 
@@ -192,7 +193,41 @@ Als de gebruiker het rapport of het dashboard niet ziet, controleert u of het ra
 
 **Het rapport of het dashboard presteert traag**
 
-Open het bestand vanuit Power BI Desktop, of in powerbi.com, om te controleren of de prestaties acceptabel zijn. Zodoende kunt u problemen met uw toepassing of de API voor insluiten uitsluiten.
+Open het bestand vanuit Power BI Desktop, of in powerbi.com, om te controleren of de prestaties acceptabel zijn. Zodoende kunt u problemen met uw toepassing of de API's voor insluiten uitsluiten.
+
+## <a name="troubleshooting-your-embedded-application-with-the-ierror-object"></a>Problemen met uw ingesloten toepassing oplossen met het IError-object
+
+Gebruik het [**IError-object** dat door de *foutgebeurtenis* vanuit de **JavaScript SDK**](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Troubleshooting-and-debugging-of-embedded-parts) wordt geretourneerd om fouten in uw toepassing op te sporen en de oorzaak van de fouten beter te begrijpen.
+
+Als u het IError-object hebt verkregen, zoekt u in de tabel met bijbehorende veelvoorkomende fouten die past bij het insluitingstype dat u gebruikt. Vergelijk de **IError-eigenschappen** met de eigenschappen in de tabel en zoek de mogelijke reden(en) voor de fout.
+
+### <a name="typical-errors-when-embedding-for-power-bi-users"></a>Typische fouten bij het insluiten voor Power BI-gebruikers
+
+| Bericht | Uitgebreid bericht | Foutcode | Mogelijke reden(en) |
+|-------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|-----------|--------------------------------------------------------|
+| TokenExpired | Toegangstoken is verlopen; opnieuw indienen met nieuw toegangstoken | 403 | Verlopen token  |
+| PowerBIEntityNotFound | Laden van rapport mislukt | 404 | <li> Verkeerde rapport-id <li> Rapport bestaat niet  |
+| Ongeldige parameters | Parameter powerbiToken niet opgegeven | N.v.t. | <li> Geen toegangstoken opgegeven <li> Geen rapport-id opgegeven |
+| LoadReportFailed | Initialiseren mislukt; cluster kan niet worden omgezet | 403 | * Beschadigd toegangstoken * Insluitingstype komt niet overeen met tokentype |
+| PowerBINotAuthorizedException | Laden van rapport mislukt | 401 | <li> Verkeerde groeps-id <li> Niet gemachtigde groep |
+| TokenExpired | Toegangstoken is verlopen; opnieuw indienen met nieuw toegangstoken. Rapportvisual met de titel <visual title> kan niet worden weergegeven | N.v.t. | Querygegevens, verlopen token |
+| OpenConnectionError | Visual kan niet worden weergegeven. Rapportvisual met de titel <visual title> kan niet worden weergegeven | N.v.t. | Capaciteit is onderbroken of verwijderd terwijl een rapport in verband met de capaciteit tijdens een sessie was geopend |
+| ExplorationContainer_FailedToLoadModel_DefaultDetails | Het modelschema dat is gekoppeld aan dit rapport kan niet worden geladen. Controleer of er verbinding is met de server en probeer het opnieuw. | N.v.t. | <li> Capaciteit onderbroken <li> Capaciteit verwijderd |
+
+### <a name="typical-errors-when-embedding-for-non-power-bi-users-using-an-embed-token"></a>Typische fouten bij het insluiten voor niet-Power BI-gebruikers (met behulp van een insluitingstoken)
+
+| Bericht | Uitgebreid bericht | Foutcode | Reden(en) |
+|-------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|------------|-------------------------------------------------|
+| TokenExpired | Toegangstoken is verlopen; opnieuw indienen met nieuw toegangstoken | 403 | Verlopen token  |
+| LoadReportFailed | Laden van rapport mislukt | 404 | <li> Verkeerde rapport-id <li> Rapport bestaat niet  |
+| LoadReportFailed | Laden van rapport mislukt | 403 | Rapport-id komt niet overeen met het token |
+| LoadReportFailed | Laden van rapport mislukt | 500 | Door rapport opgegeven id is geen GUID |
+| Ongeldige parameters | Parameter powerbiToken niet opgegeven | N.v.t. | <li> Geen toegangstoken opgegeven <li> Geen rapport-id opgegeven |
+| LoadReportFailed | Initialiseren mislukt; cluster kan niet worden omgezet | 403 | Verkeerd tokentype, beschadigd token |
+| PowerBINotAuthorizedException | Ophalen van rapport mislukt | 401 | Verkeerde/Niet-geautoriseerde groeps-id |
+| TokenExpired | Toegangstoken is verlopen; opnieuw indienen met nieuw toegangstoken. Rapportvisual met de titel <visual title> kan niet worden weergegeven | N.v.t. | Querygegevens, verlopen token |
+| OpenConnectionError | Visual kan niet worden weergegeven. Rapportvisual met de titel <visual title> kan niet worden weergegeven | N.v.t. | Capaciteit is onderbroken of verwijderd terwijl een rapport in verband met de capaciteit tijdens een sessie was geopend |
+| ExplorationContainer_FailedToLoadModel_DefaultDetails | Het modelschema dat is gekoppeld aan dit rapport kan niet worden geladen. Controleer of er verbinding is met de server en probeer het opnieuw. | N.v.t. | <li> Capaciteit onderbroken <li> Capaciteit verwijderd |
 
 ## <a name="onboarding-experience-tool-for-embedding"></a>Hulpprogramma voor onboarding-ervaring voor insluiten
 
@@ -244,3 +279,5 @@ Als u uw Power BI-gebruikersprofiel of -gegevens wilt bewerken, leert u hoe u uw
 Zie [Veelgestelde vragen over Power BI Embedded](embedded-faq.md) voor meer informatie.
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+
+Als u meer hulp nodig hebt, [neemt u contact op met de ondersteuning](https://powerbi.microsoft.com/en-us/support/pro/?Type=documentation&q=power+bi+embedded) of [maakt u een ondersteuningsticket via de Azure-portal](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest) en geeft u de foutberichten op die u hebt verkregen.

@@ -10,18 +10,18 @@ ms.devlang: csharp, javascript
 ms.topic: conceptual
 ms.reviewer: ''
 ms.date: 07/31/2018
-ms.openlocfilehash: 222a6368bc717880fee4f6ce6958455959b491bd
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.openlocfilehash: f364bb725c492c1bffd2493c1e2a48ee8c442a9e
+ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39360193"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43300041"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Power BI Embedded-capaciteit maken in Azure Portal
 
 Dit artikel biedt informatie over het maken van Power BI Embedded-capaciteit in Microsoft Azure. Met Power BI Embedded kunt u eenvoudiger gebruikmaken van de Power BI-functionaliteit: u kunt hiermee namelijk snel prachtige visuals, rapporten en dashboards toevoegen aan uw apps.
 
-Als u nog geen abonnement op Azure hebt, maakt u een [gratis account](https://azure.microsoft.com/free/) voordat u begint.
+Als u nog geen abonnement voor Azure hebt, maakt u een [gratis account](https://azure.microsoft.com/free/) voordat u begint.
 
 > [!VIDEO https://www.youtube.com/embed/aXrvFfg_iSk]
 
@@ -54,7 +54,7 @@ Voor deze snelstartgids hebt u heet volgende nodig:
     |**Abonnement**|Het abonnement waarvoor u de capaciteit wilt maken.|
     |**Resourcegroep**|De resourcegroep die deze nieuwe capaciteit bevat. Kies een bestaande resourcegroep of maak een nieuwe. Zie [Overzicht van Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview) voor meer informatie.|
     |**Power BI-capaciteitsbeheerder**|Power BI-capaciteitsbeheerders kunnen de capaciteit in de Power BI-beheerportal bekijken en machtigingen toewijzen aan andere gebruikers. De rol van capaciteitsbeheerder is standaard toegewezen aan uw account. De capaciteitsbeheerder moet zich binnen uw Power BI-tenant bevinden.|
-    |**Locatie**|De locatie waar Power BI voor uw tenant wordt gehost. Deze instelling wordt automatisch bepaald. Er kan geen andere locatie worden geselecteerd.|
+    |**Locatie**|De locatie waar Power BI voor uw tenant wordt gehost. Uw standaardlocatie is uw basisregio. U kunt de regio wijzigen met behulp van [Multi-Geo-opties](embedded-multi-geo.md).
     |**Prijscategorie**|Selecteer de SKU (aantal v-cores en de hoeveelheid geheugen) die voldoet aan uw behoeften.  Zie [Prijzen voor Power BI Embedded](https://azure.microsoft.com/pricing/details/power-bi-embedded/) voor meer informatie|
 
 6. Selecteer **Maken**.

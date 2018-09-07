@@ -2,20 +2,20 @@
 title: Dashboardtegels in Power BI-service
 description: Alle informatie over dashboardtegels in Power BI. Hiertoe behoren tegels die zijn gemaakt vanuit SQL Server Reporting Services (SSRS).
 author: mihart
-manager: kfile
+manager: annbe
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 08/21/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e53945e0a112d9498dc6798e2441dd3d925a64c1
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 09fcce65539d89c9d42bc05369f13a6048eb96c2
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249063"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241586"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Dashboardtegels in Power BI
 Dashboards en dashboardtegels zijn functies van Power BI-service, niet van Power BI Desktop. Dashboardtegels kunnen niet worden gemaakt of vastgemaakt in Power BI - Mobiel, [maar kunnen daarin wel worden weergeven en gedeeld](mobile-tiles-in-the-mobile-apps.md). En in Power BI - Mobiel kunt u [afbeeldingen toevoegen aan uw dashboard met uw iPhone-app](mobile-iphone-app-get-started.md).
@@ -67,9 +67,9 @@ Pak een tegel en [beweeg deze over het dashboard](service-dashboard-edit-tile.md
    
    * [Het werkblad openen waarmee deze tegel is gemaakt ](service-reports.md) ![Werkbladpictogram](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
      
-     * [Weergave in de focusmodus ](service-focus-mode.md) ![Focuspictogram](media/service-dashboard-tiles/fullscreen-icon.jpg)  
+    * [Weergave in de focusmodus ](service-focus-mode.md) ![Focuspictogram](media/service-dashboard-tiles/fullscreen-icon.jpg)  
      * [De in de tegel gebruikte gegevens exporteren](power-bi-visualization-export-data.md) ![Pictogram voor exporteren van gegevens](media/service-dashboard-tiles/export-icon.png)
-     * [Titel en subtitel bewerken, een hyperlink toevoegen, tijdstip van laatste vernieuwing weergeven](service-dashboard-edit-tile.md) ![Bewerkpictogram](media/service-dashboard-tiles/pencil-icon.jpg)
+     * [Titel en subtitel bewerken, een hyperlink toevoegen](service-dashboard-edit-tile.md) ![bewerkingspictogram](media/service-dashboard-tiles/pencil-icon.jpg)
      * [Inzichten uitvoeren](service-insights.md) ![Pictogram voor inzichten](media/service-dashboard-tiles/power-bi-insights.png)
      * [De tegel aan een ander dashboard vastmaken](service-pin-tile-to-another-dashboard.md)
        ![Speldpictogram](media/service-dashboard-tiles/pin-icon.jpg)

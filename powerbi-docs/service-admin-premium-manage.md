@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 24d585af19dd774cdf6fe7dafb66c12e02d311f9
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 5da624f92093111c1996d9b1c5080cd58a906a45
+ms.sourcegitcommit: 2bdcb9e9959302a35ee90a145e4ff832a02aacb9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38924787"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43250768"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Capaciteiten in Power BI Premium en Power BI Embedded beheren
 Meer informatie over het beheren van Power BI Premium- en Power BI Embedded-capaciteiten, die toegewezen resources voor uw inhoud bieden.
@@ -163,33 +163,8 @@ Zodra de werkruimte is opgeslagen, wordt de werkruimte en alle bijbehorende inho
 
 
 ## <a name="monitor-capacity-usage"></a>Capaciteitsgebruik bewaken
-Voor elke capaciteit kunt u metingen voor het gebruik van de CPU, het geheugen, geheugenthrashing en directe query zien. Het is raadzaam om deze metrische gegevens goed in de gaten te houden om ervoor te zorgen dat uw gebruikers goede prestaties bij uw capaciteit ervaren:
 
-![Gebruik van de afgelopen zeven dagen](media/service-admin-premium-manage/premium-dashboard-tiles.png)
-
-> [!NOTE]
-> Het capaciteitsgebruik van Power BI Embedded wordt bewaakt in de Azure Portal.
-
-| Metrische gegevens | Beschrijving |
-| --- | --- |
-| CPU |Aantal keer dat CPU-gebruik 80% of meer was. |
-| Geheugenthrashing |De geheugendruk van uw back-endkernen. Met deze gegevens wordt aangegeven hoe vaak gegevenssets uit het geheugen zijn verwijderd vanwege de geheugendruk door het gebruik van meerdere gegevenssets. |
-| Memory Usage |Gemiddeld geheugengebruik, in gigabytes (GB). |
-| DQ/s | Aantal keer dat het aantal DirectQuery- en liveverbindingen 80% van de limiet heeft overschreden. <br> <br> * We beperken het totale aantal query's per seconde voor DirectQuery en liveverbindingen.<br><br>* De limieten zijn 30/s voor P1, 60/s voor P2 en 120/s voor P3.<br><br> * De query's voor DirectQuery en liveverbindingen tellen beide een zwaar voor de bovenstaande limiet. Als u één seconde bijvoorbeeld 15 DirectQuery-query's en 15 query's voor een liveverbinding hebt, is u limiet bereikt.<br/><br>* Dit geldt ook voor on-premises- en cloudverbindingen. |
-
-Metrische gegevens geven het gebruik van de afgelopen week aan.  Als u een weergave met meer details wilt zien van de metrische gegevens, klikt u hiervoor op een van de samenvattingstegels.  Hiermee gaat u naar de gedetailleerde diagrammen voor elk van de metrische gegevens voor uw Premium-capaciteit.  Deze grafieken worden voor de afgelopen week per uur samengevat en kunnen helpen bij het isoleren wanneer u mogelijk specifieke, prestatiegerelateerde evenementen hebt gehad in uw Premium-capaciteit.  
-
-![Gedetailleerde gebruiksgrafiek CPU](media/service-admin-premium-manage/premium-usage-detailed-chart-cpu.png)
-
-![Geheugenthrashing gedetailleerde gebruiksgrafiek](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-thrashing.png)
-
-
-![Gedetailleerde gebruiksgrafiek Geheugengrootte](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-size.png)
-
-
-![Geheugenthrashing gedetailleerde gebruiksgrafiek](media/service-admin-premium-manage/premium-usage-detailed-chart-dq.png)
-
-U kunt ook de onderliggende gegevens voor elk van de metrische gegevens exporteren naar een csv-bestand.  Deze export biedt u gedetailleerde informatie voor elke dag van de afgelopen week, in stappen van drie minuten.
+Power BI bevat een app voor het bewaken van het capaciteitsgebruik. Zie [Capaciteiten van Power BI Premium in uw organisatie bewaken](service-admin-premium-monitor-capacity.md) voor meer informatie.
 
 ## <a name="what-premium-looks-like-for-users"></a>Wat betekent een Premium-capaciteit voor gebruikers
 Meestal hoeven gebruikers niet eens te weten dat ze zich in een Premium-capaciteit bevinden. Hun dashboards en rapporten werken gewoon. Als visuele hint wordt er een ruitvormig pictogram naast werkruimten in een Premium-capaciteit weergegeven.

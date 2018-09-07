@@ -2,20 +2,20 @@
 title: Statistische functies (som, gemiddelde, maximum, enzovoort) in visualisaties
 description: De aggregatie in een grafiek (som, gemiddelde, maximum, enz.) in Power BI wijzigen
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/04/2018
+ms.date: 08/29/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 39adfd04118362fa706f0840daa5c2520d899b5e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d48f99c8415b7b347a504525b0c6539d1e90f4dd
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247591"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241540"
 ---
 # <a name="aggregates-in-power-bi-visualizations"></a>Aggregaties in Power BI-visualisaties
 ## <a name="what-is-an-aggregate"></a>Wat is een statistische functie?
@@ -26,7 +26,7 @@ Wanneer Power BI-service en Power BI Desktop visualisaties maken, kunnen ze uw g
 Laten we eerst kijken naar de *typen* gegevens, omdat het type gegevens bepaalt hoe, en of, het kan worden geaggregeerd.
 
 ## <a name="types-of-data"></a>Typen gegevens
-De meeste gegevenssets hebben meer dan één type gegevens. Op het meest eenvoudige niveau zijn de gegevens numeriek of niet. Numerieke gegevens kunnen worden geaggregeerd met behulp van een som, gemiddelde, aantal, minimum, afwijking en nog veel meer. Zelfs tekstgegevens, vaak *categorische* gegevens genoemd, kunnen worden geaggregeerd. Als u probeert categorische velden te aggregeren (door in een bucket met alleen numerieke waarden, zoals **Waarden** of **Tooltips** te plaatsen), telt Power BI hoeveel keer elke categorie voorkomt of telt het programma het aantal unieke instanties van een categorie. En speciale typen gegevens, zoals datums, hebben een aantal opties voor aggregeren: eerste, laatste, eerste en laatste. 
+De meeste gegevenssets hebben meer dan één type gegevens. Op het meest eenvoudige niveau zijn de gegevens numeriek of niet. Numerieke gegevens kunnen worden geaggregeerd met behulp van een som, gemiddelde, aantal, minimum, afwijking en nog veel meer. Zelfs tekstgegevens, vaak *categorische* gegevens genoemd, kunnen worden geaggregeerd. Als u probeert categorische velden te aggregeren (door in een bucket met alleen numerieke waarden, zoals **Waarden** of **Tooltips** te plaatsen), telt Power BI hoeveel keer elke categorie voorkomt of telt het het aantal unieke instanties van een categorie. En speciale typen gegevens, zoals datums, hebben een aantal opties voor aggregeren: eerste, laatste, eerste en laatste. 
 
 In het voorbeeld hieronder:
 - zijn **Verkochte eenheden** en **Productieprijs** kolommen die numerieke gegevens bevatten
@@ -34,7 +34,7 @@ In het voorbeeld hieronder:
 
    ![](media/service-aggregates/power-bi-aggregate-chart.png)
 
-Wanneer u een visualisatie maakt in Power BI, worden numerieke velden geaggregeerd (de standaardwaarde is *som*) via een categorisch veld.  Bijvoorbeeld 'Verkochte eenheden ***per Product***', 'Verkochte eenheden ***per maand***' en 'Productieprijs ***per segment***'. Sommige numerieke velden worden ook wel **metingen** genoemd. U kunt metingen eenvoudig herkennen in de Power BI-rapporteditor -- in de lijst Velden worden metingen weergegeven met het symbool ∑. Ga naar [De rapporteditor... een rondleiding](service-the-report-editor-take-a-tour.md) voor meer informatie.
+Wanneer u een visualisatie maakt in Power BI, worden numerieke velden geaggregeerd (de standaardwaarde is *som*) via een categorisch veld.  Bijvoorbeeld 'Verkochte eenheden ***per Product***', 'Verkochte eenheden ***per maand***' en 'Productieprijs ***per segment***'. Sommige numerieke velden worden ook wel **metingen** genoemd. U kunt metingen eenvoudig herkennen in de Power BI-rapporteditor; in de lijst Velden worden metingen weergegeven met het symbool ∑. Zie [De rapporteditor... een rondleiding](service-the-report-editor-take-a-tour.md) voor meer informatie.
 
 ![](media/service-aggregates/power-bi-aggregate-fields.png)
 
@@ -78,7 +78,7 @@ Enkele opties die beschikbaar zijn voor de aggregatie van een veld:
 * **Aantal (uniek)**. Hiermee wordt het aantal verschillende waarden in het veld geteld.
 * **Standaarddeviatie**.
 * **Afwijking**.
-* **Mediaan**.  Hiermee wordt de mediaanwaarde (middelste waarde) weergegeven. Dit is de waarde met hetzelfde aantal boven- als onderliggende items.  Als er 2 medianen zijn, wordt het gemiddelde hiervan genomen in Power BI.
+* **Mediaan**.  Hiermee wordt de mediaanwaarde (middelste waarde) weergegeven. Dit is de waarde met hetzelfde aantal boven- als onderliggende items.  Als er twee medianen zijn, wordt het gemiddelde hiervan genomen.
 
 Neem bijvoorbeeld de volgende gegevens:
 
@@ -131,7 +131,7 @@ V: Mijn veld **is** numeriek, waarom kan ik alleen kiezen uit **Aantal** en **Un
 
 A1: Waarschijnlijk heeft de eigenaar van de gegevensset het veld per ongeluk of bewust *niet* geclassificeerd als een getal. Als een gegevensset bijvoorbeeld het veld **Jaar** bevat, kan de eigenaar van de gegevensset dat veld categoriseren als tekst, omdat het veld **Jaar** naar alle waarschijnlijkheid eerder wordt geteld (bijvoorbeeld het aantal mensen dat geboren is in 1974) dan dat het veld wordt opgeteld of dat er een gemiddelde van wordt genomen. Als u de eigenaar bent, kunt u de gegevensset openen in Power BI Desktop en het tabblad **Model maken** gebruiken om het gegevenstype te wijzigen.  
 
-A2: Als er een rekenmachinepictogram voor het veld wordt weergegeven, betekent dit dat het veld een *berekende meting* bevat. Elke berekende meting heeft een eigen in code vastgelegde formule die alleen kan worden gewijzigd door de eigenaar van een gegevensset. De berekening die wordt gebruikt, is mogelijk een eenvoudige aggregatie zoals een gemiddelde of som, maar er kunnen ook complexe berekeningen worden gebruikt. zoals een percentage voor de bijdrage aan de bovenliggende categorie of het voorlopige totaal vanaf het begin van het jaar. De resultaten worden niet opgeteld of gemiddeld in Power BI. In plaats daarvan wordt elk gegevenspunt opnieuw berekend (aan de hand van de in code vastgelegde formule).
+A2: Als er een rekenmachinepictogram voor het veld wordt weergegeven, betekent dit dat het veld een *berekende meting* bevat. Elke berekende meting heeft een eigen in code vastgelegde formule die alleen kan worden gewijzigd door de eigenaar van een gegevensset. De berekening die wordt gebruikt, is mogelijk een eenvoudige aggregatie zoals een gemiddelde of som, maar er kunnen ook complexe berekeningen worden gebruikt. zoals een percentage voor de bijdrage aan de bovenliggende categorie of het voorlopige totaal vanaf het begin van het jaar. De resultaten worden niet opgeteld of gemiddeld. In plaats daarvan wordt elk gegevenspunt opnieuw berekend (aan de hand van de in code vastgelegde formule).
 
 A3: Een andere mogelijkheid is dat u het veld in een *bucket* hebt geplaatst waarin alleen categorische waarden zijn toegestaan.  In dat geval beschikt u alleen over de opties Aantal en Uniek aantal.
 
@@ -139,6 +139,10 @@ A4: En een derde mogelijkheid is dat u het veld gebruikt voor een as. Er wordt i
 
 >[!NOTE]
 >Spreidingsdiagrammen vormen een uitzondering op deze regel. Deze diagrammen *vereisen* geaggregeerde waarden voor de x- en y-as.
+
+V: Waarom kan ik voor SSAS-gegevensbronnen geen tekstvelden aggregeren?
+
+A: Live verbindingen met SSAS MD staan geen aggregaties aan de clientzijde toe. Hieronder vallen eerste, laatste, gemiddelde, minimum maximum en som.
 
 V: Ik heb een spreidingsdiagram en ik wil *niet* dat mijn veld wordt geaggregeerd.  Hoe doe ik dit?
 

@@ -2,26 +2,26 @@
 title: Publiceren op internet vanuit Power BI
 description: Met Power BI publiceren op internet kunt u eenvoudig interactieve Power BI-visualisaties op elk apparaat online invoegen, zoals blogberichten, websites, e-mailberichten of sociale media.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/28/2018
-ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2e02b4dfe9798eed393a0097ef4f220746acfdf6
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: b305c684ccf0938cfa8f5d9a2aa06f27a8c8be12
+ms.sourcegitcommit: fb29c4bf7e598f962b453ac68091ca2189d6ae3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092340"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "43380331"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publiceren op internet vanuit Power BI
 
 Met Power BI **Publiceren op internet** kunt u eenvoudig interactieve Power BI-visualisaties op elk apparaat online invoegen, zoals blogberichten, websites, e-mailberichten of sociale media.
 
-U kunt uw gepubliceerde visuele elementen ook gemakkelijk bewerken, bijwerken en vernieuwen of het delen ervan opheffen.
+U kunt uw gepubliceerde visuele elementen ook eenvoudig bewerken, bijwerken en vernieuwen of het delen ervan opheffen.
 
 > [!WARNING]
 > Als u **Publiceren op internet** gebruikt, kan het rapport of het visuele element dat u publiceert door iedereen op het internet worden bekeken. Er wordt geen verificatie gebruikt bij het weergeven van deze rapporten. Gebruik Publiceren op internet alleen voor rapporten en gegevens die iedereen op het internet (niet-geverifieerde leden of openbaar) mag zien. Dit omvat gegevens op detailniveau die in uw rapporten zijn opgenomen. Zorg voordat u dit rapport publiceert dat u bevoegd bent gegevens en visualisaties openbaar te delen. Publiceer geen vertrouwelijke gegevens of eigendomsinformatie. Controleer bij twijfel vóór publicatie de beleidsregels van uw organisatie.
@@ -128,15 +128,16 @@ Aangepaste visuele elementen worden ondersteund in **Publiceren op internet**. W
 
 **Publiceren op internet** wordt ondersteund voor de meeste gegevensbronnen en rapporten in de Power BI-service. De volgende opties worden **momenteel echter niet ondersteund of zijn niet beschikbaar** voor Publiceren op internet:
 
-1. Rapporten met beveiliging op rijniveau.
-2. Rapporten die als gegevensbron gebruikmaken van Live Connection, waaronder Analysis Services Tabular dat on-premises wordt gehost, Analysis Services Multidimensional en Azure Analysis Services.
-3. Rapporten die direct of via een organisatie-inhoudspakket met u worden gedeeld.
-4. Rapporten in een groep waarvan u geen lid bent met machtigingen voor bewerken.
-5. Visuele R-elementen worden momenteel niet ondersteund in Publiceren op internet-rapporten.
-6. Exporteren van gegevens uit de visuele elementen in een rapport dat is gepubliceerd naar het web
-7. ArcGIS Maps for Power BI visuals
-8. Rapporten met DAX-metingen op rapportniveau
-9. [Beveilig vertrouwelijke of eigendomsinformatie](#publish-to-web-from-power-bi)
+- Rapporten met beveiliging op rijniveau.
+- Rapporten die als gegevensbron gebruikmaken van Live Connection, waaronder Analysis Services Tabular dat on-premises wordt gehost, Analysis Services Multidimensional en Azure Analysis Services.
+- Rapporten die direct of via een organisatie-inhoudspakket met u worden gedeeld.
+- Rapporten in een groep waarvan u geen lid bent met machtigingen voor bewerken.
+- Visuele R-elementen worden momenteel niet ondersteund in Publiceren op internet-rapporten.
+- Exporteren van gegevens uit de visuele elementen in een rapport dat is gepubliceerd naar het web
+- ArcGIS Maps for Power BI visuals
+- Rapporten met DAX-metingen op rapportniveau
+- Gegevensquerymodellen voor eenmalige aanmelding
+- [Beveilig vertrouwelijke of eigendomsinformatie](#publish-to-web-from-power-bi)
 
 ## <a name="tenant-setting"></a>Tenantinstelling
 
@@ -144,7 +145,7 @@ Power BI-beheerders kunnen de functie voor publiceren op internet in- of uitscha
 
 |Functie |Ingeschakeld voor de hele organisatie |Uitgeschakeld voor de hele organisatie |Specifieke beveiligingsgroepen   |
 |---------|---------|---------|---------|
-|**Publiceren op internet** onder het menu **Bestand** van het rapport.|Ingeschakeld voor iedereen|Niet zichtbaar voor iedereen|Alleen zichtbaar voor gemachtigde gebruikers of groepen.|
+|**Publiceren op internet** onder het menu **Bestand** van het rapport.|Ingeschakeld voor iedereen|Niet voor iedereen zichtbaar|Alleen zichtbaar voor gemachtigde gebruikers of groepen.|
 |**Invoegcodes beheren** onder **Instellingen**|Ingeschakeld voor iedereen|Ingeschakeld voor iedereen|Ingeschakeld voor iedereen<br><br>Optie * **Verwijderen** alleen voor gemachtigde gebruikers of groepen.<br>* **Ophalen van codes** ingeschakeld voor iedereen.|
 |**Codes invoegen** binnen de beheerportal|De status geeft een van de volgende opties weer:<br>* Actief<br>* Niet ondersteund<br>* Geblokkeerd|De status geeft **Uitgeschakeld** weer|De status geeft een van de volgende opties weer:<br>* Actief<br>* Niet ondersteund<br>* Geblokkeerd<br><br>Als een gebruiker niet is geautoriseerd op basis van de tenantinstelling, wordt de status weergegeven als **geschonden**.|
 |Bestaande gepubliceerde rapporten|Iedereen ingeschakeld|Iedereen uitgeschakeld|Rapporten blijven weergeven voor iedereen.|
