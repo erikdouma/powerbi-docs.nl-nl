@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: kfile
 LocalizationGroup: Reports
-ms.openlocfilehash: 2e8888679f36b64a6fc5956a9ca10dc3d07dce1a
-ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
+ms.openlocfilehash: 08ead2570602538218085327c6d385c36e0d7e8c
+ms.sourcegitcommit: 8bad5ed58e9e406aca53996415b1240c2972805e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "40257261"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "44343318"
 ---
 # <a name="power-bi-performance-best-practices"></a>Aanbevolen procedures voor de prestaties van Power BI 
 Dit artikel biedt informatie voor het snel maken van betrouwbare rapporten in Power BI.  
@@ -59,7 +59,7 @@ Het volgende gedeelte bevat algemene aanbevelingen voor het maken van een verbin
 - Breng berekende kolommen en metingen waar mogelijk dichter naar de bron. Hoe dichter bij de bron, hoe hoger de kans op prestaties. 
 - Optimaliseer. Krijg inzicht in de uitvoering van voor uw query's, voeg indexen toe voor vaak gefilterde kolommen, enzovoort. 
 
-### <a name="modelling-guidance"></a>Richtlijnen voor modellering 
+### <a name="modeling-guidance"></a>Richtlijnen voor modellering 
 - Start in Power BI Desktop. 
 - Vermijd complexe query's in Query-Editor. 
 - Gebruik geen relatieve datumfiltering in de Query-Editor.  
@@ -110,7 +110,7 @@ Ga hiervoor als volgt te werk:
 
    In de uitvoer wordt een lijst met toepassingen en hun open poorten weergegeven, bijvoorbeeld:  
 
-   TCP    [::1]:55786            [::1]:55830            TOT STAND GEBRACHT 
+   `TCP    [::1]:55786            [::1]:55830            ESTABLISHED`
 
    [msmdsrv.exe] 
 
