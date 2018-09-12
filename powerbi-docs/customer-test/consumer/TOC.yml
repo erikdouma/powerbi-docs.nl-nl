@@ -1,0 +1,197 @@
+items:
+- name: Power BI voor consumenten
+  href: power-bi-consumer-overview.md
+- name: Power BI-service op het web
+  items:
+  - name: Overzicht
+    items:
+    - name: Wat is Power BI?
+      href: ../../service-basic-concepts.md
+  - name: Snelstarts
+    items:
+    - name: Kennismaken met Power BI
+      href: ../../service-the-new-power-bi-experience.md
+  - name: Concepten
+    items:
+    - name: Wat is er nieuw in de Power BI-service
+      href: ../../service-whats-new.md
+    - name: Aanmelding via self-service
+      href: ../../service-self-service-signup-for-power-bi.md
+    - name: Inhoud zoeken en sorteren
+      href: ../../service-navigation-search-filter-sort.md
+    - name: Gerelateerde inhoud
+      href: ../../service-related-content.md
+    - name: Recente inhoud
+      href: ../../service-recent.md
+    - name: Inschrijven voor Power BI Preview-functies
+      href: ../../service-preview-features.md
+    - name: Dashboards in Power BI
+      href: ../../service-dashboards.md
+    - name: Q&A in Power BI
+      href: ../../power-bi-q-and-a.md
+    - name: Rapporten in Power BI
+      href: ../../service-reports.md
+    - name: Inleiding tot Cortana voor Power BI
+      href: ../../service-cortana-intro.md
+    - name: Dashboardtegels in Power BI
+      href: ../../service-dashboard-tiles.md
+    - name: Gedeeld met mij
+      href: ../../service-shared-with-me.md
+    - name: Gegevens vernieuwen in Power BI
+      href: ../../refresh-data.md
+    - name: Veelgestelde vragen
+      href: ../../service-frequently-asked-questions.md
+    - name: Power BI voor de Amerikaanse overheid
+      href: ../../service-govus-overview.md
+    - name: Power BI Gratis vs Pro
+      href: ../../service-free-vs-pro.md
+    - name: 10 tips om hulp te krijgen
+      href: ../../service-tips-for-finding-help.md
+    - name: Over filters en markeren in Power BI-rapporten
+      href: ../../power-bi-reports-filters-and-highlighting.md
+  - name: Werkwijze
+    items:
+    - name: Algemene taken
+      items:
+      - name: Favoriete dashboards, rapporten en apps in Power BI
+        href: ../../service-dashboard-favorite.md
+      - name: Een dashboardtegel weergeven in focusmodus
+        href: ../../service-focus-mode.md
+      - name: Een dashboard afdrukken, een dashboardtegel afdrukken, een rapportpagina afdrukken
+        href: ../../service-print.md
+      - name: De naam van inhoud in Power BI wijzigen
+        href: ../../service-rename.md
+      - name: Dashboards en rapporten weergeven in een volledig scherm (tv-modus)
+        href: ../../service-fullscreen-mode.md
+      - name: Inhoud in Power BI verwijderen
+        href: ../../service-delete.md
+      - name: Uw Amerikaanse overheidsorganisatie inschrijven
+        href: ../../service-govus-signup.md
+      - name: Gegevenswaarschuwingen in Power BI-service
+        href: ../../service-set-data-alerts.md
+      - name: Tips en trucs voor het stellen van vragen met Q&A in Power BI
+        href: ../../service-q-and-a-tips.md
+      - name: Apps installeren en gebruiken met dashboards en rapporten
+        href: ../../service-install-use-apps.md
+      - name: Een organisatie-inhoudspakket zoeken en er verbinding mee maken
+        href: ../../service-organizational-content-pack-find-and-open.md
+      - name: Aan de slag met Power BI Q&A
+        href: ../../power-bi-visualization-introduction-to-q-and-a.md
+    - name: Dashboards
+      items:
+      - name: Aanbevolen dashboards in Power BI
+        href: ../../service-dashboard-featured.md
+      - name: Centraal meldingencentrum Power BI
+        href: ../../service-notification-center.md
+      - name: Dashboardthema’s
+        href: ../../service-dashboard-themes.md
+    - name: Rapporten
+      items:
+      - name: Veel manieren om een rapport te openen
+        href: ../../service-report-open.md
+      - name: Wijzigen hoe een grafiek wordt gesorteerd in een Power BI-rapport
+        href: ../../power-bi-report-change-sort.md
+      - name: Gegevens exporteren vanaf een visualisatie
+        href: ../../power-bi-visualization-export-data.md
+      - name: Rapportfilters gebruiken
+        href: ../../power-bi-how-to-report-filter.md
+      - name: Abonneren op een rapport of dashboard
+        href: ../../service-report-subscribe.md
+- name: Power BI - Mobiel-apps
+  items:
+  - name: Overzicht
+    items:
+    - name: Wat zijn de mobiele apps?
+      href: ../../mobile-apps-for-mobile-devices.md
+  - name: Snelstarts
+    items:
+    - name: Dashboards en rapporten verkennen
+      href: ../../mobile-apps-quickstart-view-dashboard-report.md
+  - name: Zelfstudies
+    items:
+    - name: Vragen stellen in de mobiele iOS-apps
+      href: ../../tutorial-mobile-apps-ios-qna.md
+  - name: Concepten
+    items:
+    - name: Wat is er nieuw in de mobiele apps
+      href: ../../mobile-whats-new-in-the-mobile-apps.md
+    - name: Echte gegevens ophalen met de mobiele apps
+      href: ../../mobile-apps-data-in-real-world-context.md
+    - name: Gegevens offline weergeven in de mobiele apps
+      href: ../../mobile-apps-offline-data.md
+    - name: De app Power BI for Mixed Reality (preview)
+      href: ../../mobile-mixed-reality-app.md
+  - name: Procedures
+    items:
+    - name: Alle mobiele apps
+      items:
+      - name: On-premises rapporten weergeven in de mobiele apps
+        href: ../../mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+      - name: Een dashboard delen vanuit de mobiele Power BI-apps
+        href: ../../mobile-share-dashboard-from-the-mobile-apps.md
+      - name: Werken met tegels in de mobiele apps
+        href: ../../mobile-tiles-in-the-mobile-apps.md
+      - name: Favorieten in de mobiele apps
+        href: ../../mobile-apps-favorites.md
+      - name: Gegevenswaarschuwingen instellen in de mobiele Power BI-apps
+        href: ../../mobile-set-data-alerts-in-the-mobile-apps.md
+      - name: Meldingen ontvangen in de mobiele Power BI-apps
+        href: ../../mobile-apps-notification-center.md
+      - name: Een dieptekoppeling maken die naar een specifieke locatie verwijst
+        href: ../../mobile-apps-deep-link-specific-location.md
+      - name: Rapporten op locatie filteren in de mobiele Power BI-apps
+        href: ../../mobile-apps-geographic-filtering.md
+      - name: Met Power BI een QR-code scannen met uw telefoon
+        href: ../../mobile-apps-qr-code.md
+      - name: Dashboards voor de mobiele versie van Power BI
+        href: ../../mobile-apps-view-dashboard.md
+      - name: Rapporten weergeven die zijn geoptimaliseerd voor uw telefoon
+        href: ../../mobile-apps-view-phone-report.md
+      - name: Rapporten in de mobiele apps
+        href: ../../mobile-reports-in-the-mobile-apps.md
+      - name: OAuth gebruiken om verbinding te maken met Reporting Services
+        href: ../../mobile-oauth-ssrs.md
+      - name: Mobiele apps configureren met Intune
+        href: ../../service-admin-mobile-intune.md
+    - name: Android-apparaten
+      items:
+      - name: Aan de slag met de Android-app
+        href: ../../mobile-android-app-get-started.md
+      - name: De fout 'Uw zakelijke SSL-certificaat wordt niet vertrouwd' oplossen
+        href: ../../mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+      - name: De fout 'Android Systeem WebView moet worden bijgewerkt' oplossen
+        href: ../../mobile-android-error-update-android-system-webview.md
+    - name: iOS
+      items:
+      - name: Aan de slag met de iOS-app
+        href: ../../mobile-iphone-app-get-started.md
+      - name: Virtuele Q&A-analist in mobiele iOS-apps
+        href: ../../mobile-apps-ios-qna.md
+      - name: Power BI-app voor de Apple Watch
+        href: ../../mobile-apple-watch.md
+      - name: Een streepjescode met de app op uw iPhone scannen
+        href: ../../mobile-apps-scan-barcode-iphone.md
+    - name: iOS en Android
+      items:
+      - name: Aantekeningen toevoegen en delen in de mobiele apps
+        href: ../../mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
+    - name: Power BI-app voor Windows 10-apparaten
+      items:
+      - name: Aan de slag met de mobiele app voor Windows 10
+        href: ../../mobile-windows-10-phone-app-get-started.md
+      - name: Een dashboard aan het startscherm vastmaken
+        href: ../../mobile-pin-dashboard-start-screen-windows-10-phone-app.md
+      - name: De mobiele rapporten en KPI's van Reporting Services weergeven in de app voor Windows 10
+        href: ../../mobile-app-windows-10-ssrs-kpis-mobile-reports.md
+      - name: Power BI op Surface Hub weergeven
+        href: ../../mobile-windows-10-app-presentation-mode.md
+  - name: Resources
+    items:
+    - name: Ondersteunde talen in de mobiele apps
+      href: ../../mobile-apps-supported-languages.md
+ms.openlocfilehash: bf5934cb6de5ee7c1252fbd871c02589dd377d58
+ms.sourcegitcommit: 8bad5ed58e9e406aca53996415b1240c2972805e
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "44343558"
