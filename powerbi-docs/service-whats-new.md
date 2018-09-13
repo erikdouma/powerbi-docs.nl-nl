@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/06/2018
+ms.date: 08/27/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 750dbf2593981e8fc9ad5f2f66219d6bf6fd641c
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: d7f966834e2d6b44f3a887991bd0ebd6e38836f0
+ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137463"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "44044343"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Wat is er nieuw in de Power BI-service
@@ -31,27 +31,37 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="may-2018"></a>Mei 2018
-* [Themadashboards](https://docs.microsoft.com/en-us/power-bi/service-dashboard-themes) in Power BI-service.
-* [Incrementeel vernieuwen](https://docs.microsoft.com/en-us/power-bi/service-premium-incremental-refresh) met Premium.
-* Werkstroom voor toegang aanvragen voor [Power BI-apps](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps).
-* Updates van Gegevens ophalen om het gebruikers gemakkelijker te maken [Power BI-apps](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps) te vinden.
-* Instellingen om [permanente filters](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/) in en uit te schakelen in Power BI-service.
-* Verbeteringen in de werkstroom van Azure B2B voor uitnodigingen voor rapporten.
+## <a name="august-2018"></a>Augustus 2018
+* Verbeteringen aan het [Raport URL-filter](service-url-filters.md) van Power BI.
 
 ## <a name="previous-months-2018"></a>Vorige maanden (2018)
+### <a name="july-2018"></a>Juli 2018
+* [API's en PowerShell Cmdlets](https://powerbi.microsoft.com/blog/announcing-apis-and-powershell-cmdlets-for-power-bi-administrators/) voor Power BI-beheerders.
+
+### <a name="june-2018"></a>Juni 2018
+* Rapporten met filters en slicers delen.
+* Nieuwe en verbeterde gebruikersinterface voor [gatewayverbindingen](https://powerbi.microsoft.com/blog/easier-set-up-of-datasets-in-power-bi/) en het instellen van gegevenssets.
+
+### <a name="may-2018"></a>Mei 2018
+* [Themadashboards](https://docs.microsoft.com/power-bi/service-dashboard-themes) in Power BI-service.
+* [Incrementeel vernieuwen](https://docs.microsoft.com/power-bi/service-premium-incremental-refresh) met Premium.
+* Werkstroom voor toegang aanvragen voor [Power BI-apps](https://docs.microsoft.com/power-bi/service-create-distribute-apps).
+* Updates van Gegevens ophalen om het gebruikers gemakkelijker te maken [Power BI-apps](https://docs.microsoft.com/power-bi/service-create-distribute-apps) te vinden.
+* Instellingen om [permanente filters](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) in en uit te schakelen in Power BI-service.
+* Verbeteringen in de werkstroom van Azure B2B voor uitnodigingen voor rapporten.
+
 ### <a name="april-2018"></a>April 2018
-* [Technisch document over Power BI en de AVG](http://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
+* [Power BI Whitepaper over gegevensbescherming](http://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
 * [Auditlogboeken](https://docs.microsoft.com/power-bi/service-admin-auditing) van de Power BI-service worden standaard ingeschakeld voor Office 365-tenant.
 
 ### <a name="march-2018"></a>Maart 2018
-* [Permanente filters](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/) in de Power BI-service.
-* Inhoud delen met gebruikers via hun persoonlijke e-mailaccount. Uitbreiding van [Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/).
+* [Permanente filters](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) in de Power BI-service.
+* Inhoud delen met gebruikers via hun persoonlijke e-mailaccount. Uitbreiding van [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/).
 
 ### <a name="february-2018"></a>Februari 2018
-* Automatisch [Power BI-apps](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps) voor eindgebruikers installeren.
+* Automatisch [Power BI-apps](https://docs.microsoft.com/power-bi/service-create-distribute-apps) voor eindgebruikers installeren.
 * P4- en P5-capaciteiten in Power BI Premium
-* Preview van [aangepaste visuals voor organisaties](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-organization).
+* Preview van [aangepaste visuals voor organisaties](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-organization).
 
 ### <a name="january-2018"></a>Januari 2018
 *   Power BI-rapporten delen en aan uw favorieten toevoegen.
@@ -63,12 +73,12 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 
 ## <a name="previous-months-2017"></a>Vorige maanden (2017)
 ## <a name="october-and-november-2017"></a>Oktober en november 2017
-*   Selectieve publicatie van inhoud met [Power BI-apps](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps).
-*   Distributie naar externe gebruikers met [Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/).
+*   Selectieve publicatie van inhoud met [Power BI-apps](https://docs.microsoft.com/power-bi/service-create-distribute-apps).
+*   Distributie naar externe gebruikers met [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/).
 * Door AI gegenereerde aanbevelingen voor apps.
 * Updates voor de gebruikersinterface in dashboardtegels.
 * Ondersteuning voor e-mailabonnementen voor apps. 
-* Gedetailleerde controle voor de beheerder over [publiceren op internet](https://docs.microsoft.com/en-us/power-bi/service-admin-portal#export-and-sharing-settings).
+* Gedetailleerde controle voor de beheerder over [publiceren op internet](https://docs.microsoft.com/power-bi/service-admin-portal#export-and-sharing-settings).
 
 ## <a name="september-2017"></a>September 2017
 * Deel in de Premium-capaciteit dashboards met gebruikers die geen Power BI Pro-licentie hebben.

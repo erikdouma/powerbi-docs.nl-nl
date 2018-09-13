@@ -2,31 +2,31 @@
 title: Recent bezochte inhoud weergeven in Power BI
 description: Documentatie over recente geopende inhoud in Power BI
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2018
+ms.date: 09/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: c3d75f6cada62e7fc1dd026a4bdfa1daa8e94153
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ae57617b1b70a3ed6181ab164accb69dac29779c
+ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34250926"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "44044205"
 ---
 # <a name="recent-content-in-power-bi-service"></a>**Recente** inhoud in Power BI-service
 
 
 ## <a name="what-is-recent-content"></a>Wat is recente inhoud
-Recente inhoud zijn de laatste items die u hebt bezocht. Dit zijn maximaal 20 items.  Deze omvatten: dashboards, rapporten, apps en de werkmappen voor al uw werkruimten.
+Recente inhoud bevat de laatste items die u hebt bezocht in de Power BI-service, tot een maximum van 20 items.  Deze omvatten: dashboards, rapporten, apps en de werkmappen voor al uw werkruimten.
 
 ![Venster Recente inhoud](media/service-recent/power-bi-recent-screen.png)
 
-Kijk hoe Amanda laat zien hoe inhoudslijsten voor **Recent** worden gevuld. Volg vervolgens de stapsgewijze instructies onder de video om het zelf te proberen.
+Bekijk hoe Amanda laat zien hoe de lijsten met **Recente** inhoud van de Power BI-service worden ingevuld, volg daarna de stap-voor-stap instructies onder de video om het zelf uit te proberen.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
 

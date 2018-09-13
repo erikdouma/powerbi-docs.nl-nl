@@ -535,6 +535,8 @@ items:
     items:
     - name: Wat is er nieuw in de meest recente update voor Power BI Desktop?
       href: desktop-latest-update.md
+    - name: Aggregaties in Power BI Desktop (preview-versie)
+      href: desktop-aggregations.md
     - name: Samengestelde modellen in Power BI Desktop (preview-versie)
       href: desktop-composite-models.md
     - name: Veel-op-veelrelaties in Power BI Desktop (preview-versie)
@@ -601,6 +603,8 @@ items:
         href: desktop-import-excel-workbooks.md
       - name: Verbinding met gegevens maken via algemene interfaces
         href: desktop-connect-using-generic-interfaces.md
+      - name: Verbinding maken met een PDF-bestand
+        href: desktop-connect-pdf.md
       - name: Verbinding maken met Adobe Analytics
         href: desktop-connect-adobe-analytics.md
       - name: Verbinding maken met een Oracle-database
@@ -683,6 +687,8 @@ items:
       items:
       - name: Visuele elementen voor rapporten
         href: desktop-visual-elements-for-reports.md
+      - name: Knopinfo maken op basis van rapportpagina's
+        href: desktop-tooltips.md
       - name: Exporteren naar PDF en rapporten afdrukken
         href: desktop-export-to-pdf.md
       - name: Q&A in Power BI Desktop
@@ -1346,9 +1352,9 @@ items:
       href: service-admin-power-bi-security.md
     - name: Power BI voor Office 365 is overgegaan naar Power BI
       href: service-admin-o365portal-retired.md
-ms.openlocfilehash: 55614628ef823534357fa7e1700e21417e821ca6
-ms.sourcegitcommit: 37bb070a71a658cba7ed421feef65015e8b515ae
+ms.openlocfilehash: 7058954c3269da6f3802454c439671989bdcb52e
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "43821726"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512197"
