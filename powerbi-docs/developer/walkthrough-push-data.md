@@ -2,26 +2,28 @@
 title: Gegevens naar een gegevensset pushen
 description: Gegevens naar een Power BI-gegevensset pushen
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
-ms.author: maghan
-ms.openlocfilehash: 1cc19d1ceefb95e0cb56e2a5dcbcc89609f654d5
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 01bcc545d3ba8edb23ef583467322401780e657d
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598544"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974179"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Gegevens naar een Power BI-gegevensset pushen
+
 Met de Power BI API kunt u gegevens pushen naar een Power BI-gegevensset. Stel, u wilt een bestaande zakelijke werkstroom uitbreiden om belangrijke gegevens naar uw gegevensset te pushen. In dit geval wilt u de gegevensset Sales Marketing, die de tabel Product bevat, pushen naar een gegevensset.
 
 Voordat u de gegevens naar een gegevensset gaat pushen, hebt u een Azure Active Directory (Azure AD) en een [Power BI-account](create-an-azure-active-directory-tenant.md) nodig.
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>Stappen om gegevens naar een gegevensset te pushen
+
 * Stap 1: [Een app bij Azure AD registreren](walkthrough-push-data-register-app-with-azure-ad.md)
 * Stap 2: [Een toegangstoken voor verificatie ophalen](walkthrough-push-data-get-token.md)
 * Stap 3: [Een gegevensset maken in Power BI](walkthrough-push-data-create-dataset.md)
@@ -31,6 +33,7 @@ Voordat u de gegevens naar een gegevensset gaat pushen, hebt u een Azure Active 
 Het volgende gedeelte bevat een algemene bespreking van Power BI API-bewerkingen die gegevens pushen.
 
 ## <a name="power-bi-api-operations-to-push-data"></a>Power BI API-bewerkingen om gegevens te pushen
+
 Met de REST-API voor Power BI kunt u gegevensbronnen pushen naar Power BI. Wanneer een app rijen toevoegt aan een gegevensset, worden de tegels op het dashboard automatisch bijgewerkt met de bijgewerkte gegevens. Als u gegevens wilt pushen, gebruikt u de bewerking [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) samen met de bewerking [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows). Als u een gegevensset zoekt, gebruikt u de bewerking [Gegevenssets ophalen](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets). Voor elk van deze bewerkingen kunt u een groeps-id doorgeven als u wilt werken met een groep. Gebruik de bewerking [Groepen ophalen](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups) om een lijst met groeps-id's op te halen.
 
 Met de volgende bewerkingen kunt u gegevens naar een gegevensset pushen:
@@ -108,13 +111,14 @@ Voor een Power BI-tabelschema kunt u de volgende gegevenstypen gebruiken.
 | Tekenreeks |Momenteel zijn maximaal 128.000 tekens toegestaan. |
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Meer informatie over het pushen van gegevens naar Power BI
+
 Als u gegevens wilt gaan pushen naar een gegevensset, leest u [Stap 1: Een app bij Azure AD registreren](walkthrough-push-data-register-app-with-azure-ad.md) in het navigatievenster links.
 
 [Volgende stap >](walkthrough-push-data-register-app-with-azure-ad.md)
 
 ## <a name="next-steps"></a>Volgende stappen
+
 [Registreren voor Power BI](create-an-azure-active-directory-tenant.md)  
 [Inleiding tot JSON](http://json.org/)  
 [Overview of Power BI REST API](overview-of-power-bi-rest-api.md) (Overzicht van de REST-API voor Power BI)  
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
-
