@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 08a7740d1a44c4a5e8ef961100c38f3bc4622fd8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: ff51b2e41d921b7a88afc9b13bb4ecd98814d12e
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721956"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727968"
 ---
 # <a name="add-comments-to-a-report-in-a-report-server"></a>Opmerkingen toevoegen aan een rapport in een rapportserver
 In de webportal van een rapportserver kunt u opmerkingen toevoegen aan rapporten, waaronder Power BI-rapporten. De opmerkingen staan live bij het rapport en iedereen met de juiste machtigingen ziet de opmerkingen voor het rapport. Zie de sectie [Machtigingen](#permissions) hieronder voor meer informatie.
@@ -33,7 +33,7 @@ In de webportal van een rapportserver kunt u opmerkingen toevoegen aan rapporten
     Uw opmerking wordt in het deelvenster op het webportaal weergegeven, samen met eventuele vorige opmerkingen. Ze worden niet weergegeven bij het rapport op in de mobiele Power BI-apps.
    
    > [!TIP]
-   > Wist u dat? U kunt [aantekeningen toevoegen aan Power BI-rapporten in de mobiele Power BI-apps](../mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) en de rapporten met aantekeningen met anderen delen.
+   > Wist u dat? U kunt [aantekeningen toevoegen aan Power BI-rapporten in de mobiele Power BI-apps](../consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) en de rapporten met aantekeningen met anderen delen.
    > 
    > 
 

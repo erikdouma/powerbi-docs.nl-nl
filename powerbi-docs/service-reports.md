@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: da9a4ffad948a43077d864e442af36b0db6bb617
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 80e5b31f4fd8e59333848da26995388874d1746c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136957"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728037"
 ---
 # <a name="reports-in-power-bi"></a>Rapporten in Power BI
 ## <a name="what-is-a-power-bi-report"></a>Wat is een Power BI-rapport?
@@ -27,7 +27,7 @@ Dit rapport heeft 3 pagina's (of tabbladen) en momenteel wordt de overzichtspagi
 
 Als u geen ervaring hebt met Power BI kunt u een goede basis leggen door de [basisconcepten van Power BI](service-basic-concepts.md) te lezen
 
-Rapporten zijn een functie van Power BI-service en Power BI Desktop. De ervaring van het werken met rapporten is bijna identiek. Voor mobiel kunt u echter geen rapporten aanmaken, maar u kunt wel rapporten [weergeven, delen en aantekeningen maken](mobile-reports-in-the-mobile-apps.md).
+Rapporten zijn een functie van Power BI-service en Power BI Desktop. De ervaring van het werken met rapporten is bijna identiek. Voor mobiel kunt u echter geen rapporten aanmaken, maar u kunt wel rapporten [weergeven, delen en aantekeningen maken](consumer/mobile/mobile-reports-in-the-mobile-apps.md).
 
 ## <a name="advantages-of-reports"></a>Voordelen van rapporten
 Rapporten zijn gebaseerd op een enkele gegevensset. De visualisaties in een rapport vertegenwoordigen een schat aan informatie. En de visualisaties zijn niet statisch; u kunt gegevens toevoegen en verwijderen, visualisatietypen wijzigen en filters en slicers toepassen terwijl u zich verder in de gegevens verdiept om inzichten te ontdekken en antwoorden te zoeken. Net als een dashboard, maar dan nog meer, is een rapport zeer interactief en zeer aanpasbaar en de visualisaties worden bijgewerkt naarmate de onderliggende gegevens veranderen.

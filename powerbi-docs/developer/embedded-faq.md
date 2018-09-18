@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: c1f9da598abee29a1d8eef0419fcb472f0a1467e
-ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
+ms.openlocfilehash: e83224932048aeab2dde6187eb217da7d89fed85
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43241517"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558559"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Veelgestelde vragen over Power BI Embedded
 
@@ -79,7 +79,7 @@ Hier volgt een (niet volledige) lijst met verschillen tussen de versies.
 |  |A-SKU (Power BI Embedded)  |EM-SKU (Power BI Premium)  |P-SKU (Power BI Premium)  |
 |---------|---------|---------|---------|
 |Kopen  |Azure-portal |Office |Office |
-|Gebruiksvoorbeelden | Inhoud insluiten in uw eigen toepassing | <li> Inhoud insluiten in uw eigen toepassing <br><br></br> <li> Inhoud insluiten in Microsoft Office-toepassingen: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (uitgezonderd de mobiele app)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> Inhoud insluiten in uw eigen toepassing <br><br></br> <li> Inhoud insluiten in Microsoft Office-toepassingen: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (uitgezonderd de mobiele app)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br></br> <li> Inhoud delen met gebruikers van Power BI via [Power BI-service](https://powerbi.microsoft.com/en-us/)  |
+|Gebruiksvoorbeelden | Inhoud insluiten in uw eigen toepassing | <li> Inhoud insluiten in uw eigen toepassing <br><br></br> <li> Inhoud insluiten in Microsoft Office-toepassingen: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (uitgezonderd de mobiele app)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> Inhoud insluiten in uw eigen toepassing <br><br></br> <li> Inhoud insluiten in Microsoft Office-toepassingen: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (uitgezonderd de mobiele app)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br></br> <li> Inhoud delen met gebruikers van Power BI via [Power BI-service](https://powerbi.microsoft.com/en-us/)  |
 |Facturering |Per uur |Per maand |Per maand |
 |Min. periode  |Geen minimumperiode |Jaar  |Maand/jaar |
 |Differentiatie |Volledige elasticiteit: omhoog/omlaag schalen, resources onderbreken/hervatten in Azure-portal of via API  |Kan worden gebruikt voor het insluiten van inhoud in SharePoint Online en Microsoft Teams (uitgezonderd de mobiele app) |Insluiten in toepassingen combineren met het gebruik van de Power BI-service in dezelfde capaciteit |
@@ -133,7 +133,7 @@ Ja, er zijn Powershell-cmdlets en API's voor Azure Resource Manager (ARM) die u 
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>Wat is de rol van de toegewezen PBI Embedded-capaciteit in een PBI Embedded-oplossing?
 
-Als u [uw oplossing wilt verhogen naar productie](https://docs.microsoft.com/en-us/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production), moet u de Power BI-inhoud (app-werkruimte) die u in uw toepassing gebruikt, toewijzen aan een Power BI Embedded (A SKU)-capaciteit.
+Als u [uw oplossing wilt verhogen naar productie](https://docs.microsoft.com/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production), moet u de Power BI-inhoud (app-werkruimte) die u in uw toepassing gebruikt, toewijzen aan een Power BI Embedded (A SKU)-capaciteit.
 
 ### <a name="what-are-the-azure-regions-pbi-embedded-is-available"></a>Wat zijn de Azure-regio's waar PBI Embedded beschikbaar is?
 
@@ -158,11 +158,11 @@ De verificatie en autorisatie van de toepassingsgebruikers wordt geïmplementeer
 
 Als u al een Azure AD-tenant hebt, kunt u uw bestaande adreslijst gebruiken of u kunt een nieuwe Azure AD-tenant maken voor de beveiliging van de inhoud van uw ingesloten toepassing.
 
-Als u een AAD-token wilt ophalen, kunt u één van de Azure Active Directory-verificatiebibliotheken gebruiken: https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries. Er zijn clientbibliotheken beschikbaar voor meerdere platformen.
+Als u een AAD-token wilt ophalen, kunt u één van de Azure Active Directory-verificatiebibliotheken gebruiken: https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries. Er zijn clientbibliotheken beschikbaar voor meerdere platformen.
 
 ### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>Mijn toepassing gebruikt al AAD voor verificatie van de gebruiker. Hoe kunnen we deze identiteit gebruiken bij de verificatie bij Power BI in een scenario waarin de gebruiker eigenaar is van de gegevens? 
 
-Het is standaard OAuth on-behalf-of flow (https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api) de toepassing moet zo worden geconfigureerd dat machtigingen zijn vereist voor Power BI-service (met de vereiste bereiken). Zodra u een gebruikerstoken voor uw app hebt, roept u de ADAL-API AcquireTokenAsync aan met het token voor gebruikerstoegang en geeft u de Power BI resource-URL op als de resource-id. Hieronder ziet u een voorbeeld van hoe u dit kunt doen:
+Het is standaard OAuth on-behalf-of flow (https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api) de toepassing moet zo worden geconfigureerd dat machtigingen zijn vereist voor Power BI-service (met de vereiste bereiken). Zodra u een gebruikerstoken voor uw app hebt, roept u de ADAL-API AcquireTokenAsync aan met het token voor gebruikerstoegang en geeft u de Power BI resource-URL op als de resource-id. Hieronder ziet u een voorbeeld van hoe u dit kunt doen:
 
 ```csharp
 var context = new AD.AuthenticationContext(authorityUrl);
@@ -299,7 +299,7 @@ U kunt [hier](https://docs.microsoft.com/azure/active-directory/develop/active-d
 
 ### <a name="how-can-i-edit-my-power-bi-user-profile-or-data"></a>How kan ik mijn Power BI-gebruikersprofiel of -gegevens bewerken?
 
-U kunt [hier](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts) leren hoe u uw Power BI-gegevens bewerkt.
+U kunt [hier](https://docs.microsoft.com/power-bi/service-basic-concepts) leren hoe u uw Power BI-gegevens bewerkt.
 
 Zie voor meer informatie [Problemen oplossen met uw ingesloten toepassing](embedded-troubleshoot.md)
 

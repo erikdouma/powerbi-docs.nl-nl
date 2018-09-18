@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 8305b9eab95e2b13f9104de6bcefe3f03a95d2f5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 891d496fcdf809a816c9c18a6d21e4c486f76d76
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34254873"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726795"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Tips en trucs voor het maken van rapporten in Power BI Desktop en de Power BI-service
 Als uw gegevens optimaal te kunnen gebruiken, hebt u soms wat extra hulp nodig. We hebben een aantal tips en trucs voor u verzameld om u te helpen bij het maken van rapporten in Microsoft Power BI Desktop, de Power BI-service *en* in Pro-Plus-edities van Microsoft Excel 2016 of Excel 2013 waar de Power Pivot-invoegtoepassing is ingeschakeld en Power Query is geïnstalleerd en ingeschakeld.
@@ -167,7 +167,7 @@ DAX is de formuletaal voor berekeningen in Power BI Desktop.  Deze is geoptimali
 
 ## <a name="power-bi-service-and-power-bi-desktop"></a>Power BI-service *en* Power BI Desktop
 
-### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportspower-bi-visualization-best-practicesmd"></a>[Principes voor het ontwerpen van Power BI-rapporten](power-bi-visualization-best-practices.md)
+### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>[Principes voor het ontwerpen van Power BI-rapporten](visuals/power-bi-visualization-best-practices.md)
 In dit technische document (Engelstalig vooralsnog) worden de aanbevolen procedures beschreven voor het ontwerpen van rapporten in Power BI. Als eerste komen als onderdeel van de planning de beginselen van het ontwerpen van rapporten ter sprake. Deze beginselen kunt u toepassen op de pagina's en afzonderlijke visuele elementen die deel uitmaken van het rapport. Veel van deze aanbevolen procedures zijn ook van toepassing op het ontwerpen van het dashboard.
 
 ### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>Visueel aantrekkelijke rapporten en dashboards maken in Power BI
@@ -209,7 +209,7 @@ Vermijd een verscheidenheid aan visualisaties omwille van de verscheidenheid all
 * Let op hoe [diagrammen zijn gesorteerd](power-bi-report-change-sort.md).  Als u de aandacht wilt vestigen op het hoogste of laagste getal, sorteert u op de meting.  Als u wilt dat personen snel een bepaalde categorie kunnen vinden in een groot aantal categorieën, sorteert u op as.  
 * Cirkeldiagrammen werken het beste als er minder dan acht categorieën worden weergegeven. Omdat u in een cirkeldiagram geen waarden naast elkaar kunt weergeven, is het moeilijker om in een cirkeldiagram waarden te vergelijken dan in een staaf- of kolomdiagram. Cirkeldiagrammen zijn geschikter voor het weergeven van deel-naar-geheelrelaties dan voor het vergelijken van delen. En meterdiagrammen zijn ideaal voor het weergeven van de huidige status in de context van een doel.    
 
-Zie [Visualization types in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md) (Visualisatietypen in Power BI) voor meer visualisatiespecifieke instructies.  
+Zie [Visualization types in Power BI](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) (Visualisatietypen in Power BI) voor meer visualisatiespecifieke instructies.  
 
 ### <a name="learn-more-about-best-practice-dashboard-design"></a>Meer informatie over aanbevolen procedures voor het ontwerpen van dashboards
 Een aantal van onze favoriete boeken zijn:

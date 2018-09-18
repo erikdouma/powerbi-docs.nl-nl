@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 94936092a86ee3ac46ed0516609b3beaf1589180
-ms.sourcegitcommit: 1574ecba7530e6e0ee97235251a3138fb0e4789b
+ms.openlocfilehash: 189134a82e183819f1d48be0b420c9f92a5e69b3
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40257250"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44725944"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Tips voor het stellen van vragen met de Q&A-functie van Power BI
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Woorden en terminologie die door Q&A worden herkend
@@ -24,7 +24,7 @@ Deze lijst met trefwoorden is niet volledig.  U kunt het beste controleren of ee
 In de onderstaande lijst wordt de tegenwoordige tijd gebruikt, maar aanwezig tijd gebruikt, maar doorgaans worden alle tijdsvormen herkend. Het woord 'is' omvat bijvoorbeeld ook zijn, was, waren, worden, hebben, heeft, had, zal zijn, zijn wezen.  En 'sorteren' omvat ook gesorteerd en sorteren.  Bovendien herkend en bevat PowerBI de enkel- en meervoudsvorm van een woord. Power BI herkent bijvoorbeeld 'jaar' en 'jaren'.
 
 > [!NOTE]
-> Q&A is ook beschikbaar in de [Microsoft Power BI-app voor iOS op iPads, iPhones en iPod Touch-apparaten](mobile-apps-ios-qna.md).
+> Q&A is ook beschikbaar in de [Microsoft Power BI-app voor iOS op iPads, iPhones en iPod Touch-apparaten](consumer/mobile/mobile-apps-ios-qna.md).
 > 
 > 
 

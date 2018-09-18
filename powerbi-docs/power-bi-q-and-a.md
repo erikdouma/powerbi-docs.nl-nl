@@ -2,20 +2,20 @@
 title: Overzicht van vragen en antwoorden in Power BI-service en Power BI Desktop
 description: Overzicht van de documentatie voor Power BI Q&A-query's in natuurlijke taal.
 author: mihart
-manager: kvivek
+manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/18/2018
+ms.date: 01/18/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 1680a1aacf84eb5440703385dc831c32433456bb
-ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
+ms.openlocfilehash: 94faaac1067b2ab377639d0d6a1822b182e214b6
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "44167946"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726565"
 ---
 # <a name="qa-in-power-bi-service-and-power-bi-desktop"></a>Q&A in Power BI-service en Power BI Desktop
 ## <a name="what-is-qa"></a>Wat is Q&A?
@@ -48,9 +48,11 @@ Naast hun gegevens verkennen met behulp van Q&A, kunnen auteurs en eigenaren van
 
 ## <a name="how-does-qa-know-how-to-answer-questions"></a>Hoe weet Q&A hoe vragen moeten worden beantwoord?
 ### <a name="which-datasets-does-qa-use"></a>Welke gegevenssets gebruikt Q&A?
-Hoe weet Q&A hoe gegevensspecifieke vragen moeten worden beantwoord? Q&A baseert zich op de namen van de tabellen, kolommen en berekende velden in de onderliggende gegevensset. Het is dus belangrijk welke namen de eigenaar van de gegevensset aan items geeft. Praat met de eigenaar van de gegevensset als u problemen hebt bij het vinden van antwoorden op uw Q&A-vragen om te zien of zij de gegevensset gebruikersvriendelijker kan maken.
+Hoe weet Q&A hoe gegevensspecifieke vragen moeten worden beantwoord? Q&A baseert zich op de namen van de tabellen, kolommen en berekende velden in de onderliggende gegevensset. Het is dus belangrijk welke naam u (of de eigenaar van de gegevensset) aan dingen geeft.
 
-Met Q&A kunnen vragen worden beantwoord die zijn gebaseerd op hoe de gegevensset is georganiseerd. Hoe werkt dit voor gegevens in Salesforce? Als u verbinding met uw salesforce.com-account maakt, genereert Power BI automatisch een dashboard.  Bekijk voordat u vragen gaat stellen met Q&A de gegevens die worden weergegeven in de dashboardvisualisaties, en ook de gegevens die worden weergegeven in de Q&A-vervolgkeuzelijst.
+Stel bijvoorbeeld dat u een Excel-tabel genaamd Sales hebt en dat deze tabel de kolommen Product, Month, Units Sold, Gross Sales en Profit bevat. U kunt dan over elk van deze entiteiten een vraag stellen.  U kunt vragen stellen als 'show *sales*', 'total *profit* by *month*', 'sort *products* by *units sold*' enzovoort.
+
+Q&A kan vragen beantwoorden die zijn gebaseerd op hoe uw gegevensset is georganiseerd. Hoe werkt dit voor gegevens in Salesforce? Als u verbinding met uw salesforce.com-account maakt, genereert Power BI automatisch een dashboard.  Bekijk voordat u vragen gaat stellen met Q&A de gegevens die worden weergegeven in de dashboardvisualisaties, en ook de gegevens die worden weergegeven in de Q&A-vervolgkeuzelijst.
 
 * Als de aslabels en -waarden van de visualisaties 'sales', 'account', 'month' en 'opportunities' bevatten, kunt u vragen stellen zoals: ‘Which *account* has the highest *opportunity*, or show *sales* by month as a bar chart.’
 * Als de vervolgkeuzelijst 'salesperson', 'state' en 'year' bevat, kunt u vragen stellen zoals: which *salesperson* had the lowest *sales* in *Florida* in *2013*.
@@ -68,7 +70,7 @@ Zie [Tips voor het stellen van vragen](service-q-and-a-tips.md) voor informatie 
 ## <a name="for-more-details-about-power-bi-qa"></a>Voor meer informatie over Power BI Q&A
 [Overzicht: Q&A gebruiken in Power BI-dashboards en rapporten](power-bi-tutorial-q-and-a.md): stapsgewijze instructies voor het gebruik van Q&A en een overzicht van de algehele werking.
 
-[Microsoft Power BI - mobiele apps](mobile-apps-ios-qna.md): voor iOS op iPads, iPhones en iPod Touch-apparaten.
+[Microsoft Power BI - mobiele apps](consumer/mobile/mobile-apps-ios-qna.md): voor iOS op iPads, iPhones en iPod Touch-apparaten.
 
 [Microsoft Power BI Embedded](developer/qanda.md) Q&A integreren in een app.
 
@@ -78,6 +80,8 @@ Zie [Tips voor het stellen van vragen](service-q-and-a-tips.md) voor informatie 
 
 [Q&A inschakelen voor uw on-premises gegevenssets](service-q-and-a-direct-query.md) Als u een gateway nodig hebt om verbinding te maken met de gegevensset, gebruikt u de instellingen van de Power BI om Q&A in en uit te schakelen.
 
-[Handleiding: Q&A gebruiken met het voorbeeld Retail Sales in de Power BI-service](power-bi-visualization-introduction-to-q-and-a.md): Q&A gebruiken in een realistische branchehandleiding.
+[Zelfstudie: Q&A gebruiken met het voorbeeld van een retailanalyse in Power BI-service](power-bi-visualization-introduction-to-q-and-a.md): gebruik Q&A in een realistische, branchegerichte zelfstudie.
+
+[Ervoor zorgen dat uw gegevens goed werken met Q&A](service-prepare-data-for-q-and-a.md): als u de persoon bent die de gegevenssets en gegevensmodellen maakt,  is dit onderwerp bedoelt voor u.
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

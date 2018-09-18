@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/28/2018
+ms.date: 09/13/2018
 LocalizationGroup: Share your work
-ms.openlocfilehash: b305c684ccf0938cfa8f5d9a2aa06f27a8c8be12
-ms.sourcegitcommit: fb29c4bf7e598f962b453ac68091ca2189d6ae3b
+ms.openlocfilehash: 0ef3bd027c7fc14f88a569cab160f90044689784
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/31/2018
-ms.locfileid: "43380331"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558534"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publiceren op internet vanuit Power BI
 
@@ -61,7 +61,7 @@ In de volgende stappen wordt het gebruik van **Publiceren op internet** beschrev
 
 Wanneer u inhoud binnen een blogbericht wilt invoegen, moet deze doorgaans binnen een bepaalde grootte van het scherm passen.  U kunt ook de hoogte en breedte in de iFrame-tag aanpassen, maar u moet er ook voor zorgen dat uw rapport binnen het opgegeven gebied van de iFrame past. U kunt het beste een juiste weergavemodus instellen tijdens het bewerken van het rapport.
 
-De volgende tabel bevat richtlijnen over de weergavemodus en hoe deze wordt weergegeven als deze is ingesloten.
+De volgende tabel bevat richtlijnen over de weergavemodus en hoe deze wordt weergegeven als deze is ingesloten. 
 
 | Weergavemodus | Voorbeelden van invoegen |
 | --- | --- |

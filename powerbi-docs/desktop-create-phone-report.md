@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6cd1616dab92eb8709c5e89966259be591e4ede3
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 5f34207640fe0db02d38464ce8600a44b6ffab4c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280657"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726450"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>Rapporten maken die zijn geoptimaliseerd voor de mobiele Power BI-apps
 Wanneer u [een rapport maakt in Power BI Desktop](desktop-report-view.md) kunt u de ervaring van het gebruik van dit rapport in de mobiele Power BI-apps verbeteren door een versie van het rapport specifiek voor de telefoon te maken. Voor een optimale ervaring kunt u uw rapport voor de telefoon aanpassen door visuele elementen te rangschikken en de grootte ervan te wijzigen, en mogelijk niet alle op te nemen. Ook kunt u [*responsieve*visuals](#optimize-a-visual-for-any-size) en [responsieve slicers](#enhance-slicers-to-to-work-well-in-phone-reports) maken waarvan de grootte goed kan worden gewijzigd voor weergave op een telefoon. Als u filters aan uw rapport toevoegt, worden deze filters bovendien automatisch in het telefoonrapport weergegeven. De lezers van uw rapport kunnen deze filters zien en het rapport ermee filteren.
@@ -56,7 +56,7 @@ Als de grootte van een visueel element verandert, geeft Power BI de prioriteit a
 
 ![Reactietijd bij het wijzigen van de grootte van visuele elementen](media/desktop-create-phone-report/desktop-create-phone-report-6.gif)
 
-U kiest voor elk visueel element of u reactietijd wilt inschakelen. Lees meer over [het optimaliseren visuele elementen](desktop-create-responsive-visuals.md).
+U kiest voor elk visueel element of u reactietijd wilt inschakelen. Lees meer over [het optimaliseren visuele elementen](visuals/desktop-create-responsive-visuals.md).
 
 ## <a name="considerations-when-creating-phone-report-layouts"></a>Overwegingen bij het maken van telefoonrapportindelingen
 * U kunt alle pagina's of slechts enkele optimaliseren voor rapporten met meerdere pagina's. 
@@ -101,11 +101,11 @@ Als u slechts enkele pagina’s optimaliseert, zien lezers een bericht in de por
 
 ![Niet-geoptimaliseerde telefoonpagina](media/desktop-create-phone-report/desktop-create-phone-report-9.png)
 
-Rapportlezers kunnen hun telefoon zijdelings houden om de pagina in de liggende modus te bekijken. Lees meer over het [gebruiken van voor uw telefoon geoptimaliseerde Power BI-rapporten](mobile-apps-view-phone-report.md).
+Rapportlezers kunnen hun telefoon zijdelings houden om de pagina in de liggende modus te bekijken. Lees meer over het [gebruiken van voor uw telefoon geoptimaliseerde Power BI-rapporten](consumer/mobile/mobile-apps-view-phone-report.md).
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Een telefoonweergave van een dashboard maken in Power BI](service-create-dashboard-mobile-phone-view.md)
-* [Voor uw telefoon geoptimaliseerde Power BI-rapporten weergeven](mobile-apps-view-phone-report.md)
-* [Responsieve visuele elementen maken die zijn geoptimaliseerd voor elke grootte](desktop-create-responsive-visuals.md)
+* [Voor uw telefoon geoptimaliseerde Power BI-rapporten weergeven](consumer/mobile/mobile-apps-view-phone-report.md)
+* [Responsieve visuele elementen maken die zijn geoptimaliseerd voor elke grootte](visuals/desktop-create-responsive-visuals.md)
 * Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

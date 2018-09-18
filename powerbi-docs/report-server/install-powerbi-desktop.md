@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: 368f2692933b37d833c864fb9fea6a22423bbb77
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d3b7ace4fe611cc55965f96f770caf7b4ebf21b1
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34481826"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726381"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren
 Meer informatie over het installeren van een voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop.
@@ -78,7 +78,7 @@ Rapporten voor Power BI Report Server bieden geen ondersteuning voor:
 * Preview-functies in Power BI Desktop
 
 ### <a name="in-the-power-bi-mobile-apps"></a>In de mobiele Power BI-apps
-Rapporten voor Power BI Report Server ondersteunen alle basisfunctionaliteit in de [mobiele Power BI-apps](../mobile-apps-for-mobile-devices.md), waaronder:
+Rapporten voor Power BI Report Server ondersteunen alle basisfunctionaliteit in de [mobiele Power BI-apps](../consumer/mobile/mobile-apps-for-mobile-devices.md), waaronder:
 
 * [Indeling van telefoonrapport](../desktop-create-phone-report.md): u kunt een rapport optimaliseren voor de mobiele Power BI-apps. Op uw mobiele telefoon hebben geoptimaliseerde rapporten een speciaal pictogram, ![Het pictogram Geoptimaliseerd Power BI-rapport](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-icon.png), en een speciale indeling.
   

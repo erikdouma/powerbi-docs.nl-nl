@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: eacadb04935dd0c929a85904335b613f3d5d4d58
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 736d4b53f82255e84e3bd54a2177ae17c264039b
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34251662"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726749"
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Leesweergave en bewerkweergave in rapporten van de Power BI-service
 In de Power BI-service (geen Power BI Desktop) zijn er twee modi voor het weergeven en werken met rapporten: de leesweergave en de bewerkweergave. De leesweergave is beschikbaar voor alle gebruikers en is speciaal ontworpen voor *gebruikers van gegevens*, terwijl de bewerkweergave alleen beschikbaar is voor *rapportauteurs* en -eigenaren.
@@ -59,13 +59,13 @@ In deze grafiek worden niet alle mogelijkheden van een rapport van Power BI-serv
 | [Een rapportpagina dupliceren](power-bi-report-copy-paste-page.md) | Nee  | Ja |
 | [Rapportpagina verwijderen](service-delete.md) | nee | ja |
 |**Werken met rapportvisualisaties**|
-| [Visualisaties toevoegen aan een rapport](power-bi-report-add-visualizations-i.md) | Nee  | Ja |
+| [Visualisaties toevoegen aan een rapport](visuals/power-bi-report-add-visualizations-i.md) | Nee  | Ja |
 | [Tekstvakken en vormen aan een rapport toevoegen](power-bi-reports-add-text-and-shapes.md) | Nee  | Ja |
 | [Het rapportvenster Opmaak gebruiken](service-the-report-editor-take-a-tour.md) | Nee | Ja |
 | [Visuele interacties instellen](service-reports-visual-interactions.md) | Nee  | Ja |
 | [Gegevens weergeven die worden gebruikt om de visualisatie te maken](service-reports-show-data.md) | Nee  | Ja |
 | [Analyseren configureren](power-bi-visualization-drill-down.md) | Nee  | Ja |
-| [De gebruikte visualisatie wijzigen](power-bi-report-change-visualization-type.md) | Nee | Ja|
+| [De gebruikte visualisatie wijzigen](visuals/power-bi-report-change-visualization-type.md) | Nee | Ja|
 | [Een visualisatie, tekstvak of vorm verwijderen](service-delete.md)| Nee | Ja |
 
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: f3a9e8aabbd45cb476866158165e2e37a3d8f652
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d50d3c3a34364dd795c44b3e45e91857bcc222f0
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242382"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726312"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Aanbevolen vragen voor Q&A-functie van Power BI maken
 Als u beschikt over een gegevensset, kunt u uw eigen aanbevolen vragen toevoegen aan deze dataset.  En de Q&A-functie van Power BI toont deze vragen aan collega's die uw gegevensset (*Verbruiken*) gebruiken.  Aanbevolen vragen geven uw collega's ideeën over de typen vragen die ze kunnen stellen over de gegevensset. U bepaalt zelf welke aanbevolen vragen u toevoegt: u kunt populaire vragen, vragen die interessante resultaten weergeven of vragen die mogelijk moeilijk zijn te formuleren toevoegen.
@@ -26,7 +26,7 @@ Kijk hoe Will een aantal aanbevolen vragen toevoegt aan Power BI Q&A en die vrag
 <iframe width="560" height="315" src="https://www.youtube.com/embed/E1mIAyEXuF4" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Vragen in Q&A zijn beschikbaar voor gebruik in de [Microsoft Power BI-app voor iOS op iPads, iPhones en iPod Touch-apparaten](mobile-apps-ios-qna.md) en in de Q&A-preview van Power BI Desktop. Het maken van de vragen is echter alleen beschikbaar in de Power BI-service (app.powerbi.com).
+> Vragen in Q&A zijn beschikbaar voor gebruik in de [Microsoft Power BI-app voor iOS op iPads, iPhones en iPod Touch-apparaten](consumer/mobile/mobile-apps-ios-qna.md) en in de Q&A-preview van Power BI Desktop. Het maken van de vragen is echter alleen beschikbaar in de Power BI-service (app.powerbi.com).
 > 
 
 In dit artikel wordt het [voorbeeld van een retailanalyse](sample-datasets.md) gebruikt.

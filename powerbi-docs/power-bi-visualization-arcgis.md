@@ -2,28 +2,28 @@
 title: ArcGIS-kaarten van Esri maken in Power BI
 description: 'ArcGIS-kaarten van Esri maken in Power BI '
 author: mihart
-manager: kvivek
+manager: kfile
 ms.reviewer: lukaszp
 featuredvideoid: EKVvOZmxg9s
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/28/2018
+ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 127187367b2ae5680b50bc1e72de7214c522705e
-ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
+ms.openlocfilehash: 250ccba882a045417b2ae424cac81b6561cb2a41
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "44168061"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728244"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>De service ArcGIS Maps for Power BI en Power BI Desktop van Esri
-Deze zelfstudie is geschreven vanuit het oogpunt van iemand die een ArcGIS-kaart maakt. Zodra een maker een ArcGIS-kaart met een collega deelt, kan deze collega de kaart bekijken en acties uitvoeren voor de kaart, maar geen wijzigingen opslaan. Zie [Interacting with ArcGIS maps](power-bi-visualizations-arcgis.md) (Interactie met ArcGIS-kaarten) voor meer informatie over het weergeven van een ArcGIS-kaart.
+Deze zelfstudie is geschreven vanuit het oogpunt van iemand die een ArcGIS-kaart maakt. Zodra een maker een ArcGIS-kaart met een collega deelt, kan deze collega de kaart bekijken en acties uitvoeren voor de kaart, maar geen wijzigingen opslaan. Zie [Interacting with ArcGIS maps](visuals/power-bi-visualizations-arcgis.md) (Interactie met ArcGIS-kaarten) voor meer informatie over het weergeven van een ArcGIS-kaart.
 
 De combinatie van ArcGIS-kaarten en Power BI tilt kaarten naar een volledig nieuw niveau, verder dan de presentatie van punten op een kaart. Kies uit basiskaarten, locatietypen, thema's, symboolstijlen en referentielagen om informatieve kaartvisualisaties te maken. De combinatie van bindende gegevenslagen op een kaart met ruimtelijke analyse geeft een beter inzicht in de gegevens in uw visualisatie.
 
- U kunt niet een ArcGIS-kaart op een mobiel apparaat maken, maar u kunt deze wel bekijken en er acties mee uitvoeren op een mobiel apparaat. Zie [Interacting with ArcGIS maps](power-bi-visualizations-arcgis.md) (Interactie met ArcGIS-kaarten).
+ U kunt niet een ArcGIS-kaart op een mobiel apparaat maken, maar u kunt deze wel bekijken en er acties mee uitvoeren op een mobiel apparaat. Zie [Interacting with ArcGIS maps](visuals/power-bi-visualizations-arcgis.md) (Interactie met ArcGIS-kaarten).
 
 > [!TIP]
 > GIS staat voor 'Geographic Information Science' (geografische informatiewetenschap).
@@ -329,7 +329,7 @@ Dit is een bekende bug. Er wordt aan een oplossing gewerkt.  In de tussentijd ku
 
 **Biedt ArcGIS Maps for Power BI ondersteuning voor Esri Shapefiles?**
 
-ArcGIS Maps for Power BI detecteert automatisch standaardgrenzen zoals landen/regio's, staten/provincies en postcodes. Als u uw eigen vormen wilt leveren, kunt u dit doen met behulp van [Shape Maps for Power BI Desktop (preview)](desktop-shape-map.md).
+ArcGIS Maps for Power BI detecteert automatisch standaardgrenzen zoals landen/regio's, staten/provincies en postcodes. Als u uw eigen vormen wilt leveren, kunt u dit doen met behulp van [Shape Maps for Power BI Desktop (preview)](visuals/desktop-shape-map.md).
 
 **Kan ik mijn ArcGIS-kaarten offline bekijken?**
 
@@ -340,7 +340,7 @@ Nee, Power BI moet verbinding met het netwerk hebben om kaarten weer te geven.
 Nog niet. [Stem voor dit idee](https://ideas.powerbi.com/forums/265200-power-bi-ideas/suggestions/9154765-arcgis-geodatabases) en we sturen u een e-mail wanneer we aan deze functie beginnen te werken.  
 
 ## <a name="next-steps"></a>Volgende stappen
-[Interactie met een ArcGIS-kaart die met u is gedeeld](power-bi-visualizations-arcgis.md)
+[Interactie met een ArcGIS-kaart die met u is gedeeld](visuals/power-bi-visualizations-arcgis.md)
 
 [Blogpost waarin de beschikbaarheid van ArcGIS Maps for Power BI wordt aangekondigd](https://powerbi.microsoft.com/blog/announcing-arcgis-maps-for-power-bi-by-esri-preview/)
 

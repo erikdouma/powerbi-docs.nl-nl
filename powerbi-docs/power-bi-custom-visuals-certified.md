@@ -10,12 +10,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: efddb15572705d6d1c7cb215250360e94a8546cb
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 4676b31a117573d1d69b5947ec2380c4abf29405
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600351"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726864"
 ---
 # <a name="getting-a-custom-visual-certified"></a>Een aangepast visueel element laten *certificeren*
 ## <a name="what-is-meant-by-certified"></a>Wat is *gecertificeerd*?
@@ -142,7 +142,7 @@ Microsoft kan naar eigen goeddunken een visueel element uit de lijst met gecerti
 ## <a name="next-steps"></a>Volgende stappen
 [Aan de slag met ontwikkelhulpprogramma's voor aangepaste visuele elementen (Preview)](service-custom-visuals-getting-started-with-developer-tools.md)      
 [Microsoft-afspeellijst voor aangepaste visuele elementen op YouTube](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
-[Visualisaties in Power BI](power-bi-report-visualizations.md)  
+[Visualisaties in Power BI](visuals/power-bi-report-visualizations.md)  
 [Aangepaste visualisaties in Power BI](power-bi-custom-visuals.md)  
 [Aangepaste visuele elementen publiceren naar Microsoft AppSource](developer/office-store.md)  
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

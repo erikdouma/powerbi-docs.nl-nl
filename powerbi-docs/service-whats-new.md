@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 08/27/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: d7f966834e2d6b44f3a887991bd0ebd6e38836f0
-ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
+ms.openlocfilehash: 83d9e435c1dca10a444f3125830eb6432aecf6bd
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "44044343"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728198"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Wat is er nieuw in de Power BI-service
 Raadpleeg deze pagina voor bekende problemen en onlangs uitgebrachte functies in de **Power BI-service**. Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
 
 - [Wat is er nieuw in Power BI Desktop](desktop-latest-update.md)  
-- [Wat is er nieuw in de mobiele apps voor Power BI](mobile-whats-new-in-the-mobile-apps.md)  
+- [Wat is er nieuw in de mobiele apps voor Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)  
 - [Power BI-teamblog](https://powerbi.microsoft.com/blog/)
 - [Opmerkingen bij de lenterelease (2018) van de zakelijke toepassingen](http://aka.ms/businessappsreleasenotes) van Dynamics 365: de nieuwste updates aan onze zakelijke toepassingen, evenals nieuwe mogelijkheden om uw toepassingen en extensies op ons platform te bouwen. 
 

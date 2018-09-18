@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 14890d93261c12e16756c8f65d9273d954f673dd
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: e474081a5f094bc04f6fc93b985b8d81efee1a0b
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34256697"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728106"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Ondersteunde talen en landen/regio's voor Power BI
 
@@ -191,7 +191,7 @@ De Help is gelokaliseerd in de volgende tien talen:
 * Spaans - español
 
 ## <a name="next-steps"></a>Volgende stappen
-* Gebruikt u een van de mobiele Power BI-apps? Zie [Ondersteunde talen in de mobiele Power BI-apps](mobile-apps-supported-languages.md) voor meer informatie.
+* Gebruikt u een van de mobiele Power BI-apps? Zie [Ondersteunde talen in de mobiele Power BI-apps](consumer/mobile/mobile-apps-supported-languages.md) voor meer informatie.
 * Vragen? Misschien dat de[Power Bi-community](http://community.powerbi.com/) het antwoord weet.
 * Nog steeds geen antwoord? Ga naar de [ondersteuningspagina van Power BI](https://powerbi.microsoft.com/support/).
 

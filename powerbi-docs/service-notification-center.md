@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ca8b7ded6427f912933618ebdeaeeecea41b8681
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 8db686b842f01653e45e8d2d6313cb4ac39bcaeb
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249934"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727163"
 ---
 # <a name="power-bi-notifications"></a>Power BI-meldingen
 Het meldingencentrum is een sequentiële feed met informatie over uw Power BI-ervaring. Open het meldingencentrum om berichten te bekijken over nieuwe dashboards die met u zijn gedeeld, wijzigingen in uw groepsruimte, informatie over Power BI-gebeurtenissen en -vergaderingen, waarschuwingen die u hebt ingesteld en meer. U kunt [meldingen instellen in de Power BI-service](service-set-data-alerts.md), maar ook in de mobiele Power BI-apps.
@@ -40,7 +40,7 @@ Kijk hoe Amanda meldingen bekijkt die ze heeft ontvangen, haar meldingen beheert
 ### <a name="next-steps"></a>Volgende stappen
 * [Gegevenswaarschuwingen in de Power BI-service](service-set-data-alerts.md)
 * [Een Microsoft Flow maken die wordt geactiveerd door een Power BI-gegevensmelding](service-flow-integration.md)
-* [Gegevensmeldingen instellen in de iPhone-app (Power BI voor iOS)](mobile-set-data-alerts-in-the-mobile-apps.md)
-* [Gegevensmeldingen instellen in de mobiele Power BI-app instellen voor Windows 10](mobile-set-data-alerts-in-the-mobile-apps.md)
+* [Gegevensmeldingen instellen in de iPhone-app (Power BI voor iOS)](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
+* [Gegevensmeldingen instellen in de mobiele Power BI-app instellen voor Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

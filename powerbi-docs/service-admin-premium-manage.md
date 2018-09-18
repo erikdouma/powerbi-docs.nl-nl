@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 5da624f92093111c1996d9b1c5080cd58a906a45
-ms.sourcegitcommit: 2bdcb9e9959302a35ee90a145e4ff832a02aacb9
+ms.openlocfilehash: b38c69d74141b28215e0a14a32fc7b03fab4fdbf
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43250768"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558465"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Capaciteiten in Power BI Premium en Power BI Embedded beheren
 Meer informatie over het beheren van Power BI Premium- en Power BI Embedded-capaciteiten, die toegewezen resources voor uw inhoud bieden.
@@ -47,7 +47,7 @@ Alle globale beheerders van Office 365 en Power BI-beheerders zijn automatisch c
 Als u wilt profiteren van de toegewezen capaciteit, moet u een abonnement voor Power BI Premium in het Office 365-beheercentrum aanschaffen of een Power BI Embedded-resource in Microsoft Azure Portal maken. Raadpleeg de volgende artikelen voor meer informatie:
 
 * **Power BI Premium:** [Power BI Premium aanschaffen](service-admin-premium-purchase.md)
-* **Power BI Embedded:** [Create Power BI Embedded capacity in the Azure portal](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity) (Power BI Embedded-capaciteit maken in Azure Portal)
+* **Power BI Embedded:** [Create Power BI Embedded capacity in the Azure portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity) (Power BI Embedded-capaciteit maken in Azure Portal)
 
 Bij de aankoop van Power BI Premium-SKU's ontvangt uw tenant het overeenkomstige aantal v cores dat nodig is om capaciteiten uit te voeren. Als u bijvoorbeeld Power BI Premium P3 SKU koopt, ontvangt de tenant 32 v-cores.
 

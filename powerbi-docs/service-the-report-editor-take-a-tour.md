@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ef05531ee6080593d232e48a2118a9be7e8cbd19
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 78d9004a718990cbcd310835e8e9b8ae5e3eae17
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34299465"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726634"
 ---
 # <a name="the-report-editortake-a-tour"></a>De rapporteditor... Een rondleiding
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Rapporten bewerken met de Power BI-service en Power BI Desktop
@@ -65,7 +65,7 @@ Als u een veld wilt verwijderen uit de visualisatie, selecteert u de **X** recht
 
 ![Winkeltype verwijderen uit de legenda](media/service-the-report-editor-take-a-tour/deletefield.png)
 
-Zie [Add visualizations to a Power BI report](power-bi-report-add-visualizations-i.md) (Visualisaties toevoegen aan een Power BI-rapport) voor meer informatie
+Zie [Add visualizations to a Power BI report](visuals/power-bi-report-add-visualizations-i.md) (Visualisaties toevoegen aan een Power BI-rapport) voor meer informatie
 
 ### <a name="format-your-visuals"></a>Uw visuele elementen opmaken
 Selecteer het pictogram met de verfroller om het venster Opmaken weer te geven. De beschikbare opties zijn afhankelijk van het type visualisatie dat is geselecteerd.
@@ -74,9 +74,9 @@ Selecteer het pictogram met de verfroller om het venster Opmaken weer te geven. 
 
 De opmaakmogelijkheden zijn praktisch eindeloos.  Als u meer wilt weten of zelf op verkenning wilt uitgaan, leest u deze artikelen:
 
-* [De titel, achtergrond en legenda van een visualisatie aanpassen](power-bi-visualization-customize-title-background-and-legend.md)
-* [Kleuropmaak](service-getting-started-with-color-formatting-and-axis-properties.md)
-* [De eigenschappen van de X-as en Y-as aanpassen](power-bi-visualization-customize-x-axis-and-y-axis.md)
+* [De titel, achtergrond en legenda van een visualisatie aanpassen](visuals/power-bi-visualization-customize-title-background-and-legend.md)
+* [Kleuropmaak](visuals/service-getting-started-with-color-formatting-and-axis-properties.md)
+* [De eigenschappen van de X-as en Y-as aanpassen](visuals/power-bi-visualization-customize-x-axis-and-y-axis.md)
 
 ### <a name="add-analytics-to-your-visualizations"></a>Analytische gegevens toevoegen aan uw visualisaties
 Selecteer het vergrootglaspictogram om het deelvenster Analyse weer te geven. De beschikbare opties zijn afhankelijk van het type visualisatie dat is geselecteerd.
@@ -126,7 +126,7 @@ In het rapportcanvas wordt uw werk weergegeven. Wanneer u de deelvensters Velden
 ## <a name="next-steps"></a>Volgende stappen:
 [Een rapport maken](service-report-create-new.md)
 
-Lees meer informatie over rapporten in de [Power BI-service](service-reports.md), [Power BI Desktop](desktop-report-view.md) en [Power BI - Mobiel](mobile-apps-view-phone-report.md).
+Lees meer informatie over rapporten in de [Power BI-service](service-reports.md), [Power BI Desktop](desktop-report-view.md) en [Power BI - Mobiel](consumer/mobile/mobile-apps-view-phone-report.md).
 
 [Power BI - basisconcepten](service-basic-concepts.md)
 

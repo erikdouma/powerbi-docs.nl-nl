@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 585c1c854ed3e95cc176d34f442fec6416f23dcd
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 7b1b55475e2ad19c869ba92cdb9621caa0fc3538
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39623948"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726657"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Hoe kan ik samenwerken en inhoud delen in Power BI?
 
@@ -83,9 +83,9 @@ In de mobiele Power BI-apps voor iOS en Android kunt u aantekeningen toevoegen a
 
 U deelt een momentopname van de tegel, het rapport of het visuele element. Dit betekent dat de ontvangers een weergave van het onderdeel zien precies zoals deze was op het moment dat u het e-mailbericht hebt verstuurd. Het e-mailbericht bevat ook een koppeling naar het dashboard of rapport. Als de ontvangers een licentie voor Power BI Pro hebben, of als de inhoud zich bevindt in een [Premium capaciteit](service-premium.md), en u het object al met ze hebt gedeeld, kunnen ze het openen. U kunt momentopnamen van tegels naar iedereen verzenden, niet alleen naar collega's in hetzelfde e-maildomein.
 
-Lees hier meer over het [toevoegen van aantekeningen en het delen van tegels, rapporten en visuele elementen](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) vanuit de mobiele apps voor iOS en Android.
+Lees hier meer over het [toevoegen van aantekeningen en het delen van tegels, rapporten en visuele elementen](consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) vanuit de mobiele apps voor iOS en Android.
 
-U kunt ook [een momentopname van een tegel delen](mobile-windows-10-phone-app-get-started.md) vanuit de Power BI-app voor Windows 10-apparaten.
+U kunt ook [een momentopname van een tegel delen](consumer/mobile/mobile-windows-10-phone-app-get-started.md) vanuit de Power BI-app voor Windows 10-apparaten.
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>Afdrukken of opslaan als PDF of een ander statisch bestand
 U kunt vanuit de Power BI-service een dashboard, dashboardtegel, rapportpagina of visualisatie in zijn geheel afdrukken of opslaan als PDF-bestand (of andere statische bestandsindeling). Rapporten kunnen alleen pagina voor pagina worden afgedrukt. U kunt niet het hele rapport in één keer afdrukken. Lees hier meer over het [afdrukken of opslaan als een statisch bestand](service-print.md).

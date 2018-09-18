@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 8e31d3128e38453212a8a0ecef2a139fa2d0f356
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: 565c43be3489c23f26a98f99ce2d70022be965d2
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250540"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727991"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Mobiele apps configureren met Microsoft Intune
 Microsoft Intune stelt organisaties in staat hun apparaten en toepassingen te beheren. De mobiele toepassingen van Power BI voor iOS en Android kunt u integreren met Intune om de toepassing te beheren op uw apparaten en om de beveiliging te regelen. Met behulp van configuratieprofielen kunt u bijvoorbeeld een pincode voor toegang vereisen, beheren hoe gegevens door de toepassing worden verwerkt en zelfs toepassingsgegevens versleutelen wanneer de app niet wordt gebruikt.
@@ -163,7 +163,7 @@ Nadat de app is geïnstalleerd, ziet u de status **Beheerd door uw bedrijf**. Al
 
 ## <a name="next-steps"></a>Volgende stappen
 [Mobile Application Management-beleid configureren en implementeren in de Microsoft Intune-console](https://technet.microsoft.com/library/dn878026.aspx)  
-[Power BI-apps voor mobiele apparaten](mobile-apps-for-mobile-devices.md)  
+[Power BI-apps voor mobiele apparaten](consumer/mobile/mobile-apps-for-mobile-devices.md)  
 
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

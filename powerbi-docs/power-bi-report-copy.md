@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 760eda5625bd52bf7129ba7cfe5f213921d469b7
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a85733e8450c9e1d3574afb71ace64fa2622fe0c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247798"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44725622"
 ---
 # <a name="create-a-new-report-from-an-existing-report-copy-a-report"></a>Een nieuw rapport maken van een bestaand rapport (een rapport kopiëren)
 Misschien hebt u een rapport dat al verbinding maakt met uw gegevensset en bevat het rapport enkele visuals die u wilt opnieuw wilt gebruiken of wilt wijzigen.  In dat geval kunt u het rapport gewoon kopiëren als basis voor een nieuw rapport.  Hiervoor gaat u als volgt te werk:
@@ -37,7 +37,7 @@ Misschien hebt u een rapport dat al verbinding maakt met uw gegevensset en bevat
 5. Veel plezier met het bijwerken en bewerken van uw nieuwe rapport.
 
 ## <a name="next-steps"></a>Volgende stappen:
-[Nieuwe visualisaties maken](power-bi-report-add-visualizations-ii.md)
+[Nieuwe visualisaties maken](visuals/power-bi-report-add-visualizations-ii.md)
 
 [Visualisaties verwijderen](service-delete.md) die u niet nodig hebt
 

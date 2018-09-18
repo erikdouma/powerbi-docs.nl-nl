@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 2ff39f0594150c7b29fd88e8f4e4f6baef86e806
-ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
+ms.openlocfilehash: 58a739c0d566030d2b09094264da14f6afd6d6fc
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "44044320"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727577"
 ---
 # <a name="full-screen-mode-in-power-bi-service"></a>De modus Volledig scherm in de Power BI-service
 ## <a name="what-is-full-screen-mode"></a>Wat is de modus Volledig scherm?
@@ -24,7 +24,7 @@ ms.locfileid: "44044320"
 
 Geef uw Power BI-inhoud (dashboards, rapportpagina's, tegels en visualisaties) weer zonder de afleiding van menu's en navigatiebalken.  U kunt uw tegel zonder andere storende factoren weergeven op het volledige scherm. Dit wordt soms TV-modus genoemd. Welke functionaliteit beschikbaar is in de modus Volledig scherm, is afhankelijk van de inhoud. 
 
-Als u Power BI mobiel gebruikt, [is de modus Volledig scherm beschikbaar voor Windows 10 Mobile-apps](mobile-windows-10-app-presentation-mode.md). Power BI Desktop heeft geen modus Volledig scherm voor rapporten of visualisaties, maar heeft Aanpassen aan pagina voor [Weergave van relaties](desktop-report-view.md) en [focusmodus voor rapportvisuals](service-focus-mode.md).
+Als u Power BI mobiel gebruikt, [is de modus Volledig scherm beschikbaar voor Windows 10 Mobile-apps](consumer/mobile/mobile-windows-10-app-presentation-mode.md). Power BI Desktop heeft geen modus Volledig scherm voor rapporten of visualisaties, maar heeft Aanpassen aan pagina voor [Weergave van relaties](desktop-report-view.md) en [focusmodus voor rapportvisuals](service-focus-mode.md).
 
  
 

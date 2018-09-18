@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: d99081a3d77ebfa7115d7546c59adc42eab308ca
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 52c392123b6bc86b4a40d90a8479ed8fcd6dbc61
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34237940"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726358"
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>Een QR-code voor een rapport in Power BI maken voor gebruik in de mobiele apps
 QR-codes in Power BI kunnen alles in de praktijk rechtstreeks verbinden met gerelateerde BI-gegevens. Er is geen navigatie of zoekopdracht nodig.
 
 U kunt een QR-code maken in de Power BI-service voor alle rapporten, zelfs voor een rapport dat niet kan worden bewerkt. Vervolgens plaatst u de QR-code in een belangrijke locatie. U kunt hem bijvoorbeeld in een e-mailbericht plakken of afdrukken en op een specifieke locatie ophangen. 
 
-Collega's met wie u het rapport hebt gedeeld, kunnen de QR-code met [hun mobiele apparaat](mobile-apps-qr-code.md) scannen voor rechtstreekse toegang tot het rapport. Ze kunnen de QR-codescanner in de Power BI-app gebruiken, of een andere QR-scanner die op hun apparaat is geïnstalleerd. Ze kunnen ook [een QR-code voor een rapport scannen met de app Power BI for Mixed Reality](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view).
+Collega's met wie u het rapport hebt gedeeld, kunnen de QR-code met [hun mobiele apparaat](consumer/mobile/mobile-apps-qr-code.md) scannen voor rechtstreekse toegang tot het rapport. Ze kunnen de QR-codescanner in de Power BI-app gebruiken, of een andere QR-scanner die op hun apparaat is geïnstalleerd. Ze kunnen ook [een QR-code voor een rapport scannen met de app Power BI for Mixed Reality](consumer/mobile/mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view).
 
 ## <a name="create-a-qr-code-for-a-report"></a>Een QR-code voor een rapport maken
 1. Open een rapport in de Power BI-service.
@@ -48,8 +48,8 @@ Power BI genereert de QR-code als een JPG-bestand dat direct kan worden afgedruk
 2. Knip de QR-code uit langs de rand en lijm deze op een plaats die relevant is voor het rapport. 
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Verbinding maken met Power BI-gegevens uit de praktijk](mobile-apps-data-in-real-world-context.md) met de mobiele apps
-* [Een Power BI QR-code scannen met uw mobiele apparaat](mobile-apps-qr-code.md)
+* [Verbinding maken met Power BI-gegevens uit de praktijk](consumer/mobile/mobile-apps-data-in-real-world-context.md) met de mobiele apps
+* [Een Power BI QR-code scannen met uw mobiele apparaat](consumer/mobile/mobile-apps-qr-code.md)
 * [Een QR-code voor een tegel maken](service-create-qr-code-for-tile.md)
 * Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

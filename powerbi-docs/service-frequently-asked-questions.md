@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 4c5a50a5bab76fd856099a3c1430638dc9e33ea8
-ms.sourcegitcommit: 1574ecba7530e6e0ee97235251a3138fb0e4789b
+ms.openlocfilehash: 8463dc96a120e9bf26ff0718fb050304890a5cea
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40257002"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728175"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Veelgestelde vragen over Power BI
 * Als u andere vragen hebt, kunt u deze stellen [in de Power BI-community](http://community.powerbi.com/).
@@ -60,7 +60,7 @@ Met Power BI en Power BI Desktop kunt u een veilige verbinding tot stand brengen
 Power BI Report Server is een oplossing die u op uw eigen locatie implementeert voor het maken, publiceren, en het beheren van rapporten, waarna u deze op verschillende manieren kunt leveren aan andere gebruikers: in een webbrowser, op hun mobiele apparaat of als een e-mailbericht in hun mailbox. Lees hier meer over [Power BI Report Server](report-server/get-started.md).
 
 ### <a name="power-bi-mobile-apps"></a>Mobiele Power BI-apps
-Gebruik de mobiele Power BI-apps om [on-premises Power BI-rapporten, mobiele rapporten van Reporting Services en KPI's weer te geven](mobile-app-ssrs-kpis-mobile-on-premises-reports.md).
+Gebruik de mobiele Power BI-apps om [on-premises Power BI-rapporten, mobiele rapporten van Reporting Services en KPI's weer te geven](consumer/mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md).
 
 ## <a name="does-power-bi-support-mobile-devices"></a>Biedt Power BI ondersteuning voor mobiele apparaten?
 Ja. Power BI heeft systeemeigen apps voor Android-telefoons en -tablets, iOS-apparaten en Windows 10-apparaten. Download een van de [mobiele Power BI-apps](https://powerbi.microsoft.com/mobile) uit de betreffende Store:  

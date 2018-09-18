@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/19/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: d735ff366d422d03186c25a0b358e87d6790a260
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: c7688134d7c006c38626f52df26fa5a87ac5c8d7
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280611"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728152"
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - basisconcepten van de Power BI-service
 
@@ -111,10 +111,10 @@ In het onderstaande voorbeeld heb ik de app-werkruimte 'Verkoop en marketing' ge
 
 ### <a name="dig-deeper"></a>Dieper graven
 * [Rapporten in de Power BI-service en Power BI Desktop](service-reports.md)
-* [Rapporten in de mobiele Power BI-apps](mobile-reports-in-the-mobile-apps.md)
+* [Rapporten in de mobiele Power BI-apps](consumer/mobile/mobile-reports-in-the-mobile-apps.md)
 
 ## <a name="dashboards"></a>Dashboards
-Een *dashboard* is iets wat u maakt **in de Power BI-service** of iets wat een collega maakt **in de Power BI-service** en met u deelt. Het dashboard bestaat uit één canvas dat nul of meer tegels en widgets bevat. Elke tegel die vanuit een rapport of vanuit [Q&A](power-bi-q-and-a.md) is vastgemaakt, geeft één [visualisatie](power-bi-report-visualizations.md) weer die is gemaakt van een gegevensset en die is vastgemaakt aan het dashboard. Volledige rapportpagina's kunnen ook als één tegel worden vastgemaakt aan een dashboard. Er zijn tal van manieren om tegels aan uw dashboard toe te voegen. Teveel om in dit overzichtsonderwerp te bespreken. Zie [Dashboardtegels in Power BI](service-dashboard-tiles.md) voor meer informatie. 
+Een *dashboard* is iets wat u maakt **in de Power BI-service** of iets wat een collega maakt **in de Power BI-service** en met u deelt. Het dashboard bestaat uit één canvas dat nul of meer tegels en widgets bevat. Elke tegel die vanuit een rapport of vanuit [Q&A](power-bi-q-and-a.md) is vastgemaakt, geeft één [visualisatie](visuals/power-bi-report-visualizations.md) weer die is gemaakt van een gegevensset en die is vastgemaakt aan het dashboard. Volledige rapportpagina's kunnen ook als één tegel worden vastgemaakt aan een dashboard. Er zijn tal van manieren om tegels aan uw dashboard toe te voegen. Teveel om in dit overzichtsonderwerp te bespreken. Zie [Dashboardtegels in Power BI](service-dashboard-tiles.md) voor meer informatie. 
 
 Waarom zou ik dashboards willen maken?  Hier volgen slechts enkele van de redenen:
 

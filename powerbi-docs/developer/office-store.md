@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 2147a5ccb1df8bd107d662559c97400a24dd490e
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: c407b967ce4a8c1ee31b9a750f2e281ff0a8caa7
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092110"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558488"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Aangepaste visuele elementen publiceren naar AppSource
 Meer informatie over het publiceren van aangepaste visuele elementen naar AppSource, zodat anderen deze kunnen gebruiken.
@@ -32,7 +32,7 @@ Als u klaar bent met het programmeren en testen van uw aangepaste visual en het 
 | --- | --- | --- |
 | Pbiviz-pakket met alle vereiste metagegevens |Ja |Naam van visuele element<br>Weergavenaam<br>GUID<br>Versie<br>Beschrijving<br>Naam en e-mailadres van auteur |
 | Voorbeeld van PBIX-rapportbestand |Ja |Ter promotie van uw visuele element, moet u gebruikers helpen om vertrouwd te raken met het visuele element. U moet de toegevoegde waarde van het visuele element voor de gebruiker benadrukken en voorbeelden geven van het gebruik, opmaakopties, enzovoort. U kunt ook een *hints*-pagina aan het einde toevoegen met een aantal tips en trucs, dingen die men moet vermijden en dergelijke.<br>Het voorbeeld van een pbix-rapportbestand moet offline werken, zonder een externe verbinding |
-| Pictogram |Ja |U moet een logo voor het aangepaste visuele element maken. Dit logo wordt in de webwinkel weergegeven. De ondersteunde bestandsindelingen zijn PNG, JPG, JPEG en GIF. Het logo moet een grootte hebben van exact 300 bij 300 pixels (breedte x hoogte). **Belangrijk** Lees de [korte handleiding](https://docs.microsoft.com/en-us/office/dev/store/craft-effective-appsource-store-images) zorgvuldig door voordat u het pictogram verstuurt. |
+| Pictogram |Ja |U moet een logo voor het aangepaste visuele element maken. Dit logo wordt in de webwinkel weergegeven. De ondersteunde bestandsindelingen zijn PNG, JPG, JPEG en GIF. Het logo moet een grootte hebben van exact 300 bij 300 pixels (breedte x hoogte). **Belangrijk** Lees de [korte handleiding](https://docs.microsoft.com/office/dev/store/craft-effective-appsource-store-images) zorgvuldig door voordat u het pictogram verstuurt. |
 | Schermopnamen |Ja |U moet ten minste één schermopname aanleveren. De ondersteunde bestandsindelingen zijn PNG, JPG, JPEG en GIF. De schermopname moet een grootte hebben van exact 1366 bij 768 pixels (breedte x hoogte). Het bestand mag niet groter zijn dan 1024 kB. *Voeg tekstballonnen toe met meer informatie over de toegevoegde waarde van de belangrijkste functies die worden weergegeven in elke schermopname.* |
 | Koppeling naar ondersteuning voor de download |Ja |Geef de URL op waar klanten terecht kunnen voor ondersteuning bij eventuele problemen met uw visuele element. De URL moet https:// of http:// bevatten. |
 | Koppeling naar privacydocument |Ja |Geef een koppeling op naar het privacybeleid voor klanten die gebruikmaken van het visuele element. De koppeling moet https:// of http:// bevatten. |
@@ -130,7 +130,7 @@ Nadat het visuele element is gemaakt, kunt u het desgewenst laten certificeren. 
 
 ## <a name="next-steps"></a>Volgende stappen
 [Aangepaste visuele elementen maken met behulp van ontwikkelhulpprogramma's](../service-custom-visuals-getting-started-with-developer-tools.md)  
-[Visualisaties in Power BI](../power-bi-report-visualizations.md)  
+[Visualisaties in Power BI](../visuals/power-bi-report-visualizations.md)  
 [Aangepaste visualisaties in Power BI](../power-bi-custom-visuals.md)  
 [Een aangepast visueel element laten *certificeren*](../power-bi-custom-visuals-certified.md)
 

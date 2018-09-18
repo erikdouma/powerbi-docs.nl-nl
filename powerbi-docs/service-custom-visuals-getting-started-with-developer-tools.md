@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: 0d165505981f841c7dfe9688c7a95cea3b6777c3
-ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
+ms.openlocfilehash: ec6399d815cb17bb0f2542144c63535835659017
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40256877"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726680"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Aangepaste visuals maken met ontwikkelhulpprogramma's
 Met aangepaste visuals kunt voldoen aan de behoeften van uw gebruikers en het ontwerp van uw app handhaven. Leer hoe u ontwikkelhulpprogramma's kunt gebruiken om aangepaste visuals voor Power BI te maken.
@@ -388,7 +388,7 @@ Gebruik de opdracht `pbiviz start` om de server van de visual via uw terminal/op
 Zie [Uw visual uitvoeren](#running-your-visual) of [Het servercertificaat installeren](#ssl-setup) voor meer informatie.
 
 ## <a name="next-steps"></a>Volgende stappen
-[Visualisaties in Power BI](power-bi-report-visualizations.md)  
+[Visualisaties in Power BI](visuals/power-bi-report-visualizations.md)  
 [Aangepaste visualisaties in Power BI](power-bi-custom-visuals.md)  
 [Aangepaste visuals publiceren naar de Office Store](developer/office-store.md)  
 [TypeScript](http://www.typescriptlang.org/)  

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 1c4f710cd048fc2c2828f0386d23328c164bb3fb
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 51c3fdbef345a0d6020abe35ba7c71aaa67882e4
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598639"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726841"
 ---
 # <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Zelfstudie: Aan de slag met Power BI-service (app.powerbi.com)
 In deze zelfstudie leest u hoe u aan de slag kunt met de ***Power BI-service***. Als u wilt weten hoe de Power BI-service aansluit bij de andere Power BI-aanbiedingen, is het een goed idee om eerst [Wat is Power BI?](power-bi-overview.md) te lezen.
@@ -42,7 +42,7 @@ Als u al een account hebt, opent u een browser en typt u app.powerbi.com om Powe
 
 ![Gratis aanmelden of registreren](media/service-get-started/power-bi-sign-up.png)
 
-Als u hulp nodig hebt bij Power BI Desktop, leest u [Getting started with Power BI Desktop](desktop-getting-started.md) (Aan de slag met Power BI Desktop). Als u hulp zoekt voor een mobiele Power BI-app, leest u [Power BI-apps voor mobiele apparaten](mobile-apps-for-mobile-devices.md).
+Als u hulp nodig hebt bij Power BI Desktop, leest u [Getting started with Power BI Desktop](desktop-getting-started.md) (Aan de slag met Power BI Desktop). Als u hulp zoekt voor een mobiele Power BI-app, leest u [Power BI-apps voor mobiele apparaten](consumer/mobile/mobile-apps-for-mobile-devices.md).
 
 > [!TIP]
 > Volgt u liever een gratis training in uw eigen tempo? [Schrijf u in voor de cursus Analyzing and Visualizing Data with Power BI op EdX](http://aka.ms/edxpbi).

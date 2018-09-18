@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7da86135a391f8a6206a913a1e13df423ad96fbd
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 327e9d9973aabb17761b55d355598462ce70e20e
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944969"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726038"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Tips voor het ontwerpen van een geweldig Power BI-dashboard
 Nu u een dashboard hebt gemaakt en een aantal tegels hebt toegevoegd, kunt u nadenken over hoe u ervoor zorgt dat het dashboard niet alleen mooi, maar ook functioneel is. Dit betekent in de praktijk meestal dat de belangrijkste informatie een opvallende plaats krijgt, en dat het dashboard netjes en opgeruimd is.
@@ -23,7 +23,7 @@ Nu u een dashboard hebt gemaakt en een aantal tegels hebt toegevoegd, kunt u nad
 Hier volgen enkele tips.
 
 > [!TIP]
-> Veel ontwerpprincipes voor rapporten zijn ook van toepassing op dashboards.  Lees het technisch document [Best design principles for reports and visualizations](power-bi-visualization-best-practices.md) (Beste ontwerpprincipes voor rapporten en visualisaties).
+> Veel ontwerpprincipes voor rapporten zijn ook van toepassing op dashboards.  Lees het technisch document [Best design principles for reports and visualizations](visuals/power-bi-visualization-best-practices.md) (Beste ontwerpprincipes voor rapporten en visualisaties).
 >
 >
 
@@ -51,7 +51,7 @@ Als de tekst en visualisaties op het dashboard allemaal even groot zijn, kunnen 
 
 Maar zorg ervoor dat u context biedt.  
 
-Lees meer over [een tegel maken met alleen een getal](power-bi-visualization-card.md).
+Lees meer over [een tegel maken met alleen een getal](visuals/power-bi-visualization-card.md).
 
 ## <a name="put-the-most-important-information-in-the-upper-corner"></a>De belangrijkste informatie in de rechterbovenhoek plaatsen
 De meeste mensen lezen van boven naar beneden. Plaats daarom het hoogste detailniveau bovenaan en geef meer details weer naarmate in de leesrichting van de doelgroep wordt bewogen (links-naar-rechts, rechts-naar-links).
@@ -68,7 +68,7 @@ Vermijd een verscheidenheid aan visualisaties omwille van de verscheidenheid all
 * Let op hoe [diagrammen zijn gesorteerd](power-bi-report-change-sort.md).  Als u de aandacht wilt vestigen op het hoogste of laagste getal, sorteert u op de meting.  Als u wilt dat personen snel een bepaalde categorie kunnen vinden in een groot aantal categorieën, sorteert u op as.  
 * Cirkeldiagrammen werken het beste als er minder dan acht categorieën worden weergegeven. Omdat u in een cirkeldiagram geen waarden naast elkaar kunt weergeven, is het moeilijker om in een cirkeldiagram waarden te vergelijken dan in een staaf- of kolomdiagram. Cirkeldiagrammen zijn geschikter voor het weergeven van deel-naar-geheelrelaties dan voor het vergelijken van delen. En meterdiagrammen zijn ideaal voor het weergeven van de huidige status in de context van een doel.
 
-Zie [Visualization types in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md) (Visualisatietypen in Power BI) voor meer visualisatiespecifieke instructies.  
+Zie [Visualization types in Power BI](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) (Visualisatietypen in Power BI) voor meer visualisatiespecifieke instructies.  
 
 ## <a name="learning-more-about-best-practice-dashboard-design"></a>Meer informatie over aanbevolen procedures voor het ontwerpen van dashboards
 Als u de kunst van het ontwerpen van geweldige dashboards onder de knie wilt krijgen, kunt u overwegen om u te verdiepen in de Gestalt-basisprincipes voor visuele waarneming en te leren hoe u duidelijk informatie waarop actie moet worden ondernomen, in context overbrengt. Gelukkig zijn er al tal van bronnen algemeen beschikbaar, onder andere vermeld in onze blogs. Een aantal van onze favoriete boeken zijn:

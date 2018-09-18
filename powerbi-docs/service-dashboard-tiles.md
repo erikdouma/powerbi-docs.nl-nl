@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/21/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 09fcce65539d89c9d42bc05369f13a6048eb96c2
-ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
+ms.openlocfilehash: c9451297dab6210a454ea96c1537189f46e8ad24
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43241586"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726128"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Dashboardtegels in Power BI
-Dashboards en dashboardtegels zijn functies van Power BI-service, niet van Power BI Desktop. Dashboardtegels kunnen niet worden gemaakt of vastgemaakt in Power BI - Mobiel, [maar kunnen daarin wel worden weergeven en gedeeld](mobile-tiles-in-the-mobile-apps.md). En in Power BI - Mobiel kunt u [afbeeldingen toevoegen aan uw dashboard met uw iPhone-app](mobile-iphone-app-get-started.md).
+Dashboards en dashboardtegels zijn functies van Power BI-service, niet van Power BI Desktop. Dashboardtegels kunnen niet worden gemaakt of vastgemaakt in Power BI - Mobiel, [maar kunnen daarin wel worden weergeven en gedeeld](consumer/mobile/mobile-tiles-in-the-mobile-apps.md). En in Power BI - Mobiel kunt u [afbeeldingen toevoegen aan uw dashboard met uw iPhone-app](consumer/mobile/mobile-iphone-app-get-started.md).
 
 ## <a name="dashboard-tiles"></a>Update van dashboardtegels
 ![Power BI-dashboard](media/service-dashboard-tiles/power-bi-dashboard.png)
@@ -94,7 +94,7 @@ Als u een tegel selecteert, hangt wat er daarna gebeurt af van de manier waarop 
 * Als de oorspronkelijke visualisatie waarmee de tegel is gemaakt wijzigt, verandert de tegel niet.  Als u bijvoorbeeld een lijndiagram uit een rapport hebt vastgemaakt en u het lijndiagram vervolgens wijzigt in een staafdiagram, blijft de dashboardtegel een lijndiagram weergeven. De gegevens worden vernieuwd, maar het visualisatietype niet.
 
 ## <a name="next-steps"></a>Volgende stappen
-[Kaart maken (tegel met grote cijfers) voor uw dashboard](power-bi-visualization-card.md)
+[Kaart maken (tegel met grote cijfers) voor uw dashboard](visuals/power-bi-visualization-card.md)
 
 [Dashboards in Power BI](service-dashboards.md)  
 

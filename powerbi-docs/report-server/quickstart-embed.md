@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 8d7653e6f390959df745fa2b19076ee89b26b1bc
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 802107ce9c12075ffc51461375ca3e9a313f2be1
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34293692"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558419"
 ---
 # <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>Snelstart: Een Power BI Report Server-rapport insluiten met behulp van een iFrame in SharePoint Server
 
@@ -24,7 +24,7 @@ In deze snelstart leert u hoe u een Power BI Report Server-rapport insluit met b
 ## <a name="prerequisites"></a>Vereisten
 * U moet [Power BI Report Server](https://powerbi.microsoft.com/en-us/report-server/) hebben geïnstalleerd en geconfigureerd.
 * U moet een voor [Power BI Report Server geoptimaliseerde versie van Power BI Desktop](install-powerbi-desktop.md) hebben geïnstalleerd.
-* U moet een [SharePoint](https://docs.microsoft.com/en-us/sharepoint/install/install)-omgeving hebben geïnstalleerd en geconfigureerd.
+* U moet een [SharePoint](https://docs.microsoft.com/sharepoint/install/install)-omgeving hebben geïnstalleerd en geconfigureerd.
 
 ## <a name="creating-the-power-bi-report-server-report-url"></a>De Power BI Report Server-rapport-URL maken
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d683ce3d06e2ac6be6c51f257e4f9483e718e2d8
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: b34c16337158e784b0c41bd3e3fd93aca9504cd7
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624386"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727301"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Uw Power BI-dashboards en -rapporten delen met collega's en anderen
 *Delen* is een goede manier om enkele personen toegang te geven tot uw dashboards en rapporten. Power BI ondersteunt ook [verschillende andere manieren om samen te werken en uw dashboards en rapporten te distribueren](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -27,7 +27,7 @@ Als u inhoud wilt gaan delen, hebt u een [Power BI Pro-licentie](service-free-vs
 
 U kunt dashboards en rapporten delen vanaf de meeste plaatsen in de Power BI-service: uw Favorieten, Recent, Gedeeld met mij (als de eigenaar het toestaat), Mijn werkruimte of andere werkruimten. Wanneer u een dashboard of rapport deelt, kunnen de personen met wie u het deelt ernaar kijken en er interactie mee hebben, maar ze kunnen het niet bewerken. In het dashboard of rapport zien ze dezelfde gegevens als u, tenzij er [beveiliging op rijniveau](service-admin-rls.md) wordt toegepast. De collega's met wie u het dashboard of rapport deelt, kunnen het ook weer met hun collega's delen, maar alleen als u dat toestaat. De personen buiten uw organisatie kunnen het dashboard of rapport ook bekijken en er interactie mee hebben, maar ze kunnen het niet delen. 
 
-U kunt [een dashboard ook delen vanuit een van de mobiele apps van Power BI](mobile-share-dashboard-from-the-mobile-apps.md). U kunt dashboards delen vanuit de Power BI-service en de mobiele Power BI-apps, maar niet vanuit Power BI Desktop.
+U kunt [een dashboard ook delen vanuit een van de mobiele apps van Power BI](consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md). U kunt dashboards delen vanuit de Power BI-service en de mobiele Power BI-apps, maar niet vanuit Power BI Desktop.
 
 ## <a name="video-share-a-dashboard"></a>Video: Een dashboard delen
 Kijk hoe Amanda haar dashboard deelt met collega's binnen en buiten haar bedrijf. Gebruik vervolgens de stapsgewijze instructies onder de video om het zelf te proberen.

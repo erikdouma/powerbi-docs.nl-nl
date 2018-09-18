@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 61a30484713ac96d3bbb65355310007a52f300a5
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 324a9b7f8a3718c6da0efb7533751d88dd717bcf
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657800"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728083"
 ---
 # <a name="conditional-formatting-in-tables"></a>Voorwaardelijke opmaak in tabellen 
 Met voorwaardelijke opmaak voor tabellen kunt u aangepaste celkleuren opgeven op basis van celwaarden of op basis van andere waarden of velden, waaronder het gebruik van kleurovergangen. U kunt ook celwaarden met gegevensbalken weergeven. 
@@ -133,5 +133,5 @@ Er zijn veel meer variaties die u kunt maken door gewoon gebruik te maken van uw
 ## <a name="next-steps"></a>Volgende stappen
 Raadpleeg voor meer informatie hete volgende artikel:  
 
-* [Tips en trucs voor het gebruik van opmaak in Power BI](service-tips-and-tricks-for-color-formatting.md)  
+* [Tips en trucs voor het gebruik van opmaak in Power BI](visuals/service-tips-and-tricks-for-color-formatting.md)  
 

@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
-ms.openlocfilehash: ed8a0990c9da2da877c32a0ef44c676f91e0f493
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 80d2039b2cfcac2f2c3db9c6f656561b670aa341
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291392"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727485"
 ---
 # <a name="set-geographic-filters-in-power-bi-desktop-for-the-mobile-apps"></a>Geografische filters in Power BI Desktop instellen voor de mobiele apps
 In Power BI Desktop kunt u [geografische gegevens categoriseren](desktop-data-categorization.md) voor een kolom, zodat Power BI Desktop weet hoe waarden in visuele elementen moeten worden afgehandeld in een rapport. Een extra voordeel is dat wanneer uw collega's het desbetreffende rapport weergeven in de mobiele Power BI-apps voor iOS, automatisch de geografische filters in Power BI worden verstrekt die overeenkomen met waar u zich bevindt. 
 
-Stel dat u een verkoopmanager bent en reist om met klanten af te spreken en u snel de totale verkoop en omzet wilt filteren voor de specifieke klant die u een bezoek gaat brengen. U wilt de gegevens opsplitsen voor uw huidige locatie, of dit nu per provincie, plaats of een exact adres is. Later, als u tijd over hebt, wilt u andere klanten in de buurt een bezoek brengen. U kunt [het rapport filteren op uw locatie om die klanten te vinden](mobile-apps-geographic-filtering.md).
+Stel dat u een verkoopmanager bent en reist om met klanten af te spreken en u snel de totale verkoop en omzet wilt filteren voor de specifieke klant die u een bezoek gaat brengen. U wilt de gegevens opsplitsen voor uw huidige locatie, of dit nu per provincie, plaats of een exact adres is. Later, als u tijd over hebt, wilt u andere klanten in de buurt een bezoek brengen. U kunt [het rapport filteren op uw locatie om die klanten te vinden](consumer/mobile/mobile-apps-geographic-filtering.md).
 
 > [!NOTE]
 > U kunt alleen filteren op locatie in de mobiele app als de geografische namen in het rapport in het Engels zijn, bijvoorbeeld ‘New York’ of ‘Germany’.
@@ -52,12 +52,12 @@ Stel dat u een verkoopmanager bent en reist om met klanten af te spreken en u sn
 2. Publiceer het rapport naar de Power BI-service.
 
 ## <a name="view-the-report-in-power-bi-mobile-app"></a>Het rapport weergeven in de mobiele Power BI-app
-1. Open het rapport in een van de [mobiele Power BI-apps](mobile-apps-for-mobile-devices.md).
+1. Open het rapport in een van de [mobiele Power BI-apps](consumer/mobile/mobile-apps-for-mobile-devices.md).
 2. Als u zich op een geografische locatie bevindt waarover het rapport gegevens bevat, kunt u het automatisch filteren op uw locatie.
    
     ![Geofilter in mobiele app](media/desktop-mobile-geofiltering/power-bi-mobile-geo-map-set-filter.png)
 
-Lees meer over het [filteren van een rapport op locatie in de mobiele Power BI-apps](mobile-apps-geographic-filtering.md).
+Lees meer over het [filteren van een rapport op locatie in de mobiele Power BI-apps](consumer/mobile/mobile-apps-geographic-filtering.md).
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Gegevenscategorisatie in Power BI Desktop](desktop-data-categorization.md)  

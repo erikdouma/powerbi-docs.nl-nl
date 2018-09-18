@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/31/2018
-ms.openlocfilehash: 48faf9ebde5860b59569a7e0a3a96664d06a1b0d
-ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
+ms.openlocfilehash: d540dd29214422dfc33dca2bf2fb1cb74ebe6de7
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43241563"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558563"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Problemen oplossen met uw ingesloten toepassing
 
@@ -105,13 +105,13 @@ De back-end van de toepassing moet het verificatietoken mogelijk vernieuwen voor
 
 Als u Power BI Embedded en Azure AD Direct Authentication gebruikt en u bij het aanmelden berichten ontvangt als ***fout: unauthorized_client, error_description:AADSTS70002: fout bij het valideren van referenties. AADSTS50053: u hebt te vaak geprobeerd u aan te melden met een onjuiste gebruikers-id of een onjuist wachtwoord***. Dit komt doordat directe verificatie sinds 14-6-2018 standaard is uitgeschakeld.
 
-Er is een manier om dit weer in te schakelen met behulp van [Azure AD-beleid](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) waarvan het bereik wordt beperkt tot de organisatie of een [service-principal](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
+Er is een manier om dit weer in te schakelen met behulp van [Azure AD-beleid](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) waarvan het bereik wordt beperkt tot de organisatie of een [service-principal](https://docs.microsoft.com/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
 
 We raden aan deze optie alleen per app in te schakelen.
 
 Als u dit beleid wilt kunnen maken, moet u een **globale beheerder** zijn voor de map waar u het beleid maakt en toewijst. Hier volgt een voorbeeldscript voor het maken van het beleid en het toewijzen ervan aan de serviceprovider voor deze toepassing:
 
-1. Installeer de [previewversie van de Azure AD PowerShell-module](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
+1. Installeer de [previewversie van de Azure AD PowerShell-module](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
 
 2. Voer de volgende PowerShell-opdrachten per regel uit (zorg ervoor dat de variabele $sp niet meer dan één toepassing als resultaat heeft).
 
@@ -274,7 +274,7 @@ Dit komt doordat de omleidings-URL die is opgegeven voor de web-servertoepassing
 
 Als u de geregistreerde toepassing wilt bewerken, moet u leren hoe u de [geregistreerde AAD-toepassing](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application) bewerkt, zodat de toepassing toegang kan geven tot de web-API’s.
 
-Als u uw Power BI-gebruikersprofiel of -gegevens wilt bewerken, leert u hoe u uw [Power BI-gegevens](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts) moet bewerken.
+Als u uw Power BI-gebruikersprofiel of -gegevens wilt bewerken, leert u hoe u uw [Power BI-gegevens](https://docs.microsoft.com/power-bi/service-basic-concepts) moet bewerken.
 
 Zie [Veelgestelde vragen over Power BI Embedded](embedded-faq.md) voor meer informatie.
 

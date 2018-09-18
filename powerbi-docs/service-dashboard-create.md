@@ -1,5 +1,5 @@
 ---
-title: Een Power BI-servicedashboard maken op basis van een rapport
+title: Een Power BI-dashboard maken op basis van een rapport
 description: Een Power BI-dashboard maken op basis van een rapport
 author: mihart
 manager: kfile
@@ -8,16 +8,16 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/02/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: a550aabb3590018666a3784e602ede15696862e5
-ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
+ms.openlocfilehash: a528c4a641dbdecce7d33f29e7afbe6118ee34b5
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "44168084"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726473"
 ---
-# <a name="create-a-power-bi-dashboard-in-power-bi-service"></a>Een Power BI-dashboard maken in de Power BI-service
+# <a name="create-a-power-bi-dashboard-from-a-report"></a>Een Power BI-dashboard maken op basis van een rapport
 U hebt [Dashboards in Power BI](service-dashboards.md) gelezen en u wilt nu uw eigen dashboard maken. Er zijn veel verschillende manieren om een dashboard te maken: op basis van een rapport, helemaal vanaf het begin, op basis van een gegevensset, door een bestaand dashboard te dupliceren, en meer.  
 
 Het kan overweldigend zijn wanneer u voor het eerst met een dashboard aan de slag gaat, dus we gaan eerst een klein en eenvoudig dashboard maken door visualisaties vast te maken van een rapport dat al gemaakt is. Zodra u de snelstartgids hebt voltooid, zult u goed kunnen begrijpen wat de relatie tussen dashboards en rapporten is, hoe u de bewerkweergave in de rapporteditor kunt openen, hoe u tegels kunt vastmaken en hoe u tussen een dashboard en een rapport kunt navigeren. Gebruik vervolgens de koppelingen in de Inhoudsopgave aan de linkerkant of de **Volgende stappen** onderaan om verder te gaan met de moeilijkere onderwerpen.
@@ -25,7 +25,7 @@ Het kan overweldigend zijn wanneer u voor het eerst met een dashboard aan de sla
 ## <a name="who-can-create-a-dashboard"></a>Wie mag een dashboard maken?
 Het maken van een dashboard is een functie die beschikbaar is voor **Makers** en er zijn machtigingen nodig om het rapport te kunnen bewerken. Bewerkingsmachtigingen zijn beschikbaar voor makers van rapporten en voor de collega's die toegang hebben gekregen van de maker. Als David bijvoorbeeld een rapport maakt in workspaceABC en u vervolgens als lid van deze werkruimte toevoegt, zullen David en u allebei bewerkingsmachtigingen krijgen. Maar indien een rapport rechtstreeks met u is gedeeld of als onderdeel van een [Power BI-app](service-install-use-apps.md) (u **gebruikt** het rapport), kunt u geen tegels aan een dashboard vastmaken.
 
-> **OPMERKING**: Dashboards zijn een functie van Power BI-service, niet van Power BI Desktop. Dashboards kunnen niet worden gemaakt in Power BI - Mobiel, maar wel worden [bekeken en gedeeld](mobile-apps-view-dashboard.md).
+> **OPMERKING**: Dashboards zijn een functie van Power BI-service, niet van Power BI Desktop. Dashboards kunnen niet worden gemaakt in Power BI - Mobiel, maar wel worden [bekeken en gedeeld](consumer/mobile/mobile-apps-view-dashboard.md).
 >
 > 
 
