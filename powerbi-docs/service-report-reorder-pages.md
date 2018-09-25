@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 205df68a380c9c8b33ce11fae5509c555ec506cb
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3dc053113d2ac8a3e577b9b66a7803309674fd6d
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34237461"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543448"
 ---
 # <a name="reorder-pages-in-a-report-in-power-bi"></a>Pagina's opnieuw ordenen in een rapport in Power BI
 Een rapport in Power BI bestaat uit een of meer pagina's.  Elke pagina is onderaan voorzien van een tabblad.  Als u een rapport opnieuw wilt ordenen, sleept u het tabblad naar de gewenste nieuwe locatie.
@@ -23,7 +23,7 @@ Een rapport in Power BI bestaat uit een of meer pagina's.  Elke pagina is ondera
 ![Video](media/service-report-reorder-pages/reorder.gif)
 
 ### <a name="next-steps"></a>Volgende stappen
-Lees meer over [rapporten in Power BI](service-reports.md)  
-[Power BI - basisconcepten](service-basic-concepts.md)  
+Lees meer over [rapporten in Power BI](consumer/end-user-reports.md)  
+[Power BI - basisconcepten](consumer/end-user-basic-concepts.md)  
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 
