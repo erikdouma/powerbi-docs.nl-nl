@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: aa73da576a64a3245a3e8a9deab124dcefbc79f8
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 946746b1c868ca5310edd929434cc852400b5bc3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736213"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548069"
 ---
 # <a name="treemaps-in-power-bi"></a>Treemaps in Power BI
 In treemaps worden hiërarchische gegevens weergegeven als een set van geneste rechthoeken.  Elk niveau van de hiërarchie wordt weergegeven als een gekleurde rechthoek (ook wel een vertakking genoemd) die andere gekleurde rechthoeken (bladeren) bevat.  De ruimte in elke rechthoek wordt toegewezen op basis van de kwantitatieve waarde die wordt gemeten, waarbij de rechthoeken op grootte worden gesorteerd van linksboven (grootste) naar rechtsonder (kleinste).
@@ -62,7 +62,7 @@ U kunt ook zelf een treemap maken. In deze instructies wordt het voorbeeld van e
    > 
 5. Beweeg de cursor over het gebied **Keten** om de knopinfo voor dat gedeelte van de **Categorie** weer te geven.  Als u muiswijzer bijvoorbeeld over **Lindseys** in de rechthoek **040-Juniors** beweegt, wordt de tooltip voor het aandeel van Lindsey in de categorie Juniors weergegeven.  
    ![](media/power-bi-visualization-treemaps/treemaphoverdetail_new.png)
-6. [Voeg de treemap toe als een dashboardtegel (de visual vastmaken)](../service-dashboard-tiles.md). 
+6. [Voeg de treemap toe als een dashboardtegel (de visual vastmaken)](../consumer/end-user-tiles.md). 
 7. [Sla het rapport op](../service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>Markeren en kruislings filteren
@@ -76,11 +76,11 @@ Wanneer u een categorie of details in een treemap markeert, worden de andere vis
 2. Als u in het cirkeldiagram **Omzet afgelopen jaar per keten** het segment **Fashions Direct** selecteert, wordt de treemap kruislings gefilterd.  
    ![](media/power-bi-visualization-treemaps/treemapnoowl.gif)    
 
-3. Zie [Visualisatie-interacties in een Power BI-rapport](../service-reports-visual-interactions.md) als u wilt beheren hoe grafieken elkaar kruislings markeren en filteren.
+3. Zie [Visualisatie-interacties in een Power BI-rapport](../consumer/end-user-interactions.md) als u wilt beheren hoe grafieken elkaar kruislings markeren en filteren.
 
 ## <a name="next-steps"></a>Volgende stappen
 [Een visualisatie vastmaken aan een dashboard](../service-dashboard-pin-tile-from-report.md)  
-[Power BI - basisconcepten](../service-basic-concepts.md)  
+[Power BI - basisconcepten](../consumer/end-user-basic-concepts.md)  
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)  
 

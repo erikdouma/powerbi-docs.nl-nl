@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8095db86b8954b3f91a83f2e83c0108d1676cf76
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: df53cf238a52502cecb4d1f77482b7b1a09c6b7a
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736383"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545263"
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report"></a>Deel 1: visualisaties toevoegen aan een Power BI-rapport
 Dit artikel bevat een korte inleiding over het maken van een visualisatie in een rapport met de Power BI-service of Power BI Desktop.  [Zie deel II](power-bi-report-add-visualizations-ii.md) voor geavanceerdere inhoud. Kijk mee met Amanda, die een aantal verschillende manieren om visuele elementen in het rapportcanvas te maken, bewerken en op te maken laat zien. Probeer deze vervolgens zelf met behulp van het [Voorbeeld van verkoop en marketing](../sample-datasets.md) om uw eigen rapport te maken.
@@ -25,7 +25,7 @@ Dit artikel bevat een korte inleiding over het maken van een visualisatie in een
 
 
 ## <a name="open-a-report-and-add-a-new-page"></a>Een rapport openen en een nieuwe pagina toevoegen
-1. Open een [rapport in de Bewerkweergave](../service-reading-view-and-editing-view.md). In deze zelfstudie wordt het [Voorbeeld van verkoop en marketing](../sample-datasets.md) gebruikt.
+1. Open een [rapport in de Bewerkweergave](../consumer/end-user-reading-view.md). In deze zelfstudie wordt het [Voorbeeld van verkoop en marketing](../sample-datasets.md) gebruikt.
 2. Als het deelvenster Velden niet zichtbaar is, selecteert u het pijlpictogram om het te openen. 
    
    ![](media/power-bi-report-add-visualizations-i/pbi_nancy_fieldsfiltersarrow.png)
@@ -59,7 +59,7 @@ Dit artikel bevat een korte inleiding over het maken van een visualisatie in een
 ## <a name="next-steps"></a>Volgende stappen
  Doorgaan met [Deel 2: visualisaties toevoegen aan een Power BI-rapport](power-bi-report-add-visualizations-ii.md)
    
-   [Communiceren met de visualisaties](../service-reading-view-and-editing-view.md) in het rapport.
+   [Communiceren met de visualisaties](../consumer/end-user-reading-view.md) in het rapport.
    
    [Nog meer doen met visualisaties](power-bi-report-visualizations.md).
    

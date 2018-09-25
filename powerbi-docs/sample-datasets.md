@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: cd9762a5f9a46ab7d726a326c1b231f30c8e6271
-ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
+ms.openlocfilehash: 91c08ab428852cc0fa8a721278e232400ed19bfa
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39582495"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546482"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Welke voorbeeldgegevens zijn beschikbaar voor gebruik met Power BI?
 Stel dat u geen ervaring hebt met Power BI en u Power BI wilt uitproberen, maar nog geen gegevens hebt.  Of misschien hebt u een gegevensset, maar bent u bang dat u de gegevensset beschadigt omdat u (nog) niet begrijpt hoe Power BI werkt?
@@ -191,7 +191,7 @@ De voorbeeldinhoudspakketten zijn ook beschikbaar als PBIX-bestanden. De PBIX-be
 4. Selecteer het PBIX-bestand om het in Power BI Desktop te openen.
 
 ## <a name="next-steps"></a>Volgende stappen
-[Basisconcepten van Power BI](service-basic-concepts.md)
+[Basisconcepten van Power BI](consumer/end-user-basic-concepts.md)
 
 [Zelfstudie: Verbinding maken met de Power BI-voorbeelden](sample-tutorial-connect-to-the-samples.md)
 

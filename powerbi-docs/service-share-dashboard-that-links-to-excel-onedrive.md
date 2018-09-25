@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 79912ad58a177999ae6d02e083d1d5f0df46c49c
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 28934a525c332344b31de599363fb41126a18cfa
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624454"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548759"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>Een Power BI-dashboard delen dat is gekoppeld aan een Excel-bestand in OneDrive
 U kunt in Power BI [verbinding maken met Excel-werkmappen in OneDrive voor Bedrijven](service-excel-workbook-files.md) en tegels vastmaken aan een dashboard uit die werkmap. Wanneer u dat dashboard deelt of een inhoudspakket maakt waarin dat dashboard is opgenomen:
@@ -56,6 +56,6 @@ Het delen van een dashboard via een Power BI-werkruimte is vergelijkbaar met het
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Een tegel aan een Power BI-dashboard vastmaken via Excel](service-dashboard-pin-tile-from-excel.md)
-* [Basisconcepten van Power BI](service-basic-concepts.md)
+* [Basisconcepten van Power BI](consumer/end-user-basic-concepts.md)
 * Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

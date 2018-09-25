@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 83aacb2c3ecf95d8daecc8e9c79bd312cefd6d86
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: ddf08edf7494cd8b918a93d41b384b4e89376d95
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736433"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543337"
 ---
 # <a name="basic-area-chart"></a>Eenvoudig vlakdiagram
 Het eenvoudige vlakdiagram (ook wel gelaagd vlakdiagram genoemd) is gebaseerd op het lijndiagram. Het gebied tussen as en lijn wordt gevuld met kleuren om het volume aan te geven. 
@@ -60,7 +60,7 @@ Meld u aan bij Power BI als u mee wilt doen en selecteer achtereenvolgens **Gege
 ## <a name="highlighting-and-cross-filtering"></a>Markeren en kruislings filteren
 Zie [Een filter aan een rapport toevoegen](../power-bi-report-add-filter.md) voor informatie over het gebruik van het deelvenster FILTERS.
 
-Selecteer een bepaald gebied of de bovenrand ervan in uw diagram als u dat gebied wilt markeren.  Als er zich in tegenstelling tot andere visualisatietypen andere visualisaties op dezelfde pagina bevinden, worden andere visualisaties op de rapportpagina niet kruislings gefilterd wanneer er een eenvoudige vlakdiagrammen worden gemarkeerd. Vlakdiagrammen zijn echter wel een doel voor kruislings filteren dat door andere visualisaties op de rapportpagina wordt geactiveerd. Zie [Interacties van visuals in rapporten](../service-reports-visual-interactions.md) voor meer informatie.
+Selecteer een bepaald gebied of de bovenrand ervan in uw diagram als u dat gebied wilt markeren.  Als er zich in tegenstelling tot andere visualisatietypen andere visualisaties op dezelfde pagina bevinden, worden andere visualisaties op de rapportpagina niet kruislings gefilterd wanneer er een eenvoudige vlakdiagrammen worden gemarkeerd. Vlakdiagrammen zijn echter wel een doel voor kruislings filteren dat door andere visualisaties op de rapportpagina wordt geactiveerd. Zie [Interacties van visuals in rapporten](../consumer/end-user-interactions.md) voor meer informatie.
 
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing   
@@ -68,8 +68,8 @@ Selecteer een bepaald gebied of de bovenrand ervan in uw diagram als u dat gebie
 * Met eenvoudige vlakdiagrammen kunnen waarden die het gevolg zijn van bedekking op de gelaagde vlakken niet effectief worden vergeleken. Power BI maakt gebruik van transparantie om de overlapping van gebieden aan te geven. Dit werkt echter alleen goed met twee of drie verschillende vlakken. Als u trends voor drie of meer metingen wilt vergelijken, kunt u lijndiagrammen gebruiken. Als u volumes voor drie of meer metingen wilt vergelijken, kunt u treemapgrafieken gebruiken.
 
 ## <a name="next-steps"></a>Volgende stappen
-[Rapporten in Power BI](../service-reports.md)  
+[Rapporten in Power BI](../consumer/end-user-reports.md)  
 [Visualisaties in Power BI-rapporten](power-bi-report-visualizations.md)  
-[Power BI - basisconcepten](../service-basic-concepts.md)  
+[Power BI - basisconcepten](../consumer/end-user-basic-concepts.md)  
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

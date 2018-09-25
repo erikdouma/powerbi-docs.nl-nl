@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/17/2018
 ms.author: maggies
-ms.openlocfilehash: 5fe4212be55a42a6892a94e2a07da8af5c035b6d
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 7a5c60eea81eeb3a1f4e8a7f5b807fd8c7bfb6b5
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44735614"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547241"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Rapporten verkennen in de mobiele Power BI-apps
 Van toepassing op:
@@ -82,7 +82,7 @@ Wanneer u een waarde in een visueel element selecteert, worden de andere visuele
 * Als u de sorteervolgorde wilt omkeren, tikt u nogmaals op de drie puntjes (**...** ) en tikt u nogmaals op dezelfde veldnaam.
 
 ## <a name="drill-down-and-up-in-a-visual"></a>In- en uitzoomen op een visueel element
-Als de maker van een rapport de mogelijkheid om in te zoomen heeft toegevoegd aan een visual, kunt u inzoomen op de visual om de waarden te bekijken waaruit één onderdeel ervan bestaat. U kunt [inzoomen op een visueel element toevoegen](../../power-bi-visualization-drill-down.md) in Power BI Desktop of de Power BI-service. 
+Als de maker van een rapport de mogelijkheid om in te zoomen heeft toegevoegd aan een visual, kunt u inzoomen op de visual om de waarden te bekijken waaruit één onderdeel ervan bestaat. U kunt [inzoomen op een visueel element toevoegen](../end-user-drill.md) in Power BI Desktop of de Power BI-service. 
 
 * Klik op een specifieke balk of een specifiek punt in een visual en houd de muisknop ingedrukt om de knopinfo weer te geven. Als inzoomen beschikbaar is, heeft de onderkant van de knopinfo pijlen waarop u kunt tikken. 
   

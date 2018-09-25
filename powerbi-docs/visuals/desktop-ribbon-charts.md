@@ -1,21 +1,21 @@
 ---
 title: Lintgrafieken gebruiken in Power BI
 description: Lintgrafieken maken en gebruiken in de Power BI-service en Power BI Desktop
-author: davidiseminger
+author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 07/27/2018
-ms.author: davidi
+ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0d7dbf878c32ee29ea490e10f27f1bda49f20b08
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: e7bd79b8d93bba4395922fb39faaf423109f7b02
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732747"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46566114"
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Lintgrafieken gebruiken in Power BI
 In **Power BI** kunt u lintgrafieken gebruiken om gegevens te visualiseren en snel te bepalen welke gegevenscategorie de hoogste rang heeft (hoogste waarde). In lintgrafieken kunnen wijzigingen in de rang goed worden weergegeven, waarbij voor elke periode de hoogste rang (waarde) altijd bovenaan wordt weergegeven. Lintgrafieken zijn beschikbaar in **Power BI Desktop** vanaf de release van september 2017 en in daarop volgende updates van de **Power BI-service**.

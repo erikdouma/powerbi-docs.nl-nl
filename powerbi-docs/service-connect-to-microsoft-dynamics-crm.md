@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1dadb70f2d75596bb7180a5e7360cae19e1515b8
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 3d4065a6ab0c5a3c8f18350ef6c3a0444febda08
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38937257"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547057"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>Verbinding maken met Microsoft Dynamics CRM met Power BI
 Met Microsoft Dynamics CRM Online voor Power BI kunt u eenvoudig toegang krijgen tot uw gegevens en deze analyseren. Power BI maakt gebruik van de OData-feed voor het maken van een beschrijvend model, met alle benodigde entiteiten en metrische gegevens zoals Accounts, Activities, Opportunities, Product, Leads, Users en meer. Nadat u de app hebt geïnstalleerd, kunt u het dashboard en de rapporten bekijken in de Power BI-service ([https://powerbi.com](https://powerbi.com)) en in de mobiele Power BI-apps. 
@@ -154,7 +154,7 @@ Als u niet beschikt over CRM Online 2016 of hoger, gebruikt u Power BI Desktop o
 Als u een fout ziet met de melding dat het vernieuwen van gegevens is mislukt omdat de query de maximumlimiet van 100000 records heeft overschreden, kunt u overwegen om rechtstreeks vanuit Power BI Desktop verbinding te maken of om de oplossingssjabloon voor CRM te gebruiken.
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Wat zijn apps in Power BI?](service-install-use-apps.md)
+* [Wat zijn apps in Power BI?](consumer/end-user-apps.md)
 * [Gegevens ophalen in Power BI](service-get-data.md)
 * Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

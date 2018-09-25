@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 0762ee808c089b73c69be99a38bfad63c231bc54
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: c33e7dd69d4bd0a0d09ebc124739d5d017c631bc
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732947"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550024"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Aan de slag met de mobiele Power BI-app op Android-apparaten
 De Android-app voor Microsoft Power BI biedt de mobiele BI-ervaring voor Power BI, Power BI Report Server en Reporting Services. Bekijk en gebruik vanaf elke locatie uw bedrijfsdashboards on-premises en in de cloud met mobiele live-toegang met aanraakfunctionaliteit. Verken de gegevens in dashboards en deel deze met uw collega's per e-mail of sms-bericht. 
@@ -119,11 +119,11 @@ Lees meer over [het configureren van mobiele Power BI-apps voor Android met Micr
 Hier volgen enkele dingen die u in de Android-apparaat-app voor Power BI kunt doen met dashboards en rapporten in Power BI en rapporten en KPI's in de Power BI Report Server- of Reporting Services-webportal.
 
 ### <a name="power-bi-dashboards-and-reports"></a>Power BI-dashboards en -rapporten
-* [Uw apps](../../service-install-use-apps.md) weergeven.
+* [Uw apps](../end-user-apps.md) weergeven.
 * Uw [dashboards](../../mobile-apps-view-dashboard.md) weergeven.
 * De [tegels op uw dashboards](../../mobile-tiles-in-the-mobile-apps.md) verkennen.
 * [Power BI-rapporten](../../mobile-reports-in-the-mobile-apps.md) openen.
-* [Uw apps](../../service-install-use-apps.md) weergeven.
+* [Uw apps](../end-user-apps.md) weergeven.
 * [Aantekeningen maken en tegels delen](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md).
 * [Dashboards](../../mobile-share-dashboard-from-the-mobile-apps.md) delen.
 * [Een Power BI-QR-code scannen](../../mobile-apps-qr-code.md) met uw Android-telefoon om een verwante dashboardtegel of verwant rapport te openen. 

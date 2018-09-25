@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7a002bb99cb80d805298d29916d4eb56f692b479
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 617809e072a492fb9887930e58bafd89ca8201e8
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310286"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544927"
 ---
 # <a name="static-content-in-power-bi-reports"></a>Statische inhoud in Power BI-rapporten
 Er kunnen tekstvakken en vormen aan de rapporten worden toegevoegd met behulp van de Power BI-service en Power BI Desktop. In beide gevallen moet u bewerkingsrechten voor het rapport hebben. Als een rapport met u is gedeeld in de Power BI-service, hebt u geen bewerkingsmachtigingen. 
@@ -65,6 +65,6 @@ Bekijk hoe Will Power BI Desktop gebruikt om [statistische afbeeldingen aan een 
 ### <a name="next-steps"></a>Volgende stappen
 [Een hyperlink toevoegen aan een tekstvak](service-add-hyperlink-to-text-box.md)
 
-[Power BI - basisconcepten](service-basic-concepts.md)
+[Power BI - basisconcepten](consumer/end-user-basic-concepts.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

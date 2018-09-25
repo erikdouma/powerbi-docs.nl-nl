@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b479c46ffe3e51ad5f15cc9884a2ea02626a4cc5
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: bd8a8b9a9aff451282c5cef8a6dd6f27b90335d7
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38876877"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548690"
 ---
 # <a name="connect-to-google-analytics-with-power-bi"></a>Verbinding maken met Google Analytics via Power BI
 U maakt verbinding met Google Analytics via Power BI door eerst verbinding te maken met uw Google Analytics-account. U ziet een Power BI-dashboard en een set Power BI-rapporten die inzicht geven in het verkeer van uw site en de gebruikersgegevens. U kunt met het dashboard en de rapporten werken, maar u kunt wijzigingen niet opslaan. De gegevens wordt eenmaal per dag automatisch vernieuwd.
@@ -69,7 +69,7 @@ Hebt u nog steeds problemen? Open een ondersteuningsticket om contact op te neme
 * Selecteer op de pagina Ondersteuning van Power BI (waar u dit artikel leest) **Contact opnemen met ondersteuning** aan de rechterkant van de pagina.
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Wat zijn apps in Power BI?](service-install-use-apps.md)
+* [Wat zijn apps in Power BI?](consumer/end-user-apps.md)
 * [Gegevens ophalen in Power BI](service-get-data.md)
 * Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

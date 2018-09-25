@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8532fff7bc522a0ad0e59bd17580549bd9e68a23
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 18c9fe3d50245ff1d0745c0a3ae1e830b3f9be45
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732717"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548322"
 ---
 # <a name="card-visualizations"></a>Kaartvisualisaties
 Soms is één getal het belangrijkste dat u wilt bijhouden op uw Power BI-dashboard of -rapport, zoals de totale omzet, het marktaandeel jaar na jaar of het totale aantal verkoopkansen. Dit type visualisatie wordt een *kaart* genoemd. Net als bij bijna alle systeemeigen Power BI-visualisaties kunnen kaarten worden gemaakt met behulp van de rapporteditor of Q&A.
@@ -51,13 +51,13 @@ In deze instructies wordt het voorbeeld van een retailanalyse gebruikt. Om mee t
 ## <a name="create-a-card-from-the-qa-question-box"></a>Een kaart maken via het vak Q&A
 Het vak Q&A is de eenvoudigste manier om een kaart te maken. Het vak Q&A is beschikbaar in de Power BI service (app.powerbi.com) vanuit een dashboard of een rapport. De onderstaande stappen beschrijven het maken van een kaart via een dashboard in de Power BI-service. Als u met behulp van Q&A een kaart wilt maken in Power BI Desktop, [volgt u deze instructies](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-december-feature-summary/#QandA) voor de Q&A-preview voor Desktop-rapporten.
 
-1. Maak een [dashboard](../service-dashboards.md) en [haal gegevens op](../service-get-data.md). In dit voorbeeld gebruiken we het [Voorbeeld van een kansanalyse](../sample-opportunity-analysis.md).
+1. Maak een [dashboard](../consumer/end-user-dashboards.md) en [haal gegevens op](../service-get-data.md). In dit voorbeeld gebruiken we het [Voorbeeld van een kansanalyse](../sample-opportunity-analysis.md).
 
 1. Typ in het vak Vraag aan de bovenkant van het dashboard wat u wilt weten over uw gegevens. 
 
    ![](media/power-bi-visualization-card/power-bi-q-and-a-box.png)
 
->**TIP**: selecteert vanuit een Power BI-servicerapport in de [bewerkweergave](../service-reading-view-and-editing-view.md) de optie **Een vraag stellen** in de menubalk aan de bovenkant. Zoek vanuit een Power BI Desktop-rapport naar een open ruimte in een rapport en dubbelklik hierop om een vraagvak te openen.
+>**TIP**: selecteert vanuit een Power BI-servicerapport in de [bewerkweergave](../consumer/end-user-reading-view.md) de optie **Een vraag stellen** in de menubalk aan de bovenkant. Zoek vanuit een Power BI Desktop-rapport naar een open ruimte in een rapport en dubbelklik hierop om een vraagvak te openen.
 
 3. Typ bijvoorbeeld 'aantal kansen' in het vak Vraag.
 
@@ -105,10 +105,10 @@ U hebt vele opties om de labels, tekst, kleur en meer te wijzigen. De beste mani
     ![](media/power-bi-visualization-card/power-bi-formatted.png)
 
 ## <a name="next-steps"></a>Volgende stappen
-[Dashboardtegels in Power BI](../service-dashboard-tiles.md)
+[Dashboardtegels in Power BI](../consumer/end-user-tiles.md)
 
-[Dashboards in Power BI](../service-dashboards.md)
+[Dashboards in Power BI](../consumer/end-user-dashboards.md)
 
-[Power BI - basisconcepten](../service-basic-concepts.md)
+[Power BI - basisconcepten](../consumer/end-user-basic-concepts.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

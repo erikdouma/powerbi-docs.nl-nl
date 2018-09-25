@@ -11,15 +11,15 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7703709361a6233b6d04d6fb2131ba41f109ca36
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3466280a452c89539d288a3e7d0a123855604e7e
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249865"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546367"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Een volledige rapportpagina als een live-tegel aan een Power BI-dashboard vastmaken
-Een andere manier om een nieuwe [dashboardtegel](service-dashboard-tiles.md) toe te voegen is door een volledige rapportpagina vast te maken. Dit is een eenvoudige manier om meer dan een visualisatie tegelijk vast te maken.  Ook zijn bij het vastmaken van een volledige pagina de tegels *live*; u kunt hiermee direct op het dashboard werken. En wijzigingen die u aan visualisaties aanbrengt in de rapporteditor, zoals een filter toevoegen of de velden wijzigen die worden gebruikt in de grafiek, worden ook in de dashboardtegel doorgevoerd.  
+Een andere manier om een nieuwe [dashboardtegel](consumer/end-user-tiles.md) toe te voegen is door een volledige rapportpagina vast te maken. Dit is een eenvoudige manier om meer dan een visualisatie tegelijk vast te maken.  Ook zijn bij het vastmaken van een volledige pagina de tegels *live*; u kunt hiermee direct op het dashboard werken. En wijzigingen die u aan visualisaties aanbrengt in de rapporteditor, zoals een filter toevoegen of de velden wijzigen die worden gebruikt in de grafiek, worden ook in de dashboardtegel doorgevoerd.  
 
 Live-tegels van rapporten vastmaken aan dashboards is alleen beschikbaar in de Power BI-service (app.powerbi.com).
 
@@ -53,7 +53,7 @@ Bekijk hoe Amanda een live-rapportpagina aan een dashboard vastmaakt. Volg vervo
     ![Dashboards met een live-tegel](media/service-dashboard-pin-live-tile-from-report/pbi-live-tile.png)
 
 ## <a name="next-steps"></a>Volgende stappen
-[Dashboards in Power BI](service-dashboards.md)
+[Dashboards in Power BI](consumer/end-user-dashboards.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

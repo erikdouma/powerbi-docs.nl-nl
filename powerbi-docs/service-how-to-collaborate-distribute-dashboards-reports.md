@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7b1b55475e2ad19c869ba92cdb9621caa0fc3538
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 22d32315040352e013ae8331e9433a9e60e97f5c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726657"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545746"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Hoe kan ik samenwerken en inhoud delen in Power BI?
 
@@ -57,7 +57,7 @@ Stel dat u uw dashboard wilt distribueren naar een brede doelgroep. U en uw coll
 
 ![Pictogram App publiceren](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-Apps zijn gemakkelijk te vinden en installeren in de Power BI-service ([https://powerbi.com](https://powerbi.com)). U kunt gebruikers in uw bedrijf een directe koppeling sturen naar de app of ze kunnen ernaar zoeken in AppSource. Als de Power BI-beheerder u hiervoor toestemming geeft, kunt u een app automatisch installeren in de Power BI-accounts van uw collega's. Lees meer over het [publiceren van uw apps](service-create-distribute-apps.md). 
+Apps zijn gemakkelijk te vinden en installeren in de Power BI-service ([https://powerbi.com](https://powerbi.com)). U kunt gebruikers in uw bedrijf een directe koppeling sturen naar de app of ze kunnen ernaar zoeken in AppSource. Als de Power BI-beheerder u hiervoor toestemming geeft, kunt u een app automatisch installeren in de Power BI-accounts van uw collega's. Lees meer over het [publiceren van uw apps](consumer/end-user-create-apps.md). 
 
 Nadat ze een app hebben geïnstalleerd, kunnen ze deze bekijken in hun browser of op een mobiel apparaat.
 
@@ -88,7 +88,7 @@ Lees hier meer over het [toevoegen van aantekeningen en het delen van tegels, ra
 U kunt ook [een momentopname van een tegel delen](consumer/mobile/mobile-windows-10-phone-app-get-started.md) vanuit de Power BI-app voor Windows 10-apparaten.
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>Afdrukken of opslaan als PDF of een ander statisch bestand
-U kunt vanuit de Power BI-service een dashboard, dashboardtegel, rapportpagina of visualisatie in zijn geheel afdrukken of opslaan als PDF-bestand (of andere statische bestandsindeling). Rapporten kunnen alleen pagina voor pagina worden afgedrukt. U kunt niet het hele rapport in één keer afdrukken. Lees hier meer over het [afdrukken of opslaan als een statisch bestand](service-print.md).
+U kunt vanuit de Power BI-service een dashboard, dashboardtegel, rapportpagina of visualisatie in zijn geheel afdrukken of opslaan als PDF-bestand (of andere statische bestandsindeling). Rapporten kunnen alleen pagina voor pagina worden afgedrukt. U kunt niet het hele rapport in één keer afdrukken. Lees hier meer over het [afdrukken of opslaan als een statisch bestand](consumer/end-user-print.md).
 
 ## <a name="publish-to-the-web"></a>Publiceren op internet
 
@@ -99,7 +99,7 @@ U kunt Power BI-rapporten publiceren op internet door interactieve visualisaties
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Dashboards delen met collega's en anderen](service-share-dashboards.md)
-* [Een app opslaan en publiceren in PowerApps](service-create-distribute-apps.md)
+* [Een app opslaan en publiceren in PowerApps](consumer/end-user-create-apps.md)
 * Wilt u feedback geven? Dit kan op de [site van de Power BI-community](https://community.powerbi.com/).
 * Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/).
 

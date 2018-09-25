@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2bbc619c2f581e26e36f03013f3db248fab49610
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 516d78bd6158c714d5f4418771c5e8cb219ce512
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624339"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547563"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Uw app-werkruimte beheren in Power BI en Office 365
-Als maker of beheerder van een [app-werkruimte in Power BI](service-install-use-apps.md) of in Office 365, beheert u bepaalde aspecten van de werkruimte in Power BI. Andere aspecten beheert u in Office 365. 
+Als maker of beheerder van een [app-werkruimte in Power BI](consumer/end-user-apps.md) of in Office 365, beheert u bepaalde aspecten van de werkruimte in Power BI. Andere aspecten beheert u in Office 365. 
 
 > [!NOTE]
 > Bij de preview van de nieuwe werkruimte-ervaring is de relatie tussen Power BI-werkruimten en Office 365-groepen gewijzigd. Er wordt niet automatisch een Office 365-groep gemaakt wanneer u een van de nieuwe werkruimten maakt. Meer informatie over [het maken van de nieuwe werkruimten (preview)](service-create-the-new-workspaces.md)
@@ -76,7 +76,7 @@ Wanneer u uw app uit de app-werkruimte distribueert, wordt de afbeelding die u h
 3. Selecteer **Opslaan** of **Verwijderen**.
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Wat zijn apps in Power BI?](service-install-use-apps.md)
-* [Apps met dashboards en rapporten publiceren in Power BI](service-create-distribute-apps.md)
+* [Wat zijn apps in Power BI?](consumer/end-user-apps.md)
+* [Apps met dashboards en rapporten publiceren in Power BI](consumer/end-user-create-apps.md)
 * Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: efc806787f2a1d5cd110439c1c5505bb7e77e980
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: f15bd3395ad9edc39589a0a5b1563cfcc00e2c3c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727462"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547867"
 ---
 # <a name="how-to-make-your-excel-data-work-well-with-qa-in-power-bi"></a>Uw Excel-gegevens geschikt maken voor Q&A in Power BI
 Lees verder als u gegevensmodellen maakt of Excel-werkmappen bouwt die worden gebruikt in Power BI.
@@ -27,7 +27,7 @@ Q&A kan worden gebruikt voor elk geüpload Excel-bestand dat tabellen, bereiken 
 ### <a name="how-qa-works-with-excel"></a>Hoe Q&A met Excel samenwerkt
 Q&A biedt u een reeks natuurlijke taalverwerkingsmogelijkheden die kunnen worden gebruikt voor al uw gegevens. U kunt contextafhankelijke trefwoorden zoeken in uw Excel-tabel, -kolom en namen van berekende velden. Tevens beschikt de functie over ingebouwde kennis op basis waarvan uw gegevens kunnen worden gefilterd, gesorteerd, geaggregeerd, gegroepeerd en weergegeven. 
 
-Als u bijvoorbeeld een Excel-tabel met de naam Verkopen hebt die de kolommen Product, Maand, Verkochte eenheden, Brutoverkoop en Winst bevat, kunt u over elk van deze entiteiten vragen stellen.  U kunt bijvoorbeeld vragen om het aantal verkopen of de totale winst per maand weer te geven of om de producten te sorteren op basis van de verkochte eenheden. Meer informatie over de [soorten vragen die u kunt stellen](power-bi-q-and-a.md) en [de typen visualisaties die u kunt opgeven in een Q&A-query](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
+Als u bijvoorbeeld een Excel-tabel met de naam Verkopen hebt die de kolommen Product, Maand, Verkochte eenheden, Brutoverkoop en Winst bevat, kunt u over elk van deze entiteiten vragen stellen.  U kunt bijvoorbeeld vragen om het aantal verkopen of de totale winst per maand weer te geven of om de producten te sorteren op basis van de verkochte eenheden. Meer informatie over de [soorten vragen die u kunt stellen](consumer/end-user-q-and-a.md) en [de typen visualisaties die u kunt opgeven in een Q&A-query](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
 
 ### <a name="prepare-an-excel-dataset-for-qa"></a>Een Excel-gegevensset voorbereiden voor Q&A
 Q&A is afhankelijk van de namen van tabellen, kolommen en berekende velden om gegevensspecifieke vragen te kunnen beantwoorden. De entiteiten in u werkmap spelen dus een belangrijke rol.
@@ -44,8 +44,8 @@ Hier volgen enkele tips optimaal gebruik van Q&A te maken in uw werkmap.
 * Open de gegevensset in Power BI Desktop openen en maak nieuwe kolommen, maak berekende eenheden en voeg velden samen om unieke waarden samen te stellen, classificeer gegevens op type (bijvoorbeeld datums, tekenreeksen, geografie, afbeeldingen of URL's), en meer.
 
 ## <a name="next-steps"></a>Volgende stappen
-Terug naar [Q&A in Power BI](power-bi-q-and-a.md)  
-[On-premises gegevenssets voorbereiden voor Q&A](service-q-and-a-direct-query.md)   
+Terug naar [Q&A in Power BI](consumer/end-user-q-and-a.md)  
+[On-premises gegevenssets voorbereiden voor Q&A](consumer/end-user-q-and-a-direct-query.md)   
 [Snelstartgids Q&A](power-bi-visualization-introduction-to-q-and-a.md)  
 [Gegevens ophalen (voor Power BI)](service-get-data.md)  
 

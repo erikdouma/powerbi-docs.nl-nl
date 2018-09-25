@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 04a385d67a8cc462b21c16cf7daaa5aa675436d9
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 72c51a6eae4acec5bfc0af7b471f98dfcb22da67
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732777"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549794"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Werken met tegels in de mobiele Power BI-apps
 Van toepassing op:
@@ -23,7 +23,7 @@ Van toepassing op:
 |:--- |:--- |:--- |:--- |:--- |
 | iPhones |iPads |Android-telefoons |Android-tablets |Windows 10-apparaten |
 
-Tegels zijn live-momentopnamen van uw gegevens, die zijn vastgemaakt aan een dashboard. De inhoud van de tegels wordt aangepast als de onderliggende gegevens veranderen. **[U kunt tegels toevoegen aan een dashboard in de Power BI-service](../../service-dashboard-tiles.md).** 
+Tegels zijn live-momentopnamen van uw gegevens, die zijn vastgemaakt aan een dashboard. De inhoud van de tegels wordt aangepast als de onderliggende gegevens veranderen. **[U kunt tegels toevoegen aan een dashboard in de Power BI-service](../end-user-tiles.md).** 
 
 Vervolgens kunt u ze in een mobiele Power BI-app openen in de focusmodus om ermee te werken. U kunt tegels openen met alle soorten visualisaties, waaronder tegels op basis van Bing en R.
 

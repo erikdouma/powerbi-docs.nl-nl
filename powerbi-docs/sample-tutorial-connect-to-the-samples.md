@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 02c3998a95e7d481ee032513054933f1484ae7f9
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 8b4a0605df348957c4adb0d8e02975f4cd752307
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "36944601"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543779"
 ---
 # <a name="the-power-bi-samples"></a>De Power BI-voorbeelden
 
@@ -79,7 +79,7 @@ Verken nu zelf het dashboard, de gegevensset en het rapport. Er zijn veel versch
     ![pagina van het rapport met de bijbehorende visual gemarkeerd](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
    
    > [!NOTE]
-   > Als de tegel was gemaakt met [Power BI Q&A](power-bi-q-and-a.md), zou in plaats daarvan de Q&A-pagina zijn geopend. Als de tegel [vanuit Excel was vastgemaakt](service-dashboard-pin-tile-from-excel.md) zou Excel Online het in Power BI hebben geopend.
+   > Als de tegel was gemaakt met [Power BI Q&A](consumer/end-user-q-and-a.md), zou in plaats daarvan de Q&A-pagina zijn geopend. Als de tegel [vanuit Excel was vastgemaakt](service-dashboard-pin-tile-from-excel.md) zou Excel Online het in Power BI hebben geopend.
    > 
    > 
 1. Terug op het tabblad **Gegevenssets** hebt u verschillende mogelijkheden om de gegevensset te verkennen.  U kunt de set niet openen en alle rijen en kolommen bekijken (zoals wel kan in Power BI Desktop of Excel).  Als iemand een inhoudspakket deelt met collega's, wil hij of zij doorgaans alleen de inzichten delen en de collega's niet direct toegang geven tot de gegevens. Maar dat betekent niet dat u de gegevensset niet kunt verkennen.  
@@ -89,7 +89,7 @@ Verken nu zelf het dashboard, de gegevensset en het rapport. Er zijn veel versch
    * Eén manier om de gegevensset te verkennen, is door zelf uw eigen visualisaties en rapporten te maken.  Selecteer het diagrampictogram ![rapportpictogram](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon4.png) om de gegevensset te openen in de rapportbewerkingsmodus.
      
        ![compleet nieuw rapport](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
-   * Een andere manier om de gegevensset te verkennen, is door [Snelle inzichten](service-insights.md) uit te voeren. Selecteer de drie puntjes (...) en kies **Inzichten verkrijgen**. Wanneer de inzichten gereed zijn, selecteert u **Inzichten weergeven**.
+   * Een andere manier om de gegevensset te verkennen, is door [Snelle inzichten](consumer/end-user-insights.md) uit te voeren. Selecteer de drie puntjes (...) en kies **Inzichten verkrijgen**. Wanneer de inzichten gereed zijn, selecteert u **Inzichten weergeven**.
      
        ![Insights-rapport](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 
@@ -130,7 +130,7 @@ Verken nu zelf de gegevensset, de relaties en het rapport. Voor een introductie 
 
 
 ## <a name="next-steps"></a>Volgende stappen
-[Basisconcepten van Power BI](service-basic-concepts.md)
+[Basisconcepten van Power BI](consumer/end-user-basic-concepts.md)
 
 [Voorbeelden voor de Power BI-service](sample-datasets.md)
 

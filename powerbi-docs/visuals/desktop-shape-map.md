@@ -1,21 +1,21 @@
 ---
 title: Shape-kaarten gebruiken in Power BI Desktop (preview)
 description: Relatieve vergelijkingen tussen regio's maken met behulp van Shape-kaarten in Power BI Desktop
-author: davidiseminger
+author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 07/27/2018
-ms.author: davidi
+ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: deb2d7c7ac7a43c625d5c5a15221d55cc38b11b6
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: ad9a3e73a90ff69f5d56e1e5c1fc487c855df74d
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44733182"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46566022"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Shape-kaarten in Power BI Desktop (preview)
 In Power BI Desktop maakt u een **Shape-kaart**-visual om relatieve vergelijkingen van regio's op een kaart te laten zien door verschillende kleuren op verschillende regio's toe te passen. In tegenstelling tot de **kaart** -visual, kan **Shape Map** geen nauwkeurige geografische locaties van gegevenspunten op een kaart weergeven. In plaats daarvan is het belangrijkste doel het weergeven van relatieve vergelijkingen van regio's op een kaart door ze een andere kleur te geven.

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b34c16337158e784b0c41bd3e3fd93aca9504cd7
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 4d43ffb1f4e005830fd36da4e80cf4d0c7d86fed
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727301"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549932"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Uw Power BI-dashboards en -rapporten delen met collega's en anderen
 *Delen* is een goede manier om enkele personen toegang te geven tot uw dashboards en rapporten. Power BI ondersteunt ook [verschillende andere manieren om samen te werken en uw dashboards en rapporten te distribueren](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -110,7 +110,7 @@ Als u vanuit een mobiele app van Power BI een koppeling verstuurt naar personen 
 Houd rekening met de volgende zaken bij het delen van dashboards en rapporten:
 
 * In het algemeen zien u en uw collega's dezelfde gegevens in het dashboard of rapport. Dus als u gemachtigd bent om meer gegevens te zien dan zij, kunnen zij al uw gegevens in het dashboard of rapport bekijken. Als er echter [beveiliging op rijniveau](service-admin-rls.md) wordt toegepast op de gegevensset van een dashboard of rapport, worden de referenties van elke persoon gebruikt om te bepalen welke gegevens ze mogen zien.
-* Iedereen met wie u uw dashboard deelt, kan dit zien en kan in de [leesweergave](service-reading-view-and-editing-view.md) interactie hebben met de gerelateerde rapporten. Ze kunnen geen rapporten maken of wijzigingen in bestaande rapporten opslaan.
+* Iedereen met wie u uw dashboard deelt, kan dit zien en kan in de [leesweergave](consumer/end-user-reading-view.md) interactie hebben met de gerelateerde rapporten. Ze kunnen geen rapporten maken of wijzigingen in bestaande rapporten opslaan.
 * Niemand kan de gegevensset zien of downloaden.
 * Iedereen kan [de gegevens handmatig vernieuwen](refresh-data.md).
 * Als u Office 365 gebruikt voor e-mail, kunt u delen met leden van een distributiegroep door het e-mailadres in te voeren dat is gekoppeld aan de distributiegroep.

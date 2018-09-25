@@ -2,7 +2,7 @@
 title: Watervalgrafieken in Power BI
 description: Watervalgrafieken in Power BI
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: feb608455add8740d7894fa2cec3c54a8a26944e
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d1c771ed49a000374c58beb694dda511a8c9a097
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732588"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565815"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Watervalgrafieken in Power BI
 Een watervalgrafiek toont een voorlopig totaal terwijl waarden worden toegevoegd of afgetrokken. Dit is handig om te begrijpen hoe een beginwaarde (bijvoorbeeld netto inkomsten) wordt beïnvloed door een reeks positieve en negatieve wijzigingen.
@@ -74,13 +74,13 @@ Zie [Een filter aan een rapport toevoegen](../power-bi-report-add-filter.md) voo
 Wanneer u een kolom in een watervalgrafiek markeert, worden de andere visualisaties op de rapportpagina kruislings gefilterd en omgekeerd. De totaalkolom (Total) kan hiervoor overigens niet worden gebruikt.
 
 ## <a name="next-steps"></a>Volgende stappen
-[Rapporten in Power BI](../service-reports.md)
+[Rapporten in Power BI](../consumer/end-user-reports.md)
 
 [Visualization types in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md) (Typen visualisaties in Power BI)
 
 [Visualisaties in Power BI-rapporten](power-bi-report-visualizations.md)
 
-[Power BI - basisconcepten](../service-basic-concepts.md)
+[Power BI - basisconcepten](../consumer/end-user-basic-concepts.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 
