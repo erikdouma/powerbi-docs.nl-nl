@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a85733e8450c9e1d3574afb71ace64fa2622fe0c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: f0337b26989b3d42e86339c4afc087579c2c3529
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44725622"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548782"
 ---
 # <a name="create-a-new-report-from-an-existing-report-copy-a-report"></a>Een nieuw rapport maken van een bestaand rapport (een rapport kopiëren)
 Misschien hebt u een rapport dat al verbinding maakt met uw gegevensset en bevat het rapport enkele visuals die u wilt opnieuw wilt gebruiken of wilt wijzigen.  In dat geval kunt u het rapport gewoon kopiëren als basis voor een nieuw rapport.  Hiervoor gaat u als volgt te werk:
 
-1. [Open een rapport](service-report-open.md).
+1. [Open een rapport](consumer/end-user-report-open.md).
 2. Selecteer in het menu **Bestand** de optie **Opslaan als**.
    
    ![](media/power-bi-report-copy/powerbi-save-as.png)
@@ -39,6 +39,6 @@ Misschien hebt u een rapport dat al verbinding maakt met uw gegevensset en bevat
 ## <a name="next-steps"></a>Volgende stappen:
 [Nieuwe visualisaties maken](visuals/power-bi-report-add-visualizations-ii.md)
 
-[Visualisaties verwijderen](service-delete.md) die u niet nodig hebt
+[Visualisaties verwijderen](consumer/end-user-delete.md) die u niet nodig hebt
 
 [Een rapport maken met Power BI Desktop](desktop-report-view.md)

@@ -1,21 +1,21 @@
 ---
 title: Geavanceerde analyses en visualisaties met R-scripts maken in Power BI
 description: Lees hier hoe u R-scripts gebruikt in Power BI om geavanceerde analyses en visualisaties te maken.
-author: davidiseminger
+author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 07/24/2018
-ms.author: davidi
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 36c4e8e02748a6c2ffa8da724c2ede80f4815d3c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a3407458cfe6e395a5a209e136af1d4c9a7aa6a6
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732667"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46566344"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>R-visuals maken in de Power BI-service
 De Power BI-service ondersteunt de weergave van en de interactie met visuele elementen die zijn gemaakt met R-scripts. Visuele elementen die zijn gemaakt met R-scripts, vaak *R-visuals* genoemd, kunnen geavanceerde vormgeving en analyses van gegevens bieden, zoals prognoses. Hiervoor wordt gebruikgemaakt van de krachtige analysemogelijkheden en visualisatievoorzieningen van R.

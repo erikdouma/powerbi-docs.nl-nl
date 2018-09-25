@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2389ed542a43b28296faf2eed2b69b4e83d227f5
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 2682dd9c4d64e3042273df88c86b146e07c681b3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624155"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549518"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>De verbinding met een organisatie-inhoudspakket van Power BI verwijderen
 
@@ -35,7 +35,7 @@ Als u de gegevensset te verwijdert, verwijdert u ook alle gekoppelde rapporten e
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Inleiding tot organisatie-inhoudspakketten](service-organizational-content-pack-introduction.md) 
-* [Een app maken en distribueren in Power BI](service-create-distribute-apps.md) 
-* [Basisconcepten van Power BI](service-basic-concepts.md)  
+* [Een app maken en distribueren in Power BI](consumer/end-user-create-apps.md) 
+* [Basisconcepten van Power BI](consumer/end-user-basic-concepts.md)  
 * Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

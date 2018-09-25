@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 327e9d9973aabb17761b55d355598462ce70e20e
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 580d1ead35042d14c155c5a28fdb6ba6e6dbcd54
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726038"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544936"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Tips voor het ontwerpen van een geweldig Power BI-dashboard
 Nu u een dashboard hebt gemaakt en een aantal tegels hebt toegevoegd, kunt u nadenken over hoe u ervoor zorgt dat het dashboard niet alleen mooi, maar ook functioneel is. Dit betekent in de praktijk meestal dat de belangrijkste informatie een opvallende plaats krijgt, en dat het dashboard netjes en opgeruimd is.
@@ -65,7 +65,7 @@ Vermijd een verscheidenheid aan visualisaties omwille van de verscheidenheid all
 * Gebruik gaan combinatie van precisie- en tijdsniveaus. Zorg ervoor dat tijdsperioden begrijpelijk zijn.  Gebruik niet een diagram met de gegevens van de afgelopen maand naast gefilterde diagrammen uit een specifieke maand van het jaar.
 * Combineer geen grote en kleine metingen op dezelfde schaal, zoals een lijn- of staafdiagram.  Bijvoorbeeld een meting in miljoenen, terwijl een andere in duizenden wordt weergegeven.  Met een dergelijke grote schaal is het lastig om de verschillen te zien in de meting die in duizenden wordt weergegeven.  Als u wilt combineren, kiest u een visualisatie die het gebruik van een tweede as toestaat.
 * Gebruikt in diagrammen geen onnodige gegevenslabels. De waarden in staafdiagrammen zijn meestal heel goed te begrijpen zonder dat het werkelijke getal hoeft te worden weergegeven.
-* Let op hoe [diagrammen zijn gesorteerd](power-bi-report-change-sort.md).  Als u de aandacht wilt vestigen op het hoogste of laagste getal, sorteert u op de meting.  Als u wilt dat personen snel een bepaalde categorie kunnen vinden in een groot aantal categorieën, sorteert u op as.  
+* Let op hoe [diagrammen zijn gesorteerd](consumer/end-user-change-sort.md).  Als u de aandacht wilt vestigen op het hoogste of laagste getal, sorteert u op de meting.  Als u wilt dat personen snel een bepaalde categorie kunnen vinden in een groot aantal categorieën, sorteert u op as.  
 * Cirkeldiagrammen werken het beste als er minder dan acht categorieën worden weergegeven. Omdat u in een cirkeldiagram geen waarden naast elkaar kunt weergeven, is het moeilijker om in een cirkeldiagram waarden te vergelijken dan in een staaf- of kolomdiagram. Cirkeldiagrammen zijn geschikter voor het weergeven van deel-naar-geheelrelaties dan voor het vergelijken van delen. En meterdiagrammen zijn ideaal voor het weergeven van de huidige status in de context van een doel.
 
 Zie [Visualization types in Power BI](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) (Visualisatietypen in Power BI) voor meer visualisatiespecifieke instructies.  
@@ -81,5 +81,5 @@ Als u de kunst van het ontwerpen van geweldige dashboards onder de knie wilt kri
 
 ## <a name="next-steps"></a>Volgende stappen
 [Een dashboard maken van een rapport](service-dashboard-create.md)  
-[Power BI - basisconcepten](service-basic-concepts.md)  
+[Power BI - basisconcepten](consumer/end-user-basic-concepts.md)  
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

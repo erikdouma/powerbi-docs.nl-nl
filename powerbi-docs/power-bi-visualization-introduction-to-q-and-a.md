@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: c567921b765f03fbaa11f2b98724cea1a1ce1905
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 92506d4ce2f372a4535a0a178ef43791c6d94f83
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240980"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547954"
 ---
 # <a name="get-started-with-power-bi-qa"></a>Aan de slag met Power BI Q&A
 ## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>De Q&A-functie van Power BI gebruiken met een retailanalyse als voorbeeld
@@ -57,7 +57,7 @@ Hoe zouden we hetzelfde lijndiagram maken met Q&A?
 4. Selecteer het speldpictogram ![](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png) om uw diagram aan het dashboard vast te maken.
 
 ## <a name="next-steps"></a>Volgende stappen
-[Q&A in Power BI](power-bi-q-and-a.md)
+[Q&A in Power BI](consumer/end-user-q-and-a.md)
 
 [Uw gegevens geschikt maken voor Q&A in Power BI](service-prepare-data-for-q-and-a.md)
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 250ccba882a045417b2ae424cac81b6561cb2a41
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 18e33fa4767eb0d9e457589ea3fa3b61721dce51
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728244"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548023"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>De service ArcGIS Maps for Power BI en Power BI Desktop van Esri
 Deze zelfstudie is geschreven vanuit het oogpunt van iemand die een ArcGIS-kaart maakt. Zodra een maker een ArcGIS-kaart met een collega deelt, kan deze collega de kaart bekijken en acties uitvoeren voor de kaart, maar geen wijzigingen opslaan. Zie [Interacting with ArcGIS maps](visuals/power-bi-visualizations-arcgis.md) (Interactie met ArcGIS-kaarten) voor meer informatie over het weergeven van een ArcGIS-kaart.
@@ -61,7 +61,7 @@ In deze zelfstudie wordt gebruikgemaakt van het [Voorbeeld van een retailanalyse
 2. Schakel het selectievakje **ArcGIS Maps for Power BI** in. Power BI moet opnieuw worden opgestart nadat u de selectie hebt gemaakt.
    
     ![](media/power-bi-visualization-arcgis/power-bi-use-arcgis-new.png)
-3. Open een rapport in de [bewerkingsweergave](service-reading-view-and-editing-view.md) en selecteer in het deelvenster Visualisaties het pictogram voor ArcGIS Maps for Power BI.
+3. Open een rapport in de [bewerkingsweergave](consumer/end-user-reading-view.md) en selecteer in het deelvenster Visualisaties het pictogram voor ArcGIS Maps for Power BI.
    
     ![](media/power-bi-visualization-arcgis/power-bi-viz-pane2.png)
 4. Power BI voegt een lege ArcGIS-kaartsjabloon toe aan het rapportcanvas.

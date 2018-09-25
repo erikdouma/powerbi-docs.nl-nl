@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/24/2017
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: af90ba6bcf85c07d2d046ed21f733ca7c16e3856
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a22bee33254e447f27f717b78a53fe3a5cc34fb2
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242126"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545447"
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Instellingen voor de paginaweergave in een Power BI-rapport
 We begrijpen dat het essentieel is dat uw rapport perfect is ingedeeld. Dit kan lastig zijn omdat uw collega's dezelfde rapporten weergeven op schermen met verschillende verhoudingen en afmetingen. 
@@ -39,7 +39,7 @@ Open in de Power BI-service een rapport en selecteer **Weergeven** in de menubal
 
 ![](media/power-bi-report-display-settings/power-bi-change-page-view.png)
 
-Instellingen voor paginaweergave zijn beschikbaar voor zowel de [leesweergave als de bewerkingsweergave](service-reading-view-and-editing-view.md). De rapporteigenaar kan in de bewerkweergave instellingen voor paginaweergave toewijzen aan afzonderlijke rapportpagina's. Deze instellingen worden opgeslagen bij het rapport. Wanneer collega’s dat rapport openen in de leesweergave, worden de rapportpagina's weergegeven volgens de instellingen van de eigenaar.  In de leesweergave kunnen collega’s *een aantal* instellingen voor de paginaweergave wijzigen, maar de wijzigingen worden niet opgeslagen wanneer ze het rapport afsluiten.
+Instellingen voor paginaweergave zijn beschikbaar voor zowel de [leesweergave als de bewerkingsweergave](consumer/end-user-reading-view.md). De rapporteigenaar kan in de bewerkweergave instellingen voor paginaweergave toewijzen aan afzonderlijke rapportpagina's. Deze instellingen worden opgeslagen bij het rapport. Wanneer collega’s dat rapport openen in de leesweergave, worden de rapportpagina's weergegeven volgens de instellingen van de eigenaar.  In de leesweergave kunnen collega’s *een aantal* instellingen voor de paginaweergave wijzigen, maar de wijzigingen worden niet opgeslagen wanneer ze het rapport afsluiten.
 
 ##    <a name="page-view-settings"></a>Instellingen voor paginaweergave
 De eerste set met instellingen voor *Paginaweergave* bepalen hoe de rapportpagina ten opzichte van het browservenster wordt weergegeven.  Kies tussen:
@@ -62,7 +62,7 @@ De tweede set met instellingen voor *Paginaweergave* bepalen hoe objecten op het
 ## <a name="page-size-settings"></a>Instellingen voor paginaformaat
 ![](media/power-bi-report-display-settings/power-bi--page-size.png)
 
-De instellingen voor *Paginaformaat* zijn alleen beschikbaar voor rapporteigenaren. In de Power BI-service (app.powerbi.com) betekent dit dat u het rapport kunt openen in de [bewerkweergave](service-reading-view-and-editing-view.md). Deze instellingen bepalen de verhoudingen en de werkelijke grootte (in pixels) van het rapportcanvas.   
+De instellingen voor *Paginaformaat* zijn alleen beschikbaar voor rapporteigenaren. In de Power BI-service (app.powerbi.com) betekent dit dat u het rapport kunt openen in de [bewerkweergave](consumer/end-user-reading-view.md). Deze instellingen bepalen de verhoudingen en de werkelijke grootte (in pixels) van het rapportcanvas.   
 
 * 4:3-verhouding
 * 16:9-verhouding (standaard)
@@ -71,11 +71,11 @@ De instellingen voor *Paginaformaat* zijn alleen beschikbaar voor rapporteigenar
 * Aangepast (hoogte en breedte in pixels)
 
 ## <a name="next-steps"></a>Volgende stappen
-[Informatie over het gebruiken van instellingen voor paginaweergave en de paginaformaat in uw eigen Power BI-rapporten](power-bi-change-report-display-settings.md).
+[Informatie over het gebruiken van instellingen voor paginaweergave en de paginaformaat in uw eigen Power BI-rapporten](consumer/end-user-report-view.md).
 
-Meer informatie over [rapporten in Power BI](service-reports.md)
+Meer informatie over [rapporten in Power BI](consumer/end-user-reports.md)
 
-[Power BI - basisconcepten](service-basic-concepts.md)
+[Power BI - basisconcepten](consumer/end-user-basic-concepts.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

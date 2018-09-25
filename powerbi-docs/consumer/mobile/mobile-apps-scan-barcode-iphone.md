@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: 42ba9b042209dfd717c58042834e8d7966f97ecf
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d221cfdc849a18ba934ebacaf58ef40999ac0117
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732587"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543308"
 ---
 # <a name="scan-a-barcode-with-your-iphone-from-the-power-bi-mobile-app"></a>Een streepjescode met uw iPhone scannen via de mobiele Power BI-app
 Scan streepjescodes in de echte wereld om rechtstreeks naar gefilterde BI-informatie in de mobiele Power BI-app te gaan.
@@ -67,6 +67,6 @@ Het rapport dat u wilt filteren is gebaseerd op een gegevensmodel waarin deze st
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Een streepjescodeveld in Power BI Desktop taggen](../../desktop-mobile-barcodes.md)
-* [Dashboardtegels in Power BI](../../service-dashboard-tiles.md)
-* [Dashboards in Power BI](../../service-dashboards.md)
+* [Dashboardtegels in Power BI](../end-user-tiles.md)
+* [Dashboards in Power BI](../end-user-dashboards.md)
 

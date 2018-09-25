@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maggies
-ms.openlocfilehash: 8b7c46ad1e9ea9c4c79a8f5a1b48c73ab3336306
-ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
+ms.openlocfilehash: 7253a340ce0852039a08d0ed17c488fc8fdbfa69
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "39157351"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545917"
 ---
 # <a name="author-template-content-packs-in-power-bi"></a>Sjablooninhoudspakketten ontwerpen in Power BI
 Bij het ontwerpen van een sjablooninhoudspakket maakt u gebruik van Power BI Desktop en PowerBI.com. Uw inhoudspakket bestaat uit vier onderdelen:
@@ -22,7 +22,7 @@ Bij het ontwerpen van een sjablooninhoudspakket maakt u gebruik van Power BI Des
 * Met query’s kunt u [verbinding](desktop-connect-to-data.md)maken met de gegevens en deze [transformeren](desktop-query-overview.md), en [parameters](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/) definiëren  
 * Gegevensmodel voor het maken van [relaties](desktop-create-and-manage-relationships.md), [metingen](desktop-measures.md) en Q&A-verbeteringen  
 * Rapport[pagina's](desktop-report-view.md) bevatten visuele elementen en filters waarmee u inzicht kunt krijgen in uw gegevens  
-* [Dashboard](service-dashboards.md) en [tegels](service-dashboard-create.md) bieden een overzicht van de inzichten die zijn opgenomen  
+* [Dashboard](consumer/end-user-dashboards.md) en [tegels](service-dashboard-create.md) bieden een overzicht van de inzichten die zijn opgenomen  
 
 U kent deze onderdelen mogelijk al als bestaande functies van Power BI. Bij het maken van een inhoudspakket moet u voor elk aspect rekening houden met extra dingen. Zie de onderstaande secties voor meer informatie.
 

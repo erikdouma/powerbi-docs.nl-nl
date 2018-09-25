@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/13/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 5d11fd66e8b0aff15648aba6d3e397cd7fdb9bb3
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: a0692d74f42b48bc68d670ad2e6c6a33dca0729d
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/04/2018
-ms.locfileid: "34251639"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550093"
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Uw Power BI-gegevens snel vinden en weergeven met Cortana voor Power BI
 Gebruik Cortana op uw Windows 10-apparaten om direct antwoord te krijgen op uw belangrijke zakelijke vragen. Door de integratie met Power BI kan Cortana belangrijke gegevens rechtstreeks ophalen uit Power BI-dashboards en -rapporten. U hebt alleen maar Windows 10, versie november 2015 of later, Cortana, Power BI en toegang tot minimaal één gegevensset nodig.
@@ -67,7 +67,7 @@ Als uw dashboard een titel heeft die uit meer dan één woord bestaat, retournee
 ### <a name="cortana-and-reports"></a>Cortana en rapporten
  Cortana kan antwoorden vinden in rapporten met [pagina's die speciaal zijn ontworpen voor weergave door Cortana](service-cortana-answer-cards.md). Stel eenvoudig vragen door de titel of trefwoorden uit een van deze speciale rapportpagina's te gebruiken.  
 
-De onderliggende technologie voor rapporten maakt gebruik van [Power BI Q&A van Microsoft](power-bi-q-and-a.md).
+De onderliggende technologie voor rapporten maakt gebruik van [Power BI Q&A van Microsoft](consumer/end-user-q-and-a.md).
 
 Wanneer u een vraag stelt in Cortana, beantwoordt Power BI die vraag aan de hand van rapportpagina's die speciaal zijn ontworpen voor Cortana. Mogelijke antwoorden worden door Cortana direct bepaald aan de hand van de Cortana-*antwoordkaarten* die al zijn gemaakt in Power BI.  Als u een antwoord verder wilt bestuderen, opent u eenvoudig een resultaat in Power BI.
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: e5e257fd245687f2aeb83a9ee45c0342cf16392d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: c8f99cf9c4d0645638b2ef300606f89a2d28aa0d
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34561696"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545963"
 ---
 # <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Een filter aan een Power BI-servicerapport toevoegen (in de bewerkingsweergave)
 > [!TIP]
@@ -26,13 +26,13 @@ De voorbeelden in dit artikel hebben betrekking op de Power BI-service. De stapp
 > 
 
 ## <a name="what-is-the-difference-between-report-filters-in-editing-view-versus-reading-view"></a>Wat is het verschil tussen rapportfilters in de bewerkingsweergave versus de leesweergave?
-U kunt in twee modi met rapporten werken: in de [leesweergave](service-reading-view-and-editing-view.md) en de [bewerkingsweergave](service-interact-with-a-report-in-editing-view.md).  De beschikbare filtermogelijkheden zijn afhankelijk van de modus waarin u werkt.
+U kunt in twee modi met rapporten werken: in de [leesweergave](consumer/end-user-reading-view.md) en de [bewerkingsweergave](service-interact-with-a-report-in-editing-view.md).  De beschikbare filtermogelijkheden zijn afhankelijk van de modus waarin u werkt.
 
 * In de bewerkingsweergave kunt u rapport-, pagina- en visualisatiefilters toevoegen. Als u het rapport opslaat, worden de filters ook opgeslagen. Personen die het rapport in de leesweergave bekijken, kunnen de filters gebruiken die u hebt toegevoegd.
 * In de leesweergave kunt u de filters voor rapporten, pagina's en visuals, en de gedetailleerde filters gebruiken die al in het rapport beschikbaar zijn. U kunt echter geen nieuwe filters toevoegen. De wijzigingen die u in het deelvenster Filters aanbrengt, worden echter samen met het rapport opgeslagen, zelfs als u het rapport in een mobiele app weergeeft en zelfs als u het rapport laat liggen en later weer verder gaat.  
 
 > [!NOTE]
-> In dit artikel wordt beschreven hoe u filters maakt in de **bewerkingsweergave** voor rapporten.  Zie [Filters gebruiken in de leesweergave voor rapporten](service-reading-view-and-editing-view.md) voor meer informatie over filters in de leesweergave.
+> In dit artikel wordt beschreven hoe u filters maakt in de **bewerkingsweergave** voor rapporten.  Zie [Filters gebruiken in de leesweergave voor rapporten](consumer/end-user-reading-view.md) voor meer informatie over filters in de leesweergave.
 
 
 ## <a name="filters-available-in-the-power-bi-filters-pane"></a>Filters die beschikbaar zijn in het Power BI-deelvenster *Filters*
@@ -58,7 +58,7 @@ U kunt dit op twee manieren doen:
 * door een veld te identificeren dat nog niet door de visualisatie wordt gebruikt en dit veld rechtstreeks toe te voegen aan de bucket **Filters op niveau van visuele elementen**.
 
 ### <a name="by-filtering-the-fields-already-in-the-visualization"></a>Velden filteren die al in de visualisatie aanwezig zijn
-1. Open [het rapport in de bewerkingsweergave](service-reading-view-and-editing-view.md).
+1. Open [het rapport in de bewerkingsweergave](consumer/end-user-reading-view.md).
    
    ![](media/power-bi-report-add-filter/power-bi-edit-view.png)
 2. Open het deelvenster Visualisaties en filters en het deelvenster Velden (indien nog gesloten).
@@ -72,7 +72,7 @@ U kunt dit op twee manieren doen:
    * Schuif omlaag naar het gebied **Filters op niveau van visuele elementen** en selecteer de pijl om het te filteren veld uit te vouwen. In dit voorbeeld filteren we het veld **StoreNumberName**
      
       ![](media/power-bi-report-add-filter/power-bi-visual-level-filter.png) 
-   * Stel het besturingselement voor filters in op **Basic**, **Advanced** of **Top N** in (zie [How to use report filters](power-bi-how-to-report-filter.md) (Rapportfilters gebruiken)). In dit voorbeeld selecteren we eenvoudig (basic) filteren en plaatsen markeringstekens naast de getallen 10, 11, 15 en 18.
+   * Stel het besturingselement voor filters in op **Basic**, **Advanced** of **Top N** in (zie [How to use report filters](consumer/end-user-report-filter.md) (Rapportfilters gebruiken)). In dit voorbeeld selecteren we eenvoudig (basic) filteren en plaatsen markeringstekens naast de getallen 10, 11, 15 en 18.
      
       ![](media/power-bi-report-add-filter/power-bi-basic-filters.png) 
    * Het visuele element wordt overeenkomstig het nieuwe filter gewijzigd. Als u het rapport met het filter opslaat, kunnen lezers van het rapport met het filter werken in de leesweergave door waarden te selecteren of te wissen.
@@ -91,10 +91,10 @@ U kunt dit op twee manieren doen:
      ![](media/power-bi-report-add-filter/power-bi-filtered-andrew.png)
 
 ## <a name="add-a-filter-to-an-entire-page-aka-page-view-filter"></a>Een filter toevoegen aan een hele pagina (ook wel paginaweergavefilter genoemd)
-1. Open [het rapport in de bewerkingsweergave](service-reading-view-and-editing-view.md).
+1. Open [het rapport in de bewerkingsweergave](consumer/end-user-reading-view.md).
 2. Open het deelvenster Visualisaties en filters en het deelvenster Velden (indien nog gesloten).
 3. Selecteer in het deelvenster Velden het veld dat u wilt toevoegen als een nieuw filter op paginaniveau en sleep het naar het gebied **Filters op paginaniveau**.  
-4. Selecteer de waarden die u wilt filteren en stel de besturingselementen voor het filter in op **Basic** of **Advanced** (zie [How to use report filters](power-bi-how-to-report-filter.md) (Rapportfilters gebruiken)).
+4. Selecteer de waarden die u wilt filteren en stel de besturingselementen voor het filter in op **Basic** of **Advanced** (zie [How to use report filters](consumer/end-user-report-filter.md) (Rapportfilters gebruiken)).
    
    Alle visualisaties op de pagina waarop dit filter van invloed is, worden opnieuw getekend in overeenstemming met de wijziging. 
    
@@ -130,10 +130,10 @@ We gaan nu kijken hoe het drillthrough-filter werkt.
     ![](media/power-bi-report-add-filter/power-bi-drillthrough-executive.png)
 
 ## <a name="add-a-filter-to-an-entire-report-aka-report-filter"></a>Een filter aan een heel rapport toevoegen (ook wel rapportfilter genoemd)
-1. Open [het rapport in de bewerkingsweergave](service-reading-view-and-editing-view.md).
+1. Open [het rapport in de bewerkingsweergave](consumer/end-user-reading-view.md).
 2. Open het deelvenster Visualisaties en filters en het deelvenster Velden (indien nog gesloten).
 3. Selecteer in het deelvenster Velden het veld dat u wilt toevoegen als een nieuw filter op rapportniveau en sleep het naar het gebied **Filters op rapportniveau**.  
-4. Selecteer de waarden die u wilt filteren (Zie [Rapportfilters gebruiken](power-bi-how-to-report-filter.md)).
+4. Selecteer de waarden die u wilt filteren (Zie [Rapportfilters gebruiken](consumer/end-user-report-filter.md)).
 
     De visuele elementen op de actieve pagina (en ook op alle andere pagina's van het rapport) worden gewijzigd overeenkomstig het nieuwe filter. Als u het rapport met het filter opslaat, kunnen lezers van het rapport met het filter werken in de leesweergave door waarden te selecteren of te wissen.
 
@@ -149,13 +149,13 @@ We gaan nu kijken hoe het drillthrough-filter werkt.
 - Als u veel wijzigingen in de filters hebt aangebracht en wilt terugkeren naar de standaardinstellingen van de auteur van het rapport, selecteert u **Standaardinstelling herstellen** in de bovenste menubalk.
 
 ## <a name="next-steps"></a>Volgende stappen
- [How to use report filters](power-bi-how-to-report-filter.md) (Rapportfilters gebruiken)
+ [How to use report filters](consumer/end-user-report-filter.md) (Rapportfilters gebruiken)
 
   [Filters and highlighting in reports](power-bi-reports-filters-and-highlighting.md) (Filters en markeren in rapporten)
 
-[Interact with filters and highlighting in report Reading View](service-reading-view-and-editing-view.md) (Werken met filters en markeringen in de leesweergave voor rapporten)
+[Interact with filters and highlighting in report Reading View](consumer/end-user-reading-view.md) (Werken met filters en markeringen in de leesweergave voor rapporten)
 
-[Change how report visuals cross-filter and cross-highlight each other](service-reports-visual-interactions.md) (Wijzigen hoe visuele rapportelementen elkaar kruislings filteren en markeren)
+[Change how report visuals cross-filter and cross-highlight each other](consumer/end-user-interactions.md) (Wijzigen hoe visuele rapportelementen elkaar kruislings filteren en markeren)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

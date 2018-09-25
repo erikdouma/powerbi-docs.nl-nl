@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b1c68312f60761964194d7be810b5ee490785cb2
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: fa572b44445c4fcf929286b68222b2faf4f9d7d2
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624109"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548276"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-app-workspace"></a>Verbinding maken met in OneDrive opgeslagen bestanden voor uw Power BI-app-werkruimte
-Wanneer u [een app-werkruimte hebt gemaakt in Power BI](service-create-distribute-apps.md), kunt u uw Excel-, CSV- en Power BI Desktop-bestanden op de OneDrive voor bedrijven opslaan voor uw Power BI-app-werkruimte. U kunt de bestanden die u in OneDrive opslaat, blijven bijwerken, en die updates worden automatisch weergegeven in de Power BI-rapporten en op de dashboards op basis van de bestanden. 
+Wanneer u [een app-werkruimte hebt gemaakt in Power BI](consumer/end-user-create-apps.md), kunt u uw Excel-, CSV- en Power BI Desktop-bestanden op de OneDrive voor bedrijven opslaan voor uw Power BI-app-werkruimte. U kunt de bestanden die u in OneDrive opslaat, blijven bijwerken, en die updates worden automatisch weergegeven in de Power BI-rapporten en op de dashboards op basis van de bestanden. 
 
 > [!NOTE]
 > Bij de preview van de nieuwe werkruimte-ervaring is de relatie tussen Power BI-werkruimten en Office 365-groepen gewijzigd. Er wordt niet automatisch een Office 365-groep gemaakt wanneer u een van de nieuwe werkruimten maakt. Meer informatie over [het maken van de nieuwe werkruimten (preview)](service-create-the-new-workspaces.md)
@@ -79,7 +79,7 @@ Nu uw bestanden zich in de OneDrive voor bedrijven bevinden voor uw app-werkruim
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-connect.png)
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Apps en app-werkruimten maken in Power BI](service-create-distribute-apps.md)
+* [Apps en app-werkruimten maken in Power BI](consumer/end-user-create-apps.md)
 * [Gegevens importeren uit Excel-werkmappen](service-get-data-from-files.md)
 * [Verbinding maken met complete Excel-werkmappen](service-excel-workbook-files.md)
 * Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

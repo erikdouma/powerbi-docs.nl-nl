@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2017
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: eed9b668cccf3bc8252d70f1dee94675063a8844
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: fbf49a9ddbec5f087a28e51144c782e2f1739db0
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34247752"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546931"
 ---
 # <a name="optimize-your-data-for-power-bi-quick-insights"></a>Uw gegevens optimaliseren met snelle inzichten van Power BI
 Wilt u de resultaten voor snelle inzichten verbeteren?  Als de eigenaar van een gegevensset bent, kunt u het volgende proberen:
@@ -26,7 +26,7 @@ Wilt u de resultaten voor snelle inzichten verbeteren?  Als de eigenaar van een 
 * Wordt er een foutbericht weergegeven dat uw gegevens statistisch niet significant zijn?  Dit kan gebeuren voor zeer eenvoudige modellen of modellen die niet veel gegevens bevatte of die geen datumkolommen of numerieke kolommen bevatten. Als u inzichten wilt genereren, moet uw gegevensset ten minste een dimensie en een meting bevatten.
 
 ### <a name="next-steps"></a>Volgende stappen
-[Snelle inzichten in Power BI](service-insights.md)
+[Snelle inzichten in Power BI](consumer/end-user-insights.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

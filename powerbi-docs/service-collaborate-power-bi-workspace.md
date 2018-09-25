@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d059e8bb476f9862c372d9565581d58b336e81db
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 71b2f104ad5efb244c2b046cdd48a2e52cd045e3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39623925"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543944"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Samenwerken in de werkruimte van uw Power BI-app
 De Power BI app-werkruimten zijn goede plaatsen om met uw collega's samen te werken aan dashboards, rapporten en gegevenssets om *apps* te maken. Samenwerken eindigt niet met de werkruimten in Power BI. Office 365 biedt een andere groep services, zoals het delen van bestanden op OneDrive voor Bedrijven, conversaties in Exchange, gedeelde agenda en taken. Meer informatie over [groepen in Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).
@@ -38,7 +38,7 @@ Nadat u een Power BI Desktop-bestand hebt gemaakt, kunt u het publiceren naar uw
    
     ![Tabblad Rapporten](media/service-collaborate-power-bi-workspace/power-bi-workspace-report.png)
    
-    Vanaf dit punt werkt het net als elk ander rapport in Power BI. U en anderen in uw app-werkruimte kunnen [het rapport wijzigen](service-reports.md) en tegels opslaan in een dashboard van uw keuze.
+    Vanaf dit punt werkt het net als elk ander rapport in Power BI. U en anderen in uw app-werkruimte kunnen [het rapport wijzigen](consumer/end-user-reports.md) en tegels opslaan in een dashboard van uw keuze.
 
 ## <a name="collaborate-in-office-365"></a>Samenwerken in Office 365
 Samenwerken in Office 365 wordt gestart vanuit de app-werkruimte in Power BI.
@@ -77,7 +77,7 @@ Samenwerken in Office 365 wordt gestart vanuit de app-werkruimte in Power BI.
 Als u eigenaar of beheerder bent van een app-werkruimte, kunt u ook werkruimteleden toevoegen of verwijderen. Meer informatie over [het beheren van uw Power BI app-werkruimte](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Apps en app-werkruimten maken in Power BI](service-create-distribute-apps.md)
+* [Apps en app-werkruimten maken in Power BI](consumer/end-user-create-apps.md)
 * Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 * Feedback? Ga naar [Power BI ideeën](https://ideas.powerbi.com/forums/265200-power-bi)
 

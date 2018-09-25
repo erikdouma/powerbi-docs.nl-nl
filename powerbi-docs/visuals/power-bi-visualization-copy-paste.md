@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c3ca95f8a00bdf0eeb54351154d95f30ae77b558
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 0336a89c5dcb1414607721dfc5f84ef835acd615
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736093"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545053"
 ---
 # <a name="copy-and-paste-a-visualization-in-power-bi-service-and-power-bi-desktop"></a>Een visualisatie in een rapport in de Power BI-service en Power BI Desktop kopiëren en plakken
-Voor het kopiëren en plakken van een visualisatie hebt u bewerkmachtigingen voor het rapport nodig. In de Power BI-service betekent dit het openen van het rapport in de [bewerkweergave](../service-reading-view-and-editing-view.md).
+Voor het kopiëren en plakken van een visualisatie hebt u bewerkmachtigingen voor het rapport nodig. In de Power BI-service betekent dit het openen van het rapport in de [bewerkweergave](../consumer/end-user-reading-view.md).
 
 1. Open een rapport dat ten minste één visualisatie heeft.  
 

@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: quickstart
 ms.date: 05/08/2018
 ms.author: maggies
-ms.openlocfilehash: 574c28fc3e921f2b0e245cf965e23bd6b264f037
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 89f45409607cbe8da6cb1b167b6e71238d6edde0
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732957"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548805"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Snelstartgids: dashboards en rapporten verkennen in de mobiele Power BI-apps
 In deze snelstartgids verkent u een voorbeelddashboard en -rapport in de mobiele Power BI-app op een Android-telefoon. U kunt deze stappen ook volgen in de andere mobiele apps. 
@@ -153,5 +153,5 @@ Als u deze snelstartgids hebt voltooid, kunt u het voorbeelddashboard, het voorb
 In deze snelstartgids verkent u een voorbeelddashboard en -rapport op uw Android-apparaat. Lees meer over het werken in de Power BI-service. 
 
 > [!div class="nextstepaction"]
-> [Snelstart: navigeren in de Power BI-service](../../service-the-new-power-bi-experience.md)
+> [Snelstart: navigeren in de Power BI-service](../end-user-experience.md)
 

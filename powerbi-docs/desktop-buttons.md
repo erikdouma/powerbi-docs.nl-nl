@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6abe55f41211e5af907fb0a2642b3f8420236e1b
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 54cb45d1e9649fa761cfaf67aab708a2707e7516
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39330484"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546737"
 ---
 # <a name="using-buttons-in-power-bi"></a>Knoppen gebruiken in Power BI
 Met behulp van **knoppen** in Power BI kunt u rapporten en dashboards maken die zich als apps gedragen en daarmee voor een aantrekkelijke omgeving zorgen, zodat gebruikers met de muisaanwijzer over Power BI-inhoud kunnen bewegen, erop kunnen klikken en op andere manieren met deze inhoud kunnen communiceren. U kunt de knoppen toevoegen aan rapporten in **Power BI Desktop** en deze rapporten delen of naar de Power BI-service publiceren om dashboards te maken die zich als een app gedragen tegenover gebruikers.
@@ -75,6 +75,6 @@ U kunt de knoppen uitproberen of testen die u voor uw rapport hebt gemaakt door 
 Raadpleeg de volgende artikelen voor meer informatie over functies die vergelijkbaar zijn of samenwerken met knoppen:
 
 * [Drillthrough gebruiken in Power BI Desktop](desktop-drillthrough.md)
-* [Een dashboardtegel of rapportvisual weergeven in de focusmodus](service-focus-mode.md)
+* [Een dashboardtegel of rapportvisual weergeven in de focusmodus](consumer/end-user-focus.md)
 * [Bladwijzers gebruiken om inzichten te delen en verhalen te vertellen in Power BI](desktop-bookmarks.md)
 

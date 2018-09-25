@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1c2579f4250914933fd0459668fb55e4ba339f90
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: b9fff17d51756da4561823886ed80beeec830843
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310102"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548094"
 ---
 # <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>Zelfstudie: verbinding maken met een GitHub-voorbeeld met Power BI
 In deze zelfstudie gebruikt u echte gegevens in de GitHub-service met Power BI en Power BI maakt automatisch dashboards en rapporten. U maakt verbinding met de opslagplaats voor openbare Power BI-inhoud (ook wel *repo* genoemd) en ziet de volgende informatie: hoeveel dragen bij aan de openbare Power BI-inhoud? Wie levert de meeste bijdragen? Op welke dag van de wek worden de meeste bijdragen geleverd? En antwoorden op andere vragen. 
@@ -125,6 +125,6 @@ Nu u de zelfstudie hebt voltooid, kunt u de GitHub-app verwijderen.
 In deze zelfstudie hebt u verbinding gemaakt met een openbare GitHub-opslagplaats en gegevens gedownload, die door Power BI naar een dashboard en rapport zijn geformatteerd. U hebt een aantal vragen over de gegevens beantwoord door het dashboard en rapport te verkennen. U kunt nu meer leren over verbinding maken met andere services zoals Salesforce, Microsoft Dynamics en Google Analytics. 
  
 > [!div class="nextstepaction"]
-> [Verbinding maken met de onlineservices die u gebruikt](./service-connect-to-services.md)
+> [Verbinding maken met de onlineservices die u gebruikt](consumer/end-user-connect-to-services.md)
 
 

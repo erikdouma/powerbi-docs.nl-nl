@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 90f32e96a6e2c7777c5d1535314e2c85989e1932
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 3bb151de24a984406aa6fd40a70977f2e9eaf1be
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599589"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548046"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Vanuit Excel een tegel vastmaken aan een Power BI-dashboard
 Voordat u een tegel uit uw Excel-werkmap vastmaakt, koppelt u de werkmap aan de Power BI-service (app.powerbi.com). Met het koppelen van een werkmap wordt een gekoppelde alleen-lezen versie van die werkmap naar Power BI-service overgebracht. Zo kunt u bereiken aan dashboards koppelen. U kunt zelfs een volledig werkblad aan een dashboard vastmaken.  
@@ -49,7 +49,7 @@ U kunt uw werkmap niet in Power BI bewerken. Maar als u wijzigingen wilt aanbren
     ![Excel Online in Power BI](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
 
 ## <a name="pin-a-range-of-cells-to-a-dashboard"></a>Een bereik van cellen aan een dashboard vastmaken
-U kunt een nieuwe [dashboardtegel](service-dashboard-tiles.md) onder meer toevoegen vanuit een Excel-werkmap in Power BI. Bereiken kunnen worden vastgemaakt vanuit Excel-werkmappen die zijn opgeslagen in uw OneDrive voor bedrijven of een andere in groepen gedeelde documentbibliotheek. De bereiken kunnen gegevens, grafieken, tabellen, draaitabellen, draaigrafieken en andere onderdelen van Excel bevatten.
+U kunt een nieuwe [dashboardtegel](consumer/end-user-tiles.md) onder meer toevoegen vanuit een Excel-werkmap in Power BI. Bereiken kunnen worden vastgemaakt vanuit Excel-werkmappen die zijn opgeslagen in uw OneDrive voor bedrijven of een andere in groepen gedeelde documentbibliotheek. De bereiken kunnen gegevens, grafieken, tabellen, draaitabellen, draaigrafieken en andere onderdelen van Excel bevatten.
 
 1. Markeer de cellen die u wilt vastmaken aan een dashboard.
    

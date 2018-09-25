@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b486ad6bc4027aa2122ee72fc7fb89f0fd80c875
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a219ad94725f8d5423597bd65321f0024f95c1bb
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732737"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545999"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>Titels, legenda's en achtergronden van visualisaties aanpassen
 In deze zelfstudie leert u een aantal verschillende manieren kennen om uw visualisaties aan te passen.   Er zijn heel veel opties voor het aanpassen van uw visualisaties. De beste manier om ze te leren kennen is door het deelvenster Opmaak te verkennen (selecteer de verfroller).  Dit artikel helpt u op weg door te laten zien hoe u de titel, legenda en achtergrond van een visualisatie kunt aanpassen.  
@@ -120,6 +120,6 @@ Vouw de Achtergrond-opties uit met hetzelfde kolomdiagram geselecteerd.
 ## <a name="next-steps"></a>Volgende stappen
 [X-as en Y-as aanpassen](power-bi-visualization-customize-x-axis-and-y-axis.md)  
 [Kleuren en aseigenschappen aanpassen](service-getting-started-with-color-formatting-and-axis-properties.md)  
-[Power BI - basisconcepten](../service-basic-concepts.md)  
+[Power BI - basisconcepten](../consumer/end-user-basic-concepts.md)  
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

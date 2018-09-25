@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: 320ab8cef7ba2b36846550dcdb3171c7fb4b788a
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: abd0e6b36af02753d8ff08c8f7405cc6502977d1
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732748"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548098"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>De virtuele Q&A-analist in iOS-apps - Power BI
 
@@ -137,11 +137,11 @@ Zie het gedeelte over spraakherkenning in het hoofdstuk [What's New in iOS](http
 U kunt de resultaten die u en uw klanten van de virtuele analist Q&A krijgen voor een gegevensset verbeteren door meer gerichte vragen te stellen of door de gegevensset verfijnen.
 
 ### <a name="how-to-ask-questions"></a>Vragen stellen
-* Volg deze [tips voor het stellen van vragen in Q&A](../../service-q-and-a-tips.md) in de Power BI-service of de virtuele analist Q&A in uw mobiele iOS-app.
+* Volg deze [tips voor het stellen van vragen in Q&A](../end-user-q-and-a-tips.md) in de Power BI-service of de virtuele analist Q&A in uw mobiele iOS-app.
 
 ### <a name="how-to-enhance-the-dataset"></a>Gegevensset verfijnen
 * Verfijn de gegevensset in Power BI Desktop of in de Power BI-service [om uw gegevens goed te laten werken met Q&A en de virtuele analist Q&A](../../service-prepare-data-for-q-and-a.md).
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Q&A in de Power BI-service](../../power-bi-q-and-a.md)
+* [Q&A in de Power BI-service](../end-user-q-and-a.md)
 * Vragen? Raadpleeg het [gedeelte over mobiele apps in de Power BI-community](https://go.microsoft.com/fwlink/?linkid=839277)

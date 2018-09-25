@@ -10,20 +10,20 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: a528c4a641dbdecce7d33f29e7afbe6118ee34b5
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 462e9b1d991690846c57a225552b271fca19499c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726473"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544390"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Een Power BI-dashboard maken op basis van een rapport
-U hebt [Dashboards in Power BI](service-dashboards.md) gelezen en u wilt nu uw eigen dashboard maken. Er zijn veel verschillende manieren om een dashboard te maken: op basis van een rapport, helemaal vanaf het begin, op basis van een gegevensset, door een bestaand dashboard te dupliceren, en meer.  
+U hebt [Dashboards in Power BI](consumer/end-user-dashboards.md) gelezen en u wilt nu uw eigen dashboard maken. Er zijn veel verschillende manieren om een dashboard te maken: op basis van een rapport, helemaal vanaf het begin, op basis van een gegevensset, door een bestaand dashboard te dupliceren, en meer.  
 
 Het kan overweldigend zijn wanneer u voor het eerst met een dashboard aan de slag gaat, dus we gaan eerst een klein en eenvoudig dashboard maken door visualisaties vast te maken van een rapport dat al gemaakt is. Zodra u de snelstartgids hebt voltooid, zult u goed kunnen begrijpen wat de relatie tussen dashboards en rapporten is, hoe u de bewerkweergave in de rapporteditor kunt openen, hoe u tegels kunt vastmaken en hoe u tussen een dashboard en een rapport kunt navigeren. Gebruik vervolgens de koppelingen in de Inhoudsopgave aan de linkerkant of de **Volgende stappen** onderaan om verder te gaan met de moeilijkere onderwerpen.
 
 ## <a name="who-can-create-a-dashboard"></a>Wie mag een dashboard maken?
-Het maken van een dashboard is een functie die beschikbaar is voor **Makers** en er zijn machtigingen nodig om het rapport te kunnen bewerken. Bewerkingsmachtigingen zijn beschikbaar voor makers van rapporten en voor de collega's die toegang hebben gekregen van de maker. Als David bijvoorbeeld een rapport maakt in workspaceABC en u vervolgens als lid van deze werkruimte toevoegt, zullen David en u allebei bewerkingsmachtigingen krijgen. Maar indien een rapport rechtstreeks met u is gedeeld of als onderdeel van een [Power BI-app](service-install-use-apps.md) (u **gebruikt** het rapport), kunt u geen tegels aan een dashboard vastmaken.
+Het maken van een dashboard is een functie die beschikbaar is voor **Makers** en er zijn machtigingen nodig om het rapport te kunnen bewerken. Bewerkingsmachtigingen zijn beschikbaar voor makers van rapporten en voor de collega's die toegang hebben gekregen van de maker. Als David bijvoorbeeld een rapport maakt in workspaceABC en u vervolgens als lid van deze werkruimte toevoegt, zullen David en u allebei bewerkingsmachtigingen krijgen. Maar indien een rapport rechtstreeks met u is gedeeld of als onderdeel van een [Power BI-app](consumer/end-user-apps.md) (u **gebruikt** het rapport), kunt u geen tegels aan een dashboard vastmaken.
 
 > **OPMERKING**: Dashboards zijn een functie van Power BI-service, niet van Power BI Desktop. Dashboards kunnen niet worden gemaakt in Power BI - Mobiel, maar wel worden [bekeken en gedeeld](consumer/mobile/mobile-apps-view-dashboard.md).
 >
@@ -65,7 +65,7 @@ We gaan een van de Power BI-voorbeeldgegevenssets importeren en gebruiken om ons
 1. Blijf in dezelfde werkruimte en selecteer het tabblad **Rapporten**. Het zojuist geïmporteerde rapport wordt weergegeven met een geel sterretje. Selecteer de naam van het rapport om het te openen.
 
     ![Tabblad Rapporten](media/service-dashboard-create/power-bi-reports.png)
-2. Het rapport wordt geopend in de [Leesweergave](service-reading-view-and-editing-view.md). Let op de twee tabbladen aan de onderkant: Discount Analysis (Kortingsanalyse) en Spend Overview (Uitgavenoverzicht). Elk tabblad vertegenwoordigt een pagina van het rapport.
+2. Het rapport wordt geopend in de [Leesweergave](consumer/end-user-reading-view.md). Let op de twee tabbladen aan de onderkant: Discount Analysis (Kortingsanalyse) en Spend Overview (Uitgavenoverzicht). Elk tabblad vertegenwoordigt een pagina van het rapport.
     Selecteer **Rapport bewerken** om het rapport in de bewerkweergave te openen.
 
     ![Rapport in leesweergave](media/service-dashboard-create/power-bi-reading-view.png)
@@ -108,9 +108,9 @@ Gefeliciteerd, u hebt uw eerste dashboard gemaakt! Nu u een dashboard hebt, kunt
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Het formaat van tegels bewerken en ze verplaatsen](service-dashboard-edit-tile.md)
-* [Alles over dashboardtegels](service-dashboard-tiles.md)
-* [Uw dashboard delen door een app te maken](service-create-distribute-apps.md)
-* [Power BI - basisconcepten](service-basic-concepts.md)
+* [Alles over dashboardtegels](consumer/end-user-tiles.md)
+* [Uw dashboard delen door een app te maken](consumer/end-user-create-apps.md)
+* [Power BI - basisconcepten](consumer/end-user-basic-concepts.md)
 * [Tips voor het ontwerpen van een geweldig dashboard](service-dashboards-design-tips.md)
 
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

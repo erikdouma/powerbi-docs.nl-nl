@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: b38c69d74141b28215e0a14a32fc7b03fab4fdbf
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: e60cc5341bba50d9fac82f032656f449cadaa255
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558465"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546534"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Capaciteiten in Power BI Premium en Power BI Embedded beheren
 Meer informatie over het beheren van Power BI Premium- en Power BI Embedded-capaciteiten, die toegewezen resources voor uw inhoud bieden.
@@ -183,6 +183,6 @@ Als u **Power BI Report Server-sleutel** selecteert, wordt een dialoogvenster we
 Zie [Power BI Report Server installeren](report-server/install-report-server.md) voor meer informatie.
 
 ## <a name="next-steps"></a>Volgende stappen
-Gepubliceerde apps met gebruikers delen Zie [Een app maken en distribueren in Power BI](service-create-distribute-apps.md) voor meer informatie.
+Gepubliceerde apps met gebruikers delen Zie [Een app maken en distribueren in Power BI](consumer/end-user-create-apps.md) voor meer informatie.
 
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

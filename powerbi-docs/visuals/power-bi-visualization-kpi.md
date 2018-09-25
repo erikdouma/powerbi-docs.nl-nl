@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bb1ebf08c7ffb7a18cc0dd273c767c082f89f1aa
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d3afa24c68db5ffcaec1dddae09b0b9719bf2bb5
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732657"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543538"
 ---
 # <a name="kpi-visuals"></a>Visuele KPI-elementen
 Een Key Performance Indicator (KPI) is een visuele aanwijzing waarmee de voortgang naar een meetbaar doel wordt aangegeven. Zie [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050) voor meer informatie over KPI's.
@@ -42,7 +42,7 @@ Of kijk naar Will die laat zien hoe u eenvoudige metrische visuele elementen maa
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-1. Open het rapport in de [bewerkweergave](../service-reading-view-and-editing-view.md) en [voeg een nieuwe pagina toe](../power-bi-report-add-page.md).    
+1. Open het rapport in de [bewerkweergave](../consumer/end-user-reading-view.md) en [voeg een nieuwe pagina toe](../power-bi-report-add-page.md).    
 2. Selecteer **Verkopen > Totaal aantal eenheden dit jaar**.  Dit wordt de indicator.
 3. Voeg **Tijd > Maand** toe.  Dit stelt de trend voor.
 4. BELANGRIJK: sorteer de kaart op **Maand**. Als u de visualisatie naar een KPI hebt omgezet, is er geen optie meer om te sorteren.

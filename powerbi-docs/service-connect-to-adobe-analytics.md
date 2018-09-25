@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e8e9b21e62f0a91234fccf78977a696e321ed8dc
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: f4eb0ec93057f309720fc4fef33a55d924881383
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "38924530"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544619"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>Verbinding maken met Adobe Analytics via Power BI
 Wanneer u verbinding wilt maken met Adobe Analytics via Power BI, kunt u beginnen door eerst verbinding te maken met uw Adobe Analytics Marketing Cloud-account. U krijgt een app met een Power BI-dashboard en een set Power BI-rapporten die inzicht geven in het verkeer van uw site en de gebruikersgegevens. De gegevens worden eenmaal per dag automatisch vernieuwd. U kunt met het dashboard en de rapporten werken, maar u kunt wijzigingen niet opslaan.
@@ -94,7 +94,7 @@ Als u, nadat u uw referenties hebt opgegeven, een foutmelding krijgt die aangeef
 Als u het aanmeldscherm zonder foutmeldingen hebt doorlopen, kan het zijn dat de uitvoering van rapporten te lang duurt. Een algemene fout ziet er zo uit: *'kan geen gegevens ophalen uit het Adobe Analytics-rapport. Inhoud bevat &quot;verwijzende site, pagina&quot;, geschatte duur is xx seconden'*. Raadpleeg de sectie 'Wat is inbegrepen' en vergelijk de grootte van uw Adobe-exemplaar. Er is momenteel helaas geen manier om deze time-out omzeilen. Microsoft overweegt echter updates voor een betere ondersteuning van grotere exemplaren; u kunt het Power BI-team feedback geven op https://ideas.powerbi.com
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Wat zijn apps in Power BI?](service-install-use-apps.md)
+* [Wat zijn apps in Power BI?](consumer/end-user-apps.md)
 * [Gegevens ophalen in Power BI](service-get-data.md)
 * Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

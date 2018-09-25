@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 01/17/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 320bcd80a6a258879568d323afdae60daacfee6c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 2c90db1c08ba1d172acc4d0e82d23409d835879a
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727928"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543585"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Zelfstudie: Q&A gebruiken om visualisaties en rapporten te maken
-Via het [Q&A-overzicht](power-bi-q-and-a.md) hebt u kennisgemaakt met de Q&A-functie in Power BI en het onderscheid dat is gemaakt tussen *gebruikers* (dashboards en rapporten die worden gedeeld met hen) en *auteurs* (eigenaar van de onderliggende rapporten en gegevenssets). Het eerste deel van deze zelfstudie is voornamelijk bedoeld voor personen die gebruik maken van dashboards met Power BI-service. En het tweede gedeelte is bedoeld voor mensen die met Power BI-service of Power BI Desktop rapporten maken. [Q&A en Power BI-mobiel](consumer/mobile/mobile-apps-ios-qna.md) en [Q&A met Power BI Embedded](developer/qanda.md) worden behandeld in afzonderlijke artikelen.
+Via het [Q&A-overzicht](consumer/end-user-q-and-a.md) hebt u kennisgemaakt met de Q&A-functie in Power BI en het onderscheid dat is gemaakt tussen *gebruikers* (dashboards en rapporten die worden gedeeld met hen) en *auteurs* (eigenaar van de onderliggende rapporten en gegevenssets). Het eerste deel van deze zelfstudie is voornamelijk bedoeld voor personen die gebruik maken van dashboards met Power BI-service. En het tweede gedeelte is bedoeld voor mensen die met Power BI-service of Power BI Desktop rapporten maken. [Q&A en Power BI-mobiel](consumer/mobile/mobile-apps-ios-qna.md) en [Q&A met Power BI Embedded](developer/qanda.md) worden behandeld in afzonderlijke artikelen.
 
 Q&A is interactief en zelfs leuk, en u zult zien dat één vraag heel vaak zal leiden tot vele andere vragen, aangezien de visualisaties interessante dingen opleveren om te volgen. Kijk hoe Amanda demonstreert hoe ze met Q&A visualisaties maakt, dieper op deze visuals ingaat en deze aan dashboards vastmaakt.
 
@@ -64,7 +64,7 @@ Verken met Q&A om uw gegevensset te verkennen en visualisaties aan het rapport e
 
 ![](media/power-bi-tutorial-q-and-a/power-bi-view-related.png)
 
-Als u Q&A wilt gebruiken in rapporten, moet u over bewerkingsmachtigingen beschikken voor het rapport en de onderliggende gegevensset. Wij hebben in het onderwerp [Q&A-overzicht](power-bi-q-and-a.md) dit ook wel een *auteur-scenario* genoemd. Als u dus in plaats daarvan een rapport *gebruikt* dat met u is gedeeld, is Q&A niet beschikbaar.
+Als u Q&A wilt gebruiken in rapporten, moet u over bewerkingsmachtigingen beschikken voor het rapport en de onderliggende gegevensset. Wij hebben in het onderwerp [Q&A-overzicht](consumer/end-user-q-and-a.md) dit ook wel een *auteur-scenario* genoemd. Als u dus in plaats daarvan een rapport *gebruikt* dat met u is gedeeld, is Q&A niet beschikbaar.
 
 1. Open een rapport in de bewerkingsweergave (Power BI-service) of rapportweergave (Power BI Desktop) en selecteer **Een vraag stellen** in de menubalk.
 
@@ -98,14 +98,14 @@ Als u Q&A wilt gebruiken in rapporten, moet u over bewerkingsmachtigingen beschi
 U kunt met Q&A niet alleen de gegevens voor zichzelf laten spreken, u kunt in Power BI ook aangeven hoe de gegevens moeten worden weergegeven. U hoeft alleen maar 'as a <visualization type>' aan het einde van uw vraag te typen.  Bijvoorbeeld 'show inventory volume by plant as a map' en 'show total inventory as a card'.  Probeer het zelf maar eens.
 
 ##  <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
-- Als u verbinding hebt gemaakt met een gegevensset met behulp van een live-verbinding of de gateway, moet u Q&A [inschakelen voor deze gegevensset](service-q-and-a-direct-query.md).
+- Als u verbinding hebt gemaakt met een gegevensset met behulp van een live-verbinding of de gateway, moet u Q&A [inschakelen voor deze gegevensset](consumer/end-user-q-and-a-direct-query.md).
 
 - U hebt een rapport geopend en ziet de optie Q&A niet. Zorg ervoor, als u de Power BI-service gebruikt, dat het rapport in de bewerkingsweergave is geopend. Als u de bewerkingsweergave niet kunt openen, betekent dit dat u niet over bewerkingsmachtigingen voor het rapport beschikt en niet Q&A kunt gebruiken bij dat specifieke rapport.
 
 ## <a name="next-steps"></a>Volgende stappen
-Terug naar [Q&A in Power BI](power-bi-q-and-a.md)   
+Terug naar [Q&A in Power BI](consumer/end-user-q-and-a.md)   
 [Zelfstudie: Q&A gebruiken met het Retail Sales-voorbeeld](power-bi-visualization-introduction-to-q-and-a.md)   
-[Tips voor het stellen van vragen in Q&A](service-q-and-a-tips.md)   
+[Tips voor het stellen van vragen in Q&A](consumer/end-user-q-and-a-tips.md)   
 [Een werkmap voorbereiden voor Q&A](service-prepare-data-for-q-and-a.md)  
-[Een on-premises gegevensset voor Q&A voorbereiden](service-q-and-a-direct-query.md)
+[Een on-premises gegevensset voor Q&A voorbereiden](consumer/end-user-q-and-a-direct-query.md)
 [Maak een tegel vast aan het dashboard vanuit Q&A](service-dashboard-pin-tile-from-q-and-a.md)

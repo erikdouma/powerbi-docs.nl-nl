@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 81a8b5454e39088b8b406e600707d1d5073e14dc
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 1104c7f90f46252a74c4aa8e5ec573a159ef1c40
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39330162"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550116"
 ---
 # <a name="using-directquery-in-power-bi"></a>DirectQuery gebruiken in Power BI
 U kunt verbinding maken met allerlei verschillende gegevensbronnen wanneer u **Power BI Desktop** of de **Power BI-service** gebruikt, en u kunt deze verbindingen op verschillende manieren tot stand brengen. U kunt gegevens *importeren* in Power BI, wat de meest voorkomende manier is om gegevens te verkrijgen, of u kunt rechtstreeks verbinding maken met gegevens in de oorspronkelijke opslagplaats, wat **DirectQuery** wordt genoemd. In dit artikel vindt u informatie over **DirectQuery**, met speciale aandacht voor de volgende onderwerpen:
@@ -277,7 +277,7 @@ Hanteer de volgende richtlijnen als u een rapport met een DirectQuery-verbinding
   
   ![](media/desktop-directquery-about/directquery-about_04.png)
   
-  In DirectQuery is kruislings filteren en markeren op deze manier alleen mogelijk als er query's worden ingediend bij de onderliggende gegevensbron. Deze interactie moet worden uitgeschakeld als het hierdoor te lang duurt om te reageren op de selectie van gebruikers. Deze interactie kan echter worden uitgeschakeld voor het volledige rapport (zoals hierboven beschreven voor de *opties voor Query's beperken*), of per geval zoals [in dit artikel](service-reports-visual-interactions.md) wordt beschreven.
+  In DirectQuery is kruislings filteren en markeren op deze manier alleen mogelijk als er query's worden ingediend bij de onderliggende gegevensbron. Deze interactie moet worden uitgeschakeld als het hierdoor te lang duurt om te reageren op de selectie van gebruikers. Deze interactie kan echter worden uitgeschakeld voor het volledige rapport (zoals hierboven beschreven voor de *opties voor Query's beperken*), of per geval zoals [in dit artikel](consumer/end-user-interactions.md) wordt beschreven.
 
 Naast de bovenstaande lijst met suggesties, kunnen de volgende rapportagemogelijkheden prestatieproblemen veroorzaken:
 

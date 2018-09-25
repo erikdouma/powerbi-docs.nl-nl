@@ -11,25 +11,25 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 78d9004a718990cbcd310835e8e9b8ae5e3eae17
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 3c6ae5351908bd71888040c3bc900323837935c2
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726634"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546068"
 ---
 # <a name="the-report-editortake-a-tour"></a>De rapporteditor... Een rondleiding
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Rapporten bewerken met de Power BI-service en Power BI Desktop
 De rapporteditor in de Power BI-service en de rapporteditor in Power BI Desktop zijn vergelijkbaar. In de video ziet u de rapporteditor in Power BI Desktop en in dit artikel ziet u de rapporteditor in de Power BI-service. 
 
 ## <a name="the-difference-between-report-creators-and-report-consumers"></a>Het verschil tussen *makers* en *gebruikers* van rapporten
-Alleen rapporteigenaren (ofwel *makers*) kunnen een rapport maken en bewerken. Als *gebruiker* van een rapport dat met u is gedeeld, kunt u het rapport openen en acties uitvoeren in de [leesweergave](service-reading-view-and-editing-view.md) van de Power BI-service, maar hebt u geen toegang tot alle krachtige en uitgebreide functies waarover de rapportmaker beschikt.  
+Alleen rapporteigenaren (ofwel *makers*) kunnen een rapport maken en bewerken. Als *gebruiker* van een rapport dat met u is gedeeld, kunt u het rapport openen en acties uitvoeren in de [leesweergave](consumer/end-user-reading-view.md) van de Power BI-service, maar hebt u geen toegang tot alle krachtige en uitgebreide functies waarover de rapportmaker beschikt.  
 
-Bekijk [Leesweergave en bewerkweergave in de Power BI-service](service-reading-view-and-editing-view.md) voor meer informatie over rapporten in de leesweergave 
+Bekijk [Leesweergave en bewerkweergave in de Power BI-service](consumer/end-user-reading-view.md) voor meer informatie over rapporten in de leesweergave 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-In de Power BI-service is de *rapporteditor* alleen beschikbaar in de [bewerkweergave](service-reading-view-and-editing-view.md). Als u een rapport in de bewerkweergave wilt openen, moet u de eigenaar of maker van het rapport zijn.
+In de Power BI-service is de *rapporteditor* alleen beschikbaar in de [bewerkweergave](consumer/end-user-reading-view.md). Als u een rapport in de bewerkweergave wilt openen, moet u de eigenaar of maker van het rapport zijn.
 
 De Power BI-rapporteditor bestaat uit 3 secties:  
 
@@ -126,9 +126,9 @@ In het rapportcanvas wordt uw werk weergegeven. Wanneer u de deelvensters Velden
 ## <a name="next-steps"></a>Volgende stappen:
 [Een rapport maken](service-report-create-new.md)
 
-Lees meer informatie over rapporten in de [Power BI-service](service-reports.md), [Power BI Desktop](desktop-report-view.md) en [Power BI - Mobiel](consumer/mobile/mobile-apps-view-phone-report.md).
+Lees meer informatie over rapporten in de [Power BI-service](consumer/end-user-reports.md), [Power BI Desktop](desktop-report-view.md) en [Power BI - Mobiel](consumer/mobile/mobile-apps-view-phone-report.md).
 
-[Power BI - basisconcepten](service-basic-concepts.md)
+[Power BI - basisconcepten](consumer/end-user-basic-concepts.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

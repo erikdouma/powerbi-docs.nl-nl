@@ -1,21 +1,21 @@
 ---
 title: Een visueel Power BI-element optimaliseren voor elke grootte
 description: Informatie over het optimaliseren van visuals in bestaande rapporten in Power BI Desktop en de Power BI-service voor de Power BI-telefoonapps.
-author: maggiesMSFT
+author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 04/13/2018
-ms.author: maggies
+ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: d85d4bd60c341ef588cf56b1345f28aa25b810de
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 1c50bcf656f967502e8bb01f7ca5184996170bed
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736243"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46566321"
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>Een visueel Power BI-element optimaliseren voor elke grootte
 Wanneer u een nieuw rapport maakt, zijn de visuals standaard *responsief*. Dat wil zeggen dat ze dynamisch worden gewijzigd zodat ze de maximale hoeveelheid gegevens weergeven, ongeacht de schermgrootte. Voor oudere rapporten kunt u de visuals ook zo instellen dat ze dynamisch kleiner of groter worden.

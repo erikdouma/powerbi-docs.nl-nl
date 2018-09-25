@@ -11,17 +11,17 @@ ms.topic: conceptual
 ms.date: 08/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c3dae6bcd59f44ab66b305b009da1e6fdabc9879
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 6cfd4cf1ae090351a710b00ee82600ddcbc71632
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732838"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546160"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Visualisaties in Power BI-rapporten
 Visualisaties (ook wel visuals genoemd) geven inzichten weer die zijn gedetecteerd in de gegevens. Een Power BI-rapport beschikt mogelijk over één pagina met één visual of over pagina’s vol met visuals. In Power BI-service kunnen visuals [vanuit rapporten aan dashboards worden vastgemaakt](../service-dashboard-pin-tile-from-report.md). 
 
-Het is belangrijk om onderscheid te maken tussen *auteurs* en *gebruikers* van rapporten. Als u degene bent die het rapport maakt of wijzigt, dan bent u de auteur.  Auteurs hebben bewerkmachtigingen voor het rapport en de onderliggende gegevensset. In Power BI Desktop betekent dit dat u de gegevensset kunt openen in de gegevensweergave en visuals in de rapportweergave kunt maken. In Power BI-service betekent dit dat u de gegevensset of het rapport kunt openen in de rapporteditor in de [bewerkweergave](../service-reading-view-and-editing-view.md). Wanneer een rapport of dashboard met u [gedeeld is ](../service-shared-with-me.md), bent u een **rapportgebruiker**. U kunt het rapport en de visuals weergeven en ermee communiceren, maar u kunt geen wijzigingen opslaan.
+Het is belangrijk om onderscheid te maken tussen *auteurs* en *gebruikers* van rapporten. Als u degene bent die het rapport maakt of wijzigt, dan bent u de auteur.  Auteurs hebben bewerkmachtigingen voor het rapport en de onderliggende gegevensset. In Power BI Desktop betekent dit dat u de gegevensset kunt openen in de gegevensweergave en visuals in de rapportweergave kunt maken. In Power BI-service betekent dit dat u de gegevensset of het rapport kunt openen in de rapporteditor in de [bewerkweergave](../consumer/end-user-reading-view.md). Wanneer een rapport of dashboard met u [gedeeld is ](../consumer/end-user-shared-with-me.md), bent u een **rapportgebruiker**. U kunt het rapport en de visuals weergeven en ermee communiceren, maar u kunt geen wijzigingen opslaan.
 
 Er zijn veel verschillende typen visuals rechtstreeks beschikbaar vanuit het deelvenster VISUALISATIES in Power BI. 
 

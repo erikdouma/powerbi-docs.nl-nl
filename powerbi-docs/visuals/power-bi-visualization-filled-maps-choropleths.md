@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a0216b5659548af0b69cdb1b94df887eec0bd4e0
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 83826e812f9173db522c929ae80c31fc7134e5bd
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736453"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549840"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Choropletenkaarten in Power BI
 In een choropletenkaart worden arcering, tinten of patronen gebruikt om aan te geven hoe een waarde in verhouding verschilt voor een geografisch gebied of regio.  U kunt zo snel deze relatieve verschillen laten zien met behulp van arcering die varieert van licht (minder frequent/lager) tot donker (meer-frequent/hoger).    
@@ -109,7 +109,7 @@ Als u geen toegang hebt tot gegevens voor breedtegraad en lengtegraad, [volgt u 
 Zie [Tips and tricks for map visualizations](power-bi-map-tips-and-tricks.md) (Tips en trucs voor kaartvisualisaties) voor meer hulp bij kaartvisualisaties.
 
 ## <a name="next-steps"></a>Volgende stappen
-[Choropletenkaart toevoegen als een dashboardtegel (visualisatie vastmaken)](../service-dashboard-tiles.md)    
+[Choropletenkaart toevoegen als een dashboardtegel (visualisatie vastmaken)](../consumer/end-user-tiles.md)    
  [Een visualisatie toevoegen aan een rapport](power-bi-report-add-visualizations-i.md)  
  [Typen visualisaties in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)    
  [Het gebruikte type visualisatie wijzigen](power-bi-report-change-visualization-type.md)      

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 51c3fdbef345a0d6020abe35ba7c71aaa67882e4
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: c64a5e487725bdfedf03b496322a52e7664f5455
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726841"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545067"
 ---
 # <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Zelfstudie: Aan de slag met Power BI-service (app.powerbi.com)
 In deze zelfstudie leest u hoe u aan de slag kunt met de ***Power BI-service***. Als u wilt weten hoe de Power BI-service aansluit bij de andere Power BI-aanbiedingen, is het een goed idee om eerst [Wat is Power BI?](power-bi-overview.md) te lezen.
@@ -53,9 +53,9 @@ Bezoek onze [afspeellijst op YouTube](https://www.youtube.com/playlist?list=PL1N
 > 
 
 ## <a name="what-is-power-bi-service"></a>Wat is Power BI-service?
-Microsoft Power BI-service wordt ook wel Power BI Online of app.powerbi.com genoemd. Power BI helpt u om up-to-date te blijven met de informatie die belangrijk voor u is.  Met behulp van de ***dashboards*** van de Power BI-service weet u altijd precies wat er speelt in uw bedrijf.  De dashboards bevatten ***tegels*** waarop u kunt klikken om ***rapporten*** te openen voor nog meer inzicht in de gegevens.  U kunt verbinding maken met verschillende ***gegevenssets*** om alle relevante gegevens op één plek samen te brengen. Wilt u weten wat de bouwstenen zijn van Power BI?  Zie [Power BI - Basisconcepten](service-basic-concepts.md).
+Microsoft Power BI-service wordt ook wel Power BI Online of app.powerbi.com genoemd. Power BI helpt u om up-to-date te blijven met de informatie die belangrijk voor u is.  Met behulp van de ***dashboards*** van de Power BI-service weet u altijd precies wat er speelt in uw bedrijf.  De dashboards bevatten ***tegels*** waarop u kunt klikken om ***rapporten*** te openen voor nog meer inzicht in de gegevens.  U kunt verbinding maken met verschillende ***gegevenssets*** om alle relevante gegevens op één plek samen te brengen. Wilt u weten wat de bouwstenen zijn van Power BI?  Zie [Power BI - Basisconcepten](consumer/end-user-basic-concepts.md).
 
-Als u belangrijke gegevens hebt verzameld in Excel- of CSV-bestanden, kunt u een Power BI-dashboard maken om overal en altijd op de hoogte te blijven en inzichten te delen met anderen.  Hebt u een abonnement op een SaaS-toepassing zoals Salesforce?  U kunt een goede start maken door verbinding te maken met Salesforce en automatisch een dashboard te maken van die gegevens. [Bekijk ook alle andere SaaS-apps](service-get-data.md) waarmee u verbinding kunt maken. Als u deel uitmaakt van een organisatie, controleert u of er misschien [apps](service-create-distribute-apps.md) voor u zijn gepubliceerd.
+Als u belangrijke gegevens hebt verzameld in Excel- of CSV-bestanden, kunt u een Power BI-dashboard maken om overal en altijd op de hoogte te blijven en inzichten te delen met anderen.  Hebt u een abonnement op een SaaS-toepassing zoals Salesforce?  U kunt een goede start maken door verbinding te maken met Salesforce en automatisch een dashboard te maken van die gegevens. [Bekijk ook alle andere SaaS-apps](service-get-data.md) waarmee u verbinding kunt maken. Als u deel uitmaakt van een organisatie, controleert u of er misschien [apps](consumer/end-user-create-apps.md) voor u zijn gepubliceerd.
 
 Lees hier meer over de andere manieren om [gegevens op te halen voor Power BI](service-get-data.md).
 
@@ -87,7 +87,7 @@ Hier volgt een voorbeeld van het ophalen van gegevens uit een CSV-bestand. Wilt 
 
     ![Optie Leesweergave](media/service-get-started/power-bi-editing-view.png)
 
-    In de bewerkweergave kunt u uw rapporten maken en aanpassen omdat u de *eigenaar* van het rapport bent; u bent de *maker*. Wanneer u uw rapport met collega’s deelt, kunnen zij alleen interactief met het rapport werken in de leesweergave; zij worden *consumenten* genoemd. Lees meer over de [leesweergave en de bewerkweergave](service-reading-view-and-editing-view.md).
+    In de bewerkweergave kunt u uw rapporten maken en aanpassen omdat u de *eigenaar* van het rapport bent; u bent de *maker*. Wanneer u uw rapport met collega’s deelt, kunnen zij alleen interactief met het rapport werken in de leesweergave; zij worden *consumenten* genoemd. Lees meer over de [leesweergave en de bewerkweergave](consumer/end-user-reading-view.md).
     
     Een uitstekende manier om vertrouwd te raken met de rapporteditor is door [een rondleiding te volgen](service-the-report-editor-take-a-tour.md).
    > 
@@ -158,5 +158,5 @@ Nu u de zelfstudie hebt voltooid, kunt u de gegevensset, het rapport en het dash
 Klaar om meer uit te proberen?  Hier volgen enkele goede manieren om nader kennis te maken met Power BI.
 
 > [!div class="nextstepaction"]
-> [Verbinding maken met de onlineservices die u gebruikt](./service-connect-to-services.md)
+> [Verbinding maken met de onlineservices die u gebruikt](consumer/end-user-connect-to-services.md)
 

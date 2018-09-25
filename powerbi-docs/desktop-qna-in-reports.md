@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a14ed61d8d7e72090a034319052600cb429e8c16
-ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
+ms.openlocfilehash: 507cc25d324f47f00434430461d78013baa7210f
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39475724"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546925"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Q&A in Power BI Desktop gebruiken voor query's met natuurlijke taal
 Normale zinnen en natuurlijke taal gebruiken om informatie uit uw gegevens te kunnen opvragen, is uiterst nuttig. Nog nuttiger is het wanneer uw gegevens antwoorden. Dit is wat u voor elkaar kunt krijgen met Q&A in **Power BI Desktop**.
@@ -198,5 +198,5 @@ Het veld **Synoniemen** wordt weergegeven aan de rechterkant van **Power BI Desk
 Raadpleeg de volgende artikelen voor meer informatie over functies die beschikbaar zijn in Power BI Desktop:
 
 * [Drillthrough gebruiken in Power BI Desktop](desktop-drillthrough.md)
-* [Een dashboardtegel of rapportvisual weergeven in de focusmodus](service-focus-mode.md)
+* [Een dashboardtegel of rapportvisual weergeven in de focusmodus](consumer/end-user-focus.md)
 

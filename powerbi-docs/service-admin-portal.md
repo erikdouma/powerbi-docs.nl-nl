@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 27b3f18143fe5f354fb9a6965b1d3a58ba33f556
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a9f394cdfefabf1392b0219079d95a35d38b1754
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726910"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546114"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI-beheerportal
 
@@ -161,7 +161,7 @@ Gebruikers kunnen verschillende opties in de gebruikersinterface zien op basis v
 
 ### <a name="export-data"></a>Gegevens exporteren
 
-Gebruikers in de organisatie kunnen gegevens uit een tegel of visualisatie exporteren. [Meer informatie](power-bi-visualization-export-data.md)
+Gebruikers in de organisatie kunnen gegevens uit een tegel of visualisatie exporteren. [Meer informatie](consumer/end-user-export-data.md)
 
 ![](media/service-admin-portal/powerbi-admin-export-data.png)
 
@@ -170,13 +170,13 @@ Gebruikers in de organisatie kunnen gegevens uit een tegel of visualisatie expor
 
 ### <a name="export-reports-as-powerpoint-presentations"></a>Hiermee worden rapporten geëxporteerd als PowerPoint-presentaties
 
-Gebruikers in de organisatie kunnen Power BI-rapporten exporteren als PowerPoint-bestanden. [Meer informatie](service-publish-to-powerpoint.md)
+Gebruikers in de organisatie kunnen Power BI-rapporten exporteren als PowerPoint-bestanden. [Meer informatie](consumer/end-user-powerpoint.md)
 
 ![](media/service-admin-portal/powerbi-admin-powerpoint.png)
 
 ### <a name="print-dashboards-and-reports"></a>Dashboards en rapporten afdrukken
 
-Gebruikers in de organisatie kunnen dashboards en rapporten afdrukken. [Meer informatie](service-print.md)
+Gebruikers in de organisatie kunnen dashboards en rapporten afdrukken. [Meer informatie](consumer/end-user-print.md)
 
 ![](media/service-admin-portal/powerbi-admin-print-dashboard.png)
 
@@ -205,7 +205,7 @@ U kunt de optie instellen op **Ingeschakeld** en vervolgens aangeven aan wie u d
 > [!NOTE]
 > Houd er rekening mee dat het even kan duren voordat wijzigingen in de tenantinstellingen van kracht worden.
 
-Meer informatie over het [pushen van apps](service-create-distribute-apps.md#how-to-install-an-app-automatically-for-end-users).
+Meer informatie over het [pushen van apps](consumer/end-user-create-apps.md#how-to-install-an-app-automatically-for-end-users).
 
 ## <a name="integration-settings"></a>Instellingen voor integratie
 

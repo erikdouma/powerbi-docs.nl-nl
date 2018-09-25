@@ -11,15 +11,15 @@ ms.topic: conceptual
 ms.date: 03/24/2017
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 8083e2aba9a2aa5b8bba27995e9fe261a76084c9
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 380567441fafec92d1f5e9e6b135b797264df40f
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728060"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543562"
 ---
 # <a name="duplicate-a-report-page-in-power-bi"></a>Een rapportpagina dupliceren in Power BI
-Voor het dupliceren van een rapportpagina in de Power BI-service of Power BI Desktop zijn bewerkingsmachtigingen voor het rapport nodig. In de Power BI-service betekent dit het openen van het rapport in de [bewerkweergave](service-reading-view-and-editing-view.md). 
+Voor het dupliceren van een rapportpagina in de Power BI-service of Power BI Desktop zijn bewerkingsmachtigingen voor het rapport nodig. In de Power BI-service betekent dit het openen van het rapport in de [bewerkweergave](consumer/end-user-reading-view.md). 
 
 
 1. Open in Power BI een rapport dat ten minste één pagina heeft. 
@@ -36,7 +36,7 @@ Voor het dupliceren van een rapportpagina in de Power BI-service of Power BI Des
 ### <a name="next-steps"></a>Volgende stappen
 Meer informatie over [visualisaties in Power BI-rapporten](visuals/power-bi-report-visualizations.md)    
 [Een nieuwe pagina aan een rapport toevoegen](power-bi-report-add-page.md)    
-[Power BI - basisconcepten](service-basic-concepts.md)    
+[Power BI - basisconcepten](consumer/end-user-basic-concepts.md)    
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

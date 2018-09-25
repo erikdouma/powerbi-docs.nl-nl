@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 1f6c899932390bc4f9818fdcbb499848ca88a8d5
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: d499f3f3635442f8d9ed0fbf167e53d13ec0ae53
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558511"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549978"
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Registreren voor Power BI als afzonderlijke gebruiker
 Lees hoe u zich registreert voor Power BI en aan de slag kunt met rapporten en visualisaties.
@@ -99,7 +99,7 @@ Vervolgens wordt u gevraagd om **Start** te selecteren.
 ## <a name="in-service-power-bi-pro-60-day-trial"></a>Proefversie van Power BI Pro voor 60 dagen
 Nadat u zich hebt aangemeld voor een gratis account, kunt u eventueel Pro 60 dagen gratis uitproberen. U hebt dan toegang tot alle functies van het Pro-abonnement voor de duur van de proefversie. Power BI Pro heeft alle functies van de gratis versie van Power BI, plus aanvullende functies voor delen en samenwerking. Meer informatie vindt u op de [pagina met prijzen van Power BI](https://powerbi.microsoft.com/pricing). Als u Power BI Pro gedurende 60 dagen gratis wilt uitproberen, meldt u zich aan bij Power BI en probeert u een van deze Power BI Pro functies:
 
-* [Een app-werkruimte maken](service-create-distribute-apps.md)
+* [Een app-werkruimte maken](consumer/end-user-create-apps.md)
 * [Een dashboard delen](service-share-dashboards.md)
 
 Wanneer u een van deze functies probeert uit te voeren, wordt u gevraagd een gratis proefversie te starten. U kunt de proefversie ook kiezen door het tandwielpictogram te selecteren en vervolgens **Persoonlijke opslag beheren** te selecteren. Selecteer vervolgens **Pro gratis uitproberen** aan de rechterkant.

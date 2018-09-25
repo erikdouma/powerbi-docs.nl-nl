@@ -10,16 +10,16 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 4676b31a117573d1d69b5947ec2380c4abf29405
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 45bd00877aadba2a84ac533add18b82337fa8403
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726864"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546252"
 ---
 # <a name="getting-a-custom-visual-certified"></a>Een aangepast visueel element laten *certificeren*
 ## <a name="what-is-meant-by-certified"></a>Wat is *gecertificeerd*?
-Een *gecertificeerd aangepast visueel element* is een visueel element dat voldoet aan bepaalde vereisten en strenge beveiligingstesten heeft doorstaan.  Wanneer een aangepast visueel element is gecertificeerd, kan het worden [geëxporteerd naar PowerPoint](service-publish-to-powerpoint.md) en wordt het weergegeven in de e-mailberichten die gebruikers ontvangen wanneer deze zich [op rapportpagina's abonneren](service-report-subscribe.md). Natuurlijk kan het ook worden gebruikt als [standaard aangepaste visuals](power-bi-custom-visuals.md) die worden toegevoegd aan rapporten van Power BI-service en Power BI Desktop en worden weergegeven in Power BI mobile en ingevoegd.
+Een *gecertificeerd aangepast visueel element* is een visueel element dat voldoet aan bepaalde vereisten en strenge beveiligingstesten heeft doorstaan.  Wanneer een aangepast visueel element is gecertificeerd, kan het worden [geëxporteerd naar PowerPoint](consumer/end-user-powerpoint.md) en wordt het weergegeven in de e-mailberichten die gebruikers ontvangen wanneer deze zich [op rapportpagina's abonneren](consumer/end-user-subscribe.md). Natuurlijk kan het ook worden gebruikt als [standaard aangepaste visuals](power-bi-custom-visuals.md) die worden toegevoegd aan rapporten van Power BI-service en Power BI Desktop en worden weergegeven in Power BI mobile en ingevoegd.
 
 Bent u een webontwikkelaar en bent u geïnteresseerd in het maken van uw eigen visualisaties en wilt u deze toevoegen aan [Microsoft AppSource](https://appsource.microsoft.com)? Zie [Aan de slag met hulpprogramma's voor ontwikkelaars](service-custom-visuals-getting-started-with-developer-tools.md) voor meer informatie.
 

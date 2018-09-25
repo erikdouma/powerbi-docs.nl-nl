@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 58a739c0d566030d2b09094264da14f6afd6d6fc
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 83b9d87bf494c3b9e974ee9dfdfa97beb68a6579
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727577"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545792"
 ---
 # <a name="full-screen-mode-in-power-bi-service"></a>De modus Volledig scherm in de Power BI-service
 ## <a name="what-is-full-screen-mode"></a>Wat is de modus Volledig scherm?
@@ -24,7 +24,7 @@ ms.locfileid: "44727577"
 
 Geef uw Power BI-inhoud (dashboards, rapportpagina's, tegels en visualisaties) weer zonder de afleiding van menu's en navigatiebalken.  U kunt uw tegel zonder andere storende factoren weergeven op het volledige scherm. Dit wordt soms TV-modus genoemd. Welke functionaliteit beschikbaar is in de modus Volledig scherm, is afhankelijk van de inhoud. 
 
-Als u Power BI mobiel gebruikt, [is de modus Volledig scherm beschikbaar voor Windows 10 Mobile-apps](consumer/mobile/mobile-windows-10-app-presentation-mode.md). Power BI Desktop heeft geen modus Volledig scherm voor rapporten of visualisaties, maar heeft Aanpassen aan pagina voor [Weergave van relaties](desktop-report-view.md) en [focusmodus voor rapportvisuals](service-focus-mode.md).
+Als u Power BI mobiel gebruikt, [is de modus Volledig scherm beschikbaar voor Windows 10 Mobile-apps](consumer/mobile/mobile-windows-10-app-presentation-mode.md). Power BI Desktop heeft geen modus Volledig scherm voor rapporten of visualisaties, maar heeft Aanpassen aan pagina voor [Weergave van relaties](desktop-report-view.md) en [focusmodus voor rapportvisuals](consumer/end-user-focus.md).
 
  
 
@@ -35,7 +35,7 @@ Enkele gebruikstoepassingen voor de modus Volledig scherm zijn:
 * Het element op een klein scherm weergeven.
 * Controle in de vergrendelde modus: u kunt het scherm aanraken of de muis over tegels bewegen zonder het onderliggende rapport te openen.
 
-> **Opmerking**: de modus Volledig scherm is niet hetzelfde als de [focusmodus (pop-outmodus)](service-focus-mode.md).
+> **Opmerking**: de modus Volledig scherm is niet hetzelfde als de [focusmodus (pop-outmodus)](consumer/end-user-focus.md).
 > 
 > 
 
@@ -78,7 +78,7 @@ Kijk hoe Amanda haar dashboard in de modus Volledig scherm opent en navigeert, e
       ![](media/service-fullscreen-mode/exit-fullscreen-new.png)
 
 ## <a name="visualizations-and-dashboard-tiles-in-full-screen-mode"></a>Visualisaties en dashboardtegels in modus Volledig scherm
-1. Als u dashboardtegels en rapportvisualisaties wilt weergeven in de modus Volledig scherm, moet u eerst die tegel of visualisatie direct in de [focusmodus](service-focus-mode.md) openen. 
+1. Als u dashboardtegels en rapportvisualisaties wilt weergeven in de modus Volledig scherm, moet u eerst die tegel of visualisatie direct in de [focusmodus](consumer/end-user-focus.md) openen. 
    
     ![](media/service-fullscreen-mode/power-bi-focus3.png)
 2. Vervolgens selecteert u het pictogram Volledig scherm ![Pictogram Volledig scherm](media/service-fullscreen-mode/power-bi-full-screen-icon.png)  voor die tegel of visual. De tegel of visual wordt weergegeven op het volledige scherm, zonder menu's of navigatiebalken.
@@ -86,8 +86,8 @@ Kijk hoe Amanda haar dashboard in de modus Volledig scherm opent en navigeert, e
     ![](media/service-fullscreen-mode/power-bi-fullscreen.png)
 
 ## <a name="next-steps"></a>Volgende stappen
-[Dashboards in Power BI](service-dashboards.md)  
-[Focusmodus](service-focus-mode.md)    
+[Dashboards in Power BI](consumer/end-user-dashboards.md)  
+[Focusmodus](consumer/end-user-focus.md)    
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

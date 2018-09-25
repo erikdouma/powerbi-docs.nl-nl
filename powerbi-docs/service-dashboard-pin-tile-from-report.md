@@ -11,16 +11,16 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 968cf7e573a298c2a82adaf2092a9d35ffa397e5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 75543bfc381f0a8391fe4422d677913ab61ad363
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240205"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550047"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Vanuit een rapport een tegel vastmaken aan een Power BI-dashboard
 ## <a name="pinning-tiles-from-a-report"></a>Tegels vanuit een rapport vastmaken
-U kunt een nieuwe [dashboardtegel](service-dashboard-tiles.md) onder meer toevoegen vanuit een [Power BI-rapport](service-reports.md). U kunt zelfs veel nieuwe tegels toevoegen uit een rapport.  Elk van deze tegels biedt met een klik een terugkoppeling naar het rapport.
+U kunt een nieuwe [dashboardtegel](consumer/end-user-tiles.md) onder meer toevoegen vanuit een [Power BI-rapport](consumer/end-user-reports.md). U kunt zelfs veel nieuwe tegels toevoegen uit een rapport.  Elk van deze tegels biedt met een klik een terugkoppeling naar het rapport.
 
 En volledige rapportpagina's kunnen worden vastgemaakt aan een dashboard.  Dit wordt ook wel vastmaken van een *live* tegel genoemd.  *Live* omdat u interactief met de tegel op het dashboard kunt werken en omdat, in tegenstelling tot afzonderlijke visualisatietegels, wijzigingen in het rapport met het dashboard worden gesynchroniseerd. Lees hieronder meer hierover.
 
@@ -58,15 +58,15 @@ Een andere optie is een volledige rapportpagina aan een dashboard vastmaken. Dit
 Zie voor meer informatie [Een volledige rapportpagina vastmaken](service-dashboard-pin-live-tile-from-report.md)
 
 ## <a name="next-steps"></a>Volgende stappen
-[Dashboards in Power BI](service-dashboards.md)
+[Dashboards in Power BI](consumer/end-user-dashboards.md)
 
-[Dashboardtegels in Power BI](service-dashboard-tiles.md)
+[Dashboardtegels in Power BI](consumer/end-user-tiles.md)
 
-[Rapporten in Power BI](service-reports.md)
+[Rapporten in Power BI](consumer/end-user-reports.md)
 
 [Gegevens vernieuwen in Power BI](refresh-data.md)
 
-[Basisconcepten van Power BI](service-basic-concepts.md)
+[Basisconcepten van Power BI](consumer/end-user-basic-concepts.md)
 
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

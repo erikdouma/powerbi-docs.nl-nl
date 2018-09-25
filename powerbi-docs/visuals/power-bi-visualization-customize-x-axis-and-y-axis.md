@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e49b5ddab09c32662beb04ce70e5dc7606d92f59
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: c547cd83d879cd81fe12c02f5418f5bf44ca1483
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732888"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545940"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>De eigenschappen van de X-as en Y-as aanpassen
 In deze zelfstudie leert u veel verschillende manieren om de X-as en Y-as van uw visualisaties aan te passen. Niet alle visualisaties hebben assen of kunnen worden aangepast. Zo hebben cirkeldiagrammen bijvoorbeeld geen assen. Bovendien verschillen de aanpassingsopties per visualisatie; er zijn te veel opties om ze in één artikel te behandelen. We werpen een blik op een aantal van de meestgebruikte as-aanpassingen, en maken u vertrouwd met het tabblad voor visuele opmaak in het rapportcanvas van Power BI.  
@@ -86,7 +86,7 @@ Eerst maakt u een Combinatiegrafiek waarmee u de impact kunt bekijken die het aa
 
     ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-line-chart.png)
 
-> [NOTE]: For help sorting by month, see [sorting by other criteria](../power-bi-report-change-sort.md#other)
+> [NOTE]: For help sorting by month, see [sorting by other criteria](../consumer/end-user-change-sort.md#other)
 > 1. In januari was de brutomarge 35%, in april nemen we een piek (45%) waar, in juli daalde het brutomargepercentage en in augustus was er opnieuw een daling. Krijgen we een soortgelijk patroon voor afgelopen jaar en dit jaar te zien?
 > 2. Voeg **Omzet van dit jaar > Waarde** en **Omzet van afgelopen jaar** aan het lijndiagram toe. De schaal van **BM % vorig jaar** (de blauwe lijn die langs de rasterlijn 0% loopt) is veel kleiner dan de schaal van **Verkoop**, waardoor het lastig is om de waarden te vergelijken. Een de percentages in de labels op de Y-as zijn absurd.      
 
@@ -137,6 +137,6 @@ Meer informatie over [visualisaties in Power BI-rapporten](power-bi-report-visua
 
 [Kleuren en aseigenschappen aanpassen](service-getting-started-with-color-formatting-and-axis-properties.md)
 
-[Power BI - basisconcepten](../service-basic-concepts.md)
+[Power BI - basisconcepten](../consumer/end-user-basic-concepts.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

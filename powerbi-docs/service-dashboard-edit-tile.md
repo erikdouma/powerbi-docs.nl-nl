@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e2df8ecd746e34b85a3fdd15943ff6eda5712663
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 0de070cc8661d4973d406ddf0749ef4852fc916c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598973"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546091"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Een dashboardtegel bewerken of verwijderen
 
@@ -36,7 +36,7 @@ Dit artikel bevat informatie over het volgende.
 * [Een tegel verwijderen](#delete)
   
   > [!TIP]
-  > Als u de visualisatie die wordt weergegeven op de tegel wilt wijzigen, moet u de tegel verwijderen en een nieuwe [dashboardtegel](service-dashboard-tiles.md) toevoegen.
+  > Als u de visualisatie die wordt weergegeven op de tegel wilt wijzigen, moet u de tegel verwijderen en een nieuwe [dashboardtegel](consumer/end-user-tiles.md) toevoegen.
 
   
 ## <a name="prerequisites"></a>Vereisten
@@ -142,11 +142,11 @@ Standaard geldt dat, wanneer u een tegel selecteert, u gewoonlijk naar het rappo
 
 - - -
 ## <a name="next-steps"></a>Volgende stappen
-[Dashboardtegels in Power BI](service-dashboard-tiles.md)
+[Dashboardtegels in Power BI](consumer/end-user-tiles.md)
 
-[Dashboards in Power BI](service-dashboards.md)
+[Dashboards in Power BI](consumer/end-user-dashboards.md)
 
-[Power BI - basisconcepten](service-basic-concepts.md)
+[Power BI - basisconcepten](consumer/end-user-basic-concepts.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

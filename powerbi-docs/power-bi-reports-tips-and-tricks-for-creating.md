@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 891d496fcdf809a816c9c18a6d21e4c486f76d76
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 0397921d239ec1d07312e69061890f8898e9687b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726795"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549955"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Tips en trucs voor het maken van rapporten in Power BI Desktop en de Power BI-service
 Als uw gegevens optimaal te kunnen gebruiken, hebt u soms wat extra hulp nodig. We hebben een aantal tips en trucs voor u verzameld om u te helpen bij het maken van rapporten in Microsoft Power BI Desktop, de Power BI-service *en* in Pro-Plus-edities van Microsoft Excel 2016 of Excel 2013 waar de Power Pivot-invoegtoepassing is ingeschakeld en Power Query is geïnstalleerd en ingeschakeld.
@@ -206,7 +206,7 @@ Vermijd een verscheidenheid aan visualisaties omwille van de verscheidenheid all
 * Probeer een combinatie van precisie- en tijdniveau te voorkomen. Zorg ervoor dat tijdsperioden begrijpelijk zijn.  Gebruik niet een diagram met de gegevens van de afgelopen maand naast gefilterde diagrammen uit een specifieke maand van het jaar.    
 * Gebruik bij voorkeur ook niet een combinatie van grote en kleine metingen op dezelfde schaal, zoals een lijn- of staafdiagram.  Bijvoorbeeld een meting in miljoenen, terwijl een andere in duizenden wordt weergegeven.  Met een dergelijke grote schaal is het lastig om de verschillen te zien in de meting die in duizenden wordt weergegeven.  Als u wilt combineren, kiest u een visualisatie (bijvoorbeeld een combinatiegrafiek) die het gebruik van een tweede as toestaat.    
 * Voorkom het gebruik van onnodige gegevenslabels in diagrammen. De waarden in staafdiagrammen zijn, ***indien groot genoeg***, meestal heel goed te begrijpen zonder dat het werkelijke getal hoeft te worden weergegeven.   
-* Let op hoe [diagrammen zijn gesorteerd](power-bi-report-change-sort.md).  Als u de aandacht wilt vestigen op het hoogste of laagste getal, sorteert u op de meting.  Als u wilt dat personen snel een bepaalde categorie kunnen vinden in een groot aantal categorieën, sorteert u op as.  
+* Let op hoe [diagrammen zijn gesorteerd](consumer/end-user-change-sort.md).  Als u de aandacht wilt vestigen op het hoogste of laagste getal, sorteert u op de meting.  Als u wilt dat personen snel een bepaalde categorie kunnen vinden in een groot aantal categorieën, sorteert u op as.  
 * Cirkeldiagrammen werken het beste als er minder dan acht categorieën worden weergegeven. Omdat u in een cirkeldiagram geen waarden naast elkaar kunt weergeven, is het moeilijker om in een cirkeldiagram waarden te vergelijken dan in een staaf- of kolomdiagram. Cirkeldiagrammen zijn geschikter voor het weergeven van deel-naar-geheelrelaties dan voor het vergelijken van delen. En meterdiagrammen zijn ideaal voor het weergeven van de huidige status in de context van een doel.    
 
 Zie [Visualization types in Power BI](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) (Visualisatietypen in Power BI) voor meer visualisatiespecifieke instructies.  
@@ -222,8 +222,8 @@ Een aantal van onze favoriete boeken zijn:
 * *Advanced Presentations Design* (Speciaal ontworpen geavanceerde presentaties) door Andrew Abela   
 
 ## <a name="next-steps"></a>Volgende stappen
-[Power BI - basisconcepten](service-basic-concepts.md)
+[Power BI - basisconcepten](consumer/end-user-basic-concepts.md)
 
-[Rapporten in Power BI](service-reports.md)
+[Rapporten in Power BI](consumer/end-user-reports.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

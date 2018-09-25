@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/27/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 83d9e435c1dca10a444f3125830eb6432aecf6bd
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 090a59f406f1e3874f678752f0e0bc9656ae492f
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728198"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548943"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Wat is er nieuw in de Power BI-service
@@ -89,13 +89,13 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 
 ### <a name="august-2017"></a>Augustus 2017
 * Uw doelgroep kennen met [Metrische gegevens over gebruik per gebruiker](https://powerbi.microsoft.com/blog/introducing-per-user-usage-metrics-know-your-audience-and-amplify-your-impact/).
-* Aan de slag met apps van de [Power BI-service](service-connect-to-services.md) voor onlineservices.
+* Aan de slag met apps van de [Power BI-service](consumer/end-user-connect-to-services.md) voor onlineservices.
 * Verbinding maken met IBM Netezza met de on-premises gegevensgateway via import- en DirectQuery-connectiviteitsmodi.
 * [Dynamische RLS](developer/embedded-row-level-security.md) nu ondersteund voor Power BI Embedded.
 * Geavanceerde [filter-API](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/UsingAdvancedFilterAPI.md) nu toegevoegd voor de 1.7 API-versie van aangepaste visuele elementen.
 
 ### <a name="july-2017"></a>Juli 2017
-* Ondersteuning voor [e-mailabonnementen](service-report-subscribe.md) op dashboards.
+* Ondersteuning voor [e-mailabonnementen](consumer/end-user-subscribe.md) op dashboards.
 * Met behulp van de prestatiecontrole controleren en onderzoeken waarom de laadtijd voor dashboards slecht is.
 * Snowflake en SAP BusinessWarehouse DirectQuery nu ondersteund voor on-premises gegevensgateway.
 * Nieuwe [API's voor het beheren van het vernieuwen van gegevens](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/) in Power BI-service.
@@ -206,12 +206,12 @@ Zie [de Power BI-teamblog](https://powerbi.microsoft.com/blog/smarter-auto-gener
 
 Zie [de Power BI-teamblog](https://powerbi.microsoft.com/blog/power-bi-service-may-update-file-size-increase-to-1-gb/) voor meer informatie
 
-* [Power BI Q&A-ondersteuning voor tabelmodellen van SQL Server 2016 Analysis Services](service-q-and-a-direct-query.md): Microsoft kondigt met trots verbeteringen aan in de gebruikerservaring van Power BI Q&A en de start van de openbare preview voor Power BI Q&A voor met enterprise-gateway verbonden gegevensbronnen - te beginnen met ondersteuning voor tabelmodellen van SQL Server 2016 Analysis Services. Zie [het blogbericht](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/) voor meer informatie
+* [Power BI Q&A-ondersteuning voor tabelmodellen van SQL Server 2016 Analysis Services](consumer/end-user-q-and-a-direct-query.md): Microsoft kondigt met trots verbeteringen aan in de gebruikerservaring van Power BI Q&A en de start van de openbare preview voor Power BI Q&A voor met enterprise-gateway verbonden gegevensbronnen - te beginnen met ondersteuning voor tabelmodellen van SQL Server 2016 Analysis Services. Zie [het blogbericht](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/) voor meer informatie
 * [Lokale bestandsondersteuning voor Excel-rapporten](service-excel-workbook-files.md#local-excel-workbooks): u kunt nu uw Excel-bestanden vanaf de lokale schijf of andere opslagservices uploaden en een Excel-rapport net als in Excel Online gebruiken met de extra voordelen van Power BI. Zie [het blogbericht](https://powerbi.microsoft.com/blog/powerbi-upload-excel-reports-from-local-files/) voor meer informatie
 
 **28 april 2016**
 
-* [Snelle inzichten op dashboardtegels](service-insights.md): wanneer een tegel wordt weergeven in de focusmodus, klikt u op Inzichten krijgen om automatisch binnen enkele seconden te zoeken naar de tegel en naar de bijbehorende gegevens voor correlaties, uitschieters, trends, seizoensgebondenheid, wijzigingen in trends en belangrijke factoren.
+* [Snelle inzichten op dashboardtegels](consumer/end-user-insights.md): wanneer een tegel wordt weergeven in de focusmodus, klikt u op Inzichten krijgen om automatisch binnen enkele seconden te zoeken naar de tegel en naar de bijbehorende gegevens voor correlaties, uitschieters, trends, seizoensgebondenheid, wijzigingen in trends en belangrijke factoren.
 
 Zie [de Power BI-teamblog](https://powerbi.microsoft.com/blog/find-more-insights-in-your-dashboards-with-quick-insights/) voor meer informatie
 
@@ -437,7 +437,7 @@ Ga naar de [Power BI-blog](http://blogs.msdn.com/b/powerbi/archive/2015/12/16/mo
 
 **3 december 2015**
 
-* Automatisch trends en patronen in een gegevensset detecteren met Snelle inzichten: [video](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-updates-from-browser-to-desktop-and-new-automated-insights-mf.aspx) of [artikel](service-insights.md)
+* Automatisch trends en patronen in een gegevensset detecteren met Snelle inzichten: [video](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-updates-from-browser-to-desktop-and-new-automated-insights-mf.aspx) of [artikel](consumer/end-user-insights.md)
 * [Uw VMob-gegevens in Power BI visualiseren](http://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
 * [Power BI-integratie met Cortana](http://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
 * [Voorbeeld van Power BI-gateway voor enterprise](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
@@ -587,7 +587,7 @@ Bekijk de [blog](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-ser
 
 * Microsoft kondigt met trots de algemeen beschikbare (GA) versie van Power BI aan. Meld u vandaag nog aan voor [Power BI Pro](service-self-service-signup-for-power-bi.md). Als onderdeel van de GA-versie worden enkele geweldige nieuwe functies geboden:
 * Een nieuwe manier om visualisaties en rapporten te maken: het nieuwe rapportcanvas heeft een groter aanbod aan visualisaties, meer controle over de opmaak van titels, legenda’s, assen, kleuren, achtergronden en meer.
-* [Power BI-groepen](service-create-distribute-apps.md): groepen bieden een krachtige gezamenlijke ervaring op basis van Office 365-groepen.
+* [Power BI-groepen](consumer/end-user-create-apps.md): groepen bieden een krachtige gezamenlijke ervaring op basis van Office 365-groepen.
 * [Organisatie-inhoudspakketten](service-organizational-content-pack-introduction.md): met Power BI is het maken van dashboards en rapporten zeer eenvoudig. Gebruikers kunnen deze inhoud nu publiceren naar de inhoudsgalerij van hun organisatie.
 * [Hele Excel-bestanden importeren](service-excel-workbook-files.md): u kunt een opgeslagen Excel-werkmap in OneDrive voor Bedrijven in Power BI opnemen en de volledige werkmap op exact dezelfde manier als in Excel Online bekijken.
 * [CSV-bestanden importeren](service-get-data-from-files.md): net zoals een Excel- of een Power BI Desktop-bestand kan een door komma's gescheiden tekstbestand (CSV) ook dienen als gegevensset voor uw Power BI-dashboards en -rapporten.

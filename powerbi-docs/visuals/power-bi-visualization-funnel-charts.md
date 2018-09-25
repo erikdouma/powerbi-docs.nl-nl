@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/29/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f070b6649d8d120a889961fffd6b9b923422293e
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 2c42f484dc0f2515024a7fefe2edb1c81e286eb3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736424"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548460"
 ---
 # <a name="funnel-charts"></a>Trechterdiagrammen
 Een trechterdiagram helpt u om een lineaire proces dat bestaat uit opeenvolgende verbonden fasen te visualiseren. Bijvoorbeeld een verkooptrechter waarmee klanten in verschillende fasen worden bijgehouden: Lead \> Gekwalificeerde lead \> Prospect \> Contract \> Voltooid.  De vorm van de trechter brengt de status van het proces dat u bijhoudt in één oogopslag over.
@@ -70,7 +70,7 @@ In deze instructies wordt het voorbeeld van een verkoopkansanalyse gebruikt. Om 
    * Fase-naar-fase (oftewel Drop Rate) is het percentage van de vorige fase (in dit geval Voorstelfase/Oplossingsfase)
      
      ![](media/power-bi-visualization-funnel-charts/funnelhover_new.png)
-5. [Voeg de trechter toe als een dashboardtegel](../service-dashboard-tiles.md). 
+5. [Voeg de trechter toe als een dashboardtegel](../consumer/end-user-tiles.md). 
 6. [Sla het rapport op](../service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>Markeren en kruislings filteren
@@ -81,10 +81,10 @@ Als u een balk in een trechter markeert, worden de andere visualisaties op de ra
 1. Selecteer op de trechter de balk **Voorstel**. Hiermee worden de andere visualisaties op de pagina kruislings gemarkeerd. Gebruik CTRL voor meervoudige selectie.
    
    ![](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
-2. Zie [Interacties tussen visuele elementen in Power BI](../service-reports-visual-interactions.md) als u voorkeuren wilt instellen voor hoe visuele elementen elkaar kruislings markeren en filteren
+2. Zie [Interacties tussen visuele elementen in Power BI](../consumer/end-user-interactions.md) als u voorkeuren wilt instellen voor hoe visuele elementen elkaar kruislings markeren en filteren
 
 ## <a name="create-a-funnel-chart-in-qa"></a>Een trechterdiagram maken in Q&A
-Open het dashboard Voorbeeld van een verkoopkansanalyse of een ander dashboard waarop ten minste één visualisatie uit de gegevensset Voorbeeld van een verkoopkansanalyse is vastgezet.  Wanneer u een vraag invoert in Q&A, zoekt Power BI antwoorden in alle gegevenssets die zijn gekoppeld aan het geselecteerde dashboard (waaraan tegels zijn vastgemaakt). Zie [Power BI - basisconcepten](../service-basic-concepts.md) voor meer informatie.
+Open het dashboard Voorbeeld van een verkoopkansanalyse of een ander dashboard waarop ten minste één visualisatie uit de gegevensset Voorbeeld van een verkoopkansanalyse is vastgezet.  Wanneer u een vraag invoert in Q&A, zoekt Power BI antwoorden in alle gegevenssets die zijn gekoppeld aan het geselecteerde dashboard (waaraan tegels zijn vastgemaakt). Zie [Power BI - basisconcepten](../consumer/end-user-basic-concepts.md) voor meer informatie.
 
 1. Begin op het dashboard Voorbeeld van een verkoopkansanalyse uw vraag te typen in het vak Q&A.
    
@@ -97,7 +97,7 @@ Open het dashboard Voorbeeld van een verkoopkansanalyse of een ander dashboard w
 
 [Een visualisatie vastmaken aan een dasboard](../service-dashboard-pin-tile-from-report.md)
 
-[Power BI - basisconcepten](../service-basic-concepts.md)
+[Power BI - basisconcepten](../consumer/end-user-basic-concepts.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

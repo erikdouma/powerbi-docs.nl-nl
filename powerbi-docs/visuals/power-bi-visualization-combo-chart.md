@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 732f27a8272c780d156912da904bab82de03f326
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 68b14e6554c0c12590f555f6447198f1a850e9b1
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732898"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543998"
 ---
 # <a name="combo-chart-in-power-bi"></a>Combinatiegrafieken in Power BI
 Een combinatiegrafiek in Power BI is een visualisatie waarin een lijndiagram wordt gecombineerd met een kolomdiagram. Als u deze twee diagrammen combineert, kunt u de gegevens sneller vergelijken.
@@ -103,13 +103,13 @@ In deze taak vergelijken we de brutomarge en de omzet.
 
 U kunt nu het volgende doen:
 
-* [De combinatiegrafiek toevoegen als dashboardtegel](../service-dashboard-tiles.md).
+* [De combinatiegrafiek toevoegen als dashboardtegel](../consumer/end-user-tiles.md).
 * [Sla het rapport op](../service-report-save.md).
 * [Het rapport toegankelijker maken voor mensen met beperkingen](../desktop-accessibility.md)
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>Kruislings markeren en kruislings filteren
 
-Wanneer u een kolom of regel in een combinatiegrafiek markeert, worden de andere visualisaties op de rapportpagina kruislings gemarkeerd en gefilterd, en omgekeerd. U kunt deze standaardwerking wijzigen met behulp van het besturingselement [Visuele interactie](../service-reports-visual-interactions.md).
+Wanneer u een kolom of regel in een combinatiegrafiek markeert, worden de andere visualisaties op de rapportpagina kruislings gemarkeerd en gefilterd, en omgekeerd. U kunt deze standaardwerking wijzigen met behulp van het besturingselement [Visuele interactie](../consumer/end-user-interactions.md).
 
 ## <a name="next-steps"></a>Volgende stappen
 
@@ -117,6 +117,6 @@ Wanneer u een kolom of regel in een combinatiegrafiek markeert, worden de andere
 
 [Visualization types in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md) (Typen visualisaties in Power BI)
 
-[Power BI - basisconcepten](../service-basic-concepts.md)
+[Power BI - basisconcepten](../consumer/end-user-basic-concepts.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

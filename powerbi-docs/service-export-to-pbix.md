@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 938f7b5f905d156518f71a30b355575cf1c04683
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2f7133bb376cc04e181eed2d90a45e3361190d0b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34722538"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547016"
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Een rapport vanuit de Power BI-service exporteren naar Desktop (preview-versie)
 In Power BI Desktop kunt u een rapport exporteren (ook wel *downloaden* genoemd) naar de Power BI-service door het rapport op te slaan en **Publiceren** te kiezen. U kunt ook de andere kant op exporteren en een rapport downloaden van de Power BI-service naar Desktop. De extensie voor bestanden die worden geëxporteerd in beide richtingen is *.pbix*.
@@ -27,7 +27,7 @@ U moet rekening houden met enkele beperkingen en overwegingen; deze worden later
 ## <a name="download-the-report-as-a-pbix"></a>Het rapport downloaden als een .pbix-bestand
 Volg deze stappen om het .pbix-bestand te downloaden:
 
-1. Open in de **Power BI-service** het rapport dat u wilt downloaden in [Bewerkweergave](service-reading-view-and-editing-view.md).
+1. Open in de **Power BI-service** het rapport dat u wilt downloaden in [Bewerkweergave](consumer/end-user-reading-view.md).
 2. Selecteer **Bestand > Rapport downloaden** in de menubalk.
    
    > [!NOTE]
@@ -67,8 +67,8 @@ Bekijk de één minuut durende video **Guy in a Cube** over deze functie:
 
 Hier zijn nog enkele aanvullende artikelen met meer informatie over het gebruiken van **Power BI-service**:
 
-* [Rapporten in Power BI](service-reports.md)
-* [Power BI - basisconcepten](service-basic-concepts.md)
+* [Rapporten in Power BI](consumer/end-user-reports.md)
+* [Power BI - basisconcepten](consumer/end-user-basic-concepts.md)
 
 Als u **Power BI Desktop** hebt geïnstalleerd, kunt u met de volgende inhoud snel van start:
 

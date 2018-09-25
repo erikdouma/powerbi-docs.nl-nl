@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 487e53bae0fe872771b5ecbbe0458cd09dc48a4c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d1152ae1e4d386882c9165e6545a44c7f3c47e46
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736413"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548506"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Tips en trucs voor kaartvisualisaties in Power BI
 Power BI biedt integratie met Bing Kaarten om standaard kaartcoördinaten te bieden (een proces dat geocodering wordt genoemd) zodat u kaarten kunt maken. In beide worden algoritmen gebruikt voor het identificeren van de juiste locatie, maar soms is het een schatting. Als pogingen om de kaartvisualisatie te maken in Power BI mislukken, wordt de hulp van Bing Kaarten ingeroepen. 
@@ -89,7 +89,7 @@ Bij het in- en uitzoomen op geohiërarchieën, is het belangrijk te weten hoe de
 * De tweede optie, ![inzoomen met kaarten](./media/power-bi-map-tips-and-tricks/power-bi-drill-down3.png) , is vergelijkbaar met de optie Inzoomen, behalve dat u niet op de kaart hoeft te klikken.  Hiermee wordt ingezoomd op het volgende niveau in de hiërarchie, met behoud van de context van het huidige niveau. Als u bijvoorbeeld momenteel landen bekijkt en op dit pictogram klikt, zoomt u in op het volgende niveau van de hiërarchie: staten. Voor de geocodering worden door Power BI de gegevens van elke staat en het bijbehorende land naar Bing Kaarten verzonden voor een nauwkeurigere geocodering. In de meeste kaarten gebruikt u deze optie óf de optie Inzoomen helemaal rechts, om zoveel mogelijk informatie voor het verkrijgen van nauwkeurige locatiegegevens naar Bing te verzenden. 
 
 ## <a name="next-steps"></a>Volgende stappen
-[Inzoomen op een visualisatie in Power BI](../power-bi-visualization-drill-down.md)
+[Inzoomen op een visualisatie in Power BI](../consumer/end-user-drill.md)
 
 [Visualisaties in Power BI](power-bi-report-visualizations.md)
 

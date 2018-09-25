@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f110464d435130a40666e61dd6a9c89ad6b10ccf
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 8ac91cb0ab6061f0fcbcb120c5915a91166f90ad
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39280427"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546183"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI voor klanten uit de Amerikaanse overheid
 Er is als onderdeel van **Office 365 US Government Community**-abonnement een versie van de **Power BI-service** beschikbaar voor Amerikaanse overheidsklanten. De versie van de **Power BI-service** die in dit artikel wordt besproken, is specifiek ontworpen voor Amerikaanse overheidsklanten en staat los en verschilt van de commerciële versie van de **Power BI-service**.
@@ -37,7 +37,7 @@ De volgende functies beschikbaar zijn voor **Power BI voor Amerikaanse overheids
 * [Gegevens en rapporten importeren](service-get-data.md) vanuit Excel-, CSV- en Power BI Desktop-bestanden
 * Gegevensbeheergateway
 * Alle gegevens worden voor Power BI versleuteld in zowel Azure SQL als Blob Storage
-* Verbinding maken met services met [inhoudspakketten](service-connect-to-services.md)
+* Verbinding maken met services met [inhoudspakketten](consumer/end-user-connect-to-services.md)
 
 ## <a name="connectivity-between-government-and-public-azure-cloud-services"></a>Connectiviteit tussen Azure Government en openbare Azure Cloud Services 
 
