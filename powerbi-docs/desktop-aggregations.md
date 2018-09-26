@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: dfb45be36516be9196fbdd4297209ce4bf15925c
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: 71894a801f0c993abaaedc92d4172da67b76f7a0
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512711"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974202"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Aggregaties in Power BI Desktop (preview-versie)
 
@@ -243,7 +243,7 @@ Het volgende model repliceert *Maand*, *Kwartaal*, *Semester* en *Jaar* in de ta
 
 In de volgende tabel ziet u de vermeldingen die zijn ingesteld in het dialoogvenster **Aggregaties beheren** voor de tabel **Sales Agg**. De GroupBy-vermeldingen waarbij **Datum** de tabel met details is, zijn verplicht om aggregaties te raken voor query's die de Datum-kenmerken groeperen. Zoals in het vorige voorbeeld hebben de GroupBy-vermeldingen voor CustomerKey en ProductSubcategoryKey geen invloed op aggregatietreffers vanwege de aanwezigheid van relaties (ook nu weer met uitzondering van DISTINCTCOUNT).
 
-![aggregatietabel Sales Agg](media/desktop-aggregations/aggregations-table_03.jpg)
+![aggregatietabel Sales Agg](media/desktop-aggregations/aggregations-table_04.jpg)
 
 > Opmerking: dit model vereist dat de tabel **Datum** in de DirectQuery-modus is om het dialoogvenster Aggregaties beheren in te vullen, omdat het een tabel met details is. Dit is een Preview-beperking die we voor Algemene beschikbaarheid gaan verwijderen.
 
