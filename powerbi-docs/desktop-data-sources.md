@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fa812801eb01529c3e364d69f041b7efd193c3ae
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 05a644c300a0879b2f5eedd95cdddc537cc6fd0b
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657869"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512059"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Gegevensbronnen in Power BI Desktop
 Met Power BI Desktop kunt u verbinding maken met gegevens uit veel verschillende bronnen. Onderaan op deze pagina vindt u een volledige lijst met beschikbare gegevensbronnen.
@@ -53,6 +53,7 @@ De categorie **Bestand** biedt de volgende gegevensverbindingen:
 * XML
 * JSON
 * Map
+* PDF (bèta)
 * SharePoint-map
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Bestand**.
@@ -79,7 +80,8 @@ De categorie **Database** biedt de volgende gegevensverbindingen:
 * Impala
 * Google BigQuery
 * Snowflake
-* Exasol
+* Exasol (bèta)
+* Jethro (bèta)
 
 > [!NOTE]
 > Sommige databaseconnectors moet u eerst inschakelen door **Bestand > Opties en instellingen > Opties** te selecteren en vervolgens **Voorbeeldfuncties** en de connector in te schakelen. Als u geen van de hierboven genoemde connectors ziet en ze wel wilt gebruiken, controleert u de instellingen voor **Voorbeeldfuncties**. Houd er ook rekening mee dat een gegevensbron die wordt gemarkeerd als *bèta* of *preview*, beperkte ondersteuning en functionaliteit heeft en niet dient te worden gebruikt in een productieomgeving.
@@ -93,6 +95,7 @@ In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Databas
 De categorie **Power BI** biedt de volgende gegevensverbindingen:
 
 * Power BI-gegevenssets
+* Power BI-gegevensstromen (bèta)
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Power BI**.
 
@@ -108,7 +111,7 @@ De categorie **Azure** biedt de volgende gegevensverbindingen:
 * Azure Cosmos DB (bèta)
 * Azure Data Lake Store
 * Azure HDInsight (HDFS)
-* Azure HDInsight Spark (bèta)
+* Azure HDInsight Spark
 * HDInsight interactieve Query (bèta)
 * Azure KustoDB (bèta)
 
@@ -169,6 +172,7 @@ De categorie **Overige** biedt de volgende gegevensverbindingen:
 * Hadoop-bestand (HDFS)
 * Spark
 * R-script
+* Python-script
 * ODBC
 * OLE DB
 * Lege query

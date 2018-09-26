@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/24/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c21d04da722e017210f7f83df3e1a5aa7dde1166
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: f06f3f7f6d91176d75ce452202a91b2c54be06ce
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280749"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512151"
 ---
-# <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>Knopinfo maken op basis van rapportpagina’s in Power BI Desktop (voorbeeld)
+# <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Knopinfo maken op basis van rapportpagina's in Power BI Desktop
 U kunt visueel uitgebreide **tooltips voor rapporten** maken die worden weergegeven wanneer u de muisaanwijzer over visuele elementen beweegt, op basis van rapportpagina's die u maakt in **Power BI Desktop**. Wanneer u een rapportpagina maakt die als knopinfo fungeert, kunnen uw aangepaste knopinfo visuele elementen, afbeeldingen en ongeacht welke andere verzameling van items bevatten die u in de rapportpagina maakt. 
 
 ![Rapportknopinfo van Power BI Desktop](media/desktop-tooltips/desktop-tooltips_00a.png)
@@ -27,11 +27,15 @@ U kunt zoveel knopinfopagina's maken als u wilt. Elke knopinfopagina kan worden 
 U kunt allerlei interessante dingen doen met rapportknopinfo. We gaan nu kijken hoe u knopinfo kunt maken en wat u moet doen om deze te configureren.
 
 ### <a name="enable-the-tooltips-preview"></a>Het tooltips-voorbeeld inschakelen 
-Aangezien rapportknopinfo momenteel in preview is, moet u ze inschakelen voordat u een rapportknopinfo kunt maken. Als u de previewfunctie van rapportknopinfo wilt inschakelen, selecteert u **Bestand > Opties en Instellingen > Opties > Previewfuncties** in Power BI Desktop en schakelt u vervolgens het selectievakje naast **Rapportpagina knopinfo** in. 
+Vanaf de september 2018-release van **Power BI Desktop** is tooltips algemeen beschikbaar en hoeven deze niet te worden ingeschakeld. 
+
+Als u een eerdere versie van **Power BI Desktop** gebruikt, kunt u deze inschakelen als preview-functie door **Bestand > Opties en instellingen > Opties > Preview-functies** in Power BI Desktop te selecteren en vervolgens het selectievakje naast **Tooltips voor rapportpagina** in te schakelen. 
 
 ![Preview-functie voor rapportknopinfo inschakelen](media/desktop-tooltips/desktop-tooltips_01.png)
 
 U moet **Power BI Desktop** opnieuw opstarten nadat u de selectie hebt gemaakt om de preview-versie in te schakelen van de knopinfo rapport.
+
+Het wordt altijd aanbevolen te upgraden naar de meest recente versie van **Power BI Desktop**, die u via een koppeling in [Power BI Desktop downloaden](desktop-get-the-desktop.md) kunt krijgen. 
 
 ## <a name="create-a-report-tooltip-page"></a>Een pagina voor rapportknopinfo maken
 Om te beginnen, moet u een nieuwe rapportpagina maken door op de **+**-knop te klikken aan de onderkant van het **Power BI Desktop**-canvas in het gedeelte met tabbladen. De knop bevindt zich naast de laatste pagina in het rapport. 
@@ -117,8 +121,9 @@ Wanneer een visueel element in een rapport kruislings gemarkeerd wordt, toont de
 
 
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
-In deze preview-versie van rapport**knopinfo** zijn er enkele beperkingen en overweging waarmee u rekening moet houden.
+Er zijn enkele beperkingen en overwegingen met betrekking tot **tooltips** waar u rekening mee moet houden.
 
+* Vanaf de release van september 2018 van **Power BI Desktop**, dat de algemene beschikbaarheid van tooltips aangaf, ondersteunen kaartvisualisaties tooltips ook.
 * Sinds de release van juli 2018 van **Power BI Desktop** is er knopinfo beschikbaar voor visualisaties in tabellen en matrices. 
 * Rapportknopinfo wordt niet ondersteund bij het weergeven van rapporten in mobiele apps of in geïntegreerde omgevingen, zoals publiceren op het internet. 
 * Rapportknopinfo wordt niet ondersteund voor aangepaste visuele elementen. 

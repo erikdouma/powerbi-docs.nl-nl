@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/08/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6aa3e6ba5a471176a6af2551344744cdc45697fb
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 4cc2c0ae14cf457c3a704b2891e070f4e4e00166
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657938"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512174"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Rapportthema's gebruiken in Power BI Desktop
 Met **Rapportthema's** kunt u een kleurenthema op uw gehele rapport toepassen, zoals zakelijke kleuren, seizoensgebonden kleuren of andere kleurthema's die u op een rapport zou willen toepassen. Bij het toepassen van een **Rapportthema** worden voor alle visuals in het rapport de kleuren van het geselecteerde thema gebruikt. Er zijn enkele uitzonderingen van toepassing, zoals verderop in dit artikel wordt beschreven.
@@ -36,7 +36,17 @@ Als u een eerdere versie van **Power BI Desktop** gebruikt, kunt u deze inschake
 Het wordt altijd aanbevolen te upgraden naar de meest recente versie van **Power BI Desktop**, die u via een koppeling in [Power BI Desktop downloaden](desktop-get-the-desktop.md) kunt krijgen. 
 
 ## <a name="how-report-themes-work"></a>Hoe Rapportthema's werken
-Selecteer in het lint **Start** de knop **Thema wisselen** en selecteer vervolgens **Thema importeren** in de vervolgkeuzelijst om een Rapportthema op een Power BI Desktop-rapport toe te passen.
+Als u rapportthema wilt toepassen op een Power BI Desktop-rapport, kunt u een selectie maken uit de beschikbare ingebouwde rapportthema's of kunt u een aangepast thema importeren.
+
+Om een keuze te maken uit de beschikbare ingebouwde rapportthema's, selecteert u de knop **Thema wisselen** op het lint **Start** en selecteert u vervolgens een van de opgenomen thema's in de vervolgkeuzelijst.
+
+![Een rapportthema selecteren](media/desktop-report-themes/report-themes_2a.png)
+
+Uw rapportthema wordt toegepast op het rapport en u bent klaar om te beginnen.
+
+### <a name="importing-report-themes"></a>Rapportthema's importeren
+
+Om een aangepast rapportthema te importeren, selecteert u de knop **Thema wisselen** in het lint **Start** en selecteert vervolgens **Thema importeren** in de vervolgkeuzelijst.
 
 ![](media/desktop-report-themes/report-themes_3.png)
 

@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 6f4e79746116d4a7add356a658ce12028b688dae
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 1d51a09094c6825570103ce3c0b51ebfe4b7d47f
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657915"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512082"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Wat is er nieuw in de meest recente update voor Power BI Desktop?
 
-## <a name="august-2018-update-2615192321"></a>Update van augustus 2018 (2.61.5192.321)
+## <a name="september-2018-update-2625222582"></a>Update van september 2018 (2.62.5222.582)
 
-Onze updates van augustus staan op zichzelf en volgen snel na de verschijning van de grote releases van juli. Hopelijk zijn deze updates voor u een uitkomst; ga er eens mee aan de slag, want naar onze mening hebben we met deze updates precies de spijker op zijn kop geslagen. 
+Onze september-updates zijn alsof u een spannend nieuw leslokaal binnentreedt, waar meer dingen te leren zijn en waar wordt voortgebouwd op eerdere ervaringen, en ze zijn capabeler en volwassener dan ooit tevoren. Hopelijk vindt u deze updates net zo nuttig als een paar pas geslepen nr. 2-potloden. 
 
 U kunt nu [de nieuwste versie van Power BI Desktop downloaden](https://powerbi.microsoft.com/desktop). Als u met Windows 10 werkt, kunt u **Power BI Desktop** ook downloaden van de Windows Store. De maandelijkse versies zijn hetzelfde, ongeacht de manier waarop u **Power BI Desktop** installeert. Zie [dit artikel](desktop-get-the-desktop.md) voor meer informatie. 
 
@@ -36,32 +36,31 @@ U kunt ook de video **Meest recente updates** in dit artikel vanaf het begin bek
 
 De volgende updates zijn deze maand nieuw voor **Power BI Desktop**:
 
-### <a name="modeling"></a>Modellen maken
-
-* Gegevenscategorieën voor metingen [[video]](https://youtu.be/dgv5HhHxxe8?t=15m27s) [[artikel]](desktop-measures.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#dataCategory)
-* Statistische functies van DAX [[video]](https://youtu.be/dgv5HhHxxe8?t=18m56s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#dax)
-
-
 ### <a name="reporting"></a>Rapportage
 
-* Exporteren naar PDF en uw rapporten afdrukken [[video]](https://youtu.be/dgv5HhHxxe8?t=12s) [[artikel]](desktop-export-to-pdf.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#print) 
-* Bladwijzergroepen maken [[video]](https://youtu.be/dgv5HhHxxe8?t=4m4s) [[artikel]](desktop-bookmarks.md#bookmark-groups) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#bookmarks) 
-* Thema’s zijn algemeen beschikbaar [[video]](https://youtu.be/dgv5HhHxxe8?t=7m9s) [[artikel]](desktop-report-themes.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#Theming) 
-* Aanpassing van de slicer [[video]](https://youtu.be/dgv5HhHxxe8?t=22m53s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#slicer) 
+* Puntdiagram lay-out-ondersteuning in spreidingsdiagrammen [[video]](https://youtu.be/Rzw2WyI09kY?t=30s) [[artikel]](power-bi-visualization-scatter.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#dotPlot) 
+* Waarde en selectie kopiëren uit de tabel en matrixvisuals [[video]](https://youtu.be/Rzw2WyI09kY?t=2m33s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#copy) 
+* Opties voor ingebouwde rapportthema's [[video]](https://youtu.be/Rzw2WyI09kY?t=6m2s) [[artikel]](desktop-report-themes.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#themes) 
+* Rapportpaginatooltips algemeen beschikbaar, nieuwe kaartondersteuning [[video]](https://youtu.be/Rzw2WyI09kY?t=8m10s) [[artikel]](desktop-tooltips.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#themes) 
+* Verbeterde toegankelijkheid voor analyse en ondersteuning opmaakdeelvenster [[video]](https://youtu.be/Rzw2WyI09kY?t=9m29s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#accessibility)
 
 ### <a name="analytics"></a>Analyse
 
-* Voorwaardelijke opmaak op waarden [[video]](https://youtu.be/dgv5HhHxxe8?t=7m54s) [[artikel]](desktop-conditional-table-formatting.md#color-formatting-by-field-value)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#conditionalFormatting) 
-* Python-integratie [[video]](https://youtu.be/dgv5HhHxxe8?t=11m14s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#python) 
-* Verbeteringen Q&A [[video]](https://youtu.be/dgv5HhHxxe8?t=13m1s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#Q&A) 
+* Aggregaties (preview) [[video]](https://youtu.be/Rzw2WyI09kY?t=11m37s) [[artikel]](desktop-aggregations.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#aggregations) 
 
 ### <a name="custom-visuals"></a>Aangepaste visuals
 
-* Vijf nieuwe aangepaste visuals [[video]](https://youtu.be/dgv5HhHxxe8?t=19m48s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#customVisuals) 
+* Vijf nieuwe aangepaste visuals [[video]](https://youtu.be/Rzw2WyI09kY?t=23m8s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>Toegang tot gegevens
 
-* Spark-connector algemeen beschikbaar [[video]](https://youtu.be/dgv5HhHxxe8?t=31m41s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#spark) 
+* PDF-bestand-connector (preview-versie) [[video]](https://youtu.be/Rzw2WyI09kY?t=29m26s) [[artikel]](desktop-connect-pdf.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#pdf) 
+* SAP BW-connector - ondersteuning voor meeteigenschappen [[video]](https://youtu.be/Rzw2WyI09kY?t=30m15s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#sapBW) 
+* Gegevensstromenconnector (bèta) [[artikel]](desktop-connect-dataflows.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#dataflows) 
+
+### <a name="data-preparation"></a>Gegevensvoorbereiding
+* M Intellisense  [[video]](https://youtu.be/Rzw2WyI09kY?t=30m42s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#pdf) 
+* Kolom toevoegen vanuit voorbeelden - ondersteuning voor tekstopvulling [[video]](https://youtu.be/Rzw2WyI09kY?t=32m27s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#addColumn) 
 
 
 > [!NOTE]
@@ -72,7 +71,7 @@ Wilt u meer informatie over deze updates? Bekijk de [blogpost](https://powerbi.m
 
 In de volgende video wordt elk van deze updates beschreven en weergegeven. U ziet ook de video uit de blogpost.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dgv5HhHxxe8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rzw2WyI09kY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 > [!NOTE]
 > Wellicht bent u ook geïnteresseerd in [wat er nieuw is in de Power BI-service](service-whats-new.md). Lees ook [wat er nieuw is in de mobiele apps voor Power BI](mobile-whats-new-in-the-mobile-apps.md).
