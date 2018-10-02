@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e75cc0f7ca31257ea46af20b63c29d0d870ef7a0
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: bb29cd9edc5e44293344b7194ec94af482bd0166
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39329679"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417367"
 ---
 # <a name="data-refresh-in-power-bi"></a>Gegevens vernieuwen in Power BI
 Het maken van de juiste keuzes is sterk afhankelijk van of u beschikt over de recentste gegevens. U hebt waarschijnlijk al de functie Gegevens ophalen in Power BI gebruikt om verbinding te maken met gegevens, gegevens te uploaden, en enkele rapporten en een dashboard te maken. Nu is het belangrijk om ervoor te zorgen dat uw gegevens echt actueel zijn.
@@ -211,8 +211,6 @@ Gegevens in realtime-dashboards worden up-to-date gehouden met behulp van de Mic
 | **Gegevensbron** | **Automatisch** | **Door gebruiker geconfigureerde handmatige of geplande vernieuwing** | **Gateway vereist** |
 | --- | --- | --- | --- |
 | Aangepaste apps ontwikkeld met de Power BI Rest-API of Microsoft Stream Analytics |Ja, live streamen |Nee |Nee |
-
-Zie [Een realtime-dashboard maken in Power BI](https://msdn.microsoft.com/library/mt267603.aspx) voor meer informatie.
 
 ## <a name="configure-scheduled-refresh"></a>Geplande vernieuwing configureren
 Zie [Geplande vernieuwing configureren](refresh-scheduled-refresh.md) voor meer informatie over het configureren van geplande vernieuwing van gegevens.
