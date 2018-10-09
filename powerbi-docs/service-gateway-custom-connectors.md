@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9c36034ad5e8175e08f1d16c2f5148c5dab0ebbd
-ms.sourcegitcommit: 640382408111d6e9cd1b9dfad0b484e3c727e454
+ms.openlocfilehash: 2536ea34cadae5f348e619d713420787db4c467a
+ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "42702858"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48799041"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>Aangepaste gegevensconnectoren gebruiken met de on-premises gegevensgateway
 
@@ -45,8 +45,6 @@ Wanneer deze optie is ingeschakeld, ziet u nu uw aangepaste connectoren als besc
 
 * Zorg ervoor dat de map die u maakt toegankelijk is voor de gatewayservice voor de achtergrond. Normaal gesproken zijn mappen onder de map Windows of systeemmappen van uw gebruiker niet toegankelijk. In de gatewayconfigurator wordt een bericht weergegeven als de map niet toegankelijk is (dit geldt niet voor de persoonlijke versie van de gateway)
 * Een sectie TestConnection moet worden geïmplementeerd in de code voor aangepaste connectoren code om deze te laten werken met de on-premises gegevensgateway. Dit is niet vereist als u de aangepaste connectoren voor Power BI Desktop gebruikt. U kunt om deze reden een connector hebben die met Power BI Desktop werkt, maar niet met de gateway. Raadpleeg [deze documentatie](https://github.com/Microsoft/DataConnectors/blob/master/docs/m-extensions.md#implementing-testconnection-for-gateway-support) voor het implementeren van een TestConnection-sectie.
-* Aangepaste connectoren met OAuth-verificatie worden niet ondersteund.
-* Aangepaste connectoren die gebruikmaken van Direct Query worden niet ondersteund.
 
 ## <a name="next-steps"></a>Volgende stappen
 

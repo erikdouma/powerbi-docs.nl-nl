@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 22d32315040352e013ae8331e9433a9e60e97f5c
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: c99d2047bc021f7e9d98145bc9cb884917fa3b5c
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545746"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271695"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Hoe kan ik samenwerken en inhoud delen in Power BI?
 
@@ -29,7 +29,7 @@ In dit artikel vergelijken we deze opties voor samenwerken en delen in Power BI:
 - Rapporten afdrukken.
 * Publiceren op internet voor openbare websites, zodat iedereen deze kan bekijken en ermee kan werken.
 
-Ongeacht welke optie u kiest, hebt u voor het delen van een dashboard een [licentie voor Power BI Pro](service-free-vs-pro.md) nodig of moet de inhoud zich in een [Premium capaciteit](service-premium.md) bevinden. De licentievereisten verschillen voor de collega's die uw dashboards raadplegen, afhankelijk van welke optie u kiest. In de volgende secties gaan we in op de details. 
+Ongeacht welke optie u kiest, hebt u voor het delen van een dashboard een [licentie voor Power BI Pro](service-features-license-type.md) nodig of moet de inhoud zich in een [Premium capaciteit](service-premium.md) bevinden. De licentievereisten verschillen voor de collega's die uw dashboards raadplegen, afhankelijk van welke optie u kiest. In de volgende secties gaan we in op de details. 
 
 ![Apps in de Power BI-service](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-home-blog.png)
 

@@ -11,17 +11,17 @@ ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8f025c11a5269befdb7819684e10e8511ae6bc98
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 9fed01feb86530dbee10e446d41799a3e2ccd9e3
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545630"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271504"
 ---
 # <a name="share-a-filtered-power-bi-report-with-your-coworkers"></a>Een gefilterd Power BI-rapport delen met uw collega 's
 *Delen* is een goede manier om enkele personen toegang te geven tot uw dashboards en rapporten. Power BI ondersteunt ook [verschillende andere manieren om samen te werken en uw rapporten te distribueren](service-how-to-collaborate-distribute-dashboards-reports.md).
 
-Als u wilt gaan delen, moeten u en de ontvangers een [Power BI Pro licentie](service-free-vs-pro.md) hebben, of de inhoud moet zich in een [Premium-capaciteit](service-premium.md) bevinden. Suggesties? Het team van Power BI is altijd geïnteresseerd in uw feedback. Ga hiervoor naar de [site van de Power BI-community](https://community.powerbi.com/).
+Als u wilt gaan delen, moeten u en de ontvangers een [Power BI Pro licentie](service-features-license-type.md) hebben, of de inhoud moet zich in een [Premium-capaciteit](service-premium.md) bevinden. Suggesties? Het team van Power BI is altijd geïnteresseerd in uw feedback. Ga hiervoor naar de [site van de Power BI-community](https://community.powerbi.com/).
 
 U kunt een rapport delen met collega's in hetzelfde e-maildomein als u, vanaf de meeste plaatsen in de Power BI-service: uw Favorieten, Recent, Gedeeld met mij (als de eigenaar het toestaat), Mijn werkruimte of andere werkruimten. Wanneer u een rapport deelt, kunnen de personen met wie u het rapport deelt dit bekijken en de inhoud ervan op verschillende manieren weergeven, maar niet bewerken. Ze zien dezelfde gegevens die u ziet in het rapport, tenzij [beveiliging op rijniveau](service-admin-rls.md) wordt toegepast. 
 
