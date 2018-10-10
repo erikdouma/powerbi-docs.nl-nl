@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 5268241c32112847c879407374b325dd63dd8aab
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: cae5c83f6e220689bfd7d484d5d86c188325ad05
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564826"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908619"
 ---
 # <a name="reports-in-power-bi"></a>Rapporten in Power BI
 ## <a name="what-is-a-power-bi-report"></a>Wat is een Power BI-rapport?
@@ -67,7 +67,7 @@ Hier vindt u enkele onderwerpen per functie zodat u aan de slag kunt.
 * Begin met een [rondleiding van Power BI-service](end-user-basic-concepts.md) zodat u weet waar u rapporten en hulpprogramma's voor rapporten kunt vinden.
 * Meer informatie over het [openen van een rapport](end-user-report-open.md) en alle beschikbare interacties in de [Leesweergave](end-user-reading-view.md).
 * Raak vertrouwd met rapporten door het bekijken van een van onze [voorbeelden](../sample-tutorial-connect-to-the-samples.md).  
-* Hebt u het rapport niet meer nodig? U kunt het [verwijderen](end-user-delete.md).
+<!--* Don't need the report any more? You can [remove it](../service-delete.md).-->
 * Zie [Gerelateerde inhoud weergeven](end-user-related.md) om te zien welke gegevensset gebruik maakt van het rapport en welke dashboards tegels hebben die vanuit het rapport zijn vastgemaakt.
 
 > [!TIP]
@@ -79,6 +79,4 @@ Hier vindt u enkele onderwerpen per functie zodat u aan de slag kunt.
 [Wat is Power BI?](../power-bi-overview.md) 
 
 [Power BI - basisconcepten](end-user-basic-concepts.md)
-
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

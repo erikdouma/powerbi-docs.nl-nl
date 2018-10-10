@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c99d2047bc021f7e9d98145bc9cb884917fa3b5c
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: bcec05211d3748e992f0e0cf68acd6460b2715d4
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271695"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908964"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Hoe kan ik samenwerken en inhoud delen in Power BI?
 
@@ -57,7 +57,7 @@ Stel dat u uw dashboard wilt distribueren naar een brede doelgroep. U en uw coll
 
 ![Pictogram App publiceren](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-Apps zijn gemakkelijk te vinden en installeren in de Power BI-service ([https://powerbi.com](https://powerbi.com)). U kunt gebruikers in uw bedrijf een directe koppeling sturen naar de app of ze kunnen ernaar zoeken in AppSource. Als de Power BI-beheerder u hiervoor toestemming geeft, kunt u een app automatisch installeren in de Power BI-accounts van uw collega's. Lees meer over het [publiceren van uw apps](consumer/end-user-create-apps.md). 
+Apps zijn gemakkelijk te vinden en installeren in de Power BI-service ([https://powerbi.com](https://powerbi.com)). U kunt gebruikers in uw bedrijf een directe koppeling sturen naar de app of ze kunnen ernaar zoeken in AppSource. Als de Power BI-beheerder u hiervoor toestemming geeft, kunt u een app automatisch installeren in de Power BI-accounts van uw collega's. Lees meer over het [publiceren van uw apps](service-create-distribute-apps.md). 
 
 Nadat ze een app hebben geïnstalleerd, kunnen ze deze bekijken in hun browser of op een mobiel apparaat.
 
@@ -99,7 +99,7 @@ U kunt Power BI-rapporten publiceren op internet door interactieve visualisaties
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Dashboards delen met collega's en anderen](service-share-dashboards.md)
-* [Een app opslaan en publiceren in PowerApps](consumer/end-user-create-apps.md)
+* [Een app opslaan en publiceren in PowerApps](service-create-distribute-apps.md)
 * Wilt u feedback geven? Dit kan op de [site van de Power BI-community](https://community.powerbi.com/).
 * Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/).
 

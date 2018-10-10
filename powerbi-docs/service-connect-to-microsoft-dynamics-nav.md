@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a00913ea326f472993553910a79e3cc208356499
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 94ca76af9366752f4e1033fa05147f867e7096d9
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546712"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908895"
 ---
 # <a name="connect-to-microsoft-dynamics-nav-with-power-bi"></a>Verbinding maken met Microsoft Dynamics NAV in Power BI
 Inzicht krijgen in uw Microsoft Dynamics NAV-gegevens is eenvoudig met Power BI. Met Power BI kunt u uw gegevens ophalen, zowel verkoopgegevens als financiële gegevens, en vervolgens een app bouwen met een dashboard en rapporten op basis van die gegevens. Voor Power BI moet u machtigingen hebben voor de tabellen waaruit gegevens worden opgehaald, in dit geval verkoopgegevens en financiële gegevens. Meer informatie over de vereisten volgt hieronder. Nadat u de app hebt geïnstalleerd, kunt u het dashboard en de rapporten bekijken in de Power BI-service ([https://powerbi.com](https://powerbi.com)) en in de mobiele Power BI-apps. 
@@ -25,9 +25,9 @@ Inzicht krijgen in uw Microsoft Dynamics NAV-gegevens is eenvoudig met Power BI.
 ## <a name="how-to-connect"></a>Verbinding maken
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
-1. Selecteer **Microsoft Dynamics NAV** en selecteer vervolgens **Ophalen**.  
+3. Selecteer **Microsoft Dynamics NAV** en selecteer vervolgens **Ophalen**.  
    ![](media/service-connect-to-microsoft-dynamics-nav/mdnav.png)
-2. Voer uw OData-URL voor Microsoft Dynamics NAV in als dit wordt gevraagd. De URL moet aan het volgende patroon voldoen:
+4. Voer uw OData-URL voor Microsoft Dynamics NAV in als dit wordt gevraagd. De URL moet aan het volgende patroon voldoen:
    
     `https//instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
    
@@ -37,12 +37,12 @@ Inzicht krijgen in uw Microsoft Dynamics NAV-gegevens is eenvoudig met Power BI.
      
      U kunt deze URL eenvoudig ophalen in Dynamics NAV door naar Web Services te gaan en daar te zoeken naar de powerbifinance-webservice. Kopieer de OData-URL, maar verwijder daarbij /powerbifinance uit de URL.  
      ![](media/service-connect-to-microsoft-dynamics-nav/param.png)
-3. Selecteer **Basic** en voer uw Microsoft Dynamics NAV-referenties in.
+5. Selecteer **Basic** en voer uw Microsoft Dynamics NAV-referenties in.
    
     U hebt beheerreferenties (of machtigingen voor verkoopgegevens en financiële gegevens) voor uw Microsoft Dynamics NAV-account nodig.  Momenteel wordt alleen basisverificatie (gebruikersnaam en wachtwoord) ondersteund.
    
     ![](media/service-connect-to-microsoft-dynamics-nav/creds.png)
-4. In Power BI worden uw Microsoft Dynamics NAV-gegevens opgehaald en worden een kant-en-klaar dashboard en rapport voor u gemaakt.   
+6. In Power BI worden uw Microsoft Dynamics NAV-gegevens opgehaald en worden een kant-en-klaar dashboard en rapport voor u gemaakt.   
    ![](media/service-connect-to-microsoft-dynamics-nav/dashboard.png)
 
 ## <a name="view-the-dashboard-and-reports"></a>Dashboard en rapporten weergeven
@@ -99,7 +99,7 @@ Als een dialoogvenster met de foutmelding Helaas verschijnt na het verificatiedi
     `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Wat zijn apps in Power BI?](consumer/end-user-apps.md)
+* [Wat zijn apps in Power BI?](service-create-distribute-apps.md)
 * [Gegevens ophalen in Power BI](service-get-data.md)
 * Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

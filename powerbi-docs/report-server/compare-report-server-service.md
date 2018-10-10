@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 2b39d9ab5b8bae32dde6eda66f09f69a9718d569
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: f78638097ea33f9954f3db78c117f1935a68530b
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548483"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908526"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparing Power BI Report Server and the Power BI service (Power BI Report Server vergelijken met de Power BI-service)
 
@@ -33,7 +33,7 @@ Power BI Report Server en de Power BI-service hebben veel overeenkomsten en een 
 | Gateway vereist | Nee | Ja voor on-premises gegevensbronnen |  
 | Realtime streaming | Nee | Ja | [Realtimestreaming in Power BI](../service-real-time-streaming.md)
 | Dashboards | Nee | Ja | [Dashboards in de Power BI-service](../consumer/end-user-dashboards.md) 
-| Distributiegroep met rapporten die apps gebruiken | Nee | Ja | [Apps maken en publiceren met dashboards en rapporten](../consumer/end-user-create-apps.md) 
+| Distributiegroep met rapporten die apps gebruiken | Nee | Ja | [Apps maken en publiceren met dashboards en rapporten](../service-create-distribute-apps.md) 
 | Inhoudspakketten | Nee | Ja | [Organisatie-inhoudspakketten: inleiding](../service-organizational-content-pack-introduction.md) 
 | Verbinding maken met services zoals Salesforce | Nee | Ja | [Verbinding maken met de services die u gebruikt](../consumer/end-user-connect-to-services.md) met de Power BI-service
 | Q&A | Nee | Ja | [Q&A in de Power BI-service en Power BI Desktop](../consumer/end-user-q-and-a.md) 

@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4c206e6b1abb37bdaeb0e03fbce31b7b12e356ba
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: e03f6b4542c4f5f6c1d1a84892030520651ac9a3
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47186648"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908302"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Interactie met een rapport in de bewerkweergave in Power BI-service
 Rapporten kunnen worden gemaakt en bewerkt in de Power BI-service en in Power BI Desktop. Rapporten in de Power BI-service kunnen in de **bewerkingsweergave** worden gemaakt en bewerkt. En in Power BI Desktop kunnen rapporten worden gemaakt en bewerkt in de [**Rapportweergave**](desktop-report-view.md). In dit artikel wordt de bewerkingsweergave in de Power BI-service behandeld. 
 
 De Power BI-service heeft twee verschillende modi voor interactie met rapporten: [Leesweergave](consumer/end-user-reading-view.md) voor *gebruikers* van rapporten en Bewerkingsweergave voor rapporteigenaren en -auteurs.  Een licentie voor Power BI Pro is vereist voor het delen van rapporten evenals voor het bewerken van rapporten die zijn gemaakt door anderen. Als u geen Pro-licentie hebt, kunt u wel rapporten maken, maar is het niet mogelijk om ze te [delen](service-share-reports.md).    
 
-In de bewerkweergave van rapporten hebt u veel flexibiliteit bij zowel het verkennen als ontwerpen van een rapport. Alle functionaliteit van de [leesweergave](consumer/end-user-reading-view.md) is beschikbaar en nog veel meer. De bewerkweergave is alleen beschikbaar voor degene die het rapport heeft gemaakt of voor collega’s die [mede-eigenaar van een rapport zijn als lid of beheerder van een app-werkruimte](consumer/end-user-create-apps.md).
+In de bewerkweergave van rapporten hebt u veel flexibiliteit bij zowel het verkennen als ontwerpen van een rapport. Alle functionaliteit van de [leesweergave](consumer/end-user-reading-view.md) is beschikbaar en nog veel meer. De bewerkweergave is alleen beschikbaar voor degene die het rapport heeft gemaakt of voor collega’s die [mede-eigenaar van een rapport zijn als lid of beheerder van een app-werkruimte](service-create-distribute-apps.md).
 
 ## <a name="functionality-only-available-in-editing-view"></a>Functionaliteit die alleen beschikbaar is in de bewerkingsweergave
 Bekijk de lijst met onderwerpen onder de kop **Rapporten** links in de inhoudsopgave. Het is een lange lijst en veel van de onderwerpen hebben betrekking op functionaliteit *die alleen beschikbaar is als u machtigingen hebt voor het bewerken van een rapport*.  Om u te helpen bij het navigeren in de inhoudsopgave, is de bewerkweergave vereist voor het volgende:

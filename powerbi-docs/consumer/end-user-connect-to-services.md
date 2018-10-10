@@ -7,46 +7,39 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2018
+ms.date: 08/29/2018
 ms.author: mihart
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e01a62bc35edc736fd102d75e7049b42f97c8da5
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: add6a02d10c2dfe0e0fd93b9d12f03a10d057241
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566068"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908205"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Verbinding maken met de services die u gebruikt met Power BI
-U kunt verbinding maken met een aantal services die u gebruikt om uw bedrijf te runnen, zoals Salesforce, Microsoft Dynamics en Google Analytics. In Power BI worden eerst uw referenties gebruikt om verbinding te maken met de service. Vervolgens wordt een Power BI-app met een dashboard en een reeks Power BI-rapporten gemaakt, waarop automatisch uw gegevens worden getoond en die een visueel overzicht geven van uw bedrijf. 
-
-Meld u aan bij Power BI om alle [services waarmee u verbinding kunt maken](https://app.powerbi.com/getdata/services) (Engelstalig) weer te geven. Er worden regelmatig nieuwe services toegevoegd.
-
-![AppSource-apps](./media/end-user-connect-to-services/overview.png)
 
 Nadat u de app hebt geïnstalleerd, kunt u het dashboard en de rapporten bekijken in de Power BI-service ([https://powerbi.com](https://powerbi.com)) en in de mobiele Power BI-apps. 
 
-![Google Analytics-app in de mobiele Power BI-app](./media/end-user-connect-to-services/power-bi-service-mobile-app-240.png)
+![Google Analytics-app in de mobiele Power BI-app](media/end-user-connect-to-services/power-bi-service-mobile-app-240.png)
 
 ## <a name="get-started"></a>Aan de slag
-[!INCLUDE [powerbi-service-apps-get-more-apps](../includes/powerbi-service-apps-get-more-apps.md)]
+[!INCLUDE [powerbi-service-apps-get-more-apps](.././includes/powerbi-service-apps-get-more-apps.md)]
 
 ## <a name="view-the-dashboard-and-reports"></a>Dashboard en rapporten weergeven
 Zodra het importeren is voltooid, wordt de nieuwe app weergegeven op de pagina Apps.
 
 1. Selecteer in het linkernavigatievenster de optie **Apps** en selecteer vervolgens de app.
    
-     ![Pagina Apps](./media/end-user-connect-to-services/power-bi-service-apps-open-app.png)
+     ![Pagina Apps](media/end-user-connect-to-services/power-bi-service-apps-open-app.png)
 2. U kunt een vraag stellen door te typen in een Q&A-veld of op een tegel klikken om het onderliggende rapport te openen. 
    
-    ![Google Analytics-dashboard](./media/end-user-connect-to-services/googleanalytics2.png)
+    ![Google Analytics-dashboard](media/end-user-connect-to-services/googleanalytics2.png)
    
     U kunt de gegevens in het rapport filteren en markeren, maar u kunt uw wijzigingen niet opslaan.
 
 ## <a name="whats-included"></a>Wat is erbij inbegrepen?
 Nadat u verbinding met een service hebt gemaakt, ziet u een nieuwe app met een dashboard, rapporten en een gegevensset. De gegevens van de service zijn gericht op een specifiek scenario en bevatten mogelijk niet alle gegevens van de service. De gegevens worden eenmaal per dag automatisch vernieuwd. U kunt het schema aanpassen door de gegevensset te selecteren.
-
-U kunt ook [Power BI Desktop](../desktop-get-the-desktop.md) gebruiken om met bepaalde services verbinding te maken, zoals Google Analytics, en uw eigen aangepaste dashboards en rapporten te maken.  
 
 Zie de desbetreffende Help-pagina's voor meer informatie over het verbinding maken met bepaalde services.
 
@@ -56,7 +49,7 @@ Als Power BI de eerste keer verbinding maakt met de service, ziet u mogelijk een
 
 * Selecteer in de rechterbovenhoek het vraagtekenpictogram (**?**) en vervolgens **Hulp vragen**.
   
-    ![Pictogram Hulp vragen](./media/end-user-connect-to-services/power-bi-service-get-help.png)
+    ![Pictogram Hulp vragen](media/end-user-connect-to-services/power-bi-service-get-help.png)
 
 **Ontbrekende informatie**  
 Het dashboard en de rapporten bevatten inhoud van de service die is gericht op een specifiek scenario. Ze bevatten niet alle informatie van de service. Als u een bepaalde meetwaarde niet in het inhoudspakket ziet, kunt u een idee plaatsen op de pagina [Power BI Support](https://support.powerbi.com/forums/265200-power-bi) (Ondersteuning van Power BI).
@@ -67,7 +60,7 @@ Gebruikt u een service die u graag als Power BI-app zou willen hebben? Ga naar d
 Hebt u een service waarvoor een app zou willen bouwen? [Dien uw nominatie in](https://azure.microsoft.com/marketplace/programs/certified/apply/) en selecteer Power BI-inhoudspakket publiceren om aan de slag te gaan.
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Wat zijn apps in Power BI?](end-user-apps.md)
+* [Wat zijn apps in Power BI?](../service-install-use-apps.md)
 * [Gegevens ophalen in Power BI](../service-get-data.md)
 * Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

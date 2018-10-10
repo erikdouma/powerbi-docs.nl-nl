@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/25/2018
+ms.date: 08/25/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8e5e2211af7dc53dba20a8d43c1083517b51bf17
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: eac6a1b4f7a3f734aa22c715a4ef196193230283
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565976"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908849"
 ---
 # <a name="export-data-from-visualizations"></a>Gegevens uit visualisaties exporteren
 Als u de gegevens wilt zien die gebruikt worden om een visualisatie te maken, kunt u die [gegevens weergeven in Power BI](end-user-show-data.md) of exporteren naar Excel als .xlsx- of .csv-bestand.   
@@ -55,7 +55,7 @@ Als u mee wit doen, opent u het rapport [Procurement analysis sample](../sample-
 4. Selecteer het beletselteken in de rechterbovenhoek van de visualisatie. Kies **Gegevens exporteren**.
 
    ![](media/end-user-export-data/power-bi-export-data2.png)
-5. Als uw visualisatie in Power BI Online een statistische functie heeft (een voorbeeld zou zijn als u **Aantal** wijzigt in *Gemiddelde*, **Som** of *Minimum*), hebt u twee opties: **Samengevatte gegevens** en **Onderliggende gegevens**. In Power BI Desktop kunt u alleen **Samengevatte gegevens** kiezen. Zie [Statistische functies in Power BI](../service-aggregates.md) voor hulp bij statistische functies in Power BI.
+5. Als uw visualisatie in Power BI Online een statistische functie heeft (een voorbeeld zou zijn als u **Aantal** wijzigt in *Gemiddelde*, *Som* of *Minimum*), hebt u twee opties: **Samengevatte gegevens** en **Onderliggende gegevens**. In Power BI Desktop kunt u alleen **Samengevatte gegevens** kiezen. Zie [Statistische functies in Power BI](../service-aggregates.md) voor hulp bij statistische functies in Power BI.
 
     ![](media/end-user-export-data/power-bi-export-data5.png)
 6. Selecteer **Samengevatte gegevens** > **Exporteren** en kies .xlsx- of .csv. Power BI exporteert de gegevens.  Als u filters op de visualisatie hebt toegepast, worden de geëxporteerde gegevens geëxporteerd als gefilterd. Wanneer u **Exporteren** selecteert, wordt u gevraagd het bestand op te slaan. Nadat het is opgeslagen, opent u het bestand in Excel.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/20/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 85a5856d20781012f32d53c9468fdd6b77a0f685
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: c67d46e716574dd1a1d73b9c93c29a3e99f030ba
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546597"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909079"
 ---
 # <a name="power-bi-premium-faq"></a>Veelgestelde vragen over Power BI Premium
 Hier vindt u een lijst met veelgestelde vragen en antwoorden over Power BI Premium.
@@ -102,7 +102,7 @@ Zie [Aan de slag met Power BI Report Server](report-server/get-started.md) voor 
 **Wat zijn Power BI-apps?**  
 We zijn bezig met het omzetten van inhoudspakketten in Power BI-apps om onze gebruikers nog betere mogelijkheden te geven om op grote schaal inzichten te detecteren en verkennen. Power BI-apps zijn inmiddels beschikbaar en bieden een vereenvoudigde manier om dashboards en rapporten te implementeren naar specifieke personen, groepen of een hele organisatie. Zakelijke gebruikers kunnen deze apps eenvoudig installeren en de intuïtieve interface zorgt ervoor dat inhoud op één plek kan worden verzameld en automatisch wordt bijgewerkt. 
 
-Zie [Wat zijn apps in Power BI?](consumer/end-user-apps.md) voor meer informatie.
+Zie [Wat zijn apps in Power BI?](service-create-distribute-apps.md) voor meer informatie.
 
 **Worden Power BI Pro, de gratis versie van Power BI, Power BI Desktop en andere versies aangepast wanneer Power BI Premium op de markt komt?**  
 Vanaf dit moment maken we ook duidelijker onderscheid tussen Power BI Pro en de gratis service. We hebben feedback gekregen dat hoewel de gratis service bedoeld is voor persoonlijk gebruik en Power BI Pro samenwerking mogelijk maakt, de functionele verschillen tussen deze twee versies verwarring oplevert voor gebruikers. De gratis service zal daarom vanaf nu dezelfde functionaliteit hebben als Power BI Pro, maar de functies voor delen en samenwerking zijn alleen beschikbaar voor gebruikers van Power BI Pro.

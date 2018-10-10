@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: eaf70dab21bd35947582e343567bb1457b99cabc
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 46cd5e2730d1b0e90fe37a93bbd4340ffb708348
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547977"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908458"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>Organisatie-inhoudspakketten in Power BI maken en publiceren (zelfstudie)
 
@@ -92,7 +92,7 @@ Doet u mee? Ga in [Power BI-service](https://powerbi.com) naar **Gegevens ophale
 ### <a name="next-steps"></a>Volgende stappen
 * [Inleiding tot organisatie-inhoudspakketten](service-organizational-content-pack-introduction.md)  
 * [Organisatie-inhoudspakketten beheren, bijwerken en verwijderen](service-organizational-content-pack-manage-update-delete.md)  
-* [Een groep maken in Power BI](consumer/end-user-create-apps.md)  
+* [Een groep maken in Power BI](service-create-distribute-apps.md)  
 * [Wat is OneDrive voor Bedrijven?](https://support.office.com/en-us/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)
 * Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

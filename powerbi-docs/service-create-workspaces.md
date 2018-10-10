@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b40933e085cf81528a28e9eedb4260351f657323
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 9a22889da87af91f3b5ea996961ec9e9538fe31b
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548391"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909102"
 ---
 # <a name="create-workspaces-with-your-colleagues-in-power-bi"></a>Werkruimten maken met uw collega's in Power BI
 
@@ -77,7 +77,7 @@ In de huidige werkruimten kunt u ook verbinding maken met organisatie-inhoudspak
 
 ## <a name="distribute-an-app"></a>Een app distribueren
 
-Wanneer de inhoud klaar is, kunt u kiezen welke dashboards en rapporten u wilt publiceren. Vervolgens publiceert u deze als een *app*. Uw collega's kunnen uw apps op een aantal verschillende manieren krijgen. U kunt ze automatisch installeren in de Power BI-accounts van uw collega's als uw Power BI-beheerder u toestemming geeft. Anders kunnen ze uw apps zoeken en installeren vanuit Microsoft AppSource of kunt u de apps via een directe koppeling verzenden. Ze ontvangen automatisch updates en u kunt bepalen hoe vaak de gegevens worden vernieuwd. Zie [Apps met dashboards en rapporten publiceren in Power BI](consumer/end-user-create-apps.md) voor meer informatie.
+Wanneer de inhoud klaar is, kunt u kiezen welke dashboards en rapporten u wilt publiceren. Vervolgens publiceert u deze als een *app*. Uw collega's kunnen uw apps op een aantal verschillende manieren krijgen. U kunt ze automatisch installeren in de Power BI-accounts van uw collega's als uw Power BI-beheerder u toestemming geeft. Anders kunnen ze uw apps zoeken en installeren vanuit Microsoft AppSource of kunt u de apps via een directe koppeling verzenden. Ze ontvangen automatisch updates en u kunt bepalen hoe vaak de gegevens worden vernieuwd. Zie [Apps met dashboards en rapporten publiceren in Power BI](service-create-distribute-apps.md) voor meer informatie.
 
 ## <a name="power-bi-apps-faq"></a>Veelgestelde vragen over Power BI-apps
 
@@ -92,7 +92,6 @@ Apps zijn verbeterde organisatie-inhoudspakketten. Als u al organisatie-inhoudsp
 Zie [Hoe verschillen de nieuwe app-werkruimten van bestaande app-werkruimten?](service-create-the-new-workspaces.md#how-are-the-new-app-workspaces-different-from-current-app-workspaces) om de huidige en nieuwe app-werkruimten te vergelijken. 
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Apps in Power BI installeren en gebruiken](consumer/end-user-apps.md)
-* [Power BI-apps voor externe services](consumer/end-user-connect-to-services.md)
+* [Apps in Power BI installeren en gebruiken](service-create-distribute-apps.md)
 - [De nieuwe werkruimten maken (preview)](service-create-the-new-workspaces.md)
 * Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
