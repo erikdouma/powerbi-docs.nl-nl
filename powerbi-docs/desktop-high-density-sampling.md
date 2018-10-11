@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4540c00e4956e87e1c012dc2a35c00e61e00b5a6
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: ae17eff366fe5e931963c9367586c08fd39eda69
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39328139"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45973926"
 ---
 # <a name="high-density-line-sampling-in-power-bi"></a>High-densitysampling van lijnen in Power BI
 Sinds de release in juni 2017 van **Power BI Desktop** en updates voor de **Power BI-service** is er een nieuw samplingalgoritme beschikbaar waarmee visuals worden verbeterd die high-densitygegevens verzamelen. U kunt bijvoorbeeld een lijndiagram maken op basis van de verkoopresultaten van uw winkels, waarbij elke winkel jaarlijks meer dan tienduizend verkoopontvangsten genereert. Met een lijndiagram van dergelijke verkoopcijfers wordt een sample van gegevens opgehaald (door een zinvolle representatie van alle gegevens te selecteren, ter illustratie van de wijze waarop de verkoop gedurende een bepaalde periode varieert) uit de gegevens voor elke winkel en wordt een lijndiagram met meerdere reeksen gemaakt dat op die manier de onderliggende gegevens laat zien. Dit is gebruikelijk bij het visualiseren van high-densitygegevens. In Power BI Desktop is de sampling van high-densitygegevens verbeterd, zoals nader beschreven in dit artikel.
@@ -24,8 +24,6 @@ Sinds de release in juni 2017 van **Power BI Desktop** en updates voor de **Powe
 
 > [!NOTE]
 > Het **high-densitysampling**-algoritme dat in dit artikel wordt beschreven, is beschikbaar in zowel **Power BI Desktop** als de **Power BI-service**.
-> 
-> 
 
 ## <a name="how-high-density-line-sampling-works"></a>Hoe high-densitysampling van lijnen werkt
 Voorheen selecteerde **Power BI** op deterministische wijze een sample van gegevenspunten in het volledige bereik van onderliggende gegevens. Voor high-densitygegevens in een visual die één jaar bestrijkt, kunnen er in de visual bijvoorbeeld 350 sample-gegevenspunten worden weergegeven, die allemaal zijn geselecteerd om te controleren of het volledige gegevensbereik (de totale reeks onderliggende gegevens) in de visual is weergegeven. Om te begrijpen hoe dit gebeurt, moet u zich voorstellen dat u een aandelenkoers uitzet gedurende een periode van één jaar en dat u 365 gegevenspunten hebt geselecteerd om een lijndiagram te maken (met één gegevenspunt voor elke dag).
@@ -42,17 +40,25 @@ Voor een high-densityvisual splitst **Power BI** op intelligente wijze de gegeve
 ### <a name="minimum-and-maximum-values-for-high-density-line-visuals"></a>Minimale en maximale waarden voor high-densityvisuals voor lijnen
 Voor een bepaalde visualisatie gelden de volgende beperkingen:
 
-* Ongeacht het aantal onderliggende gegevenspunten of -reeksen is **3500** het maximumaantal gegevenspunten dat in de visual wordt *weergegeven*. Als er 10 reeksen met 350 gegevenspunten elk zijn, heeft de visual het maximumaantal gegevenspunten bereikt. Als u één reeks hebt, kan deze maximaal 3500 gegevenspunten bevatten als het nieuwe algoritme dit als de beste sampling voor de onderliggende gegevens beoordeelt.
+* Ongeacht het aantal onderliggende gegevenspunten of -reeksen is **3500** het maximumaantal gegevenspunten dat in de visual wordt *weergegeven* (zie de *uitzonderingen* in de volgende lijsten met opsommingstekens). Als er 10 reeksen met 350 gegevenspunten elk zijn, heeft de visual het maximumaantal gegevenspunten bereikt. Als u één reeks hebt, kan deze maximaal 3500 gegevenspunten bevatten als het nieuwe algoritme dit als de beste sampling voor de onderliggende gegevens beoordeelt.
+
 * Er geldt een maximum van **60 reeksen** voor een visual. Als er meer dan 60 reeksen zijn, splitst u de gegevens op en maakt u meerdere visuals met elk 60 of minder reeksen. Het is raadzaam om een **slicer** te gebruiken om alleen de segmenten van de gegevens weer te geven (alleen bepaalde reeksen). Als u bijvoorbeeld alle subcategorieën in de legenda weergeeft, kunt u met een slicer filteren op de algehele categorie op dezelfde rapportpagina.
+
+Het maximumaantal gegevenslimieten is hoger voor de volgende typen visuele elementen, die *uitzonderingen* vormen op de gegevenslimiet van 3500 gegevenspunten:
+
+* maximaal **150.000** gegevenspunten voor R-visuals;
+* **30.000** gegevenspunten voor aangepaste visuele elementen;
+* **10.000** gegevenspunten voor spreidingsdiagrammen (voor spreidingsdiagrammen is de standaard 3500);
+* **3500** voor alle andere visuele elementen.
 
 Deze parameters zorgen ervoor dat visuals in Power BI Desktop zeer snel worden weergegeven, reageren op interactie door gebruikers en niet leiden tot onnodige verwerkingsoverhead op de computer die de visual genereert.
 
 ### <a name="evaluating-representative-data-points-for-high-density-line-visuals"></a>Representatieve gegevenspunten beoordelen voor high-densityvisuals voor lijnen
-Wanneer het aantal onderliggende gegevenspunten de het maximum aantal gegevenspunten overschrijdt dat in de visual kan worden weergegeven (dit zijn 3500 gegevenspunten), begint een zogeheten *binning*-proces, dat de onderliggende gegevens opsplitst in groepen die *bins* worden genoemd, waarna deze bins regelmatig worden verfijnd.
+Wanneer het aantal onderliggende gegevenspunten het maximum aantal gegevenspunten overschrijdt dat in de visual kan worden weergegeven, begint een zogeheten *binning*-proces, dat de onderliggende gegevens opsplitst in groepen die *bins* worden genoemd, waarna deze bins regelmatig worden verfijnd.
 
 Het algoritme maakt zo veel mogelijk bins om de grootst mogelijke granulariteit voor de visual te realiseren. Het algoritme zoekt binnen elke bin naar de minimale en maximale gegevenswaarde om ervoor te zorgen dat belangrijke en significante waarden (zoals uitschieters) worden vastgelegd en weergegeven in de visual. Op basis van de resultaten van de binning en de daaropvolgende evaluatie van de gegevens door Power BI, wordt de minimale resolutie voor de x-as van de visual bepaald, om voor een maximale granulariteit voor de visual te zorgen.
 
-Zoals eerder vermeld, is de minimale granulariteit voor elke reeks 350 punten en is 3500 het maximum.
+Zoals eerder is vermeld, is de minimale granulariteit voor elke reeks 350 punten, het maximum is 3500 voor de meeste visuele elementen, waarbij de *uitzonderingen* worden vermeld in de vorige alinea's.
 
 Elke bin wordt weergegeven door twee gegevenspunten, die de representatieve gegevenspunten van de bin in de visual worden. De gegevenspunten zijn simpelweg de hoogste en laagste waarde voor die bin, en door die hoogste en laagste waarde te selecteren zorgt het binning-proces ervoor dat elke belangrijke hoogste waarde, of significante laagste waarde, wordt vastgelegd en weergegeven in de visual.
 

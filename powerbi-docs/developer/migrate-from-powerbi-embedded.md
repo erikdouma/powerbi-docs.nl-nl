@@ -8,12 +8,12 @@ ms.Embedded: powerbi
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.author: maghan
-ms.openlocfilehash: 6de0efe3bad1662d1324488a7030894248056730
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: 6b500acee862d8f16c186a9adc2fe0b194003e50
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388658"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45973834"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Inhoud van de Power BI-werkruimteverzameling migreren naar Power BI Embedded
 Informatie over het migreren van Power BI-werkruimteverzameling naar Power BI Embedded en hoe u gebruikmaakt van ontwikkelingen voor het insluiten van inhoud in apps.
@@ -30,7 +30,7 @@ De huidige Power BI-werkruimteverzameling blijft beschikbaar gedurende een beper
 
 ![](media/migrate-from-powerbi-embedded/powerbi-embed-flow.png)
 
-Voordat u aan de slag gaat met de migratie naar de nieuwe Power BI Embedded, kunt u snel een overzicht raadplegen voor hulp bij het instellen van uw nieuwe Power BI Embedded-omgeving met het [hulpprogramma voor onboarding-ervaring](https://aka.ms/embedsetup).
+Voordat u aan de slag gaat met de migratie naar de nieuwe Power BI Embedded, kunt u snel een overzicht raadplegen voor hulp bij het instellen van uw nieuwe Power BI Embedded-omgeving met het [instelprogramma voor insluiten](https://aka.ms/embedsetup).
 
 Kies de oplossing die het beste bij u past:
 * **Insluiten voor uw klanten**: wanneer u geïnteresseerd bent in een oplossing [waarbij de app eigenaar van de gegevens is](https://aka.ms/embedsetup/AppOwnsData). [Door inhoud voor uw klanten in te sluiten](embedding.md#embedding-for-your-customers) kunt u dashboards en rapporten insluiten voor gebruikers die geen account voor Power BI hebben. 
