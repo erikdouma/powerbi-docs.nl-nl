@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/31/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 28dcc4812a37b5ad3f514227f4e5fbcdfebeb579
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: ce4aab1a477485a30a4166d86d166a4ac289108f
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388796"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974225"
 ---
 # <a name="storage-mode-in-power-bi-desktop-preview"></a>Opslagmodus in Power BI Desktop (preview-versie)
 
@@ -171,12 +171,13 @@ Wanneer u een tabel met de opslagmodus **Dual** of **Importeren** selecteert in 
 
 Er gelden enkele beperkingen voor deze release van **opslagmodus**, en de correlatie ervan met **samengestelde modellen**.
 
-De volgende multidimensionale bronnen kunnen niet worden gebruikt met **samengestelde modellen**:
+De volgende (multidimensionale) Live Connect-bronnen kunnen niet worden gebruikt met **samengestelde modellen**:
 
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
 * Power BI-gegevenssets
+* Azure Analysis Services
 
 Als u met behulp van DirectQuery verbinding maakt met deze multidimensionale bronnen, is het niet mogelijk om ook nog verbinding te maken met een andere DirectQuery-bron. Het is dan evenmin mogelijk om te combineren met geïmporteerde gegevens.
 

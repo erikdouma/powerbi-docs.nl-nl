@@ -8,24 +8,24 @@ featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/28/2018
+ms.date: 09/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 13bc26eaecdcc9b3a00f22f75f6f9a5322d823f6
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: bd09adf21292b16ee27f111ac92bbd8c83c384d8
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736434"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448840"
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Spreidingsdiagrammen en bellendiagrammen in Power BI
 Een spreidingsdiagram heeft altijd twee waardeassen, waarbij een reeks numerieke gegevens op een horizontale as en een andere reeks numerieke waarden op de verticale as wordt weergegeven. In het diagram worden punten weergegeven op het snijpunt van een numerieke x- en y-waarde, waarbij deze waarden in één gegevenspunt worden gecombineerd. Deze gegevenspunten kunnen, afhankelijk van de gegevens, gelijkmatig of ongelijkmatig over de horizontale as zijn verdeeld.
 
 Bij een bellendiagram worden de gegevenspunten vervangen door bellen. De *grootte* van de bellen geven de gegevens een extra dimensie.
 
-![](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
+![voorbeeld van bellendiagram](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
 
-U kunt het aantal gegevenspunten instellen  
+U kunt het aantal gegevenspunten instellen tot maximaal 10.000.  
 
 ## <a name="when-to-use-a-scatter-chart-or-bubble-chart"></a>Wanneer u een spreidingsdiagram of bellendiagram gebruikt
 ### <a name="scatter-charts-are-a-great-choice"></a>In de volgende gevallen komen spreidingsdiagrammen goed van pas:
@@ -50,7 +50,7 @@ Bekijk deze video voor informatie over de optie Een spreidingsdiagram maken en v
 
 In deze instructies wordt het voorbeeld van een retailanalyse gebruikt. Om mee te lezen kunt u het [voorbeeld downloaden](../sample-datasets.md) voor de Power BI-service (app.powerbi.com) of voor Power BI Desktop.   
 
-1. Selecteer het gele pictogram met het plusteken om een [lege rapportpagina ](../power-bi-report-add-page.md) te maken.
+1. Open het rapport in de Bewerkingsweergave en selecteer het gele pictogram met het plusteken om een [lege rapportpagina ](../power-bi-report-add-page.md) te maken.
  
 2. Selecteer de volgende velden in het deelvenster Velden:
    - **Verkoop** > **Verkoop per vierkante meter**
@@ -83,18 +83,18 @@ Nu gaan we een derde dimensie toevoegen.
 
 3. Wanneer u het aantal gegevenspunten zo wilt instellen dat deze in uw bellengrafiek worden weergegeven, vouwt u in de sectie **Indeling** van het deelvenster **Visualisaties** de kaart **Algemeen** uit en past u het **gegevensvolume** aan. U kunt het maximale gegevensvolume instellen op een willekeurige waarde tot 10.000. Naarmate u hogere getallen tegenkomt, raden we u aan eerst de prestaties te testen. 
 
-    ![Gegevensvolume](./media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
+    ![Gegevensvolume](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
 
    > [!NOTE]
    > Omdat meer gegevenspunten kan leiden tot een langere laadtijd, kunt u beter uw rapporten op internet en op mobiel uittesten en ervoor zorgen dat de prestaties overeenkomen met de verwachtingen van uw gebruikers als u toch besluit om rapporten te publiceren met beperkingen aan de bovengrens van de schaal. Om goede prestaties te kunnen garanderen, moet u voor grotere aantallen gegevenspunten de resultaten op verschillende formulierfactoren testen.
 
 4. U kunt [de kleuren, labels, titels, achtergrond en meer van de visual wijzigen](service-getting-started-with-color-formatting-and-axis-properties.md). Voor een [betere toegankelijkheid](../desktop-accessibility.md) kunt u markeringsvormen aan elke regel toevoegen. Als u voor elke lijn een andere markeringsvorm gebruikt, is het makkelijker voor gebruikers om verschillende lijnen (of vlakken) van elkaar te onderscheiden. Als u de markeringsvorm wilt selecteren, vouwt u de kaart **Vormen** uit en selecteert u vervolgens een markeringsvorm.
 
-      ![Vorm van markering](./media/power-bi-visualization-scatter/pbi_scatter_marker.png)
+      ![Vorm van markering](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
    U kunt ook de markeringsvorm wijzigen in een ruit, driehoek of vierkant:
 
-   ![Vierkante markering](./media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
+   ![Vierkante markering](media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
 
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
@@ -104,8 +104,7 @@ Hebt u een spreidingsdiagram gemaakt en wordt daarin slechts één gegevenspunt 
 
 ![](media/power-bi-visualization-scatter/pbi_scatter_tshoot1.png)
 
-Voeg een veld toe aan het gebied **Details** om aan te geven hoe de waarden moeten worden gegroepeerd. Het veld moet uniek zijn voor elk punt dat moet worden weergegeven.  
-Zoals een eenvoudig rijnummer of ID-veld:
+Voeg een veld toe aan het gebied **Details** om aan te geven hoe de waarden moeten worden gegroepeerd. Het veld moet uniek zijn voor elk punt dat moet worden weergegeven, bijvoorbeeld een eenvoudig rijnummer of id-veld.
 
 ![](media/power-bi-visualization-scatter/pbi_scatter_tshoot.png)
 
@@ -116,9 +115,8 @@ Als uw gegevens dit niet bevatten, maakt u een veld waarin uw x- en y-waarden sa
 [Gebruik van de Query Editor van Power BI Desktop om een indexkolom toe te voegen](../desktop-add-custom-column.md) aan uw gegevensset om een nieuw veld te maken.  Voeg deze kolom toe aan het gebied **Details** van uw visualisatie.
 
 ## <a name="next-steps"></a>Volgende stappen
+
+[High-density spreidingsdiagrammen](desktop-high-density-scatter-charts.md)
+
 [Visualization types in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md) (Typen visualisaties in Power BI)
-
-[Aanmelden voor een gratis proefversie](https://powerbi.microsoft.com/get-started/)  
-
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

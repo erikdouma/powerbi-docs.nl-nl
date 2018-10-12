@@ -2,44 +2,50 @@
 title: Power BI-machtigingen
 description: Power BI-machtigingen
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 09/05/2017
-ms.author: maghan
-ms.openlocfilehash: 4ba0e62dd8c9ba537f56c97489541591ec0bf2bc
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.date: 10/01/2018
+ms.openlocfilehash: 2ca9711ecfdc205fafe7210f99f2de26a8f6d6d6
+ms.sourcegitcommit: f391b645062f64ac3adc2ce7877318583b14b941
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34289413"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "48016118"
 ---
 # <a name="power-bi-permissions"></a>Power BI-machtigingen
+
 ## <a name="permission-scopes"></a>Machtigingsbereiken
+
 Power BI-machtigingen geven een toepassing de mogelijkheid om bepaalde acties namens een gebruiker uit te voeren. Machtigingen zijn pas geldig als deze door een gebruiker zijn goedgekeurd.
 
 | Weergavenaam | Beschrijving | Bereikwaarde |
 | --- | --- | --- |
 | Alle gegevenssets weergeven |De app kan alle gegevenssets voor de aangemelde gebruiker en gegevenssets waartoe de gebruiker toegang heeft, weergeven. |Dataset.Read.All |
 | Alle gegevenssets lezen en schrijven |De app kan alle gegevenssets voor de aangemelde gebruiker en gegevenssets waartoe de gebruiker toegang heeft, weergeven en er naar schrijven. |Dataset.ReadWrite.All |
-| Gegevens toevoegen aan de gegevensset van een gebruiker (preview) |Geeft een app toegang tot het toevoegen of verwijderen van gegevenssetrijen van een gebruiker. Deze machtiging verleent de app geen toegang tot de gegevens van de gebruiker. |Data.Alter_Any |
-| Inhoud maken (preview) |De app kan automatisch inhoud en gegevenssets maken voor een gebruiker. |Content.Create |
+| Gegevens toevoegen aan de gegevensset van een gebruiker |Geeft een app toegang tot het toevoegen of verwijderen van gegevenssetrijen van een gebruiker. Deze machtiging verleent de app geen toegang tot de gegevens van de gebruiker. |Data.Alter_Any |
+| Inhoud maken |De app kan automatisch inhoud en gegevenssets maken voor een gebruiker. |Content.Create |
 | Groepen van de gebruiker weergeven |De app kan alle groepen weergeven waartoe de aangemelde gebruiker behoort. |Group.Read |
 | Alle groepen weergeven |De app kan alle groepen weergeven waartoe de aangemelde gebruiker behoort. |Group.Read.All |
-| Alle dashboards weergeven (preview) |De app kan alle dashboards voor de aangemelde gebruiker en dashboards waartoe de gebruiker toegang heeft, weergeven. |Dashboard.Read.All |
-| Alle rapporten weergeven (preview) |De app kan alle rapporten voor de aangemelde gebruiker en rapporten waartoe de gebruiker toegang heeft, weergeven. De app kan ook de gegevens binnen de rapporten bekijken, evenals de structuur. |Report.Read.All |
+| Alle groepen lezen en schrijven |De app kan alle groepen voor de aangemelde gebruiker en groepen waartoe de gebruiker toegang heeft, weergeven en ernaar schrijven. |Group.ReadWrite.All |
+| Alle dashboards weergeven |De app kan alle dashboards voor de aangemelde gebruiker en dashboards waartoe de gebruiker toegang heeft, weergeven. |Dashboard.Read.All |
+| Alle rapporten weergeven |De app kan alle rapporten voor de aangemelde gebruiker en rapporten waartoe de gebruiker toegang heeft, weergeven. De app kan ook de gegevens binnen de rapporten bekijken, evenals de structuur. |Report.Read.All |
 | Alle rapporten lezen en schrijven |De app kan alle rapporten voor de aangemelde gebruiker en rapporten waartoe de gebruiker toegang heeft, weergeven en er naar schrijven. Hiermee wordt niet het recht verleend om een nieuw rapport te maken. |Report.ReadWrite.All |
+| Alle capaciteiten lezen en schrijven |De app kan alle capaciteiten voor de aangemelde gebruiker en capaciteiten waartoe de gebruiker toegang heeft, weergeven en ernaar schrijven. Hiermee wordt niet het recht verleend om een nieuwe capaciteiten te maken. |Capacities.ReadWrite.All |
+| Alle capaciteiten lezen |De app kan alle capaciteiten voor de aangemelde gebruiker en capaciteiten waartoe de gebruiker toegang heeft, weergeven en ernaar schrijven. Hiermee wordt niet het recht verleend om een nieuwe capaciteiten te maken. |Capacities.Read.All |
+| Alle inhoud in de tenant lezen en schrijven |De app kan alle artefacten, zoals groepen, rapporten, dashboards en gegevenssets, in Power BI weergeven en ernaar schrijven. Hiervoor dient de aangemelde gebruiker een Power BI-servicebeheerder te zijn. |Tenant.ReadWrite.All |
+| Alle inhoud weergeven in de tenant |De app kan alle artefacten, zoals groepen, rapporten, dashboards en gegevenssets, in Power BI weergeven. Hiervoor dient de aangemelde gebruiker een Power BI-servicebeheerder te zijn. |Tenant.Read.All |
 
 Een toepassing kan machtigingen aanvragen wanneer deze voor de eerste keer probeert om aan te melden bij een gebruikerspagina door de aangevraagde machtigingen door te geven in de bereikparameter van de aanroep. Als de machtigingen worden verleend, wordt een toegangstoken geretourneerd naar de app, die in toekomstige API-aanroepen kan worden gebruikt. De toegang kan alleen worden gebruikt door een specifieke toepassing.
 
 > [!NOTE]
 > In de Power BI-API's worden app-werkruimten nog steeds groepen genoemd. Als er wordt verwezen naar groepen, werkt u in feite met app-werkruimten.
-> 
-> 
 
 ## <a name="requesting-permissions"></a>Machtigingen aanvragen
+
 U kunt de API aanroepen voor verificatie met een gebruikersnaam en wachtwoord, maar om acties te ondernemen namens een andere gebruiker, moeten machtigingen worden aangevraagd die de gebruiker vervolgens goedkeurt. Daarna wordt het resulterende toegangstoken verzonden in alle toekomstige aanroepen. Voor dit proces wordt het [OAuth 2.0](http://oauth.net/2/)-standaardprotocol gebruikt. De daadwerkelijke implementatie verschilt mogelijk, maar de OAuth-stroom voor Power BI bevat de volgende elementen:
 
 * **Aanmeldings-UI**: dit is de UI die de ontwikkelaar kan aanroepen om machtigingen aan te vragen. De gebruiker moet hiervoor aangemeld zijn als dit nog niet het geval is. De gebruiker moet ook de machtigingen goedkeuren die de toepassing aanvraagt. In het aanmeldingsvenster wordt een toegangscode of een foutbericht naar een omleidings-URL die wordt opgegeven.
@@ -49,4 +55,3 @@ U kunt de API aanroepen voor verificatie met een gebruikersnaam en wachtwoord, m
 * **Vernieuwingstoken**: wanneer tokens verlopen, wordt een proces in gang gezet om deze te vernieuwen.
 
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
-

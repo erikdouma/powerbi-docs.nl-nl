@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/26/2018
+ms.date: 09/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 18c9fe3d50245ff1d0745c0a3ae1e830b3f9be45
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 865e19f368b8e1915d0262ae6356e70a8dbc2781
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548322"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416886"
 ---
 # <a name="card-visualizations"></a>Kaartvisualisaties
 Soms is één getal het belangrijkste dat u wilt bijhouden op uw Power BI-dashboard of -rapport, zoals de totale omzet, het marktaandeel jaar na jaar of het totale aantal verkoopkansen. Dit type visualisatie wordt een *kaart* genoemd. Net als bij bijna alle systeemeigen Power BI-visualisaties kunnen kaarten worden gemaakt met behulp van de rapporteditor of Q&A.
 
-![kaartvisualisatie](./media/power-bi-visualization-card/pbi_opptuntiescard.png)
+![kaartvisualisatie](media/power-bi-visualization-card/pbi_opptuntiescard.png)
 
 ## <a name="create-a-card-using-the-report-editor"></a>Een kaart maken met behulp van de rapporteditor
 In deze instructies wordt het voorbeeld van een retailanalyse gebruikt. Om mee te lezen kunt u het [voorbeeld downloaden](../sample-datasets.md) voor de Power BI-service (app.powerbi.com) of voor Power BI Desktop.   
@@ -32,7 +32,7 @@ In deze instructies wordt het voorbeeld van een retailanalyse gebruikt. Om mee t
    ![](media/power-bi-visualization-card/pbi_rptnumbertilechart.png)
 2. Selecteer het kaartpictogram in het deelvenster Visualisaties.
 
-   ![](media/power-bi-visualization-card/pbi_changechartcard.png)
+   ![](media/power-bi-visualization-card/power-bi-templates.png)
 6. Beweeg de muisaanwijzer over de kaart en selecteer het speldpictogram ![](media/power-bi-visualization-card/pbi_pintile.png) om de visualisatie toe te voegen aan het dashboard.
 
    ![](media/power-bi-visualization-card/power-bi-pin-icon.png)
@@ -44,20 +44,21 @@ In deze instructies wordt het voorbeeld van een retailanalyse gebruikt. Om mee t
 
    U ontvangt een bericht (in de rechterbovenhoek) dat de visualisatie als tegel aan uw dashboard is toegevoegd.
 
-   ![](media/power-bi-visualization-card/power-bi-pin-success-message.png)
+   ![](media/power-bi-visualization-card/power-bi-success2.png)
 9. Selecteer **Naar het dashboard gaan**. Daar kunt u de vastgemaakte visualisatie [bewerken en verplaatsen](../service-dashboard-edit-tile.md).
 
 
 ## <a name="create-a-card-from-the-qa-question-box"></a>Een kaart maken via het vak Q&A
-Het vak Q&A is de eenvoudigste manier om een kaart te maken. Het vak Q&A is beschikbaar in de Power BI service (app.powerbi.com) vanuit een dashboard of een rapport. De onderstaande stappen beschrijven het maken van een kaart via een dashboard in de Power BI-service. Als u met behulp van Q&A een kaart wilt maken in Power BI Desktop, [volgt u deze instructies](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-december-feature-summary/#QandA) voor de Q&A-preview voor Desktop-rapporten.
+Het vak Q&A is de eenvoudigste manier om een kaart te maken. Het vak Q&A is beschikbaar in de Power BI service (app.powerbi.com) vanuit een dashboard of een rapport en in Desktop-rapportweergave. De onderstaande stappen beschrijven het maken van een kaart via een dashboard in de Power BI-service. Als u met behulp van Q&A een kaart wilt maken in Power BI Desktop, [volgt u deze instructies](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-december-feature-summary/#QandA) voor de Q&A-preview voor Desktop-rapporten.
 
-1. Maak een [dashboard](../consumer/end-user-dashboards.md) en [haal gegevens op](../service-get-data.md). In dit voorbeeld gebruiken we het [Voorbeeld van een kansanalyse](../sample-opportunity-analysis.md).
+1. Maak een [dashboard](../service-dashboards.md) en [haal gegevens op](../service-get-data.md). In dit voorbeeld gebruiken we het [Voorbeeld van een kansanalyse](../sample-opportunity-analysis.md).
 
 1. Typ in het vak Vraag aan de bovenkant van het dashboard wat u wilt weten over uw gegevens. 
 
    ![](media/power-bi-visualization-card/power-bi-q-and-a-box.png)
 
->**TIP**: selecteert vanuit een Power BI-servicerapport in de [bewerkweergave](../consumer/end-user-reading-view.md) de optie **Een vraag stellen** in de menubalk aan de bovenkant. Zoek vanuit een Power BI Desktop-rapport naar een open ruimte in een rapport en dubbelklik hierop om een vraagvak te openen.
+> [!TIP]
+> Selecteer vanuit een Power BI-servicerapport in de [bewerkweergave](../service-reading-view-and-editing-view.md) de optie **Een vraag stellen** in de menubalk aan de bovenkant. Zoek vanuit een Power BI Desktop-rapport naar een open ruimte in een rapport en dubbelklik hierop om een vraagvak te openen.
 
 3. Typ bijvoorbeeld 'aantal kansen' in het vak Vraag.
 
@@ -75,7 +76,7 @@ Het vak Q&A is de eenvoudigste manier om een kaart te maken. Het vak Q&A is besc
 
    U ontvangt een bericht (in de rechterbovenhoek) dat de visualisatie als tegel aan uw dashboard is toegevoegd.  
 
-   ![](media/power-bi-visualization-card/power-bi-success.png)
+   ![](media/power-bi-visualization-card/power-bi-success2.png)
 7. Selecteer **Naar dashboard gaan** om de nieuwe tegel te zien. Daar kunt u de tegel [een andere naam geven, vergroten of verkleinen, er een hyperlink aan toevoegen, de tegel verplaatsen en meer](../service-dashboard-edit-tile.md) op uw dashboard.
 
    ![](media/power-bi-visualization-card/power-bi-pinned.png)
@@ -87,28 +88,24 @@ Het vak Q&A is de eenvoudigste manier om een kaart te maken. Het vak Q&A is besc
 ## <a name="format-a-card"></a>Een kaart opmaken
 U hebt vele opties om de labels, tekst, kleur en meer te wijzigen. De beste manier om dit te leren is door een kaart te maken en naar het opmaakvenster te gaan. Hieronder volgt een aantal beschikbare indelingsopties. 
 
-1. Open het opmaakvenster door het verfkwastpictogram te selecteren. 
+1. Open het opmaakvenster door de verfroller te selecteren. 
 
-    ![](media/power-bi-visualization-card/power-bi-format-card.png)
+    ![kaart met verfroller aangegeven](media/power-bi-visualization-card/power-bi-format-card.png)
 2. Vouw **Gegevenslabel** uit en wijzig de kleur, grootte en de lettertypefamilie. Stel, u hebt duizenden winkels. Dan kunt u **Eenheden weergeven** gebruiken om het aantal winkels per duizendtallen weer te geven en de decimaalposities in te stellen. U kunt bijvoorbeeld 125,8K weergeven in plaats van 125.832,00.
 
 3.  Vouw **Gegevenslabel** uit en wijzig de kleur en grootte.
 
-    ![](media/power-bi-visualization-card/power-bi-card-format.png)
+    ![donkerblauwe kleur geselecteerd](media/power-bi-visualization-card/power-bi-card-format.png)
 
 4. Vouw **Achtergrond** uit en verplaats de schuifregelaar naar Aan.  U kunt vervolgens de achtergrondkleur en de transparantie instellen.
 
-    ![](media/power-bi-visualization-card/power-bi-format-color.png)
+    ![schuifregelaar ingesteld op Aan](media/power-bi-visualization-card/power-bi-format-color.png)
 
 5. Probeer de andere opmaakopties om uw kaart geheel naar wens te maken. 
 
-    ![](media/power-bi-visualization-card/power-bi-formatted.png)
+    ![Kaart nadat alle opmaak is voltooid](media/power-bi-visualization-card/power-bi-formatted.png)
 
 ## <a name="next-steps"></a>Volgende stappen
-[Dashboardtegels in Power BI](../consumer/end-user-tiles.md)
+[Combinatiegrafieken in Power BI](power-bi-visualization-combo-chart.md)
 
-[Dashboards in Power BI](../consumer/end-user-dashboards.md)
-
-[Power BI - basisconcepten](../consumer/end-user-basic-concepts.md)
-
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+[Visualization types in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md) (Typen visualisaties in Power BI)

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/19/2018
+ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a12a497de5ee3e02ea6ba2b1e92fb6c50834d99c
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 2e6eb9817071f3cbccd442014564e21463bf06f8
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566036"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448932"
 ---
 # <a name="visualization-types-in-power-bi"></a>Typen visualisaties in Power BI
 ## <a name="power-bi-visualizations"></a>Visualisaties in Power BI
@@ -32,10 +32,10 @@ Al deze visualisaties kunnen worden toegevoegd aan Power BI-rapporten, opgegeven
 >[!TIP]
 >Het eenvoudige vlakdiagram is gebaseerd op het lijndiagram waarbij het gebied tussen de as en de lijn wordt gevuld.
 
-Zie [Zelfstudie: Eenvoudig vlakdiagram](power-bi-visualization-basic-area-chart.md) voor meer informatie.
+Zie [Eenvoudig vlakdiagram](power-bi-visualization-basic-area-chart.md) voor meer informatie.
 
 ### <a name="bar-and-column-charts"></a>Staaf- en kolomdiagrammen
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bar.png) 
+![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bar.png)
 
  ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_col.png)
 
@@ -56,7 +56,7 @@ Zie [Een kaart maken (tegel met een groot getal)](power-bi-visualization-card.md
 >[!TIP]
 >Een combinatiegrafiek combineert een kolomdiagram en een lijndiagram. Kies uit *Lijndiagram en gestapeld kolomdiagram* en *Lijndiagram en gegroepeerd kolomdiagram*.
 
-Zie [Zelfstudie: Combinatiegrafieken in Power BI](power-bi-visualization-combo-chart.md) voor meer informatie.
+Zie [Combinatiegrafieken in Power BI](power-bi-visualization-combo-chart.md) voor meer informatie.
 
 ### <a name="doughnut-charts"></a>Ringdiagrammen
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/donutsmall.png)
@@ -64,7 +64,7 @@ Zie [Zelfstudie: Combinatiegrafieken in Power BI](power-bi-visualization-combo-c
 >[!TIP]
 >Ringdiagrammen lijken op cirkeldiagrammen.  Ze geven het verband weer tussen delen en het geheel.
 
-Zie [Zelfstudie: Ringdiagrammen in Power BI](power-bi-visualization-doughnut-charts.md) voor meer informatie.
+Zie [Ringdiagrammen in Power BI](power-bi-visualization-doughnut-charts.md) voor meer informatie.
 
 ### <a name="funnel-charts"></a>Trechterdiagrammen
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_funnel.png)
@@ -72,7 +72,7 @@ Zie [Zelfstudie: Ringdiagrammen in Power BI](power-bi-visualization-doughnut-cha
 >[!TIP]
 >Trechters helpen bij het visualiseren van een proces dat bestaat uit fasen en waarbij items achter elkaar van de ene naar de volgende fase stromen.  Gebruik een trechter wanneer er een opeenvolgend verloop tussen fasen is, zoals een verkoopproces dat begint met potentiële klanten en eindigt met een verkoop.
 
-Zie [Zelfstudie: Trechterdiagrammen in Power BI](power-bi-visualization-funnel-charts.md) voor meer informatie.
+Zie [Trechterdiagrammen in Power BI](power-bi-visualization-funnel-charts.md) voor meer informatie.
 
 ### <a name="gauge-charts"></a>Meterdiagrammen
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/gauge_m.png)
@@ -80,7 +80,7 @@ Zie [Zelfstudie: Trechterdiagrammen in Power BI](power-bi-visualization-funnel-c
 >[!TIP]
 >Geeft de huidige status weer in de context van een doel.
 
-Zie [Zelfstudie: Meterdiagrammen in Power BI](power-bi-visualization-radial-gauge-charts.md) voor meer informatie.
+Zie [Meterdiagrammen in Power BI](power-bi-visualization-radial-gauge-charts.md) voor meer informatie.
 
 ### <a name="kpis"></a>KPI's
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
@@ -88,7 +88,7 @@ Zie [Zelfstudie: Meterdiagrammen in Power BI](power-bi-visualization-radial-gaug
 >[!TIP]
 >Geeft de voortgang naar een meetbaar doel aan.
 
-Zie [Zelfstudie: PKI's in Power BI](power-bi-visualization-kpi.md) voor meer informatie.
+Zie [KPI’s in Power BI](power-bi-visualization-kpi.md) voor meer informatie.
 
 ### <a name="line-charts"></a>Lijndiagrammen
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_line.png)
@@ -107,7 +107,7 @@ Zie [Tips en trucs voor visuele kaarten](power-bi-map-tips-and-tricks.md) voor m
 ### <a name="maps-arcgis-maps"></a>Kaarten: ArcGIS-kaarten
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
-Zie [Zelfstudie: ArcGIS-kaarten in Power BI](../power-bi-visualization-arcgis.md) voor meer informatie.
+Zie [ArcGIS-kaarten in Power BI](../power-bi-visualization-arcgis.md) voor meer informatie.
 
 ### <a name="maps-filled-maps-choropleth"></a>Maps: Choropletenkaarten
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
@@ -115,10 +115,21 @@ Zie [Zelfstudie: ArcGIS-kaarten in Power BI](../power-bi-visualization-arcgis.md
 >[!TIP]
 >Hoe intenser de kleur, hoe hoger de waarde.
 
-Zie [Zelfstudie: Choropletenkaarten in Power BI](power-bi-visualization-filled-maps-choropleths.md) voor meer informatie.
+Zie [Choropletenkaarten in Power BI](power-bi-visualization-filled-maps-choropleths.md) voor meer informatie.
+
+### <a name="maps-shape-maps"></a>Kaarten: shape-kaarten
+![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-shape-map2.png)
+
+>[!TIP]
+>Vergelijkt regio’s op kleur.
+
+Zie [Shape-kaarten in Power BI](desktop-shape-map.md) voor meer informatie.
+
 
 ### <a name="matrix"></a>Matrix
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
+
+Zie [Matrix-visuals in Power BI](desktop-shape-map.md) voor meer informatie.
 
 ### <a name="pie-charts"></a>Cirkeldiagrammen
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_pie.png)
@@ -129,12 +140,20 @@ Zie [Zelfstudie: Choropletenkaarten in Power BI](power-bi-visualization-filled-m
 >[!TIP]
 >Geven verbanden weer tussen twee (spreiding) of drie (bellen) kwantitatieve waarden (wel of niet, in welke volgorde enz.)
 
-Zie [Zelfstudie: Spreidingsdiagrammen in Power BI](power-bi-visualization-scatter.md) voor meer informatie.
+Zie [Spreidingsdiagrammen in Power BI](power-bi-visualization-scatter.md) voor meer informatie.
+
+### <a name="scatter-high-density"></a>High-densityspreiding
+![](media/power-bi-visualization-types-for-reports-and-q-and-a/density-scatter.png)
+
+>[!TIP]
+>Te veel gegevenspunten in een visual kunnen verwarrend zijn. Daarom wordt een geavanceerd densitysampling-algoritme gebruikt om te zorgen dat de visualisatie nauwkeurig is.
+
+Zie [High-densityspreidingsdiagrammen in Power BI](desktop-high-density-scatter-charts.md) voor meer informatie.
 
 ### <a name="slicers"></a>Slicers
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
 
-Zie [Zelfstudie: Slicers in Power BI](power-bi-visualization-slicers.md) voor meer informatie.
+Zie [Slicers in Power BI](power-bi-visualization-slicers.md) voor meer informatie.
 
 ### <a name="standalone-images"></a>Zelfstandige afbeeldingen
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_image.png)
@@ -149,10 +168,10 @@ Zie [Een afbeeldingswidget toevoegen aan een dashboard](../service-dashboard-add
 
 Zie [Werken met tabellen in Power BI](power-bi-visualization-tables.md) voor meer informatie.
 
-### <a name="tree-maps"></a>Treemaps
+### <a name="treemaps"></a>Treemaps
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
 
-Zie [Zelfstudie: Treemaps in Power BI](power-bi-visualization-treemaps.md) voor meer informatie.
+Zie [Treemaps in Power BI](power-bi-visualization-treemaps.md) voor meer informatie.
 
 >[!TIP]
 >Diagrammen van gekleurde rechthoeken waarbij de grootte de waarde aangeeft.  Ze kunnen hiërarchisch zijn waarbij kleinere rechthoeken zijn genest binnen de grootste rechthoeken.
@@ -163,7 +182,7 @@ Zie [Zelfstudie: Treemaps in Power BI](power-bi-visualization-treemaps.md) voor 
 >[!TIP]
 >Watervalgrafieken tonen een voorlopig totaal wanneer waarden worden toegevoegd of afgetrokken.
 
-Zie [Zelfstudie: Watervalgrafieken in Power BI](power-bi-visualization-waterfall-charts.md) voor meer informatie.
+Zie [Watervalgrafieken in Power BI](power-bi-visualization-waterfall-charts.md) voor meer informatie.
 
 ## <a name="tell-qa-which-visualization-to-use"></a>Aangeven welke visualisatie Q&A moet gebruiken
 Wanneer u query's in natuurlijke taal typt met Power BI Q&A, kunt u het type visualisatie in uw query opgeven.  Bijvoorbeeld:
@@ -175,10 +194,3 @@ Wanneer u query's in natuurlijke taal typt met Power BI Q&A, kunt u het type vis
 ## <a name="next-steps"></a>Volgende stappen
 [Visualisaties in Power BI-rapporten](power-bi-report-visualizations.md)    
 [The right visual reference van sqlbi.com](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
-
-[Rapporten in Power BI](../consumer/end-user-reports.md)
-
-[Power BI - basisconcepten](../consumer/end-user-basic-concepts.md)
-
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
-

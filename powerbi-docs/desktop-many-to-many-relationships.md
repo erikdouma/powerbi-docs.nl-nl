@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/31/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 40799bb2716b2f6e85405e76c2a301acef3509aa
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: 5c0c6fd619a2487f9c801200d732cda628a68055
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388750"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45973995"
 ---
 # <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>Veel-op-veelrelaties in Power BI Desktop (preview-versie)
 
@@ -158,12 +158,13 @@ Het is dan ook belangrijk dat er goed op wordt gelet dat berekeningen met *ALL(\
 
 Er gelden enkele beperkingen voor deze release van **veel-op-veel-relaties** en **samengestelde modellen**.
 
-De volgende multidimensionale bronnen kunnen niet worden gebruikt met **samengestelde modellen**:
+De volgende (multidimensionale) Live Connect-bronnen kunnen niet worden gebruikt met **samengestelde modellen**:
 
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
 * Power BI-gegevenssets
+* Azure Analysis Services
 
 Als u met behulp van DirectQuery verbinding maakt met deze multidimensionale bronnen, is het niet mogelijk om ook nog verbinding te maken met een andere DirectQuery-bron. Het is dan evenmin mogelijk om te combineren met geïmporteerde gegevens.
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/19/2018
+ms.date: 09/14/2018
 ms.author: maggies
-ms.openlocfilehash: 922352c0cdbacd57d3e6706d490b3cc7e65ab8f6
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 09e7534146ace617ee3e517eca6a453aa9002d38
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736474"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546896"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -22,6 +22,25 @@ Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mog
 * [Power BI team blog for the mobile apps](https://powerbi.microsoft.com/blog/tag/mobile/) (Power BI-teamblog voor mobiele apps)
 * [What's new in Power BI Desktop](../../desktop-latest-update.md) (Wat is er nieuw in Power BI Desktop)  
 * [What's new in the Power BI service](../../service-whats-new.md) (Wat is er nieuw in de Power BI-service)  
+
+## <a name="september-2018"></a>September 2018
+
+### <a name="phone-report-editing-in-the-browser-all-devices"></a>Telefoonrapport bewerken in de browser (alle apparaten)
+
+U kunt nu een telefoonrapportindeling maken voor een rapport dat al is gepubliceerd in de Power BI-service, en niet alleen in Power BI Desktop. U kunt deze maken in de modus Bewerken in uw browser.
+
+### <a name="dashboard-commenting-ios-and-android"></a>Dashboardopmerkingen (iOS en Android) 
+
+U kunt opmerkingen rechtstreeks aan dashboards en specifieke tegels toevoegen om uw gegevens te bespreken, en iedereen die het dashboard bekijkt ziet uw opmerkingen. U kunt anderen in de organisatie toevoegen aan het gesprek met @mentioning. Degenen met een @mentioned ontvangen een pushmelding met uw bericht op hun mobiele telefoon.
+
+Op dit moment beschikbaar voor iOS en Android-apparaten. Windows ondersteuning binnenkort beschikbaar.
+
+Lees het [blogbericht over dashboardopmerkingen](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/) in Power BI.
+
+### <a name="single-sign-on-windows"></a>Eenmalige aanmelding (Windows)
+
+Eenmalige aanmelding (SSO) is een van de meest gevraagde functies voor de mobiele versie van Power BI voor Windows. U kunt nu uw primaire organisatie-account niet alleen gebruiken om u aan te melden bij de mobiele Windows-apparaten in uw domein aan te melden, maar ook om u naadloos aan te melden bij de Power BI-service. Meer informatie over [Eenmalige aanmelding en de mobiele Windows-apps](mobile-windows-10-app-single-sign-on-sso.md).
+
 
 ## <a name="july-2018"></a>Juli 2018
 
@@ -177,7 +196,7 @@ Lees het [overzicht van functies op mobiele apps van juli 2017](https://powerbi.
 
 ### <a name="june-2107"></a>Juni 2107
 #### <a name="all-devices"></a>Alle apparaten
-**Apps favoriet maken** U kunt al een dashboard favoriet maken. Onlangs zijn in [Power BI apps toegevoegd](../../service-install-use-apps.md) (Engelstalig) en u kunt nu ook apps favoriet maken. 
+**Apps favoriet maken** U kunt al een dashboard favoriet maken. Onlangs zijn in [Power BI apps toegevoegd](../end-user-apps.md) (Engelstalig) en u kunt nu ook apps favoriet maken. 
 
 ### <a name="may-2017"></a>Mei 2017
 #### <a name="all-devices"></a>Alle apparaten
@@ -498,7 +517,7 @@ Alle verbeteringen van januari zijn al aanwezig in de nieuwe [Power BI-app voor 
 
 **R-tegels en webwidgets** Bekijk deze nieuwe tegeltypen in dashboards op uw mobiele apparaat.
 
-**Bing-dashboards** In de Power BI-service kunt u nu [dashboards maken met Bing-zoekresultaten](../../service-connect-to-services.md) (Engelstalig) en ze weergeven op uw mobiele apparaat.
+**Bing-dashboards** In de Power BI-service kunt u nu [dashboards maken met Bing-zoekresultaten](../end-user-connect-to-services.md) (Engelstalig) en ze weergeven op uw mobiele apparaat.
 
 **Rapportpagina's als tegels vastgemaakt aan dashboards** Nu u een hele rapportpagina aan een dashboard in de Power BI-service kunt vastmaken, kunt u rapportpagina's bekijken in de Power BI-app op uw iPhone of Android-telefoon.
 

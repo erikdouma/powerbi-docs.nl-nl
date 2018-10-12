@@ -9,72 +9,76 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 544429528ed51dd2928eb82632f512ff3f7d5afd
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.openlocfilehash: 7dd1c323584ae1d9013b839717bfeb59a97c078c
+ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39359726"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47238072"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>Zelfstudie: een Power BI-rapport, -dashboard of -tegel insluiten in een toepassing voor uw organisatie
-In deze zelfstudie leert u hoe u een rapport in een toepassing kunt integreren met de **.NET SDK voor Power BI** en de **JavaScript-API voor Power BI** bij het insluiten van **Power BI** in een toepassing voor uw organisatie. Met **Power BI** kunt u rapporten, dashboards en tegels in een toepassing insluiten met **gegevens waarvan de gebruiker eigenaar is**. Uw toepassing kan met **gegevens waarvan de gebruiker eigenaar is** de Power BI-service uitbreiden.
 
-![Toepassing weergeven](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
+In deze zelfstudie leert u hoe u een rapport in een toepassing integreert. U gebruikt de Power BI .NET-SDK in combinatie met de Power BI JavaScript-API om Power BI in te voegen in een toepassing voor uw organisatie. In Power BI kunt u rapporten, dashboards en tegels in een toepassing insluiten met **gegevens waarvan de gebruiker eigenaar is**. Uw toepassing kan met **gegevens waarvan de gebruiker eigenaar is** de Power BI-service uitbreiden.
 
-In deze zelfstudie leert u het volgende:
+![Power BI Embed-rapport](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
+
+In deze zelfstudie leert u de volgende taken:
 >[!div class="checklist"]
 >* Een toepassing registreren in Azure.
 >* Een Power BI-rapport insluiten in een toepassing.
 
 ## <a name="prerequisites"></a>Vereisten
-Als u wilt beginnen, hebt u een **Power BI Pro**-account en een **Microsoft Azure**-abonnement nodig.
 
-* Als u zich niet hebt geregistreerd voor **Power BI Pro**, [kunt u zich hier aanmelden voor een gratis proefversie](https://powerbi.microsoft.com/en-us/pricing/) voordat u begint.
+Als u wilt beginnen, hebt u een Power BI Pro-account en een Microsoft Azure-abonnement nodig:
+
+* Als u zich niet hebt geregistreerd voor Power BI Pro, [kunt u zich hier aanmelden voor een gratis proefversie](https://powerbi.microsoft.com/en-us/pricing/) voordat u begint.
 * Als u nog geen abonnement op Azure hebt, maakt u een [gratis account](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) voordat u begint.
-* U moet beschikken over een eigen [Azure Active Directory-tenant ](create-an-azure-active-directory-tenant.md).
-* [Visual Studio](https://www.visualstudio.com/) moet zijn geïnstalleerd (versie 2013 of hoger).
+* Stel uw eigen [Azure Active Directory (Azure AD)-tenant](create-an-azure-active-directory-tenant.md) in.
+* Installeer [Visual Studio](https://www.visualstudio.com/), versie 2013 of later.
 
-## <a name="setup-your-embedded-analytics-development-environment"></a>De ingesloten analytische ontwikkelomgeving instellen
+## <a name="set-up-your-embedded-analytics-development-environment"></a>De ingesloten analytische ontwikkelomgeving instellen
 
-Voordat u begint met het insluiten van dashboards, rapporten en tegels in uw toepassing, moet u ervoor zorgen dat uw omgeving is ingesteld voor het insluiten van inhoud. Als onderdeel van het instellingsproces moet u het volgende doen.
+Voordat u begint met het insluiten van rapporten, dashboards en tegels in uw toepassing, moet u ervoor zorgen dat uw omgeving is ingesteld voor het insluiten van inhoud. Voer als onderdeel van de installatie een van deze acties uit:
 
-U kunt het [hulpprogramma voor onboarding-ervaring](https://aka.ms/embedsetup/UserOwnsData) uitvoeren om snel aan de slag te gaan en een voorbeeldtoepassing te downloaden waarmee u een omgeving leert maken en een rapport leert insluiten.
+- U kunt het [hulpprogramma voor installatie van insluiten](https://aka.ms/embedsetup/UserOwnsData) uitvoeren om snel aan de slag te gaan en een voorbeeldtoepassing te downloaden waarmee u een omgeving leert maken en een rapport leert insluiten.
 
-Als u echter besluit de omgeving handmatig in te stellen, kunt u hieronder doorgaan.
-### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Een toepassing registreren in Azure Active Directory (Azure AD)
+- Als u ervoor kiest de omgeving handmatig in te stellen, volg u de stappen in de volgende gedeeltes.
 
-U kunt uw toepassing registreren bij Azure Active Directory AD zodat uw toepassing toegang heeft tot de Power BI REST-API's. Hiermee kunt u een identiteit instellen voor uw toepassing en machtigingen opgeven voor Power BI REST-resources.
+### <a name="register-an-application-in-azure-active-directory"></a>Een toepassing registreren in Azure Active Directory
+
+Als u uw toepassing toegang wilt geven tot de Power BI REST-API's, registreert u deze met Azure Active Directory. Daarna kunt u een identiteit instellen voor uw toepassing en machtigingen opgeven voor Power BI REST-resources.
 
 1. Accepteer de [algemene voorwaarden van de Microsoft Power BI-API](https://powerbi.microsoft.com/api-terms).
 
 2. Meld u aan bij [Azure Portal](https://portal.azure.com).
 
-    ![Hoofdweergave van Azure Portal](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
+    ![Azure-dashboard](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
 
-3. Kies in het navigatiedeelvenster links **Alle services**, selecteer **App-registraties** en selecteer **Registratie van nieuwe toepassing**.
+3. Kies in het navigatiedeelvenster links **Alle services** en selecteer **App-registraties**. Selecteer vervolgens **Registratie van nieuwe toepassing**.
 
     ![App-registratie zoeken](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)</br>
+
     ![Nieuwe app-registratie](media/embed-sample-for-your-organization/embed-sample-for-your-organization-004.png)
 
-4. Volg de aanwijzingen en maak een nieuwe toepassing. Voor **gegevens waarvan de gebruiker eigenaar is** moet u **Web-app/API** voor het toepassingstype gebruiken. Daarnaast moet u een **aanmeldings-URL** opgeven, die door **Azure AD** wordt gebruikt om tokenantwoorden te retourneren. Voer een specifieke waarde in voor uw toepassing ( bijvoorbeeld http://localhost:13526/).
+4. Volg de aanwijzingen en maak een nieuwe toepassing. Voor **gegevens waarvan de gebruiker eigenaar is** moet u **Web-app/API** voor het **toepassingstype** gebruiken. Daarnaast moet u een **aanmeldings-URL** opgeven, die door Azure AD wordt gebruikt om tokenantwoorden te retourneren. Voer een specifieke waarde in voor uw toepassing. Een voorbeeld is `http://localhost:13526/`.
 
-    ![App maken](media/embed-sample-for-your-organization/embed-sample-for-your-organization-005.png)
+    ![Een app maken](media/embed-sample-for-your-organization/embed-sample-for-your-organization-005.png)
 
 ### <a name="apply-permissions-to-your-application-within-azure-active-directory"></a>Machtigingen toepassen op uw toepassing in Azure Active Directory
 
-U moet extra machtigingen inschakelen voor uw toepassing naast de informatie die u hebt opgegeven op de pagina voor de app-registratie. U moet zijn aangemeld met een *algemeen beheerdersaccount* om machtigingen in te schakelen.
+U moet machtigingen inschakelen voor uw toepassing naast de informatie die u hebt opgegeven op de pagina voor de app-registratie. Meld u aan met een algemeen beheerdersaccount om machtigingen in te schakelen.
 
 ### <a name="use-the-azure-active-directory-portal"></a>Azure Active Directory-portal gebruiken
 
 1. Blader naar [App-registraties](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade) in Azure Portal en selecteer de app die u gebruikt voor insluiting.
 
-    ![App kiezen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+    ![Een app kiezen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-2. Selecteer **Instellingen** en selecteer **Vereiste machtigingen**, onder **API-toegang**.
+2. Selecteer **Instellingen**. Selecteer vervolgens **Vereiste machtigingen** onder **API-toegang**.
 
     ![Vereiste machtigingen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-008.png)
 
-3. Selecteer **Windows Azure Active Directory** en controleer vervolgens of **De map openen als de aangemelde gebruiker** is geselecteerd. Selecteer **Opslaan**.
+3. Selecteer **Windows Azure Active Directory**. Controleer of **De map openen als de aangemelde gebruiker** is ingeschakeld. Selecteer **Opslaan**.
 
     ![Windows Azure AD-machtigingen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-011.png)
 
@@ -82,173 +86,178 @@ U moet extra machtigingen inschakelen voor uw toepassing naast de informatie die
 
     ![Machtigingen toevoegen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-012.png)
 
-5. Selecteer **Een API selecteren**.
+5. Kies **Een API selecteren**.
 
     ![API-toegang toevoegen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-013.png)
 
-6. Selecteer **Power BI-service** en selecteer vervolgens **Selecteren**.
+6. Selecteer **Power BI-service**. Kies vervolgens **Selecteren**.
 
-    ![PBI-services selecteren](media/embed-sample-for-your-organization/embed-sample-for-your-organization-014.png)
+    ![Power BI-service selecteren](media/embed-sample-for-your-organization/embed-sample-for-your-organization-014.png)
 
-7. Selecteer alle machtigingen onder **Gedelegeerde machtigingen**. U moet deze één voor één selecteren om ze te kunnen opslaan. Selecteer **Opslaan** wanneer u klaar bent.
+7. Selecteer alle machtigingen onder **Gedelegeerde machtigingen**. Selecteer deze één voor één om ze te kunnen opslaan. Selecteer **Opslaan** wanneer u klaar bent.
 
     ![Gedelegeerde machtigingen selecteren](media/embed-sample-for-your-organization/embed-sample-for-your-organization-015.png)
 
-## <a name="setup-your-power-bi-environment"></a>Uw Power BI-omgeving instellen
+## <a name="set-up-your-power-bi-environment"></a>Uw Power BI-omgeving instellen
 
 ### <a name="create-an-app-workspace"></a>Een app-werkruimte maken
 
-Als u rapporten, dashboards of tegels voor uw klanten insluit, moet u uw inhoud binnen de werkruimte van een app plaatsen.
+Als u rapporten, dashboards of tegels voor uw klanten insluit, moet u uw inhoud binnen de werkruimte van een app plaatsen:
 
-1. Maak eerst de werkruimte. Selecteer **Werkruimten** > **App-werkruimte maken**. Hier wordt de inhoud geplaatst waartoe de toepassing toegang moet hebben.
+1. Maak eerst de werkruimte. Selecteer **Werkruimten** > **App-werkruimte maken**. In deze werkruimte wordt de inhoud geplaatst waartoe de toepassing toegang moet hebben.
 
-    ![Werkruimte maken](media/embed-sample-for-your-organization/embed-sample-for-your-organization-020.png)
+    ![Een werkruimte maken](media/embed-sample-for-your-organization/embed-sample-for-your-organization-020.png)
 
 2. Geef een naam op voor de werkruimte. Als de corresponderende **werkruimte-id** niet beschikbaar is, kunt u deze bewerken tot een unieke aanduiding. Dit moet ook de naam van de app zijn.
 
-    ![Werkruimte een naam geven](media/embed-sample-for-your-organization/embed-sample-for-your-organization-021.png)
+    ![Een werkruimte benoemen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-021.png)
 
-3. U moet een aantal opties instellen. Als u **Openbaar** kiest, is de inhoud van de werkruimte zichtbaar voor iedereen in de organisatie. Als u **Privé** kiest, is de inhoud alleen zichtbaar voor leden van de werkruimte.
+3. U moet een aantal opties instellen. Als u **Openbaar** kiest, is de inhoud van de werkruimte zichtbaar voor iedereen in de organisatie. **Privé** betekent dat de inhoud alleen zichtbaar is voor leden van de werkruimte.
 
-    ![Openbaar/privé](media/embed-sample-for-your-organization/embed-sample-for-your-organization-022.png)
+    ![Privé of Openbaar kiezen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-022.png)
 
-    U kunt de instelling Openbaar/Privé niet meer wijzigen nadat u de groep hebt gemaakt.
+    U kunt de instelling Openbaar of Privé niet meer wijzigen nadat u de groep hebt gemaakt.
 
-4. U kunt ook kiezen of leden van de werkruimte rechten voor **bewerken** of **alleen-lezen** krijgen.
+4. U kunt ook kiezen of leden rechten voor bewerken of alleen-lezen krijgen.
 
-    ![Leden toevoegen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-023.png)
+    ![Ledentoegang kiezen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-023.png)
 
-5. Voeg de e-mailadressen toe van de personen die u toegang tot de werkruimte wilt geven, en selecteer **Toevoegen**. U kunt geen groepsaliassen toevoegen, alleen personen.
+5. Voeg de e-mailadressen toe van de personen die u toegang tot de werkruimte wilt geven en selecteer **Toevoegen**. U kunt geen groepsaliassen toevoegen, alleen personen.
 
 6. Bepaal per persoon of deze een lid of een beheerder is. Beheerders kunnen de werkruimte zelf bewerken, en bijvoorbeeld ook andere leden toevoegen. Leden kunnen de inhoud in de werkruimte bewerken, tenzij ze alleen leesrechten hebben. Zowel beheerders als leden kunnen de app publiceren.
 
     Nu kunt u de nieuwe werkruimte weergeven. De werkruimte wordt gemaakt en in Power BI geopend. De werkruimte wordt weergegeven in de lijst met werkruimten waarvan u lid bent. Omdat u een beheerder bent, kunt u het weglatingsteken (...) selecteren om terug te gaan en wijzigingen aanbrengen, bijvoorbeeld nieuwe leden toevoegen of machtigingen van leden wijzigen.
 
-    ![Werkruimte maken](media/embed-sample-for-your-organization/embed-sample-for-your-organization-025.png)
+    ![App-werkruimte maken](media/embed-sample-for-your-organization/embed-sample-for-your-organization-025.png)
 
 ### <a name="create-and-publish-your-reports"></a>Rapporten maken en publiceren
 
-U kunt de rapporten en gegevenssets maken met Power BI Desktop en de rapporten vervolgens publiceren naar een app-werkruimte. De eindgebruiker die de rapporten naar een app-werkruimte publiceert, moet beschikken over een Power BI Pro-licentie.
+U kunt uw rapporten en gegevenssets maken met behulp van Power BI Desktop. Vervolgens kunt u die rapporten publiceren naar een app-werkruimte. De eindgebruiker die de rapporten naar een app-werkruimte publiceert, moet beschikken over een Power BI Pro-licentie.
 
 1. Download het voorbeeld van de [blogdemo](https://github.com/Microsoft/powerbi-desktop-samples) vanuit GitHub.
 
-    ![Rapportvoorbeeld](media/embed-sample-for-your-organization/embed-sample-for-your-organization-026-1.png)
+    ![De demo downloaden](media/embed-sample-for-your-organization/embed-sample-for-your-organization-026-1.png)
 
-2. Open het voorbeeld-PBIX-rapport in **Power BI Desktop**.
+2. Open het .pbix-voorbeeldrapport in Power BI Desktop.
 
-   ![Rapport in PBI Desktop](media/embed-sample-for-your-organization/embed-sample-for-your-organization-027.png)
+   ![Power BI Desktop-voorbeeldrapport](media/embed-sample-for-your-organization/embed-sample-for-your-organization-027.png)
 
-3. Publiceer het rapport naar de **app-werkruimte**.
+3. Publiceer het rapport naar de app-werkruimte.
 
-   ![Rapport in PBI Desktop](media/embed-sample-for-your-organization/embed-sample-for-your-organization-028.png)
+   ![Een Power BI Desktop-rapport publiceren](media/embed-sample-for-your-organization/embed-sample-for-your-organization-028.png)
 
     U kunt het rapport nu weergeven in Power BI-service online.
 
-   ![Rapport in PBI Desktop](media/embed-sample-for-your-organization/embed-sample-for-your-organization-029.png)
+   ![Een Power BI Desktop-rapport weergeven](media/embed-sample-for-your-organization/embed-sample-for-your-organization-029.png)
 
-## <a name="embed-your-content-using-the-sample-application"></a>Uw inhoud met behulp van de voorbeeldtoepassing insluiten
+## <a name="embed-your-content-by-using-the-sample-application"></a>Uw inhoud met behulp van de voorbeeldtoepassing insluiten
 
-Volg deze stappen om inhoud in te sluiten met een voorbeeldtoepassing.
+Volg deze stappen om uw inhoud in te sluiten met behulp van een voorbeeldtoepassing:
 
-1. Download het [voorbeeld waarin de gebruiker eigenaar is van de gegevens](https://github.com/Microsoft/PowerBI-Developer-Samples) vanuit GitHub om aan de slag te gaan.  Er zijn drie verschillende voorbeeldtoepassingen: één voor [rapporten](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-report-web-app), één voor [dashboards](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-dashboard-web-app) en één voor [tegels](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app).  Dit artikel verwijst naar de toepassing **Rapporten** wanneer we de onderstaande stappen bespreken.
+1. Download het [voorbeeld waarin de gebruiker eigenaar is van de gegevens](https://github.com/Microsoft/PowerBI-Developer-Samples) vanuit GitHub om aan de slag te gaan. Er zijn drie verschillende voorbeeldtoepassingen: één voor [rapporten](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-report-web-app), één voor [dashboards](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-dashboard-web-app) en één voor [tegels](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app). In dit artikel wordt naar de toepassing **Rapporten** verwezen.
 
     ![Voorbeeldtoepassing waarin gebruiker eigenaar is van de gegevens](media/embed-sample-for-your-organization/embed-sample-for-your-organization-026.png)
 
-2. Open het bestand Cloud.config in de voorbeeldtoepassing. Er zijn enkele velden die u moet invullen voor een correcte uitvoering van de toepassing. De **ClientID** en het **ClientSecret**.
+2. Open het bestand **Cloud.config** in de voorbeeldtoepassing. Er zijn een aantal velden die u moet invullen om de toepassing te kunnen uitvoeren: **ClientID** en **ClientSecret**.
 
-    ![Bestand Cloud.config](media/embed-sample-for-your-organization/embed-sample-for-your-organization-030.png)
+    ![Cloud.config-bestand](media/embed-sample-for-your-organization/embed-sample-for-your-organization-030.png)
 
-    Vul bij **ClientID** de **toepassings-id** van **Azure** in. De **ClientID** wordt door de toepassing gebruikt om zich te identificeren bij de gebruikers bij wie u machtigingen aanvraagt.
+    Vul bij **ClientID** de **toepassings-id** van Azure in. De **ClientID** wordt door de toepassing gebruikt om zich te identificeren bij de gebruikers bij wie u machtigingen aanvraagt.
 
     Ga als volgt te werk om de **ClientID** op te halen:
 
-    Meld u aan bij [Azure Portal](https://portal.azure.com).
+    1. Meld u aan bij [Azure Portal](https://portal.azure.com).
 
-    ![Hoofdweergave van Azure Portal](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
+        ![Azure Portal-dashboard](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
 
-    Kies in het navigatiedeelvenster links **Alle services** en selecteer **App-registraties**.
+    1. Kies in het navigatiedeelvenster links **Alle services** en selecteer **App-registraties**.
 
-    ![App-registratie zoeken](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+        ![App-registratie zoeken](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-    Selecteer de toepassing die de **ClientID** moet gebruiken.
+    1. Selecteer de toepassing die de **ClientID** moet gebruiken.
 
-    ![App kiezen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+        ![Een app kiezen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-    U ziet een **toepassings-ID** die wordt vermeld als een GUID. Gebruik deze **toepassings-id** als de **ClientID** voor de toepassing.
+    1. U ziet een **toepassings-id** die wordt vermeld als een GUID. Gebruik deze **toepassings-id** als de **ClientID** voor de toepassing.
 
-    ![ClientID](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
+        ![ClientID](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
 
-    Geef de **ClientSecret**-gegevens op in het gedeelte **Sleutels** van de sectie **App-registraties** in **Azure**.
+    1. Geef de **ClientSecret**-gegevens op in het gedeelte **Sleutels** van de sectie **App-registraties** in **Azure**.
 
-    Ga als volgt te werk om het **ClientSecret** op te halen:
+    1. Ga als volgt te werk om het **ClientSecret** op te halen:
 
-    Meld u aan bij [Azure Portal](https://portal.azure.com).
+        1. Meld u aan bij [Azure Portal](https://portal.azure.com).
 
-    ![Hoofdweergave van Azure Portal](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
+            ![Azure-portal](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
 
-    Kies in het navigatiedeelvenster links **Alle services** en selecteer **App-registraties**.
+        1. Kies in het navigatiedeelvenster links **Alle services** en selecteer **App-registraties**.
 
-    ![App-registratie zoeken](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+            ![App-registratie zoeken](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-    Selecteer de toepassing die het **ClientSecret** moet gebruiken.
+        1. Selecteer de toepassing die het **ClientSecret** moet gebruiken.
 
-    ![App kiezen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+            ![Een app kiezen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-    Selecteer **Instellingen**.
+        1. Selecteer **Instellingen**.
 
-    ![Instellingen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
+            ![Instellingen selecteren](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
 
-    Selecteer **Sleutels**.
+        1. Selecteer **Sleutels**.
 
-    ![Sleutels](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
+            ![Sleutels selecteren](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
 
-    Geef een naam op in **Beschrijving** en selecteer een **Duur**, Selecteer vervolgens **Opslaan** om de **Waarde** voor uw toepassing op te halen. Zodra u de blade **Sleutels** sluit nadat u de **sleutelwaarde** hebt opgeslagen, wordt het waardeveld alleen nog als **_Verborgen_** weergegeven. Vanaf dat moment kunt u de **sleutelwaarde** niet meer ophalen. Als u de **sleutelwaarde** kwijtraakt, moet u een nieuwe waarde maken binnen **Azure Portal**.
+    1. Voer in het vak **Beschrijving** een naam in en selecteer een duur. Selecteer vervolgens **Opslaan** om de **Waarde** voor uw toepassing op te halen. Wanneer u het deelvenster **Sleutels** sluit nadat u de sleutelwaarde hebt opgeslagen, wordt het waardeveld alleen nog als verborgen weergegeven. Op dat punt kunt u de sleutelwaarde niet meer ophalen. Als u de sleutelwaarde kwijtraakt, kunt u een nieuwe maken in Azure Portal.
 
-    ![Sleutels](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
+        ![Sleutelwaarde](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
 
-     Vul bij **groupId** informatie over de **app-werkruimte-GUID** uit Power BI in.
+    1. Voor de **groupId** voert u de GUID van de app-werkruimte van Power BI in.
 
-    ![groupId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
+        ![De groupId invoeren](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
 
-    Vul bij **reportId** informatie over de **rapport-GUID** uit Power BI in.
+    1. Voor de **reportId** voert u de rapport-GUID uit Power BI in.
 
-    ![reportId](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
+        ![De reportId invoeren](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
 
-3. Nu kunt u de toepassing uitvoeren.
+3. Voer de toepassing uit:
 
-    Selecteer eerst **Uitvoeren** in **Visual Studio**.
+    1. Selecteer eerst **Uitvoeren** in **Visual Studio**.
 
-    ![De toepassing uitvoeren](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
+        ![De toepassing uitvoeren](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
 
-    Selecteer vervolgens **Rapport ophalen**.
+    1. Selecteer vervolgens **Rapport ophalen**.
 
-    ![Inhoud selecteren](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
+        ![Inhoud selecteren](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
 
-    U kunt het rapport nu weergeven in de voorbeeldtoepassing.
+    1. U kunt het rapport nu weergeven in de voorbeeldtoepassing.
 
-    ![Toepassing weergeven](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
+        ![Het rapport in de toepassing weergeven](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
 ## <a name="embed-your-content-within-your-application"></a>Uw inhoud in uw toepassing insluiten
-Hoewel de stappen voor het insluiten van uw inhoud kunnen worden uitgevoerd met de [Power BI REST-API's](https://docs.microsoft.com/rest/api/power-bi/), worden de voorbeeldcodes die worden beschreven in dit artikel gemaakt met de **.NET SDK**.
 
-Als u een rapport wilt integreren in een web-app, gebruikt u de **Power BI REST-API** of de **Power BI C# SDK** en een **AD-toegangstoken** (Azure Active Directory) voor autorisatie bij het ophalen van een rapport. Vervolgens kunt u het rapport laden met hetzelfde **toegangstoken**. De **Power BI Rest-API** biedt programmatische toegang tot specifieke **Power BI**-resources. Zie [Power BI REST-API](https://docs.microsoft.com/rest/api/power-bi/) en de [Power BI JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript) voor meer informatie.
+Hoewel de stappen voor het insluiten van uw inhoud kunnen worden uitgevoerd met de [Power BI REST-API's](https://docs.microsoft.com/rest/api/power-bi/), worden de voorbeeldcodes die worden beschreven in dit artikel gemaakt met de .NET SDK.
+
+Als u een rapport in een web-app wilt integreren, gebruikt u de Power BI REST-API of de Power BI C#-SDK. U kunt ook een Azure Active Directory-verificatietoegangstoken gebruiken om een rapport op te halen. Vervolgens kunt u het rapport laden met hetzelfde toegangstoken. De Power BI Rest-API biedt programmatische toegang tot specifieke Power BI-resources. Zie [Power BI REST-API's](https://docs.microsoft.com/rest/api/power-bi/) en de [Power BI JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript) voor meer informatie.
 
 ### <a name="get-an-access-token-from-azure-ad"></a>Een toegangstoken ophalen uit Azure AD
-In uw toepassing moet u eerst een **toegangstoken** van Azure AD ophalen voordat u de Power BI REST-API kunt aanroepen. Zie [Gebruikers verifiëren en een Azure AD-toegangstoken verkrijgen voor uw Power BI-app](get-azuread-access-token.md) voor meer informatie.
+
+In uw toepassing moet u een toegangstoken van Azure AD ophalen voordat u de Power BI REST API kunt aanroepen. Zie [Gebruikers verifiëren en een Azure AD-toegangstoken verkrijgen voor uw Power BI-app](get-azuread-access-token.md) voor meer informatie.
 
 ### <a name="get-a-report"></a>Een rapport ophalen
-Als u een **Power BI**-rapport wilt ophalen, gebruikt u de bewerking [Rapporten ophalen](https://docs.microsoft.com/rest/api/power-bi/reports/getreports). Hiermee haalt u een lijst met **Power BI-rapporten** op. Vanuit de lijst met rapporten kunt u een rapport-ID ophalen.
 
-### <a name="get-reports-using-an-access-token"></a>Rapporten ophalen met behulp van een toegangstoken
+Als u een Power BI-rapport wilt ophalen, gebruikt u de bewerking [Rapporten ophalen](https://docs.microsoft.com/rest/api/power-bi/reports/getreports). Hiermee haalt u een lijst met Power BI-rapporten op. Vanuit de lijst met rapporten kunt u een rapport-id ophalen.
+
+### <a name="get-reports-by-using-an-access-token"></a>Rapporten ophalen met behulp van een toegangstoken
+
 Met de bewerking [Rapporten ophalen](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) wordt een lijst met rapporten geretourneerd. U kunt een enkel rapport ophalen vanuit de lijst met rapporten.
 
 Als u de REST-API-aanroep uitvoert, moet u de header *Autorisatie* met de indeling *Bearer {toegangstoken}* toevoegen.
 
 #### <a name="get-reports-with-the-rest-api"></a>Rapporten ophalen met de REST-API
 
-Hier vindt u een voorbeeldcode voor het ophalen van rapporten met de **REST API**.
+In het volgende codevoorbeeld ziet u hoe u rapporten ophaalt met de **REST-API**:
 
-*Een voorbeeld van het ophalen van een inhoudsitem dat u wilt insluiten (rapport, dashboard of tegel), is beschikbaar in het bestand **_Default.aspx.cs_** in de [voorbeeldtoepassing](#embed-your-content-using-the-sample-application).*
+> [!NOTE]  
+> Een voorbeeld van het ophalen van een inhoudsitem dat u wilt insluiten, is beschikbaar in het bestand **Default.aspx.cs** in de [voorbeeldtoepassing](#embed-your-content-using-the-sample-application). Voorbeelden zijn rapporten, dashboards of tegels.
 
 ```csharp
 using Newtonsoft.Json;
@@ -302,8 +311,9 @@ public class PBIReport
 }
 ```
 
-#### <a name="get-reports-using-the-net-sdk"></a>Rapporten ophalen met de .NET SDK
-U kunt de .NET-SDK gebruiken voor het ophalen van een lijst met rapporten. Zo hoeft u de REST-API niet rechtstreeks aan te roepen. Hier vindt u een voorbeeldcode voor het vermelden van rapporten.
+#### <a name="get-reports-by-using-the-net-sdk"></a>Rapporten ophalen met de .NET SDK
+
+U kunt de .NET-SDK gebruiken voor het ophalen van een lijst met rapporten. Zo hoeft u de REST-API niet rechtstreeks aan te roepen. In het volgende codevoorbeeld ziet u hoe u rapporten vermeldt:
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -324,12 +334,12 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 }
 ```
 
-### <a name="load-a-report-using-javascript"></a>Een rapport laden met JavaScript
-U kunt JavaScript gebruiken om een rapport te laden in een div-element op uw webpagina.
+### <a name="load-a-report-by-using-javascript"></a>Een rapport laden met JavaScript
 
-Hier volgt een codevoorbeeld van hoe u een rapport ophaalt uit een bepaalde werkruimte.
+U kunt JavaScript gebruiken om een rapport te laden in een div-element op uw webpagina. Het volgende codevoorbeeld toont u hoe u een rapport uit een bepaalde werkruimte ophaalt:
 
-*Een voorbeeld van het laden van een inhoudsitem voor een rapport, dashboard of tegel die u wilt insluiten, is beschikbaar in het bestand **_Default.aspx_** in de [voorbeeldtoepassing](#embed-your-content-using-the-sample-application).*
+> [!NOTE]  
+> Een voorbeeld van het laden van een inhoudsitem dat u wilt insluiten is beschikbaar in het bestand **standaard.aspx** in de [voorbeeldtoepassing](#embed-your-content-using-the-sample-application). Voorbeelden zijn rapporten, dashboards of tegels.
 
 ```javascript
 <!-- Embed Report-->
@@ -349,7 +359,7 @@ Hier volgt een codevoorbeeld van hoe u een rapport ophaalt uit een bepaalde werk
 </div>
 ```
 
-**Site.master**
+#### <a name="sitemaster"></a>Site.master
 
 ```javascript
 window.onload = function () {
@@ -410,50 +420,52 @@ function updateEmbedReport() {
 
 ## <a name="using-a-power-bi-premium-dedicated-capacity"></a>Een toegewezen capaciteit voor Power BI Premium gebruiken
 
-Nu u uw toepassing hebt ontwikkeld, is het tijd om aan uw app-werkruimte toegewezen capaciteit toe te voegen.
+Nu u uw toepassing hebt ontwikkeld, is het tijd om toegewezen capaciteit toe te voegen aan uw app-werkruimte.
 
 ### <a name="create-a-dedicated-capacity"></a>Een toegewezen capaciteit maken
+
 Als u een toegewezen capaciteit maakt, profiteert u van een toegewezen resource voor de inhoud in uw app-werkruimte. U kunt een toegewezen capaciteit maken met [Power BI Premium](../service-premium.md).
 
-In de volgende tabel ziet u de Power BI Premium-SKU's die beschikbaar zijn in [Office 365](../service-admin-premium-purchase.md).
+In de volgende tabel ziet u de Power BI Premium-SKU's die beschikbaar zijn in [Microsoft Office 365](../service-admin-premium-purchase.md):
 
-| Capaciteitsknooppunt | Totaal aantal v-cores<br/>*(back-end + front-end)* | v-cores voor back-end | v-cores voor front-end | Limieten voor DirectQuery/liveverbindingen | Maximaal aantal paginaweergaven (rendering) tijdens piekuren |
+| Capaciteitsknooppunt | Totaal aantal vCores<br/>(back-end + front-end) | Back-end vCores | Front-end vCores | Limieten voor DirectQuery/liveverbindingen | Maximaal aantal paginaweergaven (rendering) tijdens piekuren |
 | --- | --- | --- | --- | --- | --- |
-| EM1 |1 v-core |0,5 v-cores, 10 GB RAM |0,5 v-cores |3,75 per seconde |150-300 |
-| EM2 |2 v-cores |1 v-core, 10 GB RAM |1 v-core |7,5 per seconde |301-600 |
-| EM3 |4 v-cores |2 v-cores, 10 GB RAM |2 v-cores |15 per seconde |601-1200 |
-| P1 |8 v-cores |4 v-cores, 25 GB RAM |4 v-cores |30 per seconde |1201-2400 |
-| P2 |16 v-cores |8 v-cores, 50 GB RAM |8 v-cores |60 per seconde |2401-4800 |
-| P3 |32 v-cores |16 v-cores, 100 GB RAM |16 v-cores |120 per seconde |4.801-9.600 |
-| P4 |64 v-cores |32 v-cores, 200 GB RAM |32 v-cores |240 per seconde |9601-19200
-| P5 |128 v-cores |64-v-cores, 400 GB RAM |64 v-cores |480 per seconde |19201-38400
+| EM1 |1 vCore |0,5 vCore, 10 GB RAM |0,5 vCore |3,75 per seconde |150-300 |
+| EM2 |2 vCores |1 vCore, 10 GB RAM |1 vCores |7,5 per seconde |301-600 |
+| EM3 |4 vCores |2 vCores, 10 GB RAM |2 vCores |15 per seconde |601-1200 |
+| P1 |8 vCores |4 vCores, 25 GB RAM |4 vCores |30 per seconde |1201-2400 |
+| P2 |16 vCores |8 vCores, 50 GB RAM |8 vCores |60 per seconde |2401-4800 |
+| P3 |32 vCores |16 vCores, 100 GB RAM |16 vCores |120 per seconde |4.801-9.600 |
+| P4 |64 vCores |32 vCores, 200 GB RAM |32 vCores |240 per seconde |9.601-19.200 |
+| P5 |128 vCores |64 vCores, 400 GB RAM |64 vCores |480 per seconde |19.201-38.400 |
 
-*Met **_EM-SKU's_** **kunt u** inhoud openen met een GRATIS Power BI-licentie als u de inhoud insluit in **_MS Office-apps_**. U kunt echter **geen inhoud openen** met een GRATIS Power BI-licentie wanneer u gebruikmaakt van **_Powerbi.com_** of de mobiele versie van **_Power BI_**.*
-
-*Met **_P-SKU's_** **kunt u** inhoud openen met een GRATIS Power BI-licentie als u de inhoud insluit in **_MS Office-apps_** of als u gebruikmaakt van **_Powerbi.com_** of **_de mobiele versie van Power BI_**.*
+> [!NOTE]
+> - Wanneer u probeert in te voegen met Microsoft Office-apps, kunt u EM-SKU's gebruiken om met een gratis Power BI-licentie toegang te krijgen tot inhoud. U kunt echter geen toegang krijgen tot inhoud met een gratis Power BI-licentie wanneer u Powerbi.com of Power BI voor mobiel gebruikt.
+> - Wanneer u probeert in te voegen in Microsoft Office-apps via Powerbi.com of Power BI voor mobiel, kunt u met een gratis Power BI-licentie toegang krijgen tot inhoud.
 
 ### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>Een app-werkruimte toewijzen aan een toegewezen capaciteit
 
-Zodra u toegewezen capaciteit hebt gemaakt, kunt u uw app-werkruimte toewijzen aan die toegewezen capaciteit. Ga hiervoor als volgt te werk.
+Nadat u toegewezen capaciteit hebt gemaakt, kunt u uw app-werkruimte toewijzen aan die toegewezen capaciteit. Ga hiervoor als volgt te werk:
 
-1. Vouw binnen **Power BI-service** werkruimten uit en selecteer het beletselteken voor de werkruimte die u gebruikt voor het insluiten van uw inhoud. Selecteer vervolgens **Werkruimten bewerken**.
+1. Vouw binnen Power BI-service werkruimten uit en selecteer het beletselteken voor de werkruimte die u gebruikt voor het insluiten van uw inhoud. Selecteer vervolgens **Werkruimten bewerken**.
 
-    ![Werkruimte bewerken](media/embed-sample-for-your-organization/embed-sample-for-your-organization-036.png)
+    ![Een werkruimte bewerken](media/embed-sample-for-your-organization/embed-sample-for-your-organization-036.png)
 
-2. Vouw **Geavanceerd** uit, schakel **Toegewezen capaciteit** in en selecteer de toegewezen capaciteit die u hebt gemaakt. Selecteer vervolgens **Opslaan**.
+2. Vouw **Geavanceerd** uit en schakel **Toegewezen capaciteit** in. Selecteer de toegewezen capaciteit die u hebt gemaakt. Selecteer vervolgens **Opslaan**.
 
-    ![Toegewezen capaciteit toewijzen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
+    ![Een toegewezen capaciteit toewijzen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
 
-3. Nadat u **Opslaan** hebt geselecteerd, ziet u een **ruit** naast de naam van de app-werkruimte.
+3. Nadat u **Opslaan** hebt geselecteerd, ziet u een ruit naast de naam van de app-werkruimte.
 
-    ![app-werkruimte gekoppeld aan een capaciteit](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
+    ![App-werkruimte gekoppeld aan een capaciteit](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
 
 ## <a name="admin-settings"></a>Beheerdersinstellingen
 
-Globale beheerders of Power BI-servicebeheerders kunnen de mogelijkheid om REST-API's te gebruiken, in- of uitschakelen voor een tenant. Power BI-beheerders kunnen deze instelling inschakelen voor de hele organisatie of voor afzonderlijke beveiligingsgroepen. Standaard is deze instelling ingeschakeld voor de hele organisatie. Dit doet u via de [Power BI-beheerportal](../service-admin-portal.md).
+Globale beheerders of Power BI-servicebeheerders kunnen de mogelijkheid om REST-API's te gebruiken in- of uitschakelen voor een tenant. Power BI-beheerders kunnen deze instelling inschakelen voor de hele organisatie of voor afzonderlijke beveiligingsgroepen. Standaard is deze instelling ingeschakeld voor de hele organisatie. U kunt deze wijzigingen doorvoeren in de [Power BI-beheerportal](../service-admin-portal.md).
 
 ## <a name="next-steps"></a>Volgende stappen
-In deze zelfstudie hebt u geleerd hoe u Power BI-inhoud insluit in een toepassing met uw **Power BI-account voor uw organisatie**. U kunt nu proberen Power BI-inhoud in een toepassing in te sluiten met apps.  U kunt ook Power BI-inhoud insluiten voor uw klanten.
+
+In deze zelfstudie hebt u geleerd hoe u Power BI-inhoud insluit in een toepassing met uw Power BI-account voor uw organisatie. U kunt nu proberen Power BI-inhoud in een toepassing in te sluiten met behulp van apps. U kunt ook Power BI-inhoud insluiten voor uw klanten:
 
 > [!div class="nextstepaction"]
 > [Insluiten vanuit apps](embed-from-apps.md)
@@ -461,4 +473,4 @@ In deze zelfstudie hebt u geleerd hoe u Power BI-inhoud insluit in een toepassin
 > [!div class="nextstepaction"]
 >[Insluiten voor uw klanten](embed-sample-for-customers.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Als u meer vragen hebt, kunt u deze stellen [in de Power BI-community](http://community.powerbi.com/).

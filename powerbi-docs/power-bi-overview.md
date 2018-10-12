@@ -1,25 +1,25 @@
 ---
 title: Wat is Power BI?
 description: 'Overzicht van Power BI en hoe de verschillende delen op elkaar aansluiten: Power BI Desktop, Power BI service, Power BI mobile, Report Server, Power BI embedded.'
-author: davidiseminger
-manager: kfile
+author: mihart
+manager: kvivek
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: overview
-ms.date: 06/22/2018
-ms.author: davidi
+ms.date: 09/22/2018
+ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 8b61e60852175ced605ae920a6a31091625f781f
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 73a3188256b754517beb9f83a382c4005de6e7e7
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47186933"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416976"
 ---
 # <a name="what-is-power-bi"></a>Wat is Power BI?
 **Power BI** bestaat uit een verzameling softwareservices, apps en connectors die samenwerken om uw niet-gerelateerde gegevensbronnen om te zetten in coherente, visueel aantrekkelijke en interactieve inzichten. Of uw gegevens nu bestaan uit een eenvoudig Excel-spreadsheet of een verzameling van cloudgebaseerde en on-premises hybride datawarehouses, met **Power BI** kunt u eenvoudig verbinding maken met uw gegevensbronnen, visualiseren (of ontdekken) wat belangrijk is en dat delen met wie u maar wilt.
 
-![diagram met invoerbronnen voor Power BI](media/power-bi-overview/power-bi-input.png)
+![diagram met invoerbronnen voor Power BI](media/power-bi-overview/power-bi-input-new.png)
 
 **Power BI** kan snel en eenvoudig zijn. Zo kunt u bijvoorbeeld snel inzichten maken op basis van een Excel-spreadsheet of een lokale database. Maar **Power BI** is ook een robuust en geavanceerd programma waarmee uitgebreide modellen en realtime analyses kunnen worden gemaakt en de mogelijkheid maatwerkontwikkeling biedt. Power BI kan dus fungeren als een persoonlijk hulpprogramma voor rapportage en visualisatie, maar ook als de analyse- en besluitvormingsmotor achter groepsprojecten, afdelingen en complete bedrijven.
 
@@ -41,6 +41,12 @@ Het is ook mogelijk dat u op verschillende momenten verschillende elementen van 
 
 Misschien houdt u de voorraadontwikkeling en de productievoortgang in de gaten via een realtime dashboard in de service en gebruikt u **Power BI Desktop** om rapporten met statistieken voor klantcontacten voor uw eigen team te maken. Hoe u Power BI gebruikt, is mogelijk afhankelijk van welke functie of service van Power BI het meest geschikt is voor uw situatie. Hoe dan ook, elk onderdeel van Power BI is beschikbaar voor u en dit is precies wat Power BI zo flexibel en interessant maakt.
 
+U kunt als volgt documenten verkennen die betrekking hebben op uw rol:
+- Power BI voor [***ontwikkelaars***](desktop-what-is-desktop.md)
+- Power BI voor [***gebruikers***](consumer/end-user-consuming.md)
+- Power BI voor [***ontwikkelaars***](developer/what-can-you-do.md)
+- Power BI voor [***beheerders***](service-admin-administering-power-bi-in-your-organization.md)
+
 ## <a name="the-flow-of-work-in-power-bi"></a>De werkstroom in Power BI
 Een veel voorkomende werkstroom in Power BI begint met het verbinding maken met gegevensbronnen en het bouwen van een rapport in **Power BI Desktop**. Dit rapport wordt vervolgens vanuit **Desktop** gepubliceerd in de **Power BI-service**, en gedeeld zodat gebruikers van de **service** en van de **mobiele versie** het rapport kunnen *gebruiken* (bekijken en acties in het rapport uitvoeren).
 Soms wilt u collega’s wellicht dezelfde machtigingen verlenen die u zelf hebt (*creator*-machtigingen), zodat ze de **service** ook kunnen gebruiken om rapporten te bewerken, dashboards te maken en hun werk te delen.
@@ -57,5 +63,5 @@ Maak, implementeer en beheer Power BI-, mobiele en gepagineerde rapporten on-pre
 Power BI Report Server is een oplossing die u implementeert achter de firewall. Vervolgens kunt u uw rapporten op verschillende manieren aanbieden aan de juiste gebruikers, zoals weergegeven in een webbrowser, op een mobiel apparaat of als een e-mailbericht. En omdat Power BI Report Server compatibel is met Power BI in de cloud, kunt u uw inhoud naar de cloud verplaatsen op het moment dat u er klaar voor bent.
 
 ## <a name="next-steps"></a>Volgende stappen
-[Aanmelden, gegevens ophalen en kennismaken met Power BI-service](consumer/end-user-experience.md)   
+[Aanmelden, gegevens ophalen en kennismaken met Power BI-service](service-the-new-power-bi-experience.md)   
 [Zelfstudie: Aan de slag met Power BI-service](service-get-started.md)

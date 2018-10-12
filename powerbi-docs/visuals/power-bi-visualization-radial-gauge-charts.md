@@ -8,15 +8,15 @@ featuredvideoid: xmja6Epqa
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/21/2018
+ms.date: 09/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e090515514897dd4dcbc9962d0dadacae5611ff0
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 71cde810f98a81ab5670b3ab04bc1cd502277c1c
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565545"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416861"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Radiale-meterdiagrammen in Power BI
 Een radiale-meterdiagram heeft een cirkelvormige boog en toont één waarde die de voortgang naar een doel/KPI meet.  Het doel of de doelwaarde wordt weergegeven door de lijn (naald). De voortgang naar het doel wordt weergegeven door de arcering.  En de waarde die de voortgang vertegenwoordigt, wordt vetgedrukt weergegeven in de boog. Alle mogelijke waarden zijn gelijkmatig verdeeld langs de boog, van minimum (meest linkse waarde) tot maximum (meest rechtse waarde).
@@ -92,7 +92,7 @@ In stap 2 gebruikte Power BI het veld Waarde om automatisch een minimum (begin) 
 
 ### <a name="step-5-save-your-report"></a>Stap 5: Het rapport opslaan
 1. [Sla het rapport op](../service-report-save.md).
-2. [Voeg het meterdiagram toe aan een dashboardtegel](../consumer/end-user-tiles.md). 
+2. [Voeg het meterdiagram toe aan een dashboardtegel](../service-dashboard-pin-tile-from-report.md). 
 
 ## <a name="use-formatting-options-to-manually-set-minimum-maximum-and-target-values"></a>Opmaakopties gebruiken om de minimum-, maximum- en doelwaarde handmatig in te stellen
 1. Verwijder **Gross Sales** uit het vak **Maximumwaarde**.
@@ -110,14 +110,8 @@ In stap 2 gebruikte Power BI het veld Waarde om automatisch een minimum (begin) 
     ![](media/power-bi-visualization-radial-gauge-charts/power-bi-gauge-target.png)
 6. Pas de opmaak van het meterdiagram desgewenst verder aan.
 
-## <a name="next-steps"></a>Volgende stappen
-[Typen visualisaties in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+## <a name="next-step"></a>Volgende stap
 
-[Een visualisatie toevoegen aan een rapport](power-bi-report-add-visualizations-i.md)
+[Meters in Power BI](power-bi-visualization-kpi.md)
 
-[Een visualisatie vastmaken aan een dashboard](../service-dashboard-pin-tile-from-report.md)
-
-[Power BI - basisbeginselen](../consumer/end-user-basic-concepts.md)
-
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
-
+[Visualization types in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md) (Typen visualisaties in Power BI)

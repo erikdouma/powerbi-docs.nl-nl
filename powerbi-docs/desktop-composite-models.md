@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/31/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ddfe0c7ad116a74fa6887491ee41e544096de0f9
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: 4e7692be8ec78c79076408635a75dbf0ab9080d2
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388842"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974041"
 ---
 # <a name="composite-models-in-power-bi-desktop-preview"></a>Samengestelde modellen in Power BI Desktop (preview-versie)
 
@@ -164,12 +164,13 @@ Het gebruik van **veel-op-veel**-relaties betekent bovendien dat afzonderlijke q
 
 Er gelden enkele beperkingen voor deze release van **samengestelde modellen**.
 
-De volgende multidimensionale bronnen kunnen niet worden gebruikt met **samengestelde modellen**:
+De volgende (multidimensionale) Live Connect-bronnen kunnen niet worden gebruikt met **samengestelde modellen**:
 
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
 * Power BI-gegevenssets
+* Azure Analysis Services
 
 Als u met behulp van DirectQuery verbinding maakt met deze multidimensionale bronnen, is het niet mogelijk om ook nog verbinding te maken met een andere DirectQuery-bron. Het is dan evenmin mogelijk om te combineren met geïmporteerde gegevens.
 

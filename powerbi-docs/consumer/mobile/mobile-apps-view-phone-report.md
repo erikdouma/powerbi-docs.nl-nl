@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 09/14/2018
 ms.author: maggies
-ms.openlocfilehash: 6ea5814cdba7df6d7e7bb4bbb284f52110ca184c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 06a8d15ca894b877199f22fc6c00d4c34827d76b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732798"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547793"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Voor uw telefoon geoptimaliseerde Power BI-rapporten weergeven
 
@@ -24,7 +24,7 @@ Van toepassing op:
 |:--- |:--- |
 | iPhones |Android-telefoons |
 
-Wanneer u een Power BI-rapport in Power BI Desktop maakt, kunt u ook [een versie van het rapport maken die is geoptimaliseerd voor weergave](../../desktop-create-phone-report.md) in de Power BI-app op een telefoon.
+Wanneer u een Power BI-rapport in Power BI Desktop of de Power BI-service maakt, kunt u ook [een versie van het rapport maken die is geoptimaliseerd voor weergave](../../desktop-create-phone-report.md) in de Power BI-app op een telefoon.
 
 Wanneer u een Power BI-rapport op een telefoon opent, detecteert Power BI vervolgens of het rapport is geoptimaliseerd voor telefoons. Vervolgens wordt het geoptimaliseerde rapport automatisch in staande weergave geopend.
 
@@ -79,7 +79,7 @@ Sommige handelingen zijn alleen mogelijk in de focusmodus vanwege beperkingen do
     Herstellen is beschikbaar op het niveau van het rapport om alle stappen op alle visuele elementen ongedaan te maken, of op het niveau van het visuele element om alle stappen op het specifieke geselecteerde visuele element te wissen.   
 
 ## <a name="drill-down-in-a-visual"></a>Inzoomen op een visueel element
-Als hiërarchieniveaus zijn gedefinieerd in een visueel element, u kunt inzoomen op de gedetailleerde informatie die wordt weergegeven in een visueel element. Vervolgens kunt u weer uitzoomen. U kunt [inzoomen op een visueel element toevoegen](../../power-bi-visualization-drill-down.md) in de Power BI-service of in Power BI Desktop. Inzoomen werkt alleen in voor de telefoon geoptimaliseerde Power BI-rapporten wanneer u ze op een telefoon bekijkt. 
+Als hiërarchieniveaus zijn gedefinieerd in een visueel element, u kunt inzoomen op de gedetailleerde informatie die wordt weergegeven in een visueel element. Vervolgens kunt u weer uitzoomen. U kunt [inzoomen op een visueel element toevoegen](../end-user-drill.md) in de Power BI-service of in Power BI Desktop. Inzoomen werkt alleen in voor de telefoon geoptimaliseerde Power BI-rapporten wanneer u ze op een telefoon bekijkt. 
 
 1. Tik in een rapport op de telefoon op het beletselteken (**...** ) in de rechterbovenhoek > **Uitvouwen voor focusmodus**.
    

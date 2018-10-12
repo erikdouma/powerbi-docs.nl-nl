@@ -1,22 +1,22 @@
 ---
 title: Power BI-rapportparameters toevoegen met behulp van de URL
 description: Filter een rapport met behulp van URL-queryreeksparameters, ook op meer dan één veld.
-author: mihart
-ms.author: mihart
-manager: annebe
+author: maggiesMSFT
+ms.author: maggies
+manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/14/2018
+ms.date: 10/01/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 1124163b985f575df08a9ba4f065c6a6b1abf54c
-ms.sourcegitcommit: cca21f8089e71b595d3aca30c95f12e4bbf767cc
+ms.openlocfilehash: 562af0b21c4ecd4617de0e524cca20ec6935ca7a
+ms.sourcegitcommit: 31f9da5f562cd02a729b6f012b4b3326416adb0e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/14/2018
-ms.locfileid: "45626026"
+ms.lasthandoff: 10/03/2018
+ms.locfileid: "48232921"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Een rapport filteren door queryreeksparameters in de URL te gebruiken
 
@@ -106,7 +106,7 @@ Power BI biedt ondersteuning voor veel operators naast **en**. De volgende tabel
 |**gt**     | groter dan        |nee | ja | ja  | product/price gt 20
 |**le**     |   kleiner dan of gelijk aan      | nee | ja | ja  | product/price le 100
 |**lt**     |  kleiner dan       | nee | ja | ja |  product/price lt 20
-|**in****     |  inclusief       | nee | nee |  ja | Student/Age in (27, 29)
+|**in****     |  inclusief       | ja | ja |  ja | Student/Age in (27, 29)
 
 
 \** Als u **in** gebruikt, kunnen de waarden rechts van **in** in een lijst met door komma's gescheiden waarden worden geplaatst, tussen haakjes. Er kan ook een expressie worden geplaatst waarmee een verzameling wordt geretourneerd.
@@ -131,14 +131,14 @@ Waarom is dit onderscheid van belang? Stel dat u de queryreeksparameter **Table/
 
 ## <a name="special-characters-in-url-filters"></a>Speciale tekens voor URL-filters
 
-Speciale tekens en spaties vereisen aanvullende opmaak. Als uw query spaties, streepjes of andere niet-ASCII-tekens bevat, gebruikt u vóór die speciale tekens de *escape-code* (**_x**) en de viercijferige **Unicode**. Als de Unicode uit minder dan vier tekens bestaat, moet u opvulnullen gebruiken. Hieronder ziet u een aantal voorbeelden.
+Speciale tekens en spaties vereisen aanvullende opmaak. Als uw query spaties, streepjes of andere niet-ASCII-tekens bevat, gebruikt u vóór die speciale tekens de *escape-code*, te beginnen met een onderstrepingsteken en een X (**_x**), vervolgens de viercijferige **Unicode**, gevolgd door nog een onderstrepingsteken. Als de Unicode uit minder dan vier tekens bestaat, moet u opvulnullen gebruiken. Hieronder ziet u een aantal voorbeelden.
 
 |Id  |Unicode  | Code voor Power BI  |
 |---------|---------|---------|
-|**Tabelnaam**     | Spatie: 0x20        |  Table_x0020_Name       |
-|**Column**@**Number**     |   @: 0x40     |  Column_x0040_Number       |
-|**[Column]**     |  [:0x005B ]:0x0050       |  _x0058_Column_x0050       |
-|**Column+Plus**     | +:0x2B        |  Column_x002B_Plus       |
+|**Tabelnaam**     | Ruimte is 0x20        |  Table_x0020_Name       |
+|**Column**@**Number**     |   @ is 0x40     |  Column_x0040_Number       |
+|**[Column]**     |  [is 0x0058] is 0x0050       |  _x0058_Column_x0050       |
+|**Column+Plus**     | + is 0x2B        |  Column_x002B_Plus       |
 
 Table_x0020_Name/Column_x002B_Plus eq 3 ![visualisatie van tabel met speciale tekens](media/service-url-filters/power-bi-special-characters1.png)
 
@@ -171,6 +171,7 @@ Er zijn een aantal dingen waar u op moet letten bij het gebruik van queryreekspa
 * U kunt in Power BI Report Server [rapportparameters doorsturen](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md) door ze op te nemen in een rapport-URL. Deze URL-parameters hebben geen voorvoegsel omdat ze rechtstreeks naar de verwerkingsengine rapporteren.
 * Het filteren van een querytekenreeks werkt niet bij URL’s voor [Publiceren naar internet](service-publish-to-web.md) of Power BI Embedded.   
 * Het gegevenstype long is (2^53-1) wegens JavaScript-beperkingen.
+* Rapport-URL-filters hebben een limiet van 10 expressies (10 filters die zijn verbonden via AND).
 
 ## <a name="next-steps"></a>Volgende stappen
 

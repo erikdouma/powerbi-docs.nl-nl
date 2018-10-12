@@ -9,40 +9,40 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 2817ccb25fc9aa6d3e8150c776558366dcf0ccb6
-ms.sourcegitcommit: 0c870a006e525447497e678484874a2f137b9abd
+ms.openlocfilehash: 53803c77dec8eb35c10db7f19a82f58144f88414
+ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "39088834"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47237980"
 ---
 # <a name="embed-reports-or-dashboards-from-apps"></a>Rapporten of dashboards uit apps insluiten
 
-In **Power BI** kunt u apps maken om gekoppelde **dashboards** en **rapporten** op één plek te verzamelen en ze vervolgens te publiceren naar grote groepen mensen in uw organisatie. Het gebruik van die apps is relevant wanneer al uw gebruikers Power BI gebruiken, zodat u inhoud met ze kunt delen zonder Power BI-apps te gebruiken. Bekijk de volgende korte stappen om inhoud uit een gepubliceerde Power BI-app in te sluiten in een externe toepassing.
+In Power BI kunt u apps maken om gerelateerde dashboards en rapporten bij elkaar te brengen, allemaal op één plek samen. Publiceer ze vervolgens naar grote groepen gebruikers in uw organisatie. Het gebruik van die apps is relevant wanneer al uw gebruikers Power BI-gebruikers zijn. U kunt dus inhoud met ze delen met behulp van Power BI-apps. In dit artikel vindt u een aantal korte stappen om inhoud uit een gepubliceerde Power BI-app in te sluiten in een externe toepassing.
 
-## <a name="how-to-grab-report-embed-url-for-embedding"></a>De insluitings-URL voor rapporten ophalen voor insluiten
+## <a name="grab-a-report-embedurl-for-embedding"></a>Een rapport-embedURL ophalen om in te sluiten
 
-1. Start de toepassing in een gebruikerswerkruimte (’Mijn werkruimte’) door deze met uzelf te delen of door een andere gebruiker te begeleiden om door deze stroom te gaan.
+1. Maak een exemplaar van de toepassing in de gebruikerswerkruimte **Mijn werkruimte**. Deel met uzelf of leid een andere gebruiker om door deze stroom te gaan.
 
-2. Open uw gewenste rapport in Power BI-service.
+2. Open het gewenste rapport in de Power BI-service.
 
-3. Ga naar Bestand ->Insluiten in SharePoint Online en haal hier de insluitings-URL voor rapporten op (zie onderstaande momentopname), of roep de GetReports/GetReport REST API aan en extraheer het bijbehorende veld met de insluitings-URL voor rapporten uit de reactie (let op: in de URL van de REST-aanroep mag geen werkruimte-id staan, aangezien de app in de werkruimte van de gebruiker is gestart).
+3. Ga naar **Bestand** > **Insluiten in SharePoint Online** en haal daar de rapport-embedURL op. Dit wordt in de volgende momentopname weergegeven. Of roep de GetReports/GetReport REST-API aan en extraheer het bijbehorende embedURL-veld voor rapporten uit het antwoord. De REST-aanroep mag geen werkruimte-id bevatten in de URL, aangezien er in de werkruimte van de gebruiker een exemplaar is gemaakt.
 
-4. Gebruik de insluitings-URL die u in stap 3 hebt opgehaald om deze in combinatie met de JS SDK te gebruiken.
+4. Gebruik de embedURL die u bij stap 3 hebt opgehaald met de JavaScript-SDK.
 
     ![Insluiten vanuit apps](media/embed-from-apps/embed-from-app.png)
 
-## <a name="how-to-grab-dashboard-embed-url-for-embedding"></a>De insluitings-URL voor dashboards ophalen voor insluiten
+## <a name="grab-a-dashboard-embedurl-for-embedding"></a>Een dashboard-embedURL ophalen om in te sluiten
 
-1. Start de toepassing in een gebruikerswerkruimte (’Mijn werkruimte’) door deze met uzelf te delen of door een andere gebruiker te begeleiden om door deze stroom te gaan.
+1. Maak een exemplaar van de toepassing in de gebruikerswerkruimte **Mijn werkruimte**. Deel met uzelf of leid een andere gebruiker om door deze stroom te gaan.
 
-2. Roep de GetDashboards REST API aan en extraheer het bijbehorende veld met de insluitings-URL voor dashboards uit de reactie (let op: in de URL van de REST-aanroep mag geen werkruimte-ID staan, aangezien de app in de werkruimte van de gebruiker is gestart).
+2. Of roep de GetDashboards REST-API aan en extraheer het bijbehorende embedURL-veld voor dashboards uit het antwoord. De REST-aanroep mag geen werkruimte-id bevatten in de URL, aangezien er in de werkruimte van de gebruiker een exemplaar is gemaakt.
 
-3. Gebruik de insluitings-URL die u in stap 4 hebt opgehaald om deze in combinatie met de JS SDK te gebruiken.
+3. Gebruik de embedURL die u bij stap 2 hebt opgehaald met de JavaScript-SDK.
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Controleer ook hoe u inhoud uit app-werkruimten kunt insluiten voor uw externe klanten en uw organisatie.
+Controleer hoe u inhoud uit app-werkruimten kunt insluiten voor uw externe klanten en uw organisatie:
 
 > [!div class="nextstepaction"]
 >[Insluiten voor externe klanten](embed-sample-for-customers.md)

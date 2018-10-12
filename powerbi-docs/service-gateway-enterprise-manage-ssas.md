@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: a4c931b671840ca78f340005c30aeb92454ca2a6
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: a84a5da9600daa7ef55ed5a707affa4ee1da4aba
+ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599176"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47238095"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Uw gegevensbron beheren - Analysis Services
 Nadat u de on-premises gegevensgateway hebt geïnstalleerd, moet u gegevensbronnen toevoegen die met de gateway kunnen worden gebruikt. In dit artikel wordt beschreven hoe u gateways en gegevensbronnen gebruikt. U kunt de Analysis Services-gegevensbron gebruiken voor zowel geplande vernieuwing als voor liveverbindingen.
@@ -150,13 +150,38 @@ Voor een on-premises gegevensgateway met configureerbare aangepaste gebruikersto
 Uw gateway configureren voor het uitvoeren van de AD-zoekopdracht:
 
 1. Download en installeer de nieuwste versie van de gateway.
+
 2. In de gateway dient u de **on-premises gegevensgatewayservice** in te stellen zodat deze wordt uitgevoerd met een domeinaccount (in plaats van een lokaal serviceaccount, anders wordt de AD-zoekopdracht tijdens runtime niet goed uitgevoerd). U moet de gatewayservice opnieuw starten om de wijziging door te voeren.  Ga naar de gateway-app op uw computer (zoek 'on-premises gegevensgateway'). Vervolgens gaat u naar **Service-instellingen > Serviceaccount wijzigen**. Zorg ervoor dat u de herstelsleutel voor deze gateway hebt, omdat u deze nodig hebt om de gateway te herstellen op dezelfde computer, tenzij u een nieuwe gateway wilt maken. 
-3. Navigeer naar de installatiemap van de gateway, *C:\Program Files\On-premises data gateway* met een beheerdersaccount, om te zorgen dat u schrijfrechten hebt, en bewerk het volgende bestand:
 
-       Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
-4. Bewerk de volgende twee configuratiewaarden voor uw AD-gebruikers volgens de kenmerkconfiguraties van *uw* Active Directory. De onderstaande configuratiewaarden zijn slechts voorbeelden: u moet deze invoeren op basis van uw Active Directory-configuratie. 
+3. Navigeer naar de installatiemap van de gateway, *C:\Program Files\On-premises data gateway* met een beheerdersaccount, om te zorgen dat u schrijfrechten hebt en bewerk het volgende bestand: Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
 
-   ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
+4. Bewerk de volgende twee configuratiewaarden voor uw AD-gebruikers volgens de kenmerkconfiguraties van *uw* Active Directory. De onderstaande configuratiewaarden zijn slechts voorbeelden: u moet deze invoeren op basis van uw Active Directory-configuratie. Deze configuraties zijn hoofdlettergevoelig, dus zorg ervoor dat ze overeenkomen met de waarden in Active Directory.
+
+    ![Azure Active Directory-instellingen](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
+
+    Als er geen waarde is opgegeven voor de configuratie van ADServerPath, maakt de gateway gebruik van de globale standaardcatalogus. U kunt ook meerdere waarden opgeven voor ADServerPath. Elke waarde moet worden gescheiden door puntkomma's, zoals in het volgende voorbeeld.
+
+    ```xml
+    <setting name="ADServerPath" serializeAs="String">
+        <value> >GC://serverpath1; GC://serverpath2;GC://serverpath3</value>
+    </setting>
+    ```
+    De gateway parseert de waarden voor ADServerPath van links naar rechts totdat een overeenkomst is gevonden. Als er geen overeenkomst wordt gevonden, wordt de oorspronkelijke UPN gebruikt. Zorg ervoor dat het account dat de gatewayservice (PBIEgwService) uitvoert over query-machtigingen beschikt voor alle AD-servers die u in ADServerPath opgeeft.
+
+    De gateway ondersteunt twee typen ADServerPath, zoals in de volgende voorbeelden.
+
+    **WinNT**
+
+    ```xml
+    <value="WinNT://usa.domain.corp.contoso.com,computer"/>
+    ```
+
+    **GC**
+
+    ```xml
+    <value> GC://USA.domain.com </value>
+    ```
+
 5. Start de **on-premises gegevensgateway**-service opnieuw om de configuratiewijzigingen door te voeren.
 
 ### <a name="working-with-mapping-rules"></a>Werken met toewijzingsregels

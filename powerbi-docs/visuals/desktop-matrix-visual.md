@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: e08eeed7b4adf1a392d2661613dd190cce1fb52f
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 0cf9c152c9481e223a143bed3985e883c92af192
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565930"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416815"
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>Gebruik de matrixvisualisatie in Power BI Desktop
 Met de visualfunctie **Matrix** kunt u matrixvisuals (ook wel *tabellen* genoemd) maken in **Power BI Desktop**-rapporten, en elementen in de matrix kruislings markeren met andere visuals. Bovendien kunt u rijen en kolommen selecteren, en zelfs afzonderlijke cellen en kruislings markeren. En ten slotte ondersteunt de matrixvisualisatie ook een getrapte lay-out, om beter gebruik te maken van de lay-outruimte.
@@ -66,7 +66,7 @@ U kunt niet alleen die pictogrammen gebruiken, maar ook met de rechtermuisknop o
 
 Er zijn enkele opties in het menu dat verschijnt die verschillende resultaten genereren:
 
-Door **Inzoomen** te selecteren wordt de matrix voor *dat* rijniveau uitgevouwen; alle andere rijkoppen worden *uitgesloten*, behalve de rijkop waarop u met de rechtermuisknop hebt geklikt. In de volgende afbeelding is met de rechtermuisknop op *Computers* geklikt en **Inzoomen** geselecteerd. U ziet dat andere rijen op het hoogste niveau niet meer in de matrix worden weergegeven. Dit is een handige functie, zoals u met name zult zin in de sectie over **kruislings markeren**.
+Door **Inzoomen** te selecteren wordt de matrix voor *dat* rijniveau uitgevouwen; alle andere rijkoppen worden *uitgesloten*, behalve de rijkop waarop u met de rechtermuisknop hebt geklikt. In de volgende afbeelding is met de rechtermuisknop op *Computers* geklikt en **Inzoomen** geselecteerd. U ziet dat andere rijen op het hoogste niveau niet meer in de matrix worden weergegeven. Deze manier van inzoomen is handig, zoals u met name zult zien in de sectie over **kruislings markeren**.
 
 ![](media/desktop-matrix-visual/matrix-visual_8.png)
 
@@ -74,7 +74,7 @@ U kunt op het pictogram **Uitzoomen** klikken om terug te gaan naar de vorige we
 
 ![](media/desktop-matrix-visual/matrix-visual_8a.png)
 
-Wanneer u op het pictogram **Uitzoomen** in de linkerbovenhoek klikt om alle categorieën op het hoogste niveau weer te geven in de matrix, en vervolgens opnieuw met de rechtermuisknop klikt en **Uitbreiden naar het volgende niveau** kiest, ziet u het volgende:
+Wanneer u op het pictogram **Uitzoomen** in de linkerbovenhoek klikt om alle categorieën op het hoogste niveau weer te geven in de matrix, en vervolgens opnieuw met de rechtermuisknop klikt en **Uitbreiden naar het volgende niveau** kiest, ziet u de volgende visual.
 
 ![](media/desktop-matrix-visual/matrix-visual_9.png)
 
@@ -129,7 +129,7 @@ Vouw in de sectie **Opmaak** van het deelvenster **Visualisaties** de kaart **Su
 Hetzelfde geldt voor de kolomsubtotalen.
 
 ## <a name="cross-highlighting-with-matrix-visuals"></a>Kruislings markeren met matrixvisualisaties
-Met de visual **Matrix** kan elk element in de matrix worden geselecteerd als de basis voor kruislings markeren. Selecteer een kolom in een **Matrix**, en die kolom wordt gemarkeerd, net als andere visualisaties op de rapportpagina. Dit was al een algemene functie van andere visualisaties en gegevenspuntselecties, en nu biedt de **matrix**visualisatie dezelfde functionaliteit.
+Met de visual **Matrix** kan elk element in de matrix worden geselecteerd als de basis voor kruislings markeren. Selecteer een kolom in een **Matrix**, en die kolom wordt gemarkeerd, net als andere visualisaties op de rapportpagina. Dit type kruislings markeren was al een algemene functie van andere visualisaties en gegevenspuntselecties, en nu biedt de **matrix**visualisatie dezelfde functionaliteit.
 
 Bovendien werkt Ctrl+klikken ook voor kruislings markeren. In de volgende afbeelding is bijvoorbeeld een verzameling subcategorieën geselecteerd in de **Matrix**visualisatie. U ziet dat items die niet in de visualisatie zijn geselecteerd, lichter zijn gekleurd, en dat de in de **Matrix**-visualisatie gemaakte selecties worden weerspiegeld in de andere visualisaties op de pagina.
 
@@ -153,10 +153,6 @@ Beide benaderingen geven hetzelfde resultaat. Door *Geavanceerde besturingseleme
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Wellicht bent u ook geïnteresseerd in de volgende artikelen:
+[Spreidingsdiagrammen en bellendiagrammen in Power BI](power-bi-visualization-scatter.md)
 
-* [Rasterlijnen en Uitlijnen op raster gebruiken in Power BI Desktop-rapporten](../desktop-gridlines-snap-to-grid.md)
-* [Gegevensbronnen in Power BI Desktop](../desktop-data-sources.md)
-* [Gegevenstypen in Power BI Desktop](../desktop-data-types.md)
-
- 
+[Visualization types in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md) (Typen visualisaties in Power BI)

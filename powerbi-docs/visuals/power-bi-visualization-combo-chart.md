@@ -8,15 +8,15 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/27/2018
+ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 68b14e6554c0c12590f555f6447198f1a850e9b1
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 1855b65277fe778a20bd9e4629f8db1e7b9000a3
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46543998"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448955"
 ---
 # <a name="combo-chart-in-power-bi"></a>Combinatiegrafieken in Power BI
 Een combinatiegrafiek in Power BI is een visualisatie waarin een lijndiagram wordt gecombineerd met een kolomdiagram. Als u deze twee diagrammen combineert, kunt u de gegevens sneller vergelijken.
@@ -55,9 +55,9 @@ Kijk hoe Will een combinatiegrafiek maakt op basis van het voorbeeld van verkoop
     c.  Selecteer **Tijd** \> **FiscalMonth** om deze waarde toe te voegen aan de bron **As**.
 
     ![](media/power-bi-visualization-combo-chart/combotutorial1new.png)
-5. Selecteer de weglatingstekens (...) in de rechterbovenhoek van de visualisatie en selecteer **Sorteren op FiscalMonth**. U moet deze misschien twee keer selecteren om deze oplopend of aflopend te sorteren.
+5. Selecteer het beletselteken (...) in de rechterbovenhoek van de visualisatie en selecteer **Sorteren op > FiscalMonth**. Als u de sorteervolgorde wilt wijzigen, selecteert u het beletselteken opnieuw en kiest u **Oplopend sorteren** of **Aflopend sorteren**.
 
-6. Converteer de kolomdiagram naar een combinatiegrafiek. Selecteer de kolomdiagram en selecteer vervolgens in het deelvenster **Visualisaties** de optie **Lijndiagram en gegroepeerd kolomdiagram**.
+6. Converteer de kolomdiagram naar een combinatiegrafiek. Er zijn twee combinatiegrafieken beschikbaar: **lijndiagram en gestapeld kolomdiagram** en **lijndiagram en gegroepeerd kolomdiagram**. Selecteer de kolomdiagram en selecteer vervolgens in het deelvenster **Visualisaties** de optie **Lijndiagram en gegroepeerd kolomdiagram**.
 
     ![](media/power-bi-visualization-combo-chart/converttocombo_new2.png)
 7. Ga naar het deelvenster **Velden** en sleep **Verkoop** \> **Omzet van afgelopen jaar** naar de bucket **Regelwaarden**.
@@ -71,7 +71,8 @@ Kijk hoe Will een combinatiegrafiek maakt op basis van het voorbeeld van verkoop
 ## <a name="create-a-combo-chart-with-two-axes"></a>Een combinatiegrafiek met twee assen maken
 In deze taak vergelijken we de brutomarge en de omzet.
 
-1. Maak een nieuw lijndiagram waarin de **procentuele brutomarge van het vorige jaar** per **maand wordt bijgehouden**.  In januari was de brutomarge 35%, in april nemen we een piek (45%) waar, in juli daalde het brutomargepercentage en in augustus was er opnieuw een daling. Krijgen we een soortgelijk patroon voor afgelopen jaar en dit jaar te zien?
+1. Maak een nieuw lijndiagram waarin de **procentuele brutomarge van het vorige jaar** per **maand wordt bijgehouden**. Selecteer het beletselteken om te sorteren per **Maand** en **Oplopend**.  
+In januari was de brutomarge 35%, in april nemen we een piek (45%) waar, in juli daalde het brutomargepercentage en in augustus was er opnieuw een daling. Krijgen we een soortgelijk patroon voor afgelopen jaar en dit jaar te zien?
 
    ![](media/power-bi-visualization-combo-chart/combo1_new.png)
 2. Voeg **Omzet van dit jaar > Waarde** en **Omzet van afgelopen jaar** aan het lijndiagram toe. De schaal van de **procentuele brutomarge vorig jaar** is veel kleiner is dan de schaal van **Verkoop**, waardoor het lastig is om de waarden te vergelijken.      
@@ -80,7 +81,7 @@ In deze taak vergelijken we de brutomarge en de omzet.
 3. Converteer het lijndiagram naar een Lijndiagram en gestapeld kolomdiagram, zodat de visualisatie eenvoudiger te lezen en te interpreteren is.
 
    ![](media/power-bi-visualization-combo-chart/converttocombo_new.png)
-4. Sleep **Brutomarge% vorig jaar** van **Kolomwaarden** naar **Lijnwaarden**. In Power BI worden twee assen gemaakt, zodat de gegevenssets verschillend kunnen worden geschaald. Aan de linkerkant verkopen in dollars en aan de rechterkant in percentages.
+4. Sleep **Brutomarge% vorig jaar** van **Kolomwaarden** naar **Lijnwaarden**. In Power BI worden twee assen gemaakt, zodat de gegevenssets verschillend kunnen worden geschaald. Aan de linkerkant verkopen in dollars en aan de rechterkant in percentages. En we zien het antwoord op onze vraag: ja, het patroon is vergelijkbaar.
 
    ![](media/power-bi-visualization-combo-chart/power-bi-combochart.png)    
 
@@ -103,20 +104,16 @@ In deze taak vergelijken we de brutomarge en de omzet.
 
 U kunt nu het volgende doen:
 
-* [De combinatiegrafiek toevoegen als dashboardtegel](../consumer/end-user-tiles.md).
+* [De combinatiegrafiek toevoegen als dashboardtegel](../service-dashboard-tiles.md).
 * [Sla het rapport op](../service-report-save.md).
-* [Het rapport toegankelijker maken voor mensen met beperkingen](../desktop-accessibility.md)
+* [Het rapport toegankelijker maken voor mensen met beperkingen](../desktop-accessibility.md).
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>Kruislings markeren en kruislings filteren
 
-Wanneer u een kolom of regel in een combinatiegrafiek markeert, worden de andere visualisaties op de rapportpagina kruislings gemarkeerd en gefilterd, en omgekeerd. U kunt deze standaardwerking wijzigen met behulp van het besturingselement [Visuele interactie](../consumer/end-user-interactions.md).
+Wanneer u een kolom of regel in een combinatiegrafiek markeert, worden de andere visualisaties op de rapportpagina kruislings gemarkeerd en gefilterd, en omgekeerd. U kunt deze standaardwerking wijzigen met behulp van het besturingselement [Visuele interactie](../service-reports-visual-interactions.md).
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[Overzicht van visualisaties in Power BI-rapporten](power-bi-report-visualizations.md)
+[Ringdiagrammen in Power BI](power-bi-visualization-doughnut-charts.md)
 
 [Visualization types in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md) (Typen visualisaties in Power BI)
-
-[Power BI - basisconcepten](../consumer/end-user-basic-concepts.md)
-
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

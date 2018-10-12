@@ -8,15 +8,15 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d1c771ed49a000374c58beb694dda511a8c9a097
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: e9b48b79b30250c442140929045132fe1c4b10e8
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565815"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448909"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Watervalgrafieken in Power BI
 Een watervalgrafiek toont een voorlopig totaal terwijl waarden worden toegevoegd of afgetrokken. Dit is handig om te begrijpen hoe een beginwaarde (bijvoorbeeld netto inkomsten) wordt beïnvloed door een reeks positieve en negatieve wijzigingen.
@@ -39,32 +39,32 @@ We gaan een watervalgrafiek maken waarin de verkoopvariantie (geschatte omzet te
 
 1. Selecteer het tabblad **Gegevenssets** en blader naar de nieuwe gegevensset Retail Analysis Sample.  Selecteer het pictogram **Rapport maken** om de gegevensset te openen in de rapportbewerkingsweergave. 
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-report.png)
-2. Selecteer in het deelvenster **Velden** **Sales \> Total Sales Variance**. Als **Total Sales Variance** zich niet in het gebied **Y-as** bevindt, sleept u het daarnaartoe.
-3. Converteer de grafiek naar een **watervalgrafiek**. 
+    ![Tabblad gegevenssets gemarkeerd](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-report.png)
+2. Selecteer in het deelvenster **Velden** **Sales \> Total Sales Variance**. 
+3. Converteer de grafiek naar een **watervalgrafiek**. Als **Total Sales Variance** zich niet in het gebied **Y-as** bevindt, sleept u het daarnaartoe.
    
-    ![](media/power-bi-visualization-waterfall-charts/convertwaterfall.png)
+    ![Visualisatiesjablonen](media/power-bi-visualization-waterfall-charts/convertwaterfall.png)
 4. Selecteer **Time** \> **FiscalMonth** om dit veld toe te voegen aan de groep **Categorie**. 
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
+    ![waterval](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
 5. Sorteer de watervalgrafiek in chronologische volgorde. Selecteer in de rechterbovenhoek het beletseltekens (...) en kies **Sorteren op FiscalMonth**.
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sort.png)
+    ![kies sorteren op > FiscalMonth](media/power-bi-visualization-waterfall-charts/power-bi-sort-by.png)
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sorted.png)
+    ![resultaat van nieuw oplopend sorteren](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sorted.png)
 6. Breid de grafiek iets uit om te zien welke staten per maand het meeste bijdragen aan de omzet. Sleep **Store** > **Territory** naar de groep **Uitsplitsing**.
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
+    ![Toont Store in groep Uitsplitsing](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
 7. Standaard worden de vijf staten weergegeven die het meeste bijdragen aan de toename of afname per maand. Op dit moment zijn we echter alleen geïnteresseerd in de twee belangrijkste staten.  Selecteer daarom **Uitsplitsing** in het deelvenster Indeling en zet **Maximaal aantal uitsplitsingen** op 2.
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
+    ![Opmaak > Uitsplitsing](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
    
     We zien meteen dat de staten Ohio en Pennsylvania op dit moment de grootste bijdrage leveren aan de omzetvariantie, zowel negatief als positief, in onze watervalgrafiek. 
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-axis.png)
-8. Dit is een interessant gegeven. Hebben Ohio en Pennsylvania zo'n grote invloed omdat de verkopen in deze twee staten veel hoger zijn dan in de andere staten?  Dat kunnen we uiteraard controleren. We maken een kaart waarop de verkoop per staat grafisch in beeld wordt gebracht.  
+    ![watervalgrafiek](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-axis.png)
+8. Dit is een interessant gegeven. Hebben Ohio en Pennsylvania zo'n grote invloed omdat de verkopen in deze twee staten veel hoger zijn dan in de andere staten?  Dat kunnen we uiteraard controleren. Maak een kaart waarop de verkoop per territorium voor dit jaar en vorig jaar worden weergegeven.  
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-map.png)
+    ![close-up kaart op PA en Ohio](media/power-bi-visualization-waterfall-charts/power-bi-map.png)
    
     Onze kaart ondersteunt onze theorie.  We zien dat deze twee staten zowel vorig jaar (belgrootte) als dit jaar (belarcering) het hoogste omzetcijfer hadden.
 
@@ -74,13 +74,7 @@ Zie [Een filter aan een rapport toevoegen](../power-bi-report-add-filter.md) voo
 Wanneer u een kolom in een watervalgrafiek markeert, worden de andere visualisaties op de rapportpagina kruislings gefilterd en omgekeerd. De totaalkolom (Total) kan hiervoor overigens niet worden gebruikt.
 
 ## <a name="next-steps"></a>Volgende stappen
-[Rapporten in Power BI](../consumer/end-user-reports.md)
+
+[Visuele interacties](../service-reports-visual-interactions.md)
 
 [Visualization types in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md) (Typen visualisaties in Power BI)
-
-[Visualisaties in Power BI-rapporten](power-bi-report-visualizations.md)
-
-[Power BI - basisconcepten](../consumer/end-user-basic-concepts.md)
-
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
-
