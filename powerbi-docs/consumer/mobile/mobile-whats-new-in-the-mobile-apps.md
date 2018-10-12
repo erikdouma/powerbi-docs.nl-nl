@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/14/2018
 ms.author: maggies
-ms.openlocfilehash: 09e7534146ace617ee3e517eca6a453aa9002d38
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 798b1daa13079e69788bc977f37748531e38f431
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546896"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909240"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -196,7 +196,7 @@ Lees het [overzicht van functies op mobiele apps van juli 2017](https://powerbi.
 
 ### <a name="june-2107"></a>Juni 2107
 #### <a name="all-devices"></a>Alle apparaten
-**Apps favoriet maken** U kunt al een dashboard favoriet maken. Onlangs zijn in [Power BI apps toegevoegd](../end-user-apps.md) (Engelstalig) en u kunt nu ook apps favoriet maken. 
+**Apps favoriet maken** U kunt al een dashboard favoriet maken. Onlangs zijn in [Power BI apps toegevoegd](../../service-create-distribute-apps.md) (Engelstalig) en u kunt nu ook apps favoriet maken. 
 
 ### <a name="may-2017"></a>Mei 2017
 #### <a name="all-devices"></a>Alle apparaten
