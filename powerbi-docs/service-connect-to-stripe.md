@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 62f03283a978978314e91c86aaacbe6defe2e19e
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 550d3bc609afbbac69c63c373e452eac11244152
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37134519"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549462"
 ---
 # <a name="connect-to-stripe-with-power-bi"></a>Via Power BI verbinding maken met Stripe
 Visualiseer en verken uw Stripe-gegevens in Power BI met het Power BI-inhoudspakket. Met het Power BI Stripe-inhoudspakket haalt u gegevens op over uw klanten, kosten, gebeurtenissen en facturen. De gegevens bevatten de meest recente 10.000 gebeurtenissen en 5000 kostengegevens gedurende de afgelopen 30 dagen. De inhoud wordt automatisch een keer per dag vernieuwd volgens een schema dat u bepaalt. 
@@ -41,9 +41,9 @@ Maak verbinding met het [Stripe-inhoudspakket voor Power BI](https://app.powerbi
 
 **Wat nu?**
 
-* [Stel vragen in het vak Q&A](power-bi-q-and-a.md) boven in het dashboard.
+* [Stel vragen in het vak Q&A](consumer/end-user-q-and-a.md) boven in het dashboard.
 * [Wijzig de tegels](service-dashboard-edit-tile.md) in het dashboard.
-* [Selecteer een tegel](service-dashboard-tiles.md) om het onderliggende rapport te openen.
+* [Selecteer een tegel](consumer/end-user-tiles.md) om het onderliggende rapport te openen.
 * Als uw gegevensset is ingesteld op dagelijks vernieuwen, kunt u het vernieuwingsschema wijzigen of de gegevensset handmatig vernieuwen met **Nu vernieuwen**
 
 ## <a name="next-steps"></a>Volgende stappen

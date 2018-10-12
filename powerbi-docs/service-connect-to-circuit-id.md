@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 56be5b6a0618dea28ac286f5cbaa0c019d9037d2
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 49fab6884a4acd548ccb5c17913c003763af8cab
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135991"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549702"
 ---
 # <a name="connect-to-circuit-id-with-power-bi"></a>Verbinding maken met Circuit-ID met Power BI
 Het analyseren van uw communicatiegegevens van Circuit ID is eenvoudig met Power BI. Power BI haalt uw gegevens op en bouwt vervolgens een standaard dashboard en gerelateerde rapporten op basis van die gegevens. Nadat u de verbinding hebt gemaakt, kunt u uw gegevens verkennen en het dashboard geheel naar wens aanpassen. Gegevens worden elke dag automatisch vernieuwd.
@@ -41,9 +41,9 @@ Verbinding maken met het [Circuit ID-inhoudspakket](https://app.powerbi.com/getd
 
 **Wat nu?**
 
-* [Stel vragen in het vak Q&A](power-bi-q-and-a.md) boven in het dashboard.
+* [Stel vragen in het vak Q&A](consumer/end-user-q-and-a.md) boven in het dashboard.
 * [Wijzig de tegels](service-dashboard-edit-tile.md) in het dashboard.
-* [Selecteer een tegel](service-dashboard-tiles.md) om het onderliggende rapport te openen.
+* [Selecteer een tegel](consumer/end-user-tiles.md) om het onderliggende rapport te openen.
 * Als uw gegevensset is ingesteld op dagelijks vernieuwen, kunt u het vernieuwingsschema wijzigen of de gegevensset handmatig vernieuwen met **Nu vernieuwen**
 
 ## <a name="next-steps"></a>Volgende stappen

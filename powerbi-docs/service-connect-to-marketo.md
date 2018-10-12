@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: d3051537298ac8f8fb5fc8661cfca998a07fc625
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 909e15fa843df3f87e1cdfa25b45f60996b3dca0
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135255"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545678"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Verbinding maken met Marketo met Power BI
 Het Power BI-inhoudspakket voor Marketo biedt u inzicht in uw Marketo-account; u krijgt toegang tot gegevens over potentiële klanten en hun activiteiten. Als u deze verbinding tot stand brengt, worden uw gegevens opgehaald en krijgt u automatisch toegang tot een dashboard en rapporten op basis van de gegevens.
@@ -48,12 +48,12 @@ Verbinding maken met het [Marketo-inhoudspakket](https://app.powerbi.com/getdata
 
 **Wat nu?**
 
-* [Stel vragen in het vak Q&A](power-bi-q-and-a.md) boven in het dashboard.
+* [Stel vragen in het vak Q&A](consumer/end-user-q-and-a.md) boven in het dashboard.
 * [Wijzig de tegels](service-dashboard-edit-tile.md) in het dashboard.
-* [Selecteer een tegel](service-dashboard-tiles.md) om het onderliggende rapport te openen.
-* Als uw gegevensset is ingesteld op dagelijks vernieuwen, kunt u het vernieuwingsschema wijzigen of de gegevensset handmatig vernieuwen met **Nu vernieuwen**.
+* [Selecteer een tegel](consumer/end-user-tiles.md) om het onderliggende rapport te openen.
+* Als uw gegevensset is ingesteld op dagelijks vernieuwen, kunt u het vernieuwingsschema wijzigen of de gegevensset handmatig vernieuwen met **Nu vernieuwen**
 
-## <a name="whats-included"></a>Wat is inbegrepen?
+## <a name="whats-included"></a>Wat is inbegrepen
 De volgende gegevens zijn in Power BI beschikbaar vanaf Marketo, als er tussen vandaag en één jaar geleden activiteit is geweest:
 
 | Tabelnaam | Beschrijving |

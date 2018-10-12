@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2d2d983da6de5ec88574092289ed2958c7a98923
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 370613fb4436eb71ae0b6af6c0b5166e8bb7b434
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600407"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546689"
 ---
 # <a name="connect-to-azure-mobile-engagement-with-power-bi"></a>Met Power BI verbinding maken met Azure Mobile Engagement
 Met het Azure Mobile Engagement-inhoudspakket voor Power BI kunt u snel inzicht verkrijgen in uw app-gegevens.
@@ -44,9 +44,9 @@ Verbinding maken met het [inhoudspakket van Azure Mobile Engagement](https://app
 
 ## <a name="what-now"></a>Wat nu?
 
-* [Stel vragen in het vak Q&A](power-bi-q-and-a.md) boven in het dashboard.
+* [Stel vragen in het vak Q&A](consumer/end-user-q-and-a.md) boven in het dashboard.
 * [Wijzig de tegels](service-dashboard-edit-tile.md) in het dashboard.
-* [Selecteer een tegel](service-dashboard-tiles.md) om het onderliggende rapport te openen.
+* [Selecteer een tegel](consumer/end-user-tiles.md) om het onderliggende rapport te openen.
 * Als uw gegevensset is ingesteld op dagelijks vernieuwen, kunt u het vernieuwingsschema wijzigen of de gegevensset handmatig vernieuwen met **Nu vernieuwen**
 
 ## <a name="next-steps"></a>Volgende stappen

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 69c0e6d253a1d8d8ecad9f562c0b992c01d4d577
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 4264b10ac9ae42585ea8b814d0c15de7ea318752
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547106"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416792"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Knopinfo maken op basis van rapportpagina's in Power BI Desktop
 U kunt visueel uitgebreide **tooltips voor rapporten** maken die worden weergegeven wanneer u de muisaanwijzer over visuele elementen beweegt, op basis van rapportpagina's die u maakt in **Power BI Desktop**. Wanneer u een rapportpagina maakt die als knopinfo fungeert, kunnen uw aangepaste knopinfo visuele elementen, afbeeldingen en ongeacht welke andere verzameling van items bevatten die u in de rapportpagina maakt. 
@@ -125,7 +125,7 @@ Er zijn enkele beperkingen en overwegingen met betrekking tot **tooltips** waar 
 
 * Vanaf de release van september 2018 van **Power BI Desktop**, dat de algemene beschikbaarheid van tooltips aangaf, ondersteunen kaartvisualisaties tooltips ook.
 * Sinds de release van juli 2018 van **Power BI Desktop** is er knopinfo beschikbaar voor visualisaties in tabellen en matrices. 
-* Rapportknopinfo wordt niet ondersteund bij het weergeven van rapporten in mobiele apps of in geïntegreerde omgevingen, zoals publiceren op het internet. 
+* Rapportknopinfo wordt niet ondersteund bij het weergeven van rapporten in mobiele apps. 
 * Rapportknopinfo wordt niet ondersteund voor aangepaste visuele elementen. 
 * Clusters worden momenteel niet ondersteund als velden die in rapportknopinfo kunnen worden weergegeven. 
 * Bij het kiezen van een veld dat u wilt weergeven als rapportknopinfo tonen visuele elementen met dat veld, wanneer u in plaats van een categorie een veld gebruikt, alleen de opgegeven knopinfo wanneer de samenvatting met het geselecteerde veld overeenkomt. 

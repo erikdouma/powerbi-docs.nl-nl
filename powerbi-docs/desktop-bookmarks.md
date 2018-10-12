@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fe52646eef029359ac0e41c5fb32be524076a22d
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 1bb9921b31187d0df3debc644088a72e1d78207c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657961"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549909"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Bladwijzers gebruiken om inzichten te delen en verhalen te vertellen in Power BI 
 Met behulp van **bladwijzers** in Power BI kunt u de momenteel geconfigureerde weergave van een rapportpagina vastleggen, inclusief filters en de status van visuals, en later terugkeren naar deze staat door eenvoudig de opgeslagen bladwijzer te selecteren. 
@@ -132,7 +132,7 @@ Wanneer u de functie **Weergeven** voor bladwijzers gebruikt, is het volgende va
 
 * Als de geselecteerde bladwijzer zich in een groep bevindt wanneer u **Weergeven** selecteert in Bladwijzers, worden alleen de bladwijzers *in die groep* weergegeven in de weergavesessie. 
 
-* Als de geselecteerde bladwijzer geen groep is, of zich op het hoogste niveau bevindt (zoals de naam van een bladwijzergroep), dan worden alle bladwijzers voor het gehele rapport afgespeeld, met inbegrip van bladwijzers in een groep. 
+* Als de geselecteerde bladwijzer zich niet in een groep bevindt, of als deze zich op het hoogste niveau bevindt (zoals de naam van een bladwijzergroep), dan worden alle bladwijzers voor het gehele rapport afgespeeld, met inbegrip van bladwijzers in een groep. 
 
 Als u een bladwijzergroep wilt opheffen, selecteert u gewoon een bladwijzer in een groep, klikt u op het beletselteken en selecteert u vervolgens **Groep opheffen** in het menu dat wordt weergegeven. 
 
@@ -182,5 +182,5 @@ Houd rekening met de volgende beperkingen en overwegingen in deze release van **
 Raadpleeg de volgende artikelen voor meer informatie over functies die vergelijkbaar zijn of samenwerken met bladwijzers:
 
 * [Drillthrough gebruiken in Power BI Desktop](desktop-drillthrough.md)
-* [Een dashboardtegel of rapportvisual weergeven in de focusmodus](service-focus-mode.md)
+* [Een dashboardtegel of rapportvisual weergeven in de focusmodus](consumer/end-user-focus.md)
 

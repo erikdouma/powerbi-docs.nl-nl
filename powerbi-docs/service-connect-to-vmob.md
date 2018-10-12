@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b1f2970ad73783acf3736856463915161056b801
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 01c7866a47d20b51055aa77bdd4792e2277c335f
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34237871"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549730"
 ---
 # <a name="connect-to-vmob-with-power-bi"></a>Verbinding maken met VMob via Power BI
 Uw VMob-gegevens opsporen en bekijken is eenvoudig met Power BI en het inhoudspakket van VMob. De volgende gegevens worden opgehaald door Power BI: gebruikersstatistieken, ongelimiteerd en van de afgelopen 30 dagen, KPI’s detailhandel van de afgelopen 30 dagen en campagneprestaties van de afgelopen 30 dagen.
@@ -44,9 +44,9 @@ Maak verbinding met het [VMob-inhoudspakket](https://app.powerbi.com/getdata/ser
 
 **Wat nu?**
 
-* [Stel vragen in het vak Q&A](power-bi-q-and-a.md) boven in het dashboard.
+* [Stel vragen in het vak Q&A](consumer/end-user-q-and-a.md) boven in het dashboard.
 * [Wijzig de tegels](service-dashboard-edit-tile.md) in het dashboard.
-* [Selecteer een tegel](service-dashboard-tiles.md) om het onderliggende rapport te openen.
+* [Selecteer een tegel](consumer/end-user-tiles.md) om het onderliggende rapport te openen.
 * Als uw gegevensset is ingesteld op dagelijks vernieuwen, kunt u het vernieuwingsschema wijzigen of de gegevensset handmatig vernieuwen met **Nu vernieuwen**
 
 ## <a name="next-steps"></a>Volgende stappen

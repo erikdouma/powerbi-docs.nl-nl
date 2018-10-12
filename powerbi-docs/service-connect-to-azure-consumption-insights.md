@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 31f1d4161801b45307e92ad3f654d30843897dc8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 987b6998823119fa8aa85d2aabe4d37608a6a671
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244152"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549863"
 ---
 # <a name="connect-to-microsoft-azure-consumption-insights-with-power-bi"></a>Verbinding maken met Microsoft Azure Consumption Insights met Power BI
 Verken en monitor uw Microsoft Azure-verbruiksgegevens in Power BI met het Power BI-inhoudspakket. De gegevens worden een keer per dag automatisch vernieuwd.
@@ -44,10 +44,10 @@ Maak verbinding met het [Microsoft Azure Consumption Insights-inhoudspakket](htt
 
 **Wat nu?**
 
-* [Stel vragen in het vak Q&A](power-bi-q-and-a.md) boven in het dashboard.
+* [Stel vragen in het vak Q&A](consumer/end-user-q-and-a.md) boven in het dashboard.
 * [Wijzig de tegels](service-dashboard-edit-tile.md) in het dashboard.
-* [Selecteer een tegel](service-dashboard-tiles.md) om het onderliggende rapport te openen.
-* Als uw gegevensset is ingesteld op dagelijks vernieuwen, kunt u het vernieuwingsschema wijzigen of de gegevensset handmatig vernieuwen met **Nu vernieuwen**.
+* [Selecteer een tegel](consumer/end-user-tiles.md) om het onderliggende rapport te openen.
+* Als uw gegevensset is ingesteld op dagelijks vernieuwen, kunt u het vernieuwingsschema wijzigen of de gegevensset handmatig vernieuwen met **Nu vernieuwen**
 
 ## <a name="whats-included"></a>Wat is inbegrepen
 Het Microsoft Azure Consumption Insights-inhoudspakket bevat maandelijkse rapportagegegevens voor het bereik van maanden dat u opgeeft tijdens de verbindingsprocedure. Het bereik is een verschuivend bereik, wat betekent dat de opgenomen datums worden bijgewerkt zodra de gegevensset wordt vernieuwd.

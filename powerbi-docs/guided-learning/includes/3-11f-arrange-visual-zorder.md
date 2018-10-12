@@ -4,7 +4,7 @@ Als u de Z-volgorde van elementen in een rapport wilt beheren, selecteert u een 
 
 ![](media/3-11f-arrange-visual-zorder/3-11f_1.png)
 
-Met de opties in het knopmenu **Rangschikken** kunt u de elementen rangschikken in de door u gewenste volgorde. U kunt een visualisatie één laag vooruit of achteruit verplaatsen of helemaal naar het begin of het einde van de volgorde verplaatsen.
+Met de opties in het knopmenu **Rangschikken** kunt u de elementen in uw rapport rangschikken in de door u gewenste volgorde. U kunt een visualisatie één laag vooruit of achteruit verplaatsen of helemaal naar het begin of het einde van de volgorde verplaatsen.
 
 De knop Rangschikken is vooral handig wanneer u vormen gebruikt als decoratieve achtergrond of randen of om bepaalde gedeelten van een diagram of grafiek te markeren. U kunt vormen ook gebruiken om een achtergrond te maken, zoals de volgende lichtblauwe rechthoek die wordt gebruikt als achtergrond voor de titel van het rapport.
 

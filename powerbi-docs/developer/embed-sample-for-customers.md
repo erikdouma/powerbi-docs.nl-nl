@@ -9,14 +9,15 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 1185b6195f0d802cec71143c1f27ce5cead584c6
-ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
+ms.openlocfilehash: 3cb33180c24022c1e328691ce3a776875d4c87a9
+ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39616046"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47238118"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Zelfstudie: een Power BI-rapport, -dashboard of -tegel insluiten in een toepassing voor uw klanten
+
 Met **Power BI Embedded in Azure** kunt u rapporten, dashboards en tegels in een toepassing insluiten met de **gegevens waarvan de app eigenaar is**. Als **de app eigenaar is van de gegevens** kunt u een toepassing gebruiken die Power BI gebruikt als ingesloten analytics platform. Het gebruik van **gegevens waarvan de app eigenaar is**, is doorgaans een scenario voor een **ISV-ontwikkelaar**. Als **ISV-ontwikkelaar** kunt u **Power BI**-inhoud maken waarmee rapporten, dashboards of tegels worden weergegeven in een toepassing die volledig geïntegreerd en interactief is, zonder dat gebruikers van de toepassing een licentie voor Power BI moeten hebben. In deze zelfstudie leert u hoe u een rapport in een toepassing kunt integreren met de .NET SDK voor **Power BI** en de JavaScript-API voor **Power BI** bij gebruik van **Power BI Embedded in Azure** voor uw klanten wanneer de **app eigenaar is van de gegevens**.
 
 In deze zelfstudie leert u het volgende:
@@ -25,6 +26,7 @@ In deze zelfstudie leert u het volgende:
 >* Een Power BI-rapport insluiten in een toepassing.
 
 ## <a name="prerequisites"></a>Vereisten
+
 Om te beginnen hebt u een **Power BI Pro**-account (dit account is uw **hoofdaccount**) en een **Microsoft Azure**-abonnement nodig.
 
 * Als u zich niet hebt geregistreerd voor **Power BI Pro**, [kunt u zich hier aanmelden voor een gratis proefversie](https://powerbi.microsoft.com/en-us/pricing/) voordat u begint.
@@ -36,9 +38,10 @@ Om te beginnen hebt u een **Power BI Pro**-account (dit account is uw **hoofdacc
 
 Voordat u begint met het insluiten van dashboards, rapporten en tegels in uw toepassing, moet u ervoor zorgen dat uw omgeving is ingesteld voor het insluiten van inhoud. Als onderdeel van het instellingsproces moet u het volgende doen.
 
-U kunt het [hulpprogramma voor onboarding-ervaring](https://aka.ms/embedsetup/AppOwnsData) uitvoeren om snel aan de slag te gaan en een voorbeeldtoepassing te downloaden waarmee u een omgeving leert maken en een rapport leert insluiten.
+U kunt het [installatieprogramma voor insluiten](https://aka.ms/embedsetup/AppOwnsData) uitvoeren om snel aan de slag te gaan en een voorbeeldtoepassing te downloaden waarmee u een omgeving leert maken en een rapport leert insluiten.
 
 Als u echter besluit de omgeving handmatig in te stellen, kunt u hieronder doorgaan.
+
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Een toepassing registreren in Azure Active Directory (Azure AD)
 
 U kunt uw toepassing registreren bij Azure Active Directory AD zodat uw toepassing toegang heeft tot de Power BI REST-API's. Hiermee kunt u een identiteit instellen voor uw toepassing en machtigingen opgeven voor Power BI REST-resources.
@@ -46,11 +49,11 @@ U kunt uw toepassing registreren bij Azure Active Directory AD zodat uw toepassi
 1. Accepteer de [algemene voorwaarden van de Microsoft Power BI-API](https://powerbi.microsoft.com/api-terms).
 
 2. Meld u aan bij [Azure Portal](https://portal.azure.com).
- 
+
     ![Hoofdweergave van Azure Portal](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
 3. Kies in het navigatiedeelvenster links **Alle services**, selecteer **App-registraties** en selecteer vervolgens **Nieuwe toepassing registreren**.
-   
+
     ![App-registratie zoeken](media/embed-sample-for-customers/embed-sample-for-customers-003.png)</br>
     ![Nieuwe app-registratie](media/embed-sample-for-customers/embed-sample-for-customers-004.png)
 
@@ -65,11 +68,11 @@ U moet extra machtigingen inschakelen voor uw toepassing naast de informatie die
 ### <a name="use-the-azure-active-directory-portal"></a>Azure Active Directory-portal gebruiken
 
 1. Blader naar [App-registraties](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade) in Azure Portal en selecteer de app die u gebruikt voor insluiting.
-   
+
     ![App kiezen](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
 2. Selecteer **Instellingen** en selecteer **Vereiste machtigingen**, onder **API-toegang**.
-   
+
     ![Vereiste machtigingen](media/embed-sample-for-customers/embed-sample-for-customers-008.png)
 
 3. Selecteer **Windows Azure Active Directory** en controleer vervolgens of **De map openen als de aangemelde gebruiker** is geselecteerd. Selecteer **Opslaan**.
@@ -170,7 +173,9 @@ Volg deze stappen om inhoud in te sluiten met een voorbeeldtoepassing.
 
     Kies in het navigatiedeelvenster links **Alle services** en selecteer **App-registraties**.
 
-    ![App-registratie zoeken](media/embed-sample-for-customers/embed-sample-for-customers-003.png) Selecteer de toepassing waarvoor u de **client-id** wilt ophalen.
+    ![App-registratie zoeken](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
+
+    Selecteer de toepassing waarvoor u de **client-id** wilt ophalen.
 
     ![App kiezen](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
@@ -204,6 +209,7 @@ Volg deze stappen om inhoud in te sluiten met een voorbeeldtoepassing.
     ![Toepassing weergeven](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
 
 ## <a name="embed-your-content-within-your-application"></a>Uw inhoud in uw toepassing insluiten
+
 Hoewel de stappen voor het insluiten van uw inhoud kunnen worden uitgevoerd met de [Power BI REST-API's](https://docs.microsoft.com/rest/api/power-bi/), worden de voorbeeldcodes die worden beschreven in dit artikel gemaakt met de **.NET SDK**.
 
 Als u voor uw klanten inhoud in uw toepassing wilt insluiten, is een **toegangstoken** vereist voor het hoofdaccount van **Azure AD**. U moet een [Azure AD-toegangstoken ophalen](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) voor uw Power BI-toepassing met een **app die eigenaar is van de gegevens** voordat u de [Power BI REST-API's](https://docs.microsoft.com/rest/api/power-bi/) kunt aanroepen.
@@ -225,6 +231,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 ```
 
 ### <a name="get-the-content-item-you-want-to-embed"></a>Het inhoudsitem dat u wilt insluiten ophalen
+
 U kunt het Power BI-clientobject gebruiken voor het ophalen van een verwijzing naar het item dat u wilt insluiten.
 
 Hier volgt een codevoorbeeld van hoe u het eerste rapport ophaalt uit een bepaalde werkruimte.
@@ -243,6 +250,7 @@ Report report = reports.Value.FirstOrDefault();
 ```
 
 ### <a name="create-the-embed-token"></a>Het insluittoken maken
+
 U moet een insluittoken genereren dat kan worden gebruikt vanuit de JavaScript API. Het insluittoken heeft alleen betrekking op het item dat is ingesloten. Dit betekent dat u een nieuw insluittoken moet maken voor elk stukje Power BI-inhoud dat u wilt insluiten. Zie [GenerateToken API](https://msdn.microsoft.com/library/mt784614.aspx) voor meer informatie, onder andere over welk **accessLevel** u moet gebruiken.
 
 Hier volgt een voorbeeld van het toevoegen van een insluittoken voor een rapport aan uw toepassing.
@@ -323,6 +331,7 @@ Dit voorbeeld maakt gebruik van een **EmbedConfig**-model, een **TileEmbedConfig
 Nu u uw toepassing hebt ontwikkeld, is het tijd om toegewezen capaciteit toe te voegen aan uw app-werkruimte. Toegewezen capaciteit is vereist voor het verplaatsen naar productie.
 
 ### <a name="create-a-dedicated-capacity"></a>Een toegewezen capaciteit maken
+
 Als u een toegewezen capaciteit maakt, profiteert u van een toegewezen resource voor uw klant. U kunt toegewezen capaciteit kopen in [Microsoft Azure Portal](https://portal.azure.com). Zie [Power BI Embedded-capaciteit maken in Azure Portal](azure-pbie-create-capacity.md) voor meer informatie over het maken van Power BI Embedded-capaciteit.
 
 Gebruik de onderstaande tabel om te bepalen welke Power BI Embedded-capaciteit het beste aansluit op uw behoeften.
@@ -359,6 +368,7 @@ Zodra u toegewezen capaciteit hebt gemaakt, kunt u uw app-werkruimte toewijzen a
     ![app-werkruimte gekoppeld aan een capaciteit](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
 
 ## <a name="next-steps"></a>Volgende stappen
+
 In deze zelfstudie hebt u geleerd hoe u Power BI-inhoud insluit in een toepassing voor uw klanten. U kunt ook Power BI-inhoud insluiten voor uw organisatie.
 
 > [!div class="nextstepaction"]

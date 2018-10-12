@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/21/2018
-ms.openlocfilehash: e83224932048aeab2dde6187eb217da7d89fed85
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.date: 09/17/2018
+ms.openlocfilehash: b50f3d5a3b01e32dcbaf80db5e25bd046c5e27a2
+ms.sourcegitcommit: ded8b85276e7eda166d6e67f72d1fe3d5e234745
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558559"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46506794"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Veelgestelde vragen over Power BI Embedded
 
@@ -84,15 +84,19 @@ Hier volgt een (niet volledige) lijst met verschillen tussen de versies.
 |Min. periode  |Geen minimumperiode |Jaar  |Maand/jaar |
 |Differentiatie |Volledige elasticiteit: omhoog/omlaag schalen, resources onderbreken/hervatten in Azure-portal of via API  |Kan worden gebruikt voor het insluiten van inhoud in SharePoint Online en Microsoft Teams (uitgezonderd de mobiele app) |Insluiten in toepassingen combineren met het gebruik van de Power BI-service in dezelfde capaciteit |
 
-### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Wat zijn de vereisten voor het maken van een PBIE-capaciteit in Azure? 
+### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Wat zijn de vereisten voor het maken van een PBIE-capaciteit in Azure?
 
 * U moet zich aanmelden bij uw bedrijfsdirectory (MSA-accounts worden niet ondersteund).
 * U moet een Power BI-tenant hebben; dat wil zeggen dat ten minste één gebruiker in uw directory moet zijn aangemeld bij Power BI. 
 * U moet een Azure-abonnement hebben in uw bedrijfsdirectory.
 
-### <a name="how-can-i-monitor-capacity-consumption"></a>Hoe kan ik het capaciteitsverbruik controleren?
+### <a name="how-can-i-monitor-power-bi-embedded-capacity-consumption"></a>Hoe kan ik het verbruik van de Power BI Embedded-capaciteit bewaken?
 
-Controle via Azure staat op de planning voor de korte termijn. De Azure-resource, Power BI Embedded, zal controle-KPI's bevatten die informatie geven over status en gebruik.
+* De [Power BI-beheerportal](../service-admin-portal.md#power-bi-embedded-settings) gebruiken.
+
+* De [metrische app](https://review.docs.microsoft.com/power-bi/service-admin-premium-monitor-capacity) in Power BI downloaden.
+
+* [Logboekregistratie van diagnostische gegevens in Azure](azure-pbie-diag-logs.md) gebruiken.
 
 ### <a name="will-my-capacity-scale-automatically-to-adjust-to-the-consumption-of-my-app"></a>Wordt mijn capaciteit automatisch geschaald op basis van het verbruik van mijn app?
 
@@ -276,11 +280,11 @@ Hieronder vindt u enkele voorbeelden van deze functies:
 * Nieuwe functies, zoals functies voor Q&A, vernieuwen, bladwijzers, het insluiten van dashboards en tegels, aangepaste menu's, enzovoort, worden alleen ondersteund in de **Power BI Embedded**-oplossing.
 * Model voor facturering van capaciteit.
 
-## <a name="onboarding-experience-tool-for-embedding"></a>Hulpprogramma voor onboarding-ervaring voor insluiten
+## <a name="embedding-setup-tool-for-embedding"></a>Installatieprogramma voor insluiten
 
-### <a name="what-is-the-onboarding-experience-tool"></a>Wat is het hulpprogramma voor onboarding-ervaring?
+### <a name="what-is-the-embedding-setup-tool"></a>Wat is het installatieprogramma voor insluiten?
 
-Met het [hulpprogramma voor onboarding-ervaring](https://aka.ms/embedsetup) kunt u snel aan de slag en een voorbeeldtoepassing downloaden om met het insluiten van inhoud met behulp van Power BI te beginnen.
+Met het [installatieprogramma voor insluiten](https://aka.ms/embedsetup) kunt u snel aan de slag en een voorbeeldtoepassing downloaden om met het insluiten van inhoud met behulp van Power BI te beginnen.
 
 ### <a name="which-solution-should-i-choose"></a>Welke oplossing moet ik kiezen?
 

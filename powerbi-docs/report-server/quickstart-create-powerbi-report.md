@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: 64757d6cbd82b666bf18f1ee87d8e51954872990
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: bb6868784314b369fcc02e3a36caf7c82c3c5966
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726726"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46564918"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Een Power BI-rapport maken voor Power BI Report Server
 U kunt Power BI-rapporten on-premises opslaan en beheren in de webportal van Power BI Report Server, net zoals u Power BI-rapporten kunt opslaan in de cloud in de Power BI-service (https://powerbi.com)). U maakt rapporten in Power BI Desktop en publiceert deze naar de webportal. Gebruikers in uw organisatie kunnen de rapporten weergeven in een browser of in een mobiele Power BI-app op een mobiele apparaat.
@@ -31,7 +31,7 @@ Als u al Power BI-rapporten hebt gemaakt in Power BI Desktop, bent u bijna klaar
 
     ![Power BI Desktop downloaden van de webportal](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
 
-    U kunt ook rechtstreeks naar [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723) (geoptimaliseerd voor Power BI Report Server, maart 2018) gaan in het Microsoft Downloadcentrum.
+    U kunt ook rechtstreeks naar [Microsoft Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=57271) (geoptimaliseerd voor Power BI Report Server, augustus 2018) gaan in het Microsoft Downloadcentrum.
 
 2. Selecteer **Downloaden** in het downloadcentrum.
 
@@ -41,13 +41,13 @@ Als u al Power BI-rapporten hebt gemaakt in Power BI Desktop, bent u bijna klaar
 
     - **PBIDesktopRS_x64.msi** (de 64-bits versie).
 
-4. Nadat u het installatieprogramma hebt gedownload, voert u de installatiewizard van Power BI Desktop (maart 2018) uit.
+4. Nadat u het installatieprogramma hebt gedownload, voert u de installatiewizard van Power BI Desktop (augustus 2018) uit.
 
 2. Selecteer aan het einde van de installatie de optie **Power BI Desktop nu starten**.
    
-    Het programma wordt automatisch gestart en u kunt aan de slag. U hebt de juiste versie als 'Power BI Desktop (maart 2018)' wordt vermeld in de titelbalk.
+    Het programma wordt automatisch gestart en u kunt aan de slag. U hebt de juiste versie als 'Power BI Desktop (augustus 2018)' wordt vermeld in de titelbalk.
 
-    ![Power BI Desktop-versie van maart 2018](media/quickstart-create-powerbi-report/report-server-desktop-march-2018.png)
+    ![Power BI Desktop-versie van augustus 2018](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-august-2018.png)
 
 3. Als u niet bekend bent met Power BI Desktop, is het misschien een goed idee om de video's op het welkomstscherm te bekijken.
    
@@ -91,36 +91,6 @@ Wanneer uw rapport klaar is, kunt u het opslaan op de Power BI-rapportserver die
 2. Nu kunt u het rapport bekijken in de webportal.
    
     ![Het rapport bekijken in de webportal](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
-
-## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
-Rapporten in Power BI Report Server en in de Power BI-service (http://powerbi.com)) werken bijna exact dezelfde, op een paar functies na.
-
-### <a name="in-a-browser"></a>In een browser
-Rapporten voor Power BI Report Server ondersteunen alle visualisaties, met inbegrip van:
-
-* Aangepaste visualisaties
-
-Rapporten voor Power BI Report Server bieden geen ondersteuning voor:
-
-* R-visuals
-* ArcGIS-kaarten
-* Breadcrumbs
-* Preview-functies in Power BI Desktop
-
-### <a name="in-the-power-bi-mobile-apps"></a>In de mobiele Power BI-apps
-Rapporten voor Power BI Report Server ondersteunen alle basisfunctionaliteit in de [mobiele Power BI-apps](../consumer/mobile/mobile-apps-for-mobile-devices.md), waaronder:
-
-* [Indeling van telefoonrapport](../desktop-create-phone-report.md): u kunt een rapport optimaliseren voor de mobiele Power BI-apps. Op uw mobiele telefoon hebben geoptimaliseerde rapporten een speciaal pictogram, ![Het pictogram Geoptimaliseerd Power BI-rapport](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-icon.png), en een speciale indeling.
-  
-    ![Rapporten geoptimaliseerd voor telefoons](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-report.png)
-
-Rapporten voor Power BI Report Server bieden geen ondersteuning voor deze functies in de mobiele Power BI-apps:
-
-* R-visuals
-* ArcGIS-kaarten
-* Aangepaste visualisaties
-* Breadcrumbs
-* Geofiltering van streepjescodes
 
 ## <a name="next-steps"></a>Volgende stappen
 ### <a name="power-bi-desktop"></a>Power BI Desktop

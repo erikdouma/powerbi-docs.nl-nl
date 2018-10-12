@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/31/2018
-ms.openlocfilehash: d540dd29214422dfc33dca2bf2fb1cb74ebe6de7
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: 71cb40ef6f1346bd3d8486658b05427e66d1dbf3
+ms.sourcegitcommit: 9719eccf29298c9c673200350abc58281ef14869
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558563"
+ms.lasthandoff: 09/20/2018
+ms.locfileid: "46474041"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Problemen oplossen met uw ingesloten toepassing
 
@@ -84,18 +84,18 @@ Mogelijk is er een Fiddler-opname nodig om het probleem nader te onderzoeken. Er
 
 De back-end van de toepassing moet het verificatietoken mogelijk vernieuwen voordat GenerateToken wordt aangeroepen.
 
-```
+    ```
     GET https://wabi-us-north-central-redirect.analysis.windows.net/metadata/cluster HTTP/1.1
     Host: wabi-us-north-central-redirect.analysis.windows.net
     ...
     Authorization: Bearer eyJ0eXAiOi...
     ...
- 
+
     HTTP/1.1 403 Forbidden
     ...
-     
+
     {"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
-```
+    ```
 
 ## <a name="authentication"></a>Verificatie
 
@@ -229,13 +229,13 @@ Als u het IError-object hebt verkregen, zoekt u in de tabel met bijbehorende vee
 | OpenConnectionError | Visual kan niet worden weergegeven. Rapportvisual met de titel <visual title> kan niet worden weergegeven | N.v.t. | Capaciteit is onderbroken of verwijderd terwijl een rapport in verband met de capaciteit tijdens een sessie was geopend |
 | ExplorationContainer_FailedToLoadModel_DefaultDetails | Het modelschema dat is gekoppeld aan dit rapport kan niet worden geladen. Controleer of er verbinding is met de server en probeer het opnieuw. | N.v.t. | <li> Capaciteit onderbroken <li> Capaciteit verwijderd |
 
-## <a name="onboarding-experience-tool-for-embedding"></a>Hulpprogramma voor onboarding-ervaring voor insluiten
+## <a name="embedding-setup-tool"></a>Het installatieprogramma voor insluiten
 
-U kunt het [hulpprogramma voor onboarding-ervaring](https://aka.ms/embedsetup) uitvoeren om snel een voorbeeldtoepassing te downloaden. Vervolgens kunt u uw toepassing vergelijken met het voorbeeld.
+U kunt het [installatieprogramma voor insluiten](https://aka.ms/embedsetup) doorlopen om snel een voorbeeldtoepassing te downloaden. Vervolgens kunt u uw toepassing vergelijken met het voorbeeld.
 
 ### <a name="prerequisites"></a>Vereisten
 
-Verifieer dat u aan alle voorwaarden voldoet voordat u het hulpprogramma voor onboarding-ervaring gebruikt. U hebt een **Power BI Pro**-account en een **Microsoft Azure**-account nodig.
+Verifieer dat u aan alle voorwaarden voldoet voordat u het installatieprogramma voor insluiten gebruikt. U hebt een **Power BI Pro**-account en een **Microsoft Azure**-account nodig.
 
 * Als u zich niet hebt geregistreerd voor **Power BI Pro**, [kunt u zich hier aanmelden voor een gratis proefversie](https://powerbi.microsoft.com/en-us/pricing/) voordat u begint.
 * Als u nog geen abonnement op Azure hebt, maakt u een [gratis account](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) voordat u begint.
@@ -244,7 +244,7 @@ Verifieer dat u aan alle voorwaarden voldoet voordat u het hulpprogramma voor on
 
 ### <a name="common-issues"></a>Veelvoorkomende problemen
 
-Hier volgt een lijst met veelvoorkomende problemen die kunnen optreden wanneer u testen uitvoert met het hulpprogramma voor onboarding-ervaring:
+Hier volgt een lijst met veelvoorkomende problemen die kunnen optreden wanneer u testen uitvoert met het installatieprogramma voor insluiten:
 
 #### <a name="using-the-embed-for-your-customers-sample-application"></a>De voorbeeldtoepassing Insluiten voor uw klanten gebruiken
 
@@ -262,6 +262,10 @@ De volgende foutmelding wordt weergegeven wanneer u de voorbeeld-app uitvoert:
 
 Deze fout treedt op omdat de enige waarde die niet in de voorbeeldtoepassing wordt ingevoerd uw gebruikerswachtwoord is. Open het Web.config-bestand in de oplossing en vul in het veld pbiPassword het wachtwoord van uw gebruiker in.
 
+Als de volgende fout wordt weergegeven: AADSTS50079: de gebruiker dient de meervoudige verificatie te gebruiken.
+
+    Need to use an AAD account that does not have MFA enabled.
+
 #### <a name="using-the-embed-for-your-organization-sample-application"></a>De voorbeeldtoepassing Insluiten voor uw organisatie gebruiken
 
 Als u met de ervaring **Insluiten voor uw organisatie** werkt, moet u het bestand *PowerBI-Developer-Samples.zip* opslaan en uitpakken. Open vervolgens de map *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* en voer het bestand *pbi-saas-embed-report.sln* uit.
@@ -275,6 +279,10 @@ Dit komt doordat de omleidings-URL die is opgegeven voor de web-servertoepassing
 Als u de geregistreerde toepassing wilt bewerken, moet u leren hoe u de [geregistreerde AAD-toepassing](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application) bewerkt, zodat de toepassing toegang kan geven tot de web-API’s.
 
 Als u uw Power BI-gebruikersprofiel of -gegevens wilt bewerken, leert u hoe u uw [Power BI-gegevens](https://docs.microsoft.com/power-bi/service-basic-concepts) moet bewerken.
+
+Als de volgende fout wordt weergegeven: AADSTS50079: de gebruiker dient de meervoudige verificatie te gebruiken.
+
+    Need to use an AAD account that does not have MFA enabled.
 
 Zie [Veelgestelde vragen over Power BI Embedded](embedded-faq.md) voor meer informatie.
 

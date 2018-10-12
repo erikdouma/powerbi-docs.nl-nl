@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e44d4bb48289b515797167fb3b91a9bbf0d2bcdd
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: ef35ef674ad8b0608c22b7b0d958b4844bb0d24e
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37092156"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544441"
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>Verbinding maken met UserVoice via Power BI
 Met Power BI en het inhoudspakket van UserVoice kunt u eenvoudig uw UserVoice-gegevens bijhouden en verkennen. Uw gegevens, inclusief tickets, suggesties en tevredenheidsbeoordelingen, worden opgehaald met Power BI en er worden een kant-en-klaar dashboard en rapporten gemaakt op basis van die gegevens.
@@ -53,12 +53,12 @@ Maak verbinding met het [UserVoice-inhoudspakket](https://app.powerbi.com/getdat
 
 **Wat nu?**
 
-* [Stel vragen in het vak Q&A](power-bi-q-and-a.md) boven in het dashboard.
+* [Stel vragen in het vak Q&A](consumer/end-user-q-and-a.md) boven in het dashboard.
 * [Wijzig de tegels](service-dashboard-edit-tile.md) in het dashboard.
-* [Selecteer een tegel](service-dashboard-tiles.md) om het onderliggende rapport te openen.
+* [Selecteer een tegel](consumer/end-user-tiles.md) om het onderliggende rapport te openen.
 * Als uw gegevensset is ingesteld op dagelijks vernieuwen, kunt u het vernieuwingsschema wijzigen of de gegevensset handmatig vernieuwen met **Nu vernieuwen**
 
-## <a name="troubleshooting"></a>Probleemoplossing
+## <a name="troubleshooting"></a>Problemen oplossen
 **Kan de parameter niet valideren. Controleer of alle parameters geldig zijn**
 
 Als u deze fout ziet nadat u uw UserVoice-URL hebt ingevoerd. Zorg dat aan de volgende vereisten is voldaan:

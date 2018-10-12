@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a3102ff26a4dbf58d8db0073f1af9cf2db5b6515
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 63b75aae9fb9299119b606458a4a8832d77dd1be
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329380"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417160"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Realtimestreaming in Power BI
 Met behulp van realtimestreaming van Power BI kunt u gegevens streamen en dashboards in real time bijwerken. Elk visueel element of dashboard dat kan worden gemaakt in Power BI, kan ook worden gemaakt voor het weergeven en bijwerken van realtimegegevens en visuele elementen. De apparaten en bronnen van gestreamde gegevens kunnen variëren van fabriekssensoren tot bronnen van sociale media, maar ook gebruiksgegevens van services en alle andere bronnen waaruit tijdgebonden gegevens kunnen worden verzameld of verzonden.
@@ -65,7 +65,7 @@ In de volgende tabel (of matrix als u dat liever hebt) worden de drie typen gege
 ![](media/service-real-time-streaming/real-time-streaming_11.png)
 
 > [!NOTE]
-> Raadpleeg [dit MSDN-artikel](https://msdn.microsoft.com/library/dn950053.aspx) voor meer informatie over **push**-limieten voor de hoeveelheid gegevens die kan worden gepusht.
+> Raadpleeg [dit artikel](https://docs.microsoft.com/power-bi/developer/api-rest-api-limitations) voor meer informatie over **push**-limieten voor de hoeveelheid gegevens die kan worden gepusht.
 > 
 > 
 
@@ -83,14 +83,12 @@ We gaan deze verschillende manieren hieronder afzonderlijk bespreken.
 ### <a name="using-power-bi-rest-apis-to-push-data"></a>Gegevens pushen met behulp van REST-API's van Power BI
 **REST-API's van Power BI** kunnen worden gebruikt voor het maken en verzenden van gegevens naar **push**-gegevenssets en **streaming**gegevenssets. Wanneer u een gegevensset maakt met behulp van REST-API's van Power BI, bepaalt de vlag *defaultMode* of de gegevensset van het type push of streaming is. Als er geen vlag *defaultMode* is ingesteld, wordt de gegevensset standaard gemaakt als een **push**-gegevensset.
 
-Als de vlag *defaultMode* wordt ingesteld op *pushStreaming*, is de gegevensset een **push**- *en* een **streaming**-gegevensset, met dus de voordelen van beide typen gegevensset. In het REST-API-[artikel voor **Create Dataset** ](https://msdn.microsoft.com/library/mt203562.aspx) wordt uitgelegd hoe u een streaminggegevensset maakt en ziet u ook hoe de vlag *defaultMode* werkt.
+Als de vlag *defaultMode* wordt ingesteld op *pushStreaming*, is de gegevensset een **push**- *en* een **streaming**-gegevensset, met dus de voordelen van beide typen gegevensset. 
 
 > [!NOTE]
 > Wanneer u gegevenssets gebruikt met de vlag *defaultMode* ingesteld op *pushStreaming*, en een aanvraag de beperking van 15 kB voor een **streaming**gegevensset overschrijdt, maar kleiner is dan de limiet van 16 MB voor een **push**-gegevensset, kan de aanvraag worden uitgevoerd en worden de gegevens in de pushgegevensset bijgewerkt. Het streamen van gegevens naar tegels mislukt dan echter tijdelijk.
-> 
-> 
 
-Nadat er een gegevensset is gemaakt, gebruikt u de REST-API's om gegevens te pushen met behulp van de API [**Add rows**](https://msdn.microsoft.com/library/mt203561.aspx), zoals [wordt gedemonstreerd in dit artikel](https://msdn.microsoft.com/library/mt203561.aspx).
+Nadat er een gegevensset is gemaakt, gebruikt u de REST-API's om gegevens te pushen met behulp van de API [**PostRows**](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows).
 
 Alle aanvragen naar REST-API's zijn beveiligd met **Azure AD OAuth**.
 
@@ -159,9 +157,9 @@ In de volgende secties worden deze twee opties uitvoeriger besproken.
 
 ![](media/service-real-time-streaming/real-time-streaming_5.png)
 
-Als u wilt dat Power BI de gegevens opslaat die worden verzonden via deze gegevensstroom, schakelt u de optie *Analyse van historische gegevens* in. U kunt dan rapportages en analyses uitvoeren op de verzamelde gegevens. [Meer informatie over de API](https://msdn.microsoft.com/library/dn877544.aspx).
+Als u wilt dat Power BI de gegevens opslaat die worden verzonden via deze gegevensstroom, schakelt u de optie *Analyse van historische gegevens* in. U kunt dan rapportages en analyses uitvoeren op de verzamelde gegevens. [Meer informatie over de API](https://docs.microsoft.com/rest/api/power-bi/).
 
-Als u de gegevensstroom hebt gemaakt, krijgt u de URL voor het eindpunt van de REST-API. Deze URL kan door de toepassing via *POST*-aanvragen worden aangeroepen om uw gegevens te pushen naar de **streaming**-gegevensset van Power BI die u hebt gemaakt.
+Als u de gegevensstroom hebt gemaakt, ontvangt u de URL voor het eindpunt van de REST-API. Deze URL kan door uw toepassing via *POST*-aanvragen worden aangeroepen om uw gegevens te pushen naar de **streaming**-gegevensset van Power BI die u hebt gemaakt.
 
 Bij het opstellen van *POST*-aanvragen is het belangrijk dat de hoofdtekst van de aanvraag overeenkomt met de voorbeeld-JSON die wordt aangeboden in de gebruikersinterface van Power BI. Verpak uw JSON-objecten bijvoorbeeld in een matrix.
 
@@ -223,10 +221,10 @@ Voor pushgegevenssets kunt u proberen een visueel rapportelement te maken met be
 Dit is helaas niet mogelijk op dit moment.
 
 #### <a name="given-the-previous-question-how-can-i-do-any-modeling-on-real-time-datasets"></a>Naar aanleiding van het antwoord op de vorige vraag; hoe kan ik modellering toepassen op realtimegegevenssets?
-Modellering is niet mogelijk voor een streaminggegevensset, aangezien de gegevens niet permanent worden opgeslagen. Voor een pushgegevensset kunt u met de REST-API's voor gegevensset/tabel bijwerken metingen en relaties toevoegen. Meer informatie kunt u lezen in het artikel over [Update Table Schema](https://msdn.microsoft.com/library/mt203560.aspx) en over [eigenschappen van gegevenssets](https://msdn.microsoft.com/library/mt742155.aspx).
+Modellering is niet mogelijk voor een streaminggegevensset, aangezien de gegevens niet permanent worden opgeslagen. Voor een pushgegevensset kunt u met de REST-API's voor gegevensset/tabel bijwerken metingen en relaties toevoegen. 
 
 #### <a name="how-can-i-clear-all-the-values-on-a-push-dataset-how-about-streaming-dataset"></a>Hoe kan ik alle waarden van een pushgegevensset wissen? En voor een streaminggegevensset?
-Voor een pushgegevensset kunt u de REST-API delete rows gebruiken. U kunt ook een speciale tool gebruiken die fungeert als een wrapper voor de REST-API's. Er is op dit momenteel geen manier beschikbaar om gegevens te wissen uit een streaminggegevensset. Het is wel zo dat de gegevens automatisch worden gewist na een uur.
+Voor een pushgegevensset kunt u de REST-API delete rows gebruiken. Er is op dit momenteel geen manier beschikbaar om gegevens te wissen uit een streaminggegevensset. Het is wel zo dat de gegevens automatisch worden gewist na een uur.
 
 #### <a name="i-set-up-an-azure-stream-analytics-output-to-power-bi-but-i-dont-see-it-appearing-in-power-bi--whats-wrong"></a>Ik heb uitvoer van Azure Stream Analytics omgeleid naar Power BI, maar ik zie de uitvoer niet in Power BI. Wat doe ik fout?
 Hier is een checklist die u kunt volgen om het probleem op te lossen:
@@ -241,9 +239,6 @@ Hier is een checklist die u kunt volgen om het probleem op te lossen:
 ## <a name="next-steps"></a>Volgende stappen
 Hier volgen enkele koppelingen naar Engelstalige informatiebronnen die handig kunnen zijn bij het werken met realtimestreaming in Power BI:
 
-* [Overview of Power BI REST API](https://msdn.microsoft.com/library/dn877544.aspx)
-* [Power BI REST API limitations](https://msdn.microsoft.com/library/dn950053.aspx)
-* [REST-API-artikel voor **Create Dataset**](https://msdn.microsoft.com/library/mt203562.aspx)
-* [**REST-API-artikel voor Add Rows**](https://msdn.microsoft.com/library/mt203561.aspx)
+* [Overview of Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)
 * [Azure Stream Analytics](https://azure.microsoft.com/services/stream-analytics/)
 

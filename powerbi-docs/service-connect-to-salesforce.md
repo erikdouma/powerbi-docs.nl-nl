@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: dda983aec42731aa885323749d9302db75066569
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 5cd858ad14c1a5fcf76ddf23dafdac2bb5585b10
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136773"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548253"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Verbinding met Salesforce maken via Power BI
 Met Power BI kunt u eenvoudig verbinding maken met uw Salesforce.com-account. Door deze verbinding te maken worden uw gegevens opgehaald en wordt er automatische een dashboard met de bijbehorende rapporten op basis van uw gegevens gemaakt.
@@ -56,14 +56,16 @@ Maak verbinding met het [Salesforce-inhoudspakket](https://app.powerbi.com/getda
    
    ![](media/service-connect-to-salesforce/pbi_getdatasalesforcedash.png)
 
-U kunt dit dashboard wijzigen om uw gegevens weer te geven zoals u dat wilt. U kunt vragen stellen met Q & A of op een tegel klikken om [het onderliggende rapport te openen](service-dashboard-tiles.md) en [de tegels wijzigen](service-dashboard-edit-tile.md) in het dashboard.
+U kunt dit dashboard wijzigen om uw gegevens weer te geven zoals u dat wilt. U kunt vragen stellen met Q & A of op een tegel klikken om [het onderliggende rapport te openen](consumer/end-user-tiles.md) en [de tegels wijzigen](service-dashboard-edit-tile.md) in het dashboard.
 
 **Wat nu?**
 
-* [Stel vragen in het vak Q&A](power-bi-q-and-a.md) boven in het dashboard
-* [Wijzig de tegels](service-dashboard-edit-tile.md) in het dashboard.
+* [Stel vragen in het vak Q&A](consumer/end-user-q-and-a.md) boven in het dashboard.
+* [Wijzig de tegels](service-dashboard-edit-tile.md) in het dashboard <<<<<<< HEAD
+* [Selecteer een tegel](consumer/end-user-tiles.md) om het onderliggende rapport te openen =======
 * [Selecteer een tegel](service-dashboard-tiles.md) om het onderliggende rapport te openen.
-* Als uw gegevensset is ingesteld op dagelijks vernieuwen, kunt u het vernieuwingsschema wijzigen of de gegevensset handmatig vernieuwen met **Nu vernieuwen**.
+>>>>>>> 66fe62d8f200efd9cfeb465eeb5f370dbbaa63be
+* Als uw gegevensset is ingesteld op dagelijks vernieuwen, kunt u het vernieuwingsschema wijzigen of de gegevensset handmatig vernieuwen met **Nu vernieuwen**
 
 ## <a name="system-requirements-and-considerations"></a>Systeemvereisten en overwegingen
 - Verbinding met een productieaccount van Salesforce waarvoor API-toegang is ingeschakeld.
