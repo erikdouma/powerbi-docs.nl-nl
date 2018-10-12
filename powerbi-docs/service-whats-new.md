@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/23/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 1472646d1a4dc338740583ab759c2fc71aa1e56d
-ms.sourcegitcommit: fbc1fabcb5e3b285228c9aa192b9b421b2782922
+ms.openlocfilehash: 10f637e822817d6bd0fa1692a6d1b029be312d4f
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "47059088"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909171"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Wat is er nieuw in de Power BI-service
@@ -593,7 +593,7 @@ Bekijk de [blog](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-ser
 
 * Microsoft kondigt met trots de algemeen beschikbare (GA) versie van Power BI aan. Meld u vandaag nog aan voor [Power BI Pro](service-self-service-signup-for-power-bi.md). Als onderdeel van de GA-versie worden enkele geweldige nieuwe functies geboden:
 * Een nieuwe manier om visualisaties en rapporten te maken: het nieuwe rapportcanvas heeft een groter aanbod aan visualisaties, meer controle over de opmaak van titels, legenda’s, assen, kleuren, achtergronden en meer.
-* [Power BI-groepen](consumer/end-user-create-apps.md): groepen bieden een krachtige gezamenlijke ervaring op basis van Office 365-groepen.
+* [Power BI-groepen](service-create-distribute-apps.md): groepen bieden een krachtige gezamenlijke ervaring op basis van Office 365-groepen.
 * [Organisatie-inhoudspakketten](service-organizational-content-pack-introduction.md): met Power BI is het maken van dashboards en rapporten zeer eenvoudig. Gebruikers kunnen deze inhoud nu publiceren naar de inhoudsgalerij van hun organisatie.
 * [Hele Excel-bestanden importeren](service-excel-workbook-files.md): u kunt een opgeslagen Excel-werkmap in OneDrive voor Bedrijven in Power BI opnemen en de volledige werkmap op exact dezelfde manier als in Excel Online bekijken.
 * [CSV-bestanden importeren](service-get-data-from-files.md): net zoals een Excel- of een Power BI Desktop-bestand kan een door komma's gescheiden tekstbestand (CSV) ook dienen als gegevensset voor uw Power BI-dashboards en -rapporten.

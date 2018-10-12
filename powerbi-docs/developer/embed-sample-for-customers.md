@@ -3,18 +3,18 @@ title: Power BI-inhoud insluiten in een toepassing voor uw klanten
 description: Informatie over het integreren of insluiten van een rapport, dashboard of tegel in een web-app met behulp van de Power BI-API's voor uw klanten.
 author: markingmyname
 ms.author: maghan
-ms.date: 06/20/2018
+manager: kfile
 ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
-manager: kfile
-ms.openlocfilehash: 3cb33180c24022c1e328691ce3a776875d4c87a9
-ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
+ms.date: 06/20/2018
+ms.openlocfilehash: 6685b47de6fbcc4ce35d5087c545814e34092d11
+ms.sourcegitcommit: b7b828019b2a2917dfda4d6df0c9cdce70fa68cd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47238118"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "48827428"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Zelfstudie: een Power BI-rapport, -dashboard of -tegel insluiten in een toepassing voor uw klanten
 
@@ -76,7 +76,7 @@ U moet extra machtigingen inschakelen voor uw toepassing naast de informatie die
     ![Vereiste machtigingen](media/embed-sample-for-customers/embed-sample-for-customers-008.png)
 
 3. Selecteer **Windows Azure Active Directory** en controleer vervolgens of **De map openen als de aangemelde gebruiker** is geselecteerd. Selecteer **Opslaan**.
-   
+
     ![Windows Azure AD-machtigingen](media/embed-sample-for-customers/embed-sample-for-customers-011.png)
 
 4. Selecteer **Toevoegen**.
@@ -92,13 +92,13 @@ U moet extra machtigingen inschakelen voor uw toepassing naast de informatie die
     ![PBI-services selecteren](media/embed-sample-for-customers/embed-sample-for-customers-014.png)
 
 7. Selecteer alle machtigingen onder **Gedelegeerde machtigingen**. U moet deze één voor één selecteren om ze te kunnen opslaan. Selecteer **Opslaan** wanneer u klaar bent.
-   
+
     ![Gedelegeerde machtigingen selecteren](media/embed-sample-for-customers/embed-sample-for-customers-015.png)
 
 8. Selecteer binnen **Vereiste machtigingen** de optie **Machtigingen verlenen**.
-   
+
     De actie **Machtigingen verlenen** is vereist voor het *hoofdaccount* om te voorkomen dat om toestemming wordt gevraagd door Azure AD. Als het account waarmee deze actie wordt uitgevoerd een globale beheerder is, moet u machtigingen verlenen voor alle gebruikers binnen uw organisatie voor deze toepassing. Als het account waarmee deze actie wordt uitgevoerd het *hoofdaccount* is en niet een globale beheerder, moet u alleen machtigingen verlenen aan het *hoofdaccount* voor deze toepassing.
-   
+
     ![Machtigingen verlenen binnen het dialoogvenster Vereiste machtigingen](media/embed-sample-for-customers/embed-sample-for-customers-016.png)
 
 ## <a name="set-up-your-power-bi-environment"></a>Uw Power BI-omgeving instellen
@@ -277,6 +277,7 @@ var embedConfig = new EmbedConfig()
 Hierbij wordt ervan uitgegaan dat er een klasse wordt gemaakt voor **EmbedConfig** en **TileEmbedConfig**. Er is een voorbeeld van deze items beschikbaar in het bestand **Models\EmbedConfig.cs** en het bestand **Models\TileEmbedConfig.cs**.
 
 ### <a name="load-an-item-using-javascript"></a>Een item laden met JavaScript
+
 U kunt JavaScript gebruiken om een rapport te laden in een div-element op uw webpagina.
 
 Voor een volledig voorbeeld van het gebruik van de JavaScript-API kunt u het [hulpprogramma Playground](https://microsoft.github.io/PowerBI-JavaScript/demo) gebruiken. Hiermee kunt u op een snelle manier verschillende typen Power BI Embedded-voorbeelden uitproberen. Op de [wikipagina voor Power BI JavaScript](https://github.com/Microsoft/powerbi-javascript/wiki) vindt u ook meer informatie over de JavaScript-API.
