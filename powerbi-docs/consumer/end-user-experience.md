@@ -11,12 +11,12 @@ ms.topic: quickstart
 ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 261d6fdb12a75fd1476c5f19ded034a3f85d1fb3
-ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
+ms.openlocfilehash: 41bd4148845754d1b714060e538f559b310969d8
+ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48798926"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49112148"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Quickstart: navigeren in de Power BI-service
 
@@ -125,7 +125,7 @@ U kunt de inhoud ook sorteren op naam of eigenaar.
 
 ![Inhoud sorteren](./media/end-user-experience/power-bi-sort.png)
 
-Zie [Power BI-navigatie: zoeken, sorteren en filteren](end-user-search-filter-sort.md) voor meer informatie.
+Zie [Power BI-navigatie: zoeken, sorteren en filteren](end-user-search-sort.md) voor meer informatie.
 
 ## <a name="clean-up-resources"></a>Resources opschonen
 Als u deze snelstartgids hebt voltooid, kunt u het voorbeelddashboard, het voorbeeldrapport en de voorbeeldgegevensset verwijderen.
