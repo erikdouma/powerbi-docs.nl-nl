@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 10/16/2018
 ms.author: mihart
-ms.openlocfilehash: a312a4311590d02d0fa8bd97726f9cf596cfe6a0
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 2c7a9d5f6bdbbfff905f3faa8cec255c2b85a0d5
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545769"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396793"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Interactie met ArcGIS-kaarten in Power BI
 Dit onderwerp is geschreven vanuit het oogpunt van een persoon die een ArcGIS-kaart *gebruikt* in de Power BI-service, in de desktopversie of op een mobiel apparaat. Zodra een maker een ArcGIS-kaart met u deelt, kunt u deze kaart op veel manieren gebruiken.  Zie [ArcGIS maps by esri tutorial](../power-bi-visualization-arcgis.md) (ArcGIS-kaarten van Esri - een zelfstudie) voor meer informatie over het maken van een ArcGIS-kaart.
@@ -57,7 +57,7 @@ ArcGIS Maps for Power BI biedt drie selectiemodi. Er kunnen maximaal 250 gegeven
 ## <a name="interacting-with-an-arcgis-map"></a>Interactie met een ArcGIS-kaart
 De functies die beschikbaar zijn voor u, zijn afhankelijk van het feit of u de *maker* (persoon die de kaart heeft gemaakt) of de *consument* (iemand met wie een ArcGIS-kaart is gedeeld) bent. Als u als consument gebruikmaakt van een ArcGIS-kaart (ook wel de [Leesweergave](../consumer/end-user-reading-view.md) genoemd), zijn dit de beschikbare acties.
 
-* Net zoals bij andere visualisatietypen kunt u de kaart [vastmaken aan dashboards](../service-dashboard-pin-tile-from-report.md), [weergeven](../consumer/end-user-show-data.md) en/of [de onderliggende gegevens exporteren](../consumer/end-user-export-data.md), en de kaart bekijken in [Focusmodus](../consumer/end-user-focus.md) en op [Volledig scherm](../service-fullscreen-mode.md).    
+* Net zoals bij andere visualisatietypen kunt u de kaart [vastmaken aan dashboards](../service-dashboard-pin-tile-from-report.md), [weergeven](../consumer/end-user-show-data.md) en/of [de onderliggende gegevens exporteren](power-bi-visualization-export-data.md), en de kaart bekijken in [Focusmodus](../consumer/end-user-focus.md) en op [Volledig scherm](../service-fullscreen-mode.md).    
 * Vouw het deelvenster **Filters** uit om de kaart te verkennen met behulp van filters. Wanneer u het rapport sluit, worden de filters die u hebt toegepast, niet opgeslagen.    
     ![](media/power-bi-visualizations-arcgis/power-bi-filter-newer.png)  
 * Als de kaart een referentielaag heeft, selecteert u locaties om details in een tooltip weer te geven. Hier hebben we Adams County geselecteerd en zien we gegevens uit de referentielaag voor het gemiddelde inkomen per huishouden die de maker heeft toegevoegd aan de kaart.

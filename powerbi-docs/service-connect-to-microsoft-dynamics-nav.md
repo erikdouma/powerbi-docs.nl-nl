@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 94ca76af9366752f4e1033fa05147f867e7096d9
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 2085f1ca852839c27c4943872e5f5ddb248e8638
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908895"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641385"
 ---
 # <a name="connect-to-microsoft-dynamics-nav-with-power-bi"></a>Verbinding maken met Microsoft Dynamics NAV in Power BI
 Inzicht krijgen in uw Microsoft Dynamics NAV-gegevens is eenvoudig met Power BI. Met Power BI kunt u uw gegevens ophalen, zowel verkoopgegevens als financiële gegevens, en vervolgens een app bouwen met een dashboard en rapporten op basis van die gegevens. Voor Power BI moet u machtigingen hebben voor de tabellen waaruit gegevens worden opgehaald, in dit geval verkoopgegevens en financiële gegevens. Meer informatie over de vereisten volgt hieronder. Nadat u de app hebt geïnstalleerd, kunt u het dashboard en de rapporten bekijken in de Power BI-service ([https://powerbi.com](https://powerbi.com)) en in de mobiele Power BI-apps. 
@@ -29,7 +29,7 @@ Inzicht krijgen in uw Microsoft Dynamics NAV-gegevens is eenvoudig met Power BI.
    ![](media/service-connect-to-microsoft-dynamics-nav/mdnav.png)
 4. Voer uw OData-URL voor Microsoft Dynamics NAV in als dit wordt gevraagd. De URL moet aan het volgende patroon voldoen:
    
-    `https//instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
+    `https://instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
    
    * instance.navserver.com met de naam van uw NAV-Server
    * DynamicsNAV90\_Instance1 met de naam van uw NAV Server-instantie
@@ -72,7 +72,7 @@ Als u deze fout ziet nadat u uw Microsoft Dynamics NAV-URL hebt ingevoerd. Zorg 
 
 * De URL volgt exact dit patroon:
   
-    `https//instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
+    `https://instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
   
   * instance.navserver.com met de naam van uw NAV-Server
   * DynamicsNAV90\_Instance1 met de naam van uw NAV Server-instantie
@@ -92,11 +92,11 @@ Als een dialoogvenster met de foutmelding Helaas verschijnt na het verificatiedi
 
 * Controleer of de URL aan het bovenstaande patroon voldoet. Er is een algemene fout opgetreden:
   
-    `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData`
+    `https://instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData`
   
     U moet echter de sectie Company('CRONUS%20International%20Ltd.') met uw NAV-bedrijfsnaam opnemen:
   
-    `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
+    `https://instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Wat zijn apps in Power BI?](service-create-distribute-apps.md)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/10/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: bcf012d94dedfd912479c3e51e0de388b177c294
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5051ed66b4214b7ef55ecf2a95d5ed4bc38653ce
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34755019"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49642006"
 ---
 # <a name="using-auditing-within-your-organization"></a>Auditing gebruiken binnen uw organisatie
 
@@ -202,7 +202,7 @@ Zie [Gedetailleerde eigenschappen in het auditlogboek van Office 365](https://su
 ## <a name="next-steps"></a>Volgende stappen
 
 [Power BI-beheerportal](service-admin-portal.md)  
-[Power BI Premium - wat is het?](service-premium.md)  
+[Wat is Power BI Premium?](service-premium.md)  
 [Purchasing Power BI Pro](service-admin-purchasing-power-bi-pro.md) (Power BI Pro kopen)  
 [Machtigingen in Exchange Online](https://technet.microsoft.com/library/jj200692\(v=exchg.150\).aspx)  
 [Connect to Exchange Online PowerShell](https://technet.microsoft.com/library/jj984289\(v=exchg.160\).aspx) (Verbinding maken met Exchange Online PowerShell)  

@@ -2,8 +2,6 @@ Welkom bij de sectie **Publiceren en delen** van de cursus **Begeleide training*
 
 Nu dat u hebt geleerd hoe Excel en Power BI naadloos samenwerken en u weet welke visualisaties u in rapporten en dashboards kunt maken, wilt u deze waarschijnlijk delen met uw collega's en vrienden. Met Power BI is **publiceren en delen** heel eenvoudig.
 
-In deze sectie leert u hoe eenvoudig het is om Excel-werkmappen over te zetten naar Power BI en hoe goed Power BI en Excel met elkaar zijn geïntegreerd.
-
 ## <a name="share-and-collaborate-with-colleagues-in-power-bi"></a>Delen en samenwerken met collega's in Power BI
 *Aan de slag met de hulpmiddelen waarmee u met Power BI eenvoudig kunt delen en samenwerken*
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 60ac0a944b1eb54ab998fbf25cb5fb79d6dddbe6
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: b77d20b8c9705e4b4cd811ea8dfa3008908a4438
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271895"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641675"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI beheren: veelgestelde vragen
 
@@ -249,7 +249,7 @@ Power BI is gebouwd op basis van Office 365, dat op zijn beurt is gebaseerd op A
 [Understanding the Power BI admin role](service-admin-role.md) (Power BI-beheerdersrol)  
 [Registreren voor Power BI via selfservice](service-self-service-signup-for-power-bi.md)  
 [Purchasing Power BI Pro](service-admin-purchasing-power-bi-pro.md) (Power BI Pro kopen)  
-[Power BI Premium - wat is het?](service-premium.md)  
+[Wat is Power BI Premium?](service-premium.md)  
 [Power BI Premium aanschaffen](service-admin-premium-purchase.md)  
 [Office 365 user account management](https://technet.microsoft.com/library/office-365-user-account-management.aspx) (Beheer van Office 365-gebruikersaccounts)  
 [Office 365 group management](https://support.office.com/Article/Find-help-about-Groups-in-Office-365-7a9b321f-b76a-4d53-b98b-a2b0b7946de1) (Beheer van Office 365-groepen)  
