@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: mihart
-ms.openlocfilehash: e4173811db0de0dc95e0bd324517a5750165983e
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 666938d8d852793b68bb278147c61f077c839ed2
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908642"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435359"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Een Power BI-dashboard maken op basis van een rapport
 U hebt [Dashboards in Power BI](service-dashboards.md) gelezen en u wilt nu uw eigen dashboard maken. Er zijn veel verschillende manieren om een dashboard te maken: op basis van een rapport, helemaal vanaf het begin, op basis van een gegevensset, door een bestaand dashboard te dupliceren, en meer.  
@@ -109,7 +109,7 @@ Gefeliciteerd, u hebt uw eerste dashboard gemaakt! Nu u een dashboard hebt, kunt
 ## <a name="next-steps"></a>Volgende stappen
 * [Het formaat van tegels bewerken en ze verplaatsen](service-dashboard-edit-tile.md)
 * [Alles over dashboardtegels](service-dashboard-tiles.md)
-* [Uw dashboard delen door een app te maken](service-install-use-apps.md)
+* [Uw dashboard delen door een app te maken](service-create-workspaces.md)
 * [Power BI - basisconcepten](service-basic-concepts.md)
 * [Tips voor het ontwerpen van een geweldig dashboard](service-dashboards-design-tips.md)
 

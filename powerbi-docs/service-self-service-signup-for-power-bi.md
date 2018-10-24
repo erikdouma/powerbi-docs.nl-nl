@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 411fd408998ba67c4a91ae01e166396530631678
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: bfd3c1242ff5eb0d00078dbeb376dba8b0b6aa20
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909056"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641707"
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Registreren voor Power BI als afzonderlijke gebruiker
 Lees hoe u zich registreert voor Power BI en aan de slag kunt met rapporten en visualisaties.
@@ -142,7 +142,7 @@ In veel gevallen kunt u zich registreren voor Power BI door de bovenstaande stap
 ## <a name="next-steps"></a>Volgende stappen  
 [Purchasing Power BI Pro](service-admin-purchasing-power-bi-pro.md) (Power BI Pro kopen)  
 [Power BI-serviceovereenkomst voor afzonderlijke gebruikers](https://powerbi.microsoft.com/terms-of-service/)  
-[Power BI Premium - wat is het?](service-premium.md)  
+[Wat is Power BI Premium?](service-premium.md)  
 [Technisch document over Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
