@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/27/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: 072f548c3725c4133bb548a72fc58679e74f5fc7
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 6055a9c5e41f1745b088df93587d701393c0d495
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417091"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336732"
 ---
 # <a name="power-bi-security"></a>Beveiliging van Power BI
 [Download het witboek Beveiliging van Power BI](http://go.microsoft.com/fwlink/?LinkId=829185) voor een gedetailleerde uitleg van Power BI-beveiliging:
@@ -58,4 +58,14 @@ Raadpleeg het [Vertrouwenscentrum van Microsoft](https://www.microsoft.com/trust
 Zoals eerder in dit artikel werd beschreven, wordt de Power BI-aanmelding van een gebruiker gebruikt door on-premises Active Directory-servers om toe te wijzen aan een UPN voor referenties. Het is echter **belangrijk** om op te merken dat gebruikers verantwoordelijk zijn voor de gegevens die ze delen: als een gebruiker met haar referenties verbinding maakt met gegevensbronnen, en vervolgens een rapport (of dashboard of gegevensset) op basis van die gegevens deelt, zijn gebruikers met wie het dashboard is gedeeld, niet geverifieerd tegen de oorspronkelijke gegevensbron en hebben ze toegang tot het rapport.
 
 Een uitzondering vormt verbindingen met **SQL Server Analysis Services** met behulp van de **on-premises gegevensgateway**; dashboards worden in de cache geplaatst in Power BI, maar toegang tot onderliggende rapporten of gegevenssets start verificatie voor de gebruiker die probeert het rapport (of de gegevensset) te openen en toegang wordt alleen verleend als de gebruiker voldoende machtigingen heeft om toegang te krijgen tot de gegevens. Zie [Deep dive - On-premises gegevensgateway](service-gateway-onprem-indepth.md) voor meer informatie.
+
+## <a name="enforcing-tls-version-usage"></a>Gebruik van TLS-versie afdwingen
+
+Netwerk- en TLS-beheerders kunnen afdwingen dat de huidige TLS (Transport Layer Security) moet worden gebruikt voor alle beveiligde communicatie in het netwerk. Windows biedt ondersteuning voor TLS-versies boven de Microsoft Schannel Provider, zoals wordt [beschreven in het artikel over TLS Schannel SSP](https://docs.microsoft.com/windows/desktop/SecAuthN/protocols-in-tls-ssl--schannel-ssp-).
+
+De beheerder kan dit afdwingen door registersleutels in te stellen. Afdwingen wordt beschreven in het [artikel over het beheren van SSL-protocollen in AD FS](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/manage-ssl-protocols-in-ad-fs). 
+
+In **Power BI Desktop** worden de instellingen voor registersleutels gerespecteerd die in dit artikel beschreven staan, en alleen gemaakte verbindingen die de toegestane TLS-versie gebruiken, gebaseerd op deze registerinstellingen.
+
+Zie het artikel [TLS-registerinstellingen](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings) voor meer informatie over het instellen van deze registersleutels.
 

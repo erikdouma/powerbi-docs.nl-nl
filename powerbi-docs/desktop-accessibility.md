@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/24/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f07b5174d031c79f4d8f232c49836b54d95621f1
-ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
+ms.openlocfilehash: 525a7e45a804d9f82f4d06cf8618d790e140699f
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "39256027"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336870"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Toegankelijkheid in Power BI Desktop-rapporten
 Power BI bevat functies die het gebruikers met een handicap gemakkelijker maken om Power BI-rapporten te gebruiken en ermee te werken. Deze functies omvatten de mogelijkheid om een rapport te gebruiken met het toetsenbord of een schermlezer, de focus te verplaatsen naar verschillende objecten op een pagina met de tabtoets, en handig gebruik te maken van markeringen in visualisaties.
@@ -61,6 +61,8 @@ Deze toegankelijkheidsfuncties zijn toegevoegd zodat gebruikers volledig gebruik
 ## <a name="tips-for-creating-accessible-reports"></a>Tips voor het maken van toegankelijke rapporten
 De volgende tips kunt u helpen bij het maken van **Power BI Desktop**-rapporten die beter toegankelijk zijn.
 
+### <a name="general-tips-for-accessible-reports"></a>Algemene tips voor toegankelijke rapporten
+
 * Schakel markeringen in voor visuele elementen (zoals een **regel**, **gebied** en **keuzelijst met invoervak**) en voor **spreidingsdiagrammen** en **beldiagrammen**, enzovoort, en gebruik een andere *vorm van markering* voor elke regel.
   
   * Om *markeringen* in te schakelen, selecteert u de sectie **Opmaak** in het deelvenster **Visualisaties** en vouwt u de sectie **Vormen** uit. Schuif vervolgens omlaag naar de schakeloptie **Markeringen** en zet deze op *Aan*.
@@ -80,6 +82,13 @@ De volgende tips kunt u helpen bij het maken van **Power BI Desktop**-rapporten 
 * Neem een titel, aslabels en gegevenslabels op in alle visuele elementen.
 * Gebruik zinvolle titels voor alle rapportpagina's.
 * Vermijd indien mogelijk decoratieve vormen en afbeeldingen in uw rapport, aangezien deze in de tabvolgorde van het rapport worden ingesloten. Als u decoratieve objecten in uw rapport moet opnemen, werkt u de alternatieve tekst van het object bij zodat gebruikers van schermlezers weten dat dit voor de sier is.
+
+### <a name="arranging-items-in-field-buckets"></a>Items rangschikken in veldbuckets
+Vanaf de release van oktober 2018 van **Power BI Desktop** kan in de put **Velden** worden genavigeerd via het toetsenbord en werkt deze met schermlezers. 
+
+U kunt het maken van rapporten met schermlezers verbeteren met behulp van het beschikbare contextmenu voor het omhoog of omlaag verplaatsen van velden in de put in de lijst **Velden**, of door velden te verplaatsen naar andere putten, zoals **Legenda** of  **Waarde**.
+
+![Met het contextmenu in de put Velden kunt u velden omhoog, omlaag of naar een ander gebied verplaatsen](media/desktop-accessibility/accessibility_09.png)
 
 ## <a name="high-contrast-support-for-reports"></a>Ondersteuning voor hoge contrasten in rapporten
 

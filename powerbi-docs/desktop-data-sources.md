@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 05a644c300a0879b2f5eedd95cdddc537cc6fd0b
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: a5a4f6532fe127fe01b699ee9d9e89693fdb369e
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512059"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336893"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Gegevensbronnen in Power BI Desktop
 Met Power BI Desktop kunt u verbinding maken met gegevens uit veel verschillende bronnen. Onderaan op deze pagina vindt u een volledige lijst met beschikbare gegevensbronnen.
@@ -75,13 +75,15 @@ De categorie **Database** biedt de volgende gegevensverbindingen:
 * Teradata-database
 * SAP HANA-database
 * SAP Business Warehouse-toepassingsserver
-* SAP Business Warehouse-berichtenserver (bèta)
+* SAP Business Warehouse-berichtenserver
 * Amazon Redshift
 * Impala
 * Google BigQuery
 * Snowflake
+* Dremio (bèta)
 * Exasol (bèta)
 * Jethro (bèta)
+* Kyligence Enterprise (bèta)
 
 > [!NOTE]
 > Sommige databaseconnectors moet u eerst inschakelen door **Bestand > Opties en instellingen > Opties** te selecteren en vervolgens **Voorbeeldfuncties** en de connector in te schakelen. Als u geen van de hierboven genoemde connectors ziet en ze wel wilt gebruiken, controleert u de instellingen voor **Voorbeeldfuncties**. Houd er ook rekening mee dat een gegevensbron die wordt gemarkeerd als *bèta* of *preview*, beperkte ondersteuning en functionaliteit heeft en niet dient te worden gebruikt in een productieomgeving.
@@ -112,7 +114,7 @@ De categorie **Azure** biedt de volgende gegevensverbindingen:
 * Azure Data Lake Store
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
-* HDInsight interactieve Query (bèta)
+* HDInsight Interactive Query
 * Azure KustoDB (bèta)
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Azure**.
@@ -124,10 +126,10 @@ De categorie **Onlineservices** biedt de volgende gegevensverbindingen:
 * SharePoint Online-lijst
 * Microsoft Exchange Online
 * Dynamics 365 (online)
-* Dynamics NAV (bèta)
+* Dynamics NAV
 * Dynamics 365 Business Central
+* Dynamics 365 Business Central (on-premises)
 * Common Data Service voor apps (bèta)
-* Common Data Service (bèta)
 * Inzicht van Microsoft Azure-verbruik (bèta)
 * Visual Studio-teamservices (bèta)
 * Salesforce-objecten
@@ -163,7 +165,7 @@ In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Onlines
 
 De categorie **Overige** biedt de volgende gegevensverbindingen:
 
-* Vertica (bèta)
+* Vertica
 * Web
 * SharePoint-lijst
 * OData-feed
@@ -175,6 +177,8 @@ De categorie **Overige** biedt de volgende gegevensverbindingen:
 * Python-script
 * ODBC
 * OLE DB
+* Denado
+* Paxata (bèta)
 * Lege query
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Overige**.

@@ -56,29 +56,29 @@ Het inhoudspakket voor het dashboard bevat tegels en metrische gegevens voor ver
 
 | Gebied | Dashboardtegels | Rapport |
 | --- | --- | --- |
-| Contanten |Daily cash flow <br>Cash in <br>Cash out <br>Closing balance by account <br>Closing balance today |Bank Accounts |
-| Klant |Invoiced sales <br>Invoiced sales by customer <br>Invoiced sales growth trend <br>Invoices due <br>Outstanding receivables <br>Overdue receivables |Customer <br>Inventory |
-| Leverancier |Billed purchases <br>Billed purchases by supplier <br>Billed purchases growth trend <br> Bills due <br>Outstanding payables <br>Overdue payables |Suppliers <br>Inventory |
-| Voorraad |Monthly sales amount by product |Inventory |
-| Winst en verlies |Monthly profit and loss <br>Net profit this fiscal year <br>Net profit this month <br>Top expense accounts |Profit and Loss |
-| Balans |Total assets <br>Total liabilities <br>Equity |Balance Sheet |
-| Status |Current ratio <br>Gross profit percentage <br> Return on total assets <br>Total liabilities to equity ratio |Health <br>Glossary and Technical Notes |
+| Contanten |Dagelijkse kasstroom <br>Inkomende kasstroom <br>Uitgaande kasstroom <br>Eindsaldo per account <br>Eindsaldo vandaag nog |Accounts van de bank |
+| Klant |Gefactureerde verkoop <br>Gefactureerde verkoop per klant <br>Gefactureerde omzetgroei trend <br>Vervallen facturen <br>Uitstaande vorderingen <br>Achterstallige vorderingen |De klant <br>Inventaris |
+| Leverancier |Aankopen worden gefactureerd <br>Gefactureerde aankopen door leverancier <br>Aankopen worden gefactureerd groei van de trend <br> Facturen vervaldatum <br>Openstaande crediteuren <br>Achterstallige crediteuren |Leveranciers <br>Inventaris |
+| Inventaris |Maandelijkse omzet per product |Inventaris |
+| Winst en verlies |Maandelijkse winst en verlies <br>Nettowinst dit fiscaal jaar <br>Nettowinst deze maand <br>Topaccounts onkosten |Winst en verlies |
+| Balans |Balans <br>De totale verplichtingen <br>Aandelen |Balans |
+| Gezondheidszorg |Verhouding vlottende activa <br>Brutowinstmarge <br> Terug op het totaal aantal activa <br>Totaal aantal verplichtingen aan vermogen verhouding |Gezondheidszorg <br>Verklarende woordenlijst en technische notities |
 
 De gegevensset bevat ook de volgende tabellen om uw rapporten en dashboards aan te passen:  
 
-* Addresses  
-* Alerts  
-* Bank Statement Daily Balance  
-* Bank Statements  
-* Contacts  
-* Expense Claims  
-* Invoice Line Items  
-* Invoices  
+* Adressen  
+* Waarschuwingen  
+* Bank instructie dagelijks saldo  
+* Bank-instructies  
+* Contactpersonen  
+* Onkosten Claims  
+* Regel factuuritems  
+* Facturen  
 * Items  
-* Month End  
-* Organisation  
-* Trial Balance  
-* Xero Accounts
+* Einde van de maand  
+* Organisatie  
+* Proefbalans  
+* Xero-Accounts
 
 ## <a name="system-requirements"></a>Systeemvereisten
 De volgende rollen zijn vereist voor toegang tot het inhoudspakket van Xero: 'Standaard + Rapporten' of 'Adviseur'.

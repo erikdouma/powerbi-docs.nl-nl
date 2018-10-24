@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/17/2018
+ms.date: 10/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 4e7692be8ec78c79076408635a75dbf0ab9080d2
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 49540dd491d02c6a6b474ff80690a75eecfd27db
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45974041"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336985"
 ---
 # <a name="composite-models-in-power-bi-desktop-preview"></a>Samengestelde modellen in Power BI Desktop (preview-versie)
 
@@ -58,7 +58,7 @@ Als u DirectQuery gebruikt met **samengestelde modellen**, is het mogelijk om ee
 Zo is het met **samengestelde modellen** bijvoorbeeld mogelijk om een model te maken waarin verkoopgegevens uit het datawarehouse van een bedrijf worden gecombineerd met gegevens van verkoopdoelen die zijn opgeslagen in de SQL Server-database van een afdeling, samen met enkele gegevens die worden geïmporteerd uit een spreadsheet. Een model dat gegevens uit meer dan één DirectQuery-bron combineert, of DirectQuery combineert met geïmporteerde gegevens, wordt een *samengesteld model* genoemd.
 
 > [!NOTE]
-> Hoewel samengestelde modellen in preview zijn, is het niet mogelijk om samengestelde modellen te publiceren naar de Power BI-service. 
+> Vanaf de release van oktober 2018 van **Power BI Desktop**, is het *mogelijk* om samengestelde modellen te publiceren in de Power BI-service. Bij gepland vernieuwen en het vernieuwen van dashboardtegels werken samengestelde modellen op dezelfde manier als importmodellen. 
 
 U kunt op de gebruikelijke manier relaties instellen tussen tabellen, zelfs wanneer deze tabellen afkomstig zijn uit verschillende bronnen. Er is echter één beperking waarmee u rekening moet houden: alle relaties die meerdere bronnen gebruiken, moeten worden gedefinieerd met de kardinaliteit **Veel-op-veel**, ongeacht hun werkelijke kardinaliteit. Het gedrag van dergelijke relaties is vervolgens hetzelfde als bij **veel-op-veel**-relaties, zoals wordt beschreven in [Veel-op-veel-relaties in Power BI Desktop (preview-versie)](desktop-many-to-many-relationships.md). Het is belangrijk om te weten dat in de context van samengestelde modellen, alle geïmporteerde tabellen in feite één bron vormen, ongeacht de onderliggende gegevensbron waaruit ze daadwerkelijk worden geïmporteerd.   
 

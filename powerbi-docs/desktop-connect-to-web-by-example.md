@@ -1,5 +1,5 @@
 ---
-title: Gegevens van een webpagina extraheren met behulp van een voorbeeld in Power BI Desktop (preview)
+title: Gegevens van een webpagina extraheren met behulp van een voorbeeld in Power BI Desktop
 description: Gegevens van een webpagina extraheren door een voorbeeld op te geven van de gegevens die u wilt opvragen
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 55c1a70e054b6bb6ff06c7fe6f83b58d8b1f26f3
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: f90f2ea4737fc5c98df4d171f8e1e65c2704607d
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290977"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336801"
 ---
-# <a name="get-data-from-a-web-page-by-providing-an-example-preview"></a>Gegevens van een webpagina ophalen door een voorbeeld op te geven (preview)
+# <a name="get-data-from-a-web-page-by-providing-an-example"></a>Gegevens van een webpagina ophalen door een voorbeeld op te geven
 
 Door gegevens van een webpagina op te halen, kunnen gebruikers eenvoudig gegevens van webpagina's extraheren en die gegevens importeren in **Power BI Desktop**. Omdat de gegevens op webpagina's zich vaak niet in overzichtelijke tabellen bevinden die eenvoudig kunnen worden geëxtraheerd, kan het ophalen van gegevens van dergelijke pagina's lastig zijn, zelfs als deze gestructureerd en consistent zijn. 
 
@@ -26,13 +26,6 @@ Maar er is een oplossing. Met de functie **Gegevens van web ophalen met een voor
 ![Gegevens ophalen van web met een voorbeeld](media/desktop-connect-to-web-by-example/web-by-example_01.png)
 
 
-## <a name="enabling-the-preview-feature-get-data-from-web-by-example"></a>De preview-functie Gegevens ophalen van web met een voorbeeld inschakelen
-
-De functie **Gegevens ophalen van web met een voorbeeld** bevindt zich nog in de preview-fase en moet in **Power BI Desktop** worden ingeschakeld. U kunt de functie inschakelen door **Bestand > Opties en instellingen > Opties > Preview-functies** te selecteren en vervolgens het selectievakje **Nieuw van Web-ervaring** in te schakelen. Power BI Desktop moet opnieuw worden opgestart nadat u de selectie hebt gemaakt.
-
-![De preview-functie inschakelen](media/desktop-connect-to-web-by-example/web-by-example_02.png)
-
-Zodra de preview-functie is ingeschakeld, kunt u deze gebruiken. 
 
 ## <a name="using-get-data-from-web-by-example"></a>Gegevens ophalen van web met een voorbeeld gebruiken
 

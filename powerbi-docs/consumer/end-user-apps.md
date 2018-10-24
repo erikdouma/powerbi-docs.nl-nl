@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 10/09/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0d9f16933bff264b10c0bff3e1b7c440a3d373a2
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 0cb5e9ae8256f9df6c849df612f156d7fe9d12a8
+ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48907848"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49112194"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Apps installeren en gebruiken met dashboards en rapporten in Power BI
 *Apps* brengen in Power BI gerelateerde dashboards en rapporten allemaal op één plek samen. Personen in uw organisatie kunnen apps maken en distribueren met belangrijke bedrijfsinformatie. [Externe services](end-user-connect-to-services.md) waar u reeds gebruik van maakt, zoals Google Analytics en Microsoft Dynamics CRM, bieden ook Power BI-apps. 
@@ -34,13 +34,13 @@ De eenvoudigste manier om zelf een nieuwe app te installeren is door een directe
 
 **Op uw computer** 
 
-Wanneer u klikt op de koppeling in de e-mail wordt Power BI-service ([https://powerbi.com](https://powerbi.com)) in een browser geopend. U bevestigt dat u de app wilt installeren en de landingspagina van de app wordt geopend.
+Selecteer de koppeling in een e-mailbericht om de Power BI-service ([https://powerbi.com](https://powerbi.com)) te openen in een browser. Bevestig dat u de app wilt installeren. Vervolgens wordt de landingspagina van de app geopend.
 
 ![Landingspagina van de app in de Power BI-service](./media/end-user-apps/power-bi-app-landing-page-opportunity-480.png)
 
 **Op uw iOS- of mobiele Android-apparaat** 
 
-Wanneer u op de koppeling in de e-mail op uw mobiele apparaat klikt, wordt de app automatisch geïnstalleerd en wordt de app-inhoudslijst in de mobiele app geopend. 
+Wanneer u de koppeling in de e-mail selecteert op uw mobiele apparaat, wordt de app automatisch geïnstalleerd en wordt de app-inhoudslijst geopend in de mobiele app. 
 
 ![App-inhoudslijst op mobiele apparaten](./media/end-user-apps/power-bi-app-index-it-spend-360.png)
 
@@ -50,7 +50,7 @@ U kunt ook apps binnen Microsoft AppSource zoeken en installeren.
 1. Selecteer in het linkernavigatievenster de optie **Apps** ![](./media/end-user-apps/power-bi-apps-bar.png) > **Apps verkrijgen**. 
    
      ![Het pictogram Apps verkrijgen](./media/end-user-apps/power-bi-service-apps-get-apps-oppty.png)
-2. In AppSource onder **Mijn organisatie** kunt u zoeken om de resultaten te filteren en de gewenste app vinden.
+2. Zoek in AppSource onder **Mijn organisatie** om de resultaten te filteren en de gewenste app te vinden.
    
      ![In AppSource onder Mijn organisatie](./media/end-user-apps/power-bi-appsource-my-org.png)
 3. Selecteer **Nu downloaden** om deze aan uw pagina met apps toe te voegen. 

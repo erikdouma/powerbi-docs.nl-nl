@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/17/2018
+ms.date: 10/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 71894a801f0c993abaaedc92d4172da67b76f7a0
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 3e94dc516f41d764394828309ba4b612083d4583
+ms.sourcegitcommit: fbb27fb40d753b5999a95b39903070766f7293be
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45974202"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "49359718"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Aggregaties in Power BI Desktop (preview-versie)
 
@@ -191,9 +191,9 @@ Vervolgens definiëren we de aggregatietoewijzingen in het dialoogvenster **Aggr
 
 ![Dialoogvenster Aggregaties beheren voor de tabel Driver Activity Agg](media/desktop-aggregations/aggregations_11.jpg)
 
-In de volgende tabel ziet u de aggregaties voor de tabel **Sales Agg**.
+In de volgende tabel ziet u de aggregaties voor de tabel **Driver Activity Agg**.
 
-![aggregatietabel Sales Agg](media/desktop-aggregations/aggregations-table_02.jpg)
+![Aggregatietabel Driver Activity Agg](media/desktop-aggregations/aggregations-table_02.jpg)
 
 ### <a name="group-by-columns"></a>Groeperen op kolommen
 
@@ -229,9 +229,9 @@ De tabel die is opgegeven in de kolom **Tabel met details** is **Driver Activity
 
 ![Dialoogvenster Aggregaties beheren](media/desktop-aggregations/aggregations_14.jpg)
 
-In de volgende tabel ziet u de aggregaties voor de tabel **Sales Agg**.
+In de volgende tabel ziet u de aggregaties voor de tabel **Driver Activity Agg2**.
 
-![aggregatietabel Sales Agg](media/desktop-aggregations/aggregations-table_03.jpg)
+![Aggregatietabel Driver Activity Agg2](media/desktop-aggregations/aggregations-table_03.jpg)
 
 ## <a name="aggregations-based-on-group-by-columns-combined-with-relationships"></a>Aggregaties op basis van group by-kolommen in combinatie met relaties
 

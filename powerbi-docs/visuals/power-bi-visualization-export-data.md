@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/25/2018
+ms.date: 10/08/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2cc7691e81f5edab9d9f7a2a6d878420ca1c82f4
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: d042119a95cb60f930a0535e93b0a50ee9224da3
+ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47418234"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49112254"
 ---
 # <a name="export-data-from-visualizations"></a>Gegevens uit visualisaties exporteren
 Als u de gegevens wilt zien die gebruikt worden om een visualisatie te maken, kunt u die gegevens weergeven in Power BI of exporteren naar Excel als .xlsx- of .csv-bestand.   
@@ -55,8 +55,7 @@ Als u mee wit doen, opent u het rapport [Procurement analysis sample](../sample-
 4. Selecteer het beletselteken in de rechterbovenhoek van de visualisatie. Kies **Gegevens exporteren**.
 
    ![](media/power-bi-visualization-export-data/power-bi-export-data2.png)
-5. Als uw visualisatie in Power BI Online een statistische functie heeft (een voorbeeld zou zijn als u **Aantal** wijzigt in *Gemiddelde*, *Som* of *Minimum*), hebt u twee opties: **Samengevatte gegevens** en **Onderliggende gegevens**. In Power BI Desktop kunt u alleen **Samengevatte gegevens** kiezen. Zie [Statistische functies in Power BI](../service-aggregates.md) voor hulp bij statistische functies in Power BI.
-
+5. Als uw visualisatie in Power BI Online een statistische functie heeft (een voorbeeld zou zijn als u **Aantal** wijzigt in *Gemiddelde*, *Som* of *Minimum*), hebt u twee opties: **Samengevatte gegevens** en **Onderliggende gegevens**. In Power BI Desktop hebt u alleen de optie voor **Samengevatte gegevens**. Zie voor hulp bij statistische functies [Statistische functies in Power BI](../service-aggregates.md).
     ![](media/power-bi-visualization-export-data/power-bi-export-data5.png)
 6. Selecteer **Samengevatte gegevens** > **Exporteren** en kies .xlsx- of .csv. Power BI exporteert de gegevens.  Als u filters op de visualisatie hebt toegepast, worden de geëxporteerde gegevens geëxporteerd als gefilterd. Wanneer u **Exporteren** selecteert, wordt u gevraagd het bestand op te slaan. Nadat het is opgeslagen, opent u het bestand in Excel.
 
@@ -90,6 +89,26 @@ Wat u ziet wanneer u **Onderliggende gegevens** selecteert, varieert. Vraag uw b
 |    Metingen     |                                      Alle gegevens van alle tabellen die zijn gerelateerd aan tabellen met de metingen via een keten van \*:1 van 1:1                                      |
 |  Alleen metingen  |                                                   Alle niet-verborgen kolommen van alle gerelateerde tabellen (om de meting te kunnen uitbreiden)                                                   |
 |  Alleen metingen  |                                                             Samengevatte gegevens voor alle dubbele rijen voor modelmetingen.                                                              |
+
+### <a name="set-the-export-options"></a>De opties voor exporteren instellen
+Power BI-rapportontwikkelaars beheren welke opties voor het exporteren van gegevens beschikbaar zijn voor gebruikers. De opties zijn:
+- Alleen exporteren van samengevatte gegevens toestaan (dit is de standaardinstelling voor rapporten) 
+- Exporteren van samengevatte en onderliggende gegevens toestaan  
+- Exporteren van gegevens niet toestaan  
+
+1. Als u deze opties wilt instellen, begint u in Power BI Desktop.
+
+2. Selecteer in de linkerbovenhoek **Bestand** > **Opties en instellingen** > **Opties**. 
+
+3. Selecteer onder **Huidig bestand** de optie **Rapportinstellingen**.
+
+    ![rapportinstellingen voor de desktop](media/power-bi-visualization-export-data/desktop-report-settings.png)
+
+4. Maak uw keuze uit de vervolgkeuzelijst **Gegevens exporteren**.
+
+U kunt deze instelling ook bijwerken in de Power BI-service.  
+
+Let op: als de instellingen van de Power BI-beheerportal conflicteren met de rapportinstellingen voor het exporteren van gegevens, worden deze laatste instellingen overschreven door de portalinstellingen. 
 
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 * Het maximum aantal rijen dat uit **Power BI Desktop** en de **Power BI-service** naar .csv kan worden geëxporteerd, is 30.000.
