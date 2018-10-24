@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 453b0f5852fefb1008b8013a0c42af4cc1d42f32
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 3f8a5075290620d9d1ed1829008002ff71d25c82
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547632"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908154"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Inleiding tot organisatie-inhoudspakketten in Power BI
 > [!NOTE]
@@ -33,7 +33,7 @@ In AppSource kunt u bladeren of zoeken naar inhoudspakketten die zijn gepublicee
 De dashboards, rapporten en Excel-werkmappen hebben het kenmerk alleen-lezen, maar u kunt de dashboards en rapporten kopiëren en gebruiken als uitgangspunt voor van uw eigen gepersonaliseerde versie van het inhoudspakket.
 
 > [!NOTE]
-> Organisatie-inhoudspakketten zijn alleen beschikbaar wanneer u en uw collega's over [Power BI Pro](service-free-vs-pro.md) beschikken.
+> Organisatie-inhoudspakketten zijn alleen beschikbaar wanneer u en uw collega's over [Power BI Pro-licenties](service-features-license-type.md) beschikken.
 > 
 > 
 
@@ -52,7 +52,7 @@ De levenscyclus ziet er ongeveer als volgt uit:
 1. Nate maakt een inhoudspakket in Power BI Pro en publiceert deze naar de groep Marketingdistributie. De vernieuwingsinstellingen worden overgenomen door de gegevensset en kunnen alleen worden gewijzigd door Nate.
    
    > [!NOTE]
-   > Als Nate het inhoudspakket maakt in een [Power BI-app-werkruimte](consumer/end-user-create-apps.md) waartoe hij behoort, kunnen anderen in de Power BI-werkruimte eigenaar worden van de werkruimten, zelfs wanneer hij de werkruimte verlaat.
+   > Als Nate het inhoudspakket maakt in een [Power BI-app-werkruimte](service-create-distribute-apps.md) waartoe hij behoort, kunnen anderen in de Power BI-werkruimte eigenaar worden van de werkruimten, zelfs wanneer hij de werkruimte verlaat.
    > 
    > 
 2. Nate verzendt een mail naar de distributiegroep om ze op de hoogte te brengen van het nieuwe inhoudspakket.
@@ -76,7 +76,7 @@ Alle distributiegroepsleden beschikken over dezelfde machtigingen voor de gegeve
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Organisatie-inhoudspakketten maken en publiceren](service-organizational-content-pack-create-and-publish.md)
-* [Een app maken en distribueren in Power BI](consumer/end-user-create-apps.md) 
+* [Een app maken en distribueren in Power BI](service-create-distribute-apps.md) 
 * [Power BI - basisconcepten](consumer/end-user-basic-concepts.md)
 * Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

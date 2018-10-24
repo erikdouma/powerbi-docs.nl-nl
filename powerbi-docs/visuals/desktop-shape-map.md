@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ad9a3e73a90ff69f5d56e1e5c1fc487c855df74d
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 71dbdd79e6bedee3f1377f0e7c29fcc6efbbba03
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566022"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417321"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Shape-kaarten in Power BI Desktop (preview)
-In Power BI Desktop maakt u een **Shape-kaart**-visual om relatieve vergelijkingen van regio's op een kaart te laten zien door verschillende kleuren op verschillende regio's toe te passen. In tegenstelling tot de **kaart** -visual, kan **Shape Map** geen nauwkeurige geografische locaties van gegevenspunten op een kaart weergeven. In plaats daarvan is het belangrijkste doel het weergeven van relatieve vergelijkingen van regio's op een kaart door ze een andere kleur te geven.
+Maak een **Shape Map**-visual om regio's op een kaart te vergelijken met kleur. In tegenstelling tot de visual **Map** kan **Shape Map** geen nauwkeurige geografische locaties van gegevenspunten weergeven op een kaart. Het belangrijkste doel van Map is om relatieve vergelijkingen van regio's aan te geven op een kaart door verschillende kleuren te gebruiken.
 
 Visuals van **Shape Map** zijn gebaseerd op ESRI/TopoJSON-kaarten die de mogelijkheid bieden om gebruik te maken van aangepaste kaarten die u kunt maken, zoals geografische kaarten, overzichten van zitplaatsen, verdiepingsplattegronden, enzovoort. De mogelijkheid om aangepaste toewijzigen te gebruiken is niet beschikbaar in deze voorbeeldrelease van **Shape Map**.
 
@@ -68,7 +68,7 @@ Als u uw **TopoJSON**-kaartbestand wilt gebruiken, voegt u een visual van de Sha
 ![](media/desktop-shape-map/shape-map_6.png)
 
 ## <a name="sample-custom-map"></a>Voorbeeld van een aangepaste kaart
-De *vereniging van Amerikaanse officieren van justitie* publiceert een jaarlijks fiscaal verslag over hun gerechtelijke procedures en geschillen.  U kunt al deze rapporten vinden via de onderstaande koppeling,
+De *Offices of the United States Attorneys* publiceert jaarlijks een fiscaal verslag van hun gerechtelijke procedures en geschillen.  U kunt al deze rapporten vinden via de onderstaande koppeling,
 
 https://www.justice.gov/usao/resources/annual-statistical-reports
 
@@ -115,7 +115,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te
 
 ### <a name="australia-states"></a>Australië: staten
 
-| id | afk | iso | naam | postcode |
+| `id` | `abbr` | `iso` | `name` | `postal` |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |West-Australië |WA |
 | au-vic |Vic |AU-VIC |Victoria |VIC |
@@ -128,7 +128,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te
 
 ### <a name="austria-states"></a>Oostenrijk: deelstaten
 
-| id | iso | naam | naam-nl | postcode |
+| `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |Wenen |WI |
 | at-vo |AT-8 |Vorarlberg |Vorarlberg |VO |
@@ -142,7 +142,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te
 
 ### <a name="brazil-states"></a>Brazilië: staten
 
-| id |
+| `id` |
 | --- |
 | Tocantins |
 | Pernambuco |
@@ -178,7 +178,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te
 
 ### <a name="canada-provinces"></a>Canada: provincies
 
-| id | iso | naam | postcode |
+| `id` | `iso` | `name` | `postal` |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
 | ca-nt |CA-NT |Northwest Territories |NT |
@@ -196,9 +196,9 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te
 
 ### <a name="france-regions"></a>Frankrijk: regio's
 
-| id | naam | naam-nl |
+| `id` | `name` | `name-en` |
 | --- | --- | --- |
-| Alsace |Elzas |Elzas |
+| Elzas |Elzas |Elzas |
 | Rhone-Alpes |Rhône-Alpes |Rhône-Alpes |
 | Provence-Alpes-Cote d'Azur |Provence-Alpes-Côte d'Azur |Provence-Alpes-Côte d'Azur |
 | Poitou-Charentes |Poitou-Charentes |Poitou-Charentes |
@@ -223,7 +223,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te
 
 ### <a name="germany-states"></a>Duitsland: deelstaten
 
-| id | iso | naam | naam-nl | postcode |
+| `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlin |Berlijn |BE |
 | de-th |DE-TH |Thüringen |Thüringen |TH |
@@ -244,7 +244,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te
 
 ### <a name="ireland-counties"></a>Ierland: county's
 
-| id |
+| `id` |
 | --- |
 | Wicklow |
 | Wexford |
@@ -275,7 +275,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te
 
 ### <a name="italy-regions"></a>Italië: regio's
 
-| id | iso | naam | naam-nl | postcode |
+| `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Veneto |Veneto |VN |
 | it-vd |IT-23 |Valle d'Aosta |Aostavallei |VD |
@@ -300,7 +300,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te
 
 ### <a name="mexico-states"></a>Mexico: staten
 
-| id | abreviatura | iso | naam | naam-nl | postcode |
+| `id` | `abreviatura` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas |ZA |
 | mx-yuc |Yuc. |MX-YUC |Yucatán |Yucatan |YU |
@@ -337,7 +337,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te
 
 ### <a name="netherlands-provinces"></a>Nederland: provincies
 
-| id | iso | naam | naam-nl |
+| `id` | `iso` | `name` | `name-en` |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |South Holland |
 | nl-ze |NL-ZE |Zeeland |Zeeland |
@@ -354,7 +354,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te
 
 ### <a name="uk-countries"></a>VK: landen
 
-| id | iso | naam |
+| `id` | `iso` | `name` |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Wales |
 | gb-sct |GB-SCT |Schotland |
@@ -363,7 +363,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te
 
 ### <a name="usa-states"></a>VS: staten
 
-| id | naam | postcode |
+| `id` | `name` | `postal` |
 | --- | --- | --- |
 | us-mi |Michigan |MI |
 | us-ak |Alaska |AK |
@@ -417,3 +417,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te
 | us-mt |Montana |MT |
 | us-wa |Washington |WA |
 
+## <a name="next-steps"></a>Volgende stappen
+[Matrixvisualisatie in Power BI](desktop-matrix-visual.md)
+
+[Visualization types in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md) (Typen visualisaties in Power BI)

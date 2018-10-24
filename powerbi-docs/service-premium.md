@@ -1,5 +1,5 @@
 ---
-title: Wat is Power BI Premium?
+title: Wat is Microsoft Power BI Premium?
 description: Power BI Premium is toegewezen capaciteit voor uw organisatie of team om u betrouwbaardere prestaties en grotere gegevensvolumes te kunnen bieden, zonder dat u voor iedere gebruiker een licentie hoeft te kopen.
 author: mgblythe
 ms.author: mblythe
@@ -10,17 +10,20 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/11/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 87847575d4fff3d3530847246be5bc8f720b5141
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: 0723ddb57131fed499d4ac86666b3cd6d8bcbd2d
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512128"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271803"
 ---
-# <a name="power-bi-premium---what-is-it"></a>Wat is Power BI Premium?
-Power BI Premium bevat toegewezen resources om de Power BI-service voor uw organisatie of een team uit te voeren. Dit resulteert in betrouwbaardere prestaties en u kunt grotere gegevensvolumes verwerken. Premium biedt de mogelijkheid tot een wijd verspreide distributie zonder dat u gebruikerslicentie hoeft aan te schaffen voor viewers.
+# <a name="what-is-microsoft-power-bi-premium"></a>Wat is Microsoft Power BI Premium?
 
-U kunt profiteren van Power BI Premium door werkruimten aan een *Premium-capaciteit* toe te wijzen. Premium-capaciteit is een toegewezen resource voor uw organisatie. Werkruimten die niet zijn toegewezen aan een Premium-capaciteit, bevinden zich in een *gedeelde capaciteit*. Met gedeelde capaciteit worden uw workloads uitgevoerd via rekenresources die met andere klanten worden gedeeld. Bij een gedeelde capaciteit gelden er meer beperkingen voor de individuele gebruikers om een goede ervaring voor alle gebruikers te waarborgen.
+Microsoft Power BI Premium biedt resources die speciaal zijn ontwikkeld om de Power BI-service voor uw organisatie of team uit te voeren. Dit resulteert in betrouwbaardere prestaties en u kunt grotere gegevensvolumes verwerken. Premium biedt ook de mogelijkheid tot een wijdverspreide distributie zonder dat u per gebruiker Pro-licenties hoeft te kopen voor viewers.
+
+U kunt profiteren van Power BI Premium door werkruimten aan een *Premium-capaciteit* toe te wijzen. Premium-capaciteit is een toegewezen resource voor uw organisatie. Werkruimten die niet zijn toegewezen aan een Premium-capaciteit, bevinden zich in een *gedeelde capaciteit*. Met gedeelde capaciteit worden uw workloads uitgevoerd via rekenresources die met andere klanten worden gedeeld. 
+
+Bij een gedeelde capaciteit past Power BI meer beperkingen toe voor individuele gebruikers om alle gebruikers een goede ervaring te geven. Uw werkruimte bevindt zich standaard in een gedeelde capaciteit, evenals uw persoonlijke *Mijn werkruimte* en app-werkruimten.
 
 [!INCLUDE [powerbi-premium-illustration](./includes/powerbi-premium-illustration.md)]
 
@@ -28,7 +31,7 @@ U kunt profiteren van Power BI Premium door werkruimten aan een *Premium-capacit
 
 ## <a name="capacity-tiers"></a>Capaciteitslagen
 
-Er zijn twee typen capaciteit in Power BI. Gedeelde capaciteit en Power BI Premium-capaciteit. Hier volgt een overzicht van de verschillen tussen beide.
+Hier volgt een overzicht van de verschillen tussen gedeelde capaciteit en Premium-capaciteit.
 
 |  | Gedeelde capaciteit | Power BI Premium-capaciteit |
 | --- | --- | --- |
@@ -39,23 +42,18 @@ Er zijn twee typen capaciteit in Power BI. Gedeelde capaciteit en Power BI Premi
 | Ingesloten API en besturingselementen |![](media/service-premium/not-available.png "Niet beschikbaar") |![](media/service-premium/available.png "Beschikbaar")<sup>2</sup> |
 | **Power BI-rapporten on-premises publiceren** |![](media/service-premium/not-available.png "Niet beschikbaar") |![](media/service-premium/available.png "Beschikbaar") |
 
-*<sup>1</sup> Zie [Gebruikersmogelijkheden met Power BI Pro- en Power BI Premium](service-free-vs-pro.md)-functionaliteit voor meer informatie.*  
+*<sup>1</sup> Zie [Power BI Free vs Pro voor meer informatie](service-features-license-type.md).*  
 *<sup>2</sup> Toekomstige verbeteringen voor Power BI Premium.*
 
-### <a name="premium-capacity"></a>Premium-capaciteit
+Als u een Power BI Premium-capaciteit wilt gebruiken, wijst u een werkruimte toe aan een capaciteit. Wanneer premium-capaciteit een back-up maakt van een werkruimte, krijgt u:
 
-Als u een Power BI Premium-capaciteit wilt gebruiken, moet u een werkruimte toewijzen aan een capaciteit. Wanneer premium-capaciteit een back-up maakt van een werkruimte, krijgt u:
+* **Geplande vernieuwingen**: met gedeelde capaciteit wordt het aantal geplande vernieuwingen voor geïmporteerde modelgegevenssets beperkt tot acht per dag. Voor gegevenssets in Premium-werkruimten, kunt u maximaal 48 keer per dag vernieuwingen plannen. Het vernieuwen van de DirectQuery-cache is nog steeds beperkt tot acht keer per dag in Premium-capaciteit.
 
-* **Geplande vernieuwingen**: met gedeelde capaciteit wordt het aantal geplande vernieuwingen voor geïmporteerde modelgegevenssets beperkt tot acht per dag. Voor gegevenssets in Premium-werkruimten, kunt u maximaal 48 keer per dag vernieuwingen plannen. Verbeterde geplande vernieuwingen zijn niet van toepassing op de geplande cachevernieuwingsinstellingen voor DirectQuery, die gelijk blijven zonder wijzigingen tussen Premium en gedeelde capaciteit.
-* **Isolatie met toegewezen hardware**: gezien de aard van de gedeelde capaciteit, kunnen de prestaties van uw rapporten en dashboards worden beïnvloed door de resourcevereisten van andere workloads in de capaciteit, ondanks dat we dit zoveel mogelijk proberen te voorkomen. Premium-capaciteit biedt daarentegen een consistentere, betrouwbaardere prestaties voor uw workloads door deze te isoleren van niet-gerelateerde workloads.
+* **Isolatie met toegewezen hardware**: in gedeelde capaciteit kunnen de resourcevereisten van andere werkbelastingen invloed hebben op de prestaties van uw rapporten en dashboards. Premium-capaciteit biedt daarentegen meer consistente, betrouwbaardere prestaties voor uw werkbelastingen door deze te isoleren van niet-gerelateerde werkbelastingen.
 
 Als een app wordt ondersteund door Premium-capaciteit (oftewel de app is gepubliceerd vanuit een app-werkruimte die momenteel is toegewezen aan Premium), kan de gepubliceerde app worden gebruikt door iedere gebruiker in uw organisatie, ongeacht de toegewezen licenties.
 
 Voor meer informatie over het toewijzen van werkruimten aan een premium-capaciteit raadpleegt u [Power BI Premium beheren](service-admin-premium-manage.md).
-
-### <a name="shared-capacity"></a>Gedeelde capaciteit
-
-Uw werkruimte bevindt zich standaard in een gedeelde capaciteit. Dit geldt ook voor uw persoonlijke *Mijn werkruimte* en app-werkruimten. Gedeelde capaciteit kent u al van Power BI, waar uw workloads worden uitgevoerd op calculatiebronnen die worden gedeeld door andere klanten.
 
 <a name="premiumskus"/>
 
@@ -64,10 +62,11 @@ Uw werkruimte bevindt zich standaard in een gedeelde capaciteit. Dit geldt ook v
 Power BI Premium is beschikbaar in knooppuntconfiguraties met verschillende v-corecapaciteiten. Zie [Prijzen van Power BI](https://powerbi.microsoft.com/pricing/) voor meer informatie over het specifieke SKU-aanbod en de kosten. Er is ook een [kostencalculator](https://powerbi.microsoft.com/calculator/) beschikbaar. Zie [Technisch document over het plannen van een Power BI Enterprise-implementatie](https://aka.ms/pbienterprisedeploy) voor meer informatie over het plannen van de ingesloten analysecapaciteit.
 
 * P-knooppunten kunnen worden gebruikt voor ingesloten of service-implementaties.
+
 * EM-knooppunten kunnen alleen worden gebruikt voor ingesloten implementaties. EM-knooppunten hebben geen toegang tot premiummogelijkheden, zoals apps delen met gebruikers die geen Power BI Pro-licentie hebben.
 
 >[!NOTE]
->Koppelingen in deze tabel werken alleen goed voor gebruikers die globale beheerders zijn voor Office 365. Voor andere gebruikers wordt een 404-fout weergegeven.
+>Koppelingen in deze tabel werken alleen goed voor gebruikers die globale beheerders van Office 365 zijn. Voor andere gebruikers wordt een 404-fout weergegeven.
 
 | Capaciteitsknooppunt | Totaal aantal v-cores<br/>*(back-end + front-end)* | Back-end-v-cores | Front-end-v-cores | Limieten voor DirectQuery/liveverbindingen | Maximaal aantal paginaweergaven (rendering) tijdens piekuren | Beschikbaarheid |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -79,10 +78,11 @@ Power BI Premium is beschikbaar in knooppuntconfiguraties met verschillende v-co
 | [P3](https://portal.office.com/SubscriptionDetails?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |32 v-cores |16 v-cores, 100 GB RAM |16 v-cores |120 per seconde |4.801-9.600 |Beschikbaar |
 
 * De front-end-v-cores zijn verantwoordelijk voor de webservice, het documentbeheer voor dashboards en rapporten, het beheren van de toegangsrechten, de planning, API's, uploaden en downloaden en in het algemeen voor alles met betrekking tot de gebruikerservaring.
+
 * De back-end-v-cores zijn verantwoordelijk voor het zware werk: verwerken van query's, cachebeheer, uitvoeren van R-servers, vernieuwen van gegevens, natuurlijke taalverwerking, realtime feeds en het weergeven van rapporten en afbeeldingen op de server. Voor de back-end-v-cores wordt ook een bepaalde hoeveelheid geheugen gereserveerd. Het is met name belangrijk om voldoende geheugen te hebben wanneer er met grote gegevensmodellen of met een groot aantal actieve gegevenssets wordt gewerkt.
 
 ## <a name="power-bi-report-server"></a>Power BI Report Server
-Met Power BI Premium kunt u ook Power BI Report Server on-premises uitvoeren in uw organisatie. Zie [Aan de slag met Power BI Report Server](report-server/get-started.md) voor meer informatie.
+Met Power BI Premium kunt u Power BI Report Server ook on-premises uitvoeren in uw organisatie. Zie [Aan de slag met Power BI Report Server](report-server/get-started.md) voor meer informatie.
 
 ## <a name="next-steps"></a>Volgende stappen
 [Veelgestelde vragen over Power BI Premium](service-premium-faq.md)  

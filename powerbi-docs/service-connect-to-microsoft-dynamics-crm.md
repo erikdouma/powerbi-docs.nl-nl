@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3d4065a6ab0c5a3c8f18350ef6c3a0444febda08
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 475f3ddf646ddc9c5f29409854f93128ce94dd51
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547057"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908826"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>Verbinding maken met Microsoft Dynamics CRM met Power BI
 Met Microsoft Dynamics CRM Online voor Power BI kunt u eenvoudig toegang krijgen tot uw gegevens en deze analyseren. Power BI maakt gebruik van de OData-feed voor het maken van een beschrijvend model, met alle benodigde entiteiten en metrische gegevens zoals Accounts, Activities, Opportunities, Product, Leads, Users en meer. Nadat u de app hebt geïnstalleerd, kunt u het dashboard en de rapporten bekijken in de Power BI-service ([https://powerbi.com](https://powerbi.com)) en in de mobiele Power BI-apps. 
@@ -26,17 +26,16 @@ Deze verbinding vereist **Microsoft Dynamics CRM Online 2016 of hoger**. Meer in
 
 ## <a name="how-to-connect"></a>Verbinding maken
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
-
-1. Selecteer **Microsoft Dynamics CRM Sales Manager** of **Microsoft Dynamics CRM Service Manager** en klik op **Ophalen**.
+3. Selecteer **Microsoft Dynamics CRM Sales Manager** of **Microsoft Dynamics CRM Service Manager** en klik op **Ophalen**.
    
    ![](media/service-connect-to-microsoft-dynamics-crm/connect.png)
-2. Geef de service-URL op die is gekoppeld aan uw account.  De URL moet deze notatie hebben: `https://company.crm.dynamics.com`. Zie [hieronder](#FindingParams) voor meer details.
+4. Geef de service-URL op die is gekoppeld aan uw account.  De URL moet deze notatie hebben: `https://company.crm.dynamics.com`. Zie [hieronder](#FindingParams) voor meer details.
    
    ![](media/service-connect-to-microsoft-dynamics-crm/params.png)
-3. Geef uw referenties op als u daarom wordt gevraagd (deze stap kan worden overgeslagen als u al bent aangemeld in uw browser). Selecteer **oAuth2** voor de verificatiemethode en klik op **Aanmelden**:
+5. Geef indien gewenst uw referenties op (deze stap kan worden overgeslagen als u al bent aangemeld in uw browser). Selecteer **oAuth2** voor de verificatiemethode en klik op **Aanmelden**:
    
    ![](media/service-connect-to-microsoft-dynamics-crm/creds.png)
-4. Als de verbinding tot stand is gekomen, ziet u een dashboard dat is aangepast voor een verkoopmanager of servicemanager, gevuld met uw eigen gegevens:
+6. Als de verbinding tot stand is gekomen, ziet u een dashboard dat is aangepast voor een verkoopmanager of servicemanager, gevuld met uw eigen gegevens:
    
    ![](media/service-connect-to-microsoft-dynamics-crm/dashboard.png)
 
@@ -48,7 +47,7 @@ Deze verbinding vereist **Microsoft Dynamics CRM Online 2016 of hoger**. Meer in
 ## <a name="whats-included"></a>Wat is inbegrepen
 De onderstaande secties bevatten informatie over welke gegevens worden opgenomen voor de rollen [Verkoopmanager](#Sales) en [Servicemanager](#Service).
 
-Het is wel zo dat de beschikbare gegevens ook beperkt worden op basis van de beveiligingsrol die is toegewezen aan de gebruiker van Dynamics CRM Online.
+Gegevens worden beperkt op basis van de beveiligingsrol die is toegewezen aan de Dynamics CRM Online-gebruiker.
 
 Het dashboard en de rapporten zijn bedoeld om operationele rapportages te bieden voor kortetermijngegevens met de focus op een team of groep. Elke query wordt beperkt tot het ophalen van maximaal 100.000 records uit Dynamics CRM Online. Als deze limiet wordt overschreden vanwege de grote hoeveelheid gegevens in uw organisatie, mislukt het inrichten van het dashboard omdat het vernieuwen van gegevens van Dynamics CRM Online wordt beëindigd. Als uw account te groot is, kunt u verbinding maken via Power BI Desktop om een aangepaste oplossing te bouwen.
 
@@ -78,8 +77,8 @@ De volgende tabel bevat de CRM-entiteiten die beschikbaar zijn voor deze service
 
 | CRM-entiteit | Toegepaste filters |
 | --- | --- |
-| Account |Alle accounts met gerelateerde verkoopkansen die mogelijk zijn gewijzigd in de afgelopen 365 dagen |
-| Activity |Alle activiteiten die zijn gewijzigd in de afgelopen 90 dagen <br> [modifiedon] > today - 90 days |
+| Account |Alle accounts met gerelateerde verkoopkansen die mogelijk zijn gewijzigd in de afgelopen 365 dagen. |
+| Activiteiten |Alle activiteiten die zijn gewijzigd in de afgelopen 90 dagen <br> [modifiedon] > today - 90 days |
 | Business Unit |Alle business units die niet zijn uitgeschakeld <br> [isdisabled] = false |
 | Lead |Alle leads die zijn gewijzigd in de afgelopen 180 dagen <br> [modifiedon] > today - 180 days |
 | Opportunity |Alle verkoopkansen die zijn gewijzigd in de afgelopen 365 dagen <br> [modifiedon] > today - 365 days |
@@ -117,7 +116,7 @@ De volgende tabel bevat de CRM-entiteiten die beschikbaar zijn voor deze service
 | Activity |Alle activiteiten die zijn gewijzigd in de afgelopen 90 dagen <br> [modifiedon] > today - 90 days |
 | Case |Alle dossiers die zijn gewijzigd in de afgelopen 90 dagen <br> [modifiedon] > today - 90 days |
 | Case Resolution Activity |Alle activiteiten voor dossieroplossing die zijn gewijzigd in de afgelopen 90 dagen <br> [modifiedon] > today - 90 days |
-| Contact |Alle contactpersonen met gerelateerde dossiers die mogelijk zijn gewijzigd in de afgelopen 90 dagen |
+| Contact |Alle contactpersonen met gerelateerde dossiers die mogelijk zijn gewijzigd in de afgelopen 90 dagen. |
 | Knowledge Article |Alle nieuwste versies van Knowledge Base-artikelen  <br> [islatestversion] = true |
 | Knowledge Article Incident |Alle incidenten in Knowledge Base-artikelen die zijn gewijzigd in de afgelopen 90 dagen <br> [modifiedon] > today - 90 days |
 | Queue |Alle actieve wachtrijen  <br> [statecode] = 0 |
@@ -154,7 +153,7 @@ Als u niet beschikt over CRM Online 2016 of hoger, gebruikt u Power BI Desktop o
 Als u een fout ziet met de melding dat het vernieuwen van gegevens is mislukt omdat de query de maximumlimiet van 100000 records heeft overschreden, kunt u overwegen om rechtstreeks vanuit Power BI Desktop verbinding te maken of om de oplossingssjabloon voor CRM te gebruiken.
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Wat zijn apps in Power BI?](consumer/end-user-apps.md)
+* [Wat zijn apps in Power BI?](service-create-distribute-apps.md)
 * [Gegevens ophalen in Power BI](service-get-data.md)
 * Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

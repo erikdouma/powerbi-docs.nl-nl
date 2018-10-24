@@ -8,27 +8,26 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/29/2018
+ms.date: 10/09/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 8e19bc596bef3862dca79ac92ffbd74954a9c756
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: b2627950ea51239acb19972fde3244f3bd158255
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300156"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909217"
 ---
-# <a name="monitor-power-bi-premium-capacities-in-your-organization"></a>Capaciteiten van Power BI Premium in uw organisatie bewaken
+# <a name="monitor-power-bi-premium-and-power-bi-embedded-capacities"></a>Power BI Premium en Power BI Embedded-capaciteiten bewaken
 
-In dit artikel vindt u een overzicht van het bewaken van de metrische gegevens voor uw Power BI Premium-capaciteiten. Het bewaken van het capaciteitsgebruik biedt een geïnformeerde benadering voor het beheren van uw capaciteiten. 
+In dit artikel vindt u een overzicht van het bewaken van de metrische gegevens voor uw Power BI Premium-capaciteiten. Het bewaken van het capaciteitsgebruik biedt een geïnformeerde benadering voor het beheren van uw capaciteiten.
 
 U kunt de capaciteit bewaken met de app Power BI Premium Capacity Metrics of via de beheerportal. We raden de app aan omdat deze meer detail biedt. Dit artikel behandelt echte beide opties.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UgsjMbhi_Bk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="install-the-premium-capacity-metrics-app"></a>De app Premium Capacity Metrics installeren
 
 U kunt rechtstreeks naar de [app Premium Capacity Metrics](https://app.powerbi.com/groups/me/getapps/services/capacitymetrics) gaan of deze net als andere apps in Power BI installeren.
-
-> [!IMPORTANT]
-> Als u de app wilt installeren en gebruiken, moet u een capaciteitsbeheerder voor ten minste één capaciteit zijn. Een Power BI-beheerder heeft hiervoor onvoldoende rechten. 
 
 1. Klik in Power BI op **Apps**.
 
@@ -42,47 +41,66 @@ U kunt rechtstreeks naar de [app Premium Capacity Metrics](https://app.powerbi.c
 
 Als de app is geïnstalleerd, kunt u metrische gegevens over de capaciteiten in uw organisatie zien. Laten we eens kijken naar enkele belangrijke metrische gegevens die beschikbaar zijn.
 
-## <a name="use-the-metrics-app"></a>De Metrics-app gebruiken 
+## <a name="use-the-metrics-app"></a>De Metrics-app gebruiken
+
 Als u de app opent, ziet u eerst een dashboard met een overzicht van alle capaciteiten waarvoor u beheerdersrechten bezit.
 
-![Overzicht Premium-rapport](media/service-admin-premium-monitor-capacity/app-dashboard.png)
+![App-dashboard met metrische gegevens](media/service-admin-premium-monitor-capacity/app-dashboard.png)
 
-### <a name="filtering"></a>Filteren
+Het rapport heeft drie tabbladen die we in de volgende secties met meer detail beschrijven.
 
-Op het tabblad **Filters op alle pagina's toegepast** kunt u een capaciteit, een gegevensset en/of een gegevensbereik binnen de afgelopen zeven dagen selecteren. Met deze filters wordt de selectie toegepast op alle relevante pagina's en tegels in dit rapport. Als u niets selecteert, worden in het rapport alleen de metrische gegevens getoond van elke capaciteit waarvan u de eigenaar bent.
+* **Filters die zijn toegepast op alle pagina's**: zorgen ervoor dat u de andere pagina's in het rapport kunt filteren op een specifieke capaciteit.
+* **Gegevenssets**: bieden gedetailleerde metrische gegevens over de status van de gegevenssets binnen uw capaciteiten.
+* **Systeem**: geeft de metrische gegevens van de totale capaciteit weer, inclusief hoog geheugen- en CPU-verbruik. 
 
-![Overzicht Premium-rapport](media/service-admin-premium-monitor-capacity/premium-report-overview.png)
+### <a name="filters-applied-to-all-pages-tab"></a>Filters die op alle paginatabbladen zijn toegepast
 
-### <a name="summary-tab"></a>Tabblad Samenvatting
+Op het tabblad **Filters op alle pagina's toegepast** kunt u een capaciteit, een gegevensset en een gegevensbereik binnen de afgelopen zeven dagen selecteren. Filters worden vervolgens toegepast op alle relevante pagina's en tegels in het rapport. Als u er geen filters zijn geselecteerd, worden in het rapport alleen de metrische gegevens getoond van elke capaciteit waarvan u de eigenaar bent.
 
-Op het tabblad **Samenvatting** wordt een weergave getoond van de capaciteit op basis van entiteiten, het systeem en gegevenssets.
+![Tabblad Filters](media/service-admin-premium-monitor-capacity/filters-tab.png)
 
-![Filters die op alle pagina's van toepassing zijn](media/service-admin-premium-monitor-capacity/premium-summary-report.png)
+### <a name="datasets-tab"></a>Tabblad Gegevenssets
 
-| **Gebied** | **Metrische gegevens** |
+Het tabblad **Gegevenssets** biedt het grootste deel van metrische gegevens in de app. Gebruik de vier knoppen bovenaan het tabblad om door de verschillende gebieden te navigeren: **Samenvatting**, **Vernieuwingen**, **Query's** en **Gegevenssets**.
+
+![Tabblad Gegevenssets](media/service-admin-premium-monitor-capacity/datasets-tab.png)
+
+#### <a name="summary-area"></a>Overzichtsgebied
+
+![Samenvattingsknop](media/service-admin-premium-monitor-capacity/summary-button.png)
+
+In het **Samenvattingsgebied** wordt een weergave van uw capaciteiten op basis van entiteiten, systeemresources en werkbelastingen van gegevenssets weergegeven.
+
+| | **Metrische gegevens** |
 | --- | --- |
 | **Entiteiten** | * Het aantal capaciteiten waarvan u eigenaar bent<br> * Het verschillende aantal gegevenssets in uw capaciteit<br> * Het verschillende aantal werkruimten in uw capaciteit |
 | **Systeem** | * Het gemiddelde geheugengebruik in GB gedurende de afgelopen zeven dagen<br> * Het hoogste geheugengebruik in GB gedurende de afgelopen zeven dagen en de lokale tijd waarop dit plaatsvond<br> * Het aantal keren waarop de CPU 80% van de drempelwaarden overschreed gedurende de afgelopen zeven dagen, gesplitst in buckets van drie minuten<br> * De tijden waarop de CPU de 80% meestal overschreed gedurende de afgelopen zeven dagen, gesplitst in buckets van één uur, en de lokale tijd waarop dit plaatsvond<br> * Het aantal keren dat DirectQuery/Live-verbindingen 80% van de drempelwaarden overschreed gedurende de afgelopen zeven dagen, gesplitst in buckets van drie minuten<br> * De tijden waarop DirectQuery/Live-verbindingen de 80% meestal overschreed gedurende de afgelopen zeven dagen, gesplitst in buckets van één uur, en de lokale tijd waarop dit plaatsvond |
 | **Workloads van gegevenssets** | * Het totale aantal vernieuwingen gedurende de afgelopen zeven dagen<br> * Het totale aantal geslaagde vernieuwingen gedurende de afgelopen zeven dagen<br> * Het totale aantal mislukte vernieuwingen gedurende de afgelopen zeven dagen<br> * Het totale aantal mislukte vernieuwingen wegens onvoldoende geheugen<br> * De gemiddelde vernieuwingsduur wordt gemeten in minuten, de tijd om de bewerking te voltooien<br> * De gemiddelde wachttijd voor het vernieuwen wordt gemeten in minuten, de gemiddelde vertraging tussen de geplande tijd en het begin van de bewerking<br> * Het totale aantal uitgevoerde query's gedurende de afgelopen zeven dagen<br> * Het totale aantal geslaagde query's gedurende de afgelopen zeven dagen<br> * Het totale aantal mislukte query's gedurende de afgelopen zeven dagen<br> * De gemiddelde duur van de query's wordt gemeten in minuten, de tijd om de bewerking te voltooien<br> * Het totale aantal modellen dat wegens geheugendruk is verwijderd |
 |  |  |
 
-### <a name="refreshes-tab"></a>Tabblad Vernieuwingen
+#### <a name="refreshes-area"></a>Vernieuwingengebied
 
-Op het tabblad **Vernieuwingen** vindt u de voltooide vernieuwingen, de geslaagde vernieuwingen, de gemiddelde/maximale wachttijd en de gemiddelde/maximale vernieuwingsduur gedurende de afgelopen zeven dagen, gesegmenteerd in gegevenssets. De onderste twee diagrammen tonen de vernieuwingen versus het geheugenverbruik in GB en de gemiddelde wachttijden, gesplitst in buckets van één uur en weergegeven in de lokale tijd. De bovenste staafdiagrammen tonen de gegevenssets met de langste tijden voor het vernieuwen van de gegevensset (vernieuwingsduur) en de maximale duur van de wachttijden. Meerdere pieken met een lange wachttijd duiden erop dat de capaciteit aan zijn maximum zit.
+![Vernieuwingenknop](media/service-admin-premium-monitor-capacity/refreshes-button.png)
 
-![Rapport Premium-vernieuwing](media/service-admin-premium-monitor-capacity/premium-refresh-report.png)
+In het gebied **Vernieuwingen** vindt u de voltooide vernieuwingen, de geslaagde vernieuwingen, de gemiddelde/maximale wachttijd en de gemiddelde/maximale vernieuwingsduur gedurende de afgelopen zeven dagen, gesegmenteerd in gegevenssets. De onderste twee diagrammen tonen de vernieuwingen versus het geheugenverbruik in GB en de gemiddelde wachttijden, gesplitst in buckets van één uur en weergegeven in de lokale tijd. De bovenste staafdiagrammen tonen de gemiddelde tijd voor het vernieuwen van de gegevensset (vernieuwingsduur) en de gemiddelde duur van de wachttijden. Meerdere pieken met een lange wachttijd duiden erop dat de capaciteit aan zijn maximum zit.
 
-### <a name="datasets-tab"></a>Tabblad Gegevenssets
+#### <a name="queries-area"></a>Querygebied
 
-Op het tabblad **Gegevenssets** vindt u de volledige gegevenssets die zijn verwijderd vanwege geheugendruk (per uur).
+![Queryknop](media/service-admin-premium-monitor-capacity/queries-button.png)
 
-![Rapport Premium-gegevenssets](media/service-admin-premium-monitor-capacity/premium-datasets-report.png)
+In het gebied **Query's** wordt het totaalaantal uitgevoerde query's vermeld, evenals het totaalaantal wachtende query's voor Livequery/DirectQuery, de gemiddelde/maximale duur en de gemiddelde/maximale wachttijd, uitgedrukt in milliseconden en gesegmenteerd door gegevenssets, werkruimten en buckets per uur in de afgelopen zeven dagen. De onderste grafieken geven het aantal query's weer, evenals de gemiddelde duur (in milliseconden) en gemiddelde wachttijd (in milliseconden) in vergelijking met het geheugenverbruik in GB, opgesplitst in buckets per uur en vermeld in lokale tijd. De twee grafieken rechtsbovenin vermelden de top vijf gegevenssets per gemiddelde queryduur en wachttijd voordat de query's waren voltooid. Een lange queryduur en lange wachttijden geven aan dat de capaciteit overbelast raakt. Het kan ook betekenen dat een enkele gegevensset problemen veroorzaakt en dat verder onderzoek nodig is.
+
+#### <a name="datasets-area"></a>Het gebied gegevenssets
+
+![De knop gegevenssets](media/service-admin-premium-monitor-capacity/datasets-button.png)
+
+In het gebied **Gegevenssets** vindt u de volledige gegevenssets die zijn verwijderd vanwege geheugendruk (per uur).
 
 ### <a name="system-tab"></a>Tabblad Systeem
 
-Op het tabblad **Systeem** vindt u het hoog CPU-gebruik (aantal keren dat de drempelwaarde van 80% is overschreden), hoog gebruik van DirectQuery/Live-verbindingen en het geheugengebruik.
+In het tabblad **Systeem** vindt u de tijden van hoog CPU-gebruik (aantal keren dat de drempelwaarde van 80% is overschreden), hoog gebruik van DirectQuery/Live-verbindingen en het geheugengebruik.
 
-![Rapport Premium-systeem](media/service-admin-premium-monitor-capacity/premium-system-report.png)
+![Rapport Premium-systeem](media/service-admin-premium-monitor-capacity/system-tab.png)
 
 ## <a name="monitor-power-bi-embedded-capacity"></a>Power BI Embedded-capaciteit bewaken
 

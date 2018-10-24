@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: d499f3f3635442f8d9ed0fbf167e53d13ec0ae53
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 411fd408998ba67c4a91ae01e166396530631678
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549978"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909056"
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Registreren voor Power BI als afzonderlijke gebruiker
 Lees hoe u zich registreert voor Power BI en aan de slag kunt met rapporten en visualisaties.
@@ -24,7 +24,7 @@ Lees hoe u zich registreert voor Power BI en aan de slag kunt met rapporten en v
 
 Power BI kan uw persoonlijk hulpprogramma voor rapportage en visualisatie zijn, maar ook de oplossing voor analyse en besluitvorming voor groepsprojecten, afdelingen en complete bedrijven.
 
-In dit artikel wordt stapsgewijs beschreven hoe u zich kunt registreren voor de Power BI-service en ermee aan de slag kunt. Zie [Power BI Free vs Pro](service-free-vs-pro.md) (Gratis versie van Power BI vergeleken met Power BI Pro) voor meer informatie over de verschillen tussen de gratis versie van Power BI en Power BI Pro.
+In dit artikel wordt stapsgewijs beschreven hoe u zich kunt registreren voor de Power BI-service en ermee aan de slag kunt. Als u meer wilt weten over de verschillen in functionaliteit tussen verschillende Power BI-licenties, kunt u eens kijken naar [Power BI-functies per licentietype](service-features-license-type.md).
 
 ## <a name="you-have-a-few-options"></a>Verschillende mogelijkheden
 Als een individu hebt u verschillende mogelijkheden om u te registreren en aan de slag te gaan met Power BI. U kunt kiezen voor de gratis versie of u kunt een abonnement op Power BI Pro kopen. Als u zich registreert voor een gratis account, kunt u daarna in de service kiezen voor een gratis evaluatieversie van Power BI Pro van 60 dagen.
@@ -99,7 +99,7 @@ Vervolgens wordt u gevraagd om **Start** te selecteren.
 ## <a name="in-service-power-bi-pro-60-day-trial"></a>Proefversie van Power BI Pro voor 60 dagen
 Nadat u zich hebt aangemeld voor een gratis account, kunt u eventueel Pro 60 dagen gratis uitproberen. U hebt dan toegang tot alle functies van het Pro-abonnement voor de duur van de proefversie. Power BI Pro heeft alle functies van de gratis versie van Power BI, plus aanvullende functies voor delen en samenwerking. Meer informatie vindt u op de [pagina met prijzen van Power BI](https://powerbi.microsoft.com/pricing). Als u Power BI Pro gedurende 60 dagen gratis wilt uitproberen, meldt u zich aan bij Power BI en probeert u een van deze Power BI Pro functies:
 
-* [Een app-werkruimte maken](consumer/end-user-create-apps.md)
+* [Een app-werkruimte maken](service-create-distribute-apps.md)
 * [Een dashboard delen](service-share-dashboards.md)
 
 Wanneer u een van deze functies probeert uit te voeren, wordt u gevraagd een gratis proefversie te starten. U kunt de proefversie ook kiezen door het tandwielpictogram te selecteren en vervolgens **Persoonlijke opslag beheren** te selecteren. Selecteer vervolgens **Pro gratis uitproberen** aan de rechterkant.
@@ -139,8 +139,7 @@ In veel gevallen kunt u zich registreren voor Power BI door de bovenstaande stap
 |            **Selfserviceregistratie uitgeschakeld** U krijgt bij het aanmelden een bericht als het volgende: <br /><br /> *De registratie kan niet worden voltooid. Uw IT-afdeling heeft registratie voor Microsoft Power BI uitgeschakeld. Neem contact met ze op om de registratie te voltooien.* <br /><br /> of <br /><br /> *Dat ziet eruit als een persoonlijke e-mailadres. Voer uw zakelijke e-mailadres in zodat we u kunnen koppelen aan anderen in uw bedrijf. En u hoeft zich geen zorgen te maken. We delen uw adres met niemand.*             |                             De IT-beheerder van uw organisatie heeft registratie via selfservice voor Power BI uitgeschakeld. <br /><br /> Om de registratie alsnog te voltooien, neemt u contact op met uw IT-afdeling en vraagt u of ze via de instructies op de onderstaande pagina bestaande gebruikers toestemming willen geven om zich te registreren voor Power BI en om nieuwe gebruikers toestemming te geven lid te worden van uw bestaande tenant. <br/><br/> Dit probleem kan ook optreden als u zich via een partner hebt geregistreerd voor Office 365. [Meer informatie](service-admin-syndication-partner.md) <br /><br /> [Power BI in uw organisatie](https://support.office.com/en-ca/article/Power-BI-in-your-Organization-d7941332-8aec-4e5e-87e8-92073ce73dc5#BKMK_HowCanIAllowO365Tenant)                              |
 |                                                                                          **E-mailadres is geen Office 365-id** U krijgt bij de registratie een bericht als het volgende: <br /><br /> *We kunnen u niet vinden op contoso.com.  Gebruikt u een andere id op het werk of school? <br /><br />Probeer u met die id aan te melden en als dat niet lukt, neemt u contact op met uw IT-afdeling.*                                                                                           | Uw organisatie gebruikt id's voor aanmelding bij Office 365 en andere Microsoft-services die verschillen van uw e-mailadres.  Bijvoorbeeld: uw e-mailadres is Nancy.Smith@contoso.com, maar uw id is nancys@contoso.com. <br /><br /> Om de registratie te voltooien, gebruikt u de id die uw organisatie u heeft toegewezen voor aanmelding bij Office 365 of andere Microsoft-services.  Als u die id niet weet, kunt u contact opnemen met uw IT-beheerder. <br /><br /> Als u zich nog steeds niet kunt registreren en u er geen bezwaar tegen hebt om een meer geavanceerde registratie te voltooien, kunt u zich [registreren voor een nieuw proefabonnement op Office 365 en gebruikt u dat e-mailadres voor de registratie](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). |
 
-## <a name="next-steps"></a>Volgende stappen
-[Power BI (free) in your organization](service-admin-service-free-in-your-organization.md) (Power BI (gratis) in uw organisatie)  
+## <a name="next-steps"></a>Volgende stappen  
 [Purchasing Power BI Pro](service-admin-purchasing-power-bi-pro.md) (Power BI Pro kopen)  
 [Power BI-serviceovereenkomst voor afzonderlijke gebruikers](https://powerbi.microsoft.com/terms-of-service/)  
 [Power BI Premium - wat is het?](service-premium.md)  

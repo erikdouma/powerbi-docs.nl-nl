@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 516d78bd6158c714d5f4418771c5e8cb219ce512
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 25e7fe3e47cee2aed7781fff2a20621e3bd860ed
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547563"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908803"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Uw app-werkruimte beheren in Power BI en Office 365
-Als maker of beheerder van een [app-werkruimte in Power BI](consumer/end-user-apps.md) of in Office 365, beheert u bepaalde aspecten van de werkruimte in Power BI. Andere aspecten beheert u in Office 365. 
+Als maker of beheerder van een [app-werkruimte in Power BI](service-create-distribute-apps.md) of in Office 365, beheert u bepaalde aspecten van de werkruimte in Power BI. Andere aspecten beheert u in Office 365. 
 
 > [!NOTE]
 > Bij de preview van de nieuwe werkruimte-ervaring is de relatie tussen Power BI-werkruimten en Office 365-groepen gewijzigd. Er wordt niet automatisch een Office 365-groep gemaakt wanneer u een van de nieuwe werkruimten maakt. Meer informatie over [het maken van de nieuwe werkruimten (preview)](service-create-the-new-workspaces.md)
@@ -36,7 +36,7 @@ Als maker of beheerder van een [app-werkruimte in Power BI](consumer/end-user-ap
 * Het e-mailadres van de groep zien.
 * De groep verwijderen.
 
-U hebt een [Power BI Pro](service-free-vs-pro.md)-licentie nodig om beheerder of lid van een app-werkruimte te zijn. Uw app-gebruikers hebben ook een Power BI Pro-licentie nodig, tenzij uw app-werkruimte zich in een Power BI Premium-capaciteit bevindt. Lees [Wat is Power BI Premium?](service-premium.md) voor meer informatie.
+U hebt een [Power BI Pro](service-features-license-type.md)-licentie nodig om beheerder of lid van een app-werkruimte te zijn. Uw app-gebruikers hebben ook een Power BI Pro-licentie nodig, tenzij uw app-werkruimte zich in een Power BI Premium-capaciteit bevindt. Lees [Wat is Power BI Premium?](service-premium.md) voor meer informatie.
 
 ## <a name="edit-your-app-workspace-in-power-bi"></a>Uw app-werkruimte bewerken in Power BI
 1. Selecteer in de Power BI-service de pijl naast **Werkruimten** > selecteer het beletselteken (**…**) naast uw werkruimtenaam > **Werkruimte bewerken**. 
@@ -76,7 +76,6 @@ Wanneer u uw app uit de app-werkruimte distribueert, wordt de afbeelding die u h
 3. Selecteer **Opslaan** of **Verwijderen**.
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Wat zijn apps in Power BI?](consumer/end-user-apps.md)
-* [Apps met dashboards en rapporten publiceren in Power BI](consumer/end-user-create-apps.md)
+* [Apps met dashboards en rapporten publiceren in Power BI](service-create-distribute-apps.md)
 * Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

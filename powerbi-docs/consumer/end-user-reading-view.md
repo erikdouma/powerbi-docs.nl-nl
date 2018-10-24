@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/13/2018
+ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: de7766176f5c25288912cf463dce79f487e7335d
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: f108ab3c924f6ff69bc6ee6aae5ed0539ce3f11d
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565102"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908068"
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Leesweergave en bewerkweergave in rapporten van de Power BI-service
 In de Power BI-service (geen Power BI Desktop) zijn er twee modi voor het weergeven en werken met rapporten: de leesweergave en de bewerkweergave. De leesweergave is beschikbaar voor alle gebruikers en is speciaal ontworpen voor *gebruikers van gegevens*, terwijl de bewerkweergave alleen beschikbaar is voor *rapportauteurs* en -eigenaren.
@@ -26,11 +26,12 @@ In de Power BI-service (geen Power BI Desktop) zijn er twee modi voor het weerge
 
  De leesweergave is een manier om het rapport te verkennen en ermee te werken -- het is een leuke en veilige manier om met uw gegevens te spelen en er meer over te weten te komen. De leesweergave is ontworpen voor *gebruikers* van het rapport, personen die rapporten vanuit Apps openen of [met wie rapporten zijn gedeeld](../service-share-dashboards.md). In de leesweergave krijgt elke afzonderlijke gebruiker van een specifiek rapport hetzelfde rapport en identieke visualisaties te zien, waarop dezelfde filters zijn toegepast.  Gebruikers kunnen met de rapporten werken, de bestaande filters wijzigen (en deze wijzigingen worden met het rapport opgeslagen), maar kunnen geen nieuwe filters toevoegen.
 
->**Opmerking**: in bepaalde omstandigheden kunnen rapportconsumenten verschillende gegevens zien vanwege beveiligings- en gegevensmachtigingen op rijniveau.
+> [!NOTE]
+> In bepaalde omstandigheden kunnen rapportconsumenten verschillende gegevens zien vanwege beveiligings- en gegevensmachtigingen op rijniveau.
 
 ## <a name="report-editing-view"></a>Bewerkweergave rapport
 
-De bewerkweergave is alleen beschikbaar voor personen die het rapport hebben gemaakt of die [mede-eigenaar van een rapport zijn als lid of beheerder van een app-werkruimte](end-user-create-apps.md).
+De bewerkweergave is alleen beschikbaar voor personen die het rapport hebben gemaakt of die [mede-eigenaar van een rapport zijn als lid of beheerder van een app-werkruimte](../service-create-distribute-apps.md).
 
 De bewerkweergave is ontworpen voor het *auteurs* van rapporten. Hier importeren auteurs gegevens en maken ze er verbinding mee, verkennen ze de gegevens en maken ze rapporten en dashboards. In de bewerkweergave kunnen *auteurs* nog dieper in hun gegevens graven door velden toe te voegen en te verwijderen, het type visualisatie te veranderen, nieuwe visualisaties te maken en visualisaties en pagina's uit het rapport toe te voegen en te verwijderen. Ze kunnen de gemaakte rapporten vervolgens delen met collega's.
 
@@ -53,11 +54,11 @@ In deze grafiek worden niet alle mogelijkheden van een rapport van Power BI-serv
 | [Metrische gegevens over het gebruik weergeven](../service-usage-metrics.md) | Ja, op het rapportcanvas. | Ja, in de lijst met rapporten (inhoudsweergave) |
 | [Gerelateerde items weergeven](end-user-related.md) | Ja, op het rapportcanvas. | Ja, in de lijst met rapporten (inhoudsweergave) |
 | [Een rapport opslaan](../service-report-save.md) | Ja, maar alleen met behulp van **Opslaan als**. | Ja |
-| [Een rapport verwijderen](end-user-delete.md) | Nee  | Ja |
+| [Een rapport verwijderen](../service-delete.md) | Nee  | Ja |
 |**Rapportpagina’s** |
 | [Een rapportpagina toevoegen of de naam ervan wijzigen](../power-bi-report-add-page.md)  | Nee  | Ja  |
 | [Een rapportpagina dupliceren](../power-bi-report-copy-paste-page.md) | Nee  | Ja |
-| [Rapportpagina verwijderen](end-user-delete.md) | nee | ja |
+| [Rapportpagina verwijderen](../service-delete.md) | nee | ja |
 |**Werken met rapportvisualisaties**|
 | [Visualisaties toevoegen aan een rapport](../visuals/power-bi-report-add-visualizations-i.md) | Nee  | Ja |
 | [Tekstvakken en vormen aan een rapport toevoegen](../power-bi-reports-add-text-and-shapes.md) | Nee  | Ja |
@@ -66,7 +67,7 @@ In deze grafiek worden niet alle mogelijkheden van een rapport van Power BI-serv
 | [Gegevens weergeven die worden gebruikt om de visualisatie te maken](end-user-show-data.md) | Nee  | Ja |
 | [Analyseren configureren](end-user-drill.md) | Nee  | Ja |
 | [De gebruikte visualisatie wijzigen](../visuals/power-bi-report-change-visualization-type.md) | Nee | Ja|
-| [Een visualisatie, tekstvak of vorm verwijderen](end-user-delete.md)| Nee | Ja |
+| [Een visualisatie, tekstvak of vorm verwijderen](../service-delete.md)| Nee | Ja |
 
 
 ## <a name="navigating-between-editing-view-and-reading-view"></a>Navigeren tussen de bewerkweergave en de leesweergave
@@ -88,7 +89,6 @@ Onthoud dat alleen de auteur en eigenaar(eigenaren) van rapporten een rapport in
 
 
 
-### <a name="next-steps"></a>Volgende stappen
+## <a name="next-steps"></a>Volgende stappen
 Er zijn vele manieren om met een rapport in de leesweergave te werken en om uw gegevens zodanig op te delen dat u inzichten en antwoord op uw vragen krijgt.  In het volgende onderwerp, [Interactie met een rapport in de leesweergave](../service-interact-with-a-report-in-editing-view.md), wordt dit uitvoerig beschreven.    
 Terug naar [Rapporten in Power BI](end-user-reports.md)    
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f4eb0ec93057f309720fc4fef33a55d924881383
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: ef59d5f42ba913e4ecad79116dea635744534198
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544619"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908573"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>Verbinding maken met Adobe Analytics via Power BI
 Wanneer u verbinding wilt maken met Adobe Analytics via Power BI, kunt u beginnen door eerst verbinding te maken met uw Adobe Analytics Marketing Cloud-account. U krijgt een app met een Power BI-dashboard en een set Power BI-rapporten die inzicht geven in het verkeer van uw site en de gebruikersgegevens. De gegevens worden eenmaal per dag automatisch vernieuwd. U kunt met het dashboard en de rapporten werken, maar u kunt wijzigingen niet opslaan.
@@ -25,26 +25,26 @@ Maak verbinding met [Adobe Analytics](https://app.powerbi.com/getdata/services/a
 ## <a name="how-to-connect"></a>Verbinding maken
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
-1. Selecteer **Adobe Analytics** \> **Ophalen**.
+3. Selecteer **Adobe Analytics** \> **Ophalen**.
    
    ![](media/service-connect-to-adobe-analytics/adobe.png)
-2. Power BI maakt verbinding met een specifieke bedrijfs- en rapportsuite-id van Adobe Analytics (niet de naam van de rapportsuite). Hieronder vindt u meer informatie over [hoe u deze parameters kunt vinden](#FindingParams).
+4. Power BI maakt verbinding met een specifieke bedrijfs- en rapportsuite-id van Adobe Analytics (niet de naam van de rapportsuite). Hieronder vindt u meer informatie over [hoe u deze parameters kunt vinden](#FindingParams).
    
    ![](media/service-connect-to-adobe-analytics/parameters.png)
-3. Selecteer voor de **verificatiemethode** **oAuth2**\> **Aanmelden**. Voer uw Adobe Analytics-referenties in als dit wordt gevraagd. 
+5. Selecteer voor de **verificatiemethode** **oAuth2**\> **Aanmelden**. Voer uw Adobe Analytics-referenties in als dit wordt gevraagd. 
    
     ![](media/service-connect-to-adobe-analytics/creds.png)
    
     ![](media/service-connect-to-adobe-analytics/adobe_signin.png)
-4. Klik op **Accepteren** om Power BI toegang te geven tot uw Adobe Analytics-gegevens.
+6. Klik op **Accepteren** om Power BI toegang te geven tot uw Adobe Analytics-gegevens.
    
    ![](media/service-connect-to-adobe-analytics/adobe_authorize.png)
-5. Na uw goedkeuring wordt het importproces automatisch gestart. 
+7. Na uw goedkeuring wordt het importproces automatisch gestart. 
 
 ## <a name="view-the-adobe-analytics-dashboard-and-reports"></a>Het dashboard en de rapporten van Adobe Analytics weergeven
 [!INCLUDE [powerbi-service-apps-open-app](./includes/powerbi-service-apps-open-app.md)]
 
-      ![Adobe Analytics dashboard](media/service-connect-to-adobe-analytics/dashboard.png)
+   ![Adobe Analytics-dashboard](media/service-connect-to-adobe-analytics/dashboard.png)
 
 [!INCLUDE [powerbi-service-apps-open-app](./includes/powerbi-service-apps-what-now.md)]
 
@@ -82,19 +82,19 @@ De waarde Bedrijf vindt u in de rechterbovenhoek van uw account wanneer u bent a
 
 **Rapportsuite-id**
 
-De suite-id wordt gemaakt wanneer de rapportsuite wordt gemaakt. Neem contact op met uw beheerder om de id-waarde te achterhalen. Let op dat dit niet de naam van de rapportsuite is.
+De suite-id wordt gemaakt wanneer de rapportsuite wordt gemaakt. Neem contact op met uw beheerder om de id-waarde te achterhalen. Dit is niet de naam van de rapportsuite.
 
 Vanuit [documentatie van Adobe](https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html):
 
 ![](media/service-connect-to-adobe-analytics/reportsuiteid.png)
 
-## <a name="troubleshooting"></a>Probleemoplossing
+## <a name="troubleshooting"></a>Problemen oplossen
 Als u, nadat u uw referenties hebt opgegeven, een foutmelding krijgt die aangeeft dat u niet gemachtigd bent, moet u bij uw beheerder nagaan of u toegang tot de Adobe Analytics-API hebt. Controleer ook of de verstrekte Adobe-id gekoppeld is aan uw Marketing Cloud-organisatie (gekoppeld aan een Adobe Analytics-onderneming).
 
 Als u het aanmeldscherm zonder foutmeldingen hebt doorlopen, kan het zijn dat de uitvoering van rapporten te lang duurt. Een algemene fout ziet er zo uit: *'kan geen gegevens ophalen uit het Adobe Analytics-rapport. Inhoud bevat &quot;verwijzende site, pagina&quot;, geschatte duur is xx seconden'*. Raadpleeg de sectie 'Wat is inbegrepen' en vergelijk de grootte van uw Adobe-exemplaar. Er is momenteel helaas geen manier om deze time-out omzeilen. Microsoft overweegt echter updates voor een betere ondersteuning van grotere exemplaren; u kunt het Power BI-team feedback geven op https://ideas.powerbi.com
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Wat zijn apps in Power BI?](consumer/end-user-apps.md)
+* [Wat zijn apps in Power BI?](service-create-distribute-apps.md)
 * [Gegevens ophalen in Power BI](service-get-data.md)
 * Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 
