@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/13/2018
+ms.date: 10/18/2018
 ms.author: maikelson
-ms.openlocfilehash: 8a20e5b9807f9495183ebb1e6bd396e68f02c1a1
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 126baf11492f05228d1e0637e27b5f2caa8390a3
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137548"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473952"
 ---
 # <a name="power-bi-webinars"></a>Power BI-webinars
 
@@ -22,9 +22,7 @@ Registreer u voor onze komende live webinars of bekijk onze opgenomen sessies on
 
 ## <a name="upcoming-webinars"></a>Komende webinars
 
-Er zijn nog geen webinars gepland. Houd deze pagina in de gaten voor meer geplande evenementen.
-
->[Wees aanwezig bij komende webinars van de Power BI-community](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
+>[Komende webinars van de Power BI-community](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>Aanbevolen webinars
 
@@ -34,21 +32,29 @@ Aan de slag met deze populaire on-demand webinars
 <br>door Miguel Martinez
 <br>[Registreren en nu bekijken](https://info.microsoft.com/getting-started-with-power-bi-ondemand.html?Is=Website)
 
-**Power BI Tricks, Tips and Tools from the owners of PowerBI.Tips** (Power BI: tips, trucs en hulpmiddelen van de eigenaren van PowerBI.Tips)
-<br>door Mike Carlo en Seth Bauer
-<br>[Nu bekijken](https://www.youtube.com/watch?v=fnj1_e3HXow)
-
 **Learn to Navigate Your Way Through a Power BI Dashboard in 20 Minutes** (Leer in 20 minuten door een Power BI-dashboard te navigeren)
 <br>door Miguel Martinez
 <br>[Registreren en nu bekijken](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
+
+**Microsoft wordt uitgevoerd in Power BI – financiële planning en analyse vereenvoudigd**
+<br>door Cory Hrncirik en Miguel Martinez
+<br>[Registreren en nu bekijken](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
+
+**Maak uw Power BI-gegevens visueel: belangrijke grafiektypen en hoe ze te gebruiken**
+<br>door Miranda Li
+<br>[Registreren en nu bekijken](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
+
+**Power BI, Excel en Office 365: uw ondernemingsgegevens optimaliseren**
+<br>door Olaf Hubel en Miguel Martinez
+<br>[Registreren en nu bekijken](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)
 
 **Simply Compelling — Tips for Better Visualization Design** (Gewoon fascinerend: tips voor beter ontwerp van visualisatie)
 <br>door Miranda Li
 <br>[Registreren en nu bekijken](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
 
-**Samen beter: 5 voordelen die Excel-gebruikers uit het gebruik van Power BI kunnen halen**
-<br>door Carlos Otero en Miguel Martinez
-<br>[Registreren en nu bekijken](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
+**Power BI Tricks, Tips and Tools from the owners of PowerBI.Tips** (Power BI: tips, trucs en hulpmiddelen van de eigenaren van PowerBI.Tips)
+<br>door Mike Carlo en Seth Bauer
+<br>[Nu bekijken](https://www.youtube.com/watch?v=fnj1_e3HXow)
 
 >[Bekijk de bibliotheek van Power BI on-demand webinars van onze community-experts.](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
@@ -61,6 +67,10 @@ Vastgelegde sessies op elk gewenst moment bekijken
 **Visueel aantrekkelijke Power BI-rapporten ontwerpen**
 <br>door Charles Sterling
 <br>[Nu bekijken](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
+
+**Samen beter: 5 voordelen die Excel-gebruikers uit het gebruik van Power BI kunnen halen**
+<br>door Carlos Otero en Miguel Martinez
+<br>[Registreren en nu bekijken](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
 
 **Informatie over Power BI Embedded in 20 minuten**
 <br>door Megan Asarrane en Colin Murphy

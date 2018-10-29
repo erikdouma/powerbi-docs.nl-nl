@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/30/2018
+ms.date: 10/19/2018
 ms.author: chwade
 LocalizationGroup: Premium
-ms.openlocfilehash: fd62e90d4a4f348ee7b3a524f85725d517180068
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: 96756adc0c24992e99dee0236bb2eb0b81716e4b
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300133"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641776"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Incrementeel vernieuwen in Power BI Premium
 
@@ -29,7 +29,7 @@ Incrementele vernieuwing maakt zeer grote gegevenssets in de Power BI Premium-se
 
 ## <a name="how-to-use-incremental-refresh"></a>Incrementeel vernieuwen leren gebruiken
 
-Beleid voor incrementele vernieuwing wordt gedefinieerd in Power BI Desktop en toegepast zodra het beleid naar de Power BI-service gepubliceerd.
+Beleid voor incrementele vernieuwing wordt gedefinieerd in Power BI Desktop en toegepast zodra het beleid in de Power BI-service is gepubliceerd.
 
 Begin door incrementele vernieuwingen in de preview-functies in te schakelen.
 
@@ -41,13 +41,13 @@ Grote gegevenssets met potentieel miljarden rijen passen mogelijk niet in Power 
 
 #### <a name="rangestart-and-rangeend-parameters"></a>De parameters RangeStart en RangeEnd
 
-Als u gebruik wilt maken van incrementele vernieuwing in de Power BI-service, moet u filteren met behulp van de datum-/tijd-parameters van Power Query in combinatie met de gereserveerde, hoofdlettergevoelige namen **RangeStart** en **RangeEnd**.
+Als u gebruik wilt maken van incrementele vernieuwing in de Power BI-service, moet u filteren met behulp van de datum- en tijdparameters van Power Query in combinatie met de gereserveerde, hoofdlettergevoelige namen **RangeStart** en **RangeEnd**.
 
 Na publicatie worden de parameterwaarden automatisch door de Power BI-service overschreven. U hoeft ze niet in te stellen bij de gegevenssetinstellingen in de service.
- 
-Het is belangrijk dat het filter naar het bronsysteem wordt gepusht als er query's worden ingediend voor vernieuwingsbewerkingen. Dit betekent dat de gegevensbron ondersteuning moet bieden aan het vouwen van query's. Gezien de diverse ondersteuningsniveaus voor het vouwen van query's voor elke gegevensbron, wordt u aangeraden te controleren of de filterlogica in de bronquery's is opgenomen. Als dit niet zo is, worden door elke query alle gegevens uit de bron opgevraagd, waardoor voor het object geen incrementele vernieuwing wordt uitgevoerd.
- 
-Het filter wordt in de Power BI-service gebruikt voor het partitioneren van de gegevens in reeksen. Het is niet bedoeld om het bijwerken hiervan in de gefilterde gegevenskolom te ondersteunen. Een update wordt beschouwd als een invoeging en een verwijdering (niet als een update). Als de verwijdering zich voordoet in het historische bereik en niet in het incrementele bereik, wordt het niet opgepikt.
+
+Het is belangrijk dat het filter naar het bronsysteem wordt gepusht als er query's worden ingediend voor vernieuwingsbewerkingen. Het filteren naar beneden duwen (push down) houdt in dat de gegevensbron ondersteuning moet bieden aan het ‘vouwen van query's’. De meeste gegevensbronnen die ondersteuning bieden voor SQL-query's, ondersteunen het vouwen van query’s. Voor gegevensbronnen zoals platte bestanden, blobs en web- en OData-feeds geldt dat doorgaans niet. Gezien de diverse ondersteuningsniveaus voor het vouwen van query's voor elke gegevensbron, wordt u aangeraden te controleren of de filterlogica in de bronquery's is opgenomen. In gevallen waarin het filter niet wordt ondersteund door de back-end van de gegevensbron, kan deze niet naar beneden worden geduwd. In dergelijke gevallen biedt de mashup-engine compensatie door het filter lokaal toe te passen, waarvoor het nodig kan zijn de volledige gegevensset uit de gegevensbron op te halen. Hierdoor kan incrementeel vernieuwen traag worden en kan het proces zonder resources komen te zitten, zowel in de Power BI-service als in de on-premises gegevensgateway, indien gebruikt.
+
+Het filter wordt in de Power BI-service gebruikt voor het partitioneren van de gegevens in reeksen. Het is niet bedoeld om het bijwerken van de gefilterde gegevenskolom te ondersteunen. Een update wordt beschouwd als een invoeging en een verwijdering (niet als een update). Als de verwijdering zich voordoet in het historische bereik en niet in het incrementele bereik, wordt het niet opgepikt. Dit kan leiden tot mislukte pogingen de gegevens te vernieuwen vanwege partitiesleutelconflicten.
 
 Selecteer **Parameters beheren** in de Power Query Editor om parameters met standaardwaarden te definiëren.
 
@@ -85,21 +85,21 @@ Het dialoogvenster Incrementele vernieuwing wordt weergegeven. Gebruik de wissel
 
 In de koptekst wordt het volgende uitgelegd:
 
--   Incrementele vernieuwing wordt alleen ondersteund voor werkruimten met Premium-capaciteit. Vernieuwingsbeleid wordt gedefinieerd in Power BI Desktop; het wordt toegepast door vernieuwingsbewerkingen in de service.
+- Incrementele vernieuwing wordt alleen ondersteund voor werkruimten met Premium-capaciteit. Vernieuwingsbeleid wordt gedefinieerd in Power BI Desktop; het wordt toegepast door vernieuwingsbewerkingen in de service.
 
--   Als u het PBIX-bestand met een beleid voor incrementele vernieuwing uit de Power BI-service kunt downloaden, wordt deze niet geopend in Power BI Desktop. Het is binnenkort helemaal niet meer mogelijk om dit bestand te downloaden. Dit wordt mogelijk in de toekomst wel ondersteund, maar vergeet niet dat deze gegevenssets zo groot kunnen worden dat het niet praktisch is om deze te downloaden en op een gewone desktop-pc te openen.
+- Als u het PBIX-bestand met een beleid voor incrementele vernieuwing uit de Power BI-service kunt downloaden, wordt deze niet geopend in Power BI Desktop. Het is binnenkort helemaal niet meer mogelijk om dit bestand te downloaden. Dit wordt mogelijk in de toekomst wel ondersteund, maar vergeet niet dat deze gegevenssets zo groot kunnen worden dat het niet praktisch is om deze te downloaden en op een gewone desktop-pc te openen.
 
 #### <a name="refresh-ranges"></a>Bereiken vernieuwen
 
-Het volgende voorbeeld definieert een vernieuwingsbeleid voor het opslaan van in totaal vijf jaar aan gegevens, met incrementele vernieuwing van tien dagen aan gegevens. Als de gegevensset dagelijks wordt vernieuwd, wordt het volgende uitgevoerd voor elke vernieuwingsbewerking.
+In het volgende voorbeeld wordt vernieuwingsbeleid gedefinieerd voor het opslaan van in totaal vijf jaar aan gegevens plus de gegevens voor het huidige jaar tot aan de huidige datum, met incrementele vernieuwing van tien dagen aan gegevens. Met de eerste vernieuwingsbewerking worden historische gegevens geladen. De daaropvolgende vernieuwingen zijn incrementeel. Hiermee worden (indien gepland om dagelijks te worden uitgevoerd) de volgende bewerkingen uitgevoerd.
 
--   Voeg een nieuwe dag aan gegevens toe.
+- Voeg een nieuwe dag aan gegevens toe.
 
--   Vernieuw tien dagen tot aan de huidige datum.
+- Vernieuw tien dagen tot aan de huidige datum.
 
--   Verwijder kalenderjaren die ouder zijn dan vijf jaar voorafgaand aan de huidige datum. Als de huidige datum bijvoorbeeld 1 januari 2019 is, wordt het jaar 2013 verwijderd.
+- Verwijder kalenderjaren die ouder zijn dan vijf jaar voorafgaand aan de huidige datum. Als de huidige datum bijvoorbeeld 1 januari 2019 is, wordt het jaar 2013 verwijderd.
 
-De eerste vernieuwing in de Power BI-service kan langer duren omdat alle vijf jaren moeten worden geïmporteerd. Daarop volgende vernieuwingen kunnen in een fractie van die tijd worden voltooid.
+De eerste vernieuwing in de Power BI-service kan langer duren omdat alle vijf volledige kalenderjaren moeten worden geïmporteerd. Daarop volgende vernieuwingen kunnen in een fractie van die tijd worden voltooid.
 
 ![Bereiken vernieuwen](media/service-premium-incremental-refresh/refresh-ranges.png)
 
@@ -109,7 +109,7 @@ De eerste vernieuwing in de Power BI-service kan langer duren omdat alle vijf ja
 
 #### <a name="detect-data-changes"></a>Gegevenswijzigingen detecteren
 
-Incrementele vernieuwing van tien dagen is natuurlijk veel efficiënter dan vernieuwing van vijf jaar. Maar het kan wellicht nog beter. Als u het selectievakje **Gegevenswijzigingen detecteren** inschakelt, kunt u een datum/tijd-kolom selecteren voor de identificatie en die alleen wordt vernieuwd als er gegevens zijn gewijzigd. Hierbij wordt ervan uitgegaan dat een dergelijke kolom in het bronsysteem bestaat, wat gebruikelijk is voor controledoeleinden. **Dit mag niet dezelfde kolom zijn die wordt gebruikt voor het partitioneren van de gegevens met de parameters RangeStart/RangeEnd.** De maximumwaarde van deze kolom wordt geëvalueerd voor elke periode in het incrementele bereik. Als deze nog niet is gewijzigd sinds de laatste vernieuwing, hoeft u de periode niet te vernieuwen. In het voorbeeld kan hiermee het aantal dagen dat wordt vernieuwd nog eens verder worden beperkt van tien tot misschien twee dagen.
+Incrementele vernieuwing van tien dagen is natuurlijk veel efficiënter dan volledige vernieuwing van vijf jaar. Maar het kan wellicht nog beter. Als u het selectievakje **Gegevenswijzigingen detecteren** inschakelt, kunt u een datum/tijd-kolom selecteren voor de identificatie en die alleen wordt vernieuwd als er gegevens zijn gewijzigd. Hierbij wordt ervan uitgegaan dat een dergelijke kolom in het bronsysteem bestaat, wat gebruikelijk is voor controledoeleinden. **Dit mag niet dezelfde kolom zijn die wordt gebruikt voor het partitioneren van de gegevens met de parameters RangeStart/RangeEnd.** De maximumwaarde van deze kolom wordt geëvalueerd voor elke periode in het incrementele bereik. Als deze nog niet is gewijzigd sinds de laatste vernieuwing, hoeft u de periode niet te vernieuwen. In het voorbeeld kan hiermee het aantal dagen dat wordt vernieuwd nog eens verder worden beperkt van tien tot misschien twee dagen.
 
 ![Wijzigingen detecteren](media/service-premium-incremental-refresh/detect-changes.png)
 

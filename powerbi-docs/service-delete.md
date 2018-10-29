@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 770b2796eb8f29cadfe8371cb2baef12cec7c0e8
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 0d07953fb4f9474f929c108df5b76acb61c7df7c
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909646"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435332"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Vrijwel alles verwijderen in de Power BI-service
 In dit artikel leert u hoe u een dashboard, rapport, rapportpagina, werkmap, gegevensset, app en werkruimte verwijdert in de Power BI-service.
@@ -129,7 +129,7 @@ Als u een app verwijdert van de pagina met uw app-lijst, wordt de app niet verwi
 
    ![Apps selecteren](media/service-delete/power-bi-delete-app.png)
 
-   Als u per ongeluk een app verwijdert, hebt u verschillende opties om deze terug te zetten.  U kunt de maker van de app vragen om de app opnieuw te sturen, het oorspronkelijke e-mailbericht met de koppeling naar de app zoeken, uw [meldingencentrum](service-notification-center.md) controleren om te zien of er nog meldingen voor die app worden weergegeven, of de [AppSource](service-install-use-apps.md) van uw organisatie controleren.
+   Als u per ongeluk een app verwijdert, hebt u verschillende opties om deze terug te zetten.  U kunt de maker van de app vragen om de app opnieuw te sturen, het oorspronkelijke e-mailbericht met de koppeling naar de app zoeken, uw [meldingencentrum](service-notification-center.md) controleren om te zien of er nog meldingen voor die app worden weergegeven, of de [AppSource](consumer/end-user-apps.md) van uw organisatie controleren.
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 In dit artikel hebben we beschreven hoe u de belangrijkste bouwstenen van de Power BI-service verwijdert. Maar er zijn meer dingen die u in Power BI kunt verwijderen.  

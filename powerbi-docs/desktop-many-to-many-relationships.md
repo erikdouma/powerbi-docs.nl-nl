@@ -1,5 +1,5 @@
 ---
-title: Veel-op-veelrelaties in Power BI Desktop (preview-versie)
+title: Veel-op-veelrelaties in Power BI Desktop (preview)
 description: Veel-op-veel-relaties gebruiken in Power BI Desktop
 author: davidiseminger
 manager: kfile
@@ -10,155 +10,152 @@ ms.topic: conceptual
 ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 5c0c6fd619a2487f9c801200d732cda628a68055
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 379f80e1e87181ffdacdaab01d87ff435f2a9501
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973995"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473769"
 ---
-# <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>Veel-op-veelrelaties in Power BI Desktop (preview-versie)
+# <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>Veel-op-veelrelaties in Power BI Desktop (preview)
 
-Met de functie **Veel-op-veel-relatie** in **Power BI Desktop** kunt u tabellen samenvoegen met behulp van de kardinaliteit **Veel-op-veel**, om vervolgens eenvoudiger en op een meer intuïtieve manier gegevensmodellen te maken die meerdere gegevensbronnen bevatten. De functie **Veel-op-veel-relatie** maakt deel uit van de overkoepelende voorziening voor **samengestelde modellen** in **Power BI Desktop**.
+Met de functie *veel-op-veelrelaties* in Power BI Desktop kunt u tabellen samenvoegen die gebruikmaken van de kardinaliteit *Veel-op-veel*. U kunt gemakkelijker en intuïtief gegevensmodellen maken die twee of meer gegevensbronnen bevatten. De functie *veel-op-veelrelaties* maakt deel uit van de overkoepelende voorziening voor *samengestelde modellen* in Power BI Desktop.
 
-![Veel-op-veel geselecteerd in het dialoogvenster Relatie bewerken](media/desktop-many-to-many-relationships/many-to-many-relationships_01.png)
+![Een veel-op-veelrelatie in het deelvenster 'Relatie bewerken'](media/desktop-many-to-many-relationships/many-to-many-relationships_01.png)
 
-De functie **Veel-op-veel-relaties** in **Power BI Desktop** maakt deel uit van een verzameling van drie gerelateerde functies:
+De functie *veel-op-veelrelaties* in Power BI Desktop maakt deel uit van drie gerelateerde functies:
 
-* **Samengestelde modellen**: maakt het mogelijk dat een rapport meerdere gegevensverbindingen heeft, inclusief DirectQuery-verbindingen of importverbindingen, in elke gewenste combinatie.
-* **Veel-op-veel-relaties**: met **samengestelde modellen** kunt u **veel-op-veel-relaties** instellen tussen tabellen, waardoor de vereisten voor unieke waarden in tabellen worden weggenomen, en er ook geen noodzaak meer is voor eerdere tijdelijke oplossingen zoals het toevoegen van nieuwe tabellen alleen maar om relaties te kunnen opzetten. 
-* **Opslagmodus**: u kunt nu opgeven welke visualisaties een query naar de back-end-gegevensbronnen vereisen. Visualisaties waarvoor dit niet nodig is, worden geïmporteerd, zelfs als ze zijn gebaseerd op DirectQuery. Hierdoor kunnen de prestaties worden verbeterd en wordt de back-end minder belast. Eerder was het zo dat zelfs voor eenvoudige visualisaties zoals slicers, er query's werden verzonden naar de back-end-bronnen. 
+* **Samengestelde modellen**: hiermee wordt het mogelijk dat een rapport twee of meer gegevensverbindingen heeft, inclusief DirectQuery-verbindingen of importverbindingen, in elke gewenste combinatie. Zie [Samengestelde modellen gebruiken in Power BI Desktop (preview-versie)](desktop-composite-models.md) voor meer informatie.
 
-Deze verzameling van drie gerelateerde functies voor **samengestelde modellen** worden in afzonderlijke artikelen beschreven:
+* **Veel-op-veel-relaties**: met *samengestelde modellen* kunt u *veel-op-veel-relaties* tussen tabellen tot stand brengen. Door deze aanpak hoeven tabellen geen unieke waarden meer te bevatten. Ook zijn eerdere tijdelijke oplossingen niet meer nodig, zoals de introductie van nieuwe tabellen alleen maar om relaties tot stand te brengen. De functie wordt verderop in dit artikel beschreven.
 
-* **Samengestelde modellen** worden beschreven in het artikel [Samengestelde modellen in Power BI Desktop (preview-versie)](desktop-composite-models.md).
-* **Veel-op-veel-relaties** worden in dit artikel beschreven.
-* **Opslagmodus** wordt beschreven in het artikel [Opslagmodus in Power BI Desktop (preview-versie)](desktop-storage-mode.md).
+* **Opslagmodus**: u kunt nu opgeven voor welke visualisaties een query naar de back-endgegevensbronnen is vereist. Visuals waarvoor geen query is vereist, worden geïmporteerd zelfs als ze zijn gebaseerd op DirectQuery. De functie helpt de prestaties te verbeteren en de back-end minder te belasten. Eerder werden zelfs voor eenvoudige visuals, zoals slicers, query's verzonden naar back-endbronnen. Zie het artikel [Opslagmodus in Power BI Desktop (preview)](desktop-storage-mode.md) voor meer informatie.
 
-## <a name="enabling-the-many-to-many-relationships-preview-feature"></a>Preview-versie van veel-op-veel-relaties inschakelen
+## <a name="enable-the-many-to-many-relationships-preview-feature"></a>De preview-functie *veel-op-veelrelaties* inschakelen
 
-De functie **Veel-op-veel-relaties** maakt deel uit van de voorziening voor **samengestelde modellen** in **Power BI Desktop** en is momenteel beschikbaar in de preview-versie. U kunt de voorziening **samengestelde modellen** inschakelen door **Bestand > Opties en instellingen > Opties > Preview-functies** te selecteren en vervolgens het selectievakje **Samengestelde modellen** in te schakelen.
+De functie *veel-op-veelrelaties* moet zijn ingeschakeld in Power BI Desktop. Als u samengestelde modellen wilt inschakelen, selecteert u **Bestand** > **Opties en instellingen** > **Opties** > **Preview-functies** en selecteert u vervolgens het selectievakje **Samengestelde modellen**.
 
-![preview-functies inschakelen](media/desktop-composite-models/composite-models_02.png)
+![Het deelvenster Preview-functies](media/desktop-composite-models/composite-models_02.png)
 
-U moet **Power BI Desktop** opnieuw starten om de voorziening in te schakelen.
+U moet Power BI Desktop opnieuw opstarten om de functie in te schakelen.
 
-![opnieuw starten is vereist voor doorvoeren van wijziging](media/desktop-composite-models/composite-models_03.png)
+![Het venster Voor functie is opnieuw starten vereist](media/desktop-composite-models/composite-models_03.png)
 
+## <a name="what-many-to-many-relationships-solves"></a>Het nut van *veel-op-veelrelaties*
 
-## <a name="what-many-to-many-relationships-solves"></a>Het nut van veel-op-veel-relaties
+Voordat de functie *veel-op-veelrelaties* beschikbaar was, werd de relatie tussen twee tabellen gedefinieerd in Power BI. Ten minste één van de tabelkolommen in de relatie moest unieke waarden bevatten. Vaak bevatte echter geen enkele kolom unieke waarden. 
 
-Toen er nog geen ondersteuning werd geboden voor **veel-op-veel-relaties**, was het voor het definiëren van een relatie tussen twee tabellen in Power BI noodzakelijk dat ten minste één van de kolommen in de relatie unieke waarden bevatte. In veel gevallen was het echter zo dat geen enkele kolom in de tabel unieke waarden bevatte. 
+Twee tabellen hadden dan bijvoorbeeld een kolom *Land*, maar de waarden van *Land* waren dan niet uniek in de tabellen. Er was een tijdelijke oplossing nodig om zulke tabellen samen te voegen. Zo’n oplossing kon zijn om aanvullende tabellen in het model te introduceren met de vereiste unieke waarden. Met de functie *veel-op-veelrelaties* kunt u deze tabellen direct samenvoegen met behulp van een relatie met de kardinaliteit **veel-op-veel**.  
 
-Twee tabellen hadden dan bijvoorbeeld een kolom *Land*, maar de waarden van *Land* waren dan niet uniek in de tabellen. Als u dergelijke tabellen wilde samenvoegen, was een tijdelijke oplossing nodig, zoals het toevoegen van extra tabellen aan het model die wel de vereiste unieke waarden bevatten. De functie **Veel-op-veel-relaties** biedt een alternatieve aanpak, waarbij deze tabellen rechtstreeks kunnen worden gekoppeld via een relatie met een kardinaliteit van **Veel-op-veel**.  
+## <a name="use-many-to-many-relationships"></a>*Veel-op-veelrelaties* gebruiken
 
-## <a name="using-many-to-many-relationships"></a>Veel-op-veel-relaties gebruiken
+Als u een relatie tussen twee tabellen wilt definiëren in Power BI, moet u de kardinaliteit van de relatie opgeven. De relatie tussen *ProductSales* en *Product*&mdash;met de kolommen *ProductSales(ProductCode)* en *Product(ProductCode)*&mdash;zou bijvoorbeeld worden gedefinieerd als *Veel-1*. De relatie wordt op deze manier gedefinieerd omdat er veel verkopen zijn voor elk product en de kolom in de tabel *Product* *(ProductCode)* uniek is. Als u een relatiekardinaliteit definieert als *Veel-1*, *1-veel* of *1-1* wordt dit door Power BI gevalideerd om ervoor te zorgen dat de kardinaliteit die u selecteert overeenkomt met de werkelijke de gegevens.
 
-Als u een relatie tussen twee tabellen wilt definiëren in Power BI, moet u de kardinaliteit van de relatie opgeven. De relatie tussen *ProductSales* en *Product* (via de kolommen *ProductSales[ProductCode]* en *Product[ProductCode]*) moet u bijvoorbeeld definiëren als **Veel-1**, aangezien er verschillende verkopen zijn voor elk product, en de kolom in de tabel *Product* *(ProductCode)* uniek is. Als u de kardinaliteit van een relatie definieert als **Veel-1**, **1-veel** of **1-1**, voert Power BI een validatie uit om te controleren of de geselecteerde kardinaliteit overeenkomt met de werkelijke gegevens.
+Laten we eens kijken naar het eenvoudige model in de volgende afbeelding:
 
-Laten we eens kijken naar het eenvoudige model in de volgende afbeelding.
+![Relatieweergave](media/desktop-many-to-many-relationships/many-to-many-relationships_02.png)
 
-![relatieweergave](media/desktop-many-to-many-relationships/many-to-many-relationships_02.png)
+Stel nu dat de tabel *Product* slechts twee rijen bevat, zoals weergegeven:
 
-Stel vervolgens dat de tabel *Product* maar twee rijen bevat.
+![Visual van de tabel Product met twee rijen](media/desktop-many-to-many-relationships/many-to-many-relationships_03.png)
 
-![visualisatie van tabel](media/desktop-many-to-many-relationships/many-to-many-relationships_03.png)
+Laten we er ook van uitgaan dat de tabel *Sales* maar vier rijen heeft, waaronder een voor een product C. Vanwege een fout met betrekking tot referentiële integriteit komt de rij voor product C niet voor in de tabel *Product*.
 
-Laten we er ook vanuit gaan dat de tabel *Sales* maar vier rijen heeft, waaronder *Sales* voor een product **C** dat niet bestaat in de tabel *Product* (vanwege een fout met betrekking tot referentiële integriteit).
+![Visual van de tabel met vier rijen](media/desktop-many-to-many-relationships/many-to-many-relationships_04.png)
 
-![visualisatie van tabel](media/desktop-many-to-many-relationships/many-to-many-relationships_04.png)
+De *ProductName* en *Price* (uit de tabel *Product*), samen met het totale aantal (*Qty*) voor elk product (uit de tabel *ProductSales*), zou als volgt worden weergegeven: 
 
-Een visualisatie met *ProductName* en *Price* (uit de tabel *Product*), samen met het totale aantal (*Qty*) voor elk product (uit de tabel *ProductSales*), zou worden weergegeven zoals in de volgende afbeelding: 
+![Visual met de productnaam, prijs en hoeveelheid](media/desktop-many-to-many-relationships/many-to-many-relationships_05.png)
 
-![visualisatie van tabel](media/desktop-many-to-many-relationships/many-to-many-relationships_05.png)
+Zoals u in de vorige afbeelding ziet, is er een lege rij *ProductName*, die is gekoppeld aan de verkoop van product C. Deze lege rij vertegenwoordigt het volgende:
 
-Zoals u kunt zien in de vorige afbeelding, bevat de visualisatie een rij met een lege *ProductName*, gekoppeld aan de verkopen van het product *C*. Deze lege rij vertegenwoordigt het volgende:
+* Alle rijen in de tabel *ProductSales* waarvoor geen overeenkomende rij bestaat in de tabel *Product*. Er is een probleem met betrekking tot referentiële integriteit, zoals we in dit voorbeeld zien voor product *C*.
 
-* Rijen in de tabel *ProductSales* zonder een overeenkomende rij in de tabel *Product*: er is een probleem met de referentiële integriteit, zoals we zien voor product *C* in dit voorbeeld.
+* Alle rijen in de tabel *ProductSales* waarvoor de kolom met de refererende sleutel null is. 
 
-* Rijen in de tabel *ProductSales* waarvoor de kolom met de refererende sleutel null is. 
+Om deze redenen vertegenwoordigt de lege rij in beide gevallen verkopen waarvoor de *ProductName* en *Price* onbekend zijn.
 
-Vanwege deze redenen vertegenwoordigt de lege rij in beide gevallen verkopen waarvoor de *ProductName* en *Price* onbekend zijn.
+Soms komt het voor dat de tabellen worden samengevoegd via twee kolommen, maar dat geen van beide kolommen uniek is. Laten we maar eens kijken naar de volgende twee tabellen:
 
-Het komt soms echter ook voor dat de tabellen worden gekoppeld via twee kolommen, maar dat geen van beide kolommen uniek is. Laten we maar eens kijken naar de volgende twee tabellen:
+* De tabel *Sales* bevat verkoopgegevens per *State*. Elke rij bevat de omzet voor het type verkoop in die staat. De staten zijn CA, WA en TX. 
 
-* De tabel *Sales* bevat verkoopgegevens op *State*, waarbij elke rij de omzet bevat voor het type verkoop in die staat (met de staten CA, WA en TX). 
+    ![De tabel Sales met de verkoop per staat](media/desktop-many-to-many-relationships/many-to-many-relationships_06.png)
 
-    ![visualisatie van tabel](media/desktop-many-to-many-relationships/many-to-many-relationships_06.png)
+* De tabel *CityData* bevat gegevens van steden, waaronder het aantal inwoners en de staat (waaronder CA, WA en New York).
 
-* De tabel *CityData* bevat gegevens van steden, waaronder het aantal inwoners en de staat (CA, WA en New York).
+    ![De tabel Sales met de stad, staat en het aantal inwoners](media/desktop-many-to-many-relationships/many-to-many-relationships_07.png)
 
-    ![visualisatie van tabel](media/desktop-many-to-many-relationships/many-to-many-relationships_07.png)
+Hoewel beide tabellen een kolom *State* bevatten en het voor de hand ligt om te willen rapporteren over zowel de totale omzet per staat als het totale aantal inwoners per staat, is er een probleem: de kolom *State* is in geen van beide tabellen uniek. 
 
-Hoewel beide tabellen een kolom *State* bevatten en het denkbaar is om te filteren op totale omzet (*Sales*) per *State*, samen met het aantal inwoners van elke staat, is er een probleem: de kolom *State* is in geen van beide tabellen uniek. 
+## <a name="the-previous-workaround"></a>De vorige tijdelijke oplossing
 
-## <a name="the-prior-workaround"></a>De eerdere tijdelijke oplossing
+In versies van Power BI Desktop vóór die van juli 2018 konden gebruikers geen directe relatie tussen deze tabellen maken. Een veelgebruikte tijdelijke oplossing voor dit probleem was om de volgende stappen te volgen:
 
-In versies van **Power BI Desktop** vóór de release van juli 2018, was het niet mogelijk om rechtstreeks een relatie te maken tussen deze tabellen. Dit is een veelgebruikte tijdelijke oplossing voor dit probleem:
+* Maak een derde tabel die alleen de unieke id’s voor *State* bevat. Het mag een of alle van de volgende tabellen zijn:
+  * Een berekende tabel (gedefinieerd met behulp van Data Analysis Expressions (DAX)).
+  * Een tabel op basis van een query die is gedefinieerd in Query-editor, met de unieke id's die zijn opgehaald uit een van de tabellen.
+  * De gecombineerde volledige set.
 
-* Maak een derde tabel met alleen de unieke id's voor *State*. Dit kan een berekende tabel zijn (gedefinieerd met behulp van DAX) of een tabel die is gedefinieerd met behulp van een query die is gemaakt in **Query-editor**, die de unieke id's kan bevatten die zijn opgehaald uit een van de tabellen, of de volledige samengevoegde set.
+* Koppel de twee oorspronkelijke tabellen aan de nieuwe tabel door algemene *Veel-1*-relaties te gebruiken.
 
-* Koppel de twee oorspronkelijke tabellen aan die nieuwe tabel, met behulp van algemene **veel-1*-relaties.
+U kunt de tijdelijke tabel zichtbaar laten of deze verbergen zodat deze niet wordt weergegeven in de lijst **Velden**. Als u de tabel verbergt, worden de *Veel-1*-relaties gewoonlijk ingesteld op filteren in beide richtingen en u kunt het veld *State* uit elk van de tabellen gebruiken. Het daaropvolgende kruislingse filteren wordt doorgeven aan de andere tabel. Deze aanpak wordt weergegeven in de volgende afbeelding:
 
-De tabel die als tijdelijke oplossing fungeert, kan zichtbaar blijven of worden verborgen zodat de tabel niet voorkomt in de lijst met velden. In het laatste geval worden de **veel-1**-relaties meestal ingesteld op filteren in beide richtingen, zodat het veld *State* uit beide tabellen kan worden gebruikt, met daarna kruislings filteren om de gegevens door te geven aan de andere tabel. Deze tijdelijke oplossing wordt weergegeven in de volgende afbeelding van de **relatieweergave**.
+![Relatieweergave](media/desktop-many-to-many-relationships/many-to-many-relationships_08.png)
 
-![relatieweergave](media/desktop-many-to-many-relationships/many-to-many-relationships_08.png)
+Een visualisatie met *State* (uit de tabel *CityData*), samen met het totale aantal inwoners (*Population*) en de totale omzet (*Sales*) ziet er dan zo uit:
 
-Een visualisatie met *State* (uit de tabel *CityData*), samen met het totale aantal inwoners (*Population*) en de totale omzet (*Sales*) ziet er dan zo uit.
-
-![visualisatie van tabel](media/desktop-many-to-many-relationships/many-to-many-relationships_09.png)
-
-Omdat in deze tijdelijke oplossing de staten uit de tabel *CityData* worden gebruikt, worden alleen de*staat* of staten in die tabel vermeld (en wordt TX dus uitgesloten). In tegenstelling tot **veel-1**-relaties bevat de totaalrij wel alle verkopen in *Sales* (inclusief die van TX), maar bevatten de details geen lege rij om rijen zonder overeenkomst te vertegenwoordigen. Zo is er ook geen lege rij voor verkopen (*Sales*) met een null-waarde voor *State*.
-
-Als *City* ook zou worden toegevoegd aan de visualisatie en als de bevolking per plaats (*City*) bekend is, zouden de verkopen (*Sales*) voor *City* gelijk zijn aan de verkopen (*Sales*) voor de bijbehorende *State* (wat ook het geval is bij groeperen op een kolom die is niet gerelateerd aan een bepaalde statistische meting), zoals wordt weergegeven in de volgende afbeelding.
-
-![visualisatie van tabel](media/desktop-many-to-many-relationships/many-to-many-relationships_10.png)
-
-Als de nieuwe tabel *Sales* in deze tijdelijke oplossing zou zijn gedefinieerd als de samenvoeging van alle *staten*, en zichtbaar zou zijn in de lijst met velden, zou dezelfde visualisatie met *State* (in de nieuwe tabel) en het totale aantal inwoners (*Population*) en verkopen (*Sales*) er als volgt uitzien.
-
-![visualisatie van tabel](media/desktop-many-to-many-relationships/many-to-many-relationships_11.png)
-
-In dat geval zouden, zoals weergegeven in de visualisatie, *TX* (met *Sales* maar een onbekend aantal inwoners) en *New York* (met een bekend aantal inwoners maar geen *Sales*) worden opgenomen. 
-
-Zoals u ziet, is deze tijdelijke oplossing niet optimaal en zitten er nogal wat haken en ogen aan. Met behulp van een **veel-op-veel-relatie** kunnen deze problemen worden opgelost, zoals wordt beschreven in de volgende sectie.
-
-## <a name="using-many-to-many-relationships-instead-of-the-workaround"></a>Veel-op-veel-relaties gebruiken in plaats van de tijdelijke oplossing
-
-In versies van **Power BI Desktop** vanaf juli 2018 kunt u tabellen zoals beschreven in de vorige sectie rechtstreeks koppelen zonder gebruik te hoeven maken van tijdelijke oplossingen. Het is nu mogelijk om de kardinaliteit van een relatie in te stellen op **Veel-op-veel**, om aan te geven dat geen van beide tabellen unieke waarden bevat. Voor dergelijke relaties kunt u nog steeds bepalen welke tabel de andere tabel filtert. U kunt er ook voor kiezen om bidirectioneel te filteren, zodat beide tabellen elkaar filteren.  
+![Visual van tabel](media/desktop-many-to-many-relationships/many-to-many-relationships_09.png)
 
 > [!NOTE]
-> De mogelijkheid om **veel-op-veel**-relaties te maken, is nog in preview. Zolang dat het geval is, kunt u geen modellen met **veel-op-veel**-relaties publiceren naar de Power BI-service. 
+> Omdat in deze tijdelijke oplossing de staat uit de tabel *CityData* wordt gebruikt, worden alleen de staten in die tabel weergegeven en wordt TX dus uitgesloten. In tegenstelling tot *Veel-1*-relaties bevat de totaalrij wel alle *Sales* (inclusief die van TX), maar bevatten de details geen lege rij om rijen zonder overeenkomst te vertegenwoordigen. Zo is er ook geen lege rij voor *Sales* met een null-waarde voor de *State*.
 
-In **Power BI Desktop** wordt de kardinaliteit standaard ingesteld op **Veel-op-veel** als er is vastgesteld dat geen van beide tabellen unieke waarden bevat voor de kolommen in de relatie. In dat geval wordt er een waarschuwing weergegeven om er zeker van te zijn dat het instellen van een relatie de bedoeling is, en dat dit niet het onbedoelde effect van een gegevensprobleem is. 
+Als u ook *City* aan die visual toevoegt, wordt in *Sales* voor *City* gewoon de *Sales* voor de bijbehorende *State* herhaald, ook al is de bevolking per *City* wel bekend. Dit is gewoonlijk het geval wanneer de groepering in een kolom niet gerelateerd is aan een geaggregeerde meting, zoals weergegeven in de volgende afbeelding:
 
-Als u bijvoorbeeld een rechtstreekse relatie gaat maken tussen *CityData* en *Sales*, waarbij filters moeten worden doorgegeven van *CityData* naar *Sales*, ziet het dialoogvenster Relatie bewerken eruit zoals wordt weergegeven in de volgende afbeelding.
+![Visual van tabel](media/desktop-many-to-many-relationships/many-to-many-relationships_10.png)
 
-![Dialoogvenster Relatie bewerken](media/desktop-many-to-many-relationships/many-to-many-relationships_01.png)
+Als we de nieuwe tabel *Sales* definiëren als de combinatie van alle *States* in deze tijdelijke oplossing en we deze zichtbaar maken in de lijst **Velden**, worden in dezelfde visual beide *States* (in de nieuwe tabel), de totale *Population* en de totale *Sales* weergegeven, zoals te zien is in de volgende afbeelding:
 
-De resulterende **relatieweergave** bevat dan de directe **veel-op-veel**-relatie tussen de twee tabellen. De vermelding in de lijst **Velden**, en het gedrag wanneer visualisaties worden gemaakt, is dan hetzelfde als bij het toepassen van de tijdelijke oplossing uit de vorige sectie, waarbij de extra tabel (met de afzonderlijke *staten* erin) niet zichtbaar wordt gemaakt. Een visualisatie met *staten*, inclusief het aantal inwoners en de totale omzet, zou er zo uitzien voor de tijdelijke oplossing uit de vorige sectie.
+![Visual van tabel](media/desktop-many-to-many-relationships/many-to-many-relationships_11.png)
 
-![visualisatie van tabel](media/desktop-many-to-many-relationships/many-to-many-relationships_12.png)
+Zoals u ziet, is *TX*&mdash; afgebeeld met *Sales*-gegevens, maar onbekende *Population*-gegevens &mdash;en is *New York*&mdash; afgebeeld met bekende *Population*-gegevens, maar zonder *Sales*-gegevens&mdash;. Deze oplossing is niet optimaal en veroorzaakt veel problemen. Met het maken van de veel-op-veelrelaties kunnen de resulterende problemen worden opgelost, zoals beschreven in de volgende sectie.
 
-Dit zijn dan ook de belangrijkste verschillen tussen **veel-op-veel**-relaties en de meer gebruikelijke **veel-1**-relaties:
+## <a name="use-many-to-many-relationships-instead-of-the-workaround"></a>*Veel-op-veelrelaties* gebruiken in plaats van de tijdelijke oplossing
 
-* De waarden die worden weergegeven, bevatten geen lege rij voor rijen zonder overeenkomst in de andere tabel, en evenmin voor rijen waarvoor de kolom die wordt gebruikt in de relatie in de andere tabel null is.
-* Het is niet mogelijk om de functie *RELATED()* te gebruiken (aangezien meer dan één rij gerelateerd kan zijn).
-* Het toepassen van de functie *ALL()* op een tabel betekent niet dat filters worden verwijderd die zijn toegepast op andere tabellen die via een **veel-op-veel**-relatie zijn gerelateerd aan de tabel. Een meting die als volgt is gedefinieerd in het vorige voorbeeld heeft bijvoorbeeld niet tot gevolg dat filters voor kolommen in de gerelateerde tabel *CityData* worden verwijderd:
+Vanaf de versie van juli 2018 van Power BI Desktop kunt u tabellen, zoals degene die eerder zijn beschreven, rechtstreeks koppelen, zonder dat u gebruik hoeft te maken van vergelijkbare tijdelijke oplossingen. Het is nu mogelijk om de relatiekardinaliteit in te stellen als *Veel-op-veel*. Deze instelling geeft aan dat geen van beide tabellen unieke waarden bevat. Voor dergelijke relaties kunt u nog steeds bepalen welke tabel de andere tabel filtert. U kunt er ook voor kiezen om bidirectioneel te filteren, zodat beide tabellen elkaar filteren.  
 
-    ![voorbeeld van een script](media/desktop-many-to-many-relationships/many-to-many-relationships_13.png)
+> [!NOTE]
+> De mogelijkheid om *veel-op-veelrelaties* te maken is in preview. Zolang deze functie in preview is, is het niet mogelijk om te publiceren in de Power BI-servicemodellen die gebruikmaken van *veel-op-veelrelaties*. 
 
-    Een visualisatie met *State*, *Sales* en *Sales total* zou dan dit opleveren:
+In Power BI Desktop wordt de kardinaliteit standaard ingesteld op *Veel-op-veel* als is vastgesteld dat geen van beide tabellen unieke waarden bevat voor de kolommen in de relatie. In dat geval wordt er een waarschuwing weergegeven om er zeker van te zijn dat het instellen van deze relatie de bedoeling was en niet het onbedoelde effect is van een gegevensprobleem. 
 
-    ![visualisatie van tabel](media/desktop-many-to-many-relationships/many-to-many-relationships_14.png)
+Als u bijvoorbeeld een rechtstreekse relatie maakt tussen *CityData* en *Sales*&mdash;, waarbij filters moeten worden doorgegeven van *CityData* naar *Sales*&mdash;, wordt in Power BI Desktop het venster **Relatie bewerken** weergegeven zoals in de volgende afbeelding:
 
-Het is dan ook belangrijk dat er goed op wordt gelet dat berekeningen met *ALL(\<Tabel >)*, zoals *% of grand total*, het beoogde resultaat opleveren. 
+![Het dialoogvenster ‘Relatie bewerken’](media/desktop-many-to-many-relationships/many-to-many-relationships_01.png)
+
+De resulterende **Relatie**-weergave bevat dan de directe veel-op-veelrelatie tussen de twee tabellen. De weergave van de tabellen in de lijst **Velden** en het daaropvolgende gedrag bij het maken van de visuals, is vergelijkbaar met die na het toepassen van de tijdelijke oplossing. In de tijdelijke oplossing wordt de extra tabel die de afzonderlijke *State*-gegevens bevat, niet zichtbaar gemaakt. Zoals beschreven in de vorige sectie, wordt een visualisatie met bijvoorbeeld *State*-, *Population*- en *Sales*-gegevens als volgt weergegeven:
+
+![Visual van tabel](media/desktop-many-to-many-relationships/many-to-many-relationships_12.png)
+
+Hier volgen de belangrijkste verschillen tussen *veel-op-veelrelaties* en de meer gebruikelijke *Veel-1*-relaties:
+
+* De weergegeven waarden bevatten geen lege rij die de niet-overeenkomende rijen in de andere tabel vertegenwoordigt. De waarden vertegenwoordigen ook geen rijen waarvan de kolom die in de relatie in de andere tabel wordt gebruikt, null is.
+* Het is niet mogelijk om de functie `RELATED()` te gebruiken aangezien meer dan één rij gerelateerd kan zijn.
+* Het gebruik van de functie `ALL()` voor een tabel betekent niet dat filters worden verwijderd die zijn toegepast op andere tabellen die via een veel-op-veelrelatie zijn gerelateerd. In het voorgaande voorbeeld heeft een meting die is gedefinieerd zoals weergegeven in het volgende script, niet tot gevolg dat filters voor kolommen in de gerelateerde tabel *CityData* worden verwijderd:
+
+    ![Voorbeeld van een script](media/desktop-many-to-many-relationships/many-to-many-relationships_13.png)
+
+    Een visual met *State*-, *Sales*- en *Sales total*-gegevens zou dan het volgende opleveren:
+
+    ![Visual van tabel](media/desktop-many-to-many-relationships/many-to-many-relationships_14.png)
+
+Zorg er met de voorgaande verschillen in gedachten voor dat de berekeningen die gebruikmaken van `ALL(\<Table>)`, zoals *% van eindtotaal*, de beoogde resultaten retourneren. 
 
 
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 
-Er gelden enkele beperkingen voor deze release van **veel-op-veel-relaties** en **samengestelde modellen**.
+Er gelden enkele beperkingen voor deze versie van *veel-op-veelrelaties* en samengestelde modellen.
 
-De volgende (multidimensionale) Live Connect-bronnen kunnen niet worden gebruikt met **samengestelde modellen**:
+De volgende (multidimensionale) Live Connect-bronnen kunnen niet worden gebruikt met samengestelde modellen:
 
 * SAP HANA
 * SAP Business Warehouse
@@ -166,19 +163,14 @@ De volgende (multidimensionale) Live Connect-bronnen kunnen niet worden gebruikt
 * Power BI-gegevenssets
 * Azure Analysis Services
 
-Als u met behulp van DirectQuery verbinding maakt met deze multidimensionale bronnen, is het niet mogelijk om ook nog verbinding te maken met een andere DirectQuery-bron. Het is dan evenmin mogelijk om te combineren met geïmporteerde gegevens.
+Als u met behulp van DirectQuery verbinding maakt met deze multidimensionale bronnen, is het niet mogelijk om verbinding te maken met een andere DirectQuery-bron of deze te combineren met geïmporteerde gegevens.
 
-De bestaande beperkingen van het gebruik van DirectQuery gelden nog steeds wanneer u **veel-op-veel-relaties** gebruikt. Veel van deze beperkingen zijn nu per tabel, al naar gelang de **opslagmodus** van de tabel. Zo kan een berekende kolom in een geïmporteerde tabel verwijzen naar andere tabellen, maar kan een berekende kolom in een DirectQuery-tabel nog steeds alleen verwijzen naar kolommen in dezelfde tabel. Andere beperkingen gelden voor het model als geheel, als een van de tabellen in het model DirectQuery gebruikt. De functies **QuickInsights** en **Q&A** zijn bijvoorbeeld niet beschikbaar voor een model als een van de tabellen in het model de **opslagmodus** DirectQuery heeft. 
+De bestaande beperkingen van het gebruik van DirectQuery gelden nog steeds wanneer u *veel-op-veelrelaties* gebruikt. Veel van deze beperkingen gelden nu per tabel, al naargelang de opslagmodus van de tabel. Zo kan een berekende kolom in een geïmporteerde tabel verwijzen naar andere tabellen, maar kan een berekende kolom in een DirectQuery-tabel nog steeds alleen verwijzen naar kolommen in dezelfde tabel. Andere beperkingen gelden voor het model als geheel, als een van de tabellen in het model DirectQuery gebruikt. De functies QuickInsights en Q&A zijn bijvoorbeeld niet beschikbaar voor een model als een van de tabellen in het model de opslagmodus DirectQuery heeft. 
 
 ## <a name="next-steps"></a>Volgende stappen
 
-De volgende artikelen bevatten meer informatie over samengestelde modellen, evenals een gedetailleerde beschrijving van DirectQuery.
-
+Zie de volgende artikelen voor meer informatie over samengestelde modellen en DirectQuery:
 * [Samengestelde modellen in Power BI Desktop (preview-versie)](desktop-composite-models.md)
-* [Opslagmodus in Power BI Desktop (preview-versie)](desktop-storage-mode.md)
-
-DirectQuery-artikelen:
-
-* [DirectQuery gebruiken in Power BI](desktop-directquery-about.md)
-* [Gegevensbronnen die worden ondersteund door DirectQuery in Power BI](desktop-directquery-data-sources.md)
-
+* [Opslagmodus in Power BI Desktop (preview)](desktop-storage-mode.md)
+* [DirectQuery in Power BI Desktop gebruiken](desktop-directquery-about.md)
+* [Gegevensbronnen die worden ondersteund door DirectQuery in Power BI Desktop](desktop-directquery-data-sources.md)

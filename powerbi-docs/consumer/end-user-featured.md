@@ -8,15 +8,15 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 10/19/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d23e168f6192629ce9dd945e29691dcf40ae1427
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 66956a38a4f2076a01cf224bbef3a20490915e9b
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565400"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473699"
 ---
 # <a name="featured-dashboards-in-power-bi-service"></a>Aanbevolen dashboards in de Power BI-service
 ## <a name="create-a-featured-dashboard"></a>Een aanbevolen dashboard maken
@@ -41,7 +41,7 @@ Kijk mee terwijl Amanda een aanbevolen dashboard maakt en volg vervolgens de ins
 
 
 1. Open het dashboard dat u wilt instellen als *aanbevolen*. 
-2. In de bovenste navigatiebalk ziet u **Instellen als aanbevolen** of alleen het pictogram Aanbevolen ![Pictogram Aanbevolen](./media/end-user-featured/power-bi-featured-icon.png). Selecteer één van beide.
+2. Op de bovenste menubalk ziet u **Instellen als aanbevolen** of alleen het pictogram Aanbevolen ![Pictogram Aanbevolen](./media/end-user-featured/power-bi-featured-icon.png). Selecteer één van beide.
    
     ![Pictogram Instellen als aanbevolen](./media/end-user-featured/power-bi-set-as-featured.png)
 3. Bevestig uw selectie.

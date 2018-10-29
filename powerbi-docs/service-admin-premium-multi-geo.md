@@ -1,21 +1,21 @@
 ---
 title: Ondersteuning voor Multi-Geo voor Power BI Premium (preview-versie)
 description: Lees hoe u inhoud kunt implementeren naar datacenters in andere regio's dan de basisregio van de Power BI-tenant.
-author: maggiesMSFT
-ms.author: maggies
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/31/2018
+ms.date: 10/21/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 135217acbe6289edb73c39035f58df8babf32566
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: 1041dcf8c345bfdf8d5a6ae9823d4cecd5c323a6
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300179"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641661"
 ---
 # <a name="multi-geo-support-for-power-bi-premium-preview"></a>Ondersteuning voor Multi-Geo voor Power BI Premium (preview-versie)
 
@@ -40,7 +40,7 @@ Multi-Geo is nu ook beschikbaar in Power BI Embedded. Lees meer op [Multi-Geo su
 Voor een nieuwe capaciteit kunt u de ondersteuning voor meerdere geografische gebieden inschakelen door in de vervolgkeuzelijst een andere regio te selecteren dan de standaardregio.  Voor elke beschikbare capaciteit wordt aangegeven in welke regio zich deze momenteel bevindt, zoals **US - west-centraal**.
 
 ![Capaciteitsgrootte: een regio selecteren. Power BI en meerdere geografische gebieden](media/service-admin-premium-multi-geo/power-bi-multi-geo-capacity-size.png)
-  
+
 Nadat u een capaciteit hebt gemaakt, blijft deze in die regio aanwezig. Voor alle gemaakte werkruimten geldt dat inhoud voor die ruimten wordt opgeslagen in die regio. U kunt werkruimten van de ene naar de andere regio migreren via de vervolgkeuzelijst in het scherm met werkruimte instellingen.
 
 ![Werkruimte bewerken: een beschikbare capaciteit kiezen. Power BI en meerdere geografische gebieden](media/service-admin-premium-multi-geo/power-bi-multi-geo-edit-workspace.png)
@@ -83,7 +83,7 @@ Als u de regio voor bestaande inhoud moet wijzigen, hebt u twee mogelijkheden.
 
 ## <a name="move-content-out-of-multi-geo"></a>Inhoud niet meer onderbrengen in meerdere geografische gebieden  
 
-U kunt er op twee manieren voor zorgen dat werkruimten niet meer worden opgeslagen in meerdere geografische gebieden:
+U kunt er op twee manieren voor zorgen dat werkruimten niet meer worden opgeslagen in Multi-Geo-capaciteit:
 
 - Verwijder de huidige capaciteit waarin de werkruimte zich bevindt.  Hierdoor wordt de werkruimte terug verplaatst naar gedeelde capaciteit in de basisregio.
 - Migreer afzonderlijke werkruimten terug naar Premium-capaciteit in de basistenant.
@@ -91,11 +91,8 @@ U kunt er op twee manieren voor zorgen dat werkruimten niet meer worden opgeslag
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 
 - Controleer of alle verplaatsingen tussen regio's voldoen aan alle nalevingsvereisten van uw bedrijf en de overheid voordat u de gegevensoverdracht daadwerkelijk start.
-
 - Een in de cache opgeslagen query in een verafgelegen regio blijft in die regio wanneer de query niet wordt gebruikt. Andere gegevens die onderweg zijn kunnen echter heen en weer worden verplaatst tussen meerdere geografische gebieden.
-
 - Bij het verplaatsen van gegevens van de ene naar de andere regio in een omgeving met ondersteuning voor meerdere geografische gebieden, kunnen de brongegevens gedurende maximaal 30 dagen aanwezig blijven in de regio van waaruit de gegevens zijn verplaatst. Gedurende die periode hebben eindgebruikers geen toegang tot de gegevens. De gegevens worden gedurende deze periode van 30 dagen verwijderd uit deze regio en vernietigd.
-
 - Ondersteuning voor meerdere geografische gebieden resulteert over het algemeen niet in betere prestaties. Het laden van rapporten en dashboards vereist namelijk nog steeds dat er aanvragen voor metagegevens worden verstuurd naar de basisregio.
 
 ## <a name="next-steps"></a>Volgende stappen

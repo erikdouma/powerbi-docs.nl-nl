@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
-ms.date: 06/20/2018
-ms.openlocfilehash: 6685b47de6fbcc4ce35d5087c545814e34092d11
-ms.sourcegitcommit: b7b828019b2a2917dfda4d6df0c9cdce70fa68cd
+ms.date: 10/17/2018
+ms.openlocfilehash: d3076090b06cdb60b72c475fd156cc274985ea32
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "48827428"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435483"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Zelfstudie: een Power BI-rapport, -dashboard of -tegel insluiten in een toepassing voor uw klanten
 
@@ -36,7 +36,7 @@ Om te beginnen hebt u een **Power BI Pro**-account (dit account is uw **hoofdacc
 
 ## <a name="set-up-your-embedded-analytics-development-environment"></a>De ingesloten analytische ontwikkelomgeving instellen
 
-Voordat u begint met het insluiten van dashboards, rapporten en tegels in uw toepassing, moet u ervoor zorgen dat uw omgeving is ingesteld voor het insluiten van inhoud. Als onderdeel van het instellingsproces moet u het volgende doen.
+Voordat u begint met het insluiten van rapporten, dashboards en tegels in uw toepassing, moet u insluiting met Power BI mogelijk maken in uw omgeving.
 
 U kunt het [installatieprogramma voor insluiten](https://aka.ms/embedsetup/AppOwnsData) uitvoeren om snel aan de slag te gaan en een voorbeeldtoepassing te downloaden waarmee u een omgeving leert maken en een rapport leert insluiten.
 
@@ -44,7 +44,7 @@ Als u echter besluit de omgeving handmatig in te stellen, kunt u hieronder doorg
 
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Een toepassing registreren in Azure Active Directory (Azure AD)
 
-U kunt uw toepassing registreren bij Azure Active Directory AD zodat uw toepassing toegang heeft tot de Power BI REST-API's. Hiermee kunt u een identiteit instellen voor uw toepassing en machtigingen opgeven voor Power BI REST-resources.
+U kunt uw toepassing registreren bij Azure Active Directory AD zodat uw toepassing toegang heeft tot de Power BI REST-API's. Als u uw toepassing registreert, kunt u een identiteit instellen voor uw toepassing en machtigingen opgeven voor Power BI REST-resources.
 
 1. Accepteer de [algemene voorwaarden van de Microsoft Power BI-API](https://powerbi.microsoft.com/api-terms).
 
@@ -52,7 +52,7 @@ U kunt uw toepassing registreren bij Azure Active Directory AD zodat uw toepassi
 
     ![Hoofdweergave van Azure Portal](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
-3. Kies in het navigatiedeelvenster links **Alle services**, selecteer **App-registraties** en selecteer vervolgens **Nieuwe toepassing registreren**.
+3. Selecteer in het navigatiedeelvenster links **Alle services**, selecteer **App-registraties** en selecteer vervolgens **Nieuwe toepassing registreren**.
 
     ![App-registratie zoeken](media/embed-sample-for-customers/embed-sample-for-customers-003.png)</br>
     ![Nieuwe app-registratie](media/embed-sample-for-customers/embed-sample-for-customers-004.png)
@@ -63,7 +63,7 @@ U kunt uw toepassing registreren bij Azure Active Directory AD zodat uw toepassi
 
 ### <a name="apply-permissions-to-your-application-within-azure-active-directory"></a>Machtigingen toepassen op uw toepassing in Azure Active Directory
 
-U moet extra machtigingen inschakelen voor uw toepassing naast de informatie die u hebt opgegeven op de pagina voor de app-registratie. U moet zijn aangemeld met het *hoofd*account, dat wordt gebruikt voor insluiting, of een globaal beheerdersaccount.
+Schakel extra machtigingen in voor uw toepassing, naast de informatie die u hebt opgegeven op de pagina voor de app-registratie. Meld u aan met het *hoofdaccount* dat u voor het insluiten van inhoud gebruikt. Het hoofdaccount moet het account van een globale beheerder zijn.
 
 ### <a name="use-the-azure-active-directory-portal"></a>Azure Active Directory-portal gebruiken
 
@@ -91,7 +91,7 @@ U moet extra machtigingen inschakelen voor uw toepassing naast de informatie die
 
     ![PBI-services selecteren](media/embed-sample-for-customers/embed-sample-for-customers-014.png)
 
-7. Selecteer alle machtigingen onder **Gedelegeerde machtigingen**. U moet deze één voor één selecteren om ze te kunnen opslaan. Selecteer **Opslaan** wanneer u klaar bent.
+7. Selecteer alle machtigingen onder **Gedelegeerde machtigingen**. Selecteer **Opslaan** wanneer u klaar bent.
 
     ![Gedelegeerde machtigingen selecteren](media/embed-sample-for-customers/embed-sample-for-customers-015.png)
 
@@ -107,11 +107,11 @@ U moet extra machtigingen inschakelen voor uw toepassing naast de informatie die
 
 Als u rapporten, dashboards of tegels voor uw klanten insluit, moet u uw inhoud binnen de werkruimte van een app plaatsen. Het *hoofd*account moet een beheerder van de app-werkruimte zijn.
 
-1. Maak eerst de werkruimte. Selecteer **Werkruimten** > **App-werkruimte maken**. Hier wordt de inhoud geplaatst waartoe de toepassing toegang moet hebben.
+1. Maak eerst de werkruimte. Selecteer **Werkruimten** > **App-werkruimte maken**. In Appwerkruimte maken plaatst u de inhoud waartoe de toepassing toegang moet hebben.
 
     ![Werkruimte maken](media/embed-sample-for-customers/embed-sample-for-customers-020.png)
 
-2. Geef een naam op voor de werkruimte. Als de corresponderende **werkruimte-id** niet beschikbaar is, kunt u deze bewerken tot een unieke aanduiding. Dit moet ook de naam van de app zijn.
+2. Geef een naam op voor de werkruimte. Als de corresponderende **werkruimte-id** niet beschikbaar is, kunt u deze bewerken tot een unieke aanduiding.
 
     ![Werkruimte een naam geven](media/embed-sample-for-customers/embed-sample-for-customers-021.png)
 
@@ -161,31 +161,31 @@ Volg deze stappen om inhoud in te sluiten met een voorbeeldtoepassing.
 
     ![Voorbeeldtoepassing waarin app eigenaar is van de gegevens](media/embed-sample-for-customers/embed-sample-for-customers-026.png)
 
-2. Open het bestand Web.config in de voorbeeldtoepassing. Er zijn vijf velden die u moet invullen voor een correcte uitvoering van de toepassing: **clientID**, **groupId**, **reportId**, **pbiUsername** en **pbiPassword**.
+2. Open het bestand Web.config in de voorbeeldtoepassing. Er zijn vijf velden die u moet invullen voor een correcte uitvoering van de toepassing: **applicationId**, **workspaceId**, **reportId**, **pbiUsername** en **pbiPassword**.
 
     ![Bestand Web.config](media/embed-sample-for-customers/embed-sample-for-customers-030.png)
 
-    Vul bij **clientId** de **toepassings-ID** van **Azure** in. **clientId** wordt door de toepassing gebruikt om zich te identificeren bij de gebruikers bij wie ze machtigingen aanvragen. Ga als volgt te werk om de **client-id** op te halen:
+    Vul bij **applicationId** de **Toepassings-id** van **Azure** in. De **applicationId** wordt door de toepassing gebruikt om zich te identificeren bij de gebruikers bij wie u machtigingen aanvraagt. Ga als volgt te werk om de **applicationId** op te halen:
 
     Meld u aan bij [Azure Portal](https://portal.azure.com).
 
     ![Hoofdweergave van Azure Portal](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
-    Kies in het navigatiedeelvenster links **Alle services** en selecteer **App-registraties**.
+    Selecteer in het navigatiedeelvenster links **Alle services** en selecteer **App-registraties**.
 
     ![App-registratie zoeken](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
-    Selecteer de toepassing waarvoor u de **client-id** wilt ophalen.
+    Selecteer de toepassing waarvoor u de **applicationId** wilt ophalen.
 
     ![App kiezen](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
-    U ziet een **toepassings-ID** die wordt vermeld als een GUID. Gebruik deze **toepassings-ID** als de **client-id** voor de toepassing.
+    U ziet een **toepassings-ID** die wordt vermeld als een GUID. Gebruik deze **Toepassings-id** als de **applicationId** voor de toepassing.
 
-    ![clientId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
+    ![applicationId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
 
-    Vul bij **groupId** informatie over de **app-werkruimte-GUID** uit Power BI in.
+    Vul bij **workspaceId** de **app-werkruimte-GUID** van Power BI in.
 
-    ![groupId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
+    ![workspaceId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
 
     Vul bij **reportId** informatie over de **rapport-GUID** uit Power BI in.
 
@@ -242,8 +242,8 @@ Hier volgt een codevoorbeeld van hoe u het eerste rapport ophaalt uit een bepaal
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
-// You need to provide the GroupID where the dashboard resides.
-ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(GroupId);
+// You need to provide the workspaceId where the dashboard resides.
+ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(workspaceId);
 
 // Get the first report in the group.
 Report report = reports.Value.FirstOrDefault();
@@ -263,7 +263,7 @@ using Microsoft.PowerBI.Api.V2.Models;
 
 // Generate Embed Token.
 var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
-EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(GroupId, report.Id, generateTokenRequestParameters);
+EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(workspaceId, report.Id, generateTokenRequestParameters);
 
 // Generate Embed Configuration.
 var embedConfig = new EmbedConfig()
@@ -339,12 +339,12 @@ Gebruik de onderstaande tabel om te bepalen welke Power BI Embedded-capaciteit h
 
 | Capaciteitsknooppunt | Totaal aantal cores<br/>*(back-end + front-end)* | Back-endcores | Front-endcores | Limieten voor DirectQuery/liveverbindingen | Maximum aantal pagina's (rendering) tijdens piekuren |
 | --- | --- | --- | --- | --- | --- |
-| A1 |1 v-core(s) |0,5 core(s), 3 GB RAM |0,5 core | 5 per seconde |1-300 |
-| A2 |2 v-core(s) |1 core(s), 5 GB RAM |1 core(s) | 10 per seconde |301-600 |
-| A3 |4 v-core(s) |2 core(s), 10 GB RAM |2 core(s) | 15 per seconde |601-1200 |
-| A4 |8 v-core(s) |4 core(s), 25 GB RAM |4 core(s) |30 per seconde |1201-2400 |
-| A5 |16 v-core(s) |8 core(s), 50 GB RAM |8 core(s) |60 per seconde |2401-4800 |
-| A6 |32 v-core(s) |16 core(s), 100 GB RAM |16 core(s) |120 per seconde |4.801-9.600 |
+| A1 |1 v-core(s) |0,5 kern, 3 GB RAM |0,5 kern |0 5 per seconde |1-300 |
+| A2 |2 v-core(s) |1 kern, 5 GB RAM |1 core(s) | 10 per seconde |301-600 |
+| A3 |4 v-core(s) |2 kernen, 10 GB RAM |2 core(s) | 15 per seconde |601-1200 |
+| A4 |8 v-core(s) |4 kernen, 25 GB RAM |4 core(s) |30 per seconde |1201-2400 |
+| A5 |16 v-core(s) |8 kernen, 50 GB RAM |8 core(s) |60 per seconde |2401-4800 |
+| A6 |32 v-core(s) |16 kernen, 100 GB RAM |16 core(s) |120 per seconde |4.801-9.600 |
 
 **_Met A-SKU's hebt u met een GRATIS Power BI-licentie geen toegang tot Power BI-inhoud._**
 

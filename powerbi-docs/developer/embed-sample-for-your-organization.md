@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
-ms.date: 07/13/2018
-ms.openlocfilehash: 9df612d80d3f322a8391eeb43430942a03850470
-ms.sourcegitcommit: b7b828019b2a2917dfda4d6df0c9cdce70fa68cd
+ms.date: 10/17/2018
+ms.openlocfilehash: 92ed5530ba2e3e72ec4d4e7d7c317993bdf9c04b
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "48827451"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396860"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>Zelfstudie: een Power BI-rapport, -dashboard of -tegel insluiten in een toepassing voor uw organisatie
 
@@ -158,13 +158,13 @@ Volg deze stappen om uw inhoud in te sluiten met behulp van een voorbeeldtoepass
 
     ![Voorbeeldtoepassing waarin gebruiker eigenaar is van de gegevens](media/embed-sample-for-your-organization/embed-sample-for-your-organization-026.png)
 
-2. Open het bestand **Cloud.config** in de voorbeeldtoepassing. Er zijn een aantal velden die u moet invullen om de toepassing te kunnen uitvoeren: **ClientID** en **ClientSecret**.
+2. Open het bestand **Cloud.config** in de voorbeeldtoepassing. Er zijn enkele velden die u moet invullen om de toepassing te kunnen uitvoeren: **ApplicationID** en **ApplicationSecret**.
 
     ![Cloud.config-bestand](media/embed-sample-for-your-organization/embed-sample-for-your-organization-030.png)
 
-    Vul bij **ClientID** de **toepassings-id** van Azure in. De **ClientID** wordt door de toepassing gebruikt om zich te identificeren bij de gebruikers bij wie u machtigingen aanvraagt.
+    Vul bij **ApplicationID** de **Toepassings-id** van Azure in. De **ApplicationID** wordt door de toepassing gebruikt om zich te identificeren bij de gebruikers bij wie u machtigingen aanvraagt.
 
-    Ga als volgt te werk om de **ClientID** op te halen:
+    Ga als volgt te werk om de **ApplicationID** op te halen:
 
     1. Meld u aan bij [Azure Portal](https://portal.azure.com).
 
@@ -174,17 +174,17 @@ Volg deze stappen om uw inhoud in te sluiten met behulp van een voorbeeldtoepass
 
         ![App-registratie zoeken](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-    1. Selecteer de toepassing die de **ClientID** moet gebruiken.
+    1. Selecteer de toepassing die de **ApplicationID** moet gebruiken.
 
         ![Een app kiezen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-    1. U ziet een **toepassings-id** die wordt vermeld als een GUID. Gebruik deze **toepassings-id** als de **ClientID** voor de toepassing.
+    1. U ziet een **toepassings-id** die wordt vermeld als een GUID. Gebruik deze **Toepassings-id** als de **ApplicationID** voor de toepassing.
 
-        ![ClientID](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
+        ![ApplicationID](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
 
-    1. Geef de **ClientSecret**-gegevens op in het gedeelte **Sleutels** van de sectie **App-registraties** in **Azure**.
+    1. Geef de **ApplicationSecret**-gegevens op in de sectie **Sleutels** van de sectie **App-registraties** in **Azure**.
 
-    1. Ga als volgt te werk om het **ClientSecret** op te halen:
+    1. Ga als volgt te werk om de **ApplicationSecret** op te halen:
 
         1. Meld u aan bij [Azure Portal](https://portal.azure.com).
 
@@ -194,7 +194,7 @@ Volg deze stappen om uw inhoud in te sluiten met behulp van een voorbeeldtoepass
 
             ![App-registratie zoeken](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-        1. Selecteer de toepassing die het **ClientSecret** moet gebruiken.
+        1. Selecteer de toepassing die de **ApplicationSecret** moet gebruiken.
 
             ![Een app kiezen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 

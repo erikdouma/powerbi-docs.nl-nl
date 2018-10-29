@@ -10,13 +10,13 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 08/16/2018
-ms.openlocfilehash: 111987fda4b0f841c0806dbdc454ac96ddb3c666
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.date: 10/01/2018
+ms.openlocfilehash: b701ce9921d055dfe124c5a419f02900b15a9f62
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908366"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641201"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Insluiten met webonderdeel Rapport in SharePoint Online
 
@@ -87,7 +87,7 @@ Wanneer een rapport wordt ingesloten in SharePoint Online, zijn gebruikers niet 
 
 Binnen de Power BI-service kunt u op twee manieren toegang verlenen tot het rapport. Als u een Office 365-groep gebruikt om uw SharePoint Online-teamsite te bouwen, geeft u aan dat de gebruiker lid is van de **app-werkruimte binnen de Power BI-service** en de **SharePoint-pagina**. Hiermee garandeert u dat gebruikers de inhoud van de groep kunnen bekijken. Zie [Een app maken en distribueren in Power BI](service-create-distribute-apps.md) voor meer informatie.
 
-U kunt gebruikers ook op de volgende manier toegang verlenen tot het rapport.
+U kunt gebruikers ook toegang verlenen tot uw rapport door de onderstaande stappen te volgen.
 
 1. Voeg een tegel van het rapport toe aan een dashboard.
 
@@ -108,7 +108,7 @@ Hierna volgt een beschrijving van de instellingen die kunnen worden aangepast vo
 
 ## <a name="multi-factor-authentication"></a>Meervoudige verificatie
 
-Als uw zich voor uw Power BI-omgeving moet aanmelden met meervoudige verificatie, wordt u mogelijk gevraagd om u aan te melden met een beveiligingsapparaat om uw identiteit te verifiëren. Dit gebeurt als u zich niet hebt aangemeld bij SharePoint Online met meervoudige verificatie, maar uw Power BI-omgeving een account vereist dat is gevalideerd door een beveiligingsapparaat.
+Als u zich voor uw Power BI-omgeving moet aanmelden met meervoudige verificatie, krijgt u mogelijk het verzoek om u aan te melden met een beveiligingsapparaat om uw identiteit te verifiëren. Dit gebeurt als u zich niet hebt aangemeld bij SharePoint Online met meervoudige verificatie, maar uw Power BI-omgeving een account vereist dat is gevalideerd door een beveiligingsapparaat.
 
 > [!NOTE]
 > Meervoudige verificatie wordt nog niet ondersteund met Azure Active Directory 2.0. Gebruikers ontvangen een bericht waarin *fout* staat. Als dergelijke gebruikers zich met hun beveiligingsapparaat opnieuw aanmelden bij SharePoint Online, kunnen ze het rapport mogelijk weergeven.
@@ -126,7 +126,7 @@ Er zijn twee gangbare redenen voor dit bericht.
 1. U hebt geen toegang tot het rapport.
 2. Het rapport is verwijderd.
 
-Neem contact op met de eigenaar van de SharePoint Online-pagina, die u kan helpen het probleem op te lossen.
+Neem contact op met de eigenaar van de SharePoint Online-pagina om u te helpen het probleem op te lossen.
 
 ## <a name="known-issues-and-limitations"></a>Bekende problemen en beperkingen
 
@@ -148,11 +148,13 @@ Neem contact op met de eigenaar van de SharePoint Online-pagina, die u kan helpe
 
 * De klassieke SharePoint Server wordt niet ondersteund met dit webonderdeel.
 
+* [URL-filters](service-url-filters.md) worden niet ondersteund met het SPO-webonderdeel.
+
 ## <a name="next-steps"></a>Volgende stappen
 
 [Toestaan of verhinderen dat eindgebruikers moderne sitepagina's maken](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)  
 [Een app maken en distribueren in Power BI](service-create-distribute-apps.md)  
 [Een dashboard delen met collega's en anderen](service-share-dashboards.md)  
-[Power BI Premium - wat is het?](service-premium.md)  
+[Wat is Power BI Premium?](service-premium.md)  
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

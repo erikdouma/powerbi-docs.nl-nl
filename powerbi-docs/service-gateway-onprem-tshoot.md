@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: cbc1d6304a7ee34b489d93488115ceb80864a42d
-ms.sourcegitcommit: ef4bf1439bc5655d1afc7fb97079ea0679e9124b
+ms.openlocfilehash: a8f0360d87fe5bf4e19632a92d8dfe4cf61da16e
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43151901"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49474021"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Problemen met de on-premises gegevensgateway oplossen
 
@@ -40,6 +40,25 @@ De gateway wordt uitgevoerd als een Windows-service. U kunt deze dus op een aant
 * Als u de service wilt starten, voert u deze opdracht uit:
 
     '''   net start PBIEgwService   '''
+
+### <a name="log-file-configuration"></a>Configuratie van logboekbestand
+
+De logboeken van de gatewayservice zijn onderverdeeld in drie buckets: informatie, fout en netwerk. Deze categorisatie biedt een betere probleemoplossingservaring waarmee u zich kunt richten op een specifiek gebied, afhankelijk van de fout of het probleem. U kunt de drie categorieën zien in het volgende fragment uit het configuratiebestand van de gateway: `GatewayInfo.log,GatewayErrors.log,GatewayNetwork.log`.
+
+```xml
+  <system.diagnostics>
+    <trace autoflush="true" indentsize="4">
+      <listeners>
+        <remove name="Default" />
+        <add name="ApplicationFileTraceListener"
+             type="Microsoft.PowerBI.DataMovement.Pipeline.Common.Diagnostics.RotatableFilesManagerTraceListener, Microsoft.PowerBI.DataMovement.Pipeline.Common"
+             initializeData="%LOCALAPPDATA%\Microsoft\On-premises data gateway\,GatewayInfo.log,GatewayErrors.log,GatewayNetwork.log,20,50" />
+      </listeners>
+    </trace>
+  </system.diagnostics>
+```
+
+Dit bestand bevindt zich standaard op: *\Program Files\On-premises data gateway\Microsoft.PowerBI.EnterpriseGateway.exe.config*. Als u het aantal te bewaren logbestanden wilt configureren, wijzigt u het eerste getal (20 in dit voorbeeld): `GatewayInfo.log,GatewayErrors.log,GatewayNetwork.log,20,50`.
 
 ### <a name="error-failed-to-create-a-gateway-try-again"></a>Fout: De gateway is niet gemaakt. Opnieuw proberen
 

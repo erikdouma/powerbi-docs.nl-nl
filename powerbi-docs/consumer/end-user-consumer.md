@@ -6,15 +6,15 @@ manager: kvivek
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: overview
-ms.date: 08/16/2018
+ms.date: 10/13/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 17bf013b9d33c0c4b3ab7e124c7ddda0c3986df3
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 15cdd66e6062c4199b2f736208192c452bcbd0af
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47418215"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396568"
 ---
 # <a name="power-bi-for-consumers"></a>Power BI voor gebruikers
 De manier waarop u met Power BI werkt, is afhankelijk van uw functie. Als *eindgebruiker* of *consument* bent u iemand die dashboards, rapporten en apps van collega's ontvangt. U werkt in ***Power BI-service*** om deze inhoud te beoordelen en te gebruiken voor het nemen van zakelijke beslissingen.
@@ -26,4 +26,11 @@ Als u nog geen ervaring hebt met Power BI, kunt u het beste beginnen met het lez
 Als consument hebt u geen toegang tot de volledige functionaliteit van Power BI. En dat is prima, omdat het niet uw taak is om dashboards en rapporten te bouwen. Uw taak is het gebruiken van Power BI voor analyses, bewaking, verkennen en besluitvorming.
 
 Tijdens het lezen van de artikelen voor consumenten leert u de terminologie, krijgt u een rondleiding door Power BI-service, ontdekt u hoe u naar inhoud navigeert en leert u om die inhoud te gebruiken.  Laten we aan de slag gaan.
+
+## <a name="next-steps"></a>Volgende stappen
+
+[Terminologie en concepten voor Power BI *-consumenten*](end-user-basic-concepts.md)
+
+<!-- [Get started guide for *consumers*] -->
+[Aan de slag met de Power BI-service](../service-get-started.md)
 
