@@ -1,23 +1,23 @@
 ---
-title: Een rapport weergeven in de Power BI-service
-description: Open een Power BI-rapport in de leesweergave.
+title: Een rapport weergeven in de Power BI-service voor gebruikers.
+description: In dit onderwerp wordt uitgelegd hoe Power BI- en eindgebruikers een Power BI-rapport openen en weergeven.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 10/17/2018
 ms.author: mihart
-ms.openlocfilehash: 4d37c1389628078466d8fedb290d928c3f02e7d5
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: 15259d472ad315eb0a6274e59ebb30b94f48a302
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112010"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396929"
 ---
-# <a name="view-a-report-in-power-bi-service-apppowerbicom"></a>Een rapport weergeven in de Power BI-service (app.powerbi.com)
-Een rapport bestaat uit een of meer pagina's met visuals. Rapporten worden gemaakt met Power BI-*rapportontwerper* en [rechtstreeks met u gedeeld](end-user-shared-with-me.md) of als onderdeel van een [app](end-user-apps.md). 
+# <a name="view-a-report-in-power-bi-service-for-consumers"></a>Een rapport weergeven in de Power BI-service voor *gebruikers*
+Een rapport bestaat uit een of meer pagina's met visuals. Rapporten worden gemaakt door Power BI-*rapportontwerpers* en [gedeeld met *gebruikers*, rechtstreeks](end-user-shared-with-me.md) of als onderdeel van een [app](end-user-apps.md). 
 
 U kunt een rapport op veel verschillende manieren openen. We laten u twee van deze manieren zien: openen vanaf de Startpagina en openen vanaf een dashboard. 
 
@@ -42,7 +42,7 @@ Power BI-*ontwerpers* kunnen een rapport rechtstreeks met u delen door boven in 
    
    ![sectie Gedeeld met mij van de Startpagina](./media/end-user-report-open/power-bi-shared.png)
 
-4. Selecteer een van de rapportkaarten om het bijbehorende rapport te openen.
+4. Selecteer een van de *rapportkaarten* om het bijbehorende rapport te openen.
 
    ![Rapportpagina](./media/end-user-report-open/power-bi-report1.png)
 
@@ -65,10 +65,10 @@ Als u apps hebt ontvangen van collega’s of van AppSource, zijn deze apps besch
 
    ![Startpagina](./media/end-user-report-open/power-bi-my-apps.png)
 
-8. Selecteer een van de apps om deze te openen. Afhankelijk van de opties die de app-*ontwerper* heeft ingesteld, wordt met de app een dashboard of een rapport geopend. Als bij het selecteren van de app:
+8. Selecteer een van de apps om deze te openen. Afhankelijk van de opties die de *ontwerper* van de app heeft ingesteld, wordt met de app een dashboard, een rapport of een lijst met app-inhoud geopend. Als bij het selecteren van de app:
     - het rapport wordt geopend, kunt u direct aan de slag gaan.
     - een dashboard wordt geopend, gaat u hieronder naar [Een rapport openen vanaf een dashboard](#Open-a-report-from-a-dashboard).
-
+    - de lijst met app-inhoud wordt geopend, kunt u onder **Rapporten** een rapport selecteren om het rapport te openen.
 
 
 ## <a name="open-a-report-from-a-dashboard"></a>Een rapport openen vanaf een dashboard
@@ -83,15 +83,15 @@ Rapporten kunnen worden geopend vanaf een dashboard. De meeste tegels voor dashb
     ![Rapport dat is geopend in de leesweergave](./media/end-user-report-open/power-bi-report-new.png)
 
 > [!NOTE]
-> Niet alle tegels leiden naar een rapport. Als u een tegel selecteert die is [gemaakt met V&A](../service-dashboard-pin-tile-from-q-and-a.md), wordt het scherm V&A geopend. Als u een tegel selecteert die is [gemaakt met behulp van de dashboardwidget **Tegel toevoegen** ](../service-dashboard-add-widget.md), wordt de wizard **Tegel bewerken** geopend.  
+> Niet alle tegels leiden naar een rapport. Als u een tegel selecteert die is [gemaakt met V&A](end-user-q-and-a.md), wordt het scherm V&A geopend. Als u een tegel selecteert die [is gemaakt met de dashboardwidget **Tegel toevoegen**](../service-dashboard-add-widget.md), kunnen er verschillende dingen gebeuren.  
 
 
 ##  <a name="still-more-ways-to-open-a-report"></a>Nog meer manieren om een rapport te openen
 Naarmate u vertrouwder raakt met het navigeren door de Power BI-service, moet u nagaan welke werkstromen het meest voor u geschikt. Enkele andere manieren om rapporten te benaderen:
 - Vanuit het linkernavigatiedeelvenster via **Favorieten** of **Recent**    
 - [Gerelateerde items weergeven](end-user-related.md) gebruiken    
-- In een e-mail wanneer iemand [met u deelt](../service-share-reports.md) of als u [een waarschuwing hebt ingesteld](../service-set-data-alerts.md)    
-- Vanuit het [Meldingencentrum]    (end-user-notification-center.md)    
+- In een e-mail wanneer iemand [met u deelt](../service-share-reports.md) of als u [een waarschuwing hebt ingesteld](end-user-alerts.md)    
+- Vanaf uw [Meldingencentrum](end-user-notification-center.md)    
 - en meer
 
 ## <a name="next-steps"></a>Volgende stappen

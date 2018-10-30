@@ -1,21 +1,21 @@
 ---
-title: Overzicht van het deelvenster Filters van Power BI voor klanten
-description: Overzicht van het deelvenster Rapportfilters in Power BI-service
+title: Een rapportfilter toevoegen
+description: Een rapportfilter toevoegen aan een rapport in de Power BI-service voor gebruikers
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/25/2018
+ms.date: 10/19/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c49e075bd7fbe2debb0b577a1ce2771491d5fac4
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 31b3584b0cbd2481db64160bcf502caf46e7acc3
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908274"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473802"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Rondleiding door het deelvenster Filters van het rapport
 In dit artikel wordt het rapportvenster Filters in Power BI-service besproken.
@@ -29,7 +29,7 @@ Als een collega een rapport met u deelt, bekijk dan het deelvenster **Filters**.
 
 ![rapport in browser](media/end-user-report-filter/power-bi-expanded.png)
 
-Het deelvenster Filters bevat filters die aan het rapport zijn toegevoegd door de *rapportontwerper*. *Gebruikers* als uzelf kunnen de filters gebruiken en uw wijzigingen opslaan, maar geen nieuwe filters aan het rapport toevoegen.
+Het deelvenster Filters bevat filters die aan het rapport zijn toegevoegd door de *rapportontwerper*. *Gebruikers* als uzelf kunnen de filters gebruiken en uw wijzigingen opslaan, maar geen nieuwe filters aan het rapport toevoegen. In de bovenstaande schermopname heeft de ontwerper bijvoorbeeld twee filters op paginaniveau toegevoegd: Segment en Jaar. U kunt deze filters gebruiken en wijzigen, maar u kunt geen derde filter op paginaniveau toevoegen.
 
 In de Power BI-service worden wijzigingen die u aanbrengt in het deelvenster Filters bewaard en deze wijzigingen worden doorgevoerd in de mobiele versie van het rapport. Als u de standaardinstellingen die de ontwerper heeft geconfigureerd voor het deelvenster Filters wilt herstellen, selecteert u **Standaardinstellingen herstellen** in de bovenste menubalk.     
 
@@ -40,11 +40,15 @@ In dit voorbeeld hebben we een visualisatie met 6 filters geselecteerd. De rappo
 
 ![lijst met filters](media/end-user-report-filter/power-bi-filter-list.png)
 
-Naast sommige filters staat het woord **Alle**, wat betekent dat alle waarden in het filter worden opgenomen.  Zo zien we aan **Chain (All)** (Keten (Alle)) in onderstaande schermafbeelding dat deze rapportpagina gegevens bevat over alle winkelketens.  Aan de andere kant blijkt uit het filter op rapportniveau **FiscalYear is 2013 or 2014** (Boekjaar is 2013 of 2014) dat het rapport alleen gegevens voor de boekjaren 2013 en 2014 bevat.
+Naast sommige filters staat het woord **Alle**, wat betekent dat alle waarden in het filter worden opgenomen.  Zo zien we aan **Chain (All)** (Keten (Alle)) in de bovenstaand schermopname dat deze rapportpagina gegevens bevat over alle winkelketens.  Aan de andere kant blijkt uit het filter op rapportniveau **FiscalYear is 2013 or 2014** (Boekjaar is 2013 of 2014) dat het rapport alleen gegevens voor de boekjaren 2013 en 2014 bevat.
 
 Iedereen die dit rapport bekijkt, kan met deze filters werken.
 
-* Bekijk de details van het filter door de pijl naast het filter aan te wijzen en te selecteren.
+- Zoek met de pagina-, visual-, rapport- en drillthrough-filters om de gewenste waarde te zoeken en te selecteren. 
+
+    ![Zoeken in een filter](media/end-user-report-filter/power-bi-filter-search.png)
+
+- Bekijk de details van het filter door de pijl naast het filter aan te wijzen en te selecteren.
   
    ![geeft Lindseys geselecteerd weer](media/end-user-report-filter/power-bi-expan-filter.png)
 * Wijzig het filter, bijvoorbeeld door **Lindseys** te wijzigen in **Fashions Direct**.
@@ -56,9 +60,11 @@ Iedereen die dit rapport bekijkt, kan met deze filters werken.
     
 * Verwijder het filter door de **x** naast de filternaam te selecteren.
   
+    ![met x gemarkeerd](media/end-user-report-filter/power-bi-delete-filter.png)
+
   Het verwijderen van een filter verwijdert het uit de lijst, maar verwijdert de gegevens niet uit het rapport.  Als u bijvoorbeeld het filter **FiscalYear is 2013 or 2014** (Boekjaar is 2013 of 2014) verwijdert, blijven de boekjaargegevens in het rapport staan. De gegevens worden niet meer gefilterd, zodat nu niet alleen de gegevens voor 2013 en 2014, maar voor alle belastingjaren die voorkomen in de gegevens worden weergegeven.  Als u het filter eenmaal hebt verwijderd kunt u het echter niet meer wijzigen, omdat het uit de lijst is verwijderd. Een betere optie is het filter te wissen door het ![gumpictogram](media/end-user-report-filter/power-bi-eraser-icon.png) te selecteren.
   
-  ![met x gemarkeerd](media/end-user-report-filter/power-bi-delete-filter.png)
+  
 
 
 
@@ -70,14 +76,14 @@ Iedereen die dit rapport bekijkt, kan met deze filters werken.
 ### <a name="list-mode"></a>Lijstmodus
 Als u een selectievakje aanvinkt, selecteert of deselecteert u de waarde. Het selectievakje **Alle** kan worden gebruikt om alle selectievakjes in of uit te schakelen. De selectievakjes geven alle beschikbare waarden voor dat veld weer.  Terwijl u het filter aanpast, wordt de herformulering aangepast aan uw keuzes. 
 
-![lijstmodusfilter](media/end-user-report-filter/pbi_restatement.png)
+![lijstmodusfilter](media/end-user-report-filter/power-bi-restatement-new.png)
 
-U ziet dat de herformulering nu luidt:"is Amarilla of Carretera"
+U ziet nu dat de tekst is aangepast in 'is Mar, Apr or May'.
 
 ### <a name="advanced-mode"></a>Geavanceerde modus
 Selecteer **Geavanceerd filteren** om over te schakelen naar de geavanceerde modus. Gebruik de vervolgkeuzelijsten en tekstvakken om aan te geven welke velden u wilt opnemen. Door te kiezen tussen **En** en **Of**, kunt u complexe filterexpressies maken. Selecteer de knop **Filter toepassen** wanneer u de gewenste waarden hebt ingesteld.  
 
-![geavanceerde modus](media/end-user-report-filter/aboutfilters.png)
+![geavanceerde modus](media/end-user-report-filter/power-bi-advanced.png)
 
 ## <a name="types-of-filters-numeric-field-filters"></a>Typen filters: numerieke veldfilters
 ### <a name="list-mode"></a>Lijstmodus
@@ -86,7 +92,7 @@ Als er een eindig aantal waarden is, wordt er een lijst weergegeven als u de vel
 ### <a name="advanced-mode"></a>Geavanceerde modus
 Als het aantal waarden oneindig is of als de waarden een bereik aangeven, wordt de geavanceerde filtermodus geopend als u de veldnaam selecteert. Gebruik de vervolgkeuzelijst en tekstvakken om een bereik met waarden aan te geven dat u wilt zien. 
 
-![geavanceerd filteren](media/end-user-report-filter/pbi_dropdown-and-text.png)
+![geavanceerd filteren](media/end-user-report-filter/power-bi-dropdown-and-text.png)
 
 Door te kiezen tussen **En** en **Of**, kunt u complexe filterexpressies maken. Selecteer de knop **Filter toepassen** wanneer u de gewenste waarden hebt ingesteld.
 

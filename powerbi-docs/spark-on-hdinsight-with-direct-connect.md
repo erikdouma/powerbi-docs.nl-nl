@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/01/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: f9bc117d4260bb8efa604591703205b405fd63c9
-ms.sourcegitcommit: f391b645062f64ac3adc2ce7877318583b14b941
+ms.openlocfilehash: 92b8d0e0ecfa9bae36e552e30cf8f1a7fcecff4b
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "48016164"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100744"
 ---
 # <a name="spark-on-hdinsight-with-directquery"></a>Spark op HDInsight met DirectQuery
 
@@ -58,7 +58,7 @@ De gebruikersnaam en het wachtwoord zijn ook te vinden in Azure Portal.
 
 ## <a name="limitations"></a>Beperkingen
 
-Deze beperkingen en opmerkingen kunnen veranderen, omdat we er voortdurend aan werken de ervaring te verbeteren. Meer documentatie is te vinden op [Use BI tools with Apache Spark on Azure HDInsight](https://azure.microsoft.com/documentation/articles/hdinsight-apache-spark-use-bi-tools/) (Apache Spark BI hulpmiddelen voor gegevensvisualisatie gebruiken met Azure HDInsight)
+Deze beperkingen en opmerkingen kunnen veranderen, omdat we er voortdurend aan werken de ervaring te verbeteren. Meer documentatie is te vinden op [Use BI tools with Apache Spark on Azure HDInsight](/azure/hdinsight/spark/apache-spark-use-bi-tools/) (Apache Spark BI hulpmiddelen voor gegevensvisualisatie gebruiken met Azure HDInsight)
 
 * De Power BI-service ondersteunt alleen een configuratie van Spark 2.0 en HDInsight 3.5.
 * Elke actie, zoals het selecteren van een kolom of het toevoegen van een filter, stuurt een query terug naar de database. Overweeg, voordat u zeer grote velden selecteert, om een geschikt visueel type te kiezen.
@@ -76,9 +76,9 @@ U kunt ook aanvullende bronnen binnen Azure Portal toewijzen onder **Configurati
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[Aan de slag: Apache Spark-cluster maken op HDInsight Linux en interactieve query’s uitvoeren met Spark SQL](https://azure.microsoft.com/documentation/articles/hdinsight-apache-spark-jupyter-spark-sql)  
+[Aan de slag: Apache Spark-cluster maken op HDInsight Linux en interactieve query’s uitvoeren met Spark SQL](/azure/hdinsight/spark/apache-spark-jupyter-spark-sql/)  
 [Wat is Power BI?](power-bi-overview.md)  
 [Gegevens ophalen voor Power BI](service-get-data.md)
-[Kerberos gebruiken op de on-premises gateway voor eenmalige aanmelding](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)
+[Kerberos gebruiken op de on-premises gateway voor eenmalige aanmelding](service-gateway-sso-kerberos.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

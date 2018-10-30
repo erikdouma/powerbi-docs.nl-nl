@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: a8f0360d87fe5bf4e19632a92d8dfe4cf61da16e
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 2a4fb3bdf4e1041ceb90cde9b6c5f26fcb9a3871
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49474021"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101641"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Problemen met de on-premises gegevensgateway oplossen
 
@@ -446,7 +446,7 @@ In de testresultaten worden alle servers, poorten en IP-adressen vermeld die voo
 
 ## <a name="kerberos"></a>Kerberos
 
-Als de onderliggende databaseserver en de on-premises gegevensgateway niet juist zijn geconfigureerd voor [Kerberos Constrained Delegation](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md), schakel dan [uitgebreide logboekregistratie](#microsoftpowerbidatamovementpipelinediagnosticsdllconfig) in op de gateway en onderzoek op basis van de fouten/traceringen in logboekbestanden van de gateway als beginpunt voor probleemoplossing.
+Als de onderliggende databaseserver en de on-premises gegevensgateway niet juist zijn geconfigureerd voor [Kerberos Constrained Delegation](service-gateway-sso-kerberos.md), schakel dan [uitgebreide logboekregistratie](#microsoftpowerbidatamovementpipelinediagnosticsdllconfig) in op de gateway en onderzoek op basis van de fouten/traceringen in logboekbestanden van de gateway als beginpunt voor probleemoplossing.
 
 ### <a name="impersonationlevel"></a>ImpersonationLevel (imitatieniveau)
 

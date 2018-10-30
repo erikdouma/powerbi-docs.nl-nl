@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2eb880ee512a3f13c56bb6dbf880209f05cdf7b4
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ff770320e0e6cd3f591e3318637a04977152e488
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296305"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101402"
 ---
 # <a name="manage-your-data-source---sql-server"></a>Uw gegevensbron beheren - SQL Server
 Wanneer u de on-premises gegevensgateway hebt geïnstalleerd, kunt u gegevensbronnen toevoegen die met de gateway kunnen worden gebruikt. In dit artikel wordt beschreven hoe u gateways en gegevensbronnen gebruikt. U kunt de SQL Server-gegevensbron voor een geplande vernieuwing of voor DirectQuery gebruiken.
@@ -60,7 +60,7 @@ Vul vervolgens de gegevens in voor de gegevensbron, waaronder de **server** en d
 U moet ook een **verificatiemethode** kiezen.  Dit kan **Windows** of **Standaard** zijn.  Kies **Standaard** als u SQL-verificatie in plaats van Windows-verificatie wilt gebruiken. Voer vervolgens de referenties in die u voor deze gegevensbron wilt gebruiken.
 
 > [!NOTE]
-> Alle query's voor de gegevensbron worden uitgevoerd met deze referenties, tenzij eenmalige aanmelding (SSO) met Kerberos is geconfigureerd en ingeschakeld voor de gegevensbron. Bij eenmalige aanmelding gebruiken importgegevenssets de opgeslagen referenties, maar DirectQuery-gegevenssets gebruiken de huidige Power BI-gebruiker om de query's met behulp van eenmalige aanmelding uit te voeren. Lees voor meer informatie het hoofdartikel over de on-premises gegevensgateway om te zien hoe [referenties](service-gateway-onprem.md#credentials) worden opgeslagen. U kunt ook het artikel lezen waarin wordt beschreven hoe u [Kerberos gebruikt voor eenmalige aanmelding (SSO) in Power BI bij on-premises gegevensbronnen](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md).
+> Alle query's voor de gegevensbron worden uitgevoerd met deze referenties, tenzij eenmalige aanmelding (SSO) met Kerberos is geconfigureerd en ingeschakeld voor de gegevensbron. Bij eenmalige aanmelding gebruiken importgegevenssets de opgeslagen referenties, maar DirectQuery-gegevenssets gebruiken de huidige Power BI-gebruiker om de query's met behulp van eenmalige aanmelding uit te voeren. Lees voor meer informatie het hoofdartikel over de on-premises gegevensgateway om te zien hoe [referenties](service-gateway-onprem.md#credentials) worden opgeslagen. U kunt ook het artikel lezen waarin wordt beschreven hoe u [Kerberos gebruikt voor eenmalige aanmelding (SSO) in Power BI bij on-premises gegevensbronnen](service-gateway-sso-kerberos.md).
 > 
 > 
 
@@ -123,6 +123,6 @@ Als u wordt vermeld op het tabblad **Gebruikers** voor de gegevensbron die is ge
 * [On-premises gegevensgateway](service-gateway-onprem.md)  
 * [On-premises data gateway in-depth](service-gateway-onprem-indepth.md) (On-premises gegevensgateway - uitgebreid)  
 * [Problemen met de on-premises gegevensgateway oplossen](service-gateway-onprem-tshoot.md)
-* [Kerberos gebruiken voor eenmalige aanmelding (SSO) in Power BI bij on-premises gegevensbronnen](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md). 
+* [Kerberos gebruiken voor eenmalige aanmelding (SSO) in Power BI bij on-premises gegevensbronnen](service-gateway-sso-kerberos.md). 
 * Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

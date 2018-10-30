@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 474fe7eee6dbcb296a7eaec6057ecfa56cd3f144
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 433710918cb77ca9ee002673dbe6298f0d2184aa
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417114"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003289"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Standaard DAX-bewerkingen in Power BI Desktop
 Dit artikel is bedoeld voor nieuwe gebruikers van Power BI Desktop. Het bevat een snelle en eenvoudige inleiding over hoe u met Data Analysis Expressions (DAX) een aantal problemen met basisberekeningen en gegevensanalyse kunt oplossen. We bekijken conceptuele informatie, een reeks taken die u kunt uitvoeren en enkele kwisjes om te testen wat u hebt geleerd. Nadat u dit artikel hebt gelezen, zou u een goed begrip van de belangrijkste basisconcepten in DAX moeten hebben.
@@ -142,7 +142,7 @@ DAX omvat de volgende categorieën van functies: [Datum en tijd](https://msdn.mi
 * DAX omvat tal van functies voor tijdintelligentie. Met deze functies kunt u datumbereiken definiëren of selecteren en daarop gebaseerde dynamische berekeningen uitvoeren. U kunt bijvoorbeeld totalen in parallelle perioden vergelijken.
 * Excel heeft een heel populair functie, VERT.ZOEKEN. DAX-functies gebruiken geen cel of celbereik als verwijzing zoals VERT.ZOEKEN in Excel. DAX-functies gebruiken een kolom of tabel als verwijzing. Denk eraan dat u in Power BI Desktop werkt met een relationeel gegevensmodel. Het opzoeken van waarden in een andere tabel is heel eenvoudig en in de meeste gevallen hoeft u helemaal geen formule te maken.
   
-  Zoals u ziet, kunnen functies in DAX u helpen bij het maken van zeer krachtige formules. Maar we hebben eigenlijk alleen nog maar naar de basisprincipes van functies gekeken. Naarmate uw vaardigheden met DAX toenemen, gaat u steeds meer formules maken die veel verschillende functies gebruiken. Een van de beste plekken om meer te weten te komen over elk van de DAX-functies is de [Naslag voor DAX-functies](https://msdn.microsoft.com/library/ee634396.aspx).
+  Zoals u ziet, kunnen functies in DAX u helpen bij het maken van zeer krachtige formules. Maar we hebben eigenlijk alleen nog maar naar de basisprincipes van functies gekeken. Naarmate uw vaardigheden met DAX toenemen, gaat u steeds meer formules maken die veel verschillende functies gebruiken. Een van de beste plekken om meer te weten te komen over elk van de DAX-functies is de [Naslag voor DAX-functies](https://msdn.microsoft.com/en-us/query-bi/dax/data-analysis-expressions-dax-reference).
 
 ### <a name="functions-quickquiz"></a>QuickQuiz voor functies
 1. Waarnaar verwijst een functie altijd?

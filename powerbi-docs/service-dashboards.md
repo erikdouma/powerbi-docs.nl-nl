@@ -1,5 +1,5 @@
 ---
-title: Wat is een dashboard voor gebruikers van de Power BI service?
+title: Dashboards in de Power BI-service
 description: Dashboards zijn een belangrijke functie van de Power BI-service.
 author: maggieMSFT
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/02/2018
-ms.author: maggie
+ms.date: 10/18/2018
+ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6be3d095ca68cf83ff7a2ba4c7fd02a9340f3474
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: b7f94d47452fb9d1ea24c950dba2988c6c80c053
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908435"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473723"
 ---
-# <a name="dashboards-in-power-bi-service"></a>Dashboards in de Power BI-service
+# <a name="dashboards-in-the-power-bi-service"></a>Dashboards in de Power BI-service
 
 Een Power BI-***dashboard*** bestaat uit één pagina, ook wel een canvas genoemd, die gebruikmaakt van visualisaties om een verhaal te vertellen. Aangezien het maar één pagina betreft, bevat een goed ontworpen dashboard alleen de belangrijkste elementen van dat verhaal.
 

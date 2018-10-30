@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 8b0121dbfe633eca9c438dfd272d3aeb56fd59a4
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 30ac2c0620607d680874e423c841c381fc273904
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38921502"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101503"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>On-premises gegevensgateway nader bekeken
 Het is mogelijk dat gebruikers in uw organisatie toegang hebben tot on-premises gegevens (waarvoor ze al zijn geautoriseerd), maar voordat deze gebruikers verbinding kunnen maken met uw on-premises gegevensbron, moet er een on-premises gegevensgateway worden geïnstalleerd en geconfigureerd. De gateway zorgt ervoor dat er op een snelle, veilige en transparante manier kan worden gecommuniceerd tussen een gebruiker in de cloud en de on-premises gegevensbron.
@@ -52,7 +52,7 @@ De mogelijkheid van gebruikers om modelgegevens op te vragen en weer te geven, w
 De implementatie van op rollen gebaseerde beveiliging en dynamische beveiliging op rijniveau valt buiten het bereik van dit artikel.  U kunt op MSDN meer informatie (Engelstalig) vinden over [rollen (SSAS Tabular)](https://msdn.microsoft.com/library/hh213165.aspx) en [beveiligingsrollen (Analysis Services - Multidimensional Data)](https://msdn.microsoft.com/library/ms174840.aspx). Voor het meest uitgebreide overzicht van beveiliging met tabellaire modellen kunt u het technische artikel [Securing the Tabular BI Semantic Model](https://msdn.microsoft.com/library/jj127437.aspx) downloaden en lezen.
 
 ## <a name="what-about-azure-active-directory"></a>De rol van Azure Active Directory
-Microsoft-cloudservices maken gebruik van [Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-whatis/) voor de verificatie van gebruikers. Azure Active Directory is de tenant met gebruikersnamen en beveiligingsgroepen. Het e-mailadres waarmee een gebruiker zich aanmeldt, is meestal hetzelfde als de UPN van het account.
+Microsoft-cloudservices maken gebruik van [Azure Active Directory](/azure/active-directory/fundamentals/active-directory-whatis) voor de verificatie van gebruikers. Azure Active Directory is de tenant met gebruikersnamen en beveiligingsgroepen. Het e-mailadres waarmee een gebruiker zich aanmeldt, is meestal hetzelfde als de UPN van het account.
 
 Wat is de functie van mijn lokale Active Directory?
 
@@ -78,7 +78,7 @@ De cloudservices kennen alleen accounts binnen Azure Active Directory. Het maakt
 1. U kunt accounts handmatig toevoegen aan Azure Active Directory.
    
    U kunt een account maken in de Azure-portal of in de beheerportal van Office 365. De accountnaam komt dan overeen met de UPN van het lokale Active Directory-account.
-2. U kunt het hulpprogramma [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/) gebruiken om lokale accounts te synchroniseren met uw Azure Active Directory-tenant.
+2. U kunt het hulpprogramma [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis) gebruiken om lokale accounts te synchroniseren met uw Azure Active Directory-tenant.
    
    Het hulpprogramma Azure AD Connect biedt opties voor adreslijstsynchronisatie en het instellen van verificatie, met inbegrip van wachtwoordhashsynchronisatie, pass-through-verificatie en federatie. Als u geen tenantbeheerder of lokale domeinbeheerder bent, moet u contact opnemen met uw IT-beheerder om dit in orde te laten maken.
 
@@ -90,7 +90,7 @@ Door gebruik te maken van Azure AD Connect weet u zeker dat de UPN overeenkomt t
 > 
 
 ## <a name="now-this-is-where-the-gateway-comes-in"></a>De rol van de gateway
-De gateway fungeert als een brug tussen de cloud en uw on-premises server. Gegevensoverdracht tussen de cloud en de gateway wordt beveiligd via [Azure Service Bus](https://azure.microsoft.com/documentation/services/service-bus/). De Service Bus maakt via een uitgaande verbinding op de gateway een beveiligd kanaal tussen de cloud en uw on-premises server.  Er zijn geen binnenkomende verbindingen die u moet openen op de on-premises firewall.
+De gateway fungeert als een brug tussen de cloud en uw on-premises server. Gegevensoverdracht tussen de cloud en de gateway wordt beveiligd via [Azure Service Bus](/azure/service-bus-messaging/service-bus-messaging-overview). De Service Bus maakt via een uitgaande verbinding op de gateway een beveiligd kanaal tussen de cloud en uw on-premises server.  Er zijn geen binnenkomende verbindingen die u moet openen op de on-premises firewall.
 
 Als u een gegevensbron van Analysis Services hebt, moet u de gateway installeren op een computer die lid is van hetzelfde forest/domein als de Analysis Services-server.
 
@@ -116,8 +116,10 @@ In plaats van hier procedures te geven voor het oplossen van dergelijke probleme
 [!INCLUDE [gateway-onprem-accounts-ports-more](./includes/gateway-onprem-accounts-ports-more.md)]
 
 ## <a name="next-steps"></a>Volgende stappen
+
 [Problemen met de on-premises gegevensgateway oplossen](service-gateway-onprem-tshoot.md)  
-[Azure Service Bus](https://azure.microsoft.com/documentation/services/service-bus/)  
-[Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/)  
+[Azure Service Bus](/azure/service-bus-messaging/service-bus-messaging-overview/)  
+[Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis/)  
+
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
-ms.openlocfilehash: cc7b24d273f8e83854f7e316f0c761e710e48160
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 7b57e0d5e303f2b342e2d7750741717b178a8f4e
+ms.sourcegitcommit: f9dd6098ca57d4d6cad34284126d4e58eab1c92c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641960"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "50222100"
 ---
 # <a name="power-bi-urls"></a>Power BI-URL’s
 
@@ -70,7 +70,7 @@ Als u gegevens wilt ophalen uit specifieke gegevensbronnen, zoals OneDrive, moet
 | --- | --- | --- | --- |
 | 1 | **Vereist:** AppSource (interne of externe apps in Power BI) | appsource.microsoft.com </br> *.s-microsoft.com  | TCP 443 |
 | 2 | **Vereist:** aanmelden en gegevens voor inhoudspakketten ophalen | *.github.com  | TCP 443 |
-| 3 | **Optioneel:** Bestanden importeren uit OneDrive - Persoonlijk | Zie de [Vereiste URL's en poorten voor OneDrive-site](https://docs.microsoft.com/en-us/onedrive/required-urls-and-ports) | N.v.t. |
+| 3 | **Optioneel:** Bestanden importeren uit OneDrive - Persoonlijk | Zie de [Vereiste URL's en poorten voor OneDrive-site](https://docs.microsoft.com/onedrive/required-urls-and-ports) | N.v.t. |
 | 4 | **Optioneel:** Power BI in zelfstudievideo van 60 seconden | *.doubleclick.net </br> *.ggpht.com </br> *.google.com </br> *.googlevideo.com </br> *.youtube.com </br> *.ytimg.com </br> fonts.gstatic.com | TCP 443 |
 | 5 | **Optioneel:** Bronnen voor PubNub-streaminggegevens | Zie de [PubNub-documentatie](https://support.pubnub.com/support/solutions/articles/14000043522) | N.v.t. |
 | | | |
@@ -93,7 +93,7 @@ Power BI is afhankelijk van bepaalde eindpunten om de aangepaste visuals te kunn
 | 1 | **Vereist:** een aangepaste visual importeren uit de Microsoft Azure Marketplace-interface of uit een bestand | *.azureedge.net </br> *.blob.core.windows.net </br> store.office.com | TCP 443 |
 | 2 | **Optioneel:** Bing Kaarten | bing.com </br> platform.bing.com </br> *.dynamic.tiles.virtualearth.net </br> *.virtualearth.net | TCP 443 |
 | 3 | **Optioneel:** PowerApps | Zie het [gedeelte Vereiste services](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services) van de site met systeemvereisten voor PowerApps | N.v.t. |
-| 4 | **Optioneel:** Visio | Zie de Office 365-documentatie voor [Office Online en algemene URL's](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online), evenals [SharePoint Online en OneDrive voor Bedrijven](https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) | N.v.t. |
+| 4 | **Optioneel:** Visio | Zie de Office 365-documentatie voor [Office Online en algemene URL's](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online), evenals [SharePoint Online en OneDrive voor Bedrijven](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) | N.v.t. |
 | | | |
 
 ## <a name="related-external-sites"></a>Verwante externe sites

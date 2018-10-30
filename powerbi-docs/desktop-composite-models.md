@@ -1,5 +1,5 @@
 ---
-title: Samengestelde modellen gebruiken in Power BI Desktop (preview-versie)
+title: Samengestelde modellen gebruiken in Power BI Desktop (preview)
 description: Lees hoe u in Power BI Desktop gegevensmodellen maakt met meerdere gegevensverbindingen en veel-op-veel-relaties
 author: davidiseminger
 manager: kfile
@@ -10,161 +10,179 @@ ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 49540dd491d02c6a6b474ff80690a75eecfd27db
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: 47c99e40b1665b98c33d16b685e359c10277a560
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336985"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435391"
 ---
-# <a name="composite-models-in-power-bi-desktop-preview"></a>Samengestelde modellen in Power BI Desktop (preview-versie)
+# <a name="use-composite-models-in-power-bi-desktop-preview"></a>Samengestelde modellen gebruiken in Power BI Desktop (preview)
 
-Eerder was het zo dat als u in **Power BI Desktop** een DirectQuery gebruikte in een rapport, er geen andere gegevensverbindingen dan DirectQuery of Importeren waren toegestaan voor het rapport. Met **samengestelde modellen** is die beperking weggenomen en kan een rapport naadloos gegevensverbindingen bevatten uit meer dan één DirectQuery of importgegevensverbinding, ook nog eens in elke gewenste combinatie.
+Voorheen was het zo dat als u in Power BI Desktop een DirectQuery gebruikte in een rapport, er geen andere gegevensverbindingen dan &mdash;DirectQuery of Importeren&mdash; waren toegestaan voor het rapport. Met de introductie van samengestelde modellen is deze beperking verdwenen. U kunt zonder problemen elke gewenste combinatie van gegevensverbindingen uit meer dan één DirectQuery of verbinding voor het importeren van gegevens in een rapport opnemen.
 
-![samengestelde modellen in Power BI Desktop](media/desktop-composite-models/composite-models_01.png)
+![Samengestelde modellen in Power BI Desktop](media/desktop-composite-models/composite-models_01.png)
 
-De voorziening **samengestelde modellen** in **Power BI Desktop** bestaat uit drie gerelateerde functies:
+De voorziening Samengestelde modellen in Power BI Desktop bestaat uit drie gerelateerde functies:
 
-* **Samengestelde modellen**: maakt het mogelijk dat een rapport meerdere gegevensverbindingen heeft, inclusief DirectQuery-verbindingen of importverbindingen, in elke gewenste combinatie.
-* **Veel-op-veel-relaties**: met **samengestelde modellen** kunt u **veel-op-veel-relaties** instellen tussen tabellen, waardoor de vereisten voor unieke waarden in tabellen worden weggenomen, en er ook geen noodzaak meer is voor eerdere tijdelijke oplossingen zoals het toevoegen van nieuwe tabellen alleen maar om relaties te kunnen opzetten. 
-* **Opslagmodus**: u kunt nu opgeven welke visualisaties een query naar de back-end-gegevensbronnen vereisen. Visualisaties waarvoor dit niet nodig is, worden geïmporteerd, zelfs als ze zijn gebaseerd op DirectQuery. Hierdoor kunnen de prestaties worden verbeterd en wordt de back-end minder belast. Eerder was het zo dat zelfs voor eenvoudige visualisaties zoals slicers, er query's werden verzonden naar de back-end-bronnen. 
+* **Samengestelde modellen**: maakt het mogelijk dat een rapport meerdere gegevensverbindingen heeft, inclusief DirectQuery-verbindingen of importverbindingen, in elke gewenste combinatie. Dit artikel bevat een uitgebreide beschrijving van samengestelde modellen.
 
-Deze verzameling van drie gerelateerde functies voor **samengestelde modellen** worden in afzonderlijke artikelen beschreven:
+* **Veel-op-veel-relaties**: met *samengestelde modellen* kunt u *veel-op-veel-relaties* tussen tabellen tot stand brengen. Door deze aanpak hoeven tabellen geen unieke waarden meer te bevatten. Ook zijn eerdere tijdelijke oplossingen niet meer nodig, zoals de introductie van nieuwe tabellen om relaties tot stand te brengen. Zie [Veel-op-veel-relaties in Power BI Desktop (preview-versie)](desktop-many-to-many-relationships.md) voor meer informatie.
 
-* **Samengestelde modellen** worden in dit artikel beschreven.
-* **Veel-op-veel-relaties** worden beschreven in het artikel [Veel-op-veel-relaties in Power BI Desktop (preview-versie)](desktop-many-to-many-relationships.md).
-* **Opslagmodus** wordt beschreven in het artikel [Opslagmodus in Power BI Desktop (preview-versie)](desktop-storage-mode.md).
+* **Opslagmodus**: u kunt nu opgeven voor welke visualisaties een query naar de back-end-gegevensbronnen is vereist. Visuals waarvoor geen query is vereist, worden geïmporteerd zelfs als ze zijn gebaseerd op DirectQuery. De functie helpt de prestaties te verbeteren en de back-end minder te belasten. Eerder werden zelfs voor eenvoudige visualisaties zoals slicers query's verzonden naar de back-endbronnen. Zie het artikel [Opslagmodus in Power BI Desktop (preview)](desktop-storage-mode.md) voor meer informatie.
 
-## <a name="enabling-the-composite-models-preview-feature"></a>De preview-versie van samengestelde modellen inschakelen
+## <a name="enable-the-composite-models-preview-feature"></a>De preview-versie van samengestelde modellen inschakelen
 
-De voorziening **samengestelde modellen** is nog in preview en moet afzonderlijk worden ingeschakeld in **Power BI Desktop**. U kunt de voorziening **samengestelde modellen** inschakelen door **Bestand > Opties en instellingen > Opties > Preview-functies** te selecteren en vervolgens het selectievakje **Samengestelde modellen** in te schakelen. 
+De functie voor samengestelde modellen bevindt zich nog in de preview-fase en moet afzonderlijk worden ingeschakeld in Power BI Desktop. Als u samengestelde modellen wilt inschakelen, selecteert u **Bestand** > **Opties en instellingen** > **Opties** > **Preview-functies** en schakelt u vervolgens het selectievakje **Samengestelde modellen** in. 
 
-![preview-functies inschakelen](media/desktop-composite-models/composite-models_02.png)
+![Het deelvenster Preview-functies](media/desktop-composite-models/composite-models_02.png)
 
-U moet **Power BI Desktop** opnieuw starten om de voorziening in te schakelen.
+U moet Power BI Desktop opnieuw opstarten om de functie in te schakelen.
 
-![opnieuw starten is vereist voor doorvoeren van wijziging](media/desktop-composite-models/composite-models_03.png)
+![Het venster Voor functie is opnieuw starten vereist](media/desktop-composite-models/composite-models_03.png)
 
 
-## <a name="using-composite-models"></a>Samengestelde modellen gebruiken
+## <a name="use-composite-models"></a>Samengestelde modellen gebruiken
 
-Met behulp van **samengestelde modellen** kunt u verbinding maken met allerlei verschillende gegevensbronnen wanneer u **Power BI Desktop** of de **Power BI-service** gebruikt, en u kunt deze verbindingen op verschillende manieren tot stand brengen. U kunt gegevens importeren in Power BI, wat de meest voorkomende manier is om gegevens te verkrijgen, of u kunt DirectQuery gebruiken om rechtstreeks verbinding te maken met gegevens in de oorspronkelijke opslagplaats. Meer informatie over DirectQuery kunt u lezen in het artikel [DirectQuery gebruiken in Power BI](desktop-directquery-about.md).
+Als u de functie voor samengestelde modellen hebt ingeschakeld, kunt u verbinding maken met diverse gegevensbronnen wanneer u Power BI Desktop of de Power BI-service gebruikt. U kunt deze gegevensverbindingen op een aantal manieren maken:
 
-Als u DirectQuery gebruikt met **samengestelde modellen**, is het mogelijk om een Power BI-model te maken (zoals een enkel PBIX-bestand van Power BI Desktop) dat het volgende doet:
+* Door gegevens in Power BI te importeren. Dit is de meest voorkomende manier om gegevens te verkrijgen.
+* Door rechtstreeks verbinding met de gegevens in de oorspronkelijke opslagplaats te maken via DirectQuery. Zie [DirectQuery in Power BI gebruiken](desktop-directquery-about.md) voor meer informatie over DirectQuery.
 
-* gegevens uit een of meer DirectQuery-bronnen combineren en/of
-* gegevens uit DirectQuery-bronnen combineren en gegevens importeren
+Als u DirectQuery gebruikt, kunt u met *samengestelde modellen* een Power BI-model maken (zoals één *PBIX* Power BI Desktop-bestand), waarmee u een of beide van de volgende bewerkingen kunt uitvoeren:
 
-Zo is het met **samengestelde modellen** bijvoorbeeld mogelijk om een model te maken waarin verkoopgegevens uit het datawarehouse van een bedrijf worden gecombineerd met gegevens van verkoopdoelen die zijn opgeslagen in de SQL Server-database van een afdeling, samen met enkele gegevens die worden geïmporteerd uit een spreadsheet. Een model dat gegevens uit meer dan één DirectQuery-bron combineert, of DirectQuery combineert met geïmporteerde gegevens, wordt een *samengesteld model* genoemd.
+* Gegevens uit een of meer DirectQuery-bronnen combineren.
+* Gegevens uit DirectQuery-bronnen combineren en gegevens importeren.
+
+Als u samengestelde modellen gebruikt, kunt bijvoorbeeld een model bouwen waarin de volgende typen gegevens worden gecombineerd:
+
+* Verkoopgegevens van een zakelijke datawarehouse.
+* Gegevens over de verkoopdoelen uit de SQL Server-database van een afdeling.
+* Gegevens die zijn geïmporteerd vanuit een spreadsheet. 
+
+Een model waarin gegevens uit meerdere DirectQuery-bronnen worden gecombineerd of waarin DirectQuery-gegevens worden gecombineerd met geïmporteerde gegevens, wordt een *samengesteld model* genoemd.
 
 > [!NOTE]
-> Vanaf de release van oktober 2018 van **Power BI Desktop**, is het *mogelijk* om samengestelde modellen te publiceren in de Power BI-service. Bij gepland vernieuwen en het vernieuwen van dashboardtegels werken samengestelde modellen op dezelfde manier als importmodellen. 
+> Vanaf de release van *Power BI Desktop* in oktober 2018, is het mogelijk om samengestelde modellen te publiceren in de Power BI-service. Bij gepland vernieuwen en het vernieuwen van dashboardtegels gedragen de samengestelde modellen in de Power BI-service zich op dezelfde manier als importmodellen. 
 
-U kunt op de gebruikelijke manier relaties instellen tussen tabellen, zelfs wanneer deze tabellen afkomstig zijn uit verschillende bronnen. Er is echter één beperking waarmee u rekening moet houden: alle relaties die meerdere bronnen gebruiken, moeten worden gedefinieerd met de kardinaliteit **Veel-op-veel**, ongeacht hun werkelijke kardinaliteit. Het gedrag van dergelijke relaties is vervolgens hetzelfde als bij **veel-op-veel**-relaties, zoals wordt beschreven in [Veel-op-veel-relaties in Power BI Desktop (preview-versie)](desktop-many-to-many-relationships.md). Het is belangrijk om te weten dat in de context van samengestelde modellen, alle geïmporteerde tabellen in feite één bron vormen, ongeacht de onderliggende gegevensbron waaruit ze daadwerkelijk worden geïmporteerd.   
+U kunt op de gebruikelijke manier relaties instellen tussen tabellen, zelfs wanneer deze tabellen afkomstig zijn uit verschillende bronnen. Er is echter één beperking waarmee u rekening moet houden: alle relaties die meerdere bronnen gebruiken, moeten worden gedefinieerd met de kardinaliteit *veel-op-veel*, ongeacht hun werkelijke kardinaliteit. Het gedrag van dergelijke relaties is vervolgens hetzelfde als bij *veel-op-veelrelaties*, zoals wordt beschreven in [Veel-op-veelrelaties in Power BI Desktop (preview-versie)](desktop-many-to-many-relationships.md). 
 
-## <a name="example-of-using-composite-models"></a>Voorbeeld van het werken met samengestelde modellen
+> [!NOTE]
+> In de context van samengestelde modellen vormen alle geïmporteerde tabellen in feite één bron, ongeacht de onderliggende gegevensbron waaruit ze worden geïmporteerd.   
 
-Als voorbeeld van een **samengesteld model** nemen we een rapport dat via DirectQuery is verbonden met een datawarehouse van een bedrijf (in SQL Server), waarbij het datawarehouse gegevens bevat over omzet per land (*Country*), kwartaal (*CalendarQuarter)* en het product fiets (*Bike*), zoals wordt weergegeven in de volgende afbeelding.
+## <a name="example-of-a-composite-model"></a>Voorbeeld van een samengesteld model
 
-![weergave van relaties voor samengestelde modellen](media/desktop-composite-models/composite-models_04.png)
+Voor een voorbeeld van een *samengesteld model* moet u bijvoorbeeld denken aan een rapport dat via DirectQuery is verbonden met een zakelijke datawarehouse in SQL Server. Zoals u in de volgende afbeelding kunt zien, bevat de datawarehouse in dit geval gegevens over *Sales by Country*, *Quarter* en *Bike (Product)*:
 
-Op basis van deze gegevens kunt u eenvoudige visualisaties bouwen. De volgende visualisatie laat bijvoorbeeld de totale omzet per productnaam (*ProductName*) zien voor een geselecteerd kwartaal. 
+![Weergave van relaties voor samengestelde modellen](media/desktop-composite-models/composite-models_04.png)
+
+U kunt nu eenvoudige visualisaties bouwen door velden uit deze bron te gebruiken. In de volgende voorbeeldafbeelding kunt u de totale omzet per productnaam (*ProductName*) zien voor een geselecteerd kwartaal. 
 
 ![Visualisatie op basis van gegevens](media/desktop-composite-models/composite-models_05.png)
 
-Maar stel dat u ook beschikt over een Excel-spreadsheet met gegevens van de productmanager die aan elk product is toegewezen, samen met de marketingprioriteit. U kunt dan de omzet (*SalesAmount*) uitsplitsen naar productmanager (*Product Manager*), maar het toevoegen van deze lokale gegevens aan het datawarehouse van het bedrijf is waarschijnlijk onhaalbaar of zou in het gunstigste geval maanden duren. Hoewel het misschien mogelijk is om die verkoopgegevens te importeren uit het datawarehouse (in plaats van DirectQuery te gebruiken), waarna de gegevens kunnen worden gecombineerd met gegevens die worden geïmporteerd uit het spreadsheet, is deze aanpak onwenselijk vanwege redenen die ertoe leiden om in eerste instantie te kiezen voor DirectQuery, zoals een combinatie van de beveiligingsregels die in de onderliggende gegevensbron worden afgedwongen, de noodzaak om de meest recente gegevens te kunnen zien en de grote schaal van de gegevens. 
+Maar wat als u een Office Excel-spreadsheet hebt met gegevens over de productmanager die is toegewezen aan elk product en de marketingprioriteit? Als u *Sales Amount* per *Product Manager* wilt weergeven, is het mogelijk dat u deze lokale gegevens niet kunt toevoegen aan de datawarehouse van het bedrijf. Of duurt dit mogelijk maanden. 
 
-En dat is waar **samengestelde modellen** goed van pas komen. Samengestelde modellen bieden u de mogelijkheid om via DirectQuery verbinding te maken met het datawarehouse, en daarna ook om met GetData aanvullende bronnen te raadplegen. In dit voorbeeld zetten we de DirectQuery-verbinding op met het datawarehouse van het bedrijf, gebruiken we vervolgens GetData en kiezen we Excel, navigeren we naar het spreadsheet met onze lokale gegevens en importeren we het blad met de *ProductNames*, de toegewezen *Product Manager* en *Priority*.  
+Het is misschien mogelijk om die verkoopgegevens te importeren uit de datawarehouse in plaats van DirectQuery te gebruiken. De verkoopgegevens kunnen vervolgens worden gecombineerd met de gegevens die u hebt geïmporteerd uit de spreadsheet. Dit is echter een absurde aanpak om redenen die juist tot het gebruik van DirectQuery hebben geleid. Mogelijke redenen:
+
+* Een combinatie van de beveiligingsregels die worden afgedwongen in de onderliggende bron.
+* De noodzaak om de meest recente gegevens te kunnen bekijken.
+* Het grote aantal gegevens. 
+
+In dit geval komen samengestelde modellen goed van pas. Met samengestelde modellen kunt u via DirectQuery verbinding maken met het datawarehouse en vervolgens GetData gebruiken voor aanvullende bronnen. In dit voorbeeld brengen we eerst de DirectQuery-verbinding met het zakelijke datawarehouse tot stand. We gebruiken GetData, kiezen Excel en navigeren vervolgens naar de spreadsheet met onze lokale gegevens. Tot slot importeren we de spreadsheet met de *productnamen*, de toegewezen *salesmanager* en de *prioriteit*.  
 
 ![Navigator-venster](media/desktop-composite-models/composite-models_06.png)
 
-In de lijst **Velden** zien we nu de oorspronkelijke tabel *Bike* (van SQL Server) en een nieuwe tabel *ProductManagers* (met de gegevens die zijn geïmporteerd uit Excel). 
+In de lijst **Velden** worden twee tabellen weergegeven: de oorspronkelijke tabel *Bike* van SQL Server en de nieuwe tabel **ProductManagers**. De nieuwe tabel bevat de gegevens die zijn geïmporteerd uit Excel. 
 
 ![Veldweergave van tabellen](media/desktop-composite-models/composite-models_07.png)
 
-Als we naar de **relatieweergave** gaan in **Power BI Desktop**, zien we daar ook een extra tabel met de naam *ProductManagers*. 
+Als we nu naar de **relatieweergave** in Power BI Desktop gaan, zien we een extra tabel met de naam **ProductManagers**. 
 
-![relatieweergave van tabellen](media/desktop-composite-models/composite-models_08.png)
+![Relatieweergave van tabellen](media/desktop-composite-models/composite-models_08.png)
 
-We moeten deze nu koppelen aan de andere tabellen in het model, wat we op de gebruikelijke manier doen, door een relatie op te zetten tussen de tabel *Bike* (in SQL Server) en de tabel *ProductManagers* (die is geïmporteerd ) zoals tussen *Bike [ProductName]* en *ProductManagers [ProductName]*. Zoals eerder is beschreven in dit artikel, moeten alle relaties tussen verschillende bronnen de kardinaliteit **Veel-op-veel** hebben. Om die reden is die kardinaliteit standaard geselecteerd. 
+We moeten deze tabellen nu relateren aan de andere tabellen in het model. Zoals altijd maken we een relatie tussen de tabel **Bike** uit SQL Server en de geïmporteerde tabel **ProductManagers**. Dit is de relatie tussen *Bike[ProductName]* en *ProductManagers[ProductName]*. Zoals eerder is aangegeven, moeten alle relaties die via de bron verlopen de standaardkardinaliteit *veel-op-veel* hebben. 
 
-![Dialoogvenster Relatie maken](media/desktop-composite-models/composite-models_09.png)
+![Het venster Relatie maken](media/desktop-composite-models/composite-models_09.png)
 
-Nadat deze relatie is gemaakt, wordt deze zoals verwacht weergegeven in de **relatieweergave** in **Power BI Desktop**.
+Zodra de relatie tot stand is gebracht, wordt deze zoals verwacht weergegeven in de **relatieweergave** in Power BI Desktop.
 
-![nieuwe relatieweergave](media/desktop-composite-models/composite-models_10.png)
+![De nieuwe relatieweergave](media/desktop-composite-models/composite-models_10.png)
 
-Nu deze tabelrelaties tot stand zijn gebracht, kunnen we visualisaties maken op basis van de velden in de lijst **Velden**, om zo gegevens uit verschillende bronnen naadloos samen te voegen. In de visualisatie hieronder ziet u bijvoorbeeld de totale omzet (*SalesAmount*) voor elke *productmanager*. 
+We kunnen nu visuals maken door de velden in de lijst **Velden** te gebruiken. Als u op deze manier te werk gaat, worden gegevens uit meerdere bronnen probleemloos samengevoegd. In de volgende afbeelding wordt bijvoorbeeld het totale *verkoopbedrag* voor iedere*productmanager* weergegeven: 
 
-![visualisatie met het deelvenster Velden weergegeven](media/desktop-composite-models/composite-models_11.png)
+![Het deelvenster Velden](media/desktop-composite-models/composite-models_11.png)
 
-In dit voorbeeld zien we een veelgebruikt scenario met een *dimensietabel* (zoals *Product* of *Customer*) die wordt uitgebreid met extra gegevens die worden geïmporteerd uit een andere locatie. Het is ook mogelijk om DirectQuery te gebruiken met tabellen om verbinding te maken met verschillende bronnen. Stel dat we het scenario willen uitbreiden en dat *SalesTargets* per *Country* en *Period* zijn opgeslagen in een afzonderlijke database van de afdeling. U kunt dan met **GetData** op de gebruikelijke manier verbinding maken met die gegevens, zoals wordt weergegeven in de volgende afbeelding. 
+In het volgende voorbeeld van een veelvoorkomend geval wordt een *dimensietabel* &mdash;zoals *Product* of *Customer*&mdash;uitgebreid met extra gegevens die zijn geïmporteerd vanuit een andere bron. Het is voor tabellen ook mogelijk DirectQuery te gebruiken om verbinding met verschillende bronnen te maken. Stel dat,voortbordurend op ons voorbeeld, *SalesTargets* per *Country* en *Period* zijn opgeslagen in een afzonderlijke database van de afdeling. Zoals gebruikelijk kunt u *GetData* gebruiken om verbinding te maken met die gegevens, zoals wordt weergegeven in de volgende afbeelding: 
 
-![Navigator-venster](media/desktop-composite-models/composite-models_12.png)
+![Het Navigator-venster](media/desktop-composite-models/composite-models_12.png)
 
-We kunnen nu, vergelijkbaar met wat we eerder in dit voorbeeld hebben gedaan, relaties instellen tussen de nieuwe tabel en andere tabellen in het model en vervolgens visualisaties maken om hun gegevens te combineren. Laten we nog eens naar de **relatieweergave** kijken, waaraan nieuwe relaties zijn toegevoegd afkomstig uit ons uitgebreide voorbeeldscenario.
+Zoals we eerder hebben gedaan, kunnen we relaties instellen tussen de nieuwe tabel en andere tabellen in het model en vervolgens visuals maken waarin de tabelgegevens worden gecombineerd. Laten we nog eens naar de **relatieweergave** kijken, waar we de nieuwe relaties hebben gemaakt:
 
-![relatieweergave met meerdere tabellen](media/desktop-composite-models/composite-models_13.png)
+![De relatieweergave met meerdere tabellen](media/desktop-composite-models/composite-models_13.png)
 
-Zoals u kunt zien in de volgende afbeelding, die is gebaseerd op de nieuwe gegevens en relaties die we zojuist hebben gemaakt, bevat de visualisatie in de linkerbenedenhoek de totale omzet (*SalesAmount*) versus de prognose (*Target*), waarbij Variance het verschil aangeeft en *SalesAmount* en *Target* afkomstig zijn uit twee verschillende SQL Server-databases. 
+De volgende afbeelding is gebaseerd op de nieuwe gegevens en de relaties die we hebben gemaakt. De visual linksonder toont het totale *verkoopbedrag* versus het *doel* en de berekening van de afwijking toont het verschil. De gegevens voor *Sales Amount* en *Target* zijn afkomstig uit twee verschillende SQL Server-databases. 
 
-![visualisatie met meer gegevens](media/desktop-composite-models/composite-models_14.png)
+![Afbeelding met meer gegevens](media/desktop-composite-models/composite-models_14.png)
 
-## <a name="setting-storage-mode"></a>Opslagmodus instellen
+## <a name="set-the-storage-mode"></a>De opslagmodus instellen
 
-Elke tabel in een **samengesteld model** heeft een **opslagmodus** die aangeeft of de tabel is gebaseerd op DirectQuery of importeren. De waarde voor **Opslagmodus** kan worden bekeken en gewijzigd in het deelvenster met **eigenschappen**. Selecteer hiervoor **Eigenschappen** in het contextmenu van de lijst **Velden**. In de volgende afbeelding ziet u de **opslagmodus** (afgekort tot **Opslag...** in de afbeelding, vanwege de breedte van het deelvenster).
+Elke tabel in een samengesteld model heeft een opslagmodus die aangeeft of de tabel is gebaseerd op DirectQuery of Importeren. De opslagmodus kan worden weergegeven en gewijzigd in het deelvenster **Eigenschappen**. Als u de opslagmodus wilt weergeven, klikt u met de rechtermuisknop op een tabel in de lijst **Velden** en selecteert u vervolgens **Eigenschappen**. In de volgende afbeelding wordt de opslagmodus voor de tabel **SalesTargets** weergegeven.
 
 ![Instelling van opslagmodus](media/desktop-composite-models/composite-models_15.png)
 
-De **opslagmodus** kunt u ook zien in de knopinfo voor elke tabel.
+De opslagmodus kan ook worden bekeken in de knopinfo voor elke tabel.
 
-![knopinfo met opslagmodus](media/desktop-composite-models/composite-models_16.png)
+![Knopinfo waarin de opslagmodus weergegeven](media/desktop-composite-models/composite-models_16.png)
 
-Voor een **Power BI Desktop**-bestand (een PBIX-bestand) dat enkele tabellen bevat via DirectQuery en enkele importtabellen, staat op de statusbalk de **opslagmodus** **Gemengd**. Klik op die status om eenvoudig alle tabellen over te zetten naar importeren.
+Voor een Power BI Desktop-bestand (een *PBIX-bestand*) met enkele tabellen uit DirectQuery en enkel importtabellen wordt op de statusbalk de opslagmodus **Gemengd** weergegeven. U kunt op de desbetreffende term in de statusbalk klikken om alle tabellen eenvoudig over te zetten naar Importeren.
 
-Uitgebreide informatie over **opslagmodus** vindt u in het artikel [Opslagmodus in Power BI Desktop (preview-versie)](desktop-storage-mode.md).  
+Zie het artikel [Opslagmodus in Power BI Desktop (preview)](desktop-storage-mode.md) voor meer informatie over de opslagmodus.  
 
 ## <a name="calculated-tables"></a>Berekende tabellen
 
-Berekende tabellen kunnen worden toegevoegd aan een model waarin DirectQuery wordt gebruikt en de DAX met de definitie van de berekende tabel kan verwijzen naar geïmporteerde tabellen, DirectQuery-tabellen of een combinatie hiervan. 
+U kunt berekende tabellen toevoegen aan een model waarvoor DirectQuery wordt gebruikt. De Data Analysis Expressions (DAX) waarmee de berekende tabel wordt gedefinieerd, kan verwijzen naar geïmporteerde of DirectQuery-tabellen of een combinatie van beide. 
 
-Berekende tabellen worden altijd geïmporteerd en de gegevens in deze tabellen worden vernieuwd wanneer de tabel wordt vernieuwd. Als een berekende tabel verwijst naar een DirectQuery-tabel, bevatten visualisaties die verwijzen naar de DirectQuery-tabel daarom altijd de meest recente waarden uit de onderliggende bron, terwijl visualisaties die verwijzen naar de berekende tabel de waarden bevatten van het moment waarop de berekende tabel voor het laatst is vernieuwd.
+Berekende tabellen worden altijd geïmporteerd en de gegevens in deze tabellen worden vernieuwd wanneer de tabellen worden vernieuwd. Als een berekende tabel naar een DirectQuery-tabel verwijst, geven de visuals die naar de DirectQuery-tabel verwijzen, altijd de meest recente waarden weer in de onderliggende bron. Visuals die naar de berekende tabel verwijzen, bevatten echter de waarden op het moment dat de berekende tabel voor het laatst is vernieuwd.
 
 ## <a name="security-implications"></a>Gevolgen voor de beveiliging 
 
-Samengestelde modellen hebben invloed op de beveiliging. Een query die wordt verzonden naar de ene gegevensbron kan gegevenswaarden bevatten die zijn opgehaald uit een andere bron. In het geval van het voorbeeld dat eerder in dit artikel wordt beschreven, resulteert de visualisatie met omzet (*Sales Amount*) per *productmanager* in een SQL-query die wordt verzonden naar de relationele database **Sales**, waar deze SQL-query de namen van *productmanagers* en de bijbehorende *producten* kan bevatten. 
+Samengestelde modellen hebben invloed op de beveiliging. Een query die wordt verzonden naar de ene gegevensbron kan gegevenswaarden bevatten die zijn opgehaald uit een andere bron. In het voorgaand voorbeeld verzendt de visual met het *verkoopbedrag* per *productmanager* een SQL-query naar de relationele **Sales**-database. Die SQL-query kan de namen van de *productmanagers* en de bijbehorende *producten* bevatten. 
 
-![script dat gevolgen voor de beveiliging aantoont](media/desktop-composite-models/composite-models_17.png)
+![Script dat gevolgen voor de beveiliging aantoont](media/desktop-composite-models/composite-models_17.png)
 
-Het gevolg is dat gegevens die zijn opgeslagen in de spreadsheet nu worden opgenomen in een query die wordt verzonden naar de relationele database. Als het vertrouwelijke gegevens betreft, moet er een oplossing worden gevonden voor dit beveiligingsprobleem. Houd met name rekening met de volgende scenario's:
+Het gevolg is dat gegevens die zijn opgeslagen in de spreadsheet, nu worden opgenomen in een query die wordt verzonden naar de relationele database. Als het vertrouwelijke gegevens betreft, moet u rekening houden met de gevolgen voor de beveiliging. U moet met name rekening houd met de volgende punten:
 
-* Beheerders van de database die toegang hebben tot traces of auditlogboeken, kunnen deze gegevens inzien, zelfs als ze geen machtiging hebben voor de gegevens in de oorspronkelijke bron (in dit geval machtigingen voor het Excel-bestand).
+* Een beheerder van de database die traceringen of auditlogboeken kan weergeven, kan deze informatie bekijken, zelfs zonder machtigingen voor de gegevens in de oorspronkelijke bron. In dit voorbeeld heeft de beheerder machtigingen voor het Excel-bestand nodig.
 
-* De versleutelingsinstellingen voor elke bron vereisen ook aandacht, om te voorkomen dat er gegevens via een versleutelde verbinding worden opgehaald uit de ene bron en deze gegevens vervolgens per ongeluk worden opgenomen in een query die via een niet-versleutelde verbinding wordt verzonden naar een andere bron. 
+* De versleutelingsinstellingen moeten worden overwogen. U wilt voorkomen dat u informatie via een versleutelde verbinding ophaalt bij de ene bron en deze vervolgens per ongeluk opneemt in een query die via een niet-versleutelde verbinding wordt verzonden naar een andere bron. 
 
-U ziet in **Power BI Desktop** een waarschuwing wanneer er een actie wordt ondernomen om een samengesteld model te maken, zodat u weet dat dit gevolgen kan hebben voor de beveiliging van uw gegevens.  
+Er wordt een waarschuwing in Power BI Desktop weergegeven wanneer u een samengesteld model maakt, zodat u niet vergeet om rekening te houden met de gevolgen voor de beveiliging.  
 
-Om vergelijkbare redenen moet u zorgvuldig te werk gaan bij het openen van een **Power BI Desktop**-bestand dat is verzonden vanuit een niet-vertrouwde bron. Als dat bestand samengestelde modellen bevat, betekent dit dat gegevens die worden opgehaald uit de ene bron (met behulp van de referenties van de gebruiker die het bestand opent) als onderdeel van de query worden verzonden naar een andere gegevensbron (waar de gegevens mogelijk kunnen worden gezien door de kwaadwillende auteur van het Power BI Desktop-bestand). Om die reden wordt er een waarschuwing weergegeven wanneer u een Power BI Desktop-bestand met meerdere bronnen de eerste keer opent. Deze waarschuwing is vergelijkbaar met de waarschuwing die u ziet bij het openen van een bestand met native SQL-query's.  
+Om vergelijkbare redenen moet u voorzichtig zijn met het openen van een Power BI Desktop-bestand dat is verzonden via een niet-vertrouwde bron. Als het bestand samengestelde modellen bevat, wordt de informatie die iemand ophaalt met de referenties van de gebruiker die het bestand opent, als onderdeel van de query verzonden naar een andere gegevensbron. De informatie kan worden weergegeven door de kwaadwillende auteur van het Power BI Desktop-bestand. Daarom wordt er een waarschuwing in Power BI Desktop weergegeven wanneer u een Power BI Desktop-bestand met meerdere bronnen voor het eerst opent. Deze waarschuwing is vergelijkbaar met de waarschuwing die u ziet wanneer u een bestand opent dat systeemeigen SQL-query's bevat.  
 
 ## <a name="performance-implications"></a>Gevolgen voor de prestaties  
 
-Als u DirectQuery gebruikt, zijn de prestaties altijd een punt van aandacht. Het is met name belangrijk om ervoor te zorgen dat de back-end-bron voldoende resources heeft om gebruikers een goede ervaring te bieden. Een goede ervaring betekent dat visualisaties binnen maximaal vijf seconden moeten zijn vernieuwd. U moet ook voldoen aan het advies dat wordt gegeven in het artikel [DirectQuery gebruiken in Power BI](desktop-directquery-about.md). Als u kiest voor samengestelde modellen, moet u rekening houden met extra prestatieoverwegingen aangezien één visualisatie kan resulteren in het verzenden van query's naar meerdere bronnen, waarbij de resultaten van een query vaak worden doorgegeven aan een tweede gegevensbron. Deze situatie kan de volgende uitvoeringsscenario's tot gevolg hebben:
+Als u DirectQuery gebruikt, moet u altijd rekening houden met de prestaties. Het is met name belangrijk om ervoor te zorgen dat de back-endbron voldoende resources heeft om gebruikers een goede ervaring te bieden. Een goede ervaring betekent dat de visuals binnen vijf seconden worden vernieuwd. U moet ook het advies met betrekking tot de prestaties volgen dat in het artikel [DirectQuery in Power BI gebruiken](desktop-directquery-about.md) wordt gegeven. 
 
-* **Een SQL-query met een groot aantal letterlijke waarden**: voor een visualisatie die bijvoorbeeld de totale omzet (*Sales Amount*) uit een SQL-database laat zien voor een set geselecteerde *productmanagers* (uit de gerelateerde tabel die is geïmporteerd uit een spreadsheet), moet eerst worden vastgesteld welke *producten* werden beheerd door deze productmanagers, voordat er een SQL-query wordt verzonden met daarin alle product-id's in een *WHERE*-component.
+Wanneer u samengestelde modellen gebruikt, zijn er een paar extra punten met betrekking tot de prestaties waarmee u rekening moet houden. Eén visual kan ertoe leiden dat er query's naar meerdere bronnen worden verzonden, waarbij de resultaten van de ene query worden doorgegeven aan een andere query. Deze situatie kan resulteren in de volgende uitvoeringsscenario's:
 
-* **Een SQL-query die op een lager granulatieniveau gegevens opvraagt, waarna de gegevens lokaal worden geaggregeerd**: als we het vorige voorbeeld nemen uit deze lijst, en het aantal *producten* dat voldoet aan het filter voor  *Product Manager* erg groot wordt, is het op een bepaald moment niet meer efficiënt of haalbaar om ze allemaal op te nemen in een *WHERE*-component. In plaats daarvan is het nodig om een query uit te voeren op de relationele bron op het lagere niveau van *Product*, en de resultaten vervolgens lokaal te aggregeren. Als de kardinaliteit van *Products* groter is dan een limiet van 1 miljoen, mislukt de query.
+* **Een SQL-query die een groot aantal letterlijke waarden bevat**: als een visual bijvoorbeeld het totale *verkoopbedrag* voor een set geselecteerde *productmanagers* aanvraagt, moet eerst worden achterhaald welke *producten* door deze productmanagers worden beheerd. Deze reeks moeten plaatsvinden voordat er een SQL-query via de visual wordt verzonden met een *WHERE-component* waarin alle product-id's zijn opgenomen.
 
-* **Meerdere SQL query's, één per groep op waarde**: wanneer de aggregatie **DistinctCount** gebruikt, gegroepeerd op een kolom uit een andere bron, en als de externe bron geen ondersteuning biedt voor het efficiënt doorgeven van een groot aantal letterlijke waarden die de groepering definiëren, is het nodig om één SQL-query's per groep op waarde te verzenden. Een visualisatie waarin bijvoorbeeld een unieke telling van *CustomerAccountNumber* (uit de SQL Server-tabel) per *productmanager* (uit de gerelateerde tabel die is geïmporteerd uit een spreadsheet) moet worden weergegeven, moet details doorgeven uit de tabel *Product Managers* in de query die is verzonden naar SQL Server. Via andere bronnen, bijvoorbeeld Redshift, is dit niet haalbaar en in plaats daarvan zou er één SQL-query per *Sales Manager* worden verzonden (tot een praktische limiet, waarna de query mislukt). 
+* **Een SQL-query die wordt uitgevoerd op een lager granulariteitsniveau, waarbij de gegevens vervolgens lokaal worden samengevoegd**: naarmate er steeds meer *producten* aan de filtercriteria voor *productmanager* voldoen, is het niet langer efficiënt of niet haalbaar om alle producten op te nemen in een *WHERE-component*. In plaats daarvan kunt u een query uitvoeren op de relationele bron op het lagere niveau van *Product* en de resultaten vervolgens lokaal aggregeren. Als de kardinaliteit van *Products* groter is dan een limiet van 1 miljoen, mislukt de query.
 
-Elk van deze scenario's heeft specifieke gevolgen voor de prestaties, waarbij de exacte details verschillen per gegevensbron. Een goede vuistregel is dat wanneer de kardinaliteit van de kolommen die worden gebruikt in de relatie tussen de twee bronnen laag blijft (een paar duizend), de gevolgen voor de prestaties beperkt zijn. Als deze kardinaliteit toeneemt, moet er meer aandacht worden besteed aan de impact op de resulterende prestaties. 
+* **Meerdere SQL query's, één per groep op waarde**: wanneer de aggregatie **DistinctCount** gebruikt, deze is gegroepeerd op basis van een kolom uit een andere bron en de externe bron geen ondersteuning biedt voor het efficiënt doorgeven van een groot aantal letterlijke waarden die de groepering definiëren, moet er één SQL-query per groep op waarde worden verzonden. 
 
-Het gebruik van **veel-op-veel**-relaties betekent bovendien dat afzonderlijke query's moeten worden verzonden naar de onderliggende gegevensbron voor elk totaal-/subtotaalniveau, in plaats van de gedetailleerde waarden lokaal te aggregeren. Het gevolg is dat een eenvoudige tabelvisualisatie met totalen twee SQL-query's zou verzenden, in plaats van één. 
+   Een visualisatie waarin bijvoorbeeld een unieke telling van *CustomerAccountNumber* (uit de SQL Server-tabel) per *productmanager* (geïmporteerd uit de spreadsheet) moet worden weergegeven, moet details doorgeven uit de tabel *Product Managers* in de query die is verzonden naar SQL Server. Via andere bronnen (bijvoorbeeld Redshift) is dit niet haalbaar. In plaats daarvan zou er één SQL-query per *Sales Manager*&mdash; worden verzonden tot een praktische limiet, waarna de query mislukt. 
+
+Elk van deze scenario's heeft specifieke gevolgen voor de prestaties en de exacte details verschillen per gegevensbron. Hoewel de kardinaliteit van de kolommen die worden gebruikt in de relatie tussen de twee bronnen laag blijft (een paar duizend), mag dit niet van invloed zijn op de prestaties. Naarmate deze kardinaliteit groeit, moet u meer aandacht besteden aan de impact op de resulterende prestaties. U kunt deze richtlijnen gebruiken als goede vuistregel. 
+
+Het gebruik van *veel-op-veelrelaties* betekent bovendien dat afzonderlijke query's moeten worden verzonden naar de onderliggende gegevensbron voor elk totaal- of subtotaalniveau, in plaats van de gedetailleerde waarden lokaal te aggregeren. Een eenvoudige tabelvisual met totalen zou twee SQL-query's in plaats van één verzenden. 
 
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 
-Er gelden enkele beperkingen voor deze release van **samengestelde modellen**.
+Er gelden een aantal beperkingen voor deze release van samengestelde modellen.
 
-De volgende (multidimensionale) Live Connect-bronnen kunnen niet worden gebruikt met **samengestelde modellen**:
+De volgende (multidimensionale) Live Connect-bronnen kunnen niet worden gebruikt met samengestelde modellen:
 
 * SAP HANA
 * SAP Business Warehouse
@@ -172,19 +190,15 @@ De volgende (multidimensionale) Live Connect-bronnen kunnen niet worden gebruikt
 * Power BI-gegevenssets
 * Azure Analysis Services
 
-Als u met behulp van DirectQuery verbinding maakt met deze multidimensionale bronnen, is het niet mogelijk om ook nog verbinding te maken met een andere DirectQuery-bron. Het is dan evenmin mogelijk om te combineren met geïmporteerde gegevens.
+Als u met behulp van DirectQuery verbinding maakt met deze multidimensionale bronnen, is het niet mogelijk om verbinding te maken met een andere DirectQuery-bron of deze te combineren met importgegevens.
 
-De bestaande beperkingen van het gebruik van DirectQuery gelden nog steeds wanneer u **samengestelde modellen** gebruikt. Veel van deze beperkingen zijn nu per tabel, al naar gelang de **opslagmodus** van de tabel. Zo kan een berekende kolom in een geïmporteerde tabel verwijzen naar andere tabellen, maar kan een berekende kolom in een DirectQuery-tabel nog steeds alleen verwijzen naar kolommen in dezelfde tabel. Andere beperkingen gelden voor het model als geheel, als een van de tabellen in het model DirectQuery gebruikt. De functies **QuickInsights** en **Q&A** zijn bijvoorbeeld niet beschikbaar voor een model als een van de tabellen in het model de **opslagmodus** DirectQuery heeft. 
+De bestaande beperkingen van DirectQuery gelden nog steeds wanneer u samengestelde modellen gebruikt. Veel van deze beperkingen gelden nu per tabel, al naargelang de opslagmodus van de tabel. Zo kan een berekende kolom in een importtabel verwijzen naar andere tabellen, maar kan een berekende kolom in een DirectQuery-tabel nog steeds alleen verwijzen naar kolommen in dezelfde tabel. Andere beperkingen gelden voor het model als geheel, als een van de tabellen in het model DirectQuery gebruikt. De functies Snelle inzichten en Q&A zijn bijvoorbeeld niet beschikbaar voor een model als een van de tabellen in het model de opslagmodus DirectQuery heeft. 
 
 ## <a name="next-steps"></a>Volgende stappen
 
-De volgende artikelen bevatten meer informatie over samengestelde modellen, evenals een gedetailleerde beschrijving van DirectQuery.
-
+Zie de volgende artikelen voor meer informatie over samengestelde modellen en DirectQuery:
 * [Veel-op-veel-relaties in Power BI Desktop (preview-versie)](desktop-many-to-many-relationships.md)
 * [Opslagmodus in Power BI Desktop (preview-versie)](desktop-storage-mode.md)
-
-DirectQuery-artikelen:
-
-* [DirectQuery gebruiken in Power BI](desktop-directquery-about.md)
+* [DirectQuery in Power BI gebruiken](desktop-directquery-about.md)
 * [Gegevensbronnen die worden ondersteund door DirectQuery in Power BI](desktop-directquery-data-sources.md)
 

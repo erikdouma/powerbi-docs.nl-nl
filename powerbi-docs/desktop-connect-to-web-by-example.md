@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 10/23/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f90f2ea4737fc5c98df4d171f8e1e65c2704607d
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: 7de11de4c10df6a76f031f88952671d0e365b498
+ms.sourcegitcommit: 17d68172c73e9a9ff7966ddcedc3f8450584cdec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336801"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49952206"
 ---
 # <a name="get-data-from-a-web-page-by-providing-an-example"></a>Gegevens van een webpagina ophalen door een voorbeeld op te geven
 
@@ -51,6 +51,8 @@ Als u **Tabel extraheren met voorbeelden** selecteert, wordt een interactief ven
 In dit voorbeeld extraheren we de *naam* en de *prijs* voor alle games op de pagina. We kunnen dit doen door voor elke kolom een aantal voorbeelden van de pagina op te geven, zoals u in de volgende afbeelding kunt zien. Wanneer deze voorbeelden worden getypt, kunnen de gegevens die overeenkomen met het patroon van de voorbeeldgegevens met **Power Query** met behulp van slimme algoritmen voor gegevensextractie worden geëxtraheerd. (Power Query is de onderliggende technologie waarmee de gegevens van de webpagina worden opgehaald.)
 
 ![Gegevens met voorbeeld](media/desktop-connect-to-web-by-example/web-by-example_06.png)
+
+> Opmerking: waardesuggesties bevatten alleen waarden die maximaal 128 tekens lang zijn.
 
 Wanneer u tevreden bent met de gegevens die van de webpagina worden geëxtraheerd, selecteert u **OK** om **Query-editor** te openen, waar u meer transformaties kunt toepassen of de gegevens kunt vormgeven (door deze gegevens bijvoorbeeld te combineren met gegevens van andere gegevensbronnen).
 

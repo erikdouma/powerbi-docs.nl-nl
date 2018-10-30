@@ -8,18 +8,18 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/08/2018
+ms.date: 10/16/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d042119a95cb60f930a0535e93b0a50ee9224da3
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: af39332bdc1c9e1529d56f55215b0b32ab86f3e7
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112254"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396797"
 ---
 # <a name="export-data-from-visualizations"></a>Gegevens uit visualisaties exporteren
-Als u de gegevens wilt zien die gebruikt worden om een visualisatie te maken, kunt u die gegevens weergeven in Power BI of exporteren naar Excel als .xlsx- of .csv-bestand.   
+Als u de gegevens wilt zien die gebruikt worden om een visualisatie te maken, kunt u die gegevens weergeven in Power BI of exporteren naar Excel als .xlsx- of .csv-bestand. Als u de optie voor het exporteren van de gegevens wilt gebruiken, hebt u een Pro- of Premium-licentie en machtigingen voor het bewerken van de gegevensset en het rapport nodig. 
 
 Kijk hoe Will de gegevens van een van de visualisaties in zijn rapport exporteert, opslaat als .xlsx-bestand en opent in Excel. Volg vervolgens de stapsgewijze instructies onder de video om het zelf te proberen.
 
@@ -92,9 +92,12 @@ Wat u ziet wanneer u **Onderliggende gegevens** selecteert, varieert. Vraag uw b
 
 ### <a name="set-the-export-options"></a>De opties voor exporteren instellen
 Power BI-rapportontwikkelaars beheren welke opties voor het exporteren van gegevens beschikbaar zijn voor gebruikers. De opties zijn:
-- Alleen exporteren van samengevatte gegevens toestaan (dit is de standaardinstelling voor rapporten) 
-- Exporteren van samengevatte en onderliggende gegevens toestaan  
+- Alleen exporteren van samengevatte gegevens toestaan (dit is de standaardinstelling voor nieuwe rapporten) 
+- Exporteren van samengevatte en onderliggende gegevens toestaan (dit was de standaardinstelling vóór oktober 2018) 
 - Exporteren van gegevens niet toestaan  
+
+    > [!IMPORTANT]
+    > We adviseren rapportontwerpers om de exportoptie voor oude rapporten indien nodig handmatig opnieuw in te stellen.
 
 1. Als u deze opties wilt instellen, begint u in Power BI Desktop.
 
