@@ -7,20 +7,38 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/18/2018
+ms.date: 10/23/2018
 ms.author: maikelson
-ms.openlocfilehash: 126baf11492f05228d1e0637e27b5f2caa8390a3
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: d656a27717d22d13884bcbfa69fab4ba2babaf12
+ms.sourcegitcommit: 17d68172c73e9a9ff7966ddcedc3f8450584cdec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473952"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49952229"
 ---
 # <a name="power-bi-webinars"></a>Power BI-webinars
 
 Registreer u voor onze komende live webinars of bekijk onze opgenomen sessies on-demand.
 
 ## <a name="upcoming-webinars"></a>Komende webinars
+
+**Power BI: analyses op z'n best**
+<br>door Gohul Shanmugalingam
+<br>*8 november 2018 13:00 uur - 14:00 uur EST*
+
+Voor alle visionairs op het gebied van Analytics en Excel: leer hoe u prachtige rapporten maakt die mensen willen gebruiken, deel interessante inzichten die eenvoudig zijn te begrijpen en splits karrenvrachten aan gegevens uit om deze toegankelijk te maken.
+
+We delen de allernieuwste productinnovaties en onze visie voor moderne, zakelijke BI en selfservice-BI. Zo kan uw organisatie aan de slag met een gegevensgestuurde cultuur.
+
+[Registreer u voor de webinar op 8 november](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
+
+**Verbeter uw gegevensmodellering met Power BI**
+<br>door Kasper de Jonge
+<br>*20 november 2018 11:00 uur - 12:00 uur PST*
+
+Registreer u voor deze webinar en verbeter uw Power BI-modellen. Kom meer te weten over de in-memory analyse-engine van Power BI, over strategieën voor het maken en beheren van gegevensrelaties, en over hoe u Data Analysis Expressions-filtercontext (DAX) gebruikt. Ontdek hoe u elke modelleringsuitdaging overbrugt met Power BI of Azure Analysis Services.
+
+[Registreer u voor de webinar op 20 november](https://info.microsoft.com/Strengthen-Your-Data-Modeling-Skills-with-PowerBI-Registration.html?Is=Website)
 
 >[Komende webinars van de Power BI-community](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
