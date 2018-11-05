@@ -10,12 +10,12 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/09/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: b2627950ea51239acb19972fde3244f3bd158255
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 2623dd3280636583d5dd6d6e3f57518550032193
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909217"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003197"
 ---
 # <a name="monitor-power-bi-premium-and-power-bi-embedded-capacities"></a>Power BI Premium en Power BI Embedded-capaciteiten bewaken
 
@@ -61,13 +61,11 @@ Op het tabblad **Filters op alle pagina's toegepast** kunt u een capaciteit, een
 
 ### <a name="datasets-tab"></a>Tabblad Gegevenssets
 
-Het tabblad **Gegevenssets** biedt het grootste deel van metrische gegevens in de app. Gebruik de vier knoppen bovenaan het tabblad om door de verschillende gebieden te navigeren: **Samenvatting**, **Vernieuwingen**, **Query's** en **Gegevenssets**.
+Het tabblad **Gegevenssets** biedt het grootste deel van metrische gegevens in de app. Gebruik de knoppen bovenaan het tabblad om door de verschillende gebieden te navigeren: **Samenvatting**, **Vernieuwingen**, **Queryduur**, **Querywachttijden** en **Gegevenssets**.
 
 ![Tabblad Gegevenssets](media/service-admin-premium-monitor-capacity/datasets-tab.png)
 
 #### <a name="summary-area"></a>Overzichtsgebied
-
-![Samenvattingsknop](media/service-admin-premium-monitor-capacity/summary-button.png)
 
 In het **Samenvattingsgebied** wordt een weergave van uw capaciteiten op basis van entiteiten, systeemresources en werkbelastingen van gegevenssets weergegeven.
 
@@ -80,19 +78,27 @@ In het **Samenvattingsgebied** wordt een weergave van uw capaciteiten op basis v
 
 #### <a name="refreshes-area"></a>Vernieuwingengebied
 
-![Vernieuwingenknop](media/service-admin-premium-monitor-capacity/refreshes-button.png)
-
 In het gebied **Vernieuwingen** vindt u de voltooide vernieuwingen, de geslaagde vernieuwingen, de gemiddelde/maximale wachttijd en de gemiddelde/maximale vernieuwingsduur gedurende de afgelopen zeven dagen, gesegmenteerd in gegevenssets. De onderste twee diagrammen tonen de vernieuwingen versus het geheugenverbruik in GB en de gemiddelde wachttijden, gesplitst in buckets van één uur en weergegeven in de lokale tijd. De bovenste staafdiagrammen tonen de gemiddelde tijd voor het vernieuwen van de gegevensset (vernieuwingsduur) en de gemiddelde duur van de wachttijden. Meerdere pieken met een lange wachttijd duiden erop dat de capaciteit aan zijn maximum zit.
 
-#### <a name="queries-area"></a>Querygebied
+#### <a name="query-durations-area"></a>Het gebied Queryduur
 
-![Queryknop](media/service-admin-premium-monitor-capacity/queries-button.png)
+In het gebied **Queryduur** wordt het totaalaantal uitvoeringen van query's vermeld en de gemiddelde/maximale duur in milliseconden. Deze gegevens zijn opgedeeld in gegevenssets, werkruimten en buckets per uur in de afgelopen zeven dagen. De onderste grafiek geeft het aantal query's weer, evenals de gemiddelde duur (in milliseconden) in vergelijking met het geheugenverbruik in GB, opgesplitst in buckets per uur en vermeld in lokale tijd.
 
-In het gebied **Query's** wordt het totaalaantal uitgevoerde query's vermeld, evenals het totaalaantal wachtende query's voor Livequery/DirectQuery, de gemiddelde/maximale duur en de gemiddelde/maximale wachttijd, uitgedrukt in milliseconden en gesegmenteerd door gegevenssets, werkruimten en buckets per uur in de afgelopen zeven dagen. De onderste grafieken geven het aantal query's weer, evenals de gemiddelde duur (in milliseconden) en gemiddelde wachttijd (in milliseconden) in vergelijking met het geheugenverbruik in GB, opgesplitst in buckets per uur en vermeld in lokale tijd. De twee grafieken rechtsbovenin vermelden de top vijf gegevenssets per gemiddelde queryduur en wachttijd voordat de query's waren voltooid. Een lange queryduur en lange wachttijden geven aan dat de capaciteit overbelast raakt. Het kan ook betekenen dat een enkele gegevensset problemen veroorzaakt en dat verder onderzoek nodig is.
+De bovenste grafiek geeft een histogram van de distributie van de queryduur weer. Het histogram is gebucket per queryduur, dat in milliseconden in de volgende categorieën wordt vermeld: intervallen van <= 30 ms, 30 - 100 ms, 100 - 300 ms, 300 ms - 1 sec, 1 sec - 3 sec, 3 sec - 10 sec, 10 sec - 30 sec en > 30 seconden.
+
+De grafiek rechtsonder vermeldt de top vijf gegevenssets per gemiddelde queryduur voordat de query's waren voltooid.
+
+Een lange queryduur en lange wachttijden geven aan dat de capaciteit overbelast raakt. Het kan ook betekenen dat een enkele gegevensset problemen veroorzaakt en dat verder onderzoek nodig is.
+
+#### <a name="query-waits-area"></a>Het gebied Querywachttijden
+
+In het gebied **Querywachttijden** wordt het totaalaantal uitgevoerde query's vermeld, evenals het totaalaantal wachtende query's voor Livequery/DirectQuery en de gemiddelde/maximale wachttijd, uitgedrukt in milliseconden. Deze gegevens zijn opgedeeld in gegevenssets, werkruimten en buckets per uur in de afgelopen zeven dagen. De onderste grafiek geeft het aantal querywachttijden weer, evenals de gemiddelde wachttijd (in milliseconden) in vergelijking met het geheugenverbruik in GB, opgesplitst in buckets per uur en vermeld in lokale tijd.
+
+De bovenste grafiek geeft een histogram van de distributie van de querywachttijd weer. Het histogram is gebucket per queryduur, dat in milliseconden in de volgende categorieën wordt vermeld: intervallen van <= 50 ms, 50 - 100 ms, 100 - 200 ms, 200 - 400 ms, 400 ms - 1 sec, 1 sec - 5 sec en  > 5 seconden.
+
+De grafiek rechtsonder vermeldt de top vijf gegevenssets per gemiddelde querywachttijd voordat de query's waren gestart.
 
 #### <a name="datasets-area"></a>Het gebied gegevenssets
-
-![De knop gegevenssets](media/service-admin-premium-monitor-capacity/datasets-button.png)
 
 In het gebied **Gegevenssets** vindt u de volledige gegevenssets die zijn verwijderd vanwege geheugendruk (per uur).
 

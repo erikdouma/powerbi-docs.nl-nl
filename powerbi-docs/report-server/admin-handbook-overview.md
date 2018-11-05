@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 10/24/2018
 ms.author: maghan
-ms.openlocfilehash: 1dbca883bc4df2bde743963db7994361616be192
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2c8319395bd4daf44562f71380fc254964708c2b
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721910"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100606"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>Beheeroverzicht voor Power BI Report Server
 Dit artikel bevat het beheeroverzicht voor Power BI Report Server, een on-premises locatie om uw Power BI-rapporten, mobiele rapporten en gepagineerde rapporten op te slaan en te beheren. In dit artikel maakt u kennis met concepten van planning, implementatie en beheer van uw Power BI Report Server, met koppelingen naar meer informatie.
@@ -39,7 +39,7 @@ Er is geen in-place upgrade voor SQL Server Reporting Services. Als u over een b
 [Een rapportserverinstallatie migreren](migrate-report-server.md)
 
 ## <a name="configuring-your-report-server"></a>Uw rapportserver configureren
-Voor het configureren van uw rapportserver zijn veel opties beschikbaar. Wilt u SSL gebruiken? Configureert u een e-mailserver? Wilt u een integratie met de Power BI-service zodat u visualisaties vastmaken?
+Er zijn veel opties beschikbaar om uw rapportserver te configureren. Wilt u SSL gebruiken? Configureert u een e-mailserver? Wilt u een integratie met de Power BI-service om u visualisaties vast te maken?
 
 Het merendeel van uw configuratie wordt uitgevoerd binnen Report Server Configuration Manager. Bekijk de documentatie over [configuratiebeheer](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode) voor meer informatie.
 
@@ -50,7 +50,7 @@ Beveiliging en bescherming zijn belangrijk voor elke organisatie. Meer informati
 [Power BI Report Server installeren](install-report-server.md)  
 [De productcode van uw rapportserver zoeken](find-product-key.md)  
 [Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren](install-powerbi-desktop.md)  
-[Report Builder installeren](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[Report Builder downloaden](https://www.microsoft.com/download/details.aspx?id=53613)  
 [SQL Server Data Tools (SSDT) downloaden](http://go.microsoft.com/fwlink/?LinkID=616714)
 
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

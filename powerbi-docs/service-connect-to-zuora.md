@@ -7,15 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 10/24/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b83ef2b6f2cd07e9f6c9af849e0f64d0490fa1af
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: b183738c062af1d834a742639369ca90f2cb1bad
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546927"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003220"
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Verbinding maken met Zuora via Power BI
 Met Zuora voor Power BI kunt u belangrijke omzet-, facturerings- en abonnementsgegevens visualiseren. Gebruik het standaarddashboard en de rapporten om gebruikstrends, facturen en betalingen te analyseren en terugkerende inkomsten te controleren, of pas ze aan om te voldoen aan uw eigen unieke dashboard- en rapportagebehoeften.
@@ -32,13 +32,13 @@ Verbinding maken met [Zuora](https://app.powerbi.com/getdata/services/Zuora) voo
 3. Selecteer **Zuora** \> **Ophalen**.
 
    ![](media/service-connect-to-zuora/zuora.png)
-4. Geef uw Zuora-URL op. Dit is doorgaans <https://www.zuora.com>. Bekijk hieronder de details voor het [zoeken naar die parameters](#FindingParams).
+4. Geef uw Zuora-URL op. De URL is doorgaans <https://www.zuora.com>. Bekijk hieronder de details voor het [zoeken naar die parameters](#FindingParams).
 
    ![](media/service-connect-to-zuora/params.png)
 5. Selecteer voor **Verificatiemethode** de optie **Standaard** en geef uw gebruikersnaam en wachtwoord (hoofdlettergevoelig) op. Selecteer vervolgens **Aanmelden**.
 
     ![](media/service-connect-to-zuora/creds.png)
-6. Nadat uw aanmelding is goedgekeurd, wordt het importeren automatisch gestart. Nadat het importeren is voltooid, bevat het navigatiedeelvenster een nieuw dashboard, rapport en model. Selecteer het dashboard om uw geïmporteerde gegevens weer te geven.
+6. Nadat uw aanmelding is goedgekeurd, wordt het importeren automatisch gestart. Als dat is voltooid, bevat het navigatiedeelvenster een nieuw dashboard, rapport en model. Selecteer het dashboard om uw geïmporteerde gegevens weer te geven.
 
      ![](media/service-connect-to-zuora/dashboard.png)
 
@@ -95,11 +95,10 @@ Toegang tot de Zuora-API is vereist.
 Geef de URL die u gewoonlijk gebruikt voor toegang tot uw Zuora-gegevens. De geldige opties zijn:  
 
 * https://www.zuora.com  
-* https://www.apisandbox.zuora.com  
-* De URL die hoort bij uw service-exemplaar  
+* De URL die bij uw service-exemplaar hoort  
 
-## <a name="troubleshooting"></a>Probleemoplossing
-Het Zuora-inhoudspakket bevat veel aspecten van uw Zuora-account. Als u bepaalde functies niet gebruikt, ziet u dat bijbehorende tegels/rapporten leeg zijn. Neem contact op met ondersteuning van Power BI als u problemen ondervindt bij het laden.
+## <a name="troubleshooting"></a>Problemen oplossen
+Het Zuora-inhoudspakket bevat veel aspecten van uw Zuora-account. Als u bepaalde functies niet gebruikt, ziet u dat bijbehorende tegels/rapporten leeg zijn. Neem contact op met de ondersteuning van Power BI als u laadproblemen hebt.
 
 ## <a name="next-steps"></a>Volgende stappen
 [Aan de slag in Power BI](service-get-started.md)

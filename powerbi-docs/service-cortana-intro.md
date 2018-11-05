@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/13/2018
+ms.date: 10/24/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 95fa59d91a73101d7d04f3921a81236bfae7d0bb
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: ccc99c2f9810bcda80e1f02ce67e49390fd0308f
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187301"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003243"
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Uw Power BI-gegevens snel vinden en weergeven met Cortana voor Power BI
 Gebruik Cortana op uw Windows 10-apparaten om direct antwoord te krijgen op uw belangrijke zakelijke vragen. Door de integratie met Power BI kan Cortana belangrijke gegevens rechtstreeks ophalen uit Power BI-dashboards en -rapporten. U hebt alleen maar Windows 10, versie november 2015 of later, Cortana, Power BI en toegang tot minimaal één gegevensset nodig.
@@ -22,19 +22,19 @@ Gebruik Cortana op uw Windows 10-apparaten om direct antwoord te krijgen op uw b
 ![Zoekveld van Cortana](media/service-cortana-intro/power-bi-cortana-searchbox.png)
 
 ## <a name="preview-the-new-cortana-dashboard-search-experience-for-windows-10"></a>Bekijk een voorbeeld van de nieuwe Cortana-zoekervaring voor *dashboards* voor Windows 10
-U kunt nu al een tijdje [met Cortana gebruiken bepaalde typen rapportpagina's ophalen](service-cortana-answer-cards.md). Er is nu een **nieuwe ervaring** toegevoegd: de mogelijkheid om ook dashboards op te halen. Probeer het uit en [geef feedback ](mailto:pbicortanasg@microsoft.com). De *nieuwe ervaring* wordt op termijn uitgebreid zodat u ook met Cortana kunt zoeken in rapporten.  Een van de belangrijkste voordelen van de nieuwe ervaring is dat u er niets speciaals voor hoeft te doen: u hoeft Cortana niet in te schakelen of Windows 10 te configureren - het werkt gewoon.
+U kunt nu al een tijdje [met Cortana gebruiken bepaalde typen rapportpagina's ophalen](service-cortana-answer-cards.md). Er is nu een **nieuwe ervaring** toegevoegd: de mogelijkheid om ook dashboards op te halen. Probeer het uit en [geef feedback ](mailto:pbicortanasg@microsoft.com). De *nieuwe ervaring* wordt op termijn uitgebreid zodat u ook met Cortana kunt zoeken in rapporten.  Een van de belangrijkste voordelen van de nieuwe ervaring is dat u er niets speciaals voor hoeft te doen: u hoeft Cortana niet in te schakelen of Windows 10 te configureren. Het werkt gewoon.
 
 > [!NOTE]
 > Als het niet 'gewoon werkt', raadpleegt u het [artikel Probleemoplossing](service-cortana-troubleshoot.md) voor hulp.
 > 
 > 
 
-De onderliggende technologie maakt gebruikt van de [Azure Search-service van Microsoft](). Deze zoekservice biedt extra mogelijkheden, zoals slimme classificatie, foutcorrectie en automatisch aanvullen.
+De onderliggende technologie maakt gebruikt van [Microsoft Azure Search Service](https://docs.microsoft.com/azure/search/). Deze zoekservice biedt extra mogelijkheden, zoals slimme classificatie, foutcorrectie en automatisch aanvullen.
 
 Beide Cortana-ervaringen zullen naast elkaar bestaan.
 
 ## <a name="cortana-for-power-bi-documentation"></a>Cortana voor Power BI-documentatie
-Er zijn 4 documenten die u helpen bij het instellen en gebruiken van Cortana voor Power BI. Deze reeks artikelen begeleidt u bij stappen om het volgende te doen
+We hebben vier documenten die u bij de installatie en het gebruik van Cortana voor Power BI begeleiden. Deze reeks artikelen begeleidt u bij stappen om het volgende te doen
 
 **Artikel 1** (dit artikel): informatie over hoe Cortana en Power BI samenwerken
 
@@ -54,9 +54,9 @@ Als Cortana een overeenkomst vindt, geeft het de naam van het dashboard of de ra
 ### <a name="cortana-and-dashboards-the-new-experience"></a>Cortana en dashboards (de *nieuwe ervaring*)
 Cortana vindt antwoorden in de dashboards die van u zijn en in dashboards die met u zijn gedeeld. Stel Cortana vragen met behulp van titels, trefwoorden, namen van eigenaren, werkruimtenamen, app-namen en meer.
 
-Uw vraag moet uit ten minste 2 woorden bestaan aan de hand waarvan Cortana een antwoord kan zoeken. Dus als u in een dashboard met een naam van één woord (Marketing) zoekt, voegt u het woord 'toon' of 'Power BI' of '<owner name>' toe aan uw vraag, zoals in 'toon Marketing weer' of 'michele hart voorbeeld'. 
+Uw vraag moet uit ten minste twee woorden bestaan aan de hand waarvan Cortana een antwoord zoekt. Dus als u in een dashboard met een naam van één woord (Marketing) zoekt, voegt u het woord 'toon' of 'Power BI' of de naam van de eigenaar toe aan uw vraag, zoals in 'toon Marketing weer' of 'michele hart voorbeeld'. 
 
-Als uw dashboard een titel heeft die uit meer dan één woord bestaat, retourneert Cortana dat dashboard alleen als uw zoekopdracht overeenkomt met ten minste twee van de woorden of als uw dashboard overeenkomt met een van de woorden plus de naam van de eigenaar. Voor een dashboard met de naam 'Voorbeeld van klantwinstgevendheid': 
+Als uw dashboardtitel uit meer dan één woord bestaat, retourneert Cortana dat dashboard alleen als uw zoekopdracht overeenkomt met ten minste twee van de woorden of een van de woorden plus de naam van de eigenaar. Voor een dashboard met de naam 'Voorbeeld van klantwinstgevendheid': 
 
 * retourneert 'toon klant' *geen* Power BI-dashboardresultaat.   
 * zoekzinnen als 'toon winstgevendheid klant', 'klant p', 'klant s', 'winstgevendheid voorbeeld', 'michele hart voorbeeld', 'toon klantwinstgevendheid voorbeeld' en 'toon klant p' retourneren *wel* een Power BI-resultaat.
@@ -69,7 +69,7 @@ Als uw dashboard een titel heeft die uit meer dan één woord bestaat, retournee
 
 De onderliggende technologie voor rapporten maakt gebruik van [Power BI Q&A van Microsoft](consumer/end-user-q-and-a.md).
 
-Wanneer u een vraag stelt in Cortana, beantwoordt Power BI die vraag aan de hand van rapportpagina's die speciaal zijn ontworpen voor Cortana. Mogelijke antwoorden worden door Cortana direct bepaald aan de hand van de Cortana-*antwoordkaarten* die al zijn gemaakt in Power BI.  Als u een antwoord verder wilt bestuderen, opent u eenvoudig een resultaat in Power BI.
+Wanneer u een vraag stelt in Cortana, beantwoordt Power BI die vraag aan de hand van rapportpagina's die speciaal zijn ontworpen voor Cortana. Mogelijke antwoorden worden door Cortana direct bepaald aan de hand van de Cortana-*antwoordkaarten* die al zijn gemaakt in Power BI.  Als u een antwoord verder wilt bestuderen, opent u een resultaat in Power BI.
 
 > [!NOTE]
 > Voordat Cortana naar antwoorden kan zoeken in uw Power BI-rapporten, [schakelt u deze functie in met de Power BI-service en stelt u Windows in om te communiceren met Power BI](service-cortana-enable.md).  
