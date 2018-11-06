@@ -2,32 +2,33 @@
 title: Aangepaste visuals maken met ontwikkelhulpprogramma's
 description: Met aangepaste visuals kunt voldoen aan de behoeften van uw gebruikers en het ontwerp van uw app handhaven. Leer hoe u ontwikkelhulpprogramma's kunt gebruiken om aangepaste visuals voor Power BI te maken.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
-ms.topic: conceptual
+ms.topic: tutorial
 ms.date: 11/30/2017
-ms.author: maghan
-ms.openlocfilehash: ec6399d815cb17bb0f2542144c63535835659017
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a8aca5e3410d6352d64044cdc1d8575b2449912c
+ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726680"
+ms.lasthandoff: 10/26/2018
+ms.locfileid: "50153697"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Aangepaste visuals maken met ontwikkelhulpprogramma's
+
 Met aangepaste visuals kunt voldoen aan de behoeften van uw gebruikers en het ontwerp van uw app handhaven. Leer hoe u ontwikkelhulpprogramma's kunt gebruiken om aangepaste visuals voor Power BI te maken.
 
 > [!NOTE]
 > U kunt dit document gebruiken om aan de slag te gaan. Zie de referentie-informatie in [Git-opslagplaats voor Power BI-visuals](https://github.com/Microsoft/PowerBI-visuals) voor meer gedetailleerde informatie.
-> 
-> 
 
 ## <a name="requirements"></a>Vereisten
+
 * NodeJS 4.0+ vereist (5.0 of hoger aanbevolen) [NodeJS downloaden](https://nodejs.org)
 
 ## <a name="install-nodejs-and-the-power-bi-tools"></a>NodeJS en de Power BI-hulpprogramma's installeren
+
 Als u een aangepaste visual wilt maken, moet u NodeJS installeren. NodeJS is vereist om de opdrachtregelprogramma's uit te voeren.
 
 1. Download en installeer [NodeJS](https://nodejs.org). Versie 4.0 of later is vereist, maar u kunt het beste 5.0 of later installeren.
@@ -83,12 +84,11 @@ Als u een aangepaste visual wilt maken, moet u NodeJS installeren. NodeJS is ver
 <a name="ssl-setup"></a>
 
 ### <a name="server-certificate-setup"></a>Servercertificaat instellen
-Als u een livevoorbeeld van de visual wilt weergeven, hebt u een vertrouwde HTTPS-server nodig. Voordat u kunt beginnen, moet u een SSL-certificaat installeren zodat er visuele assets in uw webbrowser kunnen worden geladen. 
+
+Als u een livevoorbeeld van de visual wilt weergeven, hebt u een vertrouwde HTTPS-server nodig. Voordat u kunt beginnen, moet u een SSL-certificaat installeren, zodat er visuele assets in uw webbrowser kunnen worden geladen. 
 
 > [!NOTE]
 > Dit is een eenmalige instelling voor uw ontwikkelwerkstation.
-> 
-> 
 
 Als u een certificaat wilt *maken*, voert u de volgende opdracht uit.
 
@@ -96,9 +96,6 @@ Als u een certificaat wilt *maken*, voert u de volgende opdracht uit.
 
 > [!NOTE]
 > U zou een bericht moeten zien waarin het locatiepad naar het certificaat en een nieuw gegenereerde wachtwoordzin staan weergegeven.
-> 
-> 
-
 
 Als u het certificaat wilt *installeren*, voert u de volgende opdracht uit.
 
@@ -106,8 +103,6 @@ Als u het certificaat wilt *installeren*, voert u de volgende opdracht uit.
 
 > [!NOTE]
 > U zou een bericht moeten zien waarin staat dat u de nieuw gegenereerde wachtwoordzin moet gebruiken om een PFX-certificaat te installeren.
-> 
-> 
 
 **Windows OS**
 
@@ -131,8 +126,6 @@ Als u het certificaat wilt *installeren*, voert u de volgende opdracht uit.
 
 > [!NOTE]
 > Als het certificaat niet wordt herkend, moet u de computer mogelijk opnieuw opstarten.
-> 
-> 
 
 **OSX**
 
@@ -149,10 +142,9 @@ Als u het certificaat wilt *installeren*, voert u de volgende opdracht uit.
 
 > [!NOTE]
 > Als het certificaat niet wordt herkend, moet u de computer mogelijk opnieuw opstarten.
-> 
-> 
 
-## <a name="enable-live-preview-of-developer-visual"></a>Livevoorbeeld van de visual voor ontwikkelaars inschakelen
+## <a name="enable-a-live-preview-of-the-developer-visual"></a>Een livevoorbeeld van de visual voor ontwikkelaars inschakelen
+
 Volg de onderstaande stappen om een livevoorbeeld van uw aangepaste visual weer te geven. Zodoende kan de visual in Power BI-service worden gebruikt wanneer u rapporten bewerkt.
 
 1. Ga naar [app.powerbi.com](https://app.powerbi.com) en meld u aan.
@@ -168,16 +160,16 @@ Volg de onderstaande stappen om een livevoorbeeld van uw aangepaste visual weer 
 
    > [!NOTE]
    > Hiervoor moet u `pbiviz start` hebben uitgevoerd vanuit de visualmap op uw ontwikkelcomputer. Zie [Een nieuwe visual maken](#create-a-new-visual) in dit artikel voor meer informatie over het maken van een visual.
-   > 
-   > 
+
 5. Selecteer de visual in het rapportcanvas. U kunt gegevens op dezelfde manier binden als voor andere visuals.
 
 U kunt nu beginnen met het ontwikkelen van uw visual.
 
 ## <a name="create-a-new-visual"></a>Een nieuwe visual maken
+
 U kunt een nieuw project voor een visual maken door de volgende opdracht uit te voeren.
 
-```
+```powershell
 pbiviz new MyVisualName
 ```
 
@@ -186,18 +178,20 @@ U kunt *MyVisualName* vervangen door de naam die u de visual wilt geven. Dit kan
 Met deze opdracht wordt er een nieuw map gemaakt in de map waar de opdracht is uitgevoerd. Er wordt een eenvoudig startersjabloon voor uw visual gegenereerd. Zodra de opdracht is voltooid, kunt u de map openen en uw favoriete editor gebruiken om aan uw nieuwe visual te werken.
 
 ## <a name="testing-your-visual-in-power-bi"></a>Uw visual testen in Power BI
+
 U kunt uw visual in de Power BI-service testen in de rapporten en dashboards.
 
 <a name="running-your-visual"></a>
 
 ### <a name="running-your-visual"></a>Uw visual uitvoeren
+
 Ga als volgt te werk om uw visual uit te voeren:
 
 1. Open een prompt.
 2. Wijzig de map in de visualmap. Dit is de map met het `pbiviz.json`-bestand.
 3. Voer de volgende opdracht uit.
 
-    ```
+    ```powershell
     pbiviz start
     ```
 
@@ -205,7 +199,7 @@ Ga als volgt te werk om uw visual uit te voeren:
 
 Als u zich op de verkeerde locatie bevindt, wordt er een fout weergegeven die vergelijkbaar is met de volgende.
 
-```
+```powershell
     error  LOAD ERROR Error: pbiviz.json not found. You must be in the root of a visual project to run this command.
         at e (C:\Users\[user]\AppData\Roaming\npm\node_modules\powerbi-visuals-tools\lib\VisualPackage.js:67:35)
         at Function.loadVisualPackage (C:\Users\[user]\AppData\Roaming\npm\node_modules\powerbi-visuals-tools\lib\VisualPackage.js:62:16)
@@ -220,14 +214,13 @@ Als u zich op de verkeerde locatie bevindt, wordt er een fout weergegeven die ve
 ```
 
 ### <a name="viewing-your-visual-in-power-bi"></a>Uw visual weergeven in Power BI
+
 Als u de visual wilt weergeven in een rapport, gaat u naar het betreffende rapport en selecteert de visual in het deelvenster **Visualisaties**.
 
 > [!NOTE]
 > Voordat u dit doet, moet u eerst de opdracht `pbiviz start` uitvoeren, zoals wordt beschreven in de sectie [Uw visual uitvoeren](#running-your-visual).
-> 
-> 
 
-![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-developer-visual-selection.png)
+![Een Power BI-visual voor ontwikkelaars selecteren](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-developer-visual-selection.png)
 
 Vervolgens wordt de startersjabloon voor de visual weergegeven.
 
@@ -237,11 +230,12 @@ Vervolgens wordt de startersjabloon voor de visual weergegeven.
 | --- | --- |
 | Visual vernieuwen |Als de functie voor automatisch opnieuw laden is uitgeschakeld, vernieuwt u de visual handmatig. |
 | Automatisch opnieuw laden in-/uitschakelen |Wanneer deze optie is ingeschakeld en u het visualbestand opslaat, wordt de visual automatisch bijgewerkt. |
-| DataView weergeven |Hiermee geeft u de onderliggende u de visuele onderliggende gegevensweergave voor foutopsporing weer. |
+| Gegevensweergave weergeven |Hiermee geeft u de onderliggende u de visuele onderliggende gegevensweergave voor foutopsporing weer. |
 | Hulp vragen |Documentatie in GitHub |
 | Feedback verzenden |Laat ons weten wat we kunnen doen om de gebruikerservaring te verbeteren. (GitHub-account vereist) |
 
 ## <a name="package-your-visual-for-use-in-power-bi-desktop-and-distribution"></a>Uw visual verpakken voor gebruik in Power BI Desktop en om te distribueren
+
 Voordat u uw visual in [Power BI Desktop](https://powerbi.microsoft.com/desktop/) kunt laden of met de community kunt delen in de [galerie met Power BI-visuals](https://visuals.powerbi.com), moet u een `pbiviz`-bestand genereren.
 
 Ga als volgt te werk om uw visual te verpakken:
@@ -250,19 +244,21 @@ Ga als volgt te werk om uw visual te verpakken:
 2. Wijzig de map in de visualmap. Dit is de map met het `pbiviz.json`-bestand.
 3. Voer de volgende opdracht uit.
 
-    ```
+    ```powershell
     pbiviz package
     ```
 
 Met deze opdracht maakt u een `pbiviz` in de `dist/`-map van uw visualproject. Als er al een `pbiviz`-bestand aanwezig is, wordt dit overschreven.
 
 ## <a name="updating-the-visuals-api-version"></a>De API-versie van de visuals bijwerken
+
 Wanneer u een visual met `pbiviz new` maakt, worden de juiste API-typedefinities en JSON-schema's naar de map van uw visual gekopieerd. U kunt de opdracht `pbiviz update` gebruiken om deze bestanden indien nodig bij te werken. Dit kan handig zijn wanneer we een oplossing voor een eerdere versie van de API uitbrengen of als u wilt bijwerken naar de nieuwste API-versie.
 
 ### <a name="updating-your-existing-api-version"></a>Uw bestaande API-versie bijwerken
+
 Als er een update voor een bestaande API wordt uitgebracht, kunt u als volgt de nieuwste versie downloaden.
 
-```
+```powershell
 #Update your version of pbiviz
 npm install -g powerbi-visuals-tools
 
@@ -273,9 +269,10 @@ pbiviz update
 Hiermee downloadt u de nieuwste hulpprogramma's van NPM, die onder andere de bijgewerkt bijgewerkte typedefinities en schema's bevatten. Als u `pbiviz update` gebruikt, wordt de eigenschap `apiVersion` in uw *pbiviz.json*-bestanden overschreven met de nieuwste versie.
 
 ### <a name="upgrading-to-a-different-api-version"></a>Bijwerken naar een andere API-versie
+
 U kunt bijwerken naar een andere API-versie door dezelfde als hierboven te volgen. U kunt expliciet aangeven welke API-versie u wilt gebruiken.
 
-```
+```powershell
 #Update your version of pbiviz
 npm install -g powerbi-visuals-tools
 
@@ -287,10 +284,9 @@ Hiermee wordt uw API bijgewerkt naar API-versie 1.2.0. U kunt `1.2.0` vervangen 
 
 > [!WARNING]
 > Voor hulpprogramma's wordt standaard de stabiele versie van de API gebruikt. Alle latere versies dan de standaard-API-versie zijn instabiel en onderhevig aan veranderingen. Ze vertonen mogelijk onverwacht gedrag en ook het gedrag in de Power BI-service en Power BI Desktop kan verschillen. Zie het [wijzigingenlogboek](https://github.com/Microsoft/PowerBI-visuals/blob/master/ChangeLog.md) voor de huidige stabiele versie van de API. Zie het [implementatieschema](https://github.com/Microsoft/PowerBI-visuals/blob/master/Roadmap/README.md) voor meer informatie over de pre-release versies.
-> 
-> 
 
 ## <a name="inside-the-visual-project"></a>In het visualproject
+
 Uw visualproject is de map die wordt gemaakt wanneer u de opdracht `pbiviz new` uitvoert. 
 
 ### <a name="file-structure"></a>Bestandsstructuur
@@ -308,6 +304,7 @@ Uw visualproject is de map die wordt gemaakt wanneer u de opdracht `pbiviz new` 
 | tsconfig.json |Instellingen voor de TypeScript-compiler. Meer informatie over [tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html). |
 
 ### <a name="pbivizjson"></a>pbiviz.json
+
 Dit bestand is het hoofdconfiguratiebestand voor uw visual. Heb bestand bevat metagegevens en informatie over de bestanden die nodig hebt om uw visual te bouwen.
 
 ```
@@ -336,6 +333,7 @@ Dit bestand is het hoofdconfiguratiebestand voor uw visual. Heb bestand bevat me
 ```
 
 ### <a name="visual-source-typescript"></a>Bron van de visual (TypeScript)
+
 De code van de visual moet worden geschreven in TypeScript. Dit is een superset van JavaScript die ondersteuning biedt voor meer geavanceerde functies en vroege toegang tot ES6/ES7-functionaliteit.
 
 Alle TypeScript-bestanden moeten worden opgeslagen in de map `src/` en worden toegevoegd aan de `files`-matrix in `tsconfig.json`. Zodoende kan de TypeScript-compiler ze laden en bepalen in welke volgorde ze moeten worden geladen.
@@ -347,6 +345,7 @@ U kunt zoveel bestanden en klassen maken als u nodig hebt om de visual te maken.
 Meer informatie over [TypeScript](http://www.typescriptlang.org/).
 
 ### <a name="visual-style-less"></a>Stijl van de visual (Less)
+
 Voor de vormgeving van de visual worden Cascading Style Sheets (CSS; trapsgewijze opmaakmodellen) gebruikt. Voor uw gemak gebruiken we de Less-precompiler die enkele geavanceerde functies ondersteunt, zoals nesten, variabelen, combinaties, voorwaarden, lussen, enzovoort. Als u geen van deze functies wilt gebruiken, kunt u plain CSS schrijven in het Less-bestand.
 
 Alle Less-bestanden moeten worden opgeslagen in de map `style/`. Het bestand dat is opgegeven in veld `style` in uw `pbiviz.json`-bestand wordt geladen. Eventuele aanvullende bestanden moeten worden geladen met `@import`.
@@ -354,12 +353,15 @@ Alle Less-bestanden moeten worden opgeslagen in de map `style/`. Het bestand dat
 Meer informatie over [Less](http://lesscss.org/).
 
 ## <a name="debugging"></a>Foutopsporing
+
 Zie de [handleiding voor foutopsporing](https://github.com/Microsoft/PowerBI-visuals/blob/master/tools/debugging.md) voor tips over het opsporen van fouten in uw aangepaste visual.
 
 ## <a name="submit-your-visual-to-appsource"></a>Uw visuals voor AppSource verzenden
+
 U kunt uw visuals voor anderen beschikbaar stellen door ze naar AppSource te verzenden. Zie [Aangepaste visuals naar AppSource verzenden](developer/office-store.md) voor meer informatie over dit proces.
 
 ## <a name="troubleshooting"></a>Problemen oplossen
+
 **Kan de opdracht pbiviz niet vinden (of een vergelijkbare fouten)**
 
 Als u `pbiviz` uitvoert in uw terminal/via de opdrachtregel, wordt het Help-scherm weergegeven. Als dat niet het geval is, is de installatie niet verlopen. Zorg ervoor dat u hebt minimaal versie 4.0 van NodeJS hebt geïnstalleerd.
@@ -376,8 +378,6 @@ Als de visual niet wordt weergegeven, controleert u of u deze hebt ingeschakeld 
 
 > [!NOTE]
 > De foutopsporingsvisual is momenteel alleen beschikbaar in de Power BI-service en niet in Power BI Desktop of de mobiele app. De verpakte visual werkt wel overal.
-> 
-> 
 
 Zie [Livevoorbeeld van de visual voor ontwikkelaars inschakelen](#enable-live-preview-of-developer-visual) voor meer informatie.
 
@@ -388,11 +388,11 @@ Gebruik de opdracht `pbiviz start` om de server van de visual via uw terminal/op
 Zie [Uw visual uitvoeren](#running-your-visual) of [Het servercertificaat installeren](#ssl-setup) voor meer informatie.
 
 ## <a name="next-steps"></a>Volgende stappen
+
 [Visualisaties in Power BI](visuals/power-bi-report-visualizations.md)  
 [Aangepaste visualisaties in Power BI](power-bi-custom-visuals.md)  
 [Aangepaste visuals publiceren naar de Office Store](developer/office-store.md)  
 [TypeScript](http://www.typescriptlang.org/)  
 [Minder CSS](http://lesscss.org/)  
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
-
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/) 
