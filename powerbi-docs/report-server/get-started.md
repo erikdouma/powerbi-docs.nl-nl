@@ -4,18 +4,18 @@ description: U kunt een overzicht krijgen van Power BI Report Server zodat u beg
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 05/07/2018
+ms.date: 10/24/2018
 ms.topic: overview
 ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 1be2270074011f73c3d942677211dd99d18c6b2b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 95a97c86ae7d17091b49fbf33cf5ec0d26053c3e
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34294566"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101388"
 ---
 # <a name="what-is-power-bi-report-server"></a>Wat is Power BI Report Server?
 
@@ -28,6 +28,9 @@ Power BI Report Server lijkt op zowel SQL Server Reporting Services als de onlin
 
 ## <a name="licensing-power-bi-report-server"></a>Licenties voor Power BI Report Server
 Power BI Report Server is verkrijgbaar via twee verschillende licenties: [Power BI Premium](../service-premium.md) en [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions) met Software Assurance. Met een licentie voor Power BI Premium kunt u een hybride implementatie maken waarin de cloud en uw on-premises omgeving gemengd zijn.  
+
+> [!NOTE]
+> Bij Power BI Premium is de Power BI Report Server alleen opgenomen in P-SKU's. Deze is niet opgenomen in EM-SKU's.
 
 ## <a name="web-portal"></a>Webportal
 Het toegangspunt voor Power BI Report Server is een veilige webportal die u in een moderne browser kunt bekijken. Hier hebt u toegang tot al uw rapporten en KPI's. De inhoud op de webportal is in een traditionele mappenhiërarchie gerangschikt. De inhoud in de mappen is gerangschikt op type: Power BI-rapporten, mobiele rapporten, gepagineerde rapporten, KPI's, en Excel-werkmappen, plus gedeelde gegevenssets en gedeelde gegevensbronnen die u kunt gebruiken als bouwstenen voor uw rapporten. U kunt uw favorieten labelen, zodat u ze in één map kunt bekijken. En u kunt KPI's rechtstreeks in de webportal maken. 
@@ -66,7 +69,7 @@ Meer [ontwikkelaarsdocumentatie voor Report Server](https://docs.microsoft.com/s
 
 ## <a name="next-steps"></a>Volgende stappen
 [Power BI Report Server installeren](install-report-server.md)  
-[Report Builder installeren](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[Report Builder downloaden](https://www.microsoft.com/download/details.aspx?id=53613)  
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

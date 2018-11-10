@@ -1,5 +1,5 @@
 ---
-title: Power BI-rapportparameters toevoegen met behulp van de URL
+title: Een rapport filteren door queryreeksparameters in de URL te gebruiken
 description: Filter een rapport met behulp van URL-queryreeksparameters, ook op meer dan één veld.
 author: maggiesMSFT
 ms.author: maggies
@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/01/2018
+ms.date: 11/01/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 7a034e865b0e0b6ba55385f8873d039dba0662db
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: d708a4ff07a0d202fcc709f6348e48505d7589d0
+ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396952"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "50973368"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Een rapport filteren door queryreeksparameters in de URL te gebruiken
 
@@ -26,7 +26,7 @@ Wanneer u een rapport in Power BI-service opent, heeft elke pagina van het rappo
 
 ## <a name="uses-for-query-string-parameters"></a>Manieren om queryreeksparameters te gebruiken
 
-Stel dat u in Power BI Desktop werkt en u een rapport wilt maken met koppelingen naar andere Power BI-rapporten. U wilt echter slechts een deel van de informatie in de andere rapporten weergeven. Filter om te beginnen de rapporten met queryreeksparameters en sla de URL's op. Maak vervolgens in Desktop een tabel met deze nieuwe rapport-URL's.  Publiceer en deel het rapport vervolgens.
+Stel dat u werkt in Power BI Desktop. U wilt een rapport maken met koppelingen naar andere Power BI-rapporten, maar u wilt slechts een deel van de informatie in de andere rapporten opnemen. Filter om te beginnen de rapporten met queryreeksparameters en sla de URL's op. Maak vervolgens in Desktop een tabel met deze nieuwe rapport-URL's.  Publiceer en deel het rapport vervolgens.
 
 U kunt queryreeksparameters ook gebruiken om een geavanceerde Power BI-oplossing te maken.  Er kan met DAX een rapport worden gemaakt dat dynamisch een gefilterde rapport-URL genereert op basis van de selectie die de klant maakt in het huidige rapport. Wanneer de klant op de URL klikt, wordt alleen de benodigde informatie weergegeven. 
 
@@ -43,7 +43,7 @@ URL?filter=***Tabel***/***Veld*** eq '***waarde***'
 
 ### <a name="field-types"></a>Veldtypen
 
-Een veld kan een cijfer, datum/tijd of tekenreeks bevatten. Het type dat u kiest, moet overeenkomen met het type dat wordt ingesteld in de gegevensset.  Als u bijvoorbeeld een tabelkolom van het type Tekenreeks maakt, ontstaat er een probleem als u een datum/tijd of numerieke waarde wilt opgeven in een gegevenssetkolom van het type Datum (voorbeeld: Table/StringColumn eq 1).
+Een veld kan een cijfer, datum/tijd of tekenreeks bevatten. Het type dat u kiest, moet overeenkomen met het type dat wordt ingesteld in de gegevensset.  Als u bijvoorbeeld een tabelkolom van het type Tekenreeks maakt, ontstaat er een probleem als u een datum/tijd of numerieke waarde wilt opgeven in een gegevenssetkolom van het type Datum, zoals Table/StringColumn eq 1.
 
 * **Tekenreeksen** moeten tussen enkele aanhalingstekens staan: 'naam manager'.
 * **Cijfers** hoeven niet op een speciale manier te worden opgemaakt.
@@ -85,7 +85,7 @@ U kunt ook filteren op meerdere velden door extra parameters aan uw URL toe te v
 ?filter=Store/Territory eq 'NC'
 ```
 
-Als u wilt filteren op aanvullende velden, voegt u een **en** en een ander veld toe in dezelfde indeling als hierboven. Hier volgt een voorbeeld.
+Als u wilt filteren op aanvullende velden, voegt u een '**and**' en een ander veld toe in dezelfde indeling als hierboven. Hier volgt een voorbeeld.
 
 ```
 ?filter=Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
@@ -95,7 +95,7 @@ Als u wilt filteren op aanvullende velden, voegt u een **en** en een ander veld 
 
 ## <a name="operators"></a>Operators
 
-Power BI biedt ondersteuning voor veel operators naast **en**. De volgende tabel bevat deze operators en het type inhoud waar de operators ondersteuning voor bieden.
+Power BI ondersteunt naast '**and**' nog verschillende andere operators. De volgende tabel bevat deze operators en het type inhoud waar de operators ondersteuning voor bieden.
 
 |operator  | definitie | tekenreeks  | getal | Datum |  Voorbeeld|
 |---------|---------|---------|---------|---------|---------|
@@ -125,13 +125,13 @@ Power BI-URL-filters kunnen in de volgende indelingen cijfers bevatten.
 
 ### <a name="date-data-types"></a>Datumgegevenstypen
 
-Power BI biedt ondersteuning voor OData V3 en V4 voor de gegevenstypen **Date** en **DateTimeOffset**.  Datums worden weergegeven in de EDM-indeling (2019-02-12T00:00:00). Dat houdt in dat wanneer u een datum opgeeft als JJJJ-MM-DD, Power BI deze interpreteert als JJJJ-MM-DDT00:00:00.
+Power BI biedt ondersteuning voor OData V3 en V4 voor de gegevenstypen **Date** en **DateTimeOffset**.  Datums worden weergegeven met de EDM-indeling (2019-02-12T00:00:00). Als u een datum op als JJJJ-MM-DD, wordt deze door Power BI geïnterpreteerd als JJJJ-MM-DDT00:00:00.
 
-Waarom is dit onderscheid van belang? Stel dat u de queryreeksparameter **Table/Date gt 2018-08-03** maakt.  Maakt 3 augustus 2018 dan deel uit van het resultaat, of wordt er begonnen bij 4 augustus 2018? Omdat Power BI uw query omzet in **Table/Date gt 2018-08-03T00:00:00**, omvatten de resultaten alle datums met een tijddeel dat niet uit alleen nullen bestaat. Deze datums zijn immers 'groter' dan **2018-08-03T00:00:00**.
+Waarom is dit onderscheid van belang? Stel dat u de queryreeksparameter **Table/Date gt 2018-08-03** maakt.  Bevat het resultaat dan 3 augustus 2018 of wordt er begonnen bij 4 augustus 2018? Omdat Power BI uw query omzet in **Table/Date gt 2018-08-03T00:00:00**, omvatten de resultaten alle datums met een tijddeel dat niet uit alleen nullen bestaat. Deze datums zijn immers 'groter' dan **2018-08-03T00:00:00**.
 
 ## <a name="special-characters-in-url-filters"></a>Speciale tekens voor URL-filters
 
-Speciale tekens en spaties vereisen aanvullende opmaak. Als uw query spaties, streepjes of andere niet-ASCII-tekens bevat, gebruikt u vóór die speciale tekens de *escape-code*, te beginnen met een onderstrepingsteken en een X (**_x**), vervolgens de viercijferige **Unicode**, gevolgd door nog een onderstrepingsteken. Als de Unicode uit minder dan vier tekens bestaat, moet u opvulnullen gebruiken. Hieronder ziet u een aantal voorbeelden.
+Speciale tekens en spaties vereisen aanvullende opmaak. Als uw query spaties, streepjes of andere niet-ASCII-tekens bevat, gebruikt u vóór die speciale tekens een *escape-code*, die begint met een onderstrepingsteken en een X (**_x**), vervolgens de viercijferige **Unicode**, gevolgd door nog een onderstrepingsteken. Als de Unicode uit minder dan vier tekens bestaat, moet u opvulnullen gebruiken. Hieronder ziet u een aantal voorbeelden.
 
 |Id  |Unicode  | Code voor Power BI  |
 |---------|---------|---------|
@@ -159,17 +159,17 @@ Publiceer het rapport naar de Power BI-service en gebruik de URL-queryreeks verv
 
 ## <a name="pin-a-tile-from-a-filtered-report"></a>Maak een tegel uit een gefilterd rapport vast
 
-Nadat u het rapport met queryreeksparameters hebt gefilterd, kunt u visualisaties uit het rapport aan uw dashboard vastmaken.  De tegel op het dashboard geeft de gefilterde gegevens weer en door het selecteren van deze dashboardtegel opent u het rapport dat is gebruikt om deze te maken.  Het filteren dat u met de URL hebt uitgevoerd, wordt echter niet bij het rapport opgeslagen en wanneer de dashboardtegel wordt geselecteerd, wordt het rapport in ongefilterde toestand geopend.  Dit betekent dat de gegevens die worden weergegeven op de dashboardtegel niet overeenkomen met de gegevens die worden weergegeven in de rapportvisualisatie.
+Nadat u het rapport met queryreeksparameters hebt gefilterd, kunt u visualisaties uit het rapport aan uw dashboard vastmaken.  De tegel op het dashboard geeft de gefilterde gegevens weer en door het selecteren van deze dashboardtegel opent u het rapport dat is gebruikt om deze te maken.  De filters die u hebt toegepast met behulp van de URL worden echter niet opgeslagen met het rapport. Wanneer u de dashboardtegel selecteert, wordt het rapport in ongefilterde toestand geopend.  Dit betekent dat de gegevens die worden weergegeven op de dashboardtegel niet overeenkomen met de gegevens die worden weergegeven in de rapportvisualisatie.
 
-Dit is handig wanneer u verschillende resultaten wilt zien, gefilterd op het dashboard en ongefilterd in het rapport.
+Dit verschil is handig wanneer u verschillende resultaten wilt zien; gefilterd in het dashboard en ongefilterd in het rapport.
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 
 Er zijn een aantal dingen waar u op moet letten bij het gebruik van queryreeksparameters.
 
 * Wanneer u de operator *in* gebruikt, moeten de waarden rechts van *in* worden opgenomen in een lijst gescheiden met komma's, met de lijst tussen haakjes.    
-* U kunt in Power BI Report Server [rapportparameters doorsturen](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md) door ze op te nemen in een rapport-URL. Deze URL-parameters hebben geen voorvoegsel omdat ze rechtstreeks naar de verwerkingsengine rapporteren.
-* Het filteren van een querytekenreeks werkt niet bij [Publiceren op internet](service-publish-to-web.md).
+* U kunt in Power BI Report Server [rapportparameters doorsturen](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md) door ze op te nemen in een rapport-URL. Deze URL-parameters hebben geen voorvoegsel omdat ze rechtstreeks aan de verwerkingsengine voor rapporten worden doorgegeven.
+* Het filteren van een querytekenreeks werkt niet met [Publiceren op internet](service-publish-to-web.md).
 * [Insluiten met webonderdeel Rapport in SharePoint Online](service-embed-report-spo.md) ondersteunt geen URL-filters.
 * Het gegevenstype long is (2^53-1) wegens JavaScript-beperkingen.
 * Rapport-URL-filters hebben een limiet van 10 expressies (10 filters die zijn verbonden via AND).

@@ -10,13 +10,13 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 10/20/2018
-ms.openlocfilehash: e336323863dfacc8c74f2dc1f721231d58d03834
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.date: 11/01/2018
+ms.openlocfilehash: fc0234536415c758992cec629452a3e629c46ad1
+ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50100767"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "50973322"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Insluiten met webonderdeel Rapport in SharePoint Online
 
@@ -82,14 +82,34 @@ Wanneer een rapport wordt ingesloten in SharePoint Online, zijn gebruikers niet 
 > [!IMPORTANT]
 > Controleer wie het rapport kan raadplegen in de Power BI-service en verleen toegang tot personen die niet worden vermeld.
 
-Binnen de Power BI-service kunt u op twee manieren toegang verlenen tot het rapport. Als u een Office 365-groep gebruikt om uw SharePoint Online-teamsite te bouwen, geeft u aan dat de gebruiker lid is van de **app-werkruimte binnen de Power BI-service** en de **SharePoint-pagina**. Hiermee garandeert u dat gebruikers de inhoud van de groep kunnen bekijken. Zie [Een app maken en distribueren in Power BI](service-create-distribute-apps.md) voor meer informatie.
+Binnen de Power BI-service kunt u op twee manieren toegang verlenen tot het rapport. Als u een Office 365-groep gebruikt om uw SharePoint Online-teamsite te bouwen, geeft u aan dat de gebruiker lid is van de **app-werkruimte binnen de Power BI-service** en de **SharePoint-pagina**. Zie [Een app-werkruimte beheren](service-manage-app-workspace-in-power-bi-and-office-365.md) voor meer informatie.
 
-U kunt ook een rapport rechtstreeks met gebruikers delen door het rapport in een app in te sluiten. De app moet vooraf zijn geïnstalleerd om het rapport in te kunnen sluiten. U kunt de app zo instellen dat deze vooraf wordt geïnstalleerd met de functie **App automatisch installeren**.
+U kunt ook een rapport rechtstreeks met gebruikers delen door het rapport in een app in te sluiten. Er zijn een paar stappen nodig om een rapport in te sluiten in een app.  
+
+1. De auteur van de app is een Pro-gebruiker.
+
+2. De auteur maakt een rapport in een app-werkruimte. *Om het rapport te delen met **gebruikers van de gratis versie van Power BI**, moet de app-werkruimte worden ingesteld als een **Premium-werkruimte**.*
+
+3. De auteur publiceert de app en installeert deze vervolgens. *De auteur moet de app installeren om toegang te bieden tot de URL van het rapport die wordt gebruikt voor het insluiten in SharePoint Online.*
+
+4. Nu moeten alle eindgebruikers de app ook installeren. U kunt echter instellen dat de app vooraf wordt geïnstalleerd voor eindgebruikers met behulp van de functie **App automatisch installeren**, die kan worden ingeschakeld in de [Power BI-beheerportal](service-admin-portal.md).
 
    ![App automatisch installeren](media/service-embed-report-spo/install-app-automatically.png)
 
-> [!NOTE]
-> **De gebruiker moet toegang hebben tot zowel de SharePoint-pagina als het rapport om het rapport op de SharePoint-pagina te kunnen bekijken.**
+5. De auteur opent de app en gaat naar het rapport.
+
+6. De auteur kopieert de URL van het ingesloten rapport uit het rapport dat door de app is geïnstalleerd. *Gebruik niet de URL van het originele rapport uit de app-werkruimte.*
+
+7. Maak een nieuwe teamsite in SharePoint Online.
+
+8. Voeg de rapport-URL uit stap 6 toe aan het webonderdeel Power BI.
+
+9. Voeg alle eindgebruikers en/of groepen die gebruik gaan maken van de gegevens toe aan de SharePoint Online-pagina en in de Power BI-app die u hebt gemaakt.
+
+    > [!NOTE]
+    > **Gebruikers of groepen hebben toegang nodig tot zowel de SharePoint Online-pagina als het rapport in de Power BI-app om het rapport te kunnen zien op de SharePoint-pagina.**
+
+10. De eindgebruiker kan nu naar de teamsite in SharePoint Online gaan en de rapporten bekijken op de pagina.
 
 ## <a name="multi-factor-authentication"></a>Meervoudige verificatie
 

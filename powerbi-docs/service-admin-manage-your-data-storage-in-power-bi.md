@@ -1,21 +1,21 @@
 ---
 title: Uw gegevensopslag beheren
 description: Meer informatie over hoe u uw persoonlijke gegevensopslag, of opslag van de app-werkruimte, kunt beheren om ervoor te zorgen dat u rapporten en gegevenssets kunt blijven publiceren.
-author: mgblythe
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 06/28/2017
-ms.author: mblythe
+ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: a30c90b1c180277a584a152f26c7f92549284c7d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 864d50d8850a8ceed964f128cea71b0daf5d8322
+ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944739"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50736867"
 ---
 # <a name="manage-your-data-storage"></a>Uw gegevensopslag beheren
 Meer informatie over hoe u uw persoonlijke gegevensopslag, of opslag van de app-werkruimte, kunt beheren om ervoor te zorgen dat u rapporten en gegevenssets kunt blijven publiceren.
@@ -23,7 +23,7 @@ Meer informatie over hoe u uw persoonlijke gegevensopslag, of opslag van de app-
 Gebruikers en app-werkruimten hebben hun eigen gegevenscapaciteit
 
 * Alle gebruikers hebben maximaal 10 GB gegevensopslag.
-* Gebruikers van een Power BI Pro-licentie kunnen app-werkruimten maken, die elk maximaal 10 GB gegevensopslag hebben.
+* Gebruikers met een Power BI Pro-licentie kunnen app-werkruimten maken, die elk maximaal 10 GB gegevensopslag hebben.
 
 Op tenantniveau kan het totale gebruik niet 10 GB per Pro-gebruiker overschrijden over alle Pro-gebruikers van app-werkruimten in de tenant.
 

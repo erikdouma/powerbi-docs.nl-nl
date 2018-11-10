@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/30/2018
-ms.openlocfilehash: d46acd9c70e8deb7fb9ae6d241256e61b7f85b65
-ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
+ms.openlocfilehash: 4ac828baa4f6080ab50008aa4ffb570ff016246f
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "50153743"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223123"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Aangepaste visuele elementen publiceren naar AppSource
 
@@ -147,7 +147,7 @@ Nadat het visuele element is gemaakt, kunt u het desgewenst laten certificeren. 
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[Aangepaste visuele elementen maken met behulp van ontwikkelhulpprogramma's](../service-custom-visuals-getting-started-with-developer-tools.md)  
+[Een aangepaste visual voor Power BI ontwikkelen](custom-visual-develop-tutorial.md)  
 [Visualisaties in Power BI](../visuals/power-bi-report-visualizations.md)  
 [Aangepaste visualisaties in Power BI](../power-bi-custom-visuals.md)  
 [Een aangepast visueel element laten *certificeren*](../power-bi-custom-visuals-certified.md)

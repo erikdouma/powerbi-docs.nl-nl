@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f8c1aae757e80c0c2adbc321345c242eba25098c
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: c49750ef51c1b8bacc36946d2d5c75a08abb36d7
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "34456129"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101572"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Dynamische beveiliging op rijniveau met model in tabelvorm van Analysis Services
 In deze zelfstudie ziet u de benodigde stappen voor het implementeren van **beveiliging op rijniveau** binnen een **tabellair model van Analysis Services**, en wordt beschreven hoe u dit model kunt gebruiken in een Power BI-rapport. Het is de bedoeling dat u de stappen in deze zelfstudie volgt, en zo leert wat de benodigde stappen zijn, door deze uit te voeren op een voorbeeldgegevensset.
@@ -72,6 +72,9 @@ Er zijn veel gepubliceerde artikelen waarin wordt beschreven hoe u dynamische be
        =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
     In deze formule retourneert de functie **LOOKUPVALUE** alle waarden voor de kolom **DimUserSecurity[SalesTerritoryID]**, waarbij de waarde van **DimUserSecurity[UserName]** gelijk is aan de huidige aangemelde Windows-gebruikersnaam en de waarde van **DimUserSecurity[SalesTerritoryID]** gelijk is aan die van **DimSalesTerritory[SalesTerritoryKey]**.
    
+    > [!IMPORTANT]
+    > Houd er rekening mee dat de DAX-functie [USERELATIONSHIP](https://msdn.microsoft.com/query-bi/dax/userelationship-function-dax) niet wordt ondersteund met lage beveiliging op rijvineau.
+
    De set waarden van SalesTerritoryKey die wordt geretourneerd door **LOOKUPVALUE**, wordt vervolgens gebruikt voor het beperken van de rijen in de tabel **DimSalesTerritory**. Alleen rijen waarvan de **SalesTerritoryKey** voor de rij voorkomt in de set met id's die zijn geretourneerd door de functie **LOOKUPVALUE**, worden weergegeven.
 8. Typ de volgende formule voor de tabel **DimUserSecurity** in de kolom **DAX Filter**:
    

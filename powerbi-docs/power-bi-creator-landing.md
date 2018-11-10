@@ -10,12 +10,12 @@ ms.date: 09/24/2018
 ms.author: maggies
 layout: landingpage
 LocalizationGroup: Get started
-ms.openlocfilehash: 21b45d6b907378f9339328cfea1c17f0c73d91c2
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: abc57a90f2ae70dcbbbd4ab284418476b071afae
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271619"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223347"
 ---
 # <a name="power-bi-for-report-designers"></a>Power BI voor rapportontwerpers
 
@@ -135,7 +135,7 @@ Bent u meer een gebruiker van Power BI? Ook u bent welkom. We stellen voor dat u
                                                                                       <h3>Ontwikkelen voor Power BI</h3> 
                                                                                       <p></p>
                                                                                             <a href="developer/embedding.md">Insluiten met Power BI</a><br/> 
-                                                                                            <a href="service-custom-visuals-getting-started-with-developer-tools.md">Aangepaste visuals ontwikkelen</a><br/> 
+                                                                                            <a href="developer/custom-visual-develop-tutorial.md">Aangepaste visuals ontwikkelen</a><br/> 
                                                                                             <a href="https://docs.microsoft.com/rest/api/power-bi">Power BI REST-API's</a>
                                                                         </div> 
                                                           </div> 

@@ -8,20 +8,22 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/24/2018
+ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d2aae3abeca51cdcc142660190332f84adcfddfb
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: c94fd3ce58cefdb9e3cc7749b6486ab9bb0577cb
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448817"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101457"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Tabellen in Power BI-rapporten en -dashboards
 Een tabel is een raster met gerelateerde gegevens in een logische reeks rijen en kolommen. Het kan ook koppen en een rij voor totalen bevatten. Tabellen werken goed met kwantitatieve vergelijkingen waarbij u veel waarden voor één categorie bekijkt. Deze tabel geeft bijvoorbeeld 5 verschillende eenheden  voor **Categorie** weer.
 
 ![](media/power-bi-visualization-tables/table.png)
+
+Maak tabellen in rapporten en markeer meerdere elementen kruislings in de tabel met andere visuals op dezelfde rapportpagina.  Bovendien kunt u rijen en kolommen selecteren, en zelfs afzonderlijke cellen en kruislings markeren. Afzonderlijke cellen en selecties van meerdere cellen kunnen worden gekopieerd en geplakt in andere toepassingen.
 
 ## <a name="when-to-use-a-table"></a>Wanneer u een tabel gebruikt
 Tabellen zijn een prima keuze:
@@ -108,9 +110,24 @@ Met voorwaardelijke opmaak voor tabellen kunt u aangepaste celachtergrondkleuren
 6. Als u voorwaardelijke opmaak uit een visualisatie wilt verwijderen, klikt u eenvoudigweg opnieuw op het veld en selecteert u **Voorwaardelijke opmaak verwijderen**.
 
 > [!TIP]
-> Voorwaardelijke opmaak is ook beschikbaar in het deelvenster Opmaak (verfrollerpictogram). Selecteer de waarde die u wilt opmaken en stel vervolgens **Kleurschalen** of **Gegevensbalken** in op Aan om de standaardinstellingen toe te passen. Als u de instellingen wilt aanpassen, selecteert u **Geavanceerde besturingselementen**.
+> Voorwaardelijke opmaak is ook beschikbaar in het deelvenster Opmaak (verfrollerpictogram). Selecteer de waarde die u wilt opmaken en stel vervolgens **Kleurschalen** of **Gegevensbalken** in op **Aan** om de standaardinstellingen toe te passen. Als u de instellingen wilt aanpassen, selecteert u **Geavanceerde besturingselementen**.
 > 
-> 
+## <a name="copy-values-from-power-bi-tables-for-use-in-other-applications"></a>Waarden kopiëren uit Power BI-tabellen voor gebruik in andere toepassingen
+
+Uw tabel of matrix bevat mogelijk inhoud die u wilt gebruiken in andere toepassingen, bijvoorbeeld Dynamics CRM, Excel of zelfs andere Power BI-rapporten. Met een rechtermuisklik in Power BI kopieert en plakt u een afzonderlijke cel of een selectie cellen naar uw klembord in de andere toepassing.
+
+
+* Kopieer de waarde van een enkele cel, selecteer de cel, klik er met de rechtermuisknop op en kies **Waarde kopiëren**. Als u de onopgemaakte celwaarde naar uw klembord hebt gekopieerd, kunt u deze nu kopiëren in een andere toepassing.
+
+    ![kopieeropties](media/power-bi-visualization-tables/power-bi-copy-value.png)
+
+* Als u meer dan een enkele cel wilt kopiëren, selecteert u een reeks cellen, of gebruikt u CTRL om één of meer cellen te selecteren. De kolomkoppen en rijkoppen zijn opgenomen in de kopie.
+
+    ![kopieeropties](media/power-bi-visualization-tables/power-bi-copy-selection.png)
+
+    De kolomkoppen en rijkoppen zijn opgenomen in de kopie.
+
+    ![plakken in Excel](media/power-bi-visualization-tables/power-bi-paste-selection.png)
 
 ## <a name="adjust-the-column-width-of-a-table"></a>De kolombreedte van een tabel aanpassen
 In Power BI wordt soms een kolomkop in een rapport en in een dashboard afgekapt. Houd de muis boven de ruimte aan de rechterkant van de kolomkop om de dubbele pijlen zichtbaar te maken. Selecteer deze en versleep ze om de volledige kolomnaam weer te geven.

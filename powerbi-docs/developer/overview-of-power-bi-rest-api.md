@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 3b19740616e7b9a390a883fde2fd96320de7b94a
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: a1492a98825ad26b2dde359cf9cec96cc4623e04
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973581"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223163"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Wat kunnen ontwikkelaars doen met de Power BI-API?
 
@@ -29,7 +29,7 @@ Hier volgen enkele dingen die u kunt doen met de Power BI-API‘s.
 | Dashboards, rapporten en tegels insluiten voor Power BI-gebruikers en niet-Power BI-gebruikers (app is eigenaar van gegevens) |[Dashboards, rapporten en tegels van Power BI insluiten](embedding-content.md) |
 | Een bestaande zakelijke werkstroom uitbreiden om belangrijke gegevens naar een Power BI-dashboard te pushen. |[Gegevens in een dashboard pushen](walkthrough-push-data.md) |
 | Verifiëren bij Power BI. |[Verifiëren bij Power BI](get-azuread-access-token.md) |
-| Een aangepast visueel element maken. |[Aangepaste visuele elementen maken met behulp van ontwikkelhulpprogramma's](../service-custom-visuals-getting-started-with-developer-tools.md) |
+| Een aangepast visueel element maken. |[Een aangepaste visual voor Power BI ontwikkelen](custom-visual-develop-tutorial.md) |
 
 > [!NOTE]
 > In de Power BI-API's worden app-werkruimten nog steeds groepen genoemd. Als er wordt verwezen naar groepen, werkt u in feite met app-werkruimten.
@@ -72,7 +72,7 @@ U kunt de Power BI-API gebruiken om gegevens naar een gegevensset te pushen. Met
 ## <a name="next-steps"></a>Volgende stappen
 
 [Gegevens naar een gegevensset pushen](walkthrough-push-data.md)  
-[Aan de slag met ontwikkelhulpprogramma's voor aangepaste visuele elementen](../service-custom-visuals-getting-started-with-developer-tools.md)  
+[Een aangepaste visual voor Power BI ontwikkelen](custom-visual-develop-tutorial.md)  
 [Power BI REST API reference](https://docs.microsoft.com/rest/api/power-bi/) (Naslag voor REST-API voor Power BI)  
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

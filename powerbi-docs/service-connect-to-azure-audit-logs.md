@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 882fdad2b29c9bd21ea0b979d5009dee86304159
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 4faaa63a3845125b4df1ec634d22b084b5ae25f2
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548138"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101204"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Verbinding met Azure Search maken via Power BI
 U kunt met het inhoudspakket van Azure controleren logboeken analyseren en visualiseren van gegevens die zijn opgeslagen in de auditlogboeken. Power BI haalt uw gegevens op en bouwt vervolgens een kant-en-klaar dashboard. Daarnaast worden er rapporten op basis van die gegevens gemaakt.
@@ -38,7 +38,7 @@ U kunt met het inhoudspakket van Azure controleren logboeken analyseren en visua
 5. Selecteer voor **Verificatiemethode** **oAuth2**\> **Aanmelden**.
    
     ![](media/service-connect-to-azure-audit-logs/creds.png)
-6. Voer uw accountreferenties in het aanmeldingsproces te voltooien.
+6. Voer uw accountreferenties in om het aanmeldingsproces te voltooien.
    
     ![](media/service-connect-to-azure-audit-logs/login.png)
 7. Power BI haalt de gegevens in uw auditlogboeken van Azure op en maakt een gebruiksklaar dashboard en rapport. 
@@ -53,7 +53,7 @@ U kunt met het inhoudspakket van Azure controleren logboeken analyseren en visua
 * Als uw gegevensset is ingesteld op dagelijks vernieuwen, kunt u het vernieuwingsschema wijzigen of de gegevensset handmatig vernieuwen met **Nu vernieuwen**
 
 ## <a name="system-requirements"></a>Systeemvereisten
-Het inhoudspakket van de auditlogboeken van Azure vereist toegang tot de logboeken voor controle in Azure Portal. Meer informatie hierover vindt u [hier](https://azure.microsoft.com/documentation/articles/insights-debugging-with-events/).
+Het inhoudspakket van de auditlogboeken van Azure vereist toegang tot de logboeken voor controle in de Azure-portal. Meer informatie hierover vindt u [hier](/azure/azure-resource-manager/resource-group-audit/).
 
 <a name="FindingParams"></a>
 
@@ -65,8 +65,8 @@ Er zijn twee eenvoudige manieren om uw abonnements-id te vinden.
 
 Uw abonnements-id bestaat uit een lange reeks cijfers en tekens, vergelijkbaar met het voorbeeld in stap \#4 hierboven. 
 
-## <a name="troubleshooting"></a>Probleemoplossing
-Als u een referentiefout of een fout waarbij er vanwege ongeldige referenties wordt geprobeerd te vernieuwen, verwijdert u alle instanties van de auditlogboeken van Azure en maakt u opnieuw verbinding.
+## <a name="troubleshooting"></a>Problemen oplossen
+Als u een referentiefout tegenkomt of een fout waarbij vanwege ongeldige referenties wordt geprobeerd te vernieuwen, verwijdert u alle instanties van de auditlogboeken van Azure en maakt u opnieuw verbinding.
 
 ## <a name="next-steps"></a>Volgende stappen
 [Wat is Power BI?](power-bi-overview.md)  

@@ -10,33 +10,38 @@ ms.topic: conceptual
 ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9945237088073a4f9111e06fd6729a1c4db10081
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: 215b4c8f46b2d39c6dcc5853c07e4e6526027881
+ms.sourcegitcommit: b343e44dbafc0b718c564402593d4b6e3a8ce97c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003312"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "51027455"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Rapportthema's gebruiken in Power BI Desktop
-Met **Rapportthema's** kunt u een kleurenthema op uw gehele rapport toepassen, zoals zakelijke kleuren, seizoensgebonden kleuren of andere kleurthema's die u op een rapport zou willen toepassen. Bij het toepassen van een **Rapportthema** worden voor alle visuals in het rapport de kleuren van het geselecteerde thema gebruikt. Er zijn enkele uitzonderingen van toepassing, zoals verderop in dit artikel wordt beschreven.
+Met **Rapportthema's** kunt u een kleurenthema op uw gehele rapport toepassen, zoals zakelijke kleuren, seizoensgebonden kleuren of andere kleurenthema's. Wanneer u een **Rapportthema** toepast, worden voor alle visuals in het rapport de kleuren van het geselecteerde thema gebruikt. Er zijn enkele uitzonderingen van toepassing, zoals verderop in dit artikel wordt beschreven.
 
-![](media/desktop-report-themes/report-themes_1.png)
+![Rapportthema's](media/desktop-report-themes/report-themes_1.png)
 
-Voor het toepassen van een **Rapportthema** is een JSON-bestand met een eenvoudige structuur vereist, die u in Power BI Desktop kunt importeren en op uw rapport kunt toepassen. De structuur van het JSON-bestand en het importeren ervan (maar een paar klikken) zijn snel en eenvoudig.
+Wanneer u een **Rapportthema** toepast, hebt u een JSON-bestand met een basisstructuur nodig. Dit JSON-bestand kunt u vervolgens in Power BI Desktop importeren en toepassen op uw rapport. De structuur van het JSON-bestand en het importproces van het bestand zijn snel en eenvoudig (maar een paar klikken).
 
-Vanaf de release uit september 2017 van **Power BI Desktop**, kunt u nog meer rapportthema-elementen definiëren met een JSON-bestand, en bijna alle elementen aanpassen (en standaardiseren) met behulp van het JSON-bestand dat u handmatig kunt aanpassen in het deelvenster **Opmaak**. Het doel van de release uit september 2017 (en van latere releases) is om u volledige controle te geven over hoe uw rapporten er tot in de details uitzien.
+Vanaf de **Power BI Desktop**-versie van september 2017 kunt u met een JSON-bestand nog meer rapportthema-elementen definiëren. U kunt ook bijna alle elementen aanpassen en standaardiseren. Als u elementen wilt aanpassen, kunt u het JSON-bestand handmatig aanpassen in het deelvenster **Opmaak**. Het doel van de release uit september 2017 (en van latere releases) is om u volledige en tot in de details controle te geven over hoe uw rapporten er uitzien.
 
 ### <a name="enable-report-themes"></a>Rapportthema's inschakelen
-Vanaf de augustus 2018-release van **Power BI Desktop** zijn rapportthema's algemeen beschikbaar en hoeven deze niet te worden ingeschakeld. 
+Vanaf de **Power BI Desktop**-versie van augustus 2018 zijn rapportthema's algemeen beschikbaar en hoeven deze niet te worden ingeschakeld. 
 
-Als u een eerdere versie van **Power BI Desktop** gebruikt, kunt u deze inschakelen als preview-functie door **Bestand > Opties en instellingen > Opties > Preview-functies** te selecteren en vervolgens het selectievakje naast **Aangepaste Rapportthema’s** in te schakelen. **Power BI Desktop** moet opnieuw worden opgestart nadat u de selectie hebt gemaakt.
+Als u een eerdere versie van **Power BI Desktop** gebruikt, kunt u deze als preview-functie inschakelen door de volgende stappen uit te voeren: 
 
-![](media/desktop-report-themes/report-themes_2.png)
+1. Selecteer **Bestand > Opties en instellingen > Opties > Preview-functies**. 
+2. Selecteer vervolgens het selectievakje naast **Rapportthema**. 
 
-Het wordt altijd aanbevolen te upgraden naar de meest recente versie van **Power BI Desktop**, die u via een koppeling in [Power BI Desktop downloaden](desktop-get-the-desktop.md) kunt krijgen. 
+**Power BI Desktop** moet opnieuw worden opgestart nadat u de selectie hebt gemaakt.
+
+![Aangepaste rapportthema's](media/desktop-report-themes/report-themes_2.png)
+
+Het is altijd raadzaam om een upgrade uit te voeren naar de meest recente versie van **Power BI Desktop**. Die kunt u downloaden via een koppeling in [Power BI Desktop downloaden](desktop-get-the-desktop.md). 
 
 ## <a name="how-report-themes-work"></a>Hoe Rapportthema's werken
-Als u rapportthema wilt toepassen op een Power BI Desktop-rapport, kunt u een selectie maken uit de beschikbare ingebouwde rapportthema's of kunt u een aangepast thema importeren.
+Als u een rapportthema wilt toepassen op een Power BI Desktop-rapport, kunt u een selectie maken uit de beschikbare ingebouwde rapportthema's of u kunt een aangepast thema importeren.
 
 | Ingebouwd rapportthema | Standaardkleurenschema    |
 |------ |---------- |
@@ -57,36 +62,44 @@ Uw rapportthema wordt toegepast op het rapport en u bent klaar om te beginnen.
 
 ### <a name="importing-report-themes"></a>Rapportthema's importeren
 
-Om een aangepast rapportthema te importeren, selecteert u de knop **Thema wisselen** in het lint **Start** en selecteert vervolgens **Thema importeren** in de vervolgkeuzelijst.
+Als u een aangepast rapportthema wilt importeren, selecteert u de knop **Thema wisselen** in het lint **Start**. Selecteer vervolgens **Thema importeren** in de vervolgkeuzelijst.
 
-![](media/desktop-report-themes/report-themes_3.png)
+![Thema importeren](media/desktop-report-themes/report-themes_3.png)
 
-Er wordt een venster weergegeven waarin u naar de locatie van het JSON-themabestand kunt navigeren. Power BI Desktop zoekt naar .JSON-bestanden, het bestandstype voor Power BI-rapportthema's. In de volgende afbeelding zijn enkele bestanden voor feestdagenthema's beschikbaar. We kiezen een thema voor een feestdag in maart.
+In het volgende venster kunt u bladeren naar de locatie van het JSON-themabestand. Power BI Desktop zoekt naar JSON-bestanden omdat JSON het bestandstype voor Power BI-rapportthema's is. In de volgende afbeelding zijn enkele bestanden voor feestdagenthema's beschikbaar. We kiezen een vakantiethema voor maart.
 
-![](media/desktop-report-themes/report-themes_4.png)
+![Vakantiethema](media/desktop-report-themes/report-themes_4.png)
 
-Power BI Desktop laat u weten wanneer het themabestand is geladen.
+Wanneer het themabestand is geladen, wordt dit in Power BI Desktop weergegeven.
 
-![](media/desktop-report-themes/report-themes_5.png)
+![Het thema is geïmporteerd](media/desktop-report-themes/report-themes_5.png)
 
 Nu het themabestand is geïmporteerd, kunnen we de eenvoudige en duidelijke structuur van het JSON-bestand bekijken.
 
 ## <a name="structure-of-a-report-theme-json-file"></a>Structuur van een JSON-bestand voor een Rapportthema
-Het eenvoudige JSON-bestand dat in het vorige gedeelte is geselecteerd (het bestand *St Patricks Day.json*), ziet er als volgt uit wanneer het in een teksteditor wordt geopend.
+ Als het basis-JSON-bestand dat in de vorige gedeelte is geselecteerd (het bestand *St Patricks Day.json*), in een teksteditor wordt geopend, ziet dit er als volgt uit:
 
-![](media/desktop-report-themes/report-themes_6.png)
+![JSON-bestand St. Patrick's day](media/desktop-report-themes/report-themes_6.png)
 
 Het JSON-bestand heeft de volgende vereiste regels:
 
-* **name**: dit is de themanaam, het enige vereiste veld
-* **dataColors**: een lijst met hexcode-kleurcodes die voor gegevens in Power BI Desktop-visuals moeten worden gebruikt. De lijst kan zo veel of zo weinig kleuren bevatten als u wilt
-* **background**, **foreground** en **tableAccent**: deze waarden zijn kleuren die moeten worden toegepast in verschillende typen visuals. De **foreground** is van toepassing op tekst in tekstvakken, tekst met KPI-doelen, tekst in kaarten met meerdere rijen, kaartwaardetekst, toelichtingstekst bij meters, tekst bij verticale slicerelementen, en totalen en waardeteksten voor **tabellen** en **matrixen**. De **background** is van toepassing op de invulling van knoppen en de achtergrond van labels in combinatiegrafieken. Hoe deze kleuren worden gebruikt, is afhankelijk van de visual die is toegepast. Voor de **tabel**- en **matrix**-visuals worden deze stijlen standaard toegepast.
+* **name**: de themanaam, het enige vereiste veld.
 
-Als u een stijl op een **tabel**- of **matrix**-visual wilt toepassen, selecteert u de visual en selecteert u in het deelvenster **Visualisaties** het gedeelte **Opmaak**. Vouw vervolgens **Matrixstijl** uit en selecteer een stijl in de vervolgkeuzelijst **Stijl**.
+* **dataColors**: de lijst met hexcode-kleurcodes die voor gegevens in Power BI Desktop-visuals moeten worden gebruikt. De lijst kan zo veel of zo weinig kleuren bevatten als u wilt.
 
-![](media/desktop-report-themes/report-themes_7.png)
+* **background**, **foreground** en **tableAccent**: de kleuren die moeten worden toegepast in verschillende typen visuals. 
+  - **foreground** is van toepassing op tekst in tekstvakken, tekst met KPI-doelen, tekst in kaarten met meerdere rijen, kaartwaardetekst, toelichtingstekst bij meters, tekst bij verticale slicerelementen, en totalen en waardeteksten voor **tabellen** en **matrixen**. 
+  - **background** is van toepassing op de opvulling van knoppen en de achtergrond van labels in combinatiegrafieken. Hoe deze kleuren worden gebruikt, is afhankelijk van de specifieke visualstijl die is toegepast. 
+  - In het geval van **tabel**- en **matrix**-visuals worden deze stijlen standaard toegepast.
 
-Hieronder volgt de tekst van het *St Patricks Day.json*-bestand, zodat u eenvoudig uw eigen JSON-bestand kunt maken met knippen en plakken:
+Als u een stijl wilt toepassen op een **tabel**- of **matrix**visual, voert u de volgende stappen uit: 
+1. Selecteer de visual. 
+2. Selecteer vervolgens in het deelvenster **Visualisaties** de sectie **Opmaak**.
+3. Vouw **Matrixstijl** uit en selecteer een stijl in de vervolgkeuzelijst **Stijl**.
+
+![Vervolgkeuzelijst Stijl](media/desktop-report-themes/report-themes_7.png)
+
+Hieronder volgt de tekst van het bestand *St Patricks Day.json* dat u kunt gebruiken om uw eigen JSON-bestand te maken:
 
     {
         "name": "St Patricks Day",
@@ -98,52 +111,52 @@ Hieronder volgt de tekst van het *St Patricks Day.json*-bestand, zodat u eenvoud
 
 Hier kunt u uw eigen hexcodes voor uw gewenste kleuren invoeren.
 
-Vanaf de release uit september 2017 van **Power BI Desktop** kan het JSON-bestand veel uitgebreider worden gemaakt. In het JSON-bestand definieert u alleen de opmaak die u wilt toepassen. Alles dat *niet* in het JSON bestand is opgegeven wordt teruggezet naar de standaardinstellingen van Power BI.
+Vanaf de **Power BI Desktop**-versie van september 2017 kan het JSON-bestand veel uitgebreider worden gemaakt. In het JSON-bestand definieert u alleen de opmaak die u wilt toepassen. Alles dat *niet* in het JSON bestand is opgegeven, wordt teruggezet naar de standaardinstellingen van Power BI.
 
-Het maken van een JSON-bestand heeft veel voordelen. U kunt bijvoorbeeld opgeven dat voor alle grafieken tekengrootte 12 moet worden gebruikt, of dat bepaalde visuals een specifieke lettertypefamilie gebruiken, of dat gegevenslabels voor bepaalde grafiektypen moeten worden uitgeschakeld.
+Het maken van een JSON-bestand heeft veel voordelen. U kunt bijvoorbeeld opgeven dat voor alle grafieken tekengrootte 12 moet worden gebruikt, of dat bepaalde visuals een specifieke lettertypefamilie gebruiken. Of u kunt gegevenslabels voor bepaalde grafiektypen uitschakelen.
 
-Met de mogelijkheid om een gedetailleerd JSON-bestand te gebruiken, kunt u een themabestand maken dat uw grafieken en rapporten standaardiseert, zodat u de rapporten van uw organisatie eenvoudig consistent kunt houden.
+Wanneer u een gedetailleerd JSON-bestand gebruikt, kunt u een themabestand maken dat uw grafieken en rapporten standaardiseert, zodat u de rapporten van uw organisatie eenvoudig consistent kunt houden.
 
-Zie het gedeelte **Indeling van JSON-bestand voor Rapportthema** aan het einde van dit artikel voor informatie over de indeling van het gedetailleerde JSON-bestand.
+Zie de sectie **Indeling van JSON-bestand voor Rapportthema** verderop in dit artikel voor informatie over de indeling van het gedetailleerde JSON-bestand.
 
 ## <a name="how-report-theme-colors-stick-to-your-reports"></a>Hoe de kleuren van een Rapportthema in uw rapporten behouden blijven
 Als u het rapport naar de **Power BI-service** publiceert, blijven de Rapportthema-kleuren behouden.
 
-Daarnaast komt het gedeelte **Gegevenskleuren** van het deelvenster **Opmaak** overeen met uw Rapportthema. Wanneer u na het toepassen van de vele groene en bruine kleuren uit het thema **St. Patrick's Day** bijvoorbeeld een visual selecteert en naar **Opmaak > Gegevenskleuren** gaat, ziet u het volgende.
+De sectie **Gegevenskleuren** van het deelvenster **Opmaak** komt overeen met uw Rapportthema. Selecteer bijvoorbeeld een visual nadat u de vele groene en bruine kleuren uit het thema **St. Patrick's Day** hebt toegepast. Ga daarna naar **Opmaak > Gegevenskleuren** en bekijk de volgende informatie:
 
-![](media/desktop-report-themes/report-themes_8.png)
+![Visualisaties](media/desktop-report-themes/report-themes_8.png)
 
 Ziet u al dat groen? Dat komt doordat de kleuren deel uitmaakten van het **Rapportthema** dat is geïmporteerd en toegepast.
 
 ### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>Situaties waarin de Rapportthema-kleuren niet behouden blijven in uw rapporten
-Als u een aangepaste kleurenset (of afzonderlijke kleur) op een bepaald gegevenspunt in een visual toepast, wordt bij het toepassen van een Rapportthema de aangepaste kleur voor het gegevenspunt *niet* overschreven.
+Stel, u past een aangepaste kleurenset (of één kleur) toe op een bepaald gegevenspunt in een visual. Wanneer u een Rapportthema toepast, wordt die aangepaste kleur van het gegevenspunt *niet* overschreven.
 
-Als u handmatig de kleur van een gegevenspunt hebt ingesteld met behulp van het gedeelte Themakleuren van het kleurenpalet, wordt/worden die kleur(en) *niet* bijgewerkt wanneer u een nieuw Rapportthema toepast. Als u uw standaardkleuren wilt herstellen (zodat ze worden bijgewerkt wanneer u een nieuw Rapportthema toepast), kunt u in het palet **Themakleuren** **Terugzetten naar standaardinstelling** selecteren.
+Misschien wilt u de kleur van een gegevenspunt ook handmatig instellen met behulp van de sectie Themakleuren. De kleuren worden *niet* bijgewerkt wanneer u een nieuw Rapportthema toepast. Als u uw standaardkleuren wilt herstellen (zodat ze worden bijgewerkt wanneer u een nieuw Rapportthema toepast), selecteert u in het palet **Themakleuren** de optie **Terugzetten naar standaardinstelling**.
 
-![](media/desktop-report-themes/report-themes_9.png)
+![Standaardinstellingen herstellen](media/desktop-report-themes/report-themes_9.png)
 
-Verder worden voor veel **Aangepaste visuele elementen** Rapportthema's niet toegepast.
+Verder worden voor veel **Aangepaste visuals** niet toegepast op Rapportthema's.
 
 ## <a name="report-theme-files-you-can-use-right-now"></a>Rapportthema-bestanden die u nu kunt gebruiken
-Wilt u aan de slag gaan met **Rapportthema's**? Mooi! Hier volgen enkele vooraf gedefinieerde JSON-bestanden voor Rapportthema's die u kunt downloaden en importeren in uw **Power BI Desktop**-rapport, plus een installatiekopie van het Rapportthema dat is toegepast op het rapport dat in dit artikel wordt gebruikt.
+Wilt u aan de slag gaan met **Rapportthema's**? Hier volgen enkele kant-en-klare JSON-bestanden voor rapportthema's, die u kunt downloaden en importeren in uw **Power BI Desktop**-rapport. We hebben ook een afbeelding opgenomen van het rapportthema dat is toegepast op het rapport in dit artikel.
 
 * Het [thema](https://go.microsoft.com/fwlink/?linkid=843924) dat is gebruikt in de [blogpost](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/) waarin de eerste release van **Rapportthema's** werd aangekondigd, genaamd [*waveform.json*](https://go.microsoft.com/fwlink/?linkid=843924).
 
-![](media/desktop-report-themes/report-themes_10.png)
+  ![Het thema waverform.json](media/desktop-report-themes/report-themes_10.png)
 
-* Het [thema dat gebruiksvriendelijker is voor slechtzienden](https://go.microsoft.com/fwlink/?linkid=843923) dan het standaard kleurthema, genaamd [*ColorblindSafe-Longer.json*](https://go.microsoft.com/fwlink/?linkid=843923).
+* Het [thema dat voor slechtzienden gemakkelijker is te lezen](https://go.microsoft.com/fwlink/?linkid=843923) dan het standaardkleurenthema. Het wordt [*ColorblindSafe-Longer.json*](https://go.microsoft.com/fwlink/?linkid=843923) genoemd.
 
-![](media/desktop-report-themes/report-themes_11.png)
+  ![Het thema ColorblindSafe-Longer.json.](media/desktop-report-themes/report-themes_11.png)
 
-* Een aantal [Power View-thema's](https://go.microsoft.com/fwlink/?linkid=843925) ingepakt in een zip-bestand, waaronder een met de naam [*Apothecary.json*](https://go.microsoft.com/fwlink/?linkid=843925) die hieronder wordt weergegeven.
+* Een aantal [Power View-thema's](https://go.microsoft.com/fwlink/?linkid=843925) gecomprimeerd in een zip-bestand, waaronder een thema met de naam [*Apothecary.json*](https://go.microsoft.com/fwlink/?linkid=843925), dat hieronder wordt weergegeven.
 
-![](media/desktop-report-themes/report-themes_12.png)
+  ![Het thema Apothecary.json](media/desktop-report-themes/report-themes_12.png)
 
-* Ten slotte is er nog een lief thema (het thema *Valentine's Day*) dat zeker de aandacht trekt.
+* En tot slot ziet u hier het thema *Valentijnsdag*.
 
-![](media/desktop-report-themes/report-themes_13.png)
+  ![Het thema Valentijnsdag](media/desktop-report-themes/report-themes_13.png)
 
-Hier is de code van het JSON-bestand van Valentine's Day in plaats van een download:
+In plaats van u een download te geven, vindt u hier de code van het JSON-bestand van Valentijnsdag:
 
     {
         "name": "Valentine's Day",
@@ -153,9 +166,9 @@ Hier is de code van het JSON-bestand van Valentine's Day in plaats van een downl
         "tableAccent": "#990011"
     }
 
-Met **Rapportthema's** kunt u van uw Power BI Desktop-rapporten een kleurrijke weerspiegeling van uzelf, uw organisatie of het huidige seizoen of een actuele feestdag maken. Probeer ze eens uit. Het is eenvoudig.
+Met **Rapportthema's** kunt u van uw Power BI Desktop-rapporten een kleurrijke weerspiegeling van uzelf, uw organisatie of het huidige seizoen of een actuele feestdag maken. 
 
-Hier volgen nog wat meer rapportthema's die u als uitgangspunt kunt nemen:
+Hier volgen nog enkele rapportthema's die u als uitgangspunt kunt nemen:
 
 * [Sunflower-twilight](https://community.powerbi.com/t5/Themes-Gallery/Sunflower-Twilight/m-p/140749)
 * [Plum](https://community.powerbi.com/t5/Themes-Gallery/Plum/m-p/140711)
@@ -165,11 +178,11 @@ Hier volgen nog wat meer rapportthema's die u als uitgangspunt kunt nemen:
 ## <a name="report-theme-json-file-format"></a>Indeling van JSON-bestand voor Rapportthema
 Het JSON-basisbestand heeft vijf vereiste regels:
 
-* **name**: dit is de themanaam, het enige vereiste veld
-* **dataColors**: een lijst met hexcode-kleurcodes die voor gegevens in Power BI Desktop-visuals moeten worden gebruikt. De lijst kan zo veel of zo weinig kleuren bevatten als u wilt
-* **background**, **foreground** en **tableAccent**: deze waarden zijn kleuren die moeten worden toegepast in verschillende typen visuals. De **foreground** is van toepassing op tekst in tekstvakken, tekst met KPI-doelen, tekst in kaarten met meerdere rijen, kaartwaardetekst, toelichtingstekst bij meters, tekst bij verticale slicerelementen, en totalen en waardeteksten voor **tabellen** en **matrixen**. De **background** is van toepassing op de invulling van knoppen en de achtergrond van labels in combinatiegrafieken. Hoe deze kleuren worden gebruikt, is afhankelijk van de visual die is toegepast. Voor de **tabel**- en **matrix**-visuals worden deze stijlen standaard toegepast.
+* **name**: de themanaam, het enige vereiste veld.
+* **dataColors**: de lijst met hexcode-kleurcodes die voor gegevens in Power BI Desktop-visuals moeten worden gebruikt. De lijst kan zo veel of zo weinig kleuren bevatten als u wilt.
+* **background**, **foreground** en **tableAccent**: de kleuren die moeten worden toegepast in verschillende typen visuals. De **foreground** is van toepassing op tekst in tekstvakken, tekst met KPI-doelen, tekst in kaarten met meerdere rijen, kaartwaardetekst, toelichtingstekst bij meters, tekst bij verticale slicerelementen, en totalen en waardeteksten voor **tabellen** en **matrixen**. De **background** is van toepassing op de opvulling van knoppen en de achtergrond van labels in combinatiegrafieken. Hoe deze kleuren worden gebruikt, is afhankelijk van de specifieke visualstijl die is toegepast. Voor de **tabel**- en **matrix**-visuals worden deze stijlen standaard toegepast.
 
-Als u een uitgebreid JSON-bestand wilt maken met gedetailleerder beheer van de opmaak, moet u een gedeelte **visualStyles** toevoegen in het JSON-bestand en opmaakgegevens in dit gedeelte opnemen. De indeling van het gedeelte **visualStyles** ziet er als volgt uit:
+Als u een uitgebreid JSON-bestand wilt maken met gedetailleerder beheer van de opmaak, moet u de sectie **visualStyles** toevoegen in het JSON-bestand. U neemt de specifieke opmaakgegevens op in de sectie **visualStyles**. De sectie **visualStyles** ziet er ongeveer als volgt uit:
 
     visualStyles: {
         visualName: {
@@ -181,17 +194,17 @@ Als u een uitgebreid JSON-bestand wilt maken met gedetailleerder beheer van de o
         }
     }
 
-Bij de gedeelten **visualName** en **cardName** kunt u een specifieke visual en cardName opgeven. U kunt ook een sterretje ('\*') gebruiken als u de instelling wilt toepassen op alle visuals of alle kaarten die een eigenschap voor een specifieke visual bevatten. U kunt het sterretje ('\*') gebruiken als u een instelling in uw hele rapport wilt toepassen, zoals een tekengrootte of specifieke lettertypefamilie die voor alle visuals in het rapport moeten worden gebruikt.
+Voor de secties **visualName** en **cardName** gebruikt u een specifieke visual en cardname. Gebruik een sterretje ('\*') als u wilt dat deze instelling wordt toegepast op alle visuals of kaarten die een eigenschap voor een specifieke visual hebben. U kunt het sterretje ('\*') ook gebruiken als u een instelling, zoals een tekengrootte of specifieke lettertypefamilie, wilt toepassen op alle visuals in uw rapport.
 
 > [!NOTE]
-> U hoeft alleen de opmaakelementen op te geven waarop u de instelling wilt toepassen. Eventuele opmaakelementen die niet in het JSON-bestand zijn opgenomen, worden naar de standaardwaarden en -instellingen teruggezet.
+> U hoeft alleen de opmaakelementen op te geven die u wilt aanpassen. Eventuele opmaakelementen die niet in het JSON-bestand zijn opgenomen, worden naar de standaardwaarden en -instellingen teruggezet.
 > 
 > 
 
 ### <a name="json-file-element-definitions"></a>Definities van JSON-bestandselementen
-De tabellen in dit gedeelte definiëren namen van visuals (*visualName*), kaartnamen (*cardName*) en de inventarisaties die nodig zijn om uw JSON-bestand te maken.
+De tabellen in deze sectie definiëren namen van visuals (*visualName*), kaartnamen (*cardName*) en de opsommingen die nodig zijn om uw JSON-bestand te maken.
 
-Wanneer u *dateTime* gebruikt, moet de datum een ISO-datum in enkele aanhalingstekens zijn met datetime aan het begin, als volgt:
+Wanneer u *dateTime* gebruikt, moet de datum een ISO-datum tussen enkele aanhalingstekens zijn met datetime aan het begin. Hier volgt een voorbeeld:
 
     “datetime’2011-10-05T14:48:00.000Z’”
 
@@ -231,7 +244,7 @@ Booleaanse waarden zijn *true* of *false*. Tekenreeksen moeten tussen dubbele aa
 | treemap |
 | waterfallChart |
 
-De volgende tabel definieert *cardName*-waarden. De eerste waarde in elke cel is de JSON-bestandsterm, de tweede waarde is de naam van de kaart zoals deze wordt weergegeven in de **Power BI Desktop**-gebruikersinterface.
+De volgende tabel definieert *cardName*-waarden. De eerste waarde in elke cel is het JSON-bestand. De tweede waarde is de naam van de kaart zoals deze wordt weergegeven in de gebruikersinterface van **Power BI Desktop**.
 
 | **cardName** |
 | --- |
@@ -288,7 +301,7 @@ De volgende tabel definieert *cardName*-waarden. De eerste waarde in elke cel is
 | zoom: Zoomen |
 
 ### <a name="properties-within-each-card"></a>Eigenschappen binnen elke kaart
-Het volgende gedeelte definieert de eigenschappen binnen elke kaart.
+De volgende sectie definieert de eigenschappen binnen elke kaart:
 
     "general":
         "responsive": {
@@ -1176,7 +1189,7 @@ Het volgende gedeelte definieert de eigenschappen binnen elke kaart.
             "Value"
           ],
           "description": [
-            "Set reference line numeric value "
+            "Set reference line numeric value"
           ]
         },
         "lineColor": {
@@ -1312,7 +1325,7 @@ Het volgende gedeelte definieert de eigenschappen binnen elke kaart.
             "Value"
           ],
           "description": [
-            "Set reference line numeric value "
+            "Set reference line numeric value"
           ]
         },
         "lineColor": {
@@ -2029,7 +2042,7 @@ Het volgende gedeelte definieert de eigenschappen binnen elke kaart.
             "Value"
           ],
           "description": [
-            "Set reference line numeric value "
+            "Set reference line numeric value"
           ]
         },
         "lineColor": {
@@ -3162,7 +3175,7 @@ Het volgende gedeelte definieert de eigenschappen binnen elke kaart.
 
 
 ### <a name="enumerations-in-the-json-file"></a>Inventarisaties in het JSON-bestand
-Het volgende gedeelte definieert de inventarisaties die u in het JSON-bestand kunt gebruiken.
+De volgende sectie definieert de opsommingen die u in het JSON-bestand kunt gebruiken.
 
     {
         "legend": {

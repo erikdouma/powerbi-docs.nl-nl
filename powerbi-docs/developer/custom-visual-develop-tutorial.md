@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
-ms.date: 10/26/2018
-ms.openlocfilehash: 813d65844fee21a6c10d4c95bd15fb18cf4c75c2
-ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
+ms.date: 11/06/2018
+ms.openlocfilehash: ed3a7a7c9f649f5ce834594572e3ab87b91181f5
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "50160169"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223416"
 ---
 # <a name="tutorial-developing-a-power-bi-custom-visual"></a>Zelfstudie: Een aangepaste visual voor Power BI ontwikkelen
 
@@ -39,6 +39,7 @@ In deze zelfstudie leert u het volgende:
 
 * Als u zich niet hebt geregistreerd voor **Power BI Pro**, [kunt u zich hier aanmelden voor een gratis proefversie](https://powerbi.microsoft.com/en-us/pricing/) voordat u begint.
 * U moet [Visual Studio Code](https://www.visualstudio.com/) hebben geïnstalleerd.
+* U hebt [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/setup/installing-windows-powershell?view=powershell-6) versie 4 of hoger voor Windows-gebruikers nodig OF [Terminal](https://macpaw.com/how-to/use-terminal-on-mac) voor OSX-gebruikers.
 
 ## <a name="setting-up-the-developer-environment"></a>De ontwikkelomgeving instellen
 
@@ -69,6 +70,8 @@ Nu moet u het pakket **pbiviz** installeren.
     ```
 
 ### <a name="creating-and-installing-a-certificate"></a>Een certificaat maken en installeren
+
+#### <a name="windows"></a>Windows
 
 1. Voer de volgende opdracht uit om een certificaat te maken.
 
@@ -117,13 +120,32 @@ Nu moet u het pakket **pbiviz** installeren.
 > [!Important]
 > Sluit de Windows PowerShell-sessie niet.
 
+#### <a name="osx"></a>OSX
+
+1. Als de vergrendeling in de linkerbovenhoek is vergrendeld, selecteert u deze om te ontgrendelen. Zoek naar *localhost* en dubbelklik op het certificaat.
+
+    ![SL-certificaat 1 op OSX installeren](media/custom-visual-develop-tutorial/install-ssl-certificate-osx.png)
+
+2. Selecteer **Altijd vertrouwen** en sluit het venster.
+
+    ![SL-certificaat 2 op OSX installeren](media/custom-visual-develop-tutorial/install-ssl-certificate-osx2.png)
+
+3. Voer uw gebruikersnaam en wachtwoord in. Selecteer **Instellingen bijwerken**.
+
+    ![SL-certificaat 3 op OSX installeren](media/custom-visual-develop-tutorial/install-ssl-certificate-osx3.png)
+
+4. Sluit alle browsers die u hebt geopend.
+
+> [!NOTE]
+> Als het certificaat niet wordt herkend, moet u de computer mogelijk opnieuw opstarten.
+
 ## <a name="creating-a-custom-visual"></a>Een aangepaste visual maken
 
 Nu u uw omgeving hebt ingesteld, is het tijd om uw aangepaste visual te maken.
 
 U kunt de volledige broncode voor deze zelfstudie [downloaden](https://github.com/Microsoft/PowerBI-visuals-circlecard).
 
-1. Controleer in Windows PowerShell of het pakket Power BI Visual Tools is geïnstalleerd.
+1. Controleer of het pakket Power BI Visual Tools is geïnstalleerd.
 
     ```powershell
     pbiviz
@@ -555,6 +577,10 @@ Bewerk het bestand **capabilities.json** zo dat de toewijzingen voor de gegevens
 U hebt nu de gegevensrollen geconfigureerd en de visual gebonden aan de gegevensweergave.
 
 In de volgende zelfstudie leert u hoe u opmaakopties toevoegt aan de aangepaste visual.
+
+## <a name="debugging"></a>Foutopsporing
+
+Zie de [handleiding voor foutopsporing](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/how-to-debug/) voor tips over het opsporen van fouten in uw aangepaste visual.
 
 ## <a name="next-steps"></a>Volgende stappen
 

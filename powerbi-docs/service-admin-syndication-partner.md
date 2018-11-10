@@ -7,62 +7,81 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/05/2017
+ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: c08a886584e45b83e559a509392df867e31f3d54
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 4854f05e3394d7b4eed2c67de8bbca5266a12ae3
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641178"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909313"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Kan Power BI niet toevoegen aan een abonnement voor een Office 365-partner
+
 Met Office 365 kunnen bedrijven Office 365 gebundeld en geïntegreerd met hun eigen oplossingen verkopen en eindklanten één aanspreekpunt bieden voor inkopen, facturering en ondersteuning.
 
-Als u van plan bent Power BI naast uw Office 365-abonnement aan te schaffen, kunt u het beste contact opnemen met uw partner. Als uw partner geen Power BI biedt, kunt u verschillende opties overwegen.
+Als u van plan bent om Power BI naast uw Office 365-abonnement aan te schaffen, kunt u het beste contact opnemen met uw partner. Als uw partner op dit moment geen Power BI aanbiedt, hebt u verschillende opties om dit te bereiken.
 
-1. U kunt de service via een ander kanaal kopen, dat wil zeggen rechtstreeks van Microsoft of van een andere partner. Deze optie is niet beschikbaar voor alle klanten, dit is afhankelijk van hun relatie met de partner. U kunt dit controleren door naar de **Office 365-beheerportal,**  > **Facturering** > **Abonnementen** te gaan. Als u **abonnementen** ziet, kunt u de service rechtstreeks bij Microsoft aanschaffen of u kunt contact opnemen met een partner die Power BI aanbiedt.
-   
-    ![](media/service-admin-syndication-partner/billingsub.png)
-2. Als er geen **abonnementen** vermeld staan onder **Facturering**, kunt u niet rechtstreeks bij Microsoft of een andere partner kopen. 
-   
-   ![](media/service-admin-syndication-partner/billing.png)
+# <a name="work-with-your-partner-to-purchase-power-bi"></a>Samenwerken met uw partner om Power BI aan te schaffen
 
-Als u Power BI niet rechtstreeks kunt kopen, hebt u toch een aantal opties, afhankelijk van het type Power BI-abonnement waarin u geïnteresseerd bent.
-
-[Power BI (gratis)](#power-bi-free)
-
-[Power BI Pro en Premium](#power-bi-pro-and-premium)
-
-## <a name="power-bi-free"></a>Power BI (gratis)
-Als u tevreden bent met het gratis aanbod voor Power BI, kunt u zich aanmelden voor de gratis service. Standaard zijn individuele aanmeldingen, ook wel ad-hoc-abonnementen genoemd, uitgeschakeld. Wanneer u zich aanmeldt voor Power BI, ziet u een bericht dat uw IT-afdeling de aanmelding voor Microsoft Power BI heeft uitgeschakeld.
-
-    Your IT department has turned off signup for Microsoft Power BI.
-
-![](media/service-admin-syndication-partner/sorry.png)
-
-Als u ad-hoc-abonnementen wilt inschakelen, kunt u contact opnemen met uw partner en vragen om deze te activeren. Als u een beheerder van uw tenant bent en weet hoe u met Azure Active Directory PowerShell-opdrachten moet werken, kunt u zelf ad-hoc-abonnementen inschakelen. [Meer informatie](https://technet.microsoft.com/library/jj151815.aspx)
-
-1. U moet zich eerst aanmelden bij Azure Active Directory met uw Office 365-referenties. In de eerste regel wordt naar uw referenties gevraagd. De tweede regel maakt verbinding met Azure Active Directory.
-   
-        $msolcred = get-credential
-        connect-msolservice -credential $msolcred
-   
-    ![](media/service-admin-syndication-partner/aad-signin.png)
-2. Als u bent aangemeld, kunt u de volgende opdracht opgeven om gratis aanmeldingen in te schakelen.
-   
-        Set-MsolCompanySettings -AllowAdHocSubscriptions $true
-
-## <a name="power-bi-pro-and-premium"></a>Power BI Pro en Premium
-Als u een abonnement op Power BI Pro of Power BI Premium wilt kopen, moet u samen met uw partner samenwerken nagaan welke opties u hebt.
+Als u een abonnement op Power BI Pro of Power BI Premium wilt kopen, werk dan samen met uw partner om na te gaan welke opties u hebt:
 
 * Uw partner stemt ermee in om Power BI toe te voegen aan hun portfolio zodat u van hen kunt kopen.
+
 * Uw partner kan overstappen naar een model waarbij u Power BI rechtstreeks bij Microsoft of een andere partner die Power BI aanbiedt, kunt kopen.
 
+# <a name="purchase-from-microsoft-or-another-channel"></a>Aanschaffen via Microsoft of een ander kanaal
+
+Afhankelijk van de relatie met uw partner kunt u Power BI rechtstreeks aanschaffen via Microsoft of een andere partner. U kunt controleren of u Power BI-abonnementen kunt toevoegen in de Office 365-beheerportal (vereist lidmaatschap met de rol van globale beheerder of factureringsbeheerder).
+
+1. Ga naar de [Office 365-beheerportal](https://admin.microsoft.com/AdminPortal/Home#/homepage).
+
+1. Open **Facturering** in het menu links:
+
+    * Als u **Abonnementen** ziet, kunt u de service rechtstreeks bij Microsoft aanschaffen of contact opnemen met een andere partner die Power BI aanbiedt.
+
+        ![Facturering: met abonnementen](media/service-admin-syndication-partner/billingsub.png)
+
+    * Als **Abonnementen** niet wordt weergegeven, kunt u Power BI niet rechtstreeks aanschaffen bij Microsoft of een andere partner.
+
+Als uw partner geen Power BI aanbiedt en u het niet rechtstreeks kunt aanschaffen bij Microsoft of een andere partner, kunt u zich registreren voor een gratis proefversie.
+
+## <a name="sign-up-for-a-free-trial"></a>Aanmelden voor een gratis proefversie
+
+U kunt zich aanmelden voor een gratis proefversie van Power BI Pro. Als u Power BI Pro aan het einde van de proefperiode niet aanschaft, hebt u nog steeds een gratis licentie die veel functies van Power BI biedt. Zie [Gratis versie van Power BI versus Power BI Pro](service-features-license-type.md) voor meer informatie.
+
+### <a name="enable-ad-hoc-subscriptions"></a>Ad-hoc-abonnementen inschakelen
+
+Standaard zijn individuele aanmeldingen, ook wel ad-hoc-abonnementen genoemd, uitgeschakeld. In dit geval ziet u het volgende bericht wanneer u probeert om u te registreren: *Uw IT-afdeling heeft registratie voor Microsoft Power BI uitgeschakeld*.
+
+!['Onze excuses'-afbeelding](media/service-admin-syndication-partner/sorry.png)
+
+Als u ad-hoc-abonnementen wilt inschakelen, kunt u contact opnemen met uw partner en vragen om deze te activeren. Als u een beheerder van uw tenant bent en weet hoe u Azure Active Directory PowerShell-opdrachten gebruikt, kunt u zelf ad-hoc-abonnementen inschakelen. [Azure Active Directory PowerShell voor Graph](/powershell/azure/active-directory/install-adv2/)
+
+1. Meld u met uw Office 365-referenties aan bij Azure Active Directory. Op de eerste regel van het script hieronder wordt u om uw referenties gevraagd. De tweede regel maakt verbinding met Azure Active Directory.
+
+    ```powershell
+    $msolcred = get-credential
+    connect-msolservice -credential $msolcred
+    ```
+
+    ![Uw referenties invoeren](media/service-admin-syndication-partner/aad-signin.png)
+
+1. Wanneer u bent aangemeld, voert u de volgende opdracht uit om de huidige instelling voor `AllowAdHocSubscriptions` te controleren.
+
+    ```powershell
+    Get-MsolCompanyInformation
+    ```
+
+1. Voer de volgende opdracht uit om gratis aanmeldingen in te schakelen.
+
+    ```powershell
+    Set-MsolCompanySettings -AllowAdHocSubscriptions $true
+    ```
+
 ## <a name="next-steps"></a>Volgende stappen
-[Azure AD beheren met Windows PowerShell](https://technet.microsoft.com/library/jj151815.aspx)  
-[Wat is Power BI Premium?](service-premium.md)
+
+[Power BI-licenties in uw organisatie](service-admin-licensing-organization.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
-

@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
-ms.date: 10/26/2018
-ms.openlocfilehash: dcefa427290fd804a0b2c79dc357e5f5bfbe7296
-ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
+ms.date: 11/06/2018
+ms.openlocfilehash: a3d36f988847df283576dae6cfe5870b707c6f98
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "50160161"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223255"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>Zelfstudie: Opmaakopties toevoegen aan een aangepaste Power BI-visual
 
@@ -254,6 +254,10 @@ U kunt het Power BI Desktop-rapport nu openen en de aangepaste visual Circle Car
 
 8. Bekijk hoe de knopinformatie verschijnt als u met uw muisaanwijzer over het pictogram **Circle Card** beweegt.
 
+## <a name="debugging"></a>Foutopsporing
+
+Zie de [handleiding voor foutopsporing](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/how-to-debug/) voor tips over het opsporen van fouten in uw aangepaste visual.
+
 ## <a name="next-steps"></a>Volgende stappen
 
-Als u meer wilt weten over hoe u uw nieuwe aangepaste visuals publiceert, zodat deze door anderen kunnen worden gebruikt, raadpleegt u [Aangepaste visuals publiceren naar AppSource](office-store.md).
+U kunt uw pas ontwikkelde visuals voor anderen beschikbaar stellen door ze naar **AppSource** te verzenden. Zie [Aangepaste visuals naar AppSource verzenden](office-store.md) voor meer informatie over dit proces.

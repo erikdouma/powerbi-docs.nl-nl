@@ -7,27 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/28/2017
+ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 955f4347630a781174d399d6a1363683745a4b3e
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 7dc30fa6e590772a1a9845aae1f4b0d4aeb91b98
+ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34293485"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50737028"
 ---
 # <a name="governance-and-deployment-approaches"></a>Beheer- en implementatiemethoden
-De afgelopen tientallen jaren zijn bedrijven zich steeds meer bewust geworden van de noodzaak om strategisch gegevensassets in te zetten om gebruik te maken van marktkansen. Door de uitvoering van concurrerende analyses of door hun inzicht in operationele patronen begrijpen veel organisaties nu dat ze voordeel kunnen halen uit een gegevensstrategie als een manier om hun concurrenten voor te blijven.  
 
-Dit technische document biedt een raamwerk om het rendement van investeringen met betrekking tot Power BI te verhogen, aangezien bedrijven ernaar streven om steeds slimmer met gegevens om te gaan.
+De afgelopen tientallen jaren zijn bedrijven zich steeds meer bewust geworden van de noodzaak om gegevensassets in te zetten om gebruik te maken van marktkansen. Door de uitvoering van concurrerende analyses of door hun inzicht in operationele patronen begrijpen veel organisaties nu dat ze voordeel kunnen halen uit een gegevensstrategie als een manier om hun concurrenten voor te blijven.  
 
-Business Intelligence-professionals duiden doorgaans slim met gegevens omgaande bedrijven aan als bedrijven die voordeel halen uit het gebruik van feitelijke informatie ter ondersteuning van besluitvorming.  Wij geven zelfs in onze beschrijving van bepaalde organisaties aan dat deze beschikken over een 'datacultuur'.
-Of het nu op organisatieniveau of afdelingsniveau is, een datacultuur kan een positieve invloed uitoefenen op de aanpassings- en groeimogelijkheden van een bedrijf.  Inzichten in gegevens hoeven niet altijd ondernemingsbreed te zijn om vérstrekkend te zijn: kleine Operational Insights die dagelijkse handelingen kunnen wijzigen, kunnen tevens een omslag bewerkstelligen.
+Het document [Power BI Governance and Deployment Approaches](http://go.microsoft.com/fwlink/?LinkId=785915&clcid=0x409) biedt een raamwerk om het rendement van investeringen met betrekking tot Power BI te verhogen, aangezien bedrijven ernaar streven om steeds slimmer met gegevens om te gaan.
 
-Deze bedrijven zijn ervan doordrongen dat feiten - en de analyse van feiten - leidend moeten zijn over de wijze waarop bedrijfsprocessen worden gedefinieerd. Teamleden willen naar gegevens zoeken, patronen identificeren en bevindingen delen met anderen. 
+Business Intelligence-professionals duiden doorgaans slim met gegevens omgaande bedrijven aan als bedrijven die voordeel halen uit het gebruik van feitelijke informatie ter ondersteuning van besluitvorming.  Wij geven zelfs in onze beschrijving van bepaalde organisaties aan dat deze beschikken over een *datacultuur*. Of het nu op organisatieniveau of afdelingsniveau is, een datacultuur kan een positieve invloed uitoefenen op de aanpassings- en groeimogelijkheden van een bedrijf.  Inzichten in gegevens hoeven niet altijd ondernemingsbreed te zijn om vérstrekkend te zijn: kleine operationele inzichten die dagelijkse handelingen veranderen, kunnen ook een omslag bewerkstelligen.
 
-Deze methode kan nuttig zijn ongeacht of de analyse via externe of interne zakelijke factoren wordt uitgevoerd. Het is in de eerste plaats een perspectief, niet een proces.
-
-Lees [Beheer- en implementatiemethoden in Power BI](http://go.microsoft.com/fwlink/?LinkId=785915&clcid=0x409) voor meer informatie over concepten, opties en suggesties voor beheer in het Power BI-ecosysteem.
+Deze bedrijven zijn ervan doordrongen dat feiten - en de analyse van feiten - leidend moeten zijn over de wijze waarop bedrijfsprocessen worden gedefinieerd. Teamleden willen naar gegevens zoeken, patronen identificeren en bevindingen delen met anderen. Deze methode kan nuttig zijn ongeacht of de analyse via externe of interne zakelijke factoren wordt uitgevoerd. Het is in de eerste plaats een perspectief, niet een proces. Lees het document voor meer informatie over concepten, opties en suggesties voor beheer in het Power BI-ecosysteem.
 

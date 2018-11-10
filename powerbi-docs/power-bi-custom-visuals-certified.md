@@ -2,6 +2,7 @@
 title: Gecertificeerde visualisaties in Power BI
 description: Vereisten en proces voor het indienen van een aangepast visueel element voor certificering. En een lijst met al gecertificeerde aangepaste visuele elementen.
 author: mihart
+ms.author: mihart
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
@@ -9,45 +10,46 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 10/30/2018
-ms.author: mihart
-ms.openlocfilehash: ba6c59d168deb5fb68f4b339f11fba795bae6452
-ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
+ms.openlocfilehash: 72b09083c50a88e2d22e9aa22f54ff014dafa998
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "50252394"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223439"
 ---
 # <a name="getting-a-custom-visual-certified"></a>Een aangepast visueel element laten *certificeren*
+
 ## <a name="what-is-meant-by-certified"></a>Wat is *gecertificeerd*?
+
 Een *gecertificeerd aangepast visueel element* is een visueel element dat voldoet aan bepaalde vereisten en strenge beveiligingstesten heeft doorstaan.  Wanneer een aangepast visueel element is gecertificeerd, kan het worden [geëxporteerd naar PowerPoint](consumer/end-user-powerpoint.md) en wordt het weergegeven in de e-mailberichten die gebruikers ontvangen wanneer deze zich [op rapportpagina's abonneren](consumer/end-user-subscribe.md). Natuurlijk kan het ook worden gebruikt als [standaard aangepaste visuals](power-bi-custom-visuals.md) die worden toegevoegd aan rapporten van Power BI-service en Power BI Desktop en worden weergegeven in Power BI mobile en ingevoegd.
 
-Bent u een webontwikkelaar en bent u geïnteresseerd in het maken van uw eigen visualisaties en wilt u deze toevoegen aan [Microsoft AppSource](https://appsource.microsoft.com)? Zie [Aan de slag met hulpprogramma's voor ontwikkelaars](service-custom-visuals-getting-started-with-developer-tools.md) voor meer informatie.
-
+Bent u een webontwikkelaar en bent u geïnteresseerd in het maken van uw eigen visualisaties en wilt u deze toevoegen aan [Microsoft AppSource](https://appsource.microsoft.com)? Zie [Een aangepaste visual voor Power BI ontwikkelen](developer/custom-visual-develop-tutorial.md) voor meer informatie.
 
 ## <a name="certification-requirements"></a>Vereisten voor certificering
-* Goedgekeurd door Microsoft AppSource    
-* Het aangepaste visuele element is geschreven met API-versie 1.2 of hoger    
-* De codeopslagplaats is beschikbaar voor controle (de code van het visuele element is bijvoorbeeld beschikbaar voor ons via GitHub)    
-* Er is alleen gebruikgemaakt van openbare controleerbare OSS-onderdelen    
-* Er worden geen externe services of bronnen gebruikt    
+
+* Goedgekeurd door Microsoft AppSource
+* Het aangepaste visuele element is geschreven met API-versie 1.2 of hoger
+* De codeopslagplaats is beschikbaar voor controle (de code van het visuele element is bijvoorbeeld beschikbaar voor ons via GitHub)
+* Er is alleen gebruikgemaakt van openbare controleerbare OSS-onderdelen
+* Er worden geen externe services of bronnen gebruikt
 
 > **TIP**: U wordt aangeraden EsLint met de standaardbeveiligingsregelset te gebruiken om uw code te valideren voordat u het visuele element indient.
-> 
-> 
 
 ## <a name="process-for-submitting-a-custom-visual-for-certification"></a>Proces voor het indienen van een aangepast visueel element voor certificering
+
 Een aangepast visueel element indienen voor certificering:
 
 1. Verzend een e-mailbericht naar de ondersteuning van Power BI voor aangepaste visuele elementen (pbicvsupport@microsoft.com). Neem de volgende informatie op in het e-mailbericht:    
 
-   * Titel: Aanvraag voor certificering van visueel element    
-   * Koppeling naar de GitHub-opslagplaats waar de broncode van het visuele element wordt gehost    
-   * Voldoen aan de vereisten (zie hierboven)    
-   * De code- en beveiligingscontrole doorstaan    
+   * Titel: Aanvraag voor certificering van visueel element
+   * Koppeling naar de GitHub-opslagplaats waar de broncode van het visuele element wordt gehost
+   * Voldoen aan de vereisten (zie hierboven)
+   * De code- en beveiligingscontrole doorstaan
 
 2. U krijgt bericht van het Microsoft-team voor aangepaste visuele elementen wanneer uw aangepaste visuele element is gecertificeerd en toegevoegd aan de lijst met gecertificeerde elementen (hieronder), of dat uw visuele element is geweigerd. In dat geval ontvangt u een rapport van de problemen die moeten worden verholpen. Het is de verantwoordelijkheid van de ontwikkelaar om contact te houden met Microsoft en hun gecertificeerde visuele elementen waar nodig bij te werken.
 
 ## <a name="removal-of-power-bi-certified-custom-visuals"></a>Gecertificeerde aangepaste visuele elementen uit Power BI verwijderen
+
 Microsoft kan naar eigen goeddunken een visueel element uit de lijst met gecertificeerde visuele elementen verwijderen.  
 
 ## <a name="list-of-custom-visuals-that-have-been-certified"></a>Lijst met aangepaste visuele elementen die zijn gecertificeerd
@@ -142,10 +144,11 @@ Microsoft kan naar eigen goeddunken een visueel element uit de lijst met gecerti
 | [Woordwolk](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380752) | [Video](https://youtu.be/AblTenl9fqo) |
 
 ## <a name="next-steps"></a>Volgende stappen
-[Aan de slag met ontwikkelhulpprogramma's voor aangepaste visuele elementen (Preview)](service-custom-visuals-getting-started-with-developer-tools.md)      
-[Microsoft-afspeellijst voor aangepaste visuele elementen op YouTube](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
-[Visualisaties in Power BI](visuals/power-bi-report-visualizations.md)  
-[Aangepaste visualisaties in Power BI](power-bi-custom-visuals.md)  
-[Aangepaste visuele elementen publiceren naar Microsoft AppSource](developer/office-store.md)  
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 
+* [Een aangepaste visual voor Power BI ontwikkelen](developer/custom-visual-develop-tutorial.md)
+* [Microsoft-afspeellijst voor aangepaste visuele elementen op YouTube](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
+* [Visualisaties in Power BI](visuals/power-bi-report-visualizations.md)  
+* [Aangepaste visualisaties in Power BI](power-bi-custom-visuals.md)  
+* [Aangepaste visuele elementen publiceren naar Microsoft AppSource](developer/office-store.md)  
+
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
