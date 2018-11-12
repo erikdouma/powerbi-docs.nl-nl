@@ -1,8 +1,8 @@
 # powerbi-content-pr
-You've found the GitHub repository for the technical documentation that is published to the Power BI Documentation Center at [http://powerbi.microsoft.com/documentation](http://powerbi.microsoft.com/documentation).
+U bevint zich in de GitHub repository voor de technische documentatie dat is gepubliceerd naar de Power BI Documentatie Center op [http://powerbi.microsoft.com/documentation](http://powerbi.microsoft.com/documentation).
 
-This repository also contains guidance to help you contribute to our technical documentation. For a list of the articles in the contributors' guide, see [the index](contributor-guide/contributor-guide-index.md).
+Deze repository bevat ook richtlijnen om u te helpen met bedrijgen aan onze technische documentatie. Voor een lijst van artikelen in de bijdragersgids kunt u [de inhoudsopgave](contributor-guide/contributor-guide-index.md) raadplegen.
 
-## Code of conduct
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+## Gedragscode
+Dit project heeft de [Microsoft Open Source Gedragscode](https://opensource.microsoft.com/codeofconduct/) aangenomen. Voor meer informatie, zie de [Gedragscode FAQ](https://opensource.microsoft.com/codeofconduct/faq/) of neem contact op met [opencode@microsoft.com](mailto:opencode@microsoft.com) voor overige vragen of opmerkingen.
 
