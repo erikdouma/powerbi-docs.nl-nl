@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: d265e465825fb8def167207ed632f1702adcbc7f
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 4bc9a0fe6dd3becd67c2b6dd8ffeb9d7922705a6
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973627"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507928"
 ---
 # <a name="view-reports-in-presentation-mode-on-surface-hub-and-windows-10---power-bi"></a>Rapporten weergeven in de presentatiemodus op Surface Hub en Windows 10 - Power BI
 U kunt rapporten weergeven in de presentatiemodus op Surface Hub en dashboards, rapporten en tegels in de modus Volledig scherm weergeven op Windows 10-apparaten. 
@@ -27,7 +27,7 @@ In de modus Volledig scherm in de mobiele Power BI-app worden alle ‘extra’s�
 
 Wanneer u een rapport in de presentatiemodus weergeeft op Surface Hub, kunt u met verschillende kleuren inkt tekenen op de pagina's en navigeren tussen de pagina's van het rapport.
 
-U kunt ook [dashboards en rapporten weergeven in de modus Volledig scherm van de Power BI-service](../../service-fullscreen-mode.md) op het web.
+U kunt ook [dashboards en rapporten weergeven in de modus Volledig scherm van de Power BI-service](../end-user-focus.md) op het web.
 
 > [!NOTE]
 > De presentatiemodus is niet hetzelfde als de [focusmodus voor tegels](mobile-tiles-in-the-mobile-apps.md).
@@ -74,6 +74,6 @@ De presentatiemodus is standaard ingeschakeld in Surface Hub, maar als deze uitg
 7. Veeg vanaf de bovenkant omlaag en tik op de twee naar elkaar gerichte pijlen ![](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-hub-icon.png) om de modus Volledig scherm af te sluiten.
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Dashboards en rapporten weergeven in de modus Volledig scherm van de Power BI-service](../../service-fullscreen-mode.md)
+* [Dashboards en rapporten weergeven in de modus Volledig scherm van de Power BI-service](../end-user-focus.md)
 * Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

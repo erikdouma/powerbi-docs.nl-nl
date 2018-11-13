@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 636dbceae129d7a5288fa6dfc8a281d5257a087f
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: be7597cf13732e251f40f73a853e6ea7b0032652
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564987"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507664"
 ---
 # <a name="printing-from-power-bi-service"></a>Afdrukken via de Power BI-service
 U kunt een volledig dashboard, een dashboardtegel, een rapportpagina of een rapportvisual afdrukken via de Power BI-service. Rapporten kunnen slechts pagina voor pagina worden afgedrukt. U kunt niet het hele rapport in een keer afdrukken.
@@ -47,7 +47,7 @@ Kijk hoe Amanda afdrukt vanuit haar dashboard en rapport. Volg vervolgens de sta
 1. [Open de tegel in de focusmodus](end-user-focus.md) door het weglatingsteken te selecteren en het focuspictogram ![Focuspictogram](./media/end-user-print/power-bi-focus-icon.png) te kiezen.
    
     ![Menu met weglatingstekens](./media/end-user-print/menu-options.png)
-2. Open de tegel in de [modus Volledig scherm](../service-fullscreen-mode.md) door in de navigatiebalk aan de bovenkant het pictogram voor de modus Volledig scherm ![Pictogram voor modus Volledig scherm](./media/end-user-print/power-bi-full-screen-icon.png) te selecteren.
+2. Open de tegel in de [modus Volledig scherm](end-user-focus.md) door in de navigatiebalk aan de bovenkant het pictogram voor de modus Volledig scherm ![Pictogram voor modus Volledig scherm](./media/end-user-print/power-bi-full-screen-icon.png) te selecteren.
 3. Beweeg de muisaanwijzer over de tegel om het menu Opties weer te geven.
    
     ![Menu met opties voor volledig scherm](./media/end-user-print/menu-options-new.png)

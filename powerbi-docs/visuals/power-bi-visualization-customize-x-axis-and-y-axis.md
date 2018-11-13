@@ -8,15 +8,15 @@ featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c547cd83d879cd81fe12c02f5418f5bf44ca1483
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 62a8ae907b01c8309aee101aa074e9bfb72b207d
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545940"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51265904"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>De eigenschappen van de X-as en Y-as aanpassen
 In deze zelfstudie leert u veel verschillende manieren om de X-as en Y-as van uw visualisaties aan te passen. Niet alle visualisaties hebben assen of kunnen worden aangepast. Zo hebben cirkeldiagrammen bijvoorbeeld geen assen. Bovendien verschillen de aanpassingsopties per visualisatie; er zijn te veel opties om ze in één artikel te behandelen. We werpen een blik op een aantal van de meestgebruikte as-aanpassingen, en maken u vertrouwd met het tabblad voor visuele opmaak in het rapportcanvas van Power BI.  
@@ -86,30 +86,33 @@ Eerst maakt u een Combinatiegrafiek waarmee u de impact kunt bekijken die het aa
 
     ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-line-chart.png)
 
-> [NOTE]: For help sorting by month, see [sorting by other criteria](../consumer/end-user-change-sort.md#other)
-> 1. In januari was de brutomarge 35%, in april nemen we een piek (45%) waar, in juli daalde het brutomargepercentage en in augustus was er opnieuw een daling. Krijgen we een soortgelijk patroon voor afgelopen jaar en dit jaar te zien?
-> 2. Voeg **Omzet van dit jaar > Waarde** en **Omzet van afgelopen jaar** aan het lijndiagram toe. De schaal van **BM % vorig jaar** (de blauwe lijn die langs de rasterlijn 0% loopt) is veel kleiner dan de schaal van **Verkoop**, waardoor het lastig is om de waarden te vergelijken. Een de percentages in de labels op de Y-as zijn absurd.      
+    > [NOTE]: For help sorting by month, see [sorting by other criteria](../consumer/end-user-change-sort.md#other)
 
-   ![](media/power-bi-visualization-customize-x-axis-and-y-axis/flatline_new.png)
+    In januari was de brutomarge 35%, in april nemen we een piek (45%) waar, in juli daalde het brutomargepercentage en in augustus was er opnieuw een daling. Krijgen we een soortgelijk patroon voor afgelopen jaar en dit jaar te zien?
+     
+3. Voeg **Omzet van dit jaar > Waarde** en **Omzet van afgelopen jaar** aan het lijndiagram toe. De schaal van **BM % vorig jaar** (de blauwe lijn die langs de rasterlijn 0% loopt) is veel kleiner dan de schaal van **Verkoop**, waardoor het lastig is om de waarden te vergelijken. Een de percentages in de labels op de Y-as zijn absurd.      
+
+    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/flatline_new.png)
+
 5. Converteer het lijndiagram naar een Lijndiagram en gestapeld kolomdiagram, zodat de visualisatie eenvoudiger te lezen en te interpreteren is.
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/converttocombo_new.png)
 
 6. Sleep **Brutomarge% vorig jaar** van **Kolomwaarden** naar **Lijnwaarden**. Nu hebben we het gestapelde kolomdiagram dat we hierboven hebben gemaakt, ***plus*** een lijndiagram.  (Gebruik eventueel wat u hierboven hebt geleerd om de tekenkleur en-grootte van de assen op te maken.)
    
-
    In Power BI worden twee assen gemaakt, zodat de gegevenssets verschillend kunnen worden geschaald. Aan de linkerkant in dollars en aan de rechterkant in percentages.
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual-axes-new.png)
 
 ### <a name="format-the-secondary-y-axis"></a>Maak de secundaire Y-as op
-1. Selecteer het verfrollerpictogram in het deelvenster **Visualisaties** om de opmaakopties weer te geven.
-2. Selecteer de pijl-omlaag om de opties voor de Y-as uit te vouwen.
-3. Blader door de lijst totdat u de opties voor **Secundaire weergeven** ziet. Schakel **Secundaire weergeven** van **Uit** naar **Aan**.
+1. Selecteer het verfrollerpictogram in het deelvenster **Visualisaties** om de opmaakopties weer te geven.    
+2. Selecteer de pijl-omlaag om de opties voor de Y-as uit te vouwen.    
+3. Blader door de lijst totdat u de opties voor **Secundaire weergeven** ziet. Schakel **Secundaire weergeven** van **Uit** naar **Aan**.    
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/combo3.png)
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual-axes.png)
+
 4. (Optioneel) Pas de twee assen aan. Als u de **Positie** voor de kolomas of de lijnas verwisselt, wisselen de twee assen van kant.
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-y-axes-options.png)
@@ -120,7 +123,7 @@ Met een visualisatie die zo ingewikkeld is, is het nuttig om astitels toe te voe
 1. Zet de **Titel** op **Aan** voor **Y-as (kolom)** en de **Y-as (rij)**.
 2. Stel **Stijl** in op **Alleen titel weergeven**.
 
-   ![](media/power-bi-visualization-customize-x-axis-and-y-axis/yaxissettings.png)
+   ![](media/power-bi-visualization-customize-x-axis-and-y-axis/yaxissettings.png)    
 3. Uw Combinatiegrafiek bevat nu twee assen, beide met titels.
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-combo-chart.png)

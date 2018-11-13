@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 580d1ead35042d14c155c5a28fdb6ba6e6dbcd54
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 082d0ba1e638e8eaf6ae16fa8d5ed63c128c8ad5
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544936"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507848"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Tips voor het ontwerpen van een geweldig Power BI-dashboard
 Nu u een dashboard hebt gemaakt en een aantal tegels hebt toegevoegd, kunt u nadenken over hoe u ervoor zorgt dat het dashboard niet alleen mooi, maar ook functioneel is. Dit betekent in de praktijk meestal dat de belangrijkste informatie een opvallende plaats krijgt, en dat het dashboard netjes en opgeruimd is.
@@ -43,7 +43,7 @@ Omdat dashboards zijn bedoeld om belangrijke informatie in één oogopslag te ku
 Is het dashboard te vol?  Verwijder alle gegevens behalve de essentiële die gemakkelijk kunnen worden gelezen en geïnterpreteerd.
 
 ## <a name="make-use-of-full-screen-mode"></a>De modus volledig scherm gebruiken
-Geef het dashboard weer op het [volledige scherm](service-fullscreen-mode.md), zodat lezers niet worden afgeleid.
+Geef het dashboard weer op het [volledige scherm](consumer/end-user-focus.md), zodat lezers niet worden afgeleid.
 
 ## <a name="make-the-most-important-information-biggest"></a>De belangrijkste informatie het grootste maken
 Als de tekst en visualisaties op het dashboard allemaal even groot zijn, kunnen uw lezers moeilijker bepalen wat het belangrijkste is. Kaartvisualisaties zijn bijvoorbeeld een goede manier om een belangrijk getal prominent weer te geven:  
