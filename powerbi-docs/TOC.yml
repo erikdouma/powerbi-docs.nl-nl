@@ -54,9 +54,11 @@ items:
     items:
     - name: Wat is er nieuw in de meest recente update voor Power BI Desktop?
       href: desktop-latest-update.md
-    - name: Aggregaties in Power BI Desktop (preview-versie)
+    - name: Modelweergave in Power BI Desktop (preview)
+      href: desktop-modeling-view.md
+    - name: Aggregaties in Power BI Desktop (preview)
       href: desktop-aggregations.md
-    - name: Samengestelde modellen in Power BI Desktop (preview-versie)
+    - name: Samengestelde modellen in Power BI Desktop
       href: desktop-composite-models.md
     - name: Veel-op-veelrelaties in Power BI Desktop (preview-versie)
       href: desktop-many-to-many-relationships.md
@@ -232,6 +234,8 @@ items:
         href: desktop-bookmarks.md
       - name: Rapportthema's gebruiken
         href: desktop-report-themes.md
+      - name: De nieuwe filterfunctionaliteit uitproberen
+        href: power-bi-report-filter-preview.md
       - name: Snelle metingen gebruiken
         href: desktop-quick-measures.md
       - name: Wat-als-parameters gebruiken
@@ -768,17 +772,17 @@ items:
       items:
       - name: Selfservice voor gegevensvoorbereiding met gegevensstromen (preview)
         href: service-dataflows-overview.md
-      - name: Gegevensstromen maken en gebruiken
+      - name: Gegevensstromen maken en gebruiken (preview)
         href: service-dataflows-create-use.md
-      - name: Berekende entiteiten met Power BI Premium
+      - name: Berekende entiteiten met Power BI Premium (preview)
         href: service-dataflows-computed-entities-premium.md
-      - name: Gegevensstromen gebruiken met on-premises gegevensbronnen
+      - name: Gegevensstromen gebruiken met on-premises gegevensbronnen (preview)
         href: service-dataflows-on-premises-gateways.md
       - name: Entiteiten koppelen tussen gegevensstromen (preview)
         href: service-dataflows-linked-entities.md
       - name: Incrementeel vernieuwen gebruiken met gegevensstromen (preview)
         href: service-dataflows-incremental-refresh.md
-      - name: Bronnen voor ontwikkelaars met betrekking tot gegevensstromen
+      - name: Bronnen voor ontwikkelaars met betrekking tot gegevensstromen (preview)
         href: service-dataflows-developer-resources.md
       - name: Verbinding maken met gegevensstromen in Power BI Desktop
         href: desktop-connect-dataflows.md
@@ -1249,9 +1253,9 @@ items:
       href: service-admin-governance.md
     - name: Beveiliging van Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 7c2025a2dd23ce58937cd9987bec8d28b8ffb04c
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 89c0a22887d00b325abeddd193bbf71af97feb9f
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51508055"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619653"
