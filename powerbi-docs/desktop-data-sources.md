@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a5a4f6532fe127fe01b699ee9d9e89693fdb369e
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: a49b433af32e6c0f03d43333a424864c5463ddd3
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336893"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619811"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Gegevensbronnen in Power BI Desktop
 Met Power BI Desktop kunt u verbinding maken met gegevens uit veel verschillende bronnen. Onderaan op deze pagina vindt u een volledige lijst met beschikbare gegevensbronnen.
@@ -30,8 +30,6 @@ Als u **Meer...** selecteert in het menu **Meest voorkomend**, wordt het venster
 
 > [!NOTE]
 > Het Power BI-team breidt de beschikbare gegevensbronnen voor **Power BI Desktop** en de **Power BI-service** voortdurend uit. Daarom ziet u vaak vroege versies van gegevensbronnen waaraan wordt gewerkt en die worden aangeduid als *bèta* of *preview*. Een gegevensbron die wordt gemarkeerd als *bèta* of *preview*, heeft beperkte ondersteuning en functionaliteit en dient niet te worden gebruikt in een productieomgeving.
-> 
-> 
 
 ## <a name="data-sources"></a>Gegevensbronnen
 Gegevenstypen zijn ingedeeld in de volgende categorieën:
@@ -40,7 +38,7 @@ Gegevenstypen zijn ingedeeld in de volgende categorieën:
 * Bestand
 * Database
 * Power BI
-* Azuur
+* Azure
 * Onlineservices
 * Overige
 
@@ -80,15 +78,14 @@ De categorie **Database** biedt de volgende gegevensverbindingen:
 * Impala
 * Google BigQuery
 * Snowflake
+* BI-connector
+* Exasol
 * Dremio (bèta)
-* Exasol (bèta)
 * Jethro (bèta)
 * Kyligence Enterprise (bèta)
 
 > [!NOTE]
 > Sommige databaseconnectors moet u eerst inschakelen door **Bestand > Opties en instellingen > Opties** te selecteren en vervolgens **Voorbeeldfuncties** en de connector in te schakelen. Als u geen van de hierboven genoemde connectors ziet en ze wel wilt gebruiken, controleert u de instellingen voor **Voorbeeldfuncties**. Houd er ook rekening mee dat een gegevensbron die wordt gemarkeerd als *bèta* of *preview*, beperkte ondersteuning en functionaliteit heeft en niet dient te worden gebruikt in een productieomgeving.
-> 
-> 
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Database**.
 
@@ -111,11 +108,11 @@ De categorie **Azure** biedt de volgende gegevensverbindingen:
 * Azure Blob-opslag
 * Azure-tabelopslag
 * Azure Cosmos DB (bèta)
-* Azure Data Lake Store
+* Azure Data Lake Storage
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * HDInsight Interactive Query
-* Azure KustoDB (bèta)
+* Azure Data Explorer (Beta)
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Azure**.
 
@@ -131,7 +128,8 @@ De categorie **Onlineservices** biedt de volgende gegevensverbindingen:
 * Dynamics 365 Business Central (on-premises)
 * Common Data Service voor apps (bèta)
 * Inzicht van Microsoft Azure-verbruik (bèta)
-* Visual Studio-teamservices (bèta)
+* Azure DevOps (Beta)
+* Azure DevOps Server (Beta)
 * Salesforce-objecten
 * Salesforce-rapporten
 * Google Analytics
@@ -187,8 +185,6 @@ In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Overige
 
 > [!NOTE]
 > Op dit moment is het niet mogelijk om verbinding te maken met aangepaste gegevensbronnen die zijn beveiligd met Azure Active Directory.
-> 
-> 
 
 ## <a name="connecting-to-a-data-source"></a>Verbinding maken met een gegevensbron
 Als u verbinding wilt maken met een gegevensbron, selecteert u de gegevensbron in het venster **Gegevens ophalen** en selecteert u **Verbinding maken**. In de volgende afbeelding is **Web** geselecteerd in de categorie **Overige**.

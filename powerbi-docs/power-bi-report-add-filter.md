@@ -1,25 +1,27 @@
 ---
-title: Een filter toevoegen aan een visualisatie, pagina, drillthrough of rapport in Power BI
-description: Een paginafilter, visualisatiefilter, rapportfilter of drillthrough-filter toevoegen aan een rapport in Power BI
+title: Een filter toevoegen aan een Power BI-filter
+description: Een paginafilter, visualisatiefilter of rapportfilter aan rapport in Power BI toevoegen
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/28/2018
+ms.date: 11/08/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: c70e29bf7dcd5a307cbcb4762595716595dfa523
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: c50afced257df1878a0a695a37d9401d9eda01b7
+ms.sourcegitcommit: ea77827127e0781f1d6877c0a3078aec7eb6694a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973276"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "51611147"
 ---
 # <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Een filter aan een Power BI-servicerapport toevoegen (in de bewerkingsweergave)
 
 In dit artikel wordt uitgelegd hoe u een paginafilter, visualisatiefilter, rapportfilter of drillthrough-filter toevoegt aan een rapport in Power BI. De voorbeelden in dit artikel hebben betrekking op de Power BI-service. De stappen zijn bijna identiek voor Power BI Desktop.
+
+**Wist u dat?** Power BI heeft een nieuwe filterervaring die momenteel in preview is. Lees meer over de [nieuwe filterervaring in Power BI-rapporten](power-bi-report-filter-preview.md).
 
 ## <a name="filters-in-editing-view-or-reading-view"></a>Filters in de bewerkingsweergave of leesweergave
 U kunt in twee verschillende weergaven werken met rapporten: leesweergave en bewerkingsweergave. De beschikbare filtermogelijkheden zijn afhankelijk van de weergave waarin u werkt. Zie [Over filters en markeren in Power BI-rapporten](power-bi-reports-filters-and-highlighting.md) voor uitgebreide informatie.
@@ -109,7 +111,7 @@ Met drillthrough in Power BI-service en Power BI Desktop kunt u een *doelpagina*
 ### <a name="create-a-drillthrough-filter"></a>Een drillthrough-filter maken
 Open hiertoe het voorbeeld van klantwinstgevendheid in de bewerkingsweergave. Stel dat u een pagina wilt die zich richt op leidinggevende, zakelijke gebieden.   
 
-1. Voeg een nieuwe pagina aan het rapport toe en geef deze de naam **Leidinggevend team**. Dit wordt de drillthrough-*doelpagina*.
+1. Voeg een nieuwe pagina aan het rapport toe en geef deze de naam **Leidinggevend team**. Deze pagina wordt het drillthrough-*doel*.
 2. Voeg visualisaties toe die belangrijke metrische gegevens voor de bedrijfstakken van het leidinggevend team volgen.    
 3. Voeg ook **Leidinggevende > Naam leidinggevende** toe aan de drillthrough-filters.    
    
@@ -144,7 +146,7 @@ We gaan nu kijken hoe het drillthrough-filter werkt.
 
 - Er zijn situaties waarin het filter op visueel niveau en op paginaniveau verschillende resultaten kunnen geven.  Als u bijvoorbeeld een filter op visueel niveau toevoegt, wordt er door Power BI gefilterd op de geaggregeerde resultaten.  De standaardaggregatie is Som, maar u kunt [het samenvoegingstype wijzigen](service-aggregates.md) (Engelstalig).  
 
-    Als u vervolgens een filter op paginaniveau toevoegt, wordt er door Power BI zonder aggregeren gefilterd.  Dit gebeurt omdat een pagina meerdere visuele elementen kan bevatten die elk verschillende aggregatietypen kunnen gebruiken.  Het filter wordt dus op elke gegevensrij toegepast.
+    Als u vervolgens een filter op paginaniveau toevoegt, wordt er door Power BI zonder aggregeren gefilterd.  Er wordt niet geaggregeerd, omdat een pagina veel visuals kan bevatten die allemaal verschillende aggregatietypen hanteren.  Het filter wordt dus op elke gegevensrij toegepast.
 
 - Als u het deelvenster Velden niet ziet, controleer dan of u in de [bewerkingsweergave](service-interact-with-a-report-in-editing-view.md) voor rapporten zit    
 - Als u veel wijzigingen in de filters hebt aangebracht en wilt terugkeren naar de standaardinstellingen van de auteur van het rapport, selecteert u **Standaardinstelling herstellen** in de bovenste menubalk.

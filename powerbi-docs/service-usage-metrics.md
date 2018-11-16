@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 11/13/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4c10a0ffdf11829d8faa15ea14be136922c86382
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 7b511a28f056df268216552f7d075a88c047f9f3
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545016"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619834"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Metrische gegevens over het gebruik van dashboards en rapporten
 
@@ -69,9 +69,9 @@ Om de rapportgegevens nader te bekijken of om uw eigen rapporten samen te stelle
     > [!NOTE]
     > Als u een tegel van een rapport met metrische gegevens over gebruik vastmaakt aan een dashboard, kan dat dashboard niet worden toegevoegd aan een app of een inhoudspakket.
 
-## <a name="what-metrics-are-reported"></a>Welke metrische gegevens worden gerapporteerd?
+## <a name="which-metrics-are-reported"></a>Welke metrische gegevens worden gerapporteerd?
 
-| Meetwaarde | Dashboard | Rapport | Beschrijving |
+| Metrische gegevens | Dashboard | Rapport | Beschrijving |
 | --- | --- | --- | --- |
 | Distributiemethodeslicer |ja |ja |Hoe gebruikers toegang kregen tot de inhoud. Er zijn drie mogelijke methoden: gebruikers kunnen toegang krijgen tot het dashboard of rapport door lid te zijn van een [app-werkruimte](consumer/end-user-experience.md), doordat de inhoud [met hen is gedeeld](service-share-dashboards.md) of door een inhoudspakket/-app te installeren.  Weergaven door middel van een app worden geteld als inhoudspakket. |
 | Platformenslicer |ja |ja |Is het dashboard of rapport benaderd via de Power BI-service (powerbi.com) of een mobiel apparaat? Mobiel omvat al onze iOS-, Android- en Windows-apps. |
@@ -162,6 +162,15 @@ Wanneer beheerders metrische gegevens over gebruik uitschakelen voor de gehele o
 Power BI is beschikbaar in afzonderlijke nationale clouds. Deze clouds bieden hetzelfde niveau qua beveiliging, privacy, compatibiliteit en transparantie als de algemene versie van Power BI en worden aangevuld met een uniek model voor lokale voorschriften voor het leveren van services, gegevenslocatie, toegang en beheer. Vanwege dit unieke model voor lokale voorschriften zijn metrische gegevens over gebruik niet beschikbaar in nationale clouds. Zie [nationale clouds](https://powerbi.microsoft.com/en-us/clouds/) voor meer informatie.
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
+
+Het is belangrijk om te begrijpen dat er verschillen kunnen optreden wanneer u metrische gegevens over verbruik vergelijkt met auditlogboeken en waarom. *Auditlogboeken* worden verzameld met gegevens uit de Power BI-service en *Metrische gegevens over gebruik* worden verzameld in de client. Vanwege dat verschil komen geaggregeerde tellingen van activiteiten in auditlogboeken mogelijk niet altijd overeen met metrische gegevens over gebruik. Dat zit zo:
+
+* Metrische gegevens over gebruik tellen soms minder activiteiten vanwege inconsistente netwerkverbindingen, ad blockers of andere problemen die de verzending van gebeurtenissen van de client kunnen verstoren.
+* Bepaalde typen weergaven zijn niet opgenomen in metrische gegevens over gebruik, zoals eerder in dit artikel is beschreven.
+* Metrische gegevens over gebruik tellen soms meer activiteiten. Dat komt voor in gevallen waarin de client vernieuwt zonder dat het nodig is om een aanvraag terug te sturen naar de Power BI-service.
+
+
+Naast de mogelijke verschillen tussen metrische gegevens over gebruik en auditlogboeken, kunnen de volgende vragen en antwoorden over metrische gegevens over gebruik handig zijn voor gebruikers en beheerders:
 
 V: Ik kan geen metrische gegevens over gebruik uitvoeren op een dashboard of rapport A: U ziet alleen de metrische gegevens over gebruik voor inhoud waarvan u eigenaar bent of waarvoor u machtigingen hebt om te bewerken.
 

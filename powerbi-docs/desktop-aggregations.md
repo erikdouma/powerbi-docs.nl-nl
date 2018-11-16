@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/17/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 3e94dc516f41d764394828309ba4b612083d4583
-ms.sourcegitcommit: fbb27fb40d753b5999a95b39903070766f7293be
+ms.openlocfilehash: e88e60bc1745a08ea53c7336f6f1fb9e4cda1ec8
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "49359718"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619719"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Aggregaties in Power BI Desktop (preview-versie)
 
@@ -25,15 +25,15 @@ Met behulp van **aggregaties** in Power BI kunt u interactieve analyses uitvoere
 
 In de volgende lijst staan de voordelen van het gebruiken van **aggregaties**:
 
-* **Queryprestaties over grote gegevenssets**: wanneer gebruikers werken met visualisaties in Power BI-rapporten, worden DAX-query's verzonden naar de gegevensset. Verhoog de querysnelheden door gegevens te cachen op het geaggregeerde niveau, met behulp van een fractie van de resources die vereist zijn tijdens het detailniveau in. Ontgrendel big data op een manier die anders niet mogelijk zou zijn.
+* **Queryprestaties voor big data**: wanneer gebruikers werken met visuals in Power BI-rapporten, worden DAX-query's verzonden naar de gegevensset. Verhoog de querysnelheden door gegevens te cachen op het geaggregeerde niveau, met behulp van een fractie van de resources die vereist zijn tijdens het detailniveau in. Ontgrendel big data op een manier die anders niet mogelijk zou zijn.
 * **Optimalisatie van gegevensvernieuwing**: beperk de cachegrootte en vernieuwingstijden door gegevens te cachen op het geaggregeerde niveau. Versnel de tijd om gegevens beschikbaar maken voor gebruikers.
 * **Bereik architecturen met gelijke taakverdeling**: laat de Power BI-geheugencache geaggregeerde query's verwerken, wat het op een effectieve manier doet. Beperk query's verzonden naar de gegevensbron in de modus DirectQuery, zodat u binnen de limieten voor gelijktijdigheid blijft. Query's die er wel doorheen komen, zijn vaak gefilterde query's op transactioneel niveau, die datawarehouses en big data-systemen normaal gesproken goed verwerken.
 
 ### <a name="table-level-storage"></a>Opslag op tabelniveau
-Opslag op tabelniveau wordt meestal gebruikt met de aggregatiefunctie. Zie het artikel [Opslagmodus in Power BI Desktop (preview)](desktop-storage-mode.md) voor meer informatie.
+Opslag op tabelniveau wordt meestal gebruikt met de aggregatiefunctie. Raadpleeg voor meer informatie het artikel [Opslagmodus in Power BI Desktop](desktop-storage-mode.md).
 
 ### <a name="data-source-types"></a>Typen gegevensbronnen
-Aggregaties worden gebruikt met gegevensbronnen die dimensionale modellen, zoals datawarehouses en datamarts, evenals op Hadoop gebaseerde big data-bronnen, vertegenwoordigen. In dit artikel worden typische modelleringsverschillen in Power BI voor elk type gegevensbron beschreven.
+Aggregaties worden gebruikt met gegevensbronnen die dimensionale modellen, zoals datawarehouses, datamarts en op Hadoop gebaseerde big data-bronnen, vertegenwoordigen. In dit artikel worden typische modelleringsverschillen in Power BI voor elk type gegevensbron beschreven.
 
 Alle Power BI Import- en DirectQuery-bronnen (niet-multidimensionaal) werken met aggregaties.
 
@@ -55,12 +55,12 @@ Kijk eens naar het volgende model, dat afkomstig is van één gegevensbron. Stel
 
 ![tabellen in een model](media/desktop-aggregations/aggregations_02.jpg)
 
-In plaats daarvan maken we de tabel **Sales Agg** (Verkoopaggregatie) als een aggregatietabel. Deze heeft een hogere granulariteit dan **Sales** en bevat dan ook veel minder rijen. Het aantal rijen moet gelijk zijn aan de som van **SalesAmount** gegroepeerd op **CustomerKey**, **DateKey** en **ProductSubcategoryKey**. In plaats van miljarden zijn er nu mogelijk miljoenen rijen, die veel gemakkelijker te beheren zijn.
+In plaats daarvan maken we de tabel **Sales Agg** (Verkoopaggregatie) als een aggregatietabel. Deze heeft een hogere granulariteit dan **Sales** en bevat dus veel minder rijen. Het aantal rijen moet gelijk zijn aan de som van **SalesAmount** gegroepeerd op **CustomerKey**, **DateKey** en **ProductSubcategoryKey**. In plaats van miljarden zijn er nu mogelijk miljoenen rijen, die veel gemakkelijker te beheren zijn.
 
-Stel dat de volgende dimensietabellen het meest worden gebruikt voor de query's met hoge bedrijfswaarde. Dit zijn de tabellen die **Sales Agg** kunnen filteren met behulp van *een-op-veel* (of *veel-op-een*) -relaties. Andere relatietypen, zoals *veel-op-veel* of *meerdere bron*, komen niet in aanmerking voor aggregaties.
+Stel dat de volgende dimensietabellen het meest worden gebruikt voor de query's met hoge bedrijfswaarde. Dit zijn de tabellen die **Sales Agg** kunnen filteren met behulp van *een-op-veel* (of *veel-op-een*) -relaties.
 
 * Geografie
-* Customer
+* Klant
 * Datum
 * Subcategorie met producten
 * Productcategorie
@@ -77,7 +77,7 @@ Laten we doorgaan met het voorbeeld dat we gebruiken. We stellen de opslagmodus 
 
 ![de opslagmodus instellen](media/desktop-aggregations/aggregations_04.jpg)
 
-Wanneer we dit doen, wordt het volgende dialoogvenster weergegeven dat ons laat weten dat de gerelateerde dimensietabellen worden ingesteld op de opslagmodus **Dual**. 
+Wanneer we dit doen, wordt het volgende dialoogvenster weergegeven dat ons laat weten dat de gerelateerde dimensietabellen kunnen worden ingesteld op de opslagmodus **Dual**. 
 
 ![dialoogvenster opslagmodus](media/desktop-aggregations/aggregations_05.jpg)
 
@@ -88,7 +88,23 @@ Als u ze instelt op **Dual**, kunnen de gerelateerde dimensietabellen fungeren a
 
 Zie voor meer informatie over de opslagmodus **Dual** het artikel [opslagmodus](desktop-storage-mode.md).
 
-> Opmerking: de tabel **Sales Agg** is verborgen. Aggregatietabellen moeten worden verborgen voor gebruikers van de gegevensset. Gebruikers en query's verwijzen naar de tabel met details, niet naar de aggregatietabel; ze hoeven niet eens te weten dat de aggregatietabel bestaat.
+### <a name="strong-vs-weak-relationships"></a>Sterke versus zwakke relaties
+Aggregatietreffers op basis van relaties vereisen sterke relaties.
+
+Sterke relaties betreffen bijvoorbeeld de volgende combinaties, waarbij beide tabellen afkomstig zijn uit *één bron*.
+
+| Tabel aan de *many-zijden | Tabel aan de *1*-zijde |
+| ------------- |----------------------| 
+| Dual          | Dual                 | 
+| Importeren        | Importeren of Dual       | 
+| DirectQuery   | DirectQuery of Dual  | 
+
+Een relatie tussen *meerdere bronnen* wordt alleen als sterk beschouwd wanneer beide tabellen van het type Import zijn. Veel-op-veel-relaties worden altijd als zwak beschouwd.
+
+Voor aggregatietreffers gebaseerd op *meerdere bronnen* die niet afhankelijk zijn van relaties, raadpleegt u het gedeelte hieronder over aggregaties op basis van group by-kolommen.
+
+### <a name="aggregation-table-is-hidden"></a>Aggregatietabel is verborgen
+De tabel **Sales Agg** is verborgen. Aggregatietabellen moeten altijd worden verborgen voor gebruikers van de gegevensset. Gebruikers en query's verwijzen naar de tabel met details, niet naar de aggregatietabel; ze hoeven niet eens te weten dat de aggregatietabel bestaat.
 
 ### <a name="manage-aggregations-dialog"></a>Dialoogvenster Aggregaties beheren
 Vervolgens definiëren we de aggregaties. Selecteer het contextmenu**Aggregaties beheren** voor de tabel **Sales Agg** door met de rechtermuisknop op de tabel te klikken.
@@ -155,11 +171,11 @@ De volgende query raakt de aggregatie, omdat kolommen in de tabel *Date* op de g
 
 ![queryvoorbeeld](media/desktop-aggregations/aggregations-code_02.jpg)
 
-De volgende query raakt de aggregatie niet. Ondanks het feit dat de som van **SalesAmount** wordt aangevraagd, voert deze query een group by-bewerking uit op een kolom in de tabel **Product**, die zich niet op de granulariteit bevindt die de aggregatie kan raken. Als u de relaties in het model bestudeert, ziet u dat productsubcategorie meerdere **Product**-rijen kan hebben; de query kan dan niet bepalen naar welk product moet worden geaggregeerd. In dit geval wordt de query teruggezet op DirectQuery en verzendt een SQL-query naar de gegevensbron.
+De volgende query raakt de aggregatie niet. Ondanks het feit dat de som van **SalesAmount** wordt aangevraagd, voert deze query een group by-bewerking uit op een kolom in de tabel **Product**, die zich niet op de granulariteit bevindt die de aggregatie kan raken. Als u de relaties in het model bestudeert, ziet u dat productsubcategorie meerdere **Product**-rijen kan hebben. De query kan dan niet bepalen naar welk product moet worden geaggregeerd. In dit geval wordt de query teruggezet op DirectQuery en verzendt een SQL-query naar de gegevensbron.
 
 ![queryvoorbeeld](media/desktop-aggregations/aggregations-code_03.jpg)
 
-Aggregaties zijn niet alleen voor eenvoudige berekeningen die een eenvoudige som uitvoeren. Complexe berekeningen kunnen ook profiteren. Conceptueel gezien wordt een complexe berekening onderverdeeld in subquery's voor elke SUM, MIN, MAX en COUNT, en wordt elke subquery geëvalueerd om te bepalen of de aggregatie kan worden bereikt. Deze logica geldt niet voor alle gevallen vanwege optimalisatie van het queryplan, maar in het algemeen moet het kunnen worden toegepast. Het volgende voorbeeld raakt de aggregatie:
+Aggregaties zijn niet alleen geschikt voor eenvoudige berekeningen die een eenvoudige som uitvoeren. Complexe berekeningen kunnen ook profiteren. Conceptueel gezien wordt een complexe berekening onderverdeeld in subquery's voor elke SUM, MIN, MAX en COUNT, en wordt elke subquery geëvalueerd om te bepalen of de aggregatie kan worden bereikt. Deze logica geldt niet voor alle gevallen vanwege optimalisatie van het queryplan, maar in het algemeen kan die worden toegepast. Het volgende voorbeeld raakt de aggregatie:
 
 ![queryvoorbeeld](media/desktop-aggregations/aggregations-code_04.jpg)
 
@@ -177,7 +193,7 @@ In sommige gevallen kan de functie DISTINCTCOUNT profiteren van aggregaties. De 
 
 ## <a name="aggregations-based-on-group-by-columns"></a>Aggregaties op basis van group by-kolommen 
 
-Op Hadoop gebaseerde big data-modellen hebben andere kenmerken dan dimensionale modellen. Om samenvoegingen tussen grote tabellen te voorkomen, vertrouwen ze vaak niet op relaties. In plaats daarvan worden dimensiekenmerken vaak gedenormaliseerd naar feitentabellen. Dergelijke big data-modellen kunnen worden ontgrendeld voor interactieve analyses door **aggregaties** op basis van group by-kolommen te gebruiken.
+Op Hadoop gebaseerde big data-modellen hebben andere kenmerken dan dimensionale modellen. Om joins tussen grote tabellen te voorkomen, zijn ze vaak niet gebaseerd op relaties. In plaats daarvan worden dimensiekenmerken vaak gedenormaliseerd naar feitentabellen. Dergelijke big data-modellen kunnen worden ontgrendeld voor interactieve analyses door **aggregaties** op basis van group by-kolommen te gebruiken.
 
 De volgende tabel bevat de numerieke kolom **Movement** die moet worden geaggregeerd. Alle andere kolommen zijn kenmerken van group by. De tabel bevat IoT-gegevens en een enorm groot aantal rijen. De opslagmodus is DirectQuery. Vanwege het enorme volume zijn query's op de gegevensbron die worden samengevoegd in de hele gegevensset traag.
 
@@ -197,7 +213,7 @@ In de volgende tabel ziet u de aggregaties voor de tabel **Driver Activity Agg**
 
 ### <a name="group-by-columns"></a>Groeperen op kolommen
 
-In dit voorbeeld zijn de **GroupBy**-vermeldingen **niet optioneel**; de aggregaties zouden niet worden geraakt zonder deze vermeldingen. Dit is anders dan wanneer aggregaties op basis van relaties worden gebruikt; dit wordt beschreven in het dimensiemodelvoorbeeld dat eerder in dit artikel werd behandeld.
+In dit voorbeeld zijn de **GroupBy**-vermeldingen **niet optioneel**. De aggregaties zouden niet worden geraakt zonder deze vermeldingen. Dit is anders dan wanneer aggregaties op basis van relaties worden gebruikt; dit wordt beschreven in het dimensiemodelvoorbeeld dat eerder in dit artikel werd behandeld.
 
 ### <a name="query-examples"></a>Queryvoorbeelden
 
@@ -277,4 +293,3 @@ DirectQuery-artikelen:
 
 * [DirectQuery gebruiken in Power BI](desktop-directquery-about.md)
 * [Gegevensbronnen die worden ondersteund door DirectQuery in Power BI](desktop-directquery-data-sources.md)
-

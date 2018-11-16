@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8239c271bff5dff6dc068b1c547b8ab2d7731da5
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: c4b4114d21d7afc6652d8706235dab4ad0ba0c37
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39327724"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619767"
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Rapportweergave in Power BI Desktop
 Als u met Power BI hebt gewerkt, dan weet u hoe eenvoudig het is om rapporten te maken met dynamische perspectieven en inzichten in uw gegevens. Power BI heeft nog meer geavanceerde functies in Power BI Desktop. Met Power BI Desktop kunt u geavanceerde query's uitvoeren, een mashup maken van gegevens uit meerdere bronnen, relaties tussen tabellen maken en nog veel meer.
@@ -27,35 +27,46 @@ Het verschil is dat u in Power BI Desktop met uw query's kunt werken en gegevens
 ## <a name="lets-take-a-look"></a>Laten we dit eens bekijken.
 Wanneer u de eerste keer uw gegevens in Power BI Desktop laadt, ziet u de **rapportweergave** met een leeg canvas.
 
-![](media/desktop-report-view/pbi_reportviewinpbidesigner_reportview.png)
+![Power BI Desktop](media/desktop-report-view/pbi_reportviewinpbidesigner_reportview.png)
 
 U kunt schakelen tussen de **rapportweergave**, **gegevensweergave** en **relatieweergave** door de pictogrammen in de linkernavigatiebalk te selecteren:
 
-![](media/desktop-report-view/pbi_reportviewinpbidesigner_changeview.png)
+![Pictogram Rapportweergave](media/desktop-report-view/pbi_reportviewinpbidesigner_changeview.png)
 
 Zodra u gegevens hebt toegevoegd, kunt u velden aan een nieuw visueel element op het canvas toevoegen.
 
-![](media/desktop-report-view/pbid_reportview_addvis.gif)
+![Een visual toevoegen door deze te slepen vanuit het venster Velden](media/desktop-report-view/pbid_reportview_addvis.gif)
 
 Als u het visualisatietype wilt wijzigen, kunt u dit selecteren in de groep **Visualisatie** in het lint. U kunt ook met de rechtermuisknop klikken en een ander type selecteren via het pictogram **Visualisatietype wijzigen**.
 
-![](media/desktop-report-view/pbid_reportview_changevis.gif)
+![Een visual wijzigen door een nieuwe te selecteren](media/desktop-report-view/pbid_reportview_changevis.gif)
 
 > [!TIP]
 > Experimenteer met verschillende visualisatietypen. Het is belangrijk dat uw visuele elementen de informatie over uw gegevens duidelijk naar voren brengen.
-> 
-> 
 
 Een rapport bevat ten minste één lege pagina om mee te beginnen. De pagina's worden links van het canvas in de navigatiebalk weergegeven. U kunt allerlei soorten visuele elementen aan een pagina toevoegen, maar het is belangrijk dat u er niet te veel gebruikt. Te veel visuele elementen op een pagina maken deze onoverzichtelijk, waardoor de juiste informatie lastig te vinden is. U kunt nieuwe pagina's toevoegen aan het rapport. U klikt in het lint gewoon op **Nieuwe pagina**.
 
-![](media/desktop-report-view/pbidesignerreportviewnewpage.png)
+![Pictogram Nieuwe pagina](media/desktop-report-view/pbidesignerreportviewnewpage.png)
 
 Als u een pagina wilt verwijderen, klikt u op de **x** op het tabblad van de pagina onder aan de rapportweergave.
 
-![](media/desktop-report-view/pbi_reportviewinpbidesigner_deletepage.png)
+![Een pagina aan een rapport toevoegen](media/desktop-report-view/pbi_reportviewinpbidesigner_deletepage.png)
 
 > [!NOTE]
 > Rapporten en visuele elementen kunnen in Power BI Desktop niet worden vastgemaakt aan een dashboard. Als u dat wilt doen, moet u [publiceren vanuit Power BI Desktop](desktop-upload-desktop-files.md) (Engelstalig) naar uw Power BI-site.
+
+## <a name="copy-and-paste-between-reports"></a>Kopiëren en plakken van het ene naar het andere rapport
+
+U kunt een visual uit een Power BI Desktop-rapport gemakkelijk kopiëren en in een ander rapport plakken. Gebruik de sneltoets **Ctrl+C** om de rapportvisual te kopiëren. Vervolgens plakt u de visual met **Ctrl+V** in het andere Power BI Desktop-rapport. U kunt een visual per keer selecteren of alle visuals op een pagina selecteren en ze vervolgens kopiëren en plakken in het beoogde Power BI Desktop-rapport. 
+
+De mogelijkheid om visuals te kopiëren en plakken is handig voor personen die regelmatig meerdere rapporten maken en bijwerken. Wanneer u elementen naar andere bestanden kopieert, worden de instellingen en opmaak die specifiek zijn ingesteld in het opmaakvenster, ook toegepast in het nieuwe bestand. Visuals die zijn gebaseerd op een thema of de standaardinstellingen, worden automatisch bijgewerkt, zodat ze overeenkomen met het thema van het doelrapport. Als u een visual dus volledig naar wens hebt opgemaakt, kunt u die eenvoudig kopiëren en plakken naar nieuwe rapporten zonder dat uw werk verloren gaat.
+
+![Fout bij kopiëren/plakken visual - geen gegevensveld](media/desktop-report-view/report-view_05.png)
+
+Als de velden in uw model afwijken, geeft de visual een foutmelding en een waarschuwing over welke velden niet bestaan. De fout is vergelijkbaar met de fout die optreedt wanneer u een veld uit het model verwijdert dat door de visual wordt gebruikt. Als u deze fout wilt oplossen, vervangt u de betreffende velden met door u gekozen velden uit het model in het rapport waarin u de visual hebt geplakt. Als u een aangepaste visual gebruikt, moet u de aangepaste visual ook in het doelrapport importeren.
+
+
+
 
 ## <a name="hide-report-pages"></a>Rapportpagina’s verbergen
 
@@ -63,13 +74,13 @@ Als u een rapport maakt, kunt u ook pagina's uit een rapport verbergen. Dit kan 
 
 Een rapportpagina verbergen is eenvoudig. Klik met uw rechtermuisknop op het tabblad Rapportpagina en selecteer **Verbergen** in het menu dat dan verschijnt.
 
-![](media/desktop-report-view/report-view_05.png)
+![Optie Pagina verbergen](media/desktop-report-view/report-view_05.png)
 
 Er zijn enkele overwegingen waarmee u rekening moet houden als u een rapportpagina verbergt:
 
 * In **Power BI Desktop** kunt u nog steeds een weergave van een verborgen rapport zien, zelfs als de titel van de pagina in het grijs wordt weergegeven. In de volgende afbeelding is pagina 4 verborgen.
 
-    ![](media/desktop-report-view/report-view_06.png)
+    ![grijs gemaakte pagina die is verborgen](media/desktop-report-view/report-view_06.png)
 
 * U kunt een verborgen rapportpagina *niet* zien als u het rapport weergeeft met de **Power BI-service**.
 

@@ -7,25 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 799115dc5487a196cbd5d8a2c9dce1603764034a
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: d57d31e87197ee9d764a8d263dd4ee6dd0c75ac3
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223370"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619627"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Toegankelijkheid in Power BI Desktop-rapporten
 Power BI bevat functies die het gebruikers met een handicap gemakkelijker maken om Power BI-rapporten te gebruiken en ermee te werken. Deze functies omvatten de mogelijkheid om een rapport te gebruiken met het toetsenbord of een schermlezer, de focus te verplaatsen naar verschillende objecten op een pagina met de tabtoets, en handig gebruik te maken van markeringen in visualisaties.
 
 ![Andere markeringen voor lijn- en vlakdiagrammen gebruiken om de toegankelijkheid te verbeteren](media/desktop-accessibility/accessibility_01.png)
-
-> [!NOTE]
-> Deze toegankelijkheidsfuncties zijn beschikbaar in de versie van **Power BI Desktop** van juni 2017 en hoger. Voor toekomstige versies zijn nog meer toegankelijkheidsfuncties gepland.
-> 
-> 
 
 ## <a name="consuming-a-power-bi-desktop-report-with-a-keyboard-or-screen-reader"></a>Een Power BI Desktop-rapport gebruiken met een toetsenbord of schermlezer
 Vanaf de versie van **Power BI Desktop** van september 2017 kunt u op de toets **?** drukken om een venster weer te geven met een beschrijving van de beschikbare sneltoetsen voor toegankelijkheid in **Power BI Desktop**.
@@ -116,12 +111,26 @@ Er zijn enkele bekende problemen en beperkingen met betrekking tot de toegankeli
 * Als u Narrator gebruikt, zijn er enkele beperkingen wanneer u Gegevens weergeven als HTML-tabel bekijkt.
 
 ## <a name="keyboard-shortcuts"></a>Sneltoetsen
+Sneltoetsen zijn handig voor het navigeren in Power BI-rapporten met behulp van een toetsenbord. De volgende tabellen beschrijven de snelkoppelingen die beschikbaar zijn in een Power BI-rapport. Naast het gebruik van deze sneltoetsen in Power BI Desktop, werken deze snelkoppelingen ook in de volgende elementen:
+
+* Dialoogvenster Q&A-verkenner
+* Dialoogvenster Aan de slag
+* Bestandsmenu en dialoogvenster Over
+* Waarschuwingsbalk
+* Dialoogvenster Bestand terugzetten
+* Dialoogvenster Fronsen
+
+We zetten ons voortdurend in om de toegankelijkheid te verbeteren. Bovenstaande elementen ondersteunen daarom ook schermlezers en instellingen voor hoog contrast.
+
+
 ### <a name="frequently-used-shortcuts"></a>Veelgebruikte sneltoetsen
 | Functie           | Actie                |
 | :------------------- | :------------------- |
 | De focus verplaatsen tussen secties  | Ctrl + F6 |
 | De focus naar voren verplaatsen in de sectie | Tab         |
 | De focus naar achteren verplaatsen in de sectie | Shift + Tab |
+| Een object selecteren of de selectie opheffen | Enter of spatie |
+| Meerdere objecten selecteren | Ctrl + spatie |
 
 ### <a name="on-visual"></a>Op de visual
 | Functie           | Actie                |

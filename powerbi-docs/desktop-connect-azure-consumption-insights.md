@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 05a84d34bf82be99eb52fccfb6318142f7d47de1
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: c770423b81c6d5cd4135539d8d44c3cc46f8b6fe
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329909"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619604"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Verbinding met Azure Consumption Insights maken in Power BI Desktop (bèta)
 Met de **Azure Consumption Insights**-connector kunt u vanuit **Power BI Desktop** verbinding maken met Azure en gedetailleerde gegevens en informatie over het gebruik van Azure-services van uw organisatie verkrijgen. U kunt ook metingen, aangepaste kolommen en visuele elementen maken om rapporten over het gebruik van Azure van uw organisatie te maken en te delen. Deze versie van de **Azure Consumption and Insights**-connector is een bètaversie en kan worden gewijzigd.
@@ -49,9 +49,20 @@ Geef vervolgens uw *toegangssleutel* op om verbinding te maken.
   
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
-Als u de *toegangssleutel* hebt opgegeven en **Verbinding maken** selecteert, wordt het venster **Navigator** weergegeven met de vier tabellen die voor u beschikbaar zijn: *Samenvatting*, *Gebruik*, *Prijzenoverzicht* en *Marketplace*. U kunt het selectievakje naast een tabel inschakelen om een voorbeeld van de tabel weer te geven. U kunt een of meer tabellen selecteren door de betreffende selectievakjes in te schakelen en **Laden** te selecteren.
+Als u de *toegangssleutel* hebt opgegeven en **Verbinding maken** selecteert, wordt het venster **Navigator** weergegeven met die negen tabellen die voor u beschikbaar zijn: 
+* **Budgetten**: Deze tabel toont budgetgegevens zodat u de daadwerkelijke kosten of het daadwerkelijke gebruik kunt vergelijken met de budgetdoelen. 
+* **MarketPlace**: Deze tabel toont op gebruik gebaseerde kosten voor Azure Marketplace.
+* **PriceSheets**: Deze tabel toont de betreffende tarieven per meter voor inschrijving.
+* **RICharges**: Deze tabel toont de kosten van uw gereserveerde instanties voor de afgelopen 24 maanden.
+* **RIRecommendations_Single**: Deze tabel toont aanbevelingen voor de aanschaf van gereserveerde instanties op basis van uw gebruikstrends voor een enkel abonnement gedurende de afgelopen 7, 30 of 60 dagen.
+* **RIRecommendations_Shared**: Deze tabel toont aanbevelingen voor de aanschaf van gereserveerde instanties op basis van uw gebruikstrends voor al uw abonnementen gedurende de afgelopen 7, 30 of 60 dagen.
+* **RIUsage**: Deze tabel toont details over het gebruik van uw huidige gereserveerde instanties gedurende de afgelopen maand.
+* **Summaries**: Deze tabel toont een maandelijks overzicht met saldo's, nieuwe aankopen en servicekosten, wijzigingen en overschrijdingskosten voor Azure Marketplace.
+* **UsageDetails**: Deze tabel toont een specificatie van de gebruikte hoeveelheden en de geschatte kosten voor een inschrijving.
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04.png)
+U kunt het selectievakje naast een tabel inschakelen om een voorbeeld van de tabel weer te geven. U kunt een of meer tabellen selecteren door de betreffende selectievakjes in te schakelen en **Laden** te selecteren.
+
+![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04b.png)
 
 > [!NOTE]
 > De tabellen *Samenvatting* en *Prijzenoverzicht* zijn alleen beschikbaar voor de API-sleutel op inschrijvingsniveau. Deze tabellen bevatten bovendien standaard de gegevens voor *Gebruik* en *Prijzenoverzicht* van de huidige maand. De tabellen *Samenvatting* en *Marketplace* zijn niet beperkt tot de huidige maand.

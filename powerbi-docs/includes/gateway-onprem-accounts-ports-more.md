@@ -61,14 +61,14 @@ U kunt de *Windows-gatewayservice* overigens ook opnieuw starten vanuit het dial
 
 ![](./media/gateway-onprem-accounts-ports-more/gw-onprem_02.png)
 
-## <a name="support-for-tls-1112"></a>Ondersteuning voor TLS 1.1/1.2
+## <a name="support-for-tls-12"></a>Ondersteuning voor TLS 1.2
 
-De on-premises gegevensgateway maakt standaard gebruik van Transport Layer Security (TLS) 1.1 of 1.2 om te communiceren met de **Power BI-service**. Eerdere versies van de on-premises gegevensgateway maakten standaard gebruik van TLS 1.0. Op 15 maart 2018 stopt de ondersteuning voor TLS 1.0, inclusief de mogelijkheid van de gateway om te communiceren met de **Power BI-service** via TLS 1.0. U moet de installatie van uw on-premises gegevensgateway upgraden om te garanderen dat uw gateways blijven functioneren.
+De on-premises gegevensgateway maakt standaard gebruik van Transport Layer Security (TLS) 1.2 om te communiceren met de Power BI-service. Om ervoor te zorgen dat al het verkeer van en naar de gateway gebruikmaakt van TLS 1.2, moet u wellicht de volgende registersleutels toevoegen of wijzigen op de computer waarop de gateway-service wordt uitgevoerd:
 
-Het is belangrijk om te weten dat TLS 1.0 nog tot 1 november wordt ondersteund door de on-premises gegevensgateway en bij problemen door de gateway wordt gebruikt als back-upprotocol. Om ervoor te zorgen dat al het verkeer van en naar de gateway gebruikmaakt van TLS 1.1 of 1.2 (en om te voorkomen dat uw gateway nog TLS 1.0 gebruikt), moet u de volgende registersleutels toevoegen op de computer waarop de gateway-service wordt uitgevoerd:
-
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
 
 > [!NOTE]
 > Door deze registersleutels toe te voegen of te wijzigen, wordt deze wijziging toegepast voor alle .NET-toepassingen. Zie [Transport Layer Security (TLS) registry settings](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings) (Registerinstellingen voor Transport Layer Security (TLS)) voor meer informatie over registerwijzigingen die invloed hebben op TLS voor andere toepassingen.

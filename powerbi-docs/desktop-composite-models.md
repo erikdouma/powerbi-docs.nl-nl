@@ -1,5 +1,5 @@
 ---
-title: Samengestelde modellen gebruiken in Power BI Desktop (preview)
+title: Samengestelde modellen in Power BI Desktop gebruiken
 description: Lees hoe u in Power BI Desktop gegevensmodellen maakt met meerdere gegevensverbindingen en veel-op-veel-relaties
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/02/2018
+ms.date: 11/12/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 47c99e40b1665b98c33d16b685e359c10277a560
-ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
+ms.openlocfilehash: b7a8323557f769fa2a05d504de2540bc505e7a54
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "49435391"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619696"
 ---
-# <a name="use-composite-models-in-power-bi-desktop-preview"></a>Samengestelde modellen gebruiken in Power BI Desktop (preview)
+# <a name="use-composite-models-in-power-bi-desktop"></a>Samengestelde modellen in Power BI Desktop gebruiken
 
 Voorheen was het zo dat als u in Power BI Desktop een DirectQuery gebruikte in een rapport, er geen andere gegevensverbindingen dan &mdash;DirectQuery of Importeren&mdash; waren toegestaan voor het rapport. Met de introductie van samengestelde modellen is deze beperking verdwenen. U kunt zonder problemen elke gewenste combinatie van gegevensverbindingen uit meer dan één DirectQuery of verbinding voor het importeren van gegevens in een rapport opnemen.
 
@@ -30,16 +30,6 @@ De voorziening Samengestelde modellen in Power BI Desktop bestaat uit drie gerel
 * **Veel-op-veel-relaties**: met *samengestelde modellen* kunt u *veel-op-veel-relaties* tussen tabellen tot stand brengen. Door deze aanpak hoeven tabellen geen unieke waarden meer te bevatten. Ook zijn eerdere tijdelijke oplossingen niet meer nodig, zoals de introductie van nieuwe tabellen om relaties tot stand te brengen. Zie [Veel-op-veel-relaties in Power BI Desktop (preview-versie)](desktop-many-to-many-relationships.md) voor meer informatie.
 
 * **Opslagmodus**: u kunt nu opgeven voor welke visualisaties een query naar de back-end-gegevensbronnen is vereist. Visuals waarvoor geen query is vereist, worden geïmporteerd zelfs als ze zijn gebaseerd op DirectQuery. De functie helpt de prestaties te verbeteren en de back-end minder te belasten. Eerder werden zelfs voor eenvoudige visualisaties zoals slicers query's verzonden naar de back-endbronnen. Zie het artikel [Opslagmodus in Power BI Desktop (preview)](desktop-storage-mode.md) voor meer informatie.
-
-## <a name="enable-the-composite-models-preview-feature"></a>De preview-versie van samengestelde modellen inschakelen
-
-De functie voor samengestelde modellen bevindt zich nog in de preview-fase en moet afzonderlijk worden ingeschakeld in Power BI Desktop. Als u samengestelde modellen wilt inschakelen, selecteert u **Bestand** > **Opties en instellingen** > **Opties** > **Preview-functies** en schakelt u vervolgens het selectievakje **Samengestelde modellen** in. 
-
-![Het deelvenster Preview-functies](media/desktop-composite-models/composite-models_02.png)
-
-U moet Power BI Desktop opnieuw opstarten om de functie in te schakelen.
-
-![Het venster Voor functie is opnieuw starten vereist](media/desktop-composite-models/composite-models_03.png)
 
 
 ## <a name="use-composite-models"></a>Samengestelde modellen gebruiken

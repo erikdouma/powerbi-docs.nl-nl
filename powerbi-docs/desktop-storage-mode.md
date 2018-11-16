@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/17/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: df61b9c68407ef0d00d1d5981c57021e7659cfff
-ms.sourcegitcommit: fbb27fb40d753b5999a95b39903070766f7293be
+ms.openlocfilehash: 18d5b2ca504ec3533e2ded0e5480885ea862fb3a
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "49359741"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619489"
 ---
 # <a name="storage-mode-in-power-bi-desktop-preview"></a>Opslagmodus in Power BI Desktop (preview-versie)
 
@@ -43,16 +43,6 @@ De opslagmodusinstelling in Power BI Desktop is een van drie gerelateerde functi
 
 * **Opslagmodus**: u kunt nu opgeven voor welke visualisaties een query naar de back-end-gegevensbronnen is vereist. Visuals waarvoor geen query is vereist, worden geïmporteerd zelfs als ze zijn gebaseerd op DirectQuery. De functie helpt de prestaties te verbeteren en de back-end minder te belasten. Eerder werden zelfs voor eenvoudige visualisaties, zoals slicers, query's verzonden naar de back-end-bronnen. De opslagmodus wordt verder beschreven in dit artikel.
 
-## <a name="enable-the-storage-mode-preview-feature"></a>De preview-versie van de opslagmodus inschakelen
-
-De opslagmodus is nog in preview en moet afzonderlijk worden ingeschakeld in Power BI Desktop. Als u de opslagmodus wilt inschakelen, selecteert u **Bestand** > **Opties en instellingen** > **Opties** > **Preview-functies**. Selecteer vervolgens het selectievakje **Samengestelde modellen**. 
-
-![Het deelvenster Preview-functies](media/desktop-composite-models/composite-models_02.png)
-
-Start Power BI Desktop opnieuw om de functie in te schakelen.
-
-![Het venster Voor functie is opnieuw starten vereist](media/desktop-composite-models/composite-models_03.png)
-
 ## <a name="use-the-storage-mode-property"></a>Opslagmoduseigenschap gebruiken
 
 Opslagmodus is een eigenschap die u voor elke tabel in uw model kunt instellen. Als u de opslagmodus wilt instellen, klik u met de rechtermuisknop in het deelvenster **Velden** op de tabel waarvan u de eigenschappen wilt instellen. Selecteer vervolgens **Eigenschappen**.
@@ -75,19 +65,7 @@ Het wijzigen van een tabel in **Importeren** is een *onomkeerbare* bewerking. De
 
 ## <a name="constraints-on-directquery-and-dual-tables"></a>Beperkingen voor DirectQuery- en Dual-tabellen
 
-Voor Dual-tabellen gelden dezelfde beperkingen als voor DirectQuery-tabellen. Deze beperkingen omvatten beperkte M-transformaties en beperkte DAX-functies in berekende kolommen. Zie [Gevolgen van het gebruik van DirectQuery](desktop-directquery-about.md#implications-of-using-directquery) voor meer informatie.
-
-## <a name="relationship-rules-on-tables-with-different-storage-modes"></a>Regels voor relaties tussen tabellen met verschillende opslagmodi
-
-Relaties moeten voldoen aan regels op basis van de opslagmodus van de gerelateerde tabellen. In dit gedeelte vindt u voorbeelden van geldige combinaties. Zie [Veel-op-veel-relaties in Power BI Desktop (preview-versie)](desktop-many-to-many-relationships.md) voor meer informatie.
-
-Voor een gegevensset met één gegevensbron zijn de volgende combinaties van *1-op-veel*-relaties geldig:
-
-| Tabel aan de *veel*-zijde | Tabel aan de *1*-zijde |
-| ------------- |----------------------| 
-| Dual          | Dual                 | 
-| Importeren        | Importeren of Dual       | 
-| DirectQuery   | DirectQuery of Dual  | 
+Voor Dual-tabellen gelden dezelfde functionele beperkingen als voor DirectQuery-tabellen. Deze beperkingen omvatten beperkte M-transformaties en beperkte DAX-functies in berekende kolommen. Zie [Gevolgen van het gebruik van DirectQuery](desktop-directquery-about.md#implications-of-using-directquery) voor meer informatie.
 
 ## <a name="propagation-of-dual"></a>Doorgifte van Dual
 In dit eenvoudige model zijn alle tabellen afkomstig uit één bron, die ondersteuning biedt voor de opslagmodi Importeren en DirectQuery.
@@ -98,14 +76,11 @@ Stel dat alle tabellen in dit model in eerste instantie de opslagmodus DirectQue
 
 ![Waarschuwingsvenster voor opslagmodus](media/desktop-storage-mode/storage-mode_05.png)
 
-De dimensietabellen (*Customer*, *Date* en *Geography*) moeten worden ingesteld op **Dual** om te voldoen aan de eerder beschreven regels voor relaties tussen tabellen. In plaats van dat u deze tabellen vóóraf moet instellen op **Dual**, kunt u ze instellen in één bewerking.
+De dimensietabellen (*Klant*, *Geografie* en *Datum*) kunnen worden ingesteld op **Dual** om het aantal zwakke relaties in de gegevensset te verminderen en de prestaties te verbeteren. Zwakke relaties bestaan doorgaans uit ten minste één DirectQuery-tabel waarin samenvoeglogica niet naar de bronsystemen kan worden gepusht. Het feit dat **Dual**-tabellen kunnen fungeren als DirectQuery of Import helpt dit te voorkomen.
 
 De doorgiftelogica is namelijk ontworpen om u te helpen met modellen die veel tabellen bevatten. Stel dat u een model hebt met 50 tabellen en dat alleen bepaalde feitentabellen (met transacties) in de cache moeten worden opgeslagen. Met de logica in Power BI Desktop worden berekend wat de minimale set met dimensietabellen is die moet worden ingesteld op **Dual**, zodat u dit niet hoeft te doen.
 
 De doorgiftelogica wordt slechts aan de een-zijde van **1-op-veel**-relaties doorlopen.
-
-* Het wijzigen van de tabel *Customer* in **Importeren** (in plaats van het wijzigen van *SurveyResponse*) is niet toegestaan vanwege de relaties van deze tabel met de DirectQuery-tabellen *Sales* en *SurveyResponse*.
-* Het wijzigen van de tabel *Customer* in **Dual** (in plaats van het wijzigen van *SurveyResponse*) is toegestaan. De doorgiftelogica zorgt er ook voor dat de tabel *Geography* wordt ingesteld op **Dual**.
 
 ## <a name="storage-mode-usage-example"></a>Praktijkvoorbeeld van opslagmodus
 Laten we verdergaan met het voorbeeld uit het vorige gedeelte en doen alsof we de volgende instellingen van de eigenschap opslagmodus toepassen:
@@ -191,4 +166,3 @@ Zie de volgende artikelen voor meer informatie over samengestelde modellen en Di
 * [Veel-op-veel-relaties in Power BI Desktop (preview-versie)](desktop-many-to-many-relationships.md)
 * [DirectQuery in Power BI gebruiken](desktop-directquery-about.md)
 * [Gegevensbronnen die worden ondersteund door DirectQuery in Power BI](desktop-directquery-data-sources.md)
-
