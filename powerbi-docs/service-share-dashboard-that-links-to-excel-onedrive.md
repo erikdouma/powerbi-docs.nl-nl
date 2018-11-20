@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 28934a525c332344b31de599363fb41126a18cfa
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: ccb73b05998eded0c32742deed57b2bee35fbbb6
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548759"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679082"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>Een Power BI-dashboard delen dat is gekoppeld aan een Excel-bestand in OneDrive
 U kunt in Power BI [verbinding maken met Excel-werkmappen in OneDrive voor Bedrijven](service-excel-workbook-files.md) en tegels vastmaken aan een dashboard uit die werkmap. Wanneer u dat dashboard deelt of een inhoudspakket maakt waarin dat dashboard is opgenomen:
 
 * Uw collega's kunnen de tegels bekijken zonder dat ze machtigingen voor de werkmap zelf nodig hebben. U kunt dus een inhoudspakket waarvan u weet dat uw collega's de tegels kunnen bekijken die zijn gemaakt op basis van de Excel-werkmap in OneDrive.
-* Door op de tegel te klikken, wordt de werkmap geopend in Power BI. De werkmap wordt alleen geopend als uw collega's ten minste over [leesmachtigingen](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c) beschikken voor de werkmap in OneDrive voor Bedrijven.
+* Door op de tegel te klikken, wordt de werkmap geopend in Power BI. De werkmap wordt alleen geopend als uw collega's ten minste over [leesmachtigingen](https://support.office.com/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c) beschikken voor de werkmap in OneDrive voor Bedrijven.
 
 ## <a name="share-a-dashboard-that-contains-workbook-tiles"></a>Een dashboard delen dat werkmaptegels bevat
 Zie [Een dashboard delen](service-share-dashboards.md) om een dashboard te delen dat is teruggekoppeld naar een Excel-werkmap in OneDrive voor Bedrijven. Het verschil is dat u over de mogelijkheid beschikt om de machtigingen voor de gekoppelde Excel-werkmap te wijzigen voordat u deze deelt.
@@ -30,7 +30,7 @@ Zie [Een dashboard delen](service-share-dashboards.md) om een dashboard te delen
 
 1. Voer de e-mailadressen van uw collega's in.
 2. Selecteer **Naar OneDrive voor Bedrijven gaan om de werkmapmachtigingen in te stellen** om uw collega's de mogelijkheid te bieden om de werkmap in Power BI weer te geven.
-3. Indien nodig [wijzigt u de machtigingen](https://support.office.com/en-US/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07) in OneDrive.
+3. Indien nodig [wijzigt u de machtigingen](https://support.office.com/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07) in OneDrive.
 4. Selecteer **Delen**.
 
 >[!NOTE]
@@ -46,7 +46,7 @@ Wanneer u [een inhoudspakket publiceert](service-organizational-content-pack-cre
    
     ![Excel-werkmap in een inhoudspakket](media/service-share-dashboard-that-links-to-excel-onedrive/pbi_contpack_workbk.png)
 3. Selecteer **Naar OneDrive voor Bedrijven gaan om werkmapmachtigingen in te stellen**.
-4. Indien nodig [wijzigt u de machtigingen](https://support.office.com/en-US/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07) in OneDrive.
+4. Indien nodig [wijzigt u de machtigingen](https://support.office.com/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07) in OneDrive.
 5. Selecteer **Publiceren**.
 
 ## <a name="share-a-dashboard-from-a-power-bi-workspace"></a>Een dashboard via een Power BI-werkruimte

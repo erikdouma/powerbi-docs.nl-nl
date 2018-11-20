@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2e74c8db22a2a1c4ddb188ae13a8ca5df9f862f3
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 432e38ffdcb92ee1d2cf1d62f7f34863d748885b
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507710"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679105"
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>Een organisatie-inhoudspakket zoeken en hier verbinding mee maken
 
@@ -38,7 +38,7 @@ Gebruikers van [Power BI Pro](https://powerbi.microsoft.com/pricing) kunnen naar
 ## <a name="connect-to-an-organizational-content-pack"></a>Verbinding maken met een organisatie-inhoudspakket
 * Selecteer **Nu downloaden** om verbinding met het inhoudspakket te maken en dit toe te voegen aan uw actieve werkruimte. Nieuwe dashboards, rapporten, Excel-werkmappen en gegevenssets worden gemarkeerd met een geel sterretje.
 
-Als het inhoudspakket een Excel-werkmap bevat, wordt er mogelijk een waarschuwing weergegeven dat u niet gemachtigd bent om de werkmap weer te geven. Vraag de eigenaar van het pakket in dat geval om [de werkmap met u te delen in OneDrive voor Bedrijven](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c). 
+Als het inhoudspakket een Excel-werkmap bevat, wordt er mogelijk een waarschuwing weergegeven dat u niet gemachtigd bent om de werkmap weer te geven. Vraag de eigenaar van het pakket in dat geval om [de werkmap met u te delen in OneDrive voor Bedrijven](https://support.office.com/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c). 
 
 Het inhoudspakket is vergrendeld. U kunt [uw eigen kopie van het dashboard en de rapporten opslaan](../service-organizational-content-pack-copy-refresh-access.md). 
 

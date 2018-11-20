@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4854f05e3394d7b4eed2c67de8bbca5266a12ae3
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: 912ed0be1e6a732db46e83f8a9b0757ad2801dab
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909313"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157397"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Kan Power BI niet toevoegen aan een abonnement voor een Office 365-partner
 
@@ -23,7 +23,7 @@ Met Office 365 kunnen bedrijven Office 365 gebundeld en geïntegreerd met hun ei
 
 Als u van plan bent om Power BI naast uw Office 365-abonnement aan te schaffen, kunt u het beste contact opnemen met uw partner. Als uw partner op dit moment geen Power BI aanbiedt, hebt u verschillende opties om dit te bereiken.
 
-# <a name="work-with-your-partner-to-purchase-power-bi"></a>Samenwerken met uw partner om Power BI aan te schaffen
+## <a name="work-with-your-partner-to-purchase-power-bi"></a>Samenwerken met uw partner om Power BI aan te schaffen
 
 Als u een abonnement op Power BI Pro of Power BI Premium wilt kopen, werk dan samen met uw partner om na te gaan welke opties u hebt:
 
@@ -31,7 +31,7 @@ Als u een abonnement op Power BI Pro of Power BI Premium wilt kopen, werk dan sa
 
 * Uw partner kan overstappen naar een model waarbij u Power BI rechtstreeks bij Microsoft of een andere partner die Power BI aanbiedt, kunt kopen.
 
-# <a name="purchase-from-microsoft-or-another-channel"></a>Aanschaffen via Microsoft of een ander kanaal
+## <a name="purchase-from-microsoft-or-another-channel"></a>Aanschaffen via Microsoft of een ander kanaal
 
 Afhankelijk van de relatie met uw partner kunt u Power BI rechtstreeks aanschaffen via Microsoft of een andere partner. U kunt controleren of u Power BI-abonnementen kunt toevoegen in de Office 365-beheerportal (vereist lidmaatschap met de rol van globale beheerder of factureringsbeheerder).
 

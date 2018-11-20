@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: 488d11209126098063ba8ca2b2d73573edbcdbb9
-ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
+ms.openlocfilehash: 9a739efdba84279e938fd8e13d6521cf975d0b9d
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51297131"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679013"
 ---
 # <a name="on-premises-data-gateway"></a>On-premises gegevensgateway
 
@@ -100,7 +100,7 @@ Er is momenteel geen centrale locatie waar tenantbeheerders alle gateways kunnen
 ## <a name="enabling-outbound-azure-connections"></a>Uitgaande Azure-verbindingen inschakelen
 
 De on-premises gegevensgateway is afhankelijk van Azure Service Bus voor cloudconnectiviteit en brengt dienovereenkomstig uitgaande verbindingen naar de bijbehorende Azure-regio tot stand. Standaard is dit de locatie van uw Power BI-tenant. Zie [Waar bevindt mijn Power BI-tenant zich?](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-where-is-my-tenant-located/)
-Als uitgaande verbindingen door een firewall worden geblokkeerd, moet u de firewall configureren zodat deze uitgaande verbindingen toestaat van de on-premises gegevensgateway naar de bijbehorende Azure-regio. Zie [Microsoft Azure Datacenter IP-bereiken](https://www.microsoft.com/en-us/download/details.aspx?id=41653) voor meer informatie over het IP-adressenbereik van elk Azure-datacenter.
+Als uitgaande verbindingen door een firewall worden geblokkeerd, moet u de firewall configureren zodat deze uitgaande verbindingen toestaat van de on-premises gegevensgateway naar de bijbehorende Azure-regio. Zie [Microsoft Azure Datacenter IP-bereiken](https://www.microsoft.com/download/details.aspx?id=41653) voor meer informatie over het IP-adressenbereik van elk Azure-datacenter.
 > [!NOTE]
 > Het IP-adressenbereik kan na verloop van tijd worden gewijzigd; download dus regelmatig de nieuwste informatie. 
 

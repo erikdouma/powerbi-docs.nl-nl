@@ -1,7 +1,7 @@
 ---
 title: 'Een volledige rapportpagina vastmaken aan een Power BI-dashboard '
 description: Documentatie over het vastmaken van een volledige live-rapportpagina aan een Power BI-dashboard vanuit een rapport.
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/02/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3466280a452c89539d288a3e7d0a123855604e7e
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 447257ba715b473c233b1d13c6319ff4958f33fa
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546367"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717166"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Een volledige rapportpagina als een live-tegel aan een Power BI-dashboard vastmaken
 Een andere manier om een nieuwe [dashboardtegel](consumer/end-user-tiles.md) toe te voegen is door een volledige rapportpagina vast te maken. Dit is een eenvoudige manier om meer dan een visualisatie tegelijk vast te maken.  Ook zijn bij het vastmaken van een volledige pagina de tegels *live*; u kunt hiermee direct op het dashboard werken. En wijzigingen die u aan visualisaties aanbrengt in de rapporteditor, zoals een filter toevoegen of de velden wijzigen die worden gebruikt in de grafiek, worden ook in de dashboardtegel doorgevoerd.  

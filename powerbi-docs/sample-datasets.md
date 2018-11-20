@@ -1,21 +1,21 @@
 ---
 title: Een rondleiding volgen van de beschikbare Power BI-voorbeelden
 description: Voorbeelden van inhoudspakketten, PBIX-bestanden en Excel gegevenssets voor Power BI
-author: mihart
+author: maggiesMSFT
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: amac
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 08/06/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 91c08ab428852cc0fa8a721278e232400ed19bfa
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: fa6c6094e4fdfefebd0c7bb1f9ec8fa87d41766b
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546482"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717787"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Welke voorbeeldgegevens zijn beschikbaar voor gebruik met Power BI?
 Stel dat u geen ervaring hebt met Power BI en u Power BI wilt uitproberen, maar nog geen gegevens hebt.  Of misschien hebt u een gegevensset, maar bent u bang dat u de gegevensset beschadigt omdat u (nog) niet begrijpt hoe Power BI werkt?

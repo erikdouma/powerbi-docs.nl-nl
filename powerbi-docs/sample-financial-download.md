@@ -1,21 +1,21 @@
 ---
 title: De werkmap met financiële voorbeelden voor Power BI downloaden
 description: De werkmap met financiële voorbeelden voor Power BI downloaden
-author: mihart
+author: maggiesMSFT
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: amac
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: sample
 ms.date: 06/23/2018
-ms.author: amac
+ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 1fcc91020c8ec12572c090bad4f6c9b2a5963dcd
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 7437b31d5801a4bb462f10c402dd6bef4dcbf4f4
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944923"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717260"
 ---
 # <a name="download-the-financial-sample-workbook-for-power-bi"></a>De werkmap met financiële voorbeelden voor Power BI downloaden
 Hebt u wat gegevens nodig om de Power BI-service te kunnen uitproberen? We bieden een eenvoudige Excel-werkmap met financiële voorbeeldgegevens die u kunt downloaden.  U kunt de werkmap als volgt downloaden:

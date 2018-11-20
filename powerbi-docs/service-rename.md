@@ -1,21 +1,21 @@
 ---
 title: Namen van dashboards, rapporten, werkruimten, rapportpagina's, gegevenssets wijzigen
 description: In de Power BI-service kunt u van vrijwel alles de naam wijzigen.
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/01/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a3a78c27ab8d6e7c321af3f5ba4144e8b320e4a9
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: edcba2dafad831799f1e72fedd0130e282de6a24
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545723"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51716827"
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>In de Power BI-service kunt u van vrijwel alles de naam wijzigen
 In dit artikel leert u hoe u de naam van een dashboard, rapport, rapportpagina, werkmap, gegevensset, app en werkruimte wijzigt in de Power BI-service.

@@ -1,7 +1,7 @@
 ---
 title: Aanbevolen vragen voor Q&A-functie van Power BI maken
 description: Documentatie over het maken van aanbevolen vragen voor de Q&A-functie van Power BI
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: E1mIAyEXuF4
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/01/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: f01edbec60d0146dd5bd4454d3b1e0736b9158e3
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 02663648002f7924725791e378e10532fadc1128
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548230"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51716936"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Aanbevolen vragen voor Q&A-functie van Power BI maken
 Als u beschikt over een gegevensset, kunt u uw eigen aanbevolen vragen toevoegen aan deze dataset.  En de Q&A-functie van Power BI toont deze vragen aan collega's die uw gegevensset (*Verbruiken*) gebruiken.  Aanbevolen vragen geven uw collega's ideeën over de typen vragen die ze kunnen stellen over de gegevensset. U bepaalt zelf welke aanbevolen vragen u toevoegt: u kunt populaire vragen, vragen die interessante resultaten weergeven of vragen die mogelijk moeilijk zijn te formuleren toevoegen.

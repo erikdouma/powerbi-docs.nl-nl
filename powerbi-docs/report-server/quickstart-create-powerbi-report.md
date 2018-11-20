@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: bb6868784314b369fcc02e3a36caf7c82c3c5966
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 18fb96573052455034f8c257811daed6cb15529e
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564918"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679222"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Een Power BI-rapport maken voor Power BI Report Server
 U kunt Power BI-rapporten on-premises opslaan en beheren in de webportal van Power BI Report Server, net zoals u Power BI-rapporten kunt opslaan in de cloud in de Power BI-service (https://powerbi.com)). U maakt rapporten in Power BI Desktop en publiceert deze naar de webportal. Gebruikers in uw organisatie kunnen de rapporten weergeven in een browser of in een mobiele Power BI-app op een mobiele apparaat.
@@ -31,7 +31,7 @@ Als u al Power BI-rapporten hebt gemaakt in Power BI Desktop, bent u bijna klaar
 
     ![Power BI Desktop downloaden van de webportal](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
 
-    U kunt ook rechtstreeks naar [Microsoft Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=57271) (geoptimaliseerd voor Power BI Report Server, augustus 2018) gaan in het Microsoft Downloadcentrum.
+    U kunt ook rechtstreeks naar [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=57271) (geoptimaliseerd voor Power BI Report Server, augustus 2018) gaan in het Microsoft Downloadcentrum.
 
 2. Selecteer **Downloaden** in het downloadcentrum.
 

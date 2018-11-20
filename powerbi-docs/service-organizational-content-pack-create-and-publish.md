@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 46cd5e2730d1b0e90fe37a93bbd4340ffb708348
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 4638842217127c1d80ec115e05f8db1a6d3eb36c
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908458"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679036"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>Organisatie-inhoudspakketten in Power BI maken en publiceren (zelfstudie)
 
@@ -71,7 +71,7 @@ Doet u mee? Ga in [Power BI-service](https://powerbi.com) naar **Gegevens ophale
       ![](media/service-organizational-content-pack-create-and-publish/pbi_orgcontpkexcel.png)
    
       > [!NOTE]
-      > Als leden van de groep de Excel-werkmap niet kunnen bekijken, moet u mogelijk [de werkmap met hen delen in OneDrive voor Bedrijven](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c).
+      > Als leden van de groep de Excel-werkmap niet kunnen bekijken, moet u mogelijk [de werkmap met hen delen in OneDrive voor Bedrijven](https://support.office.com/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c).
       > 
       > 
 4. Selecteer **Publiceren** om het inhoudspakket toe te voegen aan de bibliotheek met organisatie-inhoudspakketten van de groep.  
@@ -93,6 +93,6 @@ Doet u mee? Ga in [Power BI-service](https://powerbi.com) naar **Gegevens ophale
 * [Inleiding tot organisatie-inhoudspakketten](service-organizational-content-pack-introduction.md)  
 * [Organisatie-inhoudspakketten beheren, bijwerken en verwijderen](service-organizational-content-pack-manage-update-delete.md)  
 * [Een groep maken in Power BI](service-create-distribute-apps.md)  
-* [Wat is OneDrive voor Bedrijven?](https://support.office.com/en-us/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)
+* [Wat is OneDrive voor Bedrijven?](https://support.office.com/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)
 * Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

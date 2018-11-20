@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: c65b945260357b0679f8fdb83c534aac53481126
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 54f49bf28019ba41df7d68e1d5312ee975023859
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564780"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679059"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren
 Meer informatie over het installeren van een voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop.
@@ -31,7 +31,7 @@ U kunt het snelste controleren of u over de meest recente versie van de voor Pow
 
     ![Power BI Desktop downloaden van de webportal](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    U kunt ook rechtstreeks naar [Microsoft Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=57271) (geoptimaliseerd voor Power BI Report Server, augustus 2018) gaan in het Microsoft Downloadcentrum.
+    U kunt ook rechtstreeks naar [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=57271) (geoptimaliseerd voor Power BI Report Server, augustus 2018) gaan in het Microsoft Downloadcentrum.
 
 2. Selecteer **Downloaden** in het downloadcentrum.
 

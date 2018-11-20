@@ -1,21 +1,21 @@
 ---
 title: Uw gegevens optimaliseren voor snelle inzichten van Power BI
 description: 'Optimaliseer uw gegevens voor snelle inzichten van Power BI. Als Power BI geen inzichten in uw gegevens vindt, kunt u onder andere het volgende doen:'
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/02/2017
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: fbf49a9ddbec5f087a28e51144c782e2f1739db0
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 33d8911ee819bbc1ac37976f077edabee368f5aa
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546931"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850563"
 ---
 # <a name="optimize-your-data-for-power-bi-quick-insights"></a>Uw gegevens optimaliseren met snelle inzichten van Power BI
 Wilt u de resultaten voor snelle inzichten verbeteren?  Als de eigenaar van een gegevensset bent, kunt u het volgende proberen:

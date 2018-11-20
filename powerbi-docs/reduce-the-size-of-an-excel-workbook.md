@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 12ff54b1aa44edaead98b1fab6942acbd76216c7
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 5d21dff56620e4b2eb05ed3bbf123ff1d1805075
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39329426"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679336"
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>De grootte van een Excel-werkmap reduceren voor weergave in Power BI
 U kunt een Excel-werkmap kleiner dan 1 GB uploaden naar Power BI. Een Excel-werkmap kan uit twee delen bestaan: een gegevensmodel en de rest van het rapport, de kerninhoud van het werkblad. Als het rapport voldoet aan de volgende maximumgrootte, kunt u het opslaan in **OneDrive voor bedrijven**, verbinding ermee maken vanuit Power BI en weergeven in Excel Online:
@@ -28,7 +28,7 @@ Hier volgen enkele elementen waardoor de kerninhoud van het werkblad groter word
 
 * Afbeeldingen.
 * Gearceerde cellen. [Verwijderen van een opmaak met gearceerde cellen](https://support.office.com/article/Add-or-change-the-background-color-of-cells-ac10f131-b847-428f-b656-d65375fb815e).
-* Gekleurde werkbladen. [Verwijderen van de achtergrond van een werkblad](https://support.office.com/en-US/article/add-or-remove-a-sheet-background-3577a762-8450-4556-96a2-cc265abc00a8).
+* Gekleurde werkbladen. [Verwijderen van de achtergrond van een werkblad](https://support.office.com/article/add-or-remove-a-sheet-background-3577a762-8450-4556-96a2-cc265abc00a8).
 * Tekstvakken.
 * Illustraties.
 
@@ -55,7 +55,7 @@ Volg, wanneer u gegevens in Excel importeert, deze tips op:
 * **Op het Excel Data- tabblad**: vink niet **Tabel** aan in het vak **Importgegevens**.
 
 ## <a name="workbook-size-optimizer"></a>Optimalisatie van de werkmapgrootte
-Als uw werkmap een gegevensmodel bevat, kunt u de werkmapgrootte optimaliseren om de grootte van uw werkmap te verminderen. [Optimalisatie van werkmapgrootte downloaden](https://www.microsoft.com/en-us/download/details.aspx?id=38793).
+Als uw werkmap een gegevensmodel bevat, kunt u de werkmapgrootte optimaliseren om de grootte van uw werkmap te verminderen. [Optimalisatie van werkmapgrootte downloaden](https://www.microsoft.com/download/details.aspx?id=38793).
 
 ## <a name="related-info"></a>Verwante informatie
 [Een geheugen-efficiënt gegevensmodel maken](https://support.office.com/article/Create-a-memory-efficient-Data-Model-using-Excel-2013-and-the-Power-Pivot-add-in-951c73a9-21c4-46ab-9f5e-14a2833b6a70)
