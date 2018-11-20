@@ -4,22 +4,24 @@ description: In dit artikel worden de functies van Power BI Report Server en de 
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 05/07/2018
+ms.date: 11/06/2018
 ms.topic: overview
 ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: f78638097ea33f9954f3db78c117f1935a68530b
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: a693eef85f7eafe7cfac2a02cbccc346201a6f13
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908526"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507687"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparing Power BI Report Server and the Power BI service (Power BI Report Server vergelijken met de Power BI-service)
 
 Power BI Report Server en de Power BI-service hebben veel overeenkomsten en een paar belangrijke verschillen. In deze tabel worden de overeenkomsten en verschillen uitgelegd.
+
+## <a name="features-of-power-bi-report-server-and-the-power-bi-service"></a>Functies van Power BI Report Server en de Power BI-service
 
 | Functies | Power BI Report Server | Power BI-service | Opmerkingen
 |---------|---------|---------|---------|
@@ -39,14 +41,14 @@ Power BI Report Server en de Power BI-service hebben veel overeenkomsten en een 
 | Q&A | Nee | Ja | [Q&A in de Power BI-service en Power BI Desktop](../consumer/end-user-q-and-a.md) 
 | Snelle inzichten | Nee | Ja | [Automatisch gegevensinzichten genereren met Power BI](../consumer/end-user-insights.md) 
 | In Excel analyseren | Nee | Ja | [Analyseren in Excel](../service-analyze-in-excel.md) 
-| Gepagineerde rapporten | Ja | Nee | Gepagineerde rapporten zijn niet beschikbaar in de Power BI-service, maar u kunt [gepagineerde rapportitems vastmaken op Power BI-dashboards](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
+| Gepagineerde rapporten | Ja | Ja | [Gepagineerde rapporten zijn beschikbaar in de Power BI-service](../paginated-reports-report-builder-power-bi.md) in preview (Engelstalig)
 | Power BI - Mobiel-apps | Ja | Ja | [Overzicht van mobiele Power BI-apps](../consumer/mobile/mobile-apps-for-mobile-devices.md) 
 | ARC GIS-kaarten | Nee | Ja | [ArcGIS-kaarten in de Power BI-service en Power BI Desktop, door Esri](../power-bi-visualization-arcgis.md)
 | E-mailabonnementen voor Power BI-rapporten | Nee | Ja | [Abonneren op een rapport of dashboard](../consumer/end-user-subscribe.md) in de Power BI-service 
 | E-mailabonnementen voor gepagineerde rapporten | Ja | Nee | [E-maillevering in Reporting Services](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  
 | Gegevensmeldingen | Nee | Ja | [Gegevensmeldingen in de Power BI-service](../service-set-data-alerts.md)
 | Beveiliging op rijniveau | Alleen via de gegevensbron in de DirectQuery-modus | Beschikbaar in de DirectQuery-modus (gegevensbron) en in de importmodus | [Beveiliging op rijniveau (RLS) met Power BI](../service-admin-rls.md) 
-| Modus volledig scherm | Nee | Ja | [De modus Volledig scherm in de Power BI-service](../service-fullscreen-mode.md) 
+| Modus volledig scherm | Nee | Ja | [De modus Volledig scherm in de Power BI-service](../consumer/end-user-focus.md) 
 | Geavanceerde Office 365-samenwerking | Nee | Ja | [Samenwerken in een app-werkruimte met Office 365](../service-collaborate-power-bi-workspace.md) 
 | R-visuals | Nee | Ja | [R-visuals maken in de Power BI-service](../visuals/service-r-visuals.md)  
 | Preview-functies | Nee | Ja | [Aanmelden voor preview-functies van de Power BI-service](../consumer/end-user-preview-features.md) 

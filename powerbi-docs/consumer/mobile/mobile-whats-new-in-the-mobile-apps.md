@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 09/14/2018
+ms.date: 11/08/2018
 ms.author: maggies
-ms.openlocfilehash: 798b1daa13079e69788bc977f37748531e38f431
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 9d73e7b4e9b303f1a774c14fc813572805f7b093
+ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909240"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "51297223"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -22,6 +22,26 @@ Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mog
 * [Power BI team blog for the mobile apps](https://powerbi.microsoft.com/blog/tag/mobile/) (Power BI-teamblog voor mobiele apps)
 * [What's new in Power BI Desktop](../../desktop-latest-update.md) (Wat is er nieuw in Power BI Desktop)  
 * [What's new in the Power BI service](../../service-whats-new.md) (Wat is er nieuw in de Power BI-service)  
+
+## <a name="october-2018"></a>Oktober 2018
+
+### <a name="paginated-report-preview-all-devices"></a>Voorbeeld van gepagineerd rapport (alle apparaten)
+
+Gepagineerde rapporten zijn nu beschikbaar in de Power BI-service. Gebruikers met toegang tot gepagineerde rapporten in de Power BI-service hebben ook toegang tot deze rapporten vanuit de mobiele app. 
+
+Lees de Power BI-[blogpost over gepagineerde rapporten op mobiel](https://powerbi.microsoft.com/en-us/blog/power-bi-paginated-reports-also-available-in-power-bi-mobile-apps-preview/).
+
+### <a name="shared-credentials-ios"></a>Gedeelde referenties (iOS)
+
+Aanmelden bij Power BI vanuit de mobiele app was nog nooit zo eenvoudig. Met gedeelde referenties is het aanmeldingsproces vereenvoudigd, omdat de referenties van andere Office 365-apps worden gebruikt op het apparaat om u te verifiëren bij de Power BI-service.
+
+### <a name="in-app-urls-ios"></a>In-app URL's (iOS) 
+
+Koppelingen in rapporten die verwijzen naar andere Power BI-artefacten, worden nu rechtstreeks in de app geopend. Hierdoor kunt u bijvoorbeeld aangepaste navigatiestromen bouwen, doordat u vanuit een rapport verwijst naar een dashboard.
+
+### <a name="ios12-and-watchos-5-support"></a>Ondersteuning voor iOS12 en watchOS 
+
+De Power BI-app voor iOS is bijgewerkt en werkt nu naadloos met het nieuwe besturingssysteem op mobiele apparaten en Watch.
 
 ## <a name="september-2018"></a>September 2018
 
@@ -41,10 +61,11 @@ Lees het [blogbericht over dashboardopmerkingen](https://powerbi.microsoft.com/b
 
 Eenmalige aanmelding (SSO) is een van de meest gevraagde functies voor de mobiele versie van Power BI voor Windows. U kunt nu uw primaire organisatie-account niet alleen gebruiken om u aan te melden bij de mobiele Windows-apparaten in uw domein aan te melden, maar ook om u naadloos aan te melden bij de Power BI-service. Meer informatie over [Eenmalige aanmelding en de mobiele Windows-apps](mobile-windows-10-app-single-sign-on-sso.md).
 
+## <a name="previous-months"></a>Vorige maanden
 
-## <a name="july-2018"></a>Juli 2018
+### <a name="july-2018"></a>Juli 2018
 
-### <a name="ios-and-android-only"></a>Alleen iOS en Android
+#### <a name="ios-and-android-only"></a>Alleen iOS en Android
 
 **Gedeelde filters**
 
@@ -55,127 +76,125 @@ U kunt nu rapporten met gedeelde filters en slicers ontvangen.
 Wanneer u een rapport in liggende stand weergeeft op uw mobiele apparaat, kunt u dezelfde achtergrondafbeeldingen zien als in de webversie van Power BI.
 
 
-## <a name="june-2018"></a>Juni 2018
+### <a name="june-2018"></a>Juni 2018
 
-### <a name="full-canvas-reports"></a>Rapporten in volledig canvas
+#### <a name="full-canvas-reports"></a>Rapporten in volledig canvas
 
 De actiebalken bovenaan en onderaan verdwijnen nu kort nadat het rapport is geladen, zodat u meer rapportinhoud tegelijk kunt bekijken.
 
-### <a name="increased-phone-report-canvas-size"></a>Verbeterde canvasgrootte van rapporten op telefoon
+#### <a name="increased-phone-report-canvas-size"></a>Verbeterde canvasgrootte van rapporten op telefoon
 
 De canvasgrootte van rapporten op een telefoon is vergroot, zodat meer visuals kunnen worden weergegeven.
 
-## <a name="may-2018"></a>Mei 2018
+### <a name="may-2018"></a>Mei 2018
 
-### <a name="mobile-drill-through-all-mobile-apps"></a>Mobiele drillthrough: alle mobiele apps
+#### <a name="mobile-drill-through-all-mobile-apps"></a>Mobiele drillthrough: alle mobiele apps
 
 U kunt inzoomen vanaf een geselecteerd gegevenspunt naar een andere rapportpagina in de mobiele apps, als de rapportontwerper die actie heeft gedefinieerd. 
 
-### <a name="back-button-all-mobile-apps"></a>De knop Terug: alle mobiele apps
+#### <a name="back-button-all-mobile-apps"></a>De knop Terug: alle mobiele apps
 
 Wanneer u nu door een rapport navigeert door te vegen, een rapportpagina op de actiebalk te kiezen of in te zoomen, gaat u met de knop Terug terug naar de vorige pagina die u hebt bekeken. 
 
-### <a name="dashboard-themes-all-mobile-apps"></a>Dashboardthema's: alle mobiele apps
+#### <a name="dashboard-themes-all-mobile-apps"></a>Dashboardthema's: alle mobiele apps
 
 Wanneer rapportontwerpers dashboardthema's in de Power BI-service aanpassen, wordt ook de vormgeving van het dashboard in de mobiele app gewijzigd. U ziet echter geen achtergrondafbeeldingen.
 
-### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS: toegang via Power BI mobiele iOS-apps tot rapportservers op afstand configureren
+#### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS: toegang via Power BI mobiele iOS-apps tot rapportservers op afstand configureren
 
 Uw IT-beheerder kan nu een MDM-hulpprogramma gebruiken om toegang via een Power BI mobiele iOS-app tot een rapportserver te configureren. Zie [Toegang via Power BI mobiele iOS-apps tot rapportserver op afstand configureren](../../report-server/configure-powerbi-mobile-apps-remote.md) voor meer informatie.
 
-### <a name="power-bi-for-mixed-reality-app-preview"></a>De app Power BI for Mixed Reality (preview)
+#### <a name="power-bi-for-mixed-reality-app-preview"></a>De app Power BI for Mixed Reality (preview)
 
 De Power BI for Mixed Reality-app is nu beschikbaar in de Microsoft Store. Bekijk de dashboards en rapporten terwijl u in een virtuele omgeving werkt of plaats en bekijk deze op specifieke locaties in uw omgeving. Bekijk de nieuwe video [Kennismaking met Power BI op Hololens](https://www.youtube.com/watch?v=J_X_nOFUBss) voor context of lees het artikel over de nieuwe [Power BI for Mixed Reality-app](mobile-mixed-reality-app.md).
 
 
-## <a name="april-2018"></a>April 2018
+### <a name="april-2018"></a>April 2018
 
-### <a name="mobile-drill-down-and-drill-up"></a>Mobiel in- en uitzoomen
+#### <a name="mobile-drill-down-and-drill-up"></a>Mobiel in- en uitzoomen
 
 U kunt nu met in- en uitzoomen dieper ingaan op de rapportvisuals op uw mobiele apparaat. Open deze nieuwe functie door op het menu van de knopinfo te tikken en uw vinger hierop te houden, waarna u op de knoppen voor in- en uitzoomen tikt om details voor uw gegevens weer te geven. Meer informatie over [in- en uitzoomen in mobiele apps](https://powerbi.microsoft.com/blog/drill-down-up-in-power-bi-mobile-apps/).
 
-### <a name="persistent-filters"></a>Permanente filters
+#### <a name="persistent-filters"></a>Permanente filters
 
 We hebben onlangs rapportfilters en slicers bijgewerkt, zodat deze automatisch vanuit Power BI op het web naar de mobiele Power BI-app worden opgeslagen. Filters en slicers die u nu instelt in de mobiele app, worden automatisch opgeslagen naar Power BI op het web.
 
 
-## <a name="march-2018"></a>Maart 2018
+### <a name="march-2018"></a>Maart 2018
 
-### <a name="power-bi-for-mixed-reality-app-preview"></a>De app Power BI for Mixed Reality (preview)
+#### <a name="power-bi-for-mixed-reality-app-preview"></a>De app Power BI for Mixed Reality (preview)
 
 We hebben de app Power BI for Mixed Reality gemaakt, zodat uw gegevens nog toegankelijker voor u zijn. Bekijk de dashboards en rapporten terwijl u in een virtuele omgeving werkt of plaats en bekijk deze op specifieke locaties in uw omgeving. Lees meer over de nieuwe [app Power BI for Mixed Reality](mobile-mixed-reality-app.md).
 
-### <a name="share-reports-and-dashboards-externally"></a>Rapporten en dashboards extern delen
+#### <a name="share-reports-and-dashboards-externally"></a>Rapporten en dashboards extern delen
 
 Deel dashboards en rapporten met gebruikers buiten uw organisatie, rechtstreeks vanuit de app. Extern delen is ingeschakeld voor zowel sociale als organisatieaccounts. 
 
-### <a name="persistent-filters"></a>Permanente filters
+#### <a name="persistent-filters"></a>Permanente filters
 
 Wanneer u filters en slicers instelt in Power BI op het web, worden uw filterkeuzes ook opgeslagen in uw mobiele app, zodat u verder kunt gaan waar u was gebleven.
 
-### <a name="refresh-reports-on-the-ipad"></a>Rapporten vernieuwen op de iPad
+#### <a name="refresh-reports-on-the-ipad"></a>Rapporten vernieuwen op de iPad
 
 Power BI-rapporten hebben nu een knop Vernieuwen in de iPad-app.
 
-## <a name="february-2018"></a>Februari 2018
+### <a name="february-2018"></a>Februari 2018
 
-### <a name="share-reports"></a>Rapporten delen
+#### <a name="share-reports"></a>Rapporten delen
 
 U kunt een rapport nu rechtstreeks vanuit de mobiele apps delen. Meer informatie over het [delen van dashboards en rapporten vanuit de mobiele apps](mobile-share-dashboard-from-the-mobile-apps.md).
 
-### <a name="improved-tooltips"></a>Verbeterde tooltips
+#### <a name="improved-tooltips"></a>Verbeterde tooltips
 
 Wanneer u op een visual van een rapport tikt en dit ingedrukt houdt, kunt u nu met uw vinger over de visual slepen om informatie weer te geven over elk gegevenspunt in het element.
 
-## <a name="january-2018"></a>Januari 2018
+### <a name="january-2018"></a>Januari 2018
 
-### <a name="report-favorites"></a>Favoriete rapporten
+#### <a name="report-favorites"></a>Favoriete rapporten
 
 Voeg rapporten toe aan uw favorieten zodat ze op de pagina **Favorieten** worden weergegeven. Lees meer over [favorieten in de mobiele Power BI-apps](mobile-apps-favorites.md).
 
-### <a name="view-shared-reports"></a>Gedeelde rapporten bekijken
+#### <a name="view-shared-reports"></a>Gedeelde rapporten bekijken
 
 Als iemand nu een rapport met u deelt, wordt het samen met dashboards vermeld op de pagina **Gedeeld met mij**.
 
-### <a name="improved-hyperlink-support"></a>Verbeterde ondersteuning voor hyperlinks
+#### <a name="improved-hyperlink-support"></a>Verbeterde ondersteuning voor hyperlinks
 
 U kunt nu op koppelingen in aangepaste visuals tikken om deze in uw mobiele browser te openen.
 
-### <a name="intune-integration-android"></a>Intune-integratie (Android)
+#### <a name="intune-integration-android"></a>Intune-integratie (Android)
 
 Ondersteuning voor voorwaardelijke toegang met Intune Mobile Device Management.
 
-## <a name="december-2017"></a>December 2017
+### <a name="december-2017"></a>December 2017
 
-### <a name="improved-security-management"></a>Verbeterd beveiligingsbeheer 
+#### <a name="improved-security-management"></a>Verbeterd beveiligingsbeheer 
 
 Ondersteuning voor voorwaardelijke toegang (CA) en Microsoft Intune Mobile Device Management (MDM) is op Android-apparaten toegevoegd zodat u de gegevens van uw organisatie beter kunt beveiligen. Deze functie is al beschikbaar op iOS.
 
-### <a name="improved-permission-management"></a>Verbeterd beheer van machtigingen
+#### <a name="improved-permission-management"></a>Verbeterd beheer van machtigingen
 
 Er zijn enkele wijzigingen aangebracht die zorgen voor nauwkeuriger beheer van gebruikersmachtigingen voor gegevenssets, dashboards en rapporten.
 
-### <a name="auto-installed-apps"></a>Automatisch geïnstalleerde apps
+#### <a name="auto-installed-apps"></a>Automatisch geïnstalleerde apps
 
 U hoeft sommige apps helemaal niet in Power BI te installeren. Auteurs van Power BI-apps in uw organisatie kunnen *apps* maken die een verzameling dashboards en rapporten bevatten. Vervolgens kunnen ze de app publiceren en instellen om deze automatisch te installeren in de Power BI-service en de mobiele Power BI-apps. Wanneer een app is ingesteld om te worden geïnstalleerd, wordt deze automatisch weergegeven in het menu **Apps**:
 
 ![Apps in de mobiele Power BI-app](./media/mobile-whats-new-in-the-mobile-apps/power-bi-apps-mobile-apps.png)
 
-## <a name="november-2017"></a>November 2017
-### <a name="iphone-x-optimization"></a>iPhone X-optimalisatie
+### <a name="november-2017"></a>November 2017
+#### <a name="iphone-x-optimization"></a>iPhone X-optimalisatie
 
 De appindeling voor iPhone X is geoptimaliseerd, zodat u uw gegevens in stijl op elk apparaat kunt verkennen.
 
-## <a name="october-2017"></a>Oktober 2017
-### <a name="filters-for-phone-reports-in-android"></a>Filters voor telefoonrapporten in Android
+### <a name="october-2017"></a>Oktober 2017
+#### <a name="filters-for-phone-reports-in-android"></a>Filters voor telefoonrapporten in Android
 
 Als u in Power BI Desktop een rapport maakt met pagina's die voor de telefoon zijn geoptimaliseerd en dat tevens filters bevat, kunt u die filters toepassen in het telefoonrapport op de Android. Lees meer over filters voor Power BI-rapporten op Android.
 
-### <a name="show-data-in-reports"></a>Gegevens weergeven in rapporten
+#### <a name="show-data-in-reports"></a>Gegevens weergeven in rapporten
 
 U kunt nu visuele elementen in uw rapporten weergeven als een tabel om de cijfers achter de gegevens te zien. Om deze functie te benaderen, tikt u op ‘Gegevens weergeven’ in het menu ... van het visuele element op uw rapport of op het nieuwe pictogram op het actiemenu van het uitgevouwen visuele element.
-
-## <a name="previous-months"></a>Vorige maanden
 
 ### <a name="september-2017"></a>September 2017
 #### <a name="filters-for-phone-reports-in-iphones"></a>Filters voor telefoonrapporten in iPhones

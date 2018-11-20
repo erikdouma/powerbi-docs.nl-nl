@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 11/06/2018
 ms.author: maggies
-ms.openlocfilehash: 88bfd67ddf284ea6b518c5ebdd6386887513f393
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: bff5e42b239fee572ea0a453301f154da3b999b3
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223048"
+ms.locfileid: "51266088"
 ---
 # <a name="whitepapers-for-power-bi"></a>Technische documenten voor Power BI
 
@@ -22,13 +22,14 @@ Met technische documenten kunt u Power BI-onderwerpen diepgaander verkennen. Hie
 
 | Technisch document | Beschrijving | Datum |
 | --- | --- | --- |
+| [Power BI en gegevensstromen](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| In dit technisch document worden gegevensstromen gedetailleerd beschreven, en worden de mogelijkheden en initiatieven beschreven achter de functies en functionaliteit van gegevensstromen. | November 2018 |
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |Beschrijft Power BI Premium, zowel als het aanvankelijk is als de manier waarop het zich zal ontwikkelen. | Oktober 2017 |
 | [Planning en implementatie van Power BI Premium](https://aka.ms/Premium-Capacity-Planning-Deployment)| Het doel van dit document is een leidraad en aanbevolen procedures te geven bij het plannen en implementeren van Premium-capaciteit voor goedgedefinieerde workloads.| November 2017 |
 | [Plannen van capaciteit voor ingesloten analyses met Power BI Premium](https://aka.ms/pbiewhitepaper) |Dit artikel bevat richtlijnen voor de app-ontwikkelaar/ISV voor het bepalen van de meest geschikte capaciteit voor het bedrijf. | Oktober 2017 |
 | [Een Power BI Enterprise-implementatie plannen](https://aka.ms/pbienterprisedeploy) |Dit technisch document bevat een overzicht van de overwegingen voor een goed presterende en veilige implementatie van Power BI in een organisatie. | Juli 2018 |
 | [Richtlijnen voor capaciteitsplanning voor Power BI Report Server](report-server/capacity-planning.md) |Het doel van dit document is een leidraad te geven bij de capaciteitsplanning voor Power BI Report Server door het delen van de resultaten van talrijke belastingtests die met verschillende workloads op een rapportserver zijn uitgevoerd. | Maart 2018 |
 | [Beveiliging](service-admin-power-bi-security.md) |Biedt een gedetailleerde beschrijving van de beveiliging in Power BI. | Juli 2018 |
-| [Power BI-inhoud distribueren naar externe gastgebruikers met behulp van Azure Active Directory B2B](https://aka.ms/powerbi-b2b-whitepaper)|Dit document geeft een overzicht van het distribueren van inhoud naar gebruikers buiten de organisatie met behulp van de integratie van Azure Active Directory Business-to-business (AAD B2B).| Maart 2018 |
+| [Power BI-inhoud distribueren naar externe gastgebruikers met behulp van Azure Active Directory B2B](https://aka.ms/powerbi-b2b-whitepaper)|Dit document geeft een overzicht van het distribueren van inhoud naar gebruikers buiten de organisatie met behulp van de integratie van AAD B2B (Azure Active Directory Business-to-business).| Maart 2018 |
 | [Geavanceerde analyses met Power BI](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) |Hierin worden de geavanceerde analytische mogelijkheden van Power BI beschreven, waaronder voorspellende analyses, aangepaste visualisaties, R-integratie en expressies voor gegevensanalyse. | Februari 2017 |
 | [Aanbevolen procedures voor het ontwerpen van rapporten en visualisaties](visuals/power-bi-visualization-best-practices.md) |Hier worden de aanbevolen procedures voor het ontwerpen van rapporten in Power BI beschreven. | Juni 2018 |
 | [Filteren in twee richtingen](desktop-bidirectional-filtering.md) |Hierin wordt het kruislings filteren in twee richtingen in Power BI Desktop uitgelegd (het technische document geldt ook voor SQL Server Analysis Services 2016, beide hebben hetzelfde gedrag). | Juli 2018 |

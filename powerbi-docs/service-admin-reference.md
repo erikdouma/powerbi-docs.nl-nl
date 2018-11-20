@@ -1,5 +1,5 @@
 ---
-title: PowerShell-cmdlets, REST-API's en .NET SDK voor het beheer van Power BI
+title: PowerShell-cmdlets, REST-API's en .NET SDK voor Power BI-beheerders
 description: Meer informatie over de manieren waarop u Power BI kunt beheren via scripts en programmeer-API's.
 author: mgblythe
 manager: kfile
@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 06/25/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: ffb2ae077add5756af63f07d8f3da830e075e0b4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f4455fef5a2ed0e7ee23ff8ca3a0b626cd695838
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36945253"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507986"
 ---
 # <a name="powershell-cmdlets-rest-apis-and-net-sdk-for-power-bi-administration"></a>PowerShell-cmdlets, REST-API's en .NET SDK voor het beheer van Power BI
 Met Power BI kunnen beheerders algemene taken uitvoeren met PowerShell-cmdlets. Verder biedt het REST-API's en een .NET SDK voor het ontwikkelen van beheerdersoplossingen. Dit onderwerp bevat een lijst met cmdlets met de bijbehorende SDK-methode en het REST API-eindpunt. Zie deze onderwerpen voor meer informatie:

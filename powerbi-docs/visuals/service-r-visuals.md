@@ -1,5 +1,5 @@
 ---
-title: Geavanceerde analyses en visualisaties met R-scripts maken in Power BI
+title: Geavanceerde analyses en visualisaties met R-scripts maken
 description: Lees hier hoe u R-scripts gebruikt in Power BI om geavanceerde analyses en visualisaties te maken.
 author: mihart
 manager: kvivek
@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/24/2018
+ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a3407458cfe6e395a5a209e136af1d4c9a7aa6a6
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 409a2ee486d0153e0dec2f715ff0e2ea19e236d7
+ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566344"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "51297108"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>R-visuals maken in de Power BI-service
 De Power BI-service ondersteunt de weergave van en de interactie met visuele elementen die zijn gemaakt met R-scripts. Visuele elementen die zijn gemaakt met R-scripts, vaak *R-visuals* genoemd, kunnen geavanceerde vormgeving en analyses van gegevens bieden, zoals prognoses. Hiervoor wordt gebruikgemaakt van de krachtige analysemogelijkheden en visualisatievoorzieningen van R.
 
 > [!NOTE]
-> De [R-programmeertaal](https://www.r-project.org/) is onder statistici, gegevenswetenschappers en bedrijfsanalisten een van de meest gebruikte programmeertalen. De R-taal heeft een open source-community die meer dan 7000 invoegtoepassingen heeft ontwikkeld. Daarnaast bevat de community een groot aantal [R-gebruikersgroepen](http://msdsug.microsoft.com/). De versie van R die is geïmplementeerd in de Power BI-service is *Revolution R Open 3.2.2.*
+> De [R-programmeertaal](https://www.r-project.org/) is onder statistici, gegevenswetenschappers en bedrijfsanalisten een van de meest gebruikte programmeertalen. De R-taal heeft een open source-community die meer dan 7000 invoegtoepassingen heeft ontwikkeld. Daarnaast bevat de community een groot aantal R-gebruikersgroepen. De versie van R die is geïmplementeerd in de Power BI-service is *Revolution R Open 3.2.2.*
 > 
 > 
 

@@ -8,20 +8,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/09/2018
+ms.date: 11/06/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 2623dd3280636583d5dd6d6e3f57518550032193
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: bb7527a197c9556509ebba721ee49a2d9817b6f5
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003197"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266203"
 ---
 # <a name="monitor-power-bi-premium-and-power-bi-embedded-capacities"></a>Power BI Premium en Power BI Embedded-capaciteiten bewaken
 
 In dit artikel vindt u een overzicht van het bewaken van de metrische gegevens voor uw Power BI Premium-capaciteiten. Het bewaken van het capaciteitsgebruik biedt een geïnformeerde benadering voor het beheren van uw capaciteiten.
 
-U kunt de capaciteit bewaken met de app Power BI Premium Capacity Metrics of via de beheerportal. We raden de app aan omdat deze meer detail biedt. Dit artikel behandelt echte beide opties.
+U kunt de capaciteit bewaken met de app Power BI Premium Capacity Metrics of via de beheerportal. We raden de app aan omdat deze meer detail biedt. Dit artikel behandelt echte beide opties. **De huidige versie van de app is 1.8 (uitgebracht op 7 november 2018).**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UgsjMbhi_Bk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -33,11 +33,11 @@ U kunt rechtstreeks naar de [app Premium Capacity Metrics](https://app.powerbi.c
 
     ![Ga naar Apps](media/service-admin-premium-monitor-capacity/apps.png)
 
-2. Klik aan de rechterkant op **Apps downloaden**.
+1. Klik aan de rechterkant op **Apps downloaden**.
 
-3. Zoek in de categorie **Apps** naar **Power BI Premium Capacity Metrics-app**.
+1. Zoek in de categorie **Apps** naar **Power BI Premium Capacity Metrics-app**.
 
-4. Meld u aan om de app te installeren.
+1. Meld u aan om de app te installeren.
 
 Als de app is geïnstalleerd, kunt u metrische gegevens over de capaciteiten in uw organisatie zien. Laten we eens kijken naar enkele belangrijke metrische gegevens die beschikbaar zijn.
 
@@ -47,72 +47,155 @@ Als u de app opent, ziet u eerst een dashboard met een overzicht van alle capaci
 
 ![App-dashboard met metrische gegevens](media/service-admin-premium-monitor-capacity/app-dashboard.png)
 
-Het rapport heeft drie tabbladen die we in de volgende secties met meer detail beschrijven.
+Klik op het dashboard om naar het onderliggende rapport te gaan. Het rapport heeft zes tabbladen die in de volgende secties gedetailleerder worden beschreven.
 
-* **Filters die zijn toegepast op alle pagina's**: zorgen ervoor dat u de andere pagina's in het rapport kunt filteren op een specifieke capaciteit.
-* **Gegevenssets**: bieden gedetailleerde metrische gegevens over de status van de gegevenssets binnen uw capaciteiten.
-* **Systeem**: geeft de metrische gegevens van de totale capaciteit weer, inclusief hoog geheugen- en CPU-verbruik. 
+* **Filters**: zorgen ervoor dat u de andere pagina's in het rapport kunt filteren op een specifieke capaciteit.
 
-### <a name="filters-applied-to-all-pages-tab"></a>Filters die op alle paginatabbladen zijn toegepast
+* **Gegevenssets**: gedetailleerde metrische gegevens over de status van de Power BI-gegevenssets in de capaciteiten.
 
-Op het tabblad **Filters op alle pagina's toegepast** kunt u een capaciteit, een gegevensset en een gegevensbereik binnen de afgelopen zeven dagen selecteren. Filters worden vervolgens toegepast op alle relevante pagina's en tegels in het rapport. Als u er geen filters zijn geselecteerd, worden in het rapport alleen de metrische gegevens getoond van elke capaciteit waarvan u de eigenaar bent.
+* **Gepagineerde rapporten**: gedetailleerde metrische gegevens over de status van de gepagineerde rapporten in de capaciteiten.
+
+* **Gegevensstromen**: gedetailleerde metrische gegevens voor vernieuwen in de capaciteiten.
+
+* **Systeem**: metrische gegevens van de totale capaciteit, inclusief hoog geheugen- en CPU-verbruik.
+
+* **Weergavenamen en -id's**: namen, id's en eigenaars van capaciteiten, werkruimten en workloads.
+
+### <a name="filters-tab"></a>Tabblad Filters
+
+Op het tabblad **Filters** kunt u een capaciteit, een gegevensbereik en andere opties selecteren. Filters worden vervolgens toegepast op alle relevante pagina's en tegels in het rapport. Als u er geen filters zijn geselecteerd, worden in het rapport alleen de metrische gegevens getoond van elke capaciteit waarvan u de eigenaar bent.
 
 ![Tabblad Filters](media/service-admin-premium-monitor-capacity/filters-tab.png)
 
+* **(A)** Selecteer **Gegevenssets**, **Gepagineerde rapporten** of **Gegevensstromen** om filters in te stellen voor elke workload.
+
+* **(B)** Naam en **(C)** informatie worden bijgewerkt op basis van wat u selecteert in **(A)**, waardoor u workloads kunt filteren op naam. In de afbeelding hierboven is bijvoorbeeld **Gegevensstromen** geselecteerd, en worden **Naam van gegevensstromen** en **Informatie over gegevensstromen** weergegeven.
+
+* **(D)** Capaciteitsgegevens. Hiermee wordt aangegeven of gegevenssets, gepagineerde rapporten of gegevensstromen zijn ingeschakeld voor een capaciteit.
+
 ### <a name="datasets-tab"></a>Tabblad Gegevenssets
 
-Het tabblad **Gegevenssets** biedt het grootste deel van metrische gegevens in de app. Gebruik de knoppen bovenaan het tabblad om door de verschillende gebieden te navigeren: **Samenvatting**, **Vernieuwingen**, **Queryduur**, **Querywachttijden** en **Gegevenssets**.
+Gebruik de knoppen boven aan het tabblad **Gegevenssets** om door de verschillende gebieden te navigeren: **Samenvatting**, **Vernieuwingen**, **Queryduur**, **Querywachttijden** en **Gegevenssets**.
 
 ![Tabblad Gegevenssets](media/service-admin-premium-monitor-capacity/datasets-tab.png)
 
 #### <a name="summary-area"></a>Overzichtsgebied
 
-In het **Samenvattingsgebied** wordt een weergave van uw capaciteiten op basis van entiteiten, systeemresources en werkbelastingen van gegevenssets weergegeven.
+In het **Samenvattingsgebied** wordt een weergave van uw capaciteiten op basis van entiteiten, systeemresources en werkbelastingen van gegevenssets weergegeven. Hier worden de volgende metrische gegevens weergegeven.
 
-| | **Metrische gegevens** |
+| **Rapportsectie** | **Metrische gegevens** |
 | --- | --- |
 | **Entiteiten** | * Het aantal capaciteiten waarvan u eigenaar bent<br> * Het verschillende aantal gegevenssets in uw capaciteit<br> * Het verschillende aantal werkruimten in uw capaciteit |
 | **Systeem** | * Het gemiddelde geheugengebruik in GB gedurende de afgelopen zeven dagen<br> * Het hoogste geheugengebruik in GB gedurende de afgelopen zeven dagen en de lokale tijd waarop dit plaatsvond<br> * Het aantal keren waarop de CPU 80% van de drempelwaarden overschreed gedurende de afgelopen zeven dagen, gesplitst in buckets van drie minuten<br> * De tijden waarop de CPU de 80% meestal overschreed gedurende de afgelopen zeven dagen, gesplitst in buckets van één uur, en de lokale tijd waarop dit plaatsvond<br> * Het aantal keren dat DirectQuery/Live-verbindingen 80% van de drempelwaarden overschreed gedurende de afgelopen zeven dagen, gesplitst in buckets van drie minuten<br> * De tijden waarop DirectQuery/Live-verbindingen de 80% meestal overschreed gedurende de afgelopen zeven dagen, gesplitst in buckets van één uur, en de lokale tijd waarop dit plaatsvond |
-| **Workloads van gegevenssets** | * Het totale aantal vernieuwingen gedurende de afgelopen zeven dagen<br> * Het totale aantal geslaagde vernieuwingen gedurende de afgelopen zeven dagen<br> * Het totale aantal mislukte vernieuwingen gedurende de afgelopen zeven dagen<br> * Het totale aantal mislukte vernieuwingen wegens onvoldoende geheugen<br> * De gemiddelde vernieuwingsduur wordt gemeten in minuten, de tijd om de bewerking te voltooien<br> * De gemiddelde wachttijd voor het vernieuwen wordt gemeten in minuten, de gemiddelde vertraging tussen de geplande tijd en het begin van de bewerking<br> * Het totale aantal uitgevoerde query's gedurende de afgelopen zeven dagen<br> * Het totale aantal geslaagde query's gedurende de afgelopen zeven dagen<br> * Het totale aantal mislukte query's gedurende de afgelopen zeven dagen<br> * De gemiddelde duur van de query's wordt gemeten in minuten, de tijd om de bewerking te voltooien<br> * Het totale aantal modellen dat wegens geheugendruk is verwijderd |
+| **Workloads van gegevenssets** | * Het totale aantal vernieuwingen gedurende de afgelopen zeven dagen<br> * Het totale aantal geslaagde vernieuwingen gedurende de afgelopen zeven dagen<br> * Het totale aantal mislukte vernieuwingen gedurende de afgelopen zeven dagen<br> * Het totale aantal mislukte vernieuwingen wegens onvoldoende geheugen<br> * De gemiddelde vernieuwingsduur is de tijd om de bewerking te voltooien, in minuten<br> * De gemiddelde wachttijd voor vernieuwen is de gemiddelde vertraging tussen de geplande tijd en het begin van de bewerking, in minuten<br> * Het totale aantal uitgevoerde query's gedurende de afgelopen zeven dagen<br> * Het totale aantal geslaagde query's gedurende de afgelopen zeven dagen<br> * Het totale aantal mislukte query's gedurende de afgelopen zeven dagen<br> * De gemiddelde queryduur is de tijd om de bewerking te voltooien, in minuten<br> * Het totale aantal modellen dat wegens geheugendruk is verwijderd |
 |  |  |
 
 #### <a name="refreshes-area"></a>Vernieuwingengebied
 
-In het gebied **Vernieuwingen** vindt u de voltooide vernieuwingen, de geslaagde vernieuwingen, de gemiddelde/maximale wachttijd en de gemiddelde/maximale vernieuwingsduur gedurende de afgelopen zeven dagen, gesegmenteerd in gegevenssets. De onderste twee diagrammen tonen de vernieuwingen versus het geheugenverbruik in GB en de gemiddelde wachttijden, gesplitst in buckets van één uur en weergegeven in de lokale tijd. De bovenste staafdiagrammen tonen de gemiddelde tijd voor het vernieuwen van de gegevensset (vernieuwingsduur) en de gemiddelde duur van de wachttijden. Meerdere pieken met een lange wachttijd duiden erop dat de capaciteit aan zijn maximum zit.
+Het **Vernieuwingengebied** bevat de volgende metrische gegevens.
+
+| **Rapportsectie** | **Metrische gegevens** |
+| --- | --- |
+| **Betrouwbaarheid van vernieuwen** | * Totaal aantal: totaal aantal vernieuwingen voor elke gegevensset<br> * Betrouwbaarheid: het percentage vernieuwingen dat is voltooid voor elke gegevensset<br> * Gemiddelde wachttijd: de gemiddelde vertraging tussen de geplande tijd en het begin van een vernieuwing voor de gegevensset, in minuten<br> * Maximale wachttijd: de maximale wachttijd voor de gegevensset, in minuten <br> * Gemiddelde duur: de gemiddelde duur van een vernieuwing voor de gegevensset, in minuten<br> * Maximale duur: de duur van de langst lopende vernieuwing voor de gegevensset, in minuten |
+| **Belangrijkste 5 gegevenssets op Gemiddelde vernieuwingsduur** | * De vijf gegevenssets met de langste gemiddelde vernieuwingsduur, in minuten |
+| **Belangrijkste 5 gegevenssets op Gemiddelde wachttijd** | * De vijf gegevenssets met de langste gemiddelde wachttijd, in minuten |
+| **Gemiddelde wachttijden voor vernieuwen per uur** | * De gemiddelde wachttijd voor vernieuwen, opgesplitst in buckets van één uur, vermeld in de lokale tijd. Meerdere pieken met een lange wachttijd duiden erop dat de limiet van de capaciteit wordt bereikt. |
+| **Aantal vernieuwingen en geheugenverbruik per uur** | * Geslaagde en mislukte pogingen, en geheugenverbruik, opgesplitst in buckets van één uur, vermeld in de lokale tijd |
+|  |  |
 
 #### <a name="query-durations-area"></a>Het gebied Queryduur
 
-In het gebied **Queryduur** wordt het totaalaantal uitvoeringen van query's vermeld en de gemiddelde/maximale duur in milliseconden. Deze gegevens zijn opgedeeld in gegevenssets, werkruimten en buckets per uur in de afgelopen zeven dagen. De onderste grafiek geeft het aantal query's weer, evenals de gemiddelde duur (in milliseconden) in vergelijking met het geheugenverbruik in GB, opgesplitst in buckets per uur en vermeld in lokale tijd.
+Het gebied **Queryduur** bevat de volgende metrische gegevens.
 
-De bovenste grafiek geeft een histogram van de distributie van de queryduur weer. Het histogram is gebucket per queryduur, dat in milliseconden in de volgende categorieën wordt vermeld: intervallen van <= 30 ms, 30 - 100 ms, 100 - 300 ms, 300 ms - 1 sec, 1 sec - 3 sec, 3 sec - 10 sec, 10 sec - 30 sec en > 30 seconden.
-
-De grafiek rechtsonder vermeldt de top vijf gegevenssets per gemiddelde queryduur voordat de query's waren voltooid.
-
-Een lange queryduur en lange wachttijden geven aan dat de capaciteit overbelast raakt. Het kan ook betekenen dat een enkele gegevensset problemen veroorzaakt en dat verder onderzoek nodig is.
+| **Rapportsectie** | **Metrische gegevens** |
+| --- | --- |
+| **Queryduur** | * Gegevens in deze sectie zijn opgedeeld in gegevenssets, werkruimten en buckets van één uur, in de afgelopen zeven dagen<br> * Totaal: het totaal aantal query's dat wordt uitgevoerd voor de gegevensset<br> * Gemiddelde: de gemiddelde queryduur voor de gegevensset, in milliseconden<br> * Max: de duur van de langst lopende query in de gegevensset, in milliseconden|
+| **Queryduurdistributie** | * Het histogram voor de queryduur wordt verzameld per queryduur (in milliseconden) in de volgende categorieën: intervallen van <= 30 ms, 30 - 100 ms, 100 - 300 ms, 300 ms - 1 sec, 1 sec - 3 sec, 3 sec - 10 sec, 10 sec - 30 sec en > 30 seconden. Een lange queryduur en lange wachttijden geven aan dat de capaciteit overbelast raakt. Het kan ook betekenen dat een enkele gegevensset problemen veroorzaakt en dat verder onderzoek nodig is. |
+| **Belangrijkste 5 gegevenssets op Gemiddelde duur** | * De vijf gegevenssets met de langste gemiddelde queryduur, in minuten |
+| **DirectQuery/liveverbindingen (gebruik > 80%)** | * Het aantal keer dat een DirectQuery of liveverbinding het gebruik van 80% heeft overschreden, opgesplitst in buckets van één uur, vermeld in de lokale tijd |
+| **Queryduurdistributies per uur** | * Aantal query's en gemiddelde duur (in milliseconden) in vergelijking met het geheugenverbruik in GB, opgesplitst in buckets van één uur, vermeld in de lokale tijd |
+|  |  |
 
 #### <a name="query-waits-area"></a>Het gebied Querywachttijden
 
-In het gebied **Querywachttijden** wordt het totaalaantal uitgevoerde query's vermeld, evenals het totaalaantal wachtende query's voor Livequery/DirectQuery en de gemiddelde/maximale wachttijd, uitgedrukt in milliseconden. Deze gegevens zijn opgedeeld in gegevenssets, werkruimten en buckets per uur in de afgelopen zeven dagen. De onderste grafiek geeft het aantal querywachttijden weer, evenals de gemiddelde wachttijd (in milliseconden) in vergelijking met het geheugenverbruik in GB, opgesplitst in buckets per uur en vermeld in lokale tijd.
+Het gebied **Querywachttijden** bevat de volgende metrische gegevens.
 
-De bovenste grafiek geeft een histogram van de distributie van de querywachttijd weer. Het histogram is gebucket per queryduur, dat in milliseconden in de volgende categorieën wordt vermeld: intervallen van <= 50 ms, 50 - 100 ms, 100 - 200 ms, 200 - 400 ms, 400 ms - 1 sec, 1 sec - 5 sec en  > 5 seconden.
-
-De grafiek rechtsonder vermeldt de top vijf gegevenssets per gemiddelde querywachttijd voordat de query's waren gestart.
+| **Rapportsectie** | **Metrische gegevens** |
+| --- | --- |
+| **Querywachttijden** | * Gegevens in deze sectie zijn opgedeeld in gegevenssets, werkruimten en buckets van één uur, in de afgelopen zeven dagen<br> * Totaal: het totaal aantal query's dat wordt uitgevoerd voor de gegevensset<br> * Aantal wachtquery's: het aantal query's in de gegevensset die, vóór uitvoering, moesten wachten op systeemresources <br> * Gemiddelde: de gemiddelde querywachtduur voor de gegevensset, in milliseconden<br> * Max: de duur van de langst wachtende query in de gegevensset, in milliseconden|
+| **Wachttijddistributie** | * Het histogram voor de queryduur wordt verzameld per queryduur (in milliseconden) in de volgende categorieën: intervallen van <= 50 ms, 50 - 100 ms, 100 - 200 ms, 200 - 400 ms, 400 ms - 1 sec, 1 sec - 5 sec en  > 5 seconden |
+| **Belangrijkste 5 gegevenssets op Gemiddelde wachttijd** | * De vijf gegevenssets met de langste gemiddelde wachttijd voor het uitvoeren van een query, in milliseconden |
+| **Aantal wachtquery's en tijden per uur** | * Aantal wachtquery's en gemiddelde duur (in milliseconden) in vergelijking met het geheugenverbruik in GB, opgesplitst in buckets van één uur, vermeld in de lokale tijd |
+|  |  |
 
 #### <a name="datasets-area"></a>Het gebied gegevenssets
 
-In het gebied **Gegevenssets** vindt u de volledige gegevenssets die zijn verwijderd vanwege geheugendruk (per uur).
+Het gebied **Gegevenssets** bevat de volgende metrische gegevens.
+
+| **Rapportsectie** | **Metrische gegevens** |
+| --- | --- |
+| **Aantal verwijderingen van gegevenssets** | * Totaal: het totaal aantal *verwijderingen* van gegevenssets voor elke capaciteit. Wanneer een capaciteit geheugendruk ervaart, worden via het knooppunt een of meer gegevenssets uit het geheugen verwijderd. Gegevenssets die niet actief zijn (waarvoor op dat moment geen query- of vernieuwingsbewerkingen worden uitgevoerd) worden het eerst verwijderd. Vervolgens wordt de volgorde van verwijderen gebaseerd op een meting van 'minst recentelijk gebruikt' (least recently used, LRU).|
+| **Verwijderingen en geheugenverbruik van gegevenssets per uur** | * Verwijderingen van gegevenssets versus geheugenverbruik in GB, opgesplitst in buckets van één uur, vermeld in de lokale tijd |
+|  |  |
+
+### <a name="paginated-reports-tab"></a>Tabblad Gepagineerde rapporten
+
+Op het tabblad **Gepagineerde rapporten** worden gedetailleerde metrische gegevens weergegeven over de status van de gepagineerde rapporten in uw capaciteiten.
+
+![Tabblad Gepagineerde rapporten](media/service-admin-premium-monitor-capacity/paginated-reports-tab.png)
+
+Het tabblad **Gepagineerde rapporten** bevat de volgende metrische gegevens.
+
+| **Rapportsectie** | **Metrische gegevens** |
+| --- | --- |
+| **Algemene gebruik** | * Totaal aantal weergaven: het aantal keer dat een rapport is bekeken door een gebruiker<br> * Aantal rijen: het aantal rijen met gegevens in het rapport<br> * Ophalen (gemiddelde): de gemiddelde tijd die het kost om gegevens voor het rapport op te halen, in milliseconden. Als dit lang duurt, kan dit duiden op langzame query's of andere problemen met gegevensbronnen. <br> * Verwerken (gemiddelde): de gemiddelde tijd die het kost om gegevens voor het rapport te verwerken, in milliseconden<br>* Weergeven (gemiddelde): de gemiddelde tijd die het kost om een rapport weer te geven in de browser, in milliseconden<br> * Totale tijd: de tijd die het kost om alle fasen van een rapport te doorlopen, in milliseconden|
+| **Belangrijkste 5 rapporten op Gemiddelde tijd voor gegevens ophalen** | * De vijf rapporten met de langste gemiddelde tijd voor gegevens ophalen, in milliseconden |
+| **Belangrijkste 5 rapporten op Gemiddelde verwerkingstijd voor rapport** | * De vijf rapporten met de langste gemiddelde verwerkingstijd voor het rapport, in milliseconden |
+| **Duur per uur** | * Ophalen van gegevens versus de tijd voor verwerken en weergeven, gesplitst in buckets van één uur, vermeld in de lokale tijd |
+| **Resultaten per uur** | * Geslaagde en mislukte pogingen, en geheugenverbruik, opgesplitst in buckets van één uur, vermeld in de lokale tijd |
+|  |  |
+
+### <a name="dataflows-tab"></a>Tabblad Gegevensstromen
+
+Op het tabblad **Gegevensstromen** worden gedetailleerde metrische gegevens weergegeven voor gegevensstromen in uw capaciteiten.
+
+![Tabblad Gegevensstromen](media/service-admin-premium-monitor-capacity/dataflows-tab.png)
+
+Het tabblad **Gegevensstromen** bevat de volgende metrische gegevens.
+
+| **Rapportsectie** | **Metrische gegevens** |
+| --- | --- |
+| **Vernieuwen** | * Totaal: totaal aantal vernieuwingen voor elke gegevensstroom<br> * Betrouwbaarheid: het percentage vernieuwingen dat is voltooid voor elke gegevensstroom<br> * Gemiddelde wachttijd: de gemiddelde vertraging tussen de geplande tijd en het begin van een vernieuwing voor de gegevensstroom, in minuten<br> * Maximale wachttijd: de maximale wachttijd voor de gegevensstroom, in minuten <br> * Gemiddelde duur: de gemiddelde duur van een vernieuwing voor de gegevensstroom, in minuten<br> * Maximale duur: de duur van de langst lopende vernieuwing voor de gegevensstroom, in minuten |
+| **Belangrijkste 5 gegevensstromen op Gemiddelde vernieuwingsduur** | * De vijf gegevensstromen met de langste gemiddelde vernieuwingsduur, in minuten |
+| **Belangrijkste 5 gegevensstromen op Gemiddelde wachttijd** | * De vijf gegevensstromen met de langste gemiddelde wachttijd, in minuten |
+| **Gemiddelde wachttijden voor vernieuwen per uur** | * De gemiddelde wachttijd voor vernieuwen, opgesplitst in buckets van één uur, vermeld in de lokale tijd. Meerdere pieken met een lange wachttijd duiden erop dat de limiet van de capaciteit wordt bereikt. |
+| **Aantal vernieuwingen en geheugenverbruik per uur** | * Geslaagde en mislukte pogingen, en geheugenverbruik, opgesplitst in buckets van één uur, vermeld in de lokale tijd |
+|  |  |
 
 ### <a name="system-tab"></a>Tabblad Systeem
 
-In het tabblad **Systeem** vindt u de tijden van hoog CPU-gebruik (aantal keren dat de drempelwaarde van 80% is overschreden), hoog gebruik van DirectQuery/Live-verbindingen en het geheugengebruik.
+Op het tabblad **Systeem** worden het CPU- en geheugenverbruik weergegeven van alle capaciteiten en workloads.
 
-![Rapport Premium-systeem](media/service-admin-premium-monitor-capacity/system-tab.png)
+![Tabblad Systeem](media/service-admin-premium-monitor-capacity/system-tab.png)
+
+Het tabblad **Systeem** bevat de volgende metrische gegevens.
+
+| **Rapportsectie** | **Metrische gegevens** |
+| --- | --- |
+| **Metrische CPU-gegevens (gebruik > 80%)** | * Het aantal keren waarop de CPU 80% van de drempelwaarden overschreed gedurende de afgelopen zeven dagen, gesplitst in buckets van drie minuten |
+| **Geheugenverbruik** | * Geheugenverbruik in de afgelopen zeven dagen, gesplitst in buckets van drie minuten |
+|  |  |
+
+### <a name="display-names-and-ids-tab"></a>Tabblad Weergavenamen en -id's
+
+Het tabblad **Weergavenamen en -id's** bevat de namen, id's en eigenaars van de capaciteiten, werkruimten en workloads.
 
 ## <a name="monitor-power-bi-embedded-capacity"></a>Power BI Embedded-capaciteit bewaken
 
 U kunt ook de app Power BI Premium Capacity Metrics gebruiken om *A SKU*-capaciteiten in Power BI Embedded te bewaken. Deze capaciteiten worden in het rapport weergegeven als u een beheerder van de capaciteit bent. U kunt het rapport echter niet vernieuwen, tenzij u bepaalde machtigingen verleent aan Power BI op uw A SKU's:
 
 1. Open uw capaciteit in de Azure-portal.
+
 1. Klik op **Toegangsbeheer (IAM)** en voeg de app Power BI Premium aan de lezersrol toe. Als u de app niet op naam kunt vinden, kunt u deze ook op client-id toevoegen: cb4dc29f-0bf4-402a-8b30-7511498ed654.
 
     ![Machtigingen voor Power BI Embedded](media/service-admin-premium-monitor-capacity/embedded-permissions.png)

@@ -1,23 +1,23 @@
 ---
 title: Hardware- en softwarevereisten voor het installeren van Power BI Report Server
-description: Hier worden de minimale hardware- en softwarevereisten voor het installeren en uitvoeren van Power BI Report Server behandeld.
+description: In dit artikel worden de minimale hardware- en softwarevereisten voor het installeren en uitvoeren van Power BI Report Server behandeld.
 author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 06/13/2018
+ms.date: 11/08/2018
 ms.author: maghan
-ms.openlocfilehash: c2784bf8e8dca857ae2a1b55d1ad8560e552cafb
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: c8904f3025a0a60557b1d3efb54ea6bc18c20da4
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37780553"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507901"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Hardware- en softwarevereisten voor het installeren van Power BI Report Server
-Hier worden de minimale hardware- en softwarevereisten voor het installeren en uitvoeren van Power BI Report Server behandeld.
+In dit artikel worden de minimale hardware- en softwarevereisten voor het installeren en uitvoeren van Power BI Report Server behandeld.
 
 ## <a name="processor-memory-and-operating-system-requirements"></a>Eisen voor processor, geheugen en besturingssysteem
 
@@ -49,12 +49,13 @@ Als u de rapportserverdatabase op een externe computer wilt maken, moet u de ver
 In Power BI Report Server worden standaardwaarden geïnstalleerd om de basisinstellingen te configureren die nodig zijn om de rapportserver operationeel te maken. Hiervoor gelden de volgende vereisten:
 
 * Er moet een SQL Server Database Engine beschikbaar zijn na de installatie en voordat u de database voor de rapportserver configureert. Het exemplaar van de Database Engine fungeert als host voor de rapportserverdatabase die door Reporting Services Configuration Manager wordt gemaakt. De Database Engine is niet vereist voor de werkelijke installatie.
+- In [Reporting Services Features Supported by the Editions of SQL Server](https://docs.microsoft.com/sql/reporting-services/reporting-services-features-supported-by-the-editions-of-sql-server-2016) (Functies van Reporting Services die door versies van SQL Server worden ondersteund) worden de verschillen tussen de versies van SQL Server beschreven.
 * Het gebruikersaccount waarmee de installatie wordt uitgevoerd, moet lid zijn van de lokale groep Administrators.
-* Het gebruikersaccount dat wordt gebruikt voor Reporting Services Configuration Manager, moet machtigingen hebben om databases te openen en te maken op het Database Engine-exemplaar dat als host fungeert voor de rapportserverdatabases.
+* Het gebruikersaccount waarmee Reporting Services Configuration Manager wordt uitgevoerd, moet machtigingen hebben om databases te openen en te maken op het Database Engine-exemplaar dat als host fungeert voor de rapportserverdatabases.
 * Setup moet de standaardwaarden kunnen gebruiken om de URL's te reserveren die toegang bieden tot de rapportserver en de webportal. Deze waarden zijn: poort 80, een sterk jokerteken en de namen van virtuele mappen in de notatie **ReportServer** en **Reports**.
 
 ## <a name="read-only-domain-controller-rodc"></a>Alleen-lezen domeincontroller (RODC)
- Terwijl de rapportserver kan worden geïnstalleerd in een omgeving met een alleen-lezen domeincontroller (RODC), is voor juiste werking van Reporting Services toegang tot een domeincontroller voor lezen en schrijven vereist. Als Reporting Services alleen toegang heeft tot een RODC, kunnen fouten optreden bij het beheren van de service.
+ U kunt de rapportserver installeren in een omgeving met een alleen-lezen domeincontroller (RODC). Reporting Services heeft echter toegang nodig tot een domeincontroller voor lezen/schrijven om naar behoren te kunnen functioneren. Als Reporting Services alleen toegang heeft tot een RODC, kunnen fouten optreden bij het beheren van de service.
 
 ## <a name="power-bi-reports-and-analysis-services-live-connections"></a>Liveverbindingen van Power BI-rapporten en Analysis Services
 U kunt een liveverbinding gebruiken voor tabelvormige of multidimensionale exemplaren. Uw Analysis Services-server moet van de juiste versie en editie zijn.
@@ -69,7 +70,7 @@ U kunt een liveverbinding gebruiken voor tabelvormige of multidimensionale exemp
 [Wat is Power BI Report Server?](get-started.md)  
 [Administratoroverzicht](admin-handbook-overview.md)  
 [Power BI Report Server installeren](install-report-server.md)  
-[Report Builder installeren](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[Report Builder downloaden](https://www.microsoft.com/download/details.aspx?id=53613)  
 [SQL Server Data Tools (SSDT) downloaden](http://go.microsoft.com/fwlink/?LinkID=616714)
 
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

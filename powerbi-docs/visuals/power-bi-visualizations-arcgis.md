@@ -4,19 +4,18 @@ description: ArcGIS-kaart gebruiken in de leesweergave als Power BI-rapportgebru
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-tags: power bi, service, desktop, mobile
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2018
+ms.date: 11/06/2018
 ms.author: mihart
-ms.openlocfilehash: dd7bca6782327700f087b6b9ca60a9654fa362d8
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: 0454d2ea0e69a77482d9ba9587497679819daf06
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003266"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266019"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Interactie met ArcGIS-kaarten in Power BI
 Dit onderwerp is geschreven vanuit het oogpunt van een persoon die een ArcGIS-kaart *gebruikt* in de Power BI-service, in de desktopversie of op een mobiel apparaat. Zodra een maker een ArcGIS-kaart met u deelt, kunt u deze kaart op veel manieren gebruiken.  Zie [ArcGIS maps by esri tutorial](../power-bi-visualization-arcgis.md) (ArcGIS-kaarten van Esri - een zelfstudie) voor meer informatie over het maken van een ArcGIS-kaart.
@@ -24,7 +23,7 @@ Dit onderwerp is geschreven vanuit het oogpunt van een persoon die een ArcGIS-ka
 De combinatie van ArcGIS-kaarten en Power BI tilt kaarten naar een volledig nieuw niveau, verder dan de presentatie van punten op een kaart. Met de beschikbare opties voor basiskaarten, locatietypen, thema's, symboolstijlen en referentielagen worden prachtige informatieve kaartvisualisaties gemaakt. De combinatie van bindende gegevenslagen (zoals censusgegevens) op een kaart met ruimtelijke analyse geeft een beter inzicht in uw visualisatiegegevens.
 
 > [!TIP]
-> GIS staat voor Geographic Information Science (geografische informatiewetenschap).
+> GIS staat voor Geographic Information System (geografische informatiesysteem).
 > 
 
 Het voorbeeld dat we gebruiken is dezelfde ArcGIS-kaart die is gemaakt in [ArcGIS maps by esri tutorial](../power-bi-visualization-arcgis.md) (ArcGIS-kaarten van Esri - een zelfstudie). Er wordt gekeken naar de omzet van vorig jaar per stad, en gebruikgemaakt van een basisstratenkaart, bellensymbolen om de grootte weer te geven, en een referentielaag voor het gemiddelde inkomen per huishouden. De kaart bevat 3 spelden en één radius voor de reistijd (in paars).

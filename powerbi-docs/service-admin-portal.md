@@ -10,12 +10,12 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/30/2018
 LocalizationGroup: Administration
-ms.openlocfilehash: 3e125061766d6ade0daeaacb208d3070d8e9bd9b
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: b03e9da87aa507812045378b1fa3e581b7de159c
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973253"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266111"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI-beheerportal
 
@@ -296,6 +296,15 @@ Gebruikers in de organisatie hebben toegang tot werkruimten om verbinding te mak
 ### <a name="import-data-into-power-bi"></a>Gegevens importeren in Power BI
 
 Gebruikers in de organisatie kunnen gegevens importeren in de service, zoals rapporten uit Power BI Desktop publiceren, Power BI-rapportbestanden uploaden en verbinding maken met gegevens rechtstreeks vanuit de service. [Meer informatie](desktop-upload-desktop-files.md)
+
+## <a name="dataflow-settings-preview"></a>Gegevensstroominstellingen (preview-versie)
+
+### <a name="create-and-use-dataflows-preview"></a>Gegevensstromen maken en gebruiken (preview-versie)
+
+Gebruikers in de organisatie kunnen gegevensstromen maken en gebruiken. [Meer informatie](service-dataflows-overview.md)
+
+> [!NOTE]
+> Deze instelling geldt voor de hele organisatie en kan niet worden beperkt tot specifieke groepen.
 
 ## <a name="capacity-settings"></a>Capaciteitsinstellingen
 

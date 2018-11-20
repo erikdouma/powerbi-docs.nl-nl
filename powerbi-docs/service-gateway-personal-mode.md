@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/14/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 093339e820c45fcbd586bd1eb6d8933b6e5743f8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 263c1a576e939a87e970cc2c0200dfb6c1ccdc41
+ms.sourcegitcommit: 47269676aa600e60ec7ba0e323941a71e0622833
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298200"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "51273328"
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>On-premises gegevensgateway (persoonlijke modus)
 U kunt on-premises gegevensbronnen gebruiken en Power BI-rapporten en -dashboards maken met behulp van een gateway. Een **gateway** is software die de toegang vereenvoudigt tot gegevens die zijn opgeslagen op een privé, on-premises netwerk en het vervolgens mogelijk maakt deze gegevens te gebruiken in onlineservices, zoals de **Power BI-service**. De **on-premises gegevensgateway (persoonlijke modus)** is een onlangs uitgebrachte update voor de Power BI-gateway waarmee personen een gateway kunnen installeren op hun eigen computer om zo toegang te krijgen tot on-premises gegevens.
@@ -132,7 +132,7 @@ Ondersteuning voor Spark is gepland voor de tweede helft van het kalenderjaar 20
   * **Antwoord**: als u uw rapporten met behulp van de oudere versie van de gateway vernieuwt, stopt het vernieuwproces. De enige manier om een nieuw vernieuwingsschema in te stellen is de nieuwe gateway te installeren en configureren.
 * Ik gebruik R-scripts. Wordt dit ondersteund?
   
-  * **Antwoord**: we verwachten snel ondersteuning voor R-scripts toe te voegen.
+  * **Antwoord**: R-scripts worden ondersteund voor de persoonlijke modus.
 * Waarom wordt de melding om mijn gateway bij te werken niet weergegeven in de **Power BI-service**?
   
   * **Antwoord**: dit is waarschijnlijk omdat u één of meer gegevenssets gebruikt met een gegevensbron die nog niet wordt ondersteund.

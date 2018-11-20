@@ -9,12 +9,12 @@ ms.author: mblythe
 ms.reviewer: mblythe
 author: mgblythe
 manager: kfile
-ms.openlocfilehash: 99c84aff932c7ce56a4aaa81d71e4583bce3e4c2
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 534c06c66d561a04dbffc04412095d6924c92781
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641732"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266065"
 ---
 # <a name="microsoft-power-bi-premium-capacity-resource-management-and-optimization"></a>Resourcebeheer en optimalisatie van Microsoft Power BI Premium-capaciteit
 
@@ -26,6 +26,7 @@ In dit artikel wordt beschreven hoe resources worden beheerd door Power BI Premi
 
 * De gegevenssets die in het geheugen worden geladen
 * Het vernieuwen van gegevenssets (zowel gepland als op aanvraag)
+* Workloads die worden ondersteund voor de capaciteit
 * Rapportquery's
 
 Wanneer een aanvraag wordt gedaan op basis van een gepubliceerde gegevensset in uw capaciteit, wordt die gegevensset vanuit de permanente opslag (dit wordt ook wel 'image laden' genoemd) in het geheugen geladen. Door de gegevensset in het geheugen geladen te houden, kunnen toekomstige query’s op deze gegevensset snel worden uitgevoerd. Naast de hoeveelheid geheugen die nodig is om de gegevensset in het geheugen geladen te houden, verbruiken rapportquery's en het vernieuwen van gegevenssets extra geheugen.
@@ -51,6 +52,10 @@ Gegevenssets kunnen worden vernieuwd volgen een planning of op aanvraag door geb
 Als het vereiste geheugen ondanks verwijdering niet beschikbaar is, wordt de vernieuwing in de wachtrij geplaatst voor een nieuwe poging later. De service blijft pogingen doen tot het is gelukt of een nieuwe vernieuwingsactie begint.
 
 Als een interactieve query wordt uitgevoerd op een gegevensset in de capaciteit en er onvoldoende geheugen beschikbaar is vanwege een lopende vernieuwing is, mislukt deze aanvraag en moet deze opnieuw worden geprobeerd door de gebruiker.
+
+### <a name="workloads"></a>Workloads
+
+De standaardconfiguratie is dat capaciteiten voor  **Power BI Premium** en **Power BI Embedded** alleen de workload ondersteunen die is gekoppeld aan het uitvoeren van Power BI-query's in de cloud. We bieden nu preview-ondersteuning voor twee extra workloads: **Gepagineerde rapporten** en **Gegevensstromen**. Indien ingeschakeld kunnen deze workloads het geheugengebruik in de capaciteit beïnvloeden. Zie [Workloads configureren](service-admin-premium-manage.md#configure-workloads) voor meer informatie.
 
 ## <a name="cpu-resource-management-in-premium-capacity"></a>CPU-bronbeheer in premium-capaciteit
 

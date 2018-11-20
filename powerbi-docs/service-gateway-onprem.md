@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: b56134314b9396dff1b965786e65e62129e5e7b9
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: 488d11209126098063ba8ca2b2d73573edbcdbb9
+ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558442"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "51297131"
 ---
 # <a name="on-premises-data-gateway"></a>On-premises gegevensgateway
 
@@ -47,9 +47,9 @@ U kunt een liveverbinding gebruiken voor tabelvormige of multidimensionale exemp
 
 ## <a name="download-and-install-the-on-premises-data-gateway"></a>De on-premises gegevensgateway downloaden en installeren
 
-Selecteer **Gegevensgateway** in het menu Downloads om de gateway te downloaden. Download de [On-premises gegevensgateway](http://go.microsoft.com/fwlink/?LinkID=820925). 
+Selecteer **Gegevensgateway** in het menu Downloads om de gateway te downloaden. Download de [On-premises gegevensgateway](http://go.microsoft.com/fwlink/?LinkID=820925).
 
-U kunt de on-premises gegevensgateway bijwerken door de gateway opnieuw te installeren, zoals in dit gedeelte wordt beschreven. Bij het bijwerken van de gateway (door deze opnieuw te installeren) worden de bestaande gateway-instellingen bewaard.
+U kunt de on-premises gegevensgateway bijwerken door de gateway opnieuw te installeren. Dit wordt in dit gedeelte beschreven. Zolang u een nieuwere versie van de gateway installeert, blijven uw bestaande instellingen bewaard. Als u dezelfde versie installeert, wordt deze versie als nieuwe versie behandeld en worden uw instellingen niet bewaard.
 
 ![](media/service-gateway-onprem/powerbi-download-data-gateway.png)
 
@@ -118,7 +118,7 @@ Zie [Proxy-instellingen voor de Power BI-gateways configureren](service-gateway-
 [Manage your data source - Oracle](service-gateway-onprem-manage-oracle.md) (Gegevensbron beheren - Oracle)  
 [Manage your data source - Import/Scheduled refresh](service-gateway-enterprise-manage-scheduled-refresh.md) (Gegevensbron beheren - importeren/geplande vernieuwing)  
 [On-premises data gateway in-depth](service-gateway-onprem-indepth.md) (On-premises gegevensgateway - uitgebreid)  
-[On-premises gegevensgateway (persoonlijke modus) - de nieuwe versie van de persoonlijke gateway](service-gateway-personal-mode.md)
-[Proxy-instellingen voor de on-premises gegevensgateway configureren](service-gateway-proxy.md)  
+[On-premises gegevensgateway (persoonlijke modus): de nieuwe versie van de persoonlijke gateway](service-gateway-personal-mode.md)  
+[Proxyinstellingen configureren voor de on-premises gegevensgateway](service-gateway-proxy.md)  
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
