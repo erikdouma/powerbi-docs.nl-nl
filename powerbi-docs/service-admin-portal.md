@@ -10,12 +10,12 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/30/2018
 LocalizationGroup: Administration
-ms.openlocfilehash: b03e9da87aa507812045378b1fa3e581b7de159c
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 663a6bb9629e98dabab9934c7647bba6f7c14cd4
+ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266111"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "52268361"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI-beheerportal
 
@@ -301,7 +301,7 @@ Gebruikers in de organisatie kunnen gegevens importeren in de service, zoals rap
 
 ### <a name="create-and-use-dataflows-preview"></a>Gegevensstromen maken en gebruiken (preview-versie)
 
-Gebruikers in de organisatie kunnen gegevensstromen maken en gebruiken. [Meer informatie](service-dataflows-overview.md)
+Gebruikers in de organisatie kunnen gegevensstromen maken en gebruiken. Zie [Self-service gegevensvoorbereiding in Power BI (preview-versie)](service-dataflows-overview.md) voor een overzicht van gegevensstromen. Zie [Workloads configureren](service-admin-premium-manage.md#configure-workloads) als u gegevensstromen wilt inschakelen in een Premium-capaciteit.
 
 > [!NOTE]
 > Deze instelling geldt voor de hele organisatie en kan niet worden beperkt tot specifieke groepen.
