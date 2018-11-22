@@ -10,18 +10,22 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/06/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: bb7527a197c9556509ebba721ee49a2d9817b6f5
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 4fc036bf9191d0ed56be11e69152e579cfc5102d
+ms.sourcegitcommit: 883d7e76816f2696e88ae391744ac6c7b1cb59c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266203"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51688391"
 ---
 # <a name="monitor-power-bi-premium-and-power-bi-embedded-capacities"></a>Power BI Premium en Power BI Embedded-capaciteiten bewaken
 
 In dit artikel vindt u een overzicht van het bewaken van de metrische gegevens voor uw Power BI Premium-capaciteiten. Het bewaken van het capaciteitsgebruik biedt een geïnformeerde benadering voor het beheren van uw capaciteiten.
 
-U kunt de capaciteit bewaken met de app Power BI Premium Capacity Metrics of via de beheerportal. We raden de app aan omdat deze meer detail biedt. Dit artikel behandelt echte beide opties. **De huidige versie van de app is 1.8 (uitgebracht op 7 november 2018).**
+U kunt de capaciteit bewaken met de app Power BI Premium Capacity Metrics of via de beheerportal. We raden de app aan omdat deze meer detail biedt. Dit artikel behandelt echte beide opties.
+
+**De huidige versie van de app is 1.9 (uitgebracht op 14 november 2018).**
+
+.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UgsjMbhi_Bk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -87,7 +91,7 @@ In het **Samenvattingsgebied** wordt een weergave van uw capaciteiten op basis v
 | --- | --- |
 | **Entiteiten** | * Het aantal capaciteiten waarvan u eigenaar bent<br> * Het verschillende aantal gegevenssets in uw capaciteit<br> * Het verschillende aantal werkruimten in uw capaciteit |
 | **Systeem** | * Het gemiddelde geheugengebruik in GB gedurende de afgelopen zeven dagen<br> * Het hoogste geheugengebruik in GB gedurende de afgelopen zeven dagen en de lokale tijd waarop dit plaatsvond<br> * Het aantal keren waarop de CPU 80% van de drempelwaarden overschreed gedurende de afgelopen zeven dagen, gesplitst in buckets van drie minuten<br> * De tijden waarop de CPU de 80% meestal overschreed gedurende de afgelopen zeven dagen, gesplitst in buckets van één uur, en de lokale tijd waarop dit plaatsvond<br> * Het aantal keren dat DirectQuery/Live-verbindingen 80% van de drempelwaarden overschreed gedurende de afgelopen zeven dagen, gesplitst in buckets van drie minuten<br> * De tijden waarop DirectQuery/Live-verbindingen de 80% meestal overschreed gedurende de afgelopen zeven dagen, gesplitst in buckets van één uur, en de lokale tijd waarop dit plaatsvond |
-| **Workloads van gegevenssets** | * Het totale aantal vernieuwingen gedurende de afgelopen zeven dagen<br> * Het totale aantal geslaagde vernieuwingen gedurende de afgelopen zeven dagen<br> * Het totale aantal mislukte vernieuwingen gedurende de afgelopen zeven dagen<br> * Het totale aantal mislukte vernieuwingen wegens onvoldoende geheugen<br> * De gemiddelde vernieuwingsduur is de tijd om de bewerking te voltooien, in minuten<br> * De gemiddelde wachttijd voor vernieuwen is de gemiddelde vertraging tussen de geplande tijd en het begin van de bewerking, in minuten<br> * Het totale aantal uitgevoerde query's gedurende de afgelopen zeven dagen<br> * Het totale aantal geslaagde query's gedurende de afgelopen zeven dagen<br> * Het totale aantal mislukte query's gedurende de afgelopen zeven dagen<br> * De gemiddelde queryduur is de tijd om de bewerking te voltooien, in minuten<br> * Het totale aantal modellen dat wegens geheugendruk is verwijderd |
+| **Workloads van gegevenssets** | * Het totale aantal vernieuwingen gedurende de afgelopen zeven dagen<br> * Het totale aantal geslaagde vernieuwingen gedurende de afgelopen zeven dagen<br> * Het totale aantal mislukte vernieuwingen gedurende de afgelopen zeven dagen<br> * Het totale aantal mislukte vernieuwingen wegens onvoldoende geheugen<br> * De gemiddelde vernieuwingsduur is de tijd om de bewerking te voltooien, in minuten<br> * De gemiddelde wachttijd voor vernieuwen is de gemiddelde vertraging tussen de geplande tijd en het begin van de bewerking, in minuten<br> * Het totale aantal uitgevoerde query's gedurende de afgelopen zeven dagen<br> * Het totale aantal geslaagde query's gedurende de afgelopen zeven dagen<br> * Het totale aantal mislukte query's gedurende de afgelopen zeven dagen<br> * De gemiddelde queryduur is de tijd om de bewerking te voltooien, in minuten<br> * Het totale aantal modellen dat wegens geheugendruk is verwijderd<br> * Gemiddelde grootte van gegevenssets <br> * Gemiddeld aantal gegevenssets die in het geheugen zijn geladen |
 |  |  |
 
 #### <a name="refreshes-area"></a>Vernieuwingengebied
@@ -136,6 +140,8 @@ Het gebied **Gegevenssets** bevat de volgende metrische gegevens.
 | --- | --- |
 | **Aantal verwijderingen van gegevenssets** | * Totaal: het totaal aantal *verwijderingen* van gegevenssets voor elke capaciteit. Wanneer een capaciteit geheugendruk ervaart, worden via het knooppunt een of meer gegevenssets uit het geheugen verwijderd. Gegevenssets die niet actief zijn (waarvoor op dat moment geen query- of vernieuwingsbewerkingen worden uitgevoerd) worden het eerst verwijderd. Vervolgens wordt de volgorde van verwijderen gebaseerd op een meting van 'minst recentelijk gebruikt' (least recently used, LRU).|
 | **Verwijderingen en geheugenverbruik van gegevenssets per uur** | * Verwijderingen van gegevenssets versus geheugenverbruik in GB, opgesplitst in buckets van één uur, vermeld in de lokale tijd |
+| **Aantal gegevenssets dat per uur wordt geladen** | * Het aantal gegevenssets dat in het geheugen wordt geladen versus geheugenverbruik in GB, opgesplitst in buckets van één uur, vermeld in de lokale tijd |
+| **Gegevensgrootten**  | * Maximale grootte: de maximale grootte van de gegevensset in MB voor de periode die wordt weergegeven |
 |  |  |
 
 ### <a name="paginated-reports-tab"></a>Tabblad Gepagineerde rapporten

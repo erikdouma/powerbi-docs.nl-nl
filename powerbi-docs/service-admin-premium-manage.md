@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/20/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 39429d0f09431da3f860bf0454843c65ce07a524
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 3ef719f85690297cd523a6fefb7f0ba5f77c9199
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51265996"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717603"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Capaciteiten in Power BI Premium en Power BI Embedded beheren
 
@@ -56,13 +56,9 @@ Meestal hoeven gebruikers niet eens te weten dat ze zich in een Premium-capacite
 
 ## <a name="configure-workloads"></a>Workloads configureren
 
-Een workload in Power BI kunt u zien als een van de vele services die u beschikbaar kunt stellen aan gebruikers. De standaardconfiguratie is dat capaciteiten voor  **Power BI Premium** en **Power BI Embedded** alleen de workload ondersteunen die is gekoppeld aan het uitvoeren van Power BI-query's in de cloud.
+De standaardconfiguratie is dat capaciteiten voor Power BI Premium en Power BI Embedded alleen de workload ondersteunen die is gekoppeld aan het uitvoeren van Power BI-query's in de cloud. We bieden nu preview-ondersteuning voor twee extra workloads: **Gepagineerde rapporten** en **Gegevensstromen**. Zie [Workloads in Premium-capaciteit](service-premium.md#workloads-in-premium-capacity) voor meer informatie.
 
-We bieden nu preview-ondersteuning voor twee extra workloads: **Gepagineerde rapporten** en **Gegevensstromen**. U kunt deze workloads inschakelen in de Power BI-beheerportal of via de REST-API van Power BI. U geeft ook de maximale hoeveelheid geheugen op die elke workload kan gebruiken, zodat u kunt bepalen hoe de verschillende workloads van invloed zijn op elkaar.
-
-### <a name="enable-workloads-in-the-power-bi-admin-portal"></a>Workloads inschakelen in de Power BI-beheerportal
-
-Ga als volgt te werk om workloads in te schakelen.
+Volg deze stappen om workloads in te schakelen in de Power BI-beheerportal.
 
 1. Selecteer onder **Instellingen voor capaciteit** een capaciteit.
 
@@ -73,24 +69,6 @@ Ga als volgt te werk om workloads in te schakelen.
     ![Workloads configureren in de beheerportal](media/service-admin-premium-manage/admin-portal-workloads.png)
 
 1. Selecteer **Toepassen**.
-
-### <a name="default-memory-settings"></a>Standaardinstellingen voor geheugen
-
-In de volgende tabel ziet u de standaard- en minimumwaarden voor geheugen, op basis van de verschillende [capaciteitsknooppunten](service-premium.md#premium-capacity-nodes) die beschikbaar zijn. Geheugen wordt dynamisch toegewezen aan gegevensstromen, maar in het geval van gepagineerde rapporten betreft het een statische toewijzing. Zie voor meer informatie de volgende sectie, [Overwegingen voor gepagineerde rapporten](#considerations-for-paginated-reports).
-
-|                     | EM3                      | P1                       | P2                      | P3                       |
-|---------------------|--------------------------|--------------------------|-------------------------|--------------------------|
-| Gepagineerde rapporten | N.v.t. | standaard 20%; minimaal 10% | standaard 20%; minimaal 5% | standaard 20%; minimaal 2,5% |
-| Gegevensstromen | standaard 15%; minimaal 8%  | standaard 15%; minimaal 4%  | standaard 15%; minimaal 2% | standaard 15%; minimaal 1%  |
-| | | | | |
-
-### <a name="considerations-for-paginated-reports"></a>Overwegingen voor gepagineerde rapporten
-
-Houd rekening met de volgende punten als u de workload Gepagineerde rapporten gebruikt.
-
-* **Geheugentoewijzing in gepagineerde rapporten**: gepagineerde rapporten ondersteunen het uitvoeren van eigen code bij het weergeven van een rapport (zoals het dynamisch wijzigen van de tekstkleur op basis van inhoud). Gezien dit feit beveiligen we Power BI Premium-capaciteit door gepagineerde rapporten uit te voeren in een afgesloten ruimte binnen de capaciteit. Aan deze ruimte wordt de maximale hoeveelheid geheugen toegewezen die u hebt ingesteld, ongeacht of de workload actief is of niet. Als u Power BI-rapporten of gegevensstromen in dezelfde capaciteit gebruikt, moet u het geheugen voor gepagineerde rapporten laag genoeg instellen, zodat deze workload geen gevolgen heeft voor de andere workloads.
-
-* **Gepagineerde rapporten zijn niet beschikbaar**: in zeldzame gevallen kan het gebeuren dat de workload Gepagineerde rapporten niet beschikbaar is. U ziet dan een foutstatus voor de workload in de beheerportal. Gebruikers zien time-outs als ze rapporten willen weergeven. U kunt dit probleem oplossen door de workload uit te schakelen en vervolgens weer in te schakelen.
 
 ## <a name="monitor-capacity-usage"></a>Capaciteitsgebruik bewaken
 

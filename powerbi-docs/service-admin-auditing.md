@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/10/2018
+ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 294fb3a0142908ce0ab068e075ce39f950a0b124
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: e64496461e7d81d3b39e9a8d7174a3e985d04002
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973345"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850471"
 ---
 # <a name="using-auditing-within-your-organization"></a>Auditing gebruiken binnen uw organisatie
 
@@ -139,83 +139,100 @@ Voor een ander voorbeeld van hoe u PowerShell met auditlogboeken gebruikt, raadp
 
 De volgende activiteiten worden gecontroleerd door Power BI.
 
-* AddDatasourceToGateway
-* AddGroupMembers
-* AnalyzedByExternalApplication
-* AnalyzeInExcel
-* AttachDataflowStorageAccount
-* BindToGateway
-* ChangeCapacityState
-* ChangeGatewayAdministrators
-* ChangeGatewayDatasourceUsers
-* CreateApp
-* CreateDashboard
-* CreateDataflow
-* CreateDataset
-* CreateEmailSubscription
-* CreateFolder
-* CreateGateway
-* CreateGroup
-* CreateOrgApp
-* CreateReport
-* DeleteComment
-* DeleteDashboard
-* DeleteDataflow
-* DeleteDataset
-* DeleteEmailSubscription
-* DeleteFolder
-* DeleteGateway
-* DeleteGroup
-* DeleteGroupMembers
-* DeleteOrgApp
-* DeleteReport
-* DownloadReport
-* EditDataset
-* EditReport
-* ExportDataflow
-* ExportReport
-* ExportTile
-* GenerateDataflowSasToken
-* GenerateEmbedToken
-* GetDatasources
-* Importeren
-* InstallApp
-* MigrateWorkspaceIntoCapacity
-* OptInForProTrial
-* PostComment
-* PrintDashboard
-* PrintReport
-* PublishToWebReport
-* RefreshDataset
-* RemoveDatasourceFromGateway
-* RemoveWorkspacesFromCapacity
-* RenameDashboard
-* SetAllConnections
-* SetScheduledRefresh
-* SetScheduledRefreshOnDataflow
-* ShareDashboard
-* ShareReport
-* TakeOverDataset
-* TakeOverDatasource
-* UnpublishApp
-* UpdateApp
-* UpdateCapacityAdmins
-* UpdateCapacityDisplayName
-* UpdateCapacityResourceGovernanceSettings
-* UpdateCapacityUsersAssignment
-* UpdatedAdminFeatureSwitch
-* UpdateDataflow
-* UpdateDatasetParameters
-* UpdateDatasourceCredentials
-* UpdateDatasources
-* UpdateEmailSubscription
-* UpdateFolder
-* UpdateFolderAccess
-* ViewDashboard
-* ViewDataflow
-* ViewReport
-* ViewTile
-* ViewUsageMetrics
+| Beschrijvende naam                                     | Naam van bewerking                              | Opmerkingen                                  |
+|---------------------------------------------------|---------------------------------------------|------------------------------------------|
+| Gegevensbron toegevoegd aan Power BI-gateway             | AddDatasourceToGateway                      |                                          |
+| Toegang tot Power BI-map toegevoegd                      | AddFolderAccess                             | Momenteel niet gebruikt                       |
+| Power BI-groepsleden toegevoegd                      | AddGroupMembers                             |                                          |
+| Opslagaccount van gegevensstroom door beheerder aan tenant gekoppeld | AdminAttachedDataflowStorageAccountToTenant | Momenteel niet gebruikt                       |
+| Power BI-gegevensset geanalyseerd                         | AnalyzedByExternalApplication               |                                          |
+| Power BI-rapport geanalyseerd                          | AnalyzeInExcel                              |                                          |
+| Verbonden Power BI-gegevensset aan gateway                | BindToGateway                               |                                          |
+| Status van de capaciteit gewijzigd                            | ChangeCapacityState                         |                                          |
+| Toewijzing van gebruiker van capaciteit gewijzigd                  | UpdateCapacityUsersAssignment               |                                          |
+| Power BI-gegevenssetverbindingen gewijzigd              | SetAllConnections                           |                                          |
+| Beheerders Power BI-gateway gewijzigd                   | ChangeGatewayAdministrators                 |                                          |
+| Gebruikers van de Power BI-gateway-gegevensbron gewijzigd        | ChangeGatewayDatasourceUsers                |                                          |
+| Organisatie-inhoudspakket voor Power BI gemaakt      | CreateOrgApp                                |                                          |
+| Power BI-app gemaakt                              | CreateApp                                   |                                          |
+| Power BI-dashboard gemaakt                        | CreateDashboard                             |                                          |
+| Power BI-gegevensstroom gemaakt                         | CreateDataflow                              |                                          |
+| Power BI-gegevensset gemaakt                          | CreateDataset                               |                                          |
+| Power BI-e-mailabonnement gemaakt               | CreateEmailSubscription                     |                                          |
+| Power BI-map gemaakt                           | CreateFolder                                |                                          |
+| Power BI Gateway gemaakt                          | CreateGateway                               |                                          |
+| Power BI-groep gemaakt                            | CreateGroup                                 |                                          |
+| Power BI-rapport gemaakt                           | CreateReport                                |                                          |
+| Gegevensstroom gemigreerd naar extern opslagaccount     | DataflowMigratedToExternalStorageAccount    | Momenteel niet gebruikt                       |
+| Machtigingen voor gegevensstroom toegevoegd                        | DataflowPermissionsAdded                    | Momenteel niet gebruikt                       |
+| Machtigingen voor gegevensstroom verwijderd                      | DataflowPermissionsRemoved                  | Momenteel niet gebruikt                       |
+| Organisatie-inhoudspakket voor Power BI verwijderd      | DeleteOrgApp                                |                                          |
+| Power BI-opmerking verwijderd                          | DeleteComment                               |                                          |
+| Power BI-dashboard verwijderd                        | DeleteDashboard                             | Momenteel niet gebruikt                       |
+| Power BI-gegevensstroom verwijderd                         | DeleteDataflow                              | Momenteel niet gebruikt                       |
+| Power BI-gegevensset verwijderd                          | DeleteDataset                               |                                          |
+| Power BI-e-mailabonnement verwijderd               | DeleteEmailSubscription                     |                                          |
+| Power BI-map verwijderd                           | DeleteFolder                                |                                          |
+| Toegang tot Power BI-map verwijderd                    | DeleteFolderAccess                          | Momenteel niet gebruikt                       |
+| Power BI Gateway verwijderd                          | DeleteGateway                               |                                          |
+| Power BI-groep verwijderd                            | DeleteGroup                                 |                                          |
+| Power BI-rapport verwijderd                           | DeleteReport                                |                                          |
+| Gegevensbronnen voor Power BI-gegevensset gedetecteerd          | GetDatasources                              |                                          |
+| Power BI-rapport gedownload                        | DownloadReport                              |                                          |
+| Machtiging voor Power BI-certificering bewerkt          | EditCertificationPermission                 | Momenteel niet gebruikt                       |
+| Power BI-dashboard bewerkt                         | EditDashboard                               | Momenteel niet gebruikt                       |
+| Power BI-gegevensset bewerkt                           | EditDataset                                 |                                          |
+| Eigenschappen van Power BI-gegevensset bewerkt                | EditDatasetProperties                       | Momenteel niet gebruikt                       |
+| Power BI-rapport bewerkt                            | EditReport                                  |                                          |
+| Power BI-gegevensstroom geëxporteerd                        | ExportDataflow                              |                                          |
+| Visuele gegevens van Power BI-rapport geëxporteerd              | ExportReport                                |                                          |
+| Power BI-tegelgegevens geëxporteerd                       | ExportTile                                  |                                          |
+| Kan machtigingen voor gegevensstroom niet toevoegen                | FailedToAddDataflowPermissions              | Momenteel niet gebruikt                       |
+| Kan machtigingen voor gegevensstroom niet verwijderen             | FailedToRemoveDataflowPermissions           | Momenteel niet gebruikt                       |
+| SAS-token van Power BI-gegevensstroom gegenereerd             | GenerateDataflowSasToken                    |                                          |
+| Power BI-insluittoken gegenereerd                    | GenerateEmbedToken                          |                                          |
+| Bestand naar Power BI geïmporteerd                         | Importeren                                      |                                          |
+| Power BI-app geïnstalleerd                            | InstallApp                                  |                                          |
+| Werkruimte gemigreerd naar een capaciteit                  | MigrateWorkspaceIntoCapacity                |                                          |
+| Power BI-opmerking geplaatst                           | PostComment                                 |                                          |
+| Power BI-dashboard afgedrukt                        | PrintDashboard                              |                                          |
+| Pagina van Power BI-rapport afgedrukt                      | PrintReport                                 |                                          |
+| Power BI-rapport gepubliceerd op internet                  | PublishToWebReport                          |                                          |
+| Geheim van Power BI-gegevensstroom ontvangen uit Key Vault  | ReceiveDataflowSecretFromKeyVault           | Momenteel niet gebruikt                       |
+| Gegevensbron verwijderd uit Power BI-gateway         | RemoveDatasourceFromGateway                 |                                          |
+| Power BI-groepsleden verwijderd                    | DeleteGroupMembers                          |                                          |
+| Werkruimte uit een capaciteit verwijderd                 | RemoveWorkspacesFromCapacity                |                                          |
+| Power BI-dashboard hernoemd                        | RenameDashboard                             |                                          |
+| Vernieuwing van Power BI-gegevensstroom aangevraagd               | RequestDataflowRefresh                      | Momenteel niet gebruikt                       |
+| Vernieuwing van Power BI-gegevensset aangevraagd                | RefreshDataset                              |                                          |
+| Power BI-werkruimten opgehaald                     | GetWorkspaces                               |                                          |
+| Geplande vernieuwing van Power BI-gegevensstroom ingesteld        | SetScheduledRefreshOnDataflow               |                                          |
+| Geplande vernieuwing van Power BI-gegevensset ingesteld         | SetScheduledRefresh                         |                                          |
+| Power BI-dashboard gedeeld                         | ShareDashboard                              |                                          |
+| Power BI-rapport gedeeld                            | ShareReport                                 |                                          |
+| Verlengde proefversie Power BI gestart                   | OptInForExtendedProTrial                    | Momenteel niet gebruikt                       |
+| Proefversie van Power BI gestart                            | OptInForProTrial                            |                                          |
+| Power BI-gegevensbron overgenomen                   | TakeOverDatasource                          |                                          |
+| Power BI-gegevensset overgenomen                        | TakeOverDataset                             |                                          |
+| Publicatie van Power BI-app ongedaan gemaakt                          | UnpublishApp                                |                                          |
+| Instellingen voor capaciteitbeheer bijwerken      | UpdateCapacityResourceGovernanceSettings    | Momenteel niet beschikbaar in de Office 365-beheerportal |
+| Capaciteitsbeheerder bijgewerkt                            | UpdateCapacityAdmins                        |                                          |
+| Weergavenaam van de capaciteit bijgewerkt                     | UpdateCapacityDisplayName                   |                                          |
+| Power BI-instellingen van organisatie bijgewerkt          | UpdatedAdminFeatureSwitch                   |                                          |
+| Power BI-app bijgewerkt                              | UpdateApp                                   |                                          |
+| Power BI-gegevensstroom bijgewerkt                         | UpdateDataflow                              |                                          |
+| Gegevensbronnen voor Power BI-gegevensset bijgewerkt             | UpdateDatasources                           |                                          |
+| Parameters van Power BI-gegevensset bijgewerkt               | UpdateDatasetParameters                     |                                          |
+| Power BI-e-mailabonnement bijgewerkt               | UpdateEmailSubscription                     |                                          |
+| Power BI-map bijgewerkt                           | UpdateFolder                                |                                          |
+| Toegang tot Power BI-map bijgewerkt                    | UpdateFolderAccess                          |                                          |
+| Referenties van gegevensbron van Power BI-gateway bijgewerkt  | UpdateDatasourceCredentials                 |                                          |
+| Power BI-dashboard bekeken                         | ViewDashboard                               |                                          |
+| Power BI-gegevensstroom bekeken                          | ViewDataflow                                |                                          |
+| Power BI-rapport bekeken                            | ViewReport                                  |                                          |
+| Power BI-tegel bekeken                              | ViewTile                                    |                                          |
+| Metrische gegevens over Power BI-gebruik bekeken                     | ViewUsageMetrics                            |                                          |
+|                                                   |                                             |                                          |
 
 ## <a name="next-steps"></a>Volgende stappen
 

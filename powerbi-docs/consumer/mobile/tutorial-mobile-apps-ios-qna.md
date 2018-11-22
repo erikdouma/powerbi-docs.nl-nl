@@ -1,5 +1,5 @@
 ---
-title: 'Zelfstudie: vragen stellen met de virtuele Q&A-analist in iOS-apps - Power BI'
+title: 'Zelfstudie: vragen stellen met de virtuele Q&A-analist in iOS-apps'
 description: In deze zelfstudie stelt u in uw eigen woorden vragen over deze voorbeeldgegevens aan de virtuele Q&A-analist in de mobiele Power BI-app op uw iOS-apparaat.
 author: maggiesMSFT
 manager: kfile
@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: tutorial
-ms.date: 05/08/2018
+ms.date: 11/16/2018
 ms.author: maggies
-ms.openlocfilehash: f3ecdb79b8fb5a8d9463eaabbda70a60110191ea
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 9fd0d06b186d84412ec36749270d261ddd01fb2f
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547110"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157144"
 ---
-# <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-ios-apps---power-bi"></a>Zelfstudie: vragen stellen over uw gegevens met de virtuele Q&A-analist in iOS-apps - Power BI
+# <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>Zelfstudie: vragen stellen over uw gegevens met de virtuele Q&A-analist in de Power BI iOS-apps
 
 De eenvoudigste manier om inzicht te krijgen in uw gegevens is door vragen te stellen in uw eigen woorden. In deze zelfstudie stelt u vragen en bekijkt u inzichten over de voorbeeldgegevens met de virtuele Q&A-analist in de mobiele Microsoft Power BI-app op uw iPad, iPhone en iPod Touch. 
 

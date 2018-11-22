@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 09/17/2018
-ms.openlocfilehash: 56b6c954aa49f8adf0aa479f143fb11b932c107e
-ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
+ms.openlocfilehash: 8cdeed0c5575a8405ae5db6d1eaca522ab0597cb
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50736959"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679427"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Veelgestelde vragen over Power BI Embedded
 
@@ -119,7 +119,7 @@ https://app.powerbi.com/ > ? > Over Power BI
 ![Over Power BI](media/embedded-faq/about-01.png)
 ![Tenantregio](media/embedded-faq/tenant-location-01.png)
 
-### <a name="what-is-supported-with-the-communicating-sequential-processes-csp-channel"></a>Wat wordt ondersteund met het CSP-kanaal (communicating sequential processes)?
+### <a name="what-is-supported-with-the-cloud-solution-provider-csp-channel"></a>Wat wordt ondersteund met het CSP-kanaal (Cloud Solution Provider)?
 
 * U kunt PBIE maken voor uw tenant met het abonnementstype CSP
 * Het partneraccount kan zich aanmelden bij de klanttenant en PBIE kopen voor de klanttenant. Geef de gebruiker van de klanttenant op als Power BI-capaciteitsbeheerder.

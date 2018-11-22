@@ -1,5 +1,5 @@
 ---
-title: Toegang via Power BI mobiele iOS-apps tot rapportservers op afstand configureren
+title: Toegang via mobiele iOS-apps tot rapportservers op afstand configureren
 description: Leer hoe u de mobiele iOS-apps op afstand kunt configureren voor uw rapportserver.
 author: maggiesMSFT
 manager: kfile
@@ -7,21 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2018
+ms.date: 11/15/2018
 ms.author: maggies
-ms.openlocfilehash: bbade67c9510b8d316364d991c09444712309514
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 538bb802998003dba63b6c63cca2068b2d7b69fa
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34722173"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157420"
 ---
 # <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>Toegang via Power BI mobiele iOS-apps tot rapportservers op afstand configureren
 
-In dit artikel leert u hoe u het MDM-hulpprogramma van uw organisatie gebruikt om toegang op afstand via de Power BI mobiele iOS-app tot een rapportserver te configureren. Om dit in te stellen maken IT-beheerders een app-configuratiebeleid waarbij de vereiste informatie naar de app wordt gepusht. 
+In dit artikel leert u hoe u het MDM-hulpprogramma van uw organisatie gebruikt om toegang op afstand via de Power BI mobiele iOS-app tot een rapportserver te configureren. Voor de configuratie maken IT-beheerders een app-configuratiebeleid waarbij de vereiste informatie naar de app wordt gepusht. 
 
- Vervolgens kunnen gebruikers van Power BI mobiele iOS-apps eenvoudiger op afstand verbinding maken met de rapportserver van hun organisatie omdat de verbinding met de rapportserver al is geconfigureerd. 
-
+ Wanneer de verbinding met de rapportserver als is geconfigureerd, kunnen gebruikers van Power BI mobiele iOS-apps eenvoudiger op afstand verbinding maken met de rapportserver van hun organisatie. 
 
 ## <a name="create-the-app-configuration-policy-in-mdm-tool"></a>Het app-configuratiebeleid maken in het MDM-hulpprogramma 
 
@@ -39,7 +38,7 @@ In de volgende tabel staan de paren.
 | com.microsoft.powerbi.mobile.ServerURL | Tekenreeks | Rapportserver-URL </br> Moet beginnen met http/https |
 | com.microsoft.powerbi.mobile.ServerUsername | Tekenreeks | [optioneel] </br> De gebruikersnaam die u wilt gebruiken om verbinding te maken met de server. </br> Als deze niet bestaat, wordt de gebruiker gevraagd de gebruikersnaam voor de verbinding in te voeren.| 
 | com.microsoft.powerbi.mobile.ServerDisplayName | Tekenreeks | [optioneel] </br> De standaardwaarde is rapportserver </br> Een beschrijvende naam die in de app wordt gebruikt als naam voor de server | 
-| com.microsoft.powerbi.mobile.OverrideServerDetails | Boolean | De standaardwaarde is Waar </br> Als deze optie is ingesteld op Waar, worden hiermee alle eventuele definities van de rapportserver overschreven die al op het mobiele apparaat bestaan (bestaande servers die al zijn geconfigureerd, worden verwijderd). </br> Wanneer overschrijven is ingesteld op Waar, voorkomt u hiermee ook dat gebruikers die configuratie kunnen verwijderen. </br> Wanneer de optie is ingesteld op Onwaar, worden de gepushte waarden toegevoegd en blijven bestaande instellingen bestaan. </br> Als dezelfde server-URL al is geconfigureerd in de mobiele app, laat de app die configuratie ongewijzigd en wordt de gebruiker niet gevraagd om opnieuw een verificatie voor dezelfde server uit te voeren. |
+| com.microsoft.powerbi.mobile.OverrideServerDetails | Boolean | De standaardwaarde is Waar </br>Als deze optie is ingesteld op Waar, worden hiermee alle eventuele definities van de rapportserver overschreven die al op het mobiele apparaat bestaan. Bestaande servers die al zijn geconfigureerd, worden verwijderd. </br> Wanneer overschrijven is ingesteld op Waar, voorkomt u hiermee ook dat gebruikers die configuratie kunnen verwijderen. </br> Wanneer de optie is ingesteld op Onwaar, worden de gepushte waarden toegevoegd en blijven bestaande instellingen bestaan. </br> Als dezelfde server-URL al is geconfigureerd in de mobiele app, blijft deze configuratie bestaan. De app vraagt niet of de gebruiker zich opnieuw verifieert voor dezelfde server. |
 
 Hier ziet u een voorbeeld van het instellen van het configuratiebeleid met behulp van Intune.
 
@@ -47,7 +46,7 @@ Hier ziet u een voorbeeld van het instellen van het configuratiebeleid met behul
 
 ## <a name="end-users-connecting-to-a-report-server"></a>Eindgebruikers maken verbinding met een rapportserver
 
-Nadat u het app-configuratiebeleid publiceert, krijgen gebruikers en apparaten die bij de distributielijst horen die voor dat beleid is gedefinieerd, de volgende ervaring wanneer ze de Power BI mobiele iOS-app starten. 
+ Stel dat u het app-configuratiebeleid voor een distributielijst publiceert. Wanneer gebruikers en apparaten in die distributielijst de mobiele iOS-app starten, gebeurt het volgende. 
 
 1. Ze zien een bericht dat hun mobiele app is geconfigureerd met een rapportserver en tikken op **Aanmelden**.
 

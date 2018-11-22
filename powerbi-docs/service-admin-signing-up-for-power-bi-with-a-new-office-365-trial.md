@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5089be0cb8bd96573a0d1b3e25c742c1f559253b
-ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
+ms.openlocfilehash: ef20b37d781e266de9e72117d2c57e58f802d4fa
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50736844"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850379"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-office-365-trial"></a>Aanmelden voor Power BI met een nieuwe proefversie van Office 365
 
@@ -27,7 +27,7 @@ In dit artikel wordt een alternatieve manier beschreven om u te registreren voor
 
 1. Wanneer u dat registratieproces hebt voltooid, ontvangt u een nieuwe aanmeldingsnaam die eruitziet als you@yourcompany.onmicrosoft.com. Gebruik deze aanmelding met Power BI.
 
-1. Meld u aan voor Power BI [via deze koppeling](https://portal.office.com/Start/Confirm?Sku=a403ebcc-fae0-4ca2-8c8c-7a907fd6c235&ru=https%3A%2F%2Fapp.powerbi.com%3FredirectedFromSignup%3D1%26noSignUpCheck%3D1). Als u hierom wordt gevraagd, meldt u zich aan met de aanmeldingsnaam en het wachtwoord die u in de vorige stap voor Office 365 hebt geselecteerd.
+1. Meld u aan voor Power BI [via deze koppeling](https://app.powerbi.com/signupredirect?pbi_source=web). Als u hierom wordt gevraagd, meldt u zich aan met de aanmeldingsnaam en het wachtwoord die u in de vorige stap voor Office 365 hebt geselecteerd.
 
 1. Dat is alles! Wanneer u klaar bent, wordt u omgeleid naar Power BI. Als er problemen zijn met het aanmelden met het nieuwe account, probeer het dan met een persoonlijke browsersessie.
 

@@ -1,5 +1,5 @@
 ---
-title: Opmerkingen toevoegen aan een rapport in een rapportserver - Power BI Report Server
+title: Opmerkingen toevoegen aan een rapport in Power BI Report Server
 description: Informatie over het toevoegen van opmerkingen aan een Power BI- of een gepagineerd rapport op een Power BI Report Server of SQL Server Reporting Services-rapportserver.
 author: maggiesMSFT
 manager: kfile
@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 11/15/2018
 ms.author: maggies
-ms.openlocfilehash: ff51b2e41d921b7a88afc9b13bb4ecd98814d12e
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: e0053660263f4cbed55050b9431b67228bf74c29
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727968"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157351"
 ---
-# <a name="add-comments-to-a-report-in-a-report-server"></a>Opmerkingen toevoegen aan een rapport in een rapportserver
+# <a name="add-comments-to-a-report-in-a-report-server---power-bi-report-server"></a>Opmerkingen toevoegen aan een rapport in een rapportserver - Power BI Report Server
 In de webportal van een rapportserver kunt u opmerkingen toevoegen aan rapporten, waaronder Power BI-rapporten. De opmerkingen staan live bij het rapport en iedereen met de juiste machtigingen ziet de opmerkingen voor het rapport. Zie de sectie [Machtigingen](#permissions) hieronder voor meer informatie.
 
 ## <a name="add-or-view-comments"></a>Opmerkingen toevoegen of weergeven

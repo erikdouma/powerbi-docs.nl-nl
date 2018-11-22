@@ -10,24 +10,32 @@ ms.topic: conceptual
 ms.date: 10/18/2018
 ms.author: jocaplan
 LocalizationGroup: Premium
-ms.openlocfilehash: 416f022ee3c413c69650e6f1736cc94edcd58f13
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 0449d7953b5cefb4c76d89f05ec5b3fa70e9c0da
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641247"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679349"
 ---
 # <a name="power-bi-premium-support-for-large-datasets"></a>Power BI Premium-ondersteuning voor grotere gegevenssets
 
-Power BI Premium ondersteunt uploads met Power BI Desktop-bestanden (pbix) die maximaal 10 GB groot zijn. Een gegevensset kan, na te zijn geüpload, worden vernieuwd tot een grootte van 12 GB. Als u een grote gegevensset wilt gebruiken, publiceert u deze naar een werkruimte die is toegewezen aan Premium capaciteit. Dit artikel bevat overwegingen en best practices voor het werken met grote gegevenssets.
+Power BI Premium ondersteunt uploads met Power BI Desktop-bestanden (pbix) die maximaal 10 GB groot zijn. Een gegevensset kan, na te zijn geüpload, worden vernieuwd tot een grootte van 12 GB. Als u een grote gegevensset wilt gebruiken, publiceert u deze naar een werkruimte die is toegewezen aan Premium capaciteit.
+ 
+## <a name="best-practices"></a>Aanbevolen procedures
 
-**Grote modellen kunnen een zware belasting vormen voor de resources** in uw capaciteit. Er wordt ten minste een P1 SKU aangeraden voor alle modellen die groter zijn dan 1 GB. In de volgende tabel zijn de aanbevolen SKU's voor verschillende pbix-grootten weergegeven:
+In deze sectie worden aanbevolen procedures beschreven voor het werken met grote gegevenssets.
+
+**Grote modellen kunnen een zware belasting vormen voor de resources** in uw capaciteit. Er wordt ten minste een P1 SKU aangeraden voor alle modellen die groter zijn dan 1 GB. Hoewel het mogelijk is om grote modellen te publiceren naar werkruimten die worden ondersteund door A-SKU's tot A3, kunt u de modellen niet vernieuwen.
+
+In de volgende tabel zijn de aanbevolen SKU's voor verschillende pbix-grootten weergegeven:
 
    |SKU  |Grootte van pbix-bestand   |
    |---------|---------|
    |P1    | < 3 GB        |
    |P2    | < 6 GB        |
-   |P3, P4, P5    | tot 10 GB |
+   |P3, P4, P5    | tot 10 GB   |
+
+De Power BI Embedded A4-SKU is gelijk aan de P1-SKU, A5 = P2 en A6 = P3. Wanneer u grote modellen publiceert naar A- en EM-SKU's, worden mogelijk fouten geretourneerd die niet specifiek zijn voor de beperking van de modelgrootte in de gedeelde capaciteit. Het vernieuwen van fouten voor grote modellen in A- en EM-SKU's verwijst mogelijk naar time-outs. We werken eraan om de foutmeldingen voor dergelijke scenario's te verbeteren.
 
 **Uw pbix-bestanden bevatten gegevens in een sterk gecomprimeerde toestand**. De gegevens breiden waarschijnlijk meerdere keren uit wanneer ze in het geheugen worden geladen. Van daaruit breiden ze mogelijk meerdere keren uit tijdens het vernieuwen van gegevens.
 

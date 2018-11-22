@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 11/16/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: d708a4ff07a0d202fcc709f6348e48505d7589d0
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: 6a2cfd4926089bce8973070949791e450a47cc4b
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973368"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850586"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Een rapport filteren door queryreeksparameters in de URL te gebruiken
 
@@ -47,7 +47,7 @@ Een veld kan een cijfer, datum/tijd of tekenreeks bevatten. Het type dat u kiest
 
 * **Tekenreeksen** moeten tussen enkele aanhalingstekens staan: 'naam manager'.
 * **Cijfers** hoeven niet op een speciale manier te worden opgemaakt.
-* **Datums en tijden** moeten tussen enkele aanhalingstekens staan en worden voorafgegaan door het woord **DateTime**.
+* **Datums en tijden** moeten tussen enkele aanhalingstekens staan. In OData v3 moeten deze vooraf worden gegaan door de tekst 'datum/tijd'. Dit is echter niet nodig in OData v4.
 
 Als het nog steeds verwarrend voor u is, lees dan verder en we zullen het voor u uitsplitsen.  
 
