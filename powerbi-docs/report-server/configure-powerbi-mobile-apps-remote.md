@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/15/2018
 ms.author: maggies
-ms.openlocfilehash: 538bb802998003dba63b6c63cca2068b2d7b69fa
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: 740c012d83f9ca70f6e909b8cf62714f67c123d4
+ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157420"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "52268315"
 ---
 # <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>Toegang via Power BI mobiele iOS-apps tot rapportservers op afstand configureren
 
@@ -42,7 +42,7 @@ In de volgende tabel staan de paren.
 
 Hier ziet u een voorbeeld van het instellen van het configuratiebeleid met behulp van Intune.
 
-![Intune configuratie-instellingen](media/configure-powerbi-mobile-apps-remote/power-bi-ios-remote-configuration-settings.png)
+![Configuratie-instellingen voor Intune](media/configure-powerbi-mobile-apps-remote/power-bi-ios-remote-configuration-settings.png)
 
 ## <a name="end-users-connecting-to-a-report-server"></a>Eindgebruikers maken verbinding met een rapportserver
 
