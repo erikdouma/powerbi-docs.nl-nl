@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: ef20b37d781e266de9e72117d2c57e58f802d4fa
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: 26fa709eee00607911b2bee2e8bf3f5f1cba732f
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850379"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289100"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-office-365-trial"></a>Aanmelden voor Power BI met een nieuwe proefversie van Office 365
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gbSuFST-Nx4?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-In dit artikel wordt een alternatieve manier beschreven om u te registreren voor Power BI, met behulp van een proefversie van Office 365. Als het niet lukt om u met uw zakelijke e-mailadres te registreren voor Power BI, controleert u eerst of het wel een [e-mailadres is dat kan worden gebruikt met Power BI](service-self-service-signup-for-power-bi.md#what-email-address-can-be-used-with-power-bi). Als dat niet zo is, probeert u zich eerst te registreren voor een proefversie van Office 365 en vervolgens voor Power BI. U kunt Power BI ook na afloop van de proefversie van Office 365 nog gebruiken.
+In dit artikel wordt een alternatieve manier beschreven om u te registreren voor Power BI, met behulp van een proefversie van Office 365. Als het niet lukt om u met uw zakelijke e-mailadres te registreren voor Power BI, controleert u eerst of het wel een [e-mailadres is dat kan worden gebruikt met Power BI](service-self-service-signup-for-power-bi.md#supported-email-addresses). Als dat niet zo is, probeert u zich eerst te registreren voor een proefversie van Office 365 en vervolgens voor Power BI. U kunt Power BI ook na afloop van de proefversie van Office 365 nog gebruiken.
 
 1. Meld u aan voor een proefversie van Office 365 [op de website van Office 365](https://go.microsoft.com/fwlink/p/?LinkID=403802).
 
