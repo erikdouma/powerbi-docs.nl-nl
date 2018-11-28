@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c49750ef51c1b8bacc36946d2d5c75a08abb36d7
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: c2d4dc5d8c11db035cc2470c0c44d64a6b78cd1a
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101572"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452747"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Dynamische beveiliging op rijniveau met model in tabelvorm van Analysis Services
 In deze zelfstudie ziet u de benodigde stappen voor het implementeren van **beveiliging op rijniveau** binnen een **tabellair model van Analysis Services**, en wordt beschreven hoe u dit model kunt gebruiken in een Power BI-rapport. Het is de bedoeling dat u de stappen in deze zelfstudie volgt, en zo leert wat de benodigde stappen zijn, door deze uit te voeren op een voorbeeldgegevensset.
@@ -50,7 +50,7 @@ Er zijn veel gepubliceerde artikelen waarin wordt beschreven hoe u dynamische be
    In latere taken komen we op deze gebruikers terug.
 4. Vervolgens voeren we een *inner join* uit op de tabel **DimSalesTerritory**. In deze tabel worden de regiodetails van de gekoppelde gebruiker weergegeven. De *inner join* wordt uitgevoerd met de volgende code. In de volgende afbeelding ziet u hoe de tabel eruitziet als de *inner join* is geslaagd.
    
-       select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeID, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join  [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryKey] = b.[SalesTerritoryID]
+       select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeID, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join  [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryID] = b.[SalesTerritoryKey]
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_join_users.png)
 5. Merk op dat de bovenstaande afbeelding informatie bevat over de verantwoordelijke gebruiker(s) per verkoopregio. Deze gegevens worden weergegeven vanwege de relatie die we hebben gemaakt in **stap 2**. Merk ook op dat de gebruiker **Jon Doe deel uitmaakt van de verkoopregio Australië**. We komen terug op Jon Doe in de komende stappen en taken.

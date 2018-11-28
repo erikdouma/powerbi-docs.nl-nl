@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 52f5d7e8bbf6f22f930ad7b4703587ea3af3dc94
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: cc374da84e269abe18a52270c0d9fd15987cf666
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717511"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452609"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Gegevenswaarschuwingen in de Power BI-service
 Stel meldingen in om u te waarschuwen als wijzigingen aan de gegevens in uw dashboards de limieten overschrijden die u hebt ingesteld. 
@@ -65,7 +65,7 @@ Vervolgens wordt een melding verzonden naar het meldingencentrum en ontvangt u e
    ![Meldingspictogram in Power BI-service](media/service-set-data-alerts/powerbi-alert-notifications.png)
 3. Open het meldingencentrum om de details van de melding te bekijken.
    
-    ![De waarschuwing lezen](media/service-set-data-alerts/powerbi-alert-notfication.png)
+    ![De waarschuwing lezen](media/service-set-data-alerts/powerbi-alert-notification.png)
    
    > [!NOTE]
    > Meldingen werken alleen voor gegevens die zijn vernieuwd. Als gegevens worden vernieuwd, controleert Power BI of er een melding voor die gegevens is ingesteld. Als de gegevens een drempelwaarde voor de melding hebben bereikt, wordt er een melding geactiveerd.

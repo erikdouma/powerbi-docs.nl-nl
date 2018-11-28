@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 97d9fc6bf7a27b9d681d10ae20ab0780622e5ee8
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 098447f4d0c0b1dc9534c91e84827c4cefb8850c
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223393"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452540"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Gegevensbronnen die worden ondersteund door DirectQuery in Power BI
 In **Power BI Desktop** en de **Power BI-service** kunt u met allerlei gegevensbronnen verbinding maken en toegang tot gegevens verkrijgen. In dit artikel wordt beschreven welke gegevensbronnen voor Power BI worden ondersteund voor de verbindingsmethode **DirectQuery**. Zie [**DirectQuery in Power BI**](desktop-directquery-about.md) voor meer informatie over DirectQuery.
@@ -62,7 +62,7 @@ In de volgende tabel wordt aangegeven of u een **On-premises gegevensgateway** n
 | Amazon Redshift |Nee |
 | Impala (versie 2.x) |Ja |
 | Snowflake |Ja |
-| Spark (bèta), versie 0.9 en hoger |Nog niet ondersteund in de **Power BI-service** |
+| Spark (bèta), versie 0.9 en hoger |Ja |
 | Azure HDInsight Spark (bèta) |Nee |
 | IBM Netezza |Ja |
 | SAP Business Warehouse-toepassingsserver |Ja |
