@@ -3,18 +3,18 @@ title: Rapporten of dashboards uit apps insluiten
 description: Leer hoe u een rapport of dashboard integreert of insluit vanuit een Power BI-app en niet vanuit een app-werkruimte.
 author: markingmyname
 ms.author: maghan
-ms.date: 07/13/2018
 ms.topic: how-to
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 53803c77dec8eb35c10db7f19a82f58144f88414
-ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
+ms.date: 11/27/2018
+ms.openlocfilehash: 8073696907ceff67664a0802a2b7775eea693e37
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47237980"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452517"
 ---
 # <a name="embed-reports-or-dashboards-from-apps"></a>Rapporten of dashboards uit apps insluiten
 
@@ -26,11 +26,11 @@ In Power BI kunt u apps maken om gerelateerde dashboards en rapporten bij elkaar
 
 2. Open het gewenste rapport in de Power BI-service.
 
-3. Ga naar **Bestand** > **Insluiten in SharePoint Online** en haal daar de rapport-embedURL op. Dit wordt in de volgende momentopname weergegeven. Of roep de GetReports/GetReport REST-API aan en extraheer het bijbehorende embedURL-veld voor rapporten uit het antwoord. De REST-aanroep mag geen werkruimte-id bevatten in de URL, aangezien er in de werkruimte van de gebruiker een exemplaar is gemaakt.
-
-4. Gebruik de embedURL die u bij stap 3 hebt opgehaald met de JavaScript-SDK.
+3. Ga naar **Bestand** > **Insluiten in SharePoint Online** en haal de rapport-embedURL op. In de onderstaande momentopname ziet u een embedURL-voorbeeld. Of roep de GetReports/GetReport REST-API aan en extraheer het bijbehorende embedURL-veld voor rapporten uit het antwoord. De REST-aanroep mag geen werkruimte-id bevatten in de URL, aangezien er in de werkruimte van de gebruiker een exemplaar is gemaakt.
 
     ![Insluiten vanuit apps](media/embed-from-apps/embed-from-app.png)
+
+4. Gebruik de embedURL die u bij stap 3 hebt opgehaald met de JavaScript-SDK.
 
 ## <a name="grab-a-dashboard-embedurl-for-embedding"></a>Een dashboard-embedURL ophalen om in te sluiten
 

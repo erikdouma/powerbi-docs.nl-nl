@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 7fcf7411e7785f4403e08d1e3094a60bd93bcf57
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 46b943b9de7e8bae29c20617f957c81de2d49f94
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565056"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452494"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Favoriete dashboards, rapporten en apps in de Power BI-service
 Wanneer u van inhoud een *favoriet* maakt, kunt u deze inhoud openen in al uw werkruimten.  Favorieten zijn doorgaans inhoud die u vaak bezoekt.

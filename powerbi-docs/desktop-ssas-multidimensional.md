@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c16fe65d766c6a1c18d809a68b3b0f6af8047db0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 4c9a8144ba9b8f465f4e607be60d075ea6ccb5fa
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813337"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452793"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Verbinding maken met multidimensionale modellen van SSAS in Power BI Desktop
 Met Power BI Desktop hebt u toegang tot **multidimensionale modellen van SSAS**, vaak **SSAS MD** genoemd.
@@ -81,6 +81,7 @@ Er gelden bepaalde beperkingen voor het gebruik van **SSAS MD**:
 * Op servers moet SQL Server 2012 SP1 CU4 of een hogere versie van Analysis Services worden uitgevoerd voor een goede werking van de connector voor Power BI Desktop SSAS MD
 * *Acties* en *benoemde sets* zijn niet beschikbaar in Power BI, maar u kunt wel verbinding maken met kubussen die ook *acties* of *benoemde sets* bevatten. Ook kunt u visuele elementen en rapporten maken.
 * Mogelijk treedt het probleem op dat, wanneer Power BI metagegevens weergeeft voor een SSAS-model, u geen gegevens uit het model kunt ophalen. Dit kan gebeuren als u de 32-bits versie van de MSOLAP-provider op uw systeem hebt geïnstalleerd en u niet beschikt over de 64-bits versie. Het probleem kan wellicht worden opgelost door de 64-bits versie te installeren.
+* U kunt geen metingen op 'rapportniveau' maken bij het ontwerpen van een rapport dat live is verbonden met een multidimensionaal SSAS-model. De enige metingen die beschikbaar zijn, zijn gedefinieerd in het MD-model.
 
 ## <a name="supported-features-of-ssas-md-in-power-bi-desktop"></a>Ondersteunde functies van SSAS MD in Power BI Desktop
 De volgende functies van SSAS MD worden ondersteund in Power BI Desktop:

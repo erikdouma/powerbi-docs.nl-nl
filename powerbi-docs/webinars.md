@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2018
+ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: d656a27717d22d13884bcbfa69fab4ba2babaf12
-ms.sourcegitcommit: 17d68172c73e9a9ff7966ddcedc3f8450584cdec
+ms.openlocfilehash: c3ef18bf05c6a979e9fd0440b271afd5d8545a54
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49952229"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452655"
 ---
 # <a name="power-bi-webinars"></a>Power BI-webinars
 
@@ -22,23 +22,13 @@ Registreer u voor onze komende live webinars of bekijk onze opgenomen sessies on
 
 ## <a name="upcoming-webinars"></a>Komende webinars
 
-**Power BI: analyses op z'n best**
-<br>door Gohul Shanmugalingam
-<br>*8 november 2018 13:00 uur - 14:00 uur EST*
+**Proven Healthcare Solutions to Improve Both Patient Outcomes and Profitability** (Bewezen oplossingen in de gezondheidszorg voor het verbeteren van zowel patiëntuitkomsten als winstgevendheid)
+<br>door Stephen Cracknell en Stuart Macanliss van US Medical IT
+<br>*28 november 2018 11:00 uur - 12:00 uur PST*
 
-Voor alle visionairs op het gebied van Analytics en Excel: leer hoe u prachtige rapporten maakt die mensen willen gebruiken, deel interessante inzichten die eenvoudig zijn te begrijpen en splits karrenvrachten aan gegevens uit om deze toegankelijk te maken.
+Gezondheidszorgorganisaties krijgen te maken met enorme hoeveelheden gegevens, die ze eerst moeten verwerken tot inzichten om vervolgens op basis van deze inzichten actie te ondernemen. Meldt u aan voor dit webinar voor meer informatie over het ontwerpen van betekenisvolle gezondheidszorgrapporten waarmee uw organisatie gegevens kan transformeren tot nuttige patiëntinformatie. Krijg deskundige strategieën en advies van de oprichter en CEO van US Medical IT, Stephen Cracknell, directeur van Healthcare IT Stuart Macanliss en de in Texas gevestigde rheumatologist dr. John P. Lavery.
 
-We delen de allernieuwste productinnovaties en onze visie voor moderne, zakelijke BI en selfservice-BI. Zo kan uw organisatie aan de slag met een gegevensgestuurde cultuur.
-
-[Registreer u voor de webinar op 8 november](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
-
-**Verbeter uw gegevensmodellering met Power BI**
-<br>door Kasper de Jonge
-<br>*20 november 2018 11:00 uur - 12:00 uur PST*
-
-Registreer u voor deze webinar en verbeter uw Power BI-modellen. Kom meer te weten over de in-memory analyse-engine van Power BI, over strategieën voor het maken en beheren van gegevensrelaties, en over hoe u Data Analysis Expressions-filtercontext (DAX) gebruikt. Ontdek hoe u elke modelleringsuitdaging overbrugt met Power BI of Azure Analysis Services.
-
-[Registreer u voor de webinar op 20 november](https://info.microsoft.com/Strengthen-Your-Data-Modeling-Skills-with-PowerBI-Registration.html?Is=Website)
+[Registreer u voor de webinar op 28 november](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
 
 >[Komende webinars van de Power BI-community](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
@@ -54,9 +44,17 @@ Aan de slag met deze populaire on-demand webinars
 <br>door Miguel Martinez
 <br>[Registreren en nu bekijken](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
 
+**Verbeter uw gegevensmodellering met Power BI**
+<br>door Kasper de Jonge
+<br>[Registreren en nu bekijken](https://info.microsoft.com/Strengthen-Your-Data-Modeling-Skills-with-PowerBI-Registration.html?Is=Website)
+
 **Microsoft wordt uitgevoerd in Power BI – financiële planning en analyse vereenvoudigd**
 <br>door Cory Hrncirik en Miguel Martinez
 <br>[Registreren en nu bekijken](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
+
+**Power BI: analyses op z'n best**
+<br>door Gohul Shanmugalingam
+<br>[Registreren en nu bekijken](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
 
 **Maak uw Power BI-gegevens visueel: belangrijke grafiektypen en hoe ze te gebruiken**
 <br>door Miranda Li
@@ -70,9 +68,9 @@ Aan de slag met deze populaire on-demand webinars
 <br>door Miranda Li
 <br>[Registreren en nu bekijken](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
 
-**Power BI Tricks, Tips and Tools from the owners of PowerBI.Tips** (Power BI: tips, trucs en hulpmiddelen van de eigenaren van PowerBI.Tips)
-<br>door Mike Carlo en Seth Bauer
-<br>[Nu bekijken](https://www.youtube.com/watch?v=fnj1_e3HXow)
+**The Total Economic Impact of Microsoft Flow and PowerApps** (De totale economische impact van Microsoft Flow en PowerApps)
+<br>door Jonathan Lipsitz en Enrique Plaza Garcia
+<br>[Registreren en nu bekijken](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
 
 >[Bekijk de bibliotheek van Power BI on-demand webinars van onze community-experts.](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
@@ -112,10 +110,6 @@ Vastgelegde sessies op elk gewenst moment bekijken
 <br>door Scott Ball van Esri en Enrique Plaza van Microsoft
 <br>[Registreren en nu bekijken](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
 
-**Verbetering van winstgevendheid in de gezondheidszorg**
-<br>door Stephen Cracknell en Stuart Macanliss van US Medical IT
-<br>[Registreren en nu bekijken](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website)
-
 **Applied Intelligence for Sales & Services** (Toegepaste intelligentie voor verkoop en services)
 <br>door Ed Bobrin van Avanade
 <br>[Registreren en nu bekijken](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
@@ -129,6 +123,10 @@ Vastgelegde sessies op elk gewenst moment bekijken
 <br>[Registreren en nu bekijken](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
 
 ### <a name="community"></a>Community ###
+
+**Power BI Tricks, Tips and Tools from the owners of PowerBI.Tips** (Power BI: tips, trucs en hulpmiddelen van de eigenaren van PowerBI.Tips)
+<br>door Mike Carlo en Seth Bauer
+<br>[Nu bekijken](https://www.youtube.com/watch?v=fnj1_e3HXow)
 
 **Storytelling with your data and Power BI** (Storytelling met uw gegevens en Power BI)
 <br>door Tristan Malherbe
