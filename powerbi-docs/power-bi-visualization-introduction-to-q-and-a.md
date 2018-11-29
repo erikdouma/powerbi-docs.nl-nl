@@ -7,44 +7,45 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/16/2018
+ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 6759145d2764a586526a69c8b577178144ba019e
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: e76d57f43fc76f5a9c51501daac48b081d9747b6
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187003"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331812"
 ---
 # <a name="get-started-with-power-bi-qa"></a>Aan de slag met Power BI Q&A
-## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>De Q&A-functie van Power BI gebruiken met een retailanalyse als voorbeeld
-Soms krijgt u het snelst een antwoord uit uw gegevens wanneer u een vraag stelt in natuurlijke taal.  In deze snelstartgids bekijken we twee verschillende manieren om dezelfde visualisatie te maken: eerst samenstellen in een rapport en daarna een vraag stellen met Q&A. We doen dit met behulp van Power BI-service, maar het proces is bijna identiek aan als u dit doet met behulp van Power BI Desktop.
+
+Soms krijgt u het snelst een antwoord uit uw gegevens wanneer u een vraag stelt in natuurlijke taal.  In deze snelstartgids bekijken we twee verschillende manieren om dezelfde visualisatie te maken: ten eerste samenstellen in een rapport, en ten tweede een vraag stellen met Q&A. We doen dit met behulp van Power BI-service, maar het proces is bijna identiek aan als u dit doet met behulp van Power BI Desktop.
 
 Als u dit wilt volgen, moet u een rapport gebruiken dat u kunt bewerken. Daarom maken we gebruik van een van de voorbeelden die beschikbaar zijn met Power BI.
 
-## <a name="method-1-using-the-report-editor"></a>Methode 1: met behulp van de rapporteditor
+## <a name="create-a-visual-in-the-report-editor"></a>Een visual maken in de rapporteditor
+
 1. Selecteer in de Power BI-werkruimte **Gegevens ophalen** \> **Voorbeelden** \> **Voorbeeld van een retailanalyse**  >  **Verbinding maken**.
    
-    ![](media/power-bi-visualization-introduction-to-q-and-a/power-bi-dashboard.png)
-2. Het dashboard bevat een diagramtegel voor de omzet van het afgelopen jaar en de omzet van dit jaar.  Selecteer deze tegel. 
+2. Het dashboard bevat een diagramtegel voor de omzet van het afgelopen jaar en de omzet van dit jaar.  Selecteer deze tegel. Als deze tegel is gemaakt met Q&A en u de tegel selecteert, wordt Q&A geopend. Deze tegel is echter gemaakt in een rapport, waardoor het rapport wordt geopend op de pagina met deze visualisatie.
+
+    ![Voorbeelddashboard voor retailanalyse](media/power-bi-visualization-introduction-to-q-and-a/power-bi-dashboard.png)
+
+1. Open het rapport in de bewerkingsweergave en selecteer **Rapport bewerken**.  Als u niet de eigenaar van een rapport bent, kunt u het rapport niet openen in de bewerkingsweergave.
    
-   * Als deze tegel is gemaakt met Q&A en u de tegel selecteert, wordt Q&A geopend. 
-   * Deze tegel is echter gemaakt in een rapport, waardoor het rapport wordt geopend op de pagina met deze visualisatie.
-3. Open het rapport in de bewerkingsweergave en selecteer **Rapport bewerken**.  Als u niet de eigenaar van een rapport bent, kunt u het rapport niet openen in de bewerkingsweergave.
-   
-    ![](media/power-bi-visualization-introduction-to-q-and-a/power-bi-edit-report.png)
+    ![De knop Rapport bewerken](media/power-bi-visualization-introduction-to-q-and-a/power-bi-edit-report.png)
 4. Selecteer het vlakdiagram en controleer de instellingen in het deelvenster **Velden**.  De maker van het rapport heeft dit diagram samengesteld door deze drie waarden (**Tijd > FiscalMonth**, **Verkoop > Omzet van dit jaar**, **Verkoop > Omzet van afgelopen jaar > Waarde**) te selecteren en ze te ordenen in de bronnen **As** en **Waarden**.
    
-    ![](media/power-bi-visualization-introduction-to-q-and-a/gnatutorial_3-new.png)
+    ![Deelvenster Visualisaties](media/power-bi-visualization-introduction-to-q-and-a/gnatutorial_3-new.png)
 
-## <a name="method-2-using-qa"></a>Methode 2: Q&A gebruiken
+## <a name="create-the-same-visual-with-qa"></a>Dezelfde visual maken met Q&A
+
 Hoe zouden we hetzelfde lijndiagram maken met Q&A?
 
-![](media/power-bi-visualization-introduction-to-q-and-a/power-bi-qna.png)
+![Het vak Een vraag stellen](media/power-bi-visualization-introduction-to-q-and-a/power-bi-qna.png)
 
 1. Navigeer terug naar het dashboard Voorbeeld van een retailanalyse.
-2. Typ iets als het volgende in het vragenvak in natuurlijke taal:
+2. Typ in natuurlijke taal iets als de volgende vraag in het vragenvak:
    
    **Wat was de omzet van dit jaar en vorig jaar, per maand als vlakdiagram**
    
@@ -52,9 +53,9 @@ Hoe zouden we hetzelfde lijndiagram maken met Q&A?
    
    Als u de vraag hebt getypt, resulteert dit in exact hetzelfde diagram als in het rapport.  Maar op deze manier is het diagram veel sneller gemaakt.
    
-   ![](media/power-bi-visualization-introduction-to-q-and-a/powerbi-qna-areachart.png)
+   ![Voorbeeld van een vraag](media/power-bi-visualization-introduction-to-q-and-a/powerbi-qna-areachart.png)
 3. Net als wanneer u met rapporten werkt, hebt u in Q&A toegang tot de deelvensters Visualisaties, Filters en Velden.  Open deze deelvensters om uw visual verder te verkennen en te wijzigen.
-4. Selecteer het speldpictogram ![](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png) om uw diagram aan het dashboard vast te maken.
+4. Selecteer het speldpictogram om uw diagram aan het dashboard vast te maken ![Speldpictogram](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png).
 
 ## <a name="next-steps"></a>Volgende stappen
 [Q&A in Power BI](consumer/end-user-q-and-a.md)

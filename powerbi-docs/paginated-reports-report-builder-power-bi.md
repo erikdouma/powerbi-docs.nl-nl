@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: report-builder
 ms.topic: overview
-ms.date: 11/08/2018
+ms.date: 11/20/2018
 ms.author: maggies
-ms.openlocfilehash: 15ec21a0b86977173c16071980d7527f27db74ef
-ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
+ms.openlocfilehash: 7a39d7b3bdbbd592afc6481c5936efc76569ad11
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51297039"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289215"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium-preview"></a>Wat zijn gepagineerde rapporten in Power BI Premium? (Voorbeeld)
-Gepagineerde rapporten waren lang de standaardrapportindeling in SQL Server Reporting Services en zijn nu beschikbaar in de Power BI-service. Gepagineerde rapporten zijn rapporten die zijn ontworpen om te worden afgedrukt of gedeeld. Ze worden 'gepagineerd' genoemd omdat ze door hun opmaak goed op een pagina passen en toch alle gegevens uit een tabel bevatten, zelfs als de tabel bijvoorbeeld meerdere pagina's omvat. Ze worden soms 'pixelperfect' genoemd omdat de pagina-indeling van dit type rapport exact kan worden ingesteld. Gepagineerde rapporten zijn gebaseerd op de RDL-rapporttechnologie in SQL Server Reporting Services. Report Builder is het zelfstandige hulpprogramma voor het maken van gepagineerde rapporten. 
+Gepagineerde rapporten waren lang de standaardrapportindeling in SQL Server Reporting Services en zijn nu beschikbaar in de Power BI-service. Gepagineerde rapporten zijn rapporten die zijn ontworpen om te worden afgedrukt of gedeeld. Ze worden 'gepagineerd' genoemd, omdat ze zo zijn opgemaakt dat ze op een pagina passen. Alle gegevens worden in een tabel weergegeven, zelfs als de tabel meerdere pagina's omvat. Ze worden soms 'pixelperfect' genoemd omdat de pagina-indeling van dit type rapport exact kan worden ingesteld. Gepagineerde rapporten zijn gebaseerd op de RDL-rapporttechnologie in SQL Server Reporting Services. Report Builder is het zelfstandige hulpprogramma voor het maken van gepagineerde rapporten. 
 
-Gepagineerde rapporten kunnen heel veel pagina's hebben. Het rapport in het volgende voorbeeld heeft 563 pagina's, die allemaal zorgvuldig zijn opgemaakt, met één pagina per factuur en herhalende kopteksten en voetteksten.
+Gepagineerde rapporten kunnen heel veel pagina's hebben. Dit rapport heeft bijvoorbeeld 563 pagina's. Alle pagina's zijn zorgvuldig opgemaakt, met één pagina per factuur en herhalende kopteksten en voetteksten.
 
 ![Gepagineerd rapport in de Power BI-service](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
@@ -27,11 +27,11 @@ U kunt een voorbeeld van uw rapport bekijken in Report Builder en het rapport ve
 
 ## <a name="create-reports-in-report-builder"></a>Rapporten maken in Report Builder
 
-Gepagineerde rapporten hebben hun eigen ontwerpprogramma, Report Builder genaamd. Als u gepagineerde rapporten hebt gemaakt voor Power BI Report Server of SQL Server Reporting Services (SSRS), kunt u hetzelfde hulpprogramma en dezelfde versie gebruiken. In feite zijn gepagineerde rapporten die u maakt voor SSRS 2016 en 2017 of voor Power BI Report Server on-premises compatibel met de Power BI-service. De Power BI-service ondersteunt achterwaartse compatibiliteit, zodat u uw rapporten kunt upgraden en u gepagineerde rapporten van een eerdere versie kunt bijwerken. Niet alle rapportfuncties zijn beschikbaar bij de release. Zie [Beperkingen en overwegingen](#limitations-and-considerations) in dit artikel voor meer informatie.
+Gepagineerde rapporten hebben hun eigen ontwerpprogramma, Report Builder genaamd. Het is hetzelfde hulpprogramma en dezelfde versie als die u gebruikt voor het maken van gepagineerde rapporten voor Power BI Report Server of SQL Server Reporting Services (SSRS). In feite zijn gepagineerde rapporten die u maakt voor SSRS 2016 en 2017 of voor Power BI Report Server on-premises compatibel met de Power BI-service. De Power BI-service ondersteunt achterwaartse compatibiliteit, zodat u uw rapporten kunt upgraden en u gepagineerde rapporten van een eerdere versie kunt bijwerken. Niet alle rapportfuncties zijn al meteen bij de release beschikbaar. Zie [Beperkingen en overwegingen](#limitations-and-considerations) in dit artikel voor meer informatie.
      
 ## <a name="report-from-a-variety-of-data-sources"></a>Rapporteren uit verschillende gegevensbronnen
 
-Een gepagineerd rapport kan een aantal verschillende gegevensbronnen hebben. Dit type rapport heeft geen onderliggende gegevensmodel, zoals Power BI-rapporten. Bij de eerste release van gepagineerde rapporten in de Power BI-service maakt u ingesloten gegevensbronnen en gegevenssets in het rapport zelf, in plaats van verbinding te maken met gedeelde gegevensbronnen of gegevenssets op een server. U maakt rapporten in Report Builder op uw lokale computer. Als een rapport verbinding maakt met on-premises gegevens, moet u na het uploaden van het rapport naar de Power BI-service een gateway maken en de gegevensverbinding omleiden. Dit zijn de gegevensbronnen waarmee u in de eerste release verbinding kunt maken:
+Een gepagineerd rapport kan een aantal verschillende gegevensbronnen hebben. Dit type rapport heeft geen onderliggende gegevensmodel, zoals Power BI-rapporten. Bij de eerste release van gepagineerde rapporten in de Power BI-service maakt u ingesloten gegevensbronnen en gegevenssets in het rapport zelf. Voorlopig kunt u geen gedeelde gegevensbronnen of gedeelde gegevenssets gebruiken. U maakt rapporten in Report Builder op uw lokale computer. Als een rapport verbinding maakt met on-premises gegevens, moet u na het uploaden van het rapport naar de Power BI-service een gateway maken en de gegevensverbinding omleiden. Dit zijn de gegevensbronnen waarmee u in de eerste release verbinding kunt maken:
 
 - Azure SQL Database en Data Warehouse
 - SQL Server via een gateway
@@ -60,7 +60,7 @@ Alles in een gepagineerd rapport, van het rapport zelf tot de tekstvakken, afbee
 Wanneer u een gepagineerd rapport ontwerpt, maakt u in feite een *rapportdefinitie*. Het rapport bevat geen gegevens. Er wordt aangegeven waar de gegevens moeten worden opgehaald, welke gegevens u wilt ophalen en hoe u de gegevens wilt weergeven. Wanneer u het rapport uitvoert, worden er gegevens opgehaald aan de hand van de definitie van het rapport die u hebt opgegeven, waarna deze worden gecombineerd met de rapportindeling om het rapport te genereren. U uploadt de rapportdefinitie naar de Power BI-service, http://app.powerbi.com, naar uw Mijn werkruimte of naar een werkruimte die u deelt met uw collega's. Als de gegevensbron van het rapport on-premises is, moet u na het uploaden van het rapport de verbinding met de gegevensbron omleiden via een gateway. 
 
 ## <a name="view-your-paginated-report"></a>Een gepagineerd rapport weergeven
-U kunt een gepagineerd rapport weergeven in de Power BI-service in een browser en ook in de mobiele Power BI-apps. In de Power BI-service kunt u het rapport exporteren naar verschillende indelingen voor webgeoriënteerde, paginageoriënteerde en bureaubladtoepassingen, zoals HTML, MHTML, PDF, XML, CSV, TIFF, Word en Excel. U kunt het rapport ook delen met anderen.  
+U kunt een gepagineerd rapport weergeven in de Power BI-service in een browser en ook in de mobiele Power BI-apps. In de Power BI-service kunt u het rapport exporteren naar verschillende indelingen, zoals HTML, MHTML, PDF, XML, CSV, TIFF, Word en Excel. U kunt het rapport ook delen met anderen.  
   
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 
@@ -78,7 +78,8 @@ Hier volgen enkele andere functies die niet worden ondersteund in de eerste rele
 ## <a name="next-steps"></a>Volgende stappen
 
 - [Report Builder installeren vanuit het Microsoft Downloadcentrum](http://go.microsoft.com/fwlink/?LinkID=734968)
-
 - [Tutorial: Create a paginated report](paginated-reports-quickstart-aw.md) (Zelfstudie: een gepagineerd rapport maken)
+- [Gegevens rechtstreeks in een gepagineerd rapport invoeren](paginated-reports-enter-data.md)
+
   
 

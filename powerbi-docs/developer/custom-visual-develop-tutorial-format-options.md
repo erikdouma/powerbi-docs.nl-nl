@@ -8,17 +8,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
-ms.date: 11/06/2018
-ms.openlocfilehash: a3d36f988847df283576dae6cfe5870b707c6f98
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.date: 11/21/2018
+ms.openlocfilehash: 56de3745d59e4a26dffbb988e9543c294de261e3
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223255"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289169"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>Zelfstudie: Opmaakopties toevoegen aan een aangepaste Power BI-visual
 
-In deze zelfstudie leert u hoe u algemene eigenschappen toevoegt aan een visual.
+In deze zelfstudie leert u hoe u algemene eigenschappen toevoegt aan de visual.
 
 In deze zelfstudie leert u het volgende:
 > [!div class="checklist"]
@@ -32,7 +32,7 @@ In deze zelfstudie leert u het volgende:
 
     Als het goed is ziet u het bericht *Er zijn geen opmaakopties beschikbaar voor dit visuele element.*
 
-    ![Opmaakpenseel](media/custom-visual-develop-tutorial/format-paintbrush.png)
+    ![Opmaakpenseel](media/custom-visual-develop-tutorial-format-options/format-paintbrush.png)
 
 2. In **Visual Studio Code** opent u het bestand *capabilities.json*.
 
@@ -41,7 +41,7 @@ In deze zelfstudie leert u het volgende:
     ```json
     "objects": {},
     ```
-    ![Objecten toevoegen](media/custom-visual-develop-tutorial/add-objects.png)
+    ![Objecten toevoegen](media/custom-visual-develop-tutorial-format-options/add-objects.png)
 
 4. Sla het bestand **capabilities.json** op.
 
@@ -50,13 +50,13 @@ In deze zelfstudie leert u het volgende:
     > [!Note]
     > Als u de opmaakopties niet ziet, selecteert u **Aangepaste visual opnieuw laden**.
 
-    ![Opmaakopties bekijken](media/custom-visual-develop-tutorial/view-formatting-options.png)
+    ![Opmaakopties bekijken](media/custom-visual-develop-tutorial-format-options/view-formatting-options.png)
 
 6. Stel de optie **Titel** in op *Uit*. U ziet dat de visual linksboven in de hoek niet langer de metingnaam weergeeft.
 
-    ![Tegeloptie is uitgeschakeld](media/custom-visual-develop-tutorial/tile-option-off.png)
+    ![Tegeloptie is uitgeschakeld](media/custom-visual-develop-tutorial-format-options/tile-option-off.png)
 
-    ![Geen naamtegel](media/custom-visual-develop-tutorial/no-name-tile.png)
+    ![Geen naamtegel](media/custom-visual-develop-tutorial-format-options/no-name-tile.png)
 
 ### <a name="adding-custom-formatting-options"></a>Aangepaste opmaakopties toevoegen
 
@@ -64,7 +64,7 @@ U kunt aangepaste eigenschappen toevoegen, zodat u de kleur van de cirkel en de 
 
 1. Stop de aangepaste visual in PowerShell.
 
-2. In het bestand **capabilities.json** in Visual Studio Code voegt u het volgende JSON-fragment toe in het object **objects**.
+2. Voeg in Visual Studio Code in het bestand **capabilities.json** het volgende JSON-fragment toe in het object **objects**.
 
     ```json
     "circle": {
@@ -89,12 +89,12 @@ U kunt aangepaste eigenschappen toevoegen, zodat u de kleur van de cirkel en de 
                  }
              }
          }
-     }
+     },
     ```
 
     Het JSON-fragment beschrijft een cirkel met een groepsnaam die uit twee opties bestaat, namelijk circleColor en circleThickness.
 
-   ![De code voor Cirkeldikte](media/custom-visual-develop-tutorial/circle-thickness-code.png)
+   ![De code voor Cirkeldikte](media/custom-visual-develop-tutorial-format-options/circle-thickness-code.png)
 
 3. Sla het bestand **capabilities.json** op.
 
@@ -112,7 +112,7 @@ U kunt aangepaste eigenschappen toevoegen, zodat u de kleur van de cirkel en de 
     }
     ```
 
-    ![Moduleklassen](media/custom-visual-develop-tutorial/module-classes.png)
+    ![Moduleklassen](media/custom-visual-develop-tutorial-format-options/module-classes.png)
 
     Deze module definieert de twee klassen. De klasse **CircleSettings** definieert twee eigenschappen met namen die overeenkomen met de objecten die in het bestand **capabilities.json** zijn gedefinieerd (**circleColor** en **circleThickness**) en stelt ook de standaardwaarden in. De klasse **VisualSettings** neemt de klasse **DataViewObjectParser** over en voegt een eigenschap met de naam **circle** toe die overeenkomt met het object dat in het bestand *capabilities.json* is gedefinieerd en retourneert een exemplaar van **CircleSettings**.
 
@@ -127,7 +127,7 @@ U kunt aangepaste eigenschappen toevoegen, zodat u de kleur van de cirkel en de 
     ```
     Deze eigenschap bewaart een verwijzing naar het object **VisualSettings** en beschrijft de visuele instellingen.
 
-    ![Visual klasse toevoegen](media/custom-visual-develop-tutorial/visual-class-add-on.png)
+    ![Visual klasse toevoegen](media/custom-visual-develop-tutorial-format-options/visual-class-add-on.png)
 
 9. In de klasse **Visual** voegt u de volgende methode voor de **updatemethode** toe. Deze methode wordt gebruik om de opmaakinstellingen in te vullen.
 
@@ -140,7 +140,7 @@ U kunt aangepaste eigenschappen toevoegen, zodat u de kleur van de cirkel en de 
     ```
     Deze methode wordt gebruik om de opmaakinstellingen in te vullen.
 
-    ![Object voor visuele instellingen](media/custom-visual-develop-tutorial/visual-settings-object.png)
+    ![Object voor visuele instellingen](media/custom-visual-develop-tutorial-format-options/visual-settings-object.png)
 
 10. Voeg de volgende code toe in de **updatemethode**, na de variabele **radius**.
 
@@ -150,7 +150,7 @@ U kunt aangepaste eigenschappen toevoegen, zodat u de kleur van de cirkel en de 
     ```
     Deze code haalt de indelingsopties op. De code past waarden aan die in de eigenschap **circleThickness** zijn opgegeven en converteert die waarden naar 0 als deze negatief zijn, of naar 10 als de waarde groter is dan 10.
 
-    ![Radiusvariabele](media/custom-visual-develop-tutorial/radius.png)
+    ![Radiusvariabele](media/custom-visual-develop-tutorial-format-options/radius.png)
 
 11. Wijzig voor **circle element** de waarde voor **fill style** in de volgende expressie.
 
@@ -158,7 +158,7 @@ U kunt aangepaste eigenschappen toevoegen, zodat u de kleur van de cirkel en de 
     this.visualSettings.circle.circleColor
     ```
 
-    ![Vult het cirkelelement op](media/custom-visual-develop-tutorial/circle-element-fill.png)
+    ![Vult het cirkelelement op](media/custom-visual-develop-tutorial-format-options/circle-element-fill.png)
 
 12. Wijzig voor **circle element** de waarde voor **stroke-width style** in de volgende expressie.
 
@@ -166,7 +166,7 @@ U kunt aangepaste eigenschappen toevoegen, zodat u de kleur van de cirkel en de 
     this.visualSettings.circle.circleThickness
     ```
 
-    ![Circle Stroke-width](media/custom-visual-develop-tutorial/circle-stroke-width.png)
+    ![Circle Stroke-width](media/custom-visual-develop-tutorial-format-options/circle-stroke-width.png)
 
 13. Sla het bestand visual.ts op.
 
@@ -180,7 +180,7 @@ U kunt aangepaste eigenschappen toevoegen, zodat u de kleur van de cirkel en de 
 
 16. In de opties voor **visual format** vouwt u **Circle** uit.
 
-    ![Cirkelformaat](media/custom-visual-develop-tutorial/circle-format.png)
+    ![Cirkelformaat](media/custom-visual-develop-tutorial-format-options/circle-format.png)
 
     Bewerk de opties **kleur** en **dikte**.
 
@@ -198,7 +198,7 @@ Voer de eigenschapswaarden in voor het aangepaste visualproject, werk het pictog
 
     Als u in het venster **Visualisaties** uw muiswijzer boven het pictogram houdt, verschijnt de weergavenaam.
 
-    ![Weergavenaam van visual](media/custom-visual-develop-tutorial/display-name-viz.png)
+    ![Weergavenaam van visual](media/custom-visual-develop-tutorial-format-options/display-name-viz.png)
 
 4. Voer de volgende tekst in voor de eigenschap **beschrijving**.
 
@@ -216,7 +216,7 @@ Voer de eigenschapswaarden in voor het aangepaste visualproject, werk het pictog
 
 10. Bekijk het pictogram.
 
-    ![Afbeelding van het venster visualisaties](media/custom-visual-develop-tutorial/viz-pane-image.png)
+    ![Afbeelding van het venster visualisaties](media/custom-visual-develop-tutorial-format-options/viz-pane-image.png)
 
 11. Zorg er in Visual Studio Code voor dat alle bestanden zijn opgeslagen.
 
@@ -226,7 +226,7 @@ Voer de eigenschapswaarden in voor het aangepaste visualproject, werk het pictog
     pbiviz package
     ```
 
-    ![Dist-map](media/custom-visual-develop-tutorial/dist-folder.png)
+    ![Dist-map](media/custom-visual-develop-tutorial-format-options/dist-folder.png)
 
 Het pakket is nu uitgepakt in de map **dist** van het project. Het pakket bevat alles dat nodig is om de aangepaste visual te importeren in de Power BI-service of een Power BI Desktop-rapport. U hebt de aangepaste visual nu verpakt en deze is nu klaar voor gebruik.
 
@@ -238,7 +238,7 @@ U kunt het Power BI Desktop-rapport nu openen en de aangepaste visual Circle Car
 
 2. Selecteer in het venster **_Visualisaties_** de **weglatingstekens** en selecteer vervolgens **Importeren** in Bestand.
 
-    ![Aangepaste visual toevoegen aan desktop](media/custom-visual-develop-tutorial/add-custom-viz-to-desktop.png)
+    ![Aangepaste visual toevoegen aan desktop](media/custom-visual-develop-tutorial-format-options/add-custom-viz-to-desktop.png)
 
 3. Selecteer **Importeren** in het **importeervenster**.
 
@@ -250,7 +250,7 @@ U kunt het Power BI Desktop-rapport nu openen en de aangepaste visual Circle Car
 
 7. Controleer of de visual is toegevoegd aan het venster **_Visualisaties_**.
 
-    ![Weergave in visualisatiepaneel in Power BI Desktop](media/custom-visual-develop-tutorial/view-in-desktop-viz-pane.png)
+    ![Weergave in visualisatiepaneel in Power BI Desktop](media/custom-visual-develop-tutorial-format-options/view-in-desktop-viz-pane.png)
 
 8. Bekijk hoe de knopinformatie verschijnt als u met uw muisaanwijzer over het pictogram **Circle Card** beweegt.
 

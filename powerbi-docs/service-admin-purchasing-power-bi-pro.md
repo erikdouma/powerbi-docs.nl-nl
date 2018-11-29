@@ -10,16 +10,17 @@ ms.topic: quickstart
 ms.date: 10/21/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 7984f269235084268af57f1bb0d292793aef1f7f
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 0784976e1404247d69415bb398f83cbb73ab98a8
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641270"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331914"
 ---
 # <a name="purchase-and-assign-power-bi-pro-licenses"></a>Power BI Pro-licenties kopen en toewijzen
 
 Power BI Pro is een afzonderlijke licentie waarmee toegang kan worden verkregen tot alle inhoud en mogelijkheden in de Power BI-service, inclusief de mogelijkheid voor het delen van inhoud en samenwerken met andere Pro-gebruikers. Alleen Pro-gebruikers kunnen inhoud naar app-werkruimten publiceren en deze inhoud gebruiken, dashboards delen en zich abonneren op dashboards en rapporten. Zie [Power BI Free vs Pro](service-features-license-type.md) voor meer informatie.
+
 In dit artikel wordt eerst uitgelegd hoe u Power BI Pro-licenties kunt kopen in Office 365. Vervolgens worden de twee opties besproken die u hebt om deze licenties toe te wijzen aan afzonderlijke gebruikers: Office 365 en Azure (u moet een van de opties kiezen).
 
 ## <a name="prerequisites"></a>Vereisten

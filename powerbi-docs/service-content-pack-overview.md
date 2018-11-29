@@ -7,24 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/20/2018
+ms.date: 11/20/2018
 ms.author: maggies
-ms.openlocfilehash: 4a5d124ffd213c54d628ff15e32ece18e56913eb
-ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
+ms.openlocfilehash: f97393a8a7fe8dc9c413a0cb0cda8be0e965da5b
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "39157346"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289192"
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Overzicht van het programma voor inhoudspakketten van de Power BI-service
 Een inhoudspakket is een set kant-en-klare elementen waarmee gebruikers direct inzicht kunnen krijgen vanuit een bron. Een inhoudspakket is doorgaans gericht op een specifiek zakelijk scenario om inzicht te bieden voor een functie, domein of workflow.
 
-ISV's kunnen sjablooninhoudspakketten samenstellen waarmee klanten verbinding kunnen maken en die ze kunnen instantiëren vanuit hun eigen accounts. Als domeinexperts kunnen ze de gegevens ontgrendelen op een manier die eenvoudig kan worden gebruikt door zakelijke gebruikers. De inhoudspakketten bieden ad-hoc controle en analyse aan uw klanten zonder zware investeringen in de infrastructuur voor rapportage.
+ISV's kunnen sjablooninhoudspakketten samenstellen waarmee klanten verbinding kunnen maken en die ze kunnen instantiëren vanuit hun eigen accounts. Als domeinexperts kunnen ze de zodanig gegevens ontgrendelen op dat deze eenvoudig kunnen worden gebruikt door zakelijke gebruikers. De inhoudspakketten bieden ad-hoc controle en analyse aan uw klanten zonder zware investeringen in de infrastructuur voor rapportage.
 
 Deze door ISV's gemaakte sjablooninhoudspakketten kunnen worden verzonden naar het Power BI-team en openbaar beschikbaar worden gesteld in de Power BI-galerie met inhoudspakketten (app.powerbi.com/getdata/services) en op Microsoft AppSource (appsource.microsoft.com). Een voorbeeld van het gebruiksomgeving voor openbare inhoudspakketten vindt u [hier](template-content-pack-experience.md).
 
 ## <a name="overview"></a>Overzicht
-Het algemene proces om een sjablooninhoudspakket te ontwikkelen omvat meerdere stappen.
+Het algemene proces om een sjablooninhoudspakket te ontwikkelen en in te dienen omvat meerdere stappen.
 
  ![Proces](media/service-content-pack-overview/developer-content-pack-overview.png)
 
@@ -78,7 +78,7 @@ Gepubliceerde inhoudspakketten kunnen eenmaal per maand worden bijgewerkt. Bijwe
 U kunt uw vragen per e-mail verzenden naar [pbiservicesapps@microsoft.com](mailto:pbiservicesapps@microsoft.com)
 
 ## <a name="support"></a>Ondersteuning
-Gebruik [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support) voor ondersteuning tijdens de ontwikkeling. Deze pagina wordt actief bewaakt en beheerd. Klantincidenten worden zo snel mogelijk naar het desbetreffende team doorgestuurd.
+Gebruik [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support) voor ondersteuning tijdens de ontwikkeling. Klantincidenten worden zo snel mogelijk naar het desbetreffende team doorgestuurd.
 
 ## <a name="next-step"></a>Volgende stap
 [Ontwerpen](template-content-pack-authoring.md)

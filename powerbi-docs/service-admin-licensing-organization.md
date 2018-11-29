@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 09ce2e2db94116d70824b276b9b67b9dbe163d11
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: 861b9c411b3088b6c16b7ad601f374bd771b13ed
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679312"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331983"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Power BI-licenties in uw organisatie
 
 In de Power BI-service hebben gebruikers gedefinieerde mogelijkheden op basis van twee typen licenties:
 
-* **Per gebruiker** - *gratis licenties en licenties van Power BI Pro*. Een gratis licentie biedt toegang tot een aantal functies van de Power BI-service. Een Pro-licentie geeft toegang tot alle inhoud en mogelijkheden in de Power BI-service, inclusief de mogelijkheid om inhoud te delen en samen te werken met andere Pro-gebruikers. Alleen Pro-gebruikers kunnen inhoud naar app-werkruimten publiceren en deze inhoud gebruiken, dashboards delen en zich abonneren op dashboards en rapporten. Zie [Power BI Free vs Pro](service-features-license-type.md) voor meer informatie.
+* **Per gebruiker** - *gratis licenties en licenties van Power BI Pro*. Een Power BI Pro-licentie geeft toegang tot alle inhoud en mogelijkheden in de Power BI-service, inclusief de mogelijkheid om inhoud te delen en samen te werken met andere Pro-gebruikers. Alleen Pro-gebruikers kunnen inhoud naar app-werkruimten publiceren en deze inhoud gebruiken, dashboards delen en zich abonneren op dashboards en rapporten. Een gratis licentie biedt toegang tot een aantal functies van de Power BI-service. Zie [Power BI Free vs Pro](service-features-license-type.md) voor meer informatie.
 
 * **Op basis van capaciteit** - *Power BI Premium-licentie*. Premium biedt toegewezen capaciteit voor consistente prestaties en ondersteuning voor grotere gegevensvolumes in Power BI. Voor individuele gebruikers voorziet Premium ook in wijdverbreide distributie van inhoud door Pro-gebruikers zonder dat ontvangers die de inhoud bekijken een Pro-licentie nodig hebben. Zie [Wat is Power BI Premium?](service-premium.md) voor meer informatie.
 
@@ -73,17 +73,11 @@ Nu kunt u [licenties toewijzen in Office 365](https://support.office.com/article
 
 ## <a name="manage-power-bi-free-licenses"></a>Gratis Power BI-licenties beheren
 
-Gebruikers in uw organisatie kunnen op twee manieren de beschikking krijgen over gratis Power BI-licenties. Ze kunnen zich persoonlijk registreren voor Power BI of u kunt een Power BI-licentie aan gebruikers toewijzen in de Office 365-beheerportal.
+Gebruikers in uw organisatie kunnen op twee manieren de beschikking krijgen over gratis Power BI-licentie:
 
-Als u toestaat dat gebruikers zich persoonlijk kunnen registreren, betekent dat dat u als beheerder van de organisatie niets hoeft te doen, omdat de geïnteresseerde gebruikers zichzelf gratis kunnen registreren.
+* U kunt een Power BI-licentie aan heb toewijzen vanuit de Office 365-beheerportal.
 
-Als u persoonlijke gebruikersregistraties echter niet toestaat, hebt u meer controle en het is een goede optie als u het gebruik van de service moet controleren.
-
-### <a name="power-bi-free-for-individuals"></a>Power BI gratis voor individuele gebruikers
-
-Gebruikers in uw organisatie kunnen zich standaard registreren voor een gratis versie van Power BI. Zie [Registreren voor Power BI als afzonderlijke gebruiker](service-self-service-signup-for-power-bi.md) voor meer informatie.
-
-Om afzonderlijke registratie te blokkeren, raadpleegt u [Persoonlijke gebruikersregistraties in- of uitschakelen in Azure Active Directory](service-admin-licensing-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory) verderop in dit artikel.
+* Als een gebruiker [zich registreert voor een Power BI Pro-proefversie](service-self-service-signup-for-power-bi.md) en de proefversie vervalt, wordt aan de gebruiker een gratis licentie toegewezen.
 
 ### <a name="requesting-and-assigning-free-licenses"></a>Gratis licenties aanvragen en toewijzen
 

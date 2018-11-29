@@ -1,29 +1,29 @@
 ---
-title: Dashboardtegels in Power BI-service
-description: Alle informatie over dashboardtegels in Power BI. Hiertoe behoren tegels die zijn gemaakt vanuit SQL Server Reporting Services (SSRS).
+title: Inleiding tot dashboardtegels voor Power BI-ontwerpers
+description: Alle informatie over dashboardtegels in Power BI. Hiertoe behoren tegels die zijn gemaakt vanuit SQL Server Reporting Services-rapporten (SSRS).
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/3/2018
+ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 76b8eaff949ee56d57511eabea913363e6cdc3f6
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: de99c04077a58f1c0c060561674fefa9041fa144
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717396"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331960"
 ---
-# <a name="dashboard-tiles-in-power-bi"></a>Dashboardtegels in Power BI
-Dashboards en dashboardtegels zijn functies van Power BI-service, niet van Power BI Desktop. Dashboardtegels kunnen niet worden gemaakt of vastgemaakt in Power BI - Mobiel, [maar kunnen daarin wel worden weergeven en gedeeld](mobile-tiles-in-the-mobile-apps.md). En in Power BI - Mobiel kunt u [afbeeldingen toevoegen aan uw dashboard met uw iPhone-app](mobile-iphone-app-get-started.md).
+# <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Inleiding tot dashboardtegels voor Power BI-ontwerpers
 
-## <a name="dashboard-tiles"></a>Update van dashboardtegels
+Een tegel is een momentopname van uw gegevens, vastgemaakt aan het dashboard. Een tegel kan worden gemaakt vanuit een rapport, een gegevensset, een dashboard, het Q&A-vak, Excel, SQL Server Reporting Services-rapporten (SSRS) en meer.  Deze schermopname laat verschillende tegels zien die zijn vastgemaakt aan een dashboard.
+
 ![Power BI-dashboard](media/service-dashboard-tiles/power-bi-dashboard.png)
 
-Een tegel is een momentopname van uw gegevens, vastgemaakt aan het dashboard. Een tegel kan worden gemaakt vanuit een rapport, gegevensset, dashboard of Q&A-vak, vanuit Excel en SQL Server Reporting Services (SSRS), enzovoort.  Deze schermopname laat verschillende tegels zien die zijn vastgemaakt aan een dashboard.
+Dashboards en dashboardtegels zijn functies van Power BI-service, niet van Power BI Desktop. U kunt geen dashboards op mobiele apparaten maken, maar u kunt ze daar wel [weergeven en delen](mobile-apps-view-dashboard.md).
 
 Tegels kunnen niet alleen worden vastgemaakt. Zelfstandige tegels kunnen rechtstreeks op het dashboard worden gemaakt met [Tegel toevoegen](service-dashboard-add-widget.md). Zelfstandige tegels bevatten: tekstvakken, afbeeldingen, video's, streaminggegevens en webinhoud.
 
@@ -43,7 +43,7 @@ Er zijn veel verschillende manieren om een tegel toe te voegen (vastmaken) aan e
 * [Excel-werkmap in OneDrive voor Bedrijven](service-dashboard-pin-tile-from-excel.md)
 * [Power BI Publisher voor Excel](publisher-for-excel.md)
 * [Snelle inzichten](service-insights.md)
-* [SSRS](https://msdn.microsoft.com/library/mt604784.aspx)
+* [Reporting Services](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 Zelfstandige tegels voor afbeeldingen, tekstvakken, video's, streaminggegevens en webinhoud kunnen rechtstreeks op het dashboard worden gemaakt met [Tegel toevoegen](service-dashboard-add-widget.md).
 
@@ -78,7 +78,7 @@ Pak een tegel en [beweeg deze over het dashboard](service-dashboard-edit-tile.md
 3. Selecteer een leeg gebied op het canvas om het actiemenu te sluiten.
 
 ### <a name="select-click-a-tile"></a>Selecteer (klik op) een tegel
-Als u een tegel selecteert, hangt wat er daarna gebeurt af van de manier waarop de tegel is aangemaakt en of deze een [aangepaste koppeling](service-dashboard-edit-tile.md) heeft. Als de tegel een aangepaste koppeling heeft, wordt de koppeling geopend als u de tegel selecteert. Anders gaat u door het selecteren van de tegel naar het rapport, het Excel Online werkmap, het SSRS-rapport dat on-premises is of naar de Q&A-vraag die werd gebruikt om de tegel te maken.
+Wat er gebeurt nadat u een tegel selecteert, hangt af van de manier waarop u de tegel hebt gemaakt. Als de tegel een [aangepaste koppeling](service-dashboard-edit-tile.md) heeft, wordt de koppeling bovendien geopend als u de tegel selecteert. Anders gaat u door het selecteren van de tegel naar het rapport, de Excel Online-werkmap, het on-premises SSRS-rapport of naar de Q&A-vraag die is gebruikt om de tegel te maken.
 
 > [!NOTE]
 > Uitzondering hierop zijn videotegels die rechtstreeks op het dashboard zijn gemaakt met **Tegel toevoegen**. Als u een videotegel selecteert (die op deze manier is gemaakt), wordt de video direct op het dashboard afgespeeld.   
@@ -86,12 +86,13 @@ Als u een tegel selecteert, hangt wat er daarna gebeurt af van de manier waarop 
 > 
 
 ## <a name="considerations-and-troubleshooting"></a>Overwegingen en probleemoplossing
+
 * Als het rapport waarmee de visualisatie is gemaakt, niet is opgeslagen, leidt het selecteren van de tegel niet tot een actie.
-* Als de tegel is gemaakt vanuit een werkmap in Excel Online, en u hebt geen leesrechten voor deze werkmap, wordt door het selecteren van de tegel de werkmap niet in Excel Online geopend.
-* Voor tegels die direct op het dashboard zijn gemaakt met behulp van **Tegel toevoegen**, wordt als een aangepaste hyperlink is ingesteld, de URL geopend wanneer u de titel, subtitel en/of tegel selecteert.  Het selecteren van een van deze tegels die direct op het dashboard zijn gemaakt voor een afbeelding, webcode of tekstvak, leidt anders standaard niet tot een actie.
-* Als u geen machtiging hebt voor het rapport binnen SSRS en u een tegel selecteert die vanuit SSRS is gemaakt, wordt een pagina geproduceerd die aangeeft dat u geen toegang hebt (rsAccessDenied).
-* Als u geen toegang hebt tot het netwerk waar de SSRS-server zich bevindt en u een tegel selecteert die is gemaakt op basis van SQL Server Reporting Services, een pagina geproduceerd die aangeeft dat de server niet kan worden gevonden (HTTP 404). Uw apparaat heeft netwerktoegang tot de rapportserver nodig om het rapport te kunnen weergeven.
-* Als de oorspronkelijke visualisatie waarmee de tegel is gemaakt wijzigt, verandert de tegel niet.  Als u bijvoorbeeld een lijndiagram uit een rapport hebt vastgemaakt en u het lijndiagram vervolgens wijzigt in een staafdiagram, blijft de dashboardtegel een lijndiagram weergeven. De gegevens worden vernieuwd, maar het visualisatietype niet.
+* Als de tegel is gemaakt vanuit een werkmap in Excel Online, hebt u minimaal leesmachtigingen voor die werkmap nodig. Anders wordt de werkmap niet in Excel Online geopend als u de tegel selecteert.
+* Stel dat u rechtstreeks op het dashboard een tegel maakt met behulp van **Tegel toevoegen** en hiervoor een aangepaste hyperlink instelt. Als dit het geval is en u de titel, subtitel of tegel selecteert, wordt die URL geopend. Het selecteren van een tegel die rechtstreeks op het dashboard is gemaakt voor een afbeelding, webcode of tekstvak, leidt anders standaard niet tot een actie.
+* Als u geen machtiging hebt voor het rapport binnen Reporting Services en u een tegel selecteert die vanuit een Reporting Services-rapport is gemaakt, gaat u naar een pagina waarop wordt aangegeven dat u geen toegang hebt (rsAccessDenied).
+* Als u geen toegang hebt tot het netwerk waar de Reporting Services-server zich bevindt en u een tegel selecteert die is gemaakt op basis van Reporting Services, gaat u naar een pagina waarop wordt aangegeven dat de server niet kan worden gevonden (HTTP 404). Uw apparaat heeft netwerktoegang tot de rapportserver nodig om het rapport te kunnen weergeven.
+* Als de oorspronkelijke visualisatie waarmee de tegel is gemaakt wijzigt, verandert de tegel niet.  Als u bijvoorbeeld een lijndiagram uit een rapport vastmaakt en u het lijndiagram vervolgens wijzigt in een staafdiagram, blijft de dashboardtegel een lijndiagram weergeven. De gegevens worden vernieuwd, maar het visualisatietype niet.
 
 ## <a name="next-steps"></a>Volgende stappen
 [Kaart maken (tegel met grote cijfers) voor uw dashboard](power-bi-visualization-card.md)
