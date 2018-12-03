@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: c3ef18bf05c6a979e9fd0440b271afd5d8545a54
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: b144f3101606a58b2cd0b48db976a70477442d40
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452655"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670412"
 ---
 # <a name="power-bi-webinars"></a>Power BI-webinars
 
@@ -22,13 +22,7 @@ Registreer u voor onze komende live webinars of bekijk onze opgenomen sessies on
 
 ## <a name="upcoming-webinars"></a>Komende webinars
 
-**Proven Healthcare Solutions to Improve Both Patient Outcomes and Profitability** (Bewezen oplossingen in de gezondheidszorg voor het verbeteren van zowel patiëntuitkomsten als winstgevendheid)
-<br>door Stephen Cracknell en Stuart Macanliss van US Medical IT
-<br>*28 november 2018 11:00 uur - 12:00 uur PST*
-
-Gezondheidszorgorganisaties krijgen te maken met enorme hoeveelheden gegevens, die ze eerst moeten verwerken tot inzichten om vervolgens op basis van deze inzichten actie te ondernemen. Meldt u aan voor dit webinar voor meer informatie over het ontwerpen van betekenisvolle gezondheidszorgrapporten waarmee uw organisatie gegevens kan transformeren tot nuttige patiëntinformatie. Krijg deskundige strategieën en advies van de oprichter en CEO van US Medical IT, Stephen Cracknell, directeur van Healthcare IT Stuart Macanliss en de in Texas gevestigde rheumatologist dr. John P. Lavery.
-
-[Registreer u voor de webinar op 28 november](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
+Er zijn nog geen webinars gepland. Houd deze pagina in de gaten voor meer geplande evenementen.
 
 >[Komende webinars van de Power BI-community](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
@@ -105,6 +99,10 @@ Vastgelegde sessies op elk gewenst moment bekijken
 <br>[Nu bekijken](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
 
 ### <a name="partners"></a>Partners ###
+
+**Proven Healthcare Solutions to Improve Both Patient Outcomes and Profitability** (Bewezen oplossingen in de gezondheidszorg voor het verbeteren van zowel patiëntuitkomsten als winstgevendheid)
+<br>door Stephen Cracknell en Stuart Macanliss van US Medical IT
+<br>[Registreren en nu bekijken](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
 
 **Verbeter uw BI met Location Intelligence**
 <br>door Scott Ball van Esri en Enrique Plaza van Microsoft

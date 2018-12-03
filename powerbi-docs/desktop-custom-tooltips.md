@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/17/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5dfd22f8b45253ece4ed8f699adec9abcaa1a8ed
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: faabacabbd20930f90187f4c21fe539d61b3d678
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721151"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578814"
 ---
 # <a name="customizing-tooltips-in-power-bi-desktop"></a>Knopinfo in Power BI Desktop aanpassen
 Knopinfo vormt een handige manier om meer contextuele informatie en details aan gegevenspunten in een visueel element te verstrekken. Op de volgende afbeelding wordt knopinfo weergegeven die is toegepast op een grafiek in Power BI Desktop.
