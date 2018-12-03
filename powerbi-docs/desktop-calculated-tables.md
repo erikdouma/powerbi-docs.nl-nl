@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: e35c842af47bac9dfd6667ecfa885a8df8a8785c
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: efb936a4fadbd45c3d9fce809963415bb27e321e
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39328092"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578469"
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>Berekende tabellen gebruiken in Power BI Desktop
 Met berekende tabellen kunt u een nieuwe tabel toevoegen aan het model. In dit geval laadt u echter geen query's en waarden in de kolommen van uw nieuwe tabel vanuit een gegevensbron, maar maakt u een DAX-formule (Data Analysis Expressions) die de waarden van de tabel definieert. In Power BI Desktop worden berekende tabellen gemaakt met behulp van de functie Nieuwe tabel in de rapportweergave of gegevensweergave.
@@ -65,7 +65,7 @@ Berekende tabellen kunnen worden gedefinieerd met een DAX-expressie die een tabe
 U kunt berekende tabellen met DAX gebruiken om veel analytische problemen op te lossen. We hebben hier slechts een korte inleiding over berekende tabellen gegeven. Als u gaat werken met berekende tabellen, zijn hier enkele van de meest voorkomende DAX-tabelfuncties die u mogelijk van pas komen:
 
 * DISTINCT
-* VALUES
+* WAARDEN
 * CROSSJOIN
 * UNION
 * NATURALINNERJOIN

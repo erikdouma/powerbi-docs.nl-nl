@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: tutorial
-ms.date: 05/21/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: b7aac59c9d3848db37211475cd82447d6359b459
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.openlocfilehash: ec90e63de1e42350ff205febdc66abf4ba6ee626
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "34456022"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578492"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Zelfstudie: Facebook-analyses met Power BI Desktop
 
@@ -39,7 +39,7 @@ Deze zelfstudie gebruikt gegevens van de [Microsoft Power BI Facebook-pagina](ht
    
 4. Typ of plak de naam van de pagina **microsoftbi** in het tekstvak **Gebruikersnaam**, selecteer **Berichten** in de vervolgkeuzelijst **Verbinding** en selecteer vervolgens **OK**.
    
-   ![Verbinding maken](media/desktop-tutorial-facebook-analytics/2.png)
+   ![Verbinden](media/desktop-tutorial-facebook-analytics/2.png)
    
 5. Wanneer u wordt gevraagd om referenties in te voeren, meldt u zich aan met uw Facebook-account en geeft u Power Bi toegang via uw account.
    

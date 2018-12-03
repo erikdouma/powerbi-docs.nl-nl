@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7937730988c651e32fb99e9c8eb9314b3a00785b
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 3ea3aa22a2ab76df115c1b4784d74dedfdf7dbf0
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39330001"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578653"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Aangepaste kolommen toevoegen in Power BI Desktop
 Met **Query-editor** in **Power BI Desktop** kunt u eenvoudig een nieuwe, aangepaste kolom met gegevens aan uw model toevoegen. De aangepaste kolom kan worden gemaakt en de naam ervan gewijzigd met behulp van handige knoppen om [M-formules](https://msdn.microsoft.com/library/mt270235.aspx) te maken waarmee de aangepaste kolom wordt gedefinieerd. De M-formule bevat een [uitgebreide naslag met functiebeschrijvingen](https://msdn.microsoft.com/library/mt779182.aspx) (Engelstalig). 

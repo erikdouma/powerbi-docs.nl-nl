@@ -20,6 +20,7 @@
 | SAP HANA |Ja |Ja |
 | SharePoint-lijst (on-premises) |Nee |Ja |
 | Snowflake |Ja |Ja |
+| Spark |Ja |Ja |
 | SQL Server |Ja |Ja |
 | Sybase |Nee |Ja |
 | Teradata |Ja |Ja |
