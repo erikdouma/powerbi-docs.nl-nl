@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 327ba72c46aa5a6a2edea723bd5450cd5bbbcdb4
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 3a0ef369aa690044dbef9c4ef0cda070565b9922
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187324"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829890"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>De Power BI-service of Power BI Desktop gebruiken om een aangepaste antwoordpagina voor Cortana te maken
 Gebruik de volledige mogelijkheden van Power BI om speciale rapportpagina’s te maken, genaamd *Cortana-antwoordpagina’s* (soms *Cortana-antwoordkaarten*) die specifiek zijn ontworpen om vragen over Cortana te beantwoorden.
@@ -41,7 +41,7 @@ U hebt 4 documenten die u bij het installeren en gebruik van Cortana voor Power 
 ## <a name="create-a-cortana-answer-page-designed-specifically-for-cortana"></a>Een Cortana-antwoordpagina maken die speciaal is ontworpen voor Cortana
 Een *Cortana-antwoordpagina* in een rapport heeft een formaat dat specifiek is afgestemd op Cortana zodat het in een Cortana-scherm kan worden weergegeven als een antwoord op een vraag. U maakt als volgt een antwoordpagina voor Cortana:
 
-1. U kunt het beste beginnen met een [lege rapportpagina](power-bi-report-add-page.md).
+1. U kunt het beste beginnen met een lege rapportpagina.
 2. Selecteer in het venster **Visualisaties** het verfroller-pictogram en kies **Paginagrootte** > **Type** > **Cortana**.
    
     ![](media/service-cortana-answer-cards/pbi-cortana-page-size-new.png)

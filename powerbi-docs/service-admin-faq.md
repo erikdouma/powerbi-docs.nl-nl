@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4379caf909360688e602601795066f51c9660633
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: fe81c8e972a4fe36f88da495e4e0dce97a39d32c
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157075"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830304"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI beheren: veelgestelde vragen
 
@@ -174,11 +174,15 @@ Om toegang te krijgen tot het Power BI-beheerportal, moet uw account zijn ingest
 
 ### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>Wat is het proces voor het beheren van een tenant die door Microsoft voor mijn gebruikers is gemaakt?
 
-Als een tenant is gemaakt door Microsoft, kunt u deze claimen en beheren met behulp van de volgende stappen:
+Wanneer een selfservicegebruiker zich aanmeldt voor een cloudservice die gebruikmaakt van Azure AD, wordt de gebruiker toegevoegd aan een onbeheerde Azure AD-directory op basis van zijn e-maildomein. U kunt de tenant (die is gemaakt in een proces dat bekendstaat als *beheerdersovername*) claimen en beheren. Welk type overname u uitvoert, hangt af van het gegeven of er aan uw domein al een bestaande beheerde tenant is gekoppeld:
 
-1. Word lid van de tenant door u te registeren voor Power BI met een e-mailadresdomein dat overeenkomt met het tenantdomein dat u wilt beheren. Als Microsoft bijvoorbeeld de tenant contoso.com heeft gemaakt, wordt u lid van de tenant met een e-mailadres dat eindigt op @contoso.com.
+* Voer een *interne overname* uit om een nieuwe beheerde tenant voor het domein te maken.
 
-1. Claim beheerrechten door te verifiëren dat u het domein bezit: zodra u lid bent van de tenant, kunt u uzelf de rol *Globale beheerder* geven door het eigendom van het domein te verifiëren. U kunt dit doen door de stappen in de [Office 365-documentatie](/office365/admin/misc/become-the-admin) te volgen.
+* Voer een *externe overname* uit om het domein naar een bestaande beheerde tenant te verplaatsen.
+
+Raadpleeg [Een onbeheerde directory overnemen als beheerder in Azure Active Directory](/azure/active-directory/users-groups-roles/domains-admin-takeover) voor meer informatie.
+
+Wanneer u een externe overname uitvoert, wordt Power BI-inhoud die vóór de overname is gemaakt, geplaatst in een [gearchiveerde Power BI-werkruimte](service-admin-power-bi-archived-workspace.md). Inhoud die u wilt gebruiken in de nieuwe tenant, moet u handmatig migreren.
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to"></a>Kan ik beheren aan welke Office 365-tenant gebruikers worden toegevoegd, als ik meerdere domeinen heb?
 
