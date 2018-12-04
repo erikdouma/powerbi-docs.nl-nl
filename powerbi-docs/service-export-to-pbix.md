@@ -1,21 +1,21 @@
 ---
 title: Een rapport uit Power BI-service exporteren naar Desktop (preview-versie)
 description: Een rapport van de Power BI-service downloaden naar een Power BI Desktop-bestand
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/02/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 2f7133bb376cc04e181eed2d90a45e3361190d0b
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 3e1a87b1ec2439b2f72ba07009ca8d6dd6cf5c40
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547016"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830350"
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Een rapport vanuit de Power BI-service exporteren naar Desktop (preview-versie)
 In Power BI Desktop kunt u een rapport exporteren (ook wel *downloaden* genoemd) naar de Power BI-service door het rapport op te slaan en **Publiceren** te kiezen. U kunt ook de andere kant op exporteren en een rapport downloaden van de Power BI-service naar Desktop. De extensie voor bestanden die worden geëxporteerd in beide richtingen is *.pbix*.

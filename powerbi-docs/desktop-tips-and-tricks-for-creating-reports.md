@@ -1,7 +1,7 @@
 ---
 title: Tips en trucs voor het maken van rapporten in Power BI
 description: Tips en trucs voor het maken van rapporten in de Power BI-service en Power BI Desktop
-author: mihart
+author: davidi
 manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
-ms.openlocfilehash: 13324ca27ae1c77f6ea735bb71b1081587cc413d
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: ae1c54ee0c5c5de54fc5069f7215c39175cedf8d
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670329"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830281"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Tips en trucs voor het maken van rapporten in Power BI Desktop
 Als uw gegevens optimaal te kunnen gebruiken, hebt u soms wat extra hulp nodig. We hebben een aantal tips en trucs voor u verzameld om u te helpen bij het maken van rapporten in Microsoft Power BI Desktop *en* in Pro-Plus-edities van Microsoft Excel 2016 of Excel 2013 waar de Power Pivot-invoegtoepassing is ingeschakeld en Power Query is geïnstalleerd en ingeschakeld. 

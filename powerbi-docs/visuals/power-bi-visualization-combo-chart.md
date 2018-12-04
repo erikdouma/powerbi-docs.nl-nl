@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1855b65277fe778a20bd9e4629f8db1e7b9000a3
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: 5d2a33b8dc50a4a30bb79406462f1342953528d9
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448955"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830373"
 ---
 # <a name="combo-chart-in-power-bi"></a>Combinatiegrafieken in Power BI
 Een combinatiegrafiek in Power BI is een visualisatie waarin een lijndiagram wordt gecombineerd met een kolomdiagram. Als u deze twee diagrammen combineert, kunt u de gegevens sneller vergelijken.
@@ -45,7 +45,7 @@ Kijk hoe Will een combinatiegrafiek maakt op basis van het voorbeeld van verkoop
 
 1. Selecteer op het dashboard Voorbeeld van een retailanalyse de tegel **Totaal aantal winkels** om het rapport Voorbeeld van een retailanalyse te openen.
 2. Selecteer **Rapport bewerken** om het rapport in de bewerkingsweergave te openen.
-3. [Voeg een nieuwe rapportpagina toe](../power-bi-report-add-page.md).
+3. Voeg een nieuwe rapportpagina toe.
 4. Maak een kolomdiagram waarin de omzet voor dit jaar en de brutomarge marge per maand wordt weergegeven.
 
     a.  Selecteer in het deelvenster Velden achtereenvolgens **Verkoop** \> **Omzet dit jaar** > **Waarde**.
