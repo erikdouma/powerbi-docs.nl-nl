@@ -282,6 +282,8 @@ items:
         href: desktop-create-phone-report.md
       - name: See data en See records gebruiken
         href: desktop-see-data-see-records.md
+      - name: Tips voor het maken van rapporten
+        href: desktop-tips-and-tricks-for-creating-reports.md
     - name: Visualisaties
       items:
       - name: Aanbevolen procedures voor visualisaties
@@ -312,7 +314,7 @@ items:
         href: power-bi-reports-add-text-and-shapes.md
       - name: De eigenschappen van de X-as en Y-as aanpassen
         href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
-      - name: ArcGIS in Power BI
+      - name: ArcGIS-kaarten in Power BI
         href: power-bi-visualization-arcgis.md
       - name: Eenvoudig vlakdiagram
         href: visuals/power-bi-visualization-basic-area-chart.md
@@ -346,6 +348,8 @@ items:
         href: visuals/power-bi-visualization-treemaps.md
       - name: Watervalgrafieken in Power BI
         href: visuals/power-bi-visualization-waterfall-charts.md
+      - name: Dynamische referentielijnen maken
+        href: service-analytics-pane.md
     - name: Problemen oplossen
       items:
       - name: Problemen oplossen met het importeren van Access-databases en Excel-spreadsheets in Power BI Desktop en Power Query
@@ -382,10 +386,10 @@ items:
       href: power-bi-overview.md
   - name: Zelfstudies
     items:
-    - name: Verbinding maken met een GitHub-voorbeeld
-      href: service-tutorial-connect-to-github.md
     - name: Aan de slag met Power BI
       href: service-get-started.md
+    - name: Verbinding maken met een GitHub-voorbeeld
+      href: service-tutorial-connect-to-github.md
   - name: Concepten
     items:
     - name: Wat is er nieuw in de Power BI-service
@@ -644,40 +648,28 @@ items:
         href: service-dashboard-themes.md
     - name: Rapporten
       items:
-      - name: Een nieuw rapport maken van een bestaand rapport
-        href: power-bi-report-copy.md
-      - name: Een pagina aan een rapport toevoegen
-        href: power-bi-report-add-page.md
+      - name: Een nieuw rapport maken van een gegevensset
+        href: service-report-create-new.md
       - name: Een filter aan een rapport toevoegen
         href: power-bi-report-add-filter.md
       - name: Een rapport opslaan in Power BI
         href: service-report-save.md
-      - name: Een nieuw rapport maken van een gegevensset
-        href: service-report-create-new.md
       - name: Interactie met een rapport in de bewerkweergave
         href: service-interact-with-a-report-in-editing-view.md
       - name: In Excel analyseren
         href: service-analyze-in-excel.md
       - name: Tips en trucs voor het maken van rapporten
         href: power-bi-reports-tips-and-tricks-for-creating.md
-      - name: Het deelvenster Analyse
-        href: service-analytics-pane.md
       - name: Metrische gegevens over het gebruik van rapporten
         href: service-usage-metrics.md
       - name: Een QR-code voor een rapport maken
         href: service-create-qr-code-for-report.md
-      - name: Pagina's opnieuw ordenen in een rapport
-        href: service-report-reorder-pages.md
-      - name: Een rapportpagina dupliceren
-        href: power-bi-report-copy-paste-page.md
       - name: Een rapport vanuit de service exporteren naar Power BI Desktop (preview-versie)
         href: service-export-to-pbix.md
       - name: Een rapport filteren met parameters in de URL
         href: service-url-filters.md
       - name: Aanbevolen procedures voor het snel maken van betrouwbare rapporten
         href: power-bi-reports-performance.md
-      - name: Interactie met ArcGIS-kaarten
-        href: visuals/power-bi-visualizations-arcgis.md
     - name: Vragen stellen over uw gegevens
       items:
       - name: Q&A gebruiken om visualisaties en rapporten te maken
@@ -792,6 +784,30 @@ items:
         href: service-dataflows-developer-resources.md
       - name: Verbinding maken met gegevensstromen in Power BI Desktop
         href: desktop-connect-dataflows.md
+    - name: Gepagineerde rapporten in Power BI
+      items:
+      - name: Wat zijn gepagineerde rapporten? (Voorbeeld)
+        href: paginated-reports-report-builder-power-bi.md
+      - name: Veelgestelde vragen over gepagineerde rapporten
+        href: paginated-reports-faq.md
+      - name: Een gepagineerd rapport maken en uploaden
+        href: paginated-reports-quickstart-aw.md
+      - name: Navigeren in de ontwerpweergave van een rapport
+        href: paginated-reports-report-design-view.md
+      - name: Gegevens rechtstreeks in een gepagineerd rapport invoeren
+        href: paginated-reports-enter-data.md
+      - name: Een ingesloten gegevensbron maken
+        href: paginated-reports-embedded-data-source.md
+      - name: Een ingesloten gegevensset maken
+        href: paginated-reports-create-embedded-dataset.md
+      - name: Parameters maken
+        href: paginated-reports-parameters.md
+      - name: Een gepagineerd rapport publiceren
+        href: paginated-reports-save-to-power-bi-service.md
+      - name: Gepagineerd rapport bekijken
+        href: paginated-reports-view-power-bi-service.md
+      - name: Interactie met parameters
+        href: paginated-reports-view-parameters.md
   - name: Resources
     items:
     - name: Video's
@@ -802,38 +818,6 @@ items:
       href: supported-languages-countries-regions.md
     - name: Whitepapers
       href: whitepapers.md
-- name: Gepagineerde rapporten in Power BI
-  items:
-  - name: Overzicht
-    items:
-    - name: Wat zijn gepagineerde rapporten? (Voorbeeld)
-      href: paginated-reports-report-builder-power-bi.md
-  - name: Zelfstudies
-    items:
-    - name: Een gepagineerd rapport maken en uploaden
-      href: paginated-reports-quickstart-aw.md
-  - name: Concepten
-    items:
-    - name: Navigeren in de ontwerpweergave van een rapport
-      href: paginated-reports-report-design-view.md
-    - name: Veelgestelde vragen over gepagineerde rapporten
-      href: paginated-reports-faq.md
-  - name: Procedures
-    items:
-    - name: Gegevens rechtstreeks in een gepagineerd rapport invoeren
-      href: paginated-reports-enter-data.md
-    - name: Een ingesloten gegevensbron maken
-      href: paginated-reports-embedded-data-source.md
-    - name: Een ingesloten gegevensset maken
-      href: paginated-reports-create-embedded-dataset.md
-    - name: Parameters maken
-      href: paginated-reports-parameters.md
-    - name: Een gepagineerd rapport publiceren
-      href: paginated-reports-save-to-power-bi-service.md
-    - name: Gepagineerd rapport bekijken
-      href: paginated-reports-view-power-bi-service.md
-    - name: Interactie met parameters
-      href: paginated-reports-view-parameters.md
 - name: Power BI voor ontwikkelaars
   items:
   - name: Wat kunnen ontwikkelaars doen met Power BI?
@@ -1265,9 +1249,9 @@ items:
       href: service-admin-governance.md
     - name: Beveiliging van Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: d6dd88caff9e0f2cdef7f7697c81161fe32c0b35
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: a9156a07a1677c5cac424eef7349949bd47e79e0
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331845"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830396"
