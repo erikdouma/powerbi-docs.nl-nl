@@ -444,22 +444,10 @@ items:
         href: service-power-bi-get-started-third-party-apps.md
   - name: Procedures
     items:
-    - name: Algemene taken
-      items:
-      - name: De naam van inhoud in Power BI wijzigen
-        href: service-rename.md
-      - name: Snelle inzichten in Power BI
-        href: service-insights.md
-      - name: Registreren van uw Amerikaanse overheidsorganisatie
-        href: service-govus-signup.md
-      - name: Gegevenswaarschuwingen in de Power BI-service
-        href: service-set-data-alerts.md
-      - name: Aan de slag met Power BI Q&A
-        href: power-bi-visualization-introduction-to-q-and-a.md
-      - name: Vrijwel alles verwijderen in Power BI
-        href: service-delete.md
     - name: Verbinding maken met services
       items:
+      - name: Verbinding maken met services
+        href: service-connect-to-services.md
       - name: Acumatica
         href: service-connect-to-acumatica.md
       - name: Adobe Analytics
@@ -574,7 +562,7 @@ items:
         href: service-parameters.md
       - name: Gegevens ophalen uit CSV-bestanden (bestand met door komma's gescheiden waarden)
         href: service-comma-separated-value-files.md
-      - name: Realtime streaming in Power BI (preview)
+      - name: Realtimestreaming in Power BI
         href: service-real-time-streaming.md
       - name: Vanuit Excel 2016 publiceren naar Power BI
         href: service-publish-from-excel.md
@@ -626,6 +614,8 @@ items:
         href: service-dashboard-pin-tile-from-q-and-a.md
       - name: Een volledige rapportpagina vastmaken aan een dashboard
         href: service-dashboard-pin-live-tile-from-report.md
+      - name: Gegevenswaarschuwingen in de Power BI-service
+        href: service-set-data-alerts.md
       - name: Metrische gegevens over het gebruik van dashboards
         href: service-usage-metrics.md
       - name: Een afbeelding, tekstvak, video of code toevoegen aan een dashboard
@@ -634,8 +624,6 @@ items:
         href: service-dashboard-edit-tile.md
       - name: Tips voor het ontwerpen van een geweldig dashboard
         href: service-dashboards-design-tips.md
-      - name: Uw gegevens optimaliseren voor snelle inzichten
-        href: service-insights-optimize.md
       - name: Een telefoonweergave van een dashboard maken
         href: service-create-dashboard-mobile-phone-view.md
       - name: Een QR-code voor een tegel maken
@@ -648,7 +636,7 @@ items:
         href: service-dashboard-themes.md
     - name: Rapporten
       items:
-      - name: Een nieuw rapport maken van een gegevensset
+      - name: Een rapport maken van een gegevensset
         href: service-report-create-new.md
       - name: Een filter aan een rapport toevoegen
         href: power-bi-report-add-filter.md
@@ -664,7 +652,7 @@ items:
         href: service-usage-metrics.md
       - name: Een QR-code voor een rapport maken
         href: service-create-qr-code-for-report.md
-      - name: Een rapport vanuit de service exporteren naar Power BI Desktop (preview-versie)
+      - name: Een rapport exporteren naar Power BI Desktop (preview)
         href: service-export-to-pbix.md
       - name: Een rapport filteren met parameters in de URL
         href: service-url-filters.md
@@ -672,18 +660,24 @@ items:
         href: power-bi-reports-performance.md
     - name: Vragen stellen over uw gegevens
       items:
+      - name: Aan de slag met Power BI Q&A
+        href: power-bi-visualization-introduction-to-q-and-a.md
       - name: Q&A gebruiken om visualisaties en rapporten te maken
         href: power-bi-tutorial-q-and-a.md
       - name: Uw gegevens geschikt maken voor Q&A
         href: service-prepare-data-for-q-and-a.md
-      - name: Cortana inschakelen voor Power BI
-        href: service-cortana-enable.md
       - name: Aanbevolen vragen voor Q&A
         href: service-q-and-a-create-featured-questions.md
-      - name: Typen visualisaties in Power BI
+      - name: Visualisatietypen in Q&A
         href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
       - name: Q&A gebruiken met liveverbindingen
         href: service-q-and-a-direct-query.md
+      - name: Cortana inschakelen voor Power BI
+        href: service-cortana-enable.md
+      - name: Snelle inzichten in Power BI
+        href: service-insights.md
+      - name: Uw gegevens optimaliseren voor snelle inzichten
+        href: service-insights-optimize.md
     - name: Uw werk delen
       items:
       - name: Hoe kan ik samenwerken en inhoud delen?
@@ -710,28 +704,6 @@ items:
         href: service-manage-app-workspace-in-power-bi-and-office-365.md
       - name: Een dashboard delen dat is gekoppeld aan een Excel-werkmap in OneDrive
         href: service-share-dashboard-that-links-to-excel-onedrive.md
-    - name: Inhoudspakketten
-      items:
-      - name: Organisatie-inhoudspakketten beheren, bijwerken en verwijderen
-        href: service-organizational-content-pack-manage-update-delete.md
-      - name: 'Organisatie-inhoudspakketten: kopiëren, vernieuwen en toegang verkrijgen'
-        href: service-organizational-content-pack-copy-refresh-access.md
-      - name: 'Organisatie-inhoudspakketten: inleiding'
-        href: service-organizational-content-pack-introduction.md
-      - name: Organisatie-inhoudspakketten maken en publiceren
-        href: service-organizational-content-pack-create-and-publish.md
-      - name: De verbinding met een organisatie-inhoudspakket verwijderen
-        href: service-organizational-content-pack-disconnect.md
-      - name: Certificering
-        items:
-        - name: Certificeringsprogramma voor inhoudspakketten
-          href: service-content-pack-overview.md
-        - name: Sjablooninhoudspakket ontwerpen
-          href: template-content-pack-authoring.md
-        - name: Sjablooninhoudspakket testen
-          href: template-content-pack-testing.md
-        - name: Ervaringen met sjablooninhoudspakketten
-          href: template-content-pack-experience.md
     - name: Publiceren
       items:
       - name: Power BI Publisher voor Excel
@@ -788,26 +760,56 @@ items:
       items:
       - name: Wat zijn gepagineerde rapporten? (Voorbeeld)
         href: paginated-reports-report-builder-power-bi.md
-      - name: Veelgestelde vragen over gepagineerde rapporten
+      - name: Veelgestelde vragen over gepagineerde rapporten (preview)
         href: paginated-reports-faq.md
-      - name: Een gepagineerd rapport maken en uploaden
+      - name: Een gepagineerd rapport maken en uploaden (preview)
         href: paginated-reports-quickstart-aw.md
-      - name: Navigeren in de ontwerpweergave van een rapport
+      - name: Navigeren in de ontwerpweergave van een rapport (preview)
         href: paginated-reports-report-design-view.md
-      - name: Gegevens rechtstreeks in een gepagineerd rapport invoeren
+      - name: Gegevens rechtstreeks in een gepagineerd rapport invoeren (preview)
         href: paginated-reports-enter-data.md
-      - name: Een ingesloten gegevensbron maken
+      - name: Een ingesloten gegevensbron maken (preview)
         href: paginated-reports-embedded-data-source.md
-      - name: Een ingesloten gegevensset maken
+      - name: Een ingesloten gegevensset maken (preview)
         href: paginated-reports-create-embedded-dataset.md
-      - name: Parameters maken
+      - name: Parameters maken (preview)
         href: paginated-reports-parameters.md
-      - name: Een gepagineerd rapport publiceren
+      - name: Een gepagineerd rapport publiceren (preview)
         href: paginated-reports-save-to-power-bi-service.md
-      - name: Gepagineerd rapport bekijken
+      - name: Een gepagineerd rapport weergeven (preview)
         href: paginated-reports-view-power-bi-service.md
-      - name: Interactie met parameters
+      - name: Interactie met parameters (preview)
         href: paginated-reports-view-parameters.md
+    - name: Overige taken
+      items:
+      - name: De naam van inhoud in Power BI wijzigen
+        href: service-rename.md
+      - name: Registreren van uw Amerikaanse overheidsorganisatie
+        href: service-govus-signup.md
+      - name: Vrijwel alles verwijderen in Power BI
+        href: service-delete.md
+      - name: Inhoudspakketten
+        items:
+        - name: Organisatie-inhoudspakketten beheren, bijwerken en verwijderen
+          href: service-organizational-content-pack-manage-update-delete.md
+        - name: 'Organisatie-inhoudspakketten: kopiëren, vernieuwen en toegang verkrijgen'
+          href: service-organizational-content-pack-copy-refresh-access.md
+        - name: 'Organisatie-inhoudspakketten: inleiding'
+          href: service-organizational-content-pack-introduction.md
+        - name: Organisatie-inhoudspakketten maken en publiceren
+          href: service-organizational-content-pack-create-and-publish.md
+        - name: De verbinding met een organisatie-inhoudspakket verwijderen
+          href: service-organizational-content-pack-disconnect.md
+        - name: Certificering
+          items:
+          - name: Certificeringsprogramma voor inhoudspakketten
+            href: service-content-pack-overview.md
+          - name: Sjablooninhoudspakket ontwerpen
+            href: template-content-pack-authoring.md
+          - name: Sjablooninhoudspakket testen
+            href: template-content-pack-testing.md
+          - name: Ervaringen met sjablooninhoudspakketten
+            href: template-content-pack-experience.md
   - name: Resources
     items:
     - name: Video's
@@ -1249,9 +1251,9 @@ items:
       href: service-admin-governance.md
     - name: Beveiliging van Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: a9156a07a1677c5cac424eef7349949bd47e79e0
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 83446170e1ee29cdf2e2d2f1298a37c58e255f1b
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830396"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900377"
