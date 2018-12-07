@@ -1,5 +1,5 @@
 ---
-title: Ingesloten gegevensbronnen voor gepagineerde rapporten in de Power BI-service | Microsoft Docs
+title: Ingesloten gegevensbronnen voor gepagineerde rapporten in de Power BI-service (preview)
 description: In dit artikel leert u hoe u een ingesloten gegevensbron maakt en wijzigt in een gepagineerd rapport in de Power BI-service.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: f3e305f70bb21011bbb395d453721ef65011844c
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 3c1340d9cae7e7002e8bbbdc3d6888e19b1ce7ff
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51267378"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900193"
 ---
-# <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Een ingesloten gegevensbron voor gepagineerde rapporten maken in de Power BI-service
+# <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service-preview"></a>Een ingesloten gegevensbron voor gepagineerde rapporten maken in de Power BI-service (preview)
 In dit artikel leert u hoe u een ingesloten gegevensbron maakt en wijzigt voor een gepagineerd rapport in de Power BI-service. U definieert een ingesloten gegevensbron in een specifiek rapport en gebruikt de bron vervolgens alleen in dat rapport. Momenteel zijn voor rapporten die in de Power BI-service zijn gepubliceerd, ingesloten gegevenssets en ingesloten gegevensbronnen nodig. Gepagineerde rapporten kunnen worden verbonden met deze gegevensbronnen:
 
 - Azure SQL Database en Data Warehouse

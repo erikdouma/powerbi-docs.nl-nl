@@ -1,5 +1,5 @@
 ---
-title: Een gepagineerd rapport weergeven in de Power BI-service | Microsoft Docs
+title: Een gepagineerd rapport weergeven in de Power BI-service (preview)
 description: In deze zelfstudie leert u hoe u gepagineerde rapporten kunt weergeven in de Power BI-service.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: db067a2e81aa62febc952ce50ce4a3e82ef38b76
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 874fe08622dfcbd65463a016e87d1687b6938276
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51267198"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900308"
 ---
-# <a name="view-a-paginated-report-in-the-power-bi-service"></a>Een gepagineerd rapport weergeven in de Power BI-service
+# <a name="view-a-paginated-report-in-the-power-bi-service-preview"></a>Een gepagineerd rapport weergeven in de Power BI-service (preview)
 
 In dit artikel leert u hoe u gepagineerde rapporten kunt weergeven in de Power BI-service. Gepagineerde rapporten zijn rapporten die zijn gemaakt in Report Builder en geüpload naar een werkruimte in een Premium-capaciteit. Ga naar het ruitvormige pictogram ![Ruitvormig pictogram voor de Power BI Premium-capaciteit](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) naast de naam van een werkruimte. 
 
@@ -55,4 +55,4 @@ U kunt gepagineerde rapporten ook exporteren in een aantal indelingen:
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[Wat zijn gepagineerde rapporten in Power BI Premium? (preview)](paginated-reports-report-builder-power-bi.md)
+[Wat zijn gepagineerde rapporten in Power BI Premium? (Preview)](paginated-reports-report-builder-power-bi.md)

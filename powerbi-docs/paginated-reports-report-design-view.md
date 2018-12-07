@@ -1,5 +1,5 @@
 ---
-title: Navigeren in de ontwerpweergave voor rapporten voor gepagineerde rapporten - Power BI | Microsoft Docs
+title: Navigeren in de ontwerpweergave voor rapporten voor gepagineerde rapporten (preview)
 description: De ontwerpweergave voor rapporten in Report Builder is het ontwerpoppervlak voor het maken van gepagineerde rapporten die u kunt publiceren in de Power BI-service.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: de3919903a3df4fdc5b0e167069b3035204761ff
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: dc811c5f6c6a7d5d428591eb7afd1665cda6dbb0
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51267322"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900446"
 ---
-# <a name="getting-around-in-report-design-view-for-paginated-reports"></a>Navigeren in de ontwerpweergave voor rapporten voor gepagineerde rapporten
+# <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>Navigeren in de ontwerpweergave voor rapporten voor gepagineerde rapporten (preview)
 
 De ontwerpweergave voor rapporten in Report Builder is het ontwerpoppervlak voor het maken van gepagineerde rapporten die u kunt publiceren in de Power BI-service. Het ontwerpoppervlak bevindt zich in het midden van Report Builder, met het lint en deelvensters eromheen. Het ontwerpoppervlak is waar u rapportitems toevoegt en ordent. In dit artikel worden de deelvensters beschreven die u gebruikt voor het toevoegen, selecteren en ordenen van de rapportbronnen, en voor het wijzigen van eigenschappen van rapportitems.  
 
@@ -109,7 +109,7 @@ De statusbalk voor het huidige rapport bevat de naam van de server waarmee het r
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[Wat zijn gepagineerde rapporten in Power BI Premium? (preview)](paginated-reports-report-builder-power-bi.md) 
+[Wat zijn gepagineerde rapporten in Power BI Premium? (Preview)](paginated-reports-report-builder-power-bi.md) 
 
   
   

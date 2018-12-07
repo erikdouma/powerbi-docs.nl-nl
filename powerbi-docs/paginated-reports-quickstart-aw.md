@@ -1,5 +1,5 @@
 ---
-title: 'Zelfstudie: een gepagineerd rapport maken en uploaden naar de Power BI-service | Microsoft Docs'
+title: 'Zelfstudie: een gepagineerd rapport maken en uploaden naar de Power BI-service (preview)'
 description: In deze zelfstudie maakt u verbinding met een Azure SQL-voorbeelddatabase. Vervolgens gebruikt u een wizard in Report Builder om een gepagineerd rapport te maken. Daarna uploadt u het gepagineerde rapport naar een werkruimte in een Premium-capaciteit in de Power BI-service.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
 ms.author: maggies
-ms.openlocfilehash: b057fd14083cdabff96d9821d1399da07b93556b
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: fbeb617207c13459fe88487547609323391487e2
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452819"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900607"
 ---
-# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Zelfstudie: een gepagineerd rapport maken en uploaden naar de Power BI-service
+# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service-preview"></a>Zelfstudie: een gepagineerd rapport maken en uploaden naar de Power BI-service (preview)
 
 In deze zelfstudie maakt u verbinding met een Azure SQL-voorbeelddatabase. Vervolgens gebruikt u een wizard in Report Builder om een gepagineerd rapport te maken met een tabel die doorloopt over meerdere pagina's. Daarna uploadt u het gepagineerde rapport naar een werkruimte in een Premium-capaciteit in de Power BI-service. Gepagineerde rapporten zijn beschikbaar in de Power BI-service (preview).
 
