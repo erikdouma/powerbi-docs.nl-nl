@@ -4,25 +4,26 @@ description: Informatie over het groeperen en binnen van elementen in Power BI D
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6363cbe3afdce351acc728fe29af8662702b8254
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 64ec167a295255a6813244ef6cb222b4eccb50f3
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670688"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025228"
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>Groeperen en binning in Power BI Desktop gebruiken
 Als in **Power BI Desktop** visuals worden gemaakt, worden uw gegevens in segmenten (of groepen) geaggregeerd op basis van waarden die in de onderliggende gegevens worden aangetroffen. Dat gaat vaak goed, maar het kan voorkomen dat u de manier waarop deze segmenten worden gepresenteerd, wilt verfijnen. Stel dat u drie categorieën met producten in één grotere categorie wilt onderbrengen (één *groep*). Of u wilt bijvoorbeeld verkoopcijfers zien in groepen van 1.000.000 euro in plaats van in gelijkmatige delen van 923.983 euro.
 
 In Power BI Desktop kunt u gegevenspunten **groeperen**, zodat u gegevens en trends in uw visuals beter kunt weergeven, analyseren en onderzoeken. U kunt ook de **grootte van de opslaglocatie** definiëren, meestal *binning* genoemd, zodat u waarden in groepen van gelijke grootte kunt plaatsen. Op die manier kunt u uw gegevens beter en zinvoller visualiseren.
 
-### <a name="using-grouping"></a>Groeperen
+## <a name="using-grouping"></a>Groeperen
 Als u groeperen wilt gebruiken, selecteert u twee of meer elementen van een visual. Gebruik Ctrl+klikken om meerdere elementen te selecteren. Klik vervolgens met de rechtermuisknop op een van de elementen uit de meervoudige selectie en selecteer **Groeperen** in het menu dat wordt weergegeven.
 
 ![](media/desktop-grouping-and-binning/grouping-binning_1.png)
@@ -45,10 +46,8 @@ U kunt een niet-gegroepeerde waarde aan een bestaande groep toevoegen. Selecteer
 
 > [!NOTE]
 > U kunt groepen maken voor elk veld in het veld **Velden**, zonder dat u een meervoudige selectie op een bestaand visueel element hoeft uit te voeren. Klik met de rechtermuisknop in het veld en selecteer **Nieuwe groep** in het menu dat wordt weergegeven.
-> 
-> 
 
-### <a name="using-binning"></a>Binning
+## <a name="using-binning"></a>Binning
 In **Power BI Desktop** kunt u de grootte van de opslaglocatie voor numerieke en tijdvelden instellen. U kunt binning gebruiken om de gegevens die in **Power BI Desktop** worden weergegeven de juiste grootte te geven.
 
 Als u een opslaglocatie een bepaalde grootte wilt geven, klikt u met de rechtermuisknop op een **veld** en selecteert u **Nieuwe groep**.

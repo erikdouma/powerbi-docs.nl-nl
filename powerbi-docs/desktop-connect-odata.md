@@ -4,18 +4,19 @@ description: Eenvoudig verbinding maken met een OData-feed in Power BI Desktop e
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6cffff89a8c0086cbd7c7e229b4e678052fe6c70
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: a0aa658aedb3599d7962e08289b306bf0f24028e
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669475"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025207"
 ---
 # <a name="connect-to-odata-feeds-in-power-bi-desktop"></a>Verbinding maken met OData-feeds in Power BI Desktop
 In Power BI Desktop kunt u verbinding maken met een **OData-feed** en gebruikmaken van de onderliggende gegevens, net zoals elke andere gegevensbron in Power BI Desktop.
@@ -46,7 +47,7 @@ Dat is alles.
 
 U bent nu klaar om de geïmporteerde gegevens uit de OData-feed in Power BI Desktop te gebruiken om visuele elementen of rapporten te maken of te werken met andere gegevens waarmee u verbinding wilt maken en importeren, zoals andere Excel-werkmappen, databases of een andere gegevensbron.
 
-### <a name="next-steps"></a>Volgende stappen
+## <a name="next-steps"></a>Volgende stappen
 Met Power BI Desktop kunt u verbinding maken met allerlei andere gegevens. Bekijk de volgende bronnen voor meer informatie over gegevensbronnen:
 
 * [Wat is Power BI Desktop?](desktop-what-is-desktop.md)

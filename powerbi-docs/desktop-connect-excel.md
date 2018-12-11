@@ -4,18 +4,19 @@ description: Eenvoudig verbinding maken met gegevens uit een Excel-werkmap in Po
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 36c01851138ae8b8e74acd60b39f5b358e20e392
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: cff8950526393fd2243dbe5a4a8dcc16fcc44821
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669055"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025237"
 ---
 # <a name="connect-to-excel-in-power-bi-desktop"></a>Verbinding maken met Excel in Power BI Desktop
 Verbinding maken met een Excel-werkmap vanuit Power BI Desktop is erg eenvoudig. Dit artikel begeleidt u stapsgewijs door de procedure.
@@ -45,7 +46,7 @@ Dat is alles.
 
 U bent nu klaar om de geïmporteerde gegevens uit de Excel-werkmap in Power BI Desktop te gebruiken om visuele elementen of rapporten te maken of te werken met andere gegevens waarmee u verbinding wilt maken en importeren, zoals andere Excel-werkmappen, databases of een andere gegevensbron.
 
-### <a name="next-steps"></a>Volgende stappen
+## <a name="next-steps"></a>Volgende stappen
 Met Power BI Desktop kunt u verbinding maken met allerlei andere gegevens. Bekijk de volgende bronnen voor meer informatie over gegevensbronnen:
 
 * [Wat is Power BI Desktop?](desktop-what-is-desktop.md)

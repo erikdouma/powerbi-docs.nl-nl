@@ -4,18 +4,19 @@ description: Eenvoudig verbinding maken met gegevens van een webpagina in Power 
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2aef47ab1716464c0896b624069a6ebbeb4adc54
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: a0d7eeccede8f6402256eb8655657ca12dde075b
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578377"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026564"
 ---
 # <a name="connect-to-a-web-page-from-power-bi-desktop"></a>Verbinding met een webpagina maken vanuit Power BI Desktop
 U kunt verbinding maken met een webpagina en de gegevens in Power BI Desktop importeren voor gebruik in uw visuele elementen en gegevensmodellen.
@@ -44,7 +45,7 @@ Hier kunt u de velden naar het rapportcanvas slepen en alle visuele elementen ma
 
 Kijk eens in de [handleiding voor Power BI Desktop](desktop-getting-started.md) (Engelstalig) voor meer informatie over het verbinding maken met een webpagina.
 
-### <a name="next-steps"></a>Volgende stappen
+## <a name="next-steps"></a>Volgende stappen
 Met Power BI Desktop kunt u verbinding maken met allerlei andere gegevens. Bekijk de volgende bronnen voor meer informatie over gegevensbronnen:
 
 * [Data Sources in Power BI Desktop](desktop-data-sources.md) (Gegevensbronnen in Power BI Desktop)
