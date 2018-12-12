@@ -262,19 +262,19 @@ items:
         href: desktop-inline-hierarchy-labels.md
       - name: Slicer voor numeriek bereik gebruiken
         href: desktop-slicer-numeric-range.md
-      - name: Een responsieve slicer maken waarvan u de grootte kunt wijzigen
+      - name: Een slicer maken waarvan u de grootte kunt wijzigen
         href: power-bi-slicer-filter-responsive.md
-      - name: Aangepaste Power BI-antwoord kaarten voor Cortana maken
+      - name: Aangepaste antwoordkaarten voor Cortana maken
         href: service-cortana-answer-cards.md
       - name: Beveiliging op rijniveau
         href: desktop-rls.md
-      - name: Knopinfo in Power BI Desktop aanpassen
+      - name: Knopinfo aanpassen
         href: desktop-custom-tooltips.md
-      - name: Voorwaardelijke tabelopmaak in Power BI Desktop
+      - name: Voorwaardelijke tabelopmaak
         href: desktop-conditional-table-formatting.md
       - name: Op kolom sorteren in Power BI Desktop
         href: desktop-sort-by-column.md
-      - name: Rapporten maken die zijn geoptimaliseerd voor de mobiele Power BI-apps
+      - name: Rapporten maken die zijn geoptimaliseerd voor mobiele apps
         href: desktop-create-phone-report.md
       - name: See data en See records gebruiken
         href: desktop-see-data-see-records.md
@@ -284,23 +284,23 @@ items:
       items:
       - name: Aanbevolen procedures voor visualisaties
         href: visuals/power-bi-visualization-best-practices.md
-      - name: Het type visualisatie in een Power BI-rapport wijzigen
+      - name: Het type visualisatie in een rapport wijzigen
         href: visuals/power-bi-report-change-visualization-type.md
       - name: Gegevenspuntlimieten op visualtype
         href: visuals/power-bi-data-points.md
       - name: Aan de slag met kleuropmaak en aseigenschappen
         href: visuals/service-getting-started-with-color-formatting-and-axis-properties.md
-      - name: Tips en trucs voor het gebruik van kleuren in Power BI
+      - name: Tips en trucs voor het gebruik van kleuren
         href: visuals/service-tips-and-tricks-for-color-formatting.md
-      - name: Een visualisatie kopiëren en plakken in Power BI
+      - name: Een visualisatie kopiëren en plakken
         href: visuals/power-bi-visualization-copy-paste.md
       - name: De gegevens exporteren die worden gebruikt om de visualisatie te maken
         href: visuals/power-bi-visualization-export-data.md
-      - name: Een visualisatie in een Power BI-rapport verplaatsen, weergeven in een nieuw venster of het formaat ervan wijzigen
+      - name: Een visualisatie in een rapport verplaatsen, weergeven in een nieuw venster of het formaat ervan wijzigen
         href: visuals/power-bi-visualization-move-and-resize.md
       - name: Hyperlinks in tabellen
         href: power-bi-hyperlinks-in-tables.md
-      - name: Een hyperlink toevoegen aan een tekstvak in een Power BI-rapport
+      - name: Een hyperlink toevoegen aan een tekstvak in een rapport
         href: service-add-hyperlink-to-text-box.md
       - name: De interactie tussen visuals in een rapport wijzigen
         href: service-reports-visual-interactions.md
@@ -598,7 +598,7 @@ items:
         href: refresh-troubleshooting-refresh-scenarios.md
     - name: Dashboards
       items:
-      - name: Power BI-dashboard
+      - name: Inleiding tot dashboards
         href: service-dashboards.md
       - name: Update van dashboardtegels
         href: service-dashboard-tiles.md
@@ -692,6 +692,8 @@ items:
         href: service-create-workspaces.md
       - name: De nieuwe werkruimten maken (preview)
         href: service-create-the-new-workspaces.md
+      - name: Gegevensopslag in werkruimten beheren
+        href: service-admin-manage-your-data-storage-in-power-bi.md
       - name: Een gefilterd rapport delen
         href: service-share-reports.md
       - name: Vanuit Power BI publiceren naar internet
@@ -1261,9 +1263,9 @@ items:
       href: service-admin-governance.md
     - name: Beveiliging van Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: e105b33d6b37099dd6bc2c657f2293f8561a6004
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 0189fe52981e1bc926ae8a836791e7111e4b530e
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53181008"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280947"
