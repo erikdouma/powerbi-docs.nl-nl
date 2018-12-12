@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 06/25/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 1ed4298e4ed4cddcdf965bd427c654cab6adf1e6
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: 216451874fcc66b14286ea4ed3aeb1845483bfb7
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157006"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578354"
 ---
 # <a name="powershell-cmdlets-rest-apis-and-net-sdk-for-power-bi-administration"></a>PowerShell-cmdlets, REST-API's en .NET SDK voor het beheer van Power BI
 Met Power BI kunnen beheerders algemene taken uitvoeren met PowerShell-cmdlets. Verder biedt het REST-API's en een .NET SDK voor het ontwikkelen van beheerdersoplossingen. Dit onderwerp bevat een lijst met cmdlets met de bijbehorende SDK-methode en het REST API-eindpunt. Zie deze onderwerpen voor meer informatie:
@@ -23,6 +23,8 @@ Met Power BI kunnen beheerders algemene taken uitvoeren met PowerShell-cmdlets. 
 - PowerShell [downloaden](https://www.powershellgallery.com/packages/MicrosoftPowerBIMgmt/) en [documentatie](https://docs.microsoft.com/powershell/power-bi/overview?view=powerbi-ps)
 - REST API-[documentatie](https://docs.microsoft.com/rest/api/power-bi/admin)
 - .NET SDK [downloaden](https://www.nuget.org/packages/Microsoft.PowerBI.Api/)
+
+> De onderstaande cmdlets moeten worden aangeroepen met `-Scope Organization` om voor beheerstaken te kunnen gebruiken op basis van de tenant.
 
 | **Naam van cmdlet** | **Aliassen** | **SDK-methode** | **REST API-eindpunt** | **Beschrijving** |
 | --- | --- | --- | --- | --- |
@@ -34,10 +36,9 @@ Met Power BI kunnen beheerders algemene taken uitvoeren met PowerShell-cmdlets. 
 | **Restore-PowerBIWorkspace** |**Restore-PowerBIGroup** | Groepen\_RestoreDeletedGroupAsAdmin | /v1.0/myorg/admin/groups/{groupId}/restore | Hiermee herstelt u een verwijderde werkruimte. |
 | **Set-PowerBIWorkspace** |**Set-PowerBIGroup** | Groepen\_UpdateGroupAsAdmin | /v1.0/myorg/admin/groups/{groupId} | Hiermee werkt u de eigenschappen van een opgegeven werkruimte bij. |
 | **Get-PowerBIDataset -WorkspaceId** | N.v.t. | Groepen\_GetDatasetsAsAdmin | /v1.0/myorg/admin/groups/{group\_id}/datasets | Hiermee haalt u de gegevenssets binnen een opgegeven werkruimte op. |
-| **Export-PowerBIReport** | N.v.t. | Rapporten\_ExportReportAsAdmin | N.v.t. | Hiermee exporteert u een opgegeven rapport naar een lokaal bestand. |
 | **Get-PowerBIReport** | N.v.t. | Rapporten\_GetReportsAsAdmin | /v1.0/myorg/admin/reports | Hiermee haalt u de volledige lijst met rapporten in een Power BI-tenant op. |
 | **Get-PowerBIDashboard** | N.v.t. | Dashboards\_GetDashboardsAsAdmin | /v1.0/myorg/admin/dashboards | Hiermee haalt u de volledige lijst met dashboards in een Power BI-tenant op. |
-| **Get-PowerBIDashboard** | N.v.t. | Groepen\_GetDashboardsAsAdmin | /v1.0/myorg/admin/groups/{group\_id}/dashboards | Hiermee haalt u de dashboards binnen een opgegeven werkruimte op. |
+| **Get-PowerBIDashboard -WorkspaceId** | N.v.t. | Groepen\_GetDashboardsAsAdmin | /v1.0/myorg/admin/groups/{group\_id}/dashboards | Hiermee haalt u de dashboards binnen een opgegeven werkruimte op. |
 | **Get-PowerBITile** | **Get-PowerBIDashboardTile** | Dashboards\_GetTilesAsAdmin | /v1.0/myorg/admin/dashboards/{dashboard\_id}/tiles | Hiermee haalt u de tegels van een opgegeven dashboard op. |
 | **Get-PowerBIReport** | N.v.t. | Groepen\_GetReportsAsAdmin | /v1.0/myorg/admin/groups/{group\_id}/reports | Hiermee haalt u de rapporten binnen een opgegeven werkruimte op. |
 | **Get-PowerBIImport** | N.v.t. | Importbewerkingen\_GetImportsAsAdmin | /v1.0/myorg/admin/imports | Hiermee haalt u de volledige lijst met importbewerkingen in een Power BI-tenant op. |

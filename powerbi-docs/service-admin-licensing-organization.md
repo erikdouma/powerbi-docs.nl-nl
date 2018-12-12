@@ -10,20 +10,16 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 861b9c411b3088b6c16b7ad601f374bd771b13ed
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: ce44e87144d9338fbd88f0bc7183daf1b5339b35
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331983"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900469"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Power BI-licenties in uw organisatie
 
-In de Power BI-service hebben gebruikers gedefinieerde mogelijkheden op basis van twee typen licenties:
-
-* **Per gebruiker** - *gratis licenties en licenties van Power BI Pro*. Een Power BI Pro-licentie geeft toegang tot alle inhoud en mogelijkheden in de Power BI-service, inclusief de mogelijkheid om inhoud te delen en samen te werken met andere Pro-gebruikers. Alleen Pro-gebruikers kunnen inhoud naar app-werkruimten publiceren en deze inhoud gebruiken, dashboards delen en zich abonneren op dashboards en rapporten. Een gratis licentie biedt toegang tot een aantal functies van de Power BI-service. Zie [Power BI Free vs Pro](service-features-license-type.md) voor meer informatie.
-
-* **Op basis van capaciteit** - *Power BI Premium-licentie*. Premium biedt toegewezen capaciteit voor consistente prestaties en ondersteuning voor grotere gegevensvolumes in Power BI. Voor individuele gebruikers voorziet Premium ook in wijdverbreide distributie van inhoud door Pro-gebruikers zonder dat ontvangers die de inhoud bekijken een Pro-licentie nodig hebben. Zie [Wat is Power BI Premium?](service-premium.md) voor meer informatie.
+[!INCLUDE [license-capabilities](includes/license-capabilities.md)]
 
 In dit artikel besteden we aandacht aan licenties per gebruiker gezien vanuit het perspectief van een beheerder.
 

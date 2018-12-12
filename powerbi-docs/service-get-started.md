@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 554e9f3bbea5a1da6ac43f21f72b054a26849f23
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 6de9427a11ae5aa43563ce9e21371d231a1dd3a9
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908736"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900524"
 ---
 # <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Zelfstudie: Aan de slag met Power BI-service (app.powerbi.com)
 In deze zelfstudie leest u hoe u aan de slag kunt met de ***Power BI-service***. Als u wilt weten hoe de Power BI-service aansluit bij de andere Power BI-aanbiedingen, is het een goed idee om eerst [Wat is Power BI?](power-bi-overview.md) te lezen.
@@ -158,5 +158,5 @@ Nu u de zelfstudie hebt voltooid, kunt u de gegevensset, het rapport en het dash
 Klaar om meer uit te proberen?  Hier volgen enkele goede manieren om nader kennis te maken met Power BI.
 
 > [!div class="nextstepaction"]
-> [Verbinding maken met de onlineservices die u gebruikt](consumer/end-user-connect-to-services.md)
+> [Verbinding maken met de onlineservices die u gebruikt](service-connect-to-services.md)
 

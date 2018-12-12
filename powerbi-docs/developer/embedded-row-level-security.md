@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 09/18/2018
-ms.openlocfilehash: 60061d781542f8b5a3ef67a75e61d902459d4963
-ms.sourcegitcommit: ded8b85276e7eda166d6e67f72d1fe3d5e234745
+ms.date: 11/28/2018
+ms.openlocfilehash: 901c087c486598019e905598ee83382664842cc8
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46506771"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578768"
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Beveiliging op rijniveau met ingesloten Power BI-inhoud
 
-Beveiliging op rijniveau (RLS) kan worden gebruikt om de gebruikerstoegang tot gegevens in dashboards, tegels, rapporten en gegevenssets te beperken. Meerdere gebruikers kunnen werken met dezelfde artefacten, terwijl ze allemaal verschillende gegevens zien. Het insluiten van inhoud biedt ondersteuning voor RLS.
+**Beveiliging op rijniveau (RLS)** kan worden gebruikt om de gebruikerstoegang tot gegevens in dashboards, tegels, rapporten en gegevenssets te beperken. Verschillende gebruikers kunnen werken met dezelfde artefacten, terwijl ze allemaal verschillende gegevens zien. Het insluiten van inhoud biedt ondersteuning voor RLS.
 
-Als u inhoud wilt insluiten voor niet-Power BI-gebruikers (app is eigenaar van de gegevens), een typisch ISV-scenario, is dit artikel van belang voor u. U moet het insluittoken zo configureren dat rekening wordt gehouden met de gebruiker en rol. Lees verder voor meer informatie over hoe u dit doet.
+Als u inhoud wilt insluiten voor niet-Power BI-gebruikers (app is eigenaar van de gegevens), een typisch ISV-scenario, is dit artikel van belang voor u. Configureer het insluittoken zodanig dat rekening wordt gehouden met de gebruiker en de rol.
 
 Als u inhoud wilt insluiten voor Power BI-gebruikers (gebruiker is eigenaar van de gegevens), werkt RLS hetzelfde als bij het rechtstreeks insluiten van inhoud in de Power BI-service. U hoeft verder niets te doen in uw toepassing. Zie [Beveiliging op rijniveau (RLS) met Power BI](../service-admin-rls.md) voor meer informatie.
 
@@ -32,14 +32,14 @@ Om te kunnen profiteren van RLS, is het belangrijk dat u de drie hoofdbegrippen 
 
 **Rollen**: gebruikers behoren tot rollen. Rollen zijn containers voor regels en kunnen namen hebben als *Verkoopmanager* of *Verkoper*. U maakt rollen in Power BI Desktop. Zie [Beveiliging op rijniveau (RLS) met Power BI Desktop](../desktop-rls.md) voor meer informatie.
 
-**Regels**: rollen bevatten regels, en deze regels zijn de werkelijke filters die op de gegevens worden toegepast. Deze kunnen zo eenvoudig zijn als "Land = Nederland", maar ook veel ingewikkelder.
+**Regels**: rollen bevatten regels, en deze regels zijn de werkelijke filters die op de gegevens worden toegepast. De regels kunnen zo eenvoudig zijn als 'Land = Nederland', maar ook veel ingewikkelder.
 In de rest van dit artikel is een voorbeeld te vinden van het ontwerp en gebruik van RLS binnen een ingesloten toepassing. Voor dit voorbeeld gebruiken we het PBIX-bestand [Voorbeeld van een retailanalyse](http://go.microsoft.com/fwlink/?LinkID=780547).
 
 ![Voorbeeldrapport](media/embedded-row-level-security/powerbi-embedded-report-example.png)
 
 ## <a name="adding-roles-with-power-bi-desktop"></a>Rollen toevoegen met Power BI Desktop
 
-In het voorbeeld van een retailanalyse worden de verkoopcijfers voor alle winkels van een winkelketen weergegeven. Zonder RLS zou elke regiomanager die zich aanmeldt en het rapport weergeeft dezelfde gegevens zien. Het senior management heeft besloten dat elke regiomanager alleen de verkoopcijfers mag zien voor de winkels die ze beheren. Hiervoor kunnen we RLS gebruiken.
+In het **voorbeeld van een retailanalyse** worden de verkoopcijfers voor alle winkels van een winkelketen weergegeven. Zonder RLS zou elke regiomanager die zich aanmeldt en het rapport weergeeft, dezelfde gegevens zien. Het senior management heeft besloten dat elke regiomanager alleen de verkoopcijfers mag zien voor de winkels die hij of zij beheert. Met behulp van RLS kan het senior management de gegevenstoegang filteren op regiomanager.
 
 RLS is geschreven in Power BI Desktop. Na het openen van de gegevensset en het rapport kunnen we overschakelen naar de diagramweergave van het schema:
 
@@ -54,7 +54,7 @@ We noemen enkele dingen die opvallen in dit schema:
   
     ![Rijen in de tabel District](media/embedded-row-level-security/powerbi-embedded-district-table.png)
 
-Als we in dit schema een filter toepassen op de kolom **Regiomanager** in de tabel **Regio**, en als dat filter overeenkomt met de gebruiker die het rapport weergeeft, worden in de tabellen **Winkel** en **Verkoop** alleen de gegevens voor die regiomanager weergegeven.
+Als we in dit schema een filter toepassen op de kolom **Regiomanager** in de tabel **Regio** en als dat filter overeenkomt met de gebruiker die het rapport weergeeft, worden in de tabellen **Winkel** en **Verkoop** alleen de gegevens voor die regiomanager weergegeven.
 
 U doet dit als volgt:
 
@@ -64,24 +64,24 @@ U doet dit als volgt:
 2. Maak een nieuwe rol met de naam **Manager**.
 
     ![Nieuwe rol maken](media/embedded-row-level-security/powerbi-embedded-new-role.png)
-3. Voer in de tabel **Regio** de volgende DAX-expressie in: **[Regiomanager] = USERNAME()**.
+3. Voer in de tabel **Regio** deze DAX-expressie in: **[Regiomanager] = USERNAME()**.
 
     ![DAX-instructie voor RLS-regel](media/embedded-row-level-security/powerbi-embedded-new-role-dax.png)
-4. Als u wilt controleren of de regels correct functioneren, selecteert u op het tabblad **Modellering** de optie **Als rollen weergeven**. Selecteer vervolgens de rol **Manager** die u zojuist hebt gemaakt, plus de rol **Andere gebruikers**. Voer **AndrewMa** in als gebruiker.
+4. Als u wilt controleren of de regels correct functioneren, selecteert u op het tabblad **Modellering** de optie **Als rollen weergeven**. Selecteer vervolgens de rol **Manager** die u hebt gemaakt, plus de rol **Andere gebruikers**. Voer **AndrewMa** in als gebruiker.
 
     ![Dialoogvenster Als rollen weergeven](media/embedded-row-level-security/powerbi-embedded-new-role-view.png)
 
     In de rapporten worden de gegevens weergegeven alsof u bent aangemeld als **AndrewMa**.
 
-Door het filter toe te passen zoals we hier hebben gedaan, worden alle records in de tabellen **Regio**, **Winkel** en **Verkoop** gefilterd. Echter, vanwege de filterrichting van de relaties tussen **Verkoop** en **Tijd**, worden de tabellen **Verkoop** en **Artikel**, en **Artikel** en **Tijd** niet gefilterd. Download voor meer informatie over kruisfiltering in twee richtingen het technische document over [Kruisfiltering in twee richtingen in SQL Server Analysis Services 2016 en Power BI Desktop](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx).
+Door het filter toe te passen zoals we hier hebben gedaan, worden alle records in de tabellen **Regio**, **Winkel** en **Verkoop** gefilterd. Vanwege de filterrichting van de relaties tussen **Verkoop** en **Tijd**, worden de tabellen **Verkoop** en **Artikel**, en **Artikel** en **Tijd** echter niet gefilterd. Download voor meer informatie over kruisfiltering in twee richtingen het technische document over [Kruisfiltering in twee richtingen in SQL Server Analysis Services 2016 en Power BI Desktop](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx).
 
 ## <a name="applying-user-and-role-to-an-embed-token"></a>Gebruiker en rol toepassen op een insluittoken
 
 Nu de rollen in Power BI Desktop zijn geconfigureerd, moet u nog enig werk in de toepassing verrichten om van de rollen te kunnen profiteren.
 
-Gebruikers worden geverifieerd en geautoriseerd door de toepassing, en insluittokens worden gebruikt om de betreffende gebruiker toegang te verlenen tot een specifiek Power BI Embedded-rapport. Power BI Embedded bevat geen specifieke informatie over de identiteit van de gebruiker. Voor de juiste werking van RLS moet u aanvullende contextgegevens bij insluittokens doorgeven in de vorm van identiteiten. Dit wordt gedaan met de API [Insluittoken](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
+Gebruikers worden geverifieerd en geautoriseerd door de toepassing, en insluittokens worden gebruikt om de betreffende gebruiker toegang te verlenen tot een specifiek Power BI Embedded-rapport. Power BI Embedded bevat geen specifieke informatie over de identiteit van de gebruiker. Voor de juiste werking van RLS moet u aanvullende contextgegevens bij insluittokens doorgeven in de vorm van identiteiten. U kunt de identiteiten doorgeven via de API [Embed Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
 
-Met de API wordt een lijst identiteiten geaccepteerd met vermelding van de relevante gegevenssets. Voor de juiste werking van RLS moet u het volgende doorgeven als onderdeel van de identiteit.
+Met de API wordt een lijst identiteiten geaccepteerd met vermelding van de relevante gegevenssets. Voor de juiste werking van RLS moet u de onderstaande stukken doorgeven als onderdeel van de identiteit.
 
 * **gebruikersnaam (verplicht)**: een tekenreeks die kan worden gebruikt om de identiteit van de gebruiker vast te stellen bij het toepassen van RLS-regels. Er kan slechts één gebruiker worden opgegeven. Uw gebruikersnaam kan worden gemaakt met *ASCII*-tekens.
 * **rollen (verplicht)**: een tekenreeks met de rollen die kunnen worden geselecteerd bij het toepassen van de regels voor beveiliging op rijniveau. Als u meerdere rollen wilt doorgeven, moeten deze worden doorgegeven als een tekenreeksmatrix.
@@ -106,7 +106,9 @@ var generateTokenRequestParameters = new GenerateTokenRequest("View", null, iden
 var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "reportId", generateTokenRequestParameters);
 ```
 
-Als u de REST-API aanroept, accepteert de bijgewerkte API nu een extra JSON-matrix met de naam **identities** (identiteiten), met een gebruikersnaam, een tekenreeks met de lijst met rollen en een tekenreeks met de lijst met gegevenssets, bijvoorbeeld:
+Als u de REST API aanroept, accepteert de bijgewerkte API nu een extra JSON-matrix met de naam **identities**, met een gebruikersnaam, een tekenreeks met de lijst met rollen en een tekenreeks met de lijst met gegevenssets. 
+
+Gebruik de code hieronder als voorbeeld:
 
 ```json
 {
@@ -121,7 +123,7 @@ Als u de REST-API aanroept, accepteert de bijgewerkte API nu een extra JSON-matr
 }
 ```
 
-Nu zijn alle benodigde onderdelen aanwezig. Als een gebruiker zich bij uw toepassing aanmeldt om dit artefact weer te geven, ziet deze alleen de gegevens die hij of zij mag zien, zoals gedefinieerd in de beveiliging op rijniveau.
+Nu zijn alle benodigde onderdelen aanwezig. Als een gebruiker zich bij uw toepassing aanmeldt om dit artefact weer te geven, ziet de gebruiker alleen de gegevens die hij of zij mag zien, zoals gedefinieerd in de beveiliging op rijniveau.
 
 ## <a name="working-with-analysis-services-live-connections"></a>Werken met liveverbindingen van Analysis Services
 
@@ -129,38 +131,45 @@ Beveiliging op rijniveau kan worden gebruikt voor liveverbindingen van Analysis 
 
 De effectieve identiteit die wordt opgegeven voor de eigenschap voor de gebruikersnaam, moet een Windows-gebruiker zijn met machtigingen voor de Analysis Services-server.
 
-**Configuratie van on-premises gegevensgateway**
+### <a name="on-premises-data-gateway-configuration"></a>Configuratie van on-premises gegevensgateway
 
 Voor liveverbindingen van Analysis Services wordt een [On-premises gegevensgateway](../service-gateway-onprem.md) gebruikt. Bij het genereren van een insluittoken, met een opgegeven identiteit, moet het hoofdaccount zijn opgegeven als beheerder van de gateway. Als het hoofdaccount niet is opgegeven, wordt de beveiliging op rijniveau niet toegepast op de eigenschap van de gegevens. Een niet-beheerder van de gateway kan rollen opgeven, maar moet zijn eigen gebruikersnaam als effectieve identiteit opgeven.
 
-**Gebruik van rollen**
+### <a name="use-of-roles"></a>Gebruik van rollen
 
 Rollen kunnen worden opgegeven met de identiteit in een insluittoken. Als er geen rol wordt opgegeven, kunnen de betreffende rollen worden omgezet op basis van de opgegeven gebruikersnaam.
 
-**De functie CustomData gebruiken**
+### <a name="using-the-customdata-feature"></a>De functie CustomData gebruiken
 
-Met de functie CustomData kunt u vrije tekst (tekenreeks) doorgeven met behulp van de eigenschap van de CustomData-verbindingsreeks, een waarde die via de functie CUSTOMDATA() door AS moet worden gebruikt.
-U kunt de functie gebruiken als alternatieve manier voor het aanpassen van het gegevensverbruik.
+De functie CustomData werkt alleen voor modellen die zich in **Azure Analysis Services** bevinden. Bovendien werkt de functie uitsluitend in de **Connect livemodus**. In tegenstelling tot gebruikers en rollen kan de functie Customdata niet in een PBIX-bestand worden ingesteld. Tijdens het genereren van een token met de Customdata-functie moet u over een gebruikersnaam beschikken.
+
+Met de functie CustomData kunt u een rijfilter toevoegen wanneer u Power BI-gegevens in uw toepassing bekijkt en u **Azure Analysis Services** als gegevensbron gebruikt (Power BI-gegevens bekijken die zijn gekoppeld aan Azure Analysis Services in uw toepassing).
+
+Met de functie CustomData kunt u vrije tekst (een tekenreeks) doorgeven met behulp van de eigenschap van de CustomData-verbindingsreeks. Analysis Services gebruikt deze waarde via de functie *CUSTOMDATA()*.
+
+De enige manier om in **Azure Analysis Services** dynamische RLS (dat dynamische waarden gebruikt voor filterbeoordeling) te gebruiken, is door toepassing van de functie *CUSTOMDATA()*.
+
 De functie kan binnen de DAX-query voor rollen worden gebruikt en de functie kan zonder rol in de DAX-query voor metingen worden gebruikt.
 De functie CustomData maakt deel uit van de functionaliteit voor het genereren van tokens voor de artefacten Dashboard, Rapport en Tegel. Dashboards kunnen over meerdere CustomData-identiteiten (één per tegel/model) beschikken.
 
-> [!NOTE]
-> De functie CustomData werkt alleen voor modellen die zich in Azure Analysis Services bevinden. Bovendien werkt de functie alleen in de livemodus. In tegenstelling tot gebruikers en rollen, kan de functie voor aangepaste gegevens niet in een PBIX-bestand worden ingesteld. Tijdens het genereren van een token met de functie voor aangepaste gegevens moet u over een gebruikersnaam beschikken.
-
-**CustomData SDK - toevoegingen**
+#### <a name="customdata-sdk-additions"></a>CustomData SDK - toevoegingen
 
 De eigenschap van de CustomData-tekenreeks is toegevoegd aan de effectieve identiteit in het scenario voor het genereren van tokens.
 
-        [JsonProperty(PropertyName = "customData")]
-        public string CustomData { get; set; }
+```json
+[JsonProperty(PropertyName = "customData")]
+public string CustomData { get; set; }
+```
 
 Met behulp van de volgende aanroep kan de identiteit kan worden gemaakt met aangepaste gegevens:
 
-        public EffectiveIdentity(string username, IList<string> datasets, IList<string> roles = null, string customData = null);
+```csharp
+public EffectiveIdentity(string username, IList<string> datasets, IList<string> roles = null, string customData = null);
+```
 
-**CustomData SDK - gebruik**
+#### <a name="customdata-sdk-usage"></a>CustomData SDK - gebruik
 
-Als u REST API aanroept, kunt u binnen elke identiteit aangepaste gegevens toevoegen, bijvoorbeeld:
+Als u de REST API aanroept, kunt u binnen elke identiteit aangepaste gegevens toevoegen, bijvoorbeeld:
 
 ```json
 {
@@ -176,6 +185,60 @@ Als u REST API aanroept, kunt u binnen elke identiteit aangepaste gegevens toevo
 }
 ```
 
+Dit zijn de stappen om de functie CustomData() in te stellen met uw Power BI Embedded-toepassing.
+
+1. Maak een Azure Analysis Services-database. Meld u vervolgens aan bij uw Azure Analysis Services-server via [SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017).
+
+    ![Een Azure Analysis Services-database maken](media/embedded-row-level-security/azure-analysis-services-database-create.png)
+
+    ![Analysis Services-database](media/embedded-row-level-security/azure-analysis-services-database.png)
+
+2. Maak een rol op de Analysis Services-server.
+
+    ![Rol maken](media/embedded-row-level-security/azure-analysis-services-database-create-role.png)
+
+3. Stel de **Algemene instellingen** in.  Hier geeft u de **Rolnaam** op en stelt u de databasemachtigingen in op **alleen-lezen**.
+
+    ![Rol maken - Algemene instellingen instellen](media/embedded-row-level-security/azure-analysis-services-database-create-role-general-settings.png)
+
+4. Geef de instellingen voor **Lidmaatschap** op. Hier kunt u gebruikers toevoegen die door deze rol worden beïnvloed.
+
+    ![Rol maken - Lidmaatschapsinstellingen opgeven](media/embedded-row-level-security/azure-analysis-services-database-create-role-membership.png)
+
+5. Stel de DAX-query **Rijfilters** in met de functie *CUSTOMDATA()*.
+
+    ![Rol maken - Rijfilters instellen](media/embedded-row-level-security/azure-analysis-services-database-create-role-row-filters.png)
+
+6. Maak een PBI-rapport en publiceer dit in een werkruimte met toegewezen capaciteit.
+
+    ![PBI-rapportvoorbeeld](media/embedded-row-level-security/rls-sample-pbi-report.png)
+
+7. Gebruik de Power BI-API's om de functie CustomData in uw toepassing te gebruiken.  Tijdens het genereren van een token met de Customdata-functie moet u over een gebruikersnaam beschikken. De gebruikersnaam moet gelijk zijn aan de UPN van de hoofdgebruiker. De hoofdgebruiker moet lid zijn van de rol(len) die u hebt gemaakt. Als er geen rollen zijn opgegeven, worden alle rollen waar de hoofdgebruiker lid van is, gebruikt voor de RLS-beoordeling.
+
+    > [!Note]
+    > Wanneer u klaar bent om uw toepassing in uw productieomgeving te implementeren, moeten eindgebruikers het hoofdgebruikersaccountveld of de hoofdgebruikersoptie niet kunnen zien.
+
+    Bekijk de [code](#customdata-sdk-additions) om de functie CustomData toe te voegen.
+
+8. U kunt het rapport nu weergeven in uw toepassing voordat u de CustomData-waarde(n) toevoegt om alle gegevens in het rapport te bekijken.
+
+    ![Vóór toepassing van CustomData](media/embedded-row-level-security/customdata-before.png)
+
+    Pas vervolgens de CustomData-waarde(n) toe om te bekijken hoe in het rapport een andere set gegevens wordt weergegeven.
+    ![Na toepassing van CustomData](media/embedded-row-level-security/customdata-after.png)
+
+## <a name="using-rls-vs-javascript-filters"></a>RLS gebruiken vs. JavaScript-filters
+
+Wanneer u een beslissing neemt over filters in uw rapport, kunt u **beveiliging op rijniveau (RLS)** of **JavaScript-filters** gebruiken.
+
+[Beveiliging op rijniveau](../service-admin-rls.md) is een functie die gegevens op het niveau van het gegevensmodel filtert. Uw back-endgegevensbron beheert uw RLS-instellingen. Op basis van uw gegevensmodel stelt de generatie van het insluittoken de gebruikersnaam en de rollen voor de sessie in. De gegevens kunnen niet worden overschreven, verwijderd of gecontroleerd door de code aan de clientzijde. Daarom wordt deze methode als veilig beschouwd. We raden aan om RLS te gebruiken om gegevens veilig te filteren. U kunt gegevens filteren met RLS door een van de onderstaande opties te gebruiken.
+
+* [Rollen configureren in een Power BI-rapport](../desktop-rls.md).
+* Rollen configureren op gegevensbronniveau (alleen met een Analysis Services-liveverbinding).
+* Programmatisch via een [Insluittoken](https://docs.microsoft.com/rest/api/power-bi/embedtoken/datasets_generatetokeningroup) met `EffectiveIdentity`. Wanneer u een insluittoken gebruikt, wordt het werkelijke filter doorgegeven via het insluittoken voor een specifieke sessie.
+
+[JavaScript-filters](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Filters#page-level-and-visual-level-filters) worden gebruikt om de gebruiker een beperkte, gerichte of gefilterde weergave van de gegevens te geven. De gebruiker heeft echter nog steeds toegang tot de tabellen, kolommen en metingen van het modelschema en mogelijk ook tot de gegevens daarin. Beperkte gegevenstoegang kan alleen worden gerealiseerd met RLS en niet via filter-API's aan de clientzijde.
+
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 
 * De toewijzing van gebruikers aan rollen in de Power BI-service heeft geen invloed op de beveiliging op rijniveau bij gebruik van een insluittoken.
@@ -183,7 +246,7 @@ Als u REST API aanroept, kunt u binnen elke identiteit aangepaste gegevens toevo
 * Liveverbindingen van Analysis Services worden ondersteund voor on-premises servers.
 * Live verbindingen van Azure Analysis Services bieden ondersteuning voor het filteren op rollen. U kunt dynamisch filteren met CustomData.
 * Als RLS niet vereist is voor de onderliggende gegevensset, mag de GenerateToken-aanvraag **geen** effectieve identiteit bevatten.
-* Als de onderliggende gegevensset een cloudmodel is (model in de cache of DirectQuery), moet de effectieve identiteit ten minste één rol bevatten. Anders wordt roltoewijzing niet uitgevoerd.
+* Als de onderliggende gegevensset een cloudmodel is (een model in de cache of DirectQuery), moet de effectieve identiteit ten minste één rol bevatten. Anders wordt roltoewijzing niet uitgevoerd.
 * Een lijst met identiteiten kan meerdere identiteitstokens insluiten in het dashboard. Voor alle andere artefacten bevat de lijst één identiteit.
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

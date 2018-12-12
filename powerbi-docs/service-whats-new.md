@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 0ffcec94d015223df596aa6ac941f7400a89e747
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: daada8a7f69c600acf6fc45669ed6a42c2fdd831
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51718063"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900653"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Wat is er nieuw in de Power BI-service
@@ -95,7 +95,7 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 
 ### <a name="august-2017"></a>Augustus 2017
 * Uw doelgroep kennen met [Metrische gegevens over gebruik per gebruiker](https://powerbi.microsoft.com/blog/introducing-per-user-usage-metrics-know-your-audience-and-amplify-your-impact/).
-* Aan de slag met apps van de [Power BI-service](consumer/end-user-connect-to-services.md) voor onlineservices.
+* Aan de slag met apps van de [Power BI-service](service-connect-to-services.md) voor onlineservices.
 * Verbinding maken met IBM Netezza met de on-premises gegevensgateway via import- en DirectQuery-connectiviteitsmodi.
 * [Dynamische RLS](developer/embedded-row-level-security.md) nu ondersteund voor Power BI Embedded.
 * Geavanceerde [filter-API](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/UsingAdvancedFilterAPI.md) nu toegevoegd voor de 1.7 API-versie van aangepaste visuele elementen.

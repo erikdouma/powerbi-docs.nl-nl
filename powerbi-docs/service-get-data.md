@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2a23a725ecad5641c3f82fa4c57ee1a0bc951e28
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: e0721efaaca879ffb2915315af9aea4dbafca3ca
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670341"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900239"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Gegevensbronnen voor de Power BI-service
 Gegevens vormen de kern van Power BI. Wanneer u gegevens verkent, grafieken of dashboards maakt en vragen stelt met Q & A, halen al deze visualisaties en de antwoorden die u de hun onderliggende gegevens uit een gegevensset. Maar waar komt deze gegevensset vandaan? Deze komt uit een gegevensbron.
@@ -44,7 +44,7 @@ Het maakt ook een groot verschil waar u uw bestanden opslaat. OneDrive voor Bedr
 
 Inhoudspakketten bevatten alle gegevens en rapporten die u nodig hebt. In Power BI worden twee typen inhoudspakketten gebruikt: die van services zoals Google Analytics, Marketo of Salesforce en pakketten die zijn gemaakt en gedeeld door andere gebruikers in uw organisatie.
 
-**Services**: er zijn talloze services met inhoudspakketten voor Power BI en er worden er steeds meer toegevoegd. Voor de meeste services hebt u een account nodig. Zie [Verbinding maken met services](consumer/end-user-connect-to-services.md) voor meer informatie.
+**Services**: er zijn talloze services met inhoudspakketten voor Power BI en er worden er steeds meer toegevoegd. Voor de meeste services hebt u een account nodig. Zie [Verbinding maken met services](service-connect-to-services.md) voor meer informatie.
 
 **Organisatiespecifieke pakketten**: als u en andere gebruikers in uw organisatie een Power BI Pro-account hebben, kunt u inhoudspakketten maken, delen en gebruiken. Zie [Organisatie-inhoudspakketten](service-organizational-content-pack-introduction.md) voor meer informatie.
 
