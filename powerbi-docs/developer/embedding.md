@@ -1,6 +1,6 @@
 ---
-title: Insluiten met Power BI
-description: Power BI biedt API's voor het insluiten van uw dashboards en rapporten in toepassingen.
+title: Ingesloten analyses met Power BI
+description: Power BI biedt API's voor het gebruik van ingesloten analyses voor uw dashboards en rapporten in toepassingen. Meer informatie over insluiten met Power BI in zowel een PaaS-omgeving als een SaaS-omgeving met behulp van software voor ingesloten analyses, hulpprogramma's voor ingesloten analyses of hulpprogramma's voor ingesloten business intelligence.
 author: markingmyname
 ms.author: maghan
 manager: kfile
@@ -8,19 +8,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: overview
-ms.date: 07/31/2018
-ms.openlocfilehash: 7b96e671a6fe9b450fff683ced3caa611ae70bd7
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: a4c0a66fb70797cc8b42094c65b23c71944b67a2
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973765"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180318"
 ---
-# <a name="embedding-with-power-bi"></a>Insluiten met Power BI
+# <a name="embedded-analytics-with-power-bi"></a>Ingesloten analyses met Power BI
 
 De Power BI-service (SaaS) en de Power BI Embedded-service in Azure (PaaS) bevatten API's voor het insluiten van uw dashboards en rapporten. Deze functie houdt in dat u een set mogelijkheden en toegang tot de nieuwste functies van Power BI (zoals dashboards, gateways en app-werkruimten) gebruikt voor het insluiten van uw inhoud.
 
-U kunt het [instelprogramma voor insluiten](https://aka.ms/embedsetup) uitvoeren om snel aan de slag te gaan en een voorbeeldtoepassing te downloaden.
+U kunt het [installatieprogramma voor insluiten](https://aka.ms/embedsetup) uitvoeren om snel aan de slag te gaan en een voorbeeldtoepassing te downloaden.
 
 Kies de oplossing die het beste bij u past:
 
@@ -39,11 +40,11 @@ Voor een voorbeeld van hoe het insluiten van inhoud werkt, raadpleegt u het [Ins
 
 ## <a name="embedding-for-your-organization"></a>Inhoud insluiten voor uw organisatie
 
-**Met het insluiten van inhoud voor uw organisatie** kunt u Power BI-service uitbreiden. Bij het insluiten voor uw organisatie moeten gebruikers van uw toepassing zich aanmelden bij de Power BI-service wanneer ze hun inhoud willen weergeven. Als iemand zich in uw organisatie zich heeft aangemeld, heeft hij alleen toegang tot zijn hun eigen dashboards en rapporten of de dashboards en rapporten die met hem zijn gedeeld in de Power BI-service.
+**Met het insluiten van inhoud voor uw organisatie** kunt u Power BI-service uitbreiden. Bij het insluiten voor uw organisatie moeten gebruikers van uw toepassing zich aanmelden bij de Power BI-service wanneer ze hun inhoud willen weergeven. Als iemand in uw organisatie zich heeft aangemeld, heeft hij alleen toegang tot zijn eigen dashboards en rapporten of de dashboards en rapporten die met hem zijn gedeeld in de Power BI-service.
 
 *Voorbeelden van het insluiten voor uw organisatie zijn interne toepassingen, zoals [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Microsoft Teams-integratie (hiervoor moet u beheerdersrechten hebben)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) en [Microsoft Dynamics](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard).*
 
-Zie de volgende scenario's voor informatie over het insluiten van inhoud voor uw organisatie:
+Zie hieronder voor informatie over het insluiten van inhoud voor uw organisatie:
 
 * [Een rapport in een app integreren](embed-sample-for-your-organization.md)
 
@@ -61,7 +62,7 @@ U kunt het [instelprogramma voor insluiten om inhoud in te sluiten voor uw organ
 
 Power BI Embedded biedt voordelen voor ISV's, ontwikkelaars en klanten. Een ISV kan bijvoorbeeld gratis visuals maken met Power BI Desktop. Ze kunnen creaties ook sneller op de markt brengen omdat ze minder tijd hoeven te besteden aan het ontwikkelen van visuals én ze vallen meer op omdat ze een verfrissende gegevenservaring bieden. ISV's kunnen ervoor kiezen extra kosten in rekening te brengen voor de meerwaarde die de ingesloten analysemogelijkheden bieden.
 
-Met Power BI Embedded hebben uw klanten geen voorkennis over Power BI nodig. U hebt slechts één Power BI Pro-account nodig om een ingesloten toepassing te maken. Het Power BI Pro-account fungeert als hoofdaccount voor uw toepassing (dit is vergelijkbaar met een proxyaccount). Met het Power BI Pro-account kunt u ook insluittokens genereren die toegang bieden tot dashboards en rapporten in de Power BI-service die eigendom zijn van of worden beheerd door uw toepassing.
+Met Power BI Embedded hebben uw klanten geen voorkennis over Power BI nodig. U hebt slechts één Power BI Pro-account nodig om een ingesloten toepassing te maken. Het Power BI Pro-account fungeert als hoofdaccount voor uw toepassing (dit hoofdaccount is vergelijkbaar met een proxyaccount). Met het Power BI Pro-account kunt u ook insluittokens genereren die toegang bieden tot dashboards en rapporten in de Power BI-service die eigendom zijn van of worden beheerd door uw toepassing.
 
 Ontwikkelaars die Power BI Embedded gebruiken, kunnen hun tijd besteden aan het bouwen van de basis van hun toepassing in plaats van aan het ontwikkelen van visuals en analysemogelijkheden. Ontwikkelaars kunnen snel reageren op verzoeken van klanten om dashboards en rapporten en ze kunnen eenvoudig zaken insluiten aan de hand van volledig gedocumenteerde API's en SDK's. Door het verkennen van gegevens eenvoudig te maken in apps, kunnen ISV's ervoor zorgen dat klanten op welk apparaat dan ook snel goede beslissingen kunnen nemen in de juiste context.
 

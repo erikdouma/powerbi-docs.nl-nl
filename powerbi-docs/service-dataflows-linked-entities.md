@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b69b84c7c61227ef7a827722c86f54100bd2f3b7
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 258b526c08615a81f3cc940fc3b9f2fcda063a12
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51267242"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180640"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi-preview"></a>Entiteiten koppelen tussen gegevensstromen in Power BI (preview)
 
@@ -32,6 +32,12 @@ Gekoppelde entiteiten zijn **alleen-lezen**. Als u transformaties voor een gekop
 Voor het vernieuwen van gekoppelde entiteiten is een [Power BI Premium](service-premium.md)-abonnement vereist. Gekoppelde entiteiten zijn beschikbaar in elke gegevensstroom voor een werkruimte die wordt gehost op Power BI Premium-capaciteit. Er zijn geen beperkingen met betrekking tot de brongegevensstroom.
 
 Gekoppelde entiteiten werken alleen correct in nieuwe Power BI-werkruimten. U vindt hier meer informatie over [nieuwe Power BI-ruimten](service-create-the-new-workspaces.md). Alle gekoppelde gegevensstromen moeten zich in nieuwe werkruimten bevinden voor de juiste werking.
+
+> [!NOTE]
+> Er zijn verschillende entiteiten: standaardentiteiten of berekende entiteiten. Met standaardentiteiten (vaak kortweg entiteiten genoemd) kan een query worden uitgevoerd op een externe gegevensbron, bijvoorbeeld een SQL-database. Voor berekende entiteiten is Premium-capaciteit voor Power BI vereist. Er worden transformaties op gegevens mee uitgevoerd die al in de Power BI-opslag aanwezig zijn. 
+>
+>Als uw gegevensstroom zich niet in een werkruimte met Premium-capaciteit bevindt, kunt u desondanks naar één query of een combinatie van twee of meer query's verwijzen, mits de transformaties niet als transformaties in de opslag zijn gedefinieerd. Dergelijke verwijzingen worden als standaardentiteiten beschouwd. Schakel hiertoe de optie **Laden inschakelen** in voor de query's waarnaar wordt verwezen om te voorkomen dat de gegevens worden gerealiseerd en door de opslag opgenomen. Hierna kunt u verwijzen naar deze query's met de status **Laden inschakelen = onwaar** en **Laden inschakelen** instellen op **Aan** voor uitsluitend die query's die u wilt realiseren.
+
 
 ## <a name="how-to-link-entities-between-dataflows"></a>Entiteiten koppelen tussen gegevensstromen
 

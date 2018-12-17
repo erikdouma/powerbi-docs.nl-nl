@@ -5,14 +5,14 @@ services: power-bi
 author: mihart
 ms.service: powerbi-service
 ms.topic: resource
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.author: mihart
-ms.openlocfilehash: d8238ae96bb57c580c0b74725b105ad7f4332136
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: fd7974024fdbfce38b93f1598fa389ef71a47dd9
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51508009"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026335"
 ---
 # <a name="glossary-for-power-bi-service"></a>Verklarende woordenlijst voor de Power BI-service
 In de Power BI-service wordt mogelijk terminologie gebruikt die u niet kent of die verwarrend is. In deze verklarende woordenlijst kunt u terminologie opzoeken. U kunt zelfs overwegen om deze pagina in uw bladwijzers op te slaan. [Basisconcepten](end-user-basic-concepts.md) is ook een uitstekende resource om meer te weten te komen over de verschillende elementen waar de Power BI-service uit bestaat. Basisconcepten biedt een algemeen overzicht van de Power BI-*elementen* en hoe deze met elkaar zijn verbonden.
@@ -23,7 +23,7 @@ Deze verklarende woordenlijst is met behulp van de community opgesteld.  Ontbree
 
 **account** Er zijn verschillende soorten Power BI-accounts.  Bij een Power BI Pro-account betaalt u maandelijkse abonnementskosten.  Met een gratis Power BI-account kan inhoud worden bekeken doe wordt gehost op Power BI Premium-capaciteit.  
 
-**beheerportal** De locatie waar Power BI-beheerders de gebruikers, functies en instellingen voor Power BI in hun organisatie beheren. (Opmerking: bij Office 365, Azure en PowerApps wordt allemaal gebruikgemaakt van het beheercentrum.)
+**beheerportal** De locatie waar Power BI-beheerders de gebruikers, functies en instellingen voor Power BI in hun organisatie beheren. (Opmerking: bij Office 365, Azure en PowerApps wordt gebruikgemaakt van het beheercentrum.)
 
 **aggregaties** Wanneer de waarden van meerdere rijen worden gegroepeerd als invoer voor criteria. Zo wordt er één waarde gevormd die meer betekenis heeft of een specifieker meetresultaat biedt.
 
@@ -40,9 +40,9 @@ Deze verklarende woordenlijst is met behulp van de community opgesteld.  Ontbree
  
 **app-werkruimte** Alle werkruimten in Power BI, behalve Mijn werkruimte, zijn nu app-werkruimten. De inhoud kan worden samengevoegd in een Power BI-app. De inhoud die is opgeslagen in de Premium-capaciteit kan worden gedeeld met gebruikers met een gratis account. Persoonlijke werkruimten (bij Mijn werkruimte) kunnen worden gehost in de Premium-capaciteit.  
 
-**AppSource**
+**AppSource** Gecentraliseerde onlinerepository waar u in kunt bladeren en dashboards, rapporten, gegevenssets en apps kunt vinden en downloaden.
 
-**ArcGIS voor Power BI** ArcGIS is een toewijzings- en analyseplatform dat is gemaakt door het bedrijf ESRI. De naam van de visual uit de Power BI-visualbibliotheek heet ArcGIS voor Power BI.
+**ArcGIS Maps voor Power BI** ArcGIS is een toewijzings- en analyseplatform dat door het bedrijf ESRI is gemaakt. De naam van de visual uit de Power BI-visualbibliotheek heet ArcGIS Maps voor Power BI.
 
 **toewijzen** [Power BI Premium] Werkwoord voor het verplaatsen van een werkruimte naar toegewezen capaciteit (of om deze er weer uit te halen). Gebruik de optie Promoten niet voor het verplaatsen van een werkruimte naar toegewezen capaciteit, want dan staat de toegewezen capaciteit boven de gedeelde capaciteit.  
 
@@ -69,7 +69,7 @@ Deze verklarende woordenlijst is met behulp van de community opgesteld.  Ontbree
 
 **inhoudslijst** De inhoudsopgave van een app.
 
-**inhoudspakket**
+**inhoudspakket** Een verzameling vooraf verpakte gegevenssets, rapporten en dashboards. Nu **apps**, informatie [over de nieuwe werkruimte-ervaring](https://docs.microsoft.com/en-us/power-bi/service-create-the-new-workspaces). 
 
 **inhoudsweergave**
 
@@ -92,11 +92,11 @@ Deze verklarende woordenlijst is met behulp van de community opgesteld.  Ontbree
 **gegevensmodel, Excel-gegevensmodel**
 
 
-**gegevensset** vs. **gegevensbron**
+**gegevensset** versus **gegevensbron** Een **gegevensset** is een verzameling gegevens voor het maken van visualisaties en rapporten.
 
 **toegewezen capaciteit** [Power BI Premium] Gegevensmodellen die worden uitgevoerd op specifieke hardware in Microsoft-clouddatacenters om te zorgen voor consistente prestaties op schaal. BI-oplossingen worden aan de gehele organisatie aangeboden, onafhankelijk van de Power BI-licentie.
 
-**Desktop** Eerste keer: Power BI Desktop, volgende vermeldingen: Desktop
+**Desktop** Eerste keer: Power BI Desktop vermeldt vervolgens: Desktop
 
 
 **diamant** Power BI Premium. De vorm van het pictogram dat verwijst naar een werkruimte. Het gaat hierbij om werkruimten in de Premium-capaciteit.
@@ -110,6 +110,8 @@ Deze verklarende woordenlijst is met behulp van de community opgesteld.  Ontbree
 **beletselteken** ...
 
 **invoegcode** Iets dat veel gebruikt op internet. In Power BI kan de klant code voor insluiten genereren en deze kopiëren om inhoud te plaatsen. Zo kan er bijvoorbeeld een rapportvisual op een website of in een blog worden geplaatst.
+
+**Embedded** Zie Power BI Embedded. 
 
 **insluiten** Het proces van het integreren van analyses in apps aan de hand van de Power BI REST-API's en de Power BI-SDK (voor ontwikkelaars die met Power BI werken).
 
@@ -133,7 +135,7 @@ U kunt de term 'Power BI-omgeving (tenant)' prima gebruiken in documentatie. Bed
 
 ## <a name="g"></a>G
 
-**gateways** of **on-premises gegevensgateways** Bruggen naar onderliggende gegevensbronnen. Gateways bieden snelle en veilige gegevensoverdracht tussen de Power BI-service en on-premises gegevensbronnen die ondersteuning bieden voor vernieuwen. Meestal worden ze door het IT-personeel beheerd. on-premises gegevensgateways
+**gateways** of **on-premises gegevensgateways** Bruggen naar onderliggende gegevensbronnen. Gateways bieden snelle en veilige gegevensoverdracht tussen de Power BI-service en on-premises gegevensbronnen die ondersteuning bieden voor vernieuwen. Meestal worden ze door het IT-personeel beheerd. 
 
 ## <a name="h"></a>H
 **high-density visuals** Visuals met meer gegevenspunten dan Power BI kan weergeven. Power BI gebruikt voorbeelden uit de gegevens om de vorm en uitschieters weer te geven.
@@ -160,7 +162,7 @@ Eerste exemplaar: linkernavigatiebalk, volgende vermeldingen of krappe ruimten: 
 
 ## <a name="m"></a>M
 
-**metingen** Aangepaste berekeningen die in Power BI Desktop zijn geschreven aan de hand van DAX-code, of snelle metingen.
+**Mobiele app** Apps waarmee u Power BI op iOS-, Android- en Windows-apparaten kunt uitvoeren.
 
 **modellering** [Power BI Desktop] Het ophalen van de gegevens waar u verbinding mee hebt gemaakt om ze in Power BI te gebruiken. Dit omvat het maken van relaties tussen tabellen in meerdere gegevensbronnen, het maken van metingen en toewijzen van metrische gegevens.
 
@@ -180,6 +182,9 @@ Eerste exemplaar: linkernavigatiebalk, volgende vermeldingen of krappe ruimten: 
 ## <a name="o"></a>O
 
 **OneDrive voor Bedrijven** vs. **OneDrive** OneDrive biedt persoonlijke accounts en OneDrive voor Bedrijven biedt werkaccounts.  
+
+**On-premises data gateway** (On-premises gegevensgateway)
+
 
 
 ## <a name="p"></a>P
@@ -202,7 +207,7 @@ Eerste exemplaar: linkernavigatiebalk, volgende vermeldingen of krappe ruimten: 
 
 **Power BI**, **Power BI-service**, **Power BI Desktop**, **Power BI - Mobiel** Enkele producten die Power BI aanbiedt. *Power BI* is de algemene term. De term wordt vaak gebruikt in plaats van een volledige productnaam, zoals de *Power BI-service* en *Power BI - Mobiel*, nadat de volledige productnaam een keer is vermeld.
 
-**Power BI Desktop** Wordt ook wel *Desktop* genoemd.
+**Power BI Desktop** Wordt ook wel *Desktop* genoemd. De gratis Windows-toepassing bam Power BI die u op uw lokale computer kunt installeren en waarmee u verbinding kunt maken met gegevens, gegevens kunt transformeren en gegevens kunt visualiseren. Het wordt gebruikt door ontwerpers en beheerders van rapporten. Zie [Wat is Power BI](../power-bi-overview.md) voor meer informatie.
 
 **Power BI Embedded** Een product dat door ontwikkelaars wordt gebruikt om Power BI-dashboards en -rapporten in te sluiten in hun eigen apps, sites en hulpprogramma's.
 
@@ -210,8 +215,9 @@ Eerste exemplaar: linkernavigatiebalk, volgende vermeldingen of krappe ruimten: 
 
 **Power BI Pro-licentie** Een maandelijks betaalde gebruikerslicentie waarmee gebruikers dashboards kunnen bouwen, samen kunnen werken aan gedeelde gegevens, gegevens automatisch up-to-date kunnen houden, kunnen controleren en beheren hoe gegevens worden geopend en gebruikt om inhoud kunnen verpakken voor distributie (Power BI-apps).
 
-**Power BI Report Server** Een nieuw product van SSRS dat wordt geïntroduceerd in combinatie met Power BI Premium. Hiermee kunnen organisaties gedistribueerde, hybride BI-systemen bouwen (een combinatie van cloud- en on-premises implementaties).
-Deze systemen zijn gebaseerd op SQL Server Reporting Services met diens uitgebreide rapportagefunctionaliteit (inclusief mogelijkheden voor pagina's en mobiele rapporten). Met de systemen kunnen Power BI-rapporten die zijn geschreven in Power BI Desktop worden weergegeven in de mobiele Power BI-apps. De klassieke versie van SSRS blijft ook nog beschikbaar.
+**Power BI Report Server** Een nieuw product van SSRS dat wordt geïntroduceerd in combinatie met Power BI Premium. Hiermee kunnen organisaties gedistribueerde, hybride BI-systemen bouwen (een combinatie van cloud- en on-premises implementaties). Embedded biedt een gelokaliseerde manier om Power BI-rapporten op te slaan en te beheren.
+
+**Power BI-service** Een online SaaS (software als een dienst)-service. Zie [Wat is Power BI](../power-bi-overview.md) voor meer informatie.
 
 **Power BI-service-connector** Met deze connector kunnen Power BI Desktop-gebruikers vanuit Desktop verbinding maken met gegevenssets in de Power BI-service. Ze kunnen één keer een model maken en dit model daarna hergebruiken in vele rapporten en dashboards.
 

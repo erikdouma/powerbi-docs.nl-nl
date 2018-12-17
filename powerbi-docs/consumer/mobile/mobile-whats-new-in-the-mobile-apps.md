@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: maggies
-ms.openlocfilehash: 9d73e7b4e9b303f1a774c14fc813572805f7b093
-ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
+ms.openlocfilehash: 37995f52882d1a5062b8aa03fb7b0480063a4f77
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51297223"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979537"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -100,7 +100,7 @@ Wanneer u nu door een rapport navigeert door te vegen, een rapportpagina op de a
 
 Wanneer rapportontwerpers dashboardthema's in de Power BI-service aanpassen, wordt ook de vormgeving van het dashboard in de mobiele app gewijzigd. U ziet echter geen achtergrondafbeeldingen.
 
-#### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS: toegang via Power BI mobiele iOS-apps tot rapportservers op afstand configureren
+#### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS: Toegang via Power BI mobiele iOS-apps tot rapportservers op afstand configureren
 
 Uw IT-beheerder kan nu een MDM-hulpprogramma gebruiken om toegang via een Power BI mobiele iOS-app tot een rapportserver te configureren. Zie [Toegang via Power BI mobiele iOS-apps tot rapportserver op afstand configureren](../../report-server/configure-powerbi-mobile-apps-remote.md) voor meer informatie.
 
@@ -221,7 +221,7 @@ Lees het [overzicht van functies op mobiele apps van juli 2017](https://powerbi.
 #### <a name="all-devices"></a>Alle apparaten
 **Nieuw menu: Gedeeld met mij** Ga naar Gedeeld met mij in het menu van de mobiele app om alle inhoud te zien die met u is gedeeld.
 
-**Nieuw menu: Apps** Een app is een verzameling dashboards en rapporten die door uw organisatie is gebouwd om belangrijke metrieken te bieden zodat sneller en eenvoudige besluiten op basis van gegevens kunnen worden gemaakt.
+**Nieuw menu: Apps** Een app is een verzameling dashboards en rapporten die door uw organisatie is gebouwd om belangrijke metrieken te bieden zodat sneller en eenvoudiger besluiten op basis van gegevens kunnen worden gemaakt.
 
 Lees meer over [hoe de inhoud in Power BI is georganiseerd](mobile-apps-quickstart-view-dashboard-report.md) (Engelstalig).
 
@@ -300,7 +300,7 @@ Lees het [overzicht van functies in de blog over mobiele apps van januari 2017](
 #### <a name="android"></a>Android
 **SSRS-verificatie gebruiken met ADFS (Active Directory Federation Services) (preview)** U kunt zich voortaan op uw telefoon met het account van uw organisatie aanmelden bij on-premises SQL Server Reporting Services-servers. Lees meer over [het gebruik van OAuth om verbinding te maken met SSRS-servers](mobile-oauth-ssrs.md) (Engelstalig).
 
-**Nieuw en verbeterd: snel aantekeningen maken op inzichten en deze delen** Delen en aantekeningen maken zijn nu volledig functioneel op Android-apparaten. Dankzij het verbeterde menu kunt u nu makkelijker en sneller aantekeningen maken op inzichten en deze delen. U kunt ook een geannoteerd rapport delen, ook rechtstreeks vanuit de Power BI-app.
+**Nieuw en verbeterd: Snel aantekeningen maken op inzichten en deze delen** Delen en aantekeningen maken zijn nu volledig functioneel op Android-apparaten. Dankzij het verbeterde menu kunt u nu makkelijker en sneller aantekeningen maken op inzichten en deze delen. U kunt ook een geannoteerd rapport delen, ook rechtstreeks vanuit de Power BI-app.
 
 ### <a name="december-2016"></a>December 2016
 Lees het [overzicht van functies in de blog over mobiele apps van december 2016](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-december-2016) (Engelstalig).
@@ -458,9 +458,9 @@ Het meldingencentrum in de mobiele Power BI-app toont nieuwe gegevens of dashboa
 ### <a name="may-2016"></a>Mei 2016
 #### <a name="ios-devices-and-android-phones"></a>iOS-apparaten en Android-telefoons
 * **QR-codes** zijn nu ook beschikbaar **voor rapporten**. Scan de code met uw Power BI-app om rechtstreeks naar het bijbehorende rapport te gaan zonder navigatie of zoeken.
-* **Verbeterd gegevensbeheer** voor SQL Server 2016 Reporting Services: gereduceerde laadtijden en gereduceerd gegevensverbruik op uw apparaat.
-* **Mobiele SQL Server 2016-rapporten met thema's**: zie thema's voor mobiele rapporten op uw apparaat.
-* **Geo-filteren**: filter rapporten op uw huidige locatie.
+* **Verbeterd gegevensbeheer** voor SQL Server 2016 Reporting Services: Gereduceerde laadtijden en gereduceerd gegevensverbruik op uw apparaat.
+* **Mobiele rapporten van SQL Server 2016 met thema**: Bekijk thema's voor mobiele rapporten op uw apparaat.
+* **Geo-filteren**: Filter rapporten op uw huidige locatie.
 
 ### <a name="april-2016"></a>April 2016
 Zie het [blog voor mobiele Power BI-apps van april](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-april-2016/) (Engelstalig) voor meer informatie.
@@ -523,7 +523,7 @@ Geef dashboards weer in [liggende modus op Windows 10-telefoons](mobile-apps-vie
 
 Geef [rapporten weer op uw Windows 10-telefoon](mobile-reports-in-the-mobile-apps.md) (Engelstalig).
 
-Sneller naar [inzichten op uw mobiele Windows 10-dashboards](mobile-tiles-in-the-mobile-apps.md) (Engelstalig): deel een momentopname van een tegel of open een rapport rechtstreeks in het dashboard.
+Sneller [inzicht in uw mobiele Windows 10-dashboards](mobile-tiles-in-the-mobile-apps.md): Deel een momentopname van een tegel of open een rapport rechtstreeks vanuit het dashboard.
 
 ### <a name="january-2016"></a>Januari 2016
 Alle verbeteringen van januari zijn al aanwezig in de nieuwe [Power BI-app voor Windows 10-telefoons](mobile-windows-10-phone-app-get-started.md) (Engelstalig), uitgebracht in december 2015. Ze worden nu ook uitgebracht voor de overige Power BI-apps voor mobiele apparaten. Lees in de blogpost over deze verbeteringen.
@@ -536,7 +536,7 @@ Alle verbeteringen van januari zijn al aanwezig in de nieuwe [Power BI-app voor 
 
 **R-tegels en webwidgets** Bekijk deze nieuwe tegeltypen in dashboards op uw mobiele apparaat.
 
-**Bing-dashboards** In de Power BI-service kunt u nu [dashboards maken met Bing-zoekresultaten](../end-user-connect-to-services.md) (Engelstalig) en ze weergeven op uw mobiele apparaat.
+**Bing-dashboards** In de Power BI-service kunt u nu [dashboards maken met Bing-zoekresultaten](../../service-connect-to-services.md) (Engelstalig) en ze weergeven op uw mobiele apparaat.
 
 **Rapportpagina's als tegels vastgemaakt aan dashboards** Nu u een hele rapportpagina aan een dashboard in de Power BI-service kunt vastmaken, kunt u rapportpagina's bekijken in de Power BI-app op uw iPhone of Android-telefoon.
 
@@ -600,21 +600,21 @@ Lees de [blogpost over mobiele Power BI-apps van half oktober](http://blogs.msdn
 Verbeteringen aan de mobiele Power BI-apps: Android, iOS (iPhone en iPad) en Windows. Lees de [blogpost over mobiele Power BI-apps van half september](http://blogs.msdn.com/b/powerbi/archive/2015/09/23/power-bi-mobile-mid-september-updates-are-here.aspx) (Engelstalig).
 
 #### <a name="android"></a>Android
-* Ondersteuning voor groepswerkruimten: samenwerken met collega's in groepswerkruimten. 
-* Ondersteuning voor niet-geverifieerde gebruikers: voor de zeldzame gevallen wanneer gebruikers zich niet kunnen aanmelden bij de app, is er een snelle, handige manier toegevoegd om contact op te nemen met de ondersteuning en feedback te verzenden.
+* Ondersteuning voor groepswerkruimten: Werk samen met collega's in groepswerkruimten. 
+* Ondersteuning voor niet-geverifieerde gebruikers:  Voor de zeldzame gevallen wanneer gebruikers zich niet kunnen aanmelden bij de app, is er een snelle, handige manier toegevoegd om contact op te nemen met de ondersteuning en feedback te verzenden.
 * Verbeterde gebruikerservaring bij het openen van dashboards met beveiliging op basis van rollen.          
 * Verbeterde gegevensopmaak van grafieken en uitlijning van alle dashboardtegels. 
 
 #### <a name="ios-iphone-and-ipad"></a>iOS (iPhone en iPad)
-* Nieuwe en verbeterde navigatie: nieuwe navigatie met lades maximaliseert de schermruimte en verbetert de navigatie in de hele app. 
-* Groepswerkruimten: werk samen met collega's in groepswerkruimten. 
+* Nieuwe en verbeterde navigatie: Nieuwe navigatie met lades maximaliseert de schermruimte en verbetert de navigatie in de hele app. 
+* Groepswerkruimten: Werk samen met collega's in groepswerkruimten. 
 * Verbetering van het verificatieproces van de app dankzij verbeteringen van de kwaliteit van het upgraden, de prestaties en de functionaliteit van het verificatieproces, inclusief ondersteuning voor SSO (eenmalige aanmelding). 
 * Verbeterde weergave van gegevens van lijndiagramtegels zodat de X-as meer kan worden gecomprimeerd.
 * Verbeterde gebruikerservaring in combinatie met beveiliging op basis van rollen.
-* Voor aanraakinvoer geoptimaliseerde verbeteringen voor matrixgrafiektegels: u kunt nu eenvoudig door uw matrixgegevens schuiven en alle gegevens makkelijk en intuïtief weergeven.
+* Voor aanraakinvoer geoptimaliseerde verbeteringen voor matrixgrafiektegels: U kunt nu eenvoudig door uw matrixgegevens schuiven en alle gegevens makkelijk en intuïtief weergeven.
 * Verbeterde gegevensopmaak van grafieken en uitlijning van dashboardtegels. 
-* Beëindigen van ondersteuning voor iOS 7: ten einde de hoogste beveiligingsstandaarden voor Power BI te handhaven, worden geïnstalleerde iOS 7-apparaten niet langer ondersteund. iOS 8 of hoger is vereist. 
-* Mogelijkheid tot verzenden van feedback en beoordelingen geven is in app aanwezig: hiermee wordt de invloed van de community op ons schema groter en kunnen problemen makkelijk en rechtstreeks vanuit de app worden ingediend.
+* Beëindigen van ondersteuning voor iOS 7: Om de hoogste beveiligingsstandaarden voor Power BI te handhaven, worden geïnstalleerde iOS 7-apparaten niet langer ondersteund. iOS 8 of hoger is vereist. 
+* Verzenden van feedback en classificatie toegevoegd in app: Mogelijkheid tot verzenden van feedback en beoordelingen geven in de app toegevoegd, waarmee de invloed van de community op ons schema groter wordt en problemen makkelijk en rechtstreeks vanuit de app kunnen worden ingediend.
 
 #### <a name="windows"></a>Windows
 * Verbeterde weergave van kaarttegels in focusmodus om de schermruimte te maximaliseren.

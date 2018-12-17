@@ -1,25 +1,26 @@
 ---
-title: Wat is Azure Power BI Embedded? | Microsoft Docs
-description: Power BI Embedded maakt het voor ISV's en ontwikkelaars eenvoudiger om gebruik te maken van de Power BI-functionaliteit. Ze kunnen hiermee snel prachtige visuals, rapporten en dashboards toevoegen aan hun apps.
+title: Wat is Azure Power BI Embedded en ingesloten analyse? | Microsoft Docs
+description: Power BI Embedded is ontworpen als een hulpprogramma voor ingesloten analyse en maakt het voor ISV's en ontwikkelaars eenvoudiger om gebruik te maken van de Power BI-functionaliteit. Ze kunnen hiermee snel prachtige visuals, rapporten en dashboards toevoegen aan hun apps. Informatie over het gebruik van software voor ingesloten analyse, hulpprogramma's voor ingebouwde analyse of hulpprogramma's voor ingesloten business intelligence met behulp van Power BI Embedded.
 author: markingmyname
 ms.author: maghan
 manager: kfile
+ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.component: ''
 ms.devlang: csharp, javascript
 ms.topic: overview
-ms.reviewer: ''
-ms.date: 07/31/2018
-ms.openlocfilehash: b46508aeca35769fb27324fb20f502ac66cb55ab
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: 70cb8f72e5749f7eed70d4476f3af87e272813f4
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39360333"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180686"
 ---
-# <a name="what-is-power-bi-embedded-in-azure"></a>Wat is Power BI Embedded in Azure? 
+# <a name="what-is-power-bi-embedded-in-azure"></a>Wat is Power BI Embedded in Azure?
 
-Power BI Embedded dient ter vereenvoudiging van de manier waarop ISV's en ontwikkelaars de Power BI-functionaliteit gebruiken. Met Power BI Embedded kunt u eenvoudiger gebruikmaken van de Power BI-functionaliteit: u kunt hiermee namelijk snel prachtige visuals, rapporten en dashboards toevoegen aan uw apps. Dit is vergelijkbaar met wanneer apps die zijn gebouwd in Microsoft Azure gebruikmaken van services als Machine Learning en het IoT. Door het verkennen van gegevens eenvoudig te maken in hun apps, kunnen ISV's ervoor zorgen dat hun klanten snel goede beslissingen kunnen nemen in de juiste context.
+Power BI Embedded dient ter vereenvoudiging van de manier waarop ISV's en ontwikkelaars de Power BI-functionaliteit gebruiken met ingesloten analyse. Met Power BI Embedded kunt u eenvoudiger gebruikmaken van de Power BI-functionaliteit: u kunt hiermee namelijk snel prachtige visuals, rapporten en dashboards toevoegen aan uw apps. Dit is vergelijkbaar met wanneer apps die zijn gebouwd in Microsoft Azure gebruikmaken van services als Machine Learning en het IoT. Door het verkennen van gegevens eenvoudig te maken in hun apps, kunnen ISV's ervoor zorgen dat hun klanten snel goede beslissingen kunnen nemen in de juiste context.
 
 > [!VIDEO https://www.youtube.com/embed/iEHfUuoZseo]
 
@@ -39,7 +40,7 @@ Hebt u een bestaande app met ingesloten Power BI-inhoud en gebruikt u Power BI P
 
 Met Power BI Embedded kunt u zich richten op waar u het beste in bent: fantastische apps bouwen. U kunt met Power BI Embedded uitstekend beheren en ontwikkelen aan de hand van de hulpprogramma's en vaardigheden waarover u al beschikt.
 
-* [**Azure Portal**](https://portal.azure.com/): een webtoepassing voor het beheren van alle Azure-services
+* [**De Azure-portal**](https://portal.azure.com/): een webtoepassing voor het beheren van alle Azure-services
 * [**Visual Studio Code**](https://code.visualstudio.com/docs): een gratis te downloaden open-source code-editor voor Windows, macOS en Linux die ondersteuning biedt voor extensies
 * [**Power BI Desktop**](https://powerbi.microsoft.com/desktop/): een gratis te downloaden hulpprogramma voor het maken van uitgebreide interactieve rapporten met visuele analyses
 
@@ -48,13 +49,13 @@ Dankzij de REST API kunt u met Power BI Embedded met alle talen ontwikkelen.
 ## <a name="engage-with-the-power-bi-engineering-team"></a>Contact met het technische team van Power BI
 
 * [Community's](https://community.powerbi.com/): vragen stellen over Power BI
-* [Power BI Ideas](https://ideas.powerbi.com): functies aanvragen en stemmen op functies
+* [Power BI-ideeën](https://ideas.powerbi.com): functies aanvragen en stemmen op functies
 * [Reddit](https://www.reddit.com/r/PowerBI/): Power BI bespreken
 
 ## <a name="next-steps"></a>Volgende stappen
 
 Zie de [pagina met prijzen](https://azure.microsoft.com/pricing/details/power-bi-embedded/) voor gegevens over het capaciteitsknooppunt.
 
-Zie [Power BI Embedded-capaciteit maken in Azure Portal](azure-pbie-create-capacity.md) voor het maken van Power BI Embedded-capaciteit
+Zie [Power BI Embedded-capaciteit maken in de Azure-portal](azure-pbie-create-capacity.md) voor het maken van Power BI Embedded-capaciteit
 
-Als u Power BI-inhoud wilt insluiten, ziet u [Uw Power BI-dashboards, -rapporten en -tegels insluiten](https://powerbi.microsoft.com/documentation/powerbi-developer-embedding-content/).
+Zie [Uw Power BI-dashboards, -rapporten en -tegels insluiten](https://powerbi.microsoft.com/documentation/powerbi-developer-embedding-content/) als u Power BI-inhoud wilt insluiten.

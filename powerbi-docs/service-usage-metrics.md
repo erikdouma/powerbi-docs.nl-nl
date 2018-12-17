@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 11/13/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 53d39eaf7c615d2ed279e7c45330dacbdad7994a
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 1c6c0a803e77ead6d43c23ac2b12b305d5960ef7
+ms.sourcegitcommit: 2882b8962ed03c188257c042e537c76b052545c5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830327"
+ms.lasthandoff: 12/08/2018
+ms.locfileid: "53111537"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Metrische gegevens over het gebruik van dashboards en rapporten
 
@@ -84,8 +84,8 @@ Om de rapportgegevens nader te bekijken of om uw eigen rapporten samen te stelle
 | Totaal aantal bezoekers |ja |ja |Het aantal unieke bezoekers in de afgelopen 90 dagen. |
 | Totaal aantal shares |ja |nee |Het aantal keren dat het dashboard of rapport in de afgelopen 90 dagen is gedeeld. |
 | Totaal in de organisatie |ja |ja |Totaal aantal weergaven van alle dashboards en rapporten in de hele organisatie die minimaal eenmaal zijn weergegeven in de afgelopen 90 dagen.  Wordt gebruikt om de positie te berekenen. |
-| Positie: totaal aantal weergaven |ja |ja |Welke positie neemt dit dashboard of rapport in voor het totale aantal weergaven van alle dashboards en rapporten in de organisatie gedurende de afgelopen 90 dagen. |
-| Positie: totaal aantal shares |ja |nee |Welke positie neemt dit dashboard of rapport in voor het totale aantal shares van alle dashboards in de organisatie gedurende de afgelopen 90 dagen. |
+| Positie: Totaal aantal weergaven |ja |ja |Welke positie neemt dit dashboard of rapport in voor het totale aantal weergaven van alle dashboards en rapporten in de organisatie gedurende de afgelopen 90 dagen. |
+| Positie: Totaal aantal shares |ja |nee |Welke positie neemt dit dashboard of rapport in voor het totale aantal shares van alle dashboards in de organisatie gedurende de afgelopen 90 dagen. |
 
 ### <a name="dashboard-usage-metrics-report"></a>Rapport Metrische gegevens over dashboardgebruik
 
@@ -172,19 +172,19 @@ Het is belangrijk om te begrijpen dat er verschillen kunnen optreden wanneer u m
 
 Naast de mogelijke verschillen tussen metrische gegevens over gebruik en auditlogboeken, kunnen de volgende vragen en antwoorden over metrische gegevens over gebruik handig zijn voor gebruikers en beheerders:
 
-V: Ik kan geen metrische gegevens over gebruik uitvoeren op een dashboard of rapport A: U ziet alleen de metrische gegevens over gebruik voor inhoud waarvan u eigenaar bent of waarvoor u machtigingen hebt om te bewerken.
+V:    Ik kan geen metrische gegevens over gebruik op een dashboard of rapport uitvoeren.    A: U ziet alleen de metrische gegevens over gebruik voor inhoud waarvan u eigenaar bent of waarvoor u machtigingen hebt om ze te bewerken.
 
-V: Leggen metrische gegevens over gebruik weergaven van de ingesloten dashboards en rapporten vast?
-A: Metrische gegevens over gebruik bieden geen ondersteuning voor het vastleggen van gebruik voor ingesloten dashboards en rapporten, en de stroom [publiceren op web](service-publish-to-web.md).          In die gevallen raden we u aan om bestaande platformen voor webanalyse te gebruiken om het gebruik voor de hosting-app of -portal bij te houden.
+V:    Leggen metrische gegevens over gebruik weergaven van de ingesloten dashboards en rapporten vast?
+A:    Metrische gegevens over gebruik bieden geen ondersteuning voor het vastleggen van gebruik voor ingesloten dashboards en rapporten, en de stroom [publiceren op web](service-publish-to-web.md).          In die gevallen raden we u aan om bestaande platformen voor webanalyse te gebruiken om het gebruik voor de hosting-app of -portal bij te houden.
 
-V: Ik kan geen metrische gegevens over gebruik uitvoeren op geen enkele inhoud.
-A1: Beheerders kunnen deze functie uitschakelen voor hun organisatie.  Neem contact op met uw beheerder om te zien of dit het geval is.
-A2: Metrische gegevens over gebruik is een functie van Power BI Pro.
+V:    Ik kan geen metrische gegevens over gebruik uitvoeren op welke inhoud dan ook.
+A1:    Beheerders kunnen deze functie uitschakelen voor hun organisatie.  Neem contact op met uw beheerder om te zien of dit het geval is.
+A2:    Metrische gegevens over gebruik is een functie van Power BI Pro.
 
-V: De gegevens lijken niet up-to-date te zijn. Distributiemethoden worden bijvoorbeeld niet weergegeven, rapportpagina's ontbreken, enzovoort. A: Het kan 24 uur duren voordat gegevens zijn bijgewerkt.
+V:    De gegevens lijken niet up-to-date te zijn. Distributiemethoden worden bijvoorbeeld niet weergegeven, rapportpagina's ontbreken, enzovoort. A:    Het kan 24 uur duren voordat gegevens zijn bijgewerkt.
 
-V: Er zijn vier rapporten in de werkruimte, maar het rapport met metrische gegevens over gebruik geeft maar drie weer.
-A: Het rapport met metrische gegevens over gebruik bevat alleen rapporten (of dashboards) die in de afgelopen 90 dagen zijn geopend.  Als een rapport (of dashboard) niet wordt weergegeven, is het waarschijnlijk meer dan 90 dagen niet gebruikt.
+V:    Er zijn vier rapporten in de werkruimte, maar het rapport met metrische gegevens over gebruik geeft er maar drie weer.
+A:    Het rapport met metrische gegevens over gebruik bevat alleen rapporten (of dashboards) die in de afgelopen negentig dagen zijn geopend.  Als een rapport (of dashboard) niet wordt weergegeven, is het waarschijnlijk meer dan 90 dagen niet gebruikt.
 
 ## <a name="next-steps"></a>Volgende stappen
 

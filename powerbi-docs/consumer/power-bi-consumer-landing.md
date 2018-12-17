@@ -1,21 +1,22 @@
 ---
 title: Power BI voor rapportgebruikers
-description: Aan de slag met Power BI? Maak kennis met de verschillende producten en diensten die samen Power BI vormen en ontdek wat u ermee kunt doen.
+description: Aan de slag met Power BI? Leer de functies en mogelijkheden van Power BI kennen en zie wat u er als gebruiker of eindgebruiker van Power BI mee kunt doen.
 author: mihart
 manager: kvivek
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: landing-page
-ms.date: 10/11/2018
+ms.date: 12/10/2018
 ms.author: mihart
 layout: landingpage
+ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: 566511622ffd167d3389ab0ba290671f577a759f
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: bd4592a8ba28277356f251c81906ac265c1759a2
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396563"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280875"
 ---
 # <a name="power-bi-for-consumers"></a>Power BI voor gebruikers
 Als *eindgebruiker* of *consument* bent u iemand die dashboards, rapporten en apps van collega's ontvangt. U werkt in ***Power BI-service*** om deze inhoud te beoordelen en te gebruiken voor het nemen van zakelijke beslissingen.
@@ -47,7 +48,7 @@ Een <a href="end-user-report-open.md">rapport</a> | <a href="end-user-dashboard-
                                                                         <div class="cardText"> 
                                                                                       <h3>Maak kennis met Power BI</h3> 
                                                                                       <p></p>
-                                                                                            <a href="end-user-basic-concepts.md">Basisconcepten</a><br/>
+                                                                                            <a href="end-user-basic-concepts.md">Basisbeginselen</a><br/>
                                                                                             <a href="end-user-experience.md">Navigeren in de Power BI-service</a><br/> 
                                                                                             <a href="../power-bi-overview.md">Meer informatie over de verschillende hulpprogramma's van Power BI</a><br/> 
                                                                                             <!--<a href="end-user-faq.md">FAQ: Frequently Asked Questions</a> -->
@@ -63,7 +64,7 @@ Een <a href="end-user-report-open.md">rapport</a> | <a href="end-user-dashboard-
                                                                         <div class="cardText"> 
                                                                                       <h3>Geavanceerde taken</h3> 
                                                                                       <p></p>
-                                                                                            <a href="end-user-q-and-a.md">Zoekvak van Q&A voor zoeken met natuurlijke taalgebruik</a><br/> 
+                                                                                            <a href="end-user-q-and-a.md">Het zoekvak van Q&A leren gebruiken voor zoeken met natuurlijke taalgebruik</a><br/> 
                                                                                             <a href="end-user-focus.md">Weergave-instellingen wijzigen</a><br/> 
                                                                                             <a href="end-user-report-filter.md">Meer informatie over het gebruik van rapportfilters</a><br> 
                                                                                             <a href="end-user-insights.md">Automatische inzichten genereren</a><br/> 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 360ffdd61525244bd75e57c8c9c9aad25131a13d
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 92af01b7020f734f286d927650e58a5fea5d8047
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51267234"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180824"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Selfservice voor gegevensvoorbereiding in Power BI (preview)
 
@@ -68,6 +68,7 @@ Power BI kan worden geconfigureerd voor het opslaan van gegevens van de gegevens
 
 Met Power BI kunt u ook verbinding maken met mappen met geschematiseerde gegevens in de Common Data Model-indeling, die zijn opgeslagen in uw organisatie-account voor Azure Data Lake Storage. Deze mappen kunnen worden gemaakt met services zoals Azure-gegevensservices. Door verbinding met deze mappen te maken, kunnen analisten naadloos met deze gegevens werken in Power BI. 
 
+Zie [Integratie van gegevensstromen en Azure Data Lake (preview)](service-dataflows-azure-data-lake-integration.md) voor meer informatie over Azure Data Lake Storage Gen2 en integratie van gegevensstromen, waaronder het maken van gegevensstromen die in Azure Data Lake van uw organisatie aanwezig zijn.
 
 ## <a name="dataflow-capabilities-on-power-bi-premium"></a>Mogelijkheden voor gegevensstromen in Power BI Premium
 
@@ -105,9 +106,6 @@ Door bedrijfsgegevens op te slaan in de gestandaardiseerde indeling van **Common
 * Aan de slag met gegevensstromen voor ontwikkelaars
 
 
-
-
-
 ## <a name="next-steps"></a>Volgende stappen
 
 Dit artikel geeft een overzicht van de selfservice voor gegevensvoorbereiding voor big data in Power BI en de vele manieren waarop u deze kunt gebruiken. In de volgende artikelen wordt dieper ingegaan op veelvoorkomende gebruiksmogelijkheden van gegevensstromen. 
@@ -116,6 +114,7 @@ Dit artikel geeft een overzicht van de selfservice voor gegevensvoorbereiding vo
 * [Berekende entiteiten gebruiken in Power BI Premium (preview)](service-dataflows-computed-entities-premium.md)
 * [Gegevensstromen gebruiken met on-premises gegevensbronnen (preview)](service-dataflows-on-premises-gateways.md)
 * [Resources voor ontwikkelaars voor Power BI-gegevensstromen (preview)](service-dataflows-developer-resources.md)
+* [Integratie van gegevensstromen en Azure Data Lake (preview)](service-dataflows-azure-data-lake-integration.md)
 
 U kunt de volgende artikelen lezen voor meer informatie over Power Query en geplande vernieuwing:
 * [Queryoverzicht in Power BI Desktop](desktop-query-overview.md)

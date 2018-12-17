@@ -1,23 +1,25 @@
 ---
-title: Power BI-inhoud insluiten in een toepassing voor uw klanten voor onafhankelijke en overheidsclouds
-description: Informatie over het integreren of insluiten van een dashboard, een tegel of een rapport in een web-app met behulp van de Power BI-API's voor uw klanten.
+title: Ingesloten analyse om Power BI-inhoud in te sluiten in uw toepassing voor onafhankelijke en overheidsclouds
+description: Informatie over het integreren of insluiten van een rapport, dashboard of tegel in een toepassing voor uw klanten met behulp van de Power BI-API's voor ingesloten analyse. Informatie over het integreren van Power BI in uw toepassing met behulp van software voor ingesloten analyse, hulpprogramma's voor ingesloten analyse of hulpprogramma's voor ingesloten business intelligence.
 author: markingmyname
 ms.author: maghan
 manager: kfile
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: tutorial
-ms.date: 10/25/2018
-ms.openlocfilehash: 76b80ad296f2f595fb5014e13bbd48d414cd8bbe
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: aabf472e236f545fe51d4007dcd8fbdf36632931
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003151"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180617"
 ---
-# <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Zelfstudie: een Power BI-dashboard, -tegel of -rapport in uw toepassing insluiten voor onafhankelijke clouds
+# <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Zelfstudie: Een Power BI-dashboard, -tegel of -rapport in uw toepassing insluiten voor onafhankelijke clouds
 
-Informatie over hoe u een dashboard, tegel of rapport insluit in uw webtoepassingen wanneer u gegevens voor uw klanten integreert met de .NET-SDK voor Power BI en de JavaScript-API voor Power BI.
+Informatie over het insluiten van analytische inhoud binnen uw bedrijfsprocestoepassingen voor de onafhankelijke cloud. U kunt de Power BI .NET SDK met de Power BI JavaScript-API gebruiken om rapporten, dashboards of tegels in uw webtoepassingen in te sluiten.
 
 Power BI ondersteunt ook onafhankelijke (privé)clouds.
 
@@ -132,7 +134,7 @@ Registreer uw toepassing met Azure AD om REST API-aanroepen te maken. Zie [Een A
 
 * Power BI-cloud voor China - https://app.powerbi.cn/apps
 
-Als u het [voorbeeld voor het insluiten van inhoud voor uw klanten](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) hebt gedownload, gebruikt u de **applicationId** die u verkrijgt na de registratie, zodat het voorbeeld kan worden geverifieerd voor Azure AD. Voor het configureren van het voorbeeld wijzigt u de **applicationId** in het bestand *web.config*.
+Als u het [voorbeeld voor het insluiten van inhoud voor uw klanten](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) hebt gedownload, gebruikt u de **applicationId** die u verkrijgt, zodat het voorbeeld kan worden geverifieerd voor Azure AD. Voor het configureren van het voorbeeld wijzigt u de **applicationId** in het bestand *web.config*.
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>Stap 2: een toegangstoken ophalen uit Azure AD
 
@@ -227,7 +229,7 @@ Tile tile = tiles.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>Het insluittoken maken
 
-U kunt een insluittoken genereren met de JavaScript-API. Het insluittoken heeft alleen betrekking op het item dat is ingesloten. Dit betekent dat u een nieuw insluittoken moet maken voor elk stukje Power BI-inhoud dat u wilt insluiten. Zie [Insluittoken](https://docs.microsoft.com/rest/api/power-bi/embedtoken) voor meer informatie, onder andere over welk **accessLevel** u moet gebruiken.
+U kunt een insluittoken genereren met de JavaScript-API. Het insluittoken heeft alleen betrekking op het item dat u insluit. Dit betekent dat u een nieuw insluittoken moet maken voor elk stukje Power BI-inhoud dat u wilt insluiten. Zie [Insluittoken](https://docs.microsoft.com/rest/api/power-bi/embedtoken) voor meer informatie, onder andere over welk **accessLevel** u moet gebruiken.
 
 > [!IMPORTANT]
 > Omdat insluittokens alleen voor ontwikkelingstesten zijn bedoeld, kan een Power BI-masteraccount een onbeperkt aantal insluittokens genereren. Er moet een [capaciteit moet worden aangeschaft](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) voor insluitingsscenario's voor de productie. Het aantal te genereren insluitingstokens is onbeperkt wanneer een capaciteit is aangeschaft.

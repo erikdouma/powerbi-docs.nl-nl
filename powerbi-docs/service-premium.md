@@ -9,13 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/21/2018
+ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 451727d473b59afd362e4f31e8aef634d2168f83
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: cbfee8034639a65517f9adc57cc95dd1271e6044
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717626"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025437"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Wat is Microsoft Power BI Premium?
 
@@ -31,7 +32,7 @@ In de volgende afbeelding wordt de Contoso-organisatie als voorbeeld gebruikt om
 
 ![Afbeelding van Power BI Premium](media/service-premium/premium-chart.png)
 
-| Gebied | Beschrijving |
+| Oppervlakte | Beschrijving |
 | --- | --- |
 | **(1)** Items binnen een Premium-capaciteit | <ul><li>Voor de toegang tot app-werkruimten (als leden of beheerders) en het publiceren van apps is Power BI Pro-licentie vereist.<li>Voor het delen van een app is een Pro-licentie vereist, voor het gebruik van een app niet.<li>Alle ontvangers van het dashboard kunnen gegevensmeldingen instellen, ongeacht de licentie die aan hen is toegewezen.<li>REST-API's voor insluiten maken gebruik van een serviceaccount met een Pro-licentie, in plaats van een gebruikersaccount.</ul> |
 | **(2)** Mijn werkruimte in gedeelde capaciteit | <ul><li>Er is een Pro-licentie vereist voor zowel het delen als gebruiken van een app.</ul> |
@@ -45,11 +46,11 @@ De volgende tabel bevat een overzicht van de verschillen tussen de gedeelde capa
 |  | Gedeelde capaciteit | Power BI Premium-capaciteit |
 | --- | --- | --- |
 | **Vernieuwingsfrequentie** |8 keer per dag |48 keer per dag |
-| **Isolatie met toegewezen hardware** |![](media/service-premium/not-available.png "Niet beschikbaar") |![](media/service-premium/available.png "Beschikbaar") |
+| **Isolatie met toegewezen hardware** |![Niet beschikbaar](media/service-premium/not-available.png) |![Beschikbaar](media/service-premium/available.png) |
 | **Enterprise distributie naar** _**alle gebruikers**_ | | |
-| Apps en delen |![](media/service-premium/not-available.png "Niet beschikbaar") |![](media/service-premium/available.png "Beschikbaar")<sup>1</sup> |
-| Ingesloten API en besturingselementen |![](media/service-premium/not-available.png "Niet beschikbaar") |![](media/service-premium/available.png "Beschikbaar")<sup>2</sup> |
-| **Power BI-rapporten on-premises publiceren** |![](media/service-premium/not-available.png "Niet beschikbaar") |![](media/service-premium/available.png "Beschikbaar") |
+| Apps en delen |![Niet beschikbaar](media/service-premium/not-available.png) |![Beschikbaar](media/service-premium/available.png) |
+| Ingesloten API en besturingselementen |![Niet beschikbaar](media/service-premium/not-available.png) |![Beschikbaar](media/service-premium/available.png)<sup>2</sup> |
+| **Power BI-rapporten on-premises publiceren** |![Niet beschikbaar](media/service-premium/not-available.png) |![Beschikbaar](media/service-premium/available.png) |
 | | | |
 
 *<sup>1</sup> Zie [Power BI Free vs Pro voor meer informatie](service-features-license-type.md).*  
@@ -113,7 +114,7 @@ In de volgende tabellen ziet u de standaard- en minimumwaarden voor geheugen, op
 
 Houd rekening met de volgende punten als u de workload Gepagineerde rapporten gebruikt.
 
-* **Geheugentoewijzing in gepagineerde rapporten**: gepagineerde rapporten ondersteunen het uitvoeren van eigen code bij het weergeven van een rapport (zoals het dynamisch wijzigen van de tekstkleur op basis van inhoud). Gezien dit feit beveiligen we Power BI Premium-capaciteit door gepagineerde rapporten uit te voeren in een afgesloten ruimte binnen de capaciteit. Aan deze ruimte wordt de maximale hoeveelheid geheugen toegewezen die u hebt ingesteld, ongeacht of de workload actief is of niet. Als u Power BI-rapporten of gegevensstromen in dezelfde capaciteit gebruikt, moet u het geheugen voor gepagineerde rapporten laag genoeg instellen, zodat deze workload geen gevolgen heeft voor de andere workloads.
+* **Geheugentoewijzing in gepagineerd rapporten**: gepagineerde rapporten ondersteunen het uitvoeren van eigen code bij het weergeven van een rapport (zoals het dynamisch wijzigen van de tekstkleur op basis van inhoud). Gezien dit feit beveiligen we Power BI Premium-capaciteit door gepagineerde rapporten uit te voeren in een afgesloten ruimte binnen de capaciteit. Aan deze ruimte wordt de maximale hoeveelheid geheugen toegewezen die u hebt ingesteld, ongeacht of de workload actief is of niet. Als u Power BI-rapporten of gegevensstromen in dezelfde capaciteit gebruikt, moet u het geheugen voor gepagineerde rapporten laag genoeg instellen, zodat deze workload geen gevolgen heeft voor de andere workloads.
 
 * **Gepagineerde rapporten zijn niet beschikbaar**: in zeldzame gevallen kan het gebeuren dat de workload Gepagineerde rapporten niet beschikbaar is. U ziet dan een foutstatus voor de workload in de beheerportal. Gebruikers zien time-outs als ze rapporten willen weergeven. U kunt dit probleem oplossen door de workload uit te schakelen en vervolgens weer in te schakelen.
 

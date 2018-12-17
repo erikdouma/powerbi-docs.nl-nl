@@ -1,37 +1,36 @@
 ---
-title: De Power BI-voorbeelden gebruiken
-description: De Power BI-voorbeelden gebruiken
+title: Verbinding maken met de voorbeelden in de Power BI-service
+description: Informatie over het installeren en verkennen van de voorbeelden in de Power BI-service.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/23/2018
+ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 10ba57b203c100dffafa6563e85fd06b7af2eecb
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: fc27054b79497658249b49d832a81223987b7be8
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51718017"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180962"
 ---
-# <a name="the-power-bi-samples"></a>De Power BI-voorbeelden
+#  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Verbinding maken met de voorbeelden in de Power BI-service
 
-Het wordt aanbevolen te beginnen met het artikel [Voorbeeldgegevenssets voor Power BI](sample-datasets.md). In dat artikel leest u alles over de voorbeelden: hoe u ze downloadt, waar u ze kunt opslaan, hoe u ze gebruikt en enkele verhalen die elk voorbeeld kan vertellen. Wanneer u de basisbeginselen begrijpt, keert u terug naar deze zelfstudie.   
+In deze zelfstudie leert u het volgende: 
+- Een voorbeeldinhoudspakket importeren, het toevoegen aan de Power BI-service en de inhoud ervan openen. Een *inhoudspakket* is een type voorbeeld waarbij de gegevensset wordt geleverd met een dashboard en een rapport. 
+- Een .pbix-voorbeeldbestand openen in Power BI Desktop.
 
-### <a name="prerequisites"></a>Vereisten
+Als u eerst meer achtergrondinformatie wilt, raden we u aan te beginnen met het artikel [Voorbeeldgegevenssets voor Power BI](sample-datasets.md). In dat artikel leest u alles over de voorbeelden: hoe u ze downloadt, waar u ze kunt opslaan, hoe u ze gebruikt en enkele verhalen die elk voorbeeld kan vertellen. Wanneer u de basisbeginselen begrijpt, keert u terug naar deze zelfstudie.   
+
+## <a name="prerequisites"></a>Vereisten
 De voorbeelden zijn beschikbaar voor de Power BI-service en Power BI Desktop. Gebruik het voorbeeld van de retailanalyse als u mee wilt doen.
 
 Het voorbeeldinhoudspakket *Retail Analysis* dat in deze zelfstudie wordt gebruikt, bestaat uit een dashboard, een rapport en een gegevensset.
 Om vertrouwd te raken met dit type inhoudspakket en het bijbehorende scenario, kunt u [een rondleiding door het voorbeeld Retail Analysis bekijken](sample-retail-analysis.md) voordat u begint.
-
-## <a name="about-this-tutorial"></a>Over deze zelfstudie
-In deze zelfstudie leert u hoe u 
-- een voorbeeldinhoudspakket importeert, hoe u dit toevoegt aan de Power BI-service en hoe u de inhoud opent. Een *inhoudspakket* is een type voorbeeld waarbij de gegevensset wordt geleverd met een dashboard en een rapport. 
--  een .pbix-voorbeeldbestand opent in Power BI Desktop.
-
 
 ## <a name="samples-and-power-bi-service"></a>Voorbeelden en de Power BI-service
 

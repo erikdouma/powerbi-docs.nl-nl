@@ -1,31 +1,32 @@
 ---
-title: Power BI-inhoud insluiten in een toepassing voor uw organisatie
-description: Informatie over het integreren of insluiten van een rapport, dashboard of tegel in een web-app met de Power BI-API's voor uw organisatie.
+title: Ingesloten analyse om Power BI-inhoud in te sluiten in uw toepassing voor uw organisatie
+description: Informatie over het integreren of insluiten van een rapport, dashboard of tegel in een toepassing voor uw organisatie met behulp van de Power BI-API's voor ingesloten analyse. Informatie over het integreren van Power BI in uw toepassing met behulp van software voor ingesloten analyse, hulpprogramma's voor ingesloten analyse of hulpprogramma's voor ingesloten business intelligence.
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.topic: tutorial
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
-ms.custom: mvc
-ms.date: 10/17/2018
-ms.openlocfilehash: 92ed5530ba2e3e72ec4d4e7d7c317993bdf9c04b
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.topic: tutorial
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: 541e6e62ac075922cdb301343361ac328a3db28e
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396860"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180755"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>Zelfstudie: een Power BI-rapport, -dashboard of -tegel insluiten in een toepassing voor uw organisatie
 
-In deze zelfstudie leert u hoe u een rapport in een toepassing integreert. U gebruikt de Power BI .NET-SDK in combinatie met de Power BI JavaScript-API om Power BI in te voegen in een toepassing voor uw organisatie. In Power BI kunt u rapporten, dashboards en tegels in een toepassing insluiten met **gegevens waarvan de gebruiker eigenaar is**. Uw toepassing kan met **gegevens waarvan de gebruiker eigenaar is** de Power BI-service uitbreiden.
+In **Power BI** kunt u rapporten, dashboards en tegels in een toepassing insluiten met gegevens waarvan de gebruiker eigenaar is. Uw toepassing kan met **gegevens waarvan de gebruiker eigenaar is** de Power BI-service uitbreiden voor gebruik met ingesloten analyse. In deze zelfstudie leert u hoe u een rapport in een toepassing integreert. U gebruikt de Power BI .NET-SDK met de Power BI JavaScript-API om Power BI in te sluiten in een toepassing voor uw organisatie.
 
 ![Power BI Embed-rapport](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
 In deze zelfstudie leert u de volgende taken:
->[!div class="checklist"]
->* Een toepassing registreren in Azure.
->* Een Power BI-rapport insluiten in een toepassing.
+> [!div class="checklist"]
+> * Een toepassing registreren in Azure.
+> * Een Power BI-rapport insluiten in een toepassing.
 
 ## <a name="prerequisites"></a>Vereisten
 
@@ -40,9 +41,9 @@ Als u wilt beginnen, hebt u een Power BI Pro-account en een Microsoft Azure-abon
 
 Voordat u begint met het insluiten van rapporten, dashboards en tegels in uw toepassing, moet u ervoor zorgen dat uw omgeving is ingesteld voor het insluiten van inhoud. Voer als onderdeel van de installatie een van deze acties uit:
 
-- U kunt het [hulpprogramma voor installatie van insluiten](https://aka.ms/embedsetup/UserOwnsData) uitvoeren om snel aan de slag te gaan en een voorbeeldtoepassing te downloaden waarmee u een omgeving leert maken en een rapport leert insluiten.
+* U kunt het [installatieprogramma voor insluiten](https://aka.ms/embedsetup/UserOwnsData) uitvoeren om snel aan de slag te gaan en een voorbeeldtoepassing te downloaden waarmee u een omgeving leert maken en een rapport leert insluiten.
 
-- Als u ervoor kiest de omgeving handmatig in te stellen, volg u de stappen in de volgende gedeeltes.
+* Als u ervoor kiest de omgeving handmatig in te stellen, volg u de stappen in de volgende gedeeltes.
 
 ### <a name="register-an-application-in-azure-active-directory"></a>Een toepassing registreren in Azure Active Directory
 
@@ -50,7 +51,7 @@ Als u uw toepassing toegang wilt geven tot de Power BI REST-API's, registreert u
 
 1. Accepteer de [algemene voorwaarden van de Microsoft Power BI-API](https://powerbi.microsoft.com/api-terms).
 
-2. Meld u aan bij [Azure Portal](https://portal.azure.com).
+2. Meld u aan bij de [Azure-portal](https://portal.azure.com).
 
     ![Azure-dashboard](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
 
@@ -60,17 +61,17 @@ Als u uw toepassing toegang wilt geven tot de Power BI REST-API's, registreert u
 
     ![Nieuwe app-registratie](media/embed-sample-for-your-organization/embed-sample-for-your-organization-004.png)
 
-4. Volg de aanwijzingen en maak een nieuwe toepassing. Voor **gegevens waarvan de gebruiker eigenaar is** moet u **Web-app/API** voor het **toepassingstype** gebruiken. Daarnaast moet u een **aanmeldings-URL** opgeven, die door Azure AD wordt gebruikt om tokenantwoorden te retourneren. Voer een specifieke waarde in voor uw toepassing. Een voorbeeld is `http://localhost:13526/`.
+4. Volg de aanwijzingen en maak een nieuwe toepassing. Voor **gegevens waarvan de gebruiker eigenaar is** moet u **Web-app/API** voor het **toepassingstype** gebruiken. Geef een **aanmeldings-URL** op die door Azure AD wordt gebruikt om tokenantwoorden te retourneren. Voer een specifieke waarde in voor uw toepassing. Een voorbeeld is `http://localhost:13526/`.
 
     ![Een app maken](media/embed-sample-for-your-organization/embed-sample-for-your-organization-005.png)
 
 ### <a name="apply-permissions-to-your-application-within-azure-active-directory"></a>Machtigingen toepassen op uw toepassing in Azure Active Directory
 
-U moet machtigingen inschakelen voor uw toepassing naast de informatie die u hebt opgegeven op de pagina voor de app-registratie. Meld u aan met een algemeen beheerdersaccount om machtigingen in te schakelen.
+Schakel, naast de informatie die u hebt opgegeven op de pagina voor de app-registratie, machtigingen in voor uw toepassing. Meld u aan met een algemeen beheerdersaccount om machtigingen in te schakelen.
 
 ### <a name="use-the-azure-active-directory-portal"></a>Azure Active Directory-portal gebruiken
 
-1. Blader naar [App-registraties](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade) in Azure Portal en selecteer de app die u gebruikt voor insluiting.
+1. Blader naar [App-registraties](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade) in de Azure-portal en selecteer de app die u gebruikt voor insluiting.
 
     ![Een app kiezen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
@@ -158,7 +159,7 @@ Volg deze stappen om uw inhoud in te sluiten met behulp van een voorbeeldtoepass
 
     ![Voorbeeldtoepassing waarin gebruiker eigenaar is van de gegevens](media/embed-sample-for-your-organization/embed-sample-for-your-organization-026.png)
 
-2. Open het bestand **Cloud.config** in de voorbeeldtoepassing. Er zijn enkele velden die u moet invullen om de toepassing te kunnen uitvoeren: **ApplicationID** en **ApplicationSecret**.
+2. Open het bestand **Cloud.config** in de voorbeeldtoepassing. Er zijn enkele velden die u moet invullen voor een correcte uitvoering van de toepassing: **ApplicationID** en **ApplicationSecret**.
 
     ![Cloud.config-bestand](media/embed-sample-for-your-organization/embed-sample-for-your-organization-030.png)
 
@@ -166,71 +167,71 @@ Volg deze stappen om uw inhoud in te sluiten met behulp van een voorbeeldtoepass
 
     Ga als volgt te werk om de **ApplicationID** op te halen:
 
-    1. Meld u aan bij [Azure Portal](https://portal.azure.com).
+    1. Meld u aan bij de [Azure-portal](https://portal.azure.com).
 
-        ![Azure Portal-dashboard](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
+       ![Dashboard van de Azure-portal](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
 
-    1. Kies in het navigatiedeelvenster links **Alle services** en selecteer **App-registraties**.
+    2. Kies in het navigatiedeelvenster links **Alle services** en selecteer **App-registraties**.
 
-        ![App-registratie zoeken](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+       ![App-registratie zoeken](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-    1. Selecteer de toepassing die de **ApplicationID** moet gebruiken.
+    3. Selecteer de toepassing die de **ApplicationID** moet gebruiken.
 
-        ![Een app kiezen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+       ![Een app kiezen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-    1. U ziet een **toepassings-id** die wordt vermeld als een GUID. Gebruik deze **Toepassings-id** als de **ApplicationID** voor de toepassing.
+    4. U ziet een **toepassings-id** die wordt vermeld als een GUID. Gebruik deze **Toepassings-id** als de **ApplicationID** voor de toepassing.
 
         ![ApplicationID](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
 
-    1. Geef de **ApplicationSecret**-gegevens op in de sectie **Sleutels** van de sectie **App-registraties** in **Azure**.
+    Geef de **ApplicationSecret**-gegevens op in de sectie **Sleutels** van de sectie **App-registraties** in **Azure**.
 
-    1. Ga als volgt te werk om de **ApplicationSecret** op te halen:
+    Ga als volgt te werk om de **ApplicationSecret** op te halen:
 
-        1. Meld u aan bij [Azure Portal](https://portal.azure.com).
+    1. Meld u aan bij de [Azure-portal](https://portal.azure.com).
 
-            ![Azure-portal](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
+       ![Azure-portal](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
 
-        1. Kies in het navigatiedeelvenster links **Alle services** en selecteer **App-registraties**.
+    2. Kies in het navigatiedeelvenster links **Alle services** en selecteer **App-registraties**.
 
-            ![App-registratie zoeken](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+       ![App-registratie zoeken](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-        1. Selecteer de toepassing die de **ApplicationSecret** moet gebruiken.
+    3. Selecteer de toepassing die de **ApplicationSecret** moet gebruiken.
 
-            ![Een app kiezen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+       ![Een app kiezen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-        1. Selecteer **Instellingen**.
+    4. Selecteer **Instellingen**.
 
-            ![Instellingen selecteren](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
+       ![Instellingen selecteren](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
 
-        1. Selecteer **Sleutels**.
+    5. Selecteer **Sleutels**.
 
-            ![Sleutels selecteren](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
+       ![Sleutels selecteren](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
 
-    1. Voer in het vak **Beschrijving** een naam in en selecteer een duur. Selecteer vervolgens **Opslaan** om de **Waarde** voor uw toepassing op te halen. Wanneer u het deelvenster **Sleutels** sluit nadat u de sleutelwaarde hebt opgeslagen, wordt het waardeveld alleen nog als verborgen weergegeven. Op dat punt kunt u de sleutelwaarde niet meer ophalen. Als u de sleutelwaarde kwijtraakt, kunt u een nieuwe maken in Azure Portal.
+    6. Voer in het vak **Beschrijving** een naam in en selecteer een duur. Selecteer vervolgens **Opslaan** om de **Waarde** voor uw toepassing op te halen. Wanneer u het deelvenster **Sleutels** sluit nadat u de sleutelwaarde hebt opgeslagen, wordt het waardeveld alleen nog als verborgen weergegeven. Op dat punt kunt u de sleutelwaarde niet meer ophalen. Als u de sleutelwaarde kwijtraakt, kunt u een nieuwe maken in de Azure-portal.
 
-        ![Sleutelwaarde](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
+          ![Sleutelwaarde](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
 
-    1. Voor de **groupId** voert u de GUID van de app-werkruimte van Power BI in.
+    7. Voor de **groupId** voert u de GUID van de app-werkruimte van Power BI in.
 
-        ![De groupId invoeren](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
+       ![De groupId invoeren](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
 
-    1. Voor de **reportId** voert u de rapport-GUID uit Power BI in.
+    8. Voor de **reportId** voert u de rapport-GUID uit Power BI in.
 
-        ![De reportId invoeren](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
+       ![De reportId invoeren](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
 
 3. Voer de toepassing uit:
 
-    1. Selecteer eerst **Uitvoeren** in **Visual Studio**.
+    Selecteer **Uitvoeren** in **Visual Studio**.
 
-        ![De toepassing uitvoeren](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
+    ![De toepassing uitvoeren](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
 
-    1. Selecteer vervolgens **Rapport ophalen**.
+    Selecteer vervolgens **Rapport ophalen**.
 
-        ![Inhoud selecteren](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
+    ![Inhoud selecteren](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
 
-    1. U kunt het rapport nu weergeven in de voorbeeldtoepassing.
+    U kunt het rapport nu weergeven in de voorbeeldtoepassing.
 
-        ![Het rapport in de toepassing weergeven](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
+    ![Het rapport in de toepassing weergeven](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
 ## <a name="embed-your-content-within-your-application"></a>Uw inhoud in uw toepassing insluiten
 

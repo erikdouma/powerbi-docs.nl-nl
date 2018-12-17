@@ -1,21 +1,22 @@
 ---
-title: What if-parameters gebruiken om variabelen in Power BI Desktop te visualiseren
+title: What if-parameters gebruiken om variabelen te visualiseren
 description: Uw eigen What if-variabele maken om variabelen in Power BI-rapporten voor te stellen en te visualiseren
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/10/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 926ef4aedf7c56af6f79cbbf1c7810cb3aee670b
-ms.sourcegitcommit: 126e5eca8bfab6273581dabd7603df88be755240
+ms.openlocfilehash: 6a69a6f852f6a37649b152a3c0ba0e469b555b37
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/11/2018
-ms.locfileid: "40257028"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025184"
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>Een What if-parameter maken en gebruiken om variabelen in Power BI Desktop te visualiseren
 Vanaf de release van augustus 2018 van **Power BI Desktop** kunt u **What if**-variabelen voor uw rapporten maken, communiceren met de variabele als een slicer en verschillende sleutelwaarden in uw rapporten visualiseren en kwantificeren.

@@ -9,13 +9,14 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.author: mblythe
 ms.date: 01/02/2018
+ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 920fa426f98098768583e07d8f2b6c9825bfad1b
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 466e91786dcb75f09db808306ba7d9d9f486718b
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578423"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025115"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Beveiliging op rijniveau (RLS) met Power BI
 
@@ -41,7 +42,7 @@ Als u de beveiliging wilt beheren voor uw gegevensmodel, gaat u als volgt te wer
 1. Selecteer het **weglatingsteken (...)**  voor een dataset.
 2. Selecteer **Beveiliging**.
    
-   ![](media/service-admin-rls/rls-security.png)
+   ![Beveiligingsfilter in beide richtingen toepassen](media/service-admin-rls/rls-security.png)
 
 Zodoende opent u de RLS-pagina, waar u leden kunt toewijzen aan een rol die u hebt gemaakt in Power BI Desktop. De beveiliging is alleen zichtbaar en beschikbaar voor de eigenaren. Als de gegevensset zich in een groep bevindt, zien alleen beheerders van de groep de beveiligingsoptie. 
 
@@ -53,17 +54,17 @@ U kunt alleen rollen maken of wijzigen in Power BI Desktop.
 
 U kunt een lid aan de rol toevoegen door het e-mailadres of de naam van de gebruiker, beveiligingsgroep of distributielijst op te geven die u wilt toevoegen. Dit lid moet zich binnen uw organisatie bevinden. U kunt geen groepen toevoegen die in Power BI zijn gemaakt.
 
-![](media/service-admin-rls/rls-add-member.png)
+![Lid toevoegen](media/service-admin-rls/rls-add-member.png)
 
 Aan het getal tussen haakjes naast de rolnaam of naast Leden kunt u zien hoeveel leden deel uitmaken van de rol op.
 
-![](media/service-admin-rls/rls-member-count.png)
+![Leden met de rol](media/service-admin-rls/rls-member-count.png)
 
 ### <a name="remove-members"></a>Leden verwijderen
 
 U kunt leden verwijderen door de X naast hun naam te selecteren. 
 
-![](media/service-admin-rls/rls-remove-member.png)
+![Lid verwijderen](media/service-admin-rls/rls-remove-member.png)
 
 ## <a name="validating-the-role-within-the-power-bi-service"></a>De rol in de Power BI-service valideren
 
@@ -72,15 +73,15 @@ U kunt controleren of de rol die u hebt gedefinieerd, correct werkt door de func
 1. Selecteer het **weglatingsteken (...)** naast de rol.
 2. Selecteer **Gegevens testen als rol**.
 
-![](media/service-admin-rls/rls-test-role.png)
+![Testen als rol](media/service-admin-rls/rls-test-role.png)
 
 Vervolgens ziet u de rapporten die beschikbaar zijn voor deze rol. Er worden geen dashboards gepresenteerd in deze weergave. In de bovenstaande blauwe balk ziet u wat wordt toegepast.
 
-![](media/service-admin-rls/rls-test-role2.png)
+![Wordt nu weergegeven als <rol>](media/service-admin-rls/rls-test-role2.png)
 
 U kunt andere rollen of een combinatie van rollen testen door te selecteren **Nu weergeven als**.
 
-![](media/service-admin-rls/rls-test-role3.png)
+![Overige rollen testen](media/service-admin-rls/rls-test-role3.png)
 
 U kunt ervoor kiezen om de gegevens weer te geven als een specifiek persoon, maar u kunt ook een combinatie van beschikbare rollen selecteren om te valideren of ze werken. 
 
@@ -95,7 +96,7 @@ Als u een Power BI Desktop-rapport naar een app-werkruimte in de Power BI-servic
 > [!WARNING]
 > Als u de app-werkruimte zodanig hebt geconfigureerd dat leden bewerkingsmachtigingen hebben, worden de RLS-rollen niet toegepast op deze leden. Gebruikers kunnen alle de gegevens bekijken.
 
-![](media/service-admin-rls/rls-group-settings.png)
+![Groepsinstellingen](media/service-admin-rls/rls-group-settings.png)
 
 [!INCLUDE [include-short-name](./includes/rls-limitations.md)]
 

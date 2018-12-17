@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/17/2018
 ms.author: maggies
-ms.openlocfilehash: 7a5c60eea81eeb3a1f4e8a7f5b807fd8c7bfb6b5
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 694ae2cd6f77fbcf898a984b135fb65b9163a43b
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547241"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180985"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Rapporten verkennen in de mobiele Power BI-apps
 Van toepassing op:
@@ -105,6 +105,16 @@ Als u met *drillthrough* op een bepaald deel van een visual tikt, wordt u door P
 Wanneer u een detailanalyse hebt gemaakt, gaat u met de knop terug weer terug naar de vorige pagina van het rapport.
 
 Meer informatie over [detailanalyse toevoegen in Power BI Desktop](../../desktop-drillthrough.md).
+
+## <a name="show-data-and-copy-values"></a>Gegevens weergeven en waarden kopiëren
+
+Als u in de rechterbovenhoek van een visualisatie in een telefoonrapport het beletselteken (**...**) voor de menuopties selecteert en vervolgens **Gegevens weergeven**, kunt u de gegevens zien die de basis vormen voor een visualisatie.
+
+![Menuoptie Gegevens weergeven in Power BI - Mobiel](./media/mobile-reports-in-the-mobile-apps/copy-data-visual.png)
+
+Als u langere tijd op een cel in de gepresenteerde tabel tikt, verschijnt het systeemeigen menu Selecteren en kopiëren. U kunt vervolgens de gegevens in de tabel kopiëren (of de hele tabel).
+
+![Detailanalyse van Power BI - Mobiel-rapport](./media/mobile-reports-in-the-mobile-apps/copy-data-table.png)
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Voor uw telefoon geoptimaliseerde Power BI-rapporten weergeven en gebruiken](mobile-apps-view-phone-report.md)

@@ -1,20 +1,21 @@
 ---
 title: Tips en trucs voor het maken van rapporten in Power BI
-description: Tips en trucs voor het maken van rapporten in de Power BI-service en Power BI Desktop
+description: Informatie over aanbevolen procedures voor het maken van rapporten in de Power BI-service en Power BI Desktop
 author: davidi
 manager: kfile
 ms.reviewer: willthom
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
-ms.openlocfilehash: ae1c54ee0c5c5de54fc5069f7215c39175cedf8d
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: c68c29449873e22c7e338279e80f049d522ba347
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830281"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026341"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Tips en trucs voor het maken van rapporten in Power BI Desktop
 Als uw gegevens optimaal te kunnen gebruiken, hebt u soms wat extra hulp nodig. We hebben een aantal tips en trucs voor u verzameld om u te helpen bij het maken van rapporten in Microsoft Power BI Desktop *en* in Pro-Plus-edities van Microsoft Excel 2016 of Excel 2013 waar de Power Pivot-invoegtoepassing is ingeschakeld en Power Query is geïnstalleerd en ingeschakeld. 
@@ -27,7 +28,7 @@ U kunt voor aanvullende informatie terecht bij het [Power Query Resource Center]
 U kunt ook de [Naslaginformatie voor formules](https://support.office.com/Article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f) bekijken.
 
 ## <a name="data-types-in-query-editor"></a>Gegevenstypes in de Query Editor
-Wanneer u de Query Editor in Power BI Desktop gebruikt om gegevens te laden, bepalen wij zo goed mogelijk wat voor type gegevens het zijn.  Wanneer u formules gebruikt, blijven kolominstellingen voor het gegevenstype soms niet behouden. U dient nadat u gegevens voor het eerst naar het query-tabblad laadt en na de volgende handelingen altijd de kolomtypen te controleren: Eerste rij als veldnaam instellen, Kolom toevoegen, Groeperen op, Samenvoegen en Toevoegen.
+Wanneer u de Query Editor in Power BI Desktop gebruikt om gegevens te laden, bepalen wij zo goed mogelijk wat voor type gegevens het zijn.  Wanneer u formules gebruikt, blijven kolominstellingen voor het gegevenstype soms niet behouden. Controleer of het gegevenstype van kolommen juist is na het uitvoeren van de volgende bewerkingen:  Gegevens voor het eerst naar het query-tabblad laden, Eerste rij als kop, Kolom toevoegen, Groeperen op, Samenvoegen en Toevoegen en voordat u de eerste keer drukt om de gegevens te laden.
 
 Het is belangrijk om het volgende te onthouden: als gegevens cursief worden weergegeven in het gegevensraster, betekent dit niet dat het gegevenstype correct is ingesteld, alleen dat de gegevens niet als tekst worden beschouwd.
 

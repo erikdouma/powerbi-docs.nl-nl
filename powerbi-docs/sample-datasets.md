@@ -4,25 +4,26 @@ description: Voorbeelden van inhoudspakketten, PBIX-bestanden en Excel gegevenss
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: fa6c6094e4fdfefebd0c7bb1f9ec8fa87d41766b
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: e46cfffc28bd77685e0a34b492e54234a76afa35
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717787"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180893"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Welke voorbeeldgegevens zijn beschikbaar voor gebruik met Power BI?
 Stel dat u geen ervaring hebt met Power BI en u Power BI wilt uitproberen, maar nog geen gegevens hebt.  Of misschien hebt u een gegevensset, maar bent u bang dat u de gegevensset beschadigt omdat u (nog) niet begrijpt hoe Power BI werkt?
 
 Maakt u zich geen zorgen. ObviEnce ([www.obvience.com](http://www.obvience.com/)) en Microsoft hebben voorbeelden gemaakt die u kunt gebruiken totdat vertrouwd bent met Power BI.  De gegevens zijn geanonimiseerd en representeren verschillende branches: financiën, HR, sales en meer. Wanneer u de onlinedocumentatie doorneemt, zult u zelfstudies en voorbeelden ontdekken die gebruikmaken van dezelfde voorbeelden, zodat u alles op de voet kunt volgen.      
 
-   ![](media/sample-datasets/power-bi-samples.png)
+   ![Beschikbare voorbeelden](media/sample-datasets/power-bi-samples.png)
 
 Al deze voorbeelden zijn beschikbaar in verschillende indelingen: als inhoudspakket, als afzonderlijke Excel-werkmap en als PBIX-bestand. U hoeft zich geen zorgen te maken als u niet weet wat dit zijn of hoe u ze verkrijgt. Verderop in dit artikel wordt alles uitgelegd. Bovendien hebben we voor elk voorbeeld een *rondleiding* gemaakt. Dit is een artikel waarin het verhaal achter het voorbeeld wordt verteld en verschillende scenario's worden uitgelegd. Een voorbeeld van een scenario is het beantwoorden van vragen voor uw manager, in een ander scenario zoekt mogelijk naar concurrentiegerichte inzichten, maakt u rapporten en dashboards die u deelt of probeert u een zakelijk verschuiving te verklaren.   
 
@@ -48,42 +49,42 @@ Als u op een van de onderstaande koppelingen klikt om de Excel-werkmapbestanden 
 ## <a name="available-samples"></a>Beschikbare voorbeelden
 Er zijn acht voorbeelden beschikbaar die u kunt gebruiken.  Elk voorbeeld vertegenwoordigt een andere branche.
 
-### <a name="customer-profitability-sample--mediasample-datasetspower-bi-cp2png"></a>Voorbeeld van klantwinstgevendheid ![](media/sample-datasets/power-bi-cp2.png)
+### <a name="customer-profitability-sample--customer-profitability-samplemediasample-datasetspower-bi-cp2png"></a>Voorbeeld van klantwinstgevendheid  ![Voorbeeld van klantwinstgevendheid](media/sample-datasets/power-bi-cp2.png)
 [Bekijk het voorbeeld van klantwinstgevendheid](sample-customer-profitability.md)
 
 In dit voorbeeld met bedrijfsgegevens analyseert een CFO de metrische sleutelgegevens voor haar leidinggevenden, producten en klanten. U kunt onderzoeken welke factoren van invloed zijn op de rentabiliteit van het bedrijf.
 
-### <a name="human-resources-sample--mediasample-datasetspower-bi-hrpng"></a>Voorbeeld van human resources ![](media/sample-datasets/power-bi-hr.png)
+### <a name="human-resources-sample--human-resources-samplemediasample-datasetspower-bi-hrpng"></a>Voorbeeld van human resources  ![Voorbeeld van human resources](media/sample-datasets/power-bi-hr.png)
 [Bekijk het voorbeeld van human resources](sample-human-resources.md)
 
 In dit voorbeeld met bedrijfsgegevens concentreert u zich op de strategie van het bedrijf voor het aannemen van personeel door nieuwe werknemers, actieve werknemers en vertrokken werknemers te analyseren.  Door de gegevens te verkennen, neemt u mogelijk trends waar met betrekking tot het vrijwillig ontslag nemen en ontdekt u vooroordelen in de strategie voor het aannemen van personeel.
 
-### <a name="it-spend-analysis-sample-mediasample-datasetspower-bi-itpng"></a>Voorbeeld van een IT-uitgavenanalyse ![](media/sample-datasets/power-bi-it.png)
+### <a name="it-spend-analysis-sample-it-spend-analysis-samplemediasample-datasetspower-bi-itpng"></a>Voorbeeld van een IT-uitgavenanalyse ![Voorbeeld van een IT-uitgavenanalyse](media/sample-datasets/power-bi-it.png)
 [Bekijk het voorbeeld van een IT-uitgavenanalyse](sample-it-spend.md)
 
 In dit voorbeeld met bedrijfsgegevens worden de geplande kosten voor de IT-afdeling van een bedrijf vergeleken met de daadwerkelijke kosten. Deze vergelijking biedt inzicht in hoe goed het bedrijf het jaar heeft gepland en de mogelijkheid om gebieden te onderzoeken die sterk afwijken van de planning. Het bedrijf in dit voorbeeld hanteert een jaarlijkse planningscyclus en produceert vervolgens elk kwartaal een nieuw overzicht met de laatste prognoses om de wijzigingen in de IT-uitgaven in het fiscale jaar te kunnen analyseren.
 
-### <a name="opportunity-analysis-sample--mediasample-datasetspower-bi-oapng"></a>Voorbeeld van een verkoopkansanalyse ![](media/sample-datasets/power-bi-oa.png)
+### <a name="opportunity-analysis-sample--opportunity-analysis-samplemediasample-datasetspower-bi-oapng"></a>Voorbeeld van verkoopkansanalyse  ![Voorbeeld van verkoopkansanalyse](media/sample-datasets/power-bi-oa.png)
 [Bekijk het voorbeeld van een verkoopkansanalyse](sample-opportunity-analysis.md)
 
 In dit voorbeeld met bedrijfsgegevens wordt het verkoopkanaal van een softwarebedrijf verkend. Verkoopmanagers bewaken hun directe verkoopkanalen en verkoopkanalen van partners door per regio de mogelijkheden, de opbrengst, de dealgrootte en het kanaal bij te houden.
 
-### <a name="procurement-analysis-sample--mediasample-datasetspower-bi-papng"></a>Voorbeeld van een inkoopanalyse ![](media/sample-datasets/power-bi-pa.png)
+### <a name="procurement-analysis-sample--procurement-analysis-samplemediasample-datasetspower-bi-papng"></a>Voorbeeld van een inkoopanalyse  ![Voorbeeld van een inkoopanalyse](media/sample-datasets/power-bi-pa.png)
 [Bekijk het voorbeeld van een inkoopanalyse](sample-procurement.md)
 
 In dit voorbeeld met bedrijfsgegevens analyseert een CFO de metrische sleutelgegevens voor haar leidinggevenden, producten en klanten. U kunt onderzoeken welke factoren van invloed zijn op de rentabiliteit van het bedrijf.
 
-### <a name="retail-analysis-sample--mediasample-datasetspower-bi-rspng"></a>Voorbeeld van een retailanalyse ![](media/sample-datasets/power-bi-rs.png)
+### <a name="retail-analysis-sample--retail-analysis-samplemediasample-datasetspower-bi-rspng"></a>Voorbeeld van een retailanalyse  ![Voorbeeld van een retailanalyse](media/sample-datasets/power-bi-rs.png)
 [Bekijk het voorbeeld van een retailanalyse](sample-retail-analysis.md)
 
 In dit voorbeeld met bedrijfsgegevens worden de verkoopgegevens uit de detailhandel geanalyseerd van artikelen die in verschillende winkels en gebieden zijn verkocht. Met de metrische gegevens vergelijkt u de prestaties van dit jaar met die van vorig jaar voor de volgende gebieden: verkoop, eenheden, brutomarge, afwijkingen en analyses van nieuwe winkels.
 
-### <a name="sales-and-marketing-sample--mediasample-datasetspower-bi-smpng"></a>Voorbeeld van verkoop en marketing ![](media/sample-datasets/power-bi-sm.png)
+### <a name="sales-and-marketing-sample--sales-and-marketing-samplemediasample-datasetspower-bi-smpng"></a>Voorbeeld van verkoop en marketing  ![Voorbeeld van verkoop en marketing](media/sample-datasets/power-bi-sm.png)
 [Bekijk het voorbeeld van verkoop en marketing](sample-sales-and-marketing.md)
 
 In dit voorbeeld met bedrijfsgegevens wordt het productiebedrijf VanArsdel Ltd geanalyseerd. Op basis van deze analyse kan de Chief Marketing Officer de branche en het marktaandeel van VanArsdel in de gaten houden.  Door het voorbeeld te verkennen, vindt u informatie over het marktaandeel, productvolume, de verkopen en het gevoel over het bedrijf.
 
-### <a name="supplier-quality-sample--mediasample-datasetspower-bi-sqpng"></a>Voorbeeld van kwaliteitsanalyse van leveranciers ![](media/sample-datasets/power-bi-sq.png)
+### <a name="supplier-quality-sample--supplier-quality-samplemediasample-datasetspower-bi-sqpng"></a>Voorbeeld van kwaliteitsanalyse van leveranciers  ![Voorbeeld van kwaliteitsanalyse van leveranciers](media/sample-datasets/power-bi-sq.png)
 [Bekijk het voorbeeld van een kwaliteitsanalyse van leveranciers](sample-supplier-quality.md)
 
 Dit voorbeeld met bedrijfsgegevens is gericht op een van de typische uitdagingen voor de toelevering: kwaliteitsanalyse van leveranciers. In deze analyse zijn twee primaire gegevensgroepen belangrijk: het totale aantal defecte producten en de totale downtime die deze defecte producten hebben veroorzaakt. Dit voorbeeld heeft twee hoofddoelen. Het eerste doel is begrijpen wie de beste en de slechtste leveranciers zijn, met betrekking tot kwaliteit. Het tweede doel is identificeren welke fabrieken beter zijn in het vinden en verwijderen van defecte producten om de downtime te minimaliseren.
@@ -100,16 +101,16 @@ Vanuit Power BI zijn alleen voorbeelden van inhoudspakketten beschikbaar. Voor d
 1. Open de Power BI-service (app.powerbi.com) en meld u aan.
 2. Selecteer in de linkerbendehoek **Gegevens ophalen**.
 
-    ![](media/sample-datasets/power-bi-get-data.png)
+    ![Pictogram voor gegevens ophalen](media/sample-datasets/power-bi-get-data.png)
 3. Selecteer op de pagina Gegevens ophalen het pictogram **Voorbeelden**.
 
-   ![](media/sample-datasets/power-bi-samples-icon.png)
+   ![Pictogram Voorbeelden](media/sample-datasets/power-bi-samples-icon.png)
 4. Selecteer een van de voorbeelden om een beschrijving van het desbetreffende voorbeeld weer te geven. Kies vervolgens **Verbinding maken**.  
 
-   ![](media/sample-datasets/power-bi-connect.png)
+   ![Selecteer een voorbeeld > selecteer Verbinding maken](media/sample-datasets/power-bi-connect.png)
 5. Het inhoudspakket wordt geïmporteerd in Power BI en er wordt een nieuw dashboard, nieuw rapport en een nieuwe gegevensset toegevoegd aan de huidige werkruimte. De nieuwe inhoud is gemarkeerd met een geel sterretje. Gebruik de voorbeelden om met Power BI te experimenteren.  
 
-   ![](media/sample-datasets/power-bi-asterisk.png)
+   ![Sterretje * voor nieuwe inhoud](media/sample-datasets/power-bi-asterisk.png)
 
 Nu over gegevens beschikt, kunt u aan slag.  Probeer enkele zelfstudies waarin de voorbeeldinhoudspakketten worden gebruikt of open de Power BI-service om op verkenning uit te gaan.
 
@@ -128,10 +129,10 @@ De voorbeeldinhoudspakketten zijn ook beschikbaar als Excel-werkmappen. De Excel
    * [Voorbeeld van verkoop en marketing](http://go.microsoft.com/fwlink/?LinkId=529785)
 2. Sla het gedownloade bestand op. Het maakt wel uit waar u het bestand opslaat.
 
-   * ![](media/sample-datasets/power-bi-local-file2.png)  **Lokaal**: Als u het bestand opslaat op een lokaal station op uw computer of op een andere locatie binnen uw organisatie, kunt het bestand importeren in Power BI. Het bestand blijft op het lokale station staan. Het bestand wordt dus eigenlijk niet echt geïmporteerd in Power BI. Wat er wel gebeurt, is dat er een nieuwe gegevensset wordt gemaakt in uw Power BI-site en dat de gegevens, en in sommige gevallen het gegevensmodel, in de gegevensset worden geladen. Als uw bestand rapporten bevat, worden deze weergegeven in de Power BI-site, onder Rapporten.
-   * ![](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive Bedrijven**: Als u OneDrive voor Bedrijven hebt en zich aanmeldt met hetzelfde account als voor Power BI, is dit verreweg de meest efficiënte manier om uw werk in Excel of Power BI te houden of om een CSV-bestand gesynchroniseerd te houden met uw gegevensset, rapporten en dashboards in Power BI. Omdat zowel Power BI als OneDrive zich in de cloud bevinden, maakt Power BI ongeveer om het uur verbinding met uw bestand in OneDrive. Als er wijzigingen worden gevonden, worden uw gegevensset, rapporten en dashboards in Power BI automatisch bijgewerkt.
-   * ![](media/sample-datasets/power-bi-onedrive-file.png)**OneDrive - Persoonlijk**: Als u de bestanden opslaat in uw eigen OneDrive-account, geniet u veelal dezelfde voordelen als met OneDrive voor Bedrijven. Het belangrijkste verschil is dat wanneer u voor het eerst verbinding maakt met het bestand (met Gegevens ophalen > Bestanden > OneDrive - Persoonlijk), u zich bij OneDrive moet aanmelden met uw Microsoft-account. Dit is doorgaans een ander account dan het account dat u gebruikt om u aan te melden bij Power BI. Wanneer u zich met uw Microsoft-account aanmeldt bij OneDrive, moet u ervoor zorgen dat u het selectievakje Aangemeld blijven inschakelt. Op deze manier kan er om het uur verbinding via Power BI worden gemaakt met uw bestand en zorgt u ervoor dat uw gegevensset in Power BI wordt gesynchroniseerd.
-   * ![](media/sample-datasets/power-bi-sharepoint2.png) **SharePoint - Teamsites**: Als u uw Power BI-bestanden wilt opslaan naar SharePoint - Teamsites, doet u dit op vrijwel dezelfde manier als voor OneDrive voor Bedrijven. Het grootste verschil is de manier waarop u vanuit Power BI verbinding maakt met het bestand. U kunt een URL opgeven of verbinding maken met de hoofdmap.
+   * ![Lokaal](media/sample-datasets/power-bi-local-file2.png)  **Lokaal**: als u het bestand opslaat op een lokaal station op uw computer of op een andere locatie binnen uw organisatie, kunt het bestand importeren in Power BI. Het bestand blijft op het lokale station staan. Het bestand wordt dus eigenlijk niet echt geïmporteerd in Power BI. Wat er wel gebeurt, is dat er een nieuwe gegevensset wordt gemaakt in uw Power BI-site en dat de gegevens, en in sommige gevallen het gegevensmodel, in de gegevensset worden geladen. Als het bestand rapporten bevat, worden deze weergegeven op de Power BI-site, onder Rapporten.
+   * ![OneDrive voor Bedrijven](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - Bedrijven**: als u OneDrive voor Bedrijven gebruikt en u aanmeldt met hetzelfde account als voor Power BI, is dit verreweg de meest efficiënte manier om uw werk in Excel, Power BI of een CSV-bestand gesynchroniseerd te houden met uw gegevensset, rapporten en dashboards in Power BI. Omdat zowel Power BI als OneDrive zich in de cloud bevinden, maakt Power BI ongeveer om het uur verbinding met uw bestand in OneDrive. Als er wijzigingen worden gevonden, worden uw gegevensset, rapporten en dashboards in Power BI automatisch bijgewerkt.
+   * ![OneDrive Persoonlijk](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - Persoonlijk**: als u de bestanden opslaat in uw eigen OneDrive-account, geniet u veelal dezelfde voordelen als met OneDrive voor Bedrijven. Het belangrijkste verschil is dat wanneer u voor het eerst verbinding maakt met het bestand (met Gegevens ophalen > Bestanden > OneDrive - Persoonlijk), u zich bij OneDrive moet aanmelden met uw Microsoft-account. Dit is doorgaans een ander account dan het account dat u gebruikt om u aan te melden bij Power BI. Wanneer u zich met uw Microsoft-account aanmeldt bij OneDrive, moet u ervoor zorgen dat u het selectievakje Aangemeld blijven inschakelt. Op deze manier kan er om het uur verbinding via Power BI worden gemaakt met uw bestand en zorgt u ervoor dat uw gegevensset in Power BI wordt gesynchroniseerd.
+   * ![SharePoint-teamsites](media/sample-datasets/power-bi-sharepoint2.png) **SharePoint - Teamsites**: u kunt uw Power BI-bestanden op vergelijkbare manier op SharePoint - Teamsites opslaan als op OneDrive voor Bedrijven. Het grootste verschil is de manier waarop u vanuit Power BI verbinding maakt met het bestand. U kunt een URL opgeven of verbinding maken met de hoofdmap.
 3. Open de Power BI-service (app.powerbi.com) en meld u aan.
 
    > [!TIP]
@@ -140,23 +141,23 @@ De voorbeeldinhoudspakketten zijn ook beschikbaar als Excel-werkmappen. De Excel
    >
 4. Selecteer in de linkerbendehoek **Gegevens ophalen**.
 
-    ![](media/sample-datasets/power-bi-get-data.png)
+    ![Pictogram voor gegevens ophalen](media/sample-datasets/power-bi-get-data.png)
 5. Selecteer op de pagina Gegevens ophalen achtereenvolgens **Bestanden > Ophalen**.
 
-     ![](media/sample-datasets/power-bi-files.png)
+     ![Bestanden > Ophalen](media/sample-datasets/power-bi-files.png)
 6. Navigeer naar de locatie waar u het voorbeeld hebt gedownload en opgeslagen.
 
-   ![](media/sample-datasets/power-bi-files3.png)
+   ![Locatie waar u het voorbeeld hebt opgeslagen](media/sample-datasets/power-bi-files3.png)
 7. Selecteer het bestand, in dit geval **Procurement Analysis Sample.xlsx**, dat is opgeslagen in OneDrive voor Bedrijven en kies **Verbinding maken**.
 
-   ![](media/sample-datasets/power-bi-connect2.png)
+   ![OneDrive voor Bedrijven > Verbinding maken](media/sample-datasets/power-bi-connect2.png)
 8. Kies of u de gegevens wilt importeren of dat u de werkmap wilt overzetten naar Power BI om deze op exact dezelfde manier weer te geven als in Excel Online.
 
-    ![](media/sample-datasets/power-bi-import.png)
+    ![Importeren of Verbinding maken](media/sample-datasets/power-bi-import.png)
 9. Als u **Importeren** selecteert, wordt de voorbeeldwerkmap in Power BI geïmporteerd en wordt deze toegevoegd als een nieuwe gegevensset met de naam **Procurement Analysis Sample**.  Als de werkmap Power View-werkbladen, -tabellen, -bereiken of een gegevensmodel bevat, wordt er ook een rapport (met dezelfde naam) in Power BI gemaakt. En als u nog geen dashboard hebt geopend, wordt er ook een nieuw dashboard in Power BI gemaakt. (Als er wel een dashboard is geopend wanneer u op **Gegevens ophalen** klikt, wordt er een nieuwe lege tegel op dat dashboard weergegeven.  Wanneer u op deze tegel klikt, wordt u omgeleid naar het rapport voor de gegevensset die u zojuist hebt toegevoegd.) De nieuwe inhoud is vernoemd naar het voorbeeld en is gemarkeerd met een geel sterretje.
 10. Zodra het scherm **Uw gegevensset is gereed.** wordt weergegeven, selecteert u **Gegevensset weergeven** of **Snelle inzichten verkrijgen**, maar u kunt ook gewoon het linkernavigatievenster in Power BI gebruiken het bijbehorende rapport of dashboard te zoeken en te openen.  
 
-     ![](media/sample-datasets/power-bi-ready.png)
+     ![Gegevensset weergeven](media/sample-datasets/power-bi-ready.png)
 
 ### <a name="optional-take-a-look-at-the-excel-samples-from-inside-excel-itself"></a>(Optioneel) De Excel-voorbeelden in Excel bekijken
 Wilt u begrijpen hoe de gegevens in een Excel-werkmap worden geconverteerd naar Power BI-gegevenssets en -rapporten? Wanneer u de Excel-voorbeelden opent ***in Excel*** en de werkbladen daar verkent, verschaft dit enige inzicht.
@@ -187,13 +188,13 @@ De voorbeeldinhoudspakketten zijn ook beschikbaar als PBIX-bestanden. De PBIX-be
 
 1. Selecteer in Power BI Desktop achtereenvolgens **Bestand > Openen** en navigeer naar de locatie waar u het PBIX-voorbeeld hebt opgeslagen.
 
-   ![](media/sample-datasets/power-bi-desktop-open.png)
+   ![Bestand > Openen in Power BI Desktop](media/sample-datasets/power-bi-desktop-open.png)
 4. Selecteer het PBIX-bestand om het in Power BI Desktop te openen.
 
 ## <a name="next-steps"></a>Volgende stappen
 [Basisconcepten van Power BI](consumer/end-user-basic-concepts.md)
 
-[Zelfstudie: Verbinding maken met de Power BI-voorbeelden](sample-tutorial-connect-to-the-samples.md)
+[Zelfstudie: verbinding maken met de Power BI-voorbeelden](sample-tutorial-connect-to-the-samples.md)
 
 [Gegevensbronnen voor Power BI](service-get-data.md)
 

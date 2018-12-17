@@ -9,13 +9,14 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 08/29/2018
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Reports
-ms.openlocfilehash: a79fc16f183edb359c15da31ebd6f2747fa7859d
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: dfc3006c37d6055bac435fceb05febd596f0cd1a
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187278"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026472"
 ---
 # <a name="aggregates-in-power-bi-visualizations"></a>Aggregaties in Power BI-visualisaties
 ## <a name="what-is-an-aggregate"></a>Wat is een statistische functie?
@@ -32,11 +33,11 @@ In het voorbeeld hieronder:
 - zijn **Verkochte eenheden** en **Productieprijs** kolommen die numerieke gegevens bevatten
 -  bevatten **Segment**, **Land**, **Product**, **Maand** en **Naam van de maand** categorische gegevens
 
-   ![](media/service-aggregates/power-bi-aggregate-chart.png)
+   ![Set voorbeeldgegevens](media/service-aggregates/power-bi-aggregate-chart.png)
 
 Wanneer u een visualisatie maakt in Power BI, worden numerieke velden geaggregeerd (de standaardwaarde is *som*) via een categorisch veld.  Bijvoorbeeld 'Verkochte eenheden ***per Product***', 'Verkochte eenheden ***per maand***' en 'Productieprijs ***per segment***'. Sommige numerieke velden worden ook wel **metingen** genoemd. U kunt metingen eenvoudig herkennen in de Power BI-rapporteditor; in de lijst Velden worden metingen weergegeven met het symbool ∑. Zie [De rapporteditor... een rondleiding](service-the-report-editor-take-a-tour.md) voor meer informatie.
 
-![](media/service-aggregates/power-bi-aggregate-fields.png)
+![Lijst met velden](media/service-aggregates/power-bi-aggregate-fields.png)
 
 
 
@@ -52,18 +53,18 @@ Stel u hebt een diagram waarin de verkochte eenheden voor de verschillende produ
 
 1. Maak een grafiek die een categorie en een meting gebruikt. In dit voorbeeld gebruiken we Verkochte eenheden per product.  Power BI maakt standaard een grafiek die de verkochte eenheden (meting in de bron Waarde) voor elk product (categorie in de bron As) totaliseert.
 
-   ![](media/service-aggregates/power-bi-aggregate-sum.png)
+   ![Somaggregatie](media/service-aggregates/power-bi-aggregate-sum.png)
 
 2. Klik in het deelvenster Visualisaties met de rechtermuisknop op de meting en selecteer het type aggregatie dat u nodig hebt. In dit geval selecteren we Gemiddelde. Als u de benodigde aggregatie niet ziet, raadpleegt u 'Aandachtspunten en het oplossen van problemen' hieronder.  
    
-   ![](media/service-aggregates/power-bi-aggregate-average.png)
+   ![Gemiddelde aggregatie](media/service-aggregates/power-bi-aggregate-average.png)
    
    > [!NOTE]
    > De beschikbare opties in de vervolgkeuzelijst variëren, afhankelijk van 1) het geselecteerde veld en 2) de wijze waarop het veld door de eigenaar van de gegevensset is gecategoriseerd.
    > 
 3. De visualisatie gebruikt nu geaggregeerd op gemiddelde.
 
-   ![](media/service-aggregates/power-bi-aggregate-average2.png)
+   ![Gemiddeld aantal verkochte eenheden](media/service-aggregates/power-bi-aggregate-average2.png)
 
 ##    <a name="ways-to-aggregate-your-data"></a>Manieren om uw gegevens te aggregeren
 
@@ -101,7 +102,7 @@ Dit voorbeeld geeft de volgende resultaten:
 * **Minimum**: 100
 * **Aantal (niet leeg)**: 6
 * **Aantal (uniek)**: 4
-* **Standaarddeviatie** 20,4124145...
+* **Standaardafwijking**: 20,4124145...
 * **Afwijking**: 416,666...
 * **Mediaan**: 125
 
@@ -110,55 +111,55 @@ U kunt ook een niet-numeriek veld aggregeren. Als u bijvoorbeeld een veld Produc
 
 1. In dit voorbeeld hebben we het veld **Product** naar de bron Waarden gesleept. De bron Waarden wordt meestal gebruikt voor numerieke velden. Power BI herkent dat dit een tekstveld is, stelt de statistische functie in op **Geen aggregatie** en geeft ons een tabel met één kolom.
    
-   ![](media/service-aggregates/power-bi-aggregate-value.png)
+   ![Productveld in de bron met waarden](media/service-aggregates/power-bi-aggregate-value.png)
 2. Als we de aggregatie van de standaardwaarde **Niet samenvatten** wijzigen in **Aantal (uniek)**, wordt het aantal verschillende ketens in Power BI geteld. Er zijn in dit geval 4.
    
-   ![](media/service-aggregates/power-bi-aggregates-count.png)
+   ![Aantal unieke producten](media/service-aggregates/power-bi-aggregates-count.png)
 3. En als we de aggregatie wijzigen in **Aantal**, wordt het totale aantal in Power BI geteld. In dit geval zijn er 7 vermeldingen voor **Product**. 
    
-   ![](media/service-aggregates/power-bi-aggregate-count2.png)
+   ![Aantal producten](media/service-aggregates/power-bi-aggregate-count2.png)
 
 4. Door hetzelfde veld (in dit geval **Product**) naar de bron Waarden te slepen en de standaardaggregatie **Niet samenvatten** te laten staan, geeft Power BI een uitsplitsing van het aantal op product.
 
-   ![](media/service-aggregates/power-bi-aggregate-final.png)
+   ![Product en aantal producten](media/service-aggregates/power-bi-aggregate-final.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
-V: Waarom beschik ik niet over de optie **Niet samenvatten**?
+V:  Waarom beschik ik niet over de optie **Niet samenvatten**?
 
-A: Het veld dat u hebt geselecteerd, is waarschijnlijk een berekende meting of geavanceerde meting gemaakt in Excel of in [Power BI Desktop](desktop-measures.md). Elk berekende meting heeft een eigen in code vastgelegde formule. U kunt de gebruikte aggregatie niet wijzigen.  Als het bijvoorbeeld een som is, kan deze alleen een som zijn. *Berekende metingen* worden in de lijst Velden weergegeven met het calculatorsymbool.
+A:  Het veld dat u hebt geselecteerd, is waarschijnlijk een berekende meting of een geavanceerde meting die in Excel of in [Power BI Desktop](desktop-measures.md) is gemaakt. Elk berekende meting heeft een eigen in code vastgelegde formule. U kunt de gebruikte aggregatie niet wijzigen.  Als het bijvoorbeeld een som is, kan deze alleen een som zijn. *Berekende metingen* worden in de lijst Velden weergegeven met het calculatorsymbool.
 
-V: Mijn veld **is** numeriek, waarom kan ik alleen kiezen uit **Aantal** en **Uniek aantal**?
+V:  Mijn veld **is** numeriek, waarom kan ik alleen kiezen uit **Aantal** en **Uniek aantal**?
 
-A1: Waarschijnlijk heeft de eigenaar van de gegevensset het veld per ongeluk of bewust *niet* geclassificeerd als een getal. Als een gegevensset bijvoorbeeld het veld **Jaar** bevat, kan de eigenaar van de gegevensset dat veld categoriseren als tekst, omdat het veld **Jaar** naar alle waarschijnlijkheid eerder wordt geteld (bijvoorbeeld het aantal mensen dat geboren is in 1974) dan dat het veld wordt opgeteld of dat er een gemiddelde van wordt genomen. Als u de eigenaar bent, kunt u de gegevensset openen in Power BI Desktop en het tabblad **Model maken** gebruiken om het gegevenstype te wijzigen.  
+A1:  Waarschijnlijk heeft de eigenaar van de gegevensset het veld per ongeluk of bewust *niet* geclassificeerd als een getal. Als een gegevensset bijvoorbeeld het veld **Jaar** bevat, kan de eigenaar van de gegevensset dat veld categoriseren als tekst, omdat het veld **Jaar** naar alle waarschijnlijkheid eerder wordt geteld (bijvoorbeeld het aantal mensen dat geboren is in 1974) dan dat het veld wordt opgeteld of dat er een gemiddelde van wordt genomen. Als u de eigenaar bent, kunt u de gegevensset openen in Power BI Desktop en het tabblad **Model maken** gebruiken om het gegevenstype te wijzigen.  
 
-A2: Als er een rekenmachinepictogram voor het veld wordt weergegeven, betekent dit dat het veld een *berekende meting* bevat. Elke berekende meting heeft een eigen in code vastgelegde formule die alleen kan worden gewijzigd door de eigenaar van een gegevensset. De berekening die wordt gebruikt, is mogelijk een eenvoudige aggregatie zoals een gemiddelde of som, maar er kunnen ook complexe berekeningen worden gebruikt. zoals een percentage voor de bijdrage aan de bovenliggende categorie of het voorlopige totaal vanaf het begin van het jaar. De resultaten worden niet opgeteld of gemiddeld. In plaats daarvan wordt elk gegevenspunt opnieuw berekend (aan de hand van de in code vastgelegde formule).
+A2: Als er een rekenmachinepictogram voor het veld wordt weergegeven, betekent dit dat het veld een *berekende meting* bevat. Elke berekende meting heeft een eigen, in code vastgelegde formule die alleen kan worden gewijzigd door de eigenaar van een gegevensset. De berekening die wordt gebruikt, is mogelijk een eenvoudige aggregatie zoals een gemiddelde of som, maar er kunnen ook complexe berekeningen worden gebruikt. zoals een percentage voor de bijdrage aan de bovenliggende categorie of het voorlopige totaal vanaf het begin van het jaar. De resultaten worden niet opgeteld of gemiddeld. In plaats daarvan wordt elk gegevenspunt opnieuw berekend (aan de hand van de in code vastgelegde formule).
 
-A3: Een andere mogelijkheid is dat u het veld in een *bucket* hebt geplaatst waarin alleen categorische waarden zijn toegestaan.  In dat geval beschikt u alleen over de opties Aantal en Uniek aantal.
+A3:  Een andere mogelijkheid is dat u het veld in een *bucket* hebt geplaatst waarin allee alleen categorische waarden zijn toegestaan.  In dat geval beschikt u alleen over de opties Aantal en Uniek aantal.
 
-A4: En een derde mogelijkheid is dat u het veld gebruikt voor een as. Er wordt in Power BI bijvoorbeeld één staaf voor elke afzonderlijke waarde weergegeven op de as van een staafdiagram. De veldwaarden worden niet samengevoegd. 
+A4:  En een derde mogelijkheid is dat u het veld gebruikt voor een as. Er wordt in Power BI bijvoorbeeld één staaf voor elke afzonderlijke waarde weergegeven op de as van een staafdiagram. De veldwaarden worden niet samengevoegd. 
 
 >[!NOTE]
 >Spreidingsdiagrammen vormen een uitzondering op deze regel. Deze diagrammen *vereisen* geaggregeerde waarden voor de x- en y-as.
 
-V: Waarom kan ik voor SSAS-gegevensbronnen geen tekstvelden aggregeren?
+V:  Waarom kan ik voor SSAS-gegevensbronnen geen tekstvelden aggregeren?
 
-A: Live verbindingen met SSAS MD staan geen aggregaties aan de clientzijde toe. Hieronder vallen eerste, laatste, gemiddelde, minimum maximum en som.
+A:  Live verbindingen met SSAS MD staan geen aggregaties aan de clientzijde toe. Hieronder vallen eerste, laatste, gemiddelde, minimum maximum en som.
 
-V: Ik heb een spreidingsdiagram en ik wil *niet* dat mijn veld wordt geaggregeerd.  Hoe doe ik dit?
+V:  Ik heb een spreidingsdiagram en ik wil *niet* dat mijn veld wordt geaggregeerd.  Hoe doe ik dit?
 
-A: Voeg het veld toe aan de bucket **Details** en niet aan de bucket van de x- of y-as.
+A:  Voeg het veld toe aan de bucket **Details** en niet aan de bucket van de x- of y-as.
 
-V: Wanneer ik een numeriek veld aan een visualisatie toevoeg, wordt meestal de som weergegeven, maar soms wordt ook het gemiddelde, het aantal of een andere aggregatie weergegeven.  Waarom is de standaardaggregatie niet altijd hetzelfde?
+V:  Wanneer ik een numeriek veld aan een visualisatie toevoeg, wordt meestal de som weergegeven, maar soms wordt ook het gemiddelde, het aantal of een andere aggregatie weergegeven.  Waarom is de standaardaggregatie niet altijd hetzelfde?
 
-A: Eigenaren van gegevenssets hebben de mogelijkheid om de standaardsamenvatting voor elk veld in te stellen. Als u eigenaar van een gegevensset bent, kunt u de standaardsamenvatting wijzigen op het tabblad **Modelleren** van Power BI Desktop.
+A:  Eigenaren van gegevenssets hebben de mogelijkheid om de standaardsamenvatting voor elk veld in te stellen. Als u eigenaar van een gegevensset bent, kunt u de standaardsamenvatting wijzigen op het tabblad **Modelleren** van Power BI Desktop.
 
-V: Ik ben de eigenaar van een gegevensset en ik wil er voor zorgen dat een veld nooit wordt samengevoegd.
+V:  Ik ben de eigenaar van een gegevensset en ik wil er voor zorgen dat een veld nooit wordt samengevoegd.
 
-A: In Power BI Desktop kunt u op het tabblad **Modelleren** de optie **Gegevenstype** instellen op **Tekst**.
+A:  In Power BI Desktop kunt u op het tabblad **Model maken** de optie **Gegevenstype** instellen op **Tekst**.
 
-V: De optie **Niet samenvatten** wordt niet weergegeven in de vervolgkeuzelijst.
+V:  De optie **Niet samenvatten** wordt niet weergegeven in de vervolgkeuzelijst.
 
-A: Verwijder het veld en voeg het vervolgens opnieuw toe.
+A:  Verwijder het veld en voeg het vervolgens opnieuw toe.
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

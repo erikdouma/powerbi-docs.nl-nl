@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d7e39d0ee048f51066783b1cc9c98333e0352dcf
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 9e7f43780048a222b9d024b39d983968f45c59f7
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51267289"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180571"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi-preview"></a>Gegevensstromen maken en gebruiken in Power BI (Preview)
 
@@ -143,6 +143,10 @@ U kunt ook de **zoekbalk** bovenaan het venster gebruiken om snel de naam van de
 
 Wanneer u de entiteit selecteert en vervolgens de knop **Laden** selecteert, worden de entiteiten weergegeven in het deelvenster **Velden** in **Power BI Desktop**, en gedragen deze zich zoals **tabellen** uit iedere andere gegevensset.
 
+## <a name="using-dataflows-stored-in-azure-data-lake-storage-gen2"></a>Gegevensstromen gebruiken die zijn opgeslagen in Azure Data Lake Storage Gen2
+
+Sommige organisaties willen hun eigen opslag gebruiken voor het maken en beheren van gegevensstromen. U kunt gegevensstromen integreren met Azure Data Lake Storage Gen2 als u aan de vereisten voldoet en machtigingen op de juiste wijze beheerd. De documentatie voor alle vereisten voor deze aanpak vindt u in het overzichtsdocument [Integratie van gegevensstromen en Azure Data Lake (preview)](service-dataflows-azure-data-lake-integration.md).
+
 
 ## <a name="troubleshooting-data-connections"></a>Problemen met gegevensverbindingen oplossen
 
@@ -160,6 +164,7 @@ In dit artikel wordt beschreven hoe u uw eigen **gegevensstroom** kunt maken, ev
 * [Berekende entiteiten gebruiken in Power BI Premium (preview)](service-dataflows-computed-entities-premium.md)
 * [Gegevensstromen gebruiken met on-premises gegevensbronnen (preview)](service-dataflows-on-premises-gateways.md)
 * [Resources voor ontwikkelaars voor Power BI-gegevensstromen (preview)](service-dataflows-developer-resources.md)
+* [Integratie van gegevensstromen en Azure Data Lake (preview)](service-dataflows-azure-data-lake-integration.md)
 
 U kunt het overzichtsartikel lezen voor meer informatie over Common Data Model:
 * [Overzicht van Common Data Model](https://docs.microsoft.com/powerapps/common-data-model/overview)

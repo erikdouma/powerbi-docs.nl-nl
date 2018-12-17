@@ -1,21 +1,22 @@
 ---
-title: Verbinding met Azure Consumption Insights-gegevens maken in Power BI Desktop (bèta)
+title: Verbinding maken met Azure Consumption Insights (bèta)
 description: Eenvoudig verbinding maken met Azure en inzicht verkrijgen over het verbruik en gebruik met behulp van Power BI Desktop
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c770423b81c6d5cd4135539d8d44c3cc46f8b6fe
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: 622a236ba2a240202a570a07e7b6abb201da9dde
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619604"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026776"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Verbinding met Azure Consumption Insights maken in Power BI Desktop (bèta)
 Met de **Azure Consumption Insights**-connector kunt u vanuit **Power BI Desktop** verbinding maken met Azure en gedetailleerde gegevens en informatie over het gebruik van Azure-services van uw organisatie verkrijgen. U kunt ook metingen, aangepaste kolommen en visuele elementen maken om rapporten over het gebruik van Azure van uw organisatie te maken en te delen. Deze versie van de **Azure Consumption and Insights**-connector is een bètaversie en kan worden gewijzigd.
@@ -25,7 +26,7 @@ Met de **Azure Consumption Insights**-connector kunt u vanuit **Power BI Desktop
 In dit artikel wordt uitgelegd hoe u verbinding maakt met de **Azure Consumption Insights**-connector, hoe u de benodigde gegevens ophaalt en hoe u een migratie van de Azure Enterprise-connector uitvoert. Ook vindt u er een toewijzing van beschikbare *gebruiksgegevenskolommen* in de **ACI** (Azure Consumption Insights) API.
 
 ## <a name="connect-to-azure-consumption-insights"></a>Verbinding met Azure Consumption Insights maken
-Om verbinding te maken met behulp van de **Azure Consumption Insights**-connector, moet u toegang hebben tot de Enterprise-functies binnen Azure Portal.
+Om verbinding te maken met behulp van de **Azure Consumption Insights**-connector, moet u toegang hebben tot de Enterprise-functies binnen de Azure-portal.
 
 Om verbinding te maken via de **Azure Consumption Insights**-connector, selecteert u **Gegevens ophalen** in het lint **Start** in **Power BI Desktop**. Selecteer **Onlineservices** in de categorieën aan de linkerkant en u ziet **Azure Consumption Insights (bèta)**. Selecteer **Verbinding maken**.
 
@@ -50,15 +51,15 @@ Geef vervolgens uw *toegangssleutel* op om verbinding te maken.
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
 Als u de *toegangssleutel* hebt opgegeven en **Verbinding maken** selecteert, wordt het venster **Navigator** weergegeven met die negen tabellen die voor u beschikbaar zijn: 
-* **Budgetten**: Deze tabel toont budgetgegevens zodat u de daadwerkelijke kosten of het daadwerkelijke gebruik kunt vergelijken met de budgetdoelen. 
-* **MarketPlace**: Deze tabel toont op gebruik gebaseerde kosten voor Azure Marketplace.
-* **PriceSheets**: Deze tabel toont de betreffende tarieven per meter voor inschrijving.
-* **RICharges**: Deze tabel toont de kosten van uw gereserveerde instanties voor de afgelopen 24 maanden.
-* **RIRecommendations_Single**: Deze tabel toont aanbevelingen voor de aanschaf van gereserveerde instanties op basis van uw gebruikstrends voor een enkel abonnement gedurende de afgelopen 7, 30 of 60 dagen.
-* **RIRecommendations_Shared**: Deze tabel toont aanbevelingen voor de aanschaf van gereserveerde instanties op basis van uw gebruikstrends voor al uw abonnementen gedurende de afgelopen 7, 30 of 60 dagen.
-* **RIUsage**: Deze tabel toont details over het gebruik van uw huidige gereserveerde instanties gedurende de afgelopen maand.
-* **Summaries**: Deze tabel toont een maandelijks overzicht met saldo's, nieuwe aankopen en servicekosten, wijzigingen en overschrijdingskosten voor Azure Marketplace.
-* **UsageDetails**: Deze tabel toont een specificatie van de gebruikte hoeveelheden en de geschatte kosten voor een inschrijving.
+* **Budgets**: deze tabel toont budgetgegevens zodat u de daadwerkelijke kosten of het daadwerkelijke gebruik kunt vergelijken met de bestaande budgetdoelen. 
+* **MarketPlace**: deze tabel toont op gebruik gebaseerde kosten voor Azure Marketplace.
+* **PriceSheets**: deze tabel toont de betreffende tarieven per meter voor inschrijving.
+* **RICharges**: deze tabel toont de kosten van uw gereserveerde instanties gedurende de afgelopen 24 maanden.
+* **RIRecommendations_Single**: deze tabel toont aanbevelingen voor de aanschaf van gereserveerde instanties op basis van uw gebruikstrends voor één abonnement gedurende de afgelopen 7, 30 of 60 dagen.
+* **RIRecommendations_Shared**: deze tabel toont aanbevelingen voor de aanschaf van gereserveerde instanties op basis van uw gebruikstrends voor al uw abonnementen gedurende de afgelopen 7, 30 of 60 dagen.
+* **RIUsage**: deze tabel toont details van het gebruik van uw huidige gereserveerde instanties gedurende de afgelopen maand.
+* **Summaries**: deze tabel toont een maandelijks overzicht met saldo's, nieuwe aankopen en servicekosten, wijzigingen en overschrijdingskosten voor Azure Marketplace.
+* **UsageDetails**: deze tabel toont een specificatie van de gebruikte hoeveelheden en de geschatte kosten voor een inschrijving.
 
 U kunt het selectievakje naast een tabel inschakelen om een voorbeeld van de tabel weer te geven. U kunt een of meer tabellen selecteren door de betreffende selectievakjes in te schakelen en **Laden** te selecteren.
 
@@ -78,7 +79,7 @@ Nadat de geselecteerde gegevens zijn geladen, worden de geselecteerde tabellen e
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_06.png)
 
 ## <a name="using-azure-consumption-insights"></a>Werken met Azure Consumption Insights
-Om de **Azure Consumption Insights**-connector te kunnen gebruiken, moet u toegang hebben tot de Enterprise-functies binnen Azure Portal.
+Om de **Azure Consumption Insights**-connector te kunnen gebruiken, moet u toegang hebben tot de Enterprise-functies binnen de Azure-portal.
 
 Als u gegevens hebt geladen met de **Azure Consumption Insights**-connector, kunt u uw eigen aangepaste metingen en kolommen maken met **Query-editor** en visuele elementen, rapporten en dashboards maken en deze vervolgens delen in de **Power BI-service**.
 
@@ -108,10 +109,10 @@ Sommige klanten hebben visuele elementen gemaakt met de *Azure Enterprise-connec
 
 Om klanten te helpen met de overgang naar de nieuwe **Azure Consumption Insights**-connector en ervoor te zorgen dat de door hun gemaakte aangepaste dashboards of rapporten niet verloren gaan, wordt in de volgende stappen beschreven hoe u de nieuwe connector in gebruik neemt.
 
-### <a name="step-1-connect-to-azure-using-the-new-connector"></a>Stap 1: Verbinding maken met Azure met behulp van de nieuwe connector
+### <a name="step-1-connect-to-azure-using-the-new-connector"></a>Stap 1: verbinding maken met Azure met behulp van de nieuwe connector
 Eerst moet u verbinding maken met Azure via de **Azure Consumption Insights**-connector, die eerder in dit artikel in detail is beschreven. In deze stap selecteert u **Gegevens ophalen > Lege query** in het lint **Start** in **Power BI Desktop**.
 
-### <a name="step-2-use-the-advanced-editor-to-create-a-query"></a>Stap 2: Een query maken met de geavanceerde editor
+### <a name="step-2-use-the-advanced-editor-to-create-a-query"></a>Stap 2: een query maken met de geavanceerde editor
 In **Query-editor** selecteert u **Geavanceerde editor** in de sectie **Query** van het lint **Start**. In het venster **Geavanceerde editor** dat wordt weergegeven, voert u de volgende query in:
 
     let    
@@ -127,7 +128,7 @@ Uiteraard moet u de waarde van *enrollmentNumber* vervangen door uw eigen inschr
 
 Wanneer u **Gereed** selecteert in het venster **Geavanceerde editor**, wordt het voorbeeld vernieuwd en worden de gegevens van het opgegeven maandbereik in de tabel weergegeven. Selecteer **Sluiten en toepassen** om terug te keren.
 
-### <a name="step-3-move-measures-and-custom-columns-to-the-new-report"></a>Stap 3: Metingen en aangepaste kolommen naar het nieuwe rapport verplaatsen
+### <a name="step-3-move-measures-and-custom-columns-to-the-new-report"></a>Stap 3: metingen en aangepaste kolommen naar het nieuwe rapport verplaatsen
 Vervolgens moet u alle aangepaste kolommen of metingen die u hebt gemaakt, verplaatsen naar de nieuwe detailtabel. Dit zijn de stappen.
 
 1. Open Kladblok (of een andere teksteditor).
@@ -137,21 +138,21 @@ Vervolgens moet u alle aangepaste kolommen of metingen die u hebt gemaakt, verpl
 3. Wijzig de naam van *Query1* in de oorspronkelijke naam van de detailtabel.
 4. Maak nieuwe metingen en aangepaste kolommen in de tabel door met de rechtermuisknop op de tabel te klikken en **Nieuwe meting** te kiezen. Knip en plak vervolgens al uw opgeslagen metingen en kolommen in de nieuwe tabel.
 
-### <a name="step-4-re-link-tables-that-had-relationships"></a>Stap 4: Tabellen met eerdere relaties opnieuw koppelen
+### <a name="step-4-re-link-tables-that-had-relationships"></a>Stap 4: tabellen met eerdere relaties opnieuw koppelen
 Veel dashboards bevatten aanvullende zoek- of filtertabellen, zoals datumtabellen of tabellen die worden gebruikt voor aangepaste projecten. Als u de relaties van die tabellen opnieuw instelt, zijn de meeste resterende problemen opgelost. U kunt dit als volgt doen.
 
 - Selecteer op het tabblad **Modelleren** in **Power BI Desktop** de optie **Relaties beheren**. Er wordt een venster weergegeven waarin u de relaties binnen het model kunt beheren. Koppel uw tabellen opnieuw naar behoefte.
    
     ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_12.png)
 
-### <a name="step-5-verify-your-visuals-and-adjust-field-formatting-as-needed"></a>Stap 5: Uw visuele elementen controleren en de veldopmaak zo nodig aanpassen
+### <a name="step-5-verify-your-visuals-and-adjust-field-formatting-as-needed"></a>Stap 5: uw visuals controleren en de veldopmaak zo nodig aanpassen
 Als u tot hier bent gekomen, zal het merendeel van uw oorspronkelijke visuele elementen, tabellen en detailweergaven werken zoals verwacht. Mogelijk zijn er echter enkele kleine aanpassingen nodig in de opmaak, om alles geheel naar wens weer te geven. Neem de tijd om te controleren of alle dashboards en visuele elementen eruitzien zoals u wilt.
 
 ## <a name="using-the-azure-consumption-and-insights-aci-api-to-get-consumption-data"></a>Verbruiksgegevens ophalen met de Azure Consumption and Insights (ACI) API
 Azure wordt geleverd met de [**Azure Consumption and Insights (ACI) API**](https://azure.microsoft.com/blog/announcing-general-availability-of-consumption-and-charge-apis-for-enterprise-azure-customers/). Hiermee kunt u uw eigen aangepaste oplossingen maken voor verzameling, rapportage en visualisatie van het Azure-verbruik met de ACI API.
 
 ### <a name="mapping-names-and-usage-details-between-the-portal-the-connector-and-the-api"></a>Namen en gebruiksgegevens toewijzen tussen de portal, de connector en de API
-De kolommen en namen van detailgegevens in Azure Portal zijn vergelijkbaar in de API en de connector, maar zijn niet altijd identiek. Ter illustratie, de volgende tabel bevat een toewijzing tussen de API, de connector en kolommen die worden weergegeven in Azure Portal. Ook wordt aangegeven of de kolom verouderd is. Zie de [data dictionary voor Azure-facturering](https://docs.microsoft.com/azure/billing/billing-enterprise-api-usage-detail) voor meer informatie over en definities van deze termen.
+De kolommen en namen van detailgegevens in de Azure-portal zijn vergelijkbaar in de API en de connector, maar zijn niet altijd identiek. Ter illustratie, de volgende tabel bevat een toewijzing tussen de API, de connector en kolommen die worden weergegeven in de Azure-portal. Ook wordt aangegeven of de kolom verouderd is. Zie de [data dictionary voor Azure-facturering](https://docs.microsoft.com/azure/billing/billing-enterprise-api-usage-detail) voor meer informatie over en definities van deze termen.
 
 | Kolomnaam ACI-connector / inhoudspakket | Kolomnaam ACI API | Kolomnaam EA | Verouderd / aanwezig voor achterwaartse compatibiliteit |
 | --- | --- | --- | --- |

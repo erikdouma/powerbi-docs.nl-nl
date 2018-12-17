@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8131722d0e035f28fcb88827b1a68c2da97959cb
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: b63b8a601040751cda81e022d571d3a0ed6d501f
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51267281"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180663"
 ---
 # <a name="using-computed-entities-on-power-bi-premium-preview"></a>Berekende entiteiten gebruiken in Power BI Premium (preview)
 
@@ -77,16 +77,21 @@ Dat is alles. De transformatie wordt uitgevoerd voor de gegevens in de gegevenss
 
 Let op: als u de werkruimte verwijdert uit de Power BI Premium-capaciteit, wordt de bijbehorende gegevensstroom niet meer vernieuwd. 
 
+Als u werkt met gegevensstromen die speciaal zijn gemaakt in het Azure Data Lake Storage Gen2-account van een organisatie, werken gekoppelde en berekende entiteiten alleen goed als de entiteiten zich in hetzelfde opslagaccount bevinden. Zie [Verbinding maken met Azure Data Lake Storage Gen2 voor gegevensstroomopslag (preview)](service-dataflows-connect-azure-data-lake-storage-gen2.md) voor meer informatie.
+
+Bovendien zijn gekoppelde entiteiten niet beschikbaar voor gegevensstromen die zijn gemaakt vanuit CDM-mappen. Zie [Een CDM-map aan Power BI toevoegen als een gegevensstroom (preview)](service-dataflows-add-cdm-folder.md).
 
 ## <a name="next-steps"></a>Volgende stappen
 
 In dit artikel werden berekende entiteiten en de beschikbare gegevensstromen in de Power BI-service beschreven. Hier volgen nog enkele artikelen die misschien nuttig zijn.
 
-
 * [Self-service data prep with dataflows](service-dataflows-overview.md) (Selfservice voor gegevensvoorbereiding met gegevensstromen)
 * [Gegevensstromen maken en gebruiken in Power BI](service-dataflows-create-use.md)
 * [Gegevensstromen gebruiken met on-premises gegevensbronnen (preview)](service-dataflows-on-premises-gateways.md)
 * [Resources voor ontwikkelaars voor Power BI-gegevensstromen (preview)](service-dataflows-developer-resources.md)
+* [Gegevensstroominstellingen voor werkruimten configureren (preview)](service-dataflows-configure-workspace-storage-settings.md)
+* [Een CDM-map aan Power BI toevoegen als een gegevensstroom (preview)](service-dataflows-add-cdm-folder.md)
+* [Verbinding maken met Azure Data Lake Storage Gen2 voor gegevensstroomopslag (preview)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 
 U kunt de volgende artikelen lezen voor meer informatie over Power Query en geplande vernieuwing:
 * [Queryoverzicht in Power BI Desktop](desktop-query-overview.md)

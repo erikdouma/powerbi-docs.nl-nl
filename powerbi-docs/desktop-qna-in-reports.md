@@ -1,21 +1,21 @@
 ---
 title: Q&A in Power BI Desktop gebruiken
 description: Met Q&A kunt u query's met natuurlijke taal gebruiken in Power BI Desktop
-author: davidiseminger
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
-ms.author: davidi
+ms.date: 12/05/2018
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8c0736728d1dfce5a571eb1950670bc9fc9fa1c1
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 4a9ab6173422ec2f897050b2f456847b342e9fa2
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670757"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026725"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Q&A in Power BI Desktop gebruiken voor query's met natuurlijke taal
 Normale zinnen en natuurlijke taal gebruiken om informatie uit uw gegevens te kunnen opvragen, is uiterst nuttig. Nog nuttiger is het wanneer uw gegevens antwoorden. Dit is wat u voor elkaar kunt krijgen met Q&A in **Power BI Desktop**.
@@ -25,9 +25,6 @@ Als u met Q&A het grote aantal vragen wilt interpreteren waarop de functie kan r
 > [!NOTE]
 > Q&A is alleen beschikbaar wanneer u met een model werkt dat **geïmporteerde** gegevens bevat. Liveverbindingen met SSAS- en DirectQuery-modellen worden niet ondersteund.
 >
->
-
-> [!NOTE]
 > Voor Q&A is de volgende update van C Runtime vereist als u een eerdere Windows-versie dan Windows 10 gebruikt. Installeer belangrijke updates via Windows Update of installeer het vereiste Microsoft-onderdeel handmatig (KB2999226) om het probleem op te lossen. https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows
 >
 >
@@ -49,11 +46,11 @@ Als in uw model relaties tussen tabellen ontbreken, kunt u noch met Power BI-rap
 
 ## <a name="rename-tables-and-columns"></a>De naam van tabellen en kolommen wijzigen
 
-De keuze van tabellen en kolommen is erg belangrijk voor Q&A. Als u bijvoorbeeld een tabel hebt met de naam *KlantenOverzicht* die een lijst van uw klanten bevat, moet u vragen stellen als 'Maak een lijst van klantoverzichten in Chicago' in plaats van 'Maak een lijst van klanten in Chicago'. 
+De keuze van tabellen en kolommen is belangrijk voor Q&A. Stel dat u een tabel hebt met de naam *CustomerSummary*. Deze bevat een lijst met uw klanten. U zou vragen moeten stellen als 'Vermeld de klantoverzichten in Rotterdam' in plaats van 'Vermeld de klanten in Rotterdam'. 
 
 Met Q&A kunt u enkele eenvoudige analyses van woorden en detectie van meervouden uitvoeren. Q&A gaat echter ervan uit dat uw tabel- en kolomnamen een goed beeld vormen van de inhoud ervan.
 
-Kijk nu eens naar een ander voorbeeld. Stel, u hebt een tabel met de naam *Personeelsbezetting* die de voor- en achternamen en het aantal werknemers bevat. Daarnaast hebt u een andere tabel met de naam *Werknemers* die het aantal werknemers, het aantal functies en de begindatums bevat. Dit vormt weliswaar geen problemen voor mensen die bekend zijn met het model, maar als iemand vraagt 'tel het aantal werknemers', krijgt deze persoon mogelijk een optelsom van de rijen van de tabel 'Werknemers' en waarschijnlijk niet de gewenste gegevens omdat dit een optelsom vormt van elke functie die elke werknemer ooit heeft gehad. Het is beter om de naam van de tabellen te wijzigen zodat deze de gegevens weergeven die ze daadwerkelijk bevatten.
+Kijk nu eens naar een ander voorbeeld. Stel dat u een tabel hebt met de naam *Personeelsbestand*, die voor- en achternamen en werknemernummers bevat. Stel dat u nog een tabel hebt, *Werknemers*, die werknemernummers, taaknummers en begindatums bevat. Wie met het model bekend is, weet hoe deze structuur in elkaar zit. Als iemand anders vraagt 'tel de werknemers', dan krijgt hij of zij een telling van het aantal rijen in de tabel Werknemers. Het resultaat is waarschijnlijk niet wat ze bedoelen, omdat het een telling is van elke taak die elke werknemer ooit heeft gehad. Het is beter om de naam van de tabellen te wijzigen zodat deze de gegevens weergeven die ze daadwerkelijk bevatten.
 
 **Actie vereist**
 
@@ -71,13 +68,13 @@ Geïmporteerde gegevens kunnen ongeldige gegevenstypen hebben. Met name kolommen
 
 ## <a name="mark-year-and-identifier-columns-as-dont-summarize"></a>Jaar- en id-kolommen markeren als Niet samenvatten
 
-Power BI aggregeert numerieke kolommen standaard op agressieve wijze, zodat vragen als 'totale verkoop per jaar' soms kan resulteren in zowel een totaal van verkopen als een totaal van jaren. Als u specifieke kolommen hebt waarin u niet wilt dat Power BI dit gedrag vertoont, stelt u de eigenschap **Samenvatten op** van de kolom in op **Niet samenvatten**. Let goed op met kolommen voor **jaar**, **maand**, **dag** en **Id**, aangezien deze kolommen het vaakst problemen opleveren. Ook voor andere kolommen met gegevens die minder gevoelig zijn voor optellen, zoals *leeftijd*, kan het gunstig zijn om **Samenvatten op** in te stellen op **Niet samenvatten** of **Gemiddeld**. U vindt deze instelling op het tabblad **Modelleren**.
+Power BI aggregeert numerieke kolommen standaard op agressieve wijze, zodat vragen als 'totale verkoop per jaar' soms kan resulteren in zowel een totaal van verkopen als een totaal van jaren. Als u specifieke kolommen hebt waarin u niet wilt dat Power BI dit gedrag vertoont, stelt u de eigenschap **Samenvatten op** van de kolom in op **Niet samenvatten**. Let goed op met kolommen voor **jaar**, **maand**, **dag** en **Id**, aangezien deze kolommen het vaakst problemen opleveren. Ook voor andere kolommen met gegevens die minder gevoelig zijn voor optellen, zoals *leeftijd*, kan het gunstig zijn om **Samenvatten op** in te stellen op **Niet samenvatten** of **Gemiddeld**. U vindt deze instelling op het tabblad **Model maken**.
 
 ![Kolommen niet samenvatten voor Q&A als deze gegevens bevatten voor jaar, maand en dag](media/desktop-qna-in-reports/desktop-qna_06.png)
 
 ## <a name="choose-a-data-category-for-each-date-and-geography-column"></a>Een gegevenscategorie kiezen voor elke datum- en geografiekolom
 
-De **gegevenscategorie** biedt aanvullende semantische kennis over de inhoud van een kolom afgezien van het gegevenstype. Een kolom met gehele getallen kan bijvoorbeeld worden gemarkeerd als een postcode, terwijl een tekenreekskolom kan worden gemarkeerd als een stad, land, regio enzovoort. Deze informatie wordt door Q&A op twee belangrijke manieren gebruikt: voor de selectie van visualisaties en voor de taalafwijkingen.
+De **gegevenscategorie** biedt aanvullende semantische kennis over de inhoud van een kolom afgezien van het gegevenstype. Een kolom met gehele getallen kan bijvoorbeeld worden gemarkeerd als een postcode, terwijl een tekenreekskolom kan worden gemarkeerd als een stad, land, regio enzovoort. Deze informatie wordt door Q&A op twee belangrijke manieren gebruikt: Voor selectie van visualisaties en voor taalvooroordelen.
 
 Ten eerste gebruikt Q&A de informatie in de **gegevenscategorie** om te bepalen op welke manier de visuals moeten worden weergegeven. De functie herkent bijvoorbeeld dat kolommen met de **gegevenscategorieën** voor datum of tijd meestal een goede keuze vormen voor de horizontale as van een lijndiagram of de afspeelas van een bellendiagram. De functie gaat tevens ervan uit dat resultaten met kolommen met geografische **gegevenscategorieën** op een kaart goed overkomen.
 
@@ -90,19 +87,19 @@ Ten tweede kan met Q&A redelijk goed worden ingeschat hoe gebruikers waarschijnl
 
 Met de eigenschap **Op kolom sorteren** kunt u sorteren op één kolom, zodat in plaats daarvan automatisch op een andere kolom kan worden gesorteerd. Wanneer u bijvoorbeeld vraagt 'klanten sorteren op overhemdgrootte', wilt u waarschijnlijk uw kolom Overhemdgrootte sorteren op de onderliggende grootten (XS, S, M, L, XL) in plaats van alfabetisch (L, M, S, XL, XS).
 
-![Kies de juiste Op kolom sorteren voor Q&A](media/desktop-qna-in-reports/desktop-qna_08.png)
+![Kies Op kolom sorteren die past bij Q&A](media/desktop-qna-in-reports/desktop-qna_08.png)
 
 ## <a name="normalize-your-model"></a>Het model normaliseren
 
-Schrik niet, dit betekent niet dat u uw gehele model moet aanpassen. Er zijn echter bepaalde structuren die gewoon zo moeilijk zijn dat Q&A hier niet goed mee overweg kan. Als u eenvoudige normalisering uitvoert op de structuur van uw model, neemt de bruikbaarheid van Power BI-rapporten aanzienlijk toe, evenals de resultaten van Q&A.
+Schrik niet, dit betekent niet dat u uw gehele model moet aanpassen. Bepaalde structuren zijn echter zo ingewikkeld dat Q&A ze niet goed verwerkt. Als u eenvoudige normalisering uitvoert op de structuur van uw model, neemt de bruikbaarheid van Power BI-rapporten aanzienlijk toe, evenals de resultaten van Q&A.
 
-Houd de volgende regel in het achterhoofd: elk uniek 'ding' waarover de gebruiker spreekt, moet worden voorgesteld door één exact modelobject (tabel of kolom). Als uw gebruikers over klanten communiceren, moet er dus slechts één object *Klant* zijn. Als uw gebruikers over verkoop communiceren, moet er dus slechts één object *Verkoop*  zijn. Klinkt eenvoudig, of niet? Afhankelijk van de vorm van de gegevens waarmee u begint, kan het inderdaad eenvoudig zijn. In **Query-editor** zijn uitgebreide mogelijkheden beschikbaar voor het vormgeven van gegevens. Voor eenvoudigere transformaties kunt u berekeningen gebruiken in het Power BI-model.
+Volg deze algemene regel: Elk uniek 'ding' waarover de gebruiker spreekt, moet worden voorgesteld door precies één modelobject (tabel of kolom). Als uw gebruikers over klanten communiceren, moet er dus slechts één object *Klant* zijn. Als uw gebruikers over verkoop communiceren, moet er dus slechts één object *Verkoop*  zijn. Klinkt eenvoudig, of niet? Afhankelijk van de vorm van de gegevens waarmee u begint, kan het inderdaad eenvoudig zijn. In **Query-editor** zijn uitgebreide mogelijkheden beschikbaar voor het vormgeven van gegevens. Voor eenvoudigere transformaties kunt u berekeningen gebruiken in het Power BI-model.
 
 De volgende secties bevatten enkele algemene transformaties die u kunt uitvoeren.
 
 ### <a name="create-new-tables-for-multi-column-entities"></a>Nieuwe tabellen maken voor entiteiten met meerdere kolommen
 
-Als u meerdere kolommen hebt die als een afzonderlijke eenheid binnen een grotere tabel fungeren, moeten deze kolommen worden opgesplitst in hun eigen tabel. Als u binnen uw tabel *Bedrijven* bijvoorbeeld een kolom hebt met Naam contactpersoon, Titel contactpersoon en Telefoonnummer contactpersoon, is het raadzaam om een afzonderlijke tabel *Contactpersonen* te maken met Naam, Titel en Telefoonnummer, en een koppeling naar de tabel *Bedrijven* te maken. Op deze manier wordt het eenvoudiger om vragen te stellen over contactpersonen zonder vragen te stellen over de bedrijven waarvoor zij de contactpersoon zijn. Hiermee verbetert u de flexibiliteit van de weergave.
+Als u meerdere kolommen hebt die als een afzonderlijke eenheid binnen een grotere tabel fungeren, moeten deze kolommen worden opgesplitst in hun eigen tabel. Stel dat u een naam, een titel en een telefoonnummer van een contactpersoon in uw tabel *Bedrijven* hebt. Het zou beter zijn om een aparte tabel *Contactpersonen* te hebben die de naam, de titel en het telefoonnummer bevat, en tevens een koppeling naar de tabel *Bedrijven*. Op deze manier wordt het eenvoudiger om vragen te stellen over contactpersonen zonder vragen te stellen over de bedrijven waarvoor zij de contactpersoon zijn. Hiermee verbetert u de flexibiliteit van de weergave.
 
 **Actie vereist**
 
@@ -128,9 +125,9 @@ Neem bijvoorbeeld een tabel *KlantenDemografie* met de kolommen Klant-id, Eigens
 
 ### <a name="union-to-eliminate-partitioning"></a>Samenvoegen om partitioneren te elimineren
 
-Als u uw gegevens hebt gepartitioneerd over meerdere tabellen, of waarden hebt gedraaid in meerdere kolommen, kan een aantal algemene bewerkingen voor uw gebruikers moeilijk of zelfs onmogelijk worden. Voer eerst standaardtabelpartities door: een tabel *Verkoop2000-2010* en een tabel *Verkoop2011-2020*. Als al uw belangrijke rapporten zijn beperkt tot een specifiek decennium, kunt u dit waarschijnlijk zo laten voor Power BI-rapporten. Door de flexibiliteit van Q&A verwachten uw gebruikers echter mogelijk antwoorden op vragen als 'totale verkoop per jaar'. Om dit te laten werken, moet u de gegevens samenvoegen in één Power BI-modeltabel.
+Als u uw gegevens hebt gepartitioneerd over meerdere tabellen, of waarden hebt gedraaid in meerdere kolommen, kan een aantal algemene bewerkingen voor uw gebruikers moeilijk of zelfs onmogelijk worden. Voer eerst standaardtabelpartities door: een tabel *Verkoop2000-2010* en een tabel *Verkoop2011-2020*. Als al uw belangrijke rapporten zijn beperkt tot een specifiek decennium, kunt u dit waarschijnlijk zo laten voor Power BI-rapporten. Door de flexibiliteit van Q&A verwachten uw gebruikers echter mogelijk antwoorden op vragen als 'totale verkoop per jaar'. Om deze query te kunnen uitvoeren, moet u de gegevens samenvoegen in één Power BI-modeltabel.
 
-Kijk op dezelfde manier eens naar een gedraaide waardenkolom: een tabel *BookTour* met de kolommen Auteur, Adresboek, Plaats1, Plaats2 en Plaats3. Met een dergelijke structuur kunnen zelfs eenvoudige vragen als 'aantal boeken per plaats tellen' niet correct worden geïnterpreteerd. Om dit te laten werken, moet u een afzonderlijke tabel *BookTourCities* maken, waarin de plaatswaarden zijn samengevoegd in één kolom.
+Kijk op dezelfde manier eens naar een gedraaide waardenkolom: een tabel *BookTour* met de kolommen Auteur, Adresboek, Plaats1, Plaats2 en Plaats3. Met een dergelijke structuur kunnen zelfs eenvoudige vragen als 'aantal boeken per plaats tellen' niet correct worden geïnterpreteerd. Om deze query te laten uitvoeren, maakt u een afzonderlijke tabel *BookTourCities*, waarin de plaatswaarden zijn samengevoegd in één kolom.
 
 **Actie vereist**
 
@@ -142,7 +139,7 @@ Kijk op dezelfde manier eens naar een gedraaide waardenkolom: een tabel *BookTou
 
 ### <a name="split-formatted-columns"></a>Opgemaakte kolommen splitsen
 
-Als de bron van waaruit u uw gegevens wilt importeren opgemaakte kolommen bevat, kunnen Power BI-rapporten en Q&A niet in de kolom lezen om de inhoud ervan te parseren. Als u bijvoorbeeld een kolom **Volledig adres** hebt met het adres, de plaats en het land, moet u de kolommen voor het adres, de plaats en het land splitsen zodat uw gebruikers query’s kunnen uitvoeren op de afzonderlijke gegevens.
+Als de bron van waaruit u uw gegevens wilt importeren opgemaakte kolommen bevat, kunnen Power BI-rapporten en Q&A niet in de kolom lezen om de inhoud ervan te parseren. Als u bijvoorbeeld een kolom **Volledig adres** hebt met het adres, de plaats en het land, moet u deze splitsen in kolommen met het adres, de plaats en het land, zodat uw gebruikers query’s kunnen uitvoeren op de afzonderlijke gegevens.
 
 **Actie vereist**
 
@@ -169,7 +166,7 @@ Als in een soortgelijke situatie de bron van waaruit u uw gegevens wilt importer
 
 ### <a name="denormalize-to-eliminate-inactive-relationships"></a>Denormaliseren om inactieve relaties te elimineren
 
-De enige uitzondering op de regel 'normalisatie is beter' treedt op wanneer er meerdere manieren zijn om van de ene tabel naar de andere te gaan. Als u bijvoorbeeld een tabel met *Vluchten* hebt, met kolommen voor zowel BronStad-id als DoelStad-id, die elk zijn verbonden met de tabel *Steden*, moet een van de ze relaties worden gemarkeerd als niet-actief. Aangezien met Q&A alleen actieve relaties kunnen worden gebruikt, kunt u geen vragen stellen over de bron- of doellocatie, afhankelijk van uw keuze. Als u in plaats daarvan de kolommen met plaatsnamen denormaliseert naar de tabel *Vluchten*, kunt u vragen stellen als: 'maak een lijst met vlucht voor morgen met als bronlocatie Amsterdam en als doellocatie Wenen.'
+De enige uitzondering op de regel 'normalisatie is beter' treedt op wanneer er meerdere manieren zijn om van de ene tabel naar de andere te gaan. Stel dat u een tabel met *Vluchten* hebt, met kolommen voor zowel BronStad-id als DoelStad-id, die elk zijn verbonden met de tabel *Steden*. Een van deze relaties moet worden gemarkeerd als niet-actief. Aangezien met Q&A alleen actieve relaties kunnen worden gebruikt, kunt u geen vragen stellen over de bron- of doellocatie, afhankelijk van uw keuze. Als u in plaats daarvan de kolommen met plaatsnamen denormaliseert naar de tabel *Vluchten*, kunt u vragen stellen als: 'maak een lijst met vluchten voor morgen met als bronlocatie Amsterdam en als doellocatie Wenen'.
 
 **Actie vereist**
 
@@ -183,7 +180,7 @@ De enige uitzondering op de regel 'normalisatie is beter' treedt op wanneer er m
 
 Deze stap geldt specifiek voor Q&A (en niet voor Power BI-rapporten in het algemeen). Gebruikers gebruiken vaak tal van termen om te verwijzen naar hetzelfde, zoals totale verkoop, net verkoop, totale net verkoop. Met het model van Power BI kunt u deze synoniemen toevoegen aan tabellen en kolommen in het model. 
 
-Dit kan erg belangrijk zijn. Zelfs met eenvoudige tabel- en kolomnamen, stellen gebruikers van Q&A vragen waarin ze de woorden gebruiken die als eerste in hen opkomen in plaats van te kiezen uit een vooraf gedefinieerde lijst met kolommen. Hoe meer logische synoniemen u kunt toevoegen, hoe beter de ervaring van uw gebruikers met het rapport. Als u synoniemen wilt toevoegen, selecteert u in de weergave **Relaties** in het lint de knop Synoniemen, zoals wordt weergegeven in de volgende afbeelding.
+Deze stap kan belangrijk zijn. Zelfs met eenvoudige tabel- en kolomnamen, stellen gebruikers van Q&A vragen waarin ze de woorden gebruiken die als eerste in hen opkomen in plaats van te kiezen uit een vooraf gedefinieerde lijst met kolommen. Hoe meer logische synoniemen u kunt toevoegen, hoe beter de ervaring van uw gebruikers met het rapport. Als u synoniemen wilt toevoegen, selecteert u in de weergave **Relaties** in het lint de knop Synoniemen, zoals wordt weergegeven in de volgende afbeelding.
 
 ![Synoniemen voor Q&A toevoegen](media/desktop-qna-in-reports/desktop-qna_21.png)
 
