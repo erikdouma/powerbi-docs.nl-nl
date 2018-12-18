@@ -1,29 +1,31 @@
 ---
-title: Uw gegevensopslag beheren
-description: Meer informatie over hoe u uw persoonlijke gegevensopslag, of opslag van de app-werkruimte, kunt beheren om ervoor te zorgen dat u rapporten en gegevenssets kunt blijven publiceren.
+title: Gegevensopslag in uw werkruimten beheren
+description: Meer informatie over hoe u uw persoonlijke of opslag van de app-werkruimte kunt beheren om ervoor te zorgen dat u rapporten en gegevenssets kunt blijven publiceren.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/28/2017
+ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: 864d50d8850a8ceed964f128cea71b0daf5d8322
-ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
+ms.openlocfilehash: 239cc7e0574c9c6a4d76cdff83e14cf6af742689
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50736867"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180456"
 ---
-# <a name="manage-your-data-storage"></a>Uw gegevensopslag beheren
-Meer informatie over hoe u uw persoonlijke gegevensopslag, of opslag van de app-werkruimte, kunt beheren om ervoor te zorgen dat u rapporten en gegevenssets kunt blijven publiceren.
+# <a name="manage-data-storage-in-power-bi-workspaces"></a>Gegevensopslag in Power BI-werkruimten beheren
 
-Gebruikers en app-werkruimten hebben hun eigen gegevenscapaciteit
+Meer informatie over hoe u uw persoonlijke of opslag van de app-werkruimte kunt beheren om ervoor te zorgen dat u rapporten en gegevenssets kunt blijven publiceren.
+
+Gebruikers en app-werkruimten hebben hun eigen gegevenscapaciteit:
 
 * Alle gebruikers hebben maximaal 10 GB gegevensopslag.
-* Gebruikers met een Power BI Pro-licentie kunnen app-werkruimten maken, die elk maximaal 10 GB gegevensopslag hebben.
+* Gebruikers van een Power BI Pro-licentie kunnen app-werkruimten maken, die elk maximaal 10 GB gegevensopslag hebben.
 
 Op tenantniveau kan het totale gebruik niet 10 GB per Pro-gebruiker overschrijden over alle Pro-gebruikers van app-werkruimten in de tenant.
 
@@ -44,36 +46,36 @@ Zie hoeveel gegevensopslag u gebruikt in uw Power BI-account en beheer uw accoun
 
 1. Om uw eigen opslag te beheren, gaat u naar **Mijn werkruimte** in het navigatiedeelvenster links.
    
-    ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
-2. Selecteer het tandwielpictogram ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) in de rechterbovenhoek \> **Persoonlijke opslag beheren**.
+    ![Mijn werkruimte](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
+2. Selecteer het ![tandwielpictogram](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) in de rechterbovenhoek \> **Persoonlijke opslag beheren**.
    
     In de bovenste balk ziet u hoeveel u hebt gebruikt van uw opslaglimiet.
    
-    ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_persnlstorage.png)
+    ![Opslaglimiet beheren](media/service-admin-manage-your-data-storage-in-power-bi/pbi_persnlstorage.png)
    
     De gegevenssets en rapporten worden gescheiden op twee tabbladen:
    
-    **Items waarvan ik eigenaar ben:** dit zijn de rapporten en gegevenssets die u hebt geüpload naar uw Power BI-account, waaronder servicegegevenssets zoals Salesforce en Dynamics CRM.  
-    **Items waarvan anderen eigenaar zijn:** anderen hebben deze rapporten en gegevenssets met u gedeeld.
-3. Als u een gegevensset of rapport wilt verwijderen, selecteert u het prullenbakpictogram ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
+    **Items waarvan ik eigenaar ben:** Dit zijn de rapporten en gegevenssets die u hebt geüpload naar uw Power BI-account, waaronder servicegegevenssets zoals Salesforce en Dynamics CRM.  
+    **Items waarvan anderen eigenaar zijn:** Anderen hebben deze rapporten en gegevenssets met u gedeeld.
+3. Als u een gegevensset of rapport wilt verwijderen, selecteert u het prullenbakpictogram ![prullenbakpictogram](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
 
 Bedenk dat u of iemand anders mogelijk rapporten en dashboards heeft die zijn gebaseerd op een gegevensset. Als u de gegevensset verwijdert, werken die rapporten en dashboards niet meer.
 
 ## <a name="manage-your-app-workspace"></a>Uw app-werkruimte beheren
 1. Selecteer de pijl naast **Werkruimten** \> en selecteer de naam van de app-werkruimte.
    
-    ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
-2. Selecteer het tandwielpictogram ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) in de rechterbovenhoek \> **Persoonlijke opslag beheren**.
+    ![Een app-werkruimte selecteren](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
+2. Selecteer het tandwielpictogram ![tandwielpictogram](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) \> in de rechterbovenhoek **Persoonlijke opslag beheren**.
    
     In de bovenste balk ziet u hoeveel opslaglimiet van de groep is gebruikt.
    
-    ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
+    ![Opslag van app-werkruimte beheren](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
    
     De gegevenssets en rapporten worden gescheiden op twee tabbladen:
    
-    **Items waarvan wij eigenaar zijn:** dit zijn rapporten en gegevenssets die u of iemand anders heeft geüpload naar het Power BI-account van de groep, waaronder servicegegevenssets zoals Salesforce en Dynamics CRM.
-    **Items waarvan anderen eigenaar zijn:** anderen hebben deze rapporten en gegevenssets met uw groep gedeeld.
-3. Als u een gegevensset of rapport wilt verwijderen, selecteert u het prullenbakpictogram ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
+    **Items waarvan wij eigenaar zijn:** Dit zijn rapporten en gegevenssets die u of iemand anders heeft geüpload naar het Power BI-account van de groep, waaronder servicegegevenssets zoals Salesforce en Dynamics CRM.
+    **Items waarvan anderen eigenaar zijn:** Anderen hebben deze rapporten en gegevenssets met uw groep gedeeld.
+3. Als u een gegevensset of rapport wilt verwijderen, selecteert u het prullenbakpictogram ![prullenbakpictogram](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
    
    > [!NOTE]
    > Elk lid, met bewerkingsmachtigingen, van een app-werkruimte is gemachtigd om gegevenssets en rapporten uit de app-werkruimte te verwijderen.
@@ -88,17 +90,17 @@ Er is een limiet van 1 GB per gegevensset die wordt geïmporteerd in Power BI. A
 ## <a name="what-happens-when-you-hit-a-limit"></a>Wat er gebeurt wanneer u een limiet bereikt
 Als u de gegevenscapaciteitslimiet bereikt, ziet u instructies in de service. 
 
-Wanneer u het tandwielpictogram ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) selecteert, ziet u een rode balk die aangeeft dat u de limiet van uw gegevenscapaciteit hebt overschreden.
+Wanneer u het tandwielpictogram ![Tandwielpictogram](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)selecteert, ziet u een rode balk die aangeeft dat u de limiet van uw gegevenscapaciteit hebt overschreden.
 
-![](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
+![Opslaglimiet bereikt]](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
 
 Dit wordt ook aangegeven in **Persoonlijke opslag beheren**.
 
- ![](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit2.png)
+ ![Persoonlijke opslag beheren, opslaglimiet bereikt](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit2.png)
 
  Wanneer u probeert een actie uit te voeren waardoor een limiet wordt bereikt, ziet u een waarschuwing waarin wordt aangegeven dat u de limiet hebt overschreden. U kunt uw opslag [beheren](#manage) om uw opslagruimte te verlagen en de limiet te omzeilen.
 
- ![](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
+ ![De opslaglimiet is overschreden](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
 
- Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+ Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

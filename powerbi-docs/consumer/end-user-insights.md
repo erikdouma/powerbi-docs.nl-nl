@@ -1,24 +1,25 @@
 ---
-title: Automatisch gegevensinzichten genereren met Power BI
-description: Meer informatie over het verkrijgen van inzicht in uw gegevenssets en dashboardtegels.
+title: Inzichten over dashboardtegels uitvoeren en bekijken
+description: Als eindgebruiker van Power BI, kunt u meer informatie krijgen over inzicht in uw dashboardtegels.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f68e962eacf04005d83ec0def10cf8e0e24f6e10
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: dd59f572da6bb3b62fa142ea7b7eab4aef5a3466
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112033"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180525"
 ---
-# <a name="automatically-generate-data-insights-with-power-bi"></a>Automatisch gegevensinzichten genereren met Power BI
+# <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Gegevensinzichten over dashboardtegels bekijken met Power BI
 Elke visualisatietegel op het dashboard is een poort naar het verkennen van gegevens. Als u een tegel selecteert, wordt er een rapport geopend waarin u kunt filteren en sorteren, en dieper kunt ingaan op de gegevensset achter het rapport. En wanneer u inzichten uitvoert, wordt de gegevensverkenning voor u uitgevoerd met Power BI.
 
 Voer Snelle inzichten uit om interessante interactieve visualisaties op basis van uw gegevens te genereren. Snelle inzichten kunnen worden uitgevoerd voor een specifieke dashboardtegel en u kunt zelfs inzichten uitvoeren voor een inzicht!
@@ -40,7 +41,9 @@ Als u inzichten uitvoert voor een dashboardtegel, wordt in Power BI alleen gezoc
 4. Wekt een bepaald inzicht uw interesse? Selecteer deze kaart om dieper te graven. Het geselecteerde inzicht wordt aan de linkerkant weergegeven en de nieuwe kaarten met inzichten, die uitsluitend zijn gebaseerd op dit ene inzicht, worden aan de rechterkant weergegeven.    
 
  ## <a name="interact-with-the-insight-cards"></a>Interactie met de kaarten met inzichten
-   * De visualisaties filteren.  Als u de filters wilt weergeven, selecteert u de pijl in de rechterbovenhoek om het deelvenster Filters uit te vouwen.
+Als er een inzicht is geopend, kunt u doorgaan met verkennen.
+
+   * Filter de visual op het canvas.  Als u de filters wilt weergeven, selecteert u de pijl in de rechterbovenhoek om het deelvenster Filters uit te vouwen.
 
      ![inzicht in een uitgevouwen menu Filters](./media/end-user-insights/power-bi-insights-on-insights.png)
    
