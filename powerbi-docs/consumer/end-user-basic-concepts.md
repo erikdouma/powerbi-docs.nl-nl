@@ -6,19 +6,20 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
+ms.custom: seodec18
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/18/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 71e30fa6c53e7ed8ed4364dca668b2a689ef1f19
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 50858dcab91980e85e71fd82dec4189139eea2b4
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641737"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280530"
 ---
-# <a name="power-bi---basic-concepts-for-power-bi-service-consumers"></a>Power BI - basisconcepten van Power BI-service voor ***consumenten***
+# <a name="basic-concepts-for-power-bi-service-consumers"></a>Basisconcepten voor ***gebruikers*** van de Power BI-service
 
 ## <a name="power-bi-consumers-and-designers"></a>*Consumenten* en *ontwerpers* van Power BI
 In dit artikel wordt ervan uitgegaan dat u het [Power BI-overzicht](../power-bi-overview.md) al hebt gelezen en u zich hebt geïdentificeerd als een Power BI-***consument***. Consumenten ontvangen Power BI-inhoud, zoals dashboards en rapporten, van collega's. Consumenten maken gebruik van Power BI-service, de websiteversie van Power BI. 
@@ -33,21 +34,21 @@ De meeste Power BI-consumenten verkrijgen Power BI-service omdat 1) hun bedrijf 
 
 Als u wilt beginnen, opent u een browser en typt u **app.powerbi.com**. De allereerste keer dat u Power BI-service opent, ziet u zoiets als dit.
 
-![](media/end-user-basic-concepts/power-bi-open.png)
+![Welkomstscherm voor de Power BI-service](media/end-user-basic-concepts/power-bi-open.png)
 
 Als u Power BI gebruikt, kunt u aanpassen wat u ziet wanneer u de website in het vervolg opent.  Sommige mensen willen graag dat Power BI wordt geopend met de startpagina, terwijl anderen een favoriet dashboard hebben dat ze het eerst willen zien. Maakt u zich geen zorgen, we leren u hoe u dit doet. 
 - [Startpagina (preview)](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search)    
 - [Inhoud instellen als **aanbevolen**](end-user-featured.md) 
 
-![](media/end-user-basic-concepts/power-bi-first.png)
+![geeft de paginaweergave Start en de dashboardweergave weer](media/end-user-basic-concepts/power-bi-first.png)
 
 Maar voordat we verdergaan, doen we eerst een stapje terug en nemen we de bouwstenen van Power BI-service door.
 
 ## <a name="power-bi-content"></a>Power BI-***inhoud***
 ### <a name="introduction-to-building-blocks"></a>Inleiding tot bouwstenen
-De vijf bouwstenen voor een Power BI-consument zijn: ***visualisaties***, ***dashboards***, ***rapporten***, ***apps*** en  ***gegevenssets***. Deze worden soms aangeduid als *Power BI*-***inhoud***. Deze *inhoud* bevindt zich in ***werkruimten***. Een gebruikelijke werkstroom omvat alle volgende bouwstenen: een Power BI-*ontwerper* (geel in het onderstaande diagram) verzamelt gegevens uit *gegevenssets*, voert deze in Power BI in voor analyse, maakt  *rapporten* vol *visualisaties* die interessante feiten en inzichten belichten, maakt visualisaties uit rapporten vast aan een dashboard en deelt de rapporten en dashboards met *consumenten* , zoals u, (zwart in het onderstaande diagram) in de vorm van *apps* of andere typen gedeelde inhoud. 
+De vijf bouwstenen voor een Power BI-consument zijn: ***visualisaties***, ***dashboards***, ***rapporten***, ***apps*** en  ***gegevenssets***. Deze worden soms aangeduid als *Power BI*-***inhoud***. Deze *inhoud* bevindt zich in ***werkruimten***. Een gebruikelijke werkstroom omvat alle volgende bouwstenen:  Een Power BI-*ontwerper* (geel in het onderstaande diagram) verzamelt gegevens uit *gegevenssets*, voert deze in Power BI in voor analyse, maakt  *rapporten* vol *visualisaties* die interessante feiten en inzichten belichten, maakt visualisaties uit rapporten vast aan een dashboard en deelt de rapporten en dashboards met *consumenten* , zoals u, (zwart in het onderstaande diagram) in de vorm van *apps* of andere typen gedeelde inhoud. 
 
-![](media/end-user-basic-concepts/power-bi-workflow.png)
+![stroomdiagram, eenvoudig](media/end-user-basic-concepts/power-bi-workflow.png)
 
 In de eenvoudigste vorm. 
 * ![visualisatiepictogram](media/end-user-basic-concepts/visual.png) Een ***visualisatie*** (of *visual*) is een type diagram dat is gemaakt door Power BI-*ontwerpers* met behulp van de gegevens in *rapporten* en *gegevenssets*. Gewoonlijk maken *ontwerpers* de visuals in Power BI Desktop. 
@@ -78,7 +79,7 @@ Elke gegevensset vertegenwoordigt één bron van gegevens, bijvoorbeeld een Exce
 
 Wanneer een ontwerper een app met u deelt, kunt u zien welke gegevenssets zijn opgenomen in de app. 
 
-![](media/end-user-basic-concepts/power-bi-dataset-list.png)
+![Apps geselecteerd en pijl die wijst naar de sectie Gegevenssets op het canvas](media/end-user-basic-concepts/power-bi-dataset-list.png)
 
 **Eén** dataset
 
@@ -117,14 +118,14 @@ Een Power BI-rapport bestaat uit een of meer pagina's met visualisaties, grafisc
 * wordt gemaakt met gegevens uit slechts één gegevensset en  
 * kan deel uitmaken van meerdere apps
   
-  ![](media/end-user-basic-concepts/drawing5.png)
+  ![relatietekening voor een rapport](media/end-user-basic-concepts/drawing5.png)
 
 ________________________________________________
 
 ## <a name="dashboards"></a>Dashboards
 Een dashboard vertegenwoordigt een aangepaste weergave van een subset van de onderliggende gegevensset(s). *Ontwerpers* bouwen dashboards en delen deze met *consumenten*, afzonderlijk of als onderdeel van een app. Een dashboard is een enkel canvas dat *tegels*, grafische weergaven en tekst bevat. 
 
-  ![](media/end-user-basic-concepts/power-bi-dashboard.png)
+  ![voorbeelddashboard](media/end-user-basic-concepts/power-bi-dashboard.png)
 
 Een tegel is een weergave van een visual die een *designer* ergens *vastmaakt*, bijvoorbeeld vanuit een rapport aan een dashboard.  Elke vastgemaakte tegel toont een [visualisatie](end-user-visualizations.md) die is gemaakt vanuit een gegevensset en is vastgemaakt aan dat dashboard. Een tegel kan ook een volledige rapportpagina, live gestreamde gegevens of een video bevatten. Er zijn tal van manieren waarop *ontwerpers* tegels aan een dashboard kunnen toevoegen. Het zijn er teveel om in dit overzichtsonderwerp te behandelen. Zie [Dashboardtegels in Power BI](end-user-tiles.md) voor meer informatie. 
 
@@ -144,20 +145,20 @@ Wat voor doelen hebben dashboards?  Hier volgen er slechts enkele:
 * uit verschillende rapporten en
 * en kan visualisaties weergeven die zijn vastgemaakt vanuit andere hulpprogramma's (bijvoorbeeld Excel).
   
-  ![](media/end-user-basic-concepts/drawing1.png)
+  ![relatietekening voor een dashboard](media/end-user-basic-concepts/drawing1.png)
 
 ________________________________________________
 
 ## <a name="apps"></a>Apps
 Met deze verzamelingen van dashboards en rapporten hebt u gerelateerde inhoud bij elkaar in één pakket. Power BI-*ontwerpers* bouwen ze en delen ze met personen, groepen, een hele organisatie of in het openbaar. Als gebruiker kunt u er zeker van bent dat uw collega's en u met dezelfde gegevens werken: één vertrouwde, onomstreden versie. 
 
-![](media/end-user-basic-concepts/power-bi-app.png)
+![Apps geselecteerd in het linkernavigatievenster](media/end-user-basic-concepts/power-bi-app.png)
 
 Apps zijn gemakkelijk te vinden en te installeren in de Power BI-service (https://powerbi.com)) en op uw mobiele apparaat. Nadat u een app hebt geïnstalleerd, hoeft u de namen van veel verschillende dashboards niet meer te onthouden omdat ze allemaal bij elkaar staan in de app, in uw browser of op uw mobiele apparaat. 
 
 Deze app biedt drie gerelateerde dashboards en drie gerelateerde rapporten die gezamenlijk één app vormen.
 
-![](media/end-user-basic-concepts/power-bi-app-list.png)
+![gerelateerde inhoud voor de geselecteerde app](media/end-user-basic-concepts/power-bi-app-list.png)
 
 Bij apps ziet u automatisch de wijzigingen wanneer de auteur van de app updates publiceert. De auteur bepaalt ook hoe vaak de gegevens worden gepland om te worden vernieuwd, zodat u zich geen zorgen hoeft te maken over het up-to-date houden van de gegevens.
 
