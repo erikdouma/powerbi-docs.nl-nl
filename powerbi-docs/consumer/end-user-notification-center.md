@@ -1,24 +1,25 @@
 ---
-title: Meldingencentrum van Power BI
+title: Berichten in het meldingencentrum weergeven
 description: Het meldingencentrum is een sequentiële feed met informatie over uw Power BI-ervaring.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: bZMSv5KAlcE
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e8b380194bf0e0214b791149d059a138f1bd337e
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 47329053fa774634f4af44c2bed549222d68a4a0
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565723"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280047"
 ---
-# <a name="power-bi-notifications"></a>Power BI-meldingen
+# <a name="view-power-bi-notifications"></a>Power BI-meldingen weergeven
 Het meldingencentrum is een sequentiële feed met informatie over uw Power BI-ervaring. Open het meldingencentrum om berichten te bekijken over nieuwe dashboards die met u zijn gedeeld, wijzigingen in uw groepsruimte, informatie over Power BI-gebeurtenissen en -vergaderingen, waarschuwingen die u hebt ingesteld en meer. U kunt [meldingen instellen in de Power BI-service](../service-set-data-alerts.md), maar ook in de mobiele Power BI-apps.
 
 Kijk hoe Amanda meldingen bekijkt die ze heeft ontvangen, haar meldingen beheert en op meldingen reageert. Volg vervolgens de instructies onder de video om het zelf te proberen.

@@ -1,21 +1,22 @@
 ---
-title: Overzicht van vragen en antwoorden in Power BI-service en Power BI Desktop
+title: Overzicht van Q&A in Power BI-service
 description: Overzicht van de documentatie voor Power BI Q&A-query's in natuurlijke taal.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 361c71c979d65e5c71ada6889bc7312ef64da23e
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 3548041be39705c3013d09740040afc3e7f1c9e7
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396354"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53279573"
 ---
 # <a name="qa-for-power-bi-consumers"></a>Q&A voor Power BI-**consumenten**
 ## <a name="what-is-qa"></a>Wat is Q&A?
@@ -46,7 +47,7 @@ Raak eerst vertrouwd met de inhoud. Kijk eens naar de visuals op het dashboard e
 
 ![Q&A-scherm](media/end-user-q-and-a/power-bi-qna-screen.png) 
 
-* Als de aslabels en -waarden van de visualisaties 'sales', 'account', 'month' en 'opportunities' bevatten, kunt u vragen stellen zoals: ‘Which *account* has the highest *opportunity*, or show *sales* by month as a bar chart.’
+* Als de aslabels en -waarden van de visualisaties 'sales', 'account', 'month' en 'opportunities' bevatten, kunt u vragen stellen zoals: 'Which *account* has the highest *opportunity*, or show *sales* by month as a bar chart.'
 
 * Als u prestatiegegevens van een website in Google Analytics hebt, kunt u Q&A vragen over de tijd die aan een webpagina is besteed, het aantal unieke paginabezoeken en de percentages gebruikersbetrokkenheid. Of als u query's hebt voor demografische gegevens, kunt u vragen stellen over leeftijd en huishoudinkomens per locatie.
 
@@ -63,18 +64,18 @@ Q&A kiest de beste visualisatie op basis van de gegevens die worden weergegeven.
 U kunt ook zelf bij de vraag opgeven welke visualisatie moet worden gebruikt. Het is echter niet altijd mogelijk de gegevens in het door u gevraagde type visualisatie weer te geven. Q&A biedt ook een lijst met werkbare visualtypen aan.
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
-**Vraag**: ik zie geen Q&A op dit dashboard.    
-**Antwoord 1**: als u geen vraagvak ziet, controleert u eerst uw instellingen. Selecteer hiertoe het tandwielpictogram in de rechterbovenhoek van de Power BI-werkbalk.   
+**Vraag**: Ik zie geen Q&A op dit dashboard.    
+**Antwoord 1**: Als u geen vraagvak ziet, controleert u eerst de instellingen. Selecteer hiertoe het tandwielpictogram in de rechterbovenhoek van de Power BI-werkbalk.   
 ![tandwielpictogram](media/end-user-q-and-a/power-bi-settings.png)
 
 Kies vervolgens **Instellingen** > **Dashboards**. Zorg ervoor dat er een vinkje naast **Zoekvak van Q&A weergeven in dit dashboard** staat.
 ![Q&A-instellingen voor dashboard](media/end-user-q-and-a/power-bi-turn-on.png)  
 
 
-**Antwoord 2**: soms schakelt de *ontwerper* van het dashboard of uw beheerder Q&A uit. Vraag diegene of de functie weer mag worden ingeschakeld.   
+**Antwoord 2**: Soms schakelt de *ontwerper* van het dashboard of de beheerder Q&A uit. Vraag diegene of de functie weer mag worden ingeschakeld.   
 
-**Vraag**: ik krijg niet de resultaten die ik graag zou zien als ik een vraag typ.    
-**Antwoord**: neem contact op met de *ontwerper* van het dashboard. Er zijn veel dingen die de ontwerper kan doen om de Q&A-resultaten te verbeteren. De ontwerper kan bijvoorbeeld de namen van kolommen in de gegevensset wijzigen in termen die gemakkelijk te begrijpen zijn (`CustomerFirstName` in plaats van `CustFN`). Omdat de ontwerper de gegevensset heel goed kent, kan deze ook nuttige vragen bedenken en deze toevoegen aan het Q&A-canvas.
+**Vraag**: Ik krijg niet de resultaten die ik graag zou zien als ik een vraag typ.    
+**Antwoord**: Neem contact op met de *ontwerper* van het dashboard. Er zijn veel dingen die de ontwerper kan doen om de Q&A-resultaten te verbeteren. De ontwerper kan bijvoorbeeld de namen van kolommen in de gegevensset wijzigen in termen die gemakkelijk te begrijpen zijn (`CustomerFirstName` in plaats van `CustFN`). Omdat de ontwerper de gegevensset heel goed kent, kan deze ook nuttige vragen bedenken en deze toevoegen aan het Q&A-canvas.
 
 ![aanbevolen vraag gemarkeerd](media/end-user-q-and-a/power-bi-featured-q.png)
 

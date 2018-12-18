@@ -3,20 +3,21 @@ title: Favorieten in Power BI-service (dashboards, rapporten, apps)
 description: Documentatie over het instellen van dashboards, rapporten en apps als favorieten in Power BI-service
 author: mihart
 manager: kvivek
+ms.custom: seodec18
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 46b943b9de7e8bae29c20617f957c81de2d49f94
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: cc94f352c550d7fba96f71f894e8d81ba5bc487a
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452494"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280169"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Favoriete dashboards, rapporten en apps in de Power BI-service
 Wanneer u van inhoud een *favoriet* maakt, kunt u deze inhoud openen in al uw werkruimten.  Favorieten zijn doorgaans inhoud die u vaak bezoekt.
@@ -61,7 +62,7 @@ Zie hoe Amanda favorieten toevoegt aan haar werkruimte. Volg vervolgens de staps
    
     ![Venster Favorieten](./media/end-user-favorite/power-bi-favorites-screen.png)
    
-   Hier kunt u acties uitvoeren: favorieten openen, eigenaren identificeren en favorieten delen met uw collega’s.
+   Hier kunt u acties uitvoeren: favorieten openen, eigenaren identificeren en favorieten delen met collega's.
 
 ## <a name="unfavorite-content"></a>Inhoud verwijderen uit favorieten
 Gebruikt u een rapport niet meer zo vaak?  U kunt het verwijderen uit favorieten. Wanneer u inhoud verwijdert uit favorieten, wordt dit verwijderd uit uw favorieten maar niet uit Power BI.
@@ -71,7 +72,7 @@ Gebruikt u een rapport niet meer zo vaak?  U kunt het verwijderen uit favorieten
    ![Scherm Favorieten](./media/end-user-favorite/power-bi-unfavorites-screen.png)
 2. Selecteer de gele ster naast de inhoud om dit te verwijderen uit favorieten.
 
-> **Opmerking**: u kunt ook een dashboard, rapport of app zelf uit favorieten verwijderen. Open het dashboard, het rapport of de app en deselecteer het gele pictogram.   
+> **OPMERKING**: U kunt ook een dashboard, rapport of app zelf verwijderen uit favorieten. Open het dashboard, het rapport of de app en deselecteer het gele pictogram.   
 > 
 > 
 

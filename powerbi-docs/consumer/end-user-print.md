@@ -1,22 +1,23 @@
 ---
-title: Afdrukken via de Power BI-service
+title: Afdrukken vanuit de Power BI-service
 description: Een dashboard, tegel of rapportpagina uit Power BI afdrukken.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: be7597cf13732e251f40f73a853e6ea7b0032652
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: bb3ecb8a343d2ed3f3693dd136b11b7543cabc70
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507664"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280728"
 ---
 # <a name="printing-from-power-bi-service"></a>Afdrukken via de Power BI-service
 U kunt een volledig dashboard, een dashboardtegel, een rapportpagina of een rapportvisual afdrukken via de Power BI-service. Rapporten kunnen slechts pagina voor pagina worden afgedrukt. U kunt niet het hele rapport in een keer afdrukken.
@@ -76,13 +77,13 @@ Rapporten kunnen alleen pagina voor pagina worden afgedrukt.
 1. [Open de visual in de focusmodus](end-user-focus.md) door de muisaanwijzer over de tegel te bewegen en in de rechterbovenhoek het focuspictogram ![Focuspictogram](./media/end-user-print/power-bi-focus-icon.png) te selecteren.
 2. Volg stap 2 en 3 hierboven onder *Een rapportpagina afdrukken*.
 
-## <a name="considerations-and-troubleshooting"></a>Overwegingen en probleemoplossing
+## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 * V: Ik kan de knop **Afdrukken** niet vinden.    
 * A: Als u Power BI Desktop gebruikt, wordt afdrukken niet ondersteund.  Afdrukken werkt alleen in de Power BI-service.
 * V: Ik kan niet alle rapportpagina's in een keer afdrukken.    
 * A: Dat klopt. Rapportpagina's kunnen alleen pagina voor pagina worden afgedrukt.
 * V: Ik kan niet afdrukken naar PDF.    
-* A: Deze optie wordt alleen weergegeven als u het PDF-stuurprogramma al hebt geconfigureerd in uw browser.    
+* A: Deze optie wordt alleen weergegeven als u het PDF-stuurprogramma al hebt geconfigureerd in de browser.    
 * V: Wat wordt weergegeven wanneer ik **Afdrukken** selecteer, komt niet overeen met wat ik hier zie.    
 * A: De afdrukschermen kunnen per browser en softwareversie verschillen.
 * V: Mijn afdruk is niet goed geschaald.  Mijn dashboard past niet op de pagina. Andere vragen over schalen en de afdrukstand.    

@@ -11,7 +11,7 @@ Voor Power BI is de modus van de gateway de eerste keuze die u moet maken.
 * **On-premises gegevensgateway:** In deze modus kunnen meerdere gebruikers een gateway delen en opnieuw gebruiken. Deze gateway kan worden gebruikt door Power BI, PowerApps, Flow of Logic Apps. Voor Power BI omvat dit ondersteuning voor zowel het vernieuwen van planningen als DirectQuery
 * **Persoonlijk:** Deze modus is alleen beschikbaar in Power BI en kan afzonderlijk worden gebruikt zonder beheerdersconfiguratie. De modus kan alleen worden gebruikt voor vernieuwing op aanvraag en voor het vernieuwen van planningen. Met deze selectie wordt de installatie van de persoonlijke gateway gestart.
 
-Houd rekening met de volgende aspecten met betrekking tot de installatie van beide gatewaymodi:
+Houd rekening met de volgende aspecten met betrekking tot de installatie van beide gateway-modi:
 
 * Beide gateways vereisen een 64-bits Windows-besturingssysteem.
 * Gateways kunnen niet worden geïnstalleerd op een domeincontroller.

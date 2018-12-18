@@ -1,27 +1,28 @@
 ---
-title: Gerelateerde inhoud in Power BI-service bekijken
+title: Gerelateerde inhoud voor dashboards, rapporten en gegevenssets weergeven
 description: Navigatie eenvoudiger gemaakt, gerelateerde content bekijken in dashboards, rapporten en gegevenssets
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2018
+ms.date: 12/09/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 7bb46bbed79be32b45fe4e5dbd2ecb07acc5d673
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: cc2369f6e1e074231267ceb41c19585eccfdb6f9
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566390"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280714"
 ---
 # <a name="view-related-content-in-power-bi-service"></a>Gerelateerde inhoud in Power BI-service bekijken
-In het deelvenster **Gerelateerde inhoud** ziet u hoe uw Power BI-service-inhoud -- dashboards, rapporten en gegevenssets -- onderling zijn verbonden.  En het wordt nog beter. Vanuit dit deelvenster kunt u gemeenschappelijke taken uitvoeren zoals vernieuwen, hernoemen, inzichten genereren, en nog veel meer. Selecteer een gerelateerd rapport of dashboard en het wordt geopend in uw Power BI-werkruimte.   
+In het deelvenster **Gerelateerde inhoud** ziet u hoe uw Power BI-service-inhoud -- dashboards, rapporten en gegevenssets -- onderling zijn verbonden. Samen met het deelvenster Gerelateerde inhoud wordt ook een startpunt gestart voor het ondernemen van actie. Van hieruit kunt u inzichten vernieuwen, genereren, de naam ervan wijzigen, en nog veel meer. Selecteer een gerelateerd rapport of dashboard en het wordt geopend in uw Power BI-werkruimte.   
 
-Zoals u waarschijnlijk al hebt ontdekt, zijn rapporten gebaseerd op gegevenssets, worden visualisaties van rapporten vervolgens vastgemaakt aan dashboards en worden dashboardvisualisaties teruggekoppeld naar rapporten. Maar hoe weet u op welke dashboards visualisaties uit uw marketingrapport worden gehost? En hoe kunt u deze dashboards vinden? Maakt uw Inkoop-dashboard gebruik van visualisaties uit meer dan één gegevensset? Zo ja, hoe worden ze genoemd en hoe kunt u ze openen en bewerken? Wordt uw HR-gegevensset gebruikt in rapporten of dashboards of kan deze worden verplaatst zonder dat er verbroken koppelingen ontstaan? Vragen als deze kunnen allemaal worden beantwoord op het deelvenster **Gerelateerde inhoud**.  Het deelvenster toont niet alleen de gerelateerde inhoud, maar stelt u ook in staat om actie te ondernemen op de inhoud en eenvoudig te navigeren tussen de gerelateerde content.
+In Power BI zijn rapporten gebaseerd op gegevenssets, worden visuals van rapporten vastgemaakt aan dashboards, en worden dashboardvisuals teruggekoppeld naar rapporten. Maar hoe weet u op welke dashboards visuals uit uw marketingrapport worden gehost? En hoe kunt u deze dashboards vinden? Maakt uw Inkoop-dashboard gebruik van visuals uit meer dan één gegevensset? Zo ja, hoe worden ze genoemd en hoe kunt u ze openen en bewerken? Wordt uw HR-gegevensset gebruikt in een rapport of op een dashboard? Of kan deze worden verplaatst zonder dat er koppelingen worden verbroken? Vragen als deze kunnen allemaal worden beantwoord op het deelvenster **Gerelateerde inhoud**.  Het deelvenster toont niet alleen de gerelateerde inhoud, maar stelt u ook in staat om actie te ondernemen op de inhoud en eenvoudig te navigeren tussen de gerelateerde content.
 
 ![Gerelateerde inhoud](./media/end-user-related/power-bi-view-related-dashboard-new.png)
 
@@ -50,7 +51,7 @@ Selecteer in een werkruimte het tabblad **Dashboards** en selecteer vervolgens h
 
 Open een dashboard en selecteer het   ![pictogram Gerelateerde items weergeven](./media/end-user-related/power-bi-view-related-new.png) in de bovenste menubalk.
 
-Het deelvenster **Gerelateerde inhoud** wordt geopend. Het laat alle rapporten zien waarvan de visualisaties zijn vastgemaakt aan het dashboard en de bijbehorende gegevenssets. Voor dit dashboard zijn er visualisaties van 3 verschillende rapporten vastgemaakt en die rapporten zijn gebaseerd op 3 verschillende gegevenssets.
+Het deelvenster **Gerelateerde inhoud** wordt geopend. Het laat alle rapporten zien waarvan de visualisaties zijn vastgemaakt aan het dashboard en de bijbehorende gegevenssets. Voor dit dashboard zijn er visualisaties van drie verschillende rapporten vastgemaakt en deze rapporten zijn gebaseerd op drie verschillende gegevenssets.
 
 ![Deelvenster Gerelateerde inhoud](./media/end-user-related/power-bi-view-related-dashboard-new.png)
 
@@ -86,14 +87,13 @@ Selecteer in een werkruimte het tabblad **Gegevenssets** en selecteer vervolgens
 
 Selecteer het pictogram om het deelvenster **Gerelateerde inhoud**  te openen.
 
-![](media/end-user-related/power-bi-datasets.png)
+![Het venster Gerelateerde inhoud wordt geopend over de inhoudsweergave van Power BI](media/end-user-related/power-bi-datasets.png)
 
-Vanaf hier kunt u direct met de gerelateerde inhoud aan de slag.  Selecteer bijvoorbeeld de naam van een dashboard of rapport om het te openen.  Selecteer een pictogram voor een dashboard in de lijst om [het dashboard te delen met anderen](../service-share-dashboards.md) of open het venster **Instellingen** voor het dashboard. Selecteer voor een rapport een pictogram voor [analyseren in Excel](../service-analyze-in-excel.md), [hernoemen](../service-rename.md)of [inzichten verkrijgen](end-user-insights.md).  
+Vanaf hier kunt u direct met de gerelateerde inhoud aan de slag. Selecteer bijvoorbeeld de naam van een dashboard of rapport om het te openen.  Selecteer een pictogram voor een dashboard in de lijst om [het dashboard te delen met anderen](../service-share-dashboards.md) of open het venster **Instellingen** voor het dashboard. Selecteer voor een rapport een pictogram voor [analyseren in Excel](../service-analyze-in-excel.md), [hernoemen](../service-rename.md)of [inzichten verkrijgen](end-user-insights.md).  
 
 ## <a name="limitations-and-troubleshooting"></a>Beperkingen en probleemoplossing
-* Als uw browser niet genoeg ruimte heeft, ziet u geen optie voor **Gerelateerde items weergeven**, maar ziet u nog steeds het pictogram Gerelateerde items weergeven ![Pictogram Gerelateerde items weergeven](./media/end-user-related/power-bi-view-related-icon-new.png). Selecteer het pictogram om het deelvenster **Gerelateerde inhoud**  te openen.
+* Als u Gerelateerde items weergeven niet ziet, zoekt u in plaats hiervan naar ![Gerelateerd pictogram weergeven](./media/end-user-related/power-bi-view-related-icon-new.png). Selecteer het pictogram om het deelvenster **Gerelateerde inhoud**  te openen.
 * Als u gerelateerde inhoud voor een rapport wilt openen, moet u in de [Leesweergave](end-user-reading-view.md) zijn.
-* Gerelateerde inhoud is niet beschikbaar in Power BI Desktop.
 * De functie Gerelateerde inhoud werkt niet voor het streamen van gegevenssets.
 
 ## <a name="next-steps"></a>Volgende stappen

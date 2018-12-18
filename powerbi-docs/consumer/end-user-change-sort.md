@@ -1,33 +1,34 @@
 ---
-title: Wijzigen hoe een diagram in een Power BI-rapport wordt gesorteerd
+title: Wijzigen hoe een diagram in een rapport wordt gesorteerd
 description: Wijzigen hoe een diagram in een Power BI-rapport wordt gesorteerd
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: Conceptual
-ms.date: 09/20/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: f4ca6633eb401e7df8041ea385284210c14995ad
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: 191dfdeba436322052befdbc6548fd08f96f0738
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979329"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280001"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Wijzigen hoe een diagram in een Power BI-rapport wordt gesorteerd
 In een Power BI-rapport kunt u de meeste visualisaties alfabetisch sorteren op namen of categorieën in het diagram, of op de numerieke waarde van elke categorie. Dit diagram is op de categorie **winkelnaam** gesorteerd.
 
-![](media/end-user-change-sort/pbi_chartsortcategory.png)
+![Staafdiagram waar x-as alfabetisch is gesorteerd](media/end-user-change-sort/pbi_chartsortcategory.png)
 
 U kunt de sortering eenvoudig wijzigen van een categorie (winkelnaam) in een waarde (verkoop per vierkante meter).
 
 1. Selecteer het beletselteken (...) en kies **Sorteren op > Sales Per Sq Ft**.
 2. Selecteer zo nodig opnieuw het beletselteken en kies **Aflopend sorteren**.
 
-   ![](media/end-user-change-sort/sort.gif)
+   ![Video waarin Sorteren op wordt weergegeven en vervolgens oplopend en aflopend](media/end-user-change-sort/sort.gif)
 
    **OPMERKING**: Niet alle visuele elementen kunnen worden gesorteerd.  De volgende visuals kunnen niet worden gesorteerd: Treemap, overzicht, choropletenkaart, spreiding, meter, kaart, kaart met meerdere rijen, waterval.
 

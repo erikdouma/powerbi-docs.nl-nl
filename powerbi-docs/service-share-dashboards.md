@@ -8,15 +8,15 @@ featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8644bc01aa845ff91950169f011cb70fb161ecb1
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: abddbf3e4ae0b51dbb46f949e6d4f287d084f873
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271758"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280978"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Uw Power BI-dashboards en -rapporten delen met collega's en anderen
 *Delen* is een goede manier om enkele personen toegang te geven tot uw dashboards en rapporten. Power BI ondersteunt ook [verschillende andere manieren om samen te werken en uw dashboards en rapporten te distribueren](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -111,7 +111,7 @@ Houd rekening met de volgende zaken bij het delen van dashboards en rapporten:
 
 * In het algemeen zien u en uw collega's dezelfde gegevens in het dashboard of rapport. Dus als u gemachtigd bent om meer gegevens te zien dan zij, kunnen zij al uw gegevens in het dashboard of rapport bekijken. Als er echter [beveiliging op rijniveau](service-admin-rls.md) wordt toegepast op de gegevensset van een dashboard of rapport, worden de referenties van elke persoon gebruikt om te bepalen welke gegevens ze mogen zien.
 * Iedereen met wie u uw dashboard deelt, kan dit zien en kan in de [leesweergave](consumer/end-user-reading-view.md) interactie hebben met de gerelateerde rapporten. Ze kunnen geen rapporten maken of wijzigingen in bestaande rapporten opslaan.
-* Niemand kan de gegevensset zien of downloaden.
+* Niemand kan de gegevensset zien of downloaden, maar gebruikers hebben rechtstreeks toegang tot de gegevensset met behulp van de functie Analyseren in Excel. Een beheerder kan de mogelijkheid van personen om Analyseren in Excel te gebruiken beperken door deze mogelijkheid te beperken voor iedereen in de groep. De beperking is echter van toepassing op iedereen in deze groep, voor elke werkruimte waartoe de groep behoort.
 * Iedereen kan [de gegevens handmatig vernieuwen](refresh-data.md).
 * Als u Office 365 gebruikt voor e-mail, kunt u delen met leden van een distributiegroep door het e-mailadres in te voeren dat is gekoppeld aan de distributiegroep.
 * Collega's met hetzelfde e-maildomein als u, en collega's met een ander domein maar dat wel binnen dezelfde tenant is geregistreerd, kunnen het dashboard delen met anderen. Stel dat de domeinen contoso.com en contoso2.com bijvoorbeeld zijn geregistreerd in dezelfde tenant. Als uw e-mailadres konrads@contoso.com is, kunnen ravali@contoso.com en gustav@contoso2.com allebei delen, uiteraard alleen als u ze hiervoor toestemming hebt gegeven.

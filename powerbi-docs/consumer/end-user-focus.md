@@ -1,22 +1,23 @@
 ---
-title: 'Focusmodus en modus volledig scherm: inzoomen om meer details te zien.'
+title: 'Focusmodus en modus volledig scherm: inzoomen om meer details te zien'
 description: Documentatie voor het weergeven van een dashboard, dashboardtegel, rapport of rapportvisualisatie van Power BI in de focusmodus of de modus volledig scherm
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 featuredvideoid: dtdLul6otYE
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/09/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 70e7fcb9f38c6dbf52adf58f8477f671156c9da4
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 13032e011446fad765961dacdb83fbb8bd5a2f6e
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507956"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53279955"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>Inhoud gedetailleerder weergeven: focusmodus en modus volledig scherm
 
@@ -83,7 +84,7 @@ Menu voor rapportpagina's
     Wanneer rapporten op het volledige scherm worden weergegeven, gebruikt u deze pijlen om door de pagina's in het rapport te bladeren.    
   * Als u de modus Volledig scherm wilt afsluiten, selecteert u het pictogram **Volledig scherm afsluiten**.
 
-      ![](media/end-user-focus/exit-fullscreen-new.png)
+      ![Pictogram Volledig scherm sluiten](media/end-user-focus/exit-fullscreen-new.png)
 
 ## <a name="working-in-focus-mode"></a>Werken in de focusmodus
 Er zijn twee manieren om de focusmodus te openen: eentje voor dashboardtegels en eentje voor rapportvisualisaties.
@@ -130,7 +131,7 @@ Er zijn twee manieren om de focusmodus te openen: eentje voor dashboardtegels en
     ![Focusmodus verlaten](media/end-user-focus/power-bi-exit-focus-report.png)  
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
-* Als u de focusmodus gebruikt voor een visualisatie in een rapport, kunt u alle filters weergeven en gebruiken, zowel op het niveau van visuals, op paginaniveau, bij drillthrough als op rapportniveau.    
+* Als u de focusmodus gebruikt voor een visualisatie in een rapport, kunt u alle filters weergeven en gebruiken: op het niveau van visuals, op paginaniveau, bij drillthrough en op rapportniveau.    
 * Als u de focusmodus gebruikt voor een visualisatie in een dashboard, kunt u alleen de filters op het niveau van de visuele elementen weergeven en gebruiken.
 
 ## <a name="next-steps"></a>Volgende stappen

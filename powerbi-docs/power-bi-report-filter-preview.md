@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/05/2018
+ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 3d4bcff012a8abb53d82dea2a8514d654056736a
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: fb25ae7408ddb19d7e8bc9c91c0e1b0f65d2bf42
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026242"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280622"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>De nieuwe filterervaring in Power BI-rapporten (preview)
 
@@ -34,11 +34,11 @@ Dit is wat u als rapportontwerper kunt doen met de nieuwe filters:
 
 ## <a name="turn-on-the-new-filter-experience"></a>De nieuwe filterfunctionaliteit aanzetten 
 
-U schakelt de nieuwe ervaring in Power BI Desktop in. Vervolgens kunt u daar of in de Power BI-service filters bewerken (https://app.powerbi.com). Omdat deze nieuwe filterervaring in preview is, moet u deze eerst inschakelen in Power BI Desktop. 
+U schakelt de nieuwe ervaring in Power BI Desktop in. Vervolgens kunt u daar of in de Power BI-service filters bewerken (https://app.powerbi.com). Omdat deze nieuwe filterervaring in preview is, moet u deze eerst inschakelen in Power BI Desktop. Als u een rapport begint te maken in de Power BI-service, kan het geen nieuwe filters hebben.
 
 ### <a name="turn-on-new-filters-for-all-new-reports"></a>Nieuw filter inschakelen voor alle nieuwe rapporten
 
-1. Selecteer **Bestand** > **Opties en instellingen** > **Opties** > **Preview-functies** en selecteer vervolgens het selectievakje **Nieuwe filterervaring**. 
+1. Selecteer in Power BI Desktop **Bestand** > **Opties en instellingen** > **Opties** > **Preview-functies** en selecteer vervolgens het selectievakje **Nieuwe filterervaring**. 
 2. Start Power BI Desktop opnieuw op om de nieuwe filterervaring in alle nieuwe rapporten te kunnen zien.
 
 Nadat u Power BI Desktop opnieuw hebt opgestart, is het standaard ingeschakeld voor alle nieuwe rapporten die u maakt.  
@@ -47,7 +47,7 @@ Nadat u Power BI Desktop opnieuw hebt opgestart, is het standaard ingeschakeld v
 
 U kunt de nieuwe filters ook voor bestaande rapporten inschakelen.
 
-1. Selecteer in een bestaand rapport **Bestand** > **Opties en instellingen** > **Opties**
+1. Selecteer in een bestaand rapport in Power BI Desktop **Bestand** > **Opties en instellingen** > **Opties**
 2. Selecteer onder **Rapportinstellingen** **Het bijgewerkte filtervenster inschakelen en filters weergeven in de visuele koptekst voor dit rapport**.
 
 ## <a name="build-the-new-filter-pane"></a>Het nieuwe filtervenster maken

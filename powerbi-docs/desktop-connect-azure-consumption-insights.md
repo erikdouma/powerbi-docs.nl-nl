@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 622a236ba2a240202a570a07e7b6abb201da9dde
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 706fe9f3014ef14ff34100ff336fbf04b44e709c
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026776"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280960"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Verbinding met Azure Consumption Insights maken in Power BI Desktop (bèta)
 Met de **Azure Consumption Insights**-connector kunt u vanuit **Power BI Desktop** verbinding maken met Azure en gedetailleerde gegevens en informatie over het gebruik van Azure-services van uw organisatie verkrijgen. U kunt ook metingen, aangepaste kolommen en visuele elementen maken om rapporten over het gebruik van Azure van uw organisatie te maken en te delen. Deze versie van de **Azure Consumption and Insights**-connector is een bètaversie en kan worden gewijzigd.
@@ -26,7 +26,7 @@ Met de **Azure Consumption Insights**-connector kunt u vanuit **Power BI Desktop
 In dit artikel wordt uitgelegd hoe u verbinding maakt met de **Azure Consumption Insights**-connector, hoe u de benodigde gegevens ophaalt en hoe u een migratie van de Azure Enterprise-connector uitvoert. Ook vindt u er een toewijzing van beschikbare *gebruiksgegevenskolommen* in de **ACI** (Azure Consumption Insights) API.
 
 ## <a name="connect-to-azure-consumption-insights"></a>Verbinding met Azure Consumption Insights maken
-Om verbinding te maken met behulp van de **Azure Consumption Insights**-connector, moet u toegang hebben tot de Enterprise-functies binnen de Azure-portal.
+Om verbinding te maken met behulp van de **Azure Consumption Insights**-connector, moet u toegang hebben tot de Enterprise-functies binnen Azure Portal.
 
 Om verbinding te maken via de **Azure Consumption Insights**-connector, selecteert u **Gegevens ophalen** in het lint **Start** in **Power BI Desktop**. Selecteer **Onlineservices** in de categorieën aan de linkerkant en u ziet **Azure Consumption Insights (bèta)**. Selecteer **Verbinding maken**.
 
@@ -70,7 +70,7 @@ U kunt het selectievakje naast een tabel inschakelen om een voorbeeld van de tab
 > 
 > 
 
-Wanneer u **Laden** selecteert, worden de gegevens in **Power BI Desktop** geladen.
+Wanneer u **Laden** selecteert, worden de gegevens in **Power BI Desktop** geladen.  De connector laadt gegevens overeenkomstig de standaard tijdperiode van de tabel.  Als u de tijdperiode wilt aanpassen, [stelt u een aangepaste query in](https://docs.microsoft.com/en-us/power-bi/desktop-connect-azure-consumption-insights#using-azure-consumption-insights).
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
 
@@ -79,7 +79,7 @@ Nadat de geselecteerde gegevens zijn geladen, worden de geselecteerde tabellen e
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_06.png)
 
 ## <a name="using-azure-consumption-insights"></a>Werken met Azure Consumption Insights
-Om de **Azure Consumption Insights**-connector te kunnen gebruiken, moet u toegang hebben tot de Enterprise-functies binnen de Azure-portal.
+Om de **Azure Consumption Insights**-connector te kunnen gebruiken, moet u toegang hebben tot de Enterprise-functies binnen Azure Portal.
 
 Als u gegevens hebt geladen met de **Azure Consumption Insights**-connector, kunt u uw eigen aangepaste metingen en kolommen maken met **Query-editor** en visuele elementen, rapporten en dashboards maken en deze vervolgens delen in de **Power BI-service**.
 
@@ -152,7 +152,7 @@ Als u tot hier bent gekomen, zal het merendeel van uw oorspronkelijke visuele el
 Azure wordt geleverd met de [**Azure Consumption and Insights (ACI) API**](https://azure.microsoft.com/blog/announcing-general-availability-of-consumption-and-charge-apis-for-enterprise-azure-customers/). Hiermee kunt u uw eigen aangepaste oplossingen maken voor verzameling, rapportage en visualisatie van het Azure-verbruik met de ACI API.
 
 ### <a name="mapping-names-and-usage-details-between-the-portal-the-connector-and-the-api"></a>Namen en gebruiksgegevens toewijzen tussen de portal, de connector en de API
-De kolommen en namen van detailgegevens in de Azure-portal zijn vergelijkbaar in de API en de connector, maar zijn niet altijd identiek. Ter illustratie, de volgende tabel bevat een toewijzing tussen de API, de connector en kolommen die worden weergegeven in de Azure-portal. Ook wordt aangegeven of de kolom verouderd is. Zie de [data dictionary voor Azure-facturering](https://docs.microsoft.com/azure/billing/billing-enterprise-api-usage-detail) voor meer informatie over en definities van deze termen.
+De kolommen en namen van detailgegevens in Azure Portal zijn vergelijkbaar in de API en de connector, maar zijn niet altijd identiek. Ter illustratie, de volgende tabel bevat een toewijzing tussen de API, de connector en kolommen die worden weergegeven in Azure Portal. Ook wordt aangegeven of de kolom verouderd is. Zie de [data dictionary voor Azure-facturering](https://docs.microsoft.com/azure/billing/billing-enterprise-api-usage-detail) voor meer informatie over en definities van deze termen.
 
 | Kolomnaam ACI-connector / inhoudspakket | Kolomnaam ACI API | Kolomnaam EA | Verouderd / aanwezig voor achterwaartse compatibiliteit |
 | --- | --- | --- | --- |

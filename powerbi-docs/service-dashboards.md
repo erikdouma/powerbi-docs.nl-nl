@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/21/2018
+ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 709518924fbb9d83201eb5c070b7a3e93838ec79
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: 7a1187373304387ac511053d241e5cfb31f7fcd9
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331937"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280576"
 ---
 # <a name="intro-to-dashboards-for-power-bi-designers"></a>Inleiding tot dashboards voor Power BI-ontwerpers
 
@@ -48,15 +48,15 @@ Een dashboard is niet alleen een mooi plaatje. Het is zeer interactief en de teg
 | --- | --- | --- |
 | Pagina's |Eén pagina |Een of meer pagina's |
 | Gegevensbronnen |Een of meer rapporten en een of meer gegevenssets per dashboard |Eén gegevensset per rapport |
-| Beschikbaar in Power BI Desktop |Nee |Ja, ***auteurs*** kunnen rapporten maken en bekijken in Desktop |
+| Beschikbaar in Power BI Desktop |Nee | Kunnen rapporten maken en weergeven in Power BI Desktop |
 | Abonneren |U kunt zich abonneren op een dashboard |U kunt zich abonneren op een rapportpagina |
 | Filteren |U kunt niet filteren of segmenteren |Er zijn verschillende manieren voor filteren, markeren en segmenteren |
 | Aanbevolen |U kunt één dashboard instellen als uw aanbevolen dashboard |U kunt geen aanbevolen rapport maken |
 | Favoriet | U kunt dashboards instellen als *favorieten* | U kunt rapporten instellen als *favorieten*
 | Waarschuwingen instellen |Beschikbaar voor dashboardtegels in bepaalde omstandigheden |Niet beschikbaar in rapporten |
-| Query’s in natuurlijke taal |Op dashboard beschikbaar |Niet beschikbaar in rapporten |
+| Query's in natuurlijke taal (Q&A) |Beschikbaar op dashboards | Beschikbaar in rapporten |
 | U kunt onderliggende tabellen en velden van de gegevensset bekijken |Nee. U kunt gegevens exporteren maar tabellen en velden niet in het dashboard zelf zien. |Ja. U kunt tabellen en velden en waarden van gegevenssets bekijken. |
-| Aanpassen |Nee |In de leesweergave kunt u publiceren, insluiten, filteren, exporteren, downloaden als .pbix, gerelateerde inhoud bekijken, QR-codes genereren, analyseren in Excel en meer.  |
+
 
 ## <a name="next-steps"></a>Volgende stappen
 * Maak kennis met dashboards door het bekijken van een van onze [voorbeelddashboards](sample-tutorial-connect-to-the-samples.md).

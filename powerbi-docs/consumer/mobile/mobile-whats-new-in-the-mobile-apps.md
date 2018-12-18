@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: maggies
-ms.openlocfilehash: 37995f52882d1a5062b8aa03fb7b0480063a4f77
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: f272d0e40de5c65de9134c3d184195889233496b
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979537"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280921"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -22,6 +22,36 @@ Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mog
 * [Power BI team blog for the mobile apps](https://powerbi.microsoft.com/blog/tag/mobile/) (Power BI-teamblog voor mobiele apps)
 * [What's new in Power BI Desktop](../../desktop-latest-update.md) (Wat is er nieuw in Power BI Desktop)  
 * [What's new in the Power BI service](../../service-whats-new.md) (Wat is er nieuw in de Power BI-service)  
+
+## <a name="november-2018"></a>November 2018
+
+### <a name="modern-visual-header"></a>Moderne visualheader 
+
+In rapporten die de nieuwe 'moderne visualheader' gebruiken, wordt geen ruimte meer toegewezen voor headers. Dit resulteert in minder lege ruimte en meer ruimte voor uw visualisaties.
+
+### <a name="enhance-presentation-mode-windows"></a>Verbeterde presentatiemodus (Windows)
+
+Verbeterde presentatiemodus voor Surface Hub en Windows 10-apparaten.  Profiteer van een verbeterde Surface Hub-vergaderruimte, met verbeterde presentatie- en samenwerkingsmiddelen en een strakke, geoptimaliseerde weergave op groot scherm, zodat u zich kunt richten op uw gegevens. Presentatiemodus biedt u ook de middelen om u beter te laten presenteren en te discussiëren over uw gegevens. Lees [hier](https://powerbi.microsoft.com/en-us/blog/presentation-mode-in-power-bi-windows-app/) meer over de presentatiemodus.
+
+### <a name="portrait-report-layout-in-tablets-ios-and-android"></a>De staande rapportindeling in tablets (iOS en Android)
+
+De telefoonrapportindeling, indien aanwezig, wordt nu gebruikt voor het weergeven van rapporten op tablets in de staande modus. Lees meer over [hoe u een telefoonindeling maakt in Power BI-service of Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-create-phone-report/).
+
+### <a name="supporting-report-query-string"></a>Ondersteuning voor rapportquerytekenreeksen 
+
+Als u een rapportkoppeling in de mobiele app opent waarin een querytekenreeks is opgenomen, wordt de koppeling eerst gefilterd op basis van de voorwaarden in de querytekenreeks. Meer informatie over [hoe u een rapport-URL met een querytekenreeks maakt](https://docs.microsoft.com/en-us/power-bi/service-url-filters/).  
+
+### <a name="shared-credentials-now-in-android"></a>Gedeelde referenties (nu in Android)
+
+Aanmelden bij Power BI vanuit de mobiele app was nog nooit zo eenvoudig. Met gedeelde referenties is het aanmeldingsproces vereenvoudigd, omdat de referenties van andere Office 365-apps worden gebruikt op het apparaat om u te verifiëren bij de Power BI-service.
+
+### <a name="in-app-urls-now-in-android"></a>In-app-URL's (nu in Android) 
+
+Koppelingen in rapporten die verwijzen naar andere Power BI-artefacten, worden nu rechtstreeks in de app geopend. Hierdoor kunt u bijvoorbeeld aangepaste navigatiestromen bouwen, doordat u vanuit een rapport verwijst naar een dashboard.
+
+### <a name="show-data-and-copy-values"></a>Gegevens weergeven en waarden kopiëren
+
+Het actiemenu voor rapportvisals (...) heeft nu de optie om de onderliggende gegevens in tabelindeling weer te geven. Eenmaal in de tabel kunt u waarden ingedrukt houden om deze uit die tabel te kopiëren (ervan uitgaande dat er geen Intune-beleid is dat kopiëren beperkt).
 
 ## <a name="october-2018"></a>Oktober 2018
 

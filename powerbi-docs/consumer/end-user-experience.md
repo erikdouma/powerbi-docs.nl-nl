@@ -5,18 +5,19 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 10/18/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 1d093c9eb39b312e1883b2635de473dac6db5192
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 3b3eaa33879a1f0c6d51aecaa93cae6ce5c90d10
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473860"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280806"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Quickstart: navigeren in de Power BI-service
 
@@ -40,7 +41,7 @@ We nemen een aantal voorbeeldgegevens die we gebruiken voor onze rondleiding in 
 
     De Power BI-service importeert het voorbeeld en geeft het dashboard weer. Dashboards zijn de elementen waarmee de Power BI-service zich onderscheidt van Power BI Desktop. Het voorbeeld bevat ook een rapport en een gegevensset, die we later zullen behandelen.
 
-    ![](media/end-user-experience/power-bi-dashboard.png)
+    ![dashboard wordt weergegeven](media/end-user-experience/power-bi-dashboard.png)
 
 Laat Amanda u meenemen op een rondleiding door de navigatie van de Power BI-service.  Volg vervolgens de stapsgewijze instructies onder de video om zelf op verkenning uit te gaan.
 
@@ -50,7 +51,7 @@ Laat Amanda u meenemen op een rondleiding door de navigatie van de Power BI-serv
 ## <a name="view-content-dashboards-reports-workbooks-datasets-workspaces-apps"></a>Inhoud weergeven (dashboards, rapporten, werkmappen, gegevenssets, werkruimten en apps)
 Laten we beginnen door te kijken hoe de basisinhoud (dashboards, rapporten, gegevenssets en werkmappen) wordt geordend. Er wordt inhoud weergegeven binnen de context van een werkruimte. Op dit moment beschikt u over één werkruimte, genaamd **Mijn werkruimte**. Consumenten hebben gewoonlijk geen andere werkruimten nodig of maken er geen gebruik van. Alle inhoud waarvan u de eigenaar bent, wordt opgeslagen in Mijn werkruimte. Deze werkruimte kunt u beschouwen als een persoonlijke sandbox of persoonlijk werkgebied voor uw eigen inhoud. In Mijn werkruimte is het voorbeeld opgeslagen van een retailanalyse die u zojuist hebt gedownload. 
 
-De inhoud in Mijn werkruimte wordt geordend op vier tabbladen: Dashboards, Rapporten, Werkmappen en Gegevenssets.
+In Mijn werkruimte wordt uw inhoud geordend op 4 tabbladen: Dashboards, Rapporten, Werkmappen en Gegevenssets.
 
 ![Scherm Mijn werkruimte](./media/end-user-experience/power-bi-my-workspace.png)
 

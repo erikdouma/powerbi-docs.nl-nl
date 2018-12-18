@@ -1,24 +1,25 @@
 ---
-title: De grootte van een rapportpagina wijzigen
+title: De weergavegrootte en -verhouding voor een rapportpagina wijzigen
 description: De weergave-instellingen voor een pagina in een Power BI-rapport wijzigen
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/24/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c3e0fe7d469558a1800b7ce26b8b255fd8fa7a15
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 93e6c66c28c95d729ae0af0910f887f61f52694e
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566183"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280829"
 ---
 # <a name="change-the-size-of-a-report-page"></a>De grootte van een rapportpagina wijzigen
-In het [vorige artikel en de video](../power-bi-report-display-settings.md) hebt u twee verschillende manieren gezien om de paginaweergave in Power BI-rapporten te bepalen: **Weergave** en **Paginagrootte**. Paginaweergave en paginagrootte zijn beschikbaar in Power BI-service en Power BI Desktop, welke bijna identiek zijn qua uiterlijk en functioneren, maar voor deze zelfstudie maken we gebruik van Power BI-service.
+In het [vorige artikel en de video](../power-bi-report-display-settings.md) hebt u twee verschillende manieren gezien om de paginaweergave in Power BI-rapporten te bepalen: **Weergave** en **Paginaformaat**. Paginaweergave en paginagrootte zijn beschikbaar in Power BI-service en Power BI Desktop, welke bijna identiek zijn qua uiterlijk en functioneren, maar voor deze zelfstudie maken we gebruik van Power BI-service.
 
 ### <a name="prerequisites"></a>Vereisten
 - Power BI-service   
@@ -28,33 +29,33 @@ In het [vorige artikel en de video](../power-bi-report-display-settings.md) hebt
 
 1. Open het rapport in de lees- of bewerkweergave en selecteer het rapporttabblad voor **Nieuwe winkels**. Deze rapportpagina wordt standaard weergegeven met behulp van de instelling **Passend op pagina**.  In dit geval geeft Passend op pagina de rapportpagina weer zonder schuifbalken, maar sommige details en titels zijn te klein om te lezen.
 
-   ![](media/end-user-report-view/pbi_fit_to_page.png)
+   ![rapport weergegeven op het canvas](media/end-user-report-view/pbi_fit_to_page.png)
 2. Zorg dat er geen visualisaties zijn ingeschakeld op het canvas. Selecteer **Weergave** en bekijk de weergaveopties.
 
    * In de Leesweergave ziet u dit.
 
-     ![](media/end-user-report-view/power-bi-page-view-menu-new.png)
+     ![Vervolgkeuzemenu weergeven met Passend op pagina geselecteerd](media/end-user-report-view/power-bi-page-view-menu-new.png)
    * In de Bewerkweergave ziet u dit.
 
-     ![](media/end-user-report-view/power-bi-view-editing-view.png)
+     ![Vervolgkeuzemenu weergeven met Passend op pagina geselecteerd](media/end-user-report-view/power-bi-view-editing-view.png)
 
 3. Laten we kijken hoe de pagina eruit ziet met de instelling **Ware grootte** .
 
-   ![](media/end-user-report-view/power-bi-actal-size2.png)
+   ![rapport weergegeven op het canvas, met twee schuifbalken](media/end-user-report-view/power-bi-actal-size2.png)
 
    Niet geweldig, het dashboard heeft nu dubbele schuifbalken.
 4. Schakel over naar **Aan breedte aanpassen**.
 
-   ![](media/end-user-report-view/pbi_fit_to_width.png)
+   ![rapport weergegeven zonder schuifbalk, slechts één schuifbalk](media/end-user-report-view/pbi_fit_to_width.png)
 
-   Het ziet er beter uit nu we schuifbalken hebben, is het makkelijker om de details te lezen.
+   Het ziet er beter uit. Er is nog steeds één schuifbalk, maar het is makkelijker om de details te lezen.
 
 ## <a name="change-the-default-view-for-a-report-page"></a>De standaardweergave voor een rapportpagina wijzigen
 Als u *auteur* van het rapport bent, kunt u de standaardweergave voor uw rapportpagina’s wijzigen. Wanneer u het rapport met anderen deelt, worden de rapportpagina's geopend met behulp van de weergave die u hebt ingesteld. *Gebruikers* van het rapport kunnen de weergave wijzigen, maar kunnen hun wijzigingen niet opslaan als ze het rapport afsluiten.
 
 1. Op de pagina **Nieuwe winkels** van het rapport gaat u terug naar de weergave **Ware grootte**.
 
-   ![](media/end-user-report-view/power-bi-actual-size.png)
+   ![Vervolgkeuzemenu weergeven met Werkelijke grootte geselecteerd](media/end-user-report-view/power-bi-actual-size.png)
 
 2. Stel op de rapportpagina **Maandelijkse verkoop per district** de weergave in op **Passend in breedte**.
 
@@ -62,16 +63,16 @@ Als u *auteur* van het rapport bent, kunt u de standaardweergave voor uw rapport
 
 4. Sla nu het rapport op door **Bestand > Opslaan** te selecteren. De volgende keer dat u dit rapport opent worden de pagina's weergegeven met de nieuwe weergave-instellingen. Laten we eens kijken.
 
-   ![](media/end-user-report-view/power-bi-save.png)
+   ![Vervolgkeuzelijst met bestanden met Opslaan geselecteerd](media/end-user-report-view/power-bi-save.png)
 3. Selecteer de naam van de huidige werkruimte in de bovenste navigatiebalk om terug te keren naar deze werkruimte.  
 
-   ![](media/end-user-report-view/power-bi-my-workspace.png)
+   ![Bovenste menubalk met breadcrumbs](media/end-user-report-view/power-bi-my-workspace.png)
 4. Selecteer het tabblad **Rapporten** en kies hetzelfde rapport (Voorbeeld van een retailanalyse).
 
-    ![](media/end-user-report-view/power-bi-new-report2.png)
+    ![Inhoudsweergave met het tabblad Rapporten geselecteerd](media/end-user-report-view/power-bi-new-report2.png)
 5. Open een pagina van het rapport om de nieuwe instellingen te bekijken.
 
-   ![](media/end-user-report-view/power-bi-page-view.gif)
+   ![video over het wijzigen van de Weergaveopties](media/end-user-report-view/power-bi-page-view.gif)
 
 ## <a name="now-lets-explore-the-page-size-setting"></a>Nu gaan we de instelling *Paginaformaat* bekijken
 De instellingen voor paginagrootte zijn alleen beschikbaar in de [bewerkweergave](../service-interact-with-a-report-in-editing-view.md), dus moet u (*auteurs-* of) bewerkmachtigingen voor het rapport te wijzigen van de instellingen voor paginagrootte. Als u verbonden bent met een van onze [voorbeelden](../sample-datasets.md), dan hebt u *auteursmachtigingen* voor deze rapporten.
@@ -80,13 +81,13 @@ De instellingen voor paginagrootte zijn alleen beschikbaar in de [bewerkweergave
 2. Zorg dat er geen visualisaties zijn ingeschakeld op het canvas.  Selecteer in het deelvenster **Visualisaties** het pictogram van de verfroller ![](media/end-user-report-view/power-bi-paintroller.png).
 3. Selecteer **Paginaformaat** &gt; **Type** om de opties voor paginaformaat weer te geven.
 
-   ![](media/end-user-report-view/power-bi-page-size-menu-new.png)
+   ![Kaart Paginagrootte uitgevouwen en 16:9 geselecteerd](media/end-user-report-view/power-bi-page-size-menu-new.png)
 4. Selecteer **Letter**.  Op het canvas blijft alleen de inhoud die binnen 816 x 1056 pixels (lettergrootte) op het witte gedeelte van het canvas past zichtbaar.
 
-   ![](media/end-user-report-view/power-bi-letter-new.png)
+   ![Rapportcanvas met de kaart Paginagrootte uitgevouwen en Type > Letter geselecteerd](media/end-user-report-view/power-bi-letter-new.png)
 5. Selecteer **Paginaformaat** **16:9**-verhouding.
 
-   ![](media/end-user-report-view/power-bi-16-to-9-new.png)
+   ![kaart Paginagrootte uitgevouwen en Type > 16:9 geselecteerd](media/end-user-report-view/power-bi-16-to-9-new.png)
 
    De rapportpagina wordt weergegeven met een verhouding van 16 breed bij 9 hoog. Om de werkelijke pixelgrootte te zien die wordt gebruikt, kijkt u naar de velden met een grijze achtergrond Breedte en Hoogte (1280x720). Er is veel lege ruimte rond het rapportcanvas. Dit komt omdat we eerder de **Weergave** op Passend in breedte hebben ingesteld.
 7. Ga verder met het verkennen van de opties voor **Paginaformaat**.
@@ -100,14 +101,14 @@ Vergeet niet dat u in de vorige stap hebt gezien dat onze rapportpagina momentee
 
 1. Vergroot of verklein de visuele elementen zodat ze in minder dan de helft van het huidige tekengebied passen.
 
-    ![](media/end-user-report-view/power-bi-custom-view.gif)
+    ![video over het aanpassen van de grootte van visuals en het verplaatsen van visuals op het canvas](media/end-user-report-view/power-bi-custom-view.gif)
 2. Selecteer **Paginaformaat** &gt; **Aangepast**.
 3. Stel de breedte in op 500 en de hoogte op 750.
 
-    ![](media/end-user-report-view/power-bi-custom-new.png)
+    ![Opmaakvenster met de kaart Paginagrootte uitgevouwen](media/end-user-report-view/power-bi-custom-new.png)
 4. Wijzig de rapportagepagina totdat deze er het beste uitziet. Schakel tussen **Weergave > Ware grootte** en **Weergave > Passend op pagina** om wijzigingen door te voeren.
 
-    ![](media/end-user-report-view/power-bi-final-new.png)
+    ![rapportcanvas met Opmaakvenster uitgevouwen](media/end-user-report-view/power-bi-final-new.png)
 
 ## <a name="next-steps"></a>Volgende stappen
 [Rapporten voor Cortana maken](../service-cortana-answer-cards.md)
