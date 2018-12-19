@@ -33,7 +33,7 @@ Ondersteuning voor meerdere geografische gebieden is een functie van Power BI Pr
 
 Ondersteuning voor meerdere geografische gebieden is niet beschikbaar voor Power BI Duitsland, Power BI China uitgevoerd door 21Vianet of Power BI voor de Amerikaanse overheid.
 
-Multi-Geo is nu ook beschikbaar in Power BI Embedded. Lees meer op [Multi-Geo support in Power BI Embedded (Preview)](developer/embedded-multi-geo.md) (Ondersteuning voor Multi-Geo in Power BI Embedded (preview-versie)).
+Multi-Geo is nu ook beschikbaar in Power BI Embedded. Lees meer op [Ondersteuning voor Multi-Geo in Power BI Embedded (preview-versie)](developer/embedded-multi-geo.md).
 
 ## <a name="using-multi-geo"></a>Meerdere geografische gebieden gebruiken
 

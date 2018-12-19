@@ -102,7 +102,7 @@ U kunt meldingen op diverse manieren beheren: vanaf het dashboardtegel zelf, van
 * Meldingen werken alleen voor streaming gegevenssets als u een visueel rapportelement voor KPI's, kaarten of meters maakt en dit element vervolgens aan het dashboard vastmaakt.
 
 ## <a name="next-steps"></a>Volgende stappen
-[Create a Microsoft Flow that includes a data alert](service-flow-integration.md)   (Een Microsoft Flow maken die een gegevensmelding bevat)  
+[Een Microsoft Flow maken die een gegevensmelding bevat](service-flow-integration.md)    
 [Set data alerts on your mobile device](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)   (Gegevensmeldingen instellen op uw mobiele apparaat)  
 [Wat is Power BI?](power-bi-overview.md)    
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
