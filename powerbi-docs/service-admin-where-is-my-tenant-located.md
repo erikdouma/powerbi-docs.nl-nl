@@ -37,7 +37,7 @@ Volg deze stappen om vast te stellen in welke regio uw tenant zich bevindt.
 
 Het gegevensgebied is gebaseerd op het land dat u selecteert bij het maken van de tenant. Dit geldt voor de registratie voor zowel Office 365 als Power BI, aangezien deze informatie wordt gedeeld. Als dit een nieuwe tenant is, selecteert u het juiste land uit de lijst wanneer u zich registreert.
 
-![Land selecteren](media/service-admin-where-is-my-tenant-located/sign-up-country-selection.png)
+![Land/regio selecteren](media/service-admin-where-is-my-tenant-located/sign-up-country-selection.png)
 
 Power BI kiest een gegevensgebied het dichtst in de buurt van deze selectie, waarmee wordt bepaald waar gegevens voor uw tenant worden opgeslagen.
 
