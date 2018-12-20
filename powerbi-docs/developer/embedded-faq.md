@@ -114,7 +114,7 @@ U kunt alleen PBIE-capaciteiten voor uw PBI-tenantregio maken.
 
 U kunt de PBI-portal gebruiken om te zien wat uw PBI-tenantregio is.
 
-https://app.powerbi.com/ > ? > Over Power BI
+[https://app.powerbi.com/](https://app.powerbi.com/) > ? > Over Power BI
 
 ![Over Power BI](media/embedded-faq/about-01.png)
 ![Tenantregio](media/embedded-faq/tenant-location-01.png)
