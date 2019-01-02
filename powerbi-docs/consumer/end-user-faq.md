@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 12/21/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: e329b40c0be55ce164ab487b7eb1d3006062b15a
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: be92d60e2f1fd6a9ea21cac37325ccfd58ba0687
+ms.sourcegitcommit: 2c77439e4bf66d239baf19ae2ce0eed6c5c7f13c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280668"
+ms.lasthandoff: 12/22/2018
+ms.locfileid: "53748531"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Veelgestelde vragen over Power BI
 * Als u andere vragen hebt, kunt u deze stellen [in de Power BI-community](http://community.powerbi.com/).
@@ -29,6 +29,10 @@ Power BI-service is een business analytics-service in de cloud die iedereen de m
 Power BI Pro is een afzonderlijke licentie waarmee toegang kan worden verkregen tot alle inhoud en mogelijkheden in de Power BI-service, inclusief de mogelijkheid voor het delen van inhoud en samenwerken met andere Pro-gebruikers. Alleen Pro-gebruikers kunnen inhoud naar app-werkruimten publiceren en deze inhoud gebruiken, dashboards delen en zich abonneren op dashboards en rapporten. 
 
 Premium biedt toegewezen capaciteit voor consistente prestaties en ondersteuning voor grotere gegevensvolumes in Power BI. Voor individuele gebruikers voorziet Premium ook in wijdverbreide distributie van inhoud door Pro-gebruikers zonder per gebruiker-licenties voor ontvangers die de inhoud bekijken.
+
+## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>Wat gebeurt er als mijn Power BI Pro-licentie is verlopen?
+Er is een respijtperiode van 30 dagen na het verstrijken van een licentie voor Power BI Pro.
+Power BI Pro heeft dezelfde levenscyclus van abonnementen als Office 365. Zie [Wat gebeurt er met mijn gegevens en toegang wanneer mijn abonnement op Office 365 voor bedrijven eindigt?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3) voor meer informatie.
 
 ## <a name="what-if-i-have-questions-about-power-bi-premium"></a>Wat als ik vragen heb over Power BI Premium?
 Zie [Veelgestelde vragen over Power BI Premium](../service-premium-faq.md) als u vragen hebt over Power BI Premium.

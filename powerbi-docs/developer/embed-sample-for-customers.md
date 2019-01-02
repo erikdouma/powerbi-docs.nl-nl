@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: e396f46987ef14aac9361e8f7ef41e90b2d8383e
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 96cd04385bec6d4b9b47e3e05a30820b2f19f3dd
+ms.sourcegitcommit: 9913c213d40b45ba83c6c3b3a7ef0b757800e3ad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180870"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53301868"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Zelfstudie: Een Power BI-rapport, -dashboard of -tegel insluiten in een toepassing voor uw klanten
 
@@ -49,9 +49,9 @@ U kunt uw toepassing registreren bij Azure Active Directory AD zodat uw toepassi
 
 1. Accepteer de [algemene voorwaarden van de Microsoft Power BI-API](https://powerbi.microsoft.com/api-terms).
 
-2. Meld u aan bij de [Azure-portal](https://portal.azure.com).
+2. Meld u aan bij [Azure Portal](https://portal.azure.com).
 
-    ![Hoofdweergave van de Azure-portal](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
+    ![Hoofdweergave van Azure Portal](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
 3. Selecteer in het navigatiedeelvenster links **Alle services**, selecteer **App-registraties** en selecteer vervolgens **Nieuwe toepassing registreren**.
 
@@ -68,7 +68,7 @@ Schakel extra machtigingen in voor uw toepassing, inclusief de informatie die u 
 
 ### <a name="use-the-azure-active-directory-portal"></a>Azure Active Directory-portal gebruiken
 
-1. Blader naar [App-registraties](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade) in de Azure-portal en selecteer de app die u gebruikt voor insluiting.
+1. Blader naar [App-registraties](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade) in Azure Portal en selecteer de app die u gebruikt voor insluiting.
 
     ![App kiezen](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
@@ -168,9 +168,9 @@ Volg deze stappen om inhoud in te sluiten met een voorbeeldtoepassing.
 
     Vul bij **applicationId** de **Toepassings-id** van **Azure** in. De **applicationId** wordt door de toepassing gebruikt om zich te identificeren bij de gebruikers bij wie u machtigingen aanvraagt. Ga als volgt te werk om de **applicationId** op te halen:
 
-    Meld u aan bij de [Azure-portal](https://portal.azure.com).
+    Meld u aan bij [Azure Portal](https://portal.azure.com).
 
-    ![Hoofdweergave van de Azure-portal](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
+    ![Hoofdweergave van Azure Portal](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
     Selecteer in het navigatiedeelvenster links **Alle services** en selecteer **App-registraties**.
 
@@ -334,18 +334,18 @@ Nu u uw toepassing hebt ontwikkeld, is het tijd om toegewezen capaciteit toe te 
 
 ### <a name="create-a-dedicated-capacity"></a>Een toegewezen capaciteit maken
 
-Als u een toegewezen capaciteit maakt, profiteert u van een toegewezen resource voor uw klant. U kunt toegewezen capaciteit kopen in de [Microsoft Azure-portal](https://portal.azure.com). Zie [Power BI Embedded-capaciteit maken in de Azure-portal](azure-pbie-create-capacity.md) voor meer informatie over het maken van Power BI Embedded-capaciteit.
+Als u een toegewezen capaciteit maakt, profiteert u van een toegewezen resource voor uw klant. U kunt toegewezen capaciteit kopen in [Microsoft Azure Portal](https://portal.azure.com). Zie [Power BI Embedded-capaciteit maken in Azure Portal](azure-pbie-create-capacity.md) voor meer informatie over het maken van Power BI Embedded-capaciteit.
 
 Gebruik de onderstaande tabel om te bepalen welke Power BI Embedded-capaciteit het beste aansluit op uw behoeften.
 
-| Capaciteitsknooppunt | Totaal aantal cores<br/>*(back-end + front-end)* | Back-endcores | Front-endcores | Limieten voor DirectQuery/liveverbindingen | Maximum aantal pagina's (rendering) tijdens piekuren |
+| Capaciteitsknooppunt | Totaal aantal cores<br/>*(back-end + front-end)* | Back-endcores | Front-endcores | Limieten voor DirectQuery/liveverbindingen|
 | --- | --- | --- | --- | --- | --- |
-| A1 |1 v-core(s) |0,5 kern, 3 GB RAM |0,5 kern |0 5 per seconde |1-300 |
-| A2 |2 v-core(s) |1 kern, 5 GB RAM |1 core(s) | 10 per seconde |301-600 |
-| A3 |4 v-core(s) |2 kernen, 10 GB RAM |2 core(s) | 15 per seconde |601-1200 |
-| A4 |8 v-core(s) |4 kernen, 25 GB RAM |4 core(s) |30 per seconde |1201-2400 |
-| A5 |16 v-core(s) |8 kernen, 50 GB RAM |8 core(s) |60 per seconde |2401-4800 |
-| A6 |32 v-core(s) |16 kernen, 100 GB RAM |16 core(s) |120 per seconde |4.801-9.600 |
+| A1 |1 v-core(s) |0,5 kern, 3 GB RAM |0,5 kern |0 5 per seconde |
+| A2 |2 v-core(s) |1 kern, 5 GB RAM |1 core(s) | 10 per seconde |
+| A3 |4 v-core(s) |2 kernen, 10 GB RAM |2 core(s) | 15 per seconde |
+| A4 |8 v-core(s) |4 kernen, 25 GB RAM |4 core(s) |30 per seconde |
+| A5 |16 v-core(s) |8 kernen, 50 GB RAM |8 core(s) |60 per seconde |
+| A6 |32 v-core(s) |16 kernen, 100 GB RAM |16 core(s) |120 per seconde |
 
 **_Met A-SKU's hebt u met een GRATIS Power BI-licentie geen toegang tot Power BI-inhoud._**
 

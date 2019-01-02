@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 06/25/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 216451874fcc66b14286ea4ed3aeb1845483bfb7
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: c33d75fa09a4e94e4db6a2b968cd3a3170afd397
+ms.sourcegitcommit: f5e39e9ead37445bbeab795890b3d80633383032
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578354"
+ms.lasthandoff: 12/21/2018
+ms.locfileid: "53735541"
 ---
 # <a name="powershell-cmdlets-rest-apis-and-net-sdk-for-power-bi-administration"></a>PowerShell-cmdlets, REST-API's en .NET SDK voor het beheer van Power BI
 Met Power BI kunnen beheerders algemene taken uitvoeren met PowerShell-cmdlets. Verder biedt het REST-API's en een .NET SDK voor het ontwikkelen van beheerdersoplossingen. Dit onderwerp bevat een lijst met cmdlets met de bijbehorende SDK-methode en het REST API-eindpunt. Zie deze onderwerpen voor meer informatie:
@@ -28,22 +28,22 @@ Met Power BI kunnen beheerders algemene taken uitvoeren met PowerShell-cmdlets. 
 
 | **Naam van cmdlet** | **Aliassen** | **SDK-methode** | **REST API-eindpunt** | **Beschrijving** |
 | --- | --- | --- | --- | --- |
-| **Get-PowerBIDatasource** | N.v.t. | Gegevenssets\_GetDataSourcesAsAdmin | /v1.0/myorg/admin/datasets/{datasetkey}/datasources | Hiermee haalt u de gegevensbronnen voor een bepaalde gegevensset op. |
-| **Get-PowerBIDataset** | N.v.t. | Gegevenssets\_GetDatasetsAsAdmin | /v1.0/myorg/admin/datasets | Hiermee haalt u de volledige lijst met gegevenssets in een Power BI-tenant op. |
-| **Get-PowerBIWorkspace** | **Get-PowerBIGroup** | Groepen\_GetGroupsAsAdmin | /v1.0/myorg/admin/groups | Hiermee haalt u de volledige lijst met werkruimten in een Power BI-tenant op. |
-| **Add-PowerBIWorkspaceUser** | **Add-PowerBIGroupUser** |Groepen\_AddUserAsAdmin | /v1.0/myorg/admin/groups/{groupId}/users | Hiermee voegt u een gebruiker als lid aan een opgegeven werkruimte toe. |
-| **Remove-PowerBIWorkspaceUser** | **Remove-PowerBIGroupUser** | Groepen\_DeleteUserAsAdmin | /v1.0/myorg/admin/groups/{groupId}/users/{user} | Hiermee verwijdert u een gebruiker uit de lijst met leden van de opgegeven werkruimte. |
-| **Restore-PowerBIWorkspace** |**Restore-PowerBIGroup** | Groepen\_RestoreDeletedGroupAsAdmin | /v1.0/myorg/admin/groups/{groupId}/restore | Hiermee herstelt u een verwijderde werkruimte. |
-| **Set-PowerBIWorkspace** |**Set-PowerBIGroup** | Groepen\_UpdateGroupAsAdmin | /v1.0/myorg/admin/groups/{groupId} | Hiermee werkt u de eigenschappen van een opgegeven werkruimte bij. |
-| **Get-PowerBIDataset -WorkspaceId** | N.v.t. | Groepen\_GetDatasetsAsAdmin | /v1.0/myorg/admin/groups/{group\_id}/datasets | Hiermee haalt u de gegevenssets binnen een opgegeven werkruimte op. |
-| **Get-PowerBIReport** | N.v.t. | Rapporten\_GetReportsAsAdmin | /v1.0/myorg/admin/reports | Hiermee haalt u de volledige lijst met rapporten in een Power BI-tenant op. |
-| **Get-PowerBIDashboard** | N.v.t. | Dashboards\_GetDashboardsAsAdmin | /v1.0/myorg/admin/dashboards | Hiermee haalt u de volledige lijst met dashboards in een Power BI-tenant op. |
-| **Get-PowerBIDashboard -WorkspaceId** | N.v.t. | Groepen\_GetDashboardsAsAdmin | /v1.0/myorg/admin/groups/{group\_id}/dashboards | Hiermee haalt u de dashboards binnen een opgegeven werkruimte op. |
-| **Get-PowerBITile** | **Get-PowerBIDashboardTile** | Dashboards\_GetTilesAsAdmin | /v1.0/myorg/admin/dashboards/{dashboard\_id}/tiles | Hiermee haalt u de tegels van een opgegeven dashboard op. |
-| **Get-PowerBIReport** | N.v.t. | Groepen\_GetReportsAsAdmin | /v1.0/myorg/admin/groups/{group\_id}/reports | Hiermee haalt u de rapporten binnen een opgegeven werkruimte op. |
-| **Get-PowerBIImport** | N.v.t. | Importbewerkingen\_GetImportsAsAdmin | /v1.0/myorg/admin/imports | Hiermee haalt u de volledige lijst met importbewerkingen in een Power BI-tenant op. |
-| **Connect-PowerBIServiceAccount** | **Login-PowerBI** &  **Login-PowerBIServiceAccount** | N.v.t. | N.v.t. | Meld u aan bij Power BI en start een sessie. |
-| **Disconnect-PowerBIServiceAccount** | **Logout-PowerBI** & **Logout-PowerBIServiceAccount** | N.v.t. | N.v.t. | Meld u af bij Power BI en sluit vervolgens de bestaande sessie. |
-| **Invoke-PowerBIRestMethod**| N.v.t. | N.v.t. | N.v.t. | Verzend willekeurige REST API-aanroepen naar Power BI. |
-| **Get-PowerBIAccessToken**| N.v.t. | N.v.t. | N.v.t. | Verkrijg het Power BI-toegangstoken in een sessie. |
-| **Resolve-PowerBIError**| N.v.t. | N.v.t. | N.v.t. | Haal gedetailleerde gegevens over fouten voor mislukte cmdlet- aanroepen op. |
+| `Get-PowerBIDatasource` | N.v.t. | `Datasets_GetDataSourcesAsAdmin` | /v1.0/myorg/admin/datasets/{datasetkey}/datasources | Hiermee haalt u de gegevensbronnen voor een bepaalde gegevensset op. |
+| `Get-PowerBIDataset` | N.v.t. | `Datasets_GetDatasetsAsAdmin` | /v1.0/myorg/admin/datasets | Hiermee haalt u de volledige lijst met gegevenssets in een Power BI-tenant op. |
+| `Get-PowerBIWorkspace` | `Get-PowerBIGroup` | `Groups_GetGroupsAsAdmin` | /v1.0/myorg/admin/groups | Hiermee haalt u de volledige lijst met werkruimten in een Power BI-tenant op. |
+| `Add-PowerBIWorkspaceUser` | `Add-PowerBIGroupUser` | `Groups_AddUserAsAdmin` | /v1.0/myorg/admin/groups/{groupId}/users | Hiermee voegt u een gebruiker als lid aan een opgegeven werkruimte toe. |
+| `Remove-PowerBIWorkspaceUser` | `Remove-PowerBIGroupUser` | `Groups_DeleteUserAsAdmin` | /v1.0/myorg/admin/groups/{groupId}/users/{user} | Hiermee verwijdert u een gebruiker uit de lijst met leden van de opgegeven werkruimte. |
+| `Restore-PowerBIWorkspace` |`Restore-PowerBIGroup` | `Groups_RestoreDeletedGroupAsAdmin` | /v1.0/myorg/admin/groups/{groupId}/restore | Hiermee herstelt u een verwijderde werkruimte. |
+| `Set-PowerBIWorkspace` |`Set-PowerBIGroup` | `Groups_UpdateGroupAsAdmin` | /v1.0/myorg/admin/groups/{groupId} | Hiermee werkt u de eigenschappen van een opgegeven werkruimte bij. |
+| `Get-PowerBIDataset -WorkspaceId` | N.v.t. | `Groups_GetDatasetsAsAdmin` | /v1.0/myorg/admin/groups/{group\_id}/datasets | Hiermee haalt u de gegevenssets binnen een opgegeven werkruimte op. |
+| `Get-PowerBIReport` | N.v.t. | `Reports_GetReportsAsAdmin` | /v1.0/myorg/admin/reports | Hiermee haalt u de volledige lijst met rapporten in een Power BI-tenant op. |
+| `Get-PowerBIDashboard` | N.v.t. | `Dashboards_GetDashboardsAsAdmin` | /v1.0/myorg/admin/dashboards | Hiermee haalt u de volledige lijst met dashboards in een Power BI-tenant op. |
+| `Get-PowerBIDashboard -WorkspaceId` | N.v.t. | `Groups_GetDashboardsAsAdmin` | /v1.0/myorg/admin/groups/{group\_id}/dashboards | Hiermee haalt u de dashboards binnen een opgegeven werkruimte op. |
+| `Get-PowerBITile` | `Get-PowerBIDashboardTile` | `Dashboards_GetTilesAsAdmin` | /v1.0/myorg/admin/dashboards/{dashboard\_id}/tiles | Hiermee haalt u de tegels van een opgegeven dashboard op. |
+| `Get-PowerBIReport` | N.v.t. | `Groups_GetReportsAsAdmin` | /v1.0/myorg/admin/groups/{group\_id}/reports | Hiermee haalt u de rapporten binnen een opgegeven werkruimte op. |
+| `Get-PowerBIImport` | N.v.t. | `Imports_GetImportsAsAdmin` | /v1.0/myorg/admin/imports | Hiermee haalt u de volledige lijst met importbewerkingen in een Power BI-tenant op. |
+| `Connect-PowerBIServiceAccount` | `Login-PowerBI` &  `Login-PowerBIServiceAccount` | N.v.t. | N.v.t. | Meld u aan bij Power BI en start een sessie. |
+| `Disconnect-PowerBIServiceAccount` | `Logout-PowerBI` & `Logout-PowerBIServiceAccount` | N.v.t. | N.v.t. | Meld u af bij Power BI en sluit vervolgens de bestaande sessie. |
+| `Invoke-PowerBIRestMethod`| N.v.t. | N.v.t. | N.v.t. | Verzend willekeurige REST API-aanroepen naar Power BI. |
+| `Get-PowerBIAccessToken`| N.v.t. | N.v.t. | N.v.t. | Verkrijg het Power BI-toegangstoken in een sessie. |
+| `Resolve-PowerBIError`| N.v.t. | N.v.t. | N.v.t. | Haal gedetailleerde gegevens over fouten voor mislukte cmdlet- aanroepen op. |

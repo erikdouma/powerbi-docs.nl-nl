@@ -10,12 +10,12 @@ ms.component: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: 541e6e62ac075922cdb301343361ac328a3db28e
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: ea4292fd95fa72a553d9f91b39ff0bc5de71a584
+ms.sourcegitcommit: 9913c213d40b45ba83c6c3b3a7ef0b757800e3ad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180755"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53301845"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>Zelfstudie: een Power BI-rapport, -dashboard of -tegel insluiten in een toepassing voor uw organisatie
 
@@ -51,7 +51,7 @@ Als u uw toepassing toegang wilt geven tot de Power BI REST-API's, registreert u
 
 1. Accepteer de [algemene voorwaarden van de Microsoft Power BI-API](https://powerbi.microsoft.com/api-terms).
 
-2. Meld u aan bij de [Azure-portal](https://portal.azure.com).
+2. Meld u aan bij [Azure Portal](https://portal.azure.com).
 
     ![Azure-dashboard](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
 
@@ -71,7 +71,7 @@ Schakel, naast de informatie die u hebt opgegeven op de pagina voor de app-regis
 
 ### <a name="use-the-azure-active-directory-portal"></a>Azure Active Directory-portal gebruiken
 
-1. Blader naar [App-registraties](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade) in de Azure-portal en selecteer de app die u gebruikt voor insluiting.
+1. Blader naar [App-registraties](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade) in Azure Portal en selecteer de app die u gebruikt voor insluiting.
 
     ![Een app kiezen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
@@ -167,9 +167,9 @@ Volg deze stappen om uw inhoud in te sluiten met behulp van een voorbeeldtoepass
 
     Ga als volgt te werk om de **ApplicationID** op te halen:
 
-    1. Meld u aan bij de [Azure-portal](https://portal.azure.com).
+    1. Meld u aan bij [Azure Portal](https://portal.azure.com).
 
-       ![Dashboard van de Azure-portal](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
+       ![Azure Portal-dashboard](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
 
     2. Kies in het navigatiedeelvenster links **Alle services** en selecteer **App-registraties**.
 
@@ -187,7 +187,7 @@ Volg deze stappen om uw inhoud in te sluiten met behulp van een voorbeeldtoepass
 
     Ga als volgt te werk om de **ApplicationSecret** op te halen:
 
-    1. Meld u aan bij de [Azure-portal](https://portal.azure.com).
+    1. Meld u aan bij [Azure Portal](https://portal.azure.com).
 
        ![Azure-portal](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
 
@@ -207,7 +207,7 @@ Volg deze stappen om uw inhoud in te sluiten met behulp van een voorbeeldtoepass
 
        ![Sleutels selecteren](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
 
-    6. Voer in het vak **Beschrijving** een naam in en selecteer een duur. Selecteer vervolgens **Opslaan** om de **Waarde** voor uw toepassing op te halen. Wanneer u het deelvenster **Sleutels** sluit nadat u de sleutelwaarde hebt opgeslagen, wordt het waardeveld alleen nog als verborgen weergegeven. Op dat punt kunt u de sleutelwaarde niet meer ophalen. Als u de sleutelwaarde kwijtraakt, kunt u een nieuwe maken in de Azure-portal.
+    6. Voer in het vak **Beschrijving** een naam in en selecteer een duur. Selecteer vervolgens **Opslaan** om de **Waarde** voor uw toepassing op te halen. Wanneer u het deelvenster **Sleutels** sluit nadat u de sleutelwaarde hebt opgeslagen, wordt het waardeveld alleen nog als verborgen weergegeven. Op dat punt kunt u de sleutelwaarde niet meer ophalen. Als u de sleutelwaarde kwijtraakt, kunt u een nieuwe maken in Azure Portal.
 
           ![Sleutelwaarde](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
 
@@ -429,17 +429,16 @@ Als u een toegewezen capaciteit maakt, profiteert u van een toegewezen resource 
 
 In de volgende tabel ziet u de Power BI Premium-SKU's die beschikbaar zijn in [Microsoft Office 365](../service-admin-premium-purchase.md):
 
-| Capaciteitsknooppunt | Totaal aantal vCores<br/>(back-end + front-end) | Back-end vCores | Front-end vCores | Limieten voor DirectQuery/liveverbindingen | Maximaal aantal paginaweergaven (rendering) tijdens piekuren |
+| Capaciteitsknooppunt | Totaal aantal vCores<br/>(back-end + front-end) | Back-end vCores | Front-end vCores | Limieten voor DirectQuery/liveverbindingen |
 | --- | --- | --- | --- | --- | --- |
-| EM1 |1 vCore |0,5 vCore, 10 GB RAM |0,5 vCore |3,75 per seconde |150-300 |
-| EM2 |2 vCores |1 vCore, 10 GB RAM |1 vCores |7,5 per seconde |301-600 |
-| EM3 |4 vCores |2 vCores, 10 GB RAM |2 vCores |15 per seconde |601-1200 |
-| P1 |8 vCores |4 vCores, 25 GB RAM |4 vCores |30 per seconde |1201-2400 |
-| P2 |16 vCores |8 vCores, 50 GB RAM |8 vCores |60 per seconde |2401-4800 |
-| P3 |32 vCores |16 vCores, 100 GB RAM |16 vCores |120 per seconde |4.801-9.600 |
-| P4 |64 vCores |32 vCores, 200 GB RAM |32 vCores |240 per seconde |9.601-19.200 |
-| P5 |128 vCores |64 vCores, 400 GB RAM |64 vCores |480 per seconde |19.201-38.400 |
-
+| EM1 |1 vCore |0,5 vCore, 10 GB RAM |0,5 vCore |3,75 per seconde |
+| EM2 |2 vCores |1 vCore, 10 GB RAM |1 vCores |7,5 per seconde |
+| EM3 |4 vCores |2 vCores, 10 GB RAM |2 vCores |15 per seconde |
+| P1 |8 vCores |4 vCores, 25 GB RAM |4 vCores |30 per seconde |
+| P2 |16 vCores |8 vCores, 50 GB RAM |8 vCores |60 per seconde |
+| P3 |32 vCores |16 vCores, 100 GB RAM |16 vCores |120 per seconde |
+| P4 |64 vCores |32 vCores, 200 GB RAM |32 vCores |240 per seconde |
+| P5 |128 vCores |64 vCores, 400 GB RAM |64 vCores |480 per seconde |
 > [!NOTE]
 > - Wanneer u probeert in te voegen met Microsoft Office-apps, kunt u EM-SKU's gebruiken om met een gratis Power BI-licentie toegang te krijgen tot inhoud. U kunt echter geen toegang krijgen tot inhoud met een gratis Power BI-licentie wanneer u Powerbi.com of Power BI voor mobiel gebruikt.
 > - Wanneer u probeert in te voegen in Microsoft Office-apps via Powerbi.com of Power BI voor mobiel, kunt u met een gratis Power BI-licentie toegang krijgen tot inhoud.

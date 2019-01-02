@@ -6,7 +6,7 @@
 | Multidimensionale database van Analysis Services |Ja |Ja |
 | Bestand |Nee |Ja |
 | Map |Nee |Ja |
-| IBM DB2 |Nee |Ja |
+| IBM DB2 |Ja |Ja |
 | IBM Informix-database |Nee |Ja |
 | IBM Netezza |Ja |Ja |
 | Impala |Ja |Ja |
