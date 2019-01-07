@@ -1,31 +1,29 @@
 ---
 title: De presentatiemodus weergeven in Surface Hub en Windows 10 - Power BI
 description: Meer informatie over het weergeven van Power BI-rapporten in Surface Hub en het weergeven van Power BI-dashboards, -rapporten en -tegels in de modus Volledig scherm op Windows 10-apparaten.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
-ms.author: maggies
-ms.openlocfilehash: 4bc9a0fe6dd3becd67c2b6dd8ffeb9d7922705a6
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.date: 12/10/2018
+ms.author: mshenhav
+ms.openlocfilehash: 49a1d8386159966171b46801d3bfe3685b2a6bb2
+ms.sourcegitcommit: 9913c213d40b45ba83c6c3b3a7ef0b757800e3ad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507928"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53301753"
 ---
-# <a name="view-reports-in-presentation-mode-on-surface-hub-and-windows-10---power-bi"></a>Rapporten weergeven in de presentatiemodus op Surface Hub en Windows 10 - Power BI
-U kunt rapporten weergeven in de presentatiemodus op Surface Hub en dashboards, rapporten en tegels in de modus Volledig scherm weergeven op Windows 10-apparaten. 
+# <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Rapporten en dashboards weergeven in de presentatiemodus op Surface Hub en Windows 10-apparaten
+U kunt de presentatiemodus gebruiken om rapporten en dashboards op Windows 10-apparaten en de Surface Hub in volledig scherm weer te geven. 
 
 ![Rapporten in de modus Volledig scherm](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode.png)
 
-De presentatiemodus en de modus Volledig scherm zijn handig bij voor het weergeven van Power BI tijdens een vergadering, conferentie of op een specifieke projector in een kantoor, of zelfs om de ruimte op een klein scherm te maximaliseren. 
+De presentatiemodus is handig voor het weergeven van Power BI tijdens een vergadering, conferentie of op een specifieke projector in een kantoor, of zelfs om de ruimte op een klein scherm te maximaliseren. 
 
-In de modus Volledig scherm in de mobiele Power BI-app worden alle ‘extra’s’ zoals de navigatie en menubalken verwijderd, met uitzondering van de tabbladen en filterdeelvenster in rapporten.
-
-Wanneer u een rapport in de presentatiemodus weergeeft op Surface Hub, kunt u met verschillende kleuren inkt tekenen op de pagina's en navigeren tussen de pagina's van het rapport.
+In de presentatiemodus in de mobiele Power BI-app voor Windows 10 worden alle 'extra's', zoals de navigatieopties en menubalken, verwijderd zodat uw teamleden en uzelf zich kunnen concentreren op de gegevens in uw rapport. Er wordt een werkbalk met acties weergegeven zodat u met uw gegevens kunt werken terwijl de presentatiemodus is ingeschakeld.
 
 U kunt ook [dashboards en rapporten weergeven in de modus Volledig scherm van de Power BI-service](../end-user-focus.md) op het web.
 
@@ -34,44 +32,24 @@ U kunt ook [dashboards en rapporten weergeven in de modus Volledig scherm van de
 > 
 > 
 
-## <a name="display-dashboards-reports-and-tiles-in-full-screen-mode"></a>Dashboards, rapporten en tegels weergeven in de modus Volledig scherm
-1. Tik in de mobiele Power BI-app op een dashboard, rapport of tegel en tik op het pictogram **Volledig scherm** ![Pictogram Volledig scherm](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png) om naar de modus Volledig scherm te gaan.
-2. In de presentatiemodus kunt u een rapport filteren of zoeken naar andere dashboards en rapporten.
-   
-    Vouw het deelvenster Filters uit om filters in te stellen of te verwijderen.
-   
-    ![Deelvenster Filters](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-filter.png)
-   
-     Tik op het zoekpictogram ![Zoekpictogram](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) om te zoeken naar andere dashboards.
-   
-    ![Zoekresultaten](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-search.png)
-3. Tik op het pictogram met twee naar elkaar gerichte pijlen op de taakbalk om de modus Volledig scherm af te sluiten ![Modus Volledig scherm sluiten](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) of veeg vanaf de bovenkant omlaag en tik op de twee naar elkaar gerichte pijlen ![Modus Volledig scherm sluiten](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-hub-icon.png).
+## <a name="use-presentation-mode"></a>De presentatiemodus gebruiken
+In de mobiele Power BI-app tikt u op het pictogram voor **volledig scherm** om de modus Volledig scherm te openen.
+![Pictogram voor volledig scherm](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png): alle extra's in de app verdwijnen en er wordt een werkbalk onder in het scherm (of aan de rechter- en linkerzijde) weergegeven, afhankelijk van de schermgrootte.
 
-## <a name="turn-on-presentation-mode-for-surface-hub"></a>De presentatiemodus voor Surface Hub inschakelen
-De presentatiemodus is standaard ingeschakeld in Surface Hub, maar als deze uitgeschakeld, kunt u deze weer inschakelen.
+![Rapport in de modus Volledig scherm met werkbalken aan de zijkant](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode2.png)
 
-1. Tik op het pictogram Instellingen ![Pictogram Instellingen](./media/mobile-windows-10-app-presentation-mode/power-bi-settings-icon.png) onder aan de linkernavigatiebalk.
-2. Tik op **Opties** en schuif de schuifregelaar **Microsoft Surface Hub-presentatiemodus inschakelen** naar **Aan**.
-   
-    ![Presentatiemodus inschakelen](./media/mobile-windows-10-app-presentation-mode/power-bi-turn-on-presentation-mode.png)
+Via de werkbalk kunt u de volgende acties uitvoeren:
 
-## <a name="display-and-draw-on-reports-on-surface-hub"></a>Rapporten weergeven en erop tekenen op Surface Hub
-1. Tik in een rapport op het pictogram **Volledig scherm** ![Pictogram Volledig scherm](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png) om naar de presentatiemodus van Surface Hub te gaan.
-   
-    U ziet een actiebalk die kan worden samengevouwen aan beide zijden van het scherm. 
-   
-   * Veeg naar binnen of tik op de greep om de actiebalk te openen.
-   * Veeg naar buiten of tik op de X bovenaan om de actiebalk te sluiten.
-2. Op apparaten die ondersteuning bieden voor het schrijven met een pen, kunt u meteen starten met schrijven. 
-3. U wijzigt de inktkleur door op de pen in de actiebalk links of rechts te tikken.
-   
-    ![Inkt in Surface hub](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-surface-hub-ink.png)
-4. Tik op de gum of de pijl Ongedaan maken om een beetje of alle inkt te verwijderen.
-5. Tik op de cirkelvormige pijl om de rapportinhoud te vernieuwen.
-6. Tik op de pijlen aan de zijkant om naar andere pagina's in het rapport te gaan.
-   
-    ![Pijlen aan de zijkant naar andere pagina's](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-surface-hub-arrows.png)
-7. Veeg vanaf de bovenkant omlaag en tik op de twee naar elkaar gerichte pijlen ![](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-hub-icon.png) om de modus Volledig scherm af te sluiten.
+1. Tik op het pictogram Terug ![pictogram Terug](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png) om terug te gaan naar de vorige pagina. Houd uw vinger lang op het pictogram om het padvenster weer te geven. Hierin kunt u naar de map navigeren waar het rapport of het dashboard in staat.
+2. Met het inktpictogram ![inktpictogram](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png) kunt u een kleur kiezen als u gebruikmaakt van uw Surface-pen om op de rapportpagina te tekenen en er aantekeningen op te maken. 
+3. Gebruik het paginapictogram ![pagineringspictogram](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png) om de rapportpagina te vervangen die u op dat moment presenteert.
+4. Tik op het zoekpictogram ![Zoekpictogram](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) om te zoeken naar andere artefacten in Power BI.
+5. Tik op het pictogram met twee naar elkaar gerichte pijlen om de presentatiemodus te sluiten ![Modus Volledig scherm sluiten](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) Deze staat op de werkbalk.
+
+U kunt de werkbalk loskoppelen en naar een willekeurige plaats op het scherm slepen. Dit is handig op grote schermen, als u zich wilt richten op een specifiek gedeelte in het rapport en u de hulpprogramma's in de buurt wilt hebben. Plaats hiervoor uw vinger op de werkbalk en swipe deze naar het rapportcanvas.
+
+![Rapport in de presentatiemodus met een losgekoppelde werkbalk](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-drag-toolbar.png)
+
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Dashboards en rapporten weergeven in de modus Volledig scherm van de Power BI-service](../end-user-focus.md)

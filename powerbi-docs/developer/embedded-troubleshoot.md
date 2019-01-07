@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/31/2018
-ms.openlocfilehash: 71cb40ef6f1346bd3d8486658b05427e66d1dbf3
-ms.sourcegitcommit: 9719eccf29298c9c673200350abc58281ef14869
+ms.date: 12/12/2018
+ms.openlocfilehash: 010a26076fe139401eb2dbbc363c712d67c637fb
+ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/20/2018
-ms.locfileid: "46474041"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53329712"
 ---
-# <a name="troubleshooting-your-embedded-application"></a>Problemen oplossen met uw ingesloten toepassing
+# <a name="troubleshoot-your-embedded-application"></a>Problemen oplossen met uw ingesloten toepassing
 
 In dit artikel worden enkele veelvoorkomende problemen besproken die kunnen optreden tijdens het insluiten van inhoud vanuit Power BI.
 
-## <a name="tools-for-troubleshooting"></a>Hulpprogramma's voor het oplossen van problemen
+## <a name="tools-to-troubleshoot"></a>Hulpprogramma's voor probleemoplossing
 
 ### <a name="fiddler-trace"></a>Traceren met Fiddler
 
@@ -34,7 +34,7 @@ Met F12 wordt het ontwikkelvenster in uw browser weergegeven. Met dit programma 
 
 ![Fouten opsporen in de browser met F12](media/embedded-troubleshoot/browser-f12.png)
 
-### <a name="extracting-error-details-from-power-bi-response"></a>Foutdetails extraheren uit het Power BI-antwoord
+### <a name="extract-error-details-from-power-bi-response"></a>Foutdetails extraheren uit het Power BI-antwoord
 
 Dit codefragment laat zien hoe u de foutdetails van de HTTP-uitzondering kunt extraheren:
 
@@ -58,25 +58,25 @@ Geef de aanvraag-id op als u contact opneemt met Microsoft Ondersteuning.
 
 ## <a name="app-registration"></a>App-registratie
 
-**App-registratiefout**
+### <a name="app-registration-failure"></a>App-registratiefout
 
 Er wordt in de foutberichten in de Azure-portal of op de Power BI-pagina voor het registreren van apps aangegeven dat u over onvoldoende bevoegdheden beschikt. Als u een toepassing wilt registreren, moet u een beheerder van de Azure AD-tenant zijn of moet de functie voor toepassingsregistraties voor niet-beheerders zijn ingeschakeld.
 
-**De Power BI-service wordt niet weergegeven in de Azure-portal tijdens het registreren van een nieuwe app**
+### <a name="power-bi-service-doesnt-appear-in-the-azure-portal-when-registering-a-new-app"></a>De Power BI-service wordt niet weergegeven in Azure Portal tijdens het registreren van een nieuwe app
 
-Er moet ten minste één gebruiker zijn aangemeld voor Power BI. Als de **Power BI-service** niet in de API-lijst wordt vermeld, is er geen gebruiker aangemeld voor Power BI.
+Er moet ten minste één gebruiker zijn aangemeld voor Power BI. Als de **Power BI-service** niet in de API-lijst wordt vermeld, is er geen gebruiker geregistreerd voor Power BI.
 
 ## <a name="rest-api"></a>REST API
 
-**De API-aanroep retourneert fout 401**
+### <a name="api-call-returning-401"></a>De API-aanroep retourneert fout 401
 
 Mogelijk is er een Fiddler-opname nodig om het probleem nader te onderzoeken. Het vereiste machtigingsbereik voor de geregistreerde toepassing ontbreekt mogelijk in Azure AD. Controleer of het vereiste bereik aanwezig is in de app-registratie voor Azure AD in Azure Portal.
 
-**De API-aanroep retourneert fout 403**
+### <a name="api-call-returning-403"></a>De API-aanroep retourneert fout 403
 
 Mogelijk is er een Fiddler-opname nodig om het probleem nader te onderzoeken. Er kunnen verschillende redenen zijn voor een 403-fout.
 
-* De gebruiker heeft de hoeveelheid insluitingstokens overschreden die voor een gedeelde capaciteit kan worden gegenereerd. U moet Azure-capaciteit aanschaffen als u insluitingstokens wilt genereren, en de werkruimte vervolgens aan die capaciteit toewijzen. Zie [Create Power BI Embedded capacity in the Azure portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity) (Power BI Embedded-capaciteit maken in Azure Portal).
+* De gebruiker heeft de hoeveelheid insluitingstokens overschreden die voor een gedeelde capaciteit kan worden gegenereerd. Schaf Azure-capaciteit aan als u insluitingstokens wilt genereren, en wijs de werkruimte vervolgens toe aan die capaciteit. Zie [Create Power BI Embedded capacity in the Azure portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity) (Power BI Embedded-capaciteit maken in Azure Portal).
 * Het Azure AD-verificatietoken is verlopen.
 * De geverifieerde gebruiker is geen lid van de groep (app-werkruimte).
 * De geverifieerde gebruiker is geen beheerder van de groep (app-werkruimte).
@@ -101,13 +101,13 @@ De back-end van de toepassing moet het verificatietoken mogelijk vernieuwen voor
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>De verificatie is mislukt met AADSTS70002 of AADSTS50053
 
-**(AADSTS70002: fout bij het valideren van referenties. AADSTS50053: u hebt te vaak geprobeerd u aan te melden met een onjuiste gebruikers-id of een onjuist wachtwoord)**
+**_(AADSTS70002: er is een fout opgetreden bij het valideren van referenties. AADSTS50053: u hebt te vaak geprobeerd u aan te melden met een onjuiste gebruikers-id of een onjuist wachtwoord)_**
 
-Als u Power BI Embedded en Azure AD Direct Authentication gebruikt en u bij het aanmelden berichten ontvangt als ***fout: unauthorized_client, error_description:AADSTS70002: fout bij het valideren van referenties. AADSTS50053: u hebt te vaak geprobeerd u aan te melden met een onjuiste gebruikers-id of een onjuist wachtwoord***. Dit komt doordat directe verificatie sinds 14-6-2018 standaard is uitgeschakeld.
+Als u Power BI Embedded en Azure AD Direct-verificatie gebruikt en u bij het aanmelden berichten ontvangt als ***fout: unauthorized_client, error_description:AADSTS70002: er is een fout opgetreden bij het valideren van referenties. AADSTS50053: U hebt te vaak geprobeerd u aan te melden met een onjuiste gebruikers-id of een onjuist wachtwoord***, komt dit doordat directe verificatie sinds 14 juni 2018 standaard is uitgeschakeld.
 
 Er is een manier om dit weer in te schakelen met behulp van [Azure AD-beleid](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) waarvan het bereik wordt beperkt tot de organisatie of een [service-principal](https://docs.microsoft.com/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
 
-We raden aan deze optie alleen per app in te schakelen.
+Het wordt aanbevolen dit beleid alleen per app in te schakelen.
 
 Als u dit beleid wilt kunnen maken, moet u een **globale beheerder** zijn voor de map waar u het beleid maakt en toewijst. Hier volgt een voorbeeldscript voor het maken van het beleid en het toewijzen ervan aan de serviceprovider voor deze toepassing:
 
@@ -133,17 +133,17 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 Na het toewijzen van het beleid wacht u ongeveer 15-20 seconden tot het beleid wordt doorgegeven voordat u begint met testen.
 
-**Het token wordt niet gegeneerd wanneer de effectieve identiteit wordt opgegeven**
+### <a name="generate-token-fails-when-providing-effective-identity"></a>Het token wordt niet gegeneerd wanneer de effectieve identiteit wordt opgegeven
 
 GenerateToken kan om enkele verschillende redenen mislukken wanneer de effectieve identiteit wordt opgegeven.
 
-* De gegevensset ondersteunt de effectieve identiteit niet.
-* De gebruikersnaam is niet opgegeven.
-* Er is geen rol niet opgegeven.
-* DatasetId is niet opgegeven.
+* De gegevensset ondersteunt de effectieve identiteit niet
+* De gebruikersnaam is niet opgegeven
+* De rol is niet opgegeven
+* De gegevensset-id is niet opgegeven
 * Gebruiker beschikt niet over de juiste machtigingen.
 
-Probeer het volgende om te controleren wat de reden is.
+Voer de onderstaande stappen uit om te controleren wat de reden is.
 
 * Voer [Gegevensset ophalen](https://docs.microsoft.com/rest/api/power-bi/datasets) uit. Staat de eigenschap IsEffectiveIdentityRequired in gesteld op true (waar)?
 * Voor elke EffectiveIdentity moet een gebruikersnaam worden opgegeven.
@@ -151,12 +151,13 @@ Probeer het volgende om te controleren wat de reden is.
 * DatasetId is verplicht voor elke EffectiveIdentity.
 * Voor Analysis Services moet de hoofdgebruiker een gatewaybeheerder zijn.
 
-### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: voor de toekenning zijn beheerdersmachtigingen vereist
+### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: voor de toestemming zijn beheerdersmachtigingen vereist
 
 **_Symptomen:_**</br>
-Wanneer een gebruiker die geen beheerder is zich voor de eerste keer wil aanmelden bij een toepassing en toestemming verleent, wordt de volgende fout weergegeven:
+Wanneer een gebruiker die geen beheerder is zich voor de eerste keer wil aanmelden bij een toepassing en toestemming verleent, wordt een van de volgende fouten weergegeven:
+
 * ConsentTest heeft toestemming nodig voor toegang tot bronnen in uw organisatie die alleen door een beheerder kunnen worden verleend. Vraag een beheerder om toestemming te verlenen voor deze app voordat u deze kunt gebruiken.
-* AADSTS90094: voor de toekenning zijn beheerdersmachtigingen vereist.
+* AADSTS90094: Voor de toestemming zijn beheerdersmachtigingen vereist.
 
     ![Toestemming testen](media/embedded-troubleshoot/consent-test-01.png)
 
@@ -168,34 +169,21 @@ Toestemming van de gebruiker is uitgeschakeld voor de tenant.
 **_Er zijn verschillende oplossingen mogelijk:_**
 
 *Toestemming inschakelen voor de gebruiker voor de gehele tenant (alle gebruikers, alle toepassingen)*
-1. Navigeer in de Azure-portal naar Azure Active Directory = > Gebruikers en groepen = > Gebruikersinstellingen
+
+1. Navigeer in Azure Portal naar Azure Active Directory = > Gebruikers en groepen = > Gebruikersinstellingen
 2. Schakel de instelling Gebruikers kunnen apps namens hen toegang geven tot bedrijfsgegevens in en sla de wijzigingen op
 
     ![Toestemming testen oplossen](media/embedded-troubleshoot/consent-test-02.png)
 
-*Machtigingen verlenen door een beheerder* Hiermee verleent u machtigingen voor de toepassing door een beheerder, voor de gehele tenant of voor een specifieke gebruiker.
+*Verleen machtigingen* voor de toepassing (door een beheerder) voor de gehele tenant of voor een specifieke gebruiker.
 
 ## <a name="data-sources"></a>Gegevensbronnen
 
-**De ISV wil andere referenties voor dezelfde gegevensbron hebben**
+### <a name="isv-wants-to-have-different-credentials-for-the-same-data-source"></a>De ISV wil andere referenties voor dezelfde gegevensbron hebben
 
 Een gegevensbron kan één set referenties voor één hoofdgebruiker hebben. Als u andere referenties moet gebruiken, maakt u aanvullende hoofdgebruikers. Vervolgens wijst u de andere referenties voor elk van de hoofdgebruikers toe en sluit u ze in met het Azure AD-token van de desbetreffende gebruiker.
 
-## <a name="content-rendering"></a>Inhoud weergeven
-
-**De ingesloten inhoud kan niet worden weergegeven of gebruikt, of er treedt een time-out op** 
-
-Controleer of het insluitingstoken is verlopen. Controleer de vervaldatum van het insluitingstoken en vernieuw het token. Zie [Refresh token using JavaScript SDK](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Refresh-token-using-JavaScript-SDK-example) (Token vernieuwen met de JavaScript-SDK) voor meer informatie.
-
-**Het rapport of het dashboard wordt niet geladen**
-
-Als de gebruiker het rapport of het dashboard niet ziet, controleert u of het rapport of het dashboard correct wordt geladen in powerbi.com. Het rapport of het dashboard werkt niet in uw toepassing als het niet worden geladen in powerbi.com.
-
-**Het rapport of het dashboard presteert traag**
-
-Open het bestand vanuit Power BI Desktop, of in powerbi.com, om te controleren of de prestaties acceptabel zijn. Zodoende kunt u problemen met uw toepassing of de API's voor insluiten uitsluiten.
-
-## <a name="troubleshooting-your-embedded-application-with-the-ierror-object"></a>Problemen met uw ingesloten toepassing oplossen met het IError-object
+## <a name="troubleshoot-your-embedded-application-with-the-ierror-object"></a>Problemen met uw ingesloten toepassing oplossen met het IError-object
 
 Gebruik het [**IError-object** dat door de *foutgebeurtenis* vanuit de **JavaScript SDK**](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Troubleshooting-and-debugging-of-embedded-parts) wordt geretourneerd om fouten in uw toepassing op te sporen en de oorzaak van de fouten beter te begrijpen.
 
@@ -208,10 +196,10 @@ Als u het IError-object hebt verkregen, zoekt u in de tabel met bijbehorende vee
 | TokenExpired | Toegangstoken is verlopen; opnieuw indienen met nieuw toegangstoken | 403 | Verlopen token  |
 | PowerBIEntityNotFound | Laden van rapport mislukt | 404 | <li> Verkeerde rapport-id <li> Rapport bestaat niet  |
 | Ongeldige parameters | Parameter powerbiToken niet opgegeven | N.v.t. | <li> Geen toegangstoken opgegeven <li> Geen rapport-id opgegeven |
-| LoadReportFailed | Initialiseren mislukt; cluster kan niet worden omgezet | 403 | * Beschadigd toegangstoken * Insluitingstype komt niet overeen met tokentype |
+| LoadReportFailed | Het initialiseren is mislukt: het cluster kan niet worden omgezet | 403 | * Beschadigd toegangstoken * Insluitingstype komt niet overeen met tokentype |
 | PowerBINotAuthorizedException | Laden van rapport mislukt | 401 | <li> Verkeerde groeps-id <li> Niet gemachtigde groep |
-| TokenExpired | Toegangstoken is verlopen; opnieuw indienen met nieuw toegangstoken. Rapportvisual met de titel <visual title> kan niet worden weergegeven | N.v.t. | Querygegevens, verlopen token |
-| OpenConnectionError | Visual kan niet worden weergegeven. Rapportvisual met de titel <visual title> kan niet worden weergegeven | N.v.t. | Capaciteit is onderbroken of verwijderd terwijl een rapport in verband met de capaciteit tijdens een sessie was geopend |
+| TokenExpired | Toegangstoken is verlopen; opnieuw indienen met nieuw toegangstoken. De rapportvisual met de titel <visual title> kan niet worden weergegeven | N.v.t. | Querygegevens, verlopen token |
+| OpenConnectionError | Visual kan niet worden weergegeven. De rapportvisual met de titel <visual title> kan niet worden weergegeven | N.v.t. | Capaciteit is onderbroken of verwijderd terwijl een rapport in verband met de capaciteit tijdens een sessie was geopend |
 | ExplorationContainer_FailedToLoadModel_DefaultDetails | Het modelschema dat is gekoppeld aan dit rapport kan niet worden geladen. Controleer of er verbinding is met de server en probeer het opnieuw. | N.v.t. | <li> Capaciteit onderbroken <li> Capaciteit verwijderd |
 
 ### <a name="typical-errors-when-embedding-for-non-power-bi-users-using-an-embed-token"></a>Typische fouten bij het insluiten voor niet-Power BI-gebruikers (met behulp van een insluitingstoken)
@@ -221,15 +209,29 @@ Als u het IError-object hebt verkregen, zoekt u in de tabel met bijbehorende vee
 | TokenExpired | Toegangstoken is verlopen; opnieuw indienen met nieuw toegangstoken | 403 | Verlopen token  |
 | LoadReportFailed | Laden van rapport mislukt | 404 | <li> Verkeerde rapport-id <li> Rapport bestaat niet  |
 | LoadReportFailed | Laden van rapport mislukt | 403 | Rapport-id komt niet overeen met het token |
-| LoadReportFailed | Laden van rapport mislukt | 500 | Door rapport opgegeven id is geen GUID |
+| LoadReportFailed | Laden van rapport mislukt | 500 | De door het rapport opgegeven id is geen GUID |
 | Ongeldige parameters | Parameter powerbiToken niet opgegeven | N.v.t. | <li> Geen toegangstoken opgegeven <li> Geen rapport-id opgegeven |
-| LoadReportFailed | Initialiseren mislukt; cluster kan niet worden omgezet | 403 | Verkeerd tokentype, beschadigd token |
-| PowerBINotAuthorizedException | Ophalen van rapport mislukt | 401 | Verkeerde/Niet-geautoriseerde groeps-id |
-| TokenExpired | Toegangstoken is verlopen; opnieuw indienen met nieuw toegangstoken. Rapportvisual met de titel <visual title> kan niet worden weergegeven | N.v.t. | Querygegevens, verlopen token |
-| OpenConnectionError | Visual kan niet worden weergegeven. Rapportvisual met de titel <visual title> kan niet worden weergegeven | N.v.t. | Capaciteit is onderbroken of verwijderd terwijl een rapport in verband met de capaciteit tijdens een sessie was geopend |
+| LoadReportFailed | Het initialiseren is mislukt: het cluster kan niet worden omgezet | 403 | Verkeerd tokentype, beschadigd token |
+| PowerBINotAuthorizedException | Ophalen van rapport mislukt | 401 | Verkeerde/niet-geautoriseerde groeps-id |
+| TokenExpired | Toegangstoken is verlopen; opnieuw indienen met nieuw toegangstoken. De rapportvisual met de titel <visual title> kan niet worden weergegeven | N.v.t. | Querygegevens, verlopen token |
+| OpenConnectionError | Visual kan niet worden weergegeven. De rapportvisual met de titel <visual title> kan niet worden weergegeven | N.v.t. | Capaciteit is onderbroken of verwijderd terwijl een rapport in verband met de capaciteit tijdens een sessie was geopend |
 | ExplorationContainer_FailedToLoadModel_DefaultDetails | Het modelschema dat is gekoppeld aan dit rapport kan niet worden geladen. Controleer of er verbinding is met de server en probeer het opnieuw. | N.v.t. | <li> Capaciteit onderbroken <li> Capaciteit verwijderd |
 
-## <a name="embedding-setup-tool"></a>Het installatieprogramma voor insluiten
+## <a name="content-rendering"></a>Inhoud weergeven
+
+### <a name="rendering-or-consumption-of-embedded-content-fails-or-times-out"></a>De ingesloten inhoud kan niet worden weergegeven of gebruikt, of er treedt een time-out op
+
+Controleer of het insluitingstoken is verlopen. Controleer de vervaldatum van het insluitingstoken en vernieuw het token. Zie [Refresh token using JavaScript SDK](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Refresh-token-using-JavaScript-SDK-example) (Token vernieuwen met de JavaScript-SDK) voor meer informatie.
+
+### <a name="report-or-dashboard-doesnt-load"></a>Het rapport of het dashboard wordt niet geladen
+
+Als de gebruiker het rapport of het dashboard niet ziet, controleert u of het rapport of het dashboard correct wordt geladen in powerbi.com. Het rapport of het dashboard werkt niet in uw toepassing als het niet worden geladen in powerbi.com.
+
+### <a name="report-or-dashboard-is-performing-slowly"></a>Het rapport of het dashboard presteert traag
+
+Open het bestand vanuit Power BI Desktop, of in powerbi.com, om te controleren of de prestaties acceptabel zijn. Zodoende kunt u problemen met uw toepassing of de API's voor insluiten uitsluiten.
+
+## <a name="embed-setup-tool"></a>Installatieprogramma voor insluiten
 
 U kunt het [installatieprogramma voor insluiten](https://aka.ms/embedsetup) doorlopen om snel een voorbeeldtoepassing te downloaden. Vervolgens kunt u uw toepassing vergelijken met het voorbeeld.
 
@@ -252,9 +254,9 @@ Als u met de ervaring **Insluiten voor uw klanten** werkt, moet u het bestand *P
 
 Als u **Machtigingen verlenen** selecteert (de stap Machtigingen verlenen), krijgt u de volgende fout:
 
-    AADSTS70001: Application with identifier <client ID> was not found in the directory <directory ID>
+    AADSTS70001: Application with identifier <client ID> wasn't found in the directory <directory ID>
 
-U lost dit op door het pop-upvenster te sluiten, enkele seconden te wachten en het vervolgens opnieuw te proberen. Mogelijk moet u deze actie een aantal keer herhalen. Een tijdsinterval zorgt ervoor dat het registratieproces voor de toepassing door het probleem niet kan worden voltooid voordat dit beschikbaar is voor externe API’s.
+U lost dit op door het pop-upvenster te sluiten, enkele seconden te wachten en het vervolgens opnieuw te proberen. Mogelijk moet u deze actie een aantal keer herhalen. Een tijdsinterval zorgt ervoor dat het registratieproces voor de toepassing door het probleem niet kan worden voltooid voordat dit beschikbaar is voor externe API's.
 
 De volgende foutmelding wordt weergegeven wanneer u de voorbeeld-app uitvoert:
 
@@ -262,9 +264,9 @@ De volgende foutmelding wordt weergegeven wanneer u de voorbeeld-app uitvoert:
 
 Deze fout treedt op omdat de enige waarde die niet in de voorbeeldtoepassing wordt ingevoerd uw gebruikerswachtwoord is. Open het Web.config-bestand in de oplossing en vul in het veld pbiPassword het wachtwoord van uw gebruiker in.
 
-Als de volgende fout wordt weergegeven: AADSTS50079: de gebruiker dient de meervoudige verificatie te gebruiken.
+Als u de foutmelding AADSTS50079 ziet, moet de gebruiker meervoudige verificatie gebruiken.
 
-    Need to use an AAD account that does not have MFA enabled.
+    Need to use an AAD account that doesn't have MFA enabled.
 
 #### <a name="using-the-embed-for-your-organization-sample-application"></a>De voorbeeldtoepassing Insluiten voor uw organisatie gebruiken
 
@@ -272,20 +274,20 @@ Als u met de ervaring **Insluiten voor uw organisatie** werkt, moet u het bestan
 
 Wanneer u de voorbeeld-app **Insluiten voor uw organisatie** uitvoert, krijgt u de volgende fout:
 
-    AADSTS50011: The reply URL specified in the request does not match the reply URLs configured for the application: <client ID>
+    AADSTS50011: The reply URL specified in the request doesn't match the reply URLs configured for the application: <client ID>
 
-Dit komt doordat de omleidings-URL die is opgegeven voor de web-servertoepassing afwijkt van de URL van het voorbeeld. Als u de voorbeeldtoepassing wilt registreren, gebruikt u `http://localhost:13526/` als de omleidings-URL.
+Deze fout treedt op omdat de omleidings-URL die is opgegeven voor de webservertoepassing afwijkt van de URL van het voorbeeld. Als u de voorbeeldtoepassing wilt registreren, gebruikt u `http://localhost:13526/` als de omleidings-URL.
 
-Als u de geregistreerde toepassing wilt bewerken, moet u leren hoe u de [geregistreerde AAD-toepassing](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application) bewerkt, zodat de toepassing toegang kan geven tot de web-API’s.
+Als u de geregistreerde toepassing wilt bewerken, moet u leren hoe u de [geregistreerde AAD-toepassing](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application) bewerkt, zodat de toepassing toegang kan geven tot de web-API's.
 
 Als u uw Power BI-gebruikersprofiel of -gegevens wilt bewerken, leert u hoe u uw [Power BI-gegevens](https://docs.microsoft.com/power-bi/service-basic-concepts) moet bewerken.
 
-Als de volgende fout wordt weergegeven: AADSTS50079: de gebruiker dient de meervoudige verificatie te gebruiken.
+Als u de foutmelding AADSTS50079 ziet, moet de gebruiker meervoudige verificatie gebruiken.
 
-    Need to use an AAD account that does not have MFA enabled.
+    Need to use an AAD account that doesn't have MFA enabled.
 
 Zie [Veelgestelde vragen over Power BI Embedded](embedded-faq.md) voor meer informatie.
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 
-Als u meer hulp nodig hebt, [neemt u contact op met de ondersteuning](https://powerbi.microsoft.com/en-us/support/pro/?Type=documentation&q=power+bi+embedded) of [maakt u een ondersteuningsticket via de Azure-portal](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest) en geeft u de foutberichten op die u hebt verkregen.
+Als u meer hulp nodig hebt, [neemt u contact op met de ondersteuning](https://powerbi.microsoft.com/en-us/support/pro/?Type=documentation&q=power+bi+embedded) of [maakt u een ondersteuningsticket via Azure Portal](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest) en geeft u de foutberichten op die zijn weergegeven.

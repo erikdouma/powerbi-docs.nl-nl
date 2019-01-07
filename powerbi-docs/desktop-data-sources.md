@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a49b433af32e6c0f03d43333a424864c5463ddd3
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: e09c08780011ffaac7d37468e6018b079c41c669
+ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619811"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53329735"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Gegevensbronnen in Power BI Desktop
 Met Power BI Desktop kunt u verbinding maken met gegevens uit veel verschillende bronnen. Onderaan op deze pagina vindt u een volledige lijst met beschikbare gegevensbronnen.
@@ -78,6 +78,7 @@ De categorie **Database** biedt de volgende gegevensverbindingen:
 * Impala
 * Google BigQuery
 * Snowflake
+* Essbase (bèta)
 * BI-connector
 * Exasol
 * Dremio (bèta)
@@ -105,14 +106,14 @@ De categorie **Azure** biedt de volgende gegevensverbindingen:
 * Azure SQL-database
 * Azure SQL Data Warehouse
 * Microsoft Azure Analysis Services-database
-* Azure Blob-opslag
+* Azure Blob Storage
 * Azure-tabelopslag
 * Azure Cosmos DB (bèta)
 * Azure Data Lake Storage
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * HDInsight Interactive Query
-* Azure Data Explorer (Beta)
+* Azure Data Explorer (bèta)
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Azure**.
 
@@ -127,7 +128,7 @@ De categorie **Onlineservices** biedt de volgende gegevensverbindingen:
 * Dynamics 365 Business Central
 * Dynamics 365 Business Central (on-premises)
 * Common Data Service voor apps (bèta)
-* Inzicht van Microsoft Azure-verbruik (bèta)
+* Microsoft Azure Consumption Insights (bèta)
 * Azure DevOps (Beta)
 * Azure DevOps Server (Beta)
 * Salesforce-objecten

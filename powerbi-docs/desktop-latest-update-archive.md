@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 3e8e8359742a422049751a348bce6a5d4015bd72
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: 129649367efa3a2b23fbf3be181e14df158eba02
+ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619857"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53329850"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Eerdere maandelijkse updates voor Power BI Desktop
 
@@ -33,6 +33,57 @@ De koppelingen naast de verschillende updates betekenen het volgende:
 U kunt ook de video **Meest recente updates** in dit artikel vanaf het begin bekijken, door te klikken op het pictogram **Afspelen** op de videoafbeelding onder de lijst met updates.
 
 In de volgende secties wordt aandacht besteed aan de updates van de afgelopen maanden voor **Power BI Desktop**.
+
+## <a name="november-2018-update-2645285461"></a>Update van november 2018 (2.64.5285.461)
+
+In november hebben we tal van nieuwe functies en functionaliteiten voor u beschikbaar gesteld. U kunt alle nieuwe mogelijkheden voor gegevens en analyse verkennen en uw voordeel doen met onze updates. 
+
+De volgende updates zijn in november uitgekomen voor **Power BI Desktop**:
+
+### <a name="reporting"></a>Rapportage
+
+* Rijkoppen van matrix uitbreiden en samenvouwen [[video]](https://youtu.be/1xsXXoyTxfk?t=16)  [[artikel]](power-bi-reports-filters-and-highlighting.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23expandCollapse) 
+* Kopiëren en plakken van het ene naar het andere Desktop-bestand [[video]](https://youtu.be/1xsXXoyTxfk?t=199)  [[artikel]](desktop-report-view.md#copy-and-paste-between-reports)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23copyPaste)
+* Bijgewerkte filterfunctionaliteit (preview) [[video]](https://youtu.be/1xsXXoyTxfk?t=410)   [[artikel]](power-bi-reports-filters-and-highlighting.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23filterPane)
+* Toegankelijkheidsverbeteringen voor rapporten [[video]](https://youtu.be/1xsXXoyTxfk?t=1036)  [[artikel]](desktop-accessibility.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23reportAccessibility)
+
+### <a name="analytics"></a>Analyse
+
+* Kleurverzadiging van visuals bijgewerkt voor gebruik met voorwaardelijke opmaak [[video]](https://youtu.be/1xsXXoyTxfk?t=1224)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23conditionalFormatting) 
+* Vervolgvragen in de Q&A-verkenner [[video]](https://youtu.be/1xsXXoyTxfk?t=1429)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23relatedQuestions) 
+
+
+### <a name="modeling"></a>Modellen maken
+
+* Nieuwe modelweergave (preview) [[video]](https://youtu.be/1xsXXoyTxfk?t=1642)  [[artikel]](desktop-modeling-view.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23modellingView) 
+* Samengestelde modellen zijn nu algemeen beschikbaar [[video]](https://youtu.be/1xsXXoyTxfk?t=1941)  [[artikel]](desktop-composite-models.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23compositeModels) 
+* Toegankelijkheidsverbeteringen voor modellen [[video]](https://youtu.be/1xsXXoyTxfk?t=2023)  [[artikel]](desktop-accessibility.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23modellingAccessibility) 
+* Nieuwe DAX-functies [[video]](https://youtu.be/1xsXXoyTxfk?t=2066)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23dax) 
+
+### <a name="custom-visuals"></a>Aangepaste visuals
+
+* Vijf nieuwe aangepaste visuals [[video]](https://youtu.be/1xsXXoyTxfk?t=2108) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23customVisuals) 
+
+### <a name="data-connectivity"></a>Toegang tot gegevens
+
+* Azure DevOps Server-connector [[video]](https://youtu.be/1xsXXoyTxfk?t=2641)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23devOps) 
+* Ondersteuning pdf-connector voor parameters Start Page en End Page  [[video]](https://youtu.be/1xsXXoyTxfk?t=2667)   [[artikel]](desktop-connect-pdf.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23pdf) 
+* Verbeterde Azure Consumption Insights-connector  [[video]](https://youtu.be/1xsXXoyTxfk?t=2704)  [[artikel]](desktop-connect-azure-consumption-insights.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23consumptionInsights) 
+
+
+> [!NOTE]
+> U kunt ook [alle gegevensbronnen bekijken die beschikbaar zijn voor Power BI Desktop](desktop-data-sources.md). Deze lijst blijft groeien, dus kom geregeld terug.
+
+Wilt u meer informatie over deze updates? Bekijk de [blogpost](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary), waar meer informatie over elk van deze nieuwe functies wordt gegeven (dit is dezelfde blogpost waarnaar in de bovenstaande lijst wordt verwezen).
+
+
+In het volgende videokanaal wordt elk van deze updates beschreven en weergegeven. U kunt de video’s ook bekijken vanuit de blogpost.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1xsXXoyTxfk?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+> [!NOTE]
+> Wellicht bent u ook geïnteresseerd in [wat er nieuw is in de Power BI-service](service-whats-new.md). Lees ook [wat er nieuw is in de mobiele apps voor Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
+
 
 ## <a name="october-2018-update-263327240262"></a>Update van oktober 2018 (2.63.3272.40262)
 
@@ -363,7 +414,7 @@ De volgende updates zijn in april uitgekomen voor **Power BI Desktop**:
 ### <a name="analytics"></a>Analyse
 
 * Uw taalkundig schema bijwerken [[video]](https://youtu.be/W_Nb73Od_AI?t=22m)  [[artikel]](power-bi-custom-visuals-organization.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#linguisticSchema) 
-* Nieuwe DAX-functie: COMBINEVALUES() [[video]](https://youtu.be/W_Nb73Od_AI?t=23m37s) [[blog ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#combineValues) 
+* Nieuwe DAX-functie: COMBINEVALUES() [[video]](https://youtu.be/W_Nb73Od_AI?t=23m37s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#combineValues) 
 
 ### <a name="custom-visuals"></a>Aangepaste visuals
 
@@ -373,7 +424,7 @@ De volgende updates zijn in april uitgekomen voor **Power BI Desktop**:
 ### <a name="data-connectivity"></a>Toegang tot gegevens
 
 * De Adobe Analytics-connector is nu algemeen beschikbaar [[video]](https://youtu.be/kuI6MMzDh34?t=32m)[[artikel]](desktop-multi-select.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#adobeAnalytics) 
-* Verbetering voor SAP HANA-connector: poortselectie [[video]](https://youtu.be/kuI6MMzDh34?t=32m44s)[[artikel]](desktop-directquery-sap-hana.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#sapHana) 
+* Verbetering voor de SAP HANA-connector: Poortselectie [[video]](https://youtu.be/kuI6MMzDh34?t=32m44s) [[artikel]](desktop-directquery-sap-hana.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#sapHana) 
 * Dynamics 365 Business Central-connector [[video]](https://youtu.be/kuI6MMzDh34?t=34m10s)[[artikel]](desktop-directquery-sap-hana.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#dynamics365BusinessCentral) 
 
 
@@ -1613,7 +1664,7 @@ Ook deze korte maand weer de nodige updates! Februari heeft dit keer 29 dagen (d
 -   Kaartverbeteringen - kaart uitzetten met alleen breedtegraad/lengtegraad
 -   Release-ondersteuning voor KPI-verbruik (inclusief ondersteuning voor navigatiehiërarchie en KPI-trend voor SSAS MD)
 -   SSAS-verkenningsmodus: ondersteuning voor **Weergave**-mappen in het deelvenster **Velden**
--   Verbeteringen van lay-out van lint: contextueel linttabblad voor **Hulpmiddelen voor rapporten**
+-   Verbeteringen voor de lintlay-out: contextueel linttabblad voor **hulpprogramma's voor rapporten**
 -   Nieuwe KPI-visualisatie
 -   Opgehaalde rapporten weergeven met de pagina die zichtbaar was op het moment van opslaan
 -   Optie **Query bewerken** in contextmenu van tabel in het deelvenster Velden (weergaven **Rapport** & **Gegevens**)
@@ -1623,7 +1674,7 @@ Ook deze korte maand weer de nodige updates! Februari heeft dit keer 29 dagen (d
 ### <a name="data-modeling"></a>Gegevensmodellering:
 
 -   Mogelijkheid om hiërarchieën te definiëren
--   Prestatieverbeteringen: optimalisatie van wijzigen van tabel- en kolomnamen
+-   Prestatieverbetering: optimalisatie voor het wijzigen van tabel- en kolomnamen
 
 ### <a name="data-connectivity"></a>Toegang tot gegevens:
 
@@ -1711,7 +1762,7 @@ December is een maand van cadeautjes. Het Power BI-team pakt daarom uit met meer
 
 -   Verbeteringen van visualisaties:
     - Visuele hint voor sorteerstatus in visualisatie **Tabel**
-    - Nieuwe visualisatie: **Gestapeld vlakdiagram**
+    - Nieuwe visual: **gestapeld vlak**diagram
     - Slimme knopinfo voor**vlak- en****lijndiagrammen** bij aanwijzen
     - Mogelijkheid om referentielijn/-gebied te maken voor een visualisatie van het type **Cartesisch**
     - Verbeterde gegevenslabels voor**cirkel- en****spreidingsdiagrammen**
@@ -1872,7 +1923,7 @@ We hebben met deze update de volgende enorme verzameling van 44 functies toegevo
         - Labelrichting x-as (horizontaal/diagonaal)
         - Ondersteuning voor logaritmische en lineaire schalen voor waarden op y-as
         - Tekst weergeven voor hyperlinks in tekstvakken
-        - Verbeteringen van bestaande visualisaties: Tabel, Matrix, Slicer, Spreidingsdiagram, Kaarten met één getal, Combinatiediagrammen en Meters
+        - Verbeteringen voor bestaande visualisaties: Tabel, Matrix, Slicer, Spreidingsdiagram, Kaarten met één getal, Combinatiegrafieken en Meters
         - Ondersteuning voor het weergeven van kleurverzadigingswaarden in knopinfo
         - Mogelijkheid om afbeeldingen te vergroten of verkleinen en aanvullende opmaakopties toe te passen
 
@@ -1912,8 +1963,8 @@ We hebben met deze update de volgende enorme verzameling van 44 functies toegevo
 - Optie voor detecteren van kolomtypen voor activeren van detectie op aanvraag
 - 'Alle voorbeelden vernieuwen' om alle voorbeelden van query-editor met één klik te vernieuwen
 - Prestatieverbeteringen:
-    - Dialoogvenster Kolommen kiezen: sneller gebruikerservaring voor het omgaan met brede tabellen
-    - Pop-ups voor automatisch filteren en uitvouwen/aggregatie: sneller voor grotere aantallen waarden/velden
+    - Dialoogvenster Kolommen kiezen: snellere gebruikerservaring voor het omgaan met brede tabellen
+    - Pop-ups voor automatisch filteren en uitvouwen/aggregatie: sneller voor grote aantallen waarden/velden
 
 In de volgende video worden deze functies in detail besproken.
 
@@ -1971,7 +2022,7 @@ De volgende functies zijn toegevoegd in deze update:
 
 -   **Nieuwe transformaties**: eerste/laatste/bereik van tekens extraheren uit een tekstkolom; optie om het type join op te geven in het dialoogvenster Query's samenvoegen; mogelijkheid om citaatstijl aan te passen in dialoogvenster Kolom splitsen op scheidingsteken.
 
--   **Verbeteringen voor rapportontwerp**: nieuwe visualisaties (vlakdiagram, waterval, ring en matrix); nieuwe opmaak van visualisaties aanpassingsopties (labels, titels, achtergrond, legenda, kleuren, enzovoort); tekstvak en afbeelding invoegen in rapport; ondersteuning voor hyperlinks in rapporten en rapporttabellen; acties ongedaan maken/opnieuw uitvoeren.
+-   **Verbeteringen voor rapportontwerp**: nieuwe visualisaties (vlakdiagram, waterval, ring en matrix); nieuwe aanpassingsopties voor de opmaak van visualisaties (labels, titels, achtergrond, legenda, kleuren, enzovoort); tekstvak en afbeelding invoegen in rapport; ondersteuning voor hyperlinks in rapporten en rapporttabellen; acties ongedaan maken/opnieuw uitvoeren.
 
 -   **Direct rapporten ontdekken** via tabellaire modellen van Analysis Services.
 
@@ -2001,7 +2052,7 @@ De volgende functies zijn toegevoegd in deze update:
 
 -   Sorteren op een andere kolom
 
--   Verbeterde editor voor DAX-formules: Help bij functies en prototype
+-   Verbeterde DAX-formule-editor: hulp bij functies en prototypen
 
 **Gegevens ophalen en Query**
 
@@ -2102,7 +2153,7 @@ De volgende functies zijn toegevoegd of verbeterd in deze update:
     -   Verbeterde zoekmogelijkheden in de structuur van Navigator
 - Nieuwe transformaties
   -   Bewerking voor verouderen en aftrekken voor datum/tijd-kolommen
-  -   Cumulatieve kolommen: optie voor uitschakelen van voorvoegsel nieuwe kolommen
+  -   Cumulatieve kolommen: optie voor het uitschakelen van het voorvoegsel voor nieuwe kolommen
 - Verbeteringen aan lijst met velden
   -   Tabellen uitvouwen/samenvouwen
   -   Velden verbergen/zichtbaar maken

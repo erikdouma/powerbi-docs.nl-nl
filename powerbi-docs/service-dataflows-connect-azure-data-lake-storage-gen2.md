@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 58c9d41769179b84d9d7cdc79d02f66bc4c99953
-ms.sourcegitcommit: 76b07d55e85110a6ae8c49e08e80e4fa63826166
+ms.openlocfilehash: 72c3c2fde92de45d3a93f087d217af1f50e50601
+ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2018
-ms.locfileid: "53200644"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "53649040"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Verbinding maken met Azure Data Lake Storage Gen2 voor gegevensstroomopslag (preview)
 
@@ -76,7 +76,7 @@ Selecteer in het venster **Roltoewijzing toevoegen** de rol **Lezer** om aan de 
 
 U moet een bestandssysteem met de naam *powerbi* maken voordat uw opslagaccount kan worden toegevoegd aan Power BI. Er zijn veel manieren om een dergelijk bestandssysteem te maken, waaronder het gebruik van Azure Databricks, HDInsight, AZCopy of Azure Storage Explorer. In deze sectie ziet u een eenvoudige manier om een bestandssysteem te maken met behulp van Azure Storage Explorer.
 
-Voor deze stap moet u Azure Storage Explorer installeren. Zie [Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/) voor het installeren van Azure Storage Explorer voor Windows, Macintosh of Linux.
+Voor deze stap moet u Azure Storage Explorer versie 1.6.1 of nieuwer installeren. Zie [Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/) voor het installeren van Azure Storage Explorer voor Windows, Macintosh of Linux.
 
 1. Nadat u Azure Storage Explorer hebt geïnstalleerd, wordt bij de eerste keer opstarten het venster Microsoft Azure Storage Explorer - verbinding maken weergegeven. Storage Explorer biedt verschillende manieren om verbinding te maken met opslagaccounts, maar er wordt momenteel slechts één manier ondersteund voor de vereiste instellingen. 
 
@@ -108,11 +108,11 @@ Voer de volgende stappen uit om uw tenanttoepassingen te zoeken:
 
     ![AAD-bedrijfstoepassingen](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_06.jpg)
 
-4. Typ in de zoekbalk *Power*. Er wordt een verzameling van object-id's voor Power BI en Power Query-toepassingen weergegeven.
+4. Typ in de zoekbalk *Power*. Er wordt een verzameling van object-id's voor Power BI en Power Query-toepassingen weergegeven. U hebt alle drie de waarden nodig in de volgende stappen.  
 
     ![Zoeken naar Power-toepassingen](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07.jpg)
 
-5. Selecteer en kopieer de object-id voor Power BI-service in de resultaten van uw zoekopdracht. Wees er klaar voor om die waarde in volgende stappen te plakken.
+5. Selecteer en kopieer de object-id's voor de Power BI-service en Power BI Premium in de resultaten van uw zoekopdracht. Deze waarden moeten in de volgende stappen worden geplakt.
 
 7. Gebruik vervolgens **Azure Storage Explorer** om naar het *powerbi*-bestandssysteem te navigeren dat u in de vorige sectie hebt gemaakt. Volg de instructies in de sectie [Toegang beheren](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access) van het artikel [Machtigingen instellen op bestands- en mapniveau met behulp van Azure Storage Explorer](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer).
 
@@ -120,7 +120,7 @@ Voer de volgende stappen uit om uw tenanttoepassingen te zoeken:
 
    ![voor beide, alle drie toewijzen](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07a.jpg)
 
-9. Voor de Power Query online object-id die in stap 5 is verzameld, wijst u toegang voor **Schrijven**, **Uitvoeren** en standaard-ACL's aan uw *powerbi*-bestandssysteem toe.
+9. Voor de Power Query-online-object-id die in stap 4 is verzameld, wijst u toegang voor **Schrijven**, **Uitvoeren** en standaard-ACL's aan uw *powerbi*-bestandssysteem toe.
 
    ![vervolgens, schrijven en uitvoeren toewijzen](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07b.jpg)
 

@@ -11,11 +11,11 @@ ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: f12974d4e53217fc6c29ad172153ec9c51ecc44e
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452632"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "53451416"
 ---
 # <a name="create-workspaces-with-your-colleagues-in-power-bi"></a>Werkruimten maken met uw collega's in Power BI
 
@@ -27,7 +27,7 @@ Wanneer u een werkruimte maakt, maakt u een onderliggende, gekoppelde Office 365
 
 **Wist u dat?** Met Power BI is een preview-versie van een nieuwe werkruimte-ervaring beschikbaar. Lees [De nieuwe werkruimten maken (preview)](service-create-the-new-workspaces.md) om te zien hoe werkruimten in de toekomst worden gewijzigd. 
 
-## <a name="video-apps-and-app-workspaces"></a>Video: Apps en app-werkruimten
+## <a name="video-apps-and-app-workspaces"></a>Video: apps en app-werkruimten
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="create-an-app-workspace-based-on-an-office-365-group"></a>Een app-werkruimte maken op basis van een Office 365-groep

@@ -11,11 +11,11 @@ ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: f4825e8d8d47f755b01748c847b0fcf110db030a
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452862"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "53451439"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>De SAP BW Connector in Power BI Desktop gebruiken
 Met Power BI Desktop hebt u toegang tot gegevens van **SAP Business Warehouse (BW)**.
@@ -66,7 +66,7 @@ U moet een *server*, *systeemnummer* en *client-id* opgeven om verbinding te mak
 
 ![Verbindingsinstellingen voor de SAP-server](media/desktop-sap-bw-connector/sap_bw_3a.png)
 
-U kunt ook twee extra **geavanceerde opties** opgeven: de taalcode en een aangepaste MDX-instructie die wordt uitgevoerd voor de opgegeven server.
+U kunt ook twee extra **geavanceerde opties** opgeven: de taalcode en een aangepaste MDX-instructie om uit te voeren op de opgegeven server.
 
 ![aanvullende verbindingsgegevens](media/desktop-sap-bw-connector/sap_bw_4a.png)
 
@@ -78,7 +78,7 @@ Wanneer u een of meer items van de server selecteert, wordt een voorbeeld van de
 
 Het **Navigator**-venster biedt ook enkele **weergaveopties** waarmee u het volgende kunt doen:
 
-* **Alleen geselecteerde items *weergeven* versus *Alle items* (standaardweergave):** deze optie is handig voor het controleren van de definitieve set met geselecteerde objecten. Een alternatieve methode om deze weer te geven, is door de *kolomnamen* in het gebied *Preview* te selecteren.
+* ***Alleen geselecteerde items* weergeven versus *Alle items* (standaardweergave):** deze optie is handig voor het controleren van de definitieve set geselecteerde items. Een alternatieve methode om deze weer te geven, is door de *kolomnamen* in het gebied *Preview* te selecteren.
 * **Voorbeelden van gegevens inschakelen (standaardinstelling):** u kunt ook bepalen of voorbeelden van gegevens in dit dialoogvenster moeten worden weergegeven. Als u voorbeelden van gegevens uitschakelt, zijn er minder serveraanroepen, omdat er geen gegevens meer voor de voorbeelden worden aangevraagd.
 * **Technische namen:** SAP BW ondersteunt het principe van *technische namen* voor objecten in een kubus. Met technische namen kan de eigenaar van een kubus *gebruikersvriendelijke* namen weergeven voor kubusobjecten, in plaats van alleen de *fysieke namen* voor die objecten in de kubus weer te geven.
 

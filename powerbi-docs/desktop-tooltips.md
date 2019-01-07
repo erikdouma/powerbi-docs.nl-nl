@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/27/2018
+ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8ec638eefa95ef70ab04606881bee421f82b7f11
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 0b5693dfa53feba35acb559bf8606b1d03f97fdb
+ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223307"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53329781"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Knopinfo maken op basis van rapportpagina's in Power BI Desktop
 U kunt visueel uitgebreide **tooltips voor rapporten** maken die worden weergegeven wanneer u de muisaanwijzer over visuele elementen beweegt, op basis van rapportpagina's die u maakt in **Power BI Desktop**. Wanneer u een rapportpagina maakt die als knopinfo fungeert, kunnen uw aangepaste knopinfo visuele elementen, afbeeldingen en ongeacht welke andere verzameling van items bevatten die u in de rapportpagina maakt. 
@@ -25,17 +25,6 @@ U kunt visueel uitgebreide **tooltips voor rapporten** maken die worden weergege
 U kunt zoveel knopinfopagina's maken als u wilt. Elke knopinfopagina kan worden gekoppeld aan een of meer velden in uw rapport, zodat wanneer u de muisaanwijzer over een visueel element beweegt dat deel uitmaakt van het geselecteerde veld, de knopinfo wordt weergegeven die u hebt gemaakt op de knopinfopagina wanneer u de muisaanwijzer over het visuele element beweegt, gefilterd door het gegevenspunt waarover uw muis beweegt. 
 
 U kunt allerlei interessante dingen doen met rapportknopinfo. We gaan nu kijken hoe u knopinfo kunt maken en wat u moet doen om deze te configureren.
-
-### <a name="enable-the-tooltips-preview"></a>Het tooltips-voorbeeld inschakelen 
-Vanaf de september 2018-release van **Power BI Desktop** is tooltips algemeen beschikbaar en hoeven deze niet te worden ingeschakeld. 
-
-Als u een eerdere versie van **Power BI Desktop** gebruikt, kunt u deze inschakelen als preview-functie door **Bestand > Opties en instellingen > Opties > Preview-functies** in Power BI Desktop te selecteren en vervolgens het selectievakje naast **Tooltips voor rapportpagina** in te schakelen. 
-
-![Preview-functie voor rapportknopinfo inschakelen](media/desktop-tooltips/desktop-tooltips_01.png)
-
-U moet **Power BI Desktop** opnieuw opstarten nadat u de selectie hebt gemaakt om de preview-versie in te schakelen van de knopinfo rapport.
-
-Het wordt altijd aanbevolen te upgraden naar de meest recente versie van **Power BI Desktop**, die u via een koppeling in [Power BI Desktop downloaden](desktop-get-the-desktop.md) kunt krijgen. 
 
 ## <a name="create-a-report-tooltip-page"></a>Een pagina voor rapportknopinfo maken
 Om te beginnen, moet u een nieuwe rapportpagina maken door op de **+**-knop te klikken aan de onderkant van het **Power BI Desktop**-canvas in het gedeelte met tabbladen. De knop bevindt zich naast de laatste pagina in het rapport. 
@@ -123,8 +112,7 @@ Wanneer een visueel element in een rapport kruislings gemarkeerd wordt, toont de
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 Er zijn enkele beperkingen en overwegingen met betrekking tot **tooltips** waar u rekening mee moet houden.
 
-* Vanaf de release van september 2018 van **Power BI Desktop**, dat de algemene beschikbaarheid van tooltips aangaf, ondersteunen kaartvisualisaties tooltips ook.
-* Sinds de release van juli 2018 van **Power BI Desktop** is er knopinfo beschikbaar voor visualisaties in tabellen en matrices. 
+* Sinds de release in december 2018 van **Power BI Desktop** wordt knopinfo ondersteund voor knopvisuals.
 * Rapportknopinfo wordt niet ondersteund bij het weergeven van rapporten in mobiele apps. 
 * Rapportknopinfo wordt niet ondersteund voor aangepaste visuele elementen. 
 * Clusters worden momenteel niet ondersteund als velden die in rapportknopinfo kunnen worden weergegeven. 
