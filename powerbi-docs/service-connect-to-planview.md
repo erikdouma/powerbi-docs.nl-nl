@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ad93a57e08f858c78e71d66792315d1836c2a075
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 6095faca7fd0d7d42fd6b3871c9e45658a32a14f
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547655"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54007724"
 ---
 # <a name="connect-to-planview-enterprise-with-power-bi"></a>Verbinding maken met Planview Enterprise met Power BI
 Met het inhoudspakket van Planview Enterprise kunt u resource- en werkbeheergegevens op geheel nieuwe manieren visualiseren, rechtstreeks in Power BI. Gebruik uw Planview Enterprise-referenties voor een interactieve weergave van de investeringen in uw beleggingsportefeuille, om inzicht te krijgen in waar u boven en onder uw budget zit en om te zien hoe goed uw projecten zijn afgestemd op de strategische prioriteiten van uw bedrijf. U kunt het kant-en-klare dashboard en de rapporten ook uitbreiden om de inzichten te krijgen die voor u het belangrijkst zijn.

@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5fe70f2ba213305c5307bb202cacbb1245cf970f
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 9029d5b6268cacf17fc862a4c0a3d19f440f7de1
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548552"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54007922"
 ---
 # <a name="connect-to-lithium-with-power-bi"></a>Verbinding met Lithium maken via Power BI
 Lithium bouwt vertrouwde relaties tussen de beste merken ter wereld en hun klanten en helpt mensen om antwoorden te vinden en hun ervaringen te delen. Door het Lithium-inhoudspakket te verbinden met Power BI, kunt u essentiële metrische gegevens over uw online community meten om zodoende de verkoop te stimuleren, de servicekosten te reduceren en de loyaliteit te verhogen. 

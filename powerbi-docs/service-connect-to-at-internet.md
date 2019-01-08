@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c65cc7052a3a056280561643c7734212b92769be
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 5afb79f52c4717887ba16d9ca43f913ba3446627
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549413"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008368"
 ---
 # <a name="connect-to-at-internet-bridge-with-power-bi"></a>Verbinding met AT Internet Bridge maken via met Power BI
 AT Internet helpt u direct waarde te onttrekken aan uw gegevens dankzij het geïntegreerde digitale analyseplatform, de Analytics Suite. Het AT Internet Bridge-inhoudspakket voor Power BI bevat onder meer gegeven over bezoeken, bronnen, lokalisatie en apparaten voor uw site.

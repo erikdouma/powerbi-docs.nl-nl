@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2800eb5b01e8203632ae60c9b304a5ed9ce28b69
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 281e84b1dd3a3c21a7aaebce4784551a8afb31ba
+ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670196"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54056059"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Uw Amerikaanse overheidsorganisatie registreren in de Power BI-service
 Er is als onderdeel van **Office 365 US Government Community**-abonnement een versie van de **Power BI-service** beschikbaar voor Amerikaanse overheidsklanten. De versie van de **Power BI-service** die in dit artikel wordt besproken, is specifiek ontworpen voor Amerikaanse overheidsklanten en staat los en verschilt van de commerciële versie van de **Power BI-service**.
@@ -102,7 +102,7 @@ Als u zowel gratis als US Government Pro-licenties in uw tenant hebt, blijven zo
 
 Wanneer een combinatie van gratis en Pro-licenties wordt gebruikt in een US Government-tenant, kunt u het volgende verwachten wanneer het *whitelistingproces* wordt uitgevoerd:
 
-**Vóór *opname in de whitelist***:
+**Vóór _opname in de whitelist_**:
 
 * Gebruikers met gratis licenties maken gebruik van de commerciële cloud.
 * Pro US Government-licenties worden weergegeven in de portal en beheerders kunnen deze licenties toewijzen aan gebruikers. Gebruikers van Pro US Government verliezen geen gegevens uit hun gratis licenties wanneer een beheerder een US Government Pro-licentie toewijst. De toegewezen gebruikers hebben toegang tot de Power BI Pro-functies voor Amerikaanse overheidsklanten. Echter, zolang de tenant nog niet is *opgenomen in de whitelist*, zijn bepaalde functies niet beschikbaar:
@@ -110,9 +110,9 @@ Wanneer een combinatie van gratis en Pro-licenties wordt gebruikt in een US Gove
   * Gateway, Mobile en Power BI Desktop kunnen niet worden geverifieerd.
   * U hebt geen toegang tot de commerciële gegevensbronnen van Azure.
   * PBIX-bestanden moeten handmatig via de commerciële Power BI-service worden geüpload.
-  * Er zijn geen mobiele Power BI-apps beschikbaar
+  * Er zijn geen mobiele Power BI-apps beschikbaar.
 
-**Na *opname in de whitelist***:
+**Na _opname in de whitelist_**:
 
 * Gratis gebruikers die gebruikmaken van de commerciële Power BI-service, kunnen hier gebruik van blijven maken, maar de verificatie werkt niet meer zoals verwacht.
 * Pro-gebruikers die gebruikmaken van US Government-cloud, kunnen de **Power BI-service voor Amerikaanse overheidsklanten** gebruiken zoals verwacht.

@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8466d57340feb80650af93e4f400b82436d11b05
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 688f0e9bc1070c1cd9605a508d2086f52f7e5730
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544849"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008115"
 ---
 # <a name="connect-to-microsoft-dynamics-ax-content-pack-with-power-bi"></a>Verbinding met het Microsoft Dynamics AX-inhoudspakket maken via Power BI
 Microsoft Dynamics AX bevat drie Power BI-inhoudspakketten die zijn bedoeld voor verschillende zakelijke gebruikers. Het inhoudspakket Financiële prestaties is specifiek ontworpen voor CFO's en biedt inzicht in de financiële prestaties van uw organisatie. Het inhoudspakket Afzetkanaalprestaties is bedoeld voor kanaalmanagers en bevat informatie over de verkoopprestaties om trends te voorspellen en inzichten aan het licht te brengen door rechtstreeks gebruik te maken van de retailgegevens en commerciële gegevens. Het inhoudspakket Kostenbeheer is ontworpen voor COO's en CFO's en bevat gedetailleerde informatie over de operationele prestaties.

@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 150277c4069be8c292e02caa495e8c545138227e
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 00212258a145bf7d161d650a4b1cfa9f054a4508
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546045"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54007816"
 ---
 # <a name="connect-to-mandrill-with-power-bi"></a>Verbinding maken met Mandrill met Power BI
 Met het Power BI-inhoudspakket worden gegevens opgehaald uit uw Mandrill-account en worden een dashboard, een set met rapporten en een gegevensset gegenereerd die u kunt gebruiken om uw gegevens te verkennen. Gebruik de analytische gegevens van Mandrill om snel inzicht te krijgen in uw nieuwsbrief of marketingcampagne. De gegevens worden dagelijks vernieuwd, zodat u zeker weet dat uw bewakingsgegevens up-to-date zijn.

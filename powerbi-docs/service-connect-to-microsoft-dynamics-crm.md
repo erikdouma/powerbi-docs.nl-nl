@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 475f3ddf646ddc9c5f29409854f93128ce94dd51
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 465e54c811691a7149dfff03d48bec797474ca66
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908826"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008805"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>Verbinding maken met Microsoft Dynamics CRM met Power BI
 Met Microsoft Dynamics CRM Online voor Power BI kunt u eenvoudig toegang krijgen tot uw gegevens en deze analyseren. Power BI maakt gebruik van de OData-feed voor het maken van een beschrijvend model, met alle benodigde entiteiten en metrische gegevens zoals Accounts, Activities, Opportunities, Product, Leads, Users en meer. Nadat u de app hebt geïnstalleerd, kunt u het dashboard en de rapporten bekijken in de Power BI-service ([https://powerbi.com](https://powerbi.com)) en in de mobiele Power BI-apps. 
@@ -78,7 +78,7 @@ De volgende tabel bevat de CRM-entiteiten die beschikbaar zijn voor deze service
 | CRM-entiteit | Toegepaste filters |
 | --- | --- |
 | Account |Alle accounts met gerelateerde verkoopkansen die mogelijk zijn gewijzigd in de afgelopen 365 dagen. |
-| Activiteiten |Alle activiteiten die zijn gewijzigd in de afgelopen 90 dagen <br> [modifiedon] > today - 90 days |
+| Activiteit |Alle activiteiten die zijn gewijzigd in de afgelopen 90 dagen <br> [modifiedon] > today - 90 days |
 | Business Unit |Alle business units die niet zijn uitgeschakeld <br> [isdisabled] = false |
 | Lead |Alle leads die zijn gewijzigd in de afgelopen 180 dagen <br> [modifiedon] > today - 180 days |
 | Opportunity |Alle verkoopkansen die zijn gewijzigd in de afgelopen 365 dagen <br> [modifiedon] > today - 365 days |

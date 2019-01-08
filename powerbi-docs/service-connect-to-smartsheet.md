@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e91fda3afe74875ed1b785862f13f53d9aff7108
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 55d61e89b1fb01de472d967a312b25340d482951
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544596"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008460"
 ---
 # <a name="connect-to-smartsheet-with-power-bi"></a>Verbinding maken met Smartsheet via Power BI 
 Smartsheet biedt een gebruiksvriendelijk platform voor samenwerking en het delen van bestanden. Het Smartsheet-inhoudspakket voor Power BI bevat een dashboard, rapporten en een gegevensset die een overzicht geven van uw Smartsheet-account. U kunt ook [Power BI Desktop](desktop-connect-to-data.md) gebruiken om rechtstreeks verbinding te maken met afzonderlijke werkbladen in uw account. 
