@@ -2,20 +2,21 @@
 title: Met R gemaakte aangepaste visuele elementen gebruiken in Power BI
 description: Met R gemaakte aangepaste visuele elementen gebruiken in Power BI
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 07/27/2018
-ms.author: maghan
 LocalizationGroup: Create reports
-ms.openlocfilehash: b9f9b6faa7490ed05626f52623750ea79183d36a
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 84b6acfcf87601712622cbbd2b4e7d396f75f0b8
+ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187370"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54056082"
 ---
 # <a name="use-r-powered-custom-visuals-in-power-bi"></a>Met R gemaakte aangepaste visuele elementen gebruiken in Power BI
 In **Power BI Desktop** en de **Power BI-service** kunt u met R gemaakte aangepaste visuals gebruiken zonder enige kennis van R of R-scripts. Zo kunt u gebruikmaken van de krachtige visuele analyse-elementen van R, en R-scripts, zonder R te hoeven leren of zelf te moeten programmeren.
