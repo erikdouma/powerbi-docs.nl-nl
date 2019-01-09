@@ -98,18 +98,12 @@ items:
       href: desktop-connect-to-data.md
     - name: Publiceren vanuit Power BI Desktop
       href: desktop-upload-desktop-files.md
-    - name: Aangepaste visualisaties in Power BI
-      href: power-bi-custom-visuals.md
-    - name: Aangepaste visuals voor organisaties in Power BI
-      href: power-bi-custom-visuals-organization.md
     - name: 'Deel 1: visualisaties toevoegen aan een Power BI-rapport'
       href: visuals/power-bi-report-add-visualizations-i.md
     - name: 'Deel 2: Visualisaties toevoegen aan een Power BI-rapport'
       href: visuals/power-bi-report-add-visualizations-ii.md
     - name: De titel, achtergrond en legenda van een visualisatie aanpassen
       href: visuals/power-bi-visualization-customize-title-background-and-legend.md
-    - name: Problemen met aangepaste visuals oplossen
-      href: power-bi-custom-visuals-troubleshoot.md
     - name: Verbinding maken met gegevens
       items:
       - name: Gegevensbronnen in Power BI Desktop
@@ -890,8 +884,6 @@ items:
         href: developer/get-azuread-access-token.md
       - name: Q&A insluiten
         href: developer/qanda.md
-      - name: Problemen oplossen met uw ingesloten toepassing
-        href: developer/embedded-troubleshoot.md
       - name: Capaciteiten beheren in Azure
         items:
         - name: Capaciteit maken in Azure
@@ -902,6 +894,10 @@ items:
           href: developer/azure-pbie-scale-capacity.md
         - name: Capaciteit onderbreken en starten in Azure
           href: developer/azure-pbie-pause-start.md
+      - name: Problemen oplossen
+        items:
+        - name: Problemen oplossen met uw ingesloten toepassing
+          href: developer/embedded-troubleshoot.md
       - name: Migreren uit werkruimteverzamelingen
         items:
         - name: Migreren uit Power BI-werkruimteverzamelingen
@@ -944,12 +940,12 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848280
       - name: Stackoverloop
         href: https://go.microsoft.com/fwlink/?linkid=848281
-  - name: Aangepaste visuals ontwikkelen
+  - name: Aangepaste visuals
     items:
     - name: Overzicht
       items:
-      - name: Aangepaste visuals toevoegen in Power BI
-        href: https://microsoft.github.io/PowerBI-visuals/docs/latest/overview/
+      - name: Aangepaste visualisaties in Power BI
+        href: power-bi-custom-visuals.md
     - name: Zelfstudies
       items:
       - name: Een aangepaste visual voor Power BI ontwikkelen
@@ -958,6 +954,8 @@ items:
         href: developer/custom-visual-develop-tutorial-format-options.md
     - name: Concepten
       items:
+      - name: Aangepaste visuals voor organisaties in Power BI
+        href: power-bi-custom-visuals-organization.md
       - name: Richtlijnen voor Power BI-visuals
         href: developer/office-store-in-app-purchase-visual-guidelines.md
       - name: Veelgestelde vragen over aangepaste visuals
@@ -978,8 +976,12 @@ items:
         href: power-bi-custom-visuals-certified.md
       - name: Aangepaste visuele elementen publiceren naar AppSource
         href: developer/office-store.md
-      - name: Problemen met aangepaste visuals oplossen
-        href: power-bi-custom-visuals-troubleshoot.md
+      - name: Met R gemaakte aangepaste visuele elementen gebruiken in Power BI
+        href: desktop-r-powered-custom-visuals.md
+      - name: Problemen oplossen
+        items:
+        - name: Problemen oplossen met het ontwikkelen van aangepaste visuals
+          href: power-bi-custom-visuals-troubleshoot.md
     - name: Verwijzing
       items:
       - name: API's
@@ -1283,9 +1285,9 @@ items:
       href: service-admin-governance.md
     - name: Beveiliging van Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: bb2600fea9af9578ab9b9dd7260e358a8de7e646
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: 2e6a77d0aadd85cce05d8dc4fb5fdb60e4cbe91d
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008874"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072331"
