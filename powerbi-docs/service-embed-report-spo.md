@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 11/01/2018
-ms.openlocfilehash: fc0234536415c758992cec629452a3e629c46ad1
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: 3ad4335cabac159aee38d54fbfff0f689009fd68
+ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973322"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "54136594"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Insluiten met webonderdeel Rapport in SharePoint Online
 
@@ -75,7 +75,7 @@ Als u uw rapport wilt insluiten in SharePoint Online, moet u eerst de URL voor h
 
     ![SP-rapport geladen](media/service-embed-report-spo/powerbi-sharepoint-report-loaded.png)
 
-## <a name="granting-access-to-reports"></a>Toegang verlenen tot rapporten
+## <a name="grant-access-to-reports"></a>Toegang verlenen tot rapporten
 
 Wanneer een rapport wordt ingesloten in SharePoint Online, zijn gebruikers niet automatisch gemachtigd om het rapport weer te geven. De machtigingen om het rapport weer te geven, stelt u in de Power BI-service in.
 
@@ -90,7 +90,7 @@ U kunt ook een rapport rechtstreeks met gebruikers delen door het rapport in een
 
 2. De auteur maakt een rapport in een app-werkruimte. *Om het rapport te delen met **gebruikers van de gratis versie van Power BI**, moet de app-werkruimte worden ingesteld als een **Premium-werkruimte**.*
 
-3. De auteur publiceert de app en installeert deze vervolgens. *De auteur moet de app installeren om toegang te bieden tot de URL van het rapport die wordt gebruikt voor het insluiten in SharePoint Online.*
+3. De auteur publiceert de app en installeert deze vervolgens. *De auteur moet de app installeren om toegang te bieden tot de rapport-URL die wordt gebruikt voor het insluiten in SharePoint Online.*
 
 4. Nu moeten alle eindgebruikers de app ook installeren. U kunt echter instellen dat de app vooraf wordt geïnstalleerd voor eindgebruikers met behulp van de functie **App automatisch installeren**, die kan worden ingeschakeld in de [Power BI-beheerportal](service-admin-portal.md).
 
@@ -152,7 +152,7 @@ Gebruikers die in SharePoint een rapport bekijken, moeten een **Power BI Pro-lic
 
 ## <a name="known-issues-and-limitations"></a>Bekende problemen en beperkingen
 
-* Fout: "Er is een fout opgetreden. Meld u af en meld u opnieuw aan. Ga vervolgens opnieuw naar deze pagina. Correlatie-id: niet gedefinieerd, http-antwoordstatus: 400, serverfout, code 10001, bericht: Ontbrekend vernieuwingstoken"
+* Fout: "Er is een fout opgetreden. Meld u af en opnieuw aan. Ga vervolgens opnieuw naar deze pagina. Correlatie-id: niet gedefinieerd, http-antwoordstatus: 400, serverfout, code 10001, bericht: Ontbrekend vernieuwingstoken"
   
   Als u dit foutbericht ontvangt, probeert u een van de onderstaande stappen voor probleemoplossing.
   
@@ -174,9 +174,10 @@ Gebruikers die in SharePoint een rapport bekijken, moeten een **Power BI Pro-lic
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[Toestaan of verhinderen dat eindgebruikers moderne sitepagina's maken](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)  
-[Een app maken en distribueren in Power BI](service-create-distribute-apps.md)  
-[Een dashboard delen met collega's en anderen](service-share-dashboards.md)  
-[Wat is Power BI Premium?](service-premium.md)  
+* [Toestaan of verhinderen dat eindgebruikers moderne sitepagina's maken](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)  
+* [Een app maken en distribueren in Power BI](service-create-distribute-apps.md)  
+* [Een dashboard delen met collega's en anderen](service-share-dashboards.md)  
+* [Wat is Power BI Premium?](service-premium.md)
+* [Rapport insluiten in een veilige portal of website](service-embed-secure.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
