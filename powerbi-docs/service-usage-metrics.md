@@ -1,6 +1,6 @@
 ---
-title: Metrische gegevens over het gebruik van dashboards en rapporten
-description: Metrische gegevens over het gebruik van Power BI-dashboards en -rapporten bekijken, opslaan en gebruiken. Uw invloed meten en vergroten met metrische gegevens over gebruik voor makers van rapporten.
+title: Metrische gegevens over het gebruik van dashboards en rapporten bewaken
+description: Metrische gegevens over het gebruik van Power BI-dashboards en -rapporten bekijken, opslaan en gebruiken.
 author: maggiesMSFT
 ms.author: maggies
 manager: kfile
@@ -9,21 +9,21 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/19/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f7aad6b0e3dd38c795d886d1aba26a82a8529c01
-ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
+ms.openlocfilehash: 435f7ec433e45202ef2b5ddbd9a9ffb996f84129
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "53649366"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983779"
 ---
-# <a name="usage-metrics-for-dashboards-and-reports"></a>Metrische gegevens over het gebruik van dashboards en rapporten
+# <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Metrische gegevens over het gebruik van Power BI-dashboards en -rapporten bewaken
 
 Als u dashboards en rapporten maakt, kunnen metrische gegevens over het gebruik u helpen hun invloed te begrijpen. Wanneer u metrische gegevens over het gebruik van dashboards of rapporten uitvoert, ontdekt u hoe deze dashboards en rapporten worden gebruikt binnen uw organisatie; wat wordt gebruikt, door wie en met welk doel.  
 
 > [!NOTE]
-> Metrische gegevens over gebruik houden het gebruik bij van rapporten die zijn ingesloten in SharePoint Online. Via gegevens over het gebruik wordt echter geen insluiting bijgehouden van dashboards en rapporten via de stroom Gebruiker is eigenaar van referenties of App is eigenaar van referenties. Metrische gegevens over gebruik houden eveneens niet het gebruik van rapportinsluiting bij via [publiceren op internet](service-publish-to-web.md).
+> Metrische gegevens over gebruik houden het gebruik bij van rapporten die zijn ingesloten in SharePoint Online. Via gegevens over het gebruik wordt echter geen insluiting bijgehouden van dashboards en rapporten via de stroom Gebruiker is eigenaar van referenties of App is eigenaar van referenties. Metrische gegevens over gebruik houden ook niet het gebruik van rapportinsluiting bij via [publiceren op web](service-publish-to-web.md).
 
 Deze rapporten over metrische gegevens over gebruik zijn alleen-lezen. U kunt een rapport met metrische gegevens over gebruik echter aanpassen door Opslaan als te gebruiken. Hiermee maakt u een nieuwe gegevensset en wordt het alleen-lezenrapport geconverteerd naar een volledig Power BI-rapport dat u kunt bewerken. Het persoonlijke rapport bevat niet alleen metrische gegevens over het geselecteerde dashboard of rapport, maar door het standaardfilter te verwijderen, hebt u nu toegang tot metrische gegevens over gebruik voor alle dashboards of alle rapporten in de geselecteerde werkruimte. U kunt zelfs de namen van uw eindgebruikers zien.
 
@@ -33,7 +33,7 @@ Deze rapporten over metrische gegevens over gebruik zijn alleen-lezen. U kunt ee
 
 Wanneer u weet hoe uw inhoud wordt gebruikt, kunt u de invloed ervan demonstreren en prioriteiten vaststellen voor uw inspanningen. De metrische gegevens over gebruik kunnen aantonen dat een van uw rapporten dagelijks wordt gebruikt door een enorm segment van de organisatie en ze kunnen aantonen dat een dashboard dat u hebt gemaakt helemaal niet wordt weergegeven. Dit type feedback is zeer waardevol bij uw inspanningen werk leidt.
 
-Het uitvoeren van rapporten over gebruik van metrische gegevens is alleen beschikbaar in Power BI-service.  Als u een rapport met metrische gegevens over gebruik echter opslaat of vastmaakt aan een dashboard, kunt u het openen met dat rapport werken op mobiele apparaten.
+Het uitvoeren van rapporten over gebruik van metrische gegevens is alleen beschikbaar in Power BI-service.  Als u een rapport met metrische gegevens over gebruik echter opslaat of vastmaakt aan een dashboard, kunt u het rapport openen en bewerken op mobiele apparaten.
 
 ### <a name="prerequisites"></a>Vereisten
 
@@ -105,7 +105,7 @@ Nog beter, de onderliggende gegevensset bevat de gebruiksdetails voor alle dashb
 
 ### <a name="what-is-created-when-using-save-as"></a>Wat wordt gemaakt bij gebruik van 'Opslaan als'?
 
-Wanneer Power BI het volledige rapport maakt, maakt het ook een nieuwe gegevensset **die bestaat uit alle dashboards of alle rapporten die zijn opgenomen in de huidige werkruimte** die in de afgelopen 90 dagen zijn geopend. Stel dat u een werkruimte hebt met de naam 'Verkoop'. Deze bevat drie dashboards en twee rapporten en u maakt een rapport met metrische gegevens over gebruik op het dashboard 'Noordoosten'. U gebruikt vervolgens **Opslaan als** om het aan persoonlijke voorkeuren aan te passen en te converteren naar een volledig rapport. De gegevensset voor dat nieuwe rapport bevat de metrische gegevens over gebruik voor *niet alleen dat ene dashboard met de naam 'Noordoosten'* maar voor alle drie dashboards in de werkruimte 'Verkoop'. Standaard geeft het rapport gegevens weer voor het dashboard 'Noordoosten'. U moet [een filter verwijderen](#remove-the-filter-to-see-all-the-usage-metrics-data-in-the-workspace) (één klik) om gegevens voor alle drie dashboards weer te geven.
+Wanneer Power BI het volledige rapport maakt, maakt het ook een nieuwe gegevensset **die bestaat uit alle dashboards of alle rapporten die zijn opgenomen in de huidige werkruimte** die in de afgelopen 90 dagen zijn geopend. Stel dat u een werkruimte hebt met de naam 'Verkoop'. Deze bevat drie dashboards en twee rapporten en u maakt een rapport met metrische gegevens over gebruik op het dashboard 'Noordoosten'. U gebruikt vervolgens **Opslaan als** om het aan persoonlijke voorkeuren aan te passen en te converteren naar een volledig rapport. De gegevensset voor dat nieuwe rapport bevat de metrische gegevens over gebruik voor *niet alleen dat ene dashboard met de naam 'Noordoosten'* maar voor alle drie dashboards in de werkruimte 'Verkoop'. Standaard geeft het rapport gegevens weer voor het dashboard 'Noordoosten'. U moet [een filter verwijderen](#remove-the-filter-to-see-all-the-usage-metrics-data-in-the-workspace) (één klik) om gegevens voor alle drie de dashboards weer te geven.
 
 ### <a name="create-a-copy-of-the-usage-report-using-save-as"></a>Een kopie maken van het gebruiksrapport met behulp van Opslaan als
 
@@ -169,22 +169,31 @@ Het is belangrijk om te begrijpen dat er verschillen kunnen optreden wanneer u m
 * Bepaalde typen weergaven zijn niet opgenomen in metrische gegevens over gebruik, zoals eerder in dit artikel is beschreven.
 * Metrische gegevens over gebruik tellen soms meer activiteiten. Dat komt voor in gevallen waarin de client vernieuwt zonder dat het nodig is om een aanvraag terug te sturen naar de Power BI-service.
 
+## <a name="frequently-asked-questions"></a>Veelgestelde vragen
 
 Naast de mogelijke verschillen tussen metrische gegevens over gebruik en auditlogboeken, kunnen de volgende vragen en antwoorden over metrische gegevens over gebruik handig zijn voor gebruikers en beheerders:
 
-V:    Ik kan geen metrische gegevens over gebruik op een dashboard of rapport uitvoeren.    A: U ziet alleen de metrische gegevens over gebruik voor inhoud waarvan u eigenaar bent of waarvoor u machtigingen hebt om ze te bewerken.
+**V:**    Ik kan geen metrische gegevens over gebruik op een dashboard of rapport uitvoeren
 
-V:    Leggen metrische gegevens over gebruik weergaven van de ingesloten dashboards en rapporten vast?
-A:    Metrische gegevens over gebruik bieden geen ondersteuning voor het vastleggen van gebruik voor ingesloten dashboards en rapporten, en de stroom [publiceren op web](service-publish-to-web.md).          In die gevallen raden we u aan om bestaande platformen voor webanalyse te gebruiken om het gebruik voor de hosting-app of -portal bij te houden.
+**A:**    A: U ziet alleen de metrische gegevens over gebruik voor inhoud waarvan u eigenaar bent of waarvoor u machtigingen hebt om ze te bewerken.
 
-V:    Ik kan geen metrische gegevens over gebruik uitvoeren op welke inhoud dan ook.
-A1:    Beheerders kunnen deze functie uitschakelen voor hun organisatie.  Neem contact op met uw beheerder om te zien of dit het geval is.
-A2:    Metrische gegevens over gebruik is een functie van Power BI Pro.
+**V:**    Leggen metrische gegevens over gebruik weergaven van de ingesloten dashboards en rapporten vast?
 
-V:    De gegevens lijken niet up-to-date te zijn. Distributiemethoden worden bijvoorbeeld niet weergegeven, rapportpagina's ontbreken, enzovoort. A:    Het kan 24 uur duren voordat gegevens zijn bijgewerkt.
+**A:**    Metrische gegevens over gebruik bieden geen ondersteuning voor het vastleggen van gebruik voor ingesloten dashboards en rapporten, en de stroom [publiceren op web](service-publish-to-web.md).          In die gevallen raden we u aan om bestaande platformen voor webanalyse te gebruiken om het gebruik voor de hosting-app of -portal bij te houden.
 
-V:    Er zijn vier rapporten in de werkruimte, maar het rapport met metrische gegevens over gebruik geeft er maar drie weer.
-A:    Het rapport met metrische gegevens over gebruik bevat alleen rapporten (of dashboards) die in de afgelopen negentig dagen zijn geopend.  Als een rapport (of dashboard) niet wordt weergegeven, is het waarschijnlijk meer dan 90 dagen niet gebruikt.
+**V:**    Ik kan geen metrische gegevens over gebruik uitvoeren op welke inhoud dan ook.
+
+**A1:**    Beheerders kunnen deze functie uitschakelen voor hun organisatie.  Neem contact op met uw beheerder om te zien of dit het geval is.
+
+**A2:**    Metrische gegevens over gebruik is een functie van Power BI Pro.
+
+**V:**    De gegevens lijken niet up-to-date te zijn. Distributiemethoden worden bijvoorbeeld niet weergegeven, rapportpagina's ontbreken, enzovoort.
+
+**A:**    Het kan 24 uur duren voordat gegevens zijn bijgewerkt.
+
+**V:**    Er zijn vier rapporten in de werkruimte, maar in het rapport met metrische gegevens over gebruik worden er maar drie weergegeven.
+
+**A:**    Het rapport met metrische gegevens over gebruik bevat alleen rapporten (of dashboards) die in de afgelopen negentig dagen zijn geopend.  Als een rapport (of dashboard) niet wordt weergegeven, is het waarschijnlijk meer dan 90 dagen niet gebruikt.
 
 ## <a name="next-steps"></a>Volgende stappen
 

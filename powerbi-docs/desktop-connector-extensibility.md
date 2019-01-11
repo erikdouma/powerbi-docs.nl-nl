@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2018
 ms.author: gepopell
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bba674df9864697199a274698a1b17320b8ccd80
-ms.sourcegitcommit: 9d6f37fd32b965592bd7b108dea87b8e53b11334
+ms.openlocfilehash: eaf76f2ba762a603bf37385ea00cd714499db4b5
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/18/2018
-ms.locfileid: "40257191"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983411"
 ---
 # <a name="connector-extensibility-in-power-bi"></a>Uitbreidbaarheid van connectors in Power BI
 
@@ -42,7 +42,7 @@ Bij **Gegevensextensies** kunt u uit twee beveiligingsniveaus kiezen:
 * (Aanbevolen) Toestaan dat alleen gecertificeerde extensies worden geladen
 * (Niet aanbevolen) Toestaan dat een extensie wordt geladen zonder waarschuwing
 
-Als u van plan bent om **aangepaste connectors**, zelf ontwikkelde connectors of connectors van een derden te gebruiken, moet u **(Niet aanbevolen) Toestaan dat een extensie wordt geladen zonder waarschuwing** selecteren. Het wordt afgeraden om die beveiligingsinstelling te gebruiken, tenzij u van plan bent om **aangepaste connectors** te gaan gebruiken.
+Als u van plan bent om **aangepaste connectors**, zelf ontwikkelde connectors of connectors van een derden te gebruiken, moet u **(Niet aanbevolen) Toestaan dat een extensie wordt geladen zonder waarschuwing** selecteren. Deze beveiligingsinstelling wordt afgeraden, tenzij u uw aangepaste connectors absoluut vertrouwt, aangezien code in die connectors referenties kan verwerken (inclusief het verzenden van deze referenties via HTTP) en privacyniveaus kan negeren.
 
 Met de **aanbevolen** beveiligingsinstelling wordt een foutmelding weergegeven waarin wordt beschreven welke connectors niet kunnen worden geladen vanwege de beveiliging (als er aangepaste connectors aanwezig zijn in uw systeem).
 

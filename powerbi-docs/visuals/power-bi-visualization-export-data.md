@@ -8,18 +8,18 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 12/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f6cb53eadb3c5ddf14b8f8b3b3882e0d7b509a3f
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 8d79d92577da25a316eba8e789a1b7b004a9967a
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830097"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983756"
 ---
 # <a name="export-data-from-visualizations"></a>Gegevens uit visualisaties exporteren
-Als u de gegevens wilt zien die gebruikt worden om een visualisatie te maken, kunt u die gegevens weergeven in Power BI of exporteren naar Excel als .xlsx- of .csv-bestand. Als u de optie voor het exporteren van de gegevens wilt gebruiken, hebt u een Pro- of Premium-licentie en machtigingen voor het bewerken van de gegevensset en het rapport nodig. 
+Als u de gegevens wilt zien die worden gebruikt om een visualisatie te maken, [kunt u die gegevens weergeven in Power BI](service-reports-show-data.md) of exporteren naar Excel als .xlsx- of .csv-bestand. Als u de optie voor het exporteren van de gegevens wilt gebruiken, hebt u een Pro- of Premium-licentie en machtigingen voor het bewerken van de gegevensset en het rapport nodig. 
 
 Kijk hoe Will de gegevens van een van de visualisaties in zijn rapport exporteert, opslaat als .xlsx-bestand en opent in Excel. Volg vervolgens de stapsgewijze instructies onder de video om het zelf te proberen.
 
@@ -38,7 +38,7 @@ Kijk hoe Will de gegevens van een van de visualisaties in zijn rapport exporteer
     ![](media/power-bi-visualization-export-data/pbi-export-to-excel.png)
 
 ## <a name="from-a-visualization-in-a-report"></a>Vanuit een visualisatie in een rapport
-Als u mee wit doen, opent u het rapport [Procurement analysis sample](../sample-procurement.md) (Voorbeeld van een inkoopanalyse) in de [Bewerkingsweergave](../consumer/end-user-reading-view.md). Voeg een nieuwe, lege rapportpagina toe. Volg vervolgens onderstaande stappen om een aggregatie en een filter op visualisatieniveau toe te voegen.
+Als u wilt meedoen, opent u het rapport [Procurement analysis sample](../sample-procurement.md) (Voorbeeld van een inkoopanalyse) in de bewerkingsweergave. Voeg een nieuwe, lege rapportpagina toe. Volg vervolgens onderstaande stappen om een aggregatie en een filter op visualisatieniveau toe te voegen.
 
 1. Maak een nieuw kolomdiagram.  Selecteer in het deelvenster Velden **Locatie > Plaats** en **Factuur > Kortingspercentage**.  Mogelijk moet u **Kortingspercentage** verplaatsen naar de Waarde-put. 
 
@@ -55,7 +55,7 @@ Als u mee wit doen, opent u het rapport [Procurement analysis sample](../sample-
 4. Selecteer het beletselteken in de rechterbovenhoek van de visualisatie. Kies **Gegevens exporteren**.
 
    ![](media/power-bi-visualization-export-data/power-bi-export-data2.png)
-5. Als uw visualisatie in Power BI Online een statistische functie heeft (een voorbeeld zou zijn als u **Aantal** wijzigt in *Gemiddelde*, *Som* of *Minimum*), hebt u twee opties: **Samengevatte gegevens** en **Onderliggende gegevens**. In Power BI Desktop hebt u alleen de optie voor **Samengevatte gegevens**. Zie voor hulp bij statistische functies [Statistische functies in Power BI](../service-aggregates.md).
+5. Als uw visualisatie in Power BI Online een statistische functie heeft (een voorbeeld zou zijn als u **Aantal** wijzigt in *Gemiddelde*, *Som* of *Minimum*), hebt u twee opties: **Gegevensoverzicht** en **Onderliggende gegevens**. In Power BI Desktop hebt u alleen de optie voor **Samengevatte gegevens**. Zie voor hulp bij statistische functies [Statistische functies in Power BI](../service-aggregates.md).
     ![](media/power-bi-visualization-export-data/power-bi-export-data5.png)
 6. Selecteer **Samengevatte gegevens** > **Exporteren** en kies .xlsx- of .csv. Power BI exporteert de gegevens.  Als u filters op de visualisatie hebt toegepast, worden de geëxporteerde gegevens geëxporteerd als gefilterd. Wanneer u **Exporteren** selecteert, wordt u gevraagd het bestand op te slaan. Nadat het is opgeslagen, opent u het bestand in Excel.
 
@@ -129,9 +129,6 @@ Let op: als de instellingen van de Power BI-beheerportal conflicteren met de rap
   2. Selecteer op het tabblad **Gegevens** **Externe gegevens ophalen** > **Uit tekst**.
 * Power BI-beheerders hebben de mogelijkheid het exporteren van gegevens uit te schakelen.
 
-## <a name="next-steps"></a>Volgende stappen
-[Dashboards in Power BI](../consumer/end-user-dashboards.md)  
-[Power BI - basisconcepten](../consumer/end-user-basic-concepts.md)
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

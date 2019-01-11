@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b183738c062af1d834a742639369ca90f2cb1bad
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: 605cd2f135ff6d8626586abbd503bcb44687931d
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003220"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008598"
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Verbinding maken met Zuora via Power BI
 Met Zuora voor Power BI kunt u belangrijke omzet-, facturerings- en abonnementsgegevens visualiseren. Gebruik het standaarddashboard en de rapporten om gebruikstrends, facturen en betalingen te analyseren en terugkerende inkomsten te controleren, of pas ze aan om te voldoen aan uw eigen unieke dashboard- en rapportagebehoeften.
@@ -67,24 +67,24 @@ Het omvat ook deze berekende maateenheden:
 
 | Maateenheid | Beschrijving | Pseudo-berekening |
 | --- | --- | --- |
-| Account: betalingen |Totale betalingsbedragen in een periode gebaseerd op de ingangsdatum van de betaling. |SUM (Payment.Amount) <br>WHERE<br>Payment.EffectiveDate = < TimePeriod.EndDate<br>AND    Payment.EffectiveDate >= TimePeriod.StartDate |
-| Account: restituties |Totale aantal restitutiebedragen in een periode op basis van restitutiedatum. Bedrag wordt gerapporteerd als een negatief getal. |-1*SUM(Refund.Amount)<br>WHERE<br>Refund.RefundDate = < TimePeriod.EndDate<br>AND    Refund.RefundDate >= TimePeriod.StartDate |
-| Account: netto betalingen |Betalingen plus restituties van een account in een bepaalde periode. |Account.Payments + Account.Refunds |
-| Account: actieve accounts |Het aantal accounts die in een bepaalde periode actief waren. Abonnementen moeten zijn gestart voor (of op) begindatum van periode. |COUNT (Account.AccountNumber)<br>WHERE<br>    Subscription.Status != "Verlopen"<br>AND    Subscription.Status != "Concept"<br>AND    Subscription.SubscriptionStartDate <= TimePeriod.StartDate<br>AND    (Subscription.SubscriptionEndDate > TimePeriod.StartDate<br>OR<br>Subscription.SubscriptionEndDate = null) –evergreen abonnement |
-| Account: gemiddelde terugkerende omzet |Brutomarge MRR per actieve account in een bepaalde periode. |Bruto MRR / Account.ActiveAccounts |
-| Account: geannuleerde abonnementen |Het aantal accounts waarvoor een abonnement in een bepaalde periode is geannuleerd. |COUNT (Account.AccountNumber)<br>WHERE<br>Subscription.Status = "Geannuleerd"<br>AND    Subscription.SubscriptionStartDate <= TimePeriod.StartDate<br>AND    Subscription.CancelledDate >= TimePeriod.StartDate |
-| Account: betalingsfouten |Totale waarde van betalingsfouten. |SUM (Payment.Amount)<br>WHERE<br>Payment.Status = "Fout" |
-| Opbrengsten schema-item: opgenomen opbrengsten |Totaal opgenomen opbrengsten in een verslagperiode. |SUM (RevenueScheduleItem.Amount)<br>WHERE<br>AccountingPeriod.StartDate TimePeriod.StartDate = |
-| Abonnement: nieuwe abonnementen |Het aantal nieuwe abonnementen in een bepaalde periode. |COUNT (Subscription.ID)<br>WHERE<br>Subscription.Version = "1"<br>AND    Subscription.CreatedDate <= TimePeriod.EndDate<br>AND    Subscription.CreatedDate >= TimePeriod.StartDate |
-| Factuur: factuuritems |Totaalkosten factuuritems in een bepaalde periode. |SUM (InvoiceItem.ChargeAmount)<br>WHERE<br>    Invoice.Status = 'Geboekt'<br>EN Invoice.InvoiceDate < = TimePeriod.EndDate<br>AND    Invoice.InvoiceDate >= TimePeriod.StartDate |
-| Factuur: belastingitems |Totaalbedrag belastingitems in een bepaalde periode. |SUM (TaxationItem.TaxAmount)<br>WHERE<br>Invoice.Status = 'Geboekt'<br>EN Invoice.InvoiceDate < = TimePeriod.EndDate<br>AND    Invoice.InvoiceDate >= TimePeriod.StartDate |
-| Factuur: aanpassingen factuuritems |Totaalbedrag factuuritems in een bepaalde periode. |SUM (InvoiceItemAdjustment.Amount) <br>WHERE<br>    Invoice.Status = 'Geboekt'<br>AND    InvoiceItemAdjustment.AdjustmentDate <= TimePeriod.EndDate<br>AND    InvoiceItemAdjustment.AdjustmentDate >= TimePeriod.StartDate |
-| Factuur: factuurcorrecties |Totaalbedrag factuurcorrecties in een bepaalde periode. |SUM (InvoiceAdjustment.Amount) <br>WHERE<br>    Invoice.Status = 'Geboekt'<br>AND    InvoiceAdjustment.AdjustmentDate <= TimePeriod.EndDate<br>AND    InvoiceAdjustment.AdjustmentDate >= TimePeriod.StartDate |
-| Factuur: netto rekeningen |Som van factuuritems, belastingitems, correcties op factuuritems en correcties op facturen in een bepaalde periode. |Invoice.InvoiceItems + Invoice.TaxationItems + Invoice.InvoiceItemAdjustments + Invoice.InvoiceAdjustments |
-| Factuur: factuur openstaand saldo |Som van geboekte factuursaldi. |SUM (Invoice.Balance) <br>WHERE<br>    Invoice.Status = 'Geboekt' |
-| Factuur: bruto factureringen |Som van factuurkosten per item voor geboekte facturen in een bepaalde periode. |SUM (InvoiceItem.ChargeAmount) <br>WHERE<br>    Invoice.Status = 'Geboekt'<br>EN Invoice.InvoiceDate < = TimePeriod.EndDate<br>AND    Invoice.InvoiceDate >= TimePeriod.StartDate |
-| Factuur: totaal van correcties |Som van verwerkte factuurcorrecties en correcties op factuuritems met betrekking tot geboekte facturen. |SUM (InvoiceAdjustment.Amount) <br>WHERE<br>    Invoice.Status = 'Geboekt'<br>AND    InvoiceAdjustment.Status = "Verwerkt"<br>+<br>SUM (InvoiceItemAdjustment.Amount) <br>WHERE<br>    Invoice.Status = 'Geboekt'<br>AND    invoiceItemAdjustment.Status = "Verwerkt" |
-| Kosten tariefplan: bruto MRR |De som van de maandelijkse terugkerende inkomsten van abonnementen in een bepaalde periode. |SUM (RatePlanCharge.MRR) <br>WHERE<br>    Subscription.Status != "Verlopen"<br>AND    Subscription.Status != "Concept"<br>AND    RatePlanCharge.EffectiveStartDate <= TimePeriod.StartDate<br>AND        RatePlanCharge.EffectiveEndDate > TimePeriod.StartDate<br>    OR    RatePlanCharge.EffectiveEndDate = null --evergreen abonnement |
+| Account: Betalingen |Totale betalingsbedragen in een periode gebaseerd op de ingangsdatum van de betaling. |SUM (Payment.Amount) <br>WHERE<br>Payment.EffectiveDate = < TimePeriod.EndDate<br>AND    Payment.EffectiveDate >= TimePeriod.StartDate |
+| Account: Restituties |Totale aantal restitutiebedragen in een periode op basis van restitutiedatum. Bedrag wordt gerapporteerd als een negatief getal. |-1*SUM(Refund.Amount)<br>WHERE<br>Refund.RefundDate = < TimePeriod.EndDate<br>AND    Refund.RefundDate >= TimePeriod.StartDate |
+| Account: Nettobetalingen |Betalingen plus restituties van een account in een bepaalde periode. |Account.Payments + Account.Refunds |
+| Account: Actieve accounts |Het aantal accounts die in een bepaalde periode actief waren. Abonnementen moeten zijn gestart voor (of op) begindatum van periode. |COUNT (Account.AccountNumber)<br>WHERE<br>    Subscription.Status != "Verlopen"<br>AND    Subscription.Status != "Concept"<br>AND    Subscription.SubscriptionStartDate <= TimePeriod.StartDate<br>AND    (Subscription.SubscriptionEndDate > TimePeriod.StartDate<br>OR<br>Subscription.SubscriptionEndDate = null) –evergreen abonnement |
+| Account: Gemiddelde terugkerende omzet |Brutomarge MRR per actieve account in een bepaalde periode. |Bruto MRR / Account.ActiveAccounts |
+| Account: Geannuleerde abonnementen |Het aantal accounts waarvoor een abonnement in een bepaalde periode is geannuleerd. |COUNT (Account.AccountNumber)<br>WHERE<br>Subscription.Status = "Geannuleerd"<br>AND    Subscription.SubscriptionStartDate <= TimePeriod.StartDate<br>AND    Subscription.CancelledDate >= TimePeriod.StartDate |
+| Account: Betalingsfouten |Totale waarde van betalingsfouten. |SUM (Payment.Amount)<br>WHERE<br>Payment.Status = "Fout" |
+| Schema-item opbrengsten: Opgenomen opbrengsten |Totaal opgenomen opbrengsten in een verslagperiode. |SUM (RevenueScheduleItem.Amount)<br>WHERE<br>AccountingPeriod.StartDate TimePeriod.StartDate = |
+| Abonnement: Nieuwe abonnementen |Het aantal nieuwe abonnementen in een bepaalde periode. |COUNT (Subscription.ID)<br>WHERE<br>Subscription.Version = "1"<br>AND    Subscription.CreatedDate <= TimePeriod.EndDate<br>AND    Subscription.CreatedDate >= TimePeriod.StartDate |
+| Factuur: Factuuritems |Totaalkosten factuuritems in een bepaalde periode. |SUM (InvoiceItem.ChargeAmount)<br>WHERE<br>    Invoice.Status = 'Geboekt'<br>EN Invoice.InvoiceDate < = TimePeriod.EndDate<br>AND    Invoice.InvoiceDate >= TimePeriod.StartDate |
+| Factuur: Belastingitems |Totaalbedrag belastingitems in een bepaalde periode. |SUM (TaxationItem.TaxAmount)<br>WHERE<br>Invoice.Status = 'Geboekt'<br>EN Invoice.InvoiceDate < = TimePeriod.EndDate<br>AND    Invoice.InvoiceDate >= TimePeriod.StartDate |
+| Factuur: Aanpassingen factuuritems |Totaalbedrag factuuritems in een bepaalde periode. |SUM (InvoiceItemAdjustment.Amount) <br>WHERE<br>    Invoice.Status = 'Geboekt'<br>AND    InvoiceItemAdjustment.AdjustmentDate <= TimePeriod.EndDate<br>AND    InvoiceItemAdjustment.AdjustmentDate >= TimePeriod.StartDate |
+| Factuur: Aanpassingen factuur |Totaalbedrag factuurcorrecties in een bepaalde periode. |SUM (InvoiceAdjustment.Amount) <br>WHERE<br>    Invoice.Status = 'Geboekt'<br>AND    InvoiceAdjustment.AdjustmentDate <= TimePeriod.EndDate<br>AND    InvoiceAdjustment.AdjustmentDate >= TimePeriod.StartDate |
+| Factuur: Nettofacturering |Som van factuuritems, belastingitems, correcties op factuuritems en correcties op facturen in een bepaalde periode. |Invoice.InvoiceItems + Invoice.TaxationItems + Invoice.InvoiceItemAdjustments + Invoice.InvoiceAdjustments |
+| Factuur: Factuur openstaand saldo |Som van geboekte factuursaldi. |SUM (Invoice.Balance) <br>WHERE<br>    Invoice.Status = 'Geboekt' |
+| Factuur: Brutofactureringen |Som van factuurkosten per item voor geboekte facturen in een bepaalde periode. |SUM (InvoiceItem.ChargeAmount) <br>WHERE<br>    Invoice.Status = 'Geboekt'<br>EN Invoice.InvoiceDate < = TimePeriod.EndDate<br>AND    Invoice.InvoiceDate >= TimePeriod.StartDate |
+| Factuur: Totaal aan correcties |Som van verwerkte factuurcorrecties en correcties op factuuritems met betrekking tot geboekte facturen. |SUM (InvoiceAdjustment.Amount) <br>WHERE<br>    Invoice.Status = 'Geboekt'<br>AND    InvoiceAdjustment.Status = "Verwerkt"<br>+<br>SUM (InvoiceItemAdjustment.Amount) <br>WHERE<br>    Invoice.Status = 'Geboekt'<br>AND    invoiceItemAdjustment.Status = "Verwerkt" |
+| Kosten tariefplan: Bruto MRR |De som van de maandelijkse terugkerende inkomsten van abonnementen in een bepaalde periode. |SUM (RatePlanCharge.MRR) <br>WHERE<br>    Subscription.Status != "Verlopen"<br>AND    Subscription.Status != "Concept"<br>AND    RatePlanCharge.EffectiveStartDate <= TimePeriod.StartDate<br>AND        RatePlanCharge.EffectiveEndDate > TimePeriod.StartDate<br>    OR    RatePlanCharge.EffectiveEndDate = null --evergreen abonnement |
 
 ## <a name="system-requirements"></a>Systeemvereisten
 Toegang tot de Zuora-API is vereist.

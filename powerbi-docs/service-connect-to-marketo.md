@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 909e15fa843df3f87e1cdfa25b45f60996b3dca0
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 4ad7ce28c512f69e144af98098ab9f13a15b6023
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545678"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008621"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Verbinding maken met Marketo met Power BI
 Het Power BI-inhoudspakket voor Marketo biedt u inzicht in uw Marketo-account; u krijgt toegang tot gegevens over potentiële klanten en hun activiteiten. Als u deze verbinding tot stand brengt, worden uw gegevens opgehaald en krijgt u automatisch toegang tot een dashboard en rapporten op basis van de gegevens.
@@ -59,7 +59,7 @@ De volgende gegevens zijn in Power BI beschikbaar vanaf Marketo, als er tussen v
 | Tabelnaam | Beschrijving |
 | --- | --- |
 | EmailActivities |Gegevens over e-mails die zijn verzonden naar potentiële klanten/contactpersonen, met informatie over apparaten, categorieën, het aantal en het percentage e-mails dat niet kan worden afgeleverd, het aantal en het percentage geopende e-mails en de programmanaam. E-mailactiviteiten in Power BI is een rapport over de aflevering van e-mails. Er worden geen aanvullende logica toegepast op de gegevens. Mogelijk zijn er hierdoor verschillen in de resultaten die u ziet in de Marketo-client en in Power BI. |
-| ProgramActivites |Gegevens over programma's waarvan de status is gewijzigd. Dit omvat gegevens over redenen, voltooiing, het aantal en het percentage programma's gekocht en het aantal en het percentage voltooide programma's. |
+| ProgramActivites |Gegevens over programma's waarvan de status is gewijzigd. Dit omvat gegevens over: redenen, voltooiing, het aantal en het percentage programma's gekocht en het aantal en het percentage voltooide programma's. |
 | WebPageActivities |Gegevens over de webpaginabezoeken van gebruikers, waaronder over de zoekmachine, de gebruikersagent, de webpagina en het tijdstip. |
 | Datetable |Datums, variërend van vandaag tot datums van een jaar terug.  Hiermee kunt u de Marketo-gegevens per dag analyseren. |
 | Potentiële klanten |Informatie over potentiële klanten, zoals over het bedrijf, de hoeveelheid omzet, het aantal werknemers, het land, de branche, de score en de status. Potentiële klanten worden opgehaald op basis van hun aanwezigheid in de gegevens over e-mails, programma's en webpagina-activiteiten. |

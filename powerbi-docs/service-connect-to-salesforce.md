@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5cd858ad14c1a5fcf76ddf23dafdac2bb5585b10
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 02b98d807ccc84aa83826ae5e9eecdbdd1987a91
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548253"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008575"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Verbinding met Salesforce maken via Power BI
 Met Power BI kunt u eenvoudig verbinding maken met uw Salesforce.com-account. Door deze verbinding te maken worden uw gegevens opgehaald en wordt er automatische een dashboard met de bijbehorende rapporten op basis van uw gegevens gemaakt.
@@ -80,7 +80,7 @@ Als er fouten optreden, raadpleegt u de bovenstaande vereisten. Houd er ook reke
 
 ### <a name="unable-to-connect-to-the-remote-server-message"></a>Het bericht Kan geen verbinding maken met de externe server
 
-Als het bericht Er kan geen verbinding worden gemaakt met de externe server wordt weergegeven wanneer u probeert verbinding te maken met uw Salesforce-account, raadpleegt u deze oplossing op het Outsystems-forum: [Bericht over fout in Salesforce Connector-logboek: Er kan geen verbinding worden gemaakt met de externe server](https://www.outsystems.com/forums/Forum_TopicView.aspx?TopicId=17674&TopicName=log-in-error-message-unable-to-connect-to-the-remote-server&)
+Als het bericht Er kan geen verbinding worden gemaakt met de externe server wordt weergegeven wanneer u verbinding maakt met uw Salesforce-account, raadpleegt u deze oplossing op het Outsystems-forum: [Salesforce-connectorlogboek in foutbericht: Kan geen verbinding maken met de externe server](https://www.outsystems.com/forums/Forum_TopicView.aspx?TopicId=17674&TopicName=log-in-error-message-unable-to-connect-to-the-remote-server&)
 
 
 ## <a name="next-steps"></a>Volgende stappen

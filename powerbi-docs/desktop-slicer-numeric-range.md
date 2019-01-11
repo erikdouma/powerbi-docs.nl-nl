@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 01/02/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f997ee7574c5dd9dc6b4d28767d599a97bf297ed
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: a2402872744b3029e37bf49eaaeae27a3ad95734
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669837"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983618"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>De slicer voor numeriek bereik in Power BI Desktop gebruiken
 Met de **slicer voor numeriek bereik**, kunt u allerlei filters toepassen op een van de numerieke kolommen in het gegevensmodel. U kunt er voor kiezen om te filteren **tussen** getallen, **minder dan of gelijk aan** een getal of **groter dan of gelijk aan** een getal. Hoewel dit eenvoudig klinkt, is het een zeer krachtige manier om uw gegevens te filteren.
@@ -54,6 +54,14 @@ Ten slotte, als we **Groter dan of gelijk aan** selecteren, verdwijnt het bestur
 ## <a name="snap-to-whole-numbers-with-the-numeric-range-slicer"></a>Uitlijnen op hele getallen met de slicer met numeriek bereik
 
 Een slicer met numeriek bereik lijnt uit op gehele getallen als het gegevenstype van het onderliggende veld **Geheel getal** is. Hierdoor kan uw slicer foutloos uitlijnen op gehele getallen. Met velden van het type **Decimaal getal** kunt u fracties van een getal invoer. De opmaak die is toegepast op het tekstvak komt overeen met de opmaak van het veld, hoewel u ook preciezere getallen kunt invoeren of selecteren.
+
+## <a name="display-formatting-with-the-date-range-slicer"></a>Opmaak weergeven met de slicer voor het datumbereik
+
+Wanneer u een slicer gebruikt om een datumbereik weer te geven of in te stellen, wordt de datumnotatie altijd weergegeven met behulp van de notatie **Korte datum**, op basis van de lokale instellingen van de browser of het besturingssysteem van de gebruiker. Dit is de weergavenotatie, ongeacht de instellingen voor het gegevenstype voor de onderliggende gegevens of het onderliggende model. 
+
+U kunt bijvoorbeeld een lange datumnotatie gebruiken voor het onderliggende gegevenstype (zoals *dddd, d MMMM, jjjj*. Hiermee wordt de datum in andere visuals of in andere situaties weergegeven als *Woensdag, 14 maart 2001*), maar in de datumbereikslicer zou die datum worden weergegeven als *14/03/2001*.
+
+Door de **Korte datumnotatie** in de slicer weer te geven, blijft de lengte van de tekenreeks consistent en compact in de slicer. 
 
 
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen

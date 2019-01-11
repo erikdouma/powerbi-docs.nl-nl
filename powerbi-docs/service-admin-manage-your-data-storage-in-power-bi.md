@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: 239cc7e0574c9c6a4d76cdff83e14cf6af742689
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: e1f1a8fdc5094fd13fc2894d9728951d9f6bde96
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180456"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983549"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Gegevensopslag in Power BI-werkruimten beheren
 
@@ -25,23 +25,25 @@ Meer informatie over hoe u uw persoonlijke of opslag van de app-werkruimte kunt 
 Gebruikers en app-werkruimten hebben hun eigen gegevenscapaciteit:
 
 * Alle gebruikers hebben maximaal 10 GB gegevensopslag.
-* Gebruikers van een Power BI Pro-licentie kunnen app-werkruimten maken, die elk maximaal 10 GB gegevensopslag hebben.
+* Gebruikers met een Power BI Pro-licentie kunnen app-werkruimten maken, die elk maximaal 10 GB gegevensopslag hebben.
+* Een app-werkruimte in een Premium-capaciteit telt niet mee bij de opslagruimte van een Power BI Pro-gebruiker.
 
 Op tenantniveau kan het totale gebruik niet 10 GB per Pro-gebruiker overschrijden over alle Pro-gebruikers van app-werkruimten in de tenant.
 
 Meer informatie over andere functies van het [Power BI-prijsmodel](https://powerbi.microsoft.com/pricing).
 
-Tot uw gegevensopslag behoren uw eigen gegevenssets en Excel-rapporten, en gegevenssets en rapporten die iemand met u heeft gedeeld. Gegevenssets zijn alle gegevensbronnen die u hebt geüpload of waarmee u verbinding hebt gemaakt, inclusief Power BI Desktop-bestanden en Excel-werkmappen die u gebruikt. Het volgende is ook opgenomen in uw gegevenscapaciteit.
+Tot uw gegevensopslag behoren uw eigen gegevenssets en Excel-rapporten en items die iemand met u heeft gedeeld. Gegevenssets zijn alle gegevensbronnen die u hebt geüpload of waarmee u verbonden bent. Deze gegevensbronnen bevatten de Power BI Desktop-bestanden en Excel-werkmappen die u gebruikt. Het volgende is ook opgenomen in uw gegevenscapaciteit.
 
 * Excel-adresbereiken die zijn vastgemaakt aan dashboard.
 * On-premises visualisaties van Reporting Services die zijn vastgemaakt aan een Power BI-dashboard.
 * Geüploade afbeeldingen.
 
-De grootte van een dashboard dat u deelt, is afhankelijk van waaraan het is vastgemaakt. Als u bijvoorbeeld items uit twee rapporten vastmaakt die deel uitmaken van twee verschillende gegevenssets, omvat de grootte beide gegevenssets.
+De grootte van een dashboard dat u deelt, is afhankelijk van hetgeen eraan is vastgemaakt. Als u bijvoorbeeld items uit twee rapporten vastmaakt die deel uitmaken van twee verschillende gegevenssets, omvat de grootte beide gegevenssets.
 
 <a name="manage"/>
 
-## <a name="manage-items-owned-by-you"></a>Items beheren waarvan u eigenaar bent
+## <a name="manage-items-you-own"></a>Items beheren waarvan u de eigenaar bent
+
 Zie hoeveel gegevensopslag u gebruikt in uw Power BI-account en beheer uw account.
 
 1. Om uw eigen opslag te beheren, gaat u naar **Mijn werkruimte** in het navigatiedeelvenster links.
@@ -57,7 +59,7 @@ Zie hoeveel gegevensopslag u gebruikt in uw Power BI-account en beheer uw accoun
    
     **Items waarvan ik eigenaar ben:** Dit zijn de rapporten en gegevenssets die u hebt geüpload naar uw Power BI-account, waaronder servicegegevenssets zoals Salesforce en Dynamics CRM.  
     **Items waarvan anderen eigenaar zijn:** Anderen hebben deze rapporten en gegevenssets met u gedeeld.
-3. Als u een gegevensset of rapport wilt verwijderen, selecteert u het prullenbakpictogram ![prullenbakpictogram](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
+1. Als u een gegevensset of rapport wilt verwijderen, selecteert u het prullenbakpictogram ![prullenbakpictogram](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
 
 Bedenk dat u of iemand anders mogelijk rapporten en dashboards heeft die zijn gebaseerd op een gegevensset. Als u de gegevensset verwijdert, werken die rapporten en dashboards niet meer.
 
@@ -73,7 +75,7 @@ Bedenk dat u of iemand anders mogelijk rapporten en dashboards heeft die zijn ge
    
     De gegevenssets en rapporten worden gescheiden op twee tabbladen:
    
-    **Items waarvan wij eigenaar zijn:** Dit zijn rapporten en gegevenssets die u of iemand anders heeft geüpload naar het Power BI-account van de groep, waaronder servicegegevenssets zoals Salesforce en Dynamics CRM.
+    **Items waarvan wij eigenaar zijn:** Dit zijn rapporten en gegevenssets die door u of iemand anders zijn geüpload naar het Power BI-account van de groep, waaronder servicegegevenssets zoals Salesforce en Dynamics CRM.
     **Items waarvan anderen eigenaar zijn:** Anderen hebben deze rapporten en gegevenssets met uw groep gedeeld.
 3. Als u een gegevensset of rapport wilt verwijderen, selecteert u het prullenbakpictogram ![prullenbakpictogram](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
    
@@ -85,20 +87,20 @@ Bedenk dat u of iemand anders mogelijk rapporten en dashboards heeft die zijn ge
 Bedenk dat u of iemand anders in de groep mogelijk rapporten en dashboards heeft die zijn gebaseerd op een gegevensset. Als u de gegevensset verwijdert, werken die rapporten en dashboards niet meer.
 
 ## <a name="dataset-limits"></a>Limieten voor de gegevensset
-Er is een limiet van 1 GB per gegevensset die wordt geïmporteerd in Power BI. Als u ervoor hebt gekozen om de Excel-ervaring te houden, in plaats van de gegevens te importeren, bent u beperkt tot maximaal 250 MB voor de gegevensset.
+Er is een limiet van 1 GB per gegevensset die wordt geïmporteerd in Power BI. Als u ervoor hebt gekozen om de Excel-ervaring te houden, in plaats van de gegevens te importeren, is 250 MB de limiet voor de gegevensset.
 
-## <a name="what-happens-when-you-hit-a-limit"></a>Wat er gebeurt wanneer u een limiet bereikt
+## <a name="what-happens-when-you-reach-a-limit"></a>Wat er gebeurt wanneer u een limiet bereikt
 Als u de gegevenscapaciteitslimiet bereikt, ziet u instructies in de service. 
 
 Wanneer u het tandwielpictogram ![Tandwielpictogram](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)selecteert, ziet u een rode balk die aangeeft dat u de limiet van uw gegevenscapaciteit hebt overschreden.
 
-![Opslaglimiet bereikt]](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
+![Opslaglimiet bereikt](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
 
-Dit wordt ook aangegeven in **Persoonlijke opslag beheren**.
+Deze limiet wordt ook aangeduid in **Persoonlijke opslag beheren**.
 
  ![Persoonlijke opslag beheren, opslaglimiet bereikt](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit2.png)
 
- Wanneer u probeert een actie uit te voeren waardoor een limiet wordt bereikt, ziet u een waarschuwing waarin wordt aangegeven dat u de limiet hebt overschreden. U kunt uw opslag [beheren](#manage) om uw opslagruimte te verlagen en de limiet te omzeilen.
+ Wanneer u een actie uitvoert waarmee u een van de limieten bereikt, wordt een bericht weergegeven dat u de limiet hebt overschreden. U kunt uw opslag [beheren](#manage) om de hoeveelheid opgeslagen gegevens te verkleinen en zo binnen de limiet te blijven.
 
  ![De opslaglimiet is overschreden](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
 

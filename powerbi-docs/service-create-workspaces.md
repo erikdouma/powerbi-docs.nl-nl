@@ -7,25 +7,25 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f12974d4e53217fc6c29ad172153ec9c51ecc44e
-ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
+ms.openlocfilehash: 55f592101954ae5c0724fb5b48fb2571a1bdfc51
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2018
-ms.locfileid: "53451416"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983687"
 ---
 # <a name="create-workspaces-with-your-colleagues-in-power-bi"></a>Werkruimten maken met uw collega's in Power BI
 
-U kunt in Power BI *werkruimten* maken. Dit zijn plaatsen waar u samen met collega's verzamelingen dashboards en rapporten kunt maken en verfijnen. Vervolgens bundelt u deze in *apps* die u kunt distribueren naar uw hele organisatie of naar specifieke personen of groepen. 
+U kunt in Power BI *werkruimten* maken. Dit zijn plaatsen waar u samen met collega's verzamelingen dashboards en rapporten kunt maken en verfijnen. Vervolgens bundelt u de verzameling in *apps* die u kunt distribueren naar uw hele organisatie of naar specifieke personen of groepen. 
 
 ![Power BI-apps](media/service-create-workspaces/power-bi-apps-left-nav.png)
 
 Wanneer u een werkruimte maakt, maakt u een onderliggende, gekoppelde Office 365-groep. Alle werkruimtebeheer vindt plaats in Office 365. U kunt collega's als leden of beheerders toevoegen aan deze werkruimten. In de werkruimte kan iedereen samenwerken aan dashboards, rapporten en andere artikelen die u wilt publiceren naar een breder publiek. Iedereen die u aan een app-werkruimte toevoegt, heeft een Power BI Pro-licentie nodig. 
 
-**Wist u dat?** Met Power BI is een preview-versie van een nieuwe werkruimte-ervaring beschikbaar. Lees [De nieuwe werkruimten maken (preview)](service-create-the-new-workspaces.md) om te zien hoe werkruimten in de toekomst worden gewijzigd. 
+**Wist u dat?** Met Power BI is een preview-versie van een nieuwe werkruimte-ervaring beschikbaar. Lees [Werk organiseren in de nieuwe werkruimten (preview)](service-new-workspaces.md) voor meer informatie over de nieuwe werkruimten. 
 
 ## <a name="video-apps-and-app-workspaces"></a>Video: apps en app-werkruimten
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -84,12 +84,12 @@ Wanneer de inhoud klaar is, kunt u kiezen welke dashboards en rapporten u wilt p
 ### <a name="how-are-apps-different-from-organizational-content-packs"></a>Hoe verschillen apps van organisatie-inhoudspakketten?
 Apps zijn verbeterde organisatie-inhoudspakketten. Als u al organisatie-inhoudspakketten hebt, blijven deze gewoon naast apps werken. Apps en inhoudspakketten verschillen op enkele belangrijke punten. 
 
-* Nadat zakelijke gebruikers een inhoudspakket hebben geïnstalleerd, verliest deze de gegroepeerde identiteit; de groep is nu alleen nog een lijst met dashboards en rapporten afgewisseld met andere dashboards en rapporten. Apps behouden daarentegen ook na de installatie hun groepering en identiteit. Dit maakt het eenvoudig voor zakelijke gebruikers om ze in de toekomst opnieuw te openen.
+* Nadat zakelijke gebruikers een inhoudspakket hebben geïnstalleerd, verliest deze de gegroepeerde identiteit; de groep is nu alleen nog een lijst met dashboards en rapporten afgewisseld met andere dashboards en rapporten. Apps behouden daarentegen ook na de installatie hun groepering en identiteit. Deze groepering maakt het eenvoudig voor zakelijke gebruikers om ze in de toekomst opnieuw te openen.
 * U kunt meerdere inhoudspakketten vanuit elke werkruimte maken, maar een app heeft een een-op-eenrelatie met de werkruimte. 
 * We willen organisatie-inhoudspakketten op termijn afschaffen. Daarom raden we u aan vanaf nu apps te maken.  
 * Met de preview-versie voor een nieuwe werkruimte-ervaring maken wij een begin om de organisatie-inhoudspakketten af te schaffen. U kunt deze in de preview-werkruimten niet gebruiken of maken.
 
-Zie [Hoe verschillen de nieuwe app-werkruimten van bestaande app-werkruimten?](service-create-the-new-workspaces.md#how-are-the-new-app-workspaces-different-from-current-app-workspaces) om de huidige en nieuwe app-werkruimten te vergelijken. 
+Zie [Hoe verschillen de nieuwe app-werkruimten van bestaande app-werkruimten?](service-new-workspaces.md#how-are-the-new-workspaces-different-from-current-workspaces) om de twee te vergelijken. 
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Apps in Power BI installeren en gebruiken](service-create-distribute-apps.md)

@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 98250e30d1ca944aa536e0d8a05e6ee6c227fc61
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 87e2ff9bf8e4eb87b4b915492bf8cfa4a97a9150
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546741"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008851"
 ---
 # <a name="connect-to-xero-with-power-bi"></a>Verbinding maken met Xero via Power BI
 Xero is eenvoudig te gebruiken onlineboekhoudsoftware die speciaal ontworpen is voor kleine bedrijven. Met behulp van dit Power BI-inhoudspakket kunt u indrukwekkende visualisaties maken op basis van uw financiële gegevens in Xero. Uw standaarddashboard bevat allerlei metrische gegevens voor kleine bedrijven zoals kaspositie, omzet versus uitgaven, winst-en-verlies-trend, vervallen facturen en ROI.
@@ -88,8 +88,8 @@ De volgende rollen zijn vereist voor toegang tot het inhoudspakket van Xero: 'St
 ## <a name="finding-parameters"></a>Parameters zoeken
 Geef een naam op voor uw organisatie die kan worden bijgehouden in Power BI. Dit maakt het mogelijk om met meerdere organisaties verbinding te maken. Het is niet mogelijk om meerdere keren met dezelfde organisatie verbinding te maken, aangezien dit invloed heeft op de geplande vernieuwing.   
 
-## <a name="troubleshooting"></a>Probleemoplossing
-* Xero-gebruikers moeten beschikken over de volgende rollen om toegang te krijgen tot het inhoudspakket van Xero: 'Standaard + Rapporten' of 'Adviseur'. Het inhoudspakket is afhankelijk van de machtigingen op gebruikersbasis om toegang te krijgen tot rapportgegevens via Power BI.  
+## <a name="troubleshooting"></a>Problemen oplossen
+* Xero-gebruikers moeten beschikken over de volgende rollen om toegang te krijgen tot het Xero-inhoudspakket voor Power BI: 'Standaard + Rapporten' of 'Adviseur'. Het inhoudspakket is afhankelijk van de machtigingen op gebruikersbasis om toegang te krijgen tot rapportgegevens via Power BI.  
 * Als u pas na bepaalde tijd een foutmelding krijgt, controleer dan hoe lang het heeft geduurd voordat de fout zich voordeed. Het toegangstoken dat door Xero wordt verstrekt, is namelijk maar 30 minuten geldig, wat betekent dat er een fout optreedt wanneer het laden van gegevens langer duurt voor een account. Er wordt hard gewerkt om dit probleem op te lossen.
 * Tijdens het laden hebben de tegels op het dashboard een algemene laadstatus. Dit verandert pas nadat alle gegevens zijn geladen. Als u een melding ontvangt dat het laden is voltooid, maar de tegels nog steeds worden geladen, probeer de dashboardtegels dan te vernieuwen met behulp van de... in de rechterbovenhoek van het dashboard.
 * Als het inhoudspakket niet kan worden vernieuwd, controleert u of u per ongeluk niet meer dan één keer verbinding hebt gemaakt met dezelfde organisatie in Power BI. Xero staat slechts één actieve verbinding met een organisatie toe en mogelijk ziet u een foutbericht dat aangeeft dat uw referenties ongeldig zijn als u meer dan één keer verbinding probeert te maken met dezelfde organisatie.  

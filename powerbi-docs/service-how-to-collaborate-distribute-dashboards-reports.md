@@ -1,5 +1,5 @@
 ---
-title: Hoe kan ik samenwerken en inhoud delen in Power BI?
+title: Manieren om uw werk te delen
 description: In Power BI kunt u op verschillende manieren samenwerken aan dashboards, rapporten, tegels en apps en deze delen. Elke manier heeft bepaalde voordelen.
 author: maggiesMSFT
 manager: kfile
@@ -7,23 +7,23 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 12/17/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bcec05211d3748e992f0e0cf68acd6460b2715d4
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: bc4f58920feaf5219d63761116ef9a742edd4eed
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908964"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983526"
 ---
-# <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Hoe kan ik samenwerken en inhoud delen in Power BI?
+# <a name="ways-to-share-your-work-in-power-bi"></a>Uw werk delen in Power BI
 
-U hebt dashboards en rapporten gemaakt. Misschien werkt u er ook wel samen aan met collega's. In dat geval moeten anderen toegang hebben tot de dashboards en rapporten. Wat is de beste manier om ze te distribueren?
+U hebt dashboards en rapporten gemaakt. Misschien hebt u er ook wel samen aan gewerkt met collega's. In dat geval moeten anderen toegang hebben tot de dashboards en rapporten. Wat is de beste manier om ze te distribueren?
 
 In dit artikel vergelijken we deze opties voor samenwerken en delen in Power BI: 
 
-* Samenwerken met collega's om betekenisvolle rapporten en dashboards te maken in *app-werkruimten*.
+* Samenwerken met collega's om betekenisvolle rapporten en dashboards te maken in *werkruimten*.
 * Deze dashboards en rapporten opnemen in *apps* en ze publiceren naar een grotere groep of de hele organisatie.
 * Dashboards of rapporten delen met een paar personen, vanuit de service of de mobiele Power BI-apps.
 - Rapporten afdrukken.
@@ -35,25 +35,25 @@ Ongeacht welke optie u kiest, hebt u voor het delen van een dashboard een [licen
 
 *Apps in de Power BI-service*
 
-## <a name="collaborate-with-coworkers-in-an-app-workspace"></a>Samenwerken met collega's in een app-werkruimte
+## <a name="collaborate-with-coworkers-in-a-workspace"></a>Samenwerken met collega's in een werkruimte
 
-Wanneer teams samenwerken, hebben de teamleden toegang tot dezelfde documenten nodig zodat ze snel kunnen samenwerken. App-werkruimten in Power BI bieden een plaats waar teams het eigendom en beheer van dashboards, rapporten, gegevenssets en werkmappen kunnen delen die voor hen het belangrijkst zijn. Soms organiseren Power BI-gebruikers hun werkruimten op basis van organisatorische structuren, in andere gevallen maken ze werkruimten voor specifieke projecten. Ook kunnen organisaties diverse werkruimten gebruiken om verschillende versies van de door hun gebruikte rapporten of dashboards op te slaan. 
+Wanneer teams samenwerken, hebben de teamleden toegang tot dezelfde documenten nodig zodat ze snel kunnen samenwerken. Werkruimten in Power BI bieden een plaats waar teams het eigendom en beheer van dashboards, rapporten, gegevenssets en werkmappen kunnen delen die voor hen het belangrijkst zijn. Soms organiseren Power BI-gebruikers hun werkruimten op basis van organisatorische structuren, in andere gevallen maken ze werkruimten voor specifieke projecten. Ook kunnen organisaties diverse werkruimten gebruiken om verschillende versies van de door hun gebruikte rapporten of dashboards op te slaan. 
 
-App-werkruimten bevatten rollen waarmee wordt bepaald welke machtigingen uw collega's hebben. U kunt deze rollen gebruiken om te bepalen wie de hele werkruimte kan beheren of wie alleen inhoud aan de werkruimte mag leveren.
+Werkruimten bevatten rollen waarmee wordt bepaald welke machtigingen uw collega's hebben. U kunt deze rollen gebruiken om te bepalen wie de hele werkruimte kan beheren of wie alleen inhoud aan de werkruimte mag leveren.
 
-![App-werkruimten](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-workspaces.png)
+![Werkruimten](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-workspaces.png)
 
-Sommige gebruikers zijn gewend hun inhoud in Mijn werkruimte te plaatsen en deze met anderen te delen. App-werkruimten zijn beter voor samenwerking dan Mijn werkruimte, omdat personen hiermee samen eigenaar van de inhoud kunnen zijn. U en uw hele team kunnen eenvoudig wijzigingen aanbrengen of anderen toegang geven. Mijn werkruimte kan het beste door personen worden gebruikt voor eenmalige of persoonlijke inhoud.
+Sommige gebruikers zijn gewend hun inhoud in Mijn werkruimte te plaatsen en deze met anderen te delen. Werkruimten zijn beter voor samenwerking dan Mijn werkruimte, omdat personen hiermee samen eigenaar van de inhoud kunnen zijn. U en uw hele team kunnen eenvoudig wijzigingen aanbrengen of anderen toegang geven. Mijn werkruimte kan het beste door personen worden gebruikt voor eenmalige of persoonlijke inhoud.
 
-Stel dat u een voltooid dashboard hebt dat u wilt delen met uw collega's. Wat is de beste manier om uw collega's toegang tot het dashboard te geven? Het antwoord is afhankelijk van een aantal factoren. Als een specifieke collega eigenaar van het dashboard moet zijn en het dashboard actueel moet houden, of als hij/zij toegang moet hebben tot alle inhoud in de app-werkruimte, kunt u hem/haar het beste toevoegen aan de werkruimte. Als een collega alleen dat dashboard en niet alle inhoud in de werkruimte hoeft te zien, kunt u opnieuw uit meerdere mogelijkheden kiezen. Als het dashboard onderdeel is van een grotere set inhoud die u wilt distribueren naar veel collega's, is het publiceren van een app waarschijnlijk de beste optie. Als de collega echter alleen dat ene dashboard nodig heeft, kunt u beter het dashboard delen. 
+Stel dat u een voltooid dashboard hebt dat u wilt delen met uw collega's. Wat is de beste manier om uw collega's toegang tot het dashboard te geven? Het antwoord is afhankelijk van een aantal factoren. Als een specifieke collega eigenaar van het dashboard moet zijn en het dashboard actueel moet houden, of als hij/zij toegang moet hebben tot alle inhoud in de werkruimte, kunt u hem/haar het beste toevoegen aan de werkruimte. Als een collega alleen dat dashboard en niet alle inhoud in de werkruimte hoeft te zien, kunt u opnieuw uit meerdere mogelijkheden kiezen. Als het dashboard onderdeel is van een grotere set inhoud die u wilt distribueren naar veel collega's, is het publiceren van een app waarschijnlijk de beste optie. Als de collega echter alleen dat ene dashboard nodig heeft, kunt u beter het dashboard delen. 
 
-Meer informatie over [app-werkruimten maken](service-create-workspaces.md).
+Meer informatie over [werkruimten maken](service-create-workspaces.md).
 
 **Wist u dat?** Met Power BI is een preview-versie van een nieuwe werkruimte-ervaring beschikbaar. Lees [De nieuwe werkruimten maken (preview)](service-create-the-new-workspaces.md) om te zien hoe werkruimten in de toekomst worden gewijzigd. 
 
 ## <a name="distribute-data-and-insights-by-creating-an-app"></a>Gegevens en inzichten distribueren door een app te maken
 
-Stel dat u uw dashboard wilt distribueren naar een brede doelgroep. U en uw collega's hebben een *app-werkruimte* gemaakt, en daarna dashboards, rapporten en gegevenssets gemaakt en verfijnd in de app-werkruimte. Nu gaat u de gewenste dashboards en rapporten selecteren en publiceren als een app, hetzij bedoeld voor een groep of voor de hele organisatie. 
+Stel dat u uw dashboard wilt distribueren naar een brede doelgroep. Uw collega's en u hebben een *werkruimte* gemaakt en daarna dashboards, rapporten en gegevenssets gemaakt en verfijnd in de werkruimte. Nu gaat u de gewenste dashboards en rapporten selecteren en publiceren als een app, hetzij bedoeld voor een groep of voor de hele organisatie. 
 
 ![Pictogram App publiceren](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
@@ -66,7 +66,7 @@ Gebruikers die de app willen bekijken, moeten ook beschikken over een Power BI P
 U kunt ook apps publiceren voor personen buiten uw organisatie. Deze personen kunnen de app-inhoud bekijken en op verschillende manieren weergeven, maar niet delen met anderen.
 
 ## <a name="share-dashboards-and-reports"></a>Dashboards en rapporten delen
-Stel dat u een dashboard en een rapport hebt voltooid in uw eigen Mijn werkruimte of in een app-werkruimte en u een paar andere personen toegang tot de onderdelen wilt geven. Eén manier om dat te doen, is door ze te *delen*. 
+Stel dat u een dashboard en een rapport hebt voltooid in uw eigen Mijn werkruimte of in een werkruimte en u een paar andere personen toegang tot de onderdelen wilt geven. Eén manier om dat te doen, is door ze te *delen*. 
 
 ![Deelpictogram](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-in-situ.png)
 

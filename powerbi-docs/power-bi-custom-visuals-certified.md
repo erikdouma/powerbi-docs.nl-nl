@@ -9,13 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 11/21/2018
-ms.openlocfilehash: 7830aa829dc05e29ec0b8dc23d7f35b58991b007
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: e839fabffc685ac0f97146cb7ee5218039df1c18
+ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830143"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54056174"
 ---
 # <a name="certified-custom-visuals"></a>Gecertificeerde aangepaste visuals
 
@@ -62,7 +63,7 @@ Als u uw aangepaste visual wilt laten [certificeren](#certified-custom-visuals),
 Een aangepast visueel element indienen voor certificering:
 
 1. Verzend een e-mailbericht naar het ondersteuningsteam van Power BI voor aangepaste visuals (pbicvsupport@microsoft.com). Neem de volgende informatie op in het e-mailbericht:
-    * Titel: Aanvraag voor certificering van visueel element
+    * Titel: Aanvraag voor certificering van visual
     * Koppeling naar de GitHub-opslagplaats waar de broncode van de door mensen leesbare broncode wordt gehost
     * [Voldoen aan de vereisten](#certification-requirements)
     * Voldoen aan de codebeoordeling
@@ -73,6 +74,7 @@ Een aangepast visueel element indienen voor certificering:
 
 | Koppeling naar AppSource | Koppeling naar video |
 | --- | --- |
+| [3AG Systems - Kolomdiagram met relatieve afwijking](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381803) | |
 | [Asterdiagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759) | |
 | [Beyondsoft-agenda](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381096) | |
 | [Vlinderdasdiagram door MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380838) | [Video](https://youtu.be/So5xKMSpVJI) |

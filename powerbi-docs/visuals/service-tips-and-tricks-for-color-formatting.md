@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/19/2018
+ms.date: 12/19/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 04e00537db4ffbcb6c1a154cb69fb2c856bd7596
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 09c505d114eaa951978f23061d9c79c1b6870fad
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565654"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983365"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Tips en trucs voor het gebruik van kleuren in Power BI
 Power BI biedt veel verschillende manieren voor het aanpassen van uw dashboards en rapporten. In dit artikel vindt u een verzameling tips die ervoor kunnen zorgen dat uw Power BI-visualisaties boeiend, interessant en afgestemd op uw behoeften zijn.
@@ -29,38 +29,35 @@ De volgende tips worden gegeven. Hebt u nog een goede tip? Mooi! Stuur de tip na
 * Uiteenlopende kleurenschalen gebruiken
 * Hoe kunt u iets ongedaan maken in Power BI?
 
-Als u wijzigingen wilt aanbrengen, moet u een rapport bewerken: selecteer uw **Rapport** in het deelvenster **Mijn werkruimte** en selecteer **Rapport bewerken** in het menu bovenaan, zoals op de volgende afbeelding.
+Als u wijzigingen wilt aanbrengen, moet u een rapport bewerken: selecteer uw **Rapport** in het deelvenster **Mijn werkruimte** en selecteer **Rapport bewerken** in het menu bovenaan, zoals op de volgende afbeelding. In dit voorbeeld wordt het **voorbeeld van Human Resources** gebruikt.
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_1.png)
+![rapportcanvas met Rapport bewerken gemarkeerd](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
 
 Wanneer het deelvenster **Visualisaties** wordt weergegeven aan de rechterkant van het **rapportcanvas**, kunt u beginnen met aanpassen.
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_2.png)
+![rapport met opmaakdeelvenster waarop het volgende wordt weergegeven](media/service-tips-and-tricks-for-color-formatting/power-bi-formatting-pane.png)
 
 ## <a name="change-the-color-of-a-single-data-point"></a>De kleur van één gegevenspunt wijzigen
-Soms wilt u een bepaald gegevenspunt markeren. Misschien zijn het verkoopcijfers voor de lancering van een nieuw product, of hogere kwaliteitsscores na de lancering van een nieuw programma. Met Power BI kunt u een gegevenspunt markeren door de kleur ervan te wijzigen.
+Soms wilt u een bepaald gegevenspunt markeren. Misschien zijn het verkoopcijfers voor de lancering van een nieuw product, of hogere kwaliteitsscores na de lancering van een nieuw programma. Met Power BI, en voor de meeste soorten visuals, kunt u een gegevenspunt markeren door de kleur ervan te wijzigen.
 
-In de volgende visualisatie worden kosten van levensonderhoud gerangschikt. 
+De volgende visualisatie toont aan de hand van standaardkleuren de verkoopmarges per werknemer. 
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_3.png)
+![vlakdiagram](media/service-tips-and-tricks-for-color-formatting/power-bi-area-chart.png)
 
-Stel, u wilt snel laten zien waar Washington in die ranglijst staat door het gebruik van kleur. Dit zijn de stappen:
+Het vlak voor Annelie is niet duidelijk zichtbaar. Daarom gebruiken we een kleur om het meer te laten opvallen. Dit zijn de stappen:
 
 Vouw de sectie **Gegevenskleuren** uit. Het volgende verschijnt.
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_4.png)
+![Het selectiegebied Gegevenskleuren onder Opmaak](media/service-tips-and-tricks-for-color-formatting/power-bi-data-colors.png)
 
-Stel **Alles weergeven** in op **Aan**. Hiermee worden de kleuren voor elk gegevenselement in de visualisatie weergegeven. Wanneer u met de muisaanwijzer over de gegevenspunten beweegt, is schuiven ingeschakeld zodat u alle gegevenspunten kunt wijzigen.
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_5.png)
+In dit geval selecteren we een donkere, maar felle kleur die afwijkt van de kleur die voor Valery is gebruikt. Selecteer het pijltje omlaag in het kleurvak van Annelie, selecteer **Aangepaste kleur** en kies een heldere blauwe kleur.
 
-In dit geval gaan we **Washington** wijzigen naar groen. Schuif omlaag naar **Washington** en selecteer de pijl omlaag in het kleurvak. Het venster kleurselectie verschijnt.
+![kleurselecties](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_6.png)
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_6.png)
+Zodra u het vlak voor Annelie hebt geselecteerd, is dit veel eenvoudiger te onderscheiden van de andere werknemers. 
 
-Eenmaal geselecteerd, heeft het gegevenspunt **Washington** een mooie groene tint en valt zeker op.
-
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_7.png)
+![vlakdiagram, vlak van Annelie nu helderblauw](media/service-tips-and-tricks-for-color-formatting/power-bi-color.png)
 
 Zelfs als u het visualisatietype wijzigt en vervolgens terugkeert, onthoudt Power BI uw selectie en blijft **Washington** groen.
 

@@ -1,24 +1,24 @@
 ---
-title: Statistische functies (som, gemiddelde, maximum, enzovoort) in visualisaties
-description: De aggregatie in een grafiek (som, gemiddelde, maximum, enz.) in Power BI wijzigen
+title: Werken met aggregaties (som, gemiddelde, enzovoort) in de Power BI-service
+description: Leer hoe u de aggregatie in een grafiek kunt wijzigen (som, gemiddelde, maximum, enzovoort) in de Power BI-service.
 author: mgblythe
-manager: kvivek
+manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/29/2018
+ms.date: 12/21/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Reports
-ms.openlocfilehash: dfc3006c37d6055bac435fceb05febd596f0cd1a
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 7a88cc7f210c6119e57a5dcf30920a95e180b85f
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026472"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983710"
 ---
-# <a name="aggregates-in-power-bi-visualizations"></a>Aggregaties in Power BI-visualisaties
+# <a name="work-with-aggregates-sum-average-etc-in-the-power-bi-service"></a>Werken met aggregaties (som, gemiddelde, enzovoort) in de Power BI-service
 ## <a name="what-is-an-aggregate"></a>Wat is een statistische functie?
 Soms wilt u de waarden in uw gegevens rekenkundig combineren. De rekenkundige bewerking kan de som, het gemiddelde, het maximum, het aantal, enzovoort zijn. Wanneer u waarden in uw gegevens combineert, wordt dit *aggregeren* genoemd. Het resultaat van die rekenkundige bewerking is een *aggregatie*. 
 
@@ -70,16 +70,16 @@ Stel u hebt een diagram waarin de verkochte eenheden voor de verschillende produ
 
 Enkele opties die beschikbaar zijn voor de aggregatie van een veld:
 
-* **Niet samenvatten**. Wanneer u deze optie kiest, wordt elke waarde in dat veld afzonderlijk verwerkt en niet samengevat. Dit wordt vaak gebruikt als er een numerieke kolom bevatten die niet mogen worden opgeteld.
+* **Niet samenvatten**. Wanneer u deze optie kiest, wordt elke waarde in dat veld afzonderlijk verwerkt en niet samengevat. Gebruik deze optie als er een numerieke ID-kolom is die niet mag worden opgeteld.
 * **Som**. Hiermee worden alle waarden in het veld opgeteld.
 * **Gemiddelde**. Hiermee wordt het rekenkundige gemiddelde van de waarden berekend.
 * **Minimum**. Geeft de kleinste waarde.
 * **Maximum**. Geeft de grootste waarde.
-* **Aantal (niet leeg)**. Hiermee wordt het aantal (niet-lege) waarden in het veld geteld.
+* **Aantal (niet leeg)**. Hiermee wordt het aantal niet-lege waarden in het veld geteld.
 * **Aantal (uniek)**. Hiermee wordt het aantal verschillende waarden in het veld geteld.
 * **Standaarddeviatie**.
 * **Afwijking**.
-* **Mediaan**.  Hiermee wordt de mediaanwaarde (middelste waarde) weergegeven. Dit is de waarde met hetzelfde aantal boven- als onderliggende items.  Als er twee medianen zijn, wordt het gemiddelde hiervan genomen.
+* **Mediaan**.  Hiermee wordt de mediaanwaarde (middelste waarde) weergegeven. Deze waarde heeft hetzelfde aantal boven- als onderliggende items.  Als er twee medianen zijn, wordt het gemiddelde hiervan genomen.
 
 Neem bijvoorbeeld de volgende gegevens:
 
@@ -109,7 +109,7 @@ Dit voorbeeld geeft de volgende resultaten:
 ## <a name="create-an-aggregate-using-a-category-text-field"></a>Een statistische functie maken met een categorieveld (tekst)
 U kunt ook een niet-numeriek veld aggregeren. Als u bijvoorbeeld een veld Productnaam hebt, kunt u dit toevoegen als een waarde en vervolgens instellen op **Aantal**, **Uniek aantal**, **Eerste** of **Laatste**. 
 
-1. In dit voorbeeld hebben we het veld **Product** naar de bron Waarden gesleept. De bron Waarden wordt meestal gebruikt voor numerieke velden. Power BI herkent dat dit een tekstveld is, stelt de statistische functie in op **Geen aggregatie** en geeft ons een tabel met één kolom.
+1. In dit voorbeeld hebben we het veld **Product** naar de bron Waarden gesleept. De bron Waarden wordt meestal gebruikt voor numerieke velden. Power BI herkent dat dit veld een tekstveld is, stelt de statistische functie in op **Geen aggregatie** en geeft ons een tabel met één kolom.
    
    ![Productveld in de bron met waarden](media/service-aggregates/power-bi-aggregate-value.png)
 2. Als we de aggregatie van de standaardwaarde **Niet samenvatten** wijzigen in **Aantal (uniek)**, wordt het aantal verschillende ketens in Power BI geteld. Er zijn in dit geval 4.
@@ -141,11 +141,11 @@ A4:  En een derde mogelijkheid is dat u het veld gebruikt voor een as. Er wordt 
 >[!NOTE]
 >Spreidingsdiagrammen vormen een uitzondering op deze regel. Deze diagrammen *vereisen* geaggregeerde waarden voor de x- en y-as.
 
-V:  Waarom kan ik voor SSAS-gegevensbronnen geen tekstvelden aggregeren?
+V:  Waarom kan ik geen tekstvelden optellen voor SSAS-gegevensbronnen (SQL Server Analysis Services)?
 
-A:  Live verbindingen met SSAS MD staan geen aggregaties aan de clientzijde toe. Hieronder vallen eerste, laatste, gemiddelde, minimum maximum en som.
+A:  Met liveverbindingen met multidimensionale SSAS-modellen kunnen geen aggregaties aan de clientzijde worden uitgevoerd, waaronder eerste, laatste, gemiddelde, minimum, maximum en som.
 
-V:  Ik heb een spreidingsdiagram en ik wil *niet* dat mijn veld wordt geaggregeerd.  Hoe doe ik dit?
+V:  Ik heb een spreidingsdiagram en ik wil *niet* dat mijn veld wordt geaggregeerd.  Hoe?
 
 A:  Voeg het veld toe aan de bucket **Details** en niet aan de bucket van de x- of y-as.
 
