@@ -25,7 +25,7 @@ Als u met Q&A het grote aantal vragen wilt interpreteren waarop de functie kan r
 > [!NOTE]
 > Q&A is alleen beschikbaar wanneer u met een model werkt dat **geïmporteerde** gegevens bevat. Liveverbindingen met SSAS- en DirectQuery-modellen worden niet ondersteund.
 >
-> Voor Q&A is de volgende update van C Runtime vereist als u een eerdere Windows-versie dan Windows 10 gebruikt. Installeer belangrijke updates via Windows Update of installeer het vereiste Microsoft-onderdeel handmatig (KB2999226) om het probleem op te lossen. https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows
+> Voor Q&A is de volgende update van C Runtime vereist als u een eerdere Windows-versie dan Windows 10 gebruikt. Installeer belangrijke updates via Windows Update of installeer het vereiste Microsoft-onderdeel handmatig (KB2999226) om het probleem op te lossen. [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows)
 >
 >
 
