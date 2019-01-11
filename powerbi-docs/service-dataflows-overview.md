@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/03/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 92af01b7020f734f286d927650e58a5fea5d8047
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: d9cd9c812aa2fdd1d336dbd63ea280516a96e4d9
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180824"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072216"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Selfservice voor gegevensvoorbereiding in Power BI (preview)
 
@@ -92,7 +92,7 @@ De volgende tabel bevat een beschrijving van de functies voor gegevensstromen en
 |Gekoppelde entiteiten in gegevensstromen| |        +|
 |Gestandaardiseerd schema / Ingebouwde ondersteuning voor Common Data Model|  +|  +|
 
-
+Raadpleeg het artikel voor Power BI Premium over [werkbelastingen configureren](service-admin-premium-manage.md#configure-workloads) voor meer informatie over hoe u werkbelastingen voor gegevensstromen inschakelt.
 
 ## <a name="summary-of-self-service-data-prep-for-big-data-in-power-bi"></a>Samenvatting van selfservice voor gegevensvoorbereiding voor big data in Power BI
 Zoals eerder vermeld in dit artikel, zijn er meerdere scenario's en voorbeelden waarin **gegevensstromen** u in staat stellen om meer controle over - en sneller inzichten in - uw zakelijke gegevens te krijgen. Met behulp van een standaardgegevensmodel (schema) dat is gedefinieerd in Common Data Model, kunt u met gegevensstromen waardevolle bedrijfsgegevens importeren en deze in zeer korte tijd voorbereiden voor het maken van modellen en BI-inzichten... iets wat vroeger maanden of langer duurde. 

@@ -8,23 +8,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.subservice: powerbi-custom-visuals
-ms.date: 11/06/2018
+ms.date: 12/18/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4d38cf108a4c2e863811cfee68fc2d0b95c1990e
-ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
+ms.openlocfilehash: 0d634d7fc7753f7aaaf7d7118cfad1ab90b6e82a
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54056036"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072239"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Aangepaste visualisaties in Power BI
 
-Bij het maken of bewerken van een Power BI-rapport kunt u kiezen uit allerlei verschillende soorten visualisaties. Deze visualisaties worden weergeven in het deelvenster **Visualisaties**. Wanneer u Power BI Desktop downloadt of de Power BI-service opent (op app.powerbi.com), ziet u standaard deze visualisaties.
+Bij het maken of bewerken van een Power BI-rapport kunt u kiezen uit allerlei verschillende soorten visualisaties. Deze visualisaties worden weergeven in het deelvenster **Visualisaties**. Wanneer u [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) downloadt of de [Power BI-service](https://app.powerbi.com) opent, ziet u standaard deze visuals.
 
 ![visualizations](media/power-bi-custom-visuals/power-bi-visualizations.png)
 
-Maar u bent niet beperkt tot deze set visualisaties. Als u het beletselteken selecteert, krijgt u toegang tot een andere bron van rapportvisualisaties: *aangepaste visualisaties*.
+Maar u bent niet beperkt tot deze set visuals. Als u het beletselteken selecteert, krijgt u toegang tot een andere bron van rapportvisuals: *aangepaste visuals*.
 
 Aangepaste visuals worden door ontwikkelaars gemaakt, met behulp van de SDK voor aangepaste visuals, zodat zakelijke gebruikers hun gegevens kunnen bekijken op de manier die het beste bij hun bedrijf past. Auteurs van rapporten kunnen de bestanden met aangepaste visuals vervolgens in hun rapporten importeren en op dezelfde manier gebruiken als alle andere Power BI-visuals. Aangepaste visuals zijn zeer belangrijke elementen in Power BI en kunnen worden gefilterd, gemarkeerd, bewerkt, gedeeld enzovoort.
 
@@ -41,7 +40,7 @@ Aangepaste visuals zijn pakketten met code voor het renderen van de gegevens die
 > [!WARNING]
 > Een aangepaste visual kan code bevatten met beveiligings- of privacyrisico's. Ga na of u de auteur en de bron van de aangepaste visual vertrouwt voordat u de visual in uw rapport importeert.
 
-## <a name="organization-visuals"></a>Organisatievisuals
+## <a name="organizational-visuals"></a>Organisatievisuals
 
 Power BI-beheerders kunnen aangepaste visuals in hun organisatie implementeren, zodat auteurs van rapporten de aangepaste visuals die door de beheerder zijn goedgekeurd voor gebruik binnen de organisatie, gemakkelijk kunnen vinden en gebruiken. De beheerder heeft dan de controle om te kiezen welke specifieke aangepaste visuals in de organisatie worden geïmplementeerd, en tevens kan hij die visuals gemakkelijk beheren (bijvoorbeeld versie bijwerken, inschakelen/uitschakelen). De auteur van het rapport kan zo eenvoudig visuals vinden die uniek zijn voor de organisatie. Bovendien biedt deze mogelijkheid naadloze ondersteuning bij het bijwerken van die visuals.
 
@@ -74,7 +73,7 @@ Bent u een webontwikkelaar en bent u geïnteresseerd in het maken van uw eigen v
 
     ![cv imported](media/power-bi-custom-visuals/power-bi-custom-visual-imported.png)
 
-### <a name="import-organization-visuals"></a>Organisatievisuals importeren
+### <a name="import-organizational-visuals"></a>Organisatievisuals importeren
 
 1. Selecteer het beletselteken (...) onder aan het deelvenster Visualisaties.
 
@@ -132,7 +131,7 @@ Er zijn twee manieren om aangepaste visualisaties te downloaden en te importeren
 
 ### <a name="download-and-import-custom-visuals-from-microsoft-appsource"></a>Aangepaste visualisaties downloaden en importeren uit Microsoft AppSource
 
-1. Ga naar [Microsoft AppSource](https://appsource.microsoft.com) en selecteer het tabblad **Apps**. 
+1. Ga naar [Microsoft AppSource](https://appsource.microsoft.com) en selecteer het tabblad **Apps**.
 
     ![AppSource](media/power-bi-custom-visuals/power-bi-appsource-apps.png)
 
@@ -175,5 +174,9 @@ Ga naar [Problemen met aangepaste visuals voor Power BI oplossen](power-bi-custo
 ## <a name="faq"></a>Veelgestelde vragen
 
 Voor meer informatie en antwoorden op vragen gaat u naar [Veelgestelde vragen over aangepaste visuals voor Power BI](power-bi-custom-visuals-faq.md#organizational-custom-visuals).
+
+## <a name="next-steps"></a>Volgende stappen
+
+* [Visualisaties in Power BI](visuals/power-bi-report-visualizations.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/).

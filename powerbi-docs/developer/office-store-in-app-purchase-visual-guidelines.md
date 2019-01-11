@@ -8,13 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 11/26/2018
-ms.openlocfilehash: 9ef7890c6f80845a9e6d1bd02e35778ed866ff54
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: 2b7a71baafd8ec2ef839aaca95529221c642357f
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52332102"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072170"
 ---
 # <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Richtlijnen voor Power BI-visuals met extra aankopen
 
@@ -25,7 +26,7 @@ Tot voor kort accepteerde de **Marketplace (AppSource)** alleen Power BI-visuals
 
 ## <a name="whats-changing-in-the-submission-process"></a>Hoe verandert het indieningsproces?
 
-Ontwikkelaars uploaden hun IAP-visuals naar AppSource via het Verkopersdashboard, zoals ze dat ook al deden voor gratis visuals. Om aan te geven dat de ingediende visual over IAP-functies beschikt, moeten ontwikkelaars de opmerking 'Visual met in-app aankoop' in het Verkopersdashboard toevoegen. Bovendien moeten ontwikkelaars een licentiesleutel of token opgeven zodat het validatieteam de IAP-functies kan valideren. Zodra de visual is gevalideerd en goedgekeurd, wordt bij de prijsopties in de AppSource-lijst voor de IAP-visual 'Mogelijk extra aankoop vereist' vermeld.
+Ontwikkelaars uploaden hun IAP-visuals naar AppSource via het Verkopersdashboard, zoals ze dat ook al deden voor gratis visuals. Om aan te geven dat de ingediende visual over IAP-functies beschikt, moeten ontwikkelaars de volgende opmerking in het Verkopersdashboard toevoegen: 'Visual met in-app aankoop'. Bovendien moeten ontwikkelaars een licentiesleutel of token opgeven zodat het validatieteam de IAP-functies kan valideren. Zodra de visual is gevalideerd en goedgekeurd, wordt bij de prijsopties in de AppSource-lijst voor de IAP-visual 'Mogelijk extra aankoop vereist' vermeld.
 
 ## <a name="what-is-a-power-bi-visual-with-iap-features"></a>Wat is een Power BI-visual met IAP-functies?
 
@@ -59,6 +60,10 @@ Gebruik de landingspagina om gebruikers te informeren hoe zij uw visual kunnen g
 ### <a name="license-key-and-token"></a>Licentiesleutel en token
 
 Voor het gemak van de gebruiker kunt u boven in het deelvenster Opmaak velden met betrekking tot licentiesleutels of tokens toevoegen, zodat gebruikers deze velden beter kunnen vinden.
+
+## <a name="faq"></a>Veelgestelde vragen
+
+Voor meer informatie en antwoorden op vragen gaat u naar [Veelgestelde vragen over visuals met aanvullende aankopen](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-faq#visuals-with-additional-purchases).
 
 ## <a name="next-steps"></a>Volgende stappen
 

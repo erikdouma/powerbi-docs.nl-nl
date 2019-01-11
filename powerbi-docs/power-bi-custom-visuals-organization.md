@@ -1,5 +1,5 @@
 ---
-title: Aangepaste visuals voor organisaties gebruiken in Power BI
+title: Aangepaste organisatievisuals in Power BI
 description: Gebruik, beheer en maak aangepaste visuals voor organisaties in Power BI
 author: markingmyname
 ms.author: maghan
@@ -8,18 +8,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/29/2018
+ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e34491ebc1cc7554e8c8c000da7528754b5a673b
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 6622625f27f62d9d8ffc35ecfddf4550f2a7e16e
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223094"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072147"
 ---
-# <a name="use-organizational-custom-visuals-in-power-bi"></a>Aangepaste visuals van organisaties in Power BI gebruiken
+# <a name="organizational-custom-visuals-in-power-bi"></a>Aangepaste organisatievisuals in Power BI
 
-U kunt aangepaste visuals gebruiken in Power BI om een uniek soort visual te maken die op u is aangepast, of op de gegevensinzichten die u naar voren wilt brengen. Deze aangepaste visuals worden vaak door ontwikkelaars gemaakt, wanneer het grote aantal visuals in Power BI niet helemaal aan de behoefte voldoet. 
+U kunt aangepaste visuals gebruiken in Power BI om een uniek soort visual te maken die aan uw behoeften is aangepast. Aangepaste visuals worden door ontwikkelaars gemaakt wanneer het grote aantal visuals in Power BI niet helemaal aan de behoefte voldoet.
 
 In sommige organisaties zijn aangepaste visuals nog belangrijker. Ze kunnen nodig zijn om bepaalde gegevens of inzichten die uniek zijn voor de organisatie naar voren te brengen, hebben misschien speciale vereisten voor gegevens of kunnen unieke methoden van het bedrijf onderstrepen. Zulke organisaties moeten aangepaste visuals ontwikkelen, die in de hele organisatie delen en ervoor zorgen dat ze goed worden onderhouden. Met aangepaste visuals van Power BI kunnen organisaties precies dat doen.
 
@@ -27,13 +27,13 @@ De volgende afbeelding toont via welk proces aangepaste visuals voor organisatie
 
 ![Afbeelding van aangepaste visual](media/power-bi-custom-visuals-organizational/custom-visual-org-01.jpg)
 
-Visuals voor organisaties worden door de Power BI-beheerder geïmplementeerd en beheerd vanuit de beheerportal. Zodra de visuals in de opslagplaats van de organisatie zijn geïmplementeerd, kunnen gebruikers in de organisatie de visuals eenvoudig vinden en de aangepaste visuals voor organisaties direct vanuit Power BI Desktop in hun rapporten importeren.
+Organisatievisuals worden door de Power BI-beheerder geïmplementeerd en beheerd vanuit de beheerportal. Zodra de visuals in de opslagplaats van de organisatie zijn geïmplementeerd, kunnen gebruikers in de organisatie de visuals eenvoudig vinden en de aangepaste visuals voor organisaties direct vanuit Power BI Desktop in hun rapporten importeren.
 
-Raadpleeg [dit artikel](power-bi-custom-visuals.md) voor meer informatie over het gebruik van aangepaste visuals voor organisaties in rapporten die u hebt gemaakt.
+Raadpleeg het volgende artikel voor meer informatie over het gebruik van aangepaste organisatievisuals in rapporten die u hebt gemaakt: [Meer informatie over organisatievisuals importeren in uw rapporten](power-bi-custom-visuals.md).
 
 ## <a name="administer-organizational-custom-visuals"></a>Aangepaste visuals van organisaties beheren
 
-Raadpleeg [dit artikel](https://go.microsoft.com/fwlink/?linkid=866790) voor meer informatie over het beheren en implementeren van aangepaste visuals voor organisaties.
+Raadpleeg het volgende artikel voor meer informatie over het beheren en implementeren van aangepaste organisatievisuals: [Meer informatie over de implementatie en het beheer van organisatievisuals](https://go.microsoft.com/fwlink/?linkid=866790).
 
 > [!WARNING]
 > Een aangepaste visual kan code bevatten met beveiligings- of privacyrisico's. Ga na of u de auteur en de bron van een aangepaste visual vertrouwt voordat u deze implementeert in de opslagplaats van de organisatie.
