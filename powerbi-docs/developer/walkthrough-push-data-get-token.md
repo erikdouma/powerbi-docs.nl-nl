@@ -5,18 +5,18 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 238d068e5083c8f46ac3299faddd4e0872f0654d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2cba79a98400ba517bca8e61fca743bc0024a122
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34812624"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288860"
 ---
-# <a name="step-2-get-an-authentication-access-token"></a>Stap 2: Een toegangstoken voor verificatie ophalen
+# <a name="step-2-get-an-authentication-access-token"></a>Stap 2: Een verificatietoegangstoken ophalen
 Dit artikel maakt deel uit van een stapsgewijze uitleg van hoe u [gegevens naar een gegevensset pusht](walkthrough-push-data.md).
 
 Bij **stap 1** voor het pushen van gegevens naar een gegevensset, [De app registreren bij Azure AD](walkthrough-push-data-register-app-with-azure-ad.md), hebt u een client-app geregistreerd in Azure AD. In deze stap krijgt u een verificatietoegangstoken. Power BI-apps worden geïntegreerd met **Azure AD** om beveiligde aanmelding en autorisatie voor uw app te verzorgen. U gebruikt een token om u te verifiëren bij **Azure AD** en toegang te krijgen tot Power BI-resources.

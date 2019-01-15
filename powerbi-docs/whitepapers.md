@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 01/09/2019
 ms.author: maggies
-ms.openlocfilehash: bff5e42b239fee572ea0a453301f154da3b999b3
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 76ea3250c3032c253b87f5f2b0713460a805787e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266088"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295794"
 ---
 # <a name="whitepapers-for-power-bi"></a>Technische documenten voor Power BI
 
@@ -26,7 +26,7 @@ Met technische documenten kunt u Power BI-onderwerpen diepgaander verkennen. Hie
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |Beschrijft Power BI Premium, zowel als het aanvankelijk is als de manier waarop het zich zal ontwikkelen. | Oktober 2017 |
 | [Planning en implementatie van Power BI Premium](https://aka.ms/Premium-Capacity-Planning-Deployment)| Het doel van dit document is een leidraad en aanbevolen procedures te geven bij het plannen en implementeren van Premium-capaciteit voor goedgedefinieerde workloads.| November 2017 |
 | [Plannen van capaciteit voor ingesloten analyses met Power BI Premium](https://aka.ms/pbiewhitepaper) |Dit artikel bevat richtlijnen voor de app-ontwikkelaar/ISV voor het bepalen van de meest geschikte capaciteit voor het bedrijf. | Oktober 2017 |
-| [Een Power BI Enterprise-implementatie plannen](https://aka.ms/pbienterprisedeploy) |Dit technisch document bevat een overzicht van de overwegingen voor een goed presterende en veilige implementatie van Power BI in een organisatie. | Juli 2018 |
+| [Een Power BI Enterprise-implementatie plannen](https://go.microsoft.com/fwlink/?linkid=2057861) |Dit technisch document bevat een overzicht van de overwegingen voor een goed presterende en veilige implementatie van Power BI in een organisatie. | Juli 2018 |
 | [Richtlijnen voor capaciteitsplanning voor Power BI Report Server](report-server/capacity-planning.md) |Het doel van dit document is een leidraad te geven bij de capaciteitsplanning voor Power BI Report Server door het delen van de resultaten van talrijke belastingtests die met verschillende workloads op een rapportserver zijn uitgevoerd. | Maart 2018 |
 | [Beveiliging](service-admin-power-bi-security.md) |Biedt een gedetailleerde beschrijving van de beveiliging in Power BI. | Juli 2018 |
 | [Power BI-inhoud distribueren naar externe gastgebruikers met behulp van Azure Active Directory B2B](https://aka.ms/powerbi-b2b-whitepaper)|Dit document geeft een overzicht van het distribueren van inhoud naar gebruikers buiten de organisatie met behulp van de integratie van AAD B2B (Azure Active Directory Business-to-business).| Maart 2018 |

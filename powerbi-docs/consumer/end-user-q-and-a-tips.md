@@ -54,7 +54,7 @@ In de onderstaande lijst wordt de tegenwoordige tijd gebruikt, maar aanwezig tij
 |**Gelijkheid (waarde)**     |   is, gelijk, is gelijk aan, in, van, voor, ligt binnen, is op |
 |   | Voorbeelden: Welke producten zijn groen? Orderdatum is gelijk aan 2012. Is de leeftijd van John 40? Totale verkoop is niet gelijk aan 200? Orderdatum 1-1-2016. 10 in prijs? Groen voor kleur? 10 in prijs?              |
 |        |         |
-|**Namen**     |       Als een kolom in de gegevensset de frase 'naam' bevat (bijvoorbeeld Werknemersnaam), begrijpt Q&A dat de waarden in deze kolom namen zijn. U kut vragen stellen zoals: 'welke werknemers heten Robert'.          |
+|**Namen**     |       Als een kolom in de gegevensset de frase 'naam' bevat (bijvoorbeeld Werknemersnaam), begrijpt Q&A dat de waarden in deze kolom namen zijn. U kunt vragen stellen zoals: 'welke werknemers heten Robert'.          |
 |        |         |
 **Voornaamwoorden**  | hij, hem, zelf, zijn, zij, haarzelf, haar, van haar, het, zichzelf, ze, hun, zij zelf, hun, dit,deze, dat, die
 |**Queryopdrachten**     |    gesorteerd, sorteren op, richting, groeperen, groeperen op, op, weergeven, vermelden, weergeven, ik wil, naam, alleen, uitsluitend, schikken, rangschikken, vergelijken, met, alfabetisch, oplopende, aflopende, volgorde             |
