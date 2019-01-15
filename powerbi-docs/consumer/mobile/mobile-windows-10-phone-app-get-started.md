@@ -1,20 +1,20 @@
 ---
 title: Aan de slag met de mobiele Power BI-app voor Windows 10
 description: Met de mobiele Power BI-app voor Windows 10 hebt u bijgewerkte, mobiele toegang tot uw bedrijfsgegevens via uw tablet of telefoon.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
-ms.author: maggies
-ms.openlocfilehash: 00f4f63630efd36b55da5e15ce28f1733edaf84f
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.author: mshenhav
+ms.openlocfilehash: aa41e1e2869ad4d2f77224e3bec99dc00c59c536
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908665"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291436"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Aan de slag met de mobiele Power BI-app voor Windows 10
 Met de mobiele Power BI-app voor Windows 10 hebt u Power BI op uw telefoon of tablet met bijgewerkte, mobiele toegang tot uw bedrijfsgegevens. U kunt uw bedrijfsdashboards vanaf elke locatie en rechtstreeks op uw [Windows-startscherm](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) bekijken en ze gebruiken.

@@ -5,17 +5,17 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 86dabdb84dd4ca949930c25213f554060135f10a
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 6e29e750a22bbd6843e203a5cd93b5c0628b1d05
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396630"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288768"
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Live SQL Server Analysis Services-gegevens in Power BI
 U kunt in Power BI op twee manieren verbinding maken met een live SQL Server Analysis Services-server. In **Gegevens ophalen** kunt u verbinding maken met een SQL Server Analysis Services-server of u kunt verbinding maken met een [Power BI Desktop-bestand](service-desktop-files.md) of [Excel-werkmap](service-excel-workbook-files.md) die al verbonden is met een Analysis Services-server. Microsoft raadt als best practice sterk aan om Power BI Desktop te gebruiken vanwege de uitgebreide functionaliteit van de set hulpmiddelen en de mogelijkheid om lokaal een back-up van het Power BI Desktop-bestand te onderhouden.

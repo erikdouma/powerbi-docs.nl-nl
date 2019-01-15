@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: amac
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: e46cfffc28bd77685e0a34b492e54234a76afa35
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: ae1aa4bb5a345d72a33d3d859a6a47de6c27b0ed
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180893"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291528"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Welke voorbeeldgegevens zijn beschikbaar voor gebruik met Power BI?
 Stel dat u geen ervaring hebt met Power BI en u Power BI wilt uitproberen, maar nog geen gegevens hebt.  Of misschien hebt u een gegevensset, maar bent u bang dat u de gegevensset beschadigt omdat u (nog) niet begrijpt hoe Power BI werkt?

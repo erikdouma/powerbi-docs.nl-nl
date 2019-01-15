@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/05/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 123cb794a1ba307439a47bdb949e2c76297e7ba2
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: acd2ad2afe9b380a8888dee7a4b9d4707d79b41f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979536"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279821"
 ---
 # <a name="use-the-matrix-visual-in-power-bi"></a>Matrixvisualisatie in Power BI gebruiken
 Met de visualfunctie **Matrix** kunt u matrixvisuals (ook wel *tabellen* genoemd) maken in **Power BI Desktop-** en **Power BI-service**-rapporten, en elementen in de matrix kruislings markeren met andere visuals. Bovendien kunt u rijen en kolommen selecteren, en zelfs afzonderlijke cellen en kruislings markeren. Afzonderlijke cellen en selecties van meerdere cellen kunnen worden gekopieerd en geplakt in andere toepassingen. En ten slotte ondersteunt de matrixvisualisatie ook een getrapte lay-out, om beter gebruik te maken van de lay-outruimte.

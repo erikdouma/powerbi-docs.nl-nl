@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.author: maghan
-ms.openlocfilehash: b520eb2758088feadff963f86ddf310ae7a7ed8b
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: cd88270c75b46267217147d8f02fc707eeef26ab
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388635"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290394"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Hulpprogramma voor de migratie van Power BI Embedded
 Dit hulpprogramma voor migratie kan worden gebruikt voor het kopiëren van uw rapporten van de Power BI Embedded Azure-service (PaaS) naar de Power BI-service (SaaS).
@@ -84,7 +84,7 @@ Ga als volgt te werk om een bestaand migratieplan te openen.
     ![](media/migrate-tool/migrate-tool-open-plan.png)
 2. Selecteer uw migratiebestand en selecteer **Openen**.
 
-## <a name="step-1-analyze--plan-migration"></a>Stap 1: analyseren en migratie plannen
+## <a name="step-1-analyze--plan-migration"></a>Stap 1: Migratie analyseren en plannen
 Het tabblad **Analyseren en migratie plannen** geeft u een overzicht van de zaken die zich momenteel in de resourcegroep van uw Azure-abonnement bevinden.
 
 ![Tabblad Analyseren en migratie plannen](media/migrate-tool/migrate-tool-step1.png)
@@ -137,7 +137,7 @@ Klik met de rechtermuisknop op een groep en kies ervoor de naam van de groep rec
 > 
 > 
 
-## <a name="step-2-download"></a>Stap 2: downloaden
+## <a name="step-2-download"></a>Stap 2: Downloaden
 Op het tabblad **Downloaden** ziet u de lijst met rapporten en bijbehorende metagegevens. U kunt de huidige en de vorige uitvoerstatus bekijken.
 
 ![](media/migrate-tool/migrate-tool-download-tab.png)
@@ -153,7 +153,7 @@ Als de download is gelukt, ziet u de status *Gereed* en wordt weergegeven dat he
 
 Nadat het downloaden is voltooid, selecteert u het tabblad **Groepen maken**.
 
-## <a name="step-3-create-groups"></a>Stap 3: groepen maken
+## <a name="step-3-create-groups"></a>Stap 3: Groepen maken
 Nadat u de rapporten die beschikbaar zijn hebt gedownload, gaat u naar het tabblad **Groepen maken**. Dit tabblad maakt de app-werkruimten in de Power BI-service op basis van het migratieplan dat u hebt gemaakt. De app-werkruimte wordt gemaakt met de naam die u hebt opgegeven op het tabblad **Uploaden** in **Analyseren en migratie plannen**.
 
 ![](media/migrate-tool/migrate-tool-create-groups.png)
@@ -172,7 +172,7 @@ U kunt controleren of de app-werkruimte is gemaakt door u aan te melden bij Powe
 
 Nadat de werkruimte is gemaakt, kunt u naar het tabblad **Uploaden** gaan.
 
-## <a name="step-4-upload"></a>Stap 4: uploaden
+## <a name="step-4-upload"></a>Stap 4: Uploaden
 Op het tabblad **Uploaden** worden de rapporten geüpload naar de Power BI-service. U ziet een lijst met de rapporten die we hebben gedownload op het tabblad Downloaden, en de naam van de doelgroep op basis van uw migratieplan.
 
 ![](media/migrate-tool/migrate-tool-upload-tab.png)

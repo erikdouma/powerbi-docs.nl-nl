@@ -1,20 +1,20 @@
 ---
 title: Aan de slag met de mobiele Power BI-app op Android-apparaten
 description: Lees hoe u met de mobiele Android-app voor Microsoft Power BI onderweg beschikt over Power BI en mobiele toegang tot zakelijke gegevens on-premises en in de cloud.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
-ms.author: maggies
-ms.openlocfilehash: 4c11b65d8d9dcb4a0b07db6dcf0d264350f351bf
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.author: mshenhav
+ms.openlocfilehash: c5d6549c449c77cea709783b1634318e12fc2e52
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908740"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289289"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Aan de slag met de mobiele Power BI-app op Android-apparaten
 De Android-app voor Microsoft Power BI biedt de mobiele BI-ervaring voor Power BI, Power BI Report Server en Reporting Services. Bekijk en gebruik vanaf elke locatie uw bedrijfsdashboards on-premises en in de cloud met mobiele live-toegang met aanraakfunctionaliteit. Verken de gegevens in dashboards en deel deze met uw collega's per e-mail of sms-bericht. 

@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maghan
-ms.openlocfilehash: 0f06d5c3742ea5187ff41f6f8974c8a81e5d1d33
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: de16c10a03654802e4c65bfa92e60259e2f9510d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310447"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291750"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI-rapportgegevensbronnen in Power BI Report Server
 Power BI-rapporten kunnen verbinding maken met een aantal gegevensbronnen. Afhankelijk van hoe de gegevens worden gebruikt, zijn er verschillende gegevensbronnen beschikbaar. De gegevens kunnen worden geïmporteerd of de gegevens kunnen rechtstreeks worden opgevraagd rechtstreeks met DirectQuery of een liveverbinding met SQL Server Analysis Services.
@@ -130,7 +130,7 @@ Power BI Report Server biedt geen ondersteuning voor verificatie op basis van OA
 | Azure Data Lake Store |Nee |Nee |Nee |Nee |
 | Azure HDInsight (HDFS) |Nee |Nee |Nee |Nee |
 | Azure HDInsight (Spark) |Ja |Ja |Nee |Nee |
-| Azure-tabelopslag |Nee |Ja |Nee |Nee |
+| Azure Table Storage |Nee |Ja |Nee |Nee |
 | Dynamics 365 (online) |Nee |Nee |Nee |Nee |
 | Facebook |Nee |Nee |Nee |Nee |
 | Map |Nee |Nee |Nee |Ja |
@@ -172,7 +172,7 @@ Power BI Report Server biedt geen ondersteuning voor verificatie op basis van OA
 | IBM Netezza (bèta) |Nee |Nee |Nee |Nee |
 | Kusto (bèta) |Nee |Nee |Nee |Nee |
 | MailChimp (bèta) |Nee |Nee |Nee |Nee |
-| Inzicht van Microsoft Azure-verbruik (bèta) |Nee |Nee |Nee |Nee |
+| Microsoft Azure Consumption Insights (bèta) |Nee |Nee |Nee |Nee |
 | Mixpanel (bèta) |Nee |Nee |Nee |Nee |
 | Planview Enterprise (bèta) |Nee |Nee |Nee |Nee |
 | Projectplace (bèta) |Nee |Nee |Nee |Nee |

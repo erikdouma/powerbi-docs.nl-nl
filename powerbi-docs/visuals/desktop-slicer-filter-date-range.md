@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 692d752756590945eb17e2f512929f7303727e94
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: c29145e4a51821bab284693bc13a508cb9c046c6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564803"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279154"
 ---
 # <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>Een relatieve datumslicer en -filter in Power BI Desktop gebruiken
 Met de **relatieve datumslicer** of het **relatieve datumfilter** kunt u tijdgebaseerde filters toepassen op een datumkolom in het gegevensmodel. U kunt bijvoorbeeld de **relatieve datumslicer** gebruiken om alleen gegevens weer te geven over verkopen die hebben plaatsgevonden in de afgelopen 30 dagen (of maand, kalendermaanden enzovoort). En wanneer u de gegevens vernieuwt, wordt de juiste relatieve datumbeperking automatisch toegepast door de relatieve periode.

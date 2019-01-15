@@ -5,23 +5,22 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 01/29/2018
+ms.date: 01/11/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c2a6e25cae2fcd1a2d84a5ffe6941559593f75c0
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: 8006e3ff2849e98aed8b25e667d430af9407ede2
+ms.sourcegitcommit: 4695f5ef54cc9929828320132f890317b4c3018e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008552"
+ms.lasthandoff: 01/12/2019
+ms.locfileid: "54238963"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Verbinding maken met de services die u gebruikt met Power BI
 U kunt verbinding maken met een aantal services die u gebruikt om uw bedrijf te runnen, zoals Salesforce, Microsoft Dynamics en Google Analytics. In Power BI worden eerst uw referenties gebruikt om verbinding te maken met de service. Vervolgens wordt een Power BI-app met een dashboard en een reeks Power BI-rapporten gemaakt, waarop automatisch uw gegevens worden getoond en die een visueel overzicht geven van uw bedrijf.
 
 
-Meld u aan bij Power BI om alle [services waarmee u verbinding kunt maken](https://app.powerbi.com/getdata/services) (Engelstalig) weer te geven. Er worden regelmatig nieuwe services toegevoegd.
+Meld u aan bij Power BI om alle [services waarmee u verbinding kunt maken](https://app.powerbi.com/getdata/services) (Engelstalig) weer te geven. 
 
 ![AppSource-apps](media/service-connect-to-services/overview.png)
 

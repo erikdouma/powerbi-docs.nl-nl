@@ -6,17 +6,17 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: power-bi-embedded
-ms.component: ''
+ms.subservice: ''
 ms.devlang: csharp, javascript
 ms.topic: overview
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: 70cb8f72e5749f7eed70d4476f3af87e272813f4
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 175e4409022192b7e34c4670b2738fc56166a122
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180686"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288975"
 ---
 # <a name="what-is-power-bi-embedded-in-azure"></a>Wat is Power BI Embedded in Azure?
 
@@ -56,6 +56,6 @@ Dankzij de REST API kunt u met Power BI Embedded met alle talen ontwikkelen.
 
 Zie de [pagina met prijzen](https://azure.microsoft.com/pricing/details/power-bi-embedded/) voor gegevens over het capaciteitsknooppunt.
 
-Zie [Power BI Embedded-capaciteit maken in de Azure-portal](azure-pbie-create-capacity.md) voor het maken van Power BI Embedded-capaciteit
+Zie [Power BI Embedded-capaciteit maken in Azure Portal](azure-pbie-create-capacity.md) voor het maken van Power BI Embedded-capaciteit
 
 Zie [Uw Power BI-dashboards, -rapporten en -tegels insluiten](https://powerbi.microsoft.com/documentation/powerbi-developer-embedding-content/) als u Power BI-inhoud wilt insluiten.

@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d3d2e5dcbfb5163e20dc60470c240378278bbcf1
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: cd7df8383ad22d273ebf396fc1cf8297f110dde5
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727232"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288147"
 ---
 # <a name="create-a-view-of-a-power-bi-dashboard-optimized-for-mobile-phones"></a>Een weergave van een Power BI-dashboard maken die is geoptimaliseerd voor mobiele telefoons
 Wanneer u dashboards in de mobiele Power BI-app op een telefoon weergeeft, ziet u dat de dashboardtegels achter elkaar worden weergegeven en allemaal dezelfde grootte hebben. In de Power BI-service kunt u een aangepaste weergave voor uw eigen dashboards maken, met name voor telefoons.

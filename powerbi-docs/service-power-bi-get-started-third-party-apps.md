@@ -5,17 +5,17 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
 LocalizationGroup: Get started
-ms.openlocfilehash: 7ac6cee3331333b40119d6f5ab014b2e39d2ef23
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 9e2c37c6518f3484aa0350203e4e93711a7543ec
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34251744"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289987"
 ---
 # <a name="get-started-with-third-party-apps"></a>Aan de slag met apps van derden
 Met Power BI kunt u een app gebruiken die is gemaakt door een ander bedrijf of individu dan Microsoft. U kunt bijvoorbeeld een app van derden gebruiken die Power BI-tegels integreert in een op maat gebouwde webtoepassing. Wanneer u een app van derden gebruikt, wordt u gevraagd om die toepassing bepaalde machtigingen te verlenen voor uw Power BI-account en resources. Het is belangrijk dat u alleen machtigingen verleent aan toepassingen die u kent en vertrouwt. Machtigingen voor een toepassing kunnen op elk gewenst moment worden ingetrokken. Zie [Machtigingen van apps van derden intrekken](#revoke).

@@ -1,20 +1,20 @@
 ---
 title: Rapporten verkennen in de mobiele Power BI-apps
 description: Meer informatie over het weergeven en gebruiken van rapporten in de mobiele Power BI-app op uw telefoon of tablet. U maakt rapporten in de Power BI-service of Power BI Desktop en kunt ze vervolgens gebruiken de mobiele apps.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/17/2018
-ms.author: maggies
-ms.openlocfilehash: 694ae2cd6f77fbcf898a984b135fb65b9163a43b
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.author: mshenhav
+ms.openlocfilehash: 037cab2435abddc0988d076f6598ab8313b4dda6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180985"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281569"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Rapporten verkennen in de mobiele Power BI-apps
 Van toepassing op:

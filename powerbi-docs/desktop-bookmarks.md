@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6bc8eea6138f2961457d03eaf5ef88d0327a058d
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: 95bbbd8402fd2f489af5d4276616ba045d1c938b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909566"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287733"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Bladwijzers gebruiken om inzichten te delen en verhalen te vertellen in Power BI 
 Met behulp van **bladwijzers** in Power BI kunt u de momenteel geconfigureerde weergave van een rapportpagina vastleggen, inclusief filters en de status van visuals, en later terugkeren naar deze staat door eenvoudig de opgeslagen bladwijzer te selecteren. 

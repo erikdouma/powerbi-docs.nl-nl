@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/22/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3e1c08e2dd9515ea49279cbd5c331d358b3b9ed4
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 8e444c78c1f6f9f3f0be1375f96f7381489cc069
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452563"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282895"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Dashboardthema’s gebruiken in Power BI-service
 Met **Dashboardthema's** kunt u een kleurenthema op uw gehele dashboard toepassen, zoals zakelijke kleuren, seizoensgebonden kleuren of andere kleurthema's die u op een rapport zou willen toepassen. Bij het toepassen van een **Dashboardthema** worden voor alle visuals op het dashboard de kleuren van het geselecteerde thema gebruikt. Er zijn enkele uitzonderingen van toepassing, zoals verderop in dit artikel wordt beschreven.

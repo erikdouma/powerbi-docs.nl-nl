@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/15/2018
 ms.author: maggies
-ms.openlocfilehash: e0053660263f4cbed55050b9431b67228bf74c29
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: 14540dc9ecaf1c3baa513b6e8cd12323de973d3d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157351"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275377"
 ---
 # <a name="add-comments-to-a-report-in-a-report-server---power-bi-report-server"></a>Opmerkingen toevoegen aan een rapport in een rapportserver - Power BI Report Server
 In de webportal van een rapportserver kunt u opmerkingen toevoegen aan rapporten, waaronder Power BI-rapporten. De opmerkingen staan live bij het rapport en iedereen met de juiste machtigingen ziet de opmerkingen voor het rapport. Zie de sectie [Machtigingen](#permissions) hieronder voor meer informatie.

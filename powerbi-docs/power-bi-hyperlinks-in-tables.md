@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 92224e00da95714125a8e15c27432e8d305ae0f7
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 637253e3cffebcba7df0a3bc3ce44e943b909364
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180548"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279890"
 ---
 # <a name="add-hyperlinks-to-a-table"></a>Hyperlinks aan een tabel toevoegen
 In dit onderwerp leert u hoe u met Power BI Desktop hyperlinks kunt maken. Gebruik vervolgens Power BI Desktop of de Power BI-service om de hyperlinks aan uw rapporttabellen en -matrices toe te voegen. 

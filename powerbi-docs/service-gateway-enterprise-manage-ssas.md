@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: a84a5da9600daa7ef55ed5a707affa4ee1da4aba
-ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
+ms.openlocfilehash: 5c388a15132c7f433a50c2975aa4b45195c55bf9
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47238095"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285042"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Uw gegevensbron beheren - Analysis Services
 Nadat u de on-premises gegevensgateway hebt geïnstalleerd, moet u gegevensbronnen toevoegen die met de gateway kunnen worden gebruikt. In dit artikel wordt beschreven hoe u gateways en gegevensbronnen gebruikt. U kunt de Analysis Services-gegevensbron gebruiken voor zowel geplande vernieuwing als voor liveverbindingen.
@@ -153,7 +153,7 @@ Uw gateway configureren voor het uitvoeren van de AD-zoekopdracht:
 
 2. In de gateway dient u de **on-premises gegevensgatewayservice** in te stellen zodat deze wordt uitgevoerd met een domeinaccount (in plaats van een lokaal serviceaccount, anders wordt de AD-zoekopdracht tijdens runtime niet goed uitgevoerd). U moet de gatewayservice opnieuw starten om de wijziging door te voeren.  Ga naar de gateway-app op uw computer (zoek 'on-premises gegevensgateway'). Vervolgens gaat u naar **Service-instellingen > Serviceaccount wijzigen**. Zorg ervoor dat u de herstelsleutel voor deze gateway hebt, omdat u deze nodig hebt om de gateway te herstellen op dezelfde computer, tenzij u een nieuwe gateway wilt maken. 
 
-3. Navigeer naar de installatiemap van de gateway, *C:\Program Files\On-premises data gateway* met een beheerdersaccount, om te zorgen dat u schrijfrechten hebt en bewerk het volgende bestand: Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
+3. Navigeer naar de installatiemap van de gateway, *C:\Program Files\On-premises data gateway* met een beheerdersaccount, om te zorgen dat u schrijfrechten hebt, en bewerk het volgende bestand: Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
 
 4. Bewerk de volgende twee configuratiewaarden voor uw AD-gebruikers volgens de kenmerkconfiguraties van *uw* Active Directory. De onderstaande configuratiewaarden zijn slechts voorbeelden: u moet deze invoeren op basis van uw Active Directory-configuratie. Deze configuraties zijn hoofdlettergevoelig, dus zorg ervoor dat ze overeenkomen met de waarden in Active Directory.
 

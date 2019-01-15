@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: efb936a4fadbd45c3d9fce809963415bb27e321e
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 10264540a1ec0b8eb79e446590b86df855505d76
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578469"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275175"
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>Berekende tabellen gebruiken in Power BI Desktop
 Met berekende tabellen kunt u een nieuwe tabel toevoegen aan het model. In dit geval laadt u echter geen query's en waarden in de kolommen van uw nieuwe tabel vanuit een gegevensbron, maar maakt u een DAX-formule (Data Analysis Expressions) die de waarden van de tabel definieert. In Power BI Desktop worden berekende tabellen gemaakt met behulp van de functie Nieuwe tabel in de rapportweergave of gegevensweergave.
