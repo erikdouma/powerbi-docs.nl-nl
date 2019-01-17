@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/21/2018
+ms.date: 01/15/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1749fc932b3aa6cfb86de87bc9ecd71f78d92af5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 6cc26f386a77ad8482d7f1af69fd0fdf2b7de5ac
+ms.sourcegitcommit: a20825ebd0ef4c2cb77232e3dd0e9f8260cacf71
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281960"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "54324015"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Wat is Microsoft Power BI Premium?
 
-Microsoft Power BI Premium biedt resources die speciaal zijn ontwikkeld om de Power BI-service voor uw organisatie uit te voeren. Dit resulteert in betrouwbaardere prestaties en u kunt grotere gegevensvolumes verwerken. Premium biedt ook de mogelijkheid tot een wijdverspreide distributie zonder dat u per gebruiker Pro-licenties hoeft te kopen voor inhoudsgebruikers. Zie [Power BI Premium kopen](service-admin-premium-purchase.md) voor meer aankoopinformatie.
+Microsoft Power BI Premium biedt resources die speciaal zijn ontwikkeld om de Power BI-service voor uw organisatie uit te voeren. Dit resulteert in betrouwbaardere prestaties en u kunt grotere gegevensvolumes verwerken. Premium biedt ook de mogelijkheid tot een wijdverspreide distributie zonder dat u per gebruiker Pro-licenties hoeft te kopen voor inhoudsgebruikers. Zie [Power BI Premium kopen](service-admin-premium-purchase.md) voor meer aankoopinformatie.   
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lNQDkN0GXzU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -41,24 +41,21 @@ In de volgende afbeelding wordt de Contoso-organisatie als voorbeeld gebruikt om
 
 Bij een gedeelde capaciteit past Power BI meer beperkingen toe voor individuele gebruikers om alle gebruikers een goede ervaring te geven. Uw werkruimte bevindt zich standaard in een gedeelde capaciteit, evenals uw persoonlijke *Mijn werkruimte* en app-werkruimten.
 
-De volgende tabel bevat een overzicht van de verschillen tussen de gedeelde capaciteit en de Premium-capaciteit.
+De volgende tabel bevat een overzicht van de verschillen tussen de gedeelde capaciteit en de Premium-capaciteit:
 
 |  | Gedeelde capaciteit | Power BI Premium-capaciteit |
 | --- | --- | --- |
 | **Vernieuwingsfrequentie** |8 keer per dag |48 keer per dag |
-| **Isolatie met toegewezen hardware** |![Niet beschikbaar](media/service-premium/not-available.png) |![Beschikbaar](media/service-premium/available.png) |
-| **Enterprise distributie naar** _**alle gebruikers**_ | | |
-| Apps en delen |![Niet beschikbaar](media/service-premium/not-available.png) |![Beschikbaar](media/service-premium/available.png) |
-| Ingesloten API en besturingselementen |![Niet beschikbaar](media/service-premium/not-available.png) |![Beschikbaar](media/service-premium/available.png)<sup>2</sup> |
-| **Power BI-rapporten on-premises publiceren** |![Niet beschikbaar](media/service-premium/not-available.png) |![Beschikbaar](media/service-premium/available.png) |
+| Isolatie met toegewezen hardware |![Niet beschikbaar](media/service-premium/not-available.png) |![](media/service-premium/available.png) |
+| Enterprise-distributie naar *alle gebruikers* | | |
+| Apps en delen |![Niet beschikbaar](media/service-premium/not-available.png) |![](media/service-premium/available.png) |
+| Ingesloten API en besturingselementen |![Niet beschikbaar](media/service-premium/not-available.png) |![](media/service-premium/available.png)<sup>[1](#fnt1)</sup> |
+| Power BI-rapporten on-premises publiceren |![Niet beschikbaar](media/service-premium/not-available.png) |![](media/service-premium/available.png) |
 | | | |
 
-*<sup>1</sup> Zie [Power BI Free vs Pro voor meer informatie](service-features-license-type.md).*  
-*<sup>2</sup> Toekomstige verbeteringen voor Power BI Premium.*
+<a name="fnt1">1</a> Toekomstige verbeteringen voor Power BI Premium.
 
-Voor meer informatie over het toewijzen van werkruimten aan een premium-capaciteit raadpleegt u [Power BI Premium beheren](service-admin-premium-manage.md).
 
-<a name="premiumskus"/>
 
 ### <a name="premium-capacity-nodes"></a>Premium-capaciteitsknooppunten
 
@@ -68,22 +65,19 @@ Power BI Premium is beschikbaar in knooppuntconfiguraties met verschillende v-co
 
 * EM-knooppunten kunnen alleen worden gebruikt voor ingesloten implementaties. EM-knooppunten hebben geen toegang tot premiummogelijkheden, zoals apps delen met gebruikers die geen Power BI Pro-licentie hebben.
 
->[!NOTE]
->Koppelingen in deze tabel werken alleen goed voor gebruikers met een globale beheerdersrol voor Office 365. Voor andere gebruikers wordt een 404-fout weergegeven.
-
-| Capaciteitsknooppunt | Totaal aantal v-cores<br/>*(back-end + front-end)* | Back-end-v-cores | Front-end-v-cores | Limieten voor DirectQuery/liveverbindingen | Beschikbaarheid |
-| --- | --- | --- | --- | --- | --- | --- |
-| [EM1 (maandelijks)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1-v-core |0,5 v-core, 2,5 GB RAM |0,5 v-core |3,75 per seconde |Beschikbaar |
-| [EM2 (maandelijks)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2 v-cores |1 v-core, 5 GB RAM |1-v-core |7,5 per seconde |Beschikbaar |
-| [EM3 (maandelijks)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |4 v-cores |2 v-cores, 10 GB RAM |2 v-cores | |Beschikbaar |
-| [P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |8 v-cores |4 v-cores, 25 GB RAM |4 v-cores |30 per seconde |Beschikbaar ([maandelijks](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1) is ook beschikbaar) |
-| [P2](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |16 v-cores |8 v-cores, 50 GB RAM |8 v-cores |60 per seconde |Beschikbaar |
-| [P3](https://portal.office.com/SubscriptionDetails?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |32 v-cores |16 v-cores, 100 GB RAM |16 v-cores |120 per seconde |Beschikbaar |
+| Capaciteitsknooppunt | Totaal aantal v-cores<br/>*(Back-end + front-end)*  | V-cores voor back-end<sup>[1](#fn1)</sup> | V-cores voor front-end<sup>[2](#fn2)</sup> | Limieten voor DirectQuery/liveverbindingen | Maximum aantal gelijktijdige vernieuwingen |  Beschikbaarheid
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| EM1 (maandelijks) |1-v-core |0,5 v-core, 2,5 GB RAM |0,5 v-core |3,75 per seconde |  1 | Beschikbaar |
+| EM2 (maandelijks) |2 v-cores |1 v-core, 5 GB RAM |1-v-core |7,5 per seconde |  2 | Beschikbaar |
+| EM3 (maandelijks) |4 v-cores |2 v-cores, 10 GB RAM |2 v-cores | | 3 |  Beschikbaar |
+| P1 |8 v-cores |4 v-cores, 25 GB RAM |4 v-cores |30 per seconde | 6 | Beschikbaar (maandelijks is ook beschikbaar) |
+| P2 |16 v-cores |8 v-cores, 50 GB RAM |8 v-cores |60 per seconde | 12 | Beschikbaar |
+| P3 |32 v-cores |16 v-cores, 100 GB RAM |16 v-cores |120 per seconde | 24 | Beschikbaar |
 | | | | | | | |
 
-* De front-end-v-cores zijn verantwoordelijk voor de webservice, het documentbeheer voor dashboards en rapporten, het beheren van de toegangsrechten, de planning, API's, uploaden en downloaden en in het algemeen voor alles met betrekking tot de gebruikerservaring.
+<a name="fn1">1</a>: V-cores voor front-end zijn verantwoordelijk voor de webservice. Dit gaat dan bijvoorbeeld om het documentbeheer voor dashboards en rapporten, het beheren van de toegangsrechten, de planning, API's, uploaden en downloaden en in het algemeen voor alles met betrekking tot de gebruikerservaring. 
 
-* De back-end-v-cores zijn verantwoordelijk voor het zware werk: verwerken van query's, cachebeheer, uitvoeren van R-servers, vernieuwen van gegevens, natuurlijke taalverwerking, realtime feeds en het weergeven van rapporten en afbeeldingen op de server. Voor de back-end-v-cores wordt ook een bepaalde hoeveelheid geheugen gereserveerd. Het is met name belangrijk om voldoende geheugen te hebben wanneer er met grote gegevensmodellen of met een groot aantal actieve gegevenssets wordt gewerkt.
+<a name="fn2">2</a>: De back-end-v-cores zijn verantwoordelijk voor het zware werk: verwerken van query's, cachebeheer, uitvoeren van R-servers, vernieuwen van gegevens, natuurlijke taalverwerking, realtime feeds en het weergeven van rapporten en afbeeldingen op de server. Voor de back-end-v-cores wordt ook een bepaalde hoeveelheid geheugen gereserveerd. Het is met name belangrijk om voldoende geheugen te hebben wanneer er met grote gegevensmodellen of met een groot aantal actieve gegevenssets wordt gewerkt.
 
 ## <a name="workloads-in-premium-capacity"></a>Workloads in Premium-capaciteit
 
@@ -112,11 +106,9 @@ In de volgende tabellen ziet u de standaard- en minimumwaarden voor geheugen, op
 
 ### <a name="considerations-for-paginated-reports"></a>Overwegingen voor gepagineerde rapporten
 
-Houd rekening met de volgende punten als u de workload Gepagineerde rapporten gebruikt.
+Houd er, als u gebruikmaakt van de workload voor gepagineerde rapporten, rekening mee dat gepagineerde rapporten alleen het uitvoeren van eigen code ondersteunen bij het weergeven van een rapport (zoals het dynamisch wijzigen van de tekstkleur op basis van inhoud). Gezien dit feit beveiligen we Power BI Premium-capaciteit door gepagineerde rapporten uit te voeren in een afgesloten ruimte binnen de capaciteit. Aan deze ruimte wordt de maximale hoeveelheid geheugen toegewezen die u hebt ingesteld, ongeacht of de workload actief is of niet. Als u Power BI-rapporten of gegevensstromen in dezelfde capaciteit gebruikt, moet u het geheugen voor gepagineerde rapporten laag genoeg instellen, zodat deze workload geen gevolgen heeft voor de andere workloads.
 
-* **Geheugentoewijzing in gepagineerd rapporten**: gepagineerde rapporten ondersteunen het uitvoeren van eigen code bij het weergeven van een rapport (zoals het dynamisch wijzigen van de tekstkleur op basis van inhoud). Gezien dit feit beveiligen we Power BI Premium-capaciteit door gepagineerde rapporten uit te voeren in een afgesloten ruimte binnen de capaciteit. Aan deze ruimte wordt de maximale hoeveelheid geheugen toegewezen die u hebt ingesteld, ongeacht of de workload actief is of niet. Als u Power BI-rapporten of gegevensstromen in dezelfde capaciteit gebruikt, moet u het geheugen voor gepagineerde rapporten laag genoeg instellen, zodat deze workload geen gevolgen heeft voor de andere workloads.
-
-* **Gepagineerde rapporten zijn niet beschikbaar**: in zeldzame gevallen kan het gebeuren dat de workload Gepagineerde rapporten niet beschikbaar is. U ziet dan een foutstatus voor de workload in de beheerportal. Gebruikers zien time-outs als ze rapporten willen weergeven. U kunt dit probleem oplossen door de workload uit te schakelen en vervolgens weer in te schakelen.
+in zeldzame gevallen kan het gebeuren dat de workload Gepagineerde rapporten niet beschikbaar is. U ziet dan een foutstatus voor de workload in de beheerportal. Gebruikers zien time-outs als ze rapporten willen weergeven. U kunt dit probleem oplossen door de workload uit te schakelen en vervolgens weer in te schakelen.
 
 ## <a name="power-bi-report-server"></a>Power BI Report Server
 
@@ -129,6 +121,5 @@ Met Power BI Premium kunt u Power BI Report Server ook on-premises uitvoeren in 
 [Power BI Premium beheren](service-admin-premium-manage.md)
 [Whitepaper over Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 [Whitepaper: Een Power BI Enterprise-implementatie plannen](https://aka.ms/pbienterprisedeploy)
-[Power BI in uw organisatie beheren](service-admin-administering-power-bi-in-your-organization.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
