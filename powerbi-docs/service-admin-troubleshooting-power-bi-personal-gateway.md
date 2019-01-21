@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: d5f2fa0abe6f0503ce5f41387f66db928ae0267e
-ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
+ms.openlocfilehash: 642bd39cb9348bae2a1f30dbc9ee026e11ff7401
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2018
-ms.locfileid: "37145405"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284513"
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Problemen met Power BI Gateway - Personal oplossen
 In dit artikel worden enkele veelvoorkomende problemen behandeld die kunnen optreden bij het gebruik van Power BI Gateway - Personal.
@@ -44,7 +44,7 @@ Er kunnen zich allerlei problemen voordoen als de gatewayversie verouderd is.  H
 
  **Proxyconfiguratie**. Er kunnen zich problemen voordoen met de configuratie van de persoonlijke gateway als in uw omgeving het gebruik van een proxy vereist is. Meer informatie over het configureren van proxygegevens kunt u lezen in [Configuring proxy settings for the on-premises data gateway](service-gateway-proxy.md) (Proxy-instellingen configureren voor Power BI-gateways).
 
-## <a name="schedule-refresh"></a>Vernieuwen van gegevens plannen
+## <a name="schedule-refresh"></a>Planning vernieuwen
 **Fout: De referenties die zijn opgeslagen in de cloud ontbreken.**
 
 U kunt een fout van deze strekking krijgen in Instellingen voor \<gegevensset\> als u een vernieuwing hebt gepland en vervolgens de persoonlijke gateway hebt verwijderd en opnieuw hebt geïnstalleerd. Wanneer u een persoonlijke gateway verwijdert, worden de referenties voor de gegevensbron van een gegevensset die is geconfigureerd voor vernieuwen, verwijderd uit de Power BI-service.
@@ -71,7 +71,7 @@ U kunt een fout van deze strekking krijgen in Instellingen voor \<gegevensset\> 
 
 **Oplossing**: Een fout van deze strekking is het gevolg van privacyniveaubeperkingen en de soorten gegevensbronnen die u gebruikt.
 
-**Fout: Fout in gegevensbron: de waarde '\[tabel\]' kan niet worden geconverteerd naar type tabel.**
+**Fout: Fout in de gegevensbron: De waarde '\[tabel\]' kan niet worden geconverteerd naar type tabel.**
 
 **Oplossing**: Een fout van deze strekking is het gevolg van privacyniveaubeperkingen en de soorten gegevensbronnen die u gebruikt.
 

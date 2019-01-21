@@ -1,23 +1,23 @@
 ---
-title: 'Voorbeeld van verkoop en marketing voor Power BI: een rondleiding'
-description: 'Voorbeeld van verkoop en marketing voor Power BI: een rondleiding'
+title: 'Voorbeeld van verkoop en marketing voor Power BI: Rondleiding volgen'
+description: 'Voorbeeld van verkoop en marketing voor Power BI: Rondleiding volgen'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 717db64d30a12d41dc293db11f6f942e4615a1db
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 58c5063796a575498ab1c402f0be6aa2492e9060
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717580"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289228"
 ---
-# <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Voorbeeld van verkoop en marketing voor Power BI: een rondleiding
+# <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Voorbeeld van verkoop en marketing voor Power BI: Rondleiding volgen
 
 ## <a name="overview-of-the-sales-and-marketing-sample"></a>Overzicht van het voorbeeld van verkoop en marketing
 Het **voorbeeld van verkoop en marketing** bevat een dashboard en rapporten voor een fictief productiebedrijf met de naam VanArsdel Ltd. Dit dashboard is gemaakt door de Chief Marketing Officer (CMO) van VanArsdel om de branche en het marktaandeel, productvolume, de verkopen en het gevoel over zijn bedrijf in de gaten te houden.
@@ -134,5 +134,5 @@ Door de visualisatie te filteren op VanArsdel, per segment, per maand en per reg
 
 Dit is een veilige omgeving om in te experimenteren. U kunt er altijd voor kiezen om de wijzigingen niet op te slaan. Als u deze wel opslaat, kunt u altijd naar **Gegevens ophalen** gaan voor een nieuwe kopie van dit voorbeeld.
 
-## <a name="next-steps-connect-to-your-data"></a>Volgende stappen: verbinding maken met uw gegevens
+## <a name="next-steps-connect-to-your-data"></a>Volgende stappen: Verbinding maken met uw gegevens
 We hopen dat deze rondleiding heeft laten zien hoe Power BI-dashboards, Q&A en rapporten inzicht kunnen bieden in de verkoop- en marketinggegevens. Nu is het uw beurt om verbinding met uw eigen gegevens te maken. Met Power BI kunt u verbinding maken met een groot aantal gegevensbronnen. Zie [Aan de slag met Power BI](service-get-started.md) voor meer informatie.  

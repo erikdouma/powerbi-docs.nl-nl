@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f4d16a5694dde63b66dcb001f1a5375ed92d978c
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 2cb8e7b6c2744f80891c5424f620b9812eee1acb
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37137164"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285364"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>10 tips voor hulp bij uw vragen over Power BI
 Raakt u ooit gefrustreerd bij het gebruik van Power BI of krijgt u geen antwoorden op uw vragen over Power BI wanneer u ze nodig hebt, dat wil zeggen ‘precies op tijd’? 
@@ -30,7 +30,7 @@ Experts die antwoorden zoeken voor Power BI gebruiken vaak een zoekmachine. Wilt
 Het team van Power BI is voortdurend bezig met het bijwerken en verbeteren van de Power BI-documentatie en -training. U kunt goede inhoud vinden zoals opnames van webinars, whitepapers, begeleide training en koppelingen naar blogberichten over alle nieuwste functies.
 
 ## <a name="3-read-the-power-bi-blog-for-the-latest-news"></a>3 Lees de Power BI-blog voor het laatste nieuws
-Het team van Power BI geeft toelichting bij alle nieuwe functies in hun normale [Power BI-blogberichten](https://powerbi.microsoft.com/blog/). Ontdek wat er nieuw is in alles, van Power BI Desktop tot de mobiele Power BI-apps. Maak er een gewoonte van en kom vaak terug om te zien wat nieuw is: neem een paar minuten per week de tijd om de blogs te lezen. U weet nooit wanneer u profiteert van de informatie die u maanden geleden hebt gezien.
+Het team van Power BI geeft toelichting bij alle nieuwe functies in hun normale [Power BI-blogberichten](https://powerbi.microsoft.com/blog/). Ontdek wat er nieuw is in alles, van Power BI Desktop tot de mobiele Power BI-apps. Maak er een gewoonte van om zo nu en dan te bekijken wat er nieuw is: Neem elke week een paar minuten om de blogs door te lezen. U weet nooit wanneer u profiteert van de informatie die u maanden geleden hebt gezien.
 
 ## <a name="4-try-twitter"></a>4 Probeer Twitter
 Veel klanten en experts van Power BI zitten op Twitter. Stel uw vraag in een tweet. Voeg de hashtags #powerbi en #powerbihelp toe zodat de juiste mensen uw tweet zien.

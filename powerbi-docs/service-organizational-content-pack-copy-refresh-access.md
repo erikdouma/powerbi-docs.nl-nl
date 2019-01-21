@@ -1,23 +1,23 @@
 ---
-title: 'Organisatie-inhoudspakketten: toegang en kopiëren'
+title: 'Organisatie-inhoudspakketten: Toegang en kopiëren'
 description: Meer informatie over het maken van kopieën van inhoudspakketten van uw organisatie in Power BI en over het oplossen van problemen hiermee
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 37cfca811b7e60bde832396e67b246933d4e0a8e
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: f42e9f69c3cdab945c0f000a0cc2ae4654d9ec9b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908412"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296110"
 ---
-# <a name="organizational-content-packs-copy-refresh-and-get-access"></a>Organisatie-inhoudspakketten: kopiëren, vernieuwen en toegang verkrijgen
+# <a name="organizational-content-packs-copy-refresh-and-get-access"></a>Organisatie-inhoudspakketten: Kopiëren, vernieuwen en toegang krijgen
 
 Wanneer een organisatie-inhoudspakket wordt gepubliceerd, zien alle ontvangers de hetzelfde dashboard en dezelfde rapporten, Excel-werkmappen, gegevenssets en gegevens (tenzij het een SSAS-gegevensbron is (SQL Server Analysis Services).  [Alleen de maker van het inhoudspakket kan het inhoudspakket bewerken en opnieuw publiceren](service-organizational-content-pack-manage-update-delete.md).  Alle ontvangers kunnen echter een kopie van het inhoudspakket opslaan die naast het origineel kan bestaan.
 
@@ -40,7 +40,7 @@ U hebt nu een kopie die u kunt wijzigen. Niemand anders ziet de wijzigingen die 
 ## <a name="help--i-can-no-longer-access-the-content-pack"></a>Help!  Ik heb geen toegang meer tot het inhoudspakket
 Dit kan gebeuren om verschillende redenen:
 
-* **Lidmaatschapswijzigingen**: inhoudspakketten worden gepubliceerd naar e-maildistributiegroepen, beveiligingsgroepen en [Power BI-groepen op basis van Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).  Als u uit de groep wordt verwijderd, hebt u geen toegang meer tot het inhoudspakket.
+* **Lidmaatschapswijzigingen**:  inhoudspakketten worden gepubliceerd naar e-maildistributiegroepen, beveiligingsgroepen en [Power BI-groepen op basis van Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).  Als u uit de groep wordt verwijderd, hebt u geen toegang meer tot het inhoudspakket.
 * **Distributiewijzigingen**: de maker van het inhoudspakket wijzigt de distributie. Als het inhoudspakket bijvoorbeeld oorspronkelijk is gepubliceerd voor de hele organisatie, maar de maker het opnieuw heeft gepubliceerd voor een kleinere doelgroep, bent u daar mogelijk niet in opgenomen.
 * **Gewijzigde beveiligingsinstellingen**: als het dashboard en de rapporten verbinding hebben met on-premises SSAS-gegevensbronnen en er wijzigingen worden aangebracht in de beveiligingsinstellingen, kunnen uw toegangsrechten tot die server worden ingetrokken.
 

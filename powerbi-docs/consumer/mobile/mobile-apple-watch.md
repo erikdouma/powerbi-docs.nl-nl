@@ -1,20 +1,20 @@
 ---
 title: Power BI-gegevens verkennen in de mobiele app op uw Apple Watch
 description: Power BI-app voor Apple Watch
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
-ms.author: maggies
-ms.openlocfilehash: bb5257b801ddb8ff2269a102e4f6c299b1291df4
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.author: mshenhav
+ms.openlocfilehash: 2d43fe5e0248d3876f70878bbbe8a1c9b6387df7
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44735524"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278901"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>Uw gegevens verkennen in de mobiele Power BI-app op uw Apple Watch
 Met de Power BI-app voor Apple Watch kunt u KPIs en kaarttitels uit uw Power BI-dashboards weergeven op uw horloge. KPI's en kaarttegels zijn het meest geschikt om een heartbeat-meting op het kleine scherm weer te geven. U kunt een dashboard vernieuwen vanaf uw iPhone of via de Watch.
@@ -32,7 +32,7 @@ De Power BI-app voor de Apple Watch bestaat uit twee delen.
 * Met het **indexscherm** kunt u snel een overzicht weergeven van alle KPI's en kaarttegels op de gesynchroniseerde dashboards.
   
   ![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_indexscreen240.png)
-* De **focustegel**: klik op een tegel in het indexscherm voor een gedetailleerde weergave van een specifieke tegel.
+* De **focustegel**: Klik op een tegel in het indexscherm voor een gedetailleerde weergave van een specifieke tegel.
   
   ![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_kpi.png)
 

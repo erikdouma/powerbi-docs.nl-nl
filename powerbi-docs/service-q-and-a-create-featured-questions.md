@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: E1mIAyEXuF4
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 02663648002f7924725791e378e10532fadc1128
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 7e57233dac635cadf8f1dc31b4956b4f8e503083
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51716936"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284007"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Aanbevolen vragen voor Q&A-functie van Power BI maken
 Als u beschikt over een gegevensset, kunt u uw eigen aanbevolen vragen toevoegen aan deze dataset.  En de Q&A-functie van Power BI toont deze vragen aan collega's die uw gegevensset (*Verbruiken*) gebruiken.  Aanbevolen vragen geven uw collega's ideeën over de typen vragen die ze kunnen stellen over de gegevensset. U bepaalt zelf welke aanbevolen vragen u toevoegt: u kunt populaire vragen, vragen die interessante resultaten weergeven of vragen die mogelijk moeilijk zijn te formuleren toevoegen.
@@ -48,7 +48,7 @@ In dit artikel wordt het [voorbeeld van een retailanalyse](sample-datasets.md) g
 
 ### <a name="next-steps"></a>Volgende stappen
 [Q&A in Power BI](consumer/end-user-q-and-a.md)  
-[Zelfstudie: Inleiding tot Q&A in Power BI](power-bi-visualization-introduction-to-q-and-a.md)  
+[Zelfstudie: Q&A in Power BI](power-bi-visualization-introduction-to-q-and-a.md)  
 [Power BI - basisconcepten](consumer/end-user-basic-concepts.md)  
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

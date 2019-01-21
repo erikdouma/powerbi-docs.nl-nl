@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: fe81c8e972a4fe36f88da495e4e0dce97a39d32c
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 494612b9c8ef448756dfe2d516bfca68e69d2e7a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830304"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296818"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI beheren: veelgestelde vragen
 
@@ -186,7 +186,7 @@ Wanneer u een externe overname uitvoert, wordt Power BI-inhoud die vóór de ove
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to"></a>Kan ik beheren aan welke Office 365-tenant gebruikers worden toegevoegd, als ik meerdere domeinen heb?
 
-Als u niets doet, wordt er een tenant gemaakt voor elk domein en subdomein dat hoort bij de e-mailadressen van uw gebruikers. Als u alle gebruikers wilt opnemen in dezelfde tenant, ongeacht de extensie van hun e-mailadres, maakt u van tevoren een tenant of gebruikt u een bestaande tenant en voegt u alle bestaande domeinen en subdomeinen toe die u in deze tenant wilt samenvoegen. Alle gebruikers met een e-mailadres dat eindigt op deze domeinen en subdomeinen, worden dan automatisch lid van de doel-tenant wanneer ze zich aanmelden.
+Als u niets doet, wordt er een tenant gemaakt voor elk domein en subdomein dat hoort bij de e-mailadressen van uw gebruikers. Als u wilt dat alle gebruikers worden toegevoegd aan dezelfde tenant, ongeacht het domein van hun e-mailadres: Maak van tevoren een tenant of gebruik een bestaande tenant en voeg alle bestaande domeinen en subdomeinen toe die u in deze tenant wilt samenvoegen. Alle gebruikers met een e-mailadres dat eindigt op deze domeinen en subdomeinen, worden dan automatisch lid van de doel-tenant wanneer ze zich aanmelden.
 
 > [!IMPORTANT]
 > Er is geen ondersteuning voor een geautomatiseerd mechanisme om gebruikers over te plaatsen naar andere tenants als deze eenmaal zijn gemaakt. Zie [Add your users and domain to Office 365](/office365/admin/setup/add-domain/) (Uw gebruikers en domein toevoegen aan Office 365) voor meer informatie over het toevoegen van domeinen aan een enkele Office 365-tenant.

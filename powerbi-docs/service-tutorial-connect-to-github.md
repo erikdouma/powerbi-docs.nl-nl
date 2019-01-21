@@ -1,25 +1,25 @@
 ---
-title: 'Zelfstudie: verbinding maken met een GitHub-voorbeeld met Power BI'
+title: 'Zelfstudie: Verbinding maken met een GitHub-voorbeeld met Power BI'
 description: In deze zelfstudie gebruikt u echte gegevens in de GitHub-service met Power BI en Power BI maakt automatisch dashboards en rapporten.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: SarinaJoan
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 88be0aa477b5e4b2df4f53c42dfb6fde3dda0184
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: bad76adc42fc9f70c1439c6da0cfe2d149bbbe43
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900492"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295654"
 ---
-# <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>Zelfstudie: verbinding maken met een GitHub-voorbeeld met Power BI
-In deze zelfstudie gebruikt u echte gegevens in de GitHub-service met Power BI en Power BI maakt automatisch dashboards en rapporten. U maakt verbinding met de opslagplaats voor openbare Power BI-inhoud (ook wel *repo* genoemd) en ziet de volgende informatie: hoeveel dragen bij aan de openbare Power BI-inhoud? Wie levert de meeste bijdragen? Op welke dag van de wek worden de meeste bijdragen geleverd? En antwoorden op andere vragen. 
+# <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>Zelfstudie: Verbinding maken met een GitHub-voorbeeld met Power BI
+In deze zelfstudie gebruikt u echte gegevens in de GitHub-service met Power BI en Power BI maakt automatisch dashboards en rapporten. U maakt verbinding met de opslagplaats voor openbare Power BI-inhoud (ook wel *repo* genoemd) en ziet de volgende informatie: Hoeveel mensen dragen bij aan de openbare Power BI-inhoud? Wie levert de meeste bijdragen? Op welke dag van de wek worden de meeste bijdragen geleverd? En antwoorden op andere vragen. 
 
 ![Het GitHub-rapport in Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-punch-card.png)
 

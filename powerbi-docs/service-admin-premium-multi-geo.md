@@ -6,16 +6,16 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/20/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 91e1880e1a879ee98d65d6ad91b26e534e807040
-ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
+ms.openlocfilehash: 4b91ac08001118c6a0241cdd1caf32ebfd9098f2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "52268292"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291712"
 ---
 # <a name="multi-geo-support-for-power-bi-premium-preview"></a>Ondersteuning voor Multi-Geo voor Power BI Premium (preview-versie)
 
@@ -43,7 +43,7 @@ Voor een nieuwe capaciteit kunt u de ondersteuning voor meerdere geografische ge
 
 Nadat u een capaciteit hebt gemaakt, blijft deze in die regio aanwezig. Voor alle gemaakte werkruimten geldt dat inhoud voor die ruimten wordt opgeslagen in die regio. U kunt werkruimten van de ene naar de andere regio migreren via de vervolgkeuzelijst in het scherm met werkruimte instellingen.
 
-![Werkruimte bewerken: een beschikbare capaciteit kiezen. Power BI en meerdere geografische gebieden](media/service-admin-premium-multi-geo/power-bi-multi-geo-edit-workspace.png)
+![Werkruimte bewerken: Een beschikbare capaciteit kiezen. Power BI en meerdere geografische gebieden](media/service-admin-premium-multi-geo/power-bi-multi-geo-edit-workspace.png)
 
 U ziet dit bericht om de wijziging te bevestigen.
 
@@ -98,7 +98,7 @@ U kunt er op twee manieren voor zorgen dat werkruimten niet meer worden opgeslag
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [Power BI Premium - wat is het?](service-premium.md)
+- [Power BI Premium: Wat is het?](service-premium.md)
 - [Multi-Geo voor capaciteiten van Power BI Embedded](developer/embedded-multi-geo.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

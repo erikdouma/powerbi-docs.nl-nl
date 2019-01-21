@@ -5,20 +5,20 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: f8ceeddea7a8a9b7a63043cc7e91269da570790b
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: a07f266ccdc0b02cd6a18f84b48b5e2b3564b642
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670971"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279002"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Problemen met aanmelden in Power BI Desktop oplossen
-Het kan gebeuren dat er fouten optreden wanneer u zich probeert aan te melden bij **Power BI Desktop**. Er zijn twee belangrijke oorzaken voor problemen bij het aanmelden: **fouten met proxyverificatie** en **fouten met niet-HTTPS-URL-omleiding**. 
+Het kan gebeuren dat er fouten optreden wanneer u zich probeert aan te melden bij **Power BI Desktop**. Er zijn twee belangrijke oorzaken voor problemen bij het aanmelden: **Proxy-verificatiefouten** en **fouten bij de omleiding van een niet-HTTPS-URL**. 
 
 Om de oorzaak van het aanmeldingsprobleem vast te stellen, neemt u als eerste contact op met uw beheerder en verstrekt u de nodige diagnostische gegevens, zodat de beheerder de oorzaak van het probleem kan bepalen. Beheerders kunnen bepalen welke van de volgende fouten voor u gelden door problemen te traceren die betrekking hebben op uw aanmeldingsprobleem. 
 
@@ -56,7 +56,7 @@ Huidige versies van **Power BI Desktop** maken gebruik van de huidige versie van
 
 De volgende uitzonderingen in *Power BI Desktop*-traceringsbestanden hebben betrekking op deze fout:
 
-* *Microsoft.IdentityModel.Clients.ActiveDirectory.AdalServiceException: omleiding van niet-HTTPS-URL wordt niet ondersteund in de webweergave*
+* *Microsoft.IdentityModel.Clients.ActiveDirectory.AdalServiceException: omleiding van een niet-HTTPS-URL wordt niet ondersteund in webview*
 * *ErrorCode: non_https_redirect_failed*
 
 Als de *ErrorCode: non_https_redirect_failed* optreedt, betekent dit dat een of meer omleidingspagina's of providers in de omleidingsketen geen met HTTPS beveiligd eindpunt is of dat de certificaatuitgever van een of meer omleidingen niet tot de vertrouwde basiscertificaten van het apparaat behoort. Alle providers in een omleidingsketen voor aanmelding moeten een HTTPS-URL gebruiken. U lost dit probleem op door uw beheerder te vragen om beveiligde URL's te gebruiken voor de verificatiesites. 

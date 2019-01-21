@@ -1,23 +1,23 @@
 ---
-title: 'Voorbeeld van een IT-uitgavenanalyse voor Power BI: een rondleiding'
-description: 'Voorbeeld van een IT-uitgavenanalyse voor Power BI: een rondleiding'
+title: 'Voorbeeld van een IT-uitgavenanalyse voor Power BI: Rondleiding volgen'
+description: 'Voorbeeld van een IT-uitgavenanalyse voor Power BI: Rondleiding volgen'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 66a1999637f31083681a6984d4698d78815dc1c1
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 910e4de20d777281f7617727889befa5eb80dfe1
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717465"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290061"
 ---
-# <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Voorbeeld van een IT-uitgavenanalyse voor Power BI: een rondleiding
+# <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Voorbeeld van een IT-uitgavenanalyse voor Power BI: Rondleiding volgen
 
 ## <a name="overview-of-the-it-spend-analysis-sample"></a>Overzicht van het voorbeeld van een IT-uitgavenanalyse
 Met het [inhoudspakket](service-organizational-content-pack-introduction.md) IT-uitgavenanalyse (dashboard, rapport en gegevensset) kunt u de geplande kosten van een IT-afdeling afzetten tegen de werkelijke kosten. Deze vergelijking biedt inzicht in hoe goed het bedrijf het jaar heeft gepland en de mogelijkheid om gebieden te onderzoeken die sterk afwijken van de planning. Het bedrijf in dit voorbeeld hanteert een jaarlijks planningscyclus en produceert vervolgens elk kwartaal een nieuw overzicht met de laatste prognoses om de wijzigingen in de IT-uitgaven in het fiscale jaar te kunnen analyseren.

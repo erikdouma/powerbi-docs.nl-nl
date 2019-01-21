@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 8ee878efe78e0f266e27b7404aa645dc8a0fd3bf
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: a9d3856f643eed0ccb5383f2dda55ea57a32908a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717718"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284927"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Vanuit een rapport een tegel vastmaken aan een Power BI-dashboard
 ## <a name="pinning-tiles-from-a-report"></a>Tegels vanuit een rapport vastmaken
@@ -26,7 +26,7 @@ En volledige rapportpagina's kunnen worden vastgemaakt aan een dashboard.  Dit w
 
 U kunt geen tegels vastmaken van rapporten die met u zijn gedeeld of van Power BI Desktop. 
 
-> **TIP**: sommige visualisaties gebruiken achtergrondafbeeldingen. Vastmaken werkt mogelijk niet als de achtergrondafbeelding te groot is.  Verklein de afbeelding of gebruik beeldcompressie.  
+> **TIP**: Sommige visualisaties gebruiken achtergrondafbeeldingen. Vastmaken werkt mogelijk niet als de achtergrondafbeelding te groot is.  Verklein de afbeelding of gebruik beeldcompressie.  
 > 
 > 
 

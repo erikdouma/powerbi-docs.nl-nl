@@ -1,23 +1,23 @@
 ---
-title: 'Voorbeeld van kwaliteitsanalyse van leveranciers voor Power BI: een rondleiding volgen'
-description: 'Voorbeeld van kwaliteitsanalyse van leveranciers voor Power BI: een rondleiding volgen'
+title: 'Voorbeeld van kwaliteitsanalyse van leveranciers voor Power BI: Rondleiding volgen'
+description: 'Voorbeeld van kwaliteitsanalyse van leveranciers voor Power BI: Rondleiding volgen'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 0b214e2c08e6a39e4b09643c02bccedb56d5b9f4
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 3ef48bbe55793825693382252ac143068549d7a8
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717649"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292977"
 ---
-# <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Voorbeeld van kwaliteitsanalyse van leveranciers voor Power BI: een rondleiding volgen
+# <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Voorbeeld van kwaliteitsanalyse van leveranciers voor Power BI: Rondleiding volgen
 
 ## <a name="a-brief-overview-of-the-supplier-quality-analysis-sample"></a>Een kort overzicht van het voorbeeld van kwaliteitsanalyse van leveranciers
 Dit voorbeelddashboard met bedrijfsgegevens en het onderliggende rapport zijn gericht op een van de typische uitdagingen met betrekking tot de toelevering: kwaliteitsanalyse van leveranciers.
@@ -167,5 +167,5 @@ Laten we nog een andere dashboardtegel bekijken die gerelateerd is aan het total
 
 Dit is een veilige omgeving om in te spelen. U kunt er altijd voor kiezen om de wijzigingen niet op te slaan. Als u deze wel opslaat, kunt u altijd naar **Gegevens ophalen** gaan voor een nieuwe kopie van dit voorbeeld.
 
-## <a name="next-steps-connect-to-your-data"></a>Volgende stappen: koppelen aan uw gegevens
+## <a name="next-steps-connect-to-your-data"></a>Volgende stappen: Verbinding maken met uw gegevens
 We hopen dat deze rondleiding heeft laten zien hoe Power BI-dashboards, Q&A en rapporten inzicht kunnen geven in gegevens over de kwaliteit van leveranciers. Nu is het uw beurt om verbinding met uw eigen gegevens te maken. Met Power BI kunt u verbinding maken met een groot aantal gegevensbronnen. Zie [Aan de slag met Power BI](service-get-started.md) voor meer informatie.

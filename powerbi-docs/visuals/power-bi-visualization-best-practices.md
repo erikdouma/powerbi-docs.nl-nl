@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 77802d2db59ddff94123991e209441b4c491f98b
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: e426d781f7a2e663687f443c423e1fc326624289
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548598"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296718"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Aanbevolen procedures voor het ontwerpen van rapporten en visuele elementen
 <!-- Shared newnav Include -->
@@ -65,7 +65,7 @@ We beginnen dit document met een voorbeeld van een rapport dat veel werk vereist
 
 ![](media/power-bi-visualization-best-practices/power-bi-example1newa.png)
 
-**Afbeelding 1: er moet heel wat verbeterd worden aan deze rommelige rapportpagina**
+**Afbeelding 1:    er moet heel wat verbeterd worden aan deze rommelige rapportpagina**
 
 Het bovenstaande voorbeeld bevat veel ontwerpproblemen die betrekking hebben op de ruimte (opmaak) die we hieronder zullen bespreken:
 
@@ -95,19 +95,19 @@ We zien in het bijgewerkte rapport hieronder dat de rapportonderdelen nu zijn ui
 
 ![](media/power-bi-visualization-best-practices/power-bi-example2new.png)
 
-**Afbeelding 2: ons rommelige voorbeeld is duidelijk verbeterd met de opmaakbewerkingen**
+**Afbeelding 2:    ons rommelige voorbeeld is duidelijk verbeterd met de opmaakbewerkingen**
 
 Power BI bevat hulpprogramma's waarmee u de visuele elementen kunt uitlijnen. Wanneer u in Power BI Desktop meerdere visuele elementen selecteert, kunt u met de opties van **Uitlijnen en verdelen** op het linttabblad **Visuele elementen** de positie van visuele elementen met elkaar in overeenstemming brengen.
 
 ![](media/power-bi-visualization-best-practices/power-bi-visualization.png)
 
-**Afbeelding 3: visuele elementen uitlijnen in Power BI Desktop**
+**Afbeelding 3:    visuele elementen uitlijnen in Power BI Desktop**
 
 In Power BI Online en Power BI Desktop kunt u het formaat en de positie van visuele elementen nauwkeurig regelen via het tabblad **Algemeen** in het opmaakvenster voor alle visuele elementen:
 
 ![](media/power-bi-visualization-best-practices/power-bi-align-vizs.png)
 
-**Afbeelding 4: de exacte positie voor het visuele element instellen**
+**Afbeelding 4:    de exacte positie voor het visuele element instellen**
 
 In ons voorbeeld van de rapportpagina (afbeelding 2) zijn de twee kaarten en de lange rand uitgelijnd op **positie 200 van de x-as**.
 
@@ -121,11 +121,11 @@ Hieronder wordt een rapportpagina weergegeven met het paginaformaat 4:3 en vervo
 
 ![](media/power-bi-visualization-best-practices/power-bi-page-view-before.png)
 
-**Afbeelding 5a: het rapport met het paginaformaat 4:3**
+**Afbeelding 5a:    het rapport met het paginaformaat 4:3**
 
 ![](media/power-bi-visualization-best-practices/power-bi-page-view-after.png)
 
-**Afbeelding 5b: het rapport met het paginaformaat 16:9**
+**Afbeelding 5b:    het rapport met het paginaformaat 16:9**
 
 Wordt uw rapport weergegeven in de verhouding 4:3, 16:9 of met een andere hoogte-breedteverhouding? Op kleine of grote schermen? Of in alle mogelijke beeldverhoudingen en -formaten?  Houd hier bij het ontwerpen rekening mee.
 
@@ -133,7 +133,7 @@ Ons voorbeeld van een rapportpagina ziet er nogal overvol uit. Zorg ervoor dat e
 
 ![](media/power-bi-visualization-best-practices/power-bi-page-size.png)
 
-**Afbeelding 6: de paginahoogte vergroten**
+**Afbeelding 6:    de paginahoogte vergroten**
 
 #### <a name="reduce-clutter"></a>Een pagina overzichtelijker maken
 Het is moeilijk om in een oogopslag inzicht te krijgen in een rommelige rapportpagina en dit kan de gebruikers afschrikken.  Verwijder alle overbodige rapportelementen. Voeg geen 'toeters en bellen' toe als de duidelijkheid of navigatie daar niet bij gebaat is. De informatie op uw rapportpagina moet duidelijk, snel en samenhangend overkomen.
@@ -146,7 +146,7 @@ Ons voorbeeld ziet er hier al een stuk beter uit. We hebben veel overbodige elem
 
 ![](media/power-bi-visualization-best-practices/power-bi-example3newer.png)
 
-**Afbeelding 7: ons voorbeeld van een rommelig rapport is overzichtelijk gemaakt**
+**Afbeelding 7:    ons voorbeeld van een rommelig rapport is overzichtelijk gemaakt**
 
 ### <a name="tell-a-story-at-a-glance"></a>Een boodschap in een oogwenk overbrengen
 Een rapport is goed ontworpen als een gebruiker zonder voorkennis en zonder uitleg van een ander snel begrijpt welke boodschap met het rapport wordt overgebracht. Gebruikers moeten in een oogopslag kunnen zien waar de pagina over gaat en wat er met de grafieken/tabellen wordt uitgedrukt.   
@@ -160,13 +160,13 @@ Selecteer in de Power BI-service op de bovenste menubalk de optie **Tekstvak**. 
 
 ![](media/power-bi-visualization-best-practices/power-bi-text-boxes.png)
 
-**Afbeelding 8: een tekstvak toevoegen**
+**Afbeelding 8:    een tekstvak toevoegen**
 
 Typ de betreffende tekst in het lege vak en gebruik vervolgens de onderstaande besturingselementen om het lettertype, de grootte en de uitlijning in te stellen. Gebruik de grepen om het formaat van het vak aan te passen.
 
 ![](media/power-bi-visualization-best-practices/power-bi-text-box-edit.png)
 
-**Afbeelding 9: het tekstvak opmaken**
+**Afbeelding 9:    het tekstvak opmaken**
 
 Overdrijf het echter niet! Te veel tekst in een rapport leidt de aandacht af, wat ten koste gaat van de visuele elementen. Als u van mening bent dat er heel veel tekst nodig is om de rapportpagina begrijpbaar te maken, moet u opnieuw beginnen met het ontwerp.  Kunt u een ander visueel element gebruiken dat meer voor zichzelf spreekt? Kunt u de systeemeigen titels van het visuele element aanpassen zodat het begrijpelijker is?   
 
@@ -178,17 +178,17 @@ Vormen kunnen ook bijdragen aan een duidelijker ontwerp en een betere navigatie.
 
 ![](media/power-bi-visualization-best-practices/shapes.png)
 
-**Afbeelding 10a: vormen in de Power BI-service**
+**Afbeelding 10a:    vormen in de Power BI-service**
 
 ![](media/power-bi-visualization-best-practices/power-bi-desktop-shapes2new.png)
 
-**Afbeelding 10b: vormen in Power BI Desktop**
+**Afbeelding 10b:    vormen in Power BI Desktop**
 
 Hoe ziet onze voorbeeldpagina er nu uit?  In afbeelding 11 ziet u een overzichtelijker, minder rommelige pagina met een consistent gebruik van lettertypen en kleuren.  De paginatitel in de linkerbovenhoek duidt het onderwerp van de pagina aan.
 
 ![](media/power-bi-visualization-best-practices/power-bi-example4new.png)
 
-**Afbeelding 11: het rapportvoorbeeld waarop de tekstrichtlijnen zijn toegepast en waaraan een titel is toegevoegd**
+**Afbeelding 11:    het rapportvoorbeeld waarop de tekstrichtlijnen zijn toegepast en waaraan een titel is toegevoegd**
 
 In ons voorbeeld is er een titel voor de rapportpagina toegevoegd in de linkerbovenhoek. Dat is de eerste plek in een rapport waar gebruikers naar kijken. De tekengrootte is 28 en het lettertype is Segoe Bold zodat de titel opvalt en zich onderscheidt van de rest van de pagina.  Onze tekststijlgids schrijft voor dat er geen achtergronden, zwarte titels, legenda's en labels worden gebruikt en dat is, indien mogelijk, op alle visuele elementen op de pagina toegepast (de assen van de combinatiegrafiek en de labels kunnen niet worden bewerkt).  En verder:
 
@@ -275,7 +275,7 @@ Voeg een witte achtergrond toe aan de resterende visuele elementen op de rapport
 
 ![](media/power-bi-visualization-best-practices/power-bi-example5b.png)
 
-**Afbeelding 21: rapportvoorbeeld waarop de aanbevolen procedures voor het gebruik van kleur zijn toegepast (witte achtergrond)**
+**Afbeelding 21:    rapportvoorbeeld waarop de aanbevolen procedures voor het gebruik van kleur zijn toegepast (witte achtergrond)**
  
 
 ### <a name="aesthetics"></a>Vormgeving
@@ -319,13 +319,13 @@ Maak dus visuele elementen die de realiteit niet opzettelijk verdraaien en niet 
 
 ![](media/power-bi-visualization-best-practices/corp-success-distorted.png)
 
-**Afbeelding 22: een diagram met een verdraaide realiteit**
+**Afbeelding 22:    een diagram met een verdraaide realiteit**
 
 In dit voorbeeld lijkt het of er een groot verschil is tussen de vier bedrijven en dat CorpB veel succesvoller is dan de andere drie bedrijven.  Zoals u ziet, begint de x-as echter niet bij nul en vallen de verschillen tussen de bedrijven waarschijnlijk binnen de foutmarge.  Hieronder worden dezelfde gegevens weergegeven met een x-as die bij nul begint.
 
 ![](media/power-bi-visualization-best-practices/corp-success.png)
 
-**Afbeelding 23: realistisch diagram**
+**Afbeelding 23:    realistisch diagram**
 
 Gebruikers verwachten vaak dat de x-as bij nul begint en gaan hier dan ook vanuit. Als u de x-as niet bij nul laat beginnen, zorg er dan voor dat de resultaten niet worden verdraaid. U kunt ook een visuele hint of tekstvak toevoegen waarmee u aangeeft dat u afwijkt van de norm.  
 
@@ -347,11 +347,11 @@ Als u de aandacht wilt vestigen op bepaalde perioden, kunt u lijnen of rechthoek
 
 ![](media/power-bi-visualization-best-practices/power-bi-multiples-before.png)
 
-**Afbeelding 24: vóór**
+**Afbeelding 24:    vóór**
 
 ![](media/power-bi-visualization-best-practices/power-bi-multiples-after.png)
 
-**Afbeelding 25: na**
+**Afbeelding 25:    na**
 
 **Astitels in- en uitschakelen**
 
@@ -359,7 +359,7 @@ Selecteer het visuele element om het te activeren en open het opmaakvenster. Vou
 
 ![](media/power-bi-visualization-best-practices/power-bi-axis-titles.png)
 
-**Afbeelding 26: astitels in- en uitschakelen**
+**Afbeelding 26:    astitels in- en uitschakelen**
 
 **Aslabels in- en uitschakelen**
 
@@ -367,7 +367,7 @@ Selecteer het visuele element om het te activeren en open het opmaakvenster. Naa
 
 ![](media/power-bi-visualization-best-practices/power-bi-axis-labels.png)
 
-**Afbeelding 27: aslabels in- en uitschakelen**
+**Afbeelding 27: Aslabels in- en uitschakelen**
 
 > [!TIP]
 > U kunt bijvoorbeeld de labels voor de y-as uitschakelen als u **Gegevenslabels** hebt ingeschakeld.
@@ -380,7 +380,7 @@ Selecteer het visuele element om het te activeren en open het opmaakvenster. Zet
 
 ![](media/power-bi-visualization-best-practices/power-bi-title-off.png)
 
-**Afbeelding 28: titels uit visuele elementen verwijderen**
+**Afbeelding 28:    titels uit visuele elementen verwijderen**
 
 Houd rekening met de wijze waarop gebruikers het rapport bekijken en zorg ervoor dat de visuele elementen en de tekst groot en donker genoeg zijn, zodat ze goed leesbaar zijn. Als de pagina een in verhouding groter visueel element bevat, gaan de gebruikers er mogelijk van uit dat dit het belangrijkste element is. Zorg ervoor dat er voldoende ruimte is tussen de visuele elementen zodat het rapport er niet rommelig uitziet en geen vragen oproept bij de gebruiker.  Lijn de visuele elementen uit zodat de gebruiker gemakkelijker door de pagina navigeert.
 
@@ -390,7 +390,7 @@ Selecteer het visuele element om het te activeren. Pak een van de grepen en slee
 
 ![](media/power-bi-visualization-best-practices/power-bi-drag-handles.png)
 
-**Afbeelding 29: het formaat van een visueel element aanpassen**
+**Afbeelding 29: visual vergroten of verkleinen**
 
 **Een visueel element verplaatsen**
 
@@ -398,7 +398,7 @@ Selecteer het visuele element om het te activeren. Houd de grijpbalk midden bove
 
 ![](media/power-bi-visualization-best-practices/power-bi-move.png)
 
-**Afbeelding 30: een visueel element verplaatsen**
+**Afbeelding 30: een visual verplaatsen**
 
 #### <a name="titles-and-labels-that-are-part-of-the-visualizations"></a>Titels en labels die deel uitmaken van de visualisaties
 Zorg ervoor dat titels en labels leesbaar zijn en voor zichzelf spreken. Tekst in titels en labels moet een optimale grootte hebben en in een kleur zijn die opvalt (zoals zwart in plaats van het standaardgrijs). Herinnert u zich nog onze stijlgids (zie het gedeelte 'Tekst' hierboven)? Beperk het aantal kleuren en formaten. Te veel verschillende tekengrootten en kleuren zorgen voor een drukke en verwarrende pagina.  U kunt bijvoorbeeld dezelfde tekstkleur en tekengrootte voor de titel van alle visuele elementen op een rapportpagina gebruiken en dezelfde uitlijning voor alle titels op een rapportpagina kiezen.  
@@ -411,7 +411,7 @@ Als u een van de onderstaande opmaakbewerkingen wilt uitvoeren, selecteert u het
 
 **Afbeelding 31: het opmaakvenster openen**
 
-Selecteer vervolgens het visuele element dat u wilt aanpassen en zorg ervoor dat het is ingesteld op Aan. Voorbeelden van visuele elementen zijn: **X-as**, **Y-as**, **Titel**, **Gegevenslabels**, en **Legenda**. In het voorbeeld hieronder wordt het element **Titel** weergegeven.
+Selecteer vervolgens het visuele element dat u wilt aanpassen en zorg ervoor dat het is ingesteld op Aan. Voorbeelden van visuele elementen zijn: **X-as**, **Y-as**, **titel**, **gegevenslabels** en **legenda**. In het voorbeeld hieronder wordt het element **Titel** weergegeven.
 
 ![](media/power-bi-visualization-best-practices/power-bi-title-formatting.png)
 
@@ -455,7 +455,7 @@ Power BI beschikt over een zeer interessante functie waarmee u de wijze waarop i
 
 ![](media/power-bi-visualization-best-practices/power-bi-visual-interactions.png)
 
-**Afbeelding 34: interacties tussen visuele elementen**
+**Afbeelding 34: visuele interacties**
 
 Geef vervolgens aan of er met het geselecteerde visuele element moet worden gefilterd, gerelateerde gegevens moeten worden belicht of niets moet worden gedaan. Niet alle visuele elementen kunnen worden belicht en voor die elementen is dan ook geen besturingselement voor het belichten beschikbaar. Zie [Interacties tussen visuele elementen in Power BI](../consumer/end-user-interactions.md) voor meer informatie.
 
@@ -485,7 +485,7 @@ De eenvoudigste manier om kleur te gebruiken, is door de kleur van een of meer g
 
 ![](media/power-bi-visualization-best-practices/power-bi-data-color.png)
 
-**Afbeelding 35: gebruik kleur om een boodschap over te brengen**
+**Afbeelding 35:    kleur gebruiken om een boodschap over te brengen**
 
 U kunt de kleuren van gegevenspunten wijzigen op het tabblad **Gegevenskleuren** in het opmaakvenster. Als u elk gegevenspunt afzonderlijk wilt aanpassen, moet **Alles weergeven** zijn ingesteld op Aan.
 
@@ -506,7 +506,7 @@ In Power BI Desktop kunt u zelfs uitbijters of een gedeelte van een lijn belicht
 
 ![](media/power-bi-visualization-best-practices/power-bi-outliers.png)
 
-**Afbeelding 38: uitbijters grafisch weergeven met Power BI Desktop**
+**Afbeelding 38:    uitbijters grafisch weergeven met Power BI Desktop**
 
 Waarden in de reeks 'Uitbijters' komen hier alleen voor waar de gemiddelde temperatuur van augustus lager is dan 60 (Fahrenheit). Dit is gedaan door een met DAX berekende kolom te maken aan de hand van de volgende formule:
 
@@ -557,7 +557,7 @@ Kleur kan ook worden gebruikt om verschillen ten opzichte van een centrale waard
 
 ![](media/power-bi-visualization-best-practices/power-bi-color.png)
 
-**Afbeelding 44: met kleur verschillen ten opzichte van een centrale waarde benadrukken**
+**Afbeelding 44:    met kleur verschillen ten opzichte van een centrale waarde benadrukken**
  
 
 ### <a name="principles-of-visual-design--applied-to-example-report-page"></a>Beginselen voor het ontwerpen van visuele elementen, toegepast op een voorbeeld van een rapportpagina
@@ -567,7 +567,7 @@ Vóór
 
 ![](media/power-bi-visualization-best-practices/power-bi-example5a.png)
 
-**Afbeelding 45: ons voorbeeldrapport (vóór)**
+**Afbeelding 45:    ons voorbeeldrapport (vóór)**
 
 Na
 
@@ -595,7 +595,7 @@ In het volgende voorbeeld worden de trends weergegeven in het aantal uitgereikte
 
 ![](media/power-bi-visualization-best-practices/power-bi-line-chart.png)
 
-**Afbeelding 47: lijndiagrammen**
+**Afbeelding 47:    lijndiagrammen**
 
 #### <a name="best-practices"></a>Aanbevolen procedures
 * Wanneer gebruikers van rapporten lijndiagrammen bekijken, valt hen als eerste de vorm van de curve op.  Dit houdt in dat uw diagram een x-as moet hebben die betekenis geeft aan de curve, zoals een x-as met een tijdsbestek of de verdeling over verschillende categorieën.  Als u categorische velden met betrekking tot bijvoorbeeld een product of geografie gebruikt voor de x-as, is het lijndiagram niet interessant omdat de curve geen betekenisvolle informatie uitdrukt.
@@ -650,7 +650,7 @@ Raadpleeg voor meer informatie over staaf- en kolomdiagrammen:
 
 * [Inleiding tot staafdiagrammen](http://blog.newscred.com/article/data-visualization-101-bar-charts)
 * [Catalogus voor gegevensvisualisatie: staafdiagram](http://www.datavizcatalogue.com/methods/bar_chart.html#.VYV-hY3bLJw)
-* [Catalogus voor gegevensvisualisatie: staafdiagram met meerdere verzamelingen](http://www.datavizcatalogue.com/methods/multiset_barchart.html#.VYV_gI3bLJw)
+* [Catalogus voor gegevensvisualisatie: staafdiagram met meerdere sets](http://www.datavizcatalogue.com/methods/multiset_barchart.html#.VYV_gI3bLJw)
 
 ### <a name="stacked-barcolumn-charts"></a>Gestapelde staaf-/kolomdiagrammen
 ![](media/power-bi-visualization-best-practices/power-bi-stacked.png)
@@ -659,7 +659,7 @@ Voeg een andere dimensie toe aan uw staaf-/kolomdiagrammen door verschillende ca
 
 ![](media/power-bi-visualization-best-practices/power-bi-deloite.png)
 
-**Afbeelding 54: gestapeld kolomdiagram**
+**Afbeelding 54: gestapelde kolomdiagram**
 
 In dit gestapelde kolomdiagram is te zien dat de totale omzet in de loop van de tijd groeit en dat de categorieën Commercieel en Televisiegelden in dezelfde periode ook gestaag groeien, waardoor dus de totale omzet toeneemt.  Maar bij dit diagram is het niet eenvoudig om het effect te vergelijken dat elk van de drie categorieën op elkaar heeft. Hoe verhoudt bijvoorbeeld de groei van de categorie Commercieel zich tot de groei van Televisiegelden of Wedstrijddag?  Voor deze gegevens kan men beter een lijndiagram of een lijndiagram als aanvullend visueel element gebruiken.  
 
@@ -688,7 +688,7 @@ Raadpleeg voor meer informatie over gestapelde diagrammen:
 ### <a name="combo-barcolumn-charts"></a>Gecombineerde staaf-/kolomdiagrammen
 ![](media/power-bi-visualization-best-practices/power-bi-combo.png)
 
-U kunt in Power BI kolom- en lijndiagrammen combineren tot een combinatiegrafiek. U kunt kiezen uit: een combinatie van een lijndiagram en gestapeld kolomdiagram en een combinatie van een lijndiagram en een gegroepeerd kolomdiagram. Bespaar kostbare ruimte voor uw rapport door twee afzonderlijke visuele elementen te combineren tot één.
+U kunt in Power BI kolom- en lijndiagrammen combineren tot een combinatiegrafiek. De opties zijn: een combinatie van een lijndiagram en gestapeld kolomdiagram en een combinatie van een lijndiagram en een gegroepeerd kolomdiagram. Bespaar kostbare ruimte voor uw rapport door twee afzonderlijke visuele elementen te combineren tot één.
 
 De twee schermafbeeldingen hieronder geven de situatie vóór en na de combinatie weer.  Op de eerste pagina staan twee afzonderlijke visuele elementen: een kolomdiagram die de bevolking gedurende een bepaalde periode weergeeft en een lijndiagram waarin het BBP gedurende dezelfde periode wordt weergegeven. Deze diagrammen zijn geschikt voor een combinatiegrafiek omdat ze dezelfde x-as (jaar) en waarden (2002 tot 2012) hebben.  Waarom zou u deze diagrammen niet combineren om deze twee trends in één visueel element te vergelijken?  Als u deze twee diagrammen combineert, kunt u de gegevens beter vergelijken.
 
@@ -809,7 +809,7 @@ Zie deze onderwerpen voor meer informatie:
 Het moment is nu aangebroken om zelf deze aanbevolen procedures toe te passen.  Houd contact en deel uw eigen aanbevelingen met ons. Bent u het niet eens met onze aanbevelingen of hebt u een goede reden gevonden om een uitzondering te maken?  We horen het graag van u.  
 
 ### <a name="book-recommendations"></a>Aanbevolen boeken
-Er zijn tegenwoordig veel goede boeken beschikbaar waarmee medewerkers kennis kunnen opdoen over de verschillende methoden voor visueel ontwerpen. *Information Dashboard Design* van Stephen Few is een verplicht nummer. In twee andere boeken, *Show Me the Numbers* en *Now You See It* gaat hij uitgebreider op het onderwerp in. Few en anderen hebben zich laten inspireren door Edward R. Tufte. Zijn boek *The Visual Display of Quantitative Information* wordt beschouwd als een klassieker op dit gebied. Tufte heeft ook *Visual Explanations*, *Envisioning Information* en *Beautiful Evidence* geschreven. U kunt ook het nieuwe boek van Andy Kirk *Data Visualization: A Handbook for Data Driven Design* raadplegen. Andere auteurs die worden aanbevolen, zijn: Lachlan James, William McKnight, Boris Evelson (Forrester) en Darkhorse Analytics.
+Er zijn tegenwoordig veel goede boeken beschikbaar waarmee medewerkers kennis kunnen opdoen over de verschillende methoden voor visueel ontwerpen. *Information Dashboard Design* van Stephen Few is een verplicht nummer. In twee andere boeken, *Show Me the Numbers* en *Now You See It* gaat hij uitgebreider op het onderwerp in. Few en anderen hebben zich laten inspireren door Edward R. Tufte. Zijn boek *The Visual Display of Quantitative Information* wordt beschouwd als een klassieker op dit gebied. Tufte heeft ook *Visual Explanations*, *Envisioning Information* en *Beautiful Evidence* geschreven. Het nieuwe boek van Andy Kirk, *Data Visualization: A Handbook for Data Driven Design* is ook een goede optie. Andere auteurs die worden aanbevolen, zijn: Lachlan James, William McKnight, Boris Evelson (Forrester) en Darkhorse Analytics.
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

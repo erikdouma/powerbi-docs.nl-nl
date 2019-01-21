@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: reference
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d3ccba3e68400a5a4c5fbf486aa8ef4b00c51729
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: b3815e6783b612ff52aeb015fdd3b3669b6a2a51
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578331"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282968"
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Privacyniveaus in Power BI Desktop
 In **Power BI Desktop** duiden privacyniveaus op een isolatieniveau dat aangeeft in welke mate gegevensbronnen zijn geïsoleerd van andere gegevensbronnen. Hoewel een beperkend isolatieniveau voorkomt dat informatie tussen gegevensbronnen wordt uitgewisseld, kan het de functionaliteit en prestaties verminderen.
@@ -52,7 +52,7 @@ Als u het privacyniveau van een gegevensbron wilt configureren, selecteert u de 
 | **Gegevens combineren volgens uw instellingen van het privacyniveau voor elke bron** (aan, de standaardinstelling) |Instellingen voor privacyniveaus worden gebruikt om bij het combineren van gegevens het isolatieniveau tussen gegevensbronnen vast te stellen. |
 | **De privacyniveaus en mogelijk verbeterde prestaties negeren** (uit) |Privacyniveaus worden bij het combineren van gegevens niet in overweging genomen. Prestaties en functionaliteit van de gegevens kunnen echter toenemen. |
 
-> **Opmerking over de beveiliging:** het inschakelen van **Privacyniveaus** door **De privacyniveaus en mogelijk verbeterde prestaties negeren** in het dialoogvenster **Privacyniveaus** te selecteren, kan gevoelige of vertrouwelijke gegevens blootstellen aan niet-gemachtigde personen. Schakel **Privacyniveaus** niet in, tenzij u zeker weet dat de gegevensbron geen gevoelige of vertrouwelijke gegevens bevat.
+> **Beveiligingsopmerking:** Het inschakelen van **Privacyniveaus** door **De privacyniveaus en mogelijk verbeterde prestaties negeren** in het dialoogvenster **Privacyniveaus** te selecteren, kan gevoelige of vertrouwelijke gegevens blootstellen aan niet-gemachtigde personen. Schakel **Privacyniveaus** niet in, tenzij u zeker weet dat de gegevensbron geen gevoelige of vertrouwelijke gegevens bevat.
 > 
 > 
 
@@ -68,7 +68,7 @@ a. Als **Gegevens combineren volgens uw instellingen van het privacyniveau voor 
 
 b. Als **De privacyniveaus en mogelijk verbeterde prestaties negeren** is geselecteerd, worden gegevens gecombineerd waarbij uw instelling voor Privacyniveaus wordt genegeerd. Hierdoor kunnen gevoelige of vertrouwelijke gegevens aan niet-gemachtigde gebruikers worden blootgesteld. De instelling kan de prestaties en functionaliteit verhogen.
 
-> **Opmerking over de beveiliging:** het inschakelen van **De privacyniveaus en mogelijk verbeterde prestaties negeren** kan de prestaties mogelijk verbeteren. De privacy van gegevens die in het Power BI Desktop-bestand zijn samengevoegd, kan echter niet worden gegarandeerd.
+> **Beveiligingsopmerking:** Het inschakelen van **De privacyniveaus en mogelijk verbeterde prestaties negeren** kan de prestaties mogelijk verbeteren. De privacy van gegevens die in het Power BI Desktop-bestand zijn samengevoegd, kan echter niet worden gegarandeerd.
 > 
 > 
 

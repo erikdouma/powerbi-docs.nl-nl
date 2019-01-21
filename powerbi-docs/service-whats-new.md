@@ -5,17 +5,17 @@ author: mihart
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: daada8a7f69c600acf6fc45669ed6a42c2fdd831
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: c35f418362c5036331030bf100d9bfca6b943a4a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900653"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295795"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Wat is er nieuw in de Power BI-service
@@ -24,7 +24,7 @@ Raadpleeg deze pagina voor bekende problemen en onlangs uitgebrachte functies in
 - [Wat is er nieuw in Power BI Desktop](desktop-latest-update.md)  
 - [Wat is er nieuw in de mobiele apps voor Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)  
 - [Power BI-teamblog](https://powerbi.microsoft.com/blog/)
-- [Opmerkingen bij de lenterelease (2018) van de zakelijke toepassingen](http://aka.ms/businessappsreleasenotes) van Dynamics 365: de nieuwste updates aan onze zakelijke toepassingen, evenals nieuwe mogelijkheden om uw toepassingen en extensies op ons platform te bouwen. 
+- [Opmerkingen bij de release van zakelijke toepassingen in het voorjaar van 2018](http://aka.ms/businessappsreleasenotes) van Dynamics 365: de meest recente updates voor onze zakelijke toepassingen, evenals diverse nieuwe mogelijkheden voor het bouwen van uw eigen toepassingen en extensies boven op ons platform. 
 
 U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en mogelijkheden.
 
@@ -119,7 +119,7 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 * Power BI SharePoint-webonderdeel beschikbaar gesteld voor alle gebruikers.
 * Power BI verbinden met een gegevensbron via de [Data Connector SDK](https://powerbi.microsoft.com/blog/data-connectors-developer-preview/).
 * Navigeren naar rapporten met meerdere URL filterparameters.
-* Voorbeeld: [Power BI-apps gebruiken](https://powerbi.microsoft.com/blog/distribute-to-large-audiences-with-power-bi-apps/) om uw dashboards en rapporten breed voor grote doelgroepen te distribueren.
+* Preview: [Power BI-apps gebruiken](https://powerbi.microsoft.com/blog/distribute-to-large-audiences-with-power-bi-apps/) om uw dashboards en rapporten breed te distribueren onder grote doelgroepen.
 
 ### <a name="march-2017"></a>Maart 2017
 * Aanpassen hoe Power BI wordt gebruikt in uw organisatie met [gedetailleerde besturingselementen voor beheer](https://powerbi.microsoft.com/blog/announcing-granular-tenant-settings-in-power-bi/).
@@ -128,13 +128,13 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 * Meer controle over uw gegevenssets met [aangepaste planning voor vernieuwen van de cache](https://powerbi.microsoft.com/blog/announcing-custom-cache-refresh-schedules-in-the-power-bi-service/).
 * Verbinding maken met [Amazon Redshift](https://powerbi.microsoft.com/blog/announcing-support-for-amazon-redshift-reports-in-the-power-bi-service/).
 * Bladeren door [aangepaste visuele elementen voor Power BI in de Office-Store](https://powerbi.microsoft.com/blog/custom-visuals-now-available-in-the-office-store/).
-* Voorbeeld: [abonneren op rapportpagina's](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/) om uw gegevens de baas te blijven.
+* Preview: [Abonneren op rapportpagina's](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/) om altijd de meest recente gegevens bij de hand te hebben.
 * Het inhoudspakket van Azure AD gebruiken voor meer informatie over de manier waarop uw werknemers en partners Azure AD gebruiken.
 
 ### <a name="february-2017"></a>Februari 2017
 * [Verbeteringen van de navigatie-preview](https://powerbi.microsoft.com/blog/power-bi-service-february-feature-summary/) - eenvoudiger schakelen tussen werkruimten en actie ondernemen voor de inhoud in de huidige werkruimte. 
 * [Power BI-dashboards insluiten](https://powerbi.microsoft.com/blog/embed-dashboard/) in uw aangepaste toepassing.
-* Voorbeeld: [Power BI-rapporten integreren in SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/). 
+* Preview: [Power BI-rapporten integreren in SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/). 
 
 ### <a name="january-2017"></a>Januari 2017
 * Power BI beheren met behulp van de [Power BI-beheerdersrol](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#pbiadminrole).
@@ -142,25 +142,25 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 * Versie 1.4 van [hulpprogramma's voor ontwikkelaars en API's voor aangepaste visuele elementen](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/) uitgebracht.
 * [Functieset voor realtime streaming ](https://powerbi.microsoft.com/blog/announcing-general-availability-of-power-bi-real-time-streaming-datasets/) vrijgegeven voor algemene beschikbaarheid.
 * [Gegevens naar Power BI pushen met behulp van Microsoft Flow](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/) zonder één regel code te hoeven schrijven.
-* Voorbeeld: [abonneren op rapportpagina's](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/) om uw gegevens de baas te blijven.
+* Preview: [Abonneren op rapportpagina's](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/) om altijd de meest recente gegevens bij de hand te hebben.
 * Het inhoudspakket van Azure AD gebruiken voor meer informatie over de manier waarop uw werknemers en partners Azure AD gebruiken.
 
 ## <a name="2016"></a>2016
 ### <a name="november-2016"></a>November 2016
-* Voorbeeld: uitproberen van de [nieuwe navigatie voor Power BI-service powerbi.com](https://powerbi.microsoft.com/blog/announcing-the-new-power-bi-navigation-preview/)
-* Voorbeeld: [een Power BI-rapport exporteren naar PowerPoint](https://powerbi.microsoft.com/blog/export-power-bi-report-to-powerpoint-preview/).
-* Voorbeeld: [Power BI-rapporten (PBIX-bestanden) downloaden](https://powerbi.microsoft.com/blog/announcing-preview-of-download-power-bi-desktop-files-from-the-web/) vanuit de Power BI-service zodat u deze in Power BI Desktop kunt bewerken.
+* Preview: [De nieuwe navigatie voor de Power BI-service powerbi.com](https://powerbi.microsoft.com/blog/announcing-the-new-power-bi-navigation-preview/) uitproberen
+* Preview: [Een Power BI-rapport exporteren naar PowerPoint](https://powerbi.microsoft.com/blog/export-power-bi-report-to-powerpoint-preview/).
+* Preview: [Power BI-rapporten (PBIX-bestanden) downloaden](https://powerbi.microsoft.com/blog/announcing-preview-of-download-power-bi-desktop-files-from-the-web/) vanuit de Power BI-service, zodat u deze in Power BI Desktop kunt bewerken.
 * Een [vloeistofmeter](https://powerbi.microsoft.com/blog/visual-awesomeness-unlocked-liquid-fill-gauge/) maken, een radiale meter die een percentagewaarde met bewegende vloeistofgolven aangeeft.
 * Uw [gegevens voor Jira-projectbeheer](https://powerbi.microsoft.com/blog/explore-your-jira-data-with-power-bi/) verkennen met dit Power BI-inhoudspakket
 * Uw [Insightcentr-gegevens](https://powerbi.microsoft.com/blog/explore-your-insightcentr-data-with-power-bi/) verkennen met dit Power BI-inhoudspakket
 * Snel infographics maken met het [aangepaste visuele element voor ontwerpers van infographics](https://powerbi.microsoft.com/blog/quickly-create-infographics-with-the-infographic-designer-custom-visual-for-power-bi/)
-* Beperkte preview: [Azure Stream Analytics](https://powerbi.microsoft.com/blog/announcing-private-preview-of-azure-stream-analytics-outputting-to-power-bi-streaming-datasets/) levert Power BI-streaming gegevenssets, waarmee u streamingtegels kunt maken.
-* Voorbeeld: [ESRI ArcGIS Maps visualisaties](https://powerbi.microsoft.com/blog/arcgis-maps-for-powerbi-available-in-powerbi-service/) toevoegen aan uw rapporten en dashboards
+* Beperkte preview: [Azure Stream Analytics](https://powerbi.microsoft.com/blog/announcing-private-preview-of-azure-stream-analytics-outputting-to-power-bi-streaming-datasets/) levert streaming Power BI-gegevenssets, waarmee u streamingtegels kunt maken.
+* Preview: [ESRI ArcGIS Maps-visualisaties](https://powerbi.microsoft.com/blog/arcgis-maps-for-powerbi-available-in-powerbi-service/) toevoegen aan uw rapporten en dashboards
 
 ### <a name="october-2016"></a>Oktober 2016
 * Profiteren van [Power BI-integratie met de nieuwe Microsoft-teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/).
 * [R-visualisaties](https://powerbi.microsoft.com/blog/r-powered-custom-visuals/) ontwerpen in Power BI zonder kennis van R.
-* Voorbeeld: met [Azure Analysis Services](https://powerbi.microsoft.com/blog/introducing-azure-analysis-services/) kunnen BI-professionals semantische BI-modellen maken op basis van gegevens die zich in de cloud of on-premises bevinden om zakelijke gebruikers een vereenvoudigde weergave van hun gegevens te bieden.
+* Preview: Met [Azure Analysis Services](https://powerbi.microsoft.com/blog/introducing-azure-analysis-services/) kunnen BI-professionals semantische BI-modellen maken op basis van gegevens die zich in de cloud of on-premises bevinden om zakelijke gebruikers een vereenvoudigde weergave van hun gegevens te bieden.
 * De nieuwe [Power BI Service beheerdersrol](https://powerbi.microsoft.com/blog/making-it-easier-to-administer-power-bi/) kan worden toegewezen aan gebruikers die toegang tot de Power BI-beheerportal moeten hebben, maar geen andere beheerderstoegang voor Office 365 nodig hebben.
 * Uw [MYOB geavanceerde gegevens met Power BI](https://powerbi.microsoft.com/blog/explore-your-myob-advanced-data-with-power-bi/) verkennen.
 * Hoe een niet-beheerder het [Power BI-auditlogboek](https://powerbi.microsoft.com/blog/tech-tip-thursday-power-bi-auditing-for-a-non-administrator/) kan bekijken
@@ -184,46 +184,46 @@ Zie [de Power BI-teamblog](https://powerbi.microsoft.com/blog/power-bi-july-upda
 ### <a name="june-2016"></a>Juni 2016
 ***Snelle inzichten***
 
-* Snelle inzichten werkt met complexe filters: met trots melden we dat Snelle inzichten met de omvang van slechts één tegel nu complexe filters aankan.
+* Snelle inzichten werkt met complexe filters: Met trots melden we dat Snelle inzichten, met de omvang van slechts één tegel, nu ook complexe filters aankan.
 
 Zie [de Power BI-teamblog](https://powerbi.microsoft.com/blog/smarter-auto-generated-insights-with-complex-filters/) voor meer informatie
 
 ### <a name="may-2016"></a>Mei 2016
 ***Gegevens ophalen***
 
-* Bestandsgroottelimiet verhoogd naar 1 GB: de bestandsgroottelimiet is voor zowel Excel-werkmappen als Power BI Desktop-bestanden verhoogd tot 1 GB.
-* Zoeken naar SSAS-servers die zijn ingesteld met de Enterprise-gateway en andere gateway-updates: wanneer u nu een Enterprise-gateway installeert, kunnen gebruikers in uw bedrijf via de pagina Gegevens ophalen in de Power BI-service toegang krijgen tot deze servers. Er is ook ondersteuning toegevoegd voor het bijwerken van gegevenssets die gegevens bevatten van SAP Business Warehouse Server met behulp van de gateway en voor het maken van UPN-toewijzingsregels wanneer u Analysis Services met de gateway gebruikt.
+* Bestandsgroottelimiet verhoogd naar 1 GB: De bestandsgroottelimiet is voor zowel Excel-werkmappen als Power BI Desktop-bestanden verhoogd naar 1 GB.
+* Zoeken naar SSAS-servers die zijn ingesteld met de Enterprise-gateway en andere gateway-updates: Wanneer u nu een Enterprise-gateway installeert, kunnen gebruikers in uw bedrijf via de pagina Gegevens ophalen in de Power BI-service toegang krijgen tot deze servers. Er is ook ondersteuning toegevoegd voor het bijwerken van gegevenssets die gegevens bevatten van SAP Business Warehouse Server met behulp van de gateway en voor het maken van UPN-toewijzingsregels wanneer u Analysis Services met de gateway gebruikt.
 
 ***Beveiliging op rijniveau (RLS)***
 
-* Ondersteuning voor groepen van Azure Active Directory (AAD): gebruikers kunnen nu AAD-groepen (beveiligingsgroepen en distributielijsten) toewijzen aan een rol. Dit vergemakkelijkt het toewijzen van rollen in één keer aan een grote groep gebruikers.
-* [Uw RLS-rollen testen met rapporten die worden ondersteund door de gegevens voor beveiliging op rijniveau](service-admin-rls.md#validating-the-role-within-power-bi-desktop): er is nu een functie in de RLS-preview waarmee u uw gegevensset als een specifieke rol kunt testen. Hiermee zorgt u dat de functie werkt zoals verwacht voordat gebruikers met uw dashboard gaan werken.
-* RLS definiëren voor en toepassen op cloudmodellen op basis van directe query's: u kunt nu RLS-regels maken en toepassen voor directe query-gegevensbronnen.
+* Ondersteuning voor Azure Active Directory-groepen (AAD-groepen): Gebruikers kunnen nu AAD-groepen (beveiligingsgroepen en distributielijsten) toewijzen aan een rol. Dit vergemakkelijkt het toewijzen van rollen in één keer aan een grote groep gebruikers.
+* [Uw rollen voor beveiliging op rijniveau (RLS) testen met rapporten op basis van gegevens van de RLS-implementatie](service-admin-rls.md#validating-the-role-within-power-bi-desktop): We hebben een functie aan de RLS-preview toegevoegd waarmee u uw gegevensset als een specifieke rol kunt testen. Hiermee zorgt u dat de functie werkt zoals verwacht voordat gebruikers met uw dashboard gaan werken.
+* Beveiliging op rijniveau (RLS) definiëren en op cloudmodellen toepassen op basis van directe query's: U kunt nu RLS-regels maken en toepassen voor gegevensbronnen waarop directe query's kunnen worden uitgevoerd.
 
 ***Dashboards***
 
-* Favoriete dashboards: u kunt nu de dashboards die u het meest gebruikt instellen als favoriet, zodat ze eenvoudig toegankelijk zijn vanuit al uw werkruimten.
+* Favoriete dashboards: U kunt nu de dashboards die u het meest gebruikt, instellen als favoriet, zodat ze eenvoudig toegankelijk zijn vanuit al uw werkruimten.
 
 ***Analyseren in Excel***
 
-* Verbeterde downloadervaring: eenvoudig updates downloaden naar de Analyseren in Excel-functie via een nieuw dialoogvenster.
-* Ondersteuning voor RLS: als u RLS instelt, worden de regels die u toepast op de gegevens nu doorgevoerd wanneer een gebruiker de gegevens in Excel analyseert.
-* Verbeterde foutberichten voor on-premises Analysis Services-databases: als u eerder Analyseren in Excel selecteerde voor een niet-ondersteunde gegevensbron, ontving u geen foutbericht totdat u het ODC-bestand had gedownload en verbinding had geprobeerd te maken met Power BI. Nu verschijnt zodra u Analyseren in Excel selecteert voor een gegevensbron die niet wordt ondersteund, een foutbericht dat deze gegevensbron nog niet wordt ondersteund.
+* Verbeterde downloadervaring: Download via een nieuw dialoogvenster eenvoudig updates naar de functie Analyseren in Excel.
+* Ondersteuning voor beveiliging op rijniveau (RLS): Als u RLS instelt, worden de regels die u op de gegevens toepast, nu doorgevoerd wanneer een gebruiker de gegevens in Excel analyseert.
+* Verbeterde foutberichten voor on-premises Analysis Services-databases: Als u voorheen Analyseren in Excel selecteerde voor een niet-ondersteunde gegevensbron, ontving u pas een foutbericht nadat u het ODC-bestand had gedownload en verbinding had proberen te maken met Power BI. Nu verschijnt zodra u Analyseren in Excel selecteert voor een gegevensbron die niet wordt ondersteund, een foutbericht dat deze gegevensbron nog niet wordt ondersteund.
 
 Zie [de Power BI-teamblog](https://powerbi.microsoft.com/blog/power-bi-service-may-update-file-size-increase-to-1-gb/) voor meer informatie
 
-* [Power BI Q&A-ondersteuning voor tabelmodellen van SQL Server 2016 Analysis Services](service-q-and-a-direct-query.md): Microsoft kondigt met trots verbeteringen aan in de gebruikerservaring van Power BI Q&A en de start van de openbare preview voor Power BI Q&A voor met enterprise-gateway verbonden gegevensbronnen - te beginnen met ondersteuning voor tabelmodellen van SQL Server 2016 Analysis Services. Zie [het blogbericht](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/) voor meer informatie
-* [Lokale bestandsondersteuning voor Excel-rapporten](service-excel-workbook-files.md#local-excel-workbooks): u kunt nu uw Excel-bestanden vanaf de lokale schijf of andere opslagservices uploaden en een Excel-rapport net als in Excel Online gebruiken met de extra voordelen van Power BI. Zie [het blogbericht](https://powerbi.microsoft.com/blog/powerbi-upload-excel-reports-from-local-files/) voor meer informatie
+* [Power BI Q&A-ondersteuning voor tabelmodellen van SQL Server 2016 Analysis Services](service-q-and-a-direct-query.md): Microsoft kondigt met trots verbeteringen aan in de gebruikerservaring van Power BI Q&A en de start van de openbare preview voor Power BI Q&A voor met een enterprise-gateway verbonden gegevensbronnen, te beginnen met ondersteuning voor tabelmodellen van SQL Server 2016 Analysis Services. Zie [het blogbericht](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/) voor meer informatie
+* [Lokale bestandsondersteuning voor Excel-rapporten](service-excel-workbook-files.md#local-excel-workbooks): U kunt nu uw Excel-bestanden vanaf de lokale schijf of uit andere opslagservices uploaden en het betreffende Excel-rapport net als in Excel Online gebruiken met de extra voordelen van Power BI. Zie [het blogbericht](https://powerbi.microsoft.com/blog/powerbi-upload-excel-reports-from-local-files/) voor meer informatie
 
 **28 april 2016**
 
-* [Snelle inzichten op dashboardtegels](consumer/end-user-insights.md): wanneer een tegel wordt weergeven in de focusmodus, klikt u op Inzichten krijgen om automatisch binnen enkele seconden te zoeken naar de tegel en naar de bijbehorende gegevens voor correlaties, uitschieters, trends, seizoensgebondenheid, wijzigingen in trends en belangrijke factoren.
+* [Snelle inzichten op dashboardtegels](consumer/end-user-insights.md): Wanneer een tegel wordt weergeven in de focusmodus, klikt u op Inzichten krijgen om binnen enkele seconden automatisch te zoeken naar de tegel en naar de bijbehorende gegevens voor correlaties, uitschieters, trends, seizoensgebondenheid, wijzigingen in trends en belangrijke factoren.
 
 Zie [de Power BI-teamblog](https://powerbi.microsoft.com/blog/find-more-insights-in-your-dashboards-with-quick-insights/) voor meer informatie
 
 **26 april 2016**
 
-* Verhalen voor Power BI: terwijl u met uw gegevens en visualisaties werkt, levert deze aangepaste visual dynamische inzichten in verhaalvorm, zoals u die ook van een analist zou verwachten. Deze visual wordt gevoed door [Narrative Science Quill](https://www.narrativescience.com/quill).
+* Verhalen voor Power BI: Terwijl u met uw gegevens en visualisaties werkt, levert deze aangepaste visual dynamische inzichten in verhaalvorm, zoals u die ook van een analist zou verwachten. Deze visual wordt gevoed door [Narrative Science Quill](https://www.narrativescience.com/quill).
 
 Zie [de Power BI-teamblog](https://powerbi.microsoft.com/blog/get-natural-language-narratives-in-power-bi-reports/) voor meer informatie
 
@@ -238,11 +238,11 @@ Zie [de Power BI-teamblog](https://powerbi.microsoft.com/blog/power-bi-added-to-
 ***Enterprise***
 
 * [ExpressRoute](service-admin-power-bi-expressroute.md): hiermee kunt u een persoonlijke, beheerde verbinding met Power BI maken.
-* [Inhoudspakketondersteuning voor RLS](service-admin-rls.md) (preview): als RLS is gedefinieerd voor dashboards en rapporten die worden gedistribueerd als onderdeel van een inhoudspakket, worden de beveiligingsregels voor verbindingen in acht genomen voor deze inhoudspakketten.
+* [Inhoudspakketondersteuning voor beveiliging op rijniveau (RLS)](service-admin-rls.md) (preview): Als RLS is gedefinieerd voor dashboards en rapporten die worden gedistribueerd als onderdeel van een inhoudspakket, worden de beveiligingsregels voor verbindingen in acht genomen voor dit inhoudspakket.
 
 ***Dashboards***
 
-* [Vimeo-videotegel](service-dashboard-add-widget.md): voeg vanuit het dashboard een tegel met een ingesloten Vimeo-speler toe.
+* [Vimeo-videotegel](service-dashboard-add-widget.md):  Voeg vanuit het dashboard een tegel met een ingesloten Vimeo-speler toe.
 
 ***Analyseren in Excel***
 
@@ -422,9 +422,9 @@ Veel updates deze week, de meeste voor Power BI Desktop, maar ook enkele belangr
   2. Stripe-connector
   3. Smartsheet-connector
   4. Gegevens invoeren: gegevens plakken of invoeren om een tabel te maken
-  5. DirectQuery-verbeteringen: ondersteuning voor alle gegevenstypen van T-SQL en SAP HANA, wat leidt tot verbeterde prestaties.
-  6. ODBC Connector: ondersteuning voor het selecteren van gebruikers-/systeem-DSN’s
-  7. CSV-connector: mogelijkheid om kolomscheidingsteken op te geven in het dialoogvenster Bron
+  5. DirectQuery-verbeteringen:  ondersteuning voor alle T-SQL- en SAP HANA-gegevenstypen, wat leidt tot verbeterde prestaties.
+  6. ODBC-connector: ondersteuning voor selectie van DSN's van gebruikers/systemen
+  7. CSV-connector: mogelijkheid om een kolomscheidingsteken op te geven in het dialoogvenster Bron
 
 Ga naar de [Power BI-blog](http://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx) voor meer informatie, inclusief een video over deze updates.
 
@@ -448,7 +448,7 @@ Ga naar de [Power BI-blog](http://blogs.msdn.com/b/powerbi/archive/2015/12/16/mo
 * [Power BI-integratie met Cortana](http://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
 * [Voorbeeld van Power BI-gateway voor enterprise](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
 * Introductie van een nieuw inhoudspakket: [Search Analytics van Bing op Power BI-dashboards](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx)
-* Nieuwe uitbreidingen voor ontwikkelaars: [twee nieuwe API's en eenvoudigere app-registratie](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx)
+* Nieuwe verbeteringen gericht op ontwikkelaars: [Twee nieuwe API's en vereenvoudigde app-registratie](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx)
 
 **24 november 2015**
 
@@ -541,7 +541,7 @@ Bekijk de [blog](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-ser
 
 * Zorg voor meer flexibiliteit op uw dashboard en pas uw dashboards aan met extra tegelformaten, variërend van 1x1 tot 5x5.
 * U kunt nu [ een dashboard vanuit uw groepsruimte delen (en het delen ervan opheffen)](service-collaborate-power-bi-workspace.md) op exact dezelfde manier als in uw eigen werkruimte. Als collega's uw uitnodiging voor delen accepteren, wordt het gedeelde dashboard (met de bijbehorende rapporten) met toegang voor alleen-lezen in hun eigen ruimte toegevoegd.
-* We hebben 5 extra [voorbeelden voor specifieke bedrijfstakken](sample-datasets.md) toegevoegd aan Power BI: klantwinstgevendheid, personeelszaken, verkoopkansanalyse, inkoopanalyse en voorbeeld van verkoop en marketing.
+* We hebben 5 extra [voorbeelden voor specifieke bedrijfstakken](sample-datasets.md) toegevoegd aan Power BI: klantwinstgevendheid, personeelszaken, verkoopkansanalyse, inkoopanalyse, en voorbeeld van verkoop en marketing.
 * Stripe is een geavanceerd betalingsplatform voor online bedrijven. Van start-ups tot ondernemingen in de Fortune 500-bedrijven, werken duizenden bedrijven met Stripe om betalingen in meer dan 130 valuta's te accepteren van mensen overal ter wereld. Als u Power BI koppelt aan uw bestaande Stripe-account, kunt u [het Power BI Stripe-inhoudspakket gebruiken om uw Stripe-activiteiten controleren, verkennen en visualiseren](service-connect-to-stripe.md).
 
 [Zie onze blog voor meer informatie](http://blogs.msdn.com/b/powerbi/archive/2015/09/22/power-bi-weekly-service-update-0922.aspx).
@@ -592,11 +592,11 @@ Bekijk de [blog](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-ser
 **24 juli 2015**
 
 * Microsoft kondigt met trots de algemeen beschikbare (GA) versie van Power BI aan. Meld u vandaag nog aan voor [Power BI Pro](service-self-service-signup-for-power-bi.md). Als onderdeel van de GA-versie worden enkele geweldige nieuwe functies geboden:
-* Een nieuwe manier om visualisaties en rapporten te maken: het nieuwe rapportcanvas heeft een groter aanbod aan visualisaties, meer controle over de opmaak van titels, legenda’s, assen, kleuren, achtergronden en meer.
+* Een nieuwe manier om visualisaties en rapporten te maken: het nieuwe rapportcanvas heeft een groter aanbod aan visualisaties, meer controle over de opmaak van titels, legenda's, assen, kleuren, achtergronden en meer.
 * [Power BI-groepen](service-create-distribute-apps.md): groepen bieden een krachtige gezamenlijke ervaring op basis van Office 365-groepen.
 * [Organisatie-inhoudspakketten](service-organizational-content-pack-introduction.md): met Power BI is het maken van dashboards en rapporten zeer eenvoudig. Gebruikers kunnen deze inhoud nu publiceren naar de inhoudsgalerij van hun organisatie.
 * [Hele Excel-bestanden importeren](service-excel-workbook-files.md): u kunt een opgeslagen Excel-werkmap in OneDrive voor Bedrijven in Power BI opnemen en de volledige werkmap op exact dezelfde manier als in Excel Online bekijken.
-* [CSV-bestanden importeren](service-get-data-from-files.md): net zoals een Excel- of een Power BI Desktop-bestand kan een door komma's gescheiden tekstbestand (CSV) ook dienen als gegevensset voor uw Power BI-dashboards en -rapporten.
+* [CSV-bestanden importeren](service-get-data-from-files.md): net zoals een Excel- of een Power BI Desktop-bestand kan ook een door komma's gescheiden tekstbestand (CSV) dienen als gegevensset voor uw Power BI-dashboards en -rapporten.
 * Excel-, Power BI Desktop- en CSV-bestanden vervangen: u kunt een bijgewerkte versie van een bestand uploaden naar Power BI, waarbij de bestaande gegevensset wordt vervangen. De rapporten en dashboards die met deze gegevensset zijn verbonden, gebruiken nu automatisch de nieuwe versie.
 * Microsoft kondigt met trots aan dat de update van deze week nu tracking van werkitems biedt met het [Visual Studio Online-inhoudspakket](http://blogs.msdn.com/b/powerbi/archive/2015/07/22/monitoring-your-visual-studio-online-work-items-with-power-bi.aspx). Deze update bevat een nieuw dashboard en rapport en een bijgewerkte gegevensset die inzicht bieden in uw werkitems, als aanvulling op de belangrijke metrische gegevens over uw Git-opslagplaats, pull-aanvragen en inhoud van versiecontrole die in de eerste versie zijn opgenomen. Zie de [Help-pagina bij het Visual Studio Online-inhoudspakket voor Power BI](service-connect-to-quickbooks-online.md) voor meer informatie over hoe u aan de slag kunt gaan.
 

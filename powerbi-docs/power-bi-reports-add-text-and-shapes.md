@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: _3q6VEBhGew
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 617809e072a492fb9887930e58bafd89ca8201e8
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 937e15f5cd56f7c720afa945598f9fc1641468f7
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544927"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295530"
 ---
 # <a name="static-content-in-power-bi-reports"></a>Statische inhoud in Power BI-rapporten
 Er kunnen tekstvakken en vormen aan de rapporten worden toegevoegd met behulp van de Power BI-service en Power BI Desktop. In beide gevallen moet u bewerkingsrechten voor het rapport hebben. Als een rapport met u is gedeeld in de Power BI-service, hebt u geen bewerkingsmachtigingen. 
@@ -58,7 +58,7 @@ Bekijk hoe Will Power BI Desktop gebruikt om [statistische afbeeldingen aan een 
    ![](media/power-bi-reports-add-text-and-shapes/power-bi-arrrow.png)
 3. Selecteer het grijze gebied aan de bovenkant en sleep om de vorm te positioneren. Als u de grootte van het tekstvak wilt wijzigen, selecteert en sleept u een van de contourgrepen. U kunt, net als bij het tekstvak, een exacte grootte en positie maken voor een vorm.
 
-> **Opmerking**: vormen kunnen niet worden vastgemaakt aan een dashboard, behalve als één van de visualisaties wanneer u [een live-pagina vastmaakt](service-dashboard-pin-live-tile-from-report.md). 
+> **OPMERKING**: vormen kunnen niet worden vastgemaakt aan een dashboard, behalve als één van de visualisaties wanneer u [een live-pagina vastmaakt](service-dashboard-pin-live-tile-from-report.md). 
 > 
 > 
 

@@ -1,23 +1,23 @@
 ---
-title: 'Voorbeeld van klantwinstgevendheid in Power BI: een rondleiding'
-description: 'Voorbeeld van klantwinstgevendheid in Power BI: een rondleiding'
+title: 'Voorbeeld van klantwinstgevendheid in Power BI: Rondleiding volgen'
+description: 'Voorbeeld van klantwinstgevendheid in Power BI: Rondleiding volgen'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: a47a63311dd28f2f1f313bc0a5cfcd68cdb0401b
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 3dd4f5f0404737685757400202d3a92767e44189
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717971"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280830"
 ---
-# <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Voorbeeld van klantwinstgevendheid in Power BI: een rondleiding
+# <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Voorbeeld van klantwinstgevendheid in Power BI: Rondleiding volgen
 
 ## <a name="overview-of-the-customer-profitability-sample"></a>Overzicht van het voorbeeld van klantwinstgevendheid
 Het inhoudspakket Voorbeeld van klantwinstgevendheid bevat een dashboard, rapport en gegevensset voor een bedrijf dat marketingmateriaal maakt. Dit dashboard is gemaakt door een CFO om de belangrijkste metrische gegevens te verzamelen over haar vijf business unit managers, producten, klanten en brutomarges. In een oogopslag kan ze zien welke factoren van invloed zijn op de winstgevendheid.
@@ -195,7 +195,7 @@ Dit is een veilige omgeving om in te spelen. U kunt er altijd voor kiezen om de 
 
 U kunt ook [alleen de gegevensset (Excel-werkmap)](http://go.microsoft.com/fwlink/?LinkId=529781) voor dit voorbeeld downloaden.
 
-## <a name="next-steps-connect-to-your-data"></a>Volgende stap: Verbinding maken met uw gegevens
+## <a name="next-steps-connect-to-your-data"></a>Volgende stappen: Verbinding maken met uw gegevens
 We hopen dat deze rondleiding heeft laten zien hoe Power BI-dashboards, Q&A en rapporten inzicht kunnen geven in klantgegevens. Nu is het uw beurt: aan uw eigen gegevens koppelen. Met Power BI kunt u verbinding maken met een groot aantal gegevensbronnen. Meer informatie over [Aan de slag met Power BI](service-get-started.md).
 
 [Terug naar de voorbeelden in Power BI](sample-datasets.md)  

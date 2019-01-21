@@ -5,23 +5,23 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 660f79eab32ae7ade5cea990c6fc152bb9507297
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: db3184f7bc3c181b685c22d0bcad27206b4a0f8f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "34285963"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296358"
 ---
 # <a name="step-1-register-an-app-with-azure-ad"></a>Stap 1: Een app bij Azure AD registreren
 Dit artikel maakt deel uit van een stapsgewijze uitleg van hoe u [gegevens naar een gegevensset pusht](walkthrough-push-data.md).
 
 De eerste stap bij het pushen van gegevens in een Power BI-gegevensset bestaat uit het registreren van uw app in Azure AD. U moet dit eerst doen zodat u een **client-id** hebt waarmee uw app in Azure AD kan worden geïdentificeerd. Zonder een **client-id** kan uw app niet worden geverifieerd in Azure AD.
 
-> **OPMERKING**: voordat u een app registreert voor Power BI, moet u zich [registreren bij Power BI](create-an-azure-active-directory-tenant.md).
+> **OPMERKING**: Voordat u een app registreert voor Power BI, moet u zich [registreren bij Power BI](create-an-azure-active-directory-tenant.md).
 > 
 > 
 
@@ -47,7 +47,7 @@ In de volgende stap ziet u hoe u [een toegangstoken voor verificatie kunt verkri
 ## <a name="next-steps"></a>Volgende stappen
 [Sign up for Power BI](create-an-azure-active-directory-tenant.md) (Aanmelden voor Power BI)  
 [Get an authentication access token](walkthrough-push-data-get-token.md) (Een verificatietoegangstoken ophalen)  
-[Overzicht: gegevens in een gegevensset pushen](walkthrough-push-data.md)  
+[Overzicht: Gegevens naar een gegevensset pushen](walkthrough-push-data.md)  
 [Register an application](register-app.md) (Een toepassing registreren)  
 [Overview of Power BI REST API](overview-of-power-bi-rest-api.md) (Overzicht van de REST-API voor Power BI)  
 

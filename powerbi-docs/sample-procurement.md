@@ -1,23 +1,23 @@
 ---
-title: 'Voorbeeld van een inkoopanalyse: rondleiding'
-description: 'Voorbeeld van een inkoopanalyse voor Power BI: een rondleiding'
+title: 'Voorbeeld van een inkoopanalyse: Rondleiding volgen'
+description: 'Voorbeeld van een inkoopanalyse voor Power BI: Rondleiding volgen'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 3b0c6fcc72e5b2f95b06f1184341298d449bf57e
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 18b99bf86f49f1355d4ab9f20ff6e8a83c89731d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717143"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287343"
 ---
-# <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Voorbeeld van een inkoopanalyse voor Power BI: een rondleiding
+# <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Voorbeeld van een inkoopanalyse voor Power BI: Rondleiding volgen
 
 ## <a name="overview-of-the-procurement-analysis-sample"></a>Overzicht van het voorbeeld van een inkoopanalyse
 In dit voorbeelddashboard met bedrijfsgegevens en in het onderliggende rapport worden de uitgaven van een productiebedrijf aan leveranciers geanalyseerd op categorie en locatie. In het voorbeeld verkennen we deze gebieden:
@@ -71,10 +71,10 @@ Laten we eerst zoeken naar bestedingstrends op categorie en locatie.
 
 U ziet een aantal dingen:
 
-* In het lijndiagram **Totaal aan facturen per maand en categorie**: de categorie **Direct** heeft behoorlijk consistente uitgaven **Logistiek** heeft een piek in december en  **Overige** heeft een piek in februari.
-* Op de kaart **Totaal aan facturen per land/regio**: het grootste deel van onze uitgaven is in de Verenigde Staten.
+* In het lijndiagram **Totaal aan facturen per maand en categorie**: de categorie **Direct** heeft behoorlijk consistente uitgaven, **Logistiek** heeft een piek in december en **Overige** heeft een piek in februari.
+* Op de kaart **Totaal aan facturen per land/regio**: het grootste deel van de uitgaven vindt plaats in de Verenigde Staten.
 * In het kolomdiagram **Totaal aan facturen per subcategorie**: **Hardware** en **Indirecte goederen en services** zijn de grootste bestedingscategorieën.
-* In het staafdiagram Totaal aan facturen per laag: wij doen het meeste zaken met onze leveranciers van laag 1 (top 10). Dit helpt bij een beter relatiebeheer van onze leveranciers.
+* In het staafdiagram Totaal aan facturen per laag: Het grootste deel van onze bestedingen verloopt via onze leveranciers van Laag 1 (top 10). Dit helpt bij een beter relatiebeheer van onze leveranciers.
 
 ## <a name="spending-in-mexico"></a>Uitgaven in Mexico
 Laten we de bestedingsgebieden in Mexico bekijken.
@@ -139,5 +139,5 @@ Selecteer **Rapport bewerken** in de linkerbovenhoek en bekijk deze optie in de 
 
 Dit is een veilige omgeving om in te experimenteren. U kunt er namelijk altijd voor kiezen de wijzigingen niet op te slaan. Als u ze wel opslaat, kunt u altijd via **Gegevens ophalen** een nieuwe kopie van dit voorbeeld downloaden.
 
-## <a name="next-steps-connect-to-your-data"></a>Volgende stappen: koppelen aan uw gegevens
+## <a name="next-steps-connect-to-your-data"></a>Volgende stappen: Verbinding maken met uw gegevens
 We hopen dat deze rondleiding heeft geleerd hoe u met Power BI-dashboards en rapporten inzicht kunt krijgen in inkoopgegevens. Nu is het uw beurt: aan uw eigen gegevens koppelen. Met Power BI kunt u koppelen aan een groot aantal gegevensbronnen. Zie [Aan de slag met Power BI](service-get-started.md) voor meer informatie.

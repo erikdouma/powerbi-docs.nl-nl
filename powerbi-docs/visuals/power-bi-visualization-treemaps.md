@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 92e86817231e959db50af3c32fe8eba761c79a61
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: dd7360761cc78aed9b01eb99165de9f0b4b91ffe
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448863"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54274761"
 ---
 # <a name="treemaps-in-power-bi"></a>Treemaps in Power BI
 In treemaps worden hiërarchische gegevens weergegeven als een set van geneste rechthoeken.  Elk niveau van de hiërarchie wordt weergegeven als een gekleurde rechthoek (ook wel een vertakking genoemd) die andere gekleurde rechthoeken (bladeren) bevat.  De ruimte in elke rechthoek wordt toegewezen op basis van de waarde die wordt gemeten. En de rechthoeken zijn gerangschikt op grootte van linksboven (grootste) naar rechtsonder (kleinste).

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 379f80e1e87181ffdacdaab01d87ff435f2a9501
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 8d32ad24fd41c33d0b1e1f37f11be39292e82742
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473769"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291068"
 ---
 # <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>Veel-op-veelrelaties in Power BI Desktop (preview)
 
@@ -171,6 +171,6 @@ De bestaande beperkingen van het gebruik van DirectQuery gelden nog steeds wanne
 
 Zie de volgende artikelen voor meer informatie over samengestelde modellen en DirectQuery:
 * [Samengestelde modellen in Power BI Desktop (preview-versie)](desktop-composite-models.md)
-* [Opslagmodus in Power BI Desktop (preview)](desktop-storage-mode.md)
+* [Opslagmodus in Power BI Desktop (preview-versie)](desktop-storage-mode.md)
 * [DirectQuery in Power BI Desktop gebruiken](desktop-directquery-about.md)
 * [Gegevensbronnen die worden ondersteund door DirectQuery in Power BI Desktop](desktop-directquery-data-sources.md)

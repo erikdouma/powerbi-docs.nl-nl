@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 12/14/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 263c1a576e939a87e970cc2c0200dfb6c1ccdc41
-ms.sourcegitcommit: 47269676aa600e60ec7ba0e323941a71e0622833
+ms.openlocfilehash: 512b189575acd7651dea8747c36e8666875edae5
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "51273328"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295742"
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>On-premises gegevensgateway (persoonlijke modus)
 U kunt on-premises gegevensbronnen gebruiken en Power BI-rapporten en -dashboards maken met behulp van een gateway. Een **gateway** is software die de toegang vereenvoudigt tot gegevens die zijn opgeslagen op een privé, on-premises netwerk en het vervolgens mogelijk maakt deze gegevens te gebruiken in onlineservices, zoals de **Power BI-service**. De **on-premises gegevensgateway (persoonlijke modus)** is een onlangs uitgebrachte update voor de Power BI-gateway waarmee personen een gateway kunnen installeren op hun eigen computer om zo toegang te krijgen tot on-premises gegevens.
@@ -114,28 +114,28 @@ Ondersteuning voor Spark is gepland voor de tweede helft van het kalenderjaar 20
 ## <a name="frequently-asked-questions-faq"></a>Veelgestelde vragen
 * Kan ik de **on-premises gegevensgateway (persoonlijke modus)** uitvoeren naast de **on-premises gegevensgateway** (voorheen bekend als de Enterprise-versie van de gateway)?
   
-  * **Antwoord**: ja, met de nieuwe versie kunnen deze gelijktijdig worden uitgevoerd.
+  * **Antwoord**: Ja, met de nieuwe versie kunnen deze gelijktijdig worden uitgevoerd.
 * Kan ik de **On-premises gegevensgateway (persoonlijke modus)** uitvoeren als een service?
   
-  * **Antwoord:** nee. De **on-premises gegevensgateway (persoonlijke modus)** kan alleen worden uitgevoerd als een toepassing. Als u de gateway wilt uitvoeren als een service en/of met beheerdersrechten, zult u de [**on-premises gegevensgateway**](service-gateway-onprem.md) (voorheen bekend als de Enterprise-gateway) moeten gebruiken.
+  * **Antwoord**: Nee. De **on-premises gegevensgateway (persoonlijke modus)** kan alleen worden uitgevoerd als een toepassing. Als u de gateway wilt uitvoeren als een service en/of met beheerdersrechten, zult u de [**on-premises gegevensgateway**](service-gateway-onprem.md) (voorheen bekend als de Enterprise-gateway) moeten gebruiken.
 * Hoe vaak wordt de **on-premises gegevensgateway (persoonlijke modus)** bijgewerkt?
   
-  * **Antwoord**: we zullen de persoonlijke gateway maandelijks bijwerken.
+  * **Antwoord**: We gaan de persoonlijke gateway maandelijks bijwerken.
 * Waarom word ik gevraagd mijn referenties bij te werken?
   
-  * **Antwoord**: er kunnen diverse redenen zijn waarom u om uw referenties wordt gevraagd. De meest voorkomende reden is dat u de **on-premises gegevensgateway (persoonlijke modus)** hebt geïnstalleerd op een andere computer dan uw **Power BI - Personal**-gateway. Het is ook mogelijk dat er een probleem is opgetreden in de gegevensbron, waardoor Power BI geen testverbinding kon maken, of dat er een time-out of systeemfout is opgetreden. U kunt uw referenties voor de **Power BI-service** bijwerken door te navigeren naar het **tandwielpictogram**, **Instellingen** te selecteren en vervolgens op **Gegevenssets** te klikken. U kunt dan de gegevensset in kwestie zoeken en klikken op *Referenties bijwerken*.
+  * **Antwoord**: Er kunnen diverse redenen zijn waarom u om uw referenties wordt gevraagd. De meest voorkomende reden is dat u de **on-premises gegevensgateway (persoonlijke modus)** hebt geïnstalleerd op een andere computer dan uw **Power BI - Personal**-gateway. Het is ook mogelijk dat er een probleem is opgetreden in de gegevensbron, waardoor Power BI geen testverbinding kon maken, of dat er een time-out of systeemfout is opgetreden. U kunt uw referenties voor de **Power BI-service** bijwerken door te navigeren naar het **tandwielpictogram**, **Instellingen** te selecteren en vervolgens op **Gegevenssets** te klikken. U kunt dan de gegevensset in kwestie zoeken en klikken op *Referenties bijwerken*.
 * Hoelang is mijn vorige persoonlijke gateway offline tijdens de upgrade?
   
-  * **Antwoord**: de upgrade van de persoonlijke gateway naar de nieuwe versie zou slechts enkele minuten moeten duren. 
+  * **Antwoord**: Het upgraden van de persoonlijke gateway naar de nieuwe versie duurt normaliter slechts enkele minuten. 
 * Wat gebeurt er als ik niet voor 31 juli 2017 overstap naar de nieuwe persoonlijke gateway?
   
-  * **Antwoord**: als u uw rapporten met behulp van de oudere versie van de gateway vernieuwt, stopt het vernieuwproces. De enige manier om een nieuw vernieuwingsschema in te stellen is de nieuwe gateway te installeren en configureren.
+  * **Antwoord**: Als u uw rapporten met behulp van de huidige gateway vernieuwt, stopt het vernieuwingsproces. De enige manier om een nieuw vernieuwingsschema in te stellen is de nieuwe gateway te installeren en configureren.
 * Ik gebruik R-scripts. Wordt dit ondersteund?
   
-  * **Antwoord**: R-scripts worden ondersteund voor de persoonlijke modus.
+  * **Antwoord**: R-scripts worden ondersteund in de persoonlijke modus.
 * Waarom wordt de melding om mijn gateway bij te werken niet weergegeven in de **Power BI-service**?
   
-  * **Antwoord**: dit is waarschijnlijk omdat u één of meer gegevenssets gebruikt met een gegevensbron die nog niet wordt ondersteund.
+  * **Antwoord**: Dit komt waarschijnlijk doordat u een of meer gegevenssets gebruikt met een gegevensbron die nog niet wordt ondersteund.
 
 ## <a name="next-steps"></a>Volgende stappen
 [Configuring proxy settings for the on-premises data gateway](service-gateway-proxy.md) (Proxy-instellingen voor de on-premises gegevensgateway configureren)  

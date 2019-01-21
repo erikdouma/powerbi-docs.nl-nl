@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 01/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d57d31e87197ee9d764a8d263dd4ee6dd0c75ac3
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: d0c6222c4b10307985ad039c3b391c8648614979
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619627"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280051"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Toegankelijkheid in Power BI Desktop-rapporten
 Power BI bevat functies die het gebruikers met een handicap gemakkelijker maken om Power BI-rapporten te gebruiken en ermee te werken. Deze functies omvatten de mogelijkheid om een rapport te gebruiken met het toetsenbord of een schermlezer, de focus te verplaatsen naar verschillende objecten op een pagina met de tabtoets, en handig gebruik te maken van markeringen in visualisaties.
@@ -34,22 +34,22 @@ Wanneer u een rapport bekijkt, moet in het algemeen de scanmodus zijn uitgeschak
 U kunt de focus verplaatsen tussen de tabbladen van het rapport of de objecten op een rapportpagina met **Ctrl+F6**.
 
 * Als een van de *rapportpaginatabs* de focus heeft, kunt u focus van de ene naar de andere rapportpagina verplaatsen met de *tabtoets* of de *pijltoetsen*. De titel van de rapportpagina wordt gelezen door de schermlezer, en ook of de rapportpagina momenteel is geselecteerd. Om de rapportpagina met de focus te laden, drukt u op *Enter* of de *spatiebalk*.
-* Wanneer een geladen *rapportpagina* de focus heeft, drukt u op de *tabtoets* om de focus te verplaatsen tussen alle objecten op de pagina, zoals tekstvakken, afbeeldingen, vormen en diagrammen. De schermlezer leest het type object, de eventuele titel van het object en een beschrijving van dat object als deze door de auteur van het rapport is opgegeven. 
+* Wanneer een geladen *rapportpagina* de focus heeft, drukt u op de *tabtoets* om de focus te verplaatsen tussen alle objecten op de pagina, zoals tekstvakken, afbeeldingen, vormen en diagrammen. De schermlezer leest het type object, de (eventuele) titel van het object en een beschrijving van dat object als deze door de auteur van het rapport is opgegeven. 
 
-Als u tussen visuals navigeert en hier verder interactief mee wilt werken, drukt u op **Alt+Shift+F10** om de focus naar de visuele kop te verplaatsen. Deze kop bevat verschillende opties zoals het sorteren en exporteren van de gegevens achter de grafiek en de Focus-modus. 
+Als u tussen visuals navigeert, drukt u op **Alt+Shift+F10** om de focus naar de visuele kop te verplaatsen. Deze kop bevat verschillende opties zoals het sorteren en exporteren van de gegevens achter de grafiek en de Focus-modus. 
 
 ![Druk op Alt+Shift+F10 in Power BI Desktop om de focus naar de header van de visual te verplaatsen](media/desktop-accessibility/accessibility_08.png)
 
-U kunt op **Alt+Shift+F11** drukken om een toegankelijke versie van het venster *Gegevens weergeven* weer te geven. Hiermee kunt u de gegevens die in de visual worden gebruikt, in een HTML-tabel bekijken met behulp van dezelfde sneltoetsen die u normaal gesproken met de schermlezer gebruikt. 
+U kunt op **Alt+Shift+F11** drukken om een toegankelijke versie van het venster *Gegevens weergeven* weer te geven. Hiermee bekijkt u de gegevens die in de visual worden gebruikt in een HTML-tabel met behulp van dezelfde sneltoetsen die u normaal gesproken met de schermlezer gebruikt. 
 
 ![Druk op Alt+Shift+F11 in Power BI Desktop om een toegankelijke versie van het venster Gegevens weergeven voor een visueel element weer te geven](media/desktop-accessibility/accessibility_04.png)
 
 > [!NOTE]
 > De functie Gegevens weergeven is alleen toegankelijk voor een schermlezer via deze sneltoets. Als u Gegevens weergeven opent via de optie in de visuele kop, is deze optie niet toegankelijk voor een schermlezer. Wanneer u Gegevens weergeven gebruikt, kunt u de scanmodus inschakelen om te profiteren van alle sneltoetsen van de schermlezer.
 
-Sinds de release van **Power BI Desktop** in juli 2018 hebben slicers ook ingebouwde toegankelijkheidsfuncties. Wanneer u een slicer selecteert, past u de waarde van de slicer aan door met Ctrl+pijl-rechts door de verschillende besturingselementen binnen de slicer te gaan. Bijvoorbeeld: de eerste keer dat u op Ctrl+pijl-rechts drukt, is de focus op de gum en is het drukken op de spatiebalk gelijk aan klikken op de knop Gum, waarbij alle waarden in de slicer worden gewist. 
+Sinds de release van **Power BI Desktop** in juli 2018 hebben slicers ook ingebouwde toegankelijkheidsfuncties. Wanneer u een slicer selecteert, past u de waarde van de slicer aan door met Ctrl+pijl-rechts door de verschillende besturingselementen binnen de slicer te gaan. Bijvoorbeeld: de eerste keer dat u op Ctrl + rechterpijl drukt, is de focus op de gum en is het drukken op de spatiebalk gelijk aan klikken op de knop Gum, waarbij alle waarden in de slicer worden gewist. 
 
-U kunt door de besturingselementen in een slicer gaan door op de TAB-toets te drukken. Bij het drukken op de TAB-toets met de focus op de gum gaat u naar de vervolgkeuzeknop; bij nog een keer drukken gaat u naar de eerste slicerwaarde (als er meerdere waarden voor de slicer zijn, zoals een bereik). 
+U kunt door de besturingselementen in een slicer gaan door op de TAB-toets te drukken. Als u boven de gum op de toets TAB drukt, springt u naar de vervolgkeuzeknop. Als u nog een keer drukt, gaat u naar de eerste slicerwaarde (als er meerdere waarden voor de slicer zijn, zoals een bereik). 
 
 ![Druk op Ctrl+(pijl-rechts) in Power BI Desktop om elementen of waarden in een slicer aan te passen en druk op de spatiebalk om het element te selecteren en de waarde ervan aan te passen](media/desktop-accessibility/accessibility_07.png)
 
@@ -141,7 +141,7 @@ We zetten ons voortdurend in om de toegankelijkheid te verbeteren. Bovenstaande 
 ### <a name="pane-navigation"></a>Navigeren in deelvensters
 | Functie           | Actie                |
 | :------------------- | :------------------- |
-| Een snelmenu openen | <ul><li>Windows-toetsenbord: Windows-snelmenutoets + F10.  De Windows-snelmenutoets bevindt zich tussen de linker Alt-toets en de pijl-links</li><li>Ander toetsenbord: Shift + F10</li></ul> |
+| Een snelmenu openen | <ul><li>Windows-toetsenbord: Windows-contextsleutel + F10.  De Windows-snelmenutoets bevindt zich tussen de linker Alt-toets en de pijl-links</li><li>Ander toetsenbord: Shift + F10</li></ul> |
 
 ### <a name="slicer"></a>Slicer
 | Functie           | Actie                |
@@ -170,7 +170,10 @@ We zetten ons voortdurend in om de toegankelijkheid te verbeteren. Bovenstaande 
 | Selecteer alle instanties van de huidige selectie | Ctrl + Shift + L |
 | Alle instanties van het huidige woord selecteren | Ctrl + F2 |
 
-
+### <a name="enter-data"></a>Gegevens invoeren
+| Functie           | Actie                |
+| :------------------- | :------------------- |
+| Bewerkbaar raster afsluiten | Ctrl + Tab |
 
 
 ## <a name="next-steps"></a>Volgende stappen

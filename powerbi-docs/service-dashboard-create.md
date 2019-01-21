@@ -6,16 +6,16 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: maggies
-ms.openlocfilehash: 28a282ff6a35061422995c46fbbcd34c21b533a7
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: c42aa07fd78430c5692067ae8476b22288470c8c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717419"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54294251"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Een Power BI-dashboard maken op basis van een rapport
 U hebt [Dashboards in Power BI](service-dashboards.md) gelezen en u wilt nu uw eigen dashboard maken. Er zijn veel verschillende manieren om een dashboard te maken: op basis van een rapport, helemaal vanaf het begin, op basis van een gegevensset, door een bestaand dashboard te dupliceren, en meer.  
@@ -65,7 +65,7 @@ We gaan een van de Power BI-voorbeeldgegevenssets importeren en gebruiken om ons
 1. Blijf in dezelfde werkruimte en selecteer het tabblad **Rapporten**. Het zojuist geïmporteerde rapport wordt weergegeven met een geel sterretje. Selecteer de naam van het rapport om het te openen.
 
     ![Tabblad Rapporten](media/service-dashboard-create/power-bi-reports.png)
-2. Het rapport wordt geopend in de Leesweergave. Let op de twee tabbladen aan de onderkant: Discount Analysis (Kortingsanalyse) en Spend Overview (Uitgavenoverzicht). Elk tabblad vertegenwoordigt een pagina van het rapport.
+2. Het rapport wordt geopend in de Leesweergave. U ziet twee tabbladen aan de onderkant: Kortingsanalyse en Uitgavenoverzicht. Elk tabblad vertegenwoordigt een pagina van het rapport.
     Selecteer **Rapport bewerken** om het rapport in de bewerkweergave te openen.
 
     ![Rapport in leesweergave](media/service-dashboard-create/power-bi-reading-view.png)

@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: dee5c14d2ee714872409352b5e42d646e561c271
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 7e76f03a3795976aebd1480dc77a579c9245ed9e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507756"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282052"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Power BI-inhoud met Azure AD B2B distribueren naar externe gastgebruikers
 
@@ -101,6 +101,6 @@ De gastgebruiker beschikt al over een Power BI Pro-licentie die is toegewezen in
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Meer informatie, waaronder informatie over beveiliging op rijniveau, vindt u in het technische document: [Power BI-inhoud met Azure AD B2B distribueren naar externe gastgebruikers](https://aka.ms/powerbi-b2b-whitepaper).
+Raadpleeg het technische document voor meer informatie, inclusief informatie over hoe beveiliging op rijniveau werkt: [Power BI-inhoud met Azure AD B2B distribueren naar externe gastgebruikers](https://aka.ms/powerbi-b2b-whitepaper).
 
 Zie [Wat is B2B-samenwerking van Azure AD?](/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b/) voor meer informatie over Azure AD B2B.

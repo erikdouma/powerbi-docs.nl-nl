@@ -1,20 +1,20 @@
 ---
 title: De virtuele Q&A-analist in iOS-apps - Power BI
 description: Stel in uw eigen woorden vragen over de voorbeeldgegevens aan de virtuele Q&A-analist in de mobiele Power BI-app op uw iOS-apparaat.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
-ms.author: maggies
-ms.openlocfilehash: abd0e6b36af02753d8ff08c8f7405cc6502977d1
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.author: mshenhav
+ms.openlocfilehash: 0517299240137bf63ace8aca6a1da577a4443d2d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548098"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278695"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>De virtuele Q&A-analist in iOS-apps - Power BI
 
@@ -100,7 +100,7 @@ U kunt de voorbeelden nu weergeven op uw iOS-apparaat.
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-expanded-chart.png)
 7. Tik op de pijl in de linkerbovenhoek om terug te gaan naar het venster van de virtuele analist.
 8. Tik op de X rechts van het tekstvak om de tekst te verwijderen en opnieuw te beginnen.
-9. Probeer een andere vraag: tik op **top** in de trefwoorden, tik op **sale by avg $/unit ly** > **Send** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+9. Probeer een andere vraag: Tik op **top** in de trefwoorden, tik op **sale by avg $/unit ly** > **Send** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-2.png)
 10. Kies **by** in de trefwoorden, tik op **time** in de lijst met suggesties bovenaan > **Send** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).

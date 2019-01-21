@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 215b4c8f46b2d39c6dcc5853c07e4e6526027881
-ms.sourcegitcommit: b343e44dbafc0b718c564402593d4b6e3a8ce97c
+ms.openlocfilehash: 5c383cf3c7fcbae88be6943bb418026c849db196
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "51027455"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277429"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Rapportthema's gebruiken in Power BI Desktop
 Met **Rapportthema's** kunt u een kleurenthema op uw gehele rapport toepassen, zoals zakelijke kleuren, seizoensgebonden kleuren of andere kleurenthema's. Wanneer u een **Rapportthema** toepast, worden voor alle visuals in het rapport de kleuren van het geselecteerde thema gebruikt. Er zijn enkele uitzonderingen van toepassing, zoals verderop in dit artikel wordt beschreven.
@@ -83,11 +83,11 @@ Nu het themabestand is geïmporteerd, kunnen we de eenvoudige en duidelijke stru
 
 Het JSON-bestand heeft de volgende vereiste regels:
 
-* **name**: de themanaam, het enige vereiste veld.
+* **name**: De themanaam, het enige vereiste veld.
 
-* **dataColors**: de lijst met hexcode-kleurcodes die voor gegevens in Power BI Desktop-visuals moeten worden gebruikt. De lijst kan zo veel of zo weinig kleuren bevatten als u wilt.
+* **dataColors**: De lijst met hexcode-kleurcodes die voor gegevens in Power BI Desktop-visuals moeten worden gebruikt. De lijst kan zo veel of zo weinig kleuren bevatten als u wilt.
 
-* **background**, **foreground** en **tableAccent**: de kleuren die moeten worden toegepast in verschillende typen visuals. 
+* **background**, **foreground** en **tableAccent**: De kleuren die moeten worden toegepast in verschillende typen visuals. 
   - **foreground** is van toepassing op tekst in tekstvakken, tekst met KPI-doelen, tekst in kaarten met meerdere rijen, kaartwaardetekst, toelichtingstekst bij meters, tekst bij verticale slicerelementen, en totalen en waardeteksten voor **tabellen** en **matrixen**. 
   - **background** is van toepassing op de opvulling van knoppen en de achtergrond van labels in combinatiegrafieken. Hoe deze kleuren worden gebruikt, is afhankelijk van de specifieke visualstijl die is toegepast. 
   - In het geval van **tabel**- en **matrix**-visuals worden deze stijlen standaard toegepast.
@@ -178,9 +178,9 @@ Hier volgen nog enkele rapportthema's die u als uitgangspunt kunt nemen:
 ## <a name="report-theme-json-file-format"></a>Indeling van JSON-bestand voor Rapportthema
 Het JSON-basisbestand heeft vijf vereiste regels:
 
-* **name**: de themanaam, het enige vereiste veld.
-* **dataColors**: de lijst met hexcode-kleurcodes die voor gegevens in Power BI Desktop-visuals moeten worden gebruikt. De lijst kan zo veel of zo weinig kleuren bevatten als u wilt.
-* **background**, **foreground** en **tableAccent**: de kleuren die moeten worden toegepast in verschillende typen visuals. De **foreground** is van toepassing op tekst in tekstvakken, tekst met KPI-doelen, tekst in kaarten met meerdere rijen, kaartwaardetekst, toelichtingstekst bij meters, tekst bij verticale slicerelementen, en totalen en waardeteksten voor **tabellen** en **matrixen**. De **background** is van toepassing op de opvulling van knoppen en de achtergrond van labels in combinatiegrafieken. Hoe deze kleuren worden gebruikt, is afhankelijk van de specifieke visualstijl die is toegepast. Voor de **tabel**- en **matrix**-visuals worden deze stijlen standaard toegepast.
+* **name**: De themanaam, het enige vereiste veld.
+* **dataColors**: De lijst met hexcode-kleurcodes die voor gegevens in Power BI Desktop-visuals moeten worden gebruikt. De lijst kan zo veel of zo weinig kleuren bevatten als u wilt.
+* **background**, **foreground** en **tableAccent**: De kleuren die moeten worden toegepast in verschillende typen visuals. De **foreground** is van toepassing op tekst in tekstvakken, tekst met KPI-doelen, tekst in kaarten met meerdere rijen, kaartwaardetekst, toelichtingstekst bij meters, tekst bij verticale slicerelementen, en totalen en waardeteksten voor **tabellen** en **matrixen**. De **background** is van toepassing op de opvulling van knoppen en de achtergrond van labels in combinatiegrafieken. Hoe deze kleuren worden gebruikt, is afhankelijk van de specifieke visualstijl die is toegepast. Voor de **tabel**- en **matrix**-visuals worden deze stijlen standaard toegepast.
 
 Als u een uitgebreid JSON-bestand wilt maken met gedetailleerder beheer van de opmaak, moet u de sectie **visualStyles** toevoegen in het JSON-bestand. U neemt de specifieke opmaakgegevens op in de sectie **visualStyles**. De sectie **visualStyles** ziet er ongeveer als volgt uit:
 
@@ -262,15 +262,15 @@ De volgende tabel definieert *cardName*-waarden. De eerste waarde in elke cel is
 | fill: Opvullen |
 | fillPoint: Uitvulpunt |
 | forecast: Prognose |
-| general: algemeen |
+| general: Algemeen |
 | goals: Doelstellingen |
 | grid: Raster |
-| header: Kop |
+| header: Koptekst |
 | imageScaling: Schalen |
-| Indicator: Indicator |
+| indicator: Indicator |
 | items: Items |
 | labels: Gegevenslabels |
-| legenda: Legenda |
+| legend: Legenda |
 | lineStyles: Vormen |
 | mapControls: Kaartbesturingselementen |
 | mapStyles: Kaartstijlen |
@@ -298,7 +298,7 @@ De volgende tabel definieert *cardName*-waarden. De eerste waarde in elke cel is
 | wordWrap: Tekstterugloop |
 | xAxisReferenceLine: Constante lijn voor de X-as |
 | y1AxisReferenceLine: Constante lijn |
-| zoom: Zoomen |
+| zoom: In- en uitzoomen |
 
 ### <a name="properties-within-each-card"></a>Eigenschappen binnen elke kaart
 De volgende sectie definieert de eigenschappen binnen elke kaart:

@@ -4,17 +4,17 @@ description: Zelfstudie over het maken van nieuwe visualisaties op dashboards en
 author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 9ca771d200f5bd4b50dfbddbd8eb67931be375c1
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: c139d5561a19dab147610914bc11e1bfd9e9e481
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830005"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277360"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Zelfstudie: Q&A gebruiken om visualisaties en rapporten te maken
 Via het [Q&A-overzicht](consumer/end-user-q-and-a.md) hebt u kennisgemaakt met de Q&A-functie in Power BI en het onderscheid dat is gemaakt tussen *gebruikers* (dashboards en rapporten die worden gedeeld met hen) en *auteurs* (eigenaar van de onderliggende rapporten en gegevenssets). Het eerste deel van deze zelfstudie is voornamelijk bedoeld voor personen die gebruik maken van dashboards met Power BI-service. En het tweede gedeelte is bedoeld voor mensen die met Power BI-service of Power BI Desktop rapporten maken. [Q&A en Power BI-mobiel](consumer/mobile/mobile-apps-ios-qna.md) en [Q&A met Power BI Embedded](developer/qanda.md) worden behandeld in afzonderlijke artikelen.

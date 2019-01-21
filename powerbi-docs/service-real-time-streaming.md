@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 63b75aae9fb9299119b606458a4a8832d77dd1be
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 196d2ef3eb0d8ed8b7f008eef1b247d9e7f1cd18
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417160"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296496"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Realtimestreaming in Power BI
 Met behulp van realtimestreaming van Power BI kunt u gegevens streamen en dashboards in real time bijwerken. Elk visueel element of dashboard dat kan worden gemaakt in Power BI, kan ook worden gemaakt voor het weergeven en bijwerken van realtimegegevens en visuele elementen. De apparaten en bronnen van gestreamde gegevens kunnen variëren van fabriekssensoren tot bronnen van sociale media, maar ook gebruiksgegevens van services en alle andere bronnen waaruit tijdgebonden gegevens kunnen worden verzameld of verzonden.
@@ -44,7 +44,7 @@ Er zijn twee overwegingen met betrekking tot vastgemaakte tegels uit een pushgeg
 * Zodra een visueel element is vastgemaakt aan een dashboard, kunt u **Q&A** gebruiken om in natuurlijke taal vragen te stellen aan de pushgegevensset. Als u een **Q&A**-query hebt gemaakt, kunt u het resulterende visuele element weer vastmaken aan het dashboard en dat dashboard wordt dan *ook* in real time bijgewerkt.
 
 ### <a name="streaming-dataset"></a>Streaminggegevensset
-Met een **streaminggegevensset** worden gegevens ook naar de Power BI-service gepusht, maar met één belangrijk verschil: in Power BI worden de gegevens alleen opgeslagen in een tijdelijke cache, die snel verloopt. De tijdelijke cache wordt alleen gebruikt om visuele elementen weer te geven waarvoor een vergankelijke tijdsperiode geldt, zoals een lijndiagram met een tijdvenster van één uur.
+Met een **streaminggegevensset** worden gegevens ook naar de Power BI-service gepusht, maar er is een belangrijk verschil: de gegevens worden door Power BI alleen opgeslagen in een tijdelijke cache, die snel verloopt. De tijdelijke cache wordt alleen gebruikt om visuele elementen weer te geven waarvoor een vergankelijke tijdsperiode geldt, zoals een lijndiagram met een tijdvenster van één uur.
 
 In het geval van een **streaminggegevensset** is er *geen* onderliggende database, dus u kunt *geen* visuele elementen voor rapporten bouwen met behulp van de gegevens die worden aangevoerd vanuit de stream. Dit betekent dat geen gebruik kunt maken van rapportfunctionaliteit zoals filters, aangepaste visuele elementen en andere rapportfuncties.
 

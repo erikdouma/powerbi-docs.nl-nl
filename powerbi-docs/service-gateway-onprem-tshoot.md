@@ -6,16 +6,16 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 795f97403ea80caad52e57e54edc3d54a4c5d952
-ms.sourcegitcommit: 3b1a1f55465e5dca88783046c6b4c073e4e22e4b
+ms.openlocfilehash: 623eb93c27f0ec762b2c9d063b646d757c3b1f0c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "51580535"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296565"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Problemen met de on-premises gegevensgateway oplossen
 
@@ -60,13 +60,13 @@ De logboeken van de gatewayservice zijn onderverdeeld in drie buckets: informati
 
 Dit bestand bevindt zich standaard op: *\Program Files\On-premises data gateway\Microsoft.PowerBI.EnterpriseGateway.exe.config*. Als u het aantal te bewaren logbestanden wilt configureren, wijzigt u het eerste getal (20 in dit voorbeeld): `GatewayInfo.log,GatewayErrors.log,GatewayNetwork.log,20,50`.
 
-### <a name="error-failed-to-create-a-gateway-try-again"></a>Fout: De gateway is niet gemaakt. Opnieuw proberen
+### <a name="error-failed-to-create-a-gateway-try-again"></a>Fout: Gateway maken is mislukt. Opnieuw proberen
 
 Alle gegevens zijn beschikbaar, maar de aanroep naar de Power BI-service heeft een fout geretourneerd. De fout wordt weergegeven samen met een activiteits-id. Dit kan gebeuren om verschillende redenen. U kunt voor meer informatie de logboeken verzamelen en bekijken, zoals hieronder wordt beschreven.
 
 Dit kan ook voorkomen vanwege problemen met de proxyconfiguratie. De gebruikersinterface biedt geen mogelijkheid voor proxyconfiguratie. U kunt meer informatie raadplegen over het [wijzigen van de proxyconfiguratie](service-gateway-proxy.md)
 
-### <a name="error-failed-to-update-gateway-details-please-try-again"></a>Kan de gatewaygegevens niet bijwerken. Probeer het opnieuw
+### <a name="error-failed-to-update-gateway-details-please-try-again"></a>Fout: Kan de gatewaygegevens niet bijwerken. Probeer het opnieuw
 
 Informatie van de Power BI-service is ontvangen op de gateway. De informatie is doorgegeven aan de lokale Windows-service, maar niet geretourneerd. Een andere mogelijkheid is dat het genereren van een symmetrische sleutel is mislukt. De interne uitzondering wordt weergegeven onder **Details weergeven**. U kunt voor meer informatie de hierna genoemde logboeken verzamelen en bekijken.
 
@@ -117,7 +117,7 @@ De on-premises gegevensgateway maakt standaard gebruik van Transport Layer Secur
 
 ## <a name="data-sources"></a>Gegevensbronnen
 
-### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>Fout: Er kan geen verbinding worden gemaakt. Details: 'Ongeldige verbindingsreferenties'
+### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>Fout: Kan geen verbinding maken. Details: 'Ongeldige verbindingsreferenties'
 
 Onder **Details weergeven** wordt de foutmelding weergegeven die van de gegevensbron is ontvangen. Voor SQL Server ziet dit er ongeveer als volgt uit.
 
@@ -125,7 +125,7 @@ Onder **Details weergeven** wordt de foutmelding weergegeven die van de gegevens
 
 Controleer of u de juiste gebruikersnaam en het juiste wachtwoord gebruikt. Controleer ook of deze referenties verbinding kunnen maken met de gegevensbron. Zorg ervoor dat het gebruikte account overeenkomt met de geselecteerde **verificatiemethode**.
 
-### <a name="error-unable-to-connect-details-cannot-connect-to-the-database"></a>Fout: Er kan geen verbinding worden gemaakt. Details: 'Kan geen verbinding maken met de database'
+### <a name="error-unable-to-connect-details-cannot-connect-to-the-database"></a>Fout: Kan geen verbinding maken. Details: 'Kan geen verbinding maken met de database'
 
 Er kan wel verbinding worden gemaakt met de server, maar niet met de opgegeven database. Controleer de naam van de database en of de gebruikersreferenties de juiste machtigingen hebben voor toegang tot deze database.
 
@@ -133,7 +133,7 @@ Onder **Details weergeven** wordt de foutmelding weergegeven die van de gegevens
 
     Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
 
-### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>Fout: Er kan geen verbinding worden gemaakt. Details: 'Onbekende fout in de gegevensgateway'
+### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>Fout: Kan geen verbinding maken. Details: 'Onbekende fout in de gegevensgateway'
 
 Deze fout kan verschillende oorzaken hebben. Controleer of u verbinding kunt maken met de gegevensbron vanaf de computer die als host fungeert voor de gateway. Dit kan voorkomen wanneer de server niet toegankelijk is.
 
@@ -182,7 +182,7 @@ U moet samenwerken met uw domeinbeheerders om de vertrouwensrelatie tussen de do
 
 Zorg ervoor dat uw account wordt vermeld op het tabblad **Gebruikers** van de gegevensbron in de configuratie van de gateway. Als u geen toegang hebt tot de gateway, neemt u contact op met de beheerder van de gateway en vraagt u deze de informatie te controleren. Alleen op accounts die zijn opgenomen in de lijst met **Gebruikers** is de gegevensbron te zien die wordt weergegeven in de Analysis Services-lijst.
 
-### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>Fout: u hebt geen gateway geïnstalleerd of geconfigureerd voor de gegevensbronnen in deze gegevensset
+### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>Fout: U hebt geen gateway geïnstalleerd of geconfigureerd voor de gegevensbronnen in deze gegevensset
 
 Zorg ervoor dat u een of meer gegevensbronnen hebt toegevoegd aan de gateway, zoals beschreven in [Een gegevensbron toevoegen](service-gateway-manage.md#add-a-data-source). Als de gateway niet wordt weergegeven in de beheerportal onder **Gateways beheren** wist u de browsercache of meldt u zich af en weer aan bij de service.
 
@@ -459,7 +459,7 @@ Volg deze stappen om het probleem op te lossen:
 1. Een SPN voor de on-premises gateway instellen
 2. Beperkte delegering instellen in uw Active Directory (AD)
 
-### <a name="failedtoimpersonateuserexception-failed-to-create-windows-identity-for-user-userid"></a>FailedToImpersonateUserException: kan geen Windows-identiteit voor de gebruiker userid maken
+### <a name="failedtoimpersonateuserexception-failed-to-create-windows-identity-for-user-userid"></a>FailedToImpersonateUserException: Kan geen Windows-identiteit maken voor gebruiker userid
 
 FailedToImpersonateUserException doet zich voor als u zich niet namens een andere gebruiker als zodanig kunt voordoen. Dit kan ook gebeuren als het account dat u probeert te imiteren vanuit een ander domein komt dan het domein waarop de gateway-service zich bevindt (dit is een beperking).
 
@@ -500,7 +500,7 @@ De fout 1033 wordt weergegeven wanneer uw externe id, die is geconfigureerd in S
         <value>AADEmail</value>
 ```
 
-### <a name="sap-aglibodbchdb-dllhdbodbc-communication-link-failure-10709-connection-failed-rte-1-kerberos-error-major-miscellaneous-failure-851968-minor-no-credentials-are-available-in-the-security-package"></a>[SAP AG] [LIBODBCHDB DLL] [HDBODBC] Koppeling communicatiefout;-10709 verbinding is mislukt (RTE:[-1] Kerberos-fout. Primair: 'Diverse-fout [851968]', secundair: 'Er zijn geen referenties beschikbaar in het beveiligingspakket'
+### <a name="sap-aglibodbchdb-dllhdbodbc-communication-link-failure-10709-connection-failed-rte-1-kerberos-error-major-miscellaneous-failure-851968-minor-no-credentials-are-available-in-the-security-package"></a>[SAP AG] [LIBODBCHDB DLL] [HDBODBC] Koppeling communicatiefout;-10709 verbinding is mislukt (RTE:[-1] Kerberos-fout. Primair: 'Overige fout [851968]', secundair: 'Er zijn geen referenties beschikbaar in het beveiligingspakket'
 
 Het foutbericht 10709 (Verbinding is mislukt) wordt weergegeven als de overdracht niet juist is geconfigureerd in AD.
 

@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/03/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ebec34690001293e93dafd69dd76f7bdbf54981c
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: dc756e98a58d30edd476112ca249dae032d0d79a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900515"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296795"
 ---
 # <a name="visualization-types-in-power-bi"></a>Typen visualisaties in Power BI
 ## <a name="power-bi-visualizations"></a>Visualisaties in Power BI
@@ -42,7 +42,7 @@ Zie [Eenvoudig vlakdiagram](power-bi-visualization-basic-area-chart.md) voor mee
 >[!TIP]
 >Staafdiagrammen zijn de standaard als u een specifieke waarde over verschillende categorieën wilt weergeven.
 
-### <a name="cards-multi-row"></a>Kaarten: meerdere rijen
+### <a name="cards-multi-row"></a>Kaarten: met meerdere rijen
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/multi-row-card.png)
 
 ### <a name="cards-single-number"></a>Kaarten: één getal
@@ -96,7 +96,7 @@ Zie [KPI’s in Power BI](power-bi-visualization-kpi.md) voor meer informatie.
 >[!TIP]
 >Benadrukken de algehele vorm van een volledige reeks waarden, meestal in de loop van de tijd.
 
-### <a name="maps-basic-maps"></a>Kaarten: eenvoudige kaarten
+### <a name="maps-basic-maps"></a>Kaarten: basiskaarten
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi-nancy_viz_map.png)
 
 >[!TIP]
@@ -109,7 +109,7 @@ Zie [Tips en trucs voor visuele kaarten](power-bi-map-tips-and-tricks.md) voor m
 
 Zie [ArcGIS-kaarten in Power BI](../power-bi-visualization-arcgis.md) voor meer informatie.
 
-### <a name="maps-filled-maps-choropleth"></a>Maps: Choropletenkaarten
+### <a name="maps-filled-maps-choropleth"></a>Kaarten: Choropletenkaarten
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
 
 >[!TIP]
@@ -117,7 +117,7 @@ Zie [ArcGIS-kaarten in Power BI](../power-bi-visualization-arcgis.md) voor meer 
 
 Zie [Choropletenkaarten in Power BI](power-bi-visualization-filled-maps-choropleths.md) voor meer informatie.
 
-### <a name="maps-shape-maps"></a>Kaarten: shape-kaarten
+### <a name="maps-shape-maps"></a>Kaarten: Shape-kaarten
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-shape-map2.png)
 
 >[!TIP]

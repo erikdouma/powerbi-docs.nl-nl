@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: l8JoB7w0zJA
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1ef0ecdfaea51a9ca50e0f105b51b8239ebc4fa1
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: ad044a5b3f6ddcb4b8e1dbffa1bb2a7dac01eb31
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717534"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284973"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Vanuit Excel een tegel vastmaken aan een Power BI-dashboard
 Voordat u een tegel uit uw Excel-werkmap vastmaakt, koppelt u de werkmap aan de Power BI-service (app.powerbi.com). Met het koppelen van een werkmap wordt een gekoppelde alleen-lezen versie van die werkmap naar Power BI-service overgebracht. Zo kunt u bereiken aan dashboards koppelen. U kunt zelfs een volledig werkblad aan een dashboard vastmaken.  

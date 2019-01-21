@@ -6,19 +6,19 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6de9427a11ae5aa43563ce9e21371d231a1dd3a9
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 2a033e6893cffb71c4a898f1260aca615ae4e4b8
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900524"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291978"
 ---
-# <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Zelfstudie: Aan de slag met Power BI-service (app.powerbi.com)
+# <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Zelfstudie: Aan de slag met de Power BI-service (app.powerbi.com)
 In deze zelfstudie leest u hoe u aan de slag kunt met de ***Power BI-service***. Als u wilt weten hoe de Power BI-service aansluit bij de andere Power BI-aanbiedingen, is het een goed idee om eerst [Wat is Power BI?](power-bi-overview.md) te lezen.
 
 ![illustratie van relatie tussen Desktop, service en mobiel](media/service-get-started/power-bi-components.png)
@@ -128,7 +128,7 @@ Nu u verbinding met de gegevens hebt gemaakt, kunt u gaan verkennen.  Wanneer u 
    
    Selecteer de nieuwe tegel in het dashboard als u wilt terugkeren naar het rapport. U keert terug naar de rapporteditor in de leesweergave. Als u terug wilt naar de bewerkweergave, selecteert u **Rapport bewerken** in de bovenste menubalk. Eenmaal in de bewerkweergave, kunt u meer tegels verkennen en vastmaken. 
 
-## <a name="step-3--continue-the-exploration-with-qa-natural-language-querying"></a>Stap 3: ga verder met verkennen met behulp van Q&A (query's uitvoeren in natuurlijke taal)
+## <a name="step-3--continue-the-exploration-with-qa-natural-language-querying"></a>Stap 3:  Ga verder met verkennen met behulp van Q&A (query's uitvoeren in natuurlijke taal)
 1. Als u gegevens snel wilt verkennen, kunt u een vraag typen in het vak Een vraag stellen. Het vak Q&A bevindt zich boven aan uw dashboard (**Q&A over uw gegevens**) en in de bovenste menubalk in uw rapport (**Q&A**). Typ bijvoorbeeld eens ‘what segment had the most revenue’.
    
    ![Q&A-canvas](media/service-get-started/powerbi-qna.png)

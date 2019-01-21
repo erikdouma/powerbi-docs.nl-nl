@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/03/2019
+ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d9cd9c812aa2fdd1d336dbd63ea280516a96e4d9
-ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
+ms.openlocfilehash: 83961f3ad469a4a7a76ceb6e1e4dba846a6edb04
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54072216"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287624"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Selfservice voor gegevensvoorbereiding in Power BI (preview)
 
@@ -92,7 +92,7 @@ De volgende tabel bevat een beschrijving van de functies voor gegevensstromen en
 |Gekoppelde entiteiten in gegevensstromen| |        +|
 |Gestandaardiseerd schema / Ingebouwde ondersteuning voor Common Data Model|  +|  +|
 
-Raadpleeg het artikel voor Power BI Premium over [werkbelastingen configureren](service-admin-premium-manage.md#configure-workloads) voor meer informatie over hoe u werkbelastingen voor gegevensstromen inschakelt.
+Raadpleeg het artikel voor Power BI Premium over [werkbelastingen configureren](service-admin-premium-manage.md#configure-workloads) voor meer informatie over hoe u werkbelastingen voor gegevensstromen inschakelt. Werkbelastingen voor gegevensstromen zijn momenteel niet beschikbaar in capaciteiten met meerdere geografische gebieden.
 
 ## <a name="summary-of-self-service-data-prep-for-big-data-in-power-bi"></a>Samenvatting van selfservice voor gegevensvoorbereiding voor big data in Power BI
 Zoals eerder vermeld in dit artikel, zijn er meerdere scenario's en voorbeelden waarin **gegevensstromen** u in staat stellen om meer controle over - en sneller inzichten in - uw zakelijke gegevens te krijgen. Met behulp van een standaardgegevensmodel (schema) dat is gedefinieerd in Common Data Model, kunt u met gegevensstromen waardevolle bedrijfsgegevens importeren en deze in zeer korte tijd voorbereiden voor het maken van modellen en BI-inzichten... iets wat vroeger maanden of langer duurde. 

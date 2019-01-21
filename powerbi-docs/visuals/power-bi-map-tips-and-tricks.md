@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ajTPGNpthcg
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d1152ae1e4d386882c9165e6545a44c7f3c47e46
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 23e237428b86046cf75b02e2e98082da18d671cf
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548506"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54286677"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Tips en trucs voor kaartvisualisaties in Power BI
 Power BI biedt integratie met Bing Kaarten om standaard kaartcoördinaten te bieden (een proces dat geocodering wordt genoemd) zodat u kaarten kunt maken. In beide worden algoritmen gebruikt voor het identificeren van de juiste locatie, maar soms is het een schatting. Als pogingen om de kaartvisualisatie te maken in Power BI mislukken, wordt de hulp van Bing Kaarten ingeroepen. 
@@ -76,7 +76,7 @@ Als de gegevensset in Power BI velden voor de lengte- en breedtegraad bevat, geb
 ![breedtegraad en lengtegraad](./media/power-bi-map-tips-and-tricks/pbi_latitude.png) 
 
 ## <a name="use-geo-hierarchies-so-you-can-drill-down-to-different-levels-of-location"></a>Gebruik geohiërarchieën zodat u kunt inzoomen op verschillende locatieniveaus
-Als uw gegevensset al verschillende locatiegegevensniveaus bevat, kunnen u en uw collega's *geohiërarchieën* maken in Power BI. Hiervoor sleept u meerdere velden naar de bucket **Locatie**. Samen vormen deze velden een geohiërarchie. In het onderstaande voorbeeld zijn de geovelden Land/regio, Staat en Plaats toegevoegd. In Power BI kunnen u en uw collega's in- en uitzoomen op deze geohiërarchie.
+Als uw gegevensset al verschillende locatiegegevensniveaus bevat, kunnen u en uw collega's *geohiërarchieën* maken in Power BI. Hiervoor sleept u meerdere velden naar de bucket **Locatie**. Samen vormen deze velden een geohiërarchie. In het onderstaande veld hebben we geovelden toegevoegd voor: Land/regio, staat en plaats. In Power BI kunnen u en uw collega's in- en uitzoomen op deze geohiërarchie.
 
   ![Locatieveld](./media/power-bi-map-tips-and-tricks/power-bi-hierarchy.png)
 

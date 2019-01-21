@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9d7012006ca18cf43c530c4d79ed02e6ed73f33f
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: ec221939d6eb96567469a3221f914509a6789839
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679228"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280074"
 ---
 # <a name="get-data-from-a-web-page-by-providing-an-example"></a>Gegevens van een webpagina ophalen door een voorbeeld op te geven
 
@@ -52,7 +52,7 @@ In dit voorbeeld extraheren we de *naam* en de *prijs* voor alle games op de pag
 
 ![Gegevens met voorbeeld](media/desktop-connect-to-web-by-example/web-by-example_06.png)
 
-> Opmerking: waardesuggesties bevatten alleen waarden die maximaal 128 tekens lang zijn.
+> Opmerking: Waardesuggesties bevatten alleen waarden die maximaal 128 tekens lang zijn.
 
 Wanneer u tevreden bent met de gegevens die van de webpagina worden geëxtraheerd, selecteert u **OK** om **Query-editor** te openen, waar u meer transformaties kunt toepassen of de gegevens kunt vormgeven (door deze gegevens bijvoorbeeld te combineren met gegevens van andere gegevensbronnen).
 

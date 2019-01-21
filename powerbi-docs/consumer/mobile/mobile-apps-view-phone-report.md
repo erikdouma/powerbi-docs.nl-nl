@@ -1,20 +1,20 @@
 ---
 title: Voor uw telefoon geoptimaliseerde Power BI-rapporten weergeven
 description: Lees over de interactie met rapportpagina's die zijn geoptimaliseerd voor weergave in de Power BI-apps voor uw telefoon.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/14/2018
-ms.author: maggies
-ms.openlocfilehash: 06a8d15ca894b877199f22fc6c00d4c34827d76b
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.author: mshenhav
+ms.openlocfilehash: 99f40837f4b2c188120c4ca0311be3e9ded5fe95
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547793"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276901"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Voor uw telefoon geoptimaliseerde Power BI-rapporten weergeven
 
@@ -48,7 +48,7 @@ Als u een voor de telefoon geoptimaliseerd rapport hebt waarvoor filters zijn ge
     ![Geavanceerde filter voor Power BI-rapporten op de telefoon](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.gif)
 
 ## <a name="cross-highlight-visuals"></a>Visuele elementen kruislings markeren
-Het kruislings markeren van visuele elementen in rapporten op de telefoon werkt hetzelfde als in de Power BI-service en in rapporten op telefoons in de liggende weergave. Wanneer u gegevens in een visueel element selecteert, worden gerelateerde gegevens in de andere visuele elementen op de pagina gemarkeerd.
+Kruislings visuals markeren in telefoonrapporten werkt hetzelfde als in de Power BI-service en in rapporten op telefoons in de liggende weergave: Wanneer u gegevens in een visual selecteert, worden de gerelateerde gegevens in de andere visuals op die pagina's uitgelicht.
 
 Meer informatie over [filteren en markeren in Power BI](../../power-bi-reports-filters-and-highlighting.md).
 
@@ -70,7 +70,7 @@ Sommige handelingen zijn alleen mogelijk in de focusmodus vanwege beperkingen do
 
 * **Inzoomen** op de weergegeven gegevens in een visueel element. Lees hieronder meer over het [in- en uitzoomen](mobile-apps-view-phone-report.md#drill-down-in-a-visual) in een rapport op de telefoon.
 * De waarden in het visuele element **sorteren**.
-* **Herstellen**: hiermee wist u stappen die u hebt gemaakt op een visueel element en keert u terug naar de definitie die is ingesteld bij het maken van het rapport.
+* **Herstellen**: Hiermee wist u stappen die u hebt gemaakt op een visueel element en keert u terug naar de definitie die is ingesteld bij het maken van het rapport.
   
     Als u alle stappen op een visueel element ongedaan wilt maken, tikt u op het beletselteken (**...** ) > **Herstellen**.
   

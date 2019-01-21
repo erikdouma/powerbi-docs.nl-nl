@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: maghan
-ms.openlocfilehash: c8904f3025a0a60557b1d3efb54ea6bc18c20da4
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 763b79b50266678a78dc956372f504f30836c4fc
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507901"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292955"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Hardware- en softwarevereisten voor het installeren van Power BI Report Server
 In dit artikel worden de minimale hardware- en softwarevereisten voor het installeren en uitvoeren van Power BI Report Server behandeld.
@@ -25,9 +25,9 @@ In dit artikel worden de minimale hardware- en softwarevereisten voor het instal
 | --- | --- |
 | .NET Framework |4.6<br><br>U kunt .NET Framework handmatig installeren vanaf [Microsoft .NET Framework 4.6 (webinstallatie) voor Windows](http://support.microsoft.com/kb/3045560).<br/><br/> Zie de [.NET Framework-implementatiehandleiding voor ontwikkelaars](http://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx) voor meer informatie, aanbevelingen en richtlijnen met betrekking tot .NET Framework 4.6.<br/><br/>Voor Windows 8.1 en Windows Server 2012 R2 is [KB2919355](http://support.microsoft.com/kb/2919355) vereist voordat u .NET Framework 4.6 installeert. |
 | Harde schijf |Voor Power BI Report Server is een minimum van 1 GB aan beschikbare schijfruimte vereist.<br><br>Er is ook ruimte nodig op de databaseserver die als host voor de rapportserverdatabase fungeert. |
-| Geheugen |**Minimaal:** 1 GB<br/><br/> **Aanbevolen:** ten minste 4 GB |
-| Processorsnelheid |**Minimaal:** x64 processor: 1,4 GHz<br/><br/> **Aanbevolen:** 2,0 GHz of sneller |
-| Processortype |x64 processor: AMD Opteron, AMD Athlon 64, Intel Xeon met Intel EM64T-ondersteuning, Intel Pentium IV met EM64T-ondersteuning |
+| Geheugen |**Minimaal:** 1 GB<br/><br/> **Aanbevolen:** Minstens 4 GB |
+| Processorsnelheid |**Minimaal:** x64-processor: 1,4 GHz<br/><br/> **Aanbevolen:** 2,0 GHz of sneller |
+| Processortype |x64-processor: AMD Opteron, AMD Athlon 64, Intel Xeon met Intel EM64T-ondersteuning, Intel Pentium IV met EM64T-ondersteuning |
 | Besturingssysteem |Windows Server 2016 Datacenter<br><br>Windows Server 2016 Standard<br><br>Windows Server 2012 R2 Datacenter<br><br>Windows Server 2012 R2 Standard<br><br>Windows Server 2012 R2 Essentials<br><br>Windows Server 2012 R2 Foundation<br><br>Windows Server 2012 Datacenter<br><br>Windows Server 2012 Standard<br><br>Windows Server 2012 Essentials<br><br>Windows Server 2012 Foundation<br><br>Windows 10 Home<br><br>Windows 10 Professional<br><br>Windows 10 Enterprise<br><br>Windows 8.1<br><br>Windows 8.1 Pro<br><br>Windows 8.1 Enterprise<br><br>Windows 8<br><br>Windows 8 Pro<br><br>Windows 8 Enterprise |
 
 > [!NOTE]

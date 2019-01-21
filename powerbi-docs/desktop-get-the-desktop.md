@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5eb2e63d9bac7249e106ad4c4b525ca3f3ab5cf8
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: be4ebfdfa7dca5ce212c2b5d242d87b0001b7750
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909589"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281914"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop downloaden
 Met **Power BI Desktop** kunt u geavanceerde query's, modellen en rapporten samenstellen die gegevens visualiseren. Met **Power BI Desktop** kunt u gegevensmodellen bouwen, rapporten maken en uw werk delen door dit te publiceren naar de Power BI-service.  **Power BI Desktop** is gratis te downloaden.
@@ -94,7 +94,7 @@ De volgende lijst bevat de minimale vereisten voor het uitvoeren van **Power BI 
 * Windows 7 / Windows Server 2008 R2 of hoger
 * .NET 4.5
 * Internet Explorer 9 of hoger
-* **Geheugen (RAM):** ten minste 1 GB beschikbaar, 1,5 GB of meer aanbevolen.
+* **Werkgeheugen (RAM):** ten minste 1 GB beschikbaar, 1,5 GB of meer aanbevolen.
 * **Beeldscherm:** ten minste 1440x900 of 1600x900 (16:9) aanbevolen. Lagere resoluties zoals 1024x768 of 1280x800 worden niet aanbevolen aangezien bepaalde besturingselementen (bijvoorbeeld om het opstartscherm te sluiten) buiten die resoluties worden weergegeven.
 * **Beeldscherminstellingen van Windows:** als uw beeldscherminstellingen zo zijn geconfigureerd dat de grootte van tekst, apps en andere items wordt gewijzigd naar meer dan 100%, ziet u mogelijk bepaalde dialoogvensters niet die moeten worden gesloten of waarop u moet reageren om door te gaan met het gebruik van **Power BI Desktop**. Als u dit probleem ondervindt, controleert u uw **beeldscherminstellingen** door te gaan naar **Instellingen > Systeem > Beeldscherm** in Windows en met de schuifregelaar de weergave weer in te stellen op 100%.
 * **CPU:** 1 GHz (gigahertz) of snellere x86- of x64-bits processor aanbevolen.
@@ -115,7 +115,7 @@ Dit probleem wordt meestal opgelost door de huidige versie van Power BI Desktop 
 Het is raadzaam om te upgraden naar de nieuwste versie van Power BI Desktop omdat u dan beschikt over verbeteringen op het gebied van functies, prestaties, stabiliteit en andere aspecten. Sommige organisaties willen mogelijk niet dat gebruikers kunnen upgraden naar elke nieuwe versie. U kunt meldingen voor nieuwe versies uitschakelen door met de volgende stappen het register aan te passen:
 
 1. Ga in Register-editor naar *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Power BI Desktop*.
-2. Maak daar een nieuwe sleutel met de volgende instellingen: *REG_DWORD : DisableUpdateNotification*.
+2. Maak hier een nieuwe vermelding met de volgende instellingen: *REG_DWORD : DisableUpdateNotification*
 3. Stel de waarde van deze nieuwe vermelding in op **1**.
 
 U moet de computer opnieuw opstarten om de wijziging door te voeren.
@@ -125,7 +125,7 @@ U moet de computer opnieuw opstarten om de wijziging door te voeren.
 In bepaalde omstandigheden, zoals bij bepaalde configuraties van de schermresolutie, bestaat de kans dat sommige gebruikers van Power BI Desktop inhoud zien bedekt met grote zwarte gebieden. Dit is meestal het gevolg van recente updates van het besturingssysteem die van invloed zijn op de manier waarop items worden weergegeven, en dit probleem wordt dus niet veroorzaakt door de manier waarop Power BI Desktop inhoud presenteert. Ongeacht de oorzaak zijn grote zwarte gebieden natuurlijk niet erg indrukwekkend als visualisaties. U kunt dit probleem oplossen door de volgende stappen uit te voeren:
 
 1. Druk op de Start-toets en typ het woord *wazig* in de zoekbalk die wordt weergegeven.
-2. Selecteer in het dialoogvenster dat verschijnt de optie *Apps verbeteren als deze wazig beeld geven*.
+2. Selecteer in het dialoogvenster dat verschijnt de optie: *Windows apps laten verbeteren zodat deze geen wazig beeld geven.*
 3. Start Power BI Desktop opnieuw.
 
 Dit probleem wordt mogelijk opgelost in een volgende versie van Windows. 

@@ -6,20 +6,20 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: ed9281ba14ad25e2acb347a2394ec729e9d4465c
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 7256de8dd36c25af9959e7103186666d65123360
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51508032"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295254"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Kerberos gebruiken voor eenmalige aanmelding (SSO) bij on-premises gegevensbronnen vanuit Power BI
 
-Gebruik [beperkte delegatie van Kerberos](https://technet.microsoft.com/library/jj553400.aspx) om naadloze connectiviteit dankzij eenmalige aanmelding mogelijk te maken. Met inschakeling van SSO is het eenvoudiger om gegevens van on-premises gegevensbronnen te vernieuwen in Power BI-rapporten en -dashboards.
+Gebruik [beperkte delegatie van Kerberos](/windows-server/security/kerberos/kerberos-constrained-delegation-overview) om naadloze connectiviteit dankzij eenmalige aanmelding mogelijk te maken. Met inschakeling van SSO is het eenvoudiger om gegevens van on-premises gegevensbronnen te vernieuwen in Power BI-rapporten en -dashboards.
 
 ## <a name="supported-data-sources"></a>Ondersteunde gegevensbronnen
 
@@ -50,11 +50,11 @@ Meer informatie over het instellen en configureren van eenmalige aanmelding voor
 
 Meerdere items moeten worden geconfigureerd om te zorgen dat beperkte Kerberos-delegering goed werkt, waaronder *Service Principal Names* (SPN) en delegeringsinstellingen voor serviceaccounts.
 
-### <a name="prerequisite-1-install--configure-the-on-premises-data-gateway"></a>Vereiste 1: de on-premises gegevensgateway dient te zijn geïnstalleerd en geconfigureerd
+### <a name="prerequisite-1-install--configure-the-on-premises-data-gateway"></a>Vereiste 1: De on-premises gegevensgateway moet zijn geïnstalleerd en geconfigureerd
 
 Deze versie van de on-premises gegevensgateway biedt ondersteuning voor een upgrade ter plekke, evenals voor het overnemen van de instellingen van bestaande gateways.
 
-### <a name="prerequisite-2-run-the-gateway-windows-service-as-a-domain-account"></a>Vereiste 2: de gatewayservice in Windows dient te worden uitgevoerd als een domeinaccount
+### <a name="prerequisite-2-run-the-gateway-windows-service-as-a-domain-account"></a>Vereiste 2: De gatewayservice in Windows moet worden uitgevoerd als een domeinaccount
 
 In een standaardinstallatie wordt de gateway uitgevoerd als een lokaal serviceaccount (als *NT Service\PBIEgwService*, om precies te zijn) zoals wordt weergegeven in de volgende afbeelding:
 
@@ -65,7 +65,7 @@ Om **beperkte delegatie van Kerberos** in te schakelen, moet de gateway worden u
 > [!NOTE]
 > Als Azure AD DirSync/Connect is geconfigureerd en de gebruikersaccounts zijn gesynchroniseerd, hoeft de gatewayservice geen lokale AD-zoekacties uit te voeren tijdens het uitvoeren en kunt u de lokale service-SID gebruiken voor de gatewayservice (en is er dus geen domeinaccount vereist). De stappen voor het configureren van beperkte Kerberos-delegering die in dit artikel worden beschreven zijn verder hetzelfde als voor die configuratie (ze worden eenvoudigweg toegepast op het computerobject van de gateway - in Active Directory in plaats van in het domeinaccount).
 
-### <a name="prerequisite-3-have-domain-admin-rights-to-configure-spns-setspn-and-kerberos-constrained-delegation-settings"></a>Vereiste 3: u dient te beschikken over domeinbeheerdersrechten om instellingen voor SPN's (SetSPN) en de beperkte Kerberos-delegering te configureren
+### <a name="prerequisite-3-have-domain-admin-rights-to-configure-spns-setspn-and-kerberos-constrained-delegation-settings"></a>Vereiste 3: U moet beschikken over domeinbeheerdersrechten om instellingen voor SPN's (SetSPN) en de beperkte Kerberos-delegering te configureren
 
 Hoewel het technisch mogelijk is dat een domeinbeheerder iemand anders tijdelijk of permanent rechten geeft om SPN-namen en Kerberos-delegatie te configureren zonder dat daarbij domeinbeheerdersrechten vereist zijn, is dat niet de aanbevolen aanpak. In de volgende sectie worden de configuratiestappen die nodig zijn voor **Vereiste 3** uitgebreid beschreven.
 
@@ -111,8 +111,8 @@ In deze sectie wordt ervan uitgegaan dat u al SNP's hebt geconfigureerd voor uw 
 
 In de volgende stappen wordt uitgegaan van een on-premises omgeving met twee computers: een gatewaycomputer en een databaseserver met SQL Server. In dit voorbeeldscenario worden de volgende instellingen en namen gebruikt:
 
-* Naam gatewaycomputer: **PBIEgwTestGW**
-* Gatewayserviceaccount: **PBIEgwTest\GatewaySvc** (weergavenaam voor account: Gateway Connector)
+* Naam van de gatewaymachine: **PBIEgwTestGW**
+* Gatewayserviceaccount: **PBIEgwTest\GatewaySvc** (weergavenaam account: Gateway Connector)
 * Computernaam SQL Server-gegevensbron: **PBIEgwTestSQL**
 * Serviceaccount voor SQL Server-gegevensbron: **PBIEgwTest\SQLService**
 
@@ -164,7 +164,7 @@ Ten slotte moet op de computer waarop de gatewayservice wordt uitgevoerd (**PBIE
 
 Als u van SAP HANA gebruikmaakt, is het aan te raden de volgende aanvullende stappen te volgen om de prestaties mogelijk iets te kunnen verbeteren.
 
-1. Zoek in de installatiemap van de gateway dit configuratiebestand en open het: *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config*.
+1. Zoek en open dit configuratiebestand in de installatiemap van de gateway: *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config*.
 
 1. Zoek de eigenschap *FullDomainResolutionEnabled* en wijzig de waarde ervan in *True*.
 
@@ -202,7 +202,7 @@ Eerder in dit artikel werd de mogelijkheid genoemd om de gateway van een lokaal 
 
 Nu u inzicht hebt in de werking van Kerberos met een gateway, kunt u SSO configureren voor uw SAP Business Warehouse (SAP BW). In de volgende stappen wordt ervan uitgegaan dat u al bent [voorbereid voor beperkte delegatie van Kerberos](#preparing-for-kerberos-constrained-delegation), zoals eerder in dit artikel beschreven.
 
-We hebben geprobeerd deze handleiding zo uitgebreid mogelijk te maken. Als u een aantal van de stappen al hebt voltooid, kunt u deze overslaan. Bijvoorbeeld als u al een servicegebruiker hebt gemaakt voor de BW-server en aan deze gebruiker een SPN hebt toegewezen, of als u de gsskrb5-bibliotheek al hebt geïnstalleerd.
+We hebben geprobeerd deze handleiding zo uitgebreid mogelijk te maken. Als u een aantal van deze stappen al hebt uitgevoerd, kunt u deze overslaan: Bijvoorbeeld als u al een servicegebruiker hebt gemaakt voor de BW-server en aan deze gebruiker een SPN hebt toegewezen, of als u de gsskrb5-bibliotheek al hebt geïnstalleerd.
 
 ### <a name="setup-gsskrb5-on-client-machines-and-the-bw-server"></a>gsskrb5 instellen op clientcomputers en de BW-server
 
@@ -367,7 +367,7 @@ Als u Azure AD DirSync niet hebt geconfigureerd, volgt u deze stappen voor **elk
 
 ### <a name="add-a-new-bw-application-server-data-source-to-the-power-bi-service"></a>Een nieuwe gegevensbron van de BW-toepassingsserver toevoegen aan de Power BI-service
 
-Voeg de BW-gegevensbron toe aan uw gateway: volg de instructies eerder in dit artikel voor het [uitvoeren van een rapport](#running-a-power-bi-report).
+De BW-gegevensbron toevoegen aan uw gateway: Volg de instructies eerder in dit artikel voor het [uitvoeren van een rapport](#running-a-power-bi-report).
 
 1. Voer in het venster voor gegevensbronconfiguratie de **Hostnaam**, het **Systeemnummer** en de **client-id** van de toepassingsserver in zoals u zou doen om u vanuit Power BI Desktop aan te melden bij uw BW-server. Selecteer als **Verificatiemethode** de optie **Windows**.
 

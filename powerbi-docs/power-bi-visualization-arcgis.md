@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: lukaszp
 featuredvideoid: EKVvOZmxg9s
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 81867ba36e79a26acb168c1b02fc31e228bd6439
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: e559cb3ed460c8d81406ae8c8b01fe33eceaf461
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266042"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293908"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>De service ArcGIS Maps for Power BI en Power BI Desktop van Esri
 Deze zelfstudie is geschreven vanuit het oogpunt van iemand die een ArcGIS-kaart maakt. Zodra een maker een ArcGIS-kaart met een collega deelt, kan deze collega de kaart bekijken en acties uitvoeren voor de kaart, maar geen wijzigingen opslaan. Zie [Interacting with ArcGIS maps](visuals/power-bi-visualizations-arcgis.md) (Interactie met ArcGIS-kaarten) voor meer informatie over het weergeven van een ArcGIS-kaart.
@@ -207,7 +207,7 @@ ArcGIS Online biedt organisaties de mogelijkheid om openbare webkaarten te publi
 2. Voer zoektermen in en selecteer vervolgens een kaartlaag. In dit voorbeeld hebben we voor de congresdistricten van de Verenigde Staten gekozen.
    
     ![](media/power-bi-visualization-arcgis/power-bi-esri-demographics-esri2-new.png)
-3. Als u details wilt bekijken, selecteert u een gearceerd gedeelte om *Select from reference layer* (Selecteren vanuit referentielaag) te openen. Gebruik het hulpmiddel voor referentielaagselectie om grenzen of objecten op de referentielaag te selecteren.
+3. Als u de details wilt bekijken, selecteert u een gearceerd gedeelte om de *laag Selecteren uit referentie* te openen: Gebruik het selectiehulpmiddel voor referentielagen om grenzen of objecten in de referentielaag te selecteren.
 
 <br/>
 
@@ -325,7 +325,7 @@ ArcGIS Maps for Power BI is beschikbaar voor alle Power BI-gebruikers zonder ext
 
 **Ik krijg een foutbericht in Power BI Desktop dat mijn cache vol is**
 
-Dit is een bekende bug. Er wordt aan een oplossing gewerkt.  In de tussentijd kunt u uw cache wissen door te proberen de bestanden op deze locatie te verwijderen: C:\Gebruikers\\AppData\Lokaal\Microsoft\Power BI Desktop\CEF. Start vervolgens Power BI opnieuw op.
+Dit is een bekende bug. Er wordt aan een oplossing gewerkt.  In de tussentijd kunt u uw cache wissen door bestanden op deze locatie te verwijderen: C:\Users\\AppData\Local\Microsoft\Power BI Desktop\CEF. Start Power BI vervolgens opnieuw op.
 
 **Biedt ArcGIS Maps for Power BI ondersteuning voor Esri Shapefiles?**
 

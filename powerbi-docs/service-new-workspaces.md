@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/21/2018
+ms.date: 01/11/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8856a8641b38b7a8256b199acccd54e030bdce40
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: dd4ee055501974345c819f7604ff30174cd4c5ba
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53984415"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278998"
 ---
 # <a name="organize-work-in-the-new-workspaces-preview-in-power-bi"></a>Werk organiseren in de nieuwe werkruimten (preview) in Power BI
 
@@ -43,7 +43,7 @@ Tijdens de preview-periode kunnen oude en nieuwe werkruimten naast elkaar bestaa
 
 ## <a name="roles-in-the-new-workspaces"></a>Rollen in de nieuwe werkruimten
 
-U voegt gebruikersgroepen of personen aan de nieuwe werkruimten toe als leden, inzenders of beheerders. Iedereen in een gebruikersgroep krijgt de rol die u hebt gedefinieerd. Als een persoon zich in verschillende gebruikersgroepen bevindt, krijgt hij/zij het hoogste niveau van de machtigingen die aan de rol zijn toegewezen.  Zie [Rollen in de nieuwe werkruimten](#roles-in-the-new-workspaces) verderop in dit artikel voor een uitleg over de verschillende rollen.
+U voegt gebruikersgroepen of personen aan de nieuwe werkruimten toe als leden, inzenders of beheerders. Iedereen in een gebruikersgroep krijgt de rol die u hebt gedefinieerd. Als een persoon zich in verschillende gebruikersgroepen bevindt, krijgt hij/zij het hoogste niveau van de machtigingen die aan de rol zijn toegewezen.
 
 Iedereen die u aan een werkruimte toevoegt, heeft een Power BI Pro-licentie nodig. Deze gebruikers kunnen in de werkruimte samenwerken aan dashboards en rapporten die u wilt publiceren naar een breder publiek of zelfs uw hele organisatie. Als u inhoud naar anderen binnen uw organisatie wilt distribueren, kunt u Power BI Pro-licenties toewijzen aan die gebruikers of de werkruimte in een Power BI Premium-capaciteit plaatsen.
 
@@ -83,9 +83,7 @@ Tijdens de preview-periode kunt u uw oude werkruimten niet automatisch converter
 
 Wanneer de nieuwe werkruimten algemeen beschikbaar zijn, kunt u ervoor kiezen de oude werkruimten automatisch te migreren. Op een bepaald moment nadat de nieuwe werkruimten algemeen beschikbaar zijn geworden, moet u de oude werkruimten migreren.
 
-## <a name="power-bi-apps-faq"></a>Veelgestelde vragen over Power BI-apps
-
-### <a name="how-are-the-new-workspaces-different-from-current-workspaces"></a>Hoe verschillen de nieuwe werkruimten van de huidige werkruimten?
+## <a name="how-are-the-new-workspaces-different-from-current-workspaces"></a>Hoe verschillen de nieuwe werkruimten van de huidige werkruimten?
 
 Voor de nieuwe werkruimten worden enkele functies anders ontworpen. Hier ziet u de wijzigingen die u kunt verwachten die definitief worden doorgevoerd bij de preview. 
 
@@ -94,6 +92,13 @@ Voor de nieuwe werkruimten worden enkele functies anders ontworpen. Hier ziet u 
 - U kunt een organisatie-inhoudspakket maken op basis van een huidige werkruimte. U kunt geen organisatie-inhoudspakket op basis van de nieuwe werkruimten maken.
 - U kunt een organisatie-inhoudspakket gebruiken op basis van een huidige werkruimte. U kunt geen organisatie-inhoudspakket op basis van de nieuwe werkruimten gebruiken.
 - Gedurende de previewperiode wordt een aantal functies nog niet ingeschakeld voor nieuwe werkruimten. Zie de volgende sectie [Geplande nieuwe werkruimtefuncties](service-new-workspaces.md#planned-new-workspace-preview-features) voor meer informatie.
+
+## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
+
+Houd rekening met de volgende beperkingen:
+
+- Werkruimten kunnen maximaal 1000 gegevenssets of 1000 rapporten per gegevensset bevatten. 
+- Een gebruiker met een Power BI Pro-licentie kan lid zijn van maximaal 250 werkruimten.
 
 ## <a name="planned-new-workspace-preview-features"></a>Geplande preview-functies voor nieuwe werkruimten
 

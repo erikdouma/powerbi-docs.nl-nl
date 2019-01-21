@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/5/2018
 ms.author: maggies
-ms.openlocfilehash: 827a7acd24ead0c4948a09f2e67b53c3966769bb
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 1689d7382c0f3bf7406a4a44ffeab53e6bc59197
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900423"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281063"
 ---
 # <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service-preview"></a>Een ingesloten gegevensset maken voor een gepagineerd rapport in de Power BI-service (preview)
 In dit artikel leert u hoe u op basis van een ingesloten gegevensbron een ingesloten gegevensset maakt voor een gepagineerd rapport in de Power BI-service. Ingesloten gegevenssets bevinden zich in één gepagineerd rapport, voor gebruik in dat rapport. Momenteel zijn voor rapporten die in de Power BI-service zijn gepubliceerd, ingesloten gegevenssets en ingesloten gegevensbronnen nodig. De ingesloten gegevensbron en gegevensset worden tijdens het maken van uw rapport in Report Builder gemaakt. 
@@ -56,6 +56,6 @@ Voordat u de gegevensset kunt maken, moet u een gegevensbron maken. Zie [Embedde
 ## <a name="next-steps"></a>Volgende stappen 
 
 - [Wat zijn gepagineerde rapporten in Power BI Premium? (Preview)](paginated-reports-report-builder-power-bi.md)  
-- [Tutorial: Create a paginated report and upload it to the Power BI service](paginated-reports-quickstart-aw.md) (Zelfstudie: een gepagineerd rapport maken en uploaden naar de Power BI-service)
+- [Zelfstudie: Een gepagineerd rapport maken en uploaden naar de Power BI-service](paginated-reports-quickstart-aw.md)
 - [Publish a paginated report to the Power BI service](paginated-reports-save-to-power-bi-service.md) (Een gepagineerd rapport publiceren in de Power BI-service)
 

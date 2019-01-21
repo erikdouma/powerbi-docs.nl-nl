@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: ec90e63de1e42350ff205febdc66abf4ba6ee626
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: ae2d40d5a53a7a84c0f6070a7be1011968d7ed7b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578492"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276969"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Zelfstudie: Facebook-analyses met Power BI Desktop
 
@@ -187,7 +187,7 @@ Dit is beter, maar de gegevenslabels hebben alle een decimaal van **.0** die afl
 2. Selecteer in de Power Query-editor de kolom **Aantal opmerkingen** en wijzig het gegevenstype in een **Geheel getal** door: 
    - Het pictogram **1.2** naast de kolomkop **Aantal opmerkingen** te selecteren en **Geheel getal** te selecteren in de vervolgkeuzelijst, of
    - Met de rechtermuisknop op de kolomkop te klikken en **Type wijzigen > Geheel getal** te selecteren, of
-   - **Gegevenstype: decimaal getal** te selecteren in de groep **Transformeren** van het tabblad Start of de groep **Elke kolom** van het tabblad **Transformeren** en **Geheel getal** te selecteren.
+   - door **Gegevenstype: decimaal getal** te selecteren in de groep **Transformeren** van het tabblad Start of de groep **Elke kolom** van het tabblad **Transformeren** en **Geheel getal** te selecteren.
    
    Het pictogram in de kolomkop verandert in **123**, wat het gegevenstype voor een geheel getal aangeeft.
    

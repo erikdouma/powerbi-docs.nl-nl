@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: 18fb96573052455034f8c257811daed6cb15529e
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: dd3da287d976b9fe84ab56b425a5f08fba31d224
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679222"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288354"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Een Power BI-rapport maken voor Power BI Report Server
 U kunt Power BI-rapporten on-premises opslaan en beheren in de webportal van Power BI Report Server, net zoals u Power BI-rapporten kunt opslaan in de cloud in de Power BI-service (https://powerbi.com)). U maakt rapporten in Power BI Desktop en publiceert deze naar de webportal. Gebruikers in uw organisatie kunnen de rapporten weergeven in een browser of in een mobiele Power BI-app op een mobiele apparaat.
@@ -23,7 +23,7 @@ U kunt Power BI-rapporten on-premises opslaan en beheren in de webportal van Pow
 
 Nu volgen vier snelle stappen om u op weg te helpen.
 
-## <a name="step-1-install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Stap 1: voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren
+## <a name="step-1-install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Stap 1: Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren
 
 Als u al Power BI-rapporten hebt gemaakt in Power BI Desktop, bent u bijna klaar om Power BI-rapporten te maken voor Power BI Report Server. Het is raadzaam om de versie van Power BI Desktop te installeren die is geoptimaliseerd voor Power BI Report Server, zodat u zeker weet dat de server en app altijd zijn gesynchroniseerd. U kunt beide versies van Power BI Desktop op dezelfde computer installeren.
 
@@ -70,7 +70,7 @@ U kunt verbinding maken met allerlei gegevensbronnen. Lees hier meer informatie 
     ![Rapportserver selecteren](media/quickstart-create-powerbi-report/report-server-select-server.png)
 
 ## <a name="step-3-design-your-report"></a>Stap 3: Het rapport ontwerpen
-Nu wordt het pas echt leuk. U gaat de visualisaties of visuele elementen maken die uw gegevens het best illustreren.
+Nu wordt het pas echt leuk: U gaat de visualisaties of visuele elementen maken die uw gegevens het best illustreren.
 
 U kunt bijvoorbeeld een trechterdiagram maken van klanten en waarden groeperen op jaarlijkse omzet.
 
@@ -97,7 +97,7 @@ Wanneer uw rapport klaar is, kunt u het opslaan op de Power BI-rapportserver die
 Er zijn heel interessante informatiebronnen voor het maken van rapporten in Power BI Desktop. Deze koppeling is een goed startpunt.
 
 * [Aan de slag met Power BI Desktop](../desktop-getting-started.md)
-* Zelfstudie: [Aan de slag met Power BI Desktop](../guided-learning/gettingdata.yml?tutorial-step=2)
+* Begeleid leren: [Aan de slag met Power BI Desktop](../guided-learning/gettingdata.yml?tutorial-step=2)
 
 ### <a name="power-bi-report-server"></a>Power BI Report Server
 * [Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren](install-powerbi-desktop.md)  

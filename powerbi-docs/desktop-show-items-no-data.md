@@ -5,21 +5,21 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/03/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: f4c9fec65f9c006095470a8983f889d44f3ce460
-ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
+ms.openlocfilehash: a687e42ef2963ce5e85bd1e0be72c2562afa5b6c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54072883"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279982"
 ---
 # <a name="show-items-with-no-data-in-power-bi"></a>Items zonder gegevens weergeven in Power BI
 
-Met Power BI visualiseert u allerlei soorten gegevens uit verschillende bronnen. Wanneer u een visual maakt, geeft Power BI alleen relevante gegevens weer om duidelijk te beheren hoe gegevens worden weergegeven. Power BI bepaalt welke gegevens relevant zijn op basis van de configuratie van de visual en het onderliggende gegevensmodel. In dit artikel wordt aan de hand van voorbeelden beschreven hoe Power BI zich gedraagt wanneer relevante gegevens worden bepaald.
+Met Power BI visualiseert u allerlei soorten gegevens uit verschillende bronnen. Wanneer u een visual maakt, geeft Power BI alleen relevante gegevens weer om correct te kunnen beheren hoe gegevens worden weergegeven. Power BI bepaalt welke gegevens relevant zijn op basis van de configuratie van de visual en het onderliggende gegevensmodel. In dit artikel wordt aan de hand van voorbeelden beschreven hoe Power BI zich gedraagt wanneer relevante gegevens worden bepaald.
 
 ![De functie 'Items zonder gegevens weergeven' inschakelen](media/desktop-show-items-no-data/show-items-no-data_02.png)
 
@@ -65,7 +65,7 @@ Zodoende geeft Power BI de combinaties weer die vermeldingen hebben in het tabel
 
 **4. Groepen uit verschillende en niet-gerelateerde tabellen**
 
-Het voorbeeldmodel bevat deze combinatie niet, maar als er groepen uit verschillende en niet-gerelateerde tabellen zouden zijn, zou Power BI de twee kolommen niet kunnen koppelen en zou het resultaat een samenvoeging zijn van alle waarden uit elke kolom. In dit geval geeft Power BI een fout weer van het type *onbeperkte samenvoeging*, omdat het zwaar is om dergelijke samenvoegingen te berekenen in de database en die samenvoegingen de gebruiker niet veel informatie geven. 
+Het voorbeeldmodel bevat deze combinatie niet, maar als er groepen uit verschillende en niet-gerelateerde tabellen zouden zijn, zou Power BI de twee kolommen niet kunnen koppelen. Het resultaat zou een samenvoeging zijn van alle waarden uit elke kolom. In dit geval geeft Power BI een fout weer van het type *onbeperkte samenvoeging*, omdat het zwaar is om dergelijke samenvoegingen te berekenen in de database en die samenvoegingen de gebruiker niet veel informatie geven. 
 
 ![Fout die wordt weergegeven voor onbeperkte samenvoeging](media/desktop-show-items-no-data/show-items-no-data_01.png)
 
@@ -139,7 +139,7 @@ U ziet hoe *(Glans-Rood)* en *(Geen, leeg)* als combinaties worden weergegeven. 
 
 Het is belangrijk te onthouden dat het mechanisme waarmee waarden voor de kolommen worden geselecteerd, afhankelijk is van de volgorde en kan worden gezien als de bewerking *Left outer join* tussen tabellen. Als de volgorde van de kolommen wordt gewijzigd, veranderen de resultaten eveneens.
 
-Bekijk een voorbeeld waarin de volgorde wordt gewijzigd en bekijk hoe dat van invloed is op de resultaten. Dit is hetzelfde item als item **2** in deze sectie, maar de volgorde is gewijzigd.
+Bekijk het voorbeeld waarin de volgorde wordt gewijzigd en bekijk hoe dat van invloed is op de resultaten. Dit is hetzelfde item als item **2** in deze sectie, maar de volgorde is gewijzigd.
 
 **Product[Color] - ProductStyle[Finish] - Sum(Sales[Quantity])**
 
@@ -193,6 +193,6 @@ In deze sectie wordt weergegeven hoe het voorbeeldgegevensmodel wordt gebruikt i
 
 ## <a name="next-steps"></a>Volgende stappen
 
-In dit artikel wordt beschreven hoe u de functie **Items zonder gegevens weergeven** in Power BI inschakelt. Wellicht bent u ook geïnteresseerd in de volgende artikelen. 
+In dit artikel wordt beschreven hoe u de functie **Items zonder gegevens weergeven** in Power BI inschakelt. Wellicht bent u ook geïnteresseerd in de volgende artikelen: 
 
-* [Gegevensbronnen in Power BI Desktop](desktop-data-sources.md)
+* [Standaardlid in multidimensionale modellen in Power BI](desktop-default-member-multidimensional-models.md)

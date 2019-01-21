@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: a171dd2aa375f8d12830b051dd8ce6437e4b3236
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: 323391268e930d3b7b2926590f3377b850b65624
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679450"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282581"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Standaard DAX-bewerkingen in Power BI Desktop
 Dit artikel is bedoeld voor nieuwe gebruikers van Power BI Desktop. Het bevat een snelle en eenvoudige inleiding over hoe u met Data Analysis Expressions (DAX) een aantal problemen met basisberekeningen en gegevensanalyse kunt oplossen. We bekijken conceptuele informatie, een reeks taken die u kunt uitvoeren en enkele kwisjes om te testen wat u hebt geleerd. Nadat u dit artikel hebt gelezen, zou u een goed begrip van de belangrijkste basisconcepten in DAX moeten hebben.
@@ -65,7 +65,7 @@ Voor een beter begrip van een DAX-formule kan het handig zijn om elk van de elem
 
 Wanneer deze meting wordt toegevoegd aan een rapport, worden door de meting waarden berekend en geretourneerd door verkoopbedragen op te tellen voor elk van de andere velden die we opnemen, bijvoorbeeld voor Cell Phones in the USA.
 
-Misschien denkt u 'Doet deze meting niet hetzelfde als ik alleen het veld SalesAmount aan mijn rapport zou toevoegen?' En dan hebt u gelijk. Maar er is een goede reden om onze eigen meting te maken die waarden uit het veld SalesAmount optelt: we kunnen deze gebruiken als een argument in andere formules. Dit kan nu wat verwarrend lijken, maar naarmate uw vaardigheden met DAX-formules beter worden, worden uw formules en uw model alleen maar efficiënter. De meting voor Total Sales wordt overigens weergegeven als een argument in andere formules verderop in dit artikel.
+Misschien denkt u 'Doet deze meting niet hetzelfde als ik alleen het veld SalesAmount aan mijn rapport zou toevoegen?' En dan hebt u gelijk. Maar er is een goede reden om onze eigen meting te maken die waarden uit het veld SalesAmount optelt: we kunnen deze gebruiken als argument in andere formules. Dit kan nu wat verwarrend lijken, maar naarmate uw vaardigheden met DAX-formules beter worden, worden uw formules en uw model alleen maar efficiënter. De meting voor Total Sales wordt overigens weergegeven als een argument in andere formules verderop in dit artikel.
 
 Laten we wat andere aspecten van deze formule bekijken. Meer in het bijzonder hebben we een functie geïntroduceerd, [SUM](https://msdn.microsoft.com/library/ee634387.aspx). Functies zijn vooraf geschreven formules die het eenvoudiger maken om complexe berekeningen en bewerkingen uit te voeren met getallen, datums, tijd, tekst en meer. Later geven we meer informatie over functies.
 
@@ -134,7 +134,7 @@ Aan het einde van dit artikel vindt u de antwoorden.
 ### <a name="functions"></a>Functies
 Functies zijn vooraf gedefinieerde formules waarmee berekeningen in een bepaalde volgorde of met een bepaalde structuur worden uitgevoerd met behulp van specifieke waarden, argumenten genaamd. Argumenten kunnen bestaan uit andere functies, een andere formule, een expressie, kolomverwijzingen, getallen, tekst, logische waarden zoals TRUE of FALSE, of constanten.
 
-DAX omvat de volgende categorieën van functies: [Datum en tijd](https://msdn.microsoft.com/library/ee634786.aspx), [Tijdintelligentie](https://msdn.microsoft.com/library/ee634763.aspx), [Informatie](https://msdn.microsoft.com/library/ee634552.aspx), [Logisch](https://msdn.microsoft.com/library/ee634365.aspx), [Wiskundig](https://msdn.microsoft.com/library/ee634241.aspx), [Statistisch](https://msdn.microsoft.com/library/ee634822.aspx), [Tekst](https://msdn.microsoft.com/library/ee634938.aspx), [Bovenliggend/onderliggend](https://msdn.microsoft.com/library/mt150102.aspx) en [Overige](https://msdn.microsoft.com/library/mt150101.aspx) functies. Als u vertrouwd bent met functies in Excel-formules, zullen veel van de functies in DAX u bekend voorkomen. DAX-functies zijn echter uniek vanwege het volgende:
+DAX omvat de volgende functiecategorieën: [Datum en tijd](https://msdn.microsoft.com/library/ee634786.aspx), [Tijdintelligentie](https://msdn.microsoft.com/library/ee634763.aspx), [Informatie](https://msdn.microsoft.com/library/ee634552.aspx), [Logisch](https://msdn.microsoft.com/library/ee634365.aspx), [Wiskundig](https://msdn.microsoft.com/library/ee634241.aspx), [Statistisch](https://msdn.microsoft.com/library/ee634822.aspx), [Tekst](https://msdn.microsoft.com/library/ee634938.aspx), [Bovenliggend/onderliggend](https://msdn.microsoft.com/library/mt150102.aspx) en [Overige functies](https://msdn.microsoft.com/library/mt150101.aspx). Als u vertrouwd bent met functies in Excel-formules, zullen veel van de functies in DAX u bekend voorkomen. DAX-functies zijn echter uniek vanwege het volgende:
 
 * Een DAX-functie heeft altijd betrekking op een volledige kolom of tabel. Als u alleen bepaalde waarden uit een tabel of kolom wilt gebruiken, kunt u filters toevoegen aan de formule.
 * Als u berekeningen moet aanpassen op rijbasis, biedt DAX functies waarmee u de huidige rijwaarde of een gerelateerde waarde als een soort argument kunt gebruiken, voor het uitvoeren van berekeningen die per context verschillen. Later geven we meer informatie over context.
@@ -160,7 +160,7 @@ Rijcontext kan het beste worden beschouwd als zijnde de huidige rij. Dit is van 
 
 **Filtercontext**
 
-Filtercontext is wat ingewikkelder dan rijcontext. Filtercontext kan het beste worden beschouwd als een of meer filters die worden toegepast in een berekening waarmee een resultaat of waarde wordt bepaald.
+Filtercontext is wat ingewikkelder dan rijcontext. U kunt filtercontext zien als een of meer filters die worden toegepast in een berekening waarmee een resultaat of waarde wordt bepaald.
 
 Filtercontext komt niet in de plaats van rijcontext, maar wordt toegepast naast rijcontext. U kunt de in een berekening op te nemen waarden nog verder uitfilteren met een filtercontext die niet alleen de rijcontext aangeeft, maar ook alleen een bepaalde waarde (filter) in die rijcontext aangeeft.
 

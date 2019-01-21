@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/08/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: d4b0ad34d200e3d94c60c7e3a3f524a3f3ed09cf
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 4cdd4cf3f8a21b2e97b936ed4e6d4efe2df9a0e8
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46550001"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290585"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Metingen in Power BI Desktop
 
@@ -66,7 +66,7 @@ Hiermee kunt u onder andere met behulp van metingen dynamisch URL's maken en de 
 U kunt tabellen maken die de metingen als Web-URL's weergeven en op de URL klikken die op basis van uw selectie is gemaakt. Dit is vooral nuttig als u deze wilt koppelen aan andere Power BI-rapporten met [URL-filterparameters](service-url-filters.md).
 
 ## <a name="learn-more"></a>Meer informatie
-U hebt zojuist een korte inleiding over metingen gehad, maar er is nog veel meer om u te leren hoe u zelf metingen maakt. Bekijk vooral [Tutorial: Create your own measures in Power BI Desktop](desktop-tutorial-create-measures.md) (Zelfstudie: uw eigen metingen maken in Power BI Desktop), waar u een voorbeeldbestand kunt downloaden en stapsgewijze lessen krijgt over het maken van metingen.  
+U hebt zojuist een korte inleiding over metingen gehad, maar er is nog veel meer om u te leren hoe u zelf metingen maakt. Zorg ervoor dat u [Zelfstudie: Uw eigen metingen maken in Power BI Desktop](desktop-tutorial-create-measures.md), waar u een voorbeeldbestand kunt downloaden en stapsgewijs leert hoe u meer metingen maakt.  
 
 Als u meer wilt weten over DAX, lees dan zeker [DAX basics in Power BI Desktop](desktop-quickstart-learn-dax-basics.md) (Standaard DAX-bewerkingen in Power BI Desktop). In [Naslag voor Data Analysis Expressions (DAX)](https://msdn.microsoft.com/library/gg413422.aspx) vindt u uitgebreide artikelen over al deze functies, de syntaxis, operatoren en naamgevingsconventies. DAX bestaat al enkele jaren in Power Pivot in Excel en SQL Server Analysis Services. Er zijn dus ook nog vele andere bronnen beschikbaar. Bekijk ook de wiki [DAX Resource Center](http://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx) (Bronnenmateriaal voor DAX) waar invloedrijke leden van de BI-community hun kennis van DAX delen.
 

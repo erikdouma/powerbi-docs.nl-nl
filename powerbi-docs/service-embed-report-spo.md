@@ -7,16 +7,16 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 11/01/2018
-ms.openlocfilehash: 3ad4335cabac159aee38d54fbfff0f689009fd68
-ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
+ms.openlocfilehash: 906ecdf8934899f2c16bacc07a271b4549d3c048
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "54136594"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292821"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Insluiten met webonderdeel Rapport in SharePoint Online
 
@@ -152,7 +152,7 @@ Gebruikers die in SharePoint een rapport bekijken, moeten een **Power BI Pro-lic
 
 ## <a name="known-issues-and-limitations"></a>Bekende problemen en beperkingen
 
-* Fout: "Er is een fout opgetreden. Meld u af en opnieuw aan. Ga vervolgens opnieuw naar deze pagina. Correlatie-id: niet gedefinieerd, http-antwoordstatus: 400, serverfout, code 10001, bericht: Ontbrekend vernieuwingstoken"
+* Fout: 'Er is een fout opgetreden. Meld u af en meld u opnieuw aan. Ga vervolgens opnieuw naar deze pagina. Correlatie-ID: niet-gedefinieerde HTTP-antwoordstatus: 400, serverfoutcode 10001, bericht: Ontbrekende vernieuwingstoken'
   
   Als u dit foutbericht ontvangt, probeert u een van de onderstaande stappen voor probleemoplossing.
   

@@ -5,17 +5,17 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/20/2018
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: a1ae30097e0af90d5da8acd0d41b11f513756f88
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 3bee2d5a4bbb470ed85d2ec0ae501d3dcc875e7f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135899"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54286284"
 ---
 # <a name="azure-sql-database-with-directquery"></a>Azure SQL Database met DirectQuery
 Ontdek hoe u rechtstreeks verbinding met Azure SQL Database maakt en rapporten kunt maken waarin dynamische gegevens worden gebruikt. U kunt uw gegevens in de bron in plaats van Power BI bewaren.
@@ -51,6 +51,10 @@ Als u eenmalige aanmelding wilt inschakelen, gaat u naar de instellingen voor de
 Wanneer de optie voor eenmalige aanmelding is ingeschakeld en uw gebruikers toegang hebben tot rapporten die op de gegevensbron zijn gebouwd, verzendt Power BI hun geverifieerde Azure AD-referenties in de query's naar de Azure SQL-database. Hierdoor kan Power BI rekening houden met de beveiligingsinstellingen die op het niveau van de gegevensbronnen zijn geconfigureerd.
 
 De optie voor eenmalige aanmelding heeft effect op alle gegevenssets die gebruikmaken van deze gegevensbron. Het heeft geen invloed op de verificatiemethode die wordt gebruikt om scenario's te importeren.
+
+> [!Note]
+> Azure Multi-Factor Authentication (MFA) wordt niet ondersteund. Gebruikers die gebruik willen maken van SSO met SQL DirectQuery, moeten worden uitgesloten van MFA.
+>
 
 ## <a name="finding-parameter-values"></a>Parameterwaarden zoeken
 De volledige servernaam en databasenaam vindt u in Azure Portal.

@@ -4,17 +4,17 @@ description: 'Informatie over het publiceren van apps: verzamelingen dashboards 
 author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3881e37fa5e97939265e9bb9362cee65a1030e67
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 451b5967dd648d982132282d2debbd4c4f86780f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50100813"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54294043"
 ---
 # <a name="publish-apps-with-dashboards-and-reports-in-power-bi"></a>Apps met dashboards en rapporten publiceren in Power BI
 
@@ -31,7 +31,7 @@ Zakelijke gebruikers kunnen uw apps op een aantal verschillende manieren install
 ## <a name="apps-and-organizational-content-packs"></a>Apps en organisatie-inhoudspakketten
 Apps zijn verbeterde organisatie-inhoudspakketten. Inhoudspakketten zijn niet beschikbaar in de preview voor nieuwe werkruimten. Nadat de nieuwe werkruimte-ervaring algemeen beschikbaar is gesteld, kunt u geen inhoudspakketten gebruiken in de nieuw gemaakte werkruimten. Begin met het migreren van uw inhoudspakketten naar apps als u dat nog niet hebt gedaan.
 
-## <a name="video-apps-and-app-workspaces"></a>Video: Apps en app-werkruimten
+## <a name="video-apps-and-app-workspaces"></a>Video: apps en app-werkruimten
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="licenses-for-apps"></a>Licenties voor apps

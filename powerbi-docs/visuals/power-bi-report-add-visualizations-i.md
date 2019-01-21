@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f2edbd7b0b977b378d25634a0f9505101350d73b
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 52c0211aea0462e0bf79d7a48808f1f826c09fb6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829798"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296082"
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report"></a>Deel 1: visualisaties toevoegen aan een Power BI-rapport
 Dit artikel bevat een korte inleiding over het maken van een visualisatie in een rapport met de Power BI-service of Power BI Desktop.  [Zie deel II](power-bi-report-add-visualizations-ii.md) voor geavanceerdere inhoud. Kijk mee met Amanda, die een aantal verschillende manieren om visuele elementen in het rapportcanvas te maken, bewerken en op te maken laat zien. Probeer deze vervolgens zelf met behulp van het [Voorbeeld van verkoop en marketing](../sample-datasets.md) om uw eigen rapport te maken.
@@ -38,7 +38,7 @@ Dit artikel bevat een korte inleiding over het maken van een visualisatie in een
    
    ![](media/power-bi-report-add-visualizations-i/pbi_onecolchart.png)
    
-   **Of, begin met een categorieveld**, zoals Naam of Product: Power BI maakt een tabel en voegt dat veld toe aan de groep **Waarden**.
+   **Of begin met een categorieveld**, bijvoorbeeld Naam of Product: Power BI maakt een tabel en voegt dat veld toe aan **Waarden**.
    
    ![](media/power-bi-report-add-visualizations-i/pbi_agif_createchart3.gif)
    
@@ -57,7 +57,7 @@ Dit artikel bevat een korte inleiding over het maken van een visualisatie in een
   
 
 ## <a name="next-steps"></a>Volgende stappen
- Doorgaan met [Deel 2: visualisaties toevoegen aan een Power BI-rapport](power-bi-report-add-visualizations-ii.md)
+ Ga naar [Deel 2: Visuals toevoegen aan een Power BI-rapport](power-bi-report-add-visualizations-ii.md)
    
    [Communiceren met de visualisaties](../consumer/end-user-reading-view.md) in het rapport.
    

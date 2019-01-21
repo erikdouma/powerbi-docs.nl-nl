@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5d2a33b8dc50a4a30bb79406462f1342953528d9
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 896c415028b99db8662e93b5d709b76520996fef
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830373"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275750"
 ---
 # <a name="combo-chart-in-power-bi"></a>Combinatiegrafieken in Power BI
 Een combinatiegrafiek in Power BI is een visualisatie waarin een lijndiagram wordt gecombineerd met een kolomdiagram. Als u deze twee diagrammen combineert, kunt u de gegevens sneller vergelijken.
@@ -57,7 +57,7 @@ Kijk hoe Will een combinatiegrafiek maakt op basis van het voorbeeld van verkoop
     ![](media/power-bi-visualization-combo-chart/combotutorial1new.png)
 5. Selecteer het beletselteken (...) in de rechterbovenhoek van de visualisatie en selecteer **Sorteren op > FiscalMonth**. Als u de sorteervolgorde wilt wijzigen, selecteert u het beletselteken opnieuw en kiest u **Oplopend sorteren** of **Aflopend sorteren**.
 
-6. Converteer de kolomdiagram naar een combinatiegrafiek. Er zijn twee combinatiegrafieken beschikbaar: **lijndiagram en gestapeld kolomdiagram** en **lijndiagram en gegroepeerd kolomdiagram**. Selecteer de kolomdiagram en selecteer vervolgens in het deelvenster **Visualisaties** de optie **Lijndiagram en gegroepeerd kolomdiagram**.
+6. Converteer de kolomdiagram naar een combinatiegrafiek. Er zijn twee combinatiegrafieken beschikbaar: **Lijndiagram en gestapelde kolomdiagram** en **Lijndiagram en gegroepeerde kolomdiagram**. Selecteer de kolomdiagram en selecteer vervolgens in het deelvenster **Visualisaties** de optie **Lijndiagram en gegroepeerd kolomdiagram**.
 
     ![](media/power-bi-visualization-combo-chart/converttocombo_new2.png)
 7. Ga naar het deelvenster **Velden** en sleep **Verkoop** \> **Omzet van afgelopen jaar** naar de bucket **Regelwaarden**.

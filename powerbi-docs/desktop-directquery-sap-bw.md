@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6c47fb847ff5360031f4bfe2974db9c405a4ce5f
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 61de19e50437cf8cb5920d2a413821e325da2a1a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670734"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278073"
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery en SAP Business Warehouse (BW)
 U kunt rechtstreeks verbinding maken met **SAP Business Warehouse (BW)**-gegevensbronnen met behulp van **DirectQuery**. Gezien de OLAP-/multidimensionale aard van SAP BW, zijn er veel belangrijke verschillen tussen DirectQuery via SAP BW en via relationele bronnen zoals SQL Server. Deze verschillen kunnen als volgt worden samengevat:
@@ -37,12 +37,12 @@ De primaire extra modelleringsbeperkingen bij het verbinden met SAP BW met behu
 * **Geen ondersteuning voor het definiëren van relaties:** de relaties zijn inherent aan de externe SAP-bron, en er kunnen geen aanvullende relaties worden gedefinieerd in het model.
 * **Geen gegevensweergave:** de **Gegevensweergave** geeft normaal gesproken de gegevens op detailniveau weer in de tabellen. Gezien de aard van OLAP-bronnen zoals SAP BW, is deze weergave niet beschikbaar via SAP BW.
 * **Kolom- en metingsdetails zijn vast:** de lijst met kolommen en metingen in de lijst met velden wordt bepaald door de onderliggende gegevensbron en kan niet worden gewijzigd. Het is bijvoorbeeld niet mogelijk een kolom te verwijderen of het gegevenstype ervan te wijzigen (de naam kan wel worden gewijzigd).
-* **Extra beperkingen in DAX:** er zijn extra beperkingen met betrekking tot de DAX die kunnen worden gebruikt in metingdefinities, in overeenstemming met beperkingen in de bron. Het is bijvoorbeeld niet mogelijk een statistische functie over een tabel te gebruiken.
+* **Aanvullende beperkingen in DAX:** er zijn extra beperkingen met betrekking tot de DAX die kunnen worden gebruikt in metingdefinities, in overeenstemming met beperkingen in de bron. Het is bijvoorbeeld niet mogelijk een statistische functie over een tabel te gebruiken.
 
 ## <a name="additional-visualization-restrictions"></a>Extra visualisatiebeperkingen
 De primaire extra beperkingen voor visualisaties bij het verbinden met SAP BW met behulp van DirectQuery in Power BI zijn als volgt:
 
-* **Geen aggregatie van kolommen:** het is niet mogelijk de aggregatie voor een kolom in een visualisatie te wijzigen; deze is altijd *Niet samenvatten*
+* **Geen aggregatie van kolommen:** het is niet mogelijk de aggregatie voor een kolom in een visual te wijzigen, deze is altijd *Niet samenvatten*.
 * **Filteren van metingen is uitgeschakeld:** het filteren van metingen is uitgeschakeld overeenkomstig de door SAP BW geboden ondersteuning.
 * **Meerdere selecties en opnemen/uitsluiten:** de mogelijkheid om meerdere gegevenspunten in een visualisatie te selecteren is uitgeschakeld als de punten waarden uit meer dan één kolom vertegenwoordigen. Bijvoorbeeld: in een staafdiagram met verkopen per land met Categorie in de legenda, is het niet mogelijk het punt voor (Verenigde Staten, Fietsen) en (Frankrijk, Kleding) te selecteren. Op dezelfde manier is het niet mogelijk het punt voor (Verenigde Staten, Fietsen) te selecteren en dit uit te sluiten van de visualisatie. Beide beperkingen worden opgelegd overeenkomstig de ondersteuning die door SAP BW wordt geboden.
 

@@ -1,26 +1,26 @@
 ---
-title: 'Voorbeeld van een verkoopkansanalyse voor Power BI: een rondleiding volgen'
-description: 'Voorbeeld van een verkoopkansanalyse voor Power BI: een rondleiding volgen'
+title: 'Voorbeeld van een verkoopkansanalyse voor Power BI: Rondleiding volgen'
+description: 'Voorbeeld van een verkoopkansanalyse voor Power BI: Rondleiding volgen'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/20/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 12bc6039f7b6580782d3dfac181443caa6557447
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 7f7b9d09b3761a5a02bdf4f706c6470b7d8cf2b6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717488"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275517"
 ---
-# <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Voorbeeld van een verkoopkansanalyse voor Power BI: een rondleiding volgen
+# <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Voorbeeld van een verkoopkansanalyse voor Power BI: Rondleiding volgen
 
 ## <a name="overview-of-the-opportunity-analysis-sample"></a>Overzicht van het voorbeeld van een verkoopkansanalyse
-Het **voorbeeld van een verkoopanalyse** bevat een dashboard (en het bijbehorende rapport) voor een softwarebedrijf met twee verkoopkanalen: *direct* en *partner*. De Sales manager heeft dit dashboard gemaakt om kansen en omzet bij te houden per regio, dealgrootte en kanaal.
+Het **voorbeeld van een verkoopanalyse** bevat een dashboard (en het bijbehorende rapport) voor een softwarebedrijf met twee verkoopkanalen: *direct* en *partner*. De salesmanager heeft dit dashboard gemaakt om verkoopkansen en omzet bij te houden per regio, dealgrootte en kanaal.
 
 De verkoopmanager vertrouwt op twee soorten omzet:
 
@@ -121,7 +121,7 @@ Onze CFO gebruikt deze pagina om de werkbelasting te beheren. Door te kijken naa
 
 Dit is een veilige omgeving om in te experimenteren. U kunt er altijd voor kiezen om de wijzigingen niet op te slaan. Als u deze wel opslaat, kunt u altijd naar **Gegevens ophalen** gaan voor een nieuwe kopie van dit voorbeeld.
 
-## <a name="next-steps-connect-to-your-data"></a>Volgende stappen: verbinding maken met uw gegevens
+## <a name="next-steps-connect-to-your-data"></a>Volgende stappen: Verbinding maken met uw gegevens
 We hopen dat deze rondleiding heeft laten zien hoe Power BI-dashboards, Q&A en rapporten inzicht kunnen geven in trackinggegevens over verkoopkansen. Nu is het uw beurt om verbinding met uw eigen gegevens te maken. Met Power BI kunt u verbinding maken met een groot aantal gegevensbronnen. Zie [Aan de slag met Power BI](service-get-started.md) voor meer informatie.
 
 [Voorbeelden downloaden](sample-datasets.md)  

@@ -5,17 +5,17 @@ author: otarb
 manager: rajatt
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: 588b8cd6289c1f5d1242ade73dea149474bfed38
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 7390f029144e5cb37830921071ad5c2c678b2d4d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45975214"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275474"
 ---
 # <a name="create-power-bi-visuals-using-python"></a>Power BI-visuals maken met Python
 In combinatie met **Power BI Desktop** kunt u **Python** gebruiken om uw gegevens te visualiseren.
@@ -107,7 +107,7 @@ Nadat u uw Python-installatie hebt opgegeven, bent u klaar om Python-visuals te 
 
     ![](media/desktop-python-visuals/python-visuals-8.png)
 
-    > **Beveiliging Python-scripts:** Python-visuals worden gemaakt op basis van Python-scripts, die code kunnen bevatten met beveiligings- of privacyrisico's. Wanneer een gebruiker voor het eerst een Python-visual probeert weer te geven of ermee probeert te werken, wordt er een beveiligingswaarschuwing weergegeven. Schakel Python-visuals alleen in als u de auteur en bron vertrouwt, of nadat u het Python-script hebt bekeken en begrijpt.
+    > **Beveiliging van Python-scripts:** Python-visuals worden gemaakt op basis van Python-scripts, die code kunnen bevatten met beveiligings- of privacyrisico's. Wanneer een gebruiker voor het eerst een Python-visual probeert weer te geven of ermee probeert te werken, wordt er een beveiligingswaarschuwing weergegeven. Schakel Python-visuals alleen in als u de auteur en bron vertrouwt, of nadat u het Python-script hebt bekeken en begrijpt.
     > 
     > 
 

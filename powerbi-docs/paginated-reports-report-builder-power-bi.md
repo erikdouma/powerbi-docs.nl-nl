@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: overview
 ms.date: 12/05/2018
 ms.author: maggies
-ms.openlocfilehash: d79299f469062ec74c49ff4b7e9edda26c3409a3
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 7ce0e90e3166ce6f84c5e53e05d56e9fcc4e790d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026112"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282835"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium-preview"></a>Wat zijn gepagineerde rapporten in Power BI Premium? (Voorbeeld)
 Gepagineerde rapporten waren lang de standaardrapportindeling in SQL Server Reporting Services en zijn nu beschikbaar in de Power BI-service. Deze rapporten kunnen worden afgedrukt of gedeeld. Ze worden 'gepagineerd' genoemd, omdat ze zo zijn opgemaakt dat ze op een pagina passen. Alle gegevens worden in een tabel weergegeven, zelfs als de tabel meerdere pagina's omvat. Ze worden soms 'pixelperfect' genoemd omdat de pagina-indeling van dit type rapport exact kan worden ingesteld. Gepagineerde rapporten zijn gebaseerd op de RDL-rapporttechnologie in SQL Server Reporting Services. Report Builder is het zelfstandige hulpprogramma voor het maken van gepagineerde rapporten. 
@@ -47,7 +47,7 @@ Tabelrapporten werken goed voor gegevens op basis van kolommen. Matrixrapporten,
   
 U kunt beginnen met een van de wizards van Report Builder. De wizards Tabel, Matrix en Grafiek begeleiden u stapsgewijs bij het maken van de ingesloten verbinding met de gegevensbron en de ingesloten gegevensset. Vervolgens sleept u velden om een gegevensset-query te maken, selecteert u een indeling en stijl, en past u het rapport aan.  
   
-Met de wizard Kaart maakt u rapporten waarin geaggregeerde gegevens worden uitgezet tegen een geografische of geometrische achtergrond. Kaartgegevens kunnen ruimtelijke gegevens zijn uit een Transact-SQL-query of een ESRI-vormbestand (Environmental Systems Research Institute, Inc).  U kunt ook een achtergrond bestaande uit een tegel met een kaart van Microsoft Bing toevoegen.  
+Met de wizard Kaart maakt u rapporten waarin geaggregeerde gegevens worden uitgezet tegen een geografische of geometrische achtergrond. Kaartgegevens kunnen ruimtelijke gegevens zijn uit een Transact-SQL-query of een ESRI-vormbestand (Environmental Systems Research Institute, Inc). U kunt ook een achtergrond bestaande uit een tegel met een kaart van Microsoft Bing toevoegen.  
 
 ### <a name="add-more-to-your-report"></a>Meer toevoegen aan uw rapport
 

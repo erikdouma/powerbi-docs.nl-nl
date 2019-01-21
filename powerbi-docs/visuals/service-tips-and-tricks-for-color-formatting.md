@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/19/2018
+ms.date: 01/09/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 09c505d114eaa951978f23061d9c79c1b6870fad
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: 71ed70344281dec3353b73c8698594d62ef32eae
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53983365"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285594"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Tips en trucs voor het gebruik van kleuren in Power BI
 Power BI biedt veel verschillende manieren voor het aanpassen van uw dashboards en rapporten. In dit artikel vindt u een verzameling tips die ervoor kunnen zorgen dat uw Power BI-visualisaties boeiend, interessant en afgestemd op uw behoeften zijn.
@@ -29,41 +29,38 @@ De volgende tips worden gegeven. Hebt u nog een goede tip? Mooi! Stuur de tip na
 * Uiteenlopende kleurenschalen gebruiken
 * Hoe kunt u iets ongedaan maken in Power BI?
 
-Als u wijzigingen wilt aanbrengen, moet u een rapport bewerken: selecteer uw **Rapport** in het deelvenster **Mijn werkruimte** en selecteer **Rapport bewerken** in het menu bovenaan, zoals op de volgende afbeelding. In dit voorbeeld wordt het **voorbeeld van Human Resources** gebruikt.
+Als u eventuele wijzigingen wilt aanbrengen, moet u een rapport bewerken. Open het rapport en selecteer **Rapport bewerken** in het bovenste menu, zoals wordt weergegeven in de volgende afbeelding.
 
-![rapportcanvas met Rapport bewerken gemarkeerd](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
 
-Wanneer het deelvenster **Visualisaties** wordt weergegeven aan de rechterkant van het **rapportcanvas**, kunt u beginnen met aanpassen.
+Wanneer het deelvenster **Visualisaties** wordt weergegeven aan de rechterkant van het **rapportcanvas**, kunt u beginnen met aanpassen. Als het deelvenster niet wordt weergegeven, selecteert u de pijl in de rechterbovenhoek om het te openen.
 
-![rapport met opmaakdeelvenster waarop het volgende wordt weergegeven](media/service-tips-and-tricks-for-color-formatting/power-bi-formatting-pane.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-formatting-pane.png)
 
 ## <a name="change-the-color-of-a-single-data-point"></a>De kleur van één gegevenspunt wijzigen
-Soms wilt u een bepaald gegevenspunt markeren. Misschien zijn het verkoopcijfers voor de lancering van een nieuw product, of hogere kwaliteitsscores na de lancering van een nieuw programma. Met Power BI, en voor de meeste soorten visuals, kunt u een gegevenspunt markeren door de kleur ervan te wijzigen.
+Soms wilt u een bepaald gegevenspunt markeren. Misschien zijn het verkoopcijfers voor de lancering van een nieuw product, of hogere kwaliteitsscores na de lancering van een nieuw programma. Met Power BI kunt u een gegevenspunt markeren door de kleur ervan te wijzigen.
 
-De volgende visualisatie toont aan de hand van standaardkleuren de verkoopmarges per werknemer. 
+In de volgende visualisatie worden per productsegment verkochte eenheden gerangschikt. 
 
-![vlakdiagram](media/service-tips-and-tricks-for-color-formatting/power-bi-area-chart.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-grey.png)
 
-Het vlak voor Annelie is niet duidelijk zichtbaar. Daarom gebruiken we een kleur om het meer te laten opvallen. Dit zijn de stappen:
+Stel u voor dat u het segment **Gemak** wilt aanroepen om op basis van kleur te zien hoe goed dit splinternieuw segment presteert. Dit zijn de stappen:
 
-Vouw de sectie **Gegevenskleuren** uit. Het volgende verschijnt.
+Vouw de sectie **Gegevenskleuren** uit en schakel de schuifregelaar Aan in op **Alles weergeven**. Hiermee worden de kleuren voor elk gegevenselement in de visualisatie weergegeven. Wanneer u met de muisaanwijzer over de gegevenspunten beweegt, is schuiven ingeschakeld zodat u alle gegevenspunten kunt wijzigen.
 
-![Het selectiegebied Gegevenskleuren onder Opmaak](media/service-tips-and-tricks-for-color-formatting/power-bi-data-colors.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-show-all.png)
 
+Stel **Gemak** in op oranje. 
 
-In dit geval selecteren we een donkere, maar felle kleur die afwijkt van de kleur die voor Valery is gebruikt. Selecteer het pijltje omlaag in het kleurvak van Annelie, selecteer **Aangepaste kleur** en kies een heldere blauwe kleur.
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-orange.png)
 
-![kleurselecties](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_6.png)
+Wanneer dit is geselecteerd, heeft het gegevenspunt **Gemak** een mooie oranje kleur die zeker opvalt.
 
-Zodra u het vlak voor Annelie hebt geselecteerd, is dit veel eenvoudiger te onderscheiden van de andere werknemers. 
+Zelf als u visualisatietypen wijzigt en vervolgens terugkeert, onthoudt Power BI uw selectie en blijft **Gemak** oranje.
 
-![vlakdiagram, vlak van Annelie nu helderblauw](media/service-tips-and-tricks-for-color-formatting/power-bi-color.png)
+U kunt de kleur van een gegevenspunt voor één, meerdere of alle gegevenselementen in de visualisatie wijzigen. Wellicht wilt u dat uw visual uw bedrijfskleuren bevat. 
 
-Zelfs als u het visualisatietype wijzigt en vervolgens terugkeert, onthoudt Power BI uw selectie en blijft **Washington** groen.
-
-U kunt de kleur van een gegevenspunt ook voor meer dan één gegevenselement wijzigen. In de volgende afbeelding is **Arizona** rood en is **Washington** nog steeds groen.
-
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_8.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-corporate.png)
 
 Er zijn veel verschillende dingen die u met kleuren kunt doen. In de volgende sectie gaan we in op kleurovergangen.
 
@@ -73,16 +70,27 @@ Grafieken profiteren vaak van dynamisch ingestelde kleuren op basis van de numer
 In de volgende secties worden verschillende manieren beschreven om kleur te baseren op een numerieke waarde.
 
 ## <a name="base-the-color-of-data-points-on-a-value"></a>De kleur van gegevenspunten baseren op een waarde
-Als u de kleur wilt wijzigen op basis van een waarde, sleept u het veld waarop u de kleur wilt baseren, naar het gebied **Kleurverzadiging** in het deelvenster **Veld**. In de volgende afbeelding is **Winst voor belasting** naar **Kleurverzadiging** gesleept. U ziet dat **Velo** weliswaar een hogere **Brutoverkoop** heeft (de kolom is hoger), maar **Amarilla** heeft een grotere **Winst voor belasting** (de kolom heeft meer kleurverzadiging).
+Als u de kleur wilt wijzigen op basis van een waarde, sleept u het veld waarop u de kleur wilt baseren, naar het gebied **Kleurverzadiging** in het deelvenster **Velden**. In de volgende afbeelding is **Marktaandeelpercentage SPLY YTD** naar **Kleurverzadiging** gesleept. 
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_9.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-color-saturation.png)
+
+En in het opmaakvenster onder **Gegevenskleuren** bepaalt u hoe de waarde van **Marktaandeelpercentage SPLY YTD** de kleur en arcering in uw kolomdiagram verandert. In dit voorbeeld is een lager marktaandeelpercentage lichtblauw en hogere waarden donkerblauw.
+
+
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-data-colors2.png)
+
+
+U ziet dat, hoewel er meer eenheden van zowel **Productiviteit** als **Extreem** zijn verkocht (die kolommen zijn hoger), **Toezicht** een groter **Marktaandeelpercentage SPLY YTD** heeft (die kolom heeft meer kleurverzadiging).
+
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-saturation.png)
 
 ## <a name="customize-the-colors-used-in-the-color-scale"></a>De kleuren in de kleurenschaal aanpassen
-U kunt de kleuren in de kleurenschaal ook aanpassen. Vouw **Gegevenskleuren** uit en u ziet een kleurovergang van de kleuren die worden gebruikt voor het visualiseren van uw gegevens. Standaard wordt de laagste waarde in uw gegevens toegewezen aan de minst verzadigde kleur en de hoogste waarde aan de meest verzadigde kleur.
+U kunt de kleuren in de kleurenschaal ook aanpassen. Standaard wordt de laagste waarde in uw gegevens toegewezen aan de minst verzadigde kleur en de hoogste waarde aan de meest verzadigde kleur. In de afbeelding hierboven hebben we een blauw kleurovergang gebruikt. 
 
-Het kleurbereik wordt weergegeven in een kleurenbalk met het spectrum tussen de kleurwaarden **Minimum** en **Maximum** met **Minimum** aan de linkerzijde en  **Maximum**helemaal rechts.
+Vouw **Gegevenskleuren** uit en u ziet een kleurovergang van de kleuren die worden gebruikt voor het visualiseren van uw gegevens. Het kleurbereik wordt weergegeven in een kleurenbalk met het spectrum tussen de kleurwaarden **Minimum** en **Maximum** met **Minimum** aan de linkerzijde en  **Maximum**helemaal rechts.
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_10.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-data-colors2.png)
+
 
 Als u de schaal wilt wijzigen om een ander kleurbereik te gebruiken, selecteert u de keuzelijst met kleuren naast **Minimum** of **Maximum**en selecteert u een kleur. In de volgende afbeelding is de kleur **Maximum** gewijzigd in zwart en de kleurenbalk geeft het nieuwe kleurenspectrum aan tussen **Minimum** en **Maximum**.
 

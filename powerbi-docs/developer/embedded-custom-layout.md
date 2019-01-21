@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/19/2017
 ms.author: maghan
-ms.openlocfilehash: 36f9665f0e42ee62e5a1a4a7584a2492bea276b0
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 641369a4410741269a260e036ac3a7930f385e76
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37597907"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288929"
 ---
 # <a name="custom-layouts"></a>Aangepaste indelingen
 
@@ -64,9 +64,9 @@ enum DisplayOption {
 }
 ```
 
-- `pageSize`: gebruik de paginagrootte om de grootte van het tekengebied te bepalen (bijv. wit vlak in het rapport).
-- `displayOptions`: mogelijke waarden zijn: FitToWidth, FitToPage of ActualSize. Hiermee bepaalt u de schaal waarop het canvas in het iframe past.
-- `pagesLayout`: hiermee bepaalt u de indeling voor elk visuele element. zie PagesLayout voor meer informatie.
+- `pageSize`: Gebruik de paginagrootte om de grootte van het tekengebied te bepalen (bijv. wit vlak in het rapport).
+- `displayOptions`: Mogelijke waarden zijn: FitToWidth, FitToPage of ActualSize. Hiermee bepaalt u de schaal waarop het canvas in het iframe past.
+- `pagesLayout`: Hiermee bepaalt u de indeling voor elk visuele element. zie PagesLayout voor meer informatie.
 
 ## <a name="pages-layout"></a>Indeling van de pagina 's
 
@@ -111,9 +111,9 @@ enum VisualContainerDisplayMode {
 }
 ```
 
-- `x,y,z`: hiermee definieert u de nieuwe positie van het visuele element.
-- `width`, hoogte: hiermee definieert u de nieuwe grootte van het visuele element.
-- `displayState`: hiermee definieert u de zichtbaarheid van het visuele element.
+- `x,y,z`: Hiermee definieert u de nieuwe positie van de visual.
+- `width`, hoogte: Hiermee definieert u de nieuwe grootte van de visual.
+- `displayState`: Hiermee definieert u de nieuwe zichtbaarheid van de visual.
 
 
 ## <a name="update-layout"></a>Indeling bijwerken

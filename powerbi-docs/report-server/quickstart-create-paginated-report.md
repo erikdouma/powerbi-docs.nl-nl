@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/22/2018
 ms.author: maggies
-ms.openlocfilehash: 475221981181e4ddfac18e7023259fac9bbc35ed
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: 9e3a45e7648fd38413c2d45582981bac5e91cd2a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289123"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284409"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Een gepagineerd rapport maken voor Power BI Report Server
 Zoals de naam al aangeeft, kunnen gepagineerde rapporten uit meerdere pagina's bestaan. Ze worden opgemaakt met een vaste indeling en kunnen uiterst precies worden aangepast. Gepagineerde rapporten zijn RDL bestanden.
@@ -55,18 +55,18 @@ Op de eerste pagina in de wizard Grafieken, **Een gegevensset kiezen**, kunt u e
 
 1. Selecteer **Bladeren** > selecteer een gedeelde gegevensset op een server > **Openen** > **Volgende**.
    
-    ![Wizard Grafieken: een gegevensset kiezen](media/quickstart-create-paginated-report/reportserver-paginated-choose-dataset.png)
+    ![Wizard Grafiek: Een gegevensset kiezen](media/quickstart-create-paginated-report/reportserver-paginated-choose-dataset.png)
    
      Moet u een gegevensset maken? Zie [Een gedeelde of ingesloten gegevensset maken](https://docs.microsoft.com/sql/reporting-services/report-data/create-a-shared-dataset-or-embedded-dataset-report-builder-and-ssrs).
 2. Kiest een type diagram. In dit geval kiest u een staafdiagram.
    
-    ![Wizard Grafieken: grafiektype](media/quickstart-create-paginated-report/reportserver-paginated-choose-chart-type.png)
+    ![Wizard Grafiek: Grafiektype](media/quickstart-create-paginated-report/reportserver-paginated-choose-chart-type.png)
 3. Rangschik de velden door ze naar de vakken **Categorieën**, **Reeks** en **Waarden** te slepen.
    
-    ![Wizard Grafieken: velden rangschikken](media/quickstart-create-paginated-report/reportserver-paginated-arrange-fields.png)
+    ![Wizard Grafiek: Velden rangschikken](media/quickstart-create-paginated-report/reportserver-paginated-arrange-fields.png)
 4. Selecteer **Volgende** > **Voltooien**.
 
-## <a name="step-3-design-your-report"></a>Stap 3: Uw rapport ontwerpen
+## <a name="step-3-design-your-report"></a>Stap 3: Het rapport ontwerpen
 U bevindt zich nu in de weergave voor het ontwerpen van rapporten. Zoals u ziet, wordt er een tijdelijke gegevensaanduiding weergegeven, niet uw gegevens.
 
 ![Ontwerpweergave van een rapport](media/quickstart-create-paginated-report/reportserver-paginated-preview-report.png)
@@ -82,7 +82,7 @@ En u kunt diverse andere visualisaties toevoegen: meters, tabellen, matrices, ka
 
 ![De ontwerpweergave van Report Builder](media/quickstart-create-paginated-report/reportserver-paginated-finished-design-report.png)
 
-## <a name="step-4-save-your-report-to-the-report-server"></a>Stap 4: Uw rapport opslaan op de rapportserver
+## <a name="step-4-save-your-report-to-the-report-server"></a>Stap 4: Het rapport opslaan op de rapportserver
 Wanneer uw rapport klaar is, slaat u het op in Power BI Report Server.
 
 1. Selecteer in het menu **Bestand** de optie **Opslaan als** en sla het bestand op naar de rapportserver. 

@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: dc811c5f6c6a7d5d428591eb7afd1665cda6dbb0
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 85950e2510147c3bed36d4911360f7c365c79da6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900446"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283524"
 ---
 # <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>Navigeren in de ontwerpweergave voor rapporten voor gepagineerde rapporten (preview)
 
@@ -88,14 +88,14 @@ De grootte van het ontwerpoppervlak kan afwijken van het afdrukgebied van het pa
  Afhankelijk van de eigenschap kunt u een waarde voor de eigenschap selecteren in een vervolgkeuzelijst, de waarde typen of `<Expression>` selecteren om een expressie te maken.  
   
 ### <a name="changing-the-properties-pane-view"></a>De weergave van het deelvenster Eigenschappen wijzigen  
- Eigenschappen in het deelvenster Eigenschappen worden standaard ingedeeld in categorieën, zoals Actie, Rand, Opvulling, Lettertype en Algemeen. Elke categorie is gekoppeld aan een set eigenschappen. Zo bevat de categorie Lettertype bijvoorbeeld de volgende eigenschappen: Color, FontFamily, FontSize, FontStyle, FontWeight, LineHeight en TextDecoration. Als u dat liever hebt, kunt u alle eigenschappen die worden vermeld in het deelvenster ook alfabetisch sorteren. Hiermee verwijdert u de categorieën en ziet u een lijst met alle eigenschappen in alfabetische volgorde, ongeacht de categorie.  
+ Eigenschappen in het deelvenster Eigenschappen worden standaard ingedeeld in categorieën, zoals Actie, Rand, Opvulling, Lettertype en Algemeen. Elke categorie is gekoppeld aan een set eigenschappen. De volgende eigenschappen worden bijvoorbeeld vermeld in de categorie Font: Color, FontFamily, FontSize, FontStyle, FontWeight, LineHeight en TextDecoration. Als u dat liever hebt, kunt u alle eigenschappen die worden vermeld in het deelvenster ook alfabetisch sorteren. Hiermee verwijdert u de categorieën en ziet u een lijst met alle eigenschappen in alfabetische volgorde, ongeacht de categorie.  
   
- Het deelvenster Eigenschappen heeft drie knoppen bovenaan het deelvenster: **Categorie**, **Alfabetiseren** en **Eigenschappenblad**. Selecteer de knoppen Categorie en Alfabetiseren om te schakelen tussen de weergaven van het deelvenster Eigenschappen. Selecteer de knop **Eigenschappenblad** om het dialoogvenster Eigenschappen voor een geselecteerde rapportitem te openen.  
+ Het deelvenster Eigenschappen heeft drie knoppen bovenaan het deelvenster: **Categorie**, **Alfabetisch sorteren** en **Eigenschappen**. Selecteer de knoppen Categorie en Alfabetiseren om te schakelen tussen de weergaven van het deelvenster Eigenschappen. Selecteer de knop **Eigenschappenblad** om het dialoogvenster Eigenschappen voor een geselecteerde rapportitem te openen.  
   
   
 ## <a name="5-grouping-pane"></a>5 Deelvenster Groeperen
 
- Groepen worden gebruikt om uw rapportgegevens te ordenen in een visuele hiërarchie en om totalen te berekenen. U kunt de rij- en kolomgroepen in een gegevensgebied weergeven in het ontwerpoppervlak en ook in het deelvenster Groeperen. Het deelvenster Groeperen heeft twee deelvensters: Rijgroepen en Kolomgroepen. Wanneer u een gegevensgebied selecteert, worden in het deelvenster Groeperen alle groepen uit die gegevensregio weergegeven als een hiërarchische lijst: onderliggende groepen worden ingesprongen weergegeven onder de bovenliggende groepen.  
+ Groepen worden gebruikt om uw rapportgegevens te ordenen in een visuele hiërarchie en om totalen te berekenen. U kunt de rij- en kolomgroepen in een gegevensgebied weergeven in het ontwerpoppervlak en ook in het deelvenster Groeperen. Het deelvenster Groeperen heeft twee deelvensters: Rijgroepen en Kolomgroepen. Wanneer u een gegevensgebied selecteert, worden in het deelvenster Groeperen alle groepen uit die gegevensregio weergegeven als een hiërarchische lijst: Onderliggende groepen worden ingesprongen weergegeven onder de bovenliggende groepen.  
   
  U kunt groepen maken door velden vanuit het deelvenster Rapportgegevens te slepen naar het ontwerpoppervlak of het deelvenster Groeperen. In het deelvenster Groeperen kunt u de bovenliggende, aangrenzende en onderliggende groepen toevoegen, groepseigenschappen wijzigen en groepen verwijderen.  
   

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 85f7dd131806cd808c28c23cb70230a0c719e0a1
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 6a44443918fe0bb9c25343c8960aaaadd5a6977e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670183"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285617"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Gegevens ophalen uit Excel-werkmappen
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -43,7 +43,7 @@ Als u Excel gebruikt om verbinding te maken met een externe gegevensbron, kunt u
 Hoe uw Power View-bladen, draaitabellen en grafieken worden weergegeven (of niet worden weergegeven) in Power BI, is afhankelijk van waar uw werkmap is opgeslagen en hoe u deze in Power BI importeert. Hieronder gaan we daar dieper op in.
 
 ## <a name="data-types"></a>Gegevenstypen
-Power BI ondersteunt de volgende gegevenstypen: Geheel getal, Decimaal getal, Valuta, Datum, Waar/Onwaar, Tekst. Het markeren van gegevens als specifieke gegevenstypen in Excel verbetert uw gebruikservaring met Power BI.
+Power BI biedt ondersteuning voor de volgende gegevenstypen: Geheel getal, Decimaal getal, Valuta, Datum, Waar/Onwaar, Tekst. Het markeren van gegevens als specifieke gegevenstypen in Excel verbetert uw gebruikservaring met Power BI.
 
 ## <a name="prepare-your-workbook-for-power-bi"></a>Uw werkmap voorbereiden voor Power BI
 Bekijk deze handige video voor meer informatie over hoe u ervoor zorgt dat uw Excel-werkmappen gereed zijn voor Power BI.

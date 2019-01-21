@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: 354ba336407f200d2c311f6bf0de91967cf3f5d1
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: e7a9b4da760f02672f51aa7ace0f3bb19c501834
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598134"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275014"
 ---
 # <a name="manage-content-in-the-web-portal"></a>Inhoud beheren in de webportal 
 De webportal van Power BI Report Server is een on-premises locatie om uw Power BI-rapporten, mobiele rapporten en gepagineerde rapporten weer te geven, op te slaan en te beheren.
@@ -23,8 +23,8 @@ De webportal van Power BI Report Server is een on-premises locatie om uw Power B
 
 U kunt de webportal weergeven in elke moderne browser. Rapporten en KPI's worden in de webportal geordend in mappen. Deze kunt u markeren als favorieten. U kunt hier ook Excel-werkmappen opslaan. Vanuit de webportal kunt u de hulpprogramma's starten die u nodig hebt om rapporten te maken:
 
-* **Power BI-rapporten** die zijn gemaakt met Power BI Desktop: deze kunt u weergeven in de webportal en de mobiele Power BI-apps.
-* **Gepagineerde rapporten** die zijn gemaakt in Report Builder: dit zijn modern ogende documenten met een vaste indeling die zijn geoptimaliseerd voor afdrukken.
+* **Power BI-rapporten** die zijn gemaakt met Power BI Desktop: Bekijk deze in het webportaal en de mobiele Power BI-apps.
+* **Gepagineerde rapporten** die in Report Builder zijn gemaakt: Modern ogende documenten met vaste indeling die zijn geoptimaliseerd om af te drukken.
 * **KPI's** die rechtstreeks in de webportal zijn gemaakt.
 
 U kunt in de webportal door de mappen van de rapportserver bladeren of naar specifieke rapporten zoeken. U kunt een rapport, de algemene eigenschappen van het rapport en eerdere exemplaren van het rapport, zoals vastgelegd in de rapportgeschiedenis, weergeven. Afhankelijk van uw machtigingen kunt u zich mogelijk ook abonneren op rapporten die worden geleverd aan uw Postvak IN of een gedeelde map in het bestandssysteem.

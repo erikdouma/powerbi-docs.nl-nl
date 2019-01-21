@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/12/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ffb82303584249641454c81f61e399d2b1d4f574
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 734af04ae515b1cae19b5afc99166619a85ab828
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452770"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290451"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>Samengestelde modellen in Power BI Desktop gebruiken
 
@@ -25,11 +25,11 @@ Voorheen was het zo dat als u in Power BI Desktop een DirectQuery gebruikte in e
 
 De voorziening Samengestelde modellen in Power BI Desktop bestaat uit drie gerelateerde functies:
 
-* **Samengestelde modellen**: maakt het mogelijk dat een rapport meerdere gegevensverbindingen heeft, inclusief DirectQuery-verbindingen of importverbindingen, in elke gewenste combinatie. Dit artikel bevat een uitgebreide beschrijving van samengestelde modellen.
+* **Samengestelde modellen**: Maakt het mogelijk dat een rapport meerdere gegevensverbindingen heeft, inclusief DirectQuery-verbindingen of importverbindingen, in elke gewenste combinatie. Dit artikel bevat een uitgebreide beschrijving van samengestelde modellen.
 
-* **Veel-op-veel-relaties**: met *samengestelde modellen* kunt u *veel-op-veel-relaties* tussen tabellen tot stand brengen. Door deze aanpak hoeven tabellen geen unieke waarden meer te bevatten. Ook zijn eerdere tijdelijke oplossingen niet meer nodig, zoals de introductie van nieuwe tabellen om relaties tot stand te brengen. Zie [Veel-op-veel-relaties in Power BI Desktop (preview-versie)](desktop-many-to-many-relationships.md) voor meer informatie.
+* **Veel-op-veel-relaties**: Met *samengestelde modellen* kunt u *veel-op-veel-relaties* tussen tabellen tot stand brengen. Door deze aanpak hoeven tabellen geen unieke waarden meer te bevatten. Ook zijn eerdere tijdelijke oplossingen niet meer nodig, zoals de introductie van nieuwe tabellen om relaties tot stand te brengen. Zie [Veel-op-veel-relaties in Power BI Desktop (preview-versie)](desktop-many-to-many-relationships.md) voor meer informatie.
 
-* **Opslagmodus**: u kunt nu opgeven voor welke visualisaties een query naar de back-end-gegevensbronnen is vereist. Visuals waarvoor geen query is vereist, worden geïmporteerd zelfs als ze zijn gebaseerd op DirectQuery. De functie helpt de prestaties te verbeteren en de back-end minder te belasten. Eerder werden zelfs voor eenvoudige visualisaties zoals slicers query's verzonden naar de back-endbronnen. Zie het artikel [Opslagmodus in Power BI Desktop (preview)](desktop-storage-mode.md) voor meer informatie.
+* **Opslagmodus**: U kunt nu opgeven voor welke visualisaties een query naar de back-endgegevensbronnen is vereist. Visuals waarvoor geen query is vereist, worden geïmporteerd zelfs als ze zijn gebaseerd op DirectQuery. De functie helpt de prestaties te verbeteren en de back-end minder te belasten. Eerder werden zelfs voor eenvoudige visualisaties zoals slicers query's verzonden naar de back-endbronnen. Zie het artikel [Opslagmodus in Power BI Desktop (preview)](desktop-storage-mode.md) voor meer informatie.
 
 
 ## <a name="use-composite-models"></a>Samengestelde modellen gebruiken
@@ -156,11 +156,11 @@ Als u DirectQuery gebruikt, moet u altijd rekening houden met de prestaties. Het
 
 Wanneer u samengestelde modellen gebruikt, zijn er een paar extra punten met betrekking tot de prestaties waarmee u rekening moet houden. Eén visual kan ertoe leiden dat er query's naar meerdere bronnen worden verzonden, waarbij de resultaten van de ene query worden doorgegeven aan een andere query. Deze situatie kan resulteren in de volgende uitvoeringsscenario's:
 
-* **Een SQL-query die een groot aantal letterlijke waarden bevat**: als een visual bijvoorbeeld het totale *verkoopbedrag* voor een set geselecteerde *productmanagers* aanvraagt, moet eerst worden achterhaald welke *producten* door deze productmanagers worden beheerd. Deze reeks moeten plaatsvinden voordat er een SQL-query via de visual wordt verzonden met een *WHERE-component* waarin alle product-id's zijn opgenomen.
+* **Een SQL-query die een groot aantal letterlijke waarden bevat**: Als een visual bijvoorbeeld het totale *verkoopbedrag* voor een set geselecteerde *productmanagers* aanvraagt, moet eerst worden achterhaald welke *producten* door deze productmanagers worden beheerd. Deze reeks moeten plaatsvinden voordat er een SQL-query via de visual wordt verzonden met een *WHERE-component* waarin alle product-id's zijn opgenomen.
 
-* **Een SQL-query die wordt uitgevoerd op een lager granulariteitsniveau, waarbij de gegevens vervolgens lokaal worden samengevoegd**: naarmate er steeds meer *producten* aan de filtercriteria voor *productmanager* voldoen, is het niet langer efficiënt of niet haalbaar om alle producten op te nemen in een *WHERE-component*. In plaats daarvan kunt u een query uitvoeren op de relationele bron op het lagere niveau van *Product* en de resultaten vervolgens lokaal aggregeren. Als de kardinaliteit van *Products* groter is dan een limiet van 1 miljoen, mislukt de query.
+* **Een SQL-query die wordt uitgevoerd op een lager granulariteitsniveau, waarbij de gegevens vervolgens lokaal worden samengevoegd**: Naarmate er steeds meer *producten* aan de filtercriteria voor *productmanager* voldoen, is het niet langer efficiënt of niet haalbaar om alle producten op te nemen in een *WHERE-component*. In plaats daarvan kunt u een query uitvoeren op de relationele bron op het lagere niveau van *Product* en de resultaten vervolgens lokaal aggregeren. Als de kardinaliteit van *Products* groter is dan een limiet van 1 miljoen, mislukt de query.
 
-* **Meerdere SQL query's, één per groep op waarde**: wanneer de aggregatie **DistinctCount** gebruikt, deze is gegroepeerd op basis van een kolom uit een andere bron en de externe bron geen ondersteuning biedt voor het efficiënt doorgeven van een groot aantal letterlijke waarden die de groepering definiëren, moet er één SQL-query per groep op waarde worden verzonden. 
+* **Meerdere SQL query's, één per groep op waarde**: Wanneer de aggregatie **DistinctCount** gebruikt, deze is gegroepeerd op basis van een kolom uit een andere bron en de externe bron geen ondersteuning biedt voor het efficiënt doorgeven van een groot aantal letterlijke waarden die de groepering definiëren, moet er één SQL-query per groep op waarde worden verzonden. 
 
    Een visualisatie waarin bijvoorbeeld een unieke telling van *CustomerAccountNumber* (uit de SQL Server-tabel) per *productmanager* (geïmporteerd uit de spreadsheet) moet worden weergegeven, moet details doorgeven uit de tabel *Product Managers* in de query die is verzonden naar SQL Server. Via andere bronnen (bijvoorbeeld Redshift) is dit niet haalbaar. In plaats daarvan zou er één SQL-query per *Sales Manager*&mdash; worden verzonden tot een praktische limiet, waarna de query mislukt. 
 

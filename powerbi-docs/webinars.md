@@ -5,16 +5,16 @@ author: maikelson
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: b144f3101606a58b2cd0b48db976a70477442d40
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 24d023d726183119a3bd098c61db75cb68969c52
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670412"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283134"
 ---
 # <a name="power-bi-webinars"></a>Power BI-webinars
 
@@ -50,7 +50,7 @@ Aan de slag met deze populaire on-demand webinars
 <br>door Gohul Shanmugalingam
 <br>[Registreren en nu bekijken](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
 
-**Maak uw Power BI-gegevens visueel: belangrijke grafiektypen en hoe ze te gebruiken**
+**Uw Power BI-gegevens visualiseren:  hoe u de belangrijkste soorten grafieken gebruikt**
 <br>door Miranda Li
 <br>[Registreren en nu bekijken](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
 
@@ -142,7 +142,7 @@ Vastgelegde sessies op elk gewenst moment bekijken
 <br>door Kasper de Jonge
 <br>[Nu bekijken](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-23-2017-Power-BI-security-deep-dive-by-Kasper-de-Jonge/m-p/161476?Is=Website)
 
-**Vraag het een Partner: aangepaste visuele elementen ontwikkelen voor Power BI**
+**Stel vragen aan een partner: aangepaste visuals voor Power BI ontwikkelen**
 <br>door Ted Pattison
 <br>[Nu bekijken](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website)
 
@@ -155,11 +155,11 @@ Vastgelegde sessies op elk gewenst moment bekijken
 
 **[Power BI adoption framework webinar series](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)** (Webinarserie over het kader voor overstappen op Power BI)
 <br>door Manu Kanwarpal en Paul Henwood
-<br>[Registreren en nu bekijken - Deel 1 - Adoption: Adopt a data-driven culture](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website) (Ingebruikname: overstappen op een gegevensbestuurde cultuur)
-<br>[Registreren en nu bekijken - Deel 2 - Governance: Govern your Power BI usage](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website) (Governance: uw Power BI-gebruik bepalen)
-<br>[Registreren en nu bekijken - Deel 3 - Service Management: Power BI Service Management Insights](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website) (Servicebeheer: inzichten van beheer met de Power BI-service)
-<br>[Registreren en nu bekijken - Deel 4 - Security: Keeping your data secure with Power BI](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website) (Beveiliging: uw gegevens beveiligd houden met Power BI)
-<br>[Registreren en nu bekijken - Deel 5 - Rollout: Successfully rolling out Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
+<br>[Registreren en nu bekijken - Deel 1 - Adoptie: een gegevensgestuurde cultuur ontwikkelen](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
+<br>[Registreren en nu bekijken - Deel 2 - Beheer: Beheer uw Power BI-gebruik](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
+<br>[Registreren en nu bekijken - Deel 3 - Servicebeheer: inzichten in Power BI-servicebeheer](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website)
+<br>[Registreren en nu bekijken - Deel 4 - Beveiliging: uw gegevens beveiligen met Power BI](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
+<br>[Registreren en nu bekijken - Deel 5 - Implementatie: Power BI succesvol implementeren](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
 
 **Webinarserie voor Office 365 Finance-professionals**
 <br>door Mark Traverso, Carlos Otero, Johnnie Thomas, Amanda Cofsky en Miguel Martinez

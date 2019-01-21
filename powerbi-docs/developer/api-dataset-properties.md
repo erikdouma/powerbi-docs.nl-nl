@@ -6,15 +6,15 @@ manager: kfile
 ms.author: maghan
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: cf489f842d114dbf0ac1add561a93c2ce5499971
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 4654534d9643b9c5cf5911249a0eda33b5cc32af
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37780558"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277891"
 ---
 # <a name="dataset-properties"></a>Eigenschappen van gegevensset
 
@@ -50,7 +50,7 @@ naam     |  Tekenreeks        | Door de gebruiker gedefinieerde naam van de kolo
 dataType     |  Tekenreeks       |  Ondersteunde [EDM-gegevenstypen](https://msdn.microsoft.com/library/ee382832.aspx) en -beperkingen. Zie [Beperkingen van gegevenstype](#DataTypeRestrictions).      |  Onwaar       | Waar        
 formatString     | Tekenreeks        | Een tekenreeks die beschrijft hoe de waarde moet worden opgemaakt wanneer deze wordt weergegeven. Zie [Inhoud van FORMAT_STRING](https://msdn.microsoft.com/library/ms146084.aspx) voor meer informatie over het opmaken van tekenreeksen.      | Onwaar        | Onwaar        
 sortByColumn    | Tekenreeks        |   De naam van de verbindingsreeks van een kolom in dezelfde tabel die moet worden gebruikt om de huidige kolom te rangschikken.     | Onwaar        | Onwaar       
-dataCategory     | Tekenreeks        |  De waarde van de verbindingsreeks die moet worden gebruikt voor de gegevenscategorie die de gegevens in deze kolom beschrijft. Sommige algemene waarden zijn: adres, plaats, continent, land, afbeelding, afbeeldings-URL, breedtegraad, lengtegraad, organisatie, plaats, postcode, staat of provincie, Web-URL       |  Onwaar       | Onwaar        
+dataCategory     | Tekenreeks        |  De waarde van de verbindingsreeks die moet worden gebruikt voor de gegevenscategorie die de gegevens in deze kolom beschrijft. Sommige algemene waarden zijn onder meer: Adres, plaats, continent, land, afbeelding, afbeeldings-URL, breedtegraad, lengtegraad, organisatie, plaats, postcode, staat of provincie, Web-URL       |  Onwaar       | Onwaar        
 isHidden    |  Boolean       |  De eigenschap waarmee wordt aangegeven of de kolom wordt verborgen. De standaardinstelling is onwaar.       | Onwaar        | Onwaar        
 summarizeBy     | Tekenreeks        |  Standaardaggregatiemethode voor de kolom. Mogelijke waarden zijn: standaard, geen, som, min, max, aantal, gemiddelde, uniek aantal     |  Onwaar       | Onwaar
 
@@ -68,7 +68,7 @@ isHidden     | Tekenreeks        |  Indien waar wordt de tabel verborgen in clie
 Naam  |Type  |Beschrijving  |Alleen-lezen  |Vereist 
 ---------|---------|---------|---------|---------
 naam     | Tekenreeks        | Door de gebruiker gedefinieerde naam van de relatie. Deze wordt ook gebruikt als de id van de relatie.        | Onwaar       | Waar        
-crossFilteringBehavior     | Tekenreeks        |    De filterrichting van de relatie: OneDirection (standaard), BothDirections, Automatic       | Onwaar        | Onwaar        
+crossFilteringBehavior     | Tekenreeks        |    De filterrichting van de relatie: OneDirection (default), BothDirections, Automatic       | Onwaar        | Onwaar        
 fromTable     | Tekenreeks        | Naam van de refererende-sleuteltabel.        | Onwaar        | Waar         
 fromColumn    | Tekenreeks        | Naam van de refererende-sleutelkolom.        | Onwaar        | Waar         
 toTable    | Tekenreeks        | Naam van de primaire-sleuteltabel.        | Onwaar        | Waar         

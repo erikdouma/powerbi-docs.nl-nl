@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5e07575658ed25e3f4933a7840ef4bc970264b23
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5ebc5472ffcbd5d6b493b919b3e2965968261d20
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296015"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279844"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Richtlijnen voor het implementeren van een gegevensgateway voor Power BI
 
@@ -40,7 +40,7 @@ Als alle gebruikers op hetzelfde moment een bepaald rapport raadplegen, moet u d
 Er geldt een beperking in **Power BI** van *één* gateway per *rapport*. Dus zelfs als een rapport is gebaseerd op meerdere gegevensbronnen, moeten al deze gegevensbronnen via één gateway worden aangeboden. Als een dashboard echter is gebaseerd op *meerdere* rapporten, kunt u voor elk rapport een speciale gateway gebruiken en zo de belasting van de gateway verdelen over de meerdere rapporten die bijdragen aan één dashboard.
 
 ### <a name="connection-type"></a>Type verbinding
-**Power BI** biedt twee typen verbindingen, **DirectQuery** en **Importeren**. Niet alle gegevensbronnen ondersteunen beide verbindingstypen en er zijn verschillende redenen waarom u juist voor het ene of het andere type zou kiezen, zoals beveiligingsvereisten, prestaties, gegevenslimieten en de grootte van het gegevensmodel. Meer informatie over verbindingstypen en ondersteunde gegevensbronnen vindt u in de *lijst met beschikbare gegevensbrontypen* in het artikel [On-premises gegevensgateway](service-gateway-onprem.md).
+**Power BI** biedt twee typen verbindingen: **DirectQuery** en **Importeren**. Niet alle gegevensbronnen ondersteunen beide verbindingstypen en er zijn verschillende redenen waarom u juist voor het ene of het andere type zou kiezen, zoals beveiligingsvereisten, prestaties, gegevenslimieten en de grootte van het gegevensmodel. Meer informatie over verbindingstypen en ondersteunde gegevensbronnen vindt u in de *lijst met beschikbare gegevensbrontypen* in het artikel [On-premises gegevensgateway](service-gateway-onprem.md).
 
 Afhankelijk van welk type verbinding u gebruikt, kan het gatewaygebruik verschillen. Zo moet u bijvoorbeeld proberen om gegevensbronnen van het type **DirectQuery** waar mogelijk te scheiden van gegevensbronnen van het type **Geplande vernieuwing** (ervan uitgaande dat ze zich in verschillende rapporten bevinden en kunnen worden gescheiden). Hierdoor wordt voorkomen dat de wachtrij van de gateway volloopt met duizenden DirectQuery aanvragen op hetzelfde moment dat 's ochtends de vernieuwing is gepland van een groot gegevensmodel dat wordt gebruikt voor het belangrijkste dashboard van het bedrijf. Dit zijn de overwegingspunten voor beide typen:
 

@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ef4b503b7282377b112aebe237cc9a8d132502f0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5e737978b7c39abd331f51fbb12e24656d54e838
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298338"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275911"
 ---
 # <a name="manage-your-data-source---oracle"></a>De gegevensbron beheren - Oracle
 Nadat u de on-premises gegevensgateway hebt geïnstalleerd, moet u gegevensbronnen toevoegen die met de gateway kunnen worden gebruikt. In dit artikel wordt beschreven hoe u gateways en gegevensbronnen gebruikt. U kunt de Oracle-gegevensbron voor geplande vernieuwing of voor DirectQuery gebruiken.
@@ -39,7 +39,7 @@ Gebruik voor **64-bits** versies van Power BI Desktop, of voor de on-premises ge
 
 * [64-bits ODAC 12.2c release 1 (12.2.0.1.0) voor Windows x64](http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
 
-Nadat de Oracle-client is geïnstalleerd, moet u het bestand tnsnames.ora configureren met de juiste gegevens voor uw database. Power BI Desktop en de gateway gaan af op de net_service_name die is gedefinieerd in het bestand tnsnames.ora. Als het bestand niet is geconfigureerd, kunt u geen verbinding maken. Het standaardpad voor tnsnames.ora is: `[Oracle Home Directory]\Network\Admin\tnsnames.ora`. Raadpleeg [Oracle: Local Naming Parameters (tnsnames.ora)](https://docs.oracle.com/cd/B28359_01/network.111/b28317/tnsnames.htm) (Oracle: parameters voor lokale naamgeving (tnsnames.ora)) voor meer informatie over hoe u tnsnames.ora-bestanden configureert.
+Nadat de Oracle-client is geïnstalleerd, moet u het bestand tnsnames.ora configureren met de juiste gegevens voor uw database. Power BI Desktop en de gateway gaan af op de net_service_name die is gedefinieerd in het bestand tnsnames.ora. Als het bestand niet is geconfigureerd, kunt u geen verbinding maken. Het standaardpad voor tnsnames.ora is: `[Oracle Home Directory]\Network\Admin\tnsnames.ora`. Voor meer informatie over hoe u tnsnames.ora-bestanden configureert, raadpleegt u [Oracle: Parameters voor lokale naamgeving (tnsnames.ora)](https://docs.oracle.com/cd/B28359_01/network.111/b28317/tnsnames.htm).
 
 ### <a name="example-tnsnamesora-file-entry"></a>Voorbeeld van invoer voor het bestand tnsnames.ora
 De basisindeling voor invoer in tnsname.ora is de volgende.

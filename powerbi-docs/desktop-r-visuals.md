@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0a739e963039e61aa66e398d27fa82982eb26bb0
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: c1a4ba0a89f84cb0fce205373f1d0f00cc1479ac
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670504"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278572"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>Power BI-visuals maken met R
 In combinatie met **Power BI Desktop** kunt u **R** gebruiken om uw gegevens te visualiseren.
@@ -107,7 +107,7 @@ Nadat u uw R-installatie hebt opgegeven, bent u klaar om R-visuals te gaan maken
 
     ![](media/desktop-r-visuals/r-visuals-9.png)
 
-    > **Beveiliging R-scripts:** R-visuals worden gemaakt op basis van R-scripts, die code kunnen bevatten met beveiligings- of privacyrisico's. Wanneer een gebruiker voor het eerst een R-visual probeert weer te geven of ermee probeert te werken, wordt er een beveiligingswaarschuwing weergegeven. Schakel R-visuals alleen in als u de auteur en bron vertrouwt, of nadat u het R-script hebt bekeken en begrijpt.
+    > **Beveiliging van R-scripts:** R-visuals worden gemaakt van R-scripts, die code kunnen bevatten met beveiligings- of privacyrisico's. Wanneer een gebruiker voor het eerst een R-visual probeert weer te geven of ermee probeert te werken, wordt er een beveiligingswaarschuwing weergegeven. Schakel R-visuals alleen in als u de auteur en bron vertrouwt, of nadat u het R-script hebt bekeken en begrijpt.
     > 
     > 
 

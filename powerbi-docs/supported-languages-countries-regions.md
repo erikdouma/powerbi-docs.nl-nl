@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: e474081a5f094bc04f6fc93b985b8d81efee1a0b
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 98c637692b3c31e598a11c3039b60be3dec61348
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728106"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281178"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Ondersteunde talen en landen/regio's voor Power BI
 
@@ -116,7 +116,7 @@ Power BI detecteert uw taal op basis van de taalvoorkeuren op uw computer. Waar 
    Mogelijk moet u de browser sluiten en opnieuw openen om de wijzigingen te zien.
 
 ## <a name="choose-the-language-or-locale-of-power-bi-desktop"></a>De taal of landinstellingen van Power BI Desktop kiezen
-U kunt Power BI Desktop op twee manieren verkrijgen: u Power BI Desktop downloaden of installeren via de Windows Store.
+Er zijn twee manieren om Power BI Desktop te installeren: U kunt het downloaden, of installeren vanuit de Windows Store.
 
 * Wanneer u [Power BI Desktop installeert via de Windows Store](#choose-a-language-for-power-bi-desktop-installed-from-the-windows-store), worden alle talen geïnstalleerd en wordt de taal weergegeven die overeenkomt met de standaardtaal van Windows.
 * Wanneer u [Power BI Desktop downloadt](#choose-a-language-when-you-download-power-bi-desktop), kunt u tijdens het downloaden de taal kiezen. 

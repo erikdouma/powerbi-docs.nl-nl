@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: bb29cd9edc5e44293344b7194ec94af482bd0166
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 097f0ae9da29d193fd7a337c9a164ab8c67dc4d9
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417367"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277659"
 ---
 # <a name="data-refresh-in-power-bi"></a>Gegevens vernieuwen in Power BI
 Het maken van de juiste keuzes is sterk afhankelijk van of u beschikt over de recentste gegevens. U hebt waarschijnlijk al de functie Gegevens ophalen in Power BI gebruikt om verbinding te maken met gegevens, gegevens te uploaden, en enkele rapporten en een dashboard te maken. Nu is het belangrijk om ervoor te zorgen dat uw gegevens echt actueel zijn.
@@ -221,7 +221,7 @@ Soms is de beste manier om meer te leren over het vernieuwen van gegevens in Pow
 ### <a name="excel-workbook-with-tables-of-data"></a>Excel-werkmap met tabellen met gegevens
 U hebt een Excel-werkmap met meerdere tabellen met gegevens, maar geen van de tabellen is in het gegevensmodel van Excel geladen. U gebruikt de opdracht Gegevens ophalen om het werkmapbestand van de lokale schijf naar Power BI te uploaden en een dashboard te maken. U hebt nu echter op de lokale schijf wat wijzigingen doorgevoerd in een paar tabellen van de werkmap en u wilt uw dashboard in Power BI bijwerken met de nieuwe gegevens.
 
-Helaas wordt vernieuwen niet ondersteund in dit scenario. Om de gegevensset voor het dashboard te vernieuwen, moet u de werkmap opnieuw uploaden. Er is echter een prima oplossing: sla het werkmapbestand op in OneDrive of SharePoint Online.
+Helaas wordt vernieuwen niet ondersteund in dit scenario. Om de gegevensset voor het dashboard te vernieuwen, moet u de werkmap opnieuw uploaden. Er is echter een prima oplossing: sla het werkmapbestand op in OneDrive of SharePoint Online!
 
 Als u verbinding maakt met een bestand in OneDrive of SharePoint Online, bevatten uw rapporten en dashboards gegevens zoals deze in het bestand zijn opgenomen. In dit geval uw Excel-werkmap. Power BI controleert het bestand automatisch, ongeveer elk uur, op updates. Als u wijzigingen aanbrengt in de werkmap (opgeslagen in OneDrive of SharePoint Online), worden deze wijzigingen binnen een uur doorgevoerd in uw dashboard en rapporten. U hoeft dus helemaal geen gegevensvernieuwing in te stellen. Als u de wijzigingen echter direct moet zien in Power BI, kunt u de gegevensset handmatig vernieuwen met behulp van de opdracht Nu vernieuwen.
 

@@ -5,22 +5,22 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 102198c4524903098ad0c6b0b9fd7e231c3f1fdc
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 703ccbc0c1c541fe161f409480701788d0cd12af
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578285"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280240"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Werken met tabellaire Analysis Services-gegevens in Power BI Desktop
 Er zijn twee manieren om met Power BI Desktop verbinding te maken met en gegevens op te halen uit tabellaire SQL Server Analysis Services-modellen: verkennen met behulp van een liveverbinding of items selecteren en importeren in Power BI Desktop.
 
-Laten we deze mogelijkheden eens nader bekijken.
+Laten we dit eens nader bekijken.
 
 **Verkennen met behulp van een liveverbinding**: wanneer u een liveverbinding gebruikt, worden de items in uw tabellaire model of perspectief, zoals tabellen, kolommen en metingen, weergegeven in de lijst met Power BI Desktop-velden. Met de geavanceerde hulpprogramma's voor visualisatie en rapportage van Power BI Desktop kunt u uw tabellaire model op nieuwe, zeer interactieve manieren verkennen.
 
@@ -52,31 +52,31 @@ Als u dynamische rapporten in Power BI Desktop hebt gemaakt, kunt u deze delen d
   ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_select.png)
 
 ## <a name="frequently-asked-questions"></a>Veelgestelde vragen
-**Vraag:** heb ik een On-premises gegevensgateway nodig?
+**Vraag:** Heb ik een on-premises gegevensgateway nodig?
 
-**Antwoord:** dat hangt ervan af. Als u Power BI Desktop gebruikt om live verbinding te maken met een tabellair model, maar dat model niet wilt publiceren op uw Power BI-site, hebt u geen gateway nodig. Als u het model wel wilt publiceren op uw Power BI-site, is een gegevensgateway noodzakelijk voor veilige communicatie tussen de Power BI-service en uw on-premises Analysis Services-server. Neem contact op met uw Analysis Services-serverbeheerder voordat u een gegevensgateway installeert.
+**Antwoord**: Dat hangt ervan af. Als u Power BI Desktop gebruikt om live verbinding te maken met een tabellair model, maar dat model niet wilt publiceren op uw Power BI-site, hebt u geen gateway nodig. Als u het model wel wilt publiceren op uw Power BI-site, is een gegevensgateway noodzakelijk voor veilige communicatie tussen de Power BI-service en uw on-premises Analysis Services-server. Neem contact op met uw Analysis Services-serverbeheerder voordat u een gegevensgateway installeert.
 
 Als u ervoor kiest items te selecteren en gegevens op te halen, importeert u tabellaire modelgegevens rechtstreeks in uw Power BI Desktop-bestand en hebt u ook geen gateway nodig.
 
-**Vraag:** wat is het verschil tussen een liveverbinding met een tabellair model van de Power BI-service en een liveverbinding van Power BI Desktop?
+**Vraag:** Wat is het verschil tussen een liveverbinding met een tabellair model van de Power BI-service en een liveverbinding van Power BI Desktop?
 
-**Antwoord:** bij een liveverbinding tussen een tabellair model op uw site in de Power BI-service en een On-premises Analysis Services-database in uw organisatie, is een on-premises gegevensgateway vereist voor veilige communicatie tussen deze twee. Bij een liveverbinding met een tabellair model van Power BI Desktop, is geen gateway vereist omdat zowel Power BI Desktop als de Analysis Services-server waarmee u verbinding maakt on-premises worden uitgevoerd in uw organisatie. Als u uw Power BI Desktop-bestand echter wilt publiceren op uw Power BI-site publiceert, is wel een gateway vereist.
+**Antwoord**: Bij een liveverbinding tussen een tabellair model op uw site in de Power BI-service en een On-premises Analysis Services-database in uw organisatie, is een on-premises gegevensgateway vereist voor veilige communicatie tussen deze twee. Bij een liveverbinding met een tabellair model van Power BI Desktop, is geen gateway vereist omdat zowel Power BI Desktop als de Analysis Services-server waarmee u verbinding maakt on-premises worden uitgevoerd in uw organisatie. Als u uw Power BI Desktop-bestand echter wilt publiceren op uw Power BI-site publiceert, is wel een gateway vereist.
 
-**Vraag:** kan ik, als ik een liveverbinding heb gemaakt, verbinding maken met een andere gegevensbron via hetzelfde Power BI Desktop-bestand?
+**Vraag:** Kan ik, als ik een liveverbinding heb gemaakt, verbinding maken met een andere gegevensbron via hetzelfde Power BI Desktop-bestand?
 
-**Antwoord:** nee. U kunt niet live gegevens verkennen en verbinding maken met een ander type gegevensbron via hetzelfde bestand. Als u al gegevens hebt geïmporteerd of al verbinding hebt gemaakt met een andere gegevensbron via een Power BI Desktop-bestand, moet u een nieuw bestand maken om deze live te kunnen verkennen.
+**Antwoord**: Nee. U kunt niet live gegevens verkennen en verbinding maken met een ander type gegevensbron via hetzelfde bestand. Als u al gegevens hebt geïmporteerd of al verbinding hebt gemaakt met een andere gegevensbron via een Power BI Desktop-bestand, moet u een nieuw bestand maken om deze live te kunnen verkennen.
 
-**Vraag:** kan ik, als ik een liveverbinding heb gemaakt, het model bewerken of importeren in Power BI Desktop?
+**Vraag:** Kan ik, als ik een liveverbinding heb gemaakt, het model bewerken of hier query's op uitvoeren in Power BI Desktop?
 
-**Antwoord:** u kunt in Power BI Desktop metingen op rapportniveau maken, maar alle overige query- en modelleringsfuncties zijn uitgeschakeld wanneer u gegevens live verkent.
+**Antwoord**: U kunt in Power BI Desktop metingen op rapportniveau maken, maar alle overige query- en modelleringsfuncties zijn uitgeschakeld wanneer u gegevens live verkent.
 
-**Vraag:** als ik een liveverbinding heb gemaakt, is die dan wel veilig?
+**Vraag:** Als ik een liveverbinding heb gemaakt, is die dan wel veilig?
 
-**Antwoord:** ja. Uw huidige Windows-referenties worden gebruikt voor de verbinding met de Analysis Services-server. U kunt geen basisreferenties of opgeslagen referenties gebruiken in de Power BI-service of Power BI Desktop bij het live verkennen.
+**Antwoord**: Ja. Uw huidige Windows-referenties worden gebruikt voor de verbinding met de Analysis Services-server. U kunt geen basisreferenties of opgeslagen referenties gebruiken in de Power BI-service of Power BI Desktop bij het live verkennen.
 
-**Vraag:** in Navigator zie ik een model en een perspectief. Wat is het verschil?
+**Vraag:** In Navigator zie ik een model en een perspectief. Wat is het verschil?
 
-**Antwoord:** een perspectief is een bepaalde weergave van een tabellair model. Een perspectief bevat mogelijk alleen bepaalde tabellen, kolommen of metingen die nodig zijn voor een specifieke gegevensanalyse. Een tabellair model bevat altijd ten minste één perspectief, dat al dan niet alles in het model kan omvatten. Neem contact op met de beheerder als u twijfelt over wat u moet selecteren.
+**Antwoord**: Een perspectief is een bepaalde weergave van een tabellair model. Een perspectief bevat mogelijk alleen bepaalde tabellen, kolommen of metingen die nodig zijn voor een specifieke gegevensanalyse. Een tabellair model bevat altijd ten minste één perspectief, dat al dan niet alles in het model kan omvatten. Neem contact op met de beheerder als u twijfelt over wat u moet selecteren.
 
 ## <a name="to-change-the-server-name-after-initial-connection"></a>De naam van de server wijzigen na de initiële verbinding
 Het kan voorkomen dat u een Power BI Desktop-bestand met een liveverbinding voor verkenning hebt gemaakt, maar de verbinding later wilt configureren voor een andere server. Stel, u hebt een Power BI Desktop-bestand gemaakt voor een verbinding met een ontwikkelaarsserver en u wilt, voordat u het model publiceert naar de Power BI-service, de server wijzigen in de productieserver.

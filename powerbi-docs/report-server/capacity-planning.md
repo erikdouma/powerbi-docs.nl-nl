@@ -5,16 +5,16 @@ author: parthsha
 manager: kfile
 ms.reviewer: maghan
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: c19bc774ebffa2e781512e793abbefd1bd9fb5e2
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: c479b2600dad31756101c57ba2b1c5fc7fa19b2f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679287"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296657"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Richtlijnen voor capaciteitsplanning voor Power BI Report Server
 Power BI Report Server is een selfservice-BI en rapportageoplossing voor ondernemingen die klanten on-premises, achter hun firewall kunnen implementeren. De oplossing combineert de interactieve rapportagemogelijkheden van Power BI Desktop met het on-premises serverplatform van SQL Server Reporting Services. Met het intensieve en toenemende gebruik van analyses en rapporten binnen ondernemingen is het soms behoorlijk lastig om de hardware-infrastructuur en de benodigde softwarelicenties voor het schalen van het gebruikersbestand te budgetteren. Het doel van dit document is een leidraad te geven bij de capaciteitsplanning voor Power BI Report Server door het delen van de resultaten van talrijke belastingtests die met verschillende workloads op een rapportserver zijn uitgevoerd. Hoewel de rapporten, query's en gebruikspatronen sterk kunnen variëren, vormen de resultaten die in dit artikel worden gepresenteerd, alsmede de daadwerkelijk uitgevoerde testen en de gedetailleerde beschrijving van de testprocedures, een goed referentiepunt voor iedereen die overweegt om Power BI Report Server te implementeren.
@@ -60,7 +60,7 @@ De testen die worden gebruikt om de belastingtesten uit te voeren, zijn openbaar
 Alle testen zijn geschreven om een volledige bewerking van begin tot eind uit te voeren (zoals het weergeven van een rapport, het maken van een nieuwe gebruikersbron, enzovoort). Dit wordt gerealiseerd door een of meer webaanvragen naar de rapportserver te verzenden (via API's). In de praktijk moet een gebruiker mogelijk een aantal tussenliggende bewerkingen uitvoeren om een van deze end-to-end-bewerkingen uit te voeren. Als een gebruiker bijvoorbeeld een rapport wil weergeven moet de gebruiker naar de webportal gaan, de map met het rapport zoeken en openen en vervolgens het rapport klikken om dit weer te geven. Hoewel tijdens een test niet alle benodigde bewerkingen worden uitgevoerd om een end-to-end-taak te voltooien, is de belasting van Power BI Report Server wel grotendeels hetzelfde. U kunt het GitHub-project verkennen voor meer informatie over de verschillende typen rapporten die worden gebruikt en de diverse bewerkingen die worden uitgevoerd.
 
 ### <a name="workloads"></a>Workloads
-Er zijn twee workloadprofielen gebruikt voor de testen: Power BI-rapport Intensief en Gepagineerd rapport Intensief. In de onderstaande tabel wordt de distributie van de aanvragen beschreven die worden uitgevoerd voor Report Server.
+Er worden tijdens het testen twee workloadprofielen gebruikt: Power BI-rapport Intensief en Gepagineerd rapport Intensief. In de onderstaande tabel wordt de distributie van de aanvragen beschreven die worden uitgevoerd voor Report Server.
 
 | Activiteit | Power BI-rapport Intensief, frequentie | Gepagineerd rapport Intensief, frequentie |
 | --- | --- | --- |

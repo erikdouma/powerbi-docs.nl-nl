@@ -4,17 +4,17 @@ description: 'Overzicht van Power BI en hoe de verschillende delen op elkaar aan
 author: davidiseminger
 manager: kfile
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: overview
 ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 357af2f995fc927e7b55283c762e5f4b52376444
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: bc712b892cd35259bc036f41b6e3e16a5388ffad
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619581"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293061"
 ---
 # <a name="what-is-power-bi"></a>Wat is Power BI?
 **Power BI** bestaat uit een verzameling softwareservices, apps en connectors die samenwerken om uw niet-gerelateerde gegevensbronnen om te zetten in coherente, visueel aantrekkelijke en interactieve inzichten. Of uw gegevens nu bestaan uit een eenvoudig Excel-spreadsheet of een verzameling van cloudgebaseerde en on-premises hybride datawarehouses, met **Power BI** kunt u eenvoudig verbinding maken met uw gegevensbronnen, visualiseren (of ontdekken) wat belangrijk is en dat delen met wie u maar wilt.
@@ -64,4 +64,4 @@ Power BI Report Server is een oplossing die u implementeert achter de firewall. 
 
 ## <a name="next-steps"></a>Volgende stappen
 [Aanmelden, gegevens ophalen en kennismaken met Power BI-service](service-the-new-power-bi-experience.md)   
-[Zelfstudie: Aan de slag met Power BI-service](service-get-started.md)
+[Zelfstudie: Aan de slag met de Power BI-service](service-get-started.md)

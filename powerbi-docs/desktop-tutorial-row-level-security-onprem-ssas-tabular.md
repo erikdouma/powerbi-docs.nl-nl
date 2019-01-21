@@ -6,17 +6,17 @@ manager: amitaro
 ms.reviewer: davidi
 editor: davidi
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c2d4dc5d8c11db035cc2470c0c44d64a6b78cd1a
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 546ae48aac10ae6c72a062665c7d8f448432a194
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452747"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292632"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Dynamische beveiliging op rijniveau met model in tabelvorm van Analysis Services
 In deze zelfstudie ziet u de benodigde stappen voor het implementeren van **beveiliging op rijniveau** binnen een **tabellair model van Analysis Services**, en wordt beschreven hoe u dit model kunt gebruiken in een Power BI-rapport. Het is de bedoeling dat u de stappen in deze zelfstudie volgt, en zo leert wat de benodigde stappen zijn, door deze uit te voeren op een voorbeeldgegevensset.

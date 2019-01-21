@@ -5,16 +5,16 @@ author: jtarquino
 manager: kfile
 ms.reviewer: maggies
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: c80ded7a21eb8110467a2335253fa1a68942cc2c
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: edf953f2512550660fd914d2fe54c28dcd01fa24
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101526"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292026"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Wijzigingenlogboek voor Power BI Report Server
 
@@ -146,7 +146,7 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerd
     - *Build 14.0.600.309, uitgebracht: 10 januari 2018*
         - Beveiligingsupdates
 
-    - *Build 14.0.600.305, uitgebracht: 19 September 2017*  
+    - *Build 14.0.600.305, uitgebracht: 19 september 2017*  
         - Opgeloste fouten
             - Update naar de nieuwste [webbesturingselement voor Bing Kaarten](https://msdn.microsoft.com/library/mt712542.aspx)
 

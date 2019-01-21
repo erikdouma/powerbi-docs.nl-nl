@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: a5762964b75d73d8dabceac58c47f616753b94cc
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 31a7221d3b284e6342b192384f92616a52e12631
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830171"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280242"
 ---
 # <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>Een nieuw rapport in de Power BI-service maken door een gegevensset te importeren
 U hebt [Rapporten in Power BI](consumer/end-user-reports.md) gelezen en u wilt nu uw eigen rapport maken. Er zijn veel verschillende manieren om een rapport te maken. In dit artikel beginnen we met het maken van een zeer eenvoudig rapport vanuit een Excel-gegevensset met de Power BI-service. Als u de basisbeginselen van het maken van een rapport onder de knie hebt, kunt u met de **Volgende stappen** onderaan verder naar meer geavanceerde onderwerpen over rapporten.  

@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 08c8075fe275ff1472d3e9845f954ef4d029b373
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: b7423a5b15f314050ee21b7eed5c3ea7ad960985
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250425"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291666"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>Ontwikkelen met de REST API's voor Power BI Report Server
 
@@ -30,10 +30,10 @@ Een combinatie van REST API-aanvraag/antwoord kan worden opgesplitst in vijf ond
 
 * De **Aanvraag-URI** die bestaat uit: `{URI-scheme} :// {URI-host} / {resource-path} ? {query-string}`. Hoewel de aanvraag-URI is opgenomen in de berichtkop van de aanvraag, wordt deze hier afzonderlijk aangeroepen omdat u deze voor de meeste talen of frameworks afzonderlijk moet doorgeven vanuit het aanvraagbericht.
   
-  * URI-schema: geeft het protocol aan dat wordt gebruikt voor het verzenden van de aanvraag. Bijvoorbeeld `http` of `https`.
-  * URI-host: geeft de domeinnaam of het IP-adres op van de server op waarop het REST-service-eindpunt wordt gehost, zoals `myserver.contoso.com`.
-  * Resourcepad: geeft de resource of resourceverzameling op, die verschillende segmenten kan bevatten die in de service worden gebruikt om de selectie van deze resources te bepalen. Bijvoorbeeld: `CatalogItems(01234567-89ab-cdef-0123-456789abcdef)/Properties` kan worden gebruikt om de opgegeven eigenschappen voor CatalogItem op te halen.
-  * Querytekenreeks (optioneel): biedt extra eenvoudige parameters, zoals de API-versie of criteria voor resourceselectie.
+  * URI-schema: Geeft het protocol aan dat wordt gebruikt voor het verzenden van de aanvraag. Bijvoorbeeld `http` of `https`.
+  * URI-host: Geeft de domeinnaam of het IP-adres op van de server op waarop het REST-service-eindpunt wordt gehost, zoals `myserver.contoso.com`.
+  * Resourcepad: Geeft de resource of resourceverzameling op, die verschillende segmenten kan bevatten die in de service worden gebruikt om de selectie van deze resources te bepalen. Bijvoorbeeld: `CatalogItems(01234567-89ab-cdef-0123-456789abcdef)/Properties` kan worden gebruikt om de opgegeven eigenschappen voor CatalogItem op te halen.
+  * Querytekenreeks (optioneel): Biedt extra eenvoudige parameters, zoals de API-versie of criteria voor resourceselectie.
 * Berichtkopvelden voor de HTTP-aanvraag:
   
   * Een vereiste [HTTP-methode](https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html) (ook wel een bewerking genoemd), die wordt gebruikt om de service te laten weten welk type bewerking u aanvraagt. Reporting Services REST API’s bieden ondersteuning voor de methoden DELETE, GET, HEAD, PUT, POST en PATCH.

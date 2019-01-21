@@ -5,19 +5,19 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: e23182b1e607498c5187882740b556455657ba1d
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: f39f5ae569c757072a55647becb5697c881abbe2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670895"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285664"
 ---
-# <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Zelfstudie: gegevens vormgeven en combineren in Power BI Desktop
+# <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Zelfstudie: Gegevens vormgeven en combineren in Power BI Desktop
 
 Met **Power BI Desktop** kunt u verbinding maken met veel verschillende typen gegevensbronnen en de gegevens vervolgens vormgeven om aan uw behoeften te voldoen, zodat u visuele rapporten kunt maken die u met anderen kunt delen. Het *vormgeven* van gegevens betekent het omzetten van de gegevens, zoals de naam wijzigen van kolommen of tabellen, het wijzigen van tekst in getallen, het verwijderen van rijen, het instellen van de eerste rij als koptekst, enzovoort. Het *combineren* van gegevens betekent verbinding maken met twee of meer gegevensbronnen, deze naar wens vormgeven en ze samenvoegen tot één handige query.
 
@@ -81,7 +81,7 @@ Voor het verwijderen van de kolom **Kosten van levensonderhoud** selecteert u de
 
 ![](media/desktop-shape-and-combine-data/shapecombine_removecolumnscostofliving.png)
 
-Zoals u ziet zijn de waarden voor _Nieuwe positie_ niet gewijzigd; dit wordt veroorzaakt door de volgorde van de stappen. Omdat de Query-editor de stappen sequentieel registreert, weliswaar onafhankelijk van elkaar, kunt u elke **Toegepaste stap** hoger of lager in de reeks zetten. Klik met de rechtermuisknop op een stap en de Query-editor laat een menu zien waarmee u het volgende kunt doen: **Naam wijzigen**, **Verwijderen**, **Verwijderen** **tot aan het einde** (verwijder de huidige stap, samen met alle verdere stappen), **Omhoog** of **Omlaag**. Ga verder naar de laatste stap _Verwijderde kolommen_, net boven de stap _Aanpassing toegevoegd_.
+Zoals u ziet zijn de waarden voor _Nieuwe positie_ niet gewijzigd; dit wordt veroorzaakt door de volgorde van de stappen. Omdat de Query-editor de stappen sequentieel registreert, weliswaar onafhankelijk van elkaar, kunt u elke **Toegepaste stap** hoger of lager in de reeks zetten. U hoeft alleen maar met de rechtermuisknop te klikken op een stap en in Query Editor wordt een menu weergegeven waarmee u het volgende doen: **Naam wijzigen**, **Verwijderen**, **Verwijderen** **Tot einde** (verwijdert de huidige stap en alle volgende stappen), **Omhoog verplaatsen** of **Omlaag verplaatsen**. Ga verder naar de laatste stap _Verwijderde kolommen_, net boven de stap _Aanpassing toegevoegd_.
 
 ![](media/desktop-shape-and-combine-data/shapecombine_movestep.png)
 
@@ -179,7 +179,7 @@ Het venster **Bovenste rijen verwijderen** wordt weergegeven, waarin u kunt opge
 
 ![](media/desktop-shape-and-combine-data/shapecombine_filterdc.png)
 
-* Verwijder enkele overbodige kolommen - we hebben alleen de koppeling van een staat met de officiële afkorting van twee letters nodig, dus kunnen we de volgende kolommen verwijderen: **Kolom1**, **Kolom3**, **Kolom4** en vervolgens **Kolom6** tot en met **Kolom11**. Selecteer eerst **Kolom1**, houd de **CTRL**-toets ingedrukt en selecteer de andere kolommen die moeten worden verwijderd (op deze manier kunt u meerdere niet-aaneengesloten kolommen selecteren). Selecteer op het tabblad Start van het lint de optie **Kolommen verwijderen \> Kolommen verwijderen**.
+* Verwijder enkele overbodige kolommen: we hebben alleen de koppeling van een staat met de officiële afkorting van twee letters nodig, dus kunnen we de volgende kolommen verwijderen: **Kolom1**, **Kolom3**, **Kolom4** en vervolgens **Kolom6** tot en met **Kolom11**. Selecteer eerst **Kolom1**, houd de **CTRL**-toets ingedrukt en selecteer de andere kolommen die moeten worden verwijderd (op deze manier kunt u meerdere niet-aaneengesloten kolommen selecteren). Selecteer op het tabblad Start van het lint de optie **Kolommen verwijderen \> Kolommen verwijderen**.
 
 ![](media/desktop-shape-and-combine-data/shapecombine_removecolumns.png)
 

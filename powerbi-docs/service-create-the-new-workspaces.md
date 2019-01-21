@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/19/2018
+ms.date: 01/11/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a93c676775fe6e826ea83cfad91498b7fe3e2103
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: eba4e740f6fd08ffd60b95dfc437551dfb95e7b8
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53983595"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293695"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>De nieuwe werkruimten maken (preview) in Power BI
 
@@ -63,7 +63,7 @@ Lees het artikel [Nieuwe werkruimten (preview)](service-new-workspaces.md) voor 
 
 1. Selecteer **Toegang verkrijgen**.
 
-1. Voeg aan deze werkruimten beveiligingsgroepen, distributielijsten, Office 365-groepen of personen toe als leden, inzenders of beheerders. Zie [Rollen in de nieuwe werkruimten](#roles-in-the-new-workspaces) verderop in dit artikel voor een uitleg over de verschillende rollen.
+1. Voeg aan deze werkruimten beveiligingsgroepen, distributielijsten, Office 365-groepen of personen toe als leden, inzenders of beheerders. Zie [Rollen in de nieuwe werkruimten](service-new-workspaces.md#roles-in-the-new-workspaces) voor een uitleg over de verschillende rollen.
 
     ![Werkruimten - leden, beheerders en inzenders toevoegen](media/service-create-the-new-workspaces/power-bi-access-add-members.png)
 

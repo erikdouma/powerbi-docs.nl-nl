@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a27e192c5ccc1fb3a7af9bafbc9c4fd14ccabf4c
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: a48ad26b9da5d5dba9fa04ab74301da7e1265d0b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900101"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292043"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI voor klanten uit de Amerikaanse overheid
 Er is als onderdeel van **Office 365 US Government Community**-abonnement een versie van de **Power BI-service** beschikbaar voor Amerikaanse overheidsklanten. De versie van de **Power BI-service** die in dit artikel wordt besproken, is specifiek ontworpen voor Amerikaanse overheidsklanten en staat los en verschilt van de commerciële versie van de **Power BI-service**.
@@ -73,29 +73,29 @@ Neem contact op met uw accountvertegenwoordiger om mogelijke problemen op te los
 ## <a name="frequently-asked-questions-faq-for-the-us-government-version-of-the-power-bi-service"></a>Veelgestelde vragen (FAQ) over de Power BI-service voor de Amerikaanse overheid
 Met behulp van de volgende vragen (en antwoorden) kunt u snel de informatie over de service vinden die u nodig hebt.
 
-**Vraag:** hoe migreer ik mijn commerciële **Power BI**-gegevens naar de **Power BI-service** voor de Amerikaanse overheid?
+**Vraag:** Hoe migreer ik mijn commerciële **Power BI**-gegevens naar de **Power BI-service** voor de Amerikaanse overheid?
 
-**Antwoord:** uw beheerder moet een nieuw exemplaar van **Power BI** maken via een afzonderlijk abonnement speciaal voor de Amerikaanse overheid. U kunt vervolgens uw commerciële gegevens repliceren in de **Power BI-service** voor de Amerikaanse overheid, uw commerciële licentie verwijderen en uw bestaande domein koppelen aan de nieuwe service speciaal voor de Amerikaanse overheid.
+**Antwoord**: Uw beheerder moet een nieuw exemplaar van **Power BI** maken via een afzonderlijk abonnement speciaal voor de Amerikaanse overheid. U kunt vervolgens uw commerciële gegevens repliceren in de **Power BI-service** voor de Amerikaanse overheid, uw commerciële licentie verwijderen en uw bestaande domein koppelen aan de nieuwe service speciaal voor de Amerikaanse overheid.
 
-**Vraag:** waarom kan ik geen verbinding maken met een specifiek inhoudspakket?
+**Vraag:** Waarom kan ik geen verbinding maken met een specifiek inhoudspakket?
 
-**Antwoord:** u moet ervoor zorgen dat uw abonnement is ingeschakeld. Daarna kunt u pas verbinding maken met inhoudspakketten.
+**Antwoord**: U moet ervoor zorgen dat uw abonnement is ingeschakeld. Daarna kunt u pas verbinding maken met inhoudspakketten.
 
-**Vraag:** ik wil graag **Power BI** gaan gebruiken in mijn organisatie binnen de Amerikaanse overheid. Hoe ga ik aan de slag?
+**Vraag:** Ik wil graag **Power BI** gaan gebruiken in mijn organisatie binnen de Amerikaanse overheid. Hoe ga ik aan de slag?
 
-**Antwoord:** het registratieproces (ook wel *onboarding* genoemd) kan verschillen op basis van uw bestaande licentie en abonnement. Zie het artikel [Registreren voor Power BI voor de Amerikaanse overheid](service-govus-signup.md) voor meer informatie.
+**Antwoord**: Het registratieproces (ook wel *onboarding* genoemd) kan verschillen op basis van uw bestaande licentie en abonnement. Zie het artikel [Registreren voor Power BI voor de Amerikaanse overheid](service-govus-signup.md) voor meer informatie.
 
-**Vraag:** is de URL voor het verbinden met **Power BI** voor de Amerikaanse overheid anders dan de commerciële **Power BI**-URL?
+**Vraag:** Is de URL voor het verbinden met **Power BI** voor de Amerikaanse overheid anders dan de commerciële **Power BI**-URL?
 
-**Antwoord:** ja, de URL's verschillen. In de volgende tabel worden de URL's weergegeven:
+**Antwoord**: Ja, de URL's verschillen. In de volgende tabel worden de URL's weergegeven:
 
 | URL van de commerciële versie | URL van de versie voor de Amerikaanse overheid |
 | --- | --- |
 | https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) |
 
-**Vraag:** mijn account is in meer dan één onafhankelijke cloud ingericht. Hoe selecteer ik tijdens het gebruik van **Power BI Desktop** met welke cloud ik verbinding wil maken?
+**Vraag:** Mijn account is in meer dan één onafhankelijke cloud ingericht. Hoe selecteer ik tijdens het gebruik van **Power BI Desktop** met welke cloud ik verbinding wil maken?
 
-**Antwoord:** vanaf de release van juli 2018 van **Power BI Desktop** kunt u kiezen welke cloud u wilt gebruiken tijdens het aanmelden bij **Power BI Desktop**.
+**Antwoord**: Vanaf de release van juli 2018 van **Power BI Desktop** kunt u kiezen welke cloud u wilt gebruiken tijdens het aanmelden bij **Power BI Desktop**.
 
 
 ## <a name="next-steps"></a>Volgende stappen

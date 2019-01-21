@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 72c3c2fde92de45d3a93f087d217af1f50e50601
-ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
+ms.openlocfilehash: d48df3287813229e673bbc523281cdb2218ec384
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "53649040"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277268"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Verbinding maken met Azure Data Lake Storage Gen2 voor gegevensstroomopslag (preview)
 
@@ -76,7 +76,7 @@ Selecteer in het venster **Roltoewijzing toevoegen** de rol **Lezer** om aan de 
 
 U moet een bestandssysteem met de naam *powerbi* maken voordat uw opslagaccount kan worden toegevoegd aan Power BI. Er zijn veel manieren om een dergelijk bestandssysteem te maken, waaronder het gebruik van Azure Databricks, HDInsight, AZCopy of Azure Storage Explorer. In deze sectie ziet u een eenvoudige manier om een bestandssysteem te maken met behulp van Azure Storage Explorer.
 
-Voor deze stap moet u Azure Storage Explorer versie 1.6.1 of nieuwer installeren. Zie [Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/) voor het installeren van Azure Storage Explorer voor Windows, Macintosh of Linux.
+Voor deze stap moet u Azure Storage Explorer versie 1.6.2 of nieuwer installeren. Zie [Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/) voor het installeren van Azure Storage Explorer voor Windows, Macintosh of Linux.
 
 1. Nadat u Azure Storage Explorer hebt geïnstalleerd, wordt bij de eerste keer opstarten het venster Microsoft Azure Storage Explorer - verbinding maken weergegeven. Storage Explorer biedt verschillende manieren om verbinding te maken met opslagaccounts, maar er wordt momenteel slechts één manier ondersteund voor de vereiste instellingen. 
 

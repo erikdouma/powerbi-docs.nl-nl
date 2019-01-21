@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 18d5b2ca504ec3533e2ded0e5480885ea862fb3a
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: 26ab2ec7dfd7a091a6a7df89ee4492dc124ed60c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619489"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279177"
 ---
 # <a name="storage-mode-in-power-bi-desktop-preview"></a>Opslagmodus in Power BI Desktop (preview-versie)
 
@@ -37,11 +37,11 @@ Het instellen van de opslagmodus biedt verschillende voordelen. U kunt de opslag
 
 De opslagmodusinstelling in Power BI Desktop is een van drie gerelateerde functies:
 
-* **Samengestelde modellen**: maakt het mogelijk dat een rapport twee of meer gegevensverbindingen heeft, inclusief DirectQuery-verbindingen of importverbindingen, in elke gewenste combinatie. Zie [Samengestelde modellen gebruiken in Power BI Desktop (preview-versie)](desktop-composite-models.md) voor meer informatie.
+* **Samengestelde modellen**: hiermee wordt het mogelijk dat een rapport twee of meer gegevensverbindingen heeft, inclusief DirectQuery-verbindingen of importverbindingen, in elke gewenste combinatie. Zie [Samengestelde modellen gebruiken in Power BI Desktop (preview-versie)](desktop-composite-models.md) voor meer informatie.
 
 * **Veel-op-veel-relaties**: met *samengestelde modellen* kunt u *veel-op-veel-relaties* tussen tabellen tot stand brengen. Met *veel-op-veel-relaties* zijn unieke waarden in tabellen niet meer vereist. Ook zijn eerdere tijdelijke oplossingen niet meer nodig, zoals de introductie van nieuwe tabellen alleen maar voor het tot stand brengen van relaties. Zie [Veel-op-veel-relaties in Power BI Desktop (preview-versie)](desktop-many-to-many-relationships.md) voor meer informatie.
 
-* **Opslagmodus**: u kunt nu opgeven voor welke visualisaties een query naar de back-end-gegevensbronnen is vereist. Visuals waarvoor geen query is vereist, worden geïmporteerd zelfs als ze zijn gebaseerd op DirectQuery. De functie helpt de prestaties te verbeteren en de back-end minder te belasten. Eerder werden zelfs voor eenvoudige visualisaties, zoals slicers, query's verzonden naar de back-end-bronnen. De opslagmodus wordt verder beschreven in dit artikel.
+* **Opslagmodus**: u kunt nu opgeven voor welke visualisaties een query naar de back-endgegevensbronnen is vereist. Visuals waarvoor geen query is vereist, worden geïmporteerd zelfs als ze zijn gebaseerd op DirectQuery. De functie helpt de prestaties te verbeteren en de back-end minder te belasten. Eerder werden zelfs voor eenvoudige visualisaties, zoals slicers, query's verzonden naar de back-end-bronnen. De opslagmodus wordt verder beschreven in dit artikel.
 
 ## <a name="use-the-storage-mode-property"></a>Opslagmoduseigenschap gebruiken
 

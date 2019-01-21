@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 328c8ab2e236f0ddc0c5116c1f76d343999193ab
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: 774a90b946be30d26217a450edff541136bdb863
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157374"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283846"
 ---
 # <a name="add-a-filter-to-a-report-in-editing-view"></a>Een filter toevoegen aan een rapport in de bewerkingsweergave
 
@@ -24,7 +24,7 @@ In dit artikel wordt uitgelegd hoe u een paginafilter, visualisatiefilter, rappo
 **Wist u dat?** Power BI heeft een nieuwe filterervaring die momenteel in preview is. Lees meer over de [nieuwe filterervaring in Power BI-rapporten](power-bi-report-filter-preview.md).
 
 ## <a name="filters-in-editing-view-or-reading-view"></a>Filters in de bewerkingsweergave of leesweergave
-U kunt in twee verschillende weergaven werken met rapporten: leesweergave en bewerkingsweergave. De beschikbare filtermogelijkheden zijn afhankelijk van de weergave waarin u werkt. Zie [Over filters en markeren in Power BI-rapporten](power-bi-reports-filters-and-highlighting.md) voor uitgebreide informatie.
+U kunt in twee verschillende weergaven werken met rapporten: Leesweergave en Bewerkingsweergave. De beschikbare filtermogelijkheden zijn afhankelijk van de weergave waarin u werkt. Zie [Over filters en markeren in Power BI-rapporten](power-bi-reports-filters-and-highlighting.md) voor uitgebreide informatie.
 
 In dit artikel wordt beschreven hoe u filters maakt in de **bewerkingsweergave** voor rapporten.  Zie [deze snelstartgids](consumer/end-user-reading-view.md) voor meer informatie over filters in de leesweergave.
 

@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: d8283f1abf05ab788336413bd18582ea71d4e43f
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.openlocfilehash: 4ca6d7c5ed47433614dc194db7d09162d5e96eae
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "34296257"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285709"
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>Een geplande vernieuwing van uw Power BI-rapport configureren
 Om de gegevens in uw Power BI-rapport te vernieuwen, moet u een gepland vernieuwingsschema maken. Dit doet u in het gedeelte *Beheren* van een Power BI-rapport.
@@ -79,7 +79,7 @@ U bekijkt de status van een gepland vernieuwingsschema in de webportal.
    | Gegevens vernieuwen |De gegevens in het model worden vernieuwd. |
    | Referenties verwijderen uit het model |De referenties waarmee verbinding wordt gemaakt met de gegevensbron worden uit het model verwijderd. |
    | Model opslaan in de catalogus |Het vernieuwen van gegevens is voltooid en het vernieuwde model wordt in de catalogusdatabase van de rapportserverdatabase opgeslagen. |
-   | Voltooid: gegevens vernieuwen |Het vernieuwen is voltooid. |
+   | Voltooid: Gegevens vernieuwen |Het vernieuwen is voltooid. |
    | Fout: |Er is een fout opgetreden tijdens het vernieuwen. Deze wordt weergegeven. |
 
 De webpagina moet worden vernieuwd om de huidige status te bekijken. De status verandert niet automatisch.

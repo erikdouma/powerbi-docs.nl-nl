@@ -1,22 +1,22 @@
 ---
-title: 'Zelfstudie: een gepagineerd rapport maken en uploaden naar de Power BI-service (preview)'
+title: 'Zelfstudie: Een gepagineerd rapport maken en uploaden naar de Power BI-service (preview)'
 description: In deze zelfstudie maakt u verbinding met een Azure SQL-voorbeelddatabase. Vervolgens gebruikt u een wizard in Report Builder om een gepagineerd rapport te maken. Daarna uploadt u het gepagineerde rapport naar een werkruimte in een Premium-capaciteit in de Power BI-service.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
 ms.author: maggies
-ms.openlocfilehash: fbeb617207c13459fe88487547609323391487e2
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 05805ea7b30f0ab0bd14265caecbb04a4e975300
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900607"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296447"
 ---
-# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service-preview"></a>Zelfstudie: een gepagineerd rapport maken en uploaden naar de Power BI-service (preview)
+# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service-preview"></a>Zelfstudie: Een gepagineerd rapport maken en uploaden naar de Power BI-service (preview)
 
 In deze zelfstudie maakt u verbinding met een Azure SQL-voorbeelddatabase. Vervolgens gebruikt u een wizard in Report Builder om een gepagineerd rapport te maken met een tabel die doorloopt over meerdere pagina's. Daarna uploadt u het gepagineerde rapport naar een werkruimte in een Premium-capaciteit in de Power BI-service. Gepagineerde rapporten zijn beschikbaar in de Power BI-service (preview).
 
@@ -74,13 +74,13 @@ Hier volgen de vereisten voor het uploaden van uw gepagineerde rapport naar de P
 
     ![Eigenschappen van gegevensbron - Opbouwen](media/paginated-reports-quickstart-aw/power-bi-paginated-data-source-properties-build.png)
 
-9. **In Azure:** ga terug naar Azure Portal en selecteer **SQL-databases**.
+9. **In Azure:** Ga terug naar de Azure-portal en selecteer **SQL-databases**.
 
 1. Selecteer de Azure SQL-database die u hebt gemaakt in de snelstart 'Een Azure SQL-voorbeelddatabase maken in Azure Portal' in de sectie **Vereisten** van dit artikel.
 
 1. Op het tabblad **Overzicht** kopieert u de waarde uit het vak **Servernaam**.
 
-2. **In Report Builder**: plak de gekopieerde naam in het dialoogvenster **Verbindingseigenschappen** in **Servernaam**. 
+2. **In Report Builder**: Plak de gekopieerde naam in het dialoogvenster **Verbindingseigenschappen** in **Servernaam**. 
 
 1. Voor het **aanmelden bij de server** moet **SQL Server-verificatie gebruiken** zijn geselecteerd. Typ vervolgens de gebruikersnaam en het wachtwoord voor de voorbeelddatabase die u in Azure hebt gemaakt.
 

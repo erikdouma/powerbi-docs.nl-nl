@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/17/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 09bf82d86301967fb46b8724822e183a21008b92
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 760335b0a08156b3c5b594ffc27be4cb0ad12342
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452724"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289918"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>Het taalkundige Q&A-schema bewerken en formuleringen toevoegen in Power BI Desktop 
 Normale zinnen en natuurlijke taal gebruiken om informatie uit uw gegevens te kunnen opvragen, is uiterst nuttig. Nog nuttiger is het wanneer uw gegevens antwoorden. Dit is wat u voor elkaar kunt krijgen met Q&A in Power BI. Wanneer u Power BI Q&A een vraag stelt, wordt geprobeerd een zo goed mogelijk antwoord te geven. 
@@ -78,7 +78,7 @@ Q&A gebruikt al deze informatie in combinatie met eventuele verbetering die u aa
 
 
 ## <a name="edit-a-linguistic-schema"></a>Taalkundig schema bewerken
-Wanneer u eerst uw taalkundige schema vanaf Power BI Desktop exporteert, wordt de inhoud in het bestand grotendeels of volledig automatisch gegenereerd door de Q&A-engine. Deze gegenereerde entiteiten, woorden (synoniemen), relaties en formuleringen worden aangeduid met de tag **Status: gegenereerd** en worden vooral ter informatie in het bestand opgenomen, maar kunnen ook een nuttig beginpunt zijn voor uw eigen wijzigingen. 
+Wanneer u eerst uw taalkundige schema vanaf Power BI Desktop exporteert, wordt de inhoud in het bestand grotendeels of volledig automatisch gegenereerd door de Q&A-engine. Deze gegenereerde entiteiten, woorden (synoniemen), relaties en formuleringen worden aangeduid met de tag **Status: gegenereerd**. Ze worden vooral ter informatie in het bestand opgenomen, maar kunnen ook een nuttig beginpunt zijn voor uw eigen wijzigingen. 
 
 > [!NOTE]
 > Het YAML-voorbeeldbestand in deze zelfstudie bevat niet de tags **Status: gegenereerd** of **Status: verwijderd** aangezien deze speciaal zijn voorbereid voor deze zelfstudie. Als u deze tags wilt zien, opent u een onbewerkt .pbix-bestand in de weergave Relatie en exporteert u het taalkundige schema.
@@ -86,7 +86,7 @@ Wanneer u eerst uw taalkundige schema vanaf Power BI Desktop exporteert, wordt d
 ![YAML met de Status: gegenereerd](media/power-bi-q-and-a-linguistic-schema/power-bi-generated-state.png)
 
 
-Wanneer u uw taalkundige schemabestand weer naar Power BI Desktop importeert, worden alle elementen met de markering **Status: gegenereerd** genegeerd (en later opnieuw gegenereerd). Als u gegenereerde inhoud wilt wijzigen, moet u daarom ook de bijbehorende tag **Status: gegenereerd** verwijderen. Evenzo moet u, als u gegenereerde inhoud wilt verwijderen, de tag **Status: gegenereerd** wijzigen in **Status: verwijderd**, zodat deze niet opnieuw wordt gegenereerd wanneer u uw taalkundige schemabestand importeert.
+Wanneer u uw taalkundige schemabestand weer in Power BI Desktop importeert, worden alle elementen met de markering **Status: gegenereerd** genegeerd (en later opnieuw gegenereerd). Als u gegenereerde inhoud wilt wijzigen, moet u daarom ook de bijbehorende tag **Status: gegenereerd** verwijderen. Evenzo moet u, als u gegenereerde inhoud wilt verwijderen, de tag **Status: gegenereerd** wijzigen in **Status: verwijderd**, zodat deze niet opnieuw wordt gegenereerd wanneer u uw taalkundige schemabestand importeert.
 
 1. Open de gegevensset in de *relatieweergave* in Power BI Desktop. 
 2. Selecteer het tabblad **Model maken** en kies **Taalkundig schema exporteren**.

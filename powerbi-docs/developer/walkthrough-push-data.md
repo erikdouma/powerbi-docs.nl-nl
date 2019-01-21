@@ -6,15 +6,15 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
-ms.openlocfilehash: 01bcc545d3ba8edb23ef583467322401780e657d
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 0990f6ddaf458d5723cd04fedf0b34f497de16cb
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45974179"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278488"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Gegevens naar een Power BI-gegevensset pushen
 
@@ -24,11 +24,11 @@ Voordat u de gegevens naar een gegevensset gaat pushen, hebt u een Azure Active 
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>Stappen om gegevens naar een gegevensset te pushen
 
-* Stap 1: [Een app bij Azure AD registreren](walkthrough-push-data-register-app-with-azure-ad.md)
-* Stap 2: [Een toegangstoken voor verificatie ophalen](walkthrough-push-data-get-token.md)
-* Stap 3: [Een gegevensset maken in Power BI](walkthrough-push-data-create-dataset.md)
-* Stap 4: [Een gegevensset ophalen om rijen toe te voegen aan een Power BI-tabel](walkthrough-push-data-get-datasets.md)
-* Stap 5: [Rijen toevoegen aan een Power BI-tabel](walkthrough-push-data-add-rows.md)
+* Stap 1: [Register an app with Azure AD](walkthrough-push-data-register-app-with-azure-ad.md) (Een app bij Azure AD registreren)
+* Stap 2: [Get an authentication access token](walkthrough-push-data-get-token.md) (Een verificatietoegangstoken ophalen)
+* Stap 3: [Create a dataset in Power BI](walkthrough-push-data-create-dataset.md) (Een gegevensset maken in Power BI)
+* Stap 4: [Get a dataset to add rows into a Power BI table](walkthrough-push-data-get-datasets.md) (Een gegevensset ophalen om rijen toe te voegen aan een Power BI-tabel)
+* Stap 5: [Add rows to a Power BI table](walkthrough-push-data-add-rows.md) (Rijen toevoegen aan een Power BI-tabel)
 
 Het volgende gedeelte bevat een algemene bespreking van Power BI API-bewerkingen die gegevens pushen.
 
@@ -59,7 +59,7 @@ De JSON-tekenreeks voor een gegevensset heeft de volgende indeling:
         ]
     }
 
-Voor de voorbeeldgegevensset Sales Marketing moet u dus een JSON-tekenreeks doorgeven zoals in het onderstaande voorbeeld. In dit voorbeeld is **SalesMarketing** de naam van de gegevensset en is **Product** de naam van de tabel. Nadat u de tabel hebt gedefinieerd, kunt u het tabelschema definiëren. Voor de gegevensset **SalesMarketing** heeft het tabelschema deze kolommen: ProductID, Manufacturer, Category, Segment, Product en IsCompete.
+Voor de voorbeeldgegevensset Sales Marketing moet u dus een JSON-tekenreeks doorgeven zoals in het onderstaande voorbeeld. In dit voorbeeld is **SalesMarketing** de naam van de gegevensset en is **Product** de naam van de tabel. Nadat u de tabel hebt gedefinieerd, kunt u het tabelschema definiëren. Voor de gegevensset **SalesMarketing** bevat het tabelschema de volgende kolommen: ProductID, Manufacturer, Category, Segment, Product en IsCompete.
 
 **Voorbeeld van JSON-object voor gegevensset**
 
@@ -112,7 +112,7 @@ Voor een Power BI-tabelschema kunt u de volgende gegevenstypen gebruiken.
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Meer informatie over het pushen van gegevens naar Power BI
 
-Als u gegevens wilt gaan pushen naar een gegevensset, leest u [Stap 1: Een app bij Azure AD registreren](walkthrough-push-data-register-app-with-azure-ad.md) in het navigatievenster links.
+Als u gegevens in een gegevensset wilt pushen, raadpleegt u [Stap 1: Een app registreren met Azure AD](walkthrough-push-data-register-app-with-azure-ad.md) in het linkernavigatiepaneel.
 
 [Volgende stap >](walkthrough-push-data-register-app-with-azure-ad.md)
 

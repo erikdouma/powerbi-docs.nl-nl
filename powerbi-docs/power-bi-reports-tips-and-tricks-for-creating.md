@@ -5,17 +5,17 @@ author: davidi
 manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 2093800f10484a24eb4db9f77f45468ae4b9b4c3
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 02202e8b5e89aa8d312a96d448c825f2ca44447a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829821"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290493"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Tips en trucs voor het maken van rapporten in Power BI Desktop en de Power BI-service
 Als uw gegevens optimaal te kunnen gebruiken, hebt u soms wat extra hulp nodig. We hebben een aantal tips en trucs voor u verzameld om u te helpen bij het maken van rapporten in Microsoft Power BI Desktop, de Power BI-service *en* in Pro-Plus-edities van Microsoft Excel 2016 of Excel 2013 waar de Power Pivot-invoegtoepassing is ingeschakeld en Power Query is geïnstalleerd en ingeschakeld.
@@ -30,7 +30,7 @@ U kunt voor aanvullende informatie terecht bij het [Power Query Resource Center]
 U kunt ook de [Naslaginformatie voor formules](https://support.office.com/Article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f) bekijken.
 
 ### <a name="data-types-in-query-editor"></a>Gegevenstypes in de Query Editor
-Wanneer u de Query Editor in Power BI Desktop gebruikt om gegevens te laden, bepalen wij zo goed mogelijk wat voor type gegevens het zijn.  Wanneer u formules gebruikt, blijven kolominstellingen voor het gegevenstype soms niet behouden. U dient nadat u gegevens voor het eerst naar het query-tabblad laadt en na de volgende handelingen altijd de kolomtypen te controleren: Eerste rij als veldnaam instellen, Kolom toevoegen, Groeperen op, Samenvoegen en Toevoegen.
+Wanneer u de Query Editor in Power BI Desktop gebruikt om gegevens te laden, bepalen wij zo goed mogelijk wat voor type gegevens het zijn.  Wanneer u formules gebruikt, blijven kolominstellingen voor het gegevenstype soms niet behouden. Controleer of het gegevenstype van kolommen juist is na het uitvoeren van de volgende bewerkingen:  Gegevens voor het eerst naar het query-tabblad laden, Eerste rij als kop, Kolom toevoegen, Groeperen op, Samenvoegen en Toevoegen en voordat u de eerste keer drukt om de gegevens te laden.
 
 Het is belangrijk om het volgende te onthouden: als gegevens cursief worden weergegeven in het gegevensraster, betekent dit niet dat het gegevenstype correct is ingesteld, alleen dat de gegevens niet als tekst worden beschouwd.
 
@@ -167,7 +167,7 @@ DAX is de formuletaal voor berekeningen in Power BI Desktop.  Deze is geoptimali
 
 ## <a name="power-bi-service-and-power-bi-desktop"></a>Power BI-service *en* Power BI Desktop
 
-### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>[Principes voor het ontwerpen van Power BI-rapporten](visuals/power-bi-visualization-best-practices.md)
+### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>De technische documentatie lezen: [Principes voor het ontwerpen van Power BI-rapporten](visuals/power-bi-visualization-best-practices.md)
 In dit technische document (Engelstalig vooralsnog) worden de aanbevolen procedures beschreven voor het ontwerpen van rapporten in Power BI. Als eerste komen als onderdeel van de planning de beginselen van het ontwerpen van rapporten ter sprake. Deze beginselen kunt u toepassen op de pagina's en afzonderlijke visuele elementen die deel uitmaken van het rapport. Veel van deze aanbevolen procedures zijn ook van toepassing op het ontwerpen van het dashboard.
 
 ### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>Visueel aantrekkelijke rapporten en dashboards maken in Power BI

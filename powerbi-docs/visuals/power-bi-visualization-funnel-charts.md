@@ -6,20 +6,20 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 345293e6b8bd7047ecfe1716f0b7be1c5bed9c58
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 071b45a4ad9cbd9c753c44de5c55a352767bccbf
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829867"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289619"
 ---
 # <a name="funnel-charts"></a>Trechterdiagrammen
-Een trechterdiagram helpt u om een lineaire proces dat bestaat uit opeenvolgende verbonden fasen te visualiseren. Bijvoorbeeld een verkooptrechter waarmee klanten in verschillende fasen worden bijgehouden: Lead \> Gekwalificeerde lead \> Prospect \> Contract \> Voltooid.  De vorm van de trechter brengt de status van het proces dat u bijhoudt in één oogopslag over.
+Een trechterdiagram helpt u om een lineaire proces dat bestaat uit opeenvolgende verbonden fasen te visualiseren. Bijvoorbeeld verkoopactiviteiten waarbij de klanten in bepaalde fasen worden bijgehouden: Lead \> Qualified Lead \> Prospect \> Contract \> Close.  De vorm van de trechter brengt de status van het proces dat u bijhoudt in één oogopslag over.
 
 Elke fase van de trechter vertegenwoordigt een percentage van het totaal. In de meeste gevallen heeft een trechterdiagram dus de vorm een trechter. De eerste fase is het grootst en elke latere fase is kleiner dan de vorige.  Een trechter in de vorm van een peer is ook nuttig. Hiermee kunt u een probleem in het proces identificeren.  Maar normaal gesproken is de eerste fase (de startfase) het grootst.
 

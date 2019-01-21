@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 447257ba715b473c233b1d13c6319ff4958f33fa
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 4a30d01040daffa394ff884c38dda3dd66fa5809
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717166"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285801"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Een volledige rapportpagina als een live-tegel aan een Power BI-dashboard vastmaken
 Een andere manier om een nieuwe [dashboardtegel](consumer/end-user-tiles.md) toe te voegen is door een volledige rapportpagina vast te maken. Dit is een eenvoudige manier om meer dan een visualisatie tegelijk vast te maken.  Ook zijn bij het vastmaken van een volledige pagina de tegels *live*; u kunt hiermee direct op het dashboard werken. En wijzigingen die u aan visualisaties aanbrengt in de rapporteditor, zoals een filter toevoegen of de velden wijzigen die worden gebruikt in de grafiek, worden ook in de dashboardtegel doorgevoerd.  
@@ -38,7 +38,7 @@ Bekijk hoe Amanda een live-rapportpagina aan een dashboard vastmaakt. Volg vervo
 2. Selecteer zonder dat er visualisaties zijn geselecteerd **Live-pagina vastmaken** op de menubalk.
    
    ![Pictogram Live-pagina vastmaken](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page.png) 
-3. Maak de tegel vast aan een bestaand dashboard of aan een nieuw dashboard. Let op de gemarkeerde tekst: *Als u de live-pagina vastmaakt, kunnen wijzigingen in rapporten op de dashboardtegel worden weergegeven wanneer de pagina wordt vernieuwd.*
+3. Maak de tegel vast aan een bestaand dashboard of aan een nieuw dashboard. U ziet de gemarkeerde tekst: *Als u de livepagina vastmaakt, kunnen wijzigingen in rapporten op de dashboardtegel worden weergegeven wanneer de pagina wordt vernieuwd.*
    
    * Bestaand dashboard: selecteer de naam van het dashboard in de vervolgkeuzelijst. Dashboards die met u zijn gedeeld, worden niet weergegeven in de vervolgkeuzelijst.
    * Nieuw dashboard: typ de naam van het nieuwe dashboard.

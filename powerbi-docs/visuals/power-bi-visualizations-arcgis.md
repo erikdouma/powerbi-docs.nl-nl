@@ -6,16 +6,16 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: mihart
-ms.openlocfilehash: 0454d2ea0e69a77482d9ba9587497679819daf06
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 37e3e16a17e163d1acfeb43e1a1ede9fba1eca1e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266019"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279361"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Interactie met ArcGIS-kaarten in Power BI
 Dit onderwerp is geschreven vanuit het oogpunt van een persoon die een ArcGIS-kaart *gebruikt* in de Power BI-service, in de desktopversie of op een mobiel apparaat. Zodra een maker een ArcGIS-kaart met u deelt, kunt u deze kaart op veel manieren gebruiken.  Zie [ArcGIS maps by esri tutorial](../power-bi-visualization-arcgis.md) (ArcGIS-kaarten van Esri - een zelfstudie) voor meer informatie over het maken van een ArcGIS-kaart.
@@ -145,7 +145,7 @@ Dit is een bekende bug. Er wordt aan een oplossing gewerkt.  Selecteer in de tus
 Nee, Power BI moet zijn verbonden met het netwerk om kaarten weer te geven.
 
 ## <a name="next-steps"></a>Volgende stappen
-Hulp krijgen: **Esri** biedt [uitgebreide documentatie](https://go.microsoft.com/fwlink/?LinkID=828772) over de functieset van **ArcGIS Maps for Power BI**.
+Hulp krijgen: **Esri** biedt [uitgebreide documentatie](https://go.microsoft.com/fwlink/?LinkID=828772) voor de functies van **ArcGIS Maps for Power BI**.
 
 U kunt vragen stellen, de meest recente informatie vinden, problemen melden en antwoorden vinden in de Power BI-[communitythread met betrekking tot **ArcGIS Maps for Power BI**](https://go.microsoft.com/fwlink/?LinkID=828771).
 

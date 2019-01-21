@@ -1,23 +1,23 @@
 ---
-title: 'Voorbeeld van human resources: rondleiding'
-description: 'Voorbeeld van human resources voor Power BI: rondleiding'
+title: 'Voorbeeld van human resources: Rondleiding volgen'
+description: 'Voorbeeld van human resources voor Power BI: Rondleiding volgen'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/26/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: c0f1df47501c297e65e7dc3ccdb8d745c84b2e55
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 1670fffd33e741962db5e7312f2a27273151980d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717867"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293935"
 ---
-# <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Voorbeeld van human resources voor Power BI: rondleiding
+# <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Voorbeeld van human resources voor Power BI: Rondleiding volgen
 
 ## <a name="overview-of-the-human-resources-sample"></a>Overzicht van het voorbeeld van Human Resources
 De HR-afdeling hanteert hetzelfde rapportagemodel voor verschillende bedrijven, zelfs wanneer deze verschillen qua branche of omvang. In dit voorbeeld kijken we naar nieuwe medewerkers, actieve medewerkers en medewerkers die niet meer in dienst zijn en proberen we trends te ontdekken in de strategie voor het aannemen van personeel. Dit zijn de belangrijkste doelstellingen die we beter willen begrijpen:
@@ -141,5 +141,5 @@ Het [Q&A-vraagvak](power-bi-tutorial-q-and-a.md) is de plek waar u een vraag kun
 
 Dit is een veilige omgeving om wat dingen uit te proberen. U kunt er namelijk altijd voor kiezen de wijzigingen niet op te slaan. Als u ze wel opslaat, kunt u altijd via **Gegevens ophalen** een nieuwe kopie van dit voorbeeld downloaden.
 
-## <a name="next-steps-connect-to-your-data"></a>Volgende stap: Verbinding maken met uw gegevens
+## <a name="next-steps-connect-to-your-data"></a>Volgende stappen: Verbinding maken met uw gegevens
 We hopen dat deze rondleiding heeft laten zien hoe Power BI-dashboards, Q&A en rapporten inzicht kunnen geven in gegevens van de HR-afdeling. Nu is het uw beurt om verbinding met uw eigen gegevens te maken. Met Power BI kunt u verbinding maken met een groot aantal gegevensbronnen. Zie [Aan de slag met Power BI](service-get-started.md) voor meer informatie.  

@@ -6,15 +6,15 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/01/2018
-ms.openlocfilehash: 7608d9098177805849ec61f0427ee5bc662d58c9
-ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
+ms.openlocfilehash: 0337e35a67a852e1bb82209e095df4945c5de84a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39475655"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275290"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Stap 5: Rijen toevoegen aan een Power BI-tabel
 Dit artikel maakt deel uit van een stapsgewijze uitleg van hoe u [gegevens naar een gegevensset pusht](walkthrough-push-data.md).
@@ -29,11 +29,11 @@ U kunt als volgt rijen toevoegen aan een gegevensset met de Power BI API.
 
 ## <a name="add-rows-to-a-power-bi-table"></a>Rijen toevoegen aan een Power BI-tabel
 > [!NOTE]
-> Voordat u begint, controleert u of u de vorige stappen in [Gegevens naar een gegevensset pushen](walkthrough-push-data.md) hebt gevolgd.
+> Voordat u begint, zorgt u dat u de vorige stappen in [Gegevens naar een gegevensset pushen](walkthrough-push-data.md) hebt gevolgd.
 > 
 > 
 
-1. In het consoletoepassingsproject dat u hebt gemaakt in stap 2: Stappen om gegevens te pushen, [Een toegangstoken voor verificatie ophalen](walkthrough-push-data-get-token.md), voegt u de onderstaande code toe.
+1. In het consoletoepassingsproject dat u hebt gemaakt in stap 2: Stapsgewijze uitleg van het pushen van gegevens, [een verificatietoegangstoken ophalen](walkthrough-push-data-get-token.md), de onderstaande code toevoegen.
 2. Voer de console-app uit en meld u aan bij uw Power BI-account. U ziet **Rijen toegevoegd** in het consolevenster. U kunt zich ook aanmelden bij Power BI om de rijen te zien die zijn toegevoegd aan de gegevensset.
 
 **Voorbeeldgegevens naar een gegevensset pushen**

@@ -4,17 +4,17 @@ description: Meer informatie over de stappen die u moet uitvoeren voor het inslu
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: nishalit
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 11/28/2018
-ms.openlocfilehash: 901c087c486598019e905598ee83382664842cc8
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.date: 12/20/2018
+ms.openlocfilehash: 785461290493db59c534a58b548620b6d2f58cd7
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578768"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284168"
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Beveiliging op rijniveau met ingesloten Power BI-inhoud
 
@@ -49,12 +49,12 @@ We noemen enkele dingen die opvallen in dit schema:
 
 * Alle metingen, zoals **Totale verkoop**, worden opgeslagen in de feitentabel **Verkoop**.
 * Er zijn vier extra gerelateerde dimensietabellen: **Artikel**, **Tijd**, **Winkel** en **Regio**.
-* Met de pijlen op de relatielijnen wordt aangegeven in welke richting filters van de ene naar de andere tabel kunnen stromen. Als er bijvoorbeeld een filter op **Tijd[Datum]** wordt toegepast in het huidige schema, worden alleen de waarden in de tabel **Verkoop** gefilterd. Andere tabellen worden niet beïnvloed door dit filter omdat alle pijlen op de relatielijnen naar de tabel Verkoop toe wijzen, en niet ervandaan.
+* Met de pijlen op de relatielijnen wordt aangegeven in welke richting filters van de ene naar de andere tabel kunnen stromen. Als er bijvoorbeeld een filter op **Tijd[Datum]** wordt toegepast in het huidige schema, worden alleen de waarden in de tabel **Verkoop** gefilterd. Er worden geen andere tabellen beïnvloed door dit filter, omdat alle pijlen op de relatielijnen naar de tabel Verkoop toe wijzen, en niet ervandaan.
 * In de tabel **Regio** wordt de manager van elke regio aangegeven:
   
     ![Rijen in de tabel District](media/embedded-row-level-security/powerbi-embedded-district-table.png)
 
-Als we in dit schema een filter toepassen op de kolom **Regiomanager** in de tabel **Regio** en als dat filter overeenkomt met de gebruiker die het rapport weergeeft, worden in de tabellen **Winkel** en **Verkoop** alleen de gegevens voor die regiomanager weergegeven.
+Als we in dit schema een filter toepassen op de kolom **Regiomanager** in de tabel **Regio** en als dat filter overeenkomt met de gebruiker die het rapport weergeeft, worden in de tabellen **Winkel** en **Verkoop** de gegevens voor die regiomanager weergegeven.
 
 U doet dit als volgt:
 
@@ -141,7 +141,7 @@ Rollen kunnen worden opgegeven met de identiteit in een insluittoken. Als er gee
 
 ### <a name="using-the-customdata-feature"></a>De functie CustomData gebruiken
 
-De functie CustomData werkt alleen voor modellen die zich in **Azure Analysis Services** bevinden. Bovendien werkt de functie uitsluitend in de **Connect livemodus**. In tegenstelling tot gebruikers en rollen kan de functie Customdata niet in een PBIX-bestand worden ingesteld. Tijdens het genereren van een token met de Customdata-functie moet u over een gebruikersnaam beschikken.
+De functie CustomData werkt alleen voor modellen die zich in **Azure Analysis Services** bevinden. Bovendien werkt de functie uitsluitend in de **Connect livemodus**. In tegenstelling tot gebruikers en rollen, kan de functie voor Custom Data niet in een .pbix-bestand worden ingesteld. Tijdens het genereren van een token met de functie Custom Data, moet u over een gebruikersnaam beschikken.
 
 Met de functie CustomData kunt u een rijfilter toevoegen wanneer u Power BI-gegevens in uw toepassing bekijkt en u **Azure Analysis Services** als gegevensbron gebruikt (Power BI-gegevens bekijken die zijn gekoppeld aan Azure Analysis Services in uw toepassing).
 
@@ -213,18 +213,18 @@ Dit zijn de stappen om de functie CustomData() in te stellen met uw Power BI Emb
 
     ![PBI-rapportvoorbeeld](media/embedded-row-level-security/rls-sample-pbi-report.png)
 
-7. Gebruik de Power BI-API's om de functie CustomData in uw toepassing te gebruiken.  Tijdens het genereren van een token met de Customdata-functie moet u over een gebruikersnaam beschikken. De gebruikersnaam moet gelijk zijn aan de UPN van de hoofdgebruiker. De hoofdgebruiker moet lid zijn van de rol(len) die u hebt gemaakt. Als er geen rollen zijn opgegeven, worden alle rollen waar de hoofdgebruiker lid van is, gebruikt voor de RLS-beoordeling.
+7. Gebruik de Power BI-API's om de functie CustomData in uw toepassing te gebruiken.  Tijdens het genereren van een token met de functie Custom Data, moet u over een gebruikersnaam beschikken. De gebruikersnaam moet gelijk zijn aan de UPN van de hoofdgebruiker. De hoofdgebruiker moet lid zijn van de rol(len) die u hebt gemaakt. Als er geen rollen zijn opgegeven, worden alle rollen waar de hoofdgebruiker lid van is, gebruikt voor de RLS-beoordeling.
 
     > [!Note]
     > Wanneer u klaar bent om uw toepassing in uw productieomgeving te implementeren, moeten eindgebruikers het hoofdgebruikersaccountveld of de hoofdgebruikersoptie niet kunnen zien.
 
     Bekijk de [code](#customdata-sdk-additions) om de functie CustomData toe te voegen.
 
-8. U kunt het rapport nu weergeven in uw toepassing voordat u de CustomData-waarde(n) toevoegt om alle gegevens in het rapport te bekijken.
+8. U kunt het rapport nu weergeven in uw toepassing voordat u de Custom Data-waarde(n) toevoegt om alle gegevens in het rapport te bekijken.
 
     ![Vóór toepassing van CustomData](media/embedded-row-level-security/customdata-before.png)
 
-    Pas vervolgens de CustomData-waarde(n) toe om te bekijken hoe in het rapport een andere set gegevens wordt weergegeven.
+    Pas vervolgens de Custom Data-waarde(n) toe om te bekijken hoe in het rapport een andere set gegevens wordt weergegeven.
     ![Na toepassing van CustomData](media/embedded-row-level-security/customdata-after.png)
 
 ## <a name="using-rls-vs-javascript-filters"></a>RLS gebruiken vs. JavaScript-filters
@@ -239,6 +239,75 @@ Wanneer u een beslissing neemt over filters in uw rapport, kunt u **beveiliging 
 
 [JavaScript-filters](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Filters#page-level-and-visual-level-filters) worden gebruikt om de gebruiker een beperkte, gerichte of gefilterde weergave van de gegevens te geven. De gebruiker heeft echter nog steeds toegang tot de tabellen, kolommen en metingen van het modelschema en mogelijk ook tot de gegevens daarin. Beperkte gegevenstoegang kan alleen worden gerealiseerd met RLS en niet via filter-API's aan de clientzijde.
 
+## <a name="token-based-identity-with-azure-sql-database-preview"></a>Identiteit op basis van tokens met Azure SQL Database (preview)
+
+Met de **identiteit op basis van tokens** kunt u de effectieve identiteit voor een ingesloten token opgeven met **Azure Active Directory**-toegangstokens (AAD) voor een **Azure SQL Database**.
+
+Klanten die hun gegevens bewaren in **Azure SQL Database** hebben bij integratie met **Power BI Embedded** nu de mogelijkheid om gebruikers en hun toegang tot gegevens in Azure SQL te beheren.
+
+Wanneer u het insluitingstoken genereert, kunt u de effectieve identiteit van een gebruiker in Azure SQL opgeven. U geeft de effectieve identiteit van een gebruiker op door het AAD-toegangstoken door te geven aan de server. Het toegangstoken wordt gebruikt om alleen de gegevens uit Azure SQL op te halen die voor die gebruiker en specifieke sessie relevant zijn.
+
+Het kan worden gebruikt om de weergave van elke gebruiker in Azure SQL te beheren of om mee aan te melden bij Azure SQL als specifieke klant in een multitenant-database. Het kan eveneens worden gebruikt om voor die sessie beveiliging op rijniveau in Azure SQL toe te passen en alleen de relevante gegevens voor die sessie op te halen, zodat het niet meer nodig is om RLS te beheren in Power BI.
+
+Dergelijke problemen met effectieve identiteit zijn rechtstreeks van toepassing op RLS-regels in de Azure SQL Server. Power BI Embedded maakt gebruikt van het opgegeven toegangstoken wanneer het query's uitvoert op gegevens uit de Azure SQL Server. De UPN van de gebruiker (voor wie de toegangstoken is opgegeven) is toegankelijk als gevolg van de functie USER_NAME() SQL.
+
+De identiteit op basis van tokens werk allen voor DirectQuery-modellen in een toegewezen capaciteit, verbonden met een Azure SQL Database die is geconfigureerd voor AAD-verificatie ([meer informatie over AAD-verificatie voor Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-manage-logins)). Als u een identiteit op basis van tokens wilt gebruiken, moet de gegevensbron van de gegevensset zo zijn geconfigureerd dat de OAuth2-referenties van de gebruikers worden gebruikt.
+
+   ![Azure SQL-server configureren](media/embedded-row-level-security/token-based-configure-azure-sql-db.png)
+
+### <a name="token-based-identity-sdk-additions"></a>SDK-toevoegingen voor identiteiten op basis van tokens
+
+De eigenschap van de id-blob is toegevoegd aan de effectieve identiteit in het scenario voor het genereren van tokens.
+
+```JSON
+[JsonProperty(PropertyName = "identityBlob")]
+public IdentityBlob IdentityBlob { get; set; }
+```
+
+Het type IdentityBlob is een eenvoudige JSON-structuur met een eigenschap van een tekenreekswaarde
+
+```JSON
+[JsonProperty(PropertyName = "value")]
+public string value { get; set; }
+```
+
+De EffectiveIdentity kan worden gemaakt met de id-blob en de volgende aanroep:
+
+```C#
+public EffectiveIdentity(string username, IList<string> datasets, IList<string> roles = null, string customData = null, IdentityBlob identityBlob = null);
+```
+
+De id-blob kan worden gemaakt met de volgende aanroep.
+
+```C#
+public IdentityBlob(string value);
+```
+
+### <a name="token-based-identity-rest-api-usage"></a>REST API-gebruik van identiteit op basis van tokens
+
+Als u de [REST API](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetoken#definitions) aanroept, kunt u in elke identiteit een id-blob toevoegen.
+
+```JSON
+{
+    "accessLevel": "View",
+    "identities": [
+        {
+            "datasets": ["fe0a1aeb-f6a4-4b27-a2d3-b5df3bb28bdc"],
+        “identityBlob”: {
+            “value”: “eyJ0eXAiOiJKV1QiLCJh….”
+         }
+        }
+    ]
+}
+```
+
+De waarde die wordt opgegeven in de id-blob moet een geldig toegangstoken zijn voor Azure SQL Server (met een resource URL van (<https://database.windows.net/>)).
+
+   > [!Note]
+   > Als u een toegangstoken voor Azure SQL wilt maken, moet de toepassing de gedelegeerde machtiging **Toegang tot Azure SQL DB en Data Warehouse** hebben voor de **Azure SQL Database**-API in AAD-appregistratieconfiguratie in de Azure-portal.
+
+   ![App-registratie](media/embedded-row-level-security/token-based-app-reg-azure-portal.png)
+
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 
 * De toewijzing van gebruikers aan rollen in de Power BI-service heeft geen invloed op de beveiliging op rijniveau bij gebruik van een insluittoken.
@@ -248,5 +317,11 @@ Wanneer u een beslissing neemt over filters in uw rapport, kunt u **beveiliging 
 * Als RLS niet vereist is voor de onderliggende gegevensset, mag de GenerateToken-aanvraag **geen** effectieve identiteit bevatten.
 * Als de onderliggende gegevensset een cloudmodel is (een model in de cache of DirectQuery), moet de effectieve identiteit ten minste één rol bevatten. Anders wordt roltoewijzing niet uitgevoerd.
 * Een lijst met identiteiten kan meerdere identiteitstokens insluiten in het dashboard. Voor alle andere artefacten bevat de lijst één identiteit.
+
+### <a name="token-based-identity-limitations-preview"></a>Beperkingen van identiteit op basis van tokens (preview)
+
+* Deze mogelijkheid beperkt het gebruik alleen met Power BI Premium.
+* Deze mogelijkheid werkt niet met on-premises SQL Server.
+* Deze functie werkt niet in meerdere geografische gebieden.
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

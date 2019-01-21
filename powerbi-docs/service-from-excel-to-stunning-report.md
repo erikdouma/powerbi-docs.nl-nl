@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/28/2018
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: e3b7a6ca4471fb1a6454f6efb9fba1f89b8ae1da
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: d1e3d6b50b91643dc7c1e658094a5ae7763edc8f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829982"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290387"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>In een handomdraai aantrekkelijke rapporten van Excel-werkmappen maken
 Uw manager wil een rapport zien met recente verkoopcijfers gecombineerd met uw laatste campagne-indrukken aan het einde van de dag. Maar de meest recente gegevens bevinden zich op verschillende systemen van derden en in bestanden op uw laptop. In het verleden duurde het uren om visuele elementen te maken en een rapport te formatteren. U begint zich zorgen te maken.
@@ -50,7 +50,7 @@ Selecteer links onderin het navigatiedeelvenster **Gegevens ophalen**. Selecteer
 
 Selecteer op de pagina Bestanden **Lokaal bestand**. Navigeer naar het Excel-werkmapbestand op uw computer en selecteer het om het in Power BI te laden. Selecteer **Importeren**.
 
-> **Opmerking**: als u de rest van deze zelfstudie wilt volgen, gebruikt u de [werkmap Financieel voorbeeld](sample-financial-download.md).
+> **OPMERKING**: als u de rest van deze zelfstudie wilt volgen, gebruikt u de [voorbeeldwerkmap Financieel](sample-financial-download.md).
 > 
 > 
 

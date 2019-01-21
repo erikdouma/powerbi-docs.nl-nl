@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/28/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e364d2ceac3d1a30b0742ceac2bd56e2bc66d9ba
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: ace392570dbabc65d128941fc735231622f2c008
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973230"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285318"
 ---
 # <a name="about-filters-and-highlighting-in-power-bi-reports"></a>Over filters en markeren in Power BI-rapporten
  In dit artikel wordt beschreven hoe u filters en markeringen toepast in de Power BI-service. De ervaring is echter nagenoeg hetzelfde als in Power BI Desktop. ***Filters*** zorgen ervoor dat alleen die gegevens worden weergegeven waarop u zich wilt concentreren. ***Markeren*** is geen vorm van filteren. Hiermee worden geen gegevens verwijderd, maar wordt een subset van de zichtbare gegevens gemarkeerd. De niet-gemarkeerde gegevens blijven zichtbaar maar zijn lichter van kleur.
@@ -48,7 +48,7 @@ U kunt zowel in de lees- als de bewerkingsweergave zoeken in pagina-, visual- en
 Als naast het filter het woord **All** staat, betekent dit dat alle waarden in het veld zijn opgenomen in het filter.  Zo betekent **Chain (All)** (Keten (Alle)) in onderstaande schermopname dat deze rapportpagina gegevens bevat over alle winkelketens.  Het filter op rapportniveau **FiscalYear is 2013 or 2014** (Boekjaar is 2013 of 2014) betekent daarentegen dat het rapport alleen gegevens voor de boekjaren 2013 en 2014 bevat.
 
 ## <a name="filters-in-reading-or-editing-view"></a>Filters in lees- of bewerkingsweergave
-U kunt in twee modi met rapporten werken: in de [leesweergave en de bewerkingsweergave](consumer/end-user-reading-view.md). De beschikbare filtermogelijkheden zijn afhankelijk van de modus waarin u werkt.
+U kunt in twee modi met rapporten werken: in de [leesweergave](consumer/end-user-reading-view.md) en de bewerkingsweergave. De beschikbare filtermogelijkheden zijn afhankelijk van de modus waarin u werkt.
 
 * In de bewerkingsweergave kunt u filters voor rapporten, pagina’s, visuals en drillthrough toevoegen. Wanneer u het rapport opslaat, worden de filters samen met het rapport opgeslagen, zelfs als u het rapport in een mobiele app opent. Personen die het rapport in de leesweergave bekijken, kunnen de filters gebruiken die u hebt toegevoegd, maar kunnen geen nieuwe filters toevoegen.
 * In de leesweergave kunt u de filters gebruiken die al beschikbaar zijn in het rapport. Daarnaast kunt u de door u aangebrachte selecties opslaan. U kunt geen nieuwe filters toevoegen.

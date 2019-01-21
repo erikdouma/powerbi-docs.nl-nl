@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a71dc77f36ae1b8c4e54c69b5c9afaf676c7836f
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 5ee49a32542a032433c6eb53ca96cbe81d3df630
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578078"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291574"
 ---
 # <a name="connect-to-amazon-redshift-in-power-bi-desktop"></a>Verbinding met Amazon Redshift maken in Power BI Desktop
 In **Power BI Desktop** kunt u verbinding maken met een **Amazon Redshift**-database en gebruikmaken van de onderliggende gegevens, net zoals elke andere gegevensbron in Power BI Desktop.
@@ -25,7 +25,7 @@ Als u verbinding wilt maken met een **Amazon Redshift**-database, selecteert u *
 
 ![](media/desktop-connect-redshift/connect_redshift_3.png)
 
-In het **Amazon Redshift**-venster dat verschijnt, typt of plakt u de naam van uw **Amazon Redshift**-server en -database in het vak. Als onderdeel van het veld *Server* kunnen gebruikers een poort opgeven met de volgende opmaak: *ServerURL:Poort*
+In het **Amazon Redshift**-venster dat verschijnt, typt of plakt u de naam van uw **Amazon Redshift**-server en -database in het vak. Als onderdeel van het veld *Server* kunnen gebruikers een poort opgeven met de volgende opmaak: *ServerURL:Port*
 
 ![](media/desktop-connect-redshift/connect_redshift_4.png)
 

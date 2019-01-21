@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 71dbdd79e6bedee3f1377f0e7c29fcc6efbbba03
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 163fc60052c4124e7c6cbac60f1486a185c35f17
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417321"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290884"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Shape-kaarten in Power BI Desktop (preview)
 Maak een **Shape Map**-visual om regio's op een kaart te vergelijken met kleur. In tegenstelling tot de visual **Map** kan **Shape Map** geen nauwkeurige geografische locaties van gegevenspunten weergeven op een kaart. Het belangrijkste doel van Map is om relatieve vergelijkingen van regio's aan te geven op een kaart door verschillende kleuren te gebruiken.
@@ -113,7 +113,7 @@ Er zijn enkele overwegingen en vereisten voor deze Preview-versie van **Shape Ma
 ## <a name="region-keys"></a>Regiosleutels
 Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te testen.
 
-### <a name="australia-states"></a>Australië: staten
+### <a name="australia-states"></a>Australië: Staten
 
 | `id` | `abbr` | `iso` | `name` | `postal` |
 | --- | --- | --- | --- | --- |
@@ -126,7 +126,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te
 | au-nsw |NSW |AU-NSW |New South Wales |NSW |
 | au-act |ACT |AU-ACT |Australian Capital Territory |ACT |
 
-### <a name="austria-states"></a>Oostenrijk: deelstaten
+### <a name="austria-states"></a>Oostenrijk: Staten
 
 | `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
@@ -140,7 +140,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te
 | at-ka |AT-2 |Kärnten |Karinthië |KA |
 | at-bu |AT-1 |Burgenland |Burgenland |BU |
 
-### <a name="brazil-states"></a>Brazilië: staten
+### <a name="brazil-states"></a>Brazilië: Staten
 
 | `id` |
 | --- |
@@ -176,7 +176,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te
 | Litigated Zone 3 |
 | Litigated Zone 4 |
 
-### <a name="canada-provinces"></a>Canada: provincies
+### <a name="canada-provinces"></a>Canada: Provincies
 
 | `id` | `iso` | `name` | `postal` |
 | --- | --- | --- | --- |
@@ -194,7 +194,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te
 | ca-bc |CA-BC |Brits-Columbia |BC |
 | ca-ab |CA-AB |Alberta |AB |
 
-### <a name="france-regions"></a>Frankrijk: regio's
+### <a name="france-regions"></a>Frankrijk: Regio's
 
 | `id` | `name` | `name-en` |
 | --- | --- | --- |
@@ -221,7 +221,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te
 | Auvergne |Auvergne |Auvergne |
 | Aquitaine |Aquitaine |Aquitaine |
 
-### <a name="germany-states"></a>Duitsland: deelstaten
+### <a name="germany-states"></a>Duitsland: Staten
 
 | `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
@@ -242,7 +242,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te
 | de-by |DE-BY |Bayern |Beieren |BY |
 | de-bw |DE-BW |Baden-Württemberg |Baden-Württemberg |BW |
 
-### <a name="ireland-counties"></a>Ierland: county's
+### <a name="ireland-counties"></a>Ierland: Graafschappen
 
 | `id` |
 | --- |
@@ -273,7 +273,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te
 | Cavan |
 | Carlow |
 
-### <a name="italy-regions"></a>Italië: regio's
+### <a name="italy-regions"></a>Italië: Regio's
 
 | `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
@@ -298,7 +298,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te
 | it-pu |IT-75 |Apulia |Apulië |PU |
 | it-ab |IT-65 |Abruzzo |Abruzzen |AB |
 
-### <a name="mexico-states"></a>Mexico: staten
+### <a name="mexico-states"></a>Mexico: Staten
 
 | `id` | `abreviatura` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- | --- |
@@ -335,7 +335,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te
 | mx-bcn |B.C. |MX-BCN |Baja California |Baja California |BN |
 | mx-agu |Ags. |MX-AGU |Aguascalientes |Aguascalientes |AG |
 
-### <a name="netherlands-provinces"></a>Nederland: provincies
+### <a name="netherlands-provinces"></a>Nederland: Provincies
 
 | `id` | `iso` | `name` | `name-en` |
 | --- | --- | --- | --- |
@@ -352,7 +352,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te
 | nl-fl |NL-FL |Flevoland |Flevoland |
 | nl-dr |NL-DR |Drenthe |Drenthe |
 
-### <a name="uk-countries"></a>VK: landen
+### <a name="uk-countries"></a>VK: Landen
 
 | `id` | `iso` | `name` |
 | --- | --- | --- |
@@ -361,7 +361,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape Map** te
 | gb-nir |GB-NIR |Noord-Ierland |
 | gb-eng |GB-ENG |Engeland |
 
-### <a name="usa-states"></a>VS: staten
+### <a name="usa-states"></a>VS: Staten
 
 | `id` | `name` | `postal` |
 | --- | --- | --- |
