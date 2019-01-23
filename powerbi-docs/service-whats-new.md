@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 32a052ca009c613b262d5277a0fd85b186c8e148
-ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
+ms.openlocfilehash: acfc4062677a28824458781b900b271bedd51eb8
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "54406748"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488909"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Wat is er nieuw in de Power BI-service
@@ -197,7 +197,7 @@ Zie [de Power BI-teamblog](https://powerbi.microsoft.com/blog/smarter-auto-gener
 ***Beveiliging op rijniveau (RLS)***
 
 * Ondersteuning voor Azure Active Directory-groepen (AAD-groepen): Gebruikers kunnen nu AAD-groepen (beveiligingsgroepen en distributielijsten) toewijzen aan een rol. Dit vergemakkelijkt het toewijzen van rollen in één keer aan een grote groep gebruikers.
-* [Uw rollen voor beveiliging op rijniveau (RLS) testen met rapporten op basis van gegevens van de RLS-implementatie](service-admin-rls.md#validating-the-role-within-power-bi-desktop): We hebben een functie aan de RLS-preview toegevoegd waarmee u uw gegevensset als een specifieke rol kunt testen. Hiermee zorgt u dat de functie werkt zoals verwacht voordat gebruikers met uw dashboard gaan werken.
+* [Uw rollen voor beveiliging op rijniveau (RLS) testen met rapporten op basis van gegevens van de RLS-implementatie](service-admin-rls.md#validate-the-roles-within-power-bi-desktop): We hebben een functie aan de RLS-preview toegevoegd waarmee u uw gegevensset als een specifieke rol kunt testen. Hiermee zorgt u dat de functie werkt zoals verwacht voordat gebruikers met uw dashboard gaan werken.
 * Beveiliging op rijniveau (RLS) definiëren en op cloudmodellen toepassen op basis van directe query's: U kunt nu RLS-regels maken en toepassen voor gegevensbronnen waarop directe query's kunnen worden uitgevoerd.
 
 ***Dashboards***
