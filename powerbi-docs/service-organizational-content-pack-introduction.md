@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3fa76b19e187f7a27dc8b9268dad4d9b5ab8f101
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f7e8d58e5fd738e5da678723ef239f5303be5070
+ms.sourcegitcommit: 54907bb59a5c31b25d368d83a0c4faa5e2f0db66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286376"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54838457"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Inleiding tot organisatie-inhoudspakketten in Power BI
 > [!NOTE]
@@ -41,8 +41,6 @@ De dashboards, rapporten en Excel-werkmappen hebben het kenmerk alleen-lezen, ma
 Wanneer een organisatie-inhoudspakket wordt gepubliceerd, wordt deze toegevoegd aan AppSource.  Dankzij deze centrale opslagplaats kunnen leden gemakkelijk door dashboards, rapporten en gegevenssets bladeren die voor hen zijn gepubliceerd en deze verkennen.  
 
 * Als u AppSource wilt weergeven, selecteert u **Gegevens ophalen** > **Mijn organisatie** > **Ophalen**.
-
-Meer informatie over [het zoeken en openen van organisatie-inhoudspakketten](consumer/end-user-content-pack.md).
 
 ## <a name="the-life-cycle-of-an-organizational-content-pack"></a>De levenscyclus van een organisatie-inhoudspakket
 Elke Power BI Pro-gebruiker kan organisatie-inhoudspakketten maken, publiceren en open. Alleen de maker van het inhoudspakket kan de werkmap en gegevensset aanpassen, volgens een ingesteld schema vernieuwen en verwijderen.
