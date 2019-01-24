@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/21/2018
-ms.openlocfilehash: bfe3421b2c2328ee65cb8f34b43b34de8fe98723
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 03b18d4d603b09d34dd3f99decc841c3bae934f4
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280212"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394847"
 ---
 # <a name="certified-custom-visuals"></a>Gecertificeerde aangepaste visuals
 
@@ -74,6 +74,10 @@ Een aangepast visueel element indienen voor certificering:
 | Koppeling naar AppSource | Koppeling naar video |
 | --- | --- |
 | [3AG Systems - Kolomdiagram met relatieve afwijking](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381803) | |
+| [Geavanceerde ringvisual](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381941) | |
+| [Geavanceerde netwerkvisualisatie](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381942) | |
+| [Geavanceerde TimeSeries-visual](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381943) | |
+| [Geavanceerde combinatievisual](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381944) | |
 | [Asterdiagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759) | |
 | [Beyondsoft-agenda](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381096) | |
 | [Vlinderdasdiagram door MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380838) | [Video](https://youtu.be/So5xKMSpVJI) |

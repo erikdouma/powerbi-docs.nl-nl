@@ -1,6 +1,6 @@
 ---
-title: Veelgestelde vragen voor Power BI-klanten
-description: Veelgestelde vragen over Power BI
+title: Veelgestelde vragen van eindgebruikers over Power BI
+description: Dit artikel bevat een lijst met veelgestelde vragen en antwoorden over de Power BI-service en de mobiele Power BI-apps.
 author: mihart
 manager: kvivek
 ms.custom: seodec18
@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/21/2018
+ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: b292e6df7cb01e26b610ffb99ec5b794df933bfa
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 8eb428857e98a696ffb368c729525acd80e268f2
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287570"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394781"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Veelgestelde vragen over Power BI
 * Als u andere vragen hebt, kunt u deze stellen [in de Power BI-community](http://community.powerbi.com/).
@@ -41,7 +41,7 @@ Zie [Veelgestelde vragen over Power BI Premium](../service-premium-faq.md) als u
 U kunt een rapport van Azure Active Directory genereren voor Power BI om de actieve gebruikers binnen uw organisatie te zien. Het Azure AD-rapport geeft niet aan welk type licentie elke gebruiker heeft. U ziet alleen welke gebruikers zich hebben geregistreerd voor Power BI en wanneer ze hebben ingelogd. Zie [Power BI-gebruikers vinden die zich hebben geregistreerd](../service-admin-access-usage.md) voor meer informatie.
 
 ## <a name="what-is-power-bi-desktop"></a>Wat is Power BI Desktop?
-Power BI Desktop is een gratis desktop-app die u gewoon op uw eigen computer kunt installeren. Power BI Desktop werkt nauw samen met de Power BI-service om functies te bieden voor geavanceerde verkenning, vormgeving, modellering en rapportage van gegevens, dit alles met behulp van zeer interactieve visualisaties. U kunt uw werk opslaan in een bestand, en uw gegevens en rapporten direct naar uw Power BI-site publiceren om deze met anderen te delen. Meer informatie over [Wat is Power BI Desktop](../desktop-what-is-desktop.md).
+Power BI Desktop is een gratis toepassing die u gewoon op uw eigen computer kunt installeren. Power BI Desktop werkt samen met Power BI-service.  Gegevenswetenschappers, beheerders en ontwikkelaars werken met Power BI Desktop om rapporten te maken en beschikbaar te stellen voor Power BI-servicegebruikers, zoals u. Meer informatie over [Wat is Power BI Desktop](../desktop-what-is-desktop.md).
 
 ## <a name="what-do-i-need-to-use-power-bi-service"></a>Wat heb ik nodig om Power BI-service te gebruiken?
 Alleen een webbrowser en een e-mailadres van uw werk. U kunt zich aanmelden met een .gov- en een .mil-e-mailadres. Zie [Uw Amerikaanse overheidsorganisatie registreren in Power BI-service](../service-govus-signup.md) voor meer informatie 
@@ -49,14 +49,8 @@ Alleen een webbrowser en een e-mailadres van uw werk. U kunt zich aanmelden met 
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>Waarom moet ik me registreren met een e-mailadres van het werk?
 Power BI biedt geen ondersteuning voor e-mailadressen die worden geleverd door e-mailservices voor consumenten of telecomproviders. Lees hier meer over het [selfservice-registratieproces van Power BI](../service-self-service-signup-for-power-bi.md).
 
-## <a name="is-power-bi-available-on-premises"></a>Is Power BI on-premises beschikbaar?
-De Power BI-service [https://powerbi.com](https://powerbi.com) is niet beschikbaar als persoonlijke, interne cloudservice. U hebt echter drie mogelijkheden om gegevens on-premises weer te geven en te manipuleren. 
-
-### <a name="on-premises-data-gateway"></a>On-premises gegevensgateway
-Met Power BI en Power BI Desktop kunt u een veilige verbinding tot stand brengen met uw eigen on-premises gegevensbronnen. Met de [on-premises gegevensgateway](../service-gateway-onprem.md) kunt u een liveverbinding maken met uw on-premises SQL Server Analysis Services-server en met andere gegevensbronnen. U kunt ook geplande vernieuwingsintervallen instellen met een gecentraliseerde gateway. Als er geen gateway beschikbaar is, kunt u gegevens uit on-premises gegevensbronnen vernieuwen via de [persoonlijke Power BI-gateway](../service-gateway-personal-mode.md).
-
-### <a name="power-bi-mobile-apps"></a>Power BI - Mobiel-apps
-Gebruik de mobiele Power BI-apps om [on-premises Power BI-rapporten, mobiele rapporten van Reporting Services en KPI's weer te geven](mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md).
+## <a name="is-government-academic-and-nonprofit-pricing-available-for-power-bi"></a>Zijn er speciale prijzen voor overheid, onderwijs en non-profitorganisaties beschikbaar voor Power BI?
+Ja, er zijn speciale prijzen voor non-profitorganisaties die rechtstreeks kopen bij Microsoft. Ga voor meer informatie en registratie naar de site [Microsoft voor non-profitorganisaties](https://www.microsoft.com/en-us/nonprofits/power-bi). Prijzen voor overheids- en onderwijsinstellingen worden aangeboden via de MOSP/Direct-, EA- en open-licentieprogramma's. Overheidsprijzen zijn ook beschikbaar via syndicatie. 
 
 ## <a name="does-power-bi-support-mobile-devices"></a>Biedt Power BI ondersteuning voor mobiele apparaten?
 Ja. Power BI heeft systeemeigen apps voor Android-telefoons en -tablets, iOS-apparaten en Windows 10-apparaten. Download een van de [mobiele Power BI-apps](https://powerbi.microsoft.com/mobile) uit de betreffende Store:  
@@ -97,7 +91,12 @@ U kunt licenties voor Power BI Pro rechtstreeks kopen of chatten met een vertege
 
 U kunt ook een [Microsoft-partner](https://partner.microsoft.com/) zoeken om u te helpen met uw Power BI-implementatie.
 
-## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Voldoet Power BI aan nationale, regionaal en branchespecifieke nalevingsvereisten?
+## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>Wat gebeurt er als mijn Power BI Pro-licentie is verlopen?
+Er is een respijtperiode na het verstrijken van een licentie voor Power BI Pro. Voor licenties die deel uitmaken van een volumelicentie-aankoop, is de respijtperiode 90 dagen. Als u de licentie rechtstreeks hebt aangeschaft, bedraagt ​​de respijtperiode 30 dagen.
+
+Power BI Pro heeft dezelfde levenscyclus van abonnementen als Office 365. Zie [Wat gebeurt er met mijn gegevens en toegang wanneer mijn abonnement op Office 365 voor bedrijven eindigt?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3) voor meer informatie.
+
+## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Voldoet Power BI aan nationale, regionale en branchespecifieke nalevingsvereisten?
 Lees meer over Power BI-naleving in het [Microsoft Vertrouwenscentrum](http://go.microsoft.com/fwlink/?LinkId=785324).
 
 ## <a name="where-can-i-learn-more-about-security"></a>Waar vind ik meer informatie over beveiliging?

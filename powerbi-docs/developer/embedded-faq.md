@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 12/20/2018
-ms.openlocfilehash: f9e33e78a5cd1141a09eaf226f41a3f52aaebab7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 01/17/2018
+ms.openlocfilehash: cd32b644205629ce62579f5a720d486f93073dea
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284053"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394723"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Veelgestelde vragen over Power BI Embedded
 
@@ -47,7 +47,7 @@ Power BI Embedded is voor ISV's of ontwikkelaars die toepassingen bouwen en visu
 
 De aanbeveling van Microsoft is dat ondernemingen Power BI Premium kopen, een hoogwaardige cloudoplossing voor BI met selfservice, en dat ISV's Power BI Embedded kopen, vanuit de cloud ingesloten componenten voor analytische gegevens. Er zijn echter geen beperkingen voor welk product een klant kan kopen.
 
-Er zijn misschien enkele situaties waarin een ISV (meestal groot) een P-SKU wil gebruiken om te beschikken over de extra voordelen van de vooraf verpakte Power BI-service binnen hun organisatie, maar ook elementen wil insluiten in hun toepassingen. Voor sommige ondernemingen kan het een goed idee zijn gebruik te maken van. A-SKU's in Azure als ze alleen geïnteresseerd zijn in het bouwen van Line-Of-Business-toepassingen met ingesloten analytische gegevens en niet in het gebruik van de vooraf verpakte Power BI-service.
+Er zijn misschien enkele situaties waarin een ISV (meestal groot) een P-SKU wil gebruiken om te beschikken over de extra voordelen van de vooraf verpakte Power BI-service binnen hun organisatie, maar ook elementen wil insluiten in hun toepassingen. Voor sommige ondernemingen is het wellicht verstandig gebruik te maken van A-SKU's in Azure als ze alleen geïnteresseerd zijn in het bouwen van Line-Of-Business-toepassingen met ingesloten analytische gegevens en niet in het gebruik van de vooraf verpakte Power BI-service.
 
 ### <a name="how-many-embed-tokens-can-i-create"></a>Hoeveel insluitingstokens kan ik maken?
 
@@ -59,7 +59,7 @@ Insluitingstokens met een PRO-licentie zijn bedoeld voor ontwikkelingstesten, du
 
 PowerBI.com is een bedrijfsoplossing die veel mogelijkheden biedt, zoals sociale samenwerking, e-mailabonnementen enzovoort, in een SaaS-aanbieding (Software as a Service).
 
-Power BI Embedded bestaat uit een set API's die beschikbaar zijn voor ontwikkelaars voor het maken van een ingesloten oplossing voor analytische gegevens in een PaaS-aanbieding (Platform als een Service). Voor het scenario met ingesloten analytische gegevens moet PowerBI.com worden gebruikt om ISV's en ontwikkelaars te helpen bij het beheer van de inhoud van hun ingesloten oplossing voor analytische gegevens en instellingen op tenantniveau.
+Power BI Embedded bestaat uit een set API's die beschikbaar zijn voor ontwikkelaars voor het maken van een ingesloten oplossing voor analytische gegevens in een PaaS-aanbieding (Platform als een Service). Voor het scenario met ingesloten analytische gegevens wordt PowerBI.com gebruikt om ISV's en ontwikkelaars te helpen bij het beheer van de inhoud van hun ingesloten oplossing voor analytische gegevens en instellingen op tenantniveau.
 
 Hier volgt een (niet volledige) lijst met verschillen tussen de versies.
 
@@ -106,9 +106,9 @@ Hoewel er op dit moment nog geen functie voor automatisch schalen is, zijn alle 
 
 Het inrichten van een capaciteit (schalen/hervatten/maken) mislukt mogelijk. De aanroeper van de inrichtingsaanroep moet de ProvisioningState van een capaciteit controleren met de API voor gegevens ophalen: [Capaciteiten - Details ophalen](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails).
 
-### <a name="why-can-i-only-create-pbie-in-a-specific-region"></a>Waarom kan ik PBIE alleen in een bepaalde regio maken?
+### <a name="can-i-only-create-power-bi-embedded-capacities-in-a-specific-region"></a>Kan ik Power BI Embedded-capaciteiten alleen maken in een specifieke regio?
 
-U kunt alleen PBIE-capaciteiten voor uw PBI-tenantregio maken.
+Met de functie [Meerdere geografische gebieden (preview)](embedded-multi-geo.md) kunt u een [Power BI Embedded-capaciteit](azure-pbie-create-capacity.md) aanschaffen in een andere regio dan uw Power BI-tenantlocatie
 
 ### <a name="how-can-i-find-what-is-my-pbi-tenant-region"></a>Waar kan ik zien wat mijn PBI-tenantregio is?
 
@@ -232,7 +232,7 @@ De facturering voor Power BI Embedded vindt plaats volgens een voorspelbaar uurt
 
 ### <a name="who-needs-a-power-bi-pro-license-for-power-bi-embedded-and-why"></a>Wie moet een Power BI Pro-licentie voor Power BI Embedded hebben en waarom?
 
-Een licentie voor Power BI Pro is vereist voor analisten die rapporten moeten toevoegen aan een Power BI-werkruimte, ontwikkelaars die de REST-API's willen gebruiken en tenantbeheerders die de Power BI-tenant en -capaciteit moeten beheren.
+Elke analist die rapporten aan een Power BI-werkruimte moet toevoegen, heeft een Power BI-licentie nodig. Elke ontwikkelaar die REST API's gebruikt, heeft een Power BI Pro-licentie nodig. Elke tenantbeheerder die de Power BI-tenant en -capaciteit moet beheren, moet over een Power BI Pro-licentie beschikken.
 
 Omdat Power BI Embedded het gebruik van de Power BI-portal toestaat voor het beheren en valideren van ingesloten inhoud, is de Power BI Pro-licentie vereist voor het verifiëren van de app in PowerBI.com voor toegang tot de rapporten in de juiste opslagplaatsen.
 
@@ -279,7 +279,7 @@ Ja, maar de klanten die al gebruikmaken van de oplossing **Power BI-werkruimteve
 
 Dit betekent echter wel dat er geen nieuwe functies worden toegevoegd aan de oplossingen voor de **Power BI-werkruimteverzameling** en dat klanten wordt aangeraden de migratie naar de nieuwe **Power BI Embedded**-oplossing te plannen.
 
-### <a name="when-will-power-bi-workspace-collection-support-be-discontinued"></a>Wanneer wordt ondersteuning voor de Power BI-werkruimteverzameling stopgezet?
+### <a name="when-is-power-bi-workspace-collection-support-discontinued"></a>Wanneer wordt ondersteuning voor de Power BI-werkruimteverzameling stopgezet?
 
 Klanten die al gebruikmaken van de oplossing voor de **Power BI-werkruimteverzamelingen** kunnen deze blijven gebruiken tot eind juni 2018 of tot het einde van de ondersteuningsovereenkomst.
 

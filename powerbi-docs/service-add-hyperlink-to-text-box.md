@@ -1,25 +1,25 @@
 ---
 title: Een hyperlink toevoegen aan een tekstvak in een rapport
 description: Een hyperlink toevoegen aan een tekstvak in de Power BI-service en Power BI Desktop
-author: mihart
-manager: kvivek
+author: maggiesMSFT
+manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/23/2018
-ms.author: mihart
+ms.date: 01/16/2019
+ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6b438b9d9e66d336b94122fe96a707f0602261b4
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 6484046f6c69f47e01e14b56c38c4c9a5871b28b
+ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277989"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "54406587"
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>Een hyperlink toevoegen aan een tekstvak in een rapport
-U kunt tekstvakken toevoegen aan rapporten, vanuit rapporten vastmaken aan dashboards en rechtstreeks aan dashboards toevoegen. U kunt altijd hyperlinks aan een tekstvak toevoegen, ongeacht waar het tekstvak zich bevindt.  
+U kunt tekstvakken aan rapporten toevoegen, deze vanuit rapporten vastmaken aan dashboards en rechtstreeks aan dashboards toevoegen. Waar het tekstvak ook is, u kunt er altijd een hyperlink aan toevoegen.  
 
 > **OPMERKING**: zie [Hyperlinks in tabellen](power-bi-hyperlinks-in-tables.md) voor meer informatie over hyperlinks in Power BI-tabellen en -matrices. Zie [Rechtstreeks een tegel vanaf het dashboard toevoegen](service-dashboard-add-widget.md) voor meer informatie over het toevoegen van de tekstvakken aan uw **dashboard**. 
 > 
@@ -30,26 +30,26 @@ U kunt tekstvakken toevoegen aan rapporten, vanuit rapporten vastmaken aan dashb
 
 ## <a name="to-add-a-hyperlink-to-a-text-box-in-a-report"></a>Een hyperlink toevoegen aan een tekstvak in een rapport
 1. [Maak een tekstvak en voeg tekst toe](power-bi-reports-add-text-and-shapes.md). 
-2. Markeer de bestaande tekst of voeg nieuwe tekst toe die u wilt gebruiken als hyperlink.
+2. Selecteer de bestaande tekst of voeg nieuwe tekst toe die u wilt gebruiken als hyperlink.
    
-   ![](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-new.png)
-3. Selecteer het hyperlinkpictogram ![](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-icon.png).
+   ![Selecteer tekst in het tekstvak](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-new.png)
+3. Selecteer het hyperlinkpictogram ![Hyperlinkpictogram](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-icon.png).
 4. Typ of plak de URL in het hyperlinkveld en selecteer **Gereed**.
    
-   ![](media/service-add-hyperlink-to-text-box/power-bi-add-link.png)
+   ![Typ of plak de URL in het hyperlinkveld](media/service-add-hyperlink-to-text-box/power-bi-add-link.png)
 5. Test de koppeling.  
    
-   ![](media/service-add-hyperlink-to-text-box/power-bi-test-link.png)
+   ![Test de koppeling](media/service-add-hyperlink-to-text-box/power-bi-test-link.png)
    
    * Plaats de cursor op een willekeurige plek in de geselecteerde tekst om de URL weer te geven.  
      
-      ![](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-edit.png)
+      ![Plaats de cursor op een willekeurige plek in de geselecteerde tekst](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-edit.png)
    * Selecteer de URL om de pagina te openen in een nieuw browservenster.
 
 ## <a name="to-remove-the-hyperlink-but-leave-the-text"></a>De hyperlink verwijderen maar de tekst behouden
 1. Selecteer de hyperlink in het tekstvak om deze te markeren.
    
-     ![](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-remove.png)
+     ![De hyperlink verwijderen](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-remove.png)
 2. Kies **Verwijderen**. 
 
 ## <a name="next-steps"></a>Volgende stappen

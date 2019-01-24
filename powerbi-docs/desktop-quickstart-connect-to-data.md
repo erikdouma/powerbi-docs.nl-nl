@@ -10,12 +10,12 @@ ms.topic: quickstart
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: 4b8cd79eca1711b424d772737b27400f9291cef0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 4d121a469257c79e37212ab0e357bb9ee8be68ec
+ms.sourcegitcommit: 19b4d45db8f55cdbb5d7de0d61f6be5163a2852e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279200"
+ms.lasthandoff: 01/22/2019
+ms.locfileid: "54420781"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>Quickstart: Verbinding maken met gegevens in Power BI Desktop
 
@@ -28,7 +28,7 @@ Als u zich niet hebt geregistreerd voor Power BI, kunt u zich hier [aanmelden vo
 ## <a name="prerequisites"></a>Vereisten
 
 U hebt het volgende nodig om de stappen in dit artikel te voltooien:
-* Download en installeer **Power BI Desktop**, een gratis toepassing die wordt uitgevoerd op de lokale computer. U kunt [**Power BI Desktop**](https://powerbi.microsoft.com/desktop) rechtstreeks downloaden of u kunt de toepassing downloaden in [de **Microsoft Store**](http://aka.ms/pbidesktopstore).
+* Download en installeer **Power BI Desktop**, een gratis toepassing die wordt uitgevoerd op de lokale computer. U kunt [**Power BI Desktop**](https://powerbi.microsoft.com/desktop) rechtstreeks downloaden of u kunt de toepassing downloaden vanuit [de **Microsoft Store**](http://aka.ms/pbidesktopstore).
 * [Download deze Excel-voorbeeldwerkmap](http://go.microsoft.com/fwlink/?LinkID=521962) en maak een map met de naam *C:\PBID-qs* waar u het Excel-bestand kunt opslaan. Bij de volgende stappen in deze snelstart wordt ervan uitgegaan dat dit de bestandslocatie is voor de gedownloade Excel-werkmap.
 
 ## <a name="launch-power-bi-desktop"></a>Power BI Desktop starten
@@ -39,13 +39,13 @@ Zodra u **Power BI Desktop** installeert, start u de toepassing zodat deze wordt
 
 ## <a name="connect-to-data"></a>Verbinding maken met gegevens
 
-Met **Power BI Desktop** kunt u verbinding maken met veel verschillende typen gegevens. U kunt verbinding maken met basisgegevensbronnen zoals een Microsoft Excel-bestand, en u kunt verbinding maken met onlineservices die allerlei soorten gegevens bevatten, zoals Salesforce, Microsoft Dynamics, Azure Blob Storage en nog veel meer. 
+Met **Power BI Desktop** kunt u verbinding maken met veel verschillende typen gegevens. U kunt verbinding maken met basisgegevensbronnen zoals een Microsoft Excel-bestand, en u kunt verbinding maken met onlineservices die allerlei soorten gegevens bevatten, zoals Salesforce, Microsoft Dynamics, Azure Blob Storage en nog veel meer.
 
 Als u verbinding wilt maken met gegevens, selecteert u **Gegevens ophalen** op het lint **Start**.
 
 ![Gegevens ophalen](media/desktop-quickstart-connect-to-data/qs-connect-data_02.png)
 
-Het venster **Gegevens ophalen** verschijnt, waar u kunt kiezen uit veel verschillende gegevensbronnen waarmee **Power BI Desktop** verbinding kan maken. In deze snelstart gebruiken we de Excel-werkmap die u hebt gedownload, zoals beschreven in de sectie *Vereisten* aan het begin van dit artikel. 
+Het venster **Gegevens ophalen** verschijnt, waar u kunt kiezen uit veel verschillende gegevensbronnen waarmee **Power BI Desktop** verbinding kan maken. In deze snelstart gebruiken we de Excel-werkmap die u hebt gedownload, zoals beschreven in de sectie *Vereisten* aan het begin van dit artikel.
 
 ![Gegevens ophalen](media/desktop-quickstart-connect-to-data/qs-connect-data_03.png)
 
@@ -69,10 +69,8 @@ Zodra u de tabellen hebt geladen, worden de gegevens weergegeven in het deelvens
 
 Dat is alles. U hebt verbinding gemaakt met de gegevens in **Power BI Desktop**, de gegevens geladen, en nu ziet u alle beschikbare velden in deze tabellen.
 
-
 ## <a name="next-steps"></a>Volgende stappen
+
 U kunt verschillende dingen doen met **Power BI Desktop** zodra u verbinding hebt gemaakt met gegevens, zoals visualisaties en rapporten maken. Bekijk de volgende resource om u te helpen aan de slag te gaan:
 
 * [Introductiehandleiding voor Power BI Desktop](desktop-getting-started.md)
-
-

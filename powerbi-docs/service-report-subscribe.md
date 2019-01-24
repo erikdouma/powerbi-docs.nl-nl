@@ -1,22 +1,22 @@
 ---
 title: Abonneren op rapporten en dashboards in de Power BI-service
-description: Leer hoe u uzelf en anderen kunt abonneren op een momentopname van een Power BI-rapport en -dashboard.
-author: mihart
-manager: kvivek
+description: Leer hoe u zich kunt abonneren op een momentopname van een Power BI-rapport en -dashboard.
+author: maggiesMSFT
+manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/04/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: f813822b269a51e55947d73c5107675cbe428d96
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 73e89b0228a1adf78bf1676749f910c6d1866a81
+ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293805"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "54406633"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>Abonneren op een rapport of dashboard in de Power BI-service
 Het is nog nooit zo eenvoudig geweest om op de hoogte blijven van uw belangrijkste dashboards en rapporten. Abonneer u en uzelf op de rapportpagina's en dashboards die voor u het belangrijkst zijn, zodat u een e-mail van Power BI in uw postvak ontvangt met een momentopname. U geeft voor Power BI op hoe vaak u de e-mails wilt ontvangen: van één keer per dag tot één keer per week. 
