@@ -1,20 +1,21 @@
-## <a name="validating-the-role-within-power-bi-desktop"></a>De rol binnen Power BI Desktop valideren
-Nadat u uw rol hebt gemaakt, kunt u de resultaten van de rol testen binnen Power BI Desktop. Selecteer hiervoor **Als rollen weergeven**.
+## <a name="validate-the-roles-within-power-bi-desktop"></a>De rollen in Power BI Desktop valideren
+Nadat u uw rollen hebt gemaakt, kunt u de resultaten van de rollen testen binnen Power BI Desktop.
 
-![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-view-as-roles.png)
+1. Selecteer  **Als rollen weergeven**. 
 
-Met het dialoogenster **Als rollen weergeven** kunt u de weergave aanpassen van wat u ziet voor die specifieke gebruiker of rol. U kunt de rollen die u gemaakt hebt zien.
+    ![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-view-as-roles.png)
 
-![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-view-as-roles-dialog.png)
+    In **Als rollen weergeven** kunt u de rollen zien die u hebt gemaakt.
 
-Selecteer de rol die u hebt gemaakt en selecteer vervolgens **OK** om de rol toe te passen op wat u aan het bekijken bent. De rapporten geven alleen de gegevens weer die relevant zijn voor die rol.
+    ![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-view-as-roles-dialog.png)
 
-U kunt ook **Andere gebruiker** selecteren en een bepaalde gebruiker opgeven. Het is het beste om de User Principal Name (UPN) op te geven omdat deze door de Power BI-services wordt gebruikt. Selecteer **OK**. De rapporten worden weergegeven op basis van wat de gebruiker kan zien. 
+3. Selecteer een rol die u hebt gemaakt > **OK** om die rol toe te passen. De rapporten geven de gegevens weer die relevant zijn voor die rol. 
 
-![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-other-user.png)
+4. U kunt ook **Andere gebruiker** selecteren en een bepaalde gebruiker opgeven. U kunt het beste de User Principal Name (UPN) opgeven, omdat die door de Power BI-service Power BI Report Server wordt gebruikt.
 
-> [!NOTE]
-> Binnen Power BI Desktop worden hiermee alleen verschillende resultaten weergegeven wanneer u dynamische beveiliging gebruikt op basis van uw DAX-expressies.
-> 
-> 
+    ![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-other-user.png)
+
+1. Selecteer  **OK**  en het rapport wordt weergegeven op basis van wat de gebruiker kan zien. 
+
+Binnen Power BI Desktop geeft **Andere gebruiker** alleen verschillende resultaten weer wanneer u dynamische beveiliging gebruikt op basis van uw DAX-expressies. 
 

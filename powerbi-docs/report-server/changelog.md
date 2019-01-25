@@ -9,18 +9,41 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: edf953f2512550660fd914d2fe54c28dcd01fa24
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 18a2d6833f0013f95ac0a5dea5f1930e5b666dd6
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292026"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488863"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Wijzigingenlogboek voor Power BI Report Server
 
 Dit is een wijzigingenlogboek voor Power BI Report Server met een overzicht van nieuwe items en oplossingen voor problemen voor elke uitgebrachte build.
 
 Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerde informatie over nieuwe functies. 
+
+## <a name="january-2019"></a>Januari 2019
+- **Power BI Report Server**            
+    - *Versie 1.4.6960.38798 (build 15.0.1102.222), uitgebracht: 22 januari, 2019*
+        - Functies
+            - Power BI-rapporten 
+                - Ondersteuning voor beveiliging op rijniveau
+                - Uitvouwen of samenvouwen op rijkoppen van matrix
+                - Kopiëren en plakken tussen .pbix-bestanden
+                - Slimme uitlijningshulplijnen
+                - Ondersteuning voor SAP BW 2.0-connector
+            - Beheerders
+                - Mogelijkheid om extensies van resources te beperken die kunnen worden geüpload naar de rapportserver
+                - Mogelijkheid om ondersteunde hyperlinkschema's te beperken
+        - Opgeloste fouten
+            - Beveiligingsprobleem met HTML-injectie
+            - Exporteren naar PDF geeft geen euroteken weer
+            - Door het opslaan van een wachtwoord met meerdere gegevensbronnen in Power BI-rapporten worden niet-gewijzigde wachtwoorden ongeldig
+            - Visuele elementen geven problemen weer in Mobiele Power BI-app na inactiviteit
+
+- **Power BI Report (geoptimaliseerd voor Power BI Report Server)**
+    - *Versie: 2.65.5313.1421 (januari 2019), uitgebracht: 22 januari, 2019*
+        - Bevat de vereiste wijzigingen om verbinding te maken met Power BI Report Server (januari 2019)  
 
 ## <a name="august-2018"></a>Augustus 2018
 - **Power BI Report Server**

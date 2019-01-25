@@ -1,7 +1,7 @@
-## <a name="define-roles-and-rules-within-power-bi-desktop"></a>Rollen en regels definiëren binnen Power BI Desktop
+## <a name="define-roles-and-rules-in-power-bi-desktop"></a>Rollen en regels definiëren in Power BI Desktop
 U kunt rollen en regels definiëren binnen Power BI Desktop. Wanneer u naar Power BI publiceert, worden ook de roldefinities gepubliceerd.
 
-Voor het definiëren van rollen kunt u het volgende doen.
+Volg deze stappen om beveiligingsrollen te definiëren.
 
 1. Gegevens importeren in uw Power BI Desktop-rapport of een DirectQuery-verbinding configureren.
    
@@ -9,8 +9,8 @@ Voor het definiëren van rollen kunt u het volgende doen.
    > U kunt geen rollen binnen Power BI Desktop definiëren voor live verbindingen met Analysis Services. U moet dat doen binnen het Analysis Services-model.
    > 
    > 
-2. Selecteer het tabblad **Modellering**.
-3. Selecteer **Rollen beheren**.
+1. Selecteer het tabblad **Modellering**.
+2. Selecteer **Rollen beheren**.
    
    ![](./media/rls-desktop-define-roles/powerbi-desktop-security.png)
 4. Selecteer **Maken**.
@@ -21,7 +21,7 @@ Voor het definiëren van rollen kunt u het volgende doen.
 7. Voer de DAX-expressies in. De expressie moet waar of onwaar retourneren. Bijvoorbeeld: [Entiteit-id] = “Waarde”.
    
    > [!NOTE]
-   > U kunt *username()* binnen deze expressie gebruiken. Let op: *username()* heeft de indeling *DOMAIN\username* binnen Power BI Desktop. Binnen de Power BI-service heeft dit de indeling van de UPN van de gebruiker. U kunt ook *userprincipalname()* gebruiken waarmee altijd de gebruiker wordt geretourneerd in de indeling van zijn/haar user principal name.
+   > U kunt *username()* binnen deze expressie gebruiken. Let op: *username()* heeft de indeling *DOMAIN\username* binnen Power BI Desktop. Binnen de Power BI-service en Power BI Report Server heeft deze de indeling van de UPN (User Principal Name) van de gebruiker. U kunt ook *userprincipalname()* gebruiken waarmee altijd de gebruiker wordt geretourneerd in de indeling van zijn/haar user principal name, *username@contoso.com*.
    > 
    > 
    
@@ -31,5 +31,5 @@ Voor het definiëren van rollen kunt u het volgende doen.
    ![](./media/rls-desktop-define-roles/powerbi-desktop-security-validate-dax.png)
 9. Selecteer **Opslaan**.
 
-U kunt geen rol toewijzen aan gebruikers binnen Power BI Desktop. Dit moet binnen de Power BI-service worden gedaan. U kunt dynamische beveiliging inschakelen binnen Power BI Desktop door gebruik te maken van de DAX-functies voor *username()* of *userprincipalname()* en het configureren van de juiste relaties.
+U kunt geen rol toewijzen aan gebruikers binnen Power BI Desktop. U wijst deze toe in de Power BI-service. U kunt dynamische beveiliging inschakelen binnen Power BI Desktop door gebruik te maken van de DAX-functies voor *username()* of *userprincipalname()* en het configureren van de juiste relaties. 
 

@@ -8,31 +8,47 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 08/16/2018
-ms.openlocfilehash: 91179ca37b8ba5c883785501588c9b12a02d644d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 01/22/2019
+ms.openlocfilehash: 2a65baf94abcb79dac7bb9419ad67124f2b65bb8
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292448"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488932"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Wat is er nieuw in Power BI Report Server
 
 Meer informatie over wat er nieuw is in Power BI Report Server. Dit artikel gaat over de primaire functiegebieden. Het wordt bijgewerkt wanneer nieuwe items worden uitgebracht.
 
-Ga naar [On-premises rapportage met Power BI Report Server](https://powerbi.microsoft.com/report-server/) om Power BI Report Server en de geoptimaliseerde versie van Power BI Desktop voor Power BI Report Server te downloaden.
-
-Raadpleeg deze bronnen om op de hoogte te blijven van nieuwe functies in Power BI Report Server.
-
-* [Microsoft Power BI-blog](https://powerbi.microsoft.com/blog/)
-* [SQL server reporting services-teamblog](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
-* [YouTube-kanaal Guy in a Cube](https://aka.ms/guyinacube)
+Ga naar [On-premises rapportage met Power BI Report Server](https://powerbi.microsoft.com/report-server/) om de nieuwste versies van Power BI Report Server en de geoptimaliseerde versie van Power BI Desktop voor Power BI Report Server te downloaden.
 
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden in Power BI:
 
 * [What's new in the Power BI service](../service-whats-new.md) (Wat is er nieuw in de Power BI-service)
 * [Wat is er nieuw in Power BI Desktop](../desktop-latest-update.md)
 * [Wat is er nieuw in de mobiele apps voor Power BI](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
+
+## <a name="january-2019"></a>Januari 2019
+
+Ondersteuning voor deze functies in Power BI-rapporten:
+
+[**Beveiliging op rijniveau** ](row-level-security-report-server.md) Het instellen van beveiliging op rijniveau (RLS) met Power BI Report Server kan toegang tot gegevens beperken voor bepaalde gebruikers. Filters beperken de toegang tot gegevens op rijniveau en u kunt filters definiëren in rollen.
+
+[**Uitvouwen of samenvouwen op rijkoppen van matrix** ](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#expandCollapse) We hebben de mogelijkheid toegevoegd om afzonderlijke rijkoppen uit te vouwen en samen te vouwen, een van de meest aangevraagde visuele functies.
+
+[**Kopiëren en plakken tussen .pbix-bestanden**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#copyPaste) U kunt visuele elementen kopiëren tussen .pbix-bestanden, vanuit het contextmenu van het visuele element of met de standaardsneltoets Ctrl + C, en deze elementen in een ander rapport plakken met Ctrl + V.
+
+[**Slimme uitlijningshulplijnen**](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) U ziet slimme uitlijningshulplijnen wanneer u objecten verplaatst op de rapportpagina, net als in PowerPoint. De hulplijnen helpen om alles op de pagina uit te lijnen. U ziet de slimme hulplijnen telkens wanneer u iets sleept of vergroot/verkleint op de pagina. Wanneer u een object in de buurt van een ander plaatst, klikt het automatisch vast op een positie die is uitgelijnd met het andere object.
+
+**Toegankelijkheidsfuncties** Te veel toegankelijkheidsfuncties om op te noemen: een voorbeeld is [toegankelijkheidsondersteuning voor het lijstdeelvenster met velden](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList). Het lijstdeelvenster met velden is volledig toegankelijk. U kunt navigeren in het deelvenster met behulp van alleen het toetsenbord en een schermlezer en het contextmenu gebruiken om velden toe te voegen aan de rapportpagina.
+
+### <a name="administrator-settings"></a>Beheerdersinstellingen
+
+Beheerders kunnen de volgende eigenschappen instellen in geavanceerde SSMS-eigenschappen voor de serverfarm:
+
+**AllowedResourceExtensionsForUpload** Extensies van resources instellen die kunnen worden geüpload naar de rapportserver. Extensies voor ingebouwde bestandstypen als &ast;.rdl en &ast;.pbix hoeven niet te worden opgenomen. Standaard is '&ast;, &ast;.xml, &ast;.xsd, &ast;.xsl, &ast;.png, &ast;.gif, &ast;.jpg, &ast;.tif, &ast;.jpeg, &ast;.tiff, &ast;.bmp, &ast;.pdf, &ast;.svg, &ast;.rtf, &ast;.txt, &ast;.doc, &ast;.docx, &ast;.pps, &ast;.ppt, &ast;.pptx'. 
+
+**SupportedHyperlinkSchemes** Stelt een door komma's gescheiden lijst met de URI-schema's in die kan worden gedefinieerd op de Hyperlink-acties die kunnen worden weergegeven of '&ast;' om alle hyperlink-schema's in te schakelen. Door 'http, https' in te stellen, worden bijvoorbeeld hyperlinks mogelijk naar 'https://www. contoso.com', maar worden hyperlinks naar 'mailto:bill@contoso.com' of 'javascript:window.open ('www.contoso.com', '_blank')' verwijderd. De standaardwaarde is '&ast;'.
 
 ## <a name="august-2018"></a>Augustus 2018
 
@@ -325,10 +341,10 @@ Power BI Report Server ondersteunt nu de nieuwe visuele Power BI-tabel en -matri
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[Wat is Power BI Report Server?](get-started.md) 
-[Handboek voor beheerders](admin-handbook-overview.md)  
-[Power BI Report Server installeren](install-report-server.md)  
-[Report Builder downloaden](https://www.microsoft.com/download/details.aspx?id=53613)  
-[SQL Server Data Tools (SSDT) downloaden](http://go.microsoft.com/fwlink/?LinkID=616714)
+Raadpleeg deze bronnen om op de hoogte te blijven van nieuwe functies in Power BI Report Server.
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+* [Microsoft Power BI-blog](https://powerbi.microsoft.com/blog/)
+* [SQL server reporting services-teamblog](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
+* [YouTube-kanaal Guy in a Cube](https://aka.ms/guyinacube)
+
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

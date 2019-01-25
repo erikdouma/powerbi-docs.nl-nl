@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/19/2018
+ms.date: 01/14/2019
 ms.author: maggies
-ms.openlocfilehash: 943e81c8c49a4a0707ed41b593093fc27a85a01e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1f7da83629b932d2e14fbc57682e0f7f7988739a
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295876"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488817"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren
 Meer informatie over het installeren van een voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop.
@@ -31,7 +31,7 @@ U kunt het snelste controleren of u over de meest recente versie van de voor Pow
 
     ![Power BI Desktop downloaden van de webportal](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    U kunt ook rechtstreeks naar [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=57271) (geoptimaliseerd voor Power BI Report Server, augustus 2018) gaan in het Microsoft Downloadcentrum.
+    U kunt ook rechtstreeks naar [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=57271) (geoptimaliseerd voor Power BI Report Server, januari 2019) gaan in het Microsoft Downloadcentrum.
 
 2. Selecteer **Downloaden** in het downloadcentrum.
 
@@ -41,7 +41,7 @@ U kunt het snelste controleren of u over de meest recente versie van de voor Pow
 
     - **PBIDesktopRS_x64.msi** (de 64-bits versie).
 
-1. Nadat u het installatieprogramma hebt gedownload, voert u de installatiewizard van Power BI Desktop (augustus 2018) uit.
+1. Nadat u het installatieprogramma hebt gedownload, voert u de installatiewizard van Power BI Desktop (januari 2019) uit.
 
 2. Selecteer aan het einde van de installatie de optie **Power BI Desktop nu starten**.
    
