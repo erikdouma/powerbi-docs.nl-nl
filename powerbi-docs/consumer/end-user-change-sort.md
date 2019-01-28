@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: Conceptual
-ms.date: 01/17/2019
+ms.date: 01/19/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: e648257ecd657b07d02fbff69a3424159b636059
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: 4fd49c3279c47139a0e15fbcc4729f39b0a59b78
+ms.sourcegitcommit: 54907bb59a5c31b25d368d83a0c4faa5e2f0db66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394690"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54838273"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Wijzigen hoe een diagram in een Power BI-rapport wordt gesorteerd
 In een Power BI-rapport kunt u de meeste visualisaties alfabetisch sorteren op namen of categorieën in het diagram, of op de numerieke waarde van elke categorie. Dit diagram is op de categorie **winkelnaam** gesorteerd.
@@ -30,7 +30,8 @@ U kunt de sortering eenvoudig wijzigen van een categorie (winkelnaam) in een waa
 
    ![Video waarin Sorteren op wordt weergegeven en vervolgens oplopend en aflopend](media/end-user-change-sort/sort.gif)
 
-   **OPMERKING**: Niet alle visuele elementen kunnen worden gesorteerd.  De volgende visuals kunnen niet worden gesorteerd: Treemap, overzicht, choropletenkaart, spreiding, meter, kaart, kaart met meerdere rijen, waterval.
+> [!NOTE]
+> Niet alle visuele elementen kunnen worden gesorteerd. De volgende visuals kunnen niet worden gesorteerd: Treemap, overzicht, choropletenkaart, spreiding, meter, kaart, kaart met meerdere rijen, waterval.
 
 ## <a name="saving-changes-you-make-to-sort-order"></a>Wijzigingen opslaan die u aan de sorteervolgorde hebt aangebracht
 Power BI-rapporten behouden de gemaakte wijzigingen in de filters, slicers, sorteervolgorde en gegevensweergave. Als u dus weg navigeert van een rapport en later terugkeert, worden uw wijzigingen opgeslagen.  Als u uw wijzigingen wilt terugzetten naar de instellingen van de maker van het rapport, selecteert u **Standaardinstelling herstellen** in de bovenste menubalk. 
