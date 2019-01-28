@@ -73,7 +73,7 @@ Selecteer vervolgens **Opslaan** en het definitiebestand en de gegevens van een 
 
 ## <a name="get-the-uri-of-stored-dataflow-files"></a>De URI van opgeslagen gegevensstroombestanden ophalen
 
-Zodra u een gegevensstroom in een werkruimte hebt gemaakt die is toegewezen aan het Azure Data Lake-account van uw organisatie, hebt u rechtstreeks toegang tot de definitie- en gegevensbestanden. De locatie ervan is beschikbaar op de pagina  **	Gegevensstroominstellingen**. Voer de volgende stappen uit om erheen te gaan:
+Zodra u een gegevensstroom in een werkruimte hebt gemaakt die is toegewezen aan het Azure Data Lake-account van uw organisatie, hebt u rechtstreeks toegang tot de definitie- en gegevensbestanden. De locatie ervan is beschikbaar op de pagina **Gegevensstroominstellingen**. Voer de volgende stappen uit om erheen te gaan:
 
 Selecteer het beletselteken **(...)** naast een gegevensstroom die in de werkruimte staat vermeld onder **Gegevensstromen**. Selecteer in het menu dat wordt weergegeven de optie **Instellingen**.
 
