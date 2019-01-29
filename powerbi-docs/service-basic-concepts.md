@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/18/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 487a67f48913ee774904377956eee85ccbae49fc
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 29e6fe1bfb5a85d2a5ea42db406d4a127a65ec25
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296680"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147445"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Basisconcepten voor ontwerpers in de Power BI-service
 
@@ -56,7 +56,7 @@ Raadpleeg het gedeelte **Uw werk delen** in de inhoudsopgave voor meer informati
 Laten we het nu hebben over de bouwblokken van Power BI. U kunt geen dashboards of rapporten maken zonder gegevens (u kunt uiteraard lege dashboards en rapporten maken, maar deze zijn pas bruikbaar wanneer ze gegevens bevatten). Laten we beginnen met **gegevenssets**.
 
 ## <a name="datasets"></a>Gegevenssets
-Een *gegevensset* is een verzameling gegevens die u *importeert* of waarmee u *verbinding* maakt. Met Power BI kunt u diverse soorten gegevenssets importeren of hier verbinding mee maken en alle gegevens samen te brengen op één locatie.  
+Een *gegevensset* is een verzameling gegevens die u *importeert* of waar u *verbinding* mee maakt. Met Power BI kunt u diverse soorten gegevenssets importeren of hier verbinding mee maken en alle gegevens samen te brengen op één locatie.  
 
 Gegevenssets zijn gekoppeld aan *werkruimten* en één gegevensset kan deel uitmaken van veel werkruimten. Wanneer u een werkruimte opent, worden de bijbehorende gegevenssets vermeld op het tabblad **Gegevenssets**. Elke vermelde gegevensset vertegenwoordigt één bron van gegevens, bijvoorbeeld een Excel-werkmap in OneDrive, een on-premises SSAS-gegevensset in tabelvorm of een Salesforce-gegevensset. Er worden diverse verschillende gegevensbronnen ondersteund en er worden voortdurend nieuwe bronnen toegevoegd. [Zie de lijst met typen gegevenssets die kunnen worden gebruikt met Power BI](service-get-data.md).
 
@@ -223,7 +223,6 @@ Dit gedeelte van het scherm bevat aanvullende opties voor interactie met de inho
 
 ## <a name="next-steps"></a>Volgende stappen
 - [Wat is Power BI?](power-bi-overview.md)  
-- [Navigatie: navigeren in de Power BI-service](service-the-new-power-bi-experience.md)
 - [Power BI-video's](videos.md)  
 - [De rapporteditor... Een rondleiding](service-the-report-editor-take-a-tour.md)
 
