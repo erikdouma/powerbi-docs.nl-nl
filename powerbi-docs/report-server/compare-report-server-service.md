@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 95055f19ed4187124d940e0fe7f70068dffc71c5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 4c7724baf63b1ff4e9e6f3d566da113557ab1b06
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289757"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234388"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparing Power BI Report Server and the Power BI service (Power BI Report Server vergelijken met de Power BI-service)
 
@@ -43,7 +43,7 @@ Power BI Report Server en de Power BI-service hebben veel overeenkomsten en een 
 | In Excel analyseren | Nee | Ja | [Analyseren in Excel](../service-analyze-in-excel.md) 
 | Gepagineerde rapporten | Ja | Ja | [Gepagineerde rapporten zijn beschikbaar in de Power BI-service](../paginated-reports-report-builder-power-bi.md) in preview in een Premium-capaciteit (Engelstalig)
 | Power BI - Mobiel-apps | Ja | Ja | [Overzicht van mobiele Power BI-apps](../consumer/mobile/mobile-apps-for-mobile-devices.md) 
-| ARC GIS-kaarten | Nee | Ja | [ArcGIS-kaarten in de Power BI-service en Power BI Desktop, door Esri](../power-bi-visualization-arcgis.md)
+| ARC GIS-kaarten | Nee | Ja | [ArcGIS-kaarten in de Power BI-service en Power BI Desktop, door Esri](../visuals/power-bi-visualization-arcgis.md)
 | E-mailabonnementen voor Power BI-rapporten | Nee | Ja | [Abonneren op een rapport of dashboard](../consumer/end-user-subscribe.md) in de Power BI-service 
 | E-mailabonnementen voor gepagineerde rapporten | Ja | Nee | [E-maillevering in Reporting Services](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  
 | Gegevensmeldingen | Nee | Ja | [Gegevensmeldingen in de Power BI-service](../service-set-data-alerts.md)
