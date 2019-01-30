@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/02/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a45ddbef861ad29f5823edee213b12af068d48eb
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 26c7c1b428f513fe2b79a3377085004506412604
+ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277222"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54899291"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Gegevensbronnen voor de Power BI-service
 Gegevens vormen de kern van Power BI. Wanneer u gegevens verkent, grafieken of dashboards maakt en vragen stelt met Q & A, halen al deze visualisaties en de antwoorden die u de hun onderliggende gegevens uit een gegevensset. Maar waar komt deze gegevensset vandaan? Deze komt uit een gegevensbron.
@@ -29,7 +29,7 @@ U kunt gegevens ophalen uit een van deze gegevensbronnen in Power BI door te kli
 ## <a name="files"></a>Bestanden
 ![](media/service-get-data/pbi_getdata_files.png)
 
-**Excel** (XLSX, xlxm) – Excel is uniek omdat een werkmap zowel gegevens kan bevatten die u zelf in de werkbladen hebt ingevoerd als gegevens die u opvraagt en laadt uit externe gegevensbronnen met Power Query (ophalen en transformeren in Excel 2016) of Power Pivot. U kunt gegevens importeren die in tabellen in de werkbladen staan (de gegevens *moeten* in een tabel zijn opgenomen), of gegevens importeren die worden geladen in een gegevensmodel. Zie [Gegevens ophalen vanuit Excel](service-get-data-from-files.md) voor meer informatie.
+**Excel** (xlsx, xlsm) - Excel is uniek omdat een werkmap zowel gegevens kan bevatten die u zelf in de werkbladen hebt ingevoerd als gegevens die u opvraagt en laadt uit externe gegevensbronnen met Power Query (ophalen en transformeren in Excel 2016) of Power Pivot. U kunt gegevens importeren die in tabellen in de werkbladen staan (de gegevens *moeten* in een tabel zijn opgenomen), of gegevens importeren die worden geladen in een gegevensmodel. Zie [Gegevens ophalen vanuit Excel](service-get-data-from-files.md) voor meer informatie.
 
 **Power BI Desktop** (pbix) - met Power BI Desktop kunt u gegevens opvragen en laden uit externe gegevensbronnen, uw gegevensmodel met metingen en relaties uitbreiden en rapporten maken. U kunt uw Power BI Desktop-bestand importeren in uw Power BI-site. Power BI Desktop wordt aanbevolen voor gevorderde gebruikers die een goede kennis hebben van hun gegevensbronnen, gegevensquery’s en -transformatie en concepten van gegevensmodellering. Zie [Verbinding maken met gegevens in Power BI Desktop](desktop-connect-to-data.md) voor meer informatie.
 

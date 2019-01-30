@@ -8,21 +8,21 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/19/2018
+ms.date: 01/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 70eb50c493c6828ca03b1161138e1a4f4b1fae8e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 51a99d59c74160d229c0d18defe2c5e7be4f48fb
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284411"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147399"
 ---
-# <a name="tour-of-the-report-editor-in-power-bi"></a>Rondleiding door de rapporteditor in Power BI
+# <a name="tour-the-report-editor-in-power-bi"></a>Rondleiding door de rapporteditor in Power BI
 
 De *rapporteditor* in de Power BI-service en de rapporteditor in Power BI Desktop zijn vergelijkbaar. In de video ziet u de rapporteditor in Power BI Desktop en in dit artikel ziet u de rapporteditor in de Power BI-service. 
 
-Als maker van een rapport kunt u dashboards en rapporten maken en bewerken. Vervolgens verdeelt u ze naar de gebruikers van uw rapporten. Zij kunnen wel met uw dashboards en rapporten communiceren in de leesweergave in de Power BI-service, maar deze niet bewerken. Lees meer over de verschillen tussen de [leesweergave en bewerkingsweergave voor rapporten in de Power BI-service](consumer/end-user-reading-view.md) 
+Als maker van een rapport kunt u dashboards en rapporten maken en bewerken. Vervolgens verdeelt u ze naar de gebruikers van uw rapporten. Zij kunnen wel met uw dashboards en rapporten communiceren in de leesweergave in de Power BI-service, maar deze niet bewerken. Lees meer over [wat gebruikers kunnen doen in de Power BI-service](consumer/end-user-reading-view.md) 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
@@ -45,7 +45,7 @@ De inhoud die wordt weergegeven in de rapporteditor, hangt af van de selecties d
 
 |  |  |
 | --- | --- |
-| ![Deelvensters van de rapporteditor](media/service-the-report-editor-take-a-tour/power-bi-panes.png) |<ul><li>De bovenkant van het deelvenster Visualisatie identificeert het type visuele element dat wordt gebruikt; in dit voorbeeld een gegroepeerd kolomdiagram.<br><br></li> <li>Onder in het deelvenster Visualisatie (mogelijk moet u omlaag schuiven) worden de velden weergegeven die in het visuele element worden gebruikt. In deze grafiek worden FiscalMonth, DistrictManager en Total Sales Variance gebruikt. <br><br></li><li>Het deelvenster Filters (mogelijk moet u omlaag schuiven) geeft de filters weer die zijn toegepast. <br><br></li><li>In het deelvenster Velden vindt u de beschikbare tabellen en, als u de naam van een tabel uitvouwt, de velden waaruit deze tabel bestaat. Het gele lettertype laat u weten dat ten minste één veld uit deze tabel wordt gebruikt in de visualisatie.<br><br></li><li>![Pictogram met verfroller](media/service-the-report-editor-take-a-tour/power-bi-paint-roller-icon.png) Selecteer het pictogram met de verfroller om het opmaakvenster weer te geven voor de geselecteerde visualisatie.<br><br></li><li>![Pictogram met vergrootglas](media/service-the-report-editor-take-a-tour/power-bi-magnifying-icon.png) Als u het deelvenster Analyse wilt weergeven, selecteert u het pictogram met het vergrootglas.</ul> |
+| ![Deelvensters van de rapporteditor](media/service-the-report-editor-take-a-tour/power-bi-panes.png) |<ul><li>De bovenkant van het deelvenster Visualisatie identificeert het type visuele element dat wordt gebruikt; in dit voorbeeld een gegroepeerd kolomdiagram.<br><br></li> <li>Onder in het deelvenster Visualisatie (mogelijk moet u omlaag schuiven) worden de velden weergegeven die in het visuele element worden gebruikt. In deze grafiek worden FiscalMonth, DistrictManager en Total Sales Variance gebruikt. <br><br></li><li>Het deelvenster Filters (mogelijk moet u omlaag schuiven) geeft de filters weer die zijn toegepast. <br><br></li><li>In het deelvenster Velden vindt u de beschikbare tabellen en, als u de naam van een tabel uitvouwt, de velden waaruit deze tabel bestaat. Het gele lettertype laat u weten dat ten minste één veld uit deze tabel wordt gebruikt in de visualisatie.<br><br></li><li>![Pictogram met verfroller](media/service-the-report-editor-take-a-tour/power-bi-paint-roller-icon.png) Selecteer het pictogram met de verfroller om het opmaakvenster weer te geven voor de geselecteerde visualisatie.<br><br></li><li>![Pictogram met vergrootglas](media/service-the-report-editor-take-a-tour/power-bi-magnifying-icon.png) Selecteer het vergrootglaspictogram om het deelvenster Analyse weer te geven.</ul> |
 
 ## <a name="the-visualizations-pane"></a>Het deelvenster Visualisaties
 ![Bovenkant van deelvenster Visualisatie](media/service-the-report-editor-take-a-tour/selectviz.png)
@@ -65,7 +65,7 @@ Als u een veld wilt verwijderen uit de visualisatie, selecteert u de **X** recht
 Zie [Add visualizations to a Power BI report](visuals/power-bi-report-add-visualizations-i.md) (Visualisaties toevoegen aan een Power BI-rapport) voor meer informatie
 
 ### <a name="format-your-visuals"></a>Uw visuele elementen opmaken
-Selecteer het pictogram met de verfroller om het venster Opmaken weer te geven. De beschikbare opties zijn afhankelijk van het type visualisatie dat is geselecteerd.
+Selecteer het pictogram met de verfroller om het venster Opmaken weer te geven. Welke opties er beschikbaar zijn, is afhankelijk van het type visualisatie dat is geselecteerd.
 
 ![Het deelvenster Opmaak in de rapporteditor](media/service-the-report-editor-take-a-tour/power-bi-formatting.png)
 
@@ -76,7 +76,7 @@ De opmaakmogelijkheden zijn praktisch eindeloos.  Als u meer wilt weten of zelf 
 * [De eigenschappen van de X-as en Y-as aanpassen](visuals/power-bi-visualization-customize-x-axis-and-y-axis.md)
 
 ### <a name="add-analytics-to-your-visualizations"></a>Analytische gegevens toevoegen aan uw visualisaties
-Selecteer het vergrootglaspictogram om het deelvenster Analyse weer te geven. De beschikbare opties zijn afhankelijk van het type visualisatie dat is geselecteerd.
+Selecteer het vergrootglaspictogram om het deelvenster Analyse weer te geven. Welke opties er beschikbaar zijn, is afhankelijk van het type visualisatie dat is geselecteerd.
 
 ![Het deelvenster Analyse in de rapporteditor](media/service-the-report-editor-take-a-tour/power-bi-analytics.png)    
 Met het deelvenster Analyse in de Power BI-service kunt u dynamische verwijzingsregels toevoegen aan visualisaties en focussen op belangrijke trends of inzichten. Zie [Analytics pane in Power BI service](service-analytics-pane.md) (Het deelvenster Analyse in de Power BI-service) of [Analytics pane in Power BI Desktop](desktop-analytics-pane.md) (Het deelvenster Analyse in Power BI Desktop) voor meer informatie.
@@ -85,7 +85,7 @@ Met het deelvenster Analyse in de Power BI-service kunt u dynamische verwijzings
 ## <a name="the-filters-pane"></a>Het deelvenster Filters
 Via het deelvenster Filters kunt u permanente filters bekijken, instellen en aanpassen voor uw rapporten op niveau van pagina, rapport, drillthrough en visuele elementen. Ja, u kunt filters toepassen voor specifieke rapportpagina's en visuele elementen door bepaalde elementen te selecteren of met behulp van tools als slicers. Door het deelvenster Filters te gebruiken, wordt de status van de filters opgeslagen met het rapport. 
 
-Het deelvenster Filters heeft nog een andere krachtige functie: de mogelijkheid om te filteren op een veld ***dat nog niet wordt gebruikt in een van de visuele elementen in uw rapport***. Dit werkt als volgt. Wanneer u een rapportpagina maakt, voegt Power BI automatisch alle velden die u gebruikt in uw visualisaties toe aan het filtergebied op niveau van visuele elementen van het deelvenster Filters.  Als u echter een filter wilt instellen voor een visueel element, pagina, drillthrough of rapport met behulp van een veld dat momenteel niet wordt gebruikt in een visualisatie, sleept u het naar een van de filterbuckets.   
+Het deelvenster Filters heeft nog een andere krachtige functie: de mogelijkheid om te filteren op een veld ***dat nog niet wordt gebruikt in een van de visuals in uw rapport***. Dit werkt als volgt. Wanneer u een rapportpagina maakt, voegt Power BI automatisch alle velden die u gebruikt in uw visualisaties toe aan het filtergebied op niveau van visuele elementen van het deelvenster Filters.  Als u echter een filter wilt instellen voor een visueel element, pagina, drillthrough of rapport met behulp van een veld dat momenteel niet wordt gebruikt in een visualisatie, sleept u het naar een van de filterbuckets.   
 
 ![Deelvenster Filters](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
 

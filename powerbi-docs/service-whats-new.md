@@ -10,21 +10,21 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: acfc4062677a28824458781b900b271bedd51eb8
-ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
+ms.openlocfilehash: ed519f920fc872c8f13d5a10d59ce0f2f531f2fc
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54488909"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147560"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Wat is er nieuw in de Power BI-service
 Raadpleeg deze pagina voor bekende problemen en onlangs uitgebrachte functies in de **Power BI-service**. Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
 
-- [Wat is er nieuw in Power BI Desktop](desktop-latest-update.md)  
+- De opmerkingen bij de release met [wat er nieuw is in de business intelligence van oktober 2018](https://docs.microsoft.com/business-applications-release-notes/October18/intelligence-platform/planned-features) van de Microsoft Business Applications-groep: De meest recente updates voor onze zakelijke toepassingen.
+- [What's new in Power BI Desktop](desktop-latest-update.md) (Wat is er nieuw in Power BI Desktop)  
 - [Wat is er nieuw in de mobiele apps voor Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)  
 - [Power BI-teamblog](https://powerbi.microsoft.com/blog/)
-- [Opmerkingen bij de release van zakelijke toepassingen in het voorjaar van 2018](http://aka.ms/businessappsreleasenotes) van Dynamics 365: de meest recente updates voor onze zakelijke toepassingen, evenals diverse nieuwe mogelijkheden voor het bouwen van uw eigen toepassingen en extensies boven op ons platform. 
 
 U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en mogelijkheden.
 

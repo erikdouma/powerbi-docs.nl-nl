@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dc26d6de5ca22fdabfd80bd7ba1d9830e274f808
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 826338a5e5524bb54c2ebb2207a3d438a8d428b1
+ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284490"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54899222"
 ---
 # <a name="connect-to-an-oracle-database"></a>Verbinding maken met een Oracle-database
 Om een Oracle-database te kunnen verbinden met **Power BI Desktop**, moet de juiste Oracle-clientsoftware worden geïnstalleerd op de computer waarop Power BI Desktop wordt uitgevoerd. Welke Oracle-clientsoftware u moet gebruiken, is afhankelijk van welke versie van Power BI Desktop u hebt geïnstalleerd: de **32-bits** versie of de **64-bits** versie.
@@ -51,3 +51,11 @@ Zodra het overeenkomende clientstuurprogramma is geïnstalleerd, kunt u verbindi
 4. Selecteer nadat u de Oracle-databasegegevens hebt ingevoerd in het dialoogvenster Oracle-database (inclusief eventuele optionele gegevens als een SID of een systeemeigen databasequery) **OK** om verbinding te maken.
 5. Als de Oracle-database gebruikersreferenties vereist, voert u deze referenties in het dialoogvenster in als u er om wordt gevraagd.
 
+
+## <a name="troubleshooting"></a>Problemen oplossen
+
+Als u Power BI Desktop vanuit de Microsoft Store hebt gedownload, kunt u wegens een probleem met een Oracle-stuurprogramma mogelijk geen verbinding maken met Oracle-databases. Als u te maken krijgt met dit probleem, wordt het foutbericht 'Objectverwijzing is niet ingesteld' geretourneerd. Voor het oplossen van het probleem voert u een van de volgende handelingen uit:
+
+* Download Power BI Desktop via https://powerbi.microsoft.com/desktop.
+
+* Als u de versie uit de Microsoft Store wilt gebruiken: kopieer op uw lokale computer oraons.dll vanuit _12.X.X\client_X_ naar _12.X.X\client_X\bin_. De X-aanduidingen staan voor de versie- en mapnummers.
