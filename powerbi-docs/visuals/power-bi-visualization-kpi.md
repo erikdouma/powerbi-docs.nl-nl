@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 11/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d48384be3c581eb25cde7019882ad2f44995ca99
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 3d197da63be256825efc44c9e97988648d049efa
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279959"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430735"
 ---
 # <a name="kpi-visuals"></a>Visuele KPI-elementen
 Een Key Performance Indicator (KPI) is een visuele aanwijzing waarmee de voortgang naar een meetbaar doel wordt aangegeven. Zie [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050) voor meer informatie over KPI's.
@@ -24,7 +24,7 @@ Een Key Performance Indicator (KPI) is een visuele aanwijzing waarmee de voortga
 Als u zich niet hebt geregistreerd voor Power BI, kunt u zich hier [aanmelden voor een gratis proefversie](https://app.powerbi.com/signupredirect?pbi_source=web) voordat u begint.
 
 ## <a name="prerequisites"></a>Vereisten
-* [Power BI Desktop - helemaal gratis](https://powerbi.microsoft.com/en-us/get-started/)
+* [Power BI Desktop - helemaal gratis](https://powerbi.microsoft.com/get-started/)
 * [Het voorbeeld-PBIX-bestand Retail Analysis](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
 
 ## <a name="when-to-use-a-kpi"></a>Een KPI gebruiken

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 03fc8430317905294e735da928b8b65d93be3545
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 0d78b38928ee807ca9c8b62a90645a1c21daab55
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277015"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431034"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Algemene querytaken in Power BI Desktop
 Wanneer u werkt in het venster **Query-editor** van Power BI Desktop, beschikt u over een aantal veelgebruikte taken. In dit document worden die taken gedemonstreerd en ziet u koppelingen voor meer informatie. 
@@ -142,7 +142,7 @@ De Query-editor bewaart alle toegepaste stappen voor elke query in de vorm van t
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitorbutton.png)
 
-Hier ziet u de **Geavanceerde editor** met de querystappen die zijn gekoppeld aan de weergegeven **USA\_StudentEnrollment**-query. Deze stappen zijn gemaakt in de Power Query-formuletaal, die vaak wordt aangeduid als **M**. Zie [Meer informatie over Power Query-formules](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f?ui=en-US&rs=en-US&ad=US) voor meer informatie. Zie [Specificatie van de formuletaal van Microsoft Power Query voor Excel](http://go.microsoft.com/fwlink/?linkid=320633) als u de taalspecificatie zelf wilt weergeven.
+Hier ziet u de **Geavanceerde editor** met de querystappen die zijn gekoppeld aan de weergegeven **USA\_StudentEnrollment**-query. Deze stappen zijn gemaakt in de Power Query-formuletaal, die vaak wordt aangeduid als **M**. Zie [Meer informatie over Power Query-formules](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f) voor meer informatie. Zie [Specificatie van de formuletaal van Microsoft Power Query voor Excel](http://go.microsoft.com/fwlink/?linkid=320633) als u de taalspecificatie zelf wilt weergeven.
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
 

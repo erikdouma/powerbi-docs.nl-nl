@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: c662fea5bb343d835cffec126ffe6eb071be2218
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 7f1c05e1c396b1126bffbf6e62798e679decdca9
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296634"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431172"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Zelfstudie: Een Power BI-rapport, -dashboard of -tegel insluiten in een toepassing voor uw klanten
 
@@ -30,7 +30,7 @@ In deze zelfstudie leert u het volgende:
 
 Om te beginnen hebt u een **Power BI Pro**-account (dit account is uw **hoofdaccount**) en een **Microsoft Azure**-abonnement nodig.
 
-* Als u zich niet hebt geregistreerd voor **Power BI Pro**, [kunt u zich hier aanmelden voor een gratis proefversie](https://powerbi.microsoft.com/en-us/pricing/) voordat u begint.
+* Als u zich niet hebt geregistreerd voor **Power BI Pro**, [kunt u zich hier aanmelden voor een gratis proefversie](https://powerbi.microsoft.com/pricing/) voordat u begint.
 * Als u nog geen abonnement op Azure hebt, maakt u een [gratis account](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) voordat u begint.
 * U moet beschikken over een eigen [Azure Active Directory-tenant ](create-an-azure-active-directory-tenant.md).
 * [Visual Studio](https://www.visualstudio.com/) moet zijn geïnstalleerd (versie 2013 of hoger).

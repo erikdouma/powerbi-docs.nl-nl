@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: mshenhav
-ms.openlocfilehash: b7301d46279d9b975a07b07506c023e19437631b
-ms.sourcegitcommit: a20825ebd0ef4c2cb77232e3dd0e9f8260cacf71
+ms.openlocfilehash: 771b7361efaea436d67c26ee05741f6dc3eba810
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54324038"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431241"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -37,15 +37,15 @@ In rapporten die de nieuwe 'moderne visualheader' gebruiken, wordt geen ruimte m
 
 ### <a name="enhance-presentation-mode-windows"></a>Verbeterde presentatiemodus (Windows)
 
-Verbeterde presentatiemodus voor Surface Hub en Windows 10-apparaten.  Profiteer van een verbeterde Surface Hub-vergaderruimte, met verbeterde presentatie- en samenwerkingsmiddelen en een strakke, geoptimaliseerde weergave op groot scherm, zodat u zich kunt richten op uw gegevens. Presentatiemodus biedt u ook de middelen om u beter te laten presenteren en te discussiëren over uw gegevens. Lees [hier](https://powerbi.microsoft.com/en-us/blog/presentation-mode-in-power-bi-windows-app/) meer over de presentatiemodus.
+Verbeterde presentatiemodus voor Surface Hub en Windows 10-apparaten.  Profiteer van een verbeterde Surface Hub-vergaderruimte, met verbeterde presentatie- en samenwerkingsmiddelen en een strakke, geoptimaliseerde weergave op groot scherm, zodat u zich kunt richten op uw gegevens. Presentatiemodus biedt u ook de middelen om u beter te laten presenteren en te discussiëren over uw gegevens. Lees [hier](https://powerbi.microsoft.com/blog/presentation-mode-in-power-bi-windows-app/) meer over de presentatiemodus.
 
 ### <a name="portrait-report-layout-in-tablets-ios-and-android"></a>De staande rapportindeling in tablets (iOS en Android)
 
-De telefoonrapportindeling, indien aanwezig, wordt nu gebruikt voor het weergeven van rapporten op tablets in de staande modus. Lees meer over [hoe u een telefoonindeling maakt in Power BI-service of Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-create-phone-report/).
+De telefoonrapportindeling, indien aanwezig, wordt nu gebruikt voor het weergeven van rapporten op tablets in de staande modus. Lees meer over [hoe u een telefoonindeling maakt in Power BI-service of Desktop](https://docs.microsoft.com/power-bi/desktop-create-phone-report/).
 
 ### <a name="supporting-report-query-string"></a>Ondersteuning voor rapportquerytekenreeksen 
 
-Als u een rapportkoppeling in de mobiele app opent waarin een querytekenreeks is opgenomen, wordt de koppeling eerst gefilterd op basis van de voorwaarden in de querytekenreeks. Meer informatie over [hoe u een rapport-URL met een querytekenreeks maakt](https://docs.microsoft.com/en-us/power-bi/service-url-filters/).  
+Als u een rapportkoppeling in de mobiele app opent waarin een querytekenreeks is opgenomen, wordt de koppeling eerst gefilterd op basis van de voorwaarden in de querytekenreeks. Meer informatie over [hoe u een rapport-URL met een querytekenreeks maakt](https://docs.microsoft.com/power-bi/service-url-filters/).  
 
 ### <a name="shared-credentials-now-in-android"></a>Gedeelde referenties (nu in Android)
 
@@ -65,7 +65,7 @@ Het actiemenu voor rapportvisals (...) heeft nu de optie om de onderliggende geg
 
 Gepagineerde rapporten zijn nu beschikbaar in de Power BI-service. Gebruikers met toegang tot gepagineerde rapporten in de Power BI-service hebben ook toegang tot deze rapporten vanuit de mobiele app. 
 
-Lees de Power BI-[blogpost over gepagineerde rapporten op mobiel](https://powerbi.microsoft.com/en-us/blog/power-bi-paginated-reports-also-available-in-power-bi-mobile-apps-preview/).
+Lees de Power BI-[blogpost over gepagineerde rapporten op mobiel](https://powerbi.microsoft.com/blog/power-bi-paginated-reports-also-available-in-power-bi-mobile-apps-preview/).
 
 ### <a name="shared-credentials-ios"></a>Gedeelde referenties (iOS)
 

@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 660f76b5bf04f742d435df928e068e434ca70531
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e8e27c55cdcd85fd9f88a3b1ad425829cfa9cf0d
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281983"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430597"
 ---
 # <a name="basic-concepts-for-power-bi-service-consumers"></a>Basisconcepten voor ***gebruikers*** van de Power BI-service
 
@@ -37,7 +37,7 @@ Als u wilt beginnen, opent u een browser en typt u **app.powerbi.com**. De aller
 ![Welkomstscherm voor de Power BI-service](media/end-user-basic-concepts/power-bi-open.png)
 
 Als u Power BI gebruikt, kunt u aanpassen wat u ziet wanneer u de website in het vervolg opent.  Sommige mensen willen graag dat Power BI wordt geopend met de startpagina, terwijl anderen een favoriet dashboard hebben dat ze het eerst willen zien. Maakt u zich geen zorgen, we leren u hoe u dit doet. 
-- [Startpagina (preview)](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search)    
+- [Startpagina (preview)](https://powerbi.microsoft.com/blog/introducing-power-bi-home-and-global-search)    
 - [Inhoud instellen als **aanbevolen**](end-user-featured.md) 
 
 ![geeft de paginaweergave Start en de dashboardweergave weer](media/end-user-basic-concepts/power-bi-first.png)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/02/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 52f679ee143e1009068c7de1ed9ce13e82e957dc
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 6b5f2fa44a45cca06f90474d8c76fd6f06cae3ce
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295369"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430436"
 ---
 # <a name="data-point-limits-and-strategies-by-visual-type"></a>Gegevenspuntlimieten en strategieën op visualtype
 
@@ -40,7 +40,7 @@ Voor elke strategie zijn er standaardinstellingen op basis van de vorm en het ty
 ## <a name="statistics"></a>Statistieken
 Bepaalde modellen kunnen statistieken verstrekken over het aantal waarden voor bepaalde kolommen. Wanneer deze gegevens aanwezig zijn, gebruiken we die gegevens voor een betere verdeling over meerdere hiërarchieën, als een visual het aantal waarden voor een strategie niet expliciet overschrijft.
 
-Zie [Wat is nieuw in Analysis Services](https://docs.microsoft.com/en-us/sql/analysis-services/what-s-new-in-analysis-services?view=sql-server-2017) voor meer informatie
+Zie [Wat is nieuw in Analysis Services](https://docs.microsoft.com/sql/analysis-services/what-s-new-in-analysis-services?view=sql-server-2017) voor meer informatie
 
 ## <a name="dynamic-limits"></a>Dynamische limieten
 Naast de bovenstaande strategieën maken visuals met twee hiërarchieën van groeperende kolommen (as en legenda of categorie en reeks) gebruik van een aanvullende strategie met de naam *dynamische limieten*.  Dynamische limieten zijn ontworpen voor een betere balans van gegevenspunten. 
@@ -128,7 +128,7 @@ Geen strategie voor gegevensreductie
 - Waarden: Virtualisatie met behulp van een venster van 200 rijen tegelijk
 
 ### <a name="scatter-chart-high-density"></a>Spreidingsdiagrammen (high-density)
-Zie [High-density spreiding](https://docs.microsoft.com/en-us/power-bi/visuals/desktop-high-density-scatter-charts)
+Zie [High-density spreiding](https://docs.microsoft.com/power-bi/visuals/desktop-high-density-scatter-charts)
 
 ### <a name="pie"></a>Cirkeldiagram
 - Maximum aantal punten: 3500

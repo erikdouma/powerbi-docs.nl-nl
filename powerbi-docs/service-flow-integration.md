@@ -11,16 +11,16 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: f39912f5813f67ed65afde10a0e157385e98b7b7
-ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
+ms.openlocfilehash: c02ce0a92e258055edf906cf17730fec56bcb450
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "54406610"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430758"
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow en Power BI
 
-[Microsoft Flow](https://flow.microsoft.com/en-us/documentation/getting-started) is een SaaS voor het automatiseren van werkstromen voor het groeiende aantal apps en SaaS-services waarvan zakelijke gebruikers afhankelijk zijn. Met Flow kunt u taken automatiseren door uw favoriete apps en services (inclusief Power BI) te integreren om meldingen te ontvangen, bestanden te synchroniseren, gegevens te verzamelen en meer. U kunt eenvoudig herhalende taken uitvoeren door de werkstroom te automatiseren.
+[Microsoft Flow](https://flow.microsoft.com/documentation/getting-started) is een SaaS voor het automatiseren van werkstromen voor het groeiende aantal apps en SaaS-services waarvan zakelijke gebruikers afhankelijk zijn. Met Flow kunt u taken automatiseren door uw favoriete apps en services (inclusief Power BI) te integreren om meldingen te ontvangen, bestanden te synchroniseren, gegevens te verzamelen en meer. U kunt eenvoudig herhalende taken uitvoeren door de werkstroom te automatiseren.
 
 [Aan de slag met Flow.](https://flow.microsoft.com/documentation/getting-started)
 
@@ -31,7 +31,7 @@ Kijk hoe Sirui een stroom maakt waarmee een gedetailleerde e-mail naar collega's
 ## <a name="create-a-flow-that-is-triggered-by-a-power-bi-data-alert"></a>Een stroom maken die wordt geactiveerd door een Power BI-gegevensmelding
 
 ### <a name="prerequisites"></a>Vereisten
-In deze zelfstudie wordt uitgelegd hoe u twee verschillende stromen maakt: een stroom op basis van een sjabloon en een compleet nieuwe stroom. Als u alles op de voet wilt volgen, [maakt u een gegevensmelding in Power BI](service-set-data-alerts.md), maakt u een gratis Slack-account en [meldt u zich aan voor Microsoft Flow](https://flow.microsoft.com/en-us/#home-signup) (gratis).
+In deze zelfstudie wordt uitgelegd hoe u twee verschillende stromen maakt: een stroom op basis van een sjabloon en een compleet nieuwe stroom. Als u alles op de voet wilt volgen, [maakt u een gegevensmelding in Power BI](service-set-data-alerts.md), maakt u een gratis Slack-account en [meldt u zich aan voor Microsoft Flow](https://flow.microsoft.com/#home-signup) (gratis).
 
 ## <a name="create-a-flow-that-uses-power-bi---from-a-template"></a>Een stroom maken die gebruikmaakt van Power BI - op basis van een sjabloon
 In deze taak gebruiken we een sjabloon om een eenvoudige stroom te maken die wordt geactiveerd door een Power BI-gegevenswaarschuwing (melding).
@@ -108,7 +108,7 @@ In deze taak maken we een eenvoudige maar volledig nieuwe stroom die wordt geact
     ![Stroom activeert Outlook-melding](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Aan de slag met Microsoft-Flow](https://flow.microsoft.com/en-us/documentation/getting-started/)
+* [Aan de slag met Microsoft-Flow](https://flow.microsoft.com/documentation/getting-started/)
 * [Gegevenswaarschuwingen instellen in de Power BI-service](service-set-data-alerts.md)
 * [Gegevenswaarschuwingen instellen op uw iPhone](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Gegevenswaarschuwingen instellen in de mobiele Power BI-app voor Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)

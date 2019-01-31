@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/26/2018
-ms.openlocfilehash: f95b778daa9112324c20b0f358e21dd004092060
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 280f60d0ae60a445d94a640af974a2624c73bb83
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294027"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55429999"
 ---
 # <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Richtlijnen voor Power BI-visuals met extra aankopen
 
@@ -62,7 +62,7 @@ Voor het gemak van de gebruiker kunt u boven in het deelvenster Opmaak velden me
 
 ## <a name="faq"></a>Veelgestelde vragen
 
-Voor meer informatie en antwoorden op vragen gaat u naar [Veelgestelde vragen over visuals met aanvullende aankopen](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-faq#visuals-with-additional-purchases).
+Voor meer informatie en antwoorden op vragen gaat u naar [Veelgestelde vragen over visuals met aanvullende aankopen](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#visuals-with-additional-purchases).
 
 ## <a name="next-steps"></a>Volgende stappen
 

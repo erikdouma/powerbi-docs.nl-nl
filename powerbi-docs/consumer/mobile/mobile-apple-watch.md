@@ -9,18 +9,18 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: mshenhav
-ms.openlocfilehash: 2d43fe5e0248d3876f70878bbbe8a1c9b6387df7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: a99d18d424421949ede9bacd5642235b04170659
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278901"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430896"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>Uw gegevens verkennen in de mobiele Power BI-app op uw Apple Watch
 Met de Power BI-app voor Apple Watch kunt u KPIs en kaarttitels uit uw Power BI-dashboards weergeven op uw horloge. KPI's en kaarttegels zijn het meest geschikt om een heartbeat-meting op het kleine scherm weer te geven. U kunt een dashboard vernieuwen vanaf uw iPhone of via de Watch.
 
 ## <a name="install-the-apple-watch-app"></a>De app voor Apple Watch installeren
-De Power BI-app voor Apple Watch is gebundeld in de Power BI-app voor iOS. Wanneer u naar Apple App Store gaat en [de Power BI-app downloadt naar uw iPhone](http://go.microsoft.com/fwlink/?LinkId=522062 "De iPhone-app downloaden"), downloadt u ook automatisch de Power BI-app voor Apple Watch. In de Apple-handleiding wordt uitgelegd hoe u [apps op de Apple Watch installeert](https://support.apple.com/en-us/HT204784).
+De Power BI-app voor Apple Watch is gebundeld in de Power BI-app voor iOS. Wanneer u naar Apple App Store gaat en [de Power BI-app downloadt naar uw iPhone](http://go.microsoft.com/fwlink/?LinkId=522062 "De iPhone-app downloaden"), downloadt u ook automatisch de Power BI-app voor Apple Watch. In de Apple-handleiding wordt uitgelegd hoe u [apps op de Apple Watch installeert](https://support.apple.com/HT204784).
 
 ## <a name="use-the-power-bi-app-on-the-apple-watch"></a>De Power BI-app op de Apple Watch gebruiken
 U kunt de Power BI-app voor de Apple Watch openen via het beginscherm of door rechtstreeks op de Power BI-widget (indien geconfigureerd) op het scherm van het horloge te tikken.
@@ -69,7 +69,7 @@ U kunt ook rechtstreeks een specifieke Power BI-tegel op het scherm van uw Apple
 Vlak nadat uw gegevens zijn bijgewerkt, wordt de Power BI-widget voor Apple Watch ook bijgewerkt, zodat de informatie die u nodig hebt, altijd up-to-date is.
 
 ### <a name="add-a-power-bi-widget-to-your-watch-face"></a>Een Power BI-widget toevoegen aan het scherm van uw horloge
-Zie [Customize your Apple Watch face](https://support.apple.com/en-us/HT205536) (De wijzerplaat van uw Apple Watch veranderen) in de handleiding van Apple.
+Zie [Customize your Apple Watch face](https://support.apple.com/HT205536) (De wijzerplaat van uw Apple Watch veranderen) in de handleiding van Apple.
 
 ### <a name="change-the-text-on-the-widget"></a>De tekst op de widget wijzigen
 Gezien de beperkte ruimte op het scherm van de Apple Watch kunt u de titel van de widget in de Power BI-app voor Apple Watch wijzigen zodat deze op het scherm past.

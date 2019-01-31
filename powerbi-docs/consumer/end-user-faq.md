@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 8eb428857e98a696ffb368c729525acd80e268f2
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: 001fab5caae7663a70b0f4d4272a1f9abbb1765e
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394781"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55429907"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Veelgestelde vragen over Power BI
 * Als u andere vragen hebt, kunt u deze stellen [in de Power BI-community](http://community.powerbi.com/).
@@ -50,7 +50,7 @@ Alleen een webbrowser en een e-mailadres van uw werk. U kunt zich aanmelden met 
 Power BI biedt geen ondersteuning voor e-mailadressen die worden geleverd door e-mailservices voor consumenten of telecomproviders. Lees hier meer over het [selfservice-registratieproces van Power BI](../service-self-service-signup-for-power-bi.md).
 
 ## <a name="is-government-academic-and-nonprofit-pricing-available-for-power-bi"></a>Zijn er speciale prijzen voor overheid, onderwijs en non-profitorganisaties beschikbaar voor Power BI?
-Ja, er zijn speciale prijzen voor non-profitorganisaties die rechtstreeks kopen bij Microsoft. Ga voor meer informatie en registratie naar de site [Microsoft voor non-profitorganisaties](https://www.microsoft.com/en-us/nonprofits/power-bi). Prijzen voor overheids- en onderwijsinstellingen worden aangeboden via de MOSP/Direct-, EA- en open-licentieprogramma's. Overheidsprijzen zijn ook beschikbaar via syndicatie. 
+Ja, er zijn speciale prijzen voor non-profitorganisaties die rechtstreeks kopen bij Microsoft. Ga voor meer informatie en registratie naar de site [Microsoft voor non-profitorganisaties](https://www.microsoft.com/nonprofits/power-bi). Prijzen voor overheids- en onderwijsinstellingen worden aangeboden via de MOSP/Direct-, EA- en open-licentieprogramma's. Overheidsprijzen zijn ook beschikbaar via syndicatie. 
 
 ## <a name="does-power-bi-support-mobile-devices"></a>Biedt Power BI ondersteuning voor mobiele apparaten?
 Ja. Power BI heeft systeemeigen apps voor Android-telefoons en -tablets, iOS-apparaten en Windows 10-apparaten. Download een van de [mobiele Power BI-apps](https://powerbi.microsoft.com/mobile) uit de betreffende Store:  

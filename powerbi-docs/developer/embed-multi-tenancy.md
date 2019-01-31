@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi - developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: d09312ecf462e557ef33851d9d2b1f91ec936dae
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 7bb805877cf2e7453148d667f863cbbc8b01ee52
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289205"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430712"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Multitenancy beheren met ingesloten analyse in Power BI
 
@@ -29,7 +29,7 @@ In dit artikel worden de verschillende benaderingen besproken en geanalyseerd op
 
 ## <a name="concepts-and-terminology"></a>Concepten en terminologie
 
-**[AAD](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis)**: Azure Active Directory.
+**[AAD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)**: Azure Active Directory.
 
 **AAD-app**: een app-identiteit in AAD. Een AAD-app is vereist voor verificatie.
 
@@ -105,7 +105,7 @@ Power BI Embedded ondersteunt implementatie in meerdere regio's (preview-functie
 
 ### <a name="cost"></a>Kosten
 
-[Power BI Embedded](https://azure.microsoft.com/en-us/services/power-bi-embedded/) heeft een op resources gebaseerd aanschafmodel, net als **Power BI Premium**. U koopt een of meer capaciteiten met een vaste hoeveelheid rekenkracht en geheugen. Deze capaciteit is het primaire kostenitem wanneer u met **Power BI Embedded** werkt. Er is geen limiet voor het aantal gebruikers van de capaciteit. Er geldt alleen een limiet voor de prestaties van de capaciteit. U hebt een [Power BI Pro-licentie](../service-admin-licensing-organization.md) nodig voor elke *hoofdgebruiker* of voor specifieke gebruikers die toegang nodig hebben tot de Power BI-portal.
+[Power BI Embedded](https://azure.microsoft.com/services/power-bi-embedded/) heeft een op resources gebaseerd aanschafmodel, net als **Power BI Premium**. U koopt een of meer capaciteiten met een vaste hoeveelheid rekenkracht en geheugen. Deze capaciteit is het primaire kostenitem wanneer u met **Power BI Embedded** werkt. Er is geen limiet voor het aantal gebruikers van de capaciteit. Er geldt alleen een limiet voor de prestaties van de capaciteit. U hebt een [Power BI Pro-licentie](../service-admin-licensing-organization.md) nodig voor elke *hoofdgebruiker* of voor specifieke gebruikers die toegang nodig hebben tot de Power BI-portal.
 
 We raden aan om de verwachte belasting van uw capaciteit te testen en meten door de omgeving en het gebruik live te simuleren en belastingtests uit te voeren op de capaciteit. U kunt de belasting en prestaties meten aan de hand van de diverse metrische gegevens die beschikbaar zijn in de Azure-capaciteit of de [app voor metrische gegevens van de Premium-capaciteit](../service-admin-premium-monitor-capacity.md).
 
@@ -132,17 +132,17 @@ Er zijn twee primaire benaderingen voor het beheren van tenantgegevens:
 
 Als de opslag van de SaaS-app een afzonderlijke database per tenant gebruikt, is het logisch om ook gegevenssets met één tenant in Power BI te gebruiken, waarbij de verbindingsreeks voor elke gegevensset verwijst naar de bijbehorende database.
 
-Als de opslag van de SaaS-app één database voor alle tenants gebruikt, is het eenvoudiger om tenants te scheiden per werkruimte. U kunt de databaseverbinding voor de Power BI-gegevensset configureren met een geparameteriseerde databasequery die alleen gegevens van de relevante tenant ophaalt. U kunt de verbinding bijwerken met [Power BI Desktop](../desktop-query-overview.md) of met de [API](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup) met [parameters](https://docs.microsoft.com/en-us/rest/api/power-bi/datasets/updateparametersingroup) voor de query.
+Als de opslag van de SaaS-app één database voor alle tenants gebruikt, is het eenvoudiger om tenants te scheiden per werkruimte. U kunt de databaseverbinding voor de Power BI-gegevensset configureren met een geparameteriseerde databasequery die alleen gegevens van de relevante tenant ophaalt. U kunt de verbinding bijwerken met [Power BI Desktop](../desktop-query-overview.md) of met de [API](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup) met [parameters](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup) voor de query.
 
 ### <a name="data-isolation"></a>Gegevensisolatie
 
-Gegevens worden in dit tenancymodel gescheiden op werkruimteniveau. Dankzij een eenvoudige toewijzing tussen een werkruimte en een tenant voorkomt u dat gebruikers van de ene tenant inhoud van een andere tenant kunnen zien. Wanneer u één *hoofdgebruiker* hebt, moet u toegang hebben tot alle verschillende werkruimten. Welke gegevens een eindgebruiker kan zien, wordt gedefinieerd tijdens het [genereren van een insluitingstoken](https://docs.microsoft.com/en-us/rest/api/power-bi/embedtoken). Dit proces vindt uitsluitend aan de back-end plaats en is niet zichtbaar of bewerkbaar voor gebruikers.
+Gegevens worden in dit tenancymodel gescheiden op werkruimteniveau. Dankzij een eenvoudige toewijzing tussen een werkruimte en een tenant voorkomt u dat gebruikers van de ene tenant inhoud van een andere tenant kunnen zien. Wanneer u één *hoofdgebruiker* hebt, moet u toegang hebben tot alle verschillende werkruimten. Welke gegevens een eindgebruiker kan zien, wordt gedefinieerd tijdens het [genereren van een insluitingstoken](https://docs.microsoft.com/rest/api/power-bi/embedtoken). Dit proces vindt uitsluitend aan de back-end plaats en is niet zichtbaar of bewerkbaar voor gebruikers.
 
 Voor extra isolatie kan een app-ontwikkelaar een *hoofdgebruiker* of een app per werkruimte definiëren in plaats van één *hoofdgebruiker* of een app met toegang tot meerdere werkruimten. Op deze manier kunt u ervoor zorgen dat er in geval van een menselijke fout of lek van referentiegegevens geen gegevens van meerdere klanten openbaar worden gemaakt.
 
 ### <a name="scalability"></a>Schaalbaarheid
 
-Een voordeel van dit model is dat u, door de gegevens te scheiden in meerdere gegevenssets voor elke tenant, niet wordt beperkt door de [limiet van een gegevensset](https://docs.microsoft.com/en-us/power-bi/service-premium-large-datasets) (op dit moment 10 GB in een capaciteit). Wanneer de capaciteit overbelast is, [kan deze ongebruikte gegevenssets buitensluiten](../service-premium-understand-how-it-works.md) om geheugen vrij te maken voor actieve gegevenssets. Deze taak is niet mogelijk wanneer u één grote gegevensset hebt. Wanneer u meerdere gegevenssets gebruikt, kunt u tenants indien nodig ook verdelen over meerdere Power BI-capaciteiten. [Meer informatie over hoe capaciteit werkt](../service-admin-premium-manage.md).
+Een voordeel van dit model is dat u, door de gegevens te scheiden in meerdere gegevenssets voor elke tenant, niet wordt beperkt door de [limiet van een gegevensset](https://docs.microsoft.com/power-bi/service-premium-large-datasets) (op dit moment 10 GB in een capaciteit). Wanneer de capaciteit overbelast is, [kan deze ongebruikte gegevenssets buitensluiten](../service-premium-understand-how-it-works.md) om geheugen vrij te maken voor actieve gegevenssets. Deze taak is niet mogelijk wanneer u één grote gegevensset hebt. Wanneer u meerdere gegevenssets gebruikt, kunt u tenants indien nodig ook verdelen over meerdere Power BI-capaciteiten. [Meer informatie over hoe capaciteit werkt](../service-admin-premium-manage.md).
 
 Ondanks deze voordelen is het belangrijk om rekening te houden met de schaal die de SaaS-app in de toekomst mogelijk bereikt. U kunt bijvoorbeeld te maken krijgen met beperkingen voor het aantal artefacten dat u kunt beheren. Lees het gedeelte over [implementatiebeperkingen](#summary-comparison-of-the-different-approaches) verderop in dit artikel voor meer informatie. De gebruikte capaciteit-SKU beperkt de hoeveelheid geheugen die gegevenssets nodig hebben, [hoeveel vernieuwingen er tegelijkertijd kunnen worden uitgevoerd](../service-premium-understand-how-it-works.md) en de maximale frequentie van gegevensvernieuwingen. Het is raadzaam om tests uit te voeren wanneer u honderden of duizenden gegevenssets beheert. We raden ook aan rekening te houden met het gemiddelde en piekvolume van gebruik, evenals specifieke tenants met grote gegevenssets of afwijkende gebruikspatronen die anders worden beheerd dan andere tenants.
 

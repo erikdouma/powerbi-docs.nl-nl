@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/26/2018
-ms.openlocfilehash: 96f91eefeab038419ce64e31c7b4b5755d6adf2c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c05dddbddc2dd19fed1bfbec25bcd9e378df543f
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286583"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430148"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Een Azure AD-app registreren om Power BI-inhoud in te sluiten
 
@@ -138,7 +138,7 @@ U moet hiervoor zijn aangemeld bij het *hoofd*account, dat wordt gebruikt voor i
 
 ### <a name="applying-permissions-programmatically"></a>Machtigingen via een programma toepassen
 
-1. U moet de bestaande service-principals (gebruikers) ophalen in uw tenant. Zie [servicePrincipal ophalen](https://developer.microsoft.com/en-us/graph/docs/api-reference/beta/api/serviceprincipal_get) voor informatie over hoe u dit kunt doen.
+1. U moet de bestaande service-principals (gebruikers) ophalen in uw tenant. Zie [servicePrincipal ophalen](https://developer.microsoft.com/graph/docs/api-reference/beta/api/serviceprincipal_get) voor informatie over hoe u dit kunt doen.
 
     U roept de API *servicePrincipal ophalen* zonder {id} aan. Alle service-principals worden dan opgehaald in de tenant.
 2. Controleer dit voor een service-principal met uw app-client-id als **appId**-eigenschap.

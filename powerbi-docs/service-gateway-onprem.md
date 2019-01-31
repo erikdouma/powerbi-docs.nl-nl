@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: eea6fe12fdd8821c803863b63ede93179bf67f07
-ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
+ms.openlocfilehash: f477cbd5f2d767333c16a43308b4793527665806
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54899245"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430781"
 ---
 # <a name="on-premises-data-gateway"></a>On-premises gegevensgateway
 
@@ -91,7 +91,7 @@ Wanneer u een gegevensbron aan de gateway toevoegt, moet u referenties opgeven v
 
 * [Azure Information Protection](https://docs.microsoft.com/microsoft-365/enterprise/protect-files-with-aip
 ) wordt momenteel niet ondersteund.
-* [Access Online](https://products.office.com/en-us/access) wordt momenteel niet ondersteund.
+* [Access Online](https://products.office.com/access) wordt momenteel niet ondersteund.
 * R-scripts worden alleen ondersteund als de gateway wordt uitgevoerd in de persoonlijke modus.
 
 ## <a name="tenant-level-administration"></a>Beheer op tenantniveau
@@ -102,7 +102,7 @@ Als u een tenantbeheerder bent, kunt u ook de gebruikers in uw organisatie vrage
 
 ## <a name="enabling-outbound-azure-connections"></a>Uitgaande Azure-verbindingen inschakelen
 
-De on-premises gegevensgateway is afhankelijk van Azure Service Bus voor cloudconnectiviteit en brengt dienovereenkomstig uitgaande verbindingen naar de bijbehorende Azure-regio tot stand. Standaard is dit de locatie van uw Power BI-tenant. Zie [Waar bevindt mijn Power BI-tenant zich?](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-where-is-my-tenant-located/)
+De on-premises gegevensgateway is afhankelijk van Azure Service Bus voor cloudconnectiviteit en brengt dienovereenkomstig uitgaande verbindingen naar de bijbehorende Azure-regio tot stand. Standaard is dit de locatie van uw Power BI-tenant. Zie [Waar bevindt mijn Power BI-tenant zich?](https://powerbi.microsoft.com/documentation/powerbi-admin-where-is-my-tenant-located/)
 Als uitgaande verbindingen door een firewall worden geblokkeerd, moet u de firewall configureren zodat deze uitgaande verbindingen toestaat van de on-premises gegevensgateway naar de bijbehorende Azure-regio. Zie [Microsoft Azure Datacenter IP-bereiken](https://www.microsoft.com/download/details.aspx?id=41653) voor meer informatie over het IP-adressenbereik van elk Azure-datacenter.
 > [!NOTE]
 > Het IP-adressenbereik kan na verloop van tijd worden gewijzigd; download dus regelmatig de nieuwste informatie. 

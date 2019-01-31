@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c1671c820b6de4cddac169c67103168ac46ffc1f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c680ebea23c479202b8b49ed0376f2416a9cffa3
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296036"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430620"
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>Verbinding met gegevens maken via algemene interfaces in Power BI Desktop
 U kunt verbinding maken met een groot aantal verschillende gegevensbronnen in **Power BI Desktop**, waarbij u ingebouwde gegevensconnectors gebruikt, variërend van **Access-databases** tot **Zendesk**-bronnen, zoals weergegeven in het venster **Gegevens ophalen**. U kunt ook verbinding maken met allerlei *andere* gegevensbronnen, om zo uw verbindingsopties verder uit te breiden, met behulp van de algemene interfaces (zoals **ODBC** of **REST API's**) die zijn ingebouwd in **Power BI Desktop**.
@@ -49,7 +49,7 @@ De volgende lijst bevat enkele voorbeelden van gegevensbronnen waarmee **Power B
 | Algemene Power BI Desktop-connector | Externe gegevensbron | Koppeling naar meer informatie |
 | --- | --- | --- |
 | ODBC |Cassandra |[ODBC-stuurprogramma voor Cassandra](http://www.simba.com/drivers/cassandra-odbc-jdbc/) |
-| ODBC |Couchbase DB |[Couchbase en Power BI](https://powerbi.microsoft.com/en-us/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
+| ODBC |Couchbase DB |[Couchbase en Power BI](https://powerbi.microsoft.com/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
 | ODBC |DynamoDB |[ODBC-stuurprogramma voor DynamoDB](http://www.simba.com/drivers/dynamodb-odbc-jdbc/) |
 | ODBC |Google BigQuery |[ODBC-stuurprogramma voor BigQuery](http://www.simba.com/drivers/bigquery-odbc-jdbc/) |
 | ODBC |Hbase |[ODBC-stuurprogramma voor Hbase](http://www.simba.com/drivers/hbase-odbc-jdbc/) |
@@ -91,7 +91,7 @@ De volgende lijst bevat enkele voorbeelden van gegevensbronnen waarmee **Power B
 
 | Algemene Power BI Desktop-connector | Externe gegevensbron | Koppeling naar meer informatie |
 | --- | --- | --- |
-| REST-API's |Couchbase DB |[Informatie over Couchbase REST API](https://powerbi.microsoft.com/en-us/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
+| REST-API's |Couchbase DB |[Informatie over Couchbase REST API](https://powerbi.microsoft.com/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
 
 ## <a name="data-sources-accessible-through-r-script"></a>Gegevensbronnen die toegankelijk zijn via R-scripts
 U kunt **R-scripts** gebruiken om toegang te krijgen tot gegevensbronnen en die gegevens gebruiken in **Power BI Desktop**.

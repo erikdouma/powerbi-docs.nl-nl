@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e37f6f18b182851c3fc2afc2f67de0023bd46382
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 7f7681529f9f1ab8883f6b38889e67b8ad5bb81e
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276693"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430052"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Uw Amerikaanse overheidsorganisatie registreren in de Power BI-service
 Er is als onderdeel van **Office 365 US Government Community**-abonnement een versie van de **Power BI-service** beschikbaar voor Amerikaanse overheidsklanten. De versie van de **Power BI-service** die in dit artikel wordt besproken, is specifiek ontworpen voor Amerikaanse overheidsklanten en staat los en verschilt van de commerciële versie van de **Power BI-service**.
@@ -41,7 +41,7 @@ Als uw organisatie een nieuwe **Office Government Cloud** klant is, voert u de v
 > Deze stappen moeten worden uitgevoerd door de portalbeheerder.
 >
 
-1. Ga naar [https://products.office.com/en-us/government/office-365-web-services-for-government](https://products.office.com/en-us/government/office-365-web-services-for-government).
+1. Ga naar [https://products.office.com/government/office-365-web-services-for-government](https://products.office.com/government/office-365-web-services-for-government).
 
 >[!NOTE]
 >Als u zich op dit moment niet wilt aanmelden voor Office Government Cloud, kunt u contact opnemen met de verkoopmedewerker.

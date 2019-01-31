@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 6590e442fc5f183213681dc7d10a7d91e87ac35b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: a9827ccead960c789bb9c7b4c39dd15d86886207
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282374"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430919"
 ---
 # <a name="tutorial-developing-a-power-bi-custom-visual"></a>Zelfstudie: Een aangepaste visual voor Power BI ontwikkelen
 
@@ -37,7 +37,7 @@ In deze zelfstudie leert u het volgende:
 
 ## <a name="prerequisites"></a>Vereisten
 
-* Als u zich niet hebt geregistreerd voor **Power BI Pro**, [kunt u zich hier aanmelden voor een gratis proefversie](https://powerbi.microsoft.com/en-us/pricing/) voordat u begint.
+* Als u zich niet hebt geregistreerd voor **Power BI Pro**, [kunt u zich hier aanmelden voor een gratis proefversie](https://powerbi.microsoft.com/pricing/) voordat u begint.
 * U moet [Visual Studio Code](https://www.visualstudio.com/) hebben geïnstalleerd.
 * U hebt [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/setup/installing-windows-powershell?view=powershell-6) versie 4 of hoger voor Windows-gebruikers nodig OF [Terminal](https://macpaw.com/how-to/use-terminal-on-mac) voor OSX-gebruikers.
 

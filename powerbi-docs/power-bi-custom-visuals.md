@@ -10,16 +10,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/18/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cac436c97515f6b6f7b6cfc110469615e7afc4c6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1ebb9633451ab8e2f1b8cbf8ada743ce6c42692e
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289271"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431126"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Aangepaste visualisaties in Power BI
 
-Bij het maken of bewerken van een Power BI-rapport kunt u kiezen uit allerlei verschillende soorten visualisaties. Deze visualisaties worden weergeven in het deelvenster **Visualisaties**. Wanneer u [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) downloadt of de [Power BI-service](https://app.powerbi.com) opent, ziet u standaard deze visuals.
+Bij het maken of bewerken van een Power BI-rapport kunt u kiezen uit allerlei verschillende soorten visualisaties. Deze visualisaties worden weergeven in het deelvenster **Visualisaties**. Wanneer u [Power BI Desktop](https://powerbi.microsoft.com/desktop/) downloadt of de [Power BI-service](https://app.powerbi.com) opent, ziet u standaard deze visuals.
 
 ![visualizations](media/power-bi-custom-visuals/power-bi-visualizations.png)
 
@@ -48,16 +48,16 @@ Power BI-beheerders kunnen aangepaste visuals in hun organisatie implementeren, 
 
 ## <a name="marketplace-visuals"></a>Visuals uit de marketplace
 
-Microsoft en leden van de community hebben met hun aangepaste visuals een bijdrage geleverd ten behoeve van het algemeen belang en hebben deze gepubliceerd op de [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals)-marketplace. Deze visualisaties kunnen worden gedownload en toegevoegd aan Power BI-rapporten. Al deze aangepaste visuals zijn door Microsoft getest en goedgekeurd op het gebied van functionaliteit en kwaliteit.
+Microsoft en leden van de community hebben met hun aangepaste visuals een bijdrage geleverd ten behoeve van het algemeen belang en hebben deze gepubliceerd op de [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)-marketplace. Deze visualisaties kunnen worden gedownload en toegevoegd aan Power BI-rapporten. Al deze aangepaste visuals zijn door Microsoft getest en goedgekeurd op het gebied van functionaliteit en kwaliteit.
 
-Wat is [AppSource](developer/office-store.md)? Hier vindt u apps, invoegtoepassingen en uitbreidingen voor uw Microsoft-software. [AppSource](https://appsource.microsoft.com/en-us/) is de plek waar miljoenen gebruikers van producten zoals Office 365, Azure, Dynamics 365, Cortana en Power BI oplossingen vinden die hen helpen efficiënter, slimmer of netter te werken.
+Wat is [AppSource](developer/office-store.md)? Hier vindt u apps, invoegtoepassingen en uitbreidingen voor uw Microsoft-software. [AppSource](https://appsource.microsoft.com/) is de plek waar miljoenen gebruikers van producten zoals Office 365, Azure, Dynamics 365, Cortana en Power BI oplossingen vinden die hen helpen efficiënter, slimmer of netter te werken.
 
 ### <a name="certified-visuals"></a>Gecertificeerde visuals
 
 Visuals die zijn gecertificeerd voor Power BI, komen uit de marketplace en zijn extra uitvoerig getest op kwaliteit en worden ondersteund in aanvullende scenario's, zoals [e-mailabonnementen](https://docs.microsoft.com/power-bi/service-report-subscribe) en [exporteren naar PowerPoint](https://docs.microsoft.com/power-bi/service-publish-to-powerpoint).
 Zie [Getting a custom visual certified](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified) (Aangepaste visualisaties insturen voor certificering) voor de lijst met gecertificeerde aangepaste visualisaties. Hier leest u ook hoe u uw eigen aangepaste visualisaties kunt insturen.
 
-Bent u een webontwikkelaar en bent u geïnteresseerd in het maken van uw eigen visualisaties en wilt u deze toevoegen aan AppSource? Zie [Een aangepaste visual voor Power BI ontwikkelen](developer/custom-visual-develop-tutorial.md) als u wilt weten hoe u [aangepaste visuals naar AppSource kunt publiceren](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals).
+Bent u een webontwikkelaar en bent u geïnteresseerd in het maken van uw eigen visualisaties en wilt u deze toevoegen aan AppSource? Zie [Een aangepaste visual voor Power BI ontwikkelen](developer/custom-visual-develop-tutorial.md) als u wilt weten hoe u [aangepaste visuals naar AppSource kunt publiceren](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals).
 
 ### <a name="import-a-custom-visual-from-a-file"></a>Een aangepaste visual vanuit een bestand importeren
 
@@ -135,7 +135,7 @@ Er zijn twee manieren om aangepaste visualisaties te downloaden en te importeren
 
     ![AppSource](media/power-bi-custom-visuals/power-bi-appsource-apps.png)
 
-2. Ga naar de[overzichtspagina met apps](https://appsource.microsoft.com/en-us/marketplace/apps), waar de belangrijkste apps voor elke categorie worden weergegeven, inclusief *Power BI-apps*. Maar we zijn op zoek naar aangepaste visualisaties, dus verfijnen we de resultaten door in de lijst met invoegtoepassingen aan de linkerkant **Power BI visuals** te selecteren.
+2. Ga naar de[overzichtspagina met apps](https://appsource.microsoft.com/marketplace/apps), waar de belangrijkste apps voor elke categorie worden weergegeven, inclusief *Power BI-apps*. Maar we zijn op zoek naar aangepaste visualisaties, dus verfijnen we de resultaten door in de lijst met invoegtoepassingen aan de linkerkant **Power BI visuals** te selecteren.
 
     ![AppSource-visuals](media/power-bi-custom-visuals/power-bi-appsource-visuals.png)
 

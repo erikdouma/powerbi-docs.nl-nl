@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maggies
-ms.openlocfilehash: 2ceb8440cd64b05966caaadc9346771dd28cba82
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 8a5382a5e435f916599b05310f89d9b1f0327023
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281224"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430666"
 ---
 # <a name="testing-template-content-packs-for-power-bi"></a>Sjablooninhoudspakketten testen voor Power BI
 U kunt uw inhoudspakket op meerdere manieren testen voordat u het verzendt voor publicatie.  
@@ -68,7 +68,7 @@ Het is raadzaam om uw dashboard, rapport en gegevensset overal in uw inhoudspakk
 <a name="submission"></a>
 
 ## <a name="submission"></a>Verzending
-Met het verzendingsproces via [Microsoft AppSource](https://appsource.microsoft.com/en-us/partners/list-an-app) kunt u uw sjablooninhoudspakket publiceren in de galerie met service-inhoudspakketten op PowerBI.com, en uw inhoudspakket vermelden in [Microsoft AppSource ](http://appsource.microsoft.com).
+Met het verzendingsproces via [Microsoft AppSource](https://appsource.microsoft.com/partners/list-an-app) kunt u uw sjablooninhoudspakket publiceren in de galerie met service-inhoudspakketten op PowerBI.com, en uw inhoudspakket vermelden in [Microsoft AppSource ](http://appsource.microsoft.com).
 
 ### <a name="before-submission"></a>Voorafgaand aan verzending
 * Bekijk de ontwerptips voor elk van de artefacten binnen het inhoudspakket
@@ -77,7 +77,7 @@ Met het verzendingsproces via [Microsoft AppSource](https://appsource.microsoft.
 * Zorg ervoor dat het inhoudspakket goed reageert op V&A. Het is raadzaam ten minste 30 uiteenlopende vragen in het gegevensmodel te testen. (Sla deze stap over als u uw eigen aangepaste [gegevensconnector](https://aka.ms/DataConnectors) hebt ontwikkeld)
 
 ### <a name="submission"></a>Verzending
-Zodra u klaar bent voor verzending, gaat u naar de [apps-verzendpagina](https://appsource.microsoft.com/en-us/partners/list-an-app) op AppSource en verzendt u uw gegevens. Zorg ervoor dat u Power BI selecteert in de lijst met beschikbare producten
+Zodra u klaar bent voor verzending, gaat u naar de [apps-verzendpagina](https://appsource.microsoft.com/partners/list-an-app) op AppSource en verzendt u uw gegevens. Zorg ervoor dat u Power BI selecteert in de lijst met beschikbare producten
 
 Het Power BI-team controleert uw inzending en neemt contact met u op om te controleren of alle artefacten voldoen aan de vereisten voor inzending. Er wordt gecontroleerd of het verstrekte dashboard en de verstrekte rapporten zijn voltooid en ook wordt de kwaliteit ervan gevalideerd om ervoor te zorgen dat ze voldoen aan het bedrijfsscenario dat wordt beschreven in de toepassing.
 

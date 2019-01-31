@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f6c7df80f580c40cb1c0653b237894bb5911bde0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 7280d7c601e59b15ffad6ececfed8b111ab796cb
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282535"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430965"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Verbinding met Azure Consumption Insights maken in Power BI Desktop (bèta)
 Met de **Azure Consumption Insights**-connector kunt u vanuit **Power BI Desktop** verbinding maken met Azure en gedetailleerde gegevens en informatie over het gebruik van Azure-services van uw organisatie verkrijgen. U kunt ook metingen, aangepaste kolommen en visuele elementen maken om rapporten over het gebruik van Azure van uw organisatie te maken en te delen. Deze versie van de **Azure Consumption and Insights**-connector is een bètaversie en kan worden gewijzigd.
@@ -70,7 +70,7 @@ U kunt het selectievakje naast een tabel inschakelen om een voorbeeld van de tab
 > 
 > 
 
-Wanneer u **Laden** selecteert, worden de gegevens in **Power BI Desktop** geladen.  De connector laadt gegevens overeenkomstig de standaard tijdperiode van de tabel.  Als u de tijdperiode wilt aanpassen, [stelt u een aangepaste query in](https://docs.microsoft.com/en-us/power-bi/desktop-connect-azure-consumption-insights#using-azure-consumption-insights).
+Wanneer u **Laden** selecteert, worden de gegevens in **Power BI Desktop** geladen.  De connector laadt gegevens overeenkomstig de standaard tijdperiode van de tabel.  Als u de tijdperiode wilt aanpassen, [stelt u een aangepaste query in](https://docs.microsoft.com/power-bi/desktop-connect-azure-consumption-insights#using-azure-consumption-insights).
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2bd35e5c2bc92ee660a9524754a3daef95e6e83d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 164385fc232774999a21e1870b02fcb59b74ad50
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275796"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430183"
 ---
 # <a name="card-visualizations"></a>Kaartvisualisaties
 Soms is één getal het belangrijkste dat u wilt bijhouden op uw Power BI-dashboard of -rapport, zoals de totale omzet, het marktaandeel jaar na jaar of het totale aantal verkoopkansen. Dit type visualisatie wordt een *kaart* genoemd. Net als bij bijna alle systeemeigen Power BI-visualisaties kunnen kaarten worden gemaakt met behulp van de rapporteditor of Q&A.
@@ -49,7 +49,7 @@ In deze instructies wordt het voorbeeld van een retailanalyse gebruikt. Om mee t
 
 
 ## <a name="create-a-card-from-the-qa-question-box"></a>Een kaart maken via het vak Q&A
-Het vak Q&A is de eenvoudigste manier om een kaart te maken. Het vak Q&A is beschikbaar in de Power BI service (app.powerbi.com) vanuit een dashboard of een rapport en in Desktop-rapportweergave. De onderstaande stappen beschrijven het maken van een kaart via een dashboard in de Power BI-service. Als u met behulp van Q&A een kaart wilt maken in Power BI Desktop, [volgt u deze instructies](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-december-feature-summary/#QandA) voor de Q&A-preview voor Desktop-rapporten.
+Het vak Q&A is de eenvoudigste manier om een kaart te maken. Het vak Q&A is beschikbaar in de Power BI service (app.powerbi.com) vanuit een dashboard of een rapport en in Desktop-rapportweergave. De onderstaande stappen beschrijven het maken van een kaart via een dashboard in de Power BI-service. Als u met behulp van Q&A een kaart wilt maken in Power BI Desktop, [volgt u deze instructies](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#QandA) voor de Q&A-preview voor Desktop-rapporten.
 
 1. Maak een [dashboard](../service-dashboards.md) en [haal gegevens op](../service-get-data.md). In dit voorbeeld gebruiken we het [Voorbeeld van een kansanalyse](../sample-opportunity-analysis.md).
 

@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/26/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 8717e4938ef558eb4bb8c0614990b651d2b59c28
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 142096ca30422549227ddc1dc2d07e129e22e9af
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277705"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430873"
 ---
 # <a name="azure-and-power-bi"></a>Azure en Power BI
 
@@ -55,7 +55,7 @@ Met Azure en Power BI kunt u uitbreiden zoveel u wilt. Profiteer van gegevensver
 
 ## <a name="context-insights-with-power-bi-embedded-analytics"></a>Inzichten in context met analytische gegevens in Power BI Embedded
 
-Sluit prachtige, interactieve gegevensvisualisaties in toepassingen, websites, portals en meer in en profiteer van uw zakelijke gegevens. Met [Power BI Embedded als een resource in Azure](https://azure.microsoft.com/services/power-bi-embedded/) sluit u eenvoudig interactieve rapporten en dashboards in, zodat de gegevens consistent en betrouwbaar op alle apparaten van uw gebruikers worden weergegeven.  Als Power BI wordt gebruikt met ingesloten analytische gegevens, helpt dat in het traject gegevens -> kennis -> inzichten -> acties.  Bovendien vergroot u de waarde van Power BI en Azure door analytische gegevens in te sluiten in [de interne toepassingen en portals van uw bedrijf](https://powerbi.microsoft.com/en-us/developers/embedded-analytics/organization/).
+Sluit prachtige, interactieve gegevensvisualisaties in toepassingen, websites, portals en meer in en profiteer van uw zakelijke gegevens. Met [Power BI Embedded als een resource in Azure](https://azure.microsoft.com/services/power-bi-embedded/) sluit u eenvoudig interactieve rapporten en dashboards in, zodat de gegevens consistent en betrouwbaar op alle apparaten van uw gebruikers worden weergegeven.  Als Power BI wordt gebruikt met ingesloten analytische gegevens, helpt dat in het traject gegevens -> kennis -> inzichten -> acties.  Bovendien vergroot u de waarde van Power BI en Azure door analytische gegevens in te sluiten in [de interne toepassingen en portals van uw bedrijf](https://powerbi.microsoft.com/developers/embedded-analytics/organization/).
 
 Er staat veel informatie over Power BI-API's in de [Power BI-portal voor ontwikkelaars](http://dev.powerbi.com).
 
