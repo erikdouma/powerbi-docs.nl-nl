@@ -608,6 +608,8 @@ items:
         href: service-share-dashboards.md
       - name: Een gefilterd rapport delen
         href: service-share-reports.md
+      - name: Uzelf en anderen abonneren
+        href: service-report-subscribe.md
       - name: Rapport insluiten in SharePoint Online
         href: service-embed-report-spo.md
       - name: Rapport insluiten in een beveiligde portal of website
@@ -1248,6 +1250,8 @@ items:
       href: service-admin-role.md
     - name: Veelgestelde vragen
       href: service-admin-faq.md
+    - name: Veelgestelde vragen over hoge beschikbaarheid en failover
+      href: service-admin-failover.md
   - name: Procedures
     items:
     - name: Licentieverlening en aanmelding
@@ -1295,9 +1299,9 @@ items:
       href: service-admin-governance.md
     - name: Beveiliging van Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 070efc5b3775b8d675e7f053094f108edabd3115
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: 5b2dc80f12aba21c7d5a1f0da71f8eb31d242c5b
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234480"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431103"
