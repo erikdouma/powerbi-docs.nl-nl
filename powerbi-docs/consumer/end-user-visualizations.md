@@ -1,5 +1,5 @@
 ---
-title: Werken met visualisaties
+title: Werken met visualisaties as consument
 description: 'Concepten en terminologie in Power BI: visualisaties, visuals. Wat is een Power BI-visualisatie of -visual?'
 author: mihart
 manager: kvivek
@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/29/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 875f5cef31ea61fffff29404b03af5bbbfc9f0c6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5eadf12fc1b54e8f5ac657685826816f0fca318d
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287625"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234342"
 ---
 # <a name="visualizations-for-power-bi-consumers"></a>Visualisaties voor Power BI-**gebruikers**
 
@@ -53,4 +53,5 @@ Maar eerst iets over Q&A. Q&A is het zoekhulpprogramma voor natuurlijke taal van
 
 ## <a name="next-steps"></a>Volgende stappen
 Terug naar de [Basisconcepten voor gebruikers](end-user-basic-concepts.md)    
-[Een visualisatie selecteren om een rapport te openen](end-user-report-open.md)
+[Een visualisatie selecteren om een rapport te openen](end-user-report-open.md)    
+[Typen visualisaties die beschikbaar zijn in Power BI](end-user-visual-type.md)

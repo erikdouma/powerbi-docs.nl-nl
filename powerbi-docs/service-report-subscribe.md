@@ -1,6 +1,6 @@
 ---
-title: Abonneren op rapporten en dashboards in de Power BI-service
-description: Leer hoe u zich kunt abonneren op een momentopname van een Power BI-rapport en -dashboard.
+title: Uzelf en anderen abonneren op rapporten en dashboards in de Power BI-service
+description: Leer hoe u uzelf en anderen kunt abonneren op een momentopname van een Power BI-rapport of -dashboard.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -8,90 +8,91 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/04/2018
+ms.date: 01/29/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 73e89b0228a1adf78bf1676749f910c6d1866a81
-ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
+ms.openlocfilehash: a7c9c72dfbb75958be3119db61fa3aa03ac89171
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "54406633"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430942"
 ---
-# <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>Abonneren op een rapport of dashboard in de Power BI-service
-Het is nog nooit zo eenvoudig geweest om op de hoogte blijven van uw belangrijkste dashboards en rapporten. Abonneer u en uzelf op de rapportpagina's en dashboards die voor u het belangrijkst zijn, zodat u een e-mail van Power BI in uw postvak ontvangt met een momentopname. U geeft voor Power BI op hoe vaak u de e-mails wilt ontvangen: van één keer per dag tot één keer per week. 
+# <a name="subscribe-yourself-and-others-to-a-report-or-dashboard-in-the-power-bi-service"></a>Uzelf en anderen abonneren op een rapport of dashboard in de Power BI-service
 
-De e-mail en momentopname gebruiken de taal die is ingesteld in de instellingen van Power BI (zie [Ondersteunde talen en landen/regio's voor Power BI](supported-languages-countries-regions.md)). Als er geen taal is ingesteld, gebruikt Power BI de taal van de lokale instellingen in uw huidige browser. Als u uw voorkeurstaal wilt bekijken of instellen, selecteert u het tandwielpictogram ![Tandwielpictogram](media/service-report-subscribe/power-bi-settings-icon.png) > **Instellingen > Algemeen > Taal**. 
+U kunt uzelf en uw collega's abonneren op de rapportpagina's en dashboards die voor u het belangrijkst zijn, zodat u een e-mail van Power BI in uw postvak ontvangt met een momentopname. U geeft aan in Power BI hoe vaak u de e-mailberichten wilt ontvangen: dagelijks, wekelijks, of eenmaal daags na de initiële vernieuwing van gegevens.  Als u dagelijks of wekelijks kiest, kunt u de tijd(en) kiezen waarop u graag wilt dat het abonnement wordt uitgevoerd.  Alles met elkaar kunt u maximaal 24 verschillende abonnementen per dag voor elke rapportpagina en elk dashboard instellen.
 
-![Vervolgkeuzelijst Taal](media/service-report-subscribe/power-bi-language.png)
+![E-mail met momentopname van dashboard](media/service-report-subscribe/power-bi-dashboard-email-new.jpg) 
 
-Abonnementen kunnen alleen worden gemaakt in de Power BI-service. Wanneer u de e-mail ontvangt, bevat deze een koppeling naar het rapport of dashboard. Wanneer deze koppeling wordt geselecteerd op een mobiel apparaat waarop Power BI-apps zijn geïnstalleerd, wordt de app in plaats van het rapport of het dashboard op de website van Power BI (standaardacties) geopend.
-
+U kunt alleen abonnementen maken in de Power BI-service. U ontvangt een e-mail met een momentopname van de rapportpagina of het dashboard met een koppeling voor het openen van het rapport of dashboard. Wanneer deze koppeling wordt geselecteerd op een mobiel apparaat waarop Power BI-apps zijn geïnstalleerd, wordt de Power BI-app gestart in plaats van dat het rapport of het dashboard op de website van Power BI wordt geopend.
 
 ## <a name="requirements"></a>Vereisten
-- Het **maken** van een abonnement is een Power BI Pro-functie en u moet over bewerkingsmachtigingen beschikken voor de inhoud (dashboard of rapport) om dat abonnement te maken. 
-- Aangezien de e-mailberichten waarop u zich kunt abonneren, alleen worden verzonden wanneer een onderliggende gegevensset wordt bijgewerkt of vernieuwd, werken dergelijke abonnementen niet voor gegevenssets die niet worden bijgewerkt of vernieuwd.
+- Een abonnement **maken** is een functie van Power BI Pro.
+- U hebt geen bewerkingsmachtigingen nodig voor de inhoud (dashboard of rapport) om een abonnement voor uzelf te maken, maar u moet wel over deze machtigingen beschikken om er eentje te maken voor iemand anders. 
+- Vanaf januari 2019 hoeft u niet langer de functie Gegevensset vernieuwen te hebben ingesteld om een abonnement uit te voeren.  Deze wordt uitgevoerd onafhankelijk van eventueel geplande vernieuwingen die u hebt ingesteld.  
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>Abonneren op een dashboard of een rapportpagina
-Het proces voor het abonneren op een dashboard of rapport is grotendeels vergelijkbaar. U kunt zich (en anderen) met dezelfde knop abonneren op Power BI-service-dashboards en -rapporten.
+Het proces voor het abonneren op een dashboard of rapport is vergelijkbaar. U kunt u met dezelfde knop abonneren op dashboards en rapporten van de Power BI-service.
  
 ![Pictogram Abonneren selecteren](media/service-report-subscribe/power-bi-subscribe-orientation.png).
 
 1. Open het dashboard of het rapport.
-2. Selecteer in de bovenste menubalk **Abonneren** of selecteer het enveloppictogram ![Enveloppictogram](media/service-report-subscribe/power-bi-icon-envelope.png).
+2. Selecteer in de bovenste menubalk **Abonneren** of selecteer het enveloppictogram ![pictogram Abonneren](media/service-report-subscribe/power-bi-icon-envelope.png).
    
    ![Pictogram Abonneren](media/service-report-subscribe/power-bi-subscribe-icon.png)
 
-3. Gebruik de gele schuifregelaar om het abonnement in of uit te schakelen.  Als u schuifregelaar instelt op Uit, wordt het abonnement niet verwijderd. Selecteer het prullenbakpictogram om het abonnement te verwijderen.
+3. Gebruik de gele schuifregelaar om het abonnement in of uit te schakelen.  Als u de schuifregelaar instelt op **Uit**, wordt het abonnement niet verwijderd. Selecteer het prullenbakpictogram om het abonnement te verwijderen.
 
-4. Vul de gegevens voor het e-mailbericht in. Uw e-mailadres is vooraf ingevuld, maar u kunt ook anderen toevoegen aan het abonnement. Alleen e-mailadressen in hetzelfde domein kunnen worden toegevoegd (Zie **Overwegingen en probleemoplossing** hieronder voor meer informatie). Als het rapport of het dashboard wordt gehost in [Premium-capaciteit](service-premium.md), kunt u anderen abonneren met afzonderlijke e-mailadressen en groepsaliassen. Als het rapport of het dashboard niet in Premium-capaciteit wordt gehost, kunt u nog steeds anderen abonneren met hun afzonderlijke e-mailadres, maar moeten zij zelf ook een Power BI Pro-licentie hebben.
+4. Uw e-mailadres bevindt zich al in het vak **Abonneren**. U kunt tevens andere e-mailadressen toevoegen aan het abonnement, maar alleen in hetzelfde domein. Als het rapport of het dashboard wordt gehost in [Premium-capaciteit](service-premium.md), kunt u andere afzonderlijke e-mailadressen en groepsaliassen abonneren. Als het rapport of het dashboard wordt gehost in Premium-capaciteit, kunt u andere afzonderlijke e-mailadressen en groepsaliassen abonneren. Zie [Aandachtspunten en probleemoplossing](#considerations-and-troubleshooting) hieronder voor uitgebreide informatie. 
+
+5. Vul de gegevens **Onderwerp** en **bericht** voor het e-mailbericht in. 
+
+5. Selecteer een **frequentie** voor uw abonnement: **Dagelijks**, **Wekelijks** of **Nadat gegevens zijn vernieuwd (dagelijks)**.  Als u het e-mailbericht van het abonnement alleen op bepaalde dagen wilt ontvangen, selecteert u **wekelijks** en selecteert u de dagen waarop u het wilt ontvangen.  Als u bijvoorbeeld het e-mailbericht van het abonnement alleen op weekdagen wilt, ontvangen, selecteert u **Wekelijks** en schakelt u de selectievakjes voor de **Za** en **Zo** uit.  
+
+6. Als u kiest voor **Dagelijks** of **Wekelijks**, kunt u ook een **Geplande tijd** voor het abonnement kiezen.  U kunt de verzending op het hele uur of om 15, 30 of 45 minuten erna laten uitvoeren.  Selecteer ochtend (AM) of middag/avond (PM). U kunt ook de tijdzone opgeven.
+
+7. De begindatum voor uw abonnement is standaard de datum waarop u het hebt gemaakt. U hebt de mogelijkheid om een einddatum te selecteren. Als u geen einddatum instelt, is de einddatum automatisch één jaar na de begindatum. U kunt deze op elk gewenst moment wijzigen in ongeacht welke datum in de toekomst (tot het jaar 9999) voordat het abonnement afloopt. Wanneer een abonnement een einddatum heeft bereikt, wordt het stopgezet tenzij u het opnieuw inschakelt. U ontvangt vóór de geplande einddatum een melding/meldingen met de vraag of u wilt verlengen.    
 
     Merk op in de onderstaande schermafbeelding dat wanneer u zich op een rapport abonneert, u zich feitelijk abonneert op een rapport*pagina*.  Als u zich op meer dan één pagina in een rapport wilt abonneren, selecteert u **Nog een abonnement toevoegen** en selecteert u een andere pagina. 
       
-   ![Venster Abonneren](media/service-report-subscribe/power-bi-emails-new.png)  
+   ![Deelvenster Abonneren](media/service-report-subscribe/power-bi-subscribe-pane.png)  
 
-5. Selecteer **Opslaan en sluiten** om het abonnement op te slaan. Steeds wanneer een van de onderliggende gegevenssets wordt gewijzigd, ontvangen de abonnees een e-mail met een momentopname van het dashboard of de rapportpagina. Als het dashboard of rapport vaker dan één keer per dag wordt vernieuwd, ontvangt u alleen na de eerste vernieuwing een e-mail.  
-   
-   ![E-mail met momentopname van dashboard](media/service-report-subscribe/power-bi-dashboard-email-new.jpg) 
-   
+7. Selecteer **Opslaan en sluiten**. Degenen die zijn geabonneerd, ontvangen een e-mailbericht en een momentopname van het dashboard of de rapportpagina voor de frequentie en de tijd die u hebt geselecteerd. Alles bij elkaar kunt u maximaal 24 abonnementen per rapport of dashboard maken en kunt u zorgen voor unieke ontvangers, tijden en frequenties voor elk abonnement.  Alle abonnementen die zijn ingesteld op **Nadat gegevens zijn vernieuwd** voor uw dashboard of rapport verzenden nog steeds alleen een e-mailbericht na de eerste geplande vernieuwing.   
+      
    > [!TIP]
-   > Wilt u het e-mailbericht meteen zien? Activeer een e-mail door een van de gegevenssets te vernieuwen die zijn gekoppeld aan het dashboard of de gegevensset die aan het rapport is gekoppeld. (Als u geen bewerkingsmachtigingen hebt voor de gegevensset, moet u iemand met de juiste machtigingen vragen om dit voor u te doen.) Als u wilt weten welke gegevenssets worden gebruikt, selecteert u het pictogram **Gerelateerde items weergeven** ![Pictogram Gerelateerde items weergeven](media/service-report-subscribe/power-bi-view-related.png) om **Gerelateerde inhoud** te openen en selecteert u vervolgens het vernieuwingspictogram ![Vernieuwingspictogram](media/service-report-subscribe/power-bi-refresh.png). 
+   > Wilt u het e-mailbericht meteen zien? Activeer een e-mail door een van de gegevenssets te vernieuwen die zijn gekoppeld aan het dashboard of de gegevensset die aan het rapport is gekoppeld. Als u geen bewerkingsmachtigingen hebt voor de gegevensset, moet u iemand met de juiste machtigingen vragen om deze voor u te vernieuwen. Als u ermee samenhangende gegevenssets wilt bekijken, selecteert u het pictogram **Gerelateerde items weergeven** ![Pictogram Gerelateerde items weergeven](media/service-report-subscribe/power-bi-view-related.png) om **Gerelateerde inhoud** te openen en selecteert u vervolgens het vernieuwingspictogram ![Vernieuwingspictogram](media/service-report-subscribe/power-bi-refresh.png). 
    > 
    > 
    
    ![Verwante gegevenssets](media/service-report-subscribe/power-bi-view-related-screen.png)
 
-## <a name="how-the-email-schedule-is-determined"></a>Hoe het e-mailschema wordt bepaald
-In de volgende tabel wordt beschreven hoe vaak u een e-mailbericht ontvangt. Alles is afhankelijk van de verbindingsmethode van de gegevensset waarop het dashboard of rapport is gebaseerd (DirectQuery, Live Connect, geïmporteerd in Power BI of een Excel-bestand in OneDrive of SharePoint Online) en op de abonnementopties (dagelijks, wekelijks of geen).
+## <a name="email-languages"></a>E-mailtalen
 
-|  | **DirectQuery** | **Live Connect** | **Geplande vernieuwing (import)** | **Excel-bestand in OneDrive/SharePoint Online** |
-| --- | --- | --- | --- | --- |
-| **Hoe vaak wordt het rapport/dashboard vernieuwd?** |Elke 15 minuten |Power BI controleert om de 15 minuten en als de gegevensset is gewijzigd, wordt het rapport vernieuwd. |De gebruiker selecteert geen, dagelijks of wekelijks. Dagelijks mag maximaal 8 keer per dag zijn. Wekelijks is daadwerkelijk een wekelijks schema dat de gebruiker maakt, waarbij er een vernieuwingsfrequentie van minimaal één keer per week en maximaal één keer per dag kan worden ingesteld. |Elk uur |
-| **Hoeveel controle heeft de gebruiker over het e-mailschema voor het abonnement?** |Opties zijn: dagelijks of wekelijks |Geen opties: de gebruiker ontvangt een e-mailbericht als het rapport wordt vernieuwd, maar niet vaker dan één keer per dag. |Als het rapport dagelijks wordt vernieuwd, zijn de opties dagelijks en wekelijks.  Als het rapport wekelijks wordt vernieuwd, is alleen de optie wekelijks beschikbaar. |Geen opties: de gebruiker een ontvangt een e-mailbericht wanneer de gegevensset wordt bijgewerkt, maar niet vaker dan één keer per dag. |
+De e-mail en momentopname gebruiken de taal die is ingesteld in de instellingen van Power BI (zie [Ondersteunde talen en landen/regio's voor Power BI](supported-languages-countries-regions.md)). Als er geen taal is ingesteld, gebruikt Power BI de taal van de lokale instellingen in uw huidige browser. Als u uw voorkeurstaal wilt bekijken of instellen, selecteert u het tandwielpictogram ![Tandwielpictogram](media/service-report-subscribe/power-bi-settings-icon.png) > **Instellingen > Algemeen > Taal**. 
+
+![Vervolgkeuzelijst Taal](media/service-report-subscribe/power-bi-language.png)
 
 ## <a name="manage-your-subscriptions"></a>Uw abonnementen beheren
-Alleen degene die het abonnement heeft gemaakt, kan dit beheren.  Er zijn 2 paden naar het scherm voor het beheren van uw abonnementen.  Voor het eerste pad selecteert u de optie **Alle abonnementen beheren** in het dialoogvenster **Abonneren op e-mails** (zie de schermafbeeldingen onder stap 4 hierboven). Voor het tweede pad selecteert u in de bovenste menubalk het tandwielpictogram ![Tandwielpictogram](media/service-report-subscribe/power-bi-settings-icon.png) van Power BI en kiest u **Instellingen**.
+Alleen degene die het abonnement heeft gemaakt, kan dit beheren.  Er zijn twee paden naar het scherm voor het beheren van uw abonnementen.  Voor het eerste pad selecteert u de optie **Alle abonnementen beheren** in het dialoogvenster **Abonneren op e-mails** (zie de schermafbeeldingen onder stap 4 hierboven). Voor het tweede pad selecteert u in de bovenste menubalk het tandwielpictogram ![Tandwielpictogram](media/service-report-subscribe/power-bi-settings-icon.png) van Power BI en kiest u **Instellingen**.
 
 ![Instellingen selecteren](media/service-report-subscribe/power-bi-subscribe-settings.png)
 
-Welke abonnementen worden weergegeven, is afhankelijk van de werkruimte die op dat moment actief is.  Als u alle abonnementen voor alle werkruimten allemaal in één keer wilt weergeven, moet u ervoor zorgen dat **Mijn werkruimte** actief is. Zie [Werkruimten in Power BI](service-create-distribute-apps.md) voor meer informatie over werkruimten.
+Welke abonnementen worden weergegeven, is afhankelijk van de werkruimte die op dat moment actief is.  Als u alle abonnementen voor alle werkruimten allemaal in één keer wilt weergeven, moet u ervoor zorgen dat **Mijn werkruimte** actief is. Zie [Werkruimten in Power BI](service-create-workspaces.md) voor meer informatie over werkruimten.
 
 ![Alle abonnementen in mijn werkruimte weergeven](media/service-report-subscribe/power-bi-subscriptions.png)
 
-Een abonnement wordt beëindigd als de Pro-licentie is verlopen, het dashboard of rapport door de eigenaar wordt verwijderd of het gebruikersaccount wordt verwijderd dat is gebruikt om het abonnement te maken.
+Een abonnement wordt beëindigd als de Pro-licentie is verlopen, de eigenaar het dashboard of rapport verwijdert of het gebruikersaccount wordt verwijderd dat is gebruikt om het abonnement te maken.
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 * Als voor e-mailabonnementen in een dashboard beveiliging op rijniveau (RLS) is toegepast op een of meer tegels, worden deze tegels niet weergegeven.  Als de gegevensset RLS gebruikt voor e-mailabonnementen voor rapporten, kunt u geen abonnement maken.
-* Abonnementen op rapportpagina’s zijn gekoppeld aan de naam van de rapportpagina. Als u zich abonneert op een rapportpagina en de naam ervan wijzigt, moet u uw abonnement opnieuw maken
-* Uw organisatie kan bepaalde instellingen in Azure Active Directory configureren, waardoor de mogelijkheid wordt beperkt om e-mailabonnementen in Power BI te gebruiken.  Dit omvat, maar is niet beperkt tot, het gebruik van Multi-Factor Authentication of beperkingen voor IP-bereik bij het openen van resources.
+* Abonnementen op rapportpagina’s zijn gekoppeld aan de naam van de rapportpagina. Als u zich abonneert op een rapportpagina en daarna de naam ervan wijzigt, moet u uw abonnement opnieuw maken.
+* Uw organisatie kan bepaalde instellingen in Azure Active Directory configureren, waardoor de mogelijkheid wordt beperkt om e-mailabonnementen in Power BI te gebruiken.  Deze beperkingen omvatten, maar zijn niet beperkt tot, het gebruik van meervoudige verificatie of beperkingen voor IP-bereik bij het openen van resources.
 * Momenteel worden e-mailabonnementen op rapporten/dashboards waarvoor gegevenssets van liveverbindingen worden gebruikt, niet ondersteund wanneer u andere gebruikers dan uzelf abonneert.
-* Voor e-mailabonnementen op gegevenssets met een liveverbinding ontvangt u alleen e-mailberichten wanneer de gegevens worden gewijzigd. Als de gegevensset wordt vernieuwd en er geen gegevenswijzigingen zijn, ontvangt u geen mail van Power BI.
 * E-mailabonnementen bieden geen ondersteuning voor de [aangepaste visuals](power-bi-custom-visuals.md).  De enige uitzondering hierop vormen de aangepaste visuals die zijn [gecertificeerd](power-bi-custom-visuals-certified.md).  
 * E-mailabonnementen bieden op dit moment geen ondersteuning voor de aangepaste R-visuals.  
 * Als beveiliging op rijniveau (RLS) is toegepast op een of meer dashboardtegels, worden deze tegels niet weergegeven.
 * U kunt andere gebruikers niet abonneren op een rapport waarop RLS is toegepast.
 * E-mailabonnementen worden verzonden met de standaard filter- en slicerstatus voor het rapport. De wijzigingen die u aanbrengt in de standaardwaarden nadat u zich abonneert, worden niet weergegeven in het e-mailbericht.    
-* E-mailabonnementen worden nog niet ondersteund voor rapportpagina's die zijn gemaakt met de Power BI Desktop-functie voor een liveverbinding met de service.    
 * Voor dashboardabonnementen geldt dat bepaalde soorten tegels nog niet worden ondersteund.  Hierbij gaat het om: streamingtegels, videotegels, tegels voor aangepaste webinhoud.     
 * Als u een dashboard deelt met een collega buiten uw tenant, kunt u niet ook een abonnement maken voor deze collega. Als u aaron@xyz.com bent, kunt u delen met anyone@ABC.com, maar kunt u anyone@ABC.com nog niet abonneren en kunnen zij zich niet abonneren op gedeelde inhoud.      
 * Mogelijk kunt u zich vanwege de maximale e-mailgrootte niet abonneren op dashboards of rapporten met extreem grote afbeeldingen.    

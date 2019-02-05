@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 494612b9c8ef448756dfe2d516bfca68e69d2e7a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9002b1871f5e7db4ef67d4f2f77b6b8769aa1de6
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296818"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430275"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI beheren: veelgestelde vragen
 
@@ -45,6 +45,7 @@ Dit artikel bevat veelgestelde vragen over Power BI-beheer. Zie [Wat is Power BI
 * [Zijn er nog andere zaken waarop ik me moet voorbereiden?](#are-there-any-additional-things-i-should-be-prepared-for)
 * [Waar bevindt mijn Power BI-tenant zich?](#where-is-my-power-bi-tenant-located)
 * [Wat is de Power BI SLA (Service Level Agreement)?](#what-is-the-power-bi-sla)
+* [Hoe gaat Power BI om met hoge beschikbaarheid en failover?](#how-does-power-bi-handle-high-availability-and-failover)
 
 ### <a name="security-in-power-bi-section"></a>Beveiliging in Power BI
 
@@ -241,11 +242,15 @@ Zie [Waar bevindt mijn Power BI-tenant zich?](service-admin-where-is-my-tenant-l
 
 Raadpleeg het artikel [Licensing Terms and Documentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) (Licentievoorwaarden en documentatie) in het gedeelte **Licensing** (Licentieverlening) van de website Microsoft Licensing voor meer informatie over de Power BI SLA (Service Level Agreement).
 
+### <a name="how-does-power-bi-handle-high-availability-and-failover"></a>Hoe gaat Power BI om met hoge beschikbaarheid en failover?
+
+Zie [Hoge beschikbaarheid en failover in Power BI en Veelgestelde vragen over herstel na noodgeval](service-admin-failover.md) voor meer informatie over de hoge beschikbaarheid en failover.
+
 ## <a name="security-in-power-bi"></a>Beveiliging in Power BI
 
 ### <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Voldoet Power BI aan nationale, regionale en branchespecifieke nalevingsvereisten?
 
-Lees meer informatie over Power BI-naleving in het [Microsoft Vertrouwenscentrum](https://www.microsoft.com/en-us/TrustCenter/CloudServices/business-application-platform/default.aspx).
+Lees meer informatie over Power BI-naleving in het [Microsoft Vertrouwenscentrum](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/default.aspx).
 
 ### <a name="how-does-security-work-in-power-bi"></a>Hoe werkt beveiliging in Power BI?
 

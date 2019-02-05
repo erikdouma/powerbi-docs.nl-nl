@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/11/2018
+ms.date: 01/30/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9241c46c368eba094c075efe42d4989c03979125
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 08a2de32b092ba24b66ddd9f173be1eaea8819ab
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296414"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55429861"
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Lintgrafieken gebruiken in Power BI
 U kunt lintgrafieken gebruiken om gegevens te visualiseren en snel te ontdekken welke gegevenscategorie de hoogste rang heeft (hoogste waarde). In lintgrafieken kunnen wijzigingen in de rang goed worden weergegeven, waarbij voor elke periode de hoogste rang (waarde) altijd bovenaan wordt weergegeven. 
@@ -23,16 +23,28 @@ U kunt lintgrafieken gebruiken om gegevens te visualiseren en snel te ontdekken 
 ![lintgrafiek](media/desktop-ribbon-charts/ribbon-charts_01.png)
 
 ## <a name="create-a-ribbon-chart"></a>Een lintgrafiek maken
-Selecteer **Lintgrafiek** in het deelvenster **Visualisaties** als u een lintgrafiek wilt maken.
+Als u wilt volgen, opent u [Voorbeeldrapport van een retailanalyse](../sample-retail-analysis.md). 
 
-![](media/desktop-ribbon-charts/ribbon-charts_02.png)
+1. Selecteer **Lintgrafiek** in het deelvenster **Visualisaties** als u een lintgrafiek wilt maken.
 
-Lintgrafieken verbinden met behulp van linten een gegevenscategorie met het gevisualiseerde tijdcontinuüm, zodat u kunt zien hoe de rang van een bepaalde categorie langs de X-as (meestal de tijd) verandert.
+    ![visualisatiesjablonen](media/desktop-ribbon-charts/ribbon-charts_02.png)
+
+    Lintgrafieken verbinden met behulp van linten een gegevenscategorie met het gevisualiseerde tijdcontinuüm, zodat u kunt zien hoe de rang van een bepaalde categorie langs de X-as (meestal de tijd) verandert.
+
+2. Selecteer velden voor **As**, **Legenda** en **Waarde**.  In dit voorbeeld zijn de volgende velden geselecteerd: **Datum**, **Categorie** en **Verkopen van dit jaar**.  
+
+    ![geselecteerde velden](media/desktop-ribbon-charts/power-bi-ribbon-values.png)
+
+    Omdat de gegevensset gegevens voor slechts één jaar bevat, hebben we het veld **Jaar** uit de well **As** verwijderd. 
+
+3. Het lintdiagram toont de positie van elke andere maand. U ziet hoe de positie in de tijd verandert.  De categorie Startpagina is bijvoorbeeld van de derde naar de vierde positie gegaan en weer terug naar de derde. De categorie Juniors zijn in juli van de derde naar de vijfde positie gegaan. 
+
+    ![lintgrafiek](media/desktop-ribbon-charts/power-bi-ribbon.png)
 
 ## <a name="format-a-ribbon-chart"></a>Een lintgrafiek opmaken
 Als u een lintgrafiek maakt, hebt u de beschikking over opmaakopties in de sectie **Opmaken** van het deelvenster **Visualisaties**. De opmaakopties voor lintgrafieken zijn soortgelijk als die voor een gestapelde kolomdiagram. Voor linten zijn er daarnaast aanvullende opmaakopties beschikbaar.
 
-![lintsjabloon in het deelvenster Visualisatie](media/desktop-ribbon-charts/ribbon-charts_03.png)
+![lintsjabloon in het deelvenster Visualisatie](media/desktop-ribbon-charts/power-bi-format-ribbon.png)
 
 Met deze opmaakopties voor lintgrafieken kunt u de volgende aanpassingen maken.
 
@@ -40,6 +52,14 @@ Met deze opmaakopties voor lintgrafieken kunt u de volgende aanpassingen maken.
 * **Afstemmen op de kleur van de reeks**: hiermee kunt u de kleur van de linten afstemmen op de kleur van de reeks. Indien dit is ingesteld op **uit**, zijn alle linten grijs.
 * **Doorzichtigheid**: hiermee kunt u aangeven hoe doorzichtig de linten moeten zijn. De standaardwaarde is 30.
 * **Rand**: hiermee kunt u een donkere rand boven en onder aan de linten plaatsen. Standaard zijn de randen afwezig.
+
+Omdat het lintdiagram geen Y-as-labels bevat, kunt u eventueel gegevenslabels toevoegen. Selecteer in het deelvenster Opmaak de optie **Gegevenslabels**. 
+
+![opmaakopties voor gegevenslabels](media/desktop-ribbon-charts/power-bi-labels.png)
+
+opmaakopties instellen voor uw gegevenslabels.  In dit voorbeeld hebben we de tekstkleur op wit, het aantal decimalen op nul en de weergave-eenheden op duizenden ingesteld. 
+
+![lintsjabloon in het deelvenster Visualisatie](media/desktop-ribbon-charts/power-bi-data-labels.png)
 
 ## <a name="next-steps"></a>Volgende stappen
 

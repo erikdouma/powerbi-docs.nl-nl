@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: 36a3026ebbdf1290d7f809f5c1ccaac7f5fbd7d0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b4977bd043cec08c86fbd3c8893e8f1e185dc1fc
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292401"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430551"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Gegevens offline weergeven in de mobiele Power BI-apps
 Van toepassing op:
@@ -57,6 +57,7 @@ Wanneer u offline bent met Power BI op uw mobiele apparaat, kunnen deze beperkin
 * Hele Excel-werkmappen zijn niet offline beschikbaar in Power BI.
 * U kunt mobiele rapporten en KPI's van Reporting Services offline zien, maar alleen als u ze eerder hebt bekeken terwijl er verbinding was. Deze onderdelen worden niet op de achtergrond vernieuwd. Dit gebeurt alleen wanneer u ze opent.
 * Power BI Desktop-bestanden (.pbix) die zijn opgeslagen naar Power BI Report Server, zijn niet zichtbaar in de mobiele Power BI-apps. 
+* Gepagineerde rapporten (RDL) zijn niet beschikbaar wanneer het netwerk offline is.
 
 ## <a name="next-steps"></a>Volgende stappen
 Op basis van uw feedback kunnen we bepalen wat in de toekomst moet worden geïmplementeerd. Vergeet dus niet op andere functies te stemmen die u graag in de mobiele Power BI-apps zou willen zien. 

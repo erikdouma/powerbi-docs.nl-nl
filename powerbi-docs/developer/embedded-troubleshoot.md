@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/20/2018
-ms.openlocfilehash: 4fff6b19b9a17b626d11545a8d4baa8464ffc324
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: a53ddf70e82c191af520f2dbba5b5d3d1b0ced42
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294074"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431218"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Problemen oplossen met uw ingesloten toepassing
 
@@ -99,6 +99,14 @@ De back-end van de toepassing moet het verificatietoken mogelijk vernieuwen voor
 
 ## <a name="authentication"></a>Verificatie
 
+### <a name="authentication-failed-with-aadsts90002-tenant-authorize-not-found"></a>De verificatie is mislukt met AADSTS90002: Tenant 'autoriseren' niet gevonden
+
+ Als u bij het aanmelden berichten ontvangt zoals ***fout: invalid_request, error_description: AADSTS90002: Tenant 'autoriseren' niet gevonden***, is dat omdat ADAL 4.x geen ondersteuning biedt voor 'https://login.microsoftonline.com/{Tenant}/oauth2/authorize/' als autoriteit-URL.
+ 
+U lost dit probleem op door 'oauth2/authorize/' aan het einde van de autoriteit-URL te verwijderen; zie [Voorbeelden voor Power BI-ontwikkelaars](https://github.com/Microsoft/PowerBI-Developer-Samples) ter referentie.
+
+ Controleer [Betere autoriteitsvalidatie](https://github.com/AzureAD/azure-activedirectory-library-for-dotnet/wiki/Changes-adalnet-4.0#better-authority-validation) in de releaseopmerkingen van ADAL 4.x.
+ 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>De verificatie is mislukt met AADSTS70002 of AADSTS50053
 
 **_(AADSTS70002: er is een fout opgetreden bij het valideren van referenties. AADSTS50053: u hebt te vaak geprobeerd u aan te melden met een onjuiste gebruikers-id of een onjuist wachtwoord)_**
@@ -243,7 +251,7 @@ U kunt het [installatieprogramma voor insluiten](https://aka.ms/embedsetup) door
 
 Verifieer dat u aan alle voorwaarden voldoet voordat u het installatieprogramma voor insluiten gebruikt. U hebt een **Power BI Pro**-account en een **Microsoft Azure**-account nodig.
 
-* Als u zich niet hebt geregistreerd voor **Power BI Pro**, [kunt u zich hier aanmelden voor een gratis proefversie](https://powerbi.microsoft.com/en-us/pricing/) voordat u begint.
+* Als u zich niet hebt geregistreerd voor **Power BI Pro**, [kunt u zich hier aanmelden voor een gratis proefversie](https://powerbi.microsoft.com/pricing/) voordat u begint.
 * Als u nog geen abonnement op Azure hebt, maakt u een [gratis account](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) voordat u begint.
 * U moet beschikken over een eigen [Azure Active Directory-tenant ](create-an-azure-active-directory-tenant.md).
 * [Visual Studio](https://www.visualstudio.com/) moet zijn geïnstalleerd (versie 2013 of hoger).
@@ -294,7 +302,7 @@ Zie [Veelgestelde vragen over Power BI Embedded](embedded-faq.md) voor meer info
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 
-Als u meer hulp nodig hebt, [neemt u contact op met de ondersteuning](https://powerbi.microsoft.com/en-us/support/pro/?Type=documentation&q=power+bi+embedded) of [maakt u een ondersteuningsticket via Azure Portal](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest) en geeft u de foutberichten op die zijn weergegeven.
+Als u meer hulp nodig hebt, [neemt u contact op met de ondersteuning](https://powerbi.microsoft.com/support/pro/?Type=documentation&q=power+bi+embedded) of [maakt u een ondersteuningsticket via Azure Portal](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest) en geeft u de foutberichten op die zijn weergegeven.
 
 ## <a name="next-steps"></a>Volgende stappen
 

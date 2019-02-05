@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 5998f4b63a168c3056a5464844d008bd657ef7c9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: a37daca38c13cff08be13da619735214002646a3
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294250"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430528"
 ---
 # <a name="using-an-alternate-email-address"></a>Een ander e-mailadres gebruiken
 
@@ -64,7 +64,7 @@ Power BI selecteert welk e-mailadres moet worden gebruikt op basis van deze volg
 
 1. Als het e-mailkenmerk in het Azure AD-gebruikersobject aanwezig is, gebruikt Power BI dat e-mailkenmerk als e-mailadres.
 
-1. Als het UPN-e-mailadres *niet* behoort tot het domein **\*.onmicrosoft.com** (de gegevens na het symbool '@'), gebruikt Power BI dat e-mailkenmerk als e-mailadres.
+1. Als het UPN-e-mailadres *niet* behoort tot het domein **\*.onmicrosoft.com** (de gegevens na het symbool \@), gebruikt Power BI dat e-mailkenmerk als e-mailadres.
 
 1. Als het matrixkenmerk *ander e-mailadres* in het Azure AD-gebruikersobject aanwezig is, wordt het eerste e-mailadres in de lijst gebruikt (omdat dit kenmerk een lijst van e-mailadressen kan bevatten).
 

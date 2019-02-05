@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 01/18/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 085860fb9d8e9e01bf0694896a561f34a5627b53
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: 7d76d874712f328344b60fc8b146f69e1aca55db
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394659"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234526"
 ---
 # <a name="add-comments-to-a-dashboard"></a>Opmerkingen toevoegen aan een dashboard
 Voeg een persoonlijke opmerking toe of start een discussie over een dashboard met uw collega's. De functie **Opmerkingen** is slechts een van de manieren waarop een *gebruiker* met anderen kan samenwerken. 
@@ -73,7 +73,7 @@ Opmerkingen kunnen worden toegevoegd aan een volledig dashboard of aan afzonderl
 5. Selecteer **Sluiten** om terug te gaan naar het dashboard of rapport.
 
 ### <a name="get-your-colleagues-attention-by-using-the--sign"></a>Vraag de aandacht van uw collega's met behulp van het @-teken
-Of u nu dashboardopmerkingen plaatst of een opmerking plaatst bij een bepaalde visual, u trekt de aandacht van uw collega's met het @-teken.  Wanneer u het @-symbool typt, opent Power BI een vervolgkeuzelijst waarin u personen van uw organisatie kunt zoeken en selecteren. Elke geverifieerde naam met een @ ervoor verschijnt in een blauw lettertype. 
+Of u nu dashboardopmerkingen plaatst of een opmerking plaatst bij een bepaalde visual, u trekt de aandacht van uw collega's met het \@-teken.  Wanneer u het \@-symbool typt, opent Power BI een vervolgkeuzelijst waarin u personen van uw organisatie kunt zoeken en selecteren. Elke geverifieerde naam met een \@ ervoor verschijnt in een blauw lettertype. 
 
 Hier volgt een gesprek dat ik heb met de *ontwerper* van de visualisatie. Hij gebruikt het teken @ om er zeker van te zijn dat ik de opmerking zie. Ik weet zo dat deze opmerking voor mij is. Ik open dit app-dashboard in Power BI en selecteer **Opmerkingen** in de kop. Ons gesprek verschijnt in het deelvenster **Opmerkingen**.
 
