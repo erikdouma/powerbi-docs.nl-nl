@@ -7,15 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 01/30/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7a6e6979a6281ef6b00a84cff138818869b113e6
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: 49ac1f917a5f3095c1dbc13c644061859389fe74
+ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008023"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55482678"
 ---
 # <a name="connect-to-comscore-digital-analytix-with-power-bi"></a>Verbinding met comScore Digital Analytix maken via Power BI
 Visualiseer en verken uw comScore Digital Analytix-gegevens in Power BI met het Power BI-inhoudspakket. De gegevens wordt een keer per dag automatisch vernieuwd.
@@ -63,8 +63,6 @@ Hieronder vindt u meer informatie hoe u naar elk van de comScore-parameters zoek
 **Datacentrum**
 
 Met welk datacentrum u verbinding maakt, wordt bepaald door de URL waarnaar u in comScore navigeert.
-
-Als u https://dax.comscore.com gebruikt, voert u US in. Als u https://dax.comscore.eu gebruikt, voert u EU in.
 
 ![](media/service-connect-to-connect-to/comscore_url.png) 
 
