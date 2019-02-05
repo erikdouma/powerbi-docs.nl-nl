@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/24/2018
+ms.date: 01/30/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: bcd07bb0cb53ea4818195e15c1492a27f424cf38
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 26bd41c8fa2d1300a0f9e106c7899777ac5950f7
+ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292587"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55482724"
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Uw Power BI-gegevens snel vinden en weergeven met Cortana voor Power BI
 Gebruik Cortana op uw Windows 10-apparaten om direct antwoord te krijgen op uw belangrijke zakelijke vragen. Door de integratie met Power BI kan Cortana belangrijke gegevens rechtstreeks ophalen uit Power BI-dashboards en -rapporten. U hebt alleen maar Windows 10, versie november 2015 of later, Cortana, Power BI en toegang tot minimaal één gegevensset nodig.
@@ -22,7 +22,7 @@ Gebruik Cortana op uw Windows 10-apparaten om direct antwoord te krijgen op uw b
 ![Zoekveld van Cortana](media/service-cortana-intro/power-bi-cortana-searchbox.png)
 
 ## <a name="preview-the-new-cortana-dashboard-search-experience-for-windows-10"></a>Bekijk een voorbeeld van de nieuwe Cortana-zoekervaring voor *dashboards* voor Windows 10
-U kunt nu al een tijdje [met Cortana gebruiken bepaalde typen rapportpagina's ophalen](service-cortana-answer-cards.md). Er is nu een **nieuwe ervaring** toegevoegd: de mogelijkheid om ook dashboards op te halen. Probeer het uit en [geef feedback ](mailto:pbicortanasg@microsoft.com). De *nieuwe ervaring* wordt op termijn uitgebreid zodat u ook met Cortana kunt zoeken in rapporten.  Een van de belangrijkste voordelen van de nieuwe ervaring is dat u er niets speciaals voor hoeft te doen: u hoeft Cortana niet in te schakelen of Windows 10 te configureren. Het werkt gewoon.
+U kunt nu al een tijdje [met Cortana gebruiken bepaalde typen rapportpagina's ophalen](service-cortana-answer-cards.md). Er is nu een **nieuwe ervaring** toegevoegd: de mogelijkheid om ook dashboards op te halen. Probeer het uit en [geef feedback via Power BI Ideas](https://ideas.powerbi.com/forums/265200-power-bi). De *nieuwe ervaring* wordt op termijn uitgebreid zodat u ook met Cortana kunt zoeken in rapporten.  Een van de belangrijkste voordelen van de nieuwe ervaring is dat u er niets speciaals voor hoeft te doen: u hoeft Cortana niet in te schakelen of Windows 10 te configureren. Het werkt gewoon.
 
 > [!NOTE]
 > Als het niet 'gewoon werkt', raadpleegt u het [artikel Probleemoplossing](service-cortana-troubleshoot.md) voor hulp.
@@ -127,7 +127,8 @@ Wanneer u een vraag stelt in Cortana, beantwoordt Power BI die vraag aan de hand
 * Cortana voor Power BI is momenteel alleen beschikbaar in het Engels.
 * Cortana voor Power BI is alleen beschikbaar op mobiele Windows-apparaten.
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/).
+Feedback? [Feedback verzenden naar Power BI Ideas](https://ideas.powerbi.com/forums/265200-power-bi).
 
 ## <a name="next-steps"></a>Volgende stappen
 [De integratie van Cortana - Power BI - Windows voor rapporten inschakelen](service-cortana-enable.md)

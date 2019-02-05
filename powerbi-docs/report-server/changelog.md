@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: 18a2d6833f0013f95ac0a5dea5f1930e5b666dd6
-ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
+ms.openlocfilehash: 034fc149dcd76102ae83864fe65d53c55b57c96a
+ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54488863"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55482747"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Wijzigingenlogboek voor Power BI Report Server
 
@@ -24,6 +24,17 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerd
 
 ## <a name="january-2019"></a>Januari 2019
 - **Power BI Report Server**            
+    - *Versie 1.4.6969.7395 (build 15.0.1102.235), uitgebracht: 30 januari 2019*
+        - Opgeloste fouten
+            - Power BI-rapporten
+                - Oplossing voor een probleem met de basisreferenties bij het gebruik van DirectQuery
+                - Oplossing voor toegepaste filters bij bidirectionele relaties met beveiliging op rijniveau
+                - Oplossing voor verlopen gegevens na het vernieuwen van een model in een uitgeschaalde omgeving
+                - Oplossing voor dubbele scrollbalk voor tabel/matrix in Firefox 63+
+                - Oplossing voor pictogramgrootte +/- in Internet Explorer
+            - Gepagineerde rapporten
+                - Oplossing voor probleem bij het gebruik van een gedeelde gegevensbron voor een rapport
+
     - *Versie 1.4.6960.38798 (build 15.0.1102.222), uitgebracht: 22 januari, 2019*
         - Functies
             - Power BI-rapporten 
@@ -35,6 +46,10 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerd
             - Beheerders
                 - Mogelijkheid om extensies van resources te beperken die kunnen worden geüpload naar de rapportserver
                 - Mogelijkheid om ondersteunde hyperlinkschema's te beperken
+            - Programmeerbaarheid
+                - Nieuwe Web-API: /PowerBIReports({Id})/DataModelRoles (GET)
+                - Nieuwe Web-API: /PowerBIReports({Id})/DataModelRoleAssignments (GET & PUT)
+                - Zie [REST-API voor Power BI Report Server](https://app.swaggerhub.com/apis/microsoft-rs/PBIRS/2.0) voor meer informatie
         - Opgeloste fouten
             - Beveiligingsprobleem met HTML-injectie
             - Exporteren naar PDF geeft geen euroteken weer
@@ -42,6 +57,10 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerd
             - Visuele elementen geven problemen weer in Mobiele Power BI-app na inactiviteit
 
 - **Power BI Report (geoptimaliseerd voor Power BI Report Server)**
+    - *Versie: 2.65.5313.1562 (januari 2019), uitgebracht: 30 januari 2019*
+        - Snelkoppeling en vastgemaakte pictogrammen blijven bestaan na het verwijderen van Power BI Report Server
+        - Oplossing voor probleem waarbij het vastmaken van Power BI Report Server aan het startmenu leidt tot zwarte tekst op een zwart pictogram
+
     - *Versie: 2.65.5313.1421 (januari 2019), uitgebracht: 22 januari, 2019*
         - Bevat de vereiste wijzigingen om verbinding te maken met Power BI Report Server (januari 2019)  
 

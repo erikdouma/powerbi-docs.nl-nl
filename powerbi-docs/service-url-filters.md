@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/31/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 2a6fe04f3e905a1e2ce02bceed123b6f117e62c8
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: 3f9195ecb4b8679ab65ad6535a85d4d271582d7d
+ms.sourcegitcommit: e05b3863c7758f639894d771193b98b12b93022a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234434"
+ms.lasthandoff: 02/02/2019
+ms.locfileid: "55648692"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Een rapport filteren door queryreeksparameters in de URL te gebruiken
 
@@ -40,6 +40,14 @@ URL?filter=***Tabel***/***Veld*** eq '***waarde***'
 
 * De namen van de **tabel** en het **veld** zijn hoofdlettergevoelig, de **waarde** is dat niet.
 * Velden die verborgen zijn in de rapportageweergave kunnen nog steeds worden gefilterd.
+
+### <a name="reports-in-apps"></a>Rapporten in apps
+
+Als u een URL-filter wilt toevoegen aan een rapport in een app, is de opmaak enigszins anders. Koppelingen naar rapporten in een app hebben een queryparameter (ctid) die wordt toegevoegd aan de URL. Queryparameters moeten worden gescheiden door een en-teken (&). Dus moet u de query toevoegen als '&filter=' (na de ctid-parameter) in plaats van als '?filter='. 
+
+Zoals in dit voorbeeld:
+
+app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?ctid=*ctid*&filter=*Table*/*Field* eq '*value*'
 
 ### <a name="field-types"></a>Veldtypen
 
@@ -118,10 +126,10 @@ Power BI-URL-filters kunnen in de volgende indelingen cijfers bevatten.
 |Type getal  |Voorbeeld  |
 |---------|---------|
 |**geheel getal**     |   5      |
-|**long**     |   5L of 5l      |
+|**long**     |   5 L of 5 l      |
 |**double**     |   5.5, 55e-1, 0.55e+1, 5D, 5d, 0.5e1D, 0.5e1d, 5.5D, 5.5d, 55e-1D of 55e-1d     |
-|**decimal**     |   5M, 5m, 5.5M of 5.5m      |
-|**float**     | 5F, 5f, 0.5e1F of 0.5e-1 d        |
+|**decimal**     |   5 M of 5 m of 5,5 M of 5,5 m      |
+|**float**     | 5 F of 5 f of 0,5e1 F of 0,5e-1 d        |
 
 ### <a name="date-data-types"></a>Datumgegevenstypen
 
