@@ -2,26 +2,28 @@
 title: Volledige vermelding van de code
 description: 'Uitleg over het pushen van gegevens: volledige vermelding van de code'
 author: markingmyname
+ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/10/2017
-ms.author: maghan
-ms.openlocfilehash: 96620449e8be8dbbfa13a00484fff29f2370fe19
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 95aadefab6a98413a22dd9386bfb4fc06cb482cb
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55429931"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762232"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Gegevens naar een gegevensset pushen met volledige vermelding van de code
+
 Dit artikel maakt deel uit van een stapsgewijze uitleg van hoe u [gegevens naar een gegevensset pusht](walkthrough-push-data.md).
 
 Als u stap 2 tot en met 5 in **Gegevens naar een gegevensset pushen** (Engelstalig) hebt gevolgd, ziet de volledige broncode er als volgt uit.
 
 ## <a name="push-data-to-dataset-code"></a>Gegevens in gegevenssetcode pushen
+
       using System;
       using Microsoft.IdentityModel.Clients.ActiveDirectory;
       using System.Net;
@@ -219,8 +221,8 @@ Als u stap 2 tot en met 5 in **Gegevens naar een gegevensset pushen** (Engelstal
           }
       }
 
-
 ## <a name="next-steps"></a>Volgende stappen
+
 [Push data into a Power BI dataset](walkthrough-push-data.md) (Gegevens naar een Power BI-gegevensset pushen)  
 [Walkthrough - Push data into a Power BI dataset](walkthrough-push-data.md) (Uitleg: gegevens naar een Power BI-gegevensset pushen)  
 [Register an app with Azure AD](walkthrough-push-data-register-app-with-azure-ad.md) (Een app bij Azure AD registreren)  
@@ -231,6 +233,4 @@ Als u stap 2 tot en met 5 in **Gegevens naar een gegevensset pushen** (Engelstal
 [Power BI REST API reference](https://docs.microsoft.com/rest/api/power-bi/) (Naslag voor REST-API voor Power BI)  
 [Overview of Power BI REST API](overview-of-power-bi-rest-api.md) (Overzicht van de REST-API voor Power BI)  
 
-
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
-

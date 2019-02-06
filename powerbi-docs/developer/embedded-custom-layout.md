@@ -2,22 +2,21 @@
 title: Aangepaste indelingen met ingesloten Power BI-inhoud
 description: Lees meer over aangepaste indelingen wanneer u Power BI-inhoud in uw toepassing insluit.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/19/2017
-ms.author: maghan
-ms.openlocfilehash: 641369a4410741269a260e036ac3a7930f385e76
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e812fde896072762e113c81b1dd728091a8ff190
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288929"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762301"
 ---
 # <a name="custom-layouts"></a>Aangepaste indelingen
-
 
 Gebruik een aangepaste indeling voor het insluiten van een rapport met een andere indeling dan het oorspronkelijke rapport. Het definiëren van een nieuwe indeling kan betrekking hebben op het definiëren van slechts één paginagrootte, het bepalen van de grootte van visuele elementen, of op positie en zichtbaarheid.
 
@@ -115,7 +114,6 @@ enum VisualContainerDisplayMode {
 - `width`, hoogte: Hiermee definieert u de nieuwe grootte van de visual.
 - `displayState`: Hiermee definieert u de nieuwe zichtbaarheid van de visual.
 
-
 ## <a name="update-layout"></a>Indeling bijwerken
 
 U kunt de UpdateSettings-methode gebruiken om de indeling van het rapport op elk gewenst moment bij te werken terwijl het rapport wordt geladen. Zie [Instellingen bijwerken](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Update-Settings).
@@ -173,9 +171,7 @@ var embedContainer = document.getElementById('embedContainer');
 var report = powerbi.embed(embedContainer, embedConfiguration);
 ```
 
-
 ## <a name="see-also"></a>Zie ook
 
 [Dashboards, rapporten en tegels van Power BI insluiten](embedding-content.md)   
 [Stel een vraag aan de Power BI-community](https://community.powerbi.com/)
-

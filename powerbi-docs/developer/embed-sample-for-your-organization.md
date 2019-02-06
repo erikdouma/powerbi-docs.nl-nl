@@ -10,14 +10,14 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: b535e3cc42956818fce0c1c127fd775b6b4d4664
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 2d095f117fdaafa34a1b9636d03045d0119f4dd8
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431287"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762462"
 ---
-# <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>Zelfstudie: een Power BI-rapport, -dashboard of -tegel insluiten in een toepassing voor uw organisatie
+# <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Zelfstudie: Power BI-inhoud insluiten in een toepassing voor uw organisatie
 
 In **Power BI** kunt u rapporten, dashboards en tegels in een toepassing insluiten met gegevens waarvan de gebruiker eigenaar is. Uw toepassing kan met **gegevens waarvan de gebruiker eigenaar is** de Power BI-service uitbreiden voor gebruik met ingesloten analyse. In deze zelfstudie leert u hoe u een rapport in een toepassing integreert. U gebruikt de Power BI .NET-SDK met de Power BI JavaScript-API om Power BI in te sluiten in een toepassing voor uw organisatie.
 

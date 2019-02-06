@@ -2,21 +2,22 @@
 title: Een gegevensset ophalen om rijen toe te voegen
 description: 'Stappen om gegevens te pushen: een gegevensset ophalen om rijen toe te voegen aan een Power BI-tabel'
 author: markingmyname
+ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/10/2017
-ms.author: maghan
-ms.openlocfilehash: cd7f1eabc104da7e310abbfbce2929f047f0e5d8
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: fbde44136f403e3aff0c32d8d4acef4d1970830a
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430827"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762485"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>Stap 4: Een gegevensset ophalen om rijen toe te voegen aan een Power BI-tabel
+
 Dit artikel maakt deel uit van een stapsgewijze uitleg van hoe u [gegevens naar een gegevensset pusht](walkthrough-push-data.md).
 
 In **stap 3** van Gegevens naar een gegevensset pushen, [Een gegevensset maken in Power BI](walkthrough-push-data-create-dataset.md), hebt u de bewerking [Gegevensset maken](https://docs.microsoft.com/rest/api/power-bi/datasets) aangeroepen om een gegevensset te maken in Power BI. In deze stap gebruikt u de bewerking [Gegevenssets ophalen](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) en Newtonsoft.Json om een gegevensset-id op te halen. U gebruikt de gegevensset-id in stap 4 om rijen toe te voegen aan een gegevensset. 
@@ -26,14 +27,13 @@ Als u gegevens wilt pushen naar een Power BI-gegevensset, moet u verwijzen naar 
 U kunt als volgt een gegevensset ophalen.
 
 ## <a name="get-a-power-bi-dataset"></a>Een Power BI-gegevensset ophalen
+
 > **OPMERKING**: Voordat u begint, zorgt u dat u de vorige stappen in [Gegevens naar een gegevensset pushen](walkthrough-push-data.md) hebt gevolgd.
-> 
-> 
 
 1. In het consoletoepassingsproject dat u hebt gemaakt in stap 2: Stappen om gegevens te pushen, [Een toegangstoken voor verificatie ophalen](walkthrough-push-data-get-token.md), installeert u het NuGet-pakket Newtonsoft.Json. U installeert het pakket als volgt:
-   
+
      a. Kies in Visual Studio 2015 **Extra** > **NuGet Package Manager** > **Package Manager Console**.
-   
+
      b. Voer in **Package Manager Console** Install-Package Newtonsoft.Json in.
 2. Nadat het pakket is geïnstalleerd, voegt u **using Newtonsoft.Json;** toe aan Program.cs.
 3. Voeg de onderstaande code toe aan Program.cs om een **gegevensset-id** op te halen.
@@ -110,6 +110,7 @@ Hieronder ziet u de [volledige code](#code).
 <a name="code"/>
 
 ## <a name="complete-code-listing"></a>Volledige code
+
     using System;
     using Microsoft.IdentityModel.Clients.ActiveDirectory;
     using System.Net;
@@ -265,6 +266,7 @@ Hieronder ziet u de [volledige code](#code).
 [Volgende stap >](walkthrough-push-data-add-rows.md)
 
 ## <a name="next-steps"></a>Volgende stappen
+
 [Rijen toevoegen aan een Power BI-tabel](walkthrough-push-data-add-rows.md)  
 [Newtonsoft.Json](http://www.newtonsoft.com/json)  
 [Gegevenssets ophalen](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)  
@@ -273,4 +275,3 @@ Hieronder ziet u de [volledige code](#code).
 [Naslag voor REST-API voor Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
-

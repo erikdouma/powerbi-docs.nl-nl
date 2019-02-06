@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 12/20/2018
-ms.openlocfilehash: a53ddf70e82c191af520f2dbba5b5d3d1b0ced42
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: b8f78821ccd6f32f9b943b55a45de20b720f3f3c
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431218"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762094"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Problemen oplossen met uw ingesloten toepassing
 
@@ -106,7 +106,7 @@ De back-end van de toepassing moet het verificatietoken mogelijk vernieuwen voor
 U lost dit probleem op door 'oauth2/authorize/' aan het einde van de autoriteit-URL te verwijderen; zie [Voorbeelden voor Power BI-ontwikkelaars](https://github.com/Microsoft/PowerBI-Developer-Samples) ter referentie.
 
  Controleer [Betere autoriteitsvalidatie](https://github.com/AzureAD/azure-activedirectory-library-for-dotnet/wiki/Changes-adalnet-4.0#better-authority-validation) in de releaseopmerkingen van ADAL 4.x.
- 
+
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>De verificatie is mislukt met AADSTS70002 of AADSTS50053
 
 **_(AADSTS70002: er is een fout opgetreden bij het valideren van referenties. AADSTS50053: u hebt te vaak geprobeerd u aan te melden met een onjuiste gebruikers-id of een onjuist wachtwoord)_**

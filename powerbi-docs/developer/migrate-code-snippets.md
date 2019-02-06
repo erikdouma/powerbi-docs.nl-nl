@@ -2,21 +2,22 @@
 title: Codefragmenten voor het migreren van inhoud in Power BI Embedded
 description: Hier volgen enkele codefragmenten van basisbewerkingen die vereist zijn voor de migratie van inhoud
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 06/30/2018
-ms.author: maghan
-ms.openlocfilehash: ddb0e95e20a22fd6e7e832c415462504d2ef3652
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: f53549e0a046195c353362368e2e3682df152af9
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55429968"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762508"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Codefragmenten voor het migreren van inhoud van Power BI-werkruimteverzameling
+
 Hier volgen enkele codefragmenten van basisbewerkingen die vereist zijn voor de migratie van inhoud. Zie voor verwante stromen voor bepaalde rapporttypen [Inhoud van een Power BI-werkruimteverzameling migreren naar Power BI Embedded](migrate-from-powerbi-embedded.md#content-migration).
 
 U kunt een **hulpprogramma voor migratie** gebruiken om u te helpen bij het kopiëren van inhoud van Power BI Embedded (PaaS) naar de Power BI-service (SaaS). Met name als u veel inhoud hebt. Zie [Hulpprogramma voor migratie in Power BI Embedded](migrate-tool.md) voor meer informatie.
@@ -25,7 +26,7 @@ De onderstaande code bevat voorbeelden met C# en de [Power BI .NET-SDK](https://
 
 Zorg ervoor dat u de volgende naamruimten gebruikt voor het uitvoeren van de onderstaande codefragmenten.
 
-```
+```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
 using Microsoft.PowerBI.Api.V1;
 using Microsoft.PowerBI.Api.V1.Models;
@@ -46,8 +47,8 @@ using System.Text;
 using System.Threading.Tasks;
 ```
 
-
 ## <a name="export-report-from-paas-workspace"></a>Rapport exporteren vanuit PaaS-werkruimte
+
 ```
     // Create a token credentials with "AppKey" type
     var credentials = new TokenCredentials(<myAppKey==>, "AppKey");
@@ -72,6 +73,7 @@ using System.Threading.Tasks;
 ```
 
 ## <a name="import-report-to-saas-workspace"></a>Rapport importeren vanuit SaaS-werkruimte
+
 ```
     AuthenticationContext authContext = new AuthenticationContext("https://login.microsoftonline.net/common/");
     var PBISaaSAuthResult = authContext.AcquireToken("https://analysis.windows.net/powerbi/api", <myClientId>, new Uri("urn:ietf:wg:oauth:2.0:oob"), PromptBehavior.Always);
@@ -85,6 +87,7 @@ using System.Threading.Tasks;
 ```
 
 ## <a name="extract-directquery-connection-string-from-paas-report"></a>Een DirectQuery-verbindingsreeks ophalen uit een PaaS-rapport
+
 Hiermee werkt u de PBIX bij na de migratie naar SaaS.
 
 ```
@@ -105,6 +108,7 @@ Hiermee werkt u de PBIX bij na de migratie naar SaaS.
 ```
 
 ## <a name="update-directquery-connection-string-is-saas-workspace"></a>De DirectQuery-verbindingsreeks bijwerken in de SaaS-werkruimte
+
 ```
     public class ConnectionString
     {
@@ -123,6 +127,7 @@ Hiermee werkt u de PBIX bij na de migratie naar SaaS.
 ```
 
 ## <a name="set-directquery-credentials-in-saas-workspace"></a>DirectQuery-referenties instellen in de SaaS-werkruimte
+
 In dit fragment gebruiken we voor het gemak niet-versleutelde referenties. Het verzenden van versleutelde referenties wordt ook ondersteund.
 
 ```
@@ -159,6 +164,7 @@ In dit fragment gebruiken we voor het gemak niet-versleutelde referenties. Het v
 ```
 
 ## <a name="push-dataset--report"></a>Pushgegevensset en rapport
+
 U moet het rapport voor de gemaakte gegevensset opnieuw maken.
 
 In dit fragment gaan we ervan uit dat de pushgegevensset zich al in een app-werkruimte binnen de SaaS-omgeving bevindt. Zie [Gegevens pushen naar een Power BI-gegevensset](walkthrough-push-data.md)voor meer informatie over de Push API.
@@ -223,6 +229,7 @@ In dit fragment gaan we ervan uit dat de pushgegevensset zich al in een app-werk
 ```
 
 ## <a name="next-steps"></a>Volgende stappen
+
 [Hulpprogramma voor de migratie van Power BI Embedded](migrate-tool.md)  
 [Insluiten met Power BI](embedding.md)  
 [Inhoud van de Power BI Embedded-werkruimteverzameling migreren naar Power BI](migrate-from-powerbi-embedded.md)  
@@ -234,4 +241,3 @@ In dit fragment gaan we ervan uit dat de pushgegevensset zich al in een app-werk
 [Technisch document over Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
-

@@ -2,21 +2,22 @@
 title: Een verificatietoegangstoken ophalen
 description: Stapsgewijze uitleg van het pushen van gegevens - Een verificatietoegangstoken ophalen
 author: markingmyname
+ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/10/2017
-ms.author: maghan
-ms.openlocfilehash: 1381706801a1a817927c891fcc205950cef24cbb
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 2d4e59badf394153dcb6877a270d2ecea63f5df6
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430850"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55761956"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>Stap 2: Een verificatietoegangstoken ophalen
+
 Dit artikel maakt deel uit van een stapsgewijze uitleg van hoe u [gegevens naar een gegevensset pusht](walkthrough-push-data.md).
 
 Bij **stap 1** voor het pushen van gegevens naar een gegevensset, [De app registreren bij Azure AD](walkthrough-push-data-register-app-with-azure-ad.md), hebt u een client-app geregistreerd in Azure AD. In deze stap krijgt u een verificatietoegangstoken. Power BI-apps worden geïntegreerd met **Azure AD** om beveiligde aanmelding en autorisatie voor uw app te verzorgen. U gebruikt een token om u te verifiëren bij **Azure AD** en toegang te krijgen tot Power BI-resources.
@@ -24,15 +25,16 @@ Bij **stap 1** voor het pushen van gegevens naar een gegevensset, [De app regist
 Hieronder ziet u hoe u een verificatietoegangstoken kunt ophalen.
 
 ## <a name="get-an-authentication-access-token"></a>Een verificatietoegangstoken ophalen
+
 > **OPMERKING**: Voordat u begint, zorgt u dat u de vorige stappen in [Gegevens naar een gegevensset pushen](walkthrough-push-data.md) hebt gevolgd.
 > 
 > 
 
 1. Maak in Visual Studio 2015 een **consoletoepassing**project.
 2. Installeer het [Azure AD Authentication Library-pakket voor .NET-NuGet](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/). Gebruik dit pakket om een verificatietoegangstoken op te halen in een .NET-pakket. U installeert het pakket als volgt:
-   
+
      a. Kies in Visual Studio 2015 **Extra** > **NuGet Package Manager** > **Package Manager Console**.
-   
+
      b. Voer in **Package Manager Console** het volgende in: Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory-versie 2.21.301221612.
 3. Voeg onderstaande code toe aan de klasse Program {...}.
 4. Vervang "{ClientID}" door de **Client-id** die u hebt gekregen bij het registreren van de app. Zie [De app bij Azure AD registreren](walkthrough-push-data-register-app-with-azure-ad.md).
@@ -113,6 +115,7 @@ Hieronder ziet u de [volledige code](#code).
 <a name="code"/>
 
 ## <a name="complete-code-listing"></a>Volledige code
+
     using System;
     using Microsoft.IdentityModel.Clients.ActiveDirectory;
 
@@ -172,10 +175,10 @@ Hieronder ziet u de [volledige code](#code).
         }
     }
 
-
 [Volgende stap >](walkthrough-push-data-create-dataset.md)
 
 ## <a name="next-steps"></a>Volgende stappen
+
 [Een gegevensset maken in Power BI](walkthrough-push-data-create-dataset.md)  
 [Een app bij Azure AD registreren](walkthrough-push-data-register-app-with-azure-ad.md)  
 [Azure AD Authentication Library-pakket voor .NET-NuGet](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)  
@@ -183,4 +186,3 @@ Hieronder ziet u de [volledige code](#code).
 [Overzicht van de REST-API voor Power BI](overview-of-power-bi-rest-api.md)  
 [Naslag voor REST-API voor Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
-

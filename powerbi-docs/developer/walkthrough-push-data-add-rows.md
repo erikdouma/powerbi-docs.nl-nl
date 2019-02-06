@@ -4,19 +4,20 @@ description: 'Stappen om gegevens te pushen: rijen toevoegen aan een Power BI-ta
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/01/2018
-ms.openlocfilehash: 798bfbb5d1ebf127e7b958e02166dea5f1af81ef
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 52ee2dec11029f7c529362fdb44e2291846449c1
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430483"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55761979"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Stap 5: Rijen toevoegen aan een Power BI-tabel
+
 Dit artikel maakt deel uit van een stapsgewijze uitleg van hoe u [gegevens naar een gegevensset pusht](walkthrough-push-data.md).
 
 In **stap 4** van Gegevens naar een gegevensset pushen, [Een gegevensset ophalen om rijen toe te voegen aan een Power BI-tabel](walkthrough-push-data-get-datasets.md), hebt u de bewerking [Gegevenssets ophalen](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) en Newtonsoft.Json gebruikt om een gegevensset-id op te halen. In deze stap gebruikt u de gegevensset-id met de bewerking [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) om rijen toe te voegen aan een **Power BI**-gegevensset. 
@@ -28,10 +29,9 @@ Wanneer u de bewerking [PostRows](https://docs.microsoft.com/rest/api/power-bi/p
 U kunt als volgt rijen toevoegen aan een gegevensset met de Power BI API.
 
 ## <a name="add-rows-to-a-power-bi-table"></a>Rijen toevoegen aan een Power BI-tabel
+
 > [!NOTE]
 > Voordat u begint, zorgt u dat u de vorige stappen in [Gegevens naar een gegevensset pushen](walkthrough-push-data.md) hebt gevolgd.
-> 
-> 
 
 1. In het consoletoepassingsproject dat u hebt gemaakt in stap 2: Stapsgewijze uitleg van het pushen van gegevens, [een verificatietoegangstoken ophalen](walkthrough-push-data-get-token.md), de onderstaande code toevoegen.
 2. Voer de console-app uit en meld u aan bij uw Power BI-account. U ziet **Rijen toegevoegd** in het consolevenster. U kunt zich ook aanmelden bij Power BI om de rijen te zien die zijn toegevoegd aan de gegevensset.
@@ -57,7 +57,8 @@ Voeg deze code toe in Program.cs.
   
        //Add rows to a Power BI table
        AddRows(datasetId, "Product");
-   }     
+   }
+
   ```
 * Voeg de methode AddRows() toe:
 
