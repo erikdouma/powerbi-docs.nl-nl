@@ -3,22 +3,22 @@ title: Uzelf abonneren op rapporten en dashboards
 description: Leer hoe u uzelf en uw collega's kunt abonneren op een via e-mail verzonden momentopname van een Power BI-rapport of -dashboard.
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: cmfinlan
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2019
+ms.date: 02/05/2019
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a35067af531f6da29edef7638fc9a743c948b8ce
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: df167f8693708c08bc44e935cff184917d8aaf54
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430252"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794328"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>Abonneren op een rapport of dashboard in de Power BI-service 
-Het is nog nooit zo eenvoudig geweest om op de hoogte blijven van uw belangrijkste dashboards en rapporten. Abonneer u op de rapportpagina's en dashboards die voor u het belangrijkst zijn, zodat u een e-mail van Power BI in uw postvak ontvangt met een momentopname. U vertelt Power BI hoe vaak u de e-mailberichten wilt ontvangen: dagelijks, wekelijks, of wanneer de gegevens worden vernieuwd. U kunt ook een specifiek tijdstip instellen waarop Power BI de e-mailberichten verzendt.  
+Het is nog nooit zo eenvoudig geweest om op de hoogte blijven van uw belangrijkste dashboards en rapporten. Abonneer u op de rapportpagina's en dashboards die voor u het belangrijkst zijn, zodat u een e-mail van Power BI in uw postvak ontvangt met een momentopname. U vertelt Power BI hoe vaak u de e-mailberichten wilt ontvangen: dagelijks, wekelijks, of wanneer de gegevens worden vernieuwd. U kunt ook een specifiek tijdstip instellen waarop Power BI de e-mailberichten verzendt of deze nu laten uitvoeren.  
 
 De e-mail en momentopname gebruiken de taal die is ingesteld in de instellingen van Power BI (zie [Ondersteunde talen en landen/regio's voor Power BI](../supported-languages-countries-regions.md)). Als er geen taal is ingesteld, gebruikt Power BI de taal van de lokale instellingen in uw huidige browser. Als u uw voorkeurstaal wilt bekijken of instellen, selecteert u het tandwielpictogram ![Tandwielpictogram](./media/end-user-subscribe/power-bi-settings-icon.png) > **Instellingen > Algemeen > Taal**. 
 
@@ -40,23 +40,23 @@ Het proces voor het abonneren op een dashboard of rapport is vergelijkbaar. U ku
    
    ![Pictogram Abonneren](./media/end-user-subscribe/power-bi-subscribe-icon.png)
 
-   ![Venster Abonneren](./media/end-user-subscribe/power-bi-emails2.png)
+   ![Venster Abonneren](./media/end-user-subscribe/power-bi-emails-new.png)
     
     Het scherm aan de linkerkant wordt weergegeven wanneer u zich op het dashboard bevindt en u **Abonneren** selecteert. Het scherm aan de rechterkant wordt weergegeven wanneer u zich op de rapportpagina bevindt en u **Abonneren** selecteert. Als u zich op meer dan één pagina in een rapport wilt abonneren, selecteert u **Nog een abonnement toevoegen** en selecteert u een andere pagina. 
 
-3. Gebruik de gele schuifregelaar om het abonnement in of uit te schakelen.  Als u de schuifregelaar instelt op Uit, wordt het abonnement niet verwijderd. Selecteer het prullenbakpictogram om het abonnement te verwijderen.
+4. Gebruik de gele schuifregelaar om het abonnement in of uit te schakelen.  Als u de schuifregelaar instelt op Uit, wordt het abonnement niet verwijderd. Selecteer het prullenbakpictogram om het abonnement te verwijderen.
 
 4. Voeg optioneel gegevens voor het e-mailbericht in. 
 
 5. Selecteer een **frequentie** voor uw abonnement.  U kunt voor Dagelijks, Wekelijks, of Nadat gegevens zijn vernieuwd (dagelijks) kiezen.  Als u het e-mailbericht van het abonnement alleen op bepaalde dagen wilt ontvangen, selecteert u **wekelijks** en kiest u de dagen waarop u het wilt ontvangen.  Als u bijvoorbeeld het e-mailbericht van het abonnement alleen op werkdagen wilt, ontvangen, selecteert u **Wekelijks** als frequentie en schakelt u de selectievakjes voor Za en Zo uit.   
 
-
 6. Plan de tijd waarop het e-mailbericht wordt verzonden door Dagelijks of Wekelijks als frequentie te selecteren en een **geplande** **tijd** voor het abonnement in te voeren.   
 
 7. Plan de begin- en einddatum door datums in de datumvelden in te voeren. De begintijd voor uw abonnement is standaard de datum waarop die u deze hebt gemaakt en de einddatum is één jaar later. Wanneer een abonnement een einddatum heeft bereikt, wordt het stopgezet tenzij u het opnieuw inschakelt.  U ontvangt vóór de geplande einddatum melding/meldingen met de vraag of u het abonnement wilt verlengen.     
 
+8. Selecteer **Nu uitvoeren** om uw abonnement te beoordelen en testen.  Hiermee wordt het e-mailbericht meteen naar u verzonden. 
 
-5. Selecteer **Opslaan en sluiten** om het abonnement op te slaan. U ontvangt een e-mailbericht en een momentopname van het dashboard of rapport op de planning die u instelt. Alle abonnementen waarbij de frequentie is ingesteld op **Nadat gegevens zijn vernieuwd** verzenden alleen een e-mailbericht na de eerste geplande vernieuwing op die dag.
+8. Selecteer **Opslaan en sluiten** om het abonnement op te slaan als alles er goed uitziet. U ontvangt een e-mailbericht en een momentopname van het dashboard of rapport op de planning die u instelt. Voor alle abonnementen waarbij de frequentie is ingesteld op **Nadat gegevens zijn vernieuwd**, wordt alleen een e-mailbericht verzonden na de eerste geplande vernieuwing op die dag.
    
    ![E-mail met momentopname van dashboard](media/end-user-subscribe/power-bi-subscribe-email.png)
    
@@ -83,6 +83,5 @@ Een abonnement wordt beëindigd als de Pro-licentie is verlopen, het dashboard o
 * Wanneer dashboards of rapporten langer dan twee maanden niet worden bezocht, wordt de vernieuwing van de bijbehorende gegevenssets automatisch door Power BI onderbroken.  Als u echter een abonnement aan een dashboard of rapport toevoegt, wordt het dashboard of rapport niet onderbroken, ook net als het niet wordt bezocht.    
 
 ## <a name="next-steps"></a>Volgende stappen
-* Nog vragen? [Misschien dat de Power Bi-community het antwoord weet](http://community.powerbi.com/).    
-* [Lees het blogbericht](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)
 
+[Inhoud zoeken en sorteren](end-user-search-sort.md)

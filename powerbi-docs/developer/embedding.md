@@ -1,6 +1,6 @@
 ---
 title: Ingesloten analyses met Power BI
-description: Power BI biedt API's voor het gebruik van ingesloten analyses voor uw dashboards en rapporten in toepassingen. Meer informatie over insluiten met Power BI in zowel een PaaS-omgeving als een SaaS-omgeving met behulp van software voor ingesloten analyses, hulpprogramma's voor ingesloten analyses of hulpprogramma's voor ingesloten business intelligence.
+description: Power BI biedt API's voor het gebruik van ingesloten analyse voor uw dashboards en rapporten in toepassingen. Meer informatie over insluiten met Power BI in zowel een PaaS-omgeving als een SaaS-omgeving met behulp van software voor ingesloten analyses, hulpprogramma's voor ingesloten analyses of hulpprogramma's voor ingesloten business intelligence.
 author: markingmyname
 ms.author: maghan
 manager: kfile
@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
 ms.custom: seodec18
-ms.date: 12/10/2018
-ms.openlocfilehash: b333ed96fe14ed7bbc91869e507a8e76504b6a5f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 02/05/2019
+ms.openlocfilehash: ca159fb8cea26f4c707aabc99d9fa2c308a32e1a
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288124"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762439"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Ingesloten analyses met Power BI
 
@@ -32,7 +32,7 @@ Kies de oplossing die het beste bij u past:
 
 ## <a name="using-apis"></a>Met behulp van API's
 
-Er zijn twee hoofdscenario's voor het insluiten van Power BI-inhoud.  Insluiting voor gebruikers in uw organisatie (die licenties hebben voor Power BI) en insluiting voor uw gebruikers en klanten zonder dat deze Power BI-licenties nodig hebben. U kunt beide scenario’s uitvoeren met de Power BI REST-API.
+Er zijn twee hoofdscenario's voor het insluiten van Power BI-inhoud. Insluiting voor gebruikers in uw organisatie (die licenties hebben voor Power BI) en insluiting voor uw gebruikers en klanten zonder dat deze Power BI-licenties nodig hebben. U kunt beide scenario’s uitvoeren met de Power BI REST-API.
 
 Voor klanten en gebruikers zonder een Power Bi-licentie kunt u met dezelfde API dashboards en rapporten insluiten in uw aangepaste toepassing voor zowel uw organisatie als uw klanten. Uw klanten ziende gegevens die door de toepassing worden beheerd. Power BI-gebruikers in uw organisatie hebben daarnaast aanvullende opties om *hun gegevens* weer te geven, rechtstreeks in Power BI of in de context van de ingesloten toepassing. U kunt profiteren van de JavaScript- en REST-API's voor uw behoeften bij het insluiten van inhoud.
 
@@ -40,7 +40,7 @@ Voor een voorbeeld van hoe het insluiten van inhoud werkt, raadpleegt u het [Ins
 
 ## <a name="embedding-for-your-organization"></a>Inhoud insluiten voor uw organisatie
 
-**Met het insluiten van inhoud voor uw organisatie** kunt u Power BI-service uitbreiden. Bij het insluiten voor uw organisatie moeten gebruikers van uw toepassing zich aanmelden bij de Power BI-service wanneer ze hun inhoud willen weergeven. Als iemand in uw organisatie zich heeft aangemeld, heeft hij alleen toegang tot zijn eigen dashboards en rapporten of de dashboards en rapporten die met hem zijn gedeeld in de Power BI-service.
+**Met het insluiten van inhoud voor uw organisatie** kunt u Power BI-service uitbreiden. Bij het insluiten voor uw organisatie moeten gebruikers van uw toepassing zich aanmelden bij de Power BI-service wanneer ze de inhoud willen weergeven. Als iemand in uw organisatie zich heeft aangemeld, heeft hij alleen toegang tot zijn eigen dashboards en rapporten of de dashboards en rapporten die met hem zijn gedeeld in de Power BI-service.
 
 *Voorbeelden van het insluiten voor uw organisatie zijn interne toepassingen, zoals [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Microsoft Teams-integratie (hiervoor moet u beheerdersrechten hebben)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) en [Microsoft Dynamics](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard).*
 
@@ -50,7 +50,7 @@ Zie hieronder voor informatie over het insluiten van inhoud voor uw organisatie:
 
 Mogelijkheden voor selfservice, zoals bewerken, opslaan en meer, zijn beschikbaar via de [JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript) wanneer u inhoud insluit voor Power BI-gebruikers.
 
-U kunt het [instelprogramma voor insluiten om inhoud in te sluiten voor uw organisatie](https://aka.ms/embedsetup/UserOwnsData) uitvoeren om snel aan de slag te gaan en een voorbeeldtoepassing te downloaden waarmee u een rapport voor uw organisatie leert integreren.
+U kunt het [installatieprogramma voor insluiten](https://aka.ms/embedsetup/UserOwnsData) uitvoeren voor het insluiten van gegevens voor uw organisatie om aan de slag te gaan en een voorbeeldtoepassing te downloaden waarmee u een rapport voor uw organisatie leert integreren.
 
 ## <a name="embedding-for-your-customers"></a>Inhoud voor uw klanten insluiten
 
@@ -62,7 +62,11 @@ U kunt het [instelprogramma voor insluiten om inhoud in te sluiten voor uw organ
 
 Power BI Embedded biedt voordelen voor ISV's, ontwikkelaars en klanten. Een ISV kan bijvoorbeeld gratis visuals maken met Power BI Desktop. Ze kunnen creaties ook sneller op de markt brengen omdat ze minder tijd hoeven te besteden aan het ontwikkelen van visuals én ze vallen meer op omdat ze een verfrissende gegevenservaring bieden. ISV's kunnen ervoor kiezen extra kosten in rekening te brengen voor de meerwaarde die de ingesloten analysemogelijkheden bieden.
 
-Met Power BI Embedded hebben uw klanten geen voorkennis over Power BI nodig. U hebt slechts één Power BI Pro-account nodig om een ingesloten toepassing te maken. Het Power BI Pro-account fungeert als hoofdaccount voor uw toepassing (dit hoofdaccount is vergelijkbaar met een proxyaccount). Met het Power BI Pro-account kunt u ook insluittokens genereren die toegang bieden tot dashboards en rapporten in de Power BI-service die eigendom zijn van of worden beheerd door uw toepassing.
+Met Power BI Embedded hebben uw klanten geen voorkennis over Power BI nodig. U kunt twee verschillende methoden gebruiken om een ingesloten toepassing te maken. Een van de opties is het gebruik van een Power BI Pro-account. Een andere optie is het gebruik van een service-principal. 
+
+Het Power BI Pro-account fungeert als hoofdaccount voor uw toepassing (dit hoofdaccount is vergelijkbaar met een proxyaccount). Met het Power BI Pro-account kunt u insluittokens genereren die toegang bieden tot dashboards en rapporten in de Power BI-service die eigendom zijn van en worden beheerd door uw toepassing.
+
+Met een [service-principal](embed-service-principal.md) kan Power BI-inhoud worden ingesloten in een toepassing met behulp van een token dat **alleen voor een app kan worden gebruikt**. Met een service-principal kunt u insluittokens genereren die toegang bieden tot dashboards en rapporten in de Power BI-service die eigendom zijn van en worden beheerd door uw toepassing.
 
 Ontwikkelaars die Power BI Embedded gebruiken, kunnen hun tijd besteden aan het bouwen van de basis van hun toepassing in plaats van aan het ontwikkelen van visuals en analysemogelijkheden. Ontwikkelaars kunnen snel reageren op verzoeken van klanten om dashboards en rapporten en ze kunnen eenvoudig zaken insluiten aan de hand van volledig gedocumenteerde API's en SDK's. Door het verkennen van gegevens eenvoudig te maken in apps, kunnen ISV's ervoor zorgen dat klanten op welk apparaat dan ook snel goede beslissingen kunnen nemen in de juiste context.
 
@@ -71,7 +75,7 @@ Ontwikkelaars die Power BI Embedded gebruiken, kunnen hun tijd besteden aan het 
 
 Wanneer u klaar bent om tot productie over te gaan, moet uw app-werkruimte worden toegewezen aan een speciale capaciteit. Power BI Embedded in Microsoft Azure biedt [toegewezen capaciteiten](azure-pbie-create-capacity.md) voor gebruik met uw toepassingen.
 
-Zie [Power BI-dashboards, -rapporten en -tegels insluiten](embed-sample-for-customers.md) voor informatie over het insluiten.
+Zie [Power BI-inhoud insluiten](embed-sample-for-customers.md) voor meer informatie over het insluiten van items.
 
 ## <a name="next-steps"></a>Volgende stappen
 

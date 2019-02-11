@@ -9,15 +9,15 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 12/10/2018
-ms.openlocfilehash: 790c06dd84d7db3a382ef547c8fcc16237273951
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 69ce8088903cbdddef504dbf5e9b2ecc2a8ab9d4
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431149"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762669"
 ---
-# <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Zelfstudie: Een Power BI-dashboard, -tegel of -rapport in uw toepassing insluiten voor onafhankelijke clouds
+# <a name="tutorial-embed-a-power-bi-content-into-your-application-for-sovereign-clouds"></a>Zelfstudie: Power BI-inhoud insluiten in uw toepassing voor onafhankelijke clouds
 
 Informatie over het insluiten van analytische inhoud binnen uw bedrijfsprocestoepassingen voor de onafhankelijke cloud. U kunt de Power BI .NET SDK met de Power BI JavaScript-API gebruiken om rapporten, dashboards of tegels in uw webtoepassingen in te sluiten.
 
@@ -37,7 +37,7 @@ Er zijn verschillende onafhankelijke clouds:
 
 ![Ingesloten dashboard](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-Als u wilt beginnen met dit scenario, hebt u een **Power BI**-account nodig. Als u geen account hebt ingesteld, kunt u zich afhankelijk van het type onafhankelijke cloud aanmelden voor een [Power BI-account voor de Amerikaanse overheid](../service-govus-signup.md), een [account voor de Power BI-cloud voor Duitsland](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) of een [account voor de Power BI-cloud voor China](http://www.21vbluecloud.com/powerbi/).
+Als u wilt beginnen met dit scenario, hebt u een **Power BI**-account nodig. Als u geen account hebt ingesteld, dan kunt u de voor u juiste onafhankelijke cloud kiezen op basis van het type overheid of land. U kunt zich aanmelden voor een [Power BI-account voor de Amerikaanse overheid](../service-govus-signup.md), een [Power BI-cloudaccount voor Duitsland](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) of een [Power BI-cloudaccount voor China](http://www.21vbluecloud.com/powerbi/).
 
 > [!NOTE]
 > Wilt u liever een dashboard insluiten voor uw organisatie? Bekijk dan [Een dashboard integreren in een app voor uw organisatie](integrate-dashboard.md).
@@ -435,7 +435,7 @@ Een toepassingsvoorbeeld hiervan is beschikbaar in [Voorbeeld voor insluiten voo
 
 * [Inhoud van Power BI-werkruimteverzameling migreren naar Power BI](migrate-from-powerbi-embedded.md)
 
-Beperkingen en overwegingen
+Overwegingen en beperkingen
 
 * GCC-accounts bieden op dit moment alleen ondersteuning voor P- en EM-capaciteit
 

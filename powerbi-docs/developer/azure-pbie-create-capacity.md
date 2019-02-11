@@ -2,24 +2,24 @@
 title: Power BI Embedded-capaciteit maken in Azure Portal | Microsoft Docs
 description: Dit artikel biedt informatie over het maken van Power BI Embedded-capaciteit in Microsoft Azure.
 author: markingmyname
-manager: kfile
 ms.author: maghan
+manager: kfile
 ms.service: power-bi-embedded
 ms.subservice: ''
 ms.devlang: csharp, javascript
 ms.topic: conceptual
-ms.reviewer: ''
-ms.date: 07/31/2018
-ms.openlocfilehash: caab7ce649687ec22d171e112382aa13d7652fb9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.reviewer: zakharb
+ms.date: 02/05/2019
+ms.openlocfilehash: 1d829dc31bc6e2419d4f2c187b40d6945f963f69
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288538"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762554"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Power BI Embedded-capaciteit maken in Azure Portal
 
-Dit artikel biedt informatie over het maken van Power BI Embedded-capaciteit in Microsoft Azure. Met Power BI Embedded kunt u eenvoudiger gebruikmaken van de Power BI-functionaliteit: u kunt hiermee namelijk snel prachtige visuals, rapporten en dashboards toevoegen aan uw apps.
+Dit artikel biedt informatie over het maken van [Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)-capaciteit in Microsoft Azure. Met Power BI Embedded kunt u eenvoudiger gebruikmaken van de Power BI-functionaliteit: u kunt hiermee namelijk snel prachtige visuals, rapporten en dashboards toevoegen aan uw apps.
 
 Als u nog geen abonnement voor Azure hebt, maakt u een [gratis account](https://azure.microsoft.com/free/) voordat u begint.
 
@@ -38,13 +38,11 @@ Voor deze snelstartgids hebt u heet volgende nodig:
 
 1. Meld u aan bij [Azure Portal](https://portal.azure.com/).
 
-2. Selecteer **Een resource maken** > **Gegevens en analyse**.
+2. Zoek in het zoekvak naar *Power BI Embedded*.
 
-3. Zoek in het zoekvak naar *Power BI Embedded*.
+3. In Power BI Embedded selecteert u **Maken**.
 
-4. In Power BI Embedded selecteert u **Maken**.
-
-5. Vul de vereiste gegevens in en selecteer vervolgens **Maken**.
+4. Vul de vereiste gegevens in en selecteer vervolgens **Maken**.
 
     ![Velden die moeten worden ingevuld om nieuwe capaciteit te maken](media/azure-pbie-create-capacity/azure-portal-create-power-bi-embedded.png)
 
@@ -57,9 +55,7 @@ Voor deze snelstartgids hebt u heet volgende nodig:
     |**Locatie**|De locatie waar Power BI voor uw tenant wordt gehost. Uw standaardlocatie is uw basisregio. U kunt de regio wijzigen met behulp van [Multi-Geo-opties](embedded-multi-geo.md).
     |**Prijscategorie**|Selecteer de SKU (aantal v-cores en de hoeveelheid geheugen) die voldoet aan uw behoeften.  Zie [Prijzen voor Power BI Embedded](https://azure.microsoft.com/pricing/details/power-bi-embedded/) voor meer informatie|
 
-6. Selecteer **Maken**.
-
-Het maken duurt normaal gesproken minder dan een minuut; vaak slechts een paar seconden. Als u **Aan dashboard vastmaken** selecteert, kunt u naar uw dashboard navigeren om uw nieuwe capaciteit te bekijken. U kunt ook naar **Alle services** > **Power BI Embedded** navigeren om te ontdekken of uw capaciteit gereed is.
+U kunt naar **Alle services** > **Power BI Embedded** navigeren om te ontdekken of uw capaciteit gereed is. U kunt ook **Vastmaken aan dashboard** selecteren in het meldingengedeelte of binnen een blade om naar uw dashboard te navigeren om uw nieuwe capaciteit te zien.
 
 ![Azure Portal-dashboard met Power BI Embedded-capaciteit](media/azure-pbie-create-capacity/azure-portal-dashboard.png)
 

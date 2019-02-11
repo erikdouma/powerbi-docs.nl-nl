@@ -5,74 +5,380 @@ author: mihart
 manager: kvivek
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: landing-page
+ms.topic: hub-page
 ms.date: 12/10/2018
 ms.author: mihart
-layout: LandingPage
+layout: HubPage
 ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: 7ebeb80de73ed9212c8565461d21d375c63badc6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: dec19bc01e2cec30c8f31c1362f0e6c31e632aa1
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282995"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794765"
 ---
-# <a name="power-bi-for-consumers"></a>Power BI voor gebruikers
-Als *eindgebruiker* of *consument* bent u iemand die dashboards, rapporten en apps van collega's ontvangt. U werkt in ***Power BI-service*** om deze inhoud te beoordelen en te gebruiken voor het nemen van zakelijke beslissingen.
-
-Bent u meer een ontwerper, ontwikkelaar of beheerder van Power BI? Ook u bent welkom. We stellen voor dat u begint met [Power BI voor rapportontwerpers](../power-bi-creator-landing.md).
-
-<ul class="panelContent cardsF"> 
-              <li> 
-                             <div class="cardSize"> 
-                                           <div class="cardPadding"> 
-                                                          <div class="card"> 
-                                                                        <div class="cardText"> 
-                                                                                      <h3>Aan de slag met Power BI</h3> 
-                                                                                      <p></p>
-                                                                                            <a href="end-user-consumer.md">Wat kan ik doen als een Power BI-gebruiker?</a><br/> 
-                                                                                            <a href="../service-get-started.md">Zelfstudie om aan de slag te gaan</a><br/>
-Een <a href="end-user-report-open.md">rapport</a> | <a href="end-user-dashboard-open.md">dashboard</a> | <a href="end-user-apps.md">app</a> weergeven<br/> 
-                                                                                            <!--<a href="end-user-collaborate.md">Collaborate</a><br/> -->
-                                                                                            <a href="end-user-subscribe.md">Abonneren op een rapport of dashboard</a><br/> 
-                                                                        </div> 
-                                                          </div> 
-                                           </div> 
-                             </div> 
-              </li>
-              <li> 
-                             <div class="cardSize"> 
-                                           <div class="cardPadding"> 
-                                                          <div class="card"> 
-                                                                        <div class="cardText"> 
-                                                                                      <h3>Maak kennis met Power BI</h3> 
-                                                                                      <p></p>
-                                                                                            <a href="end-user-basic-concepts.md">Basisbeginselen</a><br/>
-                                                                                            <a href="end-user-experience.md">Navigeren in de Power BI-service</a><br/> 
-                                                                                            <a href="../power-bi-overview.md">Meer informatie over de verschillende hulpprogramma's van Power BI</a><br/> 
-                                                                                            <!--<a href="end-user-faq.md">FAQ: Frequently Asked Questions</a> -->
-                                                                        </div> 
-                                                          </div> 
-                                           </div> 
-                             </div> 
-              </li>
-              <li> 
-                             <div class="cardSize"> 
-                                           <div class="cardPadding"> 
-                                                          <div class="card"> 
-                                                                        <div class="cardText"> 
-                                                                                      <h3>Geavanceerde taken</h3> 
-                                                                                      <p></p>
-                                                                                            <a href="end-user-q-and-a.md">Het zoekvak van Q&A leren gebruiken voor zoeken met natuurlijke taalgebruik</a><br/> 
-                                                                                            <a href="end-user-focus.md">Weergave-instellingen wijzigen</a><br/> 
-                                                                                            <a href="end-user-report-filter.md">Meer informatie over het gebruik van rapportfilters</a><br> 
-                                                                                            <a href="end-user-insights.md">Automatische inzichten genereren</a><br/> 
-                                                                        </div> 
-                                                          </div> 
-                                           </div> 
-                             </div> 
-              </li>
-</ul>
-
-
+<div id="main" class="v2">
+      <div class="container">
+            <h1 class="">Power BI voor gebruikers</h1>
+            <p>Als <b>eindgebruiker</b> of <b>consument</b> bent u iemand die dashboards, rapporten en apps van collega's ontvangt. U werkt in de <b><i>Power BI-service</i></b> om deze inhoud te beoordelen en te gebruiken voor het nemen van zakelijke beslissingen.</p>
+            <p>Bent u meer een ontwerper, ontwikkelaar of beheerder van Power BI? Ook u bent welkom. We stellen voor dat u begint met <a href="../power-bi-creator-landing.md">Power BI voor rapportontwerpers</a>.</p>
+            <p>Open de <a href="end-user-consumer.md">inhoudsopgave</a> om alle documentatie voor Power BI-gebruikers te bekijken.</p>
+            <ul class="pivots">
+            <li>
+                <a href="#get-started" data-linktype="self-bookmark">Aan de slag</a>
+                <ul id="get-started" class="cardsF">
+                    <li>
+                        <a data-default="true" href="#getstarted" data-linktype="self-bookmark"></a>
+                        <ul id="getstarted" class="cardsF">
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img alt="Get Started" src="media/end-user-consumer/get-started.svg" data-linktype="relative-path">
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Aan de slag</h3>
+                                                <p><a href="/power-bi/service-get-started" data-linktype="absolute-path">Volg een rondleiding door de Power BI-service</a></p>
+                                                <p><a href="/power-bi/consumer/end-user-consumer" data-linktype="absolute-path">Wat is een Power BI-<b><i>gebruiker</i></b>?</a></p>
+                                                <p><b>Wat is het verschil:</b> <a href="/power-bi/consumer/end-user-reports" data-linktype="absolute-path">Rapporten</a>, <a href="/power-bi/consumer/end-user-dashboards" data-linktype="absolute-path">Dashboards</a>, <a href="/power-bi/consumer/end-user-apps" data-linktype="absolute-path">Apps</a></p>
+                                                <p><a href="/power-bi/consumer/end-user-sign-in" data-linktype="absolute-path">Aanmelden en afmelden</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img alt="View content" src="media/end-user-consumer/view-content.svg" data-linktype="relative-path">
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Inhoud weergeven</h3>
+                                                <p><a href="/power-bi/consumer/end-user-report-open" data-linktype="absolute-path">Een rapport weergeven</a></p>
+                                                <p><a href="/power-bi/consumer/end-user-dashboard-open" data-linktype="absolute-path">Een dashboard weergeven</a></p>
+                                                <p><a href="/power-bi/consumer/end-user-app-view" data-linktype="absolute-path">Een app weergeven</a></p>
+                                                <!-- <p><a href="" data-linktype="absolute-path">Is my content up-to-date?</a></p> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img alt="Collaborate and share" src="media/end-user-consumer/collaborate-share.svg" data-linktype="relative-path">
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Samenwerken &amp; delen</h3>
+                                                <p><a href="/power-bi/consumer/end-user-apps" data-linktype="absolute-path">Meer informatie over gedeelde apps</a></p>
+                                                <p><a href="/power-bi/consumer/end-user-subscribe" data-linktype="absolute-path">Abonneren op inhoud</a></p>
+                                                <p><a href="/power-bi/consumer/end-user-comment" data-linktype="absolute-path">Opmerkingen toevoegen aan een dashboard</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img alt="Interact and analyze" src="media/end-user-consumer/interact-analyze.svg" data-linktype="relative-path">
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Interactie &amp; analyses</h3>
+                                                <p><a href="/power-bi/consumer/end-user-experience" data-linktype="absolute-path">Navigatie: de inhoud die u nodig hebt snel zoeken</a></p>
+                                                <p><a href="/power-bi/consumer/end-user-q-and-a" data-linktype="absolute-path">Q&amp;A: vragen stellen in natuurlijke taal</a></p>
+                                                <p><a href="/power-bi/consumer/end-user-report-filter" data-linktype="absolute-path">Interactie met filters en slicers</a></p>
+                                                <p><a href="/power-bi/consumer/end-user-visual-type" data-linktype="absolute-path">Meer informatie over de typen visuals die u in Power BI ziet</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img alt="Get help" src="media/end-user-consumer/get-help.svg" data-linktype="relative-path">
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Hulp vragen</h3>
+                                            <!--    <p><a href="/power-bi/guided-learning/index" data-linktype="absolute-path">Microsoft LEARN self-paced training</a></p>
+                                               --> <p><a href="https://powerbi.microsoft.com/blog/" data-linktype="absolute-path">Het Power BI-blog lezen</a></p>
+                                                <p><a href="http://community.powerbi.com/" data-linktype="absolute-path">Vragen stellen in de Power BI-forums</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img alt="All Power BI consumer documentation" src="media/end-user-consumer/interact-analyze.svg" data-linktype="relative-path">
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <a href="end-user-consumer.md" data-linktype="absolute-path">
+                                                <h3>Zie alle documentatie voor Power BI-gebruikers</h3></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#concepts-terminology" data-linktype="self-bookmark"> Concepten &amp; terminologie</a>
+                <ul id="concepts-terminology">
+                    <li>
+                        <a href="#conceptsterminology" data-linktype="self-bookmark"> Concepten &amp; terminologie</a>
+                        <ul id="conceptsterminology" class="cardsC">
+                            <br>
+                            <li>
+                                <a href="/power-bi/consumer/End-user-basic-concepts" data-linktype="absolute-path">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/end-user-consumer/basic-concepts.svg" alt="Basic Concepts" data-linktype="relative-path">
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Basisconcepten</h3>
+                                                    <p>Maak kennis met de Power BI-concepten en het bouwen van blokken en hoe dit allemaal samenkomt.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/power-bi/consumer/End-user-glossary" data-linktype="absolute-path">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/end-user-consumer/glossary.svg" alt="Glossary" data-linktype="relative-path">
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Woordenlijst</h3>
+                                                    <p>Wanneer u een term tegenkomt die u niet kent, kunt u hier de betekenis opzoeken.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/power-bi/consumer/end-user-experience" data-linktype="absolute-path">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/end-user-consumer/tour.svg" alt="Tour" data-linktype="relative-path">
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Rondleiding</h3>
+                                                    <p>Volg een demonstratie van de Power BI-service. Gaandeweg raakt u vertrouwd met onze navigatie en terminologie.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/power-bi/service-admin-licensing-organization" data-linktype="absolute-path">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/end-user-consumer/power-bi-license-types.svg" alt="Power BI license types" data-linktype="relative-path">
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Typen Power BI-licenties</h3>
+                                                    <p>Uw type licentie bepaalt welke acties u in Power BI kunt uitvoeren. Ga na welk type licentie u gebruikt.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/power-bi/service-admin-licensing-organization" data-linktype="absolute-path">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/end-user-consumer/advanced-concepts.svg" alt="Advanced Concepts" data-linktype="relative-path">
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Geavanceerde concepten</h3>
+                                                    <p>Bent u klaar om u verder in de materie te verdiepen? Verken deze geavanceerde onderwerpen voor meer informatie over hoe u uw gegevens optimaal kunt gebruiken. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="end-user-consumer.md" data-linktype="absolute-path">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="" alt="All Power BI consumer documentation" data-linktype="relative-path">
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Zie alle documentatie voor Power BI-gebruikers</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#resources" data-linktype="self-bookmark">Resources</a>
+                <ul id="resources">
+                    <li>
+                        <a href="#resources" data-linktype="self-bookmark">Resources</a>
+                        <ul id="resources" class="cardsC">
+                            <br>
+                            <li>
+                                <a href="/power-bi/consumer/end-user-faq" data-linktype="absolute-path">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/end-user-consumer/faq.svg" alt="FAQ" data-linktype="relative-path">
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>FAQ: veelgestelde vragen</h3>
+                                                    <p>Bekijk de meest populaire vragen die we van gebruikers zoals u krijgen.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/power-bi/desktop-accessibility" data-linktype="absolute-path">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/end-user-consumer/accessibility.svg" alt="Accessibility" data-linktype="relative-path">
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Toegankelijkheid</h3>
+                                                    <p>Lees hoe Microsoft het voor gebruikers met een handicap gemakkelijker maakt om met Power BI te werken. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>                            
+                            <li>
+                                <a href="/power-bi/consumer/end-user-browsers" data-linktype="absolute-path">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/end-user-consumer/browser-info.svg" alt="Browsers Info" data-linktype="relative-path">
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Informatie over browsers</h3>
+                                                    <p>Raadpleeg de lijst met browsers die u het beste kunt gebruiken voor Power BI. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/power-bi/supported-languages-countries-regions" data-linktype="absolute-path">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/end-user-consumer/supported-languages.svg" alt="Supported Languages" data-linktype="relative-path">
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Ondersteunde talen</h3>
+                                                    <p>Power BI is in veel talen vertaald en er worden voortdurend extra taalversies toegevoegd. Lees hoe u in de browser een taal kunt kiezen. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="end-user-consumer.md" data-linktype="absolute-path">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="" alt="All Power BI consumer documentation" data-linktype="relative-path">
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Zie alle documentatie voor Power BI-gebruikers</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            </ul> 
+      </div>
+</div>

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 174886acf1d827497b48d660bb89e2b4057b09b9
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: 35d5a6f9911afea7b91b37299225c191cd4d7ac9
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234588"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794854"
 ---
 # <a name="visualization-types-in-power-bi"></a>Typen visualisaties in Power BI
 U vindt visualisaties in rapporten, dashboards, apps, en Q&A. Sommige van deze visualisatietypen zijn verpakt met Power BI en sommige zijn *aangepaste visualisaties*. Aangepaste visualisaties worden gemaakt buiten Power BI en op een manier die het voor *rapportontwerpers* mogelijk maakt om deze aan Power BI-rapporten, dashboards en apps toe te voegen. 
@@ -26,7 +26,7 @@ Dit artikel vormt een overzicht van de visualisaties die zijn verpakt met Power 
 > Zoek voor meer informatie over aangepaste visualisaties in de sectie **Visuele Power BI-elementen** van [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Van elk visuele element vindt u een beschrijving, auteursgegevens, en schermafdrukken of een video. 
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Lijst met visualisaties die beschikbaar zijn in Power BI
-Al deze visualisaties kunnen worden gevonden in Power BI-apps, -dashboards, -rapporten en zijn [opgegeven in Q&A](#gna).
+Al deze visualisaties kunnen worden gevonden in Power BI-apps, -dashboards, -rapporten en zijn [opgegeven in Q&A](#qna). Zie [Interactie met visualisaties in rapporten, dashboards en apps](end-user-visualizations.md) voor meer informatie over de interactie met visualisaties
 
 ### <a name="area-charts-basic-layered-and-stacked"></a>Vlakdiagrammen: eenvoudig (lagen) en gestapeld
 ![vlakdiagram](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/basicareamapsmall.png)
@@ -232,5 +232,5 @@ Wanneer u query's in natuurlijke taal typt met Power BI Q&A, kunt u het type vis
 ![Q&A-sessie](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
 ## <a name="next-steps"></a>Volgende stappen
-[Visualisaties in Power BI-rapporten](end-user-visualizations.md)    
+[Interactie met visualisaties in rapporten, dashboards en apps](end-user-visualizations.md)    
 [The right visual reference van sqlbi.com](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)

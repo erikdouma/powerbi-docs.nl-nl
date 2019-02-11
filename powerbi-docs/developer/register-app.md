@@ -4,108 +4,105 @@ description: Informatie over het registreren van een toepassing in Azure Active 
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 11/26/2018
-ms.openlocfilehash: c05dddbddc2dd19fed1bfbec25bcd9e378df543f
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 2fb633c8f23d5d9d70dc6a01c2467debb169da54
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430148"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762370"
 ---
-# <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Een Azure AD-app registreren om Power BI-inhoud in te sluiten
+# <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Een Azure AD-toepassing registeren om bij Power BI te gebruiken
 
 Informatie over het registreren van een toepassing in Azure Active Directory (Azure AD) voor gebruik met ingesloten Power BI-inhoud.
 
-U kunt uw toepassing registreren bij Azure AD zodat uw toepassing toegang heeft tot de Power BI REST-API's. Nadat u uw toepassing registreert, kunt u een identiteit instellen voor uw toepassing en machtigingen opgeven voor Power BI REST-resources.
+U kunt uw toepassing registreren bij Azure AD zodat uw toepassing toegang heeft tot de [Power BI REST API's](https://docs.microsoft.com/rest/api/power-bi/). Nadat u uw toepassing registreert, kunt u een identiteit instellen voor uw toepassing en machtigingen opgeven voor Power BI REST-resources.
 
 > [!IMPORTANT]
 > Voordat u een Power BI-app registreert, hebt u een [Azure Active Directory-tenant en een organisatiegebruiker](create-an-azure-active-directory-tenant.md) nodig. Als u zich nog niet hebt geregistreerd voor Power BI met een gebruiker in uw tenant, wordt de registratie van de app niet voltooid.
 
-Er zijn twee manieren om uw toepassing te registreren. De eerste is met het [Power BI-app-hulpprogramma voor registratie](https://dev.powerbi.com/apps/). U kunt dit ook rechtstreeks doen in Azure Portal. Het Power BI App-hulpprogramma voor registratie is de eenvoudigste optie, omdat u slechts enkele velden hoeft in te vullen. Gebruik Azure Portal als u wijzigingen wilt aanbrengen in uw app.
+Er zijn twee manieren om uw toepassing te registreren. De eerste is met het [Power BI-app-hulpprogramma voor registratie](https://dev.powerbi.com/apps/). U kunt dit ook rechtstreeks doen in Azure Portal. Het Power BI App-hulpprogramma voor registratie is handiger om te gebruiken, aangezien u hier maar een aantal velden hoeft in te vullen. Gebruik Azure Portal als u wijzigingen wilt aanbrengen in uw app.
 
-## <a name="register-with-the-power-bi-app-registration-tool"></a>Registreren met het Power BI App-hulpprogramma voor registratie
+## <a name="register-with-the-power-bi-application-registration-tool"></a>Registreren met het Power BI Application-hulpprogramma voor registratie
 
 U moet uw toepassing registreren in **Azure Active Directory** om een identiteit te maken voor uw toepassing en machtigingen op te geven voor Power BI REST-resources. Wanneer u een toepassing registreert, zoals een console-app of een website, ontvangt u een id die wordt gebruikt door de toepassing om zich te identificeren bij de gebruikers bij wie ze machtigingen aanvragen.
 
 Ga als volgt te werk om uw toepassing te registreren met het Power BI App-hulpprogramma voor registratie:
 
 1. Ga naar [dev.powerbi.com/apps](https://dev.powerbi.com/apps).
-2. Selecteer **Aanmelden met uw bestaande account**.
-3. Geef de **naam van een app** op.
-4. Welk type app u selecteert, is afhankelijk van de toepassing die u gebruikt.
 
-   * Gebruik een **systeemeigen app** voor apps die worden uitgevoerd op clientapparaten. Kies voor een **systeemeigen app** als u inhoud insluit voor uw klanten, ongeacht wat de toepassing is (ook bij webtoepassingen).
-   * Gebruik een **web-app aan de serverzijde** voor web-apps of web-API's.
+2. Selecteer **Aanmelden** met uw bestaande account en selecteer **Volgende**.
 
-5. Voer een waarde in voor **Omleidings-URL** en **URL van startpagina**. De **omleidings-URL** kan een willekeurige geldige URL zijn.
+3. Geef een **Toepassingsnaam** op.
 
-    De **URL van startpagina** is alleen beschikbaar als u kiest voor een **web-app aan de serverzijde** voor het type toepassing.
+4. Geef een **toepassingstype** op.
 
-    Voor de voorbeelden voor *insluiting voor uw klanten* en *integrate-dashboard-web-app* is de **omleidings-URL** `http://localhost:13526/Redirect`. Voor het rapport- en tegelvoorbeeld is de **omleidings-URL** `http://localhost:13526/`.
-6. Kies de API's voor de toepassing die toegang heeft. Zie [Power BI-machtigingen](power-bi-permissions.md) voor meer informatie over Power BI-toegangsmachtigingen.
+    Hier ziet u de verschillen tussen **systeemeigen toepassingen** en **webtoepassingen aan de serverzijde** die bepalen welk toepassingstype u kiest.
 
-    ![API's voor app-registratie](media/register-app/app-registration-apis.png)
-7. Selecteer **App registreren**.
+    Systeemeigen:
+    * U wilt een toepassing maken die is [ontworpen voor uw klanten](embed-sample-for-customers.md) en gebruikt een account van de hoofdgebruiker (de Power BI Pro-licentie die voor het aanmelden bij Power BI is gebruikt) voor de verificatie.
 
-    U krijgt dan een **client-id**. Als u een **web-app aan de serverzijde** selecteert, ontvangt u een **clientgeheim**. De **client-id** kan indien nodig op een later tijdstip worden opgehaald uit Azure Portal. Als u het **clientgeheim** kwijtraakt, moet u een nieuw clientgeheim maken binnen Azure Portal.
+    Webtoepassing aan de serverzijde:
+    * U wilt een toepassing maken die is [ontworpen voor uw organisatie](embed-sample-for-your-organization.md).
+    * U wilt een toepassing maken die is [ontworpen voor uw klanten](embed-sample-for-customers.md) met behulp van een service-principal voor de verificatie.
+    * U wilt webapps of web-API's maken.
 
-8. Navigeer naar Azure en selecteer **Machtigingen verlenen**.
+    ![App-type](media/register-app/register-app-new-design-app-type.png)
 
-   > [!Note]
-   > Gebruikers in de tenant moeten toegang hebben tot **_Machtigingen verlenen_** om deze stap uit te voeren.
+5. Als u **Webtoepassing aan de serverzijde** als toepassingstype hebt geselecteerd, voert u nu een waarde in voor **Startpagina-URL** en **Omleidings-URL**. De **Omleidings-URL**werkt in combinatie met elke geldige URL en moet overeenkomen met de toepassing die u hebt gemaakt. Als u **Systeemeigen** hebt geselecteerd, gaat u verder naar stap 6.
 
-* Ga naar Azure.
-* Zoek en selecteer **App registraties**.
-* Kies uw app.
-* Selecteer **Instellingen**.
-* Selecteer **Vereiste machtigingen**.
-* Selecteer **Power BI-Service** om de machtigingen te verifiëren die u hebt geselecteerd in de App-registratiesite.
-* Selecteer **Machtigingen verlenen**.
+6. Kies de API's van Power BI die voor uw toepassing nodig zijn. Zie [Power BI-machtigingen](power-bi-permissions.md) voor meer informatie over Power BI-toegangsmachtigingen. Selecteer vervolgens **Registreren**.
 
-U kunt de geregistreerde toepassing nu als onderdeel van uw aangepaste toepassing gebruiken om te communiceren met de Power BI-service.
+    ![API's kiezen om te registreren](media/register-app/register-app-new-app-registration-apis-register.png)
 
-> [!IMPORTANT]
-> Als u inhoud insluit voor uw klanten, moet u extra machtigingen in Azure Portal configureren. Zie [Machtigingen toepassen op uw toepassing](#apply-permissions-to-your-application) voor meer informatie.
+    > [!Important]
+    > Als u de service-principals inschakelt voor gebruik met Power BI, zijn de Azure Active Directory-machtigingen niet meer geldig. De machtigingen worden beheerd via het Power BI-beheerportal.
+
+7. Als u **Systeemeigen** als toepassingstype kiest, wordt er een **toepassings-id** toegewezen. Als u **Web-app aan de serverzijde** als toepassingstype kiest, ontvangt u een **toepassings-id** en een **toepassingsgeheim**.
+
+    > [!Note]
+    > De **toepassings-id** kan indien nodig op een later tijdstip worden opgehaald uit Azure Portal. Als u het **toepassingsgeheim** kwijtraakt, moet u een nieuw clientgeheim maken binnen Azure Portal.
+
+| Systeemeigen | Webtoepassing aan de serverzijde |
+|--------|-----------------------------|
+| ![Systeemeigen geslaagd](media/register-app/register-app-new-design-success-native.png) | ![Web-app aan de serverzijde geslaagd](media/register-app/register-app-new-design-success-server-side-web-app.png) |
+
+U kunt de geregistreerde toepassing nu als onderdeel van uw aangepaste toepassing gebruiken om te communiceren met de Power BI-service en uw Power BI Embedded-toepassing.
 
 ## <a name="register-with-the-azure-portal"></a>Registreren bij Azure Portal
 
 Uw andere optie voor het registreren van uw toepassing is dit rechtstreeks in Azure Portal te doen. Volg deze stappen voor het registreren van uw toepassing.
 
 1. Accepteer de [algemene voorwaarden van de Microsoft Power BI-API](https://powerbi.microsoft.com/api-terms).
+
 2. Meld u aan bij [Azure Portal](https://portal.azure.com).
+
 3. Kies uw Azure AD-tenant door uw account te selecteren in de rechterbovenhoek van de pagina.
-4. Kies in het navigatiedeelvenster links **Meer services**, selecteer **App-registraties** onder **Beveiliging en identiteit** en selecteer **Registratie van nieuwe toepassing**.
+
+4. Kies in het navigatiedeelvenster links **Alle services**, selecteer **Azure Active Directory**, kies **App-registraties** en selecteer vervolgens **Nieuwe toepassing registreren**.
 
     ![Nieuwe app-registratie](media/register-app/azuread-new-app-registration.png)
+
 5. Volg de aanwijzingen en maak een nieuwe toepassing.
 
-   * Voor webtoepassingen geeft u de aanmeldings-URL op, die de basis-URL van uw app vormt waar gebruikers zich kunnen aanmelden, bijvoorbeeld `http://localhost:13526`).
+   * Voor webtoepassingen geeft u de aanmeldings-URL op, die de basis-URL van uw app vormt waar gebruikers zich kunnen aanmelden, bijvoorbeeld (`http://localhost:13526`).
    * Voor systeemeigen toepassingen geeft u een **omleidings-URI** op, die Azure AD gebruikt om tokenantwoorden te retourneren. Voer een voor uw toepassing specifieke waarde in (bijvoorbeeld `http://myapplication/Redirect`).
 
 Zie voor meer informatie over het registreren van toepassingen bij Azure Active Directory het onderwerp [Toepassingen integreren met Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
 
-## <a name="how-to-get-the-client-id"></a>De client-id ophalen
+## <a name="how-to-get-the-application-id"></a>De toepassings-id verkrijgen
 
-Wanneer u een toepassing registreert, ontvangt u een **Client-id**.  Met de **client-id** worden door de toepassing machtigingen aangevraagd bij de gebruikers ten behoeve van identificatie.
+Wanneer u een toepassing registreert, ontvangt u een [toepassings-id](embed-sample-for-customers.md#application-id).  Met de **toepassings-id** worden door de toepassing machtigingen aangevraagd bij de gebruikers ten behoeve van identificatie.
 
-U ontvangt als volgt een client-id:
+## <a name="how-to-get-the-service-principal-object-id"></a>De id van het service-principal-object ophalen
 
-1. Meld u aan bij [Azure Portal](https://portal.azure.com).
-2. Kies uw Azure AD-tenant door uw account te selecteren in de rechterbovenhoek van de pagina.
-3. Kies in het navigatiedeelvenster links **Meer services** en selecteer **App-registraties**.
-4. Selecteer de toepassing waarvoor u de client-id wilt ophalen die u nodig hebt.
-5. De **toepassings-id** wordt vermeld als een GUID. Dit is de client-id voor de toepassing.
-
-    ![Client-id vermeld als toepassings-id in app-registratie](media/register-app/powerbi-embedded-app-registration-client-id.png)
+Wanneer u de [API's van Power BI](https://docs.microsoft.com/rest/api/power-bi/) gebruikt, moet u bewerkingen definiëren met behulp van de [object-id van de service-principal](embed-service-principal.md#how-to-get-the-service-principal-object-id) als u naar de service-principal verwijst, bijvoorbeeld wanneer u een service-principal als beheerder aan een werkruimte toewijst.
 
 ## <a name="apply-permissions-to-your-application-within-azure-ad"></a>Machtigingen toepassen op uw toepassing in Azure AD
-
-> [!IMPORTANT]
-> Deze sectie geldt alleen voor toepassingen die **inhoud insluiten voor uw organisatie**.
 
 Schakel extra machtigingen in voor uw toepassing naast de informatie die is opgegeven op de pagina voor de app-registratie. U kunt dit doen via de Azure AD-portal of programmatisch.
 
@@ -125,7 +122,7 @@ U moet hiervoor zijn aangemeld bij het *hoofd*account, dat wordt gebruikt voor i
     ![App-machtigingen 03](media/register-app/powerbi-embedded-azuread-app-permissions03.png)
 
    > [!NOTE]
-   > Als u de app rechtstreeks in Azure AD Portal maakt, is **Power BI Service (Power BI)** mogelijk niet aanwezig. Als dit het geval is, selecteert u **Toevoegen** en vervolgens **1 Een API selecteren**. Selecteer **Power BI Service** in de API-lijst en kies **Selecteren**.  Als **Power BI Service (Power BI)** niet beschikbaar is in **Toevoegen**, meld u zich met ten minste één gebruiker voor Power BI aan.
+   > Als u de app rechtstreeks in Azure AD Portal maakt, is **Power BI Service (Power BI)** mogelijk niet aanwezig. Als dit niet het geval is, selecteert u **+Toevoegen** en vervolgens **1 Een API selecteren**. Selecteer **Power BI Service** in de API-lijst en kies **Selecteren**.  Als **Power BI Service (Power BI)** niet beschikbaar is in **Toevoegen**, meld u zich met ten minste één gebruiker voor Power BI aan.
 
 4. Selecteer alle machtigingen onder **Gedelegeerde machtigingen**. Selecteer deze één voor één om ze te kunnen opslaan. Selecteer **Opslaan** wanneer u klaar bent.
 
@@ -140,8 +137,9 @@ U moet hiervoor zijn aangemeld bij het *hoofd*account, dat wordt gebruikt voor i
 
 1. U moet de bestaande service-principals (gebruikers) ophalen in uw tenant. Zie [servicePrincipal ophalen](https://developer.microsoft.com/graph/docs/api-reference/beta/api/serviceprincipal_get) voor informatie over hoe u dit kunt doen.
 
-    U roept de API *servicePrincipal ophalen* zonder {id} aan. Alle service-principals worden dan opgehaald in de tenant.
-2. Controleer dit voor een service-principal met uw app-client-id als **appId**-eigenschap.
+    U roept de API *Get servicePrincipal* zonder {ID} aan. Alle service-principals worden dan opgehaald in de tenant.
+
+2. Controleer dit voor een service-principal met uw app-toepassings-id als **appId**-eigenschap.
 
 3. Maak een nieuw serviceabonnement als dit ontbreekt voor uw app.
 
@@ -181,10 +179,11 @@ U moet hiervoor zijn aangemeld bij het *hoofd*account, dat wordt gebruikt voor i
      }
      ```
 
-    De **resourceId** *c78a3685-1ce7-52cd-95f7-dc5aea8ec98e* is niet universeel maar is afhankelijk van de tenant. Deze waarde is de objectId van de toepassing Power BI Service in de AAD-tenant.
+    De **resourceId** *c78a3685-1ce7-52cd-95f7-dc5aea8ec98e* is niet universeel maar is afhankelijk van de tenant. Deze waarde is de objectId van de toepassing Power BI Service in de AAD-tenant (Azure Active Directory).
 
     De gebruiker kan deze waarde snel verkrijgen in de Azure-portal:
     1. https://portal.azure.com/#blade/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/AllApps
+
     2. In het zoekvak te zoeken naar Power BI Service
 
 5. App-machtigingen verlenen aan Azure Active Directory (AAD)

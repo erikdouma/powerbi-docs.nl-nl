@@ -8,17 +8,17 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2019
+ms.date: 01/30/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5eadf12fc1b54e8f5ac657685826816f0fca318d
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: f7e83c2d0cd2f1c3344bf61f9f90ca43f09f7189
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234342"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794299"
 ---
-# <a name="visualizations-for-power-bi-consumers"></a>Visualisaties voor Power BI-**gebruikers**
+# <a name="interact-with-visualizations-in-reports-dashboards-and-apps"></a>Interactie met visualisaties in rapporten, dashboards en apps
 
 In de meest eenvoudige vorm is een ***visualisatie*** (of *visual*) een type diagram dat is samengesteld door Power BI-*ontwerpers* met behulp van de gegevens in *rapporten* en *gegevenssets*. 
 
@@ -27,13 +27,14 @@ In de meest eenvoudige vorm is een ***visualisatie*** (of *visual*) een type dia
 
 ## <a name="what-can-i-do-with-visualizations"></a>Wat kan ik doen met visualisaties?
 
-Visualisaties worden gemaakt door *ontwerpers* van rapporten en dashboards en gedeeld met *gebruikers*. Als gebruiker hebt u vele opties voor het werken met visualisaties om inzichten te onthullen en om zakelijke beslissingen te nemen die zijn gebaseerd op gegevens. Al deze opties worden hieronder vermeld met koppelingen naar stapsgewijze instructies.
+Visualisaties worden gemaakt door *ontwerpers* van rapporten en dashboards en gedeeld met *gebruikers*. Als gebruiker hebt u vele opties voor het werken met visualisaties om inzichten te onthullen en om zakelijke beslissingen te nemen die zijn gebaseerd op gegevens. Al deze opties worden in de onderstaande tabel vermeld met koppelingen naar stapsgewijze instructies.
 
-Maar eerst iets over Q&A. Q&A is het zoekhulpprogramma voor natuurlijke taal van Power BI. U typt een vraag in natuurlijke taal en met Q&A wordt de vraag beantwoord in de vorm van een visualisatie. Q&A biedt gebruikers een manier om hun eigen visualisaties te maken. De visualisaties die u maakt met Q&A, kunnen echter niet worden opgeslagen. Maar als er iets specifieks is dat u wilt leren van de gegevens, en de ontwerper deze info niet heeft opgenomen in een rapport of dashboard, is Q&A een goede optie. Zie [Q&A voor gebruikers](end-user-q-and-a.md) voor meer informatie over Q&A.
+> [!IMPORTANT]
+> Maar eerst iets over Q&A. Q&A is het zoekhulpprogramma voor natuurlijke taal van Power BI. U typt een vraag in natuurlijke taal en met Q&A wordt de vraag beantwoord in de vorm van een visualisatie. Q&A biedt gebruikers een manier om hun eigen visualisaties te maken. De visualisaties die u maakt met Q&A, kunnen echter niet worden opgeslagen. Maar als er iets specifieks is dat u wilt leren van de gegevens, en de ontwerper deze info niet heeft opgenomen in een rapport of dashboard, is Q&A een goede optie. Zie [Q&A voor gebruikers](end-user-q-and-a.md) voor meer informatie over Q&A.
 
 
 
-|Kolom1  |Op een dashboard  |In een rapport  | In Q&A
+|Taak  |Op een dashboard  |In een rapport  | In Q&A
 |---------|---------|---------|--------|
 |[Opmerkingen voor uzelf toevoegen aan een visualisatie of een gesprek beginnen met collega’s over de visualisatie](end-user-comment.md).     |  ja       |   nee      |  nee  |
 |[Het rapport openen en verkennen waarin de visualisatie is gemaakt](end-user-tiles.md).     |    ja     |   nb      |  nb |

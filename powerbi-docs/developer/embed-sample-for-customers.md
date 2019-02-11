@@ -4,20 +4,20 @@ description: Informatie over het integreren of insluiten van een rapport, dashbo
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: nishalit
 ms.topic: tutorial
 ms.service: powerbi
-ms.subservice: powerbi-developer
+ms.component: powerbi-developer
 ms.custom: seodec18
-ms.date: 12/10/2018
-ms.openlocfilehash: 7f1c05e1c396b1126bffbf6e62798e679decdca9
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: eb1147875accff47b80dcdaf8a4051b57e627625
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431172"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762623"
 ---
-# <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Zelfstudie: Een Power BI-rapport, -dashboard of -tegel insluiten in een toepassing voor uw klanten
+# <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Zelfstudie: Power BI-inhoud insluiten in een toepassing voor uw klanten
 
 Met **Power BI Embedded in Azure** kunt u rapporten, dashboards en tegels in een toepassing insluiten met de gegevens waarvan de app eigenaar is. Als **de app eigenaar is van de gegevens** kunt u een toepassing gebruiken die Power BI gebruikt als ingesloten analytics platform. Als **ISV-ontwikkelaar** kunt u Power BI-inhoud maken waarmee rapporten, dashboards of tegels worden weergegeven in een toepassing die volledig geïntegreerd en interactief is, zonder dat gebruikers een licentie voor Power BI hoeven te hebben. In deze zelfstudie leert u hoe u een rapport in een toepassing kunt integreren met de .NET SDK voor Power BI en de JavaScript-API voor Power BI bij gebruik van **Power BI Embedded in Azure** voor uw klanten.
 
@@ -28,12 +28,15 @@ In deze zelfstudie leert u het volgende:
 
 ## <a name="prerequisites"></a>Vereisten
 
-Om te beginnen hebt u een **Power BI Pro**-account (dit account is uw **hoofdaccount**) en een **Microsoft Azure**-abonnement nodig.
+U hebt het volgende nodig om aan de slag te gaan:
 
-* Als u zich niet hebt geregistreerd voor **Power BI Pro**, [kunt u zich hier aanmelden voor een gratis proefversie](https://powerbi.microsoft.com/pricing/) voordat u begint.
-* Als u nog geen abonnement op Azure hebt, maakt u een [gratis account](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) voordat u begint.
+* Een [Power BI Pro-account](../service-self-service-signup-for-power-bi.md) (een hoofdaccount met een gebruikersnaam en wachtwoord om u aan te melden bij uw Power BI Pro-account) of een [service-principal (een token alleen voor apps)](embed-service-principal.md).
+* Een [Microsoft Azure](https://azure.microsoft.com/)-abonnement.
 * U moet beschikken over een eigen [Azure Active Directory-tenant ](create-an-azure-active-directory-tenant.md).
-* [Visual Studio](https://www.visualstudio.com/) moet zijn geïnstalleerd (versie 2013 of hoger).
+
+Als u zich niet hebt geregistreerd voor **Power BI Pro**, [kunt u zich hier aanmelden voor een gratis proefversie](https://powerbi.microsoft.com/pricing/) voordat u begint.
+
+Als u nog geen abonnement op Azure hebt, maakt u een [gratis account](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) voordat u begint.
 
 ## <a name="set-up-your-embedded-analytics-development-environment"></a>De ingesloten analytische ontwikkelomgeving instellen
 
@@ -45,98 +48,25 @@ Als u echter besluit de omgeving handmatig in te stellen, kunt u hieronder doorg
 
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Een toepassing registreren in Azure Active Directory (Azure AD)
 
-U kunt uw toepassing registreren bij Azure Active Directory AD zodat uw toepassing toegang heeft tot de Power BI REST-API's. Als u uw toepassing registreert, kunt u een identiteit instellen voor uw toepassing en machtigingen opgeven voor Power BI REST-resources.
+[Registreer uw toepassing](register-app.md) bij Azure Active Directory AD zodat uw toepassing toegang heeft tot de [Power BI REST API's](https://docs.microsoft.com/rest/api/power-bi/). Als u uw toepassing registreert, kunt u een identiteit instellen voor uw toepassing en machtigingen opgeven voor Power BI REST-resources. Afhankelijk van of u een hoofdaccount of [service-principal](embed-service-principal.md) wilt gebruiken, wordt bepaald op welke manier u een toepassing gaat registreren.
 
-1. Accepteer de [algemene voorwaarden van de Microsoft Power BI-API](https://powerbi.microsoft.com/api-terms).
+Welk type toepassing u in Azure registreert, is afhankelijk van de gekozen methode.
 
-2. Meld u aan bij [Azure Portal](https://portal.azure.com).
+Als u een hoofdaccount blijft gebruiken, gaat u verder met het registreren van een **systeemeigen** app. U gebruikt een systeemeigen app omdat u met een niet-interactieve aanmelding werkt.
 
-    ![Hoofdweergave van Azure Portal](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
-
-3. Selecteer in het navigatiedeelvenster links **Alle services**, selecteer **App-registraties** en selecteer vervolgens **Nieuwe toepassing registreren**.
-
-    ![App-registratie zoeken](media/embed-sample-for-customers/embed-sample-for-customers-003.png)</br>
-    ![Nieuwe app-registratie](media/embed-sample-for-customers/embed-sample-for-customers-004.png)
-
-4. Volg de aanwijzingen en maak een nieuwe toepassing. Als de app eigenaar is van de gegevens, gebruikt **Systeemeigen** als het toepassingstype. Daarnaast moet u een **omleidings-URI** opgeven, die **Azure AD** gebruikt om tokenantwoorden te retourneren. Voer een specifieke waarde in voor uw toepassing (bijvoorbeeld `http://localhost:13526/Redirect`).
-
-    ![App maken](media/embed-sample-for-customers/embed-sample-for-customers-005.png)
-
-### <a name="apply-permissions-to-your-application-within-azure-active-directory"></a>Machtigingen toepassen op uw toepassing in Azure Active Directory
-
-Schakel extra machtigingen in voor uw toepassing, inclusief de informatie die u hebt opgegeven op de pagina voor de app-registratie. Meld u aan met het *hoofdaccount* dat u voor het insluiten van inhoud gebruikt. Het hoofdaccount moet het account van een globale beheerder zijn.
-
-### <a name="use-the-azure-active-directory-portal"></a>Azure Active Directory-portal gebruiken
-
-1. Blader naar [App-registraties](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade) in Azure Portal en selecteer de app die u gebruikt voor insluiting.
-
-    ![App kiezen](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
-
-2. Selecteer **Instellingen** en selecteer **Vereiste machtigingen**, onder **API-toegang**.
-
-    ![Vereiste machtigingen](media/embed-sample-for-customers/embed-sample-for-customers-008.png)
-
-3. Selecteer **Windows Azure Active Directory** en controleer vervolgens of **De map openen als de aangemelde gebruiker** is geselecteerd. Selecteer **Opslaan**.
-
-    ![Windows Azure AD-machtigingen](media/embed-sample-for-customers/embed-sample-for-customers-011.png)
-
-4. Selecteer **Toevoegen**.
-
-    ![Machtigingen toevoegen](media/embed-sample-for-customers/embed-sample-for-customers-012.png)
-
-5. Selecteer **Een API selecteren**.
-
-    ![API-toegang toevoegen](media/embed-sample-for-customers/embed-sample-for-customers-013.png)
-
-6. Selecteer **Power BI-service** en selecteer vervolgens **Selecteren**.
-
-    ![PBI-services selecteren](media/embed-sample-for-customers/embed-sample-for-customers-014.png)
-
-7. Selecteer alle machtigingen onder **Gedelegeerde machtigingen**. Selecteer **Opslaan** wanneer u klaar bent.
-
-    ![Gedelegeerde machtigingen selecteren](media/embed-sample-for-customers/embed-sample-for-customers-015.png)
-
-8. Selecteer binnen **Vereiste machtigingen** de optie **Machtigingen verlenen**.
-
-    De actie **Machtigingen verlenen** is vereist voor het *hoofdaccount* om te voorkomen dat om toestemming wordt gevraagd door Azure AD. Als het account waarmee deze actie wordt uitgevoerd een globale beheerder is, moet u machtigingen verlenen voor alle gebruikers binnen uw organisatie voor deze toepassing. Als het account waarmee deze actie wordt uitgevoerd het *hoofdaccount* is en niet een globale beheerder, moet u alleen machtigingen verlenen aan het *hoofdaccount* voor deze toepassing.
-
-    ![Machtigingen verlenen binnen het dialoogvenster Vereiste machtigingen](media/embed-sample-for-customers/embed-sample-for-customers-016.png)
+Als u echter de service-principal blijft gebruiken, moet u verder gaan met het registreren van een **webtoepassing aan de serverzijde**. U registreert een webtoepassing aan de serverzijde om een toepassingsgeheim te maken.
 
 ## <a name="set-up-your-power-bi-environment"></a>Uw Power BI-omgeving instellen
 
 ### <a name="create-an-app-workspace"></a>Een app-werkruimte maken
 
-Als u rapporten, dashboards of tegels voor uw klanten insluit, moet u uw inhoud binnen de werkruimte van een app plaatsen. Het *hoofd*account moet een beheerder van de app-werkruimte zijn.
-
-1. Maak eerst de werkruimte. Selecteer **Werkruimten** > **App-werkruimte maken**. In Appwerkruimte maken plaatst u de inhoud waartoe de toepassing toegang moet hebben.
-
-    ![Werkruimte maken](media/embed-sample-for-customers/embed-sample-for-customers-020.png)
-
-2. Geef een naam op voor de werkruimte. Als de corresponderende **werkruimte-id** niet beschikbaar is, kunt u deze bewerken tot een unieke aanduiding.
-
-    ![Werkruimte een naam geven](media/embed-sample-for-customers/embed-sample-for-customers-021.png)
-
-3. U moet een aantal opties instellen. Als u **Openbaar** kiest, is de inhoud van de werkruimte zichtbaar voor iedereen in de organisatie. Als u **Privé** kiest, kunnen alleen leden van de werkruimte de inhoud bekijken.
-
-    ![Openbaar/privé](media/embed-sample-for-customers/embed-sample-for-customers-022.png)
-
-    U kunt de instelling Openbaar/Privé niet meer wijzigen nadat u de groep hebt gemaakt.
-
-4. U kunt ook kiezen of leden van de werkruimte rechten voor **bewerken** of **alleen-lezen** krijgen.
-
-    ![Leden toevoegen](media/embed-sample-for-customers/embed-sample-for-customers-023.png)
-
-5. Voeg de e-mailadressen toe van de personen die u toegang tot de werkruimte wilt geven, en selecteer **Toevoegen**. U kunt geen groepsaliassen toevoegen, alleen personen.
-
-6. Bepaal per persoon of deze een lid of een beheerder is. Beheerders kunnen de werkruimte zelf bewerken, en bijvoorbeeld ook andere leden toevoegen. Leden kunnen de inhoud in de werkruimte bewerken, tenzij ze alleen leesrechten hebben. Zowel beheerders als leden kunnen de app publiceren.
-
-    Nu kunt u de nieuwe werkruimte weergeven. De werkruimte wordt gemaakt en in Power BI geopend. De werkruimte wordt weergegeven in de lijst met werkruimten waarvan u lid bent. Omdat u een beheerder bent, kunt u het weglatingsteken (...) selecteren om terug te gaan en wijzigingen aanbrengen, bijvoorbeeld nieuwe leden toevoegen of machtigingen van leden wijzigen.
-
-    ![Nieuwe werkruimte](media/embed-sample-for-customers/embed-sample-for-customers-025.png)
+Als u rapporten, dashboards of tegels voor uw klanten insluit, moet u uw inhoud binnen de werkruimte van een app plaatsen. Er zijn verschillende typen werkruimten die u kunt instellen: de [traditionele werkruimten](../service-create-workspaces.md) of de [nieuwe werkruimten](../service-create-the-new-workspaces.md). Als u een *hoofdaccount* gebruikt, maakt het niet uit welke type werkruimten u gebruikt. Als u echter een *[service-principal](embed-service-principal.md)* gebruikt voor aanmelding bij uw toepassing, moet u de nieuwe werkruimten gebruiken. In beide scenario’s moet ofwel het *hoofdaccount* of de *service-principal* een beheerder zijn van de app-werkruimten die bij uw toepassing horen.
 
 ### <a name="create-and-publish-your-reports"></a>Rapporten maken en publiceren
 
-U kunt de rapporten en gegevenssets maken met Power BI Desktop en de rapporten vervolgens publiceren naar een app-werkruimte. De eindgebruiker die de rapporten naar een app-werkruimte publiceert, moet beschikken over een Power BI Pro-licentie.
+U kunt de rapporten en gegevenssets maken met Power BI Desktop en de rapporten vervolgens publiceren naar een app-werkruimte. U kunt deze taak op twee manieren uitvoeren: Als eindgebruiker kunt u rapporten publiceren naar een traditionele app-werkruimte met een hoofdaccount (Power BI Pro-licentie). Als u een service-principal gebruikt, kunt u rapporten naar de nieuwe werkruimten publiceren met behulp van de [Power BI REST API's](https://docs.microsoft.com/rest/api/power-bi/imports/postimportingroup).
+
+Volg de onderstaande stappen om uw PBIX-rapport naar uw Power BI-werkruimte te publiceren.
 
 1. Download het voorbeeld van de [blogdemo](https://github.com/Microsoft/powerbi-desktop-samples) vanuit GitHub.
 
@@ -146,74 +76,163 @@ U kunt de rapporten en gegevenssets maken met Power BI Desktop en de rapporten v
 
    ![Rapport in PBI Desktop](media/embed-sample-for-customers/embed-sample-for-customers-027.png)
 
-3. Publiceer het rapport naar de **app-werkruimte**.
+3. Publiceren naar **app-werkruimten**. Hoe dit proces verloopt, hangt ervan af of u een hoofdaccount (Power Pro-licentie) of service-principal gebruikt. Als u een hoofdaccount gebruikt, kunt u uw rapport publiceren via Power BI Desktop.  Als u een service-principal gebruikt, moet de Power BI REST API's gebruiken.
 
-   ![Desktop-rapport publiceren](media/embed-sample-for-customers/embed-sample-for-customers-028.png)
+## <a name="embed-content-using-the-sample-application"></a>Inhoud met behulp van de voorbeeldtoepassing insluiten
 
-    U kunt het rapport nu weergeven in Power BI-service online.
+We hebben dit voorbeeld voor demonstratiedoeleinden bewust eenvoudig gehouden. Het is aan u of uw ontwikkelaars om het toepassingsgeheim of de aanmeldgegevens van het hoofdaccount te beveiligen.
 
-   ![PBI Desktop-rapport weergeven in de service](media/embed-sample-for-customers/embed-sample-for-customers-029.png)
+Volg de onderstaande stappen om inhoud in te sluiten met de voorbeeldtoepassing.
 
-## <a name="embed-your-content-using-the-sample-application"></a>Uw inhoud met behulp van de voorbeeldtoepassing insluiten
+1. Download [Visual Studio](https://www.visualstudio.com/) (versie 2013 of later). Download het meest recente [NuGet-pakket](https://www.nuget.org/profiles/powerbi).
 
-Volg deze stappen om inhoud in te sluiten met een voorbeeldtoepassing.
-
-1. Download het [voorbeeld waarin de app eigenaar is van de gegevens](https://github.com/Microsoft/PowerBI-Developer-Samples) vanuit GitHub om aan de slag te gaan.
+2. Download het [voorbeeld waarin de app eigenaar is van de gegevens](https://github.com/Microsoft/PowerBI-Developer-Samples) vanuit GitHub om aan de slag te gaan.
 
     ![Voorbeeldtoepassing waarin app eigenaar is van de gegevens](media/embed-sample-for-customers/embed-sample-for-customers-026.png)
 
-2. Open het bestand Web.config in de voorbeeldtoepassing. Er zijn vijf velden die u moet invullen voor een correcte uitvoering van de toepassing: **applicationId**, **workspaceId**, **reportId**, **pbiUsername** en **pbiPassword**.
+3. Open het bestand **Web.config** in de voorbeeldtoepassing. Er zijn velden die u moet invullen om de toepassing uit te voeren. U kunt **MasterUser** of **ServicePrincipal** als **verificatietype** selecteren. Welke velden u moet invullen, is afhankelijk van de gekozen verificatiemethode.
+
+    > [!Note]
+    > Het standaard ingestelde **verificatietype** in dit voorbeeld is MasterUser.
+
+    <center>
+
+    | **MasterUser** </br> (Power BI Pro-licentie) | **ServicePrincipal** </br> (token alleen voor app)|
+    |---------------|-------------------|
+    | [applicationId](#application-id) | [applicationId](#application-id) |
+    | [workspaceId](#workspace-id) | [workspaceId](#workspace-id) |
+    | [reportId](#report-id) | [reportId](#report-id) |
+    | [pbiUsername](#power-bi-username-and-password) |  |
+    | [pbiPassword](#power-bi-username-and-password) |  |
+    |  | [applicationsecret](#application-secret) |
+    |  | [tenant](#tenant) |
+
+   </center>
 
     ![Bestand Web.config](media/embed-sample-for-customers/embed-sample-for-customers-030.png)
 
-    Vul bij **applicationId** de **Toepassings-id** van **Azure** in. De **applicationId** wordt door de toepassing gebruikt om zich te identificeren bij de gebruikers bij wie u machtigingen aanvraagt. Ga als volgt te werk om de **applicationId** op te halen:
+### <a name="application-id"></a>Toepassings-id
 
-    Meld u aan bij [Azure Portal](https://portal.azure.com).
+Dit kenmerk is vereist voor beide verificatietypen (hoofdaccount en [service-principal](embed-service-principal.md)).
 
-    ![Hoofdweergave van Azure Portal](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
+Vul bij **applicationId** de **Toepassings-id** van **Azure** in. De **applicationId** wordt door de toepassing gebruikt om zich te identificeren bij de gebruikers bij wie u machtigingen aanvraagt.
 
-    Selecteer in het navigatiedeelvenster links **Alle services** en selecteer **App-registraties**.
+Ga als volgt te werk om de **applicationId** op te halen:
+
+1. Meld u aan bij [Azure Portal](https://portal.azure.com).
+
+2. Selecteer in het navigatiedeelvenster links **Alle services** en selecteer **App-registraties**.
 
     ![App-registratie zoeken](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
-    Selecteer de toepassing waarvoor u de **applicationId** wilt ophalen.
+3. Selecteer de toepassing waarvoor de **applicationID** nodig is.
 
     ![App kiezen](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
-    U ziet een **toepassings-ID** die wordt vermeld als een GUID. Gebruik deze **Toepassings-id** als de **applicationId** voor de toepassing.
+4. U ziet een **toepassings-id** die wordt vermeld als een GUID. Gebruik deze **Toepassings-id** als de **applicationId** voor de toepassing.
 
     ![applicationId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
 
-    Vul bij **workspaceId** de **app-werkruimte-GUID** van Power BI in.
+### <a name="workspace-id"></a>Werkruimte-id
 
-    ![workspaceId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
+Dit kenmerk is vereist voor beide verificatietypen (hoofdaccount en [service-principal](embed-service-principal.md)).
 
-    Vul bij **reportId** informatie over de **rapport-GUID** uit Power BI in.
+Vul bij **workspaceId** de app-werkruimte (groep)-GUID van Power BI in. U kunt deze informatie verkrijgen via de URL wanneer u bent aangemeld bij de Power BI-service, of via PowerShell.
 
-    ![reportId](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
+URL </br>
 
-    * Vul bij **pbiUsername** het Power BI-account van de hoofdgebruiker in.
-    * Vul bij **pbiPassword** het wachtwoord van het Power BI-account van de hoofdgebruiker in.
+![workspaceId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
 
-3. Nu kunt u de toepassing uitvoeren.
+PowerShell </br>
 
-    Selecteer eerst **Uitvoeren** in **Visual Studio**.
+```powershell
+Get-PowerBIworkspace -name "App Owns Embed Test"
+```
+
+   ![workspaceId van powershell](media/embed-sample-for-customers/embed-sample-for-customers-031-ps.png)
+
+### <a name="report-id"></a>Rapport-id
+
+Dit kenmerk is vereist voor beide verificatietypen (hoofdaccount en [service-principal](embed-service-principal.md)).
+
+Vul bij **reportId** informatie over de rapport-GUID uit Power BI in. U kunt deze informatie verkrijgen via de URL wanneer u bent aangemeld bij de Power BI-service, of via PowerShell.
+
+URL</br>
+
+![reportId](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
+
+PowerShell </br>
+
+```powershell
+Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
+```
+
+![reportId van powershell](media/embed-sample-for-customers/embed-sample-for-customers-032-ps.png)
+
+### <a name="power-bi-username-and-password"></a>Gebruikersnaam en wachtwoord voor Power BI
+
+Deze kenmerken zijn alleen vereist voor het verificatietype Hoofdaccount.
+
+Als u een [service-principal](embed-service-principal.md) gebruikt voor de verificatie, hoeft u de kenmerken Gebruikersnaam of Wachtwoord niet in te vullen.
+
+* Vul bij **pbiUsername** het Power BI-hoofdaccount in.
+* Vul bij **pbiPassword** het wachtwoord van het Power BI-hoofdaccount in.
+
+### <a name="application-secret"></a>Toepassingsgeheim
+
+Dit kenmerk is alleen vereist voor het verificatietype [Service-principal](embed-service-principal.md).
+
+Geef de **ApplicationSecret**-gegevens op in de sectie **Sleutels** van de sectie **App-registraties** in **Azure**.  Dit kenmerk werkt wanneer u een [service-principal](embed-service-principal.md) gebruikt.
+
+Ga als volgt te werk om de **ApplicationSecret** op te halen:
+
+1. Meld u aan bij [Azure Portal](https://portal.azure.com).
+
+2. Selecteer in het navigatiedeelvenster links **Alle services** en selecteer vervolgens **App-registraties**.
+
+    ![App-registratie zoeken](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+
+3. Selecteer de toepassing die de **ApplicationSecret** moet gebruiken.
+
+    ![Een app kiezen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+
+4. Selecteer **Instellingen**.
+
+    ![Instellingen selecteren](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
+
+5. Selecteer **Sleutels**.
+
+    ![Sleutels selecteren](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
+
+6. Voer in het vak **Beschrijving** een naam in en selecteer een duur. Selecteer vervolgens **Opslaan** om de **Waarde** voor uw toepassing op te halen. Wanneer u het deelvenster **Sleutels** sluit nadat u de sleutelwaarde hebt opgeslagen, wordt het waardeveld alleen nog als verborgen weergegeven. Op dat punt kunt u de sleutelwaarde niet meer ophalen. Als u de sleutelwaarde kwijtraakt, kunt u een nieuwe maken in Azure Portal.
+
+    ![Sleutelwaarde](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
+
+### <a name="tenant"></a>Tenant
+
+Dit kenmerk is alleen vereist voor het verificatietype [Service-principal](embed-service-principal.md).
+
+Vul bij de informatie over de **tenant** uw Azure zure-tenant-id in. U kunt deze informatie verkrijgen via [Azure AD Portal](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id#use-the-azure-ad-portal) wanneer u bent aangemeld bij de Power BI-service, of via PowerShell.
+
+### <a name="run-the-application"></a>De toepassing uitvoeren
+
+1. Selecteer **Uitvoeren** in **Visual Studio**.
 
     ![De toepassing uitvoeren](media/embed-sample-for-customers/embed-sample-for-customers-033.png)
 
-    Selecteer vervolgens **Rapport insluiten**. Selecteer de optie die overeenkomt met het item dat u wilt testen (rapporten, dasboards of tegels).
+2. Selecteer vervolgens **Rapport insluiten**. Selecteer de optie die overeenkomt met het item dat u wilt testen (rapporten, dasboards of tegels).
 
     ![Inhoud selecteren](media/embed-sample-for-customers/embed-sample-for-customers-034.png)
 
-    U kunt het rapport nu weergeven in de voorbeeldtoepassing.
+3. U kunt het rapport nu weergeven in de voorbeeldtoepassing.
 
     ![Toepassing weergeven](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
 
-## <a name="embed-your-content-within-your-application"></a>Uw inhoud in uw toepassing insluiten
+## <a name="embed-content-within-your-application"></a>Inhoud in uw toepassing insluiten
 
-Hoewel de stappen voor het insluiten van uw inhoud kunnen worden uitgevoerd met de [Power BI REST-API's](https://docs.microsoft.com/rest/api/power-bi/), worden de voorbeeldcodes die worden beschreven in dit artikel gemaakt met de **.NET SDK**.
+Hoewel de stappen voor het insluiten van uw inhoud worden uitgevoerd met de [Power BI REST API's](https://docs.microsoft.com/rest/api/power-bi/), worden de voorbeeldcodes die worden beschreven in dit artikel gemaakt met de **.NET SDK**.
 
-Als u voor uw klanten inhoud in uw toepassing wilt insluiten, is een **toegangstoken** vereist voor het hoofdaccount van **Azure AD**. U moet een [Azure Active Directory-toegangstoken ophalen](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) voor uw Power BI-toepassing met een **app die eigenaar is van de gegevens** voordat u de [Power BI REST-API's](https://docs.microsoft.com/rest/api/power-bi/) kunt aanroepen.
+Als u voor uw klanten inhoud in uw toepassing wilt insluiten, is een **toegangstoken** vereist voor uw hoofdaccount of [service-principal](embed-service-principal.md) van **Azure AD**. U moet een [Azure Active Directory-toegangstoken ophalen](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) voor uw Power BI-toepassing voordat u de [Power BI REST API's](https://docs.microsoft.com/rest/api/power-bi/) kunt aanroepen.
 
 Als u de Power BI-client met uw **toegangstoken** wilt maken, maakt u uw Power BI-clientobject zodat u kunt communiceren met de [Power BI REST-API's](https://docs.microsoft.com/rest/api/power-bi/). U maakt het **Power BI-clientobject** door het AccessToken te verpakken met het object ***Microsoft.Rest.TokenCredentials***.
 
@@ -237,7 +256,7 @@ U kunt het Power BI-clientobject gebruiken voor het ophalen van een verwijzing n
 
 Hier volgt een codevoorbeeld van hoe u het eerste rapport ophaalt uit een bepaalde werkruimte.
 
-*Een voorbeeld van het ophalen van een inhoudsitem voor een rapport, dashboard of tegel die u wilt insluiten is beschikbaar in het bestand Controllers\HomeController.cs in de [voorbeeldtoepassing](#embed-your-content-within-a-sample-application).*
+*Een voorbeeld van het ophalen van een inhoudsitem voor een rapport, dashboard of tegel die u wilt insluiten is beschikbaar in het bestand Services\EmbedService.cs in de [voorbeeldtoepassing](https://github.com/Microsoft/PowerBI-Developer-Samples).*
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;
@@ -254,9 +273,7 @@ Report report = reports.Value.FirstOrDefault();
 
 Een insluittoken genereren dat kan worden gebruikt vanuit de JavaScript API. Het insluittoken heeft alleen betrekking op het item dat u insluit. Dit betekent dat u een nieuw insluittoken moet maken voor elk stukje Power BI-inhoud dat u wilt insluiten. Zie [GenerateToken API](https://msdn.microsoft.com/library/mt784614.aspx) voor meer informatie, onder andere over welk **accessLevel** u moet gebruiken.
 
-Hier volgt een voorbeeld van het toevoegen van een insluittoken voor een rapport aan uw toepassing.
-
-*Een voorbeeld van het maken van een insluittoken voor een rapport, dashboard of tegel is beschikbaar in het bestand Controllers\HomeController.cs in de [voorbeeldtoepassing](#embed-your-content-within-a-sample-application).*
+*Een voorbeeld van het maken van een insluittoken voor een rapport, dashboard of tegel is beschikbaar in het bestand Services\EmbedService.cs in de [voorbeeldtoepassing](https://github.com/Microsoft/PowerBI-Developer-Samples).*
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;
@@ -303,7 +320,7 @@ Dit voorbeeld maakt gebruik van een **EmbedConfig**-model, een **TileEmbedConfig
     // Get models. models contains enums that can be used.
     var models = window['powerbi-client'].models;
 
-    // Embed configuration used to describe the what and how to embed.
+    // Embed configuration used to describe what and how to embed.
     // This object is used when calling powerbi.embed.
     // This also includes settings and options such as filters.
     // You can find more information at https://github.com/Microsoft/PowerBI-JavaScript/wiki/Embed-Configuration-Details.
@@ -330,7 +347,10 @@ Dit voorbeeld maakt gebruik van een **EmbedConfig**-model, een **TileEmbedConfig
 
 ## <a name="move-to-production"></a>Verplaatsen naar productie
 
-Nu u uw toepassing hebt ontwikkeld, is het tijd om toegewezen capaciteit toe te voegen aan uw app-werkruimte. Toegewezen capaciteit is vereist voor het verplaatsen naar productie.
+Nu u uw toepassing hebt ontwikkeld, is het tijd om toegewezen capaciteit toe te voegen aan uw app-werkruimte. 
+
+> [!Important]
+> Toegewezen capaciteit is vereist voor het verplaatsen naar productie.
 
 ### <a name="create-a-dedicated-capacity"></a>Een toegewezen capaciteit maken
 
@@ -349,13 +369,17 @@ Gebruik de onderstaande tabel om te bepalen welke Power BI Embedded-capaciteit h
 
 **_Met A-SKU's hebt u met een GRATIS Power BI-licentie geen toegang tot Power BI-inhoud._**
 
-Het gebruik van insluittokens met een PRO-licentie is bedoeld voor ontwikkelingstesten, dus een Power BI-hoofdaccount kan maar een beperenkt aantal insluittokens genereren. Er is een toegewezen capaciteit vereist voor het insluiten van items in een productieomgeving. Met een toegewezen capaciteit kunt u een onbeperkt aantal insluitingstokens genereren. Ga naar [Beschikbare functies](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) om de waarde voor het gebruik te controleren. Hiermee wordt het huidige gebruik van insluittokens in procenten aangegeven. De hoeveelheid is gebaseerd op elk hoofdaccount.
+Het gebruik van insluittokens met een PRO-licentie is bedoeld voor ontwikkelingstesten. Met een Power BI-hoofdaccount of service-principal kunt u dus maar een beperkt aantal insluittokens genereren. Er is een toegewezen capaciteit vereist voor het insluiten van items in een productieomgeving. Met een toegewezen capaciteit kunt u een onbeperkt aantal insluitingstokens genereren. Ga naar [Beschikbare functies](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) om de waarde voor het gebruik te controleren. Hiermee wordt het huidige gebruik van insluittokens in procenten aangegeven. De hoeveelheid is gebaseerd op elk hoofdaccount.
 
 Zie het [Technisch document over ingesloten-capaciteitsplanning](https://aka.ms/pbiewhitepaper) voor meer informatie.
 
 ### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>Een app-werkruimte toewijzen aan een toegewezen capaciteit
 
-Zodra u toegewezen capaciteit hebt gemaakt, kunt u uw app-werkruimte toewijzen aan die toegewezen capaciteit. Als u een toegewezen capaciteit aan een werkruimte wilt toewijzen, volgt u deze stappen.
+Zodra u toegewezen capaciteit hebt gemaakt, kunt u uw app-werkruimte toewijzen aan die toegewezen capaciteit.
+
+Als u een toegewezen capaciteit aan een werkruimte wilt toewijzen met behulp van een [service-principal](embed-service-principal.md), gebruikt u de [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity). Wanneer u de Power BI REST API's gebruikt, moet u de [object-id van de service-principal](embed-service-principal.md#how-to-get-the-service-principal-object-id) gebruiken.
+
+Volg de onderstaande stappen om een toegewezen capaciteit aan een werkruimte toe te wijzen met behulp van een **hoofdaccount**.
 
 1. Vouw binnen **Power BI-service** werkruimten uit en selecteer het beletselteken voor de werkruimte die u gebruikt voor het insluiten van uw inhoud. Selecteer vervolgens **Werkruimten bewerken**.
 

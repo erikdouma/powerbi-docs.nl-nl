@@ -2,19 +2,19 @@
 title: Power BI Report Server installeren
 description: Lees hoe u Power BI Report Server installeert.
 author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 12/07/2018
-ms.author: maggies
-ms.openlocfilehash: 78d4db9d5a6b4752005bd43b31b2ca0dbaa0c1da
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bf204fe3ee9dcff83a6e2c964196a85daf547d74
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292379"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762577"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI Report Server installeren
 
@@ -25,58 +25,62 @@ Lees hoe u Power BI Report Server installeert.
 Ga naar [On-premises rapportage met Power BI Report Server](https://powerbi.microsoft.com/report-server/) om Power BI Report Server te downloaden en selecteer **Gratis proefversie downloaden**. 
 
 ## <a name="before-you-begin"></a>Voordat u begint
+
 Voordat u Power BI Report Server installeert, is het raadzaam om de [hardware- en softwarevereisten voor het installeren van Power BI Report Server](system-requirements.md) door te lezen.
 
  > [!IMPORTANT]
  > Power BI Report Server kan worden geïnstalleerd in een omgeving met een alleen-lezen domeincontroller (RODC), maar voor de juiste werking van Power BI Report Server is toegang tot een domeincontroller voor lezen en schrijven vereist. Als Power BI Report Server alleen toegang heeft tot een RODC, kunnen fouten optreden bij het beheren van de service.
 
-
 ### <a name="power-bi-report-server-product-key"></a>Productcode van Power BI Report Server
 
 #### <a name="power-bi-premium"></a>Power BI Premium
+
 Als u Power BI Premium hebt gekocht, vindt u de productcode voor Power BI Report Server op het tabblad **Premium-instellingen** in de Power BI-beheerportal. Dit is alleen beschikbaar voor hoofdbeheerders of gebruikers aan wie de rol Power BI-servicebeheerder is toegewezen.
 
-![](../media/service-admin-premium-manage/pbirs-product-key.png "Code voor Power BI Report Server in Premium-instellingen")
+![Premium-instellingen](../media/service-admin-premium-manage/pbirs-product-key.png "Code voor Power BI Report Server in Premium-instellingen")
 
 Als u **Power BI Report Server-sleutel** selecteert, wordt een dialoogvenster weergegeven met uw productcode. U kunt deze kopiëren en gebruiken bij de installatie.
 
-![](../media/service-admin-premium-manage/pbirs-product-key-dialog.png "Productcode voor Power BI Report Server")
+![Productcode](../media/service-admin-premium-manage/pbirs-product-key-dialog.png "Productcode van Power BI Report Server")
 
 #### <a name="sql-server-enterprise-software-assurance-sa"></a>SQL Server Enterprise Software Assurance (SA)
+
 Als u een SQL Server Enterprise SA-overeenkomst hebt, kunt u uw productcode vinden in het [Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/).
 
 ## <a name="install-your-report-server"></a>Een rapportserver installeren
+
 Het installeren van Power BI Report Server is vrij eenvoudig. U hoeft slechts een paar stappen uit te voeren om de bestanden te installeren.
 
 Er is geen SQL Server Database Engine-server nodig tijdens de installatie. U hebt die wel nodig om Reporting Services na de installatie te configureren.
 
 1. Zoek de locatie van PowerBIReportServer.exe en start het installatieprogramma.
+
 2. Selecteer **Install Power BI Report Server**.
-   
+
     ![Power BI Report Server installeren](media/install-report-server/pbireportserver-install.png)
 3. Kies een editie om te installeren en selecteer vervolgens **Next**.
-   
+
     ![Een editie kiezen](media/install-report-server/pbireportserver-choose-edition.png)
-   
+
     U kunt een evaluatie- of ontwikkelaarseditie selecteren in de vervolgkeuzelijst.
-   
-    ![](media/install-report-server/pbireportserver-choose-edition2.png)
-   
+
+    ![Editie 2](media/install-report-server/pbireportserver-choose-edition2.png)
+
     U kunt ook een productcode voor de server invoeren die u hebt verkregen via de Power BI-service of het Volume License Service Center. Zie het gedeelte [Voordat u begint](#before-you-begin) als u wilt weten hoe u in het bezit komt van een productcode.
 4. Lees de licentievoorwaarden, ga hiermee akkoord en selecteer vervolgens**Next**.
-   
+
     ![Licentievoorwaarden](media/install-report-server/pbireportserver-eula.png)
 5. U moet beschikken over een database-engine om de database van de rapportserver te kunnen opslaan. Selecteer **Next** om alleen de rapportserver te installeren.
-   
+
     ![Alleen bestanden installeren](media/install-report-server/pbireportserver-install-files-only.png)
 6. Geef de installatielocatie op voor de rapportserver. Selecteer **Install** om door te gaan.
-   
+
     ![Installatiepad opgeven](media/install-report-server/pbireportserver-install-file-path.png)
-   
+
     Het standaardpad isC:\Program Files\Microsoft Power BI Report Server.
 
-1. Als de installatie is voltooid, selecteert u **Configure report server** om Reporting Services Configuration Manager te starten.
-   
+7. Als de installatie is voltooid, selecteert u **Configure report server** om Reporting Services Configuration Manager te starten.
+
     ![De rapportserver configureren](media/install-report-server/pbireportserver-configure.png)
 
 ## <a name="configuring-your-report-server"></a>Uw rapportserver configureren
@@ -86,6 +90,7 @@ Nadat u **Configure Report Server** hebt geselecteerd tijdens de installatie, zi
 U moet een [rapportserverdatabase maken](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database) om de eerste configuratie van Reporting Services te voltooien. Voor deze stap hebt u een server met een SQL Server-database nodig.
 
 ### <a name="creating-a-database-on-a-different-server"></a>Een database maken op een andere server
+
 Als u de database voor de rapportserver maakt op een databaseserver op een andere computer, moet u het serviceaccount voor de rapportserver wijzigen in een referentie die wordt herkend op de databaseserver. 
 
 De rapportserver gebruikt standaard het virtuele serviceaccount. Als u probeert een database op een andere server te maken, kan de volgende fout optreden in de stap voor het toepassen van de verbindingsrechten.
@@ -99,6 +104,7 @@ U kunt deze fout omzeilen door het serviceaccount te wijzigen in Network Service
 Zie [Configure the Report Server Service Account (SSRS Configuration Manager)](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager) (Report Server Service Account (SSRS Configuration Manager) configureren) voor meer informatie.
 
 ## <a name="windows-service"></a>Windows-service
+
 Tijdens de installatie wordt er ook een Windows-service gemaakt. Deze wordt weergegeven als **Power BI Report Server**. De servicenaam is **PowerBIReportServer**.
 
 ![De Windows-service Report Server](media/install-report-server/pbireportserver-windows-service.png)
@@ -106,6 +112,7 @@ Tijdens de installatie wordt er ook een Windows-service gemaakt. Deze wordt weer
 ![Eigenschappen van de Windows-service Report Server](media/install-report-server/pbireportserver-windows-service2.png)
 
 ## <a name="default-url-reservations"></a>Standaard-URL-reserveringen
+
 URL-reserveringen bestaan uit een voorvoegsel, de hostnaam, de poort en de virtuele map:
 
 | Onderdeel | Beschrijving |
@@ -121,16 +128,19 @@ Een voorbeeld van de volledige URL-reeks ziet er dan zo uit:
 * `http://+:80/reports`, biedt toegang tot de webportal.
 
 ## <a name="firewall"></a>Firewall
+
 Als u de rapportserver benadert vanaf een externe computer, is het belangrijk dat u firewallregels hebt geconfigureerd als er een firewall aanwezig is.
 
 U moet de TCP-poort openen die u hebt geconfigureerd voor uw webservice-URL en webportal-URL. Deze URL's zijn standaard geconfigureerd op TCP-poort 80.
 
 ## <a name="additional-configuration"></a>Aanvullende configuratie
+
 * Als u integratie met de Power BI-service wilt configureren zodat u rapportitems kunt vastmaken aan een Power BI-dashboard, leest u [Power BI Report Server Integration (Configuration Manager)](https://docs.microsoft.com/sql/reporting-services/install-windows/power-bi-report-server-integration-configuration-manager) (Power BI Report Server-integratie (Configuration Manager)).
 * Zie [E-Mail settings](https://docs.microsoft.com/sql/reporting-services/install-windows/e-mail-settings-reporting-services-native-mode-configuration-manager) (E-mailinstellingen) en [E-Mail delivery in a report server](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services) (E-mailbezorging op een rapportserver) om e-mail te configureren voor de verwerking van abonnementen.
 * Als u de webportal zo wilt configureren dat u vanaf een computer met rapportserver rapporten kunt weergeven en beheren, raadpleegt u [Configure a firewall for report server access](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-firewall-for-report-server-access) (Een firewall configureren voor toegang tot Report Server) en [Configure a report server for remote administration](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-report-server-for-remote-administration) (Een rapportserver configureren voor extern beheer).
 
 ## <a name="next-steps"></a>Volgende stappen
+
 [Administratoroverzicht](admin-handbook-overview.md)  
 [De productcode van uw rapportserver zoeken](find-product-key.md)  
 [Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren](install-powerbi-desktop.md)  
@@ -144,4 +154,3 @@ U moet de TCP-poort openen die u hebt geconfigureerd voor uw webservice-URL en w
 [Browserondersteuning voor Power BI Report Server](browser-support.md)
 
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-

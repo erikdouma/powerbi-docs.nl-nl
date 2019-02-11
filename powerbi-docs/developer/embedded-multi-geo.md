@@ -4,18 +4,17 @@ description: Lees hoe u inhoud kunt implementeren naar datacenters in andere reg
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/31/2018
-LocalizationGroup: Embedded
-ms.openlocfilehash: ab1b0f7ea7dbee13f39fbf47505a00e2ed6d41ea
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 02/05/2019
+ms.openlocfilehash: 25627709af2faa78fd30b28cffba21d1442e0d3f
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280419"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762416"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded-preview"></a>Ondersteuning voor Multi-Geo voor Power BI Embedded (preview-versie)
 
@@ -56,7 +55,9 @@ U kunt de locatie van een Power BI Embedded-resource niet meer wijzigen als u ee
 Als u de inhoud van Power BI naar een andere regio wilt verplaatsen, gaat u als volgt te werk:
 
 1. [Maak een nieuwe capaciteit](azure-pbie-create-capacity.md) in een andere regio.
+
 2. Wijs alle werkruimten vanaf de bestaande capaciteit toe aan de nieuwe capaciteit.
+
 3. Verwijder of onderbreek de oude capaciteit.
 
 Belangrijk: als u besluit een capaciteit te verwijderen zonder de inhoud opnieuw toe te wijzen, wordt alle inhoud in die capaciteit naar een gedeelde capaciteit verplaatst. Deze bevindt zich in uw basisregio.
@@ -66,7 +67,9 @@ Belangrijk: als u besluit een capaciteit te verwijderen zonder de inhoud opnieuw
 Ter ondersteuning van het beheer van capaciteiten met Multi-Geo via de API, zijn er enkele wijzigingen aan bestaande API's aangebracht:
 
 1. **[Capaciteiten ophalen](https://docs.microsoft.com/rest/api/power-bi/capacities/getcapacities)**: de API retourneert een lijst met capaciteiten met toegang voor de gebruiker. De respons bevat nu een aanvullende eigenschap, de zogenaamde regio. Hiermee wordt de locatie van de capaciteit opgegeven.
-2. **[Toewijzen aan capaciteit](https://docs.microsoft.com/rest/api/power-bi/capacities)**: de API staat het toewijzen van een bepaalde werkruimte aan een capaciteit toe. Met deze bewerking kunt u geen werkruimten toewijzen aan een capaciteit buiten uw basisregio en evenmin werkruimten tussen capaciteiten in verschillende regio's verplaatsen. Als u deze bewerking wilt uitvoeren, moet de gebruiker nog steeds beschikken over beheerdersmachtigingen voor de werkruimte en over beheerders- of toewijzingsmachtigingen voor de doelcapaciteit.
+
+2. **[Toewijzen aan capaciteit](https://docs.microsoft.com/rest/api/power-bi/capacities)**: de API staat het toewijzen van een bepaalde werkruimte aan een capaciteit toe. Met deze bewerking kunt u geen werkruimten toewijzen aan een capaciteit buiten uw basisregio en evenmin werkruimten tussen capaciteiten in verschillende regio's verplaatsen. Als u deze bewerking wilt uitvoeren, moet de gebruiker of [service-principal](embed-service-principal.md) nog steeds beschikken over beheerdersmachtigingen voor de werkruimte en over beheerders- of toewijzingsmachtigingen voor de doelcapaciteit.
+
 3. **[Azure Resource Manager API](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities)**: alle Azure Resource Manager API-bewerkingen, inclusief *Maken* en *Verwijderen* bieden ondersteuning voor Multi-Geo.
 
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen

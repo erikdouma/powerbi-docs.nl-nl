@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: df77d4b9642a6df511af8af054e3e983c0120f77
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9b1357d2e10214cdf578bff4d2aa7fca8fc19033
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291620"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794705"
 ---
 # <a name="developer-handbook-overview-power-bi-report-server"></a>Overzicht van het ontwikkelaarshandboek voor Power BI Report Server
 Welkom bij het ontwikkelaarshandboek voor Power BI Report Server, een on-premises locatie om uw Power BI-rapporten, mobiele rapporten en gepagineerde rapporten op te slaan en te beheren.
@@ -24,13 +24,13 @@ Welkom bij het ontwikkelaarshandboek voor Power BI Report Server, een on-premise
 In dit handboek worden de opties besproken waarover u als ontwikkelaar beschikt om te werken met Power BI Report Server.
 
 ## <a name="embedding"></a>Insluiten
-U kunt elk rapport in Power BI Report Server insluiten in een iFrame door de parameter `?rs:Embed=true` voor de querytekenreeks toe te voegen aan de URL. Dit werkt voor Power BI-rapporten en voor andere rapporttypen.
+U kunt elk rapport in Power BI Report Server insluiten in een iFrame door de parameter `?rs:Embed=true` voor de querytekenreeks toe te voegen aan de URL. Deze techniek werkt voor Power BI-rapporten en voor andere rapporttypen.
 
 ### <a name="report-viewer-control"></a>Besturingselement van de rapportviewer
 Voor gepagineerde rapporten kunt u profiteren van het besturingselement van de rapportviewer. Hiermee kunt u het besturingselement binnen een .NET Windows- of webtoepassing plaatsen. Zie [Get started with the Report Viewer Control](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started) (Aan de slag met het besturingselement van de rapportviewer) voor meer informatie.
 
 ## <a name="apis"></a>API's
-U hebt verschillende API-opties voor interactie met Power BI Report Server. Onder andere:
+U hebt verschillende API-opties voor interactie met Power BI Report Server. Deze techniek omvat het volgende.
 
 * [REST API’s](rest-api.md)
 * [URL-toegang](https://docs.microsoft.com/sql/reporting-services/url-access-ssrs)
