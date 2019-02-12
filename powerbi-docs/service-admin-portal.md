@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 8cda803939ee9ae2f864496300fce25890770dac
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 1bc7539eba4f390c02417edd52ea3f792613abe6
+ms.sourcegitcommit: 3729c88bd991e450fcb2d9b79e6ab478b6e8dc76
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430368"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55888228"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
@@ -287,16 +287,6 @@ Gebruikers in de organisatie kunnen dashboards labelen met classificaties die he
 ### <a name="embed-content-in-apps"></a>Inhoud in apps insluiten
 
 Gebruikers in de organisatie kunnen Power BI-dashboards en rapporten insluiten in SaaS-toepassingen (Software as a Service). Als u deze instelling uitschakelt, kunnen gebruikers de REST API's niet gebruiken om inhoud van Power BI in hun toepassing in te sluiten. [Meer informatie](developer/embedding.md)
-
-## <a name="workspaces-and-import-settings"></a>Werkruimten en instellingen voor importeren
-
-### <a name="author-content-in-workspaces"></a>Inhoud maken in werkruimten
-
-Gebruikers in de organisatie hebben toegang tot werkruimten om verbinding te maken met gegevens en om inhoud te maken. [Meer informatie](service-create-the-new-workspaces.md)
-
-### <a name="import-data-into-power-bi"></a>Gegevens importeren in Power BI
-
-Gebruikers in de organisatie kunnen gegevens importeren in de service, zoals rapporten uit Power BI Desktop publiceren, Power BI-rapportbestanden uploaden en verbinding maken met gegevens rechtstreeks vanuit de service. [Meer informatie](desktop-upload-desktop-files.md)
 
 ## <a name="dataflow-settings-preview"></a>Gegevensstroominstellingen (preview-versie)
 
