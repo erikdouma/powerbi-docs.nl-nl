@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5c383cf3c7fcbae88be6943bb418026c849db196
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f30ff44fbc4d99818661abc53cb99bb96cfde673
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277429"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215730"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Rapportthema's gebruiken in Power BI Desktop
 Met **Rapportthema's** kunt u een kleurenthema op uw gehele rapport toepassen, zoals zakelijke kleuren, seizoensgebonden kleuren of andere kleurenthema's. Wanneer u een **Rapportthema** toepast, worden voor alle visuals in het rapport de kleuren van het geselecteerde thema gebruikt. Er zijn enkele uitzonderingen van toepassing, zoals verderop in dit artikel wordt beschreven.
@@ -101,6 +101,7 @@ Als u een stijl wilt toepassen op een **tabel**- of **matrix**visual, voert u de
 
 Hieronder volgt de tekst van het bestand *St Patricks Day.json* dat u kunt gebruiken om uw eigen JSON-bestand te maken:
 
+```json
     {
         "name": "St Patricks Day",
         "dataColors": ["#568410", "#3A6108", "#70A322", "#915203", "#D79A12", "#bb7711", "#114400", "#aacc66"],
@@ -108,6 +109,7 @@ Hieronder volgt de tekst van het bestand *St Patricks Day.json* dat u kunt gebru
         "foreground": "#3A6108",
         "tableAccent": "#568410"
     }
+```
 
 Hier kunt u uw eigen hexcodes voor uw gewenste kleuren invoeren.
 
@@ -158,6 +160,7 @@ Wilt u aan de slag gaan met **Rapportthema's**? Hier volgen enkele kant-en-klare
 
 In plaats van u een download te geven, vindt u hier de code van het JSON-bestand van Valentijnsdag:
 
+```json
     {
         "name": "Valentine's Day",
         "dataColors": ["#990011", "#cc1144", "#ee7799", "#eebbcc", "#cc4477", "#cc5555", "#882222", "#A30E33"],
@@ -165,6 +168,7 @@ In plaats van u een download te geven, vindt u hier de code van het JSON-bestand
         "foreground": "#ee7799",
         "tableAccent": "#990011"
     }
+```
 
 Met **Rapportthema's** kunt u van uw Power BI Desktop-rapporten een kleurrijke weerspiegeling van uzelf, uw organisatie of het huidige seizoen of een actuele feestdag maken. 
 
@@ -303,7 +307,8 @@ De volgende tabel definieert *cardName*-waarden. De eerste waarde in elke cel is
 ### <a name="properties-within-each-card"></a>Eigenschappen binnen elke kaart
 De volgende sectie definieert de eigenschappen binnen elke kaart:
 
-    "general":
+```json
+      "general":
         "responsive": {
           "type": [
             "bool"
@@ -371,7 +376,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "categoryAxis": {
+      "categoryAxis": {
         "show": {
           "type": [
             "bool"
@@ -557,7 +562,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "valueAxis": {
+      "valueAxis": {
         "show": {
           "type": [
             "bool"
@@ -865,7 +870,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "dataPoint": {
+      "dataPoint": {
         "defaultColor": {
           "type": [
             "fill"
@@ -901,7 +906,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "labels": {
+      "labels": {
         "show": {
           "type": [
             "bool"
@@ -1019,7 +1024,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "lineStyles": {
+      "lineStyles": {
         "strokeWidth": {
           "type": [
             "numeric"
@@ -1094,7 +1099,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "plotArea": {
+      "plotArea": {
         "transparency": {
           "type": [
             "numeric"
@@ -1107,7 +1112,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "trend": {
+      "trend": {
         "show": {
           "type": [
             "bool"
@@ -1297,7 +1302,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "referenceLine": {
+      "referenceLine": {
         "show": {
           "type": [
             "bool"
@@ -1433,7 +1438,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "line": {
+      "line": {
         "lineColor": {
           "type": [
             "fill"
@@ -1470,7 +1475,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "fill": {
+      "fill": {
         "show": {
           "type": [
             "bool"
@@ -1499,7 +1504,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "rotation": {
+      "rotation": {
         "angle": {
           "type": [
             "numeric"
@@ -1509,7 +1514,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "categoryLabels": {
+      "categoryLabels": {
         "show": {
           "type": [
             "bool"
@@ -1546,7 +1551,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "wordWrap": {
+      "wordWrap": {
         "show": {
           "type": [
             "bool"
@@ -1556,7 +1561,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "dataLabels": {
+      "dataLabels": {
         "color": {
           "type": [
             "fill"
@@ -1585,7 +1590,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "cardTitle": {
+      "cardTitle": {
         "color": {
           "type": [
             "fill"
@@ -1614,7 +1619,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "card": {
+      "card": {
         "outline": {
           "type": [
             "enumeration"
@@ -1695,7 +1700,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "percentBarLabel": {
+      "percentBarLabel": {
         "show": {
           "type": [
             "bool"
@@ -1732,7 +1737,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "axis": {
+      "axis": {
         "min": {
           "type": [
             "numeric"
@@ -1758,7 +1763,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "target": {
+      "target": {
         "show": {
           "type": [
             "bool"
@@ -1817,7 +1822,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "calloutValue": {
+      "calloutValue": {
         "show": {
           "type": [
             "bool"
@@ -1860,7 +1865,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "forecast": {
+      "forecast": {
         "show": {
           "type": [
             "bool"
@@ -1927,7 +1932,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "bubbles": {
+      "bubbles": {
         "bubbleSize": {
           "type": [
             "formatting"
@@ -1937,7 +1942,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "mapControls": {
+      "mapControls": {
         "autoZoom": {
           "type": [
             "bool"
@@ -1962,7 +1967,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "mapStyles": {
+      "mapStyles": {
         "mapTheme": {
           "type": [
             "enumeration"
@@ -1972,7 +1977,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "shape": {
+      "shape": {
         "map": {
           "type": [
             "geoJson"
@@ -1990,7 +1995,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "zoom": {
+      "zoom": {
         "autoZoom": {
           "type": [
             "bool"
@@ -2025,7 +2030,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "xAxisReferenceLine": {
+      "xAxisReferenceLine": {
         "show": {
           "type": [
             "bool"
@@ -2150,7 +2155,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "fillPoint": {
+      "fillPoint": {
         "show": {
           "type": [
             "bool"
@@ -2160,7 +2165,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "colorByCategory": {
+      "colorByCategory": {
         "show": {
           "type": [
             "bool"
@@ -2170,7 +2175,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "plotAreaShading": {
+      "plotAreaShading": {
         "show": {
           "type": [
             "bool"
@@ -2213,7 +2218,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "ratioLine": {
+      "ratioLine": {
         "show": {
           "type": [
             "bool"
@@ -2253,7 +2258,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "grid": {
+      "grid": {
         "outlineColor": {
           "type": [
             "fill"
@@ -2373,7 +2378,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "columnHeaders": {
+      "columnHeaders": {
         "outline": {
           "type": [
             "enumeration"
@@ -2448,7 +2453,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "values": {
+      "values": {
         "outline": {
           "type": [
             "enumeration"
@@ -2567,7 +2572,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "total": {
+      "total": {
         "outline": {
           "type": [
             "enumeration"
@@ -2631,7 +2636,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "columnFormatting": {
+      "columnFormatting": {
         "fontColor": {
           "type": [
             "fill"
@@ -2687,7 +2692,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "rowHeaders": {
+      "rowHeaders": {
         "outline": {
           "type": [
             "enumeration"
@@ -2776,7 +2781,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "subTotals": {
+      "subTotals": {
         "outline": {
           "type": [
             "enumeration"
@@ -2848,7 +2853,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "selection": {
+      "selection": {
         "selectAllCheckboxEnabled": {
           "type": [
             "bool"
@@ -2866,7 +2871,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "header": {
+      "header": {
         "show": {
           "type": [
             "bool"
@@ -2919,7 +2924,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "items": {
+      "items": {
         "fontColor": {
           "type": [
             "fill"
@@ -2964,7 +2969,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "numericInputStyle": {
+      "numericInputStyle": {
         "fontColor": {
           "type": [
             "fill"
@@ -3001,7 +3006,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "slider": {
+      "slider": {
         "show": {
           "type": [
             "bool"
@@ -3019,7 +3024,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "dateRange": {
+      "dateRange": {
         "includeToday": {
           "type": [
             "bool"
@@ -3029,7 +3034,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "sentimentColors": {
+      "sentimentColors": {
         "increaseFill": {
           "type": [
             "fill"
@@ -3063,7 +3068,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "breakdown": {
+      "breakdown": {
         "maxBreakdowns": {
           "type": [
             "integer"
@@ -3076,7 +3081,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "indicator": {
+      "indicator": {
         "indicatorDisplayUnits": {
           "type": [
             "formatting"
@@ -3108,7 +3113,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "trendline": {
+      "trendline": {
         "show": {
           "type": [
             "bool"
@@ -3118,7 +3123,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "goals": {
+      "goals": {
         "showGoal": {
           "type": [
             "bool"
@@ -3136,7 +3141,7 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       },
-    "status": {
+      "status": {
         "direction": {
           "type": [
             "enumeration"
@@ -3170,13 +3175,14 @@ De volgende sectie definieert de eigenschappen binnen elke kaart:
           ]
         }
       }
-
+```
 
 
 
 ### <a name="enumerations-in-the-json-file"></a>Inventarisaties in het JSON-bestand
 De volgende sectie definieert de opsommingen die u in het JSON-bestand kunt gebruiken.
 
+```json
     {
         "legend": {
             "position": [
@@ -4205,3 +4211,4 @@ De volgende sectie definieert de opsommingen die u in het JSON-bestand kunt gebr
          ]
        }
     }
+```

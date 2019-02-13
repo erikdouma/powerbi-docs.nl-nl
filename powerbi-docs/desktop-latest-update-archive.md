@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b82f739d8e5dd5497ab2a41e44097fda12345bd3
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1672df71d1b555a3ffcbc9f72bab5053d33c6bc3
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278211"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216879"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Eerdere maandelijkse updates voor Power BI Desktop
 
@@ -2032,7 +2032,7 @@ De volgende functies zijn toegevoegd in deze update:
 
 -   Ondersteuning voor het openen van recente bestanden op de startpagina en via het menu Bestand \> Openen.
 
--   Ondersteuning voor Exchange UPN-referenties in de Exchange-connector.ï»¿
+-   Ondersteuning voor Exchange UPN-referenties in de Exchange-connector.
 
 Naast al deze nieuwe functies, wordt **Power BI Desktop ook beschikbaar gesteld in 42 verschillende talen.** Ga naar [onze officiële downloadpagina](https://www.microsoft.com/download/details.aspx?id=45331) om de volledige lijst met talen op te halen en de gewenste taalversie te installeren.
 
@@ -2062,7 +2062,7 @@ De volgende functies zijn toegevoegd in deze update:
 
 -   Nieuwe tekstkolomfilters - **Begint niet met** en **Eindigt niet met**
 
--   Verbeterd dialoogvenster Privacyniveausï»¿
+-   Verbeterd dialoogvenster Privacyniveaus
 
 Bekijk de volgende video voor meer informatie:
 

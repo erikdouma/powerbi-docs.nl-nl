@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d97c59b7c5d25e85dee5f3b5b5b6ae8d24ae6cb2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 28463c065c965b90beb32feabcd5de029311c612
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283317"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56217040"
 ---
 # <a name="using-python-in-query-editor"></a>Python gebruiken in Query-editor van Power BI
 U kunt **Python**, een programmeertaal die veel door statistici, gegevenswetenschappers en gegevensanalisten wordt toegepast, gebruiken in **Query-editor** van Power BI Desktop. Dankzij de integratie van Python in **Query-editor** kunt u met Python gegevens opschonen en geavanceerde data shaping en analyses in gegevenssets uitvoeren, met inbegrip van het aanvullen van ontbrekende gegevens, voorspellingen en clustering. **Python** is een krachtige programmeertaal en kan in **Query-editor** worden gebruikt om uw gegevensmodel voor te bereiden en rapporten te maken.
@@ -43,10 +43,12 @@ Bekijk aan de hand van dit voorbeeld hoe u **Python** in **Query-editor** kunt g
    ![](media/desktop-python-in-query-editor/python-in-query-editor-5.png)
 6. Vul in dit voorbeeld de volgende scriptcode in:
    
+    ```python
        import pandas as pd
        completedData = dataset.fillna(method='backfill', inplace=False)
        dataset["completedValues"] =  completedData["SMI missing values"]
-   
+   ```
+
    > [!NOTE]
    > Deze scriptcode werkt alleen goed als de bibliotheek *pandas* in uw Python-omgeving is geïnstalleerd. Als u pandas wilt installeren, voert u de volgende opdracht uit in uw Python-installatie: |      > install.packages('pandas')
    > 

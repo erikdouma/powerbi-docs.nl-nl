@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/19/2018
 ms.author: maggies
-ms.openlocfilehash: 9556a501832502a8d5653967408b9fac8d0704a5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 732b90a5d325665cbe82c87bd1247ff72af9e6e5
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295579"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215131"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>Rechtstreeks gegevens invoeren in een gepagineerd rapport in Report Builder (preview) - Power BI
 
@@ -82,11 +82,11 @@ Nu gepagineerde rapporten worden ondersteund in de Power BI-service in preview, 
 
 U kunt ook uw gepagineerde rapport uploaden naar een Power BI Report Server of SQL Server Reporting Services 2016- of 2017-rapportserver. Voordat u dit doet, moet u het volgende item toevoegen aan uw RsReportServer.config-bestand als extra gegevensextensie. Maak een back-up van uw RsReportServer.config-bestand voordat u de wijziging doorvoert, in het geval er problemen optreden.
 
-```
-<Extension Name=”ENTERDATA” Type=”Microsoft.ReportingServices.DataExtensions.XmlDPConnection,Microsoft.ReportingServices.DataExtensions”>
-<Configuration>
-<ConfigName>ENTERDATA</ConfigName>
-</Configuration>
+```xml
+<Extension Name="ENTERDATA" Type="Microsoft.ReportingServices.DataExtensions.XmlDPConnection,Microsoft.ReportingServices.DataExtensions">
+    <Configuration>
+        <ConfigName>ENTERDATA</ConfigName>
+    </Configuration>
 </Extension>
 ```
 

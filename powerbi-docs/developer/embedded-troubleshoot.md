@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: b8f78821ccd6f32f9b943b55a45de20b720f3f3c
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: fd311466d244e3ca9297f107edfad7b2cc930bfb
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762094"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223830"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Problemen oplossen met uw ingesloten toepassing
 
@@ -161,7 +161,7 @@ Voer de onderstaande stappen uit om te controleren wat de reden is.
 
 ### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: voor de toestemming zijn beheerdersmachtigingen vereist
 
-**_Symptomen:_**</br>
+**_Symptomen:_**<br>
 Wanneer een gebruiker die geen beheerder is zich voor de eerste keer wil aanmelden bij een toepassing en toestemming verleent, wordt een van de volgende fouten weergegeven:
 
 * ConsentTest heeft toestemming nodig voor toegang tot bronnen in uw organisatie die alleen door een beheerder kunnen worden verleend. Vraag een beheerder om toestemming te verlenen voor deze app voordat u deze kunt gebruiken.
@@ -171,7 +171,7 @@ Wanneer een gebruiker die geen beheerder is zich voor de eerste keer wil aanmeld
 
 Een gebruiker met beheerdersrechten kan zich aanmelden en toestemming verlenen.
 
-**_Hoofdoorzaak:_**</br>
+**_Hoofdoorzaak:_**<br>
 Toestemming van de gebruiker is uitgeschakeld voor de tenant.
 
 **_Er zijn verschillende oplossingen mogelijk:_**
