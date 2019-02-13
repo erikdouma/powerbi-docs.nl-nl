@@ -8,21 +8,23 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/25/2019
+ms.date: 02/07/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 51a99d59c74160d229c0d18defe2c5e7be4f48fb
-ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
+ms.openlocfilehash: 66e40462081ee2f1156840d137d4c67ad0eb7b45
+ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55147399"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "55971689"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Rondleiding door de rapporteditor in Power BI
 
-De *rapporteditor* in de Power BI-service en de rapporteditor in Power BI Desktop zijn vergelijkbaar. In de video ziet u de rapporteditor in Power BI Desktop en in dit artikel ziet u de rapporteditor in de Power BI-service. 
+De *rapporteditor* in de Power BI-service en de rapporteditor in Power BI Desktop zijn vergelijkbaar. Doorgaans begint u met het maken van rapporten in Power BI Desktop. Vervolgens publiceert u deze in de Power BI-service, waar u ze verder kunt aanpassen. De Power BI-service is ook de plek waar u de dashboards op basis van uw rapporten maakt.
 
-Als maker van een rapport kunt u dashboards en rapporten maken en bewerken. Vervolgens verdeelt u ze naar de gebruikers van uw rapporten. Zij kunnen wel met uw dashboards en rapporten communiceren in de leesweergave in de Power BI-service, maar deze niet bewerken. Lees meer over [wat gebruikers kunnen doen in de Power BI-service](consumer/end-user-reading-view.md) 
+Nadat u uw dashboards en rapporten hebt gemaakt, deelt u ze met de gebruikers van uw rapporten. Afhankelijk van de manier waarop u de rapporten deelt, kunnen uw eindgebruikers deze raadplegen (maar niet bewerken) in de leesweergave van de Power BI-service. Lees meer over [wat gebruikers van rapporten kunnen doen in de Power BI-service](consumer/end-user-reading-view.md). 
+
+Deze video toont de rapporteditor in Power BI Desktop. Dit artikel beschrijft de rapporteditor in de Power BI-service. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
@@ -79,7 +81,7 @@ De opmaakmogelijkheden zijn praktisch eindeloos.  Als u meer wilt weten of zelf 
 Selecteer het vergrootglaspictogram om het deelvenster Analyse weer te geven. Welke opties er beschikbaar zijn, is afhankelijk van het type visualisatie dat is geselecteerd.
 
 ![Het deelvenster Analyse in de rapporteditor](media/service-the-report-editor-take-a-tour/power-bi-analytics.png)    
-Met het deelvenster Analyse in de Power BI-service kunt u dynamische verwijzingsregels toevoegen aan visualisaties en focussen op belangrijke trends of inzichten. Zie [Analytics pane in Power BI service](service-analytics-pane.md) (Het deelvenster Analyse in de Power BI-service) of [Analytics pane in Power BI Desktop](desktop-analytics-pane.md) (Het deelvenster Analyse in Power BI Desktop) voor meer informatie.
+Met het deelvenster Analyse in de Power BI-service kunt u dynamische referentielijnen aan visualisaties toevoegen en de aandacht vestigen op belangrijke trends en inzichten. Raadpleeg [Het deelvenster Analyse in de Power BI-service](service-analytics-pane.md) of [Het deelvenster Analyse in Power BI Desktop](desktop-analytics-pane.md) voor meer informatie.
 
 - - -
 ## <a name="the-filters-pane"></a>Het deelvenster Filters
@@ -90,6 +92,12 @@ Het deelvenster Filters heeft nog een andere krachtige functie: de mogelijkheid 
 ![Deelvenster Filters](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
 
 Zie [Add a filter to a report](power-bi-report-add-filter.md) (Een filter toevoegen aan een rapport) voor meer informatie.
+
+Een nieuwe filterervaring is momenteel in preview. De nieuwe filters kunt u zo indelen dat ze eruitzien als het rapport zelf. U kunt ook filters vergrendelen of verbergen voor de gebruikers van uw rapport. 
+
+![Nieuwe filterfunctionaliteit](media/service-the-report-editor-take-a-tour/power-bi-filter-reading.png)
+
+Lees meer over de [nieuwe filterervaring](power-bi-report-filter-preview.md).
 
 - - -
 ## <a name="the-fields-pane"></a>Het deelvenster Velden

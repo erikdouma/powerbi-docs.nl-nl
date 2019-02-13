@@ -9,12 +9,12 @@ ms.subservice: power-bi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 02/05/2019
-ms.openlocfilehash: a0b1722a54f1e5ea5bf01d8e5bb5fb4753351a60
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 81a40e021ecd094e5e678504f2dd60300802d909
+ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55763062"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "55971666"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Service-principal met Power BI (preview-versie)
 
@@ -108,9 +108,6 @@ Anders dan bij het traditionele gebruik van een hoofdaccount, moet er bij het ge
     Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
     ```
 
-    > [!Note]
-    > AAD-beveiligingsgroepen kunnen alleen worden gemaakt door een globale AAD-beheerder.
-
 3. Als Power BI-beheerder moet u de service-principal in de **instellingen voor ontwikkelaars** in de Power BI-beheerportal inschakelen. Voeg de beveiligingsgroep die u hebt gemaakt in Azure AD, toe aan de sectie **Specifieke beveiligingsgroep** in de **instellingen voor ontwikkelaars**.
 
    > [!Important]
@@ -173,6 +170,7 @@ Hieronder ziet u een voorbeeldscript om de id van het service-principal-object m
 * Power BI-beheerdersrechten zijn vereist voor het inschakelen van de service-principal in instellingen voor ontwikkelaars in de Power BI-beheerportal.
 * U kunt een on-premises gegevensgateway niet installeren of beheren met behulp van een service-principal.
 * Voor [Insluiten voor uw organisatie](embed-sample-for-your-organization.md)-toepassingen kunt u geen service-principal gebruiken.
+* Beheer van [gegevensstromen](../service-dataflows-overview.md) wordt niet ondersteund.
 
 ## <a name="next-steps"></a>Volgende stappen
 

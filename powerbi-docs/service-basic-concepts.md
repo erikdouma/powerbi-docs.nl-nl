@@ -8,23 +8,25 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/18/2018
+ms.date: 02/07/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 29e6fe1bfb5a85d2a5ea42db406d4a127a65ec25
-ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
+ms.openlocfilehash: d09ff277ed1c47b9ab11d6ffed4e5c8a57059465
+ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55147445"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "55971712"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Basisconcepten voor ontwerpers in de Power BI-service
 
-In dit artikel wordt ervan uitgegaan dat u al bent [aangemeld voor de Power BI-service](service-self-service-signup-for-power-bi.md) en [enkele gegevens hebt toegevoegd](service-get-data.md). Als u nog geen gegevens hebt, kunt u een [voorbeeld van een Power BI-inhoudspakket](sample-datasets.md#the-power-bi-samples-as-content-packs) installeren.
+Het doel van dit artikel is om u wegwijs te maken in de Power BI-service: wat zijn de verschillende elementen, hoe werken deze samen en hoe kunt u ermee werken? In dit artikel wordt ervan uitgegaan dat u [zich al hebt aangemeld voor de Power BI-service](service-self-service-signup-for-power-bi.md) en [enkele gegevens hebt toegevoegd](service-get-data.md). Als ontwerper begint uw workflow doorgaans met het maken van rapporten in Power BI Desktop. Vervolgens publiceert u deze in de Power BI-service, waar u ze verder kunt aanpassen. In de Power BI-service maakt u ook de dashboards op basis van uw rapporten. 
+
+Voor dit artikel geldt: als u nog geen eigen rapporten hebt, kunt een [pakket met voorbeeldinhoud voor Power BI](sample-datasets.md#the-power-bi-samples-as-content-packs) installeren.
 
 ![Startscherm van de Power BI-service in een browser](media/service-basic-concepts/power-bi-home-screen.png)
 
-Dit zijn de elementen die u ziet als u de Power BI-service in de browser opent:
+Wanneer u de Power BI-service in een browser opent, start u bij het startscherm. Dit zijn de elementen die u mogelijk te zien krijgt:
 
 1. Navigatiedeelvenster (linkernavigatie)
 2. Startprogramma voor de Office 365-app
@@ -34,9 +36,9 @@ Dit zijn de elementen die u ziet als u de Power BI-service in de browser opent:
 6. Tegels van een favoriet dashboard
 7. Favoriete en frequente dashboards en rapporten
 
-Meer informatie over deze functies volgt later, maar laten we eerst enkele concepten van Power BI bekijken.
+De eindgebruikers van uw rapporten en dashboards hebben dezelfde startervaring in de Power BI-service in een browser.
 
-U kunt ook eerst deze video bekijken voordat u de rest van dit artikel leest.  In de video bespreekt Will de basisconcepten aan de hand van een rondleiding door de Power BI-service.
+Meer informatie over deze functies volgt later, maar laten we eerst enkele concepten van Power BI bekijken. Of bekijk eerst deze video.  In de video bespreekt Will de basisconcepten aan de hand van een rondleiding door de Power BI-service.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
 
@@ -45,15 +47,14 @@ U kunt ook eerst deze video bekijken voordat u de rest van dit artikel leest.  I
 De vier primaire bouwstenen van Power BI zijn: **_dashboards_**, **_rapporten_**, **_werkmappen_** en **_gegevenssets_**. Deze zijn ingedeeld in **_werkruimten_**. Het is belangrijk om te begrijpen hoe werkruimten werken voordat we ons verdiepen in de vier bouwstenen. Laten we dus bij het begin beginnen.
 
 ## <a name="workspaces"></a>Werkruimten
-Werkruimten zijn containers voor dashboards, rapporten, werkmappen en gegevenssets in Power BI. Er zijn twee typen werkruimten: *Mijn werkruimte* en *app-werkruimten*. Wat is een *app* nu precies? Een *Power BI*-app is een verzameling dashboards en rapporten die is gebouwd om belangrijke metrische gegevens voor uw organisatie te leveren. Apps zijn interactief, maar kunnen niet worden bewerkt.
+Werkruimten zijn containers voor dashboards, rapporten, werkmappen en gegevenssets in Power BI. Er zijn twee typen werkruimten: *Mijn werkruimte* en *app-werkruimten*. Wat is een *app* nu precies? Een Power BI-*app* is een verzameling dashboards en rapporten die is gebouwd om belangrijke metrische gegevens te leveren aan de Power BI-eindgebruikers in uw organisatie. Apps zijn interactief, maar eindgebruikers kunnen ze niet bewerken.
 
 - *Mijn werkruimte* is de persoonlijke werkruimte voor een klant van Power BI om met de eigen inhoud te kunnen werken. Alleen u hebt toegang tot uw Mijn werkruimte. U kunt dashboards en rapporten delen vanuit uw Mijn werkruimte. Als u wilt samenwerken aan dashboards en rapporten, of een app wilt maken, gaat u naar een app-werkruimte.      
 -  *App-werkruimten* worden gebruikt om te samen te werken en inhoud te delen met collega’s. Het is ook de plek om apps voor uw organisatie te maken, publiceren en beheren. U kunt ze beschouwen als tijdelijke locaties en containers voor de inhoud die straks een Power BI-app zullen vormen. U kunt collega's toevoegen aan uw app-werkruimten en samenwerken aan dashboards, rapporten, werkmappen en gegevenssets. Alle leden van de app-werkruimte hebben een Power BI Pro-licentie nodig, maar appconsumenten (de collega's die toegang tot de apps hebben) hoeven niet per se over Pro-licenties te beschikken.  
 
-Raadpleeg het gedeelte **Uw werk delen** in de inhoudsopgave voor meer informatie, beginnende bij [Hoe kan ik samenwerken en dashboards en rapporten delen](service-how-to-collaborate-distribute-dashboards-reports.md).
+Voor meer informatie begint u met [Manieren om dashboards te delen op uw werk](service-how-to-collaborate-distribute-dashboards-reports.md).
 
-
-Laten we het nu hebben over de bouwblokken van Power BI. U kunt geen dashboards of rapporten maken zonder gegevens (u kunt uiteraard lege dashboards en rapporten maken, maar deze zijn pas bruikbaar wanneer ze gegevens bevatten). Laten we beginnen met **gegevenssets**.
+Laten we het nu hebben over de bouwstenen van Power BI. U kunt geen dashboards of rapporten maken zonder gegevens (u kunt uiteraard lege dashboards en rapporten maken, maar deze zijn pas bruikbaar wanneer ze gegevens bevatten). Laten we beginnen met **gegevenssets**.
 
 ## <a name="datasets"></a>Gegevenssets
 Een *gegevensset* is een verzameling gegevens die u *importeert* of waar u *verbinding* mee maakt. Met Power BI kunt u diverse soorten gegevenssets importeren of hier verbinding mee maken en alle gegevens samen te brengen op één locatie.  
@@ -72,7 +73,7 @@ In het onderstaande voorbeeld heb ik de app-werkruimte 'Verkoop en marketing' ge
 
   ![Diagram met gegevensset](media/service-basic-concepts/drawing2.png)
 
-Als u [verbinding met een gegevensset wilt maken of een gegevensset wilt importeren](service-get-data.md), selecteert u **Gegevens ophalen** (onderaan de linkernavigatiebalk) of selecteert u **+ Maken > Gegevensset** (in de rechterbovenhoek). Volg de instructies om verbinding te maken met de specifieke bron of om deze te importeren en de gegevensset aan de actieve werkruimte toe te voegen. Nieuwe gegevenssets zijn gemarkeerd met een geel sterretje. Uw werkzaamheden in Power BI zijn niet van invloed op de onderliggende gegevensset. Deze blijft ongewijzigd.
+Als u [verbinding met een gegevensset wilt maken of een gegevensset wilt importeren](service-get-data.md), selecteert u **Gegevens ophalen** onderaan het linkernavigatiegedeelte. Volg de instructies om verbinding te maken met de specifieke bron of om deze te importeren en de gegevensset aan de actieve werkruimte toe te voegen. Nieuwe gegevenssets zijn gemarkeerd met een geel sterretje. Uw werkzaamheden in Power BI zijn niet van invloed op de onderliggende gegevensset. Deze blijft ongewijzigd.
 
 Als u [deel uitmaakt van een **_app-werkruimte_**](service-collaborate-power-bi-workspace.md), zijn de gegevenssets die worden toegevoegd door een lid van de werkruimte ook beschikbaar voor de andere leden van de werkruimte.
 
@@ -111,7 +112,7 @@ In het onderstaande voorbeeld heb ik de app-werkruimte 'Verkoop en marketing' ge
 * [Rapporten in de mobiele Power BI-apps](mobile-reports-in-the-mobile-apps.md)
 
 ## <a name="dashboards"></a>Dashboards
-Een *dashboard* is iets wat u maakt **in de Power BI-service** of iets wat een collega maakt **in de Power BI-service** en met u deelt. Het dashboard bestaat uit één canvas dat nul of meer tegels en widgets bevat. Elke tegel die vanuit een rapport of vanuit [Q&A](power-bi-q-and-a.md) is vastgemaakt, geeft één [visualisatie](power-bi-report-visualizations.md) weer die is gemaakt van een gegevensset en die is vastgemaakt aan het dashboard. Volledige rapportpagina's kunnen ook als één tegel worden vastgemaakt aan een dashboard. Er zijn tal van manieren om tegels aan uw dashboard toe te voegen. Teveel om in dit overzichtsonderwerp te bespreken. Zie [Dashboardtegels in Power BI](service-dashboard-tiles.md) voor meer informatie.
+Een *dashboard* is een element dat u maakt **in de Power BI-service** of dat een collega maakt **in de Power BI-service** en met u deelt. Het dashboard bestaat uit één canvas dat nul of meer tegels en widgets bevat. Elke tegel die vanuit een rapport of vanuit [Q&A](power-bi-q-and-a.md) is vastgemaakt, geeft één [visualisatie](power-bi-report-visualizations.md) weer die is gemaakt van een gegevensset en die is vastgemaakt aan het dashboard. Volledige rapportpagina's kunnen ook als één tegel worden vastgemaakt aan een dashboard. Er zijn tal van manieren om tegels aan uw dashboard toe te voegen. Teveel om in dit overzichtsonderwerp te bespreken. Zie [Dashboardtegels in Power BI](service-dashboard-tiles.md) voor meer informatie.
 
 Waarom zou ik dashboards willen maken?  Hier volgen slechts enkele van de redenen:
 
