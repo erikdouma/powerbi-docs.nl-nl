@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 1bc7539eba4f390c02417edd52ea3f792613abe6
-ms.sourcegitcommit: 3729c88bd991e450fcb2d9b79e6ab478b6e8dc76
+ms.openlocfilehash: f7e28ce1f72a58fe2bb52103b79fa0106a0024ca
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55888228"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086466"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
@@ -236,12 +236,17 @@ Gebruikers in de organisatie kunnen externe-zoekopdrachtfuncties gebruiken waarb
 
 ## <a name="custom-visuals-settings"></a>Instellingen voor aangepaste visuele elementen
 
-### <a name="enable-custom-visuals-for-the-entire-organization"></a>Aangepaste visuele elementen inschakelen voor de hele organisatie
+### <a name="add-and-use-custom-visuals"></a>Aangepaste visuals toevoegen en gebruiken
 
 Gebruikers in de organisatie kunnen aangepaste visuele elementen gebruiken en delen. [Meer informatie](power-bi-custom-visuals.md)
 
 > [!NOTE]
-> Deze instelling geldt voor de hele organisatie en kan niet worden beperkt tot specifieke groepen.
+> Deze instelling kan worden toegepast op de hele organisatie of kan worden beperkt tot specifieke groepen.
+
+### <a name="allow-only-certified-visuals"></a>Alleen gecertificeerde visuals toestaan
+
+Gebruikers in de organisatie die zijn gemachtigd om aangepaste visuals toe te voegen en te gebruiken, aangeduid met de instelling Aangepaste visuals toevoegen en gebruiken, kunnen alleen [gecertificeerde aangepaste visuals](https://go.microsoft.com/fwlink/?linkid=2002010) gebruiken (niet-gecertificeerde visuals worden geblokkeerd en leveren een foutbericht op bij gebruik). 
+
 
 ## <a name="r-visuals-settings"></a>Instellingen voor R-visuals
 

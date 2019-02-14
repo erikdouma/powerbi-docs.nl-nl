@@ -6,24 +6,24 @@ manager: kvivek
 ms.reviewer: lukaszp
 featuredvideoid: EKVvOZmxg9s
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi-visuals
 ms.topic: conceptual
-ms.date: 01/29/2019
+ms.date: 02/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 279fea3f1b36a86e7606f3b6d69f19ab42763805
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: 6b3f1c3780b60efc2ade444960a92234afecc71e
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234583"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086581"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>De service ArcGIS Maps for Power BI en Power BI Desktop van Esri
-Deze zelfstudie is geschreven vanuit het oogpunt van iemand die een ArcGIS-kaart maakt. Zodra een maker een ArcGIS-kaart met een collega deelt, kan deze collega de kaart bekijken en acties uitvoeren voor de kaart, maar geen wijzigingen opslaan. Zie [Interacting with ArcGIS maps](../consumer/power-bi-visualizations-arcgis.md) (Interactie met ArcGIS-kaarten) voor meer informatie over het weergeven van een ArcGIS-kaart.
+Deze zelfstudie is geschreven vanuit het oogpunt van iemand die een ArcGIS-kaart maakt. Zodra een maker een ArcGIS-kaart met een collega deelt, kan deze collega de kaart bekijken en acties uitvoeren voor de kaart, maar geen wijzigingen opslaan. Zie [Interacting with ArcGIS maps](power-bi-visualizations-arcgis.md) (Interactie met ArcGIS-kaarten) voor meer informatie over het weergeven van een ArcGIS-kaart.
 
 De combinatie van ArcGIS-kaarten en Power BI tilt kaarten naar een volledig nieuw niveau, verder dan de presentatie van punten op een kaart. Kies uit basiskaarten, locatietypen, thema's, symboolstijlen en referentielagen om informatieve kaartvisualisaties te maken. De combinatie van bindende gegevenslagen op een kaart met ruimtelijke analyse geeft een beter inzicht in de gegevens in uw visualisatie.
 
- U kunt niet een ArcGIS-kaart op een mobiel apparaat maken, maar u kunt deze wel bekijken en er acties mee uitvoeren op een mobiel apparaat. Zie [Interacting with ArcGIS maps](../consumer/power-bi-visualizations-arcgis.md) (Interactie met ArcGIS-kaarten).
+ U kunt niet een ArcGIS-kaart op een mobiel apparaat maken, maar u kunt deze wel bekijken en er acties mee uitvoeren op een mobiel apparaat. Zie [Interacting with ArcGIS maps](power-bi-visualizations-arcgis.md) (Interactie met ArcGIS-kaarten).
 
 > [!TIP]
 > GIS staat voor Geographic Information System (geografisch informatiesysteem).
@@ -91,7 +91,7 @@ Bekijk hoe Will enkele ArcGIS-kaartvisualisaties maakt en volg vervolgens de sta
 ## <a name="settings-and-formatting-for-arcgis-maps"></a>Instellingen en opmaak voor ArcGIS-kaarten
 Opmaakfuncties van **ArcGIS Maps for Power BI** openen:
 
-1. Open extra functies door in de rechterbovenhoek van de visualisatie het weglatingsteken te selecteren en **Bewerken** te kiezen.
+1. Open extra functies door in de rechterbovenhoek van de visualisatie het beletselteken te selecteren en **Bewerken** te kiezen.
    
    ![](media/power-bi-visualization-arcgis/power-bi-edit2.png)
    
@@ -175,7 +175,8 @@ In het deelvenster Drive time (Rijtijd) kunt u een locatie selecteren en vervolg
     ![](media/power-bi-visualization-arcgis/power-bi-esri-drive-time.png)
 
 1. Selecteer het tabblad **Drive time** (Rijtijd) en kies de functie voor het selecteren van één of meerdere items. Gebruik de enkelvoudige selectie om de speld voor Washington D.C. te selecteren.
-    ![](media/power-bi-visualization-arcgis/power-bi-esri-single-select.png)
+
+   ![](media/power-bi-visualization-arcgis/power-bi-esri-single-select.png)
    
    > [!TIP]
    > Het is gemakkelijker een locatie te selecteren als u op de kaart inzoomt (met behulp van het pictogram +).
@@ -340,7 +341,7 @@ Nee, Power BI moet verbinding met het netwerk hebben om kaarten weer te geven.
 Nog niet. [Stem voor dit idee](https://ideas.powerbi.com/forums/265200-power-bi-ideas/suggestions/9154765-arcgis-geodatabases) en we sturen u een e-mail wanneer we aan deze functie beginnen te werken.  
 
 ## <a name="next-steps"></a>Volgende stappen
-[Interactie met een ArcGIS-kaart die met u is gedeeld](../consumer/power-bi-visualizations-arcgis.md)
+[Interactie met een ArcGIS-kaart die met u is gedeeld](power-bi-visualizations-arcgis.md)
 
 [Blogpost waarin de beschikbaarheid van ArcGIS Maps for Power BI wordt aangekondigd](https://powerbi.microsoft.com/blog/announcing-arcgis-maps-for-power-bi-by-esri-preview/)
 
