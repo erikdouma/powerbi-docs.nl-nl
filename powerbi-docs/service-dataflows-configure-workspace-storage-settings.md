@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: bcde69d25b6b73787a4b9d16e4ba2b39b183ffd7
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
+ms.openlocfilehash: 8c17a7b4ad455077d383eaff9b35a5d1004fce11
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086420"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223623"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>Gegevensstroominstellingen voor werkruimten configureren (preview)
 
@@ -35,7 +35,7 @@ In de volgende secties worden beide mogelijkheden besproken.
 
 ## <a name="create-a-new-workspace-configure-its-dataflow-storage"></a>Een nieuwe werkruimte maken; de opslag van de gegevensstroom configureren
 
-Voor het maken van een nieuwe app-werkruimte in de Power BI-service, selecteert u **Werkruimten > App-werkruimte maken**.
+Als u een nieuwe app-werkruimte wilt maken in de Power BI-service, selecteert u **Werkruimten > App-werkruimte maken**.
 
 ![Nieuwe werkruimte toevoegen](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_01.jpg)
 
