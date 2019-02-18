@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 02/13/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a15707a36a34e083458da5fa407034e33dd570c0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1126a2cbdac7e6ed1b465d2d0ba881ae2b4f5338
+ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284145"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56226024"
 ---
 # <a name="using-directquery-in-power-bi"></a>DirectQuery gebruiken in Power BI
-U kunt verbinding maken met allerlei verschillende gegevensbronnen wanneer u **Power BI Desktop** of de **Power BI-service** gebruikt, en u kunt deze verbindingen op verschillende manieren tot stand brengen. U kunt gegevens *importeren* in Power BI, wat de meest voorkomende manier is om gegevens te verkrijgen, of u kunt rechtstreeks verbinding maken met gegevens in de oorspronkelijke opslagplaats, wat **DirectQuery** wordt genoemd. In dit artikel vindt u informatie over **DirectQuery**, met speciale aandacht voor de volgende onderwerpen:
+U kunt verbinding maken met allerlei verschillende gegevensbronnen wanneer u **Power BI Desktop** of de **Power BI-service** gebruikt; deze verbindingen kunt u op verschillende manieren tot stand brengen. U kunt gegevens *importeren* in Power BI, wat de meest voorkomende manier is om gegevens te verkrijgen, of u kunt rechtstreeks verbinding maken met gegevens in de oorspronkelijke opslagplaats, wat **DirectQuery** wordt genoemd. In dit artikel vindt u informatie over **DirectQuery** en de bijbehorende mogelijkheden:
 
 * Verschillende verbindingsmogelijkheden voor DirectQuery
 * Richtlijnen voor wanneer u beter DirectQuery kunt gebruiken in plaats van importeren
@@ -27,8 +27,8 @@ U kunt verbinding maken met allerlei verschillende gegevensbronnen wanneer u **P
 
 Hanteer de volgende richtlijnen om te kiezen tussen importeren en DirectQuery:
 
-* Indien mogelijk moet u gegevens **importeren** in Power BI. U kunt dan gebruikmaken van de geavanceerde en krachtige query-engine van Power BI en u hebt op een zeer interactieve en volledig functionele manier toegang tot uw gegevens.
-* Als uw doelstellingen niet kunnen worden gerealiseerd door gegevens te importeren, kunt u overwegen **DirectQuery** te gebruiken. Als de gegevens bijvoorbeeld vaak worden gewijzigd, en rapporten de meest recente gegevens moeten bevatten, is DirectQuery waarschijnlijk de beste keuze. In de meeste gevallen kunt u DirectQuery echter alleen gebruiken als de onderliggende gegevensbron interactieve query's kan aanbieden (minder dan vijf seconden) voor een standaard statistische query en overweg kan met de querybelasting die wordt gegenereerd. Daarnaast moet de lijst met beperkingen voor het gebruik van DirectQuery goed worden doorgenomen, om er zeker van te zijn dat de doelstellingen nog steeds kunnen worden gerealiseerd.
+* Indien mogelijk moet u gegevens **importeren** in Power BI. U kunt bij het importeren gebruikmaken van de geavanceerde en krachtige query-engine van Power BI en u hebt op een zeer interactieve en volledig functionele manier toegang tot uw gegevens.
+* Als uw doelstellingen niet kunnen worden gerealiseerd door gegevens te importeren, kunt u overwegen **DirectQuery** te gebruiken. Als de gegevens bijvoorbeeld vaak worden gewijzigd, en rapporten de meest recente gegevens moeten bevatten, is DirectQuery waarschijnlijk de beste keuze. In de meeste gevallen kunt u DirectQuery echter alleen gebruiken als de onderliggende gegevensbron interactieve query's kan aanbieden (minder dan vijf seconden) voor een standaard statistische query en overweg kan met de querybelasting die wordt gegenereerd. Daarnaast moet de lijst met beperkingen voor het gebruik van DirectQuery goed worden doorgenomen.
 
 De set met mogelijkheden die door Power BI wordt aangeboden voor beide verbindingsmodi, importeren en DirectQuery, zal in de loop der tijd veranderen. Denk hierbij aan meer flexibiliteit bij het gebruik van geïmporteerde gegevens, zodat importeren in meer situaties kan worden gebruikt, evenals het wegnemen van enkele nadelen van het gebruik van DirectQuery. Ongeacht deze verbeteringen, zullen de prestaties van de onderliggende gegevensbron altijd de belangrijkste overweging blijven bij het gebruik DirectQuery. Als de onderliggende gegevensbron traag is, blijft het onwerkbaar om DirectQuery te gebruiken met die bron.
 
@@ -37,7 +37,7 @@ In dit artikel bespreken we DirectQuery in combinatie met Power BI, niet met SQL
 In dit artikel richten we ons op de aanbevolen workflow voor DirectQuery, waar het rapport wordt gemaakt in **Power BI Desktop**, maar er wordt ook aandacht besteed aan het rechtstreeks verbinding maken in de **Power BI-service**.
 
 ## <a name="power-bi-connectivity-modes"></a>Verbindingsmodi van Power BI
-Power BI kan verbinding maken met een zeer groot aantal verschillende gegevensbronnen, waaronder:
+Power BI kan verbinding maken met een groot aantal verschillende gegevensbronnen, waaronder:
 
 * Onlineservices (Salesforce, Dynamics 365, enzovoort)
 * Databases (SQL Server, Access, Amazon Redshift, enzovoort)
@@ -55,7 +55,7 @@ Wanneer u **Gegevens ophalen** in **Power BI Desktop** gebruikt om verbinding te
 
 * Tijdens de eerste fase van **Gegevens ophalen** vormen de geselecteerde tabellen elk een query die een set gegevens retourneert (deze query's kunnen voorafgaand aan het laden van de gegevens worden bewerkt, bijvoorbeeld om filters toe te passen, de gegevens te aggregeren of verschillende tabellen samen te voegen).
 * Bij het laden worden alle gegevens die zijn gedefinieerd met deze query's, geïmporteerd in de cache van Power BI.
-* Bij het samenstellen van een visualisatie binnen **Power BI Desktop**, wordt er een query uitgevoerd op de geïmporteerde gegevens. De opslag in Power BI zorgt ervoor dat de query erg snel is, waardoor alle wijzigingen in de visualisatie direct zichtbaar zijn.
+* Bij het samenstellen van een visualisatie binnen **Power BI Desktop**, wordt er een query uitgevoerd op de geïmporteerde gegevens. De opslag in Power BI zorgt ervoor dat de query snel wordt uitgevoerd, waardoor alle wijzigingen in de visualisatie direct zichtbaar zijn.
 * Eventuele wijzigingen in de onderliggende gegevens worden niet doorgevoerd in visualisaties. U moet dan *Vernieuwen* kiezen om de gegevens opnieuw te importeren.
 * Bij het publiceren van het rapport (het PBIX-bestand) naar de **Power BI-service**, wordt er een gegevensset gemaakt die wordt geüpload naar de Power BI-service.  De geïmporteerde gegevens maken deel uit van deze dataset. Vervolgens is het mogelijk om geplande vernieuwing van die gegevens in te stellen, bijvoorbeeld om de gegevens elke dag opnieuw te importeren. Afhankelijk van de locatie van de oorspronkelijke gegevensbron, kan het nodig zijn om een On-premises gegevensgateway te configureren.
 * Wanneer er een bestaand rapport wordt geopend in de **Power BI-service**, of bij het ontwerpen van een nieuw rapport, worden de geïmporteerde gegevens opnieuw bevraagd, zodat er sprake is van interactiviteit.
@@ -112,7 +112,7 @@ De details in de vorige lijst hebben alleen betrekking op het gebruik van Power 
 Het gebruik van **DirectQuery** heeft mogelijke negatieve gevolgen. Deze worden beschreven in deze sectie. Sommige van deze beperkingen verschillen enigszins afhankelijk van de exacte bron die wordt gebruikt. Dit wordt aangegeven als dat het geval is en er zijn afzonderlijke onderwerpen voor het bespreken van bronnen die aanzienlijk verschillen.  
 
 ### <a name="performance-and-load-on-the-underlying-source"></a>Prestaties en belasting van de onderliggende gegevensbron
-Bij gebruik van **DirectQuery** wordt de algehele ervaring voor een groot deel bepaald door de prestaties van de onderliggende gegevensbron. Als het vernieuwen van elke visualisatie (bijvoorbeeld na het wijzigen van een slicerwaarde) een paar seconden duurt (< 5s), is er sprake van een redelijke ervaring, hoewel deze traag kan aanvoelen in vergelijking met de onmiddellijke respons die we krijgen als de gegevens zijn geïmporteerd in Power BI. Als de gegevensbron echter zo traag is dat het laden van afzonderlijke visualisaties langer duurt (tientallen seconden), is er sprake van een zeer slechte ervaring en misschien wel zo slecht dat er zelfs time-outs optreden voor een query.
+Bij gebruik van **DirectQuery** wordt de algehele ervaring voor een groot deel bepaald door de prestaties van de onderliggende gegevensbron. Als het vernieuwen van elke visualisatie (bijvoorbeeld na het wijzigen van een slicerwaarde) een paar seconden duurt (<5 s), is er sprake van een redelijke ervaring, hoewel deze traag kan aanvoelen in vergelijking met de onmiddellijke respons die we krijgen als de gegevens zijn geïmporteerd in Power BI. Als de gegevensbron echter zo traag is dat het laden van afzonderlijke visualisaties langer duurt (tientallen seconden), is er sprake van een zeer slechte ervaring en misschien wel zo slecht dat er zelfs time-outs optreden voor een query.
 
 Naast de prestaties van de onderliggende gegevensbron, is het erg belangrijk om te kijken naar de belasting van de gegevensbron (die uiteraard vaak gevolgen heeft voor de prestaties). Zoals hieronder verder wordt besproken, wordt er per visualisatie ten minste één query naar de onderliggende gegevensbron verstuurd voor elke gebruiker die een gedeeld rapport opent en elke dashboardtegel die regelmatig wordt vernieuwd. Het is belangrijk dat de gegevensbron ook bij een dergelijke querybelasting redelijk blijft presteren.
 
@@ -150,7 +150,7 @@ Wanneer u **DirectQuery** gebruikt, zijn er nog steeds mogelijkheden om het mode
       
           AverageItemSalesAmount = AVERAGEX('Item', [SalesAmount])
     
-    De reden hiervoor is dat een dergelijke meting tot slechte prestaties kan leiden als er sprake is van een zeer groot aantal artikelen.
+    De reden hiervoor is dat een dergelijke meting tot slechte prestaties kan leiden als er sprake is van een groot aantal artikelen.
 * **Berekende tabellen worden niet ondersteund:** De mogelijkheid om een berekende tabel te definiëren met behulp van een DAX-expressie wordt niet ondersteund in de DirectQuery-modus.
 * **Filteren van relatie werkt maar in één richting:** Bij gebruik van DirectQuery is het niet mogelijk om Kruisfilterrichting voor een relatie in te stellen op 'Beide'. Voor de drie onderstaande tabellen is het bijvoorbeeld niet mogelijk om een visualisatie te maken met daarin uitgesplitst voor alle mannelijke en vrouwelijke klanten (Customer[Gender]) het aantal artikelen dat ze per categorie hebben gekocht (Product[Category]). Het gebruik van dergelijke bidirectionele filters wordt beschreven [in dit gedetailleerde technisch document](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx). Het document bevat weliswaar voorbeelden in de context van SQL Server Analysis Services, maar de fundamentele punten gelden ook voor Power BI.
   
@@ -208,7 +208,7 @@ Hier volgen enkele andere algemene gevolgen van het gebruik van **DirectQuery**:
 * **Elke query kan maximaal één miljoen rijen opleveren:** Er geldt een vaste limiet van één miljoen rijen voor het aantal rijen dat met één query kan worden opgevraagd uit de onderliggende gegevensbron. Dit heeft meestal geen praktische gevolgen en in visualisaties zelf wordt nooit dit aantal gegevenspunten weergegeven. De limiet kan echter een rol spelen in situaties waarin Power BI de verzonden query's niet volledig optimaliseert en er een tussentijds resultaat wordt opgevraagde dat de limiet overschrijdt. Het kan ook gebeuren tijdens het bouwen van een visualisatie, op weg naar een meer redelijke eindstatus. Als bijvoorbeeld de rijen Klant en TotaleOmzet worden opgevraagd terwijl er meer dan 1 miljoen klanten zijn, wordt deze limiet bereikt totdat er een filter wordt toegepast.
   
   Er wordt dan een fout weergegeven met de mededeling dat de resultatenset van een query op een externe gegevensbron het maximaal toegestane aantal van '1000000' rijen heeft overschreden.
-* **Importmodus kan niet worden gewijzigd in DirectQuery-modus:**  Hoewel het over het algemeen mogelijk is om een model over te schakelen van de DirectQuery-modus naar de importmodus, betekent dit dat alle benodigde gegevens moeten worden geïmporteerd. Het is trouwens niet mogelijk om terug te schakelen (voornamelijk als gevolg van een reeks functies die niet wordt ondersteund in de DirectQuery-modus). DirectQuery-modellen via multidimensionale bronnen zoals SAP BW kunnen evenmin worden overgeschakeld van DirectQuery naar import, als gevolg van de totaal verschillende behandeling van externe metingen.
+* **Importmodus kan niet worden gewijzigd in DirectQuery-modus:**  Hoewel het mogelijk is om een model over te schakelen van de DirectQuery-modus naar de importmodus, betekent dit dat alle benodigde gegevens moeten worden geïmporteerd. Het is trouwens niet mogelijk om terug te schakelen (voornamelijk als gevolg van een reeks functies die niet wordt ondersteund in de DirectQuery-modus). DirectQuery-modellen via multidimensionale bronnen zoals SAP BW kunnen evenmin worden overgeschakeld van DirectQuery naar import, als gevolg van de totaal verschillende behandeling van externe metingen.
 
 ## <a name="directquery-in-the-power-bi-service"></a>DirectQuery in de Power BI-service
 Alle bronnen worden ondersteund vanuit **Power BI Desktop**. Sommige bronnen zijn ook rechtstreeks beschikbaar vanuit de **Power BI-service**. Zo kan een zakelijke gebruiker via Power BI verbinding maken met gegevens in Salesforce en onmiddellijk een dashboard weergeven, zonder het gebruik van **Power BI Desktop**.
@@ -218,13 +218,13 @@ Slechts twee bronnen die geschikt zijn voor DirectQuery zijn rechtstreeks beschi
 * Spark
 * Azure SQL Data Warehouse
 
-Het wordt echter sterk aanbevolen om het gebruik van **DirectQuery** met deze twee bronnen te starten in **Power BI Desktop**. De reden is dat wanneer de verbinding in eerste instantie tot stand wordt gebracht in de **Power BI-service**, er een groot aantal belangrijke beperkingen gelden. Dit betekent dat het realiseren van de verbinding weliswaar gemakkelijk is (vanuit de Power BI-service), maar dat er vervolgens beperkingen gelden voor het verder verbeteren van het resulterende rapport. Zo is het bijvoorbeeld onmogelijk om berekeningen te maken en zijn veel analytische functies niet beschikbaar. Het is zelfs niet mogelijk om de metagegevens te vernieuwen om wijzigingen van het onderliggende schema door te voeren.   
+Het wordt echter aanbevolen om het gebruik van **DirectQuery** met deze twee bronnen te starten in **Power BI Desktop**. De reden is dat wanneer de verbinding in eerste instantie tot stand wordt gebracht in de **Power BI-service**, er een groot aantal belangrijke beperkingen gelden. Dit betekent dat het realiseren van de verbinding weliswaar gemakkelijk is (vanuit de Power BI-service), maar dat er vervolgens beperkingen gelden voor het verder verbeteren van het resulterende rapport. Zo is het bijvoorbeeld onmogelijk om berekeningen te maken en zijn veel analytische functies niet beschikbaar. Het is zelfs niet mogelijk om de metagegevens te vernieuwen om wijzigingen van het onderliggende schema door te voeren.   
 
 ## <a name="guidance-for-using-directquery-successfully"></a>Richtlijnen voor succesvol gebruik van DirectQuery
 Als u **DirectQuery** wilt gaan gebruiken, leest u hier enkele algemene richtlijnen om dit met succes te gaan doen. De richtlijnen in deze sectie zijn afgeleid van de gevolgen van het gebruik van DirectQuery die eerder in dit artikel zijn beschreven.
 
 ### <a name="backend-data-source-performance"></a>Prestaties van gegevensbron in de back-end
-Het wordt sterk aanbevolen om te controleren of eenvoudige visualisaties binnen redelijke tijd kunnen worden vernieuwd. Dit moet binnen vijf seconden zijn voor een acceptabele interactieve ervaring. Als het opbouwen van visualisaties langer duurt dan 30 seconden, is de kans zeer groot dat er andere problemen zullen optreden na publicatie van het rapport, waardoor dit een onwerkbare oplossing is.
+U moet controleren of eenvoudige visuals binnen een redelijke tijd kunnen worden vernieuwd - dit moet binnen vijf seconden gebeuren om de interactieve ervaring prettig te maken. Als het opbouwen van visualisaties langer duurt dan 30 seconden, is de kans zeer groot dat er andere problemen zullen optreden na publicatie van het rapport, waardoor dit een onwerkbare oplossing is.
 
 Als query's langzaam zijn, controleert u eerst de query's die naar de onderliggende gegevensbron worden verzonden en de reden voor de waargenomen prestaties van query's. We kunnen hier niet het volledige spectrum van aanbevolen procedures voor database-optimalisatie bespreken voor alle mogelijke onderliggende bronnen. De besproken informatie geldt voor de gangbare databaseprocedures die van toepassing zijn op de meeste situaties:
 
@@ -236,8 +236,8 @@ Als query's langzaam zijn, controleert u eerst de query's die naar de onderligge
 Overweeg de volgende punten bij het definiëren van het model:
 
 * **Vermijd complexe query's in Query-editor.** De query die u definieert in de Query-editor wordt omgezet in een SQL-query, die vervolgens wordt opgenomen in de subselectie van elke query die naar deze tabel wordt verzonden. Als deze query complex is, kan dit leiden tot prestatieproblemen voor elke verzonden query. De werkelijke SQL-query voor een reeks stappen kan worden verkregen door de laatste stap in Query-editor te selecteren en vervolgens *Systeemeigen query weergeven* te kiezen in het contextmenu.
-* **Houd metingen simpel.** Zeker in eerste instantie is het raadzaam om metingen te beperken tot eenvoudige statistische functies. Als die vervolgens goed presteren, kunt u complexere metingen definiëren, maar let wel goed op de prestaties van elke meting.
-* **Vermijd relaties tussen berekende kolommen.** Dit is met name relevant voor databases waarvoor het nodig is om joins op meerdere kolommen uit te voeren. Power BI biedt op dit moment geen ondersteuning voor relaties die gebaseerd zijn op meerdere kolommen als de FK/PK. Een tijdelijke oplossing is de kolommen samen te voegen met behulp van een berekende kolom en de join daarop te baseren. Hoewel deze tijdelijke oplossing acceptabel is voor geïmporteerde gegevens, is het resultaat in het geval van **DirectQuery** een join op een expressie. Dit heeft meestal als consequentie dat er geen indexen kunnen worden gebruikt, wat tot slechte prestaties leidt. De enige echte oplossing is om de meerdere kolommen daadwerkelijk te converteren naar één kolom in de onderliggende database.
+* **Houd metingen simpel.** Zeker in eerste instantie is het raadzaam om metingen te beperken tot eenvoudige statistische functies. Als de metingen vervolgens goed presteren, kunt u complexere metingen definiëren, maar let wel goed op de prestaties van elke meting.
+* **Vermijd relaties tussen berekende kolommen.** Dit is relevant voor databases waarvoor het nodig is om joins op meerdere kolommen uit te voeren. Power BI biedt op dit moment geen ondersteuning voor relaties die gebaseerd zijn op meerdere kolommen als de FK/PK. Een tijdelijke oplossing is de kolommen samen te voegen met behulp van een berekende kolom en de join daarop te baseren. Hoewel deze tijdelijke oplossing acceptabel is voor geïmporteerde gegevens, is het resultaat in het geval van **DirectQuery** een join op een expressie. Dit heeft meestal als consequentie dat er geen indexen kunnen worden gebruikt, wat tot slechte prestaties leidt. De enige echte oplossing is om de meerdere kolommen daadwerkelijk te converteren naar één kolom in de onderliggende database.
 * **Vermijd relaties tussen uniqueidentifier-kolommen.** Power BI biedt geen ingebouwde ondersteuning voor het gegevenstype uniqueidentifier. Het definiëren van een relatie tussen kolommen van het type uniqueidentifier resulteert daarom in een query met een join waarvoor een Cast nodig is. Een dergelijke situatie leidt vaak weer tot slechte prestaties. Totdat deze situatie speciaal is geoptimaliseerd, is de enige oplossing om kolommen van een alternatief type te gebruiken in de onderliggende database.
 * **Verberg de *to*-kolom in relaties.** De *to*-kolom in relaties (meestal de primaire sleutel van de *to*-tabel) moet verborgen zijn, zodat deze niet wordt weergegeven in de lijst met velden en dus niet kan worden gebruikt in visualisaties. De kolommen waarop relaties zijn gebaseerd, zijn in de praktijk vaak *systeemkolommen* (bijvoorbeeld vervangend sleutels in een datawarehouse) en het is sowieso een goed idee om dergelijke kolommen te verbergen. Als de kolom wel een betekenis heeft, introduceert u een berekende kolom die zichtbaar is en die een eenvoudige expressie bevat die gelijk is aan de primaire sleutel. Bijvoorbeeld:
   
@@ -298,6 +298,20 @@ Naast de bovenstaande lijst met suggesties, kunnen de volgende rapportagemogelij
 
 * **Overweeg om totalen in visuals uit te schakelen:** Standaard geven tabellen en matrices totalen en subtotalen weer. In veel gevallen moeten er afzonderlijke query's worden verzonden naar de onderliggende bron om de waarden voor deze totalen op te halen. Dit is van toepassing wanneer u gebruikmaakt van de samenvoeging *DistinctCount*, of in alle gevallen wanneer u DirectQuery gebruikt via SAP BW of SAP HANA. Dergelijke totalen moeten worden uitgeschakeld (met behulp van het deelvenster **Indeling**) als ze niet vereist zijn. 
 
+### <a name="maximum-number-of-connections-option-for-directquery"></a>Optie voor een maximaal aantal verbindingen voor DirectQuery
+
+U kunt instellen hoeveel verbindingen DirectQuery maximaal opent voor elke onderliggende gegevensbron; op deze manier kunt u bepalen hoeveel query's er gelijktijdig naar elke gegevensbron kunnen worden verzonden. 
+
+Het maximale aantal gelijktijdige verbindingen dat in DirectQuery wordt gemaakt, ligt dan vast. U kunt het aantal voor het huidige bestand in **Power BI Desktop** wijzigen. Ga hiervoor naar **Bestand > Opties en instellingen > Opties**, ga naar het gedeelte **Huidig bestand** in het linkerdeelvenster en selecteer **DirectQuery**. 
+
+![Een maximaal aantal DirectQuery-verbindingen inschakelen](media/desktop-directquery-about/directquery-about_05b.png)
+
+Deze instelling wordt alleen ingeschakeld als er ten minste één DirectQuery-gegevensbron in het huidige rapport staat. De waarde is van toepassing op alle DirectQuery-bronnen en op eventuele nieuwe DirectQuery-bronnen die worden toegevoegd aan hetzelfde rapport.
+
+Als u het **maximale aantal verbindingen** vergroot, kunnen er meer query's (tot het maximumaantal dat is opgegeven) worden verzonden naar de onderliggende gegevensbron, wat nuttig is als er meerdere visuals op één pagina staan, of als veel gebruikers een rapport tegelijk bekijken. Wanneer het maximale aantal verbindingen is bereikt, worden aanvullende query's in een wachtrij geplaatst tot er weer een verbinding beschikbaar is. Als u de limiet verhoogt, resulteert dit in een grotere belasting voor de onderliggende bron. Met de instelling worden de algehele prestaties dus niet gegarandeerd beter.
+
+Wanneer er een rapport wordt gepubliceerd, is het maximale aantal query's dat gelijktijdig naar de onderliggende gegevensbron kan worden verzenden ook afhankelijk van de vastgestelde limieten. Deze limieten zijn afhankelijk van de doelomgeving waarin het rapport wordt gepubliceerd. In verschillende omgevingen (zoals Power BI, Power BI Premium en Power BI Report Server) kunnen verschillende beperkingen gelden.
+
 ### <a name="diagnosing-performance-issues"></a>Oorzaak van prestatieproblemen achterhalen
 In dit gedeelte wordt beschreven hoe u de oorzaak van prestatieproblemen kunt achterhalen of hoe u meer gedetailleerde informatie kunt verzamelen met als doel de rapporten te optimaliseren.
 
@@ -349,7 +363,7 @@ Ga als volgt te werk om het traceringsbestand te openen:
 2. Voer het pad in naar het traceringsbestand voor de momenteel geopende Power BI-sessie, zoals:
    
          C:\Users\<user>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces\AnalysisServicesWorkspace2058279583\Data
-3. Open FilghtRecorderCurrent.trc.
+3. Open FlightRecorderCurrent.trc
 
 Alle gebeurtenissen uit de huidige sessie worden weergegeven. Hieronder ziet u een voorbeeld waarin groepen gebeurtenissen zijn gemarkeerd. Voor elke groep zijn de volgende gegevens vastgelegd:
 
@@ -374,7 +388,7 @@ Dit is de aanbevolen aanpak voor het vastleggen van een tracering die u kan help
 * Open één **Power BI Desktop**-sessie (om verwarring door meerdere werkruimtemappen te voorkomen).
 * Voer in **Power BI Desktop** de reeks acties uit waarin u bent geïnteresseerd. Voer nog enkele aanvullende acties uit, zodat u zeker weet dat de interessante gebeurtenissen worden weggeschreven naar het traceringsbestand.
 * Open **SQL Server Profiler** en bekijk de tracering, volgens de eerder beschreven instructies. Vergeet niet dat het traceringsbestand wordt verwijderd zodra u **Power BI Desktop** afsluit. Ook is het zo dat nieuwe acties in Power BI Desktop niet meteen worden weergegeven. U moet het traceringsbestand dan eerst sluiten en opnieuw openen.
-* Gebruik redelijk kleine, afzonderlijke sessies (met tien seconden aan acties en niet honderden) om het traceringsbestand makkelijker te kunnen interpreteren (en omdat er een limiet geldt voor de grootte van het traceringsbestand, waardoor het bij erg lange sessies mogelijk is dat er vroege gebeurtenissen worden verwijderd).
+* Gebruik redelijk kleine, afzonderlijke sessies (met tien seconden aan acties en niet honderden) om het traceringsbestand makkelijker te kunnen interpreteren (en omdat er een limiet geldt voor de grootte van het traceringsbestand, waardoor het bij lange sessies mogelijk is dat er vroege gebeurtenissen worden verwijderd).
 
 #### <a name="understanding-the-form-of-query-sent-by-power-bi-desktop"></a>Indeling van query's die worden verzonden door Power BI Desktop
 De algemene indeling van query's die worden gemaakt en verzonden door **Power BI Desktop** is dat er subselecties worden gebruikt voor elk van de tabellen waarnaar wordt verwezen, waarbij de subselectie overeenkomt met de query die is gedefinieerd in **Query-editor**. Stel dat de volgende TPC DS-tabellen aanwezig zijn in SQL Server:
@@ -396,7 +410,7 @@ Eén reden waarom in Power BI dit patroon wordt gehanteerd, is omdat de gebruikt
 ![](media/desktop-directquery-about/directquery-about_12.png)
 
 ## <a name="next-steps"></a>Volgende stappen
-In dit artikel worden de aspecten van **DirectQuery** beschreven die door alle gegevensbronnen worden gedeeld. Er zijn echter ook bepaalde gegevens die specifiek zijn voor bepaalde gegevensbronnen. Raadpleeg de volgende onderwerpen voor informatie over deze specifieke bronnen:
+In dit artikel worden de aspecten van **DirectQuery** beschreven die door alle gegevensbronnen worden gedeeld. Er zijn echter ook bepaalde gegevens die specifiek zijn voor bepaalde gegevensbronnen. Raadpleeg de volgende artikelen voor informatie over deze specifieke bronnen:
 
 * [DirectQuery en SAP HANA](desktop-directquery-sap-hana.md)
 * [DirectQuery en SAP BW](desktop-directquery-sap-bw.md)

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 02/13/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f5fc52df86faa69683fa1e76f8893fb1d1a09ab9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: da269e3bb025e8d53ee3bb7707f3bb78d592e011
+ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281155"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56225909"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Gegevensbronnen in Power BI Desktop
 Met Power BI Desktop kunt u verbinding maken met gegevens uit veel verschillende bronnen. Onderaan op deze pagina vindt u een volledige lijst met beschikbare gegevensbronnen.
@@ -77,11 +77,14 @@ De categorie **Database** biedt de volgende gegevensverbindingen:
 * Amazon Redshift
 * Impala
 * Google BigQuery
+* Vertica
 * Snowflake
 * Essbase (bèta)
-* BI-connector
+* Dremio
 * Exasol
-* Dremio (bèta)
+* MarkLogic (bèta)
+* AtScale-kubussen (bèta)
+* BI-connector
 * Jethro (bèta)
 * Kyligence Enterprise (bèta)
 
@@ -136,8 +139,6 @@ De categorie **Onlineservices** biedt de volgende gegevensverbindingen:
 * Google Analytics
 * Adobe Analytics
 * appFigures (bèta)
-* comScore Digital Analytix (bèta)
-* Dynamics 365 for Customer Insights (bèta)
 * Data.World - Gegevensset ophalen (bèta)
 * Facebook
 * GitHub (bèta)
@@ -157,6 +158,8 @@ De categorie **Onlineservices** biedt de volgende gegevensverbindingen:
 * Webtrends (bèta)
 * Zendesk (bèta)
 * TeamDesk (bèta)
+* Emigo Data Source (bèta)
+* Microsoft Graph Security (bèta)
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Onlineservices**.
 
@@ -164,7 +167,6 @@ In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Onlines
 
 De categorie **Overige** biedt de volgende gegevensverbindingen:
 
-* Vertica
 * Web
 * SharePoint-lijst
 * OData-feed
@@ -176,8 +178,12 @@ De categorie **Overige** biedt de volgende gegevensverbindingen:
 * Python-script
 * ODBC
 * OLE DB
+* Workforce Dimensions (bèta)
 * Denado
 * Paxata (bèta)
+* SurveyMonkey (bèta)
+* QubolePresto (bèta)
+* Quick Base (bèta)
 * Lege query
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Overige**.
@@ -190,7 +196,7 @@ In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Overige
 ## <a name="connecting-to-a-data-source"></a>Verbinding maken met een gegevensbron
 Als u verbinding wilt maken met een gegevensbron, selecteert u de gegevensbron in het venster **Gegevens ophalen** en selecteert u **Verbinding maken**. In de volgende afbeelding is **Web** geselecteerd in de categorie **Overige**.
 
-![Verbinding maken met web](media/desktop-data-sources/data-sources_08a.png)
+![Verbinding maken met web](media/desktop-data-sources/data-sources_08.png)
 
 Er wordt een verbindingsvenster weergegeven dat specifiek is voor het type gegevensverbinding. Als referenties zijn vereist, wordt u gevraagd ze op te geven. In de volgende afbeelding ziet u hoe een URL wordt ingevoerd om verbinding te maken met een webgegevensbron.
 

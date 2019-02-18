@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5eab760a3bfbb590a1a6242984aa1be88064409f
-ms.sourcegitcommit: a20825ebd0ef4c2cb77232e3dd0e9f8260cacf71
+ms.openlocfilehash: fcfbf4fb7be34739364fba176b28ea42934d5562
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54323946"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216028"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>Python-scripts uitvoeren in Power BI Desktop
 U kunt Python-scripts rechtstreeks in **Power BI Desktop** uitvoeren en de resulterende gegevenssets in een Power BI Desktop-gegevensmodel importeren.
@@ -24,7 +24,7 @@ U kunt Python-scripts rechtstreeks in **Power BI Desktop** uitvoeren en de resul
 Als u Python-scripts wilt uitvoeren in Power BI Desktop, moet u **Python** afzonderlijk installeren op de lokale computer. U kunt **Python** gratis downloaden en installeren vanaf tal van locaties, waaronder de [officiële Python-downloadpagina](https://www.python.org/) en de [Anaconda](https://anaconda.org/anaconda/python/). De huidige release van Python-scripts in Power BI Desktop biedt ondersteuning voor Unicode-tekens en spaties (lege tekens) in het installatiepad.
 
 ### <a name="install-required-python-packages"></a>Vereiste Python-pakketten installeren
-De Python-integratie van Power BI vereist de installatie van twee Python-pakketten (Pandas en Matplotlib).  U kunt de volgende twee pakketten installeren met behulp van het opdrachtregel-hulpprogramma pip:
+De Python-integratie van Power BI vereist de installatie van twee Python-pakketten (Pandas en Matplotlib).  U kunt de volgende twee pakketten installeren met behulp van het opdrachtregelhulpprogramma pip:
 
 ```
 pip install pandas

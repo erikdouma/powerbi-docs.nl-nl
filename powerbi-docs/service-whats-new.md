@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 2/9/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: d811ff6c68155d354df1785ae722829e1187543c
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 5a9fa6b5e854fc51487f0a0b4feaef8650b94057
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431080"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216856"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Wat is er nieuw in de Power BI-service
@@ -31,10 +31,41 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="september-2018"></a>September 2018
-* [Dashboard-opmerkingen](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/) in de Power BI-service.
 
-## <a name="previous-months-2018"></a>Vorige maanden (2018)
+## <a name="february-2019"></a>Februari 2019
+* Metrische gegevens over werkbelastingen en de grootte van actieve gegevenssets in de [app Capacity Monitoring](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
+* Exporteren naar PDF en e-mailabonnementen op aanvraag (service-report-subscribe.md).
+* Bulksgewijs bewerkingen uitvoeren in de beheerportal.
+
+## <a name="previous-months-2019"></a>Vorige maanden (2019)
+### <a name="january-2019"></a>Januari 2019
+* [Beveiligde Power BI-rapporten insluiten](service-embed-secure.md) in interne portals of op websites.
+* Updates voor de [gegevensstroom](service-dataflows-overview.md)editor, met nieuwe connectors en ondersteuning voor systeemeigen SQL-query's en Power Query Online-transformaties.
+* [Persoonlijke bladwijzers](https://powerbi.microsoft.com/en-us/blog/announcing-personal-bookmarks-in-the-power-bi-service/) in de Power BI-service.
+* Tijdgebaseerd plannen met e-mailabonnementen.
+
+## <a name="2018"></a>2018
+### <a name="december-2018"></a>December 2018
+* Door AI aangestuurde [aanbevolen apps](https://powerbi.microsoft.com/en-us/blog/announcing-ai-powered-app-recommendations-getting-the-right-insights-to-the-right-people/) op de Power BI-startpagina.
+* [Werkruimtebeheer](https://powerbi.microsoft.com/en-us/blog/workspace-management-in-the-admin-portal/) in de beheerportal.
+* Preview van Power BI-gegevensstromen en Azure Data Lake Storage Gen2-integratie in [gegevensstromen](service-dataflows-overview.md).
+* De Power BI-oplossingssjablonen zijn open-source geworden.
+
+### <a name="november-2018"></a>November 2018
+* Power BI-gegevensvoorbereiding is beschikbaar in de openbare preview voor [gegevensstromen](service-dataflows-overview.md).
+* Openbare preview van [gepagineerde rapporten](paginated-reports-report-builder-power-bi.md) in Power BI Premium.
+* Gegevensgrootte en het aantal gegevenssets in het geheugen in de [app Capacity Monitoring](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
+
+### <a name="october-2018"></a>Oktober 2018
+* Aggregaties [desktop-aggregations.md] in de Power BI-service.
+* Power BI uitgebreid naar drie nieuwe regio's: IN - centraal, Australië - oost en US - centraal (Iowa). 
+* Exporteren naar PowerPoint is algemeen beschikbaar gemaakt.
+
+### <a name="september-2018"></a>September 2018
+* [Dashboard-opmerkingen](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/) in de Power BI-service.
+* Openbare preview van de [Power BI-startpagina en de algemene zoekfunctie](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search/).
+* Mogelijkheid om [query's te bewaken](https://powerbi.microsoft.com/en-us/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/) in de [app Capacity Monitoring](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
+
 ### <a name="august-2018"></a>Augustus 2018
 * [Capaciteitsbewaking-app](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/) voor Power BI Premium.
 * Verbeteringen aan het [Raport URL-filter](service-url-filters.md) van Power BI.
@@ -78,7 +109,7 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 *   Ondersteuning bij geplande vernieuwing van Azure Analysis Services (AAS).
 
 ## <a name="previous-months-2017"></a>Vorige maanden (2017)
-## <a name="october-and-november-2017"></a>Oktober en november 2017
+### <a name="october-and-november-2017"></a>Oktober en november 2017
 *   Selectieve publicatie van inhoud met [Power BI-apps](service-create-distribute-apps.md).
 *   Distributie naar externe gebruikers met [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/).
 * Door AI gegenereerde aanbevelingen voor apps.
@@ -86,7 +117,7 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 * Ondersteuning voor e-mailabonnementen voor apps. 
 * Gedetailleerde controle voor de beheerder over [publiceren op internet](https://docs.microsoft.com/power-bi/service-admin-portal#export-and-sharing-settings).
 
-## <a name="september-2017"></a>September 2017
+### <a name="september-2017"></a>September 2017
 * Deel in de Premium-capaciteit dashboards met gebruikers die geen Power BI Pro-licentie hebben.
 * Capaciteiten toewijzen om aan uw bedrijfsbehoeften te voldoen met v-core groepering.
 * Capaciteitswaarden onmiddellijk vergroten of verkleinen met één klik.

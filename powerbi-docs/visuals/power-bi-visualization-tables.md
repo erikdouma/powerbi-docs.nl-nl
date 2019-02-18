@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2c909f1f7d2c1b500d37de0e4617e10c79977c96
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 0106c59c5fc4d122205a144d85a6e7f643c5a429
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284766"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223393"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Tabellen in Power BI-rapporten en -dashboards
 Een tabel is een raster met gerelateerde gegevens in een logische reeks rijen en kolommen. Het kan ook koppen en een rij voor totalen bevatten. Tabellen werken goed met kwantitatieve vergelijkingen waarbij u veel waarden voor één categorie bekijkt. Deze tabel geeft bijvoorbeeld 5 verschillende eenheden  voor **Categorie** weer.
@@ -135,7 +135,7 @@ In Power BI wordt soms een kolomkop in een rapport en in een dashboard afgekapt.
 ![videoclose-up van kolom vergroten of verkleinen](media/power-bi-visualization-tables/resizetable.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
-* Wanneer u kolomopmaak toepast, kunt u slechts één uitlijningsoptie per kolom kiezen: Automatisch, Links, Centreren, Rechts. Doorgaans bevat een kolom alleen tekst of alleen getallen, en geen combinatie daarvan. Maar in het geval dat een kolom zowel getallen als tekst bevat, worden met de optie **Automatisch** teksten links uitgelijnd en getallen rechts. Dit gedrag ondersteund talen die van links naar rechts worden gelezen.   
+* Wanneer u kolomopmaak toepast, kunt u slechts één uitlijningsoptie per kolom kiezen: Automatisch, Links, Centreren, Rechts. Doorgaans bevat een kolom alleen tekst of alleen getallen, en geen combinatie daarvan. Maar in het geval dat een kolom zowel getallen als tekst bevat, worden met de optie **Automatisch** teksten links uitgelijnd en getallen rechts. Dit gedrag ondersteunt talen die van links naar rechts worden gelezen.   
 
 ## <a name="next-steps"></a>Volgende stappen
 

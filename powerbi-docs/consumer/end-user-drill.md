@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d935b044e5cbe1a2c84ce5749c3a0b58c528bab0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bc5033df204fafcc7316d6708d7b39429e8e9cba
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282351"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216580"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Zoommodus voor een visualisatie in Power BI
 
@@ -112,9 +112,9 @@ Deze methode maakt gebruik van het inzoompictogram dat in de rechterbovenhoek va
 
 2. Selecteer het *bladknooppunt* voor **TN**. De structuurkaart laat nu alle steden in Tennessee zien waarin een winkel is gevestigd. 
 
-    ![structuurkaart met alleen de gegevens voor Tennesee](media/end-user-drill/power-bi-drill-down-one1.png)
+    ![structuurkaart met alleen de gegevens voor Tennessee](media/end-user-drill/power-bi-drill-down-one1.png)
 
-2. Op dit punt kunt u doorgaan met inzoomen op Tennesee of inzoomen op een specifieke plaats in Tennesee, of het niveau uitvouwen (zie **Alle velden tegelijk uitvouwen**, hieronder). We blijven voor dit moment inzoomen op één veld tegelijk.  Selecteer **Knoxville, TN**. De structuurkaart geeft nu de postcode voor uw winkel in Knoxville weer. 
+2. Op dit punt kunt u doorgaan met inzoomen op Tennessee of inzoomen op een specifieke plaats in Tennessee, of het niveau uitvouwen (zie **Alle velden tegelijk uitvouwen**, hieronder). We blijven voor dit moment inzoomen op één veld tegelijk.  Selecteer **Knoxville, TN**. De structuurkaart geeft nu de postcode voor uw winkel in Knoxville weer. 
 
    ![structuurkaart met 37919](media/end-user-drill/power-bi-drill-down-one2.png)
 
@@ -127,18 +127,18 @@ Het gebruik van een structuurkaart die ons alleen een postcode toont, is niet in
 
     ![weergave van postcode en winkelnaam](./media/end-user-drill/power-bi-expand1.png)
 
-2. Als u alle vier hiërarchieniveaus met gegevens voor Tennesee wilt zien, selecteert u de pijl voor uitzoomen totdat u het tweede niveau van de structuurkaart bereikt, **Totaal aantal eenheden dit jaar per gebied en plaats**. 
+2. Als u alle vier hiërarchieniveaus met gegevens voor Tennessee wilt zien, selecteert u de pijl voor uitzoomen totdat u het tweede niveau van de structuurkaart bereikt, **Totaal aantal eenheden dit jaar per gebied en plaats**. 
 
-    ![structuurkaart met alle gegevens voor Tennesee](media/end-user-drill/power-bi-drill-down-one1.png)
+    ![structuurkaart met alle gegevens voor Tennessee](media/end-user-drill/power-bi-drill-down-one1.png)
 
 
 3. Zorg ervoor dat inzoomen nog steeds is ingeschakeld ![inzoomen ingeschakeld](./media/end-user-drill/power-bi-drill-icon2.png) en selecteer het pictogram *omlaag uitvouwen* ![pictogram omlaag uitvouwen](./media/end-user-drill/power-bi-drill-icon6.png). De structuurkaart geeft nu extra informatie weer. In plaats van alleen plaats en staat wordt nu ook de postcode getoond. 
 
     ![Dubbel zoompictogram](./media/end-user-drill/power-bi-expand-one3.png)
 
-4. Selecteer het pictogram *omlaag uitvouwen* nog één keer om alle vier hiërarchieniveaus met details voor Tennesee op uw structuurkaart weer te geven. Beweeg de muisaanwijzer over een bladknooppunt voor nog meer informatie.
+4. Selecteer het pictogram *omlaag uitvouwen* nog één keer om alle vier hiërarchieniveaus met details voor Tennessee op uw structuurkaart weer te geven. Beweeg de muisaanwijzer over een bladknooppunt voor nog meer informatie.
 
-   ![structuurkaart met gegevens voor Tennesee](./media/end-user-drill/power-bi-expand-all.png)
+   ![structuurkaart met gegevens voor Tennessee](./media/end-user-drill/power-bi-expand-all.png)
 
 ## <a name="drilling-filters-other-visuals"></a>Analysefilters voor andere visuals
 As u in de zoommodus werkt, kunt u bepalen hoe inzoomen en uitvouwen de andere visualisaties op de pagina beïnvloeden. 

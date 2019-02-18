@@ -1,7 +1,7 @@
 ---
 title: Tips voor het maken van geweldige rapporten
 description: Tips en trucs voor het maken van rapporten in de Power BI-service en Power BI Desktop
-author: davidi
+author: davidiseminger
 manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 02202e8b5e89aa8d312a96d448c825f2ca44447a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: d88a455b5448b92d86719251bfada6bd807a4c91
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290493"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223807"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Tips en trucs voor het maken van rapporten in Power BI Desktop en de Power BI-service
 Als uw gegevens optimaal te kunnen gebruiken, hebt u soms wat extra hulp nodig. We hebben een aantal tips en trucs voor u verzameld om u te helpen bij het maken van rapporten in Microsoft Power BI Desktop, de Power BI-service *en* in Pro-Plus-edities van Microsoft Excel 2016 of Excel 2013 waar de Power Pivot-invoegtoepassing is ingeschakeld en Power Query is geïnstalleerd en ingeschakeld.
@@ -145,7 +145,7 @@ Als u in dat geval een relatie wilt maken, dient u eerst een logische gegevensse
 4. Selecteer dan in de query **CustomerNames** in het lint de optie **Toevoegen** en voeg de query **Temp** toe.
 5. Selecteer nu in de query **CustomerNames** **Dubbele waarden verwijderen**.
 
-U hebt nu een dimensietabel gemaakt die u kunt gebruiken om relaties te maken met CustomerIndicents en WorkItems en de waarden van beide tabellen bevat.  
+U hebt nu een dimensietabel gemaakt die u kunt gebruiken om relaties te maken met CustomerIndicents en WorkItems en die de waarden van beide tabellen bevat.  
 
 ### <a name="patterns-to-jump-start-your-use-of-the-query-editor"></a>Patronen om snel aan de slag te gaan met Query Editor
 Query Editor is een zeer krachtig hulpmiddel om gegevens te bewerken en geschikt te maken voor gebruik in visualisaties of modellen. Er zijn enkele patronen om te onthouden.

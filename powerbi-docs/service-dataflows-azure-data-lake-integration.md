@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 763b331fd0a5ff47263ea54d17f6cb17516de79d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1c503492da52592730b82857725b388ca440f2bd
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296772"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215579"
 ---
 # <a name="dataflows-and-azure-data-lake-integration-preview"></a>Integratie van gegevensstromen en Azure Data Lake (preview)
 
@@ -65,7 +65,7 @@ Om CDM-mappen in het Power BI-bestandssysteem te maken en te beheren, zijn lees-
 
 Het delen van CDM-mappen met gebruikers van gegevens, zoals gebruikers of services die nodig zijn om de gegevens te lezen, is vereenvoudigd met Active Directory OAuth Bearer-tokens en POSIX ACL's. Beheerders beschikken hiermee over de mogelijkheid om te controleren wie de CDM-map hebben geopend. De enige actie die vereist is, is het verlenen van toegang aan een Active Directory-object van uw keuze (zoals een gebruikersgroep of service) tot de CDM-map. Het wordt aanbevolen dat alle toegang tot de CDM-map voor elke andere identiteit dan de gegevensproducent als alleen-lezen wordt verleend. Hiermee wordt de integriteit beschermd van de gegevens die door de producent worden gegenereerd.
 
-Voor het toevoegen van CDM-mappen aan Power BI, moet de gebruiker die de CDM-map toevoegt ACL's voor *leestoegang* hebben in zowel de CDM-map zelf en alle bestanden of mappen die de CDM-map bevat. Daarnaast zijn ACL's voor *uitvoer*toegang nodig in zowel de CDM-map zelf als alle bestanden of mappen die de CDM-map bevat. Het wordt aanbevolen dat u de artikelen [Toegangsbeheerlijsten voor bestanden en mappen](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control#access-control-lists-on-files-and-directories) en [Aanbevolen procedures voor het gebruik van Azure Data Lake Storage Gen2](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-best-practices) beide leest voor meer informatie.
+Voor het toevoegen van CDM-mappen aan Power BI, moet de gebruiker die de CDM-map toevoegt ACL's voor *leestoegang* hebben in zowel de CDM-map zelf en alle bestanden of mappen die de CDM-map bevat. Daarnaast zijn ACL's voor *uitvoer*toegang nodig in zowel de CDM-map zelf als alle bestanden of mappen die de CDM-map bevat. Het wordt aanbevolen dat u de artikelen [Access control lists on files and directory](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control#access-control-lists-on-files-and-directories) (Toegangsbeheerlijsten voor bestanden en mappen) en [Best practices for using Azure Data Lake Storage Gen2](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-best-practices) (Aanbevolen procedures voor het gebruik van Azure Data Lake Storage Gen2) beide leest voor meer informatie.
 
 
 ### <a name="alternative-forms-of-authorization"></a>Alternatieve vormen van autorisatie

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f8777774981e89a88f1fb4f85573fd5a7e078dd6
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: 9d0eafea7f1ec25d8af86bf05fa130abb1bbd9c2
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008391"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216281"
 ---
 # <a name="connect-to-google-analytics-with-power-bi"></a>Verbinding maken met Google Analytics via Power BI
 U maakt verbinding met Google Analytics via Power BI door eerst verbinding te maken met uw Google Analytics-account. U ziet een Power BI-dashboard en een set Power BI-rapporten die inzicht geven in het verkeer van uw site en de gebruikersgegevens. U kunt met het dashboard en de rapporten werken, maar u kunt wijzigingen niet opslaan. De gegevens wordt eenmaal per dag automatisch vernieuwd.
@@ -51,7 +51,7 @@ U kunt aangepaste dashboards en rapporten maken op basis van de [Google Analytic
 ## <a name="system-requirements"></a>Systeemvereisten
 Als u verbinding wilt maken vanuit Power BI, moet u beschikken over een [Google Analytics](https://www.google.com/analytics/)-account. Bij andere Google-accounts die nog niet zijn verbonden met het Google Analytics-account, ontvangt u een verificatiefout.
 
-## <a name="troubleshooting"></a>Probleemoplossing
+## <a name="troubleshooting"></a>Problemen oplossen
 **Referenties** Als u meerdere Google-accounts hebt, moet u een incognito- of privé-browservenster tijdens de verbinding gebruiken om te zorgen dat het juiste account wordt gebruikt.
 
 Als u een foutbericht ontvangt dat aangeeft dat uw referenties ongeldig zijn, maar u zich wel kunt aanmelden bij Google, controleert u of u een [Google Analytics](https://www.google.com/analytics/)-account hebt.

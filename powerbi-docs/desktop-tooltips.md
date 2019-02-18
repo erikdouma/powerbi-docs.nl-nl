@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 545e8f874cca18167ee260daa92eec3ef1c3e925
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 0893d63c9f153b3b2810116a902a13afff3cb2ce
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291482"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223945"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Knopinfo maken op basis van rapportpagina's in Power BI Desktop
 U kunt visueel uitgebreide **tooltips voor rapporten** maken die worden weergegeven wanneer u de muisaanwijzer over visuele elementen beweegt, op basis van rapportpagina's die u maakt in **Power BI Desktop**. Wanneer u een rapportpagina maakt die als knopinfo fungeert, kunnen uw aangepaste knopinfo visuele elementen, afbeeldingen en ongeacht welke andere verzameling van items bevatten die u in de rapportpagina maakt. 
@@ -81,7 +81,7 @@ Selecteer daarna in de vervolgkeuzelijst **Pagina** de knopinfopagina die u wilt
 
 ![Een knopinfopagina selecteren voor handmatige knopinfo](media/desktop-tooltips/desktop-tooltips_10.png)
 
-De mogelijkheid om knopinfo handmatig in te stellen biedt vele toepassingen. U kunt een lege pagina voor knopinfo instellen en hiermee de standaardselectie voor Power BI knopinfo overschrijven. Een andere toepassing is wanneer u niet wilt dat de knopinfo wordt gebruikt die automatisch door Power BI wordt geselecteerd. Als u bijvoorbeeld een visueel element hebt dat twee velden bevat, en beide velden beschikken over een bijbehorende knopinfo, selecteert Power BI slechts één om weer te geven. Misschien wilt u niet dat zoiets het geval is, dus kunt u handmatig selecteren welke knopinfo moet worden weergegeven.
+De mogelijkheid om knopinfo handmatig in te stellen biedt vele toepassingen. U kunt een lege pagina voor knopinfo instellen en hiermee de standaardselectie voor Power BI knopinfo overschrijven. Een andere toepassing is wanneer u niet wilt dat de knopinfo wordt gebruikt die automatisch door Power BI wordt geselecteerd. Als u bijvoorbeeld een visueel element hebt dat twee velden bevat, en beide velden beschikken over een bijbehorende knopinfo, selecteert Power BI er slechts één om weer te geven. Misschien wilt u niet dat zoiets het geval is, dus kunt u handmatig selecteren welke knopinfo moet worden weergegeven.
 
 ## <a name="reverting-to-default-tooltips"></a>Herstellen van de standaardknopinfo
 

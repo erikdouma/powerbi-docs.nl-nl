@@ -1,53 +1,43 @@
 ---
-title: Veel-op-veelrelaties in Power BI Desktop (preview)
-description: Veel-op-veel-relaties gebruiken in Power BI Desktop
+title: Veel-op-veel-relaties in Power BI Desktop
+description: Relaties met een veel-op-veel-kardinaliteit gebruiken in Power BI Desktop
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/17/2018
+ms.date: 02/13/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 8d32ad24fd41c33d0b1e1f37f11be39292e82742
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 3f3c901140ca4f2ae2d93d1c3bc17bb519d41212
+ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291068"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56225955"
 ---
-# <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>Veel-op-veelrelaties in Power BI Desktop (preview)
+# <a name="relationships-with-a-many-many-cardinality-in-power-bi-desktop"></a>Relaties met een veel-op-veel-kardinaliteit in Power BI Desktop
 
-Met de functie *veel-op-veelrelaties* in Power BI Desktop kunt u tabellen samenvoegen die gebruikmaken van de kardinaliteit *Veel-op-veel*. U kunt gemakkelijker en intuïtief gegevensmodellen maken die twee of meer gegevensbronnen bevatten. De functie *veel-op-veelrelaties* maakt deel uit van de overkoepelende voorziening voor *samengestelde modellen* in Power BI Desktop.
+Met de functie voor *relaties met veel-op-veel-kardinaliteit* in Power BI Desktop kunt u tabellen samenvoegen die gebruikmaken van de kardinaliteit *Veel-op-veel*. U kunt gemakkelijker en intuïtief gegevensmodellen maken die twee of meer gegevensbronnen bevatten. De functie voor *relaties met een veel-op-veel-kardinaliteit* maakt deel uit van de overkoepelende voorziening voor *samengestelde modellen* in Power BI Desktop.
 
 ![Een veel-op-veelrelatie in het deelvenster 'Relatie bewerken'](media/desktop-many-to-many-relationships/many-to-many-relationships_01.png)
 
-De functie *veel-op-veelrelaties* in Power BI Desktop maakt deel uit van drie gerelateerde functies:
+De functie voor *relaties met een veel-op-veel-kardinaliteit* in Power BI Desktop maakt deel uit van drie gerelateerde functies:
 
 * **Samengestelde modellen**: hiermee wordt het mogelijk dat een rapport twee of meer gegevensverbindingen heeft, inclusief DirectQuery-verbindingen of importverbindingen, in elke gewenste combinatie. Zie [Samengestelde modellen gebruiken in Power BI Desktop (preview-versie)](desktop-composite-models.md) voor meer informatie.
 
-* **Veel-op-veel-relaties**: met *samengestelde modellen* kunt u *veel-op-veel-relaties* tussen tabellen tot stand brengen. Door deze aanpak hoeven tabellen geen unieke waarden meer te bevatten. Ook zijn eerdere tijdelijke oplossingen niet meer nodig, zoals de introductie van nieuwe tabellen alleen maar om relaties tot stand te brengen. De functie wordt verderop in dit artikel beschreven.
+* **Relaties met een veel-op-veel-kardinaliteit**: met *samengestelde modellen* kunt u *relaties met een veel-op-veel-kardinaliteit* tussen tabellen tot stand brengen. Door deze aanpak hoeven tabellen geen unieke waarden meer te bevatten. Ook zijn eerdere tijdelijke oplossingen niet meer nodig, zoals de introductie van nieuwe tabellen alleen maar om relaties tot stand te brengen. De functie wordt verderop in dit artikel beschreven.
 
 * **Opslagmodus**: u kunt nu opgeven voor welke visualisaties een query naar de back-endgegevensbronnen is vereist. Visuals waarvoor geen query is vereist, worden geïmporteerd zelfs als ze zijn gebaseerd op DirectQuery. De functie helpt de prestaties te verbeteren en de back-end minder te belasten. Eerder werden zelfs voor eenvoudige visuals, zoals slicers, query's verzonden naar back-endbronnen. Zie het artikel [Opslagmodus in Power BI Desktop (preview)](desktop-storage-mode.md) voor meer informatie.
 
-## <a name="enable-the-many-to-many-relationships-preview-feature"></a>De preview-functie *veel-op-veelrelaties* inschakelen
+## <a name="what-relationships-with-a-many-many-cardinality-solves"></a>Wat u met *relaties met een veel-op-veel-kardinaliteit* kunt oplossen
 
-De functie *veel-op-veelrelaties* moet zijn ingeschakeld in Power BI Desktop. Als u samengestelde modellen wilt inschakelen, selecteert u **Bestand** > **Opties en instellingen** > **Opties** > **Preview-functies** en selecteert u vervolgens het selectievakje **Samengestelde modellen**.
+Voordat er *relaties met een veel-op-veel-kardinaliteit* beschikbaar waren, werd de relatie tussen twee tabellen gedefinieerd in Power BI. Ten minste één van de tabelkolommen in de relatie moest unieke waarden bevatten. Vaak bevatte echter geen enkele kolom unieke waarden. 
 
-![Het deelvenster Preview-functies](media/desktop-composite-models/composite-models_02.png)
+Twee tabellen hadden dan bijvoorbeeld een kolom *Land*, maar de waarden van *Land* waren dan niet uniek in de tabellen. Er was een tijdelijke oplossing nodig om zulke tabellen samen te voegen. Zo’n oplossing kon zijn om aanvullende tabellen in het model te introduceren met de vereiste unieke waarden. Met de functie voor *relaties met een veel-op-veel-kardinaliteit* kunt u deze tabellen direct samenvoegen met behulp van een relatie met de kardinaliteit **veel-op-veel**.  
 
-U moet Power BI Desktop opnieuw opstarten om de functie in te schakelen.
-
-![Het venster Voor functie is opnieuw starten vereist](media/desktop-composite-models/composite-models_03.png)
-
-## <a name="what-many-to-many-relationships-solves"></a>Het nut van *veel-op-veelrelaties*
-
-Voordat de functie *veel-op-veelrelaties* beschikbaar was, werd de relatie tussen twee tabellen gedefinieerd in Power BI. Ten minste één van de tabelkolommen in de relatie moest unieke waarden bevatten. Vaak bevatte echter geen enkele kolom unieke waarden. 
-
-Twee tabellen hadden dan bijvoorbeeld een kolom *Land*, maar de waarden van *Land* waren dan niet uniek in de tabellen. Er was een tijdelijke oplossing nodig om zulke tabellen samen te voegen. Zo’n oplossing kon zijn om aanvullende tabellen in het model te introduceren met de vereiste unieke waarden. Met de functie *veel-op-veelrelaties* kunt u deze tabellen direct samenvoegen met behulp van een relatie met de kardinaliteit **veel-op-veel**.  
-
-## <a name="use-many-to-many-relationships"></a>*Veel-op-veelrelaties* gebruiken
+## <a name="use-relationships-with-a-many-many-cardinality"></a>*Relaties met een veel-op-veel-kardinaliteit* gebruiken
 
 Als u een relatie tussen twee tabellen wilt definiëren in Power BI, moet u de kardinaliteit van de relatie opgeven. De relatie tussen *ProductSales* en *Product*&mdash;met de kolommen *ProductSales(ProductCode)* en *Product(ProductCode)*&mdash;zou bijvoorbeeld worden gedefinieerd als *Veel-1*. De relatie wordt op deze manier gedefinieerd omdat er veel verkopen zijn voor elk product en de kolom in de tabel *Product* *(ProductCode)* uniek is. Als u een relatiekardinaliteit definieert als *Veel-1*, *1-veel* of *1-1* wordt dit door Power BI gevalideerd om ervoor te zorgen dat de kardinaliteit die u selecteert overeenkomt met de werkelijke de gegevens.
 
@@ -117,14 +107,11 @@ Als we de nieuwe tabel *Sales* definiëren als de combinatie van alle *States* i
 
 ![Visual van tabel](media/desktop-many-to-many-relationships/many-to-many-relationships_11.png)
 
-Zoals u ziet, is *TX*&mdash; afgebeeld met *Sales*-gegevens, maar onbekende *Population*-gegevens &mdash;en is *New York*&mdash; afgebeeld met bekende *Population*-gegevens, maar zonder *Sales*-gegevens&mdash;. Deze oplossing is niet optimaal en veroorzaakt veel problemen. Met het maken van de veel-op-veelrelaties kunnen de resulterende problemen worden opgelost, zoals beschreven in de volgende sectie.
+Zoals u ziet, is *TX*&mdash; afgebeeld met *Sales*-gegevens, maar onbekende *Population*-gegevens &mdash;en is *New York*&mdash; afgebeeld met bekende *Population*-gegevens, maar zonder *Sales*-gegevens&mdash;. Deze oplossing is niet optimaal en veroorzaakt veel problemen. Met het maken van de relaties met een veel-op-veel-kardinaliteit kunnen de resulterende problemen worden opgelost, zoals beschreven in de volgende sectie.
 
-## <a name="use-many-to-many-relationships-instead-of-the-workaround"></a>*Veel-op-veelrelaties* gebruiken in plaats van de tijdelijke oplossing
+## <a name="use-relationships-with-a-many-many-cardinality-instead-of-the-workaround"></a>*Relaties met een veel-op-veel-kardinaliteit* gebruiken in plaats van de tijdelijke oplossing
 
 Vanaf de versie van juli 2018 van Power BI Desktop kunt u tabellen, zoals degene die eerder zijn beschreven, rechtstreeks koppelen, zonder dat u gebruik hoeft te maken van vergelijkbare tijdelijke oplossingen. Het is nu mogelijk om de relatiekardinaliteit in te stellen als *Veel-op-veel*. Deze instelling geeft aan dat geen van beide tabellen unieke waarden bevat. Voor dergelijke relaties kunt u nog steeds bepalen welke tabel de andere tabel filtert. U kunt er ook voor kiezen om bidirectioneel te filteren, zodat beide tabellen elkaar filteren.  
-
-> [!NOTE]
-> De mogelijkheid om *veel-op-veelrelaties* te maken is in preview. Zolang deze functie in preview is, is het niet mogelijk om te publiceren in de Power BI-servicemodellen die gebruikmaken van *veel-op-veelrelaties*. 
 
 In Power BI Desktop wordt de kardinaliteit standaard ingesteld op *Veel-op-veel* als is vastgesteld dat geen van beide tabellen unieke waarden bevat voor de kolommen in de relatie. In dat geval wordt er een waarschuwing weergegeven om er zeker van te zijn dat het instellen van deze relatie de bedoeling was en niet het onbedoelde effect is van een gegevensprobleem. 
 
@@ -136,7 +123,7 @@ De resulterende **Relatie**-weergave bevat dan de directe veel-op-veelrelatie tu
 
 ![Visual van tabel](media/desktop-many-to-many-relationships/many-to-many-relationships_12.png)
 
-Hier volgen de belangrijkste verschillen tussen *veel-op-veelrelaties* en de meer gebruikelijke *Veel-1*-relaties:
+Hier volgen de belangrijkste verschillen tussen *relaties met een veel-op-veel-kardinaliteit* en de meer gebruikelijke *Veel-1*-relaties:
 
 * De weergegeven waarden bevatten geen lege rij die de niet-overeenkomende rijen in de andere tabel vertegenwoordigt. De waarden vertegenwoordigen ook geen rijen waarvan de kolom die in de relatie in de andere tabel wordt gebruikt, null is.
 * Het is niet mogelijk om de functie `RELATED()` te gebruiken aangezien meer dan één rij gerelateerd kan zijn.
@@ -153,7 +140,7 @@ Zorg er met de voorgaande verschillen in gedachten voor dat de berekeningen die 
 
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 
-Er gelden enkele beperkingen voor deze versie van *veel-op-veelrelaties* en samengestelde modellen.
+Er gelden enkele beperkingen voor deze *relaties met een veel-op-veel-kardinaliteit* en samengestelde modellen.
 
 De volgende (multidimensionale) Live Connect-bronnen kunnen niet worden gebruikt met samengestelde modellen:
 
@@ -165,7 +152,7 @@ De volgende (multidimensionale) Live Connect-bronnen kunnen niet worden gebruikt
 
 Als u met behulp van DirectQuery verbinding maakt met deze multidimensionale bronnen, is het niet mogelijk om verbinding te maken met een andere DirectQuery-bron of deze te combineren met geïmporteerde gegevens.
 
-De bestaande beperkingen van het gebruik van DirectQuery gelden nog steeds wanneer u *veel-op-veelrelaties* gebruikt. Veel van deze beperkingen gelden nu per tabel, al naargelang de opslagmodus van de tabel. Zo kan een berekende kolom in een geïmporteerde tabel verwijzen naar andere tabellen, maar kan een berekende kolom in een DirectQuery-tabel nog steeds alleen verwijzen naar kolommen in dezelfde tabel. Andere beperkingen gelden voor het model als geheel, als een van de tabellen in het model DirectQuery gebruikt. De functies QuickInsights en Q&A zijn bijvoorbeeld niet beschikbaar voor een model als een van de tabellen in het model de opslagmodus DirectQuery heeft. 
+De bestaande beperkingen voor het gebruik van DirectQuery gelden nog steeds wanneer u *relaties met een veel-op-veel-kardinaliteit* gebruikt. Veel van deze beperkingen gelden nu per tabel, al naargelang de opslagmodus van de tabel. Zo kan een berekende kolom in een geïmporteerde tabel verwijzen naar andere tabellen, maar kan een berekende kolom in een DirectQuery-tabel nog steeds alleen verwijzen naar kolommen in dezelfde tabel. Andere beperkingen gelden voor het model als geheel, als een van de tabellen in het model DirectQuery gebruikt. De functies QuickInsights en Q&A zijn bijvoorbeeld niet beschikbaar voor een model als een van de tabellen in het model de opslagmodus DirectQuery heeft. 
 
 ## <a name="next-steps"></a>Volgende stappen
 

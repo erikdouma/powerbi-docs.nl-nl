@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c6395785c3d3e386aa2ac735439a265f5fe3fb02
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1bb6cfa195e3e6158259c9ff23cb3efdc3da4a09
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286997"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223301"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>De eigenschappen van de X-as en Y-as aanpassen
 In deze zelfstudie leert u veel verschillende manieren om de X-as en Y-as van uw visualisaties aan te passen. Niet alle visualisaties hebben assen of kunnen worden aangepast. Zo hebben cirkeldiagrammen bijvoorbeeld geen assen. Bovendien verschillen de aanpassingsopties per visualisatie; er zijn te veel opties om ze in één artikel te behandelen. We werpen een blik op een aantal van de meestgebruikte as-aanpassingen, en maken u vertrouwd met het tabblad voor visuele opmaak in het rapportcanvas van Power BI.  
@@ -136,7 +136,7 @@ Als de X-as door de eigenaar van het rapport wordt gecategoriseerd als een gegev
 ## <a name="next-steps"></a>Volgende stappen
 Meer informatie over [visualisaties in Power BI-rapporten](power-bi-report-visualizations.md)
 
-[Titels, ](power-bi-visualization-customize-title-background-and-legend.md)[achtergronden en legenda’s aanpassen](power-bi-visualization-customize-title-background-and-legend.md)
+[Titels, achtergronden en legenda's aanpassen](power-bi-visualization-customize-title-background-and-legend.md)
 
 [Kleuren en aseigenschappen aanpassen](service-getting-started-with-color-formatting-and-axis-properties.md)
 

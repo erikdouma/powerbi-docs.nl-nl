@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 41ab7f06da3038e48e2d1188edc8b91edeee8d4f
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 76e6ebec14d5feefd319213c05fddb0839a55ccd
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762347"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216373"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Hulpprogramma voor de migratie van Power BI Embedded
 
@@ -189,7 +189,7 @@ Nadat de werkruimte is gemaakt, kunt u naar het tabblad **Uploaden** gaan.
 
 Op het tabblad **Uploaden** worden de rapporten geüpload naar de Power BI-service. U ziet een lijst met de rapporten die we hebben gedownload op het tabblad Downloaden, en de naam van de doelgroep op basis van uw migratieplan.
 
-![Tabblad uploaden](media/migrate-tool/migrate-tool-upload-tab.png)
+![Tabblad Uploaden](media/migrate-tool/migrate-tool-upload-tab.png)
 
 U kunt de geselecteerde rapporten uploaden of alle rapporten uploaden. U kunt ook de uploadstatus opnieuw instellen om items opnieuw te uploaden.
 
@@ -207,7 +207,7 @@ U moet het hulpprogramma voor migratie sluiten om de wijziging aan te brengen en
 
 In het bovenstaande voorbeeld is een van de gekloonde rapporten mislukt omdat er een rapport met dezelfde naam bestaat. Als we kijken naar de XML van het migratieplan, zien we het volgende.
 
-```
+```xml
 <ReportMigrationData>
     <PaaSWorkspaceCollectionName>SampleWorkspaceCollection</PaaSWorkspaceCollectionName>
     <PaaSWorkspaceId>4c04147b-d8fc-478b-8dcb-bcf687149823</PaaSWorkspaceId>
@@ -229,7 +229,7 @@ In het bovenstaande voorbeeld is een van de gekloonde rapporten mislukt omdat er
 
 We kunnen de naam van het SaaSTargetReportName wijzigen voor het item.
 
-```
+```xml
 <SaaSTargetReportName>cloned2</SaaSTargetReportName>
 ```
 
@@ -245,7 +245,7 @@ Als we teruggaan naar Power BI, zien we dat de rapporten en gegevenssets in de a
 
 U kunt een lokale versie van een Power BI Desktop-bestand uploaden. U moet het hulpprogramma sluiten, het XML-bestand bewerken en het volledige pad naar uw lokale PBIX in de eigenschap **PbixPath** opgeven.
 
-```
+```xml
 <PbixPath>[Full Path to PBIX file]</PbixPath>
 ```
 
@@ -255,7 +255,7 @@ Nadat u het XML-bestand hebt bewerkt, opent u het plan opnieuw in het hulpprogra
 
 ### <a name="directquery-reports"></a>DirectQuery-rapporten
 
-U moet de verbindingsreeks voor de DirectQuery-rapporten bijwerken. U kunt dit doen in *powerbi.com*, of u kunt de verbindingsreeks programmatisch opvragen in Power BI Embedded (PaaS). Zie [Een DirectQuery-verbindingsreeks ophalen uit een PaaS-rapport](migrate-code-snippets.md#extract-directquery-connection-string-from-paas-report) voor een voorbeeld.
+U moet de verbindingsreeks voor de DirectQuery-rapporten bijwerken. U kunt dit doen op *powerbi.com*, of u kunt de verbindingsreeks programmatisch opvragen in Power BI Embedded (PaaS). Zie [Een DirectQuery-verbindingsreeks ophalen uit een PaaS-rapport](migrate-code-snippets.md#extract-directquery-connection-string-from-paas-report) voor een voorbeeld.
 
 U kunt de verbindingsreeks voor de gegevensset in de Power BI-service (SaaS) bijwerken en de referenties voor de gegevensbron instellen. U kunt de volgende voorbeelden bekijken om te zien hoe u dit doet.
 
