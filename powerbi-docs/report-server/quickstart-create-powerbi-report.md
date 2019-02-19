@@ -1,20 +1,20 @@
 ---
 title: Een Power BI-rapport maken voor Power BI Report Server
 description: Leer hoe u in een paar eenvoudige stappen een Power BI-rapport voor Power BI Report Server maakt.
-author: maggiesMSFT
+author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 09/19/2018
-ms.author: maggies
-ms.openlocfilehash: dd3da287d976b9fe84ab56b425a5f08fba31d224
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.author: maghan
+ms.openlocfilehash: 7d97e375f7743b381f222d64e230d71133060464
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288354"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324849"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Een Power BI-rapport maken voor Power BI Report Server
 U kunt Power BI-rapporten on-premises opslaan en beheren in de webportal van Power BI Report Server, net zoals u Power BI-rapporten kunt opslaan in de cloud in de Power BI-service (https://powerbi.com)). U maakt rapporten in Power BI Desktop en publiceert deze naar de webportal. Gebruikers in uw organisatie kunnen de rapporten weergeven in een browser of in een mobiele Power BI-app op een mobiele apparaat.

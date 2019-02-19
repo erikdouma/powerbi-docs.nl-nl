@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 35448142ecad249289542493261dfff612a348ad
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ccfc25496b7bfacaea21e70f93c662600ab9cf5f
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283340"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56248994"
 ---
 # <a name="using-r-in-query-editor"></a>R gebruiken in Query-editor
 U kunt **R**, een programmeertaal die veel door statistici, gegevenswetenschappers en gegevensanalisten wordt toegepast, gebruiken in **Query-editor** van Power BI Desktop. Dankzij de integratie van R in **Query-editor** kunt u met R gegevens opschonen en geavanceerde data shaping en analyses in gegevenssets uitvoeren, met inbegrip van het aanvullen van ontbrekende gegevens, voorspellingen en clustering. **R** is een krachtige programmeertaal en kan in **Query-editor** worden gebruikt om uw gegevensmodel voor te bereiden en rapporten te maken.
@@ -44,11 +44,13 @@ Bekijk aan de hand van dit voorbeeld hoe u **R** in **Query-editor** kunt gebrui
    ![](media/desktop-r-in-query-editor/r-in-query-editor_5d.png)
 6. Vul in dit voorbeeld de volgende scriptcode in:
 
+    ```r
        library(mice)
        tempData <- mice(dataset,m=1,maxit=50,meth='pmm',seed=100)
        completedData <- complete(tempData,1)
        output <- dataset
        output$completedValues <- completedData$"SMI missing values"
+    ```
 
    > [!NOTE]
    > Deze scriptcode werkt alleen goed als de bibliotheek *mice* in uw R-omgeving is geïnstalleerd. Als u mice wilt installeren, voert u de volgende opdracht uit in uw R-installatie: |      > install.packages('mice')

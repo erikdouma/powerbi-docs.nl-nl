@@ -2,20 +2,20 @@
 title: Comparing Power BI Report Server and the Power BI service (Power BI Report Server vergelijken met de Power BI-service)
 description: In dit artikel worden de functies van Power BI Report Server en de Power BI-service vergeleken.
 keywords: ''
-author: maggiesMSFT
-ms.author: maggies
+author: markingmyname
+ms.author: maghan
 ms.date: 02/06/2019
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 66f8e03469b28ee4f29c9c679add02e326732943
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 11b910d687830e525e0495a785153daa32db042d
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794336"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324456"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparing Power BI Report Server and the Power BI service (Power BI Report Server vergelijken met de Power BI-service)
 

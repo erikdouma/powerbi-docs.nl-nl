@@ -1,43 +1,44 @@
 ---
 title: Opmerkingen toevoegen aan een rapport in Power BI Report Server
 description: Informatie over het toevoegen van opmerkingen aan een Power BI- of een gepagineerd rapport op een Power BI Report Server of SQL Server Reporting Services-rapportserver.
-author: maggiesMSFT
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/15/2018
-ms.author: maggies
-ms.openlocfilehash: 14540dc9ecaf1c3baa513b6e8cd12323de973d3d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 7e2dcc24cde68275899b25ff457b7731583c1bc5
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275377"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324226"
 ---
 # <a name="add-comments-to-a-report-in-a-report-server---power-bi-report-server"></a>Opmerkingen toevoegen aan een rapport in een rapportserver - Power BI Report Server
+
 In de webportal van een rapportserver kunt u opmerkingen toevoegen aan rapporten, waaronder Power BI-rapporten. De opmerkingen staan live bij het rapport en iedereen met de juiste machtigingen ziet de opmerkingen voor het rapport. Zie de sectie [Machtigingen](#permissions) hieronder voor meer informatie.
 
 ## <a name="add-or-view-comments"></a>Opmerkingen toevoegen of weergeven
+
 1. Open een gepagineerd rapport of Power BI-rapport op een rapportserver.
 2. Selecteer in de rechterbovenhoek **Opmerkingen**.
-   
+
     ![Selecteer Opmerkingen](media/add-comments/report-server-web-portal-comments-button.png)
-   
+
     In het deelvenster Opmerkingen ziet u alle bestaande opmerkingen.
 3. Schrijf de opmerking en selecteer vervolgens **Opmerking plaatsen**.
-   
+
     ![Opmerking plaatsen](media/add-comments/report-server-web-portal-comments-pane.png)
-   
+
     Uw opmerking wordt in het deelvenster op het webportaal weergegeven, samen met eventuele vorige opmerkingen. Ze worden niet weergegeven bij het rapport op in de mobiele Power BI-apps.
-   
+
    > [!TIP]
    > Wist u dat? U kunt [aantekeningen toevoegen aan Power BI-rapporten in de mobiele Power BI-apps](../consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) en de rapporten met aantekeningen met anderen delen.
-   > 
-   > 
 
 ## <a name="permissions"></a>Machtigingen
+
 Afhankelijk van uw machtigingen is het volgende op u van toepassing:
 
 * U kunt geen opmerkingen bekijken.

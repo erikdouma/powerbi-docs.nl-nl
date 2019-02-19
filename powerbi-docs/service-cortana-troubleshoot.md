@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/20/2017
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: d768956f26256bd06516981b2bae0ab17ef3ca90
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5aac4b32fc90720af4954dff2afa61243b1f1587
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296312"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249040"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Problemen met Cortana voor Power BI oplossen
 Dit artikel maakt deel uit van een serie. Wij raden u aan de volgende drie artikelen te lezen als u dat nog niet hebt gedaan.
@@ -79,7 +79,7 @@ Lukt het nog steeds niet?  Dan is het nu een goed moment om het hulpprogramma vo
 
    ![Antwoordkaart](media/service-cortana-troubleshoot/power-bi-answer-card-new.png)
 
-   </br>
+   <br>
 
    ![Tabblad van antwoordkaart in Power BI](media/service-cortana-troubleshoot/power-bi-answer-card2.png)
 4. Soms gebeurt er niets nadat u de eerste keer iets hebt getypt in het veld **Utterance**. Dit kan gebeuren omdat het systeem nog niet helemaal klaar is. Knip en plak de tekst dan nogmaals in het veld **Utterance** of typ deze opnieuw. In dit voorbeeld is de naam van onze antwoordkaart **Cortana stores**. Als u **Cortana stores** in het veld plakt of typt, levert dit één resultaat op dat wordt weergegeven in het veld **Interpretations**. Klik erop om de antwoordkaart weer te geven in het Cortana-venster; in dit geval **Cortana stores**.

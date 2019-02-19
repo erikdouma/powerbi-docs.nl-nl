@@ -1,22 +1,23 @@
 ---
 title: Wat zijn gepagineerde rapporten in Power BI Premium? (Voorbeeld)
 description: Gepagineerde rapporten waren lang de standaardrapportindeling in SQL Server Reporting Services en zijn nu beschikbaar in de Power BI-service. Deze rapporten kunnen worden afgedrukt of gedeeld. U kunt de rapportindeling exact bepalen. Dit type rapport bevat alle gegevens uit een tabel, zelfs als de tabel bijvoorbeeld meerdere pagina's omvat.
-author: maggiesMSFT
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 12/05/2018
-ms.author: maggies
-ms.openlocfilehash: 7ce0e90e3166ce6f84c5e53e05d56e9fcc4e790d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: d3563b80813b0c08377e7ecaec89439197c2014f
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282835"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324607"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium-preview"></a>Wat zijn gepagineerde rapporten in Power BI Premium? (Voorbeeld)
+
 Gepagineerde rapporten waren lang de standaardrapportindeling in SQL Server Reporting Services en zijn nu beschikbaar in de Power BI-service. Deze rapporten kunnen worden afgedrukt of gedeeld. Ze worden 'gepagineerd' genoemd, omdat ze zo zijn opgemaakt dat ze op een pagina passen. Alle gegevens worden in een tabel weergegeven, zelfs als de tabel meerdere pagina's omvat. Ze worden soms 'pixelperfect' genoemd omdat de pagina-indeling van dit type rapport exact kan worden ingesteld. Gepagineerde rapporten zijn gebaseerd op de RDL-rapporttechnologie in SQL Server Reporting Services. Report Builder is het zelfstandige hulpprogramma voor het maken van gepagineerde rapporten. 
 
 Gepagineerde rapporten kunnen heel veel pagina's hebben. Dit rapport heeft bijvoorbeeld 563 pagina's. Alle pagina's zijn zorgvuldig opgemaakt, met één pagina per factuur en herhalende kopteksten en voetteksten.

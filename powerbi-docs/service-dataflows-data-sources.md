@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: cef34e7be0767ce16b84b066663318b66bcbd2d0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5bf9694c42a3a70fbc65085326a03618ae62a8f6
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280545"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324916"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows-preview"></a>Verbinding maken met gegevensbronnen voor Power BI-gegevensstromen (preview)
 
@@ -61,7 +61,7 @@ De categorie **Alle categorieën** bevat alle gegevensbronnen uit alle categorie
 
 De categorie **Bestand** bevat de volgende beschikbare gegevensverbindingen voor gegevensstromen:
 
-* Toegang
+* Access
 * Excel
 * JSON
 * Tekst/CSV
@@ -76,6 +76,7 @@ De categorie **Database** bevat de volgende beschikbare gegevensverbindingen voo
 * SQL Server-database
 * Sybase-database
 * Teradata-database
+* Vertica
 
 De categorie **Power BI** bevat de volgende beschikbare gegevensverbindingen voor gegevensstromen:
 
@@ -91,6 +92,7 @@ De categorie **Azure** bevat de volgende beschikbare gegevensverbindingen voor g
 
 De **Online Services** bevatten de volgende beschikbare gegevensverbindingen voor gegevensstromen:
 
+* Amazon Redshift
 * Common Data Service voor apps
 * Microsoft Exchange Online
 * Salesforce-objecten
@@ -154,12 +156,8 @@ Vervolgens maakt uw script verbinding met de gegevensbron die u hebt opgegeven.
 
 De volgende lijst toont welke connectors u momenteel kunt gebruiken door de M-query naar een lege query te kopiëren en te plakken:
 
-* Amazon Redshift
 * SAP Business Warehouse 
-* SAP HANA
-* Analysis Services
 * Azure Analysis Services
-* Google Analytics
 * Adobe Analytics
 * ODBC
 * OLE DB
@@ -170,7 +168,6 @@ De volgende lijst toont welke connectors u momenteel kunt gebruiken door de M-qu
 * Azure HDInsight (HDFS)
 * Hadoop-bestand HDFS
 * Informix (bèta)
-* Vertica
 
 Dat is alles wat u hoeft te weten om verbinding te maken met gegevensbronnen in Power BI-gegevensstromen.
 

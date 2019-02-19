@@ -11,18 +11,18 @@ ms.date: 04/18/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: ff9f75b216ba64dfdb0b8244bb99016d0edd4ede
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9a2fac64959ece431471eb8d3f32961c9d592c66
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276992"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324825"
 ---
 # <a name="manage-a-power-bi-on-premises-gateway"></a>Een Power BI on-premises gateway beheren
 
-Nadat u [een Power BI-gegevensgateway hebt geïnstalleerd](service-gateway-install.md), beheert u deze op basis van uw vereisten. In dit onderwerp leert u hoe u: gegevensbronnen en gebruikers toevoegt en verwijdert; een gateway opnieuw opstart; en een gateway migreert, herstelt, overneemt en verwijdert. 
+Nadat u [een Power BI-gegevensgateway hebt geïnstalleerd](service-gateway-install.md), beheert u deze op basis van uw vereisten. In dit onderwerp leert u hoe u: gegevensbronnen en gebruikers toevoegt en verwijdert; een gateway opnieuw opstart; en een gateway migreert, herstelt, overneemt en verwijdert.
 
-U kunt een gateway beheren via het gedeelte **Gateways beheren** van de Power BI-service in de gateway-app op uw lokale computer en ook met PowerShell-scripts. Dit artikel richt zich op de Power BI-service. 
+U kunt een gateway beheren via het gedeelte **Gateways beheren** van de Power BI-service in de gateway-app op uw lokale computer en ook met PowerShell-scripts. Dit artikel richt zich op de Power BI-service.
 
 Als u zojuist een gateway hebt geïnstalleerd, wordt u aangeraden vervolgens [een gegevensbron toe te voegen](#add-a-data-source) en vervolgens [gebruikers toe te voegen](#add-users-to-a-data-source), zodat ze de gegevensbron kunnen openen.
 

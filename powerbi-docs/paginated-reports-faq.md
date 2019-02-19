@@ -1,20 +1,20 @@
 ---
 title: 'Gepagineerde rapporten in Power BI: veelgestelde vragen (preview)'
 description: In dit artikel vindt u antwoorden op veelgestelde vragen over gepagineerde rapporten. Deze rapporten bevatten een uitgebreid opgemaakte, tot op de pixel nauwkeurige uitvoer die is geoptimaliseerd voor afdrukken of het genereren van PDF's.
-author: maggiesMSFT
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
-ms.author: maggies
-ms.openlocfilehash: d86f52b45dfac4252dfd2e7de29de64c16a566ca
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: d248bbf8374b64c947fa872f6294ae0d1195ede9
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294084"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324733"
 ---
 # <a name="paginated-reports-in-power-bi-faq-preview"></a>Gepagineerde rapporten in Power BI: veelgestelde vragen (preview)
 

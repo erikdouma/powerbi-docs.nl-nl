@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2018
 ms.author: maghan
-ms.openlocfilehash: 0e57ce3b5acd638b9bab316108a8fd6f46b3b280
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 88d41750ef1cc32a17e1569b7104151e2f2407f1
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285778"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249086"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth gebruiken om verbinding te maken met Power BI Report Server en SSRS
 Lees meer over het configureren van uw omgeving voor de ondersteuning van OAuth-verificatie met de Power BI-app voor mobiel om verbinding te maken met Power BI Report Server en SQL Server Reporting Services 2016 of hoger.
@@ -58,7 +58,7 @@ Zie [Een Service Principal Name (SPN) voor een rapportserver registreren](https:
 ### <a name="enabling-negotiate-authentication"></a>Negotiate-verificatie inschakelen
 Het verificatietype van de rapportserver moet als RSWindowsNegotiate worden geconfigureerd om een rapportserver Kerberos-verificatie te laten gebruiken. Dit wordt gedaan binnen het bestand rsreportserver.config.
 
-```
+```xml
 <AuthenticationTypes>  
     <RSWindowsNegotiate />  
     <RSWindowsKerberos />  
@@ -161,7 +161,7 @@ Doe het volgende om beperkte delegatie te configureren.
 ### <a name="add-wap-application"></a>WAP-toepassing toevoegen
 U kunt toepassingen in de toegangsbeheerconsole voor rapporten publiceren, maar u kunt het beste de toepassing via PowerShell maken. Hier volgt de opdracht voor het toevoegen van de toepassing.
 
-```
+```powershell
 Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentication ADFS -ExternalUrl https://reports.contoso.com/reports/ -ExternalCertificateThumbprint "0ff79c75a725e6f67e3e2db55bdb103efc9acb12" -BackendServerUrl http://ContosoSSRS/reports/ -ADFSRelyingPartyName "Reporting Services - Web API" -BackendServerAuthenticationSPN "http/ContosoSSRS.contoso.com" -UseOAuthAuthentication
 ```
 
@@ -175,7 +175,7 @@ Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentic
 ### <a name="setting-integrated-authentication-for-the-wap-application"></a>Geïntegreerde verificatie voor de WAP-toepassing instellen
 Nadat u de WAP-toepassing hebt toegevoegd, moet u de BackendServerAuthenticationMode instellen om IntegratedWindowsAuthentication te gebruiken. U hebt de id van de WAP-toepassing nodig om dit in te stellen.
 
-```
+```powershell
 Get-WebApplicationProxyApplication “Contoso Reports” | fl
 ```
 
@@ -183,7 +183,7 @@ Get-WebApplicationProxyApplication “Contoso Reports” | fl
 
 Voer de volgende opdracht uit om de BackendServerAuthenticationMode in te stellen om de id van de WAP-toepassing te gebruiken.
 
-```
+```powershell
 Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -BackendServerAuthenticationMode IntegratedWindowsAuthentication
 ```
 

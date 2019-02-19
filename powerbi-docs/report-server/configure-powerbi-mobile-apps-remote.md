@@ -1,20 +1,20 @@
 ---
 title: Toegang via mobiele iOS-apps tot rapportservers op afstand configureren
 description: Leer hoe u de mobiele iOS-apps op afstand kunt configureren voor uw rapportserver.
-author: maggiesMSFT
+author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/15/2018
-ms.author: maggies
-ms.openlocfilehash: 6a815d3b8042a53bd7196902e59019d3a6b61220
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.author: maghan
+ms.openlocfilehash: c50f9c482ba689fe81ee22b2b52564dec3cbf1d6
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293575"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324364"
 ---
 # <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>Toegang via Power BI mobiele iOS-apps tot rapportservers op afstand configureren
 
@@ -35,10 +35,10 @@ In de volgende tabel staan de paren.
 
 |Sleutel  |Type  |Beschrijving  |
 |---------|---------|---------|
-| com.microsoft.powerbi.mobile.ServerURL | Tekenreeks | Rapportserver-URL </br> Moet beginnen met http/https |
-| com.microsoft.powerbi.mobile.ServerUsername | Tekenreeks | [optioneel] </br> De gebruikersnaam die u wilt gebruiken om verbinding te maken met de server. </br> Als deze niet bestaat, wordt de gebruiker gevraagd de gebruikersnaam voor de verbinding in te voeren.| 
-| com.microsoft.powerbi.mobile.ServerDisplayName | Tekenreeks | [optioneel] </br> De standaardwaarde is rapportserver </br> Een beschrijvende naam die in de app wordt gebruikt als naam voor de server | 
-| com.microsoft.powerbi.mobile.OverrideServerDetails | Boolean | De standaardwaarde is Waar </br>Als deze optie is ingesteld op Waar, worden hiermee alle eventuele definities van de rapportserver overschreven die al op het mobiele apparaat bestaan. Bestaande servers die al zijn geconfigureerd, worden verwijderd. </br> Wanneer overschrijven is ingesteld op Waar, voorkomt u hiermee ook dat gebruikers die configuratie kunnen verwijderen. </br> Wanneer de optie is ingesteld op Onwaar, worden de gepushte waarden toegevoegd en blijven bestaande instellingen bestaan. </br> Als dezelfde server-URL al is geconfigureerd in de mobiele app, blijft deze configuratie bestaan. De app vraagt niet of de gebruiker zich opnieuw verifieert voor dezelfde server. |
+| com.microsoft.powerbi.mobile.ServerURL | Tekenreeks | Rapportserver-URL <br> Moet beginnen met http/https |
+| com.microsoft.powerbi.mobile.ServerUsername | Tekenreeks | [optioneel] <br> De gebruikersnaam die u wilt gebruiken om verbinding te maken met de server. <br> Als deze niet bestaat, wordt de gebruiker gevraagd de gebruikersnaam voor de verbinding in te voeren.| 
+| com.microsoft.powerbi.mobile.ServerDisplayName | Tekenreeks | [optioneel] <br> De standaardwaarde is rapportserver <br> Een beschrijvende naam die in de app wordt gebruikt als naam voor de server | 
+| com.microsoft.powerbi.mobile.OverrideServerDetails | Boolean | De standaardwaarde is Waar <br>Als deze optie is ingesteld op Waar, worden hiermee alle eventuele definities van de rapportserver overschreven die al op het mobiele apparaat bestaan. Bestaande servers die al zijn geconfigureerd, worden verwijderd. <br> Wanneer overschrijven is ingesteld op Waar, voorkomt u hiermee ook dat gebruikers die configuratie kunnen verwijderen. <br> Wanneer de optie is ingesteld op Onwaar, worden de gepushte waarden toegevoegd en blijven bestaande instellingen bestaan. <br> Als dezelfde server-URL al is geconfigureerd in de mobiele app, blijft deze configuratie bestaan. De app vraagt niet of de gebruiker zich opnieuw verifieert voor dezelfde server. |
 
 Hier ziet u een voorbeeld van het instellen van het configuratiebeleid met behulp van Intune.
 

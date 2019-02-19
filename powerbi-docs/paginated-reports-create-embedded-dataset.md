@@ -1,22 +1,23 @@
 ---
 title: Een ingesloten gegevensset maken voor een gepagineerd Power BI-rapport (preview)
 description: In dit artikel leert u hoe u op basis van een ingesloten gegevensbron een ingesloten gegevensset maakt voor een gepagineerd rapport in de Power BI-service.
-author: maggiesMSFT
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/5/2018
-ms.author: maggies
-ms.openlocfilehash: 1689d7382c0f3bf7406a4a44ffeab53e6bc59197
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c625f394fd35c0b1c6b7ccf0fc617f5653533ea1
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281063"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324548"
 ---
 # <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service-preview"></a>Een ingesloten gegevensset maken voor een gepagineerd rapport in de Power BI-service (preview)
+
 In dit artikel leert u hoe u op basis van een ingesloten gegevensbron een ingesloten gegevensset maakt voor een gepagineerd rapport in de Power BI-service. Ingesloten gegevenssets bevinden zich in één gepagineerd rapport, voor gebruik in dat rapport. Momenteel zijn voor rapporten die in de Power BI-service zijn gepubliceerd, ingesloten gegevenssets en ingesloten gegevensbronnen nodig. De ingesloten gegevensbron en gegevensset worden tijdens het maken van uw rapport in Report Builder gemaakt. 
 
 Voordat u de gegevensset kunt maken, moet u een gegevensbron maken. Zie [Embedded data sources for paginated reports](paginated-reports-embedded-data-source.md) (Ingesloten gegevensbronnen voor gepagineerde rapporten) in de Power BI-service om te lezen hoe u dat doet.

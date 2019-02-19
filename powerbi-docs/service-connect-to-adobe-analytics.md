@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8ea62f894b01143997850f3c15f2a069b93d7c26
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: bcd92dc0288fc347c5f5931d40b94cf769f5293f
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008690"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249017"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>Verbinding maken met Adobe Analytics via Power BI
 Wanneer u verbinding wilt maken met Adobe Analytics via Power BI, kunt u beginnen door eerst verbinding te maken met uw Adobe Analytics Marketing Cloud-account. U krijgt een app met een Power BI-dashboard en een set Power BI-rapporten die inzicht geven in het verkeer van uw site en de gebruikersgegevens. De gegevens worden eenmaal per dag automatisch vernieuwd. U kunt met het dashboard en de rapporten werken, maar u kunt wijzigingen niet opslaan.
@@ -53,19 +53,19 @@ Power BI maakt gebruik van de Adobe Analytics Report-API om rapporten te defini�
 
 | **Tabelnaam** | **Kolomgegevens** |
 | --- | --- |
-| Producten |elementen = "product" (top 25) </br> metrische gegevens="cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units" |
-| Browsers |elementen = "browser" (top 25)</br>  metrische gegevens ="bounces", "bouncerate", "visitors", "visits", "uniquevisitors", "totaltimespent", "pageviews" |
-| Pagina's |elementen= "page" (top 25)</br>  metrische gegevens ="cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units", "visits", "uniquevisitors", "pageviews", "bounces", "bouncerate", "totaltimespent" |
+| Producten |elementen = "product" (top 25) <br> metrische gegevens="cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units" |
+| Browsers |elementen = "browser" (top 25)<br>  metrische gegevens ="bounces", "bouncerate", "visitors", "visits", "uniquevisitors", "totaltimespent", "pageviews" |
+| Pagina's |elementen= "page" (top 25)<br>  metrische gegevens ="cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units", "visits", "uniquevisitors", "pageviews", "bounces", "bouncerate", "totaltimespent" |
 | JavaScript is ingeschakeld |elementen =  "javascriptenabled”, “browser” (top 25) |
-| Mobiel besturingssysteem |elementen = "mobileos"(top 25)</br> metrische gegevens ="bounces", "bouncerate", "visitors", "visits", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "checkouts", "revenue", "units", "pageviews" |
-| Trefwoorden zoekmachines |elementen = "searchengine" "searchenginekeyword"</br>  metrische gegevens="bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units", "pageviews" |
-| Zoekmachine op producten |elementen = "searchengine", "product"</br>  metrische gegevens="bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units", "pageviews" |
-| Verwijzende pagina 's |elementen = "referrer" (top 15), “page" (top 10)</br>  metrische gegevens="bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units", "pageviews" |
-| Geocountry-pagina 's |elementen = "geocountry" (Top 20), "page"</br>  metrische gegevens="bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units", "pageviews" |
-| Geocountry-product |elementen = "geocountry" (Top 20), "product"</br> metrische gegevens ="bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units" |
-| Zoekfunctie land en regio |elementen = "geocountry" (Top 200)</br>  metrische gegevens ="bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units" |
-| Taal |elementen = "language", "browser" (Top 25)</br>  metrische gegevens ="bounces", "bouncerate", "visitors", "visits", "uniquevisitors", "totaltimespent", "pageviews", "cartadditions", "cartremovals", "checkouts", "carts", "cartviews" |
-| Zoekfunctie zoekmachines |elementen = "searchengine" (top 100)</br>  metrische gegevens ="bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units" |
+| Mobiel besturingssysteem |elementen = "mobileos"(top 25)<br> metrische gegevens ="bounces", "bouncerate", "visitors", "visits", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "checkouts", "revenue", "units", "pageviews" |
+| Trefwoorden zoekmachines |elementen = "searchengine" "searchenginekeyword"<br>  metrische gegevens="bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units", "pageviews" |
+| Zoekmachine op producten |elementen = "searchengine", "product"<br>  metrische gegevens="bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units", "pageviews" |
+| Verwijzende pagina 's |elementen = "referrer" (top 15), “page" (top 10)<br>  metrische gegevens="bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units", "pageviews" |
+| Geocountry-pagina 's |elementen = "geocountry" (Top 20), "page"<br>  metrische gegevens="bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units", "pageviews" |
+| Geocountry-product |elementen = "geocountry" (Top 20), "product"<br> metrische gegevens ="bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units" |
+| Zoekfunctie land en regio |elementen = "geocountry" (Top 200)<br>  metrische gegevens ="bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units" |
+| Taal |elementen = "language", "browser" (Top 25)<br>  metrische gegevens ="bounces", "bouncerate", "visitors", "visits", "uniquevisitors", "totaltimespent", "pageviews", "cartadditions", "cartremovals", "checkouts", "carts", "cartviews" |
+| Zoekfunctie zoekmachines |elementen = "searchengine" (top 100)<br>  metrische gegevens ="bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units" |
 | Zoekfunctie browser |elementen = "browser" (top 25) |
 
 ## <a name="system-requirements"></a>Systeemvereisten

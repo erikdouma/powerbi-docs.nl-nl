@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
 ms.custom: seodec18
-ms.openlocfilehash: 39a62950260789b50be034c2f55808e6991764db
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 07441bd0446e37353984efe97e435ac83d2c355d
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294046"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249063"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>Power BI-URL's voor opname in de whitelist
 
@@ -69,10 +69,10 @@ Als u gegevens wilt ophalen uit specifieke gegevensbronnen, zoals OneDrive, moet
 
 | Rij | Functie | Bestemming(en) | Poort(en) |
 | --- | --- | --- | --- |
-| 1 | **Vereist:** AppSource (interne of externe apps in Power BI) | appsource.microsoft.com </br> *.s-microsoft.com  | TCP 443 |
+| 1 | **Vereist:** AppSource (interne of externe apps in Power BI) | appsource.microsoft.com <br> *.s-microsoft.com  | TCP 443 |
 | 2 | **Optioneel:** Aanmelden en gegevens voor inhoudspakketten ophalen | Afhankelijk van de gebruikte inhoudspakketten | Afhankelijk van de gebruikte inhoudspakketten |
 | 3 | **Optioneel:** Bestanden importeren uit OneDrive - Persoonlijk | Zie de [Vereiste URL's en poorten voor OneDrive-site](https://docs.microsoft.com/onedrive/required-urls-and-ports) | N.v.t. |
-| 4 | **Optioneel:** Power BI in zelfstudievideo van 60 seconden | *.doubleclick.net </br> *.ggpht.com </br> *.google.com </br> *.googlevideo.com </br> *.youtube.com </br> *.ytimg.com </br> fonts.gstatic.com | TCP 443 |
+| 4 | **Optioneel:** Power BI in zelfstudievideo van 60 seconden | *.doubleclick.net <br> *.ggpht.com <br> *.google.com <br> *.googlevideo.com <br> *.youtube.com <br> *.ytimg.com <br> fonts.gstatic.com | TCP 443 |
 | 5 | **Optioneel:** Bronnen voor PubNub-streaminggegevens | Zie de [PubNub-documentatie](https://support.pubnub.com/support/solutions/articles/14000043522) | N.v.t. |
 | | | |
 
@@ -91,8 +91,8 @@ Power BI is afhankelijk van bepaalde eindpunten om de aangepaste visuals te kunn
 
 | Rij | Functie | Bestemming(en) | Poort(en) |
 | --- | --- | --- | --- |
-| 1 | **Vereist:** Een aangepaste visual importeren uit de Microsoft Azure Marketplace-interface of uit een bestand | *.azureedge.net </br> *.blob.core.windows.net </br> store.office.com | TCP 443 |
-| 2 | **Optioneel:** Bing Kaarten | bing.com </br> platform.bing.com </br> *.virtualearth.net | TCP 443 |
+| 1 | **Vereist:** Een aangepaste visual importeren uit de Microsoft Azure Marketplace-interface of uit een bestand | *.azureedge.net <br> *.blob.core.windows.net <br> store.office.com | TCP 443 |
+| 2 | **Optioneel:** Bing Kaarten | bing.com <br> platform.bing.com <br> *.virtualearth.net | TCP 443 |
 | 3 | **Optioneel:** PowerApps | Zie het [gedeelte Vereiste services](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services) van de site met systeemvereisten voor PowerApps | N.v.t. |
 | 4 | **Optioneel:** Visio | Zie de Office 365-documentatie voor [Office Online en algemene URL's](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online), evenals [SharePoint Online en OneDrive voor Bedrijven](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) | N.v.t. |
 | | | |
@@ -103,12 +103,12 @@ Power BI-koppelingen naar andere gerelateerde sites. Deze sites betreffen sites 
 
 | Rij | Functie | Bestemming(en) | Poort(en) |
 | --- | --- | --- | --- |
-| 1 | **Optioneel:** Communitysite | community.powerbi.com </br> oxcrx34285.i.lithium.com | TCP 443 |
-| 2 | **Optioneel:** Documentatiesite | docs.microsoft.com </br> img-prod-cms-rt-microsoft-com.akamaized.net </br> statics-uhf-eas.akamaized.net </br> cdnssl.clicktale.net </br> ing-district.clicktale.net | TCP 443 |
+| 1 | **Optioneel:** Communitysite | community.powerbi.com <br> oxcrx34285.i.lithium.com | TCP 443 |
+| 2 | **Optioneel:** Documentatiesite | docs.microsoft.com <br> img-prod-cms-rt-microsoft-com.akamaized.net <br> statics-uhf-eas.akamaized.net <br> cdnssl.clicktale.net <br> ing-district.clicktale.net | TCP 443 |
 | 3 | **Optioneel:** Downloadsite (voor Power BI Desktop, enzovoort) | download.microsoft.com | TCP 443 |
-| 4 | **Optioneel:** Externe omleidingen | aka.ms </br> go.microsoft.com | TCP 443 |
-| 5 | **Optioneel:** Site met ideeënfeedback| ideas.powerbi.com </br> powerbi.uservoice.com | TCP 443 |
+| 4 | **Optioneel:** Externe omleidingen | aka.ms <br> go.microsoft.com | TCP 443 |
+| 5 | **Optioneel:** Site met ideeënfeedback| ideas.powerbi.com <br> powerbi.uservoice.com | TCP 443 |
 | 6 | **Optioneel:** Power BI-site - landingspagina, koppelingen voor meer informatie, ondersteuningssite, downloadkoppelingen, partnershowcase, enzovoort. | powerbi.microsoft.com | TCP 443 |
 | 7 | **Optioneel:** Power BI-ontwikkelaarscentrum | dev.powerbi.com | TCP 443 |
-| 8 | **Optioneel:** Ondersteuningssite | support.powerbi.com </br> s3.amazonaws.com </br> *.olark.com </br> logx.optimizely.com </br> mscom.demdex.net </br> tags.tiqcdn.com | TCP 443 |
+| 8 | **Optioneel:** Ondersteuningssite | support.powerbi.com <br> s3.amazonaws.com <br> *.olark.com <br> logx.optimizely.com <br> mscom.demdex.net <br> tags.tiqcdn.com | TCP 443 |
 | | | |
