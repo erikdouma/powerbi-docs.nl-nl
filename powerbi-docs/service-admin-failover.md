@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/30/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 7446cb9db0f4ebbb20e316365263fa6f09de71bb
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: a5f3f5003eb1d22b0667698691471150f04553d8
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55448216"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426557"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Hoge beschikbaarheid, failover in Power BI en veelgestelde vragen over herstel na noodgevallen
 
@@ -29,7 +29,7 @@ Power BI is volledig beheerde Software as a Service (SaaS).  Het ontwerp en de w
 
 Power BI houdt meerdere exemplaren van elk onderdeel aan in Azure-datacenters (ook wel bekend als regio's) om bedrijfscontinuïteit te garanderen. Als er een storing of een probleem is die/dat ervoor zorgt dat Power BI niet toegankelijk of onbruikbaar wordt in een regio, wordt in Power BI een failover-overschakeling uitgevoerd van alle bijbehorende onderdelen in die regio naar een back-upexemplaar. De failover herstelt de beschikbaarheid en operabiliteit van het Power BI-service-exemplaar in een nieuwe regio (meestal binnen dezelfde geografische locatie, zoals is aangegeven in de [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)).
 
-Een Power BI-service-exemplaar waarvoor een failover-overschakeling is uitgevoerd, ondersteunt alleen _leesbewerkingen_, wat betekent dat de volgende bewerkingen niet worden ondersteund tijdens de failover: vernieuwingen, rapportpublicaties, wijzigingen aan dashboards of rapporten en andere bewerkingen waarvoor wijzigingen in Power BI-metagegevens nodig zijn (bijvoorbeeld een opmerking invoegen in een rapport).  Leesbewerkingen, zoals het weergeven van dashboards en het weergeven van rapporten (die zijn niet gebaseerd op DirectQuery/liveverbindingen met on-premises gegevensbronnen) blijven normaal werken.
+Een Power BI-service-exemplaar waarvoor een failover-overschakeling is uitgevoerd, ondersteunt alleen _leesbewerkingen_, wat betekent dat de volgende bewerkingen niet worden ondersteund tijdens de failover: vernieuwingen, rapportpublicaties, wijzigingen aan dashboards of rapporten en andere bewerkingen waarvoor wijzigingen in Power BI-metagegevens nodig zijn (bijvoorbeeld een opmerking invoegen in een rapport).  Leesbewerkingen, zoals het weergeven van dashboards en van rapporten (die niet zijn gebaseerd op DirectQuery of een liveverbinding met on-premises gegevensbronnen gebruiken), blijven correct werken.
 
 ## <a name="how-are-backup-instances-kept-in-sync-with-my-data"></a>Hoe blijven back-upexemplaren gesynchroniseerd met mijn gegevens?
 

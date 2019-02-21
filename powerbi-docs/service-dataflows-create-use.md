@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 02/19/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: bb550bb2a009c5f227541db41a9bc45fc708d1e1
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b2b928ea308f546c7cf023c6ef187aa7c516987c
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279039"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426626"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi-preview"></a>Gegevensstromen maken en gebruiken in Power BI (Preview)
 
@@ -155,6 +155,10 @@ Er kunnen zich situaties voordoen waarin er problemen optreden wanneer u verbind
 * **SalesForce-connector**: als u een proefaccount van Salesforce gebruikt met gegevensstromen treedt er een verbindingsfout op, zonder dat er informatie over de oorzaak wordt vermeld. U kunt dit probleem oplossen door een productie-account van Salesforce te gebruiken voor testdoeleinden.
 
 * **SharePoint-connector**: zorg ervoor dat u het adres van de hoofdmap van de SharePoint-site opgeeft, dus zonder submappen of documenten. Gebruik bijvoorbeeld een koppeling zoals deze: https://microsoft.sharepoint.com/teams/ObjectModel/ 
+
+* **JSON-bestandsconnector**: Momenteel kunt u alleen basisverificatie gebruiken om verbinding te maken met een JSON-bestand.  Verbinding maken met een JSON-bestand met behulp van referenties in de URL (bijvoorbeeld https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg... ) wordt op dit moment **niet** ondersteund.  
+
+* **Azure SQL Data Warehouse**: Gegevensstromen bieden momenteel geen ondersteuning voor Azure Active Directory-verificatie (AAD) voor Azure SQL Data Warehouse. Gebruik voor dit scenario basisverificatie.
 
 ## <a name="next-steps"></a>Volgende stappen
 

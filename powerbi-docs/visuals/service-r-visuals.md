@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/07/2018
+ms.date: 02/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 48e1ddbc498e234c43bf755d3a23a2e10e4cc856
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1e997f5ac7e916f10c98756f142b9f563adea05a
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290202"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426603"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>R-visuals maken in de Power BI-service
 De Power BI-service ondersteunt de weergave van en de interactie met visuele elementen die zijn gemaakt met R-scripts. Visuele elementen die zijn gemaakt met R-scripts, vaak *R-visuals* genoemd, kunnen geavanceerde vormgeving en analyses van gegevens bieden, zoals prognoses. Hiervoor wordt gebruikgemaakt van de krachtige analysemogelijkheden en visualisatievoorzieningen van R.
@@ -33,7 +33,7 @@ R-visuals worden gemaakt in een [Power BI Desktop-rapport](../desktop-get-the-de
 
 ![](media/service-r-visuals/r-visuals-service_2a.png)
 
-Wanneer het rapport is gemaakt in **Power BI Desktop**, kunt u het rapport met daarin een of meer R-visuals publiceren naar de Power BI-service. R-visuals kunnen op dit moment alleen worden gemaakt in **Power BI Desktop**, en vervolgens naar de Power BI-service worden gepubliceerd. Zie [Create Power BI visuals using R (Power BI Desktop)](../desktop-r-visuals.md) (Power BI-visuals maken met R (Power BI Desktop)) voor meer informatie over het maken van R-visuals.
+Wanneer het rapport is gemaakt in **Power BI Desktop**, kunt u het rapport met daarin een of meer R-visuals publiceren naar de Power BI-service. R-visuals kunnen op dit moment alleen worden gemaakt in **Power BI Desktop** en vervolgens naar de Power BI-service worden gepubliceerd. Zie [Create Power BI visuals using R (Power BI Desktop)](../desktop-r-visuals.md) (Power BI-visuals maken met R (Power BI Desktop)) voor meer informatie over het maken van R-visuals.
 
 Houd er rekening mee dat in de service niet alle R-pakketten worden ondersteund. Aan het einde van dit artikel vindt u een lijst met pakketten die momenteel worden ondersteund in de Power BI-service.
 
@@ -66,11 +66,19 @@ Om nog een voorbeeld te geven, ziet u in de volgende afbeelding het foutbericht 
 ## <a name="licensing"></a>Licentieverlening
 R-visuals vereisen een [Power BI Pro](../service-self-service-signup-for-power-bi.md)-licentie om te worden weergegeven in rapporten, en bewerkingen voor vernieuwen, filteren en kruislings filteren. Zie [Power BI Premium - wat is het?](../service-premium.md) voor meer informatie over Power BI Pro-licenties en hoe deze verschillen van gratis licenties.
 
-Gebruikers van de gratis versie van Power BI kunnen alleen tegels zien die met hen zijn gedeeld. Zie [Purchasing Power BI Pro](../service-admin-purchasing-power-bi-pro.md) (Power BI Pro kopen) voor meer informatie.
+Gebruikers van de gratis versie van Power BI kunnen alleen tegels zien die met hen zijn gedeeld in Premium-werkruimten. Zie [Purchasing Power BI Pro](../service-admin-purchasing-power-bi-pro.md) (Power BI Pro kopen) voor meer informatie.
 
 In de volgende tabel worden de mogelijkheden van R-visuals beschreven op basis van licentieverlening.
 
-![](media/service-r-visuals/r-visuals-service_6a.png)
+
+|  |R-visuals maken in Power BI Desktop  | PBI-servicerapporten maken met R-visuals |R-visuals weergeven in rapporten  | R-tegels weergeven in dashboards |
+|---------|---------|---------|---------|--------|
+|**Gast** (Power BI Embedded)     |  Niet relevant|  Niet relevant       | Niet ondersteund  | Niet relevant |
+|**Niet-beheerde tenant** (domein niet geverifieerd) | Ondersteund | Niet ondersteund |  Niet ondersteund |Ondersteund (B2B-scenario) |
+|**Beheerde tenant** met gratis licentie    |  Ondersteund       |  Niet ondersteund       |    Alleen ondersteund in Premium-capaciteit    | Ondersteund |
+**Beheerde tenant** met Pro-licentie     |   Ondersteund      | Ondersteund      | Ondersteund    |Ondersteund|
+
+
 
 ## <a name="known-limitations"></a>Bekende beperkingen
 R-visuals in de Power BI-service hebben enkele beperkingen:

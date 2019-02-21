@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/24/2019
+ms.date: 02/12/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 35d5a6f9911afea7b91b37299225c191cd4d7ac9
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 0118c9b7bb1d00daf1b6baeb7638916b49d8af49
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794854"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426764"
 ---
 # <a name="visualization-types-in-power-bi"></a>Typen visualisaties in Power BI
 U vindt visualisaties in rapporten, dashboards, apps, en Q&A. Sommige van deze visualisatietypen zijn verpakt met Power BI en sommige zijn *aangepaste visualisaties*. Aangepaste visualisaties worden gemaakt buiten Power BI en op een manier die het voor *rapportontwerpers* mogelijk maakt om deze aan Power BI-rapporten, dashboards en apps toe te voegen. 
@@ -98,10 +98,12 @@ Radiale meters zijn een uitstekende keuze om:
 - de status van één meting weer te geven
 - informatie weer te geven die snel kan worden gelezen en begrepen
 
-<!-- ### Key influencers chart
-![key influencer](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencers2.png)
+ ### <a name="key-influencers-chart"></a>Grafiek met belangrijkste beïnvloeders
+![belangrijkste beïnvloeder](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencer.png)
 
-A key influencer chart displays the major contributors to a selected result or value.  -->
+Een grafiek met belangrijkste beïnvloeders toont de grote bijdragers aan een geselecteerd resultaat of geselecteerde waarde.
+
+Belangrijkste beïnvloeders zijn een goede keuze om inzicht te krijgen in de factoren die van invloed zijn op een belangrijke metrische waarde. Bijvoorbeeld *wat zijn de invloeden waardoor klanten een tweede order hebben geplaatst*of*waarom was afgelopen juni de verkoop zo hoog*. 
 
 ### <a name="kpis"></a>KPI's
 ![kpi](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)

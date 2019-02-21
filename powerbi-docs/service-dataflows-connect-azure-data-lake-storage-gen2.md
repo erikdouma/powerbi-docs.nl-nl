@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8cc1201c506e98ae33b68ef0cf802dae20b6f493
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: dc22c075c479510810b4a914fd999e38118e12e5
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216511"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426718"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Verbinding maken met Azure Data Lake Storage Gen2 voor gegevensstroomopslag (preview)
 
@@ -70,6 +70,8 @@ Volg de stappen in het artikel [Een rol toewijzen aan een beveiligingsprincipal]
 Selecteer in het venster **Roltoewijzing toevoegen** de rol **Lezer** om aan de Power BI-service toe te wijzen. Gebruik vervolgens de zoekfunctie om de **Power BI-service** te zoeken. Op de volgende afbeelding ziet u dat de rol **Lezer** is toegewezen aan de Power BI-service.
 
 ![Power BI-service is toegewezen aan de rol Lezer](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05.jpg)
+
+Opmerking: Hanteer voor de doorgifte van machtigingen vanuit Azure Portal naar Power BI een marge van minimaal dertig minuten. Nadat u in Azure Portal een machtiging hebt gewijzigd, moet u ten minste dertig minuten wachten voordat de wijziging van kracht wordt in Power BI en u het opnieuw kunt proberen. 
 
 
 ### <a name="create-a-file-system-for-power-bi"></a>Een bestandssysteem maken voor Power BI
