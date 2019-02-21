@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: b48feeaacc5ec0beff3b9b250f22b1aa605de9f7
-ms.sourcegitcommit: 6c75e38660b1ab4c1af355c85709859ffde09e25
+ms.openlocfilehash: f4e6f0204ed9832a3ed3c3ed8347a44300f606df
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55068046"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249385"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Apps installeren en gebruiken met dashboards en rapporten in Power BI
 Nu u een [basiskennis van apps](end-user-apps.md) hebt, laten we u zien hoe u apps kunt openen en ermee kunt communiceren. 
@@ -25,7 +25,7 @@ Vergeet niet dat er verschillende manieren zijn om een ​​nieuwe app te krijg
 
 In Power BI op uw mobiele apparaat kunt u een app alleen installeren via een rechtstreekse koppeling, niet vanuit AppSource. Als de auteur van de app de app automatisch installeert, ziet u deze in uw lijst met apps.
 
-### <a name="install-an-app-from-a-direct-link"></a>Een app vanuit een directe koppeling installeren
+## <a name="install-an-app-from-a-direct-link"></a>Een app vanuit een directe koppeling installeren
 De eenvoudigste manier om zelf een nieuwe app te installeren is door een directe koppeling in een e-mail te krijgen van de auteur van de app.  
 
 **Op uw computer** 
@@ -40,7 +40,7 @@ Wanneer u de koppeling in de e-mail selecteert op uw mobiele apparaat, wordt de 
 
 ![App-inhoudslijst op mobiele apparaten](./media/end-user-app-view/power-bi-app-index-it-spend-360.png)
 
-### <a name="get-the-app-from-microsoft-appsource"></a>De app uit Microsoft AppSource downloaden
+## <a name="get-the-app-from-microsoft-appsource"></a>De app uit Microsoft AppSource downloaden
 U kunt ook apps zoeken en installeren vanuit Microsoft AppSource. Alleen apps waartoe u toegang hebt (de app-auteur heeft u of iedereen toestemming gegeven) worden weergegeven.
 
 1. Selecteer in het linkernavigatievenster de optie **Apps** ![](./media/end-user-apps/power-bi-apps-bar.png) > **Apps verkrijgen**. 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 02/14/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f1ddcee1e39f8704eda7cc94cffb27c1a8b6b75f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c45900d98dfa25dd991ae0cee1f165a41964c51e
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290332"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324763"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>De SAP BW Connector in Power BI Desktop gebruiken
 Met Power BI Desktop hebt u toegang tot gegevens van **SAP Business Warehouse (BW)**.
@@ -218,6 +218,29 @@ Dit gedeelte bevat situaties waarin zich problemen voordoen (en oplossingen hier
    * BAPI_IOBJ_GETDETAIL
 
    Om dit probleem op te lossen, moet u eerst verifiëren dat de gebruiker toegang heeft tot de verschillende *MDPROVIDER*-modules en tot *BAPI_IOBJ_GETDETAIL*. Voor verdere probleemoplossing voor dit probleem of vergelijkbare problemen, selecteert u *Tracering inschakelen* in het venster *Diagnostische gegevens* in de *Opties* van Power BI Desktop. Probeer gegevens van SAP BW op te halen terwijl de tracering actief is en bekijk het traceringsbestand voor meer informatie.
+
+## <a name="sap-bw-connection-support"></a>Ondersteuning voor SAP BW-verbindingen
+
+In de volgende tabel wordt de huidige ondersteuning voor SAP BW beschreven.
+
+
+
+|Product  |Modus  |Verificatie  |Connector  |SNC-bibliotheek  |Ondersteund  |
+|---------|---------|---------|---------|---------|---------|
+|Power BI Desktop     |Elke         | Gebruiker / wachtwoord  | Toepassingsserver | N.v.t.  | Ja  |
+|Power BI Desktop     |Elke         | Windows          | Toepassingsserver | sapcrypto + gsskrb5/gx64krb5  | Ja  |
+|Power BI Desktop     |Elke         | Windows via imitatie | Toepassingsserver | sapcrypto + gsskrb5/gx64krb5  | Ja  |
+|Power BI Desktop     |Elke         | Gebruiker / wachtwoord        | Berichtenserver | N.v.t.  | Ja  |
+|Power BI Desktop     |Elke         | Windows        | Berichtenserver | sapcrypto + gsskrb5/gx64krb5  | Ja  |
+|Power BI Desktop     |Elke         | Windows via imitatie | Berichtenserver | sapcrypto + gsskrb5/gx64krb5  | Ja  |
+|Power BI Gateway     |Importeren      | Hetzelfde als Power BI Desktop |         |   |   |
+|Power BI Gateway     |DirectQuery | Gebruiker / wachtwoord        | Toepassingsserver | N.v.t.  | Ja  |
+|Power BI Gateway     |DirectQuery | Windows via imitatie (vaste gebruiker, geen eenmalige aanmelding) | Toepassingsserver | sapcrypto + gsskrb5/gx64krb5  | Ja  |
+|Power BI Gateway     |DirectQuery | Eenmalige aanmelding via Kerberos gebruiken voor de optie DirectQuery-query’s | Toepassingsserver | *uitsluitend met* gsskrb5/gx64krb5   | Ja  |
+|Power BI Gateway     |DirectQuery | Gebruiker / wachtwoord        | Berichtenserver | N.v.t.  | Ja  |
+|Power BI Gateway     |DirectQuery | Windows via imitatie (vaste gebruiker, geen eenmalige aanmelding) | Berichtenserver | sapcrypto + gsskrb5/gx64krb5  | Ja  |
+|Power BI Gateway     |DirectQuery | Eenmalige aanmelding via Kerberos gebruiken voor de optie DirectQuery-query’s | Berichtenserver | sapcrypto + gsskrb5/gx64krb5  | Nee  |
+
 
 
 ## <a name="next-steps"></a>Volgende stappen

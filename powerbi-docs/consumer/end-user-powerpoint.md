@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 02/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8dd9af8b44e74aafb97e3265b9ee1c32a05edc64
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9e1ed67302b3fc4d7bf990040259e9e4615794a5
+ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281546"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56298909"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Rapporten exporteren van Power BI naar PowerPoint
 Met Power BI kunt u uw rapport publiceren naar **Microsoft PowerPoint** en heel eenvoudig een presentatie op basis van uw Power BI-rapport maken. Wanneer u wilt **exporteren naar PowerPoint** gebeurt het volgende:
@@ -35,6 +35,10 @@ Selecteer in de Power BI-service een rapport om weer te geven op het canvas. U k
 Wanneer het rapport dat u wilt exporteren naar PowerPoint wordt weergegeven op het canvas, selecteert u **Bestand > Exporteren naar PowerPoint** in de menubalk in de Power BI-service.
 
 ![Sluit de linkernavigatiebalk met Mijn werkruimte, de vervolgkeuzelijst Bestand is geselecteerd](media/end-user-powerpoint/powerbi_to_powerpoint_1.png)
+   
+Er wordt een pop-upvenster weergegeven waar u de mogelijkheid hebt om de **huidige weergave** of **standaardweergave** te selecteren.  Met **Huidige weergave** exporteert u het rapport in de huidige staat, inclusief de actieve wijzigingen die u in de slicer- en filterwaarden hebt aangebracht.  De meeste gebruikers selecteren deze optie.  U kunt ook **Standaardweergave** selecteren, waarmee u het rapport in de oorspronkelijke staat exporteert (zoals de auteur dit heeft gedeeld), en waarin geen wijzigingen zijn weergegeven die u aan de oorspronkelijke staat hebt aangebracht.
+    
+Daarnaast is er een selectievakje dat u kunt in-/uitschakelen voor het wel of niet exporteren van de verborgen tabbladen van een rapport.  U hoeft enkel dit selectievakje in te schakelen als u alleen tabbladen van een rapport wilt exporteren die voor u in uw browser zichtbaar zijn.  Als u liever alle verborgen tabbladen mee wilt krijgen als onderdeel van de export, kunt u dit beter uitgeschakeld laten.  Als het selectievakje grijs wordt weergegeven, zijn er geen verborgen tabbladen in het rapport.  Nadat u uw selecties hebt gemaakt, klikt u op **Exporteren** om door te gaan.
 
 Hier ziet u een meldingsbanner in de rechterbovenhoek van het browservenster van de Power BI-service die aangeeft dat het rapport wordt geëxporteerd naar PowerPoint. Dit kan enkele minuten duren; u kunt tijdens het exporteren van het rapport in Power BI blijven werken.
 
@@ -74,7 +78,6 @@ Wat u verder doet met uw PowerPoint-presentatie, of met de afbeeldingen met hoge
 ## <a name="limitations"></a>Beperkingen
 Er zijn enkele overwegingen en beperkingen waar u rekening mee moet houden bij het werken met de functie **Exporteren naar PowerPoint**.
 
-* In-sessie interactiviteit, zoals markeren en filteren, inzoomen, enzovoort, wordt nog niet ondersteund bij het exporteren naar PowerPoint. In de geëxporteerde PowerPoint worden de oorspronkelijke visuele elementen weergegeven zoals ze zijn opgeslagen in het rapport. Als u filters en slicers hebt toegepast en deze wilt behouden in de export, slaat u het rapport op en voert u vervolgens de export uit.
 * **R-visualisaties** worden momenteel niet ondersteund. Dergelijke visuele elementen worden als een blanco afbeelding naar PowerPoint geëxporteerd met een foutmelding die aangeeft dat het visuele element niet wordt ondersteund.
 * **Aangepaste visuele elementen** die zijn **gecertificeerd** worden ondersteund. Voor meer informatie over gecertificeerde aangepaste visuele elementen, inclusief een certificatie verkrijgen voor een aangepast visueel element, zie [Een certificatie verkrijgen voor een aangepast visueel element](../power-bi-custom-visuals-certified.md). Aangepaste visuele elementen die niet gecertificeerd zijn, worden niet ondersteund. Dergelijke visuele elementen worden als een blanco afbeelding naar PowerPoint geëxporteerd met een foutmelding die aangeeft dat het visuele element niet wordt ondersteund.
 * Rapporten met meer dan 30 rapportpagina's kunnen momenteel niet worden geëxporteerd.

@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0a2c1cb446a0a975a574f5d3f2684ddf80f4f273
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9c88a09eccd887007df8d2539be861b964c31b5f
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274715"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324479"
 ---
 # <a name="what-are-power-bi-gateways"></a>Wat zijn Power BI-gateways?
 
@@ -53,7 +53,7 @@ De gateway die u installeert, wordt als een Windows-service, een **on-premises g
 Query's en gegevensstroom:
 
 1. Er wordt een query gemaakt door de cloudservice met de versleutelde referenties voor de on-premises gegevensbron. De query wordt vervolgens ter verwerking naar de gateway verzonden.
-2. De query wordt met Gateway-cloudservice geanalyseerd, waarna de aanvraag naar the Azure Service Bus wordt gepusht.
+2. De query wordt met Gateway-cloudservice geanalyseerd, waarna de aanvraag naar the Azure Service Bus wordt gepusht. Power BI beheert de Service Bus voor u, zodat er geen extra kosten of configuratiestappen vereist zijn.
 3. De on-premises gegevensgateway peilt Azure Service Bus om te kijken of er aanvragen klaarstaan.
 4. De gateway haalt de query op, ontsleutelt de referenties en maakt met behulp hiervan verbinding met de gegevensbronnen.
 5. De gateway stuurt de query voor uitvoering naar de gegevensbron.

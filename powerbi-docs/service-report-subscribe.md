@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a7c9c72dfbb75958be3119db61fa3aa03ac89171
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 09539bfd26685ffdd9866810b566699e5cdb4a41
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430942"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408110"
 ---
 # <a name="subscribe-yourself-and-others-to-a-report-or-dashboard-in-the-power-bi-service"></a>Uzelf en anderen abonneren op een rapport of dashboard in de Power BI-service
 
@@ -60,12 +60,10 @@ Het proces voor het abonneren op een dashboard of rapport is vergelijkbaar. U ku
 7. Selecteer **Opslaan en sluiten**. Degenen die zijn geabonneerd, ontvangen een e-mailbericht en een momentopname van het dashboard of de rapportpagina voor de frequentie en de tijd die u hebt geselecteerd. Alles bij elkaar kunt u maximaal 24 abonnementen per rapport of dashboard maken en kunt u zorgen voor unieke ontvangers, tijden en frequenties voor elk abonnement.  Alle abonnementen die zijn ingesteld op **Nadat gegevens zijn vernieuwd** voor uw dashboard of rapport verzenden nog steeds alleen een e-mailbericht na de eerste geplande vernieuwing.   
       
    > [!TIP]
-   > Wilt u het e-mailbericht meteen zien? Activeer een e-mail door een van de gegevenssets te vernieuwen die zijn gekoppeld aan het dashboard of de gegevensset die aan het rapport is gekoppeld. Als u geen bewerkingsmachtigingen hebt voor de gegevensset, moet u iemand met de juiste machtigingen vragen om deze voor u te vernieuwen. Als u ermee samenhangende gegevenssets wilt bekijken, selecteert u het pictogram **Gerelateerde items weergeven** ![Pictogram Gerelateerde items weergeven](media/service-report-subscribe/power-bi-view-related.png) om **Gerelateerde inhoud** te openen en selecteert u vervolgens het vernieuwingspictogram ![Vernieuwingspictogram](media/service-report-subscribe/power-bi-refresh.png). 
+   > Wilt u het e-mailbericht verzenden direct vanuit een abonnement of op aanvraag op elk gewenst moment? Selecteer **Nu uitvoeren** voor de abonnementen voor het dashboard of rapport dat u wilt verzenden. U ziet een melding dat er een e-mailbericht onderweg is naar iedereen voor dat specifieke abonnement.  U kunt dit zo vaak doen als u wilt. Het wordt niet meegeteld in uw limiet van 24 geplande abonnementsuitvoeringen per dag per rapport of dashboard. Let erop dat u hiermee NIET een vernieuwing van gegevens van de onderliggende gegevensset activeert. 
    > 
    > 
    
-   ![Verwante gegevenssets](media/service-report-subscribe/power-bi-view-related-screen.png)
-
 ## <a name="email-languages"></a>E-mailtalen
 
 De e-mail en momentopname gebruiken de taal die is ingesteld in de instellingen van Power BI (zie [Ondersteunde talen en landen/regio's voor Power BI](supported-languages-countries-regions.md)). Als er geen taal is ingesteld, gebruikt Power BI de taal van de lokale instellingen in uw huidige browser. Als u uw voorkeurstaal wilt bekijken of instellen, selecteert u het tandwielpictogram ![Tandwielpictogram](media/service-report-subscribe/power-bi-settings-icon.png) > **Instellingen > Algemeen > Taal**. 
@@ -84,6 +82,7 @@ Welke abonnementen worden weergegeven, is afhankelijk van de werkruimte die op d
 Een abonnement wordt beëindigd als de Pro-licentie is verlopen, de eigenaar het dashboard of rapport verwijdert of het gebruikersaccount wordt verwijderd dat is gebruikt om het abonnement te maken.
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
+* Dashboards met meer dan 25 vastgemaakte tegels of 4 vastgemaakte live-rapportpagina’s worden mogelijk niet volledig weergegeven in naar gebruikers verzonden e-mailberichten voor het abonnement.  Abonnementen op dashboards met meer dan dit aantal tegels worden niet geblokkeerd, maar deze worden beschouwd als niet-ondersteund als u problemen ondervindt en moeten dienovereenkomstig worden aangepast om voor ondersteuning in aanmerking te komen.
 * Als voor e-mailabonnementen in een dashboard beveiliging op rijniveau (RLS) is toegepast op een of meer tegels, worden deze tegels niet weergegeven.  Als de gegevensset RLS gebruikt voor e-mailabonnementen voor rapporten, kunt u geen abonnement maken.
 * Abonnementen op rapportpagina’s zijn gekoppeld aan de naam van de rapportpagina. Als u zich abonneert op een rapportpagina en daarna de naam ervan wijzigt, moet u uw abonnement opnieuw maken.
 * Uw organisatie kan bepaalde instellingen in Azure Active Directory configureren, waardoor de mogelijkheid wordt beperkt om e-mailabonnementen in Power BI te gebruiken.  Deze beperkingen omvatten, maar zijn niet beperkt tot, het gebruik van meervoudige verificatie of beperkingen voor IP-bereik bij het openen van resources.

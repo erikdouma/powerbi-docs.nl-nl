@@ -8,12 +8,12 @@ ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: bdb9e2dcf5e8e22aaaa3bf35035b746777a387b9
-ms.sourcegitcommit: 1574ecba7530e6e0ee97235251a3138fb0e4789b
+ms.openlocfilehash: 93181a7ecaad0ec5bcd837f55ad7863fae53772c
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40126477"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249132"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Logboekregistratie van diagnostische gegevens voor Power BI Embedded in Azure
 
@@ -114,8 +114,8 @@ Als de categorie Engine is geselecteerd, worden in de resource de volgende gebeu
 |    Controle van afmeldingen    |    Registreert alle verbroken Engine-verbindingen sinds het begin van de tracering.    |
 |    Fout    |    Registreert alle Engine-fouten sinds het begin van de tracering.    |
 
-</br>
-</br>
+<br>
+<br>
 
 | Naam van de eigenschap | Voorbeeld van Einde van Vertipaq-query | Beschrijving van de eigenschap |
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
@@ -132,7 +132,7 @@ Als de categorie Engine is geselecteerd, worden in de resource de volgende gebeu
 | ObjectReference | <Object><Table>SalesLT Customer</Table><Model>Model</Model><Database>5eaa550e-06ac-4adf-aba9-dbf0e8fd1527</Database></Object> | Objectverwijzing. Voor alle bovenliggende items als XML gecodeerd, met labels om het object te beschrijven. |
 | EndTime | 2018-04-06T18:30:11.9137358Z | Tijd waarop de gebeurtenis is beëindigd. |
 | Duur | 0 | De tijdsduur (in milliseconden) van de gebeurtenis. |
-| SessionType | User | Sessietype (de entiteit die de bewerking heeft veroorzaakt). |
+| SessionType | Gebruiker | Sessietype (de entiteit die de bewerking heeft veroorzaakt). |
 | ProgressTotal | 0 | Totaal van voortgang. |
 | IntegerData | 0 | Gegevens in gehele getallen. |
 | Ernst | 0 | Ernstniveau van een uitzondering. |

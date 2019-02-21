@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/26/2018
-ms.openlocfilehash: 280f60d0ae60a445d94a640af974a2624c73bb83
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 097095cda1e0ffea4f43059351f22638c502e8b4
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55429999"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408064"
 ---
 # <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Richtlijnen voor Power BI-visuals met extra aankopen
 
@@ -22,6 +22,10 @@ Tot voor kort accepteerde de **Marketplace (AppSource)** alleen Power BI-visuals
 
 > [!Note]
 > Visuals kunnen alleen worden gecertificeerd als deze geen toegang hebben tot externe services of resources.
+
+> [!Note]
+> Alle gratis visuals zouden dezelfde eerder aangeboden gratis functies moeten behouden. U kunt naast de oude gratis functies geavanceerde betaalde functies als optie toevoegen. U wordt aangeraden om de IAP-visuals met de geavanceerde functies als nieuwe visuals in te dienen en niet de oude gratis exemplaren bij te werken.
+
 
 ## <a name="whats-changing-in-the-submission-process"></a>Hoe verandert het indieningsproces?
 

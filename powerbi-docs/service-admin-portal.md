@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/30/2018
+ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f7e28ce1f72a58fe2bb52103b79fa0106a0024ca
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
+ms.openlocfilehash: 868c1226b70bd12762c20c3af5b0ee1ff59857e5
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086466"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408179"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
@@ -172,11 +172,11 @@ De volgende afbeelding toont de optie voor het exporteren van gegevens uit een t
 > [!NOTE]
 > Als u **Gegevens exporteren** uitschakelt, hebben gebruikers ook geen toegang tot de functie **Analyseren in Excel** en kunnen ze ook de live-verbinding met de Power BI-service niet gebruiken.
 
-### <a name="export-reports-as-powerpoint-presentations"></a>Hiermee worden rapporten geëxporteerd als PowerPoint-presentaties
+### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>Rapporten als PowerPoint-presentaties of PDF-documenten exporteren
 
-Gebruikers in de organisatie kunnen Power BI-rapporten exporteren als PowerPoint-bestanden. [Meer informatie](consumer/end-user-powerpoint.md)
+Gebruikers binnen de organisatie kunnen Power BI-rapporten als PowerPoint-bestanden of PDF-documenten exporteren. [Meer informatie](consumer/end-user-powerpoint.md)
 
-De volgende afbeelding toont het menu **Bestand** voor een rapport wanneer de instelling **Rapporten exporteren als PowerPoint-presentaties** is ingeschakeld.
+De volgende afbeelding toont het menu **Bestand** voor een rapport wanneer de instelling **Rapporten exporteren als PowerPoint-presentaties of PDF-documenten** is ingeschakeld.
 
 ![Hiermee worden rapporten geëxporteerd als PowerPoint-presentaties](media/service-admin-portal/powerbi-admin-powerpoint.png)
 
@@ -202,9 +202,9 @@ De volgende afbeelding toont de optie **Mijn hele organisatie** bij het maken va
 
 ![Inhoudspakket publiceren naar organisatie](media/service-admin-portal/powerbi-admin-publish-entire-org.png)
 
-### <a name="create-template-organizational-content-packs-and-apps"></a>Sjabloneninhoudspakketten en apps voor organisaties maken
+### <a name="create-template-apps"></a>Sjabloon-apps maken
 
-Gebruikers in de organisatie kunnen sjablooninhoudspakketten maken die gegevenssets gebruiken die gemaakt in Power BI Desktop. [Meer informatie](template-content-pack-authoring.md)
+Gebruikers in de organisatie kunnen sjabloon-apps maken die gegevenssets gebruiken die gemaakt in Power BI Desktop. Meer informatie over [sjabloon-apps](template-content-pack-authoring.md)
 
 ### <a name="push-apps-to-end-users"></a>Apps pushen naar eindgebruikers
 
@@ -301,6 +301,18 @@ Gebruikers in de organisatie kunnen gegevensstromen maken en gebruiken. Zie [Sel
 
 > [!NOTE]
 > Deze instelling geldt voor de hele organisatie en kan niet worden beperkt tot specifieke groepen.
+
+## <a name="template-apps-settings-preview"></a>Instellingen voor sjabloon-apps (preview-versie)
+
+Twee instellingen beheren de sjabloon-apps. 
+
+![Instellingen voor sjabloon-apps in de Power BI-beheerportal](media/service-admin-portal/power-bi-admin-portal-template-apps.png)
+
+Via de eerste instelling **Sjabloon-apps maken** kunt u regelen wie binnen uw organisatie sjabloon-apps kunnen maken. Makers van sjabloon-apps kunnen deze vervolgens distribueren aan clients buiten uw organisatie via AppSource of een andere distributiemethode.
+
+![Instelling voor Sjabloon-apps maken in de Power BI-beheerportal](media/service-admin-portal/power-bi-admin-portal-template-app-settings.png)
+
+Met de tweede instelling, **Sjabloon-apps installeren** bepaalt u wie binnen uw organisatie sjabloon-apps uit AppSource of een andere bron kunnen downloaden en installeren
 
 ## <a name="capacity-settings"></a>Capaciteitsinstellingen
 

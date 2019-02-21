@@ -7,21 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2019
+ms.date: 02/14/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 13ab7ccf690c834168da8f9c6dcb0932178651ca
-ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
+ms.openlocfilehash: b130ccbe6b3fe6fa09b9a4c4efe388f79350c500
+ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55482701"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56298817"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>De nieuwe filterervaring in Power BI-rapporten (preview)
 
 In dit artikel wordt de nieuwe filterfunctionaliteit beschreven: Filters in Power BI krijgen nieuwe functionaliteit en een nieuw ontwerp. Wanneer u rapporten in Power BI Desktop of in de Power BI-service ontwerpt, kunt u ervoor zorgen dat het venster Filters eruitziet als en werkt met het volledige rapport. In de nieuwe ervaring doet het oude venster Filters dienst als een bewerkingsvenster voor filters en is het nieuwe venster Filters het enige venster dat de gebruikers van uw rapport zien. 
  
 ![Standaardweergave (geen extra aanpassingen toegepast)](media/power-bi-report-filter-preview/power-bi-filter-reading.png)
+
+> [!NOTE]
+> De nieuwe filterervaring is in preview. Nieuwe builds kunnen opmaak overschrijven die u al hebt ingesteld.
 
 Dit is wat u als rapportontwerper kunt doen met de nieuwe filters:
 
@@ -83,6 +86,7 @@ Een groot deel van deze nieuwe ervaring is dat u het filtervenster nu kunt indel
 - Doorzichtigheid van achtergrond
 - Rand van filtervenster in- of uitschakelen
 - De kleur van de rand van het filtervenster
+- Lettertype, kleur en tekstgrootte van de titel en koptekst van het filtervenster
 
 U kunt deze elementen ook opmaken voor filterkaarten, afhankelijk van of deze zijn toegepast (ingesteld op iets) of beschikbaar zijn (uitgeschakeld): 
 
@@ -90,6 +94,8 @@ U kunt deze elementen ook opmaken voor filterkaarten, afhankelijk van of deze zi
 - Doorzichtigheid van achtergrond
 - Rand: in- of uitschakelen
 - Randkleur
+- Lettertype, kleur en tekstgrootte
+- Kleur van het invoervak
 
 ### <a name="set-the-format-for-the-filters-pane-and-cards"></a>De indeling voor het venster Filters en filterkaarten instellen
 
@@ -100,11 +106,11 @@ U kunt deze elementen ook opmaken voor filterkaarten, afhankelijk van of deze zi
 
 1. Vouw het **Filtervenster** uit om de kleur van de achtergrond, het pictogram en de linkerrand te kiezen om de rapportpagina op te maken.
 
-    ![Het venster Filters uitvouwen](media/power-bi-report-filter-preview/power-bi-filter-format-pane.png)
+    ![Het venster Filters uitvouwen](media/power-bi-report-filter-preview/power-bi-filter-format-pane-font.png)
 
 1. Vouw **Filterkaarten** uit om de kleuren en randen voor **Beschikbaar** en **Toegepast** in te stellen. Als u beschikbare en toegepaste kaarten verschillende kleuren geeft, is het duidelijk welke filters er zijn toegepast. 
   
-    ![De Filterkaart uitvouwen](media/power-bi-report-filter-preview/power-bi-filter-format-card.png)
+    ![De Filterkaart uitvouwen](media/power-bi-report-filter-preview/power-bi-filter-format-card-font.png)
 
 ## <a name="view-filters-for-a-visual-in-reading-mode"></a>Filters voor een visual bekijken in Leesmodus
 

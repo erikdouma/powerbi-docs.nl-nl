@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ef4f9de49619a26e17fbdf2b0df47bc56ba23f4d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 18458820f98bcea32eb5288389d57808646d462c
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279315"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325009"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>On-premises gegevensgateway nader bekeken
 Het is mogelijk dat gebruikers in uw organisatie toegang hebben tot on-premises gegevens (waarvoor ze al zijn geautoriseerd), maar voordat deze gebruikers verbinding kunnen maken met uw on-premises gegevensbron, moet er een on-premises gegevensgateway worden geïnstalleerd en geconfigureerd. De gateway zorgt ervoor dat er op een snelle, veilige en transparante manier kan worden gecommuniceerd tussen een gebruiker in de cloud en de on-premises gegevensbron.
@@ -90,7 +90,7 @@ Door gebruik te maken van Azure AD Connect weet u zeker dat de UPN overeenkomt t
 > 
 
 ## <a name="now-this-is-where-the-gateway-comes-in"></a>De rol van de gateway
-De gateway fungeert als een brug tussen de cloud en uw on-premises server. Gegevensoverdracht tussen de cloud en de gateway wordt beveiligd via [Azure Service Bus](/azure/service-bus-messaging/service-bus-messaging-overview). De Service Bus maakt via een uitgaande verbinding op de gateway een beveiligd kanaal tussen de cloud en uw on-premises server.  Er zijn geen binnenkomende verbindingen die u moet openen op de on-premises firewall.
+De gateway fungeert als een brug tussen de cloud en uw on-premises server. Gegevensoverdracht tussen de cloud en de gateway wordt beveiligd via [Azure Service Bus](/azure/service-bus-messaging/service-bus-messaging-overview). De Service Bus maakt via een uitgaande verbinding op de gateway een beveiligd kanaal tussen de cloud en uw on-premises server.  Er zijn geen binnenkomende verbindingen die u moet openen op de on-premises firewall. Power BI beheert de Service Bus voor u, zodat er geen extra kosten of configuratiestappen vereist zijn.
 
 Als u een gegevensbron van Analysis Services hebt, moet u de gateway installeren op een computer die lid is van hetzelfde forest/domein als de Analysis Services-server.
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/10/2019
+ms.date: 02/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 68d350035732d8335079bf76a859919d696e2721
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 5e1bd67ba14ed35a97d91e5ed76f7a3bd8de56ea
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223669"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324807"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Selfservice voor gegevensvoorbereiding in Power BI (preview)
 
@@ -52,6 +52,9 @@ Hier volgen enkele voorbeelden van wat gegevensstromen voor u kunnen betekenen:
 ## <a name="how-to-use-dataflows"></a>Het gebruik van gegevensstromen
 
 In de vorige sectie is een aantal manieren beschreven waarop u gegevensstromen kunt gebruiken om snel krachtige analyses te maken in Power BI. In deze sectie wordt beschreven hoe u snel inzichten kunt maken met behulp van gegevensstromen in een organisatie, hoe BI-professionals hun eigen gegevensstromen kunnen maken en inzichten kunnen aanpassen aan hun eigen organisatie.
+
+> [!NOTE]
+> U moet over een betaald Power BI-account beschikken om gegevensstromen te gebruiken, zoals een Power BI Pro- of Power BI Premium-account, maar u wordt het gebruik van gegevensstromen niet afzonderlijk in rekening gebracht. 
 
 ### <a name="extend-the-common-data-model-for-your-business-needs"></a>Common Data Model uitbreiden naar de behoeften van uw bedrijf
 Voor organisaties die Common Data Model (CDM) willen uitbreiden, bieden gegevensstromen business intelligence-professionals de mogelijkheid om de standaardentiteiten aan te passen of nieuwe entiteiten te maken. Deze selfservice-aanpak voor aanpassing van het gegevensmodel kan vervolgens worden gebruikt in combinatie met gegevensstromen voor het opbouwen van apps en Power BI-dashboards die op een organisatie is aangepast.

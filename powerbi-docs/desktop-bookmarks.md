@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 02/14/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 509eebfdf2d96a2cc77d5c9413c664a10309ab9c
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: fda2732ff33c324377a73ceb93480fbbcdd404bd
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216417"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325035"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Bladwijzers gebruiken om inzichten te delen en verhalen te vertellen in Power BI 
 Met behulp van **bladwijzers** in Power BI kunt u de momenteel geconfigureerde weergave van een rapportpagina vastleggen, inclusief filters en de status van visuals, en later terugkeren naar deze staat door eenvoudig de opgeslagen bladwijzer te selecteren. 
@@ -61,7 +61,7 @@ Configureer een rapportpagina zoals u deze wilt weergeven in de bladwijzer. Zodr
 
 Nadat u een bladwijzer hebt gemaakt, kunt u deze weergeven door eenvoudig te klikken op de bladwijzer in het deelvenster **Bladwijzers**. 
 
-U kunt ook kiezen of elke bladwijzer *gegevens*eigenschapen zal toepassen, zoals filters en slicers, de *weergave*-eigenschappen zoals spotlight en de zichtbaarheid ervan, en paginawijzigingen die de pagina tonen die zichtbaar was toen de bladwijzer werd toegevoegd. Deze mogelijkheden zijn nuttig wanneer u bladwijzers gebruikt om tussen visualisatietypen te schakelen. In dat geval wilt u waarschijnlijk de gegevenseigenschappen uitschakelen, zodat filters niet opnieuw worden ingesteld als gebruikers visualisatietypen veranderen. 
+U kunt ook kiezen of elke bladwijzer *gegevens*eigenschapen zal toepassen, zoals filters en slicers, de *weergave*-eigenschappen zoals spotlight en de zichtbaarheid ervan, en paginawijzigingen die de pagina tonen die zichtbaar was toen de bladwijzer werd toegevoegd. Deze mogelijkheden zijn nuttig wanneer u bladwijzers gebruikt om tussen rapportweergaven of visualisatieselecties te schakelen. In dat geval wilt u waarschijnlijk de gegevenseigenschappen uitschakelen, zodat filters niet opnieuw worden ingesteld als gebruikers wisselen van weergave door de selectie van een bladwijzer. 
 
 Als u dergelijke wijzigingen wilt aanbrengen, kiest u de drie puntjes naast de naam van de bladwijzer, zoals in de vorige afbeelding, en (de)selecteert u de vinkjes bij *Gegevens*, *Weergave* en andere besturingselementen. 
 

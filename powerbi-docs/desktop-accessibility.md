@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d0c6222c4b10307985ad039c3b391c8648614979
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 18872e65154f70e882c4f6f60c04420b17038d32
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280051"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249109"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Toegankelijkheid in Power BI Desktop-rapporten
 Power BI bevat functies die het gebruikers met een handicap gemakkelijker maken om Power BI-rapporten te gebruiken en ermee te werken. Deze functies omvatten de mogelijkheid om een rapport te gebruiken met het toetsenbord of een schermlezer, de focus te verplaatsen naar verschillende objecten op een pagina met de tabtoets, en handig gebruik te maken van markeringen in visualisaties.
@@ -141,6 +141,11 @@ We zetten ons voortdurend in om de toegankelijkheid te verbeteren. Bovenstaande 
 ### <a name="pane-navigation"></a>Navigeren in deelvensters
 | Functie           | Actie                |
 | :------------------- | :------------------- |
+| Meervoudige selectie | Ctrl + spatie |
+| Eén tabel samenvouwen | Pijltoets-links |
+| Eén tabel uitvouwen | Pijltoets-rechts |
+| Alle tabellen samenvouwen | Alt + Shift + 1 |
+| Alle tabellen uitvouwen | Alt + Shift + 9 |
 | Een snelmenu openen | <ul><li>Windows-toetsenbord: Windows-contextsleutel + F10.  De Windows-snelmenutoets bevindt zich tussen de linker Alt-toets en de pijl-links</li><li>Ander toetsenbord: Shift + F10</li></ul> |
 
 ### <a name="slicer"></a>Slicer

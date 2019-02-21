@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 02/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a82bbc3e4b31dca0a304c1d3f64d4bc63e4e7fb3
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
+ms.openlocfilehash: d7ad1cc4ffb339aeb1a64cd28274fde4f8ef6af6
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086765"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325146"
 ---
 # <a name="key-influencers-visualization"></a>Visualisatie Belangrijkste beïnvloeders
 Met de visual Belangrijkste beïnvloeders krijgt u meer inzicht in de beïnvloedingsfactoren van een metrisch gegeven waarin u geïnteresseerd bent. Uw gegevens worden geanalyseerd en de factoren die van belang zijn worden gerangschikt en als belangrijkste beïnvloeders weergegeven. Stel dat u graag wilt weten welke factoren het personeelsverloop beïnvloeden. Eén factor kan de contractduur zijn en een andere de leeftijd van de medewerkers. 
@@ -167,11 +167,11 @@ Van deze groep heeft 74,3 procent een lage waardering gegeven. De gemiddelde kla
  
 De visual Belangrijkste beïnvloeders is momenteel in openbare preview, en er zijn enkele beperkingen waarmee gebruikers rekening moeten houden. Functies die momenteel niet beschikbaar zijn, zijn onder meer: 
 - Het analyseren van metrische gegevens die aggregaties/metingen zijn 
-- Gebruik van de visual in Embedded 
-- Gebruik van de visual in Power BI - Mobiel 
+- Gebruik van de visual in Power BI Embedded
+- Gebruik van de visual in mobiele Power BI-apps
 - RLS-ondersteuning 
 - Ondersteuning van Direct Query 
-- Ondersteuning van Live Query 
+- Ondersteuning voor Liveverbindingen 
  
 **Er wordt een foutbericht weergegeven dat er geen beïnvloeders/segmenten zijn gevonden. Hoe komt dat?**  
 
@@ -247,15 +247,16 @@ Dit komt doordat er bij het zoeken naar beïnvloeders ook rekening wordt gehoude
 
 **Hoe worden belangrijkste beïnvloeders berekenend?**
 
-Achter de schermen wordt in de AI-visualisatie een logistieke regressie uitgevoerd om de belangrijkste beïnvloeders te berekenen. Een logistieke regressie is een statistisch model waarin verschillende groepen met elkaar worden vergeleken. Als we op zoek zouden zijn naar de beïnvloeders van lage waarderingen, zou via de logistieke regressie worden gekeken naar de verschillen tussen klanten die een lage en hoge waardering gaven. Als we meerdere categorieën zouden hebben (een hoge, neutrale en lage score), zou er worden gekeken naar de verschillen tussen klanten die een lage waardering gaven en klanten die geen lage waardering gaven (dus in welk opzicht ze verschillen van degenen die een hoge OF neutrale waardering gaven). 
+Achter de schermen wordt in de AI-visualisatie met behulp van [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) een logistieke regressie uitgevoerd om de belangrijkste beïnvloeders te berekenen. Een logistieke regressie is een statistisch model waarin verschillende groepen met elkaar worden vergeleken. Als we op zoek zouden zijn naar de beïnvloeders van lage waarderingen, zou via de logistieke regressie worden gekeken naar de verschillen tussen klanten die een lage en hoge waardering gaven. Als we meerdere categorieën zouden hebben (een hoge, neutrale en lage score), zou er worden gekeken naar de verschillen tussen klanten die een lage waardering gaven en klanten die geen lage waardering gaven (dus in welk opzicht ze verschillen van degenen die een hoge OF neutrale waardering gaven). 
  
 Via de logistieke regressie wordt gezocht naar patronen in de gegevens, in dit geval naar de verschillen tussen klanten die een lage en hoge waardering gaven. Er kan bijvoorbeeld uit komen dat klanten die veel ondersteuningstickets hebben, een veel hoger percentage lage waarderingen geven dan degenen met weinig of geen ondersteuningstickets.
  
 Bij de logistieke regressie wordt ook rekening gehouden met het aantal aanwezige gegevenspunten. Als klanten met een beheerdersrol bijvoorbeeld in verhouding meer negatieve waarderingen geven, maar er slechts een handvol beheerders is, wordt dit niet als een invloedrijke factor beschouwd. Dit komt omdat er niet voldoende gegevenspunten beschikbaar zijn om een patroon uit af te leiden. Er wordt een statistische test (Wald-test) gebruikt om te bepalen of een factor als beïnvloeder wordt beschouwd. In de visual wordt een p-waarde (overschrijdingskans) van 0,05 gebruikt om de drempelwaarde te bepalen. 
- 
+
+
 **Hoe worden segmenten berekend?**
 
-Achter de schermen wordt in de AI-visualisatie een beslissingsstructuur uitgevoerd om interessante subgroepen te vinden. Het doel van de beslissingsstructuur is om een subgroep te krijgen van gegevenspunten met een relatief hoge waarde van het metrische gegeven waarin we geïnteresseerd zijn (bijvoorbeeld klanten die een lage waardering gaven). 
+Achter de schermen wordt in de AI-visualisatie met behulp van [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) een beslissingsstructuur uitgevoerd om interessante subgroepen te vinden. Het doel van de beslissingsstructuur is om een subgroep te krijgen van gegevenspunten met een relatief hoge waarde van het metrische gegeven waarin we geïnteresseerd zijn (bijvoorbeeld klanten die een lage waardering gaven). 
 
 In de beslissingsstructuur worden alle verklarende factor bekeken en wordt geprobeerd te beredeneren welke factor de beste afsplitsing oplevert. Als we de gegevens bijvoorbeeld zodanig filteren dat er alleen grote zakelijke klanten overblijven, scheiden we daarmee dan klanten af die ons een hoge of juist lage waardering gaven? Of is het misschien beter zodanig te filteren dat er alleen klanten overblijven die opmerking maakten over de beveiliging? 
 

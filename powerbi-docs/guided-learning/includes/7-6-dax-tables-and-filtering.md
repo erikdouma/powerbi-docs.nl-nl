@@ -21,7 +21,7 @@ U kunt tabelfuncties in uw expressie combineren, zolang elke functie gebruikmaak
 
 Deze expressie plaatst een filter op de *tabel* als geheel en negeert eventuele filterinhoud.
 
-De functie DISTINCT retourneert de afzonderlijke waarden van een kolom die ook zichtbaar zijn in de huidige context. In het voorbeeld hierboven worden met **ALL** in deze expressie filters genegeerd. Als u **ALL** echter vervangt door **DISTINCT**, worden de filters niet genegeerd.
+De functie DISTINCT retourneert de afzonderlijke waarden van een kolom die ook zichtbaar zijn in de huidige context. Als u het voorbeeld hierboven met de DAX-expressie wilt gebruiken, worden met **ALL** in deze expressie filters genegeerd. Als u **ALL** echter vervangt door **DISTINCT**, worden de filters niet genegeerd.
 
 ## <a name="counting-values-with-dax"></a>Waarden met DAX tellen
 Een algemene vraag die rapportmakers met DAX willen beantwoorden is:
