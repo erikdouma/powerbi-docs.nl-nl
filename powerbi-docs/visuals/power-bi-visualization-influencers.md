@@ -3,19 +3,19 @@ title: Zelfstudie voor de visualisatie Belangrijkste beïnvloeders
 description: 'Zelfstudie: een visualisatie Belangrijkste beïnvloeders maken in Power BI'
 author: mihart
 manager: kvivek
-ms.reviewer: justyna
+ms.reviewer: juluczni
 ms.service: powerbi
 ms.component: powerbi-visuals
 ms.topic: tutorial
-ms.date: 02/10/2019
+ms.date: 02/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d7ad1cc4ffb339aeb1a64cd28274fde4f8ef6af6
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: c937104d570409023373a5ccbcf94e1b66e6aaab
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325146"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426787"
 ---
 # <a name="key-influencers-visualization"></a>Visualisatie Belangrijkste beïnvloeders
 Met de visual Belangrijkste beïnvloeders krijgt u meer inzicht in de beïnvloedingsfactoren van een metrisch gegeven waarin u geïnteresseerd bent. Uw gegevens worden geanalyseerd en de factoren die van belang zijn worden gerangschikt en als belangrijkste beïnvloeders weergegeven. Stel dat u graag wilt weten welke factoren het personeelsverloop beïnvloeden. Eén factor kan de contractduur zijn en een andere de leeftijd van de medewerkers. 
@@ -46,7 +46,7 @@ Het te analyseren metrische gegeven moet een categorisch veld zijn.
 
 6. ***Rechterdeelvenster***: het rechterdeelvenster bevat één visual. In dit geval worden in het kolomdiagram alle waarden voor de **belangrijkste beïnvloeder** **Thema** weergegeven, die is geselecteerd in het linkerdeelvenster. De specifieke waarde (**Bruikbaarheid**) in het linkerdeelvenster is groen en alle andere waarden voor **Thema** zijn zwart.
 
-7. ***Lijn voor gemiddelde***: het gemiddelde wordt berekend voor alle andere mogelijke waarden voor **Thema** dan **bruikbaarheid**. De berekening is dus van toepassing op alle zwarte waarden. Er wordt mee aangegeven door welk percentage van de andere **Thema's** de waardering 'laag' werd veroorzaakt. Met andere woorden, wanneer een klant een waardering geeft, geeft die klant ook de reden of het **thema** voor de waardering op. Thema's zijn bijvoorbeeld Bruikbaarheid, Snelheid, Beveiliging, enzovoort. Het **Thema** **Bruikbaarheid** is de op een na belangrijkste beïnvloeder voor een lage waardering, volgens onze visual in het linkerdeelvenster. Als we het gemiddelde van alle andere thema's en hun bijdrage aan de waardering **laag** berekenen, krijgen we het resultaat dat hier in het rood wordt weergegeven. 
+7. ***Lijn voor gemiddelde***: het gemiddelde wordt berekend voor alle andere mogelijke waarden voor **Thema** dan **bruikbaarheid**. De berekening is dus van toepassing op alle zwarte waarden. Er wordt mee aangegeven door welk percentage van de andere **Thema's** de waardering 'laag' werd veroorzaakt. Met andere woorden, wanneer een klant een waardering geeft, geeft die klant ook de reden of het **thema** voor de waardering op. Thema's zijn bijvoorbeeld Bruikbaarheid, Snelheid, Beveiliging, enzovoort. Het **Thema** **Bruikbaarheid** is de op een na belangrijkste beïnvloeder voor een lage waardering, volgens onze visual in het linkerdeelvenster. Als we het gemiddelde van alle andere thema's en hun bijdrage aan de waardering **laag** berekenen, krijgen we het resultaat dat hier in het rood wordt weergegeven. Van alle andere gegeven thema's is slechts 11,35% hoger dan **bruikbaarheid**. 
 
 8. ***Selectievakje***: alleen waarden tonen die beïnvloeders zijn.
 
@@ -217,7 +217,7 @@ Om precies te zijn, zijn klanten die de browser niet voor de service gebruiken 3
 
 ![fout: opgelost](media/power-bi-visualization-influencers/power-bi-error3-solution.png)
 
-**Er wordt een waarschuwing weergegeven dat er geen metingen zijn opgenomen in mijn analyse. Hoe komt dat?** [2052261] 
+**Er wordt een waarschuwing weergegeven dat er geen metingen zijn opgenomen in mijn analyse. Hoe komt dat?** 
 
 ![Fout: metingen niet opgenomen](media/power-bi-visualization-influencers/power-bi-measures-not-included.png)
 

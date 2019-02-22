@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/26/2018
-ms.openlocfilehash: 097095cda1e0ffea4f43059351f22638c502e8b4
-ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
+ms.openlocfilehash: 4cbd17a08a8cb7c7253f60f29a19341598c9800f
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56408064"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426534"
 ---
 # <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Richtlijnen voor Power BI-visuals met extra aankopen
 
@@ -33,7 +33,10 @@ Ontwikkelaars uploaden hun IAP-visuals naar AppSource via het Verkopersdashboard
 
 ## <a name="what-is-a-power-bi-visual-with-iap-features"></a>Wat is een Power BI-visual met IAP-functies?
 
-Een IAP-visual is een gratis visual die gratis functies biedt, maar die ook extra functies biedt waarvoor extra kosten kunnen worden berekend om ze te kunnen gebruiken. Ontwikkelaars moeten gebruikers via de beschrijving van de visual informeren over de functies waarvoor extra aankopen moeten worden gedaan om ze te kunnen gebruiken. Op dit moment biedt Microsoft geen systeemeigen API's (Application Programming Interfaces) voor de ondersteuning van aankopen in apps en invoegtoepassingen. Ontwikkelaars kunnen een extern betalingssysteem voor die aankopen gebruiken. Raadpleeg ons [Store-beleid](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads).
+Een IAP-visual is een gratis visual die gratis functies biedt, maar die ook extra geavanceerde functies biedt waarvoor extra kosten kunnen worden berekend om ze te kunnen gebruiken. Ontwikkelaars moeten gebruikers via de beschrijving van de visual informeren over de functies waarvoor extra aankopen moeten worden gedaan om ze te kunnen gebruiken. Op dit moment biedt Microsoft geen systeemeigen API's (Application Programming Interfaces) voor de ondersteuning van aankopen in apps en invoegtoepassingen. Ontwikkelaars kunnen een extern betalingssysteem voor die aankopen gebruiken. Raadpleeg ons [Store-beleid](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads).
+
+> [!NOTE]
+> Watermerken zijn niet toegestaan voor de gratis functies. Ontwikkelaars kunnen een pop-upvenster of watermerk weergeven als de geavanceerde betaalde functies worden gebruikt zonder geldige licentie.  
 
 ## <a name="logo-guidelines"></a>Richtlijnen voor logo's
 
