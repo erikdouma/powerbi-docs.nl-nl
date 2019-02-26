@@ -4,16 +4,17 @@ description: Power BI bevat veel nieuwe termen en bekende termen worden op nieuw
 services: power-bi
 ms.custom: seodec18
 author: mihart
-ms.service: powerbi-service
+ms.service: powerbi
+ms.subservice: powerbi-consumer
 ms.topic: resource
 ms.date: 12/06/2018
 ms.author: mihart
-ms.openlocfilehash: 1722c401dfd5d2fdfbba530f440cecf9f1e075f3
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 91ac7e9990844f6e4f481473d402647a47249ba6
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431264"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662406"
 ---
 # <a name="glossary-for-power-bi-service"></a>Verklarende woordenlijst voor de Power BI-service
 In de Power BI-service wordt mogelijk terminologie gebruikt die u niet kent of die verwarrend is. In deze verklarende woordenlijst kunt u terminologie opzoeken. U kunt zelfs overwegen om deze pagina in uw bladwijzers op te slaan. [Basisconcepten](end-user-basic-concepts.md) is ook een uitstekende resource om meer te weten te komen over de verschillende elementen waar de Power BI-service uit bestaat. Basisconcepten biedt een algemeen overzicht van de Power BI-*elementen* en hoe deze met elkaar zijn verbonden.

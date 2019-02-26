@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/12/2019
+ms.date: 02/21/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 0118c9b7bb1d00daf1b6baeb7638916b49d8af49
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
+ms.openlocfilehash: ea86970565717d5dae8db865a65765f2c8245bad
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426764"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662383"
 ---
 # <a name="visualization-types-in-power-bi"></a>Typen visualisaties in Power BI
 U vindt visualisaties in rapporten, dashboards, apps, en Q&A. Sommige van deze visualisatietypen zijn verpakt met Power BI en sommige zijn *aangepaste visualisaties*. Aangepaste visualisaties worden gemaakt buiten Power BI en op een manier die het voor *rapportontwerpers* mogelijk maakt om deze aan Power BI-rapporten, dashboards en apps toe te voegen. 

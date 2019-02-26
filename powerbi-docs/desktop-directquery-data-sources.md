@@ -2,22 +2,23 @@
 title: Gegevensbronnen die worden ondersteund door DirectQuery in Power BI
 description: Hier vindt u een lijst met ondersteunde gegevensbronnen voor DirectQuery.
 author: davidiseminger
+ms.author: davidi
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/01/2018
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ecb1ba1cf10395a7c193d16281eece80868a52e7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 84e40e9fbce07716a2250a58bfcbd396a40d2842
+ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285548"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56826555"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Gegevensbronnen die worden ondersteund door DirectQuery in Power BI
+
 In **Power BI Desktop** en de **Power BI-service** kunt u met allerlei gegevensbronnen verbinding maken en toegang tot gegevens verkrijgen. In dit artikel wordt beschreven welke gegevensbronnen voor Power BI worden ondersteund voor de verbindingsmethode **DirectQuery**. Zie [**DirectQuery in Power BI**](desktop-directquery-about.md) voor meer informatie over DirectQuery.
 
 De volgende gegevensbronnen worden ondersteund door DirectQuery in Power BI:

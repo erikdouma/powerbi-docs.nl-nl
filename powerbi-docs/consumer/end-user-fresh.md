@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.service: powerbi
 ms.custom: ''
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: overview
 ms.date: 02/08/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 5ab305777306d8ee12edf2756404efeffa52e44b
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
+ms.openlocfilehash: 4b4bc6398466b4c603126efed5b6591c9c3ad6c0
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086650"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662015"
 ---
 # <a name="your-content-is-up-to-date"></a>Uw inhoud is up-to-date
 Als *consument* werkt u met inhoud die is gemaakt door *ontwerpers* en met u is gedeeld. U vraagt zich misschien af of die inhoud is bijgewerkt, of misschien wilt u alleen weten wanneer die inhoud voor het laatst is vernieuwd. Het geeft u zelfvertrouwen als u weet dat u met de nieuwste inhoud werkt.  
