@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: ad3025b9649529566972f75e9c447bb7558132b8
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: e645cd84b646e180114027464ea4781277d5245f
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325192"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662452"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Wat is er nieuw in Power BI Report Server
 
@@ -41,6 +41,10 @@ Ondersteuning voor deze functies in Power BI-rapporten:
 [**Slimme uitlijningshulplijnen**](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) U ziet slimme uitlijningshulplijnen wanneer u objecten verplaatst op de rapportpagina, net als in PowerPoint. De hulplijnen helpen om alles op de pagina uit te lijnen. U ziet de slimme hulplijnen telkens wanneer u iets sleept of vergroot/verkleint op de pagina. Wanneer u een object in de buurt van een ander plaatst, klikt het automatisch vast op een positie die is uitgelijnd met het andere object.
 
 **Toegankelijkheidsfuncties** Te veel toegankelijkheidsfuncties om op te noemen: een voorbeeld is [toegankelijkheidsondersteuning voor het lijstdeelvenster met velden](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList). Het lijstdeelvenster met velden is volledig toegankelijk. U kunt navigeren in het deelvenster met behulp van alleen het toetsenbord en een schermlezer en het contextmenu gebruiken om velden toe te voegen aan de rapportpagina.
+
+#### <a name="custom-visuals"></a>Aangepaste visuals
+
+- De API-versie die bij deze release wordt geleverd, is 2.3.
 
 ### <a name="administrator-settings"></a>Beheerdersinstellingen
 

@@ -10,12 +10,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: mshenhav
-ms.openlocfilehash: 2b296d465b312486a91e1407b5866e15b0b48b54
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: de103412e21e0d26d20058e2d4e1fb9a8a5449bf
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280787"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662314"
 ---
 # <a name="fixing-corporate-ssl-certificate-is-untrusted---power-bi"></a>De fout 'Zakelijk SSL-certificaat is niet vertrouwd' herstellen - Power BI
 Tijdens het aanmelden bij de mobiele Android-app voor Microsoft Power BI ziet u mogelijk u het bericht, 'Kan niet worden geverifieerd omdat uw zakelijke SSL-certificaat niet vertrouwd is door dit apparaat. Neem contact op met de IT-beheerder van uw bedrijf.’ 
@@ -41,9 +41,9 @@ De tijdzone-instellingen op het apparaat zijn mogelijk onjuist.
 Ga naar **Instellingen** > **Systeem** > **Datum en tijd** en controleer of ze.
 
 ## <a name="custom-authentication-server"></a>Aangepaste verificatieserver
-Als u een aangepaste verificatieserver gebruikt, wordt het SSL-certificaat in de zakelijke verificatieserver mogelijk ongeldig. Neem contact op met de IT-beheerder van uw organisatie en vraag hem om u te helpen.
+Als u een aangepaste verificatieserver gebruikt, wordt het SSL-certificaat in de zakelijke verificatieserver mogelijk ongeldig. Werk samen met de IT-afdeling van uw organisatie om de configuratie van de zakelijke verificatieserver te testen. Volg daarbij de richtlijnen in [dit artikel](https://support.microsoft.com/en-us/help/3203929/using-adal-to-authenticate-from-android-devices-fails-if-additional-ce).
 
 ## <a name="next-steps"></a>Volgende stappen
 * [De Android-app downloaden](http://go.microsoft.com/fwlink/?LinkID=544867) vanuit de Android-app-store.
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/) 
 

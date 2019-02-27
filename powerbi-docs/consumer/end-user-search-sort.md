@@ -4,22 +4,22 @@ description: documentatie voor zoeken en sorteren van inhoud in Power BI-werkrui
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
+ms.custom: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 02/21/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: ef8d7c61d35f15517db4fdbbea347a525a130f31
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2f8c2468b56db190f9e794ed2d81ce86449a970d
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288216"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56661877"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>Navigatie: inhoud zoeken en sorteren in de Power BI-service
-Er zijn veel manieren om door uw inhoud in de Power BI-service te bladeren. De inhoud in werkruimten wordt geordend op vier tabbladen: Dashboards, Rapporten, Werkmappen en Gegevenssets.  De inhoud wordt ook ingedeeld per gebruik: Favorieten, Recent, Apps, Gedeeld met mij en Aanbevolen. Omdat u op de Startpagina alle inhoud op één pagina kunt vinden, is het de centrale plek voor navigatie. Via deze verschillende paden naar uw inhoud kunt u snel vinden wat u nodig hebt in de Power BI-service.  
+Er zijn veel manieren om door uw inhoud in de Power BI-service te bladeren. In uw werkruimte wordt de inhoud ingedeeld in vier typen: dashboards, rapporten, werkmappen en gegevenssets.  De inhoud wordt ook ingedeeld per gebruik: Favorieten, Recent, Apps, Gedeeld met mij en Aanbevolen. Omdat u op de Startpagina alle inhoud op één pagina kunt vinden, is het de centrale plek voor navigatie. Via deze verschillende paden naar uw inhoud kunt u snel vinden wat u nodig hebt in de Power BI-service.  
 
 ## <a name="navigation-within-workspaces"></a>Navigatie in werkruimten
 
