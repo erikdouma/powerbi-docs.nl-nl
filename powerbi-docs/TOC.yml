@@ -843,7 +843,13 @@ items:
     - name: Ondersteunde talen en landen/regio's
       href: supported-languages-countries-regions.md
     - name: Whitepapers
-      href: whitepapers.md
+      items:
+      - name: Overzicht whitepapers
+        href: whitepapers.md
+      - name: Whitepaper Power BI-beveiliging
+        href: whitepaper-powerbi-security.md
+      - name: Implementatie Power BI Premium
+        href: whitepaper-powerbi-premium-deployment.md
 - name: Power BI voor ontwikkelaars
   items:
   - name: Wat kunnen ontwikkelaars doen met Power BI?
@@ -1036,6 +1042,8 @@ items:
         href: developer/walkthrough-push-data-get-datasets.md
       - name: Rijen toevoegen aan een tabel
         href: developer/walkthrough-push-data-add-rows.md
+      - name: Referenties configureren
+        href: developer/configure-credentials.md
       - name: Referenties versleutelen
         href: developer/encrypt-credentials.md
     - name: Verwijzing
@@ -1305,9 +1313,9 @@ items:
       href: service-admin-governance.md
     - name: Beveiliging van Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 994d0f82fc92eb8e54aee92f0b4ceefa38cc8a49
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
+ms.openlocfilehash: 1d95f65528ff52931b9fbe9119f9d593db99655a
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826693"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892431"
