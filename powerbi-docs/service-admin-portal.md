@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 868c1226b70bd12762c20c3af5b0ee1ff59857e5
-ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
+ms.openlocfilehash: a4180f211a2b31a8610d410a74e0cca25dcdad15
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56408179"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014640"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
@@ -297,7 +297,7 @@ Gebruikers in de organisatie kunnen Power BI-dashboards en rapporten insluiten i
 
 ### <a name="create-and-use-dataflows-preview"></a>Gegevensstromen maken en gebruiken (preview-versie)
 
-Gebruikers in de organisatie kunnen gegevensstromen maken en gebruiken. Zie [Self-service gegevensvoorbereiding in Power BI (preview-versie)](service-dataflows-overview.md) voor een overzicht van gegevensstromen. Zie [Workloads configureren](service-admin-premium-manage.md#configure-workloads) als u gegevensstromen wilt inschakelen in een Premium-capaciteit.
+Gebruikers in de organisatie kunnen gegevensstromen maken en gebruiken. Zie [Self-service gegevensvoorbereiding in Power BI (preview-versie)](service-dataflows-overview.md) voor een overzicht van gegevensstromen. Zie [Workloads configureren](service-admin-premium-workloads.md) als u gegevensstromen wilt inschakelen in een Premium-capaciteit.
 
 > [!NOTE]
 > Deze instelling geldt voor de hele organisatie en kan niet worden beperkt tot specifieke groepen.
@@ -321,8 +321,6 @@ Met de tweede instelling, **Sjabloon-apps installeren** bepaalt u wie binnen uw 
 Via het tabblad **Power BI Premium-instellingen** kunt u capaciteiten van Power BI Premium (Em of P SKU) beheren die voor uw organisatie zijn gekocht. Alle gebruikers binnen uw organisatie kunnen het tabblad **Power BI Premium-instellingen** zien, maar ze zien alleen inhoud op het tabblad als ze zijn aangewezen als *Capaciteitsbeheerder* of als ze beschikken over toewijzingsmachtigingen. Als een gebruiker geen machtigingen heeft, verschijnt het volgende bericht.
 
 ![Geen toegang tot Premium-instellingen](media/service-admin-portal/premium-settings-no-access.png)
-
-Zie [Power BI Premium beheren](service-admin-premium-manage.md) voor meer informatie over het beheren van Premium-instellingen.
 
 ### <a name="power-bi-embedded"></a>Power BI Embedded
 
@@ -410,6 +408,5 @@ Als beheerder kunt u alle werkruimten bekijken die aanwezig zijn in uw tenant. U
 
 [Power BI in uw organisatie beheren](service-admin-administering-power-bi-in-your-organization.md) [De Power BI-beheerdersrol begrijpen](service-admin-role.md)  
 [Power BI controleren in uw organisatie](service-admin-auditing.md)  
-[Power BI Premium beheren](service-admin-premium-manage.md)  
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

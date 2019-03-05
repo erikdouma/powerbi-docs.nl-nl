@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/21/2018
-ms.openlocfilehash: fd1df09e9ef431bf04c566996867c355350fdb2e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 56247275d39c3feb978a8ec38841c7f69de8787a
+ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279739"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57226176"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>Zelfstudie: Opmaakopties toevoegen aan een aangepaste Power BI-visual
 
@@ -146,7 +146,10 @@ U kunt aangepaste eigenschappen toevoegen, zodat u de kleur van de cirkel en de 
 
     ```typescript
     this.visualSettings = VisualSettings.parse<VisualSettings>(dataView);
-    this.visualSettings.circle.circleThickness = Math.max(0, this.visualSettings.circle.circleThickness)this.visualSettings.circle.circleThickness = Math.min(10, this.visualSettings.circle.circleThickness);
+
+    this.visualSettings.circle.circleThickness = Math.max(0, this.visualSettings.circle.circleThickness);
+
+    this.visualSettings.circle.circleThickness = Math.min(10, this.visualSettings.circle.circleThickness);
     ```
     Deze code haalt de indelingsopties op. De code past waarden aan die in de eigenschap **circleThickness** zijn opgegeven en converteert die waarden naar 0 als deze negatief zijn, of naar 10 als de waarde groter is dan 10.
 

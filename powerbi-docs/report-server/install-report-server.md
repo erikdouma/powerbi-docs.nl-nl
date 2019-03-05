@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 12/07/2018
-ms.openlocfilehash: 377e601bde58c0e0a8e5634cd798e3373ebee7b7
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 109c0f98705f81d48811f756c49150c8cb286e27
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324893"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014433"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI Report Server installeren
 
@@ -37,11 +37,11 @@ Voordat u Power BI Report Server installeert, is het raadzaam om de [hardware- e
 
 Als u Power BI Premium hebt gekocht, vindt u de productcode voor Power BI Report Server op het tabblad **Premium-instellingen** in de Power BI-beheerportal. Dit is alleen beschikbaar voor hoofdbeheerders of gebruikers aan wie de rol Power BI-servicebeheerder is toegewezen.
 
-![Premium-instellingen](../media/service-admin-premium-manage/pbirs-product-key.png "Code voor Power BI Report Server in Premium-instellingen")
+![Premium-instellingen](../report-server/media/install-report-server/pbirs-product-key.png "Code voor Power BI Report Server in Premium-instellingen")
 
 Als u **Power BI Report Server-sleutel** selecteert, wordt een dialoogvenster weergegeven met uw productcode. U kunt deze kopiëren en gebruiken bij de installatie.
 
-![Productcode](../media/service-admin-premium-manage/pbirs-product-key-dialog.png "Productcode van Power BI Report Server")
+![Productcode](../report-server/media/install-report-server/pbirs-product-key-dialog.png "Productcode van Power BI Report Server")
 
 #### <a name="sql-server-enterprise-software-assurance-sa"></a>SQL Server Enterprise Software Assurance (SA)
 

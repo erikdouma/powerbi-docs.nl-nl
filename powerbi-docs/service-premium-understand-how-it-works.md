@@ -9,12 +9,12 @@ ms.author: owend
 ms.reviewer: owend
 author: minewiskan
 manager: kfile
-ms.openlocfilehash: e31f67d978471f4dcc6472860fc5f8315212e563
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: d7cebbd569d16192f4acfa1c96394130731efa17
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794874"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014571"
 ---
 # <a name="microsoft-power-bi-premium-capacity-resource-management-and-optimization"></a>Resourcebeheer en optimalisatie van Microsoft Power BI Premium-capaciteit
 
@@ -55,7 +55,7 @@ Als een interactieve query wordt uitgevoerd op een gegevensset in de capaciteit 
 
 ### <a name="workloads"></a>Workloads
 
-De standaardconfiguratie is dat capaciteiten voor  **Power BI Premium** en **Power BI Embedded** alleen de workload ondersteunen die is gekoppeld aan het uitvoeren van Power BI-query's in de cloud. We bieden nu preview-ondersteuning voor twee extra workloads: **Gepagineerde rapporten** en **Gegevensstromen**. Indien ingeschakeld kunnen deze workloads het geheugengebruik in de capaciteit beïnvloeden. Zie [Workloads configureren](service-admin-premium-manage.md#configure-workloads) voor meer informatie.
+De standaardconfiguratie is dat capaciteiten voor  **Power BI Premium** en **Power BI Embedded** alleen de workload ondersteunen die is gekoppeld aan het uitvoeren van Power BI-query's in de cloud. We bieden nu preview-ondersteuning voor twee extra workloads: **Gepagineerde rapporten** en **Gegevensstromen**. Indien ingeschakeld kunnen deze workloads het geheugengebruik in de capaciteit beïnvloeden. 
 
 ## <a name="cpu-resource-management-in-premium-capacity"></a>CPU-bronbeheer in premium-capaciteit
 
@@ -116,6 +116,3 @@ Gebruik Power BI Embedded-capaciteit in Azure om verschillende SKU's te testen e
 
 In sommige gevallen kan het openen van een PBIX-bestand (Power BI Desktop) van het model op uw computer en het controleren van het geheugen- en CPU-verbruik veel over het probleem aangeven. Dit helpt niet voor zeer grote modellen, maar voor sommige kleinere modellen kunt u proberen om het model te openen, te vernieuwen en er een query op uit te voeren vanaf uw computer. Controleer de modelgrootte, het geheugen- en CPU-verbruik wanneer u het model opent. Probeer te vernieuwen en een query uit te voeren. Gebruik Taakbeheer om het CPU- en geheugenverbruik te controleren voor het lokale bestand. Soms blijkt uit deze metrische gegevens op uw computer dat een lagere Premium-capaciteit, zoals P1/P2, niet werkt voor uw oplossing.
 
-## <a name="next-steps"></a>Volgende stappen
-
-[Capaciteiten in Power BI Premium en Power BI Embedded beheren](service-admin-premium-manage.md)

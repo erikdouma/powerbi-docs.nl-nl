@@ -4,18 +4,18 @@ description: In dit artikel worden de functies van Power BI Report Server en de 
 keywords: ''
 author: markingmyname
 ms.author: maghan
-ms.date: 02/06/2019
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 11b910d687830e525e0495a785153daa32db042d
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.date: 02/06/2019
+ms.openlocfilehash: ba10e13062e4071e5afcc5d395836c96ed1401fd
+ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324456"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57327913"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparing Power BI Report Server and the Power BI service (Power BI Report Server vergelijken met de Power BI-service)
 
@@ -56,7 +56,5 @@ Power BI Report Server en de Power BI-service hebben veel overeenkomsten en een 
 | Power BI Desktop | Versie geoptimaliseerd voor Report Server, beschikbaar voor downloaden met Report Server | Versie geoptimaliseerd voor de Power BI-service, beschikbaar in de Windows Store | [Power BI Desktop voor de rapportserver](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI Desktop voor de Power BI-service](http://aka.ms/pbidesktopstore) |
 
 ## <a name="next-steps"></a>Volgende stappen
+
 [Power BI Report Server installeren](install-report-server.md)  
-
-
-

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 12/05/2018
-ms.openlocfilehash: d3563b80813b0c08377e7ecaec89439197c2014f
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 1b8653b4493e0a6de904ecb0f5bb8ec5bb6f7904
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324607"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014180"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium-preview"></a>Wat zijn gepagineerde rapporten in Power BI Premium? (Voorbeeld)
 
@@ -24,7 +24,7 @@ Gepagineerde rapporten kunnen heel veel pagina's hebben. Dit rapport heeft bijvo
 
 ![Gepagineerd rapport in de Power BI-service](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
-U kunt een voorbeeld van uw rapport bekijken in Report Builder en het rapport vervolgens publiceren naar de Power BI-service, http://app.powerbi.com. U hebt een Power BI Pro-licentie nodig om een rapport te publiceren in de service. U kunt gepagineerde rapporten publiceren en delen in Mijn werkruimte of in de app-werkruimten, zolang de werkruimte zich in een Power BI Premium-capaciteit bevindt. Bovendien moet een beheerder van Power BI gepagineerde rapporten inschakelen in de Power BI-beheerportal. Lees meer over het [configureren van werkbelastingen](service-admin-premium-manage.md#configure-workloads). 
+U kunt een voorbeeld van uw rapport bekijken in Report Builder en het rapport vervolgens publiceren naar de Power BI-service, http://app.powerbi.com. U hebt een Power BI Pro-licentie nodig om een rapport te publiceren in de service. U kunt gepagineerde rapporten publiceren en delen in Mijn werkruimte of in de app-werkruimten, zolang de werkruimte zich in een Power BI Premium-capaciteit bevindt. Bovendien moet een beheerder van Power BI gepagineerde rapporten inschakelen in de Power BI-beheerportal. 
 
 ## <a name="create-reports-in-report-builder"></a>Rapporten maken in Report Builder
 

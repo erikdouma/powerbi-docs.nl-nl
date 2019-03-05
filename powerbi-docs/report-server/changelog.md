@@ -1,6 +1,7 @@
 ---
 title: Wijzigingenlogboek voor Power BI Report Server
 description: Dit is een wijzigingenlogboek voor Power BI Report Server met een overzicht van nieuwe items en oplossingen voor problemen voor elke uitgebrachte build.
+ms.author: jtarquino
 author: jtarquino
 manager: kfile
 ms.reviewer: maggies
@@ -8,13 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.author: jtarquino
-ms.openlocfilehash: 346e1a3d096ba5e8ea8d16b49d49e02c0c65e54a
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 9589c2cf5277995459a9f43f573b6e19c4c8f748
+ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56224037"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57327959"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Wijzigingenlogboek voor Power BI Report Server
 
@@ -23,6 +23,7 @@ Dit is een wijzigingenlogboek voor Power BI Report Server met een overzicht van 
 Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerde informatie over nieuwe functies. 
 
 ## <a name="january-2019"></a>Januari 2019
+
 - **Power BI Report Server**            
     - *Versie 1.4.6969.7395 (build 15.0.1102.235), uitgebracht: 30 januari 2019*
         - Opgeloste fouten
@@ -65,6 +66,7 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerd
         - Bevat de vereiste wijzigingen om verbinding te maken met Power BI Report Server (januari 2019)  
 
 ## <a name="august-2018"></a>Augustus 2018
+
 - **Power BI Report Server**
     - *Versie 1.3.6816.37243 (build 15.0.2.557), uitgebracht: 30 augustus 2018*
         - Opgeloste fouten
@@ -86,6 +88,7 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerd
         - Bevat de vereiste wijzigingen om verbinding te maken met Power BI Report Server (augustus 2018)         
         
 ## <a name="march-2018"></a>Maart 2018
+
 - **Power BI Report Server**
     - *Versie 1.2.6690.34729 (build 15.0.2.402), uitgebracht: 27 april 2018*
         - Opgeloste fouten

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi - developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 7bb805877cf2e7453148d667f863cbbc8b01ee52
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 60441e950eb8ddea386e38731b794a58c2342620
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430712"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014249"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Multitenancy beheren met ingesloten analyse in Power BI
 
@@ -142,7 +142,7 @@ Voor extra isolatie kan een app-ontwikkelaar een *hoofdgebruiker* of een app per
 
 ### <a name="scalability"></a>Schaalbaarheid
 
-Een voordeel van dit model is dat u, door de gegevens te scheiden in meerdere gegevenssets voor elke tenant, niet wordt beperkt door de [limiet van een gegevensset](https://docs.microsoft.com/power-bi/service-premium-large-datasets) (op dit moment 10 GB in een capaciteit). Wanneer de capaciteit overbelast is, [kan deze ongebruikte gegevenssets buitensluiten](../service-premium-understand-how-it-works.md) om geheugen vrij te maken voor actieve gegevenssets. Deze taak is niet mogelijk wanneer u één grote gegevensset hebt. Wanneer u meerdere gegevenssets gebruikt, kunt u tenants indien nodig ook verdelen over meerdere Power BI-capaciteiten. [Meer informatie over hoe capaciteit werkt](../service-admin-premium-manage.md).
+Een voordeel van dit model is dat u, door de gegevens te scheiden in meerdere gegevenssets voor elke tenant, niet wordt beperkt door de [limiet van een gegevensset](https://docs.microsoft.com/power-bi/service-premium-large-datasets) (op dit moment 10 GB in een capaciteit). Wanneer de capaciteit overbelast is, [kan deze ongebruikte gegevenssets buitensluiten](../service-premium-understand-how-it-works.md) om geheugen vrij te maken voor actieve gegevenssets. Deze taak is niet mogelijk wanneer u één grote gegevensset hebt. Wanneer u meerdere gegevenssets gebruikt, kunt u tenants indien nodig ook verdelen over meerdere Power BI-capaciteiten.
 
 Ondanks deze voordelen is het belangrijk om rekening te houden met de schaal die de SaaS-app in de toekomst mogelijk bereikt. U kunt bijvoorbeeld te maken krijgen met beperkingen voor het aantal artefacten dat u kunt beheren. Lees het gedeelte over [implementatiebeperkingen](#summary-comparison-of-the-different-approaches) verderop in dit artikel voor meer informatie. De gebruikte capaciteit-SKU beperkt de hoeveelheid geheugen die gegevenssets nodig hebben, [hoeveel vernieuwingen er tegelijkertijd kunnen worden uitgevoerd](../service-premium-understand-how-it-works.md) en de maximale frequentie van gegevensvernieuwingen. Het is raadzaam om tests uit te voeren wanneer u honderden of duizenden gegevenssets beheert. We raden ook aan rekening te houden met het gemiddelde en piekvolume van gebruik, evenals specifieke tenants met grote gegevenssets of afwijkende gebruikspatronen die anders worden beheerd dan andere tenants.
 
