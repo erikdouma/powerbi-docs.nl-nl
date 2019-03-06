@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 6a44443918fe0bb9c25343c8960aaaadd5a6977e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 8568013438f6be84b2d4a48efdeffd99db352ed8
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285617"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892362"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Gegevens ophalen uit Excel-werkmappen
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -78,7 +78,7 @@ Wanneer u de optie **Verbinden** kiest, wordt uw werkmap weergegeven in Power BI
 
 U kunt uw werkmap niet in Power BI bewerken. Maar als u wijzigingen wilt aanbrengen, kunt u op Bewerken klikken en uw werkmap vervolgens bewerken in Excel Online of openen in Excel op uw computer. Eventuele wijzigingen worden opgeslagen in de werkmap op OneDrive.
 
-Wanneer u op deze manier werkt, wordt er geen gegevensset in Power BI gemaakt. Uw werkmap wordt weergegeven in het navigatiedeelvenster in de Power BI-werkruimte, onder Rapporten. Verbonden werkmappen hebben een speciaal Excel-pictogram.
+Wanneer u deze manier kiest, maakt Power BI een bijbehorende gegevensset voor de gekoppelde werkmap. U kunt deze gegevensset gebruiken om een Power BI-rapport te maken indien nodig. Uw werkmap wordt ook weergegeven in het navigatiedeelvenster in de Power BI-werkruimte, onder Rapporten. Verbonden werkmappen hebben een speciaal Excel-pictogram.
 
 Selecteer deze optie als er alleen gegevens in de werkbladen staan of als u bereiken, draaitabellen en grafieken hebt die u op dashboards wilt vastmaken.
 

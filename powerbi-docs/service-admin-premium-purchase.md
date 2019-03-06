@@ -8,39 +8,30 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/14/2019
+ms.date: 02/26/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: c23c85c7afa16844d2e2e0944fa0aed0d760fc28
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 8922bb329e4b598745fd259c67e74b063368b7be
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794394"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892385"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI Premium aanschaffen
 
-In dit artikel wordt beschreven hoe u Power BI Premium-capaciteit voor uw hele organisatie koopt. U koopt Power BI Premium-capaciteit in het Office 365-beheercentrum en u [beheert uw capaciteiten](service-admin-premium-manage.md) in de Power BI-beheerportal.
+In dit artikel wordt beschreven hoe u Power BI Premium-capaciteit (P1-P3) voor uw hele organisatie koopt. U koopt Power BI Premium-capaciteit in het Office 365-beheercentrum en u [beheert uw capaciteiten](service-admin-premium-manage.md) in de Power BI-beheerportal. Zie de [pagina met Power BI-prijzen](https://powerbi.microsoft.com/pricing/) en de [Power BI Premium-rekenmachine](https://powerbi.microsoft.com/calculator/) voor informatie over de huidige prijzen en de planning.
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/NkvYs5Qp4iA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+Ook als uw organisatie gebruikmaakt van Power BI Premium hebben makers van inhoud een Power BI Pro-licentie nodig. Zorg ervoor dat u ten minste één Power BI Pro-licentie voor uw organisatie koopt.
 
-Zie [Wat is Power BI Premium?](service-premium.md) voor meer informatie over Power BI Premium. Zie de [pagina met Power BI-prijzen](https://powerbi.microsoft.com/pricing/) en de [Power BI Premium-rekenmachine](https://powerbi.microsoft.com/calculator/) voor informatie over de huidige prijzen en de planning.
-
-> [!IMPORTANT]
-> Ook als uw organisatie gebruikmaakt van Power BI Premium hebben auteurs van inhoud een Power BI Pro-licentie nodig. Zorg ervoor dat u ten minste één Power BI Pro-licentie voor uw organisatie koopt.
->
->Als een Premium-abonnement verloopt, houdt u dertig dagen volledige toegang tot uw capaciteit. Daarna keert uw inhoud terug naar een gedeelde capaciteit. Modellen groter dan 1 GB worden niet ondersteund in gedeelde capaciteit.
+Als een Premium-abonnement verloopt, houdt u dertig dagen volledige toegang tot uw capaciteit. Daarna keert uw inhoud terug naar een gedeelde capaciteit. Modellen groter dan 1 GB worden niet ondersteund in gedeelde capaciteit.
 
 ## <a name="create-a-new-tenant-with-power-bi-premium-p1"></a>Een nieuwe tenant maken met Power BI Premium P1
 
-Als u geen bestaande tenant hebt en een tenant wilt maken, kunt u op hetzelfde moment Power BI Premium aanschaffen. Met de volgende koppeling gaat u stapsgewijs door het proces voor het maken van een nieuwe tenant en kunt u Power BI Premium aanschaffen: [Power BI Premium P1-aanbieding](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1).
-
-![Power BI Premium P1](media/service-admin-premium-purchase/premium-purchase-with-tenant.png)
-
-Wanneer u een tenant maakt, wordt aan u automatisch de rol van Office 365-hoofdbeheerder voor die tenant toegewezen.
+Als u geen bestaande tenant hebt en een tenant wilt maken, kunt u op hetzelfde moment Power BI Premium aanschaffen. Met de volgende koppeling gaat u stapsgewijs door het proces voor het maken van een nieuwe tenant en kunt u Power BI Premium aanschaffen: [Power BI Premium P1-aanbieding](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1). Wanneer u een tenant maakt, wordt aan u automatisch de rol van Office 365-hoofdbeheerder voor die tenant toegewezen.
 
 ## <a name="purchase-a-power-bi-premium-capacity-for-an-existing-organization"></a>Een Power BI Premium-capaciteit voor een bestaande organisatie kopen
 
-Als u een bestaande organisatie hebt, moet u de rol van Office 365-hoofdbeheerder of financieel medewerker hebben om abonnementen en licenties te kunnen aanschaffen. Zie [Over Office 365-beheerdersrollen](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) voor meer informatie.
+Als u een bestaande organisatie (tenant) hebt, moet u de rol van Office 365-hoofdbeheerder of financieel medewerker hebben om abonnementen en licenties te kunnen aanschaffen. Zie [Over Office 365-beheerdersrollen](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) voor meer informatie.
 
 Volg deze stappen om een Premium-capaciteit aan te schaffen.
 
@@ -59,19 +50,6 @@ Volg deze stappen om een Premium-capaciteit aan te schaffen.
     ![Nu kopen](media/service-admin-premium-purchase/premium-purchase.png)
 
 1. Volg de stappen om de aankoop te voltooien.
-
-U kunt ook een van de volgende koppelingen selecteren om rechtstreeks naar de aankooppagina voor die SKU te gaan. Zie [Wat is Power BI Premium?](service-premium.md#premium-capacity-nodes) voor meer informatie over deze SKU's.
-
-> [!IMPORTANT]
-> Wanneer u een van de onderstaande koppelingen selecteert, treedt er een fout op als u niet de rol van Office 365-hoofdbeheerder of financieel medewerker hebt.
-
-| Koppelingen voor rechtstreekse aankoop |
-| --- |
-| [EM3 SKU (maandelijks)](https://portal.office.com/commerce/completeorder.aspx?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |
-| [P1 SKU](https://portal.office.com/commerce/completeorder.aspx?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |
-| [P1 SKU (maandelijks)](https://portal.office.com/commerce/completeorder.aspx?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1) |
-| [P2 SKU](https://portal.office.com/commerce/completeorder.aspx?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |
-| [P3 SKU](https://portal.office.com/commerce/completeorder.aspx?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |
 
 Nadat u de aankoop hebt voltooid, wordt op de pagina **Services aanschaffen** weergegeven dat het item is gekocht en actief is.
 
@@ -102,17 +80,13 @@ Op de pagina **Services aanschaffen** wordt aangegeven hoeveel exemplaren u hebt
 
 U kunt uw abonnement vanuit het Office 365-beheercentrum annuleren. Als u uw Premium-abonnement wilt annuleren, gaat u als volgt te werk.
 
-![Abonnement annuleren](media/service-admin-premium-purchase/premium-cancel-subscription.png)
-
 1. Blader naar het Office 365-beheercentrum.
 
 1. Selecteer **Facturering** > **Abonnementen**.
 
 1. Selecteer uw Power BI Premium-abonnement in de lijst.
 
-1. Selecteer in de vervolgkeuzelijst **Meer acties** de optie **Abonnement annuleren**.
-
-    ![Meer acties](media/service-admin-premium-purchase/o365-more-actions.png)
+1. Selecteer **Meer acties** > **Abonnement annuleren**.
 
 1. Op de pagina **Abonnement annuleren** wordt aangegeven of u wel of niet verantwoordelijk bent voor [de kosten voor vroegtijdige beëindiging](https://support.office.com/article/early-termination-fees-6487d4de-401a-466f-8bc3-c0beb5cc40d3). Op deze pagina kunt u ook lezen wanneer de gegevens voor het abonnement worden verwijderd.
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 02/22/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 826338a5e5524bb54c2ebb2207a3d438a8d428b1
-ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
+ms.openlocfilehash: b28c4ea9b4cacc77a7f98af5bfc006670f40af94
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54899222"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892270"
 ---
 # <a name="connect-to-an-oracle-database"></a>Verbinding maken met een Oracle-database
 Om een Oracle-database te kunnen verbinden met **Power BI Desktop**, moet de juiste Oracle-clientsoftware worden geïnstalleerd op de computer waarop Power BI Desktop wordt uitgevoerd. Welke Oracle-clientsoftware u moet gebruiken, is afhankelijk van welke versie van Power BI Desktop u hebt geïnstalleerd: de **32-bits** versie of de **64-bits** versie.
@@ -43,8 +43,13 @@ Zodra het overeenkomende clientstuurprogramma is geïnstalleerd, kunt u verbindi
    
    ![](media/desktop-connect-oracle-database/connect-oracle-database_2.png)
 2. Geef in het dialoogvenster **Oracle-database** dat wordt weergegeven de naam van de server op en selecteer **Verbinding maken**. Als een SID vereist is, kunt u deze opgeven in de volgende indeling: *Servernaam/SID*, waar SID de unieke naam van de database is. Als de indeling *Servernaam/SID* niet werkt, probeert u *Servernaam/Servicenaam*, waarbij Servicenaam de alias is die wordt gebruikt om verbinding te maken.
-   
+
+
    ![](media/desktop-connect-oracle-database/connect-oracle-database_3.png)
+
+   > [!TIP]
+   > Als u problemen ondervindt bij het maken van een verbinding in deze stap, probeert u de volgende indeling in het veld Servernaam: (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=host_name)(PORT=port_num))(CONNECT_DATA=(SERVICE_NAME=service_name)))
+   
 3. Als u gegevens wilt importeren met behulp van een systeemeigen databasequery, kunt u uw query in het vak **SQL-instructie** plaatsen. Dit vak is beschikbaar als u het gedeelte **Geavanceerde opties** van het dialoogvenster **Oracle-database** uitvouwt.
    
    ![](media/desktop-connect-oracle-database/connect-oracle-database_4.png)

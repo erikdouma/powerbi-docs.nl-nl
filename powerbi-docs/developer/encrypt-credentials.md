@@ -2,21 +2,22 @@
 title: Referenties versleutelen
 description: 'Rondleiding: Referenties versleutelen voor on-premises gatewaygegevensbronnen'
 author: mahirdiab
+ms.author: mahirdiab
 manager: eligr
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 04/02/2019
-ms.author: mahirdiab
-ms.openlocfilehash: 79ab3731abfdf972de1ee9d40456ebb0c5ebfa62
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.date: 02/04/2019
+ms.openlocfilehash: 6229d65e7ef28d0c9b6013166cb504cfb976f46d
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223508"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892224"
 ---
 # <a name="encrypt-credentials"></a>Referenties versleutelen
+
 Als u [Gegevensbron maken](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource) of [Gegevensbron bijwerken](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) aanroept onder een **on-premises bedrijfsgateway** met de [REST API van Power BI](https://docs.microsoft.com/rest/api/power-bi/), moet de waarde voor de referenties worden versleuteld met de openbare sleutel van de gateway.
 
 In het codevoorbeeld hieronder ziet u hoe u de referenties in .NET versleutelt.
@@ -24,27 +25,31 @@ In het codevoorbeeld hieronder ziet u hoe u de referenties in .NET versleutelt.
 Referenties die worden opgegeven voor de onderstaande EncodeCredentials-methode, moeten een van de volgende indelingen hebben, afhankelijk van het type referenties:
 
 **Basis-/Windows-referenties**
+
 ```csharp
 var credentials = "{\"credentialData\":[{\"name\":\"username\", \"value\":\"john\"},{\"name\":\"password\", \"value\":\"*****\"}]}";
 ```
 
 **Sleutelreferenties**
+
 ```csharp
 var credentials = "{\"credentialData\":[{\"name\":\"key\", \"value\":\"ec....LA=\"}]}";
 ```
 
 **OAuth2-referenties**
+
 ```csharp
 var credentials = "{\"credentialData\":[{\"name\":\"accessToken\", \"value\":\"eyJ0....fwtQ\"}]}";
 ```
 
-
 **Anonieme referenties**
+
 ```csharp
 var credentials = "{\"credentialData\":\"\"}";
 ```
 
 **Referenties versleutelen**
+
 ```csharp
 public static class AsymmetricKeyEncryptionHelper
 {

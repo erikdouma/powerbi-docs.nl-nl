@@ -8,21 +8,21 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 02/21/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f5896505d724c0704e22c95df132ee3318b23009
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 28db4891ad2ca67fefb0f6ec7d993977bbba7043
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56224014"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892247"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-explain-increases-and-decreases-seen-in-visuals-preview"></a>Inzichten in Power BI Desktop gebruiken om uitleg te bieden over in visuals zichtbare toenamen en afnamen (preview)
 
 U ziet in visuals vaak grote toenamen, gevolgd door flink afgenomen waarden. Vraagt u zich ook wel eens af waardoor deze schommelingen worden veroorzaakt? Met **inzichten** in **Power BI Desktop** kunt u de oorzaak met slechts enkele klikken achterhalen.
 
-Bekijk bijvoorbeeld eens de volgende visual, met daarin de *verkoopbedragen* per *jaar* en *land*. Er is in 2014 een grote afname in de verkoop. De grootste afname vindt plaats tussen *kwartaal 1* en *kwartaal 2*. In dergelijke gevallen kunt u de gegevens verkennen om te achterhalen wat er is veranderd. 
+Bekijk bijvoorbeeld eens de volgende visual, met daarin de *verkoopbedragen* per *jaar* en *kwartaal*. Er is in 2014 een grote afname in de verkoop. De grootste afname vindt plaats tussen *kwartaal 1* en *kwartaal 2*. In dergelijke gevallen kunt u de gegevens verkennen om te achterhalen wat er is veranderd. 
 
 ![Visual met toenamen en afnamen](media/desktop-insights/insights_01a.png)
 

@@ -10,12 +10,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 9b4ff995b1cfaede1608e976bf2715feece0ade6
-ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
+ms.openlocfilehash: 503a722a387c05952933a4cfa9aaa06eccc164da
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56408133"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892316"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Veelgestelde vragen over aangepaste Power BI-visuals
 
@@ -57,8 +57,44 @@ Ja, als de beheerder de aangepaste visuals vanuit de beheerportal uitschakelt, h
 
 ### <a name="what-are-certified-custom-visuals"></a>Wat zijn gecertificeerde aangepaste visuals?
 
-Gecertificeerde aangepaste visuals zijn visuals in de [marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) die voldoen aan bepaalde [opgegeven](power-bi-custom-visuals-certified.md) codevereisten en tests van het Power BI-team.  De testen die worden uitgevoerd, zijn ontworpen om te controleren of de visual geen toegang heeft tot externe services of resources. Microsoft is echter niet de auteur van aangepaste visuals van derden. Klanten wordt aangeraden om rechtstreeks contact op te nemen met de auteur om de functionaliteit van dergelijke visuals te controleren.
+Gecertificeerde aangepaste visuals zijn visuals in de [marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) die voldoen aan bepaalde [opgegeven](power-bi-custom-visuals-certified.md) codevereisten en testen van het Power BI-team.  De testen die worden uitgevoerd, zijn ontworpen om te controleren of de visual geen toegang heeft tot externe services of resources. Microsoft is echter niet de auteur van externe aangepaste visuals en klanten wordt aangeraden om rechtstreeks contact op te nemen met de auteur om de functionaliteit van dergelijke visuals te controleren.
 
+### <a name="what-tests-are-done-during-the-certification-process"></a>Welke testen zijn uitgevoerd tijdens het certificeringsproces?
+
+De testen van het certificeringsproces omvatten maar zijn niet beperkt tot: Coderevisies, statische codeanalyse, gegevenslekken, gegevensfuzzing, indringingstesten, testen van toegangs-XSS, schadelijke gegevensinjectie, invoervalidatie en functionele testen.
+ 
+### <a name="do-you-certify-visuals-every-submission"></a>Worden visuals bij elke inzending gecertificeerd?
+
+Ja. Telkens wanneer een nieuwe versie van een gecertificeerde visuals wordt verzonden naar de Marketplace, ondergaat de versie-update van de visual dezelfde certificeringscontroles.
+
+Opmerking voor ontwikkelaars: Als u een versie-update van een gecertificeerde visual verzendt, hoeft u geen afzonderlijke e-mail als [eerste certificeringsaanvraag](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified#process-for-submitting-a-custom-visual-for-certification) te verzenden. Certificering van versie-updates wordt automatisch uitgevoerd en voor eventuele schendingen die leiden tot een afwijzing wordt in een e-mail aangegeven wat er moet worden hersteld. 
+
+### <a name="is-it-possible-that-a-certified-visual-stops-being-certified-with-a-new-update"></a>Is het mogelijk dat een gecertificeerde visual niet meer gecertificeerd wordt met een nieuwe update?
+
+Nee, dit is niet mogelijk. Het is niet mogelijk dat een gecertificeerde visual niet-gecertificeerd is met een nieuwe update. De update is geweigerd.
+ 
+### <a name="do-i-need-to-share-my-code-in-public-repository-if-i-am-submitting-to-the-certification-process"></a>Moet ik mijn code delen in de openbare opslagplaats als ik verzend naar het certificeringsproces?
+
+Nee, u hoeft uw code niet openbaar te delen. U moet ons echter leesmachtigingen verlenen om de code van de visuals te controleren. Bijvoorbeeld privéopslagplaats in GitHub.
+ 
+### <a name="do-we-have-to-publishhttpsdocsmicrosoftcompower-bideveloperoffice-store-the-visual-in-the-marketplacehttpsappsourcemicrosoftcommarketplaceappspage1productpower-bi-visuals-to-certify-it"></a>Moeten we de visual [publiceren](https://docs.microsoft.com/power-bi/developer/office-store) in [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) om deze te certificeren?
+
+Ja. De visual eerst publiceren op Marketplace is een vereiste voor certificering.
+Als u een bepaalde visual wilt certificeren, moet deze zich op onze servers bevinden. Persoonlijke visuals kunnen niet worden gecertificeerd.
+ 
+### <a name="how-long-does-it-take-to-certify-my-visual"></a>Hoe lang duurt om mijn visual te laten certificeren?
+
+Voor een bijgewerkte versie kan dit maximaal twee weken duren. Voor een nieuwe indiening (eerst certificering) kan het maximaal drie weken duren. 
+
+### <a name="does-the-certification-process-ensure-that-no-data-leakage-occurs"></a>Zorgt het certificeringsproces ervoor dat er geen gegevens worden gelekt?
+
+De testen die worden uitgevoerd, zijn ontworpen om te controleren of de visual geen toegang heeft tot externe services of resources. Microsoft is echter niet de auteur van externe aangepaste visuals en klanten wordt aangeraden om rechtstreeks contact op te nemen met de auteur om de functionaliteit van dergelijke visuals te controleren.
+ 
+### <a name="are-uncertified-custom-visuals-safe-to-use"></a>Zijn niet-gecertificeerde, aangepaste visuals veilig om te gebruiken?
+
+Niet-gecertificeerde aangepaste visuals zijn niet automatisch onveilige visuals.
+Sommige visuals zijn niet gecertificeerd omdat ze niet aan een of meer [certificeringsvereisten](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements) voldoen. Bijvoorbeeld als er verbinding wordt gemaakt met een externe service zoals kaartvisuals of visuals waarvoor commerciële bibliotheken worden gebruikt.
+ 
 ## <a name="visuals-with-additional-purchases"></a>Visuals met aanvullende aankopen
 
 ### <a name="what-is-a-visual-with-additional-purchases"></a>Wat is een visual met aanvullende aankopen?
@@ -100,7 +136,6 @@ Als u een logo in de aangepaste visual gebruikt, zorgt u ervoor dat deze aan de 
 In de richtlijnen staan ook aanbevolen procedures.  
 > [!Note]
 > Alle gratis visuals zouden dezelfde eerder aangeboden gratis functies moeten behouden. U kunt naast de oude gratis functies geavanceerde betaalde functies als optie toevoegen. U wordt aangeraden om de IAP-visuals met de geavanceerde functies als nieuwe visuals in te dienen en niet de oude gratis exemplaren bij te werken.
-
 
 ### <a name="can-i-get-my-iap-custom-visual-certified"></a>Kan ik mijn aangepaste IAP-visual laten certificeren?
 

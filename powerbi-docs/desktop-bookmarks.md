@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/14/2019
+ms.date: 02/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fda2732ff33c324377a73ceb93480fbbcdd404bd
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 59d5ccd6a7179ca4c44210854fb66abb5371ac6c
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325035"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892408"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Bladwijzers gebruiken om inzichten te delen en verhalen te vertellen in Power BI 
 Met behulp van **bladwijzers** in Power BI kunt u de momenteel geconfigureerde weergave van een rapportpagina vastleggen, inclusief filters en de status van visuals, en later terugkeren naar deze staat door eenvoudig de opgeslagen bladwijzer te selecteren. 
@@ -25,6 +25,9 @@ U kunt ook een verzameling bladwijzers maken, deze rangschikken in de gewenste v
 ![Bladwijzers in Power BI](media/desktop-bookmarks/bookmarks_01.png)
 
 Er zijn vele toepassingen voor bladwijzers. U kunt ze gebruiken om uw eigen voortgang bij het maken van rapporten bij te houden (u kunt bladwijzers eenvoudig toevoegen, verwijderen en wijzigen) en u kunt bladwijzers maken om een PowerPoint-achtige presentatie te maken, waarbij u bladwijzers op volgorde doorloopt om zo met uw rapport een verhaal te vertellen. Er zijn mogelijk ook andere toepassingen, afhankelijk van hoe u bladwijzers het beste denkt te kunnen gebruiken.
+
+> [!TIP]
+> Bekijk het [blogbericht](https://powerbi.microsoft.com/blog/announcing-personal-bookmarks-in-the-power-bi-service/) over de functie voor persoonlijke bladwijzers voor meer informatie over het gebruik van persoonlijke bladwijzers in de Power BI-service. 
 
 ### <a name="enable-the-bookmarks-preview-versions-prior-to-march-2018"></a>Preview-functie voor bladwijzers inschakelen (versies vóór maart 2018)
 Met ingang van de versie van maart 2018 van Power BI Desktop zijn bladwijzers algemeen beschikbaar. 
