@@ -8,19 +8,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/15/2019
+ms.date: 02/28/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: a048f589b19acd1a7c38a5b81cf781d1e76b7b5b
-ms.sourcegitcommit: 187d20180d9bae5a2ec53748cede9e7301e0343e
+ms.openlocfilehash: cb9280f47f1f2d28ce6fabda2dbc173fbdc837ac
+ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "56725335"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57226130"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Wat is Microsoft Power BI Premium?
 
-Microsoft Power BI Premium biedt resources die speciaal zijn ontwikkeld om de Power BI-service voor uw organisatie uit te voeren. Dit resulteert in betrouwbaardere prestaties en u kunt grotere gegevensvolumes verwerken. Premium biedt ook de mogelijkheid tot een wijdverspreide distributie zonder dat u per gebruiker Pro-licenties hoeft te kopen voor inhoudsgebruikers.  
+> [!NOTE]
+> Dit artikel wordt momenteel bijgewerkt met beschrijvingen van nieuwe functies, meer informatie en betere leesbaarheid. Zie [Power BI Premium-capaciteiten implementeren en beheren](whitepaper-powerbi-premium-deployment.md) voor het laatste nieuws.
+
+Power BI Premium bevat toegewezen resources om de Power BI-service voor uw organisatie uit te voeren. Dit resulteert in betrouwbaardere prestaties en u kunt grotere gegevensvolumes verwerken. Premium biedt ook de mogelijkheid tot een wijdverspreide distributie zonder dat u per gebruiker Pro-licenties hoeft te kopen voor inhoudsgebruikers.  
 
 ## <a name="premium-capacity-and-shared-capacity"></a>Premium-capaciteit en gedeelde capaciteit
 
@@ -79,9 +82,7 @@ Power BI Premium is beschikbaar in knooppuntconfiguraties met verschillende v-co
 
 ## <a name="workloads-in-premium-capacity"></a>Workloads in Premium-capaciteit
 
-Een workload in Power BI kunt u zien als een van de vele services die u beschikbaar kunt stellen aan gebruikers. De standaardconfiguratie is dat capaciteiten voor  **Power BI Premium** en **Power BI Embedded** alleen de workload ondersteunen die is gekoppeld aan het uitvoeren van Power BI-query's in de cloud.
-
-We bieden nu preview-ondersteuning voor twee extra workloads: **Gepagineerde rapporten** en **Gegevensstromen**. U kunt deze workloads inschakelen in de Power BI-beheerportal of via de REST-API van Power BI. U geeft ook de maximale hoeveelheid geheugen op die elke workload kan gebruiken, zodat u kunt bepalen hoe de verschillende workloads van invloed zijn op elkaar. Zie [Workloads configureren](service-admin-premium-manage.md#configure-workloads) voor meer informatie.
+De standaardconfiguratie is dat capaciteiten voor  **Power BI Premium** en **Power BI Embedded** alleen de workload ondersteunen die is gekoppeld aan het uitvoeren van Power BI-query's in de cloud. Premium biedt tevens ondersteuning voor extra workloads voor **AI**, **gegevensstromen** en **gepagineerde rapporten**. U kunt deze workloads inschakelen in de Power BI-beheerportal of via de REST-API van Power BI. U geeft ook de maximale hoeveelheid geheugen op die elke workload kan gebruiken, zodat u kunt bepalen hoe de verschillende workloads van invloed zijn op elkaar. Zie [Workloads configureren](service-admin-premium-workloads.md) voor meer informatie.
 
 ### <a name="default-memory-settings"></a>Standaardinstellingen voor geheugen
 
@@ -114,10 +115,10 @@ Met Power BI Premium kunt u Power BI Report Server ook on-premises uitvoeren in 
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[Veelgestelde vragen over Power BI Premium](service-premium-faq.md)
-[Power BI Premium kopen](service-admin-premium-purchase.md)
-[Power BI Premium beheren](service-admin-premium-manage.md)
-[Whitepaper over Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
-[Whitepaper: Een Power BI Enterprise-implementatie plannen](https://aka.ms/pbienterprisedeploy)
+[Power BI Premium-capaciteiten implementeren en beheren](whitepaper-powerbi-premium-deployment.md)   
+[Power BI Premium aanschaffen](service-admin-premium-purchase.md)   
+[Veelgestelde vragen over Power BI Premium](service-premium-faq.md)   
+
+
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

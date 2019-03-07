@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: cb4d53166c848bcdb111b667ff413d96da9e72d5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f6a17a3e4033d5a97c5ae7744fef955aeed16eeb
+ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290516"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57327729"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Security Assertion Markup Language (SAML) gebruiken om eenmalige aanmelding (SSO) bij on-premises gegevensbronnen vanuit Power BI mogelijk te maken
 
@@ -56,53 +56,6 @@ Als u gebruik wilt maken van SAML, moet u eerst een certificaat voor de SAML-id-
 1. Selecteer de id-provider die u in stap 2 hebt gemaakt. Voer bij **Externe id** de UPN van de Power BI-gebruiker in en selecteer **Toevoegen**.
 
     ![Id-provider selecteren](media/service-gateway-sso-saml/select-identity-provider.png)
-
-Valideer de configuratie vervolgens met een *SAML-verklaring* met behulp van het hulpprogramma [xmlsec1](http://sgros.blogspot.com/2013/01/signing-xml-document-using-xmlsec1.html).
-
-1. Sla de verklaring hieronder op als assertion-template.xml. Vervang \<MyUserId\> door de UPN van de Power BI-gebruiker die u hebt ingevoerd in stap 7.
-
-    ```xml
-    <?xml version="1.0" encoding="UTF-8" ?>
-    <saml2:Assertion ID="Assertion12345789" IssueInstant="2015-07-16T04:47:49.858Z" Version="2.0" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">
-      <saml2:Issuer></saml2:Issuer> 
-      <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
-        <SignedInfo>
-          <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
-          <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
-          <Reference URI="">
-            <Transforms>
-              <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
-              <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
-            </Transforms>
-            <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
-            <DigestValue />
-          </Reference>
-        </SignedInfo>
-        <SignatureValue />
-        <KeyInfo>
-          <X509Data />
-        </KeyInfo>
-      </Signature>
-      <saml2:Subject>
-        <saml2:NameID Format="urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified"><MyUserId></saml2:NameID>
-      </saml2:Subject>
-      <saml2:Conditions NotBefore="2010-01-01T00:00:00Z" NotOnOrAfter="2050-01-01T00:00:00Z"/>
-    </saml2:Assertion>
-    ```
-
-1. Voer de volgende opdracht uit. saltest.key en samltest.crt zijn de sleutel en het certificaat die u in stap 1 hebt gegenereerd.
-
-    ```
-    xmlsec1 --sign --privkey-pem samltest.key, samltest.crt --output signed.xml assertion-template.xml
-    ```
-
-1. Open in SAP HANA Studio een SQL-consolevenster en voer de volgende opdracht uit. Vervang \<SAMLAssertion\> met de XML-inhoud van de vorige stap.
-
-    ```SQL
-    CONNECT WITH SAML ASSERTION '<SAMLAssertion>'
-    ```
-
-Als de query slaagt, betekent dit dat de SAML SSO-configuratie voor SAP HANA is voltooid.
 
 Nu u het certificaat en de identiteit hebt geconfigureerd, kunt u het certificaat converteren naar pfx-indeling en het gateway-apparaat configureren voor gebruik van het certificaat.
 

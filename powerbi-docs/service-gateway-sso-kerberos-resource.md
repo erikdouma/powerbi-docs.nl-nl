@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: f13074c2123808e7b26d40f9c5a7e20cbf0da6e4
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e1d8d240e4fd5bc05fc015f1c12971a8646370dd
+ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291789"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57226107"
 ---
 # <a name="use-resource-based-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Kerberos op basis van resources gebruiken voor eenmalige aanmelding (SSO) bij on-premises gegevensbronnen vanuit Power BI
 
@@ -39,7 +39,7 @@ In een standaardinstallatie wordt de gateway uitgevoerd als een lokaal serviceac
 
 ![Domeinaccount](media/service-gateway-sso-kerberos-resource/domain-account.png)
 
-Om **beperkte delegatie van Kerberos in te schakelen, moet de gateway worden uitgevoerd als een domeinaccount, tenzij uw Azure AD al wordt gesynchroniseerd met uw lokale Active Directory (via Azure AD DirSync/Connect). Zie [Overschakelen van de gateway naar een domeinaccount](service-gateway-sso-kerberos.md#switching-the-gateway-to-a-domain-account) verderop in dit artikel als u van het account wilt overschakelen naar een domeinaccount.
+Om **beperkte delegatie van Kerberos in te schakelen, moet de gateway worden uitgevoerd als een domeinaccount, tenzij uw Azure AD al wordt gesynchroniseerd met uw lokale Active Directory (via Azure AD DirSync/Connect). Zie [Overschakelen van de gateway naar een domeinaccount](service-gateway-sso-kerberos.md) als u van het account wilt overschakelen naar een domeinaccount.
 
 Als Azure AD DirSync/Connect is geconfigureerd en gebruikersaccounts zijn gesynchroniseerd, hoeft de gatewayservice tijdens runtime geen lokale AD-zoekacties uit te voeren. U kunt het lokale Service-SID gebruiken (in plaats van een domeinaccount) voor de gatewayservice. De stappen voor het configureren van beperkte Kerberos-delegering die in dit artikel worden beschreven zijn verder hetzelfde als voor die configuratie (ze worden eenvoudigweg toegepast op het computerobject van de gateway - in Active Directory in plaats van in het domeinaccount).
 

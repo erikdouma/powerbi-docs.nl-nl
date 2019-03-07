@@ -8,15 +8,15 @@ featuredvideoid: ajTPGNpthcg
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 02/26/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 23e237428b86046cf75b02e2e98082da18d671cf
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5ae83079ae0dffca42498644f4de628bc626bb5e
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286677"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014456"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Tips en trucs voor kaartvisualisaties in Power BI
 Power BI biedt integratie met Bing Kaarten om standaard kaartcoördinaten te bieden (een proces dat geocodering wordt genoemd) zodat u kaarten kunt maken. In beide worden algoritmen gebruikt voor het identificeren van de juiste locatie, maar soms is het een schatting. Als pogingen om de kaartvisualisatie te maken in Power BI mislukken, wordt de hulp van Bing Kaarten ingeroepen. 
@@ -31,8 +31,8 @@ Gebruik de volgende tips om de kans te verhogen dat de geocodering goed verloopt
 ## <a name="what-is-sent-to-bing-maps"></a>Welke gegevens worden verzonden naar Bing Kaarten?
 In de Power BI-service en Power BI Desktop worden de benodigde geografische gegevens voor het maken van de kaartvisualisatie naar Bing verzonden. Dit kunnen ook de gegevens uit de buckets **Locatie**, **Breedtegraad** en **Lengtegraad** en de geovelden uit de buckets voor filters op **rapportniveau**, **paginaniveau** of het **niveau van visuele elementen** zijn. Welke gegevens precies worden verzonden, verschilt per kaarttype. Zie de [privacyverklaring van Bing Kaarten](https://go.microsoft.com/fwlink/?LinkID=248686) voor meer informatie.
 
-* Als de lengte- en breedtegraad voor kaarten (bellenkaarten) zijn opgegeven, worden er geen gegevens verzonden naar Bing. Anders worden alle gegevens uit de bucket Locatie (en buckets voor filters) verzonden naar Bing.     
-* Voor choropletenkaarten is een veld in de bucket Locatie vereist, zelfs als de lengte- en breedtegraad zijn opgegeven. Alle gegevens uit de buckets Locatie, Breedtegraad en Lengtegraad worden verzonden naar Bing.
+* Als de lengte- en breedtegraad voor kaarten (bellenkaarten) zijn opgegeven, worden er geen gegevens verzonden naar Bing. Anders worden alle gegevens uit de bucket **Locatie** (en buckets voor filters) verzonden naar Bing.     
+* Voor choropletenkaarten is een veld in de bucket **Locatie** vereist, zelfs als de lengte- en breedtegraad zijn opgegeven. Alle gegevens uit de buckets **Locatie**, **Breedtegraad** en **Lengtegraad** worden verzonden naar Bing.
   
     In het onderstaande voorbeeld wordt het veld **Leverancier** gebruikt voor de geocodering, dus alle leveranciersgegevens worden verzonden naar Bing. De gegevens uit de buckets **Grootte** en **Kleurverzadiging** worden niet verzonden naar Bing.
   

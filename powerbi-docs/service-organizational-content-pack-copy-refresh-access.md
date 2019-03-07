@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f42e9f69c3cdab945c0f000a0cc2ae4654d9ec9b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 6a1834c88fbd7077f49560bc56b545539917ed3e
+ms.sourcegitcommit: 086b610cdfd1df5de61abb47acf97589df128a4c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296110"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57196431"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>Organisatie-inhoudspakketten: Kopiëren, vernieuwen en toegang krijgen
 
@@ -36,6 +36,12 @@ Maak uw eigen kopie van het inhoudspakket die niet zichtbaar is voor anderen.
 2. Selecteer **Opslaan**.  
 
 U hebt nu een kopie die u kunt wijzigen. Niemand anders ziet de wijzigingen die u aanbrengt.
+
+> [!NOTE]
+> Voorheen werd telkens een nieuwe gegevensset in de inhoudslijst van de werkruimte weergegeven wanneer u een inhoudspakket installeerde of hiervan een kopie maakte. Dankzij een recente update is de ervaring vereenvoudigd en wordt nu nog maar één item weergegeven met behulp van het nieuwe pictogram voor de gegevensset waarnaar wordt verwezen:
+>
+> ![pictogram database met koppeling](media/service-organizational-content-pack-copy-refresh-access/power-bi-dataset-reference-icon.png)
+> 
 
 ## <a name="help--i-can-no-longer-access-the-content-pack"></a>Help!  Ik heb geen toegang meer tot het inhoudspakket
 Dit kan gebeuren om verschillende redenen:

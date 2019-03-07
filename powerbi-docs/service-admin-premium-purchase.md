@@ -8,18 +8,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/26/2019
+ms.date: 02/28/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 8922bb329e4b598745fd259c67e74b063368b7be
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: b4f2d58b9e33e603b6e2dbc97972bb54c66f065c
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892385"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014134"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI Premium aanschaffen
 
-In dit artikel wordt beschreven hoe u Power BI Premium-capaciteit (P1-P3) voor uw hele organisatie koopt. U koopt Power BI Premium-capaciteit in het Office 365-beheercentrum en u [beheert uw capaciteiten](service-admin-premium-manage.md) in de Power BI-beheerportal. Zie de [pagina met Power BI-prijzen](https://powerbi.microsoft.com/pricing/) en de [Power BI Premium-rekenmachine](https://powerbi.microsoft.com/calculator/) voor informatie over de huidige prijzen en de planning.
+> [!NOTE]
+> Dit artikel wordt momenteel bijgewerkt met beschrijvingen van nieuwe functies, meer informatie en betere leesbaarheid. 
+
+In dit artikel wordt beschreven hoe u Power BI Premium-capaciteit (P1-P3) voor uw hele organisatie koopt. U koopt Power BI Premium-capaciteit in het Office 365-beheercentrum en u beheert uw capaciteiten in de Power BI-beheerportal. Zie de [pagina met Power BI-prijzen](https://powerbi.microsoft.com/pricing/) en de [Power BI Premium-rekenmachine](https://powerbi.microsoft.com/calculator/) voor informatie over de huidige prijzen en de planning.
 
 Ook als uw organisatie gebruikmaakt van Power BI Premium hebben makers van inhoud een Power BI Pro-licentie nodig. Zorg ervoor dat u ten minste één Power BI Pro-licentie voor uw organisatie koopt.
 

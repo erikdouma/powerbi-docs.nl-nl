@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: f50305eed647bfc94bc5c19ee1a298cb9ac9c782
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: fdc4e90c65ef02f7416ffce9a41b0b2ed028abc8
+ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762692"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57328005"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Beveiliging op rijniveau met Power BI Embedded
 
@@ -89,7 +89,7 @@ Met de API wordt een lijst identiteiten geaccepteerd met vermelding van de relev
 
 U kunt het insluittoken maken met behulp van de methode **GenerateTokenInGroup** in **PowerBIClient.Reports**.
 
-U kunt bijvoorbeeld het voorbeeld [PowerBIEmbedded_AppOwnsData](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) wijzigen. *Home\HomeController.cs regel 76 en 77* kunnen worden gewijzigd van:
+U kunt bijvoorbeeld het voorbeeld [PowerBIEmbedded_AppOwnsData](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) wijzigen. *Services\EmbedService.cs regel 76 en 77* kunnen worden bijgewerkt van:
 
 ```csharp
 // Generate Embed Token.

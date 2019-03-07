@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/22/2019
+ms.date: 03/01/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d388812985ce30b5692a385fc44e3cf7fc49161f
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: 4c32f27a04b055eb67015d9c8308866b972c06a7
+ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892339"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57226084"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Selfservice voor gegevensvoorbereiding in Power BI (preview)
 
@@ -75,9 +75,7 @@ Zie [Integratie van gegevensstromen en Azure Data Lake (preview)](service-datafl
 
 ## <a name="dataflow-capabilities-on-power-bi-premium"></a>Mogelijkheden voor gegevensstromen in Power BI Premium
 
-Om te kunnen profiteren van de functies en werkbelastingen voor gegevensstromen in een Power BI Premium-abonnement, moet de werkbelasting van de gegevensstroom voor die Premium-capaciteit worden ingeschakeld. Zie het artikel [Wat is Power BI Premium](service-premium.md) voor meer informatie over Power BI Premium. 
-
-De volgende tabel bevat een beschrijving van de functies voor gegevensstromen en de bijbehorende mogelijkheden bij het gebruik van een Power BI Pro-account ten opzichte van het gebruik van Power BI Premium.
+Om te kunnen profiteren van de functies en werkbelastingen voor gegevensstromen in een Power BI Premium-abonnement, moet de werkbelasting van de gegevensstroom voor die Premium-capaciteit worden ingeschakeld. De volgende tabel bevat een beschrijving van de functies voor gegevensstromen en de bijbehorende mogelijkheden bij het gebruik van een Power BI Pro-account ten opzichte van het gebruik van Power BI Premium.
 
 
 |Capaciteit van gegevensstroom | Power BI Pro |   Power BI Premium |
@@ -95,7 +93,7 @@ De volgende tabel bevat een beschrijving van de functies voor gegevensstromen en
 |Gekoppelde entiteiten in gegevensstromen| |        +|
 |Gestandaardiseerd schema / Ingebouwde ondersteuning voor Common Data Model|  +|  +|
 
-Raadpleeg het artikel voor Power BI Premium over [werkbelastingen configureren](service-admin-premium-manage.md#configure-workloads) voor meer informatie over hoe u werkbelastingen voor gegevensstromen inschakelt. Werkbelastingen voor gegevensstromen zijn momenteel niet beschikbaar in capaciteiten met meerdere geografische gebieden.
+Zie [Werkbelastingen configureren inn een Premium-capaciteit](service-admin-premium-workloads.md) voor meer informatie over hoe u werkbelastingen voor gegevensstromen inschakelt in Premium-capaciteit. Werkbelastingen voor gegevensstromen zijn momenteel niet beschikbaar in capaciteiten met meerdere geografische gebieden.
 
 ## <a name="summary-of-self-service-data-prep-for-big-data-in-power-bi"></a>Samenvatting van selfservice voor gegevensvoorbereiding voor big data in Power BI
 Zoals eerder vermeld in dit artikel, zijn er meerdere scenario's en voorbeelden waarin **gegevensstromen** u in staat stellen om meer controle over - en sneller inzichten in - uw zakelijke gegevens te krijgen. Met behulp van een standaardgegevensmodel (schema) dat is gedefinieerd in Common Data Model, kunt u met gegevensstromen waardevolle bedrijfsgegevens importeren en deze in zeer korte tijd voorbereiden voor het maken van modellen en BI-inzichten... iets wat vroeger maanden of langer duurde. 
