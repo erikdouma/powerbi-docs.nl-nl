@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/08/2018
+ms.date: 02/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7b835231356ad14ab434b86a2d1f99aa7212358d
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: 2f64973650edd951a9a780090426afba3e8471f5
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215625"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555596"
 ---
 # <a name="export-reports-to-pdf-from-power-bi-desktop"></a>Rapporten naar PDF exporteren vanuit Power BI Desktop
-In **Power BI Desktop** kunt u rapporten exporteren naar een PDF-bestand en zo uw rapporten eenvoudig delen of afdrukken vanuit dat PDF-bestand.
+In **Power BI Desktop** of de Power BI-service kunt u rapporten exporteren naar een PDF-bestand en zo uw rapporten eenvoudig delen of afdrukken vanuit dat PDF-bestand.
 
 ![Exporteren naar PDF](media/desktop-export-to-pdf/export-to-pdf_01.png)
 
@@ -35,7 +35,6 @@ Wanneer het exportproces is voltooid, wordt het PDF-bestand geladen in de standa
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 Er zijn enkele overwegingen waarmee u rekening moet houden als u de functie **Exporteren naar PDF** wilt gebruiken:
 
-* De functie **Exporteren naar PDF** is alleen beschikbaar met **Power BI Desktop** en is momenteel niet beschikbaar in de **Power BI-service**.
 * Met de functie worden wel aangepaste visuals, maar *geen* achtergrond geëxporteerd die u mogelijk hebt toegepast op het rapport.
 
 Aangezien de achtergrond niet wordt geëxporteerd naar het PDF-bestand, dient u speciale aandacht te schenken aan rapporten die gebruikmaken van donkere achtergrond. Als de tekst in uw rapport van een lichte kleur of wit is om deze te laten opvallen tegen de donkere achtergrond, wordt deze moeilijk te lezen of onleesbaar bij het proces Exporteren naar PDF, aangezien de achtergrond niet met de rest van het rapport wordt geëxporteerd. 

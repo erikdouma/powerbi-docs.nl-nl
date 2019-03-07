@@ -1,5 +1,5 @@
 ---
-title: Opslagmodus gebruiken in Power BI Desktop (preview-versie)
+title: Opslagmodus in Power BI Desktop gebruiken
 description: Gebruik de opslagmodus om te bepalen of gegevens in het cachegeheugen worden opgeslagen voor rapporten in Power BI Desktop
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 02/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 26ab2ec7dfd7a091a6a7df89ee4492dc124ed60c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f84e2f95c8ae209828eb1c21f34253015e07aefa
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279177"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555854"
 ---
-# <a name="storage-mode-in-power-bi-desktop-preview"></a>Opslagmodus in Power BI Desktop (preview-versie)
+# <a name="storage-mode-in-power-bi-desktop"></a>Opslagmodus in Power BI Desktop
 
 In Microsoft Power BI Desktop kunt u de *opslagmodus* van tabellen opgeven. Met de *opslagmodus* kunt u bepalen of tabelgegevens voor rapporten in een geheugencache worden opgeslagen in Power BI Desktop. 
 
@@ -37,9 +37,9 @@ Het instellen van de opslagmodus biedt verschillende voordelen. U kunt de opslag
 
 De opslagmodusinstelling in Power BI Desktop is een van drie gerelateerde functies:
 
-* **Samengestelde modellen**: hiermee wordt het mogelijk dat een rapport twee of meer gegevensverbindingen heeft, inclusief DirectQuery-verbindingen of importverbindingen, in elke gewenste combinatie. Zie [Samengestelde modellen gebruiken in Power BI Desktop (preview-versie)](desktop-composite-models.md) voor meer informatie.
+* **Samengestelde modellen**: hiermee wordt het mogelijk dat een rapport twee of meer gegevensverbindingen heeft, inclusief DirectQuery-verbindingen of importverbindingen, in elke gewenste combinatie. Zie [Samengestelde modellen gebruiken in Power BI Desktop](desktop-composite-models.md) voor meer informatie.
 
-* **Veel-op-veel-relaties**: met *samengestelde modellen* kunt u *veel-op-veel-relaties* tussen tabellen tot stand brengen. Met *veel-op-veel-relaties* zijn unieke waarden in tabellen niet meer vereist. Ook zijn eerdere tijdelijke oplossingen niet meer nodig, zoals de introductie van nieuwe tabellen alleen maar voor het tot stand brengen van relaties. Zie [Veel-op-veel-relaties in Power BI Desktop (preview-versie)](desktop-many-to-many-relationships.md) voor meer informatie.
+* **Veel-op-veel-relaties**: met *samengestelde modellen* kunt u *veel-op-veel-relaties* tussen tabellen tot stand brengen. Met *veel-op-veel-relaties* zijn unieke waarden in tabellen niet meer vereist. Ook zijn eerdere tijdelijke oplossingen niet meer nodig, zoals de introductie van nieuwe tabellen alleen maar voor het tot stand brengen van relaties. Zie [Veel-op-veel-relaties in Power BI Desktop](desktop-many-to-many-relationships.md) voor meer informatie.
 
 * **Opslagmodus**: u kunt nu opgeven voor welke visualisaties een query naar de back-endgegevensbronnen is vereist. Visuals waarvoor geen query is vereist, worden geïmporteerd zelfs als ze zijn gebaseerd op DirectQuery. De functie helpt de prestaties te verbeteren en de back-end minder te belasten. Eerder werden zelfs voor eenvoudige visualisaties, zoals slicers, query's verzonden naar de back-end-bronnen. De opslagmodus wordt verder beschreven in dit artikel.
 
@@ -127,13 +127,13 @@ De volgende query is interessant omdat hierin beide kolommen worden gecombineerd
 ![Script voor diagnose van opslagmodus](media/desktop-storage-mode/storage-mode_08.png)
 
 > [!NOTE]
-> Dit gedrag verschilt van [veel-op-veel-relaties in Power BI Desktop (preview-versie)](desktop-many-to-many-relationships.md) waarbij tabellen die wel en tabellen die niet in de cache zijn opgeslagen, worden gecombineerd.
+> Dit gedrag verschilt van [veel-op-veel-relaties in Power BI Desktop](desktop-many-to-many-relationships.md) waarbij tabellen die wel en tabellen die niet in de cache zijn opgeslagen, worden gecombineerd.
 
 ## <a name="caches-should-be-kept-in-sync"></a>Caches moeten steeds worden gesynchroniseerd
 
 De query's in het vorige gedeelte laten zien dat **Dual**-tabellen soms wel een hit opleveren uit de cache en soms niet. Als gevolg hiervan kunnen er verschillende waarden worden geretourneerd wanneer de cache is verouderd. Bij het uitvoeren van query's wordt er niet geprobeerd om gegevensproblemen te maskeren, bijvoorbeeld door DirectQuery resultaten te filteren zodat deze overeenkomen met de waarden in de cache. Het is uw verantwoordelijkheid om te weten hoe de gegevensstromen lopen en uw ontwerp hierop af te stemmen. Er zijn in de praktijk bewezen technieken om dergelijke gevallen bij de bron af te handelen, indien nodig.
 
-De opslagmodus *Dual* biedt een optimalisatie van prestaties. Gebruik de modus alleen op manieren die geen conflict opleveren met het voldoen aan zakelijke vereisten. Voor een alternatieve aanpak kunt u de technieken overwegen die worden beschreven in het artikel [Veel-op-veel-relaties in Power BI Desktop (preview-versie)](desktop-many-to-many-relationships.md).
+De opslagmodus *Dual* biedt een optimalisatie van prestaties. Gebruik de modus alleen op manieren die geen conflict opleveren met het voldoen aan zakelijke vereisten. Voor een alternatieve aanpak kunt u de technieken overwegen die worden beschreven in het artikel [Veel-op-veel-relaties in Power BI Desktop](desktop-many-to-many-relationships.md).
 
 ## <a name="data-view"></a>Gegevensweergave
 Als voor minstens één tabel in de gegevensset de opslagmodus is ingesteld op **Importeren** of **Dual**, wordt het tabblad **Gegevensweergave** weergegeven.
@@ -162,7 +162,7 @@ De bestaande beperkingen van het gebruik van DirectQuery gelden nog steeds wanne
 ## <a name="next-steps"></a>Volgende stappen
 
 Zie de volgende artikelen voor meer informatie over samengestelde modellen en DirectQuery:
-* [Samengestelde modellen in Power BI Desktop (preview-versie)](desktop-composite-models.md)
-* [Veel-op-veel-relaties in Power BI Desktop (preview-versie)](desktop-many-to-many-relationships.md)
+* [Samengestelde modellen in Power BI Desktop](desktop-composite-models.md)
+* [Veel-op-veel-relaties in Power BI Desktop](desktop-many-to-many-relationships.md)
 * [DirectQuery in Power BI gebruiken](desktop-directquery-about.md)
 * [Gegevensbronnen die worden ondersteund door DirectQuery in Power BI](desktop-directquery-data-sources.md)

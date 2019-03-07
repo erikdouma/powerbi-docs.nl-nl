@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 02/28/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a5aaa50aff2302742d6845c9cb16b0fc36ea2677
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bf41700b367b7c3c2302eeec9c03b93fa294ed3f
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276776"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555687"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>DirectQuery in Power BI Desktop gebruiken
 Wanneer u in **Power BI Desktop** verbinding maakt met een gegevensbron, kunt u altijd een kopie van de gegevens in **Power BI Desktop** importeren. Voor sommige gegevensbronnen kunt u ook rechtstreeks verbinding maken met de gegevensbron via **DirectQuery**.
@@ -41,19 +41,19 @@ Zie het artikel [Power BI en DirectQuery](desktop-directquery-about.md) voor een
 ## <a name="benefits-of-using-directquery"></a>Voordelen van het gebruik van DirectQuery
 Het gebruik van **DirectQuery** biedt de volgende voordelen:
 
-* Met **DirectQuery** kunt u visualisaties maken van zeer grote gegevenssets, waarvoor het anders ondoenlijk zou zijn om eerst alle gegevens vooraf te aggregeren en te importeren
+* Met **DirectQuery** kunt u visualisaties maken van zeer grote gegevenssets waarvoor het anders ondoenlijk zou zijn om eerst alle gegevens vooraf te aggregeren en te importeren
 * Bij onderliggende gegevenswijzigingen kan het noodzakelijk zijn de gegevens te vernieuwen. Voor sommige rapporten kan de noodzaak tot het weergeven van de actuele gegevens leiden tot te grote gegevensoverdrachten om de gegevens opnieuw te kunnen importeren. In **DirectQuery**-rapporten worden echter altijd de actuele gegevens gebruikt
 * De limiet voor de maximale grootte van een gegevensset van 1 GB geldt *niet* in **DirectQuery**
 
 ## <a name="limitations-of-directquery"></a>Beperkingen van DirectQuery
 Het gebruik van **DirectQuery** is onderhevig aan de volgende beperkingen:
 
-* Alle tabellen moeten afkomstig zijn uit één database
+* Alle tabellen moeten afkomstig zijn uit een individuele database, tenzij [samengestelde modellen](desktop-composite-models.md) worden gebruikt
 * Als de query in **Query-editor** te complex is, treedt er een fout op. Om de fout te verhelpen, moet u de problematische stap in **Query-editor** verwijderen, of de gegevens *importeren* in plaats van **DirectQuery** te gebruiken. Bij multidimensionale bronnen, zoals SAP Business Warehouse, is er geen **Query-editor**
 * Relaties kunnen slechts worden gefilterd in één richting, in plaats van in beide richtingen (het is wel mogelijk om kruislings filteren in beide richtingen in te schakelen voor **DirectQuery** als preview-functie). Bij multidimensionale bronnen, zoals SAP Business Warehouse, zijn er geen relaties gedefinieerd in het model
-* Time intelligence-functies zijn niet beschikbaar in **DirectQuery**. Speciale behandeling van datumkolommen (jaar, kwartaal, maand, dag, enzovoort) wordt bijvoorbeeld niet ondersteund in de **DirectQuery**-modus.
+* Time intelligence-functies zijn niet beschikbaar in **DirectQuery**. Speciale behandeling van datumkolommen (jaar, kwartaal, maand, dag enzovoort) wordt bijvoorbeeld niet ondersteund in de modus **DirectQuery**.
 * Standaard worden er beperkingen gesteld aan DAX-expressies die zijn toegestaan in metingen. Zie de volgende alinea (na deze lijst met opsommingstekens) voor meer informatie
-* Er worden maximaal 1 miljoen rijen met gegevens geretourneerd wanneer u **DirectQuery** gebruikt. Dit is niet van invloed op aggregaties of berekeningen die worden gebruikt om de gegevensset te maken die met **DirectQuery** wordt geretourneerd, alleen op de geretourneerde rijen. U kunt bijvoorbeeld 10 miljoen rijen aggregeren met een query die wordt uitgevoerd op de gegevensbron, en het resultaat van deze aggregatie retourneren naar Power BI met **DirectQuery**, zolang er maar minder dan 1 miljoen rijen met gegevens naar Power BI worden geretourneerd. Als er meer dan 1 miljoen rijen worden geretourneerd met **DirectQuery**, treedt er een fout op in Power BI.
+* Er worden maximaal 1 miljoen rijen met gegevens geretourneerd wanneer u **DirectQuery** gebruikt. Deze limiet is niet van invloed op aggregaties of berekeningen die worden gebruikt om de gegevensset te maken die met **DirectQuery** wordt geretourneerd, alleen op de geretourneerde rijen. U kunt bijvoorbeeld 10 miljoen rijen aggregeren met een query die wordt uitgevoerd op de gegevensbron, en het resultaat van deze aggregatie retourneren naar Power BI met **DirectQuery**, zolang er maar minder dan 1 miljoen rijen met gegevens naar Power BI worden geretourneerd. Als er meer dan 1 miljoen rijen worden geretourneerd met **DirectQuery**, treedt er een fout op in Power BI.
 
 Om ervoor te zorgen dat de prestaties van query's die naar de onderliggende gegevensbron worden verzonden acceptabel blijven, worden er standaard beperkingen opgelegd aan metingen. Geavanceerde gebruikers kunnen ervoor kiezen deze beperking als volgt te omzeilen: selecteer achtereenvolgens **Bestand > Opties en instellingen > Opties**, **DirectQuery** en de optie *Onbeperkte metingen toestaan in de DirectQuery-modus*. Als deze optie is geselecteerd, kan elke DAX-expressie worden gebruikt die geldig is voor een meting. Gebruikers moeten echter wel beseffen dat bepaalde expressies met hoge prestaties als de gegevens worden geïmporteerd, kunnen resulteren in erg trage query's als deze worden uitgevoerd op de back-endbron in de DirectQuery-modus.
 
