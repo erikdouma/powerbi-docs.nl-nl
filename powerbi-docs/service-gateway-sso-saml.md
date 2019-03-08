@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 03/05/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: f6a17a3e4033d5a97c5ae7744fef955aeed16eeb
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
+ms.openlocfilehash: c1ca797efa2e40bf74384a1e9f2362acd26c6f8f
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57327729"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555647"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Security Assertion Markup Language (SAML) gebruiken om eenmalige aanmelding (SSO) bij on-premises gegevensbronnen vanuit Power BI mogelijk te maken
 
@@ -38,6 +38,8 @@ Als u gebruik wilt maken van SAML, moet u eerst een certificaat voor de SAML-id-
     ```
 
 1. In SAP HANA Studio klikt u met de rechtermuisknop op uw SAP HANA-server en navigeert u vervolgens naar **Beveiliging** > **Beveiligingsconsole openen** > **SAML-identiteitsprovider** > **OpenSSL Cryptographic Library**.
+
+    Het is ook mogelijk om de Cryptografische bibliotheek van SAP (ook wel bekend als CommonCryptoLib of sapcrypto) in plaats van OpenSSL te gebruiken om deze stappen voor de installatie te voltooien. Raadpleeg de officiële documentatie van SAP voor meer informatie.
 
 1. Selecteer **Importeren**, navigeer naar samltest.crt en importeer dit bestand.
 
@@ -121,6 +123,37 @@ Ga ten slotte als volgt te werk om de vingerafdruk van het certificaat toe te vo
 Nu kunt u de pagina **Gateway beheren** in Power BI gebruiken om de gegevensbron te configureren en onder **Geavanceerde instellingen** SSO in te schakelen. Vervolgens kunt u rapporten en gegevenssets publiceren die een binding met die gegevensbron hebben.
 
 ![Geavanceerde instellingen](media/service-gateway-sso-saml/advanced-settings.png)
+
+## <a name="troubleshooting"></a>Problemen oplossen
+
+Na het configureren van SSO, ziet u mogelijk de volgende fout in de Power BI-portal: "De opgegeven referenties kunnen niet worden gebruikt voor de bron SapHana." Deze fout geeft aan dat de referentie SAML is geweigerd door SAP HANA.
+
+Verificatietraceringen bieden gedetailleerde informatie voor het oplossen van problemen met referenties op SAP HANA. Volg deze stappen om tracering voor uw SAP HANA-server te configureren.
+
+1. Schakel de verificatietracering in op de SAP HANA-server door de volgende query uit te voeren.
+
+    ```
+    ALTER SYSTEM ALTER CONFIGURATION ('indexserver.ini', 'SYSTEM') set ('trace', 'authentication') = 'debug' with reconfigure 
+    ```
+
+1. Reproduceer het probleem dat u heeft gehad.
+
+1. Open de beheerconsole in HANA Studio en ga naar het tabblad **Diagnosis Files**.
+
+1. Open de meest recente indexservertracering en zoek naar SAMLAuthenticator.cpp.
+
+    U zou een gedetailleerd foutbericht moeten vinden dat de hoofdoorzaak aangeeft, zoals het volgende voorbeeld.
+
+    ```
+    [3957]{-1}[-1/-1] 2018-09-11 21:40:23.815797 d Authentication   SAMLAuthenticator.cpp(00091) : Element '{urn:oasis:names:tc:SAML:2.0:assertion}Assertion', attribute 'ID': '123123123123123' is not a valid value of the atomic type 'xs:ID'.
+    [3957]{-1}[-1/-1] 2018-09-11 21:40:23.815914 i Authentication   SAMLAuthenticator.cpp(00403) : No valid SAML Assertion or SAML Protocol detected
+    ```
+
+1. Schakel de verificatietracering uit zodra het oplossen van problemen is voltooid door de volgende query uit te voeren.
+
+    ```
+    ALTER SYSTEM ALTER CONFIGURATION ('indexserver.ini', 'SYSTEM') UNSET ('trace', 'authentication');
+    ```
 
 ## <a name="next-steps"></a>Volgende stappen
 
