@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6a1834c88fbd7077f49560bc56b545539917ed3e
-ms.sourcegitcommit: 086b610cdfd1df5de61abb47acf97589df128a4c
+ms.openlocfilehash: f22cac734d98e98cd17a915c09d6705e2cad121a
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57196431"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580054"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>Organisatie-inhoudspakketten: Kopiëren, vernieuwen en toegang krijgen
 
@@ -25,13 +25,13 @@ Het maken van inhoudspakketten verschilt van het delen van dashboards of het sam
 
 > [!NOTE]
 > U kunt in de preview voor een nieuwe werkruimte-ervaring geen organisatie-inhoudspakketten maken of installeren. Het is nu een goed moment om uw inhoudspakketten te upgraden naar apps, als u dat nog niet hebt gedaan. Informatie over [de nieuwe werkruimte-ervaring](service-create-the-new-workspaces.md).
-> 
+>
 
 ## <a name="create-a-copy-of-an-organizational-content-pack"></a>Een kopie maken van een organisatie-inhoudspakket
 Maak uw eigen kopie van het inhoudspakket die niet zichtbaar is voor anderen.
 
 1. Selecteer het beletselteken (...) naast het dashboard van het inhoudspakket > Een kopie maken.
-   
+
     ![](media/service-organizational-content-pack-copy-refresh-access/power-bi-create-copy-organizational-content-pack.png)
 2. Selecteer **Opslaan**.  
 
@@ -41,7 +41,7 @@ U hebt nu een kopie die u kunt wijzigen. Niemand anders ziet de wijzigingen die 
 > Voorheen werd telkens een nieuwe gegevensset in de inhoudslijst van de werkruimte weergegeven wanneer u een inhoudspakket installeerde of hiervan een kopie maakte. Dankzij een recente update is de ervaring vereenvoudigd en wordt nu nog maar één item weergegeven met behulp van het nieuwe pictogram voor de gegevensset waarnaar wordt verwezen:
 >
 > ![pictogram database met koppeling](media/service-organizational-content-pack-copy-refresh-access/power-bi-dataset-reference-icon.png)
-> 
+>
 
 ## <a name="help--i-can-no-longer-access-the-content-pack"></a>Help!  Ik heb geen toegang meer tot het inhoudspakket
 Dit kan gebeuren om verschillende redenen:
@@ -51,7 +51,7 @@ Dit kan gebeuren om verschillende redenen:
 * **Gewijzigde beveiligingsinstellingen**: als het dashboard en de rapporten verbinding hebben met on-premises SSAS-gegevensbronnen en er wijzigingen worden aangebracht in de beveiligingsinstellingen, kunnen uw toegangsrechten tot die server worden ingetrokken.
 
 ## <a name="how-are-organizational-content-packs-refreshed"></a>Hoe worden organisatie-inhoudspakketten vernieuwd?
-Wanneer het inhoudspakket is gemaakt, worden de vernieuwingsinstellingen overgenomen bij de gegevensset.  Wanneer u een kopie van het inhoudspakket maakt, blijven de koppeling naar de oorspronkelijke gegevensset en het schema voor gegevensvernieuwing behouden in de nieuwe versie. 
+Wanneer het inhoudspakket is gemaakt, worden de vernieuwingsinstellingen overgenomen bij de gegevensset.  Wanneer u een kopie van het inhoudspakket maakt, blijven de koppeling naar de oorspronkelijke gegevensset en het schema voor gegevensvernieuwing behouden in de nieuwe versie.
 
 Zie [Organisatie-inhoudspakketten beheren, bijwerken en verwijderen](service-organizational-content-pack-manage-update-delete.md).
 
@@ -59,4 +59,3 @@ Zie [Organisatie-inhoudspakketten beheren, bijwerken en verwijderen](service-org
 * [Inleiding tot organisatie-inhoudspakketten](service-organizational-content-pack-introduction.md)
 * [Een groep maken in Power BI](service-create-distribute-apps.md)
 * Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
-
