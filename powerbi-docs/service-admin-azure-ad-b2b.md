@@ -10,20 +10,24 @@ ms.topic: conceptual
 ms.date: 11/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 7e76f03a3795976aebd1480dc77a579c9245ed9e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 0eba54212ff9349ed75d9d9fb18878b39d5cd29a
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282052"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580192"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Power BI-inhoud met Azure AD B2B distribueren naar externe gastgebruikers
 
-Power BI kan worden geïntegreerd met Azure Active Directory Business-to-business (Azure AD B2B) voor een veilige distributie van Power BI-inhoud naar gastgebruikers buiten uw organisatie, zonder de controle over de interne gegevens te verliezen.
+Power BI kan worden geïntegreerd met Azure Active Directory Business-to-business (Azure AD B2B) voor een veilige distributie van Power BI-inhoud naar gastgebruikers buiten uw organisatie, zonder de controle over de interne gegevens te verliezen.  
+
+Daarnaast kunt u toestaan dat gastgebruikers buiten uw organisatie inhoud in uw organisatie kunnen bewerken en beheren.
 
 ## <a name="enable-access"></a>Toegang inschakelen
 
-Zorg dat de functie [Instellingen exporteren en delen](service-admin-portal.md#export-and-sharing-settings) in de Power BI-beheerdersportal is ingeschakeld voordat u gastgebruikers uitnodigt.
+Zorg ervoor dat de functie [Inhoud delen met externe gebruikers](service-admin-portal.md#export-and-sharing-settings) in de Power BI-beheerdersportal is ingeschakeld voordat u gastgebruikers uitnodigt.
+
+Daarnaast kunt u met de functie [Externe gastgebruikers toestaan om inhoud in de organisatie te bewerken en te beheren](service-admin-portal.md#export-and-sharing-settings) selecteren welke gastgebruiker inhoud in werkruimten kan zien en maken en door de Power BI van uw organisatie kan browsen.
 
 ## <a name="who-can-you-invite"></a>Wie kunt u uitnodigen?
 
@@ -71,7 +75,9 @@ De gastgebruiker moet zich aanmelden met het e-mailadres van de organisatie. Zod
 
 ## <a name="licensing"></a>Licentieverlening
 
-De gastgebruiker moet over de juiste licenties beschikken om de gedeelde app te kunnen weergeven. Er zijn drie manieren om dit te realiseren: door Power BI Premium te gebruiken, door een Power BI Pro-licentie toe te wijzen of door de Power BI Pro-licentie van de gast te gebruiken.
+De gastgebruiker moet over de juiste licenties beschikken om de gedeelde inhoud te kunnen weergeven. Er zijn drie manieren om dit te realiseren: door Power BI Premium te gebruiken, door een Power BI Pro-licentie toe te wijzen of door de Power BI Pro-licentie van de gast te gebruiken.
+
+Wanneer u de functie [Externe gastgebruikers toestaan om inhoud in de organisatie te bewerken en te beheren](service-admin-portal.md#export-and-sharing-settings) gebruikt, hebben gastgebruikers die inhoud aan werkruimten bijdragen of inhoud met anderen delen een Power BI Pro-licentie nodig.
 
 ### <a name="use-power-bi-premium"></a>Power BI Premium gebruiken
 
@@ -91,13 +97,41 @@ De gastgebruiker beschikt al over een Power BI Pro-licentie die is toegewezen in
 
 ![De gastgebruiker beschikt over een eigen licentie](media/service-admin-azure-ad-b2b/license-approach3.png)
 
+## <a name="guest-users-who-can-edit-and-manage-content"></a>Gastgebruikers die inhoud kunnen bewerken en beheren 
+
+Wanneer u de functie [Externe gastgebruikers toestaan om inhoud in de organisatie te bewerken en te beheren](service-admin-portal.md#export-and-sharing-settings) gebruikt, krijgen gastgebruikers toegang tot de Power BI van uw organisatie en kunnen ze alle inhoud zien waarvoor ze een machtiging hebben. Ze kunnen toegang krijgen tot de startpagina, door werkruimten browsen, apps installeren waarvoor ze op de toegangslijst staan en inhoud bijdragen aan werkruimten. Ze kunnen een beheerder maken of zijn voor werkruimten waarvoor de nieuwe werkruimte-ervaring wordt gebruikt. Er gelden een aantal beperkingen. U vindt deze in de sectie Overwegingen en beperkingen.
+
+Geef deze gebruikers de tenant-URL om ze te helpen aanmelden bij Power BI. Volg deze stap om de tenant-URL te zoeken.
+
+1. Selecteer in de Power BI-service in het bovenste menu Help (**?**) en vervolgens **Over Power BI**.
+
+2. Zoek de waarde naast **Tenant-URL**. Dit is de tenant-URL die u met uw gastgebruikers kunt delen.
+
+![Tenant-URL voor gastgebruikers](media/service-admin-azure-ad-b2b/power-bi-about-dialog.png)
+
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 
-* Externe B2B-gasten mogen alleen inhoud gebruiken. Externe B2B-gasten kunnen apps, dashboards en rapporten weergeven, gegevens exporteren en e-mailabonnementen instellen voor dashboards en rapporten. Ze hebben geen toegang tot werkruimten en kunnen hun eigen inhoud niet publiceren.
+* Standaard mogen externe B2B-gasten alleen inhoud gebruiken. Externe B2B-gasten kunnen apps, dashboards en rapporten weergeven, gegevens exporteren en e-mailabonnementen instellen voor dashboards en rapporten. Ze hebben geen toegang tot werkruimten en kunnen hun eigen inhoud niet publiceren. Deze beperkingen zijn echter niet van toepassing op gastgebruikers die toestemming hebben via de tenantinstelling [Externe gastgebruikers toestaan om inhoud in de organisatie te bewerken en te beheren](service-admin-portal.md#export-and-sharing-settings).
 
-* Deze functie is momenteel niet beschikbaar met de mobiele Power BI-apps. Op een mobiel apparaat kunt u in een browser Power BI-inhoud weergeven die is gedeeld met Azure AD B2B.
+* Voor gastgebruikers die via de tenantinstelling [Externe gastgebruikers toestaan om inhoud in de organisatie te bewerken en te beheren](service-admin-portal.md#export-and-sharing-settings) zijn ingeschakeld, zijn mogelijk niet alle ervaringen beschikbaar. Als ze rapporten willen bijwerken of publiceren, hebben ze de webgebruikersinterface van de Power BI-service nodig, inclusief Gegevens ophalen om de Power BI Desktop-bestanden te uploaden.  De volgende ervaringen worden niet ondersteund:
+    * Rechtstreeks publiceren van Power BI Desktop naar de Power BI-service
+    * Gastgebruikers kunnen geen gebruikmaken van Power BI Desktop om verbinding te maken met servicegegevenssets in de Power BI-service
+    * Klassieke werkruimten die aan Office 365-groepen zijn gekoppeld: Gastgebruikers kunnen geen beheerders van deze werkruimten maken of zijn. Ze kunnen alleen leden zijn.
+    * Ad-hocuitnodigingen verzenden wordt niet ondersteund voor toegangslijsten van werkruimten
+    * Power BI Publisher voor Excel wordt niet ondersteund voor gastgebruikers
+    * Gastgebruikers kunnen geen Power BI Gateway installeren of deze aan uw organisatie koppelen
+    * Gastgebruikers kunnen geen apps installeren en naar de hele organisatie publiceren
+    * Gastgebruikers kunnen geen organisatie-inhoudspakketten gebruiken, maken, bijwerken of installeren
+    * Gastgebruikers kunnen niet analyseren in Excel
+    * Gastgebruikers kunnen niet @mentioned zijn bij de opmerkingen
+    * Gastgebruikers kunnen geen abonnementen gebruiken
+    * Gastgebruikers die deze mogelijkheid gebruiken, moeten over een werk- of schoolaccount beschikken. Gastgebruikers die persoonlijke accounts gebruiken, ondervinden meer beperkingen vanwege beperkte aanmeldingsmogelijkheden.
 
 * Deze functie is momenteel niet beschikbaar in het webonderdeel voor Power BI SharePoint Online-rapporten.
+
+* Er bestaan Active Directory-instellingen waardoor gastgebruikers mogelijk minder acties kunnen uitvoeren in uw totale organisatie en die ook van toepassing zijn op uw Power BI-omgeving. De instellingen worden in de volgende documentatie besproken:
+    * [Instellingen voor externe samenwerking beheren](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations#control-who-can-invite)
+    * [Uitnodigingen aan B2B-gebruikers van specifieke organisaties toestaan of blokkeren](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)  
 
 ## <a name="next-steps"></a>Volgende stappen
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2019
+ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 8415e731fd8749397b9604277f9f37f126b5413f
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: 957c6d5fe8797f1b03eaab3a54846e7110b302fb
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892756"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580284"
 ---
 # <a name="power-bi-security-whitepaper"></a>Whitepaper Power BI-beveiliging
 
@@ -42,7 +42,7 @@ Dit artikel bevat informatie over Power BI-beveiliging aan de hand van een uitle
 
 De **Power BI**-service is gebaseerd op **Azure**, het [cloudcomputingplatform](http://azure.microsoft.com/overview/what-is-azure/) van Microsoft. Power BI wordt momenteel geïmplementeerd in veel datacenters over de hele wereld. Er zijn veel actieve implementaties beschikbaar gesteld aan klanten in de regio's die door deze datacenters worden bediend. Daarnaast zijn er even veel passieve implementaties, die als back-up fungeren voor alle actieve implementaties.
 
-Elke Power BI-implementatie bestaat uit twee clusters: een **WFE**-cluster (Web Front End) en een **Back-End**-cluster. Deze twee clusters zijn in de volgende afbeelding weergegeven en vormen de achtergrond voor de rest van dit artikel. 
+Elke Power BI-implementatie bestaat uit twee clusters: een **WFE**-cluster (Web Front End) en een **Back-End**cluster. Deze twee clusters zijn in de volgende afbeelding weergegeven en vormen de achtergrond voor de rest van dit artikel. 
 
 ![Het WFE en het Back-End](media/whitepaper-powerbi-security/powerbi-security-whitepaper_01.png)
 
@@ -56,19 +56,19 @@ Het cluster **WFE** beheert het eerste verbindings- en verificatieproces voor Po
 
 Wanneer gebruikers verbinding maken met de Power BI-service, kan de DNS-service van de client communiceren met de **Azure Traffic Manager** om het dichtstbijzijnde datacentrum met een Power BI-implementatie te vinden. Zie [Performance traffic routing method for Azure Traffic Manager](https://azure.microsoft.com/documentation/articles/traffic-manager-routing-methods/#performance-traffic-routing-method) (Prestaties verkeersrouteringsmethode voor Azure Traffic Manager) voor meer informatie over dit proces.
 
-Het cluster WFE dat zich het dichtst bij de gebruiker bevindt, beheert de aanmeldings- en verificatievolgorde (die verderop in dit artikel wordt beschreven) en levert een AAD-token aan de gebruiker zodra de verificatie geslaagd is. De ASP.NET-component binnen het cluster WFE parseert de aanvraag om te bepalen tot welke organisatie de gebruiker behoort en raadpleegt vervolgens de Power BI **Global Service**. De Global Service is een enkele Azure-tabel die wordt gedeeld tussen alle clusters WFE en Back-End wereldwijd. Hiermee worden gebruikers en klantorganisaties toegewezen aan het datacenter waar zich hun Power BI-tenant bevindt. Het WFE geeft aan de browser door in welk cluster Back-End de tenant van de organisatie zich bevindt. Wanneer een gebruiker is geverifieerd, vinden de hierop volgende clientinteracties rechtstreeks plaats met het cluster Back-End. De WFE is geen intermediator meer voor deze aanvragen.
+Het cluster WFE dat zich het dichtst bij de gebruiker bevindt, beheert de aanmeldings- en verificatievolgorde (die verderop in dit artikel wordt beschreven) en levert een AAD-token aan de gebruiker zodra de verificatie geslaagd is. De ASP.NET-component binnen het cluster WFE parseert de aanvraag om te bepalen tot welke organisatie de gebruiker behoort en raadpleegt vervolgens de Power BI **Global Service**. De Global Service is een individuele Azure-tabel die wordt gedeeld tussen alle WFE- en back-endclusters wereldwijd. Hiermee worden gebruikers en klantorganisaties toegewezen aan het datacenter waar zich hun Power BI-tenant bevindt. Het WFE geeft aan de browser door in welk back-endcluster de tenant van de organisatie zich bevindt. Wanneer een gebruiker is geverifieerd, vinden de hierop volgende clientinteracties rechtstreeks plaats met het back-endcluster. De WFE is geen intermediator meer voor deze aanvragen.
 
-### <a name="the-power-bi-back-end-cluster"></a>Het cluster Back-End van Power BI
+### <a name="the-power-bi-back-end-cluster"></a>Het back-endcluster van Power BI
 
-Via het cluster **Back End** communiceren geverifieerde clients met de Power BI-service. Het cluster **Back End** beheert visualisaties, gebruikersdashboards gegevenssets, rapporten, gegevensopslag, gegevensverbindingen, het vernieuwen van gegevens en andere aspecten van de interactie met de Power BI-service.
+Via het cluster **Back-End** communiceren geverifieerde clients met de Power BI-service. Het cluster **Back-End** beheert visualisaties, gebruikersdashboards, gegevenssets, rapporten, gegevensopslag, gegevensverbindingen, het vernieuwen van gegevens en andere aspecten van de interactie met de Power BI-service.
 
-![Het cluster Back-End](media/whitepaper-powerbi-security/powerbi-security-whitepaper_03.png)
+![Het back-endcluster](media/whitepaper-powerbi-security/powerbi-security-whitepaper_03.png)
 
 De **Gatewayrol** fungeert als een gateway tussen aanvragen van gebruikers en de Power BI-service. Gebruikers werken niet rechtstreeks met rollen, behalve met de Gatewayrol.
 
 **Belangrijk:** Het is belangrijk om aan te geven dat _alleen_ Azure API Management- (**APIM**) en Gateway-rollen (**GW**) toegankelijk zijn via het openbare internet. Ze bieden verificatie, autorisatie, DDoS-beveiliging, beperking, taakverdeling, routering en andere mogelijkheden.
 
-De stippellijn in de bovenstaande afbeelding van het cluster **Back-End** verduidelijkt de grens tussen de enige twee rollen die toegankelijk zijn voor gebruikers (links van de stippellijn) en de rollen die alleen toegankelijk zijn voor het systeem. Wanneer een geverifieerde gebruiker verbinding maakt met de Power BI-Service, wordt de verbinding en elke aanvraag van de client geaccepteerd en beheerd door de **Gatewayrol** en door **Azure API Management**, die vervolgens namens de gebruiker communiceert met de rest van de Power BI-Service. Wanneer een client bijvoorbeeld probeert een dashboard weer te geven, accepteert de **Gatewayrol** die aanvraag en stuurt vervolgens afzonderlijk een aanvraag naar de **Presentatierol** om de gegevens op te halen die de browser nodig heeft om het dashboard weer te geven.
+De stippellijn in de bovenstaande afbeelding van het **back-endcluster** verduidelijkt de grens tussen de enige twee rollen die toegankelijk zijn voor gebruikers (links van de stippellijn) en de rollen die alleen toegankelijk zijn voor het systeem. Wanneer een geverifieerde gebruiker verbinding maakt met de Power BI-service, wordt de verbinding en elke aanvraag van de client geaccepteerd en beheerd door de **Gatewayrol** en door **Azure API Management**, die vervolgens namens de gebruiker communiceert met de rest van de Power BI-service. Wanneer een client bijvoorbeeld probeert een dashboard weer te geven, accepteert de **Gatewayrol** die aanvraag en stuurt vervolgens afzonderlijk een aanvraag naar de **Presentatierol** om de gegevens op te halen die de browser nodig heeft om het dashboard weer te geven.
 
 ![De Gatewayrol](media/whitepaper-powerbi-security/powerbi-security-whitepaper_04.png)
 
@@ -78,7 +78,7 @@ De stippellijn in de bovenstaande afbeelding van het cluster **Back-End** verdui
 
 ![Power BI Premium](media/whitepaper-powerbi-security/powerbi-security-whitepaper_05.png)
 
-Als de implementatie gereed is, wordt alle communicatie met het Premium-cluster gerouteerd via het cluster Back-End van Power BI, waarbij een verbinding met de virtuele machines van het toegewezen **Power BI Premium**-abonnement van de client tot stand wordt gebracht.
+Als de implementatie gereed is, wordt alle communicatie met het Premium-cluster gerouteerd via het back-endcluster van Power BI, waarbij een verbinding met de virtuele machines van het toegewezen **Power BI Premium**-abonnement van de client tot stand wordt gebracht.
 
 ### <a name="data-storage-architecture"></a>Gegevensopslagarchitectuur
 
@@ -98,7 +98,7 @@ Een tenant bevat de gebruikers in een bedrijf en de informatie over deze gebruik
 
 Een Power BI-tenant wordt gemaakt in het datacenter dat zich het dichtst bij het land (of de regio) en de staat bevindt, zoals voor de tenant is opgegeven in Azure Active Directory. Deze informatie is opgegeven toen de Office 365- of Power BI-service werd ingericht. De Power BI-tenant wordt nu niet verplaatst uit die datacenterlocatie.
 
-### <a name="multiple-geographies-multi-geo---preview"></a>Meerdere geografische gebieden - preview-versie
+### <a name="multiple-geographies-multi-geo"></a>Meerdere geografische gebieden (Multi-geo)
 
 Voor sommige organisaties is een Power BI-aanwezigheid in meerdere landen of regio's vereist, op basis van hun bedrijfsbehoeften. Zo kan een bedrijf een Power BI-tenant in de Verenigde Staten hebben, maar ook zakendoen in andere geografische gebieden, zoals Australië, waarvoor Power BI-services en -gegevens in deze externe regio moeten blijven.  Sinds de tweede helft van 2018 hebben organisaties met een tenant in één geografisch gebied ook toegang tot Power BI-resources in een andere geografisch gebied, mits deze correct zijn ingericht. In dit document wordt deze functie aangeduid als **Meerdere geografische gebieden**.
 
@@ -108,7 +108,7 @@ Wanneer u in verschillende geografische gebieden actief bent, zijn er technische
 - Als rapporten in PBIX- of XLSX-bestanden in een externe regio worden gepubliceerd naar Power BI, wordt soms een exemplaar of een schaduwkopie opgeslagen in de Azure Blob-opslag van Power BI. Als dit het geval is, worden de gegevens versleuteld met behulp van Azure Storage Service Encryption (SSE).
 - Bij het verplaatsen van gegevens van de ene regio naar een andere in een omgeving met meerdere geografische gebieden, vindt binnen 7 tot 10 dagen garbagecollection plaats in de regio van waaruit de gegevens zijn verplaatst. Hierna wordt de kopie van de gegevens verwijderd uit de oorspronkelijke regio.
 
-In de volgende afbeelding is weergegeven hoe de Power BI-services die worden aangeboden in de externe regio in een omgeving met meerdere geografische gebieden via het **Power BI Back-End**-cluster worden doorgestuurd. Hierbij wordt een verbinding tot stand gebracht met de externe virtuele machine uit het Power BI-abonnement van de client.
+In de volgende afbeelding is weergegeven hoe de Power BI-services die worden aangeboden in de externe regio in een omgeving met meerdere geografische gebieden via het **back-endcluster van Power BI** worden doorgestuurd. Hierbij wordt een verbinding tot stand gebracht met de externe virtuele machine uit het Power BI-abonnement van de client.
 
 ![Multi-geo](media/whitepaper-powerbi-security/powerbi-security-whitepaper_07.png)
 
@@ -121,42 +121,9 @@ De volgende koppelingen bieden aanvullende informatie over Azure-datacenters.
 - [Azure-regio's](http://azure.microsoft.com/regions/): informatie over de wereldwijde aanwezigheid en locaties van Azure
 - [Azure-services per regio](http://azure.microsoft.com/regions/#services): een volledig overzicht van Azure-services (infrastructuurservices en platformservices) die door Microsoft in elke regio beschikbaar worden gesteld.
 
-Power BI-service is momenteel beschikbaar in de volgende regio's, waarbij de service wordt verleend door de volgende primaire datacenters:
+Momenteel is de Power BI-service beschikbaar in bepaalde regio's waarin de service wordt geleverd door datacenters, zoals beschreven in [Microsoft Trust Center]((https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location). Via de volgende koppeling ziet u een overzicht van de Power BI-datacenters. Beweeg de cursor boven een regio om de hier gevestigde datacenters te zien:
 
-- Verenigde Staten
-  - US - oost
-  - US - oost 2
-  - US - noord-centraal
-  - US - zuid-centraal
-  - US - west
-  - US - west 2
-- Canada
-  - Canada - centraal
-  - Canada - oost
-- Verenigd Koninkrijk
-  - UK - west
-  - UK - zuid
-- Brazilië
-  - Brazilië - zuid
-- Duitsland
-  - Duitsland - centraal
-  - Duitsland - noordoost
-- Europa
-  - Europa - noord
-  - Europa - west
-- Japan
-  - Japan - oost
-  - Japan - west
-- India
-  - India - centraal
-  - India - zuid
-  - India - west
-- Azië en Stille Oceaan
-  - Azië - oost
-  - Azië - zuidoost
-- Australië
-  - Australië - oost
-  - Australië - zuidoost
+* [Power BI-datacenters](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)
 
 Microsoft biedt ook datacenters voor onafhankelijke clouds. Zie [Onafhankelijke Power BI-clouds](https://powerbi.microsoft.com/clouds/) voor meer informatie over de beschikbaarheid van de Power BI-service voor onafhankelijke clouds.
 
@@ -182,12 +149,12 @@ De gebruikersverificatiereeks voor de Power BI-service vindt plaats zoals wordt 
 
 2. De browser verzendt een cookie die is verkregen van de geslaagde aanmelding voor Microsoft Online Services die is gecontroleerd door de **ASP.NET-service** binnen het **WFE-cluster**.
 
-3. Het WFE-cluster controleert bij de service **Azure Active Directory** ( **AAD** ) om het Power BI-service-abonnement van de gebruiker te verifiëren en om een AAD-beveiligingstoken op te halen. Als AAD een geslaagde verificatie van de gebruiker en een AAD-beveiligingstoken retourneert, raadpleegt het WFE-cluster de **Power BI*** Global Service** die een lijst met tenants en hun Power BI-back-endclusterlocaties onderhoudt, en wordt bepaald welk Power BI-servicecluster de tenant van de gebruiker bevat. Vervolgens wordt de gebruiker door het WFE-cluster omgeleid naar het Power BI-cluster waar de tenant zich bevindt en wordt een verzameling items naar de browser van de gebruiker geretourneerd:
+3. Het WFE-cluster controleert bij de service **Azure Active Directory** (**AAD**) om het Power BI-service-abonnement van de gebruiker te verifiëren en om een AAD-beveiligingstoken op te halen. Als AAD een geslaagde verificatie van de gebruiker en een AAD-beveiligingstoken retourneert, raadpleegt het WFE-cluster de **Power BI**** Global Service** die een lijst met tenants en hun Power BI-back-endclusterlocaties onderhoudt, en wordt bepaald welk Power BI-servicecluster de tenant van de gebruiker bevat. Vervolgens wordt de gebruiker door het WFE-cluster omgeleid naar het Power BI-cluster waar de tenant zich bevindt en wordt een verzameling items naar de browser van de gebruiker geretourneerd:
 
 
       - Het **AAD-beveiligingstoken**
       - **Sessiegegevens**
-      - Het webadres van het **back-end**cluster waarmee de gebruiker kan communiceren en werken
+      - Het webadres van het **back-endcluster** waarmee de gebruiker kan communiceren en werken
 
 
 1. De browser van de gebruiker neemt vervolgens contact op met de opgegeven Azure CDN (of voor bepaalde bestanden de WFE) voor het downloaden van de verzameling opgegeven algemene bestanden die nodig zijn voor de interactie van de browser met de Power BI-service. De browserpagina bevat dan tijdens de duur van de browsersessie van de Power BI-service het AAD-token, sessiegegevens, de locatie van het gekoppelde back-endcluster en de verzameling bestanden die zijn gedownload uit het Azure CDN- en WFE-cluster.
@@ -200,11 +167,23 @@ Zodra deze items zijn voltooid, maakt de browser contact met het opgegeven back-
 
 In de Power BI-service zijn gegevens _data-at-rest_ (gegevens beschikbaar voor een Power BI-gebruiker waarmee op dat moment niet wordt gewerkt) of gegevens _in verwerking_ (bijvoorbeeld query's die worden uitgevoerd, gegevensverbindingen en modellen waarmee wordt gewerkt, gegevens en/of modellen die worden geüpload naar de Power BI-service, en andere acties die gebruikers of de Power BI-service uitvoeren voor gegevens die actief worden geopend of bijgewerkt). Gegevens die worden verwerkt, worden aangeduid als _gegevens in verwerking_. Data-at-rest in Power BI is versleuteld. Gegevens die onderweg zijn (dit zijn gegevens die worden verzonden of ontvangen door de Power BI-service) zijn eveneens versleuteld.
 
-Ook worden gegevens met de Power BI-service verschillend beheerd, afhankelijk van of de gegevens worden geopend met een **DirectQuery** of _niet_ worden geopend met een DirectQuery. Dus er zijn twee soorten gebruikersgegevens voor Power BI: gegevens die worden gebruikt door DirectQuery en gegevens die niet worden gebruikt door DirectQuery.
+Ook worden gegevens met de Power BI-service verschillend beheerd, afhankelijk van of de gegevens worden geopend met een **DirectQuery** of worden geïmporteerd. Dus er zijn twee soorten gebruikersgegevens voor Power BI: gegevens die worden gebruikt door DirectQuery en gegevens die niet worden gebruikt door DirectQuery.
 
 Een **DirectQuery** is een query waarvoor een query van een Power BI-gebruiker is omgezet van de DAX-taal (Data Analysis Expressions) van Microsoft (dit is de taal die wordt gebruikt door Power BI en andere Microsoft-producten om query's te maken) in de systeemeigen gegevenstaal van de gegevensbron (zoals T-SQL of andere systeemeigen databasetalen). De gegevens die zijn gekoppeld aan een DirectQuery, worden alleen met een verwijzing opgeslagen, wat betekent dat de brongegevens niet zijn opgeslagen in Power BI wanneer de DirectQuery niet actief is (met uitzondering van visualisatiegegevens die worden gebruikt om dashboards en rapporten weer te geven, zoals wordt beschreven in het onderstaande gedeelte _Gegevens in verwerking (gegevensverplaatsing)_). In plaats hiervan worden verwijzingen naar DirectQuery-gegevens opgeslagen zodat deze gegevens kunnen worden gebruikt wanneer de DirectQuery wordt uitgevoerd. Een DirectQuery bevat alle benodigde informatie voor het uitvoeren van de query, met inbegrip van de verbindingsreeks en de referenties die worden gebruikt voor toegang tot de gegevensbronnen, waardoor de DirectQuery verbinding kan maken met de opgenomen gegevensbronnen voor automatische vernieuwingen. Bij een DirectQuery wordt de informatie over onderliggende gegevensmodellen opgenomen in de DirectQuery.
 
-Een query die DirectQuery **niet** gebruikt, bestaat uit een verzameling DAX-query's die _niet_ rechtstreeks kunnen worden omgezet naar de systeemeigen taal van onderliggende gegevensbronnen. Niet-DirectQuery-query's bevatten geen referenties voor de onderliggende gegevens en de onderliggende gegevens worden in de Power BI-service geladen, tenzij het om on-premises gegevens gaat die worden gebruikt via een [Power BI Gateway](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise/), waarbij de query alleen verwijzingen naar on-premises gegevens opslaat.
+Een query voor een gegevensset voor importeren bestaat uit een verzameling DAX-query's die _niet_ rechtstreeks kunnen worden omgezet naar de systeemeigen taal van onderliggende gegevensbronnen. Importeerquery's bevatten geen referenties voor de onderliggende gegevens en de onderliggende gegevens worden in de Power BI-service geladen, tenzij het om on-premises gegevens gaat die worden gebruikt via een [Power BI Gateway](service-gateway-onprem.md), waarbij de query alleen verwijzingen naar on-premises gegevens opslaat.
+
+In de volgende tabel worden Power BI-gegevens beschreven op basis van het querytype dat wordt gebruikt. Een **X** geeft aan dat er Power BI-gegevens aanwezig zijn wanneer u het bijbehorende querytype gebruikt.
+
+
+|  |Importeren  |DirectQuery  |Live Connect  |
+|---------|---------|---------|---------|
+|Schema     |     X    |    X     |         |
+|Rijgegevens     |    X     |         |         |
+|Plaatsen van visuele gegevens in het cachegeheugen     |    X     |     X    |    X     |
+
+
+
 
 Het verschil tussen een DirectQuery en andere query's bepaalt hoe de Power BI-service data-at-rest verwerkt en of de query zelf is versleuteld. De volgende gedeelten bevatten een beschrijving van data-at-rest en van gegevens die worden verplaatst. Hierin worden de versleuteling, de locatie en het proces voor het verwerken van gegevens uitgelegd.
 
@@ -361,7 +340,7 @@ Als Ralph het gedeelde dashboard of rapport opent, worden op basis van zijn roln
 
 Met Power BI en ExpressRoute kunt u een verbinding via een particulier netwerk opzetten tussen uw organisatie en Power BI (of met behulp van de co-locatievoorziening van een internetprovider), om zo internet te omzeilen en uw gevoelige gegevens en verbindingen van Power BI beter te beveiligen.
 
-ExpressRoute is een Azure-service waarmee u particuliere verbindingen kunt opzetten tussen Azure-datacenters (waarin Power BI zich bevindt) en uw on-premises infrastructuur, of particuliere verbindingen tussen Azure-datacenters en uw co-locatieomgeving. Zie het artikel [Power BI en ExpressRoute](https://powerbi.microsoft.com/documentation/powerbi-admin-power-bi-expressroute/) voor meer informatie.
+ExpressRoute is een Azure-service waarmee u particuliere verbindingen kunt opzetten tussen Azure-datacenters (waarin Power BI zich bevindt) en uw on-premises infrastructuur, of particuliere verbindingen tussen Azure-datacenters en uw co-locatieomgeving. Zie het artikel [Power BI en ExpressRoute](service-admin-power-bi-expressroute.md) voor meer informatie.
 
 ## <a name="power-bi-mobile"></a>Power BI - Mobiel
 
@@ -370,7 +349,7 @@ Power BI - Mobiel omvat een verzameling apps voor de drie primaire mobiele platf
 * Apparaatcommunicatie
 * De toepassing en gegevens op het apparaat
 
-Voor **apparaatcommunicatie** communiceren alle Power BI Mobile-apps met de Power BI-service en gebruiken dezelfde verbinding en verificatiereeksen als browsers, die eerder in dit technisch document uitgebreid zijn beschreven. In de Power BI Mobile-apps voor iOS en Android wordt een browsersessie in de app zelf geopend en in de mobiele app voor Windows wordt een broker geopend om het communicatiekanaal met Power BI tot stand te brengen.
+Voor **apparaatcommunicatie** communiceren alle toepassingen van Power BI - Mobiel met de Power BI-service en gebruiken dezelfde verbinding en verificatiereeksen als browsers, die eerder in dit technisch document uitgebreid zijn beschreven. In de Power BI Mobile-apps voor iOS en Android wordt een browsersessie in de app zelf geopend en in de mobiele app voor Windows wordt een broker geopend om het communicatiekanaal met Power BI tot stand te brengen.
 
 De volgende tabel geeft een overzicht van de ondersteuning voor op certificaten gebaseerde verificatie (CBA) voor Power BI Mobile op basis van een platform voor mobiele apparaten:
 
@@ -391,7 +370,7 @@ De Power BI-**app op het apparaat** slaat gegevens op het apparaat op voor het g
 
 De gegevenscache van Power BI Mobile blijft twee weken op het apparaat staan of totdat de app wordt verwijderd, de gebruiker zich afmeldt bij Power BI Mobile of wanneer de gebruiker zich niet kan aanmelden (bijvoorbeeld doordat het token is verlopen of het wachtwoord is gewijzigd). De gegevenscache bevat dashboards en rapporten die eerder zijn geopend vanuit de Power BI Mobile-app.
 
-Power BI Mobile-apps controleren geen mappen op het apparaat. [Meer informatie over offlinegegevens in Power BI Mobile-apps](https://powerbi.microsoft.com/documentation/powerbi-mobile-offline-android/).
+Power BI Mobile-apps controleren geen mappen op het apparaat. 
 
 Alle drie de platformen waarvoor Power BI Mobile beschikbaar is, bieden ondersteuning voor Microsoft Intune, een softwareservice voor het beheer van mobiele apparaten en toepassingen. Als Intune is ingeschakeld en geconfigureerd, worden gegevens op het mobiele apparaat versleuteld en kan de Power BI-app niet op een SD-kaart worden geïnstalleerd. [Meer informatie over Microsoft Intune](http://www.microsoft.com/cloud-platform/microsoft-intune).
 
@@ -403,7 +382,7 @@ De volgende vragen zijn algemene beveiligingsvragen en -antwoorden voor Power BI
 
 * **Power BI-referenties en domeinreferenties:** Gebruikers melden zich aan bij Power BI met behulp van een e-mailadres. Wanneer een gebruiker verbinding probeert te maken met een gegevensresource, wordt het e-mailadres voor aanmelding doorgegeven. Voor domeinverbonden resources (on-premises of in de cloud), wordt het e-mailadres voor aanmelding door de adreslijstservice vergeleken met een _user principal name_ ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) om te bepalen of er voldoende referenties zijn om toegang te verlenen. Voor organisaties die gebruikmaken van zakelijke e-mailadressen voor aanmelding bij Power BI (het e-mailadres dat ook wordt gebruikt voor aanmelding bij werkresources, zoals _david@contoso.com_), verloopt de toewijzing vlekkeloos. Voor organisatie die niet gebruikmaken van zakelijke e-mailadressen (zoals _david@contoso.onmicrosoft.com_), moet maptoewijzing worden uitgevoerd voor toegang tot on-premises resources met Power BI-aanmeldingsreferenties.
 
-* **SQL Server Analysis Services en Power BI:** Voor organisaties die gebruikmaken van on-premises SQL Server Analysis Services, biedt Power BI de Power BI on-premises gegevensgateway (dit is een **-gateway**, waarnaar wordt verwezen in vorige secties).  De Power BI on-premises gegevensgateway kan beveiliging op rolniveau op gegevensbronnen (RLS) afdwingen. Zie **Gebruikersverificatie voor gegevensbronnen** eerder in dit document voor meer informatie over RLS. U kunt ook een uitgebreid artikel lezen over [Power BI-gateway](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise/).
+* **SQL Server Analysis Services en Power BI:** Voor organisaties die gebruikmaken van on-premises SQL Server Analysis Services, biedt Power BI de Power BI on-premises gegevensgateway (dit is een **-gateway**, waarnaar wordt verwezen in vorige secties).  De Power BI on-premises gegevensgateway kan beveiliging op rolniveau op gegevensbronnen (RLS) afdwingen. Zie **Gebruikersverificatie voor gegevensbronnen** eerder in dit document voor meer informatie over RLS. U kunt ook een uitgebreid artikel lezen over [Power BI-gateway](service-gateway-manage.md).
 
   Bovendien kunnen organisaties Kerberos gebruiken voor de **eenmalige aanmelding** (SSO) en naadloos vanuit Power BI verbinding maken met on-premises gegevensbronnen, zoals SQL Server, SAP HANA en Teradata. Zie [**Kerberos gebruiken voor eenmalige aanmelding (SSO) bij on-premises gegevensbronnen vanuit Power BI**](https://docs.microsoft.com/power-bi/service-gateway-kerberos-for-sso-pbi-to-on-premises-data) voor meer informatie en de specifieke configuratievereisten.
 
@@ -443,7 +422,7 @@ De volgende vragen zijn algemene beveiligingsvragen en -antwoorden voor Power BI
 
 **Welke poorten worden gebruikt door de on-premises gegevensgateway en de persoonlijke gateway? Zijn er domeinnamen die moeten worden toegestaan voor verbindingsdoeleinden?**
 
-* Het gedetailleerde antwoord op deze vraag is beschikbaar via de volgende koppeling: [https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise)
+* Het gedetailleerde antwoord op deze vraag is beschikbaar via de volgende koppeling: [Power BI Gateway](service-gateway-manage.md)
 
 **Als u werkt met de on-premises gegevensgateway, hoe worden herstelsleutels gebruikt en waar worden deze opgeslagen? Hoe zit het met het beveiligde referentiebeheer?**
 
@@ -462,13 +441,13 @@ De volgende vragen zijn algemene beveiligingsvragen en -antwoorden voor Power BI
 
   - **AMQP 1.0 – TCP + TLS**: Dit protocol vereist dat de poorten 443, 5671-5672 en 9350-9354 open staan voor uitgaande communicatie. Dit protocol heeft de voorkeur vanwege de lagere overhead aan communicatie.
 
-  - **HTTPS – WebSockets via HTTPS + TLS**: Dit protocol gebruikt alleen poort 443. De WebSocket wordt geïnitieerd door één HTTP CONNECT-bericht. Nadat het kanaal is ingesteld, is de communicatie in feite TCP + TLS. U kunt afdwingen dat de gateway dit protocol gebruikt door een instelling te wijzigen, dat wordt beschreven in het artikel [On-premises gateway](https://powerbi.microsoft.com/documentation/powerbi-gateway-onprem/).
+  - **HTTPS – WebSockets via HTTPS + TLS**: Dit protocol gebruikt alleen poort 443. De WebSocket wordt geïnitieerd door één HTTP CONNECT-bericht. Nadat het kanaal is ingesteld, is de communicatie in feite TCP + TLS. U kunt afdwingen dat de gateway dit protocol gebruikt door een instelling te wijzigen, dat wordt beschreven in het artikel [On-premises gateway](service-gateway-manage.md).
 
 **Wat is de rol van Azure CDN in Power BI?**
 
 * Zoals eerder vermeld, gebruikt Power BI het **Azure Content Delivery Network (CDN)** om de benodigde statische inhoud en bestanden op een efficiënte manier te distribueren naar gebruikers op basis van geografische landinstelling. Specifieker gezegd, de Power BI-service maakt gebruik van meerdere **CDN's** om de benodigde statische inhoud en bestanden op een efficiënte manier te distribueren naar gebruikers via het openbare internet. Deze statische bestanden bevatten productdownloads (zoals **Power BI Desktop**, de **on-premises gegevensgateway** of Power BI-apps van verschillende onafhankelijke serviceproviders), browserconfiguratiebestanden die worden gebruikt om volgende verbindingen met de Power BI-service te initiëren en tot stand te brengen, en de eerste, beveiligde Power BI-aanmeldingspagina.
 
-  Op basis van informatie die tijdens een eerste verbinding met de Power BI-service wordt opgegeven, neemt de browser van een gebruiker contact op met de opgegeven Azure **CDN** (of voor bepaalde bestanden de **WFE**) voor het downloaden van de verzameling opgegeven algemene bestanden die nodig zijn voor de interactie van de browser met de Power BI-service. De browserpagina bevat dan tijdens de duur van de browsersessie van de Power BI-service het AAD-token, sessiegegevens, de locatie van het gekoppelde **Back-end**-cluster en de verzameling bestanden die zijn gedownload uit het Azure **CDN**- en **WFE**-cluster.
+  Op basis van informatie die tijdens een eerste verbinding met de Power BI-service wordt opgegeven, neemt de browser van een gebruiker contact op met de opgegeven Azure **CDN** (of voor bepaalde bestanden de **WFE**) voor het downloaden van de verzameling opgegeven algemene bestanden die nodig zijn voor de interactie van de browser met de Power BI-service. De browserpagina bevat dan tijdens de duur van de browsersessie van de Power BI-service het AAD-token, sessiegegevens, de locatie van het gekoppelde **back-endcluster** en de verzameling bestanden die zijn gedownload uit het Azure **CDN**- en **WFE**-cluster.
 
 **Voert Microsoft voor aangepaste visuals beveiligings- of privacyevaluaties van de aangepaste visualcode uit voordat items worden gepubliceerd in de galerie?**
 
@@ -476,7 +455,7 @@ De volgende vragen zijn algemene beveiligingsvragen en -antwoorden voor Power BI
 
 **Zijn er andere Power BI-visuals waarmee gegevens buiten het klantnetwerk worden verzenden?**
 
-* Ja. Met Bing Maps- en ESRI-visuals worden gegevens buiten de Power BI-service verzonden voor visuals die gebruikmaken van deze services. Zie [**Power BI en ExpressRoute**](https://powerbi.microsoft.com/documentation/powerbi-admin-power-bi-expressroute/) voor meer informatie en gedetailleerde beschrijvingen van tenantverkeer dat buiten Power BI plaatsvindt.
+* Ja. Met Bing Maps- en ESRI-visuals worden gegevens buiten de Power BI-service verzonden voor visuals die gebruikmaken van deze services. Zie [**Power BI en ExpressRoute**](service-admin-power-bi-expressroute.md) voor meer informatie en gedetailleerde beschrijvingen van tenantverkeer dat buiten Power BI plaatsvindt.
 
 **Hoe zit het met onafhankelijkheid van gegevens? Kunnen er tenants in datacenters op specifieke locaties worden ingericht zodat de gegevens niet over de landsgrenzen gaan?**
 
@@ -490,25 +469,25 @@ De volgende vragen zijn algemene beveiligingsvragen en -antwoorden voor Power BI
 
 ## <a name="conclusion"></a>Conclusie
 
-De Power BI-service-architectuur is gebaseerd op twee clusters: het cluster Web Front End (WFE) en het cluster Back-End. Het cluster WFE verantwoordelijk is voor de eerste verbinding en verificatie met de Power BI-service. Eenmaal geverifieerd, verwerkt de Back-End alle daaropvolgende gebruikersinteracties. Power BI maakt gebruik van Azure Active Directory (AAD) om gebruikers-id's op te slaan en beheren en beheert de opslag van gegevens en metagegevens met respectievelijk Azure Blob en Azure SQL Database.
+De Power BI-service-architectuur is gebaseerd op twee clusters: het cluster Web Front End (WFE) en het back-endcluster. Het cluster WFE verantwoordelijk is voor de eerste verbinding en verificatie met de Power BI-service. Eenmaal geverifieerd, verwerkt de Back-End alle daaropvolgende gebruikersinteracties. Power BI maakt gebruik van Azure Active Directory (AAD) om gebruikers-id's op te slaan en beheren en beheert de opslag van gegevens en metagegevens met respectievelijk Azure Blob en Azure SQL Database.
 
 Gegevensopslag en gegevensverwerking in Power BI verschillen al naar gelang de gegevens worden geopend met behulp van een DirectQuery en zijn ook afhankelijk van of de gegevensbronnen zich in de cloud of on-premises bevinden. Power BI is tevens geschikt voor het afdwingen van beveiliging op rolniveau (RLS) en communiceert met gateways die toegang bieden tot on-premises gegevens.
 
 ## <a name="feedback-and-suggestions"></a>Feedback en suggesties
 
-We stellen uw feedback op prijs. We horen graag of u suggesties hebt voor verbeteringen, aanvullingen of verduidelijkingen van dit technische document of van andere inhoud met betrekking tot Power BI. Stuur uw suggesties naar [ pbidocfeedback@microsoft.com ](mailto:pbidocfeedback@microsoft.com).
+We stellen uw feedback op prijs. We horen graag of u suggesties hebt voor verbeteringen, aanvullingen of verduidelijkingen van dit technische document of van andere inhoud met betrekking tot Power BI. Stuur uw suggesties naar [pbidocfeedback@microsoft.com](mailto:pbidocfeedback@microsoft.com).
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
-Raadpleeg de volgende resources voor aanvullende informatie over Power BI.
+Raadpleeg de volgende resources voor meer informatie over Power BI.
 
 - [Groepen in Power BI](https://support.powerbi.com/knowledgebase/articles/654247)
 - [Getting Started with Power BI Desktop](https://support.powerbi.com/knowledgebase/articles/471664) (Aan de slag met Power BI Desktop)
-- [Power BI Gateway](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise/)
+- [Power BI Gateway](service-gateway-manage.md)
 - [Overzicht van de REST API voor Power BI](https://msdn.microsoft.com/library/dn877544.aspx)
 - [Naslag voor API van Power BI](https://msdn.microsoft.com/library/mt147898.aspx)
-- [On-premises data gateway](https://powerbi.microsoft.com/documentation/powerbi-gateway-onprem/) (On-premises gegevensgateway)
-- [Power BI en ExpressRoute](https://powerbi.microsoft.com/documentation/powerbi-admin-power-bi-expressroute/)
+- [On-premises data gateway](service-gateway-manage.md) (On-premises gegevensgateway)
+- [Power BI en ExpressRoute](service-admin-power-bi-expressroute.md)
 - [Onafhankelijke Power BI-clouds](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
-- [Kerberos gebruiken voor eenmalige aanmelding (SSO) bij on-premises gegevensbronnen vanuit Power BI](https://docs.microsoft.com/power-bi/service-gateway-kerberos-for-sso-pbi-to-on-premises-data)
+- [Kerberos gebruiken voor eenmalige aanmelding (SSO) bij on-premises gegevensbronnen vanuit Power BI](service-gateway-sso-overview.md)

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a4f10253619393ffd9807b1e33730a4dd37a47ff
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f96e5235aba6f90e6f80286ebfb409004ccd5052
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277383"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580238"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Uw Power BI-dashboards en -rapporten delen met collega's en anderen
 *Delen* is een goede manier om enkele personen toegang te geven tot uw dashboards en rapporten. Power BI ondersteunt ook [verschillende andere manieren om samen te werken en uw dashboards en rapporten te distribueren](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -98,13 +98,15 @@ Wanneer u inhoud deelt met personen buiten uw organisatie, krijgen zij een e-mai
 
 Nadat ze zich hebben aangemeld, zien ze het gedeelde dashboard of rapport in een eigen browservenster zonder het linkernavigatiedeelvenster, dus niet in de gebruikelijke Power BI-portal. Ze moeten een bladwijzer voor de koppeling toevoegen om dit dashboard of rapport in de toekomst te kunnen bekijken.
 
-Ze kunnen geen inhoud van dit dashboard of rapport bewerken. Ze kunnen interactie hebben met de grafieken en filters of slicers wijzigen in het rapport, maar ze kunnen hun wijzigingen niet opslaan.
+Ze kunnen geen inhoud van dit dashboard of rapport bewerken. Ze kunnen interactie hebben met de grafieken en filters of slicers wijzigen in het rapport, maar ze kunnen hun wijzigingen niet opslaan. 
 
 Alleen uw directe ontvangers kunnen het gedeelde dashboard of rapport zien. Als u bijvoorbeeld een uitnodiging stuurt naar Vicki@contoso.com, kan alleen Vicki het dashboard zien. Niemand anders kan dat dashboard zien, zelfs niet als ze de koppeling hebben, en Vicki moet hetzelfde e-mailadres gebruiken om toegang te krijgen tot dit dashboard. Als ze zich aanmeldt met een ander e-mailadres, heeft ze ook geen toegang tot het dashboard.
 
 Personen buiten uw organisatie kunnen helemaal geen gegevens zien als rolbeveiliging of beveiliging op rijniveau is geïmplementeerd op on-premises tabellaire modellen van Analysis Services.
 
 Als u vanuit een mobiele app van Power BI een koppeling verstuurt naar personen buiten uw organisatie, wordt het dashboard na het klikken op de koppeling geopend in een browser, niet in de mobiele Power BI-app.
+
+Als de gastgebruikers zijn ingeschakeld met behulp van [Externe gastgebruikers toestaan om inhoud in de organisatie te bewerken en te beheren](service-admin-portal.md#export-and-sharing-settings), is de standaardervaring Alleen verbruik niet op deze gebruikers van toepassing. [Meer informatie](service-admin-azure-ad-b2b.md)
 
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 Houd rekening met de volgende zaken bij het delen van dashboards en rapporten:

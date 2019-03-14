@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 03/06/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a48ad26b9da5d5dba9fa04ab74301da7e1265d0b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 4b017ae02ee88df47e426466c212ed6d87a2f92a
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292043"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580031"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI voor klanten uit de Amerikaanse overheid
 Er is als onderdeel van **Office 365 US Government Community**-abonnement een versie van de **Power BI-service** beschikbaar voor Amerikaanse overheidsklanten. De versie van de **Power BI-service** die in dit artikel wordt besproken, is specifiek ontworpen voor Amerikaanse overheidsklanten en staat los en verschilt van de commerciële versie van de **Power BI-service**.
@@ -54,7 +54,7 @@ De IP-adresruimten zijn beschikbaar in de openbare cloud, maar voor de cloud van
 ## <a name="limitations-of-power-bi-us-government"></a>Beperkingen van Power BI voor de Amerikaanse overheid
 Enkele van de functies die beschikbaar in de commerciële versie van de **Power BI-service** zijn *niet* beschikbaar in de **Power BI-service** voor Amerikaanse overheidsklanten. Het Power BI-team is actief bezig met het beschikbaar maken van deze functies voor Amerikaanse overheidsklanten. Dit artikel wordt bijgewerkt zodra de functies beschikbaar zijn.
 
-* **Insluiten in SharePoint Online**: het is niet mogelijk inhoud in te sluiten in SharePoint Online met het Power BI-webonderdeel.
+* **Insluiten in SharePoint Online**: het is niet mogelijk inhoud in te sluiten in SharePoint Online met het Power BI-webonderdeel. Beveiligd insluiten werkt echter wel als u het [webonderdeel *Insluiten*](https://docs.microsoft.com/power-bi/service-embed-secure) gebruikt. U moet *app.powerbigov.us* aan de lijst met uitzonderingen toevoegen. Volg hiervoor de instructies in het artikel [De mogelijkheid van het insluiten van inhoud op SharePoint-pagina's toestaan of beperken](https://support.office.com/article/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b).
 * **Power BI voor de Amerikaanse overheid** is alleen beschikbaar met een **Pro**-licentie. Power BI Free-licenties waarnaar wordt verwezen in een beheerportal (of een portal voor gebruikers) worden uitgevoerd in een commerciële Power BI-servicecloud.
 * **Controleren**: controleren is nu, vanaf juni 2018, beschikbaar via de Office 365-portal Beveiliging en naleving.
 * **Power BI-inhoud in Cortana** - resultaten voor Power BI wordt niet weergegeven in zoekresultaten van Cortana, waaronder resultaten voor uw Power BI-inhoud (dashboards, rapporten en apps) en tevens resultaten die voor Cortana geoptimaliseerde rapportpagina's weergeven voor specifieke trefwoorden.

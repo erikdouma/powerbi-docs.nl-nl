@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: a4180f211a2b31a8610d410a74e0cca25dcdad15
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.openlocfilehash: ca9a2eff3d05ec10c83dde90eabb779370ca5e96
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014640"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757341"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
@@ -192,6 +192,13 @@ De volgende afbeelding toont het menu **Bestand** voor een rapport wanneer de in
 
 ![Rapport afdrukken](media/service-admin-portal/powerbi-admin-print-report.png)
 
+### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>Externe gastgebruikers toestaan om inhoud in de organisatie te bewerken en te beheren
+Azure B2B-gastgebruikers kunnen inhoud in de organisatie bewerken en beheren. [Meer informatie](service-admin-azure-ad-b2b.md)
+
+In de volgende afbeelding ziet u de optie Externe gastgebruikers toestaan om inhoud in de organisatie te bewerken en te beheren.
+
+![Externe gastgebruikers toestaan om inhoud in de organisatie te bewerken en te beheren](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
+
 ## <a name="content-pack-and-app-settings"></a>Instellingen voor inhoudspakket en app
 
 ### <a name="publish-content-packs-and-apps-to-the-entire-organization"></a>Inhoudspakketten en apps naar de volledige organisatie publiceren
@@ -243,10 +250,45 @@ Gebruikers in de organisatie kunnen aangepaste visuele elementen gebruiken en de
 > [!NOTE]
 > Deze instelling kan worden toegepast op de hele organisatie of kan worden beperkt tot specifieke groepen.
 
+
+Power BI Desktop (vanaf de versie van maart 2019) ondersteunt het gebruik van het **Groepsbeleid** om het gebruik van aangepaste visuals op de geïmplementeerde computers van een organisatie uit te schakelen.
+
+<table>
+<tr><th>Kenmerk</th><th>Waarde</th>
+</tr>
+<td>sleutel</td>
+    <td>Software\Policies\Microsoft\Power BI Desktop\</td>
+<tr>
+<td>valueName</td>
+<td>EnableCustomVisuals</td>
+</tr>
+</table>
+
+Met de waarde 1 (decimaal) schakelt u het gebruik van aangepaste visuals in Power BI in (dit is de standaardinstelling).
+
+Met de waarde 0 (decimaal) schakelt u het gebruik van aangepaste visuals in Power BI uit.
+
 ### <a name="allow-only-certified-visuals"></a>Alleen gecertificeerde visuals toestaan
 
 Gebruikers in de organisatie die zijn gemachtigd om aangepaste visuals toe te voegen en te gebruiken, aangeduid met de instelling Aangepaste visuals toevoegen en gebruiken, kunnen alleen [gecertificeerde aangepaste visuals](https://go.microsoft.com/fwlink/?linkid=2002010) gebruiken (niet-gecertificeerde visuals worden geblokkeerd en leveren een foutbericht op bij gebruik). 
 
+
+Power BI Desktop (vanaf de versie van maart 2019) ondersteunt het gebruik van het **Groepsbeleid** om het gebruik van niet-gecertificeerde aangepaste visuals op de geïmplementeerde computers van een organisatie uit te schakelen.
+
+<table>
+<tr><th>Kenmerk</th><th>Waarde</th>
+</tr>
+<td>sleutel</td>
+    <td>Software\Policies\Microsoft\Power BI Desktop\</td>
+<tr>
+<td>valueName</td>
+<td>EnableUncertifiedVisuals</td>
+</tr>
+</table>
+
+Met de waarde 1 (decimaal) schakelt u het gebruik van niet-gecertificeerde aangepaste visuals in Power BI in (dit is de standaardinstelling).
+
+Met de waarde 0 (decimaal) schakelt u het gebruik van niet-gecertificeerde aangepaste visuals in Power BI uit (met deze optie schakelt u alleen het gebruik van [gecertificeerde aangepaste visuals](https://go.microsoft.com/fwlink/?linkid=2002010) in).
 
 ## <a name="r-visuals-settings"></a>Instellingen voor R-visuals
 

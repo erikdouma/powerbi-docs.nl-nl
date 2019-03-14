@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e71844110eb3452cbcb3b224bbca9db57475367e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 08536d412796b1516b689ed728af0126330edf93
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282167"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580128"
 ---
 # <a name="where-is-my-power-bi-tenant-located"></a>Waar bevindt mijn Power BI-tenant zich?
 
@@ -29,7 +29,7 @@ Volg deze stappen om vast te stellen in welke regio uw tenant zich bevindt.
 
 1. Selecteer in de Power BI-service in het bovenste menu Help (**?**) en vervolgens **Over Power BI**.
 
-1. Kijk naar de waarde naast **Uw gegevens worden opgeslagen in**. Dit is de regio waar uw tenant zich bevindt.
+1. Kijk naar de waarde naast **Uw gegevens worden opgeslagen in**. Dit is de regio waar uw tenant zich bevindt. Dit is ook de regio waarin uw gegevens worden opgeslagen, tenzij u toegewezen capaciteiten in verschillende regio's voor uw werkruimten gebruikt.
 
     ![Gegevensgebied](media/service-admin-where-is-my-tenant-located/power-bi-data-region.png)
 

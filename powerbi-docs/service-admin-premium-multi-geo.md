@@ -1,5 +1,5 @@
 ---
-title: Ondersteuning voor Multi-Geo voor Power BI Premium (preview-versie)
+title: Ondersteuning van Multi-Geo voor Power BI Premium
 description: Lees hoe u inhoud kunt implementeren naar datacenters in andere regio's dan de basisregio van de Power BI-tenant.
 author: minewiskan
 ms.author: owend
@@ -10,14 +10,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: bdbcb949ffe29efc4170391774da0863568e97e8
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: dfa412e32c49e0b3de406f2665fcd9bd6d1a345e
+ms.sourcegitcommit: bd1f0178fd9df152f9e9be57da415829f42116e9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794664"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57571974"
 ---
-# <a name="multi-geo-support-for-power-bi-premium-preview"></a>Ondersteuning voor Multi-Geo voor Power BI Premium (preview-versie)
+# <a name="multi-geo-support-for-power-bi-premium"></a>Ondersteuning van Multi-Geo voor Power BI Premium
 
 Ondersteuning voor meerdere geografische gebieden is een functie van Power BI Premium waarmee multinationale klanten kunnen inspelen op regionale en branchespecifieke vereisten of vereisten ten aanzien van de opslaglocatie van organisatiegegevens. Als een klant van Power BI Premium kunt u inhoud implementeren naar datacenters in andere regio's dan de basisregio van de Power BI-tenant. Een geografisch gebied kan meer dan één regio omvatten. De Verenigde Staten is bijvoorbeeld een geografische gebied, terwijl US - west-centraal en US - zuid-centraal regio's zijn in de Verenigde Staten. U kunt aangeven dat u inhoud wilt distribueren naar een van de volgende geografische gebieden:
 
@@ -33,7 +33,7 @@ Ondersteuning voor meerdere geografische gebieden is een functie van Power BI Pr
 
 Ondersteuning voor meerdere geografische gebieden is niet beschikbaar voor Power BI Duitsland, Power BI China uitgevoerd door 21Vianet of Power BI voor de Amerikaanse overheid.
 
-Multi-Geo is nu ook beschikbaar in Power BI Embedded. Lees meer op [Ondersteuning voor Multi-Geo in Power BI Embedded (preview-versie)](developer/embedded-multi-geo.md).
+Multi-Geo is nu ook beschikbaar in Power BI Embedded. Lees meer op [Ondersteuning voor Multi-Geo in Power BI Embedded](developer/embedded-multi-geo.md).
 
 ## <a name="using-multi-geo"></a>Meerdere geografische gebieden gebruiken
 

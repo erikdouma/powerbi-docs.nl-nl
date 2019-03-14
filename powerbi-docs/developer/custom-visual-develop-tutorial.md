@@ -1,20 +1,20 @@
 ---
 title: Een aangepaste visual voor Power BI ontwikkelen
 description: Een zelfstudie over hoe u een aangepaste Power BI-visual ontwikkelt
-author: markingmyname
-ms.author: maghan
+author: sranins
+ms.author: rasala
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: aab20c4056310e1e8b737b23e07450b0e5d4959c
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
+ms.openlocfilehash: 9edb234e36ee980e148482f0a86d390252404c1e
+ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249316"
+ms.lasthandoff: 03/09/2019
+ms.locfileid: "57695168"
 ---
 # <a name="tutorial-developing-a-power-bi-custom-visual"></a>Zelfstudie: Een aangepaste visual voor Power BI ontwikkelen
 
@@ -204,6 +204,9 @@ U kunt de volledige broncode voor deze zelfstudie [downloaden](https://github.co
     pbiviz new CircleCard
     ```
     ![Nieuwe CircleCard-resultaat](media/custom-visual-develop-tutorial/new-circle-card-result.png)
+
+    > [!Note]
+    > U maakt het nieuwe project op de huidige locatie van de prompt.
 
 4. Navigeer naar de projectmap.
 

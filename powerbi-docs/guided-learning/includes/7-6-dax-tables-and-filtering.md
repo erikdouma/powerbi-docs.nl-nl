@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: d7f30dd43fe875380939520f3dc54fcbbe2f4c9c
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555952"
+---
 Een belangrijk verschil tussen **DAX** en de formuletaal in Excel is dat u met DAX *gehele tabellen* in expressies kunt opnemen, zodat u niet bent beperkt tot één enkele waarde. Met DAX kunt u tabellen in expressies filteren en vervolgens werken met de gefilterde reeks waarden.
 
 ![](media/7-6-dax-tables-and-filtering/dax-tables-filtering_1.png)

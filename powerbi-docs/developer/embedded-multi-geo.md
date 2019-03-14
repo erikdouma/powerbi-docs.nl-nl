@@ -1,5 +1,5 @@
 ---
-title: Ondersteuning voor Multi-Geo voor Power BI Embedded (preview-versie)
+title: Ondersteuning voor Multi-Geo voor Power BI Embedded
 description: Lees hoe u inhoud kunt implementeren naar datacenters in andere regio's dan de basisregio van Power BI Embedded.
 author: markingmyname
 ms.author: maghan
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 25627709af2faa78fd30b28cffba21d1442e0d3f
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: d139f96b6aec2db23b2eabc54c3fa326e4762766
+ms.sourcegitcommit: bd1f0178fd9df152f9e9be57da415829f42116e9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762416"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57572020"
 ---
-# <a name="multi-geo-support-for-power-bi-embedded-preview"></a>Ondersteuning voor Multi-Geo voor Power BI Embedded (preview-versie)
+# <a name="multi-geo-support-for-power-bi-embedded"></a>Ondersteuning voor Multi-Geo voor Power BI Embedded
 
-**Ondersteuning voor Multi-Geo voor Power BI Embedded (preview-versie)** betekent dat internetproviders en organisaties die toepassingen bouwen met Power BI Embedded voor het insluiten van analyses in hun apps, nu hun gegevens in verschillende regio's overal ter wereld kunnen implementeren.
+**Ondersteuning voor Multi-Geo voor Power BI Embedded** betekent dat internetproviders en organisaties die toepassingen bouwen met Power BI Embedded voor het insluiten van analyses in hun apps, nu hun gegevens in verschillende regio's overal ter wereld kunnen implementeren.
 
 Klanten die **Power BI Embedded** gebruiken, kunnen nu een **A-capaciteit** instellen met **Multi-Geo**-opties, op basis van dezelfde functies en beperkingen die door [Power BI Premium worden ondersteund met Multi-Geo](../service-admin-premium-Multi-Geo.md).
 

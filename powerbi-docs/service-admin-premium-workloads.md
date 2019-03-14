@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/26/2019
+ms.date: 03/11/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 5b9bec67fef672d219b11bf3b3750959e72410b6
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: 0baab138ee98d2ec96bc9f47e6e727525a57ed3e
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226061"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757241"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Workloads configureren in een Premium-capaciteit
 
@@ -23,7 +23,7 @@ In dit artikel wordt het inschakelen en configureren van workloads voor Power BI
 
 ## <a name="configure-workloads"></a>Workloads configureren
 
-U kunt extra workloads inschakelen en configureren voor [gegevensstromen](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium) en [gepagineerde rapporten](paginated-reports-save-to-power-bi-service.md). De standaardgeheugenwaarden voor deze workloads zijn gebaseerd op de capaciteitsknooppunten die voor uw SKU beschikbaar zijn. De maximale geheugeninstellingen zijn niet cumulatief. Het geheugen tot de opgegeven maximumwaarde wordt dynamisch toegewezen voor gegevensstromen, maar statisch voor gepagineerde rapporten. 
+U kunt extra workloads inschakelen en configureren voor AI, [gegevensstromen](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium) en [gepagineerde rapporten](paginated-reports-save-to-power-bi-service.md). De standaardgeheugenwaarden voor deze workloads zijn gebaseerd op de capaciteitsknooppunten die voor uw SKU beschikbaar zijn. De maximale geheugeninstellingen zijn niet cumulatief. Het geheugen tot de opgegeven maximumwaarde wordt dynamisch toegewezen voor AI en gegevensstromen, maar statisch voor gepagineerde rapporten. 
 
 ### <a name="to-configure-workloads-in-the-power-bi-admin-portal"></a>Workloads configureren in de Power BI-beheerportal
 
