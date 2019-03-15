@@ -54,16 +54,16 @@ Stel u voor dat de volgende *standaardleden* zijn ingesteld voor deze kolommen:
 
 * Plaats > Seattle
 * Staat > WA
-* Land > VS
+* Land/regio > VS
 * Populatie > Groot
 
 Bekijk nu wat er gebeurt als elk van deze kolommen wordt gebruikt in Power BI. Als visuals worden gegroepeerd in de volgende kolommen, zijn dit de resultaten:
 
-* **Plaats** - Power BI geeft alle plaatsen weer door alle **standaardleden** voor *Plaats*, *Staat* en *Land* te wissen, maar behoudt het **standaardlid** voor *Populatie*; Power BI heeft de volledige ARP gewist voor *Plaats*.
+* **Plaats** - Power BI geeft alle plaatsen weer door alle **standaardleden** voor *Plaats*, *Staat* en *Land/regio* te wissen, maar behoudt het **standaardlid** voor *Populatie*; Power BI heeft de volledige ARP gewist voor *Plaats*.
     > [!NOTE]
     > *Populatie* staat niet in het ARP-pad van *Plaats* en heeft uitsluitend betrekking op *Staat*, waardoor Power BI het niet wist.
-* **Staat** - Power BI geeft alle *Staten* weer door de **standaardleden** voor *Plaats*, *Staat*, *Land* en *Populatie* te wissen.
-* **Land** - Power BI geeft alle landen weer door alle **standaardleden** voor *Plaats*, *Staat* en *Land* te wissen, maar behoudt het **standaardlid** voor *Populatie*.
+* **Staat** - Power BI geeft alle *Staten* weer door de **standaardleden** voor *Plaats*, *Staat*, *Land/regio* en *Populatie* te wissen.
+* **Land/regio** - Power BI geeft alle landen weer door alle **standaardleden** voor *Plaats*, *Staat* en *Land/regio* te wissen, maar behoudt het **standaardlid** voor *Populatie*.
 * **Plaats en Staat** - Power BI wist alle **standaardleden** voor alle kolommen.
 
 Het volledige ARP-pad wordt gewist van groepen die in de visual worden weergegeven. 
